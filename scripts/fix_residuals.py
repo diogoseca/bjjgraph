@@ -13,7 +13,7 @@ snapshot — never silently blessed. Resumable per shard; same fail-fast quota b
 review_mc (a failed call leaves the card un-done).
 
 Usage:
-  python3 scripts/fix_residuals.py [--model claude-opus-4-8] [--num-shards N --shard I]
+  python3 scripts/fix_residuals.py [--model MODEL] [--num-shards N --shard I]
                                    [--max-cards N] [--count-only] [--dry-run]
 Then: validate:json && regenerate:graph-base && regenerate:neural && validate:mc && e2e && commit.
 """
@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from author_mc import iter_flashcard_holders  # noqa: E402
 from review_mc import is_authored, is_safety_critical, review_batch  # noqa: E402
 from salvage_mc import categorize, is_safety, salvage_card  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 RESIDUALS = ROOT / "tests/artifacts/mc_residuals.json"
 STATE_DIR = ROOT / "logs/mc_fix_residuals"
@@ -91,7 +92,7 @@ def locate(file_basename: str, question: str):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-opus-5")
+    ap.add_argument("--model", default=_model_tier())
     ap.add_argument("--max-cards", type=int, default=0)
     ap.add_argument("--count-only", action="store_true")
     ap.add_argument("--dry-run", action="store_true")

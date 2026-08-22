@@ -15,7 +15,7 @@
   "submission_type": "Leg Lock",
   "target_area": "Ankle, talocrural joint, and lateral ankle ligaments",
   "starting_position": "50-50 Guard",
-  "from_position": "50-50 Guard/Bottom",
+  "from_position": "50-50 Guard/Top",
   "success_rate": {
     "gi": 60,
     "nogi": 60

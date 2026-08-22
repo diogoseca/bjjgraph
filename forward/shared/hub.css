@@ -2,8 +2,7 @@
   min-height: 100vh;
   padding: 0 clamp(18px, 5vw, 72px) 72px;
   overflow: hidden;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 78% 18%,
       rgba(86, 105, 190, 0.18),
       transparent 28%
@@ -193,6 +192,183 @@
   line-height: 1.5;
 }
 
+.hub-scope {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.7fr) minmax(400px, 1.3fr);
+  gap: clamp(20px, 4vw, 56px);
+  align-items: start;
+}
+
+.hub-scope-copy h2 {
+  margin: 8px 0 10px;
+  font: 700 clamp(20px, 2.4vw, 30px) / 1.15 var(--fc-display);
+}
+
+.hub-scope-copy p {
+  max-width: 40ch;
+  color: var(--fc-faint);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.hub-scope-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hub-scope-list li {
+  padding: 11px 14px;
+  border: 1px solid var(--fc-border);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--fc-faint);
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+
+.hub-scope-list b {
+  color: var(--fc-text);
+  font-weight: 700;
+}
+
+.hub-scope-list em {
+  color: #e9bd70;
+  font-style: normal;
+}
+
+.hub-scope-list a {
+  color: #9ab0e0;
+}
+
+@media (max-width: 860px) {
+  .hub-scope {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hub-tools {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: minmax(260px, 0.7fr) minmax(420px, 1.3fr);
+  gap: clamp(24px, 5vw, 72px);
+  align-items: center;
+  padding-top: 48px;
+  border-top: 1px solid var(--fc-border);
+}
+
+.hub-tools-copy small,
+.hub-tool-card span {
+  color: #73e7df;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.hub-tools-copy h2 {
+  margin: 12px 0;
+  font: 700 clamp(28px, 4vw, 52px) / 0.98 var(--fc-display);
+  letter-spacing: -0.05em;
+}
+
+.hub-tools-copy p,
+.hub-tool-card p {
+  margin: 0;
+  color: var(--fc-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.hub-tool-card {
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: minmax(150px, 0.75fr) minmax(220px, 1fr);
+  gap: 28px;
+  align-items: center;
+  padding: clamp(22px, 3vw, 38px);
+  border: 1px solid rgba(115, 231, 223, 0.2);
+  border-radius: 18px 18px 62px 18px;
+  background: radial-gradient(
+      circle at 18% 50%,
+      rgba(115, 231, 223, 0.1),
+      transparent 38%
+    ),
+    rgba(16, 20, 34, 0.88);
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.hub-tool-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(115, 231, 223, 0.5);
+}
+
+.hub-tool-card h3 {
+  margin: 9px 0 8px;
+  font: 700 clamp(22px, 3vw, 34px) / 1 var(--fc-display);
+  letter-spacing: -0.035em;
+}
+
+.hub-tool-card b {
+  display: block;
+  margin-top: 28px;
+  color: #d7f8f5;
+  font-size: 10px;
+}
+
+.hub-wave {
+  height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-left: 1px solid rgba(115, 231, 223, 0.24);
+  border-right: 1px solid rgba(115, 231, 223, 0.1);
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 18%,
+    #000 82%,
+    transparent
+  );
+}
+
+.hub-wave i {
+  width: 4px;
+  border-radius: 4px;
+  background: #73e7df;
+  box-shadow: 0 0 12px rgba(115, 231, 223, 0.4);
+}
+
+.hub-wave i:nth-child(1),
+.hub-wave i:nth-child(9) {
+  height: 20%;
+}
+
+.hub-wave i:nth-child(2),
+.hub-wave i:nth-child(8) {
+  height: 38%;
+}
+
+.hub-wave i:nth-child(3),
+.hub-wave i:nth-child(7) {
+  height: 65%;
+}
+
+.hub-wave i:nth-child(4),
+.hub-wave i:nth-child(6) {
+  height: 88%;
+}
+
+.hub-wave i:nth-child(5) {
+  height: 48%;
+}
+
 @media (max-width: 1080px) {
   .hub-flow {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -200,6 +376,10 @@
 
   .hub-arrow {
     display: none;
+  }
+
+  .hub-tools {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -218,5 +398,18 @@
 
   .hub-model {
     display: grid;
+  }
+
+  .hub-tools {
+    margin-top: 44px;
+  }
+
+  .hub-tool-card {
+    grid-template-columns: 1fr;
+    border-radius: 16px 16px 46px 16px;
+  }
+
+  .hub-wave {
+    height: 76px;
   }
 }

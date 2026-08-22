@@ -1,0 +1,234 @@
+.ng-logo-mark {
+  display: none;
+}
+
+.ng-tut.ng-challenge-cue {
+  position: fixed;
+  left: 16px;
+  /* Q006: must clear the bottom-docked options tray entirely — at 104px the opaque
+     interactive cue covered the first two cards' centers and stole their clicks
+     (the .ng-tut corner contract: the tray must stay clickable). */
+  bottom: 188px;
+  z-index: 7;
+  width: 270px;
+  padding: 0;
+  border: 1px solid rgba(126, 224, 168, 0.3);
+  border-radius: 12px;
+  background: rgba(15, 19, 30, 0.97);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5);
+  pointer-events: auto;
+}
+
+.ng-challenge-cue > [data-challenge-cue-open] {
+  width: 100%;
+  min-height: 72px;
+  display: block;
+  padding: 10px 34px 10px 12px;
+  border: 0;
+  background: transparent;
+  color: #dbe2f0;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-cue-head {
+  display: flex;
+  justify-content: space-between;
+  color: #7ee0a8;
+  font-size: 8.5px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+}
+
+.ng-challenge-cue b {
+  display: block;
+  margin-top: 6px;
+  font-size: 10.5px;
+}
+
+.ng-cue-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 5px;
+  color: #8793aa;
+  font-size: 8.5px;
+}
+
+.ng-cue-detail em {
+  color: #91adf4;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.ng-challenge-cue > [data-tut-hide] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #7f8ba4;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.ng-challenge-reward {
+  position: fixed;
+  top: 74px;
+  right: 20px;
+  z-index: 14;
+  width: min(300px, calc(100vw - 36px));
+  display: grid;
+  grid-template-columns: 68px 1fr 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 11px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 14px;
+  background: rgba(18, 22, 37, 0.98);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.48);
+  animation: ngCardIn 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ng-reward-patch {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed rgba(137, 176, 148, 0.65);
+  border-radius: 16px 8px;
+  background: #1b2a25;
+  color: #b8d5bf;
+  font: 900 10px/1 "Space Grotesk", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.ng-challenge-reward > div {
+  display: grid;
+  gap: 5px;
+}
+
+.ng-challenge-reward > div > small {
+  color: #7ee0a8;
+  font-size: 7.5px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.ng-challenge-reward > div > b {
+  color: #eef1f6;
+  font: 750 13px/1.15 "Space Grotesk", sans-serif;
+}
+
+.ng-challenge-reward [data-reward-collection] {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #91adf4;
+  font-family: inherit;
+  font-size: 9px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-challenge-reward [data-reward-close] {
+  width: 30px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #7f8ba4;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.ng-learning-nav button:focus-visible,
+.ng-logo:focus-visible,
+.ng-explorer-close:focus-visible,
+.ng-track-card:focus-visible,
+.ng-challenge-action:focus-visible,
+.ng-challenge-lesson:focus-visible,
+.ng-challenge-checkpoint:focus-visible,
+.ng-challenge-capstone button:focus-visible,
+.ng-challenge-cue button:focus-visible,
+.ng-challenge-reward button:focus-visible {
+  outline: 2px solid #91adf4;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .ng-logo {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    border: 1px solid rgba(150, 170, 210, 0.2) !important;
+    border-radius: 50% !important;
+    background: rgba(18, 22, 37, 0.86) !important;
+  }
+
+  .ng-logo-mark {
+    display: grid;
+    place-items: center;
+    color: #cbd4e6;
+  }
+
+  .ng-learning-nav,
+  .ng-explorer-tools {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .ng-tut.ng-challenge-cue {
+    top: 118px;
+    right: 12px;
+    bottom: auto;
+    left: 12px;
+    width: auto;
+  }
+
+  .ng-challenge-cue > [data-challenge-cue-open] {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 42px 7px 10px;
+  }
+
+  .ng-cue-head {
+    flex: none;
+    display: grid;
+    gap: 2px;
+  }
+
+  .ng-challenge-cue b {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ng-cue-detail {
+    display: none;
+  }
+
+  #neural-root:has(.ng-challenge-reward) .ng-challenge-cue {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .ng-challenge-reward {
+    top: 82px;
+    right: 12px;
+    width: calc(100vw - 24px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ng-challenge-reward {
+    transition: none;
+    animation: none;
+  }
+}

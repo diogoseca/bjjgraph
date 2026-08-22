@@ -398,7 +398,7 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 78% |
-| Submission Probability | 42% |
+| Submission Probability | 18% |
 
 **Average Time in Position**: 10-20 seconds
 

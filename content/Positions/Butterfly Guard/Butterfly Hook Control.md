@@ -221,9 +221,9 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (15% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (16% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
 
 - **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (8% of attempts)
 
@@ -235,7 +235,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
 
 - **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (4% of attempts)
 
@@ -246,8 +246,6 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (1% of attempts)
 
 - **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (2% of attempts)
-
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (3% of attempts)
 
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (4% of attempts)
 

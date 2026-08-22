@@ -112,7 +112,7 @@ What makes the Gogoplata particularly effective is its unexpected nature and the
 
 While the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition by flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.
 
-**Starting Position**: [[Positions/Rubber Guard]] · **From**: [[Positions/Gogoplata Control]] (Top)
+**Starting Position**: [[Positions/Rubber Guard]] · **From**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 

@@ -71,7 +71,7 @@ description: "How to execute Single Leg X Entry in BJJ. Attacking perspective wi
       "name": "What is the primary function of the inside leg hook in Single Leg X Entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The inside leg hook serves multiple critical functions: it prevents opponent from stepping backward to escape, creates clamping pressure by pulling their leg toward you, compromises their base by attacking one pillar of their stance, and works in conjunction with your ankle grip to create two-point control on the same leg. The hook should be positioned deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness."
+        "text": "The inside leg hook clamps behind the opponent's knee, preventing their backward escape step and pulling their leg into you to break their base. It works in conjunction with your ankle grip to create two-point control on the same leg, and the clamping pressure attacks one pillar of their stance to compromise their balance. Position the hook deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Single Leg X Entry in BJJ. Attacking perspective wi
       "name": "What are the three primary offensive pathways available after successfully entering Single Leg X position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "After establishing Single Leg X, you have three main offensive categories: (1) Sweeps to top position using the off-balancing structure you've created, typically sweeping opponent forward and over their captured leg, (2) Transitions to more complex leg entanglement positions such as Ashi Garami, Outside Ashi-Garami, X-Guard, or Deep Half Guard depending on how opponent reacts, and (3) Direct submission attacks including kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats."
+        "text": "From Single Leg X you can sweep to top position, transition to deeper leg entanglements, or attack submissions on the captured leg. Sweeps use the off-balancing structure you've created, typically sending the opponent forward and over their captured leg. Transitions lead to more complex entanglements such as Ashi Garami, Outside Ashi Garami, X-Guard, or Deep Half Guard depending on how the opponent reacts. Direct submission attacks include kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats."
       }
     },
     {

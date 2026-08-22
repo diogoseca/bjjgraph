@@ -87,7 +87,7 @@ description: "How to execute Inversion to Turtle in BJJ. Attacking perspective w
       "name": "Your opponent has deep inside leg control—should you attempt this escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. When the opponent's inside leg deeply controls your thigh, attempting turtle escape often results in them transitioning to saddle as you rotate. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning."
+        "text": "No; when the opponent's inside leg deeply controls your thigh, rotating to turtle typically lets them transition straight into the saddle. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning."
       }
     },
     {

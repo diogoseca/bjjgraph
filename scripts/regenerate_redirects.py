@@ -23,6 +23,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = PROJECT_ROOT / "content"
 PUBLIC_DIR = PROJECT_ROOT / "source" / "public"
 OUTPUT = PUBLIC_DIR / "_redirects"
+# Hand-authored rules. Quartz's Static emitter copies this to public/static/_redirects,
+# which Cloudflare NEVER reads (it only reads the deploy root) — so this script must
+# fold it into OUTPUT or the rules ship dead. See collect_authored_rules().
+AUTHORED_REDIRECTS = PROJECT_ROOT / "source" / "quartz" / "static" / "_redirects"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (alias 301 source paths)
@@ -90,10 +94,43 @@ def collect_alias_rules(seen: set[str]) -> list[str]:
     return rules
 
 
+def collect_authored_rules(seen: set[str]) -> list[str]:
+    """Carry over the hand-authored rules from source/quartz/static/_redirects.
+
+    These were being SILENTLY DISCARDED (v1.77.0 fix): this script does a full
+    `write_text` of the rules it generates, and Quartz's Static emitter only copies
+    the authored file to `public/static/_redirects`, which Cloudflare never reads —
+    it reads the deploy root. Net effect since v1.20.0: `/Training/*` and the
+    Crackhead-Control moves 404'd instead of redirecting, on exactly the old inbound
+    links and bookmarks they exist to rescue (a plausible slice of the ~11k origin
+    4xx/day in Observatory). Authored rules go FIRST so they win over any generated
+    rule with the same source path.
+    """
+    if not AUTHORED_REDIRECTS.exists():
+        return []
+    rules: list[str] = []
+    for raw in AUTHORED_REDIRECTS.read_text().splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        src = line.split()[0]
+        if src in seen:
+            continue
+        seen.add(src)
+        rules.append(line)
+    return rules
+
+
 def main() -> None:
     seen: set[str] = set()
 
-    # Alias 301s FIRST (H5): if the file is ever truncated at Cloudflare's 2000-rule
+    # Hand-authored rules FIRST — they are the ones a human decided mattered, and
+    # first-match wins in Cloudflare's static rule evaluation.
+    authored_rules = collect_authored_rules(seen)
+    if authored_rules:
+        print(f"[regenerate_redirects] {len(authored_rules)} authored rule(s) carried over")
+
+    # Alias 301s next (H5): if the file is ever truncated at Cloudflare's 2000-rule
     # limit, the high-value synonym redirects survive; only low-value case-correction
     # rules at the tail would be dropped. `seen` is shared so the classes never collide.
     alias_rules = collect_alias_rules(seen)
@@ -116,7 +153,7 @@ def main() -> None:
             seen.add(lower)
             case_rules.append(f"{lower} {canonical} 301")
 
-    rules = alias_rules + case_rules
+    rules = authored_rules + alias_rules + case_rules
 
     if len(rules) > CLOUDFLARE_STATIC_RULE_LIMIT:
         # Hard failure (H5): a silently-truncated _redirects must not ship.

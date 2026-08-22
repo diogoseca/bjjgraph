@@ -73,7 +73,7 @@ description: "Learn to execute the toe hold from Ashi Garami top position. Step-
       "name": "What anatomical structures does the toe hold primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The toe hold attacks the lateral and medial ankle ligaments through rotational torque, the Lisfranc joint (midfoot articulation) through torsional stress, the plantar fascia, and the surrounding connective tissue of the foot and ankle complex. The medial rotation creates shearing force across multiple joint surfaces simultaneously."
+        "text": "The toe hold primarily attacks the lateral and medial ankle ligaments and the Lisfranc joint of the midfoot through rotational torque. It also stresses the plantar fascia and the surrounding connective tissue of the foot and ankle complex through torsional load. The medial rotation creates shearing force across multiple joint surfaces simultaneously."
       }
     },
     {
@@ -81,7 +81,7 @@ description: "Learn to execute the toe hold from Ashi Garami top position. Step-
       "name": "What is the correct grip configuration for the toe hold from Ashi Garami?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A kimura-style figure-four grip where the primary hand cups across the toes and ball of foot with the palm against the sole and fingers hooking over the metatarsals. The reinforcing hand threads under the ankle and grips the primary hand's wrist, creating a double-lock structure that generates rotational leverage through the ankle joint."
+        "text": "The grip is a kimura-style figure-four: one hand cups the toes and ball of the foot, the other threads under the ankle to grip that wrist. The primary hand's palm sits against the sole with the fingers hooking over the metatarsals. This double-lock structure generates rotational leverage through the ankle joint."
       }
     },
     {

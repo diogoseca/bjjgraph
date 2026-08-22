@@ -107,7 +107,7 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
       "name": "What is the most common reason heel hook escapes fail at the intermediate level?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hesitation. Intermediate practitioners recognize the danger but spend 1-2 seconds assessing the position rather than reacting immediately with an explosive escape attempt. By the time they commit to escaping, the opponent has secured the heel grip and tightened the triangle to a degree that makes escape nearly impossible. The escape must be a conditioned reflex, not a conscious decision."
+        "text": "Hesitation — intermediates spend 1-2 seconds assessing the danger instead of reacting immediately with an explosive escape. By the time they commit to escaping, the opponent has secured the heel grip and tightened the triangle to a degree that makes escape nearly impossible. The escape must be a conditioned reflex, not a conscious decision."
       }
     },
     {

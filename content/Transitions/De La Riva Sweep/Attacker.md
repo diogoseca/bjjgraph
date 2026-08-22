@@ -87,7 +87,7 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
       "name": "How should you respond if your opponent steps back with their hooked leg to defend the De La Riva Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When opponent steps back, you should follow their movement by extending your body forward and transition to alternative attacks such as X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Attempting to force the original sweep against this counter is ineffective and wastes energy."
+        "text": "Follow their backward step by extending your body forward and switching to X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Forcing the original sweep against this counter is ineffective and wastes energy; the step back actually feeds their leg into these follow-up entries, so attacking pressure is maintained by flowing rather than resisting."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
       "name": "Explain the optimal timing window for initiating the De La Riva Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent commits weight forward while attempting to pass, or when they step with their far leg creating momentary base compromise. Attempting the sweep when opponent's weight is back or they maintain heavy static pressure results in low success rates. Reading weight distribution and capitalizing on movement transitions is key."
+        "text": "Initiate the sweep the moment your opponent commits weight forward to pass, or steps with their far leg and momentarily compromises their base. Attempting it while their weight is back or they hold heavy static pressure results in low success rates, so the key skill is reading weight distribution and capitalizing on movement transitions."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
       "name": "What are three common transitions if the De La Riva Sweep attempt is countered or fails?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X-Guard when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position."
+        "text": "The three key follow-ups are the Kiss of the Dragon back take, the omoplata, and X-Guard or Single Leg X-Guard. Each answers a specific defense: Kiss of the Dragon when the opponent steps back, omoplata when they post an arm to defend, and X-Guard or Single Leg X when they create distance. Maintaining attacking pressure through these transitions prevents the opponent from consolidating a passing position."
       }
     }
   ]

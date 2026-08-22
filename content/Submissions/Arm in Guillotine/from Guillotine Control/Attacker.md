@@ -103,7 +103,7 @@ description: "Learn to execute the arm-in guillotine from guillotine control wit
       "name": "What control must be established before attempting the arm-in guillotine finish from guillotine control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before finishing, you must have: established guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm fully trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly."
+        "text": "You need broken posture, the arm fully trapped inside the choking loop, a secure hand clasp, and hip pressure keeping the opponent down. Specifically: guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly."
       }
     },
     {

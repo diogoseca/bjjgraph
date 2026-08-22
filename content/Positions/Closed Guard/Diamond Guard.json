@@ -303,16 +303,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 65,
-        "description": "Diamond frame is relatively stable due to dual control system, but can be stripped by systematic grip fighting"
+        "value": 45,
+        "description": "Posture is hard to stabilise here: the overhook and head control drag the top player forward, so time spent in the frame favours the guard player"
       },
       "advancement_probability": {
-        "value": 55,
-        "description": "High probability of achieving a sweep or submission entry from diamond guard due to multiple chain options"
+        "value": 42,
+        "description": "Advancement requires clearing the overhook and head control first; no passing sequence starts until both control points are addressed"
       },
       "submission_probability": {
-        "value": 45,
-        "description": "Multiple submission chains available from diamond control — triangle, omoplata, and kimura all accessible"
+        "value": 14,
+        "description": "Little offence is available while the diamond frame holds — the trapped arm cannot post and the priority is posture recovery, not finishing"
       },
       "average_time": "30 seconds to 2 minutes before submission attempt or position change"
     },
@@ -712,15 +712,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 65,
+        "value": 72,
         "description": "Diamond frame is relatively stable due to dual control system, but can be stripped by systematic grip fighting"
       },
       "advancement_probability": {
-        "value": 55,
+        "value": 65,
         "description": "High probability of achieving a sweep or submission entry from diamond guard due to multiple chain options"
       },
       "submission_probability": {
-        "value": 45,
+        "value": 50,
         "description": "Multiple submission chains available from diamond control — triangle, omoplata, and kimura all accessible"
       },
       "average_time": "30 seconds to 2 minutes before submission attempt or position change"

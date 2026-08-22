@@ -160,7 +160,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Gogoplata/from Gogoplata Control|Gogoplata Control]] | Top | 40% | [[Submissions/Gogoplata/from Gogoplata Control/Attacker|Attack →]] | [[Submissions/Gogoplata/from Gogoplata Control/Defender|Defend →]] |
+| [[Submissions/Gogoplata/from Gogoplata Control|Gogoplata Control]] | Bottom | 40% | [[Submissions/Gogoplata/from Gogoplata Control/Attacker|Attack →]] | [[Submissions/Gogoplata/from Gogoplata Control/Defender|Defend →]] |
 
 
 </div>

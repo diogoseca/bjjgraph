@@ -1,15 +1,20 @@
 {
   "name": "bjjgraph",
-  "version": "1.73.0",
+  "version": "1.129.5",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
     "serve": "node scripts/dev-serve.mjs",
     "build:forward": "node scripts/build_forward_components.mjs",
-    "dev:neural": "node neural/build/build.mjs && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && python3 scripts/regenerate_neural_data.py && cp -r source/quartz/static/neural/. source/public/static/neural/ && echo 'neural refreshed (~seconds) — reload the browser'",
+    "validate:forward": "node scripts/check_forward_catalog.mjs",
+    "dev:neural": "node neural/build/build.mjs && python3 scripts/regenerate_neural_data.py && cp -r source/quartz/static/neural/. source/public/static/neural/ && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'neural refreshed (~seconds) — reload the browser'",
     "dev:neural:app": "node neural/build/build.mjs && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) — reload the browser'",
     "dev": "npm run build && npm run serve",
     "validate:json": "python3 scripts/validate_json.py --all",
+    "validate:headers": "python3 scripts/check_headers_cache.py",
+    "validate:payload": "python3 scripts/check_payload_budget.py",
+    "validate:seo": "python3 scripts/check_seo_parity.py",
+    "validate:affiliate": "python3 scripts/check_affiliate_surface.py",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",
     "validate:curriculum": "python3 scripts/validate_curriculum.py",
     "validate:mc": "python3 scripts/audit_mc_viability.py --gate",
@@ -25,7 +30,7 @@
     "regenerate:graph-base": "python3 scripts/regenerate_graph.py",
     "regenerate:graph-layout": "python3 scripts/regenerate_graph_layout.py",
     "regenerate:graph-strength": "python3 scripts/enrich_graph_strength.py",
-    "regenerate:graph": "npm run regenerate:graph-base && npm run regenerate:graph-layout && npm run regenerate:graph-strength",
+    "regenerate:graph": "npm run regenerate:graph-base && npm run regenerate:graph-layout && npm run regenerate:ordinals && npm run regenerate:graph-strength",
     "regenerate:votes": "python3 scripts/regenerate_votes.py",
     "regenerate:explorer": "python3 scripts/regenerate_explorer_tree.py",
     "regenerate:neural": "node neural/build/build.mjs && python3 scripts/regenerate_neural_data.py && mkdir -p source/quartz/static/neural/app && cp neural/dist/* source/quartz/static/neural/app/",
@@ -37,7 +42,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && npx quartz build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward",
+    "build": "cd source && npx quartz build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload",
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
     "regenerate:headers": "python3 scripts/regenerate_headers.py",
     "regenerate:llms": "python3 scripts/regenerate_llms_txt.py",
@@ -49,10 +54,17 @@
     "e2e:gen": "bash scripts/check_gen_specs.sh && playwright test -c e2e/playwright.gen.config.ts --pass-with-no-tests",
     "e2e:quarantine": "playwright test -c e2e/playwright.quarantine.config.ts --pass-with-no-tests",
     "e2e:observe": "playwright test -c e2e/playwright.observe.config.ts",
-    "pree2e": "bash scripts/check_no_raw_random.sh"
+    "pree2e": "bash scripts/check_no_raw_random.sh",
+    "validate:ordinals": "python3 scripts/regenerate_node_ordinals.py --check",
+    "regenerate:ordinals": "python3 scripts/regenerate_node_ordinals.py",
+    "build:share-shell": "node scripts/build_share_shell.mjs",
+    "test:units": "node --test tests/*.test.mjs",
+    "e2e:share": "playwright test -c e2e/playwright.share.config.ts",
+    "e2e:replay": "playwright test -c e2e/playwright.replay.config.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+    "serve": "^14.2.6",
     "serve-handler": "^6.1.6"
   }
 }

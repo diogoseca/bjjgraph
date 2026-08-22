@@ -163,7 +163,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive/Controlling |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |

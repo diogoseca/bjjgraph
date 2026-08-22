@@ -18,7 +18,7 @@
   "submission_type": "Shin Choke",
   "target_area": "Trachea and carotid arteries",
   "starting_position": "Rubber Guard",
-  "from_position": "Gogoplata Control/Top",
+  "from_position": "Gogoplata Control/Bottom",
   "success_rate": {
     "gi": 40,
     "nogi": 40

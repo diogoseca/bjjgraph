@@ -685,64 +685,50 @@
       {
         "transition": "Grip Break",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Sitting Guard Pull",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 25,
+          "nogi": 22
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Whizzer",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Escape Body Lock",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Pummeling Escape from Body Lock",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 16
         }
       },
       {
         "transition": "Reversal from Body Lock",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],

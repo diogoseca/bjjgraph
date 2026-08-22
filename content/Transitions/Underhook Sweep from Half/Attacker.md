@@ -79,7 +79,7 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
       "name": "What is the primary purpose of controlling your opponent's far hip during the underhook sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Controlling the far hip prevents your opponent from posting their far leg out for base, which is one of the most common and effective defenses against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it."
+        "text": "Controlling the far hip stops your opponent from posting their far leg out for base, the most common defense against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
       "name": "Why must the underhook be maintained throughout the entire sweep and into top position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintaining the underhook throughout ensures continuous control of your opponent's upper body, preventing them from creating frames, turning away, or escaping during the transition. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position."
+        "text": "Keeping the underhook the entire time prevents your opponent from framing, turning away, or escaping during the transition to top. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
       "name": "What role does hip elevation play in generating sweeping power?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hip elevation through bridging creates the primary power source for the sweep, allowing you to use your entire lower body musculature rather than just arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone."
+        "text": "Bridging your hips upward is the sweep's primary power source, engaging your entire lower body instead of relying on arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone."
       }
     }
   ]

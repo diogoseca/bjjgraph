@@ -83,7 +83,7 @@ description: "How to execute the Transition to K-Guard from Half Guard Bottom. S
       "name": "What is the optimal timing window for initiating the K-Guard hook switch from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the top player commits their weight forward onto the trapped leg, typically during a passing attempt like a knee slice or when driving forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky."
+        "text": "Initiate the K-Guard hook switch when the top player commits their weight forward onto your trapped leg. This typically occurs during a passing attempt like a knee slice or when they drive forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky."
       }
     },
     {

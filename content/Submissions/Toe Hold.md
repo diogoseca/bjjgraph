@@ -203,7 +203,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Toe Hold/from 50-50|50-50 Guard]] | Bottom | 60% | [[Submissions/Toe Hold/from 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from 50-50|50-50 Guard]] | Top | 60% | [[Submissions/Toe Hold/from 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Ashi Garami|Ashi Garami]] | Top | 60% | [[Submissions/Toe Hold/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ashi Garami/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Toe Hold/from Honey Hole/Attacker|Attack →]] | [[Submissions/Toe Hold/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Inside Ashi-Garami/Defender|Defend →]] |

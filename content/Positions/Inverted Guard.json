@@ -885,85 +885,71 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 11,
+          "gi": 21,
           "nogi": 14
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 19
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 14
+          "gi": 12,
+          "nogi": 18
         }
       },
       {
         "transition": "Omoplata from Inverted Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 6,
           "nogi": 3
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 4
         }
       },
       {
         "transition": "Reverse X-Guard Entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 4
+          "gi": 9,
+          "nogi": 5
         }
       },
       {
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Sweep from Inverted Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 5
         }
       }
     ],

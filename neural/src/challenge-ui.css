@@ -1,0 +1,778 @@
+.ng-sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.ng-explorer-close {
+  position: absolute;
+  top: 18px;
+  right: 14px;
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #9ba8c1;
+  font: 500 20px/1 "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+}
+
+/* study takeover: the drill head becomes the pane's first visible child, so it clears the
+   absolute close button (44px at top:18/right:14) on its own — and, since the pane anchors
+   LEFT (v1.94.0), the top-left LOGO too (z9, above the pane, bottom edge ~55px): without the
+   64px top pad the study header's ‹ Back sat exactly under the logo and mouse clicks landed
+   on the wordmark instead. `!important` is load-bearing: the head carries a padding INLINE
+   style (xdc-template.html, kept equal), and only an !important stylesheet declaration
+   outranks an inline one — the same cascade fact _dockLandCard is commented for. */
+.ng-drill[data-pane-study] .ng-pane-drillhead {
+  padding: 64px 64px 16px 24px !important;
+}
+
+.ng-collection-section > div:first-child {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* the woven score-belt CSS (meter, rank bar, tape, band road) left with its renderer
+   (v1.98.1) — see git history at v1.96.0. The corridor rails and .ng-tab-belt carry the
+   belt craft now. */
+
+
+.ng-learning-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  /* 64px top: the nav is the pane's FIRST child since the knowledge header left (v1.96.0)
+     — it must clear the top-left logo and the absolute close button (44px at top:18),
+     the same clearance the study head carries. */
+  padding: 64px 12px 6px;
+}
+
+/* two-line tabs (v1.95.0): <b> title over one <small> subtitle — Explore carries the
+   score ("N% mastered"), Challenges a mini ladder belt, Last rolls its plain line */
+.ng-learning-nav > button {
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 5px 2px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: #7f8ba4;
+  font: 800 9px/1 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.ng-learning-nav > button > b {
+  font: inherit; /* the title keeps the tab's uppercase voice */
+}
+
+.ng-learning-nav > button > small {
+  min-height: 10px;
+  display: flex;
+  align-items: center;
+  color: #6b7691;
+  font: 600 8px/1.2 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.ng-learning-nav > button[aria-pressed="true"] {
+  border-color: rgba(150, 170, 210, 0.2);
+  background: rgba(255, 255, 255, 0.055);
+  color: #eef1f6;
+}
+
+.ng-learning-nav > button[aria-pressed="true"] > small {
+  color: #93a0ba;
+}
+
+/* the Challenges tab's miniature belt — the PINNED track's color (--tb) with a dark rank
+   sleeve wearing 0-4 tape stripes from that track's PROVEN UNITS fraction (v1.95.3 —
+   checkpoint-passed units, not objectives: a casual guest wears 0). This is LADDER
+   progress; the woven knowledge belt is the SCORE. Two meters. Width is deliberately
+   generous (owner: "a lot wider") — 76px still fits a ~103px tab column at 390px. */
+.ng-tab-belt {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 76px;
+  height: 9px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--tb, #d8dde8);
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.38),
+    inset 0 1px 1px -1px rgba(255, 255, 255, 0.5);
+}
+
+.ng-tab-belt > span {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  width: 30px;
+  margin-right: 7px;
+  background: #17171b;
+}
+
+.ng-tab-belt > span > b {
+  flex: none;
+  width: 3px;
+  background: linear-gradient(180deg, #f6f3ea, #bdb6a4);
+}
+
+.ng-explorer-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px 10px;
+}
+
+.ng-explorer-search {
+  min-height: 44px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 13px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+
+
+.ng-learning-list {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.ng-challenge-distinction {
+  margin: 2px 3px 12px;
+  color: #8793aa;
+  font-size: 10.5px;
+  line-height: 1.5;
+}
+
+.ng-track-list,
+.ng-coin-list {
+  display: grid;
+  gap: 8px;
+}
+
+/* the Continue button died in v1.98.1 — arrival positioning (renderChallenges) replaced it */
+
+/* gentle dimming — visual only, every row stays clickable; crowns/tokens keep full color
+   (span:last-of-type, not :last-child — a done row's check <i> sits after the name span) */
+.ng-challenge-lesson[data-lesson-done="false"] > span:last-of-type {
+  opacity: 0.7;
+}
+
+.ng-challenge-row[data-complete="false"] > div {
+  opacity: 0.75;
+}
+
+/* the frontier: the pinned track's next lesson glows — the eye lands on "do this next" */
+.ng-challenge-lesson[data-frontier] {
+  border: 1px solid var(--ng-track, #8fa9e8);
+  animation: ngBeacon 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ng-challenge-lesson[data-frontier] {
+    animation: none;
+  }
+}
+
+.ng-challenge-lesson[data-frontier] > span:last-of-type {
+  opacity: 1;
+}
+
+/* ── THE BELT CORRIDOR (v1.96.0) — one continuous woven belt down the ladder's left,
+   white flowing through blue, purple, brown, black; a knot tied at every boundary. The
+   weave is the knowledge belt's craft (sheen → stitch rows → twill → dye) turned vertical.
+   Sections fold via their chevron — display only, nothing re-locks. */
+.ng-challenge-ladder.ng-corridor {
+  gap: 0; /* the corridor must run unbroken from section to section */
+}
+
+.ng-belt-section {
+  --dye: #b6bac2;
+  --wv: #ffffff12;
+  --wd: #00000017;
+  --st: #0003;
+  --hl: #ffffff0f;
+  position: relative;
+  padding: 0 0 18px 28px;
+}
+
+.ng-belt-section[data-collapsed="true"] {
+  padding-bottom: 8px;
+}
+
+.ng-belt-section[data-belt="white"] {
+  --dye: #ddd7c8;
+  --wv: #ffffff59;
+  --wd: #60564224;
+  --st: #60564238;
+  --hl: #ffffff4c;
+}
+
+.ng-belt-section[data-belt="blue"] {
+  --dye: #2c5299;
+}
+
+.ng-belt-section[data-belt="purple"] {
+  --dye: #59396f;
+}
+
+.ng-belt-section[data-belt="brown"] {
+  --dye: #6b4a2e;
+}
+
+.ng-belt-section[data-belt="black"] {
+  --dye: #1e1e23;
+  --wv: #ffffff0d;
+  --wd: #00000059;
+  --st: #0006;
+  --hl: #ffffff0d;
+}
+
+/* the corridor itself: a vertical woven strap — cylindrical sheen across the width,
+   longitudinal stitch rows, twill crosshatch, the dye (same layers as .ng-knowledge-meter,
+   axis flipped) */
+.ng-corridor-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 16px;
+  background:
+    linear-gradient(90deg, #ffffff2e, rgba(255, 255, 255, 0) 32%, rgba(0, 0, 0, 0) 60%, #00000042),
+    repeating-linear-gradient(90deg, var(--st) 0 1px, var(--hl) 1px 2px, transparent 2px 5px),
+    repeating-linear-gradient(153deg, var(--wv) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(27deg, var(--wd) 0 1px, transparent 1px 3px),
+    var(--dye);
+  box-shadow:
+    inset 2px 0 1px -1px #ffffff40,
+    inset -2px 0 1px -1px #0006,
+    inset 0 0 0 1px #00000047;
+}
+
+/* the knot — a simple tie where one belt ends and the next begins: two wrap bands of the
+   incoming belt's dye crossing over the corridor, straddling the boundary */
+.ng-corridor-knot {
+  position: absolute;
+  top: -13px;
+  left: -4px;
+  width: 24px;
+  height: 26px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ng-corridor-knot > b {
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: 4px;
+  height: 9px;
+  border-radius: 2px;
+  transform: rotate(-22deg);
+  background:
+    linear-gradient(180deg, #ffffff30, rgba(255, 255, 255, 0) 40%, #00000042),
+    repeating-linear-gradient(0deg, var(--st) 0 1px, var(--hl) 1px 2px, transparent 2px 5px),
+    var(--dye);
+  box-shadow:
+    0 1px 2px #000000b3,
+    inset 0 0 0 1px #00000047;
+}
+
+.ng-corridor-knot > b:last-child {
+  top: 12px;
+  transform: rotate(22deg);
+}
+
+.ng-belt-head {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  padding: 12px 0 8px;
+}
+
+.ng-track-card {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative; /* stamp anchor */
+  z-index: 0; /* own stacking context so the stamp can sit BEHIND the text (z:-1) */
+  padding: 10px 12px;
+  border: 1px solid var(--ng-track-line, rgba(150, 170, 210, 0.18));
+  border-radius: 11px;
+  /* v1.99.2 (owner): the belt's dye is PRONOUNCED — it owns the card, not a left hint */
+  background: linear-gradient(
+    90deg,
+    var(--ng-track-soft, rgba(255, 255, 255, 0.03)),
+    var(--ng-track-faint, rgba(255, 255, 255, 0.02)) 100%
+  );
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* the completion stamp: a gray boxed-check watermark inside a finished header card —
+   behind the text, above the dye, never a layout participant */
+.ng-belt-stamp {
+  position: absolute;
+  top: 50%;
+  right: 64px;
+  z-index: -1;
+  transform: translateY(-50%) rotate(-11deg);
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(201, 211, 230, 0.22);
+  border-radius: 7px;
+  color: rgba(201, 211, 230, 0.26);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  pointer-events: none;
+}
+
+.ng-track-card[aria-pressed="true"] {
+  border-color: var(--ng-track);
+}
+
+.ng-challenge-curriculum > small,
+.ng-challenge-capstone > small,
+.ng-collection-intro > small {
+  color: var(--ng-track, #8fa9e8);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+}
+
+.ng-track-card b {
+  overflow: hidden;
+  color: #eef1f6;
+  font: 750 14px/1.15 "Space Grotesk", sans-serif;
+  letter-spacing: 0.01em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ng-track-card strong {
+  color: #aeb9d2;
+  font-size: 9.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ng-belt-toggle {
+  flex: none;
+  width: 44px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #9ba8c1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.ng-belt-body {
+  display: grid;
+  gap: 8px;
+}
+
+.ng-belt-section[data-collapsed="true"] .ng-belt-body {
+  display: none; /* presentation only — every row stays in the DOM, nothing re-locks */
+}
+
+/* ── Getting started — the tutorial as its own card ABOVE the corridor ── */
+.ng-tutorial-section {
+  margin: 0 0 14px;
+  padding: 4px 10px 10px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ng-tutorial-section[data-collapsed="true"] {
+  padding-bottom: 4px;
+}
+
+.ng-tutorial-head {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 2px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-tutorial-head b {
+  flex: none;
+  color: #eef1f6;
+  font: 750 14px/1.15 "Space Grotesk", sans-serif; /* the belt headers' own lettering */
+}
+
+/* still-to-see chips on the SAME ROW as the title (v1.98.1): one line, right of the
+   title, clipped with a fade — never wrapping, never overflowing the pane */
+.ng-tutorial-chips {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
+}
+
+.ng-tutorial-chips > i {
+  flex: none;
+  padding: 3px 8px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #aab4c8;
+  font-size: 9px;
+  font-style: normal;
+}
+
+.ng-tutorial-head strong {
+  color: #aeb9d2;
+  font-size: 9.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ng-tutorial-head em {
+  color: #7f8ba4;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.ng-tutorial-head .ng-belt-stamp {
+  right: 84px; /* clear of the count + chevron */
+}
+
+.ng-tutorial-body {
+  display: grid;
+  gap: 8px;
+  padding: 2px 0 4px;
+}
+
+.ng-tutorial-section[data-collapsed="true"] .ng-tutorial-body {
+  display: none;
+}
+
+
+/* the ladder explains itself ONCE (the per-track prose block is display-retired) */
+.ng-ladder-note {
+  margin: 0 3px 10px;
+  color: #7f8ba4;
+  font-size: 9.5px;
+  line-height: 1.5;
+}
+
+.ng-challenge-curriculum {
+  display: grid;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+/* headless objectives block (the detail head + pin left for the belt header, v1.98.1);
+   NO top border — the corridor + section spacing does the structure (owner) */
+.ng-challenge-detail {
+  display: grid;
+  gap: 9px;
+  margin-top: 2px;
+}
+
+/* ── principles slot — rendered only when curriculum data provides a belt's list ── */
+.ng-principles-group {
+  display: grid;
+  gap: 6px;
+  padding: 11px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.ng-principles-group > small {
+  color: var(--ng-track, #8fa9e8);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.ng-principle-row b {
+  display: block;
+  color: #dbe2f0;
+  font-size: 10.5px;
+}
+
+.ng-principle-row p {
+  margin: 3px 0 0;
+  color: #8793aa;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+
+
+.ng-collection-intro h2,
+.ng-collection-section h3 {
+  margin: 3px 0 0;
+  color: #eef1f6;
+  font: 750 17px/1.15 "Space Grotesk", sans-serif;
+}
+
+
+.ng-challenge-row {
+  display: grid;
+  grid-template-columns: 23px minmax(0, 1fr);
+  gap: 9px;
+  padding: 11px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.ng-challenge-check {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(150, 170, 210, 0.32);
+  border-radius: 50%;
+  color: #0f1720;
+  font-size: 7px;
+  font-weight: 900;
+}
+
+.ng-challenge-row[data-complete="true"] .ng-challenge-check {
+  border-color: #7ee0a8;
+  background: #7ee0a8;
+}
+
+.ng-challenge-row b {
+  display: block;
+  color: #dbe2f0;
+  font-size: 11px;
+}
+
+.ng-challenge-row p,
+.ng-challenge-curriculum > p,
+.ng-challenge-capstone p,
+.ng-collection-intro p {
+  margin: 5px 0;
+  color: #8793aa;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+.ng-challenge-row small {
+  color: #8fa9e8;
+  font-size: 8px;
+}
+
+.ng-challenge-action {
+  min-height: 44px;
+  margin-top: 2px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #91adf4;
+  font: 750 9px/1 "Plus Jakarta Sans", sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+
+
+.ng-challenge-group,
+.ng-challenge-capstone,
+.ng-collection-intro,
+.ng-collection-section {
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.ng-challenge-group > summary {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 11px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ng-challenge-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ng-challenge-group > summary span {
+  display: grid;
+  gap: 3px;
+}
+
+.ng-challenge-group > summary b {
+  color: #dbe2f0;
+  font-size: 10.5px;
+}
+
+.ng-challenge-group > summary small,
+.ng-challenge-group > summary em {
+  color: #8793aa;
+  font-size: 8px;
+  font-style: normal;
+}
+
+.ng-challenge-lessons {
+  display: grid;
+  gap: 4px;
+  padding: 0 8px 8px;
+}
+
+.ng-challenge-lesson,
+.ng-challenge-checkpoint,
+.ng-challenge-capstone > button {
+  width: 100%;
+  min-height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  color: #c3cde0;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-challenge-lesson {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 9px;
+}
+
+/* the lesson row + its "add to class list" sibling occupy ONE grid cell, so the ladder's
+   spacing is unchanged from before the affordance existed */
+.ng-challenge-lessonrow {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ng-challenge-lessonrow > .ng-challenge-lesson {
+  flex: 1;
+  min-width: 0;
+}
+
+.ng-challenge-lesson > span:last-of-type {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 2px;
+  font-size: 9.5px;
+}
+
+.ng-challenge-lesson small {
+  color: #6f7b94;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+/* a finished lesson wears its check on the row edge — clearer than dimming alone */
+.ng-lesson-check {
+  flex: none;
+  margin-left: auto;
+  color: #7ee0a8;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* inline mini deck (the History pattern on the ladder): the chevron column reveals the
+   deck in place; the row itself still opens the full study takeover */
+.ng-lesson-decktoggle {
+  flex: none;
+  width: 34px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  color: #8b97b0;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.ng-lesson-decktoggle[aria-expanded="true"] {
+  background: rgba(74, 108, 255, 0.18);
+  color: #dbe6ff;
+}
+
+.ng-lesson-deckbox {
+  min-width: 0;
+}
+
+.ng-challenge-checkpoint,
+.ng-challenge-capstone > button {
+  padding: 0 10px;
+  color: #9cb3ef;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.ng-challenge-checkpoint:disabled,
+.ng-challenge-capstone > button:disabled {
+  color: #717d95;
+  cursor: default;
+}
+
+.ng-challenge-capstone {
+  padding: 12px;
+  border-style: dashed;
+}
+
+.ng-challenge-capstone b {
+  display: block;
+  margin-top: 4px;
+  color: #dbe2f0;
+  font-size: 11px;
+}

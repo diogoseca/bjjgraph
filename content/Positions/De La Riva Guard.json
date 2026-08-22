@@ -344,7 +344,7 @@
         "description": "Likelihood of successfully passing guard and establishing dominant position"
       },
       "submission_probability": {
-        "value": 40,
+        "value": 20,
         "description": "Probability of achieving submission during or after successful guard pass"
       },
       "average_time": "45-90 seconds before pass or sweep"

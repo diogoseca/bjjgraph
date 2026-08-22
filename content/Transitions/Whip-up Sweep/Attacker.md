@@ -77,7 +77,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
       "name": "What is the primary goal of the Whip-up Sweep from lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to use the lockdown leg entanglement combined with an underhook to generate upward momentum that brings the bottom player from flat on their back to the dogfight position or directly to a top position. The sweep exploits the opponent's forward pressure commitment to reverse the positional hierarchy, transitioning from a defensive half guard scenario to a neutral or dominant position."
+        "text": "The primary goal is to use the lockdown and underhook to whip up from flat on your back to the dogfight or a top position. The sweep generates upward momentum by exploiting the opponent's forward pressure commitment, reversing the positional hierarchy from a defensive half guard scenario to a neutral or dominant position."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
       "name": "Your opponent is sitting back with their weight on their heels while you have lockdown established - should you attempt the whip-up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The whip-up requires forward pressure from the opponent to be effective because the sweep works by exploiting their forward weight commitment. When the opponent sits back, the correct attack is the Old School sweep or Electric Chair entry, both of which exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other."
+        "text": "No - the whip-up needs the opponent's forward pressure, so against rearward weight you attack Old School or Electric Chair instead. The sweep works by exploiting their forward weight commitment, while those two attacks exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
       "name": "Why is it important to maintain the lockdown throughout the entire whip-up motion rather than releasing it early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The lockdown serves dual purposes during the sweep: it provides the off-balancing force through extension, and it prevents the opponent from recovering their trapped leg and re-establishing a passing position. Releasing early allows the opponent to free their leg, step wide, and re-base, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control."
+        "text": "Keeping the lockdown both powers the off-balancing extension and stops the opponent from freeing their trapped leg to re-base and pass. Releasing early lets the opponent free the leg, step wide, and re-establish a passing position, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control."
       }
     }
   ]

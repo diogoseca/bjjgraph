@@ -722,28 +722,28 @@
         "transition": "Old School Sweep",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
         "transition": "Guard Recovery from Zombie",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 13
+          "gi": 17,
+          "nogi": 14
         }
       },
       {
@@ -751,13 +751,6 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 10
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 6
         }
       },
       {
@@ -770,15 +763,15 @@
       {
         "transition": "Escape Zombie Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Turn to Face from Zombie",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 13
         }
       },
       {

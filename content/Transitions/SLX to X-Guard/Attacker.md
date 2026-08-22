@@ -85,7 +85,7 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
       "name": "What conditions must already be in place before you commit to threading the outside leg into X-Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need a deep, active inside hook behind the trapped knee generating genuine elevation, the opponent's free leg within reach of your outside foot rather than stepped far back, at least one anchoring grip on the trapped-side ankle, and your hips scooted underneath their center of gravity at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
+        "text": "Commit only with a deep elevating inside hook, the free leg within reach, an anchoring ankle grip, and hips under their center of gravity. The inside hook must sit behind the trapped knee and generate genuine elevation, the opponent's free leg must be within reach of your outside foot rather than stepped far back, you need at least one grip on the trapped-side ankle, and your hips should be scooted underneath their center at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
       "name": "Your opponent begins stepping their free leg backward as you start threading - how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent retreats their free leg before you complete the thread, immediately redirect to an SLX sweep or ashi garami entry rather than chasing the retreating leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending."
+        "text": "If the free leg retreats before you complete the thread, redirect immediately to an SLX sweep or ashi garami entry rather than chasing the leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending."
       }
     }
   ]

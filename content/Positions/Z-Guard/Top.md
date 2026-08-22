@@ -396,7 +396,7 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 75% |
-| Advancement Probability | 62% |
+| Advancement Probability | 70% |
 | Submission Probability | 12% |
 
 **Average Time in Position**: 45-90 seconds to complete pass or transition

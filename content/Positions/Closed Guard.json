@@ -450,8 +450,8 @@
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 11
         }
       },
       {
@@ -464,21 +464,21 @@
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 6
+          "gi": 12,
+          "nogi": 8
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "Cross Collar Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 8,
           "nogi": 0
         }
       },
@@ -486,21 +486,14 @@
         "transition": "Pendulum Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 10
+          "nogi": 6
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
@@ -515,13 +508,6 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Kimura to Back Take",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 3
         }
       },
       {
@@ -549,7 +535,7 @@
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
@@ -574,13 +560,6 @@
         }
       },
       {
-        "transition": "Omoplata to Back",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
         "transition": "Muscle Sweep",
         "attempt_probability": {
           "gi": 1,
@@ -591,7 +570,7 @@
         "transition": "Closed Guard to Overhook Guard",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
@@ -612,7 +591,7 @@
         "transition": "Armbar from Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 5
+          "nogi": 6
         }
       },
       {
@@ -626,7 +605,7 @@
         "transition": "Kimura from Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
@@ -661,7 +640,7 @@
         "transition": "Triangle Choke from Closed Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {

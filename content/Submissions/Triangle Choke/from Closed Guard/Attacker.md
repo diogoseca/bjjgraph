@@ -73,7 +73,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
       "name": "Why is creating approximately 90 degrees of angle essential for triangle effectiveness, and what happens if you stay directly underneath your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight, which would break the triangle's structure and potentially pass your guard. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder."
+        "text": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight to break the triangle's structure. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish, and their driving pressure can lead to a guard pass. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder."
       }
     },
     {
@@ -89,7 +89,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
       "name": "Why does the choking pressure in triangle come from hip extension rather than squeezing your legs together, and how does this relate to energy efficiency?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hip extension creates greater and more sustainable pressure because you're using your glutes, hamstrings, and core muscles (larger, more powerful muscle groups) rather than just your adductors (inner thigh muscles). When you extend your hips toward the ceiling while pulling the opponent's head down, you create a lever system where your entire body weight and structural alignment generate the choking force. Squeezing legs together laterally exhausts the smaller adductor muscles quickly without creating proper bilateral compression of the neck. The hip extension method allows you to maintain pressure for much longer with less fatigue."
+        "text": "Hip extension generates more sustainable choking pressure because it uses the large glutes, hamstrings, and core rather than the small adductors. When you extend your hips toward the ceiling while pulling the opponent's head down, you create a lever system where your entire body weight and structural alignment generate the choking force. Squeezing your legs together laterally exhausts the smaller inner-thigh adductor muscles quickly without creating proper bilateral compression of the neck. The hip extension method lets you maintain pressure much longer with far less fatigue."
       }
     },
     {

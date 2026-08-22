@@ -17,18 +17,24 @@ import {
 } from "./components-core.js";
 import {
   authModal,
+  challengeCue,
+  challengesPanel,
   coach,
+  collectionPanel,
   dossier,
   drillPanel,
   explorerPanel,
   optionSheet,
   panicCard,
+  progressNudge,
   progressPanel,
   restartCard,
+  rewardToast,
   settingsModal,
   systemState,
-  tutorial,
 } from "./components-panels.js";
+import { pane } from "./components-pane.js";
+import { listPicker, shareCue } from "./components-share.js";
 import { defaultContext } from "./fixtures.js";
 import { icon } from "./icons.js";
 
@@ -43,10 +49,16 @@ function pausedChip({ staged = false } = {}) {
   return `<div class="paused-chip ng-paused">${icon("pause", 11)} ${staged ? "STAGED · CLOCK HELD" : "PAUSED"}</div>`;
 }
 
-function checkpoint({ result = "question" } = {}, context = defaultContext) {
+// The kicker is DERIVED, never a constant: a checkpoint belongs to one belt's one unit, and
+// a frame that says "BLUE · 4/8" while sitting inside a White corridor is a lie the catalog
+// used to tell on every checkpoint screen.
+function checkpoint(
+  { result = "question", belt = "blue", done = 4, total = 8 } = {},
+  context = defaultContext,
+) {
   const data = context.question;
-  return `<div class="modal-layer ng-modal-layer"><section class="modal-card ng-checkpoint" role="dialog" aria-modal="true" aria-label="Checkpoint quiz" data-production-selector="[data-checkpoint]">
-    <small>BLUE BELT CHECKPOINT · 4/8</small>
+  return `<div class="modal-layer ng-modal-layer"><section class="modal-card ng-checkpoint" role="dialog" aria-modal="true" aria-label="Checkpoint quiz" data-checkpoint-belt="${belt}" data-production-selector="[data-checkpoint]">
+    <small>${String(belt).toUpperCase()} BELT CHECKPOINT · ${done}/${total}</small>
     <h2>${data.prompt}</h2>
     <div class="answer-grid">${data.answers
       .map(
@@ -98,7 +110,9 @@ export function gameScreen(options = {}, context = defaultContext) {
     detail = null,
     modal = null,
     coachStep = 0,
-    tutorialDone = null,
+    challengeDone = null,
+    challengeComplete = false,
+    reward = null,
     panic = null,
     combo = 0,
     comboBroken = false,
@@ -110,24 +124,37 @@ export function gameScreen(options = {}, context = defaultContext) {
     loading = false,
     system = null,
     restartState = null,
+    progressState = null,
     motion = "still",
     motionProgress = 1,
+    // v1.106 composition model — see components-pane.js. `pane` is the ONE left pane;
+    // `leftPanel`/`rightPanel` below it are the retired two-rail keys, kept only because the
+    // historical screens are pinned, and never used by new authorship.
+    pane: paneState = null,
+    lit = null,
+    litLabel = "",
+    litPath = false,
+    share = null,
+    picker = null,
   } = options;
   const activeLeftPanel =
     leftPanel ||
-    (panel === "explorer" || panel === "path" || panel === "progress"
+    (panel === "explorer" ||
+    panel === "progress" ||
+    panel === "challenges" ||
+    panel === "collection"
       ? panel
       : null);
   const activeRightPanel = rightPanel || (panel === "drill" ? "drill" : null);
 
   return `<div class="game-stage" data-screen-state="${result || (staged ? "staged" : "rolling")}" data-motion="${motion}" style="--motion-progress:${Math.max(0, Math.min(1, motionProgress))}">
-    ${graphField({ muted: !active || sparse })}
+    ${graphField({ muted: !active || sparse, lit, litLabel, litPath })}
     ${brand()}
     ${accountBubble({ signedIn, open: accountOpen })}
     ${showIntro ? intro({ firstRun }) : ""}
     ${toast ? eventToast(toast) : ""}
     ${landing ? landingCard(landing, context) : ""}
-    ${tray ? optionTray({ ...tray, context }) : ""}
+    ${tray ? optionTray({ ...tray, ruleset: tray.ruleset || options.ruleset || null, context }) : ""}
     ${showLegend ? legend() : ""}
     ${showWinBar ? winLose({ value: 100 - (options.lose ?? 42) }) : ""}
     ${showTransport ? transport({ paused: paused || staged }) : ""}
@@ -135,20 +162,25 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${showDrillTab ? drillTab() : ""}
     ${combo ? momentum({ combo, broken: comboBroken }) : ""}
     ${options.comboPop ? comboPop({ combo: options.comboPop }) : ""}
-    ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query, ruleset: options.ruleset }) : activeLeftPanel === "path" ? explorerPanel({ mode: "path", ruleset: options.ruleset, pathState: options.pathState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode }, context) : ""}
+    ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query, ruleset: options.ruleset }) : activeLeftPanel === "challenges" ? challengesPanel({ state: options.challengeState, selected: options.selectedTrack }) : activeLeftPanel === "collection" ? collectionPanel({ state: options.collectionState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode, state: progressState }, context) : ""}
     ${activeRightPanel === "drill" ? drillPanel({ state: options.panelState }, context) : ""}
-    ${sheet ? optionSheet({ state: sheet }, context) : ""}
+    ${paneState ? pane(paneState, context) : ""}
+    ${share ? shareCue(share) : ""}
+    ${picker ? listPicker(picker) : ""}
+    ${sheet ? optionSheet({ state: sheet === "drilling" ? "expanded" : sheet, drilling: sheet === "drilling" }, context) : ""}
     ${detail ? dossier({ variant: detail, mobile: options.mobileDetail }, context) : ""}
     ${modal ? (modal === "auth" ? authModal({ mode: options.authMode }) : settingsModal({ tab: modal })) : ""}
     ${coachStep ? coach({ step: coachStep }) : ""}
-    ${tutorialDone !== null ? tutorial({ done: tutorialDone }) : ""}
+    ${challengeDone !== null ? challengeCue({ track: options.challengeTrack || "White", done: challengeDone, complete: challengeComplete }) : ""}
     ${panic !== null ? panicCard({ revealed: panic === "revealed" }) : ""}
     ${showVignette ? vignette() : ""}
     ${result ? verdict({ result: result === "defeat" ? "defeat" : "victory", detail: options.resultDetail }) : ""}
-    ${checkpointState ? checkpoint({ result: checkpointState }, context) : ""}
+    ${checkpointState ? checkpoint({ result: checkpointState, ...(options.checkpoint || {}) }, context) : ""}
     ${flashBrowser !== null ? browser({ empty: flashBrowser === "empty" }, context) : ""}
     ${system ? `<div style="position:absolute;inset:0;z-index:18;display:grid;place-items:center">${systemState({ type: system })}</div>` : ""}
     ${restartState ? restartCard({ state: restartState }, context) : ""}
+    ${progressState ? progressNudge({ type: progressState }) : ""}
+    ${reward ? rewardToast({ type: reward }) : ""}
     <div class="motion-overlay" aria-hidden="true"></div>
     ${loading ? loader() : ""}
   </div>`;

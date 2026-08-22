@@ -388,64 +388,57 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Counter Entry to Opponent's Leg",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Hip Rotation Defense",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Knee Extraction",
-        "attempt_probability": {
           "gi": 15,
           "nogi": 14
         }
       },
       {
+        "transition": "Counter Entry to Opponent's Leg",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Hip Rotation Defense",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Knee Extraction",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
+      },
+      {
         "transition": "Frame and Distance Creation",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Pass to Side Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter from Ankle Lock",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Straight Ankle Lock from Straight Ankle Lock Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       }
     ],
@@ -819,64 +812,57 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 18
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
-        "transition": "50-50 Entry from Standing",
+        "transition": "Single Leg X Entry",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Ankle Pick Sweep",
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
         }
       },
       {
-        "transition": "Single Leg X Entry",
+        "transition": "Straight Footlock",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 21,
+          "nogi": 17
         }
       },
       {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Ankle Pick Sweep",
+        "transition": "Ankle Lock Escape to Standing",
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
         }
       },
       {
-        "transition": "Straight Footlock",
-        "attempt_probability": {
-          "gi": 19,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Ankle Lock Escape to Standing",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Kneebar from Straight Ankle Lock Control",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 11,
+          "nogi": 12
         }
       }
     ],

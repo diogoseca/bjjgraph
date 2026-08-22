@@ -419,7 +419,7 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 60% |
-| Advancement Probability | 60% |
+| Advancement Probability | 70% |
 | Submission Probability | 5% |
 
 **Average Time in Position**: 2-4 minutes per passing sequence

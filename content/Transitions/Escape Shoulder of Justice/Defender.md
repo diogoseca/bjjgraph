@@ -75,7 +75,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
       "name": "The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight, which is exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection."
+        "text": "No; a correct micro-frame stays inside the centerline, so collapse it with pressure instead of trying to isolate the arm. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight — exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection."
       }
     },
     {
@@ -83,7 +83,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
       "name": "When is the optimal moment to transition to mount rather than re-consolidating Shoulder of Justice?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal moment is immediately after the bottom player completes a hip escape that creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice."
+        "text": "Mount immediately after their hip escape creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice."
       }
     },
     {
@@ -91,7 +91,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
       "name": "How do you distinguish between a panic reaction and a planned escape attempt from the bottom player?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Panic reactions are characterized by explosive but uncoordinated movements: wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues."
+        "text": "Panic reactions look explosive but uncoordinated, while planned escapes show controlled breathing, subtle frames, and deliberate positioning. Panic is characterized by wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues."
       }
     }
   ]

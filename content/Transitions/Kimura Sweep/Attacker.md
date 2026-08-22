@@ -77,7 +77,7 @@ description: "How to execute Kimura Sweep in BJJ. Attacking perspective with set
       "name": "What is the primary mechanical advantage that makes the Kimura Sweep effective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The figure-four grip creates a lever system where your entire arm strength controls opponent's shoulder joint, allowing you to use their trapped limb to disrupt their base and create the rotational force needed for the sweep."
+        "text": "The figure-four grip forms a lever that lets your whole arm strength control the opponent's shoulder and disrupt their base. Because their limb is trapped in this lever system, your hip drive translates directly into the rotational force needed for the sweep, turning their own arm into the handle that tips them over."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Kimura Sweep in BJJ. Attacking perspective with set
       "name": "Your opponent straightens their trapped arm when you secure the Kimura grip. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transition immediately to a straight armlock attack on the extended arm, or use their focus on the arm to switch to a hip bump sweep while their attention is diverted from base maintenance."
+        "text": "Attack a straight armlock on the extended arm, or switch to a hip bump sweep while their attention is on defending the arm. The straightened arm hands you a new submission threat, and their focus on grip-fighting means their base maintenance is neglected — exactly the moment a sweep succeeds."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Kimura Sweep in BJJ. Attacking perspective with set
       "name": "Why is it critical to keep the trapped arm pinned to your chest throughout the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keeping the arm tight prevents opponent from straightening to break the grip, maintains your mechanical advantage, and ensures the lever system stays intact so your hip drive translates directly into rotational force on their body."
+        "text": "Pinning the arm to your chest stops them straightening to break the grip and keeps the lever intact so hip drive becomes rotation. This preserves your mechanical advantage for the whole movement, ensuring the force you generate transfers directly into turning their body rather than leaking out through a loose connection."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Kimura Sweep in BJJ. Attacking perspective with set
       "name": "Your opponent posts their free hand wide to resist the sweep. How do you capitalize on this?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The posted hand creates an armbar opportunity on that extended arm, or you can increase hip drive explosiveness to power through their weakened base since weight is now distributed across a wider, less stable platform."
+        "text": "The wide post exposes that extended arm to an armbar, or you can drive your hips harder through their now wider, weaker base. A hand posted far from their center spreads their weight across a less stable platform, so either attack the offered arm or add explosive hip drive to power through the compromised structure."
       }
     }
   ]

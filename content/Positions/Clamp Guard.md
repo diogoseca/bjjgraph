@@ -163,7 +163,7 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Defensive with offensive options |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Low to Medium | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Short |

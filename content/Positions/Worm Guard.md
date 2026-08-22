@@ -182,7 +182,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |
@@ -221,19 +221,17 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (19% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (21% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
-
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (19% of attempts)
 
 - **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (0% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (29% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (33% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (18% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (20% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (6% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (7% of attempts)
 
 - **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (0% of attempts)
 

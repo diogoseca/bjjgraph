@@ -680,15 +680,15 @@
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 19
+          "gi": 9,
+          "nogi": 20
         }
       },
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 20
+          "gi": 9,
+          "nogi": 21
         }
       },
       {
@@ -702,48 +702,41 @@
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "Guard Recovery from Squid Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 23
+          "gi": 14,
+          "nogi": 24
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Omoplata to Back",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "nogi": 10
         }
       },
       {
         "transition": "Squid Guard Sweep",
         "attempt_probability": {
-          "gi": 23,
+          "gi": 25,
           "nogi": 0
         }
       },
       {
         "transition": "Squid to Ringworm Guard",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 0
         }
       }

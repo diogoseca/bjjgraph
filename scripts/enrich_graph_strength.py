@@ -49,10 +49,18 @@ def build_position_strength_by_slug() -> dict[str, dict]:
     Keyed by the same slugify() graph.json uses, so role entries resolve directly.
     """
     out: dict[str, dict] = {}
-    # parent_slug → list of variation slugs (scored from the parent — variations
-    # carry only name/slug/description, no metrics of their own).
+    # parent_slug → list of variation slugs, scored from the parent. That fallback was written
+    # when variations "carried only name/slug/description, no metrics of their own" — and that
+    # stopped being true: ALL 54 of the 54 nested files now author their own state_properties and
+    # position_metrics for both roles. The glob below was non-recursive, so none of them loaded and
+    # every one shipped its PARENT HUB's pair — 54 of 136 positions, 40% of the graph. Worst case:
+    # `Triangle Control/Rear Triangle` inherited `Triangle Control`, which has the opposite polarity
+    # (closed-guard triangle: the TOP player is the one caught), emitting [-0.366, +0.204] for a
+    # position whose own numbers score [+0.645, -0.444]. The fallback stays — a variation with no
+    # metrics should still inherit — but it must never again fire for one that has them.
     variation_parents: list[tuple[str, str]] = []
-    for path in sorted(glob.glob(os.path.join(_REPO_ROOT, "content", "Positions", "*.json"))):
+    for path in sorted(glob.glob(os.path.join(_REPO_ROOT, "content", "Positions", "**", "*.json"),
+                                 recursive=True)):
         try:
             with open(path, encoding="utf-8") as fh:
                 d = json.load(fh)
@@ -208,7 +216,16 @@ def _layout_id_to_lookup(node_id: str) -> tuple[str, list[str]]:
             rest = lower[len(prefix):]
             # Full flatten is the real key for compound submission/transition ids.
             candidates = [rest.replace("/", "-")]
-            # Parent fallback (drop the last "/" segment) for nested variations.
+            # LEAF SLUG, for positions only. A nested position variation registers under its OWN
+            # `slug` ("rear-triangle"), not under the flattened path ("triangle-control-rear-
+            # triangle") — so without this the flatten misses, the parent fallback fires, and the
+            # variation silently wears its hub's strength. That is what made
+            # `Triangle Control/Rear Triangle` emit the closed-guard triangle's pair, inverted.
+            # Positions only: a submission id like `Kimura/from-Mount` has a leaf ("from-mount")
+            # that is not a slug at all, and giving it a chance to collide buys nothing.
+            if section == "positions" and "/" in rest:
+                candidates.append(rest.rsplit("/", 1)[1])
+            # Parent fallback (drop the last "/" segment) for variations with no metrics of their own.
             if "/" in rest:
                 candidates.append(rest.rsplit("/", 1)[0].replace("/", "-"))
             return section, candidates

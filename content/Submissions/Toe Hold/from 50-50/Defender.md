@@ -203,7 +203,7 @@ Defending the toe hold from 50-50 Guard requires early recognition and systemati
 
 The bilateral nature of 50-50 creates a unique defensive dynamic: your best defense is often a strong offense. By threatening your own leg attacks, you force the opponent to divide attention between finishing their toe hold and protecting their own legs. This offensive-defensive interplay defines high-level 50-50 exchanges and separates reactive defenders who simply endure from proactive defenders who create escape opportunities through counter-threats. Understanding the attacker's sequential requirements—grip, figure-four, angle, chest connection, rotation—allows you to identify the optimal intervention point at each stage and apply the correct defensive response rather than panicking into explosive movements that often accelerate the finish.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>

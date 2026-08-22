@@ -67,7 +67,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
       "name": "Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. With a shallow grip, racing to finish is a losing strategy because the opponent's counter-entanglement will establish before your finish materializes. Instead, withdraw your attacking leg before they complete inside position, reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again."
+        "text": "No — with a shallow grip, withdraw your attacking leg and reset before their counter-entanglement completes. Racing to finish is a losing strategy because their counter will establish before your finish materializes. Reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again."
       }
     },
     {
@@ -83,7 +83,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
       "name": "How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Evaluate three factors: grip depth (is your heel hook grip past the point of no return or still establishing), positional timing (did you have your grip before they entered counter position), and finishing proximity (how many adjustments remain before your submission is complete). If you had deep grip before their counter began, your positional priority typically wins the exchange. If both grips are establishing simultaneously, the exchange is a coin flip."
+        "text": "Evaluate grip depth, positional timing, and finishing proximity — if you had deep grip before their counter began, you typically win. Grip depth asks whether your heel hook grip is past the point of no return or still establishing; positional timing asks whether you had your grip before they entered counter position; finishing proximity asks how many adjustments remain before your submission is complete. If both grips are establishing simultaneously, the exchange is a coin flip."
       }
     },
     {

@@ -165,7 +165,7 @@ Mastering Combat Base from both sides means understanding this central tension: 
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Neutral |
+| **Position Type** | Defensive | Neutral |
 | **Risk Level** | Medium to High | Low to Medium |
 | **Energy Cost** | Medium | Low |
 | **Time** | Short to Medium | Long |

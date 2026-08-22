@@ -304,29 +304,27 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (9% of attempts)
 
-- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (12% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (13% of attempts)
 
 - **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (6% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (7% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (8% of attempts)
 
-- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (8% of attempts)
+- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (9% of attempts)
 
-- **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (10% of attempts)
+- **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (11% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (7% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
 - **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (5% of attempts)
 
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (8% of attempts)
-
 - **[[Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (6% of attempts)
 
-- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (7% of attempts)
+- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (8% of attempts)
 
 - **[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (5% of attempts)
 

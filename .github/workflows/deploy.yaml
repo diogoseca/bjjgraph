@@ -5,42 +5,34 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+# PRODUCTION deploy: serialize, but NEVER cancel. `wrangler pages deploy` uploads the
+# whole site and only then activates the deployment, and the run continues on into
+# Lighthouse, the graph.json release and the IndexNow submission. Killing a run
+# mid-flight can leave a half-uploaded deployment, a release tag with no assets, or
+# IndexNow pointing at a sitemap that was never published. A newer push therefore
+# QUEUES behind the running deploy instead of superseding it.
+concurrency:
+  group: deploy-prod-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: 20
-
-      - name: Cache dependencies
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - run: npm install
-        working-directory: ./source
-
-      - name: chmod
-        run: chmod +x ./quartz/bootstrap-cli.mjs
-        working-directory: ./source
-
-      - name: Ensure Quartz builds
-        run: npx quartz build --bundleInfo -d ../content
-        working-directory: ./source
-
+  # NB: a `build-and-test` job used to sit here, whose only substantive step was
+  # "Ensure Quartz builds" (`npx quartz build --bundleInfo -d ../content`). It was pure
+  # duplicate work and was deleted in the v1.79.x CI-hardening pass:
+  #   * it uploaded no artifact, and the `deploy` job below checks the SAME commit out on
+  #     a fresh runner and builds it again ("Build Quartz"), so nothing carried over;
+  #   * no step in between consumed its output (the deploy job has no ~/.npm cache step,
+  #     so it never even restored the cache that job populated);
+  #   * measured on run 30773349918: the job cost 4m35s (4m02s of it the build) on an
+  #     18m17s critical path — ~25% of the pipeline — to prove something the deploy job's
+  #     own build proves anyway;
+  #   * worse, it proved it WITHOUT the regenerated Neural payloads (it skipped
+  #     `regenerate:neural`), i.e. against a configuration we never ship, so a green
+  #     result there was weaker evidence than the real build and a red one could have
+  #     blocked a deploy that would have succeeded.
+  # This workflow has no `pull_request` trigger, so no job name in it can be a required
+  # PR status check; deleting the job cannot orphan a branch-protection rule.
   deploy:
-    needs: build-and-test
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -58,7 +50,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 20
+          node-version: "22"
 
       - name: Setup Python
         uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
@@ -73,6 +65,14 @@ jobs:
           pip install jsonschema
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
+          # Share-link ordinal lockfile (node_ordinals.json): every live graph node must
+          # already own a PERMANENT ordinal, and no committed ordinal may have been
+          # renumbered or reused. A share link posted in a gym WhatsApp group encodes
+          # ordinals; renumber one and every link already in the wild silently starts
+          # pointing at different techniques. Hard gate, no ratchet.
+          # HEAD^1, not HEAD: in CI the checked-out HEAD *is* the commit under test, so a
+          # HEAD baseline would compare it to itself and prove nothing.
+          python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
 
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
@@ -94,28 +94,120 @@ jobs:
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
+          python3 ../scripts/check_headers_cache.py
+          # SEO ratchet: head + JSON-LD identical, crawlable text above floor,
+          # zero internal links lost. Was referenced by NO workflow before v1.77.0.
+          python3 ../scripts/check_seo_parity.py
           python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
-      - name: Copy raw HTML folder
-        run: |
-          ls -la
-          cp -r raw_html/* public/ || true
-          echo "Contents of public directory:"
-          ls -la public/
-        working-directory: ./source
+      # Share-link static shell (/l.html + /l-manifest.json) and its SEO gate.
+      # MUST be a step here: deploy does NOT run root `npm run build`, so anything wired only
+      # into that script runs locally and never in production. Emits the shell the /l/* -> 200
+      # rewrite serves (the no-Function rung of the share feature) plus the ordinal->name
+      # manifest the Pages Function reads for link previews, then FAILS the deploy if a /l URL
+      # leaked into sitemap.xml or llms.txt. Runs after the Quartz build (which writes both).
+      - name: Build share-link shell (/l)
+        run: node scripts/build_share_shell.mjs
 
       # Quartz clears source/public, so Forward must be copied after the site build.
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # PAYLOAD RATCHET (gate). Real-user LCP P75 was ~13.7s because every visitor pulled two
+      # front-ends; v1.80.0 deleted one. Deleting weight once is easy — keeping it deleted is
+      # the hard part, so this compares the built site against the ceilings committed in
+      # tests/artifacts/budget_site.json (shared bundles, nine page archetypes, and aggregate
+      # HTML bytes across every emitted .html) and fails when the payload grows past them.
+      #
+      # Placement is load-bearing: it must run AFTER
+      # `Build Forward development libraries`, because those write into source/public and the
+      # committed ceilings were seeded from a tree that includes them. Running it earlier would
+      # measure a smaller site than we ship and let a Forward regression through.
+      #
+      # Raising a ceiling requires `--update` in a deliberate, separately justified commit.
+      - name: Payload budget (gate)
+        run: npm run validate:payload
+
+      # The affiliate tracking id is a deployment parameter, not content: product URLs
+      # in content/Systems/*.json ship the literal `?ref=REPLACE_ME` so a fork or a
+      # local build needs no secret, and the ref never enters this public repo's git
+      # history. Stamp it into the BUILT artifacts here — after every step that writes
+      # or clears source/public, and before the journey gate, so the tests exercise the
+      # exact bytes we deploy. Unset secret = WARNING + placeholder left in place, never
+      # a failed deploy (see CLAUDE.md §7, the canonical affiliate spec).
+      - name: Stamp affiliate ref into build output
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/apply_affiliate_ref.py
+
+      # Must follow the stamp: the gate treats a leftover REPLACE_ME as fatal only when
+      # AFFILIATE_REF is set, so running it first would fail on a placeholder that the
+      # previous step was about to replace.
+      - name: Systems payload gate (dead highlights + dead affiliate links)
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/check_systems_payload.py
+
+      # The disclosure is a legal claim rendered from two hand-maintained copies, and only a
+      # human-verified URL may render at all. Both are asserted here (plus: the committed
+      # graph.json carries no affiliate URL). Source-and-content only — stamp-independent.
+      - name: Affiliate compliance gate (disclosure drift + unverified links)
+        run: python3 scripts/check_affiliate_surface.py
+
+      - name: Install root dependencies (Playwright test runner)
+        run: npm install
+
+      # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
+      # This repo bumps package.json on every commit and package-lock.json mirrors that
+      # version, so a hashFiles('package-lock.json') key changed on essentially every
+      # commit. Verified on run 31319192519: "Cache not found for input keys:
+      # Linux-playwright-f9289ead..." followed at post-job by "Sent 274155745 of
+      # 274155745" — a MISS on every run that still uploaded 261 MiB on every run, i.e.
+      # strictly worse than having no cache at all.
+      # The resolved @playwright/test version is the correct key because it is exactly
+      # what decides which browser revision `npx playwright install` expects, and it
+      # still moves when Playwright is upgraded — so an upgrade can never score an exact
+      # hit on browsers built for the old revision. A restore-keys near-miss is safe for
+      # the same reason: a prefix match leaves `cache-hit` false, so the full install
+      # step below still runs and fetches the correct revision. Do NOT "improve" those
+      # `if:` guards to use cache-matched-key — that is what would resurrect the
+      # revision-mismatch failure this repo has already been bitten by.
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            V="$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version" 2>/dev/null || true)"
+          fi
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Playwright $V"
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Playwright browser
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Playwright OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
       # Fast representative gate. The complete suite runs sharded before merges to main.
       - name: Curated journey gate (Playwright E2E)
         timeout-minutes: 12
-        run: |
-          npm install
-          npx playwright install --with-deps chromium
-          npm run test:curated
+        run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
         if: failure()
@@ -133,6 +225,34 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph
+
+      # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
+      #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
+      #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
+      #    SUPABASE_SERVICE_ROLE_KEY; UNSUB_HMAC_SECRET was generated and set 2026-08-17.
+      - name: Deploy digest Worker + sync secrets
+        if: always()
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          UNSUB_HMAC_SECRET: ${{ secrets.UNSUB_HMAC_SECRET }}
+        run: |
+          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ] || [ -z "$UNSUB_HMAC_SECRET" ]; then
+            echo "::notice::digest Worker NOT deployed — add SUPABASE_SERVICE_ROLE_KEY (and UNSUB_HMAC_SECRET) to repo secrets to enable"
+            exit 0
+          fi
+          cd workers/digest
+          npx wrangler deploy
+          printf '%s' "$SUPABASE_URL"              | npx wrangler secret put SUPABASE_URL
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler secret put UNSUB_HMAC_SECRET
+          cd ../..
+          # the unsubscribe Pages Function reads the SAME three from the Pages project
+          printf '%s' "$SUPABASE_URL"              | npx wrangler pages secret put SUPABASE_URL --project-name=bjjgraph
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
+          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
 
   lighthouse-ci:
     needs: deploy

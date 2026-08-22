@@ -413,7 +413,7 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 15-30 seconds (transitional position)
 

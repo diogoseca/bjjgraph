@@ -83,7 +83,7 @@ description: "Learn to execute the Trap and Roll reversal from bottom mount. Ste
       "name": "What is the optimal timing window to initiate the trap and roll bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent has just committed their arm forward (posting, attacking, or gripping) and their weight is either centered or slightly shifted toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force."
+        "text": "Bridge just as the opponent commits an arm forward and their weight is centered or shifting toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force."
       }
     },
     {
@@ -91,7 +91,7 @@ description: "Learn to execute the Trap and Roll reversal from bottom mount. Ste
       "name": "What conditions must exist before you can successfully attempt the trap and roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four conditions must be met: the opponent must have one arm committed forward and capturable, the corresponding foot on the same side must be hookable with your leg, your feet must be walked close to your hips for maximum bridge power, and the opponent should not be in high mount where your bridge leverage is severely compromised. Missing any one condition dramatically reduces success probability."
+        "text": "You need a trapped arm, a hooked foot on the same side, feet walked close to your hips, and the opponent not in high mount. The committed arm must be capturable, and the corresponding same-side foot must be hookable with your leg; feet close to your hips give maximum bridge power, while high mount severely compromises your bridge leverage. Missing any one condition dramatically reduces success probability."
       }
     },
     {

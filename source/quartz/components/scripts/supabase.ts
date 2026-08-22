@@ -1,19 +1,6 @@
 // Supabase Auth + Cloud Sync — shared utility module
 // Lazy-loads Supabase SDK from CDN, syncs localStorage training data to cloud
 
-import { SRSCard, loadSRSCards, saveSRSCards } from "./srs"
-import {
-  BJJSettings,
-  DailyProgress,
-  StreakData,
-  loadSettings,
-  saveSettings,
-  loadDailyProgress,
-  saveDailyProgress,
-  loadStreak,
-  DEFAULT_SETTINGS,
-} from "./settings"
-
 // ── Types ──────────────────────────────────────────────────────────────────────
 
 declare global {
@@ -93,37 +80,13 @@ interface AuthError {
   message: string
 }
 
-interface LifetimeStats {
-  totalRolls: number
-  totalVictories: number
-  totalMoves: number
-  diceRolls: { total: number; successes: number }
-  flashcards: { total: number; correct: number }
-  opponentTurns: { total: number; defended: number }
-  techniques: Record<string, unknown>
-}
-
 type AuthStateCallback = (event: string, user: AuthUser | null) => void
 
 // ── State ──────────────────────────────────────────────────────────────────────
 
 let _client: SupabaseClient | null = null
 let _sdkLoading: Promise<void> | null = null
-let _syncTimeout: ReturnType<typeof setTimeout> | null = null
-let _syncing = false
-let _lastSyncTime = ""
 let _authListeners: AuthStateCallback[] = []
-let _syncRetryTimeout: ReturnType<typeof setTimeout> | null = null
-let _syncFailureCount = 0
-let _syncFailureNotified = false
-let _pulledThisSession = false
-let _onlineListenerWired = false
-
-const SYNC_DEBOUNCE_MS = 500
-const SYNC_RETRY_MAX_MS = 30000
-const STREAK_KEY = "bjj-streak"
-const LIFETIME_KEY = "bjj-lifetime-stats"
-const VOTES_KEY = "bjj-move-votes"
 
 // ── SDK Loading ────────────────────────────────────────────────────────────────
 
@@ -176,7 +139,6 @@ async function getClient(): Promise<SupabaseClient> {
 
   // Listen for auth state changes and notify listeners
   _client.auth.onAuthStateChange((event, session) => {
-    if (event === "SIGNED_OUT") _pulledThisSession = false
     const user = session?.user ?? null
     for (const cb of _authListeners) {
       try {
@@ -187,7 +149,6 @@ async function getClient(): Promise<SupabaseClient> {
     }
   })
 
-  wireOnlineRetry()
   return _client
 }
 
@@ -215,7 +176,6 @@ export async function signUp(
   const client = await getClient()
   const { data, error } = await client.auth.signUp({ email, password })
   if (error) return { user: null, error: error.message }
-  if (data.user) await initialSync()
   return { user: data.user, error: null }
 }
 
@@ -226,7 +186,6 @@ export async function signIn(
   const client = await getClient()
   const { data, error } = await client.auth.signInWithPassword({ email, password })
   if (error) return { user: null, error: error.message }
-  if (data.user) await initialSync()
   return { user: data.user, error: null }
 }
 
@@ -296,307 +255,23 @@ export function isAuthenticated(): boolean {
   }
 }
 
-export function getLastSyncTime(): string {
-  return _lastSyncTime
-}
-
-// ── Sync Functions ─────────────────────────────────────────────────────────────
-
-function loadLocalJSON(key: string): unknown {
-  try {
-    const raw = localStorage.getItem(key)
-    return raw ? JSON.parse(raw) : null
-  } catch {
-    return null
-  }
-}
-
-function gatherLocalData() {
-  return {
-    srs_cards: loadSRSCards(),
-    settings: loadSettings(),
-    daily_progress: loadDailyProgress(),
-    streak: loadLocalJSON(STREAK_KEY) ?? {},
-    lifetime_stats: loadLocalJSON(LIFETIME_KEY) ?? {},
-    move_votes: loadLocalJSON(VOTES_KEY) ?? {},
-    explored: loadLocalJSON("bjj-explored") ?? [],
-  }
-}
-
-// ── Sync status (surface failures, retry with backoff) ──────────────────────────
+// ── Cloud sync ─────────────────────────────────────────────────────────────────
+// v1.80.0 deleted the LEGACY sync half of this module (pushToCloud/pullFromCloud/
+// syncOnLoad/syncAfterWrite/mergeCards and their retry+backoff machinery). It mirrored the
+// legacy front-end's localStorage keys — bjj-srs-cards, bjj-settings, bjj-daily-progress,
+// bjj-streak, bjj-lifetime-stats, bjj-move-votes, bjj-explored — into the per-column fields
+// of user_training_data. Nothing writes those keys any more: the legacy UI that owned them is
+// gone, and the Neural app persists everything through the `neural` JSONB blob below.
+//
+// The rows themselves are untouched. Those columns still hold whatever a signed-in user last
+// pushed, so restoring the legacy sync (or migrating those columns into the neural blob) is
+// still possible server-side — we stopped writing them, we did not drop them.
 
 async function getUserId(client: SupabaseClient): Promise<string | null> {
   // Local session read (no network round-trip); the SDK keeps it fresh via
   // autoRefreshToken. Avoids a getUser() network call on every sync/nav.
   const { data } = await client.auth.getSession()
   return data.session?.user?.id ?? null
-}
-
-function markSyncSuccess() {
-  _syncFailureCount = 0
-  _syncFailureNotified = false
-  _lastSyncTime = new Date().toISOString()
-  if (_syncRetryTimeout) {
-    clearTimeout(_syncRetryTimeout)
-    _syncRetryTimeout = null
-  }
-}
-
-function markSyncFailure() {
-  // Surface once per failure streak so the user knows sync is paused, then
-  // retry with exponential backoff instead of silently diverging from cloud.
-  if (!_syncFailureNotified) {
-    _syncFailureNotified = true
-    ;(window as any).showSnackbar?.({
-      message: "Sync paused — changes are saved on this device",
-      type: "info",
-    })
-  }
-  scheduleSyncRetry()
-}
-
-function scheduleSyncRetry() {
-  if (_syncRetryTimeout) return
-  const delay = Math.min(SYNC_RETRY_MAX_MS, 1000 * 2 ** Math.min(_syncFailureCount, 5))
-  _syncFailureCount++
-  _syncRetryTimeout = setTimeout(() => {
-    _syncRetryTimeout = null
-    if (isAuthenticated()) void pushToCloud()
-  }, delay)
-}
-
-function wireOnlineRetry() {
-  if (_onlineListenerWired) return
-  _onlineListenerWired = true
-  window.addEventListener("online", () => {
-    if (isAuthenticated()) void pushToCloud()
-  })
-}
-
-export async function pushToCloud(): Promise<boolean> {
-  if (_syncing) return false
-  _syncing = true
-  try {
-    const client = await getClient()
-    const userId = await getUserId(client)
-    if (!userId) return false
-
-    const localData = gatherLocalData()
-    const { error } = await client
-      .from("user_training_data")
-      .upsert({ user_id: userId, ...localData }, { onConflict: "user_id" })
-      .single()
-
-    if (error) {
-      console.error("[supabase] push failed:", error)
-      markSyncFailure()
-      return false
-    }
-
-    markSyncSuccess()
-    return true
-  } catch (e) {
-    console.error("[supabase] push error:", e)
-    markSyncFailure()
-    return false
-  } finally {
-    _syncing = false
-  }
-}
-
-export async function pullFromCloud(): Promise<boolean> {
-  if (_syncing) return false
-  _syncing = true
-  try {
-    const client = await getClient()
-    const userId = await getUserId(client)
-    if (!userId) return false
-
-    const { data, error } = await client
-      .from("user_training_data")
-      .select("*")
-      .eq("user_id", userId)
-      .maybeSingle()
-
-    if (error) {
-      // A real read error (network/permission/5xx) — NOT "no data". Do not push
-      // local up, or we could overwrite good cloud state with empty/regressed
-      // local state. Leave cloud untouched and retry later.
-      console.error("[supabase] pull read failed:", error)
-      _syncing = false
-      markSyncFailure()
-      return false
-    }
-
-    if (!data) {
-      // Genuinely no row yet (legitimate first sync) — push local data up.
-      _syncing = false
-      return pushToCloud()
-    }
-
-    // Merge and apply
-    const localCards = loadSRSCards()
-    const cloudCards = (data.srs_cards as SRSCard[]) || []
-    const merged = mergeCards(localCards, cloudCards)
-    saveSRSCardsLocal(merged)
-
-    // Settings: cloud wins if non-empty
-    const cloudSettings = data.settings as Record<string, unknown>
-    if (cloudSettings && Object.keys(cloudSettings).length > 0) {
-      // Migrate legacy opponentOnFail from cloud data
-      if ("opponentOnFail" in cloudSettings && !("gameMode" in cloudSettings)) {
-        cloudSettings.gameMode = cloudSettings.opponentOnFail ? "normal" : "off"
-        delete cloudSettings.opponentOnFail
-      }
-      saveSettingsLocal({ ...DEFAULT_SETTINGS, ...(cloudSettings as unknown as BJJSettings) })
-    }
-
-    // Daily progress: cloud wins if same date, otherwise keep local
-    const cloudProgress = data.daily_progress as DailyProgress
-    const localProgress = loadDailyProgress()
-    if (cloudProgress?.date === localProgress.date) {
-      // Take higher counts
-      saveDailyProgressLocal({
-        date: localProgress.date,
-        learned: Math.max(localProgress.learned, cloudProgress.learned || 0),
-        reviewed: Math.max(localProgress.reviewed, cloudProgress.reviewed || 0),
-      })
-    }
-
-    // Streak: take higher values
-    const localStreak = loadStreak()
-    const cloudStreak = (data.streak as StreakData) || {}
-    const mergedStreak: StreakData = {
-      currentStreak: Math.max(localStreak.currentStreak, cloudStreak.currentStreak || 0),
-      longestStreak: Math.max(localStreak.longestStreak, cloudStreak.longestStreak || 0),
-      lastActiveDate:
-        (localStreak.lastActiveDate || "") > (cloudStreak.lastActiveDate || "")
-          ? localStreak.lastActiveDate
-          : cloudStreak.lastActiveDate || "",
-    }
-    localStorage.setItem(STREAK_KEY, JSON.stringify(mergedStreak))
-
-    // Lifetime stats: take cloud if it has more total rolls
-    const localLifetime = loadLocalJSON(LIFETIME_KEY) as LifetimeStats | null
-    const cloudLifetime = data.lifetime_stats as LifetimeStats | null
-    if (
-      cloudLifetime?.totalRolls &&
-      (!localLifetime || cloudLifetime.totalRolls > localLifetime.totalRolls)
-    ) {
-      localStorage.setItem(LIFETIME_KEY, JSON.stringify(cloudLifetime))
-    }
-
-    // Move votes: cloud wins (simple overwrite)
-    const cloudVotes = data.move_votes
-    if (cloudVotes && Object.keys(cloudVotes as object).length > 0) {
-      localStorage.setItem(VOTES_KEY, JSON.stringify(cloudVotes))
-    }
-
-    // Explored: union of cloud + local, deduplicated by slug, keep earliest firstVisited
-    const localExplored = (loadLocalJSON("bjj-explored") ?? []) as Array<{
-      slug: string
-      firstVisited: string
-    }>
-    const cloudExplored = ((data as any).explored ?? []) as Array<{
-      slug: string
-      firstVisited: string
-    }>
-    const exploredMap = new Map<string, any>()
-    for (const e of [...localExplored, ...cloudExplored]) {
-      const existing = exploredMap.get(e.slug)
-      if (!existing || e.firstVisited < existing.firstVisited) {
-        exploredMap.set(e.slug, e)
-      }
-    }
-    localStorage.setItem("bjj-explored", JSON.stringify([...exploredMap.values()]))
-
-    markSyncSuccess()
-    return true
-  } catch (e) {
-    console.error("[supabase] pull error:", e)
-    markSyncFailure()
-    return false
-  } finally {
-    _syncing = false
-  }
-}
-
-/** Called on first sign-in — pull cloud data, merge, then push merged result */
-async function initialSync() {
-  _pulledThisSession = true
-  const pulled = await pullFromCloud()
-  if (pulled) await pushToCloud()
-}
-
-// ── Debounced Sync ─────────────────────────────────────────────────────────────
-
-/** Called by srs.ts, settings.ts, etc. after every localStorage write */
-export function syncAfterWrite() {
-  if (!isAuthenticated()) return
-  if (_syncTimeout) clearTimeout(_syncTimeout)
-  _syncTimeout = setTimeout(() => pushToCloud(), SYNC_DEBOUNCE_MS)
-}
-
-// ── Merge Logic ────────────────────────────────────────────────────────────────
-
-function mergeCards(local: SRSCard[], cloud: SRSCard[]): SRSCard[] {
-  const merged = new Map<string, SRSCard>()
-
-  for (const card of cloud) {
-    merged.set(card.technique, card)
-  }
-
-  for (const card of local) {
-    const existing = merged.get(card.technique)
-    if (!existing || card.lastReview > existing.lastReview) {
-      // Local card is newer or doesn't exist in cloud
-      if (existing) {
-        // Union flashcardsMastered from both
-        const allMastered = new Set([
-          ...(existing.flashcardsMastered || []),
-          ...(card.flashcardsMastered || []),
-        ])
-        card.flashcardsMastered = Array.from(allMastered).sort((a, b) => a - b)
-      }
-      merged.set(card.technique, card)
-    } else if (existing) {
-      // Cloud card is newer — union flashcardsMastered from local
-      const allMastered = new Set([
-        ...(existing.flashcardsMastered || []),
-        ...(card.flashcardsMastered || []),
-      ])
-      existing.flashcardsMastered = Array.from(allMastered).sort((a, b) => a - b)
-    }
-  }
-
-  return Array.from(merged.values())
-}
-
-// ── Local-only save (avoids sync loops during pull) ────────────────────────────
-
-function saveSRSCardsLocal(cards: SRSCard[]) {
-  localStorage.setItem("bjj-srs-cards", JSON.stringify(cards))
-}
-
-function saveSettingsLocal(settings: BJJSettings) {
-  localStorage.setItem("bjj-settings", JSON.stringify(settings))
-}
-
-function saveDailyProgressLocal(progress: DailyProgress) {
-  localStorage.setItem("bjj-daily-progress", JSON.stringify(progress))
-}
-
-// ── On Page Load (for authenticated users) ─────────────────────────────────────
-
-export async function syncOnLoad() {
-  if (!isAuthenticated()) return
-  if (_pulledThisSession) return
-  _pulledThisSession = true
-  try {
-    await pullFromCloud()
-  } catch {
-    // Silent failure — data is still in localStorage (pull schedules a retry)
-  }
 }
 
 // ── Neural progress blob ────────────────────────────────────────────────────────

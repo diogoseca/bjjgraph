@@ -185,7 +185,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Defensive with offensive options | Offensive/Controlling |
-| **Risk Level** | Medium | Medium |
+| **Risk Level** | Medium | Low to Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 

@@ -113,7 +113,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 58%
 
 </section>

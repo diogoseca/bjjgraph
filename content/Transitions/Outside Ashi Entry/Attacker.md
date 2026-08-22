@@ -85,7 +85,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
       "name": "What is the primary mechanical difference between outside ashi entry and inside ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Outside ashi entry positions you on the exterior side of the opponent's leg with your inside leg crossing their hip/back, while inside ashi entry places you between their legs. Outside entry is generally safer from counters but provides different submission angles, primarily favoring straight ankle locks and outside heel hooks. The entry pathway for outside ashi involves rotation to the outside rather than penetration between the legs, making it less vulnerable to sprawls and guillotines but requiring more precise rotation mechanics."
+        "text": "Outside ashi entry positions you on the exterior side of the opponent's leg, while inside ashi entry places you between their legs. In outside ashi your inside leg crosses their hip/back, and the position is generally safer from counters while offering different submission angles, primarily favoring straight ankle locks and outside heel hooks. The entry pathway involves rotation to the outside rather than penetration between the legs, making it less vulnerable to sprawls and guillotines but requiring more precise rotation mechanics."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
       "name": "Why is timing the entry to coincide with the opponent's forward step or weight shift important?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Timing the entry with opponent's movement serves multiple purposes: it reduces their ability to defend by catching them mid-motion when base is compromised, it uses their forward momentum to assist your entry rather than fighting against static resistance, and it disguises your entry within the natural flow of movement making it harder to anticipate. Attempting the entry against a static, balanced opponent results in maximum resistance and low success rates, whereas timing it with their movement can increase success rates by 30-40%."
+        "text": "Entering as the opponent steps or shifts weight catches them mid-motion with a compromised base, sharply reducing their ability to defend. It also uses their forward momentum to assist your entry rather than fighting static resistance, and it disguises the entry within the natural flow of movement so it is harder to anticipate. Attempting the entry against a static, balanced opponent results in maximum resistance and low success rates, whereas timing it with their movement can increase success rates by 30-40%."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
       "name": "Describe the optimal leg configuration in the final outside ashi position and explain the function of each leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In outside ashi, your inside leg (closest to opponent's centerline) should cross over their hip or lower back with the knee and shin creating a barrier, while your outside leg hooks over their trapped leg at the knee or upper shin with the foot actively pulling their knee toward you. The inside leg's function is to prevent them from rotating away or creating distance, essentially anchoring their hip. The outside leg's function is to control and elevate their knee, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks."
+        "text": "Your inside leg crosses over their hip or lower back to anchor it, while your outside leg hooks over their trapped leg at the knee to control and elevate it. The inside leg's knee and shin create a barrier that prevents them from rotating away or creating distance, essentially anchoring their hip. The outside leg hooks at the knee or upper shin with the foot actively pulling their knee toward you, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks."
       }
     }
   ]

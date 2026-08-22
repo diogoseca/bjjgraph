@@ -79,7 +79,7 @@ description: "How to execute Elbow Escape to Guard in BJJ. Step-by-step attackin
       "name": "What position do you start Elbow Escape to Guard from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Buggy Choke bottom position, specifically when opponent has threaded their arm under your armpit and is establishing or has established the choking grip configuration from turtle top. The escape must be initiated before the choke fully consolidates for highest success probability."
+        "text": "Elbow Escape to Guard starts from the bottom of a Buggy Choke, as the opponent threads an arm under your armpit from turtle top. Specifically, the opponent is establishing or has established the choking grip configuration. The escape must be initiated before the choke fully consolidates for the highest success probability."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Elbow Escape to Guard in BJJ. Step-by-step attackin
       "name": "What is the critical structural element that makes the elbow wedge effective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The elbow wedge works because you're using your skeletal structure—specifically the point of your elbow—as a mechanical barrier rather than relying on muscular strength. The elbow creates a hard obstacle between your neck and opponent's choking forearm that they cannot compress through. Reinforcing by grabbing your own collar or reaching to your far shoulder creates an even stronger structural frame."
+        "text": "The elbow wedge works because your skeletal structure—the point of your elbow—forms a mechanical barrier the choking forearm cannot compress through. You are relying on bone alignment rather than muscular strength, placing a hard obstacle between your neck and the opponent's forearm. Reinforcing by grabbing your own collar or reaching to your far shoulder creates an even stronger structural frame."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Elbow Escape to Guard in BJJ. Step-by-step attackin
       "name": "Why must the hip escape move diagonally rather than straight backward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Diagonal hip escape creates significantly more space because it moves you away from opponent's centerline while preventing them from simply following your movement. Straight backward escape allows opponent to maintain the same angle and connection. The diagonal angle also naturally positions your knee for insertion and sets up proper open guard structure facing the opponent."
+        "text": "Escaping the hips diagonally creates significantly more space because it moves you off the opponent's centerline, where they cannot simply follow you. A straight backward escape lets the opponent maintain the same angle and connection. The diagonal angle also naturally positions your knee for insertion and sets up proper open guard structure facing the opponent."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Elbow Escape to Guard in BJJ. Step-by-step attackin
       "name": "How do you counter when opponent releases the choke to take your back during the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If opponent abandons the choke to pursue back control, immediately address the hook insertion by lowering your near-side hip to the mat and turning into them rather than continuing to turtle. Your elbow that was wedging can now frame on their hip or thigh. The key is recognizing this transition early and not continuing the guard recovery motion when back take is imminent."
+        "text": "If the opponent abandons the choke to take your back, immediately lower your near-side hip to the mat and turn into them rather than continuing to turtle. The elbow that was wedging can now frame on their hip or thigh to address the hook insertion. The key is recognizing this transition early and not continuing the guard recovery motion when the back take is imminent."
       }
     }
   ]

@@ -71,7 +71,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What is the primary goal of Body Triangle Lock from Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to establish the body triangle leg configuration while maintaining Gift Wrap arm control, creating a combined control position that eliminates both arm defense and hip escape capability. This maximizes positional dominance and creates optimal conditions for patient submission hunting."
+        "text": "The primary goal is to lock the body triangle while keeping Gift Wrap arm control, eliminating both arm defense and hip escape. This combined control position maximizes positional dominance and creates optimal conditions for patient submission hunting."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What position do you start Body Triangle Lock from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Gift Wrap/Top position, where you have back control with one of opponent's arms trapped across their body and secured with your arm threading under their armpit."
+        "text": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What are the key grips and controls needed for Body Triangle Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key controls are: Gift Wrap arm control maintained throughout (arm threading under opponent's armpit with wrist/forearm control on far side), chest-to-back connection, and proper ankle positioning for the triangle lock. The locking ankle should be positioned behind the attacking leg's knee or ankle for mechanical advantage."
+        "text": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What is the optimal timing window to initiate the body triangle thread?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is when opponent is settled and not actively escaping - typically after they exhale, after a failed escape attempt when they pause to recover, or when they are focused on defending their neck rather than hip movement. Initiating during explosive movement often results in lost position."
+        "text": "The optimal window is when the opponent is settled and not actively escaping, such as after an exhale or a failed escape attempt. Other good moments are when they pause to recover or are focused on defending their neck rather than moving their hips. Initiating during explosive movement often results in lost position."
       }
     },
     {

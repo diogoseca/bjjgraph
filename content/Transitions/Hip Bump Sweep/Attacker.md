@@ -71,7 +71,7 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
       "name": "What is the primary purpose of controlling your opponent's arm during the Hip Bump Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Controlling the opponent's arm serves two critical purposes: first, it prevents them from posting that arm to stop the sweep, and second, it creates the chain attack opportunity to Kimura if they post with their other arm. The arm control is the linchpin that makes the entire closed guard attack system work together."
+        "text": "Arm control stops the opponent from posting to block the sweep and sets up the Kimura chain if they post with their other arm. These two purposes work together: denying the near-side post forces them to either concede the sweep or reach with the far arm, which feeds directly into the Kimura. The arm control is the linchpin that makes the entire closed guard attack system work together."
       }
     },
     {

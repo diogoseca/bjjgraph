@@ -1,0 +1,59 @@
+{
+  ".ng-status": "MISSING",
+  ".ng-transport": "MISSING",
+  ".ng-account": "MISSING",
+  ".ng-knowledge-header": {
+    "display": "block",
+    "opacity": "1",
+    "rect": [
+      0,
+      0
+    ],
+    "text": "YOUR GAME KNOWLEDGE0.0% Building foundationsProven recall, not challenge completion."
+  },
+  ".ng-legend": {
+    "display": "flex",
+    "opacity": "1",
+    "rect": [
+      210,
+      108
+    ],
+    "text": "Position\nTransition\nSubmission\nLose\nWin"
+  },
+  ".ng-logo": {
+    "display": "flex",
+    "opacity": "1",
+    "rect": [
+      78,
+      30
+    ],
+    "text": "bjjgraph.org\nOpen panel\n/"
+  },
+  ".ng-drilltab": {
+    "display": "flex",
+    "opacity": "1",
+    "rect": [
+      227,
+      61
+    ],
+    "text": "○\nX-Guard\nDrill to boost your odds →"
+  },
+  "[data-tut-copy]": {
+    "display": "block",
+    "opacity": "1",
+    "rect": [
+      222,
+      12
+    ],
+    "text": "Challenge complete - next up"
+  },
+  ".ng-optionrow": {
+    "display": "flex",
+    "opacity": "1",
+    "rect": [
+      1440,
+      160
+    ],
+    "text": "1\nSUBMISSION\n+100\nAnkle Lock\nfrom X-Guard\n→ Ashi Garami Top\nSUCCESS RATE\n32%\n2\nTRANSITION\n+67\nTomahawk Sweep\n→ Mount Top\nSUCCESS RATE\n45%\n3\nTRANSITION\n-4\nSmash Pass\nfrom X-Guard\n→ Half Guard Top\nSUCCESS RATE\n42%\n4\nTRANSITION\n-4\nStep Over\nfr"
+  }
+}

@@ -755,7 +755,7 @@
         "value": 58
       },
       "submission_probability": {
-        "value": 42
+        "value": 32
       },
       "average_time": "30-90 seconds before transition or pass attempt"
     },
@@ -763,49 +763,42 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
+          "gi": 19,
+          "nogi": 18
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Tomoe Nage",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Lumberjack Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Push Sweep from Feet on Hips",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 7,
           "nogi": 3
         }
       },
@@ -840,7 +833,7 @@
       {
         "transition": "Feet on Hips to De La Riva",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 11,
           "nogi": 5
         }
       },

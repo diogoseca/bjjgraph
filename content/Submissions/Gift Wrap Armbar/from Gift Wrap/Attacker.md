@@ -79,7 +79,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
       "name": "What anatomical structure does the Gift Wrap Armbar primarily attack, and what makes the gift wrap control increase the finish rate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Gift Wrap Armbar attacks the elbow joint by hyperextending it against the natural range of motion, specifically stressing the ulnar collateral ligament and joint capsule. The gift wrap control increases the finish rate because the opponent's trapped arm cannot participate in armbar defense—they cannot clasp hands together, frame against the attacker's legs, or use two arms to resist the extension. This reduces the defense to a single-arm problem, dramatically favoring the attacker."
+        "text": "The Gift Wrap Armbar hyperextends the elbow joint, and the gift wrap removes the opponent's second arm from the armbar defense. The extension stresses the ulnar collateral ligament and joint capsule against their natural range of motion. Because the trapped arm cannot clasp hands, frame against your legs, or add a second arm to resist, the defense collapses into a single-arm problem, dramatically favoring the attacker and raising the finish rate."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
       "name": "What are the visible indicators that the opponent's elbow is approaching the breaking point during the armbar extension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Key indicators include the opponent's arm becoming fully straightened with no remaining bend at the elbow, visible tension in the bicep and forearm muscles as they resist, the opponent's face showing distress or their body tensing suddenly, and audible distress vocalizations. The arm may also begin to tremble under the extension pressure. At this stage, slow your hip elevation immediately and allow time for the tap—continuing aggressive extension past these signs risks injury."
+        "text": "The elbow nears breaking when the arm is fully straight, the bicep and forearm visibly tense in resistance, and the opponent shows sudden distress. The arm may also tremble under the extension pressure, and audible distress vocalizations or sudden body tension are further signals. At this stage, slow your hip elevation immediately and allow time for the tap—continuing aggressive extension past these signs risks injury."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
       "name": "What must be established before committing to the armbar transition from gift wrap control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before committing to the armbar, you must verify: the gift wrap arm trap is fully secure with the opponent's arm high across their chest, your base position is stable with hooks or body triangle intact, and you have identified and secured wrist control on the opponent's free arm. Attempting the transition without wrist control allows arm retraction, without secure gift wrap allows arm recovery, and without stable base results in losing the entire position during the transition."
+        "text": "Before the armbar transition, secure the gift wrap high across the chest, keep a stable base with hooks or body triangle intact, and control the free-arm wrist. Each element covers a specific failure: without wrist control the opponent retracts the arm, without a secure gift wrap they recover the trapped arm, and without a stable base you lose the entire position during the transition."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
       "name": "At what point during the Gift Wrap Armbar sequence does the submission become inescapable for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The submission becomes effectively inescapable once the attacker has completed the leg clamp across the head and chest with knees squeezed together, the hips are positioned directly beneath the elbow joint, and the wrist is secured tight to the chest. At this point, the defender cannot rotate the elbow, stack forward, or bridge effectively because the leg barrier, hip fulcrum, and wrist control create a closed mechanical system. Any defensive movement at this stage typically accelerates the hyperextension rather than relieving it."
+        "text": "It becomes inescapable once the legs clamp the head and chest with knees squeezed, the hips sit under the elbow, and the wrist is tight to your chest. At that point the leg barrier, hip fulcrum, and wrist control form a closed mechanical system, so the defender cannot rotate the elbow, stack forward, or bridge effectively. Any defensive movement at this stage typically accelerates the hyperextension rather than relieving it."
       }
     },
     {
@@ -119,7 +119,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
       "name": "How should you adjust your grip if the opponent begins rotating their wrist during the finishing extension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent rotates their wrist to reduce hyperextension angle, respond by adjusting your grip to control the forearm just above the wrist rather than the wrist itself, which provides a wider control surface that resists rotation. Additionally, squeeze your knees tighter to prevent the elbow from rotating out of plane, and angle your hips slightly toward the opponent's thumb-side to maintain the correct hyperextension vector. If the wrist fully rotates thumb-down, consider transitioning to a belly-down armbar finish."
+        "text": "If the opponent rotates their wrist, move your grip to the forearm just above the wrist, a wider control surface that resists rotation. Additionally, squeeze your knees tighter to prevent the elbow from rotating out of plane, and angle your hips slightly toward the opponent's thumb-side to maintain the correct hyperextension vector. If the wrist fully rotates thumb-down, consider transitioning to a belly-down armbar finish."
       }
     }
   ]

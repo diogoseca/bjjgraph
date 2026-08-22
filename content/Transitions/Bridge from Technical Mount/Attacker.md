@@ -85,7 +85,7 @@ description: "Complete guide to executing the bridge escape from technical mount
       "name": "Why must you bridge toward the opponent's inside leg rather than their posted leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force. Bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it lacks the structural angle and mat contact needed to absorb bridging force, making it the weak side of their asymmetric base."
+        "text": "Bridge toward the inside leg because it lacks mat contact and structural angle, making it the weak side of the opponent's base. The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force—bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it cannot absorb bridging force."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "Complete guide to executing the bridge escape from technical mount
       "name": "Your opponent has heavy settled pressure with no weight shifts occurring—should you attempt the bridge immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Bridging against fully settled heavy pressure produces minimal displacement at maximum energy cost. Instead, maintain defensive frames and protect your arms while waiting for the opponent to initiate a movement—any submission attempt, grip change, or position adjustment will create a weight shift. Patience preserves energy for the moment when bridging effectiveness is highest. Forced bridges against settled weight are the most common energy-wasting mistake from this position."
+        "text": "No—maintain defensive frames and wait for the opponent to initiate movement, because bridging against settled weight wastes energy. Any submission attempt, grip change, or position adjustment will create a weight shift, and patience preserves energy for the moment when bridging effectiveness is highest. Bridging fully settled heavy pressure produces minimal displacement at maximum energy cost—forced bridges against settled weight are the most common energy-wasting mistake from this position. Keep protecting your arms while you wait."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "Complete guide to executing the bridge escape from technical mount
       "name": "If your bridge creates space but the opponent blocks your knee insertion for guard recovery, what is your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If knee insertion is blocked, immediately attempt a secondary hip escape in the same direction to create additional space, or switch to turning toward turtle as an emergency recovery position. Turtle from technical mount is a significant positional improvement. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately."
+        "text": "Immediately attempt a secondary hip escape in the same direction, or turn toward turtle rather than staying flat on your back. Turtle from technical mount is a significant positional improvement, so it serves as a legitimate emergency recovery. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately."
       }
     },
     {

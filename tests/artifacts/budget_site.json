@@ -1,0 +1,51 @@
+{
+ "_meta": {
+  "format": 2,
+  "neural_note": "neural.* are hand-set TARGETS from the field data (LCP P75 13,764ms / 39.3MB raw to first move), not seeded observations. --update never raises them.",
+  "note": "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling means the payload grew \u2014 justify it in the commit body.",
+  "seed_headroom": 1.1
+ },
+ "bundles": {
+  "index.css": 50598,
+  "postscript.js": 85627,
+  "prescript.js": 3055
+ },
+ "html_total_bytes": 453015270,
+ "neural": {
+  "chunk_max_bytes": 40000,
+  "deferred_raw_bytes": 500000,
+  "eager_gzip_bytes": 330000,
+  "eager_raw_bytes": 1600000
+ },
+ "observed": {
+  "bundles": {
+   "index.css": 45999,
+   "postscript.js": 77843,
+   "prescript.js": 2778
+  },
+  "html_file_count": 6182,
+  "html_total_bytes": 411832064,
+  "pages": {
+   "Positions.html": 166979,
+   "Positions/Mount.html": 81865,
+   "Positions/Mount/Top.html": 85944,
+   "Submissions/Rear-Naked-Choke.html": 70338,
+   "Systems.html": 79232,
+   "Transitions/Armbar-from-Back-Transition.html": 69201,
+   "Transitions/Armbar-from-Back-Transition/Attacker.html": 71721,
+   "game-over.html": 380,
+   "index.html": 30982
+  }
+ },
+ "pages": {
+  "Positions.html": 183676,
+  "Positions/Mount.html": 90051,
+  "Positions/Mount/Top.html": 94538,
+  "Submissions/Rear-Naked-Choke.html": 77371,
+  "Systems.html": 87155,
+  "Transitions/Armbar-from-Back-Transition.html": 76121,
+  "Transitions/Armbar-from-Back-Transition/Attacker.html": 78893,
+  "game-over.html": 418,
+  "index.html": 34080
+ }
+}

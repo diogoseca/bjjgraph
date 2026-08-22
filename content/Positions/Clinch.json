@@ -110,57 +110,43 @@
       {
         "transition": "Double Leg Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Single Leg Takedown",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Duck Under from Clinch",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Fireman's Carry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Kouchi Gari",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 9,
           "nogi": 4
         }
       },
       {
         "transition": "Uchi Mata",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 10,
           "nogi": 3
-        }
-      },
-      {
-        "transition": "Arm Drag from Clinch",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
         }
       },
       {
@@ -174,21 +160,21 @@
         "transition": "High Crotch",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 6
+          "nogi": 8
         }
       },
       {
         "transition": "Ankle Pick",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 7,
           "nogi": 5
         }
       },
       {
         "transition": "Body Lock Takedown from Clinch",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 10
         }
       },
       {
@@ -202,7 +188,7 @@
         "transition": "Guillotine Choke from Clinch",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 6
+          "nogi": 8
         }
       }
     ],

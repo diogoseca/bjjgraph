@@ -25,6 +25,20 @@ const state = (page: any) =>
 
 /** answer the live landing question (correct or deliberately wrong) via the keyboard */
 const answer = async (page: any, correct: boolean) => {
+  // v1.80.4: the landing question mounts once this state's deck AND its distractor pool are
+  // resident — the card itself (identity + film) renders immediately, the question can be one
+  // fetch behind. Waiting for the block is not a weaker assertion: it is still "a live landing
+  // question or fail", just not "in this exact microtask".
+  await page
+    .waitForFunction(
+      () => {
+        const m = (window as any).__neural._mc
+        return !!(m && m.surface === "land")
+      },
+      null,
+      { timeout: 20_000 },
+    )
+    .catch(() => {})
   const mc = await page.evaluate(() => {
     const m = (window as any).__neural._mc
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
@@ -203,17 +217,32 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   await j.land("Mount Top")
 
   await answer(page, true) // ×1
-  // prove the NEXT state's whole deck before we get there, so it will ask nothing
-  const destKey = await page.evaluate(() => {
+  // Prove the NEXT state's whole deck before we get there, so it will ask nothing.
+  //
+  // The destination is the CALIBRATED outcome's target — the same rule the second half of this
+  // journey already documents ("o.res is the legacy estimate — probing it boomerangs"), applied
+  // here too since v1.118.0. `o.res` is `resultPos()`: the first POSITION adjacent to the move
+  // that is not the one you are standing on. For `Mount to 3-4 Mount` that happens to equal the
+  // real landing, and while the hand ranked submissions at a flat +100 (movePotential's deleted
+  // `return 1`) it was the first transition dealt — so this fixture proved the right deck by
+  // coincidence. Ranked by EDGE the first transition is `Consolidate Mount`, whose `o.res` is
+  // Half Guard Top while `rig("outcome",[0.01])` lands it in High Mount Top: the wrong deck got
+  // pre-proven, the landing asked a question, and the streak broke for "neglect" it never had.
+  const destKey = await page.evaluate(async () => {
     const a = (window as any).__neural
     for (const o of a._optList || []) {
-      if (o.node.ty === "transitions" && o.res >= 0) {
-        const key = a.deckKeyFor(a.nodes[o.res]).key
-        const d = a.flashcards.decks[key]
-        if (d && d.cards && d.cards.length) {
-          for (const c of d.cards) a._bumpStage(key, c.q, 4)
-          return o.node.t
-        }
+      if (o.node.ty !== "transitions") continue
+      const outs = (o.node.cal && o.node.cal.outcomes) || []
+      const r = outs.length && a.resolveOutcomeTo(outs[0].to) // rig takes the FIRST bucket
+      if (!r || r.idx < 0) continue
+      const key = a.deckKeyFor(a.nodes[r.idx]).key
+      // the destination's cards may not have arrived yet (on-demand residency, v1.80.4) —
+      // ask for them, since proving them all is the whole point of this step
+      await a.hydrateDeck(key)
+      const cards = a._cardsOf(a.flashcards.decks[key])
+      if (cards && cards.length) {
+        for (const c of cards) a._bumpStage(key, c.q, 4)
+        return o.node.t
       }
     }
     return ""
@@ -234,6 +263,19 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   // target (o.res is the legacy estimate — probing it boomerangs), and the question must build
   // from AUTHORED mc tiers (pool-built distractors depend on random sibling draws).
   for (let hop = 0; hop < 4; hop++) {
+    // the candidates' decks must be resident before questionFor() can judge them (v1.80.4)
+    await page.evaluate(async () => {
+      const a = (window as any).__neural
+      const keys = []
+      for (const o of a._optList || []) {
+        if (!o.node || o.node.ty !== "transitions") continue
+        const outs = (o.node.cal && o.node.cal.outcomes) || []
+        const win = outs.find((x) => x.result === "success") || outs[0]
+        const r = win && a.resolveOutcomeTo(win.to)
+        if (r && r.idx >= 0) keys.push(a.deckKeyFor(a.nodes[r.idx]).key)
+      }
+      await a.hydrateDecks(keys)
+    })
     const target = await page.evaluate(() => {
       const a = (window as any).__neural
       const destOf = (node: any) => {
@@ -264,6 +306,7 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
     await j.rig("outcome", [0.01])
     await j.pick(target)
     await j.nextHand()
+    await j.landSettled()   // the question docks one fetch after the card (v1.80.5 signal)
     if (await page.locator("[data-land-q]").count()) break
   }
   await expect(page.locator("[data-land-q]")).toBeVisible()

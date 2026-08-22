@@ -101,6 +101,46 @@
   background: transparent;
 }
 
+/* the lit-node-set primitive: a class, a list, or a System held alight while the
+   camera frames it (share links, Explore lists, System constellations). */
+.graph-node.is-lit {
+  z-index: 2;
+  background: #8ecfa6;
+  box-shadow:
+    0 0 0 4px rgba(126, 224, 168, 0.12),
+    0 0 20px rgba(126, 224, 168, 0.65);
+}
+
+.graph-node--submission.is-lit {
+  background: transparent;
+  border-bottom-color: #8ecfa6;
+}
+
+.graph-node .lit-label {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 7px;
+  border-radius: 999px;
+  color: #0f1424;
+  background: #8ecfa6;
+  font: 800 8px/1.4 var(--fc-font);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.graph-link-lit {
+  fill: none;
+  stroke: rgba(126, 224, 168, 0.55);
+  stroke-width: 0.35;
+  stroke-dasharray: 1.6 1.2;
+}
+
+.graph-field.has-lit .graph-links > path:first-child {
+  opacity: 0.35;
+}
+
 .graph-node--active {
   width: 44px;
   height: 44px;
@@ -134,21 +174,85 @@
 }
 
 .account-bubble {
+  /* bottom-right since v1.93.0; the wrap is a column so the v1.94.0 menu docks above the chip */
   position: absolute;
-  top: 22px;
+  bottom: 24px;
   right: 22px;
   z-index: 8;
   display: flex;
-  align-items: center;
-  gap: 9px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  color: var(--fc-text-soft);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.account-bubble .ng-account-chip {
   padding: 5px 6px 5px 13px;
   border: 1px solid var(--fc-border);
   border-radius: 999px;
-  color: var(--fc-text-soft);
   background: rgba(26, 30, 52, 0.72);
-  font-size: 11px;
-  font-weight: 700;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+  font-size: 11px;
+}
+
+.account-menu {
+  display: flex;
+  flex-direction: column;
+  width: 224px;
+  padding: 5px;
+  border: 1px solid var(--fc-border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(26, 30, 52, 0.99), rgba(18, 21, 38, 0.99));
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.55);
+}
+
+.account-menu .menu-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #cbd4e6;
+  font: 600 13px/1.2 var(--fc-font);
+  text-align: left;
+  cursor: pointer;
+}
+
+.account-menu .menu-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.account-menu .menu-row--static {
+  color: #8b97b0;
+  font-size: 12px;
+  cursor: default;
+}
+
+.account-menu .menu-sep {
+  height: 1px;
+  margin: 5px 4px;
+  background: rgba(150, 170, 210, 0.14);
+}
+
+.account-menu .menu-legal {
+  display: flex;
+  align-items: center;
+}
+
+.account-menu .menu-legal .menu-row {
+  width: auto;
+}
+
+.account-menu .menu-legal i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #3c4358;
 }
 
 .account-avatar {
@@ -540,6 +644,45 @@
   font-weight: 700;
 }
 
+/* v1.101.1: the card's two corner controls live at the foot, on the More row, so they
+   cost the card no vertical space. */
+.landing-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.landing-corner {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.landing-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border: 1px solid rgba(150, 170, 210, 0.22);
+  border-radius: 999px;
+  color: #aab4c8;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.landing-count .status-mark {
+  font-size: 9px;
+}
+
+.landing-capture {
+  color: #9ab0e0;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .drill-tab {
   position: absolute;
   top: 50%;
@@ -633,8 +776,7 @@
 }
 
 .coach,
-.panic-card,
-.tutorial-strip {
+.panic-card {
   position: absolute;
   z-index: 16;
   padding: 14px 16px;
@@ -659,16 +801,8 @@
   transform: translate(-50%, -50%);
 }
 
-.tutorial-strip {
-  bottom: 94px;
-  left: 14px;
-  width: 235px;
-  padding: 10px 12px;
-}
-
 .coach small,
-.panic-card small,
-.tutorial-strip small {
+.panic-card small {
   color: var(--fc-green);
   font-size: 8px;
   font-weight: 800;
@@ -681,8 +815,7 @@
 }
 
 .coach p,
-.panic-card p,
-.tutorial-strip p {
+.panic-card p {
   margin: 7px 0 0;
   color: var(--fc-text-soft);
   font-size: 10px;
@@ -821,14 +954,15 @@
   }
 
   .account-bubble {
-    top: 16px;
-    right: 16px;
-    padding: 0;
-    border: 0;
-    background: transparent;
+    bottom: 86px;
+    right: 14px;
   }
 
-  .account-bubble > span:first-child {
+  .account-bubble .ng-account-chip {
+    padding: 7px; /* avatar-only chip still makes a 44px touch target */
+  }
+
+  .account-bubble .ng-account-chip > span:first-child {
     display: none;
   }
 
@@ -854,6 +988,7 @@
 
   .landing-card[data-priority="fit"] .landing-definition,
   .landing-card[data-priority="fit"] .film-strip,
+  .landing-card[data-priority="fit"] .landing-foot,
   .landing-card[data-priority="fit"] .landing-more {
     display: none;
   }
@@ -905,10 +1040,6 @@
   }
 
   .drill-tab > div {
-    display: none;
-  }
-
-  .tutorial-strip {
     display: none;
   }
 

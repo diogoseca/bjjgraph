@@ -83,7 +83,7 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
       "name": "What is the primary mechanical advantage created by the stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The stack pass creates a mechanical advantage by driving the opponent's knees toward their chest, which lifts their hips off the mat and inverts their spine so their weight rests on their upper back and shoulders. This severely limits their hip mobility and eliminates their ability to shrimp, frame, or generate the leg power needed for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult."
+        "text": "The stack pass folds the opponent's knees into their chest, lifting their hips off the mat and inverting their spine onto their shoulders. With their weight resting on their upper back, they lose the hip mobility needed to shrimp, frame, or generate the leg power required for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
       "name": "What grip requirements are essential for a successful stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need strong bilateral control of the opponent's legs, typically gripping the pants at the knee line or lower shins in gi, or cupping behind the knees in no-gi. These grips must be maintained from the initial guard break through the stacking phase and leg clearing. The grip on the passing side can transition to a collar or crossface grip only after your hips have cleared past the opponent's legs. Releasing grips prematurely is the single most common reason the pass fails, as even momentary loss of leg control allows guard recomposition."
+        "text": "A successful stack pass requires bilateral leg control — pants grips at the knee line or lower shins in gi, or cups behind the knees in no-gi. These grips must be maintained from the initial guard break through the stacking phase and leg clearing. Only after your hips have cleared past the opponent's legs can the passing-side grip transition to a collar or crossface grip. Releasing grips prematurely is the single most common reason the pass fails, as even momentary loss of leg control allows guard recomposition."
       }
     },
     {

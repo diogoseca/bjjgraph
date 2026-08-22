@@ -61,7 +61,7 @@
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
-      "risk_level": "Medium",
+      "risk_level": "Low to Medium",
       "energy_cost": "Medium",
       "time_sustainability": "Medium to Long"
     },
@@ -264,7 +264,7 @@
         "description": "Moderate retention reflecting the dynamic nature of guard engagement where both players frequently transition"
       },
       "advancement_probability": {
-        "value": 60,
+        "value": 70,
         "description": "Solid advancement probability reflecting diverse passing options available from open guard top"
       },
       "submission_probability": {

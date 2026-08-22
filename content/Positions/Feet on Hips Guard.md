@@ -204,17 +204,15 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (17% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (18% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (14% of attempts)
 
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (5% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (8% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (7% of attempts)
+- **[[Transitions/Push Sweep from Feet on Hips/Attacker|Push Sweep from Feet on Hips]]** (11% of attempts)
 
-- **[[Transitions/Push Sweep from Feet on Hips/Attacker|Push Sweep from Feet on Hips]]** (10% of attempts)
-
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (12% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (13% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (3% of attempts)
 

@@ -9,7 +9,7 @@ test.describe("Forward Components development library @curated", () => {
     await expect(
       page.getByRole("heading", { name: "Brand & explorer trigger" }),
     ).toBeVisible();
-    await expect(page.locator(".catalog-item")).toHaveCount(53);
+    await expect(page.locator(".catalog-item")).toHaveCount(60);
 
     await page
       .getByRole("button", { name: "Question-first landing card" })
@@ -60,8 +60,13 @@ test.describe("Forward Components development library @curated", () => {
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
 
+    // Reduced motion BEFORE navigation: the catalog scrolls the preview into view with
+    // scrollIntoView({behavior:"smooth"}), and this test used to read the card's bottom
+    // and the hand's top in TWO round-trips — straddling that live scroll. One CI run
+    // failed by exactly 11.0000px (an integer scrollTop) for that reason alone.
+    await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/dev/screens/");
-    await expect(page.locator(".catalog-item")).toHaveCount(102);
+    await expect(page.locator(".catalog-item")).toHaveCount(114); // +1: Account · menu (signed in), v1.94.0
 
     await page
       .getByRole("button", { name: "Stress · screenshot recreation" })
@@ -74,25 +79,61 @@ test.describe("Forward Components development library @curated", () => {
       .getByLabel("Preview variant")
       .selectOption({ label: "Full detail" });
     await expect(page.locator(".landing-definition")).toBeVisible();
+    // The fit POLICY is only meaningfully tested if the full variant actually overflows:
+    // both geometry edges are CSS constants shared by both variants and the card is
+    // bottom-anchored, so `scrollHeight <= clientHeight` is the one assertion below that
+    // can tell them apart. Measured here: 425 vs 295 (overflows) -> 241 vs 241 (fits).
+    const full = await page
+      .locator(".landing-card")
+      .evaluate((el) => ({ s: el.scrollHeight, c: el.clientHeight }));
+    expect(
+      full.s,
+      "Full detail must overflow, else the Priority fit assertion proves nothing",
+    ).toBeGreaterThan(full.c);
     await page
       .getByLabel("Preview variant")
       .selectOption({ label: "Priority fit" });
+    await page.evaluate(() => document.fonts.ready);
 
-    const fit = await page.locator(".landing-card").evaluate((element) => {
-      const box = element.getBoundingClientRect();
+    // ONE round-trip => ONE layout flush. Page scroll, the device-frame scale() and any
+    // sizeFrame() rAF are common-mode to all three rects and cancel in the difference.
+    // The gap is reported in AUTHORED CSS px (frame scale divided out) so the threshold
+    // is a design number, not a viewport artefact.
+    //
+    // Wait for the elements AND the frame transform first: a raw page.evaluate has none of
+    // a locator's implicit auto-waiting, and reading pre-transform yields nonsense.
+    await expect(page.locator(".landing-card")).toBeVisible();
+    await expect(page.locator(".option-card").first()).toBeVisible();
+    await expect
+      .poll(() =>
+        page.evaluate(() => {
+          const el = document.querySelector(".game-stage") as HTMLElement | null;
+          return el ? el.getBoundingClientRect().height / el.offsetHeight : 0;
+        }),
+      )
+      .toBeLessThan(1);
+    const geo = await page.evaluate(() => {
+      const stage = document.querySelector(".game-stage") as HTMLElement;
+      const card = document.querySelector(".landing-card") as HTMLElement;
+      const opt = document.querySelector(".option-card") as HTMLElement;
+      const s = stage.getBoundingClientRect();
+      const c = card.getBoundingClientRect();
+      const o = opt.getBoundingClientRect();
+      const scale = s.height / stage.offsetHeight; // device-frame scale(): 680/875
       return {
-        scrollHeight: element.scrollHeight,
-        clientHeight: element.clientHeight,
-        bottom: box.bottom,
+        scale,
+        scrollHeight: card.scrollHeight,
+        clientHeight: card.clientHeight,
+        gapCss: (o.top - c.bottom) / scale,
       };
     });
-    const optionTop = await page
-      .locator(".option-card")
-      .first()
-      .evaluate((element) => element.getBoundingClientRect().top);
-
-    expect(fit.scrollHeight).toBeLessThanOrEqual(fit.clientHeight);
-    expect(fit.bottom).toBeLessThanOrEqual(optionTop);
+    expect(geo.scrollHeight).toBeLessThanOrEqual(geo.clientHeight);
+    // The hand must keep real slack, not merely touch. --ng-hand-gap is the design
+    // margin; fail if a regression erodes it past 8 authored px.
+    expect(
+      geo.gapCss,
+      `landing card vs option hand gap in authored CSS px (frame scale ${geo.scale.toFixed(4)})`,
+    ).toBeGreaterThanOrEqual(8);
     await expect(page.locator(".landing-definition")).toBeHidden();
     await expect(page.locator(".film-strip")).toBeHidden();
     await expect(page.locator(".question-block")).toBeVisible();
@@ -169,7 +210,7 @@ test.describe("Forward Components development library @curated", () => {
     await page.goto("/dev/screens/");
 
     await page
-      .getByRole("button", { name: "Panes · Belt Path + study" })
+      .getByRole("button", { name: "Panes · Challenges + study" })
       .click();
     await expect(page.locator(".side-panel")).toHaveCount(2);
     await expect(page.locator(".side-panel--left")).toBeVisible();
@@ -192,19 +233,61 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.getByLabel("Flashcards pane")).toBeVisible();
 
     await page
-      .getByRole("button", { name: "Belt Path · recall-proven" })
+      .getByRole("button", { name: "Challenges · track cleared" })
       .click();
-    await expect(page.locator(".belt-meter")).toBeVisible();
+    await expect(page.locator(".knowledge-meter")).toBeVisible();
+    await expect(page.locator(".track-card")).toHaveCount(5);
     await expect(
-      page.locator(".proof-stripes i[data-filled='true']"),
-    ).toHaveCount(4);
-    await expect(page.locator(".crown-badge")).not.toHaveCount(0);
+      page.locator(".track-card[data-complete='true']"),
+    ).toHaveCount(1);
+    await expect(page.locator(".track-card:disabled")).toHaveCount(0);
 
+    // v1.94.0 retired the "no account menu" canon: the chip opens a compact menu now.
+    // Guest: create/login above ONE separator; settings, shortcuts, legal below — no filler.
+    await page.getByRole("button", { name: "Account · menu (guest)" }).click();
+    await expect(page.locator(".ng-account-menu")).toHaveCount(1);
+    await expect(page.locator(".ngAcctChip")).toHaveAttribute(
+      "aria-expanded",
+      "true",
+    );
+    await expect(
+      page.locator(".ng-account-menu [data-menu-create]"),
+    ).toContainText("Create account");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-login]"),
+    ).toContainText("Log in");
+    await expect(page.locator(".ng-account-menu [data-menu-sep]")).toHaveCount(
+      1,
+    );
+    await expect(
+      page.locator(".ng-account-menu [data-menu-shortcuts]"),
+    ).toContainText("Keyboard shortcuts");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-privacy]"),
+    ).toContainText("Privacy");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-email]"),
+      "guest menu carries no identity row",
+    ).toHaveCount(0);
+    // the menu is chrome: the mock roll is NOT paused under it
+    await expect(page.locator(".paused-chip")).toHaveCount(0);
+
+    // Signed in: the auth rows become email (non-interactive) + Log out.
     await page
-      .getByRole("button", { name: "Account · Flashcards home" })
+      .getByRole("button", { name: "Account · menu (signed in)" })
       .click();
-    await expect(page.getByLabel("Flashcards pane")).toBeVisible();
-    await expect(page.locator(".ng-account-menu")).toHaveCount(0);
+    await expect(
+      page.locator(".ng-account-menu [data-menu-email]"),
+    ).toBeVisible();
+    await expect(
+      page.locator(".ng-account-menu [data-menu-logout]"),
+    ).toContainText("Log out");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-create]"),
+    ).toHaveCount(0);
+    await expect(page.locator(".ng-account-menu [data-menu-sep]")).toHaveCount(
+      1,
+    );
 
     await page
       .getByRole("button", { name: "Progress · tested demotion" })
@@ -226,7 +309,120 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.getByLabel("Preview role")).toBeVisible();
   });
 
-  test("the dev hub links all four Forward libraries", async ({ page }) => {
+  test("challenge tracks stay open and rewards remain acknowledgements", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/dev/screens/#item=challenges-above-level&viewport=responsive&variant=Default",
+    );
+
+    await expect(page.locator(".knowledge-header")).toContainText(
+      "YOUR GAME KNOWLEDGE",
+    );
+    await expect(page.locator(".knowledge-header")).toContainText("28%");
+    await expect(page.locator(".track-card")).toHaveCount(5);
+    await expect(page.locator(".track-card:disabled")).toHaveCount(0);
+    await expect(
+      page.getByRole("button", {
+        name: /Black Breadth content track, 0 of 6 complete/,
+      }),
+    ).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator(".challenge-distinction")).toContainText(
+      "Tracks label the material",
+    );
+    await expect(page.locator(".track-card[data-track='black']")).toContainText(
+      "Advanced material - swing away.",
+    );
+
+    await page.locator(".learning-nav button").first().focus();
+    await page.keyboard.press("Tab");
+    await expect(page.locator(".learning-nav button").nth(1)).toBeFocused();
+
+    await page
+      .getByRole("button", { name: "Collection · earned and available" })
+      .click();
+    await expect(page.getByLabel("Collection")).toContainText(
+      "Mat Coins are just for laughs. They do not buy anything.",
+    );
+    await expect(
+      page.locator(".patch-badge[data-earned='false']").first(),
+    ).toContainText("Available to earn");
+
+    await page
+      .getByRole("button", { name: "Challenge migration · 7 of 20" })
+      .click();
+    await expect(
+      page.getByRole("button", { name: /Open pinned White challenge/ }),
+    ).toContainText("7/20");
+    await expect(page.locator(".event-toast")).toContainText(
+      "Tutorial is now White Challenges",
+    );
+  });
+
+  test("mobile challenge cue clears the option hand and rewards honor reduced motion", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/dev/screens/#item=challenge-mobile-collision&viewport=compact&variant=Default",
+    );
+
+    // Same bug class as the landing-card gap above: two rects read in two round-trips can
+    // straddle a layout change, and this one has NO tolerance at all. It has never flaked
+    // only because it navigates by URL hash (no scrollIntoView runs). Measure atomically
+    // and normalise out the device-frame scale so the threshold is authored CSS px.
+    //
+    // The visibility waits are load-bearing: a raw page.evaluate has none of the implicit
+    // auto-waiting a locator gives, so without them the read can land before sizeFrame()
+    // has applied the frame transform — observed as scale=1.0 and a -100px "gap".
+    await expect(page.locator(".challenge-cue")).toBeVisible();
+    await expect(page.locator(".option-card").first()).toBeVisible();
+    await expect
+      .poll(() =>
+        page.evaluate(() => {
+          const el = document.querySelector(".game-stage") as HTMLElement | null;
+          return el ? el.getBoundingClientRect().height / el.offsetHeight : 0;
+        }),
+      )
+      .toBeLessThan(1); // frame transform applied
+    const cue = await page.evaluate(() => {
+      const stage = document.querySelector(".game-stage") as HTMLElement;
+      const cueEl = document.querySelector(".challenge-cue") as HTMLElement;
+      const opt = document.querySelector(".option-card") as HTMLElement;
+      const s = stage.getBoundingClientRect();
+      const scale = s.height / stage.offsetHeight;
+      return {
+        scale,
+        gapCss:
+          (opt.getBoundingClientRect().top - cueEl.getBoundingClientRect().bottom) / scale,
+      };
+    });
+    expect(
+      cue.gapCss,
+      `challenge cue vs option hand gap in authored CSS px (frame scale ${cue.scale.toFixed(4)})`,
+    ).toBeGreaterThanOrEqual(0);
+
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page
+      .getByRole("button", { name: "Reward · reduced motion" })
+      .click();
+    const motion = await page.locator(".reward-toast").evaluate((element) => {
+      const style = getComputedStyle(element);
+      return {
+        animation: style.animationName,
+        transition: style.transitionDuration,
+      };
+    });
+    expect(motion.animation).toBe("none");
+    expect(Number.parseFloat(motion.transition)).toBeLessThanOrEqual(0.00001);
+    await expect(page.locator(".reward-toast")).toHaveAttribute(
+      "aria-live",
+      "polite",
+    );
+  });
+
+  test("the dev hub links all four libraries and the production sound lab", async ({
+    page,
+  }) => {
     await page.goto("/dev/");
 
     await expect(
@@ -247,6 +443,50 @@ test.describe("Forward Components development library @curated", () => {
     await expect(
       page.getByRole("link", { name: /User Journeys/ }),
     ).toHaveAttribute("href", "/dev/user-journeys/");
+    await expect(
+      page.getByRole("link", { name: /Neural Sound Lab/ }),
+    ).toHaveAttribute("href", "/dev/sounds/");
+  });
+
+  test("the sound lab catalogs, filters, and previews the production palette", async ({
+    page,
+  }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    await page.goto("/dev/sounds/");
+
+    await expect(
+      page.getByRole("heading", { name: /Electric current/ }),
+    ).toBeVisible();
+    const cues = page.locator(".sound-cue");
+    expect(await cues.count()).toBeGreaterThanOrEqual(40);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
+      "content",
+      "noindex,nofollow",
+    );
+    await expect(page.locator(".catalog-routes a")).toHaveCount(5);
+
+    const payload = await page.evaluate(() =>
+      fetch("./sound-catalog.json").then((response) => response.json()),
+    );
+    expect(payload.cues.length).toBe(await cues.count());
+
+    const search = page.getByLabel("Filter sounds");
+    await search.fill("star-jump victory");
+    await expect(cues).toHaveCount(1);
+    await search.fill("");
+
+    await page
+      .getByRole("button", { name: "Preview Star-jump victory" })
+      .click();
+    await expect(page.locator('[data-beat="victory_cascade"]')).toHaveAttribute(
+      "data-playing",
+      "",
+    );
+    await expect(page.getByRole("status")).toContainText("Transmitting");
+    await page.getByRole("button", { name: "Stop" }).click();
+    await expect(page.getByRole("status")).toContainText("Playback stopped");
+    expect(errors).toEqual([]);
   });
 
   test("use cases expose important motion as a playable screen timeline", async ({
@@ -256,7 +496,11 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/use-cases/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(18);
+    // +15 (v1.106): the cold start, the one pane and its tabs/study takeover, the
+    // opponent turn, the JIT drill, the knowledge arc, MC-to-recall, the ignored
+    // question, advanced browsing, the returner, the keyboard, gi/no-gi, guest-to-
+    // account, and the three sharing use cases.
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(38);
     await page
       .getByRole("button", { name: /Gameplay animation timepoints/ })
       .click();
@@ -337,8 +581,12 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/user-journeys/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(4);
-    await expect(page.locator(".sequence-chapters button")).toHaveCount(5);
+    // +14 (v1.106): the approved catalog expansion — A1-A9, B1, B2, B3, B5, B6, B7.
+    // B4 (Systems to affiliate purchase) is owner-deferred, not dropped.
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(19);
+    // first-roll gained the opponent-turn chapter (J1 repair): it was "two moves and
+    // a win", with no opponent ever taking a turn in it.
+    await expect(page.locator(".sequence-chapters button")).toHaveCount(6);
     expect(await page.locator(".sequence-frame").count()).toBeGreaterThan(25);
 
     await page
@@ -363,9 +611,11 @@ test.describe("Forward Components development library @curated", () => {
     await page.setViewportSize({ width: 600, height: 900 });
     await expect(page.getByLabel("Preview user journey")).toHaveCount(0);
     await page.getByRole("button", { name: /Browse User journeys/ }).click();
-    await page.getByRole("button", { name: /Study to belt proof/ }).click();
+    await page
+      .getByRole("button", { name: /Study to challenge capstone/ })
+      .click();
     await expect(
-      page.getByRole("heading", { name: "Study to belt proof" }),
+      page.getByRole("heading", { name: "Study to challenge capstone" }),
     ).toBeVisible();
     expect(errors).toEqual([]);
   });
@@ -437,10 +687,11 @@ test.describe("Forward Components development library @curated", () => {
 
     await search.blur();
     await page.getByRole("button", { name: /Play timeline/ }).click();
-    await expect(
-      page.getByRole("button", { name: /Pause timeline/ }),
-    ).toBeVisible();
 
+    // Measure the playing step's animation IMMEDIATELY after Play: the heartbeat step lasts
+    // (240*2)/0.5 = 960ms of playback, and a polling expect in between (Pause-button, below)
+    // can eat that whole window on a loaded runner — the timeline advances to "card-enter"
+    // and the vignette honestly reports animation "none". Same assertions, race removed.
     const motion = await page
       .locator(".sequence-focus .vignette")
       .evaluate((element) => ({
@@ -448,6 +699,9 @@ test.describe("Forward Components development library @curated", () => {
         name: getComputedStyle(element).animationName,
         reduced: matchMedia("(prefers-reduced-motion: reduce)").matches,
       }));
+    await expect(
+      page.getByRole("button", { name: /Pause timeline/ }),
+    ).toBeVisible();
     expect(motion.reduced).toBe(true);
     expect(motion.name).toBe("sequence-heartbeat");
     expect(parseFloat(motion.duration)).toBeLessThanOrEqual(0.001);
@@ -459,7 +713,7 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.locator(".sequence-position")).toContainText("4 / 7");
   });
 
-  test("all four libraries keep the browsable rail on narrow viewports", async ({
+  test("all development routes keep the browsable rail on narrow viewports", async ({
     page,
   }) => {
     await page.setViewportSize({ width: 600, height: 900 });
@@ -468,6 +722,7 @@ test.describe("Forward Components development library @curated", () => {
       "screens",
       "use-cases",
       "user-journeys",
+      "sounds",
     ]) {
       await page.goto(`/dev/${route}/`);
       const rail = page.locator("#catalog-rail");

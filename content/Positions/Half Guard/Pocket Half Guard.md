@@ -202,23 +202,21 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (13% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (17% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (18% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (14% of attempts)
 
 - **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
-
 - **[[Transitions/Reguard from Pocket Half Guard/Attacker|Reguard from Pocket Half Guard]]** (10% of attempts)
 
-- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (13% of attempts)
+- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (14% of attempts)
 
-- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (18% of attempts)
+- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (19% of attempts)
 
 
 ### Common Mistakes

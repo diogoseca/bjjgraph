@@ -12,7 +12,7 @@
     "back_control",
     "shoulder_lock"
   ],
-  "from_position": "Omoplata Control/Bottom",
+  "from_position": "Omoplata Control/Top",
   "outcomes": [
     {
       "to": "Back Control/Top",

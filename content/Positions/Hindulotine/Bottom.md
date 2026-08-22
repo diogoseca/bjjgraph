@@ -20,38 +20,38 @@ description: "Offensive guillotine variation from bottom guard using rotational 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 24% of exchanges from this position.",
+      "name": "Execute Hindulotine to Darce Choke",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Hindulotine to Anaconda Choke",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute High Elbow Guillotine Variation",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep with Guillotine",
+      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep with Guillotine",
-      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Hindulotine",
+      "text": "From this position, attempt Guard Recovery from Hindulotine. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

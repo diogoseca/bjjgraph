@@ -622,77 +622,70 @@
         "transition": "Gogoplata",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Triangle to Omoplata",
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
         }
       },
       {
-        "transition": "Omoplata to Back",
+        "transition": "Triangle to Omoplata",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Triangle to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "New York to Invisible Collar",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "New York Control to Zombie",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Armbar from New York",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 7,
           "nogi": 6
         }
       },
       {
         "transition": "Kimura from New York Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {

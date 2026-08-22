@@ -77,7 +77,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
       "name": "What is the primary mechanical principle that makes the Toreando Pass effective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Toreando Pass creates opposing vectors of movement where the passer's body moves laterally in one direction while forcefully redirecting the opponent's legs in the opposite direction. This separation between upper and lower body breaks the guard player's ability to maintain connection and creates a clear passing lane. The effectiveness comes from the simultaneous nature of these opposing movements, preventing the opponent from adjusting their position in time to maintain guard."
+        "text": "The Toreando Pass works by moving your body laterally in one direction while forcefully redirecting the opponent's legs the opposite way. This creates opposing vectors of movement that separate the guard player's upper and lower body, breaking their ability to maintain connection and opening a clear passing lane. The effectiveness comes from the simultaneous nature of these opposing movements, preventing the opponent from adjusting their position in time to maintain guard."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
       "name": "Why is the angle of your lateral step critical to the success of the Toreando Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The lateral step angle (typically 45-90 degrees from your starting position) is critical because it creates a geometric advantage that prevents the opponent's hips from following your movement. If you step too far forward (less than 45 degrees), the opponent can easily adjust their hips to track your movement and maintain guard. If you step truly perpendicular (90+ degrees), you may lose forward pressure and create space for guard recovery. The optimal 45-90 degree angle combines lateral movement with forward advancement, making it impossible for the opponent to maintain guard structure while keeping you close enough to immediately establish upper body control."
+        "text": "Stepping at 45-90 degrees creates a geometric advantage that prevents the opponent's hips from tracking your movement while keeping forward pressure. If you step too far forward (less than 45 degrees), the opponent can easily adjust their hips to follow you and maintain guard. If you step truly perpendicular (90+ degrees), you may lose forward pressure and create space for guard recovery. The optimal 45-90 degree angle combines lateral movement with forward advancement, making it impossible for the opponent to maintain guard structure while keeping you close enough to immediately establish upper body control."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
       "name": "What are the most common grip variations used in the Toreando Pass and when should each be employed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common grip variations are: 1) Knee grips - standard approach providing good control and leverage, used as default in gi; 2) Pant grips below the knees - stronger control but requires closer proximity; 3) Ankle/cuff grips - maximum leg immobilization, best against flexible opponents or when they use strong frames; 4) Sleeve and knee combination - when you already have sleeve control from standing, maintain it while adding knee control; 5) Two-on-one leg control - both hands on one leg with body positioning controlling the other, used when opponent's grips prevent bilateral control. The choice depends on opponent's guard style, their grip fighting, and your current grip configuration."
+        "text": "The main Toreando grips are knee grips, pant grips below the knee, ankle/cuff grips, sleeve-and-knee combination, and two-on-one leg control. Knee grips are the standard default in gi, providing good control and leverage. Pant grips below the knees give stronger control but require closer proximity. Ankle/cuff grips offer maximum leg immobilization, best against flexible opponents or strong frames. The sleeve and knee combination is used when you already have sleeve control from standing—maintain it while adding knee control. Two-on-one leg control puts both hands on one leg with body positioning controlling the other, used when the opponent's grips prevent bilateral control. The choice depends on the opponent's guard style, their grip fighting, and your current grip configuration."
       }
     },
     {

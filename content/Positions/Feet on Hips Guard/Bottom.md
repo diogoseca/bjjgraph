@@ -21,37 +21,37 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Tomoe Nage",
-      "text": "From this position, attempt Tomoe Nage. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Lumberjack Sweep",
+      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lumberjack Sweep",
-      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Push Sweep from Feet on Hips",
+      "text": "From this position, attempt Push Sweep from Feet on Hips. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Push Sweep from Feet on Hips",
-      "text": "From this position, attempt Push Sweep from Feet on Hips. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Single Leg X Sweep",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -409,7 +409,7 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 |--------|------|
 | Retention Rate | 72% |
 | Advancement Probability | 58% |
-| Submission Probability | 42% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 30-90 seconds before transition or pass attempt
 

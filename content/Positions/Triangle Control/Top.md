@@ -21,38 +21,32 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Triangle Control",
-      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Posture Up from Triangle",
+      "text": "From this position, attempt Posture Up from Triangle. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Up from Triangle",
-      "text": "From this position, attempt Posture Up from Triangle. This technique is attempted in 19% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Stack Escape from Triangle",
-      "text": "From this position, attempt Stack Escape from Triangle. This technique is attempted in 13% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Stack Escape from Triangle. This technique is attempted in 15% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"

@@ -101,7 +101,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
       "name": "What is the proper response if your opponent successfully grabs your leg and drives forward as you attempt to circle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent successfully prevents your circle by grabbing your leg and driving forward, you should switch to an anaconda choke by adjusting your arm position, or transition to a guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce."
+        "text": "If the opponent grabs your leg and drives forward, switch to an anaconda choke or guillotine instead of forcing the Darce. Adjust your arm position for the anaconda, or take the guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
       "name": "Why is chest pressure on the opponent's shoulder important during the Darce transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest pressure on the opponent's trapped shoulder serves multiple purposes: it prevents them from creating frames and escaping, it keeps their body flat or turned into the choke rather than facing away, and it helps collapse their defensive structure. Heavy chest pressure also makes the final choke more effective by adding additional compression to the neck and restricting their ability to breathe or move defensively. Without it, the opponent retains enough mobility to extract their trapped arm."
+        "text": "Chest pressure on the trapped shoulder collapses the opponent's frames and keeps them turned into the choke instead of facing away. It prevents them from creating frames and escaping, and it helps break down their defensive structure. Heavy chest pressure also makes the final choke more effective by adding additional compression to the neck and restricting their ability to breathe or move defensively. Without it, the opponent retains enough mobility to extract their trapped arm."
       }
     }
   ]

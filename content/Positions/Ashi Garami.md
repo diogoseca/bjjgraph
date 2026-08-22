@@ -220,27 +220,19 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (15% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (20% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (8% of attempts)
+- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (20% of attempts)
 
-- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (15% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (15% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (11% of attempts)
-
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (7% of attempts)
-
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (4% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (9% of attempts)
 
 - **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (4% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (7% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (8% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (5% of attempts)
-
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (3% of attempts)
-
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (10% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (13% of attempts)
 
 - **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (2% of attempts)
 

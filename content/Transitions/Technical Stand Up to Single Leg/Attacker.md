@@ -101,7 +101,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
       "name": "What structural elements make the technical standup safe against forward driving pressure from the top player?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The posted hand with locked elbow creates a structural brace that redirects forward pressure into the ground through skeletal alignment rather than muscular effort. The extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head, creating separation distance. Keeping the back straight and head up maintains spinal integrity. These combined elements create a structure that can absorb the opponent's pressure without collapsing."
+        "text": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
       "name": "Why is gripping behind the knee more effective than gripping above the knee in the single leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lower grip position behind the knee provides superior mechanical control because it controls the joint directly, limiting the opponent's ability to hop, post, or kick free. The knee has restricted range of motion when compressed from behind, making extraction difficult. A lower grip also creates a shorter lever arm, making it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee."
+        "text": "Gripping behind the knee controls the joint directly and shortens the lever arm, so the opponent cannot easily hop, post, or kick the leg free. The knee has restricted range of motion when compressed from behind, making extraction difficult, and the shorter lever makes it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
       "name": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abandon when the opponent has established both hooks and harness control from back mount, when strong crossface pressure breaks your posting structure repeatedly, when they are attacking submissions that require immediate defense such as a locked rear naked choke, or when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control."
+        "text": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control."
       }
     }
   ]

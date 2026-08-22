@@ -101,7 +101,7 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
       "name": "What grip and positional controls must be established before committing to the leg swing from DLR?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need three controls established before the entry: an active DLR hook with pulling tension on the opponent's lead leg, a strong cross sleeve grip on the target arm preventing retraction, and your non-hooking foot positioned on the opponent's hip or bicep for distance management. The opponent's arm must also be extended or posted forward rather than tucked tight to their body, which you create through off-balancing pulls."
+        "text": "Before committing to the leg swing you need an active DLR hook, a cross sleeve grip on the target arm, and your free foot on the hip or bicep. The DLR hook keeps pulling tension on the opponent's lead leg, the cross sleeve grip prevents the arm from being retracted, and the non-hooking foot manages distance. The opponent's arm must also be extended or posted forward rather than tucked tight to their body, which you create through off-balancing pulls."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
       "name": "At what stage does the omoplata from DLR become functionally inescapable for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The position becomes extremely difficult to escape once three conditions are met simultaneously: the attacker's leg is fully draped over the shoulder with the hamstring pressing the shoulder blade, the attacker has achieved full perpendicular hip alignment, and the attacker has secured the far hip grip blocking the forward roll. Before all three are established, the defender has viable escape windows. Once all three are locked, only a technically precise limp arm extraction or late forward roll with the attacker following to the back remain possible."
+        "text": "The omoplata is nearly inescapable once the leg drapes the shoulder, the hips are fully perpendicular, and the far hip grip blocks the roll. All three conditions must hold simultaneously: the leg fully draped over the shoulder with the hamstring pressing the shoulder blade, full perpendicular hip alignment, and the far hip grip blocking the forward roll. Before all three are established, the defender has viable escape windows. Once all three are locked, only a technically precise limp arm extraction or a late forward roll with the attacker following to the back remain possible."
       }
     },
     {

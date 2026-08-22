@@ -72,9 +72,22 @@ source/quartz/static/neural/
 neural/dist/
 neural/build/.tmp/
 neural-render.jpeg
-# raw Claude-Design dump is ignored; keep only the build inputs the bundle needs
+# raw Claude-Design dump is ignored; keep only the build inputs the bundle needs.
+#
+# ALLOW BY CONVENTION, NOT BY FILENAME (v1.77.0). This used to name five files
+# explicitly, which meant every NEW build input was silently ignored: the existing
+# challenge-*.src.js / challenge-*.css / sound.src.js survive only because someone
+# force-added them. A new file (e.g. neural/src/lists.src.js) would be absent from
+# CI's checkout, so `node neural/build/build.mjs` would either error or quietly ship
+# a bundle missing the feature — green locally, broken in production.
+#
+# The `.src.` infix and `.css` are the markers of a build input (build.mjs reads
+# exactly these); a raw design dump uses plain names (App.jsx, index.js) and stays
+# ignored. Verify any new file with: git check-ignore -v neural/src/<file>
 neural/src/*
-!neural/src/app.src.jsx
+!neural/src/*.src.js
+!neural/src/*.src.jsx
+!neural/src/*.css
 !neural/src/xdc-template.html
 !neural/src/helmet.html
 !neural/src/props.json
@@ -86,6 +99,11 @@ e2e/report-gen/
 e2e/test-results/
 test-results/
 e2e/gallery/
+# ...and the same artifacts written to a DOUBLED path when Playwright is run with cwd=e2e
+# (the config's output paths are repo-root-relative). 9.4MB of screenshots reached a commit
+# that way; the rule is cheaper than remembering.
+e2e/e2e/
+e2e/tests/
 
 # Paired-debugging sessions (journals + shared-browser profile/pids are per-session scratch)
 e2e/paired/
@@ -93,7 +111,26 @@ e2e/paired/
 # Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
 # Only this subdir — the rest of tests/artifacts/ is tracked.
 tests/artifacts/snapshots/
+# Replay artifacts: run outputs of scripts/triple_replay.sh + the replay-digest spec. Regenerable,
+# per-run, and only meaningful compared against each other within one invocation.
+tests/artifacts/triple_replay/
+tests/artifacts/replay/
+# Belt-meter design iteration screenshots (regenerable from any build via the belt-meter spec)
+tests/artifacts/belt/
+# Pane-and-chrome polish screenshots + red-run log (regenerable via the pane-chrome spec)
+tests/artifacts/chrome/
+# Dual close-pair prototype leftovers. The generator, the payloads and the specs that diffed
+# against them were retired in v1.126.0 (the pair is derived from the shipped wire now), so nothing
+# writes these any more — the patterns stay so an old checkout does not suddenly offer 2.2MB of
+# dead payload for commit. The PNGs beside them ARE tracked, deliberately: they are the evidence
+# the owner judged, and /dev/experiments renders them.
+tests/artifacts/dualpair/payloads/
+tests/artifacts/dualpair/derive-equivalence.txt
+tests/artifacts/dualpair/derive-cost.txt
 node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)
 HANDOFF.md
+
+# prototype private serve root (hardlink farm; rebuilt by the dual-pair shoot procedure)
+.privserve/

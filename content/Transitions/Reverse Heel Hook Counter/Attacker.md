@@ -101,7 +101,7 @@ description: "How to execute Reverse Heel Hook Counter in BJJ. Attacking perspec
       "name": "Your opponent has a deep heel hook grip already established. Should you attempt the counter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. If their grip is already deep and secure, attempting the counter will likely fail and the movement may actually create space for them to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack."
+        "text": "No — against a deep, secure heel hook grip the counter will likely fail and can create the space they need to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack."
       }
     },
     {

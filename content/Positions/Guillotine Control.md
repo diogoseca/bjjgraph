@@ -182,7 +182,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Position Type** | Offensive/Controlling | Offensive/Controlling |
 | **Risk Level** | High | Low to Medium |
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Short to Medium |
@@ -221,19 +221,17 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (29% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (21% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (15% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (16% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (7% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (5% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (10% of attempts)
+- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (17% of attempts)
 
-- **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (12% of attempts)
-
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (16% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (23% of attempts)
 
 - **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (1% of attempts)
 

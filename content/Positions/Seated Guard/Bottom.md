@@ -429,7 +429,7 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 20-60 seconds
 

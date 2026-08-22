@@ -77,7 +77,7 @@ description: "Complete guide to executing the X-Guard to Single Leg X transition
       "name": "What is the optimal timing window for initiating the X-Guard to SLX transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing window occurs when the opponent shifts their weight backward, attempts to extract their trapped leg, or posts their free leg behind them for base. These backward-directed movements create slack in the leg entanglement that facilitates smooth reconfiguration. Attempting the transition against a forward-driving opponent risks getting smashed during the vulnerable reconfiguration phase. Reading the opponent's weight distribution is the single most important skill for successful execution."
+        "text": "The best window is when the opponent shifts weight backward, tries to extract their trapped leg, or posts their free leg behind them for base. These backward-directed movements create slack in the leg entanglement that facilitates smooth reconfiguration. Attempting the transition against a forward-driving opponent risks getting smashed during the vulnerable reconfiguration phase. Reading the opponent's weight distribution is the single most important skill for successful execution."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "Complete guide to executing the X-Guard to Single Leg X transition
       "name": "What entry requirements must be established before attempting the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must have an established X-Guard with a deep inside hook behind the opponent's knee, an active outside leg crossing their hip, and critically, a firm hand grip on their trapped ankle that will serve as the constant control anchor throughout the transition. Without the ankle grip, any gap in leg hooks during reconfiguration allows the opponent to extract their leg. The opponent's weight should be neutral or shifting backward, not driving forward with pressure."
+        "text": "You need a deep inside hook behind the knee, an outside leg crossing their hip, and a firm hand grip on the trapped ankle as the constant anchor. Without the ankle grip, any gap in leg hooks during reconfiguration allows the opponent to extract their leg. The opponent's weight should be neutral or shifting backward, not driving forward with pressure."
       }
     },
     {

@@ -81,7 +81,7 @@ description: "How to execute the Banana Split from the truck in BJJ. Attacking p
       "name": "What are the primary anatomical structures affected by the banana split submission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The banana split primarily targets the hip adductor muscles (inner thigh), groin complex including the gracilis and adductor longus/brevis/magnus, and the lower back through forced leg splitting and spinal extension. It creates compression and overstretching of these muscle groups rather than attacking specific joints. The submission works by exceeding the opponent's flexibility limitations in hip abduction, which varies significantly between individuals."
+        "text": "The banana split primarily targets the hip adductors, groin complex, and lower back through forced leg splitting and spinal extension. The groin complex includes the gracilis and the adductor longus, brevis, and magnus. It creates compression and overstretching of these muscle groups rather than attacking specific joints, working by exceeding the opponent's flexibility limits in hip abduction, which vary significantly between individuals."
       }
     },
     {

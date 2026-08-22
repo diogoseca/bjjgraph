@@ -5,18 +5,32 @@ as the legacy site (page == graph == game invariant).
 
 Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json is a
 generated+committed static asset):
-  - graph-data.json : {nodes, links} — a reshape of source/quartz/static/globalGraphLayout
+  - graph-data.json : {nodes, links, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
-    {id,x,y,t,ty,s,fromPosition,fromPositionId,fromRole,posId}. Each node is additionally
-    enriched (coherence-ready) with the calibrated numbers from graph.json:
-    successRate/successRateByRuleset/outcomes for technique nodes, attemptProbability
-    distribution for position nodes. (The current prototype reads only `s`; the enriched
-    fields are what Phase 1 wires the gameplay onto — see project_neural_graph_migration.)
+    {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
+    is additionally enriched with the calibrated numbers from graph.json: for technique
+    nodes successRate + successRateByRuleset (differing frames only) + outcomes as
+    [to, probability, s|f|c] tuples + avail; for position nodes `ew` (precomputed
+    [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail
+    + `ev`, the EDGE table that ranks the option cards (one independent MDP solve per
+    loss-aversion preset — see build_move_edge, and the file-level `evLam`/`evFrame` that say
+    which presets and which ruleset the table describes).
+    Links are [sourceIdx, targetIdx] pairs. This is the largest BOOT payload; the wire is
+    compact and app.src.jsx ingest() expands it back into the legacy shapes (v1.107.0).
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>":{file,cat,role,n}}}
-    resolving each deck key -> its chunk file + card count (the "what decks exist" list).
+  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>": [cat, n]}, shared}
+    resolving each deck key -> its card count (the "what decks exist" list; the chunk address is
+    derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
+    question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
+    cross-deck credit does not depend on which chunks have landed.
+  - systems.json : the 47 expert Systems as the app's library + graph-highlight source
+    ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
+    `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
+    part of the graph it teaches; `products` carries the curated BJJFanatics affiliate
+    entries VERBATIM from content (never synthesized — a fabricated affiliate URL is a
+    broken promise to a paying customer).
 
 Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `regenerate`.
 Read-only w.r.t. all existing content/graph.
@@ -31,6 +45,8 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
+ORDINALS = ROOT / "node_ordinals.json"
+SYSTEMS_DIR = ROOT / "content/Systems"
 OUT_DIR = ROOT / "source/quartz/static/neural"
 
 SECTION_TY = {"positions": "positions", "transitions": "transitions", "submissions": "submissions"}
@@ -43,7 +59,26 @@ def _slug_from_id(node_id: str) -> str:
     return tail.lower()
 
 
-def build_graph_data(layout: dict, graph: dict) -> dict:
+def load_ordinals() -> dict:
+    """node_ordinals.json's id -> permanent ordinal map (the share-link identity space).
+
+    HARD requirement, not best-effort: a share link encodes ordinals, so a node shipped to
+    the browser WITHOUT one can never appear in a shared class list. The lockfile is
+    committed, so the only way to get here is a layout regenerated without
+    `npm run regenerate:ordinals` — fail loudly rather than silently ship holes.
+    """
+    if not ORDINALS.exists():
+        print(f"ERROR: {ORDINALS} missing — run `npm run regenerate:ordinals`", file=sys.stderr)
+        sys.exit(1)
+    lock = json.loads(ORDINALS.read_text())
+    ords = lock.get("ordinals") or {}
+    if not ords:
+        print(f"ERROR: {ORDINALS} has no ordinals", file=sys.stderr)
+        sys.exit(1)
+    return ords
+
+
+def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
     # index graph.json role-nodes by their display id used in the layout:
@@ -83,11 +118,58 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                 return nn
         return None
 
-    def enrich(node_id: str, ty: str) -> dict:
+    # ── WIRE COMPACTION (v1.107.0) ──────────────────────────────────────────────────────────
+    # graph-data.json is the largest BOOT payload (was 1.55MB raw / 144KB gzip), and 46% of it
+    # was `cal`. The wire is now compact and `ingest()` (app.src.jsx) EXPANDS it back into the
+    # exact legacy shapes, so every downstream reader (drawOutcome, resolve, calSuccess,
+    # giAllows, _edgeW) is untouched and no RNG draw can move. What changed on the wire:
+    #   · technique `outcomes` -> [to, probability, resultCode] tuples (s/f/c),
+    #   · `successRateByRuleset` -> only frames that DIFFER from the scalar `successRate`
+    #     (calSuccess already falls back per-frame, so semantics are identical),
+    #   · `endingPosition` -> DROPPED (zero consumers anywhere — app, scripts, e2e),
+    #   · position `moves` -> `ew`, the precomputed [nodeIdx, weight*10000] edge-weight list
+    #     (see below): the app only ever read moves to derive these exact products.
+    _RESULT_CODE = {"success": "s", "failure": "f", "counter": "c"}
+
+    # ── ONE JOIN LADDER FOR EVERY TECHNIQUE (v1.115.0) ──────────────────────────────────────
+    # `graph.json` keys a technique by `slugify(<display name>)` — ONE flat kebab token. A layout
+    # id keeps the authored PATH, so `Submissions/Kimura/from-Front-Headlock` arrives here as
+    # `kimura/from-front-headlock`, and that `/` is the `-` the key was built with. Only the first
+    # rung below existed, so the join missed every submission whose name carries a "from".
+    #
+    # MEASURED, and it is why this is a correctness bug and not a tidy-up: 294 of 297 submissions
+    # shipped NO `cal` at all. `calSuccess()` returned null, `moveChance` fell back to
+    # `0.36 + dom*0.1`, and because every submission's dominance sits in a narrow band they all
+    # printed ~45.5-45.7% — a FABRICATED success rate on ~289 of 1,204 dealt cards, standing in
+    # for authored rates of 46-68%. `graph.json` was right the whole time; only the wire was starved.
+    #
+    # Three rungs, cheapest first, and the last is the key's OWN CONSTRUCTOR rather than one more
+    # guess about spelling:
+    #   as-is           3 submissions + 1031 transitions   already-flat ids (`wrist-lock`)
+    #   slash -> hyphen       291 submissions              the authored-path ids
+    #   slugify(title)  3 submissions +    3 transitions   punctuation an id cannot carry
+    #                                                      (`100%-Sweep` -> `100-percent-sweep`;
+    #                                                       "Fireman's-Carry" loses its apostrophe)
+    # Together: 1331 of 1331. The SAME ladder feeds `tech_avail` (which `giAllows` reads), lifting
+    # it 1033 -> 1327 of 1331; the 4 that stay unmatched are techniques no position offers, so
+    # there is no availability for them to carry.
+    #
+    # Positions keep their own resolver (`_pos_role`): a position's leaf IS a slug, a technique's
+    # leaf ("from-mount") is not one — which is exactly why they cannot share a ladder.
+    def _tech_keys(slug: str, title: str) -> list:
+        out = []
+        for c in (slug, slug.replace("/", "-"), slugify(title or "")):
+            if c and c not in out:
+                out.append(c)
+        return out
+
+    def enrich(node_id: str, ty: str, title: str = "") -> dict:
         """Pull calibrated fields for a layout node from graph.json (best-effort join)."""
         slug = _slug_from_id(node_id)
         if ty == "positions":
-            # a hub layout node collapses top+bottom; carry both role distributions
+            # a hub layout node collapses top+bottom; both role distributions feed `ew`+avail.
+            # The raw per-move table is NOT emitted (it was 336KB and its only app consumer
+            # was the ingest edge-weight pass) — `_moves_stash` carries it to the ew pass.
             out = {}
             avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
@@ -97,7 +179,6 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                         {
                             "technique": t.get("technique"),
                             "attemptProbability": t.get("attemptProbability"),
-                            "attemptProbabilityByRuleset": t.get("attemptProbabilityByRuleset"),
                             "successRate": t.get("successRate"),
                         }
                         for t in n["transitions"]
@@ -108,24 +189,48 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                                 avail[fr] = True
             if not out:
                 return {}
-            return {"moves": out, "avail": avail}
+            return {"_moves_stash": out, "avail": avail}
         else:  # technique: attacker role-node carries the authored outcomes/success
-            n = graph[ty].get(f"{slug}/attacker") or graph[ty].get(slug)
+            keys = _tech_keys(slug, title)
+            n = None
+            for c in keys:
+                n = graph[ty].get(f"{c}/attacker") or graph[ty].get(c)
+                if n:
+                    break
             if not n:
                 return {}
             e = {}
-            for k in ("successRate", "successRateByRuleset", "outcomes", "endingPosition"):
-                if n.get(k) is not None:
-                    e[k] = n[k]
-            av = tech_avail.get(slug)
-            if av:
-                e["avail"] = av
+            if n.get("successRate") is not None:
+                e["successRate"] = n["successRate"]
+            br = n.get("successRateByRuleset")
+            if isinstance(br, dict):
+                trimmed = {fr: v for fr, v in br.items() if v is not None and v != n.get("successRate")}
+                if trimmed:
+                    e["successRateByRuleset"] = trimmed
+            if n.get("outcomes") is not None:
+                e["outcomes"] = [
+                    [o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
+                    for o in n["outcomes"]
+                ]
+            for c in keys:  # same ladder — `tech_avail` is keyed by slugify(display name) too
+                av = tech_avail.get(c)
+                if av:
+                    e["avail"] = av
+                    break
             return e
 
     nodes = []
     for n in layout["nodes"]:
         ty = SECTION_TY.get(n["id"].split("/", 1)[0].lower(), "positions")
-        pos_id = n.get("fromPositionId") if ty != "positions" else _slug_from_id(n["id"])
+        # NESTED POSITIONS ARE KEYED BY THEIR OWN SLUG, NOT THEIR PATH. `_slug_from_id` keeps the
+        # whole tail, so `Positions/Triangle-Control/Rear-Triangle` became the path
+        # "triangle-control/rear-triangle" — while every technique authored from it carries
+        # `fromPositionId: "rear-triangle"` (the position's own `slug`). `optionsFor`'s origin
+        # filter compares those two and rejects EVERYTHING: measured, 54 of 136 positions had an
+        # empty hand and were running entirely on the no-candidates fallback, which relaxes origin.
+        # The app already indexes nested positions by their bare leaf (app.src.jsx:544-548); this
+        # makes the emitted value agree with it. Leaf ONLY for positions — a technique id like
+        # `Submissions/Kimura/from-Mount` has a leaf ("from-mount") that is not a slug at all.
         node = {
             "id": n["id"],
             "x": n.get("x"),
@@ -133,12 +238,22 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
             "t": n.get("t"),
             "ty": ty,
             "s": n.get("s"),
-            "fromPosition": n.get("fromPosition"),
             "fromPositionId": n.get("fromPositionId"),
             "fromRole": n.get("fromRole"),
-            "posId": pos_id,
+            # `posId` is emitted for POSITIONS only (their leaf slug). A technique's posId is
+            # fromPositionId by construction, so `ingest()` reconstructs it there instead of
+            # the wire carrying the same string twice per node (~30KB).
+            "posId": _slug_from_id(n["id"]).rsplit("/", 1)[-1] if ty == "positions" else None,
+            # `o` = this node's PERMANENT share-link ordinal (node_ordinals.json). The wire
+            # format for a shared list encodes ordinals, never this array's index — the
+            # array is filesystem-ordered and one new content file renumbers it.
+            "o": ordinals[n["id"]],
         }
-        cal = enrich(n["id"], ty)
+        # null-valued keys are OMITTED: ingest() reads every one of them with `|| null`, and
+        # `"fromPositionId":null` on 136 position hubs is pure wire weight. (`fromPosition`
+        # is gone entirely — ingest never copied it and no graph-data consumer reads it.)
+        node = {k: v for k, v in node.items() if v is not None}
+        cal = enrich(n["id"], ty, n.get("t"))
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
         if ty == "positions":  # family membership so the app can resolve the <Family>|Family tier deck
@@ -148,8 +263,321 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                 node["familyHub"] = rn["familyHub"]
         nodes.append(node)
 
-    links = [{"source": l["source"], "target": l["target"]} for l in layout.get("links", [])]
-    return {"nodes": nodes, "links": links}
+    # ── THE JOIN MUST NEVER ROT SILENTLY AGAIN ──────────────────────────────────────────────
+    # The `cal` join failed for 294 of 297 submissions for months and NOTHING went red: the app
+    # degrades to a heuristic success rate rather than crashing, so every gate stayed green while
+    # a fabricated number sat on ~289 of 1,204 option cards. A missing join is invisible by
+    # construction — so it gets counted here, at the one place that can see it, and the emitter
+    # refuses to write a wire that has quietly lost its calibration.
+    _cov = {}
+    for nd in nodes:
+        if nd["ty"] == "positions":
+            continue
+        tot, hit = _cov.setdefault(nd["ty"], [0, 0])
+        _cov[nd["ty"]][0] = tot + 1
+        if isinstance(nd.get("cal"), dict) and nd["cal"].get("successRate") is not None:
+            _cov[nd["ty"]][1] = hit + 1
+    for _ty, (_tot, _hit) in sorted(_cov.items()):
+        _pct = (100.0 * _hit / _tot) if _tot else 100.0
+        print(f"  cal coverage: {_ty} {_hit}/{_tot} ({_pct:.1f}%)")
+        if _pct < 95.0:
+            raise SystemExit(
+                f"[neural] cal join regressed: only {_hit}/{_tot} ({_pct:.1f}%) {_ty} carry a "
+                f"successRate. graph.json keys techniques by slugify(<display name>); see "
+                f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
+            )
+
+    # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
+    # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:
+    #   byName  : technique title -> FIRST non-position node (array order), same as the app's
+    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate titles
+    # emitted as [nodeIdx, round(w*10000)] pairs (the consumer divides by 10000; the value
+    # only scales edge lighting alpha/width, where 1e-4 is far below one alpha step).
+    by_name = {}
+    for i, nd in enumerate(nodes):
+        if nd["ty"] != "positions" and nd["t"] not in by_name:
+            by_name[nd["t"]] = i
+
+    # THE INVERSE OF THE `cal` JOIN. `enrich` walks layout node -> graph.json key; `build_move_edge`
+    # needs graph.json key -> layout node INDEX, because the EDGE solver's actions are named by
+    # graph.json `target` slugs while the app's hand is a list of node indices. Same `_tech_keys`
+    # ladder in reverse, so the two directions can never drift apart: if a spelling is added to the
+    # ladder, both joins learn it at once. First node wins (array order), matching `by_name`.
+    tech_idx = {}
+    for i, nd in enumerate(nodes):
+        if nd["ty"] == "positions":
+            continue
+        for c in _tech_keys(_slug_from_id(nd["id"]), nd.get("t")):
+            tech_idx.setdefault((nd["ty"], c), i)
+    for nd in nodes:
+        cal = nd.get("cal")
+        if not cal or "_moves_stash" not in cal:
+            continue
+        moves = cal.pop("_moves_stash")
+        best = {}
+        for role in ("top", "bottom"):
+            for m in moves.get(role) or []:
+                ti = by_name.get(m.get("technique"))
+                if ti is None:
+                    continue
+                w = max(0.0, (m.get("attemptProbability") or 0) / 100.0) * max(0.0, (m.get("successRate") or 0) / 100.0)
+                if w > best.get(ti, 0.0):
+                    best[ti] = w
+        ew = [[ti, round(w * 10000)] for ti, w in sorted(best.items()) if round(w * 10000) > 0]
+        if ew:
+            cal["ew"] = ew
+        if not cal.get("ew") and not cal.get("avail"):
+            nd.pop("cal", None)
+
+    # links ride as [sourceIdx, targetIdx] pairs into THIS file's nodes array (self-consistent:
+    # both halves are regenerated together; array indices never leave the file — share links
+    # use the permanent ordinals, never these). Unresolvable ids and self-loops are dropped
+    # here exactly as ingest() dropped them client-side.
+    id_idx = {nd["id"]: i for i, nd in enumerate(nodes)}
+    links = []
+    for l in layout.get("links", []):
+        a, b = id_idx.get(l["source"]), id_idx.get(l["target"])
+        if a is None or b is None or a == b:
+            continue
+        links.append([a, b])
+    out = {"nodes": nodes, "links": links}
+    # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
+    # the two top-level keys below are the table's self-description, carried ONCE for the file.
+    out.update(build_move_edge(graph, nodes, tech_idx))
+    return out
+
+
+# ── EDGE: what a move is worth from where you are standing ────────────────────────────────────
+# `scripts/solve_edge_values.py` solves a finite-horizon MDP over the 272 position role-nodes in
+# graph.json (you argmax, the opponent samples the PAIRED role-node's authored moves, 9-12 plies,
+# WIN/LOSS from who performed the finishing submission) and scores every dealt move:
+#
+#     EDGE(s,a) = 100 * ( Q(s,a) - base(s) )      base(s) = SUM attempt%(a') * Q(s,a')
+#     Q(s,a)    = p * A(s,a) + (1-p) * B(s,a)     A = success branch, B = miss branch
+#
+# 0 = "the ordinary choice from here". This is what replaces `movePotential`, which prints +100 on
+# every submission (app.src.jsx:10411) and therefore sorts ten identical-looking cards.
+#
+# ── THE SHAPE, AND WHY IT IS THIS SHAPE ───────────────────────────────────────────────────────
+#
+# 1. IT IS A VALUE AND A SLOPE, NOT ONE PRECOMPUTED EDGE. Q is LINEAR in p, so the whole curve
+#    is two numbers, and it is written anchored at the authored odds `p0`:
+#
+#        EDGE(p) = e0 + (p - p0) * c1     e0 = EDGE at p0 (the integer the card shows at rest)
+#                                         c1 = 100 * (A - B)   (EDGE points per unit odds)
+#
+#    keeping `p` a RUNTIME input. That is not elegance, it is correctness: `p` on the card is
+#    `moveChance()` (app.src.jsx:10367), which is the calibrated rate PLUS `stateBonus` (what
+#    drilling a deck buys), the momentum bonus, the landing-question `_qMod`, the opponent's
+#    resistance and any user override. A single frozen integer is EDGE at the authored odds and
+#    at no other moment, so it could not move when a deck is drilled — measured across 1246
+#    (state,action) pairs, +10pp of odds moves EDGE by a median of 2.7 points and 94.8% of moves
+#    shift by at least a full point. `base(s)` is deliberately NOT re-weighted at runtime and is
+#    folded into `e0`: "the ordinary choice from here" is a property of the position and of what
+#    people attempt from it, not of how sharp you happen to be today.
+#      `p0` costs no wire bytes because the app already has it: `moveChance` opens by reading
+#      `calSuccess(act)`, which is `cal.successRate` selected per frame — the very field this
+#      solve reads. VERIFIED, not assumed: 0 of 1331 technique nodes carry a no-gi rate that
+#      differs from the scalar, so in the frame this table is stamped for the two are the same
+#      number. (146 carry a differing GI rate, which is precisely why point 5 exists.)
+#      Anchoring on `e0` also settles a self-inconsistency in the spec: it asks for an
+#      EDGE x1000 sort key (§4.1) while its own worked hand (§4.6) breaks ties by odds. At rest
+#      EDGE is exactly the displayed integer and the odds tie-break decides, which is §4.6; the
+#      moment any modifier moves `p` the value is continuous again and sorts at full resolution.
+#
+# 2. IT HANGS OFF THE POSITION NODE, keyed by graph-data node INDEX. A top-level
+#    `{"<hub>/<role>": [...]}` map would respell all 272 state slugs once per lambda — ~16KB of
+#    pure key bytes for an identity the position node already carries. Node index is the join the
+#    app can actually perform: `optionsFor()` (:8036) hands back `{idx, node, res}` and `cal.ew`
+#    already addresses techniques exactly this way.
+#      NB the spec this implements proposes arrays "parallel to graph.json's transitions[] order,
+#      which is what `_edgeW` already joins on". BOTH halves of that are wrong and it is worth
+#      recording: `_edgeW` joins by technique TITLE -> node index (`byName`, app.src.jsx:790), and
+#      since v1.107.0 the wire does not carry `cal.moves` at all, so there is no transitions array
+#      on the client for anything to be parallel to. Such a table would be unjoinable.
+#
+# 3. MEMBERSHIP IS THE INDEX LIST, so a missing value is STRUCTURALLY missing. 0 is a meaningful
+#    EDGE — it is the definition of "the ordinary choice" — so it can never double as "no data",
+#    and a dense array would need a sentinel that a manifest-boot race could read as a real value.
+#    This is the v1.80.4 lesson (the manifest's card count `n`) applied to a second payload: a card
+#    whose node index is absent from the list has NO edge and must render its odds row alone,
+#    never a fabricated 0. MEASURED: `optionsFor` deals 82 of 1204 cards (6.8%) that this table
+#    legitimately cannot value — gi-only moves zeroed in the no-gi frame plus techniques adjacent
+#    in the layout that the role-node's authored `transitions[]` never offers — so that path is
+#    real and gets walked on the very first hand, not a defensive hypothetical.
+#
+# 4. LAMBDA IS A DIMENSION OF THE TABLE, NEVER BAKED INTO A NUMBER. The loss-aversion dial changes
+#    the OPTIMAL POLICY downstream, so re-weighting one solve at display time is measurably wrong
+#    (the spec measures up to 0.0033 of V and 6 top-card flips). Each preset is an independent
+#    solve. The preset list ships ONCE as `evLam` rather than as a positional convention, so the
+#    app reads which lambdas exist instead of assuming three.
+#
+# 5. THE FRAME IS STAMPED (`evFrame`). The solve is no-gi. `giAllows` is not applied to the hand
+#    (its only caller is buildExplorer, :4512), so a gi roll deals moves this table scored under
+#    no-gi rules; saying so on the wire lets the app decide, and lets a gi table be added later as
+#    a value of this key rather than a wire change.
+#
+# 6. THE ATTEMPT SHARE RIDES ALONG, because the documented rank is EDGE -> odds -> attempt% ->
+#    name and the app has had no access to attempt probabilities since v1.107.0 dropped
+#    `cal.moves`. It is not decoration: MEASURED, 76 card pairs across 45 of the 272 hands tie on
+#    BOTH edge and odds, and the spec's own worked hand is ordered by this key (North-South Choke
+#    over Breadcutter, both +5 at 58%, 5.0% vs 1.0% attempted). Without it those fall through to
+#    alphabetical. It is the same Q3 Delphi occurrence distribution that defines `base(s)`, so
+#    carrying it also makes EDGE's zero point auditable from the wire alone. Whole percent, not
+#    permille: its only consumer is an ordering, and permille costs 866 more gzip bytes to
+#    separate 14.5 from 14.7 — a distinction that decides nothing. It is lambda-INDEPENDENT, so
+#    it is carried once, not three times.
+#
+# LAYOUT.  cal.ev[role] = [ nodeIdxs, attemptPct, ...one [e0,c1, e0,c1, ...] array per evLam ]
+#          so the lambda block is at index `2 + evLam.indexOf(lossAversion)`, the k-th listed
+#          node's pair is at [2k, 2k+1], and a node index absent from `nodeIdxs` HAS NO VALUE.
+#
+# Both numbers are WHOLE EDGE POINTS. `e0` is the solver's own displayed integer, so §4.6's
+# published hands are reproducible from the wire exactly, with no rounding anywhere; `c1`'s
+# rounding is the only approximation and it is scaled by |p - p0|, which the emitter measures over
+# a +/-20pp drill sweep rather than bounding on paper (see the coverage lines).
+# MEASURED alternatives, whole-file gzip -9, so the choice is visible and reversible:
+#   [c0 x10, c1 x10] (p-anchored, needs a nudge to pin the display)   +43,150 raw  +21,478 gzip
+#   [e0 x10, c1 x10]                                                  +39,091 raw  +20,189 gzip
+#   [e0,     c1    ]  <- shipped                                      +32,177 raw  +15,093 gzip
+#   ...with delta-coded indexes                                       +30,183 raw  +13,459 gzip
+#   ...with delta-coded indexes AND lambda-delta values               +29,944 raw  +12,565 gzip
+# The last two are NOT taken. They save 0.5% of the gzip budget in exchange for a decode step at
+# ingest, and the one failure this table cannot survive is being decoded wrong: every value here
+# is an ORDERING, so an off-by-one in a prefix sum reorders a hand and reads as a bad model rather
+# than as a bug. Plain arrays are readable with no decode at all.
+#   The obvious remaining saving — carry ONE slope and share it across the three lambdas, since
+#   only the value needs to be per-lambda — is REJECTED BY MEASUREMENT, not by taste. c1 is
+#   100*[(Aw-Bw) - lambda*(Al-Bl)], so it moves with the dial: reusing lambda=2's slope misstates
+#   a 20pp drill by a MEDIAN of 2.60 EDGE points (p90 9.00, p99 17.40, max 27.80) on a scale where
+#   93% of all values sit inside +/-15. That is a different answer, not a rounding.
+# The "Winning vs not losing" dial, shipped in Settings -> Rolling as v1.124.0.
+# V = p_win - lam*p_loss, so lam=1 IS the balanced point (a tap you get is worth exactly what a
+# tap you give away costs) and lam=2 is already twice as afraid of losing as it is keen to win.
+# The rungs are therefore Sport (1) / Slightly cautious (2, the DEFAULT the owner chose) /
+# Self-defence (4).  Calling lam=2 "Balanced" -- as this line did until v1.124.0 -- named the
+# default after a posture it does not hold, and it was the one thing about the presets that was
+# actually wrong: the NUMBERS already sat where the owner meant, so nothing was re-emitted.
+EV_LAMBDAS = (1, 2, 4)
+EV_FRAME = "nogi"
+EV_DRILL_SWEEP = (-0.20, -0.10, 0.10, 0.20)   # odds offsets the fidelity check samples
+
+
+def build_move_edge(graph: dict, nodes: list, tech_idx: dict) -> dict:
+    """Solve EDGE once per lambda preset and attach it to the position nodes.
+
+    Mutates `nodes` (adds `cal.ev`), returns the file-level self-description keys.
+    """
+    from solve_edge_values import HORIZON_MIX, Opts, selfcheck, solve_mixture
+
+    # The structural facts the solve depends on (attempt sums, outcome sums, the 1331-pair
+    # attacker/defender mirror, game-over only from submissions, no second-level chain). All pass
+    # today, so this gate ships green and only fires on a CONTENT regression — at which point the
+    # honest move is to refuse the wire rather than ship a ranking derived from broken data.
+    bad = [(n, d) for n, ok, d in selfcheck(graph) if not ok]
+    if bad:
+        raise SystemExit("[neural] EDGE self-check failed, refusing to emit: "
+                         + "; ".join(f"{n} ({d})" for n, d in bad))
+
+    opts = Opts(frame=EV_FRAME)
+    sols = [solve_mixture(graph, float(lam), HORIZON_MIX, opts) for lam in EV_LAMBDAS]
+    model = sols[0].model
+    pos_idx = {nd["posId"]: i for i, nd in enumerate(nodes)
+               if nd["ty"] == "positions" and nd.get("posId")}
+
+    n_state = n_pair = n_join = n_dupe = 0
+    lin = 0.0                       # max |Q - (p*A + (1-p)*B)| over the mixture: the form's own residual
+    swept = agree = 0               # drill-sweep fidelity of the rounded slope
+    worst_drift = 0.0
+    miss_state, miss_tech = [], []
+    for s in model.states:
+        hub, role = s.rsplit("/", 1)
+        pi = pos_idx.get(hub)
+        if pi is None:
+            miss_state.append(s)
+            continue
+        # rows are sorted by q, which DIFFERS per lambda — join the three solves by action name.
+        by_lam = [{r["name"]: r for r in sol.q[s]} for sol in sols]
+        rows, att = {}, {}
+        for r0 in sols[0].q[s]:
+            n_pair += 1
+            j = tech_idx.get((r0["cat"], r0["target"]))
+            if j is None:
+                miss_tech.append((s, r0["cat"], r0["target"]))
+                continue
+            n_join += 1
+            coeffs = []
+            for k, sol in enumerate(sols):
+                r = by_lam[k][r0["name"]]
+                base, p0 = sol.baseline[s], r["odds"]
+                lin = max(lin, abs(r["q"] - (p0 * r["A"] + (1.0 - p0) * r["B"])))
+                c1 = int(round(100.0 * (r["A"] - r["B"])))
+                coeffs += [r["edge"], c1]
+                # WHAT DRILLING WILL ACTUALLY SHOW. Anchoring on `e0` puts a fixed offset of up to
+                # half a point between the card and the real-valued curve — that is the DESIGN (it
+                # is what makes the value at rest exactly the solver's integer), and being fixed it
+                # is invisible: the user reads the CHANGE. So measure the change, where c1's
+                # rounding is the only error, over the move sizes drilling really produces.
+                e_at_p0 = 100.0 * (r["q"] - base)
+                for d in EV_DRILL_SWEEP:
+                    p = max(0.05, min(0.95, p0 + d))
+                    moved_exact = 100.0 * ((p * r["A"] + (1.0 - p) * r["B"]) - base) - e_at_p0
+                    moved_wire = (p - p0) * c1
+                    swept += 1
+                    agree += round(moved_wire) == round(moved_exact)
+                    worst_drift = max(worst_drift, abs(moved_wire - moved_exact))
+            if j in rows:
+                # two authored transitions naming ONE technique (measured: exactly one, the
+                # duplicate `Aoki Lock` entry at aoki-lock-control/top). Same technique node means
+                # the same p/A/B and therefore the same coefficients — assert rather than assume,
+                # because a disagreement here would mean the join, not the content, is wrong. The
+                # ATTEMPT SHARES do differ and are SUMMED: the position really does reach for that
+                # technique with their combined probability, whatever the entries are called.
+                n_dupe += 1
+                if rows[j] != coeffs:
+                    raise SystemExit(f"[neural] EDGE: {s} maps two actions with DIFFERENT values "
+                                     f"onto node {j} ({nodes[j]['id']}) — the join is wrong")
+                att[j] += r0["attempt"]
+                continue
+            rows[j] = coeffs
+            att[j] = r0["attempt"]
+        if not rows:
+            continue
+        n_state += 1
+        # ascending node index: deterministic, independent of lambda, and it keeps the index list
+        # monotone so gzip sees a ramp instead of adjacency noise.
+        order = sorted(rows)
+        cal = nodes[pi].setdefault("cal", {})
+        cal.setdefault("ev", {})[role] = [
+            order,
+            [int(round(att[j] * 100)) for j in order],
+        ] + [
+            [c for j in order for c in rows[j][2 * k:2 * k + 2]] for k in range(len(sols))
+        ]
+
+    pct = (100.0 * n_join / n_pair) if n_pair else 100.0
+    print(f"  move edge: {n_state}/{len(model.states)} states solved for lambda {list(EV_LAMBDAS)} "
+          f"({EV_FRAME}, horizons {list(HORIZON_MIX)})")
+    print(f"  move edge: {n_pair} (state,move) pairs, {n_join} joined to a node ({pct:.1f}%), "
+          f"{n_dupe} duplicate target(s) deduped")
+    print(f"  move edge: linear form exact to {lin:.2e}; value at rest IS the solver's own integer")
+    print(f"  move edge: drill sweep {[int(d * 100) for d in EV_DRILL_SWEEP]}pp — the movement "
+          f"matches the exact curve to {worst_drift:.3f} of a point ({agree}/{swept} land on the "
+          f"same whole-point change)")
+    if miss_state:
+        print(f"  move edge: {len(miss_state)} state(s) with no layout node: {miss_state[:5]}")
+    if miss_tech:
+        print(f"  move edge: {len(miss_tech)} move(s) with no layout node: {miss_tech[:5]}")
+    # Same refusal the `cal` join learned in v1.115.0, for the same reason: a join that rots is
+    # INVISIBLE downstream — the app just stops showing EDGE on some cards and every gate stays
+    # green. Count it here, at the one place that can see it, and refuse to ship a hollow table.
+    if pct < 95.0:
+        raise SystemExit(f"[neural] EDGE join regressed: only {n_join}/{n_pair} moves ({pct:.1f}%) "
+                         f"reached a graph-data node. Refusing to emit a hollow ranking table.")
+    if lin > 1e-9:
+        raise SystemExit(f"[neural] EDGE: Q is not p*A+(1-p)*B (residual {lin:.2e}) — the two-number "
+                         f"wire cannot represent this solve. Refusing to emit.")
+    return {"evLam": list(EV_LAMBDAS), "evFrame": EV_FRAME}
 
 
 MC_LINE_BUDGET = 36  # one-line MC option cap; keep in sync with app.src.jsx MC_LINE
@@ -264,37 +692,69 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             old.unlink()
     fc_dir.mkdir(parents=True, exist_ok=True)
 
+    # Chunks are addressed by fnv1a32(deckKey) — the same hash the app's qhash() computes, and
+    # the same scheme the per-node dossier chunks use. Two reasons, both load-bearing:
+    #   · the manifest is the ONE deck file every visitor fetches, so its own bytes are on the
+    #     critical path. Carrying a per-deck filename cost ~110KB of pure redundancy (the key
+    #     already names the deck); a derived address costs zero.
+    #   · a hash needs no collision bookkeeping: a chunk holds a {key: deck} MAP, so two keys
+    #     landing on one hash share the file and both still resolve. The old slug scheme needed
+    #     "-2" suffixes and a manifest field to remember them.
+    from _neural_content import fnv1a32
     manifest = {}
-    seen = {}
+    buckets: dict[str, dict] = {}
     for key in sorted(decks):
         deck = decks[key]
-        base = f"{slugify(deck_name(key))}__{deck['role'].lower()}"
-        fname = base + ".json"
-        if fname in seen:  # slug collision -> disambiguate deterministically
-            seen[fname] += 1
-            fname = f"{base}-{seen[fname]}.json"
-        else:
-            seen[fname] = 1
-        (fc_dir / fname).write_text(
-            json.dumps({"cat": deck["cat"], "role": deck["role"], "cards": deck["cards"]},
-                       ensure_ascii=False, separators=(",", ":")))
-        entry = {"file": fname, "cat": deck["cat"], "role": deck["role"], "n": len(deck["cards"])}
-        if deck.get("tier"):
-            entry["tier"] = deck["tier"]
-        if deck.get("ancestors"):
-            entry["ancestors"] = deck["ancestors"]  # {position?, family?} deck keys for the drill toggle
-        manifest[key] = entry
+        buckets.setdefault(fnv1a32(key), {})[key] = {
+            "cat": deck["cat"], "role": deck["role"], "cards": deck["cards"],
+        }
+        # format 3 entry: a COMPACT TUPLE [cat, n]. `n` is not decoration — it is what keeps
+        # mastery, crowns, lesson goals and the belt score EXACT before a deck's cards land
+        # (see deckMastery in app.src.jsx).
+        manifest[key] = [deck["cat"], len(deck["cards"])]
+    for h, payload in buckets.items():
+        (fc_dir / f"{h}.json").write_text(
+            json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
+    collisions = sum(len(v) - 1 for v in buckets.values())
+
+    # SHARED-QUESTION INDEX. The blended hierarchy duplicates one position/family card into every
+    # variant deck, and answering it anywhere credits all of them (noteCardDone). The app used to
+    # discover that by scanning the decks it happened to have RESIDENT, so the same answer paid
+    # different credit depending on load order. The corpus knows the answer, so ship it: only
+    # questions carried by 2+ decks are listed, addressed by fnv1a32(question) -> deck INDEXES
+    # into the ordered `decks` map below (451 of 21,334 questions — ~10.6KB raw / 4.3KB gzip,
+    # which is what makes it affordable on the eager path).
+    order = {k: i for i, k in enumerate(sorted(manifest))}
+    q_decks: dict[str, list[int]] = {}
+    for key in sorted(decks):
+        for card in decks[key]["cards"]:
+            q_decks.setdefault(card["q"], []).append(order[key])
+    shared: dict[str, list[int]] = {}
+    for q, idxs in q_decks.items():
+        if len(idxs) > 1:
+            shared.setdefault(fnv1a32(q), []).extend(idxs)
+    shared = {h: sorted(set(v)) for h, v in shared.items()}
 
     (fc_dir / "_index.json").write_text(json.dumps({
         "_meta": {
             "status": "generated",
-            "note": "Generated by scripts/regenerate_neural_data.py from graph.json. Per-deck "
-                    "chunks live beside this manifest; fetch decks[key].file on demand.",
+            "format": 3,
+            "note": "Generated by scripts/regenerate_neural_data.py from graph.json. The app boots "
+                    "from this file alone and fetches a deck's chunk on demand; a chunk is "
+                    "<fnv1a32(deckKey)>.json beside this manifest, holding {deckKey: {cat, role, "
+                    "cards}} (a map, so a hash collision shares a file instead of losing a deck).",
             "keyFormat": "<Name>|<Role>  (Top|Bottom for positions, Attacker|Defender for techniques)",
+            "entry": "[cat, n] — category, card count",
             "cardShape": {"q": "question", "a": "answer"},
+            "shared": "fnv1a32(question) -> indexes into `decks` (in this file's order) for every "
+                      "question carried by 2+ decks — the blended hierarchy's shared cards. Makes "
+                      "cross-deck credit residency-independent (see noteCardDone).",
         },
         "decks": {k: manifest[k] for k in sorted(manifest)},
-    }, ensure_ascii=False, indent=1))
+        "shared": {h: shared[h] for h in sorted(shared)},
+    }, ensure_ascii=False, separators=(",", ":")))
+    if collisions:
+        print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
     return len(decks), sum(len(d["cards"]) for d in decks.values())
 
 
@@ -411,30 +871,253 @@ def build_curriculum(out_dir: Path, graph: dict) -> int:
     return len(cur["belts"])
 
 
+SUMMARY_CAP = 240  # contract: systems.json summary is at most 240 chars (card-sized)
+
+# related_content content_type -> the graph-data.json id prefix it must resolve under.
+# Types NOT in this map (Principle, System, ...) are pages, not graph nodes — they are
+# excluded from BOTH `nodes` and `unresolved` and counted in _meta.nonGraphRefs, because
+# calling the ~440 by-design cross-references "unresolved" would drown the real misses (3).
+GRAPH_REF_PREFIX = {"Position": "Positions", "Transition": "Transitions", "Submission": "Submissions"}
+
+
+def _clip(text: str, cap: int = SUMMARY_CAP) -> str:
+    """Word-boundary clip to `cap` chars INCLUDING the ellipsis (29 of 47 summaries run long)."""
+    t = " ".join((text or "").split())
+    if len(t) <= cap:
+        return t
+    cut = t[: cap - 1].rstrip()
+    sp = cut.rfind(" ")
+    return (cut[:sp].rstrip() if sp > cap // 2 else cut) + "…"
+
+
+def _node_indexes(node_ids: list[str]) -> dict:
+    """Slug lookups over the ids ACTUALLY PRESENT in graph-data.json (never guessed).
+
+    Four layers, because a content page path and a visual node id legitimately diverge:
+      flat     'Positions/Side-Control'            -> ('Positions', 'side-control')
+               'Submissions/Kimura/from-Mount'     -> ('Submissions', 'kimura-from-mount')
+      leaf     last segment only, so a nested position ('Positions/Half-Guard/Deep-Half-
+               Guard') resolves from the bare name a System actually writes ('Deep Half Guard')
+      variant  first segment only, so a family name ('Rear Naked Choke') expands to every
+               real finish node ('Submissions/Rear-Naked-Choke/from-*') — the hub is not a node
+      children page path -> the nodes nested under it (same expansion, keyed by path)
+    """
+    idx = {"flat": {}, "leaf": {}, "variant": {}, "children": {}}
+    for nid in node_ids:
+        if "/" not in nid:
+            continue
+        pre, tail = nid.split("/", 1)
+        segs = tail.split("/")
+        idx["flat"].setdefault((pre, "-".join(slugify(s) for s in segs)), []).append(nid)
+        idx["leaf"].setdefault((pre, slugify(segs[-1])), []).append(nid)
+        if len(segs) > 1:
+            idx["variant"].setdefault((pre, slugify(segs[0])), []).append(nid)
+            for depth in range(1, len(segs)):
+                idx["children"].setdefault(f"{pre}/{'/'.join(segs[:depth])}", []).append(nid)
+    return idx
+
+
+def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict) -> list[str]:
+    """Map one related_content reference onto the graph node ids it lights up ([] = unresolved).
+
+    `path` is graph.json's already-resolved member page path, tried first. It is not enough on
+    its own: process_systems() drops a reference whose page was already claimed by an earlier
+    one, so a System listing both "Knee Slice Pass" and its synonym "Knee Cut Pass" has only the
+    first in members[] — hence the slug layers, plus the authored aliases[] retry below."""
+    if path:
+        if path in ids:
+            return [path]
+        kids = idx["children"].get(path)
+        if kids:
+            return sorted(set(kids))
+    slug = slugify(name)
+    candidates = [slug] + ([idx["alias"][slug]] if slug in idx["alias"] else [])
+    prefixes = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
+    for cand in candidates:
+        for pre in prefixes:
+            for layer in ("flat", "variant", "leaf"):
+                hit = idx[layer].get((pre, cand))
+                if hit:
+                    return sorted(set(hit))
+    return []
+
+
+def _products(data: dict, sys_name: str) -> list[dict]:
+    """The curated BJJFanatics entries, VERBATIM. Content authors them as
+    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}
+    plus {id, vendor} for the affiliate funnel's utm_term / data-vendor.
+
+    Two ways an entry is DROPPED rather than shipped:
+      * no name or no URL — a card that links nowhere earns nothing and misleads;
+      * link_status != "live" — the URL was not opened and confirmed to resolve to that exact
+        instructional (or was confirmed DEAD). Verified 2026-08-09: two of the three authored
+        products 404. A 404 CTA earns exactly as much as no CTA and costs the reader's trust,
+        so the system degrades to its no-product surface until a human re-verifies the link.
+        Fail-safe: an entry with no link_status at all is treated as unverified.
+    NOTHING here is ever synthesized — no URL, no product.
+    """
+    out = []
+    for p in data.get("products") or []:
+        if not isinstance(p, dict):
+            continue
+        name = (p.get("title") or p.get("name") or "").strip()
+        url = (p.get("affiliate_url") or p.get("url") or "").strip()
+        if not (name and url):
+            print(f"  systems: skipped product without name+url in {sys_name}")
+            continue
+        status = (p.get("link_status") or "unverified").strip().lower()
+        if status != "live":
+            print(f"  systems: skipped product '{name}' in {sys_name} — link_status={status!r} "
+                  f"(last checked {p.get('link_checked') or 'never'}); an unverified or dead "
+                  f"affiliate link must not render")
+            continue
+        out.append({
+            "name": name,
+            "instructor": (p.get("instructor") or "").strip(),
+            "url": url,
+            "id": (p.get("id") or "").strip(),
+            "vendor": (p.get("vendor") or "BJJFanatics").strip(),
+        })
+    return out
+
+
+def build_systems(graph: dict, node_ids: list[str]) -> dict:
+    """The Systems library: one entry per content/Systems/*.json, each carrying the graph
+    nodes it teaches so the app can list all 47 AND highlight a System's members on the graph.
+
+    Membership comes from related_content (the authored edge list) resolved against the ids
+    in graph-data.json. Unresolvable graph-typed references are REPORTED per system in
+    `unresolved`, never dropped and never faked."""
+    from regenerate_graph import build_alias_maps, quartz_slug  # page path + authored synonyms
+
+    ids = set(node_ids)
+    idx = _node_indexes(node_ids)
+    # aliases[] is the authored synonym set (Knee Cut Pass -> Knee Slice Pass); without it a
+    # System that writes the synonym reports a false "unresolved" for a node it already lights.
+    pos_alias, tech_alias = build_alias_maps(ROOT / "content")
+    idx["alias"] = {**pos_alias, **{a: v["slug"] for a, v in tech_alias.items()}}
+    gsystems = graph.get("systems") or {}
+
+    systems, non_graph, n_products = [], 0, 0
+    for path in sorted(SYSTEMS_DIR.glob("*.json")):
+        data = json.loads(path.read_text())
+        # the page path (and therefore the node id) is derived from the FILE, not the JSON name
+        page = f"Systems/{quartz_slug(path.stem)}"
+        name = (data.get("name") or path.stem).strip()
+        members = {
+            (m.get("name") or "").strip().lower(): m.get("path")
+            for m in (gsystems.get(slugify(name)) or {}).get("members") or []
+        }
+
+        nodes, unresolved, glue = [], [], []
+        for item in data.get("related_content") or []:
+            if not isinstance(item, dict):
+                continue
+            ref = (item.get("name") or "").strip()
+            ctype = (item.get("content_type") or "").strip()
+            if not ref:
+                continue
+            if ctype and ctype not in GRAPH_REF_PREFIX:
+                non_graph += 1
+                continue
+            hit = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
+            if hit:
+                nodes.extend(hit)
+                # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
+                # belong together — the authored `relationship` says what each one DOES in the
+                # system ("primary finishing position", "entry when they refuse the leg"). Lighting
+                # nodes up without it just shows a constellation; this is what makes it a system.
+                # One entry per authored ref (not per resolved id) so the text is never duplicated
+                # across a hub's expanded children.
+                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
+            elif ref not in unresolved:
+                unresolved.append(ref)
+
+        # The ordered spine: implementation_sequence is the system's narrative, and it is what
+        # turns a lit set into "do this, then this". Carried verbatim, clipped, phases only.
+        sequence = [
+            {
+                "n": step.get("step_number") or i + 1,
+                "phase": _clip((step.get("phase") or "").strip(), 80),
+                "detail": _clip((step.get("description") or "").strip(), 220),
+            }
+            for i, step in enumerate(data.get("implementation_sequence") or [])
+            if isinstance(step, dict) and (step.get("phase") or step.get("description"))
+        ]
+
+        prods = _products(data, name)
+        n_products += len(prods)
+        systems.append({
+            "id": page,
+            "name": name,
+            "url": f"/{page}",
+            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            "type": (data.get("system_type") or "").strip(),
+            "difficulty": (data.get("difficulty_level") or "").strip(),
+            "nodes": sorted(set(nodes)),
+            "glue": glue,
+            "sequence": sequence,
+            "unresolved": unresolved,
+            "products": prods,
+        })
+
+    return {
+        "_meta": {
+            "count": len(systems),
+            "unresolved": sum(len(s["unresolved"]) for s in systems),
+            "nodes": sum(len(s["nodes"]) for s in systems),
+            "nonGraphRefs": non_graph,
+            "products": n_products,
+            "note": "Generated by scripts/regenerate_neural_data.py from content/Systems/*.json + "
+                    "graph.json membership; `nodes` are graph-data.json ids. nonGraphRefs counts "
+                    "Principle/System cross-references, which are pages and never graph nodes.",
+        },
+        "systems": systems,
+    }
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
         sys.exit(1)
     layout = json.loads(LAYOUT.read_text())
     graph = json.loads(GRAPH.read_text())
+    ordinals = load_ordinals()
+    unminted = sorted({n["id"] for n in layout.get("nodes", [])} - set(ordinals))
+    if unminted:
+        print(
+            f"ERROR: {len(unminted)} layout node(s) have no share-link ordinal "
+            f"(first few: {unminted[:5]}). Run `npm run regenerate:ordinals` and commit "
+            "node_ordinals.json.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    gd = build_graph_data(layout, graph)
+    gd = build_graph_data(layout, graph, ordinals)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
+
+    # Retired payloads: delete them if an older tree still has them. These are the two files the
+    # whole first-run defect was made of (16.4MB + 21.2MB), the output dir is gitignored, and a
+    # stale copy would keep failing the payload gate long after the code stopped emitting them.
+    for stale in ("flashcards.json", "technique-content.js"):
+        f = OUT_DIR / stale
+        if f.exists():
+            f.unlink()
+            print(f"removed retired payload: {stale}")
 
     decks = build_flashcards(graph)
     n_decks, n_cards = write_flashcards(decks, OUT_DIR)
-    # Monolith flashcards.json — the Neural app fetches this today for its DRILL decks
-    # (this.flashcards.decks). The per-deck chunks above are the production optimization
-    # (pending an app patch to fetch on demand); both are emitted during the transition.
-    (OUT_DIR / "flashcards.json").write_text(
-        json.dumps({"decks": decks}, ensure_ascii=False, separators=(",", ":")))
-    # technique-content.js — window.NG_CONTENT: the full per-node DOSSIER map generated from
-    # content/ + calibrated graph.json (replaces the 3-entry design seed so node detail shows
-    # real content everywhere; unmapped fields still fall back gracefully in the app).
-    from _neural_content import write_ng_content
-    n_ng = write_ng_content(graph, OUT_DIR / "technique-content.js")
-    print(f"technique-content.js: window.NG_CONTENT with {n_ng} node dossiers")
+    # The 16.4MB flashcards.json monolith is GONE (v1.80.4). It was the app's deck payload and it
+    # shipped every card for all 2,924 decks before the visitor could make a move; the app now
+    # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
+    # tests and the MC audit assemble the corpus from the chunks (scripts/_neural_decks.py,
+    # e2e/decks.ts), so there is exactly ONE source of truth for a deck's cards.
+    # Per-node dossiers, one chunk each, replacing the 21.2MB technique-content.js.
+    from _neural_content import write_ng_chunks
+    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content")
+    print(f"content/: {n_ng} node dossiers in {n_files} chunks"
+          + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
@@ -443,8 +1126,19 @@ def main() -> None:
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 
+    # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
+    # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
+    # a node the graph does not have.
+    sysd = build_systems(graph, [n["id"] for n in gd["nodes"]])
+    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    sm = sysd["_meta"]
+    print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
+          f"{sm['unresolved']} unresolved refs, {sm['products']} products "
+          f"({sm['nonGraphRefs']} non-graph cross-refs skipped)")
+
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
-    print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "
+    print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload, "
+          f"all carrying share ordinals 0-{max(ordinals.values())}), "
           f"{len(gd['links'])} links")
     print(f"flashcards/: {n_decks} per-deck chunks + _index.json manifest, {n_cards} cards")
     print(f"-> {OUT_DIR}")

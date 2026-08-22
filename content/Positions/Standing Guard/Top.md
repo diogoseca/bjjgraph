@@ -428,7 +428,7 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 75% |
-| Advancement Probability | 58% |
+| Advancement Probability | 68% |
 | Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before passing attempt or guard pull

@@ -21,11 +21,9 @@ test("A-D answer the live question; digits open option sheets", async ({ page })
   await j.boot("/")
   await j.land("Mount Top")
 
-  const mc = await page.evaluate(() => {
-    const m = (window as any).__neural._mc
-    return m ? { correct: m.correct, n: m.n, surface: m.surface } : null
-  })
-  expect(mc?.surface).toBe("land")
+  // the landing block mounts once its distractor pool is resident (v1.80.4)
+  const mc = await j.landQuestion()
+  expect(mc, "a live landing question").toBeTruthy()
 
   // a digit must NOT answer the landing question — it opens the first option's sheet
   await page.keyboard.press("1")
@@ -47,7 +45,7 @@ test("a letter beyond the option count is ignored, not a crash", async ({ page }
   await j.boot("/")
   await j.land("Mount Top")
 
-  const n = await page.evaluate(() => ((window as any).__neural._mc || {}).n || 0)
+  const n = (await j.landQuestion())?.n || 0
   expect(n).toBeGreaterThan(1)
   const beyond = "abcde"[n] // one past the last real option
   if (beyond) {
@@ -75,7 +73,7 @@ test("Space toggles the roll; Esc unwinds one layer at a time", async ({ page })
   expect(await paused(page), "Space resumed").toBe(false)
 
   // Esc cascade: option sheet first, then the pane — never both at once
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   await page.keyboard.press("1")
   await expect(page.locator("[data-go]")).toBeVisible()
   await page.keyboard.press("Escape")

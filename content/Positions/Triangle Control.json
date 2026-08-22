@@ -80,43 +80,36 @@
       {
         "transition": "Triangle Escape",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
         "transition": "Guard Recovery from Triangle Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Triangle Clear to Side",
-        "attempt_probability": {
           "gi": 15,
-          "nogi": 16
+          "nogi": 14
         }
       },
       {
         "transition": "Posture Up from Triangle",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 22,
+          "nogi": 23
         }
       },
       {
         "transition": "Stack Escape from Triangle",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       }
     ],
@@ -384,50 +377,43 @@
       {
         "transition": "Triangle Choke from Triangle Control",
         "attempt_probability": {
-          "gi": 39,
-          "nogi": 38
+          "gi": 44,
+          "nogi": 42
         }
       },
       {
         "transition": "Triangle to Armbar",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 18
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Triangle to Omoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Triangle to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Mounted Triangle",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Inverted Triangle from Triangle Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 9
         }
       }
     ],

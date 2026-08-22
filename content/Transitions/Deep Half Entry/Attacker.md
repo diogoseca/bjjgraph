@@ -109,7 +109,7 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
       "name": "What grip requirements must be met before you commit to the full rotation into deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before committing to rotation, you must have secured a deep underhook on opponent's near leg with your bottom arm, with your shoulder wedged against the inside of their thigh and your hand reaching at minimum behind their knee. Your top arm must be free and actively framing against their shoulder or hip to manage distance during rotation. No grips on opponent's upper body are needed for the entry itself, but the underhook depth is absolutely non-negotiable. A shallow underhook that only reaches their knee will fail against any sprawl counter."
+        "text": "You need a deep underhook on the opponent's near leg, shoulder wedged into their inner thigh and hand reaching at least behind their knee. Your top arm must be free and actively framing against their shoulder or hip to manage distance during rotation. No grips on the opponent's upper body are needed for the entry itself, but the underhook depth is absolutely non-negotiable. A shallow underhook that only reaches their knee will fail against any sprawl counter."
       }
     },
     {

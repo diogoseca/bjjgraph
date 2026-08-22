@@ -16,7 +16,7 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and brachial plexus",
   "starting_position": "Triangle Control",
-  "from_position": "Triangle Control/Top",
+  "from_position": "Triangle Control/Bottom",
   "success_rate": {
     "gi": 65,
     "nogi": 65

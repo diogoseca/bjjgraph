@@ -217,29 +217,25 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (11% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (14% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (14% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (19% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (12% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
-
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (18% of attempts)
 
 - **[[Omoplata from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (3% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (8% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (7% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (5% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (4% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (10% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (9% of attempts)
-
-- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (4% of attempts)
+- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (5% of attempts)
 
 
 ### Common Mistakes

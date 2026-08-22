@@ -164,7 +164,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Defensive with offensive options | Offensive |
-| **Risk Level** | Medium | Medium |
+| **Risk Level** | Medium | Low to Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
@@ -202,23 +202,13 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (12% of attempts)
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (31% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (12% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (30% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (12% of attempts)
+- **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** (13% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
-
-- **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** (5% of attempts)
-
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (12% of attempts)
-
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (13% of attempts)
-
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (11% of attempts)
-
-- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (11% of attempts)
+- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (26% of attempts)
 
 
 ### Common Mistakes

@@ -227,29 +227,21 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (16% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (24% of attempts)
 
-- **[[Heel Hook from Kneebar Control/Attacker|Heel Hook from Kneebar Control]]** (16% of attempts)
+- **[[Heel Hook from Kneebar Control/Attacker|Heel Hook from Kneebar Control]]** (24% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (18% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (8% of attempts)
-
-- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (9% of attempts)
-
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (8% of attempts)
-
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (4% of attempts)
-
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (3% of attempts)
 
-- **[[Transitions/Straighten Leg Kneebar Defense/Attacker|Straighten Leg Kneebar Defense]]** (8% of attempts)
+- **[[Transitions/Straighten Leg Kneebar Defense/Attacker|Straighten Leg Kneebar Defense]]** (11% of attempts)
 
-- **[[Transitions/Turn and Extract from Kneebar/Attacker|Turn and Extract from Kneebar]]** (6% of attempts)
+- **[[Transitions/Turn and Extract from Kneebar/Attacker|Turn and Extract from Kneebar]]** (9% of attempts)
 
-- **[[Transitions/Reversal from Kneebar Control/Attacker|Reversal from Kneebar Control]]** (4% of attempts)
+- **[[Transitions/Reversal from Kneebar Control/Attacker|Reversal from Kneebar Control]]** (5% of attempts)
 
 
 ### Common Mistakes

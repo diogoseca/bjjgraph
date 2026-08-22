@@ -85,7 +85,7 @@ description: "How to execute Posture Recovery in BJJ. Step-by-step guide for reg
       "name": "Why should you avoid leading posture recovery with your head or neck?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Leading with the head or neck creates significant injury risk to the cervical spine, particularly if the opponent is pulling down with collar grips that load the neck under extension. Additionally, it telegraphs your intention and makes it easier for the opponent to time counters such as triangles and armbars. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain."
+        "text": "Leading with the head or neck risks cervical spine injury and telegraphs your recovery, letting the opponent time triangles and armbars. The danger is greatest when the opponent is pulling down with collar grips that load the neck under extension. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain rather than concentrated on the neck."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Posture Recovery in BJJ. Step-by-step guide for reg
       "name": "What grip must you address before committing to the major recovery movement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The cross collar grip is the most dangerous grip that must be addressed first, as it allows the opponent to both maintain broken posture and threaten cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive."
+        "text": "Break the cross collar grip first, because it both holds your posture broken and threatens cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive."
       }
     },
     {

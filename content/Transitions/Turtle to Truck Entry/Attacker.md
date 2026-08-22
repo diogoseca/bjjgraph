@@ -93,7 +93,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
       "name": "Your opponent's weight is sitting back on their heels in turtle - should you attempt the Truck entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. The Truck entry requires the opponent's weight to be forward on their hands, which loads the front of their base and limits backward defensive reactions. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck."
+        "text": "No — the Truck entry needs their weight forward on their hands, so a heels-back turtle means the leg entry window is closed. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. Loading the front of their base on their hands is what limits those backward defensive reactions and exposes the near leg. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck."
       }
     },
     {

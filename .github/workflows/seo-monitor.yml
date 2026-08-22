@@ -30,6 +30,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
+      # Every other workflow pins Python; this one ran python3 at two steps on whatever the
+      # runner image happened to carry. Pinned to match the fleet (3.11).
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: "3.11"
+
       - name: Prefetch prior report (for week-over-week anomaly detection)
         env:
           GH_TOKEN: ${{ github.token }}
@@ -63,7 +70,7 @@ jobs:
           # agent reads prefetched PostHog JSON and only Writes the report (commit is
           # scoped to seo_trends.md below).
           claude_args: |
-            --model claude-opus-4-8[1m]
+            --model "$(python3 scripts/_model.py --print default)"
             --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*),mcp__dataforseo__serp_organic_live_advanced'

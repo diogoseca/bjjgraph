@@ -87,7 +87,7 @@ description: "Learn to execute the arm-in guillotine from front headlock with ex
       "name": "How should you adjust your grip when the opponent's arm becomes trapped inside the guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rather than attempting to remove the trapped arm, immediately adjust your grip deeper so the blade of your wrist or forearm sits directly against the near-side carotid artery. Clasp your hands in a palm-to-palm or gable grip behind the opponent's head near the crown of their skull. Pull your choking elbow tight against your ribs to eliminate any space between your arm and their neck. The trapped arm now serves as a compression wedge against the far-side carotid."
+        "text": "Do not try to remove the trapped arm; instead sink your grip deeper so the blade of your wrist or forearm sits directly against the near-side carotid artery. Clasp your hands in a palm-to-palm or gable grip behind the opponent's head near the crown of their skull. Pull your choking elbow tight against your ribs to eliminate any space between your arm and their neck. The trapped arm now serves as a compression wedge against the far-side carotid."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "Learn to execute the arm-in guillotine from front headlock with ex
       "name": "What physical signs indicate your opponent is close to tapping to the arm-in guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Signs include rapid facial color change (reddening then potential purple discoloration), increased desperation in escape attempts, weakening of defensive hand fighting, audible breathing changes or gurgling sounds, and involuntary body tension followed by sudden relaxation. The most critical sign is the opponent going limp, which indicates loss of consciousness rather than a tap. Release immediately if you observe any sudden change in muscle tone or responsiveness."
+        "text": "Key signs are facial reddening then purple discoloration, weakening hand fighting, gurgling or altered breathing, and desperate escape attempts. You may also feel involuntary body tension followed by sudden relaxation. The most critical sign is the opponent going limp, which indicates loss of consciousness rather than a tap. Release immediately if you observe any sudden change in muscle tone or responsiveness."
       }
     },
     {

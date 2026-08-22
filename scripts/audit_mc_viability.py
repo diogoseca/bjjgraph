@@ -32,8 +32,12 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
-FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
+# The corpus is the per-deck CHUNK set — flashcards.json (the 16.4MB boot monolith) was deleted
+# in v1.80.4. _neural_decks.load_decks assembles the same {key: {cat, role, cards}} map, so this
+# audit stays exhaustive without a second emitted artifact that could drift from the app's.
+FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 CURRICULUM = ROOT / "source/quartz/static/neural/curriculum.json"
 
 
@@ -145,7 +149,12 @@ def build_neighbors(gd: dict, decks: dict) -> dict:
     id2idx = {n["id"]: i for i, n in enumerate(gd["nodes"])}
     adj = defaultdict(set)
     for l in gd["links"]:
-        a, b = id2idx.get(l["source"]), id2idx.get(l["target"])
+        # wire v2 (v1.107.0): links are [sourceIdx, targetIdx] pairs; the legacy object
+        # spelling still parses so an old fixture keeps working.
+        if isinstance(l, list):
+            a, b = l[0], l[1]
+        else:
+            a, b = id2idx.get(l["source"]), id2idx.get(l["target"])
         if a is None or b is None:
             continue
         adj[a].add(b)
@@ -247,8 +256,8 @@ def main() -> int:
     args = ap.parse_args()
 
     gd = json.loads(GRAPH_DATA.read_text())
-    fc = json.loads(FLASHCARDS.read_text())
-    decks = fc["decks"] if "decks" in fc else fc
+    from _neural_decks import load_decks
+    decks = load_decks(FLASHCARDS_DIR)
     neighbors = build_neighbors(gd, decks)
 
     cur_decks: set[str] = set()

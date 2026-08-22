@@ -1,0 +1,138 @@
+.ng-collection-intro,
+.ng-collection-section {
+  padding: 13px;
+}
+
+/* rewards shelf — the retired Collection tab's content, folded into Challenges (v1.76.0) */
+.ng-rewards-shelf {
+  margin-top: 14px;
+  border: 1px solid rgba(150, 170, 210, 0.14);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ng-rewards-shelf > summary {
+  display: grid;
+  gap: 3px;
+  padding: 12px 13px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ng-rewards-shelf > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ng-rewards-shelf > summary > small {
+  color: #8fa9e8;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.ng-rewards-shelf > summary > b {
+  color: #dbe2f0;
+  font-size: 12px;
+}
+
+.ng-rewards-shelf > summary > em {
+  color: #8793aa;
+  font-size: 9.5px;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.ng-rewards-shelf[open] > summary {
+  border-bottom: 1px solid rgba(150, 170, 210, 0.12);
+}
+
+.ng-collection-section {
+  display: grid;
+  gap: 11px;
+  margin-top: 10px;
+}
+
+.ng-collection-section h3 {
+  font-size: 14px;
+}
+
+.ng-collection-section > div:first-child > span {
+  color: #8793aa;
+  font-size: 8.5px;
+}
+
+.ng-patch-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.ng-patch-badge {
+  min-height: 100px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 6px;
+  padding: 10px 7px;
+  border: 2px dashed rgba(137, 176, 148, 0.58);
+  border-radius: 18px 9px;
+  background:
+    repeating-linear-gradient(35deg, rgba(255, 255, 255, 0.028) 0 2px, transparent 2px 5px),
+    #1b2a25;
+  text-align: center;
+}
+
+.ng-patch-badge > span {
+  color: #b8d5bf;
+  font: 900 11px/1 "Space Grotesk", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.ng-patch-badge > b,
+.ng-mat-coin b {
+  color: #dbe2f0;
+  font-size: 9.5px;
+}
+
+.ng-patch-badge > small,
+.ng-mat-coin small {
+  color: #8793aa;
+  font-size: 7.5px;
+  line-height: 1.35;
+}
+
+.ng-patch-badge[data-earned="false"],
+.ng-mat-coin[data-earned="false"] {
+  filter: grayscale(0.9);
+  opacity: 0.46;
+}
+
+.ng-mat-coin {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px;
+  border: 1px solid rgba(178, 143, 77, 0.32);
+  border-radius: 11px;
+  background: rgba(120, 89, 40, 0.08);
+}
+
+.ng-mat-coin > span,
+.ng-reward-coin {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border: 2px double #a88953;
+  border-radius: 50%;
+  background: #3b3122;
+  color: #d1b275;
+  font: 850 8px/1 "Space Grotesk", sans-serif;
+}
+
+.ng-mat-coin > div {
+  display: grid;
+  gap: 3px;
+}

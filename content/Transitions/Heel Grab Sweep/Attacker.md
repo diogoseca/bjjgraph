@@ -93,7 +93,7 @@ description: "How to execute the Heel Grab Sweep from Single Leg X Guard. Attack
       "name": "Your opponent sits to the mat immediately when they feel your heel grip tighten - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately abandon the sweep and transition to a leg entanglement position such as Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg throughout. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks from the seated entanglement. Keep constant pressure on their leg and begin attacking with heel hooks or transition to kneebar entries from the new position."
+        "text": "Immediately abandon the sweep and transition to a leg entanglement such as Ashi Garami or Outside Ashi-Garami, keeping their trapped leg controlled. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks from the seated entanglement. Keep constant pressure on their leg and begin attacking with heel hooks or transition to kneebar entries from the new position."
       }
     },
     {

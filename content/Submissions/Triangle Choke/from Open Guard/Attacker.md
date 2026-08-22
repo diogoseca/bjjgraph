@@ -111,7 +111,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
       "name": "What visual and tactile indicators tell you the triangle is properly positioned for a finish versus needing adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Proper position indicators: your inner thigh is pressed firmly against one side of the opponent's neck with no gap, the opponent's trapped shoulder is driven into the opposite carotid, your body is angled perpendicular to their shoulders, and you can feel their pulse against your inner thigh. Indicators needing adjustment: you can see space between your thigh and their neck, the opponent's chin is tucked into the triangle creating a pocket of space, your body is still square to theirs, or you feel pressure on the front of their throat rather than the sides of their neck."
+        "text": "The triangle is finish-ready when your inner thigh seals one side of their neck with no gap and their trapped shoulder drives into the opposite carotid. You should also be angled perpendicular to their shoulders and able to feel their pulse against your inner thigh. Adjust if you can see space between your thigh and their neck, if their chin is tucked into the triangle creating a pocket of space, if your body is still square to theirs, or if you feel pressure on the front of their throat rather than the sides of the neck."
       }
     },
     {
@@ -119,7 +119,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
       "name": "Your opponent clasps their hands together inside the triangle to create a frame and prevent you from finishing—how do you break this grip and continue?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Attack the clasped hands by inserting both your hands between their arms and prying outward, or grab their wrist with both hands and strip it toward your hip while squeezing your knees to increase pressure on the grip. If the grip is very strong, rather than fighting it, transition to attacking the arms directly: apply a kimura grip on the clasped wrist closest to you, or extend your hips to straighten their arm for an armbar. The clasping defense immobilizes both their arms, which makes them vulnerable to arm attacks from within the triangle."
+        "text": "Pry inside their clasped arms with both hands, strip the wrist toward your hip while squeezing your knees, or bypass the grip with a kimura or armbar. To pry, insert both hands between their arms and lever outward; to strip, grab their wrist with both hands and pull it toward your hip as your knees squeeze to add pressure on the grip. If the grip is very strong, don't fight it—attack the arms directly by applying a kimura grip on the clasped wrist closest to you, or extending your hips to straighten their arm for an armbar. The clasping defense immobilizes both of their arms, which makes them vulnerable to arm attacks from within the triangle."
       }
     }
   ]

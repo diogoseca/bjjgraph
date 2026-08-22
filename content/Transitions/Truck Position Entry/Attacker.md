@@ -83,7 +83,7 @@ description: "How to execute Truck Position Entry in BJJ. Attacking perspective 
       "name": "What is the primary goal of Truck Position Entry from standing back control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to convert a dominant standing back control position into the Truck, bypassing the turtle position entirely and immediately accessing the Twister system of attacks including Twister, Calf Slicer, Banana Split, and alternative back takes. This transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following to standard grounded back control."
+        "text": "The primary goal is to convert standing back control into the Truck, bypassing turtle entirely and unlocking the Twister system of attacks. That system includes the Twister, Calf Slicer, Banana Split, and alternative back takes. The transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following them down to standard grounded back control."
       }
     },
     {

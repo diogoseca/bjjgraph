@@ -16,7 +16,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura to Back Take in BJJ",
-  "description": "Step-by-step guide for executing Kimura to Back Take from Kimura Trap/Bottom.",
+  "description": "Step-by-step guide for executing Kimura to Back Take from Kimura Trap/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -71,7 +71,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
       "name": "Why is the Kimura grip maintained throughout the entire transition to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Kimura grip serves multiple essential functions during the transition: it provides a secure connection point to the opponent that prevents separation during movement, it creates the initial submission threat that forces their defensive roll, it acts as a steering mechanism to control their rotation direction, and it prevents them from turning back into you once you begin taking the back. Releasing the grip prematurely eliminates all these control elements and typically results in losing position entirely."
+        "text": "The Kimura grip keeps a constant connection that threatens the finish, steers the opponent's roll, and stops them turning back into you. It provides a secure connection point that prevents separation during movement, and the submission threat is what forces their defensive roll in the first place. As they rotate, the grip acts as a steering mechanism to control their direction, and once you begin taking the back it prevents them from turning back into you. Releasing the grip prematurely eliminates all of these control elements and typically results in losing position entirely."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
       "name": "What adjustment should you make if your opponent posts aggressively and prevents the rolling motion necessary for the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When opponent establishes strong base and posts to prevent rolling, you have several systematic options: First, threaten the Kimura finish more aggressively to break their structural base with submission pressure. Second, transition to alternative attacks such as arm triangle or north-south Kimura for different angles. Third, if they remain turtled, attack turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks."
+        "text": "Attack the Kimura finish harder to break their base, or switch attacks — arm triangle, north-south Kimura, or a direct turtle back take. Threatening the finish more aggressively uses submission pressure to compromise the structural base they are posting on. If that fails, transition to alternative attacks such as the arm triangle or north-south Kimura for different angles, and if they remain turtled, attack the turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
       "name": "Why is following the opponent's defensive motion superior to forcing them to roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Following their natural defensive movement is more effective because it conserves your energy, works with momentum rather than against it, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you apply pressure and follow their chosen defensive path, they are moving themselves into the position you want while believing they are defending."
+        "text": "Following their defensive motion works with their momentum, saving energy and giving them nothing to brace against or counter. It conserves your energy, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you instead apply pressure and follow their chosen defensive path, they move themselves into the position you want while believing they are defending."
       }
     }
   ]
@@ -222,7 +222,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
 
 The Kimura to Back Take from the attacker's perspective is about converting an established grip control system into the most dominant position in grappling. The attacker uses progressive Kimura pressure to force a predictable defensive rolling motion, then follows that motion while maintaining the figure-four grip as both anchor and steering mechanism. The transition requires patience to create genuine submission threat, sensitivity to read when the opponent commits to their defensive roll, and disciplined sequencing to establish hooks before releasing the Kimura grip for seat belt control. Mastery of this transition transforms the Kimura from a single submission attempt into a complete positional control system where the opponent's logical defensive choices consistently lead to worse positions.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 

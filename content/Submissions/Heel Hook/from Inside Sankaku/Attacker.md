@@ -101,7 +101,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
       "name": "What are the four sequential control layers that must be established before committing to the heel hook finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The four layers in order are: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps."
+        "text": "The four layers in order are entanglement structure, hip connection, knee line dominance, and heel exposure. Specifically: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
       "name": "What indicates you have reached the point of no escape when finishing the heel hook from Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape is reached when three conditions are simultaneously met: your blade grip is locked against the Achilles tendon with two-on-one reinforcement, the foot is clamped in your armpit with elbows tight to your body, and your torso has begun the rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training."
+        "text": "No escape remains when the blade grip is locked on the Achilles, the foot is clamped in your armpit, and torso rotation has begun. All three conditions must be met simultaneously: the blade grip has two-on-one reinforcement, the elbows are tight to your body with the foot clamped in the armpit, and your torso has started its rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
       "name": "Why must rotational force be applied slowly and progressively rather than explosively when finishing this submission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The knee ligaments provide almost no proprioceptive warning before catastrophic failure, meaning the opponent often cannot feel the danger building until the ligament is already tearing. Explosive application can rupture the ACL in milliseconds, far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss."
+        "text": "Knee ligaments give almost no proprioceptive warning before failure, so slow pressure lets the opponent tap before damage occurs. The opponent often cannot feel the danger building until the ligament is already tearing, and explosive application can rupture the ACL in milliseconds - far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss."
       }
     },
     {
@@ -125,7 +125,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
       "name": "Your opponent successfully hides their heel against their own hip using the boot defense - what submission chain do you employ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain hip pressure and inside leg elevation to fatigue the boot defense, but simultaneously begin transitioning your grip to attack the exposed forefoot for a toe hold. The heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats."
+        "text": "Maintain hip pressure while transferring your grip to attack the exposed forefoot with a toe hold. Keep hip pressure and inside leg elevation working to fatigue the boot defense as you transition, because the heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats."
       }
     }
   ]

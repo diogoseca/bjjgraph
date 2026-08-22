@@ -1,0 +1,173 @@
+/* Systems: the authored course library inside the Explore tab. The library exists to point a
+   reader at the instructor who teaches the material, so the course CTA is the loudest thing on
+   the card — and it only ever renders for a system that carries an authored product. */
+
+.ng-system-detail {
+  display: grid;
+  gap: 8px;
+  margin: 4px 3px 12px;
+  padding: 13px 13px 14px;
+  border: 1px solid rgba(169, 139, 255, 0.28);
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(169, 139, 255, 0.09),
+    rgba(255, 255, 255, 0.02)
+  );
+}
+
+.ng-system-detail h2 {
+  margin: 0;
+  color: #eef1f6;
+  font: 750 17px/1.15 "Space Grotesk", sans-serif;
+}
+
+.ng-system-meta {
+  color: #b39bec;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.ng-system-detail p {
+  margin: 0;
+  color: #9aa6bd;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.ng-system-courses {
+  display: grid;
+  gap: 8px;
+  margin: 0 3px 14px;
+}
+
+.ng-system-cta {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 13px;
+  border: 1px solid rgba(232, 149, 107, 0.5);
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    rgba(232, 149, 107, 0.2),
+    rgba(232, 149, 107, 0.07)
+  );
+  color: inherit;
+  text-decoration: none;
+}
+
+.ng-system-cta > span {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 3px;
+}
+
+.ng-system-cta small {
+  color: #e8956b;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+}
+
+.ng-system-cta b {
+  overflow: hidden;
+  color: #eef1f6;
+  font-size: 12.5px;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+}
+
+.ng-system-cta em {
+  color: #9aa6bd;
+  font-size: 10.5px;
+  font-style: normal;
+}
+
+.ng-system-cta > i {
+  flex: none;
+  color: #e8956b;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.ng-system-cta:hover,
+.ng-system-cta:focus-visible {
+  border-color: rgba(232, 149, 107, 0.8);
+  background: linear-gradient(
+    135deg,
+    rgba(232, 149, 107, 0.3),
+    rgba(232, 149, 107, 0.12)
+  );
+}
+
+/* Proximate affiliate disclosure — renders above the course cards inside the shelf.
+   Deliberately not visually suppressed: FTC/ASA require it CLEAR and CONSPICUOUS, so it
+   keeps body-text contrast rather than the muted-caption treatment used elsewhere. */
+.ng-system-disclosure {
+  margin: 0 0 9px;
+  /* Body-text size and contrast, matching the member rows (#c4cde0 / 12px). The comment above
+     already said "not visually suppressed", but the rule shipped 10.5px in a dimmer grey than
+     the copy around it — the fine-print treatment regulators name. The e2e journey now asserts
+     a legibility FLOOR (>= 11px, opaque) so this cannot quietly shrink back. */
+  color: #c4cde0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* ── the glue ── the ordered spine and each member's role. These carry the meaning of a
+   system; the lit nodes alone are just a constellation. */
+.ng-system-sequence {
+  margin: 0 0 10px;
+  padding: 0 0 0 22px;
+  display: grid;
+  gap: 7px;
+  color: #c4cde0;
+  font-size: 12px;
+}
+.ng-system-sequence > li { line-height: 1.4; }
+.ng-system-sequence b { color: #dbe2f0; font-size: 12px; }
+.ng-system-sequence span {
+  display: block;
+  margin-top: 2px;
+  color: #8b97b0;
+  font-size: 10.5px;
+  line-height: 1.45;
+}
+.ng-system-members-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 12px 4px;
+}
+.ng-system-members-head .ng-system-kicker {
+  color: #7b8aa8;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.ng-system-members-head b { color: #9ab0e0; font-size: 11px; white-space: nowrap; }
+.ng-system-role {
+  display: block;
+  margin-top: 1px;
+  color: #7f8ba4;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.ng-system-drill {
+  width: calc(100% - 24px);
+  margin: 10px 12px 4px;
+  padding: 10px;
+  border: 1px solid rgba(150, 170, 210, 0.28);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #dbe2f0;
+  font: 700 12px/1 "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+}

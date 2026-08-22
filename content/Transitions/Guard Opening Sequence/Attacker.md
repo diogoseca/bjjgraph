@@ -93,7 +93,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
       "name": "What are the three main grip strategies for opening closed guard and when should each be used?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The three main grip strategies are: both hands on pants near the knees (most common, provides best control for standing breaks and direct leg manipulation), one hand on belt with other on knee (good for combat base opening, provides superior hip control and wedge pressure), and cross-collar with knee control (gi-specific, good against grip-dependent opponents where the collar controls their posture as you stand). Choose based on your preferred opening method and opponent's guard style."
+        "text": "The three main grips are both hands on the pants near the knees, one hand on belt with one on knee, and cross-collar with knee control. Double pants grips at the knees are the most common, providing the best control for standing breaks and direct leg manipulation. The belt-and-knee grip suits the combat base opening, offering superior hip control and wedge pressure. The cross-collar with knee control is gi-specific and works well against grip-dependent opponents, since the collar controls their posture as you stand. Choose based on your preferred opening method and the opponent's guard style."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
       "name": "You feel your opponent's ankles start to unlock during your standing break - what is the critical next action?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The instant you feel the ankles separate, immediately redirect one of their legs across their body with your controlling grip while maintaining the other leg's position. Do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous. Push their top knee across their centerline while stepping your hips back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion."
+        "text": "The instant the ankles separate, immediately redirect one of their legs across their body with your grip while stepping your hips back. Maintain the other leg's position and do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous — push their top knee across their centerline as your hips move back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion."
       }
     },
     {

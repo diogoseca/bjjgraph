@@ -79,7 +79,7 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
       "name": "Why is breaking opponent's posture essential before attempting the butterfly sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Breaking posture serves multiple critical functions: it brings opponent's weight onto your centerline, compromising their base and making them easier to off-balance; it prevents them from seeing the sweep coming and reacting with early posts; it creates forward momentum that you redirect during the sweep; and it limits their ability to drive into you with pressure. Without broken posture, opponent maintains strong base with weight distributed on their knees and feet, making the sweep a low-percentage pushing contest. Proper posture breaking makes opponent heavy on top of you, which paradoxically makes them easier to sweep because their weight becomes a liability when you redirect it."
+        "text": "Breaking posture loads the opponent's weight onto your centerline and hooks, compromising their base so they can be off-balanced and swept. It also prevents them from seeing the sweep coming and reacting with early posts, creates forward momentum you redirect during the sweep, and limits their ability to drive into you with pressure. Without broken posture, the opponent maintains a strong base with weight distributed on their knees and feet, turning the sweep into a low-percentage pushing contest. Paradoxically, making the opponent heavy on top of you makes them easier to sweep, because their weight becomes a liability once you redirect it."
       }
     },
     {

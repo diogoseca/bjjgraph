@@ -20,38 +20,38 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook from Backside 50-50",
-      "text": "From this position, attempt Outside Heel Hook from Backside 50-50. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Heel Hook from Backside 50-50",
+      "text": "From this position, attempt Heel Hook from Backside 50-50. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -399,9 +399,9 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 50% |
+| Advancement Probability | 50% |
+| Submission Probability | 34% |
 
 **Average Time in Position**: 30-60 seconds
 

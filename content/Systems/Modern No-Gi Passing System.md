@@ -171,6 +171,22 @@ The system's effectiveness stems from its adaptability to different guard types 
 
 
 
+
+
+
+<section id="study-this-system" class="content-section system-study-free">
+
+## How do you drill Modern No-Gi Passing System?
+
+<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 20 techniques it strings together.</p>
+
+- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
+- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
+- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+
+</section>
+
+
 <section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
 
 ## Unlock this part of the graph

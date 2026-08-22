@@ -21,37 +21,37 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Takedown",
-      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Duck Under from Clinch",
-      "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Fireman's Carry",
-      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 7% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kouchi Gari",
       "text": "From this position, attempt Kouchi Gari. This technique is attempted in 4% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Uchi Mata",
+      "text": "From this position, attempt Uchi Mata. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

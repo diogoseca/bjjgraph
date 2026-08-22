@@ -1,0 +1,996 @@
+{
+ "worklist": [
+  "Arm in Guillotine from Guillotine Control|Attacker",
+  "Buggy Choke|Attacker",
+  "Buggy Choke|Defender",
+  "Estima Lock from Estima Lock Control|Defender",
+  "Heel Hook from Inside Sankaku|Defender",
+  "Kneebar from Top|Defender",
+  "Loop Choke from Side Control|Defender",
+  "Triangle Choke from Spider Guard|Defender",
+  "Aoki Lock from Ashi Garami|Attacker",
+  "Kimura from Mount|Attacker",
+  "Kimura from Standing|Attacker",
+  "Americana from Modified Scarf Hold|Defender",
+  "Americana from S Mount|Defender",
+  "Aoki Lock from Aoki Lock Control|Attacker",
+  "Arm Triangle from Reverse Kesa-Gatame|Defender",
+  "Arm Triangle from Reverse Scarf Hold|Defender",
+  "Arm Triangle from Scarf Hold Position|Defender",
+  "Armbar from Crucifix|Defender",
+  "Calf Slicer from Truck|Defender",
+  "Chin Strap Guillotine from Front Headlock|Defender",
+  "Electric Chair from Electric Chair|Defender",
+  "Ezekiel Choke from Closed Guard|Defender",
+  "Ezekiel Choke from Side Control|Defender",
+  "Heel Hook from Ashi Garami|Defender",
+  "Inside Heel Hook from Honey Hole|Attacker",
+  "Inverted Triangle from Triangle Control|Defender",
+  "Kimura from Crucifix|Defender",
+  "Kimura from Standing|Defender",
+  "Kimura from Turtle|Defender",
+  "Kneebar from Kneebar Control|Defender",
+  "Loop Choke from Mount|Defender",
+  "Mir Lock from Side Control|Defender",
+  "Outside Heel Hook from Ushiro Ashi-Garami|Defender",
+  "Triangle Choke from Triangle Control|Defender",
+  "Belly Down Armbar from Side Control|Defender",
+  "Calf Slicer from Russian Cowboy|Defender",
+  "Heel Hook from Kneebar Control|Attacker",
+  "Kesa Gatame Arm Crush from Kesa Gatame|Attacker",
+  "Rear Naked Choke from Standing Back Control|Defender",
+  "Toe Hold from Cross Ashi-Garami|Defender",
+  "Toe Hold from Outside Ashi|Defender",
+  "Triangle Choke from Crackhead Control|Defender",
+  "Kneebar from Half Guard|Defender",
+  "Americana from High Mount|Defender",
+  "Americana from Kimura Trap|Defender",
+  "Arm Triangle from High Mount|Defender",
+  "Arm Triangle from Kuzure Kesa-Gatame|Defender",
+  "Arm Triangle from Modified Scarf Hold|Defender",
+  "Arm Triangle from Side Control|Defender",
+  "Armbar from Guard|Defender",
+  "Belly Down Armbar from Armbar Control|Defender",
+  "Belly Down Armbar from Mounted Triangle|Defender",
+  "Belly Down Armbar from New York|Defender",
+  "Bow and Arrow Choke from Seat Belt Control Back|Defender",
+  "Bow and Arrow Choke from Truck|Defender",
+  "Calf Slicer from 50-50 Guard|Defender",
+  "Calf Slicer from Carni|Defender",
+  "Calf Slicer from Inside Sankaku|Defender",
+  "Calf Slicer from Twister Control|Defender",
+  "Choke from Crucifix|Defender",
+  "Estima Lock from Honey Hole|Defender",
+  "Ezekiel Choke from Mount|Defender",
+  "Flying Kneebar from Standing Position|Defender",
+  "Heel Hook from Carni|Defender",
+  "Heel Hook from Cross Ashi-Garami|Defender",
+  "Heel Hook from Kneebar Control|Defender",
+  "Heel Hook from Saddle|Defender",
+  "Inside Heel Hook from Ushiro Ashi-Garami|Defender",
+  "Japanese Necktie from Front Headlock|Defender",
+  "Kimura from Modified Scarf Hold|Defender",
+  "Kimura from Mount|Defender",
+  "Kimura from Overhook Control|Defender",
+  "Kimura from Quarter Guard|Defender",
+  "Kneebar from Inside Sankaku|Defender",
+  "Kneebar from Toe Hold Control|Defender",
+  "Loop Choke from Half Guard|Defender",
+  "Loop Choke from Turtle|Defender",
+  "Marce Choke from Side Control|Defender",
+  "Monoplata from Guard|Defender",
+  "North-South Choke from Shoulder of Justice|Defender",
+  "Rear Naked Choke from Rodeo|Defender",
+  "Rear Triangle Choke from Back Control|Defender",
+  "Rolling Armbar from Closed Guard|Defender",
+  "Rolling Omoplata from Omoplata Control|Defender",
+  "Spine Lock from Truck|Defender",
+  "Toe Hold from Ashi Garami|Defender",
+  "Toe Hold from Honey Hole|Defender",
+  "Toe Hold from Inside Sankaku|Defender",
+  "Toe Hold from Toe Hold Control|Defender",
+  "Toe Hold from Ushiro Ashi-Garami|Defender",
+  "Triangle Choke from De La Riva|Defender",
+  "Twister from Twister Side Control|Defender",
+  "Americana from Kuzure Kesa-Gatame|Defender",
+  "Americana from Reverse Kesa-Gatame|Defender",
+  "Ankle Lock from X-Guard|Defender",
+  "Belly Down Armbar from Lasso Guard|Defender",
+  "Belly Down Armbar from Mounted Crucifix|Defender",
+  "Belly Down Armbar from Open Guard|Defender",
+  "Bow and Arrow Choke from Back Control|Defender",
+  "Calf Slicer from Rodeo Ride|Defender",
+  "Cross Collar Choke from 3-4 Mount|Defender",
+  "Darce Choke from Darce Control|Defender",
+  "Kimura from Kesa Gatame|Defender",
+  "Kneebar from Inside Ashi-Garami|Defender",
+  "Kneebar from Straight Ankle Lock Control|Defender",
+  "Omoplata from Crackhead Control|Defender",
+  "Omoplata from Rubber Guard|Defender",
+  "Omoplata from Spider Guard|Defender",
+  "Rear Naked Choke from Crucifix|Defender",
+  "Tarikoplata from Closed Guard|Defender"
+ ],
+ "detail": {
+  "Arm in Guillotine from Guillotine Control|Attacker": {
+   "cards": 10,
+   "clippable": 7,
+   "viable": 7,
+   "micro": 0,
+   "clip_rate": 0.7,
+   "pool_rate": 1.0
+  },
+  "Buggy Choke|Attacker": {
+   "cards": 10,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Buggy Choke|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Estima Lock from Estima Lock Control|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Inside Sankaku|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Top|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Loop Choke from Side Control|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Triangle Choke from Spider Guard|Defender": {
+   "cards": 5,
+   "clippable": 0,
+   "viable": 0,
+   "micro": 0,
+   "clip_rate": 0.0,
+   "pool_rate": 1.0
+  },
+  "Aoki Lock from Ashi Garami|Attacker": {
+   "cards": 12,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.16666666666666666,
+   "pool_rate": 1.0
+  },
+  "Kimura from Mount|Attacker": {
+   "cards": 12,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.16666666666666666,
+   "pool_rate": 1.0
+  },
+  "Kimura from Standing|Attacker": {
+   "cards": 12,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.16666666666666666,
+   "pool_rate": 1.0
+  },
+  "Americana from Modified Scarf Hold|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Americana from S Mount|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Aoki Lock from Aoki Lock Control|Attacker": {
+   "cards": 10,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Reverse Kesa-Gatame|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Reverse Scarf Hold|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Scarf Hold Position|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Armbar from Crucifix|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Truck|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Chin Strap Guillotine from Front Headlock|Defender": {
+   "cards": 10,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Electric Chair from Electric Chair|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Ezekiel Choke from Closed Guard|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Ezekiel Choke from Side Control|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Ashi Garami|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Inside Heel Hook from Honey Hole|Attacker": {
+   "cards": 10,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Inverted Triangle from Triangle Control|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Kimura from Crucifix|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Kimura from Standing|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Kimura from Turtle|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Kneebar Control|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Loop Choke from Mount|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Mir Lock from Side Control|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Outside Heel Hook from Ushiro Ashi-Garami|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Triangle Choke from Triangle Control|Defender": {
+   "cards": 5,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.2,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Side Control|Defender": {
+   "cards": 4,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Russian Cowboy|Defender": {
+   "cards": 4,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Kneebar Control|Attacker": {
+   "cards": 8,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Kesa Gatame Arm Crush from Kesa Gatame|Attacker": {
+   "cards": 8,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Rear Naked Choke from Standing Back Control|Defender": {
+   "cards": 8,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Cross Ashi-Garami|Defender": {
+   "cards": 4,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Outside Ashi|Defender": {
+   "cards": 8,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Triangle Choke from Crackhead Control|Defender": {
+   "cards": 4,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.25,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Half Guard|Defender": {
+   "cards": 3,
+   "clippable": 1,
+   "viable": 1,
+   "micro": 0,
+   "clip_rate": 0.3333333333333333,
+   "pool_rate": 1.0
+  },
+  "Americana from High Mount|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Americana from Kimura Trap|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from High Mount|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Kuzure Kesa-Gatame|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Modified Scarf Hold|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Arm Triangle from Side Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Armbar from Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Armbar Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Mounted Triangle|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from New York|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Bow and Arrow Choke from Seat Belt Control Back|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Bow and Arrow Choke from Truck|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from 50-50 Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Carni|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Inside Sankaku|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Twister Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Choke from Crucifix|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Estima Lock from Honey Hole|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Ezekiel Choke from Mount|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Flying Kneebar from Standing Position|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Carni|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Cross Ashi-Garami|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Kneebar Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Heel Hook from Saddle|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Inside Heel Hook from Ushiro Ashi-Garami|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Japanese Necktie from Front Headlock|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kimura from Modified Scarf Hold|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kimura from Mount|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kimura from Overhook Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kimura from Quarter Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Inside Sankaku|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Toe Hold Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Loop Choke from Half Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Loop Choke from Turtle|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Marce Choke from Side Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Monoplata from Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "North-South Choke from Shoulder of Justice|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Rear Naked Choke from Rodeo|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Rear Triangle Choke from Back Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Rolling Armbar from Closed Guard|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Rolling Omoplata from Omoplata Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Spine Lock from Truck|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Ashi Garami|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Honey Hole|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Inside Sankaku|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Toe Hold Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Toe Hold from Ushiro Ashi-Garami|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Triangle Choke from De La Riva|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Twister from Twister Side Control|Defender": {
+   "cards": 5,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.4,
+   "pool_rate": 1.0
+  },
+  "Americana from Kuzure Kesa-Gatame|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Americana from Reverse Kesa-Gatame|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Ankle Lock from X-Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Lasso Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Mounted Crucifix|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Belly Down Armbar from Open Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Bow and Arrow Choke from Back Control|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Calf Slicer from Rodeo Ride|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Cross Collar Choke from 3-4 Mount|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Darce Choke from Darce Control|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Kimura from Kesa Gatame|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Inside Ashi-Garami|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Kneebar from Straight Ankle Lock Control|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Omoplata from Crackhead Control|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Omoplata from Rubber Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Omoplata from Spider Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Rear Naked Choke from Crucifix|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  },
+  "Tarikoplata from Closed Guard|Defender": {
+   "cards": 4,
+   "clippable": 2,
+   "viable": 2,
+   "micro": 0,
+   "clip_rate": 0.5,
+   "pool_rate": 1.0
+  }
+ }
+}

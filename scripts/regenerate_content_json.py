@@ -44,6 +44,7 @@ from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
 from scripts._ruleset import as_map, cell, any_ruleset_map, RULESETS  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
+from scripts._model import model as _model_tier, effort as _model_effort  # single source of truth: models.env
 
 
 def _is_peak_now() -> bool:
@@ -65,12 +66,11 @@ LEARNING_PATH = CONTENT_PATH / "Learning"
 TEMPLATES_PATH = Path("templates")
 LOGS_PATH = Path("logs/regenerate_json")
 
-# Model to use for all Claude calls.
-# Opus 4.8 with the 1M-context variant ([1m] suffix) for the largest context window.
-CLAUDE_MODEL = "claude-opus-4-8[1m]"
-# Reasoning effort for content generation (low|medium|high|xhigh|max). Content
-# regeneration is quality-critical and intermittent, so we run near the top.
-CLAUDE_EFFORT = "xhigh"
+# Model + effort for all Claude calls, resolved from models.env (the repo's only
+# list of model IDs) with a $BJJ_CLAUDE_MODEL / $BJJ_CLAUDE_EFFORT env override
+# for one-off runs. Never pin an ID here — see scripts/_model.py.
+CLAUDE_MODEL = _model_tier()
+CLAUDE_EFFORT = _model_effort()
 
 # =============================================================================
 # STATS (thread-safe)

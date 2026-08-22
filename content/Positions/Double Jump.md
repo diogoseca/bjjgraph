@@ -165,7 +165,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Position Type** | Neutral | Offensive/Controlling |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Short to Medium |

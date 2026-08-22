@@ -71,7 +71,7 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
       "name": "What is the primary goal of Leg Drag Pass to Side Control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to convert the transitional leg drag control position into a stable, scoring side control position by establishing upper body control (crossface) before releasing leg control, then completing the consolidation with proper hip pressure and perpendicular body alignment."
+        "text": "The primary goal is to convert leg drag control into a stable, scoring side control by securing the crossface before releasing the leg. Once upper body control is established, you complete the consolidation with proper hip pressure and perpendicular body alignment, turning the transitional leg drag position into a settled pin."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
       "name": "What position do you start Leg Drag Pass to Side Control from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Leg Drag Control top position, where you have already pulled opponent's leg across their body and established hip control, but have not yet achieved a consolidated scoring position."
+        "text": "You start from Leg Drag Control on top, with the opponent's leg already pulled across their body and hip control established. At this point you have the transitional dragging position but have not yet achieved a consolidated scoring position, which is exactly what this pass completes."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
       "name": "What are the key grips needed for Leg Drag Pass to Side Control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The essential grips progress through the technique: initially the leg grip (hip, pants, or belt) combined with shoulder/head control, then crossface establishment with forearm across neck and jaw, then hip-blocking grip on opponent's far hip, finally settling into standard side control grips with crossface and underhook or hip control."
+        "text": "The grips progress from leg-and-shoulder control to a crossface, then a far-hip block, and finally standard side control grips. Initially you hold the leg grip (hip, pants, or belt) combined with shoulder or head control, then establish the crossface with your forearm across the neck and jaw, add a hip-blocking grip on the opponent's far hip, and settle into side control with crossface plus an underhook or hip control."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
       "name": "Your opponent starts inserting their knee as you release the leg grip—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the knee enters during transition, immediately switch to knee slice finishing mechanics by dropping your hip onto their thigh and driving through, or backstep to leg entanglement entries. Never try to force the original pass once the knee is in—adapt to the new situation."
+        "text": "Immediately switch to knee slice finishing mechanics—drop your hip onto their thigh and drive through—or backstep into leg entanglement entries. Never try to force the original leg drag once the knee is in; the position has changed, so adapt to the new situation instead of fighting for a pass that is no longer there."
       }
     },
     {

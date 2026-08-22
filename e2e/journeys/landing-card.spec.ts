@@ -15,7 +15,7 @@ import { journey } from "../dsl"
  * Keys: A/B/C/D answer the live MC block; digits stay the option-card openers.
  * The right sidebar is the STUDY surface and now reads back as classic recall by default.
  *
- * Surfaces: [data-landcard] [data-land-id] [data-land-q] [data-land-more]
+ * Surfaces: [data-landcard] [data-land-count] [data-land-q] [data-land-more] [data-land-close]
  * Beats: land_q_shown, land_q_answered {correct, tier, qMod}
  */
 
@@ -46,7 +46,9 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await j.land("Mount Top")
 
   await expect(page.locator("[data-landcard]"), "landing card docked above the hand").toBeVisible()
-  await expect(page.locator("[data-land-id]"), "identity header").toBeVisible()
+  await expect(page.locator("[data-landcard]"), "the card is up").toBeVisible()
+  // v1.101.1: no header block on a landing — the counter is the card's meta, in the foot
+  await expect(page.locator("[data-land-foot] [data-land-count]"), "counter in the foot").toHaveCount(1)
   await expect(page.locator("[data-land-q]"), "one question").toBeVisible()
   await j.expectBeat("land_q_shown")
 
@@ -82,7 +84,11 @@ test("a wrong answer costs THIS exchange only — the next arrival forgives it",
   const qMod = await page.evaluate(() => (window as any).__neural._qMod)
   expect(qMod, "a transient penalty, not a permanent one").toBeLessThan(0)
 
-  // play the move out and arrive somewhere new — the penalty does not follow you
+  // play the move out and arrive somewhere new — the penalty does not follow you.
+  // Rig the resolve+outcome to the success branch: the fail branch can chain into an
+  // opponent catch whose defense-expiry ride exceeds nextHand's sim-time cap.
+  await j.rig("resolve", [0.01])
+  await j.rig("outcome", [0.01])
   await j.pick(t)
   await j.nextHand()
   expect(await page.evaluate(() => (window as any).__neural._qMod), "forgiven on arrival").toBe(0)
@@ -103,7 +109,7 @@ test("a proven deck asks nothing — the card degrades to identity", async ({ pa
 
   await expect(page.locator("[data-land-q]"), "nothing left to ask").toHaveCount(0)
   await expect(page.locator("[data-landcard]"), "identity still lands").toBeVisible()
-  await expect(page.locator("[data-land-id]")).toBeVisible()
+  await expect(page.locator("[data-landcard]")).toBeVisible()
 })
 
 test("the sidebar reads back as classic recall — multiple choice is the in-roll format", async ({
@@ -120,7 +126,8 @@ test("the sidebar reads back as classic recall — multiple choice is the in-rol
 
   // open the sidebar: its cards must reveal, not offer options. Scoped to the pane — the
   // LANDING card legitimately has [data-mc-opt] buttons of its own, which is the whole point.
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
+  await page.locator('.ng-learning-nav [data-view="history"]').click()
   await expect(
     page.locator(".ng-drill [data-mc-opt]"),
     "no multiple choice in the study pane",
@@ -142,4 +149,38 @@ test("digits still open option sheets while a landing question is live", async (
 
   await page.keyboard.press("1")
   await expect(page.locator("[data-go]"), "digit 1 opened the first option's sheet").toBeVisible()
+})
+
+test("the identity chip fuses the seen-glyph with the deck's recall count and opens study", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  // one top-right chip, not two adjacent familiarity indicators (v1.76.0 merged-glyph decision)
+  const chip = page.locator("[data-land-foot] [data-land-count]")
+  await expect(chip, "the chip rides the identity row").toBeVisible()
+  const label = await chip.getAttribute("data-land-count")
+  const state = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    const deck = a.flashcards && a.flashcards.decks ? a.flashcards.decks[key] : null
+    const total = deck && deck.cards ? deck.cards.length : 0
+    return { total, done: Math.min((a.prep && a.prep[key]) || 0, total) }
+  })
+  expect(state.total, "this landing has an authored deck").toBeGreaterThan(0)
+  expect(label, "chip carries done/total").toBe(`${state.done}/${state.total}`)
+
+  // clicking it is a manual study open — pane-law-legal, lands on the History tab's deck
+  await chip.click()
+  expect(
+    await page.evaluate(() => !!(window as any).__neural.deckShown),
+    "chip click opened the pane",
+  ).toBe(true)
+  expect(
+    await page.evaluate(() => (window as any).__neural._viewMode),
+    "on the History tab (study this state)",
+  ).toBe("history")
+  await j.expectBeat("pane_paused")
 })

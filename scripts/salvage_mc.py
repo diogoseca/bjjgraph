@@ -19,7 +19,7 @@ and shardable for parallel background runs. Whatever still fails after retries i
 logs/mc_salvage/reasons-*.json for the Phase-3 residual table.
 
 Usage:
-  python3 scripts/salvage_mc.py [--model claude-opus-4-8] [--effort high]
+  python3 scripts/salvage_mc.py [--model MODEL] [--effort high]
                                 [--num-shards N --shard I] [--max-files N] [--file P] [--dry-run]
 Then: validate:json && regenerate:graph-base && regenerate:neural && validate:mc && e2e && commit.
 """
@@ -38,6 +38,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from audit_mc_viability import MC_LINE_BUDGET  # noqa: E402
 from author_mc import iter_flashcard_holders, needs_authoring, verify_reason  # noqa: E402
 from claude_infer import call_claude  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 STATE_DIR = ROOT / "logs/mc_salvage"
 
@@ -204,7 +205,7 @@ def process_file(path, model, effort, dry, reasons):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-opus-5")
+    ap.add_argument("--model", default=_model_tier())
     ap.add_argument("--effort", default="high")
     ap.add_argument("--max-files", type=int, default=0)
     ap.add_argument("--file", action="append", default=[])

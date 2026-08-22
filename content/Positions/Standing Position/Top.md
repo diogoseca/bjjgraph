@@ -33,13 +33,13 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Entry",
-      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Setup",
-      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {

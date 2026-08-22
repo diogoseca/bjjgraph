@@ -202,7 +202,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
 
 Defending the Omoplata to Back transition requires understanding that your own forward roll escape from the omoplata is what creates the back take opportunity. As the person caught in the omoplata, you face a dilemma: staying in place allows the shoulder lock to finish, but rolling forward exposes your back. Effective defense starts before the roll by recognizing when the attacker is prepared to follow, and continues through the roll with specific actions to prevent hook insertion and seatbelt establishment. The defender's primary goals are to complete the roll while creating separation from the attacker's shoulder connection, immediately turn to face the attacker after the roll, and prevent the seatbelt grip from being established. Understanding the attacker's sequence of shoulder ride, first hook, seatbelt, second hook allows you to disrupt the chain at its most vulnerable link. Advanced defenders learn to time their roll to break the shoulder connection, use their free arm to block hook insertion, and turn explosively into the attacker before back control is consolidated.
 
-**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 

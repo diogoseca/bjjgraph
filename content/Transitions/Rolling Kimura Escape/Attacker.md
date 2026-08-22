@@ -85,7 +85,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
       "name": "Your opponent has the Kimura locked but their weight is shifted backward rather than driving forward - should you attempt the rolling escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. When the opponent's weight is shifted backward, they have better base to follow your roll and maintain the grip throughout the rotation. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand."
+        "text": "No, do not attempt the roll: with their weight shifted backward the opponent has the base to follow your rotation and maintain the grip throughout. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
       "name": "At what point in the Kimura attack sequence is the optimal timing window for initiating the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is after recognizing that traditional defensive measures have failed but before the opponent reaches maximum submission pressure on your shoulder. This typically occurs when the opponent has secured a tight figure-four grip, is driving forward with their weight to finish, but has not yet reached the point where your shoulder range of motion is fully exhausted. Waiting too long dramatically increases injury risk, while attempting too early wastes this high-risk technique when safer options remain viable."
+        "text": "Initiate the roll after traditional defenses have failed but before the opponent reaches maximum submission pressure on your shoulder. This typically occurs when the opponent has secured a tight figure-four grip and is driving forward with their weight to finish, but your shoulder's range of motion is not yet fully exhausted. Waiting too long dramatically increases injury risk, while attempting too early wastes this high-risk technique when safer options remain viable."
       }
     },
     {

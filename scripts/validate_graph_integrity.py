@@ -22,6 +22,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from collections import defaultdict
@@ -624,6 +625,87 @@ def check_from_position_validity(position_names):
     return issues
 
 
+def check_position_type_vs_score():
+    """Does the authored dominance word agree with the arithmetic that scores it?
+
+    `state_properties.position_type` is where a human wrote "Offensive/Controlling" or
+    "Defensive". Since v1.103.0 that word DECIDES the sign of the position's strength and the
+    weighted formula only supplies the magnitude — so a disagreement is no longer silently
+    resolved in the formula's favour, but it is still worth naming: it means either the word or
+    the metrics behind it are wrong, and the metrics are what feed the odds a player sees.
+    """
+    issues = []
+    # ADJUDICATED DISAGREEMENTS ARE INFO, NOT WARNINGS (v1.106.0). The 2026-08-17 black-belt
+    # panel (two independent experts per change) ruled 73 authored words CORRECT — the metrics
+    # merely disagree, and the word wins at runtime — plus a handful whose corrected word still
+    # outvotes broken metrics. Re-warning those forever would bury any NEW disagreement. The
+    # ledger is tests/artifacts/position_type_reviewed.json; delete an entry to re-open a case.
+    reviewed = {}
+    try:
+        reviewed = json.loads((Path(__file__).resolve().parent.parent / "tests/artifacts/position_type_reviewed.json").read_text()).get("reviewed", {})
+    except Exception:
+        pass
+    # NB `import os` was MISSING until v1.104.6, so `os.path.dirname` raised NameError, this bare
+    # except swallowed it, and the check returned an empty list on every run since v1.103.0 — which
+    # is what "0 disagreements across all 272 position-roles" actually meant. A guard that reports
+    # clean because it never executed is worse than no guard, so the failure is now named.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import score_graph_nodes as sgn
+    except Exception as e:
+        print("  [position_type] SKIPPED — could not load score_graph_nodes: %r" % (e,))
+        return issues
+
+    for path in sorted(POSITIONS_PATH.rglob("*.json")):
+        data = load_json(path)
+        if not data:
+            continue
+        for role in ("top", "bottom"):
+            rd = data.get(role)
+            if not isinstance(rd, dict):
+                continue
+            sp = rd.get("state_properties") or {}
+            kind = str(sp.get("position_type") or "").strip()
+            if not kind:
+                continue
+            k = kind.lower()
+            # leading word decides, mirroring score_graph_nodes (v1.106.3): "Defensive with
+            # offensive options" is a DEFENSIVE-leaning claim, not an offensive one.
+            _head = k.split()[0] if k.split() else ""
+            wants_pos = _head.startswith(("offensive", "controlling", "dominant"))
+            wants_neg = _head.startswith(("defensive", "inferior"))
+            if not (wants_pos or wants_neg):
+                continue
+            # the magnitude the formula would have produced, unsigned by the word
+            try:
+                raw = sgn.position_role_strength(rd)
+            except Exception:
+                continue
+            # re-derive the pre-sign value: position_role_strength already applied the word, so
+            # recompute the bare arithmetic to see whether the two ever pointed different ways
+            bare = sgn.clamp_strength(
+                sgn.W_POINT * sgn.normalize(sp.get("point_value", 0) or 0, -4, 4)
+                + sgn.W_SUBMISSION * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "submission_probability"), 0, 100)
+                + sgn.W_RETENTION * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "retention_rate"), 0, 100)
+                + sgn.W_ADVANCEMENT * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "advancement_probability"), 0, 100)
+                - sgn.W_RISK * sgn.risk_penalty(sp.get("risk_level"))
+            )
+            if abs(bare) < 0.02:
+                continue  # too close to zero to call a disagreement
+            if (bare > 0) != wants_pos:
+                _nm = rd.get("name", path.stem)
+                issues.append({
+                    "type": "position_type_score_disagreement",
+                    "severity": "info" if _nm in reviewed else "warning",
+                    "name": _nm,
+                    "file": str(path),
+                    "message": (f"{rd.get('name', path.stem)}: authored position_type '{kind}' but its "
+                                f"metrics score {bare:+.3f} — the word now wins, so check whether the "
+                                f"point_value / risk / submission-retention-advancement numbers are right"),
+                })
+    return issues
+
+
 def check_from_position_bidirectional(position_names):
     """Validate bidirectional consistency between position refs and technique from_position.
 
@@ -676,6 +758,8 @@ def check_from_position_bidirectional(position_names):
         if not actual_from:
             continue
 
+        actual_role = actual_from.rsplit("/", 1)[-1].strip().lower() if "/" in actual_from else ""
+
         for ref in refs:
             expected = ref["expected_from"]
             if actual_from.strip().lower() == expected.strip().lower():
@@ -687,6 +771,41 @@ def check_from_position_bidirectional(position_names):
             # Check if a position-specific variant exists
             variant_name = f"{tech_name} from {ref['position']}"
             has_variant = variant_name in all_tech_names
+
+            # ── A ROLE DISAGREEMENT IS NEVER "ACCEPTABLE GENERICITY" ────────────────────────
+            # The multi-ref escape below was written for POSITION genericity: one technique
+            # reachable from several positions is normal, so its single `from_position` cannot
+            # name them all. It also silently excused ROLE disagreement, which is a different
+            # thing entirely — a technique has exactly one performer, so a position that offers
+            # it to the OTHER side is claiming something the technique itself denies.
+            #
+            # That hole is not theoretical. `optionsFor()` keeps only moves that favour the side
+            # playing them ("the beneficiary is the performer"), and the strength pair the app
+            # filters on is derived from this very field — so a wrong role does not merely mislabel
+            # the move, it DELETES it from that side's hand. Measured on 2026-08-13: 44 role
+            # contradictions across the corpus, 7 of them submissions, every one of them invisible
+            # here because the technique happened to be referenced by more than one position.
+            # The reported case was Triangle Control/bottom, whose triangle finish is authored
+            # `Triangle Control/Top` — so the player holding the triangle was offered transitions
+            # and no submissions at all.
+            if actual_role and actual_role != ref["role"].strip().lower():
+                issues.append({
+                    "type": "from_position_role_mismatch",
+                    # WARNING, not error, on purpose: `validate:graph` is a halting gate in
+                    # `npm run regenerate`, and turning 44 pre-existing contradictions into a hard
+                    # stop would block content work rather than inform it. Promote to "error" once
+                    # the corpus is clean.
+                    "severity": "warning",
+                    "name": tech_name,
+                    "file": tech_from[tech_name]["file"],
+                    "expected_from": expected,
+                    "actual_from": actual_from,
+                    "referencing_position": ref["file"],
+                    "message": (f"Role contradiction: {ref['position']}/{ref['role']} offers "
+                                f"'{tech_name}', but it is authored from '{actual_from}' — one of "
+                                f"the two is wrong, and the app will drop it from that hand"),
+                })
+                continue
 
             if is_single_ref:
                 severity = "error"
@@ -1052,6 +1171,7 @@ def main():
     # Step 12: Bidirectional from_position consistency
     print(f"[12/{total_steps}] Checking bidirectional from_position consistency...")
     bidir_issues = check_from_position_bidirectional(position_names)
+    bidir_issues += check_position_type_vs_score()
     bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")

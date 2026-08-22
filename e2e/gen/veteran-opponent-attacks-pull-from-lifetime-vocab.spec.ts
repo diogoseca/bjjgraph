@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"opponent-turns","B":"guard-limit"} @invariant "During a normal (non-belt-test) roll for a 25-deck veteran, a rigged opponent_attack draws a technique that resolves to a real submissions/transitions node, and mastered lifetime decks never widen the opponent's attack pool — the attack idx resolves to a node whose title matches the beat technique, and zero phantom opponent_attack beats fire beyond the rigged one." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"opponent-turns","B":"guard-limit"} @invariant "During a normal (non-capstone) roll for a 25-deck veteran, a rigged opponent_attack draws a technique that resolves to a real submissions/transitions node, and mastered lifetime decks never widen the opponent's attack pool — the attack idx resolves to a node whose title matches the beat technique, and zero phantom opponent_attack beats fire beyond the rigged one." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { srsVeteran } from "./personas"
@@ -15,7 +15,7 @@ import { srsVeteran } from "./personas"
  *     node.ty is "submissions". The positional-counter branch emits a DIFFERENT beat
  *     ("opponent_move", app.src.jsx:4657) so it can never masquerade as an attack.
  *   - the opponent's pool is graph adjacency (this.adj[currentPos]) filtered by
- *     _beltPoolAllows(n), which returns true UNCONDITIONALLY outside a belt test
+ *     _beltPoolAllows(n), which returns true UNCONDITIONALLY outside an internal capstone test
  *     (app.src.jsx:2546: `if (!bt) return true`). prep/rec (the mastered decks) feed
  *     moveChance/odds only — never adjacency — so clearing them leaves the sub-pool identical.
  *   - enterDefense (app.src.jsx:4562) keeps the roll LIVE: it sets optionIdxs=escapes
@@ -78,8 +78,8 @@ test("veteran normal roll: a rigged opponent finish draws a real submission node
   await j.land("Mount Top")
   await j.expectBeat("options_dealt")
 
-  // NOT a belt test — the invariant is specifically about the UNRESTRICTED opponent pool.
-  expect(await page.evaluate(() => !!(window as any).__neural._beltTest), "no belt test active").toBe(false)
+  // NOT a content capstone — the invariant is specifically about the UNRESTRICTED opponent pool.
+  expect(await page.evaluate(() => !!(window as any).__neural._beltTest), "no content capstone active").toBe(false)
 
   // play the BOTTOM side so the opponent (top) has finishes pointed at us
   await flipToBottom(page)

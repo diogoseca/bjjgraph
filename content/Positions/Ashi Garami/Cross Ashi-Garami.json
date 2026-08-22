@@ -809,87 +809,73 @@
     },
     "transitions": [
       {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 3,
           "nogi": 2
         }
       },
       {
         "transition": "Heel Hook Defense Escape",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 16
+          "gi": 6,
+          "nogi": 19
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 11
+          "gi": 19,
+          "nogi": 14
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 12
+          "gi": 22,
+          "nogi": 15
         }
       },
       {
         "transition": "Counter Entangle from Cross Ashi",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Leg Extraction from Cross Ashi",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 9
+          "gi": 17,
+          "nogi": 10
         }
       },
       {
         "transition": "Sweep from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 6
         }
       }
     ],

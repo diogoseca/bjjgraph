@@ -221,19 +221,15 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (27% of attempts)
+- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (38% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (13% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (18% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (14% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (20% of attempts)
 
-- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (18% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (12% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (9% of attempts)
-
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (10% of attempts)
-
-- **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (9% of attempts)
+- **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -294,25 +290,21 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (14% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (18% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (12% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
+- **[[Transitions/Outside Ashi to Inside Ashi/Attacker|Outside Ashi to Inside Ashi]]** (16% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (9% of attempts)
+- **[[Transitions/Outside to Ushiro Ashi/Attacker|Outside to Ushiro Ashi]]** (8% of attempts)
 
-- **[[Transitions/Outside Ashi to Inside Ashi/Attacker|Outside Ashi to Inside Ashi]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (13% of attempts)
 
-- **[[Transitions/Outside to Ushiro Ashi/Attacker|Outside to Ushiro Ashi]]** (6% of attempts)
+- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (11% of attempts)
 
-- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (11% of attempts)
-
-- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (9% of attempts)
-
-- **[[Transitions/Outside Ashi to Leg Knot/Attacker|Outside Ashi to Leg Knot]]** (7% of attempts)
+- **[[Transitions/Outside Ashi to Leg Knot/Attacker|Outside Ashi to Leg Knot]]** (9% of attempts)
 
 
 ### Common Mistakes

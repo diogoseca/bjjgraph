@@ -708,7 +708,7 @@
         "description": "Likelihood of transitioning to superior leg attack or finishing submission"
       },
       "submission_probability": {
-        "value": 40,
+        "value": 48,
         "description": "Probability of finishing from this position within 60 seconds"
       },
       "average_time": "15-45 seconds before finish or transition required"
@@ -717,54 +717,26 @@
       {
         "transition": "Kneebar Finish",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 16
+          "gi": 34,
+          "nogi": 24
         }
       },
       {
         "transition": "Heel Hook from Kneebar Control",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 16
+          "nogi": 24
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Ankle Lock Finish",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Toe Hold from Kneebar Control",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Ashi Garami Escape",
         "attempt_probability": {
           "gi": 8,
           "nogi": 6
@@ -773,29 +745,29 @@
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 6,
           "nogi": 3
         }
       },
       {
         "transition": "Straighten Leg Kneebar Defense",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 11
         }
       },
       {
         "transition": "Turn and Extract from Kneebar",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 12,
+          "nogi": 9
         }
       },
       {
         "transition": "Reversal from Kneebar Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 5
         }
       }
     ],

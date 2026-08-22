@@ -3,10 +3,10 @@
     "transition_files": 1034,
     "submission_files": 360,
     "position_files": 136,
-    "total_issues": 312,
+    "total_issues": 352,
     "errors": 0,
-    "warnings": 6,
-    "info": 306,
+    "warnings": 7,
+    "info": 345,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 6,
-    "attempt_outliers": 304,
+    "attempt_outliers": 295,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -38,6 +38,349 @@
       "file": "content/Submissions/Kneebar/from Backside 50-50.json",
       "from_position": "Backside 50-50/Top",
       "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Honey Hole Top",
+      "file": "content/Positions/Ashi Garami/Honey Hole.json",
+      "message": "Honey Hole Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Ushiro Ashi-Garami Top",
+      "file": "content/Positions/Ashi Garami/Ushiro Ashi-Garami.json",
+      "message": "Ushiro Ashi-Garami Top: authored position_type 'Offensive' but its metrics score -0.065 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Ashi Garami Bottom",
+      "file": "content/Positions/Ashi Garami.json",
+      "message": "Ashi Garami Bottom: authored position_type 'Offensive' but its metrics score -0.038 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Butterfly Hook Control Bottom",
+      "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
+      "message": "Butterfly Hook Control Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Half Butterfly Top",
+      "file": "content/Positions/Butterfly Guard/Half Butterfly.json",
+      "message": "Half Butterfly Top: authored position_type 'Offensive' but its metrics score -0.094 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Half Butterfly Bottom",
+      "file": "content/Positions/Butterfly Guard/Half Butterfly.json",
+      "message": "Half Butterfly Bottom: authored position_type 'Offensive' but its metrics score -0.120 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Butterfly Guard Bottom",
+      "file": "content/Positions/Butterfly Guard.json",
+      "message": "Butterfly Guard Bottom: authored position_type 'Offensive' but its metrics score -0.090 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Closed Guard Bottom",
+      "file": "content/Positions/Closed Guard.json",
+      "message": "Closed Guard Bottom: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Reverse De La Riva Guard Top",
+      "file": "content/Positions/De La Riva Guard/Reverse De La Riva Guard.json",
+      "message": "Reverse De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.086 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Reverse De La Riva Guard Bottom",
+      "file": "content/Positions/De La Riva Guard/Reverse De La Riva Guard.json",
+      "message": "Reverse De La Riva Guard Bottom: authored position_type 'Offensive' but its metrics score -0.046 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "De La Riva Guard Top",
+      "file": "content/Positions/De La Riva Guard.json",
+      "message": "De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.210 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "De La Riva Guard Bottom",
+      "file": "content/Positions/De La Riva Guard.json",
+      "message": "De La Riva Guard Bottom: authored position_type 'Offensive' but its metrics score -0.126 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Double Jump Top",
+      "file": "content/Positions/Double Jump.json",
+      "message": "Double Jump Top: authored position_type 'Offensive/Controlling' but its metrics score -0.138 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Feet on Hips Guard Top",
+      "file": "content/Positions/Feet on Hips Guard.json",
+      "message": "Feet on Hips Guard Top: authored position_type 'Offensive' but its metrics score -0.124 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Grasshopper Guard Top",
+      "file": "content/Positions/Grasshopper Guard.json",
+      "message": "Grasshopper Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.050 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Grasshopper Guard Bottom",
+      "file": "content/Positions/Grasshopper Guard.json",
+      "message": "Grasshopper Guard Bottom: authored position_type 'Offensive' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Guillotine Control Bottom",
+      "file": "content/Positions/Guillotine Control.json",
+      "message": "Guillotine Control Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Butterfly Half Guard Bottom",
+      "file": "content/Positions/Half Guard/Butterfly Half Guard.json",
+      "message": "Butterfly Half Guard Bottom: authored position_type 'Offensive' but its metrics score -0.074 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Deep Half Guard Bottom",
+      "file": "content/Positions/Half Guard/Deep Half Guard.json",
+      "message": "Deep Half Guard Bottom: authored position_type 'Offensive' but its metrics score -0.120 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Flattened Half Guard Top",
+      "file": "content/Positions/Half Guard/Flattened Half Guard.json",
+      "message": "Flattened Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.105 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Knee Shield Half Guard Top",
+      "file": "content/Positions/Half Guard/Knee Shield Half Guard.json",
+      "message": "Knee Shield Half Guard Top: authored position_type 'Offensive' but its metrics score -0.129 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Old School Bottom",
+      "file": "content/Positions/Half Guard/Old School.json",
+      "message": "Old School Bottom: authored position_type 'Offensive' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Pocket Half Guard Top",
+      "file": "content/Positions/Half Guard/Pocket Half Guard.json",
+      "message": "Pocket Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.044 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Reverse Half Guard Top",
+      "file": "content/Positions/Half Guard/Reverse Half Guard.json",
+      "message": "Reverse Half Guard Top: authored position_type 'Offensive' but its metrics score -0.188 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Z-Lock Half Guard Top",
+      "file": "content/Positions/Half Guard/Z-Lock Half Guard.json",
+      "message": "Z-Lock Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.076 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Half Guard Top",
+      "file": "content/Positions/Half Guard.json",
+      "message": "Half Guard Top: authored position_type 'Offensive' but its metrics score -0.130 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Jailbreak Top",
+      "file": "content/Positions/Jailbreak.json",
+      "message": "Jailbreak Top: authored position_type 'Offensive' but its metrics score -0.062 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "K-Guard Bottom",
+      "file": "content/Positions/K-Guard.json",
+      "message": "K-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Lasso Guard Bottom",
+      "file": "content/Positions/Lasso Guard.json",
+      "message": "Lasso Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Leg Hook Top",
+      "file": "content/Positions/Leg Hook.json",
+      "message": "Leg Hook Top: authored position_type 'Offensive/Controlling' but its metrics score -0.075 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Leg Weave Top",
+      "file": "content/Positions/Leg Weave.json",
+      "message": "Leg Weave Top: authored position_type 'Offensive/Controlling' but its metrics score -0.212 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Matrix Bottom",
+      "file": "content/Positions/Matrix.json",
+      "message": "Matrix Bottom: authored position_type 'Offensive' but its metrics score -0.080 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Open Guard Top",
+      "file": "content/Positions/Open Guard.json",
+      "message": "Open Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.295 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Overhook Guard Top",
+      "file": "content/Positions/Overhook Guard.json",
+      "message": "Overhook Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.089 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Piranha Guard Bottom",
+      "file": "content/Positions/Piranha Guard.json",
+      "message": "Piranha Guard Bottom: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Quarter Guard Top",
+      "file": "content/Positions/Quarter Guard.json",
+      "message": "Quarter Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.024 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Rodeo Ride Top",
+      "file": "content/Positions/Rodeo Ride.json",
+      "message": "Rodeo Ride Top: authored position_type 'Offensive/Controlling' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Chill Dog Top",
+      "file": "content/Positions/Rubber Guard/Chill Dog.json",
+      "message": "Chill Dog Top: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Crackhead Control Bottom",
+      "file": "content/Positions/Rubber Guard/Crackhead Control.json",
+      "message": "Crackhead Control Bottom: authored position_type 'Offensive' but its metrics score -0.090 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Zombie Top",
+      "file": "content/Positions/Rubber Guard/Zombie.json",
+      "message": "Zombie Top: authored position_type 'Offensive/Controlling' but its metrics score -0.079 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Rubber Guard Bottom",
+      "file": "content/Positions/Rubber Guard.json",
+      "message": "Rubber Guard Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.035 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Seated Guard Top",
+      "file": "content/Positions/Seated Guard.json",
+      "message": "Seated Guard Top: authored position_type 'Offensive' but its metrics score -0.112 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Squid Guard Bottom",
+      "file": "content/Positions/Squid Guard.json",
+      "message": "Squid Guard Bottom: authored position_type 'Offensive' but its metrics score -0.066 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Standing Guard Top",
+      "file": "content/Positions/Standing Guard.json",
+      "message": "Standing Guard Top: authored position_type 'Offensive' but its metrics score -0.205 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "warning",
+      "name": "Williams Guard Bottom",
+      "file": "content/Positions/Williams Guard.json",
+      "message": "Williams Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score +0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Worm Guard Bottom",
+      "file": "content/Positions/Worm Guard.json",
+      "message": "Worm Guard Bottom: authored position_type 'Offensive' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Reverse X-Guard Bottom",
+      "file": "content/Positions/X-Guard/Reverse X-Guard.json",
+      "message": "Reverse X-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "X-Guard Bottom",
+      "file": "content/Positions/X-Guard.json",
+      "message": "X-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+    },
+    {
+      "type": "position_type_score_disagreement",
+      "severity": "info",
+      "name": "Z-Guard Top",
+      "file": "content/Positions/Z-Guard.json",
+      "message": "Z-Guard Top: authored position_type 'Offensive' but its metrics score -0.201 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "file": "content/Transitions/Lapel Sweep to Back.json",
@@ -136,40 +479,10 @@
       "position": "Backside 50-50",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
       "message": "top[gi]: 'Outside Heel Hook from Backside 50-50' has only 1% attempt probability",
       "severity": "info",
       "transition": "Outside Heel Hook from Backside 50-50",
       "current": 1
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "position": "Cross Ashi-Garami",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'X-Guard to Ashi Garami' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "X-Guard to Ashi Garami",
-      "current": 2
     },
     {
       "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
@@ -179,16 +492,6 @@
       "message": "bottom[nogi]: 'X-Guard to Ashi Garami' has only 2% attempt probability",
       "severity": "info",
       "transition": "X-Guard to Ashi Garami",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "position": "Cross Ashi-Garami",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Backside 50-50 Entry from Ashi' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Backside 50-50 Entry from Ashi",
       "current": 2
     },
     {
@@ -217,16 +520,6 @@
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "position": "Outside Ashi-Garami",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Counter heel hook' has only 2% attempt probability",
       "severity": "info",
       "transition": "Counter heel hook",
       "current": 2
@@ -826,16 +1119,6 @@
       "position": "Closed Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Kimura to Back Take' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Kimura to Back Take",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
       "message": "bottom[gi]: 'Elevator Sweep' has only 2% attempt probability",
       "severity": "info",
       "transition": "Elevator Sweep",
@@ -930,26 +1213,6 @@
       "severity": "info",
       "transition": "Closed Guard to Omoplata",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Omoplata to Back' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Omoplata to Back",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Omoplata to Back' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Omoplata to Back",
-      "current": 1
     },
     {
       "file": "content/Positions/Closed Guard.json",
@@ -1456,10 +1719,10 @@
       "position": "Guillotine Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Guillotine Escape to Von Flue' has only 1% attempt probability",
+      "message": "bottom[gi]: 'Guillotine Escape to Von Flue' has only 2% attempt probability",
       "severity": "info",
       "transition": "Guillotine Escape to Von Flue",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Guillotine Control.json",
@@ -1476,10 +1739,10 @@
       "position": "Guillotine Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Guillotine Escape via Posture' has only 1% attempt probability",
+      "message": "bottom[gi]: 'Guillotine Escape via Posture' has only 2% attempt probability",
       "severity": "info",
       "transition": "Guillotine Escape via Posture",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Guillotine Control.json",
@@ -1852,16 +2115,6 @@
       "current": 1
     },
     {
-      "file": "content/Positions/Inverted Guard.json",
-      "position": "Inverted Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Roll to Truck' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Truck",
-      "current": 2
-    },
-    {
       "file": "content/Positions/Lapel Guard.json",
       "position": "Lapel Guard",
       "role": "top[nogi]",
@@ -1934,9 +2187,9 @@
     {
       "file": "content/Positions/Leg Entanglement.json",
       "position": "Leg Entanglement",
-      "role": "bottom[gi]",
+      "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Inside Heel Hook from Ushiro' has only 1% attempt probability",
+      "message": "top[gi]: 'Inside Heel Hook from Ushiro' has only 1% attempt probability",
       "severity": "info",
       "transition": "Inside Heel Hook from Ushiro",
       "current": 1

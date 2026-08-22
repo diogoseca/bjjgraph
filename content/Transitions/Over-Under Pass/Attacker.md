@@ -77,7 +77,7 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
       "name": "What is the primary purpose of the stacking angle in the Over-Under Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The stacking angle serves to elevate the opponent's hips and load their weight onto their shoulders, which eliminates their hip mobility and ability to generate power with their legs. This position compromises their defensive frames and makes it difficult for them to hip escape or recover guard. The stack also creates a psychological pressure that can force defensive errors."
+        "text": "The stacking angle elevates the opponent's hips and loads their weight onto their shoulders, eliminating their hip mobility and leg power. With their weight stacked onto their shoulders, they cannot hip escape or recover guard, and their defensive frames are compromised. The stack also creates a psychological pressure that can force defensive errors."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
       "name": "How does the under-hook control prevent the opponent's most common escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The under-hook, when threaded deeply to control the far hip, prevents the opponent from hip escaping toward that side, which is their primary escape route from the stacking pressure. By controlling the far hip with your under-hook arm, you eliminate their ability to create the angle needed for effective hip escape. The depth of the under-hook is critical - a shallow under-hook can be defeated by a determined hip escape, while a deep under-hook reaching the far hip creates an insurmountable barrier."
+        "text": "A deep under-hook that reaches and controls the far hip blocks the hip escape toward that side, the opponent's primary escape from the stack. Controlling the far hip removes their ability to create the angle an effective hip escape requires. Depth is critical: a shallow under-hook can be defeated by a determined hip escape, while a deep under-hook reaching the far hip creates an insurmountable barrier."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
       "name": "Your opponent successfully frames against your neck during the stack - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent establishes a frame against your neck, you have several options: drive through the frame with increased shoulder pressure while maintaining your under-hook depth; keep your head tight to their body on the over-hook side to make framing difficult; switch to a crossface variation by threading your over-hook arm across their face; or transition to an alternative pass like the knee slice if the frame is too strong. The key is not to back away from the pressure but to adjust your attack angle."
+        "text": "Drive through the neck frame with increased shoulder pressure and a tight head, adjusting your attack angle instead of backing away. Maintain your under-hook depth while doing so, and keep your head tight to their body on the over-hook side to make framing difficult. You can also switch to a crossface variation by threading your over-hook arm across their face, or transition to an alternative pass like the knee slice if the frame is too strong."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
       "name": "What is the optimal timing window for initiating the Over-Under Pass from half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window opens when you have won the upper body control battle - specifically when you have established crossface or head control and the opponent's frames are broken or weakened. Initiating the pass before establishing upper body dominance leads to premature attempts that fail against active frames. The secondary timing window occurs when the opponent is recovering from a failed sweep or submission attempt, as their grips and frames are momentarily disrupted and their hips are not set for defense."
+        "text": "The window opens once you have won the upper body battle - crossface or head control established and the opponent's frames broken or weakened. Initiating the pass before establishing upper body dominance leads to premature attempts that fail against active frames. A secondary window occurs when the opponent is recovering from a failed sweep or submission attempt, as their grips and frames are momentarily disrupted and their hips are not set for defense."
       }
     }
   ]

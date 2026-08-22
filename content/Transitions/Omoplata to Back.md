@@ -102,7 +102,7 @@ The technique demands precise timing and unbroken shoulder connection. The attac
 
 This transition integrates into broader guard attack systems where the omoplata itself is often set up from triangle attempts, failed armbars, or rubber guard sequences. The dilemma it creates is powerful: the opponent must choose between accepting the shoulder lock or rolling into back exposure. Both gi and no-gi contexts support this transition, though gi grips on the collar and belt provide additional control anchors during the rolling phase.
 
-**From Position**: [[Positions/Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 **Success Rate**: 60%
 
 </section>

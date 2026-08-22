@@ -135,7 +135,7 @@ jobs:
           # restricted to that validator; the post-step re-validates and the commit is
           # scoped to content/ below. No PostHog key is set on this step (prefetched).
           claude_args: |
-            --model claude-opus-4-8[1m]
+            --model "$(python3 scripts/_model.py --print default)"
             --effort xhigh
             --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*),Bash(python3 scripts/validate_json.py:*),Glob,Grep'
 

@@ -195,7 +195,7 @@ The primary defensive strategy centers on preventing leg extension and maintaini
 
 Defensive success also depends on recognizing the transition early through tactile and visual cues. When the attacker releases their heel hook grip, begins rotating their body, or shifts their hand positioning from heel to ankle, these signals indicate an imminent kneebar attempt. Early recognition allows proactive defense—stepping over the entanglement, driving forward to break their body angle, or extracting the leg before the attacker consolidates control. Reactive defense after the kneebar is locked in requires more energy and carries greater injury risk.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 

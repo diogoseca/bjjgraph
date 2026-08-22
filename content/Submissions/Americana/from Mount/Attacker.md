@@ -81,7 +81,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
       "name": "What are the primary anatomical targets of the americana submission, and what type of pressure creates the finishing mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The americana primarily targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule itself. The finishing mechanism comes from forced external rotation of the shoulder beyond its natural range of motion while the shoulder blade is pinned to the mat. This creates extreme stress on the rotator cuff tendons and the anterior shoulder capsule. The elbow joint and bicep tendon are also placed under secondary stress during the technique."
+        "text": "The americana attacks the shoulder joint complex, finishing through forced external rotation while the shoulder blade is pinned to the mat. Specifically, it targets the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule itself. Rotating the shoulder beyond its natural range while the scapula is trapped creates extreme stress on the rotator cuff tendons and the anterior shoulder capsule. The elbow joint and bicep tendon are also placed under secondary stress during the technique."
       }
     },
     {
@@ -113,7 +113,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
       "name": "What are all the acceptable ways a training partner can signal a tap when caught in an americana, and why must you know all of them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Acceptable tap signals include: (1) verbal tap - saying 'tap' or making any distress vocalization, (2) physical hand tap on opponent or mat with minimum 2 taps, (3) physical foot tap on the mat, (4) head shake or nodding if hands are trapped, and (5) any unusual vocalization or distress signal. You must know and recognize all of these because in the americana position, one or both of the opponent's hands may be trapped or controlled, limiting their tapping options. Missing a tap signal can result in serious injury to your training partner. Always err on the side of caution - if you think they might be tapping or in distress, release immediately and ask."
+        "text": "Acceptable taps include verbal taps, hand taps on you or the mat, foot taps on the mat, head shakes, and any distress vocalization. In detail: (1) verbal tap - saying 'tap' or making any distress vocalization, (2) physical hand tap on opponent or mat with minimum 2 taps, (3) physical foot tap on the mat, (4) head shake or nodding if hands are trapped, and (5) any unusual vocalization or distress signal. You must recognize all of these because in the americana one or both of the opponent's hands may be trapped or controlled, limiting their tapping options. Missing a tap signal can result in serious injury to your training partner. Always err on the side of caution - if you think they might be tapping or in distress, release immediately and ask."
       }
     }
   ]

@@ -21,13 +21,13 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {

@@ -238,17 +238,266 @@ export const lessons = [
   { title: "Back Escapes", progress: 0.25, locked: true },
 ];
 
+export const challengeTracks = [
+  {
+    id: "white",
+    name: "White Foundations",
+    color: "#d7dce7",
+    done: 7,
+    total: 20,
+    suggested: false,
+    objectives: [
+      {
+        title: "Answer a landing question correctly",
+        why: "Reading the state before moving builds better decisions.",
+        done: 1,
+        target: 1,
+      },
+      {
+        title: "Open a move sheet",
+        why: "Know what a technique wins before you commit.",
+        done: 0,
+        target: 1,
+      },
+      {
+        title: "Finish your first roll",
+        why: "Complete loops reveal how positions connect.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "blue",
+    name: "Blue Connections",
+    color: "#7398df",
+    done: 3,
+    total: 8,
+    suggested: true,
+    objectives: [
+      {
+        title: "Win two connected exchanges",
+        why: "Reliable sequences beat isolated techniques.",
+        done: 1,
+        target: 2,
+      },
+      {
+        title: "Escape a submission",
+        why: "Composure creates the next attacking chance.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "purple",
+    name: "Purple Patterns",
+    color: "#9274bd",
+    done: 1,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Recall-prove five cards",
+        why: "Pattern recognition starts with durable recall.",
+        done: 2,
+        target: 5,
+      },
+    ],
+  },
+  {
+    id: "brown",
+    name: "Brown Pressure",
+    color: "#9c745b",
+    done: 0,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Reach x5 momentum",
+        why: "Keep making sound decisions as the pace rises.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "black",
+    name: "Black Breadth",
+    color: "#6d7380",
+    done: 0,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Recall-prove twenty-five cards",
+        why: "Broad recall supports a game that travels.",
+        done: 4,
+        target: 25,
+      },
+    ],
+  },
+];
+
+export const patches = [
+  {
+    id: "white-foundations",
+    name: "White Foundations",
+    detail: "Clear the White content track",
+    earned: true,
+  },
+  {
+    id: "recall-pressure",
+    name: "Recall Under Pressure",
+    detail: "Prove ten cards from memory",
+    earned: false,
+  },
+  {
+    id: "clean-checkpoint",
+    name: "Clean Checkpoint",
+    detail: "Pass a checkpoint first try",
+    earned: false,
+  },
+];
+
+export const matCoins = [
+  {
+    id: "houdini",
+    name: "Houdini",
+    detail: "Escape when the finish looked inevitable",
+    earned: true,
+  },
+  {
+    id: "guard-again",
+    name: "Pulled Guard Again",
+    detail: "Choose the guard-pull route three times",
+    earned: false,
+  },
+  {
+    id: "godlike",
+    name: "GODLIKE",
+    detail: "Reach x7 momentum",
+    earned: false,
+  },
+  {
+    id: "berimbolo",
+    name: "Berimbolo, Briefly",
+    detail: "Attempt the advanced route",
+    earned: false,
+  },
+];
+
 export const history = [
   { title: "Deep Half Guard", result: "Won", delta: "+6%", time: "2m ago" },
   { title: "Mount Escape", result: "Lost", delta: "-3%", time: "Yesterday" },
   { title: "Closed Guard", result: "Won", delta: "+4%", time: "Fri" },
 ];
 
+// PAST ROLLS are what the Last rolls tab actually lists: one row per finished roll, named
+// by where it started and where it ended, with the state count and the outcome. Roll history
+// is in-memory in production and has never survived a reload.
+export const pastRolls = [
+  {
+    from: "Deep Half Guard",
+    to: "Back Control",
+    states: 7,
+    outcome: "won",
+    ago: "2m ago",
+  },
+  {
+    from: "Closed Guard",
+    to: "Game over",
+    states: 5,
+    outcome: "tapped",
+    ago: "18m ago",
+  },
+  {
+    from: "Standing",
+    to: "Half Guard",
+    states: 4,
+    outcome: "reset",
+    ago: "Yesterday",
+  },
+];
+
+// EVERY LIST SURFACE RENDERS THE FULL AUTHORED NAME. 648 of 1467 nodes carry a
+// `from <position>` qualifier and 89 short names are shared — "Kimura" is 35 different
+// techniques — so the qualifier IS the disambiguator and dropping it destroys the point
+// of sharing a class at all.
+export const listItems = [
+  { main: "Waiter Sweep", from: "Deep Half Guard" },
+  { main: "Kimura", from: "Side Control / Top" },
+  { main: "Knee Slice Pass", from: "Half Guard / Top" },
+  { main: "Back Take", from: "Deep Half Guard" },
+  { main: "Rear Naked Choke", from: "Back Control" },
+];
+
+export const classLists = [
+  {
+    id: "l-tue",
+    name: "Tuesday class · deep half",
+    items: listItems.slice(0, 4),
+    when: "2m ago",
+  },
+  {
+    id: "l-comp",
+    name: "Comp prep · back attacks",
+    items: listItems.slice(3),
+    when: "Fri",
+  },
+];
+
+// The recipient half: what a `/l/<code>` arrival offers, before anything is adopted.
+export const sharedClass = {
+  code: "AgQHCwIF",
+  from: "your coach",
+  items: listItems,
+};
+
+// GI-ONLY MATERIAL, used only by frames that pass a ruleset — so no existing screen moves.
+// v1.53.0 made gi/no-gi the first real divergence in CONTENT, not just in votes.
+export const giTechniques = [
+  {
+    name: "Cross Collar Choke",
+    eyebrow: "Submission",
+    path: "Deep Half Guard → Game over",
+    odds: 29,
+    gi: true,
+  },
+  {
+    name: "Lapel Sweep",
+    eyebrow: "Sweep",
+    path: "Deep Half Guard → Top Half",
+    odds: 44,
+    gi: true,
+  },
+];
+
+// The belt corridor: one continuous woven belt, white through black, lessons hanging off it.
+export const corridorBelts = [
+  { id: "white", name: "White belt", done: 6, total: 6, color: "#d7dce7" },
+  { id: "blue", name: "Blue belt", done: 3, total: 8, color: "#7398df" },
+  { id: "purple", name: "Purple belt", done: 0, total: 6, color: "#9274bd" },
+  { id: "brown", name: "Brown belt", done: 0, total: 6, color: "#9c745b" },
+  { id: "black", name: "Black belt", done: 0, total: 6, color: "#6d7380" },
+];
+
+export const corridorLessons = [
+  { title: "Deep Half Guard", cat: "position", crown: 3, done: true },
+  { title: "Waiter Sweep from Deep Half", cat: "transition", crown: 2, done: true },
+  { title: "Back Take from Deep Half", cat: "transition", crown: 1, done: false },
+  { title: "Rear Naked Choke from Back", cat: "submission", crown: 0, done: false },
+];
+
+// NB the catalog is a DESIGN mock, not a mirror of renderSettings, and nothing gates the two
+// against each other — so a retired row survives here until someone deletes it by hand. Two were
+// found doing exactly that: "Study order" (the app's `studyOrder`, deleted v1.105.0 — due-first is
+// behaviour, not a preference) and "Option ordering" (`cardOrder`, retired v1.122.0 — it ranked
+// the hand by one quantity while every card printed another).
 export const settings = {
   Flashcards: [
     "Daily goal",
     "Answer mode",
-    "Study order",
     "Focus",
     "Show flashcards on pages",
   ],
@@ -257,7 +506,6 @@ export const settings = {
     "Questions while you roll",
     "Sound",
     "Sound volume",
-    "Option ordering",
   ],
   Modifiers: ["Athleticism", "Experience", "Ruleset", "Round length"],
   Shortcuts: [
@@ -268,26 +516,17 @@ export const settings = {
   ],
 };
 
-export const tutorialSteps = [
-  "Choose a technique from your hand",
-  "Answer the landing question",
-  "Open a technique sheet",
-  "Commit to the sweep",
-  "Survive a defense turn",
-  "Finish your first roll",
-];
-
 export const categoryNotes = {
   Primitives: "Atomic controls and identity surfaces shared across all states.",
   HUD: "Persistent game information that should never compete with the active decision.",
   Graph: "The spatial state-machine canvas and its node language.",
   Decisions:
     "Choice, question, odds, timing, and detail surfaces used during a roll.",
-  Learning: "Flashcard, lesson, history, and progress components.",
+  Learning: "Flashcard, lesson, history, challenge, and progress components.",
   Progress:
     "One-score belt, proof stripe, crown, category, and technique mastery projections.",
-  Explorer: "Search, path, tree, and rich node dossier surfaces.",
-  Overlays: "Modal, coach, tutorial, and defensive interruption layers.",
+  Explorer: "Search, challenges, collection, and rich node dossier surfaces.",
+  Overlays: "Modal, coach, challenge cue, and defensive interruption layers.",
   Feedback: "Outcome, combo, verdict, and system communication.",
   "Pane compositions":
     "Independent left and right rails, including simultaneous pressure states.",
@@ -295,4 +534,6 @@ export const categoryNotes = {
     "Reset hygiene, game-over boundaries, pane persistence, and rematch readiness.",
   "Progress & mastery":
     "Belt, stripe, crown, unit, checkpoint, category, and technique progress states.",
+  "Challenges & collection":
+    "Open content tracks, action evidence, scarce patches, and non-spendable Mat Coins.",
 };

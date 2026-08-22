@@ -21,31 +21,31 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Backside 50-50",
-      "text": "From this position, attempt Toe Hold from Backside 50-50. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Backside 50-50. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Pass",
-      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from 50-50",
-      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
@@ -428,9 +428,9 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 68% |
+| Advancement Probability | 66% |
+| Submission Probability | 56% |
 
 **Average Time in Position**: 45-90 seconds before advancement or submission attempt
 

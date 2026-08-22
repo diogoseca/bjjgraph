@@ -21,37 +21,37 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Outside Ashi to Inside Ashi",
+      "text": "From this position, attempt Outside Ashi to Inside Ashi. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Setup",
-      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Outside to Ushiro Ashi",
+      "text": "From this position, attempt Outside to Ushiro Ashi. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi to Inside Ashi",
-      "text": "From this position, attempt Outside Ashi to Inside Ashi. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Outside Ashi",
+      "text": "From this position, attempt Saddle Entry from Outside Ashi. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -400,9 +400,9 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 62% |
-| Submission Probability | 42% |
+| Retention Rate | 42% |
+| Advancement Probability | 48% |
+| Submission Probability | 18% |
 
 **Average Time in Position**: 15-30 seconds (immediate escape required)
 

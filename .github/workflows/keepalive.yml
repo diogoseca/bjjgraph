@@ -32,8 +32,12 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           
-          # Check if there are changes
-          if git diff --quiet .github/keepalive.txt; then
+          # `git diff --quiet <path>` compares the INDEX to the worktree and reports nothing for an
+          # UNTRACKED file — so on the very first run (and on any run after the file is removed)
+          # this took the "no changes" branch and the workflow has never actually committed,
+          # i.e. the anti-auto-disable keepalive has never kept anything alive. `git status
+          # --porcelain` is the form that reports untracked paths.
+          if [ -z "$(git status --porcelain .github/keepalive.txt)" ]; then
             echo "No changes needed - repository is already active"
           else
             # Commit and push the keepalive file

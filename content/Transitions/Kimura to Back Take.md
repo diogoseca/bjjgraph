@@ -113,7 +113,7 @@ The grip control established in the Kimura position provides exceptional leverag
 
 Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways. The transition creates a classic dilemma: defend the shoulder lock and expose the back, or protect the back and risk the submission finish. This forced choice is what makes the Kimura to Back Take one of the most reliable positional advancement tools in the modern grappling arsenal.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 42%
 
 </section>

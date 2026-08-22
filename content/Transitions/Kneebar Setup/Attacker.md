@@ -16,7 +16,7 @@ description: "How to execute Kneebar Setup in BJJ. Attacking perspective with se
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kneebar Setup in BJJ",
-  "description": "Step-by-step guide for executing Kneebar Setup from Outside Ashi-Garami/Top.",
+  "description": "Step-by-step guide for executing Kneebar Setup from Outside Ashi-Garami/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -232,7 +232,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 

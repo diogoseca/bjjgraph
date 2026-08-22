@@ -71,7 +71,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
       "name": "What is the primary mechanical advantage that the berimbolo creates over traditional sweeping mechanics?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The berimbolo creates a rotational angle of attack that bypasses conventional passing defenses by positioning the practitioner underneath and behind the opponent. Unlike traditional sweeps that attempt to off-balance the opponent laterally or forward, the berimbolo uses inversion to access the back from an angle that is extremely difficult to defend once the rotation is initiated. This three-dimensional movement exploits the opponent's natural inability to maintain base while someone rotates underneath their center of gravity."
+        "text": "The berimbolo creates a rotational angle of attack that positions you underneath and behind the opponent, bypassing conventional passing defenses. Unlike traditional sweeps that attempt to off-balance the opponent laterally or forward, the berimbolo uses inversion to access the back from an angle that is extremely difficult to defend once the rotation is initiated. This three-dimensional movement exploits the opponent's natural inability to maintain base while someone rotates underneath their center of gravity."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
       "name": "Why must seatbelt control be established immediately upon completing the rotation, and what happens if this step is delayed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Establishing seatbelt control immediately upon emerging behind the opponent is critical because there is a brief window where the opponent is still reacting to the rotation and hasn't yet organized their defense of back control. Delayed grip establishment allows the opponent to turn into you, escape to turtle position, or initiate a scramble before you secure dominant positioning. The berimbolo rotation and seatbelt grip should be trained as one continuous movement - the hands should be reaching for upper body control the instant the chest reaches the opponent's back, not as a separate subsequent step."
+        "text": "Seatbelt control must be secured the instant you emerge behind the opponent, before they can organize their defense of back control. This brief window exists because the opponent is still reacting to the rotation. Delayed grip establishment allows the opponent to turn into you, escape to turtle position, or initiate a scramble before you secure dominant positioning. The berimbolo rotation and seatbelt grip should be trained as one continuous movement — the hands should be reaching for upper body control the instant the chest reaches the opponent's back, not as a separate subsequent step."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
       "name": "How does head position during the inversion affect the success and safety of the berimbolo entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Proper head position - tucked close to the mat and rolling over the shoulders rather than the top of the head - is essential for both successful rotation mechanics and injury prevention. Keeping the head close to the mat lowers the center of gravity, improves balance during the inversion, and increases rotational speed by creating a smaller radius of rotation. Lifting the head or attempting to maintain visual contact with the opponent during the spin raises the center of gravity, slows the rotation, and can result in falling to your back mid-movement. Additionally, improper head position places dangerous pressure on the cervical spine and increases risk of neck injury."
+        "text": "The head must stay tucked close to the mat, rolling over the shoulders rather than the top of the head, for both rotation mechanics and injury prevention. Keeping the head close to the mat lowers the center of gravity, improves balance during the inversion, and increases rotational speed by creating a smaller radius of rotation. Lifting the head or attempting to maintain visual contact with the opponent during the spin raises the center of gravity, slows the rotation, and can result in falling to your back mid-movement. Additionally, improper head position places dangerous pressure on the cervical spine and increases risk of neck injury."
       }
     }
   ]

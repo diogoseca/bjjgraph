@@ -85,7 +85,7 @@ description: "Learn to execute the inversion from reverse half guard. Step-by-st
       "name": "Your opponent maintains heavy crossface pressure—should you still attempt the inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure."
+        "text": "No — heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure."
       }
     },
     {

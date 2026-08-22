@@ -89,7 +89,7 @@ description: "How to execute Armbar from Mount in BJJ. Attacking perspective wit
       "name": "What are the three most important control points during the armbar transition from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The three most critical control points are: (1) Two-handed wrist control - both hands gripping the wrist prevents arm escape during the transition; (2) Chest pinning of the captured arm - keeping their tricep tight to your chest eliminates the hitchhiker escape; (3) Knee squeeze on opponent's head - clamping knees together prevents them from turning into you and escaping. Losing control of any of these three points significantly reduces success probability and may result in losing position entirely."
+        "text": "The three key control points are two-handed wrist control, pinning their tricep to your chest, and squeezing your knees on their head. Two hands on the wrist prevent the arm from escaping during the transition; keeping the tricep glued to your chest eliminates the hitchhiker escape; and clamping your knees together stops them from turning into you. Losing any one of these three points significantly reduces success probability and may cost you the position entirely."
       }
     },
     {
@@ -113,7 +113,7 @@ description: "How to execute Armbar from Mount in BJJ. Attacking perspective wit
       "name": "What should you do immediately when your partner taps to an armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately upon feeling or hearing the tap: (1) Lower your hips to the mat to remove all hyperextension pressure, (2) Open your legs to release control of their head/shoulder, (3) Release your grip on their wrist/arm completely, (4) Allow them to safely retract their arm, (5) Verbally check that they are okay before continuing training. Never hold a submission after a tap, even for a moment. The tap is an absolute signal to release immediately, as joints can be damaged very quickly once someone taps."
+        "text": "The instant they tap, lower your hips and release all pressure and grips so they can safely retract their arm. In order: lower your hips to the mat to remove hyperextension pressure, open your legs to release their head and shoulder, release your grip on the wrist and arm completely, let them retract the arm, and verbally check they are okay before continuing training. Never hold a submission after a tap, even for a moment — the tap is an absolute signal to release immediately, because joints can be damaged very quickly once someone taps."
       }
     }
   ]

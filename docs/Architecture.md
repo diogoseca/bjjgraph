@@ -78,6 +78,16 @@ Positions/
 
 See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
 
+**SHIPPED (v1.125.0):** the visual hub-collapse is gone from the DEFAULT view. Every dual state
+renders as TWO adjacent nodes (Top/Bottom, Attacker/Defender) on an isometric ground plane, and
+`?dual=legacy` is the escape hatch back to one node per site. **No file on the wire changed** —
+`graph-data.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched, because both
+roles were already in the data model and the split is derived at ingest (`_deriveDualPairs`). The
+rep member IS the hub node, so hub ids, share ordinals and page URLs are unaffected; only the
+partner mints an id. Details and measurements: CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
+DERIVED AT INGEST". The design questions behind it — and the cutover plan that was superseded by
+being unnecessary — live in [DualPairMigration.md](DualPairMigration.md).
+
 ---
 
 ## Transition & Submission "Playing As" Model
@@ -163,20 +173,25 @@ production game runtime:
   dossier, overlay, feedback, and progression components with state variants.
 - `/dev/screens/` composes those building blocks into deterministic gameplay states from boot
   through roll end, plus independent left/right/both-pane layouts, restart hygiene, terminal
-  states, belt/mastery progress, study, explorer, settings, onboarding, and responsive stress
-  cases.
+  states, Game Knowledge, Challenges, Collection, study, explorer, settings, onboarding, and
+  responsive stress cases.
 - `/dev/use-cases/` composes screens into timestamped animation, notification, and interaction
   timelines. Each important gameplay motion family and notification has an inspectable static
   timepoint, while focused playback advances through the same frames at 0.5x, 1x, or 2x.
 - `/dev/user-journeys/` composes use cases into configurable end-to-end chapters. The shipped
-  journeys cover a first roll, study-to-belt proof, defeat-and-recovery, and an advanced momentum
-  run.
-- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys. The dashed
-  use-case and user-journey routes are canonical; undashed spellings redirect for compatibility.
+  journeys cover a first roll, Challenge progression, defeat-and-recovery, an advanced momentum
+  run, and Collection acknowledgements.
+- `/dev/sounds/` is a separate production-audio tool. It documents and previews the default
+  Neural runtime's canonical electrical/space cue catalog in each real gameplay context; it is
+  not a fifth composition layer.
+- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys, plus the
+  separate Neural Sound Lab. The dashed use-case and user-journey routes are canonical; undashed
+  spellings redirect for compatibility.
 - All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
-- All four libraries use the same persistent catalog rail. Desktop keeps the full list visible;
-  constrained viewports move that list into a focus-managed drawer with Escape/backdrop close
-  behavior. Item dropdowns are not used as a substitute for browsing the library.
+- All five development routes share navigation and use the same persistent catalog-rail behavior.
+  Desktop keeps the full list visible; constrained viewports move that list into a focus-managed
+  drawer with Escape/backdrop close behavior. Item dropdowns are not used as a substitute for
+  browsing a library or sound group.
 - Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
   containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
   the URL hash.
@@ -203,14 +218,19 @@ production game runtime:
   example, `dossierSheetRef`) instead of invented CSS selectors. `build_forward_components.mjs`
   rejects duplicate IDs, incomplete provenance, and missing source files before publishing
   `/dev/`.
+- `neural/src/sound.src.js` is the single source for both the production `NGSound` engine and
+  `NG_SOUND_CATALOG`. The Forward build evaluates that source in an isolated VM, rejects missing
+  metadata, duplicate beats, invalid durations, missing required outcome cues, or an absent
+  engine, then writes `sounds/sound-engine.js` and `sounds/sound-catalog.json`.
 - Forward derives the base `.ng-*` motion and responsive rules from `neural/src/helmet.html` at
   build time, then applies frame-scoped catalog layout rules. Renderers mirror the persistent
   shell in `neural/src/xdc-template.html` and the dynamic structures in
-  `neural/src/app.src.jsx`, including Explorer TREE/PATH, Belt Path, Flashcards, Settings,
-  dossiers, option detail, landing questions, defense, momentum, and center events.
-- Progress is shown through the production PATH, Flashcards, and event surfaces; there is no
-  invented standalone Progress pane. Restart previews model the immediate center event and engine
-  cleanup, not a confirmation dialog.
+  `neural/src/app.src.jsx`, including Explore, Challenges, Collection, Game Knowledge, Flashcards,
+  Settings, dossiers, option detail, landing questions, defense, momentum, and center events.
+- Game Knowledge is the only mastery score. Challenge tracks label content difficulty and remain
+  open independently of that score; the catalog does not restore the retired Belt Path or content
+  locks. Restart previews model the immediate center event and engine cleanup, not a confirmation
+  dialog.
 
 `npm run build:forward` copies the artifact into `source/public/dev/`. The normal
 `npm run build` command runs this after Quartz so the routes survive the output-directory reset.
@@ -218,6 +238,52 @@ The dev and production deployment workflows also invoke `build:forward` explicit
 call Quartz directly. Deployments run the `@curated` Playwright gate; the complete core suite is
 built once and sharded across four runners for pull requests targeting `main`, weekly confidence
 runs, and manual dispatches.
+
+### Neural Challenges and Rewards
+
+Neural has two independent progression axes:
+
+| Axis | Meaning | Can gate gameplay? |
+| --- | --- | --- |
+| **Game Knowledge** | Frequency-weighted recall mastery across the graph | No |
+| **Challenges** | Evidence that a player performed useful actions or completed study goals | No |
+
+Explore, Challenges, and Collection are peer left-pane views. Game Knowledge remains visible above
+all three. The five Challenge tracks label content difficulty (White through Black) and are all
+selectable from a fresh profile. Track names do not claim or award real-world rank.
+
+Challenge definitions are declarative in `neural/src/challenge-definitions.src.js`; pure matching,
+progress, reward, migration, reset, and merge helpers live in `challenge-engine.src.js`. The
+imperative pane composition is in `challenge-ui.src.js`, and pinned-cue/reward feedback is in
+`challenge-feedback.src.js`. `neural/build/build.mjs` composes these modules after the main class.
+
+#### Evidence and access rules
+
+- `fx()` sends existing gameplay beats through Challenge matching.
+- Snapshot reconciliation covers historical lesson, checkpoint, recall, mastery, and capstone
+  evidence without replaying historical feedback.
+- Lessons are open across all tracks. A checkpoint requires the selected unit's lesson evidence.
+- Optional content capstones require the selected track's checkpoints. They record proof and never
+  open or close other tracks.
+- Patches acknowledge meaningful milestones. Mat Coins are mint-once jokes with no balance,
+  spending, exchange, or gameplay effect.
+- Guest progress is local; offline completions remain local and sync when connectivity returns.
+
+#### v2 persistence and cloud reconciliation
+
+The existing Neural v2 blob adds:
+
+```text
+challenges: { [id]: { progress, done, t } }
+badges:     { [id]: { t } }
+coins:      { [id]: { t, context? } }
+```
+
+Challenge progress merges by **MAX**, completion by **OR**, and badges/coins by **UNION**. Settings
+continue to use per-key timestamp last-write-wins. A fresh device pulls before its first push.
+Legacy `tut.done` migrates into the 20 White objectives, while `path`/`tree` view preferences map to
+`challenges`/`explore`. Compatibility identifiers remain internal and must not reintroduce the
+retired Tutorial or content-lock UI.
 
 ### Key Configuration
 
@@ -238,27 +304,179 @@ const config: QuartzConfig = {
 ### Layout Zones
 
 ```typescript
-// quartz.layout.ts
+// quartz.layout.ts — post-excision (v1.80.0). The page is SEO/crawler surface; the app is Neural.
+export const sharedPageComponents: SharedLayout = {
+  head: Component.Head(),
+  header: [],
+  afterBody: [
+    Component.AuthUI(), // load-bearing: installs the window.__bjjAuth seam
+    Component.Search(),
+    Component.NeuralMount(), // boots the Neural app bundle
+    Component.SnapshotButton(), // localhost-only dev camera
+  ],
+  footer: Component.Footer({ links: {} }),
+};
+
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    ...breadcrumbs, // gated on SHOW_BREADCRUMBS
     Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ContentMeta({ showReadingTime: false }),
   ],
-  left: [
-    Component.PageTitle(),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer(),
-  ],
-  right: [
-    Component.Graph(),
-    Component.TableOfContents(),
-    Component.Backlinks(),
-  ],
+  left: [Component.DesktopOnly(Component.CategoryNav())],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 };
 ```
+
+The v1.80.0 legacy excision deleted the whole legacy page UI — `VictoryDisplay`, `TreeExplorer`,
+`TreeDrawer`, `MoveCards`, `OutcomeCards`, `SystemProgress`, `Flashcard`, the `Graph` /
+`BackgroundGraph` PixiJS components, the training strip + its two modals, `TopBar`, `ContentPanel`
+and `?variant=legacy` itself. Do not restore them from an older revision of this document: four
+components in `afterBody` is the whole always-on surface, and gameplay, training and the graph all
+live in the Neural bundle (`neural/src/`). `e2e/journeys/legacy-gone.spec.ts` is the gate.
+
+**Registration is the only reachability rail.** Quartz's `ComponentResources` emitter collects CSS
+and JS exclusively from the components a layout (or an emitter) actually registers, so an
+unregistered component contributes zero emitted bytes. v1.79.2 pruned the upstream components this
+fork never registered — Explorer/ExplorerNode, Darkmode, Backlinks, RecentNotes, Comments (giscus),
+PageTitle, TagList, Spacer, MobileOnly, NotDesktop — plus the unregistered transformers
+(Citations, Latex, HardLineBreaks, OxHugoFlavouredMarkdown, RoamFlavoredMarkdown), the CNAME
+emitter, the ExplicitPublish filter, 20 unused i18n locales, and the vendored upstream
+`source/docs/`. `scripts/check_build_fingerprint.py` is the proof: it compares the emitted file
+manifest and the index.css / prescript.js / postscript.js hashes against a pre-prune baseline in
+`tests/artifacts/build_fingerprint.json`. Run it in default mode after any such refactor (never
+`--strict` — `CreatedModifiedDate` makes HTML bodies differ between checkouts).
+
+**Two confounders make a stored baseline non-portable between checkouts.** Compare it against a
+baseline captured in the SAME checkout, or the gate reports failures it did not cause:
+
+- `source/quartz/static/neural/` is gitignored generated output, and the `Static` emitter copies
+  that tree wholesale. A checkout that has never run `regenerate:neural` emits ~2,932 fewer files
+  than one that has — nothing to do with the change under test.
+- `index.xml` is the "last 10 notes" RSS feed, and `generateRSSFeed` sorts by `modified` date. Every
+  `content/*.md` path is passed to git as `../content/...` relative to `source/`, which git cannot
+  resolve, so every page falls through to filesystem mtime. A fresh checkout stamps all 4,618 files
+  within the same millisecond, so the feed's membership is decided by sub-millisecond write order.
+  `index.xml` is therefore mtime-derived in exactly the way the gate exempts HTML bodies for, but
+  its size IS compared.
+
+The portable protocol, used to clear v1.79.2: build the pre-change tree and the post-change tree in
+the same checkout and diff the two manifests directly. Both produced 6,240 files with zero
+additions, zero removals, zero size differences across all 6,192 HTML pages, and byte-identical
+`index.css` (103,198 B), `prescript.js` (3,194 B) and `postscript.js` (1,457,060 B).
+
+---
+
+## Neural Data Delivery (v1.80.4)
+
+The app's data is generated by `scripts/regenerate_neural_data.py` into `source/quartz/static/neural/`
+(gitignored; CI regenerates it, the `Static` emitter copies it). Until v1.80.4 a first visit pulled
+**39.3MB raw / 10.1MB gzip** of it before a move was possible — the direct cause of a real-user LCP
+P75 of 13,764ms with 80% Poor while CLS sat at 0.017/100% Good. It is now **2.4MB / 355KB**.
+
+| file | role | fetched |
+|---|---|---|
+| `graph-data.json` | the state machine the game runs on | boot |
+| `flashcards/_index.json` | deck manifest: `{"<Name>\|<Role>": [cat, n]}` + `shared` (see below) | boot |
+| `flashcards/<fnv1a32(deckKey)>.json` | `{deckKey: {cat, role, cards}}` — one deck | on demand |
+| `content/<fnv1a32(key)>.json` | `{key: dossier}` — one node's dossier (`window.NG_CONTENT` is the cache) | on demand |
+| `curriculum.json` | belts/units/lessons + `weights` (what `gameScore` sums) | boot |
+| `systems.json` | the authored course library | first read |
+
+Two payloads were **deleted**, not shrunk: `flashcards.json` (16.4MB, every card of all 2,924
+decks) and `technique-content.js` (21.2MB, `window.NG_CONTENT` for every node, loaded as a
+`<script>` by `variant.inline.ts`). Nothing emits or reads a monolith any more — tooling that
+needs the whole corpus assembles it from the chunks through `scripts/_neural_decks.py` (the
+exhaustive `validate:mc` audit, `_curriculum.py`, `draft_curriculum.py`, `regen_mc_answers.py`) or
+`e2e/decks.ts` (Playwright). The generator deletes a stale monolith if it finds one, because the
+output dir is gitignored and an old copy would keep failing the payload gate.
+
+**Chunk addressing is derived, not stored.** `fnv1a32(key)` (FNV-1a over UTF-16 code units) is the
+app's own `qhash()`, ported byte-identically in `scripts/_neural_content.fnv1a32`. That removed
+~110KB of filenames from the manifest — the key already names the deck — and removed the slug
+collision bookkeeping with it: a chunk holds a `{key: value}` map, so a hash collision means two
+entries share a file and both still resolve.
+
+**Residency is a timeline, and three things depend on it being handled honestly:**
+
+1. **The belt must not move.** `deckMastery` computes `Σ min(stage,3)/3 ÷ n` from the persisted
+   grades when a deck's cards are absent — identical arithmetic to the resident branch, because an
+   ungraded card contributes 0 either way. `n` comes from the manifest. Without this a manifest
+   boot reads every deck at 0 and `gameScore` (memoised on `_stageVer`) reports a white belt for
+   the session. `_bumpStageVer()` is the single writer of `_stageVer`, shared by grades and
+   hydration.
+2. **Snapshots must be refreshed.** `_cardsOf(d)` returns a live reference but `_entryForKey`
+   `.slice()`s it, so an open study surface holds a copy: `_onDeckHydrated` and
+   `_restudy(key)` rebuild the entry, and `onFlashcardsReady` no longer calls `buildDrillPanel`
+   while `_paneStudyActive()` (it resets `deck`/`_drillView`, which wiped an open deck when a
+   chunk landed). `_qkDecks` is invalidated on every hydration.
+3. **The RNG stream must not depend on the network.** See `_warmMcPool` in
+   `neural/src/app.src.jsx`: MC distractor pooling consults up to three tiers (authored, own deck,
+   graph neighbours, then a bounded walk over every deck), so whether a chunk had arrived would
+   decide how many draws happen. It is made a precondition instead — a dry pass inside an RNG
+   transaction (`_rngBegin`/`_rngRollback`), hydrate what it asked for, repeat, then draw for real.
+   An unwarmed consult emits an `mc_pool_cold` beat.
+
+**Four rules the lazy path must not break (v1.80.5, all covered by
+`tests/neural_residency_contract.test.mjs`):**
+
+- **The warm pass is lazy, and it aborts at the first cold deck.** It used to pre-fetch the
+  landing deck *and every graph neighbour* before its first dry pass — an unbounded fan-out paid on
+  every landing for a pool 85.5% of cards never consult. The dry pass names what it actually
+  reached (`_mcCold` records it and throws), so a card with authored distractors costs zero
+  fetches, and the global tier's walk over 2,924 keys can no longer become dozens of them.
+- **A failed chunk is a condition, not a verdict.** `hydrateDeck` never caches a failure as
+  success: the stub survives, `n` keeps its authority, `deck_fetch_failed` fires, and the next
+  reader retries (3 consecutive failures → 20s cooldown). `deckStatus(key)` distinguishes
+  `pending` / `loading` / `failed` / `empty` / `ready` / `missing`, and the surfaces say which.
+- **Credit is residency-independent.** The manifest ships `shared`: `fnv1a32(question)` → deck
+  indexes, for every question carried by 2+ decks (451 of 21,334 — 10.6KB raw / 4.3KB gzip). The
+  blended hierarchy's cross-deck credit (`noteCardDone` → `_sharedDecksFor`) therefore pays the
+  same however the chunks happen to have landed. The old resident-scan (`_qkDecks`) remains only
+  as the fallback for a boot with no index.
+- **Counts come from `n`.** Every deck row reads `_deckCountLabel(key)`; `_histRow`,
+  `updateDrillTab` and the landing chip read `_deckCardCount`. A cold visitor is shown the real
+  size of the corpus, not the size of their download. `_pruneStaleGrades` drops grades for
+  questions a landed chunk does not carry (guarded on `cards.length === n`), so the two branches of
+  `deckMastery` converge on one definition instead of disagreeing about retired cards.
+
+## Gameplay Audio & Terminal Effects
+
+Gameplay audio is synthesized at runtime with the Web Audio API; there are no downloaded sound
+files or audio dependencies. There is ONE engine: `neural/src/sound.src.js` (`NGSound`), which
+owns both the runtime and the canonical cue catalog `NG_SOUND_CATALOG`.
+
+| Concern           | Neural runtime                                             |
+| ----------------- | ---------------------------------------------------------- |
+| Sound engine      | `neural/src/sound.src.js` (`NGSound`)                      |
+| Catalog           | `NG_SOUND_CATALOG`, in the same production source          |
+| User control      | Neural `sound` and `soundVolume` settings                  |
+| Persistence       | Neural progress/settings blob                              |
+| Browser lifecycle | Lazy gesture-unlocked context; destroyed on app teardown   |
+| Output safety     | Compressor, six-voice cap, 40ms spacing, 100ms beat dedupe |
+
+The legacy Quartz variant had a second engine (`scripts/gameAudio.ts`, `GAME_SOUND_CATALOG`, gated
+on `BJJSettings.soundEnabled`). It was **deleted in v1.80.0** along with the rest of the legacy
+front-end — do not reintroduce a second catalog of default-runtime sounds.
+
+The default cue language is contextual rather than arcade-like: filtered current and spatial scans
+support ordinary decisions; correct moves and recall proof connect like synapses; opponent turns
+and defense use radar and shield fields; checkpoints, stripes, and belt progression use
+progressively richer constellations. Victory gets a full star-jump fanfare, while defeat uses a
+long reactor shutdown with a recoverable final harmonic. Interface cues remain near the noise
+floor, and unmapped routine beats remain silent.
+
+Neural test mode never creates an `AudioContext`; it logs the selected patch and volume to
+`soundLog`, and all synthesis variation uses deterministic `app.rng("sfx")`. The production
+context initializes only after a user gesture and closes on SPA teardown. The legacy daily-goal
+cue is claimed once per local day through `DailyProgress.goalCelebrated`; disabling legacy sound
+closes its context immediately. Browsers without Web Audio degrade without blocking gameplay.
+
+`/dev/sounds/` is a noindex Forward developer tool in `forward/sounds/`. It loads a build-copied
+version of the production Neural engine, documents every catalog cue's beat, trigger, duration,
+and sonic character, and offers isolated volume-controlled previews and a stop control. It is
+source-controlled under `forward/` because `build:forward` deliberately replaces
+`source/public/dev` after Quartz; a Quartz emitter at that path would be deleted.
 
 ---
 

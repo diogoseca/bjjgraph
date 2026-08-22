@@ -97,44 +97,12 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   expect(await page.evaluate(() => !(window as any).__neural._vignetteEl)).toBe(true)
 })
 
-test("guided first roll: 3 coach beats in order, clock frozen until dismissed", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/") // fresh localStorage — coach must fire
-  await j.land("Mount Top", { keepCoach: true })
-
-  const beats = (await j.beats()).map((b) => b.beat)
-  expect(beats).toContain("coach_1")
-  await j.keyframe("p2-coach-1")
-
-  // clock frozen while the coach is up
-  const r0 = await page.evaluate(() => (window as any).__neural.decisionRemaining())
-  await j.advance(3000)
-  const r1 = await page.evaluate(() => (window as any).__neural.decisionRemaining())
-  expect(Math.abs(r1 - r0)).toBeLessThan(0.5)
-
-  // step through the coach; beats arrive in order
-  await page.evaluate(() => (window as any).__neural.advanceCoach())
-  await page.evaluate(() => (window as any).__neural.advanceCoach())
-  await page.evaluate(() => (window as any).__neural.advanceCoach())
-  const all = (await j.beats()).map((b) => b.beat)
-  const i1 = all.indexOf("coach_1"), i2 = all.indexOf("coach_2"), i3 = all.indexOf("coach_3"), id = all.indexOf("coach_done")
-  expect(i1).toBeGreaterThanOrEqual(0)
-  expect(i2).toBeGreaterThan(i1)
-  expect(i3).toBeGreaterThan(i2)
-  expect(id).toBeGreaterThan(i3)
-
-  // clock runs after dismissal
-  const r2 = await page.evaluate(() => (window as any).__neural.decisionRemaining())
-  await j.advance(2000)
-  const r3 = await page.evaluate(() => (window as any).__neural.decisionRemaining())
-  expect(r2 - r3).toBeGreaterThanOrEqual(1.5)
-
-  // once coached, never again: the guard holds in-session AND persists to localStorage
-  await page.evaluate(() => (window as any).__neural.maybeStartCoach())
-  const again = (await j.beats()).map((b) => b.beat)
-  expect(again.filter((b) => b === "coach_1").length).toBe(1)
-  expect(await page.evaluate(() => localStorage.getItem("bjj-neural-coached"))).toBe("1")
-})
+// DELETED WITH ITS SUBJECT (v1.104.0): "guided first roll: 3 coach beats in order, clock frozen
+// until dismissed". The 3-panel first-roll coach is gone (owner). Its one durable claim — that
+// the decision clock really was frozen behind it — was measured true on the way out
+// (13,800ms unchanged over 12 simulated seconds, all .ngbar countdowns paused, no auto-pick).
+// The SAME freeze still guards the checkpoint quiz and is pinned by
+// e2e/gen/mid-checkpoint-quiz-untimed.spec.ts, so the rule itself is not untested.
 
 test("film study: watchShort fires the beat; player onError falls back without crashing", async ({ page }) => {
   const j = journey(page)

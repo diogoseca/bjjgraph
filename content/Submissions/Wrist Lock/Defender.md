@@ -79,7 +79,7 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
       "name": "How can changing the shape of your hand disrupt a developing wrist lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Splaying your fingers and gripping disperses the flat palm pin the attacker needs, preventing the wrist from folding as a single rigid unit and buying time to bend the elbow and retract the arm."
+        "text": "Splaying your fingers and gripping disperses the flat palm pin, so the wrist cannot fold as a single rigid unit. Breaking up that pin buys time to bend the elbow and retract the arm before the lock develops."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
       "name": "If your hand is genuinely pinned and the wrist is folded to end range, what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap early. No grip, posture, or position is worth a wrist sprain or fracture from a joint with so little margin. Tap with the free hand, foot, or voice, and reset rather than fighting a sealed lock."
+        "text": "Tap early — no grip, posture, or position is worth a wrist sprain or fracture from a joint with so little margin. Tap with the free hand, foot, or voice, and reset rather than fighting a sealed lock."
       }
     }
   ]

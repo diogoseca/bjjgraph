@@ -21,38 +21,32 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Outside Ashi-Garami",
-      "text": "From this position, attempt Outside Heel Hook from Outside Ashi-Garami. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Outside Ashi-Garami. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Outside Ashi",
-      "text": "From this position, attempt Saddle Entry from Outside Ashi. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Kneebar Setup",
+      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Setup",
-      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Counter Sweep from Outside Ashi",
+      "text": "From this position, attempt Counter Sweep from Outside Ashi. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -411,9 +405,9 @@ Start in established outside ashi garami, bottom player works to maintain positi
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 30-60 seconds before transition or escape
 

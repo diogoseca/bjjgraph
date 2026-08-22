@@ -77,7 +77,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
       "name": "What is the primary objective of pressure passing compared to speed passing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary objective of pressure passing is to use controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure, rather than trying to quickly bypass their legs. Pressure passing emphasizes control and methodical advancement over speed."
+        "text": "Pressure passing uses controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure. Unlike speed passing, it does not try to quickly bypass the legs; it emphasizes control and methodical advancement over speed."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
       "name": "Why is it important to keep your hips low during a pressure pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keeping your hips low during a pressure pass maximizes the amount of weight you can drive through your chest onto the opponent, making it harder for them to move their hips or create defensive frames. Low hips also improve your base and prevent the opponent from using your high posture to create space underneath."
+        "text": "Keeping your hips low maximizes the weight driven through your chest onto the opponent, making it harder for them to move their hips or build frames. Low hips also improve your base and prevent the opponent from exploiting high posture to create space underneath you."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
       "name": "What grip configuration do you need before initiating the pressure pass from combat base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need at least one controlling grip on the opponent's lower body, typically on their pants at the knee or their belt/hip area, to anchor their hips and prevent hip escape. The second hand should control the opposite knee or prepare for crossface/underhook establishment. In no-gi, wrist control on the near hand combined with an elbow-to-knee connection serves the same function of limiting hip mobility."
+        "text": "You need at least one controlling grip on the opponent's lower body — pants at the knee or the belt/hip area — to anchor their hips against hip escape. The second hand should control the opposite knee or prepare for crossface/underhook establishment. In no-gi, wrist control on the near hand combined with an elbow-to-knee connection serves the same function of limiting hip mobility."
       }
     }
   ]

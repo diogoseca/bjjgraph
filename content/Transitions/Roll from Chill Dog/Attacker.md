@@ -77,7 +77,7 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
       "name": "What is the optimal timing window for initiating the Roll from Chill Dog?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window occurs when the opponent shifts their weight backward, loosens their grips momentarily, or commits their pressure to one side while adjusting their attack. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat."
+        "text": "The optimal window is when the opponent shifts weight backward, momentarily loosens grips, or commits pressure to one side mid-adjustment. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
       "name": "Your opponent increases downward chest pressure as you prepare to roll - should you still attempt the technique?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Increased downward pressure means the opponent is settling their weight, which makes forward rolling extremely difficult because you cannot generate the upward lift needed to initiate rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment."
+        "text": "No — settling downward pressure kills the upward lift you need to initiate the forward roll's rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment."
       }
     },
     {

@@ -109,7 +109,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
       "name": "What immediate submission opportunities become available upon successfully establishing front headlock control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Primary submission opportunities include: guillotine choke by using existing head control to secure choking grip, anaconda choke by transitioning grip to trap their arm against their neck, darce choke with opposite side grip configuration threading under the far arm, and various neck crank submissions. The specific submission selected depends on opponent's defensive reactions, their body positioning, and which grips were established during the snap down."
+        "text": "Front headlock control immediately opens the guillotine, anaconda, and darce chokes, plus various neck cranks, depending on the opponent's reactions. The guillotine uses your existing head control to secure the choking grip, the anaconda transitions your grip to trap their arm against their neck, and the darce threads under the far arm with the opposite-side grip configuration. The specific submission selected depends on the opponent's defensive reactions, their body positioning, and which grips were established during the snap down."
       }
     },
     {

@@ -1,6 +1,15 @@
-import { access, cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import {
+  access,
+  copyFile,
+  cp,
+  mkdir,
+  readFile,
+  rm,
+  writeFile,
+} from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { runInNewContext } from "node:vm";
 
 import {
   framesFor,
@@ -98,6 +107,85 @@ await cp(source, output, {
   filter: (path) =>
     !path.endsWith(".DS_Store") && path !== resolve(source, "package.json"),
 });
+
+const soundSourcePath = resolve(root, "neural/src/sound.src.js");
+const soundSource = await readFile(soundSourcePath, "utf8");
+const soundSandbox = {};
+soundSandbox.globalThis = soundSandbox;
+runInNewContext(soundSource, soundSandbox, {
+  filename: "neural/src/sound.src.js",
+});
+const soundCatalog = soundSandbox.NG_SOUND_CATALOG;
+if (!Array.isArray(soundCatalog) || soundCatalog.length < 40) {
+  throw new Error(
+    "[forward] Neural sound catalog must expose at least 40 contextual cues",
+  );
+}
+if (typeof soundSandbox.NGSound !== "function") {
+  throw new Error("[forward] Neural sound source must expose NGSound");
+}
+const soundBeats = new Set();
+for (const cue of soundCatalog) {
+  for (const field of [
+    "beat",
+    "label",
+    "group",
+    "voice",
+    "context",
+    "character",
+  ]) {
+    if (typeof cue[field] !== "string" || !cue[field].trim()) {
+      throw new Error(
+        `[forward] Neural sound cue is missing ${field}: ${JSON.stringify(cue)}`,
+      );
+    }
+  }
+  if (!Number.isFinite(cue.durationMs) || cue.durationMs < 100) {
+    throw new Error(
+      `[forward] Neural sound cue has an invalid duration: ${cue.beat}`,
+    );
+  }
+  if (soundBeats.has(cue.beat)) {
+    throw new Error(
+      `[forward] Neural sound catalog has duplicate beat: ${cue.beat}`,
+    );
+  }
+  soundBeats.add(cue.beat);
+}
+for (const requiredBeat of [
+  "commit",
+  "defend_start",
+  "recall_proven",
+  "victory_cascade",
+  "defeat_drain",
+]) {
+  if (!soundBeats.has(requiredBeat)) {
+    throw new Error(
+      `[forward] Neural sound catalog is missing required beat: ${requiredBeat}`,
+    );
+  }
+}
+// The Experiments page shows the dual close-pair prototype's committed evidence PNGs. They live
+// once, in tests/artifacts/dualpair/ (beside the change log that produced them), and are copied
+// into the emitted page at build time — LOUDLY missing rather than silently absent, because a
+// /dev page whose images 404 reads as a broken build, not a decision aid.
+for (const shot of [
+  "iso-1-overview.png", "iso-2-mid.png", "iso-3-rollzoom.png",
+  "fixed-1-overview.png", "fixed-2-mid.png", "fixed-3-rollzoom.png",
+  "force-1-overview.png", "force-2-mid.png", "force-3-rollzoom.png",
+]) {
+  const src = resolve(root, "tests/artifacts/dualpair", shot);
+  try {
+    await copyFile(src, resolve(output, "experiments", shot));
+  } catch (e) {
+    throw new Error(`[forward] experiments page is missing its evidence image: ${src}`);
+  }
+}
+await copyFile(soundSourcePath, resolve(output, "sounds/sound-engine.js"));
+await writeFile(
+  resolve(output, "sounds/sound-catalog.json"),
+  `${JSON.stringify({ cues: soundCatalog }, null, 2)}\n`,
+);
 
 const helmet = await readFile(resolve(root, "neural/src/helmet.html"), "utf8");
 const productionStyles = helmet.match(/<style>([\s\S]*?)<\/style>/)?.[1];
@@ -287,5 +375,5 @@ await writeFile(
 );
 
 console.log(
-  `[forward] /dev hub and four libraries written (${entities.length} nodes, ${useCases.length} use cases, ${userJourneys.length} journeys, ${motionCount} motions)`,
+  `[forward] /dev hub, four libraries, and ${soundCatalog.length} production sounds written (${entities.length} nodes, ${useCases.length} use cases, ${userJourneys.length} journeys, ${motionCount} motions)`,
 );

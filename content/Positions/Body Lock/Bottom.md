@@ -21,37 +21,37 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Escape Body Lock",
+      "text": "From this position, attempt Escape Body Lock. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Pummeling Escape from Body Lock",
+      "text": "From this position, attempt Pummeling Escape from Body Lock. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

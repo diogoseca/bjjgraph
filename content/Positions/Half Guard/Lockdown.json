@@ -810,29 +810,29 @@
       {
         "transition": "Whip-up Sweep",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
@@ -840,13 +840,6 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
         }
       },
       {
@@ -866,8 +859,8 @@
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {

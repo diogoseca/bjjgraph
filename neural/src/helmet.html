@@ -8,23 +8,88 @@
   @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
   @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
   @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
-  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);scroll-padding:0 28px;}
+  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
-  .ng-optionrow > *{scroll-snap-align:center;}
   .ng-logo:hover span{color:#fff;}
   .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
   .ng-logo .ng-kbd span{color:inherit;}
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+  /* ngCardIn overrides `transform` outright, which silently drops the translateX(-50%) that
+     horizontally centres a left:50% overlay: the card enters half its own width to the right and
+     snaps into place when the animation ends. Anything centred that way needs this variant. */
+  @keyframes ngCardInX{from{opacity:0;transform:translate(-50%,8px);}to{opacity:1;transform:translate(-50%,0);}}
+  /* the landing card's More ▸ body — it unfolds downward inside a card that is already there,
+     so it fades and rises a few pixels rather than sliding a whole surface in. NB it must NOT
+     translate on X: the card itself is centred with translateX(-50%) and this is a child. */
+  @keyframes ngMoreIn{from{opacity:0;transform:translateY(-4px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
-  .ng-chip-merged{background:transparent!important;border-color:transparent!important;backdrop-filter:none!important;}
   .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
-  .ngAcctChip.ng-chip-merged{background:transparent;border-color:transparent;backdrop-filter:none;}
+  /* the compact account menu (v1.94.0), anchored above the chip inside .ng-acctwrap.
+     display:none/flex is inline-managed by open/closeAccountMenu. */
+  .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:224px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
   .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
   .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
+  /* ---------- pane bottom anchor: the guest save stack (v1.99.1) ----------
+     three levels reading as ONE unit — kicker caption, the full-width primary (the block's
+     one visual anchor, with real hover/press/focus states), a quiet centered escape line */
+  .ng-anchor-caption{text-align:center;font:800 9px/1.4 "Plus Jakarta Sans",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-anchor-cta{cursor:pointer;font-family:inherit;border:none;width:100%;min-height:44px;margin-top:7px;padding:0 13px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 18px rgba(88,108,255,.32);font-size:13px;font-weight:800;letter-spacing:.01em;color:#fff;transition:filter .15s ease,transform .1s ease,box-shadow .15s ease;}
+  .ng-anchor-cta:hover{filter:brightness(1.09);box-shadow:inset 0 1px 0 rgba(255,255,255,.26),0 6px 22px rgba(88,108,255,.45);}
+  .ng-anchor-cta:active{transform:translateY(1px);filter:brightness(.97);}
+  .ng-anchor-cta:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  .ng-anchor-alt{display:flex;align-items:center;justify-content:center;gap:2px;font-size:11px;color:#7e8aa3;}
+  .ng-anchor-login{cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 7px;font-size:11px;font-weight:700;color:#9db4ff;border-radius:8px;transition:color .15s ease;}
+  .ng-anchor-login:hover{color:#c4d4ff;text-decoration:underline;text-underline-offset:2px;}
+  .ng-anchor-login:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  /* ---------- Explore "Your lists" header + (v1.99.3) ----------
+     the deliberate list-creation control: a 44px hit target wrapped around a COMPACT chip
+     drawn in the pane's own token family (segBtn / list-row palette), proportionate to the
+     14px header text beside it — the bare 20px glyph in a 44px outline read as unfinished.
+     States follow the .ng-anchor-* house pass: hover brighten, 1px active press, visible
+     keyboard focus ring. The hit area is the button; the chip is only the visual. */
+  .ng-lists-new{margin-left:auto;flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0;cursor:pointer;font-family:inherit;background:transparent;border:none;border-radius:12px;}
+  .ng-lists-new-chip{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:9px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.05);color:#aeb6c8;font-size:15px;font-weight:600;line-height:1;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}
+  .ng-lists-new:hover .ng-lists-new-chip{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);color:#dbe2f0;}
+  .ng-lists-new:active .ng-lists-new-chip{transform:translateY(1px);background:rgba(255,255,255,.07);}
+  .ng-lists-new:focus-visible{outline:none;}
+  .ng-lists-new:focus-visible .ng-lists-new-chip{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  /* ---------- ACTIONS ARE CHIPS, DISCLOSURE IS BARE (v1.113.5) ----------
+     Owner: "the explorer's chevron is confused with the play button… if we can, use the same
+     button outline as the plus button uses." They were the same object: a collapsed chevron
+     (U+25B8) and the play glyph are both small SOLID right-pointing triangles, both borderless
+     and transparent, both the same grey, sitting 4px apart on the same row — so the row's most
+     consequential control read as decoration. The rule that separates them is legible at a
+     glance and needs no learning:
+        boxed + filled  = DO something (play, capture)
+        bare  + stroked = OPEN something (the caret) — and the caret ROTATES, which a filled
+                          play triangle never does.
+     `.ng-actchip` is the `+`'s own outline (the .ng-lists-new-chip / segBtn family) at the pane's
+     24px control figure. It lives here rather than in a `mouseenter` handler because JS hover
+     painting cannot express `:focus-visible`, which is the only state a keyboard user sees. */
+  .ng-actchip{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:0;box-sizing:border-box;cursor:pointer;font-family:inherit;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);color:#9ab0e0;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}
+  .ng-actchip:hover{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);color:#dbe2f0;}
+  .ng-actchip:active{transform:translateY(1px);background:rgba(255,255,255,.07);}
+  .ng-actchip:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  .ng-caret{flex:none;display:inline-flex;align-items:center;justify-content:center;color:#5d6883;}
+  .ng-caret svg{transition:transform .16s ease;}
+  .ng-caret[data-open="0"] svg{transform:rotate(-90deg);}
+
+  /* ---------- Last rolls: a row's quiet controls (v1.106.5) ----------
+     ▶ roll from here · ⟲ replay. 24px is the PANE's control figure (WCAG 2.2 AA 2.5.8; the 44px
+     thumb figure belongs to the option hand and the landing card, which are hit one-handed on a
+     moving screen) — so the glyph stays small and the HIT AREA grows past it with padding plus a
+     matching negative margin, exactly the `.ng-lists-new` trade, and the row does not get taller
+     for it. States live here and not in a `mouseenter` handler: JS hover painting cannot express
+     `:focus-visible`, which is the only thing a keyboard user ever sees. */
+  .ng-histctl{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:4px;margin:-4px;box-sizing:content-box;cursor:pointer;font-family:inherit;border:none;border-radius:7px;background:transparent;color:#8c9ab5;transition:background .15s ease,color .15s ease,transform .1s ease;}
+  .ng-histctl:hover{background:rgba(255,255,255,.08);color:#bcd0ff;}
+  .ng-histctl:active{transform:translateY(1px);}
+  .ng-histctl:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  .ng-histctl[data-replaying]{background:rgba(126,224,168,.16);color:#9fe8c0;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
@@ -33,33 +98,54 @@
   ::-webkit-scrollbar-corner{background:transparent;}
   /* ---------- responsive ---------- */
   @media (max-width:1023px){
-    .ng-explorer{width:min(330px,86vw)!important;}
-    .ng-drill{width:min(312px,84vw)!important;}
+    .ng-drill{width:min(360px,88vw)!important;}
   }
+  /* "see more" is hidden on small screens (v1.123.0). The HEIGHT term is load-bearing: a phone
+     held landscape is 844x390, i.e. 844px WIDE, so the old width-only rule never fired on it —
+     see CLAUDE.md. A thumb drags the tray and needs no affordance. */
+  @media (max-width:767px), (max-height:500px){
+    .ng-seemore{display:none!important;}
+  }
+  /* the share cue rides above the chip on every viewport (v1.99.0 — the pill is gone) */
   @media (max-width:640px){
+    .ng-sharecue{bottom:84px!important;right:14px!important;}
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
-    .ng-acctwrap{top:18px!important;right:18px!important;}
-    .ngAcctChip{padding:0!important;}
+    .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
+    .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-intro{top:54px!important;left:16px!important;}
     .ng-intro>div:first-child{font-size:21px!important;}
     .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
-    .ng-explorer,.ng-drill{width:80vw!important;}
-    .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
-    .ng-drilltab>span:first-child{display:none!important;}
-    .ng-drilltab .ng-dttitle,.ng-drilltab .ng-dtsub{display:none!important;}
-    .ng-drilltab>div{display:none!important;}
-    .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
+    .ng-drill{width:88vw!important;}
     .ngAcctChip>span:first-child{display:none!important;}
     .ngSignupCta{display:none!important;}
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
     .ng-legendkey{display:none!important;}
-    .ng-seemore{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
     .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
-    .ng-tut{display:none!important;}
+    /* the replay bar shares the card's dock, at every width — see its rule above */
+    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
+    /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
+       legend (left:14), transport (centred), drill pill (right:14) — all anchored at 28px.
+       The share cue's two buttons widen the pill LEFTWARD until, at 390px, it sat on top of
+       the transport: the pill's z-index is 6 and the transport's is 4, so the play/pause and
+       restart buttons were simply gone (measured: elementFromPoint over play returned the
+       pill). A control that hides the play button is a net loss, so while a cue is up the
+       transport steps aside and the pill gives up its own label — and share-camera.spec.ts
+       asserts the geometry (transport, cue AND legend) at 390x844 rather than trusting this. */
+    /* `!important` is load-bearing here: the transport carries `transform:translateX(-50%)` as an
+       INLINE style (xdc-template.html), and only an !important stylesheet declaration outranks an
+       inline one — the same cascade fact `_dockLandCard` is commented for. */
+    /* the cue already names the class; the pill's own line is what it displaces, not the
+       transport. (Deliberately NOT a max-width on the pill: a capped right-anchored flex row
+       does not shrink its buttons, it pushes the last one off the right edge of the screen —
+       trading a covered play button for an unreachable cue.) */
+    /* …and the pill tightens, because the band is a ZERO-SLACK row at 390px: measured, legend
+       14–118, transport 151–239, cue pill 220–376. A big transport shift only moves the
+       collision onto the legend (measured: 84–174 vs 14–118), so the pill gives up padding and
+       button margins and the transport steps aside just far enough. */
   }
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
@@ -67,14 +153,57 @@
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
   .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
   @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
+     The app wrap is position:fixed = its OWN stacking context, so its internal z values
+     (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
+     any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
+        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7 ·
+                                                        replay bar 8
+        10-49  ambient attention fx                   — reward toast 14 · vignette 44
+        50-79  coaching                               — coach 70 · combo pop 72
+        90-99  DELIBERATE temporary screens           — account menu 90 · modal (settings/
+               legal/auth/search) + roll-from confirm 95
+     Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
+     landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
+     ambient gameplay overlay, and a deliberate screen's scrim takes the input. Anything
+     that must sit on the root plane picks a BAND here — never invent a loose number, and
+     never leave a deliberate screen inside the wrap (its z is trapped there; the modal
+     PORTALS out at boot for exactly this reason). Esc closes the topmost deliberate
+     screen first. */
   /* pointer-events:auto is LOAD-BEARING on every fixed overlay: the property is inherited and
      the canvas hit-tests above anything that doesn't re-enable it (the option cards set it
      inline for the same reason). Without it, mouse clicks fall through to the graph. */
-  .ng-coach{pointer-events:auto;position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  /* TOP-centre, not bottom: the coach used to sit at bottom:218px, straddling the .ng-landcard
+     dock at bottom:236px — narrower and at z-index 70, so it buried the landing question behind
+     its own copy. That overlap is why the coach suppressed the card entirely, which in turn deleted
+     the landing question from every cold visitor's first decision. Docking the coach above the
+     graph leaves the card its own space and both stay fully clickable. */
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* ── REPLAY: the film's own chrome (v1.106.5) ──────────────────────────────────────────────
+     It DOCKS WHERE THE LANDING CARD DOCKS — same bottom constants, same `_dockLandCard` tray
+     measurement — because that is precisely the surface it stands in for: while a film runs, the
+     card that names the state you are STANDING IN is down, and this names the roll you are
+     WATCHING instead. z:8 is the ambient-state band (see the ladder above), never the 90-99
+     deliberate-screen band: a replay is a state you are in, not a screen you asked for, so it must
+     not take the input a modal scrim takes. `pointer-events:auto` is load-bearing on every fixed
+     overlay here (the property is inherited and the canvas hit-tests above anything that does not
+     re-enable it) — without it the ✕ is visible and dead. */
+  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:min(520px,calc(100vw - 32px));background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
+  .ng-replaybar .ng-replay-dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7ee0a8;box-shadow:0 0 8px rgba(126,224,168,.7);animation:ngReplayPulse 1.6s ease-in-out infinite;}
+  @keyframes ngReplayPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+  .ng-replaybar .ng-replay-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}
+  .ng-replaybar .ng-replay-txt b{font-size:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#7ee0a8;}
+  .ng-replaybar .ng-replay-txt small{font-size:12px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  /* the ✕ is the ONE control here, and it is a thumb target: the film is watched with the phone in
+     one hand, so this is the 44px figure, not the pane's 24 */
+  .ng-replaybar .ng-replay-stop{pointer-events:auto;flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-10px -6px -10px 0;cursor:pointer;font-family:inherit;font-size:16px;line-height:1;border:none;border-radius:11px;background:transparent;color:#8c9ab5;transition:background .15s ease,color .15s ease;}
+  .ng-replaybar .ng-replay-stop:hover{background:rgba(255,255,255,.08);color:#eef1f6;}
+  .ng-replaybar .ng-replay-stop:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-3px;}
+  /* the panic drill wears the danger skin, but is a landing card in every other respect */
+  .ng-landcard[data-landcard="defense"]{border-color:rgba(255,110,110,.42);background:linear-gradient(180deg,rgba(52,22,24,.97),rgba(38,16,18,.97));}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
   .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
   .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}
@@ -96,9 +225,38 @@
   /* pointer-events:none — the options tray can scroll under this corner and must stay clickable */
   .ng-tut{position:fixed;left:16px;bottom:104px;z-index:7;width:238px;pointer-events:none;background:rgba(15,19,30,.96);border:1px solid rgba(126,224,168,.28);border-radius:12px;padding:10px 12px;box-shadow:0 10px 34px rgba(0,0,0,.5);}
   .ng-tut [data-tut-hide]{pointer-events:auto;}
+  /* ---------- the list picker (v1.99.5) ----------
+     "how does it know what list?" (owner). An anchored chooser, portalled to the app root and
+     placed at MEASURED coordinates by _placeListPicker — never a drop-down positioned by CSS,
+     because the + it hangs off can sit on an option card at the bottom of a 390px phone, inside
+     an 88vw drawer, above the thumb band. It lives in the z 90-99 deliberate-screen band with
+     the account menu; it is chrome, so it never pauses the roll. */
+  /* the background is an OPAQUE COLOR with the gradient on top of it, not a gradient alone: the
+     picker's band on a phone is exactly where .ng-landcard sits, and a translucent menu over a
+     dark card reads as a rendering fault even when the stacking is correct */
+  .ng-listpicker{width:272px;max-width:calc(100vw - 16px);opacity:1;background-color:#161a2c;background-image:linear-gradient(180deg,rgba(26,30,52,1),rgba(18,21,38,1));border:1px solid rgba(130,150,190,.24);border-radius:14px;box-shadow:0 16px 46px rgba(0,0,0,.58);padding:6px;}
+  .ng-listpicker-head{padding:7px 9px 8px;border-bottom:1px solid rgba(150,170,210,.13);margin-bottom:4px;}
+  .ng-listpicker-head b{display:block;font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-listpicker-head small{display:block;margin-top:3px;font-size:12px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ng-listpicker-body{display:flex;flex-direction:column;max-height:min(46vh,300px);overflow-y:auto;}
+  .ng-listpicker-row{display:flex;align-items:center;gap:9px;width:100%;min-height:44px;padding:0 9px;cursor:pointer;font-family:inherit;text-align:left;border:none;background:transparent;border-radius:9px;color:#cbd4e6;}
+  .ng-listpicker-row:hover{background:rgba(255,255,255,.055);}
+  .ng-listpicker-row:active{transform:translateY(1px);}
+  .ng-listpicker-row:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  .ng-listpicker-box{flex:none;display:inline-flex;align-items:center;justify-content:center;width:19px;height:19px;border-radius:6px;border:1px solid rgba(150,170,210,.36);font-size:12px;font-weight:800;color:#0f1320;}
+  .ng-listpicker-row[aria-checked="true"] .ng-listpicker-box{background:#7ee0a8;border-color:#7ee0a8;}
+  .ng-listpicker-name{flex:1;min-width:0;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ng-listpicker-n{flex:none;font-size:10.5px;font-weight:700;color:#7e8aa3;}
+  .ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default";margin-left:7px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-listpicker-newrow{margin-top:2px;border-top:1px solid rgba(150,170,210,.13);border-radius:0 0 9px 9px;color:#9db4ff;}
+  .ng-listpicker-newrow .ng-listpicker-box{border-style:dashed;color:#9db4ff;}
+  .ng-listpicker-new{display:flex;align-items:center;gap:6px;margin-top:4px;padding-top:6px;border-top:1px solid rgba(150,170,210,.13);}
+  .ng-listpicker-input{flex:1;min-width:0;min-height:40px;pointer-events:auto;font-family:inherit;font-size:12.5px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.06);border:1px solid rgba(150,180,255,.55);border-radius:9px;padding:0 9px;outline:none;}
+  .ng-listpicker-go{flex:none;min-height:40px;padding:0 12px;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:800;color:#fff;border:none;border-radius:9px;background:linear-gradient(135deg,#4a6cff,#7a4cff);}
+  .ng-listpicker-go:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum{animation:none}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

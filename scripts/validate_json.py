@@ -318,6 +318,14 @@ def validate_products(data, category):
                 f"{loc} ('{title}'): placeholder affiliate_url/image not yet replaced "
                 f"with a real BJJFanatics link"
             )
+        status = str(p.get("link_status", "")).lower()
+        if status and status != "live":
+            warnings.append(
+                f"{loc} ('{title}'): link_status='{status}' (checked "
+                f"{p.get('link_checked') or 'never'}) — this product does NOT render on the page "
+                f"or in the app until a human re-opens the URL and confirms it resolves to this "
+                f"instructional (CLAUDE.md §7, Systems: product links)"
+            )
         pid = p.get("id")
         if pid:
             if pid in seen_ids:

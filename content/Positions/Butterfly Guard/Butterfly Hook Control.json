@@ -730,15 +730,15 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
@@ -751,7 +751,7 @@
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 9
         }
       },
@@ -780,7 +780,7 @@
         "transition": "Single Leg X Entry",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
@@ -816,13 +816,6 @@
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Sumi Gaeshi",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {

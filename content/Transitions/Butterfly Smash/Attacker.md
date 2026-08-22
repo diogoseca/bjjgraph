@@ -85,7 +85,7 @@ description: "How to execute Butterfly Smash in BJJ. Attacking perspective with 
       "name": "What is the primary timing indicator for when to step over the second butterfly hook?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You should only step over the second hook after the first hook is completely neutralized AND you have established upper body control through a crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head."
+        "text": "Step over the second hook only after the first hook is fully neutralized and upper body control is set via crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Butterfly Smash in BJJ. Attacking perspective with 
       "name": "What grip configuration is most critical during the initial engagement of the butterfly smash?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In gi, a collar grip combined with a sleeve grip on the same side gives you directional control while preventing the opponent from establishing their own dominant grips. In no-gi, a collar tie with wrist control serves the same function. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement."
+        "text": "Use a same-side collar-and-sleeve grip in gi, or a collar tie with wrist control in no-gi, to drive the opponent backward. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement."
       }
     }
   ]

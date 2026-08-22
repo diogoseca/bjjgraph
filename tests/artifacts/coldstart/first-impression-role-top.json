@@ -1,0 +1,14 @@
+{
+  "what": "the identity card's two lines against the side actually being played, and the hand dealt under it",
+  "nodeTitle": "X-Guard Top",
+  "role": "top",
+  "node": "X-Guard Top",
+  "name": "X-Guard",
+  "sideLine": "Top",
+  "hand": [
+    "Ankle Lock from X-Guard",
+    "Tomahawk Sweep",
+    "Smash Pass from X-Guard",
+    "Step Over from X-Guard"
+  ]
+}

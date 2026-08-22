@@ -77,7 +77,7 @@ description: "How to execute Cross Ashi Transition in BJJ. Attacking perspective
       "name": "What is the primary goal of the Cross Ashi Transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to reconfigure your leg entanglement from Ushiro Ashi-Garami to Cross Ashi-Garami when the opponent's hip orientation or defensive positioning makes Ushiro attacks suboptimal. This switch provides better mechanical leverage for heel hook finishes and creates pathways to Saddle position."
+        "text": "The primary goal is to reconfigure your leg entanglement from Ushiro Ashi-Garami to Cross Ashi-Garami when Ushiro attacks become suboptimal. The switch is triggered when the opponent's hip orientation or defensive positioning undercuts Ushiro attacks, and it provides better mechanical leverage for heel hook finishes while creating pathways to the Saddle position."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Cross Ashi Transition in BJJ. Attacking perspective
       "name": "How do you recognize when Cross Ashi offers better finishing angles than staying in Ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cross Ashi becomes preferable when opponent's hip has rotated to face more toward you (reducing Ushiro heel hook leverage), when their heel exposure is better accessed from perpendicular angle, or when their inversion has stalled and they're attempting to recover rather than continue rotating. Ushiro remains better when opponent is actively inverting or when reversed angle provides direct heel access."
+        "text": "Cross Ashi is better when the opponent's hip rotates toward you, their inversion stalls, or their heel is best accessed from a perpendicular angle. Hip rotation toward you reduces Ushiro heel hook leverage, and a stalled inversion means they are attempting to recover rather than continue rotating. Ushiro remains better when the opponent is actively inverting or when the reversed angle provides direct heel access."
       }
     },
     {

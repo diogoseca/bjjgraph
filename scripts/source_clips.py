@@ -39,6 +39,7 @@ from _atomic_io import atomic_write_json, atomic_write_text
 from _clips import CLIP_ID_PATTERN, clips_holder, iter_clip_slots, search_youtube, verify_video
 from claude_infer import call_claude
 from peak_throttle import throttle_if_peak
+from _model import model as _model_tier  # single source of truth: models.env
 
 ROOT = Path(__file__).resolve().parent.parent
 WORKDIR = ROOT / "clips_sourcing"
@@ -46,7 +47,7 @@ STATE_PATH = WORKDIR / "state.json"
 RESULTS_DIR = WORKDIR / "results"
 REVIEW_PATH = WORKDIR / "review.html"
 
-CLAUDE_MODEL = "claude-opus-4-8[1m]"  # matches regenerate_content_json.py
+CLAUDE_MODEL = _model_tier()  # matches regenerate_content_json.py
 DEFAULT_EFFORT = "medium"             # query planning/curation are cheap, high-volume calls
 QUERY_BATCH = 18
 CURATE_BATCH = 12
