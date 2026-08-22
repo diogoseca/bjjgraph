@@ -129,7 +129,7 @@
   </div>
 
   <!-- options tray (bottom of play area) -->
-  <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:14px 24px 8px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;"></div>
+  <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:14px 24px 8px;-webkit-overflow-scrolling:touch;"></div>
   <!-- "see more" docks ABOVE the tray (v1.123.0). `bottom` here is a FIRST-FRAME GUESS only —
        _dockOptionHint overwrites it from the row's measured height, which has no constant. -->
   <div ref="{{ optionHintRef }}" class="ng-seemore" onClick="{{ scrollOptions }}" style="position:absolute;bottom:238px;right:24px;z-index:3;pointer-events:none;cursor:pointer;opacity:0;transition:opacity .55s cubic-bezier(.4,0,.2,1),color .15s;display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;letter-spacing:.08em;color:#7e8aa8;text-transform:uppercase;">see more<span style="font-size:11px;display:inline-block;">&rarr;</span></div>

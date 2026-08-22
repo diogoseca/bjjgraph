@@ -1529,6 +1529,45 @@ v1.128.1's mobile framing, two versions running.
 `option-edge.spec.ts`'s caption journey rewritten to assert the category **per card type**, so a
 build printing one constant for everything still fails. **Five mutants, five kills.**
 
+### THE HAND SCROLLS SMOOTHLY, AND AN ATTEMPT CARD CAN GO THERE (v1.129.3)
+
+**1. THE "STUTTERING SLIDING STEPS" WERE SCROLL-SNAP, AND IT EXPLAINED BOTH SYMPTOMS.** Owner: *"i
+was hoping that the drag and drop and horizontal scrolling of options would be smooth not stutering
+sliding steps"*, then *"horizontal scrolling doesnt seem to be supported either"*. One cause:
+`scroll-snap-type: x proximity` on `.ng-optionrow` (in `xdc-template.html`) with
+`scroll-snap-align: center` on every card. Every gesture was pulled to centre a card — so a scroll
+moved in card-sized JUMPS, and a small horizontal swipe was snapped back to where it started, which
+reads exactly as "not supported". Measured live before the fix: `scrollSnapType: "x"`,
+`scrollSnapAlign: "center"`.
+- The snap was a phone affordance from when the tray showed **2** cards. The hand reaches **34**
+  since v1.123.0, and a reader wants to graze it, not page through it. Removed, with the
+  `scroll-padding` that only existed to give the snap a resting inset.
+- **What replaces it is motion the browser will not give a horizontally-overflowing element on its
+  own.** `_trayGlideBy` eases a wheel notch to its destination (measured: **12 distinct
+  intermediate frames**, 66 → 285, where before it was one 300px jump) and consecutive notches
+  compound onto ONE target instead of stacking jumps. `_trayFling` carries momentum on drag
+  release with a 0.94/frame decay. **The drag itself stays 1:1 under the finger** — easing what the
+  hand is holding feels like lag, not smoothness.
+- **ONE rAF OWNS `scrollLeft`.** `_trayStop()` is called by a new grab, by `tweenScroll` (the "see
+  more" button) and by `clearOptions`, so a glide, a fling, a tween and a teardown can never fight
+  over the same property.
+
+**2. "WHY CAN'T I NAVIGATE TO OMOPLATA FROM DE LA RIVA?" — THE TWO REPORTS ARE ONE STORY.** Before
+v1.129.1 a technique tap NAVIGATED, **by accident**: it fell through to `stageRollAt`, which hops a
+technique to its origin position. The owner asked for that to stop (*"it seems to always go to an
+adjacent or nearby position"*), it did — and what was left was a card that NAMES a technique with no
+way to act on it. The old "Roll from here" button exists only inside `renderDossier`, which v1.101.5
+disclosed as unreachable from the app. So the attempt card now carries `[data-land-play]`, routed
+through `confirmPlayFrom` (it handles every node type — a technique seeds at its origin, the same
+hop as before — and it CONFIRMS first, because starting a roll here discards the one you are in).
+**The tap reads; the button goes.** Deliberately, on a control you can see.
+> **AND THE CONTENT IS FINE, which is worth knowing before anyone files a data bug.**
+> `Omoplata from De La Riva Guard` **is authored** (3% from `de-la-riva-guard/bottom`) and **is
+> dealt** in that hand — measured. It is absent from `de-la-riva-guard/top`, correctly: from the top
+> you are passing, not attacking. Arriving on the bare hub seats you **TOP**, so the node is visible
+> on the graph and legitimately not in your hand. 55 position-roles author an omoplata; DLR top is
+> not one of them.
+
 ### THE PAIR JOURNEYS COME HOME (v1.127.0)
 
 **A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x

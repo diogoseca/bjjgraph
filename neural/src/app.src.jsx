@@ -274,6 +274,56 @@ class Component extends DCLogic {
   // how long "You hesitated — they move first" stays on screen before the opponent acts. Long
   // enough to read a six-word sentence, short enough that it never feels like a cutscene.
   HESITATE_HOLD = 1.1;
+  // ── THE HAND SCROLLS SMOOTHLY (v1.129.3) ───────────────────────────────────────────────────
+  // Owner: "i was hoping that the drag and drop and horizontal scrolling of options would be
+  // smooth not stutering sliding steps", and separately "horizontal scrolling doesnt seem to be
+  // supported either".
+  //
+  // BOTH SYMPTOMS WERE ONE CAUSE: `scroll-snap-type: x proximity` on the row with
+  // `scroll-snap-align: center` on every card. Every gesture was pulled to centre a card, so a
+  // scroll moved in card-sized JUMPS (the "sliding steps") and a small horizontal swipe was
+  // snapped straight back to where it started, which reads as "not supported". The snap is gone —
+  // it was a phone affordance from when the tray showed 2 cards; the hand is now up to 34 and a
+  // reader wants to graze it, not page through it.
+  //
+  // What replaces it is motion the browser will not give a horizontally-overflowing element on
+  // its own: a wheel notch GLIDES to its destination instead of teleporting, and a mouse drag
+  // carries MOMENTUM when you let go. The drag itself stays 1:1 under the finger — easing what
+  // the hand is holding feels like lag, not smoothness. One rAF owns all of it, so a new gesture
+  // simply cancels the old one and nothing can fight for `scrollLeft`.
+  _trayStop() { if (this._trayRaf) { cancelAnimationFrame(this._trayRaf); this._trayRaf = 0; } this._trayTo = null; }
+  _trayClamp(el, x) { return Math.max(0, Math.min(el.scrollWidth - el.clientWidth, x)); }
+  // wheel: accumulate onto a target and ease toward it, so consecutive notches compound into one
+  // continuous move rather than a series of jumps.
+  _trayGlideBy(el, delta) {
+    const from = this._trayTo == null ? el.scrollLeft : this._trayTo;
+    this._trayTo = this._trayClamp(el, from + delta);
+    if (this._trayRaf) return;                       // already easing toward the (updated) target
+    const step = () => {
+      this._trayRaf = 0;
+      if (this._trayTo == null) return;
+      const gap = this._trayTo - el.scrollLeft;
+      if (Math.abs(gap) < 0.5) { el.scrollLeft = this._trayTo; this._trayTo = null; return; }
+      el.scrollLeft += gap * 0.22;                   // exponential ease-out, ~150ms to settle
+      this._trayRaf = requestAnimationFrame(step);
+    };
+    this._trayRaf = requestAnimationFrame(step);
+  }
+  // release: keep travelling and decay, the way a flicked list behaves everywhere else.
+  _trayFling(el, vel) {
+    this._trayStop();
+    let v = Math.max(-4, Math.min(4, vel));          // px/ms, capped so a jerk cannot launch it
+    const step = () => {
+      this._trayRaf = 0;
+      v *= 0.94;                                     // ~16ms frames -> settles in about half a second
+      if (Math.abs(v) < 0.02) return;
+      const next = this._trayClamp(el, el.scrollLeft + v * 16);
+      if (next === el.scrollLeft) return;            // hit an end: stop dead rather than grinding
+      el.scrollLeft = next;
+      this._trayRaf = requestAnimationFrame(step);
+    };
+    this._trayRaf = requestAnimationFrame(step);
+  }
   // the smallest gap the focus orb may leave between its own edge and the left of the screen
   NG_LABEL_LEFT_MIN = 50;
   after(sec, fn, ignorePause) {
@@ -416,7 +466,7 @@ class Component extends DCLogic {
       const d = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
       if (!d) return;
       e.preventDefault();
-      orow.scrollLeft += d;
+      this._trayGlideBy(orow, d);
     }, { passive: false });
     // ── AND A MOUSE CAN DRAG IT (v1.129.1) ────────────────────────────────────────────────────
     // Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging
@@ -429,21 +479,33 @@ class Component extends DCLogic {
     // broken and genuinely testable, so this is mouse-only: `pointerType === "mouse"`, leaving
     // touch to the platform.
     if (orow) {
-      let dragX = 0, dragFrom = 0, dragging = false, dragMoved = 0;
+      let dragX = 0, dragFrom = 0, dragging = false, dragMoved = 0, dragVel = 0, dragLastX = 0, dragLastT = 0;
       orow.addEventListener("pointerdown", (e) => {
         if (e.pointerType !== "mouse" || e.button !== 0) return;
+        this._trayStop();                       // a new grab cancels whatever was still gliding
         dragging = true; dragMoved = 0; dragX = e.clientX; dragFrom = orow.scrollLeft;
+        dragVel = 0; dragLastX = e.clientX; dragLastT = performance.now();
       });
       orow.addEventListener("pointermove", (e) => {
         if (!dragging || e.pointerType !== "mouse") return;
         const d = e.clientX - dragX;
         if (Math.abs(d) > 3) {
           dragMoved = Math.max(dragMoved, Math.abs(d));
-          orow.scrollLeft = dragFrom - d;
+          orow.scrollLeft = dragFrom - d;              // 1:1 under the finger — never eased
           orow.style.cursor = "grabbing";
         }
+        // velocity in px/ms, smoothed, for the fling below
+        const now = performance.now(), dt = now - dragLastT;
+        if (dt > 0) {
+          const v = (dragLastX - e.clientX) / dt;      // + = content moving left
+          dragVel = dragVel * 0.7 + v * 0.3;
+          dragLastX = e.clientX; dragLastT = now;
+        }
       });
-      const endDrag = () => { dragging = false; orow.style.cursor = ""; };
+      const endDrag = () => {
+        if (dragging && Math.abs(dragVel) > 0.05) this._trayFling(orow, dragVel);
+        dragging = false; dragVel = 0; orow.style.cursor = "";
+      };
       orow.addEventListener("pointerup", endDrag);
       orow.addEventListener("pointercancel", endDrag);
       orow.addEventListener("pointerleave", endDrag);
@@ -8528,7 +8590,7 @@ class Component extends DCLogic {
     const ac = this.accountRef.current;
     if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
-  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -8541,6 +8603,7 @@ class Component extends DCLogic {
     if (this.evRef.current) this.evRef.current.style.opacity = "0";
   }
   tweenScroll(el, delta) {
+    this._trayStop();                 // one owner of scrollLeft at a time
     if (this._scrollRaf) cancelAnimationFrame(this._scrollRaf);
     const from = el.scrollLeft;
     const to = from + delta;                       // desired target (clamped live below, since scrollWidth grows as the slot expands)
@@ -9477,6 +9540,33 @@ class Component extends DCLogic {
       more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
       more.addEventListener("click", () => this.expandLandCard());
       foot.appendChild(more);
+    }
+    // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
+    // Owner: "why cant i click and navigate to Omoplata from De La Riva Guard?" — and the two
+    // reports are one story. Before v1.129.1 a technique tap NAVIGATED, by accident: it fell
+    // through to `stageRollAt`, which hops a technique to its origin position. The owner asked
+    // for that to stop ("it seems to always go to an adjacent or nearby position"), it did, and
+    // what was left is a card that names a technique with no way to act on it. The old "Roll from
+    // here" button exists only in `renderDossier`, which v1.101.5 disclosed as unreachable.
+    //
+    // So the tap READS and this button GOES — deliberately, on a control you can see, instead of
+    // as a side effect of tapping. `confirmPlayFrom` is the seam: it handles every node type
+    // (a technique seeds at its origin position, which is the same hop as before) and it CONFIRMS
+    // first, because starting a roll here discards the one you are in.
+    //
+    // WORTH KNOWING, because it is the likeliest cause of the owner's report: `Omoplata from De
+    // La Riva Guard` IS authored (3% from `de-la-riva-guard/bottom`) and IS dealt in that hand —
+    // but it is absent from `/top`, where you are passing, not attacking. Arriving on the bare
+    // hub seats you TOP, so the node is visible on the graph and legitimately not in your hand.
+    if (attemptMode) {
+      const play = document.createElement("button");
+      play.setAttribute("data-land-play", "1");
+      play.textContent = "Roll from here";
+      play.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#cdd8f5;background:rgba(74,108,255,.14);border:1px solid rgba(74,108,255,.28);border-radius:7px;padding:5px 10px;pointer-events:auto;transition:background .16s;";
+      play.addEventListener("mouseenter", () => play.style.background = "rgba(74,108,255,.24)");
+      play.addEventListener("mouseleave", () => play.style.background = "rgba(74,108,255,.14)");
+      play.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(node); });
+      foot.appendChild(play);
     }
     // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
     // control (it opens this state's flashcards), not a header ornament, and the owner asked for
