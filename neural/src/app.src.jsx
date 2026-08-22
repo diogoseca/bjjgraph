@@ -7304,10 +7304,14 @@ class Component extends DCLogic {
   }
   /** …and bring them back. Called from setPaused's resume path (never calls back into it, so it
    *  cannot recurse — same shape as the replay teardown that already lives there). */
-  _bgRestore() {
+  _bgRestore(keepCam) {
     if (!this._bgDown) return;
     this._bgDown = false; this._bgAutoPaused = false;
     this._suppressTray(false);
+    // `keepCam` is for the caller who has ALREADY chosen where to go — a graph tap. Returning the
+    // camera to `_bgReturnIdx` there would yank it straight back off the node the user just
+    // picked, so the latches are lifted and the flight is left alone.
+    if (keepCam) return;
     // "when you click play again it shows you where you were" — the node the USER last chose,
     // not wherever an auto-advance happened to leave the roll.
     const i = this._bgReturnIdx;
@@ -12209,6 +12213,25 @@ class Component extends DCLogic {
         if (dragging && moved < 5 && e && !inCard) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
+            // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────
+            // Owner: "sometimes when i click techniques like Float Passing … nothing happens, no
+            // navigation, no url change, no new dialog … nothing but the node lighting up", and
+            // "when i click some other positions … i see the choices row but not the MC landcard".
+            //
+            // Two symptoms, one latch. Tapping empty space runs `_standDown()`: `_bgDown = true`,
+            // `_suppressTray(true)`, clock held — deliberate, that is the v1.129.x background-tap
+            // behaviour. But **`_bgRestore()` had exactly ONE caller**, `setPaused(false)`, so the
+            // ONLY way back was the play button. Clicking a node did all its own work — the hand
+            // re-dealt, the card was built, the camera flew — underneath a suppression nobody
+            // lifted. Measured: after a background tap, a technique click and a position click
+            // both leave `bgDown true / traySup true / card visibility hidden`, while `optionIdxs`
+            // goes 10 -> 25. That is precisely "the choices row is there and the card is not".
+            //
+            // PRE-EXISTING, not from v1.129.1: neither `stageRollAt` nor `openDossier` ever called
+            // it. v1.129.1 only made it more visible, by giving a technique tap a card to fail to
+            // show. A tap on a node is the user re-engaging, so it restores the stand-down — with
+            // `keepCam`, because they have already said where they want to be.
+            this._bgRestore(true);
             const hitNode = this.nodes[this._hover.idx];
             if (this._hover.idx === this.currentPos || (hitNode && hitNode.ty !== "positions")) this.openDossier(this._hover.idx);
             else this.stageRollAt(this._hover.idx);

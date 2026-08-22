@@ -1529,6 +1529,35 @@ v1.128.1's mobile framing, two versions running.
 `option-edge.spec.ts`'s caption journey rewritten to assert the category **per card type**, so a
 build printing one constant for everything still fails. **Five mutants, five kills.**
 
+### TAPPING A NODE IS COMING BACK (v1.129.5)
+
+Owner: *"sometimes when i click techniques like Float Passing … nothing happens, no navigation, no
+url change, no new dialog with MC or choices, nothing but the node lighting up below the cursor upon
+click"*, and *"when i click some other positions like top front headlock, i see the choices row but
+not the MC landcard dialog"*.
+
+**TWO SYMPTOMS, ONE LATCH.** Tapping empty space runs `_standDown()` — `_bgDown = true`,
+`_suppressTray(true)`, clock held — which is the deliberate background-tap behaviour. But
+**`_bgRestore()` had exactly ONE caller**, `setPaused(false)`, so the only way back was the PLAY
+BUTTON. Clicking a node then did all of its own work — the hand re-dealt, the card was built, the
+camera flew — underneath a suppression that nobody lifted.
+
+Measured, after a background tap: both a technique click and a position click leave
+`bgDown true / traySup true / card visibility hidden`, while `optionIdxs` goes **10 → 25** on the
+position. That is exactly "the choices row is there and the card is not" — and on a technique,
+where there is no hand to re-deal, it is "nothing happens at all".
+
+- **PRE-EXISTING, not from v1.129.1.** Neither `stageRollAt` nor `openDossier` ever called
+  `_bgRestore`; the latch has been un-liftable-by-tap since the background-tap behaviour shipped.
+  v1.129.1 only made it more visible, by giving a technique tap a card to fail to show.
+- **`_bgRestore(keepCam)`** is the fix: a tap on a node is the user re-engaging, so it lifts the
+  stand-down — but with `keepCam`, because the camera return to `_bgReturnIdx` would yank the view
+  straight back off the node they just chose. The clock stays held, which is ROAM & STAGE's rule.
+- **The latch audit worth remembering:** `_landHidden()` asks FOUR holders — `_landPaneHid`,
+  `_traySup`, `_bgDown`, `_detailCtx`. Any one of them stuck leaves a built, mounted, correctly
+  populated card invisible while every other surface behaves. When a report says "nothing happens
+  but the node lights up", read the holders before reading the render path.
+
 ### THE ROLE WORD, THE BLOCK'S ALIGNMENT, AND FOUR PATCH BUMPS (v1.129.4)
 
 **1. THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES.** Owner: *"wrt submission

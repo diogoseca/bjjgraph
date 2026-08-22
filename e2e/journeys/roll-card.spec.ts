@@ -589,3 +589,104 @@ test("@curated a mouse can drag the option row, and a drag is not a pick", async
   expect(after.pos, "and committed nothing").toBe(t.pos)
   expect(after.moves, "no move was spent").toBe(t.moves)
 })
+
+/**
+ * TAPPING A NODE IS COMING BACK (v1.129.5). @curated
+ *
+ * Owner: "sometimes when i click techniques like Float Passing … nothing happens, no navigation,
+ * no url change, no new dialog with MC or choices, nothing but the node lighting up below the
+ * cursor upon click", and "when i click some other positions like top front headlock, i see the
+ * choices row but not the MC landcard dialog".
+ *
+ * TWO SYMPTOMS, ONE LATCH. Tapping empty space runs `_standDown()` — `_bgDown = true`,
+ * `_suppressTray(true)`, clock held — which is the deliberate background-tap behaviour. But
+ * `_bgRestore()` had exactly ONE caller, `setPaused(false)`, so the only way back was the play
+ * button. Clicking a node then did all its own work underneath a suppression nobody lifted.
+ *
+ * Measured before the fix: after a background tap, BOTH a technique click and a position click
+ * leave `bgDown true / traySup true / card visibility hidden`, while `optionIdxs` goes 10 -> 25 on
+ * the position — which is exactly "the choices row is there and the card is not".
+ *
+ * PRE-EXISTING, and worth saying so: neither `stageRollAt` nor `openDossier` ever called
+ * `_bgRestore`. v1.129.1 only made it more visible, by giving a technique tap a card to fail to
+ * show.
+ */
+test("@curated after tapping empty space, clicking a node brings the surfaces back", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+
+  const state = () =>
+    page.evaluate(() => {
+      const a: any = (window as any).__neural
+      const c = document.querySelector("[data-landcard]") as HTMLElement | null
+      return {
+        cardVisible: !!c && getComputedStyle(c).visibility !== "hidden",
+        bgDown: !!a._bgDown,
+        traySup: !!a._traySup,
+        landHidden: a._landHidden(),
+        opts: (a.optionIdxs || []).length,
+      }
+    })
+
+  expect((await state()).cardVisible, "the card is up to begin with").toBe(true)
+
+  // find genuinely empty sky — a tap there is the gesture that stands the surfaces down
+  const empty = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const scale = a.W / a.cam.vw
+    for (let x = 40; x < a.W - 40; x += 37)
+      for (let y = 40; y < a.H - 380; y += 31) {
+        let clear = true
+        for (const n of a.nodes) {
+          const sx = (n.x - a.cam.cx) * scale + a.W / 2
+          const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
+          if (Math.abs(sx - x) < 60 && Math.abs(sy - y) < 60) { clear = false; break }
+        }
+        if (clear) return { x, y }
+      }
+    return null
+  })
+  expect(empty, "there is empty sky to tap").not.toBeNull()
+
+  await page.mouse.click(empty!.x, empty!.y)
+  await j.advance(700)
+  const down = await state()
+  expect(down.bgDown, "the background tap stood the surfaces down").toBe(true)
+  expect(down.cardVisible, "…so the card is hidden, as designed").toBe(false)
+
+  // NOW THE CLAIM: a node tap is the user coming back, on BOTH node kinds.
+  for (const kind of ["transitions", "positions"]) {
+    const t = await page.evaluate((kind: string) => {
+      const a: any = (window as any).__neural
+      const scale = a.W / a.cam.vw
+      for (const n of a.nodes) {
+        if (n.ty !== kind || n.idx === a.currentPos) continue
+        const sx = (n.x - a.cam.cx) * scale + a.W / 2
+        const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
+        if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340) return { sx, sy }
+      }
+      return null
+    }, kind)
+    expect(t, `there is a ${kind} node to click`).not.toBeNull()
+    await page.mouse.click(t!.sx, t!.sy)
+    await j.advance(1200)
+    const back = await state()
+    expect(back.bgDown, `${kind}: the stand-down was lifted`).toBe(false)
+    expect(back.traySup, `${kind}: and the tray is back`).toBe(false)
+    expect(back.landHidden, `${kind}: nothing is still holding the card down`).toBe(false)
+    expect(back.cardVisible, `${kind}: the card is actually on screen`).toBe(true)
+    // re-arm for the second kind
+    if (kind === "transitions") {
+      await page.mouse.click(empty!.x, empty!.y)
+      await j.advance(700)
+      expect((await state()).bgDown, "stood down again for the next leg").toBe(true)
+    }
+  }
+})
