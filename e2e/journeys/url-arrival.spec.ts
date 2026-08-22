@@ -234,3 +234,70 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
     `the frame is the same with the card gone (${m.torn.toFixed(2)} vs ${m.withCard.toFixed(2)})`,
   ).toBeLessThan(0.01)
 })
+
+/**
+ * THE FIRST FLIGHT AIMS AT THE CARD'S BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6). @curated
+ *
+ * Owner: "correct the position of the graph shift since it initially centers to the screen, not the
+ * available space above the landcard as it's should in the first animation."
+ *
+ * On the FIRST landing there is nothing to measure — the card mounts about a second after the intro
+ * hands the camera over, and `_bandBot` has no cached answer at this viewport yet — so
+ * `rollCamTarget`'s cold fallback was the only input. `H - 240` is not a band, it is very nearly
+ * the whole screen: measured at H=900 it put `wantY` at 338 and opened the focus at screen y **413**
+ * against a screen middle of 450, then crawled to its real home at 196 over about five seconds.
+ *
+ * THE FIX IS NOT A NEW GUESS: `H * 0.42` is the constant the "no room" branch already uses, and it
+ * predicts this viewport's settled band almost exactly — `wantY` 197 against a measured resting
+ * 196.
+ *
+ * MEASURED A/B ON THE SAME START NODE, sampling `camTarget.cy` across the whole first flight:
+ * aim drift **13.06 world units → 0.28**. The camera now makes ONE approach to a target that was
+ * right from the first frame, instead of chasing one that moves under it.
+ */
+test("@curated the opening flight has a fixed aim, not one that drifts as the card mounts", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.advance(3300) // the intro hands the camera over at 3.2s
+
+  const aims: number[] = []
+  for (let i = 0; i < 14; i++) {
+    await j.advance(400)
+    const cy = await page.evaluate(() =>
+      (window as any).__neural.camTarget ? (window as any).__neural.camTarget.cy : null,
+    )
+    if (cy != null) aims.push(cy)
+  }
+  expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
+
+  // THE CLAIM: the aim is settled from the first sample. Not "the camera is instantly there" —
+  // it still flies, and should — but it flies to ONE place.
+  const drift = Math.max(...aims) - Math.min(...aims)
+  expect(
+    drift,
+    `the opening aim does not move under the flight (drift ${drift.toFixed(2)} world units across ${aims.length} samples)`,
+  ).toBeLessThan(3)
+
+  // ...AND IT LANDS IN THE BAND, not at the screen's middle. Measured against the card that by now
+  // exists, which is the surface the band is carved out of.
+  const end = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const card = document.querySelector("[data-landcard]") as HTMLElement | null
+    const scale = a.W / a.cam.vw
+    const f = a.focusIdx >= 0 ? a.nodes[a.focusIdx] : null
+    const mid = f ? a.pairMid(f) : null
+    return {
+      sy: mid ? (mid.y - a.cam.cy) * scale + a.H / 2 : null,
+      cardTop: card ? card.getBoundingClientRect().top : null,
+      H: a.H,
+    }
+  })
+  expect(end.cardTop, "the landing card exists by now").not.toBeNull()
+  expect(end.sy, "the state sits above the card").toBeLessThan(end.cardTop!)
+  expect(
+    end.sy!,
+    `and well above the middle of the screen (y ${Math.round(end.sy!)} of ${end.H})`,
+  ).toBeLessThan(end.H * 0.42)
+})

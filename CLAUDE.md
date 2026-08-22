@@ -1529,6 +1529,29 @@ v1.128.1's mobile framing, two versions running.
 `option-edge.spec.ts`'s caption journey rewritten to assert the category **per card type**, so a
 build printing one constant for everything still fails. **Five mutants, five kills.**
 
+### THE OPENING FLIGHT AIMS AT THE CARD'S BAND (v1.129.6)
+
+Owner: *"correct the position of the graph shift since it initially centers to the screen, not the
+available space above the landcard as it's should in the first animation."*
+
+On the FIRST landing there is nothing to measure — the card mounts about a second after the intro
+hands the camera over, and `_bandBot` has no cached answer at this viewport yet — so
+`rollCamTarget`'s cold fallback was the only input. **`H - 240` is not a band, it is very nearly the
+whole screen.** Measured at H=900: `wantY` 338, the focus opening at screen y **413** against a
+screen middle of 450, then crawling to its real home at **196** over about five seconds. That slow
+correction is what reads as "it centres to the screen first".
+
+**THE FIX IS NOT A NEW CONSTANT.** `H * 0.42` is the value the "no room" branch a few lines below
+already uses, and it predicts this viewport's settled band almost exactly — `wantY` **197** against
+a measured resting **196**. Erring tight is the safe direction by the same argument `_bandBot` rests
+on (too tight only ever puts the node HIGHER, never behind the card), and a real card overrides it
+the moment one exists.
+
+**MEASURED A/B on the same start node**, sampling `camTarget.cy` across the whole opening flight:
+aim drift **13.06 world units → 0.28**. The camera still flies — it should — but it now makes ONE
+approach to a target that was right from the first frame, instead of chasing one that moves under
+it. Pinned by `url-arrival.spec.ts` (`@curated`), one mutant, one kill.
+
 ### TAPPING A NODE IS COMING BACK (v1.129.5)
 
 Owner: *"sometimes when i click techniques like Float Passing … nothing happens, no navigation, no

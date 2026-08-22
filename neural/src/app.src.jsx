@@ -11790,7 +11790,23 @@ class Component extends DCLogic {
     // two frames, and `rollFromPosition` writes camTarget inside exactly that window. So remember
     // the last real measurement and keep using it while the card is rebuilding; it is the same
     // card, docked to the same bottom, so this is a truer answer than the fallback.
-    let bot = H - 240, measured = false;
+    // ── THE COLD PRIOR IS THE CARD'S USUAL BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6) ──────
+    // Owner: "correct the position of the graph shift since it initially centers to the screen,
+    // not the available space above the landcard as it's should in the first animation."
+    //
+    // On the FIRST landing there is nothing to measure — the card mounts ~1.2s after the intro
+    // hands over — and `_bandBot` has no cached answer at this viewport yet, so this fallback was
+    // the only input. `H - 240` is not a band, it is very nearly the whole screen: measured at
+    // H=900 it put `wantY` at 338 and the focus opened at screen y **413** against a screen middle
+    // of 450, then crawled to its real home at 196 over about five seconds. That slow drift IS the
+    // "it initially centers to the screen" the owner sees.
+    //
+    // `H * 0.42` is not a new guess — it is the constant the "no room" branch a few lines below
+    // already uses, and it predicts this viewport's settled band almost exactly: it gives
+    // `wantY` 197 against a measured resting value of **196**. Erring tight is the safe direction
+    // by the same argument `_bandBot` is built on (too tight only ever puts the node HIGHER, never
+    // behind the card), and the moment a real card exists the measurement below overrides it.
+    let bot = Math.max(120, H * 0.42), measured = false;
     for (const el of [this._landFilmEl, this._landEl]) {
       if (!el) continue;
       try {
