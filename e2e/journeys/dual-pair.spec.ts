@@ -677,3 +677,171 @@ test("desktop framing is untouched — the orb stays at the reading bias", async
   expect(m.W, "this is a desktop viewport").toBeGreaterThan(700)
   expect(m.frac, `the orb parks at ~44% of the width (${m.frac.toFixed(3)})`).toBeCloseTo(0.44, 2)
 })
+
+/**
+ * THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES (v1.129.4). @curated
+ *
+ * Owner: "wrt submission escaping/finishing — implement escaping/finishing roles top/bottom".
+ *
+ * A BJJ point rather than a copy preference: you do not "attempt" a submission you are already
+ * holding — you FINISH it — and the other half is not "defending" in the positional sense, they are
+ * ESCAPING. A transition is the case where attempting/defending is the honest pair, because the
+ * move may simply not come off.
+ *
+ *   positions    TOP / BOTTOM
+ *   submissions  FINISHING / ESCAPING
+ *   transitions  ATTEMPTING / DEFENDING
+ *
+ * AND IT IS THE ROLE LINE, a different object from the `from <position>` line beneath the name:
+ * that one DISAMBIGUATES a shared short name ("Kimura" is 35 techniques here), this one says which
+ * side of the exchange you are pointing at. They sit on opposite sides of the name for exactly that
+ * reason. Both are asserted here so a future change cannot quietly merge them.
+ */
+test("@curated a submission finishes and escapes; a transition attempts and defends", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+
+  const WORDS: Record<string, [string, string]> = {
+    positions: ["TOP", "BOTTOM"],
+    submissions: ["FINISHING", "ESCAPING"],
+    transitions: ["ATTEMPTING", "DEFENDING"],
+  }
+
+  const seen: Record<string, any> = {}
+  for (const ty of ["submissions", "transitions"]) {
+    // hover the UPPER half (the performer) and then the LOWER one, so both words are exercised
+    for (const half of ["upper", "lower"]) {
+      const t = await page.evaluate(
+        ({ ty, half }: any) => {
+          const a: any = (window as any).__neural
+          const scale = a.W / a.cam.vw
+          for (const n of a.nodes) {
+            if (n.ty !== ty || n.pi < 0 || n.z <= 0) continue
+            if (n.idx === a.focusIdx || n.idx === a.nodes[a.focusIdx].pi) continue
+            const P = (m: any) => ({
+              sx: (m.x - a.cam.cx) * scale + a.W / 2,
+              sy: (a._LY(m) - a.cam.cy) * scale + a.H / 2,
+            })
+            const A = P(n)
+            const B = P(a.nodes[n.pi])
+            const pick = half === "upper" ? (A.sy < B.sy ? A : B) : A.sy < B.sy ? B : A
+            if (pick.sx > 120 && pick.sx < a.W - 320 && pick.sy > 90 && pick.sy < a.H - 330)
+              return { sx: pick.sx, sy: pick.sy, t: n.t }
+          }
+          return null
+        },
+        { ty, half },
+      )
+      expect(t, `there is a ${ty} pair on screen to point at (${half} half)`).not.toBeNull()
+      await page.mouse.move(t!.sx - 40, t!.sy - 40)
+      await page.mouse.move(t!.sx, t!.sy)
+      await j.advance(120)
+      const L = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+      expect(L, `${ty}/${half}: the group drew`).toBeTruthy()
+      seen[ty + "/" + half] = { sub: L.sub, above: L.above, main: L.main, qual: L.qual, node: t!.t }
+      const want = WORDS[ty][L.above ? 0 : 1]
+      expect(
+        L.sub,
+        `${ty} ${half} half says "${want}" (drew "${L.sub}" on ${t!.t})`,
+      ).toBe(want)
+    }
+  }
+
+  // NEITHER CATEGORY MAY BORROW THE OTHER'S VOCABULARY — the whole point of the change. Scoped
+  // PER CATEGORY: a first version pooled all four words and failed because a TRANSITION correctly
+  // said ATTEMPTING, which is the assertion misreading its own subject rather than a defect.
+  const wordsOf = (ty: string) =>
+    Object.keys(seen).filter((k) => k.startsWith(ty + "/")).map((k) => seen[k].sub)
+  const subWords = wordsOf("submissions")
+  const transWords = wordsOf("transitions")
+  expect(subWords.sort(), `a submission uses only its own pair (saw ${JSON.stringify(seen)})`).toEqual(["ESCAPING", "FINISHING"])
+  expect(transWords.sort(), "…and a transition only its own").toEqual(["ATTEMPTING", "DEFENDING"])
+
+  // THE TWO SUBTITLES ARE DIFFERENT OBJECTS. The qualifier is a "from <position>" string; the role
+  // word is one of the six above. A build that merged them would fail here.
+  for (const k of Object.keys(seen)) {
+    const v = seen[k]
+    if (v.qual) expect(v.qual, `${k}: the qualifier is a "from …" line`).toMatch(/^from /i)
+    expect(v.qual, `${k}: and is never the role word`).not.toBe(v.sub)
+  }
+})
+
+/**
+ * A TWO-ROW LABEL STRADDLES THE MIDLINE (v1.129.4). @curated
+ *
+ * Owner: "those from wtv position look poorly aligned. rule is when those extra subtitles show,
+ * the label shouldnt be aligned at the center, but rather the label and the 'from subtitle' rows
+ * should be centered to the middle of the dual nodes".
+ *
+ * v1.129.0 pinned the NAME to the midline and hung the qualifier under it, so the two-row object's
+ * centre sat a whole half-line BELOW the pair it names. The midline is the one line equidistant
+ * between the two orbs — that is why the group reads as one label for one state — so what belongs
+ * on it is the whole block.
+ *
+ * ONE RULE, BOTH CASES: `lift` is half the row lead and is ZERO without a qualifier, so the
+ * single-row layout keeps the exact baselines it has always had. That degeneracy is the point —
+ * it is what stops "with qualifier" and "without" becoming two layouts that drift apart — and it
+ * is asserted below rather than assumed.
+ */
+test("@curated the name and its qualifier centre on the pair, and the one-row case is unchanged", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+
+  const hoverKind = async (want: "qual" | "plain") => {
+    const t = await page.evaluate(
+      (want: string) => {
+        const a: any = (window as any).__neural
+        const scale = a.W / a.cam.vw
+        for (const n of a.nodes) {
+          if (n.ty === "positions" || n.pi < 0 || n.z <= 0) continue
+          const hasQ = !!a.splitName(n.t).from
+          if (want === "qual" ? !hasQ : hasQ) continue
+          if (n.idx === a.focusIdx || n.idx === a.nodes[a.focusIdx].pi) continue
+          const sx = (n.x - a.cam.cx) * scale + a.W / 2
+          const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
+          if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 330) return { sx, sy, t: n.t }
+        }
+        return null
+      },
+      want,
+    )
+    expect(t, `there is a ${want} technique pair on screen`).not.toBeNull()
+    await page.mouse.move(t!.sx - 40, t!.sy - 40)
+    await page.mouse.move(t!.sx, t!.sy)
+    await j.advance(120)
+    const L = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+    expect(L, `${want}: the group drew`).toBeTruthy()
+    return L
+  }
+
+  // TWO ROWS: the block's centre is the midline, so the name sits ABOVE it and the qualifier BELOW.
+  const q = await hoverKind("qual")
+  expect(q.qualY, "this one really has a qualifier row").not.toBeNull()
+  expect(q.nameY, `the name moved up off the midline (name ${q.nameY}, mid ${q.midY})`).toBeLessThan(q.midY)
+  expect(q.qualY, "and the qualifier sits below it").toBeGreaterThan(q.midY)
+  // ONE ROW: nothing moved. The lift degenerates to zero, which is what keeps the two cases one
+  // rule instead of two layouts.
+  const p = await hoverKind("plain")
+  expect(p.qualY, "this one has no qualifier row").toBeNull()
+  expect(
+    p.nameY - p.midY,
+    `the single-row baseline is untouched at mid + 6 (got ${p.nameY - p.midY})`,
+  ).toBeCloseTo(6, 5)
+
+  // THE CLAIM, TIED TO THE ONE-ROW CASE RATHER THAN TO A RAW COORDINATE: the two-row block centres
+  // exactly where a one-row label centres. A first version asserted the two BASELINES straddle
+  // `midY` itself and failed at 137.2 vs 131.2 — because `+6` is not a centring error, it is the
+  // baseline-to-visual-centre correction that makes a single row LOOK centred. Comparing the two
+  // cases to each other is both the honest claim and the "uniformize" requirement: one rule, and
+  // a qualifier changes what is written, never where the label sits.
+  expect(
+    (q.nameY + q.qualY) / 2 - q.midY,
+    `the two-row block centres where the one-row label does (block ${(q.nameY + q.qualY) / 2 - q.midY}, single ${p.nameY - p.midY})`,
+  ).toBeCloseTo(p.nameY - p.midY, 5)
+})

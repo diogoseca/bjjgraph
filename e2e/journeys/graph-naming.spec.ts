@@ -701,7 +701,7 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
       }
       if (clear < 300) continue
       if (!best || clear > best.clear)
-        best = { sx: p.sx, sy: p.sy, mid: (p.sy + q.sy) / 2, r: n.r * K * scale, clear,
+        best = { sx: p.sx, sy: p.sy, mid: (p.sy + q.sy) / 2, r: n.r * K * scale, clear, idx: n.idx,
                  main: a.splitName(n.t).main, from: a.splitName(n.t).from, t: n.t }
     }
     return best
@@ -724,48 +724,73 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   // reports ~266 bright px whether the group drew a short name or a long one — and the "prints the
   // inline name" mutant SURVIVED a raw assertion for exactly that reason. Everything the graph
   // draws anyway subtracts to zero; only what the hover ADDS is attributable to the group.
-  const band = ({ sx, mid, r, from, to }: any) =>
+  //
+  // THE BAND COMES FROM THE PUBLISHED GEOMETRY, NOT A CONSTANT. A version pinned to the pair's
+  // midline broke the moment v1.129.4 lifted a two-row block off it (body 0 -> 21 against a > 40
+  // bar) — the test describing where the label USED to be. `ox` and `nameY` are what the frame
+  // actually drew with, so hover FIRST to learn them, then take the control reading at the same
+  // coordinates with the pointer away.
+  const bandAt = ({ ox, y, from, to }: any) =>
     page.evaluate(
-      ({ sx, mid, r, from, to }: any) => {
+      ({ ox, y, from, to }: any) => {
         const a: any = (window as any).__neural
         const cv: HTMLCanvasElement = a.canvas
         const ctx = cv.getContext("2d")!
         const dpr = cv.width / cv.clientWidth
-        const ox = sx + r + 11
         const x0 = Math.round((ox + from) * dpr)
         const w = Math.max(1, Math.round((to - from) * dpr))
-        const d = ctx.getImageData(x0, Math.round((mid - 4) * dpr), w, Math.round(16 * dpr)).data
+        const d = ctx.getImageData(x0, Math.round((y - 13) * dpr), w, Math.round(17 * dpr)).data
         let n = 0
         for (let i = 0; i < d.length; i += 4)
           if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 70) n++
         return n
       },
-      { sx, mid, r, from, to },
+      { ox, y, from, to },
     )
-
-  const geom = { sx: pick!.sx, mid: pick!.mid, r: pick!.r }
-  const tail = { ...geom, from: win.short + 14, to: win.long }
-  const body = { ...geom, from: 2, to: win.short - 6 }
-  const coldTail = await band(tail)
-  const coldBody = await band(body)
 
   await page.mouse.move(pick!.sx - 50, pick!.sy - 50)
   await page.mouse.move(pick!.sx, pick!.sy)
   await j.advance(120)
+  const geo = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+  expect(geo, "the group drew and published its geometry").toBeTruthy()
 
-  const hotTail = await band(tail)
-  const hotBody = await band(body)
+  const tail = { ox: geo.ox, y: geo.nameY, from: win.short + 14, to: win.long }
+  const body = { ox: geo.ox, y: geo.nameY, from: 2, to: win.short - 6 }
+  const hotTail = await bandAt(tail)
+  const hotBody = await bandAt(body)
+
+  // the control: same strips, pointer parked on empty sky
+  await page.mouse.move(6, 6)
+  await j.advance(700) // past `_hover`'s 0.5s freshness window
+  const coldTail = await bandAt(tail)
+  const coldBody = await bandAt(body)
+
+  // SELF-CHECK: the hover must have added a name at all, or an empty tail proves nothing.
+  expect(
+    hotBody - coldBody,
+    `the hover drew a name on the pair's midline (body ${coldBody} -> ${hotBody})`,
+  ).toBeGreaterThan(40)
+  expect(
+    hotTail - coldTail,
+    `and nothing where the INLINE long name would have reached (tail ${coldTail} -> ${hotTail}, window ${Math.round(win.short + 14)}..${Math.round(win.long)}px)`,
+  ).toBeLessThan(Math.max(8, (hotBody - coldBody) / 5))
 
   // WHAT THE FRAME ACTUALLY PASSED TO fillText. The pixel bands below prove a qualifier line is
   // RENDERED; this proves WHICH STRING the main line is — and it has to come from the app, because
   // `ox` is derived from `halfW`, a draw-local closure. Three pixel oracles built on a recomputed
   // `ox` all landed over the name's body instead of its tail and let the "inline long name" mutant
   // through. `_lastPairLabel` is published by the renderer itself, so this reads output, not logic.
-  const drawn = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+  // `geo` was captured WHILE hovering the picked pair, before the control frame parked the pointer
+  // on empty sky. Re-hovering to re-read it is not free: `_lastPairLabel` holds whichever group
+  // drew LAST in the frame, and a hover that has not re-registered leaves the FOCUS's group there
+  // — measured, idx 145 (the focus) where 1682 (the pick) was expected. Read the capture, do not
+  // take a second one.
+  const drawn = geo
   expect(drawn, "the pair group published what it drew").not.toBeFalsy()
-  expect(drawn.idx, "…for the pair we are pointing at").toBe(
-    await page.evaluate(() => (window as any).__neural._hover.idx),
-  )
+  // compared against the node we PICKED, not against live `_hover`: the control frame parks the
+  // pointer on empty sky, so `_hover` is legitimately null between readings and reading it here
+  // was a TypeError waiting for the first person to add a control frame (it was).
+  expect(drawn.idx, "…for the pair we are pointing at").toBe(pick!.idx)
   expect(
     drawn.main,
     `the main line is the SHORT name, not the inline qualified one (drew "${drawn.main}")`,
@@ -781,37 +806,39 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
     `and nothing where the INLINE long name would have reached (tail ${coldTail} -> ${hotTail}, window ${Math.round(win.short + 14)}..${Math.round(win.long)}px)`,
   ).toBeLessThan((hotBody - coldBody) / 5)
 
-  // the group draws the main name at `mid + 6` and the qualifier at `mid + 21`
-  const rows = await page.evaluate(
-    ({ sx, mid, r }: any) => {
-      const a: any = (window as any).__neural
-      const cv: HTMLCanvasElement = a.canvas
-      const ctx = cv.getContext("2d")!
-      const dpr = cv.width / cv.clientWidth
-      const x0 = Math.round((sx + r + 14) * dpr)
-      const band = (y0: number, y1: number) => {
-        const w = Math.round(300 * dpr)
-        const d = ctx.getImageData(x0, Math.round(y0 * dpr), w, Math.round((y1 - y0) * dpr)).data
+  // ...AND A QUALIFIER LINE IS GENUINELY RENDERED, not merely computed. The published strings
+  // above prove WHICH name is on each row; these two bands prove there ARE two rows on the glass.
+  // Both are measured at the baselines the frame published — a version pinned to `mid + 6` /
+  // `mid + 21` went red the moment v1.129.4 lifted the block off the midline, which is the test
+  // describing where the label used to be rather than where it is.
+  const rowAt = (y: number) =>
+    page.evaluate(
+      ({ ox, y }: any) => {
+        const a: any = (window as any).__neural
+        const cv: HTMLCanvasElement = a.canvas
+        const ctx = cv.getContext("2d")!
+        const dpr = cv.width / cv.clientWidth
+        const d = ctx.getImageData(
+          Math.round((ox + 2) * dpr),
+          Math.round((y - 12) * dpr),
+          Math.round(300 * dpr),
+          Math.round(15 * dpr),
+        ).data
         let n = 0
-        let last = -1
         for (let i = 0; i < d.length; i += 4)
-          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 70) {
-            n++
-            const px = (i / 4) % w
-            if (px > last) last = px
-          }
-        return { n, reach: last < 0 ? 0 : last / dpr }
-      }
-      return { main: band(mid - 8, mid + 8), qual: band(mid + 11, mid + 24) }
-    },
-    { sx: pick!.sx, mid: pick!.mid, r: pick!.r },
-  )
-
-  expect(rows.main.n, `the main name is drawn (${JSON.stringify(rows)})`).toBeGreaterThan(60)
-  expect(
-    rows.qual.n,
-    `and the "from …" qualifier is drawn BENEATH it rather than inline (${JSON.stringify(rows)})`,
-  ).toBeGreaterThan(30)
+          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 70) n++
+        return n
+      },
+      { ox: geo.ox, y },
+    )
+  await page.mouse.move(pick!.sx - 50, pick!.sy - 50)
+  await page.mouse.move(pick!.sx, pick!.sy)
+  await j.advance(120)
+  const mainRow = await rowAt(geo.nameY)
+  const qualRow = await rowAt(geo.qualY)
+  expect(mainRow, `the main name row is on the glass (${mainRow} px at y=${geo.nameY})`).toBeGreaterThan(60)
+  expect(qualRow, `and the qualifier is a SECOND row beneath it (${qualRow} px at y=${geo.qualY})`).toBeGreaterThan(20)
+  expect(geo.qualY - geo.nameY, "one row lead apart").toBeCloseTo(15, 5)
 
 })
 

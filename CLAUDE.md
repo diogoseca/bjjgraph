@@ -1529,6 +1529,55 @@ v1.128.1's mobile framing, two versions running.
 `option-edge.spec.ts`'s caption journey rewritten to assert the category **per card type**, so a
 build printing one constant for everything still fails. **Five mutants, five kills.**
 
+### THE ROLE WORD, THE BLOCK'S ALIGNMENT, AND FOUR PATCH BUMPS (v1.129.4)
+
+**1. THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES.** Owner: *"wrt submission
+escaping/finishing — implement escaping/finishing roles"*. A BJJ point, not a copy preference: you
+do not *attempt* a submission you are already holding, you **FINISH** it, and the other half is not
+"defending" in the positional sense, they are **ESCAPING**. A transition is the case where
+attempting/defending is honest, because the move may simply not come off.
+
+| category | upper half | lower half |
+|---|---|---|
+| positions | TOP | BOTTOM |
+| submissions | **FINISHING** | **ESCAPING** |
+| transitions | ATTEMPTING | DEFENDING |
+
+**2. A TWO-ROW LABEL STRADDLES THE MIDLINE.** Owner: *"those from wtv position look poorly aligned.
+rule is when those extra subtitles show, the label shouldnt be aligned at the center, but rather the
+label and the 'from subtitle' rows should be centered to the middle of the dual nodes"*. v1.129.0
+pinned the NAME to the midline and hung the qualifier under it, so the two-row object's centre sat a
+half-line BELOW the pair it names. `lift = NG_LABEL_LEAD / 2` when a qualifier renders and **ZERO
+when it does not**, so the one-row layout keeps the exact baselines it always had — that degeneracy
+is the uniformity the owner asked for: ONE rule, not two layouts that drift. The role subtitle rides
+the OUTSIDE of whatever the block turned out to be, so it can never land on the qualifier.
+`NG_LABEL_LEAD` is shared with the single hover label, which draws the same two-row object.
+> **THE ROLE LINE AND THE QUALIFIER LINE ARE DIFFERENT OBJECTS** and the spec asserts it: the
+> qualifier DISAMBIGUATES a shared short name ("Kimura" is 35 techniques here) and always matches
+> `/^from /`; the role says which side of the exchange you are pointing at and is one of six words.
+> They sit on opposite sides of the name for that reason and must never be conflated.
+
+**3. FOUR PATCH BUMPS CLOSE THE DEPENDABOT REPORT.** GitHub said "9 high"; the real shape is **4
+advisories across 2 lockfiles** — `brace-expansion` 1.1.13→1.1.18 / 5.0.6→5.0.9 (root + source),
+`immutable` 5.1.5→5.1.9, `js-yaml` 3.15.0→3.15.1 / 4.3.0→4.3.1. **All patch-level, lockfiles only —
+no `package.json` changed**, so no API surface moved. **All are BUILD-TIME**: rimraf/glob,
+sass/esbuild-sass-plugin, and gray-matter (which parses our own frontmatter during the static
+build). **None ship in the client bundle**, so the live exposure was smaller than the headline
+implied. `npm audit` now reports **0 vulnerabilities** in both workspaces. Verified past a lockfile
+diff: `tsc` clean, a full `npm run build` green (6190 files, payload budget OK — sass is the one
+that could have broken silently), and the core suite. The agent worktree lockfiles under
+`.claude/worktrees/` are **untracked**, so they were never being scanned.
+
+> **THREE SPECS WERE PINNED TO WHERE THE LABEL USED TO BE**, and all three went red on a correct
+> build the moment the block moved: a control-frame band centred on the midline (`body 0 -> 21`
+> against a `> 40` bar), a row pair at `mid + 6` / `mid + 21`, and a `_hover.idx` read that is
+> legitimately null while the control frame parks the pointer on empty sky. All three now measure
+> against the **published** `ox` / `nameY` / `qualY` — the same rule the v1.129.0 note already
+> stated for `ox`, extended to the baselines now that a layout change has proved it applies to them
+> too. A fourth trap worth recording: `_lastPairLabel` holds whichever group drew LAST in the
+> frame, so re-hovering to re-read it returned the FOCUS's label (idx 145 where 1682 was expected).
+> Capture it once, while the hover is live.
+
 ### THE HAND SCROLLS SMOOTHLY, AND AN ATTEMPT CARD CAN GO THERE (v1.129.3)
 
 **1. THE "STUTTERING SLIDING STEPS" WERE SCROLL-SNAP, AND IT EXPLAINED BOTH SYMPTOMS.** Owner: *"i

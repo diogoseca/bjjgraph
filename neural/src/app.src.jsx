@@ -326,6 +326,10 @@ class Component extends DCLogic {
   }
   // the smallest gap the focus orb may leave between its own edge and the left of the screen
   NG_LABEL_LEFT_MIN = 50;
+  // Baseline-to-baseline between a name and its "from <position>" qualifier. ONE constant, because
+  // both canvas label paths (the pair group and the single hover label) draw the same two-row
+  // object and must not drift apart.
+  NG_LABEL_LEAD = 15;
   after(sec, fn, ignorePause) {
     const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null, ignorePause: !!ignorePause };
     const fire = () => { this._timers = (this._timers || []).filter((x) => x !== item); fn(); };
@@ -12834,12 +12838,30 @@ class Component extends DCLogic {
         const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
         const gMaxW = Math.max(60, W - ox - 12);
         const above = act.z > 0;
-        // "ATTEMPTING", not "ATTACKING" (owner's word). It also keeps this clear of
-        // `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not start
-        // sharing vocabulary with a label about which half of a pair you are on.
+        // ── THE ROLE WORD IS THE ONE THE CATEGORY ACTUALLY USES (v1.129.4) ──────────────────
+        // Owner: "wrt submission escaping/finishing — implement escaping/finishing roles". Right,
+        // and it is a BJJ point rather than a copy preference: you do not "attempt" a submission
+        // you are already holding, you FINISH it — and the other half is not "defending" in the
+        // positional sense, they are ESCAPING. A transition is the case where attempting/defending
+        // is the honest pair, because the move may simply not come off.
+        //
+        //   positions    TOP / BOTTOM
+        //   submissions  FINISHING / ESCAPING
+        //   transitions  ATTEMPTING / DEFENDING
+        //
+        // "ATTEMPTING", not "ATTACKING", remains the owner's word for transitions, and it keeps
+        // this clear of `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and
+        // must not start sharing vocabulary with a label about which half of a pair you are on.
+        //
+        // THIS IS THE ROLE LINE, and it is a different object from the `from <position>` line
+        // beneath the name: that one DISAMBIGUATES a shared short name (35 techniques are called
+        // "Kimura"), this one says which side of the exchange you are pointing at. They sit on
+        // opposite sides of the name for exactly that reason and must never be conflated.
         const sub = n.ty === "positions"
           ? (above ? "TOP" : "BOTTOM")
-          : (above ? "ATTEMPTING" : "DEFENDING");
+          : n.ty === "submissions"
+            ? (above ? "FINISHING" : "ESCAPING")
+            : (above ? "ATTEMPTING" : "DEFENDING");
         const subCol = act.idx === this.focusIdx
           ? this.myColor(act)
           : (act.z < 0 && act.colU ? act.colU : act.col);
@@ -12849,16 +12871,34 @@ class Component extends DCLogic {
         // a pair you are merely POINTING AT is not the state you are in — it reads one step back
         // so the focus keeps its rank on a graph where every position is now a pair (v1.125.0).
         const aF = focused ? A : A * 0.86;
+        // ── THE BLOCK STRADDLES THE MIDLINE, NOT THE NAME (v1.129.4) ────────────────────────
+        // Owner: "those from wtv position look poorly aligned. rule is when those extra subtitles
+        // show, the label shouldnt be aligned at the center, but rather the label and the 'from
+        // subtitle' rows should be centered to the middle of the dual nodes".
+        //
+        // Exactly right, and it is what v1.129.0 got wrong: it pinned the NAME to the midline and
+        // hung the qualifier under it, so the two-row object's centre sat a whole half-line BELOW
+        // the pair it belongs to. The midline is the one line equidistant between the two orbs —
+        // that is why the group reads as ONE label for ONE state — so what must be centred on it
+        // is everything that names the node, not just its first row.
+        //
+        // `lift` is half the row lead, so the two baselines straddle `sy`. With no qualifier it is
+        // ZERO and every number below degenerates to the value it has always had (name `sy+6`,
+        // role `sy-12` / `sy+24`) — which is the uniformity the owner asked for: ONE rule covering
+        // both cases rather than two layouts that can drift apart.
+        const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const nameY = sy + 6 - lift;
+        const qualY = nameY + this.NG_LABEL_LEAD;
         ctx.font = (focused ? "700 18px " : "700 15px ") + dfam + ", sans-serif";
         const drawnMain = this._fitText(ctx, nm, gMaxW);
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
-        ctx.fillText(drawnMain, ox, sy + 6);
+        ctx.fillText(drawnMain, ox, nameY);
         let drawnQual = "";
         if (qual) {
           ctx.font = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
           drawnQual = this._fitText(ctx, qual, gMaxW);
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
-          ctx.fillText(drawnQual, ox, sy + 21);
+          ctx.fillText(drawnQual, ox, qualY);
         }
         // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
         // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
@@ -12866,10 +12906,12 @@ class Component extends DCLogic {
         // the name's BODY instead of its tail and the mutant survived three different oracles.
         // Reading the strings the frame passed to `fillText` is not a re-implementation of the
         // render — it IS the render's output.
-        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, focused: focused };
+        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null };
         ctx.font = "700 11px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(subCol, aF);
-        ctx.fillText(sub, ox, above ? sy - 12 : sy + (qual ? 38 : 24));
+        // the role rides the OUTSIDE of the block, so it can never land on the qualifier and never
+        // drifts away from the name when there is no qualifier.
+        ctx.fillText(sub, ox, above ? nameY - 18 : (qual ? qualY : nameY) + 18);
         ctx.shadowBlur = 0;
         return true;
       };
@@ -12944,11 +12986,16 @@ class Component extends DCLogic {
         const qual = n.ty === "positions" ? "" : sp.from || "";
         const main = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
         // with a qualifier the block straddles the node's line; without one nothing moves.
-        ctx.fillText(this._fitText(ctx, main, maxW), hx, qual ? sy - 14 : sy - 8);
+        // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
+        // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
+        // long-standing `sy - 8`; with one, the rows sit either side of the node's line.
+        const hLift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const hNameY = sy - 8 - hLift;
+        ctx.fillText(this._fitText(ctx, main, maxW), hx, hNameY);
         if (qual) {
           ctx.font = "600 10.5px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A * 0.62);
-          ctx.fillText(this._fitText(ctx, qual, maxW), hx, sy + 1);
+          ctx.fillText(this._fitText(ctx, qual, maxW), hx, hNameY + this.NG_LABEL_LEAD);
         }
         ctx.shadowBlur = 0;
       }
