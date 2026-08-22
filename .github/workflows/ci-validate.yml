@@ -76,11 +76,22 @@ jobs:
       - name: Share ordinal lockfile (append-only, hard gate)
         run: python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
 
+      # THE CORPUS THIS GATE READS IS GENERATED, NOT COMMITTED (v1.129.2).
+      # `source/quartz/static/neural/` is gitignored in its entirety, so `graph-data.json`,
+      # `curriculum.json` and the 2,924 flashcard chunks do not exist on a fresh checkout. The
+      # step below used to be introduced by a comment claiming it "reads the committed chunk
+      # corpus" — it does not, and that false belief is why it was wired up with nothing to emit
+      # the payload first. `e2e-full.yml` has always regenerated before its work; this workflow
+      # never did. Inputs are all committed (graph.json, globalGraphLayout.json, node_ordinals.json,
+      # content/), so this is self-contained and takes a few seconds.
+      - name: Emit the neural payload (input to the MC gate)
+        run: python3 scripts/regenerate_neural_data.py
+
       # MC viability (hard gate by its own docstring: >=99% curriculum viability, zero
       # micro-answer decks, golden cross-anchors deliberately duplicated in
       # e2e/journeys/mc-flashcards.spec.ts so Python/JS drift breaks a gate). It ran in NO
-      # workflow until v1.106.8 — the drift it exists to catch was unguarded. Reads the
-      # committed chunk corpus; ~1 min, no browser.
+      # workflow until v1.106.8 — and then could not PASS in one until v1.129.2, because the
+      # payload above was missing. ~1 min, no browser.
       - name: MC viability audit (hard gate)
         run: npm run validate:mc
 
