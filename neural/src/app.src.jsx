@@ -1308,13 +1308,37 @@ class Component extends DCLogic {
   }
   /** `amp` scales the bloom this node gets; the places the roll STOPS pass ARRIVE_BLOOM. */
   flare(idx, amp) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; } }
+  /**
+   * WHERE THE PULSE IS, IN THE COORDINATES IT IS DRAWN IN (v1.129.7).
+   *
+   * Owner: "The current node and the place where the pulsing signal starts after we decide on a
+   * choice are not the same place, and it should be."
+   *
+   * Right, and this was an internal contradiction inside one feature. The trail
+   * (`moveTo(na.x, LY(na))`) and the look-ahead line (`lineTo(n.x, LY(n))`) were BOTH already
+   * drawn at the lifted coordinate; only the HEAD read `n.y`, the shared ground point every pair
+   * member is lifted off. So the head travelled along a line it was not on, and left an orb it was
+   * not standing at — measured at roll zoom: **46.6px** between the head at t=0 and the orb it was
+   * leaving.
+   *
+   * FIFTH INSTANCE of the `n.y`-where-the-renderer-draws-at-`LY(n)` defect (hover and tap in
+   * v1.114.3, `rollFromPosition` in v1.114.4, four specs in v1.125.0). `_LY` is published every
+   * frame and is the identity on any node without a partner, so production geometry is unchanged
+   * by construction; the fallback covers the frames before the first draw.
+   *
+   * It feeds `camFocus` too (two callers), so the follow-cam was tracking the ungrounded point as
+   * well — the camera and the light were wrong together, which is why neither looked obviously
+   * broken on its own.
+   */
   headPos() {
     const p = this.pulse;
-    if (!p) { const n = this.nodes[this.focusIdx] || { x: this.gcx, y: this.gcy }; return { x: n.x, y: n.y, col: { r: 255, g: 255, b: 255 } }; }
-    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: n.y, col: n.col }; }
+    const ly = this._LY || ((q) => q.y);
+    if (!p) { const n = this.nodes[this.focusIdx] || { x: this.gcx, y: this.gcy }; return { x: n.x, y: ly(n), col: { r: 255, g: 255, b: 255 } }; }
+    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: ly(n), col: n.col }; }
     const a = this.nodes[p.path[p.seg]], b = this.nodes[p.path[p.seg + 1]];
     const tt = this.ease(p.t);
-    return { x: a.x + (b.x - a.x) * tt, y: a.y + (b.y - a.y) * tt, col: this.lerpCol(a.col, b.col, tt) };
+    const ay = ly(a), by = ly(b);
+    return { x: a.x + (b.x - a.x) * tt, y: ay + (by - ay) * tt, col: this.lerpCol(a.col, b.col, tt) };
   }
   updateTravel(dt) {
     const p = this.pulse; if (!p || p.done) return;
