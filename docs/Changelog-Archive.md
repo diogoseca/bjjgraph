@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.132.2** — [RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW](#v1-132-2-recognition-comes-first-every-deck-build)
 - **v1.132.1** — [THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED](#v1-132-1-the-technique-card-was-chrome-only-and-a)
 - **v1.132.0** — [CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED](#v1-132-0-clicking-a-technique-lands-on-it-and-the)
 - **v1.131.0** — [THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK](#v1-131-0-the-landing-card-gets-rungs-and-pages-it)
@@ -3542,6 +3543,35 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.132.2 — RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW
+
+### RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW (v1.132.2)
+
+Owner, meeting v1.132.1's recall fallback on the Americana card: *"It should have shown me
+multiple choice. Same thing as with positions: I'm matured and I've solved multiple choice …
+and then I finally start to show actual Anki flashcards. Instead of multiple choice, we up the
+difficulty and start showing flashcards, so the person must know the answer … not recognize it
+anymore with MC starting off."* Recall at stage 0 inverts the recognise-first progression — the
+fallback treated a content defect as a format choice.
+
+**THE FIX IS ONE LINE IN THE EMITTER, AND IT CLOSES THE WHOLE WORKLIST.** `_qa_cards`'s display
+answer fell through to the FULL text when no `answer_line` existed and the first sentence
+overran `_mc_clip`'s 160-char cap — **1,707 cards across 532 decks (18%)** shipped paragraph
+display answers, and a 411-char `a` starves the app's MC length filters (every candidate fails
+the 0.4 ratio floor against it; the app's own `mcClip` nulls the same first sentences, so those
+answers contributed nothing as distractors either). `_hard_clip` — word-boundary truncation
+≤150 + ellipsis, full text preserved in `d` — makes every display answer one-line-comparable.
+Measured: cards over 160 chars **1,707 → 0**; `validate:mc` **96.3% → 100.0% viable, worklist
+110 → 0**; the owner's exact page deals a 4-option MC with option lengths 77–161 (no length
+tell). Progress is untouched by construction: stage/srs/prep key on `qhash(card.q)`, and the
+question text did not move.
+
+**The recall fallback (v1.132.1) survives as a last-resort safety net with NO live trigger in
+this corpus** — journey 5b now pins MC specifically (`mcOpts ≥ 3`, `recall === false`), and its
+M8 mutant moved from the app to the EMITTER: revert the `_hard_clip` line, re-emit, and the
+journey goes red (proven). A truncated line is not beautiful; it is honest and comparable —
+authored `answer_line` (Phase B) remains the quality upgrade.
 
 ## v1.132.1 — THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED
 

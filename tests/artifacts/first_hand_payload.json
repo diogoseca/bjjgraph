@@ -1,7 +1,7 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
-  "measured_at": "2026-08-24T17:26:47.361Z"
+  "measured_at": "2026-08-24T17:56:39.489Z"
  },
  "request_count": 20,
  "first_hand_raw_bytes": 1689179,

@@ -28,7 +28,9 @@ import { journey } from "../dsl"
  *   M5 — a technique URL is rewritten to its origin (the pre-v1.132.0 yank)  → journey 5
  *   M6 — play on a defender-staged technique deals a placid hand (no rush)   → journey 6
  *   M7 — play on an attacker-staged technique does not commit the exchange   → journey 7
- *   M8 — a starved MC pool leaves the technique card EMPTY (no recall fall)  → journey 5
+ *   M8 — the emitter ships paragraph display-answers again (_hard_clip gone:
+ *        MC starves on 532 decks and recall shows at stage 0, inverting the
+ *        recognise-first progression — the owner's Americana report)         → journey 5b
  *   M9 — the option-label pass draws over the focused pair (printed twice)   → journey 5
  *   M10 — the film ignores perspective-nested clips (technique film lost)    → journey 5
  */
@@ -388,14 +390,17 @@ test("a technique page keeps its URL and stages the exchange, card standard @cur
 })
 
 // ── 5b. the owner's exact report: a starved deck still asks ──────────────────────────────────
-test("a technique whose deck cannot build an MC still asks — recall, never an empty card", async ({
+test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, always", async ({
   page,
 }) => {
   const j = journey(page)
-  // Americana from Kimura Trap|Attacker: 411-char answers, so the MC length filters reject the
-  // whole corpus as distractors (the answer_line content debt). The card the owner met was
-  // chrome-only. With the fallback, the recall block asks; if Phase B content work later makes
-  // MC viable here, the mc-or-recall shape keeps this green.
+  // Americana from Kimura Trap|Attacker was the owner's report twice over: first an EMPTY card
+  // (411-char paragraph answers starve every MC length filter), then — with the recall fallback
+  // alone — "Show answer" at stage 0, inverting the recognise-first progression ("It should
+  // have shown me multiple choice … then I finally start to show actual Anki flashcards").
+  // The emitter's _hard_clip bridge makes every display answer one-line-comparable, so the MC
+  // builds: corpus viability measured 96.3% → 100.0%, worklist 110 → 0. The recall block
+  // remains only as a last-resort safety net with no live trigger in this corpus.
   await j.boot("/Submissions/Americana/from-Kimura-Trap")
   await j.advance(6000)
   await j.landQuestion()
@@ -403,12 +408,13 @@ test("a technique whose deck cannot build an MC still asks — recall, never an 
     about: (window as W).__neural._landIdx != null
       ? (window as W).__neural.nodes[(window as W).__neural._landIdx].t : null,
     q: !!document.querySelector("[data-land-q]"),
-    mc: !!document.querySelector("[data-land-mc-opt]"),
+    mcOpts: document.querySelectorAll("[data-land-mc-opt]").length,
     recall: !!document.querySelector("[data-land-recall]"),
   }))
   expect(s.about).toBe("Americana from Kimura Trap")
   expect(s.q, "the card asks something").toBe(true)
-  expect(s.mc || s.recall, "MC or recall — never chrome-only").toBe(true)
+  expect(s.mcOpts, "…as MULTIPLE CHOICE — recognition comes first").toBeGreaterThanOrEqual(3)
+  expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
 // ── 6. play on the defending side = the red rush ─────────────────────────────────────────────

@@ -591,18 +591,36 @@ def _mc_clip(a: str):
     return seg if 0 < len(seg) <= 160 else None
 
 
+def _hard_clip(a: str):
+    """Word-boundary truncation to <=150 chars + an ellipsis — the bridge for cards whose FIRST
+    SENTENCE overruns _mc_clip's 160-char cap and that carry no authored `answer_line` yet.
+    WHY IT EXISTS (v1.132.2, owner: "It should have shown me multiple choice"): falling through
+    to the FULL answer shipped 1,707 paragraph-length display answers across 532 decks (18%),
+    and a 411-char `a` starves the app's MC length filters — every distractor fails the 0.4
+    ratio floor against it, so those decks could never build a multiple choice and the card
+    degraded to recall at stage 0, inverting the recognise-first progression. A truncated line
+    is not beautiful; it is honest, comparable in length to every other option, and the full
+    text still shows post-reveal via `d`. The QUALITY fix stays Phase B: authored answer_line."""
+    t = (a or "").strip()
+    if len(t) <= 160:
+        return t or None
+    cut = t[:150].rsplit(" ", 1)[0].rstrip(" ,;:.—-")
+    return (cut + "…") if cut else None
+
+
 def _qa_cards(fc: list) -> list:
     """Neural card: {q, a, d?, mc?}. `a` = the DISPLAY answer (authored one-line `answer_line`
-    when present, else the clipped first sentence, else the full answer). `d` = the full
-    explanation, emitted only when it differs from `a` (the post-reveal "more" tooltip). `mc` =
-    {p,t} authored one-line distractor tiers when present (graded plausible/trap)."""
+    when present, else the clipped first sentence, else a word-boundary hard clip — NEVER the
+    full paragraph, see _hard_clip). `d` = the full explanation, emitted only when it differs
+    from `a` (the post-reveal "more" tooltip). `mc` = {p,t} authored one-line distractor tiers
+    when present (graded plausible/trap)."""
     out = []
     for c in fc or []:
         q = c.get("q") or c.get("question")
         full = c.get("a") or c.get("answer")
         if not (q and full):
             continue
-        line = c.get("answer_line") or _mc_clip(full) or full
+        line = c.get("answer_line") or _mc_clip(full) or _hard_clip(full) or full
         card = {"q": q, "a": line}
         if full != line:
             card["d"] = full
