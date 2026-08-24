@@ -29,9 +29,9 @@ single nodes, and any win/lose recoloring ("blue/red is only WHICH PLAYER you ar
 >   driver in the present tense; it is history. Its three BEHAVIOURAL journeys — the pair label
 >   group, the hit-test reading the drawn position, the camera on a half-swap — came back in
 >   **v1.127.0** as `e2e/journeys/dual-pair.spec.ts`, in the core suite on the default build. The
->   screenshot shoot itself did not, and CLAUDE.md → "THE PAIR JOURNEYS COME HOME" says why.
+>   screenshot shoot itself did not, and `docs/Changelog-Archive.md` → v1.127.0 says why.
 >
-> What ACTUALLY shipped, with its measurements, is CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
+> What ACTUALLY shipped, with its measurements, is `docs/Changelog-Archive.md` → v1.125.0 ("THE PAIR IS THE DEFAULT, AND IT IS
 > DERIVED AT INGEST". The committed screenshots referenced here stay, because they are the evidence
 > the owner judged.
 

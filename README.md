@@ -52,8 +52,10 @@ For iterative work, edit JSON sources in `content/`, run a targeted regenerate s
 | `npm run regenerate:md` | Regenerate markdown from JSON via Jinja2 templates |
 | `npm run regenerate:hubs` | Generate category hub pages (`Positions.md`, `Transitions.md`, …) |
 | `npm run regenerate:votes` | Generate community voting data |
-| `npm run regenerate:graph` | Generate `graph.json` (the runtime data feed) |
-| `npm run regenerate` | All 7 regenerate steps in order |
+| `npm run regenerate:graph` | **Umbrella**: `graph-base` (graph.json) → `graph-layout` → `ordinals` → `graph-strength`. Running only `graph-base` strips `strength` from every node |
+| `npm run regenerate:ordinals` | Mint the append-only share-link ordinal lockfile (`node_ordinals.json`) |
+| `npm run validate:ordinals` | Hard gate: no ordinal renumbered, reused or deleted — share links encode them |
+| `npm run regenerate` | The full chain, in order (see CLAUDE.md §4) |
 | `npm run build` | Build the static site (~10 min, ~5700 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run serve` | Serve `source/public` on port 8080 (no rebuild) |

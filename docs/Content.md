@@ -14,28 +14,50 @@ Never edit `.md` files in `content/` directly — they are regenerated from `.js
 
 ## Success Rates (Critical)
 
+> **Corrected v1.130.0.** This section previously documented a tri-level
+> `(Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)` format. **That format does not
+> exist**: zero of ~1,500 content files use it, no validator mentions "Beginner", and the
+> templates render a single percent. CLAUDE.md carried the same phantom, so the two documents
+> corroborated each other against the whole corpus. The real shape is below.
+
 ### Format
 
+Success rates are authored as a **per-ruleset `{gi, nogi}` map** in the source JSON:
+
+```jsonc
+"success_rate": { "gi": 50, "nogi": 50 }
 ```
-(Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)
+
+Each outcome carries the same shape, and each frame sums to 100 independently:
+
+```jsonc
+"outcomes": [
+  { "to": "Mount/Top", "probability": { "gi": 50, "nogi": 50 }, "result": "success" }
+]
 ```
 
 ### Rules
 
 | Rule | Description |
 |------|-------------|
-| **Ordering** | Beginner <= Intermediate <= Advanced (strictly enforced) |
+| **Shape** | `{gi, nogi}` map — never a bare scalar in source |
 | **Values** | 0-100 integers only |
-| **Required** | All three skill levels must be present |
-| **Progression** | Typical 10-15% increase per level |
+| **Per frame** | `gi` and `nogi` are independent; each outcome set sums to 100 within its own frame |
+| **Coherence** | `success_rate` must equal the sum of the `success` outcome cells (gated by `validate:graph`) |
+| **A frame may be 0** | A gi-only or no-gi-only technique legitimately scores 0 in the other frame |
 
-### Examples
+### How it renders
 
-| Technique Type | Beginner | Intermediate | Advanced |
-|----------------|----------|--------------|----------|
-| Sweep from guard | 40% | 55% | 70% |
-| Submission from mount | 50% | 65% | 80% |
-| Escape from bad position | 25% | 40% | 55% |
+`graph.json` carries the **folded no-gi scalar** as `successRate`, plus the pair as
+`successRateByRuleset`, so existing consumers stay scalar. The page renders the same folded
+value (`templates/Transitions/TEMPLATE-DUAL.md.jinja2`), so page text, graph and game agree:
+
+```
+**Success Rate**: 50%
+```
+
+The published number is a Bayesian blend of the calibrated prior and real community votes —
+see `scripts/apply_calibration.py` and `scripts/_votes.py`.
 
 ---
 
@@ -302,7 +324,7 @@ tags:
 ```yaml
 ---
 title: "[Technique Name] | BJJ Technique | BJJ Graph"
-description: "Learn [Technique Name] in BJJ. Step-by-step from [Start] to [End]. Success: Beginner X%, Intermediate Y%, Advanced Z%."
+description: "Learn [Technique Name] in BJJ. Step-by-step from [Start] to [End]. Success rate: N%."
 tags:
   - transitions
   - [category]
@@ -335,7 +357,7 @@ npm run regenerate:build
 
 ### What Validation Checks
 
-- Success rate ordering (Beginner <= Intermediate <= Advanced)
+- Success rate coherence (`success_rate` equals the sum of its `success` outcome cells, per frame)
 - Wikilink resolution (all targets exist)
 - Required sections present
 - YAML schema compliance
