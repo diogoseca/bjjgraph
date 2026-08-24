@@ -1,0 +1,8 @@
+{
+ "_comment": "Char ceilings for the always-loaded canon and its companions. A ceiling is a MAX: shrinking always passes. Raising one needs --update in its own justified commit, with a reason. See scripts/check_claudemd_budget.py. CLAUDE.md is loaded into EVERY session, so its size is a standing tax on all work; it was 349,512 chars before the v1.130.0 canon/changelog split and is budgeted at 82,000 to leave real working room without letting the changelog creep back in. The archive is budgeted generously because it is a grep target that is never auto-loaded - it is listed only so that 'shrink CLAUDE.md' cannot be satisfied by moving weight somewhere nobody is watching.",
+ "ceilings": {
+  "CLAUDE.md": 82000,
+  "docs/Changelog-Archive.md": 420000,
+  "docs/Neural.md": 40000
+ }
+}
