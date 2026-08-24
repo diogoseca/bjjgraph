@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.132.0** — [CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED](#v1-132-0-clicking-a-technique-lands-on-it-and-the)
 - **v1.131.0** — [THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK](#v1-131-0-the-landing-card-gets-rungs-and-pages-it)
 - **v1.129.8** — [THE CAPTURE STAR](#v1-129-8-the-capture-star)
 - **v1.129.6** — [THE OPENING FLIGHT AIMS AT THE CARD'S BAND](#v1-129-6-the-opening-flight-aims-at-the-card-s-ba)
@@ -3540,6 +3541,83 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.132.0 — CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED
+
+### CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED (v1.132.0)
+
+The owner met v1.131.0 the same day it was committed and corrected half of it — the fastest
+retirement in this repo, and the correction is a better model than what it replaces.
+
+**RETIRED ON SIGHT: the hide/reveal rung and the visible pager.** *"I don't like that hide
+answers part, and I don't like that [the ‹dots› pager] … left right scrolling should still work
+to change between flashcards."* The gestures ARE the feature: swipe / trackpad `deltaX` / `←→`
+all survive, the chrome and the rung do not. `_landAnsHid`, `_setLandAnswers`, `_applyLandRung`,
+the reveal CTA, the Hide button, `_paintLandPager` and every `.ng-land-*` rung/pager CSS class
+are deleted; the A–D gate, the `held` list, `expandLandCard` and the More handler revert. The
+`landAnswers` settings key never deployed beyond this working tree, so nothing tombstones — it
+simply has no reader. Bundle: the deletions PAID for the whole navigation feature below
+(475,307 → 471,321 raw · 140,428 → 139,553 gzip: **net −875 gzip**).
+
+**THE UNIFORM MODEL, in the owner's words:** *"It should be uniformized: when you click on a
+transition or on a submission, you navigate to it. The URL changes to it, and the landcard is
+standard"* — clarified against a proposal: card anatomy **identical to positions**, and *"if I
+click Kimura, then the landing should land on Kimura, not Knee on Belly or whatever."* Plus, from
+the same sitting: *"when I click a submission and I'm defending … If I click play, I want to see
+that rush if someone is attacking you and submitting you, and you need to think fast."*
+
+**WHAT WAS ACTUALLY BROKEN, measured before designing** (`tests/artifacts/_landcard_probe.mjs`,
+real server, real clicks):
+- A graph tap on a technique left the URL and the roll untouched ("still in the same position,
+  which is unrelated") and opened the old `attempt` card — header block, auto-expanded More
+  ("automatically shows more instead of showing less"), "Roll from here".
+- Arriving on `/Submissions/Belly-Down-Armbar/from-Side-Control` REWROTE the address to
+  `/Positions/Side-Control` — you could never stand on the technique's own page.
+- Arriving on the family hub `/Submissions/Belly-Down-Armbar` resolved to NOTHING → a random
+  weighted start (measured: Electric Chair Top, then Standing Position Top), roll RUNNING, with
+  the address bar still naming the family. That is the owner's "I don't see the land card.
+  Instead, I see this other smaller card."
+
+**THE MODEL.** One seam, `rollFromPosition` (per §6.5's one-implementation law): when the chosen
+node is a technique, the SEAT still resolves to its origin (`techniqueOrigin` — the engine's
+states are positions; v1.126.0 measured what staging ON a technique node does to the hand), but
+the CHOSEN node keeps `camFocus`/`camTarget`, `_syncUrl`, `focusIdx`, the flare and the card.
+`_stagedTech = {idx, side}` arms the exchange — `side` derives from `playerRole` vs the
+technique's `fromRole`, so the escaping orb of the pair and a `/Defender` page both seat you
+defending with no extra plumbing. `enterLand` renders the technique's card (uniform anatomy) and
+keeps the focus on it; `_landBackfill` learned to serve it. The `_played` latch in `_tick`
+consumes the latch: **attacker → `_optPick` on that very card** (the ordinary commit path —
+`land_q_ignored` cannot fire, `_landPending` is cleared first, and the technique is in its
+origin's hand 99.6% by v1.126.0's measure); **defender → `enterDefense(techIdx)`** — the red
+vignette, the panic card, the escape hand. `clearOptions` consumes the latch, so picking a
+different card while staged simply wins. The tap handler reverts to the two-way rule (own node
+reads, everything else stages) — v1.129.1's three-way rule existed only because staging used to
+HOP; the hop is gone, so the rule folds back. Family hubs resolve to the family's most-connected
+member (`deg` max over `id`-prefix members, reps only).
+
+**THE UNIFORM CARD.** The attempt card's header (`[data-land-id]`) and "Roll from here"
+(`[data-land-play]`) are deleted — the graph names the focused node beside it (the v1.101.1 rule,
+now applied to techniques since they ARE the focus), and clicking already set the board. Nothing
+auto-expands anywhere any more: `openDossier` loses both `_landOpenNext` setters and its trailing
+`expandLandCard(true)` ("it automatically shows more instead of showing less"). Probe screenshot
+against the ask: question + A–D + `More ▸` folded + chip + star/✕, over the origin's dealt hand,
+with the graph reading "Float Passing · ATTEMPTING" beside the focused diamond.
+
+**Two traps met on the way:**
+- `clearOptions()` is a ONE-LINE method; inserting a latch-clear line swallowed its whole body
+  into the trailing `//` comment — a parse error two methods later. Multi-statement one-liners
+  bite exact-match edits too.
+- The v1.131.0 rung CTA had silently reused `[data-land-reveal]` — the RECALL block's own
+  Show-answer handle (`_recallBlock`'s `p + "-reveal"`). Never collided at runtime only because
+  the rung exempted recall blocks; the retirement dissolves it. Naming a new handle: grep the
+  prefix first.
+
+**Gates.** `landcard-modes.spec.ts` rewritten (8 journeys, 4 `@curated`: paging economy, swipe,
+wheel/branch-order, panic exemption, URL-kept, defender rush, attacker commit, family hub);
+roll-card's tap journey rewritten for the navigation model and its journey 5 re-pinned folded.
+**Seven mutants, seven kills** (economy farm, dominant-axis, click suppressor, hidden-card gate,
+URL-rewritten-to-origin, defender-rush-dropped, attacker-commit-dropped). url-arrival green
+UNCHANGED — the seat rules it pins all survive.
 
 ## v1.131.0 — THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK
 

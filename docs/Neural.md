@@ -62,33 +62,41 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 **one-line definition → film → one multiple-choice question → your options → `More ▸`**. The card
 prints no name and no side: the graph names the state, beside the node.
 
-Three modes. `land` — you are standing here. `attempt` — you tapped a technique to read it; the
-card names that technique and its `+` captures **that technique**, and `[data-land-play]` starts a
-roll from it through `confirmPlayFrom`. `defense` — the panic drill, same element with a danger
-skin, asked **above** the escape hand rather than inside it.
+Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
+guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
+arrival, a staged exchange); only its border skin differs — **no header** (the graph names the
+focused node, the same rule that removed the position card's header) and **no "Roll from here"**
+(clicking already set the board; play is the one go control). `defense` — the panic drill, same
+element with a danger skin, asked **above** the escape hand rather than inside it. Nothing
+auto-expands: every card arrives folded, `More` one tap away.
+
+**Clicking (or arriving on) a technique NAVIGATES to it** (v1.132.0, owner: "when you click on a
+transition or on a submission, you navigate to it. The URL changes to it, and the landcard is
+standard" — and "if I click Kimura, then the landing should land on Kimura, not Knee on Belly").
+`rollFromPosition` keeps the CHOSEN node's camera (`camFocus`), URL (`_syncUrl` — a technique URL
+is never rewritten to its origin), focus, flare and card, while the SEAT stays the technique's
+origin position (the engine's states are positions); `_stagedTech = {idx, side}` arms the
+exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
+orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
+consumed at the `_played` latch): the attacking side commits that very technique through the
+ordinary pick path; the defending side gets `enterDefense` — the red rush, vignette burning,
+escape hand, think fast. Any other commit or teardown (`clearOptions`) consumes the latch, so
+picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
+resolves to the family's most-connected member instead of falling through to a random weighted
+start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
+`staged_exchange {technique, side}`.
 
 Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
 familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
 that landing only.
 
-**Three rungs (v1.131.0): hidden ⇄ normal ⇄ open.** In the hidden rung the MC options stand down
-behind a 44px **"Answer for better odds"** CTA (`[data-land-reveal]`); the normal rung carries a
-quiet **"Hide answers"** (`[data-land-hide]`) under the options; open is the `More` fold. The
-player's own Reveal/Hide clicks persist a binary preference — the `landAnswers` settings key
-("show"|"hide", default "show", **no Settings-modal row**) — and nothing else writes it: More/Less
-never do, programmatic opens (`openDossier`'s read intent) never do, and More pressed while hidden
-counts as a reveal. The open rung never persists, so a card left fully open comes back **normal**
-on the next landing; a card left hidden comes back hidden. The hidden rung builds the MC block
-exactly as the shown one (same `land-mc-*` draws, same `_mc` truth — only visibility differs), the
-A–D keys refuse while answers are hidden, and recall-format blocks are exempt (they are already
-think→reveal). The fold's open-over-hidden invariant lives in `expandLandCard`; the preference
-writer is `_setLandAnswers`, and it is the only one.
-
-**Paging (v1.131.0): the card browses its own deck.** Swipe left/right (drill-panel thresholds:
-40px / 700ms, horizontal-dominant only), trackpad `deltaX` (accumulated, one page per gesture),
-the foot-center `‹ dots ›` pager (`[data-land-pager]`, dots not numbers — the chip beside it
-already prints `done/total`), and `←`/`→` (a branch **below** the pane-History and drill arrow
-branches, refused whenever `_landHidden()`). `_landPageTo(dir)` replaces the `[data-land-q]` block
+**Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
+left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
+(accumulated, one page per gesture), and `←`/`→` (a branch **below** the pane-History and drill
+arrow branches, refused whenever `_landHidden()`). Gestures only — the visible `‹ dots ›` pager
+and the reveal/hide rung shipped in v1.131.0 and were retired the next day (owner: "I don't like
+that hide answers part … left right scrolling should still work"); the `landAnswers` settings key
+never deployed and has no reader. `_landPageTo(dir)` replaces the `[data-land-q]` block
 only — never a re-render — clamped at the deck's ends; a previously-seen card **re-parents from
 the per-landing page cache** (same shuffle, no second RNG draw; an answered card returns as its
 graded, disabled record). A cold distractor pool warms through `_landWarmP` (replace-not-clear).

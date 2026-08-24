@@ -588,7 +588,7 @@ class Component extends DCLogic {
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
         else { this._clearPauseLatches(); this.setPaused(!this.paused); }
-      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && (this._landHidden() || this._landAnsHid)) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
         e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
         this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
       } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
@@ -7306,20 +7306,13 @@ class Component extends DCLogic {
     // "Your current position" at all: dismissing the card with its ✕ (v1.101.1) nulls `_landEl`,
     // so the next click on your own node fell straight through to the sheet. A dismissed card is
     // a card to REBUILD, not a reason to open a different surface.
-    if (n.ty !== "positions") {
-      // A TECHNIQUE READS AS ITSELF. Staging would hop to its origin POSITION
-      // (`rollFromPosition` does that deliberately), and then the card on screen — and the `+`
-      // in its corner — would be about the position, not the technique a coach just tapped in
-      // their class list. "attempt" mode is the card that names a technique and asks its
-      // question; `hooks` is optional (only `onAnswer` is ever read) and the roll is untouched.
-      this._landOpenNext = true;
-      this.renderLandCard(n, "attempt", null);
-    } else if (idx !== this.currentPos) {
-      // the card for a staged node is built LATER, when the flight lands and `enterLand` runs —
-      // so the intent ("I opened this to read it") is carried forward rather than applied to a
-      // card that does not exist yet. One shot: `renderLandCard` consumes it after the
-      // node-change reset that would otherwise wipe a plain `_landOpen`.
-      this._landOpenNext = true;
+    if (n.ty !== "positions" || idx !== this.currentPos) {
+      // NAVIGATE TO IT (v1.132.0, owner: "when you click on a transition or on a submission, you
+      // navigate to it. The URL changes to it, and the landcard is standard."). A technique lands
+      // ON the technique — rollFromPosition keeps the chosen node's camera/URL/focus and seats
+      // the roll at its origin; play runs the exchange. Nothing auto-expands any more (owner:
+      // "it automatically shows more instead of showing less") — More is one tap away, folded,
+      // exactly as a position's card.
       this.stageRollAt(idx);
     } else if (!this._landEl) {
       this.renderLandCard(n, "land", null);
@@ -7327,7 +7320,6 @@ class Component extends DCLogic {
     this._dossierIdx = null;                   // nothing "opened"; the game card simply grew
     if (this.deckShown) this.setDeckOpen(false);
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
-    this.expandLandCard(true);
     this.lastInteract = this.now; this.flare(idx);
   }
   /**
@@ -7759,18 +7751,35 @@ class Component extends DCLogic {
         if (j != null) { i = j; const w = m[2].toLowerCase(); if (w === "top" || w === "bottom") role = w; else persp = w; }
       }
     }
+    if (i == null) {
+      // A FAMILY HUB PAGE (Submissions/<Family>, Transitions/<Family>) is an edgeless aggregator
+      // with no node of its own — it used to resolve to NOTHING, so a shared or searched link
+      // opened on a RANDOM weighted start with the address bar still naming the family (measured:
+      // /Submissions/Belly-Down-Armbar landed on Electric Chair). Resolve to the family's
+      // most-connected member: deterministic, and its origin is the family's most central home.
+      const segs = id.split("/");
+      if (segs.length === 2 && (segs[0] === "Submissions" || segs[0] === "Transitions")) {
+        let best = null, bd = -1;
+        for (let k = 0; k < this.nodes.length; k++) {
+          const nn = this.nodes[k];
+          if (!nn || nn.rep === false || !nn.id) continue;
+          if (nn.id.indexOf(id + "/") === 0 && (nn.deg || 0) > bd) { best = k; bd = nn.deg || 0; }
+        }
+        if (best != null) i = best;
+      }
+    }
     if (i == null) return NONE;
     const n = this.nodes[i]; if (!n) return NONE;
     if (!role && (n.role === "top" || n.role === "bottom")) role = n.role;   // dual: the member IS a side
     if (!persp && (n.role === "attacker" || n.role === "defender")) persp = n.role;
-    // A TECHNIQUE PAGE SEEDS AT ITS ORIGIN POSITION, ON THE SIDE ITS PERSPECTIVE NAMES — the same
-    // seam `rollFromPosition` uses, so a typed address and a tapped orb can never disagree.
-    // Before v1.126.0 the Defender pages seeded the ATTACKER's side, 1330 of 1330: the page says
-    // you are the one being armbarred and the app dealt you the armbar.
+    // A TECHNIQUE PAGE LANDS ON THE TECHNIQUE (v1.132.0, owner: "if I click Kimura, then the
+    // landing should land on Kimura"). rollFromPosition seats the roll at the origin internally;
+    // the perspective page decides YOUR side of the exchange through the seat role handed over —
+    // /Defender still seats the defending side (the v1.126.0 fix, one level up).
     if (n.ty !== "positions") {
       const o = this.techniqueOrigin(n, persp);
       if (o.idx < 0) return NONE;
-      return { idx: o.idx, role: role || o.role };
+      return { idx: i, role: role || o.role };
     }
     return { idx: i, role: role };
   }
@@ -8722,7 +8731,10 @@ class Component extends DCLogic {
     const ac = this.accountRef.current;
     if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
-  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+  clearOptions() {
+    // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
+    this._stagedTech = null;
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -9407,9 +9419,10 @@ class Component extends DCLogic {
   _landBackfill() {
     if (!this._landEl) return;
     if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
-    if (this._landMode !== "land" || this._landIdx !== this.currentPos) return;
+    const stTech = this._landMode === "attempt" && this._stagedTech && this._landIdx === this._stagedTech.idx;
+    if (!stTech && (this._landMode !== "land" || this._landIdx !== this.currentPos)) return;
     if (!this._decision || !this._optPick) return;
-    const pos = this.nodes && this.nodes[this.currentPos];
+    const pos = this.nodes && this.nodes[stTech ? this._landIdx : this.currentPos];
     if (!pos) return;
     // carry a live, unanswered question across the re-render instead of drawing a new one
     // …including the KEYBOARD's truth (v1.106.10): clearLandCard nulls this._mc for the land
@@ -9422,26 +9435,22 @@ class Component extends DCLogic {
     const act = document.activeElement;
     let held = null;
     if (act && this._landEl.contains(act))
-      for (const h of ["data-land-more", "data-land-count", "data-land-reveal", "data-land-hide", "data-land-prev", "data-land-next"])
+      for (const h of ["data-land-more", "data-land-count"])
         if (act.hasAttribute(h)) { held = "[" + h + "]"; break; }
     // somebody is hiding the card inline (the expand sheet owns the screen while it is up, and
     // restores these two on close) — a fresh element must inherit that, or the card pops into
     // view over the sheet the player is reading
     const hidden = this._landEl.style.opacity === "0";
     this._landLate = true;                       // the beat says "this question arrived late"
-    try { this.renderLandCard(pos, "land", null, reuse); } finally { this._landLate = false; }
+    try { this.renderLandCard(pos, stTech ? "attempt" : "land", null, reuse); } finally { this._landLate = false; }
     if (this._landEl && hidden) this._suppressLand(true);   // one seam, and it survives the entry animation
     if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
-  // ═══ LANDING-CARD RUNGS + PAGING (v1.130.0) ═══════════════════════════════════════════════
-  // The owner's three asks, one seam each:
-  //   1. answers hidden behind "Answer for better odds" — the RUNG, `_landAnsHid`, persisted as
-  //      the `landAnswers` settings key ("show"|"hide", default "show", NO Settings row: the
-  //      player's own Reveal/Hide clicks are the only writers, and the open rung — the More
-  //      fold — never persists, so "fully open" always decays to normal on the next card);
-  //   2. swipe / wheel / ‹›pager / ←→ page the CURRENT NODE's own flashcard deck — `_landPageTo`
-  //      with the per-landing cursor `_landPage`;
-  //   3. the ladder hidden ⇄ normal ⇄ open — `_landAnsHid` and `_landOpen`, never both true.
+  // ═══ LANDING-CARD PAGING (v1.130.0; the reveal/hide rung shipped here and was retired the
+  // next day — owner: "I don't like that hide answers part" — along with the visible ‹dots›
+  // pager: "left right scrolling should still work", i.e. the GESTURES are the feature) ═══════
+  // Swipe / trackpad wheel / ←→ page the CURRENT NODE's own flashcard deck — `_landPageTo` with
+  // the per-landing cursor `_landPage`. No visible pager chrome.
   // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST
   // answered card per landing (whichever one it is) is THE landing question — refund, combo,
   // qMod, `land_q_answered` — and every later answer is study: stage/srs/prep/noteCardDone all
@@ -9480,18 +9489,11 @@ class Component extends DCLogic {
       if (this._landQ === rec) this._landQ.answered = true;
       const first = !this._landAnswers || this._landAnswers.size === 0;
       if (this._landAnswers) this._landAnswers.add(qh);
-      // answering retires the rung controls: a graded block is a record, and hiding it again
-      // (or "revealing" it) answers nothing
-      const hb = qw.querySelector("[data-land-hide]");
-      if (hb) hb.remove();
-      const rv = qw.querySelector("[data-land-reveal]");
-      if (rv) rv.remove();
       if (first) this._landAnswered(ok, tier, mode, hooks, fmt);
       else {
         this.refreshOptionOdds();
         this.fx("land_q_extra", { correct: !!ok, tier: tier || null, deckKey: key });
       }
-      this._paintLandPager();
     };
     let usedRecall = landRecall;
     let block = landRecall ? this._recallBlock(card, key, done("recall"), "land") : this._mcBlock(card, key, done(), "land");
@@ -9503,10 +9505,6 @@ class Component extends DCLogic {
     }
     if (!block) return null;
     qw.appendChild(block);
-    if (!usedRecall) {
-      block.setAttribute("data-land-opts", "1"); // the rung's target: only an MC options wrap hides
-      this._applyLandRung(qw);
-    }
     this._landQ = rec;
     if (this._landPageCache) this._landPageCache[qh] = { el: qw, q: rec, mc: usedRecall ? null : (block.__ngMc || null) };
     if (this._landPage == null) {
@@ -9520,74 +9518,10 @@ class Component extends DCLogic {
       // this asks nothing new of the data model — it just names the suspected confusion.
       const unseen = (o.glyph || this.seenGlyph(key))[0] === "○";
       this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
-      this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate, hidden: !!(this._landAnsHid && !usedRecall) });
+      this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate });
       if (unseen) this.fx("land_q_unseen", { deckKey: key, node: o.node || null, cards: o.cards, mode: mode || "land", landing: (this.rollLog || []).length });
     }
     return qw;
-  }
-  _landRevealBtn() {
-    // the incentive copy is the owner's ask ("answer and improve odds"): the reveal IS the start
-    // of answering, and a right answer really does buy odds + clock (see _landAnswered)
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "ng-land-reveal";
-    b.setAttribute("data-land-reveal", "1");
-    b.innerHTML = 'Answer for better odds <span aria-hidden="true" style="opacity:.7;">\u25b8</span>';
-    b.addEventListener("click", (e) => { e.stopPropagation(); this._setLandAnswers("show"); });
-    return b;
-  }
-  _landHideBtn() {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "ng-land-hide";
-    b.setAttribute("data-land-hide", "1");
-    b.textContent = "Hide answers";
-    b.addEventListener("click", (e) => { e.stopPropagation(); this._setLandAnswers("hide"); });
-    return b;
-  }
-  // rung → DOM for one [data-land-q] block. An ANSWERED block always shows (it is a record and
-  // its controls are gone); a recall block has no options wrap and is exempt by construction.
-  _applyLandRung(qw) {
-    const wrap = qw.querySelector("[data-land-opts]");
-    if (!wrap) return;
-    const answered = !!qw.querySelector("[data-mc-result]");
-    const hid = !!this._landAnsHid && !answered;
-    // "flex", never "" — the wrap's display:flex is INLINE (its cssText), and style.display = ""
-    // DELETES an inline declaration rather than restoring it (the v1.104.2 NG_LAND_MORE_COL
-    // lesson): the un-hidden options then fell back to display:block and shrank to content width
-    wrap.style.display = hid ? "none" : "flex";
-    const rv = qw.querySelector("[data-land-reveal]");
-    if (hid && !rv) wrap.parentNode.insertBefore(this._landRevealBtn(), wrap.nextSibling);
-    else if (!hid && rv) rv.remove();
-    const hb = qw.querySelector("[data-land-hide]");
-    if (!hid && !answered && !hb) qw.appendChild(this._landHideBtn());
-    else if ((hid || answered) && hb) hb.remove();
-  }
-  // "the answers are hidden RIGHT NOW, on a block that has them" — distinct from the flag alone:
-  // a recall block under pref=hide has nothing hidden, so More pressed over it reveals nothing
-  // and must not write the preference.
-  _landRungHiddenNow() {
-    const el = this._landEl;
-    if (!el || !this._landAnsHid) return false;
-    const w = el.querySelector("[data-land-opts]");
-    return !!(w && w.style.display === "none");
-  }
-  // THE RUNG WRITER — the only writer of the `landAnswers` preference, and only ever from the
-  // player's own click (Reveal, Hide, or More-pressed-while-hidden, which IS a reveal).
-  // Programmatic opens (openDossier's read intent, the _landOpen restore on a re-render) go
-  // through expandLandCard's own invariant instead: "fully open is never remembered" (owner),
-  // and a preference nobody expressed is never written.
-  _setLandAnswers(m) {
-    if (this.get("landAnswers", "show") !== m) this.set("landAnswers", m);
-    this._landAnsHid = m === "hide";
-    const el = this._landEl;
-    if (el) {
-      const qw = el.querySelector("[data-land-q]");
-      if (qw) this._applyLandRung(qw);
-      this._dockLandCard(el); // the card's height just changed — the film strip docks off its top
-    }
-    this.fx(this._landAnsHid ? "land_answers_hidden" : "land_answers_revealed", { deckKey: this._landQ ? this._landQ.key : null });
-    this.track("neural_land_answers", { mode: m });
   }
   // ── PAGING: prev/next flashcard of THIS node ── (owner: "scroll left or right on the land
   // card, and it should show the previous or the next card" = the same node's deck.) Replaces
@@ -9615,7 +9549,6 @@ class Component extends DCLogic {
       this._landPage = next;
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
       this.fx("land_q_paged", { dir: dir > 0 ? 1 : -1, from: from, to: next, deckKey: key });
-      this._paintLandPager();
       this._dockLandCard(el);
     };
     const cached = (this._landPageCache || {})[qh];
@@ -9627,7 +9560,6 @@ class Component extends DCLogic {
       // truth is inert (its answer closure latched), so the only rule that matters is never to
       // clobber another surface's live block
       if (!this._mc || this._mc.surface === "land") this._mc = (!cached.q.answered && cached.mc) ? cached.mc : null;
-      this._applyLandRung(cached.el);
       mount(cached.el);
       return true;
     }
@@ -9647,27 +9579,6 @@ class Component extends DCLogic {
     const qw = this._mountLandQ(card, key, this._landMode, null, { paged: true });
     if (qw) { mount(qw); return true; }
     return false;
-  }
-  _paintLandPager() {
-    const el = this._landEl;
-    if (!el) return;
-    const pg = el.querySelector("[data-land-pager]");
-    if (!pg) return;
-    const key = this._landQ && this._landQ.key;
-    const cards = key ? this._landDeckCards(key) : [];
-    const n = cards.length;
-    const i = this._landPage == null ? 0 : this._landPage;
-    const dots = pg.querySelector("[data-land-dots]");
-    if (dots) {
-      if (n > 12) dots.textContent = (i + 1) + "/" + n;
-      else dots.innerHTML = cards.map((c, k) =>
-        '<i class="ng-land-dot"' + (k === i ? ' data-on="1"' : "") +
-        (this._landAnswers && this._landAnswers.has(this.qhash(c.q)) ? ' data-done="1"' : "") + "></i>").join("");
-    }
-    const pv = pg.querySelector("[data-land-prev]");
-    const nx = pg.querySelector("[data-land-next]");
-    if (pv) pv.setAttribute("aria-disabled", i <= 0 ? "true" : "false");
-    if (nx) nx.setAttribute("aria-disabled", i >= n - 1 ? "true" : "false");
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
@@ -9714,11 +9625,6 @@ class Component extends DCLogic {
       this._landPaged = false;       // "the user moved the cursor this landing"
       this._landAnswers = new Set(); // qhashes answered THIS landing — the first is the scored one
       this._landPageCache = {};      // qhash -> {el, q, mc}: re-paging re-parents, never redraws
-      // THE RUNG: the player's own Reveal/Hide clicks persist "show"|"hide" (`landAnswers`, no
-      // Settings row — the owner's call); a card opened to be READ (_landOpenNext -> _landOpen)
-      // starts revealed, because hiding what the player asked to read would be hostile. The two
-      // flags are never both true.
-      this._landAnsHid = !this._landOpen && this.get("landAnswers", "show") === "hide";
     }
     // A cold visitor's FIRST landing carries its question like every other one. This used to
     // return null when the coach owned the first landing — which was every cold visitor, i.e. it
@@ -9752,18 +9658,7 @@ class Component extends DCLogic {
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
     const info = this.ngContentFor(node);
-    const sp = this.splitName(node.t);
     const glyph = this.seenGlyph(key);
-    const log = this.rollLog || [];
-    const prev = log[log.length - 2];
-    const roleTxt = node.ty === "positions" ? this.roleLabel() : "Attacking";
-    // ── ONE ROLE CLAIM, AND IT IS THE TRUE ONE ── the visual graph collapses a position to a
-    // single hub node, and graph-data.json labels every one of those 136 hubs "… Top". The side
-    // you actually play is decided independently (startRoll's coin flip, playFrom's explicit
-    // choice), so pasting the raw title above the role line made HALF of all cold starts open a
-    // card reading "X-Guard Top" over "Bottom" — above the bottom player's hand. The name line
-    // carries the state's name; `roleTxt` is the only place a side is named.
-    const nameTxt = node.ty === "positions" ? this.posFamily(node.t) : sp.main;
 
     const el = document.createElement("div");
     el.className = "ng-landcard";
@@ -9786,21 +9681,11 @@ class Component extends DCLogic {
     // graph only labels that one while the sweep is animating.
     const famChip = this.familiarityChip(key, "data-land-count", { clickable: true, style: "margin-left:auto;" });
     const totalCards = famChip.total;   // manifest `n` until the chunk lands
-    const attemptMode = (mode || "land") === "attempt";
-    if (attemptMode) {
-      const head = document.createElement("div");
-      head.setAttribute("data-land-id", "1");
-      head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
-      head.innerHTML =
-        '<div style="flex:1;min-width:0;">' +
-          '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
-          '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
-            '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
-            (sp.from ? ' &middot; ' + sp.from : '') +
-          '</div>' +
-        '</div>';
-      el.appendChild(head);
-    }
+    // ONE ANATOMY (v1.132.0, owner: "using the positions in roles top/bottom as good guides to
+    // what the submissions should show"). The attempt card's header and its "Roll from here"
+    // button are gone: the graph names the focused node beside it (the same rule that removed
+    // the position card's header in v1.101.1), and clicking the node already set the board —
+    // the play button is the one "go" control. Only the border skin distinguishes the modes.
 
     // 2 — the one-phrase definition MOVED BEHIND `More` (v1.101.0). Owner, reading "Master Deep
     // Half Guard Top with defensive counters, pressure maintenance, and systematic passing
@@ -9907,12 +9792,7 @@ class Component extends DCLogic {
       more.setAttribute("aria-controls", "ng-land-more");
       more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
       more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
-      more.addEventListener("click", () => {
-        // More while the answers are hidden IS a reveal, and the player pressed it — the one
-        // fold-open that writes the `landAnswers` preference (v1.130.0)
-        if (this._landRungHiddenNow()) this._setLandAnswers("show");
-        this.expandLandCard();
-      });
+      more.addEventListener("click", () => this.expandLandCard());
       foot.appendChild(more);
     }
     // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
@@ -9932,44 +9812,6 @@ class Component extends DCLogic {
     // La Riva Guard` IS authored (3% from `de-la-riva-guard/bottom`) and IS dealt in that hand —
     // but it is absent from `/top`, where you are passing, not attacking. Arriving on the bare
     // hub seats you TOP, so the node is visible on the graph and legitimately not in your hand.
-    if (attemptMode) {
-      const play = document.createElement("button");
-      play.setAttribute("data-land-play", "1");
-      play.textContent = "Roll from here";
-      play.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#cdd8f5;background:rgba(74,108,255,.14);border:1px solid rgba(74,108,255,.28);border-radius:7px;padding:5px 10px;pointer-events:auto;transition:background .16s;";
-      play.addEventListener("mouseenter", () => play.style.background = "rgba(74,108,255,.24)");
-      play.addEventListener("mouseleave", () => play.style.background = "rgba(74,108,255,.14)");
-      play.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(node); });
-      foot.appendChild(play);
-    }
-    // ── THE PAGER (v1.130.0) ── this state's own deck is browsable (‹ › here; swipe, wheel and
-    // ←/→ all land in _landPageTo). Dots, not numbers — the chip beside it already prints
-    // "● done/total" and a second n/N would collide with it. margin-left:auto on BOTH the pager
-    // and the chip splits the remaining space, which is what centres the pager between the left
-    // controls and the chip.
-    if (this._landPage != null && this._landDeckCards(key).length > 1) {
-      const pager = document.createElement("div");
-      pager.className = "ng-land-pager";
-      pager.setAttribute("data-land-pager", "1");
-      pager.style.cssText = "margin-left:auto;display:flex;align-items:center;gap:2px;pointer-events:auto;";
-      const mkPg = (dir, glyphTxt, handle, label) => {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.className = "ng-land-pgbtn";
-        b.setAttribute(handle, "1");
-        b.setAttribute("aria-label", label);
-        b.innerHTML = '<span class="ng-land-pgchip" aria-hidden="true">' + glyphTxt + "</span>";
-        b.addEventListener("click", (e) => { e.stopPropagation(); this._landPageTo(dir); });
-        return b;
-      };
-      pager.appendChild(mkPg(-1, "\u2039", "data-land-prev", "Previous question"));
-      const dots = document.createElement("span");
-      dots.setAttribute("data-land-dots", "1");
-      dots.style.cssText = "display:inline-flex;align-items:center;font-size:9.5px;color:#8b97b0;font-weight:700;pointer-events:none;";
-      pager.appendChild(dots);
-      pager.appendChild(mkPg(1, "\u203a", "data-land-next", "Next question"));
-      foot.appendChild(pager);
-    }
     // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
     // control (it opens this state's flashcards), not a header ornament, and the owner asked for
     // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
@@ -9982,7 +9824,6 @@ class Component extends DCLogic {
       foot.appendChild(chipEl);
     }
     el.appendChild(foot);
-    this._paintLandPager();
     // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
     // Owner: "the + should only show top right next of the x close icon when the card is open".
     // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
@@ -10148,15 +9989,6 @@ class Component extends DCLogic {
     this._landOpen = want;
     const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
     if (want) {
-      // THE LADDER (v1.130.0): the fold never opens over hidden answers — opening reveals,
-      // WITHOUT writing the preference. Only the More button's own click persists; a
-      // programmatic open (openDossier's read intent, the _landOpen restore on a re-render)
-      // must never speak for the player. "Fully open is never remembered" (owner).
-      if (this._landAnsHid) {
-        this._landAnsHid = false;
-        const q0 = el.querySelector("[data-land-q]");
-        if (q0) this._applyLandRung(q0);
-      }
       if (!body.firstChild && body._ngMoreHTML) {
         const box = document.createElement("div");
         box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";
@@ -10935,14 +10767,25 @@ class Component extends DCLogic {
     // An explicit roleOverride still wins (the comment above); member role beats title-derivation.
     // Inert on the production layout: no default graph-data node carries `role`.
     if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
-    this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
+    // ── LANDING ON THE TECHNIQUE (v1.132.0) ── owner: "if I click Kimura, then the landing
+    // should land on Kimura, not Knee on Belly or whatever." The SEAT stays the origin position
+    // (the engine's states are positions — v1.126.0 measured what staging ON a technique node
+    // does to the hand), but the CHOSEN node keeps the camera, the URL, the focus and the card;
+    // the first unpaused frame runs THE EXCHANGE from your side of it (_runStagedTech):
+    // finishing/attacking → you attempt it, escaping/defending → the red defense rush.
+    const chosen = posIdx !== nodeIdx && this.nodes[nodeIdx] ? nodeIdx : posIdx;
+    if (chosen !== posIdx) {
+      const fr = String(this.nodes[chosen].fromRole || "").toLowerCase();
+      this._stagedTech = { idx: chosen, side: (fr === "top" || fr === "bottom") && this.playerRole !== fr ? "defender" : "attacker" };
+    }
+    this.currentPos = posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
     // SWAPPING BETWEEN TWO HALVES OF ONE STATE MOVES NOTHING. Both members of a pair share a
     // midpoint, so the camera's subject is literally unchanged — and the right way to guarantee
     // the owner's "the camera should move just a little" is to not touch it at all rather than to
     // recompute the same answer from a layout that is, at this instant, mid-teardown. Chasing the
     // band instead cost three wrong attempts: an undocked film strip reporting `top: 0`, a card
     // back before its film, and a fallback to the whole screen — each a different wrong frame.
-    const _nextFocus = this.pairMid(this.nodes[posIdx]);
+    const _nextFocus = this.pairMid(this.nodes[chosen]);
     const _sameSubject = !!this.camFocus
       && Math.abs(this.camFocus.x - _nextFocus.x) < 1e-6
       && Math.abs(this.camFocus.y - _nextFocus.y) < 1e-6;
@@ -10953,12 +10796,12 @@ class Component extends DCLogic {
     // ...and aim at the PAIR (`camFocus`), not at `n.y`. This line still read the stored
     // coordinates, which `LY` lifts a member ~37px off at roll zoom — the same "code reads `n.y`
     // where the renderer draws `LY(n)`" defect v1.114.3 fixed in three other places.
-    if (!_sameSubject) this.camTarget = this.rollCamTarget(this.camFocus, false, posIdx);
+    if (!_sameSubject) this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
-    this._syncUrl(posIdx);                     // the address bar follows a chosen node
-    this._lastChosenIdx = posIdx;                // …and so does "take me back where I was"                       // the address bar follows a chosen node
+    this._syncUrl(chosen);                     // the address bar follows the CHOSEN node — a
+    this._lastChosenIdx = chosen;              // technique URL is never rewritten to its origin
     this._played = false;                        // nothing counts until it runs unpaused
-    this._prefetchLandDeck(posIdx);              // the flight is the deck's runway (v1.106.6)
+    this._prefetchLandDeck(chosen);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
     if (staged) this._stagedCamFree = true;      // ...and its framing tracks until they pan
     // HOLD THE FRAME UNTIL THE CARD IS BACK. `clearOptions()` above dropped the landing card and
@@ -10970,17 +10813,34 @@ class Component extends DCLogic {
     // truer to say until the card exists again.
     this._reframeHold = !!staged;
 
-    this.flare(posIdx);
+    this.flare(chosen);
     this.after(0.6, () => this.enterLand(true), true);
   }
   // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
   // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
   // you restage the same non-session; it never played, so there is nothing to archive, no
   // stake on the ladder, no counter moved. Press play and only then does the roll begin.
+  // ── PLAY ON A STAGED EXCHANGE (v1.132.0) ── clicking a technique landed you ON it, board
+  // staged, clock held; the first unpaused frame runs the exchange from YOUR side of it.
+  // Finishing/attacking: commit the technique through the same pick path a card click takes.
+  // Escaping/defending: the opponent is on it — the red defense rush ("if I click play, I want
+  // to see that rush … you need to think fast", owner). `_landPending` is cleared first: the
+  // decision window never ran, so there is no landing question being walked past.
+  _runStagedTech(st) {
+    const n = this.nodes[st.idx];
+    if (!n) return;
+    this._landPending = false;
+    this.fx("staged_exchange", { technique: n.t, side: st.side });
+    if (st.side === "defender") { this.enterDefense(st.idx); return; }
+    const opt = (this._optList || []).find((o) => o && o.idx === st.idx);
+    if (opt && this._optPick) this._optPick(opt);
+    // no opt: the technique is absent from its own origin's hand (the 5 authored role
+    // mismatches) — the staged landing simply plays on as a normal roll from the seat
+  }
   stageRollAt(nodeIdx) {
     this.rollFromPosition(nodeIdx, true);
     this._staged = this.currentPos;
-    this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
+    this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
   }
 
   // ══════════════════════════════════════════════════════════════════════════════════════
@@ -11445,7 +11305,9 @@ class Component extends DCLogic {
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
     if (!first) this.decaySharp(); // sharpness fades as the roll moves on
     if (this._beltTest) this.setEvent("Content capstone", Math.max(0, (this.maxMoves || 0) - (this.moveCount || 0)) + " moves left", "info");
-    this.focusIdx = this.currentPos; this.pulse = null;
+    // a staged EXCHANGE keeps the CHOSEN node as the focus: the graph names the technique the
+    // card is about, and the camera holds it (v1.132.0) — everything else is the seat's landing
+    this.focusIdx = this._stagedTech ? this._stagedTech.idx : this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;
     this.hideCenter(); // clear the "Restarting the roll" center toast as play begins
@@ -11453,7 +11315,7 @@ class Component extends DCLogic {
     // AFTER updateTravel's, on the same node — without the amplitude here it would immediately
     // demote the destination's bloom back to a pass-through's and restart its decay, i.e. the
     // owner's "grow 50-100% more" would be visible for one frame and then undone.
-    this.flare(this.currentPos, this.ARRIVE_BLOOM);
+    this.flare(this._stagedTech ? this._stagedTech.idx : this.currentPos, this.ARRIVE_BLOOM);
     if (!first) {
       // HUD + marker communicate the landing; clear any stale action toast (no duplicate position text)
       if (this.evRef.current) this.evRef.current.style.opacity = "0";
@@ -11556,7 +11418,11 @@ class Component extends DCLogic {
     this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
     this._barF = null;   // a new hand's bars start full, and the first tick must actually write
     this.setBeacon("options", el); // beat beacon: your move — read the hand
-    this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
+    // a staged EXCHANGE reads as itself: the card is the technique's, in the position card's
+    // exact anatomy (v1.132.0 — "using the positions … as good guides", owner)
+    const stTech = this._stagedTech && this.nodes[this._stagedTech.idx];
+    if (stTech && first) this.renderLandCard(stTech, "attempt", null);
+    else this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
     this._reframeHold = false;              // the card is back — the band means something again
     this.renderTutorial();
     this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
@@ -12481,7 +12347,11 @@ class Component extends DCLogic {
         let gdt = this.paused ? 0 : dt;
         // a session exists the moment it runs unpaused with a live hand — before that, a staged
         // roam can be restaged freely and costs nothing
-        if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) this._played = true;
+        if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) {
+          this._played = true;
+          // a staged EXCHANGE consumes the first unpaused frame: play RUNS it (v1.132.0)
+          if (this._stagedTech) { const st = this._stagedTech; this._stagedTech = null; this._runStagedTech(st); }
+        }
         if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
         // A REPLAY RUNS WITH THE GAME CLOCK HELD, and its sweeps are the whole point of it. Travel
         // is a DISPLAY primitive (like the camera two lines below, which has always run on the real
@@ -12693,7 +12563,7 @@ class Component extends DCLogic {
             // `keepCam`, because they have already said where they want to be.
             this._bgRestore(true);
             const hitNode = this.nodes[this._hover.idx];
-            if (this._hover.idx === this.currentPos || (hitNode && hitNode.ty !== "positions")) this.openDossier(this._hover.idx);
+            if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
             else this.stageRollAt(this._hover.idx);
           } else { this._tapBackground(); }
         }

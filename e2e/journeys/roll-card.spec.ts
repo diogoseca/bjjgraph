@@ -257,9 +257,10 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   await j.land("Mount Top")
   await j.advance(1200)
 
-  // a TECHNIQUE — what a coach taps in their class list. It reads as ITSELF: staging would hop
-  // to its origin position (rollFromPosition does that on purpose) and the card, and the star in
-  // its corner, would then be about the position instead of the technique they tapped.
+  // a TECHNIQUE — what a coach taps in their class list. Since v1.132.0 it NAVIGATES: the
+  // exchange stages ON the technique (URL, focus, camera), and the card — still the technique's,
+  // star and all — arrives in the position card's exact anatomy: FOLDED (the owner retired the
+  // auto-expand: "it automatically shows more instead of showing less").
   const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && x.ty === "transitions")
@@ -290,8 +291,8 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
   expect(st.sheet, "and so is the reading sheet — one surface now").not.toBe("block")
   expect(st.card, "the game card is what opens").toBe(true)
-  expect(st.unfolded, "opened to be READ, so it arrives unfolded").toBe("block")
-  expect(st.capture, "and its corner + captures the TECHNIQUE, not its origin position").toBe(tech.id)
+  expect(st.unfolded, "folded — More is one tap away, exactly like a position's card").toBe("none")
+  expect(st.capture, "and its corner star captures the TECHNIQUE, not its origin position").toBe(tech.id)
   // flown TO the node, not INTO it: the old path drove the camera to graphW*0.0085
   expect(st.zoom, "the camera stops at reading distance, not inside the node").toBeGreaterThan(0.02)
 
@@ -316,7 +317,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   })
   expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
   expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
-  expect(self.unfolded, "and unfolded, because you asked to read it").toBe("block")
+  expect(self.unfolded, "and folded — one anatomy, nothing auto-expands (v1.132.0)").toBe("none")
 })
 
 /**
@@ -467,20 +468,16 @@ for (const height of [900, 720]) {
 }
 
 /**
- * TAPPING A TECHNIQUE OPENS IT; IT DOES NOT MOVE YOU (v1.129.1). @curated
+ * TAPPING A TECHNIQUE NAVIGATES TO IT (v1.132.0 — this REVERSES v1.129.1's read-in-place rule,
+ * by the owner's own correction: "when you click on a transition or on a submission, you navigate
+ * to it. The URL changes to it, and the landcard is standard.")
  *
- * Owner: "Can't seem to be able to click any submissions or transitions in the graph. When I click
- * it, it seems to always go to an adjacent or nearby position."
- *
- * The tap handler's own comment gave it away — "tapping a node ROAMS to it; tapping the one you're
- * already on reads it instead" — a TWO-branch rule written before v1.101.5 added a third. So every
- * node that was not your own went to `stageRollAt`, and `rollFromPosition` deliberately hops a
- * technique to its ORIGIN POSITION (`techniqueOrigin`, v1.126.0): correct for "play from here",
- * exactly wrong for "open this". Measured before the fix: tapping `Float Passing` from Side Control
- * Top landed on `Open Guard Top` with the card in "land" mode — a card about a position the player
- * never tapped.
+ * The tap lands ON the technique: URL = its page, camera/focus = its node, the card = the
+ * position card's exact anatomy (no header, no "Roll from here", folded) — while the SEAT stays
+ * the technique's origin position (the engine's states are positions), staged and paused. Play
+ * runs the exchange (_runStagedTech).
  */
-test("@curated tapping a submission or transition opens its card and leaves the roll where it is", async ({
+test("@curated tapping a technique navigates to it — URL, focus and a standard staged card", async ({
   page,
 }) => {
   const j = journey(page)
@@ -491,10 +488,6 @@ test("@curated tapping a submission or transition opens its card and leaves the 
     await j.advance(400)
   }
 
-  const before = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    return { idx: a.currentPos, pos: a.nodes[a.currentPos].t }
-  })
   const target = await page.evaluate(() => {
     const a: any = (window as any).__neural
     const scale = a.W / a.cam.vw
@@ -503,33 +496,44 @@ test("@curated tapping a submission or transition opens its card and leaves the 
       const sx = (n.x - a.cam.cx) * scale + a.W / 2
       const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
       if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340)
-        return { sx, sy, t: n.t, ty: n.ty }
+        return { sx, sy, t: n.t, ty: n.ty, idx: n.idx }
     }
     return null
   })
   expect(target, "there is a technique on screen to tap").not.toBeNull()
 
   await page.mouse.click(target!.sx, target!.sy)
-  await j.advance(1200)
+  await j.advance(2000)
 
   const after = await page.evaluate(() => {
     const a: any = (window as any).__neural
     const card = document.querySelector("[data-landcard]") as HTMLElement | null
+    const more = document.querySelector("[data-land-more-body]") as HTMLElement | null
     return {
-      idx: a.currentPos,
-      pos: a.nodes[a.currentPos].t,
+      url: location.pathname,
+      posTy: a.nodes[a.currentPos].ty,
+      paused: a.paused,
+      focus: a.focusIdx >= 0 ? a.nodes[a.focusIdx] : null,
+      staged: a._stagedTech ? a.nodes[a._stagedTech.idx].t : null,
       mode: card ? card.getAttribute("data-landcard") : null,
-      text: (card?.textContent || "").slice(0, 120),
+      cardAbout: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null,
+      header: !!document.querySelector("[data-land-id]"),
+      playBtn: !!document.querySelector("[data-land-play]"),
+      folded: !more || more.style.display === "none",
     }
   })
-  expect(
-    after.idx,
-    `the roll did not move (was ${before.pos}, now ${after.pos})`,
-  ).toBe(before.idx)
-  expect(after.mode, "and the card is the TECHNIQUE's, not a landing").toBe("attempt")
-  expect(after.text, `naming the technique that was tapped`).toContain(
-    target!.t.split(" from ")[0],
-  )
+  // the tap may land on either half of the technique's pair — same site, either member
+  const site = (t: string) => t
+  expect(after.url, "the URL follows the tapped technique").not.toBe("/Positions/Side-Control")
+  expect(after.staged, "the exchange is staged on the tapped technique").toBe(site(target!.t))
+  expect(after.cardAbout, "the card reads the technique").toBe(target!.t)
+  expect(after.mode, "in the technique skin").toBe("attempt")
+  expect(after.header, "with NO header — the graph names the focus").toBe(false)
+  expect(after.playBtn, "and NO 'Roll from here' — play is the one go control").toBe(false)
+  expect(after.folded, "folded, exactly like a position's card").toBe(true)
+  expect(after.posTy, "the seat under it is a real position").toBe("positions")
+  expect(after.paused, "staged: the clock is held until play").toBe(true)
+  expect(after.focus && after.focus.t, "the graph focus IS the technique").toBe(target!.t)
 })
 
 /**
