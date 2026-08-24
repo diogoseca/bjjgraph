@@ -67,7 +67,8 @@
         boxed + filled  = DO something (play, capture)
         bare  + stroked = OPEN something (the caret) — and the caret ROTATES, which a filled
                           play triangle never does.
-     `.ng-actchip` is the `+`'s own outline (the .ng-lists-new-chip / segBtn family) at the pane's
+     `.ng-actchip` is the capture control's own outline (the .ng-lists-new-chip / segBtn family;
+     that control's glyph became a ★ in v1.129.8 and its box did not move) at the pane's
      24px control figure. It lives here rather than in a `mouseenter` handler because JS hover
      painting cannot express `:focus-visible`, which is the only state a keyboard user sees. */
   .ng-actchip{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:0;box-sizing:border-box;cursor:pointer;font-family:inherit;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);color:#9ab0e0;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}

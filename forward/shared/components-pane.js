@@ -85,7 +85,7 @@ function exploreBody({ lists = {}, open = null, search = "" } = {}) {
           ? `<div class="pane-items">${["Deep Half Guard", "Half Guard", "Closed Guard"]
               .map(
                 (row) =>
-                  `<div class="pane-row pane-row--item">${catGlyph("position")}<span class="pane-item-name"><b>${row}</b></span><button class="pane-glyph" type="button" data-play-from aria-label="Play from ${row}">${icon("play", 12)}</button><button class="pane-glyph" type="button" data-list-add data-list-surface="explore" aria-label="Add ${row} to a class list…">+</button></div>`,
+                  `<div class="pane-row pane-row--item">${catGlyph("position")}<span class="pane-item-name"><b>${row}</b></span><button class="pane-glyph" type="button" data-play-from aria-label="Play from ${row}">${icon("play", 12)}</button><button class="pane-glyph" type="button" data-list-add data-list-surface="explore" aria-haspopup="menu" aria-expanded="false" aria-label="Add to a list">${icon("star", 12)}</button></div>`,
               )
               .join("")}</div>`
           : ""
@@ -158,7 +158,7 @@ function corridorBody({
                             <button type="button" class="lesson-name">${escapeHtml(lesson.title)}</button>
                             ${crownBadge({ level: lesson.crown })}
                             <button class="pane-glyph" type="button" data-lesson-deck-toggle aria-label="Show cards for ${escapeHtml(lesson.title)}">▸</button>
-                            <button class="pane-glyph" type="button" data-list-add data-list-surface="lesson" aria-label="Add ${escapeHtml(lesson.title)} to a class list…">+</button>
+                            <button class="pane-glyph" type="button" data-list-add data-list-surface="lesson" aria-haspopup="menu" aria-expanded="false" aria-label="Add to a list">${icon("star", 12)}</button>
                           </div>`,
                       )
                       .join("")}

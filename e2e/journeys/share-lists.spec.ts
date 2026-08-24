@@ -156,7 +156,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
     "every Explore result carries an add affordance",
   ).toBeVisible();
   await row.click();
-  // v1.101.9: the + ALWAYS asks. With no list yet the picker opens straight into the name
+  // v1.101.9: the capture star ALWAYS asks. With no list yet the picker opens straight into the name
   // field, so a first capture is one explicit decision rather than a silent filing.
   await expect(page.locator("[data-list-pick-newname]"), "it asks where it goes").toBeVisible();
   await page.locator("[data-list-pick-newname]").fill("Class");
@@ -205,7 +205,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   ).toBe(true);
   await dossierAdd.click();
   // ...and the second asks too, with the one list on offer
-  await expect(page.locator("[data-list-picker]"), "the + asks again").toBeVisible();
+  await expect(page.locator("[data-list-picker]"), "the star asks again").toBeVisible();
   await page.locator("[data-list-pick]").first().click();
 
   const stored = await page.evaluate(() => {

@@ -3611,8 +3611,11 @@ class Component extends DCLogic {
     // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
     // and on a phone it is a full-width surface where a 44px target actually fits.
     // the compact glyph, in the corner — NOT a labelled footer button any more (v1.102.1)
-    const capture = this._listAddButton(n.id, "sheet");
-    capture.style.border = "none"; capture.style.background = "none"; capture.style.fontSize = "16px";
+    // 15px, not the boxed 12 or the thumb's 17: stripped of its border and wash the star has
+    // nothing competing with it, so it reads heavier at the same size (v1.129.8 — `fontSize`
+    // here used to be 16 and is inert under an SVG glyph).
+    const capture = this._listAddButton(n.id, "sheet", 15);
+    capture.style.border = "none"; capture.style.background = "none";
     const capSlot = head.querySelector(".ng-sheet-cap");
     if (capSlot && capSlot.parentNode) capSlot.parentNode.replaceChild(capture, capSlot);
     back.addEventListener("click", () => this.closeOptionDetail());
@@ -5811,8 +5814,8 @@ class Component extends DCLogic {
    * THE remove path for one technique, from any surface — the ✓ toggle (active list) and the
    * expanded row's × (that row's list, whichever it is).
    *
-   * It is NOT the _listAddButton: that button's ✓/+ is defined against the ACTIVE list
-   * (activeListHas / addToList with no id). Inside a list's own disclosure the technique is a
+   * It is NOT the _listAddButton: that button's star is defined against list membership
+   * generally (nodeInAnyList). Inside a list's own disclosure the technique is a
    * member of THAT list by construction, so a toggle there would be a mislabel at best and, on
    * any list that is not the active one, would silently ADD the technique to a DIFFERENT list
    * instead of removing it from the one being read. An explicit × addressed to `listId` is the
@@ -5856,14 +5859,47 @@ class Component extends DCLogic {
     if (on) {
       // A CONTROL SAYS WHAT IT DOES, NOT WHAT IS TRUE (v1.113.5). This read "In your class list
       // “Class · Aug 12” — choose where it goes": a status report where the hover of an action
-      // belongs. The membership is already carried by the ✓ glyph and aria-pressed; the label's
-      // job is the verb, with the state as a short aside.
+      // belongs. The membership is already carried by the ★ fill; the label's job is the verb,
+      // with the state as a short aside. That aside matters MORE since v1.129.8 dropped
+      // aria-pressed: it is now the only channel by which a screen-reader user learns membership
+      // without opening the menu.
       const names = this.listsWith(nodeId).map((k) => "“" + m[k].name + "”");
-      return { on: true, label: "Add to a list — already in " + names.join(", ") };
+      // CAP THE ENUMERATION (v1.129.8). It used to name every list, unbounded — a coach with a
+      // list per week got a 200-character button NAME, which is read out in full on every focus.
+      // N is `count - 2`, so it is always >= 1 and can never read "and 0 more".
+      const shown = names.length > 2
+        ? names.slice(0, 2).join(", ") + " and " + (names.length - 2) + " more"
+        : names.join(", ");
+      return { on: true, label: "Add to a list — already in " + shown, status: "In " + shown };
     }
     // NO DESTINATION IN THE LABEL (v1.101.9). It used to read "Add to class list “Class · Aug 12”"
     // — naming a list the user never picked, on a control that now always asks.
-    return { on: false, label: "Add to a list" };
+    return { on: false, label: "Add to a list", status: "" };
+  }
+  /**
+   * THE CAPTURE STAR (v1.129.8, owner: "should the + rather be a star to add to your lists as in
+   * star to favorite it? maybe that would make it more explicit. trade every place the + to add
+   * to lists appears and instead use a star to trigger the opening of the list of lists menu to
+   * add such technique to a list.")
+   *
+   * ONE GLYPH, TWO STATES, ONE SILHOUETTE: hollow = in no list, FILLED = in at least one
+   * (`nodeInAnyList`, never "the active one"). The stroke stays on in BOTH states, so the outer
+   * shape never moves and the change reads as *fill arriving* rather than as the glyph resizing —
+   * the same stroke-vs-fill pair `_caretHTML` (stroke) and `_playButton` (fill) already speak. It
+   * is a SHAPE difference, so the state survives WCAG 1.4.1 without leaning on colour.
+   *
+   * AN SVG, NOT `★`/`☆`. helmet.html loads its four faces through the Google CSS2 API, which
+   * serves latin/latin-ext unicode-range subsets — U+2605/U+2606 fall outside every one of them,
+   * so `font-family:inherit` ALWAYS falls back to a system font with per-platform metrics and
+   * weight. Tolerable for `crownBadge`'s 9.5px decorative ★; not tolerable for the primary state
+   * indicator on the app's most-repeated control. (`⭐` U+2B50 would be worse still: it carries
+   * Emoji presentation and would ignore `color` outright.) `currentColor` also collapses both
+   * states' paint onto the one property a CSS hover/focus rule could ever animate.
+   */
+  _starHTML(on, px) {
+    return '<svg width="' + px + '" height="' + px + '" viewBox="0 0 24 24" fill="' + (on ? "currentColor" : "none") +
+      '" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>';
   }
   _styleListAdd(el, nodeId) {
     const c = this._captureCopy(nodeId), on = c.on;
@@ -5871,16 +5907,45 @@ class Component extends DCLogic {
     // its whole text was "+" and its only words were in a `title` — invisible on a phone, where
     // there is no hover. Surfaces with room (data-list-label) say it in words; the cramped ones
     // keep the glyph but carry a real accessible name, which a `title` is not.
+    // NB `data-list-label` has no writer anywhere in the tree — v1.102.1 moved the last labelled
+    // surface (the sheet) to the compact corner glyph — so this branch cannot render today. It is
+    // kept, and its words traded with the rest, so a revival cannot resurrect "Add to class": the
+    // "class" vocabulary was retired in v1.113.5 and share-mobile pins "a list".
     const labelled = el.getAttribute("data-list-label") === "1";
-    el.textContent = labelled ? (on ? "✓ In class" : "+ Add to class") : (on ? "✓" : "+");
-    el.title = c.label;
+    // UNDER SVG, `font-size` IS INERT — the glyph is a box, not type. Three sites used to size
+    // this control with `style.fontSize` (the base 13/17px plus the sheet's 16 and the land
+    // corner's 15) and every one of them would have silently done nothing.
+    const px = parseInt(el.getAttribute("data-list-glyph") || "12", 10) || 12;
+    // REPARSE ONLY ON A REAL CHANGE. This painter runs for EVERY [data-list-add] on screen on
+    // every list mutation, and Explore can hold a hundred rows — a textContent write was free,
+    // an innerHTML parse of an SVG is not. `on`, `px` and `labelled` are the glyph's only inputs
+    // and the last two are fixed at construction, so the key is complete.
+    const key = (on ? "1" : "0") + ":" + px + ":" + (labelled ? "1" : "0");
+    if (el._ngGlyphKey !== key) {
+      el._ngGlyphKey = key;
+      el.innerHTML = this._starHTML(on, px) +
+        (labelled ? '<span style="margin-left:6px;">' + (on ? "In a list" : "Add to a list") + "</span>" : "");
+    }
+    // TITLE IS THE *DESCRIPTION*, NOT A SECOND COPY OF THE NAME. With an aria-label present the
+    // title computes as the accessible description, so `el.title = c.label` made NVDA/JAWS read
+    // the same sentence twice, on the common path. OFF carries no title at all (a hollow star
+    // already says it); ON carries STATUS ONLY — the one fact the glyph cannot spell, and the
+    // only channel a sighted mouse user has for WHICH lists a technique is already in.
+    if (on) el.title = c.status; else el.removeAttribute("title");
     el.setAttribute("aria-label", c.label);
-    el.setAttribute("aria-pressed", on ? "true" : "false");
-    el.style.color = on ? "#7ee0a8" : "#9ab0e0";
-    el.style.borderColor = on ? "rgba(126,224,168,.45)" : "rgba(150,170,210,.28)";
-    el.style.background = on ? "rgba(126,224,168,.12)" : "rgba(255,255,255,.04)";
+    // NO aria-pressed (v1.129.8). ARIA defines it for a TOGGLE BUTTON — one that retains state
+    // after being activated — and activating THIS opens a menu and leaves membership untouched.
+    // A user was told "toggle button, not pressed", pressed it, and the state they had just been
+    // told about did not respond to their press. `aria-haspopup="menu"` + `aria-expanded` (set at
+    // construction, written only by openListPicker/closeListPicker) is the state activation
+    // really changes; membership lives in the name's aside and, per list, on the picker's own
+    // role="menuitemcheckbox" + aria-checked rows. Deliberately NOT rewritten here: this painter
+    // runs on every list mutation and would stomp aria-expanded to "false" under an open menu.
+    el.style.color = on ? "#a9c2ff" : "#9ab0e0";
+    el.style.borderColor = on ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.28)";
+    el.style.background = on ? "rgba(150,180,255,.13)" : "rgba(255,255,255,.04)";
   }
-  _listAddButton(nodeId, surface) {
+  _listAddButton(nodeId, surface, glyphPx) {
     const b = document.createElement("button");
     b.type = "button";
     b.setAttribute("data-list-add", nodeId);
@@ -5889,19 +5954,34 @@ class Component extends DCLogic {
     // hand (same card builder) and the landing card — are hit mid-roll, one-handed, on a moving
     // screen: 24x24 there was about half the 44px minimum this feature applies to its own sheet,
     // for the hardest tap of the three. The pane's list rows keep the compact glyph: the ROW is
-    // the target there and the + sits beside it.
+    // the target there and the star sits beside it.
     // "sheet" joins them (v1.102.1): its capture is the compact corner glyph now, not a labelled
     // footer button, and 24px in a corner is exactly the target a thumb misses. The GLYPH stays
     // small on both form factors; only the hit area grows.
     const thumb = this.isMobile() && (surface === "option" || surface === "land" || surface === "sheet");
     const size = thumb ? 44 : 24;
+    // A STAR IS NOT A `+`, SO ITS BOX IS NOT THE `+`'s (v1.129.8). A five-pointed star's ink is
+    // centrally concentrated and its five points taper to nothing, so at equal box it reads
+    // smaller and lighter than a solid figure: house figures inside the same 24px chip are
+    // play=10 and caret=9, and the star needs 12. The 44px thumb keeps today's 17px nominal
+    // (17/44 tracks 12/24 within 6%). Callers with an UNBOXED corner pass their own — no border
+    // competing means the star reads heavier there. `data-list-glyph` rather than a closure so
+    // `_refreshListSurfaces`, which repaints elements it finds in the DOM, can read it back.
+    const gpx = glyphPx || (thumb ? 17 : 12);
+    b.setAttribute("data-list-glyph", String(gpx));
+    // THE APG MENU-BUTTON PATTERN, HONESTLY (v1.129.8). The popup really is `role="menu"` and
+    // openListPicker/closeListPicker really do write aria-expanded on this anchor, so the only
+    // missing piece was declaring it. Set ONCE, at construction: _styleListAdd must never rewrite
+    // aria-expanded, or any list mutation while the menu is open would claim it collapsed.
+    b.setAttribute("aria-haspopup", "menu");
+    b.setAttribute("aria-expanded", "false");
     // pointer-events:auto INLINE — the property is inherited, fixed overlays disable it at the
     // root and the canvas hit-tests above anything that does not re-enable it. This exact trap
     // made the landing card's options (and the retired coach's Next) unclickable by mouse.
     b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (thumb ? "17px" : "13px") + ";font-weight:700;line-height:1;width:" + size + "px;height:" + size + "px;border-radius:" + (thumb ? 11 : 7) + "px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
     this._styleListAdd(b, nodeId);
-    // captureNode is the ONE seam: one tap while there is nothing to choose, the picker the
-    // moment there is (see the picker's header comment for the matrix and its reasoning).
+    // captureNode is the ONE seam, and since v1.102.0 it ALWAYS opens the picker — nothing is
+    // assumed (see the picker's header comment). The star changes the affordance, not that.
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.captureNode(nodeId, surface, b); });
     return b;
   }
@@ -5937,13 +6017,13 @@ class Component extends DCLogic {
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.confirmPlayFrom(node); });
     return b;
   }
-  /** Wrap an Explore row so the row keeps its click and gains a + on the right. */
+  /** Wrap an Explore row so the row keeps its click and gains a capture star on the right. */
   _withListAdd(rowEl, node, surface) {
     const wrap = document.createElement("div");
     wrap.style.cssText = "display:flex;align-items:center;gap:4px;width:100%;";
     rowEl.style.flex = "1"; rowEl.style.minWidth = "0";
     wrap.appendChild(rowEl);
-    // ▶ then + : play is the primary verb on a technique row, capture the secondary one.
+    // ▶ then ★ : play is the primary verb on a technique row, capture the secondary one.
     // Only reached from renderGraphGroup (Positions/Transitions/Submissions) and a list's own
     // items — Systems, Principles and Learning use different builders and stay play-less.
     wrap.appendChild(this._playButton(node));
@@ -5956,10 +6036,17 @@ class Component extends DCLogic {
     lb.setAttribute("data-list-add", n.id);
     lb.setAttribute("data-list-surface", surface || "dossier");
     lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
+    // set ONCE, beside the button \u2014 never inside paint(), which runs on every list mutation and
+    // would stomp aria-expanded to "false" under an open picker
+    lb.setAttribute("aria-haspopup", "menu");
+    if (!lb.hasAttribute("aria-expanded")) lb.setAttribute("aria-expanded", "false");
     const paint = () => {
       const c = this._captureCopy(n.id), on = c.on;
       const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
-      if (g) { g.textContent = on ? "\u2713" : "+"; g.style.color = on ? "#7ee0a8" : "#9ab0e0"; }
+      // THE SECOND GLYPH PAINTER, TRADED WITH THE FIRST (v1.129.8). This row is unreachable from
+      // the app (v1.101.5) but it is live code that `_refreshListSurfaces` dispatches to, so
+      // leaving it on `+`/`\u2713` would let the two painters drift.
+      if (g) { g.innerHTML = this._starHTML(on, 15); g.style.color = on ? "#a9c2ff" : "#9ab0e0"; }
       // the VISIBLE words stay short and fixed-width. The destination goes in the accessible
       // name, not into this row's text: the in-node dossier card is laid out at the node's own
       // screen point, and a longer label grew it far enough to slide this control under the
@@ -5969,9 +6056,9 @@ class Component extends DCLogic {
       // the title said "a class list" — two different promises on one button, and the picker
       // has asked WHICH list since v1.102.0, so "today's" was never true anyway.
       if (t) t.textContent = on ? "In a list" : "Add to a list";
-      lb.title = c.label;
+      // same split as _styleListAdd: no title OFF (it would duplicate the name), STATUS only ON
+      if (on) lb.title = c.status; else lb.removeAttribute("title");
       lb.setAttribute("aria-label", c.label);
-      lb.setAttribute("aria-pressed", on ? "true" : "false");
     };
     paint();
     lb._ngPaint = paint; // the picker's refresh repaints this row too
@@ -6599,10 +6686,13 @@ class Component extends DCLogic {
           const em = document.createElement("div");
           em.setAttribute("data-list-empty", id);
           em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:5px 12px 5px 38px;";
-          // the three surfaces that actually carry [data-list-add] where a technique is named:
-          // the in-roll option cards (data-list-surface="option"), both dossier renderers
-          // ("dossier"/"sheet") and Explore's own leaf rows ("explore").
-          em.textContent = "No techniques yet — tap + on an option card while you roll, on a technique’s dossier, or on any Explore row.";
+          // THREE SURFACES THAT REALLY CARRY [data-list-add], NAMED IN THE GLYPH THEY WEAR.
+          // This was doubly stale (v1.129.8): it named a `+` that is now a star, and TWO
+          // surfaces that stopped carrying the control — the option cards lost theirs in
+          // v1.101.1, and the dossier renderer has been unreachable since v1.101.5. What is
+          // left, and reachable, is the landing card ("land"), the option-detail sheet
+          // ("sheet") and Explore's own rows ("explore").
+          em.textContent = "No techniques yet — tap the star on the card you land on, on a move’s detail sheet, or on any Explore row.";
           items.appendChild(em);
         } else {
           for (const nodeId of l.items) items.appendChild(this._listItemRow(nodeId, id));
@@ -7542,10 +7632,13 @@ class Component extends DCLogic {
       '<span style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
       '<div style="display:flex;flex-direction:column;gap:1px;"><span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:10.5px;color:#9aa6bd;">make this the current state</span></div>' +
       '<span style="margin-left:auto;font-size:13px;color:#9ab0e0;">\u2192</span></div>';
-    // add-to-class-list, right where a coach is already reading about the technique
+    // add-to-a-list, right where a coach is already reading about the technique. This static
+    // markup is only the pre-paint frame \u2014 `_wireDossierListButton` overwrites both spans
+    // immediately \u2014 but it is traded with the rest so the two can never disagree, and the
+    // "today's class list" promise died with the picker's arrival (v1.102.0 asks WHICH list).
     h += '<div class="dsList" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:8px;border:1px solid rgba(150,170,210,.2);border-radius:12px;padding:10px 14px;">' +
-      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;line-height:1;">+</span>' +
-      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to today\u2019s class list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
+      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;line-height:1;">' + this._starHTML(false, 15) + '</span>' +
+      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to a list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
     h += '</div>';
     dos.innerHTML = h;
     // clear only on a CHANGE of node: re-rendering the sheet for the node already open must not
@@ -9629,12 +9722,13 @@ class Component extends DCLogic {
     corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:2px;";
     // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
     // the canvas hit-tests above anything that does not re-enable it.
-    const addBtn = this._listAddButton(node.id, "land");
+    // 14px: unboxed like the sheet's, and one step under it because v1.104.2 requires this
+    // corner's geometry to be set by the 24px ✕ beside it, never by the 44px thumb box.
+    const addBtn = this._listAddButton(node.id, "land", 14);
     // quieter than every other surface's copy of it: two bordered boxes in a corner read as a
     // toolbar. The HIT AREA is untouched (24px desktop / 44px thumb) — only the paint is.
     addBtn.style.border = "none";
     addBtn.style.background = "none";
-    addBtn.style.fontSize = "15px";
     // THE 44px THUMB TARGET MUST NOT SET THE CORNER'S GEOMETRY (v1.104.2). On a phone
     // `_listAddButton` returns a 44x44 box; beside a 24x24 ✕ under align-items:center that makes
     // the row 44 tall, so both glyphs sat 10px lower than the 5px inset implies and 20px apart.

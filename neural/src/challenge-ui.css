@@ -691,7 +691,7 @@
   padding: 6px 9px;
 }
 
-/* the lesson row + its "add to class list" sibling occupy ONE grid cell, so the ladder's
+/* the lesson row + its "add to a list" star sibling occupy ONE grid cell, so the ladder's
    spacing is unchanged from before the affordance existed */
 .ng-challenge-lessonrow {
   display: flex;

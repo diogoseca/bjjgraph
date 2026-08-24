@@ -27,6 +27,12 @@ const paths = {
     '<circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"></path>',
   replay:
     '<path d="M21 12a9 9 0 1 1-3-6.7L21 8"></path><path d="M21 3v5h-5"></path>',
+  // THE CAPTURE STAR (v1.129.8). ONE silhouette, two states: the stroke stays on in both, so
+  // the change reads as *fill arriving* rather than as the glyph resizing. Filled means "in at
+  // least one of your lists" — see `_starHTML` in neural/src/app.src.jsx, which this mirrors.
+  star: '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>',
+  "star-filled":
+    '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="currentColor"></polygon>',
 };
 
 export function icon(name, size = 16) {

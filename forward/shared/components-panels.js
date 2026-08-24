@@ -355,7 +355,7 @@ export function optionSheet(
   // of controls reads as a toolbar and one whose first row is a name reads as a technique.
   return `<section class="option-sheet ng-optdetail" data-production-selector=".ng-optdetail" data-sheet-state="${state}">
     <div class="sheet-grabber"></div>
-    <span class="sheet-corner" data-sheet-corner><button type="button" data-list-add data-list-surface="sheet" aria-label="Add to a class list…">+</button><button type="button" aria-label="Close technique detail">${icon("close", 14)}</button></span>
+    <span class="sheet-corner" data-sheet-corner><button type="button" data-list-add data-list-surface="sheet" aria-haspopup="menu" aria-expanded="false" aria-label="Add to a list">${icon("star", 15)}</button><button type="button" aria-label="Close technique detail">${icon("close", 14)}</button></span>
     <header><div><small>${escapeHtml(context.type)} · ${escapeHtml(context.origin)}</small><h2>${escapeHtml(context.name)}</h2></div></header>
     <div class="sheet-stats"><div><span>Edge</span><b>+18</b></div><div><span>Success</span><b>${context.successRate || 46}%</b></div></div>
     ${open ? `<div class="sheet-body"><p>${escapeHtml(context.definition)}</p>${filmStrip({ compact: true, clips: context.clips })}<section class="jit-drill" ${drilling ? 'data-jit="1"' : ""}><small>${drilling ? "JIT DRILL ACTIVE" : "BUY BETTER ODDS"}</small><b>${escapeHtml(context.question.prompt)}</b><button type="button">${drilling ? "Reveal answer" : "Drill before committing"}</button></section><div class="sheet-principles">${context.principles.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div></div>` : ""}

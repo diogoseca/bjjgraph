@@ -258,7 +258,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   await j.advance(1200)
 
   // a TECHNIQUE — what a coach taps in their class list. It reads as ITSELF: staging would hop
-  // to its origin position (rollFromPosition does that on purpose) and the card, and the + in
+  // to its origin position (rollFromPosition does that on purpose) and the card, and the star in
   // its corner, would then be about the position instead of the technique they tapped.
   const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
@@ -354,7 +354,7 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
   await j.advance(200)
   // v1.101.9: the `+` NEVER files on its own — it asks. One list still asks, because "the last
   // list you touched" is not a destination the user chose.
-  await expect(page.locator("[data-list-picker]"), "the + asks where it goes").toHaveCount(1)
+  await expect(page.locator("[data-list-picker]"), "the star asks where it goes").toHaveCount(1)
   expect(
     await page.evaluate(() =>
       Object.values((window as Any).__neural.lists || {}).some((l: Any) => (l.items || []).length),

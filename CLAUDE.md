@@ -380,8 +380,10 @@ must never read "Lists (0)" above "Shared with you · 5 techniques", and the hea
 at all when there are no lists. **Delete is two-step and undoable**: the first click arms it
 (`[data-list-delete-armed]`, label "Delete?", 8s window), the second deletes and leaves a
 `[data-list-undo]` row holding the whole list; it also sits 12px clear of Share, which is the
-button a coach presses in front of the class. The `+` add affordance (`[data-list-add="<nodeId>"]` +
-`data-list-surface=explore|dossier|land|lesson|shared`) rides Explore rows, BOTH dossier
+button a coach presses in front of the class. The capture affordance — **a STAR since v1.129.8**,
+see THE CAPTURE STAR below (`[data-list-add="<nodeId>"]` +
+`data-list-surface=explore|sheet|land|lesson|shared|dossier`) — rides Explore rows, the
+option-detail sheet, BOTH dossier
 renderers, the in-roll landing card and challenge lesson rows (as a SIBLING of the lesson
 `<button>` in `.ng-challenge-lessonrow` — a nested `<button>` would close the outer one in the
 parser). Lighting a list reuses `setFocusIdxSet` exactly like a System; `_listFocusId` survives
@@ -399,8 +401,8 @@ idiom): the **count line IS the toggle** (`[data-list-open]`, chevron `[data-lis
 the dimmer `from <position>` half, same rule and same shape as `[data-shared-item]`, because
 "Kimura" is 35 techniques here — clicking one `openDossier`s it.
 - **Removal is an explicit `×` (`[data-list-item-remove]` + `data-list-of`), never the
-  `_listAddButton`.** That button's ✓/+ is defined against the ACTIVE list (`activeListHas` /
-  `addToList` with no id): inside a list's own disclosure the technique is a member of THAT list
+  `_listAddButton`.** That button's state is defined against list membership GENERALLY
+  (`nodeInAnyList`): inside a list's own disclosure the technique is a member of THAT list
   by construction, so a toggle there would mislabel at best and, on any non-active list, would
   silently ADD it to a DIFFERENT list instead of removing it. `removeListItem(nodeId, listId)`
   is now **the** remove path — `toggleListItem`'s ✓ delegates to it — so the toast (which names
@@ -412,7 +414,7 @@ the dimmer `from <position>` half, same rule and same shape as `[data-shared-ite
   `_armListUndo` seam. Before v1.99.4 it destroyed a named list silently, and the per-item × put
   that one click away from a list you are reading.
 - **Auto-expand is the feature** ("see the listed techniques AFTER ADDING", owner): `newList`,
-  `addToList` and `undoDeleteList` all expand their list, so a `+` pressed with the pane open
+  `addToList` and `undoDeleteList` all expand their list, so a capture taken with the pane open
   lands somewhere the eye can follow.
 - **Expansion is SESSION state — a `Set` (`_listExpand`), deliberately NOT a settings map.**
   `exploreOpenSections` persists because its keys are a fixed vocabulary of six section labels;
@@ -423,7 +425,12 @@ the dimmer `from <position>` half, same rule and same shape as `[data-shared-ite
   toggle re-renders the whole Explore body, so without it one Enter opens the list and the next
   goes to `<body>` — invisible by mouse, a dead end by keyboard.
 - An empty list says so and says how (`[data-list-empty="<listId>"]`), naming only surfaces that
-  really carry `[data-list-add]`: an option card, a technique's dossier, an Explore row.
+  really carry `[data-list-add]`, **in the glyph they actually wear**: the card you land on, a
+  move's detail sheet, an Explore row. It said "tap **+** on an option card … on a technique's
+  dossier" until v1.129.8 — a `+` that is now a star, on two surfaces that stopped carrying the
+  control (option cards in v1.101.1, the dossier renderer unreachable since v1.101.5), i.e. it
+  pointed at two controls nobody could find. `lists-disclosure` asserts the new three and asserts
+  the old two are GONE.
 
 **"HOW DOES IT KNOW WHAT LIST?" — THE CAPTURE PICKER (v1.99.5).** `addToList(nodeId)` defaults to
 the single persisted `activeListId`, and `_listAddButton` toggled against `activeListHas()` — so
@@ -465,8 +472,8 @@ dossier renderers route through, and the matrix is:
 - **The destination is legible without opening anything:** `[data-lists-target]` — a permanent
   "Adding to **<name>**" line under the Lists head (owner: "be visible up top") — plus every
   capture control's own `aria-label`/`title` (`_captureCopy`), which names the target list, or
-  the lists it is already in. The ✓ glyph now means **in ANY list** (`nodeInAnyList`), not "in
-  the active one". `[data-lists-target]` is a STATUS, not a control: the way to change the
+  the lists it is already in. The glyph — `✓` then, a FILLED STAR since v1.129.8 — means **in ANY
+  list** (`nodeInAnyList`), not "in the active one". `[data-lists-target]` is a STATUS, not a control: the way to change the
   destination is to pick one (or create one), and a second silent re-targeting control would
   recreate the ambiguity it exists to remove.
 
@@ -816,7 +823,7 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
   - **A LIST ROW HAS NO DRILL CONTROL AT ALL (v1.103.7, owner).** `openListSession` opens a FLASHCARD session over the list's cards and never touched the roll, so its ▶ wore the wrong verb; v1.103.6 moved it to a stacked-cards glyph and the owner then deleted the button outright. A list row is now exactly **light it (the row) / read it (the count line) / share it / ×** — every verb that acts on ONE technique lives on the item that carries it (▶ and its own ✕). `openListSession` is **not dead**: `[data-shared-drill]` ("Drill these") still runs it on a RECEIVED class, which is the case that needs a one-press study path before the list has even been saved. That is the only caller left; deleting it would take the received-class study path with it.
 - **THE CATEGORY SHAPE RIDES EVERY TECHNIQUE ROW (v1.103.6).** `nodeGlyph` and the canvas `draw()` (`:9516-9518`) share ONE vocabulary — **circle = position, triangle = submission, diamond = transition** — and two row types were not speaking it: Explore's **leaf rows inside a family fold** rendered no glyph at all (the one place in Explore that did not say what a technique was), and a **list's items** had none either. Both now call `nodeGlyph(n.ty, col, 7)` — 7px at pad 38 against the family row's 8px at pad 22, so the size tracks the ladder. NB when testing: the triangle is a CSS-border trick, so with `box-sizing:border-box` its computed `width` is **8px, not 0** — identify it by its transparent left/right borders, never by width.
 - **LISTS ARE EXPLORE'S LADDER, NOT CARDS (v1.103.5, owner: "the style doesn't feel like the Positions category at all").** The Lists section is built from the SAME three-rung indent every other Explore group uses (`renderGraphGroup`'s `mk(html, pad, onClick)`, `padding:7px <pad>px`): head **pad 12** (14px/700 #dbe2f0 + a bare count), each list **pad 22** (13px/600 #c4cde0, count 10.5px, chevron 10px last) exactly where a family row sits, its techniques **pad 38** (12px #9aa6bd, the `from …` qualifier in #6b7691) exactly where a leaf sits. No card chrome, no glyph on the item rows — `Your lists (2)` now reads as a peer of `Systems (47)` and `Positions (136)` in the same scroller, which is the whole point.
-  - **The pane's control figure is 24px, and 44 is for the surfaces a THUMB uses mid-roll.** `_listAddButton` already stated this rule and Explore's `+` has been 24×24 on all 136 Positions rows the whole time; the Lists section was the one part of the pane pinned to 44 (by its own v1.99.4 specs), which is what made its rows 58px among 38px neighbours. Row controls — ▶ play, share, ×, and the per-item × — are now **24×24** like Explore's, so a row with controls lands at `7 + 24 + 7 = 38px`, Explore's own height wherever a `+` rides. 24px is also WCAG 2.2 AA (2.5.8 Target Size Minimum); 44 is the AAA/HIG figure and stays where it belongs — the option hand, the escape hand, the landing card, hit one-handed on a moving screen.
+  - **The pane's control figure is 24px, and 44 is for the surfaces a THUMB uses mid-roll.** `_listAddButton` already stated this rule and Explore's capture has been 24×24 on all 136 Positions rows the whole time; the Lists section was the one part of the pane pinned to 44 (by its own v1.99.4 specs), which is what made its rows 58px among 38px neighbours. Row controls — ▶ play, share, ×, and the per-item × — are now **24×24** like Explore's, so a row with controls lands at `7 + 24 + 7 = 38px`, Explore's own height wherever a capture control rides. 24px is also WCAG 2.2 AA (2.5.8 Target Size Minimum); 44 is the AAA/HIG figure and stays where it belongs — the option hand, the escape hand, the landing card, hit one-handed on a moving screen.
   - **Glyphs stay small, hit areas grow** (`.ng-lists-new`'s pattern): the count-line toggle is 10.5px text + a 10px chevron, which is an **18×12** target if you let type size the button. `padding:6px 5px` with a matching negative margin buys 28×24 without touching the type or the row height. Do not size a pane control by its glyph.
 - **Lists (v1.97.0; chrome pass v1.99.3):** the `+` beside "Your lists (N)" (`[data-lists-new]`, aria "New list", 44px hit area) is THE deliberate list-creation control (it replaced the static "share a class" caption; `newList()` stays the one creation function — default name "Class · <date>", newborn becomes the active add target and its row highlights; per-list Share untouched; no `?capture=today` deep link exists in source). Explore's `keepList` reset-survival accepts owned lists (even empty) AND the `__shared` preview. **The + is a house-styled chip (v1.99.3, owner: the bare glyph "looks ugly as fuck"):** `.ng-lists-new` is the transparent 44px hit target, `.ng-lists-new-chip` the compact 28px visual in the segBtn token family, states in helmet.html CSS per the `.ng-anchor-*` pass (hover brighten, 1px active press, focus-visible ring) — no JS hover painting, do not regress to a bare glyph.
 - **Inline rename (v1.99.3, owner: "I can't seem to click to rename my lists"):** a row's NAME (`[data-list-name]`, a real button, cursor:text) opens the editor; the ROW body (and the `[data-list-open]` count line) lights the list via `focusList`. The editor (`[data-list-rename]`, maxlength 60) commits on **Enter/blur**, cancels on **Esc** (its keydown `stopPropagation`s so Esc never walks the pane's Esc ladder and letters never hit global shortcuts), and an empty/whitespace/unchanged commit is a no-op revert (`renameList`). A REAL commit bumps the list's `t` — the cloud merge's name-from-later-t rule is what carries renames across devices — and re-sorts the list to the top. **The newborn from + opens straight into its editor** (prefilled, selected — naming is offered, never demanded). Three hard-won guards, all pinned by `e2e/journeys/lists-rename.spec.ts` (10 journeys incl. 390px drawer): (1) **a blur from DETACH is not a decision** — unrelated re-renders (the deferred systems.json arrival ~1s into a fresh profile) wipe the Explore body, and Chrome dispatches that blur while `isConnected` still reads TRUE, so the commit decision is deferred one real tick; (2) the editor **survives re-renders**: `_listEditDraft` carries typed text through a rebuild and refocus restores select-all when untouched / caret-at-end mid-draft; (3) a click that lands while (or within 400ms after — blur precedes click) the editor is open must NOT light the list (`_listEditClosedAt` latch).
@@ -2533,7 +2540,7 @@ do not), `--hand side-control/bottom` (the seven-card table this feature is sold
 
 **LANDING-CARD CHROME, FOUR OWNER REPORTS (v1.104.2).** Pinned by `e2e/journeys/landcard-chrome.spec.ts` (4 journeys, 2 `@curated`, `test.use` 390x844 — three of the four only bite on the phone).
 - **`style.color = ""` DELETES, it does not restore.** After `More → Less` the toggle went black on a #131625 card. `expandLandCard` restored it with the empty string, which removes the inline declaration written by the button's own `cssText`; the collapsed button then inherited from a parent that sets no colour and fell back to the UA default. The resting colour is now the shared constant **`NG_LAND_MORE_COL`** so the two sites that write it cannot drift again. General rule: to return an element to a colour declared inline, WRITE it — clearing only works when the resting value comes from a stylesheet.
-- **A 44px thumb target must not set a 24px row's geometry.** The corner (`[data-land-corner]`) holds a 44px `+` beside a 24px ✕; under `align-items:center` the row became 44 tall, so both glyphs sat 10px below the inset and 20px apart — the owner asked for them "a bit closer and a bit closer to the top (symmetric to how the x close button is close to the right edge)". A `-10px` margin shrinks the `+`'s LAYOUT box to 24×24 while it still renders and still takes a thumb at 44 (the `.ng-lists-new` pattern). Inset is 5px on both axes, gap 2px, and the spec asserts `xFromTop === xFromRight`, one shared glyph baseline, a 44px hit area, AND — because the `+`'s box now overhangs the ✕ by 8px — that `elementFromPoint` at each control's centre still returns that control.
+- **A 44px thumb target must not set a 24px row's geometry.** The corner (`[data-land-corner]`) holds a 44px capture control (a `+` then, a ★ since v1.129.8) beside a 24px ✕; under `align-items:center` the row became 44 tall, so both glyphs sat 10px below the inset and 20px apart — the owner asked for them "a bit closer and a bit closer to the top (symmetric to how the x close button is close to the right edge)". A `-10px` margin shrinks its LAYOUT box to 24×24 while it still renders and still takes a thumb at 44 (the `.ng-lists-new` pattern). Inset is 5px on both axes, gap 2px, and the spec asserts `xFromTop === xFromRight`, one shared glyph baseline, a 44px hit area, the star's own **14px** box (v1.129.8 — see THE CAPTURE STAR: `font-size` is inert under an SVG and this corner used to be one of the three sites that set it), AND — because that box overhangs the ✕ by 8px — that `elementFromPoint` at each control's centre still returns that control.
 - **The film strip takes its width from the card, MEASURED.** `.ng-landfilm` duplicated the card's DESKTOP rule as a constant, and the card has a mobile override (`width:calc(100vw - 20px)!important; padding:11px 12px`) it never knew about: at 390x844 the boxes measured `[16,374]` against `[10,380]`. `_dockLandFilm` now copies the card's measured width AND its horizontal padding (the padding is what lines the THUMBNAILS up with the text above them), so they agree at every viewport by construction. The cssText width is a first-frame guess only.
 - **The clip hover is a hint, not a flash.** It zoomed the still 5% over 400ms and flipped the play glyph to **brand red** at 108% — the loudest signal a hover can make, on a strip sitting directly above the question being read. Now a 2% zoom over 180ms and a slightly more solid disc. The click-to-expand morph is untouched (signed off in v1.102.1).
 
@@ -2686,8 +2693,8 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   with the counter opposite it, and the owner's read on that leftover was that the chip "should
   show bottom right same row as More instead of top right in its own row" and the block it sat in
   "shouldn't show". So the card opens on its content, and its three controls live where controls
-  belong: `More ▸` at the foot-left, the familiarity chip and the capture `+` at the foot-right
-  (the `+` keeps its 24/44px hit area and loses its box), and a 22px `[data-land-close]` **✕
+  belong: `More ▸` at the foot-left, the familiarity chip and the capture control at the foot-right
+  (it keeps its 24/44px hit area and loses its box), and a 22px `[data-land-close]` **✕
   absolutely positioned top-right**, so the way out costs the card no vertical space. Dismissing
   clears the card for that landing only — the next one renders fresh, and `_landBackfill` returns
   early on a null `_landEl`, so no late payload can resurrect it. An ATTEMPT card keeps its
@@ -2755,7 +2762,7 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   `openDossier` now has three branches and none of them is a second surface:
   a **technique** renders the game card in `"attempt"` mode (it names the technique and its `+`
   captures THAT technique — staging would hop to its origin position, since `rollFromPosition`
-  does that on purpose, and the corner `+` would then capture a position the coach never tapped);
+  does that on purpose, and the corner capture would then file a position the coach never tapped);
   **another position** stages the roll there (fly, land, deal, clock held); **your own node**
   rebuilds its card if it was dismissed. All three unfold — you opened it to read it — carried
   through the staged landing by the one-shot `_landOpenNext`, because that card is built later,
@@ -2838,13 +2845,13 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
 - **`attachInput` MUST NAME EVERY FIXED OVERLAY THAT OWNS CONTROLS (v1.101.5).** Its pointerdown
   calls `setPointerCapture` on the wrap, which retargets pointerup, so the browser resolves the
   click to the down/up common ancestor and a listener inside an overlay never fires. Fourth
-  instance: the game card's own corner `+`. It measured the button, hit-tested to the button,
+  instance: the game card's own corner capture. It measured the button, hit-tested to the button,
   took a real mouse click on the button — and captured nothing; `locator.click()` (which
   dispatches on the element) masked it completely. `.ng-landcard` and `.ng-landfilm` join the
   node card and the sheet in the early-return. Any new fixed overlay with controls goes here too.
 - **A SUPPRESSED LANDING CARD MUST BE INERT, NOT MERELY TRANSPARENT (v1.100.2).** `_suppressLand`
   set `opacity:0` + `pointer-events:none` on the root. Both are inherited — and `[data-land-foot]`
-  re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture `+`). Hit-testing
+  re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture control). Hit-testing
   ignores opacity, so a "hidden" landing card kept a fully **INVISIBLE** sticky footer strip live
   across its box and whatever sat under it was dead to the mouse (measured: `elementFromPoint`
   returning `<div data-land-foot="1">` at the centre of a capture button, 120s of Playwright
@@ -2958,9 +2965,146 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
+### THE CAPTURE STAR (v1.129.8)
+
+Owner: *"should the + rather be a star to add to your lists as in star to favorite it? maybe that
+would make it more explicit. trade every place the + to add to lists appears and instead use a star
+to trigger the opening of the list of lists menu to add such technique to a list."*
+
+**ONE GLYPH, TWO STATES, ONE SILHOUETTE.** `_starHTML(on, px)` is the single source: hollow = in no
+list, **FILLED = in at least one** (`nodeInAnyList`, never "the active one"). The stroke stays on in
+BOTH states, so the outer shape never moves and the change reads as *fill arriving* rather than as
+the glyph resizing — the same stroke-vs-fill pair `_caretHTML` (stroke, and it rotates) and
+`_playButton` (fill) already speak. It is a SHAPE difference, so the state survives WCAG 1.4.1
+without leaning on colour, exactly as `✓`-vs-`+` did.
+**Behaviour is UNCHANGED**: the click still runs `captureNode → openListPicker`, which since
+v1.102.0 ALWAYS opens the chooser. Only the affordance moved.
+
+**AN SVG, NOT `★`/`☆` — measured, not taste.** `helmet.html` loads its four faces through the
+Google CSS2 API, which serves latin/latin-ext unicode-range subsets; **U+2605/U+2606 fall outside
+every one of them**, so `font-family:inherit` ALWAYS falls back to a system font with per-platform
+metrics, baseline and weight. Tolerable for `crownBadge`'s 9.5px decorative `★`; not tolerable for
+the primary state indicator on the app's most-repeated control. (`⭐` U+2B50 is worse still — Emoji
+presentation, so it would ignore `color` outright.) The path is Feather's star `<polygon>`, matching
+`_caretHTML`'s Feather-derived caret, and `currentColor` collapses both states' paint onto the one
+property a CSS `:hover`/`:focus-visible` rule could ever animate.
+
+**`font-size` IS INERT UNDER AN SVG, SO THE GLYPH IS A BOX — AND THREE SITES USED TO SIZE IT WITH
+TYPE.** The base (13/17px), the sheet corner (16px) and the landing corner (15px) would ALL have
+silently rendered at the default. `data-list-glyph` carries the px (an attribute, not a closure, so
+`_refreshListSurfaces` can read it back off an element it found in the DOM) and
+`_listAddButton(nodeId, surface, glyphPx)` takes the override. Boxes: **24px chip → 12**, **44px
+thumb → 17** (17/44 tracks 12/24 within 6%), **sheet corner → 15**, **land corner → 14**. A star
+needs +2px over a solid figure at equal box — its ink is centrally concentrated and its five points
+taper to nothing — which is why 12 against `_playButton`'s 10 and `_caretHTML`'s 9 in the same chip.
+The two corner figures are unboxed (no border competing, so the star reads heavier) and the land one
+is a step under the sheet's because v1.104.2 requires that corner's geometry to come from the 24px
+`✕`, never the 44px thumb. `landcard-chrome` pins the 14 in both attribute and rendered box.
+The `44px` width string `:9644` tests is untouched, and so is the inline `pointer-events:auto`.
+
+**`aria-pressed` IS GONE, AND THAT IS THE HONEST HALF OF THIS CHANGE.** ARIA defines it for a TOGGLE
+BUTTON — one that retains state after being activated — and activating this opens a MENU and leaves
+membership untouched. A screen-reader user was told "toggle button, not pressed", pressed it, and
+the state they had just been told about did not respond to their press. Worse in combination: the
+button carried aria-pressed AND aria-expanded, so it announced as roughly *"Add to a list, toggle
+button, not pressed, collapsed"* — two state models on one control, only one of which activation
+changes. The APG **menu-button** pattern is now stated outright: `aria-haspopup="menu"` +
+`aria-expanded`, both set ONCE at construction, with `openListPicker`/`closeListPicker` the only
+writers of the live value. **`_styleListAdd` must never rewrite `aria-expanded`** — it repaints on
+every list mutation and would claim "collapsed" under an open menu.
+`aria-controls` is APG-optional and deliberately NOT added: it needs the picker to carry an id, and
+`openListPicker` was out of scope.
+- The cost is disclosed rather than hidden: removing it deletes a machine-readable SUMMARY state.
+  It is not lost — it is in the accessible NAME (announced on focus) and, per list and precise, on
+  the picker's own `role="menuitemcheckbox"` + `aria-checked` rows. A summary ("in ≥1 list") belongs
+  at name level, not state level, because it is not the thing activation changes.
+
+**THE LABEL KEEPS THE VERB, AND THE ENUMERATION IS CAPPED.** A star promises a MENTAL MODEL
+(favourite: binary, one tap, done); the behaviour is a CHOOSER. The resolution is that the glyph
+carries the metaphor VISUALLY and the accessible name carries the behaviour — so it stays
+**"Add to a list"**, never "Star", "Favourite" or "Save" ("Save" already means saving PROGRESS on
+the pane anchor). No `…` in the name either: an ellipsis is a visual convention and some screen
+readers read it literally; `aria-haspopup` is the honest carrier. A filled star must therefore NEVER
+be labelled "Saved"/"Favourited" — a second press does not remove; `×` has been the remove path
+since v1.99.4.
+- ON reads `Add to a list — already in “A”, “B” and 2 more`. **Two named, the rest counted**
+  (N = count − 2, so it is always ≥ 1 and can never read "and 0 more"). It used to name every list,
+  unbounded — a coach with a list per week got a 200-character button NAME, read out in full on
+  every focus. With aria-pressed gone this aside is the ONLY channel by which a screen-reader user
+  learns membership without opening the menu, so it has to be there and it has to be bearable.
+- **`title` SPLITS.** With an aria-label present, `title` computes as the accessible DESCRIPTION, so
+  `el.title = c.label` made NVDA/JAWS read the same sentence twice on the common path. OFF now
+  carries **no title at all** (a hollow star already says it); ON carries **status only** —
+  `In “A”, “B” and 2 more`, no verb — because with a bare glyph the desktop hover is the only
+  channel a sighted mouse user has for WHICH lists a technique is in. WCAG 2.5.3 Label in Name is
+  not engaged: that criterion applies to VISIBLE text labels and this control has none.
+
+**BOTH PAINTERS WERE TRADED.** `_styleListAdd` (every `[data-list-add]` BUTTON) and
+`_wireDossierListButton`'s `paint` (the `.dsList` row). The second is unreachable from the app
+(v1.101.5) but is live code that `_refreshListSurfaces` dispatches to, so leaving it on `+`/`✓`
+would let the two diverge. Its static pre-paint markup and its stale *"Add to today's class list"*
+went with it. The dead `data-list-label` branch (no writer anywhere in the tree since v1.102.1) was
+KEPT and its words traded too — so a revival cannot resurrect "Add to class", the vocabulary
+retired in v1.113.5 and pinned by `share-mobile.spec.ts:371`.
+**Repaint cost**: an `innerHTML` SVG parse is not the free `textContent` write it replaces, and this
+painter runs for every capture on screen on every list mutation (Explore can hold a hundred rows),
+so it is keyed on `on:px:labelled` and only reparses on a real change.
+
+**`[data-lists-new]` STAYS A `+`, AND SO DOES THE PICKER'S "New list" ROW.** That `+` **creates a
+list** — it calls `newList()`, never `captureNode` — and the picker's `<span class="ng-listpicker-box">+</span>`
+is the same create affordance. They are not capture controls. The trade actually SHARPENS them: `+`
+now means "make a new list" and nothing else in the whole pane, where before one `+` created lists
+and another filed into them. `share-lists.spec.ts:979` is the guard and is untouched.
+
+**A BONUS THE OWNER WILL SEE, AND TWO COLLISIONS THAT ARE DISCLOSED, NOT FIXED.** Moving the trigger
+off `✓` disambiguates it from the menu it opens: the picker's rows are `role="menuitemcheckbox"`
+with real `✓` boxes, so **★ now opens a menu of ✓** where a ✓ used to open a menu of ✓.
+- **`★` IS ALREADY TAKEN, ON THE SAME ROW.** `crownBadge` prints a filled `★` in gold `#f0c05a` at
+  deck-mastery level 4, and `challenge-ui.src.js` puts that crown and the capture control on the
+  SAME `.ng-challenge-lessonrow`. The colour half is settled (the capture star is never gold — see
+  below); the SHAPE overlap ships. Geometry separates them — the crown is 9.5px inside an 18px dark
+  disc, the capture is a 12px glyph in a 24px bordered box — but it is a VISUAL call the owner
+  should eyeball on a mastered lesson row. **Arguably the CROWN should move off `★`, not the
+  capture control.**
+- **`★ GitHub` in the Explore FOOT** (`_refreshGhChip`, pinned by `footer-feedback.spec.ts:83`)
+  means "stargazers" — a different verb, one scroll from the Lists section. It always carries a
+  NUMBER, and it is why the capture control must never be LABELLED "Star": two controls whose
+  accessible names are both a bare "Star", doing different things in one scroller, is the worst
+  outcome available here.
+
+**THE ON COLOUR IS THE PANE'S SELECTION BLUE, AND GOLD/GREEN WERE REJECTED ON MEASUREMENT.**
+`#a9c2ff` ink, `rgba(150,180,255,.5)` border, `rgba(150,180,255,.13)` wash — structurally identical
+to the green it replaces (tinted ink + .5 border + ~.13 wash), and the border is an EXISTING token
+(`.ng-actchip:hover` / `.ng-lists-new:hover`). The OFF state is byte-identical to before.
+- **Gold** carries THREE meanings in this pane already — the due count and the weak-spots count
+  (`_exploreStatsRow`, which renders directly above the Lists section), `crownBadge` level 4, and
+  the share cue — all of which mean progress-or-attention. List membership is neither.
+- **Green** (`#7ee0a8` + `✓`) means completion/correctness in at least eight other places. "In one
+  of your lists" is MEMBERSHIP, not completion — which is exactly the muddle the owner reacted to.
+
+**KNOWN, NOT FIXED (owner scope call, deliberately not smuggled in).** The capture control is
+styled by inline `cssText` and has **no `:hover` and no `:focus-visible`**, while `.ng-actchip` — the
+play button sitting immediately beside it on every Explore row — has both. Tabbing to play shows a
+ring; tabbing to capture shows nothing. Adopting `.ng-actchip` + an `[aria-pressed]`-free modifier
+would fix it for free but moves the paint seam from JS-inline to CSS, and `_styleListAdd` would have
+to stop writing `style.color`/`borderColor`/`background`.
+
+**Cost:** bundle **+791 raw / +274 gzip -9** (467,395 → 468,186 · 138,186 → 138,460). Payload gate
+green with NO ceiling raised — neural eager **303,512 / 330,000** gzip, **1,421,164 / 1,600,000**
+raw. **No RNG tag, no call order, no persisted shape and no storage path is touched**, so
+`replay-digest` cannot see this and was not re-baselined.
+
+**Gated by** `lists-picker.spec.ts` (8 journeys — the fill IS the membership state, the menu-button
+aria, and the label/title contract), `lists-disclosure.spec.ts` (the empty-list copy names the star
+and the three surfaces that really carry it) and `landcard-chrome.spec.ts` (the corner star's 14px
+box, which is what catches the inert-`font-size` slip). **Eight mutants, eight kills**: the fill
+never arriving · `aria-haspopup` deleted · `aria-pressed` restored · `aria-expanded` no longer
+written on the anchor · the old empty-list copy · the land corner forgetting its `glyphPx` · the
+enumeration uncapped · `title` back to duplicating the name.
+
 **THE PICKER NO LONGER HIDES WHAT YOU WERE READING (v1.103.2).** `openListPicker` used to suppress
 `.ng-landcard` while it was up, on the reasoning that on a phone the picker's band is exactly where
-the card sits. Owner: the `+` "should show the list of lists to choose from without hiding
+the card sits. Owner (of the `+` it was then): it "should show the list of lists to choose from without hiding
 ng-landcard". The z ladder already settles it — the picker portals to the root plane at **90**, the
 card is **5** — so it owns the INPUT without taking the view. Hiding the thing you are reading in
 order to answer a question about it is the wrong trade. `lists-picker.spec.ts` asserts the card is
