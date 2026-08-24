@@ -567,6 +567,12 @@ class Component extends DCLogic {
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+      } else if (!typing && !this._detailCtx && this._landEl && !this._landHidden() && (this._landMode === "land" || this._landMode === "attempt") && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+        // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
+        // branches so it can never steal from an open study surface; the defense card is excluded
+        // by mode (buildPanicCard assigns _landEl without ever entering renderLandCard).
+        e.preventDefault();
+        this._landPageTo(e.key === "ArrowRight" ? 1 : -1);
       } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing && !this._detailCtx) {
         // ── SPACE BELONGS TO THE FOCUSED CONTROL FIRST (v1.113.4) ────────────────────────────
         // `preventDefault()` used to run BEFORE this branch decided anything, so Space suppressed
@@ -582,7 +588,7 @@ class Component extends DCLogic {
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
         else { this._clearPauseLatches(); this.setPaused(!this.paused); }
-      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && (this._landHidden() || this._landAnsHid)) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
         e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
         this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
       } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
@@ -4345,6 +4351,7 @@ class Component extends DCLogic {
         ["Flashcards: prev / next technique", ["\u2191", "\u2193"]],
         ["Flashcards: flip / got it", ["Space"]],
         ["Flashcards: review again", ["\u2191"]],
+        ["Landing card: prev / next question", ["\u2190", "\u2192"]],
         ["Open / search explorer", ["/", "\u2318K"]],
         ["Close detail / explorer / flashcards", ["Esc"]],
         ["Pan the graph", ["Drag"]],
@@ -9413,9 +9420,10 @@ class Component extends DCLogic {
     const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && this._mc.surface === "land") ? this._mc : null } : null;
     // keyboard users: if focus was on one of the card's own handles, put it back on the new one
     const act = document.activeElement;
-    const held = act && this._landEl.contains(act)
-      ? (act.hasAttribute("data-land-more") ? "[data-land-more]" : (act.hasAttribute("data-land-count") ? "[data-land-count]" : null))
-      : null;
+    let held = null;
+    if (act && this._landEl.contains(act))
+      for (const h of ["data-land-more", "data-land-count", "data-land-reveal", "data-land-hide", "data-land-prev", "data-land-next"])
+        if (act.hasAttribute(h)) { held = "[" + h + "]"; break; }
     // somebody is hiding the card inline (the expand sheet owns the screen while it is up, and
     // restores these two on close) — a fresh element must inherit that, or the card pops into
     // view over the sheet the player is reading
@@ -9424,6 +9432,242 @@ class Component extends DCLogic {
     try { this.renderLandCard(pos, "land", null, reuse); } finally { this._landLate = false; }
     if (this._landEl && hidden) this._suppressLand(true);   // one seam, and it survives the entry animation
     if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
+  }
+  // ═══ LANDING-CARD RUNGS + PAGING (v1.130.0) ═══════════════════════════════════════════════
+  // The owner's three asks, one seam each:
+  //   1. answers hidden behind "Answer for better odds" — the RUNG, `_landAnsHid`, persisted as
+  //      the `landAnswers` settings key ("show"|"hide", default "show", NO Settings row: the
+  //      player's own Reveal/Hide clicks are the only writers, and the open rung — the More
+  //      fold — never persists, so "fully open" always decays to normal on the next card);
+  //   2. swipe / wheel / ‹›pager / ←→ page the CURRENT NODE's own flashcard deck — `_landPageTo`
+  //      with the per-landing cursor `_landPage`;
+  //   3. the ladder hidden ⇄ normal ⇄ open — `_landAnsHid` and `_landOpen`, never both true.
+  // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST
+  // answered card per landing (whichever one it is) is THE landing question — refund, combo,
+  // qMod, `land_q_answered` — and every later answer is study: stage/srs/prep/noteCardDone all
+  // still run inside _mcAnswer/gradeRecall (mastery moves the odds), but the onDone routes to a
+  // grade-only path that emits `land_q_extra`. The latch is `_landAnswers` (a Set of qhashes),
+  // never `_landPending` — `_breakCombo` clears that one.
+  _landDeckCards(key) {
+    return this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]) || [];
+  }
+  // ONE question block for the landing card: [data-land-q] = question text + its MC/recall
+  // block. Pure builder + state writer; the CALLER parents the element. Initial mounts
+  // (o.paged falsy — the code this was extracted from, §4 of renderLandCard) set _landPending,
+  // void the skip debt and emit land_q_shown/land_q_unseen; paged mounts do none of that.
+  _mountLandQ(card, key, mode, hooks, o) {
+    o = o || {};
+    const landRecall = !!(this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
+    const qh = this.qhash(card.q);
+    const rec = { key: key, card: card, mode: mode || "land", answered: false };
+    const qw = document.createElement("div");
+    qw.setAttribute("data-land-q", "1");
+    // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
+    // its own strip, the question IS the first thing in the card and that rule divided it from
+    // nothing.
+    qw.style.cssText = "";
+    const qt = document.createElement("div");
+    // THE CORNER CLEARANCE BELONGS TO THE QUESTION, NOT THE BLOCK (v1.101.3). It was on the
+    // wrapper, so all four answers were inset 54px as well — they start below the corner
+    // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
+    // ellipsis, so the padding was spending width that answer text needed. Only the line that
+    // actually runs under the `+` and the ✕ pays for them.
+    qt.style.cssText = "padding-right:54px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
+    qt.textContent = card.q;
+    qw.appendChild(qt);
+    const done = (fmt) => (ok, tier) => {
+      rec.answered = true;
+      if (this._landQ === rec) this._landQ.answered = true;
+      const first = !this._landAnswers || this._landAnswers.size === 0;
+      if (this._landAnswers) this._landAnswers.add(qh);
+      // answering retires the rung controls: a graded block is a record, and hiding it again
+      // (or "revealing" it) answers nothing
+      const hb = qw.querySelector("[data-land-hide]");
+      if (hb) hb.remove();
+      const rv = qw.querySelector("[data-land-reveal]");
+      if (rv) rv.remove();
+      if (first) this._landAnswered(ok, tier, mode, hooks, fmt);
+      else {
+        this.refreshOptionOdds();
+        this.fx("land_q_extra", { correct: !!ok, tier: tier || null, deckKey: key });
+      }
+      this._paintLandPager();
+    };
+    let usedRecall = landRecall;
+    let block = landRecall ? this._recallBlock(card, key, done("recall"), "land") : this._mcBlock(card, key, done(), "land");
+    if (!block && o.paged) {
+      // a paged deck sibling can have too few distractor survivors — the recall block needs
+      // none, so the card stays browsable instead of silently unreachable
+      usedRecall = true;
+      block = this._recallBlock(card, key, done("recall"), "land");
+    }
+    if (!block) return null;
+    qw.appendChild(block);
+    if (!usedRecall) {
+      block.setAttribute("data-land-opts", "1"); // the rung's target: only an MC options wrap hides
+      this._applyLandRung(qw);
+    }
+    this._landQ = rec;
+    if (this._landPageCache) this._landPageCache[qh] = { el: qw, q: rec, mc: usedRecall ? null : (block.__ngMc || null) };
+    if (this._landPage == null) {
+      const cs = this._landDeckCards(key);
+      for (let i = 0; i < cs.length; i++) if (cs[i].q === card.q) { this._landPage = i; break; }
+    }
+    if (!o.paged) {
+      this._landPending = true; // a question is on the table — walking past it breaks momentum
+      // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
+      // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
+      // this asks nothing new of the data model — it just names the suspected confusion.
+      const unseen = (o.glyph || this.seenGlyph(key))[0] === "○";
+      this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
+      this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate, hidden: !!(this._landAnsHid && !usedRecall) });
+      if (unseen) this.fx("land_q_unseen", { deckKey: key, node: o.node || null, cards: o.cards, mode: mode || "land", landing: (this.rollLog || []).length });
+    }
+    return qw;
+  }
+  _landRevealBtn() {
+    // the incentive copy is the owner's ask ("answer and improve odds"): the reveal IS the start
+    // of answering, and a right answer really does buy odds + clock (see _landAnswered)
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "ng-land-reveal";
+    b.setAttribute("data-land-reveal", "1");
+    b.innerHTML = 'Answer for better odds <span aria-hidden="true" style="opacity:.7;">\u25b8</span>';
+    b.addEventListener("click", (e) => { e.stopPropagation(); this._setLandAnswers("show"); });
+    return b;
+  }
+  _landHideBtn() {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "ng-land-hide";
+    b.setAttribute("data-land-hide", "1");
+    b.textContent = "Hide answers";
+    b.addEventListener("click", (e) => { e.stopPropagation(); this._setLandAnswers("hide"); });
+    return b;
+  }
+  // rung → DOM for one [data-land-q] block. An ANSWERED block always shows (it is a record and
+  // its controls are gone); a recall block has no options wrap and is exempt by construction.
+  _applyLandRung(qw) {
+    const wrap = qw.querySelector("[data-land-opts]");
+    if (!wrap) return;
+    const answered = !!qw.querySelector("[data-mc-result]");
+    const hid = !!this._landAnsHid && !answered;
+    // "flex", never "" — the wrap's display:flex is INLINE (its cssText), and style.display = ""
+    // DELETES an inline declaration rather than restoring it (the v1.104.2 NG_LAND_MORE_COL
+    // lesson): the un-hidden options then fell back to display:block and shrank to content width
+    wrap.style.display = hid ? "none" : "flex";
+    const rv = qw.querySelector("[data-land-reveal]");
+    if (hid && !rv) wrap.parentNode.insertBefore(this._landRevealBtn(), wrap.nextSibling);
+    else if (!hid && rv) rv.remove();
+    const hb = qw.querySelector("[data-land-hide]");
+    if (!hid && !answered && !hb) qw.appendChild(this._landHideBtn());
+    else if ((hid || answered) && hb) hb.remove();
+  }
+  // "the answers are hidden RIGHT NOW, on a block that has them" — distinct from the flag alone:
+  // a recall block under pref=hide has nothing hidden, so More pressed over it reveals nothing
+  // and must not write the preference.
+  _landRungHiddenNow() {
+    const el = this._landEl;
+    if (!el || !this._landAnsHid) return false;
+    const w = el.querySelector("[data-land-opts]");
+    return !!(w && w.style.display === "none");
+  }
+  // THE RUNG WRITER — the only writer of the `landAnswers` preference, and only ever from the
+  // player's own click (Reveal, Hide, or More-pressed-while-hidden, which IS a reveal).
+  // Programmatic opens (openDossier's read intent, the _landOpen restore on a re-render) go
+  // through expandLandCard's own invariant instead: "fully open is never remembered" (owner),
+  // and a preference nobody expressed is never written.
+  _setLandAnswers(m) {
+    if (this.get("landAnswers", "show") !== m) this.set("landAnswers", m);
+    this._landAnsHid = m === "hide";
+    const el = this._landEl;
+    if (el) {
+      const qw = el.querySelector("[data-land-q]");
+      if (qw) this._applyLandRung(qw);
+      this._dockLandCard(el); // the card's height just changed — the film strip docks off its top
+    }
+    this.fx(this._landAnsHid ? "land_answers_hidden" : "land_answers_revealed", { deckKey: this._landQ ? this._landQ.key : null });
+    this.track("neural_land_answers", { mode: m });
+  }
+  // ── PAGING: prev/next flashcard of THIS node ── (owner: "scroll left or right on the land
+  // card, and it should show the previous or the next card" = the same node's deck.) Replaces
+  // the [data-land-q] block ONLY — never a re-render: rebuilding the card replays ngCardInX and
+  // races _suppressLand, and the film sibling + the More fold (node-level content) stay put.
+  // Clamp at the ends: an edge is an edge, and the mini-deck's modulo wrap loses the reader's
+  // place in a deck they are browsing.
+  _landPageTo(dir) {
+    const el = this._landEl;
+    if (!el || (this._landMode !== "land" && this._landMode !== "attempt")) return false;
+    if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
+    const key = this._landQ.key;
+    const cards = this._landDeckCards(key);
+    if (cards.length < 2) return false;
+    const next = Math.max(0, Math.min(cards.length - 1, this._landPage + dir));
+    if (next === this._landPage) return false;
+    const card = cards[next];
+    const qh = this.qhash(card.q);
+    const from = this._landPage;
+    const seq = (this._landPageSeq = (this._landPageSeq || 0) + 1);
+    const mount = (qw) => {
+      const old = el.querySelector("[data-land-q]");
+      if (old) old.replaceWith(qw);
+      else el.insertBefore(qw, el.querySelector("[data-land-more-body]") || el.querySelector("[data-land-foot]"));
+      this._landPage = next;
+      this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
+      this.fx("land_q_paged", { dir: dir > 0 ? 1 : -1, from: from, to: next, deckKey: key });
+      this._paintLandPager();
+      this._dockLandCard(el);
+    };
+    const cached = (this._landPageCache || {})[qh];
+    if (cached) {
+      // re-parent, never redraw: same shuffle, same closures, no second land-mc-* draw — the
+      // backfill-reuse idiom. An answered card comes back as its graded, disabled record.
+      this._landQ = cached.q;
+      // the keyboard's truth follows the mounted block (v1.106.10); an answered block's cached
+      // truth is inert (its answer closure latched), so the only rule that matters is never to
+      // clobber another surface's live block
+      if (!this._mc || this._mc.surface === "land") this._mc = (!cached.q.answered && cached.mc) ? cached.mc : null;
+      this._applyLandRung(cached.el);
+      mount(cached.el);
+      return true;
+    }
+    const recallable = !!(this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
+    if (!recallable && !this.mcPoolWarm(key, card)) {
+      // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
+      // still means settled), and only mount if the player has not paged again meanwhile
+      const p = this._warmMcPool(card, key, "land").then(() => {
+        if (this._landEl !== el || this._landPageSeq !== seq) return;
+        const qw = this._mountLandQ(card, key, this._landMode, null, { paged: true });
+        if (qw) mount(qw);
+      }).catch(() => {});
+      this._landWarmP = p;
+      p.then(() => { if (this._landWarmP === p) this._landWarmP = null; });
+      return true;
+    }
+    const qw = this._mountLandQ(card, key, this._landMode, null, { paged: true });
+    if (qw) { mount(qw); return true; }
+    return false;
+  }
+  _paintLandPager() {
+    const el = this._landEl;
+    if (!el) return;
+    const pg = el.querySelector("[data-land-pager]");
+    if (!pg) return;
+    const key = this._landQ && this._landQ.key;
+    const cards = key ? this._landDeckCards(key) : [];
+    const n = cards.length;
+    const i = this._landPage == null ? 0 : this._landPage;
+    const dots = pg.querySelector("[data-land-dots]");
+    if (dots) {
+      if (n > 12) dots.textContent = (i + 1) + "/" + n;
+      else dots.innerHTML = cards.map((c, k) =>
+        '<i class="ng-land-dot"' + (k === i ? ' data-on="1"' : "") +
+        (this._landAnswers && this._landAnswers.has(this.qhash(c.q)) ? ' data-done="1"' : "") + "></i>").join("");
+    }
+    const pv = pg.querySelector("[data-land-prev]");
+    const nx = pg.querySelector("[data-land-next]");
+    if (pv) pv.setAttribute("aria-disabled", i <= 0 ? "true" : "false");
+    if (nx) nx.setAttribute("aria-disabled", i >= n - 1 ? "true" : "false");
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
@@ -9442,6 +9686,14 @@ class Component extends DCLogic {
     // card AROUND it — the More affordance, film, definition — which this early return threw
     // away. With reuse in hand there is no reshuffle to prevent.
     if (!reuse && this._landQ && this._landEl && this._landQ.key === key0 && this._landQ.mode === (mode || "land")) {
+      // a PAGED cursor is "the question this state would ask" (v1.130.0): the player chose it,
+      // and a rebuild snapping back to questionFor's pick would lose their place AND reshuffle.
+      // Defensive — no same-landing no-reuse re-render is currently reachable with a mounted
+      // question — but the invariant should be explicit rather than incidental.
+      if (this._landPaged && this._landPage != null) {
+        const cs = this._landDeckCards(key0);
+        if (cs[this._landPage] && this._landQ.card && cs[this._landPage].q === this._landQ.card.q) return this._landEl;
+      }
       const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
@@ -9451,6 +9703,23 @@ class Component extends DCLogic {
     if (this._landIdx !== node.idx) { this._landOpen = false; this._landAutoPaused = false; }
     if (this._landOpenNext) { this._landOpen = true; this._landOpenNext = false; } // opened to be read
     this.clearLandCard();
+    // ── PER-LANDING PAGING + RUNG STATE (v1.130.0) ── a backfill re-render (`reuse`) is the
+    // SAME landing completing itself around the mounted question: the cursor, the answered set
+    // and the page cache must survive it (the re-parented block lives in that cache). Everything
+    // else starts clean — including a warm re-render, which by construction mounted nothing yet.
+    // clearLandCard deliberately does NOT touch these: this reset is the one owner of their
+    // lifecycle, and the gates on `_landEl`/`_landMode` keep any stale tail inert.
+    if (!reuse) {
+      this._landPage = null;         // cursor into _cardsOf(deck); set at the first mount
+      this._landPaged = false;       // "the user moved the cursor this landing"
+      this._landAnswers = new Set(); // qhashes answered THIS landing — the first is the scored one
+      this._landPageCache = {};      // qhash -> {el, q, mc}: re-paging re-parents, never redraws
+      // THE RUNG: the player's own Reveal/Hide clicks persist "show"|"hide" (`landAnswers`, no
+      // Settings row — the owner's call); a card opened to be READ (_landOpenNext -> _landOpen)
+      // starts revealed, because hiding what the player asked to read would be hostile. The two
+      // flags are never both true.
+      this._landAnsHid = !this._landOpen && this.get("landAnswers", "show") === "hide";
+    }
     // A cold visitor's FIRST landing carries its question like every other one. This used to
     // return null when the coach owned the first landing — which was every cold visitor, i.e. it
     // silently deleted the question from the one decision the comprehension mechanic exists for.
@@ -9570,37 +9839,12 @@ class Component extends DCLogic {
       this._landPending = reuse.pending;
       if (reuse.mc) this._mc = reuse.mc; // the keyboard's truth survives the re-parent (v1.106.10)
     } else if (card) {
-      const qw = document.createElement("div");
-      qw.setAttribute("data-land-q", "1");
-      // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
-      // its own strip, the question IS the first thing in the card and that rule divided it from
-      // nothing.
-      qw.style.cssText = "";
-      const qt = document.createElement("div");
-      // THE CORNER CLEARANCE BELONGS TO THE QUESTION, NOT THE BLOCK (v1.101.3). It was on the
-      // wrapper, so all four answers were inset 54px as well — they start below the corner
-      // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
-      // ellipsis, so the padding was spending width that answer text needed. Only the line that
-      // actually runs under the `+` and the ✕ pays for them.
-      qt.style.cssText = "padding-right:54px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
-      qt.textContent = card.q;
-      qw.appendChild(qt);
-      const block = landRecall
-        ? this._recallBlock(card, key, (ok, tier) => this._landAnswered(ok, tier, mode, hooks, "recall"), "land")
-        : this._mcBlock(card, key, (correct, tier) => this._landAnswered(correct, tier, mode, hooks), "land");
-      if (block) {
-        qw.appendChild(block);
-        el.appendChild(qw);
-        this._landQ = { key: key, card: card, mode: mode || "land", answered: false };
-        this._landPending = true; // a question is on the table — walking past it breaks momentum
-        // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
-        // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
-        // this asks nothing new of the data model — it just names the suspected confusion.
-        const unseen = glyph[0] === "○";
-        this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
-        this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards, backfill: !!this._landLate });
-        if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
-      } else this._landQSkip(key, "no_distractors", mode);
+      // §4's body is EXTRACTED to _mountLandQ (v1.130.0) so paging can mount deck siblings
+      // through the identical builder — same RNG draws, same beats, same DOM, byte-for-byte,
+      // for this initial mount.
+      const qw = this._mountLandQ(card, key, mode, hooks, { glyph: glyph, cards: totalCards, node: node.t });
+      if (qw) el.appendChild(qw);
+      else this._landQSkip(key, "no_distractors", mode);
     } else if ((mode || "land") === "land") {
       // NAME THE GAP. A landing that asks nothing is legitimate, but the cold-start funnel must not
       // be left to infer a drop-off from its absence — an unexplained hole in an ordered funnel is
@@ -9663,7 +9907,12 @@ class Component extends DCLogic {
       more.setAttribute("aria-controls", "ng-land-more");
       more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
       more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
-      more.addEventListener("click", () => this.expandLandCard());
+      more.addEventListener("click", () => {
+        // More while the answers are hidden IS a reveal, and the player pressed it — the one
+        // fold-open that writes the `landAnswers` preference (v1.130.0)
+        if (this._landRungHiddenNow()) this._setLandAnswers("show");
+        this.expandLandCard();
+      });
       foot.appendChild(more);
     }
     // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
@@ -9693,6 +9942,34 @@ class Component extends DCLogic {
       play.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(node); });
       foot.appendChild(play);
     }
+    // ── THE PAGER (v1.130.0) ── this state's own deck is browsable (‹ › here; swipe, wheel and
+    // ←/→ all land in _landPageTo). Dots, not numbers — the chip beside it already prints
+    // "● done/total" and a second n/N would collide with it. margin-left:auto on BOTH the pager
+    // and the chip splits the remaining space, which is what centres the pager between the left
+    // controls and the chip.
+    if (this._landPage != null && this._landDeckCards(key).length > 1) {
+      const pager = document.createElement("div");
+      pager.className = "ng-land-pager";
+      pager.setAttribute("data-land-pager", "1");
+      pager.style.cssText = "margin-left:auto;display:flex;align-items:center;gap:2px;pointer-events:auto;";
+      const mkPg = (dir, glyphTxt, handle, label) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "ng-land-pgbtn";
+        b.setAttribute(handle, "1");
+        b.setAttribute("aria-label", label);
+        b.innerHTML = '<span class="ng-land-pgchip" aria-hidden="true">' + glyphTxt + "</span>";
+        b.addEventListener("click", (e) => { e.stopPropagation(); this._landPageTo(dir); });
+        return b;
+      };
+      pager.appendChild(mkPg(-1, "\u2039", "data-land-prev", "Previous question"));
+      const dots = document.createElement("span");
+      dots.setAttribute("data-land-dots", "1");
+      dots.style.cssText = "display:inline-flex;align-items:center;font-size:9.5px;color:#8b97b0;font-weight:700;pointer-events:none;";
+      pager.appendChild(dots);
+      pager.appendChild(mkPg(1, "\u203a", "data-land-next", "Next question"));
+      foot.appendChild(pager);
+    }
     // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
     // control (it opens this state's flashcards), not a header ornament, and the owner asked for
     // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
@@ -9705,6 +9982,7 @@ class Component extends DCLogic {
       foot.appendChild(chipEl);
     }
     el.appendChild(foot);
+    this._paintLandPager();
     // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
     // Owner: "the + should only show top right next of the x close icon when the card is open".
     // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
@@ -9749,6 +10027,45 @@ class Component extends DCLogic {
     xb.addEventListener("click", (e) => { e.stopPropagation(); this.fx("land_dismissed", { node: node.t, answered: !!(this._landQ && this._landQ.answered) }); this.clearLandCard(); });
     corner.appendChild(xb);
     el.appendChild(corner);
+    // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
+    // clearLandCard. Horizontal-dominant ONLY — vertical stays the card's native overflow-y
+    // scroll, which is also why the drill panel's vertical swipe actions are deliberately not
+    // copied. Thresholds are the drill's (40px / 700ms, passive). A SWIPE IS NOT A PICK: the
+    // capture-phase click suppressor is the option tray's lesson — without it a swipe ending on
+    // an MC option would answer it through the browser's synthesized click.
+    {
+      let sx = 0, sy = 0, st = 0, tracking = false, moved = 0, wAcc = 0, wLast = 0, wCool = 0;
+      el.addEventListener("touchstart", (e) => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); tracking = true; moved = 0; }, { passive: true });
+      el.addEventListener("touchend", (e) => {
+        if (!tracking) return;
+        tracking = false;
+        const t = e.changedTouches[0];
+        const dx = t.clientX - sx, dy = t.clientY - sy;
+        moved = Math.max(Math.abs(dx), Math.abs(dy));
+        if (Date.now() - st > 700) return;
+        if (Math.abs(dx) < 40 || Math.abs(dx) <= Math.abs(dy)) return;
+        this._landPageTo(dx < 0 ? 1 : -1);
+      }, { passive: true });
+      el.addEventListener("click", (e) => {
+        if (moved > 6) { e.stopPropagation(); e.preventDefault(); }
+        moved = 0;
+      }, true);
+      el.addEventListener("wheel", (e) => {
+        // trackpad "scroll left or right" (the owner's words): deltaX-dominant only, so a
+        // vertical wheel keeps scrolling the card; small deltas accumulate, and a cooldown keeps
+        // one gesture to one page
+        if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+        const now = Date.now();
+        if (now - wLast > 300) wAcc = 0;
+        wLast = now;
+        wAcc += e.deltaX;
+        if (Math.abs(wAcc) >= 60 && now - wCool >= 350) {
+          wCool = now;
+          this._landPageTo(wAcc > 0 ? 1 : -1);
+          wAcc = 0;
+        }
+      }, { passive: true });
+    }
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
     // player has not moved on), and never loop — after the warm, questionFor either has a card
     // or the deck genuinely has none.
@@ -9831,6 +10148,15 @@ class Component extends DCLogic {
     this._landOpen = want;
     const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
     if (want) {
+      // THE LADDER (v1.130.0): the fold never opens over hidden answers — opening reveals,
+      // WITHOUT writing the preference. Only the More button's own click persists; a
+      // programmatic open (openDossier's read intent, the _landOpen restore on a re-render)
+      // must never speak for the player. "Fully open is never remembered" (owner).
+      if (this._landAnsHid) {
+        this._landAnsHid = false;
+        const q0 = el.querySelector("[data-land-q]");
+        if (q0) this._applyLandRung(q0);
+      }
       if (!body.firstChild && body._ngMoreHTML) {
         const box = document.createElement("div");
         box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";

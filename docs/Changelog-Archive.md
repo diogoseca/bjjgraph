@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.131.0** — [THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK](#v1-131-0-the-landing-card-gets-rungs-and-pages-it)
 - **v1.129.8** — [THE CAPTURE STAR](#v1-129-8-the-capture-star)
 - **v1.129.6** — [THE OPENING FLIGHT AIMS AT THE CARD'S BAND](#v1-129-6-the-opening-flight-aims-at-the-card-s-ba)
 - **v1.129.5** — [TAPPING A NODE IS COMING BACK](#v1-129-5-tapping-a-node-is-coming-back)
@@ -3539,6 +3540,98 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.131.0 — THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK
+
+### THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK (v1.131.0)
+
+Owner, three asks in one message: a card that shows the question but not the choices until the
+person clicks "Reveal answers"; "the person can scroll left or right on the land card, and it
+should show the previous or the next card" — clarified to **the prev/next flashcard of the SAME
+node**; and a density mode that is "not the best copywriting … in the settings, I think" —
+resolved, their words: *"actually no settings is needed, the player can activate show/hide and
+it'll stay the default preference."* Persistence, verbatim intent: *"fully open is never
+remember[ed] … next card show it … just normal, unless user clicked hide prev time … if he left it
+hidden keep it hidden next card, but if he left it fully open, keep it only normal open."*
+
+**THE LADDER: hidden ⇄ normal ⇄ open, two flags, never both.** `_landAnsHid` (new) hides the MC
+options wrap behind a 44px **"Answer for better odds"** CTA (the owner asked for incentive copy —
+"answer and improve odds" — and the reveal genuinely IS the start of answering: a right answer
+buys odds + 2.5s); `_landOpen` stays the More fold. ONE settings key `landAnswers` ∈
+{"show","hide"}, default "show", **no Settings row** (the `cardNumbers` precedent), written by
+exactly three player actions: Reveal→show, Hide→hide, More-pressed-while-hidden→show (it reveals).
+More/Less from normal write nothing; programmatic opens (`openDossier`'s read intent, the
+`_landOpen` restore) go through `expandLandCard`'s own open-over-hidden invariant, which flips the
+flag WITHOUT writing — so exit state ≡ preference on the hidden/normal axis and "open" decays to
+normal by construction, which is the owner's rule with zero teardown writes. Recall-format blocks
+are exempt (already think→reveal); the panic card never enters `renderLandCard` and is exempt by
+`_landMode`.
+
+**ZERO RNG DIVERGENCE IS A DESIGN INPUT, NOT AN OUTCOME.** The hidden rung builds the MC block
+byte-for-byte as the shown one — same `land-mc-*` draws, same `_warmMcPool` gate, same `_mc`
+truth, same `mc_shown`/`land_q_shown` order — and only the wrap's visibility differs, so
+`replay-digest` cannot move and no rigged journey can drift by preference. Pinned by a two-boot
+journey (same rigged queues, pref show vs hide → identical `_mc.correct`/`n`/option texts).
+`land_q_shown` gains `hidden:` (props are not serialized by the digest; the funnel reads none).
+The A–D gate at the keydown handler refuses while answers are hidden — `truth.answer` stays armed
+on a hidden block, so the gate is load-bearing, and deliberately extends the gate rather than
+`_landHidden()` (that predicate means "the whole card is standing down"; folding the rung in
+would kill paging on a hidden-rung card).
+
+**PAGING RE-PARENTS, NEVER REDRAWS.** `_landPageTo(dir)` replaces the `[data-land-q]` block only
+— a re-render would replay `ngCardInX` and race `_suppressLand` — clamped at the deck's ends (the
+mini-deck's modulo wrap loses a browser's place). `_mountLandQ` is §4 of `renderLandCard`
+extracted whole, so a paged sibling mounts through the identical builder; the per-landing
+`_landPageCache` re-parents a seen card with its original shuffle and closures (the
+backfill-reuse idiom), an answered card returning as its graded, disabled record — "scored once,
+never re-asked" extended to paged cards. A cold distractor pool warms through `_landWarmP`
+(replace-not-clear, so `landSettled()` still means settled), guarded by a page sequence token.
+Inputs: touch swipe on `_landEl` (the drill panel's 40px/700ms thresholds, HORIZONTAL-dominant
+only — the drill's vertical actions are deliberately not copied, vertical stays the card's own
+scroll), trackpad `deltaX` (accumulated, ~350ms cooldown — "scroll left or right" is the owner's
+literal words), a foot-center `‹ dots ›` pager (dots because the famChip beside it already prints
+`done/total`), and `←`/`→` below the pane-History and drill arrow branches.
+
+**THE ECONOMY PAYS ONCE PER LANDING, AND THE REASON IS THE EVIDENCE SEAM.** `land_q_answered` is
+challenge evidence (`white.answer`) and combo has no cap — paging N cards through the full
+`_landAnswered` path would be an objective farm and a ×N momentum machine on one landing. The
+FIRST answered card (whichever the player paged to) IS the landing question: refund, combo, qMod,
+`land_q_answered`, `_landPending` cleared — so committing afterwards fires no `land_q_ignored`.
+Later answers grade as study — stage/srs/prep/`noteCardDone` all still run inside
+`_mcAnswer`/`gradeRecall`, so mastery still moves the odds — and emit `land_q_extra`. The latch
+is `_landAnswers` (per-landing Set of qhashes), never `_landPending`, because `_breakCombo`
+clears that. `mc_correct`/`mc_wrong` were checked and are NOT evidence; `mc_shown` refires per
+paged mount, harmlessly.
+
+**THE CANON CAUGHT ITS OWN BUG CLASS ON THE FIRST RUN.** `_applyLandRung` un-hid the options with
+`wrap.style.display = ""` — and the wrap's `display:flex` is INLINE (its cssText), so the empty
+string DELETED it (the v1.104.2 `NG_LAND_MORE_COL` lesson, verbatim): the buttons fell back to
+block layout and shrank to content width, and roll-card's "an answer spans the card's full width"
+went red on the first regression pass — 208 of 488. The fix writes `"flex"` back.
+
+**SEVEN MUTANTS, SEVEN KILLS — and the three that resisted are the findings.**
+| mutant | result |
+|---|---|
+| M1 A–D gate ignores `_landAnsHid` | KILLED |
+| M2 More writes the pref unconditionally | KILLED — after a spec fix: `_setLandAnswers` guards same-value writes, so the absent-key sentinel alone could not see it; the kill is the BEAT ("More-from-normal is not a reveal" — `land_answers_revealed` means the player revealed something) |
+| M3 the hidden rung skips the MC build | KILLED (the two-boot RNG journey) |
+| M4 the economy pays every answer | KILLED |
+| M5 dominant-axis check deleted | KILLED — after the vertical gesture was moved past the 40px floor (dx 60, dy 140): a small-dx vertical swipe lets the floor alone reject it and the mutant survive |
+| M6 capture-phase click suppressor deleted | KILLED |
+| M7 the paging branch drops `!_landHidden()` | KILLED — via a background-tap stand-down (`_bgDown`), because BRANCH ORDER alone is unobservable: with the drill open the drill branch catches arrows first, and with the pane open the pane-History branch does; `_bgDown` is the one hidden-card state no earlier branch claims |
+
+Plus one spec lesson: the first suppressor journey dispatched its synthesized click on a button
+the swipe itself had DETACHED (the swipe paged, the block was replaced), and a detached node's
+click never crosses the card's capture listener — the test failed against a correct build. The
+honest case is a clamped-edge swipe, where the block stays live under the finger.
+
+**WHAT IT COST, AND THE CEILING IS NEARLY SPENT.** Bundle vs v1.130.2: JS 468,186 → 475,307 raw
+(+7,121) · 138,460 → 140,428 gzip -9 (+1,968); CSS 57,285 → 59,619 (+2,334) · 15,575 → 16,035
+gzip (+460). Browser-measured bytes-to-first-hand: **384,661 / 385,000 gzip — 339 B of headroom
+left.** The gate passes; the NEXT feature on the boot path pays a ceiling-raise commit, and that
+is flagged rather than quietly pre-paid. Offline payload gate: neural eager 305,969 / 330,000
+gzip. Gates: `landcard-modes.spec.ts` (7 journeys, 2 `@curated`) new; the 14-spec regression set
+76/76; `test:units` 75/75; `triple_replay` 3× byte-identical.
 
 ## v1.129.8 — THE CAPTURE STAR
 

@@ -183,6 +183,27 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* ── landing-card rungs + pager (v1.130.0) ── states live HERE (:hover/:active/:focus-visible),
+     never in JS hover painting, per the .ng-anchor-* doctrine above. The pager chevrons follow
+     the corner-+ trick: a 44px hit box whose negative margins keep the FOOT's layout at ~24px
+     (v1.104.2 — a thumb target must not set a small row's geometry). */
+  .ng-land-reveal{cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:7px;width:100%;min-height:44px;margin-top:2px;border-radius:10px;border:1px solid rgba(126,160,255,.34);background:rgba(74,108,255,.16);color:#dbe4fa;font-size:12px;font-weight:700;letter-spacing:.02em;transition:background .15s,border-color .15s;}
+  .ng-land-reveal:hover{background:rgba(74,108,255,.26);border-color:rgba(126,160,255,.5);}
+  .ng-land-reveal:active{transform:translateY(1px);}
+  .ng-land-reveal:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  .ng-land-hide{cursor:pointer;font-family:inherit;background:none;border:none;padding:5px 0 0;font-size:9.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;transition:color .15s;}
+  .ng-land-hide:hover{color:#aeb9d0;}
+  .ng-land-hide:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;border-radius:4px;}
+  .ng-land-pager{user-select:none;}
+  .ng-land-pgbtn{cursor:pointer;font-family:inherit;background:none;border:none;padding:0;width:44px;height:44px;margin:-10px -8px;display:flex;align-items:center;justify-content:center;}
+  .ng-land-pgchip{width:22px;height:22px;border-radius:7px;display:flex;align-items:center;justify-content:center;color:#8b97b0;font-size:14px;line-height:1;transition:color .15s,background .15s;}
+  .ng-land-pgbtn:hover .ng-land-pgchip{color:#dbe2f0;background:rgba(255,255,255,.08);}
+  .ng-land-pgbtn:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-6px;border-radius:10px;}
+  .ng-land-pgbtn[aria-disabled="true"]{cursor:default;}
+  .ng-land-pgbtn[aria-disabled="true"] .ng-land-pgchip{opacity:.3;background:none;color:#8b97b0;}
+  .ng-land-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:rgba(150,170,210,.32);margin:0 2px;}
+  .ng-land-dot[data-on]{background:#9ab0e0;}
+  .ng-land-dot[data-done]{background:rgba(126,224,168,.75);}
   /* ── REPLAY: the film's own chrome (v1.106.5) ──────────────────────────────────────────────
      It DOCKS WHERE THE LANDING CARD DOCKS — same bottom constants, same `_dockLandCard` tray
      measurement — because that is precisely the surface it stands in for: while a film runs, the

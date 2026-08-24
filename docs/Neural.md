@@ -68,8 +68,39 @@ roll from it through `confirmPlayFrom`. `defense` — the panic drill, same elem
 skin, asked **above** the escape hand rather than inside it.
 
 Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
-familiarity chip and capture `+` foot-right, a 22px `✕` top-right. Dismissing clears the card for
+familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
 that landing only.
+
+**Three rungs (v1.131.0): hidden ⇄ normal ⇄ open.** In the hidden rung the MC options stand down
+behind a 44px **"Answer for better odds"** CTA (`[data-land-reveal]`); the normal rung carries a
+quiet **"Hide answers"** (`[data-land-hide]`) under the options; open is the `More` fold. The
+player's own Reveal/Hide clicks persist a binary preference — the `landAnswers` settings key
+("show"|"hide", default "show", **no Settings-modal row**) — and nothing else writes it: More/Less
+never do, programmatic opens (`openDossier`'s read intent) never do, and More pressed while hidden
+counts as a reveal. The open rung never persists, so a card left fully open comes back **normal**
+on the next landing; a card left hidden comes back hidden. The hidden rung builds the MC block
+exactly as the shown one (same `land-mc-*` draws, same `_mc` truth — only visibility differs), the
+A–D keys refuse while answers are hidden, and recall-format blocks are exempt (they are already
+think→reveal). The fold's open-over-hidden invariant lives in `expandLandCard`; the preference
+writer is `_setLandAnswers`, and it is the only one.
+
+**Paging (v1.131.0): the card browses its own deck.** Swipe left/right (drill-panel thresholds:
+40px / 700ms, horizontal-dominant only), trackpad `deltaX` (accumulated, one page per gesture),
+the foot-center `‹ dots ›` pager (`[data-land-pager]`, dots not numbers — the chip beside it
+already prints `done/total`), and `←`/`→` (a branch **below** the pane-History and drill arrow
+branches, refused whenever `_landHidden()`). `_landPageTo(dir)` replaces the `[data-land-q]` block
+only — never a re-render — clamped at the deck's ends; a previously-seen card **re-parents from
+the per-landing page cache** (same shuffle, no second RNG draw; an answered card returns as its
+graded, disabled record). A cold distractor pool warms through `_landWarmP` (replace-not-clear).
+A swipe is not a pick: a capture-phase click suppressor on the card swallows the synthesized click
+of any gesture that moved >6px. The panic card pages nothing (it never enters `renderLandCard`).
+
+**The economy pays once per landing.** `land_q_answered` is challenge evidence and combo has no
+cap, so the FIRST answered card — whichever one the player paged to — routes through
+`_landAnswered` (refund/combo/`_qMod`, clears `_landPending`); every later answer grades as pure
+study (stage/srs/prep/`noteCardDone` still run inside `_mcAnswer`/`gradeRecall`) and emits
+`land_q_extra` instead. The latch is `_landAnswers` (a per-landing Set of qhashes), never
+`_landPending`. Committing after answering any one card fires no `land_q_ignored`.
 
 The card **backfills**: `_landBackfill()` re-renders a live card when a late payload lands, but
 only one that has never shown a question, on the current position, with a live decision window —
