@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.132.1** — [THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED](#v1-132-1-the-technique-card-was-chrome-only-and-a)
 - **v1.132.0** — [CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED](#v1-132-0-clicking-a-technique-lands-on-it-and-the)
 - **v1.131.0** — [THE LANDING CARD GETS RUNGS AND PAGES ITS OWN DECK](#v1-131-0-the-landing-card-gets-rungs-and-pages-it)
 - **v1.129.8** — [THE CAPTURE STAR](#v1-129-8-the-capture-star)
@@ -3541,6 +3542,50 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.132.1 — THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED
+
+### THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED (v1.132.1)
+
+Owner, standing in Kimura Trap and clicking Americana: the card was empty ("the land card has no
+content"), the shorts were missing ("there are no YouTube short videos"), and the technique's name
+printed twice on the graph. Asked whether the gaps were general: yes — and measured, each one.
+
+**1. THE FILM WAS IN THE CHUNKS ALL ALONG — the card never read past `info.clips`.** Source
+coverage: 1,393 of 1,394 technique files carry clips (2,716 authored arrays); emitted chunks carry
+them under `perspectives.{attacker,defender}.clips`; the card read only the top level, which
+**1 of 1,326** technique entries has. Every position slot (136/136 Top + 136/136 Bottom) has
+top-level clips, which is why the gap was invisible until the technique became a card subject.
+Fix: `filmClips = info.clips || perspectives[side].clips`, side = the staged side — the escaping
+orb shows the defense reels. (The `_landMoreHTML` "blk.clips || rc.clips" comment in
+`_neural_content.py` named a reader that lived in the retired `renderDossier`.)
+
+**2. THE MC STARVATION IS CONTENT DEBT, AND THE APP IS RIGHT TO REFUSE.** The failing deck's
+first answer is **411 chars** (no `answer_line`; the emitter's `_mc_clip` fallback rejects first
+sentences over 160 chars, so `a` fell through to the full paragraph). Against a 411-char correct
+answer the 0.4 length-ratio floor rejects 8 of 9 same-deck siblings and essentially the whole
+corpus (position one-liners ratio ≈ 0.07) — and an MC where one option is a paragraph and three
+are one-liners would be a giveaway anyway. `validate:mc`: 96.3% viable, 110-deck worklist —
+but the live app refused `Americana from Kimura Trap|Attacker`, which is NOT in the worklist:
+the audit's model is more generous than the live warm loop. The app fix: an attempt-mode card
+falls back to the RECALL block (any answer length), the same fallback paging already used — a
+deliberately-opened card is never chrome-only. The content fix (Phase B answer_line over
+technique decks) is owner-gated and unchanged in scope.
+
+**3. THE DOUBLE NAME WAS THE OPTION-LABEL PASS.** The staged technique is a dealt option AND the
+focus — a state no code path could produce before v1.132.0 — so the pair group and the
+option-node label both drew at one orb. The focus/hover passes already yield; the option pass
+never needed to. Diagnosed through the published `_lastPairLabel`/`_lastRichLabel` (both said
+"one label drew" — which is exactly what proved the extra text came from an UNPUBLISHED pass)
+plus a 2x crop of the screenshot. The pass now skips the focused pair and **publishes
+`_lastOptLabels`** (the v1.129.x renderer-publishes-what-it-drew seam), which is what makes the
+exclusion gateable instead of probe-only.
+
+**Gates.** Journey 5 extended (never-empty shape, no-second-label, perspective-film) + journey 5b
+(the owner's exact Americana page). **Mutants M8/M9/M10, all killed — with one lesson:** M8
+(fallback dropped) SURVIVED the first pass because journey 5's technique builds its MC fine — the
+kill needed a genuinely starved deck, so 5b boots the owner's exact page; its mc-OR-recall shape
+stays green if Phase B later makes MC viable there. Ten mutants total across the file.
 
 ## v1.132.0 — CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED
 

@@ -9497,7 +9497,7 @@ class Component extends DCLogic {
     };
     let usedRecall = landRecall;
     let block = landRecall ? this._recallBlock(card, key, done("recall"), "land") : this._mcBlock(card, key, done(), "land");
-    if (!block && o.paged) {
+    if (!block && (o.paged || (mode || "land") === "attempt")) {
       // a paged deck sibling can have too few distractor survivors — the recall block needs
       // none, so the card stays browsable instead of silently unreachable
       usedRecall = true;
@@ -9658,6 +9658,14 @@ class Component extends DCLogic {
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
     const info = this.ngContentFor(node);
+    // A TECHNIQUE'S FILM LIVES UNDER ITS PERSPECTIVES (v1.132.1). The chunks have carried
+    // `perspectives.{attacker,defender}.clips` all along (2,716 authored arrays; measured 1 of
+    // 1,326 technique entries carry a TOP-LEVEL `clips`) — the card only ever read `info.clips`,
+    // so technique cards showed no film at all. The staged side picks the reel: the escaping orb
+    // shows the defense films.
+    const perspSide = this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
+    const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
+    const filmClips = (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
     const glyph = this.seenGlyph(key);
 
     const el = document.createElement("div");
@@ -9700,17 +9708,17 @@ class Component extends DCLogic {
     // `max-height` + `overflow-y:auto` meant the player was clipped and had to be scrolled to.
     // As a sibling anchored above the card it grows UPWARD into empty screen, which is also what
     // makes an expanded clip land top-centre.
-    if (info && info.clips && info.clips.length) {
+    if (filmClips) {
       const film = document.createElement("div");
       film.className = "ng-landfilm";
       film.setAttribute("data-land-film", "1");
       // width/padding are a FIRST-FRAME GUESS only — _dockLandFilm immediately overwrites both
       // from the card's measured box, which is the one source of truth (see it for why).
       film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
-      film.innerHTML = this.filmStudyHTML(info.clips, true);
+      film.innerHTML = this.filmStudyHTML(filmClips, true);
       (this.__ngRoot || document.body).appendChild(film);
       this._landFilmEl = film;
-      this.wireClips(film, info.clips);
+      this.wireClips(film, filmClips);
     }
 
     // 4 — ONE question, always multiple choice: this is the in-play format (the sidebar is
@@ -13130,15 +13138,22 @@ class Component extends DCLogic {
         richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
+      this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
+        this._lastOptLabels = [];
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
+          // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
+          // names it, and an option label on the same orb is the "printed twice" defect the
+          // in-node pass was deleted for. Never possible before: an option was never the focus.
+          if (idx === this.focusIdx || (this.focusIdx >= 0 && n.pairId && this.nodes[this.focusIdx].pairId === n.pairId)) continue;
           const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
           ctx.fillStyle = this.rgba(n.col, 0.95 * A);
           ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
+          this._lastOptLabels.push(idx);
         }
       }
       // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment

@@ -115,7 +115,15 @@ only one that has never shown a question, on the current position, with a live d
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
 The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
-anchored by its bottom, so an expanding clip grows upward into empty screen.
+anchored by its bottom, so an expanding clip grows upward into empty screen. **A technique's film
+lives under its content entry's `perspectives.{attacker,defender}.clips`** (v1.132.1 — measured:
+1 of 1,326 technique entries carry a top-level `clips`, while 2,716 perspective arrays were in the
+chunks all along); the staged side picks the reel, so the escaping orb shows the defense films.
+**A deliberately-opened technique card is never chrome-only**: when its deck cannot build an
+honest MC (the answer_line content debt — paragraph-length answers fail every length filter), the
+recall block asks instead, the same fallback paging uses. The option-node label pass yields to the
+focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
+the focus, and drawing both names is the "printed twice" defect.
 
 ### The hand
 

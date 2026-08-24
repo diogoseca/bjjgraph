@@ -28,6 +28,9 @@ import { journey } from "../dsl"
  *   M5 — a technique URL is rewritten to its origin (the pre-v1.132.0 yank)  → journey 5
  *   M6 — play on a defender-staged technique deals a placid hand (no rush)   → journey 6
  *   M7 — play on an attacker-staged technique does not commit the exchange   → journey 7
+ *   M8 — a starved MC pool leaves the technique card EMPTY (no recall fall)  → journey 5
+ *   M9 — the option-label pass draws over the focused pair (printed twice)   → journey 5
+ *   M10 — the film ignores perspective-nested clips (technique film lost)    → journey 5
  */
 
 test.use({ hasTouch: true })
@@ -328,6 +331,84 @@ test("a technique page keeps its URL and stages the exchange, card standard @cur
   expect(a.posTy, "the seat is a real position").toBe("positions")
   expect(a.pos, "…the technique's origin").toContain("Side Control")
   expect(a.paused, "staged: clock held until play").toBe(true)
+
+  // M8 — A DELIBERATELY-OPENED TECHNIQUE CARD IS NEVER EMPTY. Its deck may not be able to build
+  // an honest MC (the answer_line content debt: paragraph answers fail every length filter, the
+  // owner's Americana report) — then the recall block asks instead. Assert the SHAPE (some
+  // question block exists), not which format: content work may later make MC viable here.
+  const qBlock = await page.evaluate(() => ({
+    q: !!document.querySelector("[data-land-q]"),
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(qBlock.q, "the card asks something").toBe(true)
+  expect(qBlock.mc || qBlock.recall, "…as MC or as recall — never an empty card").toBe(true)
+
+  // M9 — the option-label pass yields to the focused pair: the staged technique is a dealt
+  // option AND the focus, and drawing both names is the "printed twice" defect. The renderer
+  // publishes what it drew (_lastOptLabels / _lastPairLabel — the v1.129.x seam).
+  await page.evaluate(() => document.body.getBoundingClientRect().top)
+  await j.advance(300)
+  const labels = await page.evaluate(() => {
+    const app = (window as W).__neural
+    const pair = app._lastPairLabel
+    const opts = app._lastOptLabels
+    const focusPair = app.nodes[app.focusIdx].pairId
+    return {
+      pairIdx: pair ? pair.idx : null,
+      optHasFocus: !!(opts && (opts.includes(app.focusIdx) ||
+        opts.some((i2: number) => focusPair && app.nodes[i2].pairId === focusPair))),
+      optDrew: !!(opts && opts.length),
+    }
+  })
+  expect(labels.pairIdx, "the pair group names the focused technique").not.toBeNull()
+  expect(labels.optHasFocus, "and no option label prints its name a second time").toBe(false)
+  expect(labels.optDrew, "…while the other dealt options keep their labels").toBe(true)
+
+  // M10 — a technique's film lives under its PERSPECTIVES in the content chunk
+  // (perspectives.attacker.clips — measured: 1 of 1,326 technique entries carry a top-level
+  // `clips`). The DSL serves {} for content, so author one and let the backfill dock it.
+  await page.evaluate(() => {
+    const app = (window as W).__neural
+    const key = app.deckKeyFor(app.nodes[app._landIdx]).key.split("|")[0]
+    const w = window as any
+    w.NG_CONTENT = w.NG_CONTENT || {}
+    w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
+    w.NG_CONTENT.decks["Side Control to Mount"] = {
+      perspectives: { attacker: { clips: [{ id: "dQw4w9WgXcQ", title: "Seeded clip", by: "Test" }] } },
+    }
+    void key
+    app.onContentReady()
+  })
+  await j.advance(400)
+  await expect(
+    page.locator("[data-land-film]"),
+    "perspective-nested clips reach the strip",
+  ).toBeVisible()
+})
+
+// ── 5b. the owner's exact report: a starved deck still asks ──────────────────────────────────
+test("a technique whose deck cannot build an MC still asks — recall, never an empty card", async ({
+  page,
+}) => {
+  const j = journey(page)
+  // Americana from Kimura Trap|Attacker: 411-char answers, so the MC length filters reject the
+  // whole corpus as distractors (the answer_line content debt). The card the owner met was
+  // chrome-only. With the fallback, the recall block asks; if Phase B content work later makes
+  // MC viable here, the mc-or-recall shape keeps this green.
+  await j.boot("/Submissions/Americana/from-Kimura-Trap")
+  await j.advance(6000)
+  await j.landQuestion()
+  const s = await page.evaluate(() => ({
+    about: (window as W).__neural._landIdx != null
+      ? (window as W).__neural.nodes[(window as W).__neural._landIdx].t : null,
+    q: !!document.querySelector("[data-land-q]"),
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(s.about).toBe("Americana from Kimura Trap")
+  expect(s.q, "the card asks something").toBe(true)
+  expect(s.mc || s.recall, "MC or recall — never chrome-only").toBe(true)
 })
 
 // ── 6. play on the defending side = the red rush ─────────────────────────────────────────────
