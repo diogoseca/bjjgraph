@@ -8202,7 +8202,7 @@ class Component extends DCLogic {
     // draws on land-mc-*, the node card on node-mc-*, and the sidebar/checkpoint keep the bare
     // mc-* stream journeys rig by name. A new surface that forgot its tag would eat those values
     // and every frame-exact replay would drift.
-    const mc = this.mcDistractors(card, key, 3, surface === "land" || surface === "node" ? surface : null);
+    const mc = this.mcDistractors(card, key, 3, surface === "land" || surface === "node" || surface === "panic" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
@@ -8221,9 +8221,35 @@ class Component extends DCLogic {
     // Each surface gets its OWN option handle. The landing card and an open sidebar card are on
     // screen at the same time, so a bare [data-mc-opt] selector would silently match both — the
     // split keeps every "the sidebar shows N options" assertion meaning what it says.
-    const OPT = truth.surface === "land" ? "data-land-mc-opt" : truth.surface === "node" ? "data-node-mc-opt" : "data-mc-opt";
+    const OPT = truth.surface === "land" ? "data-land-mc-opt" : truth.surface === "node" ? "data-node-mc-opt" : truth.surface === "panic" ? "data-panic-mc-opt" : "data-mc-opt";
     let answered = false;
-    const answer = (i) => { if (answered) return; answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    // `truth.spent` is the expiry's door-closer (v1.135.0, owner: "when i click a wrong answer
+    // after i run out of time it shouldnt lose me points as it already did"): _expireLandQ
+    // already took the miss (−4%, combo break, failed SRS review) and revealed the answer, but
+    // this closure's own latch never learned it — the "disabled" buttons still graded, so a
+    // post-expiry wrong click charged −4% AGAIN, broke the combo again, wrote a second failed
+    // review, and emitted land_q_answered after land_q_expired. Spent means spent.
+    // EXPLORATION AFTER RESOLUTION (v1.135.0, owner: "after the correct answer is shown, you
+    // can't get further deductions … I don't know why the user clicks, but I think it should
+    // appear red when he clicks it. The previously red answer … should appear non-red"). Once
+    // the block is graded or expired the buttons stop charging, but they still TALK: a clicked
+    // wrong answer takes the red mark, the previous exploratory red lets go, and the correct
+    // one keeps its green. Pure paint — no beats, no ledger, no schedule.
+    const explore = (i) => {
+      const btns = wrap.querySelectorAll("[" + OPT + "]");
+      btns.forEach((b, k) => {
+        if (k === truth.correct) return;                     // the green never moves
+        b.removeAttribute("data-mc-result");
+        b.style.borderColor = "rgba(150,170,210,.22)"; b.style.background = "rgba(255,255,255,.03)";
+      });
+      if (i !== truth.correct && btns[i]) {
+        const tier = truth.tiers[i] === "plausible" || truth.tiers[i] === "trap" ? truth.tiers[i] : "wrong";
+        btns[i].setAttribute("data-mc-result", tier);
+        btns[i].style.borderColor = tier === "trap" ? "rgba(255,80,80,.6)" : "rgba(255,150,110,.5)";
+        btns[i].style.background = "rgba(255,110,110,.07)";
+      }
+    };
+    const answer = (i) => { if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C/D keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -8242,7 +8268,7 @@ class Component extends DCLogic {
     const mc = truth || this._mc; if (!mc) return;
     const correct = i === mc.correct;
     const tier = mc.tiers[i];
-    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt],[data-node-mc-opt]");
+    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt],[data-node-mc-opt],[data-panic-mc-opt]");
     btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
     const cbtn = btns[mc.correct];
     if (cbtn) {
@@ -9461,6 +9487,8 @@ class Component extends DCLogic {
     qt.textContent = card.q;
     qw.appendChild(qt);
     const done = (fmt) => (ok, tier) => {
+      if (rec.revealed) return; // the expiry showed the answer — nothing after that may grade
+                                // (declined-but-unrevealed is NOT this case: see _expireLandQ)
       rec.answered = true;
       if (this._landQ === rec) this._landQ.answered = true;
       const first = !this._landAnswers || this._landAnswers.size === 0;
@@ -10410,26 +10438,60 @@ class Component extends DCLogic {
       card.innerHTML =
         '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
         '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
-        '<div style="padding-right:8px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>' +
+        '<div style="padding-right:8px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
+      // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
+      // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
+      // (_mcAnswer carries the SRS/prep credit), danger skin from the card. `done` adds only
+      // what is panic's own: the escape-odds pump on a right answer, the next card, the beacon.
+      const done = (ok) => {
+        this._disarmLandClock();        // resolved, well or badly — the window is spent
+        if (ok) {
+          this.refreshEscapeOdds();     // the payoff: every escape's % climbs before your eyes
+          this.fx("escape_odds_pumped", { deck_key: pk });
+          this._jitIdx[pk] = idx + 1;
+          render();                     // next question, exactly as Got-it always advanced
+        }
+        this._dockLandCard(card);
+        if (row) this.setBeacon("escape", row);  // graded — now TAKE the escape
+      };
+      const mcw = this._mcBlock(fc, pk, done, "panic");
+      if (mcw) { card.appendChild(mcw); this._dockLandCard(card); return; }
+      // COLD POOL FALLBACK: the recall idiom the drill always had. The warm below upgrades this
+      // very question to MC the moment the pool lands — but only while it stands untouched.
+      let touched = false;
+      const tail = document.createElement("div");
+      tail.innerHTML =
         '<div class="pAns" style="display:none;font-size:12.5px;line-height:1.5;color:#c8d2e4;padding:8px 11px;border-radius:9px;border:1px solid rgba(255,110,110,.28);background:rgba(255,110,110,.07);margin-bottom:8px;">' + fc.a + '</div>' +
         '<div style="display:flex;gap:8px;">' +
           '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Show answer</button>' +
           '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it \u2192 +escape%</button>' +
         '</div>';
+      while (tail.firstChild) card.appendChild(tail.firstChild);
       const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
-      rv.addEventListener("click", (ev) => { ev.stopPropagation(); card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
+      rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
       gt.addEventListener("click", (ev) => {
         ev.stopPropagation();
-        this.prep[pk] = (this.prep[pk] || 0) + 1;
+        this.prep[pk] = (this.prep[pk] || 0) + 1;   // the fallback grades itself — no _mcAnswer ran
         this.noteCardDone(fc, pk);
         this._disarmLandClock();        // drilled in time — the window is spent well
-        this.refreshEscapeOdds();       // the payoff: every escape's % climbs before your eyes
+        this.refreshEscapeOdds();
         this.fx("escape_odds_pumped", { deck_key: pk });
         this._jitIdx[pk] = idx + 1;
         render();
         this._dockLandCard(card);
         if (row) this.setBeacon("escape", row);  // drilled — now TAKE the escape
       });
+      if (!this._panicWarmTried) this._panicWarmTried = {};
+      if (!this._panicWarmTried[pk]) {
+        this._panicWarmTried[pk] = true;  // ONE upgrade attempt per deck — a deck that cannot
+                                          // build MC (too few distractors) must not loop
+                                          // render -> fallback -> warm -> render forever
+        this._warmMcPool(fc, pk, "panic").then(() => {
+          if (touched || this._landEl !== card || !this._panicFc || this._panicFc.fc !== fc) return;
+          render();                     // same question, MC dress — a gentle upgrade, never a rug-pull
+          this._dockLandCard(card);
+        });
+      }
     };
     render();
     (this.__ngRoot || document.body).appendChild(card);
@@ -11488,6 +11550,17 @@ class Component extends DCLogic {
     // PANIC DRILL: reveal, no pump — composure came too late. The escapes below stay live.
     if (this._defendSub != null && this._landEl && this._landEl.hasAttribute("data-panic")) {
       const card = this._landEl;
+      const pw = card.querySelector("[role='radiogroup']");
+      if (pw && this._mc && this._mc.surface === "panic") {
+        // the MC drill reveals exactly like the landing block: disabled, correct highlighted, spent
+        const pbtns = pw.querySelectorAll("[data-panic-mc-opt]");
+        pbtns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
+        const pcb = pbtns[this._mc.correct];
+        if (pcb) { pcb.setAttribute("data-mc-result", "correct"); pcb.style.borderColor = "rgba(126,224,168,.6)"; pcb.style.background = "rgba(126,224,168,.12)"; }
+        const plive = pw.querySelector("[aria-live]"); if (plive) plive.textContent = "Time \u2014 the correct answer is highlighted.";
+        this._mc.spent = true; // the closure door — late clicks explore, never grade
+        this._mc = null;
+      }
       const ans = card.querySelector(".pAns"); if (ans) ans.style.display = "block";
       const rv = card.querySelector("[data-panic-reveal]"); if (rv) rv.style.display = "none";
       const gt = card.querySelector("[data-panic-got]"); if (gt) gt.style.display = "none";
@@ -11503,6 +11576,9 @@ class Component extends DCLogic {
     const q = this._landQ;
     if (!q || q.answered) return;
     q.answered = true; // spent — never re-asked
+    q.revealed = true; // the answer is ON SCREEN — this is what closes the grading door, and it
+                       // is deliberately NOT set by _declineLandQ: a declined question is
+                       // un-revealed, so backing out of a sheet and answering honestly still pays
     const qw = this._landEl ? this._landEl.querySelector("[data-land-q]") : null;
     if (qw) {
       const wrap = qw.querySelector("[role='radiogroup']");
@@ -11512,6 +11588,7 @@ class Component extends DCLogic {
         const cb = btns[this._mc.correct];
         if (cb) { cb.setAttribute("data-mc-result", "correct"); cb.style.borderColor = "rgba(126,224,168,.6)"; cb.style.background = "rgba(126,224,168,.12)"; }
         const live = wrap.querySelector("[aria-live]"); if (live) live.textContent = "Time \u2014 the correct answer is highlighted.";
+        this._mc.spent = true; // the CLOSURE's door — the buttons' own listeners consult it (see _mcBlock)
         this._mc = null; // the keyboard must not answer a revealed block
       } else {
         const ans = qw.querySelector("[data-land-answer]"); if (ans) ans.style.display = "block";
@@ -13320,12 +13397,19 @@ class Component extends DCLogic {
         // the name's BODY instead of its tail and the mutant survived three different oracles.
         // Reading the strings the frame passed to `fillText` is not a re-implementation of the
         // render — it IS the render's output.
-        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null };
+        // THE ROLE WORD RIDES ITS ORB (v1.135.0 — owner: "why does top mount look red like i'm
+        // going to lose?"). The block anchors at the pair MIDLINE ("the name never moves"), which
+        // left TOP/BOTTOM floating equidistant from both orbs — measured 33px from each at roll
+        // zoom — so the eye could bind "TOP · Mount" to the red bottom orb underneath. The word
+        // now sits at its own member's drawn y whenever the split allows, clamped to the block's
+        // existing clearances so it can never land on the name or the qualifier; merged pairs
+        // (small gap) degenerate to the old offsets by construction.
+        const syAct = (LY(act) - this.cam.cy) * scale + H / 2;
+        const subY = above ? Math.min(nameY - 18, syAct + 4) : Math.max((qual ? qualY : nameY) + 18, syAct + 4);
+        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null, subY: subY };
         ctx.font = "700 11px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(subCol, aF);
-        // the role rides the OUTSIDE of the block, so it can never land on the qualifier and never
-        // drifts away from the name when there is no qualifier.
-        ctx.fillText(sub, ox, above ? nameY - 18 : (qual ? qualY : nameY) + 18);
+        ctx.fillText(sub, ox, subY);
         ctx.shadowBlur = 0;
         return true;
       };

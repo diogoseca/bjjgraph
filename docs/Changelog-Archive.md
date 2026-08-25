@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
 - **v1.134.0** — [THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED](#v1-134-0-the-transport-dies-the-game-goes-fully-t)
 - **v1.133.0** — [THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES](#v1-133-0-the-clock-moves-to-the-question-and-the)
 - **v1.132.2** — [RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW](#v1-132-2-recognition-comes-first-every-deck-build)
@@ -3545,6 +3546,60 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.135.0 — THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT
+
+### THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT (v1.135.0)
+
+Owner: *"why does top mount look red like i'm going to lose?"* The investigation cleared every
+layer it suspected — the 7-day-old dev server serves from disk per request (current bundle
+byte-for-byte); the wire prices Mount `[+0.629, −0.693]`; ingest colors each pair member by its
+own side (`sv`); and a pixel probe at three LODs read the top orb blue at roll zoom
+`[130,190,255]`, mid, and overview `[70,134,248]` (the red twin fades out before the collapse).
+What the probe DID find: the pair label anchored "TOP · Mount" at the pair midline — measured
+33px from the blue orb it names and 33px from the red bottom orb below it — so the eye could
+bind the label to the red one. Fix: the role word now sits at its own member's drawn y
+(`subY = min(nameY − 18, orbY + 4)`, mirrored below), clamped to the block's clearances so an
+ordinary ~35px pair is unchanged within 1px and the wide roll-zoom split (66px on Mount) moves
+the word 17px to its orb. `_lastPairLabel` gains `subY`; the `strips` bands in dual-pair
+widened to reach the orbs (near edge −6 → −8, clear of the word's own ascenders at the orb
+line). Probe: TOP at y75 beside the orb at y71, name pinned at 110.
+
+Owner, second report: *"when i click a wrong answer after i run out of time it shouldnt lose me
+points as it already did."* Real double-punishment: `_expireLandQ` took the miss (−4%, combo
+break, failed review) and set `aria-disabled` + `this._mc = null` — but the MC closure's own
+`answered` latch never learned it, and `_mcAnswer` takes `truth || this._mc`, so the buttons
+still graded: a late wrong click charged −4% AGAIN (−8% total), broke the combo again, wrote a
+second failed SRS review, and emitted `land_q_answered` after `land_q_expired` (a funnel
+contradiction). Fix, one seam each way: expiry sets `truth.spent` (the closure door `answer()`
+now consults), and `_mountLandQ`'s `done` refuses a spent rec (belt-and-braces, recorded as a
+non-kill in the spec header — unreachable while the primary guard stands). The recall and panic
+formats were already inert post-expiry (their grade rows live behind the reveal button expiry
+hides — `display:none`, out of hit-testing). Probe after fix: expired once at −4%, late wrong
+click → zero beats, qMod unchanged, combo unchanged, button unmarked.
+
+**Second wave, same session.** Owner watched the fixes land and pushed four more: (1) *"after
+the correct answer is shown, you can't get further deductions … it should appear red when he
+clicks it. The previously red answer … should appear non-red"* — post-resolution clicks now
+EXPLORE: pure repaint through `explore()` in `_mcBlock`, red rides the last clicked wrong, green
+never moves, zero beats (the guard that had made spent blocks fully inert was one message too
+strict — silence read as a dead card). (2) The panic drill became MULTIPLE CHOICE — `_mcBlock`
+surface `"panic"` with its own rng tags and `data-panic-mc-opt` handle (a new surface that
+forgot its tag would eat the sidebar's rigged queue), the reveal/Got-it idiom kept as the
+cold-pool fallback with a one-attempt warm upgrade (an MC-incapable deck must not loop
+render→warm→render). The first cut crashed on grade: `_mcAnswer`'s button-union selector never
+learned the panic handle — an empty NodeList and a TypeError that ate the disarm, caught by the
+probe's pageerror line. (3) The "+7 Tilt toward winning" legend row (v1.133.0) deleted — owner:
+*"it's over designing — the bar already shows that nicely"*; the EDGE explainer survives in the
+option sheet. (4) The Win–Lose bar 210×9 → 165×7 (*"at least 20% smaller"*).
+
+Also fixed en route: the first spent-guard cut keyed on `rec.answered`, which a sheet-open
+DECLINE also sets — so backing out of a sheet and answering honestly stopped paying
+(keyboard.spec.ts caught it). The guard now keys on `rec.revealed`, set only by expiry: declined
+is un-revealed and still answerable; revealed is spent.
+
+Mutants M9 (midline revert), M10 (spent guard dropped), M11 (explore no-op) and M12 (panic MC
+dropped — its kill also exposed the warm loop) killed by named specs.
 
 ## v1.134.0 — THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED
 

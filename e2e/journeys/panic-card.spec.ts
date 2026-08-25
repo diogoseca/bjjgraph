@@ -77,9 +77,21 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   });
   expect(before.rem, "the DRILL carries the question clock (v1.133.0)").not.toBeNull();
 
-  await j.clickByMouse("[data-panic-reveal]", "Show answer");
-  await page.waitForTimeout(150);
-  await j.clickByMouse("[data-panic-got]", "Got it");
+  // v1.135.0: MC when warm (the landing idiom, danger skin); reveal/got is the cold fallback
+  const mcIdx = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const card = document.querySelector("[data-panic]");
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
+      ? a._mc.correct
+      : null;
+  });
+  if (mcIdx != null) {
+    await j.clickByMouse(`[data-panic-mc-opt="${mcIdx}"]`, "the correct MC option");
+  } else {
+    await j.clickByMouse("[data-panic-reveal]", "Show answer");
+    await page.waitForTimeout(150);
+    await j.clickByMouse("[data-panic-got]", "Got it");
+  }
   await page.waitForTimeout(250);
 
   const after = await page.evaluate(() => {

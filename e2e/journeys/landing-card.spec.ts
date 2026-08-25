@@ -186,3 +186,101 @@ test("the identity chip fuses the seen-glyph with the deck's recall count and op
   ).toBe("history")
   await j.expectBeat("pane_paused")
 })
+
+/**
+ * SPENT MEANS SPENT (v1.135.0). Owner: "when i click a wrong answer after i run out of time it
+ * shouldnt lose me points as it already did for punishing not answering under time constraint."
+ * _expireLandQ takes the miss ONCE (−4%, combo break, failed SRS review) and reveals the answer —
+ * but the MC closure's own `answered` latch never learned it, so the visually-disabled buttons
+ * still graded: a late wrong click charged −4% again, broke the combo again, wrote a second
+ * failed review, and emitted land_q_answered AFTER land_q_expired. The expiry now sets
+ * `truth.spent` (the closure's door) and `done` refuses a spent rec.
+ * Mutant that must die: dropping `|| truth.spent` from _mcBlock's answer guard.
+ * Recorded non-kill: the `rec.revealed` guard in _mountLandQ's done is belt-and-braces behind
+ * the spent guard and is unreachable while it stands — no spec can turn it red alone. It is
+ * revealed-only on purpose: a DECLINED question (sheet, pane, bg) is un-revealed, and answering
+ * it after backing out still pays — keyboard.spec.ts pins that.
+ */
+test("@curated a timed-out question is spent — a late click grades nothing", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return !!(a._decision && a._decision.remaining != null && a._mc && a._mc.surface === "land")
+  })
+  expect(armed, "a landing MC question armed the clock").toBe(true)
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 1))
+  await j.advance(600)
+  const at = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      expired: (a.beats || []).some((b: any) => b.beat === "land_q_expired"),
+      beats: (a.beats || []).length,
+      qMod: a._qMod || 0,
+      combo: a._combo || 0,
+    }
+  })
+  expect(at.expired, "the clock expiry revealed the answer as a miss").toBe(true)
+
+  // the late click — a WRONG option, straight at the DOM the way a user would
+  const clicked = await page.evaluate(() => {
+    const wrap = document.querySelector("[data-land-q] [role='radiogroup']")
+    if (!wrap) return false
+    const btns = [...wrap.querySelectorAll("[data-land-mc-opt]")] as HTMLElement[]
+    const correct = btns.findIndex((b) => b.getAttribute("data-mc-result") === "correct")
+    const wrong = btns.find((_, i) => i !== correct)
+    if (!wrong) return false
+    wrong.click()
+    return true
+  })
+  expect(clicked, "a wrong option existed to click").toBe(true)
+  await j.advance(400)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      beats: (a.beats || []).length,
+      newBeats: [] as string[],
+      qMod: a._qMod || 0,
+      combo: a._combo || 0,
+      answeredBeat: (a.beats || []).some((b: any) => b.beat === "land_q_answered"),
+      wrongBeat: (a.beats || []).some((b: any) => b.beat === "mc_wrong"),
+    }
+  })
+  expect(after.qMod, "no second −4%").toBe(at.qMod)
+  expect(after.combo, "no second combo break").toBe(at.combo)
+  expect(after.answeredBeat, "an expired question never reads as answered").toBe(false)
+  expect(after.wrongBeat, "and the click graded nothing").toBe(false)
+  expect(after.beats, "no beat of any kind from the spent block").toBe(at.beats)
+
+  // ...but the click still TALKS (v1.135.0, owner: "it should appear red when he clicks it. The
+  // previously red answer … should appear non-red"): the red mark rides the LAST clicked wrong
+  // answer, the green never moves, and none of it emits a beat.
+  // Mutant that must die: making `explore` in _mcBlock a no-op.
+  const paint = await page.evaluate(() => {
+    const wrap = document.querySelector("[data-land-q] [role='radiogroup']")!
+    const btns = [...wrap.querySelectorAll("[data-land-mc-opt]")] as HTMLElement[]
+    const correct = btns.findIndex((b) => b.getAttribute("data-mc-result") === "correct")
+    const wrongs = btns.map((_, i) => i).filter((i) => i !== correct)
+    return { correct, wrongs }
+  })
+  expect(paint.wrongs.length, "two wrong options to walk").toBeGreaterThanOrEqual(2)
+  const mark = (i: number) =>
+    page.evaluate((k) => {
+      const btns = [...document.querySelectorAll("[data-land-q] [data-land-mc-opt]")] as HTMLElement[]
+      btns[k].click()
+      return btns.map((b) => b.getAttribute("data-mc-result"))
+    }, i)
+  const m1 = await mark(paint.wrongs[0])
+  expect(m1[paint.wrongs[0]], "the first exploratory click wears red").toMatch(/wrong|plausible|trap/)
+  const m2 = await mark(paint.wrongs[1])
+  expect(m2[paint.wrongs[1]], "the red moved to the second click").toMatch(/wrong|plausible|trap/)
+  expect(m2[paint.wrongs[0]], "and left the first").toBeNull()
+  expect(m2[paint.correct], "the green never moves").toBe("correct")
+  const beatsEnd = await page.evaluate(() => ((window as any).__neural.beats || []).length)
+  expect(beatsEnd, "exploration emits nothing").toBe(at.beats)
+})

@@ -140,6 +140,25 @@ remains the quality upgrade over truncation. The option-node label pass yields t
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
 
+### The panic drill is multiple choice (v1.135.0)
+
+The defense drill asks its question as the landing does — an `_mcBlock` on surface `"panic"`
+(`data-panic-mc-opt`, rng tags `panic-mc-pick`/`panic-mc-shuffle`, danger skin from the card).
+A right answer pumps the escape odds and deals the next card; a wrong one reveals and pumps
+nothing; expiry reveals-as-miss exactly like the landing. The reveal/Got-it recall idiom
+survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck (a deck that
+cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
+(owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.
+
+### The pair label (v1.135.0)
+
+The pair label group anchors at the pair MIDLINE — "the name never moves" — but **the role word
+rides its orb**: `subY = min(nameY − 18, orbY + 4)` above (mirrored below), clamped to the
+block's clearances, so an ordinary ~35px pair keeps the old offsets (±1px) and a wide roll-zoom
+split puts TOP beside the blue orb it names instead of floating equidistant from both members
+(the owner's "why does top mount look red" — the eye bound the midline label to the red bottom
+orb). Published as `_lastPairLabel.subY`; pinned by `dual-pair.spec.ts`.
+
 ### The turn-based shell (v1.134.0)
 
 **The transport is retired.** With the hesitation branch gone nothing ever advances without a
@@ -185,7 +204,13 @@ DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum unt
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included; the last three seconds pulse the card itself
-(`ng-clock-hot`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
+(`ng-clock-hot`). **Expiry spends the block** (v1.135.0): the miss is taken once — −4%, combo
+break, one failed SRS review, answer revealed — and the revealed buttons are inert
+(`truth.spent`, the closure's own door); a late click grades nothing, charges nothing, emits
+nothing. After ANY resolution — graded or
+expired — the buttons still TALK: a clicked wrong answer takes the red mark (the previous
+exploratory red lets go), the green never moves, and none of it emits a beat or touches a
+ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the
