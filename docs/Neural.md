@@ -140,6 +140,27 @@ remains the quality upgrade over truncation. The option-node label pass yields t
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
 
+### The turn-based shell (v1.134.0)
+
+**The transport is retired.** With the hesitation branch gone nothing ever advances without a
+commit, so play/pause/restart controlled nothing — the buttons are deleted, Space no longer
+toggles anything (the Shortcuts tab row went with it), the Last-rolls CURRENT row lost its
+pause/resume toggle (archived rows keep "roll from here"; the live row carries no button), and
+`setPaused` survives only as internal MOTION state (staging pauses,
+committing unpauses; the pane law still freezes travel). **The background ladder** (owner):
+click empty sky once — the card closes (question declined, free) and the hand stays; click again
+— **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
+centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
+roam. **The staged technique's card is the go**: its option card in the hand takes the action
+accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
+`_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
+PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
+to the pair label that already names it. **The escaping orb rushes on click**: arriving on (or
+clicking) the defending side enters the defense immediately — vignette, drill clock, escape
+hand — with the stale landing card declined and cleared first. The Win–Lose meter reads
+**Win (blue) left · Lose (red) right** (the writer mirrors `adv.cur`; the model is untouched),
+and the option-card category tracking dropped to .05em so SUBMISSION never truncates.
+
 ### The hand
 
 `optionsFor` deals **every legal move** — origin-filtered and role-filtered, uncapped — ranked by
@@ -158,9 +179,13 @@ the v1.123.0 Hick's-law knee died with the hand clock) arms when a question moun
 (`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
 highlighted, a failed SRS review, −4% on this exchange, momentum broken — and the hand stays
-live: the player still picks, untimed. Committing past an open question is a FREE SKIP (the
-`land_q_ignored` beat still marks it for the funnel; momentum untouched). A landing that asks
-nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
+live: the player still picks, untimed. Committing past an open question is a FREE SKIP, and so is
+anything that puts the question away — the ✕, a background tap, the pane, an option sheet — all
+DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
+penalty exists only for letting it expire while it faces you. **The question clock never
+pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
+staged boards and internal pauses included; the last three seconds pulse the card itself
+(`ng-clock-hot`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the

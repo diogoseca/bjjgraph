@@ -12,7 +12,7 @@ import { journey } from "../dsl"
  * Navigation (v1.132.0, owner): "when you click on a transition or on a submission, you
  * navigate to it. The URL changes to it, and the landcard is standard." A technique click or
  * URL lands ON the technique — URL, camera, focus, a position-anatomy card — with the SEAT at
- * its origin, staged; play runs THE EXCHANGE (`_runStagedTech`): finishing/attacking side
+ * its origin, staged; committing its own highlighted card runs THE EXCHANGE (v1.134.0): finishing/attacking side
  * commits it, escaping/defending side gets the red defense rush ("if I click play, I want to
  * see that rush … you need to think fast").
  *
@@ -259,13 +259,13 @@ test("trackpad deltaX pages once per gesture; arrows never page a hidden or stud
   await page.keyboard.press("ArrowRight")
   expect(count(await j.beats(), "land_q_paged") - count(b2, "land_q_paged"), "the card did not steal the key").toBe(0)
 
-  // M4's real kill: a card hidden by the background-tap stand-down (_bgDown) — no earlier
-  // arrow branch claims the key there, so only the paging branch's own !_landHidden() gate
-  // keeps arrows off an invisible card
+  // M4's real kill: a card hidden by the tray suppression — no earlier arrow branch claims the
+  // key there, so only the paging branch's own !_landHidden() gate keeps arrows off an
+  // invisible card. (_standDown retired in v1.134.0 — a bg tap CLOSES now.)
   await page.evaluate(() => {
     const a = (window as W).__neural
     a.setDeckOpen(false)
-    a._standDown()
+    a._suppressTray(true)
   })
   await j.advance(200)
   const hiddenNow = await page.evaluate(() => (window as W).__neural._landHidden())
@@ -465,53 +465,60 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(blue.armed, "…and the recall question is on the clock").toBe(true)
 })
 
-// ── 6. play on the defending side = the red rush ─────────────────────────────────────────────
-test("play on a defender-staged submission brings the red rush @curated", async ({ page }) => {
+// ── 6. the defending side = the rush, on arrival ─────────────────────────────────────────────
+test("arriving on the defending side brings the red rush — no play button in between @curated", async ({ page }) => {
   const j = journey(page)
+  // v1.134.0 (owner): "the rush starts on click" — the transport is retired, so clicking (or
+  // arriving on) the ESCAPING side IS choosing to be caught. No setPaused, no latch.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
-  await j.advance(6000)
-  const staged = await page.evaluate(() => {
+  await j.advance(8000)
+  const s = await page.evaluate(() => {
     const a = (window as W).__neural
-    return a._stagedTech ? { t: a.nodes[a._stagedTech.idx].t, side: a._stagedTech.side } : null
+    return {
+      defense: a._defendSub != null,
+      vignette: !!document.querySelector(".ng-vignette"),
+      beats: (a.beats || []).map((b: any) => b.beat),
+      escapes: (a.optionIdxs || []).length,
+    }
   })
-  expect(staged?.t).toBe("Kimura from Knee on Belly")
-  expect(staged?.side, "the Defender page seats the defending side").toBe("defender")
-
-  await page.evaluate(() => (window as W).__neural.setPaused(false))
-  await j.advance(1200)
-  const bs = await j.beats()
-  const ex = bs.filter((b: any) => b.beat === "staged_exchange").pop() as any
-  expect(ex, "play ran the exchange").toBeTruthy()
-  expect(ex.side).toBe("defender")
-  // M6: "if I click play, I want to see that rush … you need to think fast" (owner)
-  await j.expectBeat("defend_start")
-  await j.expectBeat("caught")
-  await expect(page.locator("[data-panic]"), "the red defense card is up").toBeVisible()
-  const vig = await page.evaluate(() => {
-    const v = document.querySelector(".ng-vignette") as HTMLElement | null
-    return v ? parseFloat(getComputedStyle(v).opacity) : 0
-  })
-  expect(vig, "the danger vignette burns").toBeGreaterThan(0.1)
+  expect(s.defense, "the catch is live").toBe(true)
+  expect(s.vignette, "the vignette burns").toBe(true)
+  expect(s.beats, "the rush announced itself").toContain("defend_start")
+  expect(s.beats).toContain("caught")
+  expect(s.escapes, "the escape hand is dealt — untimed").toBeGreaterThan(0)
 })
 
-// ── 7. play on the finishing side commits the exchange ───────────────────────────────────────
-test("play on an attacker-staged technique commits that very technique @curated", async ({
+// ── 7. the finishing side = Finish it, in the hand ───────────────────────────────────────────
+test("a staged technique's own card is the go — highlighted, then committed in place @curated", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/Transitions/Side-Control-to-Mount")
-  await j.advance(6000)
-  await page.evaluate(() => (window as W).__neural.setPaused(false))
-  await j.advance(1500)
-  const bs = await j.beats()
-  const ex = bs.filter((b: any) => b.beat === "staged_exchange").pop() as any
-  expect(ex, "play ran the exchange").toBeTruthy()
-  expect(ex.side).toBe("attacker")
-  const commit = bs.filter((b: any) => b.beat === "commit").pop() as any
-  // M7: the commit is THE technique, not a fresh decision window over the origin's hand
-  expect(commit, "the exchange committed").toBeTruthy()
-  expect(commit.technique, "…this very technique").toBe("Side Control to Mount")
-  expect(count(bs, "land_q_ignored"), "play is not 'ignoring the question'").toBe(0)
+  await j.advance(8000)
+  const hl = await page.evaluate(() => {
+    const a = (window as W).__neural
+    const st = a._stagedTech
+    const oc = (a._optionCards || []).find((c: any) => c.opt && st && c.opt.idx === st.idx)
+    return {
+      staged: st ? a.nodes[st.idx].t : null,
+      eyebrow: oc ? (oc.card.querySelector("[data-cat]") || {}).textContent : null,
+      accent: oc ? oc.card.style.borderColor : null,
+    }
+  })
+  expect(hl.staged, "the exchange is staged").toBe("Side Control to Mount")
+  expect(hl.eyebrow, "its card wears the commit verb").toBe("Execute")
+  expect(hl.accent, "…and the action accent").toContain("126, 160, 255")
+  // committing THAT card runs the exchange IN PLACE — no travel back to the origin
+  const path = await page.evaluate(() => {
+    const a = (window as W).__neural
+    const st = a._stagedTech
+    const opt = (a._optList || []).find((o: any) => o.idx === st.idx)
+    a._optPick(opt)
+    return a.pulse ? a.pulse.path.map((i: number) => a.nodes[i].t) : null
+  })
+  expect(path, "the pulse never leaves the technique").toEqual(["Side Control to Mount", "Side Control to Mount"])
+  await j.advance(3000)
+  expect((await j.beats()).map((b) => b.beat), "the commit is a real commit").toContain("commit")
 })
 
 // ── 8. a family hub resolves to a member, never a random start ───────────────────────────────
@@ -531,4 +538,77 @@ test("a family-hub URL lands on the family, not on a random weighted start", asy
   // RUNNING, with the address bar still naming the family (measured: Electric Chair Top)
   expect(a.staged, "a Kimura variant is staged").toMatch(/^Submissions\/Kimura\//)
   expect(a.paused, "staged and paused — not a running random roll").toBe(true)
+})
+
+/* J8 — v1.134.0's three unpinned claims, pinned in one boot.
+ * (1) The Win–Lose meter is mirrored at the writer: Win (blue) rides LEFT, so a
+ *     30%-toward-win marker paints at left:70%. Kills: dropping the `100 -` mirror.
+ * (2) The question clock is PAUSE-IMMUNE — "that's our test to the user" (owner):
+ *     setPaused(true) does not stop the drain. Kills: an `if (paused) return` in
+ *     _tickDecision.
+ * (3) The last three seconds pulse the card itself — ng-clock-hot goes on at ≤3s
+ *     and comes off with the disarm. Kills: dropping the hot-class add.
+ */
+test("@curated the meter mirrors Win-left, and the clock drains through pause into the hot pulse", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+
+  // (1) the mirrored meter
+  const left = await page.evaluate(async () => {
+    const a: any = (window as any).__neural
+    a.adv = { cur: 30, target: 30, shown: true, glow: 0, glowMag: 1, sign: 1 }
+    a.updateAdvMarker()
+    return a.legendMarkRef.current.style.left
+  })
+  expect(parseFloat(left), "30 toward Win paints at left:70% — Win rides LEFT").toBeCloseTo(70, 0)
+
+  // (2) pause immunity — the drain continues while paused
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return !!(a._decision && a._decision.total)
+  })
+  expect(armed, "the landing question armed a clock").toBe(true)
+  const drain = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    a.setPaused(true)
+    const before = a._decision.remaining
+    return { before, paused: a.paused }
+  })
+  expect(drain.paused).toBe(true)
+  await j.advance(1200)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const r = a._decision ? a._decision.remaining : 0
+    a.setPaused(false)
+    return r
+  })
+  expect(after, "the clock drained THROUGH the pause").toBeLessThan(drain.before - 500)
+
+  // (3) the hot pulse at ≤3s, released by the disarm
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    a._decision.remaining = 2500
+    a._barF = -1
+  })
+  await j.advance(400)
+  expect(
+    await page.evaluate(() => (window as any).__neural._landEl.classList.contains("ng-clock-hot")),
+    "the card pulses in the last three seconds",
+  ).toBe(true)
+  await page.evaluate(() => (window as any).__neural._declineLandQ("test"))
+  await j.advance(200)
+  expect(
+    await page.evaluate(() => {
+      const a: any = (window as any).__neural
+      return a._landEl ? a._landEl.classList.contains("ng-clock-hot") : false
+    }),
+    "the disarm takes the pulse with it",
+  ).toBe(false)
 })

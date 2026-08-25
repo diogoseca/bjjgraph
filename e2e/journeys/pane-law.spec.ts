@@ -32,11 +32,12 @@ test("opening the pane stops the game; closing it resumes the game @curated", as
   expect(await paused(page), "opening the pane stopped the game").toBe(true)
   await j.expectBeat("pane_paused")
 
-  // the decision clock is frozen with it — drilling under the pane costs no tempo
+  // v1.134.0: the question clock never pauses — opening the pane DECLINES the open question
+  // (free), so nothing is draining behind the drawer and nothing was stolen either
   const t0 = await page.evaluate(() => (window as any).__neural._decision?.remaining ?? null)
-  await j.advance(3000)
-  const t1 = await page.evaluate(() => (window as any).__neural._decision?.remaining ?? null)
-  expect(t1, "decision clock frozen while the pane is open").toBe(t0)
+  expect(t0, "the pane declined the question — no window is running").toBeNull()
+  const beats = (await j.beats()).map((b: any) => b.beat)
+  expect(beats, "and said so").toContain("land_q_declined")
 
   // close via the pane's ✕
   await page.locator(".ng-explorer-close").click()

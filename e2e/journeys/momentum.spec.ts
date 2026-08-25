@@ -323,7 +323,7 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   // v1.133.0 (owner): "the clock only punishes sitting there" — committing past an open question
   // is a FREE SKIP. The funnel beat still fires; momentum is untouched.
   const beats = (await j.beats()) as any[]
-  expect(beats.some((b) => b.beat === "land_q_ignored"), "the skip is still marked").toBe(true)
+  expect(beats.some((b) => b.beat === "land_q_ignored" || b.beat === "land_q_declined"), "the skip is still marked").toBe(true)
   const brk = beats.filter((b) => b.beat === "combo_break" && b.reason === "ignored")
   expect(brk.length, "no break for moving on").toBe(0)
   expect((await state(page)).combo, "momentum survives the skip").toBe(comboBefore)

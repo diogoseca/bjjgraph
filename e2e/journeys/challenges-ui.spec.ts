@@ -333,7 +333,8 @@ test.describe("Challenges UI @curated", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    const transport = page.locator("[title='Pause']");
+    // v1.134.0: the transport is deleted — any surviving focusable chrome proves the claim
+    const transport = page.locator(".ng-logo");
     await transport.focus();
     await page.evaluate(() => {
       const app = (window as any).__neural;
@@ -646,7 +647,7 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveAttribute("data-collapsed", "true");
   });
 
-  test("the mobile cue stays clear of the option hand and transport", async ({
+  test("the mobile cue is gone — nothing fights the hand for the phone band", async ({
     page,
   }) => {
     await page.setViewportSize({ width: 400, height: 875 });

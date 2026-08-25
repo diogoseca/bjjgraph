@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.134.0** — [THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED](#v1-134-0-the-transport-dies-the-game-goes-fully-t)
 - **v1.133.0** — [THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES](#v1-133-0-the-clock-moves-to-the-question-and-the)
 - **v1.132.2** — [RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW](#v1-132-2-recognition-comes-first-every-deck-build)
 - **v1.132.1** — [THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED](#v1-132-1-the-technique-card-was-chrome-only-and-a)
@@ -3544,6 +3545,49 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.134.0 — THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED
+
+### THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED (v1.134.0)
+
+Owner, completing the inversion: *"the play and restart button is now irrelevant … the user can
+only choose to answer or close the window to not answer … the pause would pause the elapsing
+time to answer a question, and that's our test to the user."* With v1.133.0's hesitation branch
+gone, nothing ever advanced without a commit — the transport controlled nothing. Deleted: the
+play/pause and restart buttons, Space's pause toggle (and its Shortcuts-tab row), `updateTransport`
+and its refs, and the Last-rolls current-row pause/resume toggle (archived rows keep "roll from
+here"). `setPaused` survives as internal MOTION
+state only (staging pauses, committing unpauses); the question clock ticks on the real frame
+delta and cannot be paused by anything.
+
+**Declining is free, one seam.** `_declineLandQ` — the ✕, a background tap, the pane, the option
+sheet, entering a defense: all put the question away spent-but-ungraded (`land_q_declined`,
+mapped to the funnel's question_ignored side-mark). The penalty exists only for expiry while the
+question faces you, and the last three seconds now pulse the card itself (`ng-clock-hot` —
+"I don't see time running out pressure", owner; verified live at 2.2s remaining).
+
+**The background ladder** replaces the v1.129.5 stand-down/restore latch pair wholesale: click 1
+closes the card (`land_dismissed`), click 2 is FREE ROAM (`_enterRoam` — roll archived if
+played, tray cleared, camera pulled back 1.5× centred on the seat, the whole screen available
+since no card band remains); any stage ends roam. `_standDown`/`_bgRestore`/`_bgDown` are gone;
+`_landHidden()` asks three holders now.
+
+**The staged exchange loses its play-latch.** Attacker side: the technique's own card in the
+hand is the go — action accent, commit verb ("Finish it" / "Execute"), glided into view, order
+frozen — and committing it executes IN PLACE: the pulse path is `[tech, tech]`, fixing the
+owner's "the signal mysteriously goes back to the previous position, travels all the way to the
+current node" report, while the travel label yields to the pair label (the v1.132.1 exclusion,
+applied to the pulse — the "just 'armbar', tiny" report). Defender side: the rush starts ON
+CLICK — `enterDefense` runs straight from the staging landing, with the stale landing card
+declined and cleared first (a live-probe catch: with no defender cards the old landing card
+survived into the rush and its late-docking question mounted over it). The category eyebrow
+tracking dropped .16em → .05em, closing review finding #11 (SUBMISSION never truncates; verified
+corpus-wide in the probe). The Win–Lose meter mirrored at the writer: Win (blue) left.
+
+**Fifteen more spec files relearned the shell**, including share-camera's transport-reach test
+(rewritten around the band's surviving tenants), keyboard's Space claim inverted, pane-law's
+frozen-clock assert inverted into the decline claim, and roll-card's stand-down journey rebuilt
+as the background-ladder journey.
 
 ## v1.133.0 — THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES
 

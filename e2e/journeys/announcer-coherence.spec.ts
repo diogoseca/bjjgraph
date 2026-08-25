@@ -182,9 +182,12 @@ test("@curated a Decide countdown does not survive staging another node", async 
     `the stuck countdown is gone (opacity ${after.opacity}, kicker "${after.kicker}")`,
   ).toBe(false);
   expect(after.paused, "the game is paused, as the owner observed").toBe(true);
-  // v1.133.0: the window belongs to the QUESTION — after staging it is either a fresh, full
-  // window (the new landing's question mounted) or not yet armed; a drained orphan is the bug
-  expect(after.remaining == null || after.remaining === after.total, "no drained orphan window").toBe(true);
+  // v1.133.0: the window belongs to the QUESTION — after staging it is either a fresh window or
+  // not yet armed; a drained orphan is the bug. v1.134.0 sharpened "fresh": the clock never
+  // pauses ("that's our test to the user", owner), so the staged question's window is already
+  // draining when we read it — fresh means WELL ABOVE the ≤3s band the orphan was stuck in,
+  // not byte-equal to total.
+  expect(after.remaining == null || after.remaining > 3000, "no drained orphan window").toBe(true);
   expect(after.stamp, "the ownership stamp was released with it").toBe(true);
 });
 

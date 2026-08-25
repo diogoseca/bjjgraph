@@ -118,8 +118,6 @@ class Component extends DCLogic {
   ghChipRef = React.createRef();
   _viewMode = "challenges";
   nodeCardRef = React.createRef();
-  transportRef = React.createRef();
-  playPauseRef = React.createRef();
   evCenterRef = React.createRef();
   evcKickerRef = React.createRef();
   evcTextRef = React.createRef();
@@ -136,7 +134,7 @@ class Component extends DCLogic {
       openSettings: () => this.openSettings("flashcards"), openFeedbackTechnique: () => this.openFeedback("technique"), openFeedbackIssue: () => this.openFeedback("issue"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
-      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
+      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
@@ -359,7 +357,7 @@ class Component extends DCLogic {
     // `_replay` before it can call back in here, so this cannot recurse.
     if (p === false && this._replay) { this._replayAutoPaused = false; this.stopReplay("resumed"); }
     // PRESSING PLAY ALSO ENDS A BACKGROUND DISMISSAL, and flies back to the node you chose.
-    if (p === false && this._bgDown) this._bgRestore();
+
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
     // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
@@ -367,8 +365,6 @@ class Component extends DCLogic {
     // clock freezes them by construction, and a refund moves them, which an animation could not.
     const list = this.drillListRef.current;
     if (list) list.querySelectorAll(".ngCurExpire").forEach((w) => { w.style.animationPlayState = p ? "paused" : "running"; });
-    if (this._curSetIcon) this._curSetIcon();
-    this.updateTransport();
   }
   resetRoll() {
     this.setPaused(false);
@@ -443,7 +439,7 @@ class Component extends DCLogic {
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
-    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current, this.transportRef.current, this.optDetailRef.current].forEach((el) => {
+    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current, this.optDetailRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
     // ── A WHEEL OVER THE HAND SCROLLS THE HAND (v1.123.0) ─────────────────────────────────────
@@ -575,7 +571,8 @@ class Component extends DCLogic {
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
-        else { this._clearPauseLatches(); this.setPaused(!this.paused); }
+        // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
+        // the question clock is deliberately un-pausable ("that's our test to the user", owner)
       } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
         e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
         this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
@@ -646,7 +643,6 @@ class Component extends DCLogic {
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
-    this.updateTransport();
     let data = null;
     for (let attempt = 0; attempt < 5 && !data; attempt++) {
       try {
@@ -2076,7 +2072,8 @@ class Component extends DCLogic {
       else if (this._landPaneHid && !this._traySup) { this._suppressLand(false); this._landPaneHid = false; }
       else if (this._landPaneHid && this._traySup) { this._landPaneHid = false; }
     }
-    if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
+    if (open && !wasShown) this._declineLandQ("pane"); // studying instead of answering = declining (v1.134.0)
+    if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue removal hook (the cue itself is retired)
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
     this._layoutPane();
     this.forceUpdate();
@@ -2671,7 +2668,8 @@ class Component extends DCLogic {
       options_dealt: "hand_dealt",        // the first hand of options is the first actionable state
       land_q_shown: "question_shown",
       land_q_answered: "question_answered", // BRANCH, not a gate — see the note above
-      land_q_ignored: "question_ignored", // committing past an unanswered question
+      land_q_ignored: "question_ignored", // committing past an unanswered question (direct pick)
+      land_q_declined: "question_ignored", // closing/hiding the question instead of answering (v1.134.0)
       land_q_skipped: "question_skipped", // the landing could ask nothing; `reason` says why
       land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
       commit: "move_committed",
@@ -3005,15 +3003,14 @@ class Component extends DCLogic {
       (h.intend ? '<div style="font-size:9px;color:#5d6680;font-weight:600;letter-spacing:.01em;margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.actor === "opp" ? "they aimed for" : "you aimed for") + ' <span style="color:#7e8aa3;">' + h.intend.val + ' ' + h.intend.name + '</span></div>' : '') +
       '<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-size:12.5px;font-weight:' + (isCurrent ? 700 : 500) + ';color:' + (isCurrent ? "#eef1f6" : "#9aa6bd") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.intend ? "\u21b3 " : "") + h.name + '</span>' + (h.val != null && parseInt(h.val, 10) !== 0 ? '<span style="flex:none;font-size:10px;font-weight:700;color:' + valColor + ';font-family:\'Space Grotesk\',sans-serif;">' + h.val + '</span>' : '') + '</div>' +
       '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + h.role + (ncards ? " \u00b7 " + (prep >= ncards && ncards ? "mastered" : prep + "/" + ncards + " cards") : "") + '</div></div>' +
-      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '') +
-      '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:' + (ncards ? "#8b97b0" : "#586378") + ';transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>';
+      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:' + (ncards ? "#8b97b0" : "#586378") + ';transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>');
     const box = document.createElement("div");
     const detail = document.createElement("div");
     detail.style.cssText = "display:none;margin:0 -8px;";
     let built = false;
     const rid = opts.rid != null ? opts.rid : ("c" + (opts.rollIndex != null ? opts.rollIndex : h.key));
     {
-      const play = r.querySelector(".hplay");
+      const play = r.querySelector(".hplay"); // null on the CURRENT row (v1.134.0): the live board takes no transport action
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
@@ -3040,23 +3037,17 @@ class Component extends DCLogic {
       };
       r.style.cursor = "pointer";
       r.addEventListener("click", () => toggle());
-      // play button: only the current (LATEST) state acts as a play/pause transport; every other row is a gray "roll from here"
-      const setIcon = () => {
-        const playing = isCurrent && !this.paused;
-        const p = play.querySelector("svg path");
-        if (p) p.setAttribute("d", playing ? "M6 5h4v14H6zM14 5h4v14h-4z" : "M7 5v14l12-7z");
-        const lbl = isCurrent ? (this.paused ? "Resume roll" : "Pause roll") : ("Roll from " + (h.name || "this position") + ", " + ((h.role || "Top").toLowerCase()));
+      // v1.134.0: the play/pause transport is retired everywhere — every archived row is a
+      // gray "roll from here", and the current row carries no button at all.
+      if (play) {
+        const lbl = "Roll from " + (h.name || "this position") + ", " + ((h.role || "Top").toLowerCase());
         play.title = lbl;
         play.setAttribute("aria-label", lbl);   // a title is not an accessible name (v1.106.5)
-      };
-      setIcon();
-      if (isCurrent) this._curSetIcon = setIcon;
-      play.addEventListener("mouseenter", () => { play.style.background = "rgba(74,108,255,.3)"; play.style.color = "#dbe6ff"; });
-      play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = ncards ? "#8b97b0" : "#586378"; });
-      play.addEventListener("click", (ev) => {
+        play.addEventListener("mouseenter", () => { play.style.background = "rgba(74,108,255,.3)"; play.style.color = "#dbe6ff"; });
+        play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = ncards ? "#8b97b0" : "#586378"; });
+        play.addEventListener("click", (ev) => {
         ev.stopPropagation();
-        if (isCurrent) { this.setPaused(!this.paused); setIcon(); return; }   // current state = pause / resume
-        // any other row = start another roll from this position (current roll archived into Previous rolls)
+        // start another roll from this position (current roll archived into Previous rolls)
         this._openLatestOnLand = true;
         const ni = this.nodeForKey(h.key);
         // ...ON THE SIDE THIS ROW WAS PLAYED FROM (v1.106.5). Without the override
@@ -3070,8 +3061,9 @@ class Component extends DCLogic {
         // and the film strip were built, framed and immediately hidden by the surface the button
         // lives on. Pane law forbids the ROLL LOOP opening or closing the pane; this is the USER
         // pressing play, which is precisely the "close = the game resumes" half of the same law.
-        this.setDeckOpen(false);
-      });
+          this.setDeckOpen(false);
+        });
+      }
       if (this._openRow === rid) openD();
     }
     r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
@@ -3445,7 +3437,8 @@ class Component extends DCLogic {
   expandOption(opt, onPick, srcCard) {
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) { onPick(opt); return; }
-    this.setPaused(true);           // freeze time while the player reads/confirms
+    this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
+    this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     if (this._landEl) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; } // the sheet owns the screen while it is up
     // THE HEAD IS THE OPTION CARD, ENLARGED (v1.102.1) — so it shows the card's marks, not a
@@ -4315,7 +4308,6 @@ class Component extends DCLogic {
       this.buildModifiers(body);
     } else {
       const rows = [
-        ["Play / pause roll", ["Space", "P"]],
         ["Answer a multiple-choice question", ["A", "B", "C", "D"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
@@ -7372,38 +7364,46 @@ class Component extends DCLogic {
    *  · AND IT REMEMBERS. `_syncUrl` already records the last node the USER chose (deliberate
    *    navigation only), so pressing play flies back to it rather than wherever the roll drifted.
    */
+  // ── THE BACKGROUND LADDER (v1.134.0, owner) ── "clicking once on the bg of the graph will
+  // close the card, clicking it again will deselect and zoom out a little." Click 1: the card
+  // closes — the question declined, free, the hand stays. Click 2: FREE ROAM — the roll archives
+  // (if played), the tray clears, and the camera pulls back centred on where you stood, using
+  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always.
+  // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
+  // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
   _tapBackground() {
     this.closeNodeDossier();
     this.closeDossierSheet();
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
-    this._standDown(true);
+    if (this._landEl) {
+      const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
+      this._declineLandQ("bg");
+      this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
+      this.clearLandCard();
+      return;
+    }
+    this._enterRoam();
   }
-  /** Stand the play surfaces down and hold the clock on our own latch. */
-  _standDown() {
-    if (this._bgDown) return;
-    this._bgDown = true;
-    this._bgReturnIdx = (this._lastChosenIdx != null ? this._lastChosenIdx : this.currentPos);
-    this._suppressTray(true);
-    if (!this.paused) { this.setPaused(true); this._bgAutoPaused = true; }
-    this.fx("bg_dismissed", { returnTo: this._bgReturnIdx });
-  }
-  /** …and bring them back. Called from setPaused's resume path (never calls back into it, so it
-   *  cannot recurse — same shape as the replay teardown that already lives there). */
-  _bgRestore(keepCam) {
-    if (!this._bgDown) return;
-    this._bgDown = false; this._bgAutoPaused = false;
-    this._suppressTray(false);
-    // `keepCam` is for the caller who has ALREADY chosen where to go — a graph tap. Returning the
-    // camera to `_bgReturnIdx` there would yank it straight back off the node the user just
-    // picked, so the latches are lifted and the flight is left alone.
-    if (keepCam) return;
-    // "when you click play again it shows you where you were" — the node the USER last chose,
-    // not wherever an auto-advance happened to leave the roll.
-    const i = this._bgReturnIdx;
-    if (i != null && this.nodes && this.nodes[i]) {
-      this.camTarget = this.rollCamTarget(this.nodes[i], false);
+  _enterRoam() {
+    if (this._roam) return;
+    this._roam = true;
+    if (this._played && this.rollLog && this.rollLog.length > 1) {
+      this._pastRolls = this._pastRolls || [];
+      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
+      if (this._pastRolls.length > 40) this._pastRolls.pop();
+    }
+    this.rollLog = []; this._played = false;
+    this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    this.setPaused(true);
+    this.focusIdx = -1; this.pulse = null; this.activeMove = null;
+    // centred on where you stood, whole screen, pulled back a little
+    const n = this.nodes && this.nodes[this.currentPos];
+    if (n) {
+      const mid = this.pairMid(n);
+      this.camTarget = { cx: mid.x, cy: mid.y, vw: Math.min(this.graphW * 1.1, (this.cam.vw || this.graphW * 0.2) * 1.5) };
       this.holdCamera();
     }
+    this.fx("roam_entered", {});
   }
   _suppressTray(hide) {
     if (this._traySup === hide) return;
@@ -7437,7 +7437,7 @@ class Component extends DCLogic {
     // pressing Esc and immediately answering found the card still styled hidden and the keys went
     // dead. Every surface that stands the card down owns a synchronous flag, and intent flips the
     // instant the user acts; a style is only true once the animation says so.
-    return !this._landEl || !!this._landPaneHid || !!this._traySup || !!this._bgDown || !!this._detailCtx;
+    return !this._landEl || !!this._landPaneHid || !!this._traySup || !!this._detailCtx;
   }
   _suppressLand(hide) {
     const el = this._landEl; if (!el) return;
@@ -7977,14 +7977,6 @@ class Component extends DCLogic {
     // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
     this.openDossier(idx);
   }
-  updateTransport() {
-    const b = this.playPauseRef.current; if (!b) return;
-    b.innerHTML = this.paused
-      ? '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg>'
-      : '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="4" width="5" height="16" rx="1.2"></rect><rect x="14" y="4" width="5" height="16" rx="1.2"></rect></svg>';
-    b.title = this.paused ? "Play" : "Pause";
-  }
-
   nodeGlyph(ty, col, sz) {
     const s = sz || 8;
     if (ty === "positions") return '<span style="width:' + s + 'px;height:' + s + 'px;border-radius:50%;background:' + col + ';flex:none;"></span>';
@@ -8656,7 +8648,7 @@ class Component extends DCLogic {
     const m = this.legendMarkRef.current; if (!m || !this.adv) return;
     const dt = this._mdt || 0.016;
     this.adv.cur += (this.adv.target - this.adv.cur) * (1 - Math.exp(-dt / 0.26));
-    m.style.left = this.adv.cur.toFixed(2) + "%";
+    m.style.left = (100 - this.adv.cur).toFixed(2) + "%"; // v1.134.0 (owner): Win rides LEFT now — the scale is mirrored at the writer, the model is untouched
     m.style.opacity = this.adv.shown ? "1" : "0";
     if (this.adv.glow > 0) this.adv.glow = Math.max(0, this.adv.glow - dt / 0.95);
     const g = this.adv.glow * (this.adv.glowMag || 1);
@@ -8973,7 +8965,7 @@ class Component extends DCLogic {
     card.innerHTML =
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">' +
         this.catGlyph(n, num, col) +
-        '<span style="font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + headMid + '</span>' +
+        '<span data-cat="1" style="font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + headMid + '</span>' +
         headVal +
       '</div>' +
       // ── THE CARD IS A CHOICE, NOT A DOSSIER (v1.101.1) ──────────────────────────────────
@@ -9667,7 +9659,7 @@ class Component extends DCLogic {
     // binds it; a backfill rebuild rebinds a still-armed window to the fresh element.
     const clkTrack = document.createElement("div");
     clkTrack.setAttribute("data-land-clock-track", "1");
-    clkTrack.style.cssText = "position:absolute;left:0;top:0;height:3px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:transparent;";
+    clkTrack.style.cssText = "position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:transparent;";
     clkTrack.innerHTML = '<div data-land-clock="1" style="height:100%;width:100%;background:#9fb0d0;transform-origin:left;transform:scaleX(0);"></div>';
     el.appendChild(clkTrack);
     if (this._decision && this._decision.remaining != null) { this._landClockEl = clkTrack.firstChild; this._barF = null; }
@@ -9870,7 +9862,7 @@ class Component extends DCLogic {
     xb.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
     xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(255,255,255,.08)"; });
     xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "none"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.fx("land_dismissed", { node: node.t, answered: !!(this._landQ && this._landQ.answered) }); this.clearLandCard(); });
+    xb.addEventListener("click", (e) => { e.stopPropagation(); this._declineLandQ("close"); this.fx("land_dismissed", { node: node.t, answered: !!(this._landQ && this._landQ.answered) }); this.clearLandCard(); });
     corner.appendChild(xb);
     el.appendChild(corner);
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
@@ -10416,7 +10408,7 @@ class Component extends DCLogic {
       // shapes, same button geometry — under the defense palette, with the question clock's bar
       // riding the card's top edge exactly like a landing.
       card.innerHTML =
-        '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:3px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
+        '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
         '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
         '<div style="padding-right:8px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>' +
         '<div class="pAns" style="display:none;font-size:12.5px;line-height:1.5;color:#c8d2e4;padding:8px 11px;border-radius:9px;border:1px solid rgba(255,110,110,.28);background:rgba(255,110,110,.07);margin-bottom:8px;">' + fc.a + '</div>' +
@@ -10766,6 +10758,7 @@ class Component extends DCLogic {
       this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
     }
+    this._roam = false; // any fresh roll leaves free roam
     this._lastOutcome = null; this._lastFinish = null;
     this.rollLog = []; this._lastActor = null; this._currentDeckKey = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
@@ -10832,28 +10825,44 @@ class Component extends DCLogic {
     this._reframeHold = !!staged;
 
     this.flare(chosen);
-    this.after(0.6, () => this.enterLand(true), true);
+    this.after(0.6, () => {
+      this.enterLand(true);
+      // v1.134.0 (owner): clicking the ESCAPING orb IS choosing to be caught — the rush starts
+      // now, no play button in between. The attacker side reads instead, with its own card
+      // highlighted in the hand (the "Finish it" affordance, _highlightStagedCard).
+      if (this._stagedTech && this._stagedTech.side === "defender" && this.nodes[this._stagedTech.idx]) {
+        const st = this._stagedTech; this._stagedTech = null;
+        this.setPaused(false);
+        this.enterDefense(st.idx);
+      }
+    }, true);
   }
   // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
   // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
   // you restage the same non-session; it never played, so there is nothing to archive, no
   // stake on the ladder, no counter moved. Press play and only then does the roll begin.
-  // ── PLAY ON A STAGED EXCHANGE (v1.132.0) ── clicking a technique landed you ON it, board
-  // staged, clock held; the first unpaused frame runs the exchange from YOUR side of it.
-  // Finishing/attacking: commit the technique through the same pick path a card click takes.
-  // Escaping/defending: the opponent is on it — the red defense rush ("if I click play, I want
-  // to see that rush … you need to think fast", owner). `_landPending` is cleared first: the
-  // decision window never ran, so there is no landing question being walked past.
-  _runStagedTech(st) {
-    const n = this.nodes[st.idx];
-    if (!n) return;
-    this._landPending = false;
-    this.fx("staged_exchange", { technique: n.t, side: st.side });
-    if (st.side === "defender") { this.enterDefense(st.idx); return; }
-    const opt = (this._optList || []).find((o) => o && o.idx === st.idx);
-    if (opt && this._optPick) this._optPick(opt);
-    // no opt: the technique is absent from its own origin's hand (the 5 authored role
-    // mismatches) — the staged landing simply plays on as a normal roll from the seat
+  // ── "FINISH IT" (v1.134.0, owner) ── when a technique is staged, ITS card in the hand is the
+  // go: the eyebrow becomes the commit verb, the border takes the action accent, and the tray
+  // glides it into view. The deal ORDER is untouched — frozen-order law — only the paint moves.
+  _highlightStagedCard() {
+    const st = this._stagedTech;
+    if (!st || !this._optionCards) return;
+    const target = this.nodes[st.idx];
+    const oc = this._optionCards.find((c) => c.opt && (c.opt.idx === st.idx || (target && target.pairId && c.node && c.node.pairId === target.pairId)));
+    if (!oc || !oc.card) return;
+    oc.card.style.borderColor = "rgba(126,160,255,.65)";
+    oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";
+    const eyebrow = oc.card.querySelector("[data-cat]");
+    if (eyebrow) {
+      eyebrow.textContent = oc.node && oc.node.ty === "submissions" ? "Finish it" : "Execute";
+      eyebrow.style.color = "#9ab0e0";
+      eyebrow.style.letterSpacing = ".08em";
+    }
+    const row = this.optionsRef.current;
+    if (row) {
+      const want = oc.card.offsetLeft - (row.clientWidth - oc.card.offsetWidth) / 2;
+      this._trayGlideBy(row, want - row.scrollLeft);
+    }
   }
   stageRollAt(nodeIdx) {
     this.rollFromPosition(nodeIdx, true);
@@ -11231,6 +11240,7 @@ class Component extends DCLogic {
       this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
     }
+    this._roam = false; // any fresh roll leaves free roam
     this._lastOutcome = null; this._lastFinish = null;
     this.rollLog = []; this._lastActor = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
@@ -11419,10 +11429,11 @@ class Component extends DCLogic {
     this._decisionDsec = this.get("decisionSec", 9);
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.enterAttempt(opt); };
+    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
     for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, this._decisionDsec, i + 1));
     if (el) el.style.pointerEvents = "auto";
     this._optPick = pick; this._optList = opts;
+    this._highlightStagedCard();
     // the landing's decision CONTEXT — pick/opts for the hand, plus the QUESTION window's timer
     // fields, disarmed until a question mounts (_armLandClock). gdt-driven, so pauses freeze it.
     this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: opts };
@@ -11457,7 +11468,20 @@ class Component extends DCLogic {
   _disarmLandClock() {
     const d = this._decision;
     if (d) { d.remaining = null; d.total = null; }
+    if (this._landEl) this._landEl.classList.remove("ng-clock-hot");
     if (this._landClockEl) { this._landClockEl.style.transform = "scaleX(0)"; this._landClockEl = null; }
+  }
+  // ── DECLINING IS FREE (v1.134.0, owner: "he needs to answer it fast, otherwise he needs to
+  // close the dialog") ── anything that puts the question away — the ✕, a background tap, the
+  // pane, an option sheet — DECLINES it: spent for this landing, no reveal, no penalty. The
+  // penalty exists only for letting it expire while it faces you.
+  _declineLandQ(reason) {
+    const q = this._landQ;
+    this._disarmLandClock();
+    if (!q || q.answered || !this._landPending) return;
+    q.answered = true;
+    this._landPending = false;
+    this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });
   }
   _expireLandQ() {
     this._disarmLandClock();
@@ -11512,7 +11536,10 @@ class Component extends DCLogic {
       if (Math.abs(f - (this._barF == null ? -1 : this._barF)) > 0.002) {
         this._barF = f;
         this._landClockEl.style.transform = "scaleX(" + f.toFixed(4) + ")";
-        if (d.remaining <= 3000) this._landClockEl.style.background = "#ff8585";
+        if (d.remaining <= 3000) {
+          this._landClockEl.style.background = "#ff8585";
+          if (this._landEl && !this._landEl.classList.contains("ng-clock-hot")) this._landEl.classList.add("ng-clock-hot");
+        }
       }
     }
     if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the DRILL window drains
@@ -11557,7 +11584,9 @@ class Component extends DCLogic {
     //   you act       -> "You go for Y"         + graph "ATTACKING Y"
     this.setEvent("You go for", act.t, "info");
     this.activeMove = { idx: opt.idx, verb: "Attacking", col: { r: 94, g: 149, b: 255 } };
-    this.startTravel([this.currentPos, opt.idx], () => {
+    // v1.134.0 (owner): committing the technique you are already STANDING ON must not rewind the
+    // camera to its origin and travel back — the execution happens here, in place.
+    this.startTravel(opt.idx === this.focusIdx ? [opt.idx, opt.idx] : [this.currentPos, opt.idx], () => {
       this.after(0.35, () => this.tensionSweep(opt));
     });
   }
@@ -11956,6 +11985,8 @@ class Component extends DCLogic {
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   enterDefense(subIdx) {
     const sub = this.nodes[subIdx];
+    this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
+    this.clearLandCard();
     this.fx("defend_start", { submission: sub ? sub.t : null });
     this.fx("caught", { submission: sub ? sub.t : null });
     // escape routes: positions reachable from the submission node (back to safety)
@@ -12381,11 +12412,7 @@ class Component extends DCLogic {
         let gdt = this.paused ? 0 : dt;
         // a session exists the moment it runs unpaused with a live hand — before that, a staged
         // roam can be restaged freely and costs nothing
-        if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) {
-          this._played = true;
-          // a staged EXCHANGE consumes the first unpaused frame: play RUNS it (v1.132.0)
-          if (this._stagedTech) { const st = this._stagedTech; this._stagedTech = null; this._runStagedTech(st); }
-        }
+        if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) this._played = true;
         if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
         // A REPLAY RUNS WITH THE GAME CLOCK HELD, and its sweeps are the whole point of it. Travel
         // is a DISPLAY primitive (like the camera two lines below, which has always run on the real
@@ -12393,7 +12420,7 @@ class Component extends DCLogic {
         // the real frame delta. The live roll's own pulse was parked at `startReplay` and is handed
         // back on stop, so nothing of the roll advances here.
         this.updateTravel(this._replay ? dt : gdt);
-        this._tickDecision(gdt);
+        this._tickDecision(dt); // v1.134.0: the question clock NEVER pauses — "that's our test to the user" (owner); motion still freezes on the internal pause
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
@@ -12582,20 +12609,7 @@ class Component extends DCLogic {
             // navigation, no url change, no new dialog … nothing but the node lighting up", and
             // "when i click some other positions … i see the choices row but not the MC landcard".
             //
-            // Two symptoms, one latch. Tapping empty space runs `_standDown()`: `_bgDown = true`,
-            // `_suppressTray(true)`, clock held — deliberate, that is the v1.129.x background-tap
-            // behaviour. But **`_bgRestore()` had exactly ONE caller**, `setPaused(false)`, so the
-            // ONLY way back was the play button. Clicking a node did all its own work — the hand
-            // re-dealt, the card was built, the camera flew — underneath a suppression nobody
-            // lifted. Measured: after a background tap, a technique click and a position click
-            // both leave `bgDown true / traySup true / card visibility hidden`, while `optionIdxs`
-            // goes 10 -> 25. That is precisely "the choices row is there and the card is not".
-            //
-            // PRE-EXISTING, not from v1.129.1: neither `stageRollAt` nor `openDossier` ever called
-            // it. v1.129.1 only made it more visible, by giving a technique tap a card to fail to
-            // show. A tap on a node is the user re-engaging, so it restores the stand-down — with
-            // `keepCam`, because they have already said where they want to be.
-            this._bgRestore(true);
+            // (v1.134.0: the stand-down latch is gone — a background tap CLOSES, a node tap stages)
             const hitNode = this.nodes[this._hover.idx];
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
             else this.stageRollAt(this._hover.idx);
@@ -13163,7 +13177,11 @@ class Component extends DCLogic {
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
         const am = this.activeMove;
-        richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
+        // a staged technique already wears the big pair label (name · qualifier · role) — the
+        // small unqualified travel label over it was the owner's "just 'armbar', tiny" report
+        const fn = this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
+        const dup = fn && (am.idx === this.focusIdx || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
+        if (!dup) richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"

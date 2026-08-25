@@ -50,8 +50,8 @@ const cardEdges = (page: any) =>
         return o && o.node ? o.node.ty : null;
       })(),
       mid:
-        (c.querySelector("span[style*='letter-spacing:.16em']") || {})
-          .textContent || "",
+        // v1.134.0: the category eyebrow dropped to .05em tracking and gained its own handle
+        (c.querySelector("[data-cat]") || {}).textContent || "",
       edge: c.querySelector(".ngedge")
         ? c.querySelector(".ngedge").textContent
         : null,

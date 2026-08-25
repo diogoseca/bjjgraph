@@ -75,15 +75,16 @@ test("drilling pumps odds and buys NO time — the clock belongs to the question
 
   const remaining = () => page.evaluate(() => (window as any).__neural.decisionRemaining())
 
-  // the sheet pauses the game clock, so the question window must not move AT ALL on a grade —
-  // the +2.5s refund died with the hand clock (timer_refund is not a beat any more)
-  const r0 = await remaining()
+  // v1.134.0: opening the sheet DECLINED the landing question (reading a move instead of
+  // answering), so no window is running — and grading refunds nothing because there is nothing
+  // to refund. The drill's whole payment is odds.
+  expect(await remaining(), "the sheet declined the question").toBe(0)
   await page.locator("[data-jit-reveal]").click()
   await page.locator("[data-jit-got]").click()
-  const r1 = await remaining()
-  expect(Math.abs(r1 - r0)).toBeLessThan(0.5)
+  expect(await remaining(), "still no clock — the drill buys odds, never time").toBe(0)
   const refunds = (await j.beats()).filter((b: any) => b.beat === "timer_refund")
   expect(refunds.length, "the refund beat is retired").toBe(0)
+  await j.expectBeat("land_q_declined")
   await j.expectBeat("bonus_pumped") // the grade still pays — in odds, not seconds
 })
 
