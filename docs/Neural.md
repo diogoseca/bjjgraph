@@ -66,9 +66,20 @@ Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
 arrival, a staged exchange); only its border skin differs — **no header** (the graph names the
 focused node, the same rule that removed the position card's header) and **no "Roll from here"**
-(clicking already set the board; play is the one go control). `defense` — the panic drill, same
-element with a danger skin, asked **above** the escape hand rather than inside it. Nothing
-auto-expands: every card arrives folded, `More` one tap away.
+(clicking already set the board; play is the one go control). `defense` — the panic drill, the landing card's own recall
+anatomy under the danger skin (v1.133.0), asked **above** the escape hand. The DRILL carries the
+question clock; the ESCAPES are untimed — expiry no longer taps you out, it reveals the drill's
+answer with no pump and the player still chooses. While caught, the field fogs to the exchange
+(`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
+vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
+
+**Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
+asks as timed recall Q/A in play; below blue, recognition-first MC holds. The black-belt badge
+still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
+challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
+remover. **EDGE is taught in two quiet places**: a legend row ("+7 · Tilt toward winning", full
+sentence on hover) and a one-line caption under the option-detail sheet's big number — both
+carrying the by-the-book-opponent caveat canon requires.
 
 **Clicking (or arriving on) a technique NAVIGATES to it** (v1.132.0, owner: "when you click on a
 transition or on a submission, you navigate to it. The URL changes to it, and the landcard is
@@ -141,10 +152,16 @@ Three marks, two channels: **shape** = category (circle position, triangle submi
 transition) · **colour** (glyph, clock bar, corner number) = EDGE · bottom-right = odds, which are
 an input to EDGE.
 
-The decision clock is `decisionSec` plus a per-option term that grows **logarithmically** past
-`NG_DECISION_KNEE`; below the knee nothing changes at all, and the two branches meet exactly at the
-knee. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards — the tray is EDGE-ranked, so
-those are the likeliest picks, and card 11+ hydrates on demand.
+The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
+choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
+the v1.123.0 Hick's-law knee died with the hand clock) arms when a question mounts
+(`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
+3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
+highlighted, a failed SRS review, −4% on this exchange, momentum broken — and the hand stays
+live: the player still picks, untimed. Committing past an open question is a FREE SKIP (the
+`land_q_ignored` beat still marks it for the funnel; momentum untouched). A landing that asks
+nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
+on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the
 platform's job), and by the "see more" hint, which docks off the tray's **measured** top. A drag

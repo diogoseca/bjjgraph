@@ -133,10 +133,10 @@ test("@curated a Decide countdown does not survive staging another node", async 
   // burn the live window down into the <=3s warning band, where the countdown is written
   for (let i = 0; i < 40; i++) {
     await j.advance(500);
-    if ((await announced(page)).label === "Decide") break;
+    if ((await announced(page)).label === "Answer") break;
   }
   const hot = await announced(page);
-  expect(hot.label, "the countdown really is on screen").toBe("Decide");
+  expect(hot.label, "the countdown really is on screen").toBe("Answer");
   const shown = await page.evaluate(
     () => (window as any).__neural.evRef.current.style.opacity,
   );
@@ -176,13 +176,15 @@ test("@curated a Decide countdown does not survive staging another node", async 
   // on a build with the fix in — because the staged landing had legitimately said something ELSE
   // by the time it read. Standing the announcer down and REPLACING the sentence are both correct
   // outcomes; leaving "Decide 1…" up is the only wrong one.
-  const orphaned = after.opacity !== "0" && after.kicker === "Decide";
+  const orphaned = after.opacity !== "0" && after.kicker === "Answer";
   expect(
     orphaned,
     `the stuck countdown is gone (opacity ${after.opacity}, kicker "${after.kicker}")`,
   ).toBe(false);
   expect(after.paused, "the game is paused, as the owner observed").toBe(true);
-  expect(after.remaining, "and the bars really are back to full").toBe(after.total);
+  // v1.133.0: the window belongs to the QUESTION — after staging it is either a fresh, full
+  // window (the new landing's question mounted) or not yet armed; a drained orphan is the bug
+  expect(after.remaining == null || after.remaining === after.total, "no drained orphan window").toBe(true);
   expect(after.stamp, "the ownership stamp was released with it").toBe(true);
 });
 
@@ -224,45 +226,34 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
       seen.push(s.label);
       // anything that is NOT the countdown must have released the stamp — that release is the
       // whole reason `clearOptions` can drop an orphan without touching a live sentence.
-      if (s.label !== "Decide") expect(s.stamp, `"${s.label}" released the countdown stamp`).toBe(true);
+      if (s.label !== "Answer") expect(s.stamp, `"${s.label}" released the countdown stamp`).toBe(true);
     }
   }
   const uniq = [...new Set(seen)];
-  expect(uniq, `the countdown was reached (saw: ${JSON.stringify(uniq)})`).toContain("Decide");
+  expect(uniq, `the countdown was reached (saw: ${JSON.stringify(uniq)})`).toContain("Answer");
   expect(
-    uniq.filter((l) => l !== "Decide").length,
+    uniq.filter((l) => l !== "Answer").length,
     `the roll went on speaking after it (saw: ${JSON.stringify(uniq)})`,
   ).toBeGreaterThan(0);
 });
 
 /**
- * FREEZING HANDS OVER THE INITIATIVE (v1.129.0). @curated
+ * THE CLOCK BELONGS TO THE QUESTION (v1.133.0, owner). @curated
  *
- * The dead-copy finding above turned out to sit on top of a gameplay problem, and the owner asked
- * for the gameplay answer rather than a copy fix.
- *
- * WHAT THE CLOCK RUNNING OUT USED TO DO was play your hand FOR you: a weighted draw over your own
- * options with `w = max(0.12, 0.5 + dom)` — biased toward your DOMINANT moves. So hesitating was
- * rewarded with a decent move, and the sentence explaining it was overwritten synchronously before
- * a frame rendered. The player watched their own hand play itself, well, for no stated reason.
- *
- * WHAT IT DOES NOW: in BJJ, freezing in a live exchange means THEY move first. It is the same
- * currency the rest of the engine is priced in — the asymmetric-initiative rule behind EDGE says a
- * success returns the turn to you and a miss hands it over, so hesitation costing you the turn is
- * consistent rather than novel.
- *
- * AND IT CANNOT SPIRAL, BY CONSTRUCTION: `opponentDefend` always ends in `enterLand(false)` (or
- * `enterDefense`, or `endRound`), so the opponent never keeps initiative. You freeze, they take
- * ONE exchange, the board comes back. A player who never presses anything is not locked out of the
- * game — they are just losing it, correctly.
+ * v1.129.0's hesitation branch ("you freeze, they move first") is retired with the hand clock it
+ * rode on. "Pressure should not be on the choices … the choices are fun to click. When the clock
+ * runs out, the algorithm doesn't choose for you. You still choose." What expiry does now is
+ * REVEAL the landing question's answer as a miss — and the cause is still read before any
+ * effect: "Too slow" owns the announcer slot when it happens, with the hand untouched below it.
  */
-test("@curated the clock running out gives the opponent the exchange, and says so first", async ({
+test("@curated the clock running out reveals the answer, says so, and steals nothing", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
 
+  const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);
   // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred
   const said: string[] = [];
   for (let i = 0; i < 240; i++) {
@@ -273,55 +264,40 @@ test("@curated the clock running out gives the opponent the exchange, and says s
       return { label: k ? k.textContent : null, opacity: n.evRef.current?.style.opacity };
     });
     if (s.label && s.opacity === "1" && said[said.length - 1] !== s.label) said.push(s.label);
-    if (said.indexOf("Opponent goes for") >= 0) break;
+    if (said.indexOf("Too slow") >= 0) break;
   }
+  expect(said.indexOf("Too slow"), `the expiry announced itself (saw ${JSON.stringify(said)})`).toBeGreaterThanOrEqual(0);
 
-  // THE CAUSE IS READ BEFORE THE EFFECT. This is the half a synchronous hand-over would fail: the
-  // announcer has ONE slot, so without the hold "Time's up" would be overwritten unseen — which is
-  // exactly the pre-existing defect this replaces.
-  const iUp = said.indexOf("Time's up");
-  const iOpp = said.indexOf("Opponent goes for");
-  expect(iUp, `the expiry announced itself (saw ${JSON.stringify(said)})`).toBeGreaterThanOrEqual(0);
-  expect(iOpp, "and the opponent then took the exchange").toBeGreaterThan(iUp);
-
-  // ...AND IT REALLY IS THE OPPONENT ACTING, not your own hand being auto-played.
   const beats = (await j.beats()).map((b) => b.beat);
-  expect(beats, "the hesitation is a named beat").toContain("hesitated");
-  expect(beats, "the old auto-pick is retired from this path").not.toContain("auto_pick");
-  expect(
-    beats.filter((b) => b === "opponent_move" || b === "opponent_attack").length,
-    "the opponent moved",
-  ).toBeGreaterThan(0);
+  expect(beats, "the reveal is a named beat").toContain("land_q_expired");
+  expect(beats, "the hesitation branch is retired").not.toContain("hesitated");
+  expect(beats, "the old auto-pick stays retired").not.toContain("auto_pick");
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return { hand: (a.optionIdxs || []).length, revealed: !!document.querySelector("[data-land-q] [data-mc-result]") };
+  });
+  expect(after.hand, "the hand survives — nothing was played for the player").toBe(handBefore);
+  expect(after.revealed, "and the answer is on the table").toBe(true);
 });
 
 /**
- * ...AND IT HANDS BACK. The bound is what makes this safe to ship rather than a death spiral, so
- * it is asserted rather than argued: after the opponent's one exchange the player is dealt a hand
- * again (or is in a defence, which is also theirs to answer). Nothing here can leave a player with
- * no move to make.
+ * ...AND THE PENALTY IS THE QUESTION'S, NOT THE TURN'S. After an expiry the player still commits
+ * whatever they like; the roll goes on exactly as if they had answered wrong.
  */
-test("hesitating costs one exchange, not the game", async ({ page }) => {
+test("a timed-out question costs the answer, not the exchange", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
   for (let i = 0; i < 240; i++) {
     await j.advance(100);
     const b = (await j.beats()).map((x) => x.beat);
-    if (b.indexOf("hesitated") >= 0) break;
+    if (b.indexOf("land_q_expired") >= 0) break;
   }
-  expect((await j.beats()).map((b) => b.beat), "we really hesitated").toContain("hesitated");
-
-  // let the opponent's exchange play out
-  let back = false;
-  for (let i = 0; i < 200; i++) {
-    await j.advance(100);
-    back = await page.evaluate(() => {
-      const a: any = (window as any).__neural;
-      // a hand to play, a defence to answer, or the round is over — any of the three is "the game
-      // gave me something to do". A frozen board with none of them is the spiral this rules out.
-      return (a.optionIdxs || []).length > 0 || !!a._defense || !!a._roundOver;
-    });
-    if (back) break;
-  }
-  expect(back, "the board came back to the player within one exchange").toBe(true);
+  expect((await j.beats()).map((b) => b.beat), "the question really expired").toContain("land_q_expired");
+  const penalty = await page.evaluate(() => ({ qMod: (window as any).__neural._qMod }));
+  expect(penalty.qMod, "priced exactly like a wrong answer").toBeLessThan(0);
+  // the player commits AFTER the expiry — their turn was never taken
+  await page.evaluate(() => { const a: any = (window as any).__neural; a._optPick(a._optList[0]); });
+  await j.advance(1500);
+  expect((await j.beats()).map((b) => b.beat), "the commit is theirs").toContain("commit");
 });

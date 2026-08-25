@@ -107,7 +107,8 @@ test("arrows page the deck; only the first answer pays; commit fires no ignore @
   await answerCorrect(page)
   let bs = await j.beats()
   expect(count(bs, "land_q_answered") - count(preA, "land_q_answered"), "scored once").toBe(1)
-  expect(count(bs, "timer_refund") - count(preA, "timer_refund"), "one clock refund").toBe(1)
+  // v1.133.0: the refund is retired — answering disarms the question window instead
+  expect(count(bs, "timer_refund") - count(preA, "timer_refund"), "no refund beat exists").toBe(0)
   const comboAfterFirst = (await state(page)).combo
   expect(comboAfterFirst, "the combo ticked").toBeGreaterThanOrEqual(1)
   expect((await state(page)).pending, "the landing is engaged").toBe(false)
@@ -119,7 +120,7 @@ test("arrows page the deck; only the first answer pays; commit fires no ignore @
   expect(count(bs, "mc_correct"), "the grade itself ran").toBeGreaterThanOrEqual(2)
   expect(count(bs, "land_q_answered"), "still one scored landing answer").toBe(1)
   expect(count(bs, "land_q_extra"), "the later answer is named study").toBe(1)
-  expect(count(bs, "timer_refund"), "no second refund").toBe(1)
+  expect(count(bs, "timer_refund"), "the refund beat is retired").toBe(0)
   expect((await state(page)).combo, "no combo farm").toBe(comboAfterFirst)
 
   // an answered card re-parents as its graded, disabled record
@@ -415,6 +416,53 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.q, "the card asks something").toBe(true)
   expect(s.mcOpts, "…as MULTIPLE CHOICE — recognition comes first").toBeGreaterThanOrEqual(3)
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
+})
+
+// ── 5c. recall comes with rank (v1.133.0) ────────────────────────────────────────────────────
+test("from blue belt up, a proven card asks as recall in play — below, MC holds", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  // prove the current card to stage 2 (the MC cap), then re-mount: still a WHITE-belt profile,
+  // so recognition-first MC must hold even on a proven card
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    const q = a._landQ
+    a._bumpStage(q.key, q.card.q, 2, 2)
+    // questionFor re-asks a proven card only when DUE — pin the due seam to this card
+    const provenQ = q.card.q
+    a._cardDue = (k: string, qq: string) => qq === provenQ
+    a._landQ = null
+    a.renderLandCard(a.nodes[a.currentPos], "land", null)
+  })
+  await j.landQuestion()
+  const white = await page.evaluate(() => ({
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(white.mc, "below blue, a proven card still asks MC").toBe(true)
+  expect(white.recall).toBe(false)
+
+  // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
+  // ("for blue belts at least … flashcard Q/A, not MC" — owner). gameScore is the rank seam.
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    a.gameScore = () => ({ score: 0.45, belt: "blue", next: null, stripes: 0 })
+    a._landQ = null
+    a.renderLandCard(a.nodes[a.currentPos], "land", null)
+  })
+  await j.landQuestion()
+  const blue = await page.evaluate(() => ({
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+    armed: (window as W).__neural._decision?.remaining != null,
+  }))
+  expect(blue.recall, "blue belt: the proven card asks as recall").toBe(true)
+  expect(blue.mc).toBe(false)
+  expect(blue.armed, "…and the recall question is on the clock").toBe(true)
 })
 
 // ── 6. play on the defending side = the red rush ─────────────────────────────────────────────

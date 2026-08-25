@@ -93,7 +93,10 @@ const NG_CHALLENGE_UI_METHODS = {
         (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) +
         ';" aria-hidden="true"><span>' +
         tape +
-        "</span></i>";
+        "</span></i>" +
+        // the belt alone read as an unlabeled rectangle at 0 stripes (the review's "tofu") —
+        // the count the aria-label already carried now shows to sighted eyes too (v1.133.0)
+        '<em style="font-style:normal;font-size:9.5px;font-weight:700;color:#8b93a8;margin-left:6px;">' + done + "/" + total + "</em>";
       const btn = ch.closest("button");
       if (btn)
         btn.setAttribute(

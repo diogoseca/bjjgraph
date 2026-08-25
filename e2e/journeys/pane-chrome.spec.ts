@@ -143,7 +143,7 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   const stats = page.locator("[data-explore-stats]")
   await expect(stats).toBeVisible()
   await expect(stats.locator(".ngStat")).toHaveCount(3)
-  await expect(stats).toContainText("weak spots")
+  await expect(stats).toContainText("weak spot")
   // DISTRIBUTED, NOT CLUMPED (owner: it "still looks left aligned instead of neatly designed and
   // distributed") — three equal columns, the outer two hugging the edges.
   const s = await page.evaluate(() => {

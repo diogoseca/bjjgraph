@@ -47,15 +47,6 @@ const NG_EDGE_SAT = 15;
 // The number 10 did NOT die — it moved off the DISPLAY and onto the two things that genuinely
 // do not scale, each with its own measured reason:
 //
-// NG_DECISION_KNEE — where the decision clock stops paying per-card. The old clock was
-//   `decisionSec + 0.8*(n-1)`, linear, which turns a 34-card hand into a 35.4-SECOND turn. Ten is
-//   the knee because it is exactly the old hand size, so EVERY hand that exists today keeps its
-//   current clock to the millisecond and only the newly-enlarged hands take the sublinear tail.
-const NG_DECISION_KNEE = 10;
-// NG_DECISION_K — seconds per DOUBLING beyond the knee (Hick's law: choice time grows with
-//   log2 of the alternatives, not with their count). 2.2 is set so the curve is continuous at the
-//   knee and the worst hand in the corpus lands at 20.1s instead of 35.4s.
-const NG_DECISION_K = 2.2;
 // NG_PREFETCH_CAP — how many of the dealt cards' decks `enterLand` warms. THIS is the one that
 //   had to stay, and the measurement is not close: the prefetch is on the first-hand payload bill
 //   (payload-first-hand's own report shows five flashcards/*.json rows), the gzip headroom is
@@ -271,9 +262,6 @@ class Component extends DCLogic {
   }
   // ignorePause: the handful of steps that must still run while the clock is stopped — landing a
   // STAGED roll (roam), where the whole point is to arrive somewhere with time held.
-  // how long "You hesitated — they move first" stays on screen before the opponent acts. Long
-  // enough to read a six-word sentence, short enough that it never feels like a cutscene.
-  HESITATE_HOLD = 1.1;
   // ── THE HAND SCROLLS SMOOTHLY (v1.129.3) ───────────────────────────────────────────────────
   // Owner: "i was hoping that the drag and drop and horizontal scrolling of options would be
   // smooth not stutering sliding steps", and separately "horizontal scrolling doesnt seem to be
@@ -2906,7 +2894,7 @@ class Component extends DCLogic {
       // due count (deduped by FACT, not deck), amber while anything is owed. "N today" moves to
       // the title/aria; one press opens the due SESSION, not the browse modal.
       '<span class="ngStat" data-b="due" title="' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' cards due \u00b7 ' + (this.cardsToday || 0) + ' answered today" style="grid-column:2;justify-self:center;cursor:pointer;color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
-      '<span class="ngStat" data-b="suggested" data-weak="' + weak.n + '" style="grid-column:3;justify-self:end;text-align:right;cursor:pointer;color:#d6a45a;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + weak.n + '</b> ' + weak.word + ' spots</span>';
+      '<span class="ngStat" data-b="suggested" data-weak="' + weak.n + '" title="\u2018very weak\u2019 = explored but never drilled \u00b7 \u2018weak\u2019 = never drilled \u00b7 \u2018shaky\u2019 = fewer than 3 reps. Tap to drill them." style="grid-column:3;justify-self:end;text-align:right;cursor:pointer;color:#d6a45a;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + weak.n + '</b> ' + weak.word + (weak.n === 1 ? ' spot' : ' spots') + '</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "suggested";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
@@ -3520,9 +3508,12 @@ class Component extends DCLogic {
       '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.nodeGlyph(n.ty, col, 11) +
         '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
         (edge
-          ? '<span class="ngedgebig" style="flex:none;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
+          ? '<span class="ngedgebig" aria-label="EDGE ' + edge.txt + ': how far this move tilts the roll toward winning" style="flex:none;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
           : '') +
       '</div>' +
+      // the number the whole hand ranks by, finally captioned where the player already stops
+      // (v1.133.0, owner) — the by-the-book-opponent caveat is canon for any EDGE copy
+      (edge ? '<div style="font-size:10.5px;line-height:1.5;color:#8496b8;margin:-3px 0 9px;">How far this tilts the roll toward winning and away from losing \u2014 counting where a miss leaves you. A safer move can outrank a higher-percentage one. By-the-book opponent assumed.</div>' : '') +
       (tp
         ? '<div style="display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;font-family:\'Space Grotesk\',sans-serif;line-height:1.08;">' +
             '<span style="font-size:18px;font-weight:600;color:#8b97b0;">' + tp.from + '</span>' +
@@ -3580,7 +3571,6 @@ class Component extends DCLogic {
             ev.stopPropagation();
             this.prep[jitKey] = (this.prep[jitKey] || 0) + 1;
             this.noteCardDone(card, jitKey);          // credit + bonus_pumped beat + persistence
-            this.refundDecision(2500);                 // knowledge is tempo
             this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
             this._jitIdx[jitKey] = idx + 1;
             renderJit();
@@ -4217,9 +4207,11 @@ class Component extends DCLogic {
       const diff = this.get("difficulty", "normal");
       seg.appendChild(this.segBtn("Off", diff === "off", false, () => { this.set("difficulty", "off"); this.renderSettings(); }));
       seg.appendChild(this.segBtn("Normal", diff === "normal", false, () => { this.set("difficulty", "normal"); this.renderSettings(); }));
-      seg.appendChild(this.segBtn("Hard", false, true));
-      seg.appendChild(this.segBtn("Ultra", false, true));
       body.appendChild(seg);
+      const dnote = document.createElement("div");
+      dnote.style.cssText = "font-size:11px;color:#69748f;line-height:1.5;margin:-14px 0 22px;";
+      dnote.textContent = "Harder opponents arrive with the ladder \u2014 Normal is the calibrated one.";
+      body.appendChild(dnote);
       // uniform — the GI/NO-GI choice lives HERE and only here (v1.95.3, owner: the pane
       // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
       // still re-filters techniques, lessons, checkpoints and odds everywhere.
@@ -4285,8 +4277,8 @@ class Component extends DCLogic {
       dt.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
       const dsecBase = this.get("decisionSec", 9);
       dt.innerHTML =
-        '<div style="display:flex;align-items:baseline;justify-content:space-between;"><div style="font-size:14px;font-weight:600;color:#eef1f6;">Decision time</div><div style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;"><span class="paceVal">' + dsecBase + '</span>s</div></div>' +
-        '<div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">How long you get to read options and drill the current state\u2019s flashcards before the roll moves on. The card box grays out as time runs down.</div>';
+        '<div style="display:flex;align-items:baseline;justify-content:space-between;"><div style="font-size:14px;font-weight:600;color:#eef1f6;">Answer time</div><div style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;"><span class="paceVal">' + dsecBase + '</span>s</div></div>' +
+        '<div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">How long a landing\u2019s question stays open before its answer reveals itself \u2014 as a missed review. Your move is never on the clock.</div>';
       const slider = document.createElement("input");
       slider.type = "range"; slider.min = "5"; slider.max = "15"; slider.step = "1"; slider.value = String(dsecBase);
       slider.style.cssText = "width:100%;margin-top:13px;accent-color:#5b8cff;cursor:pointer;";
@@ -4307,26 +4299,6 @@ class Component extends DCLogic {
       lqb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (lqOn ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (lqOn ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       lqb.addEventListener("click", () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); });
       lq.appendChild(lqb); body.appendChild(lq);
-      // pinned challenge cue
-      const tu = document.createElement("div");
-      tu.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;";
-      const frontierBelt = this._frontierBeltId(); // pinning retired (v1.99.2): the cue tracks the corridor's frontier belt
-      const frontierSummary = this.challengeTrackProgress(frontierBelt);
-      const cueVisible = this.get("challengeCueVisible", true) && !this.tutHidden;
-      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Challenge cue</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + frontierBelt.charAt(0).toUpperCase() + frontierBelt.slice(1) + ' content track · ' + frontierSummary.done + ' of ' + frontierSummary.total + ' complete</div></div>';
-      const tb = document.createElement("button");
-      tb.setAttribute("data-challenge-cue-toggle", "1");
-      tb.textContent = cueVisible ? "Hide" : "Show";
-      tb.style.cssText = "flex:none;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;padding:9px 14px;border-radius:9px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#dbe2f0;";
-      tb.addEventListener("click", () => {
-        const next = !cueVisible;
-        this.tutHidden = !next;
-        this.set("challengeCueVisible", next);
-        this.track(next ? "neural_challenge_cue_restored" : "neural_challenge_cue_hidden", { track_id: frontierBelt });
-        this.renderChallengeCue();
-        this.renderSettings();
-      });
-      tu.appendChild(tb); body.appendChild(tu);
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
@@ -9320,6 +9292,17 @@ class Component extends DCLogic {
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
+  // ── RECALL COMES WITH RANK (v1.133.0, owner) ── "for blue belts at least the technique
+  // should have a limited time to answer in flashcard Q/A, not MC." From BLUE up, a stage-2+
+  // card asks as timed recall in play; below blue (or below stage 2) recognition-first MC holds.
+  // The black-belt badge still force-enables the toggle (a floor-lowerer, no longer the only gate).
+  _recallInPlayNow() {
+    if (this.get("recallInPlay", false)) return true;
+    try {
+      const b = this.gameScore().belt;
+      return !!b && this.BELT_SCORE.findIndex((x) => x[0] === b) >= 1;
+    } catch (e) { return false; }
+  }
   familiarityChip(key, attr, opts) {
     const o = opts || {};
     const glyph = this.seenGlyph(key);
@@ -9328,7 +9311,7 @@ class Component extends DCLogic {
     const done = Math.min((this.prep && this.prep[key]) || 0, total);
     const full = total > 0 && done >= total;
     const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
-    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;' + (total && o.clickable ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
+    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;' + (total && o.clickable ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
       '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
       (total ? '<span>' + done + "/" + total + '</span>' : '') +
     '</span>';
@@ -9374,6 +9357,7 @@ class Component extends DCLogic {
   }
   clearLandCard() {
     this._landQ = null; this._landIdx = null; this._landMode = null;    this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
+    this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
     // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
     // against, so a stale land block's answer key would let `A`-`D` grade a question that is no
     // longer on screen. It also made "wait for the next landing question" unreliable — the old
@@ -9466,7 +9450,7 @@ class Component extends DCLogic {
   // void the skip debt and emit land_q_shown/land_q_unseen; paged mounts do none of that.
   _mountLandQ(card, key, mode, hooks, o) {
     o = o || {};
-    const landRecall = !!(this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
+    const landRecall = !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     const qh = this.qhash(card.q);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
@@ -9520,6 +9504,10 @@ class Component extends DCLogic {
       this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
       this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: o.cards, backfill: !!this._landLate });
       if (unseen) this.fx("land_q_unseen", { deckKey: key, node: o.node || null, cards: o.cards, mode: mode || "land", landing: (this.rollLog || []).length });
+      // the question is on the table — the clock starts NOW (v1.133.0), never at deal; a paused
+      // (staged) board holds it at full, since the tick runs on the game clock
+      if (this._decision && this._decision.remaining == null)
+        this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null);
     }
     return qw;
   }
@@ -9563,7 +9551,7 @@ class Component extends DCLogic {
       mount(cached.el);
       return true;
     }
-    const recallable = !!(this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
+    const recallable = !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     if (!recallable && !this.mcPoolWarm(key, card)) {
       // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
       // still means settled), and only mount if the player has not paged again meanwhile
@@ -9646,7 +9634,7 @@ class Component extends DCLogic {
     // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
     // player gets the multiple choice right, the second time we show the card... Q and A, and we
     // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
-    const landRecall = !!(card && this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
+    const landRecall = !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     let warm = null, warmKind = null;
     if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
@@ -9674,6 +9662,15 @@ class Component extends DCLogic {
     (this.__ngRoot || document.body).appendChild(el);
     this._landEl = el;
     this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
+    // ── THE QUESTION CLOCK'S BAR (v1.133.0) ── on the CARD's top edge, not inside [data-land-q]
+    // (paging replaces that block; the window is per-landing). scaleX(0) until _armLandClock
+    // binds it; a backfill rebuild rebinds a still-armed window to the fresh element.
+    const clkTrack = document.createElement("div");
+    clkTrack.setAttribute("data-land-clock-track", "1");
+    clkTrack.style.cssText = "position:absolute;left:0;top:0;height:3px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:transparent;";
+    clkTrack.innerHTML = '<div data-land-clock="1" style="height:100%;width:100%;background:#9fb0d0;transform-origin:left;transform:scaleX(0);"></div>';
+    el.appendChild(clkTrack);
+    if (this._decision && this._decision.remaining != null) { this._landClockEl = clkTrack.firstChild; this._barF = null; }
 
     // 1 — THE LANDING CARD HAS NO HEADER AT ALL (v1.101.1).
     // v1.101.0 cut the name and the side out of it, because the roll now settles at ROLL_ZOOM
@@ -10214,6 +10211,7 @@ class Component extends DCLogic {
     if (this._hintDockAt !== want) { this._hintDockAt = want; el.style.bottom = want; }
   }
   _landAnswered(correct, tier, mode, hooks, format) {
+    this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
     if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
     if (correct) {
@@ -10223,10 +10221,10 @@ class Component extends DCLogic {
       // (gradeRecall → noteCardDone) still flows — recall is worth MORE proof, just not more
       // clock.
       const selfGraded = format === "recall";
-      const granted = selfGraded ? false : this.refundDecision(2500);
       if (!selfGraded) this._comboUp();
-      // ×2+ gets the announcer pop — a toast underneath it would just mumble
-      if ((this._combo || 0) < 2) this.setEvent("Correct", granted ? "Odds up · +2.5s on the clock" : "Odds up on this exchange", "good");
+      // ×2+ gets the announcer pop — a toast underneath it would just mumble. The +2.5s refund
+      // died with the hand clock (v1.133.0): answering IS what the window was for.
+      if ((this._combo || 0) < 2) this.setEvent("Correct", "Odds up on this exchange", "good");
     } else {
       const cost = tier === "trap" ? 0.08 : 0.04;
       this._qMod = (this._qMod || 0) - cost;
@@ -10365,8 +10363,14 @@ class Component extends DCLogic {
     v.className = "ng-vignette";
     (this.__ngRoot || document.body).appendChild(v);
     this._vignetteEl = v;
+    // danger owns the frame (v1.133.0): the brand yields while the vignette burns
+    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
+    if (logo) { logo.style.opacity = "0"; logo.style.pointerEvents = "none"; }
   }
   killVignette(relief) {
+    this._dangerSet = null; // the fog lifts with the danger (set in enterDefense)
+    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
+    if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     const v = this._vignetteEl; if (!v) return; this._vignetteEl = null;
     v.style.transition = relief ? "opacity .18s ease" : "opacity .5s ease";
     v.style.opacity = "0";
@@ -10406,13 +10410,19 @@ class Component extends DCLogic {
     const render = () => {
       const idx = (this._jitIdx[pk] || 0) % pc.length;
       const fc = pc[idx];
+      this._panicFc = { fc: fc, pk: pk }; // the expiry path grades THIS card as the miss
+      // ONE ANATOMY, DANGER SKIN (v1.133.0, owner: "should look like a ng-landcard, rn it looks
+      // ugly"): the drill is the landing question's recall idiom — same type ramp, same block
+      // shapes, same button geometry — under the defense palette, with the question clock's bar
+      // riding the card's top edge exactly like a landing.
       card.innerHTML =
-        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff9c9c;margin-bottom:6px;">Panic drill &mdash; defend it</div>' +
-        '<div style="font-size:13.5px;line-height:1.45;color:#f6e6e6;">' + fc.q + '</div>' +
-        '<div class="pAns" style="display:none;margin-top:8px;font-size:12.5px;line-height:1.5;color:#e8b8b8;border-top:1px solid rgba(255,110,110,.22);padding-top:8px;">' + fc.a + '</div>' +
-        '<div style="display:flex;gap:8px;margin-top:10px;">' +
-          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Reveal</button>' +
-          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it &rarr; +escape%</button>' +
+        '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:3px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
+        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
+        '<div style="padding-right:8px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>' +
+        '<div class="pAns" style="display:none;font-size:12.5px;line-height:1.5;color:#c8d2e4;padding:8px 11px;border-radius:9px;border:1px solid rgba(255,110,110,.28);background:rgba(255,110,110,.07);margin-bottom:8px;">' + fc.a + '</div>' +
+        '<div style="display:flex;gap:8px;">' +
+          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Show answer</button>' +
+          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it \u2192 +escape%</button>' +
         '</div>';
       const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
       rv.addEventListener("click", (ev) => { ev.stopPropagation(); card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
@@ -10420,7 +10430,7 @@ class Component extends DCLogic {
         ev.stopPropagation();
         this.prep[pk] = (this.prep[pk] || 0) + 1;
         this.noteCardDone(fc, pk);
-        this.refundDecision(2000);      // composure buys time
+        this._disarmLandClock();        // drilled in time — the window is spent well
         this.refreshEscapeOdds();       // the payoff: every escape's % climbs before your eyes
         this.fx("escape_odds_pumped", { deck_key: pk });
         this._jitIdx[pk] = idx + 1;
@@ -11400,31 +11410,22 @@ class Component extends DCLogic {
       );
     }, 0);
     this.startLandRipple(this.currentPos, this.optionIdxs);
-    // ── THE CLOCK STOPS SCALING WITH THE HAND (v1.123.0) ──────────────────────────────────────
-    // It was `base + 0.8*(n-1)`: fine while n was capped at 10, absurd the moment it is not —
-    // measured, standing-position/top deals 34 cards, which bought a 35.4-SECOND turn. Time to
-    // choose does not grow linearly with the alternatives; Hick's law says it grows with their
-    // LOG, and this tray is ranked best-first, so the cards past the fold are scanned rather than
-    // weighed. Below the knee nothing changes at all — every hand in the corpus today keeps its
-    // exact clock — and beyond it each DOUBLING of the hand buys NG_DECISION_K seconds. The two
-    // branches meet exactly at the knee, so there is no step. Worst case: 35.4s -> 20.1s.
-    const base = this.get("decisionSec", 9);
-    const n = opts.length;
-    const dsec = n <= NG_DECISION_KNEE
-      ? base + (n - 1) * 0.8
-      : base + (NG_DECISION_KNEE - 1) * 0.8 + NG_DECISION_K * Math.log2(n / NG_DECISION_KNEE);
-    this._decisionDsec = dsec;
-    this._armDeckExpire();
+    // ── THE CLOCK MOVED TO THE QUESTION (v1.133.0, owner) ─────────────────────────────────────
+    // "Pressure should not be on the choices … the choices are fun to click." The HAND is never
+    // timed: the window arms when a QUESTION mounts (_armLandClock — from _mountLandQ and the
+    // panic drill) and expiry reveals the answer as a miss (_expireLandQ) while the hand stays
+    // live, untimed. A landing that asks nothing has no clock at all. The v1.123.0 Hick's-law
+    // knee died with the hand clock — the window is one flat `decisionSec` per question.
+    this._decisionDsec = this.get("decisionSec", 9);
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
     const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.enterAttempt(opt); };
-    for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, dsec, i + 1));
+    for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, this._decisionDsec, i + 1));
     if (el) el.style.pointerEvents = "auto";
     this._optPick = pick; this._optList = opts;
-    // the decision CLOCK (gdt-driven in _tick, so sheets/pauses freeze it): narrated 3-2-1
-    // expiry + a visible auto-pick pop — never a silent teleport. Drilling refunds time (cap 2).
-    this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
-    this._barF = null;   // a new hand's bars start full, and the first tick must actually write
+    // the landing's decision CONTEXT — pick/opts for the hand, plus the QUESTION window's timer
+    // fields, disarmed until a question mounts (_armLandClock). gdt-driven, so pauses freeze it.
+    this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: opts };
     this.setBeacon("options", el); // beat beacon: your move — read the hand
     // a staged EXCHANGE reads as itself: the card is the technique's, in the position card's
     // exact anatomy (v1.132.0 — "using the positions … as good guides", owner)
@@ -11437,28 +11438,84 @@ class Component extends DCLogic {
   }
 
   decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
-  // drilling buys time — a real tempo decision. +2.5s per graded card, hard cap 2 per window.
-  refundDecision(ms) {
-    const d = this._decision; if (!d) return false;
-    const granted = d.refunds < 2;
-    if (granted) { d.refunds++; d.remaining += ms; }
-    this.fx("timer_refund", { granted: granted });
-    return granted;
+  // ── THE QUESTION CLOCK (v1.133.0) ── armed when a question mounts, never at deal. Expiry
+  // reveals the answer as a MISS — the correct option lights up, the card schedules a failed
+  // review, momentum breaks, this exchange's odds take the wrong-answer hit — and the HAND STAYS
+  // LIVE: the player still picks their move, untimed. "When the clock runs out, the algorithm
+  // doesn't choose for you. You still choose." (owner). The old hesitation branch (v1.129.0,
+  // "you hesitated — they move first") is retired with the hand clock; its story is in the
+  // archive under v1.129.0 and v1.133.0.
+  _armLandClock(clockEl) {
+    const d = this._decision;
+    if (!d) return;
+    const sec = this._decisionDsec || this.get("decisionSec", 9);
+    d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
+    this._landClockEl = clockEl || null;
+    this._barF = null; // the >0.002 dedupe latch must not skip the first write
+    this._armDeckExpire();
+  }
+  _disarmLandClock() {
+    const d = this._decision;
+    if (d) { d.remaining = null; d.total = null; }
+    if (this._landClockEl) { this._landClockEl.style.transform = "scaleX(0)"; this._landClockEl = null; }
+  }
+  _expireLandQ() {
+    this._disarmLandClock();
+    // PANIC DRILL: reveal, no pump — composure came too late. The escapes below stay live.
+    if (this._defendSub != null && this._landEl && this._landEl.hasAttribute("data-panic")) {
+      const card = this._landEl;
+      const ans = card.querySelector(".pAns"); if (ans) ans.style.display = "block";
+      const rv = card.querySelector("[data-panic-reveal]"); if (rv) rv.style.display = "none";
+      const gt = card.querySelector("[data-panic-got]"); if (gt) gt.style.display = "none";
+      const pf = this._panicFc;
+      if (pf && pf.fc) this._schedule(pf.pk, pf.fc.q, false); // revealed unanswered = a failed review
+      this.fx("land_q_expired", { surface: "panic", deckKey: (pf && pf.pk) || null });
+      const broke = this._breakCombo("slow");
+      this._dockLandCard(card);
+      this.setEvent("Too slow", "The answer's on the table \u2014 no pump" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
+      return;
+    }
+    // LANDING QUESTION: reveal the mounted block as a miss — the card was shown, so it is spent
+    const q = this._landQ;
+    if (!q || q.answered) return;
+    q.answered = true; // spent — never re-asked
+    const qw = this._landEl ? this._landEl.querySelector("[data-land-q]") : null;
+    if (qw) {
+      const wrap = qw.querySelector("[role='radiogroup']");
+      if (wrap && this._mc && this._mc.surface === "land") {
+        const btns = wrap.querySelectorAll("[data-land-mc-opt]");
+        btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
+        const cb = btns[this._mc.correct];
+        if (cb) { cb.setAttribute("data-mc-result", "correct"); cb.style.borderColor = "rgba(126,224,168,.6)"; cb.style.background = "rgba(126,224,168,.12)"; }
+        const live = wrap.querySelector("[aria-live]"); if (live) live.textContent = "Time \u2014 the correct answer is highlighted.";
+        this._mc = null; // the keyboard must not answer a revealed block
+      } else {
+        const ans = qw.querySelector("[data-land-answer]"); if (ans) ans.style.display = "block";
+        const rv = qw.querySelector("[data-land-reveal]"); if (rv) rv.style.display = "none";
+      }
+    }
+    if (q.key && q.card) this._schedule(q.key, q.card.q, false); // revealed unanswered = a failed review
+    this._qMod = (this._qMod || 0) - 0.04;
+    this.fx("land_q_expired", { deckKey: q.key || null }); // beat BEFORE the break — it clears _landPending
+    const broke = this._breakCombo("slow");
+    this._landPending = false;
+    this.refreshOptionOdds();
+    this.setEvent("Too slow", "Answer revealed \u00b7 \u22124% on this exchange" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
   }
   _tickDecision(gdt) {
     const d = this._decision;
-    if (!d || !this._optPick || this._checkpoint) return; // Q002: the checkpoint quiz is untimed — nobody reads new UI under a timer they don't understand yet; without this guard the roll auto-played UNDER the open quiz and clobbered it
+    if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
     d.remaining -= gdt * 1000;
-    if (d.total) {
+    // the clock lives ON the thing it times: the question block's own bar (landing or panic)
+    if (this._landClockEl && d.total) {
       const f = Math.max(0, Math.min(1, d.remaining / d.total));
       if (Math.abs(f - (this._barF == null ? -1 : this._barF)) > 0.002) {
         this._barF = f;
-        for (const oc of (this._optionCards || [])) {
-          if (oc.bar) oc.bar.style.transform = "scaleX(" + f.toFixed(4) + ")";
-        }
+        this._landClockEl.style.transform = "scaleX(" + f.toFixed(4) + ")";
+        if (d.remaining <= 3000) this._landClockEl.style.background = "#ff8585";
       }
     }
-    if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the window drains
+    if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the DRILL window drains
       const f = Math.max(0, Math.min(1, d.remaining / d.total));
       this._vignetteEl.style.animationDuration = (0.6 + 0.4 * f).toFixed(2) + "s";
     }
@@ -11466,60 +11523,22 @@ class Component extends DCLogic {
     if (d.remaining > 0 && secLeft <= 3 && d.warned !== secLeft) {
       d.warned = secLeft;
       this.fx("expiry_warning", { seconds: secLeft });
-      this.setEvent("Decide", secLeft + "\u2026", "bad");
+      this.setEvent("Answer", secLeft + "\u2026", "bad");
       this._evCountdown = d;   // this sentence belongs to THIS window and dies with it
     }
-    if (d.remaining <= 0) {
-      // ── FREEZING HANDS OVER THE INITIATIVE (v1.129.0) ──────────────────────────────────────
-      // What the clock running out USED to do was play your hand for you: a weighted draw over
-      // your own options with `w = max(0.12, 0.5 + dom)`, i.e. biased toward your DOMINANT moves.
-      // So hesitating was rewarded with a decent move, and the one sentence that explained it
-      // ("Time's up") was overwritten synchronously by `pick(chosen)` -> `enterAttempt`'s "You go
-      // for" before a single frame rendered — measured on every build back through v1.127.2. The
-      // player saw their own hand play itself, well, for no stated reason.
-      //
-      // In BJJ, freezing in a live exchange means THEY move first. That is the whole mechanic, and
-      // it is the one this engine already models: the asymmetric-initiative rule (see the EDGE
-      // solver) says a success returns the turn to you while a miss hands it over, so hesitation
-      // costing you the turn is the same currency the rest of the game is priced in.
-      //
-      // IT CANNOT SPIRAL, BY CONSTRUCTION, and that is why it is safe to ship: `opponentDefend`
-      // always ends in `enterLand(false)` (or `enterDefense`, or `endRound`), so the opponent
-      // NEVER keeps initiative. You freeze, they take one exchange, the board comes back to you.
-      // A player who never presses anything is not locked out — they are just losing, correctly.
-      if (d.onExpire) { this._decision = null; d.onExpire(); return; } // defense window: expiry = tapped
-      this._decision = null;
-      // WALKING PAST A QUESTION STILL BREAKS MOMENTUM. `enterAttempt` did this on the old
-      // auto-pick path (canon: "auto-pick counts as ignoring"); the turn no longer goes through
-      // it, so the break happens here — beat first, because `_breakCombo` clears `_landPending`.
-      if (this._landPending) {
-        this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null });
-        this._breakCombo("ignored");
-      }
-      this.fx("hesitated", { options: (d.opts || []).length });
-      // ORDER IS LOAD-BEARING: `clearOptions` drops the hand AND, through the v1.128.1 ownership
-      // stamp, the orphaned "Decide 1…" — so it must run BEFORE the sentence that replaces it,
-      // or it would take that sentence with it.
-      this.clearOptions();
-      this.setEvent("Time's up", "You hesitated \u2014 they move first", "bad");
-      // ...AND THE SENTENCE GETS TO BE READ. `opponentDefend` writes "Opponent goes for X" into
-      // the same single announcer slot, so handing over immediately would reproduce the exact
-      // defect this replaces. The hold is what turns two labels into one cause and its effect.
-      this.after(this.HESITATE_HOLD, () => this.opponentDefend());
-    }
+    if (d.remaining <= 0) this._expireLandQ();
   }
-
   enterAttempt(opt) {
     // THE OPTION HAND IS NEVER UNDER AN OPEN MENU (v1.99.5). Capture never stops the clock, so
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
     if (this._pickEl) this.closeListPicker();
     this._flushLandSkipDebt(); // committing ends the landing — an unasked question is a real skip now
-    // committing past an unanswered question is IGNORING it — momentum demands engagement
-    // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
-    // the beat is emitted BEFORE the break because _breakCombo clears _landPending — and it fires
-    // even at combo 0 (where _breakCombo is a silent no-op), so an ignored question is never invisible
-    if (this._landPending) { this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null }); this._breakCombo("ignored"); }
+    // committing past an open question is a FREE SKIP (v1.133.0, owner: "the clock only
+    // punishes sitting there") — the beat still marks it for the cold-start funnel, but
+    // momentum is untouched and the window simply disarms with the hand.
+    if (this._landPending) { this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null }); this._landPending = false; }
+    this._disarmLandClock();
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
@@ -11949,8 +11968,11 @@ class Component extends DCLogic {
     // fallback: stay-and-survive returns to current position
     if (!escapes.length) escapes.push({ idx: this.currentPos, node: this.nodes[this.currentPos], res: this.currentPos });
     this.optionIdxs = escapes.map((e) => e.idx);
-    const dsec = Math.max(4, Math.min(9, 4 + escapes.length));
-    this.setEvent("Defend! \u00b7 escape the " + this.splitName(sub.t).main, "Pick an escape \u2014 or drill defense", "bad");
+    const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
+    this.setEvent("Caught", this.splitName(sub.t).main + " locked in \u2014 drill to loosen it", "bad");
+    // the danger owns the camera and the field: frame the exchange, fog everything else
+    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
+    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
     const dk = this.defendKeyFor(sub);
@@ -11960,7 +11982,7 @@ class Component extends DCLogic {
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard(); this._defendSub = null; this._panicKey = null; this.killVignette(false);
+    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard(); this._defendSub = null; this._panicKey = null; this._panicFc = null; this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
@@ -11993,9 +12015,13 @@ class Component extends DCLogic {
     if (el) el.style.pointerEvents = "auto";
     this._optPick = pick; this._optList = escapes;
     this.buildPanicCard(el, sub);
-    // the defense window runs on the decision clock (gdt-driven, drill-refundable); expiry = tapped
-    this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: escapes, onExpire: finish };
-    this._barF = null;   // same as the landing hand: a fresh tray's bars start full
+    // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
+    // untimed — expiry no longer taps you out, it reveals the drill's answer as a miss and the
+    // player still chooses. `finish` survives as the failed-escape / tap-out path only.
+    this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: escapes };
+    // the DRILL's window arms on the fresh decision — the panic card (already _landEl) carries the bar
+    if (this._landEl && this._landEl.hasAttribute("data-panic"))
+      this._armLandClock(this._landEl.querySelector("[data-land-clock]"));
   }
   oppVal(node) {
     const s = node.s;
@@ -12902,7 +12928,9 @@ class Component extends DCLogic {
     // (owner call: the original glyph NEVER hides — the dossier card renders on top of it)
     // one fog rule, two owners: an explicit focus set (a System's members, later a List's) outranks
     // the path view's curriculum territory while it is up.
-    const fogSet = (this._focusIdxSet && this._focusIdxSet.size) ? this._focusIdxSet : (this._pathDim ? this._curriculumIdxSet : null);
+    // danger fogs the field (v1.133.0): while caught, only the threat, the seat and the escapes
+    // stay lit — the quiet map is what makes the red read as danger
+    const fogSet = this._dangerSet || ((this._focusIdxSet && this._focusIdxSet.size) ? this._focusIdxSet : (this._pathDim ? this._curriculumIdxSet : null));
     // MITOSIS (v1.113.1). Zoomed out a pair IS its site: the representative wears the historical
     // hub radius and its twin has faded to nothing, on the exact ground point the single node
     // always occupied — so the overview is the map people already know. Zooming in, the

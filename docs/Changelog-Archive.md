@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.133.0** — [THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES](#v1-133-0-the-clock-moves-to-the-question-and-the)
 - **v1.132.2** — [RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW](#v1-132-2-recognition-comes-first-every-deck-build)
 - **v1.132.1** — [THE TECHNIQUE CARD WAS CHROME-ONLY, AND ALL THREE CAUSES WERE MEASURED](#v1-132-1-the-technique-card-was-chrome-only-and-a)
 - **v1.132.0** — [CLICKING A TECHNIQUE LANDS ON IT, AND THE RUNG IS RETIRED](#v1-132-0-clicking-a-technique-lands-on-it-and-the)
@@ -3543,6 +3544,61 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.133.0 — THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES
+
+### THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES (v1.133.0)
+
+Owner, inverting the pressure model: *"Pressure should not be on the choices. It should rather be
+that the choices are fun to click. … when the clock runs out, the algorithm doesn't choose for
+you. You still choose. … What does happen automatically is that the right choice and the wrong
+choices are revealed … You get penalized if you don't click the right answer or click 'Show' in
+time."* Clarified by four answered forks: the panic DRILL carries the clock and the escapes are
+untimed; committing past an open question is a FREE SKIP ("the clock only punishes sitting
+there"); expiry counts as a wrong answer (combo break, −4% this exchange, SRS miss — the answer
+was shown, so the card is spent); and from blue belt up the timed in-play format is recall Q/A,
+not MC.
+
+**THE MECHANIC.** `_decision` still carries pick/opts per landing, but its timer arms only when a
+question MOUNTS (`_armLandClock`, from `_mountLandQ` and the panic drill) — a landing that asks
+nothing has NO clock. Expiry (`_expireLandQ`) reveals the mounted block as a miss (correct option
+lit, keyboard disarmed, recall answer shown) and the HAND STAYS LIVE. Retired with the hand
+clock: the v1.123.0 Hick's-law knee (`NG_DECISION_KNEE`/`NG_DECISION_K` deleted — the window is
+one flat `decisionSec`), the v1.129.0 hesitation branch (`hesitated`, `HESITATE_HOLD`,
+expiry-`opponentDefend`), `refundDecision`/`timer_refund` (three callers and a sound patch went
+with it — answering IS what the window was for), and the DEFENSE expiry-tap (`onExpire: finish` —
+being slow on the drill no longer loses the round; only a failed escape does). The per-card
+`ngbar` drain is gone: option bars are static EDGE colour and the clock lives on the card's own
+`[data-land-clock]` top-edge bar, rebound across backfills, per-landing across paging.
+
+**THE DANGER PASS, same sitting.** The panic card was rebuilt in the landing card's recall
+anatomy under the danger skin (owner: "should look like a ng-landcard, rn it looks ugly");
+"Pick an escape — or drill defense" became "Caught · <name> locked in — drill to loosen it";
+the vignette deepened (core 52%→68%, peak .3→.5); `_dangerSet` fogs everything but threat + seat
++ escapes through the existing fogSet seam; `frameNodes` frames the exchange; the brand logo
+yields while the vignette burns. The White Challenges cue card is RETIRED (owner: "remove the
+learning card") — `renderChallengeCue` survives as a remover, the settings row is gone, the
+engine and the pane are untouched, and §6.1's long-standing STILL OPEN phone collision closes by
+deletion. EDGE is finally taught: a legend row ("+7 · Tilt toward winning") and a caption under
+the sheet's big number, both carrying the mandated by-the-book-opponent caveat. Quick wins from
+the design review: "1 very weak spot" pluralized with the tiers named on hover, the familiarity
+chip got a real accessible name, Hard/Ultra locked buttons became one honest sentence, the
+Challenges tab belt shows its count, the loader says "Loading the graph…" with role=status.
+
+**THREE TRAPS MET.** (1) A deletion bounded by "up to the next `_tickDecision`" swallowed the
+three method definitions that had just been inserted before it — pass-ordering matters when an
+edit script's landmarks are its own earlier output. (2) `querySelector("[data-panic]")` on the
+panic card returned null — the card IS the `[data-panic]` element; root-attribute checks need
+`hasAttribute`. (3) The drill armed against the OLD `_decision` because `buildPanicCard` runs
+before `enterDefense` creates the fresh window — arming moved to after the window's birth.
+
+**GATES.** Seven mutants, seven kills (expiry-costs-nothing, expiry-clears-the-hand,
+skip-breaks-combo, blue-gate-dropped, drill-never-arms, bars-drain-again, never-arms). Sixteen
+spec files rewritten to the new law — including stakes-impact's loss leg, which had relied on
+the retired defense expiry-tap and now loses the honest way, and coldstart-backfill, whose
+"still their turn" read inverted into the sharper claim: no question on the table, no clock over
+it. The replay digest moved legitimately (the beat stream lost timer_refund/hesitated and gained
+land_q_expired) — the new sha is recorded in the release commit.
 
 ## v1.132.2 — RECOGNITION COMES FIRST: EVERY DECK BUILDS A MULTIPLE CHOICE NOW
 

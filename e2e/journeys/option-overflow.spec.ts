@@ -62,55 +62,44 @@ const CLOCKS = `(async () => {
         a.enterLand(false);
       } catch (e) { continue }
       await new Promise((r) => setTimeout(r, 0));
-      out.push({ st: n.posId + "/" + role, cards: cards, dsec: a._decisionDsec, warmed: keys ? new Set(keys).size : 0 });
+      out.push({ st: n.posId + "/" + role, cards: cards, dsec: a._decisionDsec, armed: a._decision ? a._decision.remaining : "none", warmed: keys ? new Set(keys).size : 0 });
     }
   }
   a.hydrateDecks = real;
   return out;
 })()`
 
-const OLD_LINEAR = (n: number) => 9 + (n - 1) * 0.8
 
-test("@curated the decision clock stops scaling with the hand", async ({ page }) => {
+test("@curated the hand never expires — the clock belongs to the question (v1.133.0)", async ({ page }) => {
+  // v1.123.0's Hick's-law knee is retired with the hand clock it shaped. The owner's inversion:
+  // "pressure should not be on the choices … the choices are fun to click." Two claims, both
+  // corpus-wide and both mutant-killable:
+  //   1. every dealt hand's window is DISARMED at deal (CLOCKS stubs deck hydration, so no
+  //      question can mount — and without a question there is NO clock at all);
+  //   2. the flat per-question window is `decisionSec`, hand size irrelevant — 34 cards get the
+  //      same seconds as 3 (the knee's constants are deleted; _decisionDsec IS the setting).
   const j = journey(page)
   await j.boot("/")
   const hands: any[] = await page.evaluate(CLOCKS)
   expect(hands.length, "all 272 role-hands were driven through enterLand").toBe(272)
-
-  // 1. BELOW THE KNEE NOTHING MOVED. This is the whole argument for a knee rather than a pure
-  //    log curve: 256 of the 272 hands are 10 cards or fewer, and every one of them must keep
-  //    the clock it had before the cap was lifted, to the millisecond.
-  const under = hands.filter((h) => h.cards <= 10)
-  expect(under.length, "hands at or under the knee").toBe(256)
-  for (const h of under)
-    expect(h.dsec, `${h.st} (${h.cards} cards) must keep its old clock exactly`).toBeCloseTo(OLD_LINEAR(h.cards), 6)
-
-  // 2. AND ABOVE IT, THE CLOCK IS SUBLINEAR. The old formula bought 35.4s at 34 cards; the point
-  //    of the change is that no turn is that long. Asserted as a real ceiling, not a ratio.
-  const worstOld = Math.max(...hands.map((h) => OLD_LINEAR(h.cards)))
-  const worstNew = Math.max(...hands.map((h) => h.dsec))
-  expect(worstOld, "the old linear clock's worst turn").toBeCloseTo(35.4, 1)
-  expect(worstNew, "no turn may run this long any more").toBeLessThan(21)
-  const big = hands.find((h) => h.st === "standing-position/top")!
-  expect(big.cards, "the largest hand in the corpus").toBe(34)
-  expect(big.dsec, "and its turn").toBeCloseTo(20.1, 1)
-
-  // 3. IT IS STILL MONOTONIC — more cards never means less time. A sublinear curve that dips
-  //    would be a worse bug than the linear one it replaced.
-  const byN = new Map<number, number>()
-  for (const h of hands) byN.set(h.cards, h.dsec)
-  const ns = [...byN.keys()].sort((a, b) => a - b)
-  for (let i = 1; i < ns.length; i++)
-    expect(byN.get(ns[i])!, `${ns[i]} cards must not get less time than ${ns[i - 1]}`).toBeGreaterThan(byN.get(ns[i - 1])!)
-
-  // 4. AND CONTINUOUS AT THE KNEE — the two branches meet, so there is no step for a player to
-  //    feel between a 10-card and an 11-card hand.
-  const at10 = hands.filter((h) => h.cards === 10)
-  const at11 = hands.filter((h) => h.cards === 11)
-  expect(at10.length, "hands of exactly 10").toBeGreaterThan(0)
-  expect(at11.length, "hands of exactly 11").toBeGreaterThan(0)
-  expect(at10[0].dsec).toBeCloseTo(16.2, 6)
-  expect(at11[0].dsec - at10[0].dsec, "the step across the knee is a fraction of a second").toBeLessThan(0.5)
+  for (const h of hands) {
+    expect(h.armed, `${h.st} (${h.cards} cards) deals with a disarmed window`).toBe(null)
+    expect(h.dsec, `${h.st}'s per-question window is the flat setting`).toBe(9)
+  }
+  // …and a REAL landing that times out keeps its hand: the reveal is the whole penalty.
+  // (Fresh boot first: the CLOCKS sweep drives 272 direct pokes and leaves the camera unaimed —
+  // the same reason the spec's own STAGE helper refuses direct pokes.)
+  await j.boot("/")
+  await j.land("Mount Top")
+  const before = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
+  await j.advance(30_000)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { hand: (a.optionIdxs || []).length, beats: (a.beats || []).map((b: any) => b.beat) }
+  })
+  expect(after.hand, "the hand survives its question's expiry").toBe(before)
+  expect(after.beats, "which is a named reveal, not a hesitation").toContain("land_q_expired")
+  expect(after.beats).not.toContain("hesitated")
 })
 
 test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) => {

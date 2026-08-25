@@ -243,8 +243,11 @@ test("clicking a listed technique opens its dossier — the same move as a share
     `[data-list-items="${id}"] [data-list-item="${picks[1].id}"]`,
     "a listed technique",
   );
-  // v1.101.5: there is no second reading surface any more. Opening a TECHNIQUE renders the game
-  // card for it, unfolded — `_dossierIdx` stays null because nothing was "opened", the card grew.
+  // v1.132.0: opening a technique NAVIGATES — the exchange stages on it and the card arrives
+  // with the landing (~0.6s sim), so the read pumps the clock first. `_dossierIdx` stays null
+  // because nothing separate was "opened"; the game's own card is the surface.
+  await j.advance(1500);
+  await j.landQuestion();
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx ?? null),
     "no separate dossier surface is opened",

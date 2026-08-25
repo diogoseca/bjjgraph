@@ -157,7 +157,7 @@ test("@curated the dial ships in Settings → Rolling beside the uniform choice,
   expect(s.text).toContain("a nudge, not a different game");
 
   // the tab still renders its neighbours — a blank modal must not pass as a shipped row
-  expect(s.text).toContain("Decision time");
+  expect(s.text).toContain("Answer time");
   expect(s.text).toContain("Sound volume");
 });
 
@@ -181,7 +181,7 @@ test("the presets are read off the wire — two blocks show two buttons, none sh
   s = await openRolling(page);
   expect(s.present, "no table on the wire, no control over it").toBe(false);
   expect(s.text, "and the rest of the tab is untouched").toContain(
-    "Decision time",
+    "Answer time",
   );
 
   // an unknown preset is NAMED, never hidden — hiding a real choice is worse than a dull label

@@ -317,12 +317,16 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
     return i != null ? a.nodes[i].t : ""
   })
   expect(t2, "an option to commit past the question").toBeTruthy()
-  await j.rig("resolve", [0.9]) // outcome irrelevant — the break happens at commit
+  await j.rig("resolve", [0.9]) // outcome irrelevant — the SKIP happens at commit
+  const comboBefore = (await state(page)).combo
   await j.pick(t2)
-  const brk = (await j.beats()).filter((b: any) => b.beat === "combo_break") as any[]
-  expect(brk.length).toBe(1)
-  expect(brk[0].reason).toBe("ignored")
-  expect((await state(page)).combo).toBe(0)
+  // v1.133.0 (owner): "the clock only punishes sitting there" — committing past an open question
+  // is a FREE SKIP. The funnel beat still fires; momentum is untouched.
+  const beats = (await j.beats()) as any[]
+  expect(beats.some((b) => b.beat === "land_q_ignored"), "the skip is still marked").toBe(true)
+  const brk = beats.filter((b) => b.beat === "combo_break" && b.reason === "ignored")
+  expect(brk.length, "no break for moving on").toBe(0)
+  expect((await state(page)).combo, "momentum survives the skip").toBe(comboBefore)
 })
 
 test("momentum is per roll — a fresh match starts cold", async ({ page }) => {

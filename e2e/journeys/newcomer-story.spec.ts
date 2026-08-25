@@ -61,10 +61,12 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   expect(await j.displayedOdds(target), "odds rose").toBeGreaterThan(
     oddsBefore,
   );
+  // v1.133.0: answering disarms the question window — no refund exists any more
   expect(
     await page.evaluate(() => (window as any).__neural.decisionRemaining()),
-    "and the clock was refunded",
-  ).toBeGreaterThan(clockBefore);
+    "the window is spent by the answer",
+  ).toBe(0);
+  void clockBefore;
 
   // ── 4. peek the move, then execute; the needle decides it ──
   await page.locator(`[data-tech="${target}"]`).first().click();

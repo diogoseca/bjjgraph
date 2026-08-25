@@ -61,10 +61,12 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await page.keyboard.press("abcd"[mc!.correct])
 
   expect(await j.displayedOdds(t), "odds up after a right answer").toBeGreaterThan(before)
+  // v1.133.0: the clock times the question, so answering DISARMS it — no refund exists
   expect(
     await page.evaluate(() => (window as any).__neural.decisionRemaining()),
-    "and the clock was refunded",
-  ).toBeGreaterThan(clockBefore)
+    "the window is spent by the answer",
+  ).toBe(0)
+  void clockBefore
   const answered = (await j.beats()).filter((b: any) => b.beat === "land_q_answered")
   expect(answered.length).toBe(1)
   expect((answered[0] as any).correct).toBe(true)

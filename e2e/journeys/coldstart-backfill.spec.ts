@@ -115,10 +115,12 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
     before.hasQ,
     "no deck payload yet, so the state greets the visitor in silence",
   ).toBe(false);
+  // v1.133.0: the clock times the QUESTION — a landing whose deck is still on the wire has no
+  // question yet, so it has NO clock at all. Nothing drains while the payload is late.
   expect(
     before.decisionLeft,
-    "and it is still their turn — they have not committed yet",
-  ).toBeGreaterThan(0);
+    "no question on the table, no clock over it",
+  ).toBe(0);
   expect(
     before.funnel,
     "the funnel has nothing to report either",

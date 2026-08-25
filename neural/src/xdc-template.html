@@ -68,8 +68,9 @@
        same way they masked the coach button before v1.69.1. -->
   <div ref="{{ nodeCardRef }}" style="display:none;position:absolute;left:0;top:0;width:560px;height:560px;z-index:5;transform-origin:50% 50%;will-change:transform,opacity;pointer-events:none;"></div>
 
-  <div ref="{{ loaderRef }}" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+  <div ref="{{ loaderRef }}" role="status" aria-live="polite" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;pointer-events:none;">
     <div style="width:26px;height:26px;border:2px solid rgba(255,255,255,.15);border-top-color:rgba(120,160,255,.9);border-radius:50%;animation:ngSpin .9s linear infinite;"></div>
+    <div style="font-size:11px;font-weight:600;letter-spacing:.06em;color:#8b97b0;">Loading the graph&#8230;</div>
   </div>
 
   <!-- dominance flash overlay -->
@@ -221,6 +222,12 @@
       <div style="display:flex;align-items:center;gap:11px;">
         <span style="width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:12px solid #c9d2e3;"></span>
         <span style="font-size:12px;color:#aeb6c8;font-weight:500;">Submission</span>
+      </div>
+      <!-- the EDGE number, finally in the legend (v1.133.0, owner: "the same legend that's shown
+           on the bottom left"). Full sentence on hover; the caveat is canon for any EDGE copy. -->
+      <div data-legend-edge="1" title="The corner number on each card ranks the move by how far it tilts the whole roll toward winning and away from losing — counting where a miss leaves you. A safer move can outrank a higher-percentage one. Assumes a by-the-book opponent." style="display:flex;align-items:center;gap:11px;">
+        <span style="width:13px;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;color:#7ee0a8;">+7</span>
+        <span style="font-size:12px;color:#aeb6c8;font-weight:500;">Tilt toward winning</span>
       </div>
     </div>
     <div class="ng-winbar" style="display:flex;flex-direction:column;gap:7px;width:210px;">

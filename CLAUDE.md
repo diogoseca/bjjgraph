@@ -291,7 +291,9 @@ Challenges · Last rolls.
 
 **The hand.** `optionsFor` deals every legal move (uncapped), ranked by **EDGE**, and the order is
 **frozen at deal time** — a mid-decision grade moves the printed numbers but must never re-sort a
-tray the player is reaching into. The decision clock grows with `log2` past `NG_DECISION_KNEE`;
+tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
+`decisionSec` arms when a question mounts and expiry reveals the answer as a miss
+(`_expireLandQ`) while the hand stays live, untimed;
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 
 **EDGE** = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
@@ -379,8 +381,8 @@ symbol to every version that touched it.
 
 - **`_dockLandCard` · `_dockLandFilm` · `_dockOptionHint` · `_bandBot` — fixed chrome docks off a MEASURED rect, never a CSS constant.** The option tray is `bottom:84px` with no height and grows upward as card names wrap; anything tuned against it collides at some viewport. Measured overlaps: landing card 63px, escape tray 7px, option hint 2px at EVERY width, pane/card 108px at 1024, phone challenge cue 6,700 px².
   **Two sub-rules:** keep the TIGHTEST measurement ever taken at this viewport (the band flickers because card and film mount on different frames, and a per-landing reset hands the loose answer straight back); and an element that has not laid out yet reads `rect.top == 0` — that is SKIP, not a constraint.
-  **STILL OPEN:** the phone challenge cue writes across the focus label and eats the tap on your own node. Reproduce: `node tests/artifacts/_cue_collision_probe.mjs`.
-  <br>_(12 (self-counted as "the third"); 1 still open)_
+  (The fourth instance — the phone challenge cue over the focus label — was resolved by DELETING the cue in v1.133.0, owner's call; `_cue_collision_probe.mjs` stays as the archive's evidence.)
+  <br>_(12 (self-counted as "the third"); 0 still open)_
 
 - **The app wrap is `position:fixed` = its own stacking context, so a `z-index` inside it is trapped at plane 0.** A deliberate screen must PORTAL to the app root or ambient gameplay chrome paints over it (the pane at z:8 was buried by a root-plane landing card at z:5; the account menu needed z:46 on the root plane). Bands, documented in `neural/src/helmet.html`: **1-9 ambient state · 10-49 ambient fx · 50-79 coaching · 90-99 deliberate temporary screens.** Pick a band, never a loose number; Esc walks the ladder top-down, pane last.
   <br>_(3 (dossier under the transport pill; the pane under the landcard; the account menu))_
@@ -452,7 +454,7 @@ symbol to every version that touched it.
 
 ### 6.5 Before you write app runtime logic
 
-- **A single-slot resource with many writers needs a stamped owner and an explicit lifetime.** The announcer (`setEvent`) has ONE slot: a share-arrival sentence was overwritten by the roll within seconds (hence `_announceArrival` HOLDS it for the next landing), "Decide 1…" outlived its hand (hence the `_evCountdown` stamp, which every other `setEvent` releases and `clearOptions` honours), and "Time's up" was overwritten SYNCHRONOUSLY on the next line (hence `HESITATE_HOLD = 1.1s`, and why `clearOptions()` must run BEFORE the sentence it precedes). Same shape: `camTarget` (nine writers, follow-cam rewrites it every frame → a 7s LEASE) and `scrollLeft` (ONE rAF owns it — `_trayStop()` is called by every competing animator). **Three remedies: a stamp released by every other writer, a lease with an expiry, or a single declared writer (`_bumpStageVer`).**
+- **A single-slot resource with many writers needs a stamped owner and an explicit lifetime.** The announcer (`setEvent`) has ONE slot: a share-arrival sentence was overwritten by the roll within seconds (hence `_announceArrival` HOLDS it for the next landing), "Decide 1…" outlived its hand (hence the `_evCountdown` stamp, which every other `setEvent` releases and `clearOptions` honours), and "Time's up" was overwritten SYNCHRONOUSLY on the next line (the surviving lessons: the countdown stamp, and `clearOptions()` before any sentence that replaces it — the hesitation branch itself retired with the hand clock in v1.133.0). Same shape: `camTarget` (nine writers, follow-cam rewrites it every frame → a 7s LEASE) and `scrollLeft` (ONE rAF owns it — `_trayStop()` is called by every competing animator). **Three remedies: a stamp released by every other writer, a lease with an expiry, or a single declared writer (`_bumpStageVer`).**
   <br>_(9)_
 
 - **Every suppression flag declares its complete set of LIFTERS at its definition.** `_bgRestore()` had exactly ONE caller (`setPaused(false)`), so a background tap could only be undone by the PLAY BUTTON — the app dealt the hand, built the card and flew the camera underneath a suppression nobody lifted, and it presents as "nothing happens when I click, but the node lights up". Pre-existing since the behaviour shipped.
