@@ -644,6 +644,13 @@ test("Settings no longer offers an ordering it does not use", async ({
  * landing card "magically disappears — it should be BEHIND the maximized card, not gone".
  * Mutants that must die: restoring the explainer paragraph; restoring the from→to title;
  * dropping the digit (nodeGlyph instead of catGlyph); re-hiding the landcard on expand.
+ *
+ * v1.137.0 SHARPENS THE LANDCARD HALF. "Behind it" was true of the paint and false of everything
+ * else: the card stayed at full opacity while `_detailCtx` sat in `_landHidden()`'s holder list,
+ * so A-D refused to grade a card that looked completely live. The claim is now "dimmed, present,
+ * and inert" rather than "opacity is exactly 1" — the original mutant still dies, on `> 0` and on
+ * visibility:visible. Also killed here: `_syncDetailDim` no-oping, `closeOptionDetail` reverting
+ * to a bare `_detailCtx = null`, dropping `inert`, and deleting the helmet.html rule.
  */
 test("@curated the sheet keeps the card's name, digit and quiet category — and the landcard stays behind it", async ({
   page,
@@ -680,6 +687,13 @@ test("@curated the sheet keeps the card's name, digit and quiet category — and
       digit: panel.querySelector(".ngglyph")?.innerHTML.includes(">2<") || false,
       landOpacity: land ? getComputedStyle(land).opacity : null,
       landVisibility: land ? getComputedStyle(land).visibility : null,
+      landMarked: land ? land.hasAttribute("data-behind-sheet") : null,
+      // the children are what carry `inert` — the ROOT stays hit-testable on purpose, so that a
+      // tap on the card is still swallowed by attachInput's early-return instead of falling
+      // through to the canvas and destroying the card (see _syncDetailDim)
+      landRootInert: land ? !!(land as any).inert : null,
+      kidsInert: land ? [...land.children].every((c: any) => c.inert === true) : null,
+      kidCount: land ? land.children.length : 0,
       // PAINT ORDER, not z-index arithmetic (§6.3): a point inside both rects must resolve to
       // the sheet — the first cut compared z integers across two stacking contexts and passed
       // green on a build where the card painted over the sheet.
@@ -699,7 +713,139 @@ test("@curated the sheet keeps the card's name, digit and quiet category — and
   expect(r!.explainer, "no explainer paragraph on every open").toBe(false)
   expect(r!.tooltip, "the explainer became the number's tooltip").toContain("By-the-book opponent")
   expect(r!.digit, "the glyph still wears the tray digit").toBe(true)
-  expect(r!.landOpacity, "the landing card stays visible behind the sheet").toBe("1")
+  // PRESENT, BUT STOOD DOWN. Strictly between 0 and 1: `0` would be the v1.135 hide this test was
+  // written to forbid, `1` would be the v1.136 lie where a fully-live-looking card refused A-D.
+  const op = parseFloat(r!.landOpacity!)
+  expect(op, "the landing card is still painted behind the sheet").toBeGreaterThan(0)
+  expect(op, "...but dimmed, so it cannot read as the live surface").toBeLessThan(1)
   expect(r!.landVisibility).toBe("visible")
+  expect(r!.landMarked, "and it carries the stand-down marker").toBe(true)
+  expect(r!.kidCount, "a card with content to disarm").toBeGreaterThan(0)
+  expect(r!.kidsInert, "its children are inert — no clicks, no tab stops, no a11y tree").toBe(true)
+  expect(r!.landRootInert, "the root is NOT inert: it must still swallow the tap").toBe(false)
   expect(r!.sheetOverLand, "and the sheet stacks over it").toBe(true)
+
+  // THE KEYBOARD AGREES WITH THE PAINT. A dimmed card must not grade — this is the assertion that
+  // gates `_detailCtx`'s membership in `_landHidden()` from the mouse side of the app.
+  const answeredWhileOpen = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
+  await page.keyboard.press("a")
+  await j.advance(200)
+  expect(
+    (await j.beats()).filter((b) => b.beat === "land_q_answered").length,
+    "A-D does not grade the card standing behind the sheet",
+  ).toBe(answeredWhileOpen)
+
+  // ...AND IT ALL COMES BACK. The restore is flag-synchronous (`_landHidden` asks the holders, not
+  // the pixels), so the card is live again the instant the sheet closes.
+  await page.keyboard.press("Escape")
+  await j.advance(400)
+  await page.waitForTimeout(400) // the .22s dim transition is wall-clock, like the entry animation
+  const back = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const land = a._landEl
+    return {
+      opacity: land ? getComputedStyle(land).opacity : null,
+      marked: land ? land.hasAttribute("data-behind-sheet") : null,
+      kidsInert: land ? [...land.children].some((c: any) => c.inert === true) : null,
+      ctx: !!a._detailCtx,
+    }
+  })
+  expect(back!.ctx, "Esc closed the sheet").toBe(false)
+  expect(back!.opacity, "the card is at full strength again").toBe("1")
+  expect(back!.marked, "the marker is gone").toBe(false)
+  expect(back!.kidsInert, "and nothing is left inert").toBe(false)
+})
+
+/**
+ * A REAL MOUSE ON THE STOOD-DOWN CARD DOES NOTHING — AND "NOTHING" IS TWO CLAIMS (v1.137.0).
+ *
+ * The card behind the sheet must neither GRADE (its buttons are inert) nor be DESTROYED. The
+ * second half is the one that is easy to get wrong: `attachInput`'s pointerdown early-return is a
+ * TARGET test (`ov.contains(e.target)`), so the obvious implementations — `pointer-events:none` on
+ * the card root, or `inert` on the root — make the tap miss the card entirely and land on the
+ * canvas, where `_tapBackground()` declines the question and clears the card while the sheet is
+ * still open. That kills the pinned "back out of a sheet and the question still pays" contract
+ * from a direction no keyboard test can see. Hence: children inert, root left hit-testable.
+ *
+ * `locator.click()` cannot make this claim (§6.3) — it dispatches ON the element. This uses
+ * page.mouse at a MEASURED point, which is the only thing that exercises the real hit test.
+ *
+ * Mutants that must die: dropping `inert` from `_syncDetailDim` (the click grades); moving `inert`
+ * to the card root, or setting pointer-events:none on it (the click destroys the card).
+ */
+test("a real click on the card behind the sheet neither answers it nor destroys it", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  const mc = await j.landQuestion()
+  expect(mc, "a live landing question to stand down").toBeTruthy()
+
+  await page.keyboard.press("1") // digit opens the first option's sheet
+  await expect(page.locator("[data-go]"), "digit 1 opened an option sheet").toBeVisible()
+  await j.advance(300)
+  await page.waitForTimeout(400)
+
+  // Find a point that is inside the card and NOT under the sheet. Measured, never assumed: the
+  // sheet is bottom-anchored and the card's exposed strip shrinks as the sheet grows.
+  const pt = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const land = a._landEl, panel = a.optDetailRef.current
+    if (!land || !panel) return null
+    const cr = land.getBoundingClientRect(), pr = panel.getBoundingClientRect()
+    const y = Math.min(cr.bottom, pr.top) - 6 // just above the sheet's top edge, inside the card
+    if (y <= cr.top + 2) return null          // no exposed strip at this viewport
+    const x = cr.left + cr.width / 2
+    const hit = document.elementFromPoint(x, y)
+    return { x, y, insideCard: !!(hit && land.contains(hit)), hitTag: hit ? hit.tagName : null }
+  })
+  // POSITIVE COVERAGE (§6.6): if the strip is not there, this test proves nothing and must say so
+  // rather than passing quietly on a click into empty space.
+  expect(pt, "the card has a strip exposed above the sheet to click on").toBeTruthy()
+  expect(
+    pt!.insideCard,
+    `the measured point resolves into the card, not ${pt!.hitTag} — the root must stay hit-testable`,
+  ).toBe(true)
+
+  const before = await j.beats()
+  await page.mouse.click(pt!.x, pt!.y)
+  await j.advance(400)
+  const after = await j.beats()
+  const fired = (name: string) =>
+    after.filter((b) => b.beat === name).length - before.filter((b) => b.beat === name).length
+
+  expect(fired("land_q_answered"), "the click did not grade the stood-down question").toBe(0)
+  const state = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { card: !!a._landEl, ctx: !!a._detailCtx, mc: !!a._mc }
+  })
+  expect(state!.card, "the card survived the click").toBe(true)
+  expect(state!.ctx, "and the sheet is still open").toBe(true)
+  expect(state!.mc, "and the question is still there to come back to").toBe(true)
+
+  // THE REFUSAL IS IN THE MODEL, NOT ONLY IN THE CSS. `_mc.answer(i)` is the seam BOTH input paths
+  // call — `_onKey` invokes it for A-D, and every option button's click listener is a closure over
+  // the same function — so driving it is driving the real entry point, not a second implementation
+  // of it (§6.3). Without this, `inert` alone hides the grading path from every spec and the
+  // model-level guard has no gate: mutating it away left the whole suite green.
+  const beforeSeam = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    if (a._mc && a._mc.answer) a._mc.answer(a._mc.correct)
+  })
+  await j.advance(300)
+  expect(
+    (await j.beats()).filter((b) => b.beat === "land_q_answered").length,
+    "the answer seam itself refuses while the card is stood down",
+  ).toBe(beforeSeam)
+
+  // the contract the swallow protects: back out, and the question still pays
+  await page.keyboard.press("Escape")
+  await j.advance(300)
+  await page.keyboard.press("abcd"[mc!.correct])
+  await j.advance(300)
+  const paid = (await j.beats()).filter((b) => b.beat === "land_q_answered")
+  expect(paid.length, "after Esc the question answers normally").toBe(1)
+  expect((paid[0] as any).correct).toBe(true)
 })

@@ -31,6 +31,16 @@ test("A-D answer the live question; digits open option sheets", async ({ page })
   const answered0 = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
   expect(answered0, "and answered nothing").toBe(0)
 
+  // ...AND NEITHER DOES A LETTER WHILE THE SHEET IS UP (v1.137.0). The card is still on screen
+  // behind the sheet, but stood down — dimmed and inert — so A-D must not grade it. This is the
+  // assertion that gates `_detailCtx`'s place in `_landHidden()`'s holder list: delete it there
+  // and the letter below scores a question the player is not being asked.
+  await page.keyboard.press("abcd"[mc!.correct])
+  expect(
+    (await j.beats()).filter((b) => b.beat === "land_q_answered").length,
+    "the correct letter does not grade the card standing behind the sheet",
+  ).toBe(0)
+
   await page.keyboard.press("Escape") // back out of the sheet
   expect(await sheetOpen(page), "Esc closed the sheet").toBe(false)
 
