@@ -3553,6 +3553,122 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 
 ---
 
+## v1.137.0 (d554cca1b) — The logo drops its ring, the tutorial its whole section, and maintenance stops shouting
+
+> Heading disambiguated by hash: this remote also carries a DIFFERENT `v1.137.0` ("The card
+> behind the sheet stands down until the sheet leaves", 073c9f338). Two agents and the remote
+> bumped independently; the merge at v1.140.0 records the collision.
+
+Four owner passes on the Challenges tab and the top-left logo, in one sitting.
+
+### The ring the owner could still see
+
+Owner: *"I still see the outline on the graph icon. I don't see the outline on the close icon,
+but I like that."* — pasted with the button's DOM, whose inline style already read `border: 0px`.
+That inline `0` is why the grep for the ring on `.ng-logo` came up empty at first: the ring was
+`border: 1px solid rgba(150,170,210,.2) !important` inside `@media (max-width: 640px)` in
+`challenge-feedback.css`, overriding it. **The `!important` in a media query is what makes an
+inline `border: 0` a lie** — reading the inline style is not reading the computed one.
+
+The same declaration, byte for byte, was what `.ng-explorer-close` had been carrying until it was
+dropped earlier in the same session. So the fix was parity, not invention: no resting box, the
+44px thumb target untouched, the affordance moved into `:hover` / `:active`. `.ng-logo-mark`
+gained `drop-shadow(0 1px 3px rgba(0,0,0,.7))` — with the opaque disc gone the glyph can land on
+a lit orb, and the disc had been doing that legibility work invisibly.
+
+**Verification trap worth keeping.** The first phone screenshot still showed a disc, and the
+computed `backgroundColor` said `rgba(0,0,0,0)`. Both were right: `locator.click()` leaves the
+pointer parked on the element, so the screenshot photographed `:hover`. **A screenshot taken
+right after a Playwright click is a screenshot of the hover state.** Re-shot with
+`page.mouse.move(300, 700)` first; resting background then read transparent and the disc was gone.
+
+### The Challenges tab belt
+
+Owner: *"remove the 0/6 ... with that belt a little bit more to the right, a bit more centered."*
+The `<em>done/total</em>` added in v1.133.0 (to fix the belt reading as "tofu" — an unlabeled
+rectangle at 0 stripes) was pushing the belt off the tab's centre line. Removed; the count still
+ships in the `aria-label` and on every belt header in the corridor. Measured offset from the tab's
+centre after: **0px**, in a 109px tab column.
+
+The dark rank sleeve went **30px → 20px** (owner: *"like 30% narrower"*, *"round it to a round
+number"*). Four 3px stripes plus three 3px gaps is 21px, so a full four-stripe tape now fills the
+sleeve edge to edge — that is the floor, not a coincidence, and it is written above the rule.
+
+### The Tutorial section is deleted
+
+Owner: *"I think we should remove the whole tutorial section and really clean up the code."*
+`renderTutorialSection()`, its call site, its default-folded branch, eleven CSS rules, and the
+retired frame in the `/dev` catalog all left together.
+
+**The twenty White objectives still tick.** They are what mints the White patch through
+`ngTrackSummary`, and deleting a surface must not delete the ledger under it (CLAUDE.md §6.7 —
+"deleting a component deletes its telemetry and its capability, and no gate reports it"). Both
+halves are gated in the replacement spec: the handles are gone AND
+`challengeTrackProgress("white").total` is still 20.
+
+Two assertions elsewhere had been reading the DOM for that ledger and were rehomed rather than
+deleted — `newcomer-story` compared `.ng-challenge-row[data-complete='true']` against
+`challengeTrackProgress`, and `challenges-ui`'s migration test read `[data-tutorial] strong` for
+the "8 of 20" count. **NON-KILL recorded in `newcomer-story`'s own line:** nothing on screen now
+shows a newcomer what he ticked off.
+
+The deletion survey was run with `| wc -l` first, per §6.7 — 33 `ng-tutorial` hits across the app,
+the specs and the Forward catalog. The catalog frame would otherwise have survived by default
+(§6.8: retired rows rot there because `check_forward_catalog.mjs` only checks that frames render).
+
+### Maintenance: sticky, and quieter
+
+Owner: *"maintenance should always appear on top, and you can scroll down, but maintenance should
+still show ... it takes a lot of space right now. It should be a little bit more discreet and
+convincing."* And on the copy: *"'Maintenance first' — it's very boring to say that, but '5 cards
+due' and 'keep what you've earned' are better motivations."*
+
+`position: sticky; top: 0` on `.ng-maint-band`, and two consequences that a sticky element makes
+non-obvious:
+
+- **It must be opaque.** A sticky child is scrolled UNDER, so the `.5`-alpha gradient it wore let
+  belt headers read straight through it. It now paints a solid dark panel.
+- **It must be subtracted from the arrival scroll.** `renderChallenges`' arrival positioning aims
+  the frontier belt's header at the top of the scrollport; unchanged, that header lands underneath
+  the band the scroll exists to clear it of. The offset is taken from the band's **measured** rect,
+  never a CSS constant — the same rule `_dockLandCard` follows, because one wrapping line changes
+  its height (§6.1).
+
+The band went ~53px → ~41px, one row, and the "Maintenance first" eyebrow went with it: it labelled
+a thing the person can already see. `N cards due` is the fact, `keep what you've earned` the
+reason. The amber left the panel for the count and the Start chip — sticky chrome is re-read on
+every scroll, so a permanently visible amber block reads as a warning that never clears.
+
+### Measured, at 390x844
+
+| | |
+|---|---|
+| belt offset from tab centre | **0px** (was left of centre with the count) |
+| rank sleeve | **20px** (was 30px) |
+| maintenance band | **41px**, pinned at `top: 4px` through a 400px scroll |
+| white belt header on arrival | `headOffset 49` = band height + 8 |
+| tutorial nodes / challenge rows | **0 / 0** |
+
+23 journeys green across `challenges-ui`, `white-challenges`, `newcomer-story` and `belt-meter`;
+`test:units` 79/79; payload, forward and claudemd gates green.
+
+**A full `test:curated` was deliberately not run**, and this is the reportable part: a concurrent
+agent was writing the same tree throughout, so a suite result taken from it is not a result
+(§6.4). Two related hazards showed up in the same session and are worth the entry on their own:
+
+- Running `source/`'s prettier over `neural/src/*.css` reformatted **seven `font:` shorthands and
+  two multi-line `background:` gradients** that were not part of this change. `source/npm run
+  check` scopes to `source/`; `neural/src` is not in it and is not prettier-clean at HEAD. The
+  churn was reverted by hand. **Do not run source's formatter over neural's stylesheets.**
+- `git add` on a shared file swallowed 112 lines of the other agent's in-flight cue-CSS deletion
+  in `challenge-feedback.css`. Caught by reading `git diff --cached --stat` and disbelieving the
+  line count — 131 changed lines for a fifteen-line edit. Recovered by staging only this change's
+  hunk through the index (`git hash-object -w` + `git update-index --cacheinfo`), leaving the
+  other agent's edit unstaged and intact. **On a shared tree, `--stat` before `commit` is the
+  check; an unexpected line count is the tell.**
+
+---
+
 ## v1.138.0 — FLOW: weak spots become a continuous, signed, value-weighted score
 
 The owner reviewed the Explore stat row and found numbers that each broke one promise: **the
