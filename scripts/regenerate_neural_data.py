@@ -340,7 +340,44 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         if a is None or b is None or a == b:
             continue
         links.append([a, b])
-    out = {"nodes": nodes, "links": links}
+    # ── OUTCOME DESTINATIONS ARE 293 STRINGS WRITTEN 4,160 TIMES (v1.144.0) ─────────────────
+    # Every technique's `outcomes` names where each branch lands — `half-guard/bottom`,
+    # `game-over`, `side-control/top` — and the whole corpus only ever names 293 distinct
+    # destinations. Written out in place they were 64,272 B raw / 2,809 B gzip of the largest
+    # boot payload, which is the single biggest lever left in this file after v1.107.0 took
+    # `cal.moves` out.
+    #
+    # So they are INTERNED: `toTab` carries each destination once, and an outcome's first slot
+    # becomes its index. `ingest()` (app.src.jsx) resolves it back to the same string in the
+    # same expansion pass that already turns the tuple into {to, probability, result}, so every
+    # downstream reader (drawOutcome, resolve, the outcome-kernel gate) sees exactly what it saw
+    # before and no RNG draw can move. A wire without `toTab`, or an outcome whose slot is
+    # already a string, still expands — that is what keeps a spec-authored fixture working.
+    #
+    # Ordered by DESCENDING USE, tie-broken by name: it is deterministic (a re-run diffs clean)
+    # and it spends the one- and two-digit indexes on the destinations that occur most.
+    to_freq = {}
+    for nd in nodes:
+        for o in (nd.get("cal") or {}).get("outcomes") or []:
+            to_freq[o[0]] = to_freq.get(o[0], 0) + 1
+    to_tab = sorted(to_freq, key=lambda s: (-to_freq[s], s))
+    to_idx = {s: i for i, s in enumerate(to_tab)}
+    _interned = 0
+    for nd in nodes:
+        for o in (nd.get("cal") or {}).get("outcomes") or []:
+            o[0] = to_idx[o[0]]
+            _interned += 1
+    # POSITIVE COVERAGE, NOT SILENCE (§6.6). An interning pass that quietly matched nothing
+    # emits a perfectly valid wire — with every outcome still a string and the saving gone —
+    # and nothing downstream would notice, because the expansion tolerates both shapes by design.
+    # So it counts itself, and it refuses to ship a table that cannot round-trip.
+    if not to_tab or _interned != sum(to_freq.values()):
+        raise SystemExit(
+            f"[neural] outcome interning covered {_interned} of {sum(to_freq.values())} outcome "
+            f"rows into a {len(to_tab)}-entry table — refusing to emit a half-interned wire."
+        )
+    print(f"  outcome destinations: {len(to_tab)} interned, {_interned} references rewritten")
+    out = {"nodes": nodes, "links": links, "toTab": to_tab}
     # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
     # the two top-level keys below are the table's self-description, carried ONCE for the file.
     out.update(build_move_edge(graph, nodes, tech_idx))

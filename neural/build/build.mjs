@@ -22,7 +22,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
 const SOURCE = resolve(HERE, "../../source");
 const require = createRequire(resolve(SOURCE, "package.json"));
-const { build } = require("esbuild");
+const { build, transform } = require("esbuild");
 
 // 1) app source: patch relative data fetches to the configurable base
 const sound = readFileSync(R("src/sound.src.js"), "utf8");
@@ -124,6 +124,38 @@ app = patched;
 // 2) template skeleton (strip the <helmet> — its <style>/fonts go to neural.css)
 let tpl = readFileSync(R("src/xdc-template.html"), "utf8");
 tpl = tpl.replace(/<helmet>[\s\S]*?<\/helmet>/, "").trim();
+
+// ── AN HTML COMMENT IS DOCUMENTATION THE BROWSER CANNOT READ, AND IT SHIPPED (v1.144.0) ─────
+// Same shape as the CSS-comment finding below, one file over: the template is embedded in the
+// bundle as a JSON string literal and then written to `innerHTML`, so every `<!-- … -->` in
+// xdc-template.html was minified past by esbuild (it is inside a string, not code), gzipped,
+// downloaded by every first-time visitor, and parsed into inert DOM comment nodes.
+// Measured when this went in: 26 comments, 5,356 B of a 21,778 B template — a quarter of it,
+// and it is the z-ladder notes, the owner rulings and the retirement history that make this
+// file readable. They stay in source and stop being payload.
+//
+// Safe because the runtime does nothing with comment nodes (`mountNeural` only rewrites
+// `ref="{{ }}"` / `on<Event>="{{ }}"` / `{{ }}` and queries `[data-ng-ref]` / `[data-ng-on]`),
+// there are no conditional comments (`<!--[if …]>`) and no `<!--` inside an attribute value or
+// a script/style block — all three checked before the pattern went in. POSITIVE COVERAGE, NOT
+// SILENCE (§6.6): the count is printed, and a strip that suddenly matches nothing throws
+// rather than quietly reinstating the weight.
+const tplComments = tpl.match(/<!--[\s\S]*?-->/g) || [];
+if (!tplComments.length) {
+  throw new Error(
+    "[build] xdc-template.html has no HTML comments — either the pattern stopped matching " +
+      "(fix it) or the template genuinely lost its documentation (delete this strip and its " +
+      "counter, deliberately). A strip that matches nothing must never read as a clean pass.",
+  );
+}
+if (/<!--\s*\[if/i.test(tpl)) {
+  throw new Error(
+    "[build] xdc-template.html now carries a CONDITIONAL comment, which is a directive rather " +
+      "than documentation — this strip would delete markup. Handle it explicitly.",
+  );
+}
+const tplCommentBytes = tplComments.reduce((n, c) => n + Buffer.byteLength(c), 0);
+tpl = tpl.replace(/<!--[\s\S]*?-->/g, "");
 
 // 3) baked props (current design defaults — the loaded version, no tweak UI)
 const rawProps = JSON.parse(readFileSync(R("src/props.json"), "utf8"));
@@ -333,12 +365,29 @@ const cssJoined = [
 // Safe because CSS comments cannot nest and this bundle has no `/*` inside a string, url() or
 // content: value, and no `/*!` preserve markers — both checked before the regex went in. If
 // either ever changes, this must become a real CSS parser rather than a pattern.
+//
+// AND THE WHITESPACE IS THE SAME BILL (v1.144.0). Stripping comments left the stylesheet
+// otherwise verbatim: every indent, every newline, every `: ` after a property name still
+// shipped. The JS beside it goes through esbuild's minifier; the CSS went through a regex.
+// esbuild minifies CSS too — same tool, same build, already resolved above — so it now runs
+// here as well, AFTER the comment strip (which stays: it is what the `/*` assertion below
+// gates, and it keeps the printed comment figure honest rather than folding it into a single
+// opaque "minified" number). Measured on this stylesheet: 39,049 -> 33,535 B raw,
+// 8,078 -> 7,415 B gzip, zero warnings, no rule reordering — it is whitespace and shorthand.
 const cssStripped = cssJoined.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\n\s*\n+/g, "\n");
 const cssSaved = Buffer.byteLength(cssJoined) - Buffer.byteLength(cssStripped);
-writeFileSync(R("dist/neural.css"), cssStripped);
+const cssMin = (await transform(cssStripped, { loader: "css", minify: true })).code;
+if (cssMin.length >= cssStripped.length) {
+  throw new Error(
+    `[build] the CSS minifier returned ${cssMin.length} B from ${cssStripped.length} B — it did ` +
+      "nothing. A no-op minify is the same silence the comment strip above exists to prevent.",
+  );
+}
+const cssMinSaved = Buffer.byteLength(cssStripped) - Buffer.byteLength(cssMin);
+writeFileSync(R("dist/neural.css"), cssMin);
 // POSITIVE COVERAGE, NOT SILENCE (§6.6): print what was removed, so a build that quietly stops
 // stripping — or one where the pattern matches nothing — is visible instead of looking clean.
-if (cssStripped.includes("/*")) {
+if (cssMin.includes("/*")) {
   throw new Error(
     `[build] neural.css still contains "/*" after the comment strip — the pattern no longer ` +
       `matches what this stylesheet actually holds; fix the strip rather than shipping comments.`,
@@ -347,5 +396,8 @@ if (cssStripped.includes("/*")) {
 
 console.log(
   `[build] lean neural/dist/neural.js + neural.css written (no React/eval/support.js) — ` +
-    `stripped ${cssSaved.toLocaleString()} B of CSS comments from the boot payload`,
+    `stripped ${cssSaved.toLocaleString()} B of CSS comments + ` +
+    `${cssMinSaved.toLocaleString()} B of CSS whitespace, and ` +
+    `${tplCommentBytes.toLocaleString()} B of template comments (${tplComments.length}), ` +
+    `from the boot payload`,
 );

@@ -51,6 +51,15 @@ def check(cond, msg):
 
 
 RESULT_WORD = {"s": "success", "f": "failure", "c": "counter"}
+# The outcome-destination intern table (v1.144.0). `ingest()` resolves an integer slot through
+# `data.toTab` and passes a string straight through; this simulation does the same, so a wrong
+# index lands on the WRONG destination string and the exact comparison below goes red — which is
+# the only reason interning is safe to ship. A wire without the table still compares as before.
+TO_TAB = NEW.get("toTab") if isinstance(NEW.get("toTab"), list) else None
+
+
+def to_of(v):
+    return TO_TAB[v] if (TO_TAB is not None and isinstance(v, int)) else v
 
 o_nodes, n_nodes = OLD["nodes"], NEW["nodes"]
 check(len(o_nodes) == len(n_nodes), f"node count {len(o_nodes)} vs {len(n_nodes)}")
@@ -95,7 +104,7 @@ for i, (a, b) in enumerate(zip(o_nodes, n_nodes)):
             check(ob is not None, f"node {i}: outcomes lost")
             if ob is not None:
                 exp = [
-                    {"to": o[0], "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])}
+                    {"to": to_of(o[0]), "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])}
                     for o in ob
                 ]
                 n_out_tuples += len(ob)
