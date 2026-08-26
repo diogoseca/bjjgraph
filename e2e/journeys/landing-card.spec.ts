@@ -284,3 +284,63 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
   const beatsEnd = await page.evaluate(() => ((window as any).__neural.beats || []).length)
   expect(beatsEnd, "exploration emits nothing").toBe(at.beats)
 })
+
+/**
+ * EXPIRY IS FLUID (v1.135.1). Owner: "There's this weird flash where the landcard disappears
+ * and a new landcard appears again … It should be fluid. It shouldn't be abrupt."
+ * The flash was CSS: `.ng-clock-hot`'s animation shorthand REPLACED the card's ngCardInX entry
+ * animation, and Chrome replays the finished entry from zero when the shorthand changes back —
+ * even with the name kept at the same list position (measured; the name-position continuation
+ * does not survive a finished animation). So the pulse is JS now: frame-driven border/box-shadow
+ * writes in _tickDecision, eased off by a one-shot transition at disarm; .ng-clock-hot is a
+ * marker class with no rule. The clock bar eases home the same way, shedding the hot red for
+ * the base color it was armed with.
+ * Mutants that must die: dropping the JS pulse write; snapping the bar (no transition).
+ */
+test("@curated expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return !!(a._decision && a._decision.remaining != null && a._landEl)
+  })
+  expect(armed, "a landing question armed the clock").toBe(true)
+  // into the hot band, then catch the disarm within a frame of it happening
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 2500))
+  await j.advance(400)
+  const hot = await page.evaluate(() => {
+    const el = (window as any).__neural._landEl
+    return { cls: el.classList.contains("ng-clock-hot"), border: el.style.borderColor }
+  })
+  expect(hot.cls, "the hot marker is on").toBe(true)
+  expect(hot.border, "and the pulse actually paints").toContain("255, 110, 110")
+  // the entry animation runs on the WALL clock while advances pump the game clock faster —
+  // let the genuine mount animation finish first, so a running ngCardInX after the disarm can
+  // only be a replay
+  await page.waitForTimeout(450)
+  // the harness drives the game clock — expire through a pumped advance, then read at once
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 30))
+  await j.advance(200)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const card = a._landEl
+    const bar = card.querySelector("[data-land-clock]")
+    return {
+      replaying: card.getAnimations().filter((x: any) => x.animationName === "ngCardInX" && x.playState === "running").length,
+      hot: card.classList.contains("ng-clock-hot"),
+      barTransition: bar ? bar.style.transition : null,
+      barTransform: bar ? bar.style.transform : null,
+      barBg: bar ? bar.style.background : null,
+    }
+  })
+  expect(after.replaying, "the entry animation did NOT replay — no flash").toBe(0)
+  expect(after.hot, "the pulse stood down with the window").toBe(false)
+  expect(after.barTransition, "the bar eases home through a transition").toContain("transform")
+  expect(after.barTransform).toBe("scaleX(0)")
+  expect(after.barBg, "and sheds the hot red for its armed base").toBe("rgb(159, 176, 208)")
+})

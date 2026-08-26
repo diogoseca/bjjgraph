@@ -184,8 +184,12 @@
   .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
-  @keyframes ngClockHot{0%,100%{border-color:rgba(255,110,110,.35);box-shadow:0 14px 44px rgba(0,0,0,.5);}50%{border-color:rgba(255,110,110,.85);box-shadow:0 14px 44px rgba(0,0,0,.5),0 0 22px rgba(255,110,110,.25);}}
-  .ng-landcard.ng-clock-hot{animation:ngClockHot .8s ease-in-out infinite;}
+  /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry
+     `animation: ngClockHot`, which REPLACED the card's ngCardInX entry animation in the
+     shorthand — and Chrome replays the entry from zero when the shorthand changes back, even
+     with the name kept at the same list position (measured; the owner's "weird flash where the
+     landcard disappears and a new landcard appears"). The pulse is JS-driven border/box-shadow
+     writes in _tickDecision instead, eased off through a one-shot transition at disarm. */
   /* ── REPLAY: the film's own chrome (v1.106.5) ──────────────────────────────────────────────
      It DOCKS WHERE THE LANDING CARD DOCKS — same bottom constants, same `_dockLandCard` tray
      measurement — because that is precisely the surface it stands in for: while a film runs, the

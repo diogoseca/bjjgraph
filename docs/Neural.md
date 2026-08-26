@@ -140,6 +140,14 @@ remains the quality upgrade over truncation. The option-node label pass yields t
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
 
+### The commit hands the camera to the roll (v1.135.1)
+
+`userActiveNow()` (4 game-seconds since `lastInteract`) is the ONE condition that suppresses the
+follow-cam — and the pick's own click wrote it, so the camera stood still while the pulse left.
+`enterAttempt` now ages the latch out and releases any focus lease: committing is the ownership
+doctrine's "asking to go somewhere else is a decision" case, and the follow-cam tracks the
+travel from its first frame. Pinned by `roll-card.spec.ts`.
+
 ### The panic drill is multiple choice (v1.135.0)
 
 The defense drill asks its question as the landing does — an `_mcBlock` on surface `"panic"`
@@ -204,7 +212,10 @@ DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum unt
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
 staged boards and internal pauses included; the last three seconds pulse the card itself
-(`ng-clock-hot`). **Expiry spends the block** (v1.135.0): the miss is taken once — −4%, combo
+(`ng-clock-hot` — a MARKER class since v1.135.1: the pulse is frame-driven border/box-shadow
+writes in `_tickDecision`, because a CSS animation on the card replayed its entry animation and
+flashed; the disarm eases both the glow and the clock bar off through one-shot transitions,
+never a snap). **Expiry spends the block** (v1.135.0): the miss is taken once — −4%, combo
 break, one failed SRS review, answer revealed — and the revealed buttons are inert
 (`truth.spent`, the closure's own door); a late click grades nothing, charges nothing, emits
 nothing. After ANY resolution — graded or

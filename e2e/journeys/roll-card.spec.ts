@@ -654,3 +654,31 @@ test("@curated background taps: close the card, then free roam — and a node cl
   expect(back.card, "the card is back").toBe(true)
   expect(back.tray, "and the hand with it").toBeGreaterThan(0)
 })
+
+/**
+ * THE COMMIT HANDS THE CAMERA TO THE ROLL (v1.135.1). Owner: "when I pick one of the options,
+ * the camera doesn't immediately follow the signal that's pulsing … It's very bad gameplay."
+ * The pick's click wrote `lastInteract`, and userActiveNow() is the one condition that
+ * suppresses the follow-cam — 4 game-seconds of frozen camera while the pulse left. Committing
+ * now ages the latch out and releases any focus lease (the ownership doctrine's "asking to go
+ * somewhere else is a decision" case), so the follow-cam tracks the travel from frame one.
+ * Mutant that must die: dropping the releaseCamera + lastInteract aging from enterAttempt.
+ */
+test("@curated the commit hands the camera to the roll", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  const res = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    if (!a._optList || !a._optList.length) return null
+    a.holdCamera()                 // a standing lease, as a share flight would leave
+    a.lastInteract = a.now         // the pick's own click, as attachInput writes it
+    const activeBefore = a.userActiveNow()
+    a.enterAttempt(a._optList[0])
+    return { activeBefore, activeAfter: a.userActiveNow(), held: a.camHeld() }
+  })
+  expect(res, "a dealt hand to commit from").not.toBeNull()
+  expect(res!.activeBefore, "the click really had latched activity").toBe(true)
+  expect(res!.activeAfter, "the commit aged the latch — the follow-cam is free").toBe(false)
+  expect(res!.held, "and the focus lease is released").toBe(false)
+})

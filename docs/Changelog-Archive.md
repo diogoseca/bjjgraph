@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.135.1** — [THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA](#v1-135-1-the-expiry-stops-flashing-and-the-commit)
 - **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
 - **v1.134.0** — [THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED](#v1-134-0-the-transport-dies-the-game-goes-fully-t)
 - **v1.133.0** — [THE CLOCK MOVES TO THE QUESTION, AND THE CUE CARD RETIRES](#v1-133-0-the-clock-moves-to-the-question-and-the)
@@ -3546,6 +3547,35 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.135.1 — THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA
+
+### THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA (v1.135.1)
+
+Owner: *"There's this weird flash where the landcard disappears and a new landcard appears
+again."* A MutationObserver probe cleared the DOM (same card element, question block intact
+through expiry) — the flash was CSS: `.ng-clock-hot`'s `animation` shorthand replaced the
+card's `ngCardInX` entry animation, and Chrome replays the finished entry from zero when the
+shorthand changes at class removal. The first fix kept ngCardInX at index 0 of the hot list
+(name+position continuation) — and its spec went red anyway, which exposed the ORACLE as the
+liar first (pumped advances outrun the wall clock, so the "replaying" check was catching the
+genuine mount animation; a 450ms wall wait fixed the spec) and motivated the sturdier
+mechanism regardless: the pulse is now FRAME-DRIVEN border/box-shadow writes in
+`_tickDecision` (`ng-clock-hot` survives as a marker class with no rule), and the disarm eases
+the glow AND the clock bar off through one-shot transitions — the bar sheds the hot red for
+the base color it was armed with (`_clockBase`), per the owner: *"It should be fluid. It
+shouldn't be abrupt."*
+
+Owner: *"when I pick one of the options, the camera doesn't immediately follow the signal
+that's pulsing … only after a few iterations … does the camera follow again."* Root cause is
+the §6.5 latch verbatim: `userActiveNow()` — 4 game-seconds since `lastInteract` — is the one
+condition that suppresses the follow-cam, and the pick's own click wrote it; the "few
+iterations" were the window draining. `enterAttempt` now ages the latch out
+(`lastInteract = now − 5`) and releases any focus lease — the camera-ownership doctrine's own
+"asking to go somewhere else is a decision" case, applied to the commit.
+
+Mutants M13 (JS pulse dropped — first attempt was a botched no-op mutation, redone cleanly),
+M14 (bar snap) and M15 (camera hand-off dropped) killed by the two new specs.
 
 ## v1.135.0 — THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT
 

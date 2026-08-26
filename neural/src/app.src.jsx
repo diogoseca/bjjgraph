@@ -11524,14 +11524,33 @@ class Component extends DCLogic {
     const sec = this._decisionDsec || this.get("decisionSec", 9);
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
     this._landClockEl = clockEl || null;
+    if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
     this._armDeckExpire();
   }
   _disarmLandClock() {
     const d = this._decision;
     if (d) { d.remaining = null; d.total = null; }
-    if (this._landEl) this._landEl.classList.remove("ng-clock-hot");
-    if (this._landClockEl) { this._landClockEl.style.transform = "scaleX(0)"; this._landClockEl = null; }
+    if (this._landEl && this._landEl.classList.contains("ng-clock-hot")) {
+      // ease the glow off, never snap it: transition TO the stylesheet values, then let the
+      // inline declarations go (clearing falls back to .ng-landcard's own border/shadow — both
+      // defined there, so the §6.1 "deleted, not restored" trap does not apply)
+      this._landEl.classList.remove("ng-clock-hot");
+      this._landEl.style.transition = "border-color .45s ease, box-shadow .45s ease";
+      this._landEl.style.borderColor = "";
+      this._landEl.style.boxShadow = "";
+    }
+    if (this._landClockEl) {
+      // THE RESET IS AN ANIMATION, NOT A SNAP (v1.135.1, owner: "It should be fluid. It
+      // shouldn't be abrupt"): the bar eases back to empty and sheds the hot red for the base
+      // color it was armed with, instead of jumping. The drain itself stays frame-driven —
+      // the transition exists only for this one write (the next arm clears it).
+      const bar = this._landClockEl;
+      bar.style.transition = "transform .45s cubic-bezier(.2,.7,.2,1), background .45s ease";
+      bar.style.transform = "scaleX(0)";
+      if (this._clockBase) bar.style.background = this._clockBase;
+      this._landClockEl = null;
+    }
   }
   // ── DECLINING IS FREE (v1.134.0, owner: "he needs to answer it fast, otherwise he needs to
   // close the dialog") ── anything that puts the question away — the ✕, a background tap, the
@@ -11615,8 +11634,16 @@ class Component extends DCLogic {
         this._landClockEl.style.transform = "scaleX(" + f.toFixed(4) + ")";
         if (d.remaining <= 3000) {
           this._landClockEl.style.background = "#ff8585";
-          if (this._landEl && !this._landEl.classList.contains("ng-clock-hot")) this._landEl.classList.add("ng-clock-hot");
+          if (this._landEl && !this._landEl.classList.contains("ng-clock-hot")) { this._landEl.classList.add("ng-clock-hot"); this._landEl.style.transition = ""; }
         }
+      }
+      // the last-three-seconds pulse is FRAME-DRIVEN (v1.135.1): a CSS animation on the card
+      // replayed its entry animation when it ended (the owner's "weird flash"), so the glow is
+      // written here each frame and eased off by the disarm's one-shot transition instead.
+      if (d.remaining <= 3000 && d.remaining > 0 && this._landEl) {
+        const ph = 0.5 + 0.5 * Math.sin(((this.now || 0) * 6.28318) / 0.8);
+        this._landEl.style.borderColor = "rgba(255,110,110," + (0.35 + 0.5 * ph).toFixed(3) + ")";
+        this._landEl.style.boxShadow = "0 14px 44px rgba(0,0,0,.5), 0 0 22px rgba(255,110,110," + (0.25 * ph).toFixed(3) + ")";
       }
     }
     if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the DRILL window drains
@@ -11637,6 +11664,15 @@ class Component extends DCLogic {
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
     if (this._pickEl) this.closeListPicker();
+    // THE COMMIT HANDS THE CAMERA TO THE ROLL (v1.135.1, owner: "the camera doesn't immediately
+    // follow the signal that's pulsing … It's very bad gameplay"). The pick's own click had just
+    // written `lastInteract`, and `userActiveNow()` is the ONE condition that suppresses the
+    // follow-cam — so the camera stood still for 4 game-seconds while the pulse left, and only
+    // then caught up. Committing is not a camera gesture; it is the ownership doctrine's
+    // "asking to go somewhere else is a decision" case: age the activity latch out and end any
+    // focus lease, so the follow-cam tracks the travel from its first frame.
+    this.releaseCamera();
+    this.lastInteract = (this.now || 0) - 5;
     this._flushLandSkipDebt(); // committing ends the landing — an unasked question is a real skip now
     // committing past an open question is a FREE SKIP (v1.133.0, owner: "the clock only
     // punishes sitting there") — the beat still marks it for the cold-start funnel, but
