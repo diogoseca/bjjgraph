@@ -42,6 +42,17 @@ jobs:
       - name: Build production site and Forward libraries
         run: npm run build
 
+      # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
+      # `validate:analytics` grades the built site against the key its build ran with, and every
+      # deploy carries POSTHOG_API_KEY — so the deploys only ever prove the WITH-key direction, and
+      # the mutant that matters (deleting `&& cfg.analytics.apiKey`, which is what shipped
+      # posthog.init("") in v1.136.1) changes nothing when a key is present. It therefore survives
+      # every deploy AND every ci-validate run, which never builds at all.
+      # This step builds its own one-file fixture with the key REMOVED (~1s, not the 10-min corpus)
+      # and grades that, so the mutant turns this job red on the PR that introduces it.
+      - name: Analytics surface — the keyless direction (fixture build)
+        run: npm run validate:analytics:nokey
+
       - name: Package tested site
         # THE WHOLE TREE, NOT AN ALLOW-LIST (v1.104.6). The list below used to name six paths, and
         # it predated every spec that reads a seventh: share-camera/share-lists/share-mobile

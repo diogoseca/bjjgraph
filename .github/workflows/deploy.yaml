@@ -180,6 +180,15 @@ jobs:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
         run: npm run validate:analytics
 
+      # ...AND THE KEYLESS DIRECTION, which this deploy can never exercise on its own: the step
+      # above grades the real build, and this job always carries POSTHOG_API_KEY, so the mutant
+      # that shipped posthog.init("") in v1.136.1 (deleting `&& cfg.analytics.apiKey`) is invisible
+      # to it — that mutant changes nothing when a key is present. This builds a one-file fixture
+      # with the key REMOVED (~1s) and grades that, so both halves of the contract are proven on
+      # every deploy instead of only the convenient one.
+      - name: Analytics surface — the keyless direction (fixture build)
+        run: npm run validate:analytics:nokey
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

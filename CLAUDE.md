@@ -206,8 +206,11 @@ Long explanations belong in each script's own docstring, where they cannot drift
 `tests/artifacts/graph_validation_baseline.json`, `max_errors` 0) · `validate:ordinals` share-link
 lockfile (hard) · `validate:payload` byte ratchet · `validate:seo` crawlable-surface ratchet ·
 `validate:headers` cache/security headers · `validate:affiliate` disclosure parity (reads §7 of this
-file) · `validate:analytics` the BUILT PostHog injection against the key its build ran with
-(deploy-only: it reads built bytes, and `ci-validate.yml` never builds) ·
+file) · `validate:analytics` the BUILT PostHog injection against the key its build ran with, plus
+`validate:analytics:nokey`, which builds its own keyless one-file fixture because no deploy can
+exercise that direction (they all carry a key, and the mutant that shipped `posthog.init("")`
+changes nothing when one is present). Neither runs in `ci-validate.yml`, which never builds; the
+keyless half runs on PRs via `e2e-full.yml` and both halves run on both deploys ·
 `validate:mc` MC viability · `validate:curriculum` · `validate:forward` /dev catalog ·
 `validate:flow` the FLOW selfcheck (adjoint vs finite differences) plus the content ratchet on
 `tests/artifacts/flow_validation_baseline.json` ·
