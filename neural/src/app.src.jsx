@@ -1462,6 +1462,7 @@ class Component extends DCLogic {
     // `clearOptions` drop a countdown for a hand that no longer exists without touching anything
     // else — including the "Time's up" line, which reaches this function and clears the flag here.
     this._evCountdown = null;
+    this._evExpiry = null; // the expiry sentence's lease (v1.138.0) — any newer sentence outranks it
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
@@ -3449,6 +3450,7 @@ class Component extends DCLogic {
     if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
+    this._dropExpiryEvent();        // reading a move — the expiry sentence lets go (v1.138.0)
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     // v1.136.0 (owner): the landing card STAYS — the sheet maximizes IN FRONT of it (z:6 over
     // the card's z:5, its shadow falling on it), it does not make the card vanish. This also
@@ -7254,6 +7256,7 @@ class Component extends DCLogic {
     return real[0].idx;
   }
   openDossier(idx, skipCam) {
+    this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: "card" });
@@ -7401,6 +7404,7 @@ class Component extends DCLogic {
   }
   _enterRoam() {
     if (this._roam) return;
+    this._dropExpiryEvent(); // roaming away — the expiry sentence lets go (v1.138.0)
     this._roam = true;
     if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
@@ -9550,6 +9554,7 @@ class Component extends DCLogic {
   // Clamp at the ends: an edge is an edge, and the mini-deck's modulo wrap loses the reader's
   // place in a deck they are browsing.
   _landPageTo(dir) {
+    this._dropExpiryEvent(); // paging to another card — the expiry sentence lets go (v1.138.0)
     const el = this._landEl;
     if (!el || (this._landMode !== "land" && this._landMode !== "attempt")) return false;
     if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
@@ -10939,6 +10944,7 @@ class Component extends DCLogic {
     }
   }
   stageRollAt(nodeIdx) {
+    this._dropExpiryEvent(); // exploring another node — the expiry sentence lets go (v1.138.0)
     this.rollFromPosition(nodeIdx, true);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
@@ -11633,6 +11639,7 @@ class Component extends DCLogic {
       const broke = this._breakCombo("slow");
       this._dockLandCard(card);
       this.setEvent("Too slow", "The answer's on the table \u2014 no pump" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
+      this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
       return;
     }
     // LANDING QUESTION: reveal the mounted block as a miss — the card was shown, so it is spent
@@ -11665,6 +11672,20 @@ class Component extends DCLogic {
     this._landPending = false;
     this.refreshOptionOdds();
     this.setEvent("Too slow", "Answer revealed \u00b7 \u22124% on this exchange" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
+    this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
+  }
+  // ── THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0, owner) ─────────────────────
+  // "The 'Answer revealed · −4%' banner stays pinned while exploring other cards/nodes." The
+  // penalty was paid at expiry; the sentence's job is done the moment attention moves on. It
+  // fades ~5s after it was written (the frame loop below) or IMMEDIATELY when focus moves —
+  // staging another node, free roam, opening an option sheet, paging the deck, opening a
+  // dossier — through this one drop seam. The stamp survives nothing else: any newer setEvent
+  // releases it (one slot, stamped owners — the _evCountdown pattern).
+  _dropExpiryEvent() {
+    if (this._evExpiry == null) return;
+    this._evExpiry = null;
+    const box = this.evRef.current;
+    if (box) box.style.opacity = "0"; // the .ng-evtoast CSS eases it out
   }
   _tickDecision(gdt) {
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
@@ -12578,6 +12599,7 @@ class Component extends DCLogic {
         // the real frame delta. The live roll's own pulse was parked at `startReplay` and is handed
         // back on stop, so nothing of the roll advances here.
         this.updateTravel(this._replay ? dt : gdt);
+        if (this._evExpiry != null && (this.now || 0) - this._evExpiry > 5) this._dropExpiryEvent(); // v1.138.0: the expiry sentence lets go after ~5s
         this._tickDecision(dt); // v1.134.0: the question clock NEVER pauses — "that's our test to the user" (owner); motion still freezes on the internal pause
         this.updateFlash();
         this.updateRipples();
