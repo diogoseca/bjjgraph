@@ -41,19 +41,33 @@ function runGate(markdown) {
   }
 }
 
+// A path that is gitignored and that NO build writes, so it is absent in every tree — built or
+// fresh. The first cut of this test asserted on `source/public` instead and was therefore a
+// measurement of whether the person running it had built: green in CI (which never builds) and
+// red the moment anyone ran it after `npm run build`, which is the worst direction for a flake
+// to point. Nothing creates this file; if something ever does, that is the bug, not this test.
+const NEVER_WRITTEN = "source/public/__refs_gate_probe_never_written__.js";
+
 test("a GENERATED path the canon names on purpose does not fail the gate", () => {
-  // Every one of these is absent from a fresh checkout and gitignored. Before v1.136.2 this
-  // document was three separate CI failures.
+  // All absent from a fresh checkout and gitignored; before v1.136.2 this was three CI failures.
+  // Deliberately asserts only the EXIT CODE, because whether these exist depends on build state:
+  // present, they resolve normally; absent, they are waved through. Both are a pass.
   const r = runGate(
     "The built site lives in `source/public`, the payload in " +
       "`source/quartz/static/neural/`, and dev snapshots land in " +
       "`tests/artifacts/snapshots/`. A real file: `scripts/check_claudemd_refs.py`.\n",
   );
   assert.equal(r.code, 0, `generated paths must pass; gate said:\n${r.out}`);
-  // ...AND IT SAYS SO. A waved-through reference is one the gate did not verify, so silence
-  // here would be the same failure class in a new coat (§6.6).
+});
+
+test("...and it SAYS what it waved through, rather than passing in silence", () => {
+  // A waved-through reference is one the gate did not verify, so silence would be the same
+  // failure class in a new coat (§6.6). Uses the never-written path so the claim holds in a
+  // built tree too.
+  const r = runGate(`A generated file nothing writes: \`${NEVER_WRITTEN}\`\n`);
+  assert.equal(r.code, 0, `an ignored path must not fail the gate; gate said:\n${r.out}`);
   assert.match(r.out, /absent-but-gitignored/, "the skip must print what it waved through");
-  assert.match(r.out, /source\/public/, "...naming the paths, so a growing list is readable");
+  assert.match(r.out, /__refs_gate_probe_never_written__/, "...naming it, so the list is readable");
 });
 
 test("...but a misspelled path still fails, generated-looking or not", () => {
