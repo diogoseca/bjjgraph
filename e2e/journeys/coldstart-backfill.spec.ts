@@ -246,13 +246,36 @@ test("cold start: a payload arriving behind the expand sheet renders BEHIND it, 
       cardVisible: cs.opacity !== "0" && cs.visibility === "visible",
       overlap,
       sheetWinsPaint: !!(hit && panel.contains(hit)),
+      // v1.137.0: born under an open sheet = born stood down. This is the ONLY gate on
+      // renderLandCard's `_syncDetailDim()` re-assert — a backfill builds a brand-new element with
+      // fresh, non-inert children, so nothing else re-applies the dim to it.
+      opacity: parseFloat(cs.opacity),
+      marked: card.hasAttribute("data-behind-sheet"),
+      kidsInert: card.children.length > 0 && [...card.children].every((c: any) => c.inert === true),
     };
   });
   expect(stack, "card and sheet both mounted").not.toBeNull();
   expect(stack!.cardVisible, "the backfilled card arrives VISIBLE behind the sheet").toBe(true);
   if (stack!.overlap) expect(stack!.sheetWinsPaint, "the sheet wins the paint where they overlap").toBe(true);
+  expect(stack!.opacity, "...and DIMMED, not at full strength").toBeLessThan(1);
+  expect(stack!.opacity, "...but not hidden — this is a stand-down, not the old hide").toBeGreaterThan(0);
+  expect(stack!.marked, "the backfilled card carries the stand-down marker").toBe(true);
+  expect(stack!.kidsInert, "and its children are born inert").toBe(true);
 
   await page.evaluate(() => (window as any).__neural.closeOptionDetail());
+  await page.waitForTimeout(400);
+  const restored = await page.evaluate(() => {
+    const card = document.querySelector(".ng-landcard") as HTMLElement;
+    if (!card) return null;
+    return {
+      opacity: getComputedStyle(card).opacity,
+      marked: card.hasAttribute("data-behind-sheet"),
+      kidsInert: [...card.children].some((c: any) => c.inert === true),
+    };
+  });
+  expect(restored!.opacity, "closing the sheet hands the backfilled card back").toBe("1");
+  expect(restored!.marked).toBe(false);
+  expect(restored!.kidsInert).toBe(false);
   expect((await read(page)).hasQ, "carrying the question it was owed").toBe(
     true,
   );
