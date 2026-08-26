@@ -12240,11 +12240,32 @@ class Component extends DCLogic {
       if (this.evRef.current) this.evRef.current.style.opacity = "0";
     }
     this.setStatus(pos);
-    (this.exploredSet = this.exploredSet || new Set()).add(this.posFamily(pos.t));
-    (this._exploredKeys = this._exploredKeys || new Set()).add(this.deckKeyFor(pos).key);
+    const hkey = this.deckKeyFor(pos).key;
+    (this.exploredSet = this.exploredSet || new Set()).add(this.posFamily(pos.t)); // in-memory, this roll only
+    // ── A PERSISTED FIELD HAS TO SCHEDULE ITS OWN WRITE ──────────────────────────────────────
+    // `_exploredKeys` is durable proof since v1.138.0 (`explored` in `_progressBlob`, restored in
+    // `_loadProgress`, unioned in the cloud merge) — and this line, the ONLY place it grows, was
+    // left emitting no save at all. It therefore reached disk only when some LATER writer
+    // happened to flush the whole blob: a graded card, an exchange's `_noteFlow`, the
+    // pagehide/visibilitychange flush. A visitor who only ROAMS — landing on states, never
+    // committing a move, never grading a card — held the whole set in memory, so a crash, an OOM
+    // kill or a force-quit lost every state they had visited. That is the exact "the very weak
+    // tier was empty on every page load" failure the field was promoted to end (§6.6: a durable
+    // field whose write path never fires is absence wearing persistence's clothes).
+    //
+    // The same omission left the persisted blob PERMANENTLY BEHIND memory by this one key, which
+    // is how `loss-aversion.spec.ts`'s "changing the dial changes nothing you have earned" went
+    // red on a build where the dial is innocent: `set()` was simply the first `_saveProgress()`
+    // after a landing, so it flushed a key the LANDING had earned and the diff blamed the dial.
+    //
+    // `_saveFlowSoon()`, not `_saveProgress()`: same cadence and the same reasoning as the ledger
+    // it rides with — one write per 6 idle seconds instead of a full ~1.3MB `JSON.stringify` per
+    // landing on the roll's own animation path (test mode is synchronous, by design). Guarded on
+    // NEW, so re-landing on a state you have already visited schedules nothing.
+    const ek = (this._exploredKeys = this._exploredKeys || new Set());
+    if (!ek.has(hkey)) { ek.add(hkey); this._saveFlowSoon(); }
     // append to the roll history log (skip exact consecutive dupes)
     this.rollLog = this.rollLog || [];
-    const hkey = this.deckKeyFor(pos).key;
     // was the OPEN flashcard box the latest (current-state) row? if so, carry it forward to the new latest row
     const prevLatest = this.rollLog.length - 1;
     const wasLatestOpen = this._openLatestOnLand || (prevLatest >= 0 && this._openRow === ("c" + prevLatest));
