@@ -13,6 +13,11 @@ would act on:
   1. REPO PATHS in backticks (anything containing a `/` or ending in a known source
      extension). A path that no longer resolves sends a reader — or an agent — hunting
      through a tree for a file that was renamed or deleted.
+     A path that is absent but GITIGNORED is not that: it is a generated artifact the canon
+     names on purpose (`source/public`, the emitted neural payload, the dev snapshot dump).
+     Those resolve in the tree a human works in and never in a fresh checkout, so demanding
+     they exist made this gate fail for everyone EXCEPT the person who had just built. See
+     `_git_ignored` for why the answer is git rather than another hand-kept list.
   2. `npm run <script>` invocations, against the real scripts in package.json. A documented
      command that does not exist is worse than an undocumented one: it looks authoritative
      and fails at the shell.
@@ -34,6 +39,7 @@ Deliberately stdlib-only.
 
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -58,6 +64,10 @@ ALLOW_ABSENT = {
     "l.html", "l-manifest.json", "sitemap.xml", "llms.txt", "neural.js", "neural.css",
     "graph-data.json", "sound-catalog.json", "questionBank.json", "graphAdjacency.json",
     "postscript.js", "prescript.js", "index.css", "globalGraphLayout.json",
+    # ...also emitted by regenerate:neural, beside graph-data.json above. A BARE filename
+    # cannot be answered by `_git_ignored` (there is no path to test a rule against), so
+    # emitted files named without their directory still belong on this list.
+    "systems.json",
     # deleted on purpose (v1.80.0 legacy excision, v1.126.0 prototype retirement)
     "trainingSession.ts", "srs.ts", "settings.ts", "explored.ts", "known.ts",
     "dateUtil.ts", "gameAudio.ts", "explorerGraphExpand.ts", "Graph.tsx",
@@ -83,6 +93,57 @@ def _index_basenames() -> dict:
     return idx
 
 
+_IGNORE_CACHE: dict[str, bool] = {}
+_GIT_OK = True
+
+
+def _git_ignored(tok: str) -> bool:
+    """Is this absent path one git is deliberately not tracking?
+
+    DERIVED, NOT LISTED. The alternative was another hand-kept allow-list, and §6.7's trap
+    is exactly that: a hand-maintained enumeration is missing its newest member by default.
+    Git already knows which paths are generated — .gitignore is the declaration — so ask it.
+
+    TRAILING SLASH IS LOAD-BEARING. A dir-only rule (`source/public/`) does not match the
+    path `source/public`, because for a path that does not exist git cannot know it is a
+    directory: measured, `source/public` reads NOT ignored and `source/public/` reads
+    ignored, against the same rule. Both spellings are tested, which is what lets the canon
+    write the natural `source/public` in prose.
+
+    This cannot launder a typo. A misspelled directory (`tests/artifacts/snapshotz/`) matches
+    no rule and still fails; only a name INSIDE an ignored directory is waved through, and
+    the contents of a generated directory are not knowable from a clean tree anyway.
+
+    If git cannot answer at all, the honest failure is the STRICT one: return False so the
+    reference is reported, rather than silently passing every dangling path in the file.
+    """
+    global _GIT_OK
+    if tok in _IGNORE_CACHE:
+        return _IGNORE_CACHE[tok]
+    result = False
+    if _GIT_OK:
+        for cand in (tok, tok.rstrip("/") + "/"):
+            try:
+                p = subprocess.run(["git", "check-ignore", "-q", "--", cand],
+                                   cwd=ROOT, capture_output=True, timeout=10)
+            except (OSError, subprocess.SubprocessError):
+                _GIT_OK = False
+                print("[check_claudemd_refs] WARNING: `git check-ignore` unavailable — "
+                      "generated paths cannot be distinguished from dangling ones, so "
+                      "every absent path below is reported strictly", file=sys.stderr)
+                break
+            if p.returncode == 0:
+                result = True
+                break
+            if p.returncode not in (0, 1):   # 128 = not a repo, bad args
+                _GIT_OK = False
+                print(f"[check_claudemd_refs] WARNING: `git check-ignore` returned "
+                      f"{p.returncode} — falling back to strict absence checks", file=sys.stderr)
+                break
+    _IGNORE_CACHE[tok] = result
+    return result
+
+
 def path_candidates(text: str):
     """Yields (token, offset, kind). kind is 'path' (contains a separator, must resolve
     exactly) or 'name' (a bare filename, must exist somewhere in the tree)."""
@@ -106,16 +167,21 @@ def line_of(text: str, off: int) -> int:
     return text.count("\n", 0, off) + 1
 
 
-def check(doc: Path) -> tuple[list[str], dict]:
+def check(doc: Path, generated: set) -> tuple[list[str], dict]:
     text = doc.read_text(encoding="utf-8")
-    errors, counts = [], {"paths": 0, "npm": 0, "cites": 0}
+    errors, counts = [], {"paths": 0, "npm": 0, "cites": 0, "generated": 0}
 
     names = _index_basenames()
     for tok, off, kind in path_candidates(text):
         counts["paths"] += 1
         if kind == "path":
             if not (ROOT / tok).exists() and Path(tok).name not in ALLOW_ABSENT:
-                errors.append(f"{doc.name}:{line_of(text, off)} dangling path `{tok}`")
+                # absent AND gitignored = a generated artifact, named on purpose
+                if _git_ignored(tok):
+                    counts["generated"] += 1
+                    generated.add(tok)
+                else:
+                    errors.append(f"{doc.name}:{line_of(text, off)} dangling path `{tok}`")
         elif tok not in names and tok not in ALLOW_ABSENT:
             errors.append(
                 f"{doc.name}:{line_of(text, off)} names `{tok}`, which exists nowhere "
@@ -153,18 +219,19 @@ def check(doc: Path) -> tuple[list[str], dict]:
 
 def main() -> None:
     docs = [Path(a) for a in sys.argv[1:]] or [ROOT / "CLAUDE.md"]
-    all_errors, total = [], {"paths": 0, "npm": 0, "cites": 0}
+    all_errors, total = [], {"paths": 0, "npm": 0, "cites": 0, "generated": 0}
+    generated: set = set()
     for d in docs:
         d = d if d.is_absolute() else ROOT / d
         if not d.exists():
             all_errors.append(f"{d}: does not exist")
             continue
-        errs, counts = check(d)
+        errs, counts = check(d, generated)
         all_errors += errs
         for k in total:
             total[k] += counts[k]
 
-    checked = sum(total.values())
+    checked = total["paths"] + total["npm"] + total["cites"]
     if all_errors:
         print("[check_claudemd_refs] FAILED", file=sys.stderr)
         for e in all_errors:
@@ -178,6 +245,11 @@ def main() -> None:
     print(f"[check_claudemd_refs] OK — {total['paths']} repo paths, "
           f"{total['npm']} npm scripts, {total['cites']} symbol@line citations, "
           f"all resolve ({', '.join(d.name for d in docs)})")
+    # THE SKIP PRINTS (§6.6). A reference waved through as "generated" is one this gate did
+    # not actually verify, so it is named every run: a list that grows is a list to read.
+    if generated:
+        print(f"    {total['generated']} reference(s) to {len(generated)} absent-but-gitignored "
+              f"path(s), generated and therefore NOT verified: {', '.join(sorted(generated))}")
 
 
 if __name__ == "__main__":
