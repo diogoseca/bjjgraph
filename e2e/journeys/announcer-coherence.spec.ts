@@ -304,3 +304,92 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
   await j.advance(1500);
   expect((await j.beats()).map((b) => b.beat), "the commit is theirs").toContain("commit");
 });
+
+/**
+ * THE ANNOUNCER NEVER OUTRANKS THE STATE IT DESCRIBES (v1.138.0). @curated
+ *
+ * Owner: "the announcement ... is larger than the current label of the current node, and it
+ * shouldn't be the case. The current node is the fucking URL of the page ... it should be
+ * absolutely the biggest text that's shown on this page, not the announcement."
+ *
+ * It was: the toast shipped at 22px from the original design import and the focused pair label at
+ * 18px. That label is the ONLY place the current node is named during a roll — `renderLandCard`
+ * carries no header BECAUSE "the graph names the focused node beside it" (v1.101.1) — so a
+ * transient status line outranked the page's own subject, at 1.22x, at every viewport.
+ *
+ * WHAT THIS READS, AND WHY IT IS NOT A SECOND IMPLEMENTATION (CLAUDE.md 6.3). The announcer is
+ * real DOM, so `getComputedStyle` IS the render's output — and it is the only oracle that sees
+ * `_applyTypeScale`'s runtime write beating the template's first-frame guess, which is exactly
+ * where a cascade mistake would hide. The canvas half has no DOM and its font lives in a
+ * draw-local, so the frame PUBLISHES what it drew (`_lastPairLabel.namePx`, the `this._LY = LY`
+ * pattern); re-deriving it spec-side would agree with a broken build by construction.
+ *
+ * Both viewports, because the two sides step independently: the phone label is pinned by
+ * `dual-pair.spec.ts`'s width bound and cannot grow, so there the rank is restored by the
+ * announcer alone. A gate that only checked desktop would have proved nothing about the device
+ * the complaint's own sentence looks worst on.
+ *
+ * Companion gate: tests/neural_type_scale.test.mjs pins the ORDERING in pure node on every PR,
+ * plus the draw/`_labelWidthPx` agreement this spec cannot see. Mutants that must die here:
+ * announcer back to 22px; `NG_NAME_PX` back to 18; `_applyTypeScale` never called from `resize()`.
+ *
+ * KNOWN BLIND SPOTS, recorded so nobody reads this as more than it is (CLAUDE.md 6.3). It asserts
+ * the RANK, not the absolute sizes. It says nothing about the round-end centre announcer
+ * (`evcTextRef`, up to 68px) — that surface is still ungated, and three of its four callers do not
+ * clear this toast. And one mutant SURVIVES it by construction: making `_lastPairLabel.namePx`
+ * lie UPWARD (99) still passes, because a bigger reported name cannot falsify a "the announcer is
+ * smaller" claim. What kills that one is tests/neural_type_scale.test.mjs, which pins that the
+ * published field is the variable the draw actually used.
+ */
+for (const vp of [
+  { name: "desktop", width: 1280, height: 800 },
+  { name: "phone", width: 390, height: 844 },
+]) {
+  test(`@curated on ${vp.name} the state's name reads larger than the announcer`, async ({ page }) => {
+    await page.setViewportSize({ width: vp.width, height: vp.height });
+    const j = journey(page);
+    await j.boot("/Positions/Mount/Top");
+    await j.advance(6000);
+    // the pair group only draws once the roll has settled at roll zoom — pump until it publishes
+    for (let i = 0; i < 12; i++) {
+      await page.evaluate(() => document.body.getBoundingClientRect().top);
+      await j.advance(400);
+      if (await page.evaluate(() => !!(window as any).__neural._lastPairLabel)) break;
+    }
+
+    const m = await page.evaluate(() => {
+      const a: any = (window as any).__neural;
+      // the owner's literal sentence, from the `Too slow` branch that prompted this
+      a.setEvent("Too slow", "Answer revealed · −4% on this exchange", "bad");
+      const t = a.evTextRef && a.evTextRef.current;
+      const box = a.evRef && a.evRef.current;
+      const L = a._lastPairLabel;
+      return {
+        namePx: L ? L.namePx : null,
+        name: L ? L.main : null,
+        focused: L ? L.focused : null,
+        toastPx: t ? parseFloat(getComputedStyle(t).fontSize) : null,
+        toastText: t ? t.textContent : null,
+        // the INLINE opacity, which is what `setEvent` writes and what the tests above already
+        // read: the box carries a .45s CSS transition and the frame clock here is PUMPED, so a
+        // computed alpha is still mid-fade and would report a lit toast as hidden. The size is
+        // read computed (below) because that is where the runtime write has to be proved; the
+        // liveness is read inline because that is where the app states its intent.
+        toastLit: box ? box.style.opacity === "1" : false,
+      };
+    });
+
+    // SELF-CHECK FIRST (CLAUDE.md 6.6): "no label was drawn" and "the label is big enough" must
+    // never produce the same pass, and neither must a toast that is not actually on screen.
+    expect(m.focused, "the FOCUSED pair group drew its label this frame").toBe(true);
+    expect(m.namePx, `the frame published the size it drew "${m.name}" at`).toBeGreaterThan(0);
+    expect(m.toastPx, "the announcer resolved a real computed size").toBeGreaterThan(0);
+    expect(m.toastLit, "…and the announcer is actually lit").toBe(true);
+    expect(m.toastText?.length ?? 0, "…with the sentence in it").toBeGreaterThan(10);
+
+    expect(
+      m.toastPx,
+      `${vp.name}: the announcer (${m.toastPx}px) must read clearly below "${m.name}" (${m.namePx}px)`,
+    ).toBeLessThanOrEqual(m.namePx! / 1.15);
+  });
+}

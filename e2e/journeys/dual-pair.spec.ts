@@ -103,9 +103,9 @@ const geometry = (page: Page) =>
  * (`sy - 12` / `sy + 24`) out to the orbs themselves (v1.135.0: the word rides its orb). The strip starts
  * clear of the orbs, so a bright reading is text and nothing else.
  */
-const strips = (page: Page, midY: number, x: number) =>
+const strips = (page: Page, midY: number, x: number, fromDrawnName = false) =>
   page.evaluate(
-    ({ midY, x }: Any) => {
+    ({ midY, x, fromDrawnName }: Any) => {
       const a = (window as Any).__neural
       const cv: HTMLCanvasElement = a.canvas
       const ctx = cv.getContext("2d")!
@@ -123,18 +123,34 @@ const strips = (page: Page, midY: number, x: number) =>
         }
         return n
       }
+      // THE NAME BAND MUST COVER THE NAME (v1.138.0). `midY - 6` was cut for an 18px name, whose
+      // ascenders reach ~13px above its baseline; the state's name is 24px on a desktop now and
+      // reaches ~18px, so its own glyph tops fell OUTSIDE the `name` band and landed in `above` —
+      // and "nothing is above it" went red on a perfectly correct build, which is CLAUDE.md 6.3's
+      // "an assertion stricter than its own claim" exactly. The claim is about the ROLE WORD, not
+      // about the name's ascenders, so the boundary now comes from what the frame actually drew:
+      // its published baseline and size, measured on a scratch context (`this.ctx` is mid-frame
+      // state). At the old 18px this returns the historical bands to within a pixel, and it
+      // cannot drift again the next time the size moves.
+      let split = midY - 6
+      const L = fromDrawnName ? a._lastPairLabel : null
+      if (L && L.namePx) {
+        const sc = document.createElement("canvas").getContext("2d")!
+        sc.font = "700 " + L.namePx + "px " + (a._displayFam || "'Space Grotesk'") + ", sans-serif"
+        split = L.nameY - sc.measureText(L.main || "M").actualBoundingBoxAscent - 1
+      }
       return {
         // v1.135.0: the role word rides its orb at a wide split (subY = orbY ± 4), so the side
         // bands reach the orbs instead of stopping 20px out. The above band's near edge moved
         // -6 -> -8 so it stays clear of the word's own ascenders when a strip is taken AT the
         // upper orb's line (the no-second-label check) while still catching the old hover
         // label's baseline (-8, glyphs to -21).
-        above: band(midY - 48, midY - 8),
-        name: band(midY - 6, midY + 12),
+        above: band(midY - 48, Math.min(midY - 8, split)),
+        name: band(split, midY + 12),
         below: band(midY + 12, midY + 48),
       }
     },
-    { midY, x },
+    { midY, x, fromDrawnName },
   )
 
 /**
@@ -190,7 +206,7 @@ test("@curated the pair reads as one state: both halves framed, the name on the 
   // THE NAME SITS ON THE MIDLINE AND THE SUBTITLE SITS BELOW IT, because the focus is the lower
   // half. `x` clears the widest orb, so anything bright in these strips is text.
   const x = g.focus.sx + Math.max(g.focus.r, g.partner!.r) + 14
-  const rest = await strips(page, g.midSy, x)
+  const rest = await strips(page, g.midSy, x, true)
   expect(rest.name, `the name is drawn on the pair's midline (${JSON.stringify(rest)})`).toBeGreaterThan(300)
   expect(rest.below, "the subtitle is below the name for the bottom half").toBeGreaterThan(40)
   expect(rest.above, "and nothing is above it").toBeLessThan(rest.below / 2)
@@ -200,7 +216,7 @@ test("@curated the pair reads as one state: both halves framed, the name on the 
   await page.mouse.move(g.partner!.sx - 60, g.partner!.sy - 60)
   await page.mouse.move(g.partner!.sx, g.partner!.sy)
   await j.advance(120) // inside `_hover`'s 0.5s freshness window
-  const hovered = await strips(page, g.midSy, x)
+  const hovered = await strips(page, g.midSy, x, true)
   expect(
     hovered.name,
     `the name did not move (${rest.name} -> ${hovered.name} bright px on the same midline)`,

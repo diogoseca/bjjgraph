@@ -126,7 +126,12 @@
   <!-- event toast (top of play area) -->
   <div ref="{{ evRef }}" class="ng-evtoast" style="position:absolute;top:30px;left:50%;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .45s ease;text-align:center;width:min(540px,64vw);">
     <div ref="{{ evKickerRef }}" style="font-size:10.5px;letter-spacing:.34em;text-transform:uppercase;font-weight:700;color:#7b97aa;margin-bottom:7px;">&nbsp;</div>
-    <div ref="{{ evTextRef }}" style="font-size:22px;font-weight:600;color:#eef1f6;letter-spacing:-.01em;line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.55);">&nbsp;</div>
+    <!-- 18px here is a FIRST-FRAME GUESS ONLY: `_applyTypeScale` (app.src.jsx) overwrites it from
+         `announcerPx()` on the first resize, because the phone step (15px) is a breakpoint this
+         inline style cannot carry and this file's own <helmet> is stripped by build.mjs. It was
+         22px until v1.138.0, which made the transient status line LARGER than the name of the
+         node the page is about — the one thing on screen that must outrank it. -->
+    <div ref="{{ evTextRef }}" style="font-size:18px;font-weight:600;color:#eef1f6;letter-spacing:-.01em;line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.55);">&nbsp;</div>
   </div>
 
   <!-- options tray (bottom of play area) -->
