@@ -62,7 +62,7 @@ test("the panic drill is a landing card, above the escape hand @curated", async 
   expect(g!.escapeCards, "and every escape is still dealt").toBeGreaterThan(0);
 });
 
-test("grading it pumps the escape odds and refunds clock, from its new home", async ({ page }) => {
+test("grading the drill in time pumps the escape odds and spends the window (v1.133.0)", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
@@ -75,17 +75,30 @@ test("grading it pumps the escape odds and refunds clock, from its new home", as
     const a: any = (window as any).__neural;
     return { rem: a._decision.remaining, odds: a._optList.map((o: any) => a.escapeChance(o)) };
   });
+  expect(before.rem, "the DRILL carries the question clock (v1.133.0)").not.toBeNull();
 
-  await j.clickByMouse("[data-panic-reveal]", "Reveal");
-  await page.waitForTimeout(150);
-  await j.clickByMouse("[data-panic-got]", "Got it");
+  // v1.135.0: MC when warm (the landing idiom, danger skin); reveal/got is the cold fallback
+  const mcIdx = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const card = document.querySelector("[data-panic]");
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
+      ? a._mc.correct
+      : null;
+  });
+  if (mcIdx != null) {
+    await j.clickByMouse(`[data-panic-mc-opt="${mcIdx}"]`, "the correct MC option");
+  } else {
+    await j.clickByMouse("[data-panic-reveal]", "Show answer");
+    await page.waitForTimeout(150);
+    await j.clickByMouse("[data-panic-got]", "Got it");
+  }
   await page.waitForTimeout(250);
 
   const after = await page.evaluate(() => {
     const a: any = (window as any).__neural;
     return { rem: a._decision.remaining, odds: a._optList.map((o: any) => a.escapeChance(o)) };
   });
-  expect(after.rem, "composure buys clock").toBeGreaterThan(before.rem);
+  expect(after.rem, "drilled in time — the window is spent, not refunded").toBeNull();
   expect(after.odds.some((o: number, i: number) => o > before.odds[i]), "every escape's odds climb").toBe(true);
   await j.expectBeat("escape_odds_pumped");
 });

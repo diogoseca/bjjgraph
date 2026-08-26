@@ -67,10 +67,10 @@ test("Space toggles the roll; Esc unwinds one layer at a time", async ({ page })
   await j.land("Mount Top")
   expect(await paused(page)).toBe(false)
 
+  // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and the
+  // question clock is deliberately un-pausable. Space must NOT flip anything on the bare board.
   await page.keyboard.press("Space")
-  expect(await paused(page), "Space paused").toBe(true)
-  await page.keyboard.press("Space")
-  expect(await paused(page), "Space resumed").toBe(false)
+  expect(await paused(page), "Space no longer pauses").toBe(false)
 
   // Esc cascade: option sheet first, then the pane — never both at once
   await page.locator(".ng-logo").click()
@@ -117,7 +117,9 @@ test("the Shortcuts tab documents the keys that exist", async ({ page }) => {
     (await page.locator(".ng-modal, [role=dialog], body").last().textContent()) || ""
   ).toLowerCase()
   for (const key of ["a", "b", "c", "d"]) expect(legend, `${key} is documented`).toContain(key)
-  for (const phrase of ["play / pause roll", "multiple-choice", "execute technique", "esc"]) {
+  // v1.134.0: the transport is retired — "play / pause roll" left the list with its keys
+  expect(legend, "the retired pause row is gone").not.toContain("play / pause roll")
+  for (const phrase of ["multiple-choice", "execute technique", "esc"]) {
     expect(legend, `"${phrase}" documented`).toContain(phrase)
   }
 })

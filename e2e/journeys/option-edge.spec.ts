@@ -50,8 +50,8 @@ const cardEdges = (page: any) =>
         return o && o.node ? o.node.ty : null;
       })(),
       mid:
-        (c.querySelector("span[style*='letter-spacing:.16em']") || {})
-          .textContent || "",
+        // v1.134.0: the category eyebrow dropped to .05em tracking and gained its own handle
+        (c.querySelector("[data-cat]") || {}).textContent || "",
       edge: c.querySelector(".ngedge")
         ? c.querySelector(".ngedge").textContent
         : null,
@@ -634,3 +634,72 @@ test("Settings no longer offers an ordering it does not use", async ({
     "Sound volume",
   );
 });
+
+/**
+ * THE SHEET IS THE CARD YOU PRESSED, VERBATIM (v1.136.0). Owner, on the old head: the EDGE
+ * explainer paragraph "is not supposed to show to every user every time … needs to be a small,
+ * almost noticeable tooltip near the number"; the from→to decomposition ("Headquarters Position
+ * → open-guard") "is fucking unreadable — the technique's own name should really stand out";
+ * the glyph "used to say 2, and now it just shows the transition icon without a 2"; and the
+ * landing card "magically disappears — it should be BEHIND the maximized card, not gone".
+ * Mutants that must die: restoring the explainer paragraph; restoring the from→to title;
+ * dropping the digit (nodeGlyph instead of catGlyph); re-hiding the landcard on expand.
+ */
+test("@curated the sheet keeps the card's name, digit and quiet category — and the landcard stays behind it", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const opened = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const opt = a._optList && a._optList[1] // the card that wears digit 2
+    if (!opt) return false
+    a.expandOption(opt, () => {})
+    return true
+  })
+  expect(opened, "a second option to expand").toBe(true)
+  await j.advance(300)
+  await page.waitForTimeout(400) // the card's wall-clock entry animation must finish before computed opacity means anything
+  const r = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const opt = a._optList[1]
+    const panel = a.optDetailRef.current
+    const land = a._landEl
+    const titleEl = [...panel.querySelectorAll("div")].find((d: any) => d.style.fontSize === "27px")
+    return {
+      spMain: a.splitName(a.nodes[opt.idx].t).main,
+      title: titleEl ? titleEl.textContent : null,
+      decomposed: panel.innerHTML.includes('→</span><span style="font-size:25px'),
+      explainer: panel.innerHTML.includes("How far this tilts the roll"),
+      tooltip: (panel.querySelector(".ngedgebig")?.getAttribute("title") || ""),
+      digit: panel.querySelector(".ngglyph")?.innerHTML.includes(">2<") || false,
+      landOpacity: land ? getComputedStyle(land).opacity : null,
+      landVisibility: land ? getComputedStyle(land).visibility : null,
+      // PAINT ORDER, not z-index arithmetic (§6.3): a point inside both rects must resolve to
+      // the sheet — the first cut compared z integers across two stacking contexts and passed
+      // green on a build where the card painted over the sheet.
+      sheetOverLand: (() => {
+        if (!land) return false
+        const cr = land.getBoundingClientRect(), pr = panel.getBoundingClientRect()
+        const x = (Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right)) / 2
+        const y = (Math.max(cr.top, pr.top) + Math.min(cr.bottom, pr.bottom)) / 2
+        if (Math.min(cr.bottom, pr.bottom) <= Math.max(cr.top, pr.top)) return true // no overlap: vacuously fine
+        const hit = document.elementFromPoint(x, y)
+        return !!(hit && panel.contains(hit))
+      })(),
+    }
+  })
+  expect(r!.title, "the technique's OWN name is the title").toBe(r!.spMain)
+  expect(r!.decomposed, "the from→to decomposition is gone").toBe(false)
+  expect(r!.explainer, "no explainer paragraph on every open").toBe(false)
+  expect(r!.tooltip, "the explainer became the number's tooltip").toContain("By-the-book opponent")
+  expect(r!.digit, "the glyph still wears the tray digit").toBe(true)
+  expect(r!.landOpacity, "the landing card stays visible behind the sheet").toBe("1")
+  expect(r!.landVisibility).toBe("visible")
+  expect(r!.sheetOverLand, "and the sheet stacks over it").toBe(true)
+})

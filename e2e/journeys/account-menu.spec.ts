@@ -223,7 +223,7 @@ test("the logo opens the pane on the LEFT and only the pane", async ({ page }) =
   expect(await menuOpen(page), "menu opens with the pane up").toBe(true)
 })
 
-test("phone 390x844: chip + menu in thumb reach, clear of the transport band, 44px rows", async ({
+test("phone 390x844: chip + menu in thumb reach, clear of the hand, 44px rows", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 })
@@ -239,10 +239,9 @@ test("phone 390x844: chip + menu in thumb reach, clear of the transport band, 44
   expect(await menuOpen(page)).toBe(true)
 
   const m = (await page.locator(".ng-account-menu").boundingBox())!
-  const bar = (await page.locator(".ng-transport").boundingBox())!
-  const overlaps =
-    m.x < bar.x + bar.width && bar.x < m.x + m.width && m.y < bar.y + bar.height && bar.y < m.y + m.height
-  expect(overlaps, "menu clears the transport band").toBe(false)
+  // v1.134.0: the transport band is deleted, and with it the same-plane collision this test
+  // guarded. The menu is a deliberate temporary screen now — covering part of the hand is
+  // ordinary dropdown behavior, so the surviving claims are reachability, not clearance.
   expect(m.x, "menu fully on-screen").toBeGreaterThanOrEqual(0)
   expect(m.x + m.width).toBeLessThanOrEqual(390)
   expect(m.y).toBeGreaterThanOrEqual(0)

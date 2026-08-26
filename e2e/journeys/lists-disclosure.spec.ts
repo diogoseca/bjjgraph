@@ -243,8 +243,11 @@ test("clicking a listed technique opens its dossier — the same move as a share
     `[data-list-items="${id}"] [data-list-item="${picks[1].id}"]`,
     "a listed technique",
   );
-  // v1.101.5: there is no second reading surface any more. Opening a TECHNIQUE renders the game
-  // card for it, unfolded — `_dossierIdx` stays null because nothing was "opened", the card grew.
+  // v1.132.0: opening a technique NAVIGATES — the exchange stages on it and the card arrives
+  // with the landing (~0.6s sim), so the read pumps the clock first. `_dossierIdx` stays null
+  // because nothing separate was "opened"; the game's own card is the surface.
+  await j.advance(1500);
+  await j.landQuestion();
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx ?? null),
     "no separate dossier surface is opened",
@@ -356,7 +359,7 @@ test("the list you just made, and the list you just added to, are already open @
   const leaf = page.locator('[data-list-add][data-list-surface="explore"]').first();
   const nodeId = (await leaf.getAttribute("data-list-add"))!;
   await leaf.click();
-  // v1.102.0: the + always asks where it goes — nothing is filed into a list nobody picked
+  // v1.102.0: the capture star always asks where it goes — nothing is filed into a list nobody picked
   await page.locator(`[data-list-pick="${id}"]`).click();
 
   await expect(
@@ -368,7 +371,7 @@ test("the list you just made, and the list you just added to, are already open @
 
 // ─────────────────────────────────────────────── 6. the empty list
 
-test("an empty list says it is empty, and says which + fills it", async ({ page }) => {
+test("an empty list says it is empty, and says which star fills it", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
@@ -382,10 +385,19 @@ test("an empty list says it is empty, and says which + fills it", async ({ page 
   await expect(empty, "the newborn explains itself instead of showing a bare 0").toBeVisible();
   const copy = ((await empty.textContent()) || "").replace(/\s+/g, " ").trim();
   expect(copy).toContain("No techniques yet");
-  // it must name surfaces that REALLY carry [data-list-add]
-  expect(copy, "the in-roll capture path is the one this feature is for").toMatch(/option card/i);
-  expect(copy).toMatch(/dossier/i);
+  // it must name the GLYPH the control actually wears (a star since v1.129.8) and surfaces that
+  // REALLY carry [data-list-add]. The old copy named a `+` on "an option card" and "a
+  // technique's dossier" — the option cards lost their capture in v1.101.1 and the dossier
+  // renderer has been unreachable since v1.101.5, so it pointed at two controls nobody can find.
+  expect(copy, "the glyph it names is the glyph on screen").toMatch(/star/i);
+  expect(copy, "the in-roll capture path is the one this feature is for").toMatch(
+    /card you land on/i,
+  );
+  expect(copy).toMatch(/detail sheet/i);
   expect(copy).toMatch(/Explore row/i);
+  expect(copy, "and it no longer sends anyone to a control that was deleted").not.toMatch(
+    /option card|dossier/i,
+  );
 
   // and those surfaces exist: the Explore one is right here, one section-fold away
   await page.locator('[data-explore-section="Positions"]').click();

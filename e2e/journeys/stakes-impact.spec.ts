@@ -162,7 +162,12 @@ test("victory cascade ≤1.5s on win; defeat drain on loss; ladder survives relo
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
   await j.advanceUntil("caught", 20000)
-  await j.advance(12000) // defense window expires → tapped
+  // v1.133.0: the escapes are untimed — expiry reveals the drill, it no longer taps you out.
+  // The loss is earned the honest way: a rigged FAILED escape.
+  await j.advance(800)
+  await j.rig("escape", [0.99])
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
+  await j.advanceUntil("roll_end", 20000)
   await j.expectBeat("defeat_drain")
   await j.expectBeat("ladder_down")
   const rank2 = await page.evaluate(() => (window as any).__neural.ladderState().rank)

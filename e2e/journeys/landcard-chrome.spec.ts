@@ -115,6 +115,7 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
     const card = document.querySelector(".ng-landcard") as HTMLElement;
     const add = c.querySelector("[data-list-add]") as HTMLElement;
     const x = c.querySelector("[data-land-close]") as HTMLElement;
+    const star = add.querySelector("svg") as unknown as SVGElement;
     const cb = card.getBoundingClientRect(), ab = add.getBoundingClientRect(), xb = x.getBoundingClientRect();
     return {
       rowH: Math.round(c.getBoundingClientRect().height),
@@ -123,13 +124,22 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
       addGlyphMid: Math.round(ab.top + ab.height / 2 - cb.top),
       xGlyphMid: Math.round(xb.top + xb.height / 2 - cb.top),
       addHit: Math.round(ab.width),
+      starW: star ? star.getAttribute("width") : null,
+      starBox: star ? Math.round(star.getBoundingClientRect().width) : -1,
     };
   });
-  // the row is the ✕'s height, NOT the thumb +'s — that is what lifts the pair to the inset
+  // the row is the ✕'s height, NOT the thumb ★'s — that is what lifts the pair to the inset
   expect(m.rowH, "the 44px thumb target must not set the row height").toBe(24);
   expect(m.xFromTop, "same inset from the top as from the right").toBe(m.xFromRight);
   expect(m.addGlyphMid, "both glyphs on one baseline").toBe(m.xGlyphMid);
-  expect(m.addHit, "and the + keeps its 44px thumb target").toBe(44);
+  expect(m.addHit, "and the star keeps its 44px thumb target").toBe(44);
+  // THE GLYPH IS SIZED BY ITS BOX, NOT BY `font-size` (v1.129.8). Under an SVG `font-size` is
+  // inert, and this corner used to be the site that set it — 15px, which after the star would
+  // have silently rendered at the 12px default. 14 here: unboxed beside the ✕ (nothing competing,
+  // so it reads heavier), and one step under the sheet's 15 because v1.104.2 requires this
+  // corner's geometry to come from the 24px ✕ rather than the 44px thumb.
+  expect(m.starW, "the corner star is sized deliberately, not left on the boxed default").toBe("14");
+  expect(m.starBox, "and it renders at that size, not at the 44px hit area").toBe(14);
 
   // THE OVERLAP IS DELIBERATE BUT MUST NOT EAT THE ✕: the + renders 44 while laying out at 24, so
   // its box overhangs. The ✕ paints later and should still win — verified, never assumed, because
@@ -147,7 +157,7 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
     };
   });
   expect(hit.x, "the ✕ owns its own centre").toBe("self");
-  expect(hit.add, "the + owns its own centre").toBe("self");
+  expect(hit.add, "the star owns its own centre").toBe("self");
 });
 
 test("the clip hover is a hint, not a flash", async ({ page }) => {

@@ -34,7 +34,7 @@ test("the landing card shows identity, then film, then the question — in that 
   // for it. (The ✕ is a child too, but it is absolutely positioned and reads as chrome.)
   const order = await card.evaluate((el) =>
     Array.from(el.children)
-      .filter((c) => !c.hasAttribute("data-land-corner"))
+      .filter((c) => !c.hasAttribute("data-land-corner") && !c.hasAttribute("data-land-clock-track"))
       .map((c) =>
         c.hasAttribute("data-land-film")
           ? "film"

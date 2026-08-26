@@ -99,7 +99,8 @@ const geometry = (page: Page) =>
  *
  * The label group is `ctx.fillText` on the canvas — there is no DOM node to query — so this reads
  * the pixels the owner would be looking at. `name` straddles the midline (baseline `sy + 6`, 18px);
- * `above` and `below` are where the 11px subtitle lands (`sy - 12` / `sy + 24`). The strip starts
+ * `above` and `below` are where the 11px subtitle can land — from the old block offsets
+ * (`sy - 12` / `sy + 24`) out to the orbs themselves (v1.135.0: the word rides its orb). The strip starts
  * clear of the orbs, so a bright reading is text and nothing else.
  */
 const strips = (page: Page, midY: number, x: number) =>
@@ -123,9 +124,14 @@ const strips = (page: Page, midY: number, x: number) =>
         return n
       }
       return {
-        above: band(midY - 26, midY - 6),
+        // v1.135.0: the role word rides its orb at a wide split (subY = orbY ± 4), so the side
+        // bands reach the orbs instead of stopping 20px out. The above band's near edge moved
+        // -6 -> -8 so it stays clear of the word's own ascenders when a strip is taken AT the
+        // upper orb's line (the no-second-label check) while still catching the old hover
+        // label's baseline (-8, glyphs to -21).
+        above: band(midY - 48, midY - 8),
         name: band(midY - 6, midY + 12),
-        below: band(midY + 12, midY + 32),
+        below: band(midY + 12, midY + 48),
       }
     },
     { midY, x },
@@ -844,4 +850,42 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
     (q.nameY + q.qualY) / 2 - q.midY,
     `the two-row block centres where the one-row label does (block ${(q.nameY + q.qualY) / 2 - q.midY}, single ${p.nameY - p.midY})`,
   ).toBeCloseTo(p.nameY - p.midY, 5)
+})
+
+/**
+ * THE ROLE WORD RIDES ITS ORB (v1.135.0). @curated
+ *
+ * Owner: "why does top mount look red like i'm going to lose?" — at roll zoom the pair label
+ * anchored everything at the pair MIDLINE, which left "TOP" floating 33px from the blue orb it
+ * names AND 33px from the red bottom orb below it, so the eye could bind "TOP · Mount" to the
+ * red one. The word now sits at its own member's drawn y whenever the split allows
+ * (`subY = min(nameY - 18, orbY + 4)` above / mirrored below), clamped to the block's old
+ * clearances — so an ordinary ~35px pair is unchanged (±1px) and the fix only shows where the
+ * ambiguity existed. Asserted from `_lastPairLabel.subY`, the render's own published output.
+ * Mutant that must die: reverting subY to the bare `nameY - 18` offset.
+ */
+test("@curated at a wide split the role word sits at its orb, not the midline", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Mount/Top")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const g = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const L = a._lastPairLabel
+    if (!L) return null
+    const n = a.nodes[L.idx]
+    const scale = a.W / a.cam.vw
+    const orbY = (a._LY(n) - a.cam.cy) * scale + a.H / 2
+    return { sub: L.sub, subY: L.subY, nameY: L.nameY, orbY, above: L.above }
+  })
+  expect(g, "the focused pair drew its label group").not.toBeNull()
+  expect(g!.sub, "the word names the top half").toBe("TOP")
+  expect(g!.above).toBe(true)
+  // wide split: the orb is well above the name block, so the word must LEAVE the midline
+  expect(g!.orbY, "the split is wide enough to disambiguate").toBeLessThan(g!.nameY - 24)
+  expect(Math.abs(g!.subY - (g!.orbY + 4)), "the word rides its orb").toBeLessThanOrEqual(1)
+  expect(g!.subY, "and never enters the name's clearance").toBeLessThanOrEqual(g!.nameY - 18)
 })

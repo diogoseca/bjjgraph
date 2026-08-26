@@ -84,8 +84,7 @@ renders as TWO adjacent nodes (Top/Bottom, Attacker/Defender) on an isometric gr
 `graph-data.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched, because both
 roles were already in the data model and the split is derived at ingest (`_deriveDualPairs`). The
 rep member IS the hub node, so hub ids, share ordinals and page URLs are unaffected; only the
-partner mints an id. Details and measurements: CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
-DERIVED AT INGEST". The design questions behind it — and the cutover plan that was superseded by
+partner mints an id. Details and measurements: `docs/Changelog-Archive.md` → v1.125.0. The design questions behind it — and the cutover plan that was superseded by
 being unnecessary — live in [DualPairMigration.md](DualPairMigration.md).
 
 ---
@@ -248,8 +247,10 @@ Neural has two independent progression axes:
 | **Game Knowledge** | Frequency-weighted recall mastery across the graph | No |
 | **Challenges** | Evidence that a player performed useful actions or completed study goals | No |
 
-Explore, Challenges, and Collection are peer left-pane views. Game Knowledge remains visible above
-all three. The five Challenge tracks label content difficulty (White through Black) and are all
+The pane's three tabs are **Explore · Challenges · Last rolls** (the third tab's view id and
+settings keys remain `history` internally). There is no Collection tab — rewards live in a shelf at
+the foot of Challenges — and there is no Game Knowledge header: the score's one exposure is the
+Explore tab subtitle. Full behaviour: [Neural.md](Neural.md). The five Challenge tracks label content difficulty (White through Black) and are all
 selectable from a fresh profile. Track names do not claim or award real-world rank.
 
 Challenge definitions are declarative in `neural/src/challenge-definitions.src.js`; pure matching,

@@ -1,86 +1,18 @@
 const NG_CHALLENGE_FEEDBACK_METHODS = {
+  // ── THE CUE CARD IS RETIRED (v1.133.0, owner: "let's also remove the learning card. I don't
+  // think that's helping very much right now.") ── the persistent bottom-left "WHITE CHALLENGES ·
+  // Preview a move" card is gone: it congratulated arrival, occluded the phone's focus label (the
+  // repo's long-standing STILL OPEN collision), and trained newcomers to dismiss the one channel
+  // that talked to them. The challenge ENGINE is untouched — objectives still tick from beats and
+  // the pane's Challenges tab is the surface. This method survives as a REMOVER so every existing
+  // call site stays harmless and a live profile's mounted cue is cleaned up on the next call.
   renderChallengeCue() {
-    const remove = () => {
-      if (!this._tutEl) return;
-      try {
-        this._tutEl.remove();
-      } catch (e) {}
-      this._tutEl = null;
-    };
-    const visible =
-      this.get("challengeCueVisible", true) &&
-      !this.tutHidden &&
-      !this._coach &&
-      !(
-        this.explorerRef &&
-        this.explorerRef.current &&
-        this.explorerRef.current.style.display === "flex"
-      );
-    if (!visible) {
-      remove();
-      return;
-    }
-    const trackId = this._frontierBeltId(); // the cue follows the corridor (pinning retired v1.99.2)
-    const track =
-      NG_CHALLENGE_TRACKS.find((item) => item.id === trackId) ||
-      NG_CHALLENGE_TRACKS[0];
-    const summary = this.challengeTrackProgress(track.id);
-    const current = this.challengeCurrent(track.id);
-    const ack = this._challengeCueAck;
-    const title = ack
-      ? "Challenge complete - next up"
-      : current
-        ? current.title
-        : track.name + " cleared";
-    const detail = ack
-      ? current
-        ? current.title
-        : "Browse another open track"
-      : current
-        ? current.action
-        : "Patch added to your Collection";
-    let el = this._tutEl;
-    if (!el) {
-      el = document.createElement("aside");
-      el.className = "ng-tut ng-challenge-cue";
-      el.setAttribute("data-tut", "1");
-      el.setAttribute("data-challenge-cue", "1");
-      (this.__ngRoot || document.body).appendChild(el);
-      this._tutEl = el;
-    }
-    el.setAttribute(
-      "data-tut-step",
-      current && current.legacyId ? current.legacyId : current ? current.id : "",
-    );
-    el.innerHTML =
-      '<button type="button" data-challenge-cue-open><span class="ng-cue-head"><small>' +
-      track.id.toUpperCase() +
-      ' CHALLENGES</small><span data-tut-count>' +
-      summary.done +
-      "/" +
-      summary.total +
-      "</span></span><b data-tut-copy>" +
-      ngChallengeHTML(title) +
-      '</b><span class="ng-cue-detail">' +
-      ngChallengeHTML(detail) +
-      "<em>Open Challenges</em></span></button>" +
-      '<button type="button" data-tut-hide aria-label="Hide challenge cue" title="Hide challenge cue">&times;</button>' +
-      '<span class="ng-sr-only" aria-live="polite">' +
-      (ack ? ngChallengeHTML(title + ". " + detail) : "") +
-      "</span>";
-    el
-      .querySelector("[data-challenge-cue-open]")
-      .addEventListener("click", () =>
-        this.openLearningView("challenges", track.id),
-      );
-    el.querySelector("[data-tut-hide]").addEventListener("click", () => {
-      this.tutHidden = true;
-      this.set("challengeCueVisible", false);
-      this.track("neural_challenge_cue_hidden", { track_id: track.id });
-      this.renderChallengeCue();
-    });
+    if (!this._tutEl) return;
+    try {
+      this._tutEl.remove();
+    } catch (e) {}
+    this._tutEl = null;
   },
-
   renderTutorial() {
     this.renderChallengeCue();
   },

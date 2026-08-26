@@ -15,7 +15,7 @@ import { journey } from "../dsl";
  * looked wrong until a coach shared the wrong class.
  *
  * The contract:
- *  1. ≥2 lists → the + opens a PICKER instead of adding. Choosing the non-active list files it
+ *  1. ≥2 lists → the star opens a PICKER instead of adding. Choosing the non-active list files it
  *     THERE and leaves the other untouched (that pair is the bug's regression proof).
  *  2. The check state mirrors real membership and untoggles (the checkbox doubles as remove).
  *  3. An inline "New list" row names and files in ONE action.
@@ -81,7 +81,7 @@ const pickNodes = (page: Page, n: number) =>
     return out.map((x: any) => ({ id: x.id, name: x.t }));
   }, n);
 
-/** The + on an Explore row, found through a search (a search renders results flat, so this
+/** The capture star on an Explore row, found through a search (a search renders results flat, so this
  *  reaches any technique without opening a section).
  *
  *  SCOPED BY SURFACE, deliberately: `[data-list-add]` also matches the landing card's and every
@@ -99,7 +99,7 @@ const exploreAddFor = async (page: Page, tech: { id: string; name: string }) => 
 
 // ─────────────────────────────────────── 1. the bug, and its regression proof
 
-test("with two lists the + asks WHERE — and the list you choose is the one that gets it @curated", async ({
+test("with two lists the star asks WHERE — and the list you choose is the one that gets it @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -119,7 +119,7 @@ test("with two lists the + asks WHERE — and the list you choose is the one tha
   await add.click();
 
   const picker = page.locator("[data-list-picker]");
-  await expect(picker, "the + asks instead of filing silently").toBeVisible();
+  await expect(picker, "the star asks instead of filing silently").toBeVisible();
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
@@ -183,14 +183,27 @@ test("the picker's checks mirror real membership, and tapping a checked row remo
   );
   await openExplore(page);
 
-  // the + reads "captured" from ANY list, not just the active one — the old glyph called this
-  // technique uncaptured because it lives in the list that is not active
+  // the STAR reads "captured" from ANY list, not just the active one — the old glyph called this
+  // technique uncaptured because it lives in the list that is not active. Since v1.129.8 that
+  // state is the star's FILL, which is what a user actually sees, rather than an aria-pressed
+  // nobody could look at.
   const add = await exploreAddFor(page, tech);
-  await expect(add).toHaveAttribute("aria-pressed", "true");
+  await expect(
+    add.locator("svg"),
+    "a FILLED star means: in at least one of your lists",
+  ).toHaveAttribute("fill", "currentColor");
   await expect(add, "the control names where it already lives").toHaveAttribute(
     "aria-label",
     /Monday fundamentals/,
   );
+  // ...and it announces as the MENU BUTTON it is. Not a toggle: activating it opens a chooser and
+  // leaves membership untouched, so `aria-pressed` described a state that did not respond to the
+  // press it was attached to. aria-expanded is the state activation really changes (v1.129.8).
+  await expect(add).toHaveAttribute("aria-haspopup", "menu");
+  expect(
+    await add.getAttribute("aria-pressed"),
+    "no toggle contract on a control that opens a menu",
+  ).toBeNull();
 
   await add.click();
   await expect(page.locator(`[data-list-pick="${older}"]`)).toHaveAttribute(
@@ -264,7 +277,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
 
 // ─────────────────────────────────────── 4. zero and one list stay one tap
 
-test("the + ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
+test("the star ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -285,7 +298,7 @@ test("the + ALWAYS asks — nothing is filed into a list the reader did not choo
   await add.click();
   await expect(
     page.locator("[data-list-picker]"),
-    "the + asks even with nothing to choose from",
+    "the star asks even with nothing to choose from",
   ).toBeVisible();
   await expect(
     page.locator("[data-list-pick-newname]"),
@@ -325,15 +338,22 @@ test("the + ALWAYS asks — nothing is filed into a list the reader did not choo
     }),
   ).toBe(2);
 
-  // and pressing + on an ALREADY-captured technique asks too, so "put this in a new list" is
-  // always one tap from a ✓
+  // and pressing the star on an ALREADY-captured technique asks too, so "put this in a new list"
+  // is always one tap from a filled star
   const again = await exploreAddFor(page, other);
-  await expect(again).toHaveAttribute("aria-pressed", "true");
+  await expect(
+    again.locator("svg"),
+    "it reads captured — filled, from ANY list",
+  ).toHaveAttribute("fill", "currentColor");
   await again.click();
   await expect(
     page.locator("[data-list-picker]"),
-    "the ✓ is the way back to the chooser",
+    "the filled star is the way back to the chooser",
   ).toBeVisible();
+  await expect(
+    again,
+    "and the menu button says its menu is open — the one state activation really changes",
+  ).toHaveAttribute("aria-expanded", "true");
   await expect(page.locator("[data-list-pick-new]")).toBeVisible();
 });
 
@@ -529,7 +549,7 @@ test.describe("in the 390px drawer", () => {
     expect(Number(stack.pickerZ), "…from the deliberate-screen band").toBeGreaterThanOrEqual(90);
     // …and the card it shares that band with STAYS VISIBLE (v1.103.2). It used to be suppressed,
     // on the reasoning that the picker's band is exactly where the card lives on a phone. Owner:
-    // the + "should show the list of lists to choose from without hiding ng-landcard" — and the
+    // the capture control "should show the list of lists to choose from without hiding ng-landcard" — and the
     // z ladder already settles it, 90 over 5. Hiding what you were reading in order to answer a
     // question ABOUT it is the wrong trade; owning the INPUT is what matters, and that is
     // asserted above by `topIsPicker`.
@@ -556,4 +576,63 @@ test.describe("in the 390px drawer", () => {
     ).toBe(1);
     expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(false);
   });
+});
+
+// ─────────────────────────────────────── 8. the name a screen reader has to sit through
+
+/**
+ * THE ON-STATE LABEL ENUMERATES, AND THE ENUMERATION IS CAPPED (v1.129.8). With aria-pressed
+ * gone, the label's aside is the ONLY channel by which a screen-reader user learns membership
+ * without opening the menu — so it has to be there, and it has to be bearable. It used to name
+ * every list, unbounded: a coach with a list per week got a 200-character button NAME, read out
+ * in full on every focus. Two get named; the rest are counted. N is `count - 2`, so it is always
+ * >= 1 and can never read "and 0 more".
+ */
+test("the on-state label names two lists and counts the rest", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const [tech] = await pickNodes(page, 1);
+
+  const label = (n: number) =>
+    page.evaluate(
+      (arg: { id: string; n: number }) => {
+        const a = (window as any).__neural;
+        a.lists = {};
+        for (let i = 1; i <= arg.n; i++) a.addToList(arg.id, a.newList("List " + i));
+        return a._captureCopy(arg.id);
+      },
+      { id: tech.id, n },
+    );
+
+  expect((await label(1)).label).toBe("Add to a list — already in “List 1”");
+  expect((await label(2)).label).toBe("Add to a list — already in “List 1”, “List 2”");
+  expect((await label(3)).label).toBe(
+    "Add to a list — already in “List 1”, “List 2” and 1 more",
+  );
+  const five = await label(5);
+  expect(five.label).toBe("Add to a list — already in “List 1”, “List 2” and 3 more");
+  // and the TITLE is status only — never a second copy of the name, which is what made NVDA read
+  // the whole sentence twice (name, then description).
+  expect(five.status).toBe("In “List 1”, “List 2” and 3 more");
+  expect(five.status).not.toContain("Add to a list");
+
+  // OFF carries no title at all: a hollow star already says "not in a list", and a title that
+  // duplicates the accessible name is pure repetition.
+  await openExplore(page);
+  const other = (await pickNodes(page, 40))[39];
+  const add = await exploreAddFor(page, other);
+  expect(await add.getAttribute("title"), "no title on the OFF state").toBeNull();
+  expect(await add.getAttribute("aria-label")).toBe("Add to a list");
+
+  // ...AND THE ON-STATE TITLE REACHES THE DOM. The assertions above pin `_captureCopy()` — the
+  // MODEL — and the v1.129.8 mutation pass proved that is not enough: forcing `on` false in
+  // `_styleListAdd` left this test green, because the `el.title = c.status` write (the only
+  // sighted-mouse channel for WHICH lists a technique is in) had no DOM-level pin. `tech` is in
+  // five lists by now; its rendered control must say so on hover.
+  const onAdd = await exploreAddFor(page, tech);
+  expect(
+    await onAdd.getAttribute("title"),
+    "the captured row's title carries the membership status",
+  ).toMatch(/^In /);
 });

@@ -24,6 +24,13 @@ on:
       - "neural/src/**"
       - "neural/src/lists-codec.src.js"
       - "tests/*.test.mjs"
+      # the CLAUDE.md budget + reference gates. Listing these is load-bearing, not tidiness:
+      # a gate wired behind a path filter that excludes its own subject never runs on the PR
+      # that breaks it, which is this repo's "absence produces a plausible answer" class in
+      # its purest form — the job goes green by never being triggered.
+      - "CLAUDE.md"
+      - "docs/**"
+      - "tests/artifacts/budget_docs.json"
       - ".github/workflows/ci-validate.yml"
   push:
     branches: [dev]
@@ -68,6 +75,19 @@ jobs:
       # and the neural deck-hydration contract. Separate from the Playwright gates.
       - name: Pure unit suites
         run: node --test tests/*.test.mjs
+
+      # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
+      # references are acted on. Two cheap stdlib gates, no deps:
+      #   budget — a char ratchet, plus the structural checks that make the file work at all
+      #            (the CANONICAL-DISCLOSURE block two other gates parse out of it, no
+      #            @-imports which would auto-load the archive straight back in, and a trap
+      #            catalogue that still has entries in it).
+      #   refs   — every repo path, `npm run` script and symbol@line citation it names must
+      #            resolve. Every line citation in the pre-split file was wrong, six for six.
+      - name: CLAUDE.md budget + references (gate)
+        run: |
+          python3 scripts/check_claudemd_budget.py
+          python3 scripts/check_claudemd_refs.py
 
       # Share-link ordinal lockfile: HARD gate (no ratchet). Every live graph node must own
       # a permanent ordinal, and no committed ordinal may be renumbered, reused or deleted —

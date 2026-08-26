@@ -67,7 +67,8 @@
         boxed + filled  = DO something (play, capture)
         bare  + stroked = OPEN something (the caret) — and the caret ROTATES, which a filled
                           play triangle never does.
-     `.ng-actchip` is the `+`'s own outline (the .ng-lists-new-chip / segBtn family) at the pane's
+     `.ng-actchip` is the capture control's own outline (the .ng-lists-new-chip / segBtn family;
+     that control's glyph became a ★ in v1.129.8 and its box did not move) at the pane's
      24px control figure. It lives here rather than in a `mouseenter` handler because JS hover
      painting cannot express `:focus-visible`, which is the only state a keyboard user sees. */
   .ng-actchip{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:0;box-sizing:border-box;cursor:pointer;font-family:inherit;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);color:#9ab0e0;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}
@@ -151,7 +152,7 @@
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
   .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
-  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
+  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 68%,rgba(226,58,48,.5) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
   @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
@@ -182,6 +183,13 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
+  /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry
+     `animation: ngClockHot`, which REPLACED the card's ngCardInX entry animation in the
+     shorthand — and Chrome replays the entry from zero when the shorthand changes back, even
+     with the name kept at the same list position (measured; the owner's "weird flash where the
+     landcard disappears and a new landcard appears"). The pulse is JS-driven border/box-shadow
+     writes in _tickDecision instead, eased off through a one-shot transition at disarm. */
   /* ── REPLAY: the film's own chrome (v1.106.5) ──────────────────────────────────────────────
      It DOCKS WHERE THE LANDING CARD DOCKS — same bottom constants, same `_dockLandCard` tray
      measurement — because that is precisely the surface it stands in for: while a film runs, the

@@ -14,7 +14,8 @@ import { journey } from "../dsl"
  *   [data-jit-reveal] — reveal-answer button of the current micro-card
  *   [data-jit-got]    — "Got it" grade button (credits prep + pumps odds)
  *   [data-odds]       — the sheet's live odds odometer element (textContent = "NN%")
- *   beats: jit_opened, bonus_pumped (existing), timer_refund {granted}, expiry_warning, hesitated
+ *   beats: jit_opened, bonus_pumped (existing), expiry_warning, land_q_expired (v1.133.0 —
+ *   timer_refund and hesitated retired with the hand clock)
  *   __neural.decisionRemaining() — seconds left in the current decision window (test read API)
  */
 
@@ -64,7 +65,7 @@ test("JIT sheet drill pumps the odds odometer and the canvas edge", async ({ pag
   await j.expectBeat("impact_success")
 })
 
-test("drilling refunds decision time, capped at 2 per window", async ({ page }) => {
+test("drilling pumps odds and buys NO time — the clock belongs to the question (v1.133.0)", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -74,49 +75,49 @@ test("drilling refunds decision time, capped at 2 per window", async ({ page }) 
 
   const remaining = () => page.evaluate(() => (window as any).__neural.decisionRemaining())
 
-  // sheets pause the game clock — but the DECISION window refund is what we measure on grade
-  const r0 = await remaining()
+  // v1.134.0: opening the sheet DECLINED the landing question (reading a move instead of
+  // answering), so no window is running — and grading refunds nothing because there is nothing
+  // to refund. The drill's whole payment is odds.
+  expect(await remaining(), "the sheet declined the question").toBe(0)
   await page.locator("[data-jit-reveal]").click()
   await page.locator("[data-jit-got]").click()
-  const r1 = await remaining()
-  expect(r1 - r0).toBeGreaterThanOrEqual(2) // +2.5s refund (allow rounding)
-
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
-  const r2 = await remaining()
-  expect(r2 - r1).toBeGreaterThanOrEqual(2) // second refund
-
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
-  const r3 = await remaining()
-  expect(r3 - r2).toBeLessThan(1) // third drill: capped, no refund
-
+  expect(await remaining(), "still no clock — the drill buys odds, never time").toBe(0)
   const refunds = (await j.beats()).filter((b: any) => b.beat === "timer_refund")
-  expect(refunds.length).toBe(3)
-  expect(refunds.map((r: any) => r.granted)).toEqual([true, true, false])
+  expect(refunds.length, "the refund beat is retired").toBe(0)
+  await j.expectBeat("land_q_declined")
+  await j.expectBeat("bonus_pumped") // the grade still pays — in odds, not seconds
 })
 
-test("expiry narrates 3-2-1 and hands the exchange to the opponent (no silent teleport)", async ({
+test("expiry narrates 3-2-1, reveals the answer as a miss, and the HAND stays live (v1.133.0)", async ({
   page,
 }) => {
-  // REWRITTEN AT v1.129.0, because its subject was retired rather than renamed. This asserted
-  // `auto_pick` — the expiry playing YOUR hand for you from a pool weighted toward your dominant
-  // moves. The owner replaced that with the BJJ answer: freezing hands the initiative over. So
-  // there is no auto-pick and no player commit to assert; what must still hold is that the timeout
-  // is NARRATED (the "no silent teleport" half, which is the part of this test worth keeping).
+  // REWRITTEN TWICE: v1.129.0 retired auto_pick for the hesitation branch; v1.133.0 retired the
+  // hesitation branch itself — the clock times the QUESTION now, never the hand. "When the clock
+  // runs out, the algorithm doesn't choose for you. You still choose." (owner)
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await j.rig("resolve", [0.99]) // whatever happens after, keep it deterministic
-  await j.rig("outcome", [0.5])
+  const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
   await j.advance(30_000)
   const beats = (await j.beats()).map((b) => b.beat)
   expect(beats).toContain("expiry_warning")
-  expect(beats, "the freeze is a named beat, not a silent teleport").toContain("hesitated")
-  expect(
-    beats.filter((b) => b === "opponent_move" || b === "opponent_attack").length,
-    "and the opponent took the exchange the player did not",
-  ).toBeGreaterThan(0)
+  expect(beats, "the timeout is a named beat, not a silent theft").toContain("land_q_expired")
+  expect(beats, "the hesitation branch is retired").not.toContain("hesitated")
+  const after = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return {
+      hand: (a.optionIdxs || []).length,
+      revealed: !!document.querySelector("[data-land-q] [data-mc-result]"),
+      qMod: a._qMod,
+    }
+  })
+  expect(after.hand, "the hand survives the clock").toBe(handBefore)
+  expect(after.revealed, "the answer is on the table").toBe(true)
+  expect(after.qMod, "priced exactly like a wrong answer").toBeLessThan(0)
+  // …and the player still picks
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
+  await j.advance(1000)
+  expect((await j.beats()).map((b) => b.beat)).toContain("commit")
 })
 
 test("honest economy: revealing a card is 'seen', only grading credits mastery", async ({ page }) => {

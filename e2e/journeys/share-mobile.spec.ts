@@ -392,7 +392,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   // v1.101.9: the capture ASKS — it never files into a list the coach did not choose. On a fresh
   // profile there is no list yet, so the picker opens straight into the name field; naming it is
   // what commits. Still one decision, just an explicit one.
-  await expect(page.locator("[data-list-picker]"), "the + asks where it goes").toBeVisible();
+  await expect(page.locator("[data-list-picker]"), "the star asks where it goes").toBeVisible();
   const nameField = page.locator("[data-list-pick-newname]");
   if (await nameField.count()) {
     await nameField.fill("Tuesday");

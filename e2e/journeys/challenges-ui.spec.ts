@@ -124,7 +124,8 @@ test.describe("Challenges UI @curated", () => {
     });
     await page.locator(".ng-explorer-close").click();
     // the cue follows the frontier belt too
-    await expect(page.locator("[data-challenge-cue]")).toContainText(/BLUE/);
+    // v1.133.0: the cue card is retired — the corridor's frontier shows in the pane, not a cue
+    await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
     await page.locator(".ng-logo").click();
     await expect(white).toHaveAttribute("data-collapsed", "true");
     await expect(blue).toHaveAttribute("data-collapsed", "false");
@@ -332,7 +333,8 @@ test.describe("Challenges UI @curated", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    const transport = page.locator("[title='Pause']");
+    // v1.134.0: the transport is deleted — any surviving focusable chrome proves the claim
+    const transport = page.locator(".ng-logo");
     await transport.focus();
     await page.evaluate(() => {
       const app = (window as any).__neural;
@@ -645,7 +647,7 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveAttribute("data-collapsed", "true");
   });
 
-  test("the mobile cue stays clear of the option hand and transport", async ({
+  test("the mobile cue is gone — nothing fights the hand for the phone band", async ({
     page,
   }) => {
     await page.setViewportSize({ width: 400, height: 875 });
@@ -663,43 +665,9 @@ test.describe("Challenges UI @curated", () => {
 
     await j.land("Mount Top");
 
-    const geometry = await page.evaluate(() => {
-      const box = (selector: string) => {
-        const rect = document.querySelector(selector)?.getBoundingClientRect();
-        return rect
-          ? {
-              top: rect.top,
-              right: rect.right,
-              bottom: rect.bottom,
-              left: rect.left,
-            }
-          : null;
-      };
-      const overlap = (a: any, b: any) =>
-        a &&
-        b &&
-        a.left < b.right &&
-        a.right > b.left &&
-        a.top < b.bottom &&
-        a.bottom > b.top;
-      const cue = box("[data-challenge-cue]");
-      const option = box(".ng-optionrow > *");
-      const transport = box("[title='Pause']");
-      return {
-        cue,
-        overlapsOption: overlap(cue, option),
-        overlapsTransport: overlap(cue, transport),
-        height: cue ? cue.bottom - cue.top : 0,
-        detailDisplay: getComputedStyle(
-          document.querySelector(".ng-cue-detail") as Element,
-        ).display,
-      };
-    });
-
-    expect(geometry.cue).not.toBeNull();
-    expect(geometry.overlapsOption).toBe(false);
-    expect(geometry.overlapsTransport).toBe(false);
-    expect(geometry.height).toBeGreaterThanOrEqual(44);
-    expect(geometry.detailDisplay).toBe("none");
+    // v1.133.0: the cue card is retired — on the phone it used to fight the option hand and the
+    // transport for the same band (the repo's old STILL OPEN collision). Now nothing mounts.
+    await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
+    await expect(page.locator(".ng-tut")).toHaveCount(0);
   });
 });

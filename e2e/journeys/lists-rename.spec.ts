@@ -103,6 +103,14 @@ test("the New list + is a house-styled chip: 44px hit area around a proportionat
   expect(cbox.height).toBeGreaterThanOrEqual(20);
   expect(cbox.width).toBeLessThanOrEqual(34);
 
+  // CREATE = "+", CAPTURE = star — the design rule the v1.129.8 trade created, pinned because its
+  // mutant SURVIVED the star rollout: turning this chip into a star left every test green while
+  // the empty-state copy ("tap + to start one") pointed at a + that no longer existed on screen.
+  // `toHaveText("+")` alone kills that mutant (an svg-filled chip has empty text); the svg count
+  // states the rule outright.
+  await expect(chip, "the create control is a +, never the capture star").toHaveText("+");
+  expect(await chip.locator("svg").count(), "no star silhouette on the create control").toBe(0);
+
   // interactive states live in the stylesheet (helmet.html), the .ng-anchor-* pass pattern:
   // hover brighten, 1px active press, visible keyboard focus ring
   const rules = await page.evaluate(() => {

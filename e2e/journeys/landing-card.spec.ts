@@ -61,10 +61,12 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await page.keyboard.press("abcd"[mc!.correct])
 
   expect(await j.displayedOdds(t), "odds up after a right answer").toBeGreaterThan(before)
+  // v1.133.0: the clock times the question, so answering DISARMS it — no refund exists
   expect(
     await page.evaluate(() => (window as any).__neural.decisionRemaining()),
-    "and the clock was refunded",
-  ).toBeGreaterThan(clockBefore)
+    "the window is spent by the answer",
+  ).toBe(0)
+  void clockBefore
   const answered = (await j.beats()).filter((b: any) => b.beat === "land_q_answered")
   expect(answered.length).toBe(1)
   expect((answered[0] as any).correct).toBe(true)
@@ -183,4 +185,162 @@ test("the identity chip fuses the seen-glyph with the deck's recall count and op
     "on the History tab (study this state)",
   ).toBe("history")
   await j.expectBeat("pane_paused")
+})
+
+/**
+ * SPENT MEANS SPENT (v1.135.0). Owner: "when i click a wrong answer after i run out of time it
+ * shouldnt lose me points as it already did for punishing not answering under time constraint."
+ * _expireLandQ takes the miss ONCE (−4%, combo break, failed SRS review) and reveals the answer —
+ * but the MC closure's own `answered` latch never learned it, so the visually-disabled buttons
+ * still graded: a late wrong click charged −4% again, broke the combo again, wrote a second
+ * failed review, and emitted land_q_answered AFTER land_q_expired. The expiry now sets
+ * `truth.spent` (the closure's door) and `done` refuses a spent rec.
+ * Mutant that must die: dropping `|| truth.spent` from _mcBlock's answer guard.
+ * Recorded non-kill: the `rec.revealed` guard in _mountLandQ's done is belt-and-braces behind
+ * the spent guard and is unreachable while it stands — no spec can turn it red alone. It is
+ * revealed-only on purpose: a DECLINED question (sheet, pane, bg) is un-revealed, and answering
+ * it after backing out still pays — keyboard.spec.ts pins that.
+ */
+test("@curated a timed-out question is spent — a late click grades nothing", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return !!(a._decision && a._decision.remaining != null && a._mc && a._mc.surface === "land")
+  })
+  expect(armed, "a landing MC question armed the clock").toBe(true)
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 1))
+  await j.advance(600)
+  const at = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      expired: (a.beats || []).some((b: any) => b.beat === "land_q_expired"),
+      beats: (a.beats || []).length,
+      qMod: a._qMod || 0,
+      combo: a._combo || 0,
+    }
+  })
+  expect(at.expired, "the clock expiry revealed the answer as a miss").toBe(true)
+
+  // the late click — a WRONG option, straight at the DOM the way a user would
+  const clicked = await page.evaluate(() => {
+    const wrap = document.querySelector("[data-land-q] [role='radiogroup']")
+    if (!wrap) return false
+    const btns = [...wrap.querySelectorAll("[data-land-mc-opt]")] as HTMLElement[]
+    const correct = btns.findIndex((b) => b.getAttribute("data-mc-result") === "correct")
+    const wrong = btns.find((_, i) => i !== correct)
+    if (!wrong) return false
+    wrong.click()
+    return true
+  })
+  expect(clicked, "a wrong option existed to click").toBe(true)
+  await j.advance(400)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      beats: (a.beats || []).length,
+      newBeats: [] as string[],
+      qMod: a._qMod || 0,
+      combo: a._combo || 0,
+      answeredBeat: (a.beats || []).some((b: any) => b.beat === "land_q_answered"),
+      wrongBeat: (a.beats || []).some((b: any) => b.beat === "mc_wrong"),
+    }
+  })
+  expect(after.qMod, "no second −4%").toBe(at.qMod)
+  expect(after.combo, "no second combo break").toBe(at.combo)
+  expect(after.answeredBeat, "an expired question never reads as answered").toBe(false)
+  expect(after.wrongBeat, "and the click graded nothing").toBe(false)
+  expect(after.beats, "no beat of any kind from the spent block").toBe(at.beats)
+
+  // ...but the click still TALKS (v1.135.0, owner: "it should appear red when he clicks it. The
+  // previously red answer … should appear non-red"): the red mark rides the LAST clicked wrong
+  // answer, the green never moves, and none of it emits a beat.
+  // Mutant that must die: making `explore` in _mcBlock a no-op.
+  const paint = await page.evaluate(() => {
+    const wrap = document.querySelector("[data-land-q] [role='radiogroup']")!
+    const btns = [...wrap.querySelectorAll("[data-land-mc-opt]")] as HTMLElement[]
+    const correct = btns.findIndex((b) => b.getAttribute("data-mc-result") === "correct")
+    const wrongs = btns.map((_, i) => i).filter((i) => i !== correct)
+    return { correct, wrongs }
+  })
+  expect(paint.wrongs.length, "two wrong options to walk").toBeGreaterThanOrEqual(2)
+  const mark = (i: number) =>
+    page.evaluate((k) => {
+      const btns = [...document.querySelectorAll("[data-land-q] [data-land-mc-opt]")] as HTMLElement[]
+      btns[k].click()
+      return btns.map((b) => b.getAttribute("data-mc-result"))
+    }, i)
+  const m1 = await mark(paint.wrongs[0])
+  expect(m1[paint.wrongs[0]], "the first exploratory click wears red").toMatch(/wrong|plausible|trap/)
+  const m2 = await mark(paint.wrongs[1])
+  expect(m2[paint.wrongs[1]], "the red moved to the second click").toMatch(/wrong|plausible|trap/)
+  expect(m2[paint.wrongs[0]], "and left the first").toBeNull()
+  expect(m2[paint.correct], "the green never moves").toBe("correct")
+  const beatsEnd = await page.evaluate(() => ((window as any).__neural.beats || []).length)
+  expect(beatsEnd, "exploration emits nothing").toBe(at.beats)
+})
+
+/**
+ * EXPIRY IS FLUID (v1.135.1). Owner: "There's this weird flash where the landcard disappears
+ * and a new landcard appears again … It should be fluid. It shouldn't be abrupt."
+ * The flash was CSS: `.ng-clock-hot`'s animation shorthand REPLACED the card's ngCardInX entry
+ * animation, and Chrome replays the finished entry from zero when the shorthand changes back —
+ * even with the name kept at the same list position (measured; the name-position continuation
+ * does not survive a finished animation). So the pulse is JS now: frame-driven border/box-shadow
+ * writes in _tickDecision, eased off by a one-shot transition at disarm; .ng-clock-hot is a
+ * marker class with no rule. The clock bar eases home the same way, shedding the hot red for
+ * the base color it was armed with.
+ * Mutants that must die: dropping the JS pulse write; snapping the bar (no transition).
+ */
+test("@curated expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return !!(a._decision && a._decision.remaining != null && a._landEl)
+  })
+  expect(armed, "a landing question armed the clock").toBe(true)
+  // into the hot band, then catch the disarm within a frame of it happening
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 2500))
+  await j.advance(400)
+  const hot = await page.evaluate(() => {
+    const el = (window as any).__neural._landEl
+    return { cls: el.classList.contains("ng-clock-hot"), border: el.style.borderColor }
+  })
+  expect(hot.cls, "the hot marker is on").toBe(true)
+  expect(hot.border, "and the pulse actually paints").toContain("255, 110, 110")
+  // the entry animation runs on the WALL clock while advances pump the game clock faster —
+  // let the genuine mount animation finish first, so a running ngCardInX after the disarm can
+  // only be a replay
+  await page.waitForTimeout(450)
+  // the harness drives the game clock — expire through a pumped advance, then read at once
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 30))
+  await j.advance(200)
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const card = a._landEl
+    const bar = card.querySelector("[data-land-clock]")
+    return {
+      replaying: card.getAnimations().filter((x: any) => x.animationName === "ngCardInX" && x.playState === "running").length,
+      hot: card.classList.contains("ng-clock-hot"),
+      barTransition: bar ? bar.style.transition : null,
+      barTransform: bar ? bar.style.transform : null,
+      barBg: bar ? bar.style.background : null,
+    }
+  })
+  expect(after.replaying, "the entry animation did NOT replay — no flash").toBe(0)
+  expect(after.hot, "the pulse stood down with the window").toBe(false)
+  expect(after.barTransition, "the bar eases home through a transition").toContain("transform")
+  expect(after.barTransform).toBe("scaleX(0)")
+  expect(after.barBg, "and sheds the hot red for its armed base").toBe("rgb(159, 176, 208)")
 })

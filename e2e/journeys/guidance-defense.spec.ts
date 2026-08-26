@@ -81,10 +81,23 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   await expect(page.locator(".ng-vignette"), "heartbeat vignette on").toHaveCount(1)
   await j.keyframe("p2-panic-drill")
 
-  // grading the defender card pumps the ESCAPE odds visibly
+  // grading the defender card pumps the ESCAPE odds visibly. v1.135.0: the drill is MULTIPLE
+  // CHOICE when the pool is warm (owner: "much more similar to the ng-landcard with multiple
+  // choice"); the reveal/got recall idiom survives only as the cold-pool fallback.
   const escBefore = await page.evaluate(() => (window as any).__neural.escapeOddsSnapshot())
-  await page.locator("[data-panic-reveal]").click()
-  await page.locator("[data-panic-got]").click()
+  const mcCorrect = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const card = document.querySelector("[data-panic]")
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
+      ? a._mc.correct
+      : null
+  })
+  if (mcCorrect != null) {
+    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+  } else {
+    await page.locator("[data-panic-reveal]").click()
+    await page.locator("[data-panic-got]").click()
+  }
   const escAfter = await page.evaluate(() => (window as any).__neural.escapeOddsSnapshot())
   expect(escAfter).toBeGreaterThan(escBefore)
   await j.expectBeat("escape_odds_pumped")

@@ -462,15 +462,13 @@ test("the node a move LANDS on blooms harder than one the light passed through",
 });
 
 /**
- * ONE CLOCK (v1.114.1). Owner, testing: "for the current node, there's very little time for it to
- * be answered." The window itself is not short — measured 16.2s (a 9s base plus 0.8s per extra
- * option, settable in Settings -> Rolling) — and `setPaused` already froze the bars along with the
- * clock. What nobody kept in step was a REFUND: answering the landing question correctly calls
- * `refundDecision(2500)`, twice at most, adding up to 5s to that 16.2s window, while the bar was a
- * fixed-duration CSS animation that could not know. The hand then LOOKED about to expire with a
- * third of its time left. The bar is now written by `_tickDecision` from the same number.
+ * ONE CLOCK, INVERTED (v1.114.1 → v1.133.0). The v1.114.1 lesson was that a bar disagreeing with
+ * its clock is a lie; v1.133.0 moved the clock to the QUESTION, so now the honest claims are the
+ * mirror image: the option cards' bars are STATIC EDGE colour (nothing on the hand drains), and
+ * the card's own [data-land-clock] bar is written by _tickDecision from the same number the
+ * window holds.
  */
-test("the countdown bar cannot disagree with the clock it draws", async ({ page }) => {
+test("the option bars never drain, and the question bar cannot disagree with its clock", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -483,45 +481,34 @@ test("the countdown bar cannot disagree with the clock it draws", async ({ page 
       const bars = Array.from(document.querySelectorAll(".ngbar")).map((b) => {
         const t = getComputedStyle(b as HTMLElement).transform
         if (!t || t === "none") return 1
-        const m = t.match(/matrix\(([-\d.]+)/) // scaleX lands in matrix[0]
+        const m = t.match(/matrix\(([-\d.]+)/)
         return m ? parseFloat(m[1]) : 1
       })
+      const q = document.querySelector("[data-land-clock]") as HTMLElement | null
+      let qbar = null
+      if (q) {
+        const t = getComputedStyle(q).transform
+        const m = t && t !== "none" ? t.match(/matrix\(([-\d.]+)/) : null
+        qbar = m ? parseFloat(m[1]) : null
+      }
       return {
         remaining: d.remaining ?? null,
         total: d.total ?? null,
         n: bars.length,
-        bar: bars.length ? bars.reduce((x, y) => x + y, 0) / bars.length : null,
+        minBar: bars.length ? Math.min(...bars) : null,
+        qbar: qbar,
       }
     })
 
   const before = await read()
   expect(before.n, "the hand is dealt and its cards carry bars").toBeGreaterThan(2)
-  expect(
-    before.bar!,
-    "and the bars agree with the clock at the start",
-  ).toBeCloseTo(before.remaining! / before.total!, 1)
+  expect(before.remaining, "the question armed its window").not.toBeNull()
 
   await j.advance(4000)
   const mid = await read()
-  expect(mid.bar!, "they track it as it drains").toBeCloseTo(mid.remaining! / mid.total!, 1)
-
-  // THE CASE THAT WAS LYING: buy time back the way a correct landing answer does.
-  const granted = await page.evaluate(() =>
-    (window as Any).__neural.refundDecision(2500),
-  )
-  expect(granted, "the refund was granted (cap is 2 per hand)").toBe(true)
-  await j.advance(120)
-  const after = await read()
-
-  expect(
-    after.remaining!,
-    "the clock really did get the time back",
-  ).toBeGreaterThan(mid.remaining!)
-  expect(
-    after.bar!,
-    `and the bar moved with it (bar ${after.bar!.toFixed(3)} vs clock ${(after.remaining! / after.total!).toFixed(3)})`,
-  ).toBeCloseTo(after.remaining! / after.total!, 1)
-  expect(after.bar!, "visibly, not just arithmetically").toBeGreaterThan(mid.bar! + 0.05)
+  expect(mid.minBar!, "no option bar drained — the hand is untimed").toBeGreaterThan(0.99)
+  expect(mid.qbar!, "the question bar tracks the window").toBeCloseTo(mid.remaining! / mid.total!, 1)
+  expect(mid.qbar!, "and it really is draining").toBeLessThan(0.95)
 })
 
 /**

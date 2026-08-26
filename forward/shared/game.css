@@ -676,10 +676,13 @@
   font-size: 9px;
 }
 
+/* the capture star (v1.129.8). An SVG glyph, so the box centres it — `font-size` no longer
+   sizes anything here, exactly as in production. */
 .landing-capture {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #9ab0e0;
-  font-size: 13px;
-  font-weight: 700;
   line-height: 1;
 }
 

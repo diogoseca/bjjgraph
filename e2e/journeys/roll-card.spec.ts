@@ -257,9 +257,10 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   await j.land("Mount Top")
   await j.advance(1200)
 
-  // a TECHNIQUE — what a coach taps in their class list. It reads as ITSELF: staging would hop
-  // to its origin position (rollFromPosition does that on purpose) and the card, and the + in
-  // its corner, would then be about the position instead of the technique they tapped.
+  // a TECHNIQUE — what a coach taps in their class list. Since v1.132.0 it NAVIGATES: the
+  // exchange stages ON the technique (URL, focus, camera), and the card — still the technique's,
+  // star and all — arrives in the position card's exact anatomy: FOLDED (the owner retired the
+  // auto-expand: "it automatically shows more instead of showing less").
   const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && x.ty === "transitions")
@@ -290,8 +291,8 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
   expect(st.sheet, "and so is the reading sheet — one surface now").not.toBe("block")
   expect(st.card, "the game card is what opens").toBe(true)
-  expect(st.unfolded, "opened to be READ, so it arrives unfolded").toBe("block")
-  expect(st.capture, "and its corner + captures the TECHNIQUE, not its origin position").toBe(tech.id)
+  expect(st.unfolded, "folded — More is one tap away, exactly like a position's card").toBe("none")
+  expect(st.capture, "and its corner star captures the TECHNIQUE, not its origin position").toBe(tech.id)
   // flown TO the node, not INTO it: the old path drove the camera to graphW*0.0085
   expect(st.zoom, "the camera stops at reading distance, not inside the node").toBeGreaterThan(0.02)
 
@@ -316,7 +317,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   })
   expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
   expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
-  expect(self.unfolded, "and unfolded, because you asked to read it").toBe("block")
+  expect(self.unfolded, "and folded — one anatomy, nothing auto-expands (v1.132.0)").toBe("none")
 })
 
 /**
@@ -354,7 +355,7 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
   await j.advance(200)
   // v1.101.9: the `+` NEVER files on its own — it asks. One list still asks, because "the last
   // list you touched" is not a destination the user chose.
-  await expect(page.locator("[data-list-picker]"), "the + asks where it goes").toHaveCount(1)
+  await expect(page.locator("[data-list-picker]"), "the star asks where it goes").toHaveCount(1)
   expect(
     await page.evaluate(() =>
       Object.values((window as Any).__neural.lists || {}).some((l: Any) => (l.items || []).length),
@@ -467,20 +468,16 @@ for (const height of [900, 720]) {
 }
 
 /**
- * TAPPING A TECHNIQUE OPENS IT; IT DOES NOT MOVE YOU (v1.129.1). @curated
+ * TAPPING A TECHNIQUE NAVIGATES TO IT (v1.132.0 — this REVERSES v1.129.1's read-in-place rule,
+ * by the owner's own correction: "when you click on a transition or on a submission, you navigate
+ * to it. The URL changes to it, and the landcard is standard.")
  *
- * Owner: "Can't seem to be able to click any submissions or transitions in the graph. When I click
- * it, it seems to always go to an adjacent or nearby position."
- *
- * The tap handler's own comment gave it away — "tapping a node ROAMS to it; tapping the one you're
- * already on reads it instead" — a TWO-branch rule written before v1.101.5 added a third. So every
- * node that was not your own went to `stageRollAt`, and `rollFromPosition` deliberately hops a
- * technique to its ORIGIN POSITION (`techniqueOrigin`, v1.126.0): correct for "play from here",
- * exactly wrong for "open this". Measured before the fix: tapping `Float Passing` from Side Control
- * Top landed on `Open Guard Top` with the card in "land" mode — a card about a position the player
- * never tapped.
+ * The tap lands ON the technique: URL = its page, camera/focus = its node, the card = the
+ * position card's exact anatomy (no header, no "Roll from here", folded) — while the SEAT stays
+ * the technique's origin position (the engine's states are positions), staged and paused. Play
+ * ran the exchange (retired with the transport in v1.134.0 — the staged card itself is the go).
  */
-test("@curated tapping a submission or transition opens its card and leaves the roll where it is", async ({
+test("@curated tapping a technique navigates to it — URL, focus and a standard staged card", async ({
   page,
 }) => {
   const j = journey(page)
@@ -491,10 +488,6 @@ test("@curated tapping a submission or transition opens its card and leaves the 
     await j.advance(400)
   }
 
-  const before = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    return { idx: a.currentPos, pos: a.nodes[a.currentPos].t }
-  })
   const target = await page.evaluate(() => {
     const a: any = (window as any).__neural
     const scale = a.W / a.cam.vw
@@ -503,33 +496,44 @@ test("@curated tapping a submission or transition opens its card and leaves the 
       const sx = (n.x - a.cam.cx) * scale + a.W / 2
       const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
       if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340)
-        return { sx, sy, t: n.t, ty: n.ty }
+        return { sx, sy, t: n.t, ty: n.ty, idx: n.idx }
     }
     return null
   })
   expect(target, "there is a technique on screen to tap").not.toBeNull()
 
   await page.mouse.click(target!.sx, target!.sy)
-  await j.advance(1200)
+  await j.advance(2000)
 
   const after = await page.evaluate(() => {
     const a: any = (window as any).__neural
     const card = document.querySelector("[data-landcard]") as HTMLElement | null
+    const more = document.querySelector("[data-land-more-body]") as HTMLElement | null
     return {
-      idx: a.currentPos,
-      pos: a.nodes[a.currentPos].t,
+      url: location.pathname,
+      posTy: a.nodes[a.currentPos].ty,
+      paused: a.paused,
+      focus: a.focusIdx >= 0 ? a.nodes[a.focusIdx] : null,
+      staged: a._stagedTech ? a.nodes[a._stagedTech.idx].t : null,
       mode: card ? card.getAttribute("data-landcard") : null,
-      text: (card?.textContent || "").slice(0, 120),
+      cardAbout: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null,
+      header: !!document.querySelector("[data-land-id]"),
+      playBtn: !!document.querySelector("[data-land-play]"),
+      folded: !more || more.style.display === "none",
     }
   })
-  expect(
-    after.idx,
-    `the roll did not move (was ${before.pos}, now ${after.pos})`,
-  ).toBe(before.idx)
-  expect(after.mode, "and the card is the TECHNIQUE's, not a landing").toBe("attempt")
-  expect(after.text, `naming the technique that was tapped`).toContain(
-    target!.t.split(" from ")[0],
-  )
+  // the tap may land on either half of the technique's pair — same site, either member
+  const site = (t: string) => t
+  expect(after.url, "the URL follows the tapped technique").not.toBe("/Positions/Side-Control")
+  expect(after.staged, "the exchange is staged on the tapped technique").toBe(site(target!.t))
+  expect(after.cardAbout, "the card reads the technique").toBe(target!.t)
+  expect(after.mode, "in the technique skin").toBe("attempt")
+  expect(after.header, "with NO header — the graph names the focus").toBe(false)
+  expect(after.playBtn, "and NO 'Roll from here' — play is the one go control").toBe(false)
+  expect(after.folded, "folded, exactly like a position's card").toBe(true)
+  expect(after.posTy, "the seat under it is a real position").toBe("positions")
+  expect(after.paused, "staged: the clock is held until play").toBe(true)
+  expect(after.focus && after.focus.t, "the graph focus IS the technique").toBe(target!.t)
 })
 
 /**
@@ -591,27 +595,13 @@ test("@curated a mouse can drag the option row, and a drag is not a pick", async
 })
 
 /**
- * TAPPING A NODE IS COMING BACK (v1.129.5). @curated
- *
- * Owner: "sometimes when i click techniques like Float Passing … nothing happens, no navigation,
- * no url change, no new dialog with MC or choices, nothing but the node lighting up below the
- * cursor upon click", and "when i click some other positions like top front headlock, i see the
- * choices row but not the MC landcard dialog".
- *
- * TWO SYMPTOMS, ONE LATCH. Tapping empty space runs `_standDown()` — `_bgDown = true`,
- * `_suppressTray(true)`, clock held — which is the deliberate background-tap behaviour. But
- * `_bgRestore()` had exactly ONE caller, `setPaused(false)`, so the only way back was the play
- * button. Clicking a node then did all its own work underneath a suppression nobody lifted.
- *
- * Measured before the fix: after a background tap, BOTH a technique click and a position click
- * leave `bgDown true / traySup true / card visibility hidden`, while `optionIdxs` goes 10 -> 25 on
- * the position — which is exactly "the choices row is there and the card is not".
- *
- * PRE-EXISTING, and worth saying so: neither `stageRollAt` nor `openDossier` ever called
- * `_bgRestore`. v1.129.1 only made it more visible, by giving a technique tap a card to fail to
- * show.
+ * THE BACKGROUND LADDER (v1.134.0, owner). The v1.129.5 stand-down/restore latch pair is gone —
+ * "clicking once on the bg of the graph will close the card, clicking it again will deselect
+ * and zoom out a little." Click 1: the card CLOSES (question declined, free) and the hand
+ * stays. Click 2: FREE ROAM — tray cleared, camera pulled back on where you stood. A node
+ * click from roam stages fresh, exactly like roam-and-stage always did.
  */
-test("@curated after tapping empty space, clicking a node brings the surfaces back", async ({
+test("@curated background taps: close the card, then free roam — and a node click stages fresh", async ({
   page,
 }) => {
   const j = journey(page)
@@ -621,72 +611,74 @@ test("@curated after tapping empty space, clicking a node brings the surfaces ba
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
+  expect(
+    await page.evaluate(() => !!(window as any).__neural._landEl),
+    "the card is up to begin with",
+  ).toBe(true)
 
-  const state = () =>
-    page.evaluate(() => {
-      const a: any = (window as any).__neural
-      const c = document.querySelector("[data-landcard]") as HTMLElement | null
-      return {
-        cardVisible: !!c && getComputedStyle(c).visibility !== "hidden",
-        bgDown: !!a._bgDown,
-        traySup: !!a._traySup,
-        landHidden: a._landHidden(),
-        opts: (a.optionIdxs || []).length,
-      }
-    })
-
-  expect((await state()).cardVisible, "the card is up to begin with").toBe(true)
-
-  // find genuinely empty sky — a tap there is the gesture that stands the surfaces down
-  const empty = await page.evaluate(() => {
+  // tap 1: the card closes, the hand stays
+  await page.evaluate(() => (window as any).__neural._tapBackground())
+  await j.advance(300)
+  const after1 = await page.evaluate(() => {
     const a: any = (window as any).__neural
-    const scale = a.W / a.cam.vw
-    for (let x = 40; x < a.W - 40; x += 37)
-      for (let y = 40; y < a.H - 380; y += 31) {
-        let clear = true
-        for (const n of a.nodes) {
-          const sx = (n.x - a.cam.cx) * scale + a.W / 2
-          const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
-          if (Math.abs(sx - x) < 60 && Math.abs(sy - y) < 60) { clear = false; break }
-        }
-        if (clear) return { x, y }
-      }
-    return null
+    return { card: !!a._landEl, tray: (a.optionIdxs || []).length, beats: (a.beats || []).slice(-3).map((b: any) => b.beat), roam: !!a._roam }
   })
-  expect(empty, "there is empty sky to tap").not.toBeNull()
+  expect(after1.card, "the card closed").toBe(false)
+  expect(after1.tray, "the hand survived").toBeGreaterThan(0)
+  expect(after1.beats, "the dismissal is named").toContain("land_dismissed")
+  expect(after1.roam).toBe(false)
 
-  await page.mouse.click(empty!.x, empty!.y)
-  await j.advance(700)
-  const down = await state()
-  expect(down.bgDown, "the background tap stood the surfaces down").toBe(true)
-  expect(down.cardVisible, "…so the card is hidden, as designed").toBe(false)
+  // tap 2: free roam — tray gone, camera pulled back
+  await page.evaluate(() => (window as any).__neural._tapBackground())
+  await j.advance(300)
+  const after2 = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { roam: !!a._roam, tray: (a.optionIdxs || []).length, beats: (a.beats || []).slice(-2).map((b: any) => b.beat) }
+  })
+  expect(after2.roam, "free roam").toBe(true)
+  expect(after2.tray, "no hand in roam").toBe(0)
+  expect(after2.beats).toContain("roam_entered")
 
-  // NOW THE CLAIM: a node tap is the user coming back, on BOTH node kinds.
-  for (const kind of ["transitions", "positions"]) {
-    const t = await page.evaluate((kind: string) => {
-      const a: any = (window as any).__neural
-      const scale = a.W / a.cam.vw
-      for (const n of a.nodes) {
-        if (n.ty !== kind || n.idx === a.currentPos) continue
-        const sx = (n.x - a.cam.cx) * scale + a.W / 2
-        const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
-        if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340) return { sx, sy }
-      }
-      return null
-    }, kind)
-    expect(t, `there is a ${kind} node to click`).not.toBeNull()
-    await page.mouse.click(t!.sx, t!.sy)
-    await j.advance(1200)
-    const back = await state()
-    expect(back.bgDown, `${kind}: the stand-down was lifted`).toBe(false)
-    expect(back.traySup, `${kind}: and the tray is back`).toBe(false)
-    expect(back.landHidden, `${kind}: nothing is still holding the card down`).toBe(false)
-    expect(back.cardVisible, `${kind}: the card is actually on screen`).toBe(true)
-    // re-arm for the second kind
-    if (kind === "transitions") {
-      await page.mouse.click(empty!.x, empty!.y)
-      await j.advance(700)
-      expect((await state()).bgDown, "stood down again for the next leg").toBe(true)
-    }
-  }
+  // a node click stages fresh — the surfaces come back whole
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    a.stageRollAt(a.currentPos)
+  })
+  await j.advance(2000)
+  const back = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const c = document.querySelector("[data-landcard]") as HTMLElement | null
+    return { roam: !!a._roam, card: !!c && getComputedStyle(c).visibility !== "hidden", tray: (a.optionIdxs || []).length }
+  })
+  expect(back.roam, "roam ends on a stage").toBe(false)
+  expect(back.card, "the card is back").toBe(true)
+  expect(back.tray, "and the hand with it").toBeGreaterThan(0)
+})
+
+/**
+ * THE COMMIT HANDS THE CAMERA TO THE ROLL (v1.135.1). Owner: "when I pick one of the options,
+ * the camera doesn't immediately follow the signal that's pulsing … It's very bad gameplay."
+ * The pick's click wrote `lastInteract`, and userActiveNow() is the one condition that
+ * suppresses the follow-cam — 4 game-seconds of frozen camera while the pulse left. Committing
+ * now ages the latch out and releases any focus lease (the ownership doctrine's "asking to go
+ * somewhere else is a decision" case), so the follow-cam tracks the travel from frame one.
+ * Mutant that must die: dropping the releaseCamera + lastInteract aging from enterAttempt.
+ */
+test("@curated the commit hands the camera to the roll", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  const res = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    if (!a._optList || !a._optList.length) return null
+    a.holdCamera()                 // a standing lease, as a share flight would leave
+    a.lastInteract = a.now         // the pick's own click, as attachInput writes it
+    const activeBefore = a.userActiveNow()
+    a.enterAttempt(a._optList[0])
+    return { activeBefore, activeAfter: a.userActiveNow(), held: a.camHeld() }
+  })
+  expect(res, "a dealt hand to commit from").not.toBeNull()
+  expect(res!.activeBefore, "the click really had latched activity").toBe(true)
+  expect(res!.activeAfter, "the commit aged the latch — the follow-cam is free").toBe(false)
+  expect(res!.held, "and the focus lease is released").toBe(false)
 })

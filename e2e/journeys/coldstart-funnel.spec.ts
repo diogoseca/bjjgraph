@@ -380,7 +380,9 @@ test("cold start: ignoring the landing question is measured, not silent", async 
     return a.nodes[(a.optionIdxs || [])[0]].t;
   });
   await j.pick(target);
-  await j.expectBeat("land_q_ignored");
+  // v1.134.0: picking goes through the option sheet, which DECLINES the open question — the
+  // funnel records the same question_ignored side mark either way
+  await j.expectBeat("land_q_declined");
   const mark = await page.evaluate(() =>
     (window as any).__neural.csBeats.find(
       (b: any) => b.beat === "funnel" && b.step === "question_ignored",

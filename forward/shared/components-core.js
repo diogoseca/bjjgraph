@@ -345,7 +345,7 @@ export function landingCard(
   const captureBtn =
     capture === "none"
       ? ""
-      : `<button class="landing-capture" type="button" data-list-add data-list-surface="${capture}" aria-label="Add to a class list…">+</button>`;
+      : `<button class="landing-capture" type="button" data-list-add data-list-surface="${capture}" aria-haspopup="menu" aria-expanded="false" aria-label="Add to a list">${icon("star", 14)}</button>`;
   return `<article class="landing-card ng-landcard ${isCompact ? "is-compact" : ""}" data-landcard="${mode}" data-density="${isCompact ? "compact" : "default"}" data-priority="${priority}" data-production-selector=".ng-landcard">
     ${identity}
     ${isCompact ? "" : `<p class="landing-definition" data-land-def>${text.definition}</p>`}

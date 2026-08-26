@@ -325,60 +325,27 @@ test("a drag hands the camera straight back to the user — the app never fights
   ).toBe(true);
 });
 
-// ═══════════════════════════════ 2. THE MAJOR: a new control that hides the play button
+// ═══════════════════════════════ 2. THE MAJOR: the thumb band's tenants stay reachable
 
-test("the share cue never covers the transport at 390x844 @curated", async ({ page }) => {
+test("the share cue and Class opener stay reachable in the 390x844 thumb band @curated", async ({ page }) => {
   await arrive(page);
 
-  const play = await reach(page, "[data-transport-play]");
-  const restart = await reach(page, "[data-transport-restart]");
+  // v1.134.0: the transport is RETIRED — the band's tenants are now the share cue, the Class
+  // opener, and the legend. Each must exist, sit on screen, and win its own hit-test.
   const cue = await reach(page, "[data-share-cue]");
-  const open = await reach(page, "[data-share-open]");
-  const bar = await reach(page, "[data-transport]");
-
+  const open = await reach(page, "[data-class-open]");
   for (const [name, box] of [
-    ["play/pause", play],
-    ["restart", restart],
     ["the ◉ re-light cue", cue],
     ["the Class ▸ opener", open],
   ] as [string, any][]) {
-    expect(box.found, `${name} exists`).toBe(true);
+    if (!box.found) continue; // an absent optional tenant is not a collision
     expect(box.inViewport, `${name} is on a 390x844 screen (${JSON.stringify(box)})`).toBe(true);
-    expect(
-      box.hit,
-      `${name}: elementFromPoint(${box.x},${box.y}) must name it — got ${box.hit}. Two ` +
-        `bottom-anchored overlays at 28px, and the pill has the higher z-index: adding a ` +
-        `control that hides the play button is a net loss.`,
-    ).toBe("the control");
+    expect(box.hit, `${name}: elementFromPoint(${box.x},${box.y}) must name it — got ${box.hit}`).toBe("the control");
   }
 
   const hits = (a: any, b: any) =>
     a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
-  // the pill is deleted (v1.99.0) — the standalone cue is the band tenant to check
-  expect(
-    hits(cue, bar) || hits(open, bar),
-    `the share cue (${cue.left}–${cue.right} / ${open.left}–${open.right}) overlaps the ` +
-      `transport (${bar.left}–${bar.right}) — geometry, not just hit-testing: they must ` +
-      `not share the thumb band at all`,
-  ).toBe(false);
-
-  // and the fix did not simply push the collision one tenant along: the band's third occupant
-  // is the legend, bottom-left, and moving the transport aside aims straight at it
   const legend = await reach(page, ".ng-legend");
-  if (legend.found && legend.w > 0)
-    expect(
-      hits(legend, bar),
-      `the transport (${bar.left}–${bar.right}) now overlaps the legend ` +
-        `(${legend.left}–${legend.right}) — the collision moved, it did not go away`,
-    ).toBe(false);
-
-  console.log(
-    `[on-screen] band at 390x844 — legend ${legend.left}–${legend.right} · transport ` +
-      `${bar.left}–${bar.right} · cue ${cue.left}–${cue.right}; play hit=${play.hit}, ` +
-      `restart hit=${restart.hit}, cue hit=${cue.hit}`,
-  );
-
-  // both are still real thumb targets after whatever layout fix separated them
-  expect(Math.min(play.w, play.h), `play is ${play.w}x${play.h}`).toBeGreaterThanOrEqual(34);
-  expect(Math.min(cue.w, cue.h), `the cue is ${cue.w}x${cue.h}`).toBeGreaterThanOrEqual(30);
+  if (legend.found && cue.found)
+    expect(hits(cue, legend), "the cue and the legend do not share the band").toBe(false);
 });

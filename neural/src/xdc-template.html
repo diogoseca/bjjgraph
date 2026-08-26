@@ -68,8 +68,9 @@
        same way they masked the coach button before v1.69.1. -->
   <div ref="{{ nodeCardRef }}" style="display:none;position:absolute;left:0;top:0;width:560px;height:560px;z-index:5;transform-origin:50% 50%;will-change:transform,opacity;pointer-events:none;"></div>
 
-  <div ref="{{ loaderRef }}" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+  <div ref="{{ loaderRef }}" role="status" aria-live="polite" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;pointer-events:none;">
     <div style="width:26px;height:26px;border:2px solid rgba(255,255,255,.15);border-top-color:rgba(120,160,255,.9);border-radius:50%;animation:ngSpin .9s linear infinite;"></div>
+    <div style="font-size:11px;font-weight:600;letter-spacing:.06em;color:#8b97b0;">Loading the graph&#8230;</div>
   </div>
 
   <!-- dominance flash overlay -->
@@ -108,15 +109,15 @@
   </button>
 
   <!-- transport controls (bottom center) -->
-  <div ref="{{ transportRef }}" class="ng-transport" data-transport="1" style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:4;pointer-events:auto;display:flex;align-items:center;gap:6px;background:rgba(24,28,48,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:5px 7px;">
-    <button ref="{{ playPauseRef }}" data-transport-play="1" aria-label="Play or pause the roll" onClick="{{ togglePause }}" title="Pause" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:rgba(255,255,255,.08);color:#eef1f6;display:flex;align-items:center;justify-content:center;padding:0;"></button>
-    <button onClick="{{ resetRoll }}" data-transport-restart="1" aria-label="Restart the roll" title="Restart roll" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:transparent;color:#aeb6c8;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg></button>
-  </div>
+  <!-- THE TRANSPORT IS RETIRED (v1.134.0, owner): with the hesitation branch gone the game is
+       fully turn-based — nothing advances without a commit, so play/pause/restart controlled
+       nothing a player needed. The question clock never pauses (that is the test); restart is
+       free roam (background click twice) + click any node. -->
 
   <!-- persistent status HUD (top-left, after intro) -->
   <div class="ng-intro" style="position:absolute;top:72px;left:36px;pointer-events:none;animation:ngIntroLife 6.5s cubic-bezier(.2,.7,.2,1) .4s both;">
     <div style="font-size:28px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;line-height:1.05;">Roll the graph.</div>
-    <div style="font-size:13px;color:#9aa3b8;margin-top:11px;max-width:300px;line-height:1.5;font-weight:400;">A live roll plays out across the map. Choose your move, or let it flow.</div>
+    <div style="font-size:13px;color:#9aa3b8;margin-top:11px;max-width:300px;line-height:1.5;font-weight:400;">A live roll plays out across the map. Every move is yours — only the questions are on the clock.</div>
   </div>
 
   <!-- mobile dossier sheet: drops from the top, leaves options + win bar + drill row visible below -->
@@ -222,15 +223,19 @@
         <span style="width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:12px solid #c9d2e3;"></span>
         <span style="font-size:12px;color:#aeb6c8;font-weight:500;">Submission</span>
       </div>
+      <!-- the EDGE legend row lived here for two versions (v1.133.0 -> v1.135.0) and was
+           deleted at the owner's call: "the +7 tilt toward winning looks off … it's over
+           designing — the bar already shows that nicely". The EDGE explainer survives where the
+           player actually stops: the option sheet's caption. -->
     </div>
-    <div class="ng-winbar" style="display:flex;flex-direction:column;gap:7px;width:210px;">
-      <div style="height:9px;border-radius:5px;background:linear-gradient(90deg,#e84040 0%,#8e8e94 50%,#4084ff 100%);position:relative;overflow:visible;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);">
+    <div class="ng-winbar" style="display:flex;flex-direction:column;gap:6px;width:165px;">
+      <div style="height:7px;border-radius:4px;background:linear-gradient(90deg,#4084ff 0%,#8e8e94 50%,#e84040 100%);position:relative;overflow:visible;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);">
         <div ref="{{ legendMarkRef }}" style="position:absolute;top:-4px;bottom:-4px;left:50%;width:2.5px;border-radius:2px;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.6),0 0 3px rgba(255,255,255,.8);transform:translateX(-50%);opacity:0;">
           <span ref="{{ legendPointRef }}" style="position:absolute;top:-7px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #fff;"></span>
         </div>
       </div>
       <div style="display:flex;justify-content:space-between;font-size:10.5px;color:#8b93a8;font-weight:600;letter-spacing:.02em;">
-        <span>Lose</span><span>Win</span>
+        <span>Win</span><span>Lose</span>
       </div>
     </div>
   </div>

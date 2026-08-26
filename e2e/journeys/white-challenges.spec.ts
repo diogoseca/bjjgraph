@@ -49,8 +49,8 @@ test.describe("White Challenges @curated", () => {
     const progress = await whiteProgress(page);
     expect(progress.done).toBeGreaterThanOrEqual(3);
     expect(progress.total).toBe(20);
-    await expect(page.locator("[data-challenge-cue]")).toBeVisible();
-    await expect(page.locator("[data-challenge-cue]")).toContainText("WHITE CHALLENGES");
+    // v1.133.0 (owner): the cue card is retired — evidence still ticks, the pane is the surface
+    await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
   });
 
   test("doing an objective records durable Challenge progress", async ({
@@ -88,32 +88,22 @@ test.describe("White Challenges @curated", () => {
     ).toBe(true);
   });
 
-  test("the cue can be hidden persistently and restored from Settings", async ({
+  test("the cue card never mounts — retired in v1.133.0, engine untouched", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
     await j.land("Mount Top");
-    await expect(page.locator("[data-challenge-cue]")).toBeVisible();
-
-    await page.locator("[data-tut-hide]").click();
+    // the owner's call: "let's also remove the learning card." The persistent cue is gone at
+    // every point of the session; challenge evidence still accrues (journey 1) and the pane's
+    // Challenges tab is the surface. renderChallengeCue survives only as a remover.
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    expect(
-      await page.evaluate(() =>
-        (window as any).__neural.get("challengeCueVisible", true),
-      ),
-    ).toBe(false);
-
-    await j.boot("/", { preserveStorage: true, keepTutorial: true });
+    await expect(page.locator(".ng-tut")).toHaveCount(0);
+    await j.advance(5000);
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    // pinning is gone (v1.99.2) — Settings → Rolling → Challenge cue is the restore path
-    await page.locator(".ngAcctChip").click();
-    await page.locator("[data-menu-settings]").click();
+    // and the settings row that toggled it is gone with it
     await page.evaluate(() => (window as any).__neural.openSettings("rolling"));
-    await page.locator("[data-challenge-cue-toggle]").click();
-    await expect(page.locator("[data-challenge-cue-toggle]")).toHaveText("Hide");
-    await page.evaluate(() => (window as any).__neural.closeModal());
-    await expect(page.locator("[data-challenge-cue]")).toBeVisible();
+    await expect(page.locator("[data-challenge-cue-toggle]")).toHaveCount(0);
   });
 
   test("White Foundations exposes twenty evidence objectives without a Tutorial row", async ({
