@@ -387,10 +387,25 @@ const cssMinSaved = Buffer.byteLength(cssStripped) - Buffer.byteLength(cssMin);
 writeFileSync(R("dist/neural.css"), cssMin);
 // POSITIVE COVERAGE, NOT SILENCE (§6.6): print what was removed, so a build that quietly stops
 // stripping — or one where the pattern matches nothing — is visible instead of looking clean.
-if (cssMin.includes("/*")) {
+//
+// ASSERT ON THE REGEX'S OWN OUTPUT, NOT ON THE MINIFIER'S. This check was written in v1.139.3 to
+// gate the comment strip above it, and v1.144.0 moved it onto `cssMin` while adding the minify
+// step — which made it a tautology: esbuild's CSS minifier drops comments itself, so `cssMin`
+// never contains `/*` whether or not the strip worked. Proved by mutation during review: with the
+// strip turned into a complete no-op, this assertion still passed. Restored to `cssStripped`, the
+// value the strip actually produces, which is the only string that can answer the question it asks.
+if (cssStripped.includes("/*")) {
   throw new Error(
     `[build] neural.css still contains "/*" after the comment strip — the pattern no longer ` +
       `matches what this stylesheet actually holds; fix the strip rather than shipping comments.`,
+  );
+}
+// ...and the shipped bytes too, which is a different question with a different failure: the strip
+// could be perfect and a future minifier option could reintroduce a preserved `/*!` licence banner.
+if (cssMin.includes("/*")) {
+  throw new Error(
+    `[build] neural.css carries "/*" AFTER minification even though the strip left none — the ` +
+      `minifier is preserving a comment (a /*! banner?). Decide deliberately whether it ships.`,
   );
 }
 

@@ -5,12 +5,14 @@ as the legacy site (page == graph == game invariant).
 
 Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json is a
 generated+committed static asset):
-  - graph-data.json : {nodes, links, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
+  - graph-data.json : {nodes, links, toTab, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
     {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
     is additionally enriched with the calibrated numbers from graph.json: for technique
     nodes successRate + successRateByRuleset (differing frames only) + outcomes as
-    [to, probability, s|f|c] tuples + avail; for position nodes `ew` (precomputed
+    [toTabIdx, probability, s|f|c] tuples — slot 0 is an INDEX into the top-level `toTab`
+    string table, not the destination id itself (interned v1.144.0; the client resolves it
+    on ingest) — + avail; for position nodes `ew` (precomputed
     [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail
     + `ev`, the EDGE table that ranks the option cards (one independent MDP solve per
     loss-aversion preset — see build_move_edge, and the file-level `evLam`/`evFrame` that say
@@ -370,11 +372,24 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     # POSITIVE COVERAGE, NOT SILENCE (§6.6). An interning pass that quietly matched nothing
     # emits a perfectly valid wire — with every outcome still a string and the saving gone —
     # and nothing downstream would notice, because the expansion tolerates both shapes by design.
-    # So it counts itself, and it refuses to ship a table that cannot round-trip.
-    if not to_tab or _interned != sum(to_freq.values()):
+    #
+    # SO CHECK THE OUTPUT, NOT THE LOOP. The first cut of this guard compared `_interned` against
+    # `sum(to_freq.values())`, and those two count the SAME traversal of the same structure: they
+    # are equal by construction, so the clause could not fire and "the rewrite ran" printed exactly
+    # what "the rewrite did nothing" would print — §6.6's headline class, inside the guard written
+    # to prevent it. Found by review. The scan below reads what is actually about to be written:
+    # every slot 0 must now be an int that indexes `to_tab`, and a single string survivor fails.
+    _bad = [
+        (nd.get("id"), o[0])
+        for nd in nodes
+        for o in ((nd.get("cal") or {}).get("outcomes") or [])
+        if not isinstance(o[0], int) or not (0 <= o[0] < len(to_tab))
+    ]
+    if not to_tab or _bad:
         raise SystemExit(
-            f"[neural] outcome interning covered {_interned} of {sum(to_freq.values())} outcome "
-            f"rows into a {len(to_tab)}-entry table — refusing to emit a half-interned wire."
+            f"[neural] outcome interning left {len(_bad)} of {_interned} outcome row(s) unresolved "
+            f"against a {len(to_tab)}-entry table (first: {_bad[:3]}) — refusing to emit a "
+            f"half-interned wire."
         )
     print(f"  outcome destinations: {len(to_tab)} interned, {_interned} references rewritten")
     out = {"nodes": nodes, "links": links, "toTab": to_tab}
