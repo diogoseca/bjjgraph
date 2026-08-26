@@ -149,9 +149,25 @@ test.describe("Challenge curriculum @curated", () => {
     await j.expectBeat("lesson_done");
     await openChallenges(page);
 
+    // EVIDENCE IS IN THE LEDGER, NOT ON SCREEN (v1.137.0). This used to read the rendered row
+    // `[data-challenge-id='white.lesson']`. `renderTutorialSection()` was deleted that version
+    // ("remove the whole tutorial section") and the twenty White objectives lost their only
+    // surface — deliberately: `white-challenges.spec.ts` asserts `.ng-challenge-row` is count 0
+    // and that they still tick. This spec was the one place the old contract survived, so it
+    // asserted a row that no longer renders anywhere and had been red ever since.
+    //
+    // The claim worth keeping is the one in the title: finishing a lesson RECORDS evidence and
+    // does not lock the other lessons. Both are checkable without the deleted surface.
+    expect(
+      await page.evaluate(
+        () => (window as any).__neural.challengeProgress("white.lesson").done,
+      ),
+      "the lesson objective ticked in the ledger",
+    ).toBe(true)
     await expect(
       page.locator("[data-challenge-id='white.lesson']"),
-    ).toHaveAttribute("data-complete", "true");
+      "and nothing renders it — White's objectives are ledger-only",
+    ).toHaveCount(0)
     await expect(page.locator(".ng-challenge-lesson").nth(1)).toBeEnabled();
   });
 
