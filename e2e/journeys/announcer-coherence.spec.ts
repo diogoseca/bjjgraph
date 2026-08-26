@@ -129,6 +129,7 @@ test("@curated a Decide countdown does not survive staging another node", async 
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
+  await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
   // burn the live window down into the <=3s warning band, where the countdown is written
   for (let i = 0; i < 40; i++) {
@@ -212,6 +213,7 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
+  await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
   const seen: string[] = [];
   for (let i = 0; i < 220; i++) {
@@ -255,6 +257,7 @@ test("@curated the clock running out reveals the answer, says so, and steals not
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
+  await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);
   // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred
@@ -291,6 +294,7 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
+  await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
   for (let i = 0; i < 240; i++) {
     await j.advance(100);
     const b = (await j.beats()).map((x) => x.beat);

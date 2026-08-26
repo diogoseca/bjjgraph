@@ -2519,7 +2519,6 @@ class Component extends DCLogic {
     b.addEventListener("click", onClick);
     return b;
   }
-  fontStack(name) { return ({ Grotesk: "'Space Grotesk'", Sora: "'Sora'", Archivo: "'Archivo'", Jakarta: "'Plus Jakarta Sans'" }[name] || "'Space Grotesk'"); }
   applyFont() {
     const stack = "'Space Grotesk'";
     this._displayFam = stack;
@@ -11537,10 +11536,41 @@ class Component extends DCLogic {
   // doesn't choose for you. You still choose." (owner). The old hesitation branch (v1.129.0,
   // "you hesitated — they move first") is retired with the hand clock; its story is in the
   // archive under v1.129.0 and v1.133.0.
-  _armLandClock(clockEl) {
+  // ── THE CLOCK WAITS FOR THE PLAYER (v1.137.0, owner) ─────────────────────────────────────
+  // "The drill countdown starts during page load — a first-time Guest can land on TOO SLOW ·
+  // −4% before ever interacting." The pause-immune clock (v1.134.0) made this bite harder: it
+  // drains through the load itself. So no window arms until the user's FIRST real interaction
+  // (click, keypress, graph hover — `_engage()` is called from all three input heads) AND the
+  // question card is actually visible (`_landHidden()` asks the holders). An arm requested
+  // before that parks in `_cwArm` and fires from `_engage`/`_tickDecision` the moment both
+  // are true. The pressure itself is untouched — once engaged, the full window runs.
+  _engage() {
+    if (!this._engaged) { this._engaged = true; this.fx("engaged", {}); }
+    this._tryArmClock();
+  }
+  _clockGate() {
+    return !!this._engaged && !!this._landEl && !this._landHidden();
+  }
+  _tryArmClock() {
+    if (!this._cwArm || !this._clockGate()) return;
+    this._cwArm = null;
+    // RESOLVE THE BAR AT ARM TIME, never from the park: the card can re-render (deck backfill)
+    // between the parked mount and the first interaction, and a parked DOM reference then
+    // points at a DETACHED track — the disarm would style an element nobody sees while the
+    // live bar keeps its authored initial state (measured: transition "" on a correct-looking
+    // bar). The live card is the only truth.
+    this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null, true);
+  }
+  _armLandClock(clockEl, gateChecked) {
     const d = this._decision;
     if (!d) return;
-    const sec = this._decisionDsec || this.get("decisionSec", 9);
+    if (!gateChecked && !this._clockGate()) { this._cwArm = true; return; }
+    this._cwArm = null;
+    // FIRST-SESSION GRACE (owner: "~1.5× for brand-new users"): a visitor with no prior session
+    // marker gets a longer window while they learn what the clock even is. `_returningVisitor`
+    // is the ONE latched definition of "been here before" — reused, never re-derived.
+    const grace = this._returningVisitor() ? 1 : 1.5;
+    const sec = (this._decisionDsec || this.get("decisionSec", 9)) * grace;
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
@@ -11548,6 +11578,7 @@ class Component extends DCLogic {
     this._armDeckExpire();
   }
   _disarmLandClock() {
+    this._cwArm = null; // a parked arm dies with its window
     const d = this._decision;
     if (d) { d.remaining = null; d.total = null; }
     if (this._landEl && this._landEl.classList.contains("ng-clock-hot")) {
@@ -11565,7 +11596,7 @@ class Component extends DCLogic {
       // color it was armed with, instead of jumping. The drain itself stays frame-driven —
       // the transition exists only for this one write (the next arm clears it).
       const bar = this._landClockEl;
-      bar.style.transition = "transform .45s cubic-bezier(.2,.7,.2,1), background .45s ease";
+      bar.style.transition = "transform .45s ease, background .45s ease";
       bar.style.transform = "scaleX(0)";
       if (this._clockBase) bar.style.background = this._clockBase;
       this._landClockEl = null;
@@ -11657,6 +11688,7 @@ class Component extends DCLogic {
     if (box) box.style.opacity = "0"; // the .ng-evtoast CSS eases it out
   }
   _tickDecision(gdt) {
+    if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
     d.remaining -= gdt * 1000;
@@ -12636,6 +12668,15 @@ class Component extends DCLogic {
   }
   sbOffset() { const w = this.W || (this.wrapRef.current ? this.wrapRef.current.clientWidth : 1200); return w <= 640 ? 0 : 360; }
   attachInput() {
+    // THE ENGAGEMENT LATCH IS DOCUMENT-LEVEL, ONE SEAM (v1.137.0): root-plane overlays (the
+    // announcer, the film strip, the landing card) cover much of the screen, so a wrap-scoped
+    // listener misses real hovers over them — measured: elementFromPoint(640,300) resolved to a
+    // root-plane div outside the wrap. Capture-phase, once-only, all three arrival gestures.
+    {
+      const eng = () => this._engage();
+      for (const ev of ["pointerdown", "pointermove", "keydown"])
+        document.addEventListener(ev, eng, { once: true, capture: true });
+    }
     const el = this.wrapRef.current;
     let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0;
     const ptrs = new Map();

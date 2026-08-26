@@ -209,6 +209,7 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
+  await j.engage() // v1.137.0: the clock waits for the player — this journey plays one
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return !!(a._decision && a._decision.remaining != null && a._mc && a._mc.surface === "land")
@@ -305,6 +306,7 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
+  await j.engage() // v1.137.0: the clock waits for the player — this journey plays one
   const armed = await page.evaluate(() => {
     const a: any = (window as any).__neural
     return !!(a._decision && a._decision.remaining != null && a._landEl)
@@ -343,4 +345,73 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
   expect(after.barTransition, "the bar eases home through a transition").toContain("transform")
   expect(after.barTransform).toBe("scaleX(0)")
   expect(after.barBg, "and sheds the hot red for its armed base").toBe("rgb(159, 176, 208)")
+})
+
+/**
+ * THE CLOCK WAITS FOR THE PLAYER (v1.137.0). Owner: "The drill countdown starts during page
+ * load — a first-time Guest can land on TOO SLOW · −4% before ever interacting … no drill
+ * timer starts until the user's first real interaction AND the question card is fully visible;
+ * add a first-session grace multiplier (~1.5×) for brand-new users. Keep full time pressure
+ * once engaged."
+ * Mutants that must die: arming immediately (gate dropped); the 1.5× grace dropped; the
+ * document-level latch removed (a real mouse move must arm it).
+ */
+test("@curated no clock before the first real interaction — then full pressure, with new-user grace", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom") // boot only — NO land(), NO engagement
+  await j.advance(9000) // a long, slow "page load"
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(500)
+  }
+  const idle = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      engaged: !!a._engaged,
+      armed: !!(a._decision && a._decision.remaining != null),
+      parked: !!a._cwArm,
+      expired: (a.beats || []).some((b: any) => b.beat === "land_q_expired"),
+      qMod: a._qMod || 0,
+      cardUp: !!a._landEl,
+    }
+  })
+  expect(idle.cardUp, "the landing question is on screen").toBe(true)
+  expect(idle.engaged, "nobody has touched anything").toBe(false)
+  expect(idle.armed, "so no clock is running").toBe(false)
+  expect(idle.parked, "the arm is parked, waiting").toBe(true)
+  expect(idle.expired, "and nothing ever expired during load").toBe(false)
+  expect(idle.qMod, "no loading penalty").toBe(0)
+
+  // the first REAL interaction — a graph hover the document-level latch can see
+  await page.mouse.move(4, 4)
+  await page.mouse.move(6, 6)
+  await j.advance(300)
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      engaged: !!a._engaged,
+      total: a._decision ? a._decision.total : null,
+      base: a.get("decisionSec", 9) * 1000,
+      returning: a._returningVisitor(),
+      beat: (a.beats || []).some((b: any) => b.beat === "engaged"),
+    }
+  })
+  expect(armed.engaged, "one hover engages").toBe(true)
+  expect(armed.beat).toBe(true)
+  expect(armed.returning, "a fresh profile is a brand-new user").toBe(false)
+  expect(armed.total, "…who gets the 1.5× grace window").toBe(armed.base * 1.5)
+
+  // a returning visitor gets the full-pressure window — same seam, marker present
+  const vet = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    try { localStorage.setItem("bjj-neural-firstroll", "1") } catch (e) {}
+    a._returning = null // re-derive the latched answer from the marker
+    a._disarmLandClock()
+    a._decision = { remaining: null, total: null, warned: 0, pick: null, opts: [] }
+    a._armLandClock(a._landEl ? a._landEl.querySelector("[data-land-clock]") : null, true)
+    return { total: a._decision.total, base: a.get("decisionSec", 9) * 1000 }
+  })
+  expect(vet.total, "a returning visitor keeps full pressure").toBe(vet.base)
 })

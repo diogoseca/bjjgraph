@@ -749,6 +749,19 @@ export class Journey {
     // settle before returning: from here on, the
     // landing question either exists or this state does not ask one
     await this.landQuestion();
+    // v1.137.0: the question clock waits for the player's first REAL interaction — a journey
+    // that lands is simulating a playing user, so it engages the way one would (the corner is
+    // dead space: no node, no overlay, no game effect beyond the latch).
+    await this.engage();
+    return this;
+  }
+
+  /** The first real interaction, minimally: a mouse move the document-level latch can see.
+   *  Journeys about the PRE-engagement state must simply not call land()/engage(). */
+  async engage() {
+    await this.page.mouse.move(4, 4);
+    await this.page.mouse.move(6, 6); // two moves: the first can be swallowed as position-init
+    await this.advance(120);
     return this;
   }
 

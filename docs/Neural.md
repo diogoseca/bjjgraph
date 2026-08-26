@@ -229,7 +229,13 @@ anything that puts the question away — the ✕, a background tap, the pane, an
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
-staged boards and internal pauses included; the last three seconds pulse the card itself
+staged boards and internal pauses included — **but it never STARTS before the player does**
+(v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
+window arms until the first real interaction (click, keypress, graph hover — one document-level
+once+capture latch, `_engage`) AND the question card is visible; an early arm parks in
+`_clockWait` (a FLAG — the bar element resolves at arm time, because the card can re-render
+between park and engagement) and fires the moment both hold. Brand-new visitors
+(`_returningVisitor()` false) get a 1.5× grace window; returning players keep full pressure; the last three seconds pulse the card itself
 (`ng-clock-hot` — a MARKER class since v1.135.1: the pulse is frame-driven border/box-shadow
 writes in `_tickDecision`, because a CSS animation on the card replayed its entry animation and
 flashed; the disarm eases both the glow and the clock bar off through one-shot transitions,
