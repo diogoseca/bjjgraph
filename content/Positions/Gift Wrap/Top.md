@@ -453,7 +453,7 @@ Start from standard back control and race to establish Gift Wrap before partner 
 - **[[Positions/Crucifix]]** - Natural advancement when opponent attempts belly-down escape
 - **[[Positions/Mount/Technical Mount]]** - Positional progression maintaining arm trap advantage
 - **[[Submissions/Rear Naked Choke]]** - Primary submission attack from Gift Wrap position
-- **[[Armbar from Back]]** - Secondary submission targeting the free arm
+- **[[Transitions/Armbar on Free Arm]]** - Secondary submission targeting the free arm
 - **[[Positions/Back Control/Body Triangle]]** - Leg control option that combines with Gift Wrap arm control
 - **[[Positions/Twister Control]]** - Alternative back control system with related arm trapping concepts
 

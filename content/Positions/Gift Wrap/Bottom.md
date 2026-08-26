@@ -417,7 +417,7 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 - **[[Positions/Turtle]]** - Emergency escape target from Gift Wrap Bottom
 - **[[Positions/Half Guard]]** - Positional recovery target via hip escape
 - **[[Transitions/Back Door Escape]]** - Broader escape system that includes Gift Wrap defense
-- **[[RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
+- **[[Systems/Back Defense Protocol]]** - Critical defensive principle while trapped in Gift Wrap
 - **[[Transitions/Shrimp Escape]]** - Essential movement mechanic for Gift Wrap Bottom escape
 
 
