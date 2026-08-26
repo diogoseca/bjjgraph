@@ -206,12 +206,13 @@ test("cold start: the dossier payload landing mid-turn gives the current state i
   ).toContain("definition of where you are");
 });
 
-test("cold start: a payload arriving behind the expand sheet stays behind it", async ({
+test("cold start: a payload arriving behind the expand sheet renders BEHIND it, visible", async ({
   page,
 }) => {
-  // The expand sheet owns the screen while it is up and hides the landing card with two inline
-  // styles, restoring them on close. A backfilled card must inherit that hide — otherwise it pops
-  // into view over the sheet the player is reading.
+  // v1.136.0 (owner): the sheet no longer hides the landing card — it maximizes IN FRONT of it
+  // on the root plane (portalled, z:50 over the card's z:5). A backfilled card must therefore
+  // arrive VISIBLE, and the paint order — not a z-index integer — must put the sheet on top
+  // wherever the two overlap. elementFromPoint is the only honest oracle here (§6.3).
   const j = journey(page);
   await j.boot("/", { keepTutorial: true });
   await withoutDecks(page);
@@ -224,34 +225,34 @@ test("cold start: a payload arriving behind the expand sheet stays behind it", a
   });
   await page.locator(`[data-tech="${target}"]`).first().click(); // open the sheet, do NOT execute
   await expect(page.locator("[data-go]").first()).toBeVisible();
-  expect(
-    await page.evaluate(
-      () =>
-        (document.querySelector(".ng-landcard") as HTMLElement).style.opacity,
-    ),
-    "the sheet owns the screen",
-  ).toBe("0");
 
   await decksArrive(page); // the payload lands while the sheet is up
+  await page.waitForTimeout(450); // the card's entry animation must finish before opacity means anything
 
-  expect(
-    await page.evaluate(
-      () =>
-        (document.querySelector(".ng-landcard") as HTMLElement).style.opacity,
-    ),
-    "the backfilled card stays hidden behind the sheet",
-  ).toBe("0");
-  // back out of the sheet without executing (the ✕ / back buttons carry no data handle, so this
-  // is their choke). NB until this journey found it, the animated collapse path never restored
-  // the landing card at all — peeking at an option and backing out hid it for the rest of the turn.
+  const stack = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const card = document.querySelector(".ng-landcard") as HTMLElement;
+    const panel = a.optDetailRef.current as HTMLElement;
+    if (!card || !panel) return null;
+    const cs = getComputedStyle(card);
+    const cr = card.getBoundingClientRect(), pr = panel.getBoundingClientRect();
+    // a point inside BOTH rects — the band where the sheet must win the paint
+    const x = Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right) > 2 * Math.max(cr.left, pr.left)
+      ? (Math.max(cr.left, pr.left) + Math.min(cr.right, pr.right)) / 2 : -1;
+    const y = (Math.max(cr.top, pr.top) + Math.min(cr.bottom, pr.bottom)) / 2;
+    const overlap = x >= 0 && Math.min(cr.bottom, pr.bottom) > Math.max(cr.top, pr.top);
+    const hit = overlap ? document.elementFromPoint(x, y) : null;
+    return {
+      cardVisible: cs.opacity !== "0" && cs.visibility === "visible",
+      overlap,
+      sheetWinsPaint: !!(hit && panel.contains(hit)),
+    };
+  });
+  expect(stack, "card and sheet both mounted").not.toBeNull();
+  expect(stack!.cardVisible, "the backfilled card arrives VISIBLE behind the sheet").toBe(true);
+  if (stack!.overlap) expect(stack!.sheetWinsPaint, "the sheet wins the paint where they overlap").toBe(true);
+
   await page.evaluate(() => (window as any).__neural.closeOptionDetail());
-  expect(
-    await page.evaluate(
-      () =>
-        (document.querySelector(".ng-landcard") as HTMLElement).style.opacity,
-    ),
-    "and comes back when the sheet leaves",
-  ).toBe("");
   expect((await read(page)).hasQ, "carrying the question it was owed").toBe(
     true,
   );

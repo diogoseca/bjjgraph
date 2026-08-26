@@ -376,8 +376,10 @@ symbol to every version that touched it.
 
 - **`opacity:0` IS NOT HIDDEN — an invisible overlay still eats clicks.** Hit-testing ignores opacity, and `pointer-events` is inherited, so any descendant that re-enables it inline stays live across its whole box — `[data-land-foot]` does exactly that on purpose (`app.src.jsx`), because it holds `More ▸` and the capture `+`. Symptom: something UNDERNEATH is dead to the mouse and `elementFromPoint` returns the thing you thought was gone (measured: `<div data-land-foot="1">` at the centre of a capture button, 120s of Playwright retries).
   **Do:** also write `visibility:hidden !important` — inherited, unescapable here, removes the subtree from hit-testing. `_suppressLand` (`app.src.jsx`) is the reference. Assert inertness with `elementFromPoint`, never a visual check.
-  **UNGUARDED, and one site is still leaky at HEAD: `expandOption` (`app.src.jsx`) stands the landing card down with opacity + pointer-events only.** No gate enumerates the hide-sites.
-  <br>_(5 by v1.100.2; 1 site still leaky as of v1.129.7 · _re-verify before quoting_)_
+  **UNGUARDED: no gate enumerates the hide-sites.** (The long-leaky `expandOption` site was
+  DELETED outright in v1.136.0 — the sheet stacks OVER the landing card at z:6 vs z:5 instead of
+  hiding it, owner's call.)
+  <br>_(5 by v1.100.2; the last leaky site deleted in v1.136.0)_
 
 - **`_dockLandCard` · `_dockLandFilm` · `_dockOptionHint` · `_bandBot` — fixed chrome docks off a MEASURED rect, never a CSS constant.** The option tray is `bottom:84px` with no height and grows upward as card names wrap; anything tuned against it collides at some viewport. Measured overlaps: landing card 63px, escape tray 7px, option hint 2px at EVERY width, pane/card 108px at 1024, phone challenge cue 6,700 px².
   **Two sub-rules:** keep the TIGHTEST measurement ever taken at this viewport (the band flickers because card and film mount on different frames, and a per-landing reset hands the loose answer straight back); and an element that has not laid out yet reads `rect.top == 0` — that is SKIP, not a constraint.
@@ -542,8 +544,8 @@ symbol to every version that touched it.
 - **A canon number nobody can reproduce is worse than no number — carry its SET DEFINITION and its recompute command in the same sentence.** The failure is rarely a bad measurement; it is a measurement of the wrong SET. Measured base rate in this repo: of the figures checkable from text alone, **four have already drifted** — "0 disagreements" (a check that never executed; real 95, later 49, and now filtered through `tests/artifacts/position_type_reviewed.json`), "85 of 136" opposite-sign positions (**115**, and it was 84 the day it was written — no magnitude threshold reproduces 85), the opponent gap "9.1 / 23.2%" (measured a set the model never holds, understating by half), and "89 ambiguous main names" (**110**). `tests/artifacts/_opponent_gap_measure.py` is the pattern: the number ships with the script that recomputes it.
   <br>_(8)_
 
-- **Every coverage claim ends in one of three forms, and the third is the dangerous one: `Pinned by <spec>` / `Partially pinned: <spec> covers <case>, not <case>` / `UNGUARDED — <what you must check by hand>`.** A spec name attached to a CLASS-level rule invites the reader to infer coverage the spec does not have. Currently unguarded and still true: `CategoryNav.tsx`, the Forward catalog mock, the leaky hide-site at `app.src.jsx`, and `attachInput`'s early-return list. A trap whose whole class reads `Pinned by` is a demotion candidate at the next review — that is what lets this section shrink as the suite grows.
-  <br>_(4 currently unguarded)_
+- **Every coverage claim ends in one of three forms, and the third is the dangerous one: `Pinned by <spec>` / `Partially pinned: <spec> covers <case>, not <case>` / `UNGUARDED — <what you must check by hand>`.** A spec name attached to a CLASS-level rule invites the reader to infer coverage the spec does not have. Currently unguarded and still true: `CategoryNav.tsx`, the Forward catalog mock, and `attachInput`'s early-return list. A trap whose whole class reads `Pinned by` is a demotion candidate at the next review — that is what lets this section shrink as the suite grows.
+  <br>_(3 currently unguarded)_
 
 - **Comments are stripped by the build, so documentation above a constant is FREE — put the reasoning where the change will be made, not here.** Only the copy and the code are on the payload bill. Corollary for this section: a fact with a code site belongs in a comment at that site, and only its TRIGGER TOKEN belongs in CLAUDE.md. What stays here is what has no code site — how the work is measured, surveyed and claimed.
   <br>_(n/a — the admission rule for this section)_

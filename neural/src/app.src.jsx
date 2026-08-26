@@ -3437,10 +3437,23 @@ class Component extends DCLogic {
   expandOption(opt, onPick, srcCard) {
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) { onPick(opt); return; }
+    // ── THE SHEET LIVES ON THE ROOT PLANE (v1.136.0) ─────────────────────────────────────────
+    // §6.1's z-ladder trap, caught by the adversarial pass before it shipped: this panel was
+    // position:absolute z:6 INSIDE the app wrap — a fixed wrap is its own stacking context, so
+    // that 6 is trapped at the wrap's plane 0, and the landing card (a ROOT-plane sibling at
+    // z:5) paints over the whole wrap, sheet included. The owner's ask — "the land card should
+    // be BEHIND it, the maximized option card in front" — is only satisfiable by PORTALLING the
+    // sheet to the root plane, in the coaching band (50-79) so the list picker (90) and modals
+    // still outrank it. Idempotent; geometry survives because the wrap spans the viewport, so
+    // wrap-relative absolute and viewport-fixed coordinates coincide.
+    const root = this.__ngRoot || document.body;
+    if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
-    if (this._landEl) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; } // the sheet owns the screen while it is up
+    // v1.136.0 (owner): the landing card STAYS — the sheet maximizes IN FRONT of it (z:6 over
+    // the card's z:5, its shadow falling on it), it does not make the card vanish. This also
+    // deletes §6.1's long-standing leaky hide-site outright.
     // THE HEAD IS THE OPTION CARD, ENLARGED (v1.102.1) — so it shows the card's marks, not a
     // second set. Since v1.118.0 that means EDGE: the same value, from the same `edgeMark`, in the
     // same palette. A sheet is only ever opened from a non-escape option card, so `opt` is always
@@ -3452,8 +3465,14 @@ class Component extends DCLogic {
     const resName = opt.res >= 0 ? this.splitName(this.nodes[opt.res].t).main : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions").slice(0, 4).map((k) => this.splitName(this.nodes[k].t).main);
-    const tp = this.titleParts(n);                 // {from,to} when the move reads "X to Y", else null
+    // titleParts no longer shapes the TITLE (the sheet prints the technique's own name), but it
+    // still GATES the on-success line: `resName` is `opt.res`, a deal-time first-position-
+    // neighbor heuristic — measured wrong for 188 of 323 "X to Y"-named transitions when the
+    // gate was briefly widened (28 printed a node that is no authored outcome at all). A name
+    // that already states its destination gets no second, worse guess printed under it.
+    const tp = this.titleParts(n);
     const sp = this.splitName(n.t);
+    const num = (this._optList || []).findIndex((o) => o && o.idx === opt.idx) + 1; // the tray digit the card wore — 0 (no digit) when the option is not in the dealt hand
     const rc = this.richContentFor(n);
     const hasPersp = !!rc;                          // only authored dual-perspective entries get the tab
     if (!this._perspective) this._perspective = "attacker";
@@ -3498,23 +3517,22 @@ class Component extends DCLogic {
       // from→to structure, and the success row carries the adjust control the card has no room for.
       // padding-right clears the corner pair (+ and ✕, ~56px) — the potential is right-aligned in
       // this same row and the two were drawing on top of each other ("+-30")
-      '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.nodeGlyph(n.ty, col, 11) +
-        '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
+      // ── THE CARD YOU PRESSED, VERBATIM (v1.136.0, owner) ─────────────────────────────────
+      // The head keeps the option card's EXACT anatomy — numbered glyph, quiet category word,
+      // EDGE — and the technique's OWN name as the title, just larger. The from→to decomposition
+      // ("Headquarters Position → open-guard") is gone: "it should definitely not be decomposed
+      // into this made-up title". The category stays but whispers ("almost noticeable" — the
+      // name is what must stand out first), and the EDGE explainer paragraph became a hover
+      // tooltip on the number itself — the by-the-book-opponent caveat (canon for any EDGE
+      // copy) rides inside it.
+      '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.catGlyph(n, num, col) +
+        '<span style="flex:1;min-width:0;font-size:10px;letter-spacing:.05em;text-transform:uppercase;font-weight:700;color:#7e8aa3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
         (edge
-          ? '<span class="ngedgebig" aria-label="EDGE ' + edge.txt + ': how far this move tilts the roll toward winning" style="flex:none;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
+          ? '<span class="ngedgebig" title="EDGE \u2014 how far this move tilts the roll toward winning and away from losing, counting where a miss leaves you. A safer move can outrank a higher-percentage one. By-the-book opponent assumed." aria-label="EDGE ' + edge.txt + '" style="flex:none;cursor:help;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
           : '') +
       '</div>' +
-      // the number the whole hand ranks by, finally captioned where the player already stops
-      // (v1.133.0, owner) — the by-the-book-opponent caveat is canon for any EDGE copy
-      (edge ? '<div style="font-size:10.5px;line-height:1.5;color:#8496b8;margin:-3px 0 9px;">How far this tilts the roll toward winning and away from losing \u2014 counting where a miss leaves you. A safer move can outrank a higher-percentage one. By-the-book opponent assumed.</div>' : '') +
-      (tp
-        ? '<div style="display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;font-family:\'Space Grotesk\',sans-serif;line-height:1.08;">' +
-            '<span style="font-size:18px;font-weight:600;color:#8b97b0;">' + tp.from + '</span>' +
-            '<span style="font-size:16px;color:#5d6a86;font-weight:600;">\u2192</span>' +
-            '<span style="font-size:25px;font-weight:700;color:#eef1f6;letter-spacing:-.015em;">' + tp.to + '</span>' +
-          '</div>'
-        : '<div style="font-size:25px;font-weight:700;color:#eef1f6;letter-spacing:-.015em;line-height:1.05;font-family:\'Space Grotesk\',sans-serif;">' + sp.main + '</div>' +
-          (sp.from ? '<div style="font-size:14px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>' : '')) +
+      '<div style="font-size:27px;font-weight:700;color:#eef1f6;letter-spacing:-.015em;line-height:1.05;font-family:\'Space Grotesk\',sans-serif;">' + sp.main + '</div>' +
+      (sp.from ? '<div style="font-size:14px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>' : '') +
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
@@ -3791,7 +3809,6 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   hideOptDetail() {
-    if (this._landEl) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; } // the landing card comes back when the sheet leaves
     const panel = this.optDetailRef.current;
     if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
@@ -3801,7 +3818,6 @@ class Component extends DCLogic {
     // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
     // never called it, so peeking at an option and backing out left the card that says where you
     // are invisible for the rest of the turn. Found by the late-payload journey.
-    if (this._landEl) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; }
     this._detailCtx = null;
     if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
     this.clearClipLoops();
@@ -9439,13 +9455,10 @@ class Component extends DCLogic {
     if (act && this._landEl.contains(act))
       for (const h of ["data-land-more", "data-land-count"])
         if (act.hasAttribute(h)) { held = "[" + h + "]"; break; }
-    // somebody is hiding the card inline (the expand sheet owns the screen while it is up, and
-    // restores these two on close) — a fresh element must inherit that, or the card pops into
-    // view over the sheet the player is reading
-    const hidden = this._landEl.style.opacity === "0";
+    // (v1.136.0: the sheet no longer hides the card inline, so a rebuilt card inherits nothing —
+    // the opacity-inheritance dance that lived here died with the hide-site)
     this._landLate = true;                       // the beat says "this question arrived late"
     try { this.renderLandCard(pos, stTech ? "attempt" : "land", null, reuse); } finally { this._landLate = false; }
-    if (this._landEl && hidden) this._suppressLand(true);   // one seam, and it survives the entry animation
     if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
   // ═══ LANDING-CARD PAGING (v1.130.0; the reveal/hide rung shipped here and was retired the

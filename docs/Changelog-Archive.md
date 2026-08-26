@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
 - **v1.135.1** — [THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA](#v1-135-1-the-expiry-stops-flashing-and-the-commit)
 - **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
 - **v1.134.0** — [THE TRANSPORT DIES: THE GAME GOES FULLY TURN-BASED](#v1-134-0-the-transport-dies-the-game-goes-fully-t)
@@ -3547,6 +3548,46 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.136.0 — THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT
+
+### THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT (v1.136.0)
+
+Owner, pasting the sheet's DOM: the EDGE explainer paragraph "is not supposed to show to every
+user every time … needs to be a small, almost noticeable tooltip near the number"; the
+from→to title ("Headquarters Position → open-guard") is "unreadable … the technique's own name
+should really stand out"; the glyph "used to say 2, and now it just shows the transition icon";
+and the landing card "magically disappears — it should be BEHIND the maximized card".
+
+Shipped: the head keeps the option card's anatomy verbatim — `catGlyph(n, num, col)` with the
+tray digit (recovered as `_optList.findIndex(o => o.idx === opt.idx) + 1` — the deal order IS
+the digit order, verified against both deal sites), the category word at 10px/.05em, the
+technique's own `splitName().main` as a 27px title with the `from …` qualifier under it, and
+the explainer as a `title` tooltip on `.ngedgebig` (aria-label shrank to the NAME per the
+app.src.jsx:5900 convention; the by-the-book-opponent caveat kept — canon). The landcard hide
+in `expandOption` — §6.1's last leaky site — is deleted outright, with its two restore sites
+and the backfill's opacity-inheritance dance.
+
+**The ultracode adversarial pass paid for itself three times before the suite ran.** Five
+parallel skeptics attacked the diff: (1) CONFIRMED — "z:6 over z:5" compared integers across
+two stacking contexts: the sheet was `absolute z:6` INSIDE the fixed wrap (trapped at plane 0)
+while the landcard is a ROOT-plane sibling at z:5 that paints over the whole wrap — the very
+inversion the repo measured three times before. Fix: the sheet PORTALS to the root plane at
+z:50 (coaching band, under the picker's 90). The first spec cut had asserted
+`parseInt(panel.style.zIndex) > 5` — a §6.3 re-implementation that passed green on the broken
+build; both specs now assert paint order with `elementFromPoint`. (2) CONFIRMED — widening the
+on-success line's `!tp` gate exposed `opt.res` (a deal-time first-position-neighbor heuristic)
+on 188 of 323 "X to Y" transitions, 28 printing a node that is no authored outcome ("Closed
+Guard to Omoplata" → "advances to Clamp Guard Top"); the gate is restored, the title stays the
+technique's own name. (3) CONFIRMED — `coldstart-backfill` still pinned the old hide (my own
+8-spec impact run had missed it); rewritten to "arrives VISIBLE behind the sheet" with the
+paint-order oracle. (4) num derivation NOT refuted (dealt order = digit order at both deal
+sites; pair dedup by title keeps idx unique per hand; `showNum` gates 0 safely). (5) tooltip
+convention violation CONFIRMED — the aria-label still carried the description clause; shrunk
+to "EDGE +N".
+
+Mutants M16–M20 (explainer restored · title dropped · digit dropped · hide restored · portal
+dropped) all killed by the two rewritten specs.
 
 ## v1.135.1 — THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA
 

@@ -140,6 +140,24 @@ remains the quality upgrade over truncation. The option-node label pass yields t
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
 
+### The option sheet is the card you pressed (v1.136.0)
+
+The sheet head keeps the option card's EXACT anatomy — the numbered category glyph (the tray
+digit rides along via `catGlyph`), the category word whispering at 10px/.05em, EDGE — and the
+technique's OWN name as the 27px title (`splitName().main` + the `from …` qualifier line). The
+from→to decomposition is deleted ("it should definitely not be decomposed into this made-up
+title", owner). The EDGE explainer paragraph became a `title` tooltip on the number itself
+(`cursor:help`; aria-label shrank to the NAME per the title-is-the-description convention; the
+by-the-book-opponent caveat rides inside — canon for any EDGE copy). The "on success, advances
+to" line stays gated on `titleParts` being null: `opt.res` is a deal-time first-neighbor
+heuristic, measured wrong for 188 of 323 "X to Y"-named transitions when that gate was briefly
+widened. **The sheet is PORTALLED to the root plane at z:50 (coaching band)** — it was
+`absolute z:6` inside the wrap, trapped at plane 0 under the root-plane landing card (§6.1's
+ladder trap, caught by an adversarial pass before shipping) — and **the landing card is no
+longer hidden on expand**: it stays visible BEHIND the sheet (the old opacity hide-site, §6.1's
+last leaky one, is deleted outright). Paint order is asserted with `elementFromPoint`, never
+z-index arithmetic. Pinned by `option-edge.spec.ts` + `coldstart-backfill.spec.ts`.
+
 ### The commit hands the camera to the roll (v1.135.1)
 
 `userActiveNow()` (4 game-seconds since `lastInteract`) is the ONE condition that suppresses the
