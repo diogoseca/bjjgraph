@@ -545,7 +545,7 @@ class Component extends DCLogic {
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
-    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._detailCtx = null; this.setPaused(false); this.closeModal(); });
+    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._setDetailCtx(null); this.setPaused(false); this.closeModal(); });
     // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
     // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
@@ -1512,6 +1512,7 @@ class Component extends DCLogic {
     // `clearOptions` drop a countdown for a hand that no longer exists without touching anything
     // else — including the "Time's up" line, which reaches this function and clears the flag here.
     this._evCountdown = null;
+    this._evExpiry = null; // the expiry sentence's lease (v1.138.0) — any newer sentence outranks it
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
@@ -2727,7 +2728,6 @@ class Component extends DCLogic {
     b.addEventListener("click", onClick);
     return b;
   }
-  fontStack(name) { return ({ Grotesk: "'Space Grotesk'", Sora: "'Sora'", Archivo: "'Archivo'", Jakarta: "'Plus Jakarta Sans'" }[name] || "'Space Grotesk'"); }
   applyFont() {
     const stack = "'Space Grotesk'";
     this._displayFam = stack;
@@ -3837,6 +3837,7 @@ class Component extends DCLogic {
     if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
+    this._dropExpiryEvent();        // reading a move — the expiry sentence lets go (v1.138.0)
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     // v1.136.0 (owner): the landing card STAYS — the sheet maximizes IN FRONT of it (z:6 over
     // the card's z:5, its shadow falling on it), it does not make the card vanish. This also
@@ -4023,7 +4024,7 @@ class Component extends DCLogic {
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
-    go.addEventListener("click", () => { this._detailCtx = null; this.hideOptDetail(); this.setPaused(false); onPick(opt); });
+    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this.setPaused(false); onPick(opt); });
     // the two actions lifted out of the head (v1.102.1) land here, on their own row above the
     // primary pair — grouped with the other things you can DO, not stacked over the name
     if (hasPersp || true) {
@@ -4050,7 +4051,7 @@ class Component extends DCLogic {
     panel.appendChild(foot);
     // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
     { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
-    this._detailCtx = { opt: opt, onPick: onPick };
+    this._setDetailCtx({ opt: opt, onPick: onPick });   // ...and the card behind it stands down (see _syncDetailDim)
 
     // expand / collapse the sheet (compact peek -> full)
     this._optExpanded = false;
@@ -4205,7 +4206,7 @@ class Component extends DCLogic {
     // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
     // never called it, so peeking at an option and backing out left the card that says where you
     // are invisible for the rest of the turn. Found by the late-payload journey.
-    this._detailCtx = null;
+    this._setDetailCtx(null);
     if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
     this.clearClipLoops();
     clearTimeout(this._optSettle);
@@ -8000,6 +8001,7 @@ class Component extends DCLogic {
     return real[0].idx;
   }
   openDossier(idx, skipCam) {
+    this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: "card" });
@@ -8147,6 +8149,7 @@ class Component extends DCLogic {
   }
   _enterRoam() {
     if (this._roam) return;
+    this._dropExpiryEvent(); // roaming away — the expiry sentence lets go (v1.138.0)
     this._roam = true;
     if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
@@ -8226,6 +8229,68 @@ class Component extends DCLogic {
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = ""; t.style.removeProperty("visibility"); }
     }
   }
+  /**
+   * THE CARD STANDS DOWN WHILE THE OPTION SHEET OWNS THE SCREEN (v1.137.0).
+   *
+   * v1.136.0 stopped HIDING the landing card on `expandOption` — the owner's call was that the
+   * sheet maximizes IN FRONT of it, not that the card vanishes — but it left `_detailCtx` in
+   * `_landHidden()`'s holder list. So the app believed the card was hidden while the card painted
+   * at full strength, and the two input paths disagreed about a surface the player was looking at:
+   * A-D refused to grade (the gate in `_onKey` asks `_landHidden()`), while a mouse click on the
+   * strip peeking above the sheet still graded, because `_declineLandQ("sheet")` sets neither
+   * `truth.spent` nor `rec.revealed` (deliberately: a declined question still pays if you back out
+   * and answer it). "Looks active, won't answer."
+   *
+   * The card now READS as what it already was: dimmed, and dead to every input path.
+   *
+   * WHY THE ROOT STAYS HIT-TESTABLE, AND ONLY THE CHILDREN GO `inert`. `attachInput`'s pointerdown
+   * early-return is a TARGET test (`ov.contains(e.target)`), so anything that makes the card root
+   * hit-test-transparent — `pointer-events:none` on the root, or `inert` on the root — drops
+   * `e.target` through to the canvas, where the tap reaches `_tapBackground()`: it declines the
+   * question and DESTROYS the card without closing the sheet, which would break the very
+   * answer-after-Esc contract this surface exists to keep. With the root left alone, the existing
+   * early-return keeps absorbing the tap and no geometry code is needed in §6.1's most dangerous,
+   * hand-maintained list. `inert` on the children is what actually disarms them: it is the only
+   * primitive a descendant cannot re-enable inline, which matters because `[data-land-foot]` does
+   * exactly that with `pointer-events` on purpose, and it takes focus and the a11y tree with it.
+   *
+   * The dim itself is a STYLESHEET rule keyed on `data-behind-sheet` (helmet.html), not an inline
+   * style: stylesheet `!important` outranks the running `ngCardInX` entry animation, so a card
+   * BORN under an open sheet is born dimmed; and it cannot collide with `_suppressLand`, which
+   * writes and removes INLINE important opacity/visibility when a pane genuinely hides the card.
+   * Its values sit one step short of the app's decay grammar (`ngDeckExpire` ends at grayscale(1)
+   * brightness(.5) opacity .34): dimmer than live, not as dead as expired. The transition is on the
+   * dim only — removing the attribute snaps the card back, matching the flag-synchronous instant
+   * the keys come alive again, because `_landHidden()` asks the holders and never the pixels.
+   *
+   * KEEP THE PROSE ON THIS SIDE. §6.9's "comments are stripped by the build, so documentation is
+   * free" is true of THIS file and false of helmet.html: its CSS comments ship to every visitor.
+   * Measured on the first cut of this change — the rule's 10-line comment cost ~800 payload bytes
+   * against 367 for all of the code, and put `payload-first-hand` 304 bytes over its gzip ceiling.
+   *
+   * DERIVED, NEVER LATCHED (§6.5). The state is `!!this._detailCtx` and nothing else, because that
+   * flag has SEVEN writers and a latch would drift the first time one of them was missed. Every
+   * runtime writer goes through `_setDetailCtx`; the constructor's field init is the only bare
+   * assignment left. `renderLandCard` calls this unconditionally so a rebuilt card re-derives.
+   *
+   * Not observable by any spec, and recorded rather than fixed: the Execute/Go door syncs on its
+   * way out, but that interaction destroys the card in the same beat, so no assertion can see it.
+   * UNGUARDED: the `_landFilmEl` half. The DSL serves {} for dossier chunks, so no film ever mounts
+   * under the harness (§6.4) — it ships on the shared code path, checked by hand only.
+   */
+  _syncDetailDim() {
+    const on = !!this._detailCtx;
+    for (const t of [this._landEl, this._landFilmEl]) {
+      if (!t) continue;
+      if (on) t.setAttribute("data-behind-sheet", "1"); else t.removeAttribute("data-behind-sheet");
+      for (const c of t.children) c.inert = on;
+    }
+  }
+  /** The one writer of `_detailCtx` (§6.5): every set and every null goes through here, so the
+   *  card's stand-down can never drift from whether a sheet is actually open. Lifters, i.e. every
+   *  site that hands the card back: `closeOptionDetail` (Back / ✕ / Esc / Enter-commit), the
+   *  Execute door, the modal backdrop, both `confirmPlayFrom` exits, and `clearOptions`. */
+  _setDetailCtx(ctx) { this._detailCtx = ctx || null; this._syncDetailDim(); }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
     if (!b) return "";
@@ -8633,7 +8698,7 @@ class Component extends DCLogic {
     // Z LADDER (helmet.html): a confirm is a DELIBERATE screen — host it on the root overlay
     // plane at the modal band (95), not inside the wrap where the landing card (z:5, root
     // plane) would paint over it and its z:40 could never win.
-    const host = this.__ngRoot || this.wrapRef.current; if (!host) { this._detailCtx = null; this.hideOptDetail(); this.playFrom(seedIdx, role); return; }
+    const host = this.__ngRoot || this.wrapRef.current; if (!host) { this._setDetailCtx(null); this.hideOptDetail(); this.playFrom(seedIdx, role); return; }
     const ov = document.createElement("div");
     ov.style.cssText = "position:fixed;inset:0;z-index:95;display:flex;align-items:center;justify-content:center;background:rgba(8,11,18,.62);backdrop-filter:blur(3px);pointer-events:auto;";
     const close = () => { ov.style.opacity = "0"; setTimeout(() => ov.remove(), 160); };
@@ -8652,7 +8717,7 @@ class Component extends DCLogic {
     ov.querySelector(".ng-cf-no").addEventListener("click", close);
     ov.querySelector(".ng-cf-yes").addEventListener("click", () => {
       close();
-      this._detailCtx = null; this.hideOptDetail();
+      this._setDetailCtx(null); this.hideOptDetail();
       this._openSidebarOnLand = true;     // land back in the flashcards home on the seeded state
       // THE ACTION IS THE CALLER'S WHEN IT NEEDS ITS OWN (v1.106.5): the SCREEN is shared — one
       // copy of the wording, one z:95 host, one place that asks before a live roll is discarded —
@@ -9021,7 +9086,14 @@ class Component extends DCLogic {
         btns[i].style.background = "rgba(255,110,110,.07)";
       }
     };
-    const answer = (i) => { if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    // ONE PREDICATE GOVERNS BOTH INPUT PATHS (v1.137.0). The A-D gate in `_onKey` already refuses
+    // to grade a landing question while `_landHidden()` holds — "A-D must not grade a question
+    // nobody can see" — but the mouse had no such rule, so with the option sheet open the keyboard
+    // refused while a click on the strip peeking above the sheet still graded. `_landHidden()` is
+    // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
+    // closes, with no transition to race. Not a decline and not a grade: the question is untouched
+    // and still pays when the player comes back to it.
+    const answer = (i) => { if (truth.surface === "land" && this._landHidden()) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C/D keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -9477,7 +9549,7 @@ class Component extends DCLogic {
   clearOptions() {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -10288,6 +10360,7 @@ class Component extends DCLogic {
   // Clamp at the ends: an edge is an edge, and the mini-deck's modulo wrap loses the reader's
   // place in a deck they are browsing.
   _landPageTo(dir) {
+    this._dropExpiryEvent(); // paging to another card — the expiry sentence lets go (v1.138.0)
     const el = this._landEl;
     if (!el || (this._landMode !== "land" && this._landMode !== "attempt")) return false;
     if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
@@ -10739,6 +10812,11 @@ class Component extends DCLogic {
     this._dockLandCard(el);
     // a fresh card born while the reading sheet owns the screen must not pop over it
     if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
+    // ...and one born under an OPEN OPTION SHEET is born stood down. Unconditional on purpose: it
+    // derives from `_detailCtx` and is a no-op when no sheet is open, so it cannot rot the way a
+    // second copy of the condition above would. A backfill builds a brand-new element with fresh,
+    // non-inert children, so this is the only thing that re-applies the dim to it.
+    this._syncDetailDim();
     return el;
   }
   /**
@@ -11677,6 +11755,7 @@ class Component extends DCLogic {
     }
   }
   stageRollAt(nodeIdx) {
+    this._dropExpiryEvent(); // exploring another node — the expiry sentence lets go (v1.138.0)
     this.rollFromPosition(nodeIdx, true);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
@@ -12268,10 +12347,41 @@ class Component extends DCLogic {
   // doesn't choose for you. You still choose." (owner). The old hesitation branch (v1.129.0,
   // "you hesitated — they move first") is retired with the hand clock; its story is in the
   // archive under v1.129.0 and v1.133.0.
-  _armLandClock(clockEl) {
+  // ── THE CLOCK WAITS FOR THE PLAYER (v1.137.0, owner) ─────────────────────────────────────
+  // "The drill countdown starts during page load — a first-time Guest can land on TOO SLOW ·
+  // −4% before ever interacting." The pause-immune clock (v1.134.0) made this bite harder: it
+  // drains through the load itself. So no window arms until the user's FIRST real interaction
+  // (click, keypress, graph hover — `_engage()` is called from all three input heads) AND the
+  // question card is actually visible (`_landHidden()` asks the holders). An arm requested
+  // before that parks in `_cwArm` and fires from `_engage`/`_tickDecision` the moment both
+  // are true. The pressure itself is untouched — once engaged, the full window runs.
+  _engage() {
+    if (!this._engaged) { this._engaged = true; this.fx("engaged", {}); }
+    this._tryArmClock();
+  }
+  _clockGate() {
+    return !!this._engaged && !!this._landEl && !this._landHidden();
+  }
+  _tryArmClock() {
+    if (!this._cwArm || !this._clockGate()) return;
+    this._cwArm = null;
+    // RESOLVE THE BAR AT ARM TIME, never from the park: the card can re-render (deck backfill)
+    // between the parked mount and the first interaction, and a parked DOM reference then
+    // points at a DETACHED track — the disarm would style an element nobody sees while the
+    // live bar keeps its authored initial state (measured: transition "" on a correct-looking
+    // bar). The live card is the only truth.
+    this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null, true);
+  }
+  _armLandClock(clockEl, gateChecked) {
     const d = this._decision;
     if (!d) return;
-    const sec = this._decisionDsec || this.get("decisionSec", 9);
+    if (!gateChecked && !this._clockGate()) { this._cwArm = true; return; }
+    this._cwArm = null;
+    // FIRST-SESSION GRACE (owner: "~1.5× for brand-new users"): a visitor with no prior session
+    // marker gets a longer window while they learn what the clock even is. `_returningVisitor`
+    // is the ONE latched definition of "been here before" — reused, never re-derived.
+    const grace = this._returningVisitor() ? 1 : 1.5;
+    const sec = (this._decisionDsec || this.get("decisionSec", 9)) * grace;
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
@@ -12279,6 +12389,7 @@ class Component extends DCLogic {
     this._armDeckExpire();
   }
   _disarmLandClock() {
+    this._cwArm = null; // a parked arm dies with its window
     const d = this._decision;
     if (d) { d.remaining = null; d.total = null; }
     if (this._landEl && this._landEl.classList.contains("ng-clock-hot")) {
@@ -12296,7 +12407,7 @@ class Component extends DCLogic {
       // color it was armed with, instead of jumping. The drain itself stays frame-driven —
       // the transition exists only for this one write (the next arm clears it).
       const bar = this._landClockEl;
-      bar.style.transition = "transform .45s cubic-bezier(.2,.7,.2,1), background .45s ease";
+      bar.style.transition = "transform .45s ease, background .45s ease";
       bar.style.transform = "scaleX(0)";
       if (this._clockBase) bar.style.background = this._clockBase;
       this._landClockEl = null;
@@ -12339,6 +12450,7 @@ class Component extends DCLogic {
       const broke = this._breakCombo("slow");
       this._dockLandCard(card);
       this.setEvent("Too slow", "The answer's on the table \u2014 no pump" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
+      this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
       return;
     }
     // LANDING QUESTION: reveal the mounted block as a miss — the card was shown, so it is spent
@@ -12371,8 +12483,23 @@ class Component extends DCLogic {
     this._landPending = false;
     this.refreshOptionOdds();
     this.setEvent("Too slow", "Answer revealed \u00b7 \u22124% on this exchange" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
+    this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
+  }
+  // ── THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0, owner) ─────────────────────
+  // "The 'Answer revealed · −4%' banner stays pinned while exploring other cards/nodes." The
+  // penalty was paid at expiry; the sentence's job is done the moment attention moves on. It
+  // fades ~5s after it was written (the frame loop below) or IMMEDIATELY when focus moves —
+  // staging another node, free roam, opening an option sheet, paging the deck, opening a
+  // dossier — through this one drop seam. The stamp survives nothing else: any newer setEvent
+  // releases it (one slot, stamped owners — the _evCountdown pattern).
+  _dropExpiryEvent() {
+    if (this._evExpiry == null) return;
+    this._evExpiry = null;
+    const box = this.evRef.current;
+    if (box) box.style.opacity = "0"; // the .ng-evtoast CSS eases it out
   }
   _tickDecision(gdt) {
+    if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
     d.remaining -= gdt * 1000;
@@ -13296,6 +13423,7 @@ class Component extends DCLogic {
         // the real frame delta. The live roll's own pulse was parked at `startReplay` and is handed
         // back on stop, so nothing of the roll advances here.
         this.updateTravel(this._replay ? dt : gdt);
+        if (this._evExpiry != null && (this.now || 0) - this._evExpiry > 5) this._dropExpiryEvent(); // v1.138.0: the expiry sentence lets go after ~5s
         this._tickDecision(dt); // v1.134.0: the question clock NEVER pauses — "that's our test to the user" (owner); motion still freezes on the internal pause
         this.updateFlash();
         this.updateRipples();
@@ -13385,6 +13513,15 @@ class Component extends DCLogic {
   }
   sbOffset() { const w = this.W || (this.wrapRef.current ? this.wrapRef.current.clientWidth : 1200); return w <= 640 ? 0 : 360; }
   attachInput() {
+    // THE ENGAGEMENT LATCH IS DOCUMENT-LEVEL, ONE SEAM (v1.137.0): root-plane overlays (the
+    // announcer, the film strip, the landing card) cover much of the screen, so a wrap-scoped
+    // listener misses real hovers over them — measured: elementFromPoint(640,300) resolved to a
+    // root-plane div outside the wrap. Capture-phase, once-only, all three arrival gestures.
+    {
+      const eng = () => this._engage();
+      for (const ev of ["pointerdown", "pointermove", "keydown"])
+        document.addEventListener(ev, eng, { once: true, capture: true });
+    }
     const el = this.wrapRef.current;
     let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0;
     const ptrs = new Map();
