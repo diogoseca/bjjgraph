@@ -43,17 +43,17 @@ jobs:
       deployments: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: "22"
 
       - name: Setup Python
-        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: '3.11'
 
@@ -189,7 +189,7 @@ jobs:
 
       - name: Cache Playwright browsers
         id: pw-cache
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
         with:
           path: ~/.cache/ms-playwright
           key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
@@ -211,7 +211,7 @@ jobs:
 
       - name: Upload journey artifacts (on failure)
         if: failure()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: journey-test-results
           path: |
@@ -219,8 +219,23 @@ jobs:
             test-results/
           if-no-files-found: ignore
 
+      # wrangler-action v3 never got a Node-24 build, so retiring the Node-20 runtime
+      # warning here REQUIRES the v4 major, and v4's one behaviour change is that the
+      # Wrangler CLI it installs defaults to v4 (`latest`) instead of v3. `pages deploy`
+      # itself is unchanged across that major.
+      #
+      # THIS IS THE ONE REAL BEHAVIOUR CHANGE IN THE ACTION SWEEP, AND IT IS UNVERIFIED
+      # HERE. An earlier draft of this comment claimed the `npx wrangler` steps below
+      # "already run the v4 CLI against this account", which reads as evidence and is not:
+      # nothing in this repo pins a wrangler version (no dependency in either package.json),
+      # so those steps resolve whatever npm's `latest` dist-tag serves at run time. That is
+      # very likely the v4 line today, but it is an inference about npm's registry state on
+      # some future morning, not a fact this repo controls or can gate (CLAUDE.md 6.9).
+      # If a Pages deploy starts failing right after this pin moved, suspect the CLI major
+      # first: the v4.0.0 notes give the escape hatch, set `wranglerVersion` on this step
+      # (their example is "3.90.0") to hold the CLI on the v3 line.
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
+        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -258,7 +273,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           fetch-depth: 0
 
@@ -281,7 +296,7 @@ jobs:
       contents: read
     steps:
       - name: Submit sitemap to IndexNow
-        uses: bojieyang/indexnow-action@cd6d1576582c1839b80dd71f418f172aa40d6552 # v2 # v2 is the latest major version following action-versioning.
+        uses: bojieyang/indexnow-action@38ddfbd93579a8a44c0dee662121bf9d51098f71 # v3
         with:
           # The location of the sitemap must start with http(s); XML Sitemap, Sitemap index, RSS and Atom formats are supported.
           sitemap-location: "https://bjjgraph.org/sitemap.xml"
@@ -294,7 +309,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Compute date-based tag
         id: tag
