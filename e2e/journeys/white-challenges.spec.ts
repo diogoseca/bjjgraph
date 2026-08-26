@@ -106,7 +106,7 @@ test.describe("White Challenges @curated", () => {
     await expect(page.locator("[data-challenge-cue-toggle]")).toHaveCount(0);
   });
 
-  test("White Foundations exposes twenty evidence objectives without a Tutorial row", async ({
+  test("White Foundations keeps its twenty objectives in the ledger and none on screen", async ({
     page,
   }) => {
     const j = journey(page);
@@ -117,17 +117,18 @@ test.describe("White Challenges @curated", () => {
       "aria-pressed",
       "true",
     );
-    // the twenty objectives ARE the Tutorial section (renamed v1.98.1) — they ride above
-    // the belt corridor, and no legacy Tutorial row exists anywhere
-    await expect(page.locator(".ng-challenge-row")).toHaveCount(20);
-    await expect(
-      page.locator("[data-tutorial] .ng-challenge-row"),
-    ).toHaveCount(20);
+    // v1.137.0 (owner: "remove the whole tutorial section") — the twenty White evidence
+    // objectives lost their only surface. They still TICK: the engine counts them and the
+    // White patch is still minted from a complete track. Nothing renders them.
+    await expect(page.locator(".ng-challenge-row")).toHaveCount(0);
+    await expect(page.locator("[data-tutorial]")).toHaveCount(0);
     await expect(page.locator("[data-tut-row]")).toHaveCount(0);
-    // the detail head died in v1.98.1 (the double title) — White renders no detail at all;
-    // its section head reads "Tutorial" in the belt headers' lettering
     await expect(page.locator(".ng-challenge-detail h2")).toHaveCount(0);
-    await expect(page.locator(".ng-tutorial-head b")).toHaveText("Tutorial");
+    expect(
+      await page.evaluate(
+        () => (window as any).__neural.challengeTrackProgress("white").total,
+      ),
+    ).toBe(20);
   });
 
   test("the Journey DSL can pre-complete foundational objectives without changing Game Knowledge", async ({

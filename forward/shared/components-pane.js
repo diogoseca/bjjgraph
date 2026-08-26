@@ -122,18 +122,11 @@ function corridorBody({
   frontier = "blue",
   open = "blue",
   maintenance = 0,
-  tutorial = "folded",
   rewards = false,
   recallReward = false,
 } = {}) {
   return `<div class="pane-body pane-body--corridor" data-pane-view="challenges">
-    ${maintenance ? `<div class="maintenance-band" data-maintenance="${maintenance}"><b>${maintenance} due today</b><span>Maintenance first — then new material.</span><button class="primary-action" type="button">Review ${maintenance}</button></div>` : ""}
-    <section class="tutorial-section" data-tutorial data-tutorial-complete="false">
-      <div class="pane-head"><span>Tutorial</span><small>17 of 20</small>
-        <div class="ng-tutorial-chips"><i>Open a move sheet</i><i>Finish a roll</i><i>Escape a submission</i></div>
-        <span class="chev">${tutorial === "open" ? "▾" : "▸"}</span>
-      </div>
-    </section>
+    ${maintenance ? `<div class="maintenance-band" data-maintenance="${maintenance}"><b>${maintenance} cards due</b><span>Keep what you’ve earned.</span><button class="primary-action" type="button">Start</button></div>` : ""}
     <div class="ng-challenge-ladder ng-corridor">
       <div class="ng-corridor-rail" aria-hidden="true">${corridorBelts.map((belt) => `<i data-knot="${belt.id}" style="--track:${belt.color}"></i>`).join("")}</div>
       ${corridorBelts

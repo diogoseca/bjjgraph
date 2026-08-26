@@ -201,10 +201,15 @@ test.describe("Challenges UI @curated", () => {
       "Tutorial is now White Challenges - same progress, more to collect.",
     );
     // 7 seeded tut steps + white.pane-open: opening the merged pane IS opening the flashcards
-    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8.
-    // The objective count lives on the Getting started section now (v1.96.0) — the White
-    // belt header counts lessons instead.
-    await expect(page.locator("[data-tutorial] strong")).toHaveText("8 of 20");
+    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8. The
+    // Tutorial section that used to PRINT that count left in v1.137.0, so the migration is
+    // asserted where it now lives — the ledger the notice is about.
+    expect(
+      await page.evaluate(
+        () => (window as any).__neural.challengeTrackProgress("white").done,
+      ),
+      "the seeded legacy steps migrated, plus the one this open earned",
+    ).toBe(8);
     await page.locator("[data-view='explore']").click();
     await page.locator("[data-view='challenges']").click();
     await expect(page.locator(".ng-challenge-distinction")).not.toContainText(
@@ -407,128 +412,41 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveCount(0);
   });
 
-  test("the getting-started tutorial is its own section above the belts", async ({
+  test("the Tutorial section is gone — the corridor is the whole tab", async ({
     page,
   }) => {
     const j = journey(page);
+    // keepTutorial leaves the twenty White objectives UNCOMPLETED, which is the state that
+    // used to render the section at its largest — 20 rows, chips, a count. Nothing renders.
     await j.boot("/", { keepTutorial: true });
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
     await page.locator(".ng-logo").click();
+    await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
-    const tutorial = page.locator("[data-tutorial]");
-    await expect(tutorial).toBeVisible();
-    // renamed "Getting started" → "Tutorial" (v1.98.1), belt-header typography
-    await expect(tutorial.locator(".ng-tutorial-head b")).toHaveText("Tutorial");
-    await expect(tutorial).not.toContainText("Getting started");
-    // the twenty White evidence objectives live HERE now, not on the belt ladder
-    await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
-    await expect(
-      page.locator(".ng-challenge-ladder .ng-challenge-row"),
-    ).toHaveCount(0);
-    // and the tutorial precedes the ladder in reading order
+    // v1.137.0, owner: "we should remove the whole tutorial section". Renderer, card, head,
+    // chips and body all left together — the handles, not just the visibility.
+    await expect(page.locator("[data-tutorial]")).toHaveCount(0);
+    await expect(page.locator(".ng-tutorial-section")).toHaveCount(0);
+    await expect(page.locator(".ng-tutorial-head")).toHaveCount(0);
+    await expect(page.locator("[data-tutorial-toggle]")).toHaveCount(0);
+    await expect(page.locator("[data-tutorial-remainder]")).toHaveCount(0);
     expect(
-      await page.evaluate(() => {
-        const t = document.querySelector("[data-tutorial]");
-        const l = document.querySelector(".ng-challenge-ladder");
-        return !!(
-          t &&
-          l &&
-          t.compareDocumentPosition(l) & Node.DOCUMENT_POSITION_FOLLOWING
-        );
-      }),
-    ).toBe(true);
-  });
+      await page.evaluate(() => typeof (window as any).__neural.renderTutorialSection),
+    ).toBe("undefined");
+    // the White objectives have no surface anywhere now: the ladder never carried them,
+    // and White's detail block was already suppressed (v1.98.1's double-title fix)
+    await expect(page.locator(".ng-challenge-row")).toHaveCount(0);
+    expect(await page.locator(".ng-learning-list").innerText()).not.toContain("Tutorial");
 
-  test("a largely-done tutorial folds down to a compact remainder", async ({
-    page,
-  }) => {
-    const j = journey(page);
-    // 14 seeds INCLUDING the two that auto-complete the moment the pane opens
-    // (pane_paused -> white.pane-open, challenges_opened -> white.challenges), so the
-    // observed count stays exactly 14 of 20
-    const doneIds = [
-      "white.coach1",
-      "white.coach2",
-      "white.coach3",
-      "white.answer",
-      "white.sheet",
-      "white.commit",
-      "white.sweep",
-      "white.win1",
-      "white.refund",
-      "white.defend",
-      "white.escape",
-      "white.roll",
-      "white.pane-open",
-      "white.challenges",
-    ];
-    await j.boot("/", {
-      keepTutorial: true,
-      initialState: progressBlob({
-        challenges: Object.fromEntries(
-          doneIds.map((id) => [id, { progress: 1, done: true, t: 100 }]),
-        ),
-      }),
-    });
-    await expect
-      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
-      .toBe(true);
-    await page.locator(".ng-logo").click();
-
-    // FOLDED BY DEFAULT AT ANY PROGRESS (v1.98.1 — the ≥14 threshold is dead): 14 of 20
-    // renders collapsed, rows in DOM but folded away
-    const tutorial = page.locator("[data-tutorial]");
-    await expect(tutorial).toHaveAttribute("data-collapsed", "true");
-    await expect(tutorial).toContainText("14 of 20");
-    await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
-    await expect(tutorial.locator(".ng-challenge-row").first()).toBeHidden();
-    // ...and what he HASN'T seen shows compactly WITHOUT expanding — chips to the RIGHT of
-    // the title, ON THE SAME ROW (v1.98.1)
-    const remainder = tutorial.locator("[data-tutorial-remainder]");
-    await expect(remainder).toBeVisible();
-    await expect(remainder).toContainText("Watch a film-study Short");
-    const geo = await page.evaluate(() => {
-      const b = document.querySelector(".ng-tutorial-head b")!.getBoundingClientRect();
-      const r = document.querySelector("[data-tutorial-remainder]")!.getBoundingClientRect();
-      const pane = document.querySelector(".ng-drill")!.getBoundingClientRect();
-      return {
-        sameRow: Math.abs(b.top + b.height / 2 - (r.top + r.height / 2)) < 10,
-        rightOfTitle: r.left >= b.right,
-        contained: r.right <= pane.right + 1,
-      };
-    });
-    expect(geo.sameRow, "chips share the title's row").toBe(true);
-    expect(geo.rightOfTitle, "chips sit to the right of the title").toBe(true);
-    expect(geo.contained, "and truncate inside the pane instead of overflowing").toBe(true);
-  });
-
-  test("the tutorial defaults folded even on a fresh boot — no progress threshold", async ({
-    page,
-  }) => {
-    const j = journey(page);
-    await j.boot("/", { keepTutorial: true });
-    await expect
-      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
-      .toBe(true);
-    await page.locator(".ng-logo").click();
-
-    // v1.98.1 (owner at 11/20 saw it expanded): collapsed regardless of progress
-    const tutorial = page.locator("[data-tutorial]");
-    await expect(tutorial).toHaveAttribute("data-collapsed", "true");
-    // the user's own expansion persists via the existing settings map
-    await page.locator("[data-tutorial-toggle]").click();
-    await expect(tutorial).toHaveAttribute("data-collapsed", "false");
-    await j.boot("/", { preserveStorage: true, keepTutorial: true });
-    await expect
-      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
-      .toBe(true);
-    await page.locator(".ng-logo").click();
-    await expect(page.locator("[data-tutorial]")).toHaveAttribute(
-      "data-collapsed",
-      "false",
+    // ...but the EVIDENCE still accrues. Deleting a surface must not delete the ledger the
+    // White patch is minted from (CLAUDE.md §6.7 — a deleted component takes its capability
+    // with it unless you check). A fresh keepTutorial boot owes all twenty.
+    const prog = await page.evaluate(() =>
+      (window as any).__neural.challengeTrackProgress("white"),
     );
+    expect(prog.total, "the twenty definitions are still live in the engine").toBe(20);
   });
 
   test("Continue is gone; opening Challenges lands on the frontier's belt section", async ({

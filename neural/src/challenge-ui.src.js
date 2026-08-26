@@ -93,10 +93,11 @@ const NG_CHALLENGE_UI_METHODS = {
         (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) +
         ';" aria-hidden="true"><span>' +
         tape +
-        "</span></i>" +
-        // the belt alone read as an unlabeled rectangle at 0 stripes (the review's "tofu") —
-        // the count the aria-label already carried now shows to sighted eyes too (v1.133.0)
-        '<em style="font-style:normal;font-size:9.5px;font-weight:700;color:#8b93a8;margin-left:6px;">' + done + "/" + total + "</em>";
+        "</span></i>";
+      // NO printed count beside the belt (owner, v1.137.0 — reverting v1.133.0's "tofu"
+      // fix): the `done/total` <em> pushed the belt off the tab's centre line, and the tab's
+      // job is to say WHICH belt you are on, not to audit it. The count still ships to screen
+      // readers in the aria-label below, and every belt header in the corridor prints it.
       const btn = ch.closest("button");
       if (btn)
         btn.setAttribute(
@@ -153,8 +154,9 @@ const NG_CHALLENGE_UI_METHODS = {
 
   // ── corridor sections (v1.96.0): collapse is presentation ONLY (nothing re-locks; every
   // row stays in the DOM). Open/closed is remembered per section in ONE settings map.
-  // Defaults: the pinned belt rides open, the rest fold; the tutorial folds itself once
-  // largely done (owner: at 14 of 20, show the remainder compactly instead).
+  // Default: the frontier belt rides open, the rest fold. The map may still carry a
+  // "tutorial" key from before v1.137.0 — nothing reads it, and a settings key can never
+  // be deleted (CLAUDE.md §6.6), so it simply sits there.
   _beltSectionOpen(id) {
     const map = this.get("challengeOpenSections", null);
     if (
@@ -164,9 +166,6 @@ const NG_CHALLENGE_UI_METHODS = {
     ) {
       return !!map[id];
     }
-    // the tutorial defaults FOLDED at any progress (v1.98.1 — the ≥14 threshold is
-    // dead; the owner at 11/20 met a wall of done rows). Expansion persists in the map.
-    if (id === "tutorial") return false;
     return id === this._frontierBeltId();
   },
 
@@ -212,73 +211,6 @@ const NG_CHALLENGE_UI_METHODS = {
       }
     }
     return { done: done, total: total };
-  },
-
-  // TUTORIAL — the twenty White evidence objectives the coach feeds, as their OWN section
-  // ABOVE the belt corridor (owner: "the tutorial should be separate from the open
-  // curriculum practice"). FOLDED by default at any progress (v1.98.1); the folded head
-  // still shows what he hasn't seen as chips on the title row.
-  renderTutorialSection() {
-    const prog = this.challengeTrackProgress("white");
-    const open = this._beltSectionOpen("tutorial");
-    const section = document.createElement("section");
-    section.className = "ng-tutorial-section";
-    section.setAttribute("data-tutorial", "1");
-    section.setAttribute("data-collapsed", open ? "false" : "true");
-    const head = document.createElement("button");
-    head.type = "button";
-    head.className = "ng-tutorial-head";
-    head.setAttribute("data-tutorial-toggle", "1");
-    head.setAttribute("aria-expanded", open ? "true" : "false");
-    // v1.98.1: titled "Tutorial" in the belt headers' own lettering; when folded and
-    // unfinished, the still-to-see chips ride the SAME ROW, right of the title, clipping
-    // gracefully at the pane's width (360 rail / 390 drawer).
-    let chips = "";
-    if (!open && prog.done < prog.total) {
-      const left = [];
-      for (const definition of NG_CHALLENGES) {
-        if (
-          definition.track === "white" &&
-          !this.challengeProgress(definition.id).done
-        ) {
-          left.push(definition.title);
-        }
-      }
-      chips =
-        '<span class="ng-tutorial-chips" data-tutorial-remainder="1" aria-label="Still to see: ' +
-        ngChallengeHTML(left.join(", ")) +
-        '">' +
-        left.map((title) => "<i>" + ngChallengeHTML(title) + "</i>").join("") +
-        "</span>";
-    }
-    const tutComplete = !!prog.total && prog.done >= prog.total;
-    if (tutComplete) section.setAttribute("data-tutorial-complete", "1");
-    head.innerHTML =
-      "<b>Tutorial</b>" +
-      chips +
-      "<strong>" +
-      prog.done +
-      " of " +
-      prog.total +
-      "</strong>" +
-      (tutComplete ? '<i class="ng-belt-stamp" aria-hidden="true">✓</i>' : "") +
-      '<em aria-hidden="true">' +
-      (open ? "▾" : "▸") +
-      "</em>";
-    head.addEventListener("click", () => {
-      this._setBeltSectionOpen("tutorial", !this._beltSectionOpen("tutorial"));
-      this.renderExplorer();
-    });
-    section.appendChild(head);
-    const body = document.createElement("div");
-    body.className = "ng-tutorial-body";
-    for (const definition of NG_CHALLENGES) {
-      if (definition.track === "white") {
-        body.appendChild(this.challengeObjectiveElement(definition, "white"));
-      }
-    }
-    section.appendChild(body);
-    return section;
   },
 
   // PRINCIPLES OF THIS LEVEL — a data slot, deliberately unfilled: a belt section renders
@@ -718,19 +650,37 @@ const NG_CHALLENGE_UI_METHODS = {
       // techniques"). When cards are due, the corridor opens with the daily dosage — one press
       // starts the due session. Rendered ONLY while something is owed: a permanent zero-count
       // band would be one more thing to read on a tab that already explains itself once.
+      //
+      // v1.137.0, owner: "it takes a lot of space right now; it should be a little bit more
+      // discreet and convincing". Three changes, all in this block:
+      //  · STICKY (position:sticky in .ng-maint-band, so it survives the arrival scroll and
+      //    every scroll after it — "maintenance should always appear on top ... but
+      //    maintenance should still show"). It must therefore be OPAQUE: the corridor slides
+      //    UNDER it, and the .5-alpha gradient it used to wear let belt headers read through.
+      //  · ~41px instead of ~53px, and the styling left the innerHTML for .ng-maint-band
+      //    in challenge-ui.css — a sticky element's own box is not an inline-style concern;
+      //  · the copy dropped its "Maintenance first" eyebrow: it labelled a thing the person
+      //    can already see. `n cards due` is the fact, `keep what you've earned` the reason.
+      // `maintBand` is read again by the arrival positioning at the foot of this function:
+      // a sticky header must be subtracted from the scroll target or it eats the belt head.
+      let maintBand = null;
       if (typeof this.dueCount === "function" && this.dueCount() > 0) {
         const maint = document.createElement("button");
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
         const n = this.dueCount();
+        maint.setAttribute(
+          "aria-label",
+          n + " card" + (n === 1 ? "" : "s") + " due \u2014 start the maintenance session",
+        );
         maint.innerHTML =
-          '<span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#e9bd70;">Maintenance first</span>' +
-          '<span style="font-size:12.5px;color:#d9cdb4;">' + n + ' card' + (n === 1 ? '' : 's') + ' due \u00b7 keep what you\u2019ve earned</span>' +
-          '<span style="margin-left:auto;font-size:12px;font-weight:700;color:#eef1f6;border:1px solid rgba(214,164,90,.45);background:rgba(214,164,90,.14);border-radius:9px;padding:7px 13px;">Start</span>';
-        maint.style.cssText = "pointer-events:auto;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:10px;width:100%;text-align:left;margin:0 0 12px;padding:11px 13px;border-radius:12px;border:1px solid rgba(214,164,90,.35);background:linear-gradient(180deg,rgba(64,50,26,.5),rgba(40,32,18,.5));";
-        maint.addEventListener("click", () => this.openSession("due", "Due today \u2014 maintenance"));
+          '<b>' + n + ' card' + (n === 1 ? '' : 's') + ' due</b>' +
+          '<span>keep what you\u2019ve earned</span>' +
+          '<em>Start</em>';
+        maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);
+        maintBand = maint;
       }
       const intro = document.createElement("p");
       intro.className = "ng-challenge-distinction";
@@ -757,10 +707,6 @@ const NG_CHALLENGE_UI_METHODS = {
       // opening the tab scrolls the corridor to the frontier belt (the topmost belt still
       // left to complete; below, after the ladder mounts). The glow marks "do this next".
       const pinnedId = this._frontierBeltId();
-
-      // TUTORIAL — rides ABOVE the belts, separate from the curriculum; scrolling up to
-      // it is the user's choice
-      list.appendChild(this.renderTutorialSection());
 
       // ONE explainer line for the whole corridor (was a prose block per track)
       const note = document.createElement("p");
@@ -911,11 +857,12 @@ const NG_CHALLENGE_UI_METHODS = {
       const shelf = this.renderRewardsShelf();
       if (shelf) list.appendChild(shelf); // null until something is earned (v1.99.1)
       // ── ARRIVAL POSITIONING (v1.98.1, replaces the Continue button) ── opening the tab
-      // lands the corridor where the person is: the pinned belt's header at the top of the
-      // view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
+      // lands the corridor where the person is: the frontier belt's header at the top of
+      // the view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
       // reduced-motion identical; re-renders never touch the scroll (renderExplorer
       // preserves it, the History-body gate precedent). No frontier (everything proven) =
-      // the pinned belt's top. The Tutorial sits above; scrolling up to it is a choice.
+      // that belt's top. Since v1.137.0 there is nothing above the corridor to scroll past
+      // but the one explainer line — the Tutorial section is gone.
       if (this._challengeScrollPending) {
         this._challengeScrollPending = false;
         const sec = ladder.querySelector(
@@ -924,7 +871,15 @@ const NG_CHALLENGE_UI_METHODS = {
         if (sec) {
           const lr = list.getBoundingClientRect();
           if (lr.height > 0) {
-            list.scrollTop += sec.getBoundingClientRect().top - lr.top;
+            // the sticky maintenance band owns the top of the scrollport: aim BELOW it, or
+            // the belt header this scroll exists to reveal arrives underneath it. Measured
+            // live off the band, never a CSS constant — it is one wrapping line from being
+            // taller than it looks (CLAUDE.md §6.1, _dockLandCard's rule).
+            const stick =
+              maintBand && maintBand.getBoundingClientRect().height > 0
+                ? maintBand.getBoundingClientRect().height + 8
+                : 0;
+            list.scrollTop += sec.getBoundingClientRect().top - lr.top - stick;
             const row = ladder.querySelector(
               ".ng-challenge-lesson[data-frontier]",
             );

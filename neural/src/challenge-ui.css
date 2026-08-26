@@ -10,6 +10,8 @@
   border: 0 !important;
 }
 
+/* No resting box: the glyph is the control, and the 44px thumb target stays. States, which it
+   never had, now carry the affordance instead of a permanent border. */
 .ng-explorer-close {
   position: absolute;
   top: 18px;
@@ -17,12 +19,24 @@
   z-index: 10;
   width: 44px;
   height: 44px;
-  border: 1px solid rgba(150, 170, 210, 0.2);
+  border: 0;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.04);
+  background: transparent;
   color: #9ba8c1;
   font: 500 20px/1 "Plus Jakarta Sans", sans-serif;
   cursor: pointer;
+  transition:
+    background 0.14s,
+    color 0.14s;
+}
+
+.ng-explorer-close:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: #eef1f6;
+}
+
+.ng-explorer-close:active {
+  background: rgba(255, 255, 255, 0.11);
 }
 
 /* study takeover: the drill head becomes the pane's first visible child, so it clears the
@@ -46,7 +60,6 @@
 /* the woven score-belt CSS (meter, rank bar, tape, band road) left with its renderer
    (v1.98.1) — see git history at v1.96.0. The corridor rails and .ng-tab-belt carry the
    belt craft now. */
-
 
 .ng-learning-nav {
   display: grid;
@@ -120,11 +133,15 @@
     inset 0 1px 1px -1px rgba(255, 255, 255, 0.5);
 }
 
+/* the dark rank sleeve. 30px -> 20px (owner, v1.137.0: "about 30% narrower", rounded to a
+   round number): at 30 it read as a black block wearing a belt; at 20 the belt reads as the
+   belt and the sleeve as its trim. Four 3px stripes + three 3px gaps = 21px, so a full tape
+   fills it edge to edge by design — do not narrow further without shrinking the stripes. */
 .ng-tab-belt > span {
   display: flex;
   justify-content: center;
   gap: 3px;
-  width: 30px;
+  width: 20px;
   margin-right: 7px;
   background: #17171b;
 }
@@ -154,10 +171,73 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-
-
 .ng-learning-list {
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* ── the maintenance band — the daily dosage, and the corridor's one fixed point ──
+   STICKY (owner, v1.137.0: "maintenance should always appear on top, and you can scroll
+   down, but maintenance should still show"). Two consequences that are easy to get wrong:
+    · it must be OPAQUE. The corridor scrolls UNDERNEATH a sticky child, and the old
+      .5-alpha gradient let belt headers read straight through it.
+    · it must be subtracted from the arrival scroll target (renderChallenges' arrival
+      positioning does this off the live rect) or it parks on top of the belt header it
+      just scrolled to.
+   One row, ~41px: the count is the fact, the line beside it is the reason. */
+.ng-maint-band {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  padding: 8px 9px 8px 12px;
+  border: 1px solid rgba(214, 164, 90, 0.22);
+  border-radius: 10px;
+  /* a dark panel wearing the pane's own ground, not an amber warning block: sticky chrome
+     is read on EVERY scroll, so the colour lives in the count and the Start chip instead */
+  background: linear-gradient(180deg, #1e2030, #191b28);
+  box-shadow: 0 8px 16px -10px rgba(0, 0, 0, 0.9);
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.ng-maint-band > b {
+  flex: none;
+  color: #f2dcaa;
+  font: 800 12.5px/1 "Plus Jakarta Sans", sans-serif;
+}
+
+.ng-maint-band > span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: #9c8b6b;
+  font-size: 10.5px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ng-maint-band > em {
+  flex: none;
+  padding: 5px 11px;
+  border: 1px solid rgba(214, 164, 90, 0.42);
+  border-radius: 8px;
+  background: rgba(214, 164, 90, 0.14);
+  color: #f4efe4;
+  font: 700 11px/1 "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+}
+
+.ng-maint-band:hover > em {
+  background: rgba(214, 164, 90, 0.22);
 }
 
 .ng-challenge-distinction {
@@ -409,94 +489,8 @@
   display: none; /* presentation only — every row stays in the DOM, nothing re-locks */
 }
 
-/* ── Getting started — the tutorial as its own card ABOVE the corridor ── */
-.ng-tutorial-section {
-  margin: 0 0 14px;
-  padding: 4px 10px 10px;
-  border: 1px solid rgba(150, 170, 210, 0.18);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.ng-tutorial-section[data-collapsed="true"] {
-  padding-bottom: 4px;
-}
-
-.ng-tutorial-head {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  min-height: 48px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 2px;
-  border: 0;
-  background: transparent;
-  color: inherit;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-
-.ng-tutorial-head b {
-  flex: none;
-  color: #eef1f6;
-  font: 750 14px/1.15 "Space Grotesk", sans-serif; /* the belt headers' own lettering */
-}
-
-/* still-to-see chips on the SAME ROW as the title (v1.98.1): one line, right of the
-   title, clipped with a fade — never wrapping, never overflowing the pane */
-.ng-tutorial-chips {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  overflow: hidden;
-  white-space: nowrap;
-  mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
-  -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
-}
-
-.ng-tutorial-chips > i {
-  flex: none;
-  padding: 3px 8px;
-  border: 1px solid rgba(150, 170, 210, 0.2);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.03);
-  color: #aab4c8;
-  font-size: 9px;
-  font-style: normal;
-}
-
-.ng-tutorial-head strong {
-  color: #aeb9d2;
-  font-size: 9.5px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.ng-tutorial-head em {
-  color: #7f8ba4;
-  font-size: 12px;
-  font-style: normal;
-}
-
-.ng-tutorial-head .ng-belt-stamp {
-  right: 84px; /* clear of the count + chevron */
-}
-
-.ng-tutorial-body {
-  display: grid;
-  gap: 8px;
-  padding: 2px 0 4px;
-}
-
-.ng-tutorial-section[data-collapsed="true"] .ng-tutorial-body {
-  display: none;
-}
-
+/* the Tutorial section's CSS left with renderTutorialSection in v1.137.0 (owner: "remove
+   the whole tutorial section") — git history at v1.136.0 if a home is ever wanted. */
 
 /* the ladder explains itself ONCE (the per-track prose block is display-retired) */
 .ng-ladder-note {
@@ -551,15 +545,12 @@
   line-height: 1.45;
 }
 
-
-
 .ng-collection-intro h2,
 .ng-collection-section h3 {
   margin: 3px 0 0;
   color: #eef1f6;
   font: 750 17px/1.15 "Space Grotesk", sans-serif;
 }
-
 
 .ng-challenge-row {
   display: grid;
@@ -620,8 +611,6 @@
   text-align: left;
   cursor: pointer;
 }
-
-
 
 .ng-challenge-group,
 .ng-challenge-capstone,

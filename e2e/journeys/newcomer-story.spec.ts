@@ -164,9 +164,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     challengeDone,
     "White Challenges have been ticking off what they actually did",
   ).toBeGreaterThan(3);
-  expect(
-    await page.locator(".ng-challenge-row[data-complete='true']").count(),
-  ).toBe(challengeDone);
+  // (the DOM half of this check retired with the Tutorial section in v1.137.0 — the White
+  // objectives tick in the ledger and render nowhere, so `challengeTrackProgress` above is
+  // the whole claim. NON-KILL: nothing on screen now shows a newcomer what he ticked off.)
   expect(
     await page.locator("[data-crown]").count(),
     "every lesson wears a crown",

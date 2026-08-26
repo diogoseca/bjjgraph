@@ -160,19 +160,34 @@
 }
 
 @media (max-width: 640px) {
+  /* Same contract as .ng-explorer-close (challenge-ui.css): no resting box — the glyph IS the
+     control — while the 44px thumb target stays. The affordance moved into :active, since a
+     resting ring on a permanent overlay reads as chrome the graph has to paint around. */
   .ng-logo {
     width: 44px;
     height: 44px;
     justify-content: center;
-    border: 1px solid rgba(150, 170, 210, 0.2) !important;
     border-radius: 50% !important;
-    background: rgba(18, 22, 37, 0.86) !important;
+    transition:
+      background 0.14s,
+      color 0.14s;
+  }
+
+  .ng-logo:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+  }
+
+  .ng-logo:active {
+    background: rgba(255, 255, 255, 0.11) !important;
   }
 
   .ng-logo-mark {
     display: grid;
     place-items: center;
     color: #cbd4e6;
+    /* With the box gone the mark can land on a lit orb; the shadow is what keeps it legible
+       there, and it costs nothing on the flat #1a1a2e ground. */
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.7));
   }
 
   .ng-learning-nav,
