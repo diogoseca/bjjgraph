@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
 - **v1.135.1** — [THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA](#v1-135-1-the-expiry-stops-flashing-and-the-commit)
 - **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
@@ -3548,6 +3549,39 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.137.0 — THE CLOCK WAITS FOR THE PLAYER
+
+### THE CLOCK WAITS FOR THE PLAYER (v1.137.0)
+
+Owner: *"The drill countdown starts during page load — a first-time Guest can land on 'TOO
+SLOW · −4%' before ever interacting … no drill timer starts until the user's first real
+interaction AND the question card is fully visible; add a first-session grace multiplier
+(~1.5×) for brand-new users. Keep full time pressure once engaged — the pressure is a feature,
+the loading penalty is the bug."*
+
+The v1.134.0 pause-immune clock made the load bite: the window armed at question mount and
+drained through the boot itself. Now `_armLandClock` refuses to arm until `_clockGateOpen()` —
+`_engaged` (a document-level once+capture latch on pointerdown/pointermove/keydown/touchstart;
+a wrap-scoped listener measurably misses hovers over root-plane overlays) AND the card visible
+(`_landHidden()`'s holders). An early arm parks and refires from `_engage` or the tick. Two
+findings en route: (1) the park initially held the clock-bar ELEMENT, which the deck backfill's
+re-render detached — the disarm then styled a bar nobody saw (transition "" on a
+correct-looking build); the park is a flag now and the bar resolves at arm time from the live
+card. (2) The grace multiplier reuses `_returningVisitor()` — the one latched definition of
+"been here before" — so every fresh-profile e2e window is 13.5s, not 9s. `j.land()` now ends
+with a real corner mouse-move (`j.engage()`), since a journey that lands is simulating a
+playing user; the three boot-only clock specs engage explicitly.
+
+The feature cost 2,012 raw bundle bytes and pushed the first-hand gzip 104 over its 385,000
+ratchet. The ceiling stands: the review's #1 cheap win paid the bill instead — Sora and Archivo
+(dead since applyFont hard-coded Space Grotesk; the fontStack map had no callers) left both
+font links and the bundle, plus small shaves (shorter seam names, the useless passive flag, a
+plain ease on the bar reset). Green at the same ceiling, and production browsers stop
+downloading two font families.
+
+Mutants Ma (gate dropped — arms on mount), Mb (grace dropped), Mc (latch removed) killed by the
+new landing-card spec. Gen suite not re-baselined (its clock-timing rows will shift).
 
 ## v1.136.0 — THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT
 
