@@ -561,6 +561,7 @@ symbol to every version that touched it.
   <br>_(n/a — the admission rule for this section)_
 
 
+
 ## 7. Content standards, and the affiliate disclosure
 
 Full rules in `docs/Content.md`. The parts you can break:

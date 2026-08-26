@@ -129,7 +129,25 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count")
       document.head.appendChild(goatcounterScript)
     `)
-  } else if (cfg.analytics?.provider === "posthog") {
+  } else if (cfg.analytics?.provider === "posthog" && cfg.analytics.apiKey) {
+    // THE WHOLE INJECTION IS GUARDED, NOT JUST THE `init` LINE BELOW.
+    //
+    // `quartz.config.ts` reads `process.env.POSTHOG_API_KEY || ""` — the `|| ""` is only there to
+    // satisfy the required `apiKey: string` in cfg.ts — and the build runs from `source/`, so
+    // dotenv resolves `source/.env`, which carries no PostHog vars. A local build therefore
+    // emitted a literal `posthog.init("")` into postscript.js: posthog-js rejects the empty token
+    // with a console.error on every dev page load, after fetching array.js from the CDN first.
+    //
+    // Guarding only `init` would still ship the stub above it, and the stub is the problem: it
+    // installs a `window.posthog` whose `capture` is a queue-pushing shim, so every consumer guard
+    // in the app (`app.src.jsx`'s track(), variant.inline.ts's fireExposure) passes and queues
+    // events forever against an instance that never initialised. Dropping the block outright
+    // leaves `window.posthog` undefined, which is the shape those guards were written for and the
+    // one docs/SEO.md already documents ("a no-op when the PostHog token is absent").
+    //
+    // Deliberately NOT fixed here: pointing dotenv at the repo-root .env, which DOES hold the real
+    // phc_ key. That would send local dev traffic into the production project. Prod gets its key
+    // from CI secrets (deploy.yaml / deploy-dev.yaml); dev gets no token at all, by design.
     const phHost = cfg.analytics.host ?? "https://us.i.posthog.com"
     const phUiHost = cfg.analytics.uiHost ? `,ui_host:${JSON.stringify(cfg.analytics.uiHost)}` : ""
     componentResources.afterDOMLoaded.push(`
@@ -138,6 +156,13 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       posthog.init(${JSON.stringify(cfg.analytics.apiKey)},{api_host:${JSON.stringify(phHost)}${phUiHost},person_profiles:'always'})\`
       document.head.appendChild(posthogScript)
     `)
+  } else if (cfg.analytics?.provider === "posthog") {
+    // THE SKIP PRINTS (CLAUDE.md §6.6): a check that never ran must not read the same as a pass.
+    // Without this line, "no analytics in the bundle" and "analytics silently misconfigured in CI"
+    // produce identical build output.
+    console.log(
+      "PostHog disabled: POSTHOG_API_KEY is empty — no analytics injected into this build",
+    )
   } else if (cfg.analytics?.provider === "tinylytics") {
     const siteId = cfg.analytics.siteId
     componentResources.afterDOMLoaded.push(`

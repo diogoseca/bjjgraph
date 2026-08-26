@@ -1,6 +1,6 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Sora:wght@500;600;700&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
   html,body{margin:0;padding:0;height:100%;background:#1a1a2e;overflow:hidden;}
   *{box-sizing:border-box;}
@@ -212,6 +212,8 @@
   .ng-replaybar .ng-replay-stop:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-3px;}
   /* the panic drill wears the danger skin, but is a landing card in every other respect */
   .ng-landcard[data-landcard="defense"]{border-color:rgba(255,110,110,.42);background:linear-gradient(180deg,rgba(52,22,24,.97),rgba(38,16,18,.97));}
+  /* stood down behind the option sheet — why it is a rule and not an inline style: _syncDetailDim */
+  [data-behind-sheet]{opacity:.38!important;filter:grayscale(.7) brightness(.8);transition:opacity .22s ease,filter .22s ease;}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
   .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
   .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}

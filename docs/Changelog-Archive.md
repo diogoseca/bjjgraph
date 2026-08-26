@@ -33,6 +33,8 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
+- **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
 - **v1.135.1** — [THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA](#v1-135-1-the-expiry-stops-flashing-and-the-commit)
 - **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
@@ -3689,6 +3691,178 @@ instead of one; the 1,326 Defender decks are unscored because drilling does not 
 opponent's rates; and `gameScore` weights all 272 position decks at **zero** while FLOW's top ten
 are all positions — two published numbers that will disagree, on purpose.
 
+## v1.138.0 — THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT
+
+### THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0)
+
+Owner: *"The 'Answer revealed · −4% on this exchange' banner stays pinned while exploring other
+cards/nodes — clear or fade it when focus moves to another card (or after ~5s)."* The announcer
+recon confirmed the gap: the two expiry sentences were the only long-lived lines with NO owner —
+`_evCountdown`'s machinery never touches them, and all five focus-move seams left them standing.
+Fix, in the announcer's own stamped-owner idiom: `_evExpiry` is set right after each expiry
+`setEvent` (which releases every stamp on its way in, so a successor sentence can never be faded
+by a stale lease), dropped by ONE seam (`_dropExpiryEvent`) from the five focus moves —
+staging, roam, the option sheet, the dossier, deck paging — and aged out at ~5s by the frame
+loop, with the `.ng-evtoast` CSS easing the fade. Mutants Md (drop seam no-op), Me (5s fade
+removed), Mf (setEvent not releasing) killed by the new announcer spec.
+
+## v1.137.0 — THE CLOCK WAITS FOR THE PLAYER
+
+### THE CLOCK WAITS FOR THE PLAYER (v1.137.0)
+
+Owner: *"The drill countdown starts during page load — a first-time Guest can land on 'TOO
+SLOW · −4%' before ever interacting … no drill timer starts until the user's first real
+interaction AND the question card is fully visible; add a first-session grace multiplier
+(~1.5×) for brand-new users. Keep full time pressure once engaged — the pressure is a feature,
+the loading penalty is the bug."*
+
+The v1.134.0 pause-immune clock made the load bite: the window armed at question mount and
+drained through the boot itself. Now `_armLandClock` refuses to arm until `_clockGateOpen()` —
+`_engaged` (a document-level once+capture latch on pointerdown/pointermove/keydown/touchstart;
+a wrap-scoped listener measurably misses hovers over root-plane overlays) AND the card visible
+(`_landHidden()`'s holders). An early arm parks and refires from `_engage` or the tick. Two
+findings en route: (1) the park initially held the clock-bar ELEMENT, which the deck backfill's
+re-render detached — the disarm then styled a bar nobody saw (transition "" on a
+correct-looking build); the park is a flag now and the bar resolves at arm time from the live
+card. (2) The grace multiplier reuses `_returningVisitor()` — the one latched definition of
+"been here before" — so every fresh-profile e2e window is 13.5s, not 9s. `j.land()` now ends
+with a real corner mouse-move (`j.engage()`), since a journey that lands is simulating a
+playing user; the three boot-only clock specs engage explicitly.
+
+The feature cost 2,012 raw bundle bytes and pushed the first-hand gzip 104 over its 385,000
+ratchet. The ceiling stands: the review's #1 cheap win paid the bill instead — Sora and Archivo
+(dead since applyFont hard-coded Space Grotesk; the fontStack map had no callers) left both
+font links and the bundle, plus small shaves (shorter seam names, the useless passive flag, a
+plain ease on the bar reset). Green at the same ceiling, and production browsers stop
+downloading two font families.
+
+Mutants Ma (gate dropped — arms on mount), Mb (grace dropped), Mc (latch removed) killed by the
+new landing-card spec. Gen suite not re-baselined (its clock-timing rows will shift).
+
+## v1.139.5 — THE STATE'S NAME IS THE PAGE'S HEADLINE
+
+Owner, mid-roll: *"the announcement of, for example, 'Answer revealed · −4% on this exchange'. This
+is larger than the current label of the current node, and it shouldn't be the case. The current
+node is the fucking URL of the page, the fucking node of the page, so it should be absolutely the
+biggest text that's shown on this page, not the announcement."*
+
+It was. The announcer shipped at **22px** from the original design import (`9c01f1dbe`, "Neural
+Graph Phase 0.2") and the focused pair label at **18px** — set last in v1.128.0 with no reference
+to the toast. Neither number was ever a decision about the other.
+
+Three findings made it an inversion rather than a preference. The canvas pair label is the **only**
+place the current node is named during a roll: `renderLandCard` carries no header (v1.101.1)
+*because* "the graph names the focused node beside it", and v1.132.0 removed the attempt card's
+header for the same stated reason — the layout had already bet on that label being the state's
+name. **18 of the 40 `setEvent` call sites pass a node title as their text**, so 45% of the
+announcer's traffic was the app printing a name larger than the node printing the same name; in the
+replay-landing case the two strings are byte-identical. And everywhere else in the app the node's
+name already *is* the largest thing in its container — option-detail sheet 27px, node card 26px,
+dossier 22px. The 18px canvas label was the outlier. Both surfaces resolve to one family
+(`applyFont` writes `'Space Grotesk'` to `evTextRef` and to `_displayFam`) and canvas labels draw
+after `ctx.setTransform(dpr,0,0,dpr,0,0)`, so 22-vs-18 was like-for-like at every zoom.
+
+### The sizes, and the bound that set them
+
+| | before | after |
+|---|---|---|
+| announcer text | 22px | **18px** desktop · **15px** phone |
+| focused node name | 18px | **24px** desktop · **18px** phone |
+
+`tests/artifacts/_label_size_probe.mjs` ships with the numbers and recomputes them. 24px ellipsizes
+**0 of 1006** distinct drawn names at ≥768px and **14** at 641px. The phone cannot grow at all:
+`dual-pair.spec.ts`'s `@curated` `labelRight < W` at 320px admits at most **19px** — "Straight Ankle
+Lock Control" ends at 316.6 of 320 — and 3px of margin on a deploy gate is not worth 1px of type, so
+on a phone the rank is restored by the announcer alone.
+
+**A premise everything upstream of this shared was wrong.** The corpus's widest *drawn* name is not
+that position (238px) but **"Standing Guard Pass with Distance Creation" at 381px**, a transition:
+`pairGroup` draws `splitName(t).main` for a technique and only `posFamily(t)` for a position, and
+nobody had measured the second set. The in-code comment claiming the block "spans 26.5..363.5 of
+390" is also arithmetically impossible — it implies a 42px drawn radius against a cap of ~3px — while
+the spec header's 309-of-320 reproduces to 0.03%.
+
+### One seam, three literals
+
+`18` was hand-copied into the pair-group draw, `richLabel`'s `big` branch, and `_labelWidthPx`'s
+`paired ? 18 : 17`. That third one is a *measurement* of what the draw will do and feeds
+`rollCamTarget`'s phone framing — and `dual-pair.spec.ts` reads **the measurement, not the render**,
+so changing the draw alone would have left all four `@curated` phone tests green while long names ran
+off the right edge (§6.5). All three now call `nameFontPx()`; the mirror had already drifted, since
+`richLabel` draws `big` at the focus size and 17 was simply wrong. `_labelWidthPx` is only ever
+called on mobile, where the value is unchanged, so the phone framing gate is byte-identical.
+
+Two derived constants followed. The `subY` clearance literal `18` was an 18px name's ascender height
+plus air — measured, that name reaches 13px above its baseline and a 24px one reaches 18px, so the
+old constant would have put TOP/BOTTOM exactly *on* the new name's ascenders; derived, it reproduces
+18 at 15px and 18px and gives 23 at 24px. `NG_LABEL_LEAD = 15` was checked and **left alone**:
+descent 4→5px against a qualifier ascent of 8px leaves 2px of air at 24px, so `graph-naming.spec.ts`'s
+five-decimal pin was not relaxed.
+
+### The announcer's size is written at runtime
+
+It needs a breakpoint, and `xdc-template.html`'s own `<helmet>` is **stripped by `build.mjs`** — the
+shipped stylesheet is `helmet.html`'s, and the two `@media (max-width:640px)` blocks have already
+drifted apart (18 lines against 40). A CSS rule would have to be duplicated into a file the app does
+not read. So the template's `font-size` is now a documented **first-frame guess** (the
+`.ng-optionrow` / `_dockLandFilm` idiom) and `_applyTypeScale`, driven from `resize()` where `this.W`
+is set, is what holds. Side effect, deliberate: `rollCamTarget` takes the free band's top from the
+toast's *measured* rect, so the shorter toast hands the graph back the room it was eating — the
+owner's sentence went from two lines to one and every roll frames higher.
+
+### Payload: net −29 gzip
+
+Measured A/B with everything else held constant: the JS costs **+169**, and deleting **13
+verified-dead `.ng-challenge-cue` rules** returns **−198**. The selector needs
+`.ng-tut.ng-challenge-cue`, the only `className` assignment in the app is `"ng-tut"`, and
+`grep -c ng-challenge-cue` on the shipped `neural.js` returns **0**. `.ng-cue-head` and
+`.ng-cue-detail` went with it — same subtree, same evidence.
+
+### There were no gates at all
+
+Setting the announcer to 40px and the label to 6px turned **zero** specs red across 70 journeys, 98
+gen specs, 20 probes and 5 unit tests. Nothing asserted either size, or the relation between them.
+
+`tests/neural_type_scale.test.mjs` (pure node, `ci-validate.yml` on every PR) pins the ordering at
+ten viewports, that all three draw/measure sites read `nameFontPx()`, and that the template's guess
+matches `announcerPx()`. It instantiates with `new Component({})`, **not**
+`Object.create(Component.prototype)`: these are class *fields*, so the prototype route reads
+`undefined` and every comparison would compare `undefined` with `undefined` — a check that never ran,
+reporting clean (§6.6). `announcer-coherence.spec.ts` gains one `@curated` test at both viewports
+reading `_lastPairLabel.namePx` — the render's own published output, the `this._LY = LY` pattern —
+against `getComputedStyle` on the toast, which is the only oracle that sees the runtime write beat
+the template's guess.
+
+Mutants killed: announcer back to 22px (2 tests); `NG_NAME_PX` back to 18 (2); `_applyTypeScale`
+never called from `resize()` (1, phone); `_labelWidthPx` re-mirroring by hand (unit); the publish
+dropped (unit). **One survives and is recorded in the spec header**: `namePx` lying *upward* still
+passes, because a bigger reported name cannot falsify a "the announcer is smaller" claim — the unit
+test is what pins the published field to the variable the draw used.
+
+`dual-pair.spec.ts`'s `above` band was cut for an 18px name and caught the 24px name's own
+ascenders, so "nothing is above it" went red on a correct build — §6.3's *"an assertion stricter
+than its own claim"* exactly. The boundary now comes from the published baseline and size, so it
+tracks any future change and returns the historical bands at 18px. Its mutant (the role word forced
+to the above side) was re-run after the relaxation and still kills it.
+
+### Notes for whoever is next
+
+`Space Grotesk` is **never loaded**: the built pages request only JetBrains Mono and Plus Jakarta
+Sans, and `build.mjs` deliberately does not carry the `@import` into `neural.css`, so every
+`'Space Grotesk', sans-serif` resolves to the fallback. It does not affect this change — both sides
+share the family string — but no measurement of these labels is a measurement of Space Grotesk.
+
+Found and **not** fixed here: the toast prints raw `n.t` ("Mount Top") where the canvas prints
+`graphName` ("Mount"), the one surface that never went through it; `" stuffed"` / `" reversed"` are
+concatenated *before* `setEvent` splits on `" from "`, so the verb that says you failed lands in the
+dim sub-row; `_labelWidthPx` measures `displayName(n)` while the pair group has drawn
+`splitName().main` on its own row since v1.129.0; `richLabel` has no `_fitText` and no width bound at
+all; and `docs/Neural.md:267` still documents `HESITATE_HOLD`, which no longer exists in any build
+input.
+
+The app-side half of this change landed in `1d3a17eaa` (v1.138.0, FLOW), which swept
+`neural/src/app.src.jsx` up while this half was still in the working tree — a shared-worktree
+accident, not a decision. v1.139.5 is the rest of it.
 
 ## v1.136.0 — THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT
 
