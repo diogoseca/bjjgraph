@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
 - **v1.135.1** — [THE EXPIRY STOPS FLASHING, AND THE COMMIT GETS ITS CAMERA](#v1-135-1-the-expiry-stops-flashing-and-the-commit)
 - **v1.135.0** — [THE ROLE WORD RIDES ITS ORB, AND SPENT MEANS SPENT](#v1-135-0-the-role-word-rides-its-orb-and-spent-me)
@@ -3548,6 +3549,21 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 <a id="v1-129-8-the-capture-star"></a>
+
+## v1.138.0 — THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT
+
+### THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0)
+
+Owner: *"The 'Answer revealed · −4% on this exchange' banner stays pinned while exploring other
+cards/nodes — clear or fade it when focus moves to another card (or after ~5s)."* The announcer
+recon confirmed the gap: the two expiry sentences were the only long-lived lines with NO owner —
+`_evCountdown`'s machinery never touches them, and all five focus-move seams left them standing.
+Fix, in the announcer's own stamped-owner idiom: `_evExpiry` is set right after each expiry
+`setEvent` (which releases every stamp on its way in, so a successor sentence can never be faded
+by a stale lease), dropped by ONE seam (`_dropExpiryEvent`) from the five focus moves —
+staging, roam, the option sheet, the dossier, deck paging — and aged out at ~5s by the frame
+loop, with the `.ng-evtoast` CSS easing the fade. Mutants Md (drop seam no-op), Me (5s fade
+removed), Mf (setEvent not releasing) killed by the new announcer spec.
 
 ## v1.136.0 — THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT
 

@@ -270,7 +270,11 @@ exchange and the board comes back. Beat: `hesitated`.
 
 ### The announcer
 
-One slot, and **one subject per label**: the announcer names **who is initiating** ("You go for" /
+One slot, stamped owners. The expiry sentence ("Answer revealed · −4%") is a LEASE since
+v1.138.0 (`_evExpiry`): it drops the moment focus moves — staging, roam, the option sheet, the
+dossier, deck paging, one seam (`_dropExpiryEvent`) — or ~5s after it was written; any newer
+sentence releases the stamp on its way in. And **one subject per label**: the announcer names
+**who is initiating** ("You go for" /
 "Opponent goes for"), and the graph verb names **your posture** toward that move. They can never
 contradict because they answer different questions. Whoever writes the slot owns its lifetime —
 `_tickDecision` stamps `_evCountdown` when it writes the countdown, every other `setEvent` releases

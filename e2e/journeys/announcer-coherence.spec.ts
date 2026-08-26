@@ -304,3 +304,83 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
   await j.advance(1500);
   expect((await j.beats()).map((b) => b.beat), "the commit is theirs").toContain("commit");
 });
+
+/**
+ * THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0). Owner: "the 'Answer revealed ·
+ * −4% on this exchange' banner stays pinned while exploring other cards/nodes — clear or fade
+ * it when focus moves to another card (or after ~5s)." The penalty was paid at expiry; the
+ * sentence lets go when attention moves (sheet, stage, roam, dossier, paging — one drop seam)
+ * or ~5s after it was written. Any NEWER sentence releases the stamp on its way in (the
+ * one-slot stamped-owner pattern), so a successor can never be faded by a stale lease.
+ * Mutants that must die: the drop seam a no-op; the 5s fade removed; setEvent not releasing.
+ */
+test("@curated the expiry banner lets go — on focus move, by age, and never a successor", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/Positions/Side-Control/Bottom");
+  await j.advance(7000);
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top);
+    await j.advance(400);
+  }
+  // forward-compatible engagement: real mouse moves (a no-op before the clock-gate PR, the
+  // required first interaction after it)
+  await page.mouse.move(4, 4);
+  await page.mouse.move(6, 6);
+  await j.advance(300);
+  const armed = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return !!(a._decision && a._decision.remaining != null);
+  });
+  expect(armed, "a landing question armed the clock").toBe(true);
+
+  await page.evaluate(() => ((window as any).__neural._decision.remaining = 30));
+  await j.advance(400);
+  const at = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return { kicker: a.evKickerRef.current.textContent, stamped: a._evExpiry != null };
+  });
+  expect(at.kicker, "the expiry announced itself").toBe("Too slow");
+  expect(at.stamped, "and took its lease").toBe(true);
+
+  // focus moves: opening an option sheet drops it at once
+  const drop = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const opt = a._optList && a._optList[0];
+    if (!opt) return null;
+    a.expandOption(opt, () => {});
+    return { opacity: a.evRef.current.style.opacity, stamped: a._evExpiry != null };
+  });
+  expect(drop, "an option to read").not.toBeNull();
+  expect(drop!.opacity, "the banner let go the moment focus moved").toBe("0");
+  expect(drop!.stamped).toBe(false);
+  await page.evaluate(() => (window as any).__neural.closeOptionDetail());
+
+  // by age: a 5s-old lease fades from the frame loop
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    a.setEvent("Too slow", "Answer revealed · −4% on this exchange", "bad");
+    a._evExpiry = (a.now || 0) - 6;
+  });
+  await j.advance(300);
+  expect(
+    await page.evaluate(() => (window as any).__neural.evRef.current.style.opacity),
+    "the aged banner faded on its own",
+  ).toBe("0");
+
+  // and never a successor: a newer sentence releases the lease on its way in
+  const succ = await page.evaluate(async () => {
+    const a: any = (window as any).__neural;
+    a.setEvent("Too slow", "Answer revealed · −4% on this exchange", "bad");
+    a._evExpiry = (a.now || 0) - 6;
+    a.setEvent("Correct", "Odds up on this exchange", "good"); // the successor releases the stamp
+    return { stamped: a._evExpiry != null };
+  });
+  expect(succ.stamped, "the successor took the slot clean").toBe(false);
+  await j.advance(300);
+  expect(
+    await page.evaluate(() => (window as any).__neural.evRef.current.style.opacity),
+    "and no stale lease fades it",
+  ).toBe("1");
+});
