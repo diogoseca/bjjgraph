@@ -283,7 +283,18 @@ const EARNED = `(() => {
 
 /** the persisted blob with ONLY the dial's own key removed — its value, its per-key LWW stamp,
  *  and the blob's own write clock. A setting that persists MUST move those three; the claim being
- *  tested is that it moves nothing ELSE. */
+ *  tested is that it moves nothing ELSE.
+ *
+ *  SECOND CLASS THIS CATCHES, FOR FREE — read it before you relax anything here. `_saveProgress`
+ *  serialises the WHOLE of memory, so the dial's write also flushes anything else still pending,
+ *  and the before/after diff prints it as the dial's doing. It went red exactly once, on
+ *  `explored`: v1.138.0 promoted `_exploredKeys` into the blob without giving its only write site
+ *  (`enterLand`) a save, so the persisted blob sat permanently one key behind memory and the dial
+ *  was simply the first writer after a landing. THE APP WAS FIXED, NOT THIS ASSERTION — a
+ *  persisted field whose write path never fires is a §6.6 durability bug, and this diff is the
+ *  only thing in the suite that notices one. Mutants that still kill it (v1.143.2): the dial's
+ *  onClick adding an explored key → "the rest of the blob is untouched"; the dial writing
+ *  `prep` → "belt score, SRS, evidence, rewards — all untouched". */
 const BLOB = `(() => {
   const raw = localStorage.getItem("bjj-neural-progress");
   if (!raw) return "";
