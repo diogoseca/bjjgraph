@@ -31,6 +31,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 def load(frame):
     d = json.load(open(os.path.join(ROOT, "source/quartz/static/neural/graph-data.json")))
+    # `toTab` (v1.144.0): outcome destinations are interned on the wire and resolved by ingest().
+    # This probe reads the wire directly, so it does the same lookup — `to` is unused by the
+    # kernels below, but a probe that silently holds an integer where the app holds a slug is
+    # exactly the wrong-right-looking-answer this repo keeps paying for (§6.6).
+    tab = d.get("toTab") if isinstance(d.get("toTab"), list) else None
+    to_of = (lambda v: tab[v] if isinstance(v, int) else v) if tab else (lambda v: v)
     out = []
     for n in d["nodes"]:
         c = n.get("cal")
@@ -39,7 +45,7 @@ def load(frame):
         rows = []
         for o in c["outcomes"]:
             if isinstance(o, list):
-                rows.append({"to": o[0], "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])})
+                rows.append({"to": to_of(o[0]), "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])})
             else:
                 rows.append(o)
         br = c.get("successRateByRuleset") or {}

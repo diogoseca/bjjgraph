@@ -984,11 +984,23 @@ class Component extends DCLogic {
     // links are [sourceIdx, targetIdx] pairs. The legacy object spellings still expand
     // correctly (Array.isArray forks per item), so a spec-authored old-shape fixture keeps
     // working.
+    // `toTab` (v1.144.0) interns the outcome DESTINATIONS: the corpus names 293 distinct places
+    // a branch can land and writes them 4,160 times, so the wire carries each string once and an
+    // outcome's first slot is its index into this table (64KB raw / 2.8KB gzip off the boot
+    // payload). Resolved right here, in the same pass that was already expanding the tuple, so
+    // `to` reaches every reader as the identical string it has always been.
+    //
+    // THE FORK IS PER SLOT, NOT PER FILE, and that is deliberate: a wire with no `toTab` (any
+    // spec-authored fixture, an older file still on a CDN edge) leaves `o[0]` a string and it
+    // passes through untouched. An index with no table would be a silent wrong answer, so it
+    // cannot happen by construction — the lookup only runs when the table is there.
+    const TO_TAB = Array.isArray(data.toTab) ? data.toTab : null;
+    const _to = (v) => (TO_TAB && typeof v === "number" ? (TO_TAB[v] || null) : v);
     const RESULT_WORD = { s: "success", f: "failure", c: "counter" };
     for (const n of data.nodes) {
       const c = n.cal;
       if (c && Array.isArray(c.outcomes)) {
-        c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: o[0], probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
+        c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: _to(o[0]), probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
       }
     }
     // ── THE PAIR (v1.125.0) ────────────────────────────────────────────────────────────────────
