@@ -560,6 +560,7 @@ test("@curated the meter mirrors Win-left, and the clock drains through pause in
     await j.advance(400)
   }
 
+  await j.engage() // v1.137.0: the clock waits for the player — this journey plays one
   // (1) the mirrored meter
   const left = await page.evaluate(async () => {
     const a: any = (window as any).__neural
