@@ -262,17 +262,46 @@ test("the maintenance surfaces: the band cell counts facts (not deck copies) and
 
   const cell = page.locator('.ngStat[data-b="due"]');
   await expect(cell).toBeVisible();
-  // ONE fact, two deck copies — the count dedupes by qhash
-  await expect(cell).toContainText("1 due");
+  // THE CELL COUNTS TECHNIQUES, THE TOOLTIP COUNTS CARDS (v1.138.0, owner: pressing "5 due"
+  // opened 7 techniques and that "is kind of misleading as well"). Both figures are honest and
+  // they legitimately differ — this fixture is the proof: ONE fact, filed in TWO decks. So the
+  // card count dedupes by qhash to 1 while the session lists 2 rows, and the RULE is that the
+  // printed number is the one the press delivers.
+  await expect(cell).toContainText("2 due");
+  await expect(cell).toHaveAttribute("title", /1 card due/);
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return { cards: a.dueCount(), decks: a.dueDeckCount() };
+  }), "the two figures differ by construction here").toEqual({ cards: 1, decks: 2 });
 
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
+  // ONE SURFACE, TWO DOORS (v1.138.0). Both study cells open the same queue — Maintenance, then
+  // Learn next, then the rest of the ranking — and the door only decides the anchor. So the
+  // promise is not "the queue is 2 rows", it is "the MAINTENANCE SECTION is the 2 you pressed",
+  // and the section header says so on screen. `filter` is per-ROW now (a maintenance row shows
+  // due cards only, a learn-next row shows its whole deck), so the session no longer carries one.
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
-      return { session: !!a._session, filter: a._session && a._session.filter, label: a._session && a._session.label };
+      const s = a._session;
+      return { session: !!s, label: s && s.label, anchor: s && s.anchor, dueRows: s && s.dueUntil };
     }),
-  ).toEqual({ session: true, filter: "due", label: "Due today — maintenance" });
+    "the label repeats the stat's own arithmetic back",
+  ).toEqual({ session: true, label: "2 due today", anchor: "due", dueRows: 2 });
+  await expect(page.locator('[data-session-section="Maintenance"]')).toBeVisible();
+  // ...and a maintenance row is narrowed to what is OWED, not shown as its whole deck.
+  // Only the FIRST row here: this fixture writes the same `srs` entry into a second deck that
+  // does not actually contain that question, so its filter matches nothing and `_entryForKey`
+  // falls back to the whole deck by design ("falls back if the filter empties"). That fallback
+  // is the thing being relied on, so assert the narrowing where the fact really lives.
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const k = a._session.keys[0];
+    const due = a._entryForKey(k, "due").cards.length;
+    const whole = a._entryForKey(k, null).cards.length;
+    return { due: due, narrowed: whole > due };
+  }), "the maintenance row is its due cards, not its whole deck").toEqual({ due: 1, narrowed: true });
 
   // and the Challenges mirror band exists while something is owed
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));

@@ -207,6 +207,8 @@ Long explanations belong in each script's own docstring, where they cannot drift
 lockfile (hard) · `validate:payload` byte ratchet · `validate:seo` crawlable-surface ratchet ·
 `validate:headers` cache/security headers · `validate:affiliate` disclosure parity (reads §7 of this
 file) · `validate:mc` MC viability · `validate:curriculum` · `validate:forward` /dev catalog ·
+`validate:flow` the FLOW selfcheck (adjoint vs finite differences) plus the content ratchet on
+`tests/artifacts/flow_validation_baseline.json` ·
 **`validate:claudemd`** this file's own char ratchet and reference integrity.
 
 **Regenerate** — `regenerate` runs the full chain: `issues → json → explode → migrate:ruleset →
@@ -501,6 +503,14 @@ symbol to every version that touched it.
 
 - **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
   <br>_(8 across three storage layers)_
+
+- **`startPosTraffic` · `_posSlugIndex` — position traffic is keyed to the TOP MEMBER ONLY, so anything weighted by it scores ZERO for the entire bottom side.** `_posSlugIndex` maps a bare posId to the top member (`app.src.jsx`), while `resolveOutcomeTo` lands you on a bottom member on **2,071 of 3,842 outcome cells**. Measured on a bottom player who had drilled 90 bottom decks: **0 of 90 changed score**, and their "15 weakest spots" came back as fifteen guard-passing techniques — real names, ranked, entirely wrong. The obvious repair does not work either: **136 of 136 hubs give top and bottom IDENTICAL traffic**, so a hub lookup carries no side information at all.
+  **Do:** key anything role-sensitive on `posId + "/" + role` and read the hand from `_ev`, which is keyed that way already. `flow.src.js` does; nothing else may weight by `startPosTraffic`.
+  **Pinned by `tests/flow.test.mjs`** ("both roles carry occupancy").
+  <br>_(1, and it silently produced a complete, plausible, wrong ranking)_
+
+- **`_ev` holds 544 entries for 272 hands — `_deriveDualPairs` files the SAME `cal.ev` block on BOTH pair members.** Iterating it directly doubles every state and still prints believable numbers. Dedupe on `posId + "/" + role`. Same family: **`sum(att · EDGE) == 0` at every state BY CONSTRUCTION** (`_evShift` subtracts an attempt-weighted hand mean), so any score built out of `moveEdge` has an identically-zero total everywhere and its ranking is rounding noise — build in **Q**, never in EDGE. And `c1` is `int(round(100 * (A - B)))`: scaled ×100, integer-rounded, one per λ. Never `Math.abs` it — the negative rows are the feature, not noise.
+  <br>_(3, all found before shipping FLOW)_
 
 - **A value identical across a whole category on screen is a CONSTANT until proven otherwise.** `movePotential` returned `1` for every submission, so the sort key was constant across all 297; the dominance fallback priced the entire submission corpus at **2 distinct values** where 37 are authored; "30+ weak spots" printed `get("dailyGoal",30) + "+"` and read the same for a player with 3 gaps and one with 700. **Detection, cheap and general: count the DISTINCT values a field actually produces, and where two printed values are bit-identical, assert the underlying source rows are identical too** (42 of 42 is the passing shape). An exact tie on screen must be a tie in the data, never a constant in the code.
   <br>_(4)_

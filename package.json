@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.137.0",
+  "version": "1.138.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -17,6 +17,7 @@
     "validate:seo": "python3 scripts/check_seo_parity.py",
     "validate:affiliate": "python3 scripts/check_affiliate_surface.py",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",
+    "validate:flow": "python3 scripts/solve_flow.py --gate",
     "validate:curriculum": "python3 scripts/validate_curriculum.py",
     "validate:mc": "python3 scripts/audit_mc_viability.py --gate",
     "audit:from-position": "python3 scripts/audit_from_position.py",

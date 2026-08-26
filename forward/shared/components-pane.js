@@ -240,15 +240,14 @@ function paneFoot({
     mastered = 3,
     masteredPct = 12,
     due = 0,
-    weak = 14,
-    weakWord = "weak",
+    fresh = 3,
   } = stats;
   return `<div class="pane-foot">
     ${sync ? `<div class="pane-sync" data-sync="${sync}">${sync === "offline" ? "Offline — evidence keeps counting on this device." : sync === "merging" ? "Reconciling this device with your account…" : "Synced · nothing re-announced"}</div>` : ""}
     <div class="pane-stats ng-pane-stats" data-explore-stats>
       <span class="ngStat" data-b="mastered">Mastered <b>${mastered}</b><small>(${masteredPct}%)</small></span>
       <span class="ngStat ${due ? "is-owed" : ""}" data-b="due"><b>${due}</b> due</span>
-      <span class="ngStat is-weak" data-b="suggested" data-weak="${weak}"><b>${weak}</b> ${weakWord} spots</span>
+      <span class="ngStat is-weak" data-b="new" data-new="${fresh}"><b>${fresh}</b> new</span>
     </div>
     ${
       signedIn

@@ -315,7 +315,45 @@ class Component extends DCLogic {
   // Baseline-to-baseline between a name and its "from <position>" qualifier. ONE constant, because
   // both canvas label paths (the pair group and the single hover label) draw the same two-row
   // object and must not drift apart.
+  //
+  // MEASURED, so a bigger name does not silently collide with its own qualifier: the shipped face
+  // reports descent 4px at an 18px name and 5px at 24px, against a qualifier ascent of 8px at
+  // 10.5-11.5px. 4+8=12 and 5+8=13 both sit inside 15, so this constant survives the v1.138.0
+  // name bump untouched — which is why `graph-naming.spec.ts`'s `qualY - nameY == 15` pin is not
+  // relaxed here. Recompute with tests/artifacts/_label_size_probe.mjs.
   NG_LABEL_LEAD = 15;
+  // ── THE STATE'S NAME IS THE PAGE'S HEADLINE (v1.138.0) ──────────────────────────────────────
+  // Owner: "the current node is the fucking URL of the page ... it should be absolutely the
+  // biggest text that's shown on this page, not the announcement." It was not: the announcer
+  // shipped at 22px from the original design import and this label at 18px, so the transient
+  // status line outranked the state it was talking about by 1.22x — and this label is the ONLY
+  // place the current node is named during a roll (`renderLandCard` deliberately carries no
+  // header, v1.101.1, precisely *because* "the graph names the focused node beside it").
+  //
+  // ONE ANSWER, because the size is read in three places that must agree — the pair-group draw,
+  // `richLabel`'s `big` branch (the same rank at merge zoom), and `_labelWidthPx`, which is a
+  // MEASUREMENT of what the draw will do and feeds the phone's orb+label framing. Those three
+  // were hand-copied literals, and `dual-pair.spec.ts` reads the MEASUREMENT, not the render, so
+  // changing the draw alone would have left every @curated phone test green while long names ran
+  // off the right edge (CLAUDE.md 6.5).
+  //
+  // TWO STEPS, both MEASURED with tests/artifacts/_label_size_probe.mjs against the shipped wire:
+  //   >640px  24px — 0 of 1006 distinct drawn names ellipsize at >=768px; 14 do at 641px, all of
+  //                  them the longest transitions, which `_fitText` already trims gracefully.
+  //   <=640px 18px — UNCHANGED, and it is a hard bound, not caution: `dual-pair.spec.ts`'s
+  //                  @curated `labelRight < W` at 320px admits at most 19px ("Straight Ankle Lock
+  //                  Control" ends at 316.6 of 320 there), and 3px of margin on a deploy gate is
+  //                  not worth 1px of type. On a phone the rank is restored by the announcer
+  //                  alone, which drops further there — see `_applyTypeScale`.
+  NG_NAME_PX = 24;
+  NG_NAME_PX_NARROW = 18;
+  /** The size the graph draws the CURRENT STATE's name at. The draw, `richLabel` and
+   *  `_labelWidthPx` all read this; never re-type the number. */
+  nameFontPx() { return this.isMobile() ? this.NG_NAME_PX_NARROW : this.NG_NAME_PX; }
+  /** The announcer is a STATUS LINE and must read below the name of the state it describes.
+   *  Kept a full step down at both widths (24/18 and 18/15 = 1.33x and 1.2x, plus a weight step,
+   *  700 against 600). Pinned by tests/neural_type_scale.test.mjs. */
+  announcerPx() { return this.isMobile() ? 15 : 18; }
   after(sec, fn, ignorePause) {
     const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null, ignorePause: !!ignorePause };
     const fire = () => { this._timers = (this._timers || []).filter((x) => x !== item); fn(); };
@@ -545,6 +583,13 @@ class Component extends DCLogic {
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
         else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+      } else if (!typing && !this._detailCtx && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+        // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
+        // techniques and between flashcards"). Same shape as the History-home branch above and
+        // the same `_miniReg` handles — ←/→ page the open deck's cards, ↑/↓ walk the queue.
+        e.preventDefault();
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
+        else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         if (e.key === "ArrowLeft") this.drillPrev();
@@ -570,7 +615,7 @@ class Component extends DCLogic {
         if (e.key === " " && t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
-        else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
+        else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
         // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
         // the question clock is deliberately un-pausable ("that's our test to the user", owner)
       } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
@@ -589,6 +634,11 @@ class Component extends DCLogic {
       }
     };
     window.addEventListener("keydown", this._onKey);
+    // LAST INPUT MODALITY, one latch, two writers. Capture phase so no stopPropagation can starve
+    // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
+    // restore above; keep it that cheap, it runs on every event.
+    window.addEventListener("keydown", () => { this._kbNav = true; }, true);
+    window.addEventListener("pointerdown", () => { this._kbNav = false; }, true);
     // swipe gestures on the drill panel: left/right = prev/next, down = reveal/got it, up = review again
     const drill = this.drillRef.current;
     if (drill) {
@@ -1467,7 +1517,11 @@ class Component extends DCLogic {
     if (t) {
       const sp = this.splitName(text);
       t.innerHTML = sp.from
-        ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.66em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
+        // .72em, not .66em (v1.138.0): this row is em-relative so it tracked the parent down from
+        // 22px, and at the phone's 15px announcer .66em is 9.9px at weight 500 and 60% opacity —
+        // the faintest prose in the app, on the line that disambiguates the 35 nodes called
+        // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
+        ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
     }
     if (box) box.style.opacity = "1";
@@ -1800,6 +1854,152 @@ class Component extends DCLogic {
   stateBonus(key) { return this.mastery(key) + this.sharpness(key); }
   bumpSharp(key) { if (key) (this._sharp = this._sharp || {})[key] = 0.10; }
   decaySharp() { const s = this._sharp; if (!s) return; for (const k in s) { s[k] = Math.round((s[k] - 0.025) * 1000) / 1000; if (s[k] <= 0) delete s[k]; } }
+
+  // ═══ THE FLOW LEDGER (v1.137.0) ═══════════════════════════════════════════════════════
+  // Until now NOTHING about a roll survived a reload. `rollLog` and `_pastRolls` are
+  // in-memory and say so; `_exploredKeys` was never in the blob, which is why the
+  // "very weak" tier was empty on every page load and silently degraded to "weak" —
+  // §6.6's absence-produces-a-plausible-answer, live in production.
+  //
+  // So: one counter per (state you stood on, move you chose), recording attempts and
+  // successes. That is the minimum from which `π_you` — where you actually go and what
+  // you actually land — can be estimated. Deliberately NOT recorded: the landing within a
+  // branch. `drawOutcome` already draws the authored within-branch conditional exactly,
+  // and at 5.23 decisions per roll no user will ever have the samples to improve on it.
+  //
+  // SHAPE — a G-COUNTER, and it has to be. Counters are the one thing the blob's existing
+  // per-key `Math.max` merge CANNOT carry: two devices at 30 rolls each should read 60,
+  // and MAX reads 30. Plain SUM is worse — a re-pull double-counts. So the counters are
+  // partitioned BY DEVICE, merged per-device with the same `Math.max` idiom as `prep`
+  // (monotone within a device, so MAX is exact), and READ as the sum across devices.
+  //
+  //   flow: { "<deviceId>": { "<posDeckKey>": { "<techOrdinal>": [n, k, lastDay] } } }
+  //
+  // The move is keyed by its PERMANENT share ordinal (`node.o`), never an array index —
+  // `regenerate_graph.py` walks an unsorted rglob, so one new content file renumbers every
+  // index and an index-keyed ledger would silently re-point at a different technique
+  // (§6.6, the same reason `node_ordinals.json` exists).
+  get NG_FLOW_DEVICES() { return 6; }    // LRU cap; a coach on a phone, a tablet and a laptop
+  get NG_FLOW_DAYS() { return 180; }     // hard window, not decay — counters must stay monotone
+  /**
+   * This browser's ledger partition. Minted once; a settings key can never be deleted (§6.6),
+   * which is exactly the durability this needs.
+   *
+   * NOT a raw random draw: `check_no_raw_random.sh` pins the app to exactly one, the passthrough
+   * inside `rng()`, and a device id must not consume a tagged draw either — journeys rig those
+   * tags, so an id that moved the draw count would change replay behaviour. `qhash` (FNV-1a) over
+   * the clock plus whatever the environment happens to expose is enough: two devices colliding
+   * would need the same millisecond AND the same screen and agent string.
+   */
+  _flowDevice() {
+    let d = this.get("flowDevice", null);
+    if (!d) {
+      let ent = String(Date.now());
+      try { ent += "|" + (navigator.userAgent || "") + "|" + screen.width + "x" + screen.height + "|" + new Date().getTimezoneOffset(); } catch (e) { /* non-browser */ }
+      d = "d" + this.qhash(ent);
+      this.set("flowDevice", d);
+    }
+    return d;
+  }
+  /**
+   * Record one exchange. Called from `resolve()` — the ONLY point in the app where the
+   * state, the move, the verdict and the landing are all in scope at once (`currentPos`
+   * is not reassigned until the `startTravel` callbacks inside enterSuccessCal/enterFailCal,
+   * which run strictly after this returns).
+   */
+  _noteFlow(act, success) {
+    if (!act || this.currentPos == null || this.currentPos < 0) return;
+    const pos = this.nodes[this.currentPos]; if (!pos || pos.ty !== "positions") return;
+    const ord = act.o;
+    if (ord == null) return;               // unordinaled node: skip, never invent a key
+    // `deckKeyFor` on the node you are STANDING on reads `roleLabel()`, so this is
+    // role-correct — the same key space as prep/rec/stage, no new namespace.
+    const pk = this.deckKeyFor(pos).key;
+    const dev = this._flowDevice();
+    const f = (this.flow = this.flow || {});
+    const D = (f[dev] = f[dev] || {});
+    const P = (D[pk] = D[pk] || {});
+    const row = P[ord] || [0, 0, 0];
+    row[0] += 1;
+    if (success) row[1] += 1;
+    row[2] = this._epochDay();
+    P[ord] = row;
+    this._flowVer = (this._flowVer || 0) + 1;
+    this._saveFlowSoon();
+  }
+  /**
+   * ROLLING IS NOW A WRITE PATH, and it never was before — the exchange loop emitted zero
+   * `_saveProgress()` calls. `_saveProgress`'s own 400ms debounce coalesces a BURST, but
+   * exchanges are 3-8s apart, so each would have become its own full `JSON.stringify` of a
+   * blob that reaches ~1.3MB fully graded, on the roll's own animation path.
+   *
+   * So the ledger gets a longer trailing debounce of its own: a continuous roll writes once
+   * per 6 idle seconds instead of once per exchange, and nothing is at risk in between —
+   * `pagehide` and `visibilitychange` both already call `_flushSave()`. In test mode the
+   * write is synchronous by design (journeys reload faster than any debounce).
+   */
+  _saveFlowSoon() {
+    if (this.isTest()) { this._saveProgress(); return; }
+    clearTimeout(this._flowSaveT);
+    this._flowSaveT = setTimeout(() => { this._flowSaveT = null; this._saveProgress(); }, 6000);
+  }
+  /**
+   * The ledger as one table, summed across devices: {posDeckKey: {ord: [n, k]}}.
+   * Memoised on `_flowVer` — the estimator reads this on every score recompute.
+   */
+  flowCounts() {
+    const ver = this._flowVer || 0;
+    if (this._flowCache && this._flowCache.v === ver) return this._flowCache.out;
+    const out = {};
+    const f = this.flow || {};
+    for (const dev in f) {
+      const D = f[dev];
+      for (const pk in D) {
+        const P = D[pk], T = (out[pk] = out[pk] || {});
+        for (const ord in P) {
+          const r = P[ord], cur = T[ord] || [0, 0];
+          cur[0] += r[0] || 0; cur[1] += r[1] || 0;
+          T[ord] = cur;
+        }
+      }
+    }
+    this._flowCache = { v: ver, out: out };
+    return out;
+  }
+  /** Total exchanges recorded — the coverage figure every FLOW surface must print (§6.6). */
+  flowN() {
+    let n = 0;
+    const t = this.flowCounts();
+    for (const pk in t) for (const ord in t[pk]) n += t[pk][ord][0];
+    return n;
+  }
+  /**
+   * Trim: newest NG_FLOW_DEVICES partitions, rows touched within NG_FLOW_DAYS. A hard
+   * window rather than a decay, so every surviving counter stays monotone and MAX-mergeable.
+   * Eviction PRINTS — a silent trim reads exactly like "you never rolled there" (§6.6).
+   */
+  _trimFlow(f) {
+    const cut = this._epochDay() - this.NG_FLOW_DAYS;
+    const seen = [];
+    let dropped = 0;
+    for (const dev in f) {
+      let newest = 0;
+      const D = f[dev];
+      for (const pk in D) {
+        const P = D[pk];
+        for (const ord in P) {
+          if ((P[ord][2] || 0) < cut) { delete P[ord]; dropped++; continue; }
+          if (P[ord][2] > newest) newest = P[ord][2];
+        }
+        if (!Object.keys(P).length) delete D[pk];
+      }
+      seen.push([dev, newest]);
+    }
+    seen.sort((a, b) => b[1] - a[1]);
+    for (const [dev] of seen.slice(this.NG_FLOW_DEVICES)) { delete f[dev]; dropped++; }
+    if (dropped) this.fx("flow_trimmed", { dropped: dropped, devices: Object.keys(f).length });
+    return f;
+  }
   bonusSplit(key) { return { mastery: this.mastery(key), sharp: this.sharpness(key) }; }
   // the Odds Pump: odometer count-up + spring on every odds element in a container. In test
   // mode the final value lands instantly (headless rAF is throttled); prod gets the 450ms ride.
@@ -2034,7 +2234,14 @@ class Component extends DCLogic {
           ? this._explorerReturnFocus
           : fallback;
       this._explorerReturnFocus = null;
-      setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
+      // ONLY A KEYBOARD USER GETS THE FOCUS BACK (v1.137.0, owner: "when we click it, that graph
+      // icon, on mobile, the outline should disappear"). This restore exists so Tab/Esc do not
+      // dump you at the top of the document — but a SCRIPT `.focus()` on a <button> makes Chromium
+      // paint `:focus-visible`, so a finger that tapped the logo got a 2px ring that then sat
+      // there with nothing to dismiss it. `_kbNav` is the last input modality (attachInput), so
+      // the ring follows the keyboard and a tap leaves no residue. Nothing is lost for a pointer
+      // user: focus falls to <body>, which is where their next click was going anyway.
+      if (this._kbNav) setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
     }
     const hint = this.optionHintRef.current;
     if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
@@ -2436,7 +2643,9 @@ class Component extends DCLogic {
       // `d.cards` in place is not enough for it — it has to be rebuilt. Only when this exact
       // deck landed, and never over a live answer (a revealed card or an armed MC block).
       const e = this.drillEntries && this.drillEntries[this.activeDrill];
-      if (e && fresh.has(e.info.key) && !e.cards && !this.revealed && !this._mc) {
+      // `this.deck` is the tell that renderDrill is the surface up (v1.137.0). Without it a chunk
+      // landing for a stale entry repainted the one-card drill over an open inline session.
+      if (this.deck && e && fresh.has(e.info.key) && !e.cards && !this.revealed && !this._mc) {
         // REBUILD THE ENTRY, not just the DOM. `_entryForKey` takes a `.slice()` of the cards,
         // so the open surface holds a SNAPSHOT taken when the deck was still a stub — filling
         // `d.cards` in place is invisible to it. Re-rendering without this repaints the same
@@ -2540,6 +2749,8 @@ class Component extends DCLogic {
     this.rec = {}; this.stage = {}; this.srs = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
     this.challenges = {}; this.badges = {}; this.coins = {}; this._challengeRuntime = {};
     this.lists = {}; // shareable technique lists (ids of graph nodes) — see the LISTS section
+    this.flow = {};  // the roll ledger, a per-device G-Counter — see _noteFlow
+    this._exploredKeys = this._exploredKeys || new Set();
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
@@ -2566,6 +2777,11 @@ class Component extends DCLogic {
       this.coins = Object.assign({}, p.coins || {});
       // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
       this.lists = ngListsNormalize(p.lists);
+      // the roll ledger (v1.137.0) and the visited-state set. `_exploredKeys` was in memory
+      // only until now, which is why the "very weak" tier emptied on every reload.
+      this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
+      this._flowVer = (this._flowVer || 0) + 1;
+      this._exploredKeys = new Set(Array.isArray(p.explored) ? p.explored : []);
       this.activeListId = this.get("activeListId", null);
       if (this.activeListId && !this.lists[this.activeListId]) this.activeListId = this.listsArray()[0] || null;
       // a user who already met the old 3-beat coach starts the drip past those three steps
@@ -2586,7 +2802,9 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
+    // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -2853,8 +3071,115 @@ class Component extends DCLogic {
    *   started, under 3 recall reps     -> SHAKY
    * The stat names the worst tier that still has anything in it, and counts THAT tier — so the
    * number falls as you close them and the word tells you what kind of gap is left.
+   *
+   * IT ALSO RETURNS THE TIERS THEMSELVES (v1.137.0). One tier alone was a number the user could
+   * not reconcile with anything: the stat said "4 very weak spots" and the session it opened held
+   * 30, because the stat counted ONE tier and `bucketTechniques("suggested")` concatenated all
+   * three (owner: "I was expecting to see the same number"). `tiers` is the ranked, already-uniqued
+   * pool — so the stat can print two of them and the session can be built from exactly what the
+   * stat printed, instead of two functions answering the same question (§6.5). `bucketTechniques`
+   * reads THIS now; the duplicate tier logic it carried is gone.
+   *
+   * `n` / `word` / `total` / `top` keep their v1.105.7 meanings byte-for-byte — the training-day
+   * digest and the Game-Knowledge snapshot read them.
+   */
+  /**
+   * THE FLOW SCORE, memoised. `_stageVer` is the ONE seam that invalidates the mastery memo
+   * (`gameScore` uses it for the same reason), and `_flowVer` covers the roll ledger. Both are
+   * needed: a grade moves `m`, an exchange moves `pi`.
+   *
+   * `shortlist: 0` here — the ranking is the adjoint alone (~50ms for all 1500 decks). The exact
+   * re-solves are ~5x that and only the ROWS ACTUALLY SHOWN need one, so the session surface
+   * asks for those separately. Nothing outside the shortlist is ever shown a sign.
+   */
+  flowScore() {
+    const lam = typeof this._evLamIdx === "function" ? Math.max(0, this._evLamIdx()) : 0;
+    const key = (this._stageVer || 0) + "/" + (this._flowVer || 0) + "/" + lam;
+    if (this._flowScoreCache && this._flowScoreCache.k === key) return this._flowScoreCache.out;
+    let out = null;
+    try {
+      if (!this._flowKernel || this._flowKernel.lamIdx !== lam) this._flowKernel = ngFlowBuild(this, { lamIdx: lam });
+      if (this._flowKernel && this._flowKernel.n) {
+        out = ngFlowScore(this, {
+          kernel: this._flowKernel,
+          lam: (this._evLam && this._evLam[lam]) || 2,
+          shortlist: 0,
+          counts: this.flowN() > 0 ? this.flowCounts() : null,
+          mastery: (k) => this.mastery(k),   // the app's own drilling channel, min(0.15, 0.03*prep)
+        });
+      }
+    } catch (e) { out = null; }   // a partial payload must degrade LOUDLY, never to a table of zeros
+    this._flowScoreCache = { k: key, out: out };
+    return out;
+  }
+  /**
+   * WEAK SPOTS ARE NOW A CONTINUOUS SCORE, BUCKETED (v1.138.0).
+   *
+   * They used to be three unweighted set-membership tiers over `prep`: visited-but-undrilled,
+   * never-drilled, under-three-reps. That rule read neither value, nor odds, nor traffic — so
+   * `Aoki Lock`, whose stationary weight is 0.0 and which the chain literally never reaches,
+   * ranked identically to `Side Control to Mount`, which carries 2.4% of all roll traffic. And
+   * the middle tier ("never drilled") was 1,452 of 1,456 families for a fresh player: a corpus
+   * constant wearing a personal number's clothes, which is §6.6 exactly.
+   *
+   * The replacement is FLOW (neural/src/flow.src.js): how much your expected p_win - lam*p_loss
+   * over a whole roll would move if you drilled this deck to the cap, by exact backward
+   * induction from the submission edges — the only edges that reach `game-over`. It is SIGNED,
+   * which is the point: 18 decks LOWER your game when you drill them, and the list is the
+   * rubber-guard ladder (`New York to Invisible Collar` and its neighbours).
+   *
+   * `n` / `word` / `total` / `top` KEEP THEIR SHAPE. The training-day digest writes
+   * `e.w = [w.n, w.word].concat(w.top)` into `dayLog`, which is persisted, cloud-synced, and
+   * read back by a scheduled Worker DAYS LATER via `.slice(2)` — with no gate anywhere. A shape
+   * change there is a broken email, not a red test. (`top` gets strictly better without moving:
+   * it used to be the alphabetically-first undrilled decks, so the digest has been telling every
+   * fresh user their softest spot is `100% Sweep`, forever.)
+   *
+   * FALLBACK IS LOUD. If the kernel cannot be built — payload in flight, a partial wire — this
+   * returns the v1.137.0 prep tiers and fires `flow_cold`, because a silent all-zero score reads
+   * exactly like "you have no weak spots" (§6.6).
    */
   weakSpots() {
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const F = this.flowScore();
+    if (!F || !F.ranked.length) {
+      if (!this._flowColdBeat) { this._flowColdBeat = 1; this.fx("flow_cold", { reason: this._ev ? "kernel" : "payload" }); }
+      return this._weakSpotsLegacy();
+    }
+    // ONE entry per family, weakest first, and only decks the manifest actually has: a row the
+    // user cannot open is not a weak spot.
+    const seen = new Set();
+    const rows = [];
+    for (const r of F.ranked) {
+      if (!decks[r.deck]) continue;
+      const fam = r.deck.split("|")[0];
+      if (seen.has(fam)) continue;
+      seen.add(fam);
+      rows.push(r);
+    }
+    const tiers = [];
+    for (const w of ["leaking", "loose", "polish"]) {
+      const keys = rows.filter((r) => r.tier === w).map((r) => r.deck);
+      if (keys.length) tiers.push({ word: w === "leaking" ? "leaking" : w === "loose" ? "loose" : "worth polishing", keys: keys });
+    }
+    const head = tiers[0] || { word: "leaking", keys: [] };
+    return {
+      n: head.keys.length, word: head.word, top: head.keys.slice(0, 2),
+      total: rows.length,
+      tiers: tiers,
+      // the ranked pool, richest first — what `bucketTechniques` and the session read
+      ranked: rows,
+      keys: rows.map((r) => r.deck),
+      backfiring: F.backfiring,
+      recoverable: F.r0, v0: F.v0, cov: F.cov,
+      // v1.137.0 names kept so nothing downstream has to learn a new shape at once
+      veryWeak: (tiers[0] || { keys: [] }).keys,
+      weak: (tiers[1] || { keys: [] }).keys,
+      shaky: (tiers[2] || { keys: [] }).keys,
+    };
+  }
+  /** The pre-FLOW rule, kept ONLY as the loud-fallback path (see weakSpots). */
+  _weakSpotsLegacy() {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const keys = Object.keys(decks);
     const prep = this.prep || {};
@@ -2864,40 +3189,94 @@ class Component extends DCLogic {
     const veryWeak = uniq(explored.filter((k) => decks[k] && !prep[k]));
     const weak = uniq(keys.filter((k) => !prep[k]));
     const shaky = uniq(keys.filter((k) => prep[k] > 0 && prep[k] < 3));
-    // `top` (v1.105.7): the two worst offenders by name — the digest's magazine section
-    if (veryWeak.length) return { n: veryWeak.length, word: "very weak", total: veryWeak.length + weak.length + shaky.length, top: veryWeak.slice(0, 2) };
-    if (weak.length) return { n: weak.length, word: "weak", total: weak.length + shaky.length, top: weak.slice(0, 2) };
-    return { n: shaky.length, word: shaky.length ? "shaky" : "weak", total: shaky.length, top: shaky.slice(0, 2) };
+    const tiers = [{ word: "very weak", keys: veryWeak }, { word: "weak", keys: weak }, { word: "shaky", keys: shaky }].filter((t) => t.keys.length);
+    const head = tiers[0] || { word: "weak", keys: [] };
+    return {
+      n: head.keys.length, word: head.word, top: head.keys.slice(0, 2),
+      total: veryWeak.length + weak.length + shaky.length,
+      tiers: tiers, ranked: [], keys: veryWeak.concat(weak, shaky), backfiring: [],
+      cold: true, veryWeak: veryWeak, weak: weak, shaky: shaky,
+    };
+  }
+  /**
+   * EVERY NUMBER HERE IS A PROMISE ABOUT THE SURFACE IT OPENS (v1.137.0). All three used to
+   * break that promise in a different way, and the owner caught two of them in one sitting:
+   * "4 very weak spots" opened a 30-technique session, and "5 due" opened 7. The rule this
+   * section now holds to is literal — the figure printed IS `openSession`'s own `keys.length`,
+   * derived from the same call, and the session header repeats it back. Where the older, finer
+   * figure is still interesting (due FACTS vs due DECKS) it lives in the title/aria, never as a
+   * second headline that can disagree with the first.
+   */
+  /**
+   * The `new` cell's tooltip. It carries the honesty the score inherits, because the score is
+   * only as good as the model under it: the solve is NO-GI while gi is the default ruleset, and
+   * the opponent it prices is `opponentDefend`, which filters neither role nor origin.
+   */
+  _flowTitle(w, fresh) {
+    if (w.cold) return "Ranking is still loading — this is the older, unweighted list.";
+    const cards = fresh.reduce((a, k) => a + (this._deckCardCount(((this.flashcards && this.flashcards.decks) || {})[k]) || 0), 0);
+    const left = Math.max(0, this.get("dailyGoal", 30) - this.dueCount());
+    return (fresh.length
+      ? fresh.length + " technique" + (fresh.length === 1 ? "" : "s") + " · about " + cards + " card" + (cards === 1 ? "" : "s") + ", inside today's " + left + "-card room after maintenance."
+      : "Maintenance owns today — clear what's due and new techniques open up.")
+      + " Ranked by how much each would move your odds over a whole roll. Scored under no-gi rules, against a by-the-book opponent.";
   }
   _exploreStatsRow() {
     const mastered = this.masteredCount();
     const gs = this.gameScore();
     const pctMastered = Math.round((gs && gs.score ? gs.score : 0) * 100);
-    const weak = this.weakSpots();
-    const due = this.dueCount();
+    // MASTERED / DUE / NEW — the three states any card is in, so the row reads as one
+    // progression rather than three unrelated figures (owner: "5 new or something like that…
+    // something that alludes to the player to know that these are new cards that we will study
+    // to learn and improve, and that are specifically ranked to patch up his game where it needs
+    // the most"). ONE tier, not two: the measured two-tier string was "4 very weak · 1452 weak
+    // spots" and it wrapped on an 88vw drawer.
+    const w = this.weakSpots();
+    const fresh = this.newTechniques();
+    const newN = fresh.length;
+    const num = (v) => '<b style="color:#e9bd70;font-weight:700;">' + v + '</b>';
+    const newTxt = num(newN) + ' new';
+    // due counts TECHNIQUES, because techniques are what the due session lists (see dueDeckCount)
+    const due = this.dueDeckCount();
+    const dueCards = this.dueCount();
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
-    // DISTRIBUTED, NOT CLUMPED (v1.104.5, owner: it "still looks left aligned instead of neatly
-    // designed and distributed"). `display:flex;gap:14px` packs three stats against the left edge
-    // of a 360px pane and leaves the right third empty. A 3-column grid gives each stat an equal
-    // share and lets the outer two hug the edges, so the row reads as a designed band.
-    row.style.cssText = "display:grid;grid-template-columns:repeat(3,1fr);align-items:center;font-size:11.5px;min-height:34px;padding:8px 12px 10px;gap:8px;";
+    row.setAttribute("data-flow-cold", w.cold ? "1" : "0");
+    // SPACE-EVENLY, NOT THIRDS (v1.137.0, owner: "the space between these items is so large that
+    // they seem overglued to their edges in a weird way"). The v1.104.5 fix for the OPPOSITE
+    // complaint — three `1fr` columns with justify-self start/centre/end — distributes the BOXES
+    // evenly and then pins the outer two to the pane's inner edge, so the ink ends up hard against
+    // both walls with a hole in the middle. `space-evenly` distributes the GAPS instead: the space
+    // before the first stat, between each pair, and after the last are all equal, which is what
+    // "designed and distributed" actually looks like. `gap` here is a FLOOR, not the spacing — it
+    // only bites once the content is wide enough that there is no free space left to share.
+    // `flex-wrap` is the narrow-drawer safety valve: two evenly-spaced lines, never clipped ink.
+    // COLUMN-GAP MUST EQUAL THE HORIZONTAL PADDING or the four gaps are not equal: an OUTER gap
+    // measured from the border box is `padding + free/4`, an INNER one is `column-gap + free/4`.
+    // Measured at 6px against 12px padding: 56 / 50 / 50 / 56. Matched, all four land together.
+    row.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-evenly;font-size:11.5px;min-height:34px;padding:8px 12px 10px;gap:8px 12px;";
+    const cell = "cursor:pointer;white-space:nowrap;display:inline-flex;align-items:baseline;gap:4px;padding-bottom:1px;";
     row.innerHTML =
       // word first (owner, v1.95.2): "Mastered 3" — NB this figure is the recall-proven
       // technique COUNT (masteredCount), not a percent; the percent lives in the Explore
       // tab subtitle ("Mastered N%"). Its siblings keep their number-first shapes.
-      // each cell is its own column: left / centre / right, so the three share the width
-      '<span class="ngStat" data-b="mastered" style="grid-column:1;justify-self:start;cursor:pointer;color:#8b97b0;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
-      // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage — the honest
-      // due count (deduped by FACT, not deck), amber while anything is owed. "N today" moves to
-      // the title/aria; one press opens the due SESSION, not the browse modal.
-      '<span class="ngStat" data-b="due" title="' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' cards due \u00b7 ' + (this.cardsToday || 0) + ' answered today" style="grid-column:2;justify-self:center;cursor:pointer;color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
-      '<span class="ngStat" data-b="suggested" data-weak="' + weak.n + '" title="\u2018very weak\u2019 = explored but never drilled \u00b7 \u2018weak\u2019 = never drilled \u00b7 \u2018shaky\u2019 = fewer than 3 reps. Tap to drill them." style="grid-column:3;justify-self:end;text-align:right;cursor:pointer;color:#d6a45a;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + weak.n + '</b> ' + weak.word + (weak.n === 1 ? ' spot' : ' spots') + '</span>';
+      '<span class="ngStat" data-b="mastered" style="' + cell + 'color:#8b97b0;border-bottom:1px dashed rgba(139,151,176,.35);">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
+      // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage, amber while
+      // anything is owed. One press opens the due SESSION, not the browse modal.
+      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' technique' + (due === 1 ? '' : 's') + ' due · ' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" style="' + cell + 'color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
+      '<span class="ngStat" data-b="new" data-new="' + newN + '" data-weak="' + newN + '" title="' + this._flowTitle(w, fresh) + '" style="' + cell + 'color:#d6a45a;border-bottom:1px dashed rgba(214,164,90,.4);">' + newTxt + '</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
-      const sg = s.getAttribute("data-b") === "suggested";
+      const sg = s.getAttribute("data-b") === "new";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
       s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
-      s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else if (b === "due") { if (this.dueCount() > 0) this.openSession("due", "Due today \u2014 maintenance"); else this.openFlashBrowser("due", "Due Today"); } else { this.openFlashBrowser(b, "Mastered"); } });
+      // BOTH STUDY CELLS OPEN THE SAME SURFACE, anchored differently (owner: "when we click to
+      // show them, it should show the same interface as if clicking the weak spots"). One list:
+      // maintenance first, then what to learn next, then the rest of the ranking on scroll.
+      s.addEventListener("click", () => {
+        const b = s.getAttribute("data-b");
+        if (b === "new" || b === "due") this.openPlanSession(b === "due" ? "due" : "new");
+        else this.openFlashBrowser(b, "Mastered");
+      });
     });
     return row;
   }
@@ -3071,8 +3450,15 @@ class Component extends DCLogic {
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
-  _miniDeck(key, deck, isCurrent, rid) {
-    const cards = this._cardsOf(deck) || [], total = cards.length; // caller gates on ncards; belt AND braces
+  /**
+   * @param onGrade  optional: fired AFTER a grade goes through `gradeRecall`. The inline
+   *   session uses it to repaint its own row and walk the queue on; the roll history passes
+   *   nothing, so its rows keep their existing behaviour exactly.
+   */
+  _miniDeck(key, deck, isCurrent, rid, onGrade, cardsOverride) {
+    // `cardsOverride` narrows the deck without narrowing the DECK: a maintenance row shows only
+    // what is due, and grading still credits through the same `gradeRecall` choke.
+    const cards = cardsOverride || this._cardsOf(deck) || [], total = cards.length; // caller gates on ncards; belt AND braces
     this._deckState = this._deckState || {};
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
@@ -3136,6 +3522,7 @@ class Component extends DCLogic {
         ansSet.add(st.idx);
         this.gradeRecall(key, cards[st.idx], ok);
         if (ok) doNext(); else render();               // a miss stays put for a re-read
+        if (onGrade) onGrade(ok);
       };
       if (gb) gb.onclick = () => gradeMini(true);
       if (ab) ab.onclick = () => gradeMini(false);
@@ -3850,7 +4237,11 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const keys = Object.keys(decks);
     const prep = this.prep || {};
-    if (bucket === "mastered") return keys.filter((k) => prep[k] > 0);
+    // MASTERED IS RECALL-PROVEN, HERE TOO (v1.137.0). This was `prep[k] > 0` — any deck with a
+    // single rep — while the stat beside it counts `rec[k] >= 3`, so "Mastered 3" opened a list
+    // headed "180 techniques". Same set as `masteredCount()`, deliberately built from `rec`
+    // rather than from the manifest so the count and the list can never be over different sets.
+    if (bucket === "mastered") { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3); }
     if (bucket === "explored") return [...(this._exploredKeys || [])];
     // "system:<Systems/Slug>" — drill exactly the lit members, in the system's own order rather
     // than alphabetically, so the session walks the sequence the way the material teaches it.
@@ -3872,19 +4263,20 @@ class Component extends DCLogic {
       }
       return out;
     }
-    if (bucket === "suggested") {
-      // weakest-first, ONE entry per technique/position — deck keys come in Top/Bottom pairs of
-      // the same base (and base positions' blended Top/Bottom decks are identical), which reads
-      // as duplicated entries. Also make "your game" mean YOUR game: states you actually rolled
-      // through but haven't drilled come first, then untouched decks, then low-rep ones.
-      const seenBase = new Set();
-      const uniq = (arr) => arr.filter((k) => { const f = k.split("|")[0]; if (seenBase.has(f)) return false; seenBase.add(f); return true; });
-      const explored = this._exploredKeys ? [...this._exploredKeys] : [];
-      const undoneExplored = explored.filter((k) => decks[k] && !prep[k]);
-      const undone = keys.filter((k) => !prep[k]);
-      const lowReps = keys.filter((k) => prep[k] > 0 && prep[k] < 3);
-      return uniq(undoneExplored.concat(undone, lowReps)).slice(0, this.get("dailyGoal", 30));
-    }
+    // BOTH WEAK BUCKETS READ `weakSpots()` (v1.137.0). This branch used to rebuild the three
+    // tiers itself — same filters, same shared-`seen` uniq, same order — which is the §6.5
+    // "one question answered in two places" shape, and it is how the stat and the session it
+    // opened came to print different numbers. weakSpots() is now the ONLY tier definition.
+    //   "weak"      — exactly the two tiers the stat prints, UNCAPPED: press "4 very weak · 12
+    //                 weak" and you get those 16, so the number you tapped is the number you get.
+    //   "suggested" — the DAILY DOSE: all three tiers capped at `dailyGoal`. Different question
+    //                 ("what should I do today?"), different surface (the Continue-today CTA).
+    // BOTH WEAK BUCKETS READ `weakSpots()`, which is now the FLOW ranking (v1.138.0).
+    //   "weak"      — everything the score calls out, richest first, uncapped.
+    //   "suggested" — TODAY'S DOSE, and it is a CARD budget, not a technique count (see
+    //                 newTechniques): maintenance is the debt, new is the throttle.
+    if (bucket === "weak") { const w = this.weakSpots(); return (w.keys || []).slice(); }
+    if (bucket === "suggested" || bucket === "new") return this.newTechniques();
     if (bucket === "reviewing") return keys.filter((k) => prep[k] > 0 && prep[k] < 3);
     if (bucket === "due") {
       // REAL now (v1.105.0). Deck keys holding >=1 due-and-unreviewed card, most overdue first.
@@ -3900,6 +4292,33 @@ class Component extends DCLogic {
       return [...over.keys()].filter((k) => decks[k]).sort((a, b) => over.get(b) - over.get(a));
     }
     return keys;
+  }
+  /**
+   * TODAY'S NEW TECHNIQUES — the residual after maintenance, budgeted in CARDS.
+   *
+   * Owner's rule: "if we only have maintenance to do, we can't afford to waste the daily goal
+   * learning new ones, they take precedence." So `dailyGoal` is spent on due cards first and
+   * whatever is left buys new techniques off the FLOW ranking, whole techniques at a time.
+   *
+   * COUNTED IN CARDS because that is what the debt is denominated in. Anki pairs 20 new/day with
+   * a 200 reviews/day cap for the same reason: steady-state reviews land near 10x daily new, so
+   * a 30-card budget supports roughly 3 new cards a day, not 30. A technique is 3-5 cards, so
+   * this deals ~1 technique on a busy day and a handful on an empty one — which is the honest
+   * answer, not a shortfall.
+   */
+  newTechniques() {
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    let budget = this.get("dailyGoal", 30) - this.dueCount();
+    if (budget <= 0) return [];                 // maintenance owns the whole day
+    const out = [];
+    for (const r of (this.weakSpots().ranked || [])) {
+      const n = this._deckCardCount(decks[r.deck]) || 3;
+      if (out.length && n > budget) break;      // never split a technique across days
+      out.push(r.deck);
+      budget -= n;
+      if (budget <= 0) break;
+    }
+    return out;
   }
   openFlashBrowser(bucket, label) {
     this._fbBucket = bucket; this._fbLabel = label; this.openModal(); this.renderFlashBrowser();
@@ -4062,47 +4481,346 @@ class Component extends DCLogic {
     }
     return this._keyNode.has(key) ? this._keyNode.get(key) : -1;
   }
-  openSession(bucket, label) {
+  /**
+   * @param sub  the one line under the title. FROZEN AT DEAL TIME on purpose: it describes the
+   *   queue you were handed ("4 very weak · 12 weak"), and recomputing it as you close the gaps
+   *   would leave the header disagreeing with the rows still on screen.
+   */
+  openSession(bucket, label, sub) {
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
     // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
-    this._session = { keys: keys, label: label, idx: 0, filter: bucket === "due" ? "due" : null };
+    // `openLessonStudy` builds its own `_session` and goes STRAIGHT to studyFromSession, so the
+    // belt corridor keeps its one-card lesson view (a different, gated surface) — see renderSession.
+    this._session = { keys: keys, label: label, sub: sub || null, idx: 0, filter: bucket === "due" ? "due" : null, bucket: bucket };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
     this.closeModal();
     this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
     this.renderSession();
     this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
   }
+  /**
+   * THE DUE SESSION HAS ONE NAME (v1.137.0). Two surfaces open it — the Explore stat cell and the
+   * Challenges "Maintenance first" band — and each carried its own label string, so the same queue
+   * was headed "Due today \u2014 maintenance" or "N due today" depending on which door you came through
+   * (and a spec pinned one of them byte-for-byte). One seam, per \u00a76.5, before a third door exists.
+   * The empty case degrades to the browse modal rather than opening an empty session.
+   */
+  openDueSession() {
+    if (!this.dueDeckCount()) { this.openFlashBrowser("due", "Due Today"); return; }
+    this.openPlanSession("due");   // v1.138.0: one surface, anchored on Maintenance
+  }
+  /**
+   * ONE STUDY SURFACE, TWO DOORS (v1.138.0). Owner: "when we click to show them, it should show
+   * the same interface as if clicking the weak spots… 1. The maintenance ones: techniques we
+   * already know but have to train. 2. Only afterwards, the new techniques where we improve the
+   * best by doing those. 3. We can show more techniques that load on infinite scroll, but they
+   * should be ranked and ordered by that metric."
+   *
+   * So the queue is ONE list in that order and `anchor` only decides which section it opens on.
+   * Maintenance first is not a layout preference: reviews are the debt, new cards are the
+   * throttle that creates tomorrow's reviews.
+   */
+  openPlanSession(anchor) {
+    const due = this.bucketTechniques("due");
+    const fresh = this.newTechniques().filter((k) => due.indexOf(k) < 0);
+    const w = this.weakSpots();
+    const head = new Set(due.concat(fresh));
+    const more = (w.keys || []).filter((k) => !head.has(k));   // the rest of the ranking, for the scroll
+    const keys = due.concat(fresh, more);
+    if (!keys.length) { this.openFlashBrowser("mastered", "Mastered"); return; }
+    this.hydrateDecks(due.concat(fresh));
+    const dueCards = this.dueCount();
+    const sections = [];
+    if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed" });
+    if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: "ranked by what they'd fix" });
+    if (more.length) sections.push({ at: due.length + fresh.length, label: "More, in order", note: "same ranking, further down" });
+    this._session = {
+      keys: keys,
+      label: anchor === "due" ? due.length + " due today" : fresh.length + " new",
+      sub: anchor === "due"
+        ? dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed \u00b7 maintenance first"
+        : "ranked by what they'd fix",
+      idx: (anchor === "due" || !fresh.length) ? 0 : due.length,
+      filter: null, dueUntil: due.length, anchor: anchor, sections: sections, bucket: "plan",
+      // infinite scroll: the head is dealt whole, the tail arrives a page at a time
+      shown: Math.min(keys.length, due.length + fresh.length + 10),
+    };
+    this._sessionNodes = keys.slice(0, this._session.shown).map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
+    this.closeModal();
+    this.frameNodes(this._sessionNodes);
+    this.renderSession();
+    this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+  }
+  /**
+   * Is the inline session surface the thing on screen? THE PREDICATE IS THE SCREEN, NOT A FLAG:
+   * `renderDrill` assigns `this.deck` and `renderSession` never does, so this needs no second
+   * bit for someone to forget to set — and `openListSession`'s shared-class queue, which builds
+   * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
+   */
+  _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
+  /**
+   * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
+   * extreme flashcards because I can go back and forth between techniques and between flashcards
+   * and actually reveal them… the idea isn't for the whole technique to take up the entire space
+   * of the sidebar."
+   *
+   * So it is the Last-rolls accordion pointed at a queue instead of at a roll: one row per
+   * technique, the focused row expanded into the SAME `_miniDeck` the roll history builds, with
+   * the same one-open-at-a-time latch (`_openMini`), the same focus handle (`_focusRow`) and the
+   * same keyboard registry (`_miniReg`) — so ←/→ page cards and ↑/↓ walk techniques on both
+   * surfaces without a second implementation of either (§6.5).
+   *
+   * What it replaces: dead rows plus a "Start session" button that handed the pane to
+   * `renderDrill` — one card filling the sidebar, with the queue you were working through no
+   * longer on screen. `renderDrill` still owns the belt corridor's lesson view and `openStudy`.
+   *
+   * The count in the header is `keys.length` and nothing else. Every number that reaches this
+   * surface has to be the number the user pressed (see _exploreStatsRow).
+   */
   renderSession() {
     const list = this.drillListRef.current; const s = this._session; if (!list || !s) return;
-    { const foot = this.drillFootRef.current; if (foot) { foot.innerHTML = ""; foot.style.display = "none"; } }
-    this.setDrillHeader(s.label, (s.idx + 1) + " of " + s.keys.length + " in session");
+    // THIS SURFACE IS NOW THE PANE BODY, so the one-card drill is closed by definition. Declared
+    // here rather than at each entry point: `_sessionInline()` and `_onDeckHydrated` both read
+    // `this.deck` to tell the two surfaces apart, and a stale entry left over from an earlier
+    // study would let a late-landing chunk repaint renderDrill straight over the queue.
+    this.deck = null; this.drillEntries = null; this._studyOpen = null; this._inSession = false;
     const decks = (this.flashcards && this.flashcards.decks) || {};
-    const catCol = { Position: "#c9d2e3", Transition: "#9fb0d8", Submission: "#e8956b", Defense: "#e8956b" };
+    const n = s.keys.length;
+    this.setDrillHeader(s.label, s.sub || (n + (n === 1 ? " technique" : " techniques")), n ? this._sessionDone(s) + "/" + n : "");
     list.innerHTML = "";
-    const intro = document.createElement("div");
-    intro.style.cssText = "font-size:12px;color:#93a0bd;line-height:1.5;margin-bottom:12px;";
-    intro.textContent = s.keys.length + " techniques highlighted on the graph. Run the session to drill them in order.";
-    list.appendChild(intro);
+    // the registry is rebuilt with the rows it indexes, exactly as renderDrillHome does
+    this._miniReg = {}; this._openMini = null; this._openRow = null; this._focusRow = null;
+    if (!n) {
+      const empty = document.createElement("div");
+      empty.setAttribute("data-session-empty", "1");
+      empty.style.cssText = "padding:26px 8px;font-size:12.5px;line-height:1.6;color:#7e8aa3;";
+      empty.textContent = s.filter === "due"
+        ? "Nothing due right now. Answer cards anywhere — in a roll or here — and they come back on a spaced-repetition schedule."
+        : "No gaps left in this tier. Roll into somewhere new and it will show up here.";
+      list.appendChild(empty);
+      return;
+    }
+    if (this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
+    const wrap = document.createElement("div");
+    wrap.setAttribute("data-session", "1");
+    wrap.style.cssText = "display:flex;flex-direction:column;";
+    const openers = [];
+    const secAt = {};
+    for (const sec of (s.sections || [])) secAt[sec.at] = sec;
+    const limit = s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
     s.keys.forEach((key, i) => {
-      const fam = key.split("|")[0], role = key.split("|")[1] || "";
-      const d = decks[key]; const cat = (d && d.cat) || "Position";
-      const count = this._deckCountLabel(key, true);   // the manifest's `n`, not what has landed
-      const done = (this.prep || {})[key] > 0;
-      const r = document.createElement("div");
-      r.style.cssText = "display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;border:1px solid " + (i === s.idx ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" + (i === s.idx ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";margin-bottom:7px;";
-      r.innerHTML =
-        '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (catCol[cat] || "#9fb0d8") + ';flex:none;"></span>' +
-        '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:#eef1f6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div><div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' \u00b7 ' + role + '</div></div>' +
-        (done ? '<span style="color:#7ee0a8;font-size:12px;">\u2713</span>' : (count === "soon" || count === "retry" ? '<span style="font-size:10px;color:#69748f;">' + count + '</span>' : '<span style="font-size:10.5px;color:#9ab0e0;">' + count + '</span>'));
-      r.addEventListener("click", () => { s.idx = i; const idx = this.nodeForKey(key); if (idx >= 0) this.locateNode(idx); this.studyFromSession(key); });
-      list.appendChild(r);
+      if (i >= limit) { openers.push(null); return; }
+      const sec = secAt[i];
+      if (sec) {
+        const h = document.createElement("div");
+        h.setAttribute("data-session-section", sec.label);
+        h.style.cssText = "display:flex;align-items:baseline;gap:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:" + (i ? "14px" : "2px") + " 2px 7px;";
+        h.innerHTML = "<span>" + sec.label + "</span><span style=\"letter-spacing:0;text-transform:none;font-size:10.5px;font-weight:500;color:#5d6883;\">" + sec.note + "</span>";
+        wrap.appendChild(h);
+      }
+      const r = this._sessionRow(key, i, s, decks);
+      wrap.appendChild(r.el);
+      openers.push(r.open);
     });
-    const play = document.createElement("button");
-    play.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right:7px;vertical-align:-2px;"><path d="M7 5v14l12-7z"></path></svg>Start session';
-    play.style.cssText = "width:100%;margin-top:6px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);";
-    play.addEventListener("click", () => { s.idx = 0; const idx = this.nodeForKey(s.keys[0]); if (idx >= 0) this.locateNode(idx); this.studyFromSession(s.keys[0]); });
-    list.appendChild(play);
+    list.appendChild(wrap);
+    this._sessionOpeners = openers;
+    // INFINITE SCROLL, one page at a time, and deliberately a BUTTON rather than a scroll
+    // listener: the pane's scroller is shared with the open mini-deck, and appending rows under
+    // a card the user is mid-answer moves it out from under them.
+    if (limit < s.keys.length) {
+      const more = document.createElement("button");
+      more.type = "button";
+      more.setAttribute("data-session-more", String(s.keys.length - limit));
+      more.textContent = "Show " + Math.min(10, s.keys.length - limit) + " more \u00b7 " + (s.keys.length - limit) + " left in the ranking";
+      more.style.cssText = "width:100%;margin:10px 0 2px;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:10px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);color:#9aa6bd;";
+      more.addEventListener("click", () => { s.shown = limit + 10; this.renderSession(); });
+      list.appendChild(more);
+    }
+    // LAND ON A CARD, NOT ON A BUTTON. The old surface made you press "Start session" before it
+    // would show you anything; the queue's whole point is that the first question is already here.
+    const at = Math.max(0, Math.min(n - 1, s.idx || 0));
+    if (openers[at]) openers[at]();
+    { const foot = this.drillFootRef.current; if (foot) { foot.innerHTML = ""; foot.style.display = "flex"; foot.appendChild(this._sessionFoot(s)); } }
+  }
+  /** How many of the session's techniques are finished — ONE definition, shared with the belt corridor. */
+  _sessionDone(s) { return s.keys.reduce((a, k) => a + (this.lessonDone(k) ? 1 : 0), 0); }
+  /**
+   * One session row: the summary line, and the inline deck it expands into.
+   * Returns { el, open } so `renderSession` can drive the focused row without a DOM query.
+   */
+  _sessionRow(key, i, s, decks) {
+    const catCol = { Position: "#c9d2e3", Transition: "#9fb0d8", Submission: "#e8956b", Defense: "#e8956b" };
+    const fam = key.split("|")[0], role = key.split("|")[1] || "";
+    const d = decks[key]; const cat = (d && d.cat) || "Position";
+    const ncards = this._deckCardCount(d);
+    const rid = "s" + i;
+    const box = document.createElement("div");
+    const r = document.createElement("div");
+    r.setAttribute("data-session-row", key);
+    r.setAttribute("data-session-idx", String(i));
+    const detail = document.createElement("div");
+    detail.style.cssText = "display:none;margin:0 -8px;";
+    // the row PAINTS its own state, so a grade landing in the open deck can repaint just this row
+    // instead of rebuilding the list underneath the card the user is reading
+    const paint = () => {
+      const done = this.lessonDone(key);
+      const goal = this._deckGoal(key);
+      const prep = Math.min((this.prep && this.prep[key]) || 0, goal);
+      const open = detail.style.display !== "none";
+      if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
+      r.style.cssText = "display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;margin-bottom:7px;transition:background .14s,border-color .14s;border:1px solid " +
+        (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
+        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
+      const label = this._deckCountLabel(key, true);
+      r.innerHTML =
+        '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
+        '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:' + (done ? "#bff0d2" : "#eef1f6") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div>' +
+        '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role + '</div></div>' +
+        (done
+          ? '<span data-session-tick="1" style="flex:none;color:#7ee0a8;font-size:13px;font-weight:700;">✓</span>'
+          : !ncards
+            ? '<span style="flex:none;font-size:10px;color:#69748f;">' + label + '</span>'
+            // the PROGRESS figure, not the card count: "how far to the tick" is the only number
+            // this row can print that the tick then explains (§6.6 — a count nobody can act on
+            // reads the same for a deck you have half-finished and one you have never opened)
+            : '<span data-session-prog="1" style="flex:none;font-size:10.5px;font-weight:600;color:' + (prep ? "#9ab0e0" : "#69748f") + ';">' + prep + '/' + goal + '</span>') +
+        '<span style="flex:none;color:#5d6883;font-size:13px;transition:transform .16s;transform:rotate(' + (open ? "90" : "0") + 'deg);">›</span>';
+    };
+    const closeSelf = () => {
+      detail.style.display = "none";
+      if (this._openRow === rid) this._openRow = null;
+      if (this._focusRow === rid) this._focusRow = null;
+      if (this._openMini && this._openMini.rid === rid) this._openMini = null;
+      paint();
+    };
+    let built = false;
+    const build = () => {
+      detail.innerHTML = "";
+      const deck = ((this.flashcards && this.flashcards.decks) || {})[key];
+      const resident = !!this._cardsOf(deck);
+      // PER-ROW FILTER, not per session. A maintenance row shows DUE CARDS ONLY (the v1.105.0
+      // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
+      // so a single session-level `filter` would narrow the wrong half.
+      const only = i < (s.dueUntil || 0) ? this._entryForKey(key, "due").cards : null;
+      detail.appendChild(ncards && resident
+        // onGrade repaints THIS row (the tick, the progress figure) and, when the deck is
+        // finished, walks the queue on — the session's whole reason to be a queue.
+        ? this._miniDeck(key, deck, false, rid, () => { paint(); this._sessionGraded(s, i); }, only)
+        : this._miniDeckEmpty({ key: key }));
+      // authored but not here yet: opening the row IS the request for it (and, after a dropped
+      // chunk, the retry) — same contract as the roll history's rows.
+      if (ncards && !resident) {
+        this.hydrateDeck(key).then(() => {
+          if (detail.style.display === "none") return;
+          if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
+          build();
+        });
+      }
+    };
+    const open = () => {
+      if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
+      if (!built) { built = true; build(); }
+      detail.style.display = "block";
+      s.idx = i;
+      this._openRow = rid; this._focusRow = rid;
+      this._openMini = { rid: rid, el: detail, close: closeSelf };
+      paint();
+      const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
+    };
+    r.addEventListener("click", () => { if (detail.style.display !== "none") closeSelf(); else { open(); this._scrollFocusedDeck(); } });
+    paint();
+    box.appendChild(r); box.appendChild(detail);
+    this._sessionPaint = this._sessionPaint || {};
+    this._sessionPaint[rid] = paint;
+    return { el: box, open: open };
+  }
+  /**
+   * A grade landed in the row at `i`. If that finished the deck, move the queue on — collapsing
+   * to a green tick and opening the next UNFINISHED technique, or, when nothing is left, swapping
+   * the whole list for the completion card.
+   *
+   * Deliberately NOT re-rendering the session: `renderSession` rebuilds every row, and doing that
+   * on a grade would tear down the card the user just answered mid-animation.
+   */
+  _sessionGraded(s, i) {
+    if (!this._sessionInline() || this._session !== s) return;
+    if (!this.lessonDone(s.keys[i])) return;
+    if (this._sessionDone(s) >= s.keys.length) { this.renderSession(); return; }
+    const nextAt = (() => {
+      for (let d = 1; d <= s.keys.length; d++) { const j = (i + d) % s.keys.length; if (!this.lessonDone(s.keys[j])) return j; }
+      return -1;
+    })();
+    if (nextAt < 0) return;
+    // one beat, so the tick is visible before the queue moves
+    setTimeout(() => {
+      if (!this._sessionInline() || this._session !== s) return;
+      const op = this._sessionOpeners && this._sessionOpeners[nextAt];
+      if (op) { op(); this._scrollFocusedDeck(); }
+      const f = this.drillFootRef.current; if (f && f.firstChild) { f.innerHTML = ""; f.appendChild(this._sessionFoot(s)); }
+      this.setDrillHeader(s.label, s.sub || "", this._sessionDone(s) + "/" + s.keys.length);
+    }, 520);
+  }
+  /** The pinned foot: how far through the queue you are, and the keys that drive it. */
+  _sessionFoot(s) {
+    const n = s.keys.length, done = this._sessionDone(s);
+    const el = document.createElement("div");
+    el.setAttribute("data-session-foot", "1");
+    el.style.cssText = "display:flex;flex-direction:column;gap:7px;width:100%;";
+    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">';
+    el.innerHTML =
+      '<div style="display:flex;align-items:center;gap:9px;">' +
+        '<div style="flex:1;height:4px;border-radius:2px;background:rgba(150,170,210,.16);overflow:hidden;"><div style="height:100%;width:' + Math.round((done / Math.max(1, n)) * 100) + '%;border-radius:2px;background:linear-gradient(90deg,#4a9c74,#7ee0a8);transition:width .3s;"></div></div>' +
+        '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + '</span>' +
+      '</div>' +
+      '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
+        kb + '←→</span> card<span style="color:#3d4761;">·</span>' + kb + '↑↓</span> technique<span style="color:#3d4761;">·</span>' + kb + 'space</span> flip' +
+      '</div>';
+    return el;
+  }
+  /**
+   * THE END OF A SESSION, BUILT IN ONE PLACE (v1.137.0). The inline queue and `renderDrill`'s
+   * last-technique branch both finish the same way, and the celebration used to exist only inside
+   * `renderDrill` — so the inline surface would have had to grow a second copy of it, which is
+   * exactly the §6.5 shape that put a stale `playFrom` beside `rollFromPosition` for months.
+   * `neural_session_completed` fires HERE, once, for whichever surface got there.
+   */
+  _sessionDoneCard(ses) {
+    this.track("neural_session_completed", { techniques: ses.keys.length });
+    const done = document.createElement("div");
+    done.setAttribute("data-session-complete", "1");
+    done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
+    done.innerHTML =
+      '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
+      '<div style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">Done for today \u2014 great job!</div>' +
+      '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">You reviewed all ' + ses.keys.length + ' technique' + (ses.keys.length === 1 ? '' : 's') + ' in this session.</div>';
+    // 7-day progress sparkline — REAL history from the persisted daily counts
+    const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
+    const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
+    const days = dk7.map((d) => ["S", "M", "T", "W", "T", "F", "S"][d.getDay()]);
+    const maxv = Math.max(1, Math.max.apply(null, week));
+    let bars = '<div style="display:flex;align-items:flex-end;justify-content:center;gap:7px;height:60px;margin-bottom:6px;">';
+    week.forEach((v, i) => { const last = i === week.length - 1; const h = Math.max(6, Math.round((v / maxv) * 54)); bars += '<div style="display:flex;flex-direction:column;align-items:center;gap:5px;"><div style="width:16px;height:' + h + 'px;border-radius:4px;background:' + (last ? "linear-gradient(180deg,#7ee0a8,#4a9c74)" : "rgba(120,150,210,.3)") + ';"></div><span style="font-size:9px;color:' + (last ? "#7ee0a8" : "#6b7691") + ';font-weight:600;">' + days[i] + '</span></div>'; });
+    bars += '</div>';
+    const plot = document.createElement("div");
+    plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
+    plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
+    done.appendChild(plot);
+    const close = document.createElement("button");
+    close.textContent = "Close";
+    close.style.cssText = "cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:9px 18px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#aeb6c8;";
+    close.addEventListener("click", () => { this._session = null; this._sessionNodes = null; this._inSession = false; this.setDeckOpen(false); });
+    done.appendChild(close);
+    return done;
+  }
+  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. */
+  sessionNav(dir) {
+    const s = this._session; if (!this._sessionInline() || !s || !s.keys.length) return false;
+    const at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
+    if (at === s.idx && this._openRow) return false;
+    const op = this._sessionOpeners && this._sessionOpeners[at];
+    if (!op) return false;
+    op(); this._scrollFocusedDeck(); return true;
   }
   studyFromSession(key) {
     // A study surface IS its cards, so if they are not here yet, fetch and rebuild when they
@@ -4149,7 +4867,11 @@ class Component extends DCLogic {
       // daily goal
       const g = document.createElement("div");
       g.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px;";
-      g.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Daily goal</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Techniques to review or learn each day</div></div>';
+      // CARDS, NOT TECHNIQUES (v1.138.0). The budget is spent on what is DUE first and only the
+      // remainder buys new techniques (newTechniques) — maintenance is the debt, new is the
+      // throttle. Anki pairs 20 new/day with a 200 reviews/day cap for the same reason:
+      // steady-state reviews land near 10x daily new, so 30 cards supports ~3 new cards a day.
+      g.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Daily goal</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Cards a day. What\u2019s due comes first; the rest buys new techniques.</div></div>';
       const inp = document.createElement("input");
       inp.type = "number"; inp.value = this.get("dailyGoal", 30); inp.min = "5"; inp.max = "200";
       inp.style.cssText = "width:74px;font-family:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:9px;padding:9px 11px;text-align:center;";
@@ -4552,6 +5274,29 @@ class Component extends DCLogic {
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
         for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
         for (const dk in (cloud.stage || {})) { const s = (stage[dk] = stage[dk] || {}); const cs = cloud.stage[dk] || {}; for (const qh in cs) s[qh] = Math.max(s[qh] || 0, cs[qh] || 0); }
+        // FLOW LEDGER — a G-COUNTER, and the ONLY field here that is not a plain per-key MAX.
+        // Counters are what MAX cannot carry: two devices at 30 rolls each are 60, and MAX
+        // reads 30. Partitioned by device, each partition IS monotone, so per-device per-key
+        // MAX is exact and a re-pull cannot double-count. The sum across devices is taken at
+        // READ time (flowCounts), never stored — storing it would break that idempotence.
+        {
+          const f = (this.flow = this.flow || {});
+          const cf = cloud.flow || {};
+          for (const dev in cf) {
+            const CD = cf[dev], D = (f[dev] = f[dev] || {});
+            for (const pk in CD) {
+              const CP = CD[pk], P = (D[pk] = D[pk] || {});
+              for (const ord in CP) {
+                const c = CP[ord] || [0, 0, 0], m = P[ord] || [0, 0, 0];
+                P[ord] = [Math.max(m[0], c[0] || 0), Math.max(m[1], c[1] || 0), Math.max(m[2], c[2] || 0)];
+              }
+            }
+          }
+          this.flow = this._trimFlow(f);
+          this._flowVer = (this._flowVer || 0) + 1;
+        }
+        // explored states: a UNION, like every other durable-proof field
+        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
         // knows the memory best. Ties are the COMMON case (`last` is a day; two devices studying
         // the same day tie constantly), so the tie rule IS the rule: the SMALLER interval wins —
@@ -8080,6 +8825,17 @@ class Component extends DCLogic {
     return out;
   }
   dueCount() { const seen = new Set(); for (const e of this.duePool()) seen.add(e.qh); return seen.size; }
+  /**
+   * How many TECHNIQUES the due session will hold — `dueCount()` counts FACTS.
+   *
+   * The two legitimately differ and the gap is not small: the blended deck hierarchy puts ~20% of
+   * a deck's cards in from a higher tier, so one due fact can be owed by several decks, and the
+   * stat printed "5 due" over a session that listed 7 (owner: "kind of misleading as well").
+   * The stat counts what you are about to be shown; the FACT figure moves to its tooltip.
+   * It also filters to `decks[k]`, which `dueCount()` does not — so this can never send you into
+   * an empty session over cards whose deck is not in the manifest.
+   */
+  dueDeckCount() { return this.bucketTechniques("due").length; }
   /** is THIS card due (and unreviewed today)? */
   _cardDue(key, q) {
     const m = this.srs && this.srs[key]; if (!m) return false;
@@ -8546,29 +9302,10 @@ class Component extends DCLogic {
           next.addEventListener("click", () => { ses.idx = cur + 1; const nk = ses.keys[cur + 1]; const ni = this.nodeForKey(nk); if (ni >= 0) this.locateNode(ni); this.studyFromSession(nk); });
           done.appendChild(next);
         } else if (cur === ses.keys.length - 1) {
-          // session finished — celebrate, then a subtle close
-          this.track("neural_session_completed", { techniques: ses.keys.length });
-          done.innerHTML =
-            '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
-            '<div style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">Done for today \u2014 great job!</div>' +
-            '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">You reviewed all ' + ses.keys.length + ' techniques in this session.</div>';
-          // 7-day progress sparkline — REAL history from the persisted daily counts
-          const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
-          const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
-          const days = dk7.map((d) => ["S", "M", "T", "W", "T", "F", "S"][d.getDay()]);
-          const maxv = Math.max(1, Math.max.apply(null, week));
-          let bars = '<div style="display:flex;align-items:flex-end;justify-content:center;gap:7px;height:60px;margin-bottom:6px;">';
-          week.forEach((v, i) => { const last = i === week.length - 1; const h = Math.max(6, Math.round((v / maxv) * 54)); bars += '<div style="display:flex;flex-direction:column;align-items:center;gap:5px;"><div style="width:16px;height:' + h + 'px;border-radius:4px;background:' + (last ? "linear-gradient(180deg,#7ee0a8,#4a9c74)" : "rgba(120,150,210,.3)") + ';"></div><span style="font-size:9px;color:' + (last ? "#7ee0a8" : "#6b7691") + ';font-weight:600;">' + days[i] + '</span></div>'; });
-          bars += '</div>';
-          const plot = document.createElement("div");
-          plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
-          plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
-          done.appendChild(plot);
-          const close = document.createElement("button");
-          close.textContent = "Close";
-          close.style.cssText = "cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:9px 18px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#aeb6c8;";
-          close.addEventListener("click", () => { this._session = null; this._sessionNodes = null; this._inSession = false; this.setDeckOpen(false); });
-          done.appendChild(close);
+          // session finished — ONE celebration card, shared with the inline queue (_sessionDoneCard).
+          // It used to be built inline here, which is why the inline surface could not reuse it.
+          list.appendChild(this._sessionDoneCard(ses));
+          return;
         }
       }
       list.appendChild(done);
@@ -12039,6 +12776,13 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     const success = forced != null ? forced : this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
     const out = this.drawOutcome(act, success);
+    // THE FLOW LEDGER'S ONE HOOK (v1.137.0). This line is the only place in the app where
+    // the state (`currentPos` + `playerRole`, not reassigned until the startTravel callbacks
+    // inside enterSuccessCal/enterFailCal, which run strictly after this returns), the move,
+    // and the verdict are all in scope together. `enterAttempt` has no verdict; `enterLand`
+    // has already moved, skips consecutive duplicates, and is not reached at all on a
+    // stay-put miss. See _noteFlow.
+    this._noteFlow(act, success);
     if (!out) { return success ? this.enterSuccess(opt) : this.enterFail(opt); }  // no cal -> legacy path
     return success ? this.enterSuccessCal(opt, out) : this.enterFailCal(opt, out);
   }
@@ -12392,7 +13136,13 @@ class Component extends DCLogic {
   // and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is mid-frame during
   // a draw and its `font` is state, so borrowing it would be a heisenbug waiting to happen.
   _labelWidthPx(n, paired) {
-    const px = paired ? 18 : 17;   // the pair group's focus size; richLabel's name is a shade under
+    // ONE SOURCE WITH THE DRAW (v1.138.0). This was `paired ? 18 : 17`, a hand-copied mirror of the
+    // pair group's focused size and of richLabel's `big` — which had ALREADY drifted (richLabel
+    // draws `big` at the focus size, so 17 was simply wrong), and which nothing tied to the draw:
+    // `dual-pair.spec.ts` measures THIS, so a mismatch mis-frames the phone with every test green.
+    // `paired` no longer selects a size because both paths now draw the state's name at one rank;
+    // it is kept in the signature because the CACHE KEY and both call sites are written for it.
+    const px = this.nameFontPx();
     const key = n.idx + "|" + px;
     this._labelWCache = this._labelWCache || new Map();
     const hit = this._labelWCache.get(key);
@@ -12565,6 +13315,27 @@ class Component extends DCLogic {
     this.W = el.clientWidth; this.H = el.clientHeight;
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
+    this._applyTypeScale();
+  }
+  /**
+   * THE ANNOUNCER'S SIZE IS WRITTEN HERE, NOT IN THE TEMPLATE (v1.138.0).
+   *
+   * It has to step down on a phone — the canvas name it must read below cannot grow there (see
+   * NG_NAME_PX_NARROW), so the rank is restored from this side alone — and a breakpoint is the one
+   * thing the template cannot express: `xdc-template.html`'s own `<helmet>` is STRIPPED by
+   * build.mjs, the shipped stylesheet is `helmet.html`'s, and the two `@media (max-width:640px)`
+   * blocks have already drifted apart. A CSS rule would therefore have to be duplicated into a
+   * file that is not the one the app reads. So the template's `font-size` is a FIRST-FRAME GUESS
+   * (the `.ng-optionrow` / `_dockLandFilm` idiom) and this is the value that holds.
+   *
+   * Called from `resize()`, which is where `this.W` is set and which already runs at boot and on
+   * every ResizeObserver/window resize — so `isMobile()` is never read against a stale width.
+   * Note this MOVES THE CAMERA on purpose: `rollCamTarget` takes the free band's top from the
+   * toast's measured rect, so a shorter toast hands the graph back the room it was eating.
+   */
+  _applyTypeScale() {
+    const t = this.evTextRef && this.evTextRef.current;
+    if (t) t.style.fontSize = this.announcerPx() + "px";
   }
 
   jumpToState(idx) {
@@ -13291,14 +14062,15 @@ class Component extends DCLogic {
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, A);
         ctx.fillText(role.toUpperCase(), ox, sy - (big ? 7 : 5));
-        ctx.font = (big ? "700 18px " : "600 13px ") + dfam + ", sans-serif";
+        const rNamePx = big ? this.nameFontPx() : 13;
+        ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
         ctx.fillText(name, ox, sy + (big ? 11 : 9));
         ctx.shadowBlur = 0;
         // published for the same reason `_lastPairLabel` is: this is canvas text with no DOM to
         // query, and the anchor comes from `halfW`, a draw-local closure. Reading the strings the
         // frame passed to `fillText` is the render's OUTPUT, not a re-derivation of its logic.
-        this._lastRichLabel = { idx: idx, kicker: role, name: name, big: !!big };
+        this._lastRichLabel = { idx: idx, kicker: role, name: name, big: !!big, namePx: rNamePx };
       };
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
@@ -13429,7 +14201,8 @@ class Component extends DCLogic {
         const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
         const nameY = sy + 6 - lift;
         const qualY = nameY + this.NG_LABEL_LEAD;
-        ctx.font = (focused ? "700 18px " : "700 15px ") + dfam + ", sans-serif";
+        const namePx = focused ? this.nameFontPx() : 15;
+        ctx.font = "700 " + namePx + "px " + dfam + ", sans-serif";
         const drawnMain = this._fitText(ctx, nm, gMaxW);
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
         ctx.fillText(drawnMain, ox, nameY);
@@ -13454,9 +14227,21 @@ class Component extends DCLogic {
         // existing clearances so it can never land on the name or the qualifier; merged pairs
         // (small gap) degenerate to the old offsets by construction.
         const syAct = (LY(act) - this.cam.cy) * scale + H / 2;
-        const subY = above ? Math.min(nameY - 18, syAct + 4) : Math.max((qual ? qualY : nameY) + 18, syAct + 4);
-        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null, subY: subY };
-        ctx.font = "700 11px " + dfam + ", sans-serif";
+        // THE CLEARANCE IS THE NAME'S, NOT A CONSTANT (v1.138.0). The literal 18 here was the
+        // ascender height of an 18px name plus ~5px of air; MEASURED on the shipped face, that
+        // name reaches 13px above its baseline, and a 24px one reaches 18px — so the old constant
+        // would have put TOP/BOTTOM exactly ON the name's ascenders at the new size. Derived, it
+        // reproduces 18 at both 15px and 18px (the floor holds the unfocused row where it was) and
+        // gives 23 at 24px, keeping the same 5px of air. Recompute the ascents with
+        // tests/artifacts/_label_size_probe.mjs.
+        const clr = Math.max(18, Math.round(namePx * 0.78 + 4));
+        const subY = above ? Math.min(nameY - clr, syAct + 4) : Math.max((qual ? qualY : nameY) + clr, syAct + 4);
+        // `namePx` rides along for the same reason the strings do: the size lives in a draw-local
+        // and there is no DOM to read it back from, so a spec asserting the type hierarchy would
+        // otherwise have to re-type the number and agree with a broken build by construction
+        // (CLAUDE.md 6.3). Read by e2e/journeys/announcer-coherence.spec.ts.
+        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null, subY: subY, namePx: namePx };
+        ctx.font = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(subCol, aF);
         ctx.fillText(sub, ox, subY);
         ctx.shadowBlur = 0;

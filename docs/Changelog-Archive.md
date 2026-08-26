@@ -3549,6 +3549,147 @@ does the two-step armed delete and its 12px miss-distance from Share; each glyph
 
 <a id="v1-129-8-the-capture-star"></a>
 
+---
+
+## v1.138.0 — FLOW: weak spots become a continuous, signed, value-weighted score
+
+The owner reviewed the Explore stat row and found numbers that each broke one promise: **the
+number you press is not the number you get.** "4 very weak spots" opened a 30-technique session;
+"5 due" opened 7; and (found during the pass, unreported) "Mastered 3" opens a list headed
+"180 techniques" — the cell counts `rec[k] >= 3`, the bucket returned `prep[k] > 0`.
+
+Fixing the counts exposed the rule underneath. Weak spots were three unweighted set-membership
+tiers over `prep`, reading neither value nor odds nor traffic — so `Aoki Lock` (stationary weight
+**0.0**, a technique the chain never reaches) ranked identically to `Side Control to Mount`
+(**2.4%** of all roll traffic), and tier 2 ("never drilled") was **1,452 of 1,456 families** for a
+fresh player: a corpus constant wearing a personal number's clothes.
+
+Owner's reframe: *"the very weak / weak definition should be buckets/ordinal class coming out of a
+continuous data… like page rank, some nodes are more likely to be visited than others, like big
+lakes (bigger accumulations of state) in a river"* — and the requirement that decided the design:
+*"typically closed guard culminates in omoplatas and failed omoplatas for me… because I have
+mastered the lockdown, the rubber guard, but can't do much out of it."* **Mastering one node made
+his game worse.** No threshold rule can express that. A signed score can.
+
+### What shipped
+
+`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`, where V₀ is the player's own expected
+`p_win − λ·p_loss` over a roll, by exact backward induction from the submission edges — the only
+edges reaching `game-over`. Not Q-learning: the kernel is fully known (1,467 nodes, 4,924 outcome
+cells, zero unresolved targets), so it is exact DP plus an adjoint sweep, no sampling. The owner
+offered Monte Carlo as a fallback; declined with numbers — median technique weight is 0.000255, so
+pinning it to 10% relative error needs ~390,000 sampled visits (~39,000 rolls) against ~246k flops
+for the exact solve, the score is personal and moves on every grade, and sampling would break the
+determinism `check_no_raw_random.sh` exists to protect.
+
+- `scripts/solve_flow.py` — reference, gate and recompute command. Emits nothing.
+- `neural/src/flow.src.js` — the browser kernel, a real ES module stripped of exports at bundle
+  time (the `lists-codec.src.js` idiom), so `tests/flow.test.mjs` runs the identical source.
+- `npm run validate:flow` — selfcheck + the content ratchet, 1.7s.
+
+### Measurements that decided things
+
+- **The cheap formula was refused, and it deserved it.** `traffic × att × headroom × c1` scores
+  **exactly 0 for every bottom-side technique**: `startPosTraffic` keys through `_posSlugIndex`,
+  which maps a position to its TOP member (136 of 272), while 2,071 outcome cells land on bottom
+  members. Simulated on a bottom player who had drilled 90 bottom decks: **0 of 90 changed
+  score**, and their "15 weakest" came back as fifteen guard-passing techniques. The obvious
+  repair fails too — **136 of 136 hubs give top and bottom identical traffic**.
+- **EDGE cannot carry a weak-spot score.** `_evShift` subtracts an attempt-weighted hand mean, so
+  `Σ att·EDGE ≡ 0` at every state by construction. Build in Q.
+- **`c1` is `int(round(100·(A−B)))`** — the win-vs-lose swing, ×100 and integer-rounded, one per λ.
+- **Policy evaluation ≠ the shipped argmax solve.** Under argmax every dominant state compresses
+  to `p_win ≈ 0.98`; under the played policy `mount/bottom` is −0.281. `sol.v` is unusable here.
+- **The adjoint IS the derivative**: verified against finite differences to **1.9e-09**; ~50ms for
+  all 1,500 decks; linearisation recovers 93–107%, so the shown shortlist is re-solved exactly.
+- **18 decks are negative**, and the list is the Eddie Bravo rubber-guard ladder — `New York to
+  Invisible Collar` (A−B = −0.943), `Crackhead Control to New York`, `Progression to Zombie`,
+  `Lockdown to Vaporizer`. The owner's own example, derived rather than asserted.
+- **A fixed denominator was wrong.** Tiers as shares of the blank-profile total made the called-out
+  count GROW 37 → 94 → 236 → 570, because mastering decks makes every remaining deck worth more
+  (V₀ 0.079 → 0.385). Against the CURRENT total the list is stable, a mastered deck scores exactly
+  0 and leaves it, and recoverable value falls **0.862 → 0.425**.
+- **The gradient is a slope and does not know the cap.** Without scaling by remaining headroom,
+  `Side Control|Top` stayed #1 after being mastered.
+- **JS vs Python**: identical 1,500-deck set, top-40 40/40, top-10 order identical, negative sets
+  identical; V₀ within 0.457%. The residual is entirely the wire's `int(round(att))` — `p0` is
+  bit-identical, and the worst case is `Back Control to Cross Body Ride`, 0.01299 → 0.01000 (23.6%).
+
+### The ledger — rolling becomes a write path for the first time
+
+Nothing about a roll survived a reload: `_progressBlob()` had 16 keys and `rollLog`, `_pastRolls`
+and `_exploredKeys` were all absent (so the "very weak" tier was empty on every page load and
+silently degraded to "weak"). One hook, at `resolve()` immediately after `drawOutcome` — the only
+point where state, move, verdict and landing coexist in scope. Stored as a **per-device G-Counter**
+because counters are the one thing the blob's per-key MAX merge cannot carry: two devices at 30
+rolls each are 60, and MAX reads 30; plain SUM double-counts on re-pull. Merged per-device by MAX,
+summed across devices at read time. Move identity is the permanent share ordinal, never an array
+index. 6 devices LRU, 180-day hard window. `_saveFlowSoon` gives it a 6s trailing debounce so a
+continuous roll does not `JSON.stringify` a 1.3MB blob per exchange.
+
+### Estimation, and why per-cell was never on the table
+
+5.23 my-turn decisions per roll, so at 50 rolls **0 of 1,246 (state, move) cells reach n≥8** — but
+the 8 states that do carry **43% of all traffic**. Four levels, all shrinking to the prior at n=0
+so cold start is a continuous deformation rather than a second code path: a global execution
+offset, a conditional-logit tilt on the authored attempt distribution, per-state Dirichlet
+refinement where counts allow, and per-technique rates pooled across states. `pseudo_count = 8`,
+the repo's own `folded_rate` constant, for the reason `calibrate_probabilities.py` already gives.
+
+### The UI, in the owner's words
+
+*"Instead of showing very weak and weak spots at the same time… it should only show one or the
+other"* — measured, the two-tier string was `"4 very weak · 1452 weak spots"` and wrapped on an
+88vw drawer. The row became **Mastered / due / new**, the three states any card is in.
+
+*"The daily new max goal is the default daily goal… ideally we aim for 30 flashcards — or what
+does the literature on SRS say?"* — Anki pairs 20 new/day with a 200 reviews/day cap because
+steady-state reviews land near 10× daily new, so a 30-card budget supports ~3 new cards a day, not
+30. `dailyGoal` became a CARD budget: due cards are spent first and the remainder buys whole
+techniques off the ranking. With 30 due it deals **0 new** and says why.
+
+*"When we click to show them, it should show the same interface… 1. The maintenance ones… 2. Only
+afterwards, the new techniques… 3. We can show more techniques that load on infinite scroll, but
+they should be ranked and ordered by that metric."* — `openPlanSession(anchor)`: one queue,
+Maintenance → Learn next → More in order, both stat cells opening it at different anchors.
+
+Also this cycle, from the same review: the session surface became the inline Last-rolls accordion
+(`←→` cards, `↑↓` techniques, space flips, green tick and auto-advance on completion, no "Start
+session" gate and no full-sidebar takeover); the stat band moved from three `1fr` columns with
+`justify-self` to `space-evenly` (measured 12px edge gaps against 56px internal — the owner's
+"overglued to their edges"); `openDueSession()` collapsed two divergent labels for one queue; and
+the logo's focus ring after a mobile tap was gated on a last-input-modality latch, because a
+script `.focus()` on a `<button>` makes Chromium paint `:focus-visible` for a finger.
+
+### Content finding — blocks the backfiring badge
+
+`invisible-collar/bottom` is authored as the back-mount **victim** (Defensive, its hand is all
+escapes; `/top` carries Rear Naked Choke at att 37, Back Control Maintenance, Bow and Arrow) while
+the rubber-guard ladder points at `/bottom` as the **attacker**. Two different techniques share the
+name: the graph's `invisible-collar` is a back attack, Bravo's is a choke from rubber guard. It is
+the largest single distortion in the model (−1.012 and −0.858, the two worst rows in the audit) and
+the reason that ladder tops the negative list. Recorded in
+`tests/artifacts/flow_validation_baseline.json` with the full reasoning; a content decision, not a
+model one.
+
+### Free fixes that fell out
+
+- `weakSpots().top` feeds the weekly digest headline and inherited the old rule's alphabetical
+  order, so **the digest has been telling every fresh user their softest spot is `100% Sweep`**,
+  forever. It is now the heaviest, `Side Control|Top`.
+- The daily dose (`bucketTechniques("suggested")`) capped an unordered pool, dealing `100% Sweep`,
+  `3-4 Mount…` and then sixteen varieties of `Americana`.
+- `bucketTechniques("mastered")` now returns the same set `masteredCount()` counts.
+
+### What it inherits, said out loud in the copy
+
+The solve is no-gi while gi is the default ruleset (146 nodes carry a differing rate); the opponent
+it prices is `opponentDefend`, which filters neither role nor origin, compounded over 11 plies
+instead of one; the 1,326 Defender decks are unscored because drilling does not change the
+opponent's rates; and `gameScore` weights all 272 position decks at **zero** while FLOW's top ten
+are all positions — two published numbers that will disagree, on purpose.
+
+
 ## v1.136.0 — THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT
 
 ### THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT (v1.136.0)

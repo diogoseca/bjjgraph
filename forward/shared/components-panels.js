@@ -46,7 +46,7 @@ export function flashcard(
 function drillHome() {
   return `<div class="drill-home" data-drill-home>
     <button class="drill-auth ngHdrAuth" type="button"><b>Create account or log in</b><span>Save your rolls &amp; progress</span></button>
-    <section class="drill-progress"><div><small>Your game</small><strong>38%</strong></div>${progress(38)}<p><span><b>8</b> mastered</span><span><b>2</b> today</span><span class="is-weak"><b>30+</b> weak spots</span></p></section>
+    <section class="drill-progress"><div><small>Your game</small><strong>38%</strong></div>${progress(38)}<p><span><b>8</b> mastered</span><span><b>2</b> today</span><span class="is-weak"><b>3</b> new</span></p></section>
     <section class="drill-section roll-history"><header><b>Roll history</b><button type="button">View all</button></header>${history
       .slice(0, 2)
       .map(

@@ -321,6 +321,57 @@ single horizon.
 
 ---
 
+## 4b. FLOW — what a DECK is worth (v1.138.0)
+
+**`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`**
+
+EDGE prices *a move from where you stand*. FLOW prices *a deck across your whole game*, and it is
+what ranks weak spots, the daily dose and the study queue. Kernel: `neural/src/flow.src.js`;
+reference and gate: `scripts/solve_flow.py` (`npm run validate:flow`).
+
+**It is a POLICY EVALUATION, not the argmax solve EDGE ships.** Same recursion, `argmax → π`.
+The two value functions are measurably different objects — under argmax every dominant state
+compresses to `p_win ≈ 0.98`, under the played policy `mount/bottom` is −0.281 and
+`back-control/bottom` −0.479 — so `sol.v` cannot be reused for this and is not emitted.
+
+**Zero new wire bytes.** The browser rebuilds the 272-state kernel from `cal.ev` (hands and
+attempt shares, keyed `posIdx/role`) and `cal.outcomes` (1331 of 1331 summing to exactly 100).
+Attempt shares are renormalised per state: `graph.json` is exact, the wire rounds to integers.
+
+**All 1,500 deck derivatives come from one backward and one forward sweep** — the adjoint. The
+forward occupancy `ρ` *is* "how often you are there", exactly rather than as a metaphor. ~50ms for
+the whole corpus; verified against finite differences to 1.9e-09. The linearisation only recovers
+93–107% of the true change, so the **shown shortlist is re-solved exactly and no sign is ever
+taken from the tail**.
+
+**The score is SIGNED, and that is the point.** 18 decks LOWER your game when you drill them,
+because their success branch lands somewhere your own play leaks while their miss branch returns
+you somewhere you are strong. The list is the rubber-guard ladder — `New York to Invisible
+Collar` and its neighbours. Backfiring is a **class, never a tier**, and only ever from an exact
+re-solve.
+
+**Tiers are cumulative shares of the CURRENT recoverable total**, not a fixed one. Measured and
+counter-intuitive: mastering decks makes every *remaining* deck worth MORE (a better game reaches
+further and survives longer — V₀ 0.079 → 0.385 over the top 37), so a fixed denominator lets the
+called-out count grow from 37 to 570. Against the current total the list stays stable, a mastered
+deck scores exactly 0 and leaves it, and **recoverable value falls 0.862 → 0.425** as you close
+gaps. That figure, not the tier count, is the honest "how much is left".
+
+**Personalisation is a continuous deformation, never a second path.** At 5.23 decisions per roll,
+0 of 1,246 (state, move) cells reach n≥8 at 50 rolls — but the 8 states that do carry 43% of all
+traffic. So: a global execution offset, a conditional-logit tilt on the authored attempt
+distribution, per-state Dirichlet refinement where counts allow, and per-technique rates pooled
+across states — all shrinking to the prior at n=0, at the repo's own `pseudo_count = 8`. The
+ledger feeding it is written at ONE hook, `resolve()`, and stored as a per-device G-Counter
+(counters are the one thing the blob's per-key MAX merge cannot carry: two devices at 30 rolls
+each are 60, and MAX reads 30).
+
+**What it inherits, and the copy says so:** the solve is no-gi while gi is the default ruleset
+(146 nodes differ); the opponent it prices is `opponentDefend`, which filters neither role nor
+origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
+not change the opponent's rates; and `gameScore` weights all 272 position decks at **zero** while
+FLOW's top ten are all positions — two published numbers that will disagree.
+
 ## 5. The pair
 
 Every state draws as **two orbs** — the two sides of one exchange.

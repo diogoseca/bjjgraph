@@ -9,7 +9,7 @@ import { journey } from "../dsl"
  *      chip) used to open a pane whose Explore/Challenges buttons were dead — wiring lived
  *      only in openPane(). It now lives at the choke point (applyDeckVisibility).
  *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
- *      next to Settings/Terms/Privacy. The stat row (mastered/today/weak spots) moved to
+ *      next to Settings/Terms/Privacy. The stat row (mastered/due/new) moved to
  *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
  *   3. The score belt is RETIRED as a visual (v1.98.1 — header died v1.96.0, the Explore
  *      mount died on the owner's word): no .ng-knowledge-header, no [data-knowledge], no
@@ -143,21 +143,41 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   const stats = page.locator("[data-explore-stats]")
   await expect(stats).toBeVisible()
   await expect(stats.locator(".ngStat")).toHaveCount(3)
-  await expect(stats).toContainText("weak spot")
-  // DISTRIBUTED, NOT CLUMPED (owner: it "still looks left aligned instead of neatly designed and
-  // distributed") — three equal columns, the outer two hugging the edges.
+  // MASTERED / DUE / NEW (v1.138.0). The third cell used to name a tier of the old prep rule
+  // ("N very weak spots"); it now names today's DOSE off the FLOW ranking, so the row reads as
+  // the three states any card is in. The count is the card budget left after maintenance, which
+  // is why it can legitimately be 0 on a day you owe a lot.
+  await expect(stats).toContainText("new")
+  await expect(page.locator('.ngStat[data-b="new"]')).toBeVisible()
+  await expect(page.locator('.ngStat[data-b="new"]')).toHaveAttribute("data-new", /^\d+$/)
+  // EVENLY SPACED, NOT PINNED TO THE EDGES (v1.138.0, owner: "the space between these items is
+  // so large that they seem overglued to their edges in a weird way").
+  //
+  // This assertion REPLACES the v1.104.5 one, which pinned `display: grid` and `spread/width >
+  // 0.85`. That contract WAS the edge-hugging: three `1fr` columns with justify-self
+  // start/centre/end distribute the BOXES evenly and then park the outer two on the padding
+  // edge, so the ink ends hard against both walls with a hole in the middle (measured: 12px
+  // gaps at the edges, 56px between). `space-evenly` distributes the GAPS instead, so the
+  // differential to assert is that all four gaps are equal — which is the opposite of a high
+  // spread ratio, and is why the old numeric floor could not simply be relaxed.
   const s = await page.evaluate(() => {
     const r = document.querySelector("[data-explore-stats]") as HTMLElement
     const rb = r.getBoundingClientRect()
     const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
     const anc = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
     const cells = [...r.querySelectorAll(".ngStat")].map((c) => c.getBoundingClientRect())
+    const oneLine = cells.every((c) => Math.abs(c.top - cells[0].top) < 2)
     return {
       top: rb.top, navBottom: nav.bottom, anchorTop: anc.top, bottom: rb.bottom,
       display: getComputedStyle(r).display,
-      leftGap: Math.round(cells[0].left - rb.left),
-      rightGap: Math.round(rb.right - cells[2].right),
-      spread: Math.round(cells[2].right - cells[0].left),
+      justify: getComputedStyle(r).justifyContent,
+      oneLine,
+      gaps: [
+        cells[0].left - rb.left,
+        cells[1].left - cells[0].right,
+        cells[2].left - cells[1].right,
+        rb.right - cells[2].right,
+      ].map((g) => Math.round(g)),
       width: Math.round(rb.width),
       inFoot: !!r.closest(".ng-pane-stats"),
     }
@@ -165,10 +185,14 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   expect(s.inFoot, "it lives in the foot band").toBe(true)
   expect(s.top, "at the FOOT, far below the tab bar").toBeGreaterThan(s.navBottom + 200)
   expect(Math.round(s.bottom), "directly above the save nudge").toBeLessThanOrEqual(Math.round(s.anchorTop) + 2)
-  expect(s.display, "a distributed grid, not a left-packed flex row").toBe("grid")
-  // the three together must cover most of the band — the old flex row left the right third empty
-  expect(s.spread / s.width, "the three stats span the band").toBeGreaterThan(0.85)
-  expect(Math.abs(s.leftGap - s.rightGap), "and sit symmetrically in it").toBeLessThanOrEqual(4)
+  expect(s.display, "a flex band, not a three-column grid").toBe("flex")
+  expect(s.justify, "the GAPS are what is distributed").toBe("space-evenly")
+  // the differential: every gap equal, and the outer ones no longer the small ones
+  expect(s.oneLine, "one line at desktop width — the wrap valve is for the drawer").toBe(true)
+  const [l, a, b, rgt] = s.gaps
+  expect(Math.max(l, a, b, rgt) - Math.min(l, a, b, rgt),
+    `all four gaps equal, got ${s.gaps.join("/")}`).toBeLessThanOrEqual(4)
+  expect(l, "and the outer gap is real breathing room, not a 12px padding edge").toBeGreaterThan(14)
 
   // the quiet line is a real login path
   await j.clickByMouse("[data-anchor-login]", "the quiet Log in link")

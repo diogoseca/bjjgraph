@@ -1969,7 +1969,7 @@ export const useCases = [
           pane: {
             tab: "explore",
             explore: {},
-            stats: { mastered: 4, masteredPct: 14, due: 6, weak: 11 },
+            stats: { mastered: 4, masteredPct: 14, due: 6, fresh: 3 },
           },
         },
         "pane-slide-left",
@@ -2007,7 +2007,7 @@ export const useCases = [
             signedIn: true,
             sync: "merging",
             explore: {},
-            stats: { mastered: 9, masteredPct: 27, due: 12, weak: 8 },
+            stats: { mastered: 9, masteredPct: 27, due: 12, fresh: 1 },
           },
         },
         "still",

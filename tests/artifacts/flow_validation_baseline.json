@@ -1,0 +1,31 @@
+{
+ "frame": "nogi",
+ "horizon": 11,
+ "known": {
+  "closed-guard/bottom|Closed Guard to Hindulotine": -0.25,
+  "crackhead-control/bottom|Crackhead Control to New York": -0.367,
+  "cross-ashi-garami/top|Cross Ashi to 50-50": -0.257,
+  "electric-chair/bottom|Hip Rotation Escape from Electric Chair": -0.314,
+  "estima-lock-control/top|Estima Lock to Ashi Garami": -0.376,
+  "gift-wrap/top|Body Triangle Lock": -0.278,
+  "half-guard/bottom|Back Door Escape from Half Guard": -0.335,
+  "half-guard/bottom|Half Guard to Jailbreak": -0.284,
+  "half-guard/top|Half Guard to Triangle Escape Position": -0.327,
+  "harness/top|Harness to Body Lock": -0.373,
+  "inside-ashi-garami/top|Inside Ashi to Outside Ashi": -0.363,
+  "new-york-control/bottom|New York Control to Invisible Collar": -1.012,
+  "new-york/bottom|New York to Invisible Collar": -0.858,
+  "seat-belt-control-back/top|Seat Belt to Body Triangle": -0.444,
+  "shoulder-of-justice/top|Shoulder of Justice Kimura Setup": -0.262,
+  "toe-hold-control/top|Toe Hold to Straight Ankle Lock": -0.552,
+  "ushiro-ashi-garami/top|Return to Outside Ashi": -0.252
+ },
+ "lam": 2.0,
+ "max_new": 0,
+ "note": "FLOW content ratchet. A row here is a SUCCESS branch that lands you somewhere worth LESS than where you left. Each is either a real trap the score should price, or an authoring defect. Regenerate with `python3 scripts/solve_flow.py --baseline`.",
+ "reviewed": {
+  "new-york-control/bottom|New York Control to Invisible Collar": "ROLE COLLISION, not a trap. Two different techniques share the name 'Invisible Collar': the graph's `invisible-collar` hub is a BACK ATTACK (top carries Rear Naked Choke att 37, Back Control Maintenance 29, Bow and Arrow; bottom is Defensive and all escapes), while the Eddie Bravo Invisible Collar is a choke from RUBBER GUARD played from the bottom. So this move's success cell points a bottom-side attacker at `invisible-collar/bottom`, the VICTIM side, and the model correctly prices that as catastrophic. Fixing it is a content decision (split the position, or re-point the success cell at /top) and is why FLOW must not print a backfiring badge for this family yet.",
+  "new-york/bottom|New York to Invisible Collar": "Same collision as above."
+ },
+ "threshold": -0.25
+}

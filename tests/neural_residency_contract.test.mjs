@@ -308,7 +308,10 @@ test("both deck-list surfaces read the count through that one seam", () => {
     assert.ok(i > 0, name + " exists");
     return src.slice(i, src.indexOf("\n  }", i));
   };
-  for (const fn of ["renderFlashBrowser", "renderSession"]) {
+  // v1.137.0: the session's rows moved out of `renderSession` into `_sessionRow` when the surface
+  // became an inline accordion. The seam is what this test is about, so it follows the rows —
+  // naming `renderSession` here now would pass on a body that renders no counts at all.
+  for (const fn of ["renderFlashBrowser", "_sessionRow"]) {
     const b = body(fn);
     assert.match(b, /_deckCountLabel\(/, fn + " must read the manifest count");
     assert.doesNotMatch(b, /dc\.length/, fn + " must not count only what is resident");

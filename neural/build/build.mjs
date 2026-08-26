@@ -67,6 +67,10 @@ const listsCodec = stripExports("lists-codec.src.js");
 // lists.src.js shares ONE scope with the codec here, so a duplicated top-level name would be
 // a SyntaxError that deletes the whole app. Assert the collision can't creep in.
 const listsStore = stripExports("lists.src.js");
+// flow.src.js is a REAL ES module for the same reason the codec is: `node --test` imports
+// the identical source, so the browser kernel and `tests/flow.test.mjs` can never drift
+// apart, and the Python reference (`scripts/solve_flow.py`) gates ONE implementation.
+const flowKernel = stripExports("flow.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -77,7 +81,14 @@ const listsStore = stripExports("lists.src.js");
         (m) => m[1],
       ),
     );
-  const clash = [...names(listsCodec)].filter((n) => names(listsStore).has(n));
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel]];
+  const clash = [];
+  for (let a = 0; a < groups.length; a++) {
+    for (let b = a + 1; b < groups.length; b++) {
+      const na = names(groups[a][1]), nb = names(groups[b][1]);
+      for (const x of na) if (nb.has(x)) clash.push(`${x} (${groups[a][0]} vs ${groups[b][0]})`);
+    }
+  }
   if (clash.length) {
     throw new Error(
       "build.mjs: lists-codec.src.js and lists.src.js declare the same top-level name(s) " +
@@ -149,6 +160,10 @@ ${sound}
 /* ---- begin share-link list codec + store (pure; ordinals <-> URL code, lists, og text) ---- */
 ${listsCodec}
 ${listsStore}
+
+/* ---- begin flow.src.js (the FLOW kernel: policy evaluation + adjoint) ---- */
+${flowKernel}
+/* ---- end flow.src.js ---- */
 // Reachable, greppable, and safe from tree-shaking: both files are pure and stateless, so
 // exposing them costs nothing and lets the list UI, the /l recipient path, the unit suite and
 // a paired debugging session all use the SAME functions. Both naming styles are published:
