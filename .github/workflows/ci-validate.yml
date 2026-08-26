@@ -24,6 +24,12 @@ on:
       - "neural/src/**"
       - "neural/src/lists-codec.src.js"
       - "tests/*.test.mjs"
+      # tests/analytics_surface_gate.test.mjs pins its fixtures VERBATIM to the PostHog snippet in
+      # this emitter, so that a vendor-snippet change cannot leave the analytics deploy gate
+      # matching bytes the build no longer produces. Without this line a PR touching only the
+      # emitter would never run the one test written to notice — the filter must include the
+      # INPUTS its own gates read (CLAUDE.md §6.7), or the job goes green by never being triggered.
+      - "source/quartz/plugins/emitters/componentResources.ts"
       # the CLAUDE.md budget + reference gates. Listing these is load-bearing, not tidiness:
       # a gate wired behind a path filter that excludes its own subject never runs on the PR
       # that breaks it, which is this repo's "absence produces a plausible answer" class in

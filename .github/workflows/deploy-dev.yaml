@@ -136,6 +136,25 @@ jobs:
       - name: Affiliate compliance gate (disclosure drift + unverified links)
         run: python3 scripts/check_affiliate_surface.py
 
+      # ANALYTICS SURFACE GATE — PARITY with prod, and deliberately the earlier of the two places
+      # it runs. The preview is where a keyless build would first be visible, and it is the branch
+      # v1.136.1 actually shipped broken. Reads the BUILT postscript.js and asserts the PostHog
+      # injection matches this run's environment BOTH ways: with a key, exactly one posthog.init()
+      # carrying THIS key plus the stub loader; without one, zero of either anywhere in the
+      # emitted JS (a build that silently stops injecting stops collecting analytics, and nothing
+      # errors).
+      #
+      # MUST be a step here as well as in deploy.yaml: deploy does NOT run root `npm run build`,
+      # so a gate wired only into that script never runs in production, and ci-validate has no
+      # build to read. Absent from one of these two files = absent from that deploy.
+      #
+      # The env: line is load-bearing — the gate reads the key at GATE time, the emitter read it
+      # at BUILD time; without it the step grades the wrong branch and can pass vacuously.
+      - name: Analytics surface gate (PostHog injection matches the environment)
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+        run: npm run validate:analytics
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

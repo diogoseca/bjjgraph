@@ -155,6 +155,31 @@ jobs:
       - name: Affiliate compliance gate (disclosure drift + unverified links)
         run: python3 scripts/check_affiliate_surface.py
 
+      # ANALYTICS SURFACE GATE. Reads the BUILT postscript.js and asserts the PostHog injection
+      # matches the environment this run built in, in both directions: with a key, exactly one
+      # posthog.init() carrying THIS key plus the stub loader; without one, zero of either
+      # anywhere in the emitted JS. The keyless direction is the v1.136.1 bug (`posthog.init("")`
+      # -> a CDN fetch and a console.error on every page load); the keyed direction is the more
+      # expensive one, because a build that silently stops injecting stops collecting analytics
+      # and nothing anywhere errors.
+      #
+      # MUST be a step here, in BOTH deploy workflows: deploy does NOT run root `npm run build`,
+      # and ci-validate installs no node deps and never builds, so there is no postscript.js
+      # there to read. A gate absent from one of these two files is absent from that deploy.
+      #
+      # The env: line is load-bearing, not decoration. The gate reads the key at GATE time; the
+      # emitter read it at BUILD time. Without it the step would take the no-key branch against a
+      # keyed build and report the wrong failure — or, worse, a vacuous pass. (The job-level env
+      # already exports it; it is repeated here for the same reason `Build Quartz` repeats it —
+      # so the dependency is visible at the step that has it.)
+      #
+      # Runs after `Build Forward development libraries` so the Forward bundles are in the scan
+      # too; nothing between the Quartz build and here rewrites postscript.js.
+      - name: Analytics surface gate (PostHog injection matches the environment)
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+        run: npm run validate:analytics
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

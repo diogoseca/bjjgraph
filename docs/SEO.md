@@ -139,6 +139,15 @@ Neural-app events are `neural_<noun>_<verb>` in snake_case, captured through the
 seam `app.track()` in `neural/src/app.src.jsx` (it injects `variant: "neural"` and is a no-op when
 the PostHog token is absent, e.g. on localhost). Never call `posthog.capture` from the app directly.
 
+**That no-op is a gate, not a hope.** `scripts/check_analytics_surface.py` (`npm run
+validate:analytics`, wired into both deploy workflows after the Quartz build) reads the built
+`postscript.js` and asserts the injection matches the environment the build ran in, both ways: with
+`POSTHOG_API_KEY` set, exactly one `posthog.init()` carrying *that* key plus the stub loader; with
+it unset, zero of either anywhere in the emitted JS, so `window.posthog` stays undefined and the
+guarded reads above short-circuit. The second direction is the one that costs you data silently — a
+build that stops injecting stops collecting, and nothing errors. `tests/analytics_surface_gate.test.mjs`
+pins the gate's own discrimination on every PR.
+
 ### Cold-start funnel (v1.82.0)
 
 The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*` in
