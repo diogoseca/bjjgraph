@@ -26,6 +26,15 @@ import { resolve } from "node:path"
  * scripts/check_payload_budget.py ("neural eager set"), which measures the same weight off the
  * built tree so CI gates without a browser.
  *
+ * A LOCAL PASS IS NOT EVIDENCE OF A CI PASS (v1.139.3). This gate measures ~1KB LIGHTER on a
+ * developer machine than in CI for the SAME commit, because the CI build bakes configuration a
+ * local build has no secrets for — e2e/dsl.ts records the same asymmetry from the other side.
+ * Measured on the merge that exposed it: 384,309 B gzip locally against 385,369 B in CI, a
+ * 1,060 B gap under a 385,000 B ceiling. The local run therefore cleared it by 691 B while the
+ * deploy it exists to protect went red by 369 B — and a red curated gate SKIPS the deploy step,
+ * so it presents as a stale preview rather than as a failing test. Treat anything within ~1.5KB
+ * of the ceiling as unknown until CI has spoken, and never read a local green here as clearance.
+ *
  * PINNED, NOT RIGGED (v1.80.5). Everything about the DELIVERY stays real — real network, real
  * chunk fetches, no test mode, no fulfilled buffers. The only thing pinned is the app's first
  * random draws, via the production pre-boot rig hook (`window.__NEURAL_RIG`, see boot()): the
