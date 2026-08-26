@@ -294,17 +294,43 @@ await build({
 // the standalone design-tool preview; the shipped bundle must not depend on it.
 const helmet = readFileSync(R("src/helmet.html"), "utf8");
 const styleM = helmet.match(/<style>([\s\S]*?)<\/style>/);
-writeFileSync(
-  R("dist/neural.css"),
-  [
-    styleM ? styleM[1] : "",
-    challengeCSS,
-    challengeCollectionCSS,
-    challengeFeedbackCSS,
-    systemsCSS,
-  ].join("\n"),
-);
+const cssJoined = [
+  styleM ? styleM[1] : "",
+  challengeCSS,
+  challengeCollectionCSS,
+  challengeFeedbackCSS,
+  systemsCSS,
+].join("\n");
+
+// ── CSS COMMENTS ARE PAYLOAD UNLESS SOMETHING STRIPS THEM, AND NOTHING DID ──────────────────
+// The JS above goes through esbuild, which drops comments — so "documentation at the code is
+// free" is true of app.src.jsx and was FALSE of every stylesheet joined here. Nothing minified
+// this file: the helmet's <style> was lifted verbatim and the four CSS files concatenated raw.
+// Measured when this was written: 16,778 B of comments in a 58,159 B stylesheet — 29% of it,
+// 7,665 B of it after gzip, downloaded by every first-time visitor. That is twenty times the
+// margin by which the boot payload had just breached its own ceiling, and it was entirely
+// documentation the browser cannot read.
+//
+// Stripping here rather than asking authors to write less: the comments are worth keeping in
+// source (this repo's whole documentation practice depends on them) and worth nothing in the
+// bundle. Same deal the JS already gets.
+//
+// Safe because CSS comments cannot nest and this bundle has no `/*` inside a string, url() or
+// content: value, and no `/*!` preserve markers — both checked before the regex went in. If
+// either ever changes, this must become a real CSS parser rather than a pattern.
+const cssStripped = cssJoined.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\n\s*\n+/g, "\n");
+const cssSaved = Buffer.byteLength(cssJoined) - Buffer.byteLength(cssStripped);
+writeFileSync(R("dist/neural.css"), cssStripped);
+// POSITIVE COVERAGE, NOT SILENCE (§6.6): print what was removed, so a build that quietly stops
+// stripping — or one where the pattern matches nothing — is visible instead of looking clean.
+if (cssStripped.includes("/*")) {
+  throw new Error(
+    `[build] neural.css still contains "/*" after the comment strip — the pattern no longer ` +
+      `matches what this stylesheet actually holds; fix the strip rather than shipping comments.`,
+  );
+}
 
 console.log(
-  "[build] lean neural/dist/neural.js + neural.css written (no React/eval/support.js)",
+  `[build] lean neural/dist/neural.js + neural.css written (no React/eval/support.js) — ` +
+    `stripped ${cssSaved.toLocaleString()} B of CSS comments from the boot payload`,
 );
