@@ -555,15 +555,26 @@ def gate(fl, baseline_path, lam=2.0, H=FLOW_H, write=False):
             "known": known,
             "reviewed": {
                 "new-york-control/bottom|New York Control to Invisible Collar":
-                    "ROLE COLLISION, not a trap. Two different techniques share the name "
-                    "'Invisible Collar': the graph's `invisible-collar` hub is a BACK ATTACK "
-                    "(top carries Rear Naked Choke att 37, Back Control Maintenance 29, Bow and "
-                    "Arrow; bottom is Defensive and all escapes), while the Eddie Bravo Invisible "
-                    "Collar is a choke from RUBBER GUARD played from the bottom. So this move's "
-                    "success cell points a bottom-side attacker at `invisible-collar/bottom`, the "
-                    "VICTIM side, and the model correctly prices that as catastrophic. Fixing it "
-                    "is a content decision (split the position, or re-point the success cell at "
-                    "/top) and is why FLOW must not print a backfiring badge for this family yet.",
+                    "SEAT INVERSION in the POSITION file, not a trap and NOT a name collision "
+                    "(corrected v1.141.2 -- the earlier note here asserted two techniques share "
+                    "the name; a panel disproved it). There is ONE referent: Eddie Bravo's no-gi "
+                    "rubber-guard choke. The proof is the one field an LLM pass may not write -- "
+                    "`content/Positions/Rubber Guard/Invisible Collar.json` carries eight "
+                    "machine-verified clips and six name the position outright ('Invisible Collar "
+                    "(MTS 134)' -- Eddie Bravo; 'Invisible Collar choke from Rubber Guard'; "
+                    "'Double Invisible Collar cross choke, no-gi' -- Denny Prokopos), with THREE "
+                    "of them filed on the `top` role whose own prerequisites demand 'Opponent "
+                    "wearing gi'. Zero gi back-control footage anywhere on the file. The prose "
+                    "was a confabulated gi back-mount at its birth commit (0734e5cf7), complete "
+                    "with a fabricated Eddie Bravo quote explaining the contradiction away. The "
+                    "directory says it too: the file lives under `Rubber Guard/`. "
+                    "So the two New York transitions are CORRECT and must not be re-pointed; the "
+                    "defect is that the position's two hands are swapped -- bottom holds escapes "
+                    "and top holds the finishes, when the rubber-guard player attacks from the "
+                    "BOTTOM. Measured counterfactual: swapping only `position_type` + `strength` "
+                    "leaves this audit byte-identical; swapping the HANDS clears both rows. So "
+                    "this is content re-authoring, not a two-field flip, and FLOW must not print "
+                    "a backfiring badge for this family until it lands.",
                 "new-york/bottom|New York to Invisible Collar": "Same collision as above.",
             },
         }
