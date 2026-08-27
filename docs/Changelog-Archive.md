@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **vATPUSH** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#vATPUSH-the-collar-choke-that-was-not-a-bug)
 - **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
 - **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
@@ -4691,3 +4692,109 @@ anybody, so they shouldn't be available to me right?" Right — and chasing it f
   1467 nodes carry a `from <position>` qualifier and 89 short names are shared, so the short name is
   used only when it is unique. Applied at the OPTION CARD and the GRAPH's in-node label; the share
   surfaces, lists and dossier already render full authored names by canon.
+
+---
+
+<a id="vATPUSH-the-collar-choke-that-was-not-a-bug"></a>
+
+## vATPUSH — THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL
+
+> **Status:** Current. No content value was changed by this entry's commit.
+
+`Cross Collar Choke from Invisible Collar` is dealt no-gi at `{gi:16, nogi:4}`. It was handed
+round as an obvious live data error — a collar choke served to a player with no collar — and
+scoped as a five-minute content fix. **It is not an error, and the fix that was about to ship
+would have been a name regex.**
+
+**The verdict is the calibration's.** `occurrence_calibration.json`, container
+`rubber-guardinvisible-collar__top`, 16 rounds, records the disagreement and its resolution:
+
+> Cross Collar no-gi was the largest Round-1 disagreement (0-12). Resolved as a genuine small
+> residual (2-5), NOT an availability zero, because a gable-grip / palm-to-palm neck strangle is
+> mechanically possible without cloth; the low values reflect that it is rare and borderline a
+> re-labeled RNC rather than unavailable.
+
+Ten no-gi ballots `3,5,2,5,3,2,3,3,5,3` → mean 3.4 → final 4. **The control is in the same hand,
+on the same run:** `Bow and Arrow Choke from Invisible Collar` and `Clock Choke from Invisible
+Collar` both drew `0,0,0,0,0,0,0,0,0,0` and both sit at `nogi: 0`. The machinery zeroes when the
+ballots say to. The 4 is what it produced when they did not.
+
+**AND THE SESSION THAT ESTABLISHED THAT OVERSTATED IT, IN THE SAME BREATH.** It reported "10
+independent expert ballots" and "a 10-expert Delphi calibration". `scripts/occurrence_moe.py:31`
+says otherwise, in its own comment, and had said so all along:
+
+> `effective_n stays small: 10 personas are ONE correlated LLM, not 10 samples`
+
+The ten "legends" are LLM personas. The author knew and applied a correlation discount; the
+session quoting them did not. So: **the values are agent output, not testimony.** What survives
+is narrower and is enough — the row is the deterministic, documented, reproducible output of a
+process that demonstrably zeroes its neighbours, and *the policy* it follows (`floor: 1`, no
+removals, per-frame-0 only for genuine unavailability) is labelled `owner policy` in code and
+was decided by a human. The argument against overwriting it is not "do not contradict experts";
+it is **do not replace one model's auditable output with another model's ad-hoc regex.**
+
+`calibration_overrides.json` carries the same shape: `meta.source` claims "2 black-belt reviewers
++ adjudicator per batch" and all 10 rows carry `reviewer: "review-sweep-2r-adjudicated"`. Treat as
+LLM adjudication, as with `position_type_reviewed.json`.
+
+**THE NAME REGEX WAS REFUTED IN ADVANCE, BY THE DATA'S OWN AUTHORS.** On
+`collar-sleeve-guard__bottom`:
+
+> Move-name/mechanism mismatch on 'Collar Sleeve to De La Riva': labeled collar-sleeve but ruled
+> available no-gi as a positional transition. Consumers keying availability off the move name
+> (collar/lapel substring) would wrongly zero it — flag for the apply step.
+
+A `collar|lapel|sleeve|spider|lasso|worm` sweep matches 125 transition rows and finds 70 with a
+nonzero no-gi weight — **and flags `Rear Naked Choke from Invisible Collar` at `nogi 37`**, the
+canonical no-gi choke, because the *position* name contains "Collar". That 70 is not a defect
+count and must not be quoted as one. The app ships this same heuristic as `giAllows`'s fallback
+(`neural/src/app.src.jsx`), where it fires on 4 of 1467 wire nodes (0.3%) — only when `cal.avail`
+is absent.
+
+**WHAT THE CLASS ACTUALLY IS, derived from the corpus instead of from names**
+(`npm run validate:occurrence`):
+
+- **1** role-frame where the calibration zeroes a whole frame and content still carries a 100-sum
+  distribution: `lapel-guard__bottom`. This is CORRECT per policy — `occurrence_moe.py:198-214`
+  mirrors a collapsed frame deliberately, because `validate_graph_integrity.py` errors on any
+  frame not summing to 100. Its own flag reads *"the engine must never route a no-gi session into
+  this node."*
+- **12** outcome cells that do exactly that routing (`De La Riva to Lapel Guard` at `nogi 58`,
+  `Lapel Guard to Piranha Guard` at `nogi 30`, …). **An earlier figure of 78 was name-derived and
+  is withdrawn — it is 12.**
+- **19 Tier A / 12 Tier B** role-frames whose own `prerequisites` state a garment requirement
+  while the no-gi frame is populated. A TRIAGE LIST, not a defect list: Tier A knowingly includes
+  `closed-guard__top`, whose prerequisite reads *"hips, biceps, collar, or lapels"*.
+- **0 of 1394** `success_rate` cells and **0 of 4160** outcome-probability cells diverge between
+  frames. Only `attempt_probability` was ever calibrated per-ruleset, so the "58% gi-only choke"
+  figure is one scalar duplicated into both frames on every technique in the corpus.
+
+**A WRONG JOIN PRINTING PLAUSIBLE INTEGERS, CAUGHT BY THE SCRIPT WRITTEN TO CATCH IT.** The first
+cut of `validate_occurrence_surface.py` joined calibration containers to content by position
+SLUG. Two containers — `crackhead-control__{top,bottom}` — still name
+`content/Positions/Crackhead Control.json`, moved under `Rubber Guard/` since the calibration ran
+and already covered by `rubber-guardcrackhead-control__*`. The slug join silently routed the
+stale pair onto the live file, found a partial move list, renormalized it, and reported
+`renorm=47` against `content=22`: **no exception, no blank, 14 unexplained cells where the truth
+is 7.** Join on the path, and NAME what fails to resolve — the report now prints the 2
+unresolvable containers and the 6 reserved ones, so 266 + 6 + 2 = 274 accounts for every one.
+
+**THE TEST THAT PROVED NOTHING, ALSO CAUGHT IN PASSING.** `tests/occurrence_gate.test.mjs`
+asserts the reporter reads the authored requirement rather than the name, using two positions
+with identical cloth-sounding names and different prerequisites. Its first fixture named them
+"Collar Guard A/B" — which the requirement regex never matches *as a name* — so a mutant that
+deliberately turned the script into a name matcher **survived**. Renaming the fixture to "Lapel
+Guard A/B" (a substring both the panel warning and the app's own fallback regex fire on) kills
+it. A fixture that cannot trigger the failure it forbids is a decoration.
+
+**Gates:** `validate:occurrence` is REPORTING-ONLY and exits 0 whatever it finds — whether any of
+these sections is a defect class is the owner's call, and the script exists to size them before
+that call. Its `--gate` flag is deliberately wired into no workflow. Zero coverage is fatal in
+every mode. `validate:graph` unchanged at 0 errors; no content value was touched.
+
+**NOT DONE, deliberately:** the 2.4 availability layer. The blocker is the validator, not the
+data — a frame declared unavailable must be permitted to sum to 0 before an honest zero can be
+written, and `_ruleset.py` already documents `null` as "this edge does not exist in that ruleset"
+across all 8 schemas while the corpus uses it **0 times**. Estimated 2-4 sessions, and step 4
+(the app deals unfiltered today — `giAllows`'s only caller is `buildExplorer`) is a user-visible
+behaviour change and the owner's call.

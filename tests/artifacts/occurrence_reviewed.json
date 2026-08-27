@@ -1,0 +1,10 @@
+{
+ "note": "Adjudication ledger for validate_occurrence_surface.py SECTION 4 (requirement contradictions). A row here is REMOVED from the triage list. `decided_by` is REQUIRED and is the point of this file: `position_type_reviewed.json` was read as black-belt evidence for months when 91 of its 93 rulings were LLM adjudication wearing a human label, and the session that first cited it that way has retracted the claim. So this file never says 'reviewed' -- it says WHO. `owner_decision` means a human decided; `llm-adjudication` means a model did, and carries no more weight than the value it is adjudicating. The script prints the two counts separately and never merges them.",
+ "schema": {
+  "verdict": "gi-dependent | not-gi-dependent | needs-grappling-judgement",
+  "decided_by": "owner_decision | llm-adjudication",
+  "decided_on": "YYYY-MM-DD",
+  "evidence": "why -- quote the authored prerequisite or the mechanism, never the technique name"
+ },
+ "reviewed": {}
+}

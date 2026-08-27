@@ -23,6 +23,7 @@
     "validate:flow": "python3 scripts/solve_flow.py --gate",
     "validate:curriculum": "python3 scripts/validate_curriculum.py",
     "validate:mc": "python3 scripts/audit_mc_viability.py --gate",
+    "validate:occurrence": "python3 scripts/validate_occurrence_surface.py",
     "audit:from-position": "python3 scripts/audit_from_position.py",
     "fix:from-position": "python3 scripts/fix_from_position.py",
     "regenerate:issues": "./scripts/regenerate_list_of_content_files_to_fix.sh",
