@@ -1844,12 +1844,40 @@ class Component extends DCLogic {
   playedRole(node) {
     if (!node || node.ty !== "positions") return null;
     if (this.currentPos != null && node.idx === this.currentPos && this.playerRole) return this.roleLabel();
+    // ...and for any OTHER node, the member's own stamped side, which `_deriveDualPairs` has put
+    // there since v1.125.0. The title regex below could never supply it: all 136 collapsed hub
+    // titles end "… Top" (this file says so again at the dossier headline), and the partner member
+    // carries `t: h.t` — the hub's own title — so BOTH halves of every pair matched "Top" and the
+    // bottom orb was described by the top deck. Measured on the shipped wire: all 136 `<pos>|Bottom`
+    // decks were emitted and then mintable by nothing outside a live roll.
+    if (node.role === "top" || node.role === "bottom") return node.role[0].toUpperCase() + node.role.slice(1);
     const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
     return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : this.roleLabel();
   }
+  /**
+   * THE SIDE IS ON THE NODE. This returned the constant "Attacker" for every technique — the same
+   * shape `playedRole` was written to fix one line up, where a title-derived side was the constant
+   * "Top". `_deriveDualPairs` stamps `role: "attacker" | "defender"` on BOTH members of every pair
+   * as it builds them, and `techniqueOrigin(n, perspective)` has read that field all along — it
+   * flips the seat you are sat on when the perspective is the defender. So the app already knows
+   * which half of the exchange a technique node is; only the deck key refused to ask.
+   *
+   * The cost of not asking: 1,326 `<name>|Defender` decks — 6,403 cards, 29.2% of the whole
+   * corpus — are EMITTED and then addressable by nothing that goes through `deckKeyFor`. The one
+   * exception is `defendKeyFor`, which the panic drill uses, and that reaches only the 297
+   * submission Defender decks; the 1,029 transition ones (4,880 cards) reach no surface at all.
+   *
+   * IDENTITY WHERE THERE IS NO PAIR. `?dual=legacy` skips `_deriveDualPairs` entirely, so `role`
+   * is undefined and this returns "Attacker" exactly as before. On the paired graph the dealt hand
+   * is unchanged too: `_deriveDualPairs` hands the attempt edge to the PERFORMER side, so every
+   * option `optionsFor` deals is the rep (attacker) member. Only a node the user pointed at from
+   * the defender orb changes, which is the case this exists for.
+   *
+   * Pinned by e2e/journeys/seat-decks.spec.ts, as a property over all 1,331 technique sites.
+   */
   deckRole(node) {
     if (node.ty === "positions") return this.playedRole(node);
-    return "Attacker"; // you drilling a move = learning to execute it
+    return node.role === "defender" ? "Defender" : "Attacker";
   }
   deckKeyFor(node) {
     const cat = this.deckCat(node), role = this.deckRole(node);
