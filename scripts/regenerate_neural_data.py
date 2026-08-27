@@ -727,10 +727,44 @@ def build_flashcards(graph: dict) -> dict:
     """Drill decks keyed '<Name>|<Role>'. Position decks are BLENDED — mostly the node's own
     role cards + ~20% higher-tier (position-level + family-level) cards from flashcardTiers — so a
     single deck teaches the specific state and seasons in the general position/family concepts.
-    Transitions/submissions keep their own attacker/defender cards (no position tiers apply)."""
+    Transitions/submissions keep their own attacker/defender cards (no position tiers apply).
+
+    THE KEY HAS NO SECTION TERM, AND 19 TECHNIQUES EXIST IN TWO SECTIONS. `decks` is one flat dict
+    across positions/transitions/submissions, so `<Name>|<Role>` collides whenever the same display
+    name is authored as BOTH a transition and a submission — and submissions iterate last, so the
+    transition's deck is silently overwritten. Measured on this graph: 10 keys collide and 90 cards
+    are dropped, every one of them from the transitions side.
+
+    IT IS NOT FIXABLE HERE. Section-qualifying the key would strand the app, whose `deckKeyFor`
+    builds `node.t + "|" + role` with no section term either and so could never address the new key.
+    The real defect is upstream and is worse than a lost deck: all 10 of those role-node pairs carry
+    DIFFERENT STATE MACHINES under one id — `arm-triangle-from-turtle/attacker` reaches `game-over`
+    as a submission and lands in `side-control/top` as a transition. `validate:graph` reports 0
+    errors on that. Resolving it means renaming one of each pair in `content/`, which is a content
+    call, not an emitter one.
+
+    So this join does what the `cal` join (:266) and the EDGE join (:571) already do, and what this
+    one alone never did: it COUNTS ITSELF and prints, so the loss can never be silent again, and it
+    hard-fails on any collision not in the enumerated baseline below. Per CLAUDE.md section 6.7 the
+    baseline names what it tolerates rather than carrying an aggregate count, and it lives where the
+    RUNNER reads it."""
+    # The 10 collisions that exist today, by name. A new one fails the build; removing one from
+    # content should remove it from here in the same commit. Shrinking this list always passes.
+    KNOWN_DECK_KEY_COLLISIONS = frozenset({
+        "Arm Triangle from Turtle|Attacker", "Arm Triangle from Turtle|Defender",
+        "Armbar from Crucifix|Attacker", "Armbar from Crucifix|Defender",
+        "Electric Chair from Electric Chair|Attacker", "Electric Chair from Electric Chair|Defender",
+        "Kimura from Half Guard|Attacker", "Kimura from Half Guard|Defender",
+        "Toe Hold from Estima Lock|Attacker", "Toe Hold from Estima Lock|Defender",
+    })
     decks = {}
+    _owner = {}          # deck key -> (section, node id) that currently holds it
+    _collided = {}       # deck key -> [(section, node id, n_cards) it displaced]
     for section in ("positions", "transitions", "submissions"):
-        for node in graph.get(section, {}).values():
+        # .items(), not .values(): the graph id is the DICT KEY and is absent from the value, so a
+        # collision report built from the value could only name the display name — which is the one
+        # thing both sides of a collision share, and therefore useless for finding either of them.
+        for nid, node in graph.get(section, {}).items():
             role = node.get("role")
             name = node.get("name")
             if not role or role in ("hub", "terminal") or not name:
@@ -749,7 +783,37 @@ def build_flashcards(graph: dict) -> dict:
                 cards = _qa_cards(node.get("flashcards"))
             if not cards:
                 continue
-            decks[f"{base}|{role.capitalize()}"] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
+            key = f"{base}|{role.capitalize()}"
+            if key in decks:
+                prev_sec, prev_id, prev_n = _owner[key]
+                _collided.setdefault(key, []).append((prev_sec, prev_id, prev_n))
+            _owner[key] = (section, nid, len(cards))
+            decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
+
+    # POSITIVE COVERAGE, PRINTED EVERY RUN — never let "found no problems" and "never looked"
+    # produce the same output (CLAUDE.md section 6.6).
+    _pairs = len(decks) + sum(len(v) for v in _collided.values())
+    _lost = sum(n for v in _collided.values() for _, _, n in v)
+    print(f"  flashcard join: {_pairs} keyed (section, node) pairs -> {len(decks)} decks emitted"
+          + (f"; {len(_collided)} key(s) collided, {_lost} card(s) displaced" if _collided else "; no collisions"))
+    for _k, _v in sorted(_collided.items()):
+        _kept_sec, _kept_id, _kept_n = _owner[_k]
+        for _sec, _id, _n in _v:
+            print(f"    collision {_k!r}: kept {_kept_sec}:{_kept_id} ({_kept_n} cards), "
+                  f"dropped {_sec}:{_id} ({_n} cards)")
+    _new = sorted(set(_collided) - KNOWN_DECK_KEY_COLLISIONS)
+    if _new:
+        raise SystemExit(
+            f"[neural] flashcard join: {len(_new)} NEW deck-key collision(s) not in the baseline: "
+            f"{_new[:5]}. One display name is authored in two sections, so one deck is silently "
+            f"overwritten and its cards never ship. Rename one side in content/, or add it to "
+            f"KNOWN_DECK_KEY_COLLISIONS with the reason. Refusing to emit a wire that quietly "
+            f"loses authored cards."
+        )
+    _gone = sorted(KNOWN_DECK_KEY_COLLISIONS - set(_collided))
+    if _gone:
+        print(f"  flashcard join: {len(_gone)} baselined collision(s) are FIXED — remove from "
+              f"KNOWN_DECK_KEY_COLLISIONS: {_gone}")
     return decks
 
 
