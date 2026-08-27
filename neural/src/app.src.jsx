@@ -1584,6 +1584,23 @@ class Component extends DCLogic {
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
   richContentFor(n) {
+    // A POSITION HAS NO RICH CONTENT, AND ASKING COST EVERY VISITOR A 404 (CLAUDE.md §6.2).
+    // This hashed `n.t` for every node type. Technique dossiers ARE keyed by the bare title, so
+    // those hit; position dossiers are keyed "<Family>|<Role>" — and all 136 position hub titles
+    // end "… Top" as an artifact of the visual collapse, so `qhash("Gogoplata Control Top")`
+    // (9395f3c1) named a chunk that does not exist while the real one is `qhash("Gogoplata
+    // Control|Top")` (2bcdc86d). Measured: 136 of 136 position nodes missed, 0 of 1,331 technique
+    // nodes did. `_ngc` FETCHES on a miss, so the first landing of every session pulled a 404 —
+    // 27,788 B decoded / ~5,708 B on the wire, served `no-store` so the browser cache never
+    // suppressed the repeat, and it sits on the critical path before the first hand.
+    //
+    // AND THE FETCH COULD NEVER HAVE PAID OFF. This returns non-null only when the dossier carries
+    // `perspectives`, and NO position dossier does — 0 of 272, against 1,326 of 1,326 technique
+    // dossiers (counted over all 1,598 entries in static/neural/content/). Fixing the KEY instead
+    // would have been worse: it would fetch a real 3.7 KB chunk and still return null here.
+    // So the honest fix is to stop asking. Two other callers (:1606, :10226) already spell the
+    // position key correctly for their own purposes and warm the cache themselves.
+    if (!n || n.ty === "positions") return null;
     const rc = this._ngc(n.t);
     return (rc && rc.perspectives) ? rc : null;
   }
