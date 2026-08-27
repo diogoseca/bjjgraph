@@ -2652,6 +2652,32 @@ class Component extends DCLogic {
     const k = this.deckKeyFor(n); if (k && k.key) this.hydrateDeck(k.key);
   }
   /**
+   * WARM THE DEFENDER DECK BEFORE THE PANIC DRILL ASKS FOR IT.
+   *
+   * `enterDefense` chooses `_panicKey` with `_deckHasCards(dk)`, and that reader is STUB-NEGATIVE
+   * by design — a manifest stub carries `n` but no `cards`, so an unhydrated deck reads as "no
+   * cards" (the JIT drill relies on exactly that, see :4006). Nothing ever hydrated `dk`, so the
+   * test could only ever be false and the drill fell through to your POSITION deck every single
+   * time. The site's own comment says it credits the authored Defender deck "when it exists" —
+   * "when it exists" was never once true, for any of the 1,326 Defender decks.
+   *
+   * WHY HERE AND NOT IN `enterDefense`: `_panicKey` feeds `escapeChance` via
+   * `stateBonus(this._panicKey)`, so re-pointing it after an async hydrate would move the odds
+   * UNDER a decision the player is already making — the same law that forbids re-sorting the
+   * option tray mid-decision. Both callers announce the attack and then travel before the drill
+   * opens (a `startTravel` plus `after(0.3, …)` on the opponent-finish path), which is the window
+   * this fetch belongs in. By the time `enterDefense` runs the chunk has landed, `_deckHasCards`
+   * answers honestly, and the choice is made once, with the odds it will keep.
+   *
+   * Idempotent and coalesced: `hydrateDeck` dedupes through `_deckWaits`, so calling it on a deck
+   * already resident (or already in flight) costs nothing.
+   */
+  _prefetchDefendDeck(idx) {
+    const n = this.nodes && this.nodes[idx]; if (!n) return;
+    const k = this.defendKeyFor(n);
+    if (k && this.flashcards && this.flashcards.decks && this.flashcards.decks[k]) this.hydrateDeck(k);
+  }
+  /**
    * ONE definition of mastery, resident or not.
    *
    * `this.stage[key]` is keyed by question HASH, so a content pass that rewords a card leaves a
@@ -11841,6 +11867,7 @@ class Component extends DCLogic {
       // highlighted in the hand (the "Finish it" affordance, _highlightStagedCard).
       if (this._stagedTech && this._stagedTech.side === "defender" && this.nodes[this._stagedTech.idx]) {
         const st = this._stagedTech; this._stagedTech = null;
+        this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
         this.setPaused(false);
         this.enterDefense(st.idx);
       }
@@ -13223,6 +13250,7 @@ class Component extends DCLogic {
       // "Defending", not "Attacking": the verb is YOURS, and the opponent is the one attacking.
       // This branch and the positional one below disagreed with each other.
       this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 110, b: 110 } };
+      this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def)));
       return;
     }
