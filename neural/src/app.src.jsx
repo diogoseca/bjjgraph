@@ -11325,12 +11325,45 @@ class Component extends DCLogic {
   // shared defense math: one seam for the escape cards, the live re-render, and the resolve.
   // dmod credits whichever deck the panic drill drills (authored Defender deck when it exists,
   // else your position deck) — so grading under fire visibly moves EVERY escape's number.
+  /**
+   * THE BASE IS THE SUBMISSION'S OWN RATE, SEEN FROM THE OTHER SEAT.
+   *
+   * This was a flat `0.4` and called neither `calSuccess` nor `success_rate` nor `outcomes`, while
+   * `moveChance` — the ATTACKING half of the very same exchange — has read `calSuccess(act)` as its
+   * base since v1.115.0. So all 49 distinct authored submission rates, spanning 10% to 90%, were
+   * invisible from the trapped seat: being caught in a 90% rear naked choke and a 10% calf slicer
+   * gave you identical base odds.
+   *
+   * DIRECTION, argued rather than assumed. `success_rate` is the ATTACKER's chance of finishing.
+   * This is one exchange seen from two seats, so the defender's base is its COMPLEMENT — a higher
+   * authored finish rate must LOWER the escape, never raise it. Using it unflipped would make both
+   * seats better off on the same number, which is the one direction that cannot be right.
+   *
+   * The old constant is not discarded, it is explained: `1 - 0.6 = 0.4`, so the flat value was
+   * always the complement of a 60%-finish submission — it just applied that one number to all 297.
+   * The complement is therefore exactly anchored at today's behaviour for a 60% sub and only
+   * spreads around it. Measured on the shipped wire: rates run 0.10-0.74 (median 0.54), so the
+   * base now runs 0.26-0.90 (median 0.46) where it was 0.40 for everything. Median escapes get
+   * ~6pp easier because the corpus median submission is 54%, not the 60% the constant assumed;
+   * 90 of 297 move by more than 10pp. Everything downstream — the dominance delta, the drill
+   * bonus, momentum, aiSkill and both clamps — is unchanged.
+   *
+   * MISSING RATE: `calSuccess` returns null for an unjoined node, and today that is 0 of 297 on
+   * the wire. It still cannot be allowed to be silent — a fallback that produces a plausible
+   * number and never says it fired is this repo's most expensive defect class (§6.6). The old
+   * constant stays as the fallback, and `enterDefense` emits `defend_rate_missing` once per catch
+   * when it fires. The beat is emitted THERE, not here: this function runs once per escape card
+   * and again for every card on each live re-render (`refreshEscapeOdds`), so a beat in here would
+   * flood the stream that carries challenge evidence.
+   */
   escapeChance(opt) {
     const sub = this._defendSub != null ? this.nodes[this._defendSub] : null;
     if (!sub || !opt || !opt.node) return 0;
+    const cal = this.calSuccess(sub);
+    const base = (cal != null) ? (1 - cal) : 0.4;
     const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
     // momentum is morale — it helps you defend just as it helps you attack
-    return Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
+    return Math.max(0.08, Math.min(0.92, base + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
   }
   escapeOddsSnapshot() {
     const list = this._optList;
@@ -13170,6 +13203,10 @@ class Component extends DCLogic {
     this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
+    // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
+    // carries no calibrated rate. 0 of 297 wire submissions do today, which is exactly why the day
+    // one does must not look like an ordinary catch.
+    if (this.calSuccess(sub) == null) this.fx("defend_rate_missing", { submission: sub.t });
     const dk = this.defendKeyFor(sub);
     this._panicKey = this._deckHasCards(dk) ? dk : (this._deckHasCards(this._posKey) ? this._posKey : null);
     this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
