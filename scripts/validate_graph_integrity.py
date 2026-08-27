@@ -1266,6 +1266,54 @@ def main():
                 ),
             })
 
+    # ── ONE NAME, ONE SECTION (error) ──────────────────────────────────────────────────────────
+    # A technique's graph id is slugify(<name>) minted PER SECTION, so the id namespace is not
+    # global: the same display name authored in both content/Transitions/ and content/Submissions/
+    # produces the SAME id in two sections. Everything that resolves by section survives that;
+    # scripts/regenerate_neural_data.py's flashcard join does not — it keys one flat dict and the
+    # second write silently wins, dropping 10 decks / 90 cards. Worse, the two copies are two
+    # independent authorings: measured, all 10 role-node pairs carry DIFFERENT outcomes, and the
+    # submissions copy reaches `game-over` while the transitions copy does not. Nothing reported it.
+    #
+    # TWO SHAPES ARE LEGITIMATE AND ARE NOT FLAGGED:
+    #   · a POSITION and a technique sharing a name (Knee on Belly is both a state and the move
+    #     into it) — different sections, different kinds, no join collides on it;
+    #   · a transition ENTRY plus a submission FAMILY HUB of the same name (Anaconda Choke: the
+    #     transition enters Anaconda Control, the `is_family` submission is an edgeless flashcard
+    #     aggregator with no outcomes). That pair is the documented content pattern.
+    #
+    # What is flagged is the third shape: the same move authored TWICE, both non-family. Those
+    # five are enumerated so a new one fails immediately rather than joining an aggregate count
+    # (CLAUDE.md §6.7 — a baseline names what it tolerates). Shrinking this set always passes;
+    # emptying it should delete the set and this comment's last paragraph.
+    KNOWN_DUAL_AUTHORED = {
+        "Arm Triangle from Turtle", "Armbar from Crucifix",
+        "Electric Chair from Electric Chair", "Kimura from Half Guard",
+        "Toe Hold from Estima Lock",
+    }
+    _dual = sorted((transition_file_names & submission_file_names) - family_hub_names)
+    print(f"  cross-section name check: {len(transition_file_names)} transitions x "
+          f"{len(submission_file_names)} submissions -> {len(_dual)} authored in BOTH as non-family"
+          + (f" ({len(set(_dual) - KNOWN_DUAL_AUTHORED)} unbaselined)" if _dual else ""))
+    for name in _dual:
+        if name in KNOWN_DUAL_AUTHORED:
+            continue
+        all_issues.append({
+            "type": "dual_authored_technique",
+            "severity": "error",
+            "name": name,
+            "file": transition_index.get(name, ""),
+            "message": (
+                f"'{name}' is authored as BOTH a transition ({transition_index.get(name)}) and a "
+                f"non-family submission ({submission_index.get(name)}). One id, two state machines: "
+                f"the flashcard join keys them identically and silently drops one deck. Keep one "
+                f"file, or rename one (a grip ENTRY and its FINISH are different moves and deserve "
+                f"different names)."
+            ),
+        })
+    for name in sorted(KNOWN_DUAL_AUTHORED - set(_dual)):
+        print(f"  cross-section name check: '{name}' is FIXED — remove it from KNOWN_DUAL_AUTHORED")
+
     # Probability sum errors (error)
     for e in prob_errors:
         all_issues.append({
