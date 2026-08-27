@@ -1466,6 +1466,48 @@ class Component extends DCLogic {
     this.playerRole = performerIsYou ? pr : (pr === "top" ? "bottom" : "top");
   }
   roleLabel() { return this.playerRole === "bottom" ? "Bottom" : "Top"; }
+  /**
+   * THE SEAT WORD — the one vocabulary for "which half of a pair is this", and the ONLY place it
+   * is spelled. Moved here from the canvas pair label in v1.129.4, which was its only caller until
+   * the drill header needed the same answer; CLAUDE.md §6.5 — when one question is answered in two
+   * places, one of them is already wrong, and the drill header's copy WAS wrong (see renderDrill).
+   *
+   * Owner: "wrt submission escaping/finishing — implement escaping/finishing roles". Right, and it
+   * is a BJJ point rather than a copy preference: you do not "attempt" a submission you are already
+   * holding, you FINISH it — and the other half is not "defending" in the positional sense, they
+   * are ESCAPING. A transition is the case where attempting/defending is the honest pair, because
+   * the move may simply not come off.
+   *
+   *   positions    TOP / BOTTOM
+   *   submissions  FINISHING / ESCAPING
+   *   transitions  ATTEMPTING / DEFENDING
+   *
+   * "ATTEMPTING", not "ATTACKING", remains the owner's word for transitions, and it keeps this
+   * clear of `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not
+   * start sharing vocabulary with a label about which half of a pair you are on.
+   *
+   * @param kind    a node `ty` ("positions"/"submissions"/"transitions") OR a deck `cat`
+   *                ("Position"/"Submission"/"Transition"). Both spellings reach this function from
+   *                live callers, so it normalises rather than making each caller translate.
+   *                `cat` can also be "Defense" — buildDrillPanel's deckKeyOverride branch stamps
+   *                that instead of the node's real category, which loses the submission/transition
+   *                distinction and therefore reads DEFENDING where a submission wants ESCAPING.
+   *                That is the override's defect, not this one's; fixing it belongs with the
+   *                Defender-deck work.
+   * @param primary true for the upper member of a drawn pair, and for the "Top"/"Attacker" half of
+   *                a deck key. Exactly the same axis, named once.
+   *
+   * Pinned by e2e/journeys/dual-pair.spec.ts (its WORDS table keys these by `ty`), so the strings
+   * are load-bearing — change one and that spec goes red, which is the point.
+   */
+  seatWord(kind, primary) {
+    const k = String(kind || "").toLowerCase();
+    return k.indexOf("position") === 0 ? (primary ? "TOP" : "BOTTOM")
+      : k.indexOf("submission") === 0 ? (primary ? "FINISHING" : "ESCAPING")
+      : (primary ? "ATTEMPTING" : "DEFENDING");
+  }
+  /** True for the "Top"/"Attacker" half of a deck key — the `primary` side seatWord() asks about. */
+  seatIsPrimary(role) { const r = String(role || "").toLowerCase(); return r === "top" || r === "attacker"; }
   advLabel(d) {
     if (d >= 0.55) return "Dominant";
     if (d >= 0.18) return "Winning";
@@ -2144,7 +2186,10 @@ class Component extends DCLogic {
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
         '<span class="ngBack" data-pane-back="1" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap;height:30px;padding:0 13px 0 10px;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>Back</span>' +
       '</div>' +
-      (role ? '<div style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:' + (roleColor || "#9fb0d8") + ';margin-bottom:5px;">' + role + '</div>' : '') +
+      // `data-drill-role` is a marker this file OWNS, so a spec can assert the kicker exists
+      // EXACTLY ONCE and read it without matching on a style or a word another element could carry
+      // (CLAUDE.md §6.7). It is the only handle on this element; nothing else queries it.
+      (role ? '<div data-drill-role="1" style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:' + (roleColor || "#9fb0d8") + ';margin-bottom:5px;">' + role + '</div>' : '') +
       '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;">' +
         '<div style="font-size:19px;font-weight:700;color:#eef1f6;line-height:1.14;letter-spacing:-.01em;text-wrap:balance;">' + title + '</div>' +
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
@@ -8823,7 +8868,15 @@ class Component extends DCLogic {
     const renderResults = () => {
       const q = (this._searchQ || "").toLowerCase().trim();
       results.innerHTML = "";
-      let matches = q ? this.nodes.filter((n) => n.t.toLowerCase().includes(q)) : this.nodes.slice(0, 80);
+      // FILTER TO `rep`, or every hit doubles. `_deriveDualPairs` gives both members of a pair the
+      // hub's own title (`t: h.t`, :862), so a title match resolves to the site TWICE and the 100-cap
+      // below then shows 50 sites. The Explore pane's search (:6015) has always filtered; this one
+      // never did, so the modal listed 202 rows for "mount" where the rep set is 101. Same rule for
+      // the empty-query branch: `slice(0, 80)` over an interleaved [rep, partner, rep, …] node list
+      // is 40 sites shown twice, not 80 results. (CLAUDE.md §6.6 — one question answered in two
+      // places; the pane's spelling is the correct one.)
+      const repd = this.nodes.filter((n) => n.rep);
+      let matches = q ? repd.filter((n) => n.t.toLowerCase().includes(q)) : repd.slice(0, 80);
       matches = matches.slice(0, 100);
       if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
       for (const n of matches) {
@@ -9373,7 +9426,16 @@ class Component extends DCLogic {
     this.deck = deck; this._deckInfo = info; // persist for keyboard/swipe nav helpers
     const catCol = { Position: "#c9d2e3", Transition: "#9fb0d8", Submission: "#d99", }[info.cat] || "#c9d2e3";
     const bonus = Math.round(this.stateBonus(info.key) * 100);
-    this.setDrillHeader(info.fam, "Recall to sharpen your odds", bonus > 0 ? "+" + bonus + "%" : "", this.roleLabel(), catCol);
+    // THE DECK'S SEAT, NOT THE ROLL'S. This passed `this.roleLabel()` — which is
+    // `playerRole`, i.e. which side YOU are on in the roll currently in play — where the deck's own
+    // role belongs. On a position deck the two usually agree, so it looked right; on a TECHNIQUE
+    // deck the axes are not even the same one (Attacker/Defender, not Top/Bottom), and 2,652 of the
+    // 2,924 shipped decks are technique decks, so the header printed the wrong role on 90.7% of
+    // them — a `<name>|Defender` deck opened from the panic drill could read "TOP". Worse, with no
+    // roll in play `roleLabel()` falls to the constant "Top", so the header was a constant dressed
+    // as a measurement (CLAUDE.md §6.6). `info.role` comes from the deck key itself (_entryForKey)
+    // and is the only thing here that knows which half of the exchange these cards are about.
+    this.setDrillHeader(info.fam, "Recall to sharpen your odds", bonus > 0 ? "+" + bonus + "%" : "", this.seatWord(info.cat, this.seatIsPrimary(info.role)), catCol);
     this.updateDrillCount();
     list.innerHTML = "";
 
@@ -14349,29 +14411,14 @@ class Component extends DCLogic {
         const gMaxW = Math.max(60, W - ox - 12);
         const above = act.z > 0;
         // ── THE ROLE WORD IS THE ONE THE CATEGORY ACTUALLY USES (v1.129.4) ──────────────────
-        // Owner: "wrt submission escaping/finishing — implement escaping/finishing roles". Right,
-        // and it is a BJJ point rather than a copy preference: you do not "attempt" a submission
-        // you are already holding, you FINISH it — and the other half is not "defending" in the
-        // positional sense, they are ESCAPING. A transition is the case where attempting/defending
-        // is the honest pair, because the move may simply not come off.
-        //
-        //   positions    TOP / BOTTOM
-        //   submissions  FINISHING / ESCAPING
-        //   transitions  ATTEMPTING / DEFENDING
-        //
-        // "ATTEMPTING", not "ATTACKING", remains the owner's word for transitions, and it keeps
-        // this clear of `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and
-        // must not start sharing vocabulary with a label about which half of a pair you are on.
+        // The vocabulary itself now lives in seatWord() — it had a second caller (the drill
+        // header), and a copied ternary is how the two drift. Read it there.
         //
         // THIS IS THE ROLE LINE, and it is a different object from the `from <position>` line
         // beneath the name: that one DISAMBIGUATES a shared short name (35 techniques are called
         // "Kimura"), this one says which side of the exchange you are pointing at. They sit on
         // opposite sides of the name for exactly that reason and must never be conflated.
-        const sub = n.ty === "positions"
-          ? (above ? "TOP" : "BOTTOM")
-          : n.ty === "submissions"
-            ? (above ? "FINISHING" : "ESCAPING")
-            : (above ? "ATTEMPTING" : "DEFENDING");
+        const sub = this.seatWord(n.ty, above);
         const subCol = act.idx === this.focusIdx
           ? this.myColor(act)
           : (act.z < 0 && act.colU ? act.colU : act.col);
