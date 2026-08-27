@@ -326,6 +326,9 @@
           "description": "Position overview from bottom perspective (400+ words minimum)",
           "minLength": 400
         },
+        "flashcards": {
+          "$ref": "#/$defs/flashcards"
+        },
         "state_properties": {
           "type": "object",
           "required": [
@@ -747,6 +750,9 @@
           "type": "string",
           "description": "Position overview from top perspective (400+ words minimum)",
           "minLength": 400
+        },
+        "flashcards": {
+          "$ref": "#/$defs/flashcards"
         },
         "state_properties": {
           "type": "object",
@@ -1212,6 +1218,60 @@
           "type": "string",
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
           "description": "Provenance: video publish date. Filled by a future yt-dlp enrichment pass (residential IP; per-video fetches are bot-checked from datacenter IPs). When present, emitted as VideoObject.uploadDate in generated markdown."
+        }
+      }
+    },
+    "flashcards": {
+      "type": "array",
+      "description": "6-8 Q&A pairs authored FOR THIS SEAT. Distinct from the role-agnostic flashcards_position / flashcards_family tiers at the file root: those are true of the position for BOTH players, these are true only of this side of it. A seat with none of these does not get an empty deck — regenerate_neural_data.py's _blend_deck falls back to the role-agnostic tiers, so BOTH seats receive the identical deck and a bottom player never meets their own half of the position. OPTIONAL, not required: the 13 family hubs that this field was closed to have no seat cards authored yet, and each one is named in tests/artifacts/seat_deck_baseline.json until it does. Gated by scripts/validate_seat_decks.py (S2).",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about position mechanics, strategy, or technique"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          },
+          "distractors": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+            "properties": {
+              "plausible": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              },
+              "trap": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              }
+            }
+          },
+          "answer_line": {
+            "type": "string",
+            "maxLength": 60,
+            "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
+          }
         }
       }
     }
