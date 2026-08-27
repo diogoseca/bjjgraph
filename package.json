@@ -12,6 +12,7 @@
     "dev:neural:app": "node neural/build/build.mjs && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) — reload the browser'",
     "dev": "npm run build && npm run serve",
     "validate:json": "python3 scripts/validate_json.py --all",
+    "validate:seats": "python3 scripts/validate_seat_decks.py",
     "validate:headers": "python3 scripts/check_headers_cache.py",
     "validate:payload": "python3 scripts/check_payload_budget.py",
     "validate:seo": "python3 scripts/check_seo_parity.py",

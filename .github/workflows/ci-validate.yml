@@ -16,6 +16,7 @@ on:
       - "scripts/**"
       - "graph.json"
       - "tests/artifacts/graph_validation_baseline.json"
+      - "tests/artifacts/seat_deck_baseline.json"
       - "node_ordinals.json"
       # the ordinal gate's INPUT is the layout: a node added there without a mint is exactly what
       # validate:ordinals exists to catch, and the filter used to let that PR through untested.
@@ -76,6 +77,16 @@ jobs:
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
+
+      # The seat axis: a card served to a seat must have been written FOR that seat, and every
+      # seat that ships a deck must own at least one such card. Reads `content/**` and NOTHING
+      # else — deliberately above the payload emit below, because a gate whose corpus is
+      # gitignored does not fail on a fresh checkout, it SKIPS and prints the same clean line it
+      # would print if it had looked (CLAUDE.md §6.6). Its reachability half is S3, in
+      # tests/neural_seat_decks.test.mjs, which does need the emitted wire and therefore runs in
+      # "Pure unit suites" below.
+      - name: Seat-deck invariant (gate)
+        run: npm run validate:seats
 
       # THE CORPUS THE STEPS BELOW READ IS GENERATED, NOT COMMITTED (v1.129.2).
       # `source/quartz/static/neural/` is gitignored in its entirety (.gitignore:71), so
