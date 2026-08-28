@@ -303,12 +303,7 @@ def _perspective_defender(dfn):
 
 def _technique_dossier(d, cat, graph):
     name = d.get("name")
-    # NOT `_tech_node(graph, name, cat)` — yet. Passing `cat` is the fix, and it is a one-word
-    # change, but it MOVES WHAT A READER SEES on 5 dossiers (a different endingPosition and a
-    # different outcome list), so it waits on the same per-key content ruling as the collisions
-    # themselves. If those transitions are renamed or dropped, no name collides and this call
-    # becomes identical either way. build_ng_content COUNTS the gap in the meantime.
-    node = _tech_node(graph, name)
+    node = _tech_node(graph, name, cat)
     succ = None
     outcomes = []
     target = ""
@@ -367,7 +362,7 @@ def build_ng_content(graph) -> dict:
     excluded = {}             # bucket -> file count
     read = 0
     resolved = unresolved = 0
-    cross_section = []         # dossiers resolving to a node from the OTHER section
+    dual_authored = []         # names that still resolve in BOTH sections (a type error)
 
     def _excl(bucket):
         excluded[bucket] = excluded.get(bucket, 0) + 1
@@ -418,14 +413,14 @@ def build_ng_content(graph) -> dict:
                 collisions.append((key, (section, f), owner[key]))
             owner[key] = (section, f)
             decks[key] = _technique_dossier(d, cat, graph)
-            shipped = _tech_node(graph, key)          # what the dossier above actually used
-            correct = _tech_node(graph, key, cat)     # what it would use if it named its section
-            if shipped is None:
+            own = _tech_node(graph, key, cat)          # the node the dossier above used
+            other = _tech_node(graph, key)             # section-blind: transitions before submissions
+            if own is None:
                 unresolved += 1
             else:
                 resolved += 1
-            if shipped is not correct:
-                cross_section.append(key)
+            if own is not other:
+                dual_authored.append(key)
 
     # POSITIVE COVERAGE, PRINTED EVERY RUN (CLAUDE.md section 6.6). `_technique_dossier` falls back
     # to the file's own success_rate when no node resolves — a plausible value that says nothing, so
@@ -434,18 +429,19 @@ def build_ng_content(graph) -> dict:
     print(f"  dossier join: {read} content file(s) -> {len(decks)} dossiers; excluded "
           f"{', '.join(f'{excluded.get(b, 0)} {b}' for b in sorted(excluded)) or 'none'}; "
           f"{len(collisions)} collided; technique nodes resolved {resolved}/{resolved + unresolved}; "
-          f"{len(cross_section)} resolved ACROSS sections")
-    if cross_section:
-        # The measurement that ships while the fix waits. `_tech_node` searches transitions before
-        # submissions, so these dossiers render the OTHER section's node: its endingPosition and its
-        # whole outcome list. The successRate looks right throughout — calibration keys the shared
-        # slug too, so both nodes carry the same number — which is why this went unseen.
-        print(f"    cross-section resolution ({len(cross_section)}): "
-              + ", ".join(repr(k) for k in sorted(cross_section)))
-        for k in sorted(cross_section)[:3]:
-            _s, _c = _tech_node(graph, k), None
-            print(f"      {k!r} renders endingPosition={_s.get('endingPosition')!r}, outcomes -> "
-                  + " / ".join(str(o.get("to")) for o in (_s.get("outcomes") or [])))
+          f"{len(dual_authored)} dual-authored id(s)")
+    if dual_authored:
+        # A TYPE ERROR, and the count of how many are left. A move that reaches the game-over sink
+        # IS a submission; it must not also exist as a transition record. These names resolve in
+        # BOTH sections, so the two records are two state machines under one id. The dossier no
+        # longer mis-renders them — it resolves within its own section now — but the duplicate
+        # records are still there, and this is the number that has to reach zero.
+        print(f"    dual-authored ({len(dual_authored)}): "
+              + ", ".join(repr(k) for k in sorted(dual_authored)))
+        for k in sorted(dual_authored)[:3]:
+            _t = _tech_node(graph, k)
+            print(f"      {k!r} also exists as a transition ending {_t.get('endingPosition')!r} "
+                  f"-> " + " / ".join(str(o.get("to")) for o in (_t.get("outcomes") or [])))
 
     errs = []
     for key, kept, dropped in sorted(collisions):
