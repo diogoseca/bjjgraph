@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.146.1** — [THE HOST STYLESHEET REACHED INTO THE APP'S MODAL](#v1-146-1-the-host-stylesheet-reached-into-the-a)
 - **v1.146.0** — [THE SCORE COULD NOT SEE ITS OWN RULESET](#v1-146-0-the-score-could-not-see-its-own-ruleset)
 - **v1.145.13** — [THE SCORE COVERS THE WHOLE CORPUS](#v1-145-13-the-score-covers-the-whole-corpus)
 - **v1.145.10** — [WHAT THE SCORE CANNOT SEE, SIZED](#v1-145-10-what-the-score-cannot-see-sized)
@@ -372,6 +373,79 @@ tried.**
 Document order is preserved (the authored grouping), rather than re-sorted by version:
 entries cross-reference each other by position, and Index A above already provides the
 newest-first view. Every entry is verbatim below its heading.
+
+
+<a id="v1-145-10-the-host-stylesheet-reached-into-the-a"></a>
+
+## v1.146.1 — THE HOST STYLESHEET REACHED INTO THE APP'S MODAL
+
+> **Status:** Current. Both halves gated by `e2e/journeys/footer-feedback.spec.ts`, each proved
+> by a mutant (see "Mutation" below — the first attempt at a gate killed neither).
+
+**Owner:** "the checkbox is too much to the left ... It's not unclickable, and I can't do anything
+about it. That checkbox is not properly aligned."
+
+The "about: <state>" context checkbox in the feedback modal — reached from **Request a technique**
+and **Report an issue** on the Explore pane's foot. Measured on the shipped build at 1280x860,
+with the modal open on a real dev server (not the harness):
+
+| box | left edge |
+|---|---|
+| checkbox | **418.6** |
+| its own `<label>` | 441 |
+| the textarea and Send it should line up with | 441 |
+| the card's padding edge | 421 |
+
+So the box drew **22.4px left of its own label and 2.4px outside the card**, hanging in the
+card's padding. `elementFromPoint` at its centre still returned the input — which is exactly why
+the owner reported it as misaligned rather than broken.
+
+**Cause: a bare global in a stylesheet the app does not own.** `source/quartz/styles/base.scss`
+carried an unscoped `input[type="checkbox"]` rule — stock Quartz, whose entire purpose is to hang
+a **markdown task-list** checkbox out in the list gutter:
+
+```scss
+margin-inline-start: -1.4rem;   //  -22.4px, exactly the offset measured
+appearance: none;               //  and this makes `accent-color` inert
+```
+
+The Neural app's modal **portals to the app root** (§6.1: the fixed wrap is its own stacking
+context), so it sits *outside* `.page article` — confirmed in the same probe, `cb.closest(".page
+article")` is `null` — and inherited a rule written for a list item it is not in. The app was
+setting `accent-color:#4a6cff` on the input; under `appearance:none` that did nothing, so the box
+also wore `var(--light)` on a dark card.
+
+**The rule's only consumer on this site was the element it broke.** `grep -rl '^\s*[-*] \[[ xX]\]'
+content/` returns **0 files** and the built HTML contains **0** `type="checkbox"` outside the app
+— the site authors no task lists at all.
+
+**Fix, both halves, because either alone is a half-fix:**
+
+1. `base.scss` — scope the rule to `.page article`, beside the `li:has(> input[type="checkbox"])`
+   rules that are its actual siblings. Task lists keep today's look if content ever authors one;
+   everything else gets a native checkbox, and the app's `accent-color` starts working.
+2. `app.src.jsx` — state `margin:0;flex:none` inline on the input. Not tidying: the app is an
+   overlay on a stylesheet it cannot opt out of, and `margin:0` is also what pulls the box the
+   last 4px (the UA default `margin-left`) into the modal's column.
+
+After: checkbox left edge **441**, flush with the textarea and Send; `appearance: auto`;
+`accent-color` live; nothing overflows the card.
+
+**Mutation — the honest part.** The first version of the gate asserted only the geometry, and
+**mutant A (un-scope the base.scss rule) survived it**: an inline `margin` beats a stylesheet
+rule, so the app-side half masked the stylesheet half completely. A geometry assertion can never
+see the difference. The gate therefore also probes the **cascade** with a control element — a
+bare checkbox appended to `document.body`, where the app mounts — and asserts its computed
+`margin-inline-start` is not negative.
+
+| mutant | result |
+|---|---|
+| un-scope `input[type=checkbox]` in the built CSS | **RED** — `-22.4` vs expected `>= 0` |
+| drop `margin:0` from the inline style | **RED** — checkbox left edge `4` off the column vs `<= 1` |
+
+**Not written to CLAUDE.md, deliberately** (§9 admission test): the fact has a code home in three
+places — the comment on the scss rule, the comment at the `innerHTML` site, and the spec header —
+and it now has a gate that names it.
 
 
 <a id="v1-80-0-one-front-end-the-legacy-quartz-page-ui"></a>

@@ -3856,7 +3856,13 @@ class Component extends DCLogic {
     if (node) {
       const ctx = document.createElement("label");
       ctx.style.cssText = "display:flex;align-items:center;gap:7px;font-size:11px;color:#8b97b0;cursor:pointer;";
-      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;"> about: ' + this.splitName(node.t).main;
+      // `margin:0` and `flex:none` are LOAD-BEARING, not tidying: this modal portals to the app
+      // root and inherits the Quartz stylesheet, which styled every checkbox on the page for a
+      // markdown task-list gutter (`margin-inline-start:-1.4rem`) until it was scoped to
+      // `.page article` in base.scss. The app cannot opt out of a host global, so it states its
+      // own box: margin 0 puts the box flush with the textarea and Send above/below it, and
+      // flex:none stops the flex row shrinking it when the state's name is long.
+      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;margin:0;flex:none;"> about: ' + this.splitName(node.t).main;
       ctx.querySelector("input").addEventListener("change", (e) => { ctxOn = e.target.checked; });
       body.appendChild(ctx);
     }
