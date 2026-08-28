@@ -625,10 +625,14 @@ class Component extends DCLogic {
         else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
         // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
         // the question clock is deliberately un-pausable ("that's our test to the user", owner)
-      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
-        e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
-        this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
+      } else if (!typing && /^[a-cA-C]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abc".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+        e.preventDefault(); // A/B/C answer whichever MC block is live — digits stay the option-card openers
+        this._mc.answer("abc".indexOf(e.key.toLowerCase()));
       } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
+        // STILL 1-4, NOT 1-3, AFTER MC DROPPED TO THREE OPTIONS (v1.148.0). preventDefault fires
+        // BEFORE the lookup, so a `4` here is SWALLOWED — mbtns[3] is undefined and nothing is
+        // clicked. Narrowing this to /^[1-3]$/ would let `4` fall through to the /^[1-9]$/
+        // option-card openers below, which is exactly the Q007 hazard their own comment records.
         e.preventDefault();
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
@@ -2832,7 +2836,7 @@ class Component extends DCLogic {
     for (let pass = 0; pass < 6; pass++) {
       this._mcNeed = [];
       this._rngBegin();
-      try { this.mcDistractors(card, deckKey, 3, tag); }
+      try { this.mcDistractors(card, deckKey, this.MC_DISTRACTORS, tag); }   // MUST match _mcBlock's ask (see MC_DISTRACTORS)
       catch (e) { /* the pass ABORTS at the first cold deck (see _mcCold); and a dry pass must
                      never break the surface it is warming */ }
       finally { this._rngRollback(); }
@@ -5230,7 +5234,7 @@ class Component extends DCLogic {
       // landing questions — the in-roll quiz beat
       const lq = document.createElement("div");
       lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
-      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–D</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style="color:#c3cde0;">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.</div></div>';
+      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–C</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style="color:#c3cde0;">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.</div></div>';
       const lqb = document.createElement("button");
       const lqOn = this.get("landQuestions", true);
       lqb.innerHTML = lqOn ? "✓" : "";
@@ -5253,7 +5257,7 @@ class Component extends DCLogic {
       this.buildModifiers(body);
     } else {
       const rows = [
-        ["Answer a multiple-choice question", ["A", "B", "C", "D"]],
+        ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
         ["Flashcards: prev / next card", ["\u2190", "\u2192"]],
@@ -7329,7 +7333,7 @@ class Component extends DCLogic {
         this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
-        e.stopPropagation(); // the editor owns the keyboard: A/B/C/D, digits, and Esc
+        e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
         if (e.key === "Enter") { e.preventDefault(); commit(); }
         else if (e.key === "Escape") { e.preventDefault(); done = true; this.closeListPicker(); }
       });
@@ -7622,7 +7626,7 @@ class Component extends DCLogic {
         };
         inp.addEventListener("input", () => { this._listEditDraft = inp.value; });
         inp.addEventListener("keydown", (e) => {
-          // the editor owns the keyboard: stopPropagation keeps A/B/C/D, digits and —
+          // the editor owns the keyboard: stopPropagation keeps A/B/C, digits and —
           // critically — Escape (the pane's Esc ladder) out of the global handler
           e.stopPropagation();
           if (e.key === "Enter") { e.preventDefault(); finish(true); }
@@ -8520,7 +8524,7 @@ class Component extends DCLogic {
    * Same treatment (inline opacity + pointer-events) the option-detail sheet uses, and
    * _landBackfill already knows to preserve an inline hide across a re-render.
    */
-  /** Is the landing card currently standing down? A–D must not grade a question nobody can see:
+  /** Is the landing card currently standing down? A–C must not grade a question nobody can see:
    *  opening the pane suppresses the card but never nulls `this._mc`, so the keys stayed live
    *  over an invisible surface and a stray keystroke scored a question the player was not being
    *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
@@ -9271,6 +9275,25 @@ class Component extends DCLogic {
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
   // null = this text cannot be an MC option (the card falls back to classic recall).
   get MC_LINE() { return 36; } // one-line option cap; keep in sync with regenerate_neural_data MC_LINE_BUDGET
+  // HOW MANY WRONG OPTIONS AN MC ASKS (v1.148.0). 2 distractors + the correct one = THREE
+  // options, down from four: the landing card is clamped (helmet.html .ng-landcard,
+  // max-height:34vh on a phone) and a fourth ~44px row pushed the question, the clock and
+  // `More ▸` past it, so the card scrolled under a 9s decisionSec clock. Three also sits
+  // below the decision-fatigue threshold, which is the owner's reason for the number.
+  //
+  // ONE SEAM, TWO CALLERS, AND THEY MUST NEVER DISAGREE. _mcBlock draws for real and
+  // _warmMcPool runs the SAME pooler as a rolled-back dry pass to decide which deck chunks
+  // to hydrate. If the two asked for different counts the dry pass would name the wrong deck
+  // set, mc_pool_cold would fire on a live draw, and every rigged journey would replay
+  // differently (§6.5). Both read this getter; neither carries a literal.
+  //
+  // KEEP IN SYNC with MC_DISTRACTORS in scripts/audit_mc_viability.py, the exhaustive Python
+  // port that npm run validate:mc gates on — same contract as MC_LINE <-> MC_LINE_BUDGET.
+  //
+  // NOTE the floor below (`picked.length < 2` -> recall) now EQUALS this number, so a shipped
+  // MC block is always exactly three options or it is not an MC block at all. Raising this
+  // back to 3 re-opens the degraded-3-option case; the floor is deliberately still a literal.
+  get MC_DISTRACTORS() { return 2; }
   mcClip(a) {
     const m = String(a || "").match(/^[\s\S]*?[.!?]/);
     const s = (m ? m[0] : String(a || "")).trim();
@@ -9288,7 +9311,7 @@ class Component extends DCLogic {
   // `tag` scopes the RNG so one surface can never eat another's rigged queue: the landing card
   // draws on "land-mc-*", leaving "mc-*" to the sidebar/checkpoint exactly as journeys rig it.
   mcDistractors(card, deckKey, n, tag) {
-    n = n || 3;
+    n = n || this.MC_DISTRACTORS;
     const tPick = tag ? tag + "-mc-pick" : "mc-pick", tShuf = tag ? tag + "-mc-shuffle" : "mc-shuffle";
     const correct = card.a;
     if (!correct) return null;
@@ -9304,8 +9327,24 @@ class Component extends DCLogic {
     };
     const d = card.mc || null;                                // authored one-line graded tiers win
     if (d) {
-      (d.p || []).forEach((x) => tryAdd(x, "plausible", false));
+      // TRAP FIRST, AND IT IS NOT A STYLE CHOICE (v1.148.0). The corpus is uniformly 2 plausible
+      // + 1 trap — measured 23,406 of 23,406 cards carrying `distractors`, no other shape exists.
+      // tryAdd early-returns at `picked.length >= n`, so with MC_DISTRACTORS = 2 the two plausible
+      // lines filled both slots and `d.t` was NEVER CONSULTED: the trap tier, its 2x odds cost
+      // (0.08 vs 0.04, _landAnswered), its stage penalty (_mcAnswer bumps -1 on a trap) and the
+      // mc_wrong{tier:"trap"} beat would have gone quiet corpus-wide with validate:mc still
+      // reporting 100% viable, because that gate certifies at >=2 SURVIVORS and never asks which
+      // tiers they came from. Textbook §6.6: a fallback that produces a plausible value and never
+      // says it fired. Consult the trap first and it always survives the cut.
       (d.t || []).forEach((x) => tryAdd(x, "trap", false));
+      // ROTATE THE PLAUSIBLE SLOT. Two are authored and only one is shown; taking p[0] every time
+      // would permanently retire 23,406 already-authored lines and make the card identical on
+      // every meeting. One draw on the SAME tag as the pool loops, so it rolls back with the dry
+      // pass and replays frame-exact. Guarded on length so the draw count cannot depend on a
+      // card that authored only one (§6.6: choose the fallback BEFORE any rng draw).
+      const ps = (d.p || []).slice();
+      if (ps.length > 1) ps.unshift(ps.splice((this.rng(tPick) * ps.length) | 0, 1)[0]);
+      ps.forEach((x) => tryAdd(x, "plausible", false));
     }
     const decks = (this.flashcards && this.flashcards.decks) || {};
     // RESIDENCY DISCIPLINE (v1.80.4). Every deck this pooler consults must already be resident,
@@ -9349,6 +9388,10 @@ class Component extends DCLogic {
         if (dc && dc.length && k !== deckKey) tryAdd(dc[(this.rng(tPick) * dc.length) | 0].a, "pool", true);
       }
     }
+    // THE RECALL FLOOR, DELIBERATELY A LITERAL — not `< n`. It is the point below which a
+    // question is not worth asking, which is a different question from how many wrongs we
+    // want. At MC_DISTRACTORS = 2 the two coincide (so a shipped block is always exactly
+    // three options); at 3 they would not, and the floor must not follow the ask upward.
     if (picked.length < 2) return null;
     const opts = [{ text: correct, tier: "correct" }].concat(picked.map((t, i) => ({ text: t, tier: tiers[i] })));
     for (let i = opts.length - 1; i > 0; i--) {               // deterministic shuffle
@@ -9377,7 +9420,7 @@ class Component extends DCLogic {
     // draws on land-mc-*, the node card on node-mc-*, and the sidebar/checkpoint keep the bare
     // mc-* stream journeys rig by name. A new surface that forgot its tag would eat those values
     // and every frame-exact replay would drift.
-    const mc = this.mcDistractors(card, key, 3, surface === "land" || surface === "node" || surface === "panic" ? surface : null);
+    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface === "land" || surface === "node" || surface === "panic" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
@@ -9432,7 +9475,7 @@ class Component extends DCLogic {
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
     const answer = (i) => { if (truth.surface === "land" && this._landHidden()) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
-    truth.answer = answer;                                    // the A/B/C/D keyboard seam
+    truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
       b.setAttribute(OPT, String(i));
@@ -10648,7 +10691,7 @@ class Component extends DCLogic {
     qw.style.cssText = "";
     const qt = document.createElement("div");
     // THE CORNER CLEARANCE BELONGS TO THE QUESTION, NOT THE BLOCK (v1.101.3). It was on the
-    // wrapper, so all four answers were inset 54px as well — they start below the corner
+    // wrapper, so every answer was inset 54px as well — they start below the corner
     // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
     // ellipsis, so the padding was spending width that answer text needed. Only the line that
     // actually runs under the `+` and the ✕ pays for them.

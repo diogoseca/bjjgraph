@@ -3,9 +3,14 @@
 
 Simulates the SHIPPED renderer rules from neural/src/app.src.jsx (mcClip first-sentence
 ≤160 clamp, accidental-correct/near-dupe Jaccard>0.8 guard, length-ratio 0.4–2.5 guard,
-authored-tier precedence, same-deck → graph-neighbor → same-category pooling, <2 survivors
-→ classic recall) — WITHOUT sampling, so the result is exhaustive and repeatable: a card is
-MC-viable iff its pools can yield ≥2 surviving distractors at all.
+authored-tier precedence TRAP-FIRST, same-deck → graph-neighbor → same-category pooling,
+<MC_DISTRACTORS survivors → classic recall) — WITHOUT sampling, so the result is exhaustive and
+repeatable: a card is MC-viable iff its pools can yield ≥MC_DISTRACTORS surviving distractors.
+
+Since v1.148.0 the renderer ASKS for exactly MC_DISTRACTORS (=2, i.e. three options) and its
+recall floor is also 2, so this audit's threshold and the renderer's ask are the same number for
+the first time — before, it certified at ≥2 while the renderer asked for 3, and so it silently
+UNDER-certified: a 100% report never meant every card built a full-width question.
 
 Outputs a per-deck report + the regen worklist. `--gate` enforces (exit 1 on failure):
   - ≥99% of curriculum-referenced decks MC-viable (deck viable = ≥90% of its cards viable)
@@ -39,6 +44,12 @@ GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
 # audit stays exhaustive without a second emitted artifact that could drift from the app's.
 FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 CURRICULUM = ROOT / "source/quartz/static/neural/curriculum.json"
+
+# How many WRONG options the shipped renderer asks for: 2 distractors + the correct one = the
+# three options the landing card has room for. KEEP IN SYNC with `get MC_DISTRACTORS()` in
+# neural/src/app.src.jsx — same contract as MC_LINE_BUDGET <-> MC_LINE, and the golden anchors
+# below are what turn a drift between the two ports into a red gate instead of silence.
+MC_DISTRACTORS = 2
 
 
 # ── ports of the shipped JS (keep in lockstep with app.src.jsx; golden anchors guard drift) ──
@@ -91,11 +102,16 @@ def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool
         return False
     picked: list[str] = []
     d = card.get("distractors") or {}
-    for text in list(d.get("plausible", [])) + list(d.get("trap", [])):
+    # TRAP FIRST, mirroring the renderer (v1.148.0). The corpus is uniformly 2 plausible + 1 trap
+    # and only two wrongs are shown, so consulting `plausible` first would starve the trap tier
+    # everywhere. The renderer additionally ROTATES which plausible fills the second slot on
+    # rng("...-mc-pick"); this audit has no rng and tries them in order, which is fine because it
+    # answers "can this card yield enough survivors AT ALL" — an upper bound either way.
+    for text in list(d.get("trap", [])) + list(d.get("plausible", [])):
         t = viable_distractor(text, correct, picked)
         if t:
             picked.append(t)
-        if len(picked) >= 2:
+        if len(picked) >= MC_DISTRACTORS:
             return True
     for c in decks[deck_key]["cards"]:
         if c["q"] == card["q"]:
@@ -103,7 +119,7 @@ def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool
         t = viable_distractor(c.get("a", ""), correct, picked)
         if t:
             picked.append(t)
-        if len(picked) >= 2:
+        if len(picked) >= MC_DISTRACTORS:
             return True
     for nk in neighbors.get(deck_key, ()):  # graph-neighbor decks
         nd = decks.get(nk)
@@ -113,7 +129,7 @@ def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool
             t = viable_distractor(c.get("a", ""), correct, picked)
             if t:
                 picked.append(t)
-            if len(picked) >= 2:
+            if len(picked) >= MC_DISTRACTORS:
                 return True
     cat = decks[deck_key].get("cat")  # same-category anywhere (the renderer scans bounded;
     for k, dd in decks.items():      # exhaustive here = upper bound on what sampling can find)
@@ -123,7 +139,7 @@ def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool
             t = viable_distractor(c.get("a", ""), correct, picked)
             if t:
                 picked.append(t)
-            if len(picked) >= 2:
+            if len(picked) >= MC_DISTRACTORS:
                 return True
     return False
 

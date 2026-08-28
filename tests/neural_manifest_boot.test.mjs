@@ -208,13 +208,21 @@ test("goals, glyphs and card totals read `n` before the cards land", () => {
 /**
  * A synthetic corpus + graph: the pooling algorithm's own logic, none of the DOM.
  *
- * Deliberately shaped so ALL THREE tiers run — a fixture whose own deck already yields three
+ * Deliberately shaped so ALL THREE tiers run — a fixture whose own deck already yields enough
  * distractors would exercise nothing about residency at all (the first draft did exactly that,
  * and "no cold consult" passed vacuously):
  *   · the target's own deck offers ONE candidate, and it is a near-duplicate of the correct
  *     answer, so the similarity guard rejects it -> the neighbour tier must run;
- *   · each neighbour offers one usable answer, which is not enough for n=3 -> the global tier
- *     (a bounded random walk over every manifest key) must run too.
+ *   · of the two neighbours only N1 offers a usable answer — N2's line is a near-duplicate of
+ *     N1's, so the SIBLING similarity guard rejects it -> one survivor is not enough for
+ *     MC_DISTRACTORS=2 and the global tier (a bounded random walk over every manifest key) must
+ *     run too. N2 is still CONSULTED, so its residency still counts.
+ *
+ * RE-SHAPED AT v1.148.0, and this is the whole point of the file. The old fixture leaned on
+ * "two neighbours give two, which is short of n=3". When MC dropped to three options (n=2) that
+ * became exactly enough, the global tier stopped executing, and every test here would have gone
+ * on passing while covering one tier fewer — the §6.6 vacuity class, arriving as green. If you
+ * change MC_DISTRACTORS again, re-check that the anti-vacuity assertion below still fires.
  */
 function mcFixture(resident) {
   const CORRECT = "post the far hand and turn the corner with your shoulder.";
@@ -222,7 +230,9 @@ function mcFixture(resident) {
   // the fixture would starve instead of reaching the tiers it exists to reach
   const LINES = {
     "N1|Top": "drive the elbow across the centre line before you sit up.",
-    "N2|Top": "break the grip at the thumb, never against four fingers.",
+    // a near-duplicate of N1 ON PURPOSE (Jaccard 9/11 = 0.82 > 0.8): the sibling guard must
+    // reject it so the neighbour tier cannot fill the pool on its own
+    "N2|Top": "drive the elbow across the centre line before you sit down.",
     "Far1|Top": "climb the knee shield and staple the hip to the mat.",
     "Far2|Top": "switch your base back and swim the underhook deep.",
     "Far3|Top": "walk the fingers to the collar and pull the head down.",
@@ -287,16 +297,22 @@ test("the RNG transaction puts every draw back, in order", () => {
 test("MC options are identical under warmed partial residency — and cost the same draws", async () => {
   const full = mcFixture(["Mount|Top", "N1|Top", "N2|Top", "Far1|Top", "Far2|Top", "Far3|Top"]);
   rigged(full.a);
-  const warm = full.a.mcDistractors(full.card, "Mount|Top", 3, null);
+  const warm = full.a.mcDistractors(full.card, "Mount|Top", full.a.MC_DISTRACTORS, null);
   const leftFull = full.a._rig["mc-pick"].length;
 
   const partial = mcFixture(["Mount|Top"]);           // only the card's own deck is resident
   rigged(partial.a);
   await partial.a._warmMcPool(partial.card, "Mount|Top", null);
-  const cold = partial.a.mcDistractors(partial.card, "Mount|Top", 3, null);
+  const cold = partial.a.mcDistractors(partial.card, "Mount|Top", partial.a.MC_DISTRACTORS, null);
   const leftPartial = partial.a._rig["mc-pick"].length;
 
-  assert.ok(warm && warm.options.length >= 3, "sanity: the fixture yields a real MC block");
+  assert.equal(warm && warm.options.length, full.a.MC_DISTRACTORS + 1, "sanity: a full-width MC block");
+  // ANTI-VACUITY (§6.6: emit a positive coverage count, never let "never looked" read as a pass).
+  // Everything below is about residency not moving the RNG stream, which is only interesting if
+  // the pooler actually WALKED past its own deck. Name the tiers it reached, and fail on zero.
+  const reached = Object.keys(partial.a.flashcards.decks).filter((k) => partial.a._cardsOf(partial.a.flashcards.decks[k]));
+  assert.ok(reached.includes("N1|Top"), `the neighbour tier never ran (reached: ${reached})`);
+  assert.ok(reached.some((k) => k.startsWith("Far")), `the global tier never ran (reached: ${reached})`);
   assert.deepEqual(cold.options, warm.options, "same options, same order");
   assert.equal(cold.correctIdx, warm.correctIdx);
   assert.equal(
@@ -310,7 +326,7 @@ test("MC options are identical under warmed partial residency — and cost the s
 test("an unwarmed cold consult is LOUD (a beat), never silent", () => {
   const f = mcFixture(["Mount|Top"]);
   rigged(f.a);
-  f.a.mcDistractors(f.card, "Mount|Top", 3, null);   // deliberately skipping the warm
+  f.a.mcDistractors(f.card, "Mount|Top", f.a.MC_DISTRACTORS, null);   // deliberately skipping the warm
   const cold = f.a.beats.filter((b) => b.beat === "mc_pool_cold");
   assert.ok(cold.length > 0, "the pooler reached a deck it did not have and said so");
 });

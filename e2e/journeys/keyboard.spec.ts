@@ -7,7 +7,7 @@ import { journey } from "../dsl"
  * The owner's decision was that shortcuts stay in Settings rather than getting their own icon —
  * which makes the Shortcuts tab the ONLY place they are documented, so it had better be true.
  * This spec asserts every key it advertises actually does what it says, and that the two digit
- * families never collide: A–D answer the live question, 1–9 open option sheets.
+ * families never collide: A–C answer the live question, 1–9 open option sheets.
  *
  * Handler: neural/src/app.src.jsx _onKey. Legend: Settings → Shortcuts.
  */
@@ -126,7 +126,11 @@ test("the Shortcuts tab documents the keys that exist", async ({ page }) => {
   const legend = (
     (await page.locator(".ng-modal, [role=dialog], body").last().textContent()) || ""
   ).toLowerCase()
-  for (const key of ["a", "b", "c", "d"]) expect(legend, `${key} is documented`).toContain(key)
+  // A/B/C since v1.146.0 — MC is three options wide. NON-KILL, recorded so nobody reads this
+  // as coverage: the haystack is the whole lowercased modal, so a single letter matches
+  // incidentally and this loop survives a mutant that drops the row entirely. The real gate
+  // on the count is mc-flashcards.spec.ts ("fresh card renders 3 MC options").
+  for (const key of ["a", "b", "c"]) expect(legend, `${key} is documented`).toContain(key)
   // v1.134.0: the transport is retired — "play / pause roll" left the list with its keys
   expect(legend, "the retired pause row is gone").not.toContain("play / pause roll")
   for (const phrase of ["multiple-choice", "execute technique", "esc"]) {

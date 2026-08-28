@@ -414,7 +414,9 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   }))
   expect(s.about).toBe("Americana from Kimura Trap")
   expect(s.q, "the card asks something").toBe(true)
-  expect(s.mcOpts, "…as MULTIPLE CHOICE — recognition comes first").toBeGreaterThanOrEqual(3)
+  // EXACTLY three since v1.148.0: MC_DISTRACTORS = 2 equals the pooler's own recall floor, so a
+  // block is either full width or it is not an MC block at all — the degraded 3-of-4 case is gone.
+  expect(s.mcOpts, "…as MULTIPLE CHOICE — recognition comes first").toBe(3)
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 

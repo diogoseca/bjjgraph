@@ -21,7 +21,7 @@ import { journey } from "../dsl";
  *     for specs — the DOM never carries the correct index)
  *   beats: mc_shown {opts}, mc_correct {stage}, mc_wrong {tier}, checkpoint_passed
  *   rng tags: mc-pick, mc-shuffle, checkpoint-pick
- *   setting: mcMode auto|mc|classic · keyboard digits 1-4 · masteredCount flips to rec
+ *   setting: mcMode auto|mc|classic · keyboard digits 1-3 · masteredCount flips to rec
  */
 
 const CURRICULUM = JSON.parse(
@@ -116,24 +116,28 @@ const mcState = (page: any) =>
   page.evaluate(() => {
     const a = (window as any).__neural;
     return a._mc
-      ? { key: a._mc.key, qhash: a._mc.qhash, correct: a._mc.correct }
+      ? { key: a._mc.key, qhash: a._mc.qhash, correct: a._mc.correct, n: a._mc.n }
       : null;
   });
 
-test("fresh card renders 4 MC options, clamped, with the mc_shown beat", async ({
+test("fresh card renders 3 MC options, clamped, with the mc_shown beat", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
-  await j.rig("mc-pick", [0.1, 0.2, 0.3]);
-  await j.rig("mc-shuffle", [0.5, 0.5, 0.5, 0.5]);
+  // one pick per distractor (MC_DISTRACTORS = 2), plus one for the plausible-slot rotation;
+  // mc-shuffle consumes opts.length - 1. Over-provisioned on purpose — a queue that runs dry
+  // falls through to Math.random and the "deterministic across two boots" test below is what
+  // would catch it.
+  await j.rig("mc-pick", [0.1, 0.2, 0.3, 0.4]);
+  await j.rig("mc-shuffle", [0.5, 0.5, 0.5]);
   await openLessonDrill(j, page);
   expect(await presentMcCard(page)).toBeTruthy();
 
   const opts = page.locator("[data-mc-opt]");
   await expect(opts.first()).toBeVisible();
-  expect(await opts.count()).toBe(4);
+  expect(await opts.count()).toBe(3); // 1 correct + MC_DISTRACTORS (app.src.jsx)
   for (const text of await opts.allTextContents()) {
     expect(text.length).toBeLessThanOrEqual(170); // clamp (≤160) + numbering chrome
   }
@@ -141,7 +145,8 @@ test("fresh card renders 4 MC options, clamped, with the mc_shown beat", async (
   const truth = await mcState(page);
   expect(truth).toBeTruthy();
   expect(truth!.correct).toBeGreaterThanOrEqual(0);
-  expect(truth!.correct).toBeLessThan(4);
+  expect(truth!.n).toBe(3);
+  expect(truth!.correct).toBeLessThan(truth!.n);
 });
 
 test("MC options are deterministic under rig across two boots", async ({
@@ -181,7 +186,7 @@ test("wrong answer: no credit, no stage, correct revealed", async ({
   await presentMcCard(page);
 
   const truth = await mcState(page);
-  const wrongIdx = (truth!.correct + 1) % 4;
+  const wrongIdx = (truth!.correct + 1) % truth!.n;
   const before = await page.evaluate(
     (k) => (window as any).__neural.prep[k] || 0,
     LESSON1.deckKey,
@@ -471,7 +476,7 @@ test("a11y: radiogroup semantics and a live result region", async ({
 
   const group = page.locator('[role="radiogroup"]');
   await expect(group.first()).toBeVisible();
-  expect(await page.locator('[data-mc-opt][role="radio"]').count()).toBe(4);
+  expect(await page.locator('[data-mc-opt][role="radio"]').count()).toBe(3);
   expect(await page.locator('[aria-live="polite"]').count()).toBeGreaterThan(0);
 });
 
@@ -603,7 +608,7 @@ test("checkpoint fail links the weakest lesson", async ({ page }) => {
     if (!t) break;
     await page
       .locator("[data-mc-opt]")
-      .nth((t.correct + 1) % 4)
+      .nth((t.correct + 1) % t.n)
       .click();
     await j.advance(700);
   }

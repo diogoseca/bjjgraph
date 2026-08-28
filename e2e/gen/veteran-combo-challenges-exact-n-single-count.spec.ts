@@ -97,7 +97,7 @@ test("one ×2..×8 climb: exact-n challenges complete once each, the ×8 re-stam
       }
     })
 
-  // answer the live landing question like a user: keyboard A/B/C/D. Gated on _landPending
+  // answer the live landing question like a user: keyboard A/B/C. Gated on _landPending
   // (the live-unanswered signal) because _mc lingers after an answer; asserting it cleared
   // guarantees the next pick can never break the streak as "ignored".
   const answerLanding = async () => {

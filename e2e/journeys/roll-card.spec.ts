@@ -376,7 +376,7 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
 
 /**
  * THE CORNER CLEARANCE IS THE QUESTION'S, NOT THE BLOCK'S. `[data-land-q]` wraps the question
- * line AND the four answers; putting the `padding-right` that clears the `+`/✕ on the wrapper
+ * line AND the three answers; putting the `padding-right` that clears the `+`/✕ on the wrapper
  * inset the answers too — and they are `white-space:nowrap` with an ellipsis, so 54px of padding
  * is 54px of answer text that stops being readable. Only the line that actually runs under the
  * corner controls pays for them.

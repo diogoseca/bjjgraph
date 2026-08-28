@@ -66,7 +66,7 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   let mc = await page.evaluate(() => (window as any).__neural._mc);
   await page
     .locator("[data-mc-opt]")
-    .nth((mc.correct + 1) % 4)
+    .nth((mc.correct + 1) % mc.n)
     .click(); // wrong: no credit
   await j.expectBeat("mc_wrong");
   await page.evaluate((q) => (window as any).__neural.presentCard(q), qh);

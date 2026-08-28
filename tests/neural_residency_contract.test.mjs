@@ -112,8 +112,9 @@ test("a card whose distractors are AUTHORED costs zero deck fetches", async () =
 });
 
 test("the warm pool fetches only the decks the DRY PASS actually reached", async () => {
-  // the target's own deck alone yields three usable distractors, so the neighbour and global
-  // tiers never run — and their chunks must never be requested
+  // the target's own deck alone yields enough usable distractors (3 authored siblings, and the
+  // pooler asks for MC_DISTRACTORS), so the neighbour and global tiers never run — and their
+  // chunks must never be requested
   const f = poolFixture([]);
   await f.a._warmMcPool(f.card, "Mount|Top", null);
   assert.deepEqual(
@@ -164,12 +165,12 @@ test("a warm top-up is BOUNDED per pass, not one fetch per manifest key", async 
 
 test("mcDistractors options are identical warm vs lazily-warmed (the RNG stream cannot move)", async () => {
   const full = poolFixture(["Mount|Top", "N1|Top", "N2|Top", "N3|Top", "N4|Top", "Far1|Top", "Far2|Top"]);
-  const warm = full.a.mcDistractors(full.card, "Mount|Top", 3, null);
+  const warm = full.a.mcDistractors(full.card, "Mount|Top", full.a.MC_DISTRACTORS, null);
   const left = full.a._rig["mc-pick"].length;
   const lazy = poolFixture([]);
   await lazy.a._warmMcPool(lazy.card, "Mount|Top", null);
-  const cold = lazy.a.mcDistractors(lazy.card, "Mount|Top", 3, null);
-  assert.ok(warm && warm.options.length >= 3, "sanity: a real MC block");
+  const cold = lazy.a.mcDistractors(lazy.card, "Mount|Top", lazy.a.MC_DISTRACTORS, null);
+  assert.equal(warm && warm.options.length, full.a.MC_DISTRACTORS + 1, "sanity: a full-width MC block");
   assert.deepEqual(cold.options, warm.options, "same options, same order");
   assert.equal(lazy.a._rig["mc-pick"].length, left, "same draws consumed");
 });

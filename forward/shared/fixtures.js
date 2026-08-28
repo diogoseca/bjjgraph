@@ -21,6 +21,9 @@ export const node = {
   outcomes: ["Back Control", "Single Leg", "Top Half Guard"],
 };
 
+// THREE answers, mirroring production (app.src.jsx MC_DISTRACTORS = 2 → 1 correct + 2 wrong).
+// The catalog is a MOCK with no parity gate — check_forward_catalog.mjs only proves the frames
+// render — so a fourth answer here would drift silently, which is what happened before v1.148.0.
 export const question = {
   prompt:
     "Your opponent begins to elevate their hips while maintaining a deep underhook — what immediate adjustment do you make?",
@@ -28,7 +31,6 @@ export const question = {
     "Release crossface, post both hands",
     "Muscle the underhook away instead",
     "Shift weight back and sprawl",
-    "Turn away and expose the back",
   ],
   correct: 2,
 };
@@ -40,7 +42,6 @@ export const longQuestion = {
     "Post the occupied hand and square the hips",
     "Drive forward harder and ignore the trapped knee",
     "Shift weight back, widen the free leg, and clear the knee line",
-    "Turn away to pull the underhook free",
   ],
   correct: 2,
 };
@@ -132,7 +133,6 @@ function namedFallbackRole({ name, type, role, origin, definition, outcomes }) {
         "Establish the controlling connection",
         "Release every grip",
         "Turn away from the exchange",
-        "Wait without changing structure",
       ],
       correct: 0,
     },

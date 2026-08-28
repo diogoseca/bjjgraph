@@ -46,7 +46,7 @@ test("opponent-caused arrival asks its landing question and a right answer climb
   await j.boot("/", { initialState: multiBeltEndgame() })
   await j.land("Mount Top")
 
-  // ── answer the live landing question like a user: keyboard A/B/C/D. Gated on
+  // ── answer the live landing question like a user: keyboard A/B/C. Gated on
   // _landPending (unanswered-question-on-the-table) because _mc lingers after an answer. ──
   const answerLanding = async () => {
     const mc = await page.evaluate(() => {

@@ -59,7 +59,8 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 ### Landing
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
-**one-line definition → film → one multiple-choice question → your options → `More ▸`**. The card
+**one-line definition → film → one multiple-choice question (three options) → your options →
+`More ▸`**. The card
 prints no name and no side: the graph names the state, beside the node.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
@@ -139,6 +140,15 @@ is never chrome-only) with no live trigger in this corpus; authored `answer_line
 remains the quality upgrade over truncation. The option-node label pass yields to the
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
+
+**Three options, and the trap is always one of them** (v1.148.0). `MC_DISTRACTORS = 2`
+(`app.src.jsx`, mirrored in `scripts/audit_mc_viability.py`) is the one seam, read by `_mcBlock`
+AND `_warmMcPool`'s dry pass. The ask now equals the recall floor, so a block is exactly three
+options or it is not an MC block. **Selection order is load-bearing:** the corpus is uniformly 2
+`plausible` + 1 `trap`, so the pooler takes the TRAP FIRST — consulting `plausible` first leaves
+the trap tier unreachable corpus-wide with every gate still green — then rotates which plausible
+fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned by
+`mc-oneline.spec.ts`; full story in the archive.
 
 ### The option sheet is the card you pressed (v1.136.0)
 

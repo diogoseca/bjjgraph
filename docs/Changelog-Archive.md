@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.148.0** — [MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT](#v1-148-0-multiple-choice-drops-to-three-and-the-t)
 - **v1.147.0** — [THE PANE'S TAB BAR IS A PAGER](#v1-147-0-the-pane-s-tab-bar-is-a-pager)
 - **v1.146.1** — [THE HOST STYLESHEET REACHED INTO THE APP'S MODAL](#v1-146-1-the-host-stylesheet-reached-into-the-a)
 - **v1.146.0** — [THE SCORE COULD NOT SEE ITS OWN RULESET](#v1-146-0-the-score-could-not-see-its-own-ruleset)
@@ -5039,3 +5040,80 @@ card swipe falls through into the tab pager — **SURVIVED, correctly:** `_paneT
 `_paneStudyActive()` itself, so only the DOUBLE mutant goes red. Journey 4 gates the behaviour,
 not either guard; it says so in its own header. A third spelling of that rule sat in the wheel
 handler and was deleted once measured redundant.
+
+---
+
+## v1.148.0 — MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT
+
+Owner's ask, in full: *"bring all multiple-choice cards from four options to three. The reason is
+that we don't have enough vertical space on the screen to show all four options... Three options is
+typically a more readable quantity for humans, not passing the decision threshold and entering into
+decision fatigue effects."*
+
+The count itself was a two-line change. `mcDistractors(card, deckKey, n, tag)` defaulted `n = n || 3`
+and BOTH call sites passed the literal `3` — `_mcBlock` for the real draw and `_warmMcPool` for the
+rolled-back dry pass that decides which deck chunks to hydrate. That pair is the §6.5 shape: one
+question answered in two places, and a disagreement between them would have made the dry pass name
+the wrong deck set, fired `mc_pool_cold` on a live draw, and desynchronised every rigged journey.
+Collapsed to one seam, `get MC_DISTRACTORS() { return 2; }`, with the Python port
+(`scripts/audit_mc_viability.py`) carrying the same constant under the MC_LINE ↔ MC_LINE_BUDGET
+"keep in sync" contract.
+
+**THE FINDING, AND IT WAS INVISIBLE TO EVERY GATE.** The corpus is uniformly two `plausible` plus
+one `trap`: measured over all 1,659 `content/**/*.json`, **23,406 cards carry `distractors` and
+23,406 of them are exactly 2+1 — no other shape exists.** `mcDistractors` consulted `d.p` before
+`d.t`, and `tryAdd` early-returns at `picked.length >= n`. So at `n = 2` the two plausible lines
+filled both slots and **`d.t` would never have been consulted for any authored card in the
+corpus** — retiring the trap tier, its 2:1 odds cost (`cost = tier === "trap" ? 0.08 : 0.04`,
+`_landAnswered`), its stage demotion (`_bumpStage(key, card.q, -1)`) and the
+`mc_wrong{tier:"trap"}` beat, corpus-wide, in one line. **`npm run validate:mc` would have gone on
+reporting 100.0% viable throughout**, because it certifies survivor COUNT (`>= 2`) and never asks
+which tier they came from. §6.6, exactly: a fallback that produces a plausible value and never says
+it fired. Fix: consult the trap FIRST, so it always survives the cut; then ROTATE which of the two
+plausible lines takes the last slot (one draw on the same `…-mc-pick` tag, so it rolls back with the
+dry pass and replays frame-exact), because taking `p[0]` every time would have permanently retired
+23,406 already-authored lines. Display order is untouched — the existing Fisher-Yates on
+`…-mc-shuffle` still runs after selection, so the trap is equally likely to be A, B or C.
+
+**A simplification fell out.** The pooler's recall floor is `picked.length < 2 → null`. At
+`MC_DISTRACTORS = 2` the ask and the floor are the same number, so a shipped MC block is now
+*exactly* three options or it is not an MC block at all — the degraded three-of-four case is gone,
+and the audit's `>= 2` certification finally means what it says instead of under-certifying
+(before, it passed cards that could only ever have built three of the four the renderer asked for).
+The floor is deliberately left as a literal rather than `< n`: it answers a different question.
+
+**THE SECOND FINDING: two unit suites would have gone VACUOUS, not red.** `neural_manifest_boot`'s
+synthetic corpus was hand-shaped so that all three pooling tiers run — own deck rejects its one
+candidate, two neighbours give one each, "which is not enough for n=3", so the global tier must
+walk. At `n = 2` two neighbours are exactly enough, the global tier stops executing, and every test
+in the file goes on passing while covering one tier fewer. N2's line is now a deliberate
+near-duplicate of N1's (Jaccard 9/11 = 0.82, over the 0.8 sibling guard) so one survivor is short of
+two and the walk is forced again — and the test now NAMES the tiers it reached and fails on zero,
+rather than inferring coverage. Proven by reverting the line: `the global tier never ran (reached:
+Mount|Top,N1|Top,N2|Top)`.
+
+**Mutation table** — all three killed:
+
+| mutant | spec that went red |
+|---|---|
+| `d.p` consulted before `d.t` | `mc-oneline.spec.ts:66` "golden card: … authored plausible/trap tiers" |
+| `MC_DISTRACTORS` back to 3 | `mc-oneline.spec.ts:66` + `landcard-modes.spec.ts:419` |
+| dry pass under-asks (`_warmMcPool` → 1) | `neural_manifest_boot.test.mjs` "MC options are identical under warmed partial residency" |
+
+`keyboard.spec.ts`'s shortcut-legend loop is recorded in its own header as a NON-KILL: it greps
+single letters out of the whole lowercased modal, so "d" matches incidentally and the loop survives
+a mutant that deletes the row. The real gate on the count is `mc-flashcards.spec.ts`.
+
+**What did NOT change, deliberately.** No content regeneration: the wire still ships `mc:{p,t}`
+untruncated and the spare plausible becomes guard-rejection headroom, so the authoring scripts keep
+their `minItems/maxItems 2` and `1` and their `len(opts) < 3` idempotency predicates — loosening
+those would have re-flagged the whole corpus as needing work and bought a paid re-authoring wave for
+zero runtime benefit. No `helmet.html` retune: `.ng-landcard` is a flex column under
+`max-height:34vh` with `overflow-y:auto`, so it simply gets ~51px shorter (one 44px row + one 7px
+gap) and the scroll pressure goes away; §6.1 records twelve collisions from tuning docked chrome
+against a constant instead of a measured rect. The trap penalty stays at 0.08/stage −1 even though
+traps rise from one-of-three wrong slots to one-of-two — a dial to feel before turning. `decisionSec`
+stays at 9s. And `_onKey`'s sidebar digit branch stays `/^[1-4]$/`, not `/^[1-3]$/`: it calls
+`preventDefault()` before the lookup, so a `4` is SWALLOWED; narrowing it would let `4` fall through
+to the `/^[1-9]$/` option-card openers, which is the Q007 hazard their own comment records.
+
