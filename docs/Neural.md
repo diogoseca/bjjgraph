@@ -379,16 +379,14 @@ each are 60, and MAX reads 30).
 **What it inherits, and the copy says so:** the solve is no-gi while gi is the default ruleset
 (146 nodes differ); the opponent it prices is `opponentDefend`, which filters neither role nor
 origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
-not change the opponent's rates; and `gameScore` weights all 272 position decks at **zero** while
-FLOW's top ten are all positions — two published numbers that will disagree.
+not change the opponent's rates — that was about the ODDS model, and this is a KNOWLEDGE score, so
+since v1.145.13 both seats and all 272 position decks are weighted.
 
-> **Those last two were never decided by a human, and this file used to imply they were** (it read
-> "on purpose"). The `role != "attacker"` filter arrived in v1.68.0 (`86cf84c16`, an agent commit
-> whose own message claims *"Nothing is cut now"* while cutting 1,598 decks); v1.138.0
-> (`1d3a17eaa`, also an agent) observed the result and labelled it deliberate. Git authorship is
-> no evidence here — every commit carries the owner's name — and no owner quote on the score's
-> scope exists in `docs/Changelog-Archive.md`. Sized by `validate:score-coverage`, awaiting a
-> ruling.
+> **RULED AND CLOSED (v1.145.13).** This file used to call the Defender and position zeros "on
+> purpose"; no human had. The owner's ruling: score the whole corpus and let scores fall, while
+> nobody yet holds a belt worth losing. `gameScore` now weights all three blocks — the FLOW
+> disagreement above is resolved in FLOW's favour, and the sentence before this one describes
+> what `gameScore` no longer does.
 
 ## 5. The pair
 
@@ -488,16 +486,32 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 of the graph as a Markov chain, computed at build time into `curriculum.weights`. `mastery_i` is
 `deckMastery(key)`. No rare technique is cut: it counts proportionally to how rare it is.
 
-**What the score cannot see, sized and tracked (v1.145.10):** `npm run validate:score-coverage`
-writes `tests/artifacts/score_coverage.json` and prints on every emit. Measured today: the score
-sees **12,303 of 21,915 authored cards (56.1%)**. The rest — 1,326 Defender decks (6,403 cards),
-272 position decks (2,668) and 5 graph-orphan attacker decks (50) — carry no key in `weights` at
-all, so mastering every card in them moves the number by zero. Separately, **52 techniques are
-attemptable only in gi — the default ruleset — and carry weight 0** (491 cards), because
-`build_technique_weights` reads the folded no-gi `attemptProbability` while the `{gi, nogi}` pair
-sits on the same edge. That last one is a defect with a fix measured and ready; it moves every gi
-player's score, so it waits for the owner. The rest is an open question, deliberately **not**
-recorded as an exemption — naming one is how a defect becomes policy.
+**The score spans the WHOLE corpus (v1.145.13).** One roll step exercises three separable kinds of
+knowledge, each happening once per step: **where you are**, **what you do from there**, and **what
+is being done to you**. Three blocks — position occupancy `pi`, technique visit-rate `visits`, and
+those visits mirrored to the defending seat — each summing to 1; the score is their mean. Not a
+tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
+`sum(visits)` are both exactly 1 — three readings of one unit step.
+
+Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
+**9,071 cards, 41.4%** — scored zero, on an agent's decision no human had made. **Studying a
+position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
+Control|Top` leads). The score sees **21,101 of 21,915 cards (96.3%)**;
+`npm run validate:score-coverage` prints the rest.
+
+**Nothing about the score decays.** `deckMastery` moves only on answers — the belt cannot drop
+because time passed. Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
+are shown*), never in what a deck is *worth*.
+
+**Wire.** `curriculum.scoreWeights` is `{div, p:{k,v}, t:{k,v}}` — position keys once, technique
+NAMES once, ints scaled by `div`, each `t` name carrying **both seats at one value** (the defender
+block is the attacker block re-keyed). `scoreWeights()` is the one expander; the emitter
+round-trips it and refuses if the mirror stops holding. Flat, this cost +8,339 gzip; spelled once
+it is **709 bytes smaller than the attacker-only table it replaces**.
+
+**Still open:** 52 techniques attemptable only in gi — the default ruleset — carry weight 0 in
+both seats (**104 decks, 739 cards**), because the table is solved in the folded no-gi frame.
 
 Bands: white .20 · blue .40 · purple .60 · brown .70 · black .80. An MC answer caps a card at stage
 2 = 2/3 mastery, so pure recognition tops out at 0.667 — recall is the only route past 0.7 **by

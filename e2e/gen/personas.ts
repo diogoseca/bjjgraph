@@ -22,6 +22,24 @@ export const CURRICULUM = JSON.parse(
   ),
 );
 
+/**
+ * The Game Knowledge weight table, expanded from the compact wire (v1.145.13:
+ * `scoreWeights = {div, p:{k,v}, t:{k,v}}`, where every `t` name carries both seats at the same
+ * value). Mirrors `scoreWeights()` in app.src.jsx. There is no flat `curriculum.weights` any
+ * more: reading one hands a spec `undefined` for every key, which turns a `toBeGreaterThan`
+ * red and -- far worse -- a `toBeUndefined` permanently green.
+ */
+export function curriculumWeights(): Record<string, number> {
+  const sw = CURRICULUM.scoreWeights;
+  if (!sw?.t) return CURRICULUM.weights ?? {}; // pre-v1.145.13 payload
+  const out: Record<string, number> = {};
+  sw.p.k.forEach((k: string, i: number) => { if (sw.p.v[i]) out[k] = sw.p.v[i] / sw.div; });
+  sw.t.k.forEach((k: string, i: number) => {
+    if (sw.t.v[i]) out[`${k}|Attacker`] = out[`${k}|Defender`] = sw.t.v[i] / sw.div;
+  });
+  return out;
+}
+
 type Blob = Record<string, unknown>;
 const BELTS: any[] = CURRICULUM.belts;
 

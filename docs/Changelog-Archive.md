@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.145.13** — [THE SCORE COVERS THE WHOLE CORPUS](#v1-145-13-the-score-covers-the-whole-corpus)
 - **v1.145.10** — [WHAT THE SCORE CANNOT SEE, SIZED](#v1-145-10-what-the-score-cannot-see-sized)
 - **v1.145.1** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#v1-145-1-the-collar-choke-that-was-not-a-bug)
 - **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
@@ -4804,32 +4805,21 @@ behaviour change and the owner's call.
 ## v1.145.10 — WHAT THE SCORE CANNOT SEE, SIZED
 
 `curriculum.weights` is the only thing `gameScore` sums. One writer, two readers, **zero
-validators** — `validate_curriculum.py` cannot cover it (it runs before the weights are built and
-reads `templates/curriculum.json`, which has no `weights` key). Nothing had ever counted the
-score's own reach.
+validators** — `validate_curriculum.py` cannot cover it (it runs before the weights are built,
+against `templates/curriculum.json`, which has no `weights` key). Nothing had counted the score's
+own reach.
 
 MEASUREMENT ONLY, the split `validate:occurrence` used. `npm run validate:score-coverage`:
 reporting, exit 0, writes `tests/artifacts/score_coverage.json`, derived from the **committed**
 `graph.json` — never from the gitignored `source/quartz/static/neural/`. Full reasoning in the
-script's own header; today's numbers:
+script's own header. It read, at the time: defender 1,326 decks / 6,403 cards · position 272 /
+2,668 · orphan 5 / 50, and the score seeing 12,303 of 21,915 cards (56.14%). See v1.145.13 for
+what those rows read now.
 
-```
-    weighted gi  :  1253/1305  attemptable attacker decks   <-- 52 at weight 0 (491 cards)
-    weighted nogi:  1269/1269
-    NOT SCORED  defender 1326 decks/6,403 cards · position 272/2,668 · orphan 5/50
-    the score can see 12,303 of 21,915 cards (56.14%)
-```
-
-**The score is blind to 9,121 of 21,915 authored cards (41.6%)**, and until now nothing said so.
-`--gate` makes the ruleset row fatal and is wired into no workflow. The unscored classes are
-**not** recorded as exemptions — naming one is how a defect becomes policy.
-
-**The ruleset row is a defect** (`build_technique_weights` reads the folded no-gi
-`attemptProbability` while the pair sits on the same edge; the 52 are dealt by `optionsFor`, which
-applies no ruleset filter at all). Fixed, measured and 195/195 curated on `track/scorer-coverage`
-— **not shipped, because it moves every gi player's score.** Blending instead was refused on
-measurement: TV(blend, gi) = TV(blend, nogi) = 0.0569 vs TV(gi, nogi) = 0.1138 — equal because the
-blend is the MIDPOINT, so it is wrong by half the divergence for everyone in both rulesets at once.
+**The score was blind to 9,121 of 21,915 authored cards (41.6%)**, and until this nothing
+said so. `--gate` makes the ruleset row fatal, wired into no workflow. **Superseded in part by
+v1.145.13**, which closed the two unscored classes; the ruleset row is still open and now spans
+both seats (104 decks / 739 cards).
 
 **PROVENANCE: "deliberate" was never decided by a human.** This file said the Defender and position
 zeros were "on purpose". The `role != "attacker"` filter arrived in **v1.68.0** (`86cf84c16`,
@@ -4850,3 +4840,56 @@ reports `1269/1269`, perfectly clean, and the artifact's `unweighted` goes 52/49
 availability join hollowed → `0/1326 (0.0%)`, **exit 1**: zero coverage is fatal even in reporting
 mode (section 6.6), because a per-frame check with an empty denominator prints what a clean run
 prints. `--gate` → exit 1 naming the 52.
+
+
+## v1.145.13 — THE SCORE COVERS THE WHOLE CORPUS
+
+v1.145.10 sized it: 1,326 Defender and 272 position decks — **9,071 cards, 41.4%** — weighed zero,
+on a v1.68.0 agent decision no human had made. **The owner ruled: score the whole corpus and let
+scores fall.** Why NOW: *"Nobody is a fucking blue belt right now... there are no users who will
+suffer because of this."* A demotion is a trust event only once people have standing to lose, so
+take the correct measure while it is cheap. Re-fitting the belt thresholds was explicitly rejected
+as not yet justified — later, not today.
+
+**THE TABLE.** A roll step exercises three kinds of knowledge, each once per step: where you are,
+what you do from there, what is done to you. Three blocks — occupancy `pi`, visit-rate `visits`,
+those visits mirrored to the defending seat — each summing to 1; the score is their mean. Not a
+tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
+`sum(visits)` are both exactly 1.0 — three readings of ONE unit step, not different units as an
+earlier session of mine claimed. `build_technique_weights` had been computing `pi` and discarding
+it for 77 versions.
+
+**MEASURED BEFORE SHIPPING.** No user data exists in this repo, so the live distribution was not
+checkable — "everybody is white" is the owner's premise, unverified here. Cards of full
+recall per belt, best-weight-first: white **231 -> 196** (*sooner*), blue 613 -> 856, black
+3,367 -> 5,663 (1.7x). The drop depends on what was studied (2,500 cards): attacks only, i.e. the
+old ranking, `0.735 brown -> 0.245 white`; random `0.120 -> 0.135`; positions first
+`0.000 -> 0.324`. **Ranking:** 0 of the 1,269 already-scored decks change rank relative to each
+other (the attacker block is scaled by exactly 1/3), but 14 of the new top 20 are positions and
+USERS reorder.
+
+**RETENTION NOT PRESSURE — no such choice arises here.** A weights table has no clock to punish
+with; `deckMastery` moves only on answers. It WILL arise in `_schedule` (SRS intervals — what you
+are *shown*). Pinned by a test named for it.
+
+**THE WIRE SHRANK.** Flat, the 2,810-key dict cost +8,339 gzip — first hand 382,197 of 385,000,
+inside the band `payload-first-hand` calls unknown until CI speaks. Key strings are the whole cost
+and 1,269 of 2,810 were a second spelling. `scoreWeights = {div, p:{k,v}, t:{k,v}}` spells each
+once, both seats at one value: **16,711 gzip against 17,417 — 709 bytes SMALLER than the
+attacker-only table it replaces.** The emitter round-trips the expansion and refuses if the mirror
+stops holding. `weights` is no longer emitted: an old bundle iterating the new shape would render
+`Mastered NaN%`; under a new key it scores 0 and recovers on reload.
+
+**A TRAP THE SUITE CAUGHT.** `startPosTraffic` sums a technique's weight through its ONE canonical
+origin; I let position/`|Defender` keys fall out of its `fromPositionId` guard instead of filtering
+them. That LOOKED equivalent: a position deck key **does** resolve through `nodeForKey`, to a
+different index under `?dual=legacy` than under the pair render, so the two built different traffic
+tables and `dual-consumers` went red on an otherwise correct build. Filtered now — the draw is
+unchanged by construction, not by accident.
+
+**MUTANTS, ALL RED.** Defender seat halved · position block dropped from the expansion · a zero
+kept as a key · emitter's defender block emptied (refused) · wire drops the defender seat
+(round-trip refused, 1,269 missing).
+
+**STILL OPEN:** the 52 gi-only techniques — widening the table DOUBLED that class to both seats,
+**104 decks / 739 cards**. Not bundled; unruled.

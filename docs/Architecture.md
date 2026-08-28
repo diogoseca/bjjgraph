@@ -381,7 +381,7 @@ P75 of 13,764ms with 80% Poor while CLS sat at 0.017/100% Good. It is now **2.4M
 | `flashcards/_index.json` | deck manifest: `{"<Name>\|<Role>": [cat, n]}` + `shared` (see below) | boot |
 | `flashcards/<fnv1a32(deckKey)>.json` | `{deckKey: {cat, role, cards}}` — one deck | on demand |
 | `content/<fnv1a32(key)>.json` | `{key: dossier}` — one node's dossier (`window.NG_CONTENT` is the cache) | on demand |
-| `curriculum.json` | belts/units/lessons + `weights` (what `gameScore` sums) | boot |
+| `curriculum.json` | belts/units/lessons + `scoreWeights` (`{div, p, t}`, compact — the whole-corpus table `gameScore` sums) | boot |
 | `systems.json` | the authored course library | first read |
 
 Two payloads were **deleted**, not shrunk: `flashcards.json` (16.4MB, every card of all 2,924

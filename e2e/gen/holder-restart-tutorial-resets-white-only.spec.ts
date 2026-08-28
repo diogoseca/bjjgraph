@@ -18,7 +18,7 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *
  * SCORE SEAM: gameScore reads stage (per-question cardStage) — which personas cannot seed
  * (qhash is app-side) and which noteCardDone/j.drill never touch. The score is armed via
- * a._bumpStage(key, q, 3) on the first curriculum.weights deck holding >=3 cards (weights carry
+ * a._bumpStage(key, q, 3) on the first scoreWeights() deck holding >=3 cards (weights carry
  * technique decks "<name>|Attacker" only; position decks are unweighted, so bumping one would
  * leave the score at 0 and make its survival assert vacuous). _bumpStage persists through the
  * same _saveProgress choke the UI uses (synchronous in test mode), so the reload leg reads the
@@ -67,12 +67,12 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   ])
   await j.rig("land-mc-shuffle", [0.2, 0.5, 0.8, 0.35, 0.65, 0.95, 0.14, 0.42])
   await j.land("Mount Top")
-  await page.waitForFunction(() => !!(window as any).__neural?.curriculum?.weights)
+  await page.waitForFunction(() => !!(window as any).__neural?.scoreWeights?.())
 
   // arm the score: recall-prove 3 cards of the first WEIGHTED deck (technique decks only)
   const armed = await page.evaluate(() => {
     const a = (window as any).__neural
-    const w = a.curriculum.weights
+    const w = a.scoreWeights() // compact wire since v1.145.13; scoreWeights() is the one expander
     let key = ""
     for (const k of Object.keys(w)) {
       const d = a.flashcards.decks[k]
@@ -134,7 +134,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
 
   // ── RELOAD LEG: keepTutorial, or the DSL would re-complete the twenty and mask the reset ──
   await j.boot("/", { preserveStorage: true, keepTutorial: true })
-  await page.waitForFunction(() => !!(window as any).__neural?.curriculum?.weights)
+  await page.waitForFunction(() => !!(window as any).__neural?.scoreWeights?.())
   const back = await readState()
   expect(back.white, "persisted reset: still 0/20 after reload").toEqual({ done: 0, total: 20, complete: false })
   expect(back.whiteKeys, "no white.* entries resurrect (all twenty are event-driven)").toBe(0)

@@ -20,13 +20,13 @@ WHAT IT REPORTS, and the claim behind each section:
      reads the folded `attemptProbability` — the no-gi scalar — while `attemptProbabilityByRuleset`
      sits on the same dict on every edge. `--gate` fires on this section and nothing else.
 
-  2. UNSCORED CLASSES. Whole categories with no key in any table: `|Defender`, `|Top` / `|Bottom`,
-     and attacker techniques no position edge targets. These are NOT presented as exemptions and
-     must not become one — naming an exemption is how a defect becomes policy. Whether any of them
-     BELONGS in the score is the owner's call; this sizes it so the call can be made against a
-     number. `docs/Neural.md` called two of them deliberate; the provenance is two agent commits
-     (v1.68.0 introduced the `role != "attacker"` filter while its own message claimed "Nothing is
-     cut now", and v1.138.0 observed the result and labelled it "on purpose"). No human ruled.
+  2. WHAT IS LEFT OUT, and why. Until v1.145.13 this was two whole categories — all 1,326
+     `|Defender` decks and all 272 `|Top`/`|Bottom` decks, 9,071 cards, 41.4% of the corpus,
+     scoring exactly zero on an agent's design decision that no human ever made. The owner ruled:
+     score the whole corpus and let scores fall, while nobody yet holds a belt worth losing. The
+     table now spans three blocks and the only legitimate residue is `orphan` — a technique node
+     no position edge targets, unreachable in the state machine, so no weight is correct for it.
+     A whole ROLE appearing here again means a block stopped producing keys.
 
   3. THE JOIN'S OWN COVERAGE. See the exit rule below.
 
@@ -144,20 +144,37 @@ def score_coverage(decks: dict, graph: dict, tables: dict, write: bool = False) 
         print(f"    weighted {fr:<4}: {len(live) - len(miss):>5}/{len(live):<5} attemptable attacker decks, "
               f"{sum(n[k] for k in live) - sum(n[k] for k in miss):>6,}/{sum(n[k] for k in live):<6,} cards{flag}")
 
-    for label, keys, why in (
-        ("defender", by_role.get("Defender", []), "no |Defender key exists in any weights table"),
-        ("position", by_role.get("Top", []) + by_role.get("Bottom", []),
-         "no |Top / |Bottom key exists in any weights table"),
-        ("orphan", [k for k in attackers if k not in avail],
-         "no position edge targets the node - unreachable in the state machine"),
-    ):
-        if not keys:
-            continue
+    # WHAT IS LEFT OUT, GROUPED BY THE REASON IT IS LEFT OUT — never by a tolerated-class name.
+    # Since v1.145.13 the table spans all three blocks (position / attacker / defender), so a
+    # whole ROLE appearing here again is a block that stopped producing keys, which is the defect
+    # this ledger was written for. `orphan` is the one legitimate residue: a technique node no
+    # position edge targets is unreachable in the state machine, so no weight is the right answer
+    # for it and its defender twin — that is graph wiring, not scoring.
+    orphans = {k for k in attackers if k not in avail}
+    # A technique's defender deck inherits its attacker's reachability: the defender block mirrors
+    # the attacker one, so whatever leaves a technique out of the table leaves both seats out.
+    ruleset = {k for k in attackers if k not in seen and k in avail}
+    for group in (orphans, ruleset):
+        group |= {k.replace("|Attacker", "|Defender") for k in list(group)}
+    groups: dict[str, list] = {}
+    unscored = [k for k in decks if k not in seen]
+    for k in unscored:
+        label = ("orphan" if k in orphans else "ruleset" if k in ruleset
+                 else f"role:{decks[k].get('role')}")
+        groups.setdefault(label, []).append(k)
+    for label, keys in sorted(groups.items()):
+        why = {
+            "orphan": "no position edge targets the node - unreachable, graph wiring, see Group 1",
+            "ruleset": "attemptable in gi only, and the table is solved in the folded no-gi frame "
+                       "- the OPEN defect the ruleset rows above report; both seats, not just the "
+                       "attacker",
+        }.get(label, "IN a scored role yet carrying no key: a block or a join stopped producing")
         led["unscored"][label] = dict(tot(keys), why=why)
-        if label == "orphan":
-            led["unscored"][label]["keys"] = sorted(keys)
+        led["unscored"][label]["keys"] = sorted(keys)[:12]
         t = tot(keys)
-        print(f"    NOT SCORED {label:<9}: {t['decks']:>5} decks / {t['cards']:>6,} cards   ({why})")
+        print(f"    NOT SCORED {label:<12}: {t['decks']:>4} decks / {t['cards']:>6,} cards   ({why})")
+    if not unscored:
+        print("    NOT SCORED none - every authored deck carries a weight")
     print(f"    the score can see {led['scored']['cards']:,} of {total_cards:,} cards "
           f"({led['scored']['card_pct']}%) in {led['scored']['decks']:,} decks")
 
@@ -189,11 +206,11 @@ def main() -> int:
     ap.add_argument("--write", action="store_true", help=f"rewrite {ARTIFACT.relative_to(ROOT)}")
     args = ap.parse_args()
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from regenerate_neural_data import build_flashcards, build_technique_weights
+    from regenerate_neural_data import build_flashcards, build_score_weights
 
     graph = json.loads((ROOT / "graph.json").read_text())
     decks = build_flashcards(graph)
-    w = build_technique_weights(graph)
+    w = build_score_weights(graph)
     # ONE table today, and it is the NO-GI one: `build_technique_weights` reads the folded
     # `attemptProbability`. Asking each frame the same question of it is not a modelling choice,
     # it is the honest statement of what ships — and it is exactly what the gi row reports.

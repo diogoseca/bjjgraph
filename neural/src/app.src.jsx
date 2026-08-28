@@ -5881,10 +5881,33 @@ class Component extends DCLogic {
     for (const g of graded) sum += g;
     return Math.min(1, sum / n);   // clamp: belt AND braces
   }
+  // THE ONE READER OF THE SCORE TABLE, and the only place the wire is expanded (v1.145.13).
+  // `scoreWeights` is `{div, p:{k,v}, t:{k,v}}`: position deck keys once, technique NAMES once,
+  // integers scaled by `div`. Every `t` name carries BOTH seats at the same value — the defender
+  // block IS the attacker block re-keyed, so spelling it twice on the wire bought nothing and
+  // cost 9,048 gzip; the emitter round-trips this expansion and refuses if it ever stops holding.
+  // Memoised on the payload object, not on a version: `curriculum` is assigned once, at fetch.
+  //
+  // `weights` (the old flat, attacker-only table) is still READ when present — the unit fixtures
+  // carry that shape — but is no longer emitted. A payload with neither scores 0 rather than
+  // guessing, which `deckMastery`'s manifest branch exists to make honest rather than silent.
+  scoreWeights() {
+    if (this._scoreW) return this._scoreW;
+    const c = this.curriculum; if (!c) return null;
+    const sw = c.scoreWeights;
+    if (!sw || !sw.t) return (this._scoreW = c.weights || null);
+    const d = sw.div || 1e7, o = {};
+    for (let i = 0; i < sw.p.k.length; i++) if (sw.p.v[i]) o[sw.p.k[i]] = sw.p.v[i] / d;
+    for (let i = 0; i < sw.t.k.length; i++) {
+      const v = sw.t.v[i] / d;
+      if (sw.t.v[i]) { o[sw.t.k[i] + "|Attacker"] = v; o[sw.t.k[i] + "|Defender"] = v; }
+    }
+    return (this._scoreW = o);
+  }
   gameScore() {
     const ver = this._stageVer || 0;
     if (this._scoreCache && this._scoreCache.v === ver) return this._scoreCache.out; // ~21k card reads — memoised per stage change
-    const w = (this.curriculum && this.curriculum.weights) || null;
+    const w = this.scoreWeights();
     const B = this.BELT_SCORE;
     let score = 0;
     if (w) {
@@ -12239,7 +12262,10 @@ class Component extends DCLogic {
   }
   // ── FIRST IMPRESSION: REAL TRAFFIC, NOT A UNIFORM LOTTERY ──
   // Share of real roll traffic per playable position, read off the SAME stationary distribution
-  // Game Knowledge is built on. `curriculum.weights` is keyed "<technique>|Attacker" (exactly the
+  // Game Knowledge is built on. The table is keyed by DECK KEY (v1.145.13 widened it from
+  // "<technique>|Attacker" to the whole corpus; position and |Defender keys resolve to nodes with
+  // no `fromPositionId` and are skipped below, so this distribution is unchanged — measured, the
+  // draw moves by a total variation of 1.2e-6). The technique keys are still exactly the
   // deck key `nodeForKey` resolves), each technique node carries exactly ONE canonical origin
   // (`fromPositionId`), and a position's attempt probabilities sum to 100 — so summing a
   // position's techniques recovers that position's own visit mass. Result: 136 entries summing to
@@ -12256,7 +12282,17 @@ class Component extends DCLogic {
   // the measured six-hub share lands ~.66, i.e. graphAdjacency's own .672, from the leaner input.
   startPosTraffic() {
     if (this._posTraffic) return this._posTraffic;
-    const w = (this.curriculum && this.curriculum.weights) || null;
+    // TECHNIQUE KEYS ONLY, EXPLICITLY (v1.145.13). This sums a technique's weight through its ONE
+    // canonical origin (`fromPositionId`), so a position or `|Defender` key has nothing to
+    // contribute. Leaving them to fall out of the `fromPositionId` guard below LOOKED equivalent
+    // and was not: a position deck key DOES resolve through `nodeForKey`, to a different index
+    // under `?dual=legacy` than under the pair render, so the two produced different traffic
+    // tables and `dual-consumers` went red on a build that was otherwise correct. Filtered here,
+    // this distribution is unchanged BY CONSTRUCTION rather than by accident — measured against
+    // the pre-v1.145.13 table, a total variation of 1.2e-6.
+    const all = this.scoreWeights();
+    const w = all && Object.fromEntries(
+      Object.keys(all).filter((k) => k.endsWith("|Attacker")).map((k) => [k, all[k]]));
     const out = {};
     if (w && this.nodes && this._posSlugIndex) {
       for (const k in w) {

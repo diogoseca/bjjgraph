@@ -1102,8 +1102,137 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
     out = {k: round(v / s2, 8) for k, v in out.items()}
     top = list(out.items())[:3]
     print(f"  weights: {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
+    # `pi` — where the roll SPENDS ITS TIME, keyed the way `build_flashcards` keys a position deck
+    # (the graph names every position hub "... Top"/"... Bottom"; the deck key strips that tail).
+    # It was computed and thrown away for 77 versions while `gameScore` weighted all 272 position
+    # decks at zero. Returned, not re-derived: one power iteration, two readings of it.
+    occ: dict[str, float] = {}
+    for pid, m in pi.items():
+        nm = (positions[pid].get("name") or "")
+        for suf in (" Top", " Bottom"):
+            if nm.endswith(suf):
+                nm = nm[: -len(suf)]
+                break
+        occ[f"{nm}|{(positions[pid].get('role') or '').capitalize()}"] = \
+            occ.get(f"{nm}|{(positions[pid].get('role') or '').capitalize()}", 0.0) + m
+    so = sum(occ.values()) or 1.0
+    return out, {k: round(v / so, 8) for k, v in sorted(occ.items(), key=lambda kv: -kv[1])}
+
+
+# One roll STEP exercises three separable kinds of knowledge, and each happens once per step:
+# where you are, what you do from there, and what is being done to you. So each block is its own
+# distribution summing to 1, and the score is their mean — no free parameter, and no block can be
+# tuned without saying so here.
+SCORE_BLOCKS = ("position", "attacker", "defender")
+
+
+def build_score_weights(graph: dict) -> dict:
+    """The table `gameScore` sums: EVERY authored deck the state machine can reach, not just the
+    attacking third of it.
+
+    WHY THIS IS NOT A TUNING KNOB. `sum(pi)` and `sum(visits)` are both exactly 1.0 because
+    attempt probabilities sum to 100 on 272 of 272 position role-nodes in both rulesets — measured,
+    and `validate_graph_integrity` errors on any frame that does not. Occupancy and visit-rate are
+    therefore two readings of the SAME unit step, not different units, which is what makes a plain
+    mean of three blocks a statement rather than a weighting choice. (A previous session, mine,
+    called them "different units" and used that to argue the split was arbitrary. It was wrong.)
+
+    THE DEFENDER BLOCK MIRRORS THE ATTACKER ONE. Every technique visit is one exchange with two
+    seats: someone performs it and someone receives it. The stationary rate at which you defend
+    technique i is the rate at which it is attempted, so the mirror is the symmetric reading, not
+    an estimate. `docs/Neural.md` used to justify excluding it with "your drilling does not change
+    the opponent's rates" — true, and about the ODDS model. This is a KNOWLEDGE score: knowing the
+    escape is knowledge whether or not it moves their success rate.
+
+    NOTHING HERE DECAYS OR EXPIRES. The score moves only on answers — `deckMastery` is stage-based
+    and the belt cannot drop because time passed. This adds weight to what you have studied; it
+    takes nothing away for not studying. The retention/pressure choice does not arise in a weights
+    table and would arise in `_schedule` (SRS intervals), which is a separate change.
+    """
+    att, occ = build_technique_weights(graph)
+    blocks = {
+        "position": occ,
+        "attacker": att,
+        "defender": {k.replace("|Attacker", "|Defender"): v for k, v in att.items()},
+    }
+    assert set(blocks) == set(SCORE_BLOCKS)
+    out: dict[str, float] = {}
+    for name in SCORE_BLOCKS:
+        b = blocks[name]
+        sb = sum(b.values()) or 1.0
+        if not b:
+            raise SystemExit(
+                f"[neural] score weights: the {name!r} block is EMPTY. A block that stops "
+                f"producing keys makes a third of the corpus silently unscoreable again, which "
+                f"is the exact defect this table exists to close. Refusing to emit."
+            )
+        for k, v in b.items():
+            out[k] = out.get(k, 0.0) + (v / sb) / len(SCORE_BLOCKS)
+    s = sum(out.values()) or 1.0
+    out = {k: round(v / s, 8) for k, v in sorted(out.items(), key=lambda kv: -kv[1])}
+    print(f"  score weights: {len(out)} decks over {len(SCORE_BLOCKS)} blocks "
+          f"({', '.join(f'{n} {len(blocks[n])}' for n in SCORE_BLOCKS)}); "
+          f"heaviest {[(k, round(v, 4)) for k, v in list(out.items())[:3]]}")
     return out
 
+
+
+# Wire divisor for a score weight: each value ships as round(weight * WEIGHT_DIV) and the app
+# divides. An INTEGER divisor, not a float unit, so the wire can represent its own round numbers.
+# 1e7 keeps three significant figures on the lightest deck in the corpus with room to spare, and
+# `_compact_score_weights` refuses rather than letting a real weight round away.
+WEIGHT_DIV = 10_000_000
+
+
+def _compact_score_weights(full: dict) -> dict:
+    """The wire for `build_score_weights`: position keys once, technique names once, one integer
+    each — {div, p:{k,v}, t:{k,v}} — where every `t` name carries BOTH seats at the same value.
+
+    WHY. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and lands the
+    first hand at 382,197 of a 385,000 ceiling — inside the band `payload-first-hand.spec.ts` calls
+    unknown until CI has spoken. The key strings are the entire cost, and 1,269 of the 2,810 are a
+    second spelling of a name already present. Shipping each name once puts it at 88,360 raw /
+    16,708 gzip, which is SMALLER than the attacker-only table it replaces (17,417): the score more
+    than doubles its reach and the boot payload goes DOWN 709 bytes.
+
+    THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
+    IS the attacker block re-keyed, both normalised the same way, so the two values are equal for
+    all 1,269 techniques. The round-trip below asserts exactly that against the expanded dict, so
+    the day anyone makes the seats differ this refuses to emit rather than silently halving one.
+
+    `weights` is deliberately NOT written any more. An older bundle iterating this shape would do
+    `total += w["div"]` and `score += w["p"] * mastery` — arithmetic on an object — and render
+    `Mastered NaN%`. Under a NEW key the same bundle finds nothing, scores 0 and recovers on the
+    next reload, which is the failure worth having.
+    """
+    pos = {k: v for k, v in full.items() if not k.endswith(("|Attacker", "|Defender"))}
+    att = {k[: -len("|Attacker")]: v for k, v in full.items() if k.endswith("|Attacker")}
+    wire = {
+        "div": WEIGHT_DIV,
+        "p": {"k": list(pos), "v": [round(v * WEIGHT_DIV) for v in pos.values()]},
+        "t": {"k": list(att), "v": [round(v * WEIGHT_DIV) for v in att.values()]},
+    }
+    # ROUND-TRIP OR REFUSE. Expand the wire exactly as the app does and compare to the table this
+    # was built from. A compaction that silently drops or halves a block is the same defect class
+    # the whole ledger exists for, so it may not be assumed — it is checked, every run.
+    back = {}
+    for k, v in zip(wire["p"]["k"], wire["p"]["v"]):
+        back[k] = v / WEIGHT_DIV
+    for k, v in zip(wire["t"]["k"], wire["t"]["v"]):
+        back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+    lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
+    drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
+    if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
+        raise SystemExit(
+            f"[neural] score weights: the compact wire does not round-trip — "
+            f"{len(set(full) - set(back))} key(s) missing, {len(set(back) - set(full))} invented, "
+            f"{len(lost)} rounded to zero, max drift {drift:.2e} against a {1.0 / WEIGHT_DIV:.0e} "
+            f"tolerance. The defender seat is spelled once on the assumption that it equals the "
+            f"attacker seat; if that stopped being true, spell both. Refusing to emit."
+        )
+    print(f"  score wire: {len(wire['p']['k'])} position + {len(wire['t']['k'])} technique keys "
+          f"-> {len(back)} decks, round-trip exact to {drift:.1e}")
+    return wire
 
 def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
@@ -1129,13 +1258,14 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
                 lf = lesson_frames(lesson, node)
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
-    cur["weights"] = build_technique_weights(graph)
+    _score_w = build_score_weights(graph)
+    cur["scoreWeights"] = _compact_score_weights(_score_w)
     # PRINTED EVERY RUN, never fatal. The score's own reach is the one thing about `weights` that
     # nothing counted; `validate_score_coverage.py` owns the definition and this is the same call
     # the standalone check makes, so the two can never report different numbers. It reports rather
     # than gates because the fix for what it finds moves every gi player's score — see that file.
     from validate_score_coverage import score_coverage
-    score_coverage(decks, graph, {"gi": cur["weights"], "nogi": cur["weights"]})
+    score_coverage(decks, graph, {"gi": _score_w, "nogi": _score_w})
     (out_dir / "curriculum.json").write_text(
         json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
     return len(cur["belts"])

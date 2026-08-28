@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { allDecks } from "../decks"
 import { journey } from "../dsl"
-import { multiBeltEndgame, CURRICULUM } from "./personas"
+import { multiBeltEndgame, CURRICULUM, curriculumWeights } from "./personas"
 
 /**
  * ENDGAME — THE METER FALLS, THE LEDGER NEVER DOES.
@@ -63,7 +63,7 @@ const qhash = (q: string) => {
 
 const DEMOTED = ["Elbow Escape from Mount|Attacker", "Frame from Side Control|Attacker"] // weighted → their fall moves gameScore
 const HELD = "Hip Escape from Back Control|Attacker" // weighted, untouched → post-score stays > 0 (non-vacuous fall)
-const POSITION_DECK = "Mount|Top" // unweighted evidence + silences the landing question at Mount Top
+const POSITION_DECK = "Mount|Top" // weighted since v1.145.13; silences the landing question at Mount Top
 const DECKS = [...DEMOTED, HELD, POSITION_DECK]
 const CROWN_DECKS = [...DEMOTED, HELD] // white-track lesson rows whose crowns we read
 
@@ -89,9 +89,12 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
     cardTotal += deck.cards.length
   }
   expect(cardTotal, "32 recall-proven cards — clears brown.recall-thirty's 30 at boot").toBe(32)
-  for (const k of [...DEMOTED, HELD])
-    expect(CURRICULUM.weights[k], `${k} carries a gameScore weight`).toBeGreaterThan(0)
-  expect(CURRICULUM.weights[POSITION_DECK], "position decks carry no weight — evidence-only").toBeUndefined()
+  // v1.145.13: the table spans the whole corpus, so a position deck is weighted like anything
+  // else -- it used to be asserted UNWEIGHTED here. `curriculumWeights` expands the compact wire.
+  const WEIGHTS = curriculumWeights()
+  expect(Object.keys(WEIGHTS).length, "the table is populated").toBeGreaterThan(2500)
+  for (const k of [...DEMOTED, HELD, POSITION_DECK])
+    expect(WEIGHTS[k], `${k} carries a gameScore weight`).toBeGreaterThan(0)
 
   const j = journey(page)
   await j.boot("/", {
