@@ -3409,9 +3409,17 @@ class Component extends DCLogic {
     return row;
   }
 
+  // THE LAST ROLLS FOOT IS EMPTY, DELIBERATELY (v1.146.2, owner: "I'm already logged in.
+  // Showing this makes no sense"). It used to carry a signed-in-only pair — a "Continue today"
+  // hero CTA over a quiet "Log out" — pinned under the roll history. Both were duplicates of
+  // surfaces that already own the job and say it better: the Explore stat row's `due` / `new`
+  // cells open the same session (openPlanSession / openSession), and Log out lives in the
+  // account menu (`data-menu-logout`, gated by e2e/journeys/account-menu.spec.ts), which is the
+  // only place auth controls belong. Do not re-add a foot here: `drillFootRef` is SHARED, and
+  // its remaining owner is the study takeover (`_sessionFoot`) — a home-tab foot competes with
+  // it for one slot (see CLAUDE.md 6.5, single-slot resource with many writers).
   renderDrillHome() {
     this.settings = this.settings || {};
-    const goal = this.get("dailyGoal", 30);
     const head = this.drillHeadRef.current, list = this.drillListRef.current, foot = this.drillFootRef.current;
     if (!head || !list) return;
     if (foot) { foot.style.display = "none"; foot.innerHTML = ""; }
@@ -3441,31 +3449,6 @@ class Component extends DCLogic {
 
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
-
-    // hero CTA pinned in the footer — only for signed-in users (guests get the save nudge in the
-    // pane's bottom anchor, renderPaneAnchor)
-    if (foot) {
-      foot.innerHTML = "";
-      if (!this.user) {
-        foot.style.display = "none";
-      } else {
-        foot.style.display = "flex";
-        const cta = document.createElement("button");
-        cta.style.cssText = "width:100%;cursor:pointer;font-family:inherit;border:none;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;align-items:center;gap:2px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 6px 20px rgba(74,108,255,.4);transition:filter .15s,transform .1s;";
-        cta.addEventListener("mouseenter", () => cta.style.filter = "brightness(1.08)");
-        cta.addEventListener("mouseleave", () => cta.style.filter = "none");
-        const left = Math.max(0, goal - (this.cardsToday || 0));
-        const sub = left > 0 ? left + " card" + (left === 1 ? "" : "s") + " left to win gold \uD83E\uDD47" : "Gold earned today \uD83E\uDD47";
-        cta.innerHTML = '<span style="font-size:14px;font-weight:700;color:#fff;">Continue today</span><span style="font-size:10.5px;font-weight:500;color:rgba(255,255,255,.82);">' + sub + '</span>';
-        cta.addEventListener("click", () => this.openSession("suggested", "Suggested for you"));
-        foot.appendChild(cta);
-        const out = document.createElement("button");
-        out.textContent = "Log out";
-        out.style.cssText = "width:100%;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:6px;border-radius:9px;border:none;background:transparent;color:#7e8aa3;";
-        out.addEventListener("click", () => { const A = this._auth(); if (A && A.signOut) { try { A.signOut(); } catch (e) {} } this.user = null; this._pulled = false; this.updateAccountUI(); this.renderDrillHome(); });
-        foot.appendChild(out);
-      }
-    }
   }
 
   _timeBucket(ts) {
