@@ -98,3 +98,69 @@ test("NOTHING IN THE SCORE DECAYS: the same profile scores the same, always", ()
   a.now = (a.now || 0) + 60 * 60 * 24 * 365;   // a year of game clock, no answers
   assert.equal(a.gameScore().score, first, "time alone moved the score");
 });
+
+// ─────────────────────────────────────────────────────────────────────────────────────────────
+// THE TABLE IS PER RULESET (v1.146.0), and this half is invisible to the build-side check.
+//
+// `build_technique_weights` read the folded NO-GI `attemptProbability` for 77 versions while
+// `attemptProbabilityByRuleset` sat on the same dict. 52 techniques are attemptable ONLY in gi --
+// the app's DEFAULT ruleset -- so once v1.145.13 widened the table to both seats, 104 decks and
+// 739 authored cards were dealt, browsable, drillable and worth exactly zero.
+//
+//     scoreWeightsByRuleset = { div, p: {k, gi: [int], nogi: [int]}, t: {k, gi, nogi} }
+//
+// `k` is the UNION of both frames and a ZERO means "not attemptable in this ruleset".
+//
+// What these pin, and each one is a mutant that survived everything else:
+//   6. the frame actually selects -- a gi-only technique scores in gi and is ABSENT in no-gi;
+//   7. the memo is PER FRAME, so the first read cannot pin one ruleset for the session;
+//   8. gameScore's own cache is keyed on the frame, or a toggle keeps printing the other
+//      ruleset's percentage until the next card grade;
+//   9. an older payload (v1.145.13 `scoreWeights`, or a flat `weights`) still scores.
+const FORK = {
+  div: DIV,
+  p: { k: ["Mount|Top", "Mount|Bottom"], gi: [3000000, 1000000], nogi: [3000000, 1000000] },
+  // "Collar Drag" is the gi-only shape: real mass in gi, a positive ZERO in no-gi.
+  t: { k: ["Armbar from Mount", "Collar Drag"], gi: [3000000, 3000000], nogi: [6000000, 0] },
+};
+const forkApp = (stage = {}) => {
+  const a = app({ belts: [], scoreWeightsByRuleset: FORK }, stage);
+  a.flashcards.decks["Collar Drag|Attacker"] = { n: 1 };
+  a.flashcards.decks["Collar Drag|Defender"] = { n: 1 };
+  return a;
+};
+
+test("the frame selects: a gi-only technique is weighted in gi and ABSENT in no-gi", () => {
+  const a = forkApp();
+  assert.equal(a.scoreWeights("gi")["Collar Drag|Attacker"], 0.3);
+  assert.equal(a.scoreWeights("gi")["Collar Drag|Defender"], 0.3, "both seats, as ever");
+  assert.ok(!("Collar Drag|Attacker" in a.scoreWeights("nogi")),
+    "a zero is ABSENT, not present-with-no-mass — it must not pad gameScore's denominator");
+  assert.equal(a.scoreWeights("nogi")["Armbar from Mount|Attacker"], 0.6);
+});
+
+test("the weights memo is per frame — one read cannot pin a ruleset for the session", () => {
+  const a = forkApp();
+  a._giMode = "gi";
+  assert.ok(a.scoreWeights()["Collar Drag|Attacker"] > 0, "default frame follows _giMode");
+  a._giMode = "nogi";
+  assert.ok(!("Collar Drag|Attacker" in a.scoreWeights()),
+    "after the toggle the OTHER frame's table is served, not the memoised first one");
+});
+
+test("gameScore's cache is keyed on the ruleset, not on _stageVer alone", () => {
+  const a = forkApp(proven("Collar Drag|Attacker"));
+  a._giMode = "gi";
+  const gi = a.gameScore().score;
+  a._giMode = "nogi";
+  const nogi = a.gameScore().score;
+  assert.notEqual(gi, nogi,
+    "same _stageVer, different ruleset: a cache keyed on _stageVer alone returns the stale score");
+  assert.ok(gi > nogi, "the drilled deck is weighted in gi and unweighted in no-gi");
+});
+
+test("older payloads still score: v1.145.13 scoreWeights, and the flat weights before it", () => {
+  assert.equal(app({ belts: [], scoreWeights: WIRE }).scoreWeights()["Armbar from Mount|Attacker"], 0.3);
+  assert.deepEqual(app({ belts: [], weights: { "Armbar from Mount|Attacker": 1 } }).scoreWeights(),
+    { "Armbar from Mount|Attacker": 1 });
+});

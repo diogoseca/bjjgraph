@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.146.0** — [THE SCORE COULD NOT SEE ITS OWN RULESET](#v1-146-0-the-score-could-not-see-its-own-ruleset)
 - **v1.145.13** — [THE SCORE COVERS THE WHOLE CORPUS](#v1-145-13-the-score-covers-the-whole-corpus)
 - **v1.145.10** — [WHAT THE SCORE CANNOT SEE, SIZED](#v1-145-10-what-the-score-cannot-see-sized)
 - **v1.145.1** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#v1-145-1-the-collar-choke-that-was-not-a-bug)
@@ -4817,9 +4818,8 @@ script's own header. It read, at the time: defender 1,326 decks / 6,403 cards ·
 what those rows read now.
 
 **The score was blind to 9,121 of 21,915 authored cards (41.6%)**, and until this nothing
-said so. `--gate` makes the ruleset row fatal, wired into no workflow. **Superseded in part by
-v1.145.13**, which closed the two unscored classes; the ruleset row is still open and now spans
-both seats (104 decks / 739 cards).
+said so. **Superseded:** v1.145.13 closed the two unscored classes, v1.146.0 the ruleset row —
+`--gate` is armed in `ci-validate.yml`.
 
 **PROVENANCE: "deliberate" was never decided by a human.** This file said the Defender and position
 zeros were "on purpose". The `role != "attacker"` filter arrived in **v1.68.0** (`86cf84c16`,
@@ -4840,6 +4840,52 @@ reports `1269/1269`, perfectly clean, and the artifact's `unweighted` goes 52/49
 availability join hollowed → `0/1326 (0.0%)`, **exit 1**: zero coverage is fatal even in reporting
 mode (section 6.6), because a per-frame check with an empty denominator prints what a clean run
 prints. `--gate` → exit 1 naming the 52.
+<a id="v1-146-0-the-score-could-not-see-its-own-ruleset"></a>
+
+## v1.146.0 — THE SCORE COULD NOT SEE ITS OWN RULESET
+
+> **Status:** Current. Closes the ruleset row left open by v1.145.10 and restated as unruled by
+> v1.145.13 below, on the owner's ruling ("just ship it, whatever makes sense"). Full measurement
+> set, rejected shapes and mutant table are in this commit's message.
+
+`build_technique_weights` read `edge["attemptProbability"]` — the folded **no-gi** scalar — for 77
+versions while `attemptProbabilityByRuleset` sat on the same dict on **2,541 of 2,541** edges.
+Re-derived from the committed graph before any code: 60 position edges are gi-only and 16
+no-gi-only, so **52 techniques are attemptable only in gi**, the app's DEFAULT ruleset — and once
+v1.145.13 widened the table to both seats that was **104 decks / 739 authored cards** at weight
+zero. Fold direction measured, not assumed: 1,839 edges where the scalar equals `nogi` and differs
+from `gi`, **zero** the other way. `optionsFor` applies no ruleset filter, so all 739 cards were
+dealt, browsable, drillable and worth nothing.
+
+**"It needs a regeneration, not a code change" was FALSE.** The pair is already on the committed
+graph. The only other frame-dependent input is `outcomes[].probability`: across the 1,100 authored
+files in `content/Transitions` + `content/Submissions`, **3,264 of 3,264** outcome maps and **1,100
+of 1,100** `success_rate` maps have `gi == nogi`, enforced because `reduce_to_scalar(frame=None)`
+raises on a divergent map. Unrelated despite the name: `successRateByRuleset` on role-nodes *does*
+diverge (292 of 2,662) — calibration is per frame — but it is not an input here.
+
+**What it costs the player, measured on the whole-corpus table.** Coverage 96.29% → **99.66%**
+(21,840 of 21,915 cards; only 10 orphan decks remain). gi scores **fall**, by 0.005 to 0.028 — a
+top-100 learner crosses blue→white at 0.4005 → 0.3958. Uniform mastery moves exactly zero, as it
+must for two normalised tables, and a learner who has drilled the gi-only decks is **+0.0001**:
+the loss is entirely "weight moved to material you have not studied". **TV(gi,nogi) = 0.0882 here**
+— the 0.1138 quoted from the earlier audit described the *attacker-only* table and is stale.
+Ranking moves more than the score does: **98.5% of the 2,778 shared keys** change rank (median 66,
+p90 386, max 2,484), while the top-10 is unchanged in set *and order* — the head is stable, the
+tail reorders.
+
+**The frame is a required parameter with no default.** A default is how this survived 77 versions:
+it lets a caller re-acquire the bug by omission. Every route to the table now runs through one
+function that will not compile without saying which ruleset it means. Wire:
+`scoreWeightsByRuleset = {div, p:{k,gi,nogi}, t:{k,gi,nogi}}` — keys once, one integer array per
+frame, `k` the union, a zero meaning "not attemptable in this ruleset"; a new key rather than a new
+shape under `scoreWeights`, which is v1.145.13's own reasoning applied to v1.145.13. Two stale
+memos that would have shipped the fix as a lie: `_scoreW` was a single slot (first read pins a
+ruleset forever) and `_scoreCache` was keyed on `_stageVer` alone, which only a card grade bumps.
+`--gate` is now armed in `ci-validate.yml`.
+
+---
+
 
 
 ## v1.145.13 — THE SCORE COVERS THE WHOLE CORPUS
@@ -4891,5 +4937,5 @@ unchanged by construction, not by accident.
 kept as a key · emitter's defender block emptied (refused) · wire drops the defender seat
 (round-trip refused, 1,269 missing).
 
-**STILL OPEN:** the 52 gi-only techniques — widening the table DOUBLED that class to both seats,
-**104 decks / 739 cards**. Not bundled; unruled.
+**Was left open here, closed in v1.146.0 on the owner's ruling:** the 52 gi-only techniques,
+which widening the table doubled to both seats — **104 decks / 739 cards**.

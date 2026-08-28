@@ -494,24 +494,22 @@ tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `
 `sum(visits)` are both exactly 1 — three readings of one unit step.
 
 Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
-**9,071 cards, 41.4%** — scored zero, on an agent's decision no human had made. **Studying a
-position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
 ~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
-Control|Top` leads). The score sees **21,101 of 21,915 cards (96.3%)**;
-`npm run validate:score-coverage` prints the rest.
+Control|Top` leads).
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the belt cannot drop
 because time passed. Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Wire.** `curriculum.scoreWeights` is `{div, p:{k,v}, t:{k,v}}` — position keys once, technique
-NAMES once, ints scaled by `div`, each `t` name carrying **both seats at one value** (the defender
-block is the attacker block re-keyed). `scoreWeights()` is the one expander; the emitter
-round-trips it and refuses if the mirror stops holding. Flat, this cost +8,339 gzip; spelled once
-it is **709 bytes smaller than the attacker-only table it replaces**.
-
-**Still open:** 52 techniques attemptable only in gi — the default ruleset — carry weight 0 in
-both seats (**104 decks, 739 cards**), because the table is solved in the folded no-gi frame.
+**Wire.** `curriculum.scoreWeightsByRuleset` is `{div, p:{k,gi,nogi}, t:{k,gi,nogi}}` — position
+keys once, technique NAMES once, one int array **per ruleset**, each `t` name carrying **both
+seats**. `scoreWeights(frame)` is the one expander; the emitter
+round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
+techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
+scored them 0 in both seats (**104 decks, 739 cards**). `k` is the union, a **zero means "not
+attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
+pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
 Bands: white .20 · blue .40 · purple .60 · brown .70 · black .80. An MC answer caps a card at stage
 2 = 2/3 mastery, so pure recognition tops out at 0.667 — recall is the only route past 0.7 **by

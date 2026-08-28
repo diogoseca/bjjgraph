@@ -5891,23 +5891,46 @@ class Component extends DCLogic {
   // `weights` (the old flat, attacker-only table) is still READ when present — the unit fixtures
   // carry that shape — but is no longer emitted. A payload with neither scores 0 rather than
   // guessing, which `deckMastery`'s manifest branch exists to make honest rather than silent.
-  scoreWeights() {
-    if (this._scoreW) return this._scoreW;
+  // WHICH WEIGHTS TABLE IS MINE — the ONE answer, for every reader (gameScore, startPosTraffic).
+  // The table is per ruleset because the corpus is: 52 techniques are attemptable only in gi and
+  // 16 only in no-gi, so one folded table scored 104 decks / 739 cards at ZERO under gi, which is
+  // the DEFAULT ruleset. A zero in a frame's array means "not attemptable in this ruleset" and is
+  // SKIPPED rather than stored, or gameScore's own denominator would carry mass for a deck the
+  // player can never be dealt.
+  //
+  // THE MEMO IS PER FRAME AND HAS TO BE. It was a single slot (`this._scoreW`), which is fine for
+  // one table and silently wrong for two: the first read would pin whichever ruleset happened to
+  // be active and serve it to the other forever.
+  //
+  // Reads the old shapes where it finds them — `scoreWeights` (v1.145.13) and a flat `weights`
+  // before it — so every fixture carrying one still scores.
+  scoreWeights(frame) {
+    const fr = frame || (this._giMode === "nogi" ? "nogi" : "gi");
     const c = this.curriculum; if (!c) return null;
-    const sw = c.scoreWeights;
-    if (!sw || !sw.t) return (this._scoreW = c.weights || null);
+    const memo = this._scoreW || (this._scoreW = {});
+    if (memo[fr]) return memo[fr];
+    const br = c.scoreWeightsByRuleset;
+    const sw = (br && br.t && br.t[fr]) ? br : c.scoreWeights;
+    if (!sw || !sw.t) return (memo[fr] = c.weights || null);
+    const pv = sw.p[fr] || sw.p.v, tv = sw.t[fr] || sw.t.v;
+    if (!pv || !tv) return (memo[fr] = c.weights || null);
     const d = sw.div || 1e7, o = {};
-    for (let i = 0; i < sw.p.k.length; i++) if (sw.p.v[i]) o[sw.p.k[i]] = sw.p.v[i] / d;
+    for (let i = 0; i < sw.p.k.length; i++) if (pv[i]) o[sw.p.k[i]] = pv[i] / d;
     for (let i = 0; i < sw.t.k.length; i++) {
-      const v = sw.t.v[i] / d;
-      if (sw.t.v[i]) { o[sw.t.k[i] + "|Attacker"] = v; o[sw.t.k[i] + "|Defender"] = v; }
+      const v = tv[i] / d;
+      if (tv[i]) { o[sw.t.k[i] + "|Attacker"] = v; o[sw.t.k[i] + "|Defender"] = v; }
     }
-    return (this._scoreW = o);
+    return (memo[fr] = o);
   }
   gameScore() {
     const ver = this._stageVer || 0;
-    if (this._scoreCache && this._scoreCache.v === ver) return this._scoreCache.out; // ~21k card reads — memoised per stage change
-    const w = this.scoreWeights();
+    // KEYED ON THE FRAME TOO, AND IT HAS TO BE. `_stageVer` is bumped only by a card grade, so
+    // once the weights became per-ruleset a Gi/No-gi toggle would have moved the table under a
+    // cache with no reason to notice — the app would keep printing the other ruleset's percentage
+    // until the user happened to answer a card. A stale memo would have shipped this fix as a lie.
+    const frame = this._giMode === "nogi" ? "nogi" : "gi";
+    if (this._scoreCache && this._scoreCache.v === ver && this._scoreCache.f === frame) return this._scoreCache.out; // ~21k card reads — memoised per (stage, ruleset)
+    const w = this.scoreWeights(frame);
     const B = this.BELT_SCORE;
     let score = 0;
     if (w) {
@@ -5925,7 +5948,7 @@ class Component extends DCLogic {
       next: earned + 1 < B.length ? B[earned + 1][0] : null,
       stripes: hi > lo ? Math.max(0, Math.min(4, Math.floor(((score - lo) / (hi - lo)) * 4))) : 4,
     };
-    this._scoreCache = { v: ver, out: out };
+    this._scoreCache = { v: ver, f: frame, out: out };
     return out;
   }
   // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
@@ -6060,6 +6083,12 @@ class Component extends DCLogic {
     if (m !== "gi" && m !== "nogi") return;
     this._giMode = m;
     try { localStorage.setItem("bjj_gi_mode", m); } catch (e) {}
+    // THE ONE SEAM WHERE THE RULESET CHANGES, so it is where everything derived from the weights
+    // table is released. `_posTraffic` is memoised on first read and carried NO version at all,
+    // which pinned the opening-position bias to whichever ruleset was active at the first roll.
+    // `_scoreW` and `_scoreCache` are keyed per frame and need no release — listed here so the
+    // next reader can see that was checked rather than forgotten.
+    this._posTraffic = null;
     this._explorer = null;
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();

@@ -25,10 +25,13 @@ const soloDeck = async (page: any) => {
       (candidate: string) =>
         ((app.flashcards.decks[candidate] || {}).cards || []).length >= 3,
     )!;
-    // Make this ONE deck the entire curriculum. The compact `scoreWeights` block and the memo it
-    // fills must go with it (v1.145.13): `scoreWeights()` prefers the block and caches on first
-    // read, so overwriting only the flat `weights` would leave the real 2,810-deck table in
-    // charge and this deck would be a rounding error instead of the whole score.
+    // Make this ONE deck the entire curriculum. EVERY compact block and the memo they fill must
+    // go with it: `scoreWeights()` prefers `scoreWeightsByRuleset` (v1.146.0), then
+    // `scoreWeights` (v1.145.13), then the flat `weights`, and caches per frame on first read —
+    // so overwriting only the flat table would leave the real 2,882-deck one in charge and this
+    // deck would be a rounding error instead of the whole score. Deleting both forks rather than
+    // seeding one keeps the subject here the score's ARITHMETIC, not a ruleset.
+    delete app.curriculum.scoreWeightsByRuleset;
     delete app.curriculum.scoreWeights;
     app._scoreW = null;
     app.curriculum.weights = { [key]: 1 };

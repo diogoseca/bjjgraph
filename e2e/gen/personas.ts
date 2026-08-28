@@ -23,19 +23,27 @@ export const CURRICULUM = JSON.parse(
 );
 
 /**
- * The Game Knowledge weight table, expanded from the compact wire (v1.145.13:
- * `scoreWeights = {div, p:{k,v}, t:{k,v}}`, where every `t` name carries both seats at the same
- * value). Mirrors `scoreWeights()` in app.src.jsx. There is no flat `curriculum.weights` any
- * more: reading one hands a spec `undefined` for every key, which turns a `toBeGreaterThan`
- * red and -- far worse -- a `toBeUndefined` permanently green.
+ * The Game Knowledge weight table for one ruleset, expanded from the compact wire (v1.146.0:
+ * `scoreWeightsByRuleset = {div, p:{k, gi, nogi}, t:{k, gi, nogi}}`, where every `t` name carries
+ * both seats at the same value). Mirrors `scoreWeights(frame)` in app.src.jsx, including the rule
+ * that a ZERO means "not attemptable in this ruleset" and is therefore absent, not
+ * present-with-no-mass.
+ *
+ * THE FRAME MATTERS AND DEFAULTS THE WAY THE APP DOES (gi): 52 techniques are attemptable only in
+ * gi and 16 only in no-gi, so the two frames do not span the same keys. A spec that reads the
+ * wrong frame gets `undefined` for a key that really is weighted, which turns a `toBeGreaterThan`
+ * red and -- far worse -- a `toBeUndefined` permanently green. Older shapes are read where found.
  */
-export function curriculumWeights(): Record<string, number> {
-  const sw = CURRICULUM.scoreWeights;
+export function curriculumWeights(frame: "gi" | "nogi" = "gi"): Record<string, number> {
+  const br = CURRICULUM.scoreWeightsByRuleset;
+  const sw = br?.t?.[frame] ? br : CURRICULUM.scoreWeights;
   if (!sw?.t) return CURRICULUM.weights ?? {}; // pre-v1.145.13 payload
+  const pv = sw.p[frame] ?? sw.p.v, tv = sw.t[frame] ?? sw.t.v;
+  if (!pv || !tv) return CURRICULUM.weights ?? {};
   const out: Record<string, number> = {};
-  sw.p.k.forEach((k: string, i: number) => { if (sw.p.v[i]) out[k] = sw.p.v[i] / sw.div; });
+  sw.p.k.forEach((k: string, i: number) => { if (pv[i]) out[k] = pv[i] / sw.div; });
   sw.t.k.forEach((k: string, i: number) => {
-    if (sw.t.v[i]) out[`${k}|Attacker`] = out[`${k}|Defender`] = sw.t.v[i] / sw.div;
+    if (tv[i]) out[`${k}|Attacker`] = out[`${k}|Defender`] = tv[i] / sw.div;
   });
   return out;
 }

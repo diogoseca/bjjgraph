@@ -88,6 +88,18 @@ jobs:
       - name: Seat-deck invariant (gate)
         run: npm run validate:seats
 
+      # THE SCORE MUST BE ABLE TO SEE ITS OWN RULESET (v1.146.0). `--gate` fires on section 1
+      # only: a frame that scores an ATTEMPTABLE technique at zero. Written in v1.145.10 and
+      # deliberately left wired into no workflow, because the defect it fires on was still
+      # shipping -- 52 gi-only techniques at weight 0 under the DEFAULT ruleset, which v1.145.13
+      # widened to 104 decks / 739 cards across both seats. That is fixed, so the gate is armed.
+      # It is what stops the folded `attemptProbability` coming back: every route to this bug runs
+      # through one function, and a caller that omits the frame no longer compiles.
+      # Reads the COMMITTED graph.json through the emitter's own functions, so it is
+      # self-contained here and does not need the payload emit below.
+      - name: Score covers its ruleset (gate)
+        run: npm run validate:score-coverage:gate
+
       # THE CORPUS THE STEPS BELOW READ IS GENERATED, NOT COMMITTED (v1.129.2).
       # `source/quartz/static/neural/` is gitignored in its entirety (.gitignore:71), so
       # `graph-data.json`, `curriculum.json` and the flashcard chunks do not exist on a fresh

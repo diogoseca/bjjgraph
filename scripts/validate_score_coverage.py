@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""validate_score_coverage.py — what Game Knowledge can SEE, REPORTED, not gated.
+"""validate_score_coverage.py — what Game Knowledge can SEE. Section 1 is GATED.
 
 `curriculum.weights` is the only thing the app's `gameScore` sums (`neural/src/app.src.jsx`), so a
 deck with no key in it is not scored low — it is INVISIBLE. Mastering every card in it moves the
@@ -202,7 +202,7 @@ def score_coverage(decks: dict, graph: dict, tables: dict, write: bool = False) 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--gate", action="store_true",
-                    help="make the RULESET section fatal (wired into no workflow; see the header)")
+                    help="make the RULESET section fatal (armed in ci-validate.yml since v1.146.0)")
     ap.add_argument("--write", action="store_true", help=f"rewrite {ARTIFACT.relative_to(ROOT)}")
     args = ap.parse_args()
     sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -210,11 +210,13 @@ def main() -> int:
 
     graph = json.loads((ROOT / "graph.json").read_text())
     decks = build_flashcards(graph)
-    w = build_score_weights(graph)
-    # ONE table today, and it is the NO-GI one: `build_technique_weights` reads the folded
-    # `attemptProbability`. Asking each frame the same question of it is not a modelling choice,
-    # it is the honest statement of what ships — and it is exactly what the gi row reports.
-    led = score_coverage(decks, graph, {"gi": w, "nogi": w}, write=args.write)
+    # ONE TABLE PER FRAME, which is what ships since v1.146.0. Until then there was one table and
+    # it was the NO-GI one — `build_technique_weights` read the folded `attemptProbability` — so
+    # this asked each frame the same question of it, and that is exactly what the ruleset row
+    # reported: 104 decks / 739 cards attemptable in gi only and weighed at zero. Building the
+    # pair here rather than folding is the whole subject of section 1; do not collapse it back.
+    tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
+    led = score_coverage(decks, graph, tables, write=args.write)
 
     bad = {fr: r for fr, r in led["ruleset"].items() if r["unweighted"]["decks"]}
     if bad and args.gate:

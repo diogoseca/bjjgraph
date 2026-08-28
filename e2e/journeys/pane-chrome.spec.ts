@@ -237,8 +237,11 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   // itself is gone since v1.98.1 — the subtitle is the score's one visual.)
   await page.evaluate(() => {
     const a = (window as any).__neural
+    // `f` is REQUIRED since v1.146.0 — see belt-meter.spec.ts. gameScore memoises on
+    // (_stageVer, frame) because the weights table is per ruleset; a seed without it misses.
     a._scoreCache = {
       v: a._stageVer || 0,
+      f: a._giMode === "nogi" ? "nogi" : "gi",
       out: { score: 0.65, belt: "purple", next: "brown", stripes: 2 },
     }
     a.renderTabSubtitles()

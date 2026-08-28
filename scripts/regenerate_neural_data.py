@@ -1022,9 +1022,17 @@ def deck_name(key: str) -> str:
     return key.rsplit("|", 1)[0]
 
 
-def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -> dict:
-    """How often a roll ACTUALLY passes through each technique — the graph's stationary
-    distribution, not a cutoff.
+def build_technique_weights(graph: dict, frame: str, iters: int = 240, damp: float = 0.85) -> dict:
+    """How often a roll ACTUALLY passes through each technique IN `frame` — the graph's
+    stationary distribution, not a cutoff.
+
+    THE FRAME IS REQUIRED, WITH NO DEFAULT, ON PURPOSE. This read `edge["attemptProbability"]`
+    — the folded NO-GI scalar — for 77 versions while `attemptProbabilityByRuleset` sat on the
+    same dict on all 2,541 edges. 52 techniques are attemptable ONLY in gi, which is the app's
+    DEFAULT ruleset, so they scored ZERO; once v1.145.13 widened the table to both seats that
+    was 104 decks and 739 authored cards. A default here would let a caller re-acquire the bug
+    by omission, which is how it survived 77 versions in the first place — so callers say it.
+    Both returned tables are driven by the SAME walk, so the frame fixes occupancy too.
 
     The state machine is a Markov chain: position-role --attempt_probability--> technique
     --outcome probability--> position-role. Power-iterate the position distribution, then read
@@ -1070,7 +1078,7 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
             if mass <= 0:
                 continue
             for edge in positions[pid].get("transitions") or []:
-                ap = edge.get("attemptProbability")
+                ap = _frame_attempt(edge, frame)
                 tgt = edge.get("target")
                 if not tgt or not isinstance(ap, (int, float)):
                     continue
@@ -1101,7 +1109,7 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
     s2 = sum(out.values()) or 1.0
     out = {k: round(v / s2, 8) for k, v in out.items()}
     top = list(out.items())[:3]
-    print(f"  weights: {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
+    print(f"  weights ({frame}): {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
     # `pi` — where the roll SPENDS ITS TIME, keyed the way `build_flashcards` keys a position deck
     # (the graph names every position hub "... Top"/"... Bottom"; the deck key strips that tail).
     # It was computed and thrown away for 77 versions while `gameScore` weighted all 272 position
@@ -1126,7 +1134,7 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
 SCORE_BLOCKS = ("position", "attacker", "defender")
 
 
-def build_score_weights(graph: dict) -> dict:
+def build_score_weights(graph: dict, frame: str) -> dict:
     """The table `gameScore` sums: EVERY authored deck the state machine can reach, not just the
     attacking third of it.
 
@@ -1149,7 +1157,7 @@ def build_score_weights(graph: dict) -> dict:
     takes nothing away for not studying. The retention/pressure choice does not arise in a weights
     table and would arise in `_schedule` (SRS intervals), which is a separate change.
     """
-    att, occ = build_technique_weights(graph)
+    att, occ = build_technique_weights(graph, frame)
     blocks = {
         "position": occ,
         "attacker": att,
@@ -1170,7 +1178,7 @@ def build_score_weights(graph: dict) -> dict:
             out[k] = out.get(k, 0.0) + (v / sb) / len(SCORE_BLOCKS)
     s = sum(out.values()) or 1.0
     out = {k: round(v / s, 8) for k, v in sorted(out.items(), key=lambda kv: -kv[1])}
-    print(f"  score weights: {len(out)} decks over {len(SCORE_BLOCKS)} blocks "
+    print(f"  score weights ({frame}): {len(out)} decks over {len(SCORE_BLOCKS)} blocks "
           f"({', '.join(f'{n} {len(blocks[n])}' for n in SCORE_BLOCKS)}); "
           f"heaviest {[(k, round(v, 4)) for k, v in list(out.items())[:3]]}")
     return out
@@ -1184,54 +1192,85 @@ def build_score_weights(graph: dict) -> dict:
 WEIGHT_DIV = 10_000_000
 
 
-def _compact_score_weights(full: dict) -> dict:
-    """The wire for `build_score_weights`: position keys once, technique names once, one integer
-    each — {div, p:{k,v}, t:{k,v}} — where every `t` name carries BOTH seats at the same value.
+def _compact_score_weights(tables: dict) -> dict:
+    """The wire for `build_score_weights`, BOTH RULESETS: position keys once, technique names
+    once, one integer per frame each — {div, p:{k, gi, nogi}, t:{k, gi, nogi}} — where every `t`
+    name carries both seats at the same value.
 
-    WHY. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and lands the
-    first hand at 382,197 of a 385,000 ceiling — inside the band `payload-first-hand.spec.ts` calls
-    unknown until CI has spoken. The key strings are the entire cost, and 1,269 of the 2,810 are a
-    second spelling of a name already present. Shipping each name once puts it at 88,360 raw /
-    16,708 gzip, which is SMALLER than the attacker-only table it replaces (17,417): the score more
-    than doubles its reach and the boot payload goes DOWN 709 bytes.
+    WHY KEYS ONCE. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and
+    lands the first hand at 382,197 of a 385,000 ceiling. The key strings are the entire cost, and
+    1,269 of the 2,810 are a second spelling of a name already present. Shipping each name once
+    and hanging one integer array per frame off it means the SECOND ruleset costs only integers.
+
+    WHY THE UNION, AND WHY A ZERO IS MEANINGFUL. The two frames do not span the same techniques:
+    52 are attemptable only in gi and 16 only in no-gi. `k` is therefore the union and a ZERO in a
+    frame's array means "not attemptable in this ruleset" — the app skips it rather than storing a
+    key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
+    this divisor means something else entirely and is refused below, not shipped.
 
     THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
     IS the attacker block re-keyed, both normalised the same way, so the two values are equal for
-    all 1,269 techniques. The round-trip below asserts exactly that against the expanded dict, so
-    the day anyone makes the seats differ this refuses to emit rather than silently halving one.
+    every technique. The round-trip asserts exactly that, per frame, against the table it was built
+    from — the day anyone makes the seats differ this refuses to emit rather than silently halving
+    one.
 
-    `weights` is deliberately NOT written any more. An older bundle iterating this shape would do
-    `total += w["div"]` and `score += w["p"] * mastery` — arithmetic on an object — and render
-    `Mastered NaN%`. Under a NEW key the same bundle finds nothing, scores 0 and recovers on the
-    next reload, which is the failure worth having.
+    A NEW KEY, NOT A NEW SHAPE UNDER THE OLD ONE. `scoreWeights` (v1.145.13) and `weights` before
+    it are both left unwritten. An older bundle meeting a changed shape under a key it already
+    reads would do arithmetic on an object and render `Mastered NaN%`; under a new key it finds
+    nothing, scores 0, and recovers on the next reload. That is the failure worth having, and it
+    is v1.145.13's own reasoning applied to v1.145.13.
     """
-    pos = {k: v for k, v in full.items() if not k.endswith(("|Attacker", "|Defender"))}
-    att = {k[: -len("|Attacker")]: v for k, v in full.items() if k.endswith("|Attacker")}
-    wire = {
-        "div": WEIGHT_DIV,
-        "p": {"k": list(pos), "v": [round(v * WEIGHT_DIV) for v in pos.values()]},
-        "t": {"k": list(att), "v": [round(v * WEIGHT_DIV) for v in att.values()]},
-    }
-    # ROUND-TRIP OR REFUSE. Expand the wire exactly as the app does and compare to the table this
-    # was built from. A compaction that silently drops or halves a block is the same defect class
-    # the whole ledger exists for, so it may not be assumed — it is checked, every run.
-    back = {}
-    for k, v in zip(wire["p"]["k"], wire["p"]["v"]):
-        back[k] = v / WEIGHT_DIV
-    for k, v in zip(wire["t"]["k"], wire["t"]["v"]):
-        back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
-    lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
-    drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
-    if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
-        raise SystemExit(
-            f"[neural] score weights: the compact wire does not round-trip — "
-            f"{len(set(full) - set(back))} key(s) missing, {len(set(back) - set(full))} invented, "
-            f"{len(lost)} rounded to zero, max drift {drift:.2e} against a {1.0 / WEIGHT_DIV:.0e} "
-            f"tolerance. The defender seat is spelled once on the assumption that it equals the "
-            f"attacker seat; if that stopped being true, spell both. Refusing to emit."
-        )
-    print(f"  score wire: {len(wire['p']['k'])} position + {len(wire['t']['k'])} technique keys "
-          f"-> {len(back)} decks, round-trip exact to {drift:.1e}")
+    frames = tuple(sorted(tables))
+    def split(t):
+        pos = {k: v for k, v in t.items() if not k.endswith(("|Attacker", "|Defender"))}
+        att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
+        return pos, att
+    parts = {fr: split(tables[fr]) for fr in frames}
+    pk = sorted({k for fr in frames for k in parts[fr][0]},
+                key=lambda k: -max(parts[fr][0].get(k, 0.0) for fr in frames))
+    tk = sorted({k for fr in frames for k in parts[fr][1]},
+                key=lambda k: -max(parts[fr][1].get(k, 0.0) for fr in frames))
+    wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
+    for fr in frames:
+        pos, att = parts[fr]
+        for slot, keys, src in (("p", pk, pos), ("t", tk, att)):
+            vals = [round(src.get(k, 0.0) * WEIGHT_DIV) for k in keys]
+            lost = [k for i, k in enumerate(keys) if src.get(k, 0.0) > 0 and vals[i] == 0]
+            if lost:
+                raise SystemExit(
+                    f"[neural] score weights ({fr}/{slot}): {len(lost)} key(s) carry real "
+                    f"stationary mass that rounds to zero at the wire divisor {WEIGHT_DIV:,}, "
+                    f"e.g. {lost[:3]}. A zero weight is INVISIBLE to gameScore, not merely small, "
+                    f"and in this wire it positively means 'not attemptable in this ruleset'. "
+                    f"Raise WEIGHT_DIV rather than shipping a silent hole."
+                )
+            wire[slot][fr] = vals
+    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does and compare to the
+    # table it was built from. A compaction that silently drops or halves a block is the same
+    # defect class this whole ledger exists for, so it is checked, every run, for both rulesets.
+    for fr in frames:
+        full = tables[fr]
+        back = {}
+        for k, v in zip(wire["p"]["k"], wire["p"][fr]):
+            if v:
+                back[k] = v / WEIGHT_DIV
+        for k, v in zip(wire["t"]["k"], wire["t"][fr]):
+            if v:
+                back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+        lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
+        drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
+        if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
+            raise SystemExit(
+                f"[neural] score weights ({fr}): the compact wire does not round-trip — "
+                f"{len(set(full) - set(back))} key(s) missing, {len(set(back) - set(full))} "
+                f"invented, {len(lost)} rounded to zero, max drift {drift:.2e} against a "
+                f"{1.0 / WEIGHT_DIV:.0e} tolerance. The defender seat is spelled once on the "
+                f"assumption that it equals the attacker seat; if that stopped being true, spell "
+                f"both. Refusing to emit."
+            )
+    print(f"  score weights wire: {len(pk)} position + {len(tk)} technique keys x {len(frames)} "
+          f"frames at 1/{WEIGHT_DIV:,} ("
+          + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
     return wire
 
 def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
@@ -1258,14 +1297,15 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
                 lf = lesson_frames(lesson, node)
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
-    _score_w = build_score_weights(graph)
-    cur["scoreWeights"] = _compact_score_weights(_score_w)
-    # PRINTED EVERY RUN, never fatal. The score's own reach is the one thing about `weights` that
-    # nothing counted; `validate_score_coverage.py` owns the definition and this is the same call
-    # the standalone check makes, so the two can never report different numbers. It reports rather
-    # than gates because the fix for what it finds moves every gi player's score — see that file.
+    tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
+    cur["scoreWeightsByRuleset"] = _compact_score_weights(tables)
+    # PRINTED EVERY RUN, never fatal here — `validate_score_coverage.py` owns the definition and
+    # this is the same call the standalone check makes, so the two can never report different
+    # numbers. It is handed the REAL per-frame pair: until v1.146.0 both arguments were the one
+    # folded no-gi table, which is why its ruleset row read 104 decks / 739 cards. The gate that
+    # makes that fatal is `npm run validate:score-coverage -- --gate`, armed in ci-validate.yml.
     from validate_score_coverage import score_coverage
-    score_coverage(decks, graph, {"gi": _score_w, "nogi": _score_w})
+    score_coverage(decks, graph, tables)
     (out_dir / "curriculum.json").write_text(
         json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
     return len(cur["belts"])
