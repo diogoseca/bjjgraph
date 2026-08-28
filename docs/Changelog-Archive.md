@@ -33,7 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
-- **vATPUSH** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#vATPUSH-the-collar-choke-that-was-not-a-bug)
+- **v1.145.1** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#v1-145-1-the-collar-choke-that-was-not-a-bug)
 - **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
 - **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
@@ -4695,9 +4695,9 @@ anybody, so they shouldn't be available to me right?" Right — and chasing it f
 
 ---
 
-<a id="vATPUSH-the-collar-choke-that-was-not-a-bug"></a>
+<a id="v1-145-1-the-collar-choke-that-was-not-a-bug"></a>
 
-## vATPUSH — THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL
+## v1.145.1 — THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL
 
 > **Status:** Current. No content value was changed by this entry's commit.
 
