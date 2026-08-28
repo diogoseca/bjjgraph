@@ -337,6 +337,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
+| the pane's tabs (click AND swipe) | `NG_PANE_TABS` · `setViewMode` · `_paneTabPageTo` · `_paneGestureDir` |
 | build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |
 
 ---

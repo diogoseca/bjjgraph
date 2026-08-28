@@ -56,6 +56,13 @@ const NG_EDGE_SAT = 15;
 //   by EDGE, so the first ten are the likeliest picks; card 11+ hydrates on demand through the
 //   existing "Loading this state's cards…" path. Ten keeps the payload byte-identical to today.
 const NG_PREFETCH_CAP = 10;
+// THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
+// halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
+// strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
+// `xdc-template.html`, deliberately and permanently: a pager whose index disagrees with what the
+// eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
+// copy for `history` — the view ids never migrated (v1.95.0).
+const NG_PANE_TABS = ["explore", "challenges", "history"];
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -639,19 +646,101 @@ class Component extends DCLogic {
     // restore above; keep it that cheap, it runs on every event.
     window.addEventListener("keydown", () => { this._kbNav = true; }, true);
     window.addEventListener("pointerdown", () => { this._kbNav = false; }, true);
-    // swipe gestures on the drill panel: left/right = prev/next, down = reveal/got it, up = review again
+    // ── PANE GESTURES ── TWO pagers, ONE binding, because they share one element and the pane is
+    // only ever in one of the two modes (`_layoutPane` hides the nav for the other):
+    //   · a STUDY surface (`isDrillOpen`) pages its CARD deck — left/right = prev/next,
+    //     down = reveal / got it, up = review again. The original, unchanged.
+    //   · TABS MODE pages the TAB BAR — Explore ‹ Challenges ‹ Last rolls (v1.147.0, owner:
+    //     "users try to scroll left and right"). A three-tab nav on a phone IS a pager whether
+    //     or not anybody wired one, and every visitor arrives already knowing the gesture.
+    // Nothing here calls preventDefault (all listeners passive), so native vertical scrolling in
+    // the pane's own scroller is never fought for — the axis test alone decides. KNOWN AND
+    // UNAVOIDABLE HERE: on iOS a rightward drag begun within a few px of the LEFT SCREEN EDGE is
+    // the browser's own back gesture and never reaches this listener; taking it would mean a
+    // non-passive touchmove on the pane's scroller, which is the worse trade.
     const drill = this.drillRef.current;
     if (drill) {
-      let sx = 0, sy = 0, st = 0, tracking = false;
-      drill.addEventListener("touchstart", (e) => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); tracking = true; }, { passive: true });
+      let sx = 0, sy = 0, st = 0, tracking = false, hscroll = false, moved = 0, movedAt = 0;
+      let wAcc = 0, wLast = 0, wCool = 0;
+      // A gesture that BEGINS inside a horizontal scroller belongs to that scroller, not to the
+      // pager. Written AHEAD of one rather than in response to one, and the distinction is worth
+      // keeping honest: the app's horizontal-scroller idiom is `.ng-cliprow` (`filmStudyHTML`),
+      // and at v1.147.0 both of its mount points — the option-detail sheet and the landing card —
+      // are OUTSIDE this element, so the pane has no reachable scroller today. It is a matter of
+      // one row being added to a Challenges or Explore body, and a pager that eats that row's
+      // drag is the kind of defect nobody attributes to the pager. Measured at touchstart, where
+      // the target is still the element the finger actually went down on; the `+4` is the
+      // sub-pixel slack a fractional layout leaves on an element that does NOT overflow.
+      const inHScroller = (t) => {
+        for (let el = t; el && el !== drill; el = el.parentElement) {
+          if (el.scrollWidth > el.clientWidth + 4) {
+            const ov = getComputedStyle(el).overflowX;
+            if (ov === "auto" || ov === "scroll") return true;
+          }
+        }
+        return false;
+      };
+      drill.addEventListener("touchstart", (e) => {
+        // a second finger is a pinch, not a swipe — and it arrives as its own touchstart, so
+        // without this the pair resolves to one very fast horizontal drag and pages the nav
+        if (e.touches && e.touches.length > 1) { tracking = false; return; }
+        const t = e.changedTouches[0];
+        sx = t.clientX; sy = t.clientY; st = Date.now(); tracking = true; moved = 0;
+        hscroll = inHScroller(e.target);
+      }, { passive: true });
       drill.addEventListener("touchend", (e) => {
-        if (!tracking || !this.isDrillOpen()) { tracking = false; return; }
+        if (!tracking) return;
         tracking = false;
         const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = t.clientY - sy;
+        moved = Math.max(Math.abs(dx), Math.abs(dy)); movedAt = Date.now();
         if (Date.now() - st > 700) return;
-        if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
-        if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
-        else { if (dy > 0) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } else { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+        if (this.isDrillOpen()) {
+          if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
+          if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
+          else { if (dy > 0) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } else { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+          return;
+        }
+        // tabs mode: HORIZONTAL-DOMINANT ONLY. The pane's body is a tall scroller and its
+        // vertical axis is not ours to take — the landing card's rule (v1.130.0), same numbers.
+        if (hscroll) return;
+        if (Math.abs(dx) < 40 || Math.abs(dx) <= Math.abs(dy)) return;
+        this._paneTabPageTo(this._paneGestureDir(dx, drill));
+      }, { passive: true });
+      // A SWIPE IS NOT A TAP. The pane is built almost entirely OUT of buttons — lesson rows,
+      // belt folds, list rows, the tab bar itself — so without this the click the browser
+      // synthesizes at the end of a swipe opens whatever the finger happened to lift over. The
+      // option tray's lesson, by way of the landing card, with TWO changes this surface needs
+      // and those did not:
+      //   · 16px, not the landing card's 6. A thumb on a list of rows is not a thumb on four MC
+      //     buttons: the browser's own tap slop is ~8px (Chrome) to ~10px (iOS), so 6 sits UNDER
+      //     the movement a browser still calls a tap and a shaky press on a lesson row would be
+      //     swallowed with nothing to show for it. 16 is clear of both, and the pager needs 40.
+      //   · the latch EXPIRES. This element lives for the whole session, where the landing card
+      //     dies with `clearLandCard` — a `moved` left standing by a swipe that ended over dead
+      //     space must never eat a real click minutes later.
+      drill.addEventListener("click", (e) => {
+        if (moved > 16 && Date.now() - movedAt < 700) { e.stopPropagation(); e.preventDefault(); }
+        moved = 0;
+      }, true);
+      // Trackpad "scroll left or right" — the same pager, the same accumulate-and-cool numbers as
+      // the landing card's wheel handler. deltaX-dominant only, so a vertical wheel keeps
+      // scrolling the pane. NB a wheel's deltaX is already in CONTENT space (positive = content
+      // moves left = forward), the opposite sign convention to a finger's dx — hence the flip.
+      drill.addEventListener("wheel", (e) => {
+        // no study check here: `_paneTabPageTo` owns that rule and refuses on its own. It was
+        // written out a second time and MEASURED redundant (the double mutant in
+        // pane-tab-swipe.spec.ts's header) — one rule, one place.
+        if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+        if (inHScroller(e.target)) return;
+        const now = Date.now();
+        if (now - wLast > 300) wAcc = 0;
+        wLast = now;
+        wAcc += e.deltaX;
+        if (Math.abs(wAcc) >= 60 && now - wCool >= 350) {
+          wCool = now;
+          this._paneTabPageTo(this._paneGestureDir(-wAcc, drill));
+          wAcc = 0;
+        }
       }, { passive: true });
     }
     this.mastered = new Set();
@@ -5739,7 +5828,7 @@ class Component extends DCLogic {
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
-    if (m !== "explore" && m !== "challenges" && m !== "history") return;
+    if (NG_PANE_TABS.indexOf(m) < 0) return;
     if (this._viewMode === m) return;
     // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
@@ -5754,6 +5843,78 @@ class Component extends DCLogic {
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
     this._renderPaneBody();
+  }
+  /**
+   * PAGE THE PANE'S TABS BY GESTURE (v1.147.0, owner: "users try to scroll left and right").
+   * ONE seam for every non-click way to change tab — `dir` is in NAV SPACE: +1 is the tab drawn
+   * to the RIGHT of the active one, -1 the one to its left. Callers hand over a gesture and the
+   * finger→nav conversion happens in `_paneGestureDir`, once, for the same reason `techniqueOrigin`
+   * exists: a direction rule written in two places disagrees with itself exactly once.
+   *
+   * Clamps at both ends, like `_landPageTo`. A pager that WRAPS teaches the wrong map — one swipe
+   * past the end teleports you across the whole nav, and no gesture is left meaning "you are at
+   * the edge".
+   */
+  _paneTabPageTo(dir) {
+    if (!this.deckShown || this._paneStudyActive()) return false; // a study surface owns the pane; its nav is hidden
+    const at = NG_PANE_TABS.indexOf(this._viewMode);
+    if (at < 0) return false;
+    const next = Math.max(0, Math.min(NG_PANE_TABS.length - 1, at + (dir > 0 ? 1 : -1)));
+    if (next === at) return false;
+    const from = NG_PANE_TABS[at];
+    const sign = next > at ? 1 : -1;
+    this.setViewMode(NG_PANE_TABS[next]);
+    this._paneSlideBody(sign);
+    this.fx("pane_tab_paged", { from: from, to: NG_PANE_TABS[next], dir: sign });
+    return true;
+  }
+  /**
+   * FINGER → NAV, and the answer to "should it be inverted?": no.
+   *
+   * THE CONTENT FOLLOWS THE FINGER. Dragging leftward pulls the tab on the right into view, so
+   * `dx < 0` is +1. That is UIPageViewController, Android ViewPager2 and every tabbed phone app
+   * the visitor already owns — and it is ALSO this app's own landing card
+   * (`_landPageTo(dx < 0 ? 1 : -1)`, v1.130.0). Two pagers inside one drawer disagreeing about
+   * which way is forward would be the defect, whatever the merits of the other convention.
+   *
+   * THERE IS NO DEVICE PREFERENCE TO READ — written down so nobody goes looking again. No web
+   * API exposes a swipe-direction or "natural scrolling" setting: `navigator`, `matchMedia` and
+   * the pointer events are all silent on it. macOS "natural scrolling" inverts WHEEL deltas
+   * inside the OS, so the browser is handed an already-flipped number and cannot tell; a touch
+   * gesture is never flipped at all, on any platform. The one REAL device signal is WRITING
+   * DIRECTION: under `dir="rtl"` the nav lays itself out history|challenges|explore, so the same
+   * drag must move the other way. Read it off the element that actually laid out — never off a
+   * language guess, because the browser has already done that work and can be overridden per page.
+   */
+  _paneGestureDir(dx, el) {
+    let rtl = false;
+    try { rtl = getComputedStyle(el || this.drillRef.current).direction === "rtl"; } catch (e) {}
+    return (dx < 0 ? 1 : -1) * (rtl ? -1 : 1);
+  }
+  /**
+   * The incoming body slides in from the side the finger pulled it from. This is the only thing
+   * that distinguishes "my swipe worked" from "the tab changed"; it is also how the gesture
+   * ADVERTISES itself, which is the actual complaint being fixed — people were already swiping.
+   * Transform + opacity only (no layout), cleared on completion so a scroller is never left
+   * holding a containing block it does not need. `prefers-reduced-motion` skips the animation,
+   * never the tab change.
+   */
+  _paneSlideBody(sign) {
+    if (this._reducedMotion()) return;
+    const el = this._viewMode === "history" ? this.drillListRef.current : this.explorerListRef.current;
+    if (!el) return;
+    clearTimeout(this._paneSlideT);
+    el.style.transition = "none";
+    el.style.transform = "translateX(" + (sign > 0 ? 18 : -18) + "px)";
+    el.style.opacity = "0.55";
+    // two frames: one commits the offset, the next transitions off it. A single rAF lands both
+    // writes in one style recalculation and nothing moves.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      el.style.transition = "transform .18s cubic-bezier(.2,.7,.2,1),opacity .18s linear";
+      el.style.transform = "translateX(0)";
+      el.style.opacity = "1";
+      this._paneSlideT = setTimeout(() => { el.style.transition = ""; el.style.transform = ""; el.style.opacity = ""; }, 240);
+    }));
   }
   styleViewToggle() {
     const vt = this.viewToggleRef.current; if (!vt) return;

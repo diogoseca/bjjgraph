@@ -461,6 +461,16 @@ On a phone the pane is an 88vw drawer and **is** the screen, so closing it is ho
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
 film rather than resuming.
 
+**The tab bar is a pager** (v1.147.0). A horizontal touch drag anywhere in the pane, or a
+trackpad's horizontal wheel, walks the three tabs; the CONTENT FOLLOWS THE FINGER, so dragging
+leftward pulls the tab on the right into view — `_landPageTo`'s convention, and every native
+pager's. It clamps at both ends rather than wrapping, refuses a vertical-dominant drag (that axis
+belongs to the pane's own scroller) and refuses one begun inside a horizontal scroller such as a
+dossier's film strip. A study surface keeps the gesture for its own cards. No platform exposes a
+swipe-direction preference to a web app; the one device signal that exists is writing direction,
+so an RTL layout flips the mapping (`_paneGestureDir`). A swipe is never a tap: a capture-phase
+suppressor eats the click the browser synthesises at the end of one.
+
 **Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
 results before any section exists, so a match inside a folded group is never hidden; that query
 branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at

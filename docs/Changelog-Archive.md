@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.147.0** — [THE PANE'S TAB BAR IS A PAGER](#v1-147-0-the-pane-s-tab-bar-is-a-pager)
 - **v1.146.1** — [THE HOST STYLESHEET REACHED INTO THE APP'S MODAL](#v1-146-1-the-host-stylesheet-reached-into-the-a)
 - **v1.146.0** — [THE SCORE COULD NOT SEE ITS OWN RULESET](#v1-146-0-the-score-could-not-see-its-own-ruleset)
 - **v1.145.13** — [THE SCORE COVERS THE WHOLE CORPUS](#v1-145-13-the-score-covers-the-whole-corpus)
@@ -5013,3 +5014,28 @@ kept as a key · emitter's defender block emptied (refused) · wire drops the de
 
 **Was left open here, closed in v1.146.0 on the owner's ruling:** the 52 gi-only techniques,
 which widening the table doubled to both seats — **104 decks / 739 cards**.
+---
+
+## v1.147.0 — THE PANE'S TAB BAR IS A PAGER
+
+Owner: *"users try to scroll left and right"* on Explore | Challenges | Last rolls. The open
+question was which way, and whether the device could be asked.
+
+**It cannot.** No web API exposes a swipe-direction or "natural scrolling" preference; macOS
+natural scrolling inverts *wheel* deltas inside the OS, so the browser is handed an already
+flipped number, and a touch gesture is never flipped at all. The one real device signal is
+WRITING DIRECTION, read from the computed `direction`. So the direction is a design decision, and
+this repo had already made it: `_landPageTo(dx < 0 ? 1 : -1)` (v1.130.0) — content follows the
+finger, as in UIPageViewController and ViewPager2. Two pagers in one drawer disagreeing about
+forward would have been the defect. Seams: `_paneTabPageTo` · `_paneGestureDir` ·
+`_paneSlideBody`, on the pane's existing touch handler; `NG_PANE_TABS` replaces the hand-typed
+triple `setViewMode` validated against.
+
+**Mutation table** (built bundle, hardlinked sandbox — another agent held the core port): the
+inverted direction, the deleted dominant-axis check, clamp→wrap, the deleted click suppressor,
+the deleted `inHScroller` guard and the deleted RTL flip are all KILLED by
+`e2e/journeys/pane-tab-swipe.spec.ts`. The seventh — deleting the study branch's `return`, so a
+card swipe falls through into the tab pager — **SURVIVED, correctly:** `_paneTabPageTo` guards
+`_paneStudyActive()` itself, so only the DOUBLE mutant goes red. Journey 4 gates the behaviour,
+not either guard; it says so in its own header. A third spelling of that rule sat in the wheel
+handler and was deleted once measured redundant.
