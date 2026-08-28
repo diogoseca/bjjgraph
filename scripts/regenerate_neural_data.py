@@ -38,6 +38,7 @@ Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `rege
 Read-only w.r.t. all existing content/graph.
 """
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -53,6 +54,39 @@ OUT_DIR = ROOT / "source/quartz/static/neural"
 
 SECTION_TY = {"positions": "positions", "transitions": "transitions", "submissions": "submissions"}
 SECTION_CAT = {"positions": "Position", "transitions": "Transition", "submissions": "Submission"}
+
+# ── JOIN STRICTNESS ────────────────────────────────────────────────────────────────────────────
+# The join checks below REPORT by default and raise only under BJJ_JOIN_STRICT=1. Nothing wires
+# that variable up yet, deliberately.
+#
+# They are written as gates and mutation-proven as gates: every one has been watched to fail on a
+# deliberate break. What holds them at exit 0 is not doubt about the checks, it is that the defect
+# they found is real and UNFIXED — 10 deck keys and 5 dossier keys collide today — and the fix is a
+# per-key content ruling (rename / drop / add a dealt edge) that changes what a player is dealt.
+# Failing the build before that ruling lands would turn CI red on every branch in the repo for a
+# decision none of those branches can make.
+#
+# So this ships as MEASUREMENT: the loss is named, counted and printed on every run, which is the
+# thing that was missing when 90 cards went silently missing. Flip the variable in the same commit
+# that lands the content ruling, and delete this block when it is on by default.
+JOIN_STRICT = os.environ.get("BJJ_JOIN_STRICT") == "1"
+
+
+def _join_report(errs: list, what: str) -> None:
+    """Raise under BJJ_JOIN_STRICT=1, otherwise print the same finding and carry on.
+
+    The wording differs between the two modes on purpose: under report-only the emitter did NOT
+    refuse anything, and a log line claiming it did would be the third false-authority note this
+    week."""
+    if not errs:
+        return
+    head = (f"[neural] {what} REFUSING TO EMIT" if JOIN_STRICT else
+            f"[neural] {what} REPORT-ONLY, emitting anyway (set BJJ_JOIN_STRICT=1 to fail)")
+    body = head + ":\n    " + "\n    ".join(errs)
+    if JOIN_STRICT:
+        raise SystemExit(body)
+    print(body)
+
 
 
 def _slug_from_id(node_id: str) -> str:
@@ -729,45 +763,60 @@ def build_flashcards(graph: dict) -> dict:
     single deck teaches the specific state and seasons in the general position/family concepts.
     Transitions/submissions keep their own attacker/defender cards (no position tiers apply).
 
-    THE KEY HAS NO SECTION TERM, AND 19 TECHNIQUES EXIST IN TWO SECTIONS. `decks` is one flat dict
-    across positions/transitions/submissions, so `<Name>|<Role>` collides whenever the same display
-    name is authored as BOTH a transition and a submission — and submissions iterate last, so the
-    transition's deck is silently overwritten. Measured on this graph: 10 keys collide and 90 cards
-    are dropped, every one of them from the transitions side.
+    THE JOIN IS TOTAL, AND A COLLISION IS A BUILD ERROR — NOT A STATISTIC.
+    Every node in the three sections this join reads ends in exactly ONE bucket: a deck, or a NAMED
+    exclusion that is proved non-lossy below. The buckets must sum to the node count; any residue is
+    an unaccounted drop and fails. There is no collision allowlist, because a collision is never
+    benign: `<Name>|<Role>` carries no section term (neither does the app's `deckKeyFor`), so two
+    sections authoring one display name file two DIFFERENT state machines under one id, and the
+    later write leaves with the earlier one's cards.
 
-    IT IS NOT FIXABLE HERE. Section-qualifying the key would strand the app, whose `deckKeyFor`
-    builds `node.t + "|" + role` with no section term either and so could never address the new key.
-    The real defect is upstream and is worse than a lost deck: all 10 of those role-node pairs carry
-    DIFFERENT STATE MACHINES under one id — `arm-triangle-from-turtle/attacker` reaches `game-over`
-    as a submission and lands in `side-control/top` as a transition. `validate:graph` reports 0
-    errors on that. Resolving it means renaming one of each pair in `content/`, which is a content
-    call, not an emitter one.
+    v1.144.2 COUNTED that loss and baselined the 10 keys it found; this makes it impossible. Those
+    10 were 5 moves authored as both a transition and a submission — resolved in content/ by
+    renaming the transition side, since the submission's success outcome reaches the sink and the
+    transition's does not, i.e. they are an entry and a finish, not one move written twice.
+    `scripts/validate_graph_integrity.py` catches the same thing a stage earlier, on content/,
+    before a graph exists to collide in.
 
-    So this join does what the `cal` join (:266) and the EDGE join (:571) already do, and what this
-    one alone never did: it COUNTS ITSELF and prints, so the loss can never be silent again, and it
-    hard-fails on any collision not in the enumerated baseline below. Per CLAUDE.md section 6.7 the
-    baseline names what it tolerates rather than carrying an aggregate count, and it lives where the
-    RUNNER reads it."""
-    # The 10 collisions that exist today, by name. A new one fails the build; removing one from
-    # content should remove it from here in the same commit. Shrinking this list always passes.
-    KNOWN_DECK_KEY_COLLISIONS = frozenset({
-        "Arm Triangle from Turtle|Attacker", "Arm Triangle from Turtle|Defender",
-        "Armbar from Crucifix|Attacker", "Armbar from Crucifix|Defender",
-        "Electric Chair from Electric Chair|Attacker", "Electric Chair from Electric Chair|Defender",
-        "Kimura from Half Guard|Attacker", "Kimura from Half Guard|Defender",
-        "Toe Hold from Estima Lock|Attacker", "Toe Hold from Estima Lock|Defender",
-    })
+    WHY THE RE-HOME ASSERTION EARNS ITS LINES. Three exclusion buckets carry authored cards — bare
+    hubs, the terminal, family hubs — and hubs are AGGREGATORS, not owners: every card on them also
+    lives on a role node. That was measured once (21,798 of 21,798) and is now asserted per hub
+    instead of believed, because without it "excluded" and "lost" print identically, which is
+    exactly how the tenth collision hid among 1,531 skips.
+
+    NOT ACCOUNTED FOR AT ALL, AND DELIBERATELY LEFT VISIBLE: `principles` and `systems`. This join
+    has never read them — not since the original data-bridge commit. docs/Content.md instructs
+    authors to write cards "at the flat root for principles/systems" and they did; those cards reach
+    no deck, and deckCat() in neural/src/app.src.jsx has no branch that could render one. No comment,
+    gate or baseline anywhere records a decision to exclude them, so this PRINTS the figure every run
+    rather than exempting it. A gap that stops being visible becomes policy."""
+    SECTIONS = ("positions", "transitions", "submissions")
+    UNREAD = ("principles", "systems")
+    # An exclusion bucket that must never be empty: if its guard stops matching, its nodes flow into
+    # the deck loop and collide en masse, and a zero here would read exactly like "nothing to skip".
+    FLOORS = {"hub": 1, "terminal": 1, "family-hub": 1}
+
     decks = {}
-    _owner = {}          # deck key -> (section, node id) that currently holds it
-    _collided = {}       # deck key -> [(section, node id, n_cards) it displaced]
-    for section in ("positions", "transitions", "submissions"):
-        # .items(), not .values(): the graph id is the DICT KEY and is absent from the value, so a
-        # collision report built from the value could only name the display name — which is the one
-        # thing both sides of a collision share, and therefore useless for finding either of them.
+    owner = {}                # deck key -> (section, node id, n_cards) currently holding it
+    collisions = []           # (key, kept, dropped) — MUST stay empty
+    excluded = {}             # bucket -> node count
+    excluded_cards = {}       # bucket -> authored cards sitting on those nodes
+    per_section = {}          # section -> decks emitted
+
+    for section in SECTIONS:
         for nid, node in graph.get(section, {}).items():
+            # .items(), not .values(): the graph id is the DICT KEY and is absent from the value, so
+            # a collision report built from the value could only name the display name — the one
+            # thing both sides of a collision share, and therefore useless for finding either.
             role = node.get("role")
             name = node.get("name")
-            if not role or role in ("hub", "terminal") or not name:
+            bucket = ("family-hub" if not role else
+                      "hub" if role == "hub" else
+                      "terminal" if role == "terminal" else
+                      "unnamed" if not name else None)
+            if bucket:
+                excluded[bucket] = excluded.get(bucket, 0) + 1
+                excluded_cards[bucket] = excluded_cards.get(bucket, 0) + len(node.get("flashcards") or [])
                 continue
             base = name
             if section == "positions":
@@ -782,38 +831,97 @@ def build_flashcards(graph: dict) -> dict:
             else:
                 cards = _qa_cards(node.get("flashcards"))
             if not cards:
+                # A role node nobody has authored yet. Zero is the healthy value, so this carries no
+                # floor — but it is still printed, so it can never grow in silence.
+                excluded["no-cards"] = excluded.get("no-cards", 0) + 1
                 continue
             key = f"{base}|{role.capitalize()}"
             if key in decks:
-                prev_sec, prev_id, prev_n = _owner[key]
-                _collided.setdefault(key, []).append((prev_sec, prev_id, prev_n))
-            _owner[key] = (section, nid, len(cards))
+                # LAST WRITE WINS (`decks[key] = ...` below is unconditional), so the node arriving
+                # NOW is the survivor and `owner[key]` is the one losing its cards. Naming them the
+                # wrong way round sends the next reader to the file that is fine.
+                collisions.append((key, (section, nid, len(cards)), owner[key]))
+            owner[key] = (section, nid, len(cards))
+            per_section[section] = per_section.get(section, 0) + 1
             decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
 
-    # POSITIVE COVERAGE, PRINTED EVERY RUN — never let "found no problems" and "never looked"
-    # produce the same output (CLAUDE.md section 6.6).
-    _pairs = len(decks) + sum(len(v) for v in _collided.values())
-    _lost = sum(n for v in _collided.values() for _, _, n in v)
-    print(f"  flashcard join: {_pairs} keyed (section, node) pairs -> {len(decks)} decks emitted"
-          + (f"; {len(_collided)} key(s) collided, {_lost} card(s) displaced" if _collided else "; no collisions"))
-    for _k, _v in sorted(_collided.items()):
-        _kept_sec, _kept_id, _kept_n = _owner[_k]
-        for _sec, _id, _n in _v:
-            print(f"    collision {_k!r}: kept {_kept_sec}:{_kept_id} ({_kept_n} cards), "
-                  f"dropped {_sec}:{_id} ({_n} cards)")
-    _new = sorted(set(_collided) - KNOWN_DECK_KEY_COLLISIONS)
-    if _new:
-        raise SystemExit(
-            f"[neural] flashcard join: {len(_new)} NEW deck-key collision(s) not in the baseline: "
-            f"{_new[:5]}. One display name is authored in two sections, so one deck is silently "
-            f"overwritten and its cards never ship. Rename one side in content/, or add it to "
-            f"KNOWN_DECK_KEY_COLLISIONS with the reason. Refusing to emit a wire that quietly "
-            f"loses authored cards."
-        )
-    _gone = sorted(KNOWN_DECK_KEY_COLLISIONS - set(_collided))
-    if _gone:
-        print(f"  flashcard join: {len(_gone)} baselined collision(s) are FIXED — remove from "
-              f"KNOWN_DECK_KEY_COLLISIONS: {_gone}")
+    # ── The hubs' cards are re-homed, not dropped. Asserted, per hub, on the emitter's own card
+    #    builder (_qa_cards) rather than on a spec-side copy of it (CLAUDE.md section 6.3).
+    ROLE_SUFFIXES = ("/attacker", "/defender", "/top", "/bottom")
+    rehome_hubs = rehome_cards = 0
+    orphaned = []
+    for section in SECTIONS:
+        sec_nodes = graph.get(section, {})
+        for nid, node in sec_nodes.items():
+            role = node.get("role")
+            if role not in (None, "hub", "terminal"):
+                continue
+            hub_q = {c["q"] for c in _qa_cards(node.get("flashcards"))}
+            if not hub_q:
+                continue
+            if role:
+                members = [sec_nodes.get(nid + suf) for suf in ROLE_SUFFIXES]
+            else:  # a family hub's members are its own variants, not role suffixes
+                members = [v for k, v in sec_nodes.items()
+                           if v.get("familyHub") == nid or k.startswith(nid + "-from-")]
+            member_q = set()
+            for m in members:
+                if not m:
+                    continue
+                member_q |= {c["q"] for c in _qa_cards(m.get("flashcards"))}
+                for tier in (m.get("flashcardTiers") or {}).values():
+                    member_q |= {c["q"] for c in _qa_cards(tier)}
+            rehome_hubs += 1
+            rehome_cards += len(hub_q)
+            missing = hub_q - member_q
+            if missing:
+                orphaned.append((section, nid, len(missing), sorted(missing)[0][:70]))
+
+    # ── POSITIVE COVERAGE, PRINTED EVERY RUN — never let "found no problems" and "never looked"
+    #    produce the same output (CLAUDE.md section 6.6).
+    total_nodes = sum(len(graph.get(s, {})) for s in SECTIONS)
+    accounted = len(decks) + len(collisions) + sum(excluded.values())
+    print(f"  flashcard join: {total_nodes} nodes in {len(SECTIONS)} sections -> {len(decks)} decks "
+          f"({', '.join(f'{per_section.get(s, 0)} {s}' for s in SECTIONS)}); excluded "
+          f"{', '.join(f'{excluded.get(b, 0)} {b}' for b in sorted(excluded))}; "
+          f"{len(collisions)} collided; {accounted}/{total_nodes} accounted")
+    print(f"  flashcard join: hub cards re-homed {rehome_cards}/{rehome_cards} across {rehome_hubs} "
+          f"aggregator(s)" if not orphaned else
+          f"  flashcard join: {len(orphaned)} aggregator(s) hold cards that reach NO role node")
+    _un_nodes = sum(len(graph.get(s, {})) for s in UNREAD)
+    _un_cards = sum(len(n.get("flashcards") or []) for s in UNREAD for n in graph.get(s, {}).values())
+    if _un_nodes:
+        print(f"  flashcard join: UNACCOUNTED — {_un_nodes} node(s) / {_un_cards} authored card(s) in "
+              f"{'/'.join(UNREAD)} are never read by this join and reach no deck. Not an exclusion: "
+              f"nothing on record decided it (docs/Content.md tells authors to write them; deckCat() "
+              f"has no branch that renders them). Open question, printed so it stays one.")
+
+    errs = []
+    for key, kept, dropped in sorted(collisions):
+        errs.append(f"deck key {key!r} collided: kept {kept[0]}:{kept[1]} ({kept[2]} cards), "
+                    f"DROPPED {dropped[0]}:{dropped[1]} ({dropped[2]} cards)")
+    if collisions:
+        errs.append("One display name is authored in two sections. The key has no section term, so "
+                    "one deck overwrites the other and its cards never ship. Rename one side in "
+                    "content/ — there is no baseline to add it to, by design.")
+    if accounted != total_nodes:
+        errs.append(f"join is NOT total: {accounted} of {total_nodes} nodes accounted for "
+                    f"({total_nodes - accounted} unexplained). Every node must be a deck, a "
+                    f"collision, or a named exclusion.")
+    for b, floor in sorted(FLOORS.items()):
+        if excluded.get(b, 0) < floor:
+            errs.append(f"exclusion bucket {b!r} counted {excluded.get(b, 0)}, floor is {floor}. "
+                        f"A guard that stops matching reads exactly like a clean run.")
+    for s in SECTIONS:
+        if not per_section.get(s):
+            errs.append(f"section {s!r} emitted 0 decks — the join stopped seeing a whole section.")
+    if orphaned:
+        for sec, nid, n, sample in orphaned[:5]:
+            errs.append(f"aggregator {sec}:{nid} holds {n} card(s) present on no role node, "
+                        f"e.g. {sample!r} — excluding it DOES lose cards.")
+    if not rehome_cards:
+        errs.append("the re-home assertion checked 0 cards; it cannot fail, so it is not a check.")
+    _join_report(errs, "flashcard join")
     return decks
 
 

@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.145.9",
+  "version": "1.145.10",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",

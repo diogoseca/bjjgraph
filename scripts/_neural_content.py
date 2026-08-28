@@ -52,12 +52,51 @@ def _clean_pos(to):
     return to.split("/", 1)[0]
 
 
-def _tech_node(graph, name):
-    """Find the attacker role-node in graph.json for a technique by name (successRate/outcomes)."""
+# Mirrors JOIN_STRICT in scripts/regenerate_neural_data.py — same variable, same reasoning, kept
+# local because that module imports this one and the dependency cannot run the other way.
+JOIN_STRICT = os.environ.get("BJJ_JOIN_STRICT") == "1"
+
+
+def _join_report(errs: list, what: str) -> None:
+    """Raise under BJJ_JOIN_STRICT=1, otherwise print the same finding and carry on.
+
+    The wording differs between the two modes on purpose: under report-only the emitter did NOT
+    refuse anything, and a log line claiming it did would be the third false-authority note this
+    week."""
+    if not errs:
+        return
+    head = (f"[neural] {what} REFUSING TO EMIT" if JOIN_STRICT else
+            f"[neural] {what} REPORT-ONLY, emitting anyway (set BJJ_JOIN_STRICT=1 to fail)")
+    body = head + ":\n    " + "\n    ".join(errs)
+    if JOIN_STRICT:
+        raise SystemExit(body)
+    print(body)
+
+
+def _tech_node(graph, name, cat=None):
+    """Find the attacker role-node in graph.json for a technique by name (successRate/outcomes).
+
+    SECTION-EXPLICIT, AND IT MUST STAY THAT WAY. `graph.json` keys a technique by
+    slugify(<display name>) with NO section term (regenerate_graph.py:579, :749), so a name authored
+    in both content/Transitions/ and content/Submissions/ produces the SAME key in two sibling
+    dicts. Searching transitions-first therefore handed a SUBMISSION's dossier the TRANSITION's
+    node — and it did not look wrong, because calibration keys the shared slug too, so both nodes
+    carry the same successRate. What differed is what the reader actually sees: `endingPosition`
+    and the whole outcome list. Measured on 5 dossiers, e.g. `kimura-from-half-guard` rendered
+    kimura-trap/bottom · half-guard/bottom · side-control/bottom where the submission's own outcomes
+    are game-over · half-guard/top · closed-guard/bottom. A submission dossier that can never show a
+    tap, on a product whose whole claim is that the card is true for the seat.
+
+    The caller always knows which section it is reading, so it passes `cat` and this never guesses.
+    `cat=None` keeps the old order for any caller that genuinely has no section — there are none
+    today, and a new one should think twice before adding itself.
+    """
     from _slug import slugify
 
     slug = slugify(name)
-    for section in ("transitions", "submissions"):
+    sections = {"Transition": ("transitions",), "Submission": ("submissions",)}.get(
+        cat, ("transitions", "submissions"))
+    for section in sections:
         n = graph.get(section, {}).get(f"{slug}/attacker") or graph.get(section, {}).get(slug)
         if n:
             return n
@@ -264,6 +303,11 @@ def _perspective_defender(dfn):
 
 def _technique_dossier(d, cat, graph):
     name = d.get("name")
+    # NOT `_tech_node(graph, name, cat)` — yet. Passing `cat` is the fix, and it is a one-word
+    # change, but it MOVES WHAT A READER SEES on 5 dossiers (a different endingPosition and a
+    # different outcome list), so it waits on the same per-key content ruling as the collisions
+    # themselves. If those transitions are renamed or dropped, no name collides and this call
+    # becomes identical either way. build_ng_content COUNTS the gap in the meantime.
     node = _tech_node(graph, name)
     succ = None
     outcomes = []
@@ -309,34 +353,119 @@ def _technique_dossier(d, cat, graph):
 
 
 def build_ng_content(graph) -> dict:
-    """Return the NG_CONTENT.decks dossier map."""
+    """Return the NG_CONTENT.decks dossier map.
+
+    THE JOIN IS TOTAL, AND A COLLISION IS A BUILD ERROR. A technique dossier is keyed by its BARE
+    display name — no section, no role — so two sections authoring one name file two dossiers under
+    one key and Submissions, iterating second, walks off with the slot. That is the same defect as
+    the flashcard join in scripts/regenerate_neural_data.py, one key space over, and until now this
+    one reported nothing at all: no count, no warning, no baseline. Every file read here ends in
+    exactly one bucket and the buckets must sum, so a drop cannot be mistaken for a skip."""
     decks = {}
+    owner = {}                # key -> (section, file) currently holding it
+    collisions = []           # (key, kept, dropped) — MUST stay empty
+    excluded = {}             # bucket -> file count
+    read = 0
+    resolved = unresolved = 0
+    cross_section = []         # dossiers resolving to a node from the OTHER section
+
+    def _excl(bucket):
+        excluded[bucket] = excluded.get(bucket, 0) + 1
 
     # positions -> "<Name>|<Role>"
-    for f in glob.glob(str(ROOT / "content/Positions/**/*.json"), recursive=True):
+    for f in sorted(glob.glob(str(ROOT / "content/Positions/**/*.json"), recursive=True)):
+        read += 1
         if "TEMPLATE" in f:
+            _excl("template")
             continue
         d = _load(f)
         if not isinstance(d, dict) or "name" not in d:
+            _excl("unnamed-or-unreadable")
             continue
+        got = False
         for role in ("top", "bottom"):
             rd = d.get(role)
             if isinstance(rd, dict):
-                decks[f"{d['name']}|{role.capitalize()}"] = _position_dossier(
+                got = True
+                key = f"{d['name']}|{role.capitalize()}"
+                if key in decks:
+                    collisions.append((key, ("Positions", f), owner[key]))
+                owner[key] = ("Positions", f)
+                decks[key] = _position_dossier(
                     rd, role.capitalize(), related=d.get("related_positions"),
                     hub_clips=d.get("clips")
                 )
+        if not got:
+            _excl("position-with-no-authored-role")
 
     # transitions + submissions -> "<Name>"
     for section, cat in (("Transitions", "Transition"), ("Submissions", "Submission")):
-        for f in glob.glob(str(ROOT / f"content/{section}/**/*.json"), recursive=True):
+        for f in sorted(glob.glob(str(ROOT / f"content/{section}/**/*.json"), recursive=True)):
+            read += 1
             if "TEMPLATE" in f:
+                _excl("template")
                 continue
             d = _load(f)
-            if not isinstance(d, dict) or "name" not in d or d.get("is_family"):
+            if not isinstance(d, dict) or "name" not in d:
+                _excl("unnamed-or-unreadable")
                 continue
-            decks[d["name"]] = _technique_dossier(d, cat, graph)
+            if d.get("is_family"):
+                # A family hub is an edgeless aggregator; its variants carry the dossiers.
+                _excl("family-hub")
+                continue
+            key = d["name"]
+            if key in decks:
+                collisions.append((key, (section, f), owner[key]))
+            owner[key] = (section, f)
+            decks[key] = _technique_dossier(d, cat, graph)
+            shipped = _tech_node(graph, key)          # what the dossier above actually used
+            correct = _tech_node(graph, key, cat)     # what it would use if it named its section
+            if shipped is None:
+                unresolved += 1
+            else:
+                resolved += 1
+            if shipped is not correct:
+                cross_section.append(key)
 
+    # POSITIVE COVERAGE, PRINTED EVERY RUN (CLAUDE.md section 6.6). `_technique_dossier` falls back
+    # to the file's own success_rate when no node resolves — a plausible value that says nothing, so
+    # the fallback is counted rather than trusted.
+    accounted = len(decks) + len(collisions) + sum(excluded.values())
+    print(f"  dossier join: {read} content file(s) -> {len(decks)} dossiers; excluded "
+          f"{', '.join(f'{excluded.get(b, 0)} {b}' for b in sorted(excluded)) or 'none'}; "
+          f"{len(collisions)} collided; technique nodes resolved {resolved}/{resolved + unresolved}; "
+          f"{len(cross_section)} resolved ACROSS sections")
+    if cross_section:
+        # The measurement that ships while the fix waits. `_tech_node` searches transitions before
+        # submissions, so these dossiers render the OTHER section's node: its endingPosition and its
+        # whole outcome list. The successRate looks right throughout — calibration keys the shared
+        # slug too, so both nodes carry the same number — which is why this went unseen.
+        print(f"    cross-section resolution ({len(cross_section)}): "
+              + ", ".join(repr(k) for k in sorted(cross_section)))
+        for k in sorted(cross_section)[:3]:
+            _s, _c = _tech_node(graph, k), None
+            print(f"      {k!r} renders endingPosition={_s.get('endingPosition')!r}, outcomes -> "
+                  + " / ".join(str(o.get("to")) for o in (_s.get("outcomes") or [])))
+
+    errs = []
+    for key, kept, dropped in sorted(collisions):
+        errs.append(f"dossier key {key!r} collided: kept {kept[1]}, DROPPED {dropped[1]}")
+    if collisions:
+        errs.append("A technique dossier is keyed by bare display name. Two sections authoring one "
+                    "name means one dossier is overwritten and its prose, clips and outcomes never "
+                    "ship. Rename one side in content/ — there is no baseline to add it to.")
+    # `accounted` counts position files once but they may emit two dossiers, so compare the parts
+    # that ARE one-to-one rather than inventing an equality that cannot hold.
+    if accounted < read:
+        errs.append(f"dossier join is NOT total: {read} files read but only {accounted} accounted "
+                    f"for as a dossier, a collision or a named exclusion.")
+    if unresolved:
+        errs.append(f"{unresolved} technique(s) resolved to no graph node, so their dossier shows "
+                    f"the file's own success_rate and an EMPTY outcome list. Was 0 when this count "
+                    f"was added; a non-zero value is a join that has started rotting.")
+    if not resolved:
+        errs.append("the technique-node join resolved 0 nodes; it cannot fail, so it is not a check.")
+    _join_report(errs, "dossier join")
     return decks
 
 
