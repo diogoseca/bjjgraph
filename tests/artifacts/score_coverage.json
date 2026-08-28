@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "note": "OBSERVED, not a ceiling. What curriculum.weights can see, derived from the committed graph.json through the emitter's own functions. `ruleset` is a DEFECT class with a known cause; `unscored` is an open question for the owner and is deliberately NOT an exemption list.",
+    "recompute": "npm run validate:score-coverage -- --write"
+  },
+  "join": {
+    "attacker_decks": 1326,
+    "pct": 99.62,
+    "reached": 1321
+  },
+  "ruleset": {
+    "gi": {
+      "attemptable": {
+        "cards": 12630,
+        "decks": 1305
+      },
+      "unweighted": {
+        "cards": 491,
+        "decks": 52
+      },
+      "unweighted_examples": [
+        "Backstep Around Worm Guard",
+        "Baseball Bat Choke from Knee on Belly",
+        "Bow and Arrow Choke Setup",
+        "Bow and Arrow Choke from Back Control",
+        "Bow and Arrow Choke from Body Triangle"
+      ]
+    },
+    "nogi": {
+      "attemptable": {
+        "cards": 12303,
+        "decks": 1269
+      },
+      "unweighted": {
+        "cards": 0,
+        "decks": 0
+      },
+      "unweighted_examples": []
+    }
+  },
+  "scored": {
+    "card_pct": 56.14,
+    "cards": 12303,
+    "decks": 1269
+  },
+  "totals": {
+    "cards": 21915,
+    "decks": 2924
+  },
+  "unscored": {
+    "defender": {
+      "cards": 6403,
+      "decks": 1326,
+      "why": "no |Defender key exists in any weights table"
+    },
+    "orphan": {
+      "cards": 50,
+      "decks": 5,
+      "keys": [
+        "Aoki Lock|Attacker",
+        "Buggy Choke|Attacker",
+        "Inside Heel Hook from Inside Sankaku|Attacker",
+        "Kneebar from Carni|Attacker",
+        "Kneebar|Attacker"
+      ],
+      "why": "no position edge targets the node - unreachable in the state machine"
+    },
+    "position": {
+      "cards": 2668,
+      "decks": 272,
+      "why": "no |Top / |Bottom key exists in any weights table"
+    }
+  }
+}

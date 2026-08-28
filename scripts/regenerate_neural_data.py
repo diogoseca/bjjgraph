@@ -114,6 +114,29 @@ def load_ordinals() -> dict:
     return ords
 
 
+def _frame_attempt(t, frame: str):
+    """This position edge's attempt probability in `frame`, or None if it carries no number.
+
+    THE ONE PLACE THE {gi, nogi} PAIR IS READ. `attemptProbability` is the folded NO-GI scalar and
+    `attemptProbabilityByRuleset` is the pair, on the same dict on every edge. Reading the scalar
+    where the frame is known is a defect this function exists to make unspellable — see
+    `_frame_positive`, and `scripts/validate_score_coverage.py` for the one that is still open.
+    """
+    apr = t.get("attemptProbabilityByRuleset")
+    v = apr.get(frame) if isinstance(apr, dict) else t.get("attemptProbability")
+    return v if isinstance(v, (int, float)) else None
+
+
+def _frame_positive(t, frame: str) -> bool:
+    """True if this position edge is attempted in `frame` (attemptProbability > 0).
+
+    MODULE SCOPE ON PURPOSE. Two readers ask this question now — `tech_avail` below (which drives
+    the app's `giAllows`) and `validate_score_coverage.frame_avail_by_deck` (which sizes what the
+    score can see). When one question is answered in two places one of them is already wrong.
+    """
+    v = _frame_attempt(t, frame)
+    return v is not None and v > 0
+
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
@@ -124,12 +147,6 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     for section in ("positions", "transitions", "submissions"):
         for nid, node in graph.get(section, {}).items():
             by_slug[(section, nid)] = node
-
-    def _frame_positive(t, frame):
-        """True if this transition entry is attempted in `frame` (attemptProbability > 0)."""
-        apr = t.get("attemptProbabilityByRuleset")
-        v = apr.get(frame) if isinstance(apr, dict) else t.get("attemptProbability")
-        return isinstance(v, (int, float)) and v > 0
 
     # per-technique ruleset availability: available in frame F if ANY position offers it with
     # attemptProbability[F] > 0 (Q3's per-frame-0 policy zeroes ruleset-unavailable moves). Drives
@@ -1088,9 +1105,14 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
     return out
 
 
-def build_curriculum(out_dir: Path, graph: dict) -> int:
+def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
-    which is legal — the app falls back to tree view)."""
+    which is legal — the app falls back to tree view).
+
+    Takes `decks` so the score-coverage ledger can join against the deck set THIS run just built,
+    in process. It must not re-read `flashcards/_index.json`: `source/quartz/static/neural/` is
+    gitignored in its entirety (.gitignore:71), so a check reading the emitted artifact is a check
+    that silently does not run on a fresh checkout."""
     from _curriculum import CURRICULUM, compute_pools, lesson_frames, load_curriculum, load_graph_index
     if not CURRICULUM.exists():
         return 0
@@ -1108,6 +1130,12 @@ def build_curriculum(out_dir: Path, graph: dict) -> int:
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
     cur["weights"] = build_technique_weights(graph)
+    # PRINTED EVERY RUN, never fatal. The score's own reach is the one thing about `weights` that
+    # nothing counted; `validate_score_coverage.py` owns the definition and this is the same call
+    # the standalone check makes, so the two can never report different numbers. It reports rather
+    # than gates because the fix for what it finds moves every gi player's score — see that file.
+    from validate_score_coverage import score_coverage
+    score_coverage(decks, graph, {"gi": cur["weights"], "nogi": cur["weights"]})
     (out_dir / "curriculum.json").write_text(
         json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
     return len(cur["belts"])
@@ -1364,7 +1392,7 @@ def main() -> None:
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph)
+    n_belts = build_curriculum(OUT_DIR, graph, decks)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 

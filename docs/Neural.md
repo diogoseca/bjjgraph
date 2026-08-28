@@ -382,6 +382,14 @@ origin, compounded over 11 plies; the 1,326 Defender decks are unscored because 
 not change the opponent's rates; and `gameScore` weights all 272 position decks at **zero** while
 FLOW's top ten are all positions — two published numbers that will disagree.
 
+> **Those last two were never decided by a human, and this file used to imply they were** (it read
+> "on purpose"). The `role != "attacker"` filter arrived in v1.68.0 (`86cf84c16`, an agent commit
+> whose own message claims *"Nothing is cut now"* while cutting 1,598 decks); v1.138.0
+> (`1d3a17eaa`, also an agent) observed the result and labelled it deliberate. Git authorship is
+> no evidence here — every commit carries the owner's name — and no owner quote on the score's
+> scope exists in `docs/Changelog-Archive.md`. Sized by `validate:score-coverage`, awaiting a
+> ruling.
+
 ## 5. The pair
 
 Every state draws as **two orbs** — the two sides of one exchange.
@@ -478,7 +486,18 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution
 of the graph as a Markov chain, computed at build time into `curriculum.weights`. `mastery_i` is
-`deckMastery(key)`. Nothing is cut: a rare technique counts, proportionally to how rare it is.
+`deckMastery(key)`. No rare technique is cut: it counts proportionally to how rare it is.
+
+**What the score cannot see, sized and tracked (v1.145.10):** `npm run validate:score-coverage`
+writes `tests/artifacts/score_coverage.json` and prints on every emit. Measured today: the score
+sees **12,303 of 21,915 authored cards (56.1%)**. The rest — 1,326 Defender decks (6,403 cards),
+272 position decks (2,668) and 5 graph-orphan attacker decks (50) — carry no key in `weights` at
+all, so mastering every card in them moves the number by zero. Separately, **52 techniques are
+attemptable only in gi — the default ruleset — and carry weight 0** (491 cards), because
+`build_technique_weights` reads the folded no-gi `attemptProbability` while the `{gi, nogi}` pair
+sits on the same edge. That last one is a defect with a fix measured and ready; it moves every gi
+player's score, so it waits for the owner. The rest is an open question, deliberately **not**
+recorded as an exemption — naming one is how a defect becomes policy.
 
 Bands: white .20 · blue .40 · purple .60 · brown .70 · black .80. An MC answer caps a card at stage
 2 = 2/3 mastery, so pure recognition tops out at 0.667 — recall is the only route past 0.7 **by

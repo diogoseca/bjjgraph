@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.145.10** — [WHAT THE SCORE CANNOT SEE, SIZED](#v1-145-10-what-the-score-cannot-see-sized)
 - **v1.145.1** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#v1-145-1-the-collar-choke-that-was-not-a-bug)
 - **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
 - **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
@@ -4798,3 +4799,54 @@ written, and `_ruleset.py` already documents `null` as "this edge does not exist
 across all 8 schemas while the corpus uses it **0 times**. Estimated 2-4 sessions, and step 4
 (the app deals unfiltered today — `giAllows`'s only caller is `buildExplorer`) is a user-visible
 behaviour change and the owner's call.
+
+
+## v1.145.10 — WHAT THE SCORE CANNOT SEE, SIZED
+
+`curriculum.weights` is the only thing `gameScore` sums. One writer, two readers, **zero
+validators** — `validate_curriculum.py` cannot cover it (it runs before the weights are built and
+reads `templates/curriculum.json`, which has no `weights` key). Nothing had ever counted the
+score's own reach.
+
+MEASUREMENT ONLY, the split `validate:occurrence` used. `npm run validate:score-coverage`:
+reporting, exit 0, writes `tests/artifacts/score_coverage.json`, derived from the **committed**
+`graph.json` — never from the gitignored `source/quartz/static/neural/`. Full reasoning in the
+script's own header; today's numbers:
+
+```
+    weighted gi  :  1253/1305  attemptable attacker decks   <-- 52 at weight 0 (491 cards)
+    weighted nogi:  1269/1269
+    NOT SCORED  defender 1326 decks/6,403 cards · position 272/2,668 · orphan 5/50
+    the score can see 12,303 of 21,915 cards (56.14%)
+```
+
+**The score is blind to 9,121 of 21,915 authored cards (41.6%)**, and until now nothing said so.
+`--gate` makes the ruleset row fatal and is wired into no workflow. The unscored classes are
+**not** recorded as exemptions — naming one is how a defect becomes policy.
+
+**The ruleset row is a defect** (`build_technique_weights` reads the folded no-gi
+`attemptProbability` while the pair sits on the same edge; the 52 are dealt by `optionsFor`, which
+applies no ruleset filter at all). Fixed, measured and 195/195 curated on `track/scorer-coverage`
+— **not shipped, because it moves every gi player's score.** Blending instead was refused on
+measurement: TV(blend, gi) = TV(blend, nogi) = 0.0569 vs TV(gi, nogi) = 0.1138 — equal because the
+blend is the MIDPOINT, so it is wrong by half the divergence for everyone in both rulesets at once.
+
+**PROVENANCE: "deliberate" was never decided by a human.** This file said the Defender and position
+zeros were "on purpose". The `role != "attacker"` filter arrived in **v1.68.0** (`86cf84c16`,
+`Co-Authored-By: Claude Fable 5`), whose message claims *"Nothing is cut now"* while cutting 1,598
+decks; **v1.138.0** (`1d3a17eaa`, `Co-Authored-By: Claude Opus 5`) observed it and labelled it. Git
+authorship is no evidence — every commit carries the owner's name; the trailer is the tell. No
+owner quote on the score's scope exists in this archive.
+
+**CORRECTIONS.** "43.9% coverage: 1,655 decks / 9,612 cards" is the **GAP**, not the coverage
+(`9612/21915` = 43.86% uncovered by card; coverage is 43.40% by deck / 56.14% by card — and
+covered-by-DECK is 43.40%, half a point from the quoted figure and an unrelated quantity). The two
+defects **overlap**: the 52/491 gi bucket sits inside that gap. "Scores nothing" is not "is
+unreachable" — only 5 attacker decks (50 cards) are orphaned (`aoki-lock`, `buggy-choke`,
+`inside-heel-hook-from-inside-sankaku`, `kneebar`, `kneebar-from-carni`).
+
+**MUTANTS, ALL WATCHED RED.** The frame accessor stops reading the `{gi, nogi}` pair → the gi row
+reports `1269/1269`, perfectly clean, and the artifact's `unweighted` goes 52/491 → 0/0. The
+availability join hollowed → `0/1326 (0.0%)`, **exit 1**: zero coverage is fatal even in reporting
+mode (section 6.6), because a per-frame check with an empty denominator prints what a clean run
+prints. `--gate` → exit 1 naming the 52.
