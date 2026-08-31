@@ -6347,7 +6347,16 @@ class Component extends DCLogic {
       // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
       // `?dual=legacy`.
       const matches = this.nodes.filter((n) => n.rep && n.t.toLowerCase().includes(q)).slice(0, 120);
-      if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + q + '\u201d</span>', 12)); return; }
+      // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
+      // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
+      // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
+      // is not a sanitiser; the payload is already lowercase. SELF-XSS ONLY: `_exQ` is written
+      // by the search input and by a hardcoded curatedMap term, by NO url param (`?dual=` is
+      // the only one the app reads), and the query is never stored nor shown to anyone else —
+      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
+      // it slices the trusted title and uses q only for indexOf/length.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
