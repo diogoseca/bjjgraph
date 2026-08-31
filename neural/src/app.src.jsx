@@ -2902,6 +2902,69 @@ class Component extends DCLogic {
       });
     return this._systemsWait;
   }
+  // ── deferred Concepts payload (63KB: the Principles + Learning INDEX) ──
+  // Same posture, same reasoning as systems.json above: nothing on the roll path reads a concept,
+  // so boot must not pay for one. The index carries only what the LIST and the graph HIGHLIGHT
+  // need; each concept's readable body is a dossier chunk fetched when the panel opens.
+  _ensureConcepts() {
+    if (this._conceptsWait) return this._conceptsWait;
+    this._conceptsWait = fetch(this._dataBase() + "concepts.json")
+      .then((cr) => (cr.ok ? cr.json() : null))
+      .catch(() => null)
+      .then((c) => {
+        if (c && Array.isArray(c.concepts) && c.concepts.length) { this.concepts = c.concepts; this._onConcepts(); }
+        return this.concepts || [];
+      });
+    return this._conceptsWait;
+  }
+  _onConcepts() {
+    this._conceptsById = {};
+    for (const c of this.concepts) if (c && c.id) this._conceptsById[c.id] = c;
+    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is up
+  }
+  // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
+  // is the same shape one payload over — a concept lights the techniques its author linked).
+  conceptNodeIdxs(c) {
+    if (!c) return [];
+    if (!c._idxs) {
+      const out = [];
+      for (const id of (Array.isArray(c.nodes) ? c.nodes : [])) {
+        const i = this._idIndex ? this._idIndex.get(id) : null;
+        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+      }
+      c._idxs = out;
+    }
+    return c._idxs;
+  }
+  /** The concept's readable body, out of the SAME chunk space (and the same cache) as a node
+   *  dossier — `key` is "<Name>|<Principle|Learning>", minted by the emitter so it cannot land in
+   *  the technique key space. Returns null while the chunk is in flight and re-renders when it
+   *  lands. A null is never the ANSWER: renderConceptDetail always draws the index-level card
+   *  (name, meta, summary, the techniques, the page link) first, so a missing chunk degrades the
+   *  panel instead of blanking it. */
+  _conceptBody(c) {
+    if (!c || !c.key) return null;
+    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
+    if (Object.prototype.hasOwnProperty.call(C, c.key)) return C[c.key] || null;
+    this._hydrateContent(c.key).then(() => {
+      if (this._conceptId === c.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
+    });
+    return null;
+  }
+  openConcept(id) {
+    const c = this._conceptsById ? this._conceptsById[id] : null; if (!c) return;
+    // Explore owns the highlight, and any pane/tab transition runs clearFocus — so the transition
+    // goes FIRST and the selection is claimed after it (openSystem, same two lines, same reason).
+    if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    const idxs = this.conceptNodeIdxs(c);
+    this._conceptId = id;
+    this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
+    this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
+    this.setFocusIdxSet(idxs);
+    this.showExplorerList();
+  }
+  closeConcept() { this.clearFocus(); this.showExplorerList(); }
+
   // Deliberately NO speculative warm for systems.json. An idle callback fires long before a
   // hand exists on a cold boot, so "warm it at idle" simply put all 324KB back on the
   // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
@@ -6402,6 +6465,13 @@ class Component extends DCLogic {
       this.renderSystemDetail(list, this._systemId, mk);
       return;
     }
+    // Same contract for a concept: it owns the list AND the focus set, so it renders ahead of
+    // the reset too. A live query still wins — search is the one surface that outranks a
+    // selection, and typing is the only thing that can arm one (v1.152.0).
+    if (this._conceptId && !q && this._conceptsById && this._conceptsById[this._conceptId]) {
+      this.renderConceptDetail(list, this._conceptId, mk);
+      return;
+    }
     // A list selection SURVIVES the reset below (Systems does the same via _systemId, but from
     // its own detail view). Without this, every Explore re-render — including one keystroke in
     // the search box — would drop the highlight a shared link just lit.
@@ -6432,8 +6502,10 @@ class Component extends DCLogic {
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
       // is not a sanitiser; the payload is already lowercase. SELF-XSS ONLY: `_exQ` is written
-      // by the search input and by a hardcoded curatedMap term, by NO url param (`?dual=` is
-      // the only one the app reads), and the query is never stored nor shown to anyone else —
+      // by the search input and by NOTHING ELSE since v1.152.0 — the hardcoded curatedMap terms
+      // that used to write it are gone with the search shortcuts (see below) — by NO url param
+      // (`?dual=` is the only one the app reads), and the query is never stored nor shown to
+      // anyone else —
       // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
       // it slices the trusted title and uses q only for indexOf/length.
       // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
@@ -6446,24 +6518,37 @@ class Component extends DCLogic {
       }
       return;
     }
-    // curated concept sections (authored on bjjgraph.org)
-    const curatedMap = {
-      Principles: ["#66CCEE", [["Frames & posture", "guard"], ["Base & connection", "control"], ["Hip movement", "escape"], ["Grip fighting", "grip"], ["Angles", "back"], ["Pressure", "side control"]]],
-      Learning: ["#7ee0a8", [["Fundamentals path", "guard"], ["Submission escapes", "escape"], ["Guard passing 101", "pass"], ["Back control & finishes", "back"]]],
-    };
-    const renderCurated = (label) => {
-      const entry = curatedMap[label], col = entry[0], items = entry[1];
+    // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
+    //
+    // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
+    // SEARCH TERM into the box and re-rendered — `["Angles", "back"]` ran a text search for
+    // "back". Owner: "If I click a principle like Angles, it goes to SEARCH mode. I wasn't
+    // searching. The intent was to open a content page on the side panel." And: "I remember
+    // seeing 20-something or 30 principles. Now I'm just seeing 6." Both complaints were the
+    // same literal: six rows AND a search-shaped click are what a search-shortcut list IS.
+    //
+    // 59 principles and 23 Learning entries are authored (content/Principles, content/Learning),
+    // and NONE of them is a graph node — which is why they had no route in. concepts.json is
+    // their index and their readable bodies ride the per-node dossier chunk space, so the same
+    // `_ngc()` cache serves both. See _ensureConcepts / renderConceptDetail.
+    const CONCEPT_DOT = { Principle: "#66CCEE", Learning: "#7ee0a8" };
+    const renderConcepts = (cat, label) => {
+      const all = (this.concepts || []).filter((c) => c.cat === cat);
+      // Deferred payload (63KB), same posture as Systems: ask at the first read, and _onConcepts
+      // re-renders Explore when it lands. Absent (or 404) -> no section yet, never a stub list.
+      if (!all.length) { this._ensureConcepts(); return; }
       const open = this._exploreSectionOpen(label);
-      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
-      for (const [name, term] of items) {
-        list.appendChild(mk('<span style="width:7px;height:7px;border-radius:50%;background:' + col + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + name + '</span>', 22, () => {
-          this._exQ = term; const inp = this.explorerSearchRef.current; if (inp) inp.value = term;
-          this.renderExplorer();
-        }));
+      for (const c of all) {
+        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:' + CONCEPT_DOT[cat] + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
+        row.setAttribute("data-concept-row", c.id);
+        row.setAttribute("data-concept-cat", c.cat);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
       }
     };
     // Systems: every authored system in systems.json, alphabetical. The whole library is listed
@@ -6520,9 +6605,9 @@ class Component extends DCLogic {
     // (the weak-spots count is Explore's call to action); Lists heads the sections.
     this.renderLists(list);
     renderSystems();
-    renderCurated("Principles");
+    renderConcepts("Principle", "Principles");
     for (const pair of data.order) renderGraphGroup(pair);
-    renderCurated("Learning");
+    renderConcepts("Learning", "Learning");
   }
   // ---------- focus set: the node selection the graph lights up ----------
   // General by design: a System lights its member techniques today, a shareable List will light
@@ -6538,7 +6623,7 @@ class Component extends DCLogic {
   }
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
-  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._listFocusId = null; }
+  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null; }
 
   // ---------- systems: the authored course library (systems.json, optional payload) ----------
   _onSystems() {
@@ -8391,6 +8476,130 @@ class Component extends DCLogic {
     }
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
+  }
+  /** THE PANEL THE CLICK WAS ALWAYS MEANT TO OPEN.
+   *
+   *  Two layers, and the split is a byte budget: the INDEX (concepts.json, deferred, 63KB) carries
+   *  the name, the meta, the summary and the graph nodes, so a row click lights the graph and
+   *  draws a card instantly; the BODY rides an on-demand chunk and fills in underneath. Nothing
+   *  here waits on the chunk — a panel that renders nothing until a fetch returns is how "it
+   *  searched instead" felt in the first place.
+   *
+   *  The sections are the concept's own spine, normalised by the emitter so Principles and
+   *  Learning (authored by two different templates, saying the same things in different words)
+   *  draw through ONE renderer: overview, points, contexts, errors, drills.
+   *
+   *  NOT here, deliberately: the full authored prose (content/Principles/*.md is ~2.4MB) and the
+   *  concept flashcards, which still reach no deck. The page link is how a reader gets the rest. */
+  renderConceptDetail(list, id, mk) {
+    const c = this._conceptsById[id]; if (!c) return;
+    const E = (v) => this.escHTML(v);
+    const body = this._conceptBody(c);
+    const idxs = this.conceptNodeIdxs(c);
+    const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 ' + (c.cat === "Learning" ? "All learning" : "All principles") + '</span>', 12, () => this.closeConcept());
+    back.setAttribute("data-concept-back", c.cat);
+    back.style.pointerEvents = "auto";
+    list.appendChild(back);
+
+    const card = document.createElement("section");
+    card.className = "ng-concept-detail";
+    card.setAttribute("data-concept-detail", c.id);
+    card.setAttribute("data-concept-cat", c.cat);
+    card.setAttribute("aria-label", c.name + " " + c.cat.toLowerCase());
+    const meta = [c.cat === "Learning" ? "Learning" : "Principle"];
+    if (c.meta) meta.push(E(c.meta));
+    if (idxs.length) meta.push(idxs.length + " lit on the graph");
+    card.innerHTML = "<h2>" + E(c.name) + '</h2><div class="ng-concept-meta">' + meta.join(" \u00b7 ") + "</div>" +
+      (c.summary ? "<p>" + E(c.summary) + "</p>" : "");
+    list.appendChild(card);
+
+    // ── the read. Rendered only when the chunk is here; until then the card above stands alone
+    //    and this fills in on the re-render the fetch triggers.
+    if (body) {
+      const sec = document.createElement("div");
+      sec.className = "ng-concept-body";
+      sec.setAttribute("data-concept-body", c.id);
+      const head = (t) => '<h3>' + E(t) + '</h3>';
+      let h = "";
+      if (body.overview) h += "<p>" + E(body.overview) + "</p>";
+      const points = Array.isArray(body.points) ? body.points : [];
+      if (points.length)
+        h += head(c.cat === "Learning" ? "Key takeaways" : "Key principles") +
+          '<ul data-concept-points="' + points.length + '">' + points.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
+      const contexts = Array.isArray(body.contexts) ? body.contexts : [];
+      if (contexts.length)
+        h += head("Where it applies") + '<dl data-concept-contexts="' + contexts.length + '">' +
+          contexts.map((x) => "<dt>" + E(x.c) + "</dt><dd>" + E(x.how) + "</dd>").join("") + "</dl>";
+      const errors = Array.isArray(body.errors) ? body.errors : [];
+      if (errors.length)
+        h += head("What goes wrong") + '<dl data-concept-errors="' + errors.length + '">' +
+          errors.map((x) => "<dt>" + E(x.err) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.fix) + "</dd>").join("") + "</dl>";
+      const drills = Array.isArray(body.drills) ? body.drills : [];
+      if (drills.length)
+        h += head("How to train it") + '<dl data-concept-drills="' + drills.length + '">' +
+          drills.map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) + (x.focus ? "<em>" + E(x.focus) + "</em>" : "") + "</dd>").join("") + "</dl>";
+      sec.innerHTML = h;
+      list.appendChild(sec);
+    }
+
+    // The full authored page. A REAL anchor, because it leaves the app: the .md prose behind it is
+    // the reading surface this pane is not, and the panel must say so rather than imply it is all
+    // there is.
+    const page = document.createElement("a");
+    page.className = "ng-concept-page";
+    page.setAttribute("data-concept-page", c.id);
+    page.href = c.url;
+    page.style.pointerEvents = "auto";
+    page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
+    list.appendChild(page);
+
+    // ── the techniques this concept names, with the authored reason each one is here. The glue
+    //    is the same idea a System carries: a lit constellation with no reason attached is what
+    //    the six search shortcuts already were.
+    if (idxs.length) {
+      const head = document.createElement("div");
+      head.className = "ng-system-members-head";
+      head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
+      list.appendChild(head);
+      const roleFor = new Map();
+      for (const g of (body && Array.isArray(body.glue) ? body.glue : [])) {
+        for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
+      }
+      for (const i of idxs) {
+        const n = this.nodes[i], sp = this.splitName(n.t);
+        const role = roleFor.get(n.id) || "";
+        const row = mk(
+          this.nodeGlyph(n.ty, this.hex(n.col), 8) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
+            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
+          22,
+          () => this.openDossier(i),
+        );
+        row.setAttribute("data-concept-node", n.id);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
+      }
+    }
+
+    // ── concept-to-concept links. These are the ~440 references build_systems could only count
+    //    and discard (they are pages, never graph nodes); here they are the navigation a reader
+    //    actually follows, and the emitter resolved each one against the payload it emitted, so
+    //    a link can never point at a row that does not exist.
+    const related = (body && Array.isArray(body.related) ? body.related : []).filter((rid) => this._conceptsById && this._conceptsById[rid]);
+    if (related.length) {
+      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">Related concepts</span>', 12));
+      for (const rid of related) {
+        const r = this._conceptsById[rid];
+        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:' + (r.cat === "Learning" ? "#7ee0a8" : "#66CCEE") + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + E(r.name) + "</span>", 22, () => this.openConcept(rid));
+        row.setAttribute("data-concept-link", rid);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
+      }
+    }
+
+    const missing = (Array.isArray(c.unresolved) ? c.unresolved : []).length;
+    if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " technique" + (missing === 1 ? "" : "s") + " named here aren\u2019t on the map yet</span>", 22));
   }
   locateNode(idx) {
     // pure camera flight — the pane sits on the LEFT (v1.94.0; this comment used to say right),

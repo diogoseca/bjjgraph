@@ -479,7 +479,7 @@ def fnv1a32(s: str) -> str:
     return f"{h:08x}"
 
 
-def write_ng_chunks(graph, out_dir: Path) -> tuple[int, int, int]:
+def write_ng_chunks(graph, out_dir: Path, extra: dict | None = None) -> tuple[int, int, int]:
     """Write ONE dossier chunk per node, addressed by fnv1a32(key).
 
     Replaces the 21.2MB technique-content.js (window.NG_CONTENT for every node in the graph,
@@ -487,9 +487,25 @@ def write_ng_chunks(graph, out_dir: Path) -> tuple[int, int, int]:
     {key: dossier} MAP rather than a bare dossier, so a hash collision merely puts two dossiers
     in one file instead of losing one — the app looks up by key after fetching.
 
+    `extra` is a second dossier map merged into the SAME chunk space — today the Principles and
+    Learning concept bodies (regenerate_neural_data.build_concepts), which are pages rather than
+    graph nodes and so cannot come out of `graph`. Merging rather than adding a second chunk
+    directory keeps ONE fetch/cache seam in the app (`_ngc`), one chunk ceiling and one address
+    scheme. A key collision between the two maps is a BUILD ERROR, not a last-write-wins: concept
+    keys carry a `|Principle` / `|Learning` suffix precisely so they cannot land in the technique
+    key space, and if that ever stops being true the drop must be loud.
+
     Returns (nodes, files, collisions).
     """
     decks = build_ng_content(graph)
+    if extra:
+        clash = sorted(set(decks) & set(extra))
+        if clash:
+            raise SystemExit(
+                f"[neural] dossier chunk key collision between the node map and the concept map: "
+                f"{clash[:5]} — one dossier would silently overwrite the other."
+            )
+        decks = {**decks, **extra}
     if out_dir.exists():
         for old in out_dir.glob("*.json"):
             old.unlink()

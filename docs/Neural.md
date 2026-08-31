@@ -31,8 +31,9 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `flashcards/_index.json` | boot | the deck **manifest**: `{deckKey: [category, n]}` |
 | `curriculum.json` | boot | `curriculum.weights` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
-| `content/<hash>.json` | on demand | one node's dossier (`window.NG_CONTENT` caches) |
+| `content/<hash>.json` | on demand | one node's dossier, **and one concept's body** (`<Name>\|Principle`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
+| `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
 
 Chunks are addressed by `fnv1a32(key)` — the app's own `qhash`, ported byte-identically into
 `scripts/_neural_content.py`. A chunk holds a `{key: value}` map, so a hash collision shares a file

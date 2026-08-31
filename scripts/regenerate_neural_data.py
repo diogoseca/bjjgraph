@@ -27,6 +27,12 @@ generated+committed static asset):
     derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
     question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
     cross-deck credit does not depend on which chunks have landed.
+  - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
+    concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
+    and the graph highlight need. Each concept's READABLE BODY (overview, points, contexts,
+    errors, drills, plus glue and related) is a dossier in the content/ chunk space above,
+    addressed by `key` = "<Name>|<Principle|Learning>", so the app reads it through the same
+    _ngc() cache as a node dossier. Deferred: nothing on the roll path fetches it.
   - systems.json : the 47 expert Systems as the app's library + graph-highlight source
     ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
     `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
@@ -1594,6 +1600,316 @@ def build_systems(graph: dict, nodes: list[dict]) -> dict:
     }
 
 
+# ── CONCEPTS: the two authored libraries the app had never been able to open ────────────────
+# content/Principles/*.json (59) and content/Learning/*.json (23) are pages, not graph nodes —
+# which is exactly why they had no route into the app. Explore carried SIX hardcoded rows under
+# "Principles" and FOUR under "Learning", and every one of them was a SEARCH SHORTCUT: clicking
+# "Angles" wrote "back" into the search box, so the reader who asked for a concept got a ranked
+# list of transitions and no concept at all. (Owner, v1.152.0: "I wasn't searching. The intent
+# was to open a content page on the side panel." And: "I remember seeing 20-something or 30
+# principles. Now I'm just seeing 6.")
+#
+# TWO PAYLOADS, THE SAME SPLIT THE REST OF THIS FILE ALREADY USES:
+#   · concepts.json          — the INDEX: every concept, its summary, and the graph nodes it
+#                              lights. Deferred (nothing on the roll path reads it), 63,074 B —
+#                              which with systems.json's 323,544 sits under the shared
+#                              `deferred_raw_bytes` ceiling of 500,000. Carrying `glue` here too
+#                              cost 160,170 B and left 16,286 B of headroom, so everything only
+#                              the OPEN PANEL reads went into the chunk it already fetches.
+#   · content/<hash>.json    — the BODY, one dossier per concept, in the SAME chunk space the
+#                              per-node dossiers already use, keyed "<Name>|<Principle|Learning>".
+#                              The app's `_ngc()` fetches, caches and renders it with no new
+#                              machinery — one seam, not two (CLAUDE.md section 6.5).
+#
+# WHAT IS DELIBERATELY NOT HERE. The full prose (content/Principles/*.md is ~2.4MB of authored
+# reading) needs a reading surface this pane is not, and the flashcards these files carry still
+# reach no deck — that is the UNACCOUNTED figure build_flashcards() prints every run, and it is
+# unchanged by this. What ships is the concept's own spine: summary, overview, the key points,
+# where it applies, what goes wrong, and how to train it.
+PRINCIPLES_DIR = ROOT / "content/Principles"
+LEARNING_DIR = ROOT / "content/Learning"
+
+# (cat, page folder, source dir). `cat` is the app's per-row vocabulary; the Explore section
+# label is the folder name, which is also what `exploreOpenSections` has always persisted —
+# so a reader's expanded "Principles" fold survives this change.
+CONCEPT_LIBS = (
+    ("Principle", "Principles", PRINCIPLES_DIR),
+    ("Learning", "Learning", LEARNING_DIR),
+)
+
+# Body caps. The chunk ceiling is 40,000 bytes (tests/artifacts/budget_site.json) and the fattest
+# per-node dossier already emitted is 21,349; the fattest concept under these caps is PRINTED by
+# the emit line in main(), every run, so it cannot drift past that gate in silence.
+#
+# EVERY CAP SITS AT OR ABOVE THE AUTHORED MAXIMUM, so nothing an author wrote is currently cut —
+# they are a ceiling against future growth, not an editorial decision. Measured across all 82
+# files; recompute before quoting:
+#
+#   python3 - <<'EOF'
+#   import json, glob
+#   F = {"Principles": ("key_principles","application_contexts","common_errors","training_approaches"),
+#        "Learning":   ("key_takeaways","bjj_applications","common_mistakes","training_exercises")}
+#   mx = {}
+#   for d_, (p,c,e,t) in F.items():
+#       for f in glob.glob(f"content/{d_}/*.json"):
+#           d = json.load(open(f))
+#           for k, v in (("overview", len(" ".join((d.get("overview") or "").split()))),
+#                        ("points", len(d.get(p) or [])), ("contexts", len(d.get(c) or [])),
+#                        ("errors", len(d.get(e) or [])), ("drills", len(d.get(t) or [])),
+#                        ("point_len", max([0]+[len(" ".join(str(x).split())) for x in (d.get(p) or [])]))):
+#               mx[k] = max(mx.get(k, 0), v)
+#   print(mx)
+#   EOF
+#
+# As of v1.152.0: overview 2,334 · points 9 (longest 237 chars) · contexts 18 · errors 8 · drills 6.
+OVERVIEW_CAP = 2600
+POINT_CAP, POINTS_MAX = 300, 12
+CTX_MAX, ERR_MAX, DRILL_MAX = 18, 8, 6
+
+# Per library, the authored field names for one normalised body shape. Principles and Learning
+# were authored by different templates and say the same things with different words; normalising
+# HERE (not in the app) means the renderer has one shape to draw and a third library would only
+# add a row to this table.
+CONCEPT_FIELDS = {
+    "Principle": {
+        "points": ("key_principles", None),
+        "contexts": ("application_contexts", ("context", "how_applied")),
+        "errors": ("common_errors", ("error", "consequence", "correction")),
+        "drills": ("training_approaches", ("approach_name", "description", "focus")),
+    },
+    "Learning": {
+        "points": ("key_takeaways", None),
+        "contexts": ("bjj_applications", ("scenario", "application")),
+        "errors": ("common_mistakes", ("mistake", "consequence", "correction")),
+        "drills": ("training_exercises", ("name", "description", "focus")),
+    },
+}
+
+
+def _concept_body(data: dict, cat: str) -> dict:
+    """The readable dossier for one concept, normalised out of whichever template authored it."""
+    spec = CONCEPT_FIELDS[cat]
+    body: dict = {}
+    ov = _clip((data.get("overview") or "").strip(), OVERVIEW_CAP)
+    if ov:
+        body["overview"] = ov
+
+    src, _ = spec["points"]
+    points = [_clip(str(p).strip(), POINT_CAP) for p in (data.get(src) or []) if str(p).strip()]
+    if points:
+        body["points"] = points[:POINTS_MAX]
+
+    src, keys = spec["contexts"]
+    contexts = []
+    for item in (data.get(src) or [])[:CTX_MAX]:
+        if not isinstance(item, dict):
+            continue
+        c, how = _clip((item.get(keys[0]) or "").strip(), 90), _clip((item.get(keys[1]) or "").strip(), 420)
+        if c and how:
+            contexts.append({"c": c, "how": how})
+    if contexts:
+        body["contexts"] = contexts
+
+    src, keys = spec["errors"]
+    errors = []
+    for item in (data.get(src) or [])[:ERR_MAX]:
+        if not isinstance(item, dict):
+            continue
+        err = _clip((item.get(keys[0]) or "").strip(), 260)
+        fix = _clip((item.get(keys[2]) or "").strip(), 340)
+        if err and fix:
+            errors.append({"err": err, "why": _clip((item.get(keys[1]) or "").strip(), 300), "fix": fix})
+    if errors:
+        body["errors"] = errors
+
+    src, keys = spec["drills"]
+    drills = []
+    for item in (data.get(src) or [])[:DRILL_MAX]:
+        if not isinstance(item, dict):
+            continue
+        name, how = _clip((item.get(keys[0]) or "").strip(), 90), _clip((item.get(keys[1]) or "").strip(), 420)
+        if name and how:
+            drills.append({"name": name, "how": how, "focus": _clip((item.get(keys[2]) or "").strip(), 220)})
+    if drills:
+        body["drills"] = drills
+    return body
+
+
+def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
+    """The Principles + Learning libraries: (index payload, dossier map keyed for the chunk writer).
+
+    Membership is `related_content` resolved against graph-data.json's own ids, the SAME resolver
+    build_systems uses — so a concept lights exactly the techniques its author linked, and a
+    reference that resolves to nothing is REPORTED per concept in `unresolved`, never dropped and
+    never faked.
+
+    Concept-to-concept references (content_type Principle/Learning/System) are not graph nodes and
+    were previously counted only as `nonGraphRefs` and thrown away. They are the cross-links a
+    reader actually follows between concepts, so they are kept in `related` — resolved against the
+    concepts THIS function emits, so a link can never point at a page that is not in the payload."""
+    from regenerate_graph import build_alias_maps, quartz_slug
+
+    ids = set(node_ids)
+    idx = _node_indexes(node_ids)
+    pos_alias, tech_alias = build_alias_maps(ROOT / "content")
+    idx["alias"] = {**pos_alias, **{a: v["slug"] for a, v in tech_alias.items()}}
+
+    # PASS 1: read every file, so pass 2 can resolve a cross-reference against the concepts that
+    # actually exist rather than minting a link to a page nobody emitted.
+    raw = []
+    for cat, folder, src_dir in CONCEPT_LIBS:
+        for path in sorted(src_dir.glob("*.json")):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            name = (data.get("name") or path.stem).strip()
+            raw.append((cat, folder, path, name, data))
+    # `by_slug` is what a concept-to-concept reference resolves through, so a slug shared by two
+    # concepts would silently send every link to whichever was read last. Zero collisions today
+    # (the two libraries do not overlap); asserted rather than believed, because the failure is a
+    # link that opens the WRONG page and reports nothing.
+    by_slug = {}
+    for cat, folder, path, name, data in raw:
+        sl, page = slugify(name), f"{folder}/{quartz_slug(path.stem)}"
+        if sl in by_slug and by_slug[sl] != page:
+            raise SystemExit(
+                f"[neural] concept slug {sl!r} names two pages ({by_slug[sl]} and {page}). Every "
+                f"cross-reference to it would resolve to one of them arbitrarily."
+            )
+        by_slug[sl] = page
+
+    # A REFERENCE AUTHORED AS A PAGE PATH IS THE SAME REFERENCE, SPELLED DIFFERENTLY.
+    # Most files write a bare display name ("Side Control"); at least one writes the page path
+    # ("Positions/Side Control", "Principles/Frames"). `slugify` folds the whole string to
+    # `positions-side-control`, which matches nothing — and the miss is invisible, because an
+    # unresolved ref is a legitimate outcome. Measured before this ladder existed: 8 unresolved
+    # graph refs, of which 6 were this one spelling in a single file, plus that file's entire set
+    # of concept cross-links. Same class as `_tech_keys` (CLAUDE.md section 6.6): try every
+    # spelling, then COUNT how often the extra rung fired so it can never rot in silence.
+    PATH_CTYPE = {v: k for k, v in GRAPH_REF_PREFIX.items()}      # "Positions" -> "Position"
+    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
+
+    concepts, dossiers = [], {}
+    non_graph = md_only = path_spelled = fam_expanded = 0
+    for cat, folder, path, name, data in raw:
+        page = f"{folder}/{quartz_slug(path.stem)}"
+        nodes, unresolved, glue, related = [], [], [], []
+        for item in data.get("related_content") or []:
+            if not isinstance(item, dict):
+                continue
+            ref = (item.get("name") or "").strip()
+            ctype = (item.get("content_type") or "").strip()
+            if not ref:
+                continue
+            pre, sep, tail = ref.partition("/")
+            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES):
+                ref = tail.strip()
+                if pre in PATH_CTYPE:
+                    ctype = ctype or PATH_CTYPE[pre]
+                path_spelled += 1
+            if ctype and ctype not in GRAPH_REF_PREFIX:
+                # a concept-to-concept (or concept-to-system) link. Kept when it names a page in
+                # THIS payload; a System is a page too but lives in systems.json, so it is counted
+                # and dropped rather than linked to a row that does not exist here.
+                non_graph += 1
+                hit = by_slug.get(slugify(ref))
+                if hit and hit != page and hit not in related:
+                    related.append(hit)
+                continue
+            # v1.151.0 gave _resolve_member a second return value: whether the ref named a
+            # FAMILY and was expanded to its instances. A System narrows that with
+            # _anchor_family(), because "in this system" means the moves it teaches FROM THE
+            # PLACES IT TEACHES THEM. A concept is NOT narrowed, and the difference is the point:
+            # a System is a curriculum, a principle is a general idea. "Levers" naming "Kimura"
+            # is a claim about every kimura, not about the three a syllabus happens to cover, and
+            # a concept has no "taught positions" set to anchor against in the first place. The
+            # expansion is measured and printed (`_meta.familyExpandedRefs`) so this stays a
+            # decision on record rather than a difference nobody noticed.
+            hit, is_family = _resolve_member(ref, ctype, None, ids, idx)
+            if hit:
+                fam_expanded += 1 if is_family else 0
+                nodes.extend(hit)
+                # THE GLUE, exactly as a System carries it: the authored `relationship` is what
+                # says why this technique is here. A lit constellation with no reason attached is
+                # the thing that made the six search shortcuts feel like an answer.
+                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
+            elif ref not in unresolved:
+                unresolved.append(ref)
+
+        # The chunk key. `|Principle` / `|Learning` keeps it out of the technique key space, which
+        # is bare display names — two libraries authoring "Base" would otherwise share a slot.
+        key = f"{name}|{cat}"
+        body = _concept_body(data, cat)
+        # THE INDEX/BODY LINE, and it is a byte budget, not a taste call. `concepts.json` is
+        # DEFERRED and shares a 500,000-byte ceiling with systems.json (323,544). Everything the
+        # LIST and the graph HIGHLIGHT need stays in the index so a click lights up instantly;
+        # everything only the open panel reads — the glue, the cross-links, the misses — rides in
+        # the chunk the panel already fetches. Measured: carrying `glue` in the index made
+        # concepts.json 160,170 B and left 16,286 B of headroom under that ceiling; without it,
+        # 63,074 B.
+        #
+        # A DUPLICATE KEY WOULD BE A SILENT DROP, so it is a build error. Two files under one
+        # library authoring the same `name` would share this slot, and last-write-wins would ship
+        # one concept's body under the other's row — the same shape as the deck-key collision the
+        # flashcard join refuses (CLAUDE.md section 6.6).
+        if key in dossiers:
+            raise SystemExit(
+                f"[neural] concept key {key!r} is authored twice ({path.name} collides with an "
+                f"earlier file of the same `name`). One body would overwrite the other. Rename "
+                f"one in content/ — there is no baseline to add it to, by design."
+            )
+        dossiers[key] = dict(body, cat=cat, name=name, url=f"/{page}",
+                             glue=glue, related=related, unresolved=unresolved)
+        concepts.append({
+            "id": page,
+            "key": key,
+            "name": name,
+            "cat": cat,
+            "url": f"/{page}",
+            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            "meta": _clip(" · ".join(
+                x for x in ((data.get("application_level") or "").strip(),
+                            (data.get("complexity_level") or "").strip(),
+                            (data.get("category") or "").strip()) if x), 60),
+            "nodes": sorted(set(nodes)),
+            "unresolved": unresolved,
+        })
+
+    # Editorial Learning pages authored as .md with no .json beside them (3 today) carry no
+    # structured body this emitter can read, so they are COUNTED and named rather than listed as
+    # rows that would open an empty panel. Printed every run: a silent omission is how the six
+    # shortcuts survived (CLAUDE.md section 6.6).
+    md_missing = []
+    for cat, folder, src_dir in CONCEPT_LIBS:
+        for md in sorted(src_dir.glob("*.md")):
+            if not (src_dir / f"{md.stem}.json").exists():
+                md_only += 1
+                md_missing.append(f"{folder}/{md.stem}")
+
+    concepts.sort(key=lambda c: (c["cat"] != "Principle", c["name"].lower()))
+    return (
+        {
+            "_meta": {
+                "count": len(concepts),
+                "principles": sum(1 for c in concepts if c["cat"] == "Principle"),
+                "learning": sum(1 for c in concepts if c["cat"] == "Learning"),
+                "nodes": sum(len(c["nodes"]) for c in concepts),
+                "unresolved": sum(len(c["unresolved"]) for c in concepts),
+                "related": sum(len(d["related"]) for d in dossiers.values()),
+                "nonGraphRefs": non_graph,
+                "pathSpelledRefs": path_spelled,
+                "familyExpandedRefs": fam_expanded,
+                "mdOnly": md_only,
+                "mdOnlyPages": md_missing,
+                "note": "Generated by scripts/regenerate_neural_data.py from content/Principles/*.json "
+                        "+ content/Learning/*.json; `nodes` are graph-data.json ids and `key` "
+                        "addresses the concept's dossier in the content/ chunk space. mdOnlyPages "
+                        "are authored .md with no .json beside them: no structured body to emit.",
+            },
+            "concepts": concepts,
+        },
+        dossiers,
+    )
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
@@ -1631,9 +1947,36 @@ def main() -> None:
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
     # tests and the MC audit assemble the corpus from the chunks (scripts/_neural_decks.py,
     # e2e/decks.ts), so there is exactly ONE source of truth for a deck's cards.
+    # concepts.json + the concept dossiers — the Principles and Learning libraries. Built BEFORE
+    # the chunk write because its bodies share that chunk space (see write_ng_chunks(extra=...)).
+    conceptd, concept_dossiers = build_concepts([n["id"] for n in gd["nodes"]])
+    (OUT_DIR / "concepts.json").write_text(
+        json.dumps(conceptd, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    cm = conceptd["_meta"]
+    _cmax = max((len(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
+                 for v in concept_dossiers.values()), default=0)
+    print(f"concepts.json: {cm['principles']} principles + {cm['learning']} learning = "
+          f"{cm['count']} concepts, {cm['nodes']} lit nodes, {cm['related']} cross-links, "
+          f"{cm['unresolved']} unresolved refs "
+          f"({cm['nonGraphRefs']} non-graph refs seen, {cm['pathSpelledRefs']} written as a page "
+          f"path, {cm['familyExpandedRefs']} family-expanded and deliberately NOT anchored, "
+          f"{cm['mdOnly']} .md-only page(s) skipped)")
+    print(f"concepts/: {len(concept_dossiers)} readable bodies into the content/ chunk space, "
+          f"fattest {_cmax} bytes (chunk ceiling 40,000)")
+    # POSITIVE COVERAGE, HARD FLOOR (CLAUDE.md section 6.6). Every concept must reach a body: this
+    # payload exists because a click used to open a search instead of content, and "the section is
+    # empty" and "the section renders stubs" look identical from the outside. A file that stops
+    # parsing, a renamed authored field, a template drift — each of them lands here, loudly.
+    if len(concept_dossiers) < cm["count"]:
+        raise SystemExit(
+            f"[neural] concepts: {len(concept_dossiers)}/{cm['count']} carry a readable body. "
+            f"A concept row with no dossier opens an empty panel — the exact failure this payload "
+            f"was added to end. Check CONCEPT_FIELDS against the authored template."
+        )
+
     # Per-node dossiers, one chunk each, replacing the 21.2MB technique-content.js.
     from _neural_content import write_ng_chunks
-    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content")
+    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content", extra=concept_dossiers)
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 

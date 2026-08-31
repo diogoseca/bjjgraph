@@ -55,6 +55,7 @@ const challengeFeedbackCSS = readFileSync(
   "utf8",
 );
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
+const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
 
 // lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
 // can import the identical source — one codec, never a second implementation to drift).
@@ -358,6 +359,7 @@ const cssJoined = [
   challengeCollectionCSS,
   challengeFeedbackCSS,
   systemsCSS,
+  conceptsCSS,
 ].join("\n");
 
 // ── CSS COMMENTS ARE PAYLOAD UNLESS SOMETHING STRIPS THEM, AND NOTHING DID ──────────────────

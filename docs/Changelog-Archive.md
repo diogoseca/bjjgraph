@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
 - **v1.148.0** — [MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT](#v1-148-0-multiple-choice-drops-to-three-and-the-t)
 - **v1.147.0** — [THE PANE'S TAB BAR IS A PAGER](#v1-147-0-the-pane-s-tab-bar-is-a-pager)
 - **v1.146.1** — [THE HOST STYLESHEET REACHED INTO THE APP'S MODAL](#v1-146-1-the-host-stylesheet-reached-into-the-a)
@@ -5042,6 +5043,99 @@ not either guard; it says so in its own header. A third spelling of that rule sa
 handler and was deleted once measured redundant.
 
 ---
+
+## v1.152.0 — THE PRINCIPLE THAT RAN A SEARCH
+
+Owner, two complaints in one message: *"If I click a principle like Angles, it goes to SEARCH mode
+— I see results like turtle to back take, rolling back take. I wasn't searching. The intent was to
+open a content page on the side panel. Same for Learning: clicking Guard Passing searches 'pass'
+and finds all these transitions."* And: *"I remember seeing 20-something or 30 principles. Now I'm
+just seeing 6."*
+
+**THEY WERE THE SAME OBJECT.** `curatedMap` was a ten-entry literal of `[label, SEARCH TERM]`
+pairs whose click handler was three statements: `this._exQ = term`, write the term into the visible
+search input, `renderExplorer()`. The click did not open a concept, could not open one, and never
+had: the second element of every tuple is a query string. "Six visible" and "clicking one runs a
+search" are the same literal read from two sides — and the labels named no authored page
+(`Frames & posture`, `Angles`, `Pressure` are nothing in `content/Principles/`; the real page is
+`Dominant Angles`).
+
+**THE CORPUS THE APP COULD NOT REACH.** 59 principles (~2.4MB of generated `.md` prose beside
+them) and 23 Learning entries. None is a graph node — the visual layout holds 1,467,
+`Counter({'Transitions': 1034, 'Submissions': 297, 'Positions': 136})`, no other prefix — which is
+exactly *why* there was no route in: every Explore row resolves to a node index and calls
+`openDossier`, and a concept has no index to call it with. The emitter already printed the omission
+every run (*"UNACCOUNTED — 106 node(s) / 938 authored card(s) … reach no deck"*), and still does:
+**those flashcards remain unreachable and are NOT part of this change.**
+
+**WHAT SHIPPED: TWO PAYLOADS, ON THE SPLIT THE REPO ALREADY USES.**
+
+- `concepts.json` — the INDEX. 82 entries (59 + 23), `{id, key, name, cat, url, summary, meta,
+  nodes, unresolved}`, **63,074 bytes**, declared DEFERRED in `check_payload_budget.py`. Membership
+  is the authored `related_content` resolved through `_resolve_member` / `_node_indexes` — the same
+  resolver `build_systems` uses, so a concept lights exactly the techniques its author linked:
+  **729 lit nodes, 2 unresolved refs**, reported per concept and never faked.
+- the BODY, one dossier per concept, into the **existing** per-node `content/<fnv1a32(key)>.json`
+  chunk space, keyed `"<Name>|Principle"` / `"<Name>|Learning"`. `write_ng_chunks` grew an `extra`
+  map rather than the app growing a second fetch/cache seam (§6.5): `_ngc()`, `_hydrateContent`,
+  the chunk ceiling and the address scheme are all reused as-is. A key collision between the two
+  maps is a hard `SystemExit`, not a last-write-wins.
+
+**THE INDEX/BODY LINE IS A BYTE BUDGET, NOT A TASTE CALL.** The first cut carried `glue` (the
+authored per-technique reason, ≤180 chars × 723) and `related` in the index: **160,170 bytes**,
+which against the shared `deferred_raw_bytes: 500_000` ceiling and systems.json's 323,544 left
+**16,286 bytes of headroom** — one content-bot Saturday from red. Everything only the OPEN PANEL
+reads moved into the chunk it already fetches; the index kept only what the LIST and the graph
+HIGHLIGHT need, so a row click still lights instantly. 160,170 → 63,074. Fattest concept body
+**18,190 bytes** against the 40,000 chunk ceiling (the fattest per-node dossier already emitted is
+21,349), printed every run so it cannot drift past the gate in silence.
+
+**WHAT THE PANEL SHOWS, AND WHAT IT DOES NOT.** The two libraries were authored by different
+templates that say the same things in different words (`key_principles`/`key_takeaways`,
+`application_contexts`/`bjj_applications`, `common_errors`/`common_mistakes`,
+`training_approaches`/`training_exercises`). `CONCEPT_FIELDS` normalises them in the EMITTER, so
+one renderer draws both and a third library would add a table row, not a branch. Sections:
+overview, key points, where it applies, what goes wrong, how to train it — then the lit techniques
+with their glue, the concept-to-concept links, and a real anchor to the authored page. **NOT
+shipped: the ~2.4MB of `.md` prose** (it needs a reading surface this pane is not, and stays one
+click away) **and the flashcards**. The cross-links are the ~440 refs `build_systems` could only
+count as `nonGraphRefs` and discard; here they are navigation, resolved against the payload this
+emitter itself writes. **521 of them.**
+
+**ONE SPELLING WAS COSTING SIX OF THE EIGHT MISSES.** The first emit reported 8 unresolved graph
+references. Six were a single file — `content/Learning/Defend With Purpose.json` — writing every
+`related_content.name` as a PAGE PATH (`"Positions/Side Control"`, `"Principles/Frames"`) where
+every other file writes the bare display name. `slugify` folds the whole string to
+`positions-side-control` and matches nothing, and the miss is INVISIBLE because an unresolved ref
+is a legitimate outcome: the concept simply lit nothing and said nothing. That is `_tech_keys`
+one join over (§6.6) — a page path is another spelling of the same reference — so the ladder gained
+a rung that strips a known prefix, and the rung COUNTS itself (`_meta.pathSpelledRefs`, printed
+every run) so it cannot rot in silence. **8 unresolved → 2, 723 lit nodes → 729, 513 cross-links →
+521, the rung firing 14 times.** The surviving 2 are real content gaps — `Achilles Lock` and
+`Triangle from Guard` name no node — and the panel says so rather than hiding them.
+
+**THE HARNESS WOULD HAVE HIDDEN THE WHOLE THING** (§6.4). `e2e/dsl.ts` fulfils *every*
+`**/static/neural/content/*.json` with `{}` on purpose, so journeys run without authored dossier
+content — which means "the concept body is absent" is a statement about the DSL, not about the
+app. `concepts-surface.spec.ts` serves the real chunk for a CONCEPT key only, and identifies it by
+READING the emitted file for a key the payload names rather than recomputing `fnv1a32` in the spec
+(§6.3: a spec-side copy of the addressing scheme under test agrees with itself by construction).
+
+**MUTANTS, all killed** (`concepts-surface.spec.ts`): re-arming the search on the row click → 2
+failed · capping the list at six → 2 failed · rendering no readable body → 2 failed · dropping the
+graph highlight → 1 failed · dropping the full-page link → 1 failed. The last two kill only the
+Principles test because those claims live only there. The search claim is asserted three ways —
+`_exQ`, the visible input's value, and the flat `N results` header the search path emits — so a
+regression that re-armed only one of the three still goes red.
+
+**ALSO CORRECTED.** `forward/shared/components-panels.js` still mocked the three retired shortcut
+labels. It is a design mock with no parity gate (§6.8: retired rows survive there by default), so
+it named three principles that have never existed for as long as it has existed.
+
+**STILL OPEN, for the owner.** The 938 authored flashcards on principles and systems reach no
+deck: `deckCat()` has no branch that renders one, and giving them one is a curriculum decision
+(they are not a position or a technique, so they do not blend into the hierarchy the way the
+`_blend_deck` tiers do). The emitter keeps printing the figure every run.
 
 ## v1.148.0 — MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT
 

@@ -1,0 +1,144 @@
+/* Concepts: the Principles and Learning libraries inside the Explore tab. Where a System's card
+   exists to point at a course, a concept's card exists to be READ — so the type scale here is a
+   reading scale, and the sections stack in the order the authored page argues them: what it is,
+   what to remember, where it applies, what goes wrong, how to train it. */
+
+.ng-concept-detail {
+  display: grid;
+  gap: 8px;
+  margin: 4px 3px 10px;
+  padding: 13px 13px 14px;
+  border: 1px solid rgba(102, 204, 238, 0.26);
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(102, 204, 238, 0.08),
+    rgba(255, 255, 255, 0.02)
+  );
+}
+
+/* Learning is the second library and reads as its own colour everywhere else in the pane
+   (the row dot, the related-concept dot) — the card follows. */
+.ng-concept-detail[data-concept-cat="Learning"] {
+  border-color: rgba(126, 224, 168, 0.26);
+  background: linear-gradient(
+    180deg,
+    rgba(126, 224, 168, 0.08),
+    rgba(255, 255, 255, 0.02)
+  );
+}
+
+.ng-concept-detail h2 {
+  margin: 0;
+  color: #eef1f6;
+  font:
+    750 17px/1.15 "Space Grotesk",
+    sans-serif;
+}
+
+.ng-concept-meta {
+  color: #7fc9e4;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.ng-concept-detail[data-concept-cat="Learning"] .ng-concept-meta {
+  color: #86d3ab;
+}
+
+.ng-concept-detail p {
+  margin: 0;
+  color: #9aa6bd;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* the read itself. 12.5px/1.6 rather than the pane's 12px/1.5: this is the one surface in the
+   app somebody stays on for a paragraph. */
+.ng-concept-body {
+  margin: 0 3px 12px;
+  color: #9aa6bd;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.ng-concept-body p {
+  margin: 0 0 12px;
+}
+
+.ng-concept-body h3 {
+  margin: 14px 0 7px;
+  color: #7b8aa8;
+  font:
+    700 10.5px/1 "Plus Jakarta Sans",
+    sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ng-concept-body ul {
+  margin: 0;
+  padding: 0 0 0 17px;
+  display: grid;
+  gap: 6px;
+  color: #c4cde0;
+}
+
+.ng-concept-body dl {
+  margin: 0;
+  display: grid;
+  gap: 9px;
+}
+
+.ng-concept-body dt {
+  color: #dbe2f0;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.ng-concept-body dd {
+  margin: 2px 0 0;
+  color: #8b97b0;
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+
+/* the consequence (why it goes wrong) and the focus (what a drill is for) are the sentence a
+   reader skims past on the way to the fix — set them apart rather than dropping them. */
+.ng-concept-body dd em {
+  display: block;
+  margin-bottom: 3px;
+  color: #6f7b95;
+  font-size: 11px;
+  font-style: normal;
+}
+
+/* The way OUT of the pane. The pane holds the concept's spine; the authored page holds ~40KB of
+   prose per principle that no payload here carries, and the panel has to say so. */
+.ng-concept-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 3px 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(150, 170, 210, 0.24);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.045);
+  color: #dbe2f0;
+  font:
+    700 12px/1 "Plus Jakarta Sans",
+    sans-serif;
+  text-decoration: none;
+}
+
+.ng-concept-page:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.ng-concept-page i {
+  color: #9ab0e0;
+  font-style: normal;
+}

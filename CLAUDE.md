@@ -287,7 +287,9 @@ persistent nav on the static surface and **no gate guards it** (`check_seo_parit
 
 **Delivery.** Boot fetches `graph-data.json` (the compact wire — `ingest()` expands it),
 `app/neural.js` + `.css`, the deck **manifest** `flashcards/_index.json`, and `curriculum.json`.
-On demand: one deck's cards, one node's dossier, `systems.json`. **`_cardsOf(d)` is the only legal
+On demand: one deck's cards, one node's dossier, `systems.json`, `concepts.json`
+(the Principles + Learning index — each concept's readable body is a dossier in the SAME
+`content/` chunk space, keyed `<Name>|Principle`). **`_cardsOf(d)` is the only legal
 way to read cards — a manifest stub is truthy.** The manifest's `n` is load-bearing: `deckMastery`
 computes from it when cards are absent, so dropping it shows every user a white belt.
 

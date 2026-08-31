@@ -323,7 +323,11 @@ export function explorerPanel({
   if (mode === "collection") return collectionPanel();
   const treeGroups = [
     ["Systems", ["Leg Lock System", "Back Attack System", "Pressure Passing"]],
-    ["Principles", ["Frames & posture", "Base & connection", "Hip movement"]],
+    // Real principle names since v1.152.0. The three that were here ("Frames & posture", "Base &
+    // connection", "Hip movement") were labels on the retired search shortcuts and named no
+    // authored page — this catalog has no parity gate (CLAUDE.md 6.8), so a retired row survives
+    // here by default until somebody looks.
+    ["Principles", ["Base", "Dominant Angles", "Levers"]],
     ["Positions", ["Closed Guard", "Half Guard", "Mount", "Back Control"]],
     ["Transitions", ["Knee Slice Pass", "Waiter Sweep", "Technical Stand-up"]],
     ["Submissions", ["Armbar", "Triangle Choke", "Rear Naked Choke"]],
