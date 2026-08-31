@@ -129,6 +129,15 @@ jobs:
       - name: Pure unit suites
         run: node --test tests/*.test.mjs
 
+      # Per-ruleset exclusion (v1.149.0). MUST stay below the payload emit: its headline check is
+      # WIRE PARITY — that every `cal.avail` the app filters on equals the reachability walk. Every
+      # app-side test asserts "no surface shows an unavailable node PER THE MASK", so a mask that
+      # lies is invisible to all of them and only this step can see it. Without the payload the
+      # script prints "wire parity: SKIPPED" and still exits 0, which is a pass that checked the
+      # half that does not ship.
+      - name: Ruleset availability (wire parity, zero mass loss, no dead ends)
+        run: npm run validate:availability
+
       # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
       # references are acted on. Two cheap stdlib gates, no deps:
       #   budget — a char ratchet, plus the structural checks that make the file work at all

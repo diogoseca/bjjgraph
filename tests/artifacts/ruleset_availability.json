@@ -1,0 +1,560 @@
+{
+  "note": "Per-ruleset exclusion, DERIVED — regenerate with `npm run validate:availability`. A node listed here is absent from that ruleset's graph entirely. The verdict is reachability from standing-position over that frame's own attempt probabilities; no name is ever read (ruling P3a). Whether each row SHOULD be excluded is a content question — see the gi column, which is IBJJF heel-hook legality, not equipment.",
+  "source": "scripts/regenerate_neural_data.py:frame_reachable over graph.json",
+  "excluding_frames": [
+    "nogi"
+  ],
+  "counts": {
+    "gi": {
+      "excluded_positions": 0,
+      "excluded_techniques": 0,
+      "unreachable_positions": 0,
+      "unreachable_techniques": 21,
+      "acts": false
+    },
+    "nogi": {
+      "excluded_positions": 18,
+      "excluded_techniques": 104,
+      "unreachable_positions": 18,
+      "unreachable_techniques": 104,
+      "acts": true
+    }
+  },
+  "excluded": {
+    "gi": {
+      "positions": [],
+      "techniques": []
+    },
+    "nogi": {
+      "positions": [
+        "collar-sleeve-guard/bottom",
+        "collar-sleeve-guard/top",
+        "inverted-lasso-guard/bottom",
+        "inverted-lasso-guard/top",
+        "lapel-guard/bottom",
+        "lapel-guard/top",
+        "lasso-guard/bottom",
+        "lasso-guard/top",
+        "piranha-guard/bottom",
+        "piranha-guard/top",
+        "ringworm-guard/bottom",
+        "ringworm-guard/top",
+        "russian-leg-lasso/bottom",
+        "russian-leg-lasso/top",
+        "squid-guard/bottom",
+        "squid-guard/top",
+        "worm-guard/bottom",
+        "worm-guard/top"
+      ],
+      "techniques": [
+        {
+          "id": "aoki-lock",
+          "name": "Aoki Lock"
+        },
+        {
+          "id": "backstep-around-worm-guard",
+          "name": "Backstep Around Worm Guard"
+        },
+        {
+          "id": "backstep-from-worm-guard",
+          "name": "Backstep from Worm Guard"
+        },
+        {
+          "id": "baseball-bat-choke-from-knee-on-belly",
+          "name": "Baseball Bat Choke from Knee on Belly"
+        },
+        {
+          "id": "belly-down-armbar-from-lasso-guard",
+          "name": "Belly Down Armbar from Lasso Guard"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-back-control",
+          "name": "Bow and Arrow Choke from Back Control"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-body-triangle",
+          "name": "Bow and Arrow Choke from Body Triangle"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-harness",
+          "name": "Bow and Arrow Choke from Harness"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-invisible-collar",
+          "name": "Bow and Arrow Choke from Invisible Collar"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-rear-triangle",
+          "name": "Bow and Arrow Choke from Rear Triangle"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-rodeo-ride",
+          "name": "Bow and Arrow Choke from Rodeo Ride"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-russian-cowboy",
+          "name": "Bow and Arrow Choke from Russian Cowboy"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-seat-belt-control-back",
+          "name": "Bow and Arrow Choke from Seat Belt Control Back"
+        },
+        {
+          "id": "bow-and-arrow-choke-from-truck",
+          "name": "Bow and Arrow Choke from Truck"
+        },
+        {
+          "id": "bow-and-arrow-choke-setup",
+          "name": "Bow and Arrow Choke Setup"
+        },
+        {
+          "id": "bow-and-arrow-setup-from-standing-back",
+          "name": "Bow and Arrow Setup from Standing Back"
+        },
+        {
+          "id": "breadcutter-choke-from-kuzure-kesa-gatame",
+          "name": "Breadcutter Choke from Kuzure Kesa-Gatame"
+        },
+        {
+          "id": "buggy-choke",
+          "name": "Buggy Choke"
+        },
+        {
+          "id": "bull-pass-from-collar-sleeve",
+          "name": "Bull Pass from Collar Sleeve"
+        },
+        {
+          "id": "clock-choke",
+          "name": "Clock Choke"
+        },
+        {
+          "id": "clock-choke-from-invisible-collar",
+          "name": "Clock Choke from Invisible Collar"
+        },
+        {
+          "id": "clock-choke-from-rodeo-ride",
+          "name": "Clock Choke from Rodeo Ride"
+        },
+        {
+          "id": "collar-drag",
+          "name": "Collar Drag"
+        },
+        {
+          "id": "collar-drag-from-worm-guard",
+          "name": "Collar Drag from Worm Guard"
+        },
+        {
+          "id": "collar-sleeve-sweep",
+          "name": "Collar Sleeve Sweep"
+        },
+        {
+          "id": "collar-sleeve-to-de-la-riva",
+          "name": "Collar Sleeve to De La Riva"
+        },
+        {
+          "id": "collar-sleeve-to-spider-guard",
+          "name": "Collar Sleeve to Spider Guard"
+        },
+        {
+          "id": "cross-collar-choke-from-3-4-mount",
+          "name": "Cross Collar Choke from 3-4 Mount"
+        },
+        {
+          "id": "cross-collar-choke-from-body-triangle",
+          "name": "Cross Collar Choke from Body Triangle"
+        },
+        {
+          "id": "cross-collar-choke-from-closed-guard",
+          "name": "Cross Collar Choke from Closed Guard"
+        },
+        {
+          "id": "cross-collar-choke-from-high-mount",
+          "name": "Cross Collar Choke from High Mount"
+        },
+        {
+          "id": "cross-collar-choke-from-knee-on-belly",
+          "name": "Cross Collar Choke from Knee on Belly"
+        },
+        {
+          "id": "cross-collar-choke-from-modified-mount",
+          "name": "Cross Collar Choke from Modified Mount"
+        },
+        {
+          "id": "cross-collar-choke-from-mount",
+          "name": "Cross Collar Choke from Mount"
+        },
+        {
+          "id": "de-la-riva-to-lapel-guard",
+          "name": "De La Riva to Lapel Guard"
+        },
+        {
+          "id": "distance-creation-to-reset",
+          "name": "Distance Creation to Reset"
+        },
+        {
+          "id": "double-sleeve-to-lasso",
+          "name": "Double Sleeve to Lasso"
+        },
+        {
+          "id": "guard-recovery-from-squid-guard",
+          "name": "Guard Recovery from Squid Guard"
+        },
+        {
+          "id": "inside-heel-hook-from-inside-sankaku",
+          "name": "Inside Heel Hook from Inside Sankaku"
+        },
+        {
+          "id": "inverted-lasso-sweep",
+          "name": "Inverted Lasso Sweep"
+        },
+        {
+          "id": "inverted-lasso-to-lasso-guard",
+          "name": "Inverted Lasso to Lasso Guard"
+        },
+        {
+          "id": "kimura-from-lasso-guard",
+          "name": "Kimura from Lasso Guard"
+        },
+        {
+          "id": "knee-slice-despite-lapel",
+          "name": "Knee Slice Despite Lapel"
+        },
+        {
+          "id": "kneebar",
+          "name": "Kneebar"
+        },
+        {
+          "id": "kneebar-from-carni",
+          "name": "Kneebar from Carni"
+        },
+        {
+          "id": "lapel-clear-to-toreando-pass",
+          "name": "Lapel Clear to Toreando Pass"
+        },
+        {
+          "id": "lapel-elevator-sweep",
+          "name": "Lapel Elevator Sweep"
+        },
+        {
+          "id": "lapel-grip-break-and-posture-recovery",
+          "name": "Lapel Grip Break and Posture Recovery"
+        },
+        {
+          "id": "lapel-guard-to-piranha-guard",
+          "name": "Lapel Guard to Piranha Guard"
+        },
+        {
+          "id": "lapel-omoplata-entry",
+          "name": "Lapel Omoplata Entry"
+        },
+        {
+          "id": "lapel-strip-from-worm-guard",
+          "name": "Lapel Strip from Worm Guard"
+        },
+        {
+          "id": "lapel-sweep-to-back",
+          "name": "Lapel Sweep to Back"
+        },
+        {
+          "id": "lapel-to-de-la-riva",
+          "name": "Lapel to De La Riva"
+        },
+        {
+          "id": "lapel-to-lasso-guard",
+          "name": "Lapel to Lasso Guard"
+        },
+        {
+          "id": "lapel-to-spider-guard",
+          "name": "Lapel to Spider Guard"
+        },
+        {
+          "id": "lapel-triangle-setup",
+          "name": "Lapel Triangle Setup"
+        },
+        {
+          "id": "lasso-guard-backstep-pass",
+          "name": "Lasso Guard Backstep Pass"
+        },
+        {
+          "id": "lasso-guard-pass",
+          "name": "Lasso Guard Pass"
+        },
+        {
+          "id": "lasso-guard-stack-pass",
+          "name": "Lasso Guard Stack Pass"
+        },
+        {
+          "id": "lasso-guard-to-inverted-lasso-guard",
+          "name": "Lasso Guard to Inverted Lasso Guard"
+        },
+        {
+          "id": "lasso-guard-to-russian-leg-lasso",
+          "name": "Lasso Guard to Russian Leg Lasso"
+        },
+        {
+          "id": "lasso-sweep",
+          "name": "Lasso Sweep"
+        },
+        {
+          "id": "leg-drag-while-clearing-lapel",
+          "name": "Leg Drag While Clearing Lapel"
+        },
+        {
+          "id": "leg-extraction-from-lapel-wrap",
+          "name": "Leg Extraction from Lapel Wrap"
+        },
+        {
+          "id": "long-step-around-ringworm",
+          "name": "Long Step Around Ringworm"
+        },
+        {
+          "id": "loop-choke-from-closed-guard",
+          "name": "Loop Choke from Closed Guard"
+        },
+        {
+          "id": "loop-choke-from-half-guard",
+          "name": "Loop Choke from Half Guard"
+        },
+        {
+          "id": "loop-choke-from-mount",
+          "name": "Loop Choke from Mount"
+        },
+        {
+          "id": "loop-choke-from-turtle",
+          "name": "Loop Choke from Turtle"
+        },
+        {
+          "id": "omoplata-from-lasso",
+          "name": "Omoplata from Lasso"
+        },
+        {
+          "id": "omoplata-from-russian-leg-lasso",
+          "name": "Omoplata from Russian Leg Lasso"
+        },
+        {
+          "id": "open-guard-to-collar-sleeve-guard",
+          "name": "Open Guard to Collar Sleeve Guard"
+        },
+        {
+          "id": "open-guard-to-double-sleeve-guard",
+          "name": "Open Guard to Double Sleeve Guard"
+        },
+        {
+          "id": "paper-cutter-choke-from-kuzure-kesa-gatame",
+          "name": "Paper Cutter Choke from Kuzure Kesa-Gatame"
+        },
+        {
+          "id": "pass-collar-sleeve-guard",
+          "name": "Pass Collar Sleeve Guard"
+        },
+        {
+          "id": "pass-inverted-lasso-guard",
+          "name": "Pass Inverted Lasso Guard"
+        },
+        {
+          "id": "pass-piranha-guard",
+          "name": "Pass Piranha Guard"
+        },
+        {
+          "id": "pass-russian-leg-lasso",
+          "name": "Pass Russian Leg Lasso"
+        },
+        {
+          "id": "pass-squid-guard",
+          "name": "Pass Squid Guard"
+        },
+        {
+          "id": "piranha-guard-sweep",
+          "name": "Piranha Guard Sweep"
+        },
+        {
+          "id": "piranha-to-worm-guard",
+          "name": "Piranha to Worm Guard"
+        },
+        {
+          "id": "pressure-pass-through-squid",
+          "name": "Pressure Pass Through Squid"
+        },
+        {
+          "id": "pressure-through-squid-guard",
+          "name": "Pressure Through Squid Guard"
+        },
+        {
+          "id": "ringworm-guard-entry",
+          "name": "Ringworm Guard Entry"
+        },
+        {
+          "id": "ringworm-guard-to-worm-guard",
+          "name": "Ringworm Guard to Worm Guard"
+        },
+        {
+          "id": "ringworm-sweep-to-back-control",
+          "name": "Ringworm Sweep to Back Control"
+        },
+        {
+          "id": "ringworm-to-spider-guard",
+          "name": "Ringworm to Spider Guard"
+        },
+        {
+          "id": "russian-lasso-sweep",
+          "name": "Russian Lasso Sweep"
+        },
+        {
+          "id": "russian-lasso-to-de-la-riva",
+          "name": "Russian Lasso to De La Riva"
+        },
+        {
+          "id": "smash-pass-counter",
+          "name": "Smash Pass Counter"
+        },
+        {
+          "id": "spider-to-lasso-guard",
+          "name": "Spider to Lasso Guard"
+        },
+        {
+          "id": "squid-guard-entry",
+          "name": "Squid Guard Entry"
+        },
+        {
+          "id": "squid-guard-sweep",
+          "name": "Squid Guard Sweep"
+        },
+        {
+          "id": "squid-to-ringworm-guard",
+          "name": "Squid to Ringworm Guard"
+        },
+        {
+          "id": "stack-from-inverted-lasso",
+          "name": "Stack from Inverted Lasso"
+        },
+        {
+          "id": "stack-pass-over-lapel-barrier",
+          "name": "Stack Pass Over Lapel Barrier"
+        },
+        {
+          "id": "stack-pass-with-lapel-control-negation",
+          "name": "Stack Pass with Lapel Control Negation"
+        },
+        {
+          "id": "standing-guard-pass-with-distance-creation",
+          "name": "Standing Guard Pass with Distance Creation"
+        },
+        {
+          "id": "standing-reset-to-open-guard",
+          "name": "Standing Reset to Open Guard"
+        },
+        {
+          "id": "strip-lapel-from-piranha",
+          "name": "Strip Lapel from Piranha"
+        },
+        {
+          "id": "strip-russian-leg-lasso",
+          "name": "Strip Russian Leg Lasso"
+        },
+        {
+          "id": "worm-guard-entry",
+          "name": "Worm Guard Entry"
+        },
+        {
+          "id": "worm-guard-sweep",
+          "name": "Worm Guard Sweep"
+        },
+        {
+          "id": "worm-to-squid-guard",
+          "name": "Worm to Squid Guard"
+        }
+      ]
+    }
+  },
+  "unreachable_but_not_excluded": {
+    "gi": {
+      "positions": [],
+      "techniques": [
+        {
+          "id": "aoki-lock",
+          "name": "Aoki Lock"
+        },
+        {
+          "id": "buggy-choke",
+          "name": "Buggy Choke"
+        },
+        {
+          "id": "heel-hook-from-50-50-guard",
+          "name": "Heel Hook from 50-50 Guard"
+        },
+        {
+          "id": "heel-hook-from-backside-50-50",
+          "name": "Heel Hook from Backside 50-50"
+        },
+        {
+          "id": "heel-hook-from-cross-ashi-garami",
+          "name": "Heel Hook from Cross Ashi-Garami"
+        },
+        {
+          "id": "heel-hook-from-grasshopper-guard",
+          "name": "Heel Hook from Grasshopper Guard"
+        },
+        {
+          "id": "heel-hook-from-honey-hole",
+          "name": "Heel Hook from Honey Hole"
+        },
+        {
+          "id": "heel-hook-from-inside-ashi-garami",
+          "name": "Heel Hook from Inside Ashi-Garami"
+        },
+        {
+          "id": "heel-hook-from-kneebar-control",
+          "name": "Heel Hook from Kneebar Control"
+        },
+        {
+          "id": "heel-hook-from-ushiro-ashi",
+          "name": "Heel Hook from Ushiro Ashi"
+        },
+        {
+          "id": "inside-heel-hook-from-honey-hole",
+          "name": "Inside Heel Hook from Honey Hole"
+        },
+        {
+          "id": "inside-heel-hook-from-inside-sankaku",
+          "name": "Inside Heel Hook from Inside Sankaku"
+        },
+        {
+          "id": "inside-heel-hook-from-ushiro-ashi-garami",
+          "name": "Inside Heel Hook from Ushiro Ashi-Garami"
+        },
+        {
+          "id": "kneebar",
+          "name": "Kneebar"
+        },
+        {
+          "id": "kneebar-from-carni",
+          "name": "Kneebar from Carni"
+        },
+        {
+          "id": "outside-heel-hook-adjustment",
+          "name": "Outside Heel Hook Adjustment"
+        },
+        {
+          "id": "outside-heel-hook-from-50-50-guard",
+          "name": "Outside Heel Hook from 50-50 Guard"
+        },
+        {
+          "id": "outside-heel-hook-from-cross-ashi-garami",
+          "name": "Outside Heel Hook from Cross Ashi-Garami"
+        },
+        {
+          "id": "outside-heel-hook-from-honey-hole",
+          "name": "Outside Heel Hook from Honey Hole"
+        },
+        {
+          "id": "outside-heel-hook-from-outside-ashi-garami",
+          "name": "Outside Heel Hook from Outside Ashi-Garami"
+        },
+        {
+          "id": "outside-heel-hook-from-ushiro-ashi-garami",
+          "name": "Outside Heel Hook from Ushiro Ashi-Garami"
+        }
+      ]
+    }
+  }
+}

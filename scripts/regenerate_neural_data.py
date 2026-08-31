@@ -143,6 +143,110 @@ def _frame_positive(t, frame: str) -> bool:
     v = _frame_attempt(t, frame)
     return v is not None and v > 0
 
+
+# The two seats a real roll begins from. `frame_reachable` walks OUT from here; anything the walk
+# never touches is a state that ruleset cannot produce.
+ROLL_SEEDS = ("standing-position/top", "standing-position/bottom")
+
+# WHICH FRAMES THE WALK IS ALLOWED TO EMPTY, and why this is not simply both.
+#
+# The walk answers "can a session in F arrive here". It is honest in both columns, but the two
+# columns mean different things, because the per-frame zeros they stand on were written for
+# different reasons:
+#
+#   no-gi — EQUIPMENT. All 104 techniques and 18 role-nodes it isolates trace to cloth: a lapel
+#           threaded through a leg, four fingers inside a collar. No garment, no state. Absence is
+#           the only honest rendering.
+#   gi    — LEGALITY. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed because
+#           IBJJF bans them, and several of their own `availability_rulings` say so conditionally
+#           ("sub-only/ADCC-gi voices keep a floor of 1"). That is a choice about which gi ruleset
+#           the app models, not a fact about a jacket — and the owner's scope for this feature was
+#           explicit: gear vs no gear, exclusion applies to the IMPOSSIBLE class, heel-hooks-in-gi
+#           are RESTRICTED and are not to be touched.
+#
+# IT IS ALSO NOT SAFE TODAY, which is how the distinction got measured rather than argued.
+# `backside-50-50/bottom` has exactly ONE gi move that survives `optionsFor`'s role AND origin
+# filters, and it is `Heel Hook from Backside 50-50`. Excluding it empties the main pass, and the
+# hand falls through to the ORIGIN-RELAXED fallback — five cards from other origins carrying no
+# `ord` and no `ordOdds`, i.e. an unranked hand with no EDGE. graph.json cannot see this coming:
+# its per-frame sums say the state still has live moves, because they do not apply role or origin.
+#
+# So the gi column is REPORTED by `frame_reachable`, ledgered by `validate:availability`, and NOT
+# excluded. Adding "gi" here is a one-token change and a product decision, not a cleanup.
+EXCLUDING_FRAMES = ("nogi",)
+
+
+def frame_reachable(graph: dict, frame: str) -> dict:
+    """Every position role-node and technique a session in `frame` can ACTUALLY ARRIVE AT.
+
+    THE QUESTION THIS REPLACED WAS THE WRONG ONE. `tech_avail` used to ask "does any position
+    offer this move with attemptProbability[frame] > 0", which is a question about one edge. It
+    cannot see the case that matters: a technique whose only origin is a position that ruleset
+    cannot produce. Worm Guard/Bottom deals a full no-gi hand (X-Guard Sweep 33, Omoplata 21) —
+    honest numbers CONDITIONAL on standing in worm guard, which requires threading the opponent's
+    lapel through their own legs. Every no-gi entry into it is 0, so the condition never holds.
+    The old question answered "available"; the walk answers "unreachable", and the second is the
+    one the player experiences.
+
+    MEASURED at the switch (`graph.json` at v1.148.0, walked from ROLL_SEEDS):
+
+        frame   unreachable techniques   unreachable position role-nodes
+        gi                          21                                 0
+        nogi                       104                                18
+
+    The 18 are Lapel / Worm / Squid / Ringworm / Piranha / Lasso / Collar-Sleeve / Inverted-Lasso
+    / Russian-Leg-Lasso guard, both seats — nine cloth-defined guards, each independently carrying
+    an explicit garment requirement in its own authored `prerequisites`. NOTHING HERE READS A NAME
+    (ruling P3a): the panel refuted the name regex in advance on `collar-sleeve-guard__bottom`
+    ("consumers keying availability off the move name would wrongly zero it"), and a name sweep
+    flags `Rear Naked Choke from Invisible Collar` — the canonical no-gi choke — because the
+    POSITION contains "Collar". The walk reads edges.
+
+    The gi column is NOT equipment. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed
+    by the calibration for IBJJF LEGALITY, and several of their own rulings say the ban is
+    ruleset-dependent ("sub-only/ADCC-gi voices keep a floor of 1"). They are reported by the same
+    mechanism because the mechanism is about edges, not about why an edge is zero; whether gi mode
+    should hide them is a ruleset-policy choice, not a fact about a garment.
+
+    Cost: two BFS passes over ~1.5k nodes at build time, ~10ms. Not memoised on purpose — it is
+    called twice, once per frame.
+    """
+    positions = graph.get("positions", {})
+    out = {}
+    for key, node in positions.items():
+        if node.get("role") not in ("top", "bottom"):
+            continue
+        dst = out.setdefault(key, set())
+        for t in (node.get("transitions") or []):
+            tgt = t.get("target")
+            if tgt and _frame_positive(t, frame):
+                dst.add("T:" + tgt)
+    for section in ("transitions", "submissions"):
+        for node in graph.get(section, {}).values():
+            hub = node.get("hub")
+            if not hub or node.get("role") == "hub":
+                continue
+            dst = out.setdefault("T:" + hub, set())
+            for o in (node.get("outcomes") or []):
+                to = o.get("to") or ""
+                # `game-over` and bare hubs are not walkable states; only role-nodes carry edges.
+                if to in positions:
+                    dst.add(to)
+
+    seeds = [s for s in ROLL_SEEDS if s in positions]
+    if not seeds:
+        raise SystemExit(f"[regenerate_neural_data] frame_reachable: none of {ROLL_SEEDS} is in "
+                         f"graph.json — the walk would report EVERYTHING unavailable, which is "
+                         f"exactly what a clean run looks like from the outside")
+    seen, stack = set(seeds), list(seeds)
+    while stack:
+        for nxt in out.get(stack.pop(), ()):
+            if nxt not in seen:
+                seen.add(nxt)
+                stack.append(nxt)
+    return {"positions": {k for k in seen if not k.startswith("T:")},
+            "techniques": {k[2:] for k in seen if k.startswith("T:")}}
+
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
@@ -154,19 +258,26 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         for nid, node in graph.get(section, {}).items():
             by_slug[(section, nid)] = node
 
-    # per-technique ruleset availability: available in frame F if ANY position offers it with
-    # attemptProbability[F] > 0 (Q3's per-frame-0 policy zeroes ruleset-unavailable moves). Drives
-    # the app's giAllows filter from data instead of a brittle name regex.
+    # per-frame availability, REACHABILITY-CLOSED (v1.153.0). See `frame_reachable` for why
+    # "attempted somewhere" was the wrong question and what the walk costs.
+    walk = {fr: frame_reachable(graph, fr) for fr in ("gi", "nogi")}
+    # A frame the exclusion layer does not act on is admitted WHOLE — see EXCLUDING_FRAMES.
+    reach = {fr: (walk[fr] if fr in EXCLUDING_FRAMES else
+                  {"positions": set(graph.get("positions", {})),
+                   "techniques": {v["hub"] for sec in ("transitions", "submissions")
+                                  for v in graph.get(sec, {}).values() if v.get("hub")}})
+             for fr in ("gi", "nogi")}
     tech_avail = {}
+    for fr in ("gi", "nogi"):
+        for hub in reach[fr]["techniques"]:
+            tech_avail.setdefault(hub, {"gi": False, "nogi": False})[fr] = True
+    # every technique a position offers gets a row even if it is reachable in NEITHER frame, so a
+    # fully-isolated node ships `{gi:false,nogi:false}` rather than no `avail` at all — absent
+    # availability falls through to giAllows' fail-open branch, which is the opposite answer.
     for node in graph.get("positions", {}).values():
         for t in node.get("transitions", []) or []:
-            nm = t.get("technique")
-            if not nm:
-                continue
-            av = tech_avail.setdefault(slugify(nm), {"gi": False, "nogi": False})
-            for fr in ("gi", "nogi"):
-                if _frame_positive(t, fr):
-                    av[fr] = True
+            if t.get("technique"):
+                tech_avail.setdefault(slugify(t["technique"]), {"gi": False, "nogi": False})
 
     def _pos_role(slug: str, role: str):
         """Resolve a graph.json position role-node: nested layout slugs are compound
@@ -230,6 +341,10 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             # The raw per-move table is NOT emitted (it was 336KB and its only app consumer
             # was the ingest edge-weight pass) — `_moves_stash` carries it to the ew pass.
             out = {}
+            # A layout position node is a HUB: it collapses top+bottom, so its `avail` is the OR
+            # over both seats. That is only honest while the two seats agree — a position you can
+            # reach on the bottom but not the top would need a per-role field, and `_avail_split`
+            # below fails the build if one ever appears rather than letting the OR paper over it.
             avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
                 n = _pos_role(slug, role)
@@ -242,10 +357,10 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                         }
                         for t in n["transitions"]
                     ]
-                    for t in n["transitions"]:
-                        for fr in ("gi", "nogi"):
-                            if _frame_positive(t, fr):
-                                avail[fr] = True
+                    key = f"{n.get('hub') or slug.rsplit('/', 1)[-1]}/{role}"
+                    for fr in ("gi", "nogi"):
+                        if key in reach[fr]["positions"]:
+                            avail[fr] = True
             if not out:
                 return {}
             return {"_moves_stash": out, "avail": avail}
@@ -345,6 +460,50 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 f"successRate. graph.json keys techniques by slugify(<display name>); see "
                 f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
             )
+
+    # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
+    # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table
+    # is indistinguishable from "no move is gi-only" — the exact shape of failure this repo has
+    # rediscovered 17 times. Count it, name the seat-split case, and refuse both degenerate ends.
+    _av = {"positions": {"gi": 0, "nogi": 0, "n": 0}, "techniques": {"gi": 0, "nogi": 0, "n": 0}}
+    for nd in nodes:
+        bucket = _av["positions"] if nd["ty"] == "positions" else _av["techniques"]
+        av = (nd.get("cal") or {}).get("avail")
+        if not isinstance(av, dict):
+            continue
+        bucket["n"] += 1
+        for fr in ("gi", "nogi"):
+            if not av.get(fr):
+                bucket[fr] += 1
+    for _k, _b in _av.items():
+        print(f"  availability: {_k} {_b['n']} with a verdict — "
+              f"{_b['gi']} absent in gi, {_b['nogi']} absent in nogi")
+    if _av["techniques"]["n"] == 0:
+        raise SystemExit("[neural] availability: not one technique carries `avail`. The join is "
+                         "broken, and a broken join prints what a clean run prints.")
+    if all(_av["techniques"][fr] == 0 for fr in EXCLUDING_FRAMES):
+        raise SystemExit("[neural] availability: every technique is available in BOTH frames. The "
+                         "corpus has authored ruleset zeros; a table that finds none is a matcher "
+                         "that matched nothing, not a corpus without gi-only moves.")
+
+    # A position's wire node is a HUB — one `avail` for both seats. That is only sound while the
+    # seats agree. They do today (9 cloth guards, 18 role-nodes, always in pairs); if one ever
+    # splits, the OR above would silently re-admit the unreachable seat, so refuse instead.
+    _seats = {}
+    for _key, _node in graph.get("positions", {}).items():
+        if _node.get("role") not in ("top", "bottom") or not _node.get("transitions"):
+            continue
+        _hub = _node.get("hub") or _key.rsplit("/", 1)[0]
+        for fr in ("gi", "nogi"):
+            _seats.setdefault((_hub, fr), set()).add(_key in reach[fr]["positions"])
+    _split = sorted({h for (h, fr), vals in _seats.items() if len(vals) > 1})
+    if _split:
+        raise SystemExit(
+            f"[neural] availability: {len(_split)} position(s) are reachable on one seat and not "
+            f"the other ({_split[:5]}). The wire carries ONE `avail` per position hub, so the OR "
+            f"would re-admit the unreachable seat. Emit a per-role availability field first."
+        )
+    print(f"  availability: {len(_seats) // 2} position hubs, both seats agree in both frames")
 
     # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
     # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:

@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
 - **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
 - **v1.148.0** — [MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT](#v1-148-0-multiple-choice-drops-to-three-and-the-t)
 - **v1.147.0** — [THE PANE'S TAB BAR IS A PAGER](#v1-147-0-the-pane-s-tab-bar-is-a-pager)
@@ -4774,6 +4775,138 @@ anybody, so they shouldn't be available to me right?" Right — and chasing it f
   surfaces, lists and dossier already render full authored names by canon.
 
 ---
+
+<a id="v1-153-0-in-no-gi-the-lapel-guards-stop-existing"></a>
+
+## v1.153.0 — IN NO-GI THE LAPEL GUARDS STOP EXISTING
+
+> **Status:** Current. Ships the availability layer v1.145.1 sized and deliberately did not build.
+> **No content value was changed by this commit** and no probability moved — see THE PRICE below,
+> which is the reason it could ship without an owner ruling on renormalization.
+
+The owner's framing, which is the whole feature: *"There are techniques which — there are no
+incoming edges — those techniques SHOULD NOT EVEN BE IN THE GRAPH. If the user activates no-gi
+mode then lapel-to-lasso shouldn't be ANYWHERE in the graph, nor in the options anywhere. It works
+when you have a gi on. In no-gi there are no lapels."*
+
+**THE QUESTION THE OLD FILTER ASKED WAS ABOUT ONE EDGE.** `tech_avail` — the source of `cal.avail`,
+which drives `giAllows` — asked *"does any position offer this move with `attemptProbability[F] > 0`"*.
+That cannot see the case that matters. `Worm Guard/Bottom` deals an honest-looking no-gi hand
+(X-Guard Sweep 33, Omoplata Sweep 21, De La Riva Sweep 18). Those numbers are correct **conditional
+on standing in worm guard**, which is entered by feeding the opponent's lapel through their own
+legs. Every no-gi edge into it is 0. The old question answered "available"; the player's question
+is "can I ever be here", and the answer is no.
+
+**THE NEW ONE IS A WALK.** `frame_reachable` (`scripts/regenerate_neural_data.py`) is a BFS from
+`standing-position/{top,bottom}` over that frame's own attempt probabilities. Measured on
+`graph.json` at v1.148.0:
+
+| frame | techniques unreachable | position role-nodes unreachable | acted on |
+|---|---|---|---|
+| gi | 21 | 0 | no — reported only, see below |
+| no-gi | 104 | 18 | yes |
+
+The 18 are Lapel / Worm / Squid / Ringworm / Piranha / Lasso / Collar-Sleeve / Inverted-Lasso /
+Russian-Leg-Lasso guard, both seats — nine cloth-defined guards. **The corpus already said all of
+this.** Seeded with the 65 techniques the Q3 panel zeroed for an explicit equipment reason, the walk
+adds exactly **one** technique it had not already isolated (`collar-drag-from-open-guard`) and
+**zero** positions. The differential against the unseeded no-gi control is empty: the exclusion is a
+derivation from data that has been sitting in `occurrence_calibration.json` since Q3, not a new
+judgement.
+
+**THE PRICE, WHICH IS THE POINT: ZERO.** Every excluded move already carried **0%** attempt
+probability in the frame it is excluded from — that is *why* it is unreachable — so across both
+frames, **0 surviving positions lose a single attempt-percentage point** and **0 surviving positions
+lose their last exit**. Renormalization and dead-end handling were both flagged to the owner as his
+calls; the measurement retired both questions before he had to answer them. In no-gi the roll seeder
+drops from 136 sites to 127 and 104 techniques disappear from every surface; gi is untouched.
+
+**GI IS NOT SYMMETRICAL, AND THE ASYMMETRY IS THE FINDING — AND THEN IT BIT.** All 21 gi-absent
+techniques are heel hooks / kneebar / aoki-lock, zeroed for **IBJJF legality**, and several of their
+own `availability_rulings` say the ban is ruleset-dependent (*"sub-only/ADCC-gi voices keep a floor
+of 1"*). Equipment is a fact about a garment; legality is a choice about which gi ruleset the app
+models. The first cut acted on both columns anyway, on the grounds that the mechanism is about edges
+and does not care why an edge is zero. **`option-hand.spec.ts` refuted that in nine minutes.**
+
+`backside-50-50/bottom` has exactly **one** gi move that survives `optionsFor`'s role AND origin
+filters, and it is `Heel Hook from Backside 50-50`. Excluding it emptied the main pass, so the hand
+fell through to the **ORIGIN-RELAXED fallback** — five cards from other origins carrying no `ord` and
+no `ordOdds`, i.e. an unranked hand with no EDGE, which then failed the permute-invariance assertion
+because the comparator had nothing to sort on. Two of this repo's own instruments were blind to it:
+**`graph.json` cannot see it** (its per-frame sums apply neither role nor origin, so it reported the
+state healthy — which is why the zero-dead-end measurement was clean), and **an empty-hand check
+cannot see it** (the fallback returns cards). The detector is `ord === undefined`, and it is now a
+test.
+
+So `EXCLUDING_FRAMES = ("nogi",)`. The gi column is walked, printed and ledgered under
+`unreachable_but_not_excluded`, and acting on it is a one-token change and a product decision. With
+gi admitted whole the curated suite is **201 passed / 0 failed with no spec edited** — the gi frame
+is byte-identical to v1.148.0, which is the strongest available statement that this commit changes
+only no-gi.
+
+**THE NAME REGEX IS FINALLY DELETED.** `giAllows` carried
+`/collar|sleeve|lapel|spider|lasso|worm|…/` as its fallback. It kills `Rear Naked Choke from
+Invisible Collar` — the canonical no-gi choke — because the POSITION is named "Collar", and the
+calibration panel refuted the approach in advance in its own notes on `collar-sleeve-guard__bottom`.
+A node with no verdict now fails OPEN. `tests/ruleset_availability.test.mjs` keeps a standing
+fixture on that exact row, plus its converse: **at least 10 excluded nodes a name sweep would MISS**,
+so the suite cannot be satisfied by a name matcher.
+
+**`giAllows` HAD ONE CALLER.** `buildExplorer`. The ruleset reached the Explore category tree and
+nothing else — not the canvas, not the hand, not hit-testing, not either search, not the opponent, not
+the roll seeder, not drills. It now reaches all of them through `rsAllows`/`_rulesetMask`, a
+`Uint8Array` cache of `giAllows`'s own answer (the draw pass asks ~1500x per frame). **`adj` stays
+whole** — it is per-SITE and role-blind by design, and filtering inside it would silently change
+`opponentDefend`, `mcDistractors` and `_posIdx` at once; the test asserts `adj` is byte-identical to
+the control.
+
+**AND THE TOGGLE WAS HALF-WIRED.** `_giMode` hydrated from `localStorage` inside
+`_wirePaneControls`, which `applyDeckVisibility` calls only in its `if (open && !wasShown)` branch —
+**the first time the side pane opens**. A returning no-gi player who reloaded and played the graph
+without opening the pane got the gi hand, gi odds, gi score weights and gi Explore. Hydration moved
+into `ingest`. `setGiMode` also now releases `_posIdx` and every system's `_idxs`, both memoised over
+a node set the ruleset changes; `_curriculumIdxSet`, `_keyNode` and `_qkDecks` are deliberately NOT
+released, and the code says why.
+
+**THE NULL LAYER STAYS PARKED, AND NOW WITH A BLOCKER LIST.** `_ruleset.py` has documented
+`null` = "this edge does not exist in that ruleset" since calibration-v2 and the corpus uses it **0
+times**. The first one cannot be written today: `reduce_to_scalar` without a frame RAISES at
+`regenerate_votes.py:59` and `regenerate_graph.py:187` (both behind a narrow `except` that does not
+catch it); `solve_edge_values.py:227,504` does `float(None)`/`sum(None)` on Positions, killing
+`regenerate:neural` and `validate:flow`; and four write-path scripts convert a null back to a
+number, `explode_graph_connections.py:329` and `proofread_all_transitions.py:713` destructively.
+It was not needed here: the exclusion is derivable from the zeros already in the corpus.
+**Independently of nulls**, `proofread_all_transitions.py:644` is labelled `# read-only audit`, loads
+`reduce_to_scalar(…, frame="nogi")` and writes the reduced doc back — **it de-forks Q3 divergence on
+a weekly bot today**, masked by the next `migrate:ruleset` re-mirroring it.
+
+**Gates:** `validate:availability` (new, hard, wired into `ci-validate.yml` **below** the payload
+emit — its headline check is wire parity, and without the payload it prints SKIPPED and exits 0) ·
+`tests/ruleset_availability.test.mjs` (8 tests, in `test:units`) · ledger at
+`tests/artifacts/ruleset_availability.json`, derived, never hand-edited. `validate:graph` unchanged
+at 0 errors; `validate:score-coverage` unchanged at 99.66%.
+
+**Curated:** 201 passed, 0 failed, 9.7 min. **Mutants, all killed:** name matcher reintroduced in `giAllows` · filter removed from `optionsFor` ·
+filter removed from hit-testing · `adj` filtered at ingest instead of at the reader · **one impossible
+row planted in the emitted wire** (`Worm-Guard-Entry` flipped to `avail.nogi: true`) → wire parity
+red · emitter forced to an all-true table → the emitter's own refusal · seeds resolving to nothing →
+`frame_reachable` refuses · a live-weight technique pruned from the walk → the zero-mass check red.
+**Non-kill, recorded:** dropping ONE of the two `ROLL_SEEDS` survives, because the seats reach each
+other.
+
+**`tests/neural_seat_decks.test.mjs` runs against a control frame** (mask forced all-ones), so its
+option count stays its own subject the day `EXCLUDING_FRAMES` gains a frame.
+
+**LEFT FOR THE OWNER, sized, none touched.** 24 of the 31 SECTION 4 triage rows are adjudicated in
+`tests/artifacts/occurrence_reviewed.json` (12 gi-dependent, 12 not, all `llm-adjudication`); the 7
+left open are named there with the contradiction that makes each one his. The sharpest: five of the
+18 excluded role-nodes (`lasso-guard` ×2, `inverted-lasso-guard`, `russian-leg-lasso` ×2) are
+excluded by CASCADE, not equipment — the panel deliberately floored them at 1-2 rather than zeroing,
+and `russian-leg-lasso` was explicitly RESCUED from a no-gi zero as an arm-wrap, yet its only entry
+comes from an unreachable parent. Also: whether gi should hide the 21 heel hooks, and that
+`Tripod Sweep` — cross-listed from six positions but homed at Spider Guard/Bottom — is the ONLY
+thing keeping Spider Guard reachable in no-gi.
+
 
 <a id="v1-145-1-the-collar-choke-that-was-not-a-bug"></a>
 

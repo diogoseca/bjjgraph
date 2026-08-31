@@ -139,7 +139,14 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
   // reasoning is what §6.5 says gets this repo into trouble — so it is measured instead, over the
   // whole state space rather than a sample. If a future change ever deals a partner, the option's
   // deck key silently becomes |Defender and its EDGE, odds and mastery credit move with it.
+  // AGAINST A CONTROL FRAME (v1.153.0). `optionsFor` now drops moves the active ruleset cannot
+  // produce. In gi that removes nothing today, so this count is unchanged — but the mask is forced
+  // all-ones anyway so the number stays this test's own subject: a bare count would silently start
+  // measuring the ruleset filter the day `EXCLUDING_FRAMES` gains "gi", and would then have to be
+  // re-typed on every availability change. The ruleset differential is
+  // `tests/ruleset_availability.test.mjs`'s subject, not this one's.
   const a = app();
+  a._rsOk = new Uint8Array(a.nodes.length).fill(1);
   a.flashcards = { decks: {} }; a.prep = {}; a.rec = {}; a.stage = {}; a.srs = {}; a._sharp = {};
   let states = 0, options = 0, moved = 0;
   for (const p of a.nodes.filter((n) => n.ty === "positions")) {

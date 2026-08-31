@@ -1444,6 +1444,8 @@ class Component extends DCLogic {
       for (const [k, w] of edgeW) { const a = Math.floor(k / NN); if (w > maxW[a]) maxW[a] = w; }
       this._edgeW = edgeW; this._maxW = maxW;
     }
+    // RULESET MASK — built here so the very first frame already honours the stored ruleset.
+    this._rebuildRulesetMask();
     this.gcx = cx; this.gcy = cy;
     this.graphW = maxX - minX; this.graphH = maxY - minY; this.graphR = r;
     this.trail = []; this.pulse = null;
@@ -3448,6 +3450,10 @@ class Component extends DCLogic {
     const rows = [];
     for (const r of F.ranked) {
       if (!decks[r.deck]) continue;
+      // RULESET (v1.153.0): a weak spot you cannot practise in the ruleset you train is not a weak
+      // spot — same argument as the manifest test above. A deck with NO node keeps its row (`i < 0`
+      // is "no verdict", not "excluded"); only a node the corpus rules out is dropped.
+      { const i = this.nodeForKey(r.deck); if (i >= 0 && !this.rsAllowsIdx(i)) continue; }
       const fam = r.deck.split("|")[0];
       if (seen.has(fam)) continue;
       seen.add(fam);
@@ -4578,6 +4584,10 @@ class Component extends DCLogic {
     // single rep — while the stat beside it counts `rec[k] >= 3`, so "Mastered 3" opened a list
     // headed "180 techniques". Same set as `masteredCount()`, deliberately built from `rec`
     // rather than from the manifest so the count and the list can never be over different sets.
+    // NOT ruleset-filtered, deliberately: `mastered` and `explored` are the player's own RECORD,
+    // not material being dealt. Hiding a deck someone has already drilled to mastery because they
+    // flipped to no-gi makes their history look wrong; the buckets that DEAL (weak, suggested,
+    // system) are filtered at `weakSpots` and in the system branch below.
     if (bucket === "mastered") { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3); }
     if (bucket === "explored") return [...(this._exploredKeys || [])];
     // "system:<Systems/Slug>" — drill exactly the lit members, in the system's own order rather
@@ -4593,6 +4603,7 @@ class Component extends DCLogic {
       for (const id of ordered) {
         const i = this._idIndex ? this._idIndex.get(id) : null;
         if (i == null) continue;
+        if (!this.rsAllows(this.nodes[i])) continue;   // …nor a member this ruleset removed
         const k = this.deckKeyFor(this.nodes[i]).key;
         if (!decks[k] || seen.has(k)) continue;   // skip unauthored decks, never a dead session row
         seen.add(k);
@@ -6306,7 +6317,7 @@ class Component extends DCLogic {
       // 2662 Transitions — with nothing to tell the duplicates apart. `rep` is true for every
       // unpaired node, so this is a no-op on the legacy graph.
       if (!n.rep) continue;
-      if (!this.giAllows(n)) continue;
+      if (!this.rsAllows(n)) continue;   // the mask, so this pane and the canvas cannot disagree
       const fam = n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main;
       (g[fam] = g[fam] || []).push(n);
     }
@@ -6366,9 +6377,10 @@ class Component extends DCLogic {
       inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
       inp.addEventListener("pointerdown", (e) => e.stopPropagation());
     }
-    // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3) — only the stored
-    // preference is loaded here; setGiMode stays the one behavior seam
-    if (this._giMode == null) { try { this._giMode = localStorage.getItem("bjj_gi_mode") === "nogi" ? "nogi" : "gi"; } catch (e) { this._giMode = "gi"; } }
+    // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3); the stored preference is
+    // hydrated at ingest now (see _hydrateGiMode) — this call is the belt-and-braces for a pane
+    // that somehow opens first. setGiMode stays the one behavior seam.
+    this._hydrateGiMode();
     const vt = this.viewToggleRef.current;
     if (vt && !vt._wired) {
       vt._wired = true;
@@ -6388,19 +6400,84 @@ class Component extends DCLogic {
     // next reader can see that was checked rather than forgotten.
     this._posTraffic = null;
     this._explorer = null;
+    // v1.153.0 — everything below is memoised over a NODE SET that the ruleset now changes. Each
+    // one was built once and carried no version, exactly the defect `_posTraffic` above was fixed
+    // for. `_ambig` and `_edgeW`/`_maxW` are deliberately NOT released: label qualification and
+    // edge weights are geometry, and re-deriving them on a flip would move labels and line widths
+    // on nodes that did not change availability.
+    this._posIdx = null;
+    if (this.systems) for (const sy of this.systems) { if (sy) sy._idxs = null; }
+    this._rebuildRulesetMask();
+    // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
+    // `_curriculumIdxSet` is built eagerly by `_onCurriculum` (nulling it would kill path fog
+    // until the next curriculum load) and an excluded node is not drawn at all, so its fog
+    // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
+    // node set; `_scoreW`/`_scoreCache` are already per-frame.
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
   giAllows(n) {
-    // data-driven: a node's cal.avail.{gi,nogi} is derived from Q3's per-frame attempt
-    // probabilities (available in F iff attempted in F). Falls back to the old name heuristic
-    // only for nodes without calibrated availability (keeps behaviour for uncalibrated data).
+    // THE ONE RULESET PREDICATE. A node's `cal.avail.{gi,nogi}` is REACHABILITY-CLOSED at build
+    // time (`frame_reachable`, scripts/regenerate_neural_data.py): available in F iff a session in
+    // F can actually walk to it from the standing seats. That is stricter than the question it
+    // used to answer ("is it attempted anywhere in F"), which could not see the case that matters
+    // — Worm Guard/Bottom deals an honest-looking no-gi hand, conditional on standing in a guard
+    // that requires threading the opponent's lapel, which no no-gi edge ever enters.
+    //
+    // NO NAME MATCHING (ruling P3a). The fallback regex this used to carry is deleted: it fired on
+    // `Rear Naked Choke from Invisible Collar` — the canonical no-gi choke — because the POSITION
+    // is named "Collar", and the calibration panel refuted it in advance in its own notes. A node
+    // WITHOUT `avail` now fails OPEN (available in both), which is the honest answer for a node
+    // the corpus has no verdict on; the emitter counts them and refuses a wire where the table is
+    // empty, so "no verdict anywhere" can no longer read as "nothing is gi-only".
     const av = n.cal && n.cal.avail;
     const frame = this._giMode || "gi";
     if (av && typeof av[frame] === "boolean") return av[frame];
-    if (this._giMode !== "nogi") return true;
-    return !/collar|sleeve|lapel|spider|lasso|worm|loop |bow and arrow|ezekiel|cross choke|judo|gi tail|pant/i.test(n.t || "");
+    return true;
   }
+  _hydrateGiMode() {
+    // v1.153.0: hydrated at INGEST, not on the pane's first open. It used to live in
+    // `_wirePaneControls`, which `applyDeckVisibility` calls only inside `if (open && !wasShown)`
+    // — so a returning no-gi player who reloaded and played the graph without ever opening the
+    // pane was dealt the GI hand, gi odds and gi Explore until they happened to open it.
+    if (this._giMode == null) {
+      try { this._giMode = localStorage.getItem("bjj_gi_mode") === "nogi" ? "nogi" : "gi"; }
+      catch (e) { this._giMode = "gi"; }
+    }
+    return this._giMode;
+  }
+  _rebuildRulesetMask() {
+    // `giAllows` is the definition; this is its per-frame CACHE, not a second implementation —
+    // every entry is that method's own answer. It exists because the draw pass asks the question
+    // ~1500x per frame and a Map/property walk there is the difference between a filter and a
+    // stutter. Rebuilt only where the frame can change (ingest, setGiMode).
+    this._hydrateGiMode();
+    const ns = this.nodes || [];
+    const mask = new Uint8Array(ns.length);
+    let off = 0;
+    for (const n of ns) { const ok = this.giAllows(n); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
+    this._rsOk = mask;
+    this._rsOff = off;
+    this._rsFrame = this._giMode;
+    return mask;
+  }
+  _rulesetMask() {
+    // lazily self-healing: a length mismatch means `ingest` ran again without rebuilding, and a
+    // stale-length mask is the one failure mode that would silently read "allowed" for every node
+    // past its end. Rebuild rather than trust it.
+    const ns = this.nodes || [];
+    const m = this._rsOk;
+    // STAMPED WITH THE FRAME IT WAS BUILT FOR. `setGiMode` is the only sanctioned writer of
+    // `_giMode`, but a test rig or a journey that pokes the field directly would otherwise read a
+    // mask for the other ruleset and every assertion after it would be about the wrong graph —
+    // the failure would look like the filter not working rather than like a stale cache.
+    return m && m.length === ns.length && this._rsFrame === this._giMode ? m : this._rebuildRulesetMask();
+  }
+  rsAllows(n) {
+    // the reader every surface calls.
+    return !!n && this._rulesetMask()[n.idx] === 1;
+  }
+  rsAllowsIdx(i) { const n = this.nodes && this.nodes[i]; return !!n && this._rulesetMask()[i] === 1; }
   showExplorerList() {
     const sh = this.dossierSheetRef.current;
     if (sh && sh.style.display === "block") this.closeDossierSheet();
@@ -6497,7 +6574,10 @@ class Component extends DCLogic {
       // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
       // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
       // `?dual=legacy`.
-      const matches = this.nodes.filter((n) => n.rep && n.t.toLowerCase().includes(q)).slice(0, 120);
+      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
+      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
+      // page of results for states no no-gi session can enter.
+      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && n.t.toLowerCase().includes(q)).slice(0, 120);
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -6639,7 +6719,9 @@ class Component extends DCLogic {
       const out = [];
       for (const id of (Array.isArray(s.nodes) ? s.nodes : [])) {
         const i = this._idIndex ? this._idIndex.get(id) : null;
-        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+        // a system's roster is authored gi-first; lighting a member the ruleset removed would
+        // point the camera at an orb that is not drawn. Released per-system by `setGiMode`.
+        if (i != null && this.nodes[i] && this.rsAllows(this.nodes[i]) && out.indexOf(i) < 0) out.push(i);
       }
       s._idxs = out;
     }
@@ -9428,7 +9510,9 @@ class Component extends DCLogic {
       // the empty-query branch: `slice(0, 80)` over an interleaved [rep, partner, rep, …] node list
       // is 40 sites shown twice, not 80 results. (CLAUDE.md §6.6 — one question answered in two
       // places; the pane's spelling is the correct one.)
-      const repd = this.nodes.filter((n) => n.rep);
+      // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
+      // directly, so it inherited neither filter.
+      const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
       let matches = q ? repd.filter((n) => n.t.toLowerCase().includes(q)) : repd.slice(0, 80);
       matches = matches.slice(0, 100);
       if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
@@ -9674,8 +9758,13 @@ class Component extends DCLogic {
     if (picked.length < n) {                                  // graph-neighbor decks
       const idx = this.nodeForKey(deckKey);
       if (idx >= 0 && this.adj && this.adj[idx]) {
+        const rsOk = this._rulesetMask();
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
+          // a distractor naming a move this ruleset does not have is not a hard wrong answer, it
+          // is an unanswerable one. RNG NOTE: this changes the neighbour SET, so the draw stream
+          // moves — rigged journeys that pin `mc-pick` across a no-gi deck must be re-rigged.
+          if (!rsOk[k]) continue;
           const nc = consult(this.deckKeyFor(this.nodes[k]).key);
           if (nc && nc.length) tryAdd(nc[(this.rng(tPick) * nc.length) | 0].a, "pool", true);
         }
@@ -9688,6 +9777,10 @@ class Component extends DCLogic {
       let guard = 0;
       while (picked.length < n && guard++ < 60) {
         const k = keys[(this.rng(tPick) * keys.length) | 0];
+        // the KEY draw stays over the whole manifest so the stream cannot move with residency
+        // (the reason `keys` is the manifest, not the resident decks); the ruleset test is applied
+        // AFTER the draw, for the same reason.
+        { const ni = this.nodeForKey(k); if (ni >= 0 && !this.rsAllowsIdx(ni)) continue; }
         const dc = consult(k);
         if (dc && dc.length && k !== deckKey) tryAdd(dc[(this.rng(tPick) * dc.length) | 0].a, "pool", true);
       }
@@ -10372,9 +10465,14 @@ class Component extends DCLogic {
     // every later reader (the card, the sheet, the odds refresh) values the move against the state
     // it was dealt from, not against wherever the roll has since moved to.
     const evOf = this._evRowsFor(posIdx, this.playerRole);
+    const rsOk = this._rulesetMask();
     for (const k of this.adj[posIdx]) {
       const n = this.nodes[k];
       if (n.ty === "positions") continue;
+      // RULESET (v1.153.0): a move this ruleset cannot produce is not a low-EDGE option, it is not
+      // an option. Applied here rather than inside `adj`, which is per-SITE and must stay whole —
+      // `opponentDefend` and `_posIdx` walk the same array and ask a different question.
+      if (!rsOk[k]) continue;
       if (seen.has(n.t)) continue; seen.add(n.t);
       // ONLY MOVES YOUR ROLE PERFORMS — READ, NOT INFERRED (v1.103.0). This used to be
       // `myVal(n) < oppVal(n) - 0.05`: "the beneficiary is the performer". That is a heuristic over
@@ -10393,9 +10491,10 @@ class Component extends DCLogic {
     // safety: if role-filtering left nothing, fall back to the best-for-me handful
     if (!out.length) {
       for (const k of this.adj[posIdx]) {
-        const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t + "_fb")) continue; seen.add(n.t + "_fb");
-        // the fallback relaxes ORIGIN, never ROLE: dealing the opponent's moves is not a
-        // safety net, it is the bug this filter exists to prevent
+        const n = this.nodes[k]; if (n.ty === "positions") continue; if (!rsOk[k]) continue; if (seen.has(n.t + "_fb")) continue; seen.add(n.t + "_fb");
+        // the fallback relaxes ORIGIN, never ROLE and never RULESET: dealing the opponent's moves
+        // is not a safety net, it is the bug this filter exists to prevent — and dealing a lapel
+        // entry to a player with no lapel is the same mistake with a different subject
         if (n.fromRole && n.fromRole !== this.playerRole) continue;
         out.push({ idx: k, node: n, res: this.resultPos(k, posIdx), ev: evOf ? evOf(k) : null });
       }
@@ -12916,7 +13015,12 @@ class Component extends DCLogic {
     // floor on them, thinning every real weight, and changing which state a newcomer opens on.
     // Filtering to `rep` leaves the pool the same 136 sites, in the same order, drawing the same
     // site off the same `rng("start-pos")` value: the split is a model change, not a game one.
-    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
+    // RULESET (v1.153.0): a roll must not OPEN in a state this ruleset cannot produce, and the
+    // playability test below must count only moves it can actually deal — a position whose whole
+    // hand is gi-only is not playable no-gi even though `adj` says it has technique neighbours.
+    // Released by `setGiMode`, which is why the memo can stay unkeyed.
+    const rsOk = this._rulesetMask();
+    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && rsOk[n.idx] && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions" && rsOk[k])).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
@@ -13853,8 +13957,13 @@ class Component extends DCLogic {
   opponentDefend() {
     // gather the opponent's adjacent options, split into finishes vs positional counters
     const subs = []; let trans = []; const seen = new Set();
+    const rsOk = this._rulesetMask();
     for (const k of this.adj[this.currentPos]) {
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
+      // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
+      // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
+      // about the EXCHANGE, not about your hand); availability is not a role question.
+      if (!rsOk[k]) continue;
       // STRICT during a belt test: the opponent only goes for finishes in the belt's vocabulary
       if (n.ty === "submissions") { if (this._beltPoolAllows(n)) subs.push(k); }
       else trans.push(k);
@@ -14300,7 +14409,11 @@ class Component extends DCLogic {
     // no node carries `z`, so `LY(n) === n.y`.
     const ly = this._LY || ((q) => q.y);
     let best = -1, bd = (28 / scale) * (28 / scale);
+    const rsOk = this._rulesetMask();
     for (const n of this.nodes) {
+      // an orb the ruleset removed is not drawn, so it must not be pickable either — otherwise it
+      // is an invisible 28px hit target that opens a dossier for a state you cannot reach.
+      if (!rsOk[n.idx]) continue;
       const dx = n.x - wx, dy = ly(n) - wy, d2 = dx * dx + dy * dy;
       if (d2 < bd) { bd = d2; best = n.idx; }
     }
@@ -14505,6 +14618,9 @@ class Component extends DCLogic {
     const lift = nodeK * kLOD;
     const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
     this._LY = LY;   // ONE definition — `pairMid` reads the same lift the frame just drew with
+    // ONE ruleset mask for the whole frame, hoisted out of six enumerations below. Reading it per
+    // pass rather than per node is the difference between a filter and a stutter at ~1500 nodes.
+    const rsOk = this._rulesetMask();
     const cfg = this.cfg();
     const A = this.alpha;
     // slow-mo finish: dim the map for a beat while the finishing flare burns, then recover
@@ -14602,6 +14718,7 @@ class Component extends DCLogic {
       ctx.beginPath();
       for (const n of this.nodes) {
         if (!n.rep || !n.z) continue;                       // one per site, singles have no pool
+        if (!rsOk[n.idx]) continue;                         // absent in this ruleset
         const gyy = n.y + n.z * n.h;                        // the ground point itself
         if (n.x < L - pad || n.x > R + pad || gyy < Tp - pad || gyy > B + pad) continue;
         const rx = n.rSite * nodeK * 2.2, ry = rx / 1.7320508;
@@ -14614,7 +14731,7 @@ class Component extends DCLogic {
     // base links
     ctx.lineWidth = 0.6 / scale; ctx.strokeStyle = "rgba(170,182,215," + (0.12 * A * dim) + ")";
     ctx.beginPath();
-    for (const [a, b] of this.links) { const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); }
+    for (const [a, b] of this.links) { if (!rsOk[a] || !rsOk[b]) continue; const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); }
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
@@ -14650,7 +14767,7 @@ class Component extends DCLogic {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
         for (const k2 of this.adj[li]) {
-          const o = this.nodes[k2]; if (!o) continue;
+          const o = this.nodes[k2]; if (!o || !rsOk[k2]) continue;
           const w = (this._edgeW && this._edgeW.get(li * NN + k2)) || 0;
           const rel = mw > 0 ? w / mw : 0;
           ctx.lineWidth = (0.8 + 1.4 * rel) / scale;
@@ -14783,6 +14900,9 @@ class Component extends DCLogic {
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
     const spec = this._hasGround ? [] : null;
     for (const n of this.nodes) {
+      // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
+      // absent. Every other cull below is a rendering decision; this one is the graph's content.
+      if (!rsOk[n.idx]) continue;
       // viewport cull — the pass had none, and it issues a fill for every node at every zoom
       if (n.x < cxv - halfVW - cullPad || n.x > cxv + halfVW + cullPad) continue;
       const ny = LY(n);
@@ -14862,6 +14982,7 @@ class Component extends DCLogic {
     // screen-space floor is inherited from the deleted halo and is what makes this read at roll
     // zoom, where nodeK has taken the orb down to 0.4x.
     for (const n of this.nodes) {
+      if (!rsOk[n.idx]) continue;
       const age = this.now - n.lit; if (age > 1.9) continue;
       const k = Math.max(0, 1 - age / 1.9);
       const amp = n.litK || 1;
@@ -14972,6 +15093,7 @@ class Component extends DCLogic {
       ctx.textBaseline = "bottom";
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
       for (const n of this.nodes) {
+        if (!rsOk[n.idx]) continue;
         const age = this.now - n.lit; if (age > 3.2 || n.idx === this.focusIdx) continue;
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
