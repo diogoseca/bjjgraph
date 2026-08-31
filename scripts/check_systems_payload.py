@@ -23,7 +23,10 @@ Asserts:
   8. product entries carry a real https URL, and no url contains "REPLACE_ME" once
      AFFILIATE_REF is set (while it is unset the placeholder is expected and only reported);
   9. THE ANCHORING INVARIANT — every node a FAMILY-EXPANDED ref contributed is anchored: its
-     from-position is itself a position member of that system. See ANCHORING below.
+     from-position is itself a position member of that system. See ANCHORING below;
+ 10. THE READABLE BODY — every System (and every concept sharing that chunk space) has a dossier
+     chunk at the address the app computes from its `key`, and that chunk carries authored prose.
+     See BODIES below.
 
 ORDERING: check 8 assumes the ref has already been stamped, so in a pipeline that sets
 AFFILIATE_REF this gate must run AFTER scripts/apply_affiliate_ref.py, not before it.
@@ -42,10 +45,13 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 from regenerate_graph import quartz_slug  # same page-path transform the emitter uses
+from _neural_content import fnv1a32          # the chunk address's OWN constructor, never a copy
 
 SYSTEMS_DIR = PROJECT_ROOT / "content" / "Systems"
 PAYLOAD = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "systems.json"
 GRAPH_DATA = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "graph-data.json"
+CONCEPTS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "concepts.json"
+CHUNKS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "content"
 
 SUMMARY_CAP = 240  # contract cap; keep in sync with regenerate_neural_data.SUMMARY_CAP
 
@@ -101,10 +107,108 @@ UNRESOLVED_CEILING = 3
 MIN_MEMBER_NODES = 880
 
 REQUIRED = {
-    "id": str, "name": str, "url": str, "summary": str, "type": str,
+    "id": str, "key": str, "name": str, "url": str, "summary": str, "type": str,
     "difficulty": str, "nodes": list, "unresolved": list, "products": list,
     "unanchored": list,
 }
+
+# ── BODIES ────────────────────────────────────────────────────────────────────────────────────
+# A System's authored file is ~20KB of prose — 145,746 words across the 47 — and until v1.155.3
+# the app read two fields of it. The rest now ships as a dossier chunk in the per-node content/
+# chunk space, keyed "<Name>|System", fetched on demand by the panel through the same `_ngc()`
+# cache a node dossier uses. The 82 concepts (v1.152.0) ride the same space, keyed
+# "<Name>|Principle" / "<Name>|Learning".
+#
+# WHAT GOES WRONG WITHOUT THIS CHECK, and it is the repo's most repeated failure shape: the panel
+# renders its index card either way. A body that never got emitted, a chunk written to a different
+# address than the app computes, an authored field renamed upstream so a block comes back empty —
+# every one of them looks like "this System just has a short page". So: resolve each `key` through
+# the SAME fnv1a32 the writer used (imported, never re-implemented — CLAUDE.md 6.6), open the file
+# the app would open, and count what is actually in it.
+#
+# The per-block floors are ROT DETECTORS, not editorial rules: today every one of the 47 systems
+# and 82 concepts carries every block its library authors, so a half-corpus floor cannot fire on
+# ordinary content edits and does fire when a renamed field empties a block corpus-wide.
+# ── THE CROSS-TYPE RUNG, AND WHY IT NEEDS A FLOOR ─────────────────────────────────────────────
+# `_resolve_member` tries the graph section the author's `content_type` names, and — only when that
+# finds nothing — the other two. Measured 2026-08-31: it fires ONCE across both libraries.
+# `Principles/Submission-Chains` names "Triangle from Guard" as a **Submission**; the node is
+# `Transitions/Triangle-from-Guard`. Right about the move, wrong about the drawer, and the miss was
+# invisible because an unresolved ref is a legitimate outcome (concepts: 2 unresolved -> 1, 729 lit
+# nodes -> 730).
+#
+# A rung that stops firing is a rung that has silently rotted, and zero reads exactly like a pass —
+# so the count it publishes (`_meta.crossTypeRefs`) has a floor. THE ONE WAY THIS GOES RED WITHOUT
+# A BUG: an author fixes that ref's `content_type` in content/Principles/Submission Chains.json, at
+# which point the rung correctly has nothing to do. Lower the floor to 0 in that same commit.
+# systems.json legitimately reports 0 today (its authors typed the right sections), so only the
+# concepts payload carries this floor.
+CROSS_TYPE_FLOOR = 1
+# Measured 2026-08-31: 730 lit nodes across 82 concepts (656 principle + 74 learning), 1 unresolved
+# ref ("Achilles Lock" — a content page with no graph node: content/Submissions/Achilles Lock.json
+# is an edgeless stub, the same gap systems.json reports three times). Floors and ceilings, not
+# equalities: ordinary content edits move these by a few, a resolution regression moves them by a
+# lot. Two concepts resolve 0 nodes ON PURPOSE (Principles/Flow-Rolling, Learning/Economy-of-Motion
+# reference only other concepts), which is why there is no per-concept floor.
+CONCEPT_NODES_FLOOR = 690
+CONCEPT_UNRESOLVED_CEILING = 1
+
+BODY_BLOCKS = {
+    "System": ("overview", "points", "contexts", "errors", "mistakes", "drills", "metrics"),
+    "Principle": ("overview", "points", "contexts", "errors", "drills"),
+    "Learning": ("overview", "points", "contexts", "errors", "drills"),
+}
+
+
+def check_bodies(entries: list[tuple[str, str, str]]) -> tuple[list[str], dict]:
+    """Check 10. `entries` is (id, key, cat) for every System and concept.
+
+    Returns (errors, per-category coverage). Fails on a missing chunk, a chunk that does not carry
+    its own key, a body with no prose at all, and — the silent one — a BLOCK that fewer than half
+    the entries of its library carry. A zero count is never a pass: `covered` is printed.
+    """
+    errors: list[str] = []
+    cov: dict = {}
+    cache: dict = {}
+    for eid, key, cat in entries:
+        c = cov.setdefault(cat, {"n": 0, "blocks": {b: 0 for b in BODY_BLOCKS[cat]}})
+        c["n"] += 1
+        if not key or not key.endswith("|" + cat):
+            errors.append(f"{eid}: `key` {key!r} does not address the {cat} chunk space")
+            continue
+        h = fnv1a32(key)
+        if h not in cache:
+            f = CHUNKS / f"{h}.json"
+            try:
+                cache[h] = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+            except json.JSONDecodeError as exc:
+                cache[h] = None
+                errors.append(f"{eid}: chunk content/{h}.json does not parse — {exc}")
+        chunk = cache[h]
+        if chunk is None:
+            errors.append(
+                f"{eid}: no readable body at content/{h}.json (the address the app computes from "
+                f"key {key!r}) — the panel would open a title and a link")
+            continue
+        body = chunk.get(key)
+        if not isinstance(body, dict):
+            errors.append(
+                f"{eid}: chunk content/{h}.json exists but carries no {key!r} entry — a hash "
+                f"collision was written wrong, or the key changed on one side only")
+            continue
+        present = [b for b in BODY_BLOCKS[cat] if body.get(b)]
+        if not present:
+            errors.append(f"{eid}: body is empty — every authored block came back blank")
+        for b in present:
+            c["blocks"][b] += 1
+    for cat, c in sorted(cov.items()):
+        for b, n in sorted(c["blocks"].items()):
+            if n * 2 < c["n"]:
+                errors.append(
+                    f"{cat}: only {n} of {c['n']} bodies carry `{b}` — below the half-corpus rot "
+                    f"floor. An authored field was renamed or stopped parsing; the panel renders "
+                    f"the rest and says nothing")
+    return errors, cov
 
 
 def check_anchoring(systems: list, nodes_by_id: dict) -> tuple[list[str], int, int]:
@@ -256,6 +360,53 @@ def main() -> None:
             f"positions it is thrown from. Fix the content (add the entry position to that "
             f"System's related_content), do not raise this ceiling to hide it")
 
+    # ── check 10: the readable bodies, for BOTH libraries that share the chunk space ──
+    # concepts.json is emitted by the same script in the same run, so its absence is a broken
+    # emit, not an old tree — say which, rather than skipping quietly (CLAUDE.md 6.6).
+    entries = [(s.get("id", "<no id>"), s.get("key") or "", "System")
+               for s in payload.get("systems") or []]
+    if CONCEPTS.exists():
+        try:
+            for c in json.loads(CONCEPTS.read_text()).get("concepts") or []:
+                entries.append((c.get("id", "<no id>"), c.get("key") or "",
+                                c.get("cat") if c.get("cat") in BODY_BLOCKS else "Principle"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"concepts.json does not parse — {exc}")
+    else:
+        errors.append("concepts.json is missing beside systems.json — both are emitted by "
+                      "regenerate_neural_data.py in one run, so one without the other means the "
+                      "emit is broken, not that the tree is old")
+    body_errors, body_cov = check_bodies(entries)
+    errors.extend(body_errors)
+
+    # ── the concepts payload's own ratchets, on the same read ──
+    cmeta, clit, cunres = {}, 0, 0
+    if CONCEPTS.exists():
+        try:
+            cdoc = json.loads(CONCEPTS.read_text())
+            cmeta = cdoc.get("_meta") or {}
+            clit = sum(len(c.get("nodes") or []) for c in cdoc.get("concepts") or [])
+            cunres = sum(len(c.get("unresolved") or []) for c in cdoc.get("concepts") or [])
+        except json.JSONDecodeError:
+            pass  # already reported above
+        if cmeta:
+            if cmeta.get("crossTypeRefs", 0) < CROSS_TYPE_FLOOR:
+                errors.append(
+                    f"concepts: the cross-type resolution rung fired "
+                    f"{cmeta.get('crossTypeRefs', 0)} time(s), below the floor {CROSS_TYPE_FLOOR} "
+                    f"— a rung that matches nothing reads exactly like a rung that held. Either it "
+                    f"was removed, or an author fixed the ref it exists for (then lower the floor "
+                    f"to 0 in that same commit)")
+            if clit < CONCEPT_NODES_FLOOR:
+                errors.append(
+                    f"concepts: only {clit} lit nodes across the concepts, below the floor "
+                    f"{CONCEPT_NODES_FLOOR} — membership resolution regressed")
+            if cunres > CONCEPT_UNRESOLVED_CEILING:
+                errors.append(
+                    f"concepts: {cunres} unresolved related_content refs exceeds the measured "
+                    f"ceiling {CONCEPT_UNRESOLVED_CEILING} — a resolution regression, or new "
+                    f"content naming something the graph has no node for")
+
     placeholders = [
         (s["id"], p.get("url", ""))
         for s in payload.get("systems", []) if isinstance(s.get("products"), list)
@@ -287,6 +438,14 @@ def main() -> None:
           f"(floor {FAM_REF_FLOOR}), every contributed node thrown from a position its System "
           f"teaches; {unanchored}/{UNANCHORED_CEILING} ref(s) anchor nothing and are reported, "
           f"not expanded")
+    if cmeta:
+        print(f"[check_systems_payload] concepts OK — {clit} lit nodes (floor "
+              f"{CONCEPT_NODES_FLOOR}), {cunres}/{CONCEPT_UNRESOLVED_CEILING} unresolved, "
+              f"cross-type rung fired {cmeta.get('crossTypeRefs', 0)}x (floor {CROSS_TYPE_FLOOR})")
+    for cat, c in sorted(body_cov.items()):
+        print(f"[check_systems_payload] bodies OK — {c['n']} {cat} dossier(s) found at the "
+              f"address the app computes, blocks: "
+              + ", ".join(f"{b} {n}" for b, n in sorted(c["blocks"].items())))
     if placeholders:
         print(f"[check_systems_payload] NOTE — {len(placeholders)} product url(s) still contain "
               f"REPLACE_ME. AFFILIATE_REF is unset, so that is expected: the ref-substitution "

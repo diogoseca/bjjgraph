@@ -339,6 +339,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
 | decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
+| a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |

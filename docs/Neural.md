@@ -31,7 +31,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `flashcards/_index.json` | boot | the deck **manifest**: `{deckKey: [category, n]}` |
 | `curriculum.json` | boot | `curriculum.weights` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
-| `content/<hash>.json` | on demand | one node's dossier, **and one concept's body** (`<Name>\|Principle`) |
+| `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
 | `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
 
@@ -518,6 +518,16 @@ has an explicit end.
 results before any section exists, so a match inside a folded group is never hidden; that query
 branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
 the top, built from the same three-rung indent as every other group.
+
+**A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
+(`concepts.json`, `systems.json`) carries the card and the ids it lights; the body rides the
+on-demand chunk a node dossier already uses, keyed `<Name>|Principle|Learning|System`, drawn by ONE
+renderer — `_bodyDocHTML`, with `NG_DOC_LABELS` naming each library's blocks (no label, not drawn).
+A cached `null` is a MISS here, never an answer: `_docBody` forces one re-read per key per session
+and `_hydrateContent` retries a transport failure (`NG_CHUNK_TRIES`) while still caching a 404.
+Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and seats the
+board on a position it names (`_seedPageFromUrl`) instead of the front-door draw — the seat needs
+the intro still running, the panel does not.
 
 **Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
 describe material difficulty, never rank or access. The frontier belt drives the default-open

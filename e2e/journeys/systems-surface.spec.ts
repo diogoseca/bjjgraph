@@ -30,16 +30,37 @@ import { journey } from "../dsl";
  * link_status/link_checked, only "live" survives into the payload and the page, and a system whose
  * product is dead or unchecked degrades to the free study surface instead of a dead CTA.
  *
+ * AND THE SYSTEM'S OWN WORDS (v1.155.3). Every authored System carries ~20KB of prose — an
+ * overview, its key principles, the components it is built from, the obstacles, the mistakes, how
+ * to train it, how to know it is working — 145,746 words across the 47, of which the app read
+ * exactly two fields. The body now rides the same on-demand chunk a node dossier does, keyed
+ * "<Name>|System" (`systems[].key`), and the last test here is that it reaches the panel EVEN IF
+ * THE FIRST REQUEST FOR IT FAILS: `_hydrateContent` used to fold a 502 and a 404 into one `null`
+ * and cache it for the session, so a single dropped request cost the reader the page with no
+ * error anywhere.
+ *
  * Rails: __neural.systems, ._systemsById, ._focusIdxSet (the fog gate the draw loop reads),
- *        ._systemId, .camTarget
+ *        ._systemId, .camTarget, window.NG_CONTENT.decks (the chunk cache the panel draws from)
  * Handles: [data-system-row], [data-system-detail], [data-system-node], [data-system-back],
  *          [data-system-courses], [data-system-cta], [data-affiliate-disclosure],
- *          p.affiliate-disclosure + a[data-affiliate="true"] (page), #study-this-system
+ *          [data-system-body] + [data-doc-*], p.affiliate-disclosure + a[data-affiliate="true"]
+ *          (page), #study-this-system
  * Beats (PostHog): neural_system_opened, neural_system_course_clicked, affiliate_clickout
+ *
+ * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
+ *  · nothing here asserts the CAPS in _system_body. Every cap sits at or above the authored
+ *    maximum today, so a wrong cap would cut prose no assertion counts.
+ *  · the retry claim covers a stale 200 and a TRANSPORT failure (502). A 404 is still an answer
+ *    and is still cached permanently, deliberately — deleting that branch would not turn this red.
+ *  · nothing here bounds the number of retries — only that they happen. Raising `NG_CHUNK_TRIES`
+ *    to 50, or deleting `_docRetried`'s stamp so the forced re-read fires on every render, both
+ *    SURVIVE this journey (the second was measured, not assumed). What that stamp protects — a
+ *    panel that refetches on every paint — has no journey.
  */
 
 type SystemEntry = {
   id: string;
+  key: string;
   name: string;
   nodes: string[];
   products: Array<{
@@ -135,6 +156,70 @@ const awaitSystems = async (page: Page) => {
         "systems.json reached the app (needs `npm run regenerate:neural` + a build so source/public serves both the payload and a bundle that fetches it)",
     })
     .toBe(true);
+};
+
+/** WHAT THE HARNESS DOES NOT SERVE, named beside the assertions that need it (CLAUDE.md 6.4).
+ *  `dsl.ts` fulfils EVERY per-node dossier chunk with `{}` on purpose, so journeys run without
+ *  authored content — which would make "the system body is absent" a statement about the DSL and
+ *  not about the app. This journey is about that body, so it serves the real chunk for a SYSTEM
+ *  key and leaves every other chunk exactly as the DSL had it.
+ *
+ *  The chunk is identified by READING the emitted files and looking for a key the payload names —
+ *  never by recomputing fnv1a32 here, which would be a second implementation of the addressing
+ *  scheme under test (6.3).
+ *
+ *  `hobbleFirst` is the second half of the claim, and it is TWO different misses on purpose,
+ *  because the app has two different repairs and one of them alone would leave the other
+ *  untested (CLAUDE.md 6.3):
+ *    1. the first request for that key's chunk is answered `{}` — a clean 200 that simply does not
+ *       carry the key. That is what a STALE cached copy looks like, and `_hydrateContent` is right
+ *       to treat it as an answer; only `_docBody`'s one forced re-read gets past it.
+ *    2. the second is answered 502 — a transport failure, which `_docBody` has already spent its
+ *       one retry on; only `_hydrateContent`'s classification (a 5xx is not an answer) gets past
+ *       THAT.
+ *  Serve real content from the third on. Both repairs are therefore load-bearing for this journey
+ *  and removing either one turns it red. `seen` is returned so the spec proves both stages
+ *  actually happened rather than assuming them.
+ *
+ *  Registered AFTER boot() so it sits above the DSL's own handler (Playwright matches last-first);
+ *  nothing fetches a system chunk before a row is clicked. */
+const serveSystemChunks = async (page: Page, hobbleFirst?: string) => {
+  const keys = new Set(payload().systems.map((s) => s.key));
+  const roots = [
+    "../../source/public/static/neural/content",
+    "../../source/quartz/static/neural/content",
+  ];
+  const seen = { empty: 0, failed: 0, served: 0 };
+  await page.route("**/static/neural/content/*.json", (r) => {
+    const name = new URL(r.request().url()).pathname.split("/").pop()!;
+    for (const root of roots) {
+      try {
+        const raw = readFileSync(resolve(__dirname, root, name), "utf8");
+        const map = JSON.parse(raw);
+        if (!Object.keys(map).some((k) => keys.has(k))) break;
+        if (hobbleFirst && map[hobbleFirst]) {
+          if (!seen.empty) {
+            seen.empty++;
+            return r.fulfill({ body: "{}", contentType: "application/json" });
+          }
+          if (!seen.failed) {
+            seen.failed++;
+            return r.fulfill({
+              status: 502,
+              contentType: "text/plain",
+              body: "bad gateway",
+            });
+          }
+        }
+        seen.served++;
+        return r.fulfill({ body: raw, contentType: "application/json" });
+      } catch {
+        /* next root */
+      }
+    }
+    return r.fulfill({ body: "{}", contentType: "application/json" }); // the DSL's default
+  });
+  return seen;
 };
 
 /** Open the pane on Explore the way a reader does: the logo, then the tab — then expand
@@ -605,5 +690,100 @@ test("a system with no authored course offers no link at all", async ({
     await litIds(page),
     "leaving the detail view drops its highlight",
   ).toBeNull();
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("a system panel reads the system's own words — and one dropped chunk does not cost them @curated", async ({
+  page,
+}) => {
+  const errors = watchErrors(page);
+  const data = payload();
+  // whichever system sorts first: the claim is about every one of them, and naming a favourite
+  // here would be the shortlist bug this whole surface was written against.
+  const target = [...data.systems].sort((a, b) => a.id.localeCompare(b.id))[0];
+  const j = journey(page);
+  await j.boot("/");
+  const seen = await serveSystemChunks(page, target.key);
+  await j.land("Mount Top");
+  await awaitSystems(page);
+  await openExplore(page);
+
+  await page.locator(`[data-system-row="${target.id}"]`).click();
+  await expect(
+    page.locator(`[data-system-detail="${target.id}"]`),
+    "the row opens the system",
+  ).toBeVisible();
+
+  // THE RETRIES, first: this body's first request came back as a chunk without it (a stale 200)
+  // and its second as a 502. Under the cache this replaces, either one was the session's permanent
+  // answer and the block below could never arrive.
+  const body = page.locator(`[data-system-body="${target.id}"]`);
+  await expect(
+    body,
+    "the system's own words reach the panel even though the first two requests for them did not carry it",
+  ).toBeVisible({ timeout: 20_000 });
+  expect(
+    [seen.empty, seen.failed],
+    "and both misses really happened — a stale 200 and a dropped request",
+  ).toEqual([1, 1]);
+
+  // WHAT IT DREW, against what the emitter WROTE — read back from the app's own chunk cache
+  // rather than recomputed spec-side (6.3). The floors underneath keep that comparison from
+  // passing trivially on an empty body.
+  const emitted = await page.evaluate((k: string) => {
+    const d = (window as any).NG_CONTENT && (window as any).NG_CONTENT.decks;
+    const b = d ? d[k] : null;
+    return b
+      ? {
+          overview: String(b.overview || "").length,
+          blocks: {
+            points: (b.points || []).length,
+            contexts: (b.contexts || []).length,
+            errors: (b.errors || []).length,
+            mistakes: (b.mistakes || []).length,
+            drills: (b.drills || []).length,
+            metrics: (b.metrics || []).length,
+          },
+        }
+      : null;
+  }, target.key);
+  expect(emitted, "the panel drew from the chunk the emitter wrote").not.toBeNull();
+  expect(
+    emitted!.overview,
+    "and the overview is authored prose, not a placeholder",
+  ).toBeGreaterThan(200);
+
+  const drawn: Record<string, number> = {};
+  for (const [block, n] of Object.entries(emitted!.blocks)) {
+    const el = body.locator(`[data-doc-${block}]`);
+    await expect(
+      el,
+      `the ${block} block is drawn exactly once when the body carries it`,
+    ).toHaveCount(n ? 1 : 0);
+    if (!n) continue;
+    expect(
+      Number(await el.getAttribute(`data-doc-${block}`)),
+      `every authored ${block} entry reaches the panel`,
+    ).toBe(n);
+    await expect(
+      el.locator("> li, > dt"),
+      `...and each one is a row, not a count`,
+    ).toHaveCount(n);
+    drawn[block] = n;
+  }
+  expect(
+    Object.keys(drawn).length,
+    "a System authors seven blocks; a body that renders one or two is a regression, not a short page",
+  ).toBeGreaterThanOrEqual(5);
+  expect(
+    ((await body.textContent()) || "").trim().length,
+    "and the panel is a read, not a title and a shrug",
+  ).toBeGreaterThan(1500);
+
+  // the index card and the members still stand: the body is added TO the panel, not instead of it
+  await expect(page.locator("[data-system-node]")).toHaveCount(
+    target.nodes.length,
+  );
+  expect(await litIds(page)).toEqual([...target.nodes].sort());
   expect(errors, "no page error across the journey").toEqual([]);
 });

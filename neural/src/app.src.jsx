@@ -63,6 +63,30 @@ const NG_PREFETCH_CAP = 10;
 // eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
 // copy for `history` — the view ids never migrated (v1.95.0).
 const NG_PANE_TABS = ["explore", "challenges", "history"];
+// NG_CHUNK_TRIES — how many times _hydrateContent may ask for one content chunk before it writes
+//   a permanent "no dossier" into the cache. The negative cache exists so a node with nothing
+//   authored does not refetch on every hover, and for that it is right; what it could not tell
+//   apart was "the server said there is nothing here" from "the fetch never got an answer". One
+//   dropped request (offline for a second, a 502 from the edge, a torn JSON body) became the
+//   session's permanent answer, and the surfaces that hurts most are the ones whose whole content
+//   IS the chunk: a concept or a system panel would show its title and summary and never fill in,
+//   with no error anywhere. So: a 404 (or a chunk that lands without the key) is an ANSWER and is
+//   cached; a transport failure is not, and is retried up to this many times per key per session.
+const NG_CHUNK_TRIES = 3;
+// THE SECTION HEADINGS OF A READABLE BODY, per library. The emitter normalises Principles,
+// Learning and Systems — three templates that say the same kinds of thing in different words —
+// into ONE body shape {overview, points, contexts, errors, mistakes, drills, metrics}, so the app
+// draws all three through one renderer (`_bodyDocHTML`) and a fourth library would add a row here
+// rather than a second panel. A block with NO LABEL in a library's row is not drawn for it: this
+// table is the contract, not a default, so a System's `metrics` can never leak into a principle.
+const NG_DOC_LABELS = {
+  Principle: { points: "Key principles", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
+  Learning: { points: "Key takeaways", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
+  System: {
+    points: "Key principles", contexts: "What it is made of", errors: "What gets in the way",
+    mistakes: "Common mistakes", drills: "How to train it", metrics: "How you know it is working",
+  },
+};
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -847,6 +871,10 @@ class Component extends DCLogic {
       window.addEventListener("popstate", () => {
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0 && hit.idx !== this.currentPos) this.rollFromPosition(hit.idx, true, hit.role);
+        // ...and Back onto a concept or system page re-opens that page, the same way arriving on
+        // it does. Without this the address bar said "Principles/Frames" and the pane showed
+        // whatever it was showing before.
+        else if (hit.idx < 0) this._seedPageFromUrl(location.pathname);
       });
     } catch (e) { /* non-fatal */ }
     // DECKS: boot from the MANIFEST, fetch each deck on demand (v1.80.4). The monolith was
@@ -2950,20 +2978,48 @@ class Component extends DCLogic {
     }
     return c._idxs;
   }
-  /** The concept's readable body, out of the SAME chunk space (and the same cache) as a node
-   *  dossier — `key` is "<Name>|<Principle|Learning>", minted by the emitter so it cannot land in
-   *  the technique key space. Returns null while the chunk is in flight and re-renders when it
-   *  lands. A null is never the ANSWER: renderConceptDetail always draws the index-level card
-   *  (name, meta, summary, the techniques, the page link) first, so a missing chunk degrades the
-   *  panel instead of blanking it. */
+  /** THE BODY OF A PAGE-SHAPED ENTRY — a concept or a system — out of the SAME chunk space (and
+   *  the same cache) as a node dossier. `key` is "<Name>|<Principle|Learning|System>", minted by
+   *  the emitter so it cannot land in the technique key space. Returns null while the chunk is in
+   *  flight and calls `onLand` when it arrives. A null is never the ANSWER: both panels draw their
+   *  index-level card first, so a missing chunk degrades the panel instead of blanking it.
+   *
+   *  A CACHED NULL IS NOT AN ANSWER HERE, WHICH IS WHY THIS IS NOT JUST `_ngc()`. Every other
+   *  reader of that cache asks about a node that may legitimately have no dossier; these two ask
+   *  about an entry whose INDEX PROMISES a body (the emitter refuses to ship a concept or a system
+   *  without one — a hard floor, not a hope). So a null here means the chunk was missed, not that
+   *  it is empty: something raced ahead of the payload, a stale copy answered, a proxy ate it. One
+   *  forced re-read per key per session settles it, and the `tried` stamp is what keeps that from
+   *  becoming a refetch on every render. */
+  _docBody(key, onLand) {
+    if (!key) return null;
+    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
+    if (Object.prototype.hasOwnProperty.call(C, key)) {
+      const hit = C[key];
+      if (hit) return hit;
+      const tried = (this._docRetried = this._docRetried || {});
+      if (tried[key]) return null;
+      tried[key] = 1;
+      delete C[key];                                  // clear the miss so the fetch can refill it
+      delete (this._contentWaits || {})[key];         // ...and the settled promise that stands for it
+    }
+    this._hydrateContent(key).then(() => { if (onLand) onLand(); });
+    return null;
+  }
   _conceptBody(c) {
     if (!c || !c.key) return null;
-    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
-    if (Object.prototype.hasOwnProperty.call(C, c.key)) return C[c.key] || null;
-    this._hydrateContent(c.key).then(() => {
+    return this._docBody(c.key, () => {
       if (this._conceptId === c.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
     });
-    return null;
+  }
+  /** The System's readable body — the overview, key principles, components, obstacles, metrics,
+   *  mistakes and training the authored file has always carried and the app never read. Same
+   *  chunk space, same cache, same re-render as a concept: one seam (CLAUDE.md 6.5). */
+  _systemBody(s) {
+    if (!s || !s.key) return null;
+    return this._docBody(s.key, () => {
+      if (this._systemId === s.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
+    });
   }
   openConcept(id) {
     const c = this._conceptsById ? this._conceptsById[id] : null; if (!c) return;
@@ -6746,6 +6802,7 @@ class Component extends DCLogic {
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
     const idxs = this.systemNodeIdxs(s);
     this._systemId = id;
+    this._systemBody(s);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_system_opened", { system: s.name, nodes: idxs.length, has_course: !!(s.products && s.products.length) });
     this.setFocusIdxSet(idxs);
     this.showExplorerList();
@@ -8568,8 +8625,61 @@ class Component extends DCLogic {
       });
       list.appendChild(drill);
     }
+    // ── THE SYSTEM'S OWN WORDS ── every System file carries an overview, its key principles, the
+    // components it is built out of, the obstacles and mistakes that stop people, how to train it
+    // and how to know it is working: ~20KB per system, 145,746 words across the 47, and until
+    // v1.155.3 the app read two fields of it (the summary and the sequence above). It rides the
+    // same on-demand chunk a node dossier does, so it costs the boot payload nothing and the panel
+    // draws it when it lands — nothing above waits on it.
+    //
+    // LAST, not under the card, and that is a placement decision with a reason: a concept panel is
+    // a READ and opens with its prose, but a System panel is an ACT — light the members, drill
+    // them, buy the course — and the body is 12,396 chars on the first system alone. Putting it
+    // second would bury "Drill this system" about seven screens down, which is a regression
+    // dressed as content. The measured pane scroll height is 7,750px with the read at the end.
+    const doc = this._bodyDocHTML(this._systemBody(s), "System");
+    if (doc) {
+      const sec = document.createElement("div");
+      sec.className = "ng-doc-body";
+      sec.setAttribute("data-system-body", s.id);
+      sec.innerHTML = doc;
+      list.appendChild(sec);
+    }
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
+  }
+  /** ONE RENDERER FOR EVERY READABLE BODY (concept or system).
+   *
+   *  Returns HTML for whichever blocks this library labels and this body actually carries, in a
+   *  fixed order — what it is, what to remember, what it is made of / where it applies, what goes
+   *  wrong, the mistakes, how to train it, how you know it is working. The caller owns the
+   *  wrapper element (and its `data-*-body` handle) because the two panels are addressed
+   *  separately by their journeys; everything inside it is this function, so the two surfaces
+   *  cannot drift apart the way a copied renderer would (CLAUDE.md 6.5).
+   *
+   *  Every value is escaped here. The bodies are authored content, but they arrive over a fetch
+   *  and land in innerHTML, so the escaping is not optional and is not the caller's job. */
+  _bodyDocHTML(body, cat) {
+    if (!body) return "";
+    const E = (v) => this.escHTML(v);
+    const L = NG_DOC_LABELS[cat] || NG_DOC_LABELS.Principle;
+    const arr = (k) => (Array.isArray(body[k]) ? body[k] : []);
+    const head = (k) => "<h3>" + E(L[k]) + "</h3>";
+    let h = body.overview ? "<p>" + E(body.overview) + "</p>" : "";
+    const dl = (k, rows) => head(k) + '<dl data-doc-' + k + '="' + rows.length + '">' + rows.join("") + "</dl>";
+    const ul = (k, rows) => head(k) + '<ul data-doc-' + k + '="' + rows.length + '">' + rows.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
+    if (L.points && arr("points").length) h += ul("points", arr("points"));
+    if (L.contexts && arr("contexts").length)
+      h += dl("contexts", arr("contexts").map((x) => "<dt>" + E(x.c) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.how) + "</dd>"));
+    if (L.errors && arr("errors").length)
+      h += dl("errors", arr("errors").map((x) => "<dt>" + E(x.err) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.fix) + "</dd>"));
+    if (L.mistakes && arr("mistakes").length) h += ul("mistakes", arr("mistakes"));
+    if (L.drills && arr("drills").length)
+      h += dl("drills", arr("drills").map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) + (x.focus ? "<em>" + E(x.focus) + "</em>" : "") + "</dd>"));
+    if (L.metrics && arr("metrics").length)
+      h += dl("metrics", arr("metrics").map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) +
+        (Array.isArray(x.signs) && x.signs.length ? "<ul>" + x.signs.map((g) => "<li>" + E(g) + "</li>").join("") + "</ul>" : "") + "</dd>"));
+    return h;
   }
   /** THE PANEL THE CLICK WAS ALWAYS MEANT TO OPEN.
    *
@@ -8609,30 +8719,12 @@ class Component extends DCLogic {
 
     // ── the read. Rendered only when the chunk is here; until then the card above stands alone
     //    and this fills in on the re-render the fetch triggers.
-    if (body) {
+    const doc = this._bodyDocHTML(body, c.cat);
+    if (doc) {
       const sec = document.createElement("div");
-      sec.className = "ng-concept-body";
+      sec.className = "ng-doc-body";
       sec.setAttribute("data-concept-body", c.id);
-      const head = (t) => '<h3>' + E(t) + '</h3>';
-      let h = "";
-      if (body.overview) h += "<p>" + E(body.overview) + "</p>";
-      const points = Array.isArray(body.points) ? body.points : [];
-      if (points.length)
-        h += head(c.cat === "Learning" ? "Key takeaways" : "Key principles") +
-          '<ul data-concept-points="' + points.length + '">' + points.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
-      const contexts = Array.isArray(body.contexts) ? body.contexts : [];
-      if (contexts.length)
-        h += head("Where it applies") + '<dl data-concept-contexts="' + contexts.length + '">' +
-          contexts.map((x) => "<dt>" + E(x.c) + "</dt><dd>" + E(x.how) + "</dd>").join("") + "</dl>";
-      const errors = Array.isArray(body.errors) ? body.errors : [];
-      if (errors.length)
-        h += head("What goes wrong") + '<dl data-concept-errors="' + errors.length + '">' +
-          errors.map((x) => "<dt>" + E(x.err) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.fix) + "</dd>").join("") + "</dl>";
-      const drills = Array.isArray(body.drills) ? body.drills : [];
-      if (drills.length)
-        h += head("How to train it") + '<dl data-concept-drills="' + drills.length + '">' +
-          drills.map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) + (x.focus ? "<em>" + E(x.focus) + "</em>" : "") + "</dd>").join("") + "</dl>";
-      sec.innerHTML = h;
+      sec.innerHTML = doc;
       list.appendChild(sec);
     }
 
@@ -9331,10 +9423,64 @@ class Component extends DCLogic {
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
     const hit = this._nodeAndRoleForPath(location.pathname);
-    if (hit.idx < 0) return false;
+    if (hit.idx < 0) return this._seedPageFromUrl(location.pathname);
     this._urlSeedIdx = hit.idx; this._urlSeedRole = hit.role;
     this._prefetchLandDeck(hit.idx);   // the intro is still the deck's runway (v1.106.6)
     return true;
+  }
+  /**
+   * A CONCEPT OR SYSTEM PAGE IS A PAGE, NOT A NODE — and until v1.155.3 that meant arriving on
+   * one dealt a random weighted start and showed the reader nothing they had asked for. 59
+   * Principles, 23 Learning entries and 47 Systems all have built pages, they are the URLs search
+   * and every wikilink hand out, and `_nodeAndRoleForPath` resolves node ids — so all 129 of them
+   * fell straight through to the front-door draw.
+   *
+   * Two things happen instead, in this order and for two different reasons:
+   *   · the PANEL opens on that page's own entry (owner, v1.152.0: "the intent was to open a
+   *     content page on the side panel"), which is also what lights its techniques on the graph;
+   *   · the BOARD is seated where the page teaches — the first position among its member nodes —
+   *     so closing the panel leaves you standing somewhere the page is about, rather than in a
+   *     state drawn at random. That is a seed, NOT a roll: `_urlSeedIdx` is read once, at
+   *     introDone, by the same line a node-page arrival goes through (v1.114.2 — a URL arrival
+   *     sets the board and holds the clock).
+   *
+   * Both payloads are DEFERRED, so this is async where a node seed is synchronous. The seed is
+   * therefore conditional on the intro still running: if concepts.json lands after t=3.2s the
+   * roll has already begun and only the panel opens — a degradation, and the only one available
+   * without putting 63KB back on the boot bill. `_urlSeeded` is assigned by the caller from the
+   * `false` returned here BEFORE this promise can resolve, which is why the callback sets it.
+   */
+  _seedPageFromUrl(path) {
+    const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
+    const m = /^(Principles|Learning|Systems)\/(.+)$/i.exec(id);
+    if (!m) return false;
+    const sys = /^systems$/i.test(m[1]);
+    (sys ? this._ensureSystems() : this._ensureConcepts()).then(() => {
+      const by = (sys ? this._systemsById : this._conceptsById) || {};
+      // exact first, then case-insensitively: the payload ids ARE the page paths, but a link
+      // typed by hand is not obliged to match their case, and a silent miss here reads exactly
+      // like the bug this replaces.
+      let key = Object.prototype.hasOwnProperty.call(by, id) ? id : null;
+      if (!key) { const want = id.toLowerCase(); for (const k in by) if (k.toLowerCase() === want) { key = k; break; } }
+      if (!key) return;   // a page with no payload row — e.g. the 3 .md-only Learning pages
+      const entry = by[key];
+      if (!this.introDone) {
+        const idxs = sys ? this.systemNodeIdxs(entry) : this.conceptNodeIdxs(entry);
+        // A POSITION IS A PLACE YOU CAN STAND. Techniques resolve to their origin anyway
+        // (techniqueOrigin), but a position member is the seat the page's own list puts first
+        // without a derivation in between; the fallback is the first member in emitted order, so
+        // this is deterministic for a given payload rather than "whatever came back".
+        let seat = -1;
+        for (const i of idxs) {
+          const n = this.nodes[i]; if (!n) continue;
+          if (seat < 0) seat = i;
+          if (n.ty === "positions") { seat = i; break; }
+        }
+        if (seat >= 0) { this._urlSeedIdx = seat; this._urlSeedRole = null; this._urlSeeded = true; this._prefetchLandDeck(seat); }
+      }
+      if (sys) this.openSystem(key); else this.openConcept(key);
+    });
+    return false;
   }
   /**
    * WHERE A DUAL PAIR ACTUALLY IS (v1.114.3). Owner: "the position should be rather centered on
@@ -11062,12 +11208,26 @@ class Component extends DCLogic {
     const waits = (this._contentWaits = this._contentWaits || {});
     if (waits[key]) return waits[key];
     const p = fetch(this._dataBase() + "content/" + this.qhash(key) + ".json")
-      .then((r) => (r.ok ? r.json() : null))
-      .catch(() => null)
-      .then((j) => {
+      // AN ANSWER AND A FAILURE MUST NOT LOOK THE SAME (CLAUDE.md 6.6). `.then(r => r.ok ? … :
+      // null).catch(() => null)` folded four different outcomes into one `null`, and the line
+      // below turned that null into the session's permanent answer for this key. A 404 IS the
+      // answer (nothing authored here); a 5xx, a dropped connection or a body that will not parse
+      // is the absence of one, and is retried — NG_CHUNK_TRIES bounds it so a hover cannot loop.
+      .then((r) => (r.ok
+        ? r.json().then((j) => ({ j: j }), () => ({ soft: "parse" }))
+        : (r.status === 404 ? { j: null } : { soft: "http" + r.status })))
+      .catch(() => ({ soft: "net" }))
+      .then((res) => {
         const C = (window.NG_CONTENT = window.NG_CONTENT || {});
         C.decks = C.decks || {};
-        if (j && typeof j === "object") for (const k in j) C.decks[k] = j[k];
+        if (res.j && typeof res.j === "object") for (const k in res.j) C.decks[k] = res.j[k];
+        if (res.soft) {
+          const fails = (this._contentFails = this._contentFails || {});
+          fails[key] = (fails[key] || 0) + 1;
+          // drop the wait, NOT the answer: the next ask refetches instead of resolving against a
+          // failure. onContentReady still fires so a surface waiting on this can redraw.
+          if (fails[key] < NG_CHUNK_TRIES) { delete waits[key]; this.onContentReady(); return null; }
+        }
         // negative cache: a node with no authored dossier must not refetch on every hover
         if (!Object.prototype.hasOwnProperty.call(C.decks, key)) C.decks[key] = null;
         this.onContentReady();
