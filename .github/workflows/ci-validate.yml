@@ -31,6 +31,10 @@ on:
       # emitter would never run the one test written to notice — the filter must include the
       # INPUTS its own gates read (CLAUDE.md §6.7), or the job goes green by never being triggered.
       - "source/quartz/plugins/emitters/componentResources.ts"
+      # tests/lastmod_git_path.test.mjs pins the pathspec lastmod.ts hands libgit2. Same rule as
+      # the line above: the gate's own subject must be in the filter, or the PR that breaks it is
+      # the one PR that never runs it.
+      - "source/quartz/plugins/transformers/lastmod.ts"
       # the CLAUDE.md budget + reference gates. Listing these is load-bearing, not tidiness:
       # a gate wired behind a path filter that excludes its own subject never runs on the PR
       # that breaks it, which is this repo's "absence produces a plausible answer" class in

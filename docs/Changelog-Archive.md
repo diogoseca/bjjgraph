@@ -5117,3 +5117,57 @@ stays at 9s. And `_onKey`'s sidebar digit branch stays `/^[1-4]$/`, not `/^[1-3]
 `preventDefault()` before the lookup, so a `4` is SWALLOWED; narrowing it would let `4` fall through
 to the `/^[1-9]$/` option-card openers, which is the Q007 hazard their own comment records.
 
+
+---
+
+## v1.148.2 — "LAST UPDATED" WAS THE BUILD CLOCK, ON EVERY PAGE, FOR ELEVEN VERSIONS
+
+Owner, on the build console: *"a bunch of files decided they weren't in Git... I always have this
+message every time I read this. The outcome is never different?"* It never differed because the
+check never succeeded — not for a bunch of files, for **4,618 of 4,618**.
+
+**Mechanism.** `lastmod.ts` asked libgit2 for a date using `file.data.filePath`, which is
+`joinSegments(argv.directory, fp)` (`processors/parse.ts:94`); this repo builds
+`quartz build -d ../content` from `source/`, so it reads `../content/Positions/Mount.md`. **libgit2
+resolves a pathspec against the repo workdir and cannot follow a `..` out of it.** Every lookup
+threw, every file warned, every date fell through to `st.mtimeMs` on the next loop iteration.
+
+**Why it survived eleven versions.** §6.6 in its purest form — *a fallback that produces a
+plausible value*. An mtime is a real date, in range, different per file by fractions of a second.
+The 4,618 warnings were not silence; they were noise, which is the same thing once a reader learns
+to scroll past them.
+
+**Measured before the fix (v1.148.0).** `Positions/Mount/Top.html` emitted
+`article:modified_time = 2026-08-22T17:54:17.524Z`; `stat` on its source `.md` said `.524000000`;
+`git log -1` said `2026-07-16T01:20:13`. Identical to the millisecond to the filesystem, five weeks
+off the truth. **In production it is worse:** a fresh checkout stamps every mtime at the checkout
+instant, so fetched live from bjjgraph.org, `/Positions/Mount/Top` and
+`/Submissions/Rear-Naked-Choke` — last really committed months apart — **both** claimed
+`2026-08-26T23:36:12`, 0.2s apart. Head.tsx copies the same value into `datePublished`/
+`dateModified`, so Google was told all 4,618 URLs were rewritten at every deploy.
+
+**The bitter part.** This is exactly what v1.37.0 ("Accurate 'Last modified' date") was written to
+fix; its own config comment says `"git"` prevents generated `.md` showing *"identical 'Last
+updated' everywhere (the bug that got ContentMeta removed in v1.36.1)"*. The comment described the
+intent correctly and the code never once did it. It also poisoned a gate:
+`check_seo_parity.py` sentinels five date fields as `VOLATILE` after 28 phantom regressions on an
+untouched tree, blaming "git/filesystem mtime". Half that reasoning was this bug. The sentinels
+stay — the content bot commits daily, so git dates move legitimately — but the reason is now honest.
+
+**Fix.** Derive the pathspec from `repo.workdir()`, not from `argv.directory`: the workdir is where
+libgit2 actually rooted the repo, the only frame its pathspecs resolve in, and it stays correct for
+the submodule/subtree case `Repository.discover()`'s own comment is about. Verified by driving the
+real transformer over real content: `Mount/Top` → `2026-07-16T00:20:13.000Z` and `Game Over.md` →
+`2026-08-09T19:10:27.000Z`, both matching `git log -1` exactly, zero warnings. Two repairs in the
+same block: the per-file warning is capped at 5 then counted (with the path correct the only
+remaining cause is an uncommitted note — normal, and not worth 4,618 lines), and a bare repo now
+says so **once**, loudly, instead of silently re-entering the old failure via the `?? fp` fallback.
+
+**Gated by `tests/lastmod_git_path.test.mjs`**, which builds a throwaway repo shaped like this one
+and drives the real `getFileLatestModifiedDate` — throwaway because CI checks out at
+`fetch-depth: 2`, so asserting real dates would test the clone depth, not the fix. It also pins the
+call site, the half that kills the revert mutant (verified red). **Non-kills, recorded in the
+spec's header:** a root `node --test` runner cannot import a `.ts` plugin without a transpile step,
+so the transformer's own control flow (warning cap, bare-repo warning) is NOT executed here, and a
+mutant hard-coding a correct path instead of calling `repo.workdir()` survives both halves.
+`ci-validate.yml` gained the file in its `paths:` filter, for the reason the line above it gives.
