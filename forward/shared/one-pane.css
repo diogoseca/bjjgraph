@@ -519,11 +519,23 @@
 .pane-study-head {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 46px 16px 12px 12px;
   border-bottom: 1px solid rgba(150, 170, 210, 0.1);
   color: #dbe2f0;
   font-size: 13px;
+}
+
+/* setDrillHeader's second slot: a checkpoint's "<i> of <n> · <unit name>". flex-basis puts it
+   on its own line under Back + title, the way the production head stacks them, and it costs
+   the sub-less study states nothing because they emit no <small> at all. */
+.pane-study-sub {
+  flex-basis: 100%;
+  margin-top: -3px;
+  color: #93a0bd;
+  font-size: 11.5px;
+  line-height: 1.45;
 }
 
 .pane-back {

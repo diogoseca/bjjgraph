@@ -49,30 +49,28 @@ function pausedChip({ staged = false } = {}) {
   return `<div class="paused-chip ng-paused">${icon("pause", 11)} ${staged ? "STAGED · CLOCK HELD" : "PAUSED"}</div>`;
 }
 
-// The kicker is DERIVED, never a constant: a checkpoint belongs to one belt's one unit, and
-// a frame that says "BLUE · 4/8" while sitting inside a White corridor is a lie the catalog
-// used to tell on every checkpoint screen.
+// ── A CHECKPOINT IS THE PANE, NOT A MODAL ──────────────────────────────────────────────────
+//
+// `_checkpointShow()` (app.src.jsx) sets `drillEntries`, calls
+// `setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " \u00b7 " + cp.unit.name)`,
+// then `renderDrill(); deckOpen = true; applyDeckVisibility()`. That is the study takeover of the
+// one left pane — `_paneStudyActive()` counts `_checkpoint` alongside a deck and a session — and
+// there is no dialog anywhere in it.
+//
+// The catalog used to draw a centred `role="dialog"` modal headed "BLUE BELT CHECKPOINT · 4/8",
+// annotated `[data-checkpoint]`: a surface production does not have, a string it has never
+// emitted, and a selector with ZERO matches in app.src.jsx. /dev is internal-only and is never
+// linked to end users, so its whole job is fidelity — the ceremony had no audience to justify it.
+// Owner's call. Archive: "THE CATALOG'S CHECKPOINT WAS A MODAL PRODUCTION HAS NEVER HAD".
 function checkpoint(
-  { result = "question", belt = "blue", done = 4, total = 8 } = {},
+  { result = "question", step = 2, total = 6, unit = "Foundations and complete loops" } = {},
   context = defaultContext,
+  paneState = null,
 ) {
-  const data = context.question;
-  return `<div class="modal-layer ng-modal-layer"><section class="modal-card ng-checkpoint" role="dialog" aria-modal="true" aria-label="Checkpoint quiz" data-checkpoint-belt="${belt}" data-production-selector="[data-checkpoint]">
-    <small>${String(belt).toUpperCase()} BELT CHECKPOINT · ${done}/${total}</small>
-    <h2>${data.prompt}</h2>
-    <div class="answer-grid">${data.answers
-      .map(
-        (answer, index) =>
-          `<button type="button" class="answer" ${
-            result === "correct" && index === data.correct
-              ? 'data-state="correct"'
-              : result === "wrong" && index === 1
-                ? 'data-state="wrong"'
-                : ""
-          }><span class="answer-key">${String.fromCharCode(65 + index)}</span>${answer}</button>`,
-      )
-      .join("")}</div>
-  </section></div>`;
+  return pane(
+    { ...(paneState || {}), study: "checkpoint", checkpoint: { result, step, total, unit } },
+    context,
+  );
 }
 
 function browser({ empty = false } = {}, context = defaultContext) {
@@ -164,7 +162,7 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${options.comboPop ? comboPop({ combo: options.comboPop }) : ""}
     ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query, ruleset: options.ruleset }) : activeLeftPanel === "challenges" ? challengesPanel({ state: options.challengeState, selected: options.selectedTrack }) : activeLeftPanel === "collection" ? collectionPanel({ state: options.collectionState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode, state: progressState }, context) : ""}
     ${activeRightPanel === "drill" ? drillPanel({ state: options.panelState }, context) : ""}
-    ${paneState ? pane(paneState, context) : ""}
+    ${checkpointState ? checkpoint({ result: checkpointState, ...(options.checkpoint || {}) }, context, paneState) : paneState ? pane(paneState, context) : ""}
     ${share ? shareCue(share) : ""}
     ${picker ? listPicker(picker) : ""}
     ${sheet ? optionSheet({ state: sheet === "drilling" ? "expanded" : sheet, drilling: sheet === "drilling" }, context) : ""}
@@ -175,7 +173,6 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${panic !== null ? panicCard({ revealed: panic === "revealed" }) : ""}
     ${showVignette ? vignette() : ""}
     ${result ? verdict({ result: result === "defeat" ? "defeat" : "victory", detail: options.resultDetail }) : ""}
-    ${checkpointState ? checkpoint({ result: checkpointState, ...(options.checkpoint || {}) }, context) : ""}
     ${flashBrowser !== null ? browser({ empty: flashBrowser === "empty" }, context) : ""}
     ${system ? `<div style="position:absolute;inset:0;z-index:18;display:grid;place-items:center">${systemState({ type: system })}</div>` : ""}
     ${restartState ? restartCard({ state: restartState }, context) : ""}

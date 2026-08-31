@@ -1555,12 +1555,16 @@ export const useCases = [
         "checkpoint_start",
         {
           checkpointState: "question",
-          checkpoint: { belt: "blue", done: 4, total: 8 },
+          checkpoint: {
+            step: 2,
+            total: 6,
+            unit: "Foundations and complete loops",
+          },
           paused: true,
         },
         "card-enter",
         0.45,
-        "The kicker is derived from the belt and unit the checkpoint belongs to. It used to be hard-coded 'BLUE CONTENT CHECKPOINT \u00b7 4/8' on every checkpoint frame in the catalog, including the White ones.",
+        "The quiz takes the PANE over, exactly as production does: setDrillHeader(\"Checkpoint\", \"<i> of <n> \u00b7 <unit name>\"), tab bar hidden, \u2039 Back to the tab you came from. It used to be drawn here as a centred modal headed 'BLUE BELT CHECKPOINT \u00b7 4/8' \u2014 a surface, a string and a selector production has never had.",
       ),
       frame(
         980,
@@ -1568,7 +1572,11 @@ export const useCases = [
         "mc_correct",
         {
           checkpointState: "correct",
-          checkpoint: { belt: "blue", done: 4, total: 8 },
+          checkpoint: {
+            step: 2,
+            total: 6,
+            unit: "Foundations and complete loops",
+          },
           paused: true,
         },
         "answer-correct",

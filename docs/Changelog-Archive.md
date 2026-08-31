@@ -5240,3 +5240,66 @@ core specs: 12 red, including tests that never touch the JIT. Stashing the chang
 so `graph-data.json` did not match the bundle and node lookups returned undefined
 (`TypeError: reading 'ty'`). `npm run dev:neural:app` refreshes only the bundle; the payload needs
 `dev:neural`. Baseline before you debug.
+
+---
+
+## v1.149.3 — THE CATALOG'S CHECKPOINT WAS A MODAL PRODUCTION HAS NEVER HAD
+
+**How it surfaced.** A stale feature branch (`journey/catalogx-wt`, v1.88.0, fifty-five versions
+behind) was audited before rebasing. Four of its five changes were superseded; the fifth,
+"checkpoint un-hard-code", was superseded in *mechanism* — dev had since added the
+`options.checkpoint` passthrough — but the branch was **right about production** and dev's
+replacement was not. The branch was dropped; this is the finding that survived it.
+
+**Three things disagreed with production at once.**
+
+| | catalog said | production does |
+|---|---|---|
+| surface | centred `role="dialog"` modal | the ONE left pane, in study takeover |
+| header | `BLUE BELT CHECKPOINT · 4/8` | `setDrillHeader("Checkpoint", "<i> of <n> · <unit name>")` |
+| selector | `[data-checkpoint]` | **0 matches in `app.src.jsx`** |
+
+`_checkpointShow()` sets `drillEntries`, calls
+`setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " · " + cp.unit.name)`, then
+`renderDrill(); deckOpen = true; applyDeckVisibility()`. `_paneStudyActive()` counts `_checkpoint`
+alongside a deck and a session. There is no dialog anywhere in it. A checkpoint also belongs to one
+**unit** of one belt and is asked card by card, so a belt-level `4/8` tally is not a rounding of the
+truth — it is a different quantity.
+
+**The catalog's own registry already knew.** `sequence-registry.js` has said for versions that
+"a live deck, session or checkpoint hides the nav entirely and stamps the pane
+`data-pane-study`", and `components-pane.js`'s `studyBody` header says "A live deck/session/**
+checkpoint** hides the tab bar". The prose described the pane; the renderer drew a modal.
+
+**The decision, and what settled it.** Owner: */dev is an internal-only surface, never shown or
+linked to end users.* That collapses the trade-off — the ceremonial-modal reading only had a case
+while somebody might see it, and a dev catalog's one job is fidelity to production. So: match
+production, and delete the modal framing outright rather than keeping it beside the truth.
+
+**Two adjacent inaccuracies fell out of doing it properly.** `questionBlock` hard-coded
+`data-land-mc-opt` and annotated itself `[data-land-q]` — the LANDING card's handles — while being
+reused inside `flashcard`'s multiple-choice mode, i.e. inside the pane. Production is explicit that
+this is wrong: `_mcOptAttr(surface)` returns the bare `data-mc-opt` for the sidebar deck (which the
+checkpoint rides) and `data-<surface>-mc-opt` for everything else, precisely "because the landing
+card and an open sidebar card are on screen at the same time, so a bare `[data-mc-opt]` selector
+would silently match both". `questionBlock` now takes a `surface`, defaulting to `landing` so every
+existing caller is byte-identical. And that same MC path printed the question **twice** — once as
+`.flashcard-question`, once as `questionBlock`'s own `<p>` — where production prints it once;
+`showPrompt: false` at the one call site that already has a prompt above it.
+
+**What did NOT change, deliberately.** The in-card `deckIdx + 1 / deck.length` counter stays: it
+looks like a duplicate of the header's "2 of 6" and is not. Production shows both, because the
+header counts the checkpoint's picks while the card counts position within the full deck the pick
+came from — `drillEntries = [e]` is the whole deck, presented at one card. And
+`.pane-study-head` gained only `flex-wrap` plus a `.pane-study-sub` rule; the sub-less study states
+emit no `<small>` at all, so they render identically.
+
+**Gates.** `validate:forward` 38 use cases / 19 journeys / 114 screens / 60 components, and the
+browser half — `e2e/journeys/forward-components.spec.ts` on :8131 — 16/16. Neither is a *parity*
+gate: `check_forward_catalog.mjs` only proves every frame renders non-empty without a throw, and
+**nothing in the repo reads `data-production-selector` at all** — it is documentary markup for a
+human reading the DOM. So this commit makes the annotation true; it does not make it enforced, and
+§6.8's standing warning that the Forward catalog is a design mock with no parity gate is unchanged.
+Verified by rendering all three states directly: 3 MC options, `data-mc-opt` and zero
+`data-land-mc-opt`, the prompt printed once, `modal-layer` absent, and `data-mc-result` reading
+`correct` / `trap` / absent across correct, wrong and question.

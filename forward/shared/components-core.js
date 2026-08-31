@@ -252,15 +252,28 @@ export function optionTray({
   </div>`;
 }
 
+// SURFACE DECIDES THE OPTION HANDLE, and production says so out loud: `_mcOptAttr(surface)` is
+// `data-mc-opt` for the sidebar deck (and the checkpoint, which rides the same deck surface) and
+// `data-<surface>-mc-opt` for every other one, "because the landing card and an open sidebar card
+// are on screen at the same time, so a bare [data-mc-opt] selector would silently match both".
+// A block that always claimed to be the landing card's was therefore wrong wherever it was reused.
+const MC_SURFACES = {
+  landing: { opt: "data-land-mc-opt", selector: "[data-land-q]" },
+  deck: { opt: "data-mc-opt", selector: "[data-mc-opt]" },
+};
+
 export function questionBlock({
   state = "unanswered",
   compact = false,
   question,
+  surface = "landing",
+  showPrompt = true,
 } = {}) {
   const fixture = question || defaultContext.question;
-  return `<div class="question-block ${compact ? "is-compact" : ""}" data-production-selector="[data-land-q]">
+  const { opt, selector } = MC_SURFACES[surface] || MC_SURFACES.landing;
+  return `<div class="question-block ${compact ? "is-compact" : ""}" data-production-selector="${selector}">
     <div class="question-kicker">Choose one</div>
-    <p>${escapeHtml(fixture.prompt)}</p>
+    ${showPrompt ? `<p>${escapeHtml(fixture.prompt)}</p>` : ""}
     <div class="answer-grid" role="radiogroup" aria-label="Answer options">
       ${fixture.answers
         .map((answer, index) => {
@@ -270,7 +283,7 @@ export function questionBlock({
               : state === "wrong" && index === 0
                 ? "trap"
                 : "";
-          return `<button type="button" role="radio" aria-checked="${result === "correct"}" data-land-mc-opt="${index}" ${result ? `data-mc-result="${result}"` : ""}><b>${String.fromCharCode(65 + index)}</b><span>${escapeHtml(answer)}</span></button>`;
+          return `<button type="button" role="radio" aria-checked="${result === "correct"}" ${opt}="${index}" ${result ? `data-mc-result="${result}"` : ""}><b>${String.fromCharCode(65 + index)}</b><span>${escapeHtml(answer)}</span></button>`;
         })
         .join("")}
     </div>

@@ -25,10 +25,19 @@ export function flashcard(
     <p class="flashcard-question">${escapeHtml(context.question.prompt)}</p>
     ${
       multipleChoice
-        ? questionBlock({
-            state: state === "correct" ? "correct" : "unanswered",
+        ? // A card inside the pane is the DECK surface, and its prompt is already printed above
+          // as `.flashcard-question` — production renders the question once, not twice.
+          questionBlock({
+            state:
+              state === "correct"
+                ? "correct"
+                : state === "wrong"
+                  ? "wrong"
+                  : "unanswered",
             question: context.question,
             compact: true,
+            surface: "deck",
+            showPrompt: false,
           })
         : revealed
           ? `<div class="flashcard-answer"><small>Answer</small><p>${escapeHtml(context.question.answer || context.question.answers[context.question.correct])}</p></div>`
