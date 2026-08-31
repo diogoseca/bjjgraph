@@ -5303,3 +5303,73 @@ human reading the DOM. So this commit makes the annotation true; it does not mak
 Verified by rendering all three states directly: 3 MC options, `data-mc-opt` and zero
 `data-land-mc-opt`, the prompt printed once, `modal-layer` absent, and `data-mc-result` reading
 `correct` / `trap` / absent across correct, wrong and question.
+---
+
+## v1.151.0 — "IN THIS SYSTEM" MEANS FROM THE PLACES THE SYSTEM TEACHES
+
+Owner's report, near verbatim: clicking a system shows "in this system" with one calf slicer
+*"being applied from every fucking place"*, omoplata *"from a lot of techniques too. It seems odd
+that if a submission is in the system, then we get all variants of it. Maybe it should be more
+specific, or this system should be improved."*
+
+**Not `process_systems`.** The first suspect (`scripts/regenerate_graph.py:974`) resolves each
+ref to exactly ONE node and expands nothing — graph.json's `systems[].members` totals 1,111,
+median 24, **max 30**. The bloat is downstream, in `regenerate_neural_data._node_indexes`, whose
+`variant`/`children` layers exist precisely *because* a submission family hub is not a graph node:
+**0 of 297 families appear in globalGraphLayout.json**, so `Submissions/Calf-Slicer` cannot be lit
+and the emitter expanded the family name to every real `from X` finish instead.
+
+**Measured before the fix:** family expansion contributed **909 of 1,711 member nodes (53%)** from
+**109 refs**, and *every one of the 109 was a Submissions ref* — no position-children expansion
+occurs anywhere in the corpus. Median members per system 32, **max 114** (Submission Clinic System).
+The owner's exact case: the 10th Planet No-Gi Guard System teaches Truck and Twister Control and was
+lighting **all eleven** calf slicers — from 50-50, Backside 50-50, Carni, Honey Hole, Inside
+Sankaku, Rodeo Ride, Russian Cowboy, Saddle and Twister Side Control as well.
+
+**Three candidate rules, measured against the real corpus.** (a) *reference the family node once* is
+**not implementable**: there is no family node to reference — it would light nothing. (c) *explicit
+refs only* cuts to 703 (median 15) but throws the signal out with the noise — 10th Planet loses
+`Calf Slicer from Truck`, which is exactly what that system teaches. (b) **an instance belongs only
+if the system also teaches the position it is thrown from** — 1,711 → **952**, median 32 → **19**,
+max 114 → **57**, and on the owner's case it yields precisely `from Truck` + `from Twister Control`.
+Rule (b) shipped, in one sentence: *"in this system" means the moves this system teaches, from the
+places it teaches them.*
+
+**ONE implementation, two consumers.** `_anchor_family(candidates, taught, byid)` is the only
+site; `build_systems` became two passes (resolve every ref, then anchor the families against the
+positions pass 1 proved the system teaches) because the rule needs the whole system before it can
+judge any part of it. Both surfaces already read the emitted `nodes` through `app.src.jsx
+systemNodeIdxs()` — `renderSystemDetail` (the side panel and its "In this system" kicker) and
+`openSystem → setFocusIdxSet` (the light-up) — so narrowing the payload narrows both and they
+cannot drift. **No app change was needed, and that is the point.** An explicitly authored instance
+(`Kimura from Half Guard`) is never narrowed; `_resolve_member` now returns `(nodes, was_family)`
+so "the author named a family" is data, not re-inferred from a node count.
+
+**The §6.6 half.** A family ref that anchors nothing is neither expanded nor silently dropped: it
+lands in the system's new `unanchored` list, `_meta.unanchored`, and the emitter's every-run print.
+**31 refs across the corpus**, and each is a genuine CONTENT gap, not a rule failure — Craig Jones
+Leg Lock System names `Inside Heel Hook` while teaching Saddle, but the finishes are authored from
+**Honey Hole / Inside Sankaku / Ushiro Ashi Garami**, which are separate position nodes here and the
+same position to most readers; Submission Clinic System names `Omoplata` but teaches no guard any
+omoplata is authored from. **No system lost its submissions entirely** — 11 systems had zero
+submission members before and the same 11 after.
+
+**Gated in `check_systems_payload.py` (check 9), which both deploys already run.** `glue[].fam`
+marks an expanded ref and how many instances it offered, so the gate SEES the rule instead of
+inferring it — a family narrowed to one node is otherwise indistinguishable from a direct ref.
+Coverage floor `FAM_REF_FLOOR = 70` (measured 97), because a matcher that matches nothing reads
+exactly like a pass. `MIN_MEMBER_NODES` 1600 → 880, `UNANCHORED_CEILING = 31`, with recompute
+commands.
+
+**Mutation-proved, four mutants, all killed:** anchoring disabled (the pre-fix behaviour) → 104
+violations naming the calf slicer by node; `fam` dropped → coverage falls to 63 and the floor
+fires; anchor predicate always true → red; `taught` widened to every position → red. Control
+re-runs green; `validate:seats`, `:occurrence`, `:json`, `:graph`, `:curriculum`, `:mc`,
+`:score-coverage` all pass. `e2e/journeys/systems-surface.spec.ts` needed no edit — it picks the
+widest system *from the payload* and asserts the lit set equals the published members, so it is
+member-count-relative by construction.
+
+**For the owner:** the rule answers "more specific"; the 31 `unanchored` refs are the "this system
+should be improved" half, and the highest-value one is that **Saddle and Honey Hole are separate
+position nodes** — adding Honey Hole to the leg-lock systems' `related_content` would re-anchor
+several heel hooks at once.

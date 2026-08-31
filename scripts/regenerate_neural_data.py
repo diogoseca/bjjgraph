@@ -1357,19 +1357,28 @@ def _node_indexes(node_ids: list[str]) -> dict:
     return idx
 
 
-def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict) -> list[str]:
-    """Map one related_content reference onto the graph node ids it lights up ([] = unresolved).
+def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
+                    idx: dict) -> tuple[list[str], bool]:
+    """Map one related_content reference onto the graph node ids it lights up.
+
+    Returns (node ids, was_family_expanded); ([], False) = unresolved.
 
     `path` is graph.json's already-resolved member page path, tried first. It is not enough on
     its own: process_systems() drops a reference whose page was already claimed by an earlier
     one, so a System listing both "Knee Slice Pass" and its synonym "Knee Cut Pass" has only the
-    first in members[] — hence the slug layers, plus the authored aliases[] retry below."""
+    first in members[] — hence the slug layers, plus the authored aliases[] retry below.
+
+    THE SECOND RETURN VALUE IS LOAD-BEARING. A ref resolving through the `variant` or `children`
+    layer named a FAMILY ("Calf Slicer"), not a node — those layers exist because a family hub is
+    not in the graph — so one authored word becomes every "from X" finish in the family. That set
+    is a candidate list, not a membership list, and _anchor_family() below is what narrows it.
+    A `flat` or `leaf` hit is the author naming ONE exact node and is never narrowed."""
     if path:
         if path in ids:
-            return [path]
+            return [path], False
         kids = idx["children"].get(path)
         if kids:
-            return sorted(set(kids))
+            return sorted(set(kids)), True
     slug = slugify(name)
     candidates = [slug] + ([idx["alias"][slug]] if slug in idx["alias"] else [])
     prefixes = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
@@ -1378,8 +1387,40 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict
             for layer in ("flat", "variant", "leaf"):
                 hit = idx[layer].get((pre, cand))
                 if hit:
-                    return sorted(set(hit))
-    return []
+                    hits = sorted(set(hit))
+                    # `variant` IS the family layer; a multi-hit `leaf` is an
+                    # expansion too (one bare name, several nested nodes).
+                    return hits, (layer == "variant" or len(hits) > 1)
+    return [], False
+
+
+def _anchor_family(candidates: list[str], taught: set, byid: dict) -> list[str]:
+    """THE RULE, in one place: a family-expanded instance belongs to a System only if the System
+    also teaches the position it is thrown from.
+
+    "In this system" means the moves this system teaches, FROM THE PLACES IT TEACHES THEM. Both
+    consumers read the result through the emitted `nodes` — app.src.jsx systemNodeIdxs() feeds
+    BOTH renderSystemDetail (the side panel) and openSystem -> setFocusIdxSet (the graph
+    light-up) — so narrowing here narrows both, and they cannot drift apart.
+
+    Why it is needed: a submission family hub carries no node (0 of 297 families appear in
+    globalGraphLayout.json), so `Calf Slicer` expands to all eleven real finishes. The 10th
+    Planet No-Gi Guard System teaches Truck and Twister Control; it was lighting calf slicers
+    from 50-50, Backside 50-50, Carni, Honey Hole, Inside Sankaku, Rodeo Ride, Russian Cowboy,
+    Saddle and Twister Side Control as well.
+
+    Measured 2026-08-31 over the 47 Systems, from the emitted payload: family refs offered 952
+    candidate instances and anchoring ships 274 of them; total member nodes 1711 -> 952, median
+    per system 32 -> 19, worst offender (Submission Clinic System) 114 -> 57. Recompute with
+    `python3 -c "import json,statistics as st;S=json.load(open('source/quartz/static/neural/
+    systems.json'))['systems'];c=[len(x['nodes']) for x in S];print(sum(c),st.median(c),max(c))"`.
+
+    Returns [] when nothing anchors. That is NOT a silent drop: build_systems records the ref in
+    the System's `unanchored` list and check_systems_payload.py ratchets the total, because a
+    family whose every instance comes from a position the System never teaches is a CONTENT gap
+    (add the entry position to that System's related_content) and must stay visible as one.
+    """
+    return [n for n in candidates if (byid.get(n, {}).get("fromPositionId") or "") in taught]
 
 
 def _products(data: dict, sys_name: str) -> list[dict]:
@@ -1421,15 +1462,21 @@ def _products(data: dict, sys_name: str) -> list[dict]:
     return out
 
 
-def build_systems(graph: dict, node_ids: list[str]) -> dict:
+def build_systems(graph: dict, nodes: list[dict]) -> dict:
     """The Systems library: one entry per content/Systems/*.json, each carrying the graph
     nodes it teaches so the app can list all 47 AND highlight a System's members on the graph.
 
     Membership comes from related_content (the authored edge list) resolved against the ids
     in graph-data.json. Unresolvable graph-typed references are REPORTED per system in
-    `unresolved`, never dropped and never faked."""
+    `unresolved`, never dropped and never faked.
+
+    TWO PASSES, because the rule needs the whole system before it can judge any part of it:
+    pass 1 resolves every ref; pass 2 applies _anchor_family() against the positions pass 1
+    proved the System teaches. A family ref that anchors nothing lands in `unanchored`."""
     from regenerate_graph import build_alias_maps, quartz_slug  # page path + authored synonyms
 
+    node_ids = [n["id"] for n in nodes]
+    byid = {n["id"]: n for n in nodes}
     ids = set(node_ids)
     idx = _node_indexes(node_ids)
     # aliases[] is the authored synonym set (Knee Cut Pass -> Knee Slice Pass); without it a
@@ -1449,7 +1496,8 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             for m in (gsystems.get(slugify(name)) or {}).get("members") or []
         }
 
-        nodes, unresolved, glue = [], [], []
+        # ---- pass 1: resolve every authored ref, keeping family expansions as CANDIDATES ----
+        resolved, unresolved = [], []
         for item in data.get("related_content") or []:
             if not isinstance(item, dict):
                 continue
@@ -1460,18 +1508,43 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             if ctype and ctype not in GRAPH_REF_PREFIX:
                 non_graph += 1
                 continue
-            hit = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
+            hit, is_family = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
             if hit:
-                nodes.extend(hit)
-                # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
-                # belong together — the authored `relationship` says what each one DOES in the
-                # system ("primary finishing position", "entry when they refuse the leg"). Lighting
-                # nodes up without it just shows a constellation; this is what makes it a system.
-                # One entry per authored ref (not per resolved id) so the text is never duplicated
-                # across a hub's expanded children.
-                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
+                resolved.append((ref, hit, is_family, _clip(item.get("relationship") or "", 180)))
             elif ref not in unresolved:
                 unresolved.append(ref)
+
+        # ---- pass 2: the positions this System teaches, then anchor the families against them ----
+        # A position member counts however it resolved; only submission/transition FAMILIES are
+        # narrowed. Direct refs are the author naming one exact node and pass through untouched.
+        taught = {
+            byid[n]["posId"]
+            for _ref, hit, _fam, _role in resolved
+            for n in hit
+            if byid.get(n, {}).get("posId")
+        }
+        member_nodes, glue, unanchored = [], [], []
+        for ref, hit, is_family, role in resolved:
+            keep = _anchor_family(hit, taught, byid) if is_family else hit
+            if not keep:
+                # Reported, never expanded and never silently dropped — see _anchor_family.
+                if ref not in unanchored:
+                    unanchored.append(ref)
+                continue
+            member_nodes.extend(keep)
+            # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
+            # belong together — the authored `relationship` says what each one DOES in the
+            # system ("primary finishing position", "entry when they refuse the leg"). Lighting
+            # nodes up without it just shows a constellation; this is what makes it a system.
+            # One entry per authored ref (not per resolved id) so the text is never duplicated
+            # across a hub's expanded children. `fam` marks a family-expanded ref and carries how
+            # many instances it offered, so check_systems_payload.py can SEE the anchoring rule
+            # rather than infer it from a node count (a family narrowed to one node otherwise
+            # looks exactly like a direct ref).
+            entry = {"ref": ref, "nodes": keep, "role": role}
+            if is_family:
+                entry["fam"] = len(hit)
+            glue.append(entry)
 
         # The ordered spine: implementation_sequence is the system's narrative, and it is what
         # turns a lit set into "do this, then this". Carried verbatim, clipped, phases only.
@@ -1494,10 +1567,11 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             "summary": _clip(data.get("summary") or data.get("description") or ""),
             "type": (data.get("system_type") or "").strip(),
             "difficulty": (data.get("difficulty_level") or "").strip(),
-            "nodes": sorted(set(nodes)),
+            "nodes": sorted(set(member_nodes)),
             "glue": glue,
             "sequence": sequence,
             "unresolved": unresolved,
+            "unanchored": unanchored,
             "products": prods,
         })
 
@@ -1505,12 +1579,16 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
         "_meta": {
             "count": len(systems),
             "unresolved": sum(len(s["unresolved"]) for s in systems),
+            "unanchored": sum(len(s["unanchored"]) for s in systems),
             "nodes": sum(len(s["nodes"]) for s in systems),
             "nonGraphRefs": non_graph,
             "products": n_products,
             "note": "Generated by scripts/regenerate_neural_data.py from content/Systems/*.json + "
-                    "graph.json membership; `nodes` are graph-data.json ids. nonGraphRefs counts "
-                    "Principle/System cross-references, which are pages and never graph nodes.",
+                    "graph.json membership; `nodes` are graph-data.json ids, narrowed by "
+                    "_anchor_family: a family-expanded instance is a member only if the System "
+                    "also teaches the position it is thrown from. nonGraphRefs counts "
+                    "Principle/System cross-references, which are pages and never graph nodes. "
+                    "unanchored counts family refs no member position anchors — a content gap.",
         },
         "systems": systems,
     }
@@ -1569,12 +1647,12 @@ def main() -> None:
     # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
     # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
     # a node the graph does not have.
-    sysd = build_systems(graph, [n["id"] for n in gd["nodes"]])
+    sysd = build_systems(graph, gd["nodes"])
     (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
     sm = sysd["_meta"]
     print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
-          f"{sm['unresolved']} unresolved refs, {sm['products']} products "
-          f"({sm['nonGraphRefs']} non-graph cross-refs skipped)")
+          f"{sm['unresolved']} unresolved refs, {sm['unanchored']} unanchored family refs, "
+          f"{sm['products']} products ({sm['nonGraphRefs']} non-graph cross-refs skipped)")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload, "
