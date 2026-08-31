@@ -312,7 +312,7 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (7% of attempts)
+- **[[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (7% of attempts)
 
 - **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (24% of attempts)
 

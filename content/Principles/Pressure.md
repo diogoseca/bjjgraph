@@ -450,16 +450,16 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 
 
 ### Related Content
-- [[Side Control]] (Position) - Primary application context where pressure principles are most directly implemented through chest, shoulder, and hip compression
-- [[Mount]] (Position) - Dominant position where vertical pressure application creates maximum control and submission opportunities through hip and chest pressure
-- [[Knee on Belly]] (Position) - Specialized pressure position utilizing concentrated focal point pressure for maximum discomfort while maintaining mobility
-- [[North-South]] (Position) - Position emphasizing chest and shoulder pressure that restricts breathing while preventing bridging escapes
-- [[Pressure Pass]] (Transition) - Guard passing methodology built entirely on pressure application principles to overcome defensive resistance
-- [[Knee Cut Pass]] (Transition) - Dynamic passing technique that maintains continuous pressure throughout passing sequence
-- [[Center of Gravity]] (Principle) - Foundational concept that provides mechanical understanding necessary for effective pressure application
-- [[Base]] (Principle) - Complementary concept ensuring pressure can be sustained without compromising positional stability
-- [[Energy Conservation]] (Principle) - Strategic framework within which efficient pressure application serves as primary energy conservation mechanism
-- [[Bernardo Faria Pressure System]] (System) - Comprehensive systematic approach built entirely around pressure-based passing and control methodologies
+- [[Positions/Side Control|Side Control]] (Position) - Primary application context where pressure principles are most directly implemented through chest, shoulder, and hip compression
+- [[Positions/Mount|Mount]] (Position) - Dominant position where vertical pressure application creates maximum control and submission opportunities through hip and chest pressure
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Specialized pressure position utilizing concentrated focal point pressure for maximum discomfort while maintaining mobility
+- [[Positions/North-South|North-South]] (Position) - Position emphasizing chest and shoulder pressure that restricts breathing while preventing bridging escapes
+- [[Transitions/Pressure Pass|Pressure Pass]] (Transition) - Guard passing methodology built entirely on pressure application principles to overcome defensive resistance
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) - Dynamic passing technique that maintains continuous pressure throughout passing sequence
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Foundational concept that provides mechanical understanding necessary for effective pressure application
+- [[Principles/Base|Base]] (Principle) - Complementary concept ensuring pressure can be sustained without compromising positional stability
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Strategic framework within which efficient pressure application serves as primary energy conservation mechanism
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Comprehensive systematic approach built entirely around pressure-based passing and control methodologies
 
 
 </section>

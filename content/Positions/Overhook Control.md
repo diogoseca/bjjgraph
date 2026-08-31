@@ -296,9 +296,9 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (14% of attempts)
+- **[[Submissions/Kimura/from Overhook Control/Attacker|Kimura from Overhook Control]]** (14% of attempts)
 
-- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (15% of attempts)
+- **[[Submissions/Darce Choke/from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (15% of attempts)
 
 - **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (11% of attempts)
 

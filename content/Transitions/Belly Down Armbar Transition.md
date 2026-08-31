@@ -160,7 +160,7 @@ The belly-down position offers distinct mechanical advantages for the attacker. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Belly Down Armbar from Armbar Control]] | 50% |
+| Success | [[Submissions/Belly Down Armbar/from Armbar Control]] | 50% |
 | Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 20% |
 
@@ -321,7 +321,7 @@ The belly down armbar transition is a critical link in the armbar chain attack s
 
 - [[Positions/Armbar Control]] - Source position from which this transition is initiated
 
-- [[Armbar from Armbar Control]] - Alternative finish from armbar control when opponent stays supine
+- [[Submissions/Armbar/from Armbar Control]] - Alternative finish from armbar control when opponent stays supine
 
 - [[Submissions/Belly Down Armbar]] - The submission itself that this transition seeks to achieve
 

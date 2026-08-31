@@ -218,14 +218,14 @@ A: Ask two questions: where do I end up when this works, and where do I end up w
 <section id="related" class="content-section">
 
 ## Related
-- [[Position Over Submission]] (Learning) - Position-first strategy relies on choosing committed techniques that retain dominant positions
-- [[Probabilistic Thinking]] (Learning) - Evaluating techniques by their expected value including failure outcomes
-- [[Positional Hierarchy]] (Principle) - Understanding the positional ladder helps assess the cost of technique failure
-- [[Control Maintenance]] (Principle) - Committed techniques inherently support control maintenance because they do not sacrifice position
-- [[Base]] (Principle) - Good base allows you to attempt committed techniques without losing balance or position
-- [[Mount]] (Position) - The classic position where committed technique selection matters most due to the value of mount retention
-- [[Side Control]] (Position) - Multiple committed submission options available that retain the side control position
-- [[Back Control]] (Position) - Back control offers committed choke attacks where failure typically retains the back position
+- [[Learning/Position Over Submission|Position Over Submission]] (Learning) - Position-first strategy relies on choosing committed techniques that retain dominant positions
+- [[Learning/Probabilistic Thinking|Probabilistic Thinking]] (Learning) - Evaluating techniques by their expected value including failure outcomes
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding the positional ladder helps assess the cost of technique failure
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Committed techniques inherently support control maintenance because they do not sacrifice position
+- [[Principles/Base|Base]] (Principle) - Good base allows you to attempt committed techniques without losing balance or position
+- [[Positions/Mount|Mount]] (Position) - The classic position where committed technique selection matters most due to the value of mount retention
+- [[Positions/Side Control|Side Control]] (Position) - Multiple committed submission options available that retain the side control position
+- [[Positions/Back Control|Back Control]] (Position) - Back control offers committed choke attacks where failure typically retains the back position
 
 
 

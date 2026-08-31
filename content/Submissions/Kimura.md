@@ -264,6 +264,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 - [[Submissions/Guillotine Choke]] - Alternative submission chain from front headlock and scramble positions
 - [[Submissions/Ezekiel Choke]] - Complementary choke option from shared top control positions like mount
 - [[Submissions/Darce Choke]] - Related choke accessible during half guard Kimura scrambles and transitions
+- [[Submissions/Flying Armbar/from Closed Guard]] - Dynamic transition option from standing Kimura grip exchanges
 - [[Submissions/Monoplata]] - Alternative shoulder lock using leg pressure with similar rotational mechanics
 - [[Submissions/Baratoplata]] - Hybrid shoulder lock combining Kimura grip mechanics with leg entanglement
 - [[Submissions/Cross Collar Choke]] - Complementary gi attack creating submission dilemmas from shared top positions

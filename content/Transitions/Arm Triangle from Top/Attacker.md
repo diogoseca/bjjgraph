@@ -327,7 +327,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Arm Triangle from Side Control]] | 55% |
+| Success | [[Submissions/Arm Triangle/from Side Control]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -343,7 +343,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 - **Opponent frames with both arms against your chest and shrimps away before you lock the grip, creating enough space to extract the trapped arm and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your free hand throughout setup. If they begin shrimping, switch to knee on belly or mount transition to capitalize on the space they create rather than chasing the arm triangle → Leads to [[Positions/Side Control]]
 - **Opponent clasps their hands together in a prayer grip or grabs their own collar to prevent their arm from being pushed across the centerline** (Effectiveness: Medium) - Your Response: Use your knee or hip to bump their elbow upward while driving your shoulder into the gap. Alternatively, switch to attacking the americana or kimura on the now-extended arm, forcing them to release the defensive grip → Leads to [[Positions/Side Control]]
 - **Opponent turns into you during the walk-around, getting to their knees or recovering half guard by inserting a knee before you complete the transition** (Effectiveness: Medium) - Your Response: If they turn in, immediately transition to a darce choke or guillotine as their neck becomes exposed during the turn. If they recover half guard, maintain the head-and-arm configuration and work the arm triangle finish from half guard top instead → Leads to [[Positions/Half Guard]]
-- **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat → Leads to [[Arm Triangle from Side Control]]
+- **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat → Leads to [[Submissions/Arm Triangle/from Side Control]]
 
 
 </section>

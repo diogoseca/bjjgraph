@@ -372,31 +372,31 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Closed Guard]] (Position) - Starting position and recovery target within dynamic guard system
-- [[Spider Guard]] (Position) - Primary mid-range position for distance control and sweep setup
-- [[De La Riva Guard]] (Position) - Core position for off-balancing and back-take opportunities
-- [[Butterfly Guard]] (Position) - Close-range guard for powerful sweeps and quick transitions
-- [[X-Guard]] (Position) - Sweep-focused position integrated into switching sequences
-- [[Single Leg X-Guard]] (Position) - Lower body control position for sweeps and leg attacks
-- [[Seated Guard]] (Position) - Mobile guard position for creating angles and distance
-- [[Collar Sleeve Guard]] (Position) - Gi-specific guard for grip-based control and sweeps
-- [[Lasso Guard]] (Position) - Advanced guard for controlling posture and limiting mobility
-- [[Reverse De La Riva Guard]] (Position) - Inverted guard option for back exposure and sweeps
-- [[Defensive Concepts]] (Principle) - Core defensive principle underlying guard retention and recovery
-- [[Grips]] (Principle) - Essential skill for controlling engagement and creating opportunities
-- [[Frames]] (Principle) - Critical for maintaining distance and structural integrity during transitions
-- [[Distance Control]] (Principle) - Key principle for preventing pressure establishment and enabling guard recovery
-- [[Dominant Angles]] (Principle) - Essential for off-balancing and creating sweep opportunities
-- [[Scissor Sweep]] (Transition) - Classic sweep integrated into guard switching sequences
-- [[Basic Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
-- [[Berimbolo Entry]] (Transition) - Advanced back-take option from De La Riva position
-- [[Backstep from De La Riva]] (Transition) - Counter-movement option when switching out of De La Riva engagement
-- [[Arm Drag]] (Transition) - Entry method for initiating dynamic guard engagement and back exposure
-- [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system focusing on butterfly guard dynamics
-- [[Marcelo Garcia X-Guard System]] (System) - Related system emphasizing X-guard mechanics
-- [[Caio Terra Guard Retention System]] (System) - Alternative guard retention methodology with different emphasis
-- [[10th Planet No-Gi Guard System]] (System) - No-gi guard framework with overlapping switching and retention concepts
-- [[Keenan Cornelius Lapel Guard System]] (System) - Gi-specific guard system extending the dynamic switching concept with lapel control
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Starting position and recovery target within dynamic guard system
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Primary mid-range position for distance control and sweep setup
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Core position for off-balancing and back-take opportunities
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Close-range guard for powerful sweeps and quick transitions
+- [[Positions/X-Guard|X-Guard]] (Position) - Sweep-focused position integrated into switching sequences
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Lower body control position for sweeps and leg attacks
+- [[Positions/Seated Guard|Seated Guard]] (Position) - Mobile guard position for creating angles and distance
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Gi-specific guard for grip-based control and sweeps
+- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Advanced guard for controlling posture and limiting mobility
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) - Inverted guard option for back exposure and sweeps
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Core defensive principle underlying guard retention and recovery
+- [[Principles/Grips|Grips]] (Principle) - Essential skill for controlling engagement and creating opportunities
+- [[Principles/Frames|Frames]] (Principle) - Critical for maintaining distance and structural integrity during transitions
+- [[Principles/Distance Control|Distance Control]] (Principle) - Key principle for preventing pressure establishment and enabling guard recovery
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Essential for off-balancing and creating sweep opportunities
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Classic sweep integrated into guard switching sequences
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Advanced back-take option from De La Riva position
+- [[Transitions/Backstep from De La Riva|Backstep from De La Riva]] (Transition) - Counter-movement option when switching out of De La Riva engagement
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Entry method for initiating dynamic guard engagement and back exposure
+- [[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia Butterfly Guard System]] (System) - Complementary system focusing on butterfly guard dynamics
+- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Related system emphasizing X-guard mechanics
+- [[Systems/Caio Terra Guard Retention System|Caio Terra Guard Retention System]] (System) - Alternative guard retention methodology with different emphasis
+- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - No-gi guard framework with overlapping switching and retention concepts
+- [[Systems/Keenan Cornelius Lapel Guard System|Keenan Cornelius Lapel Guard System]] (System) - Gi-specific guard system extending the dynamic switching concept with lapel control
 
 
 </section>

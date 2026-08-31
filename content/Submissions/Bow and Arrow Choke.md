@@ -245,6 +245,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Transitions/Clock Choke]] - Chains into bow and arrow when opponent rolls defensively from turtle
 - [[Submissions/Short Choke]] - Alternative back choke when bow and arrow collar grip is defended
 - [[Submissions/Cross Collar Choke]] - Complementary collar choke sharing similar deep lapel grip mechanics
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]] - Alternative attack when arm is trapped during bow and arrow setup
 - [[Submissions/Baseball Bat Choke]] - Related collar choke using cross-grip lapel control from turtle
 - [[Submissions/Brabo Choke]] - Related lapel choke using opponent's gi as force multiplier
 - [[Submissions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost

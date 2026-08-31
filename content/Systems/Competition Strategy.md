@@ -396,35 +396,35 @@ Competition strategy development requires three-phase drilling methodology: isol
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Competition Preparation System]] (System) - Complementary system providing detailed preparation protocols and training periodization for tournament readiness
-- [[Competition Scoring Strategy]] (System) - Specialized system focusing on point optimization and scoring hierarchy under IBJJF rules
-- [[Mental Game Framework]] (System) - Psychological preparation system addressing competition anxiety and performance under pressure
-- [[IBJJF Strategy Guide]] (System) - Rule-set specific strategic framework for International Brazilian Jiu-Jitsu Federation competitions
-- [[No-Gi Competition Approach]] (System) - Tactical adaptations for submission-only and no-gi tournament formats
-- [[Competition Mindset]] (Principle) - Psychological framework for maintaining composure and confidence under competitive pressure
-- [[Position Chains]] (Principle) - Strategic principle for planning sequential positional advances and linking techniques into coherent game plans
-- [[Positional Hierarchy]] (Principle) - Fundamental principle defining position quality and advancement priorities for scoring optimization
-- [[Energy Conservation]] (Principle) - Principle governing effort distribution and pacing throughout match duration and tournament day
-- [[Position-Over-Submission Approach]] (Principle) - Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk
-- [[Defensive Concepts]] (Principle) - Decision-making framework for evaluating defensive options, risk tolerance, and maintaining composure in inferior positions
-- [[Positional Sparring]] (Principle) - Core training principle for isolating competition-relevant scenarios and building reliable scoring and defensive patterns under resistance
-- [[Guard Pull]] (Transition) - Strategic opening technique allowing immediate ground engagement and avoidance of takedown exchanges
-- [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position and early point scoring in standing phase
-- [[Knee Slice Pass]] (Transition) - Fundamental guard pass providing reliable route to side control and point accumulation
-- [[Back Take]] (Transition) - Highest-value positional advancement providing 4 points and dominant submission opportunities
-- [[Closed Guard]] (Position) - Fundamental guard position offering strong control and multiple attacking options, commonly established after guard pull
-- [[Mount]] (Position) - Dominant top position worth 4 points providing excellent submission opportunities and positional stability
-- [[Back Control]] (Position) - Highest-value position providing 4 points and most dominant submission threats, ultimate positional objective
-- [[Side Control]] (Position) - Fundamental control position worth 3 points serving as gateway to mount and back control advancement
-- [[Half Guard]] (Position) - Transitional position offering strong defensive recovery and sweep opportunities when caught under passing pressure
-- [[Butterfly Guard]] (Position) - Dynamic guard position providing explosive sweep opportunities and strong control against standing opponents
-- [[De La Riva Guard]] (Position) - Technical guard position offering sweep opportunities and back take pathways against standing passers
-- [[Single Leg X-Guard]] (Position) - Modern guard position providing powerful sweeps and leg entanglement entries in no-gi competition
-- [[Turtle]] (Position) - Defensive position commonly used when avoiding guard pass, requires strong defense to prevent back take and point concession
-- [[Rear Naked Choke]] (Submission) - Highest-percentage submission from back control, ultimate finishing objective in many competitive game plans
-- [[Triangle Choke]] (Submission) - High-percentage submission from guard positions providing strong finishing threat while maintaining positional control
-- [[Armbar from Armbar Control]] (Submission) - Fundamental armbar completion applicable from multiple dominant positions, high-percentage finish when opponent exposes arms during guard retention or escape attempts
-- [[Kimura]] (Submission) - Versatile submission available from multiple positions, often used to force reactions and create advancement opportunities
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Complementary system providing detailed preparation protocols and training periodization for tournament readiness
+- [[Systems/Competition Scoring Strategy|Competition Scoring Strategy]] (System) - Specialized system focusing on point optimization and scoring hierarchy under IBJJF rules
+- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - Psychological preparation system addressing competition anxiety and performance under pressure
+- [[Systems/IBJJF Strategy Guide|IBJJF Strategy Guide]] (System) - Rule-set specific strategic framework for International Brazilian Jiu-Jitsu Federation competitions
+- [[Systems/No-Gi Competition Approach|No-Gi Competition Approach]] (System) - Tactical adaptations for submission-only and no-gi tournament formats
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Psychological framework for maintaining composure and confidence under competitive pressure
+- [[Principles/Position Chains|Position Chains]] (Principle) - Strategic principle for planning sequential positional advances and linking techniques into coherent game plans
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Fundamental principle defining position quality and advancement priorities for scoring optimization
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Principle governing effort distribution and pacing throughout match duration and tournament day
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Decision-making framework for evaluating defensive options, risk tolerance, and maintaining composure in inferior positions
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Core training principle for isolating competition-relevant scenarios and building reliable scoring and defensive patterns under resistance
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Strategic opening technique allowing immediate ground engagement and avoidance of takedown exchanges
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position and early point scoring in standing phase
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Fundamental guard pass providing reliable route to side control and point accumulation
+- [[Transitions/Back Take|Back Take]] (Transition) - Highest-value positional advancement providing 4 points and dominant submission opportunities
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental guard position offering strong control and multiple attacking options, commonly established after guard pull
+- [[Positions/Mount|Mount]] (Position) - Dominant top position worth 4 points providing excellent submission opportunities and positional stability
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position providing 4 points and most dominant submission threats, ultimate positional objective
+- [[Positions/Side Control|Side Control]] (Position) - Fundamental control position worth 3 points serving as gateway to mount and back control advancement
+- [[Positions/Half Guard|Half Guard]] (Position) - Transitional position offering strong defensive recovery and sweep opportunities when caught under passing pressure
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard position providing explosive sweep opportunities and strong control against standing opponents
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Technical guard position offering sweep opportunities and back take pathways against standing passers
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Modern guard position providing powerful sweeps and leg entanglement entries in no-gi competition
+- [[Positions/Turtle|Turtle]] (Position) - Defensive position commonly used when avoiding guard pass, requires strong defense to prevent back take and point concession
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Highest-percentage submission from back control, ultimate finishing objective in many competitive game plans
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - High-percentage submission from guard positions providing strong finishing threat while maintaining positional control
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Fundamental armbar completion applicable from multiple dominant positions, high-percentage finish when opponent exposes arms during guard retention or escape attempts
+- [[Submissions/Kimura|Kimura]] (Submission) - Versatile submission available from multiple positions, often used to force reactions and create advancement opportunities
 
 
 </section>

@@ -308,7 +308,7 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 - [[Submissions/Americana]] - Alternative attack targeting bent-arm defense of the armbar
 
-- [[Armbar from Armbar Control]] - Submission finish executed from Armbar Control after completing this transition
+- [[Submissions/Armbar/from Armbar Control]] - Submission finish executed from Armbar Control after completing this transition
 
 - [[Transitions/Consolidate Mount]] - Mount maintenance transition used before committing to armbar attack
 

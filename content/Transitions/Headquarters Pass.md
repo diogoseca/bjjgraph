@@ -327,7 +327,7 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 - [[Transitions/Pressure Pass]] - Related concept - shares pressure-based passing philosophy
 
-- [[Kimura from Half Guard]] - Submission threat - can be used to set up headquarters position or finish from it
+- [[Submissions/Kimura/from Half Guard]] - Submission threat - can be used to set up headquarters position or finish from it
 
 - [[Transitions/Knee Shield Retention]] - Counter concept - what this pass aims to neutralize
 

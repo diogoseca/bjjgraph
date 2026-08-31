@@ -285,7 +285,7 @@ This position represents a critical junction in mount offense where the practiti
 <p class="section-subtitle">What should you do from Technical Mount (Top)?</p>
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
-- Execute **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 70%)
 - Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
@@ -300,7 +300,7 @@ This position represents a critical junction in mount offense where the practiti
 
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
-- Execute **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Submissions/Armbar/from Technical Mount/Attacker|Armbar from Technical Mount]]** → [[Positions/Armbar Control]] (Probability: 65%)
 - Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
@@ -409,8 +409,8 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 - **[[Positions/Back Control]]** - Secondary transition target - common result when opponent defends armbar
 - **[[Positions/Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
 - **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
-- **[[Armbar from Technical Mount]]** - Primary technique - main transition used from this position
-- **[[Armbar from Armbar Control]]** - Primary submission finish - completion technique from armbar control
+- **[[Submissions/Armbar/from Technical Mount]]** - Primary technique - main transition used from this position
+- **[[Submissions/Armbar/from Armbar Control]]** - Primary submission finish - completion technique from armbar control
 
 
 </section>

@@ -445,17 +445,17 @@ Study video footage of high-level competition matches focusing specifically on c
 
 
 ### Related Content
-- [[Control Point Hierarchy]] (Principle) - Prerequisite concept defining which connections to prioritize during control maintenance
-- [[Pressure]] (Principle) - Complementary concept providing mechanical means for achieving control maintenance
-- [[Base]] (Principle) - Prerequisite concept ensuring structural stability necessary for effective control
-- [[Center of Gravity]] (Principle) - Component skill enabling optimal pressure application and movement prevention
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy that control maintenance practically implements
-- [[Frames]] (Principle) - Opposing concept from bottom position perspective against control maintenance
-- [[Mount]] (Position) - Primary position where control maintenance principles are most critical
-- [[Side Control]] (Position) - Fundamental top position requiring comprehensive control maintenance skills
-- [[Back Control]] (Position) - Highest-value position where control maintenance enables submission opportunities
-- [[Knee on Belly]] (Position) - Dynamic position requiring continuous control maintenance through pressure modulation
-- [[North-South]] (Position) - Transitional position where control maintenance prevents guard recovery
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Prerequisite concept defining which connections to prioritize during control maintenance
+- [[Principles/Pressure|Pressure]] (Principle) - Complementary concept providing mechanical means for achieving control maintenance
+- [[Principles/Base|Base]] (Principle) - Prerequisite concept ensuring structural stability necessary for effective control
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Component skill enabling optimal pressure application and movement prevention
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy that control maintenance practically implements
+- [[Principles/Frames|Frames]] (Principle) - Opposing concept from bottom position perspective against control maintenance
+- [[Positions/Mount|Mount]] (Position) - Primary position where control maintenance principles are most critical
+- [[Positions/Side Control|Side Control]] (Position) - Fundamental top position requiring comprehensive control maintenance skills
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position where control maintenance enables submission opportunities
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Dynamic position requiring continuous control maintenance through pressure modulation
+- [[Positions/North-South|North-South]] (Position) - Transitional position where control maintenance prevents guard recovery
 
 
 </section>

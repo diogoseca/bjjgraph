@@ -237,19 +237,19 @@ A: A partially stripped hook or half-cleared knee shield will snap back into pos
 <section id="related" class="content-section">
 
 ## Related
-- [[Guard Passing]] (Principle) - The layers model provides a structural framework for understanding what guard passers must defeat
-- [[Frames]] (Principle) - Frames are the third defensive layer and a critical barrier against guard passing
-- [[Distance Control]] (Principle) - Distance management through feet on hips is the outermost guard layer
-- [[Defensive Concepts]] (Principle) - The layered guard model is a defense-in-depth concept applied to guard play
-- [[Phases of Guard]] (Learning) - Complementary concept -- phases describe the operational mode while layers describe the physical structure
-- [[Phases of Passing]] (Learning) - The disentangle phase of passing corresponds to peeling the guard's layers
-- [[Prevention Over Cure]] (Learning) - Maintaining outer layers is prevention -- fighting to defend inner layers is cure
-- [[Half Guard]] (Position) - Half guard's knee shield is the quintessential second-layer defensive barrier
-- [[Z-Guard]] (Position) - Z-guard is defined by its knee shield layer, illustrating how a single layer creates a defensive position
-- [[Open Guard]] (Position) - Open guard relies heavily on the outermost layer -- feet on hips and biceps for distance management
-- [[Butterfly Guard]] (Position) - Butterfly hooks function as a first-layer defense with unique offensive capabilities
-- [[Closed Guard]] (Position) - Closed guard collapses all layers into a single structure -- the legs around the waist
-- [[Side Control]] (Position) - Side control is the position reached when all guard layers have been defeated
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - The layers model provides a structural framework for understanding what guard passers must defeat
+- [[Principles/Frames|Frames]] (Principle) - Frames are the third defensive layer and a critical barrier against guard passing
+- [[Principles/Distance Control|Distance Control]] (Principle) - Distance management through feet on hips is the outermost guard layer
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - The layered guard model is a defense-in-depth concept applied to guard play
+- [[Learning/Phases of Guard|Phases of Guard]] (Learning) - Complementary concept -- phases describe the operational mode while layers describe the physical structure
+- [[Learning/Phases of Passing|Phases of Passing]] (Learning) - The disentangle phase of passing corresponds to peeling the guard's layers
+- [[Learning/Prevention Over Cure|Prevention Over Cure]] (Learning) - Maintaining outer layers is prevention -- fighting to defend inner layers is cure
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard's knee shield is the quintessential second-layer defensive barrier
+- [[Positions/Z-Guard|Z-Guard]] (Position) - Z-guard is defined by its knee shield layer, illustrating how a single layer creates a defensive position
+- [[Positions/Open Guard|Open Guard]] (Position) - Open guard relies heavily on the outermost layer -- feet on hips and biceps for distance management
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Butterfly hooks function as a first-layer defense with unique offensive capabilities
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard collapses all layers into a single structure -- the legs around the waist
+- [[Positions/Side Control|Side Control]] (Position) - Side control is the position reached when all guard layers have been defeated
 
 
 

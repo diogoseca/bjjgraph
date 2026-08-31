@@ -451,16 +451,16 @@ Drilling where bottom player is instructed to perform specific defensive reactio
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Broader conceptual framework that encompasses Forward Pressure as one directional application
-- [[Center of Gravity]] (Principle) - Fundamental skill that enables effective Forward Pressure through proper force distribution
-- [[Frames]] (Principle) - Defensive counter-concept that Forward Pressure must overcome to achieve advancement
-- [[Knee Slice Pass]] (Transition) - Primary passing technique that relies heavily on Forward Pressure for execution success
-- [[Smash Pass]] (Transition) - Archetypal Forward Pressure passing technique where pressure creates the fundamental mechanism
-- [[Side Control]] (Position) - Control position where Forward Pressure prevents escapes and creates submission opportunities
-- [[Mount]] (Position) - Dominant position maintained and utilized through strategic Forward Pressure application
-- [[Control Point Hierarchy]] (Principle) - Conceptual framework determining which contact points provide optimal Forward Pressure application
-- [[Base]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
-- [[Shoulder Pressure]] (Principle) - Specific mechanism for Forward Pressure application through shoulder-driven force
+- [[Principles/Pressure|Pressure]] (Principle) - Broader conceptual framework that encompasses Forward Pressure as one directional application
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Fundamental skill that enables effective Forward Pressure through proper force distribution
+- [[Principles/Frames|Frames]] (Principle) - Defensive counter-concept that Forward Pressure must overcome to achieve advancement
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Primary passing technique that relies heavily on Forward Pressure for execution success
+- [[Transitions/Smash Pass|Smash Pass]] (Transition) - Archetypal Forward Pressure passing technique where pressure creates the fundamental mechanism
+- [[Positions/Side Control|Side Control]] (Position) - Control position where Forward Pressure prevents escapes and creates submission opportunities
+- [[Positions/Mount|Mount]] (Position) - Dominant position maintained and utilized through strategic Forward Pressure application
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Conceptual framework determining which contact points provide optimal Forward Pressure application
+- [[Principles/Base|Base]] (Principle) - Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities
+- [[Principles/Shoulder Pressure|Shoulder Pressure]] (Principle) - Specific mechanism for Forward Pressure application through shoulder-driven force
 
 
 </section>

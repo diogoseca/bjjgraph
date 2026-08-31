@@ -412,32 +412,32 @@ The drilling methodology follows a strict progressive resistance protocol that p
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Positional Hierarchy]] (Principle) - Foundational concept underlying entire teaching methodology and curriculum organization
-- [[Pressure]] (Principle) - Core concept for progressive resistance drilling, teaching students to apply and withstand pressure systematically
-- [[Flow Rolling]] (Principle) - Training methodology for developing technical fluency through controlled, continuous practice at reduced intensity
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional control before attacking submissions
-- [[Defensive Concepts]] (Principle) - Pedagogical framework emphasizing conceptual understanding of defense over isolated technique memorization
-- [[Position Chains]] (Principle) - Approach to developing connected positional sequences rather than isolated techniques
-- [[Escape Fundamentals]] (Principle) - Systematic prioritization of defensive escape skills in curriculum design
-- [[Hip Escape Mechanics]] (Principle) - Fundamental movement pattern essential to defensive curriculum
-- [[Frames]] (Principle) - Core defensive concept taught in early curriculum phases for maintaining space under pressure
-- [[Bridge and Shrimp]] (Principle) - Essential movement skills for escapes and position improvement throughout curriculum
-- [[Mount]] (Position) - Primary offensive position for teaching control before submissions
-- [[Side Control]] (Position) - Critical defensive position requiring systematic escape instruction
-- [[Closed Guard]] (Position) - Foundational neutral position bridging defensive to offensive curriculum
-- [[Back Control]] (Position) - Highest-value position for teaching systematic submission approach
-- [[Elbow Escape to Guard]] (Transition) - First major escape technique taught in defensive curriculum phase
-- [[Bridge and Roll]] (Transition) - Fundamental escape from mount bottom position
-- [[Hip Bump Sweep]] (Transition) - Fundamental offensive technique from closed guard in neutral curriculum phase
-- [[Butterfly Sweep]] (Transition) - Core neutral position offensive technique in curriculum progression
-- [[Technical Stand-up]] (Transition) - Essential defensive skill for returning to standing position safely
-- [[Rear Naked Choke]] (Submission) - Primary submission from back control in offensive curriculum phase
-- [[Blue to Purple Progression]] (System) - Complementary framework for intermediate student development within teaching methodology
-- [[Roger Gracie Fundamental System]] (System) - Example of fundamental-focused approach emphasizing positional control and basic techniques
-- [[Competition Preparation System]] (System) - Advanced application of teaching methodology for competition-focused students
-- [[Positional Sparring]] (Principle) - Core training method for developing positional proficiency with targeted practice
-- [[Maximum Efficiency Principle]] (Principle) - Underlying philosophy emphasizing technical precision over athletic attributes
-- [[Energy Conservation]] (Principle) - Important concept for sustainable training practices, pacing, and long-term practitioner longevity
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Foundational concept underlying entire teaching methodology and curriculum organization
+- [[Principles/Pressure|Pressure]] (Principle) - Core concept for progressive resistance drilling, teaching students to apply and withstand pressure systematically
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Training methodology for developing technical fluency through controlled, continuous practice at reduced intensity
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional control before attacking submissions
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Pedagogical framework emphasizing conceptual understanding of defense over isolated technique memorization
+- [[Principles/Position Chains|Position Chains]] (Principle) - Approach to developing connected positional sequences rather than isolated techniques
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Systematic prioritization of defensive escape skills in curriculum design
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Fundamental movement pattern essential to defensive curriculum
+- [[Principles/Frames|Frames]] (Principle) - Core defensive concept taught in early curriculum phases for maintaining space under pressure
+- [[Principles/Bridge and Shrimp|Bridge and Shrimp]] (Principle) - Essential movement skills for escapes and position improvement throughout curriculum
+- [[Positions/Mount|Mount]] (Position) - Primary offensive position for teaching control before submissions
+- [[Positions/Side Control|Side Control]] (Position) - Critical defensive position requiring systematic escape instruction
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Foundational neutral position bridging defensive to offensive curriculum
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position for teaching systematic submission approach
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - First major escape technique taught in defensive curriculum phase
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Fundamental escape from mount bottom position
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Fundamental offensive technique from closed guard in neutral curriculum phase
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Core neutral position offensive technique in curriculum progression
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Essential defensive skill for returning to standing position safely
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission from back control in offensive curriculum phase
+- [[Systems/Blue to Purple Progression|Blue to Purple Progression]] (System) - Complementary framework for intermediate student development within teaching methodology
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Example of fundamental-focused approach emphasizing positional control and basic techniques
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Advanced application of teaching methodology for competition-focused students
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Core training method for developing positional proficiency with targeted practice
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Underlying philosophy emphasizing technical precision over athletic attributes
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Important concept for sustainable training practices, pacing, and long-term practitioner longevity
 
 
 </section>

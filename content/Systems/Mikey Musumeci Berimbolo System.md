@@ -378,31 +378,31 @@ The Musumeci berimbolo system requires progressive technical drilling that prior
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[De La Riva Guard]] (Position) - Primary starting position for berimbolo system entries and grip establishment
-- [[Reverse De La Riva Guard]] (Position) - Alternative guard position offering different berimbolo angles and entry mechanics
-- [[Back Control]] (Position) - Primary target position achieved through successful berimbolo execution
-- [[Reverse X-Guard]] (Position) - Key backup position when berimbolo entry is blocked by heavy base defense
-- [[Butterfly Guard]] (Position) - Secondary backup system providing sweeping options from failed berimbolo attempts
-- [[Open Guard]] (Position) - Alternative starting position for berimbolo entries requiring less flexibility
-- [[Turtle]] (Position) - Common intermediate position during berimbolo where back attacks can be initiated
-- [[Berimbolo Entry]] (Transition) - Core technical movement connecting DLR guard to back control positions
-- [[Back Take]] (Transition) - Alternative back taking method when standard berimbolo path is unavailable
-- [[Backstep from De La Riva]] (Transition) - Complementary option from same grip configuration as berimbolo
-- [[Balloon Sweep]] (Transition) - Sweeping action available from the open guard backup positions
-- [[Basic Butterfly Sweep]] (Transition) - Sweeping mechanism from butterfly backup position
-- [[Back Take from Bottom]] (Transition) - Back attack completion when opponent turtles during berimbolo sequence
-- [[Frames]] (Principle) - Fundamental defensive structure enabling guard retention during berimbolo setups and recovery
-- [[Grips]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
-- [[Dominant Angles]] (Principle) - Critical for recognizing optimal berimbolo entry moments and creating geometric advantage
-- [[Position Chains]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
-- [[Posture]] (Principle) - Fundamental requirement for disrupting opponent's base to create berimbolo entry opportunities
-- [[Kuzushi]] (Principle) - Governs technical execution of sweeps from backup positions
-- [[Hooks]] (Principle) - Core to hook insertion sequencing when establishing back control after the rotation
-- [[Position-Over-Submission Approach]] (Principle) - Guides consolidating back control fully before chasing finishes
-- [[Berimbolo]] (System) - General berimbolo system providing broader context for Musumeci's specific approach
-- [[Marcelo Garcia X-Guard System]] (System) - Complementary X-Guard system that integrates with berimbolo backup positions
-- [[Caio Terra Guard Retention System]] (System) - Guard retention methodology supporting berimbolo setup and defense
-- [[Dynamic Guard System]] (System) - Broader guard framework within which berimbolo system operates
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Primary starting position for berimbolo system entries and grip establishment
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) - Alternative guard position offering different berimbolo angles and entry mechanics
+- [[Positions/Back Control|Back Control]] (Position) - Primary target position achieved through successful berimbolo execution
+- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position) - Key backup position when berimbolo entry is blocked by heavy base defense
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Secondary backup system providing sweeping options from failed berimbolo attempts
+- [[Positions/Open Guard|Open Guard]] (Position) - Alternative starting position for berimbolo entries requiring less flexibility
+- [[Positions/Turtle|Turtle]] (Position) - Common intermediate position during berimbolo where back attacks can be initiated
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Core technical movement connecting DLR guard to back control positions
+- [[Transitions/Back Take|Back Take]] (Transition) - Alternative back taking method when standard berimbolo path is unavailable
+- [[Transitions/Backstep from De La Riva|Backstep from De La Riva]] (Transition) - Complementary option from same grip configuration as berimbolo
+- [[Transitions/Balloon Sweep|Balloon Sweep]] (Transition) - Sweeping action available from the open guard backup positions
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - Sweeping mechanism from butterfly backup position
+- [[Transitions/Back Take from Bottom|Back Take from Bottom]] (Transition) - Back attack completion when opponent turtles during berimbolo sequence
+- [[Principles/Frames|Frames]] (Principle) - Fundamental defensive structure enabling guard retention during berimbolo setups and recovery
+- [[Principles/Grips|Grips]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Critical for recognizing optimal berimbolo entry moments and creating geometric advantage
+- [[Principles/Position Chains|Position Chains]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
+- [[Principles/Posture|Posture]] (Principle) - Fundamental requirement for disrupting opponent's base to create berimbolo entry opportunities
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Governs technical execution of sweeps from backup positions
+- [[Principles/Hooks|Hooks]] (Principle) - Core to hook insertion sequencing when establishing back control after the rotation
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Guides consolidating back control fully before chasing finishes
+- [[Systems/Berimbolo|Berimbolo]] (System) - General berimbolo system providing broader context for Musumeci's specific approach
+- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Complementary X-Guard system that integrates with berimbolo backup positions
+- [[Systems/Caio Terra Guard Retention System|Caio Terra Guard Retention System]] (System) - Guard retention methodology supporting berimbolo setup and defense
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Broader guard framework within which berimbolo system operates
 
 
 </section>

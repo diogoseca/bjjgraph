@@ -223,16 +223,16 @@ A: Always taking the easy route in training creates gaps in your game. When oppo
 <section id="related" class="content-section">
 
 ## Related
-- [[Maximum Efficiency Principle]] (Principle) - The path of least resistance is a direct application of maximum efficiency in technique selection
-- [[Guard Passing]] (Principle) - Guard passing is the most common context for path-of-least-resistance decisions
-- [[Energy Conservation]] (Principle) - Choosing efficient routes conserves energy for later in the match or round
-- [[Dominant Angles]] (Principle) - Angle changes are the primary mechanism for going around obstacles rather than through them
-- [[Fork Attacks]] (Principle) - Fork attacks create multiple paths and let you take whichever one the opponent leaves open
-- [[De La Riva Guard]] (Position) - DLR defense is commonly bypassed through backstep and angle changes rather than grip fighting
-- [[Half Guard]] (Position) - Knee shield in half guard is a common obstacle that is better bypassed than forced through
-- [[Open Guard]] (Position) - Open guard frames create directional barriers that are defeated by lateral movement
-- [[Asymmetric Warfare]] (Learning) - Both concepts involve choosing where to engage based on where the opponent is weakest
-- [[Static vs Dynamic Control]] (Learning) - Dynamic control is the path-of-least-resistance approach to maintaining dominance against methodical escape artists
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - The path of least resistance is a direct application of maximum efficiency in technique selection
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Guard passing is the most common context for path-of-least-resistance decisions
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Choosing efficient routes conserves energy for later in the match or round
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Angle changes are the primary mechanism for going around obstacles rather than through them
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Fork attacks create multiple paths and let you take whichever one the opponent leaves open
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - DLR defense is commonly bypassed through backstep and angle changes rather than grip fighting
+- [[Positions/Half Guard|Half Guard]] (Position) - Knee shield in half guard is a common obstacle that is better bypassed than forced through
+- [[Positions/Open Guard|Open Guard]] (Position) - Open guard frames create directional barriers that are defeated by lateral movement
+- [[Learning/Asymmetric Warfare|Asymmetric Warfare]] (Learning) - Both concepts involve choosing where to engage based on where the opponent is weakest
+- [[Learning/Static vs Dynamic Control|Static vs Dynamic Control]] (Learning) - Dynamic control is the path-of-least-resistance approach to maintaining dominance against methodical escape artists
 
 
 

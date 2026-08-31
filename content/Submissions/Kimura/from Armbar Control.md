@@ -310,6 +310,7 @@ What makes this attack devastatingly effective is the positional advantage alrea
 - [[Submissions/Americana]]
 - [[Positions/Armbar Control]] - Starting position where this chain attack originates
 - [[Positions/Kimura Trap]] - Related arm isolation control position for continued attacks
+- [[Submissions/Armbar/from Armbar Control]] - Primary alternative finish when opponent straightens arm instead of bending
 - [[Positions/Triangle Control]] - Alternative chain attack available from armbar control
 - [[Positions/Omoplata Control]] - Secondary chain attack when arm bending continues past kimura angle
 

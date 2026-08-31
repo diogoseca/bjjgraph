@@ -327,6 +327,11 @@ Strategically, this submission punishes opponents who remain passive under the R
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Side Control]]
+- [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame]]
+- [[Submissions/Arm Triangle/from Modified Scarf Hold]]
+- [[Submissions/Americana/from Reverse Kesa-Gatame]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Primary starting position providing natural far-arm isolation for the arm triangle

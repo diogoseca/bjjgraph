@@ -310,6 +310,7 @@ This submission demands precise timing during the transition from guard retentio
 ## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Submissions/Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Open Guard]] - Starting guard position for this submission variant

@@ -384,29 +384,29 @@ The system requires progressive drilling that builds from static technical work 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Headquarters Position]] (Position) - Central control hub for initiating passing sequences
-- [[Knee Shield Half Guard]] (Position) - Common defensive structure requiring specific passing solutions
-- [[Butterfly Guard]] (Position) - Guard type requiring smash and bodylock passing approaches
-- [[Body Lock]] (Position) - Control position used for floating pass variations
-- [[Leg Drag Control]] (Position) - Advanced passing position accessed from headquarters control
-- [[Side Control]] (Position) - Primary finishing position for successful passing sequences
-- [[Ashi Garami]] (Position) - Leg-based guard requiring specialized passing mechanics to navigate safely
-- [[Open Guard]] (Position) - Starting position for establishing headquarters and initiating passing attacks
-- [[Turtle]] (Position) - Common defensive escape requiring back take or pass completion skills
-- [[Knee Slice Pass]] (Transition) - Core pressure passing technique integrated throughout system
-- [[Leg Drag Pass]] (Transition) - High-percentage floating pass chained with knee slice variations
-- [[Body Lock Pass]] (Transition) - Dynamic passing sequence effective against butterfly and seated guards
-- [[Headquarters Pass]] (Transition) - Direct passing finish from headquarters control position
-- [[Long Step Pass]] (Transition) - Floating pass variation used to bypass guard retention attempts
-- [[Knee Cut Pass]] (Transition) - Pressure-based passing technique particularly effective from half guard
-- [[Smash Pass]] (Transition) - Aggressive pressure pass for collapsing butterfly and open guard structures
-- [[Guard Passing]] (Principle) - Fundamental concepts underlying all passing mechanics in system
-- [[Forward Pressure]] (Principle) - Constant offensive pressure principle maintaining passing initiative
-- [[Connection Principles]] (Principle) - Essential skill for managing defensive connections and establishing offensive grips
-- [[Frames]] (Principle) - Understanding defensive frames to systematically dismantle them during passing
-- [[Gordon Ryan Passing System]] (System) - Related modern passing framework with overlapping principles and techniques
-- [[No-Gi Tactical Framework]] (System) - Broader competitive strategy framework incorporating passing system elements
-- [[Bernardo Faria Pressure System]] (System) - Complementary pressure-based approach with applicable passing concepts
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Central control hub for initiating passing sequences
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - Common defensive structure requiring specific passing solutions
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Guard type requiring smash and bodylock passing approaches
+- [[Positions/Body Lock|Body Lock]] (Position) - Control position used for floating pass variations
+- [[Positions/Leg Drag Control|Leg Drag Control]] (Position) - Advanced passing position accessed from headquarters control
+- [[Positions/Side Control|Side Control]] (Position) - Primary finishing position for successful passing sequences
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Leg-based guard requiring specialized passing mechanics to navigate safely
+- [[Positions/Open Guard|Open Guard]] (Position) - Starting position for establishing headquarters and initiating passing attacks
+- [[Positions/Turtle|Turtle]] (Position) - Common defensive escape requiring back take or pass completion skills
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Core pressure passing technique integrated throughout system
+- [[Transitions/Leg Drag Pass|Leg Drag Pass]] (Transition) - High-percentage floating pass chained with knee slice variations
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Dynamic passing sequence effective against butterfly and seated guards
+- [[Transitions/Headquarters Pass|Headquarters Pass]] (Transition) - Direct passing finish from headquarters control position
+- [[Transitions/Long Step Pass|Long Step Pass]] (Transition) - Floating pass variation used to bypass guard retention attempts
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) - Pressure-based passing technique particularly effective from half guard
+- [[Transitions/Smash Pass|Smash Pass]] (Transition) - Aggressive pressure pass for collapsing butterfly and open guard structures
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Fundamental concepts underlying all passing mechanics in system
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Constant offensive pressure principle maintaining passing initiative
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Essential skill for managing defensive connections and establishing offensive grips
+- [[Principles/Frames|Frames]] (Principle) - Understanding defensive frames to systematically dismantle them during passing
+- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - Related modern passing framework with overlapping principles and techniques
+- [[Systems/No-Gi Tactical Framework|No-Gi Tactical Framework]] (System) - Broader competitive strategy framework incorporating passing system elements
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Complementary pressure-based approach with applicable passing concepts
 
 
 </section>

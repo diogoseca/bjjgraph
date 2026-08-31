@@ -302,7 +302,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Americana from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (13% of attempts)
+- **[[Submissions/Americana/from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (13% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
@@ -310,17 +310,17 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[North-South Choke from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (8% of attempts)
+- **[[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (8% of attempts)
 
-- **[[Arm Triangle from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (11% of attempts)
+- **[[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (11% of attempts)
 
 - **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (8% of attempts)
 
 - **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (10% of attempts)
 
-- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (15% of attempts)
+- **[[Submissions/Kimura/from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (15% of attempts)
 
-- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (5% of attempts)
+- **[[Submissions/Belly Down Armbar/from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (5% of attempts)
 
 
 ### Common Mistakes

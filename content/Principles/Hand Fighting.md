@@ -462,18 +462,18 @@ Training focused on developing tactile sensitivity, reaction speed, and anticipa
 
 
 ### Related Content
-- [[Grips]] (Principle) - Complementary skill focusing on specific grip establishment and breaking that builds on hand fighting foundations
-- [[Action and Reaction]] (Principle) - Strategic framework for exploiting opponent's responses to hand fighting initiatives to create tactical openings
-- [[Control Point Hierarchy]] (Principle) - Provides theoretical framework for prioritizing hand fighting objectives based on positional value
-- [[Connection Principles]] (Principle) - Informs how hand fighting establishes or denies the connections that determine positional control
-- [[Posture]] (Principle) - Technical application requiring hand fighting success to establish controls necessary for posture disruption
-- [[Frames]] (Principle) - Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning for frames
-- [[Collar Control]] (Principle) - Specific control type requiring hand fighting success to establish and maintain effectively
-- [[Sleeve Control]] (Principle) - Fundamental control requiring hand fighting competency for establishment in various positions
-- [[Clinch]] (Position) - Critical hand fighting context for underhook battles and control hierarchy establishment
-- [[Closed Guard]] (Position) - Guard position requiring sophisticated hand fighting for control establishment and maintenance
-- [[Combat Base]] (Position) - Passing position where hand fighting determines guard retention versus passing success
-- [[Front Headlock]] (Position) - Position where hand fighting for head and arm control determines choke and go-behind opportunities
+- [[Principles/Grips|Grips]] (Principle) - Complementary skill focusing on specific grip establishment and breaking that builds on hand fighting foundations
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Strategic framework for exploiting opponent's responses to hand fighting initiatives to create tactical openings
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Provides theoretical framework for prioritizing hand fighting objectives based on positional value
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Informs how hand fighting establishes or denies the connections that determine positional control
+- [[Principles/Posture|Posture]] (Principle) - Technical application requiring hand fighting success to establish controls necessary for posture disruption
+- [[Principles/Frames|Frames]] (Principle) - Defensive structure requiring effective hand fighting to establish and maintain proper hand positioning for frames
+- [[Principles/Collar Control|Collar Control]] (Principle) - Specific control type requiring hand fighting success to establish and maintain effectively
+- [[Principles/Sleeve Control|Sleeve Control]] (Principle) - Fundamental control requiring hand fighting competency for establishment in various positions
+- [[Positions/Clinch|Clinch]] (Position) - Critical hand fighting context for underhook battles and control hierarchy establishment
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Guard position requiring sophisticated hand fighting for control establishment and maintenance
+- [[Positions/Combat Base|Combat Base]] (Position) - Passing position where hand fighting determines guard retention versus passing success
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Position where hand fighting for head and arm control determines choke and go-behind opportunities
 
 
 </section>

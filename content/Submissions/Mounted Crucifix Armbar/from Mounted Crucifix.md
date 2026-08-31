@@ -292,6 +292,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Spinning Armbar]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Belly Down Armbar]]

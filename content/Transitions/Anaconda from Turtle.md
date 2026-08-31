@@ -326,7 +326,7 @@ The anaconda from turtle is part of the front headlock attack family and represe
 
 - [[Transitions/Crucifix from Turtle]] - Alternative control and submission option from turtle top when arm is extended
 
-- [[Arm Triangle from Turtle]] - Alternative arm-in choke option from turtle using different wrapping mechanics
+- [[Submissions/Arm Triangle/from Turtle]] - Alternative arm-in choke option from turtle using different wrapping mechanics
 
 - [[Submissions/Darce Choke]] - Sister submission with similar grip structure but different arm trap and finishing angle
 

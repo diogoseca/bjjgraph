@@ -270,7 +270,7 @@ Proficiency indicators:
 ## Which Positions, Transitions, and Principles Connect to This System?
 
 {% for item in related_content -%}
-- [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
+- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{item.content_type}}) - {{item.relationship}}
 {% endfor %}
 
 </section>

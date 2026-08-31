@@ -464,16 +464,16 @@ Training exercises where practitioners must maintain dominant positions for spec
 
 
 ### Related Content
-- [[Positional Hierarchy]] (Principle) - Foundational framework that defines which positions are superior and should be prioritized in the position-over-submission approach
-- [[Control Point Hierarchy]] (Principle) - Identifies specific control mechanisms that must be established at each position before submissions become high-percentage options
-- [[Mount]] (Position) - Exemplifies a dominant position where position-over-submission philosophy supports securing high mount before attempting submissions
-- [[Back Control]] (Position) - Represents highest position in hierarchy where position-first approach emphasizes hook and grip security before choke attempts
-- [[Defensive Concepts]] (Principle) - Illustrates the defensive application of position-over-submission where positional recovery takes absolute priority over offensive actions from inferior positions
-- [[Competition Mindset]] (Principle) - Broader strategic framework that incorporates position-over-submission as fundamental principle for competition success
-- [[Control Maintenance]] (Principle) - Provides the control mechanics that must be secured at each position before failed attacks can create positional vulnerabilities, reinforcing position-first philosophy
-- [[Energy Conservation]] (Principle) - Complements position-first approach by demonstrating energy efficiency gained through positional control versus submission chasing
-- [[Escape Fundamentals]] (Principle) - Shows defensive parallel to position-over-submission where positional recovery precedes offensive considerations
-- [[Roger Gracie Fundamental System]] (System) - Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Foundational framework that defines which positions are superior and should be prioritized in the position-over-submission approach
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Identifies specific control mechanisms that must be established at each position before submissions become high-percentage options
+- [[Positions/Mount|Mount]] (Position) - Exemplifies a dominant position where position-over-submission philosophy supports securing high mount before attempting submissions
+- [[Positions/Back Control|Back Control]] (Position) - Represents highest position in hierarchy where position-first approach emphasizes hook and grip security before choke attempts
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Illustrates the defensive application of position-over-submission where positional recovery takes absolute priority over offensive actions from inferior positions
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Broader strategic framework that incorporates position-over-submission as fundamental principle for competition success
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Provides the control mechanics that must be secured at each position before failed attacks can create positional vulnerabilities, reinforcing position-first philosophy
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Complements position-first approach by demonstrating energy efficiency gained through positional control versus submission chasing
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Shows defensive parallel to position-over-submission where positional recovery precedes offensive considerations
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing
 
 
 </section>

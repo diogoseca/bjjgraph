@@ -370,36 +370,36 @@ The lapel guard system requires a structured drilling progression that builds fr
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Worm Guard]] (Position) - Primary position within the system - foundation for all other lapel guard variations
-- [[Squid Guard]] (Position) - Advanced variation that provides enhanced control and additional attacking options
-- [[Lapel Guard]] (Position) - Parent category encompassing all lapel-based guard positions in the system
-- [[Collar Sleeve Guard]] (Position) - Common entry point for establishing lapel controls from traditional open guard
-- [[Spider Guard]] (Position) - Alternative entry position that can transition into lapel-based configurations
-- [[De La Riva Guard]] (Position) - Traditional guard that integrates well with lapel control mechanics
-- [[X-Guard]] (Position) - Sweep destination from several lapel guard attacking sequences
-- [[Single Leg X-Guard]] (Position) - Common transitional position during lapel guard sweeps and entries
-- [[Back Control]] (Position) - Primary submission position accessed through lapel guard back take sequences
-- [[Lasso Guard]] (Position) - Compatible guard that can be combined with lapel controls for hybrid positions
-- [[Collar Drag]] (Transition) - Fundamental dragging mechanic that underpins many lapel-based sweeps
-- [[Berimbolo Entry]] (Transition) - Back take sequence that can be initiated from certain lapel guard configurations
-- [[Triangle Setup]] (Transition) - Submission attack available from specific lapel entanglement positions
-- [[Omoplata Sweep]] (Transition) - Alternative attacking option when opponent defends primary lapel sweeps
-- [[Guard Pull]] (Transition) - Entry method for establishing lapel guards from standing positions
-- [[Lasso Guard Pass]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
-- [[Back Take]] (Transition) - General back taking principles applied through lapel control advantages
-- [[Triangle to Back]] (Transition) - Secondary attacking sequence available from certain lapel entanglements
-- [[Grips]] (Principle) - Fundamental principle governing all lapel control, grip-fighting, and lapel-feeding sequences
-- [[Collar Control]] (Principle) - Core control principle that extends to lapel manipulation and grip fighting
-- [[Defensive Concepts]] (Principle) - Primary defensive framework achieved through systematic lapel guard application and retention
-- [[Hand Fighting]] (Principle) - Grip-fighting skill essential for winning the lapel exchange and securing controls before the opponent can strip them
-- [[Connection Principles]] (Principle) - Biomechanical foundations explaining why lapel controls create superior leverage
-- [[Posture]] (Principle) - Fundamental off-balancing principle amplified through lapel tension mechanics
-- [[Position Chains]] (Principle) - Meta-principle guiding how individual positions connect into cohesive systematic frameworks
-- [[Kuzushi]] (Principle) - Technical foundation for all offensive attacks from lapel guard positions
-- [[Triangle Choke]] (Submission) - Submission opportunity available from certain lapel entanglement configurations
-- [[Omoplata]] (Submission) - Alternative submission path when opponent defends sweeps predictably
-- [[Gi-Specific Strategy]] (System) - Broader strategic framework that encompasses lapel guard as key component
-- [[Dynamic Guard System]] (System) - Complementary guard system that integrates well with lapel-based positions
+- [[Positions/Worm Guard|Worm Guard]] (Position) - Primary position within the system - foundation for all other lapel guard variations
+- [[Positions/Squid Guard|Squid Guard]] (Position) - Advanced variation that provides enhanced control and additional attacking options
+- [[Positions/Lapel Guard|Lapel Guard]] (Position) - Parent category encompassing all lapel-based guard positions in the system
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Common entry point for establishing lapel controls from traditional open guard
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Alternative entry position that can transition into lapel-based configurations
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Traditional guard that integrates well with lapel control mechanics
+- [[Positions/X-Guard|X-Guard]] (Position) - Sweep destination from several lapel guard attacking sequences
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Common transitional position during lapel guard sweeps and entries
+- [[Positions/Back Control|Back Control]] (Position) - Primary submission position accessed through lapel guard back take sequences
+- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Compatible guard that can be combined with lapel controls for hybrid positions
+- [[Transitions/Collar Drag|Collar Drag]] (Transition) - Fundamental dragging mechanic that underpins many lapel-based sweeps
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Back take sequence that can be initiated from certain lapel guard configurations
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Submission attack available from specific lapel entanglement positions
+- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition) - Alternative attacking option when opponent defends primary lapel sweeps
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Entry method for establishing lapel guards from standing positions
+- [[Transitions/Lasso Guard Pass|Lasso Guard Pass]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
+- [[Transitions/Back Take|Back Take]] (Transition) - General back taking principles applied through lapel control advantages
+- [[Transitions/Triangle to Back|Triangle to Back]] (Transition) - Secondary attacking sequence available from certain lapel entanglements
+- [[Principles/Grips|Grips]] (Principle) - Fundamental principle governing all lapel control, grip-fighting, and lapel-feeding sequences
+- [[Principles/Collar Control|Collar Control]] (Principle) - Core control principle that extends to lapel manipulation and grip fighting
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Primary defensive framework achieved through systematic lapel guard application and retention
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Grip-fighting skill essential for winning the lapel exchange and securing controls before the opponent can strip them
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Biomechanical foundations explaining why lapel controls create superior leverage
+- [[Principles/Posture|Posture]] (Principle) - Fundamental off-balancing principle amplified through lapel tension mechanics
+- [[Principles/Position Chains|Position Chains]] (Principle) - Meta-principle guiding how individual positions connect into cohesive systematic frameworks
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Technical foundation for all offensive attacks from lapel guard positions
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Submission opportunity available from certain lapel entanglement configurations
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Alternative submission path when opponent defends sweeps predictably
+- [[Systems/Gi-Specific Strategy|Gi-Specific Strategy]] (System) - Broader strategic framework that encompasses lapel guard as key component
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Complementary guard system that integrates well with lapel-based positions
 
 
 </section>

@@ -377,35 +377,35 @@ Standing defense training should integrate technical drilling, reaction training
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Standing Position]] (Position) - Primary position where standing defense system is applied
-- [[Combat Base]] (Position) - Defensive base position used when opponent has partially secured takedown
-- [[Clinch]] (Position) - Close-range standing position where grip fighting and takedown defense occur
-- [[Standing Rear Clinch]] (Position) - Standing clinch position requiring specific defensive protocols
-- [[Overhook Control]] (Position) - Standing control position used for grip fighting and preventing takedown setups
-- [[Body Lock]] (Position) - Offensive position this system defends against through grip fighting
-- [[Turtle]] (Position) - Position to avoid or escape from when takedown defense fails
-- [[Closed Guard]] (Position) - Common guard position to transition to via strategic guard pull
-- [[Standing Guard]] (Position) - Position that bridges standing exchanges and guard play
-- [[Butterfly Guard]] (Position) - Guard option when pulling from standing defense
-- [[Sprawl]] (Transition) - Primary defensive technique against leg attack takedowns
-- [[Sprawl Defense]] (Transition) - Comprehensive technique for defending double and single leg attacks
-- [[Connection Principles]] (Principle) - Understanding connection and contact principles is essential for recognizing and defending takedown setups
-- [[Guard Pull]] (Transition) - Strategic alternative to standing defense when tactically appropriate
-- [[Single Leg Entry]] (Transition) - Common attack this system defends against
-- [[Double Leg Finish]] (Transition) - Common attack this system defends against
-- [[Grip Break]] (Principle) - Essential technique within grip fighting framework
-- [[Whizzer]] (Transition) - Defensive control used in sprawl defense protocol
-- [[Technical Stand-up]] (Transition) - Offensive transition to return to standing when taken down
-- [[Snap Down to Front Headlock]] (Transition) - Counter-offensive technique from standing defense exchanges
-- [[Base]] (Principle) - Fundamental principle for maintaining structural stability in standing defense
-- [[Posture]] (Principle) - Postural principles applied throughout standing defensive exchanges
-- [[Grips]] (Principle) - Essential skill for preventing takedown setups and controlling engagement
-- [[Distance Control]] (Principle) - Strategic principle for controlling engagement distance and creating separation
-- [[Defensive Concepts]] (Principle) - Overarching conceptual framework for defensive decision-making
-- [[Center of Gravity]] (Principle) - Biomechanical principle for maintaining balance and base in standing
-- [[Competition Mindset]] (Principle) - Decision-making framework for evaluating when to defend standing vs pull guard in competition context
-- [[Competition Strategy]] (System) - Broader strategic framework within which standing defense operates
-- [[No-Gi Tactical Framework]] (System) - No-gi specific strategic approach incorporating standing defense principles
+- [[Positions/Standing Position|Standing Position]] (Position) - Primary position where standing defense system is applied
+- [[Positions/Combat Base|Combat Base]] (Position) - Defensive base position used when opponent has partially secured takedown
+- [[Positions/Clinch|Clinch]] (Position) - Close-range standing position where grip fighting and takedown defense occur
+- [[Positions/Standing Rear Clinch|Standing Rear Clinch]] (Position) - Standing clinch position requiring specific defensive protocols
+- [[Positions/Overhook Control|Overhook Control]] (Position) - Standing control position used for grip fighting and preventing takedown setups
+- [[Positions/Body Lock|Body Lock]] (Position) - Offensive position this system defends against through grip fighting
+- [[Positions/Turtle|Turtle]] (Position) - Position to avoid or escape from when takedown defense fails
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Common guard position to transition to via strategic guard pull
+- [[Positions/Standing Guard|Standing Guard]] (Position) - Position that bridges standing exchanges and guard play
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Guard option when pulling from standing defense
+- [[Transitions/Sprawl|Sprawl]] (Transition) - Primary defensive technique against leg attack takedowns
+- [[Transitions/Sprawl Defense|Sprawl Defense]] (Transition) - Comprehensive technique for defending double and single leg attacks
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Understanding connection and contact principles is essential for recognizing and defending takedown setups
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Strategic alternative to standing defense when tactically appropriate
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) - Common attack this system defends against
+- [[Transitions/Double Leg Finish|Double Leg Finish]] (Transition) - Common attack this system defends against
+- [[Transitions/Grip Break|Grip Break]] (Principle) - Essential technique within grip fighting framework
+- [[Transitions/Whizzer|Whizzer]] (Transition) - Defensive control used in sprawl defense protocol
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Offensive transition to return to standing when taken down
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Counter-offensive technique from standing defense exchanges
+- [[Principles/Base|Base]] (Principle) - Fundamental principle for maintaining structural stability in standing defense
+- [[Principles/Posture|Posture]] (Principle) - Postural principles applied throughout standing defensive exchanges
+- [[Principles/Grips|Grips]] (Principle) - Essential skill for preventing takedown setups and controlling engagement
+- [[Principles/Distance Control|Distance Control]] (Principle) - Strategic principle for controlling engagement distance and creating separation
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Overarching conceptual framework for defensive decision-making
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Biomechanical principle for maintaining balance and base in standing
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Decision-making framework for evaluating when to defend standing vs pull guard in competition context
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Broader strategic framework within which standing defense operates
+- [[Systems/No-Gi Tactical Framework|No-Gi Tactical Framework]] (System) - No-gi specific strategic approach incorporating standing defense principles
 
 
 </section>

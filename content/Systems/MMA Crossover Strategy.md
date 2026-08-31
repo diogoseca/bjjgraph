@@ -378,36 +378,36 @@ MMA Crossover Strategy requires integrated training that combines striking and g
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[No-Gi Competition Approach]] (System) - Foundational no-gi system that provides technical base for MMA adaptation
-- [[Competition Strategy]] (System) - Strategic framework for match planning and opponent-specific preparation
-- [[Danaher Front Headlock System]] (System) - Core system for MMA front headlock control and guillotine finishes
-- [[Back Control]] (Position) - Dominant position that provides strike protection while threatening rear naked choke
-- [[Mount]] (Position) - Top control position ideal for ground-and-pound and submission integration
-- [[Side Control]] (Position) - Pressure position for ground strikes and arm triangle setups
-- [[Closed Guard]] (Position) - Primary bottom position offering strike protection and control
-- [[Half Guard]] (Position) - Transitional bottom position for sweeps and standup attempts
-- [[Turtle]] (Position) - Defensive position requiring modified approach due to strike vulnerability
-- [[Front Headlock]] (Position) - Control position for guillotine entries and ground-and-pound
-- [[Guillotine Control]] (Position) - High-percentage submission position from sprawl and front headlock
-- [[Clinch]] (Position) - Standing control position bridging striking and grappling exchanges
-- [[Knee on Belly]] (Position) - Top pressure position for strikes and quick submission transitions
-- [[Body Lock]] (Position) - Wrestling control for takedowns and cage-assisted throws
-- [[Sprawl]] (Transition) - Primary takedown defense leading to front headlock and guillotine opportunities
-- [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position in MMA
-- [[Single Leg Entry]] (Transition) - Wrestling-based takedown adapted for MMA timing and cage work
-- [[Technical Stand-up]] (Transition) - Emergency escape sequence from bottom positions when strikes threaten
-- [[Guillotine Setup]] (Transition) - Explosive submission entry from sprawl and front headlock positions
-- [[Darce Setup]] (Transition) - Front headlock submission alternative when guillotine unavailable
-- [[Snap Down to Front Headlock]] (Transition) - Standing technique to establish front headlock control
-- [[Guillotine Choke]] (Submission) - Primary submission from sprawl and front headlock in MMA
-- [[Rear Naked Choke]] (Submission) - High-percentage finish from back control without strike exposure
-- [[Arm Triangle]] (Submission) - Side control submission that works with ground-and-pound integration
-- [[Darce Choke]] (Submission) - Front headlock finish alternative to guillotine
-- [[Defensive Concepts]] (Principle) - Foundational defensive principles for maintaining protection during grappling exchanges
-- [[Escape Fundamentals]] (Principle) - Core escape principles including sprawl mechanics for takedown defense and bottom escapes
-- [[Chin Protection]] (Principle) - Critical safety principle for preventing knockout damage
-- [[Base]] (Principle) - Fundamental principle adapted for strike-aware balance and posture
-- [[Energy Conservation]] (Principle) - Pacing principle accounting for increased cardio demands of MMA
+- [[Systems/No-Gi Competition Approach|No-Gi Competition Approach]] (System) - Foundational no-gi system that provides technical base for MMA adaptation
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Strategic framework for match planning and opponent-specific preparation
+- [[Systems/Danaher Front Headlock System|Danaher Front Headlock System]] (System) - Core system for MMA front headlock control and guillotine finishes
+- [[Positions/Back Control|Back Control]] (Position) - Dominant position that provides strike protection while threatening rear naked choke
+- [[Positions/Mount|Mount]] (Position) - Top control position ideal for ground-and-pound and submission integration
+- [[Positions/Side Control|Side Control]] (Position) - Pressure position for ground strikes and arm triangle setups
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary bottom position offering strike protection and control
+- [[Positions/Half Guard|Half Guard]] (Position) - Transitional bottom position for sweeps and standup attempts
+- [[Positions/Turtle|Turtle]] (Position) - Defensive position requiring modified approach due to strike vulnerability
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Control position for guillotine entries and ground-and-pound
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - High-percentage submission position from sprawl and front headlock
+- [[Positions/Clinch|Clinch]] (Position) - Standing control position bridging striking and grappling exchanges
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Top pressure position for strikes and quick submission transitions
+- [[Positions/Body Lock|Body Lock]] (Position) - Wrestling control for takedowns and cage-assisted throws
+- [[Transitions/Sprawl|Sprawl]] (Transition) - Primary takedown defense leading to front headlock and guillotine opportunities
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position in MMA
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) - Wrestling-based takedown adapted for MMA timing and cage work
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Emergency escape sequence from bottom positions when strikes threaten
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Explosive submission entry from sprawl and front headlock positions
+- [[Transitions/Darce Setup|Darce Setup]] (Transition) - Front headlock submission alternative when guillotine unavailable
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Standing technique to establish front headlock control
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Primary submission from sprawl and front headlock in MMA
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - High-percentage finish from back control without strike exposure
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) - Side control submission that works with ground-and-pound integration
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Front headlock finish alternative to guillotine
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Foundational defensive principles for maintaining protection during grappling exchanges
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Core escape principles including sprawl mechanics for takedown defense and bottom escapes
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - Critical safety principle for preventing knockout damage
+- [[Principles/Base|Base]] (Principle) - Fundamental principle adapted for strike-aware balance and posture
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Pacing principle accounting for increased cardio demands of MMA
 
 
 </section>

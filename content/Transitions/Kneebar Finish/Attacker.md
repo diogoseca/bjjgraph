@@ -320,7 +320,7 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar from Carni]] | 65% |
+| Success | [[Submissions/Kneebar/from Carni]] | 65% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 

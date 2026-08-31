@@ -467,18 +467,18 @@ Work on maintaining chin protection during dynamic scrambles and rapid position 
 
 
 ### Related Content
-- [[Back Defense Protocol]] (System) - Chin protection is the foundational structural layer within back defense protocol, preventing rear choke completion while other defensive techniques work to escape the position
-- [[Hand Fighting]] (Principle) - Works in conjunction with chin protection as the active defensive layer that clears attacking arms while structural positioning buys time
-- [[Frames]] (Principle) - Applies general framing principles specifically to neck defense, creating structural barriers between opponent and submission targets
-- [[Submission Defense]] (Principle) - Represents specific application of general submission defense principles to the category of choking attacks
-- [[Escape Fundamentals]] (Principle) - Must be maintained throughout all escape sequences to prevent submission during transitional movements
-- [[Back Control]] (Position) - Primary position where chin protection is most critical for survival against rear naked choke and other back attacks
-- [[Front Headlock]] (Position) - Secondary critical position requiring chin protection to defend against guillotine, darce, and anaconda choke attempts
-- [[Mount]] (Position) - Position where chin protection defends against collar chokes, ezekiel chokes, and arm triangle attempts from top
-- [[Rear Naked Choke]] (Submission) - Primary submission that chin protection is designed to prevent by denying choking arm access under the jaw
-- [[Guillotine Choke]] (Submission) - Front-attacking choke that requires chin protection combined with posture to prevent arm advancement and completion
-- [[Darce Choke]] (Submission) - Front headlock choke that chin protection helps defend against by preventing deep arm positioning around the neck
-- [[Defensive Concepts]] (Principle) - Chin protection exemplifies core defensive concepts specifically applied to neck defense contexts
+- [[Systems/Back Defense Protocol|Back Defense Protocol]] (System) - Chin protection is the foundational structural layer within back defense protocol, preventing rear choke completion while other defensive techniques work to escape the position
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Works in conjunction with chin protection as the active defensive layer that clears attacking arms while structural positioning buys time
+- [[Principles/Frames|Frames]] (Principle) - Applies general framing principles specifically to neck defense, creating structural barriers between opponent and submission targets
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Represents specific application of general submission defense principles to the category of choking attacks
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Must be maintained throughout all escape sequences to prevent submission during transitional movements
+- [[Positions/Back Control|Back Control]] (Position) - Primary position where chin protection is most critical for survival against rear naked choke and other back attacks
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Secondary critical position requiring chin protection to defend against guillotine, darce, and anaconda choke attempts
+- [[Positions/Mount|Mount]] (Position) - Position where chin protection defends against collar chokes, ezekiel chokes, and arm triangle attempts from top
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission that chin protection is designed to prevent by denying choking arm access under the jaw
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Front-attacking choke that requires chin protection combined with posture to prevent arm advancement and completion
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Front headlock choke that chin protection helps defend against by preventing deep arm positioning around the neck
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Chin protection exemplifies core defensive concepts specifically applied to neck defense contexts
 
 
 </section>

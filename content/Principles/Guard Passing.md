@@ -450,16 +450,16 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 
 
 ### Related Content
-- [[Defensive Concepts]] (Principle) - Complementary defensive framework providing essential understanding of guard retention mechanics that passing must neutralize
-- [[Control Point Hierarchy]] (Principle) - Provides prioritization framework for establishing controls during sequential passing stages
-- [[Base]] (Principle) - Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement
-- [[Toreando Pass]] (Transition) - Specific passing technique demonstrating application of floating pressure passing principles
-- [[Knee Slice Pass]] (Transition) - Common passing technique exemplifying stage progression from headquarters to side control consolidation
-- [[Long Step Pass]] (Transition) - Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics
-- [[Headquarters Position]] (Position) - Critical intermediate passing position representing midpoint between open guard and consolidated side control
-- [[Combat Base]] (Position) - Foundational passing posture demonstrating proper base and structure for initiating passing sequences
-- [[Grips]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins
-- [[Double Under Pass]] (Transition) - Heavy pressure passing technique demonstrating systematic hip control and leg management principles
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Complementary defensive framework providing essential understanding of guard retention mechanics that passing must neutralize
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Provides prioritization framework for establishing controls during sequential passing stages
+- [[Principles/Base|Base]] (Principle) - Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement
+- [[Transitions/Toreando Pass|Toreando Pass]] (Transition) - Specific passing technique demonstrating application of floating pressure passing principles
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Common passing technique exemplifying stage progression from headquarters to side control consolidation
+- [[Transitions/Long Step Pass|Long Step Pass]] (Transition) - Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Critical intermediate passing position representing midpoint between open guard and consolidated side control
+- [[Positions/Combat Base|Combat Base]] (Position) - Foundational passing posture demonstrating proper base and structure for initiating passing sequences
+- [[Principles/Grips|Grips]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins
+- [[Transitions/Double Under Pass|Double Under Pass]] (Transition) - Heavy pressure passing technique demonstrating systematic hip control and leg management principles
 
 
 </section>

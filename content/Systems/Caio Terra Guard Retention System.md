@@ -398,34 +398,34 @@ The Caio Terra guard retention system requires extensive solo drilling to build 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Closed Guard]] (Position) - Primary guard position where retention system prevents opening and passing attempts
-- [[Open Guard]] (Position) - Core guard family requiring constant retention mechanics to maintain distance and control
-- [[Spider Guard]] (Position) - Distance control guard utilizing frame principles from retention system
-- [[De La Riva Guard]] (Position) - Hook-based guard requiring retention mechanics when hooks are threatened
-- [[Butterfly Guard]] (Position) - Dynamic guard position using retention system's hip movement and frame principles
-- [[Half Guard]] (Position) - Defensive guard position requiring specialized retention against knee slice and smash passes
-- [[X-Guard]] (Position) - Technical guard position requiring retention when hooks are compromised
-- [[Single Leg X-Guard]] (Position) - Leg entanglement guard utilizing retention principles for hook maintenance
-- [[Seated Guard]] (Position) - Starting position for many retention sequences when standing opponent applies pressure
-- [[Knee Shield Half Guard]] (Position) - Half guard variation emphasizing frame-based retention with knee shield structure
-- [[Arm Recovery to Guard]] (Transition) - Core recovery transition for re-establishing guard structure after partial pass attempts
-- [[Hip Escape to Guard]] (Transition) - Fundamental movement pattern essential for all guard retention sequences
-- [[Shrimp Escape]] (Transition) - Primary hip movement technique used throughout retention system
-- [[Frame and Shrimp to Guard]] (Transition) - Combined technique integrating frames with hip escapes for effective retention
-- [[Technical Stand Up to Single Leg]] (Transition) - Emergency retention technique used when bottom retention fails
-- [[Granby Roll to Guard]] (Transition) - Advanced retention recovery technique for desperate guard replacement scenarios
-- [[Back Door Escape]] (Transition) - Recovery technique for escaping compromised positions and returning to guard
-- [[Elbow Escape to Guard]] (Transition) - Alternative hip escape method used in retention when opponent controls near-side space
-- [[Defensive Concepts]] (Principle) - Core defensive principle that this system operationalizes into specific retention techniques and sequences
-- [[Frames]] (Principle) - Fundamental defensive principle applied throughout retention system
-- [[Connection Principles]] (Principle) - Critical principle governing grip management and connection breaking during retention battles
-- [[Escape Fundamentals]] (Principle) - Structural principle for creating barriers and recovering position through systematic escapes
-- [[Distance Control]] (Principle) - Foundational principle for controlling distance and preventing opponent position consolidation
-- [[Dealing with Pressure]] (Principle) - Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency
-- [[Position Chains]] (Principle) - Meta-principle explaining how individual techniques combine into coherent defensive sequences
-- [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary guard system emphasizing active retention through butterfly hooks
-- [[Dynamic Guard System]] (System) - Offensive guard framework that integrates retention as defensive component
-- [[Defensive Prioritization Framework]] (System) - Strategic system for deciding when to retain guard versus accept position and escape
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary guard position where retention system prevents opening and passing attempts
+- [[Positions/Open Guard|Open Guard]] (Position) - Core guard family requiring constant retention mechanics to maintain distance and control
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Distance control guard utilizing frame principles from retention system
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Hook-based guard requiring retention mechanics when hooks are threatened
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard position using retention system's hip movement and frame principles
+- [[Positions/Half Guard|Half Guard]] (Position) - Defensive guard position requiring specialized retention against knee slice and smash passes
+- [[Positions/X-Guard|X-Guard]] (Position) - Technical guard position requiring retention when hooks are compromised
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Leg entanglement guard utilizing retention principles for hook maintenance
+- [[Positions/Seated Guard|Seated Guard]] (Position) - Starting position for many retention sequences when standing opponent applies pressure
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - Half guard variation emphasizing frame-based retention with knee shield structure
+- [[Transitions/Arm Recovery to Guard|Arm Recovery to Guard]] (Transition) - Core recovery transition for re-establishing guard structure after partial pass attempts
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental movement pattern essential for all guard retention sequences
+- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition) - Primary hip movement technique used throughout retention system
+- [[Transitions/Frame and Shrimp to Guard|Frame and Shrimp to Guard]] (Transition) - Combined technique integrating frames with hip escapes for effective retention
+- [[Transitions/Technical Stand Up to Single Leg|Technical Stand Up to Single Leg]] (Transition) - Emergency retention technique used when bottom retention fails
+- [[Transitions/Granby Roll to Guard|Granby Roll to Guard]] (Transition) - Advanced retention recovery technique for desperate guard replacement scenarios
+- [[Transitions/Back Door Escape|Back Door Escape]] (Transition) - Recovery technique for escaping compromised positions and returning to guard
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Alternative hip escape method used in retention when opponent controls near-side space
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Core defensive principle that this system operationalizes into specific retention techniques and sequences
+- [[Principles/Frames|Frames]] (Principle) - Fundamental defensive principle applied throughout retention system
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Critical principle governing grip management and connection breaking during retention battles
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Structural principle for creating barriers and recovering position through systematic escapes
+- [[Principles/Distance Control|Distance Control]] (Principle) - Foundational principle for controlling distance and preventing opponent position consolidation
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency
+- [[Principles/Position Chains|Position Chains]] (Principle) - Meta-principle explaining how individual techniques combine into coherent defensive sequences
+- [[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia Butterfly Guard System]] (System) - Complementary guard system emphasizing active retention through butterfly hooks
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Offensive guard framework that integrates retention as defensive component
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Strategic system for deciding when to retain guard versus accept position and escape
 
 
 </section>

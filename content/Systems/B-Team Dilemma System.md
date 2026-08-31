@@ -394,33 +394,33 @@ The B-Team Dilemma System requires specialized drilling that emphasizes transiti
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Saddle]] (Position) - Primary finishing position within the dilemma system, offering multiple submission paths
-- [[Outside Ashi-Garami]] (Position) - Core entry position that creates initial heel hook threat and back exposure opportunities
-- [[Inside Ashi-Garami]] (Position) - Alternative leg entanglement position used for variation and opponent-specific adjustments
-- [[Back Control]] (Position) - Primary transition target from leg attack defense, creates second half of core dilemma loop
-- [[50-50 Guard]] (Position) - Secondary attacking position requiring offensive application to maintain system pressure
-- [[Front Headlock]] (Position) - Standing and turtle entry position connecting takedown game to leg entanglement system
-- [[Straight Ankle Lock Control]] (Position) - Offensive tool from 50-50 and standard ashi positions within submission chain
-- [[Kneebar Control]] (Position) - Alternative submission threat from ashi positions creating additional dilemma branches
-- [[Outside Ashi Entry]] (Transition) - Fundamental entry technique establishing initial control for system implementation
-- [[Inside Ashi Entry]] (Transition) - Alternative entry creating different angle and submission opportunities within system
-- [[50-50 Entry from Standing]] (Transition) - Standing entry option for initiating system from neutral position
-- [[Front Headlock to Back]] (Transition) - Alternative pathway to back control bypassing leg entanglement when opportunity presents
-- [[Outside Heel Hook]] (Submission) - Primary submission threat creating defensive reactions that expose back control
-- [[Inside Heel Hook]] (Submission) - Alternative leg attack from saddle and inside ashi variations
-- [[Straight Ankle Lock]] (Submission) - Offensive submission from 50-50 and standard ashi maintaining attacking pressure
-- [[Kneebar]] (Submission) - Secondary leg submission creating additional defensive dilemmas from various ashi positions
-- [[Rear Naked Choke]] (Submission) - Primary back attack that forces defensive reactions enabling leg re-entry
-- [[Fork Attacks]] (Principle) - Core conceptual framework underlying entire system methodology
-- [[Leg Entanglement]] (Principle) - Fundamental positional concept governing leg control and submission mechanics
-- [[Position Chains]] (Principle) - Systematic approach to linking positions through transitional sequences
-- [[Submission Chains]] (Principle) - Conceptual framework for connecting submission attempts into continuous offensive sequences
-- [[Transition Management]] (Principle) - Systematic approach to managing position changes that underpins the dilemma system's transitional framework
-- [[Action and Reaction]] (Principle) - Fundamental concept of using opponent's defensive actions as offensive opportunities
-- [[Craig Jones Leg Lock System]] (System) - Direct predecessor system focusing specifically on leg entanglement mechanics that informed dilemma development
-- [[Danaher Leg Lock System]] (System) - Foundational leg lock methodology providing technical basis for leg entanglement components
-- [[Garry Tonon Leg Lock to Back System]] (System) - Parallel system emphasizing similar leg-to-back transitions with different entry methodologies
-- [[Back Attack System]] (System) - Complementary system providing back control retention and submission techniques for second half of dilemma
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Primary finishing position within the dilemma system, offering multiple submission paths
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Core entry position that creates initial heel hook threat and back exposure opportunities
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Alternative leg entanglement position used for variation and opponent-specific adjustments
+- [[Positions/Back Control|Back Control]] (Position) - Primary transition target from leg attack defense, creates second half of core dilemma loop
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Secondary attacking position requiring offensive application to maintain system pressure
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Standing and turtle entry position connecting takedown game to leg entanglement system
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) - Offensive tool from 50-50 and standard ashi positions within submission chain
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) - Alternative submission threat from ashi positions creating additional dilemma branches
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Fundamental entry technique establishing initial control for system implementation
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Alternative entry creating different angle and submission opportunities within system
+- [[Transitions/50-50 Entry from Standing|50-50 Entry from Standing]] (Transition) - Standing entry option for initiating system from neutral position
+- [[Transitions/Front Headlock to Back|Front Headlock to Back]] (Transition) - Alternative pathway to back control bypassing leg entanglement when opportunity presents
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) - Primary submission threat creating defensive reactions that expose back control
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Alternative leg attack from saddle and inside ashi variations
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Offensive submission from 50-50 and standard ashi maintaining attacking pressure
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Secondary leg submission creating additional defensive dilemmas from various ashi positions
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary back attack that forces defensive reactions enabling leg re-entry
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core conceptual framework underlying entire system methodology
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - Fundamental positional concept governing leg control and submission mechanics
+- [[Principles/Position Chains|Position Chains]] (Principle) - Systematic approach to linking positions through transitional sequences
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Conceptual framework for connecting submission attempts into continuous offensive sequences
+- [[Principles/Transition Management|Transition Management]] (Principle) - Systematic approach to managing position changes that underpins the dilemma system's transitional framework
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Fundamental concept of using opponent's defensive actions as offensive opportunities
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Direct predecessor system focusing specifically on leg entanglement mechanics that informed dilemma development
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Foundational leg lock methodology providing technical basis for leg entanglement components
+- [[Systems/Garry Tonon Leg Lock to Back System|Garry Tonon Leg Lock to Back System]] (System) - Parallel system emphasizing similar leg-to-back transitions with different entry methodologies
+- [[Systems/Back Attack System|Back Attack System]] (System) - Complementary system providing back control retention and submission techniques for second half of dilemma
 
 
 </section>

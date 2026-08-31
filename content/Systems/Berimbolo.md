@@ -360,31 +360,31 @@ Berimbolo development requires progressive drilling starting with solo movement 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[De La Riva Guard]] (Position) - Primary launching position for Berimbolo entries - provides hook and grip control needed for inversion
-- [[X-Guard]] (Position) - Alternative position to chain with Berimbolo - if opponent sits back to counter Berimbolo, transition to X-Guard sweep
-- [[Single Leg X-Guard]] (Position) - Complementary guard position that creates sweep dilemmas when chained with Berimbolo attacks
-- [[Reverse De La Riva Guard]] (Position) - Alternative inversion platform when standard De La Riva entry is unavailable or defended
-- [[Back Control]] (Position) - Target destination of successful Berimbolo - dominant position achieved through rotational back take
-- [[Inverted Guard]] (Position) - Intermediate position during Berimbolo rotation - requires similar flexibility and inversion mechanics
-- [[Seated Guard]] (Position) - Recovery position if Berimbolo entry fails - allows retention and re-establishment of guard control
-- [[Butterfly Guard]] (Position) - Alternative guard system that can be integrated with Berimbolo for varied attack entries
-- [[Berimbolo Entry]] (Transition) - Specific technical sequence for initiating Berimbolo rotation from De La Riva guard
-- [[Kiss of the Dragon]] (Transition) - Related inversion-based back take that serves as alternative when Berimbolo is defended
-- [[De La Riva Sweep]] (Transition) - Complementary attack from De La Riva guard that creates entry dilemmas for Berimbolo
-- [[X-Guard Sweep]] (Transition) - Chained attack when opponent sits back to counter Berimbolo - creates offensive dilemma
-- [[Rolling Back Take]] (Transition) - Alternative back-taking method that shares similar rotational mechanics and timing principles
-- [[Crab Ride to Back]] (Transition) - Related back-taking technique from turtle that uses similar body lock transitional control
-- [[Timing and Rhythm]] (Principle) - Critical for reading opponent's weight commitment and initiating inversion at optimal moment
-- [[Dominant Angles]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
-- [[Posture]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced and posture disrupted before rotation
-- [[Defensive Concepts]] (Principle) - Underlying defensive framework that Berimbolo enhances by converting guard retention into offensive back-taking opportunities
-- [[Hip Escape Mechanics]] (Principle) - Physical prerequisite providing the hip mobility and rotational mechanics essential for safe inversion throughout Berimbolo system
-- [[Grips]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
-- [[Transition Management]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
-- [[Mikey Musumeci Berimbolo System]] (System) - Specialized expert system focused on modern Berimbolo variations and competition applications
-- [[Marcelo Garcia X-Guard System]] (System) - Complementary guard system that integrates effectively with Berimbolo to create comprehensive bottom game
-- [[Dynamic Guard System]] (System) - Broader framework that includes Berimbolo as part of modern, movement-based guard approach
-- [[Competition Preparation System]] (System) - Strategic framework for implementing Berimbolo effectively in competitive tournament environments
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Primary launching position for Berimbolo entries - provides hook and grip control needed for inversion
+- [[Positions/X-Guard|X-Guard]] (Position) - Alternative position to chain with Berimbolo - if opponent sits back to counter Berimbolo, transition to X-Guard sweep
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Complementary guard position that creates sweep dilemmas when chained with Berimbolo attacks
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) - Alternative inversion platform when standard De La Riva entry is unavailable or defended
+- [[Positions/Back Control|Back Control]] (Position) - Target destination of successful Berimbolo - dominant position achieved through rotational back take
+- [[Positions/Inverted Guard|Inverted Guard]] (Position) - Intermediate position during Berimbolo rotation - requires similar flexibility and inversion mechanics
+- [[Positions/Seated Guard|Seated Guard]] (Position) - Recovery position if Berimbolo entry fails - allows retention and re-establishment of guard control
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Alternative guard system that can be integrated with Berimbolo for varied attack entries
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Specific technical sequence for initiating Berimbolo rotation from De La Riva guard
+- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition) - Related inversion-based back take that serves as alternative when Berimbolo is defended
+- [[Transitions/De La Riva Sweep|De La Riva Sweep]] (Transition) - Complementary attack from De La Riva guard that creates entry dilemmas for Berimbolo
+- [[Transitions/X-Guard Sweep|X-Guard Sweep]] (Transition) - Chained attack when opponent sits back to counter Berimbolo - creates offensive dilemma
+- [[Transitions/Rolling Back Take|Rolling Back Take]] (Transition) - Alternative back-taking method that shares similar rotational mechanics and timing principles
+- [[Transitions/Crab Ride to Back|Crab Ride to Back]] (Transition) - Related back-taking technique from turtle that uses similar body lock transitional control
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Critical for reading opponent's weight commitment and initiating inversion at optimal moment
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
+- [[Principles/Posture|Posture]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced and posture disrupted before rotation
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Underlying defensive framework that Berimbolo enhances by converting guard retention into offensive back-taking opportunities
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Physical prerequisite providing the hip mobility and rotational mechanics essential for safe inversion throughout Berimbolo system
+- [[Principles/Grips|Grips]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
+- [[Principles/Transition Management|Transition Management]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
+- [[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci Berimbolo System]] (System) - Specialized expert system focused on modern Berimbolo variations and competition applications
+- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Complementary guard system that integrates effectively with Berimbolo to create comprehensive bottom game
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Broader framework that includes Berimbolo as part of modern, movement-based guard approach
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Strategic framework for implementing Berimbolo effectively in competitive tournament environments
 
 
 </section>

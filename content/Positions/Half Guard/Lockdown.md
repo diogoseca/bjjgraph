@@ -229,7 +229,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (6% of attempts)
+- **[[Submissions/Kimura/from Lockdown/Attacker|Kimura from Lockdown]]** (6% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
 
@@ -237,7 +237,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (7% of attempts)
 
-- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
+- **[[Submissions/Crotch Ripper/from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -330,6 +330,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 ## Related
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Submissions/North-South Choke]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Darce Choke]]

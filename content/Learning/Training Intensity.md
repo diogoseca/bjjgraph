@@ -235,17 +235,17 @@ A: Mismatched intensity expectations cause injuries and damage trust. If one per
 <section id="related" class="content-section">
 
 ## Related
-- [[Energy Conservation]] (Principle) - Energy conservation principles directly govern how you allocate effort across different intensity levels
-- [[Positional Sparring]] (Principle) - Positional sparring is the primary format for training at controlled intensity with specific technical goals
-- [[Flow Rolling]] (Principle) - Flow rolling represents the low end of the intensity spectrum, used for technique exploration and recovery sessions
-- [[Competition Mindset]] (Principle) - Competition mindset requires training at match-level intensity to build neural pathways that function under adrenaline
-- [[Competition Preparation System]] (System) - Competition preparation requires systematic intensity escalation leading up to match day
-- [[Timing Windows]] (Learning) - Recognizing and exploiting timing windows depends on having trained at the speeds where those windows actually appear, which only higher-intensity rolling provides
-- [[Dealing with Pressure]] (Principle) - Managing physical and psychological pressure is the core competency that stress-inoculation training is designed to build
-- [[Defensive Concepts]] (Principle) - Defensive techniques must be stress-tested at high intensity to verify they work under real pressure
-- [[Training Partner Diversity]] (Learning) - Diverse training partners naturally create varied intensity levels that prepare you for unknown opponents
-- [[Mount]] (Position) - Mount escapes are commonly the first techniques to fail under high-intensity pressure, making them key stress-test positions
-- [[Back Control]] (Position) - Defending back control under competition-pace attacks requires stress inoculation to prevent panic
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Energy conservation principles directly govern how you allocate effort across different intensity levels
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Positional sparring is the primary format for training at controlled intensity with specific technical goals
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Flow rolling represents the low end of the intensity spectrum, used for technique exploration and recovery sessions
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Competition mindset requires training at match-level intensity to build neural pathways that function under adrenaline
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Competition preparation requires systematic intensity escalation leading up to match day
+- [[Learning/Timing Windows|Timing Windows]] (Learning) - Recognizing and exploiting timing windows depends on having trained at the speeds where those windows actually appear, which only higher-intensity rolling provides
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Managing physical and psychological pressure is the core competency that stress-inoculation training is designed to build
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive techniques must be stress-tested at high intensity to verify they work under real pressure
+- [[Learning/Training Partner Diversity|Training Partner Diversity]] (Learning) - Diverse training partners naturally create varied intensity levels that prepare you for unknown opponents
+- [[Positions/Mount|Mount]] (Position) - Mount escapes are commonly the first techniques to fail under high-intensity pressure, making them key stress-test positions
+- [[Positions/Back Control|Back Control]] (Position) - Defending back control under competition-pace attacks requires stress inoculation to prevent panic
 
 
 

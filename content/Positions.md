@@ -873,586 +873,586 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 
 ## Ashi Garami
 
-### [[50-50 Guard]]
+### [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]]
 
 Master 50-50 Guard in BJJ. Symmetrical leg entanglement with control and submissions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-### [[Ashi Garami]]
+### [[Positions/Ashi Garami|Ashi Garami]]
 
 Master Ashi Garami leg entanglements in BJJ. Complete guide to systematic control, hierarchical advancement, heel hooks, and leg lock defense strategies.
 
-### [[Backside 50-50]]
+### [[Positions/Ashi Garami/Backside 50-50|Backside 50-50]]
 
 Master Backside 50-50 in BJJ. Strategic guide covering leg entanglement mechanics, dual-perspective control, and transitions to dominance with complete analysis.
 
-### [[Cross Ashi-Garami]]
+### [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]]
 
 Master Cross Ashi-Garami position in BJJ. Strategic guide covering crossed leg entanglement mechanics, defensive escapes, and offensive attacks with complete perspective analysis.
 
-### [[Honey Hole]]
+### [[Positions/Ashi Garami/Honey Hole|Honey Hole]]
 
 Master Honey Hole position in BJJ. Advanced leg entanglement with inside control, heel hook access, and systematic defense protocols. Complete perspective analysis.
 
-### [[Inside Ashi-Garami]]
+### [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]]
 
 Master Inside Ashi-Garami in BJJ. Foundational leg entanglement for ankle locks and heel hooks with comprehensive control mechanics and submission pathways.
 
-### [[Outside Ashi-Garami]]
+### [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]]
 
 Master Outside Ashi-Garami position in BJJ. Strategic guide covering leg entanglement control, heel hooks, transitions, and systematic escapes with complete perspective analysis.
 
-### [[Saddle]]
+### [[Positions/Ashi Garami/Saddle|Saddle]]
 
 Master saddle position mechanics with systematic entries, control optimization, and finishing sequences for heel hooks and leg attacks in modern BJJ.
 
-### [[Ushiro Ashi-Garami]]
+### [[Positions/Ashi Garami/Ushiro Ashi-Garami|Ushiro Ashi-Garami]]
 
 Master Ushiro Ashi-Garami (reverse leg entanglement). Complete technical guide covering defensive counters, attack sequences, and transition paths.
 
 
 ## Back Control
 
-### [[Back Control]]
+### [[Positions/Back Control|Back Control]]
 
 Master back control in BJJ. Complete guide to hooks, harness grip, body triangle, submissions, and escapes from this dominant 4-point scoring position.
 
-### [[Body Triangle]]
+### [[Positions/Back Control/Body Triangle|Body Triangle]]
 
 Master body triangle position in BJJ. Powerful leg control from back control creating breathing restriction and submission setups with comprehensive perspective analysis.
 
-### [[Seat Belt Control Back]]
+### [[Positions/Back Control/Seat Belt Control Back|Seat Belt Control Back]]
 
 Master Seat Belt Control from Back position in BJJ. Dominant 4-point configuration with 75% retention rate covering grips, hooks, and submission chains from both perspectives.
 
-### [[Standing Back Control]]
+### [[Positions/Back Control/Standing Back Control|Standing Back Control]]
 
 Master standing back control in BJJ. Strategic guide covering when to use standing back attacks, defensive escapes, and maintaining control with complete perspective analysis.
 
 
 ## Butterfly Guard
 
-### [[Butterfly Guard]]
+### [[Positions/Butterfly Guard|Butterfly Guard]]
 
 Master Butterfly Guard in BJJ. Dynamic open guard with powerful sweeps, back takes, and leg entanglement entries. Beginner 50%, Intermediate 65%, Advanced 80%.
 
-### [[Butterfly Hook Control]]
+### [[Positions/Butterfly Guard/Butterfly Hook Control|Butterfly Hook Control]]
 
 Master Butterfly Hook Control in BJJ. Strategic guide covering hook mechanics, sweeps, back takes, and defensive strategies with complete bottom and top perspective analysis.
 
-### [[Half Butterfly]]
+### [[Positions/Butterfly Guard/Half Butterfly|Half Butterfly]]
 
 Master Half Butterfly guard in BJJ. Hybrid position combining butterfly hooks with half guard control. Learn sweeps, transitions, and retention strategies with expert analysis.
 
 
 ## Closed Guard
 
-### [[Closed Guard]]
+### [[Positions/Closed Guard|Closed Guard]]
 
 Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.
 
-### [[Diamond Guard]]
+### [[Positions/Closed Guard/Diamond Guard|Diamond Guard]]
 
 Master Diamond Guard in BJJ. Closed guard variation using overhook and head control to create a diamond frame for posture breaking, triangle setups, and omoplata chains.
 
 
 ## De La Riva Guard
 
-### [[De La Riva Guard]]
+### [[Positions/De La Riva Guard|De La Riva Guard]]
 
 Master De La Riva Guard in BJJ. Hook-based open guard with berimbolo entries, sweeps, back takes, and 65% advanced success rates. Complete technical guide.
 
-### [[Reverse De La Riva Guard]]
+### [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]]
 
 Master Reverse De La Riva Guard in BJJ. Strategic guide covering inverted hook mechanics, waiter sweeps, berimbolo entries, and kiss of the dragon back takes with complete perspective analysis.
 
 
 ## Half Guard
 
-### [[Butterfly Half Guard]]
+### [[Positions/Half Guard/Butterfly Half Guard|Butterfly Half Guard]]
 
 Master Butterfly Half Guard in BJJ - a powerful hybrid position combining butterfly and half guard mechanics. Learn setup, sweeps, transitions, and counters with detailed success rates by skill level.
 
-### [[Deep Half Guard]]
+### [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]]
 
 Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis.
 
-### [[Electric Chair]]
+### [[Positions/Half Guard/Electric Chair|Electric Chair]]
 
 Master Electric Chair position in BJJ. 10th Planet's lockdown sweep combining submission threat with positional control. Complete top and bottom guide with decision trees.
 
-### [[Flattened Half Guard]]
+### [[Positions/Half Guard/Flattened Half Guard|Flattened Half Guard]]
 
 Master the flattened half guard position in BJJ. Complete guide covering defensive escapes, frame recovery, and survival tactics when pinned flat.
 
-### [[Half Guard]]
+### [[Positions/Half Guard|Half Guard]]
 
 Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, and transitions with expert techniques for all skill levels.
 
-### [[Knee Shield Half Guard]]
+### [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]]
 
 Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive retention, passing strategies, and transitions with complete bottom and top perspective analysis.
 
-### [[Lockdown]]
+### [[Positions/Half Guard/Lockdown|Lockdown]]
 
 Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom sweeps and top defense strategies.
 
-### [[Old School]]
+### [[Positions/Half Guard/Old School|Old School]]
 
 Master Old School position in BJJ half guard. Strategic guide covering lockdown control, sweep mechanics, and defensive counters with complete perspective analysis.
 
-### [[Pocket Half Guard]]
+### [[Positions/Half Guard/Pocket Half Guard|Pocket Half Guard]]
 
 Master Pocket Half Guard in BJJ. Deep underhook half guard position with excellent offensive options from bottom and dominant control from top. Complete strategic guide.
 
-### [[Reverse Half Guard]]
+### [[Positions/Half Guard/Reverse Half Guard|Reverse Half Guard]]
 
 Master Reverse Half Guard in BJJ. Strategic guide covering inverted half guard control, sweeps, back takes, and passing strategies with complete perspective analysis.
 
-### [[Z-Lock Half Guard]]
+### [[Positions/Half Guard/Z-Lock Half Guard|Z-Lock Half Guard]]
 
 Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with unique leg configuration. Learn sweeps, back takes, and submission paths with 65% retention rate.
 
 
 ## Lasso Guard
 
-### [[Inverted Lasso Guard]]
+### [[Positions/Lasso Guard/Inverted Lasso Guard|Inverted Lasso Guard]]
 
 Master inverted lasso guard in BJJ. Strategic guide covering setup mechanics, sweeping systems, submission entries, and defensive counters with expert analysis.
 
-### [[Lasso Guard]]
+### [[Positions/Lasso Guard|Lasso Guard]]
 
 Master Lasso Guard in BJJ. Complete guide covering setup mechanics, sweeps, submissions, and transitions. Learn advanced control systems and techniques.
 
-### [[Russian Leg Lasso]]
+### [[Positions/Lasso Guard/Russian Leg Lasso|Russian Leg Lasso]]
 
 Master Russian Leg Lasso position in BJJ. Strategic guide covering both bottom guard retention and top passing strategies with systematic technical analysis.
 
 
 ## Mount
 
-### [[3-4 Mount]]
+### [[Positions/Mount/3-4 Mount|3-4 Mount]]
 
 Master 3-4 Mount position in BJJ. Complete guide covering asymmetric mount control, submission attacks, and defensive strategies from both top and bottom perspectives.
 
-### [[High Mount]]
+### [[Positions/Mount/High Mount|High Mount]]
 
 Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and escape strategies from both top and bottom perspectives.
 
-### [[Modified Mount]]
+### [[Positions/Mount/Modified Mount|Modified Mount]]
 
 Master Modified Mount in BJJ. Strategic position trading some control for enhanced stability and submission setups with one leg posted for base.
 
-### [[Mount]]
+### [[Positions/Mount|Mount]]
 
 Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.
 
-### [[Mounted Crucifix]]
+### [[Positions/Mount/Mounted Crucifix|Mounted Crucifix]]
 
 Master the mounted crucifix in BJJ. Complete guide covering arm isolation, back exposure attacks, submission chains, and defensive escapes from this dominant control position.
 
-### [[Mounted Triangle]]
+### [[Positions/Mount/Mounted Triangle|Mounted Triangle]]
 
 Master mounted triangle position in BJJ. High-risk, high-reward position combining mount control with triangle mechanics for devastating submissions.
 
-### [[S Mount]]
+### [[Positions/Mount/S Mount|S Mount]]
 
 Master S Mount in BJJ - the ultimate armbar setup position. Complete technical guide covering control mechanics, submission chains, and transition strategies from both perspectives.
 
-### [[Technical Mount]]
+### [[Positions/Mount/Technical Mount|Technical Mount]]
 
 Master Technical Mount in BJJ. Advanced mount variation with stepped leg creating optimal armbar and triangle angles. Complete guide covering top control, bottom escapes, and submission chains.
 
 
 ## Rubber Guard
 
-### [[Carni]]
+### [[Positions/Rubber Guard/Carni|Carni]]
 
 Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. Strategic guide covering both attacking and defending perspectives.
 
-### [[Chill Dog]]
+### [[Positions/Rubber Guard/Chill Dog|Chill Dog]]
 
 Master Chill Dog position in BJJ. Defensive turtle variant with recovery options and back exposure prevention. Learn entries, escapes, and transitions with complete strategic analysis.
 
-### [[Crackhead Control]]
+### [[Positions/Rubber Guard/Crackhead Control|Crackhead Control]]
 
 Master Crackhead Control in BJJ - 10th Planet's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.
 
-### [[Invisible Collar]]
+### [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]]
 
 Master Invisible Collar position in BJJ. Advanced back control setup for collar chokes, RNC transitions, and crucifix attacks with complete tactical guide.
 
-### [[Meathook]]
+### [[Positions/Rubber Guard/Meathook|Meathook]]
 
 Master the Meathook position in BJJ. Strategic Rubber Guard control that isolates the opponent's arm while breaking posture for high-percentage attacks.
 
-### [[Mission Control]]
+### [[Positions/Rubber Guard/Mission Control|Mission Control]]
 
 Master Mission Control in BJJ: the dominant rubber guard control position. Learn high guard mechanics, shoulder isolation, setup requirements, and direct paths to triangle chokes and omoplatas with expert analysis.
 
-### [[New York]]
+### [[Positions/Rubber Guard/New York|New York]]
 
 Master New York position control in 10th Planet's Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks.
 
-### [[New York Control]]
+### [[Positions/Rubber Guard/New York Control|New York Control]]
 
 Master New York Control in BJJ. Strategic rubber guard position combining high guard retention with omoplata, triangle, and gogoplata attacks. Complete analysis of bottom/top perspectives.
 
-### [[Rubber Guard]]
+### [[Positions/Rubber Guard|Rubber Guard]]
 
 Master Rubber Guard in BJJ. Complete guide to 10th Planet system covering Mission Control, New York, Invisible Collar progressions and submission chains.
 
-### [[Zombie]]
+### [[Positions/Rubber Guard/Zombie|Zombie]]
 
 Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining the 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates.
 
 
 ## Side Control
 
-### [[Kesa Gatame]]
+### [[Positions/Side Control/Kesa Gatame|Kesa Gatame]]
 
 Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.
 
-### [[Kuzure Kesa-Gatame]]
+### [[Positions/Side Control/Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]]
 
 Master modified scarf hold in BJJ. Strategic guide covering control mechanics, submission setups, and escape prevention with complete perspective analysis.
 
-### [[Modified Scarf Hold]]
+### [[Positions/Side Control/Modified Scarf Hold|Modified Scarf Hold]]
 
 Master Modified Scarf Hold in BJJ. Complete guide covering control mechanics, submission setups, and escape prevention with detailed perspective analysis.
 
-### [[Reverse Kesa-Gatame]]
+### [[Positions/Side Control/Reverse Kesa-Gatame|Reverse Kesa-Gatame]]
 
 Master Reverse Kesa-Gatame in BJJ. Strategic guide covering pin mechanics, escape techniques, and submission attacks from both bottom and top perspectives.
 
-### [[Reverse Scarf Hold]]
+### [[Positions/Side Control/Reverse Scarf Hold|Reverse Scarf Hold]]
 
 Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete guide covering defensive survival, offensive control, and transitions from both perspectives.
 
-### [[Scarf Hold Position]]
+### [[Positions/Side Control/Scarf Hold Position|Scarf Hold Position]]
 
 Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control angle. Complete guide covering bottom escapes and top control strategies.
 
-### [[Side Control]]
+### [[Positions/Side Control|Side Control]]
 
 Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.
 
 
 ## Triangle Control
 
-### [[Rear Triangle]]
+### [[Positions/Triangle Control/Rear Triangle|Rear Triangle]]
 
 Master Rear Triangle position in BJJ. Advanced back control variation with triangle leg configuration. Learn entry mechanics, submission chains, and control strategies from both perspectives.
 
-### [[Triangle Control]]
+### [[Positions/Triangle Control|Triangle Control]]
 
 Master Triangle Control in BJJ. Dominant submission platform with 75% finish rate at advanced levels. Complete guide to setup, control, and submission chains.
 
 
 ## Twister Control
 
-### [[Truck]]
+### [[Positions/Twister Control/Truck|Truck]]
 
 Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.
 
-### [[Twister Control]]
+### [[Positions/Twister Control|Twister Control]]
 
 Master Twister Control in BJJ. Complete guide covering entries, spinal rotation mechanics, submission paths, and strategic analysis for advanced practitioners.
 
-### [[Twister Side Control]]
+### [[Positions/Twister Control/Twister Side Control|Twister Side Control]]
 
 Master twister side control in BJJ. Complete strategic guide covering control maintenance, submission threats, and perspective-specific tactics with success rates.
 
 
 ## X Guard
 
-### [[Reverse X-Guard]]
+### [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]]
 
 Master Reverse X-Guard in BJJ. Strategic guide covering when to use inverted leg control, sweeps, and back takes with complete perspective analysis for bottom and top players.
 
-### [[Single Leg X-Guard]]
+### [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]]
 
 Master Single Leg X-Guard in BJJ. Strategic guide covering setup, control, sweeps, and leg lock entries with complete perspective analysis.
 
-### [[X-Guard]]
+### [[Positions/X-Guard|X-Guard]]
 
 Master X-Guard in BJJ with comprehensive analysis covering sweeps, entries, and guard retention from both perspectives. Advanced position for all levels.
 
 
 ## Other Techniques
 
-### [[Anaconda Control]]
+### [[Positions/Anaconda Control|Anaconda Control]]
 
 Master Anaconda Control in BJJ. Complete guide covering offensive control from top, defensive survival from bottom, and transitions with expert analysis from all perspectives.
 
-### [[Aoki Lock Control]]
+### [[Positions/Aoki Lock Control|Aoki Lock Control]]
 
 Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.
 
-### [[Armbar Control]]
+### [[Positions/Armbar Control|Armbar Control]]
 
 Master armbar control in BJJ from both offensive and defensive perspectives. Complete strategic guide covering submission mechanics, defense strategies, and position-specific tactics.
 
-### [[Body Lock]]
+### [[Positions/Body Lock|Body Lock]]
 
 Master Body Lock position in BJJ. Complete guide covering standing control, mat returns, back takes, and throws with detailed mechanics for both perspectives.
 
-### [[Buggy Choke]]
+### [[Positions/Buggy Choke|Buggy Choke]]
 
 Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.
 
-### [[Clamp Guard]]
+### [[Positions/Clamp Guard|Clamp Guard]]
 
 Master Clamp Guard in BJJ. Complete guide to trapping opponent's arm with shin-on-bicep control for armbars, triangles, omoplatas, and sweeps. Effective in no-gi.
 
-### [[Clinch]]
+### [[Positions/Clinch|Clinch]]
 
 Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.
 
-### [[Collar Sleeve Guard]]
+### [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]]
 
 Master collar sleeve guard in BJJ. Comprehensive guide covering grip control, off-balancing mechanics, sweeps, and triangle setups with strategic analysis for competition.
 
-### [[Combat Base]]
+### [[Positions/Combat Base|Combat Base]]
 
 Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control.
 
-### [[Crab Ride]]
+### [[Positions/Crab Ride|Crab Ride]]
 
 Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis.
 
-### [[Cross Body Ride]]
+### [[Positions/Cross Body Ride|Cross Body Ride]]
 
 Master Cross Body Ride position in BJJ. Advanced back attack control with 70% back take rate. Complete guide covering harness control, transitions, and submissions.
 
-### [[Crucifix]]
+### [[Positions/Crucifix|Crucifix]]
 
 Master Crucifix position in BJJ. Dominant arm-trapping control with high submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.
 
-### [[Darce Control]]
+### [[Positions/Darce Control|Darce Control]]
 
 Master Darce Control position in BJJ. Dominant front headlock variant with high submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies.
 
-### [[Dead Orchard Control]]
+### [[Positions/Dead Orchard Control|Dead Orchard Control]]
 
 Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.
 
-### [[Dogfight Position]]
+### [[Positions/Dogfight Position|Dogfight Position]]
 
 Master the Dogfight position in BJJ half guard. Dynamic kneeling position with 75% sweep success at advanced levels. Complete guide to underhook battles, back takes, and sweeps.
 
-### [[Double Jump]]
+### [[Positions/Double Jump|Double Jump]]
 
 Master Double Jump position in BJJ. Dynamic half guard control technique with explosive entry mechanics and systematic passing options. Complete guide covering both perspectives.
 
-### [[Double Sleeve Guard]]
+### [[Positions/Double Sleeve Guard|Double Sleeve Guard]]
 
 Master Double Sleeve Guard in BJJ. Strategic guide covering grip control, sweeps, and passing strategies with complete perspective analysis.
 
-### [[Double Unders]]
+### [[Positions/Double Unders|Double Unders]]
 
 Master Double Unders position in BJJ. Strategic guide covering when to use double underhook control, pressure passing mechanics, and defensive survival with complete perspective analysis.
 
-### [[Estima Lock Control]]
+### [[Positions/Estima Lock Control|Estima Lock Control]]
 
 Master Estima Lock position in BJJ. Strategic guide covering inverted footlock mechanics, control from top and bottom perspectives, and submission chains with complete technical analysis.
 
-### [[Feet on Hips Guard]]
+### [[Positions/Feet on Hips Guard|Feet on Hips Guard]]
 
 Master feet on hips guard in BJJ. Strategic guide covering distance management, sweep mechanics, and guard retention with complete bottom and top perspective analysis.
 
-### [[Front Headlock]]
+### [[Positions/Front Headlock|Front Headlock]]
 
 Master front headlock position in BJJ. Strategic control position for setting up guillotines, anacondas, darces, and back takes with complete offensive analysis.
 
-### [[Gift Wrap]]
+### [[Positions/Gift Wrap|Gift Wrap]]
 
 Master Gift Wrap position in BJJ - a dominant back control variation where one arm is trapped. Complete guide covering control mechanics, submission attacks, and defensive escapes.
 
-### [[Gogoplata Control]]
+### [[Positions/Gogoplata Control|Gogoplata Control]]
 
 Master gogoplata control in BJJ. Complete technical guide covering shin-across-throat positioning, submission mechanics, defensive maintenance, and strategic applications.
 
-### [[Grasshopper Guard]]
+### [[Positions/Grasshopper Guard|Grasshopper Guard]]
 
 Master grasshopper guard in BJJ. Strategic guide covering elevation mechanics, leg attacks, and sweep chains with complete offensive and defensive analysis.
 
-### [[Guillotine Control]]
+### [[Positions/Guillotine Control|Guillotine Control]]
 
 Master Guillotine Control position in BJJ. Complete strategic guide covering setup mechanics, grip variations, and finishing paths from both bottom and top perspectives.
 
-### [[Harness]]
+### [[Positions/Harness|Harness]]
 
 Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.
 
-### [[Headquarters Position]]
+### [[Positions/Headquarters Position|Headquarters Position]]
 
 Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.
 
-### [[Hindulotine]]
+### [[Positions/Hindulotine|Hindulotine]]
 
 Master the Hindulotine position in BJJ. High-pressure guillotine variation combining head control with body positioning for submission or back take opportunities.
 
-### [[Inside Sankaku]]
+### [[Positions/Inside Sankaku|Inside Sankaku]]
 
 Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering setup, control mechanics, escapes, and finishing sequences with systematic breakdown.
 
-### [[Inverted Guard]]
+### [[Positions/Inverted Guard|Inverted Guard]]
 
 Master inverted guard in BJJ. Complete guide covering berimbolo entries, back takes, defensive mobility, and transitional pathways with modern competition applications.
 
-### [[Jailbreak]]
+### [[Positions/Jailbreak|Jailbreak]]
 
 Master the Jailbreak position in BJJ. Advanced half guard escape system with 60% success rate covering defensive mechanics, offensive opportunities, and complete perspective analysis.
 
-### [[K-Guard]]
+### [[Positions/K-Guard|K-Guard]]
 
 Master K-Guard position in BJJ. Dynamic half guard variation with inverted hook mechanics, sweep chains, and back-take opportunities. Complete perspective analysis.
 
-### [[Kimura Trap]]
+### [[Positions/Kimura Trap|Kimura Trap]]
 
 Master Kimura Trap position in BJJ. Complete guide covering bottom defensive control and top offensive pressure, with systematic sweeps, submissions, and transitions.
 
-### [[Knee on Belly]]
+### [[Positions/Knee on Belly|Knee on Belly]]
 
 Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.
 
-### [[Kneebar Control]]
+### [[Positions/Kneebar Control|Kneebar Control]]
 
 Master kneebar control position in BJJ. Complete guide covering entry mechanics, finishing sequences, defensive counters, and systematic leg attack applications with detailed analysis.
 
-### [[Lapel Guard]]
+### [[Positions/Lapel Guard|Lapel Guard]]
 
 Master lapel guard in BJJ with comprehensive strategies for control, sweeps, and submissions using gi grips. Includes bottom and top perspectives with transition paths.
 
-### [[Leg Drag Control]]
+### [[Positions/Leg Drag Control|Leg Drag Control]]
 
 Master leg drag control in BJJ. Complete analysis of this dominant passing position covering control mechanics, submission attacks, and strategic transitions from both perspectives.
 
-### [[Leg Entanglement]]
+### [[Positions/Leg Entanglement|Leg Entanglement]]
 
 Master Leg Entanglement positions in BJJ. Complete guide to ashi garami variants, saddle, 50-50, control mechanics, and systematic leg lock attacks with expert progressions.
 
-### [[Leg Hook]]
+### [[Positions/Leg Hook|Leg Hook]]
 
 Master Leg Hook position in BJJ. Transitional half guard control using leg entanglement for sweeps, guard recovery, and leg attacks. Complete guide covering both bottom and top perspectives.
 
-### [[Leg Knot]]
+### [[Positions/Leg Knot|Leg Knot]]
 
 Master Leg Knot position in BJJ. Advanced leg entanglement creating systematic control and multiple submission paths. Complete analysis of both bottom and top perspectives.
 
-### [[Leg Weave]]
+### [[Positions/Leg Weave|Leg Weave]]
 
 Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics, covering both bottom defense and top passing perspectives.
 
-### [[Matrix]]
+### [[Positions/Matrix|Matrix]]
 
 Master the Matrix back take in BJJ. Complete guide to the dynamic rolling technique for taking the back from turtle or scrambles with expert analysis and drill progressions.
 
-### [[North-South]]
+### [[Positions/North-South|North-South]]
 
 Master North-South position in BJJ. Complete guide covering top control dominance, bottom escape strategies, submission attacks, and positional transitions with expert analysis.
 
-### [[Omoplata Control]]
+### [[Positions/Omoplata Control|Omoplata Control]]
 
 Master Omoplata Control in BJJ. Strategic guide covering shoulder lock mechanics, sweep chains, and back take transitions with complete perspective analysis.
 
-### [[Open Guard]]
+### [[Positions/Open Guard|Open Guard]]
 
 Master Open Guard in BJJ. Strategic guide covering distance management, sweep systems, and submission attacks from both bottom and top perspectives.
 
-### [[Overhook Control]]
+### [[Positions/Overhook Control|Overhook Control]]
 
 Master overhook control (whizzer) in BJJ. Complete guide covering offensive attacks, defensive applications, and submission chains from this versatile wrestling control position.
 
-### [[Overhook Guard]]
+### [[Positions/Overhook Guard|Overhook Guard]]
 
 Master Overhook Guard in BJJ. Strategic guide covering control mechanics, sweeps, and back takes with complete bottom/top perspective analysis.
 
-### [[Piranha Guard]]
+### [[Positions/Piranha Guard|Piranha Guard]]
 
 Master Piranha Guard in BJJ. Advanced lapel-based guard with powerful sweeps and back takes. Complete strategic guide covering both bottom and top perspectives with 65% sweep success rate.
 
-### [[Quarter Guard]]
+### [[Positions/Quarter Guard|Quarter Guard]]
 
 Master Quarter Guard in BJJ. Strategic guide covering bottom defense, sweeps, back takes, top passing pressure, and control transitions with complete perspective analysis.
 
-### [[Reverse Mount]]
+### [[Positions/Reverse Mount|Reverse Mount]]
 
 Master Reverse Mount position in BJJ. Strategic guide covering transitional control mechanics, conversion to mount and back control, with complete perspective analysis.
 
-### [[Ringworm Guard]]
+### [[Positions/Ringworm Guard|Ringworm Guard]]
 
 Master Ringworm Guard in BJJ. Advanced lapel guard variation with powerful sweeps and back takes. Complete guide covering entries, techniques, and transitions with interactive visualization.
 
-### [[Rodeo Ride]]
+### [[Positions/Rodeo Ride|Rodeo Ride]]
 
 Master Rodeo Ride position in BJJ. Advanced turtle attack with asymmetric control mechanics. Complete guide covering both offensive attacks and defensive escapes with strategic analysis.
 
-### [[Russian Cowboy]]
+### [[Positions/Russian Cowboy|Russian Cowboy]]
 
 Master Russian Cowboy position in BJJ. Complete guide covering back control variations, truck entries, and twister attacks with strategic analysis.
 
-### [[Seated Guard]]
+### [[Positions/Seated Guard|Seated Guard]]
 
 Master Seated Guard in BJJ. Complete guide covering entries, transitions, and technical standups. Versatile open guard with 50% sweep success at intermediate level.
 
-### [[Shin-to-Shin Guard]]
+### [[Positions/Shin-to-Shin Guard|Shin-to-Shin Guard]]
 
 Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control mechanics, sweep entries, and transitions to X-Guard and leg entanglements with 65% sweep success rate.
 
-### [[Shoulder of Justice]]
+### [[Positions/Shoulder of Justice|Shoulder of Justice]]
 
 Master Shoulder of Justice side control in BJJ. Strategic guide covering shoulder pressure control, submissions, and transitions. Complete perspective analysis with 92% retention rate.
 
-### [[Spider Guard]]
+### [[Positions/Spider Guard|Spider Guard]]
 
 Master Spider Guard in BJJ. Strategic guide covering sleeve control, bicep hooks, sweeps, and submissions from bottom with passing strategies from top.
 
-### [[Squid Guard]]
+### [[Positions/Squid Guard|Squid Guard]]
 
 Master Squid Guard in BJJ. Strategic guide covering asymmetrical control, sweeps, back takes, and passing strategies with complete perspective analysis.
 
-### [[Standing Guard]]
+### [[Positions/Standing Guard|Standing Guard]]
 
 Master Standing Guard in BJJ. Strategic guide covering defensive structure, distance management, and transitions from upright posture with perspective analysis.
 
-### [[Standing Position]]
+### [[Positions/Standing Position|Standing Position]]
 
 Master standing position in BJJ. Complete guide covering grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.
 
-### [[Standing Rear Clinch]]
+### [[Positions/Standing Rear Clinch|Standing Rear Clinch]]
 
 Master Standing Rear Clinch in BJJ. Dominant back control from standing with 70% takedown success. Complete guide covering control mechanics and transitions.
 
-### [[Straight Ankle Lock Control]]
+### [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]]
 
 Master straight ankle lock control in BJJ. Complete strategic guide covering control mechanics, finishing details, defensive counters, and path to submission with expert analysis.
 
-### [[Toe Hold Control]]
+### [[Positions/Toe Hold Control|Toe Hold Control]]
 
 Master Toe Hold Control position in BJJ. Strategic guide covering ankle isolation mechanics, submission setup principles, and defensive protocols with complete perspective analysis.
 
-### [[Triangle Escape Position]]
+### [[Positions/Triangle Escape Position|Triangle Escape Position]]
 
 Master both sides of the triangle in BJJ. Complete guide covering the attacker finishing the choke and chaining to armbar, omoplata, and the back, plus the defender's posture recovery, stacking, and escape sequences, with success rates from 25-75% across skill levels.
 
-### [[Turtle]]
+### [[Positions/Turtle|Turtle]]
 
 Master turtle position in BJJ. Strategic guide covering defensive escapes, guard recovery, and back defense with complete bottom and top perspective analysis.
 
-### [[Vaporizer]]
+### [[Positions/Vaporizer|Vaporizer]]
 
 Master Vaporizer position in BJJ. 10th Planet innovation for lockdown control with transitions to sweeps and submissions. Strategic guide covering both attacking and defending perspectives.
 
-### [[Williams Guard]]
+### [[Positions/Williams Guard|Williams Guard]]
 
 Master Williams Guard in BJJ. Innovative shoulder lock guard with unique control mechanics creating powerful sweeps, submissions, and transitions from both bottom and top perspectives.
 
-### [[Worm Guard]]
+### [[Positions/Worm Guard|Worm Guard]]
 
 Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back takes. Complete guide to this advanced gi position with techniques from both perspectives.
 
-### [[Z-Guard]]
+### [[Positions/Z-Guard|Z-Guard]]
 
 Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions.
 

@@ -283,7 +283,7 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (32% of attempts)
+- **[[Submissions/Rear Naked Choke/from Harness/Attacker|Rear Naked Choke from Harness]]** (32% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
@@ -291,9 +291,9 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (6% of attempts)
 
-- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Harness/Attacker|Bow and Arrow Choke from Harness]]** (0% of attempts)
 
-- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (10% of attempts)
+- **[[Submissions/Short Choke/from Harness/Attacker|Short Choke from Harness]]** (10% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (2% of attempts)
 

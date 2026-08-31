@@ -349,6 +349,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Submissions/North-South Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Guillotine Setup]] - Primary entry transition for establishing chin strap position

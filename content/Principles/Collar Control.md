@@ -460,18 +460,18 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 
 
 ### Related Content
-- [[Closed Guard]] (Position) - Primary application position where collar control enables posture breaking and submission setups
-- [[Spider Guard]] (Position) - Guard variation that heavily emphasizes collar control combined with foot placement for maximum extension
-- [[Collar Sleeve Guard]] (Position) - Guard system built entirely around collar and sleeve control as foundational grips
-- [[Mount]] (Position) - Dominant position where collar control creates powerful submission opportunities through cross collar and ezekiel attacks
-- [[Back Control]] (Position) - Highest value position where collar control sets up rear naked choke and bow and arrow submissions
-- [[Side Control]] (Position) - Control position where far-side collar grips prevent escape and create submission opportunities
-- [[Cross Collar Choke]] (Submission) - Primary collar-based submission that depends entirely on deep collar grip penetration
-- [[Bow and Arrow Choke]] (Submission) - Advanced collar-based submission from back control combining collar grip with pants grip
-- [[Baseball Bat Choke]] (Submission) - Collar-based choke utilizing baseball grip configuration from side control and knee on belly
-- [[Grips]] (Principle) - Prerequisite skill for establishing collar control against resisting opponent
-- [[Posture]] (Principle) - Primary tactical application of collar control in guard positions
-- [[Head Position]] (Principle) - Advanced form of control that extends from deep collar grip penetration
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary application position where collar control enables posture breaking and submission setups
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Guard variation that heavily emphasizes collar control combined with foot placement for maximum extension
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Guard system built entirely around collar and sleeve control as foundational grips
+- [[Positions/Mount|Mount]] (Position) - Dominant position where collar control creates powerful submission opportunities through cross collar and ezekiel attacks
+- [[Positions/Back Control|Back Control]] (Position) - Highest value position where collar control sets up rear naked choke and bow and arrow submissions
+- [[Positions/Side Control|Side Control]] (Position) - Control position where far-side collar grips prevent escape and create submission opportunities
+- [[Submissions/Cross Collar Choke|Cross Collar Choke]] (Submission) - Primary collar-based submission that depends entirely on deep collar grip penetration
+- [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]] (Submission) - Advanced collar-based submission from back control combining collar grip with pants grip
+- [[Submissions/Baseball Bat Choke|Baseball Bat Choke]] (Submission) - Collar-based choke utilizing baseball grip configuration from side control and knee on belly
+- [[Principles/Grips|Grips]] (Principle) - Prerequisite skill for establishing collar control against resisting opponent
+- [[Principles/Posture|Posture]] (Principle) - Primary tactical application of collar control in guard positions
+- [[Principles/Head Position|Head Position]] (Principle) - Advanced form of control that extends from deep collar grip penetration
 
 
 </section>

@@ -227,7 +227,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (11% of attempts)
 
-- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (4% of attempts)
+- **[[Submissions/Electric Chair/from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (4% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (3% of attempts)
 

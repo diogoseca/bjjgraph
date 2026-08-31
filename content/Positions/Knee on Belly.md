@@ -306,21 +306,21 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 
 - **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (16% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (0% of attempts)
+- **[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (0% of attempts)
 
-- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (0% of attempts)
 
 - **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (17% of attempts)
 
-- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (12% of attempts)
+- **[[Submissions/Kimura/from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (12% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
 
-- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (10% of attempts)
+- **[[Submissions/Armbar/from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (10% of attempts)
 
-- **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
+- **[[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -323,7 +323,7 @@ The Seat Belt to Body Triangle transition occupies a pivotal role within the bac
 
 - [[Positions/Back Control]] - Parent position category — both seat belt and body triangle are configurations within back control
 
-- [[Rear Naked Choke from Body Triangle]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
+- [[Submissions/Rear Naked Choke/from Body Triangle]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
 
 - [[Positions/Half Guard]] - Counter outcome — defender may recover half guard if they exploit the hook release during transition
 

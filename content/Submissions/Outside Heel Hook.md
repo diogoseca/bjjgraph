@@ -240,6 +240,7 @@ The position demands systematic control before any finishing attempt: hip contro
 - [[Submissions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
 - [[Transitions/Aoki Lock]] - Named leg lock variant targeting similar structures from entanglements
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar entry during standing-to-ground transitions
+- [[Submissions/Heel Hook/from Backside 50-50]] - Position-specific heel hook variant from back-facing entanglement
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary attacking position for this submission
 - [[Positions/Ashi Garami/Saddle]] - Alternative attacking position with similar mechanics
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Entry position providing outside control

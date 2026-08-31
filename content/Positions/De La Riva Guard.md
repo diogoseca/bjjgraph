@@ -233,11 +233,11 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (11% of attempts)
 
-- **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (3% of attempts)
+- **[[Submissions/Omoplata/from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (3% of attempts)
 
 - **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (5% of attempts)
 
-- **[[Triangle Choke from De La Riva/Attacker|Triangle Choke from De La Riva]]** (3% of attempts)
+- **[[Submissions/Triangle Choke/from De La Riva/Attacker|Triangle Choke from De La Riva]]** (3% of attempts)
 
 - **[[Transitions/De La Riva to Inverted Guard/Attacker|De La Riva to Inverted Guard]]** (4% of attempts)
 

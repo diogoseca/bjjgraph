@@ -378,28 +378,28 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Butterfly Guard]] (Position) - Primary position for entire system implementation
-- [[Butterfly Hook Control]] (Position) - Core control mechanism enabling all sweeps and transitions
-- [[Butterfly Sweep]] (Transition) - Fundamental sweep technique central to system effectiveness
-- [[Basic Butterfly Sweep]] (Transition) - Entry-level sweep variation for beginners learning system
-- [[Arm Drag Sweep]] (Transition) - Key transition combining arm drag with sweep mechanics for back exposure
-- [[Arm Drag to Back]] (Transition) - Essential transition when sweep is defended with hand post
-- [[Single Leg X-Guard]] (Position) - Alternative guard position when opponent leans back to counter butterfly
-- [[Single Leg X Entry]] (Transition) - Transition from butterfly when opponent shifts weight backward
-- [[Back Control]] (Position) - Primary destination from successful arm drags and back takes
-- [[Guillotine Control]] (Position) - Submission threat when opponent pressures forward to pass
-- [[Arm in Guillotine]] (Submission) - Specific guillotine variation highly effective from butterfly guard
-- [[X-Guard]] (Position) - Related guard position sharing similar sweeping mechanics
-- [[Deep Half Guard]] (Position) - Alternative bottom position when butterfly becomes ineffective
-- [[Grips]] (Principle) - Critical skill for winning underhook battles and establishing control
-- [[Control Maintenance]] (Principle) - Core principle for maintaining active hooks and underhook retention throughout exchanges
-- [[Kuzushi]] (Principle) - Fundamental principle underlying all off-balancing and sweep attempts
-- [[Hooks]] (Principle) - Foundational concept governing active butterfly hook engagement and elevation
-- [[Fork Attacks]] (Principle) - Conceptual framework for connecting sweep, back take, and submission threats into forced choices
-- [[Marcelo Garcia Guillotine System]] (System) - Complementary system integrating guillotine attacks with butterfly guard
-- [[Marcelo Garcia X-Guard System]] (System) - Related guard system sharing similar principles and transitions
-- [[No-Gi Competition Approach]] (System) - Competition framework emphasizing butterfly guard in no-gi contexts
-- [[Dynamic Guard System]] (System) - Overarching approach to active guard play incorporating butterfly
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Primary position for entire system implementation
+- [[Positions/Butterfly Guard/Butterfly Hook Control|Butterfly Hook Control]] (Position) - Core control mechanism enabling all sweeps and transitions
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Fundamental sweep technique central to system effectiveness
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - Entry-level sweep variation for beginners learning system
+- [[Transitions/Arm Drag Sweep|Arm Drag Sweep]] (Transition) - Key transition combining arm drag with sweep mechanics for back exposure
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) - Essential transition when sweep is defended with hand post
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Alternative guard position when opponent leans back to counter butterfly
+- [[Transitions/Single Leg X Entry|Single Leg X Entry]] (Transition) - Transition from butterfly when opponent shifts weight backward
+- [[Positions/Back Control|Back Control]] (Position) - Primary destination from successful arm drags and back takes
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Submission threat when opponent pressures forward to pass
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) - Specific guillotine variation highly effective from butterfly guard
+- [[Positions/X-Guard|X-Guard]] (Position) - Related guard position sharing similar sweeping mechanics
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Alternative bottom position when butterfly becomes ineffective
+- [[Principles/Grips|Grips]] (Principle) - Critical skill for winning underhook battles and establishing control
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Core principle for maintaining active hooks and underhook retention throughout exchanges
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Fundamental principle underlying all off-balancing and sweep attempts
+- [[Principles/Hooks|Hooks]] (Principle) - Foundational concept governing active butterfly hook engagement and elevation
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Conceptual framework for connecting sweep, back take, and submission threats into forced choices
+- [[Systems/Marcelo Garcia Guillotine System|Marcelo Garcia Guillotine System]] (System) - Complementary system integrating guillotine attacks with butterfly guard
+- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Related guard system sharing similar principles and transitions
+- [[Systems/No-Gi Competition Approach|No-Gi Competition Approach]] (System) - Competition framework emphasizing butterfly guard in no-gi contexts
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Overarching approach to active guard play incorporating butterfly
 
 
 </section>

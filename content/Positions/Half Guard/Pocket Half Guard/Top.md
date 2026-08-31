@@ -292,7 +292,7 @@ From this position, the top player enjoys significant control advantages, includ
 
 
 **If opponent establishes frames with their free arm:**
-- Execute **[[Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 - Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 

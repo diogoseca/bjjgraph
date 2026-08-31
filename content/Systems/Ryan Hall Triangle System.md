@@ -420,34 +420,34 @@ Hall's triangle system requires systematic drilling progressions that build from
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Closed Guard]] (Position) - Primary starting position for triangle system implementation
-- [[Triangle Control]] (Position) - Central control platform of entire system
-- [[Armbar Control]] (Position) - Primary transition target from triangle position
-- [[Omoplata Control]] (Position) - Alternative submission pathway from triangle position
-- [[Spider Guard]] (Position) - Alternative entry position for triangle attacks
-- [[Mounted Triangle]] (Position) - Advanced triangle variation from mount position
-- [[Rubber Guard]] (Position) - 10th Planet variation integrating triangle mechanics
-- [[De La Riva Guard]] (Position) - Alternative guard position for triangle entries
-- [[Back Control]] (Position) - Alternative transition target from triangle position
-- [[Rear Triangle]] (Position) - Triangle variation from back control position
-- [[Triangle Setup]] (Transition) - Entry mechanics for establishing triangle position
-- [[Closed Guard to Triangle]] (Transition) - Primary entry pathway from closed guard
-- [[Triangle to Armbar]] (Transition) - Core submission chain component
-- [[Triangle to Omoplata]] (Transition) - Alternative submission chain pathway
-- [[Switch to Triangle]] (Transition) - Opportunistic triangle entry from various positions
-- [[Triangle Escape]] (Transition) - Understanding opponent's escape options improves system effectiveness
-- [[Hip Bump Sweep]] (Transition) - Alternative attack from closed guard that sets up triangle opportunities
-- [[Triangle to Back]] (Transition) - Back take pathway from triangle position
-- [[Triangle Choke]] (Submission) - Primary front-facing triangle finish from guard position
-- [[Far Side Armbar]] (Submission) - Secondary armbar finishing option within submission chain
-- [[Omoplata]] (Submission) - Omoplata finishing option and sweep mechanism from triangle position
-- [[Triangle Choke Side]] (Submission) - Angled triangle finish applicable from spider guard and open guard entries
-- [[Submission Chains]] (Principle) - Theoretical framework underlying entire system
-- [[Posture]] (Principle) - Fundamental prerequisite for triangle entries
-- [[Dominant Angles]] (Principle) - Critical mechanical principle for all submissions in system
-- [[Action and Reaction]] (Principle) - Strategic principle driving submission chain logic through forced defensive responses
-- [[Fork Attacks]] (Principle) - Core strategic concept making system effective
-- [[Frames]] (Principle) - Defensive framing foundation supporting guard retention for offensive triangle attacks
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary starting position for triangle system implementation
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Central control platform of entire system
+- [[Positions/Armbar Control|Armbar Control]] (Position) - Primary transition target from triangle position
+- [[Positions/Omoplata Control|Omoplata Control]] (Position) - Alternative submission pathway from triangle position
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Alternative entry position for triangle attacks
+- [[Positions/Mount/Mounted Triangle|Mounted Triangle]] (Position) - Advanced triangle variation from mount position
+- [[Positions/Rubber Guard|Rubber Guard]] (Position) - 10th Planet variation integrating triangle mechanics
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Alternative guard position for triangle entries
+- [[Positions/Back Control|Back Control]] (Position) - Alternative transition target from triangle position
+- [[Positions/Triangle Control/Rear Triangle|Rear Triangle]] (Position) - Triangle variation from back control position
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Entry mechanics for establishing triangle position
+- [[Transitions/Closed Guard to Triangle|Closed Guard to Triangle]] (Transition) - Primary entry pathway from closed guard
+- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition) - Core submission chain component
+- [[Transitions/Triangle to Omoplata|Triangle to Omoplata]] (Transition) - Alternative submission chain pathway
+- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition) - Opportunistic triangle entry from various positions
+- [[Transitions/Triangle Escape|Triangle Escape]] (Transition) - Understanding opponent's escape options improves system effectiveness
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Alternative attack from closed guard that sets up triangle opportunities
+- [[Transitions/Triangle to Back|Triangle to Back]] (Transition) - Back take pathway from triangle position
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Primary front-facing triangle finish from guard position
+- [[Submissions/Far Side Armbar|Far Side Armbar]] (Submission) - Secondary armbar finishing option within submission chain
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Omoplata finishing option and sweep mechanism from triangle position
+- [[Submissions/Triangle Choke Side|Triangle Choke Side]] (Submission) - Angled triangle finish applicable from spider guard and open guard entries
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Theoretical framework underlying entire system
+- [[Principles/Posture|Posture]] (Principle) - Fundamental prerequisite for triangle entries
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Critical mechanical principle for all submissions in system
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Strategic principle driving submission chain logic through forced defensive responses
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core strategic concept making system effective
+- [[Principles/Frames|Frames]] (Principle) - Defensive framing foundation supporting guard retention for offensive triangle attacks
 
 
 </section>

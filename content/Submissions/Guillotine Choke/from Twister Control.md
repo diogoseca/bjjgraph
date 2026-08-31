@@ -310,6 +310,7 @@ Strategically, this submission functions as a trap within the broader Twister sy
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Darce Choke]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Twister Control]] - Starting position providing leg control and spinal rotation that creates the guillotine opportunity
 - [[Positions/Guillotine Control]] - Control position when the guillotine grip is partially secured but not yet finished

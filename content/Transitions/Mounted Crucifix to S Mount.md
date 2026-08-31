@@ -329,7 +329,7 @@ The Mounted Crucifix to S Mount transition fits within the mount attack hierarch
 
 - [[Submissions/Choke from Crucifix]] - Alternative attack from starting position
 
-- [[Armbar from Crucifix]] - Alternative attack from starting position
+- [[Submissions/Armbar/from Crucifix]] - Alternative attack from starting position
 
 - [[Transitions/Back Take from Top]] - Alternative transition if opponent turns during movement
 

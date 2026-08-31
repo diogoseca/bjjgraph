@@ -439,16 +439,16 @@ Practice applying air choke pressure as a positional control tool rather than a 
 
 
 ### Related Content
-- [[Chin Protection]] (Principle) - Primary defensive principle against chokes, though chin tucking can worsen tracheal compression in some air choke situations
-- [[Submission Defense]] (Principle) - Air choke defense requires specific awareness of tracheal injury risk and early tap protocols that differ from blood choke defense
-- [[Pressure]] (Principle) - Body weight and positional pressure amplify air choke effectiveness by adding force to tracheal compression without muscular effort
-- [[Grips]] (Principle) - Grip depth and collar placement determine whether a choke targets the trachea or the carotid arteries
-- [[Mount]] (Position) - Primary position for Ezekiel choke application, the most common dedicated air choke technique in BJJ
-- [[Guillotine Control]] (Position) - Guillotine variations frequently have air choke components when the arm is not deep enough for pure vascular compression
-- [[Back Control]] (Position) - Rear naked choke attempts that slip to the front of the throat become air chokes requiring mechanical adjustment
-- [[Head Position]] (Principle) - Head control determines tracheal exposure and affects whether choking pressure lands on the windpipe or the carotid arteries
-- [[Control Maintenance]] (Principle) - Air chokes require sustained positional control because they take longer to finish than blood chokes
-- [[Von Flue Choke from Side Control]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - Primary defensive principle against chokes, though chin tucking can worsen tracheal compression in some air choke situations
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Air choke defense requires specific awareness of tracheal injury risk and early tap protocols that differ from blood choke defense
+- [[Principles/Pressure|Pressure]] (Principle) - Body weight and positional pressure amplify air choke effectiveness by adding force to tracheal compression without muscular effort
+- [[Principles/Grips|Grips]] (Principle) - Grip depth and collar placement determine whether a choke targets the trachea or the carotid arteries
+- [[Positions/Mount|Mount]] (Position) - Primary position for Ezekiel choke application, the most common dedicated air choke technique in BJJ
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Guillotine variations frequently have air choke components when the arm is not deep enough for pure vascular compression
+- [[Positions/Back Control|Back Control]] (Position) - Rear naked choke attempts that slip to the front of the throat become air chokes requiring mechanical adjustment
+- [[Principles/Head Position|Head Position]] (Principle) - Head control determines tracheal exposure and affects whether choking pressure lands on the windpipe or the carotid arteries
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Air chokes require sustained positional control because they take longer to finish than blood chokes
+- [[Submissions/Von Flue Choke/from Side Control|Von Flue Choke from Side Control]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
 
 
 </section>

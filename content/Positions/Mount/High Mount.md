@@ -289,15 +289,15 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (13% of attempts)
 
-- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from High Mount/Attacker|Cross Collar Choke from High Mount]]** (0% of attempts)
 
-- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
+- **[[Submissions/Americana/from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
 
 - **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (6% of attempts)
 
-- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (5% of attempts)
+- **[[Submissions/Kimura/from High Mount/Attacker|Kimura from High Mount]]** (5% of attempts)
 
-- **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (11% of attempts)
+- **[[Submissions/Arm Triangle/from High Mount/Attacker|Arm Triangle from High Mount]]** (11% of attempts)
 
 - **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (12% of attempts)
 
@@ -309,7 +309,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (9% of attempts)
 
-- **[[Armbar from High Mount/Attacker|Armbar from High Mount]]** (13% of attempts)
+- **[[Submissions/Armbar/from High Mount/Attacker|Armbar from High Mount]]** (13% of attempts)
 
 
 ### Common Mistakes

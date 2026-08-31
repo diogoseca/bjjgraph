@@ -243,7 +243,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 - **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (9% of attempts)
 
-- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (12% of attempts)
+- **[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -318,7 +318,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 - **[[Transitions/Counter from Ankle Lock/Attacker|Counter from Ankle Lock]]** (10% of attempts)
 
-- **[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|Straight Ankle Lock from Straight Ankle Lock Control]]** (10% of attempts)
+- **[[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Straight Ankle Lock from Straight Ankle Lock Control]]** (10% of attempts)
 
 
 ### Common Mistakes

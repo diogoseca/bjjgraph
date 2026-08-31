@@ -439,18 +439,18 @@ Regular review of defensive sequences through video analysis or partner discussi
 
 
 ### Related Content
-- [[Positional Hierarchy]] (Principle) - Provides structured framework for prioritizing defensive objectives that implements the philosophical principles of Defensive Concepts in systematic hierarchy
-- [[Dealing with Pressure]] (Principle) - Tactical application of Defensive Concepts to specific pressure scenarios, translating conceptual defensive philosophy into practical responses for managing sustained opponent control
-- [[Frames]] (Principle) - Technical component of Defensive Concepts focusing specifically on physical frame construction and maintenance as primary defensive mechanism
-- [[Distance Control]] (Principle) - Essential technical skill within Defensive Concepts framework, addressing how to generate distance necessary for guard recovery from compressed defensive positions
-- [[Energy Conservation]] (Principle) - Complementary concept governing energy management decisions that integrate with Defensive Concepts to determine when to invest effort versus maintain technical positioning
-- [[Mount]] (Position) - Quintessential worst-case defensive position where Defensive Concepts application is most critical for survival and eventual escape
-- [[Back Control]] (Position) - Highest-danger defensive position requiring sophisticated Defensive Concepts implementation to survive choke threats while working toward escape
-- [[Side Control]] (Position) - Common disadvantageous position where Defensive Concepts inform decisions about frame maintenance, energy conservation, and escape timing
-- [[Elbow Escape to Guard]] (Transition) - Fundamental defensive escape technique that exemplifies staged defensive progression principles central to Defensive Concepts philosophy
-- [[Bridge and Roll]] (Transition) - Classic defensive escape demonstrating how Defensive Concepts principles apply to explosive defensive techniques when appropriate timing and opportunity exist
-- [[Submission Defense]] (Principle) - Addresses the highest-priority defensive objective within the Defensive Concepts hierarchy, focusing specifically on surviving and escaping submission attempts
-- [[Escape Fundamentals]] (Principle) - Ultimate objective of most defensive sequences, representing successful implementation of Defensive Concepts through staged progression from survival to neutral positioning
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Provides structured framework for prioritizing defensive objectives that implements the philosophical principles of Defensive Concepts in systematic hierarchy
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Tactical application of Defensive Concepts to specific pressure scenarios, translating conceptual defensive philosophy into practical responses for managing sustained opponent control
+- [[Principles/Frames|Frames]] (Principle) - Technical component of Defensive Concepts focusing specifically on physical frame construction and maintenance as primary defensive mechanism
+- [[Principles/Distance Control|Distance Control]] (Principle) - Essential technical skill within Defensive Concepts framework, addressing how to generate distance necessary for guard recovery from compressed defensive positions
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Complementary concept governing energy management decisions that integrate with Defensive Concepts to determine when to invest effort versus maintain technical positioning
+- [[Positions/Mount|Mount]] (Position) - Quintessential worst-case defensive position where Defensive Concepts application is most critical for survival and eventual escape
+- [[Positions/Back Control|Back Control]] (Position) - Highest-danger defensive position requiring sophisticated Defensive Concepts implementation to survive choke threats while working toward escape
+- [[Positions/Side Control|Side Control]] (Position) - Common disadvantageous position where Defensive Concepts inform decisions about frame maintenance, energy conservation, and escape timing
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Fundamental defensive escape technique that exemplifies staged defensive progression principles central to Defensive Concepts philosophy
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Classic defensive escape demonstrating how Defensive Concepts principles apply to explosive defensive techniques when appropriate timing and opportunity exist
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Addresses the highest-priority defensive objective within the Defensive Concepts hierarchy, focusing specifically on surviving and escaping submission attempts
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Ultimate objective of most defensive sequences, representing successful implementation of Defensive Concepts through staged progression from survival to neutral positioning
 
 
 </section>

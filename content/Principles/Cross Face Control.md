@@ -462,17 +462,17 @@ Flow roll with rule that top person must maintain some form of crossface control
 
 
 ### Related Content
-- [[Side Control]] (Position) - Primary position where crossface control is fundamental to dominance
-- [[Knee on Belly]] (Position) - Position where crossface prevents opponent from addressing knee pressure
-- [[Scarf Hold Position]] (Position) - Position featuring modified crossface application with arm wrapped around head
-- [[Mount]] (Position) - Position where crossface isolates arm and prevents effective defensive bridging
-- [[Crossface Pass]] (Transition) - Specific passing technique built entirely around crossface control mechanics
-- [[Knee Slice Pass]] (Transition) - Pass where crossface prevents opponent from turning in during knee slice
-- [[Arm Triangle]] (Submission) - Submission often set up by crossface control that isolates opponent's arm
-- [[Head Position]] (Principle) - Broader principle that crossface control specifically implements
-- [[Shoulder Pressure]] (Principle) - Complementary pressure concept that reinforces crossface effectiveness
-- [[Hip Pressure]] (Principle) - Complementary lower body control that works with crossface for comprehensive dominance
-- [[Bernardo Faria Pressure System]] (System) - Systematic approach emphasizing crossface as core element of pressure passing
+- [[Positions/Side Control|Side Control]] (Position) - Primary position where crossface control is fundamental to dominance
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Position where crossface prevents opponent from addressing knee pressure
+- [[Positions/Side Control/Scarf Hold Position|Scarf Hold Position]] (Position) - Position featuring modified crossface application with arm wrapped around head
+- [[Positions/Mount|Mount]] (Position) - Position where crossface isolates arm and prevents effective defensive bridging
+- [[Transitions/Crossface Pass|Crossface Pass]] (Transition) - Specific passing technique built entirely around crossface control mechanics
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Pass where crossface prevents opponent from turning in during knee slice
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) - Submission often set up by crossface control that isolates opponent's arm
+- [[Principles/Head Position|Head Position]] (Principle) - Broader principle that crossface control specifically implements
+- [[Principles/Shoulder Pressure|Shoulder Pressure]] (Principle) - Complementary pressure concept that reinforces crossface effectiveness
+- [[Principles/Hip Pressure|Hip Pressure]] (Principle) - Complementary lower body control that works with crossface for comprehensive dominance
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Systematic approach emphasizing crossface as core element of pressure passing
 
 
 </section>

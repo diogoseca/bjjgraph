@@ -442,18 +442,18 @@ Structured review process after training sessions examining both technical execu
 
 
 ### Related Content
-- [[Transition Management]] (Principle) - Thorough transition planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
-- [[Energy Conservation]] (Principle) - Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches
-- [[Grips]] (Principle) - Grip fighting is the first tactical battleground where competition mindset and composure directly determine early match momentum
-- [[Mental Game Framework]] (System) - Broader psychological skills system of which competition mindset is a specific competitive application
-- [[Competition Strategy]] (System) - Systematic framework for developing the physical, technical, and psychological readiness required for competition
-- [[Positional Sparring]] (Principle) - Systematic positional sparring provides the pressure exposure necessary to develop competition mindset
-- [[Defensive Concepts]] (Principle) - Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions
-- [[Back Control]] (Position) - Strong mental state prevents rushed finishing attempts from back control driven by anxiety about time expiration
-- [[Fork Attacks]] (Principle) - Competition mindset enables execution of dilemma-based attack sequences that require composed tactical sequencing under pressure
-- [[Competition Preparation System]] (System) - Comprehensive preparation system that integrates physical, technical, and psychological readiness for competitive events
-- [[Flow Rolling]] (Principle) - Structured rolling builds the technical automaticity that frees cognitive resources for psychological regulation during competition
-- [[Control Maintenance]] (Principle) - Sustained control from dominant positions requires mental discipline to avoid complacency or premature attacks driven by anxiety
+- [[Principles/Transition Management|Transition Management]] (Principle) - Thorough transition planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches
+- [[Principles/Grips|Grips]] (Principle) - Grip fighting is the first tactical battleground where competition mindset and composure directly determine early match momentum
+- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - Broader psychological skills system of which competition mindset is a specific competitive application
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Systematic framework for developing the physical, technical, and psychological readiness required for competition
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Systematic positional sparring provides the pressure exposure necessary to develop competition mindset
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions
+- [[Positions/Back Control|Back Control]] (Position) - Strong mental state prevents rushed finishing attempts from back control driven by anxiety about time expiration
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Competition mindset enables execution of dilemma-based attack sequences that require composed tactical sequencing under pressure
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Comprehensive preparation system that integrates physical, technical, and psychological readiness for competitive events
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Structured rolling builds the technical automaticity that frees cognitive resources for psychological regulation during competition
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Sustained control from dominant positions requires mental discipline to avoid complacency or premature attacks driven by anxiety
 
 
 </section>

@@ -464,18 +464,18 @@ Conduct specific sparring rounds where practitioner only attempts finishes throu
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Systematic pressure application creates the defensive reactions that dilemma creation structures into forced binary choices with prepared counter-sequences
-- [[Submission Chains]] (Principle) - Provides technical submission sequences that comprise individual branches within dilemma frameworks
-- [[Position Chains]] (Principle) - Position chain methodology provides framework for linking positions into offensive sequences where dilemma creation adds forcing mechanisms at each decision point
-- [[Back Attack System]] (System) - Premier example of complete dilemma-based system with rear naked choke-armbar structure forcing binary defensive choices
-- [[B-Team Dilemma System]] (System) - Comprehensive modern dilemma-based approach popularized by Craig Jones emphasizing systematic forcing of no-win scenarios
-- [[Closed Guard]] (Position) - Classical position for dilemma construction with triangle-armbar-omoplata system as fundamental example
-- [[Back Control]] (Position) - Highest-percentage position for dilemma application with rear naked choke-armbar creating ultimate finishing dilemma
-- [[Mount]] (Position) - Dominant position allowing multiple simultaneous threats with armbar-triangle-mounted guillotine dilemma structures
-- [[Ashi Garami]] (Position) - Modern leg entanglement position with heel hook-kneebar dilemmas fundamental to contemporary leg lock systems
-- [[Triangle Setup]] (Transition) - Common component of guard-based dilemmas where triangle threat forces defensive responses exposing armbar or omoplata
-- [[Forward Pressure]] (Principle) - Sustained offensive initiative that complements dilemma construction by preventing defensive resets between threat presentations
-- [[Control Point Hierarchy]] (Principle) - Essential for understanding which positions provide sufficient control to maintain multiple simultaneous threats
+- [[Principles/Pressure|Pressure]] (Principle) - Systematic pressure application creates the defensive reactions that dilemma creation structures into forced binary choices with prepared counter-sequences
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Provides technical submission sequences that comprise individual branches within dilemma frameworks
+- [[Principles/Position Chains|Position Chains]] (Principle) - Position chain methodology provides framework for linking positions into offensive sequences where dilemma creation adds forcing mechanisms at each decision point
+- [[Systems/Back Attack System|Back Attack System]] (System) - Premier example of complete dilemma-based system with rear naked choke-armbar structure forcing binary defensive choices
+- [[Systems/B-Team Dilemma System|B-Team Dilemma System]] (System) - Comprehensive modern dilemma-based approach popularized by Craig Jones emphasizing systematic forcing of no-win scenarios
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classical position for dilemma construction with triangle-armbar-omoplata system as fundamental example
+- [[Positions/Back Control|Back Control]] (Position) - Highest-percentage position for dilemma application with rear naked choke-armbar creating ultimate finishing dilemma
+- [[Positions/Mount|Mount]] (Position) - Dominant position allowing multiple simultaneous threats with armbar-triangle-mounted guillotine dilemma structures
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Modern leg entanglement position with heel hook-kneebar dilemmas fundamental to contemporary leg lock systems
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Common component of guard-based dilemmas where triangle threat forces defensive responses exposing armbar or omoplata
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Sustained offensive initiative that complements dilemma construction by preventing defensive resets between threat presentations
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Essential for understanding which positions provide sufficient control to maintain multiple simultaneous threats
 
 
 </section>

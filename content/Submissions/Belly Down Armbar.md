@@ -216,6 +216,7 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 ## Related
 - [[Submissions/Americana]] - Alternative shoulder lock from similar top control positions
+- [[Submissions/Flying Armbar/from Closed Guard]] - Dynamic armbar variation that can transition to belly down when defended
 - [[Submissions/Bicep Slicer]] - Compression lock that chains when opponent bends arm to defend armbar
 - [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
 - [[Submissions/Kimura]] - Alternative arm lock from same position creating submission combinations

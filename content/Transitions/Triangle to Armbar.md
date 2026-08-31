@@ -341,7 +341,7 @@ The triangle to armbar transition is a cornerstone of comprehensive guard attack
 
 - [[Transitions/Triangle to Back]] - Positional transition when opponent extracts trapped arm
 
-- [[Armbar from Armbar Control]] - Finishing submission applied from armbar control position after successful transition
+- [[Submissions/Armbar/from Armbar Control]] - Finishing submission applied from armbar control position after successful transition
 
 - [[Positions/Closed Guard]] - Primary guard position from which triangle is established
 

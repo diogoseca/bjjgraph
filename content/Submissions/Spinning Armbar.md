@@ -204,8 +204,18 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 <section id="related" class="content-section">
 
 ## Related
+- [[Submissions/Armbar/from Guard]] - Traditional guard armbar that spinning variant provides dynamic alternative entry for
+- [[Submissions/Armbar/from Mount]] - Standard mounted armbar sharing arm isolation and finishing mechanics
+- [[Submissions/Armbar/from High Mount]] - Armbar from elevated mount position often preceding spinning entries
+- [[Submissions/Armbar/from S Mount]] - Asymmetric armbar finish that spinning motion can transition into
+- [[Submissions/Armbar/from Back]] - Alternative armbar angle from back control after failed spinning entry
+- [[Submissions/Armbar/from Crucifix]] - Arm isolation submission sharing similar extension and control principles
+- [[Submissions/Armbar/from Knee on Belly]] - Dynamic armbar entry sharing explosive timing and commitment requirements
+- [[Submissions/Armbar/from Side Control]] - Lateral armbar variation sharing arm control and transition concepts
+- [[Submissions/Armbar/from Technical Mount]] - Rotational armbar entry sharing transitional mechanics with spinning variant
 - [[Submissions/Americana]] - Alternative shoulder lock when spinning armbar rotation is blocked
 - [[Submissions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
+- [[Submissions/Flying Armbar/from Closed Guard]] - Another explosive armbar variation requiring timing and commitment
 - [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline
 - [[Submissions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
 - [[Submissions/Omoplata]] - Alternative dynamic attack from similar positions

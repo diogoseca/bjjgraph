@@ -253,6 +253,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 - [[Submissions/Far Side Armbar]] - Alternative arm attack; transition target when opponent straightens arm to defend Americana rotation
 - [[Submissions/Cross Collar Choke]] - Complementary gi attack from mount that forces hands to neck defense, exposing arms for Americana
 - [[Submissions/Bicep Slicer]] - Advanced compression lock targeting same limb when opponent defends traditional shoulder lock
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]] - Arm isolation technique creating Americana setup opportunities from gift wrap control position
 - [[Submissions/Arm Crush]] - Alternative joint attack from side control targeting similar near-arm positioning
 - [[Submissions/Baseball Bat Choke]] - Complementary gi choke from knee on belly that chains with Americana threats in attack sequences
 - [[Positions/Mount]] - Primary attacking position - provides excellent base and control for Americana execution with chest pressure and weight distribution advantages

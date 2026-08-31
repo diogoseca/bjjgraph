@@ -183,7 +183,13 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 - [[Submissions/Americana]] - Traditional shoulder lock using figure-four grip with bent-arm lateral rotation mechanics
 - [[Submissions/Kimura]] - Related shoulder lock using internal rotation that chains with Mir Lock attacks
 - [[Submissions/Arm Triangle]] - Head and arm choke available from similar side control setups and positioning
+- [[Submissions/Americana/from Side Control]] - Most direct shoulder lock alternative from the primary starting position
+- [[Submissions/Americana/from North-South]] - Shoulder lock alternative from secondary Mir Lock starting position
+- [[Submissions/Americana/from Kesa Gatame]] - Shoulder lock from scarf hold using similar arm isolation mechanics
+- [[Submissions/Arm Crush/from Side Control]] - Compression-based arm attack from the same primary control position
 - [[Submissions/Omoplata]] - Alternative shoulder lock attacking the same joint from bottom guard position
+- [[Submissions/Armbar/from Side Control]] - High-percentage arm attack when opponent straightens arm defending shoulder locks
+- [[Submissions/Americana/from Modified Mount]] - Shoulder lock variant sharing the same modified mount setup opportunities
 - [[Positions/Kimura Trap]] - Control position for isolating the arm with similar shoulder lock mechanics and grip configurations
 - [[Positions/Side Control]] - Primary starting position for applying the Mir Lock with dominant control
 - [[Positions/North-South]] - Alternative top position offering excellent Mir Lock opportunities with limited escape options

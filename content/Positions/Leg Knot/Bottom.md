@@ -450,7 +450,7 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Offensive counter-position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement threat
-- **[[Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
+- **[[Submissions/Heel Hook/from Saddle]]** - Primary submission threat to defend against from advanced entanglement
 - **[[Positions/Leg Entanglement]]** - Core conceptual framework
 
 

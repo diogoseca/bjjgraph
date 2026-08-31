@@ -182,6 +182,7 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Common transition when opponent rotates knee inward during kneebar defense
+- [[Submissions/Flying Armbar/from Closed Guard]] - Similar dynamic aerial submission with comparable risk-reward profile
 - [[Submissions/Straight Ankle Lock]] - Foundational leg lock from similar Ashi Garami finishing positions
 - [[Submissions/Outside Heel Hook]] - Alternative rotational leg lock from shared entanglement positions
 - [[Submissions/Heel Hook]] - Primary heel hook family sharing leg control positions with kneebar
@@ -189,6 +190,7 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 - [[Submissions/Estima Lock]] - Foot lock targeting ankle from standing guard exchanges
 - [[Submissions/Achilles Lock]] - Fundamental straight ankle lock from Ashi Garami positions
 - [[Submissions/Calf Slicer]] - Compression submission option when opponent bends knee defensively against kneebar
+- [[Submissions/Ankle Lock/from X-Guard]] - Alternative leg lock with dynamic guard-based entry to similar finishing position
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Landing position after successful flying kneebar entry
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative leg entanglement with similar control structure
 - [[Positions/Ashi Garami]] - Static entry to same leg lock position system

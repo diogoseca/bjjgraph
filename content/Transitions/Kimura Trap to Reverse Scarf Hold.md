@@ -329,7 +329,7 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement from similar starting configuration
 
-- [[Americana from Reverse Scarf Hold]] - Follow-up submission available from Reverse Scarf Hold after transition
+- [[Submissions/Americana/from Reverse Scarf Hold]] - Follow-up submission available from Reverse Scarf Hold after transition
 
 - [[Positions/North-South]] - Secondary transition target accessible from Reverse Scarf Hold
 
@@ -339,7 +339,7 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 
 - [[Positions/Half Guard]] - Position opponent may recover to if transition is poorly executed
 
-- [[Arm Triangle from Reverse Scarf Hold]] - Submission option available from Reverse Scarf Hold after successful transition
+- [[Submissions/Arm Triangle/from Reverse Scarf Hold]] - Submission option available from Reverse Scarf Hold after successful transition
 
 
 </section>

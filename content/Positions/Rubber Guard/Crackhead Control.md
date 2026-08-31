@@ -229,15 +229,15 @@ The position's integration within the broader 10th Planet system provides multip
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (11% of attempts)
 
-- **[[Omoplata from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (12% of attempts)
+- **[[Submissions/Omoplata/from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (12% of attempts)
 
-- **[[Triangle Choke from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (17% of attempts)
+- **[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (17% of attempts)
 
 - **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (11% of attempts)
 
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (14% of attempts)
 
-- **[[Baratoplata from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (8% of attempts)
+- **[[Submissions/Baratoplata/from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (8% of attempts)
 
 - **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (15% of attempts)
 

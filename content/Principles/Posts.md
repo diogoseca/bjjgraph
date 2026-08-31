@@ -459,19 +459,19 @@ From kneeling or standing positions, partner pushes and pulls in random directio
 
 
 ### Related Content
-- [[Base]] (Principle) - Posts are the reactive emergency extension of base mechanics — they recover base when it is compromised
-- [[Kuzushi]] (Principle) - Posts directly counter off-balancing attempts and must be denied for sweeps to succeed
-- [[Center of Gravity]] (Principle) - Posts extend the support polygon to recapture a shifting center of gravity
-- [[Frames]] (Principle) - Frames resist lateral force while posts resist displacement toward the ground — both are structural defenses
-- [[Grips]] (Principle) - Posts and grips compete for the same limbs — releasing a grip to post is a fundamental tactical trade-off
-- [[Head Position]] (Principle) - The head can serve as a post when hands are occupied, extending posting options
-- [[Mount]] (Position) - Hand and foot posts from mount prevent being rolled by the bottom player's bridge
-- [[Closed Guard]] (Position) - Hand posts behind or to the side catch sweeps from inside closed guard
-- [[Butterfly Guard]] (Position) - Denying the top player's hand posts is the key to successful butterfly sweeps
-- [[Combat Base]] (Position) - Combat base is a designed posting structure — one foot posted for base, one knee for stability
-- [[Turtle]] (Position) - Turtle is a four-point posting structure that collapses when posts are removed
-- [[Basic Butterfly Sweep]] (Transition) - Denying the opponent's hand posts is the critical detail that makes butterfly sweeps succeed
-- [[Balloon Sweep]] (Transition) - The sweep elevates and topples the opponent; their post is the primary defense against being rolled over
+- [[Principles/Base|Base]] (Principle) - Posts are the reactive emergency extension of base mechanics — they recover base when it is compromised
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Posts directly counter off-balancing attempts and must be denied for sweeps to succeed
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Posts extend the support polygon to recapture a shifting center of gravity
+- [[Principles/Frames|Frames]] (Principle) - Frames resist lateral force while posts resist displacement toward the ground — both are structural defenses
+- [[Principles/Grips|Grips]] (Principle) - Posts and grips compete for the same limbs — releasing a grip to post is a fundamental tactical trade-off
+- [[Principles/Head Position|Head Position]] (Principle) - The head can serve as a post when hands are occupied, extending posting options
+- [[Positions/Mount|Mount]] (Position) - Hand and foot posts from mount prevent being rolled by the bottom player's bridge
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Hand posts behind or to the side catch sweeps from inside closed guard
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Denying the top player's hand posts is the key to successful butterfly sweeps
+- [[Positions/Combat Base|Combat Base]] (Position) - Combat base is a designed posting structure — one foot posted for base, one knee for stability
+- [[Positions/Turtle|Turtle]] (Position) - Turtle is a four-point posting structure that collapses when posts are removed
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - Denying the opponent's hand posts is the critical detail that makes butterfly sweeps succeed
+- [[Transitions/Balloon Sweep|Balloon Sweep]] (Transition) - The sweep elevates and topples the opponent; their post is the primary defense against being rolled over
 
 
 </section>

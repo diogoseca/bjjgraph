@@ -337,7 +337,7 @@ The S Mount Armbar Setup serves as the critical bridge between mount-based posit
 
 - [[Transitions/Mount to Armbar]] - Primary armbar transition from mount hierarchy that flows through S Mount as an intermediate attacking position
 
-- [[Armbar from Armbar Control]] - Finishing submission executed from the armbar control position this setup creates
+- [[Submissions/Armbar/from Armbar Control]] - Finishing submission executed from the armbar control position this setup creates
 
 - [[Transitions/Frame and Shrimp from S Mount]] - Primary defensive technique opponents use to prevent this setup
 

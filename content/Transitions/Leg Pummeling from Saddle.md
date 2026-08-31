@@ -320,7 +320,7 @@ Leg pummeling from saddle occupies a critical position in the leg lock escape hi
 
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for saddle in some systems, same starting position applies
 
-- [[Heel Hook from Saddle]] - Primary submission threat the pummeling escape aims to prevent
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission threat the pummeling escape aims to prevent
 
 - [[Positions/Leg Entanglement]] - Conceptual framework governing the hierarchy of positions involved in this escape
 

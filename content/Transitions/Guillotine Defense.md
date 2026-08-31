@@ -333,7 +333,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 - [[Positions/Front Headlock]] - Starting position where guillotine threats commonly emerge
 
-- [[Von Flue Choke from Side Control]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
+- [[Submissions/Von Flue Choke/from Side Control]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
 
 - [[Transitions/Guillotine Counter]] - Alternative defensive approach focusing on positional counters rather than direct escape
 
@@ -353,7 +353,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 - [[Positions/Side Control]] - Primary successful outcome position after completing guillotine defense
 
-- [[Chin Strap Guillotine from Front Headlock]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
 
 
 </section>

@@ -318,7 +318,7 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Transitions/Arm Triangle from Top]] - Related transition - arm triangle setup from different starting position
 
-- [[Arm Triangle from Turtle]] - Related transition - arm triangle entry from turtle control
+- [[Submissions/Arm Triangle/from Turtle]] - Related transition - arm triangle entry from turtle control
 
 - [[Transitions/Front Headlock to Guillotine]] - System context - overall front headlock attack flow that includes this transition
 

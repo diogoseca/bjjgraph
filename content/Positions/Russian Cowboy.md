@@ -294,15 +294,15 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (16% of attempts)
 
-- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (11% of attempts)
+- **[[Submissions/Twister/from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (11% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (18% of attempts)
+- **[[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (18% of attempts)
 
-- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (8% of attempts)
+- **[[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (8% of attempts)
 
-- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (0% of attempts)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 

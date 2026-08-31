@@ -340,7 +340,7 @@ The Boot Scoot Escape from Saddle occupies a critical role in the leg lock defen
 
 - [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 
-- [[Heel Hook from Saddle]] - Primary submission threat motivating this escape
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission threat motivating this escape
 
 
 </section>

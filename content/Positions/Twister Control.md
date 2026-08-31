@@ -297,15 +297,15 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Twister from Twister Control/Attacker|Twister from Twister Control]]** (33% of attempts)
+- **[[Submissions/Twister/from Twister Control/Attacker|Twister from Twister Control]]** (33% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (22% of attempts)
 
-- **[[Guillotine Choke from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (18% of attempts)
+- **[[Submissions/Guillotine Choke/from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (18% of attempts)
 
-- **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** (13% of attempts)
+- **[[Submissions/Neck Crank/from Twister Control/Attacker|Neck Crank from Twister Control]]** (13% of attempts)
 
-- **[[Calf Slicer from Twister Control/Attacker|Calf Slicer from Twister Control]]** (14% of attempts)
+- **[[Submissions/Calf Slicer/from Twister Control/Attacker|Calf Slicer from Twister Control]]** (14% of attempts)
 
 
 ### Common Mistakes

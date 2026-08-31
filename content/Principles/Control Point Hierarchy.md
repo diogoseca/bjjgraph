@@ -444,18 +444,18 @@ Compare maintenance of position with dispersed control (six different grip/conta
 
 
 ### Related Content
-- [[Positional Hierarchy]] (Principle) - Parent concept that ranks positions themselves, while Control Point Hierarchy addresses dominance within positions
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy that Control Point Hierarchy operationalizes through systematic control acquisition
-- [[Control Maintenance]] (Principle) - Complementary concept focusing on sustaining controls identified as high-value by hierarchy
-- [[Mount]] (Position) - Premier position where control point hierarchy manifests through head control, high mount, and arm isolation progression
-- [[Back Control]] (Position) - Highest-value position where seatbelt, hooks, and head control hierarchy determines submission success
-- [[North-South]] (Position) - Top position demonstrating hierarchy from shoulder pressure to head control to arm and kimura control
-- [[Pressure]] (Principle) - Mechanical means of enforcing control points identified within hierarchy
-- [[Frames]] (Principle) - Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition
-- [[Position Chains]] (Principle) - Advanced application where sufficient control point acquisition enables safe chaining of finishing and positional advances in sequence
-- [[Half Guard]] (Position) - Position where underhook control represents apex of hierarchy for bottom player
-- [[Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
-- [[Inside Position]] (Principle) - Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Parent concept that ranks positions themselves, while Control Point Hierarchy addresses dominance within positions
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy that Control Point Hierarchy operationalizes through systematic control acquisition
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Complementary concept focusing on sustaining controls identified as high-value by hierarchy
+- [[Positions/Mount|Mount]] (Position) - Premier position where control point hierarchy manifests through head control, high mount, and arm isolation progression
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position where seatbelt, hooks, and head control hierarchy determines submission success
+- [[Positions/North-South|North-South]] (Position) - Top position demonstrating hierarchy from shoulder pressure to head control to arm and kimura control
+- [[Principles/Pressure|Pressure]] (Principle) - Mechanical means of enforcing control points identified within hierarchy
+- [[Principles/Frames|Frames]] (Principle) - Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition
+- [[Principles/Position Chains|Position Chains]] (Principle) - Advanced application where sufficient control point acquisition enables safe chaining of finishing and positional advances in sequence
+- [[Positions/Half Guard|Half Guard]] (Position) - Position where underhook control represents apex of hierarchy for bottom player
+- [[Positions/Crucifix|Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
+- [[Principles/Inside Position|Inside Position]] (Principle) - Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value
 
 
 </section>

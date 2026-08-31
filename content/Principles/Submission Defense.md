@@ -458,18 +458,18 @@ Training focused on identifying submission setups in preliminary stages before a
 
 
 ### Related Content
-- [[Defensive Concepts]] (Principle) - Provides theoretical framework and conceptual models for understanding defensive principles including submission defense
-- [[Escape Fundamentals]] (Principle) - Defines the systematic approach and priorities for escaping inferior positions including submission threats
-- [[Frames]] (Principle) - Foundational mechanical skill underlying most submission defensive techniques
-- [[Distance Control]] (Principle) - Essential movement principle for generating gaps necessary to execute submission escapes
-- [[Armbar Defense]] (Transition) - Specific technical application of submission defense principles to armbar escapes
-- [[Guillotine Defense]] (Transition) - Specific technical application focused on defending and escaping guillotine choke variations
-- [[Triangle Escape]] (Transition) - Detailed escape sequences for triangle chokes applying submission defense principles
-- [[Kimura Defense]] (Transition) - Technical defenses and escapes specific to kimura shoulder lock attacks
-- [[Back Control]] (Position) - High-risk position requiring comprehensive submission defense against choke and armbar threats
-- [[Mount]] (Position) - Dominant position from which multiple submission categories threaten, requiring diverse defensive skills
-- [[Honey Hole]] (Position) - Modern leg entanglement position with high submission rate requiring specialized heel hook defense
-- [[Position-Over-Submission Approach]] (Principle) - Broader tactical principle reinforcing positional safety over counter-attacks during defensive situations
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Provides theoretical framework and conceptual models for understanding defensive principles including submission defense
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Defines the systematic approach and priorities for escaping inferior positions including submission threats
+- [[Principles/Frames|Frames]] (Principle) - Foundational mechanical skill underlying most submission defensive techniques
+- [[Principles/Distance Control|Distance Control]] (Principle) - Essential movement principle for generating gaps necessary to execute submission escapes
+- [[Transitions/Armbar Defense|Armbar Defense]] (Transition) - Specific technical application of submission defense principles to armbar escapes
+- [[Transitions/Guillotine Defense|Guillotine Defense]] (Transition) - Specific technical application focused on defending and escaping guillotine choke variations
+- [[Transitions/Triangle Escape|Triangle Escape]] (Transition) - Detailed escape sequences for triangle chokes applying submission defense principles
+- [[Transitions/Kimura Defense|Kimura Defense]] (Transition) - Technical defenses and escapes specific to kimura shoulder lock attacks
+- [[Positions/Back Control|Back Control]] (Position) - High-risk position requiring comprehensive submission defense against choke and armbar threats
+- [[Positions/Mount|Mount]] (Position) - Dominant position from which multiple submission categories threaten, requiring diverse defensive skills
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) - Modern leg entanglement position with high submission rate requiring specialized heel hook defense
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Broader tactical principle reinforcing positional safety over counter-attacks during defensive situations
 
 
 </section>

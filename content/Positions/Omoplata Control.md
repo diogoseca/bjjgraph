@@ -286,7 +286,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (20% of attempts)
+- **[[Submissions/Omoplata/from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (20% of attempts)
 
 - **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (21% of attempts)
 

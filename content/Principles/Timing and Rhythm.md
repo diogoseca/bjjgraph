@@ -449,16 +449,16 @@ Review video footage of high-level matches specifically analyzing timing element
 
 
 ### Related Content
-- [[Action and Reaction]] (Principle) - Foundational principle explaining why timing windows exist through opponent reactions to stimuli
-- [[Kuzushi]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
-- [[Base]] (Principle) - Understanding base stability reveals when opponents are vulnerable to timed attacks that exploit balance disruption
-- [[Guard Passing]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
-- [[Energy Conservation]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements through momentum alignment
-- [[Fork Attacks]] (Principle) - Attack strategy built on forcing opponent choices that create predictable timing windows for follow-up techniques
-- [[Position Chains]] (Principle) - Sequencing framework where precise timing between transitions sustains continuous offensive pressure
-- [[Basic Butterfly Sweep]] (Transition) - Elevation sweep heavily dependent on timing execution with opponent forward pressure or base narrowing
-- [[Balloon Sweep]] (Transition) - Momentum-based sweep exemplifying timing principles through use of opponent's existing directional forces
-- [[Ankle Pick]] (Transition) - Standing technique requiring precise timing with opponent weight shifts and grip adjustments to succeed
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Foundational principle explaining why timing windows exist through opponent reactions to stimuli
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
+- [[Principles/Base|Base]] (Principle) - Understanding base stability reveals when opponents are vulnerable to timed attacks that exploit balance disruption
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements through momentum alignment
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Attack strategy built on forcing opponent choices that create predictable timing windows for follow-up techniques
+- [[Principles/Position Chains|Position Chains]] (Principle) - Sequencing framework where precise timing between transitions sustains continuous offensive pressure
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - Elevation sweep heavily dependent on timing execution with opponent forward pressure or base narrowing
+- [[Transitions/Balloon Sweep|Balloon Sweep]] (Transition) - Momentum-based sweep exemplifying timing principles through use of opponent's existing directional forces
+- [[Transitions/Ankle Pick|Ankle Pick]] (Transition) - Standing technique requiring precise timing with opponent weight shifts and grip adjustments to succeed
 
 
 </section>

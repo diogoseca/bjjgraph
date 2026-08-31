@@ -293,7 +293,7 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (18% of attempts)
+- **[[Submissions/North-South Choke/from North-South/Attacker|North-South Choke from North-South]]** (18% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
@@ -303,7 +303,7 @@ The position demands different strategic approaches based on whether you're esta
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Americana from North-South/Attacker|Americana from North-South]]** (4% of attempts)
+- **[[Submissions/Americana/from North-South/Attacker|Americana from North-South]]** (4% of attempts)
 
 - **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
 

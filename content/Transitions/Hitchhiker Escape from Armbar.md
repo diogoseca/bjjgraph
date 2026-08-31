@@ -325,7 +325,7 @@ The hitchhiker escape occupies a critical role in the armbar defense hierarchy a
 
 - [[Positions/Mount]] - Counter outcome when opponent abandons armbar and re-mounts
 
-- [[Armbar from Armbar Control]] - The submission finish being escaped from
+- [[Submissions/Armbar/from Armbar Control]] - The submission finish being escaped from
 
 - [[Transitions/Armbar Defense]] - Related defensive technique often used before hitchhiker attempt
 

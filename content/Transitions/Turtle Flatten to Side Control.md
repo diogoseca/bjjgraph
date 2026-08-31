@@ -329,7 +329,7 @@ Turtle Flatten to Side Control occupies a critical decision point in the turtle 
 
 - [[Transitions/Anaconda from Turtle]] - Front headlock submission if opponent sits through flatten
 
-- [[Arm Triangle from Turtle]] - Alternative submission when flattening exposes the neck
+- [[Submissions/Arm Triangle/from Turtle]] - Alternative submission when flattening exposes the neck
 
 - [[Transitions/Granby Roll to Guard]] - Primary counter opponent uses against the flatten
 

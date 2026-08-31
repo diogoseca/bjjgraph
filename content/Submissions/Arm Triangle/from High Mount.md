@@ -327,8 +327,13 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from Side Control]]
+- [[Submissions/Arm Triangle/from Hindulotine]]
+- [[Submissions/Americana/from High Mount]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Scarf Hold Position]]
 - [[Submissions/Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Mount/High Mount]] - Starting position providing elevated control platform for arm isolation and submission setup

@@ -251,7 +251,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (8% of attempts)
 
-- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (7% of attempts)
+- **[[Submissions/Heel Hook/from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (7% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (2% of attempts)
 

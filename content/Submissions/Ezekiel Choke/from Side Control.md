@@ -309,6 +309,8 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 <section id="related" class="content-section">
 
 ## Related
+- [[Submissions/Americana/from Side Control]]
+- [[Submissions/Arm Triangle/from Side Control]]
 - [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]

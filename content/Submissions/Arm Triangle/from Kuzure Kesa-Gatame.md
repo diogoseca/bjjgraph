@@ -308,6 +308,11 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Modified Scarf Hold]]
+- [[Submissions/Arm Triangle/from Side Control]]
+- [[Submissions/Arm Triangle/from Hindulotine]]
+- [[Submissions/Americana/from Kuzure Kesa-Gatame]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing the arm isolation that enables this submission

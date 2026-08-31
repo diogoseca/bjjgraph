@@ -418,7 +418,7 @@ Partner in omoplata control position attempts forward roll escape. Practice timi
 
 - **[[Omoplata Control Bottom]]** - Sibling variant - opposite perspective of same position
 - **[[Submissions/Omoplata]]** - Primary submission finish from this position
-- **[[Omoplata from Guard]]** - Common entry submission technique
+- **[[Submissions/Omoplata/from Guard]]** - Common entry submission technique
 - **[[Positions/Triangle Control]]** - Alternative shoulder attack position with similar control mechanics
 - **[[Positions/Armbar Control]]** - Alternative arm attack position from similar guard entries
 - **[[Positions/Back Control]]** - Common transition target when opponent defends omoplata

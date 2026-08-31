@@ -417,36 +417,36 @@ The Danaher Leg Lock System requires progressive, systematic drilling that build
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Ashi Garami]] (Position) - Primary position family for entire system - all techniques built from ashi-garami configurations
-- [[Inside Ashi-Garami]] (Position) - High-control position within system offering dominant heel hook access
-- [[Honey Hole]] (Position) - Maximum control configuration - primary finishing position in system hierarchy
-- [[Outside Ashi-Garami]] (Position) - Entry-level position in hierarchy - starting point for advancement sequences
-- [[50-50 Guard]] (Position) - Outside ashi variation requiring position advancement for finishing opportunities
-- [[Single Leg X-Guard]] (Position) - Primary gateway position for entries to ashi-garami family
-- [[Inside Sankaku]] (Position) - Maximum control position at top of ashi-garami hierarchy
-- [[De La Riva Guard]] (Position) - Entry position for transitions to ashi-garami configurations
-- [[Headquarters Position]] (Position) - Passing position with direct entries to outside ashi-garami
-- [[Seated Guard]] (Position) - Guard position offering immediate leg entanglement entries
-- [[Saddle]] (Position) - Elite control position offering highest percentage heel hook finishes
-- [[Cross Ashi-Garami]] (Position) - Alternative attack angle for switching between ashi-garami configurations
-- [[Ushiro Ashi-Garami]] (Position) - Back-facing ashi variation offering unique submission angles
-- [[Straight Ankle Lock Control]] (Position) - Control maintenance position used throughout ashi-garami transitions
-- [[Kneebar Control]] (Position) - Alternative lower body control accessible from ashi-garami positions
-- [[Inside Heel Hook]] (Submission) - Primary finish from saddle/honey hole and inside ashi positions
-- [[Outside Heel Hook]] (Submission) - Alternative finish from standard and outside ashi-garami positions
-- [[Straight Ankle Lock]] (Submission) - Control maintenance tool and alternative finish from all ashi positions
-- [[Toe Hold]] (Submission) - Secondary attack option from ashi-garami positions when heel hook is defended
-- [[Kneebar]] (Submission) - Alternative lower body finish accessible from ashi-garami transitions
-- [[Heel Hook]] (Submission) - Primary submission family for entire system with multiple variations
-- [[Inside Heel Hook from Honey Hole]] (Submission) - Signature finish from maximum control position in the ashi-garami hierarchy
-- [[Achilles Lock]] (Submission) - Fundamental ankle submission serving as positional control tool and alternative finish from all ashi-garami configurations
-- [[Flying Kneebar]] (Submission) - Dynamic kneebar entry demonstrating explosive leg attack integration with the positional hierarchy
-- [[X-Guard to Ashi Garami]] (Transition) - Critical entry pathway from X-guard positions to leg entanglements
-- [[Inside Ashi Entry]] (Transition) - Core technique for establishing inside ashi-garami position
-- [[Saddle Entry from Top]] (Transition) - Advanced entry to maximum control position from passing situations
-- [[Ashi Garami Escape]] (Transition) - Defensive sequences that inform offensive control maintenance strategies
-- [[Outside Ashi Entry]] (Transition) - Entry technique for establishing outside ashi-garami from standing or passing
-- [[Leg Entanglement]] (Principle) - Fundamental principle underlying all ashi-garami control concepts
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Primary position family for entire system - all techniques built from ashi-garami configurations
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - High-control position within system offering dominant heel hook access
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) - Maximum control configuration - primary finishing position in system hierarchy
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Entry-level position in hierarchy - starting point for advancement sequences
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Outside ashi variation requiring position advancement for finishing opportunities
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Primary gateway position for entries to ashi-garami family
+- [[Positions/Inside Sankaku|Inside Sankaku]] (Position) - Maximum control position at top of ashi-garami hierarchy
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Entry position for transitions to ashi-garami configurations
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Passing position with direct entries to outside ashi-garami
+- [[Positions/Seated Guard|Seated Guard]] (Position) - Guard position offering immediate leg entanglement entries
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Elite control position offering highest percentage heel hook finishes
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) - Alternative attack angle for switching between ashi-garami configurations
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami|Ushiro Ashi-Garami]] (Position) - Back-facing ashi variation offering unique submission angles
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) - Control maintenance position used throughout ashi-garami transitions
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) - Alternative lower body control accessible from ashi-garami positions
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Primary finish from saddle/honey hole and inside ashi positions
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) - Alternative finish from standard and outside ashi-garami positions
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Control maintenance tool and alternative finish from all ashi positions
+- [[Submissions/Toe Hold|Toe Hold]] (Submission) - Secondary attack option from ashi-garami positions when heel hook is defended
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Alternative lower body finish accessible from ashi-garami transitions
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Primary submission family for entire system with multiple variations
+- [[Submissions/Inside Heel Hook/from Honey Hole|Inside Heel Hook from Honey Hole]] (Submission) - Signature finish from maximum control position in the ashi-garami hierarchy
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) - Fundamental ankle submission serving as positional control tool and alternative finish from all ashi-garami configurations
+- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission) - Dynamic kneebar entry demonstrating explosive leg attack integration with the positional hierarchy
+- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) - Critical entry pathway from X-guard positions to leg entanglements
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Core technique for establishing inside ashi-garami position
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Advanced entry to maximum control position from passing situations
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) - Defensive sequences that inform offensive control maintenance strategies
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Entry technique for establishing outside ashi-garami from standing or passing
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - Fundamental principle underlying all ashi-garami control concepts
 
 
 </section>

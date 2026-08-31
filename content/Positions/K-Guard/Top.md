@@ -298,7 +298,7 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 
 **If bottom player attempts underhook or reaches for back take:**
-- Execute **[[Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 

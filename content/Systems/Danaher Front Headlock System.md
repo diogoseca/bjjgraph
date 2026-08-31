@@ -403,36 +403,36 @@ The front headlock system requires layered drilling that progressively builds fr
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Front Headlock]] (Position) - Primary control position for entire system
-- [[Guillotine Control]] (Position) - Key position state within guillotine attack pathway
-- [[Anaconda Control]] (Position) - Control position for anaconda choke pathway
-- [[Darce Control]] (Position) - Control position for darce choke pathway
-- [[Back Control]] (Position) - Target position for back exposure pathway when chokes are defended
-- [[Turtle]] (Position) - Common entry position for front headlock attacks from top
-- [[Crucifix]] (Position) - Alternative finishing position from front headlock spiral mechanics
-- [[Truck]] (Position) - Advanced back exposure position accessible from front headlock spiral
-- [[Standing Position]] (Position) - Starting position for snap down and sprawl entries
-- [[Combat Base]] (Position) - Defensive posture opponent may use against front headlock attacks
-- [[Gift Wrap]] (Position) - Back control variation accessible from front headlock spiral sequences
-- [[Snap Down to Front Headlock]] (Transition) - Primary standing entry to front headlock system
-- [[Sprawl]] (Transition) - Defensive entry to front headlock from takedown attempts
-- [[Anaconda Setup]] (Transition) - Setup mechanics for anaconda pathway entry
-- [[Darce Setup]] (Transition) - Setup mechanics for darce pathway entry
-- [[Guillotine Setup]] (Transition) - Setup mechanics for guillotine pathway entry
-- [[Turtle to Back Take]] (Transition) - Back exposure sequence from turtle via front headlock control
-- [[Guillotine Choke]] (Submission) - Primary finishing technique in guillotine pathway
-- [[Arm in Guillotine]] (Submission) - High-percentage guillotine variation with trapped arm
-- [[High Elbow Guillotine]] (Submission) - Power guillotine variation using elbow elevation mechanics
-- [[Chin Strap Guillotine from Front Headlock]] (Submission) - Guillotine variation using chinstrap grip configuration
-- [[Ten Finger Guillotine]] (Submission) - Guillotine variation with both hands clasped grip
-- [[Anaconda Choke]] (Submission) - Primary finishing technique in anaconda pathway
-- [[Darce Choke]] (Submission) - Primary finishing technique in darce pathway
-- [[Rear Naked Choke]] (Submission) - Finishing technique from back control after successful back exposure
-- [[Head Position]] (Principle) - Fundamental principle underlying all front headlock control mechanics
-- [[Control Maintenance]] (Principle) - Core principle for retaining dominant position throughout attack sequences
-- [[Positional Hierarchy]] (Principle) - Guides decision-making about when to pursue submissions vs position advancement
-- [[Position Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
-- [[Fork Attacks]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Primary control position for entire system
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Key position state within guillotine attack pathway
+- [[Positions/Anaconda Control|Anaconda Control]] (Position) - Control position for anaconda choke pathway
+- [[Positions/Darce Control|Darce Control]] (Position) - Control position for darce choke pathway
+- [[Positions/Back Control|Back Control]] (Position) - Target position for back exposure pathway when chokes are defended
+- [[Positions/Turtle|Turtle]] (Position) - Common entry position for front headlock attacks from top
+- [[Positions/Crucifix|Crucifix]] (Position) - Alternative finishing position from front headlock spiral mechanics
+- [[Positions/Twister Control/Truck|Truck]] (Position) - Advanced back exposure position accessible from front headlock spiral
+- [[Positions/Standing Position|Standing Position]] (Position) - Starting position for snap down and sprawl entries
+- [[Positions/Combat Base|Combat Base]] (Position) - Defensive posture opponent may use against front headlock attacks
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Back control variation accessible from front headlock spiral sequences
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Primary standing entry to front headlock system
+- [[Transitions/Sprawl|Sprawl]] (Transition) - Defensive entry to front headlock from takedown attempts
+- [[Transitions/Anaconda Setup|Anaconda Setup]] (Transition) - Setup mechanics for anaconda pathway entry
+- [[Transitions/Darce Setup|Darce Setup]] (Transition) - Setup mechanics for darce pathway entry
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Setup mechanics for guillotine pathway entry
+- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) - Back exposure sequence from turtle via front headlock control
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Primary finishing technique in guillotine pathway
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) - High-percentage guillotine variation with trapped arm
+- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission) - Power guillotine variation using elbow elevation mechanics
+- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission) - Guillotine variation using chinstrap grip configuration
+- [[Submissions/Ten Finger Guillotine|Ten Finger Guillotine]] (Submission) - Guillotine variation with both hands clasped grip
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - Primary finishing technique in anaconda pathway
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Primary finishing technique in darce pathway
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Finishing technique from back control after successful back exposure
+- [[Principles/Head Position|Head Position]] (Principle) - Fundamental principle underlying all front headlock control mechanics
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Core principle for retaining dominant position throughout attack sequences
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Guides decision-making about when to pursue submissions vs position advancement
+- [[Principles/Position Chains|Position Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
 
 
 </section>

@@ -302,11 +302,11 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Saddle/Attacker|Outside Heel Hook from Saddle]]** (9% of attempts)
+- **[[Submissions/Outside Heel Hook/from Saddle/Attacker|Outside Heel Hook from Saddle]]** (9% of attempts)
 
-- **[[Toe Hold from Saddle/Attacker|Toe Hold from Saddle]]** (9% of attempts)
+- **[[Submissions/Toe Hold/from Saddle/Attacker|Toe Hold from Saddle]]** (9% of attempts)
 
-- **[[Kneebar from Saddle/Attacker|Kneebar from Saddle]]** (12% of attempts)
+- **[[Submissions/Kneebar/from Saddle/Attacker|Kneebar from Saddle]]** (12% of attempts)
 
 - **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (5% of attempts)
 
@@ -314,13 +314,13 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (8% of attempts)
 
-- **[[Calf Slicer from Saddle/Attacker|Calf Slicer from Saddle]]** (4% of attempts)
+- **[[Submissions/Calf Slicer/from Saddle/Attacker|Calf Slicer from Saddle]]** (4% of attempts)
 
-- **[[Estima Lock from Saddle/Attacker|Estima Lock from Saddle]]** (2% of attempts)
+- **[[Submissions/Estima Lock/from Saddle/Attacker|Estima Lock from Saddle]]** (2% of attempts)
 
 - **[[Transitions/Fallback to Inside Ashi-Garami/Attacker|Fallback to Inside Ashi-Garami]]** (7% of attempts)
 
-- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (33% of attempts)
+- **[[Submissions/Heel Hook/from Saddle/Attacker|Heel Hook from Saddle]]** (33% of attempts)
 
 - **[[Transitions/Saddle Fallback to Inside Ashi/Attacker|Saddle Fallback to Inside Ashi]]** (5% of attempts)
 

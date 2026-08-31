@@ -304,15 +304,15 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Americana from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (11% of attempts)
+- **[[Submissions/Americana/from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (11% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (19% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Arm Triangle from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (13% of attempts)
+- **[[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (13% of attempts)
 
-- **[[North-South Choke from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (9% of attempts)
+- **[[Submissions/North-South Choke/from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (9% of attempts)
 
 - **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
 
@@ -320,7 +320,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 - **[[Transitions/Shoulder of Justice to Mount/Attacker|Shoulder of Justice to Mount]]** (9% of attempts)
 
-- **[[Kimura from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (10% of attempts)
+- **[[Submissions/Kimura/from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (10% of attempts)
 
 
 ### Common Mistakes

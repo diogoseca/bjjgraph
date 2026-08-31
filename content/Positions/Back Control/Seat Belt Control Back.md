@@ -283,15 +283,15 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (30% of attempts)
+- **[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (30% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (0% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (5% of attempts)
 
-- **[[Short Choke from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
+- **[[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (17% of attempts)
 

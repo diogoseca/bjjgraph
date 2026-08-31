@@ -320,7 +320,7 @@ The hip escape from crucifix integrates into the broader crucifix survival frame
 
 - [[Submissions/Choke from Crucifix]] - Primary submission threat that must be defended during escape
 
-- [[Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape
+- [[Submissions/Armbar/from Crucifix]] - Secondary submission threat requiring awareness during escape
 
 - [[Positions/Mount/Mounted Crucifix]] - Worse positional variant if escape attempt is poorly executed
 

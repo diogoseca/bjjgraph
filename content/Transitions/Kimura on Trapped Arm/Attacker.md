@@ -321,7 +321,7 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura from Gift Wrap]] | 55% |
+| Success | [[Submissions/Kimura/from Gift Wrap]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
@@ -335,7 +335,7 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 <p class="section-subtitle">How might your opponent counter Kimura on Trapped Arm?</p>
 
 - **Opponent straightens the trapped arm before Kimura grip is established, removing shoulder vulnerability** (Effectiveness: High) - Your Response: If arm straightens, switch to armbar attack on the now-extended limb or re-establish Gift Wrap control before reattempting → Leads to [[Positions/Gift Wrap]]
-- **Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases → Leads to [[Kimura from Gift Wrap]]
+- **Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases → Leads to [[Submissions/Kimura/from Gift Wrap]]
 - **Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement** (Effectiveness: Medium) - Your Response: Use hip pressure and body rotation to break the grip; alternatively attack the free arm or transition to choke while they defend → Leads to [[Positions/Gift Wrap]]
 - **Opponent explosively bridges and rotates to face attacker, escaping back control** (Effectiveness: High) - Your Response: Maintain Kimura grip during rotation and transition to mounted Kimura or side control Kimura position → Leads to [[Positions/Back Control]]
 

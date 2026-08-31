@@ -329,7 +329,7 @@ The Leg Drag to Crucifix transition fits into the leg drag passing system as the
 
 - [[Submissions/Choke from Crucifix]] - Primary submission from completed crucifix position
 
-- [[Armbar from Crucifix]] - Alternative submission when choke is defended
+- [[Submissions/Armbar/from Crucifix]] - Alternative submission when choke is defended
 
 - [[Positions/Back Control]] - Fallback position if crucifix entry is defended
 

@@ -26,3 +26,21 @@
 # the Neural app's Explore tab, Search and the category hubs.
 /Tree/* / 301
 /Tree / 301
+
+# v1.155.0 — the five twin-collapse deletions. Each of these was a live public URL with a hub
+# page and Attacker/Defender role pages until the records were collapsed into their Submissions/
+# twin (a move whose success edge reaches the game-over sink IS a submission and may not also
+# exist as a transition record). regenerate_redirects.py walks the CURRENT content tree, so a
+# DELETED page can never produce its own rule — these have to be hand-authored here or the URLs
+# 404 and the inbound links rot. Splat first so /Attacker and /Defender land on their
+# counterparts, then the exact hub rule.
+/Transitions/Arm-Triangle-from-Turtle/* /Submissions/Arm-Triangle/from-Turtle/:splat 301
+/Transitions/Arm-Triangle-from-Turtle /Submissions/Arm-Triangle/from-Turtle 301
+/Transitions/Armbar-from-Crucifix/* /Submissions/Armbar/from-Crucifix/:splat 301
+/Transitions/Armbar-from-Crucifix /Submissions/Armbar/from-Crucifix 301
+/Transitions/Electric-Chair-from-Electric-Chair/* /Submissions/Electric-Chair/from-Electric-Chair/:splat 301
+/Transitions/Electric-Chair-from-Electric-Chair /Submissions/Electric-Chair/from-Electric-Chair 301
+/Transitions/Kimura-from-Half-Guard/* /Submissions/Kimura/from-Half-Guard/:splat 301
+/Transitions/Kimura-from-Half-Guard /Submissions/Kimura/from-Half-Guard 301
+/Transitions/Toe-Hold-from-Estima-Lock/* /Submissions/Toe-Hold/from-Estima-Lock/:splat 301
+/Transitions/Toe-Hold-from-Estima-Lock /Submissions/Toe-Hold/from-Estima-Lock 301

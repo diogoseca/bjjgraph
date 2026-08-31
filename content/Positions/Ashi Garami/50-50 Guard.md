@@ -282,11 +282,11 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Heel Hook from 50-50 Guard/Attacker|Heel Hook from 50-50 Guard]]** (22% of attempts)
+- **[[Submissions/Heel Hook/from 50-50 Guard/Attacker|Heel Hook from 50-50 Guard]]** (22% of attempts)
 
 - **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (6% of attempts)
 
-- **[[Calf Slicer from 50-50 Guard/Attacker|Calf Slicer from 50-50 Guard]]** (2% of attempts)
+- **[[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Calf Slicer from 50-50 Guard]]** (2% of attempts)
 
 - **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (7% of attempts)
 
@@ -294,17 +294,17 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Transitions/50-50 Guard to Inside Ashi/Attacker|50-50 Guard to Inside Ashi]]** (7% of attempts)
 
-- **[[Outside Heel Hook from 50-50 Guard/Attacker|Outside Heel Hook from 50-50 Guard]]** (5% of attempts)
+- **[[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|Outside Heel Hook from 50-50 Guard]]** (5% of attempts)
 
 - **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (13% of attempts)
 
-- **[[Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (6% of attempts)
+- **[[Submissions/Toe Hold/from 50-50/Attacker|Toe Hold from 50-50]]** (6% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
 
 - **[[Transitions/50-50 Guard to Backside 50-50/Attacker|50-50 Guard to Backside 50-50]]** (10% of attempts)
 
-- **[[Kneebar from 50-50/Attacker|Kneebar from 50-50]]** (5% of attempts)
+- **[[Submissions/Kneebar/from 50-50/Attacker|Kneebar from 50-50]]** (5% of attempts)
 
 
 ### Common Mistakes

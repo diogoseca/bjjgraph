@@ -232,6 +232,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 - [[Submissions/Calf Slicer]] - Compression attack available when opponent straightens leg to defend heel hook
 - [[Submissions/Estima Lock]] - Foot lock alternative targeting the foot from guard engagement scenarios
 - [[Submissions/Achilles Lock]] - Foundational ankle lock from same positions, prerequisite technique in training progression
+- [[Submissions/Heel Hook/from Backside 50-50]] - Heel hook variation from backside 50-50 leg entanglement configuration
 - [[Positions/Ashi Garami]] - Parent position family for leg entanglement control
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary control position for establishing heel hook
 - [[Transitions/Ashi Garami Escape]] - Defensive counters to study for complete understanding

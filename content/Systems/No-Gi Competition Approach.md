@@ -379,34 +379,34 @@ No-gi competition training should emphasize specific situational drilling with p
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Back Control]] (Position) - Primary high-value position in no-gi competition strategy
-- [[Inside Ashi-Garami]] (Position) - Core leg entanglement position for modern no-gi competition
-- [[Front Headlock]] (Position) - Critical control position for no-gi transitions and submissions
-- [[Body Lock]] (Position) - Primary passing and control grip in no-gi environment
-- [[Saddle]] (Position) - Elite finishing position for heel hook attacks
-- [[50-50 Guard]] (Position) - Common leg entanglement position requiring systematic approach
-- [[Guillotine Control]] (Position) - High-percentage no-gi submission position
-- [[Body Lock Pass]] (Transition) - Core passing technique for no-gi competition
-- [[Leg Drag Pass]] (Transition) - Essential passing sequence for modern no-gi game
-- [[Front Headlock to Back]] (Transition) - Key transition for back attack entry
-- [[Saddle Entry from Top]] (Transition) - Offensive leg entanglement entry from passing
-- [[Back Step]] (Transition) - Counter to leg entanglement attacks
-- [[Guillotine Setup]] (Transition) - Opportunistic submission entry in no-gi scrambles
-- [[Rear Naked Choke]] (Submission) - Primary finishing submission from back control
-- [[Guillotine Choke]] (Submission) - High-percentage no-gi submission from multiple positions
-- [[Darce Choke]] (Submission) - Front headlock series finishing submission
-- [[Inside Heel Hook]] (Submission) - Primary leg lock finish from inside ashi-garami and saddle
-- [[Kimura]] (Submission) - Versatile shoulder lock applicable from multiple positions
-- [[Energy Conservation]] (Principle) - Critical for pacing and performance across competition rounds
-- [[Positional Hierarchy]] (Principle) - Fundamental concept for systematic position advancement
-- [[Competition Mindset]] (Principle) - Tactical and psychological decision-making framework for competition
-- [[Fork Attacks]] (Principle) - Core offensive principle for forcing opponent errors
-- [[Pressure]] (Principle) - Essential control mechanism in no-gi environment
-- [[Danaher Leg Lock System]] (System) - Foundational leg entanglement system for modern no-gi
-- [[Craig Jones Leg Lock System]] (System) - Practical competition-focused leg attack approach
-- [[Gordon Ryan Passing System]] (System) - Elite no-gi passing methodology
-- [[B-Team Dilemma System]] (System) - Modern approach to creating offensive opportunities
-- [[Modern No-Gi Passing System]] (System) - Contemporary passing framework for no-gi competition
+- [[Positions/Back Control|Back Control]] (Position) - Primary high-value position in no-gi competition strategy
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Core leg entanglement position for modern no-gi competition
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Critical control position for no-gi transitions and submissions
+- [[Positions/Body Lock|Body Lock]] (Position) - Primary passing and control grip in no-gi environment
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Elite finishing position for heel hook attacks
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Common leg entanglement position requiring systematic approach
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - High-percentage no-gi submission position
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Core passing technique for no-gi competition
+- [[Transitions/Leg Drag Pass|Leg Drag Pass]] (Transition) - Essential passing sequence for modern no-gi game
+- [[Transitions/Front Headlock to Back|Front Headlock to Back]] (Transition) - Key transition for back attack entry
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Offensive leg entanglement entry from passing
+- [[Transitions/Back Step|Back Step]] (Transition) - Counter to leg entanglement attacks
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Opportunistic submission entry in no-gi scrambles
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary finishing submission from back control
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - High-percentage no-gi submission from multiple positions
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Front headlock series finishing submission
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Primary leg lock finish from inside ashi-garami and saddle
+- [[Submissions/Kimura|Kimura]] (Submission) - Versatile shoulder lock applicable from multiple positions
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Critical for pacing and performance across competition rounds
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Fundamental concept for systematic position advancement
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Tactical and psychological decision-making framework for competition
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core offensive principle for forcing opponent errors
+- [[Principles/Pressure|Pressure]] (Principle) - Essential control mechanism in no-gi environment
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Foundational leg entanglement system for modern no-gi
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Practical competition-focused leg attack approach
+- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - Elite no-gi passing methodology
+- [[Systems/B-Team Dilemma System|B-Team Dilemma System]] (System) - Modern approach to creating offensive opportunities
+- [[Systems/Modern No-Gi Passing System|Modern No-Gi Passing System]] (System) - Contemporary passing framework for no-gi competition
 
 
 </section>

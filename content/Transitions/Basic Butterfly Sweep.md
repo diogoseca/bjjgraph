@@ -330,7 +330,7 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 
 - [[Submissions/Kimura]] - Submission Threat - Attack on posted arm during sweep defense
 
-- [[Guillotine Choke from Butterfly Guard]] - Combination Attack - Submission threat from butterfly that facilitates sweep
+- [[Submissions/Guillotine Choke/from Butterfly Guard]] - Combination Attack - Submission threat from butterfly that facilitates sweep
 
 - [[Positions/Half Guard/Deep Half Guard]] - Transition Hub - Fallback guard when opponent drives heavy forward pressure
 

@@ -232,17 +232,17 @@ A: If you notice an opponent always escapes side control by turning to their rig
 <section id="related" class="content-section">
 
 ## Related
-- [[Dominant Angles]] (Principle) - Exploiting dominant angles is a key method for creating asymmetric advantages during exchanges
-- [[Guard Passing]] (Principle) - Choosing which passing style to use based on opponent weakness is a direct application of asymmetric strategy
-- [[Competition Mindset]] (Principle) - Strategic matchup analysis is a core component of competition preparation
-- [[Position Chains]] (Principle) - Chaining positions lets you steer the match toward favorable territory
-- [[Submission Chains]] (Principle) - Chaining submissions exploits predictable defensive reactions -- a form of asymmetric targeting
-- [[De La Riva Guard]] (Position) - Example of a specialized guard where asymmetric avoidance or engagement is a key strategic decision
-- [[Closed Guard]] (Position) - Deciding whether to engage or disengage closed guard is a common asymmetric warfare decision
-- [[Half Guard]] (Position) - Half guard is a neutral zone where many asymmetric matchup decisions play out
-- [[Double Down on Strengths]] (Learning) - Complementary strategy -- doubling down on strengths gives you a weapon to impose in asymmetric matchups
-- [[Funneling]] (Learning) - Funneling is the tactical mechanism for forcing an opponent into the favorable territory asymmetric warfare targets
-- [[Predictable Responses]] (Learning) - Exploiting predictable defensive reactions is how asymmetric attacks convert identified weaknesses into finishes
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Exploiting dominant angles is a key method for creating asymmetric advantages during exchanges
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Choosing which passing style to use based on opponent weakness is a direct application of asymmetric strategy
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Strategic matchup analysis is a core component of competition preparation
+- [[Principles/Position Chains|Position Chains]] (Principle) - Chaining positions lets you steer the match toward favorable territory
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Chaining submissions exploits predictable defensive reactions -- a form of asymmetric targeting
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Example of a specialized guard where asymmetric avoidance or engagement is a key strategic decision
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Deciding whether to engage or disengage closed guard is a common asymmetric warfare decision
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard is a neutral zone where many asymmetric matchup decisions play out
+- [[Learning/Double Down on Strengths|Double Down on Strengths]] (Learning) - Complementary strategy -- doubling down on strengths gives you a weapon to impose in asymmetric matchups
+- [[Learning/Funneling|Funneling]] (Learning) - Funneling is the tactical mechanism for forcing an opponent into the favorable territory asymmetric warfare targets
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Exploiting predictable defensive reactions is how asymmetric attacks convert identified weaknesses into finishes
 
 
 

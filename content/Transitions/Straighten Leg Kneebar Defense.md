@@ -162,7 +162,7 @@ Successful application of this defense typically results in the defender extract
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 45% |
 | Failure | [[Positions/Kneebar Control]] | 40% |
-| Counter | [[Kneebar from Kneebar Control]] | 15% |
+| Counter | [[Submissions/Kneebar/from Kneebar Control]] | 15% |
 
 
 </section>

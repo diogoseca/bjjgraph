@@ -321,7 +321,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Buggy Choke from Half Guard]] | 58% |
+| Success | [[Submissions/Buggy Choke/from Half Guard]] | 58% |
 | Failure | [[Positions/Buggy Choke]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 

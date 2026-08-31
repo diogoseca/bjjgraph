@@ -218,16 +218,16 @@ A: Chaining means each follow-up is triggered by a specific defensive reaction -
 <section id="related" class="content-section">
 
 ## Related
-- [[Fork Attacks]] (Principle) - Fork attacks force opponents to choose between two bad options, creating the dilemma that makes chains effective
-- [[Action and Reaction]] (Principle) - Chains exploit the predictable reactions opponents have to specific attacks
-- [[Position Chains]] (Principle) - Positional advancement chains apply the same trigger-and-follow-up logic to improving position rather than finishing
-- [[Connection Principles]] (Principle) - Managing the connection between linked techniques is the moment where chains succeed or fail
-- [[Closed Guard]] (Position) - Classic position for building first-attack chains with sweeps and submissions
-- [[Mount]] (Position) - Dominant position where submission chains are most effective
-- [[Predictable Responses]] (Learning) - Understanding predictable defensive reactions is the foundation of effective chains
-- [[Funneling]] (Learning) - Chains can funnel opponents into increasingly narrow defensive options
-- [[Mask Your Intentions]] (Learning) - Disguising the first attack as the real threat makes the follow-up in a chain land cleanly
-- [[Pattern Interrupts]] (Learning) - Breaking an opponent's defensive rhythm complements chaining by denying them a predictable counter
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Fork attacks force opponents to choose between two bad options, creating the dilemma that makes chains effective
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Chains exploit the predictable reactions opponents have to specific attacks
+- [[Principles/Position Chains|Position Chains]] (Principle) - Positional advancement chains apply the same trigger-and-follow-up logic to improving position rather than finishing
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Managing the connection between linked techniques is the moment where chains succeed or fail
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classic position for building first-attack chains with sweeps and submissions
+- [[Positions/Mount|Mount]] (Position) - Dominant position where submission chains are most effective
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Understanding predictable defensive reactions is the foundation of effective chains
+- [[Learning/Funneling|Funneling]] (Learning) - Chains can funnel opponents into increasingly narrow defensive options
+- [[Learning/Mask Your Intentions|Mask Your Intentions]] (Learning) - Disguising the first attack as the real threat makes the follow-up in a chain land cleanly
+- [[Learning/Pattern Interrupts|Pattern Interrupts]] (Learning) - Breaking an opponent's defensive rhythm complements chaining by denying them a predictable counter
 
 
 

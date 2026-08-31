@@ -220,7 +220,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (8% of attempts)
 
-- **[[High Elbow Guillotine from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (11% of attempts)
+- **[[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -277,7 +277,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (25% of attempts)
+- **[[Submissions/Guillotine Choke/from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (25% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (14% of attempts)
 
@@ -285,11 +285,11 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
 
-- **[[Hindulotine from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (17% of attempts)
+- **[[Submissions/Hindulotine/from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (17% of attempts)
 
 - **[[Transitions/Finish from Hindulotine/Attacker|Finish from Hindulotine]]** (11% of attempts)
 
-- **[[Arm Triangle from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** (9% of attempts)
+- **[[Submissions/Arm Triangle/from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** (9% of attempts)
 
 
 ### Common Mistakes

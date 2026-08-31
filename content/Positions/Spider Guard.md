@@ -247,11 +247,11 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 - **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (0% of attempts)
 
-- **[[Belly Down Armbar from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (2% of attempts)
 
-- **[[Omoplata from Spider Guard/Attacker|Omoplata from Spider Guard]]** (4% of attempts)
+- **[[Submissions/Omoplata/from Spider Guard/Attacker|Omoplata from Spider Guard]]** (4% of attempts)
 
-- **[[Triangle Choke from Spider Guard/Attacker|Triangle Choke from Spider Guard]]** (8% of attempts)
+- **[[Submissions/Triangle Choke/from Spider Guard/Attacker|Triangle Choke from Spider Guard]]** (8% of attempts)
 
 
 ### Common Mistakes

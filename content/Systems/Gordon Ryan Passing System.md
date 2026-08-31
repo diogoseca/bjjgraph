@@ -384,26 +384,26 @@ Development of this passing system requires extensive positional drilling with p
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Headquarters Position]] (Position) - Central hub position for initiating passing sequences and maintaining strategic control
-- [[Half Guard]] (Position) - Common guard position requiring systematic pressure passing approach
-- [[Body Lock Pass]] (Transition) - Primary passing technique within system - body lock establishment and completion
-- [[Leg Drag Pass]] (Transition) - High-percentage passing option that creates back exposure opportunities
-- [[Knee Slice Pass]] (Transition) - Alternative passing method used when body lock is defended
-- [[Pressure Pass]] (Transition) - Fundamental passing approach emphasizing control over speed
-- [[Long Step Pass]] (Transition) - Passing variation effective against butterfly and open guards
-- [[Headquarters Pass]] (Transition) - Systematic passing sequence from headquarters control position
-- [[Over-Under Pass]] (Transition) - Pressure-based passing method utilizing shoulder pressure and stacking
-- [[Knee Cut Pass]] (Transition) - Dynamic passing option that complements pressure passing sequences
-- [[Side Control]] (Position) - Primary destination after successful pass completion
-- [[Mount]] (Position) - Advanced position target after establishing passing dominance
-- [[Pressure]] (Principle) - Core principle underlying entire passing system approach
-- [[Guard Passing]] (Principle) - Fundamental principles that inform all passing strategies
-- [[Forward Pressure]] (Principle) - Essential pressure application principle for maintaining offensive control
-- [[Connection Principles]] (Principle) - Strategy for managing connections and breaking opponent's defensive frames and grips
-- [[Control Point Hierarchy]] (Principle) - Understanding which control points to prioritize during passing sequences
-- [[Modern No-Gi Passing System]] (System) - Complementary no-gi passing framework with overlapping principles
-- [[Bernardo Faria Pressure System]] (System) - Alternative pressure-based passing system with different technical emphases
-- [[Danaher Leg Lock System]] (System) - Defensive awareness required when passing leg entanglement specialists
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Central hub position for initiating passing sequences and maintaining strategic control
+- [[Positions/Half Guard|Half Guard]] (Position) - Common guard position requiring systematic pressure passing approach
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Primary passing technique within system - body lock establishment and completion
+- [[Transitions/Leg Drag Pass|Leg Drag Pass]] (Transition) - High-percentage passing option that creates back exposure opportunities
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Alternative passing method used when body lock is defended
+- [[Transitions/Pressure Pass|Pressure Pass]] (Transition) - Fundamental passing approach emphasizing control over speed
+- [[Transitions/Long Step Pass|Long Step Pass]] (Transition) - Passing variation effective against butterfly and open guards
+- [[Transitions/Headquarters Pass|Headquarters Pass]] (Transition) - Systematic passing sequence from headquarters control position
+- [[Transitions/Over-Under Pass|Over-Under Pass]] (Transition) - Pressure-based passing method utilizing shoulder pressure and stacking
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) - Dynamic passing option that complements pressure passing sequences
+- [[Positions/Side Control|Side Control]] (Position) - Primary destination after successful pass completion
+- [[Positions/Mount|Mount]] (Position) - Advanced position target after establishing passing dominance
+- [[Principles/Pressure|Pressure]] (Principle) - Core principle underlying entire passing system approach
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Fundamental principles that inform all passing strategies
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Essential pressure application principle for maintaining offensive control
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Strategy for managing connections and breaking opponent's defensive frames and grips
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Understanding which control points to prioritize during passing sequences
+- [[Systems/Modern No-Gi Passing System|Modern No-Gi Passing System]] (System) - Complementary no-gi passing framework with overlapping principles
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Alternative pressure-based passing system with different technical emphases
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Defensive awareness required when passing leg entanglement specialists
 
 
 </section>

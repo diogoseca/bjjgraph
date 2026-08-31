@@ -329,7 +329,7 @@ The Crucifix to Mount transition serves as a critical pathway in the positional 
 
 - [[Submissions/Choke from Crucifix]] - Primary submission that creates the dilemma prompting mount transition
 
-- [[Armbar from Crucifix]] - Secondary submission option from starting position
+- [[Submissions/Armbar/from Crucifix]] - Secondary submission option from starting position
 
 - [[Transitions/Arm Recovery from Crucifix]] - Defender's escape technique that may prompt transition decision
 

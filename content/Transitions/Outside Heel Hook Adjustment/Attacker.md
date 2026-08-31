@@ -299,7 +299,7 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Heel Hook from Ushiro Ashi-Garami]] | 55% |
+| Success | [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
@@ -315,7 +315,7 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 - **Boot defense (dorsiflexing foot and pointing toes toward shin to hide heel)** (Effectiveness: High) - Your Response: Use your forearm to apply pressure behind their calf, forcing their heel to pop out. If boot is strong, transition to ankle lock or saddle position. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Accelerated inversion to turtle, completing rotation before adjustment finishes** (Effectiveness: Medium) - Your Response: Follow to back control rather than forcing the heel hook. The back take is often higher percentage than fighting a committed rotation. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Counter-entanglement by attacking your exposed legs during the grip transition** (Effectiveness: Medium) - Your Response: Maintain outside leg pressure on their free leg throughout adjustment. If they achieve inside position, address their entanglement before continuing. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
-- **Straightening the trapped leg to reduce rotational pressure on knee** (Effectiveness: Low) - Your Response: Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics. → Leads to [[Outside Heel Hook from Ushiro Ashi-Garami]]
+- **Straightening the trapped leg to reduce rotational pressure on knee** (Effectiveness: Low) - Your Response: Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics. → Leads to [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami]]
 
 
 </section>

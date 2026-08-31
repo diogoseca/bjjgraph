@@ -327,9 +327,9 @@ This transition is the main gateway from the butterfly guard family into the Wil
 
 - [[Submissions/Williams Shoulder Lock]] - Primary submission threat that defines the destination guard
 
-- [[Kimura from Butterfly Guard]] - Related arm-isolation attack sharing the overhook and figure-four mechanics
+- [[Submissions/Kimura/from Butterfly Guard]] - Related arm-isolation attack sharing the overhook and figure-four mechanics
 
-- [[Omoplata from Butterfly Guard]] - Chain attack available once the shoulder is isolated
+- [[Submissions/Omoplata/from Butterfly Guard]] - Chain attack available once the shoulder is isolated
 
 - [[Transitions/Arm Drag to Back]] - Alternative butterfly arm-control entry leading to a different attacking angle
 

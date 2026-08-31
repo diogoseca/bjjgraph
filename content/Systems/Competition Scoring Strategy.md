@@ -385,33 +385,33 @@ Competition scoring strategy development requires specific drilling protocols th
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Mount]] (Position) - Highest value position (4 points) and primary scoring target
-- [[Back Control]] (Position) - Highest value position (4 points) with submission finish potential
-- [[Side Control]] (Position) - Guard pass consolidation position and platform for further advancement
-- [[Knee on Belly]] (Position) - 2-point scoring position with transition advantages to mount or back
-- [[Closed Guard]] (Position) - Neutral position for guard players and strategic stalling location
-- [[Half Guard]] (Position) - Transitional position for bottom players pursuing sweep points
-- [[De La Riva Guard]] (Position) - Active guard for sweep attempts and advantage generation
-- [[Reverse X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
-- [[Butterfly Guard]] (Position) - Explosive sweep position for rapid point accumulation
-- [[North-South]] (Position) - Control position for lead preservation and submission threats
-- [[Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
-- [[Back Take]] (Transition) - 4-point scoring transition to highest value position
-- [[Ankle Pick]] (Transition) - 2-point opening takedown strategy with lower energy investment
-- [[Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy prioritizing point accumulation before finishes
-- [[Competition Mindset]] (Principle) - Mental framework for tactical planning and scoring decision-making under pressure
-- [[Fork Attacks]] (Principle) - Creating scoring dilemmas that force opponents into lose-lose defensive choices
-- [[Defensive Concepts]] (Principle) - Evaluating defensive risk when assessing point-scoring opportunities
-- [[Energy Conservation]] (Principle) - Pacing explosive scoring attempts with conservative control phases
-- [[Position Chains]] (Principle) - Linking positions into sequences that maximize cumulative point accumulation
-- [[Competition Preparation System]] (System) - Comprehensive competition readiness including scoring strategy training
-- [[IBJJF Strategy Guide]] (System) - Ruleset-specific tactical framework for point-based competition
-- [[Gordon Ryan Passing System]] (System) - High-percentage guard passing for consistent 3-point accumulation
-- [[Rear Naked Choke]] (Submission) - Primary finish threat from back control maintaining opponent defensive pressure
-- [[Americana]] (Submission) - Fundamental mount submission threat creating defensive reactions that open transitions to back take or technical mount
-- [[Triangle Choke]] (Submission) - Guard submission threat generating advantages even when incomplete
-- [[Kimura]] (Submission) - Versatile submission threat across multiple positions for advantage accumulation
+- [[Positions/Mount|Mount]] (Position) - Highest value position (4 points) and primary scoring target
+- [[Positions/Back Control|Back Control]] (Position) - Highest value position (4 points) with submission finish potential
+- [[Positions/Side Control|Side Control]] (Position) - Guard pass consolidation position and platform for further advancement
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - 2-point scoring position with transition advantages to mount or back
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Neutral position for guard players and strategic stalling location
+- [[Positions/Half Guard|Half Guard]] (Position) - Transitional position for bottom players pursuing sweep points
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Active guard for sweep attempts and advantage generation
+- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Explosive sweep position for rapid point accumulation
+- [[Positions/North-South|North-South]] (Position) - Control position for lead preservation and submission threats
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
+- [[Transitions/Back Take|Back Take]] (Transition) - 4-point scoring transition to highest value position
+- [[Transitions/Ankle Pick|Ankle Pick]] (Transition) - 2-point opening takedown strategy with lower energy investment
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy prioritizing point accumulation before finishes
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Mental framework for tactical planning and scoring decision-making under pressure
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Creating scoring dilemmas that force opponents into lose-lose defensive choices
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Evaluating defensive risk when assessing point-scoring opportunities
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Pacing explosive scoring attempts with conservative control phases
+- [[Principles/Position Chains|Position Chains]] (Principle) - Linking positions into sequences that maximize cumulative point accumulation
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Comprehensive competition readiness including scoring strategy training
+- [[Systems/IBJJF Strategy Guide|IBJJF Strategy Guide]] (System) - Ruleset-specific tactical framework for point-based competition
+- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - High-percentage guard passing for consistent 3-point accumulation
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary finish threat from back control maintaining opponent defensive pressure
+- [[Submissions/Americana|Americana]] (Submission) - Fundamental mount submission threat creating defensive reactions that open transitions to back take or technical mount
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Guard submission threat generating advantages even when incomplete
+- [[Submissions/Kimura|Kimura]] (Submission) - Versatile submission threat across multiple positions for advantage accumulation
 
 
 </section>

@@ -327,7 +327,7 @@ The Bow and Arrow Setup from Standing Back Control occupies a critical juncture 
 
 - [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes during the transition to ground
 
-- [[Rear Naked Choke from Standing Back Control]] - Alternative standing back attack that shares the same starting position and creates the choke threat used to set up the collar grip
+- [[Submissions/Rear Naked Choke/from Standing Back Control]] - Alternative standing back attack that shares the same starting position and creates the choke threat used to set up the collar grip
 
 - [[Submissions/Bow and Arrow Choke]] - The choking technique this transition specifically configures the attacker to execute from grounded back control
 

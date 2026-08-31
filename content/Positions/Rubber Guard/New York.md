@@ -232,7 +232,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (6% of attempts)
 
-- **[[Belly Down Armbar from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
+- **[[Submissions/Belly Down Armbar/from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
 
 
 ### Common Mistakes

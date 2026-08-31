@@ -356,30 +356,30 @@ Develop gi-specific strategy through progressive drilling that isolates grip fig
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Closed Guard]] (Position) - Foundational gi guard position emphasizing collar and sleeve control
-- [[Collar Sleeve Guard]] (Position) - Primary open guard system built on gi-specific grips
-- [[Lasso Guard]] (Position) - Advanced lapel-based guard using sleeve entanglement
-- [[Spider Guard]] (Position) - Sleeve-grip dependent guard for distance control and sweeps
-- [[De La Riva Guard]] (Position) - Hook and grip combination guard used in gi competition
-- [[Lapel Guard]] (Position) - Modern guard system using lapel manipulation for control
-- [[Cross Collar Choke]] (Submission) - Fundamental gi-specific choke from multiple positions
-- [[Baseball Bat Choke]] (Submission) - High-percentage gi choke from top positions
-- [[Bow and Arrow Choke]] (Submission) - Back control finishing sequence unique to gi
-- [[Clock Choke]] (Submission) - Turtle attack using collar control unique to gi
-- [[Collar Control]] (Principle) - Core principle for establishing gi-based dominance
-- [[Sleeve Control]] (Principle) - Essential principle for distance management with gi
-- [[Grips]] (Principle) - Foundational skill for all gi-specific strategy
-- [[Hand Fighting]] (Principle) - Strategic framework for grip establishment and denial in standup and ground exchanges
-- [[Posture]] (Principle) - Collar and sleeve mechanics for destroying opponent posture
-- [[Frames]] (Principle) - Defensive framework using gi grips and structures to prevent guard passing
-- [[Berimbolo Entry]] (Transition) - Modern gi-based back take using lapel and De La Riva control
-- [[Arm Drag]] (Transition) - Gi-enhanced technique for off-balancing and back takes
-- [[Body Lock Pass]] (Transition) - Pressure passing approach that integrates gi grip control
-- [[Back Step Pass]] (Transition) - Specific passing strategy effective against lapel-based guards
-- [[Keenan Cornelius Lapel Guard System]] (System) - Advanced gi-specific system built entirely around lapel manipulation
-- [[Roger Gracie Fundamental System]] (System) - Traditional gi-based approach emphasizing collar chokes and pressure
-- [[Bernardo Faria Pressure System]] (System) - Gi pressure passing and control using lapel and collar grips
-- [[Mikey Musumeci Berimbolo System]] (System) - Modern gi system combining lapel guards with berimbolo entries
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Foundational gi guard position emphasizing collar and sleeve control
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Primary open guard system built on gi-specific grips
+- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Advanced lapel-based guard using sleeve entanglement
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Sleeve-grip dependent guard for distance control and sweeps
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Hook and grip combination guard used in gi competition
+- [[Positions/Lapel Guard|Lapel Guard]] (Position) - Modern guard system using lapel manipulation for control
+- [[Submissions/Cross Collar Choke|Cross Collar Choke]] (Submission) - Fundamental gi-specific choke from multiple positions
+- [[Submissions/Baseball Bat Choke|Baseball Bat Choke]] (Submission) - High-percentage gi choke from top positions
+- [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]] (Submission) - Back control finishing sequence unique to gi
+- [[Transitions/Clock Choke|Clock Choke]] (Submission) - Turtle attack using collar control unique to gi
+- [[Principles/Collar Control|Collar Control]] (Principle) - Core principle for establishing gi-based dominance
+- [[Principles/Sleeve Control|Sleeve Control]] (Principle) - Essential principle for distance management with gi
+- [[Principles/Grips|Grips]] (Principle) - Foundational skill for all gi-specific strategy
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Strategic framework for grip establishment and denial in standup and ground exchanges
+- [[Principles/Posture|Posture]] (Principle) - Collar and sleeve mechanics for destroying opponent posture
+- [[Principles/Frames|Frames]] (Principle) - Defensive framework using gi grips and structures to prevent guard passing
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Modern gi-based back take using lapel and De La Riva control
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Gi-enhanced technique for off-balancing and back takes
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Pressure passing approach that integrates gi grip control
+- [[Transitions/Back Step Pass|Back Step Pass]] (Transition) - Specific passing strategy effective against lapel-based guards
+- [[Systems/Keenan Cornelius Lapel Guard System|Keenan Cornelius Lapel Guard System]] (System) - Advanced gi-specific system built entirely around lapel manipulation
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Traditional gi-based approach emphasizing collar chokes and pressure
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Gi pressure passing and control using lapel and collar grips
+- [[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci Berimbolo System]] (System) - Modern gi system combining lapel guards with berimbolo entries
 
 
 </section>

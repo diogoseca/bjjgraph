@@ -219,16 +219,16 @@ A: Advanced opponents recover from confusion faster than less experienced ones. 
 <section id="related" class="content-section">
 
 ## Related
-- [[Timing and Rhythm]] (Principle) - Tempo changes are the most fundamental pattern interrupt available
-- [[Action and Reaction]] (Principle) - Pattern interrupts exploit the action-reaction cycle by producing actions the opponent has no drilled reaction for
-- [[Mask Your Intentions]] (Learning) - Complementary strategy -- masking intentions hides your plan while pattern interrupts break the opponent's plan
-- [[Predictable Responses]] (Learning) - Pattern interrupts are the offensive counterpart -- you exploit the very predictability this article teaches you to avoid in yourself
-- [[Grips]] (Principle) - Unusual grips are a powerful pattern interrupt that changes the entire defensive calculation
-- [[Dominant Angles]] (Principle) - Attacking from unexpected angles is one of the most effective pattern interrupts
-- [[Submission Chains]] (Principle) - Chains that end with an unexpected technique choice function as pattern interrupts
-- [[Kuzushi]] (Principle) - Off-balancing from an unexpected direction disrupts the opponent's automatic base recovery
-- [[Closed Guard]] (Position) - Closed guard is rich with pattern interrupt opportunities due to the variety of available attacks
-- [[Half Guard]] (Position) - Half guard passing and retention both involve heavily drilled automatic patterns that are susceptible to interrupts
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Tempo changes are the most fundamental pattern interrupt available
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Pattern interrupts exploit the action-reaction cycle by producing actions the opponent has no drilled reaction for
+- [[Learning/Mask Your Intentions|Mask Your Intentions]] (Learning) - Complementary strategy -- masking intentions hides your plan while pattern interrupts break the opponent's plan
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Pattern interrupts are the offensive counterpart -- you exploit the very predictability this article teaches you to avoid in yourself
+- [[Principles/Grips|Grips]] (Principle) - Unusual grips are a powerful pattern interrupt that changes the entire defensive calculation
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Attacking from unexpected angles is one of the most effective pattern interrupts
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Chains that end with an unexpected technique choice function as pattern interrupts
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing from an unexpected direction disrupts the opponent's automatic base recovery
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard is rich with pattern interrupt opportunities due to the variety of available attacks
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard passing and retention both involve heavily drilled automatic patterns that are susceptible to interrupts
 
 
 

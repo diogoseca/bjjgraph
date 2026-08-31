@@ -304,7 +304,7 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 
 - [[Positions/Armbar Control]] - Target control position on successful arm isolation and pivot
 
-- [[Armbar from Armbar Control]] - Follow-up submission finish from armbar control to complete the submission
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up submission finish from armbar control to complete the submission
 
 - [[Transitions/Back Take]] - Primary alternative transition from reverse mount creating dilemma system
 

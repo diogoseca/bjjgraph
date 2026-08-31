@@ -226,7 +226,7 @@ Competition application demonstrates New York Control's effectiveness in both gi
 
 - **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
-- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (8% of attempts)
+- **[[Submissions/Kimura/from New York Control/Attacker|Kimura from New York Control]]** (8% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 

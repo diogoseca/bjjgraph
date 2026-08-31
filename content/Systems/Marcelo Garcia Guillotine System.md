@@ -374,34 +374,34 @@ The guillotine system requires isolation drilling of individual components befor
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Guillotine Control]] (Position) - Primary control position for system application and finishing mechanics
-- [[Front Headlock]] (Position) - Essential control position for turtle attacks and standing entries
-- [[Closed Guard]] (Position) - Primary finishing position after guard pull entries
-- [[Butterfly Guard]] (Position) - Alternative guard position for guillotine finishes with sweep integration
-- [[X-Guard]] (Position) - Connected through Marcelo Garcia's integrated guard system
-- [[Half Guard]] (Position) - Secondary finishing position with specific hip positioning requirements
-- [[Turtle]] (Position) - Opponent's defensive position that creates high-percentage guillotine opportunities
-- [[Standing Position]] (Position) - Primary entry position for guillotine attacks during clinch exchanges
-- [[Guillotine Setup]] (Transition) - Initial entry mechanics and grip establishment sequences
-- [[Front Headlock to Guillotine]] (Transition) - Key transition for turtle attacks and front headlock control
-- [[Guillotine from Turtle]] (Transition) - Systematic entry when opponent turtles defensively
-- [[Guard Pull]] (Transition) - Essential transition connecting standing guillotine to guard finishing positions
-- [[Arm Drag to Back]] (Transition) - Alternative attack when guillotine is defended, maintaining offensive pressure
-- [[Snap Down to Front Headlock]] (Transition) - Standing wrestling entry that creates head control for guillotine attacks
-- [[Guillotine Choke]] (Submission) - Primary submission finish of the system
-- [[High Elbow Guillotine]] (Submission) - Core finishing variation with optimal mechanics
-- [[Arm in Guillotine]] (Submission) - Alternative finish when opponent's posture is broken
-- [[Chin Strap Guillotine from Front Headlock]] (Submission) - Grip variation providing additional control and finishing options within the system
-- [[Darce Choke]] (Submission) - Related front headlock submission with similar entry patterns
-- [[Anaconda Choke]] (Submission) - Complementary front headlock submission sharing similar control positions
-- [[Grips]] (Principle) - Essential skill for establishing and maintaining guillotine grips
-- [[Submission Chains]] (Principle) - Core principle of connecting guillotine with sweeps and transitions
-- [[Pressure]] (Principle) - Fundamental principle for effective choking mechanics
-- [[Timing and Rhythm]] (Principle) - Critical for recognizing entry opportunities and finishing coordination
-- [[Fork Attacks]] (Principle) - Framework for integrating guillotine attacks with sweeps to create unsolvable offensive puzzles
-- [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system by same practitioner with shared principles
-- [[Marcelo Garcia X-Guard System]] (System) - Integrated guard system sharing entries and transitions
-- [[Danaher Front Headlock System]] (System) - Related systematic approach to front headlock attacks
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Primary control position for system application and finishing mechanics
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Essential control position for turtle attacks and standing entries
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary finishing position after guard pull entries
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Alternative guard position for guillotine finishes with sweep integration
+- [[Positions/X-Guard|X-Guard]] (Position) - Connected through Marcelo Garcia's integrated guard system
+- [[Positions/Half Guard|Half Guard]] (Position) - Secondary finishing position with specific hip positioning requirements
+- [[Positions/Turtle|Turtle]] (Position) - Opponent's defensive position that creates high-percentage guillotine opportunities
+- [[Positions/Standing Position|Standing Position]] (Position) - Primary entry position for guillotine attacks during clinch exchanges
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Initial entry mechanics and grip establishment sequences
+- [[Transitions/Front Headlock to Guillotine|Front Headlock to Guillotine]] (Transition) - Key transition for turtle attacks and front headlock control
+- [[Transitions/Guillotine from Turtle|Guillotine from Turtle]] (Transition) - Systematic entry when opponent turtles defensively
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Essential transition connecting standing guillotine to guard finishing positions
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) - Alternative attack when guillotine is defended, maintaining offensive pressure
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Standing wrestling entry that creates head control for guillotine attacks
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Primary submission finish of the system
+- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission) - Core finishing variation with optimal mechanics
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) - Alternative finish when opponent's posture is broken
+- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission) - Grip variation providing additional control and finishing options within the system
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Related front headlock submission with similar entry patterns
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - Complementary front headlock submission sharing similar control positions
+- [[Principles/Grips|Grips]] (Principle) - Essential skill for establishing and maintaining guillotine grips
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Core principle of connecting guillotine with sweeps and transitions
+- [[Principles/Pressure|Pressure]] (Principle) - Fundamental principle for effective choking mechanics
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Critical for recognizing entry opportunities and finishing coordination
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Framework for integrating guillotine attacks with sweeps to create unsolvable offensive puzzles
+- [[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia Butterfly Guard System]] (System) - Complementary system by same practitioner with shared principles
+- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Integrated guard system sharing entries and transitions
+- [[Systems/Danaher Front Headlock System|Danaher Front Headlock System]] (System) - Related systematic approach to front headlock attacks
 
 
 </section>

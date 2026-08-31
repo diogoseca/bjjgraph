@@ -329,8 +329,10 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Positions/Guillotine Control]] - Starting position providing established head control and broken posture
 - [[Positions/Front Headlock]] - Precursor control position before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to maintain control while finishing

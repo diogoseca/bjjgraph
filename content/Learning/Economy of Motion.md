@@ -221,16 +221,16 @@ A: Roll at reduced speed, limit yourself to one purposeful movement per breath, 
 <section id="related" class="content-section">
 
 ## Related
-- [[Maximum Efficiency Principle]] (Principle) - The foundational Judo principle of maximum efficiency with minimum effort that underpins economy of motion
-- [[Energy Conservation]] (Principle) - Specific strategies for conserving energy through efficient technique selection and timing
-- [[Frames]] (Principle) - Frames use skeletal structure instead of muscle, embodying the economy of motion principle in defense
-- [[Levers]] (Principle) - Lever principles multiply force, allowing small movements to create large effects
-- [[Making Smaller Circles]] (Principle) - Reducing the radius of every motion is the literal expression of economy of motion -- smaller circles mean less wasted travel
-- [[Pressure]] (Principle) - Effective pressure uses body weight and positioning rather than muscular exertion
-- [[Center of Gravity]] (Principle) - Understanding center of gravity allows efficient movement with minimal displacement
-- [[Kuzushi]] (Principle) - Off-balancing through efficient redirection rather than brute force
-- [[Timing Windows]] (Learning) - Acting at the right moment is the ultimate economy -- zero wasted effort when timing is perfect
-- [[Funneling]] (Learning) - Funneling opponents into your game reduces the total movement and effort needed to win
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - The foundational Judo principle of maximum efficiency with minimum effort that underpins economy of motion
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Specific strategies for conserving energy through efficient technique selection and timing
+- [[Principles/Frames|Frames]] (Principle) - Frames use skeletal structure instead of muscle, embodying the economy of motion principle in defense
+- [[Principles/Levers|Levers]] (Principle) - Lever principles multiply force, allowing small movements to create large effects
+- [[Principles/Making Smaller Circles|Making Smaller Circles]] (Principle) - Reducing the radius of every motion is the literal expression of economy of motion -- smaller circles mean less wasted travel
+- [[Principles/Pressure|Pressure]] (Principle) - Effective pressure uses body weight and positioning rather than muscular exertion
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Understanding center of gravity allows efficient movement with minimal displacement
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing through efficient redirection rather than brute force
+- [[Learning/Timing Windows|Timing Windows]] (Learning) - Acting at the right moment is the ultimate economy -- zero wasted effort when timing is perfect
+- [[Learning/Funneling|Funneling]] (Learning) - Funneling opponents into your game reduces the total movement and effort needed to win
 
 
 

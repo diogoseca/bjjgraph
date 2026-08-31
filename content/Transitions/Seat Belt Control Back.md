@@ -325,7 +325,7 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 
 - [[Transitions/Body Triangle Lock]] - Alternative lower body control option upon completing the transition
 
-- [[Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
+- [[Submissions/Armbar/from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
 - [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
 

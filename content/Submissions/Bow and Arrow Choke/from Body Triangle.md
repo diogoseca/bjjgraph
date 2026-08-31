@@ -295,6 +295,7 @@ At the competition level, this combination represents one of the most dominant f
 - [[Submissions/Arm Triangle]]
 - [[Positions/Back Control/Body Triangle]] - Starting position providing leg control and breathing restriction
 - [[Positions/Back Control]] - Parent position category for body triangle control
+- [[Submissions/Rear Naked Choke/from Body Triangle]] - Alternative high-percentage choke from same control position
 - [[Positions/Crucifix]] - Transition target when opponent reaches back to defend collar grip
 
 </section>

@@ -467,18 +467,18 @@ Full rounds where you receive points for successful sweeps and partner receives 
 
 
 ### Related Content
-- [[Butterfly Sweep]] (Transition) - Primary technical application of sweep mechanics using elevation and upper body control
-- [[Hip Bump Sweep]] (Transition) - Classic example of creating off-balance through bridging power and grip control
-- [[Scissor Sweep]] (Transition) - Fundamental sweep demonstrating push-pull dynamics and directional force application
-- [[Pendulum Sweep]] (Transition) - Illustrates timing-based sweep mechanics capitalizing on opponent forward pressure
-- [[Elevator Sweep]] (Transition) - Technical application of leverage principles where hook placement multiplies sweep force
-- [[Butterfly Guard]] (Position) - Guard position specifically designed around sweep mechanics using butterfly hooks as primary leverage points
-- [[De La Riva Guard]] (Position) - Guard structure that removes opponent's backward base while maintaining sweep mechanics options
-- [[X-Guard]] (Position) - Position optimized for vertical elevation sweeps by positioning under opponent's center of mass
-- [[Deep Half Guard]] (Position) - Bottom position where your body becomes fulcrum for lever-based sweep mechanics
-- [[Posture]] (Principle) - Breaking opponent's posture disrupts their structural base, creating the instability that sweep mechanics capitalizes on for positional reversals
-- [[Timing and Rhythm]] (Principle) - Determines when to apply sweep mechanics for optimal success rates
-- [[Levers]] (Principle) - Explains why specific grip and hook configurations multiply force effectiveness in sweeps
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Primary technical application of sweep mechanics using elevation and upper body control
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Classic example of creating off-balance through bridging power and grip control
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Fundamental sweep demonstrating push-pull dynamics and directional force application
+- [[Transitions/Pendulum Sweep|Pendulum Sweep]] (Transition) - Illustrates timing-based sweep mechanics capitalizing on opponent forward pressure
+- [[Transitions/Elevator Sweep|Elevator Sweep]] (Transition) - Technical application of leverage principles where hook placement multiplies sweep force
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Guard position specifically designed around sweep mechanics using butterfly hooks as primary leverage points
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Guard structure that removes opponent's backward base while maintaining sweep mechanics options
+- [[Positions/X-Guard|X-Guard]] (Position) - Position optimized for vertical elevation sweeps by positioning under opponent's center of mass
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Bottom position where your body becomes fulcrum for lever-based sweep mechanics
+- [[Principles/Posture|Posture]] (Principle) - Breaking opponent's posture disrupts their structural base, creating the instability that sweep mechanics capitalizes on for positional reversals
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Determines when to apply sweep mechanics for optimal success rates
+- [[Principles/Levers|Levers]] (Principle) - Explains why specific grip and hook configurations multiply force effectiveness in sweeps
 
 
 </section>

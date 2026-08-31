@@ -238,6 +238,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Rear Naked Choke]] - Blood choke targeting same carotid arteries from rear control position
 - [[Submissions/Brabo Choke]] - Gi-specific arm-in choke variation from front headlock and passing positions
 - [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation with shared front headlock entries and transitions
+- [[Submissions/Anaconda Choke/from Dead Orchard]] - Advanced finishing variation accessed through Dead Orchard control pathway
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
 - [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
 - [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control

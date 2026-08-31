@@ -314,6 +314,7 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Outside Heel Hook]]
 - [[Submissions/Heel Hook]]

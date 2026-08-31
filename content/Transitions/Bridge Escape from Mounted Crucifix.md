@@ -335,7 +335,7 @@ The bridge escape from mounted crucifix occupies a critical emergency position w
 
 - [[Transitions/Elbow Escape from Mount]] - Follow-up escape technique used after recovering to mount bottom or half guard
 
-- [[Armbar from Crucifix]] - Primary submission threat the top player may attack during escape attempts
+- [[Submissions/Armbar/from Crucifix]] - Primary submission threat the top player may attack during escape attempts
 
 - [[Positions/Back Control]] - Dangerous advancement the top player may pursue if the escape exposes the back
 

@@ -338,7 +338,7 @@ The X-Guard Sweep serves as the primary offensive weapon within the X-Guard atta
 
 - [[Transitions/Single Leg X Entry]] - Related entry technique sharing similar leg control mechanics
 
-- [[Armbar from Armbar Control]] - Submission chain option when opponent posts hand to defend sweep, attacking the extended arm
+- [[Submissions/Armbar/from Armbar Control]] - Submission chain option when opponent posts hand to defend sweep, attacking the extended arm
 
 - [[Transitions/Kneebar]] - Leg attack option accessible from X-Guard configuration through leg entanglement transitions
 

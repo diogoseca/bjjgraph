@@ -303,7 +303,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 <p class="section-subtitle">What should you do from Armbar Control (Top)?</p>
 
 **If opponent keeps arm straight and does not attempt to stack or create defensive posture:**
-- Execute **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Submissions/Armbar/from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent attempts to stack by driving forward and posting on their free arm:**
@@ -434,13 +434,13 @@ Practice entering armbar control from five different starting positions: closed 
 
 ## Related Positions and Techniques
 
-- **[[Armbar from Armbar Control]]** - Primary submission finish from this control position
+- **[[Submissions/Armbar/from Armbar Control]]** - Primary submission finish from this control position
 - **[[Positions/Triangle Control]]** - Common transition when opponent defends armbar with stacking
 - **[[Positions/Omoplata Control]]** - Alternative submission when opponent successfully bends arm
 - **[[Positions/Mount]]** - Common entry position for armbar attacks
 - **[[Positions/Closed Guard]]** - Frequent starting position for armbar attacks from bottom
-- **[[Armbar from Mount]]** - Specific entry technique from mount position
-- **[[Armbar from Guard]]** - Entry variation from guard positions
+- **[[Submissions/Armbar/from Mount]]** - Specific entry technique from mount position
+- **[[Submissions/Armbar/from Guard]]** - Entry variation from guard positions
 - **[[Positions/Kimura Trap]]** - Alternative arm attack control when armbar is defended
 - **[[Positions/Mount/High Mount]]** - Transitional position facilitating armbar setup from mount
 - **[[Submissions/Belly Down Armbar]]** - Variant submission finish when opponent rolls during armbar attempt

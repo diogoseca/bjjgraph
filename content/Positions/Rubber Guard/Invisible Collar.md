@@ -288,17 +288,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Cross Collar Choke from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (4% of attempts)
+- **[[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (4% of attempts)
 
-- **[[Rear Naked Choke from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (37% of attempts)
+- **[[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (37% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
 
 - **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (3% of attempts)
 
-- **[[Bow and Arrow Choke from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (0% of attempts)
 
-- **[[Clock Choke from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (0% of attempts)
+- **[[Submissions/Clock Choke/from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (0% of attempts)
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (29% of attempts)
 

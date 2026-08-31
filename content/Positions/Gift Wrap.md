@@ -298,7 +298,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (25% of attempts)
+- **[[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (25% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (7% of attempts)
 
@@ -316,11 +316,11 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (10% of attempts)
 
-- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (3% of attempts)
+- **[[Submissions/Gift Wrap Armbar/from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (3% of attempts)
 
-- **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (6% of attempts)
+- **[[Submissions/Kimura/from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (6% of attempts)
 
-- **[[Short Choke from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (2% of attempts)
+- **[[Submissions/Short Choke/from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (2% of attempts)
 
 
 ### Common Mistakes

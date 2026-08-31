@@ -336,6 +336,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Triangle Choke]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/X-Guard/Single Leg X-Guard]] - Natural transition position that shares similar leg isolation mechanics

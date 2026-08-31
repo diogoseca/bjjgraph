@@ -320,7 +320,7 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 - **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** (5% of attempts)
 
-- **[[Darce Choke from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (4% of attempts)
+- **[[Submissions/Darce Choke/from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (4% of attempts)
 
 
 ### Common Mistakes

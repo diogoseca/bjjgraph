@@ -455,19 +455,19 @@ Live sparring rounds with specific emphasis on clamp mechanics. Start from posit
 
 
 ### Related Content
-- [[Frames]] (Principle) - Frames are the primary defense against clamps, creating internal space to break the clamping loop
-- [[Grips]] (Principle) - Grips serve as the loop closure mechanism for most upper-body clamps (gable grip, S-grip, clasp)
-- [[Control Maintenance]] (Principle) - Clamps are a primary mechanism for maintaining positional control once established
-- [[Pressure]] (Principle) - Top pressure and clamping work together to create three-dimensional control from dominant positions
-- [[Energy Conservation]] (Principle) - Skeletal locks within clamps enable sustained compression with minimal muscular effort
-- [[Closed Guard]] (Position) - The most fundamental clamping position in BJJ — legs locked around the opponent's waist
-- [[Back Control]] (Position) - Body triangle and seatbelt represent upper and lower body clamps working in concert
-- [[Mount]] (Position) - Knee squeeze in mount uses clamping to prevent hip escape and maintain the dominant pin
-- [[Crucifix]] (Position) - Dual clamping position — legs clamp one arm while the top arm traps the other
-- [[Inside Sankaku]] (Position) - Leg triangle clamp from inside the opponent's legs for lower body control
-- [[Guillotine Control]] (Position) - Arms clamp the neck while closed guard legs clamp the waist — double clamp submission control
-- [[Armbar Control]] (Position) - Knee clamp around the opponent's upper arm is essential for secure armbar control
-- [[Closed Guard to Triangle]] (Transition) - The triangle choke is the quintessential leg-based clamp submission, using figure-four mechanics for maximum compression
+- [[Principles/Frames|Frames]] (Principle) - Frames are the primary defense against clamps, creating internal space to break the clamping loop
+- [[Principles/Grips|Grips]] (Principle) - Grips serve as the loop closure mechanism for most upper-body clamps (gable grip, S-grip, clasp)
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Clamps are a primary mechanism for maintaining positional control once established
+- [[Principles/Pressure|Pressure]] (Principle) - Top pressure and clamping work together to create three-dimensional control from dominant positions
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Skeletal locks within clamps enable sustained compression with minimal muscular effort
+- [[Positions/Closed Guard|Closed Guard]] (Position) - The most fundamental clamping position in BJJ — legs locked around the opponent's waist
+- [[Positions/Back Control|Back Control]] (Position) - Body triangle and seatbelt represent upper and lower body clamps working in concert
+- [[Positions/Mount|Mount]] (Position) - Knee squeeze in mount uses clamping to prevent hip escape and maintain the dominant pin
+- [[Positions/Crucifix|Crucifix]] (Position) - Dual clamping position — legs clamp one arm while the top arm traps the other
+- [[Positions/Inside Sankaku|Inside Sankaku]] (Position) - Leg triangle clamp from inside the opponent's legs for lower body control
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Arms clamp the neck while closed guard legs clamp the waist — double clamp submission control
+- [[Positions/Armbar Control|Armbar Control]] (Position) - Knee clamp around the opponent's upper arm is essential for secure armbar control
+- [[Transitions/Closed Guard to Triangle|Closed Guard to Triangle]] (Transition) - The triangle choke is the quintessential leg-based clamp submission, using figure-four mechanics for maximum compression
 
 
 </section>

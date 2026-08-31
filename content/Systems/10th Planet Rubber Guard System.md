@@ -381,34 +381,34 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Mission Control]] (Position) - Core control position and entry point to the system
-- [[New York]] (Position) - Advanced control position with highest submission percentage
-- [[Chill Dog]] (Position) - Triangle and armbar setup position in the system
-- [[Meathook]] (Position) - Omoplata setup and transitional control position
-- [[Invisible Collar]] (Position) - No-gi collar control substitute position
-- [[Closed Guard]] (Position) - Primary entry point for Rubber Guard system
-- [[Triangle Control]] (Position) - Common finishing position from Chill Dog pathway
-- [[Omoplata Control]] (Position) - Submission control reached from Meathook position
-- [[Back Control]] (Position) - Terminal position from failed submission defenses
-- [[Half Guard]] (Position) - Alternative entry point with modified Rubber Guard concepts
-- [[Triangle Setup]] (Transition) - Primary attack from Chill Dog position
-- [[Closed Guard to Omoplata]] (Transition) - Key transition from Meathook and failed Triangle attempts
-- [[Omoplata to Back]] (Transition) - Chain progression when Omoplata is defended
-- [[Triangle to Armbar]] (Transition) - Submission chain connection from Chill Dog pathway
-- [[Guard Pull]] (Transition) - Entry method to establish closed guard for system
-- [[Triangle Choke]] (Submission) - High-percentage submission from Chill Dog position
-- [[Omoplata]] (Submission) - Primary submission from Meathook and chain progression
-- [[Gogoplata]] (Submission) - Signature submission from New York position
-- [[Inverted Triangle]] (Submission) - Chain progression option from high guard control positions
-- [[Baratoplata]] (Submission) - Advanced submission option from Rubber Guard controls
-- [[Defensive Concepts]] (Principle) - Fundamental guard retention principles maintained throughout system application
-- [[Hip Escape Mechanics]] (Principle) - Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning
-- [[Posture]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
-- [[Position Chains]] (Principle) - Strategic framework connecting all system submissions and controls
-- [[10th Planet No-Gi Guard System]] (System) - Broader system framework containing Rubber Guard as component
-- [[Rubber Guard to Triangle System]] (System) - Specific subsystem focusing on Triangle pathways
-- [[Rubber Guard to Omoplata System]] (System) - Specific subsystem focusing on Omoplata pathways
-- [[Twister System]] (System) - Complementary 10th Planet system for back attacks
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) - Core control position and entry point to the system
+- [[Positions/Rubber Guard/New York|New York]] (Position) - Advanced control position with highest submission percentage
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) - Triangle and armbar setup position in the system
+- [[Positions/Rubber Guard/Meathook|Meathook]] (Position) - Omoplata setup and transitional control position
+- [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]] (Position) - No-gi collar control substitute position
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary entry point for Rubber Guard system
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Common finishing position from Chill Dog pathway
+- [[Positions/Omoplata Control|Omoplata Control]] (Position) - Submission control reached from Meathook position
+- [[Positions/Back Control|Back Control]] (Position) - Terminal position from failed submission defenses
+- [[Positions/Half Guard|Half Guard]] (Position) - Alternative entry point with modified Rubber Guard concepts
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Primary attack from Chill Dog position
+- [[Transitions/Closed Guard to Omoplata|Closed Guard to Omoplata]] (Transition) - Key transition from Meathook and failed Triangle attempts
+- [[Transitions/Omoplata to Back|Omoplata to Back]] (Transition) - Chain progression when Omoplata is defended
+- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition) - Submission chain connection from Chill Dog pathway
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Entry method to establish closed guard for system
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - High-percentage submission from Chill Dog position
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Primary submission from Meathook and chain progression
+- [[Transitions/Gogoplata|Gogoplata]] (Submission) - Signature submission from New York position
+- [[Transitions/Inverted Triangle|Inverted Triangle]] (Submission) - Chain progression option from high guard control positions
+- [[Submissions/Baratoplata|Baratoplata]] (Submission) - Advanced submission option from Rubber Guard controls
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Fundamental guard retention principles maintained throughout system application
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning
+- [[Principles/Posture|Posture]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
+- [[Principles/Position Chains|Position Chains]] (Principle) - Strategic framework connecting all system submissions and controls
+- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - Broader system framework containing Rubber Guard as component
+- [[Systems/Rubber Guard to Triangle System|Rubber Guard to Triangle System]] (System) - Specific subsystem focusing on Triangle pathways
+- [[Systems/Rubber Guard to Omoplata System|Rubber Guard to Omoplata System]] (System) - Specific subsystem focusing on Omoplata pathways
+- [[Systems/Twister System|Twister System]] (System) - Complementary 10th Planet system for back attacks
 
 
 </section>

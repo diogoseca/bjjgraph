@@ -332,7 +332,9 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Submissions/Japanese Necktie]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Positions/Guillotine Control]] - Primary starting position for this submission variant
 - [[Positions/Front Headlock]] - Parent position category - precursor before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to consolidate control during finish

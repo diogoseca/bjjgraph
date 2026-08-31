@@ -327,6 +327,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
+- [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Saddle]] - Alternative high-control entanglement for heel hook attacks

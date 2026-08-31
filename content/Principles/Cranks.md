@@ -440,17 +440,17 @@ Workshops focused on establishing clear communication protocols for crank-adjace
 
 
 ### Related Content
-- [[Can Opener]] (Submission) - The most commonly encountered crank at beginner levels, using cervical flexion force to attack the neck from inside closed guard
-- [[Banana Split]] (Submission) - Groin and lower back attack that includes spinal compression and rotation components from leg entanglement positions
-- [[Twister Control]] (Position) - The specific control position from which the twister lateral spinal rotation crank is applied
-- [[Defensive Concepts]] (Principle) - Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader defensive framework
-- [[Chin Protection]] (Principle) - Chin protection can both defend against and enable certain cranks depending on the specific technique and angle of force application
-- [[Head Position]] (Principle) - Head control is the primary setup for most crank techniques and head positioning is the primary defense
-- [[Back Control]] (Position) - Common position for neck crank application where the attacker has rotational leverage against an immobilized spine
-- [[Crucifix]] (Position) - Extreme control position where arm trapping creates significant leverage for neck crank application
-- [[Posture]] (Principle) - Maintaining spinal alignment through good posture is the primary defense against most crank entries and applications
-- [[Levers]] (Principle) - Cranks use lever mechanics to amplify force against spinal structures through arms, legs, and body positioning
-- [[Closed Guard]] (Position) - Common context for can opener cranks and defensive neck pressure situations
+- [[Submissions/Can Opener|Can Opener]] (Submission) - The most commonly encountered crank at beginner levels, using cervical flexion force to attack the neck from inside closed guard
+- [[Submissions/Banana Split|Banana Split]] (Submission) - Groin and lower back attack that includes spinal compression and rotation components from leg entanglement positions
+- [[Positions/Twister Control|Twister Control]] (Position) - The specific control position from which the twister lateral spinal rotation crank is applied
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader defensive framework
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - Chin protection can both defend against and enable certain cranks depending on the specific technique and angle of force application
+- [[Principles/Head Position|Head Position]] (Principle) - Head control is the primary setup for most crank techniques and head positioning is the primary defense
+- [[Positions/Back Control|Back Control]] (Position) - Common position for neck crank application where the attacker has rotational leverage against an immobilized spine
+- [[Positions/Crucifix|Crucifix]] (Position) - Extreme control position where arm trapping creates significant leverage for neck crank application
+- [[Principles/Posture|Posture]] (Principle) - Maintaining spinal alignment through good posture is the primary defense against most crank entries and applications
+- [[Principles/Levers|Levers]] (Principle) - Cranks use lever mechanics to amplify force against spinal structures through arms, legs, and body positioning
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Common context for can opener cranks and defensive neck pressure situations
 
 
 </section>

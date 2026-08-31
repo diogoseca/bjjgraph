@@ -409,239 +409,239 @@ Master fundamental BJJ principles and concepts. Complete guide to leverage, posi
 
 
 
-### [[Action and Reaction]]
+### [[Principles/Action and Reaction|Action and Reaction]]
 
 Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.
 
-### [[Air Chokes]]
+### [[Principles/Air Chokes|Air Chokes]]
 
 Understand air choke mechanics in BJJ. Learn tracheal compression principles, windpipe restriction techniques, defensive awareness, and the differences from blood chokes.
 
-### [[Base]]
+### [[Principles/Base|Base]]
 
 Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.
 
-### [[Blood Chokes]]
+### [[Principles/Blood Chokes|Blood Chokes]]
 
 Master blood choke mechanics in BJJ. Learn carotid artery compression, vascular strangle principles, finishing details, and safety protocols for the most effective submission type.
 
-### [[Bridge and Shrimp]]
+### [[Principles/Bridge and Shrimp|Bridge and Shrimp]]
 
 Master the foundational Bridge and Shrimp movements in BJJ. Learn hip elevation mechanics, lateral displacement, escape sequences, and cross-position applications.
 
-### [[Center of Gravity]]
+### [[Principles/Center of Gravity|Center of Gravity]]
 
 Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control.
 
-### [[Chest Compression]]
+### [[Principles/Chest Compression|Chest Compression]]
 
 Master chest compression mechanics in BJJ. Learn diaphragm restriction, torso pressure, breathing denial techniques, and how body weight creates cumulative exhaustion.
 
-### [[Chin Protection]]
+### [[Principles/Chin Protection|Chin Protection]]
 
 Master neck defense mechanics in BJJ. Learn protective posture principles, structural barriers against chokes, and cross-position defensive applications.
 
-### [[Clamps]]
+### [[Principles/Clamps|Clamps]]
 
 Master clamps in BJJ. Learn to use paired limbs for squeezing control — closed guard, triangles, body locks, and mount pinches. The fundamental squeeze mechanic.
 
-### [[Collar Control]]
+### [[Principles/Collar Control|Collar Control]]
 
 Master collar grip mechanics in BJJ. Learn deep grip penetration, posture breaking, cross-position applications from guard to mount. Competition-proven control strategies.
 
-### [[Competition Mindset]]
+### [[Principles/Competition Mindset|Competition Mindset]]
 
 Master psychological preparation and mental skills for peak competitive BJJ performance. Learn arousal regulation, tactical decision-making, and adversity response patterns.
 
-### [[Compression Locks]]
+### [[Principles/Compression Locks|Compression Locks]]
 
 Master compression lock mechanics in BJJ. Learn how crushing muscle and tendon against bone creates calf slicers, bicep slicers, and chest compressions.
 
-### [[Connection Principles]]
+### [[Principles/Connection Principles|Connection Principles]]
 
 Master connection principles in BJJ. Learn grip management, frame construction, and strategic control through systematic connection hierarchy and tactical application.
 
-### [[Control Maintenance]]
+### [[Principles/Control Maintenance|Control Maintenance]]
 
 Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.
 
-### [[Control Point Hierarchy]]
+### [[Principles/Control Point Hierarchy|Control Point Hierarchy]]
 
 Master control point hierarchy in BJJ. Learn systematic control acquisition, position-specific priorities, and progressive dominance building across all positions.
 
-### [[Cranks]]
+### [[Principles/Cranks|Cranks]]
 
 Understand crank mechanics in BJJ. Learn spinal rotation risks, neck crank recognition, safety protocols, and why cranks are controversial in training and competition.
 
-### [[Cross Face Control]]
+### [[Principles/Cross Face Control|Cross Face Control]]
 
 Master cross face control mechanics in BJJ. Learn forearm positioning, pressure application, and head control across multiple positions for dominant top game.
 
-### [[Dealing with Pressure]]
+### [[Principles/Dealing with Pressure|Dealing with Pressure]]
 
 Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.
 
-### [[Defensive Concepts]]
+### [[Principles/Defensive Concepts|Defensive Concepts]]
 
 Master defensive concepts in BJJ with systematic frameworks for survival, escape, and position recovery. Learn threat assessment, energy management, and staged progression.
 
-### [[Distance Control]]
+### [[Principles/Distance Control|Distance Control]]
 
 Master Distance Control in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.
 
-### [[Dominant Angles]]
+### [[Principles/Dominant Angles|Dominant Angles]]
 
 Master Dominant Angles in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities.
 
-### [[Energy Conservation]]
+### [[Principles/Energy Conservation|Energy Conservation]]
 
 Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.
 
-### [[Escape Fundamentals]]
+### [[Principles/Escape Fundamentals|Escape Fundamentals]]
 
 Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios.
 
-### [[Flow Rolling]]
+### [[Principles/Flow Rolling|Flow Rolling]]
 
 Master Flow Rolling in BJJ. Learn cooperative training principles, tempo calibration, movement exploration, and technical development through reduced-intensity practice.
 
-### [[Fork Attacks]]
+### [[Principles/Fork Attacks|Fork Attacks]]
 
 Master Fork Attacks in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions.
 
-### [[Forward Pressure]]
+### [[Principles/Forward Pressure|Forward Pressure]]
 
 Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included.
 
-### [[Frames]]
+### [[Principles/Frames|Frames]]
 
 Master Frames in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively.
 
-### [[Grips]]
+### [[Principles/Grips|Grips]]
 
 Master grip fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and prevention tactics across all positions and transitions.
 
-### [[Guard Passing]]
+### [[Principles/Guard Passing|Guard Passing]]
 
 Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.
 
-### [[Hand Fighting]]
+### [[Principles/Hand Fighting|Hand Fighting]]
 
 Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.
 
-### [[Head Position]]
+### [[Principles/Head Position|Head Position]]
 
 Master Head Position in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis.
 
-### [[Hip Escape Mechanics]]
+### [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]]
 
 Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, hip rotation, and guard recovery for space creation across all bottom positions.
 
-### [[Hip Pressure]]
+### [[Principles/Hip Pressure|Hip Pressure]]
 
 Master hip pressure mechanics in BJJ. Learn weight distribution, pressure vectors, position-specific applications, and control systems across top positions.
 
-### [[Hooks]]
+### [[Principles/Hooks|Hooks]]
 
 Master hooks in BJJ. Learn curved foot and hand attachments for retention and control — butterfly hooks, back control hooks, De La Riva hook, overhooks, and underhooks.
 
-### [[Hyperextension]]
+### [[Principles/Hyperextension|Hyperextension]]
 
 Master hyperextension mechanics in BJJ. Learn joint lock principles, armbar and kneebar mechanics, ligament vulnerability, and safe training protocols for joint attacks.
 
-### [[Inside Position]]
+### [[Principles/Inside Position|Inside Position]]
 
 Master inside position in BJJ and wrestling. Learn underhook control, inside bicep ties, pummeling, and how controlling the inside channel wins clinch and guard.
 
-### [[Kuzushi]]
+### [[Principles/Kuzushi|Kuzushi]]
 
 Master sweep mechanics in BJJ. Learn off-balancing principles, leverage points, timing fundamentals, and success rates across skill levels. Technical framework included.
 
-### [[Leg Entanglement]]
+### [[Principles/Leg Entanglement|Leg Entanglement]]
 
 Master Leg Entanglement principles in BJJ. Learn systematic lower body control, position hierarchy, entry mechanics, and transitional flow between configurations.
 
-### [[Levers]]
+### [[Principles/Levers|Levers]]
 
 Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.
 
-### [[Making Smaller Circles]]
+### [[Principles/Making Smaller Circles|Making Smaller Circles]]
 
 Master Making Smaller Circles in BJJ. Learn depth-before-breadth training — refine core movement patterns until effortless, then expand for accelerated skill development.
 
-### [[Maximum Efficiency Principle]]
+### [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]]
 
 Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.
 
-### [[Position Chains]]
+### [[Principles/Position Chains|Position Chains]]
 
 Master position chains in BJJ. Learn systematic progression through 2-4 positions, strategic planning, and multi-step sequences for dominant control.
 
-### [[Position-Over-Submission Approach]]
+### [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]]
 
 Master the Position-Over-Submission philosophy in BJJ. Learn strategic dominance through systematic positional advancement. Build control hierarchy before finishing.
 
-### [[Positional Hierarchy]]
+### [[Principles/Positional Hierarchy|Positional Hierarchy]]
 
 Master positional hierarchy in BJJ. Learn strategic position ranking by control, submission potential, and competitive value. Build systematic decision-making framework.
 
-### [[Positional Sparring]]
+### [[Principles/Positional Sparring|Positional Sparring]]
 
 Master Positional Sparring in BJJ. Learn structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.
 
-### [[Posts]]
+### [[Principles/Posts|Posts]]
 
 Master posts in BJJ. Learn to plant extended limbs against the mat or opponent for base recovery, sweep defense, and balance — the fundamental stability mechanic.
 
-### [[Posture]]
+### [[Principles/Posture|Posture]]
 
 Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.
 
-### [[Pressure]]
+### [[Principles/Pressure|Pressure]]
 
 Master strategic pressure application in BJJ. Learn bodyweight distribution, connection management, and force vectors to create control across all positions.
 
-### [[Rotational Breaks]]
+### [[Principles/Rotational Breaks|Rotational Breaks]]
 
 Master rotational submission mechanics in BJJ. Learn how twisting force applied past a joint's rotational limit creates Kimuras, heel hooks, and Americanas.
 
-### [[Shoulder Pressure]]
+### [[Principles/Shoulder Pressure|Shoulder Pressure]]
 
 Master shoulder pressure control in BJJ. Learn weight distribution, skeletal alignment, pressure vectors across positions for efficient pinning and control.
 
-### [[Sleeve Control]]
+### [[Principles/Sleeve Control|Sleeve Control]]
 
 Master sleeve control in BJJ. Learn grip mechanics, posture breaking, distance management across guard systems. Strategic framework for arm manipulation.
 
-### [[Structure]]
+### [[Principles/Structure|Structure]]
 
 Master skeletal structure in BJJ. Learn bone stacking, joint alignment, and rigid vs flexible configurations for efficient force transmission and resistance.
 
-### [[Submission Chains]]
+### [[Principles/Submission Chains|Submission Chains]]
 
 Master submission chains in BJJ. Learn systematic attack sequences, transition logic between submissions, and chain-based offensive systems. Includes training methods.
 
-### [[Submission Defense]]
+### [[Principles/Submission Defense|Submission Defense]]
 
 Master submission defense in BJJ. Learn escape hierarchies, frame creation, space management, and prevention strategies. Comprehensive defense principles included.
 
-### [[Timing and Rhythm]]
+### [[Principles/Timing and Rhythm|Timing and Rhythm]]
 
 Master timing and rhythm in BJJ. Learn to read opponent reactions, capitalize on momentum shifts, and coordinate technique execution. Expert training methods included.
 
-### [[Torque]]
+### [[Principles/Torque|Torque]]
 
 Master torque and rotational force in BJJ. Learn ratchet mechanics, allen-key leverage, grip fighting rotation, and twisting force for control and submissions.
 
-### [[Transition Management]]
+### [[Principles/Transition Management|Transition Management]]
 
 Master transition management in BJJ. Learn timing recognition, risk assessment, and decision frameworks for controlling position changes. Build systematic progression chains.
 
-### [[Wedges]]
+### [[Principles/Wedges|Wedges]]
 
 Master wedges in BJJ. Learn to insert knees, elbows, shins, and forearms to create angles, redirect force, and open pathways for guard retention, passing, and escapes.
 
-### [[Whizzer Control]]
+### [[Principles/Whizzer Control|Whizzer Control]]
 
 Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.
 

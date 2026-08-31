@@ -451,17 +451,17 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 
 
 ### Related Content
-- [[Triangle from Guard]] (Submission) - Central submission in most guard chain systems, connects to armbar, omoplata, and kimura
-- [[Armbar from Armbar Control]] (Submission) - Core finishing mechanic in mount and guard submission chains, defensive reactions to the armbar open triangle and opposite-side armbar opportunities
-- [[Rear Naked Choke]] (Submission) - Anchor submission in back attack chains, hand-fighting defense creates armbar and triangle setups
-- [[Kimura]] (Submission) - Versatile chain connector from multiple positions, leads to back takes, armbars, and positional advancements
-- [[Omoplata Control]] (Position) - Chain hub position reached when opponent defends triangle or armbar by turning, enabling further submission transitions including sweeps, wristlocks, and back takes
-- [[Position-Over-Submission Approach]] (Principle) - Foundational philosophy that integrates with chain thinking by viewing submission attempts as position improvement tools
-- [[Mount]] (Position) - Optimal platform for submission chains due to high control and multiple attack angles
-- [[Back Control]] (Position) - Highest-percentage position for submission chains in competition contexts
-- [[Fork Attacks]] (Principle) - Chain systems create systematic dilemmas where defending one submission opens another, representing the highest expression of combination thinking
-- [[Action and Reaction]] (Principle) - Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions
-- [[Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
+- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission) - Central submission in most guard chain systems, connects to armbar, omoplata, and kimura
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Core finishing mechanic in mount and guard submission chains, defensive reactions to the armbar open triangle and opposite-side armbar opportunities
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Anchor submission in back attack chains, hand-fighting defense creates armbar and triangle setups
+- [[Submissions/Kimura|Kimura]] (Submission) - Versatile chain connector from multiple positions, leads to back takes, armbars, and positional advancements
+- [[Positions/Omoplata Control|Omoplata Control]] (Position) - Chain hub position reached when opponent defends triangle or armbar by turning, enabling further submission transitions including sweeps, wristlocks, and back takes
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Foundational philosophy that integrates with chain thinking by viewing submission attempts as position improvement tools
+- [[Positions/Mount|Mount]] (Position) - Optimal platform for submission chains due to high control and multiple attack angles
+- [[Positions/Back Control|Back Control]] (Position) - Highest-percentage position for submission chains in competition contexts
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Chain systems create systematic dilemmas where defending one submission opens another, representing the highest expression of combination thinking
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions
+- [[Systems/Ryan Hall Triangle System|Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
 
 
 </section>

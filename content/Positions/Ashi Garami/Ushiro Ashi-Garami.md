@@ -320,13 +320,13 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (5% of attempts)
+- **[[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (5% of attempts)
 
-- **[[Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (6% of attempts)
+- **[[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (6% of attempts)
 
-- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (8% of attempts)
+- **[[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (8% of attempts)
 
-- **[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (5% of attempts)
+- **[[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (5% of attempts)
 
 
 ### Common Mistakes

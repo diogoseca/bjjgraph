@@ -236,7 +236,7 @@ Few bottom positions reshape a standing exchange as decisively as X-Guard, which
 
 - **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (12% of attempts)
 
-- **[[Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (7% of attempts)
+- **[[Submissions/Ankle Lock/from X-Guard/Attacker|Ankle Lock from X-Guard]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -219,19 +219,19 @@ A: Prevention: framing on the opponent's hips the instant they begin walking the
 <section id="related" class="content-section">
 
 ## Related
-- [[Frames]] (Principle) - Frames are the primary physical tool for prevention -- establishing structural barriers before weight settles
-- [[Hand Fighting]] (Principle) - Hand fighting prevents grips from being established, which is a key preventive strategy
-- [[Distance Control]] (Principle) - Maintaining proper distance is a preventive measure that keeps opponents from consolidating positions
-- [[Escape Fundamentals]] (Principle) - Escape fundamentals represent the cure -- what you need when prevention fails
-- [[Defensive Concepts]] (Principle) - Prevention is the highest-level defensive concept, sitting above reactive escape skills
-- [[Guard Passing]] (Principle) - Understanding guard passing helps you recognize the stages where prevention is most effective from the bottom
-- [[Half Guard]] (Position) - Half guard is a common position where prevention of the pass is critical before the crossface locks in
-- [[Mount]] (Position) - Mount is where the prevention vs cure difference is most dramatic -- preventing high mount vs escaping it
-- [[Side Control]] (Position) - Side control consolidation is a prime example of why early defense matters
-- [[Back Control]] (Position) - Preventing the back take during scrambles is far easier than escaping established back control
-- [[Hip Escape Mechanics]] (Principle) - Hip escaping early creates the space that prevents pins from consolidating in the first place
-- [[Defensive Prioritization Framework]] (System) - Provides the layered triage logic for which threats to prevent first when several develop at once
-- [[Timing Windows]] (Learning) - Prevention depends on recognizing and acting within the brief windows before a position consolidates
+- [[Principles/Frames|Frames]] (Principle) - Frames are the primary physical tool for prevention -- establishing structural barriers before weight settles
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Hand fighting prevents grips from being established, which is a key preventive strategy
+- [[Principles/Distance Control|Distance Control]] (Principle) - Maintaining proper distance is a preventive measure that keeps opponents from consolidating positions
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Escape fundamentals represent the cure -- what you need when prevention fails
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Prevention is the highest-level defensive concept, sitting above reactive escape skills
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Understanding guard passing helps you recognize the stages where prevention is most effective from the bottom
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard is a common position where prevention of the pass is critical before the crossface locks in
+- [[Positions/Mount|Mount]] (Position) - Mount is where the prevention vs cure difference is most dramatic -- preventing high mount vs escaping it
+- [[Positions/Side Control|Side Control]] (Position) - Side control consolidation is a prime example of why early defense matters
+- [[Positions/Back Control|Back Control]] (Position) - Preventing the back take during scrambles is far easier than escaping established back control
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip escaping early creates the space that prevents pins from consolidating in the first place
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Provides the layered triage logic for which threats to prevent first when several develop at once
+- [[Learning/Timing Windows|Timing Windows]] (Learning) - Prevention depends on recognizing and acting within the brief windows before a position consolidates
 
 
 

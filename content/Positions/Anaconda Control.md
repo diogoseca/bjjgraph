@@ -292,7 +292,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Anaconda Choke from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (41% of attempts)
+- **[[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (41% of attempts)
 
 - **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (13% of attempts)
 

@@ -373,29 +373,29 @@ The Kimura Trap System should be developed through progressive layering of compl
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Kimura Trap]] (Position) - Primary control position from which the entire system operates
-- [[Kimura to Back Take]] (Transition) - Primary offensive pathway when opponent extends trapped arm
-- [[Rolling Kimura]] (Transition) - Dynamic variation to break opponent's static defensive structure
-- [[Kimura]] (Submission) - Primary submission finish from static control position
-- [[Reverse Kimura]] (Submission) - Reverse grip variation expanding finishing options when standard kimura rotation is blocked
-- [[Kimura from Half Guard]] (Submission) - Alternative entry from bottom position with sweep integration
-- [[Front Headlock]] (Position) - Connected control position enabling snap-down to kimura and back-take sequences
-- [[Side Control]] (Position) - Primary starting position for kimura trap establishment
-- [[Half Guard]] (Position) - Alternative entry position for bottom player applications
-- [[Turtle]] (Position) - Common opponent defensive position that enables kimura attacks
-- [[Back Control]] (Position) - Primary target position for back take pathway
-- [[Mount]] (Position) - Secondary target position for mount transition pathway
-- [[North-South]] (Position) - Transitional position offering kimura opportunities during passing
-- [[Control Maintenance]] (Principle) - Foundational principle for maintaining kimura grip throughout transitions
-- [[Submission Chains]] (Principle) - Conceptual framework for linking kimura to other submission attempts
-- [[Fork Attacks]] (Principle) - Core philosophy of creating multiple bad choices for opponent
-- [[Transition Management]] (Principle) - Guides smooth movement between positions while maintaining control
-- [[Position Chains]] (Principle) - Framework for chaining positional attacks from kimura control through back, mount, and submission pathways
-- [[Positional Sparring]] (Principle) - Training methodology for developing kimura trap recognition and pathway selection through focused repetition
-- [[Danaher Straight Jacket System]] (System) - Complementary arm control system with similar control philosophies
-- [[Back Attack System]] (System) - Target system when kimura trap successfully achieves back take
-- [[North-South to Kimura]] (Transition) - Alternative entry pathway from north-south position
-- [[Americana]] (Submission) - Related shoulder lock submission with similar mechanics
+- [[Positions/Kimura Trap|Kimura Trap]] (Position) - Primary control position from which the entire system operates
+- [[Transitions/Kimura to Back Take|Kimura to Back Take]] (Transition) - Primary offensive pathway when opponent extends trapped arm
+- [[Transitions/Rolling Kimura|Rolling Kimura]] (Transition) - Dynamic variation to break opponent's static defensive structure
+- [[Submissions/Kimura|Kimura]] (Submission) - Primary submission finish from static control position
+- [[Submissions/Reverse Kimura|Reverse Kimura]] (Submission) - Reverse grip variation expanding finishing options when standard kimura rotation is blocked
+- [[Submissions/Kimura/from Half Guard|Kimura from Half Guard]] (Submission) - Alternative entry from bottom position with sweep integration
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Connected control position enabling snap-down to kimura and back-take sequences
+- [[Positions/Side Control|Side Control]] (Position) - Primary starting position for kimura trap establishment
+- [[Positions/Half Guard|Half Guard]] (Position) - Alternative entry position for bottom player applications
+- [[Positions/Turtle|Turtle]] (Position) - Common opponent defensive position that enables kimura attacks
+- [[Positions/Back Control|Back Control]] (Position) - Primary target position for back take pathway
+- [[Positions/Mount|Mount]] (Position) - Secondary target position for mount transition pathway
+- [[Positions/North-South|North-South]] (Position) - Transitional position offering kimura opportunities during passing
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Foundational principle for maintaining kimura grip throughout transitions
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Conceptual framework for linking kimura to other submission attempts
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core philosophy of creating multiple bad choices for opponent
+- [[Principles/Transition Management|Transition Management]] (Principle) - Guides smooth movement between positions while maintaining control
+- [[Principles/Position Chains|Position Chains]] (Principle) - Framework for chaining positional attacks from kimura control through back, mount, and submission pathways
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Training methodology for developing kimura trap recognition and pathway selection through focused repetition
+- [[Systems/Danaher Straight Jacket System|Danaher Straight Jacket System]] (System) - Complementary arm control system with similar control philosophies
+- [[Systems/Back Attack System|Back Attack System]] (System) - Target system when kimura trap successfully achieves back take
+- [[Transitions/North-South to Kimura|North-South to Kimura]] (Transition) - Alternative entry pathway from north-south position
+- [[Submissions/Americana|Americana]] (Submission) - Related shoulder lock submission with similar mechanics
 
 
 </section>

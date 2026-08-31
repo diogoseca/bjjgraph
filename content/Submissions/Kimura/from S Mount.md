@@ -309,6 +309,7 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Positions/Mount/S Mount]] - Primary starting position for this submission variant
 - [[Positions/Mount]] - Entry position from which S Mount is established before attacking
 - [[Positions/Kimura Trap]] - Related control position using Kimura grip mechanics

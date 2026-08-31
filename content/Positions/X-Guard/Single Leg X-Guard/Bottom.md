@@ -448,7 +448,7 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through SLX transitions
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement position with different control dynamics
 - **[[Submissions/Straight Ankle Lock]]** - Primary submission available directly from SLX position
-- **[[Kneebar from Guard]]** - High-percentage submission accessible through SLX leg control
+- **[[Submissions/Kneebar/from Guard]]** - High-percentage submission accessible through SLX leg control
 
 
 </section>

@@ -316,7 +316,7 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 
 **If opponent overcommits to underhook or exposes arm:**
-- Execute **[[Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 

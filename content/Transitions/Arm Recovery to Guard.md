@@ -338,7 +338,7 @@ Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-
 
 - [[Positions/Armbar Control]] - Counter risk—opponent may transition to armbar during failed extraction
 
-- [[Americana from Kuzure Kesa-Gatame]] - Opponent's submission threat that creates the timing window for extraction
+- [[Submissions/Americana/from Kuzure Kesa-Gatame]] - Opponent's submission threat that creates the timing window for extraction
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position when Closed Guard is not reachable
 

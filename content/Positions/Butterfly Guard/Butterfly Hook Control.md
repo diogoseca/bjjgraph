@@ -231,7 +231,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (7% of attempts)
 
-- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (5% of attempts)
+- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (5% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 

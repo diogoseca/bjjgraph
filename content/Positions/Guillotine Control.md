@@ -300,7 +300,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (22% of attempts)
+- **[[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (22% of attempts)
 
 - **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (10% of attempts)
 
@@ -318,11 +318,11 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (3% of attempts)
 
-- **[[Arm in Guillotine from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (9% of attempts)
+- **[[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (9% of attempts)
 
-- **[[High Elbow Guillotine from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (16% of attempts)
+- **[[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (16% of attempts)
 
-- **[[Ten Finger Guillotine from Guillotine Control/Attacker|Ten Finger Guillotine from Guillotine Control]]** (6% of attempts)
+- **[[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Ten Finger Guillotine from Guillotine Control]]** (6% of attempts)
 
 
 ### Common Mistakes

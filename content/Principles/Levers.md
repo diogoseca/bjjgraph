@@ -446,18 +446,18 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 
 
 ### Related Content
-- [[Connection Principles]] (Principle) - Foundational concept governing how body segments link and transmit force, essential for maintaining rigid kinetic chains in leverage application
-- [[Maximum Efficiency Principle]] (Principle) - Complementary concept achieved through proper leverage application, enabling technique effectiveness with minimal energy expenditure
-- [[Frames]] (Principle) - Practical application of leverage principles where limbs create lever systems for distance management and space creation against an opponent's pressure
-- [[Base]] (Principle) - Works synergistically with leverage as stable base provides foundation for effective leverage application and vice versa
-- [[Center of Gravity]] (Principle) - Essential component of leverage effectiveness as strategic weight placement determines effort force magnitude and direction
-- [[Dominant Angles]] (Principle) - Advanced application where practitioners generate new fulcrum points and favorable lever arm ratios through dynamic movement
-- [[Armbar from Armbar Control]] (Submission) - Classic example of leverage principles where hip fulcrum and leg positioning create overwhelming mechanical advantage on the elbow joint
-- [[Americana]] (Submission) - Demonstrates compound leverage using shoulder fulcrum and figure-four grip to create force multiplication on the shoulder joint through rotational torque
-- [[Pressure]] (Principle) - Complementary principle where leverage optimization transforms body weight into overwhelming control pressure through optimal force transmission
-- [[Kuzushi]] (Principle) - Advanced application where leverage mechanics explain how minimal force at optimal angles creates maximum destabilizing effects to reverse position
-- [[Hip Escape Mechanics]] (Principle) - Hip escapes leverage fulcrum repositioning to create space and recover guard, demonstrating leverage principles applied defensively from bottom positions
-- [[Posture]] (Principle) - Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Foundational concept governing how body segments link and transmit force, essential for maintaining rigid kinetic chains in leverage application
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Complementary concept achieved through proper leverage application, enabling technique effectiveness with minimal energy expenditure
+- [[Principles/Frames|Frames]] (Principle) - Practical application of leverage principles where limbs create lever systems for distance management and space creation against an opponent's pressure
+- [[Principles/Base|Base]] (Principle) - Works synergistically with leverage as stable base provides foundation for effective leverage application and vice versa
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Essential component of leverage effectiveness as strategic weight placement determines effort force magnitude and direction
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Advanced application where practitioners generate new fulcrum points and favorable lever arm ratios through dynamic movement
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Classic example of leverage principles where hip fulcrum and leg positioning create overwhelming mechanical advantage on the elbow joint
+- [[Submissions/Americana|Americana]] (Submission) - Demonstrates compound leverage using shoulder fulcrum and figure-four grip to create force multiplication on the shoulder joint through rotational torque
+- [[Principles/Pressure|Pressure]] (Principle) - Complementary principle where leverage optimization transforms body weight into overwhelming control pressure through optimal force transmission
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Advanced application where leverage mechanics explain how minimal force at optimal angles creates maximum destabilizing effects to reverse position
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip escapes leverage fulcrum repositioning to create space and recover guard, demonstrating leverage principles applied defensively from bottom positions
+- [[Principles/Posture|Posture]] (Principle) - Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability
 
 
 </section>

@@ -339,8 +339,10 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 ## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Guillotine Control]] - Primary starting position where choke grip is already established

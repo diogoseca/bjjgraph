@@ -449,16 +449,16 @@ Partner provides escalating resistance to hip pressure application, starting wit
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Parent concept providing general pressure principles that hip pressure specializes for lower body control
-- [[Shoulder Pressure]] (Principle) - Complementary pressure concept that combines with hip pressure to create comprehensive pinning systems
-- [[Side Control]] (Position) - Primary position where hip pressure is essential for maintaining control and preventing hip escapes
-- [[Knee Slice Pass]] (Transition) - Passing technique heavily dependent on hip pressure to pin opponent's hip during pass execution
-- [[Mount]] (Position) - Position where hip pressure maintains stability and prevents bridge escapes while enabling attacks
-- [[Center of Gravity]] (Principle) - Foundational concept determining how bodyweight is allocated through hips for pressure generation
-- [[Bernardo Faria Pressure System]] (System) - Systematic approach to pressure passing where hip pressure is central technical component
-- [[Escape Fundamentals]] (Principle) - Defensive framework focused on preventing or removing hip pressure to create escape opportunities
-- [[Base]] (Principle) - Prerequisite concept ensuring stable structure needed to generate effective hip pressure safely
-- [[Control Point Hierarchy]] (Principle) - Framework identifying hip control as high-priority control point in positional dominance
+- [[Principles/Pressure|Pressure]] (Principle) - Parent concept providing general pressure principles that hip pressure specializes for lower body control
+- [[Principles/Shoulder Pressure|Shoulder Pressure]] (Principle) - Complementary pressure concept that combines with hip pressure to create comprehensive pinning systems
+- [[Positions/Side Control|Side Control]] (Position) - Primary position where hip pressure is essential for maintaining control and preventing hip escapes
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Passing technique heavily dependent on hip pressure to pin opponent's hip during pass execution
+- [[Positions/Mount|Mount]] (Position) - Position where hip pressure maintains stability and prevents bridge escapes while enabling attacks
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Foundational concept determining how bodyweight is allocated through hips for pressure generation
+- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Systematic approach to pressure passing where hip pressure is central technical component
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Defensive framework focused on preventing or removing hip pressure to create escape opportunities
+- [[Principles/Base|Base]] (Principle) - Prerequisite concept ensuring stable structure needed to generate effective hip pressure safely
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Framework identifying hip control as high-priority control point in positional dominance
 
 
 </section>

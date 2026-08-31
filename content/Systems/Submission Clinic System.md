@@ -427,36 +427,36 @@ The Submission Clinic System requires extensive positional drilling combined wit
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Mount]] (Position) - Primary attacking position for armbar, triangle, and collar choke chains
-- [[Back Control]] (Position) - Highest-percentage finishing position for RNC and armbar attacks
-- [[Side Control]] (Position) - Fundamental control position for kimura, americana, and arm triangle setups
-- [[S Mount]] (Position) - Advanced mount variation providing superior armbar and choke access
-- [[Triangle Control]] (Position) - Control position enabling triangle-armbar-omoplata submission chain
-- [[Crucifix]] (Position) - Maximum control position with both arms isolated for finishing
-- [[Gift Wrap]] (Position) - Arm-isolation position transitioning to crucifix or mounted attacks
-- [[North-South]] (Position) - Transition position connecting side control to mount with kimura access
-- [[Technical Mount]] (Position) - Mount variation providing back take and armbar opportunities
-- [[Closed Guard]] (Position) - Bottom attacking position for triangle, armbar, and omoplata chains
-- [[High Mount]] (Position) - Advanced mount control with enhanced submission access
-- [[Body Triangle]] (Position) - Superior back control variation for submission attacks
-- [[Armbar from Armbar Control]] (Submission) - Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions
-- [[Triangle Setup]] (Transition) - Entry to triangle control position from various positions
-- [[Triangle to Armbar]] (Transition) - Essential chain linking triangle and armbar submissions
-- [[Triangle to Omoplata]] (Transition) - Alternative chain when triangle is defended
-- [[Kimura to Back Take]] (Transition) - Position improvement using kimura threat
-- [[Armbar from Back Transition]] (Transition) - High-percentage armbar finish transition from back control
-- [[Rear Naked Choke]] (Submission) - Primary submission from back control
-- [[Triangle Choke]] (Submission) - Core submission in multiple chain sequences
-- [[Kimura]] (Submission) - Versatile submission from multiple positions
-- [[Americana]] (Submission) - Side control and mount submission option
-- [[Omoplata]] (Submission) - Shoulder lock in triangle-armbar-omoplata chain
-- [[Arm Triangle]] (Submission) - Side control choke option
-- [[Guillotine Choke]] (Submission) - Guard and front headlock submission
-- [[Submission Chains]] (Principle) - Core theoretical framework underlying entire system
-- [[Fork Attacks]] (Principle) - Strategic principle of forcing no-win defensive choices
-- [[Position-Over-Submission Approach]] (Principle) - Philosophical foundation prioritizing control before finishing
-- [[Control Maintenance]] (Principle) - Technical principle of maintaining position during attacks
-- [[Positional Hierarchy]] (Principle) - Understanding position value for progressive advancement
+- [[Positions/Mount|Mount]] (Position) - Primary attacking position for armbar, triangle, and collar choke chains
+- [[Positions/Back Control|Back Control]] (Position) - Highest-percentage finishing position for RNC and armbar attacks
+- [[Positions/Side Control|Side Control]] (Position) - Fundamental control position for kimura, americana, and arm triangle setups
+- [[Positions/Mount/S Mount|S Mount]] (Position) - Advanced mount variation providing superior armbar and choke access
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Control position enabling triangle-armbar-omoplata submission chain
+- [[Positions/Crucifix|Crucifix]] (Position) - Maximum control position with both arms isolated for finishing
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Arm-isolation position transitioning to crucifix or mounted attacks
+- [[Positions/North-South|North-South]] (Position) - Transition position connecting side control to mount with kimura access
+- [[Positions/Mount/Technical Mount|Technical Mount]] (Position) - Mount variation providing back take and armbar opportunities
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Bottom attacking position for triangle, armbar, and omoplata chains
+- [[Positions/Mount/High Mount|High Mount]] (Position) - Advanced mount control with enhanced submission access
+- [[Positions/Back Control/Body Triangle|Body Triangle]] (Position) - Superior back control variation for submission attacks
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Entry to triangle control position from various positions
+- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition) - Essential chain linking triangle and armbar submissions
+- [[Transitions/Triangle to Omoplata|Triangle to Omoplata]] (Transition) - Alternative chain when triangle is defended
+- [[Transitions/Kimura to Back Take|Kimura to Back Take]] (Transition) - Position improvement using kimura threat
+- [[Transitions/Armbar from Back Transition|Armbar from Back Transition]] (Transition) - High-percentage armbar finish transition from back control
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission from back control
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Core submission in multiple chain sequences
+- [[Submissions/Kimura|Kimura]] (Submission) - Versatile submission from multiple positions
+- [[Submissions/Americana|Americana]] (Submission) - Side control and mount submission option
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Shoulder lock in triangle-armbar-omoplata chain
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) - Side control choke option
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Guard and front headlock submission
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Core theoretical framework underlying entire system
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic principle of forcing no-win defensive choices
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Philosophical foundation prioritizing control before finishing
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Technical principle of maintaining position during attacks
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding position value for progressive advancement
 
 
 </section>

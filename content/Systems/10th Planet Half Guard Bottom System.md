@@ -378,30 +378,30 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Lockdown]] (Position) - Core control position that serves as the foundation for the entire system
-- [[Deep Half Guard]] (Position) - Alternative bottom half guard position integrated for defensive transitions and additional sweep options
-- [[Electric Chair]] (Position) - Primary submission threat position created from the Lockdown
-- [[Old School]] (Position) - Classic sweep position accessed from Lockdown when opponent defends Electric Chair
-- [[Dogfight Position]] (Position) - Transitional position reached when coming up on underhook from bottom half guard
-- [[Half Guard]] (Position) - Base position from which the Lockdown and the entire bottom system is established
-- [[Lockdown Recovery]] (Transition) - Family of sweep techniques executed from the Lockdown position
-- [[Old School Sweep]] (Transition) - Signature sweep of the system using underhook and arm triangle from Lockdown
-- [[Back Door Escape from Half Guard]] (Transition) - Deep Half Guard escape and reversal pathway integrated when Lockdown is countered
-- [[Back Take from Lockdown Defense]] (Transition) - Common back-take result of successful Old School sweeps and whip-up attacks
-- [[Electric Chair]] (Submission) - Primary submission finish from the Lockdown position
-- [[Kimura Trap]] (Position) - Alternative attacking control when opponent extends their arm during Lockdown battles
-- [[Butterfly Half Guard]] (Position) - Related hybrid bottom configuration that feeds the underhook and elevation game
-- [[Grips]] (Principle) - Critical principle for winning the underhook battle and controlling grips from bottom half guard
-- [[Hooks]] (Principle) - Underlying principle of the Lockdown leg trap and the hooking control it establishes
-- [[Kuzushi]] (Principle) - Fundamental off-balancing principle underlying all Lockdown-based sweeps
-- [[Frames]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
-- [[Fork Attacks]] (Principle) - Using Electric Chair threats to force defensive movements that open sweep and back take opportunities
-- [[Control Maintenance]] (Principle) - The Lockdown as a guard retention tool that prevents passing and maintains bottom position control
-- [[Position Chains]] (Principle) - How individual techniques connect to form a cohesive attacking system with logical progressions
-- [[10th Planet Rubber Guard System]] (System) - Related 10th Planet system that shares Eddie Bravo's systematic approach to guard play
-- [[10th Planet No-Gi Guard System]] (System) - Broader 10th Planet framework that encompasses half guard as one component
-- [[Lockdown to Electric Chair System]] (System) - Specialized subsystem focused on the submission pathway from Lockdown
-- [[Andrew Wiltse Half Guard System]] (System) - Modern half guard system that offers alternative approaches and comparisons
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Core control position that serves as the foundation for the entire system
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Alternative bottom half guard position integrated for defensive transitions and additional sweep options
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) - Primary submission threat position created from the Lockdown
+- [[Positions/Half Guard/Old School|Old School]] (Position) - Classic sweep position accessed from Lockdown when opponent defends Electric Chair
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Transitional position reached when coming up on underhook from bottom half guard
+- [[Positions/Half Guard|Half Guard]] (Position) - Base position from which the Lockdown and the entire bottom system is established
+- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) - Family of sweep techniques executed from the Lockdown position
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Signature sweep of the system using underhook and arm triangle from Lockdown
+- [[Transitions/Back Door Escape from Half Guard|Back Door Escape from Half Guard]] (Transition) - Deep Half Guard escape and reversal pathway integrated when Lockdown is countered
+- [[Transitions/Back Take from Lockdown Defense|Back Take from Lockdown Defense]] (Transition) - Common back-take result of successful Old School sweeps and whip-up attacks
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) - Primary submission finish from the Lockdown position
+- [[Positions/Kimura Trap|Kimura Trap]] (Position) - Alternative attacking control when opponent extends their arm during Lockdown battles
+- [[Positions/Half Guard/Butterfly Half Guard|Butterfly Half Guard]] (Position) - Related hybrid bottom configuration that feeds the underhook and elevation game
+- [[Principles/Grips|Grips]] (Principle) - Critical principle for winning the underhook battle and controlling grips from bottom half guard
+- [[Principles/Hooks|Hooks]] (Principle) - Underlying principle of the Lockdown leg trap and the hooking control it establishes
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Fundamental off-balancing principle underlying all Lockdown-based sweeps
+- [[Principles/Frames|Frames]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Using Electric Chair threats to force defensive movements that open sweep and back take opportunities
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - The Lockdown as a guard retention tool that prevents passing and maintains bottom position control
+- [[Principles/Position Chains|Position Chains]] (Principle) - How individual techniques connect to form a cohesive attacking system with logical progressions
+- [[Systems/10th Planet Rubber Guard System|10th Planet Rubber Guard System]] (System) - Related 10th Planet system that shares Eddie Bravo's systematic approach to guard play
+- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - Broader 10th Planet framework that encompasses half guard as one component
+- [[Systems/Lockdown to Electric Chair System|Lockdown to Electric Chair System]] (System) - Specialized subsystem focused on the submission pathway from Lockdown
+- [[Systems/Andrew Wiltse Half Guard System|Andrew Wiltse Half Guard System]] (System) - Modern half guard system that offers alternative approaches and comparisons
 
 
 </section>

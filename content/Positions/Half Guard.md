@@ -256,13 +256,13 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
-- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (2% of attempts)
+- **[[Submissions/Buggy Choke/from Half Guard/Attacker|Buggy Choke from Half Guard]]** (2% of attempts)
 
-- **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (2% of attempts)
+- **[[Submissions/Kneebar/from Half Guard/Attacker|Kneebar from Half Guard]]** (2% of attempts)
 
 - **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (4% of attempts)
 
-- **[[Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
+- **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -353,9 +353,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (1% of attempts)
 
-- **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Half Guard/Attacker|Loop Choke from Half Guard]]** (0% of attempts)
 
-- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
+- **[[Submissions/Suloev Stretch/from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
 
 - **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (5% of attempts)
 

@@ -141,7 +141,7 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Heel Hook from Ushiro Ashi-Garami]] | 55% |
+| Success | [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 

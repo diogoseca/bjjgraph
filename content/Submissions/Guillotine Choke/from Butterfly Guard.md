@@ -311,6 +311,7 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Butterfly Guard]] - Primary starting position providing hook elevation for setup and finish
 - [[Positions/Guillotine Control]] - Control position established when guillotine grip is secured before finishing

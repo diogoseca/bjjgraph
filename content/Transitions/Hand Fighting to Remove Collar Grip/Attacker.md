@@ -317,7 +317,7 @@ Advanced practitioners treat this grip removal as the trigger for immediate esca
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 55% |
 | Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
-| Counter | [[Cross Collar Choke from Invisible Collar]] | 15% |
+| Counter | [[Submissions/Cross Collar Choke/from Invisible Collar]] | 15% |
 
 
 </section>

@@ -408,34 +408,34 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Saddle]] (Position) - Primary control platform for system's finishing sequences and highest-percentage submission position
-- [[Cross Ashi-Garami]] (Position) - Transitional gateway position serving as entry point to saddle and standalone finishing platform
-- [[50-50 Guard]] (Position) - Symmetrical position requiring systematic protocols to establish dominance and prevent stalemates
-- [[Outside Ashi-Garami]] (Position) - Foundational leg entanglement position for developing control mechanics and entry sequences
-- [[Inside Ashi-Garami]] (Position) - Alternative terminology for saddle position, fundamental control configuration for heel hook attacks
-- [[Backside 50-50]] (Position) - Secondary control position accessed when opponent defends primary saddle attacks effectively
-- [[Single Leg X-Guard]] (Position) - Elevation platform that creates favorable entry angles for cross ashi-garami transitions
-- [[K-Guard]] (Position) - Specialized seated guard optimized for direct entries into leg entanglement positions
-- [[Outside Heel Hook]] (Submission) - Primary finishing mechanism from saddle position utilizing rotational knee attack mechanics
-- [[Inside Heel Hook]] (Submission) - Alternative heel hook variation targeting inside knee structures from modified saddle configurations
-- [[Straight Ankle Lock]] (Submission) - Secondary attack on far leg used to create submission dilemmas and force defensive errors
-- [[Calf Slicer]] (Submission) - Direct compression attack from leg entanglement positions, maintaining offensive pressure when heel hook is defended
-- [[Achilles Lock]] (Submission) - Straight foot lock attack applicable from 50-50 and backside configurations as alternative when heel hook defended
-- [[Saddle Entry from Top]] (Transition) - Entry sequence accessing saddle position from top game and passing positions
-- [[Inside Ashi Entry]] (Transition) - Direct entry pathway to saddle position from seated guard and k-guard configurations
-- [[Outside Ashi Entry]] (Transition) - Foundational entry technique establishing outside leg control before advancing to cross ashi
-- [[Backstep from Single Leg X]] (Transition) - Systematic conversion from single leg x-guard sweeping position to ashi garami leg entanglement when opponent defends elevation
-- [[Ashi Garami Escape]] (Transition) - Essential defensive sequences for neutralizing opponent's leg attack attempts
-- [[Back Take from Ashi]] (Transition) - Critical transition converting leg entanglement control to back control when opponent successfully defends submissions
-- [[50-50 Entry from Standing]] (Transition) - Entry method for accessing 50-50 position from standing exchanges and guard pulls
-- [[Leg Entanglement]] (Principle) - Fundamental concept governing leg position control and submission mechanics throughout system
-- [[Fork Attacks]] (Principle) - Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats
-- [[Position Chains]] (Principle) - Conceptual framework for organizing interconnected techniques into cohesive offensive sequences
-- [[Control Maintenance]] (Principle) - Essential principle for sustaining dominant positions before attempting submission finishes
-- [[Submission Chains]] (Principle) - Concept of linking multiple submission attempts to prevent opponent's defensive success
-- [[Danaher Leg Lock System]] (System) - Foundational systematic approach to leg locks that Craig Jones methodology builds upon and modernizes
-- [[Lachlan Giles Leg Lock Defense Framework]] (System) - Complementary defensive system essential for understanding and countering opponent's leg attack attempts
-- [[B-Team Dilemma System]] (System) - Related submission system emphasizing dual-threat attack creation and systematic position advancement
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Primary control platform for system's finishing sequences and highest-percentage submission position
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) - Transitional gateway position serving as entry point to saddle and standalone finishing platform
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Symmetrical position requiring systematic protocols to establish dominance and prevent stalemates
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Foundational leg entanglement position for developing control mechanics and entry sequences
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Alternative terminology for saddle position, fundamental control configuration for heel hook attacks
+- [[Positions/Ashi Garami/Backside 50-50|Backside 50-50]] (Position) - Secondary control position accessed when opponent defends primary saddle attacks effectively
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Elevation platform that creates favorable entry angles for cross ashi-garami transitions
+- [[Positions/K-Guard|K-Guard]] (Position) - Specialized seated guard optimized for direct entries into leg entanglement positions
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) - Primary finishing mechanism from saddle position utilizing rotational knee attack mechanics
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Alternative heel hook variation targeting inside knee structures from modified saddle configurations
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Secondary attack on far leg used to create submission dilemmas and force defensive errors
+- [[Submissions/Calf Slicer|Calf Slicer]] (Submission) - Direct compression attack from leg entanglement positions, maintaining offensive pressure when heel hook is defended
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) - Straight foot lock attack applicable from 50-50 and backside configurations as alternative when heel hook defended
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Entry sequence accessing saddle position from top game and passing positions
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Direct entry pathway to saddle position from seated guard and k-guard configurations
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Foundational entry technique establishing outside leg control before advancing to cross ashi
+- [[Transitions/Backstep from Single Leg X|Backstep from Single Leg X]] (Transition) - Systematic conversion from single leg x-guard sweeping position to ashi garami leg entanglement when opponent defends elevation
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) - Essential defensive sequences for neutralizing opponent's leg attack attempts
+- [[Transitions/Back Take from Ashi|Back Take from Ashi]] (Transition) - Critical transition converting leg entanglement control to back control when opponent successfully defends submissions
+- [[Transitions/50-50 Entry from Standing|50-50 Entry from Standing]] (Transition) - Entry method for accessing 50-50 position from standing exchanges and guard pulls
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - Fundamental concept governing leg position control and submission mechanics throughout system
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats
+- [[Principles/Position Chains|Position Chains]] (Principle) - Conceptual framework for organizing interconnected techniques into cohesive offensive sequences
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Essential principle for sustaining dominant positions before attempting submission finishes
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Concept of linking multiple submission attempts to prevent opponent's defensive success
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Foundational systematic approach to leg locks that Craig Jones methodology builds upon and modernizes
+- [[Systems/Lachlan Giles Leg Lock Defense Framework|Lachlan Giles Leg Lock Defense Framework]] (System) - Complementary defensive system essential for understanding and countering opponent's leg attack attempts
+- [[Systems/B-Team Dilemma System|B-Team Dilemma System]] (System) - Related submission system emphasizing dual-threat attack creation and systematic position advancement
 
 
 </section>

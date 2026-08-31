@@ -320,7 +320,7 @@ The Guillotine Escape via Posture is a cornerstone defensive transition that con
 
 - [[Transitions/Arm in Guillotine Variation]] - Related guillotine variation that the opponent may transition to during your escape, requiring adjusted defense
 
-- [[Chin Strap Guillotine from Front Headlock]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
 
 
 </section>

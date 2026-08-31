@@ -454,18 +454,18 @@ Extended control rounds (5-10 minutes) where top player must maintain dominant p
 
 
 ### Related Content
-- [[Mount]] (Position) - Primary application position where weight distribution principles are most critical for maintaining control and preventing escapes
-- [[Side Control]] (Position) - Key position requiring sophisticated asymmetric weight distribution to simultaneously block hip escapes and maintain base stability
-- [[Knee on Belly]] (Position) - Advanced position demanding precise weight distribution through single knee contact point while maintaining mobility for transitions
-- [[North-South]] (Position) - Position exemplifying gravity-assisted weight distribution where minimal muscular effort creates oppressive control through optimal skeletal alignment
-- [[Kesa Gatame]] (Position) - Traditional position demonstrating concentrated weight distribution principles where pressure is focused on specific control targets
-- [[Pressure Pass]] (Transition) - Passing technique fundamentally dependent on strategic weight distribution to pin opponent while advancing position
-- [[Smash Pass]] (Transition) - Guard passing approach using heavy forward pressure distribution to flatten opponent and eliminate guard retention options
-- [[Pressure]] (Principle) - Foundational concept that Center of Gravity refines and systematizes through strategic allocation principles
-- [[Base]] (Principle) - Complementary concept that works in constant balance with weight distribution, requiring practitioners to allocate pressure while preserving stability
-- [[Levers]] (Principle) - Biomechanical foundation underlying intelligent weight distribution where mechanical advantage multiplies pressure effectiveness
-- [[Energy Conservation]] (Principle) - Broader strategic framework within which weight distribution serves as primary mechanism for draining opponent energy while conserving personal resources
-- [[Control Point Hierarchy]] (Principle) - Related concept that informs weight distribution strategy by identifying which body parts offer most valuable pressure allocation targets
+- [[Positions/Mount|Mount]] (Position) - Primary application position where weight distribution principles are most critical for maintaining control and preventing escapes
+- [[Positions/Side Control|Side Control]] (Position) - Key position requiring sophisticated asymmetric weight distribution to simultaneously block hip escapes and maintain base stability
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Advanced position demanding precise weight distribution through single knee contact point while maintaining mobility for transitions
+- [[Positions/North-South|North-South]] (Position) - Position exemplifying gravity-assisted weight distribution where minimal muscular effort creates oppressive control through optimal skeletal alignment
+- [[Positions/Side Control/Kesa Gatame|Kesa Gatame]] (Position) - Traditional position demonstrating concentrated weight distribution principles where pressure is focused on specific control targets
+- [[Transitions/Pressure Pass|Pressure Pass]] (Transition) - Passing technique fundamentally dependent on strategic weight distribution to pin opponent while advancing position
+- [[Transitions/Smash Pass|Smash Pass]] (Transition) - Guard passing approach using heavy forward pressure distribution to flatten opponent and eliminate guard retention options
+- [[Principles/Pressure|Pressure]] (Principle) - Foundational concept that Center of Gravity refines and systematizes through strategic allocation principles
+- [[Principles/Base|Base]] (Principle) - Complementary concept that works in constant balance with weight distribution, requiring practitioners to allocate pressure while preserving stability
+- [[Principles/Levers|Levers]] (Principle) - Biomechanical foundation underlying intelligent weight distribution where mechanical advantage multiplies pressure effectiveness
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Broader strategic framework within which weight distribution serves as primary mechanism for draining opponent energy while conserving personal resources
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Related concept that informs weight distribution strategy by identifying which body parts offer most valuable pressure allocation targets
 
 
 </section>

@@ -424,34 +424,34 @@ The Twister System requires structured drilling that builds from foundational lo
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Lockdown]] (Position) - Foundation position that initiates entire system sequence
-- [[Electric Chair]] (Position) - First major attacking position achieved from lockdown whipup
-- [[Truck]] (Position) - Primary control position that enables Twister and other submissions
-- [[Twister Control]] (Position) - Final control position before Twister submission finish
-- [[Half Guard]] (Position) - Starting position where lockdown is typically established
-- [[Rubber Guard]] (Position) - Complementary 10th Planet guard system that shares flexibility requirements
-- [[Mission Control]] (Position) - Related 10th Planet position that can transition to similar attacking sequences
-- [[Chill Dog]] (Position) - 10th Planet position accessible from lockdown as alternative pathway
-- [[Zombie]] (Position) - Advanced 10th Planet rubber guard position with similar flexibility demands
-- [[Crackhead Control]] (Position) - 10th Planet back control variation that shares control concepts with Truck
-- [[Twister Side Control]] (Position) - Alternative control position in the Twister system pathway
-- [[Back Control]] (Position) - Traditional back control position that can be accessed from Truck transitions
-- [[Old School Sweep]] (Transition) - Primary sweep from lockdown that creates Truck entry when defended
-- [[Truck Entry]] (Transition) - Transitional mechanics for achieving Truck Position from various positions
-- [[Turtle to Truck]] (Transition) - General transition pathway into Truck Position
-- [[Lockdown Recovery]] (Transition) - Collection of sweeping techniques available from lockdown position
-- [[Half Guard to Back Take]] (Transition) - Transition pathway connecting half guard positions to back control
-- [[Twister]] (Submission) - Signature submission finish of the entire system
-- [[Banana Split]] (Submission) - Alternative submission from Truck Position when Twister is defended
-- [[Calf Slicer]] (Submission) - Alternative submission using leg entanglement in Truck Position
-- [[Electric Chair]] (Submission) - Primary submission threat from Electric Chair position
-- [[Hip Escape Mechanics]] (Principle) - Essential hip mobility principle underpinning lockdown control and system transitions
-- [[Kuzushi]] (Principle) - Core principle applied through whipup to create sweep and transition opportunities
-- [[Position Chains]] (Principle) - Conceptual framework for understanding how individual techniques connect into coherent positional sequences
-- [[Submission Chains]] (Principle) - Principle of linking submissions together based on defensive reactions
-- [[10th Planet Half Guard Bottom System]] (System) - Broader system category that Twister System is a component of
-- [[10th Planet Rubber Guard System]] (System) - Parallel 10th Planet system sharing flexibility and unconventional positioning philosophy
-- [[Lockdown to Electric Chair System]] (System) - Subsystem focusing specifically on lockdown to Electric Chair progression
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Foundation position that initiates entire system sequence
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) - First major attacking position achieved from lockdown whipup
+- [[Positions/Twister Control/Truck|Truck]] (Position) - Primary control position that enables Twister and other submissions
+- [[Positions/Twister Control|Twister Control]] (Position) - Final control position before Twister submission finish
+- [[Positions/Half Guard|Half Guard]] (Position) - Starting position where lockdown is typically established
+- [[Positions/Rubber Guard|Rubber Guard]] (Position) - Complementary 10th Planet guard system that shares flexibility requirements
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) - Related 10th Planet position that can transition to similar attacking sequences
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) - 10th Planet position accessible from lockdown as alternative pathway
+- [[Positions/Rubber Guard/Zombie|Zombie]] (Position) - Advanced 10th Planet rubber guard position with similar flexibility demands
+- [[Positions/Rubber Guard/Crackhead Control|Crackhead Control]] (Position) - 10th Planet back control variation that shares control concepts with Truck
+- [[Positions/Twister Control/Twister Side Control|Twister Side Control]] (Position) - Alternative control position in the Twister system pathway
+- [[Positions/Back Control|Back Control]] (Position) - Traditional back control position that can be accessed from Truck transitions
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Primary sweep from lockdown that creates Truck entry when defended
+- [[Transitions/Truck Entry|Truck Entry]] (Transition) - Transitional mechanics for achieving Truck Position from various positions
+- [[Transitions/Turtle to Truck|Turtle to Truck]] (Transition) - General transition pathway into Truck Position
+- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) - Collection of sweeping techniques available from lockdown position
+- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) - Transition pathway connecting half guard positions to back control
+- [[Submissions/Twister|Twister]] (Submission) - Signature submission finish of the entire system
+- [[Submissions/Banana Split|Banana Split]] (Submission) - Alternative submission from Truck Position when Twister is defended
+- [[Submissions/Calf Slicer|Calf Slicer]] (Submission) - Alternative submission using leg entanglement in Truck Position
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) - Primary submission threat from Electric Chair position
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Essential hip mobility principle underpinning lockdown control and system transitions
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Core principle applied through whipup to create sweep and transition opportunities
+- [[Principles/Position Chains|Position Chains]] (Principle) - Conceptual framework for understanding how individual techniques connect into coherent positional sequences
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Principle of linking submissions together based on defensive reactions
+- [[Systems/10th Planet Half Guard Bottom System|10th Planet Half Guard Bottom System]] (System) - Broader system category that Twister System is a component of
+- [[Systems/10th Planet Rubber Guard System|10th Planet Rubber Guard System]] (System) - Parallel 10th Planet system sharing flexibility and unconventional positioning philosophy
+- [[Systems/Lockdown to Electric Chair System|Lockdown to Electric Chair System]] (System) - Subsystem focusing specifically on lockdown to Electric Chair progression
 
 
 </section>

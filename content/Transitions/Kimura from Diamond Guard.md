@@ -329,7 +329,7 @@ The Kimura from Diamond Guard integrates into the broader diamond guard offensiv
 
 - [[Transitions/Hip Bump Sweep]] - Shares identical hip mechanics — the sweeping motion for the Kimura from diamond uses the same hip drive pattern
 
-- [[Kimura from Half Guard]] - Related Kimura entry from a different guard position using similar figure-four grip mechanics
+- [[Submissions/Kimura/from Half Guard]] - Related Kimura entry from a different guard position using similar figure-four grip mechanics
 
 - [[Transitions/Triangle Setup]] - Alternative attack from diamond guard that creates the dilemma system with the Kimura
 
