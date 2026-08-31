@@ -5707,3 +5707,25 @@ covering its wheel path — a separate change with its own spec, not a drive-by.
 
 Files: `neural/src/app.src.jsx` (the pane's wheel handler), `e2e/journeys/pane-tab-swipe.spec.ts`
 (journey 7 + M8-M10 + the two blind spots), `docs/Neural.md`.
+
+
+---
+
+## v1.154.0 — THE RECALL BLOCK CAN GO BACK
+
+`Hide` re-conceals a revealed answer; Space toggles the live block (`this._recall`, as `_mc`
+carries A/B/C). Salvaged from `journey/defend-wt` — the only pieces of it dev lacked. Reasoning
+sits at both code sites and in `recall-hide.spec.ts`, one mutant recorded EQUIVALENT, not papered
+over.
+
+**A STALE GENERATED PAYLOAD FAILED TWO GATES THAT WERE NOT BROKEN.** `test:units` came back 4-red
+and `check_claudemd_refs` flagged `concepts.json`. Both were this worktree's wire predating
+v1.153.0; both files are gitignored emitter output, and `dev:neural` cleared them. **Stashing
+reproduced the failures and would have "proved" they were dev's** — right baseline, wrong
+diagnosis. Regenerate before you attribute.
+
+**DO NOT BASELINE BY STASHING.** Two long runs were killed mid-flight, the second before its
+`git stash pop`, leaving the whole change stashed. Swap the served bundle; leave the tree alone.
+
+**`wc -c` IS BYTES, THIS GATE COUNTS CHARS.** 483,328 bytes of archive is 478,705 chars. That
+4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.

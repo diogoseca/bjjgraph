@@ -623,6 +623,18 @@ class Component extends DCLogic {
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
+        // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
+        // three, so an open study surface and a focused mini-row both keep the key they already
+        // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
+        // predicate; see it for why the block is re-derived rather than remembered.
+        //
+        // The `!this._detailCtx` gate on this branch is DELIBERATELY UNCHANGED. The branch this
+        // came from relaxed it, because ITS jit drill rendered through `_recallBlock` and so had
+        // a recall block live behind an open option sheet. Ours does not: `_recallBlock`'s only
+        // two callers are the node card and the landing card, and the landing card is inert
+        // behind a sheet anyway (`_landHidden`). Relaxing the gate here would buy a case that
+        // cannot be reached, and therefore cannot be tested (§6.9).
+        else if (e.key === " " && this._recallLive()) { this._recall.toggle(); }
         // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
         // the question clock is deliberately un-pausable ("that's our test to the user", owner)
       } else if (!typing && /^[a-cA-C]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abc".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
@@ -10010,36 +10022,81 @@ class Component extends DCLogic {
     ans.textContent = card.a || "";
     const row = document.createElement("div");
     row.style.cssText = "display:flex;gap:.5em;";
-    const btn = (label, attr, primary) => {
+    const btn = (label, attr, primary, narrow) => {
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute(attr, "1");
-      b.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:.95em;font-weight:700;padding:.7em .9em;min-height:2.6em;border-radius:.66em;border:1px solid " + (primary ? "rgba(110,160,255,.4)" : "rgba(150,170,210,.24)") + ";background:" + (primary ? "rgba(74,108,255,.18)" : "rgba(255,255,255,.04)") + ";color:" + (primary ? "#eef1f6" : "#c8d2e4") + ";";
+      b.style.cssText = (narrow ? "flex:0 0 auto;padding:.7em 1em;" : "flex:1;padding:.7em .9em;") + "cursor:pointer;font-family:inherit;font-size:.95em;font-weight:700;min-height:2.6em;border-radius:.66em;border:1px solid " + (primary ? "rgba(110,160,255,.4)" : "rgba(150,170,210,.24)") + ";background:" + (primary ? "rgba(74,108,255,.18)" : "rgba(255,255,255,.04)") + ";color:" + (primary ? "#eef1f6" : "#c8d2e4") + ";";
       b.textContent = label;
       return b;
     };
+    // ── REVEALING IS NO LONGER DESTRUCTIVE (ported from journey/defend-wt, v1.91.0) ────────────
+    // This row used to be emptied and rebuilt on reveal, so the answer could only ever go one
+    // way: once it was on screen the question was gone. The one thing a person actually does
+    // with a flashcard — glance, cover it, try again before committing to a grade — had no
+    // gesture at all. All four buttons are built up front now and `paint()` shows the pair the
+    // state calls for, which is also what lets SPACE toggle the block (see `_recallLive`).
     const reveal = btn("Show answer", p + "-reveal", true);
+    const hide = btn("Hide", p + "-hide", false, true);
+    const again = btn("Review again", p + "-again", false);
+    const got = btn("Got it", p + "-got", true);
+    row.appendChild(reveal); row.appendChild(hide); row.appendChild(again); row.appendChild(got);
     let graded = false;
-    reveal.addEventListener("click", () => {
-      ans.style.display = "block";
-      live.textContent = "Answer revealed.";
-      row.innerHTML = "";
-      const again = btn("Review again", p + "-again", false);
-      const got = btn("Got it", p + "-got", true);
-      const grade = (ok) => {
-        if (graded) return; graded = true;
-        this.gradeRecall(key, card, ok);
-        row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
-        live.textContent = ok ? "Marked as recalled." : "Marked for review.";
-        if (onDone) onDone(!!ok, ok ? "recalled" : "review");
-      };
-      again.addEventListener("click", () => grade(false));
-      got.addEventListener("click", () => grade(true));
-      row.appendChild(again); row.appendChild(got);
-    });
-    row.appendChild(reveal);
+    const truth = { key: key, qhash: this.qhash(card.q), surface: surface || "deck", revealed: false, wrap: wrap };
+    const paint = () => {
+      ans.style.display = truth.revealed ? "block" : "none";
+      reveal.style.display = truth.revealed ? "none" : "block";
+      hide.style.display = truth.revealed ? "block" : "none";
+      again.style.display = truth.revealed ? "block" : "none";
+      got.style.display = truth.revealed ? "block" : "none";
+    };
+    truth.toggle = () => {
+      if (graded) return;                      // a paid question does not go back under the cover
+      truth.revealed = !truth.revealed;
+      live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
+      paint();
+    };
+    const grade = (ok) => {
+      if (graded) return; graded = true;
+      this.gradeRecall(key, card, ok);
+      row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
+      live.textContent = ok ? "Marked as recalled." : "Marked for review.";
+      if (this._recall === truth) this._recall = null;   // graded: give the key back (see `_recallLive`)
+      if (onDone) onDone(!!ok, ok ? "recalled" : "review");
+    };
+    reveal.addEventListener("click", () => truth.toggle());
+    hide.addEventListener("click", () => truth.toggle());
+    again.addEventListener("click", () => grade(false));
+    got.addEventListener("click", () => grade(true));
+    paint();
+    this._recall = truth;   // the newest block owns Space, exactly as it owns A/B/C via `_mc`
     wrap.appendChild(ans); wrap.appendChild(row);
     return wrap;
+  }
+  /**
+   * The recall block SPACE is allowed to toggle, or null — and every clause is a rule this app
+   * has already had to learn once.
+   *
+   * HIDDEN IS NOT GONE, and this clause is the one doing the work today. The landing card can be
+   * mounted and inert behind the pane or the option sheet (`_landHidden()` asks three holders,
+   * and returns true for a torn-down card too, since it leads with `!this._landEl`). A-D already
+   * refuses to GRADE a question nobody can see; revealing one is the same mistake one step
+   * earlier, so the same predicate governs.
+   *
+   * DERIVED, NEVER LATCHED (§6.5). `this._recall` is a single slot with many writers, so "is that
+   * block still real?" is asked of the DOM rather than remembered. BE HONEST ABOUT WHAT THIS
+   * BUYS: for `land` it is redundant — `_landHidden()` already covers teardown — and a mutant
+   * that deletes it survives the suite. It earns its keep only on a surface with no such holder,
+   * which today means `_recallBlock`'s other caller, `_renderNodeQuestion`. That one is
+   * UNREACHABLE (§6.8, re-derived at v1.154.0: `_dossierIdx` is assigned null at four sites and a
+   * node index at none), so the clause is deliberate defence for a surface nobody can open yet,
+   * not a gated claim. Delete it the day that surface comes back with a holder of its own.
+   */
+  _recallLive() {
+    const r = this._recall;
+    if (!r || !r.wrap || !r.wrap.isConnected || !r.toggle) return null;
+    if (r.surface === "land" && this._landHidden()) return null;
+    return r;
   }
 
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══

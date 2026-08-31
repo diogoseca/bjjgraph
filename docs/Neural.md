@@ -75,6 +75,14 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
+**A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
+once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
+the answer and try again before committing to a grade. **Space toggles** the live block — the app
+publishes it as `this._recall`, the way `this._mc` carries A/B/C — and refuses one that has left
+the screen or is standing inert behind the pane or the option sheet (`_recallLive`, the same
+predicate A-D uses). Grading releases the key. Space still goes to an open study surface and a
+focused mini-row first.
+
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
