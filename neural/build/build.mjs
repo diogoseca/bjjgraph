@@ -24,6 +24,15 @@ const SOURCE = resolve(HERE, "../../source");
 const require = createRequire(resolve(SOURCE, "package.json"));
 const { build, transform } = require("esbuild");
 
+// APP VERSION, baked at build time (v1.148.1). `openFeedback()` reports it as `app_version`
+// on every neural_technique_requested / neural_issue_reported capture. It was READ there from
+// v1.105.5 and DEFINED nowhere, and the read is `typeof NG_APP_VERSION !== "undefined" ? ... :
+// null` — so it degraded silently to null for ~40 versions of feedback (CLAUDE.md 6.6: a
+// fallback that produces a plausible value and never says it fired). Hence the throw: an
+// absent version must break the build, never bake `undefined` and read as clean.
+const APP_VERSION = JSON.parse(readFileSync(resolve(HERE, "../../package.json"), "utf8")).version;
+if (!APP_VERSION) throw new Error("build.mjs: root package.json has no version to bake as NG_APP_VERSION");
+
 // 1) app source: patch relative data fetches to the configurable base
 const sound = readFileSync(R("src/sound.src.js"), "utf8");
 const challengeDefinitions = readFileSync(
@@ -184,6 +193,8 @@ class DCLogic {
   componentWillUnmount() {}
   renderVals() { return {} }
 }
+
+;(globalThis).NG_APP_VERSION = ${JSON.stringify(APP_VERSION)}
 
 /* ---- begin sound.src.js ---- */
 ${sound}
