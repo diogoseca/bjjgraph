@@ -22,12 +22,9 @@
     "Single Leg X-Guard",
     "Reverse X-Guard",
     "Ashi Garami",
-    "Inside Ashi-Garami"
+    "Outside Ashi-Garami"
   ],
-  "success_rate": {
-    "gi": 40,
-    "nogi": 40
-  },
+  "success_rate": 40,
   "overview": "The ankle lock from X-Guard is a high-percentage submission that capitalizes on the natural leg control inherent in the X-Guard position. When the bottom player has established X-Guard with hooks behind the opponent's knee and on the far hip, the opponent's ankle becomes directly accessible for attack. The transition from guard control to submission grip requires precise timing, with the optimal window occurring when the opponent's weight shifts forward or laterally during base adjustments or sweep defense.\n\nThis submission functions as both a standalone finishing technique and a gateway into the broader leg entanglement system. When the straight ankle lock is defended, the attacker naturally transitions into Ashi Garami variations where heel hooks, toe holds, and kneebars become available. This chain-attack philosophy makes the ankle lock from X-Guard particularly dangerous because defending the initial submission often exposes the opponent to higher-percentage leg attacks from progressively more dominant entanglement positions.\n\nThe mechanical advantage stems from controlling the opponent's hip rotation with your legs while isolating their ankle against your chest with a figure-four grip. The finish requires hip extension driving your body away from the opponent while the ankle remains pinned, creating a lever effect on the Achilles tendon and ankle joint. Progressive pressure application is essential for training safety, as the straight ankle lock allows adequate time for the defender to recognize danger and tap before serious injury occurs.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,34 +67,22 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 40,
-        "nogi": 40
-      },
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "X-Guard/Bottom",
-      "probability": {
-        "gi": 30,
-        "nogi": 30
-      },
+      "probability": 30,
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
+      "probability": 15,
       "result": "counter"
     },
     {
       "to": "Ashi Garami/Bottom",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
+      "probability": 15,
       "result": "failure"
     }
   ],
@@ -121,9 +106,10 @@
   "related_submissions": [
     "Straight Ankle Lock",
     "Achilles Lock",
-    "Aoki Lock",
     "Calf Slicer",
-    "Heel Hook"
+    "Heel Hook",
+    "Toe Hold",
+    "Kneebar"
   ],
   "related_content": [
     {

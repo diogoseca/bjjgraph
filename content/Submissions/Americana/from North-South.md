@@ -311,6 +311,8 @@ Strategically, this submission functions as a natural chain attack from North-So
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Armbar]]
 - [[Positions/North-South]] - Primary control position for this submission variant
 - [[Positions/Side Control]] - Adjacent pin position with Americana transitions through North-South
 - [[Positions/Kimura Trap]] - Related control position for shoulder lock attacks from similar angles

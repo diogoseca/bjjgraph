@@ -19,10 +19,7 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Shoulder of Justice",
   "from_position": "Shoulder of Justice/Top",
-  "success_rate": {
-    "gi": 68,
-    "nogi": 68
-  },
+  "success_rate": 68,
   "summary": "The Americana from Shoulder of Justice is a figure-four shoulder lock that uses crushing jaw pressure to provoke the opponent's near-arm extension, then externally rotates the trapped arm against a pinned elbow to attack the shoulder joint.",
   "overview": "The Americana from Shoulder of Justice exploits one of the most punishing pin positions in Brazilian Jiu-Jitsu to create a high-percentage shoulder lock finish. The Shoulder of Justice's defining characteristic—intense shoulder pressure driven directly into the opponent's jaw—naturally forces defensive arm reactions that expose the near arm for the figure-four keylock grip. Unlike the Americana from standard side control, this variant benefits from the opponent's compromised mental state and severely restricted head movement, making defensive hand fighting significantly more difficult.\n\nThe mechanics of this finish rely on maintaining devastating jaw pressure while transitioning to wrist control on the trapped near arm. The opponent's instinct to push away from the shoulder creates the exact arm extension needed to establish the figure-four grip. Once secured, the top player paints the opponent's hand toward the mat in an arc while keeping the elbow pinned to the ground, using continued shoulder pressure as additional leverage to prevent the opponent from rotating their torso defensively. The combination of positional misery and mechanical advantage makes this one of the highest-percentage Americana setups available in the entire art.\n\nStrategically, this submission functions as the centerpiece of the Shoulder of Justice attack system. The threat of the Americana forces opponents to keep their arms tight, which in turn allows transitions to mount, north-south, or alternative submissions like the kimura and arm triangle. Understanding this dilemma structure is essential for both attackers seeking to finish and defenders attempting to survive the position.",
   "safety_considerations": {
@@ -88,7 +85,9 @@
     "Arm Triangle",
     "Ezekiel Choke",
     "Far Side Armbar",
-    "Cross Collar Choke"
+    "Paper Cutter Choke",
+    "Wrist Lock",
+    "North-South Choke"
   ],
   "related_content": [
     {
@@ -119,26 +118,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 68,
-        "nogi": 68
-      },
+      "probability": 68,
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": {
-        "gi": 21,
-        "nogi": 21
-      },
+      "probability": 21,
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 11,
-        "nogi": 11
-      },
+      "probability": 11,
       "result": "counter"
     }
   ],

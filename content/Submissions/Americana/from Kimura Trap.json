@@ -19,10 +19,7 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Kimura Trap",
   "from_position": "Kimura Trap/Top",
-  "success_rate": {
-    "gi": 68,
-    "nogi": 68
-  },
+  "success_rate": 68,
   "summary": "The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into external rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.",
   "overview": "The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with internal shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying external rotation to the same shoulder joint from the opposite angle.\n\nThe figure-four grip transfers seamlessly between Kimura and Americana without any grip reconfiguration, making this one of the fastest submission transitions in grappling. The defender's own protective reaction—elbow pinned, hand low—provides the starting geometry the Americana requires. Combined with the positional dominance inherent in Kimura Trap Top, this creates a submission with an unusually high completion rate because the attacker never relinquishes control during the transition.\n\nAt the purple and brown belt level, this technique punishes opponents who have developed strong Kimura defense but have not yet internalized the Americana counter-threat. The dual-direction submission threat—Kimura pulling upward, Americana pressing downward—creates a genuine dilemma where defending one attack directly feeds the other. This forced-choice dynamic is the hallmark of high-level submission grappling and represents the Kimura Trap system's philosophical core: every defense creates a new attack.",
   "safety_considerations": {
@@ -99,14 +96,16 @@
     "Kimura Trap",
     "Side Control",
     "North-South",
-    "Half Guard"
+    "Mount"
   ],
   "related_submissions": [
     "Americana",
     "Kimura",
     "Reverse Kimura",
     "Arm Triangle",
-    "Far Side Armbar"
+    "Far Side Armbar",
+    "Armbar",
+    "North-South Choke"
   ],
   "related_content": [
     {
@@ -137,26 +136,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 68,
-        "nogi": 68
-      },
+      "probability": 68,
       "result": "success"
     },
     {
       "to": "Kimura Trap/Top",
-      "probability": {
-        "gi": 21,
-        "nogi": 21
-      },
+      "probability": 21,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": {
-        "gi": 11,
-        "nogi": 11
-      },
+      "probability": 11,
       "result": "counter"
     }
   ],

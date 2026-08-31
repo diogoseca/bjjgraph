@@ -340,14 +340,14 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Darce Choke]]
 - [[Submissions/Kimura]]
-- [[Submissions/Arm Crush]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/North-South Choke]]
-- [[Submissions/Belly Down Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar]]
+- [[Submissions/Wrist Lock]]
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Transitions/Side Control to Mount]] - Position advancement that can be combined with maintained Americana grip
 - [[Positions/North-South]] - Transitional position offering alternative angle for Americana application

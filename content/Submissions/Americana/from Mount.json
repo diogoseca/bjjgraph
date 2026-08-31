@@ -15,10 +15,7 @@
   "target_area": "Shoulder joint (rotator cuff)",
   "starting_position": "Mount",
   "from_position": "Mount/Top",
-  "success_rate": {
-    "gi": 68,
-    "nogi": 68
-  },
+  "success_rate": 68,
   "summary": "Americana from Mount is a high-percentage shoulder lock executed from top mount, pinning the opponent's wrist and shoulder blade to the mat while a figure-four grip forces the arm into external rotation until they tap.",
   "overview": "As a finishing option from the most dominant pin in jiu-jitsu, the Americana from Mount is one of the first high-percentage submissions taught to beginners and one that remains effective into the black-belt ranks. The mount supplies everything the lock demands — a supine opponent whose shoulder can be flattened to the mat, the body weight to keep it pinned, and the upper-body freedom to isolate a wrist — which is why it converts so reliably here relative to the same lock attempted from side control or scarf hold.\n\nThe technique's effectiveness stems from the combination of positional dominance and mechanical advantage. When executed properly from mount, the practitioner uses their body weight to pin the opponent's shoulder to the mat while simultaneously controlling the wrist and applying rotational pressure through the elbow. This creates a powerful lever system that attacks multiple points of the shoulder complex simultaneously.\n\nThe Americana from Mount serves as a cornerstone technique in any top game arsenal, functioning not only as a direct finishing option but also as a gateway to other submissions and positional advancements. Its reliability in both gi and no-gi competition, combined with its straightforward mechanics, makes it an essential submission for practitioners at all levels.",
   "safety_considerations": {
@@ -71,26 +68,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 60,
-        "nogi": 60
-      },
+      "probability": 60,
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
+      "probability": 25,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
+      "probability": 15,
       "result": "counter"
     }
   ],
@@ -100,20 +88,18 @@
     "Modified Mount",
     "S Mount",
     "Technical Mount",
-    "Side Control",
-    "North-South",
-    "Knee on Belly"
+    "3-4 Mount"
   ],
   "related_submissions": [
     "Belly Down Armbar",
     "Ezekiel Choke",
     "Americana",
     "Kimura",
-    "Far Side Armbar",
     "Arm Triangle",
     "Cross Collar Choke",
-    "Flying Armbar from Closed Guard",
-    "Gift Wrap Armbar from Gift Wrap"
+    "Armbar",
+    "Wrist Lock",
+    "Reverse Armbar from Mount"
   ],
   "related_content": [
     {

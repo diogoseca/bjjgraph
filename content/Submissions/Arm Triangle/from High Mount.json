@@ -18,10 +18,7 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "High Mount",
   "from_position": "High Mount/Top",
-  "success_rate": {
-    "gi": 62,
-    "nogi": 62
-  },
+  "success_rate": 62,
   "summary": "The arm triangle from high mount is a head-and-arm blood choke that traps the defender's own arm across their neck and compresses both carotids—their trapped shoulder on one side, your forearm on the other—to finish from grappling's most dominant mount.",
   "overview": "The arm triangle from high mount exploits the most dominant mount variation to isolate the defender's arm against their own neck, creating a bilateral carotid compression using the opponent's trapped shoulder and the attacker's forearm. High mount provides decisive advantages for this submission: the elevated knee position near the armpits restricts the defender's arm movement, gravity assists in steering the arm across the face, and the compressed posture limits defensive bridging and framing.\n\nThe setup typically begins when the attacker uses cross-face pressure or capitalizes on the defender's arm frames to push the near arm across the centerline of the neck. Once the arm is positioned, the attacker threads their choking arm over the trapped arm and behind the defender's head, locks a figure-four or gable grip, and transitions to a perpendicular finishing angle by stepping over to side control. The high mount entry is particularly effective because defenders are already compromised with limited escape options and restricted mobility.\n\nStrategically, the arm triangle from high mount integrates seamlessly into systematic mount attack chains. Armbar threats force defenders to retract their arms, positioning them for the arm triangle push across the neck. Choke threats force defenders to extend and frame, creating armbar opportunities that cycle back to arm triangle setups when the arms retract again. This cyclical pressure dynamic makes the arm triangle from high mount a high-percentage finish in competition and training alike, serving as a cornerstone of methodical mount finishing sequences used by elite grapplers.",
   "safety_considerations": {
@@ -74,10 +71,12 @@
     "Arm Triangle from Side Control",
     "Arm Triangle from Hindulotine",
     "Americana from High Mount",
-    "Anaconda Choke",
     "Arm in Guillotine",
     "Arm Triangle from Kesa Gatame",
-    "Arm Triangle from Scarf Hold Position"
+    "Arm Triangle from Scarf Hold Position",
+    "Armbar",
+    "Cross Collar Choke",
+    "Ezekiel Choke"
   ],
   "related_content": [
     {
@@ -108,26 +107,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 62,
-        "nogi": 62
-      },
+      "probability": 62,
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": {
-        "gi": 25,
-        "nogi": 25
-      },
+      "probability": 25,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": {
-        "gi": 13,
-        "nogi": 13
-      },
+      "probability": 13,
       "result": "counter"
     }
   ],

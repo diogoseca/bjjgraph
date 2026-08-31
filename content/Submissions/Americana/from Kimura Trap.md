@@ -299,7 +299,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - [[Positions/Kimura Trap]]
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
-- [[Positions/Half Guard]]
+- [[Positions/Mount]]
 
 
 </section>
@@ -312,6 +312,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar]]
+- [[Submissions/North-South Choke]]
 - [[Positions/Kimura Trap]] - Primary starting position where the figure-four grip is already established
 - [[Positions/Side Control]] - Most common positional platform for establishing Kimura Trap Top
 - [[Positions/North-South]] - Alternative finishing angle when side control Americana is defended

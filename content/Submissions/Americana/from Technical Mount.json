@@ -24,10 +24,7 @@
     "S Mount",
     "High Mount"
   ],
-  "success_rate": {
-    "gi": 45,
-    "nogi": 45
-  },
+  "success_rate": 45,
   "overview": "The Americana from Technical Mount exploits the asymmetric leg positioning and superior arm isolation of technical mount to attack the shoulder joint through forced external rotation using a figure-four grip. The stepped leg pins the opponent's shoulder line and restricts their ability to rotate or bridge away from the lock, while the attacker's hip weight naturally assists in driving the wrist to the mat. This combination makes the technical mount Americana significantly harder to defend than the same submission from standard mount, where the symmetrical base gives the defender more rotational freedom and bridging options.\n\nThis submission is most commonly available when the opponent bends their near arm defensively to protect against armbar attempts from technical mount. The posture of tucking the elbow creates the ideal Americana starting configuration: a bent arm with the wrist accessible near the mat. This relationship makes the Americana the natural counterpart to the armbar in the technical mount submission chain. When the opponent extends their arm, the armbar is available. When they bend it to defend, the Americana opens. Understanding this binary threat is essential for maximizing finishing efficiency from technical mount.\n\nThe finishing mechanics require a slow, paint-brush rotation of the opponent's elbow toward their head while the wrist remains anchored to the mat. The torque attacks the glenohumeral joint through combined external rotation and abduction, creating progressive pressure that forces the tap. Speed control is critical due to the shoulder joint's vulnerability to sudden rotational force. The posted leg provides base stability throughout the finishing sequence, allowing the attacker to commit fully to the rotational pressure without risking position loss.",
   "safety_considerations": {
     "injury_risks": [
@@ -78,34 +75,22 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 45,
-        "nogi": 45
-      },
+      "probability": 45,
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": {
-        "gi": 30,
-        "nogi": 30
-      },
+      "probability": 30,
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
+      "probability": 15,
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
+      "probability": 10,
       "result": "counter"
     }
   ],
@@ -133,10 +118,12 @@
     "Americana from S Mount",
     "Americana from High Mount",
     "Americana from Side Control",
-    "Americana from Kesa Gatame",
     "Kimura",
     "Armbar",
-    "Armbar from Armbar Control"
+    "Armbar from Armbar Control",
+    "Wrist Lock",
+    "Rear Naked Choke",
+    "Bow and Arrow Choke"
   ],
   "related_content": [
     {

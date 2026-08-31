@@ -333,6 +333,9 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Armbar]]
+- [[Submissions/Wrist Lock]]
+- [[Submissions/Rear Naked Choke]]
+- [[Submissions/Bow and Arrow Choke]]
 - [[Positions/Mount/Technical Mount]] - Primary starting position providing asymmetric mount base for this shoulder lock
 - [[Positions/Mount]] - Parent position from which technical mount is entered before Americana setup
 - [[Transitions/Mount to Armbar]] - Primary alternative attack creating binary threat with Americana from the same position

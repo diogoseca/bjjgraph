@@ -21,12 +21,10 @@
   "from_positions": [
     "Kesa Gatame",
     "Kuzure Kesa-Gatame",
-    "Side Control"
+    "Scarf Hold Position",
+    "Modified Scarf Hold"
   ],
-  "success_rate": {
-    "gi": 50,
-    "nogi": 50
-  },
+  "success_rate": 50,
   "overview": "The Americana from Kesa Gatame exploits the natural arm isolation inherent in the scarf hold position. Unlike executing the Americana from standard side control, where the attacker must first work to isolate the near arm, Kesa Gatame already traps the opponent's arm under the top player's armpit, providing a significant mechanical advantage for initiating the submission. The figure-four grip locks the wrist and forearm, and the finishing motion paints the opponent's hand toward the mat, generating devastating lateral rotation at the glenohumeral joint that forces the tap.\n\nThis submission integrates seamlessly into Kesa Gatame offensive chains. When the opponent defends arm triangle attempts or resists transitions to mount, their defensive arm positioning often exposes the near arm to Americana attacks. The position's natural chest pressure restricts breathing and limits bridging power, making the finish more reliable than from other side control variations. The primary risk is the momentary release of head control required to secure the figure-four grip, which creates a brief escape window that must be managed through maintained chest pressure and efficient grip transitions.\n\nFrom a competitive standpoint, the Americana from Kesa Gatame is particularly effective against opponents who focus on defending chokes and neglect protecting the trapped arm. The submission works in both gi and no-gi contexts, with the primary difference being grip security on the wrist. The key strategic principle is patience—Kesa Gatame's compounding pressure gradually degrades the opponent's defensive capacity, creating progressively larger windows for the finishing sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -69,26 +67,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 50,
-        "nogi": 50
-      },
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": {
-        "gi": 30,
-        "nogi": 30
-      },
+      "probability": 30,
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 20,
-        "nogi": 20
-      },
+      "probability": 20,
       "result": "counter"
     }
   ],
@@ -114,8 +103,9 @@
     "Arm Triangle",
     "Kimura",
     "Kesa Gatame Arm Crush",
-    "Far Side Armbar",
-    "Ezekiel Choke"
+    "Ezekiel Choke",
+    "Armbar",
+    "Wrist Lock"
   ],
   "related_content": [
     {

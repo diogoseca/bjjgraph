@@ -309,8 +309,10 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
+- [[Submissions/Armbar]]
+- [[Submissions/Triangle Choke]]
+- [[Submissions/Wrist Lock]]
 - [[Positions/Mount/S Mount]] - Primary starting position for this submission variant
 - [[Positions/Mount]] - Parent position - S Mount transitions from standard mount
 - [[Positions/Armbar Control]] - Alternative submission setup from same position when arm extends

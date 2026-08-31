@@ -20,10 +20,7 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "North-South",
   "from_position": "North-South/Top",
-  "success_rate": {
-    "gi": 68,
-    "nogi": 68
-  },
+  "success_rate": 68,
   "overview": "The Americana from North-South exploits the perpendicular body alignment unique to this position, creating a powerful angle for attacking the defender's shoulder through forced external rotation. Unlike mount or side control Americanas where the attacker and defender are roughly parallel, the North-South angle allows the attacker's chest to serve as an anchor point directly over the defender's elbow, creating exceptional mechanical advantage for the figure-four shoulder lock.\n\nThe setup opportunity most commonly arises when the bottom player extends an arm while attempting to frame against or escape the crushing North-South pressure. The top player capitalizes by pinning the exposed elbow with their ribcage weight and securing a figure-four wrist grip. The perpendicular alignment severely limits the defender's ability to employ standard Americana defenses such as grabbing their own belt or connecting their hands, because the top player's body weight compresses the defender's range of motion across the upper torso.\n\nStrategically, this submission functions as a natural chain attack from North-South control. When the defender commits arms to framing against the chest pressure, one arm inevitably becomes more vulnerable to isolation. The finish requires the attacker to maintain constant downward pressure while painting the defender's hand toward the mat in an arc, creating the rotational force that attacks the glenohumeral joint and rotator cuff structures.",
   "safety_considerations": {
     "injury_risks": [
@@ -86,7 +83,9 @@
     "Americana",
     "Arm Triangle",
     "Kimura",
-    "Far Side Armbar"
+    "Far Side Armbar",
+    "North-South Choke",
+    "Armbar"
   ],
   "related_content": [
     {
@@ -109,26 +108,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 68,
-        "nogi": 68
-      },
+      "probability": 68,
       "result": "success"
     },
     {
       "to": "North-South/Top",
-      "probability": {
-        "gi": 21,
-        "nogi": 21
-      },
+      "probability": 21,
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 11,
-        "nogi": 11
-      },
+      "probability": 11,
       "result": "counter"
     }
   ],

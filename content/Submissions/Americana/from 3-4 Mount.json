@@ -21,12 +21,9 @@
     "3-4 Mount",
     "Mount",
     "Modified Mount",
-    "Technical Mount"
+    "High Mount"
   ],
-  "success_rate": {
-    "gi": 45,
-    "nogi": 45
-  },
+  "success_rate": 45,
   "overview": "The Americana from 3-4 Mount exploits the asymmetric weight distribution of the three-quarter mount configuration to isolate and attack the near-side shoulder through forced external rotation using a figure-four grip. Unlike the Americana from standard mount where the top player must manage symmetric bridging threats during the finish, the 3-4 Mount's posted leg provides a stable base that absorbs escape attempts while the mounted knee pins the opponent's torso, creating an ideal platform for the figure-four shoulder lock.\n\nThe submission follows classic keylock mechanics: pin the opponent's wrist to the mat, thread your arm beneath their elbow, secure the figure-four grip, and apply rotational pressure by painting the wrist toward the hip while elevating the elbow. The 3-4 Mount configuration enhances each phase of this sequence. The asymmetric pressure pins the near shoulder flat, reducing the opponent's ability to rotate defensively. The chest weight immobilizes the torso during the critical threading phase. The posted leg base allows the attacker to commit fully to the finish without fear of being swept.\n\nStrategically, the Americana from 3-4 Mount functions as the centerpiece of a submission dilemma system. When the opponent straightens their arm to prevent the figure-four, the armbar becomes immediately available from the asymmetric mount angle. When they bridge toward the attacking side, the 3-4 configuration absorbs the force through the posted leg. When they turn away to deny the rotation, the transition to back control follows naturally through technical mount. This branching attack structure makes the Americana from 3-4 Mount a high-percentage finishing tool at competition level, particularly effective against opponents who have strong standard mount defense but struggle with the unique angles created by asymmetric positioning.",
   "safety_considerations": {
     "injury_risks": [
@@ -77,34 +74,22 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": {
-        "gi": 45,
-        "nogi": 45
-      },
+      "probability": 45,
       "result": "success"
     },
     {
       "to": "3-4 Mount/Top",
-      "probability": {
-        "gi": 30,
-        "nogi": 30
-      },
+      "probability": 30,
       "result": "failure"
     },
     {
       "to": "Mount/Top",
-      "probability": {
-        "gi": 15,
-        "nogi": 15
-      },
+      "probability": 15,
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": {
-        "gi": 10,
-        "nogi": 10
-      },
+      "probability": 10,
       "result": "counter"
     }
   ],
@@ -130,10 +115,10 @@
     "Kimura",
     "Ezekiel Choke",
     "Cross Collar Choke",
-    "Far Side Armbar",
     "Arm Triangle",
-    "Gift Wrap Armbar from Gift Wrap",
-    "Flying Armbar from Closed Guard"
+    "Armbar",
+    "Wrist Lock",
+    "Reverse Armbar from Mount"
   ],
   "related_content": [
     {
