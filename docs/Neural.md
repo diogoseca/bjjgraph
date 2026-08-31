@@ -75,7 +75,11 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
-asks as timed recall Q/A in play; below blue, recognition-first MC holds. The black-belt badge
+asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
+a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
+node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
+stage 2, recall at or above it, whatever the belt. `expandOption` pauses motion and declines the
+landing question, so the JIT has no clock to price. The black-belt badge
 still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
 challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
 remover. **EDGE is taught in two quiet places**: a legend row ("+7 · Tilt toward winning", full
@@ -149,6 +153,19 @@ options or it is not an MC block. **Selection order is load-bearing:** the corpu
 the trap tier unreachable corpus-wide with every gate still green — then rotates which plausible
 fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned by
 `mc-oneline.spec.ts`; full story in the archive.
+
+### The JIT drill follows the format ladder
+
+The in-sheet micro-drill (`[data-jit]`) was the last surface that only ever asked one way. It now
+asks through `askFormat`, like the node card: an unproven card deals MC (`[data-jit-mc-opt]`, tags
+`jit-mc-pick`/`jit-mc-shuffle`, so it can never eat the bare `mc-*` queue journeys rig by name); a
+card at its MC cap reads back as the reveal → "Got it" rung it always had; a cold distractor pool
+falls back to recall with ONE warm attempt per deck (`_jitWarmTried`). Right pumps the odds and
+deals the next card, wrong pumps nothing and offers `[data-jit-next]` — the sheet is paused, and a
+read answer should not strand the drill. Credit is `_mcAnswer`'s alone (`banked()` carries the pump
+and the beacon, never credit), so a graded card counts once; closing the sheet hands the A/B/C keys
+back (`_handBackMc`, the dossier's idiom). Gated by `e2e/journeys/jit-format.spec.ts`; the economy
+journeys grade format-agnostically through the DSL's `jitGrade()`.
 
 ### The option sheet is the card you pressed (v1.136.0)
 

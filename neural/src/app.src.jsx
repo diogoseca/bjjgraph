@@ -4164,27 +4164,78 @@ class Component extends DCLogic {
         const renderJit = () => {
           const idx = (this._jitIdx[jitKey] || 0) % jc.length;
           const card = jc[idx];
+          let touched = false;   // the player has engaged THIS question — never rug-pull it
           jit.innerHTML =
             '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
               '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
               '<span style="font-size:10px;color:#6f8a78;">+10% now \u00b7 +3% forever \u00b7 +2.5s</span></div>' +
-            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>' +
+            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>';
+          const advance = () => { this._jitIdx[jitKey] = idx + 1; renderJit(); };
+          // What a graded card is worth HERE, and only that. The credit itself — stage, prep,
+          // sharpness, the SRS clock, the daily counter — belongs to `_mcAnswer` (MC) or to the
+          // `noteCardDone` call in the recall rung below, so this must never re-credit.
+          const banked = () => {
+            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
+            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // banked — commit is the next thing
+            advance();
+          };
+          // ── THE FORMAT LADDER REACHES THE JIT DRILL ─────────────────────────────────────────
+          // `askFormat` — recognition below stage 2, recall at or above it — and it is the NODE
+          // CARD's rule this surface joins, not the landing card's. `expandOption` pauses motion
+          // and DECLINES the landing question, so the JIT is a paused study surface with no clock,
+          // exactly like the dossier. The IN-PLAY rank gate (`_recallInPlayNow`: recall only from
+          // blue belt up, v1.133.0) is deliberately NOT consulted here — it prices a question
+          // asked against a running clock, and there is no clock on this side of the sheet.
+          if (this.askFormat(jitKey, card) === "mc") {
+            const mcw = this._mcBlock(card, jitKey, (ok) => {
+              if (ok) banked();
+              else nextBtn(advance);   // read the answer, then move on — a wrong answer buys nothing
+            }, "jit");
+            if (mcw) { jit.appendChild(mcw); return; }
+            // COLD POOL — fall through to recall and try ONCE to warm this deck. The panic
+            // drill's rule, for the panic drill's reason: a deck that cannot build MC at all
+            // must not loop render -> fallback -> warm -> render for ever.
+            if (!this._jitWarmTried) this._jitWarmTried = {};
+            if (!this._jitWarmTried[jitKey]) {
+              this._jitWarmTried[jitKey] = true;
+              this._warmMcPool(card, jitKey, "jit").then(() => {
+                if (touched || !jit.isConnected || (this._jitIdx[jitKey] || 0) % jc.length !== idx) return;
+                renderJit();   // same question, MC dress — a gentle upgrade, never a rug-pull
+              });
+            }
+          }
+          // ── RECALL ── the idiom this drill has always had. It is now the stage-2+ rung and the
+          // cold-pool fallback rather than the only format, and it still grades itself: no
+          // `_mcAnswer` ran, so the credit is made here.
+          const tail = document.createElement("div");
+          tail.innerHTML =
             '<div class="jitAns" style="display:none;margin-top:8px;font-size:12px;line-height:1.55;color:#a9cdb6;border-top:1px solid rgba(126,224,168,.15);padding-top:8px;">' + card.a + '</div>' +
             '<div style="display:flex;gap:8px;margin-top:10px;">' +
               '<button data-jit-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;">Reveal answer</button>' +
               '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 pump the odds</button>' +
             '</div>';
+          while (tail.firstChild) jit.appendChild(tail.firstChild);
           const rv = jit.querySelector("[data-jit-reveal]"), gt = jit.querySelector("[data-jit-got]");
-          rv.addEventListener("click", (ev) => { ev.stopPropagation(); jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
+          rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
           gt.addEventListener("click", (ev) => {
             ev.stopPropagation();
+            touched = true;
             this.prep[jitKey] = (this.prep[jitKey] || 0) + 1;
             this.noteCardDone(card, jitKey);          // credit + bonus_pumped beat + persistence
-            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
-            this._jitIdx[jitKey] = idx + 1;
-            renderJit();
-            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // bonus banked — commit is the next thing
+            banked();
           });
+        };
+        // A wrong MC answer must not strand the drill on a card whose answer is now on screen.
+        // The sidebar deck auto-advances for this reason; the panic drill deliberately does not
+        // (there, being wrong costs you the escape window). Here the sheet is paused and the
+        // player chose to study, so hand them the next card explicitly.
+        const nextBtn = (advance) => {
+          const b = document.createElement("button");
+          b.setAttribute("data-jit-next", "1");
+          b.textContent = "Next card \u2192";
+          b.style.cssText = "margin-top:9px;width:100%;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;";
+          b.addEventListener("click", (ev) => { ev.stopPropagation(); advance(); }); // the render's own advance, never a second copy of it
+          jit.appendChild(b);
         };
         renderJit();
         scroller.appendChild(jit);
@@ -8633,7 +8684,12 @@ class Component extends DCLogic {
    *  card's stand-down can never drift from whether a sheet is actually open. Lifters, i.e. every
    *  site that hands the card back: `closeOptionDetail` (Back / ✕ / Esc / Enter-commit), the
    *  Execute door, the modal backdrop, both `confirmPlayFrom` exits, and `clearOptions`. */
-  _setDetailCtx(ctx) { this._detailCtx = ctx || null; this._syncDetailDim(); }
+  _setDetailCtx(ctx) {
+    // Closing the sheet takes the JIT drill's MC block off screen with it, so the keyboard goes
+    // back the way the dossier's does — see `_handBackMc`. Harmless when the JIT never asked.
+    if (!ctx) this._handBackMc("jit", true);   // the sheet declined on entry — see `_handBackMc`
+    this._detailCtx = ctx || null; this._syncDetailDim();
+  }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
     if (!b) return "";
@@ -9424,12 +9480,25 @@ class Component extends DCLogic {
   // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
   // `surface` names the block ("land" | "deck" | "checkpoint") so two live blocks can't read
   // each other's truth: the landing question and an open sidebar card coexist.
+  /**
+   * The option handle a surface's buttons carry. ONE rule, because it used to be a 4-way chain in
+   * `_mcBlock` and a 4-selector union in `_mcAnswer`, and a new surface had to be added to BOTH
+   * or its buttons built fine and then graded nothing (§6.5 — one question, two answers).
+   *
+   * Every surface but the sidebar deck gets its own handle: the landing card and an open sidebar
+   * card are on screen together, so a bare `[data-mc-opt]` would silently match both and every
+   * "the sidebar shows N options" assertion would stop meaning what it says.
+   */
+  _mcOptAttr(surface) { return !surface || surface === "deck" ? "data-mc-opt" : "data-" + surface + "-mc-opt"; }
   _mcBlock(card, key, onDone, surface) {
     // RNG SCOPE. `tag` is what keeps one surface out of another's rigged queue: the landing card
     // draws on land-mc-*, the node card on node-mc-*, and the sidebar/checkpoint keep the bare
     // mc-* stream journeys rig by name. A new surface that forgot its tag would eat those values
     // and every frame-exact replay would drift.
-    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface === "land" || surface === "node" || surface === "panic" ? surface : null);
+    // The rule is "every surface EXCEPT the sidebar deck draws on its own tag", stated once.
+    // It was a 3-way chain that had to grow a branch per surface, and the JIT was the fourth —
+    // a surface that forgot its branch silently drew on the bare mc-* stream (§6.5).
+    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
@@ -9448,7 +9517,7 @@ class Component extends DCLogic {
     // Each surface gets its OWN option handle. The landing card and an open sidebar card are on
     // screen at the same time, so a bare [data-mc-opt] selector would silently match both — the
     // split keeps every "the sidebar shows N options" assertion meaning what it says.
-    const OPT = truth.surface === "land" ? "data-land-mc-opt" : truth.surface === "node" ? "data-node-mc-opt" : truth.surface === "panic" ? "data-panic-mc-opt" : "data-mc-opt";
+    const OPT = this._mcOptAttr(truth.surface);
     let answered = false;
     // `truth.spent` is the expiry's door-closer (v1.135.0, owner: "when i click a wrong answer
     // after i run out of time it shouldnt lose me points as it already did"): _expireLandQ
@@ -9502,7 +9571,7 @@ class Component extends DCLogic {
     const mc = truth || this._mc; if (!mc) return;
     const correct = i === mc.correct;
     const tier = mc.tiers[i];
-    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt],[data-node-mc-opt],[data-panic-mc-opt]");
+    const btns = wrap.querySelectorAll("[" + this._mcOptAttr(mc.surface) + "]");
     btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
     const cbtn = btns[mc.correct];
     if (cbtn) {
@@ -10381,17 +10450,32 @@ class Component extends DCLogic {
     }
   }
   /** Forget this visit's question — a different node, or the card going away. */
+  /**
+   * A TEMPORARY SURFACE GIVES THE KEYBOARD BACK (§6.5 — a single-slot resource with many writers).
+   *
+   * `this._mc` is what A-D grades against and the NEWEST block owns it, so a short-lived question
+   * — the dossier's, the option sheet's JIT drill — takes the keys from a landing question that
+   * outlives it. On the way out, hand them back to the block still on screen rather than nulling
+   * outright, which made A-D dead for the rest of the exchange.
+   *
+   * `declinedOnEntry` is the one place the two callers differ, and the difference is real rather
+   * than taste. The dossier does NOT decline, so `_landQ.answered` there means the PLAYER answered
+   * and the keys should go nowhere. The option sheet calls `_declineLandQ("sheet")` on the way in
+   * (v1.134.0), so `answered` is true on EVERY close and carries no information about the player
+   * at all — consulting it would null the keys every time, which is strictly worse than the
+   * do-nothing this replaced. Handing them back is safe either way: the landing block's own
+   * `answer()` refuses to re-grade once `answered || truth.spent`, so a spent block only repaints.
+   */
+  _handBackMc(fromSurface, declinedOnEntry) {
+    if (!this._mc || this._mc.surface !== fromSurface) return;
+    const opt = this._landEl ? this._landEl.querySelector("[data-land-mc-opt]") : null;
+    const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
+    const askable = declinedOnEntry || !(this._landQ && this._landQ.answered);
+    this._mc = back && askable ? back : null;
+  }
   _clearNodeQ() {
     this._nodeQ = null; this._nodeAsked = null; this._nodeWarmP = null;
-    // `this._mc` is what A-D grades against, and the newest block owns it. A dossier visit is
-    // short and the LANDING question outlives it, so hand the keys back to the block still on
-    // screen instead of leaving them pointed at one that no longer exists (nulling outright made
-    // A-D dead for the rest of the exchange).
-    if (this._mc && this._mc.surface === "node") {
-      const opt = this._landEl ? this._landEl.querySelector("[data-land-mc-opt]") : null;
-      const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
-      this._mc = back && !(this._landQ && this._landQ.answered) ? back : null;
-    }
+    this._handBackMc("node");
   }
   /**
    * Fill the dossier's question section.

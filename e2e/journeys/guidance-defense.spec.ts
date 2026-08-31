@@ -41,8 +41,7 @@ test("one-beacon law: exactly one highlighted surface at every beat", async ({ p
 
   // DRILL: after two grades the beacon hands off to Execute (bonus banked → commit is next)
   for (let i = 0; i < 2; i++) {
-    await page.locator("[data-jit-reveal]").click()
-    await page.locator("[data-jit-got]").click()
+    await j.jitGrade()
   }
   expect(await beaconCount()).toBe(1)
   expect(await beaconTarget()).toBe("execute")

@@ -43,8 +43,7 @@ test("sharpness decays per landing, mastery persists", async ({ page }) => {
 
   const before = await j.displayedOdds(target)
   await page.locator(`[data-tech="${target}"]`).first().click()
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
+  await j.jitGrade()
 
   // one grade = +0.03 mastery (permanent) + 0.10 sharpness (fresh)
   const split1 = await page.evaluate((k) => (window as any).__neural.bonusSplit(k), key)

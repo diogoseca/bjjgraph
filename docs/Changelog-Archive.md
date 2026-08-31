@@ -5171,3 +5171,72 @@ spec's header:** a root `node --test` runner cannot import a `.ts` plugin withou
 so the transformer's own control flow (warning cap, bare-repo warning) is NOT executed here, and a
 mutant hard-coding a correct path instead of calling `repo.workdir()` survives both halves.
 `ci-validate.yml` gained the file in its `paths:` filter, for the reason the line above it gives.
+## v1.149.0 — THE FORMAT LADDER REACHES THE JIT DRILL
+
+The in-sheet micro-drill was the last question surface in the app that only ever asked one way:
+reveal → "Got it", whatever the player already knew. It now asks through `askFormat`.
+
+**WHICH LADDER, AND WHY IT MATTERS.** There are two format rules here and they are not
+interchangeable. The landing and defend cards ask against a running clock and use the RANK gate
+(`_recallInPlayNow` — recall only from blue belt up, v1.133.0, owner's call). The node card uses
+`askFormat` — pure stage ladder, no belt. The JIT joins the NODE CARD: `expandOption` pauses
+motion and calls `_declineLandQ`, so the sheet has no clock at all. Wiring the rank gate in here
+would have asked a white belt to recall in the one place the owner deliberately put no clock —
+which is exactly the mistake an abandoned branch (`journey/defend-wt`, v1.91.0) was about to make
+by collapsing both rules into "ONE seam". That branch is superseded; this is the one piece of it
+dev genuinely lacked.
+
+**TWO N-WAY CHAINS COLLAPSED BEFORE ADDING THE FOURTH CASE (§6.5).** `_mcBlock` picked its rng
+scope with `surface === "land" || surface === "node" || surface === "panic"` and its option
+handle with a parallel 4-way ternary, while `_mcAnswer` re-stated the same set as a 4-selector
+union. A new surface had to be added to all three or it built fine and then graded nothing — and
+if it missed the rng branch it silently drew on the bare `mc-*` stream that every sidebar journey
+rigs by name. Both are now one rule: **every surface but the sidebar deck is scoped**, and
+`_mcOptAttr(surface)` derives the handle. The JIT needed no new branch anywhere.
+
+**THE KEYBOARD IS A SINGLE SLOT.** `this._mc` is what A-D grades against and the newest block
+owns it, so the drill takes the keys from a landing question that outlives it. `_clearNodeQ`
+already solved this for the dossier; the body is now `_handBackMc(fromSurface)` and the option
+sheet's one `_detailCtx` writer calls it on the way out. The landing block is handed back only
+while still askable — `_declineLandQ` stamps `answered` when the sheet opens, and a declined
+question must never be re-graded.
+
+**CREDIT COUNTS ONCE.** `_mcAnswer` already carries stage, prep, sharpness, the SRS clock and the
+daily counter, so the drill's own `banked()` carries the odds pump and the beacon handoff and no
+credit at all. The recall rung still grades itself (no `_mcAnswer` ran). A wrong answer pumps
+nothing and offers `[data-jit-next]`: the sidebar auto-advances and the panic drill deliberately
+does not (there, being wrong costs you the escape window), but this sheet is paused and a read
+answer should not strand the drill.
+
+**MUTATION TABLE** (built bundle, `e2e/journeys/jit-format.spec.ts`, all KILLED): always-recall ·
+always-MC · the `jit` rng scope dropped · a wrong answer pumps · `banked()` re-credits prep ·
+`_handBackMc("jit")` dropped. NON-KILLS recorded in the spec header: the cold-pool fallback is
+unreachable under the harness (monolith payload ⇒ `mcPoolWarm` is unconditionally true), so
+`_jitWarmTried` ships checked by hand only.
+
+**THE HAND-BACK'S FIRST CUT BROKE THE KEYBOARD, AND ITS OWN SPEC DID NOT NOTICE.** `_handBackMc`
+was extracted from `_clearNodeQ` verbatim, guard included: refuse the hand-back when
+`_landQ.answered`. That guard is correct for the DOSSIER, which never declines — there `answered`
+means the player answered. The option sheet calls `_declineLandQ("sheet")` on the way IN, so
+`answered` is true on every close and the guard fired every time, nulling `this._mc` where before
+the change it had simply survived. Strictly worse than the do-nothing it replaced: A-D stopped
+answering the landing question after Esc. Caught by `keyboard.spec.ts` and `option-edge.spec.ts`,
+NOT by the new spec's own journey 5 — which asserts only that the keys stopped pointing at "jit",
+and nulling satisfies that too. **An assertion weaker than its claim passes the build that breaks
+the claim** (§6.3). The hole and its mutant (M7) are now recorded in that spec's header, and the
+guard takes an explicit `declinedOnEntry` because the two callers genuinely differ. Handing back is
+safe regardless: the landing block's own `answer()` refuses to re-grade once `answered || spent`.
+
+**THE SIX ECONOMY SPECS WERE NOT REWRITTEN.** `jit-loop`, `guidance-defense`, `stakes-impact` and
+four gen specs each clicked `[data-jit-reveal]` then `[data-jit-got]` on a fresh deck — all nine
+call sites would have gone red. Not one of them is about the format; they are about the odds pump,
+the lesson-done math and the refund budget. So the format moved into the DSL as `jitGrade()`,
+which answers whichever rung is on screen and reads the correct option from `__neural._mc` rather
+than re-deriving it (a spec-side grader would agree with a broken build by construction, §6.3).
+
+**A STALE WORKTREE PAYLOAD LOOKS EXACTLY LIKE A BROKEN CHANGE.** First run of the three affected
+core specs: 12 red, including tests that never touch the JIT. Stashing the change reproduced all
+12 on clean `origin/dev` — `source/public` in the worktree had been built on the v1.91.0 branch,
+so `graph-data.json` did not match the bundle and node lookups returned undefined
+(`TypeError: reading 'ty'`). `npm run dev:neural:app` refreshes only the bundle; the payload needs
+`dev:neural`. Baseline before you debug.

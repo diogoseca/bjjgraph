@@ -89,8 +89,7 @@ test("day-1 post-coach: clock drains, one JIT grade refunds >=2s (granted:true),
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
 
   const r0 = await remaining()
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
+  await j.jitGrade()
   const r1 = await remaining()
   // refundDecision(2500): +2.5s on the first (granted) grade. >=2 absorbs the ceil/rounding of the
   // seconds read; it must be a clear INCREASE past whatever the sheet-open drained.
