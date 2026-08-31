@@ -174,7 +174,7 @@ What distinguishes this system is its adaptability to different guard types whil
 <!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
      and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
      above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in docs/Affiliate.md; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
      scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
      link ever renders without its disclosure above it. -->
 <p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>

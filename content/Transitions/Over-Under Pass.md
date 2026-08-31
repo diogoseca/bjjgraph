@@ -337,7 +337,7 @@ The Over-Under Pass is a cornerstone technique in the pressure passing system an
 
 - [[Positions/Headquarters Position]] - Transitional position that can serve as entry or exit for over-under passing
 
-- [[Transitions/Kimura from Half Guard]] - Submission threat available during the over-under pass setup phase
+- [[Kimura from Half Guard]] - Submission threat available during the over-under pass setup phase
 
 - [[Submissions/Darce Choke]] - Submission opportunity when opponent turns away during the pass
 

@@ -338,7 +338,7 @@ The Darce Setup serves as a critical bridge in the front headlock submission sys
 
 - [[Transitions/Crucifix from Turtle]] - Alternative transition when arm control is available
 
-- [[Transitions/Arm Triangle from Turtle]] - Related arm-in choke from similar position
+- [[Arm Triangle from Turtle]] - Related arm-in choke from similar position
 
 
 </section>

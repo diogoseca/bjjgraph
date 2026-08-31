@@ -337,7 +337,7 @@ The Knee Slice from Half Guard serves as a central technique in virtually all mo
 
 - [[Positions/Knee on Belly]] - Alternative ending position for more dynamic control
 
-- [[Transitions/Kimura from Half Guard]] - Submission threat available during passing sequence
+- [[Kimura from Half Guard]] - Submission threat available during passing sequence
 
 - [[Positions/Half Guard/Deep Half Guard]] - Common counter position when opponent goes underneath
 

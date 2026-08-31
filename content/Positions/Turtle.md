@@ -308,7 +308,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (4% of attempts)
 
-- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
+- **[[Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
 
 - **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (6% of attempts)
 

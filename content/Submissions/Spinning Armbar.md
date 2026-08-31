@@ -204,7 +204,6 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Armbar from Crucifix]] - Arm isolation submission sharing similar extension and control principles
 - [[Submissions/Americana]] - Alternative shoulder lock when spinning armbar rotation is blocked
 - [[Submissions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
 - [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline

@@ -343,7 +343,6 @@ This technique is commonly seen in high-level competition and represents excelle
 - [[Submissions/Darce Choke]]
 - [[Transitions/Back Control to Crucifix]] - Primary transition to reach crucifix position for this choke
 - [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix when opponent turtles
-- [[Transitions/Armbar from Crucifix]] - Alternative finish from same position when choke is defended
 - [[Positions/Crucifix]] - Parent control position from which this choke is executed
 - [[Positions/Mount/Mounted Crucifix]] - Variation position that provides similar choking opportunities
 - [[Positions/Back Control/Seat Belt Control Back]] - Back control variation that transitions well into crucifix

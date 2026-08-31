@@ -313,7 +313,7 @@ The Crucifix Choke Defense occupies a critical position in the defensive hierarc
 
 - [[Positions/Mount/Mounted Crucifix]] - Worsened position if opponent counters by transitioning to mount
 
-- [[Transitions/Armbar from Crucifix]] - Alternative submission threat opponent may switch to when choke is defended
+- [[Armbar from Crucifix]] - Alternative submission threat opponent may switch to when choke is defended
 
 - [[Positions/Gift Wrap]] - Related arm control concept sharing defensive principles against trapped-arm positions
 

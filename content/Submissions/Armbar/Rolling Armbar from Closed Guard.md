@@ -341,7 +341,6 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Positions/Armbar Control]] - Finishing position - where the rolling armbar ends and standard armbar mechanics apply
 - [[Positions/Triangle Control]] - Common combination - if triangle is defended, rolling armbar becomes available from the same position

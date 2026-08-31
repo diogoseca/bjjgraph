@@ -340,7 +340,6 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Kimura]]
 - [[Submissions/Choke from Crucifix]]
 - [[Positions/Back Control]] - Primary starting position for this submission

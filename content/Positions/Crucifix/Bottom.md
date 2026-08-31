@@ -413,7 +413,7 @@ From established crucifix, bottom player works specific pathway to turtle positi
 - **[[Positions/Back Control]]** - Primary transition target—less disadvantaged position
 - **[[Positions/Turtle]]** - Common escape destination—defensive recovery position
 - **[[Submissions/Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Transitions/Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
+- **[[Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
 - **[[Positions/Mount/Mounted Crucifix]]** - Worse variation if opponent transitions to mount
 - **[[Positions/Closed Guard]]** - Ideal escape destination—return to guard game
 - **[[Transitions/Shrimp Escape]]** - Primary escape mechanism from crucifix

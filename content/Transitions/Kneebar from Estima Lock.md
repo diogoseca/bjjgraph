@@ -312,7 +312,7 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 
 - [[Submissions/Estima Lock]] - Primary submission from source position that this chain attack complements
 
-- [[Transitions/Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
+- [[Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
 
 - [[Transitions/Counter from Estima Lock]] - Defensive transition the opponent attempts that creates kneebar opportunities
 

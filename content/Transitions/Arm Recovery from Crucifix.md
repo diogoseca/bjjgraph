@@ -316,7 +316,7 @@ Arm Recovery from Crucifix sits within the broader defensive escape hierarchy as
 
 - [[Submissions/Choke from Crucifix]] - Primary submission threat that must be defended during arm recovery attempts
 
-- [[Transitions/Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape sequence
+- [[Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape sequence
 
 - [[Transitions/Shrimp Escape]] - Core movement mechanic used within the arm recovery sequence
 

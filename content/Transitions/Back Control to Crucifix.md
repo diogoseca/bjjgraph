@@ -336,7 +336,7 @@ The back control to crucifix transition occupies a critical position in modern b
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Essential grip configuration for initiating transition sequence
 
-- [[Transitions/Armbar from Crucifix]] - Primary submission finish after completing transition
+- [[Armbar from Crucifix]] - Primary submission finish after completing transition
 
 - [[Submissions/Choke from Crucifix]] - Secondary submission finish option from crucifix position
 

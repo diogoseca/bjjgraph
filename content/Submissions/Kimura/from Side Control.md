@@ -314,7 +314,6 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Kimura from Half Guard]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Far Side Armbar]]

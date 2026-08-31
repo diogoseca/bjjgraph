@@ -209,7 +209,6 @@ Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep
 - [[Submissions/Banana Split]] - Compression submission from similar truck and twister positions
 - [[Submissions/Twister]] - Complementary attack from twister control sharing similar setup
 - [[Submissions/Rear Naked Choke]] - Available from crucifix when bicep slicer is defended
-- [[Transitions/Armbar from Crucifix]] - Alternative submission from the primary setup position
 - [[Positions/Crucifix]] - Primary attacking position for bicep slicer
 - [[Positions/Twister Control]] - Common setup position for bicep slicer and calf slicer combination
 - [[Positions/Mount/Technical Mount]] - Modified mount position allowing bicep slicer setup

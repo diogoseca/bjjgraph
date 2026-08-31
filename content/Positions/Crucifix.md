@@ -287,7 +287,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (18% of attempts)
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (12% of attempts)
+- **[[Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (12% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 

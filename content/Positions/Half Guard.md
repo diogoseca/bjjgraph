@@ -262,7 +262,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (4% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
+- **[[Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
 
 
 ### Common Mistakes

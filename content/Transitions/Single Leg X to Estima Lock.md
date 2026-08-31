@@ -331,7 +331,7 @@ The Single Leg X to Estima Lock entry sits inside the modern supine leg-lock sys
 
 - [[Positions/Ashi Garami/Saddle]] - Deeper leg entanglement reachable by transitioning off a defended Estima entry
 
-- [[Transitions/Toe Hold from Estima Lock]] - Chain attack when opponent turns their foot away from the Estima angle
+- [[Toe Hold from Estima Lock]] - Chain attack when opponent turns their foot away from the Estima angle
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg-entanglement guard offering an alternative entry into the same control
 

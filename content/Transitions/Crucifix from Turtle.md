@@ -332,7 +332,7 @@ The crucifix from turtle sits at the intersection of back attack systems and tur
 
 - [[Transitions/Turtle to Back Take]] - Complementary technique creating dilemma from turtle top
 
-- [[Transitions/Armbar from Crucifix]] - Primary submission follow-up from crucifix
+- [[Armbar from Crucifix]] - Primary submission follow-up from crucifix
 
 - [[Submissions/Choke from Crucifix]] - High-percentage submission from crucifix
 

@@ -306,7 +306,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
+- **[[Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
 
 - **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
 

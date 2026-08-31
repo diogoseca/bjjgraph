@@ -95,6 +95,14 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
         "@type": "Answer",
         "text": "The trapped arm is the structural foundation of the entire crucifix position. As long as one arm remains trapped by your opponent's legs, they maintain the positional dominance that makes the armbar possible. If you only defend the armbar without freeing the trapped arm, your opponent can simply re-attack the armbar from the same crucifix control, creating an infinite loop of attack and defense that you will eventually lose due to energy depletion. Freeing the trapped arm dismantles the crucifix entirely, converting the position to standard back control where both arms are available for defense and multiple proven escape sequences become available."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the first thing you should do when you feel the attacker transitioning from choke to armbar in the crucifix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediately retract the free arm toward your body, bending the elbow and tucking it tight against your ribs. The attacker's transition from choke to armbar requires them to capture your wrist—if the arm is already retracted before they establish grip, the armbar attempt fails at its earliest stage. Do not wait to confirm the armbar attack; respond to the first recognition cue by pulling the arm in preemptively."
+      }
     }
   ]
 }
@@ -180,6 +188,28 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
       "url": "https://www.youtube.com/watch?v=EcXue-cD12Q",
       "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT339S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple crucifix escape",
+      "description": "Armbar from Crucifix (Defender) film study: Simple crucifix escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Underused Armbar Escape Direction",
+      "description": "Armbar from Crucifix (Defender) film study: Underused Armbar Escape Direction, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oLccpWCMh70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oLccpWCMh70",
+      "url": "https://www.youtube.com/watch?v=oLccpWCMh70",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT585S"
     }
   ]
 }
@@ -219,6 +249,22 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 ![](https://www.youtube.com/watch?v=EcXue-cD12Q)
 
 <p class="clip-credit"><strong>How to escape the crucifix</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=EcXue-cD12Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oLccpWCMh70)
+
+<p class="clip-credit"><strong>Underused Armbar Escape Direction</strong> — taught by Priit Mihkelson · 9:45 · <a href="https://www.youtube.com/watch?v=oLccpWCMh70" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -329,7 +329,7 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 
 - [[Positions/Back Control]] - Grounded version of starting position with similar armbar options
 
-- [[Transitions/Armbar from Crucifix]] - Alternative armbar setup from crucifix, another position accessible from back control
+- [[Armbar from Crucifix]] - Alternative armbar setup from crucifix, another position accessible from back control
 
 - [[Submissions/Bow and Arrow Choke]] - Alternative submission threat from back control that chains with armbar
 

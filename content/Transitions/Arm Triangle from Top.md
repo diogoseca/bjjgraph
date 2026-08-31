@@ -340,7 +340,7 @@ The arm triangle from top is a cornerstone of the side control submission system
 
 - [[Transitions/Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
 
-- [[Transitions/Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
+- [[Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
 
 - [[Positions/Mount]] - Alternative starting position for the mounted arm triangle variant
 

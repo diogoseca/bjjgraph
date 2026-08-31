@@ -314,7 +314,7 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Armbar from Crucifix/Attacker|Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
 
 

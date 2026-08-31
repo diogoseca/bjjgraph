@@ -329,7 +329,7 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 
 - [[Submissions/Choke from Crucifix]] - Follow-up attack - primary submission from established crucifix
 
-- [[Transitions/Armbar from Crucifix]] - Follow-up attack - secondary submission option from crucifix
+- [[Armbar from Crucifix]] - Follow-up attack - secondary submission option from crucifix
 
 - [[Positions/Mount/High Mount]] - Related position - high mount also offers crucifix entry opportunities
 

@@ -323,7 +323,6 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - [[Positions/Armbar Control]] - Starting position - must establish this control before attempting the finish
 - [[Positions/Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
 - [[Positions/Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt
-- [[Transitions/Armbar from Crucifix]] - Entry path from crucifix control establishing armbar control for the finish
 - [[Transitions/Armbar from Clamp Guard]] - Entry path from clamp guard establishing armbar control for the finish
 - [[Transitions/Armbar from North-South]] - Entry path from north-south establishing armbar control for the finish
 - [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive counter the opponent uses against this finish

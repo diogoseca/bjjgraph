@@ -327,7 +327,7 @@ The Crucifix Transition fits into the standing back control attack system as a p
 
 - [[Submissions/Choke from Crucifix]] - Follow-up submission from completed crucifix position
 
-- [[Transitions/Armbar from Crucifix]] - Alternative submission from completed crucifix position
+- [[Armbar from Crucifix]] - Alternative submission from completed crucifix position
 
 - [[Positions/Twister Control/Truck]] - Alternative position when opponent drops during entry
 

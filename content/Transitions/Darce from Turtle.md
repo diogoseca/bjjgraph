@@ -315,7 +315,7 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 
 - [[Transitions/Front Headlock to Guillotine]] - Part of same front headlock attack system
 
-- [[Transitions/Arm Triangle from Turtle]] - Alternative submission from similar control position
+- [[Arm Triangle from Turtle]] - Alternative submission from similar control position
 
 - [[Transitions/Front Headlock to Darce]] - Systematic entry method from front headlock
 
