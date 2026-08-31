@@ -9,6 +9,17 @@ The LLM returns lightweight change reports (not full file replacements).
 Changes are applied surgically: removals, additions, probability adjustments,
 and normalization to 100%.
 
+THIS SCRIPT MUTATES AND SAVES AUTHORED CONTENT — it is not the read-only audit its
+name suggests, and the weekly proofread-bot workflow opens a PR from what it writes.
+So it loads TWICE (see process_file): the RAW document is the write target, and a
+`reduce_to_scalar(frame="nogi")` copy is rendered into the prompt. Loading reduced and
+saving that is what de-forked the gi/no-gi corpus before v1.153.1: one list edit
+collapsed every {gi,nogi} map in the file to its no-gi cell, and the damage was
+invisible because the next `npm run migrate:ruleset` re-mirrored the survivor.
+Every probability the model returns is therefore a NO-GI verdict — `_prob_write`
+moves only the nogi cell, and a fork-preservation gate refuses the save on the first
+collapsed map. Gated by tests/proofread_fork_safety.test.mjs.
+
 Usage:
     python3 scripts/proofread_all_transitions.py                            # all files
     python3 scripts/proofread_all_transitions.py --dry-run                  # show prompts only
@@ -32,7 +43,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared help
 from claude_infer import call_claude as _infer_call_claude
 from _atomic_io import atomic_write_json
 from _prob_norm import largest_remainder_round as _largest_remainder_round
-from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _ruleset import reduce_to_scalar, is_ruleset_map, as_map, RULESETS  # {gi,nogi} contract (calibration-v2)
 from _model import model as _model_tier, effort as _model_effort  # single source of truth: models.env
 
 try:
@@ -97,9 +108,18 @@ def detect_category(file_path: Path) -> str:
 # CLAUDE INTERACTION (matches regenerate_content_json.py pattern)
 # =============================================================================
 
+# Test seam: a canned response file replaces the inference call, so the APPLY-AND-SAVE
+# path (the half that mutates authored content) is drivable without a paid model call.
+# Set by --stub-response; read by call_claude. tests/proofread_fork_safety.test.mjs is
+# the only consumer — without it the fork-preservation gate below has no unit gate at all.
+STUB_RESPONSE: Optional[str] = None
+
+
 def call_claude(prompt: str, response_schema: dict, timeout: int = 900) -> Tuple[Optional[str], Optional[str]]:
     """Structured Claude inference via the shared helper (scripts/claude_infer.py):
     read-only tools (explore but never write), forced structured output, usage-limit backoff."""
+    if STUB_RESPONSE is not None:
+        return STUB_RESPONSE, None
     return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout)
 
 
@@ -452,34 +472,135 @@ def build_response_schema(category: str) -> dict:
 # =============================================================================
 
 def normalize_probabilities(items: List[dict], key: str = "attempt_probability") -> List[dict]:
-    """Normalize probability values to sum to exactly 100, in place.
+    """Normalize probability values to sum to exactly 100, in place — PER RULESET FRAME.
 
     Uses the shared largest-remainder normalizer (scripts/_prob_norm.py) so this
     matches regenerate_content_json.py: negatives are clamped to 0, all items are
     rescaled proportionally to integers summing to exactly 100, and the all-zero
     case is distributed evenly.
+
+    Forked data ({gi,nogi} maps, calibration-v2) sums to 100 in EACH frame
+    independently (CLAUDE.md §7), so each frame is normalized on its own and a
+    frame already at 100 is left byte-identical. Collapsing the pair to one
+    scalar here would destroy the other frame's authored value — that is the
+    de-fork this function used to perform via its callers' reduced load.
+
+    On all-scalar (legacy, unforked) input the map branch never runs and the
+    behavior is byte-identical to the pre-fork implementation.
     """
     if not items:
         return items
 
-    vals = []
-    for item in items:
-        try:
-            vals.append(float(item.get(key, 0)))
-        except (TypeError, ValueError):
-            vals.append(0.0)
+    if not any(is_ruleset_map(item.get(key)) for item in items if isinstance(item, dict)):
+        vals = []
+        for item in items:
+            try:
+                vals.append(float(item.get(key, 0)))
+            except (TypeError, ValueError):
+                vals.append(0.0)
 
-    if round(sum(max(0.0, v) for v in vals)) == 100:
+        if round(sum(max(0.0, v) for v in vals)) == 100:
+            return items
+
+        for item, nv in zip(items, _largest_remainder_round(vals, 100)):
+            item[key] = nv
         return items
 
-    for item, nv in zip(items, _largest_remainder_round(vals, 100)):
-        item[key] = nv
+    # Forked: one independent normalization per frame. A null cell means "this
+    # edge does not exist in that ruleset" and is NEVER filled in here — it is
+    # skipped and left null, so normalizing cannot resurrect an excluded edge.
+    maps = [as_map(item.get(key)) for item in items]
+    for rs in RULESETS:
+        idx = [i for i, m in enumerate(maps) if isinstance(m.get(rs), (int, float))]
+        if not idx:
+            continue
+        vals = [float(maps[i][rs]) for i in idx]
+        if round(sum(max(0.0, v) for v in vals)) == 100:
+            continue
+        for i, nv in zip(idx, _largest_remainder_round(vals, 100)):
+            maps[i][rs] = nv
+    for item, m in zip(items, maps):
+        item[key] = m
     return items
 
 
+# ---------------------------------------------------------------------------
+# FORK-SAFE PROBABILITY WRITES
+#
+# The LLM audits the NO-GI headline frame — that is the frame process_file
+# renders into the prompt — so every number it returns is a no-gi verdict about
+# a no-gi reading. It says nothing about gi, and these two helpers are the only
+# sanctioned way to put one of its numbers back into an authored document.
+# ---------------------------------------------------------------------------
+
+def _prob_write(authored: Any, suggested: Any) -> Any:
+    """One audited probability written back onto its AUTHORED cell.
+
+    - authored is a {gi,nogi} map -> only the nogi cell moves; gi stays as authored,
+    - authored is a bare scalar   -> plain assignment (legacy / unforked data),
+    - authored's nogi cell is null (edge absent in no-gi) -> UNCHANGED. Filling it
+      would silently resurrect an edge the data says does not exist in that frame,
+      off a model that was shown ``null`` and answered with a number anyway.
+
+    Returns ``(new_value, skipped_reason_or_None)``.
+    """
+    if not is_ruleset_map(authored):
+        return suggested, None
+    m = as_map(authored)
+    if m.get("nogi") is None:
+        return authored, "no-gi frame is null (edge absent in no-gi) — suggestion ignored"
+    m["nogi"] = suggested
+    return m, None
+
+
+def _prob_new(forked: bool, suggested: Any) -> Any:
+    """The probability cell for a NEWLY ADDED row.
+
+    In a forked document the value is MIRRORED into both frames. The model judged
+    only no-gi, so neither frame is a claim it made; mirroring is the corpus's own
+    pre-divergence default (scripts/migrate_dual_ruleset.py mapify) and is the
+    conservative choice. The alternative — ``{"gi": null, ...}`` — would assert the
+    move is ILLEGAL in gi, which is a much stronger claim than the audit supports.
+    """
+    return {rs: suggested for rs in RULESETS} if forked else suggested
+
+
+def _doc_is_forked(data: Any) -> bool:
+    """True iff the document carries at least one {gi,nogi} probability map."""
+    if is_ruleset_map(data):
+        return True
+    if isinstance(data, dict):
+        return any(_doc_is_forked(v) for v in data.values())
+    if isinstance(data, list):
+        return any(_doc_is_forked(v) for v in data)
+    return False
+
+
+def _ruleset_cells(obj: Any, path: str = "") -> Dict[str, dict]:
+    """Every {gi,nogi} map in a document, keyed by its structural path.
+
+    The fork-preservation guard compares this before and after the audit: a path
+    that was a map and is no longer one is a de-fork, and the write is refused.
+    """
+    if is_ruleset_map(obj):
+        return {path: obj}
+    out: Dict[str, dict] = {}
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            out.update(_ruleset_cells(v, f"{path}.{k}"))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            out.update(_ruleset_cells(v, f"{path}[{i}]"))
+    return out
+
+
 def apply_position_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
-    """Apply position audit changes and return modified data + change log."""
+    """Apply position audit changes and return modified data + change log.
+
+    ``data`` is the RAW authored document ({gi,nogi} maps intact) — see process_file.
+    """
     log = []
+    forked = _doc_is_forked(data)
 
     for role in ["top", "bottom"]:
         if role not in data:
@@ -504,7 +625,7 @@ def apply_position_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
             prob = item.get("attempt_probability", 5)
             # Don't add duplicates
             if not any(t.get("transition") == name for t in transitions):
-                transitions.append({"transition": name, "attempt_probability": prob})
+                transitions.append({"transition": name, "attempt_probability": _prob_new(forked, prob)})
                 log.append(f"Added {role}/{name} ({prob}%): {item.get('reason', '')}")
 
         # Probability adjustments
@@ -515,8 +636,12 @@ def apply_position_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
             for t in transitions:
                 if t.get("transition") == name:
                     old = t.get("attempt_probability", 0)
-                    t["attempt_probability"] = suggested
-                    log.append(f"Adjusted {role}/{name}: {old}% -> {suggested}%: {adj.get('reason', '')}")
+                    new, skipped = _prob_write(old, suggested)
+                    if skipped:
+                        print(f"    SKIP {role}/{name}: {skipped}")
+                        break
+                    t["attempt_probability"] = new
+                    log.append(f"Adjusted {role}/{name}: {old} -> {new}: {adj.get('reason', '')}")
                     break
 
         # Normalize
@@ -527,8 +652,12 @@ def apply_position_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
 
 
 def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
-    """Apply transition audit changes and return modified data + change log."""
+    """Apply transition audit changes and return modified data + change log.
+
+    ``data`` is the RAW authored document ({gi,nogi} maps intact) — see process_file.
+    """
     log = []
+    forked = _doc_is_forked(data)
 
     # from_position fix
     fp_fix = changes.get("from_position_fix")
@@ -553,7 +682,7 @@ def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
         if not any(o.get("to") == to_val for o in outcomes):
             outcomes.append({
                 "to": to_val,
-                "probability": item.get("probability", 10),
+                "probability": _prob_new(forked, item.get("probability", 10)),
                 "result": item.get("result", "success"),
             })
             log.append(f"Added outcome -> {to_val} ({item.get('probability', 10)}%, {item.get('result', 'success')}): {item.get('reason', '')}")
@@ -565,8 +694,12 @@ def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
         for o in outcomes:
             if o.get("to") == to_val:
                 old = o.get("probability", 0)
-                o["probability"] = suggested
-                log.append(f"Adjusted outcome -> {to_val}: {old}% -> {suggested}%: {adj.get('reason', '')}")
+                new, skipped = _prob_write(old, suggested)
+                if skipped:
+                    print(f"    SKIP outcome -> {to_val}: {skipped}")
+                    break
+                o["probability"] = new
+                log.append(f"Adjusted outcome -> {to_val}: {old} -> {new}: {adj.get('reason', '')}")
                 break
 
     # Normalize
@@ -577,7 +710,10 @@ def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
 
 
 def apply_submission_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
-    """Apply submission audit changes and return modified data + change log."""
+    """Apply submission audit changes and return modified data + change log.
+
+    ``data`` is the RAW authored document ({gi,nogi} maps intact) — see process_file.
+    """
     log = []
 
     # starting_position fix
@@ -638,13 +774,22 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         "log": [],
     }
 
-    # Load file
+    # Load the file TWICE, for two different jobs. This audit MUTATES AND SAVES,
+    # so the document it edits must be the RAW one: a reduced doc written back
+    # collapses every {gi,nogi} map in the file to one frame and destroys the
+    # other frame's authored value — including cells the audit never decided.
+    # (Before v1.153.1 this function loaded reduced and saved that, so one list
+    # edit de-forked an entire file. Same two-loader split as
+    # scripts/explode_graph_connections.py.)
     try:
         with open(file_path, "r", encoding="utf-8") as f:
-            data = reduce_to_scalar(json.load(f), frame="nogi")  # read-only audit: no-gi headline frame
+            data = json.load(f)                                  # WRITE TARGET: maps intact
+        view = reduce_to_scalar(data, frame="nogi")               # PROMPT ONLY: no-gi headline frame
     except Exception as e:
         print(f"  ERROR: Could not load {file_path}: {e}")
         return result_info
+
+    authored_cells = _ruleset_cells(data)  # fork-preservation baseline (checked before the save)
 
     category = detect_category(file_path)
     if category == "Unknown":
@@ -654,11 +799,11 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
     # Build prompt
     if category == "Positions":
-        prompt = build_position_prompt(data, refs)
+        prompt = build_position_prompt(view, refs)
     elif category == "Transitions":
-        prompt = build_transition_prompt(data, refs)
+        prompt = build_transition_prompt(view, refs)
     else:
-        prompt = build_submission_prompt(data, refs)
+        prompt = build_submission_prompt(view, refs)
 
     schema = build_response_schema(category)
 
@@ -710,6 +855,22 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
     result_info["suggested_new_files"] = parsed.get("suggested_new_files", [])
 
     if change_log:
+        # FORK-PRESERVATION GATE. Emits a POSITIVE coverage count and refuses the
+        # write on the first collapsed cell (CLAUDE.md §6.6: never let "found no
+        # problems" and "never looked" produce the same output). A de-fork is
+        # otherwise INVISIBLE — the next `npm run migrate:ruleset` re-mirrors the
+        # surviving scalar into {gi,nogi}, so the lost frame leaves no trace.
+        after_cells = _ruleset_cells(data)
+        collapsed = sorted(set(authored_cells) - set(after_cells))
+        if collapsed:
+            msg = (f"REFUSED to save {file_path}: {len(collapsed)} of "
+                   f"{len(authored_cells)} ruleset maps were de-forked, e.g. "
+                   f"{collapsed[0]} {authored_cells[collapsed[0]]!r}")
+            print(f"  ERROR: {msg}")
+            result_info["log"].append(msg)
+            return result_info
+        print(f"  Ruleset maps preserved: {len(after_cells)}/{len(authored_cells)}")
+
         # Save modified file
         try:
             atomic_write_json(file_path, data, indent=2, ensure_ascii=False)
@@ -787,8 +948,16 @@ Examples:
                         help="No delay between files")
     parser.add_argument("--interval", "-i", type=int, default=60,
                         help="Seconds to wait between LLM calls (default: 60)")
+    parser.add_argument("--stub-response", type=str, default=None,
+                        help="TEST ONLY: file holding a canned LLM response; skips inference "
+                             "so the apply-and-save path can be gated without a paid call")
 
     args = parser.parse_args()
+
+    if args.stub_response:
+        global STUB_RESPONSE
+        STUB_RESPONSE = Path(args.stub_response).read_text(encoding="utf-8")
+        print(f"STUB MODE: canned response from {args.stub_response} (no inference)")
 
     print(f"""
 {'=' * 70}

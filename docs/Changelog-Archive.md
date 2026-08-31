@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
 - **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
 - **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
 - **v1.148.0** — [MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT](#v1-148-0-multiple-choice-drops-to-three-and-the-t)
@@ -4775,6 +4776,74 @@ anybody, so they shouldn't be available to me right?" Right — and chasing it f
   surfaces, lists and dossier already render full authored names by canon.
 
 ---
+
+<a id="v1-153-1-the-read-only-audit-that-wrote"></a>
+
+## v1.153.1 — THE READ-ONLY AUDIT THAT WROTE
+
+> **Status:** Current. Pinned by `tests/proofread_fork_safety.test.mjs` (3 tests, 4 mutants
+> killed) plus an in-script fork-preservation gate that refuses the save and prints a positive
+> preserved-map count.
+
+`scripts/proofread_all_transitions.py` carried the comment `# read-only audit: no-gi headline
+frame` on the line loading each file through `reduce_to_scalar(json.load(f), frame="nogi")`. It is
+not read-only: it mutates that document and `atomic_write_json`s it, and
+`.github/workflows/proofread-bot.yml` PRs the result every Sunday. So the doc it saved was the
+REDUCED one — every `{gi,nogi}` map collapsed to its no-gi cell, decided or not.
+
+**Why nobody saw it.** Three maskings stacked. The schema accepts int OR map, so `validate:json`
+passes. The next `npm run migrate:ruleset` re-mirrors the survivor into `{gi: x, nogi: x}`, so the
+structure returns and the lost frame leaves no trace. And the damage is collateral — it lands on
+cells the audit never mentioned, so it appears in neither the bot's change log nor its PR body.
+
+**Measured.** On the one real bot run (`493bd838e`, Submissions, 18 files, still an open PR
+against `main` and NOT merged): 72 of 72 ruleset maps de-forked, and **zero probability values
+actually changed**. 100% of the ruleset damage was collateral from the load path. Reproduced on a
+scratch copy of `content/Positions/Anaconda Control.json`: a single no-op adjustment de-forked all
+12 cells, 8 of them divergent — `{gi: 37, nogi: 41} -> 41`, the authored gi value gone.
+
+**Blast radius, and why it had not detonated.** Divergence today lives only in Positions: 136
+files, 1,839 divergent cells (Transitions and Submissions are still fully mirrored, so a run there
+costs structure but no value). The rotation pointer on `main` still reads `Submissions` and only
+advances when a bot PR merges, so Positions was three merges away — after which v1.153.0's
+availability layer, which derives exclusions from per-frame values, would corrode weekly.
+
+**History, re-derived.** A first pass keyed on array path reported 54 divergent cells lost at
+v1.106.0 / v1.106.2. That was CLAUDE.md 6.6's positional-join trap: those commits DELETE
+transition rows, every later index shifts, and a deletion reads as a de-fork. Re-keyed on content
+(`transition` name, outcome `to`), across all 190 commits that touch `content/` and 38,152
+surviving map cells compared: **one** de-forking commit in the whole history — the bot's — and
+**zero authored divergence permanently lost**. Nothing to restore.
+
+**The fix.** Two loaders — the split `scripts/explode_graph_connections.py` already carries and
+documents: the RAW doc is the write target, a `reduce_to_scalar(frame="nogi")` copy renders into
+the prompt. The rest follows from one observation: the model is SHOWN the no-gi frame, so every
+number it returns is a no-gi verdict. `_prob_write` moves only the `nogi` cell and leaves the
+authored `gi`; `normalize_probabilities` renormalizes each frame independently, so a gi frame
+already at 100 stays byte-identical; `_prob_new` mirrors an ADDED row into both frames (the
+corpus's pre-divergence default — `{"gi": null}` would assert the move is ILLEGAL in gi, far
+stronger than the audit supports). A null no-gi cell is skipped and printed, never filled, so the
+audit cannot resurrect an edge the data says does not exist.
+
+**And a gate that would have caught it.** Before the save the authored document's ruleset-map
+paths are compared against the outgoing one; the first collapsed map refuses the write, and a clean
+run prints `Ruleset maps preserved: N/N` — positive by construction, so "preserved everything" and
+"never looked" cannot print the same thing.
+
+**Mutation.** Four mutants, all killed by a named test: re-arming the reduced load (3 of 3 red);
+mirroring the verdict into both frames instead of nogi only (test 2 red); collapsing per-frame
+normalization back to a scalar (3 of 3 red); silencing the preserved-map count (test 3 red).
+
+**Siblings audited, none diseased.** All eleven scripts importing `reduce_to_scalar` were checked:
+the four that mutate content (`explode_graph_connections.py`, `apply_occurrence_calibration.py`,
+`fix_from_position.py`, `apply_calibration.py`) all load raw on that path; the rest reduce at load
+but write only derived artifacts. `proofread_all_transitions.py` was the only content-mutating
+script loading reduced.
+
+**Open for the owner:** the PR on `proofread-bot/submissions` still carries its 72 de-forked cells.
+No value is lost, but merging as-is needs a `npm run migrate:ruleset` after; re-running the bot on
+the fixed script is cleaner.
+
 
 <a id="v1-153-0-in-no-gi-the-lapel-guards-stop-existing"></a>
 
