@@ -54,7 +54,15 @@ async function sb(env, path, init = {}) {
     },
   });
   if (!r.ok) throw new Error("supabase " + path.split("?")[0] + " -> " + r.status);
-  return r.status === 204 ? null : r.json();
+  // PostgREST answers a plain POST with `Prefer: return=minimal` semantics — 201 and an EMPTY
+  // body — so `r.json()` threw "Unexpected end of JSON input" on every successful digest_sent
+  // write. The row landed and the mail had already gone, but the throw was caught per-user into
+  // `failures`, so `sent` never incremented: a working run reported {sent:0, failures:[...]},
+  // which is exactly the reading the runbook's dry-run tells the owner to trust. Parse only
+  // when there is something to parse.
+  if (r.status === 204) return null;
+  const body = await r.text();
+  return body ? JSON.parse(body) : null;
 }
 
 /** "Kimura|Attacker" -> "Kimura (attacking)"; "Mount|Top" -> "Mount (top)" */
@@ -182,7 +190,9 @@ function renderHtml(d) {
   </body></html>`;
 }
 
-async function runDigest(env) {
+// Exported for `tests/digest_suppress_sync.test.mjs`, which drives it against a PostgREST
+// double. The Workers runtime only ever reaches it through the two handlers below.
+export async function runDigest(env) {
   // 1. opted-in blobs. PostgREST jsonb path filter; the blob column is `neural`.
   const rows = await sb(
     env,
@@ -190,8 +200,11 @@ async function runDigest(env) {
   );
   if (!rows || !rows.length) return { sent: 0, reason: "nobody opted in" };
 
-  const suppressed = new Set(
-    ((await sb(env, "/rest/v1/digest_suppress?select=user_id").catch(() => [])) || []).map((r) => r.user_id),
+  // WHEN they unsubscribed, not just that they did — a suppression is a stop, never a life
+  // sentence (the confirmation page promises Settings can turn it back on).
+  const suppressed = new Map(
+    ((await sb(env, "/rest/v1/digest_suppress?select=user_id,at").catch(() => [])) || [])
+      .map((r) => [r.user_id, Date.parse(r.at) || 0]),
   );
   const sentRows = (await sb(env, "/rest/v1/digest_sent?select=user_id,day").catch(() => [])) || [];
   const sentSet = new Set(sentRows.map((r) => r.user_id + "|" + r.day));
@@ -200,8 +213,22 @@ async function runDigest(env) {
   const failures = [];
   for (const row of rows) {
     try {
-      if (suppressed.has(row.user_id)) continue;
       const blob = row.neural || {};
+      // RE-SUBSCRIBING. Every row here already has `emailDigest === true` (it is the query's
+      // filter), so intent alone cannot distinguish "turned it back on" from "unsubscribed and
+      // the blob was never told" — which is every user suppressed before the blob write below
+      // existed. The per-key LWW stamp the settings sync already maintains is the discriminator:
+      // a stamp LATER than the suppression is a deliberate flip that came after it. Two guards
+      // keep that honest — a legacy row's `at` is newer than its stale stamp, so it keeps
+      // blocking; and `set()` stamps the CLIENT clock, so a stamp in the FUTURE is refused
+      // rather than trusted (a fast device must not be able to re-subscribe its owner).
+      if (suppressed.has(row.user_id)) {
+        const at = suppressed.get(row.user_id);
+        const stamp = (blob.settingsAt || {}).emailDigest;
+        if (!(typeof stamp === "number" && stamp > at && stamp <= Date.now())) continue;
+        // lifted — clear it, or tomorrow's run blocks them all over again
+        await sb(env, "/rest/v1/digest_suppress?user_id=eq." + row.user_id, { method: "DELETE" });
+      }
       const dayLog = blob.dayLog || {};
       const days = Object.keys(dayLog).filter((d) => (dayLog[d].k || []).length).sort();
       const day = days[days.length - 1];
