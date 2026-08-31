@@ -5373,3 +5373,41 @@ member-count-relative by construction.
 should be improved" half, and the highest-value one is that **Saddle and Honey Hole are separate
 position nodes** — adding Honey Hole to the leg-lock systems' `related_content` would re-anchor
 several heel hooks at once.
+## v1.151.1 — one flick, one tab: a latch is not a cooldown
+
+The pane's tab pager shipped in v1.147.0 with a `wheel` accumulator guarded by
+`now - wCool >= 350`. Owner, on the rightmost tab: *"I swipe to go left — I want the MIDDLE tab.
+What it does instead is circle through — I'm passing through the middle tab but never landing on
+it."*
+
+**A cooldown rate-limits a stream; it never ENDS a gesture.** A trackpad flick is not one event —
+macOS delivers ~55 `wheel` events at ~60Hz with the delta decaying, most of them the momentum tail
+that arrives *after* the fingers have lifted. `wAcc` went on filling for the whole 350ms the
+cooldown ran (it was zeroed only inside the fire branch), so the instant the cooldown lapsed the
+same physical flick tripped the 60px threshold again. Measured on the built bundle, one flick off
+`history`: **two `pane_tab_paged` beats, `history → challenges → explore`.**
+
+`_paneTabPageTo`'s clamp was never at fault and was never bypassed — it clamped correctly on each
+of those steps, which is exactly why the symptom reads as "circling" rather than "wrapping" and why
+the v1.147.0 clamp mutant (M3) stayed killed throughout.
+
+The fix is a **latch, not a timer**: the stream itself is the gesture, so the gesture ends where the
+stream goes idle — the same 300ms gap the accumulator already reset on, one rule instead of two
+numbers. `wLast = now` is written BEFORE the latch check on purpose: idle has to be measured from
+the last event of the flick, tail included, or the tail's own thinning silence unlatches mid-gesture.
+A deliberate second flick clears the latch by arriving after the gap; a momentum tail never does.
+Net −1 tuning constant (`wCool`, 350ms) and −1 branch condition.
+
+The touch path was never affected and was not touched: a drag has an explicit end (`touchend`),
+so it was always exactly one step. What made this hard to see from the suite is that
+`pane-tab-swipe.spec.ts` dispatched its wheel case — where it had one — as a single large delta,
+which no OS produces. Journey 7 dispatches the real burst, and the three re-break mutants (the
+cooldown restored, the latch never cleared, `wLast` moved below the latch check) are all KILLED.
+
+**Left standing, deliberately, and recorded in the spec header rather than fixed silently:** the
+landing card's own wheel pager (`_landPageTo`, `app.src.jsx`) still carries the v1.147.0 cooldown
+shape. Different pager, over an unbounded card deck rather than a three-item nav, with no journey
+covering its wheel path — a separate change with its own spec, not a drive-by.
+
+Files: `neural/src/app.src.jsx` (the pane's wheel handler), `e2e/journeys/pane-tab-swipe.spec.ts`
+(journey 7 + M8-M10 + the two blind spots), `docs/Neural.md`.

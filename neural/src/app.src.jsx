@@ -665,7 +665,7 @@ class Component extends DCLogic {
     const drill = this.drillRef.current;
     if (drill) {
       let sx = 0, sy = 0, st = 0, tracking = false, hscroll = false, moved = 0, movedAt = 0;
-      let wAcc = 0, wLast = 0, wCool = 0;
+      let wAcc = 0, wLast = 0, wLock = false;
       // A gesture that BEGINS inside a horizontal scroller belongs to that scroller, not to the
       // pager. Written AHEAD of one rather than in response to one, and the distinction is worth
       // keeping honest: the app's horizontal-scroller idiom is `.ng-cliprow` (`filmStudyHTML`),
@@ -737,11 +737,23 @@ class Component extends DCLogic {
         if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
         if (inHScroller(e.target)) return;
         const now = Date.now();
-        if (now - wLast > 300) wAcc = 0;
-        wLast = now;
+        // ONE FLICK IS ONE TAB (v1.151.1). A LATCH, not a cooldown — v1.147.0 shipped
+        // `now - wCool >= 350` and it rate-limits a stream without ever ENDING a gesture: a
+        // trackpad's inertia keeps deltas arriving for ~1s after the fingers lift, `wAcc` goes on
+        // filling the whole time the cooldown runs, and the instant it lapses the SAME physical
+        // flick pages again. Measured on the built bundle: one flick off `history` emitted two
+        // `pane_tab_paged` beats and landed on `explore` — the owner's "I'm passing through the
+        // middle tab but never landing on it". The clamp in `_paneTabPageTo` was never at fault;
+        // it clamped correctly on each of those steps.
+        // The stream itself is the gesture, so the gesture ends where the stream goes IDLE — the
+        // same 300ms gap the accumulator already resets on, one rule for both. A deliberate
+        // second flick clears the latch by arriving after that gap; a momentum tail never does.
+        if (now - wLast > 300) { wAcc = 0; wLock = false; }
+        wLast = now; // BEFORE the latch check: idle is measured from the last event of the flick,
+        if (wLock) return; // tail included, or the tail's own silence would unlatch mid-gesture
         wAcc += e.deltaX;
-        if (Math.abs(wAcc) >= 60 && now - wCool >= 350) {
-          wCool = now;
+        if (Math.abs(wAcc) >= 60) {
+          wLock = true;
           this._paneTabPageTo(this._paneGestureDir(-wAcc, drill));
           wAcc = 0;
         }

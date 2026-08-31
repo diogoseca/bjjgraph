@@ -33,6 +33,12 @@ type W = Window & { __neural: any }
  *   M6 — the study branch stops `return`ing, so a card swipe falls
  *        through into the tab pager                                      SURVIVED — EQUIVALENT
  *
+ * And for journey 7's latch (v1.151.1), the same way:
+ *   M8 — the latch reverts to v1.147.0's 350ms cooldown              KILLED, journey 7
+ *   M9 — the latch is never cleared, so the pager dies after one     KILLED, journey 7
+ *   M10 — `wLast = now` moves BELOW the latch check, so the momentum
+ *         tail's own silence unlatches the flick mid-gesture         KILLED, journey 7
+ *
  * M6 SURVIVES BECAUSE IT IS NOT A DEFECT, and that is worth writing down rather than papering
  * over: `_paneTabPageTo` refuses on `_paneStudyActive()` itself, so the fall-through reaches a
  * closed door. The DOUBLE mutant — that `return` gone AND the pager's own study guard gone —
@@ -45,8 +51,12 @@ type W = Window & { __neural: any }
  *   · `_paneSlideBody` — asserted only through "the tab changed"; NOTHING here fails if the
  *     slide animation is deleted, and nothing here fails if it is left mid-transform.
  *   · the trackpad `wheel` pager shares `_paneTabPageTo` and `_paneGestureDir` with the touch
- *     path, so M1/M3 cover its direction and its clamp — but its OWN accumulator (60px, the
- *     350ms cooldown, the deltaX dominance test) is unpinned.
+ *     path, so M1/M3 cover its direction and its clamp, and journey 7 pins its GESTURE BOUNDARY
+ *     (M8-M10) — but the 60px trip threshold and the deltaX dominance test are still unpinned,
+ *     and nothing here fails if the 300ms idle window is retuned.
+ *   · the landing card's own wheel pager (`_landPageTo`, `app.src.jsx`) still carries the
+ *     cooldown SHAPE journey 7 rejects for the pane. Different pager, different (unbounded)
+ *     list, and no journey here touches it — do not read journey 7 as evidence about it.
  */
 
 const view = (page: Page) => page.evaluate(() => (window as W).__neural._viewMode)
@@ -64,6 +74,28 @@ const swipe = (page: Page, sel: string, x1: number, y1: number, x2: number, y2: 
       el.dispatchEvent(new TouchEvent("touchend", { changedTouches: [mk(c as number, d as number)], bubbles: true }))
     },
     [sel, x1, y1, x2, y2] as const,
+  )
+
+/**
+ * A TRACKPAD FLICK, as the OS actually delivers one: a burst of `wheel` events at ~60Hz whose
+ * deltaX decays, running ~900ms — most of it the momentum tail that arrives after the fingers
+ * have already lifted. `sign` is -1 for a rightward two-finger swipe (the content follows the
+ * fingers, so the browser reports a negative deltaX). Dispatching one big delta instead would
+ * make journey 7 pass on the build it exists to fail.
+ */
+const wheelFlick = (page: Page, sel: string, sign: number) =>
+  page.evaluate(
+    async ([s, sg]) => {
+      const el = document.querySelector(s as string) as HTMLElement
+      if (!el) throw new Error(`no element for ${s}`)
+      let d = 22
+      for (let i = 0; i < 55; i++) {
+        el.dispatchEvent(new WheelEvent("wheel", { deltaX: (sg as number) * d, deltaY: 0, bubbles: true }))
+        d = Math.max(1, d * 0.94)
+        await new Promise((r) => setTimeout(r, 16))
+      }
+    },
+    [sel, sign] as const,
   )
 
 const openPane = async (page: Page) => {
@@ -300,4 +332,62 @@ test.describe("on a phone", () => {
     await swipe(page, ".ng-drill", 120, 500, 300, 494)
     expect(await view(page), "and back").toBe("challenges")
   })
+})
+
+// ── 7. ONE GESTURE IS ONE TAB — the trackpad's momentum is not extra swipes ────────────────────
+// The v1.147.0 defect, fixed in v1.151.1 (owner, on the rightmost tab: "I swipe to go left… what it does instead is
+// circle through — I'm passing through the middle tab but never landing on it"). The wheel pager
+// shipped with a 350ms COOLDOWN, which rate-limits a stream but never ends a gesture: a trackpad's
+// inertia keeps deltas arriving for ~1s after the fingers lift, the accumulator keeps filling
+// while the cooldown runs, and the same physical flick pages again the instant it lapses.
+// Measured on the built bundle before the fix: one flick off `history` emitted TWO
+// `pane_tab_paged` beats and landed on `explore`. `_paneTabPageTo`'s clamp was never the problem
+// — it clamped correctly on every one of those steps.
+//
+// A flick is dispatched as the OS delivers one: ~55 events at ~60Hz with the delta decaying, so a
+// build that ends the gesture on the STREAM going idle passes and a build that ends it on a timer
+// cannot. The `j.beats()` deltas are the load-bearing assertion — the view alone cannot tell a
+// single step from a double step that clamped at the end of the nav.
+test("one trackpad flick pages exactly one tab, and the ends hold @curated", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await openPane(page)
+
+  // start at the RIGHTMOST tab, by click — the pager is not what is under test yet
+  await page.locator('.ng-learning-nav [data-view="history"]').click()
+  expect(await view(page), "the report starts on Last rolls").toBe("history")
+
+  // A rightward two-finger swipe: the content follows the fingers, so the tab to the LEFT comes
+  // in, and a trackpad reports that as a NEGATIVE deltaX. `wheelFlick` carries the momentum tail.
+  const b0 = await j.beats()
+  await wheelFlick(page, ".ng-drill", -1)
+  expect(await view(page), "one flick lands on the ADJACENT tab, not past it").toBe("challenges")
+  expect(
+    count(await j.beats(), "pane_tab_paged") - count(b0, "pane_tab_paged"),
+    "one flick, one step — the momentum tail is the same gesture",
+  ).toBe(1)
+
+  // the gesture ENDS when the wheel goes idle, so a second, deliberate flick still works
+  await page.waitForTimeout(400)
+  const b1 = await j.beats()
+  await wheelFlick(page, ".ng-drill", -1)
+  expect(await view(page), "a fresh flick pages again").toBe("explore")
+  expect(count(await j.beats(), "pane_tab_paged") - count(b1, "pane_tab_paged")).toBe(1)
+
+  // …and at the left end, further flicks stay put: no wrap, no beat
+  await page.waitForTimeout(400)
+  const b2 = await j.beats()
+  await wheelFlick(page, ".ng-drill", -1)
+  expect(await view(page), "the left end holds under the trackpad too").toBe("explore")
+  expect(count(await j.beats(), "pane_tab_paged") - count(b2, "pane_tab_paged")).toBe(0)
+
+  // the same claim for the finger, stated where the report stated it: from the rightmost tab,
+  // ONE drag leftward along the nav lands on the middle tab and stops there
+  await page.locator('.ng-learning-nav [data-view="history"]').click()
+  await page.waitForTimeout(750) // past the click suppressor's latch
+  const b3 = await j.beats()
+  await swipe(page, ".ng-drill", 190, 420, 320, 422)
+  expect(await view(page), "one drag, one tab").toBe("challenges")
+  expect(count(await j.beats(), "pane_tab_paged") - count(b3, "pane_tab_paged")).toBe(1)
 })

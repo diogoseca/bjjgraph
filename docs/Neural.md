@@ -498,6 +498,13 @@ swipe-direction preference to a web app; the one device signal that exists is wr
 so an RTL layout flips the mapping (`_paneGestureDir`). A swipe is never a tap: a capture-phase
 suppressor eats the click the browser synthesises at the end of one.
 
+**One gesture is one tab** (v1.151.1). The wheel path ends its gesture on the STREAM going idle
+(a 300ms gap), not on a timer: a trackpad's inertia keeps deltas arriving for about a second after
+the fingers lift, and v1.147.0's cooldown merely rate-limited that tail, so one flick off the
+rightmost tab paged twice and landed two tabs away — "passing through the middle tab but never
+landing on it". The clamp was never involved. The touch path was always one step, because a drag
+has an explicit end.
+
 **Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
 results before any section exists, so a match inside a folded group is never hidden; that query
 branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
