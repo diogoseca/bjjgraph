@@ -329,6 +329,8 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 - [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Armbar]]
+- [[Submissions/Ezekiel Choke]]
 - [[Positions/Mount/High Mount]] - Starting position providing elevated control platform for arm isolation and submission setup
 - [[Positions/Mount]] - Parent position from which high mount is established through progressive knee walking
 - [[Positions/Front Headlock]] - Related control position using similar head-and-arm control concepts

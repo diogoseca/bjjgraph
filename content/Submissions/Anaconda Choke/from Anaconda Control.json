@@ -19,7 +19,7 @@
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
-  "starting_position": "Front Headlock",
+  "starting_position": "Anaconda Control",
   "from_position": "Anaconda Control/Top",
   "success_rate": {
     "gi": 65,
@@ -103,10 +103,7 @@
     "Front Headlock",
     "Turtle",
     "Anaconda Control",
-    "Standing Position",
-    "Clinch",
-    "Combat Base",
-    "Half Guard"
+    "Darce Control"
   ],
   "related_submissions": [
     "Darce Choke",
@@ -115,7 +112,9 @@
     "Rear Naked Choke",
     "Brabo Choke",
     "Arm in Guillotine",
-    "Chin Strap Guillotine from Front Headlock"
+    "Marce Choke",
+    "Peruvian Necktie",
+    "Japanese Necktie"
   ],
   "related_content": [
     {

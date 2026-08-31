@@ -331,6 +331,8 @@ Strategically, this finish carries a 50% overall success rate reflecting strong 
 - [[Submissions/Outside Heel Hook]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Straight Ankle Lock]]
+- [[Submissions/Calf Slicer]]
+- [[Submissions/Toe Hold]]
 - [[Positions/Aoki Lock Control]] - Starting control position for this finish
 - [[Positions/Ashi Garami]] - Related leg-entanglement control with the same compression mechanics
 

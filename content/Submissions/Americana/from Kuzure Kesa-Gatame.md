@@ -308,8 +308,8 @@ Strategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain 
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Arm Triangle]]
-- [[Submissions/Far Side Armbar]]
-- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Armbar]]
+- [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing the arm isolation that enables this submission
 - [[Positions/Side Control]] - Position family sharing lateral control principles with Kuzure Kesa-Gatame
 - [[Positions/Armbar Control]] - Follow-up control position when opponent straightens arm defending the americana

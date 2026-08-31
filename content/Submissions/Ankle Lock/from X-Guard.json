@@ -22,7 +22,7 @@
     "Single Leg X-Guard",
     "Reverse X-Guard",
     "Ashi Garami",
-    "Inside Ashi-Garami"
+    "Outside Ashi-Garami"
   ],
   "success_rate": {
     "gi": 40,
@@ -121,9 +121,9 @@
   "related_submissions": [
     "Straight Ankle Lock",
     "Achilles Lock",
-    "Aoki Lock",
     "Calf Slicer",
-    "Heel Hook"
+    "Heel Hook",
+    "Toe Hold"
   ],
   "related_content": [
     {

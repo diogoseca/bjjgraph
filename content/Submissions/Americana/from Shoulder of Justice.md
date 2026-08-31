@@ -331,7 +331,8 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Far Side Armbar]]
-- [[Submissions/Cross Collar Choke]]
+- [[Submissions/Paper Cutter Choke]]
+- [[Submissions/North-South Choke]]
 - [[Positions/Shoulder of Justice]] - Starting position for this submission variant — jaw pressure forces arm exposure
 - [[Positions/Side Control]] - Parent position family — Shoulder of Justice is a specialized side control variation
 - [[Positions/Kimura Trap]] - Chain attack when opponent straightens arm to defend the americana
