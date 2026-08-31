@@ -1523,7 +1523,7 @@ def _node_indexes(node_ids: list[str]) -> dict:
 
 
 def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
-                    idx: dict) -> tuple[list[str], bool]:
+                    idx: dict, stats: dict | None = None) -> tuple[list[str], bool]:
     """Map one related_content reference onto the graph node ids it lights up.
 
     Returns (node ids, was_family_expanded); ([], False) = unresolved.
@@ -1537,7 +1537,17 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
     layer named a FAMILY ("Calf Slicer"), not a node — those layers exist because a family hub is
     not in the graph — so one authored word becomes every "from X" finish in the family. That set
     is a candidate list, not a membership list, and _anchor_family() below is what narrows it.
-    A `flat` or `leaf` hit is the author naming ONE exact node and is never narrowed."""
+    A `flat` or `leaf` hit is the author naming ONE exact node and is never narrowed.
+
+    `stats` is the COVERAGE COUNTER for the last rung (CLAUDE.md section 6.6): the authored
+    `content_type` is a claim about which SECTION a name lives in, and an author who is right
+    about the move and wrong about the drawer resolves to nothing — invisibly, because an
+    unresolved ref is a legitimate outcome. Measured before this rung existed: `Submission
+    Chains` names "Triangle from Guard" as a Submission and the node is
+    `Transitions/Triangle-from-Guard`, so the ref was dropped while `build_node_index` (the
+    resolver two files over) had it all along. The typed prefix is still tried FIRST and alone —
+    this is the retry, not a widening — and every fire is counted into `stats["crossType"]` and
+    printed, so a rung that stops firing cannot rot in silence."""
     if path:
         if path in ids:
             return [path], False
@@ -1546,16 +1556,21 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
             return sorted(set(kids)), True
     slug = slugify(name)
     candidates = [slug] + ([idx["alias"][slug]] if slug in idx["alias"] else [])
-    prefixes = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
-    for cand in candidates:
-        for pre in prefixes:
-            for layer in ("flat", "variant", "leaf"):
-                hit = idx[layer].get((pre, cand))
-                if hit:
-                    hits = sorted(set(hit))
-                    # `variant` IS the family layer; a multi-hit `leaf` is an
-                    # expansion too (one bare name, several nested nodes).
-                    return hits, (layer == "variant" or len(hits) > 1)
+    typed = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
+    # rung 2 is EMPTY for an untyped ref (rung 1 already tried all three, in this order), so an
+    # untyped ref resolves exactly as it did before this rung existed.
+    for cross, prefixes in ((False, typed), (True, [p for p in GRAPH_REF_PREFIX.values() if p not in typed])):
+        for cand in candidates:
+            for pre in prefixes:
+                for layer in ("flat", "variant", "leaf"):
+                    hit = idx[layer].get((pre, cand))
+                    if hit:
+                        if cross and stats is not None:
+                            stats["crossType"] = stats.get("crossType", 0) + 1
+                        hits = sorted(set(hit))
+                        # `variant` IS the family layer; a multi-hit `leaf` is an
+                        # expansion too (one bare name, several nested nodes).
+                        return hits, (layer == "variant" or len(hits) > 1)
     return [], False
 
 
@@ -1627,9 +1642,152 @@ def _products(data: dict, sys_name: str) -> list[dict]:
     return out
 
 
-def build_systems(graph: dict, nodes: list[dict]) -> dict:
-    """The Systems library: one entry per content/Systems/*.json, each carrying the graph
-    nodes it teaches so the app can list all 47 AND highlight a System's members on the graph.
+# ── SYSTEM BODIES: the authored half of a System that had never left content/ ─────────────────
+# A System's JSON is ~20KB of authored prose and 145,746 words across the 47 — overview,
+# key_principles, key_components, common_obstacles, assessment_metrics, training_methodology —
+# and until now the app read exactly two of those fields: `summary` (240 chars) and
+# `implementation_sequence` (phase + 220-char detail). Everything else reached nobody, in the app
+# that is 100% of default traffic.
+#
+# It ships the SAME WAY a concept body does (build_concepts, below), for the same reason: the
+# INDEX (systems.json, deferred, shared 500,000-byte ceiling with concepts.json) carries what the
+# LIST and the graph HIGHLIGHT need, and everything only the OPEN PANEL reads rides in a dossier
+# chunk in the per-node content/ chunk space, keyed "<Name>|System" and fetched through the SAME
+# window.NG_CONTENT chunk cache a node dossier uses (app.src.jsx `_docBody` -> `_hydrateContent`).
+# So systems.json grows by the `key` that addresses the body and by nothing else (+2,124 B across
+# the 47), and the boot payload does not grow at all.
+#
+# `|System` keeps the key out of the technique key space (bare display names) and out of the
+# concepts' `|Principle` / `|Learning` space; write_ng_chunks() refuses a collision rather than
+# letting one dossier overwrite another.
+#
+# EVERY CAP BELOW SITS AT OR ABOVE THE AUTHORED MAXIMUM, so nothing an author wrote is cut today —
+# they are a ceiling against future growth. Measured across all 47 files; recompute before
+# quoting:
+#
+#   python3 - <<'EOF'
+#   import json, glob
+#   mx = {}
+#   for f in glob.glob('content/Systems/*.json'):
+#       d = json.load(open(f))
+#       def n(k, v): mx[k] = max(mx.get(k, 0), v)
+#       def w(t): return len(" ".join(str(t or "").split()))
+#       n("overview", w(d.get("overview"))); n("points", len(d.get("key_principles") or []))
+#       n("components", len(d.get("key_components") or [])); n("obstacles", len(d.get("common_obstacles") or []))
+#       n("metrics", len(d.get("assessment_metrics") or []))
+#       for c in d.get("key_components") or []: n("comp_desc", w(c.get("description")))
+#       for o in d.get("common_obstacles") or []: n("solution", w(o.get("solution")))
+#       tm = d.get("training_methodology") or {}
+#       n("drilling", w(tm.get("drilling_approach"))); n("stages", len(tm.get("progression_path") or []))
+#       n("mistakes", len(tm.get("common_mistakes") or []))
+#   print(mx)
+#   EOF
+#
+# As of v1.155.3: overview 2,071 · principles 8 (longest 175) · components 6 (description 800,
+# purpose 133) · obstacles 7 (solution 520) · metrics 5 (description 249, indicator 191) ·
+# drilling_approach 1,290 · progression stages 7 (focus 419) · common mistakes 8 (longest 223).
+SYS_OVERVIEW_CAP = 2400
+SYS_COMPONENTS_MAX, SYS_OBSTACLES_MAX, SYS_METRICS_MAX = 8, 10, 8
+SYS_SIGNS_MAX, SYS_MISTAKES_MAX, SYS_STAGES_MAX = 6, 10, 8
+
+
+def _system_body(data: dict) -> dict:
+    """The readable dossier for one System, in the SAME normalised shape a concept body uses.
+
+    One shape means ONE renderer in the app (app.src.jsx `_bodyDocHTML`) rather than a second
+    panel that drifts from the first — the section LABELS differ per library and the blocks do
+    not. `metrics` and `mistakes` are the two blocks only a System authors; a concept simply
+    never emits them, so the renderer's block list is the union and each surface fills its own.
+    """
+    body: dict = {}
+    ov = _clip((data.get("overview") or "").strip(), SYS_OVERVIEW_CAP)
+    if ov:
+        body["overview"] = ov
+
+    points = [_clip(str(x).strip(), POINT_CAP) for x in (data.get("key_principles") or []) if str(x).strip()]
+    if points:
+        body["points"] = points[:POINTS_MAX]
+
+    # key_components -> the `contexts` block. `purpose` is a one-line "what it is FOR" beside the
+    # description, and it is the only place the authored corpus says that, so it rides as `why`
+    # (the same optional slot an error's consequence uses).
+    comps = []
+    for item in (data.get("key_components") or [])[:SYS_COMPONENTS_MAX]:
+        if not isinstance(item, dict):
+            continue
+        c = _clip((item.get("component_name") or "").strip(), 90)
+        how = _clip((item.get("description") or "").strip(), 900)
+        if c and how:
+            entry = {"c": c, "how": how}
+            why = _clip((item.get("purpose") or "").strip(), 200)
+            if why:
+                entry["why"] = why
+            comps.append(entry)
+    if comps:
+        body["contexts"] = comps
+
+    errors = []
+    for item in (data.get("common_obstacles") or [])[:SYS_OBSTACLES_MAX]:
+        if not isinstance(item, dict):
+            continue
+        err = _clip((item.get("obstacle") or "").strip(), 260)
+        fix = _clip((item.get("solution") or "").strip(), 600)
+        if err and fix:
+            errors.append({"err": err, "fix": fix})
+    if errors:
+        body["errors"] = errors
+
+    metrics = []
+    for item in (data.get("assessment_metrics") or [])[:SYS_METRICS_MAX]:
+        if not isinstance(item, dict):
+            continue
+        name = _clip((item.get("metric_name") or "").strip(), 90)
+        how = _clip((item.get("description") or "").strip(), 300)
+        if not (name and how):
+            continue
+        signs = [_clip(str(x).strip(), 220) for x in (item.get("proficiency_indicators") or []) if str(x).strip()]
+        entry = {"name": name, "how": how}
+        if signs:
+            entry["signs"] = signs[:SYS_SIGNS_MAX]
+        metrics.append(entry)
+    if metrics:
+        body["metrics"] = metrics
+
+    tm = data.get("training_methodology") or {}
+    if isinstance(tm, dict):
+        mistakes = [_clip(str(x).strip(), 260) for x in (tm.get("common_mistakes") or []) if str(x).strip()]
+        if mistakes:
+            body["mistakes"] = mistakes[:SYS_MISTAKES_MAX]
+        # drills = how you actually train it: the drilling approach first, then the authored
+        # progression stages in order (stage -> name, focus -> how, timeframe -> focus), which is
+        # exactly the {name, how, focus} shape the concept drills already draw through.
+        drills = []
+        drilling = _clip((tm.get("drilling_approach") or "").strip(), 1400)
+        if drilling:
+            drills.append({"name": "Drilling approach", "how": drilling})
+        for st in (tm.get("progression_path") or [])[:SYS_STAGES_MAX]:
+            if not isinstance(st, dict):
+                continue
+            name = _clip((st.get("stage") or "").strip(), 90)
+            how = _clip((st.get("focus") or "").strip(), 460)
+            if not (name and how):
+                continue
+            entry = {"name": name, "how": how}
+            focus = _clip((st.get("timeframe") or "").strip(), 140)
+            if focus:
+                entry["focus"] = focus
+            drills.append(entry)
+        if drills:
+            body["drills"] = drills
+    return body
+
+
+def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
+    """The Systems library: (index payload, dossier map keyed for the chunk writer).
+
+    One entry per content/Systems/*.json, each carrying the graph nodes it teaches so the app can
+    list all 47 AND highlight a System's members on the graph, plus `key` — the address of that
+    System's readable body in the content/ chunk space (see _system_body above).
 
     Membership comes from related_content (the authored edge list) resolved against the ids
     in graph-data.json. Unresolvable graph-typed references are REPORTED per system in
@@ -1650,7 +1808,8 @@ def build_systems(graph: dict, nodes: list[dict]) -> dict:
     idx["alias"] = {**pos_alias, **{a: v["slug"] for a, v in tech_alias.items()}}
     gsystems = graph.get("systems") or {}
 
-    systems, non_graph, n_products = [], 0, 0
+    systems, dossiers, non_graph, n_products = [], {}, 0, 0
+    stats: dict = {}                    # rung coverage, printed and shipped in _meta
     for path in sorted(SYSTEMS_DIR.glob("*.json")):
         data = json.loads(path.read_text())
         # the page path (and therefore the node id) is derived from the FILE, not the JSON name
@@ -1673,7 +1832,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> dict:
             if ctype and ctype not in GRAPH_REF_PREFIX:
                 non_graph += 1
                 continue
-            hit, is_family = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
+            hit, is_family = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx, stats)
             if hit:
                 resolved.append((ref, hit, is_family, _clip(item.get("relationship") or "", 180)))
             elif ref not in unresolved:
@@ -1725,8 +1884,19 @@ def build_systems(graph: dict, nodes: list[dict]) -> dict:
 
         prods = _products(data, name)
         n_products += len(prods)
+        # THE BODY, and the same duplicate-key rule the concept bodies carry: two files authoring
+        # one `name` would share this slot and last-write-wins would ship one System's prose under
+        # another's row. Loud, not silent (CLAUDE.md section 6.6).
+        key = f"{name}|System"
+        if key in dossiers:
+            raise SystemExit(
+                f"[neural] system key {key!r} is authored twice ({path.name} collides with an "
+                f"earlier file of the same `name`). One body would overwrite the other."
+            )
+        dossiers[key] = dict(_system_body(data), cat="System", name=name, url=f"/{page}")
         systems.append({
             "id": page,
+            "key": key,
             "name": name,
             "url": f"/{page}",
             "summary": _clip(data.get("summary") or data.get("description") or ""),
@@ -1747,16 +1917,18 @@ def build_systems(graph: dict, nodes: list[dict]) -> dict:
             "unanchored": sum(len(s["unanchored"]) for s in systems),
             "nodes": sum(len(s["nodes"]) for s in systems),
             "nonGraphRefs": non_graph,
+            "crossTypeRefs": stats.get("crossType", 0),
             "products": n_products,
             "note": "Generated by scripts/regenerate_neural_data.py from content/Systems/*.json + "
                     "graph.json membership; `nodes` are graph-data.json ids, narrowed by "
                     "_anchor_family: a family-expanded instance is a member only if the System "
                     "also teaches the position it is thrown from. nonGraphRefs counts "
                     "Principle/System cross-references, which are pages and never graph nodes. "
-                    "unanchored counts family refs no member position anchors — a content gap.",
+                    "unanchored counts family refs no member position anchors — a content gap. "
+                    "`key` addresses the System's readable body in the content/ chunk space.",
         },
         "systems": systems,
-    }
+    }, dossiers
 
 
 # ── CONCEPTS: the two authored libraries the app had never been able to open ────────────────
@@ -1947,6 +2119,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
 
     concepts, dossiers = [], {}
+    stats: dict = {}                    # rung coverage, printed and shipped in _meta
     non_graph = md_only = path_spelled = fam_expanded = 0
     for cat, folder, path, name, data in raw:
         page = f"{folder}/{quartz_slug(path.stem)}"
@@ -1982,7 +2155,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             # a concept has no "taught positions" set to anchor against in the first place. The
             # expansion is measured and printed (`_meta.familyExpandedRefs`) so this stays a
             # decision on record rather than a difference nobody noticed.
-            hit, is_family = _resolve_member(ref, ctype, None, ids, idx)
+            hit, is_family = _resolve_member(ref, ctype, None, ids, idx, stats)
             if hit:
                 fam_expanded += 1 if is_family else 0
                 nodes.extend(hit)
@@ -2055,6 +2228,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 "related": sum(len(d["related"]) for d in dossiers.values()),
                 "nonGraphRefs": non_graph,
                 "pathSpelledRefs": path_spelled,
+                "crossTypeRefs": stats.get("crossType", 0),
                 "familyExpandedRefs": fam_expanded,
                 "mdOnly": md_only,
                 "mdOnlyPages": md_missing,
@@ -2118,7 +2292,8 @@ def main() -> None:
           f"{cm['count']} concepts, {cm['nodes']} lit nodes, {cm['related']} cross-links, "
           f"{cm['unresolved']} unresolved refs "
           f"({cm['nonGraphRefs']} non-graph refs seen, {cm['pathSpelledRefs']} written as a page "
-          f"path, {cm['familyExpandedRefs']} family-expanded and deliberately NOT anchored, "
+          f"path, {cm['crossTypeRefs']} resolved under a section the author did not type, "
+          f"{cm['familyExpandedRefs']} family-expanded and deliberately NOT anchored, "
           f"{cm['mdOnly']} .md-only page(s) skipped)")
     print(f"concepts/: {len(concept_dossiers)} readable bodies into the content/ chunk space, "
           f"fattest {_cmax} bytes (chunk ceiling 40,000)")
@@ -2133,9 +2308,40 @@ def main() -> None:
             f"was added to end. Check CONCEPT_FIELDS against the authored template."
         )
 
-    # Per-node dossiers, one chunk each, replacing the 21.2MB technique-content.js.
+    # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
+    # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
+    # a node the graph does not have. Built BEFORE the chunk write for the same reason concepts
+    # are: the System BODIES share that chunk space (see write_ng_chunks(extra=...)).
+    sysd, system_dossiers = build_systems(graph, gd["nodes"])
+    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    sm = sysd["_meta"]
+    print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
+          f"{sm['unresolved']} unresolved refs, {sm['unanchored']} unanchored family refs, "
+          f"{sm['products']} products ({sm['nonGraphRefs']} non-graph cross-refs skipped, "
+          f"{sm['crossTypeRefs']} resolved under a section the author did not type)")
+    _smax = max((len(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
+                 for v in system_dossiers.values()), default=0)
+    _sfull = sum(1 for v in system_dossiers.values() if v.get("overview") and v.get("points"))
+    print(f"systems/: {len(system_dossiers)} readable bodies into the content/ chunk space "
+          f"({_sfull} with an overview AND key principles), fattest {_smax} bytes "
+          f"(chunk ceiling 40,000)")
+    # POSITIVE COVERAGE, HARD FLOOR (CLAUDE.md section 6.6) — the same floor the concepts carry,
+    # for the same reason: 145,746 authored words reached nobody for want of an emit pass, and a
+    # System panel that renders its summary and nothing else looks exactly like one whose authored
+    # body silently stopped parsing. A renamed authored field lands here, loudly.
+    if _sfull < sm["count"]:
+        raise SystemExit(
+            f"[neural] systems: {_sfull}/{sm['count']} carry a readable body (overview + key "
+            f"principles). A System with no body opens a panel that is a title and a link. Check "
+            f"_system_body against the authored template."
+        )
+
+    # Per-node dossiers, one chunk each, replacing the 21.2MB technique-content.js. Both page-shaped
+    # libraries ride in the SAME chunk space (one fetch/cache seam in the app — `_ngc`), keyed
+    # "<Name>|<Principle|Learning|System>" so they cannot land in the technique key space.
     from _neural_content import write_ng_chunks
-    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content", extra=concept_dossiers)
+    n_ng, n_files, n_coll = write_ng_chunks(
+        graph, OUT_DIR / "content", extra={**concept_dossiers, **system_dossiers})
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 
@@ -2145,16 +2351,6 @@ def main() -> None:
     n_belts = build_curriculum(OUT_DIR, graph, decks)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
-
-    # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
-    # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
-    # a node the graph does not have.
-    sysd = build_systems(graph, gd["nodes"])
-    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
-    sm = sysd["_meta"]
-    print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
-          f"{sm['unresolved']} unresolved refs, {sm['unanchored']} unanchored family refs, "
-          f"{sm['products']} products ({sm['nonGraphRefs']} non-graph cross-refs skipped)")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload, "

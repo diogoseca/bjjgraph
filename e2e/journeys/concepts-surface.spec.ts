@@ -36,6 +36,12 @@ import { journey } from "../dsl";
  *          [data-concept-node], [data-concept-link], [data-concept-page]
  * Beats (PostHog): neural_concept_opened
  *
+ * AND THE URL (v1.155.3). /Principles/<slug>, /Learning/<slug> and /Systems/<slug> are real built
+ * pages — they are what search and every wikilink hand out — and none of them is a graph node, so
+ * `_seedFromUrl` resolved nothing and all 129 of them booted the front-door weighted draw: the
+ * reader who asked for a principle got a random roll and no principle. The last test here is that
+ * arriving on one OPENS it and stands the board where it teaches.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · the .md-only Learning pages (3 today, `_meta.mdOnlyPages`) are deliberately NOT rows — this
  *    spec asserts the count matches the JSON-authored set, so deleting the .md skip would not
@@ -365,6 +371,80 @@ test("Explore lists every authored Learning entry, and opening one opens content
     ((await page.locator("[data-concept-body]").textContent()) || "").trim()
       .length,
   ).toBeGreaterThan(400);
+
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("arriving on a principle's own page opens that principle — not a random roll @curated", async ({
+  page,
+}) => {
+  const errors = watchErrors(page);
+  // The widest principle that names at least one POSITION. The position half is load-bearing and
+  // not a convenience: a roll can only STAND in a position, so this is the concept whose seat is
+  // checkable end to end. Chosen from the payload, never named here.
+  const target = payload()
+    .concepts.filter(
+      (c) =>
+        c.cat === "Principle" &&
+        c.nodes.some((id) => id.indexOf("Positions/") === 0),
+    )
+    .sort((a, b) => b.nodes.length - a.nodes.length)[0];
+  expect(
+    target,
+    "some principle names a position — without one this journey cannot make its claim",
+  ).toBeTruthy();
+
+  const j = journey(page);
+  await j.boot("/" + target.id);
+
+  // concepts.json is deferred, so the arrival kicks the fetch itself and the panel opens when it
+  // lands. Nothing has advanced the game clock yet, so the intro is still running — which is the
+  // window the board seed has to land in.
+  await expect
+    .poll(() => page.evaluate(() => (window as any).__neural._conceptId), {
+      timeout: 20_000,
+      message:
+        "the concept page opened its own concept (needs `npm run regenerate:neural` + a build so source/public serves concepts.json)",
+    })
+    .toBe(target.id);
+  await expect(
+    page.locator(`[data-concept-detail="${target.id}"]`),
+    "on the side panel, which is what the address named",
+  ).toBeVisible();
+  expect(
+    await litIds(page),
+    "and its techniques are lit on the graph",
+  ).toEqual([...target.nodes].sort());
+
+  const seed = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return {
+      seeded: !!a._urlSeeded,
+      id: a._urlSeedIdx >= 0 && a.nodes[a._urlSeedIdx] ? a.nodes[a._urlSeedIdx].id : null,
+    };
+  });
+  expect(
+    seed.seeded,
+    "the board is seeded from the page, not left to the front-door draw",
+  ).toBe(true);
+  expect(
+    target.nodes,
+    "and seeded at a node this principle actually names",
+  ).toContain(seed.id);
+
+  // ...and the intro hands the board to that seat. `siteIdOf` because a pair partner carries a
+  // different id from the hub the payload names (CLAUDE.md 6.6) — the app's own normaliser, not a
+  // second copy of the rule.
+  await j.advance(4000);
+  const stood = await page.evaluate((ids: string[]) => {
+    const a = (window as any).__neural;
+    const here = a.siteIdOf(a.nodes[a.currentPos].id);
+    return { here: here, inSet: ids.map((i) => a.siteIdOf(i)).indexOf(here) >= 0 };
+  }, target.nodes);
+  expect(
+    stood.inSet,
+    `the roll stands where the principle teaches (stood on ${stood.here})`,
+  ).toBe(true);
 
   expect(errors, "no page error across the journey").toEqual([]);
 });

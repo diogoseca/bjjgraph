@@ -468,5 +468,10 @@ test("both perspective pages of a technique resolve, and the Defender page plays
   expect(r.att.ok, "every Attacker page seats the performing side").toBe(r.att.n)
   expect(r.def.ok, "every Defender page seats the OTHER side").toBe(r.def.n)
   expect(r.mirror, "…and both name the same origin site").toBe(r.att.n)
-  expect(r.att.n, "over all 1,330 technique pages").toBe(1330)
+  // 1,325 and not 1,330, for the same reason the three counts above moved: v1.155.0 collapsed five
+  // moves authored as BOTH a transition and a submission, so five technique PAGES are gone with
+  // them. v1.155.2 followed the collapse through this file and this literal was the one it missed —
+  // and it went unseen because a push to dev runs no e2e, so the next PR is where it surfaces.
+  // Derive it, never guess it: 1,462 wire nodes − 136 positions − game-over = 1,325.
+  expect(r.att.n, "over every technique page in the corpus").toBe(1325)
 })

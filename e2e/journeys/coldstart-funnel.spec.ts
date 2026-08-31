@@ -173,8 +173,28 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // first-ever visitor is the game itself: the landing card over the dealt hand. (v1.82.0's
   // coach-vs-card adjudication is history now — its substance, "the card is up on the very first
   // landing", is what survives as the assertion.) The card fades in over .28s on the WALL clock
-  // and the dump's own visibility check reads opacity, so let the entry animation finish first.
-  await page.waitForTimeout(400);
+  // and the dump's own visibility check reads opacity, so the entry animation has to finish first.
+  //
+  // WAIT FOR THE FADE, DO NOT SLEEP PAST IT (v1.155.3). This was `waitForTimeout(400)`, which is
+  // 120ms of margin over a 280ms transition — and on a loaded runner the card has not started
+  // fading by then, so the dump reads opacity 0 and the assertion below fails FAST (1.2-1.6s)
+  // rather than timing out, which reads like a real regression. Measured, swapping only the served
+  // bundle: with six CPU hogs running, this test failed 6/6 on THIS branch AND 6/6 on the v1.152.0
+  // bundle that predates it, while passing 6/6 idle. Poll the same property the dump reads.
+  await expect
+    .poll(
+      () =>
+        page.evaluate(() => {
+          const el = document.querySelector("[data-landcard]");
+          if (!el) return 0;
+          const r = el.getBoundingClientRect();
+          return r.width > 1 && r.height > 1
+            ? parseFloat(getComputedStyle(el).opacity || "1")
+            : 0;
+        }),
+      { timeout: 10_000, message: "the landing card finished fading in" },
+    )
+    .toBeGreaterThan(0.05);
   const s2 = await capture("first-landing");
   expect(
     s2.surfaces["[data-landcard]"],

@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.155.3** — [THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION](#v1-155-3-the-system-that-never-spoke-and-the-miss)
 - **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
 - **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
 - **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
@@ -5729,3 +5730,147 @@ diagnosis. Regenerate before you attribute.
 
 **`wc -c` IS BYTES, THIS GATE COUNTS CHARS.** 483,328 bytes of archive is 478,705 chars. That
 4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.
+
+---
+
+## v1.155.3 — THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION
+
+v1.152.0 gave the 82 concepts a panel and a body. It left three things standing, and this is them:
+the 47 Systems still had no body at all, a single dropped chunk request was still the session's
+permanent answer, and `/Principles/<slug>` still booted a random roll.
+
+**THE SYSTEMS WERE THE LOUDEST OMISSION.** Every `content/Systems/*.json` carries `overview`,
+`key_principles`, `key_components`, `common_obstacles`, `assessment_metrics` and
+`training_methodology` — **145,746 words across the 47 files**
+(`python3 -c "import json,glob;print(sum(len(json.dumps(json.load(open(f))).split()) for f in glob.glob('content/Systems/*.json')))"`).
+The app read TWO fields of that: `summary` (240 chars) and `implementation_sequence` (a phase plus
+a 220-char detail). Everything else reached nobody, in the front-end that is 100% of default
+traffic.
+
+It ships on the split this repo already uses and v1.152.0 proved out: the INDEX
+(`systems.json`, deferred) keeps what the LIST and the graph HIGHLIGHT need, and the BODY rides a
+dossier chunk in the **existing** per-node `content/<fnv1a32(key)>.json` space, keyed
+`"<Name>|System"`. So the boot payload pays nothing and `systems.json` grows only by the `key`
+field that addresses it: **252,117 → 254,241 bytes** (+2,124). Deferred total (systems + concepts)
+**315,236 → 317,391 of the shared 500,000 ceiling**. 47 bodies, **570,393 bytes** of prose now
+reachable on demand, fattest chunk **18,503 against the 40,000 ceiling** (printed every run).
+Chunk space 1,680 → 1,727 files, 22,250,425 → 22,815,886 B, none of it on the boot bill.
+
+The boot cost, re-derived ON THE REBASED TREE (this entry was first written against pre-collapse
+dev and every figure was re-measured after): `neural.js` **502,843 → 505,153 raw / 150,532 →
+150,685 gzip, +153 B gzip**, plus 17 B on `neural.css`. Against origin/dev's own browser
+measurement of **379,370 gzip to the first hand of a 385,000 ceiling**, that is the whole of this
+change's boot bill — the bodies are fetched when a panel opens and `systems.json` is not on that
+bill at all. `payload-first-hand.spec.ts` re-measures it in CI; do not quote the pre-rebase
+378,588 → 379,929 pair, which described a tree that no longer exists.
+
+**ONE SHAPE, ONE RENDERER.** `_system_body()` normalises into the same body shape
+`_concept_body()` emits — `{overview, points, contexts, errors, mistakes, drills, metrics}`, where
+`contexts` carries the components (the authored `purpose` rides as `why`, the slot an error's
+consequence already used) and `drills` carries the drilling approach followed by the authored
+progression stages. `_bodyDocHTML(body, cat)` draws all three libraries, and `NG_DOC_LABELS` is
+what makes them read differently: **a block with no label in a library's row is not drawn for it**,
+so a System's `metrics` can never leak into a principle. Every cap sits at or above the authored
+maximum measured across all 47 files (overview 2,071 · components 6 with an 800-char description ·
+obstacles 7 with a 520-char solution · metrics 5 · drilling 1,290 · stages 7 · mistakes 8), so
+nothing an author has written is cut today — they are ceilings against growth, and the recompute
+command sits in the comment above them.
+
+**WHERE THE READ GOES, AND WHY IT IS NOT WHERE A CONCEPT'S IS.** A concept panel opens with its
+prose, because a concept panel IS a read. A System panel is an act — light the members, drill them,
+buy the course — and the first system's body is **12,396 rendered characters** (pane scroll height
+7,750px, measured in a real browser off the built site). Drawn under the card it buried "Drill this
+system" about seven screens down, which is a regression dressed as content. The order is therefore
+card → course shelf → How it runs → the members and their authored roles → Drill → the read. The
+handle is `[data-system-body]`, the styling is the concept body's (`.ng-concept-body` renamed
+`.ng-doc-body`, one stylesheet for both), and no new container was built — the hero/scroll surface
+is a separate, undecided design.
+
+**THE NEGATIVE CACHE WAS THE LANDMINE, AND IT IS THE REPO'S OLDEST SHAPE.** `_hydrateContent` read
+`.then(r => r.ok ? r.json() : null).catch(() => null)` and then wrote `C.decks[key] = null` for
+anything that came back empty. Four different outcomes — 404, 502, a dropped connection, a body
+that will not parse — arrived as one `null`, and that null was the session's permanent answer for
+that key, with no retry, no error and no way back: `_contentWaits[key]` still held a RESOLVED
+promise, so every later ask was answered from the failure. For a node dossier that is mostly
+harmless (the app renders its fallbacks). For a concept or a system it is the whole surface: the
+panel would show its title, its summary and nothing else, forever, and look exactly like a short
+page. **Absence produced a plausible answer** (CLAUDE.md §6.6), one more time.
+
+Two fixes, both narrow:
+- `_hydrateContent` now CLASSIFIES. A 404 (or a chunk that lands without the key) is an ANSWER and
+  is still cached — the hover economics the negative cache exists for are untouched. A transport
+  failure drops the wait instead of the answer and is retried, bounded by `NG_CHUNK_TRIES = 3` so
+  a hover can never loop.
+- `_docBody(key, onLand)` — the shared reader behind `_conceptBody` and the new `_systemBody` —
+  treats a cached `null` as a MISS rather than an answer, because for these two the index PROMISES
+  a body (the emitter refuses to ship an entry without one). One forced re-read per key per
+  session, stamped so it cannot become a refetch per render. That is the half that survives a
+  stale 200: a chunk file cached from before the body existed answers cleanly and wrongly.
+
+**AND THE URL.** `/Principles/<slug>`, `/Learning/<slug>` and `/Systems/<slug>` are real built
+pages — they are what search, the sitemap and every wikilink hand out — and none of them is a graph
+node, so `_nodeAndRoleForPath` returned -1 and all 129 fell through to the front-door weighted
+draw. `_seedPageFromUrl` resolves them against the payload that owns them: the panel opens on that
+entry (which lights its techniques), and the board is seated on the first POSITION among its
+members, read at introDone by the same line a node arrival goes through (v1.114.2: a URL arrival
+sets the board and holds the clock). Both payloads are deferred, so the seat is conditional on the
+intro still running — after that only the panel opens, which is the honest degradation and the only
+one available without putting 63KB back on the boot bill. Back onto such a page re-opens it.
+
+**ONE RUNG, ONE MEASURED REF.** `_resolve_member` tried only the prefix the author's
+`content_type` named. `Principles/Submission-Chains` names "Triangle from Guard" as a **Submission**
+and the node is `Transitions/Triangle-from-Guard` — right about the move, wrong about the drawer,
+and the miss was invisible because an unresolved ref is a legitimate outcome. The typed prefix is
+still tried first and alone; the retry over the other prefixes is a second rung that COUNTS itself
+(`_meta.crossTypeRefs`, printed every run). Concepts **729 → 730 lit nodes, 2 → 1 unresolved**;
+systems unchanged (952 nodes, 3 unresolved). Same class as `_tech_keys` (§6.6).
+
+**REPORT, DO NOT AUTHOR.** The remaining misses are content gaps and stay visible as such.
+`Achilles Lock` (1 concept ref + 3 system refs) has a content page and no graph node —
+`content/Submissions/Achilles Lock.json` is an edgeless stub — and `Triangle from Guard` was the
+cross-type ref above. Nothing here invents a node, a member or a product.
+
+**PRINCIPLE MEMBERS, ANSWERED WHERE THEY ALREADY WERE.** `process_principles` in
+`regenerate_graph.py` is still a bare passthrough and `graph.json`'s principles still carry no
+`members[]` — deliberately. The light-up set the app needs is resolved in the emitter by
+`build_concepts` through the same `_resolve_member` / `_node_indexes` ladder `build_systems` uses
+(730 nodes today, median 5 per concept, max 72), and putting a second resolution of the same
+authored `related_content` into a committed 50MB artifact would be exactly the "one question
+answered in two places" §6.5 warns about. The cross-type rung above is the part that was actually
+missing, and it is one code path for both libraries.
+
+**GATES.**
+- `scripts/check_systems_payload.py` gained **check 10**: every System and every concept has a body
+  chunk at the address the app computes from its `key` (`fnv1a32` imported from
+  `scripts/_neural_content.py`, never re-implemented), that chunk carries the key, the body is not
+  empty, and each block clears a half-corpus rot floor. Coverage counts print on every green run
+  (47 System / 59 Principle / 23 Learning bodies, every block on every entry today). Both deploys
+  already run this script, so no workflow needed a new step — the §6.7 hazard about deploys
+  re-listing their build steps inline cuts both ways, and this is the direction that helps.
+- the emitter refuses to write a Systems payload where any system lacks an overview AND key
+  principles, the same hard floor the concepts carry.
+
+**MUTANTS.** Emitter/gate, four killed: bodies never merged into the chunk write → check 10 FAILs
+naming the address (`no readable body at content/254f7977.json`); `assessment_metrics` renamed
+upstream → `only 0 of 47 bodies carry metrics — below the half-corpus rot floor`; `key_principles`
+renamed → the emitter's own floor exits 1 before writing anything; the cross-type rung deleted →
+`the cross-type resolution rung fired 0 time(s), below the floor 1`.
+
+Journeys, four killed and one non-kill recorded. `systems-surface`'s new journey hobbles the
+target's own chunk TWICE and the two repairs are load-bearing one each: **the first request returns
+`{}`** (a clean 200 that does not carry the key — what a stale cached copy looks like, and what
+`_hydrateContent` is RIGHT to treat as an answer) and **the second returns 502**. Deleting
+`_docBody`'s forced re-read → red on the first; reverting `_hydrateContent` to the old fold → red on
+the second; not rendering the body at all → red. `concepts-surface`'s new journey boots at a
+principle's own URL: removing the `_seedPageFromUrl` call → red. **The non-kill, measured rather
+than assumed:** deleting `_docRetried`'s stamp — which makes the forced re-read fire on every
+render instead of once per session — SURVIVES both journeys, because they assert that the body
+arrives and not how many times it was asked for. Recorded in the spec header (§6.3).
+
+Files: `scripts/regenerate_neural_data.py` (the cross-type rung, `_system_body`, the system
+dossiers and their floor), `scripts/check_systems_payload.py` (check 10 + the concepts ratchets),
+`neural/src/app.src.jsx` (`_hydrateContent`, `_docBody`, `_systemBody`, `_bodyDocHTML`,
+`NG_DOC_LABELS`, `NG_CHUNK_TRIES`, `_seedPageFromUrl`, the popstate arm),
+`neural/src/concepts.css` (`.ng-concept-body` → `.ng-doc-body`, + the metric indicator list),
+`e2e/journeys/systems-surface.spec.ts`, `e2e/journeys/concepts-surface.spec.ts`, `CLAUDE.md` (§5
+seam index), `docs/Neural.md`.
