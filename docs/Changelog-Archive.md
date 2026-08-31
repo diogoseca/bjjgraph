@@ -33,6 +33,16 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
+- **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
+- **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
+- **v1.148.0** — [MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT](#v1-148-0-multiple-choice-drops-to-three-and-the-t)
+- **v1.147.0** — [THE PANE'S TAB BAR IS A PAGER](#v1-147-0-the-pane-s-tab-bar-is-a-pager)
+- **v1.146.1** — [THE HOST STYLESHEET REACHED INTO THE APP'S MODAL](#v1-146-1-the-host-stylesheet-reached-into-the-a)
+- **v1.146.0** — [THE SCORE COULD NOT SEE ITS OWN RULESET](#v1-146-0-the-score-could-not-see-its-own-ruleset)
+- **v1.145.13** — [THE SCORE COVERS THE WHOLE CORPUS](#v1-145-13-the-score-covers-the-whole-corpus)
+- **v1.145.10** — [WHAT THE SCORE CANNOT SEE, SIZED](#v1-145-10-what-the-score-cannot-see-sized)
+- **v1.145.1** — [THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL](#v1-145-1-the-collar-choke-that-was-not-a-bug)
 - **v1.138.0** — [THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT](#v1-138-0-the-expiry-sentence-is-a-lease-not-a-res)
 - **v1.137.0** — [THE CLOCK WAITS FOR THE PLAYER](#v1-137-0-the-clock-waits-for-the-player)
 - **v1.136.0** — [THE SHEET IS THE CARD YOU PRESSED, AND IT FINALLY OUTRANKS IT](#v1-136-0-the-sheet-is-the-card-you-pressed-and-it)
@@ -368,6 +378,79 @@ tried.**
 Document order is preserved (the authored grouping), rather than re-sorted by version:
 entries cross-reference each other by position, and Index A above already provides the
 newest-first view. Every entry is verbatim below its heading.
+
+
+<a id="v1-145-10-the-host-stylesheet-reached-into-the-a"></a>
+
+## v1.146.1 — THE HOST STYLESHEET REACHED INTO THE APP'S MODAL
+
+> **Status:** Current. Both halves gated by `e2e/journeys/footer-feedback.spec.ts`, each proved
+> by a mutant (see "Mutation" below — the first attempt at a gate killed neither).
+
+**Owner:** "the checkbox is too much to the left ... It's not unclickable, and I can't do anything
+about it. That checkbox is not properly aligned."
+
+The "about: <state>" context checkbox in the feedback modal — reached from **Request a technique**
+and **Report an issue** on the Explore pane's foot. Measured on the shipped build at 1280x860,
+with the modal open on a real dev server (not the harness):
+
+| box | left edge |
+|---|---|
+| checkbox | **418.6** |
+| its own `<label>` | 441 |
+| the textarea and Send it should line up with | 441 |
+| the card's padding edge | 421 |
+
+So the box drew **22.4px left of its own label and 2.4px outside the card**, hanging in the
+card's padding. `elementFromPoint` at its centre still returned the input — which is exactly why
+the owner reported it as misaligned rather than broken.
+
+**Cause: a bare global in a stylesheet the app does not own.** `source/quartz/styles/base.scss`
+carried an unscoped `input[type="checkbox"]` rule — stock Quartz, whose entire purpose is to hang
+a **markdown task-list** checkbox out in the list gutter:
+
+```scss
+margin-inline-start: -1.4rem;   //  -22.4px, exactly the offset measured
+appearance: none;               //  and this makes `accent-color` inert
+```
+
+The Neural app's modal **portals to the app root** (§6.1: the fixed wrap is its own stacking
+context), so it sits *outside* `.page article` — confirmed in the same probe, `cb.closest(".page
+article")` is `null` — and inherited a rule written for a list item it is not in. The app was
+setting `accent-color:#4a6cff` on the input; under `appearance:none` that did nothing, so the box
+also wore `var(--light)` on a dark card.
+
+**The rule's only consumer on this site was the element it broke.** `grep -rl '^\s*[-*] \[[ xX]\]'
+content/` returns **0 files** and the built HTML contains **0** `type="checkbox"` outside the app
+— the site authors no task lists at all.
+
+**Fix, both halves, because either alone is a half-fix:**
+
+1. `base.scss` — scope the rule to `.page article`, beside the `li:has(> input[type="checkbox"])`
+   rules that are its actual siblings. Task lists keep today's look if content ever authors one;
+   everything else gets a native checkbox, and the app's `accent-color` starts working.
+2. `app.src.jsx` — state `margin:0;flex:none` inline on the input. Not tidying: the app is an
+   overlay on a stylesheet it cannot opt out of, and `margin:0` is also what pulls the box the
+   last 4px (the UA default `margin-left`) into the modal's column.
+
+After: checkbox left edge **441**, flush with the textarea and Send; `appearance: auto`;
+`accent-color` live; nothing overflows the card.
+
+**Mutation — the honest part.** The first version of the gate asserted only the geometry, and
+**mutant A (un-scope the base.scss rule) survived it**: an inline `margin` beats a stylesheet
+rule, so the app-side half masked the stylesheet half completely. A geometry assertion can never
+see the difference. The gate therefore also probes the **cascade** with a control element — a
+bare checkbox appended to `document.body`, where the app mounts — and asserts its computed
+`margin-inline-start` is not negative.
+
+| mutant | result |
+|---|---|
+| un-scope `input[type=checkbox]` in the built CSS | **RED** — `-22.4` vs expected `>= 0` |
+| drop `margin:0` from the inline style | **RED** — checkbox left edge `4` off the column vs `<= 1` |
+
+**Not written to CLAUDE.md, deliberately** (§9 admission test): the fact has a code home in three
+places — the comment on the scss rule, the comment at the `innerHTML` site, and the spec header —
+and it now has a gate that names it.
 
 
 <a id="v1-80-0-one-front-end-the-legacy-quartz-page-ui"></a>
@@ -4691,3 +4774,958 @@ anybody, so they shouldn't be available to me right?" Right — and chasing it f
   1467 nodes carry a `from <position>` qualifier and 89 short names are shared, so the short name is
   used only when it is unique. Applied at the OPTION CARD and the GRAPH's in-node label; the share
   surfaces, lists and dossier already render full authored names by canon.
+
+---
+
+<a id="v1-153-1-the-read-only-audit-that-wrote"></a>
+
+## v1.153.1 — THE READ-ONLY AUDIT THAT WROTE
+
+> **Status:** Current. Pinned by `tests/proofread_fork_safety.test.mjs` (3 tests, 4 mutants
+> killed) plus an in-script fork-preservation gate that refuses the save and prints a positive
+> preserved-map count.
+
+`scripts/proofread_all_transitions.py` carried the comment `# read-only audit: no-gi headline
+frame` on the line loading each file through `reduce_to_scalar(json.load(f), frame="nogi")`. It is
+not read-only: it mutates that document and `atomic_write_json`s it, and
+`.github/workflows/proofread-bot.yml` PRs the result every Sunday. So the doc it saved was the
+REDUCED one — every `{gi,nogi}` map collapsed to its no-gi cell, decided or not.
+
+**Why nobody saw it.** Three maskings stacked. The schema accepts int OR map, so `validate:json`
+passes. The next `npm run migrate:ruleset` re-mirrors the survivor into `{gi: x, nogi: x}`, so the
+structure returns and the lost frame leaves no trace. And the damage is collateral — it lands on
+cells the audit never mentioned, so it appears in neither the bot's change log nor its PR body.
+
+**Measured.** On the one real bot run (`493bd838e`, Submissions, 18 files, still an open PR
+against `main` and NOT merged): 72 of 72 ruleset maps de-forked, and **zero probability values
+actually changed**. 100% of the ruleset damage was collateral from the load path. Reproduced on a
+scratch copy of `content/Positions/Anaconda Control.json`: a single no-op adjustment de-forked all
+12 cells, 8 of them divergent — `{gi: 37, nogi: 41} -> 41`, the authored gi value gone.
+
+**Blast radius, and why it had not detonated.** Divergence today lives only in Positions: 136
+files, 1,839 divergent cells (Transitions and Submissions are still fully mirrored, so a run there
+costs structure but no value). The rotation pointer on `main` still reads `Submissions` and only
+advances when a bot PR merges, so Positions was three merges away — after which v1.153.0's
+availability layer, which derives exclusions from per-frame values, would corrode weekly.
+
+**History, re-derived.** A first pass keyed on array path reported 54 divergent cells lost at
+v1.106.0 / v1.106.2. That was CLAUDE.md 6.6's positional-join trap: those commits DELETE
+transition rows, every later index shifts, and a deletion reads as a de-fork. Re-keyed on content
+(`transition` name, outcome `to`), across all 190 commits that touch `content/` and 38,152
+surviving map cells compared: **one** de-forking commit in the whole history — the bot's — and
+**zero authored divergence permanently lost**. Nothing to restore.
+
+**The fix.** Two loaders — the split `scripts/explode_graph_connections.py` already carries and
+documents: the RAW doc is the write target, a `reduce_to_scalar(frame="nogi")` copy renders into
+the prompt. The rest follows from one observation: the model is SHOWN the no-gi frame, so every
+number it returns is a no-gi verdict. `_prob_write` moves only the `nogi` cell and leaves the
+authored `gi`; `normalize_probabilities` renormalizes each frame independently, so a gi frame
+already at 100 stays byte-identical; `_prob_new` mirrors an ADDED row into both frames (the
+corpus's pre-divergence default — `{"gi": null}` would assert the move is ILLEGAL in gi, far
+stronger than the audit supports). A null no-gi cell is skipped and printed, never filled, so the
+audit cannot resurrect an edge the data says does not exist.
+
+**And a gate that would have caught it.** Before the save the authored document's ruleset-map
+paths are compared against the outgoing one; the first collapsed map refuses the write, and a clean
+run prints `Ruleset maps preserved: N/N` — positive by construction, so "preserved everything" and
+"never looked" cannot print the same thing.
+
+**Mutation.** Four mutants, all killed by a named test: re-arming the reduced load (3 of 3 red);
+mirroring the verdict into both frames instead of nogi only (test 2 red); collapsing per-frame
+normalization back to a scalar (3 of 3 red); silencing the preserved-map count (test 3 red).
+
+**Siblings audited, none diseased.** All eleven scripts importing `reduce_to_scalar` were checked:
+the four that mutate content (`explode_graph_connections.py`, `apply_occurrence_calibration.py`,
+`fix_from_position.py`, `apply_calibration.py`) all load raw on that path; the rest reduce at load
+but write only derived artifacts. `proofread_all_transitions.py` was the only content-mutating
+script loading reduced.
+
+**Open for the owner:** the PR on `proofread-bot/submissions` still carries its 72 de-forked cells.
+No value is lost, but merging as-is needs a `npm run migrate:ruleset` after; re-running the bot on
+the fixed script is cleaner.
+
+
+<a id="v1-153-0-in-no-gi-the-lapel-guards-stop-existing"></a>
+
+## v1.153.0 — IN NO-GI THE LAPEL GUARDS STOP EXISTING
+
+> **Status:** Current. Ships the availability layer v1.145.1 sized and deliberately did not build.
+> **No content value was changed by this commit** and no probability moved — see THE PRICE below,
+> which is the reason it could ship without an owner ruling on renormalization.
+
+The owner's framing, which is the whole feature: *"There are techniques which — there are no
+incoming edges — those techniques SHOULD NOT EVEN BE IN THE GRAPH. If the user activates no-gi
+mode then lapel-to-lasso shouldn't be ANYWHERE in the graph, nor in the options anywhere. It works
+when you have a gi on. In no-gi there are no lapels."*
+
+**THE QUESTION THE OLD FILTER ASKED WAS ABOUT ONE EDGE.** `tech_avail` — the source of `cal.avail`,
+which drives `giAllows` — asked *"does any position offer this move with `attemptProbability[F] > 0`"*.
+That cannot see the case that matters. `Worm Guard/Bottom` deals an honest-looking no-gi hand
+(X-Guard Sweep 33, Omoplata Sweep 21, De La Riva Sweep 18). Those numbers are correct **conditional
+on standing in worm guard**, which is entered by feeding the opponent's lapel through their own
+legs. Every no-gi edge into it is 0. The old question answered "available"; the player's question
+is "can I ever be here", and the answer is no.
+
+**THE NEW ONE IS A WALK.** `frame_reachable` (`scripts/regenerate_neural_data.py`) is a BFS from
+`standing-position/{top,bottom}` over that frame's own attempt probabilities. Measured on
+`graph.json` at v1.148.0:
+
+| frame | techniques unreachable | position role-nodes unreachable | acted on |
+|---|---|---|---|
+| gi | 21 | 0 | no — reported only, see below |
+| no-gi | 104 | 18 | yes |
+
+The 18 are Lapel / Worm / Squid / Ringworm / Piranha / Lasso / Collar-Sleeve / Inverted-Lasso /
+Russian-Leg-Lasso guard, both seats — nine cloth-defined guards. **The corpus already said all of
+this.** Seeded with the 65 techniques the Q3 panel zeroed for an explicit equipment reason, the walk
+adds exactly **one** technique it had not already isolated (`collar-drag-from-open-guard`) and
+**zero** positions. The differential against the unseeded no-gi control is empty: the exclusion is a
+derivation from data that has been sitting in `occurrence_calibration.json` since Q3, not a new
+judgement.
+
+**THE PRICE, WHICH IS THE POINT: ZERO.** Every excluded move already carried **0%** attempt
+probability in the frame it is excluded from — that is *why* it is unreachable — so across both
+frames, **0 surviving positions lose a single attempt-percentage point** and **0 surviving positions
+lose their last exit**. Renormalization and dead-end handling were both flagged to the owner as his
+calls; the measurement retired both questions before he had to answer them. In no-gi the roll seeder
+drops from 136 sites to 127 and 104 techniques disappear from every surface; gi is untouched.
+
+**GI IS NOT SYMMETRICAL, AND THE ASYMMETRY IS THE FINDING — AND THEN IT BIT.** All 21 gi-absent
+techniques are heel hooks / kneebar / aoki-lock, zeroed for **IBJJF legality**, and several of their
+own `availability_rulings` say the ban is ruleset-dependent (*"sub-only/ADCC-gi voices keep a floor
+of 1"*). Equipment is a fact about a garment; legality is a choice about which gi ruleset the app
+models. The first cut acted on both columns anyway, on the grounds that the mechanism is about edges
+and does not care why an edge is zero. **`option-hand.spec.ts` refuted that in nine minutes.**
+
+`backside-50-50/bottom` has exactly **one** gi move that survives `optionsFor`'s role AND origin
+filters, and it is `Heel Hook from Backside 50-50`. Excluding it emptied the main pass, so the hand
+fell through to the **ORIGIN-RELAXED fallback** — five cards from other origins carrying no `ord` and
+no `ordOdds`, i.e. an unranked hand with no EDGE, which then failed the permute-invariance assertion
+because the comparator had nothing to sort on. Two of this repo's own instruments were blind to it:
+**`graph.json` cannot see it** (its per-frame sums apply neither role nor origin, so it reported the
+state healthy — which is why the zero-dead-end measurement was clean), and **an empty-hand check
+cannot see it** (the fallback returns cards). The detector is `ord === undefined`, and it is now a
+test.
+
+So `EXCLUDING_FRAMES = ("nogi",)`. The gi column is walked, printed and ledgered under
+`unreachable_but_not_excluded`, and acting on it is a one-token change and a product decision. With
+gi admitted whole the curated suite is **201 passed / 0 failed with no spec edited** — the gi frame
+is byte-identical to v1.148.0, which is the strongest available statement that this commit changes
+only no-gi.
+
+**THE NAME REGEX IS FINALLY DELETED.** `giAllows` carried
+`/collar|sleeve|lapel|spider|lasso|worm|…/` as its fallback. It kills `Rear Naked Choke from
+Invisible Collar` — the canonical no-gi choke — because the POSITION is named "Collar", and the
+calibration panel refuted the approach in advance in its own notes on `collar-sleeve-guard__bottom`.
+A node with no verdict now fails OPEN. `tests/ruleset_availability.test.mjs` keeps a standing
+fixture on that exact row, plus its converse: **at least 10 excluded nodes a name sweep would MISS**,
+so the suite cannot be satisfied by a name matcher.
+
+**`giAllows` HAD ONE CALLER.** `buildExplorer`. The ruleset reached the Explore category tree and
+nothing else — not the canvas, not the hand, not hit-testing, not either search, not the opponent, not
+the roll seeder, not drills. It now reaches all of them through `rsAllows`/`_rulesetMask`, a
+`Uint8Array` cache of `giAllows`'s own answer (the draw pass asks ~1500x per frame). **`adj` stays
+whole** — it is per-SITE and role-blind by design, and filtering inside it would silently change
+`opponentDefend`, `mcDistractors` and `_posIdx` at once; the test asserts `adj` is byte-identical to
+the control.
+
+**AND THE TOGGLE WAS HALF-WIRED.** `_giMode` hydrated from `localStorage` inside
+`_wirePaneControls`, which `applyDeckVisibility` calls only in its `if (open && !wasShown)` branch —
+**the first time the side pane opens**. A returning no-gi player who reloaded and played the graph
+without opening the pane got the gi hand, gi odds, gi score weights and gi Explore. Hydration moved
+into `ingest`. `setGiMode` also now releases `_posIdx` and every system's `_idxs`, both memoised over
+a node set the ruleset changes; `_curriculumIdxSet`, `_keyNode` and `_qkDecks` are deliberately NOT
+released, and the code says why.
+
+**THE NULL LAYER STAYS PARKED, AND NOW WITH A BLOCKER LIST.** `_ruleset.py` has documented
+`null` = "this edge does not exist in that ruleset" since calibration-v2 and the corpus uses it **0
+times**. The first one cannot be written today: `reduce_to_scalar` without a frame RAISES at
+`regenerate_votes.py:59` and `regenerate_graph.py:187` (both behind a narrow `except` that does not
+catch it); `solve_edge_values.py:227,504` does `float(None)`/`sum(None)` on Positions, killing
+`regenerate:neural` and `validate:flow`; and four write-path scripts convert a null back to a
+number, `explode_graph_connections.py:329` and `proofread_all_transitions.py:713` destructively.
+It was not needed here: the exclusion is derivable from the zeros already in the corpus.
+**Independently of nulls**, `proofread_all_transitions.py:644` is labelled `# read-only audit`, loads
+`reduce_to_scalar(…, frame="nogi")` and writes the reduced doc back — **it de-forks Q3 divergence on
+a weekly bot today**, masked by the next `migrate:ruleset` re-mirroring it.
+
+**Gates:** `validate:availability` (new, hard, wired into `ci-validate.yml` **below** the payload
+emit — its headline check is wire parity, and without the payload it prints SKIPPED and exits 0) ·
+`tests/ruleset_availability.test.mjs` (8 tests, in `test:units`) · ledger at
+`tests/artifacts/ruleset_availability.json`, derived, never hand-edited. `validate:graph` unchanged
+at 0 errors; `validate:score-coverage` unchanged at 99.66%.
+
+**Curated:** 201 passed, 0 failed, 9.7 min. **Mutants, all killed:** name matcher reintroduced in `giAllows` · filter removed from `optionsFor` ·
+filter removed from hit-testing · `adj` filtered at ingest instead of at the reader · **one impossible
+row planted in the emitted wire** (`Worm-Guard-Entry` flipped to `avail.nogi: true`) → wire parity
+red · emitter forced to an all-true table → the emitter's own refusal · seeds resolving to nothing →
+`frame_reachable` refuses · a live-weight technique pruned from the walk → the zero-mass check red.
+**Non-kill, recorded:** dropping ONE of the two `ROLL_SEEDS` survives, because the seats reach each
+other.
+
+**`tests/neural_seat_decks.test.mjs` runs against a control frame** (mask forced all-ones), so its
+option count stays its own subject the day `EXCLUDING_FRAMES` gains a frame.
+
+**LEFT FOR THE OWNER, sized, none touched.** 24 of the 31 SECTION 4 triage rows are adjudicated in
+`tests/artifacts/occurrence_reviewed.json` (12 gi-dependent, 12 not, all `llm-adjudication`); the 7
+left open are named there with the contradiction that makes each one his. The sharpest: five of the
+18 excluded role-nodes (`lasso-guard` ×2, `inverted-lasso-guard`, `russian-leg-lasso` ×2) are
+excluded by CASCADE, not equipment — the panel deliberately floored them at 1-2 rather than zeroing,
+and `russian-leg-lasso` was explicitly RESCUED from a no-gi zero as an arm-wrap, yet its only entry
+comes from an unreachable parent. Also: whether gi should hide the 21 heel hooks, and that
+`Tripod Sweep` — cross-listed from six positions but homed at Spider Guard/Bottom — is the ONLY
+thing keeping Spider Guard reachable in no-gi.
+
+
+<a id="v1-145-1-the-collar-choke-that-was-not-a-bug"></a>
+
+## v1.145.1 — THE COLLAR CHOKE THAT WAS NOT A BUG, AND THE PANEL THAT WAS NOT A PANEL
+
+> **Status:** Current. No content value was changed by this entry's commit.
+
+`Cross Collar Choke from Invisible Collar` is dealt no-gi at `{gi:16, nogi:4}`. It was handed
+round as an obvious live data error — a collar choke served to a player with no collar — and
+scoped as a five-minute content fix. **It is not an error, and the fix that was about to ship
+would have been a name regex.**
+
+**The verdict is the calibration's.** `occurrence_calibration.json`, container
+`rubber-guardinvisible-collar__top`, 16 rounds, records the disagreement and its resolution:
+
+> Cross Collar no-gi was the largest Round-1 disagreement (0-12). Resolved as a genuine small
+> residual (2-5), NOT an availability zero, because a gable-grip / palm-to-palm neck strangle is
+> mechanically possible without cloth; the low values reflect that it is rare and borderline a
+> re-labeled RNC rather than unavailable.
+
+Ten no-gi ballots `3,5,2,5,3,2,3,3,5,3` → mean 3.4 → final 4. **The control is in the same hand,
+on the same run:** `Bow and Arrow Choke from Invisible Collar` and `Clock Choke from Invisible
+Collar` both drew `0,0,0,0,0,0,0,0,0,0` and both sit at `nogi: 0`. The machinery zeroes when the
+ballots say to. The 4 is what it produced when they did not.
+
+**AND THE SESSION THAT ESTABLISHED THAT OVERSTATED IT, IN THE SAME BREATH.** It reported "10
+independent expert ballots" and "a 10-expert Delphi calibration". `scripts/occurrence_moe.py:31`
+says otherwise, in its own comment, and had said so all along:
+
+> `effective_n stays small: 10 personas are ONE correlated LLM, not 10 samples`
+
+The ten "legends" are LLM personas. The author knew and applied a correlation discount; the
+session quoting them did not. So: **the values are agent output, not testimony.** What survives
+is narrower and is enough — the row is the deterministic, documented, reproducible output of a
+process that demonstrably zeroes its neighbours, and *the policy* it follows (`floor: 1`, no
+removals, per-frame-0 only for genuine unavailability) is labelled `owner policy` in code and
+was decided by a human. The argument against overwriting it is not "do not contradict experts";
+it is **do not replace one model's auditable output with another model's ad-hoc regex.**
+
+`calibration_overrides.json` carries the same shape: `meta.source` claims "2 black-belt reviewers
++ adjudicator per batch" and all 10 rows carry `reviewer: "review-sweep-2r-adjudicated"`. Treat as
+LLM adjudication, as with `position_type_reviewed.json`.
+
+**THE NAME REGEX WAS REFUTED IN ADVANCE, BY THE DATA'S OWN AUTHORS.** On
+`collar-sleeve-guard__bottom`:
+
+> Move-name/mechanism mismatch on 'Collar Sleeve to De La Riva': labeled collar-sleeve but ruled
+> available no-gi as a positional transition. Consumers keying availability off the move name
+> (collar/lapel substring) would wrongly zero it — flag for the apply step.
+
+A `collar|lapel|sleeve|spider|lasso|worm` sweep matches 125 transition rows and finds 70 with a
+nonzero no-gi weight — **and flags `Rear Naked Choke from Invisible Collar` at `nogi 37`**, the
+canonical no-gi choke, because the *position* name contains "Collar". That 70 is not a defect
+count and must not be quoted as one. The app ships this same heuristic as `giAllows`'s fallback
+(`neural/src/app.src.jsx`), where it fires on 4 of 1467 wire nodes (0.3%) — only when `cal.avail`
+is absent.
+
+**WHAT THE CLASS ACTUALLY IS, derived from the corpus instead of from names**
+(`npm run validate:occurrence`):
+
+- **1** role-frame where the calibration zeroes a whole frame and content still carries a 100-sum
+  distribution: `lapel-guard__bottom`. This is CORRECT per policy — `occurrence_moe.py:198-214`
+  mirrors a collapsed frame deliberately, because `validate_graph_integrity.py` errors on any
+  frame not summing to 100. Its own flag reads *"the engine must never route a no-gi session into
+  this node."*
+- **12** outcome cells that do exactly that routing (`De La Riva to Lapel Guard` at `nogi 58`,
+  `Lapel Guard to Piranha Guard` at `nogi 30`, …). **An earlier figure of 78 was name-derived and
+  is withdrawn — it is 12.**
+- **19 Tier A / 12 Tier B** role-frames whose own `prerequisites` state a garment requirement
+  while the no-gi frame is populated. A TRIAGE LIST, not a defect list: Tier A knowingly includes
+  `closed-guard__top`, whose prerequisite reads *"hips, biceps, collar, or lapels"*.
+- **0 of 1394** `success_rate` cells and **0 of 4160** outcome-probability cells diverge between
+  frames. Only `attempt_probability` was ever calibrated per-ruleset, so the "58% gi-only choke"
+  figure is one scalar duplicated into both frames on every technique in the corpus.
+
+**A WRONG JOIN PRINTING PLAUSIBLE INTEGERS, CAUGHT BY THE SCRIPT WRITTEN TO CATCH IT.** The first
+cut of `validate_occurrence_surface.py` joined calibration containers to content by position
+SLUG. Two containers — `crackhead-control__{top,bottom}` — still name
+`content/Positions/Crackhead Control.json`, moved under `Rubber Guard/` since the calibration ran
+and already covered by `rubber-guardcrackhead-control__*`. The slug join silently routed the
+stale pair onto the live file, found a partial move list, renormalized it, and reported
+`renorm=47` against `content=22`: **no exception, no blank, 14 unexplained cells where the truth
+is 7.** Join on the path, and NAME what fails to resolve — the report now prints the 2
+unresolvable containers and the 6 reserved ones, so 266 + 6 + 2 = 274 accounts for every one.
+
+**THE TEST THAT PROVED NOTHING, ALSO CAUGHT IN PASSING.** `tests/occurrence_gate.test.mjs`
+asserts the reporter reads the authored requirement rather than the name, using two positions
+with identical cloth-sounding names and different prerequisites. Its first fixture named them
+"Collar Guard A/B" — which the requirement regex never matches *as a name* — so a mutant that
+deliberately turned the script into a name matcher **survived**. Renaming the fixture to "Lapel
+Guard A/B" (a substring both the panel warning and the app's own fallback regex fire on) kills
+it. A fixture that cannot trigger the failure it forbids is a decoration.
+
+**Gates:** `validate:occurrence` is REPORTING-ONLY and exits 0 whatever it finds — whether any of
+these sections is a defect class is the owner's call, and the script exists to size them before
+that call. Its `--gate` flag is deliberately wired into no workflow. Zero coverage is fatal in
+every mode. `validate:graph` unchanged at 0 errors; no content value was touched.
+
+**NOT DONE, deliberately:** the 2.4 availability layer. The blocker is the validator, not the
+data — a frame declared unavailable must be permitted to sum to 0 before an honest zero can be
+written, and `_ruleset.py` already documents `null` as "this edge does not exist in that ruleset"
+across all 8 schemas while the corpus uses it **0 times**. Estimated 2-4 sessions, and step 4
+(the app deals unfiltered today — `giAllows`'s only caller is `buildExplorer`) is a user-visible
+behaviour change and the owner's call.
+
+
+## v1.145.10 — WHAT THE SCORE CANNOT SEE, SIZED
+
+`curriculum.weights` is the only thing `gameScore` sums. One writer, two readers, **zero
+validators** — `validate_curriculum.py` cannot cover it (it runs before the weights are built,
+against `templates/curriculum.json`, which has no `weights` key). Nothing had counted the score's
+own reach.
+
+MEASUREMENT ONLY, the split `validate:occurrence` used. `npm run validate:score-coverage`:
+reporting, exit 0, writes `tests/artifacts/score_coverage.json`, derived from the **committed**
+`graph.json` — never from the gitignored `source/quartz/static/neural/`. Full reasoning in the
+script's own header. It read, at the time: defender 1,326 decks / 6,403 cards · position 272 /
+2,668 · orphan 5 / 50, and the score seeing 12,303 of 21,915 cards (56.14%). See v1.145.13 for
+what those rows read now.
+
+**The score was blind to 9,121 of 21,915 authored cards (41.6%)**, and until this nothing
+said so. **Superseded:** v1.145.13 closed the two unscored classes, v1.146.0 the ruleset row —
+`--gate` is armed in `ci-validate.yml`.
+
+**PROVENANCE: "deliberate" was never decided by a human.** This file said the Defender and position
+zeros were "on purpose". The `role != "attacker"` filter arrived in **v1.68.0** (`86cf84c16`,
+`Co-Authored-By: Claude Fable 5`), whose message claims *"Nothing is cut now"* while cutting 1,598
+decks; **v1.138.0** (`1d3a17eaa`, `Co-Authored-By: Claude Opus 5`) observed it and labelled it. Git
+authorship is no evidence — every commit carries the owner's name; the trailer is the tell. No
+owner quote on the score's scope exists in this archive.
+
+**CORRECTIONS.** "43.9% coverage: 1,655 decks / 9,612 cards" is the **GAP**, not the coverage
+(`9612/21915` = 43.86% uncovered by card; coverage is 43.40% by deck / 56.14% by card — and
+covered-by-DECK is 43.40%, half a point from the quoted figure and an unrelated quantity). The two
+defects **overlap**: the 52/491 gi bucket sits inside that gap. "Scores nothing" is not "is
+unreachable" — only 5 attacker decks (50 cards) are orphaned (`aoki-lock`, `buggy-choke`,
+`inside-heel-hook-from-inside-sankaku`, `kneebar`, `kneebar-from-carni`).
+
+**MUTANTS, ALL WATCHED RED.** The frame accessor stops reading the `{gi, nogi}` pair → the gi row
+reports `1269/1269`, perfectly clean, and the artifact's `unweighted` goes 52/491 → 0/0. The
+availability join hollowed → `0/1326 (0.0%)`, **exit 1**: zero coverage is fatal even in reporting
+mode (section 6.6), because a per-frame check with an empty denominator prints what a clean run
+prints. `--gate` → exit 1 naming the 52.
+<a id="v1-146-0-the-score-could-not-see-its-own-ruleset"></a>
+
+## v1.146.0 — THE SCORE COULD NOT SEE ITS OWN RULESET
+
+> **Status:** Current. Closes the ruleset row left open by v1.145.10 and restated as unruled by
+> v1.145.13 below, on the owner's ruling ("just ship it, whatever makes sense"). Full measurement
+> set, rejected shapes and mutant table are in this commit's message.
+
+`build_technique_weights` read `edge["attemptProbability"]` — the folded **no-gi** scalar — for 77
+versions while `attemptProbabilityByRuleset` sat on the same dict on **2,541 of 2,541** edges.
+Re-derived from the committed graph before any code: 60 position edges are gi-only and 16
+no-gi-only, so **52 techniques are attemptable only in gi**, the app's DEFAULT ruleset — and once
+v1.145.13 widened the table to both seats that was **104 decks / 739 authored cards** at weight
+zero. Fold direction measured, not assumed: 1,839 edges where the scalar equals `nogi` and differs
+from `gi`, **zero** the other way. `optionsFor` applies no ruleset filter, so all 739 cards were
+dealt, browsable, drillable and worth nothing.
+
+**"It needs a regeneration, not a code change" was FALSE.** The pair is already on the committed
+graph. The only other frame-dependent input is `outcomes[].probability`: across the 1,100 authored
+files in `content/Transitions` + `content/Submissions`, **3,264 of 3,264** outcome maps and **1,100
+of 1,100** `success_rate` maps have `gi == nogi`, enforced because `reduce_to_scalar(frame=None)`
+raises on a divergent map. Unrelated despite the name: `successRateByRuleset` on role-nodes *does*
+diverge (292 of 2,662) — calibration is per frame — but it is not an input here.
+
+**What it costs the player, measured on the whole-corpus table.** Coverage 96.29% → **99.66%**
+(21,840 of 21,915 cards; only 10 orphan decks remain). gi scores **fall**, by 0.005 to 0.028 — a
+top-100 learner crosses blue→white at 0.4005 → 0.3958. Uniform mastery moves exactly zero, as it
+must for two normalised tables, and a learner who has drilled the gi-only decks is **+0.0001**:
+the loss is entirely "weight moved to material you have not studied". **TV(gi,nogi) = 0.0882 here**
+— the 0.1138 quoted from the earlier audit described the *attacker-only* table and is stale.
+Ranking moves more than the score does: **98.5% of the 2,778 shared keys** change rank (median 66,
+p90 386, max 2,484), while the top-10 is unchanged in set *and order* — the head is stable, the
+tail reorders.
+
+**The frame is a required parameter with no default.** A default is how this survived 77 versions:
+it lets a caller re-acquire the bug by omission. Every route to the table now runs through one
+function that will not compile without saying which ruleset it means. Wire:
+`scoreWeightsByRuleset = {div, p:{k,gi,nogi}, t:{k,gi,nogi}}` — keys once, one integer array per
+frame, `k` the union, a zero meaning "not attemptable in this ruleset"; a new key rather than a new
+shape under `scoreWeights`, which is v1.145.13's own reasoning applied to v1.145.13. Two stale
+memos that would have shipped the fix as a lie: `_scoreW` was a single slot (first read pins a
+ruleset forever) and `_scoreCache` was keyed on `_stageVer` alone, which only a card grade bumps.
+`--gate` is now armed in `ci-validate.yml`.
+
+---
+
+
+
+## v1.145.13 — THE SCORE COVERS THE WHOLE CORPUS
+
+v1.145.10 sized it: 1,326 Defender and 272 position decks — **9,071 cards, 41.4%** — weighed zero,
+on a v1.68.0 agent decision no human had made. **The owner ruled: score the whole corpus and let
+scores fall.** Why NOW: *"Nobody is a fucking blue belt right now... there are no users who will
+suffer because of this."* A demotion is a trust event only once people have standing to lose, so
+take the correct measure while it is cheap. Re-fitting the belt thresholds was explicitly rejected
+as not yet justified — later, not today.
+
+**THE TABLE.** A roll step exercises three kinds of knowledge, each once per step: where you are,
+what you do from there, what is done to you. Three blocks — occupancy `pi`, visit-rate `visits`,
+those visits mirrored to the defending seat — each summing to 1; the score is their mean. Not a
+tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
+`sum(visits)` are both exactly 1.0 — three readings of ONE unit step, not different units as an
+earlier session of mine claimed. `build_technique_weights` had been computing `pi` and discarding
+it for 77 versions.
+
+**MEASURED BEFORE SHIPPING.** No user data exists in this repo, so the live distribution was not
+checkable — "everybody is white" is the owner's premise, unverified here. Cards of full
+recall per belt, best-weight-first: white **231 -> 196** (*sooner*), blue 613 -> 856, black
+3,367 -> 5,663 (1.7x). The drop depends on what was studied (2,500 cards): attacks only, i.e. the
+old ranking, `0.735 brown -> 0.245 white`; random `0.120 -> 0.135`; positions first
+`0.000 -> 0.324`. **Ranking:** 0 of the 1,269 already-scored decks change rank relative to each
+other (the attacker block is scaled by exactly 1/3), but 14 of the new top 20 are positions and
+USERS reorder.
+
+**RETENTION NOT PRESSURE — no such choice arises here.** A weights table has no clock to punish
+with; `deckMastery` moves only on answers. It WILL arise in `_schedule` (SRS intervals — what you
+are *shown*). Pinned by a test named for it.
+
+**THE WIRE SHRANK.** Flat, the 2,810-key dict cost +8,339 gzip — first hand 382,197 of 385,000,
+inside the band `payload-first-hand` calls unknown until CI speaks. Key strings are the whole cost
+and 1,269 of 2,810 were a second spelling. `scoreWeights = {div, p:{k,v}, t:{k,v}}` spells each
+once, both seats at one value: **16,711 gzip against 17,417 — 709 bytes SMALLER than the
+attacker-only table it replaces.** The emitter round-trips the expansion and refuses if the mirror
+stops holding. `weights` is no longer emitted: an old bundle iterating the new shape would render
+`Mastered NaN%`; under a new key it scores 0 and recovers on reload.
+
+**A TRAP THE SUITE CAUGHT.** `startPosTraffic` sums a technique's weight through its ONE canonical
+origin; I let position/`|Defender` keys fall out of its `fromPositionId` guard instead of filtering
+them. That LOOKED equivalent: a position deck key **does** resolve through `nodeForKey`, to a
+different index under `?dual=legacy` than under the pair render, so the two built different traffic
+tables and `dual-consumers` went red on an otherwise correct build. Filtered now — the draw is
+unchanged by construction, not by accident.
+
+**MUTANTS, ALL RED.** Defender seat halved · position block dropped from the expansion · a zero
+kept as a key · emitter's defender block emptied (refused) · wire drops the defender seat
+(round-trip refused, 1,269 missing).
+
+**Was left open here, closed in v1.146.0 on the owner's ruling:** the 52 gi-only techniques,
+which widening the table doubled to both seats — **104 decks / 739 cards**.
+---
+
+## v1.147.0 — THE PANE'S TAB BAR IS A PAGER
+
+Owner: *"users try to scroll left and right"* on Explore | Challenges | Last rolls. The open
+question was which way, and whether the device could be asked.
+
+**It cannot.** No web API exposes a swipe-direction or "natural scrolling" preference; macOS
+natural scrolling inverts *wheel* deltas inside the OS, so the browser is handed an already
+flipped number, and a touch gesture is never flipped at all. The one real device signal is
+WRITING DIRECTION, read from the computed `direction`. So the direction is a design decision, and
+this repo had already made it: `_landPageTo(dx < 0 ? 1 : -1)` (v1.130.0) — content follows the
+finger, as in UIPageViewController and ViewPager2. Two pagers in one drawer disagreeing about
+forward would have been the defect. Seams: `_paneTabPageTo` · `_paneGestureDir` ·
+`_paneSlideBody`, on the pane's existing touch handler; `NG_PANE_TABS` replaces the hand-typed
+triple `setViewMode` validated against.
+
+**Mutation table** (built bundle, hardlinked sandbox — another agent held the core port): the
+inverted direction, the deleted dominant-axis check, clamp→wrap, the deleted click suppressor,
+the deleted `inHScroller` guard and the deleted RTL flip are all KILLED by
+`e2e/journeys/pane-tab-swipe.spec.ts`. The seventh — deleting the study branch's `return`, so a
+card swipe falls through into the tab pager — **SURVIVED, correctly:** `_paneTabPageTo` guards
+`_paneStudyActive()` itself, so only the DOUBLE mutant goes red. Journey 4 gates the behaviour,
+not either guard; it says so in its own header. A third spelling of that rule sat in the wheel
+handler and was deleted once measured redundant.
+
+---
+
+## v1.152.0 — THE PRINCIPLE THAT RAN A SEARCH
+
+Owner, two complaints in one message: *"If I click a principle like Angles, it goes to SEARCH mode
+— I see results like turtle to back take, rolling back take. I wasn't searching. The intent was to
+open a content page on the side panel. Same for Learning: clicking Guard Passing searches 'pass'
+and finds all these transitions."* And: *"I remember seeing 20-something or 30 principles. Now I'm
+just seeing 6."*
+
+**THEY WERE THE SAME OBJECT.** `curatedMap` was a ten-entry literal of `[label, SEARCH TERM]`
+pairs whose click handler was three statements: `this._exQ = term`, write the term into the visible
+search input, `renderExplorer()`. The click did not open a concept, could not open one, and never
+had: the second element of every tuple is a query string. "Six visible" and "clicking one runs a
+search" are the same literal read from two sides — and the labels named no authored page
+(`Frames & posture`, `Angles`, `Pressure` are nothing in `content/Principles/`; the real page is
+`Dominant Angles`).
+
+**THE CORPUS THE APP COULD NOT REACH.** 59 principles (~2.4MB of generated `.md` prose beside
+them) and 23 Learning entries. None is a graph node — the visual layout holds 1,467,
+`Counter({'Transitions': 1034, 'Submissions': 297, 'Positions': 136})`, no other prefix — which is
+exactly *why* there was no route in: every Explore row resolves to a node index and calls
+`openDossier`, and a concept has no index to call it with. The emitter already printed the omission
+every run (*"UNACCOUNTED — 106 node(s) / 938 authored card(s) … reach no deck"*), and still does:
+**those flashcards remain unreachable and are NOT part of this change.**
+
+**WHAT SHIPPED: TWO PAYLOADS, ON THE SPLIT THE REPO ALREADY USES.**
+
+- `concepts.json` — the INDEX. 82 entries (59 + 23), `{id, key, name, cat, url, summary, meta,
+  nodes, unresolved}`, **63,074 bytes**, declared DEFERRED in `check_payload_budget.py`. Membership
+  is the authored `related_content` resolved through `_resolve_member` / `_node_indexes` — the same
+  resolver `build_systems` uses, so a concept lights exactly the techniques its author linked:
+  **729 lit nodes, 2 unresolved refs**, reported per concept and never faked.
+- the BODY, one dossier per concept, into the **existing** per-node `content/<fnv1a32(key)>.json`
+  chunk space, keyed `"<Name>|Principle"` / `"<Name>|Learning"`. `write_ng_chunks` grew an `extra`
+  map rather than the app growing a second fetch/cache seam (§6.5): `_ngc()`, `_hydrateContent`,
+  the chunk ceiling and the address scheme are all reused as-is. A key collision between the two
+  maps is a hard `SystemExit`, not a last-write-wins.
+
+**THE INDEX/BODY LINE IS A BYTE BUDGET, NOT A TASTE CALL.** The first cut carried `glue` (the
+authored per-technique reason, ≤180 chars × 723) and `related` in the index: **160,170 bytes**,
+which against the shared `deferred_raw_bytes: 500_000` ceiling and systems.json's 323,544 left
+**16,286 bytes of headroom** — one content-bot Saturday from red. Everything only the OPEN PANEL
+reads moved into the chunk it already fetches; the index kept only what the LIST and the graph
+HIGHLIGHT need, so a row click still lights instantly. 160,170 → 63,074. Fattest concept body
+**18,190 bytes** against the 40,000 chunk ceiling (the fattest per-node dossier already emitted is
+21,349), printed every run so it cannot drift past the gate in silence.
+
+**WHAT THE PANEL SHOWS, AND WHAT IT DOES NOT.** The two libraries were authored by different
+templates that say the same things in different words (`key_principles`/`key_takeaways`,
+`application_contexts`/`bjj_applications`, `common_errors`/`common_mistakes`,
+`training_approaches`/`training_exercises`). `CONCEPT_FIELDS` normalises them in the EMITTER, so
+one renderer draws both and a third library would add a table row, not a branch. Sections:
+overview, key points, where it applies, what goes wrong, how to train it — then the lit techniques
+with their glue, the concept-to-concept links, and a real anchor to the authored page. **NOT
+shipped: the ~2.4MB of `.md` prose** (it needs a reading surface this pane is not, and stays one
+click away) **and the flashcards**. The cross-links are the ~440 refs `build_systems` could only
+count as `nonGraphRefs` and discard; here they are navigation, resolved against the payload this
+emitter itself writes. **521 of them.**
+
+**ONE SPELLING WAS COSTING SIX OF THE EIGHT MISSES.** The first emit reported 8 unresolved graph
+references. Six were a single file — `content/Learning/Defend With Purpose.json` — writing every
+`related_content.name` as a PAGE PATH (`"Positions/Side Control"`, `"Principles/Frames"`) where
+every other file writes the bare display name. `slugify` folds the whole string to
+`positions-side-control` and matches nothing, and the miss is INVISIBLE because an unresolved ref
+is a legitimate outcome: the concept simply lit nothing and said nothing. That is `_tech_keys`
+one join over (§6.6) — a page path is another spelling of the same reference — so the ladder gained
+a rung that strips a known prefix, and the rung COUNTS itself (`_meta.pathSpelledRefs`, printed
+every run) so it cannot rot in silence. **8 unresolved → 2, 723 lit nodes → 729, 513 cross-links →
+521, the rung firing 14 times.** The surviving 2 are real content gaps — `Achilles Lock` and
+`Triangle from Guard` name no node — and the panel says so rather than hiding them.
+
+**THE HARNESS WOULD HAVE HIDDEN THE WHOLE THING** (§6.4). `e2e/dsl.ts` fulfils *every*
+`**/static/neural/content/*.json` with `{}` on purpose, so journeys run without authored dossier
+content — which means "the concept body is absent" is a statement about the DSL, not about the
+app. `concepts-surface.spec.ts` serves the real chunk for a CONCEPT key only, and identifies it by
+READING the emitted file for a key the payload names rather than recomputing `fnv1a32` in the spec
+(§6.3: a spec-side copy of the addressing scheme under test agrees with itself by construction).
+
+**MUTANTS, all killed** (`concepts-surface.spec.ts`): re-arming the search on the row click → 2
+failed · capping the list at six → 2 failed · rendering no readable body → 2 failed · dropping the
+graph highlight → 1 failed · dropping the full-page link → 1 failed. The last two kill only the
+Principles test because those claims live only there. The search claim is asserted three ways —
+`_exQ`, the visible input's value, and the flat `N results` header the search path emits — so a
+regression that re-armed only one of the three still goes red.
+
+**ALSO CORRECTED.** `forward/shared/components-panels.js` still mocked the three retired shortcut
+labels. It is a design mock with no parity gate (§6.8: retired rows survive there by default), so
+it named three principles that have never existed for as long as it has existed.
+
+**STILL OPEN, for the owner.** The 938 authored flashcards on principles and systems reach no
+deck: `deckCat()` has no branch that renders one, and giving them one is a curriculum decision
+(they are not a position or a technique, so they do not blend into the hierarchy the way the
+`_blend_deck` tiers do). The emitter keeps printing the figure every run.
+
+## v1.148.0 — MULTIPLE CHOICE DROPS TO THREE, AND THE TRAP SURVIVES THE CUT
+
+Owner's ask, in full: *"bring all multiple-choice cards from four options to three. The reason is
+that we don't have enough vertical space on the screen to show all four options... Three options is
+typically a more readable quantity for humans, not passing the decision threshold and entering into
+decision fatigue effects."*
+
+The count itself was a two-line change. `mcDistractors(card, deckKey, n, tag)` defaulted `n = n || 3`
+and BOTH call sites passed the literal `3` — `_mcBlock` for the real draw and `_warmMcPool` for the
+rolled-back dry pass that decides which deck chunks to hydrate. That pair is the §6.5 shape: one
+question answered in two places, and a disagreement between them would have made the dry pass name
+the wrong deck set, fired `mc_pool_cold` on a live draw, and desynchronised every rigged journey.
+Collapsed to one seam, `get MC_DISTRACTORS() { return 2; }`, with the Python port
+(`scripts/audit_mc_viability.py`) carrying the same constant under the MC_LINE ↔ MC_LINE_BUDGET
+"keep in sync" contract.
+
+**THE FINDING, AND IT WAS INVISIBLE TO EVERY GATE.** The corpus is uniformly two `plausible` plus
+one `trap`: measured over all 1,659 `content/**/*.json`, **23,406 cards carry `distractors` and
+23,406 of them are exactly 2+1 — no other shape exists.** `mcDistractors` consulted `d.p` before
+`d.t`, and `tryAdd` early-returns at `picked.length >= n`. So at `n = 2` the two plausible lines
+filled both slots and **`d.t` would never have been consulted for any authored card in the
+corpus** — retiring the trap tier, its 2:1 odds cost (`cost = tier === "trap" ? 0.08 : 0.04`,
+`_landAnswered`), its stage demotion (`_bumpStage(key, card.q, -1)`) and the
+`mc_wrong{tier:"trap"}` beat, corpus-wide, in one line. **`npm run validate:mc` would have gone on
+reporting 100.0% viable throughout**, because it certifies survivor COUNT (`>= 2`) and never asks
+which tier they came from. §6.6, exactly: a fallback that produces a plausible value and never says
+it fired. Fix: consult the trap FIRST, so it always survives the cut; then ROTATE which of the two
+plausible lines takes the last slot (one draw on the same `…-mc-pick` tag, so it rolls back with the
+dry pass and replays frame-exact), because taking `p[0]` every time would have permanently retired
+23,406 already-authored lines. Display order is untouched — the existing Fisher-Yates on
+`…-mc-shuffle` still runs after selection, so the trap is equally likely to be A, B or C.
+
+**A simplification fell out.** The pooler's recall floor is `picked.length < 2 → null`. At
+`MC_DISTRACTORS = 2` the ask and the floor are the same number, so a shipped MC block is now
+*exactly* three options or it is not an MC block at all — the degraded three-of-four case is gone,
+and the audit's `>= 2` certification finally means what it says instead of under-certifying
+(before, it passed cards that could only ever have built three of the four the renderer asked for).
+The floor is deliberately left as a literal rather than `< n`: it answers a different question.
+
+**THE SECOND FINDING: two unit suites would have gone VACUOUS, not red.** `neural_manifest_boot`'s
+synthetic corpus was hand-shaped so that all three pooling tiers run — own deck rejects its one
+candidate, two neighbours give one each, "which is not enough for n=3", so the global tier must
+walk. At `n = 2` two neighbours are exactly enough, the global tier stops executing, and every test
+in the file goes on passing while covering one tier fewer. N2's line is now a deliberate
+near-duplicate of N1's (Jaccard 9/11 = 0.82, over the 0.8 sibling guard) so one survivor is short of
+two and the walk is forced again — and the test now NAMES the tiers it reached and fails on zero,
+rather than inferring coverage. Proven by reverting the line: `the global tier never ran (reached:
+Mount|Top,N1|Top,N2|Top)`.
+
+**Mutation table** — all three killed:
+
+| mutant | spec that went red |
+|---|---|
+| `d.p` consulted before `d.t` | `mc-oneline.spec.ts:66` "golden card: … authored plausible/trap tiers" |
+| `MC_DISTRACTORS` back to 3 | `mc-oneline.spec.ts:66` + `landcard-modes.spec.ts:419` |
+| dry pass under-asks (`_warmMcPool` → 1) | `neural_manifest_boot.test.mjs` "MC options are identical under warmed partial residency" |
+
+`keyboard.spec.ts`'s shortcut-legend loop is recorded in its own header as a NON-KILL: it greps
+single letters out of the whole lowercased modal, so "d" matches incidentally and the loop survives
+a mutant that deletes the row. The real gate on the count is `mc-flashcards.spec.ts`.
+
+**What did NOT change, deliberately.** No content regeneration: the wire still ships `mc:{p,t}`
+untruncated and the spare plausible becomes guard-rejection headroom, so the authoring scripts keep
+their `minItems/maxItems 2` and `1` and their `len(opts) < 3` idempotency predicates — loosening
+those would have re-flagged the whole corpus as needing work and bought a paid re-authoring wave for
+zero runtime benefit. No `helmet.html` retune: `.ng-landcard` is a flex column under
+`max-height:34vh` with `overflow-y:auto`, so it simply gets ~51px shorter (one 44px row + one 7px
+gap) and the scroll pressure goes away; §6.1 records twelve collisions from tuning docked chrome
+against a constant instead of a measured rect. The trap penalty stays at 0.08/stage −1 even though
+traps rise from one-of-three wrong slots to one-of-two — a dial to feel before turning. `decisionSec`
+stays at 9s. And `_onKey`'s sidebar digit branch stays `/^[1-4]$/`, not `/^[1-3]$/`: it calls
+`preventDefault()` before the lookup, so a `4` is SWALLOWED; narrowing it would let `4` fall through
+to the `/^[1-9]$/` option-card openers, which is the Q007 hazard their own comment records.
+
+
+---
+
+## v1.148.2 — "LAST UPDATED" WAS THE BUILD CLOCK, ON EVERY PAGE, FOR ELEVEN VERSIONS
+
+Owner, on the build console: *"a bunch of files decided they weren't in Git... I always have this
+message every time I read this. The outcome is never different?"* It never differed because the
+check never succeeded — not for a bunch of files, for **4,618 of 4,618**.
+
+**Mechanism.** `lastmod.ts` asked libgit2 for a date using `file.data.filePath`, which is
+`joinSegments(argv.directory, fp)` (`processors/parse.ts:94`); this repo builds
+`quartz build -d ../content` from `source/`, so it reads `../content/Positions/Mount.md`. **libgit2
+resolves a pathspec against the repo workdir and cannot follow a `..` out of it.** Every lookup
+threw, every file warned, every date fell through to `st.mtimeMs` on the next loop iteration.
+
+**Why it survived eleven versions.** §6.6 in its purest form — *a fallback that produces a
+plausible value*. An mtime is a real date, in range, different per file by fractions of a second.
+The 4,618 warnings were not silence; they were noise, which is the same thing once a reader learns
+to scroll past them.
+
+**Measured before the fix (v1.148.0).** `Positions/Mount/Top.html` emitted
+`article:modified_time = 2026-08-22T17:54:17.524Z`; `stat` on its source `.md` said `.524000000`;
+`git log -1` said `2026-07-16T01:20:13`. Identical to the millisecond to the filesystem, five weeks
+off the truth. **In production it is worse:** a fresh checkout stamps every mtime at the checkout
+instant, so fetched live from bjjgraph.org, `/Positions/Mount/Top` and
+`/Submissions/Rear-Naked-Choke` — last really committed months apart — **both** claimed
+`2026-08-26T23:36:12`, 0.2s apart. Head.tsx copies the same value into `datePublished`/
+`dateModified`, so Google was told all 4,618 URLs were rewritten at every deploy.
+
+**The bitter part.** This is exactly what v1.37.0 ("Accurate 'Last modified' date") was written to
+fix; its own config comment says `"git"` prevents generated `.md` showing *"identical 'Last
+updated' everywhere (the bug that got ContentMeta removed in v1.36.1)"*. The comment described the
+intent correctly and the code never once did it. It also poisoned a gate:
+`check_seo_parity.py` sentinels five date fields as `VOLATILE` after 28 phantom regressions on an
+untouched tree, blaming "git/filesystem mtime". Half that reasoning was this bug. The sentinels
+stay — the content bot commits daily, so git dates move legitimately — but the reason is now honest.
+
+**Fix.** Derive the pathspec from `repo.workdir()`, not from `argv.directory`: the workdir is where
+libgit2 actually rooted the repo, the only frame its pathspecs resolve in, and it stays correct for
+the submodule/subtree case `Repository.discover()`'s own comment is about. Verified by driving the
+real transformer over real content: `Mount/Top` → `2026-07-16T00:20:13.000Z` and `Game Over.md` →
+`2026-08-09T19:10:27.000Z`, both matching `git log -1` exactly, zero warnings. Two repairs in the
+same block: the per-file warning is capped at 5 then counted (with the path correct the only
+remaining cause is an uncommitted note — normal, and not worth 4,618 lines), and a bare repo now
+says so **once**, loudly, instead of silently re-entering the old failure via the `?? fp` fallback.
+
+**Gated by `tests/lastmod_git_path.test.mjs`**, which builds a throwaway repo shaped like this one
+and drives the real `getFileLatestModifiedDate` — throwaway because CI checks out at
+`fetch-depth: 2`, so asserting real dates would test the clone depth, not the fix. It also pins the
+call site, the half that kills the revert mutant (verified red). **Non-kills, recorded in the
+spec's header:** a root `node --test` runner cannot import a `.ts` plugin without a transpile step,
+so the transformer's own control flow (warning cap, bare-repo warning) is NOT executed here, and a
+mutant hard-coding a correct path instead of calling `repo.workdir()` survives both halves.
+`ci-validate.yml` gained the file in its `paths:` filter, for the reason the line above it gives.
+## v1.149.0 — THE FORMAT LADDER REACHES THE JIT DRILL
+
+The in-sheet micro-drill was the last question surface in the app that only ever asked one way:
+reveal → "Got it", whatever the player already knew. It now asks through `askFormat`.
+
+**WHICH LADDER, AND WHY IT MATTERS.** There are two format rules here and they are not
+interchangeable. The landing and defend cards ask against a running clock and use the RANK gate
+(`_recallInPlayNow` — recall only from blue belt up, v1.133.0, owner's call). The node card uses
+`askFormat` — pure stage ladder, no belt. The JIT joins the NODE CARD: `expandOption` pauses
+motion and calls `_declineLandQ`, so the sheet has no clock at all. Wiring the rank gate in here
+would have asked a white belt to recall in the one place the owner deliberately put no clock —
+which is exactly the mistake an abandoned branch (`journey/defend-wt`, v1.91.0) was about to make
+by collapsing both rules into "ONE seam". That branch is superseded; this is the one piece of it
+dev genuinely lacked.
+
+**TWO N-WAY CHAINS COLLAPSED BEFORE ADDING THE FOURTH CASE (§6.5).** `_mcBlock` picked its rng
+scope with `surface === "land" || surface === "node" || surface === "panic"` and its option
+handle with a parallel 4-way ternary, while `_mcAnswer` re-stated the same set as a 4-selector
+union. A new surface had to be added to all three or it built fine and then graded nothing — and
+if it missed the rng branch it silently drew on the bare `mc-*` stream that every sidebar journey
+rigs by name. Both are now one rule: **every surface but the sidebar deck is scoped**, and
+`_mcOptAttr(surface)` derives the handle. The JIT needed no new branch anywhere.
+
+**THE KEYBOARD IS A SINGLE SLOT.** `this._mc` is what A-D grades against and the newest block
+owns it, so the drill takes the keys from a landing question that outlives it. `_clearNodeQ`
+already solved this for the dossier; the body is now `_handBackMc(fromSurface)` and the option
+sheet's one `_detailCtx` writer calls it on the way out. The landing block is handed back only
+while still askable — `_declineLandQ` stamps `answered` when the sheet opens, and a declined
+question must never be re-graded.
+
+**CREDIT COUNTS ONCE.** `_mcAnswer` already carries stage, prep, sharpness, the SRS clock and the
+daily counter, so the drill's own `banked()` carries the odds pump and the beacon handoff and no
+credit at all. The recall rung still grades itself (no `_mcAnswer` ran). A wrong answer pumps
+nothing and offers `[data-jit-next]`: the sidebar auto-advances and the panic drill deliberately
+does not (there, being wrong costs you the escape window), but this sheet is paused and a read
+answer should not strand the drill.
+
+**MUTATION TABLE** (built bundle, `e2e/journeys/jit-format.spec.ts`, all KILLED): always-recall ·
+always-MC · the `jit` rng scope dropped · a wrong answer pumps · `banked()` re-credits prep ·
+`_handBackMc("jit")` dropped. NON-KILLS recorded in the spec header: the cold-pool fallback is
+unreachable under the harness (monolith payload ⇒ `mcPoolWarm` is unconditionally true), so
+`_jitWarmTried` ships checked by hand only.
+
+**THE HAND-BACK'S FIRST CUT BROKE THE KEYBOARD, AND ITS OWN SPEC DID NOT NOTICE.** `_handBackMc`
+was extracted from `_clearNodeQ` verbatim, guard included: refuse the hand-back when
+`_landQ.answered`. That guard is correct for the DOSSIER, which never declines — there `answered`
+means the player answered. The option sheet calls `_declineLandQ("sheet")` on the way IN, so
+`answered` is true on every close and the guard fired every time, nulling `this._mc` where before
+the change it had simply survived. Strictly worse than the do-nothing it replaced: A-D stopped
+answering the landing question after Esc. Caught by `keyboard.spec.ts` and `option-edge.spec.ts`,
+NOT by the new spec's own journey 5 — which asserts only that the keys stopped pointing at "jit",
+and nulling satisfies that too. **An assertion weaker than its claim passes the build that breaks
+the claim** (§6.3). The hole and its mutant (M7) are now recorded in that spec's header, and the
+guard takes an explicit `declinedOnEntry` because the two callers genuinely differ. Handing back is
+safe regardless: the landing block's own `answer()` refuses to re-grade once `answered || spent`.
+
+**THE SIX ECONOMY SPECS WERE NOT REWRITTEN.** `jit-loop`, `guidance-defense`, `stakes-impact` and
+four gen specs each clicked `[data-jit-reveal]` then `[data-jit-got]` on a fresh deck — all nine
+call sites would have gone red. Not one of them is about the format; they are about the odds pump,
+the lesson-done math and the refund budget. So the format moved into the DSL as `jitGrade()`,
+which answers whichever rung is on screen and reads the correct option from `__neural._mc` rather
+than re-deriving it (a spec-side grader would agree with a broken build by construction, §6.3).
+
+**A STALE WORKTREE PAYLOAD LOOKS EXACTLY LIKE A BROKEN CHANGE.** First run of the three affected
+core specs: 12 red, including tests that never touch the JIT. Stashing the change reproduced all
+12 on clean `origin/dev` — `source/public` in the worktree had been built on the v1.91.0 branch,
+so `graph-data.json` did not match the bundle and node lookups returned undefined
+(`TypeError: reading 'ty'`). `npm run dev:neural:app` refreshes only the bundle; the payload needs
+`dev:neural`. Baseline before you debug.
+
+---
+
+## v1.149.3 — THE CATALOG'S CHECKPOINT WAS A MODAL PRODUCTION HAS NEVER HAD
+
+**How it surfaced.** A stale feature branch (`journey/catalogx-wt`, v1.88.0, fifty-five versions
+behind) was audited before rebasing. Four of its five changes were superseded; the fifth,
+"checkpoint un-hard-code", was superseded in *mechanism* — dev had since added the
+`options.checkpoint` passthrough — but the branch was **right about production** and dev's
+replacement was not. The branch was dropped; this is the finding that survived it.
+
+**Three things disagreed with production at once.**
+
+| | catalog said | production does |
+|---|---|---|
+| surface | centred `role="dialog"` modal | the ONE left pane, in study takeover |
+| header | `BLUE BELT CHECKPOINT · 4/8` | `setDrillHeader("Checkpoint", "<i> of <n> · <unit name>")` |
+| selector | `[data-checkpoint]` | **0 matches in `app.src.jsx`** |
+
+`_checkpointShow()` sets `drillEntries`, calls
+`setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " · " + cp.unit.name)`, then
+`renderDrill(); deckOpen = true; applyDeckVisibility()`. `_paneStudyActive()` counts `_checkpoint`
+alongside a deck and a session. There is no dialog anywhere in it. A checkpoint also belongs to one
+**unit** of one belt and is asked card by card, so a belt-level `4/8` tally is not a rounding of the
+truth — it is a different quantity.
+
+**The catalog's own registry already knew.** `sequence-registry.js` has said for versions that
+"a live deck, session or checkpoint hides the nav entirely and stamps the pane
+`data-pane-study`", and `components-pane.js`'s `studyBody` header says "A live deck/session/**
+checkpoint** hides the tab bar". The prose described the pane; the renderer drew a modal.
+
+**The decision, and what settled it.** Owner: */dev is an internal-only surface, never shown or
+linked to end users.* That collapses the trade-off — the ceremonial-modal reading only had a case
+while somebody might see it, and a dev catalog's one job is fidelity to production. So: match
+production, and delete the modal framing outright rather than keeping it beside the truth.
+
+**Two adjacent inaccuracies fell out of doing it properly.** `questionBlock` hard-coded
+`data-land-mc-opt` and annotated itself `[data-land-q]` — the LANDING card's handles — while being
+reused inside `flashcard`'s multiple-choice mode, i.e. inside the pane. Production is explicit that
+this is wrong: `_mcOptAttr(surface)` returns the bare `data-mc-opt` for the sidebar deck (which the
+checkpoint rides) and `data-<surface>-mc-opt` for everything else, precisely "because the landing
+card and an open sidebar card are on screen at the same time, so a bare `[data-mc-opt]` selector
+would silently match both". `questionBlock` now takes a `surface`, defaulting to `landing` so every
+existing caller is byte-identical. And that same MC path printed the question **twice** — once as
+`.flashcard-question`, once as `questionBlock`'s own `<p>` — where production prints it once;
+`showPrompt: false` at the one call site that already has a prompt above it.
+
+**What did NOT change, deliberately.** The in-card `deckIdx + 1 / deck.length` counter stays: it
+looks like a duplicate of the header's "2 of 6" and is not. Production shows both, because the
+header counts the checkpoint's picks while the card counts position within the full deck the pick
+came from — `drillEntries = [e]` is the whole deck, presented at one card. And
+`.pane-study-head` gained only `flex-wrap` plus a `.pane-study-sub` rule; the sub-less study states
+emit no `<small>` at all, so they render identically.
+
+**Gates.** `validate:forward` 38 use cases / 19 journeys / 114 screens / 60 components, and the
+browser half — `e2e/journeys/forward-components.spec.ts` on :8131 — 16/16. Neither is a *parity*
+gate: `check_forward_catalog.mjs` only proves every frame renders non-empty without a throw, and
+**nothing in the repo reads `data-production-selector` at all** — it is documentary markup for a
+human reading the DOM. So this commit makes the annotation true; it does not make it enforced, and
+§6.8's standing warning that the Forward catalog is a design mock with no parity gate is unchanged.
+Verified by rendering all three states directly: 3 MC options, `data-mc-opt` and zero
+`data-land-mc-opt`, the prompt printed once, `modal-layer` absent, and `data-mc-result` reading
+`correct` / `trap` / absent across correct, wrong and question.
+---
+
+## v1.151.0 — "IN THIS SYSTEM" MEANS FROM THE PLACES THE SYSTEM TEACHES
+
+Owner's report, near verbatim: clicking a system shows "in this system" with one calf slicer
+*"being applied from every fucking place"*, omoplata *"from a lot of techniques too. It seems odd
+that if a submission is in the system, then we get all variants of it. Maybe it should be more
+specific, or this system should be improved."*
+
+**Not `process_systems`.** The first suspect (`scripts/regenerate_graph.py:974`) resolves each
+ref to exactly ONE node and expands nothing — graph.json's `systems[].members` totals 1,111,
+median 24, **max 30**. The bloat is downstream, in `regenerate_neural_data._node_indexes`, whose
+`variant`/`children` layers exist precisely *because* a submission family hub is not a graph node:
+**0 of 297 families appear in globalGraphLayout.json**, so `Submissions/Calf-Slicer` cannot be lit
+and the emitter expanded the family name to every real `from X` finish instead.
+
+**Measured before the fix:** family expansion contributed **909 of 1,711 member nodes (53%)** from
+**109 refs**, and *every one of the 109 was a Submissions ref* — no position-children expansion
+occurs anywhere in the corpus. Median members per system 32, **max 114** (Submission Clinic System).
+The owner's exact case: the 10th Planet No-Gi Guard System teaches Truck and Twister Control and was
+lighting **all eleven** calf slicers — from 50-50, Backside 50-50, Carni, Honey Hole, Inside
+Sankaku, Rodeo Ride, Russian Cowboy, Saddle and Twister Side Control as well.
+
+**Three candidate rules, measured against the real corpus.** (a) *reference the family node once* is
+**not implementable**: there is no family node to reference — it would light nothing. (c) *explicit
+refs only* cuts to 703 (median 15) but throws the signal out with the noise — 10th Planet loses
+`Calf Slicer from Truck`, which is exactly what that system teaches. (b) **an instance belongs only
+if the system also teaches the position it is thrown from** — 1,711 → **952**, median 32 → **19**,
+max 114 → **57**, and on the owner's case it yields precisely `from Truck` + `from Twister Control`.
+Rule (b) shipped, in one sentence: *"in this system" means the moves this system teaches, from the
+places it teaches them.*
+
+**ONE implementation, two consumers.** `_anchor_family(candidates, taught, byid)` is the only
+site; `build_systems` became two passes (resolve every ref, then anchor the families against the
+positions pass 1 proved the system teaches) because the rule needs the whole system before it can
+judge any part of it. Both surfaces already read the emitted `nodes` through `app.src.jsx
+systemNodeIdxs()` — `renderSystemDetail` (the side panel and its "In this system" kicker) and
+`openSystem → setFocusIdxSet` (the light-up) — so narrowing the payload narrows both and they
+cannot drift. **No app change was needed, and that is the point.** An explicitly authored instance
+(`Kimura from Half Guard`) is never narrowed; `_resolve_member` now returns `(nodes, was_family)`
+so "the author named a family" is data, not re-inferred from a node count.
+
+**The §6.6 half.** A family ref that anchors nothing is neither expanded nor silently dropped: it
+lands in the system's new `unanchored` list, `_meta.unanchored`, and the emitter's every-run print.
+**31 refs across the corpus**, and each is a genuine CONTENT gap, not a rule failure — Craig Jones
+Leg Lock System names `Inside Heel Hook` while teaching Saddle, but the finishes are authored from
+**Honey Hole / Inside Sankaku / Ushiro Ashi Garami**, which are separate position nodes here and the
+same position to most readers; Submission Clinic System names `Omoplata` but teaches no guard any
+omoplata is authored from. **No system lost its submissions entirely** — 11 systems had zero
+submission members before and the same 11 after.
+
+**Gated in `check_systems_payload.py` (check 9), which both deploys already run.** `glue[].fam`
+marks an expanded ref and how many instances it offered, so the gate SEES the rule instead of
+inferring it — a family narrowed to one node is otherwise indistinguishable from a direct ref.
+Coverage floor `FAM_REF_FLOOR = 70` (measured 97), because a matcher that matches nothing reads
+exactly like a pass. `MIN_MEMBER_NODES` 1600 → 880, `UNANCHORED_CEILING = 31`, with recompute
+commands.
+
+**Mutation-proved, four mutants, all killed:** anchoring disabled (the pre-fix behaviour) → 104
+violations naming the calf slicer by node; `fam` dropped → coverage falls to 63 and the floor
+fires; anchor predicate always true → red; `taught` widened to every position → red. Control
+re-runs green; `validate:seats`, `:occurrence`, `:json`, `:graph`, `:curriculum`, `:mc`,
+`:score-coverage` all pass. `e2e/journeys/systems-surface.spec.ts` needed no edit — it picks the
+widest system *from the payload* and asserts the lit set equals the published members, so it is
+member-count-relative by construction.
+
+**For the owner:** the rule answers "more specific"; the 31 `unanchored` refs are the "this system
+should be improved" half, and the highest-value one is that **Saddle and Honey Hole are separate
+position nodes** — adding Honey Hole to the leg-lock systems' `related_content` would re-anchor
+several heel hooks at once.
+## v1.151.1 — one flick, one tab: a latch is not a cooldown
+
+The pane's tab pager shipped in v1.147.0 with a `wheel` accumulator guarded by
+`now - wCool >= 350`. Owner, on the rightmost tab: *"I swipe to go left — I want the MIDDLE tab.
+What it does instead is circle through — I'm passing through the middle tab but never landing on
+it."*
+
+**A cooldown rate-limits a stream; it never ENDS a gesture.** A trackpad flick is not one event —
+macOS delivers ~55 `wheel` events at ~60Hz with the delta decaying, most of them the momentum tail
+that arrives *after* the fingers have lifted. `wAcc` went on filling for the whole 350ms the
+cooldown ran (it was zeroed only inside the fire branch), so the instant the cooldown lapsed the
+same physical flick tripped the 60px threshold again. Measured on the built bundle, one flick off
+`history`: **two `pane_tab_paged` beats, `history → challenges → explore`.**
+
+`_paneTabPageTo`'s clamp was never at fault and was never bypassed — it clamped correctly on each
+of those steps, which is exactly why the symptom reads as "circling" rather than "wrapping" and why
+the v1.147.0 clamp mutant (M3) stayed killed throughout.
+
+The fix is a **latch, not a timer**: the stream itself is the gesture, so the gesture ends where the
+stream goes idle — the same 300ms gap the accumulator already reset on, one rule instead of two
+numbers. `wLast = now` is written BEFORE the latch check on purpose: idle has to be measured from
+the last event of the flick, tail included, or the tail's own thinning silence unlatches mid-gesture.
+A deliberate second flick clears the latch by arriving after the gap; a momentum tail never does.
+Net −1 tuning constant (`wCool`, 350ms) and −1 branch condition.
+
+The touch path was never affected and was not touched: a drag has an explicit end (`touchend`),
+so it was always exactly one step. What made this hard to see from the suite is that
+`pane-tab-swipe.spec.ts` dispatched its wheel case — where it had one — as a single large delta,
+which no OS produces. Journey 7 dispatches the real burst, and the three re-break mutants (the
+cooldown restored, the latch never cleared, `wLast` moved below the latch check) are all KILLED.
+
+**Left standing, deliberately, and recorded in the spec header rather than fixed silently:** the
+landing card's own wheel pager (`_landPageTo`, `app.src.jsx`) still carries the v1.147.0 cooldown
+shape. Different pager, over an unbounded card deck rather than a three-item nav, with no journey
+covering its wheel path — a separate change with its own spec, not a drive-by.
+
+Files: `neural/src/app.src.jsx` (the pane's wheel handler), `e2e/journeys/pane-tab-swipe.spec.ts`
+(journey 7 + M8-M10 + the two blind spots), `docs/Neural.md`.
+
+
+---
+
+## v1.154.0 — THE RECALL BLOCK CAN GO BACK
+
+`Hide` re-conceals a revealed answer; Space toggles the live block (`this._recall`, as `_mc`
+carries A/B/C). Salvaged from `journey/defend-wt` — the only pieces of it dev lacked. Reasoning
+sits at both code sites and in `recall-hide.spec.ts`, one mutant recorded EQUIVALENT, not papered
+over.
+
+**A STALE GENERATED PAYLOAD FAILED TWO GATES THAT WERE NOT BROKEN.** `test:units` came back 4-red
+and `check_claudemd_refs` flagged `concepts.json`. Both were this worktree's wire predating
+v1.153.0; both files are gitignored emitter output, and `dev:neural` cleared them. **Stashing
+reproduced the failures and would have "proved" they were dev's** — right baseline, wrong
+diagnosis. Regenerate before you attribute.
+
+**DO NOT BASELINE BY STASHING.** Two long runs were killed mid-flight, the second before its
+`git stash pop`, leaving the whole change stashed. Swap the served bundle; leave the tree alone.
+
+**`wc -c` IS BYTES, THIS GATE COUNTS CHARS.** 483,328 bytes of archive is 478,705 chars. That
+4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.

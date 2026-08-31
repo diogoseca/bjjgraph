@@ -295,13 +295,13 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
 
-- **[[Americana from Kimura Trap/Attacker|Americana from Kimura Trap]]** (7% of attempts)
+- **[[Submissions/Americana/from Kimura Trap/Attacker|Americana from Kimura Trap]]** (7% of attempts)
 
 - **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (7% of attempts)
 
 - **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (6% of attempts)
 
-- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (19% of attempts)
+- **[[Submissions/Kimura/from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (19% of attempts)
 
 
 ### Common Mistakes

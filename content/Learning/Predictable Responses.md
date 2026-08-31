@@ -228,15 +228,15 @@ A: The window created by a defensive reaction is momentary. The opponent's body 
 <section id="related" class="content-section">
 
 ## Related
-- [[Action and Reaction]] (Principle) - The core physical principle underlying all predictable response exploitation
-- [[Kuzushi]] (Principle) - Off-balancing relies on exploiting postural reactions to create throwing and sweeping opportunities
-- [[Fork Attacks]] (Principle) - Fork attacks work because defending one option creates the predictable opening for the other
-- [[Distance Control]] (Principle) - Controlling distance provokes predictable reactions as opponents try to close or create space
-- [[Technique Chaining]] (Learning) - Chains are built on predictable responses -- each defense triggers the next attack in the sequence
-- [[Funneling]] (Learning) - Funneling forces increasingly predictable responses by narrowing available options
-- [[Mask Your Intentions]] (Learning) - Disguising the real attack ensures the opponent commits to the defensive reaction you want to provoke
-- [[Mount]] (Position) - Mount is the classic position for exploiting choke-armbar action-reaction cycles
-- [[Closed Guard]] (Position) - Closed guard sweeps heavily rely on push-pull predictable responses
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - The core physical principle underlying all predictable response exploitation
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing relies on exploiting postural reactions to create throwing and sweeping opportunities
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Fork attacks work because defending one option creates the predictable opening for the other
+- [[Principles/Distance Control|Distance Control]] (Principle) - Controlling distance provokes predictable reactions as opponents try to close or create space
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Chains are built on predictable responses -- each defense triggers the next attack in the sequence
+- [[Learning/Funneling|Funneling]] (Learning) - Funneling forces increasingly predictable responses by narrowing available options
+- [[Learning/Mask Your Intentions|Mask Your Intentions]] (Learning) - Disguising the real attack ensures the opponent commits to the defensive reaction you want to provoke
+- [[Positions/Mount|Mount]] (Position) - Mount is the classic position for exploiting choke-armbar action-reaction cycles
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard sweeps heavily rely on push-pull predictable responses
 
 
 

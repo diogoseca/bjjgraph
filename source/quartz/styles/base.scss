@@ -320,7 +320,17 @@ a {
   border-top: 1px solid var(--lightgray);
 }
 
-input[type="checkbox"] {
+// Markdown task-list checkboxes. SCOPED to the article deliberately (v1.146.1): the
+// `margin-inline-start: -1.4rem` below exists ONLY to hang a task-list checkbox out in the
+// list gutter, next to the `li:has(> input[type="checkbox"])` rules above. As a BARE GLOBAL it
+// leaked onto every checkbox on the page, and the Neural app's is not in a list gutter: the
+// feedback modal ("Request a technique" / "Report an issue") portals to the app root, outside
+// `.page article`, and its "about: <state>" checkbox drew at x=418.6 while its own label box
+// started at x=441 and the card's padding edge at x=421 — 22.4px left of the label and hanging
+// outside the card. `appearance: none` + `var(--light)` also made the app's `accent-color`
+// inert. Anything outside the article now gets a native checkbox, which is what it wants.
+// Do NOT un-scope this: the app is an overlay on this stylesheet and cannot opt out of a global.
+.page article input[type="checkbox"] {
   transform: translateY(2px);
   color: var(--secondary);
   border: 1px solid var(--lightgray);

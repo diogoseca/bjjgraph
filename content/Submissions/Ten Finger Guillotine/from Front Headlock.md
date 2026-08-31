@@ -330,11 +330,13 @@ Strategically, this submission sits at the intersection of front headlock contro
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Guillotine Choke]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Positions/Guillotine Control]] - Intermediate control position established during grip transition from front headlock
 - [[Positions/Front Headlock]] - Starting control position before establishing guillotine grip and ten finger configuration
 - [[Positions/Closed Guard]] - Common consolidation position used to amplify finishing pressure
 - [[Positions/Darce Control]] - Alternative submission path when opponent turns away from guillotine
 - [[Positions/Anaconda Control]] - Alternative submission path when opponent turns into guillotine
+- [[Submissions/Von Flue Choke/from Side Control]] - Counter-submission opponent may attempt if attacker holds guillotine too long from bottom
 
 </section>
 

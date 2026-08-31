@@ -304,7 +304,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Submissions/Neck Crank/from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**
@@ -430,7 +430,7 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 - **[[Positions/Mount]]** - Transition target—common progression when opponent defends crucifix
 - **[[Positions/Gift Wrap]]** - Similar control concept—arm trapping from top position
 - **[[Submissions/Choke from Crucifix]]** - Primary submission—highest percentage attack from this position
-- **[[Transitions/Armbar from Crucifix]]** - Alternative submission—secondary attack when choke is defended
+- **[[Submissions/Armbar/from Crucifix]]** - Alternative submission—secondary attack when choke is defended
 - **[[Transitions/Back Control to Crucifix]]** - Entry transition—technical path to establish position
 - **[[Transitions/Crucifix from Turtle]]** - Entry transition—alternative path to establish position
 - **[[Positions/Mount/Mounted Crucifix]]** - Related variant—combines mount pressure with arm trapping

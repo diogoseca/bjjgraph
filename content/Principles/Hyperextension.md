@@ -436,19 +436,19 @@ Practice applying armbars from every available position in a single drilling ses
 
 
 ### Related Content
-- [[Armbar from Armbar Control]] (Submission) - The most fundamental hyperextension submission, applying hip pressure against the elbow to force it past its natural extension
-- [[Achilles Lock]] (Submission) - Straight ankle lock that hyperextends the ankle joint using forearm pressure against the Achilles tendon area
-- [[Levers]] (Principle) - Hyperextension submissions are direct applications of lever mechanics, with the hip as fulcrum, the limb as lever, and grip as the force application point
-- [[Submission Defense]] (Principle) - Hyperextension defense includes grip fighting, hitchhiker escapes, stacking, and early tap protocols specific to joint lock submissions
-- [[Submission Chains]] (Principle) - Hyperextension submissions are common chain elements where defense opens transitions to chokes, sweeps, and other joint locks
-- [[Armbar Control]] (Position) - The control position from which the standard armbar hyperextension is applied
-- [[Kneebar Control]] (Position) - The control position from which kneebar hyperextension is applied to the knee joint
-- [[Straight Ankle Lock Control]] (Position) - The control position from which straight ankle lock hyperextension is applied to the ankle complex
-- [[Mount]] (Position) - Primary entry position for the armbar, the most common hyperextension submission in BJJ
-- [[Closed Guard]] (Position) - Classic position for armbar entries from bottom, one of the first hyperextension submissions taught to beginners
-- [[Ashi Garami]] (Position) - Leg entanglement system that provides control platforms for kneebar and straight ankle lock hyperextension attacks
-- [[Grips]] (Principle) - Wrist and ankle grips provide the distal control essential for maintaining limb isolation during hyperextension submissions
-- [[Triangle Control]] (Position) - Triangle defense commonly opens armbar transitions, making triangle and armbar the most common chain pair using hyperextension mechanics
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - The most fundamental hyperextension submission, applying hip pressure against the elbow to force it past its natural extension
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) - Straight ankle lock that hyperextends the ankle joint using forearm pressure against the Achilles tendon area
+- [[Principles/Levers|Levers]] (Principle) - Hyperextension submissions are direct applications of lever mechanics, with the hip as fulcrum, the limb as lever, and grip as the force application point
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Hyperextension defense includes grip fighting, hitchhiker escapes, stacking, and early tap protocols specific to joint lock submissions
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Hyperextension submissions are common chain elements where defense opens transitions to chokes, sweeps, and other joint locks
+- [[Positions/Armbar Control|Armbar Control]] (Position) - The control position from which the standard armbar hyperextension is applied
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) - The control position from which kneebar hyperextension is applied to the knee joint
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) - The control position from which straight ankle lock hyperextension is applied to the ankle complex
+- [[Positions/Mount|Mount]] (Position) - Primary entry position for the armbar, the most common hyperextension submission in BJJ
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classic position for armbar entries from bottom, one of the first hyperextension submissions taught to beginners
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Leg entanglement system that provides control platforms for kneebar and straight ankle lock hyperextension attacks
+- [[Principles/Grips|Grips]] (Principle) - Wrist and ankle grips provide the distal control essential for maintaining limb isolation during hyperextension submissions
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Triangle defense commonly opens armbar transitions, making triangle and armbar the most common chain pair using hyperextension mechanics
 
 
 </section>

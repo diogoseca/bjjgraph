@@ -27,6 +27,12 @@ generated+committed static asset):
     derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
     question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
     cross-deck credit does not depend on which chunks have landed.
+  - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
+    concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
+    and the graph highlight need. Each concept's READABLE BODY (overview, points, contexts,
+    errors, drills, plus glue and related) is a dossier in the content/ chunk space above,
+    addressed by `key` = "<Name>|<Principle|Learning>", so the app reads it through the same
+    _ngc() cache as a node dossier. Deferred: nothing on the roll path fetches it.
   - systems.json : the 47 expert Systems as the app's library + graph-highlight source
     ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
     `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
@@ -38,6 +44,7 @@ Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `rege
 Read-only w.r.t. all existing content/graph.
 """
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -53,6 +60,39 @@ OUT_DIR = ROOT / "source/quartz/static/neural"
 
 SECTION_TY = {"positions": "positions", "transitions": "transitions", "submissions": "submissions"}
 SECTION_CAT = {"positions": "Position", "transitions": "Transition", "submissions": "Submission"}
+
+# ── JOIN STRICTNESS ────────────────────────────────────────────────────────────────────────────
+# The join checks below REPORT by default and raise only under BJJ_JOIN_STRICT=1. Nothing wires
+# that variable up yet, deliberately.
+#
+# They are written as gates and mutation-proven as gates: every one has been watched to fail on a
+# deliberate break. What holds them at exit 0 is not doubt about the checks, it is that the defect
+# they found is real and UNFIXED — 10 deck keys and 5 dossier keys collide today — and the fix is a
+# per-key content ruling (rename / drop / add a dealt edge) that changes what a player is dealt.
+# Failing the build before that ruling lands would turn CI red on every branch in the repo for a
+# decision none of those branches can make.
+#
+# So this ships as MEASUREMENT: the loss is named, counted and printed on every run, which is the
+# thing that was missing when 90 cards went silently missing. Flip the variable in the same commit
+# that lands the content ruling, and delete this block when it is on by default.
+JOIN_STRICT = os.environ.get("BJJ_JOIN_STRICT") == "1"
+
+
+def _join_report(errs: list, what: str) -> None:
+    """Raise under BJJ_JOIN_STRICT=1, otherwise print the same finding and carry on.
+
+    The wording differs between the two modes on purpose: under report-only the emitter did NOT
+    refuse anything, and a log line claiming it did would be the third false-authority note this
+    week."""
+    if not errs:
+        return
+    head = (f"[neural] {what} REFUSING TO EMIT" if JOIN_STRICT else
+            f"[neural] {what} REPORT-ONLY, emitting anyway (set BJJ_JOIN_STRICT=1 to fail)")
+    body = head + ":\n    " + "\n    ".join(errs)
+    if JOIN_STRICT:
+        raise SystemExit(body)
+    print(body)
+
 
 
 def _slug_from_id(node_id: str) -> str:
@@ -80,6 +120,133 @@ def load_ordinals() -> dict:
     return ords
 
 
+def _frame_attempt(t, frame: str):
+    """This position edge's attempt probability in `frame`, or None if it carries no number.
+
+    THE ONE PLACE THE {gi, nogi} PAIR IS READ. `attemptProbability` is the folded NO-GI scalar and
+    `attemptProbabilityByRuleset` is the pair, on the same dict on every edge. Reading the scalar
+    where the frame is known is a defect this function exists to make unspellable — see
+    `_frame_positive`, and `scripts/validate_score_coverage.py` for the one that is still open.
+    """
+    apr = t.get("attemptProbabilityByRuleset")
+    v = apr.get(frame) if isinstance(apr, dict) else t.get("attemptProbability")
+    return v if isinstance(v, (int, float)) else None
+
+
+def _frame_positive(t, frame: str) -> bool:
+    """True if this position edge is attempted in `frame` (attemptProbability > 0).
+
+    MODULE SCOPE ON PURPOSE. Two readers ask this question now — `tech_avail` below (which drives
+    the app's `giAllows`) and `validate_score_coverage.frame_avail_by_deck` (which sizes what the
+    score can see). When one question is answered in two places one of them is already wrong.
+    """
+    v = _frame_attempt(t, frame)
+    return v is not None and v > 0
+
+
+# The two seats a real roll begins from. `frame_reachable` walks OUT from here; anything the walk
+# never touches is a state that ruleset cannot produce.
+ROLL_SEEDS = ("standing-position/top", "standing-position/bottom")
+
+# WHICH FRAMES THE WALK IS ALLOWED TO EMPTY, and why this is not simply both.
+#
+# The walk answers "can a session in F arrive here". It is honest in both columns, but the two
+# columns mean different things, because the per-frame zeros they stand on were written for
+# different reasons:
+#
+#   no-gi — EQUIPMENT. All 104 techniques and 18 role-nodes it isolates trace to cloth: a lapel
+#           threaded through a leg, four fingers inside a collar. No garment, no state. Absence is
+#           the only honest rendering.
+#   gi    — LEGALITY. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed because
+#           IBJJF bans them, and several of their own `availability_rulings` say so conditionally
+#           ("sub-only/ADCC-gi voices keep a floor of 1"). That is a choice about which gi ruleset
+#           the app models, not a fact about a jacket — and the owner's scope for this feature was
+#           explicit: gear vs no gear, exclusion applies to the IMPOSSIBLE class, heel-hooks-in-gi
+#           are RESTRICTED and are not to be touched.
+#
+# IT IS ALSO NOT SAFE TODAY, which is how the distinction got measured rather than argued.
+# `backside-50-50/bottom` has exactly ONE gi move that survives `optionsFor`'s role AND origin
+# filters, and it is `Heel Hook from Backside 50-50`. Excluding it empties the main pass, and the
+# hand falls through to the ORIGIN-RELAXED fallback — five cards from other origins carrying no
+# `ord` and no `ordOdds`, i.e. an unranked hand with no EDGE. graph.json cannot see this coming:
+# its per-frame sums say the state still has live moves, because they do not apply role or origin.
+#
+# So the gi column is REPORTED by `frame_reachable`, ledgered by `validate:availability`, and NOT
+# excluded. Adding "gi" here is a one-token change and a product decision, not a cleanup.
+EXCLUDING_FRAMES = ("nogi",)
+
+
+def frame_reachable(graph: dict, frame: str) -> dict:
+    """Every position role-node and technique a session in `frame` can ACTUALLY ARRIVE AT.
+
+    THE QUESTION THIS REPLACED WAS THE WRONG ONE. `tech_avail` used to ask "does any position
+    offer this move with attemptProbability[frame] > 0", which is a question about one edge. It
+    cannot see the case that matters: a technique whose only origin is a position that ruleset
+    cannot produce. Worm Guard/Bottom deals a full no-gi hand (X-Guard Sweep 33, Omoplata 21) —
+    honest numbers CONDITIONAL on standing in worm guard, which requires threading the opponent's
+    lapel through their own legs. Every no-gi entry into it is 0, so the condition never holds.
+    The old question answered "available"; the walk answers "unreachable", and the second is the
+    one the player experiences.
+
+    MEASURED at the switch (`graph.json` at v1.148.0, walked from ROLL_SEEDS):
+
+        frame   unreachable techniques   unreachable position role-nodes
+        gi                          21                                 0
+        nogi                       104                                18
+
+    The 18 are Lapel / Worm / Squid / Ringworm / Piranha / Lasso / Collar-Sleeve / Inverted-Lasso
+    / Russian-Leg-Lasso guard, both seats — nine cloth-defined guards, each independently carrying
+    an explicit garment requirement in its own authored `prerequisites`. NOTHING HERE READS A NAME
+    (ruling P3a): the panel refuted the name regex in advance on `collar-sleeve-guard__bottom`
+    ("consumers keying availability off the move name would wrongly zero it"), and a name sweep
+    flags `Rear Naked Choke from Invisible Collar` — the canonical no-gi choke — because the
+    POSITION contains "Collar". The walk reads edges.
+
+    The gi column is NOT equipment. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed
+    by the calibration for IBJJF LEGALITY, and several of their own rulings say the ban is
+    ruleset-dependent ("sub-only/ADCC-gi voices keep a floor of 1"). They are reported by the same
+    mechanism because the mechanism is about edges, not about why an edge is zero; whether gi mode
+    should hide them is a ruleset-policy choice, not a fact about a garment.
+
+    Cost: two BFS passes over ~1.5k nodes at build time, ~10ms. Not memoised on purpose — it is
+    called twice, once per frame.
+    """
+    positions = graph.get("positions", {})
+    out = {}
+    for key, node in positions.items():
+        if node.get("role") not in ("top", "bottom"):
+            continue
+        dst = out.setdefault(key, set())
+        for t in (node.get("transitions") or []):
+            tgt = t.get("target")
+            if tgt and _frame_positive(t, frame):
+                dst.add("T:" + tgt)
+    for section in ("transitions", "submissions"):
+        for node in graph.get(section, {}).values():
+            hub = node.get("hub")
+            if not hub or node.get("role") == "hub":
+                continue
+            dst = out.setdefault("T:" + hub, set())
+            for o in (node.get("outcomes") or []):
+                to = o.get("to") or ""
+                # `game-over` and bare hubs are not walkable states; only role-nodes carry edges.
+                if to in positions:
+                    dst.add(to)
+
+    seeds = [s for s in ROLL_SEEDS if s in positions]
+    if not seeds:
+        raise SystemExit(f"[regenerate_neural_data] frame_reachable: none of {ROLL_SEEDS} is in "
+                         f"graph.json — the walk would report EVERYTHING unavailable, which is "
+                         f"exactly what a clean run looks like from the outside")
+    seen, stack = set(seeds), list(seeds)
+    while stack:
+        for nxt in out.get(stack.pop(), ()):
+            if nxt not in seen:
+                seen.add(nxt)
+                stack.append(nxt)
+    return {"positions": {k for k in seen if not k.startswith("T:")},
+            "techniques": {k[2:] for k in seen if k.startswith("T:")}}
+
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
@@ -91,25 +258,26 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         for nid, node in graph.get(section, {}).items():
             by_slug[(section, nid)] = node
 
-    def _frame_positive(t, frame):
-        """True if this transition entry is attempted in `frame` (attemptProbability > 0)."""
-        apr = t.get("attemptProbabilityByRuleset")
-        v = apr.get(frame) if isinstance(apr, dict) else t.get("attemptProbability")
-        return isinstance(v, (int, float)) and v > 0
-
-    # per-technique ruleset availability: available in frame F if ANY position offers it with
-    # attemptProbability[F] > 0 (Q3's per-frame-0 policy zeroes ruleset-unavailable moves). Drives
-    # the app's giAllows filter from data instead of a brittle name regex.
+    # per-frame availability, REACHABILITY-CLOSED (v1.153.0). See `frame_reachable` for why
+    # "attempted somewhere" was the wrong question and what the walk costs.
+    walk = {fr: frame_reachable(graph, fr) for fr in ("gi", "nogi")}
+    # A frame the exclusion layer does not act on is admitted WHOLE — see EXCLUDING_FRAMES.
+    reach = {fr: (walk[fr] if fr in EXCLUDING_FRAMES else
+                  {"positions": set(graph.get("positions", {})),
+                   "techniques": {v["hub"] for sec in ("transitions", "submissions")
+                                  for v in graph.get(sec, {}).values() if v.get("hub")}})
+             for fr in ("gi", "nogi")}
     tech_avail = {}
+    for fr in ("gi", "nogi"):
+        for hub in reach[fr]["techniques"]:
+            tech_avail.setdefault(hub, {"gi": False, "nogi": False})[fr] = True
+    # every technique a position offers gets a row even if it is reachable in NEITHER frame, so a
+    # fully-isolated node ships `{gi:false,nogi:false}` rather than no `avail` at all — absent
+    # availability falls through to giAllows' fail-open branch, which is the opposite answer.
     for node in graph.get("positions", {}).values():
         for t in node.get("transitions", []) or []:
-            nm = t.get("technique")
-            if not nm:
-                continue
-            av = tech_avail.setdefault(slugify(nm), {"gi": False, "nogi": False})
-            for fr in ("gi", "nogi"):
-                if _frame_positive(t, fr):
-                    av[fr] = True
+            if t.get("technique"):
+                tech_avail.setdefault(slugify(t["technique"]), {"gi": False, "nogi": False})
 
     def _pos_role(slug: str, role: str):
         """Resolve a graph.json position role-node: nested layout slugs are compound
@@ -173,6 +341,10 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             # The raw per-move table is NOT emitted (it was 336KB and its only app consumer
             # was the ingest edge-weight pass) — `_moves_stash` carries it to the ew pass.
             out = {}
+            # A layout position node is a HUB: it collapses top+bottom, so its `avail` is the OR
+            # over both seats. That is only honest while the two seats agree — a position you can
+            # reach on the bottom but not the top would need a per-role field, and `_avail_split`
+            # below fails the build if one ever appears rather than letting the OR paper over it.
             avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
                 n = _pos_role(slug, role)
@@ -185,10 +357,10 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                         }
                         for t in n["transitions"]
                     ]
-                    for t in n["transitions"]:
-                        for fr in ("gi", "nogi"):
-                            if _frame_positive(t, fr):
-                                avail[fr] = True
+                    key = f"{n.get('hub') or slug.rsplit('/', 1)[-1]}/{role}"
+                    for fr in ("gi", "nogi"):
+                        if key in reach[fr]["positions"]:
+                            avail[fr] = True
             if not out:
                 return {}
             return {"_moves_stash": out, "avail": avail}
@@ -288,6 +460,50 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 f"successRate. graph.json keys techniques by slugify(<display name>); see "
                 f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
             )
+
+    # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
+    # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table
+    # is indistinguishable from "no move is gi-only" — the exact shape of failure this repo has
+    # rediscovered 17 times. Count it, name the seat-split case, and refuse both degenerate ends.
+    _av = {"positions": {"gi": 0, "nogi": 0, "n": 0}, "techniques": {"gi": 0, "nogi": 0, "n": 0}}
+    for nd in nodes:
+        bucket = _av["positions"] if nd["ty"] == "positions" else _av["techniques"]
+        av = (nd.get("cal") or {}).get("avail")
+        if not isinstance(av, dict):
+            continue
+        bucket["n"] += 1
+        for fr in ("gi", "nogi"):
+            if not av.get(fr):
+                bucket[fr] += 1
+    for _k, _b in _av.items():
+        print(f"  availability: {_k} {_b['n']} with a verdict — "
+              f"{_b['gi']} absent in gi, {_b['nogi']} absent in nogi")
+    if _av["techniques"]["n"] == 0:
+        raise SystemExit("[neural] availability: not one technique carries `avail`. The join is "
+                         "broken, and a broken join prints what a clean run prints.")
+    if all(_av["techniques"][fr] == 0 for fr in EXCLUDING_FRAMES):
+        raise SystemExit("[neural] availability: every technique is available in BOTH frames. The "
+                         "corpus has authored ruleset zeros; a table that finds none is a matcher "
+                         "that matched nothing, not a corpus without gi-only moves.")
+
+    # A position's wire node is a HUB — one `avail` for both seats. That is only sound while the
+    # seats agree. They do today (9 cloth guards, 18 role-nodes, always in pairs); if one ever
+    # splits, the OR above would silently re-admit the unreachable seat, so refuse instead.
+    _seats = {}
+    for _key, _node in graph.get("positions", {}).items():
+        if _node.get("role") not in ("top", "bottom") or not _node.get("transitions"):
+            continue
+        _hub = _node.get("hub") or _key.rsplit("/", 1)[0]
+        for fr in ("gi", "nogi"):
+            _seats.setdefault((_hub, fr), set()).add(_key in reach[fr]["positions"])
+    _split = sorted({h for (h, fr), vals in _seats.items() if len(vals) > 1})
+    if _split:
+        raise SystemExit(
+            f"[neural] availability: {len(_split)} position(s) are reachable on one seat and not "
+            f"the other ({_split[:5]}). The wire carries ONE `avail` per position hub, so the OR "
+            f"would re-admit the unreachable seat. Emit a per-role availability field first."
+        )
+    print(f"  availability: {len(_seats) // 2} position hubs, both seats agree in both frames")
 
     # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
     # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:
@@ -727,13 +943,62 @@ def build_flashcards(graph: dict) -> dict:
     """Drill decks keyed '<Name>|<Role>'. Position decks are BLENDED — mostly the node's own
     role cards + ~20% higher-tier (position-level + family-level) cards from flashcardTiers — so a
     single deck teaches the specific state and seasons in the general position/family concepts.
-    Transitions/submissions keep their own attacker/defender cards (no position tiers apply)."""
+    Transitions/submissions keep their own attacker/defender cards (no position tiers apply).
+
+    THE JOIN IS TOTAL, AND A COLLISION IS A BUILD ERROR — NOT A STATISTIC.
+    Every node in the three sections this join reads ends in exactly ONE bucket: a deck, or a NAMED
+    exclusion that is proved non-lossy below. The buckets must sum to the node count; any residue is
+    an unaccounted drop and fails. There is no collision allowlist, because a collision is never
+    benign: `<Name>|<Role>` carries no section term (neither does the app's `deckKeyFor`), so two
+    sections authoring one display name file two DIFFERENT state machines under one id, and the
+    later write leaves with the earlier one's cards.
+
+    v1.144.2 COUNTED that loss and baselined the 10 keys it found; this makes it impossible. Those
+    10 were 5 moves authored as both a transition and a submission — resolved in content/ by
+    renaming the transition side, since the submission's success outcome reaches the sink and the
+    transition's does not, i.e. they are an entry and a finish, not one move written twice.
+    `scripts/validate_graph_integrity.py` catches the same thing a stage earlier, on content/,
+    before a graph exists to collide in.
+
+    WHY THE RE-HOME ASSERTION EARNS ITS LINES. Three exclusion buckets carry authored cards — bare
+    hubs, the terminal, family hubs — and hubs are AGGREGATORS, not owners: every card on them also
+    lives on a role node. That was measured once (21,798 of 21,798) and is now asserted per hub
+    instead of believed, because without it "excluded" and "lost" print identically, which is
+    exactly how the tenth collision hid among 1,531 skips.
+
+    NOT ACCOUNTED FOR AT ALL, AND DELIBERATELY LEFT VISIBLE: `principles` and `systems`. This join
+    has never read them — not since the original data-bridge commit. docs/Content.md instructs
+    authors to write cards "at the flat root for principles/systems" and they did; those cards reach
+    no deck, and deckCat() in neural/src/app.src.jsx has no branch that could render one. No comment,
+    gate or baseline anywhere records a decision to exclude them, so this PRINTS the figure every run
+    rather than exempting it. A gap that stops being visible becomes policy."""
+    SECTIONS = ("positions", "transitions", "submissions")
+    UNREAD = ("principles", "systems")
+    # An exclusion bucket that must never be empty: if its guard stops matching, its nodes flow into
+    # the deck loop and collide en masse, and a zero here would read exactly like "nothing to skip".
+    FLOORS = {"hub": 1, "terminal": 1, "family-hub": 1}
+
     decks = {}
-    for section in ("positions", "transitions", "submissions"):
-        for node in graph.get(section, {}).values():
+    owner = {}                # deck key -> (section, node id, n_cards) currently holding it
+    collisions = []           # (key, kept, dropped) — MUST stay empty
+    excluded = {}             # bucket -> node count
+    excluded_cards = {}       # bucket -> authored cards sitting on those nodes
+    per_section = {}          # section -> decks emitted
+
+    for section in SECTIONS:
+        for nid, node in graph.get(section, {}).items():
+            # .items(), not .values(): the graph id is the DICT KEY and is absent from the value, so
+            # a collision report built from the value could only name the display name — the one
+            # thing both sides of a collision share, and therefore useless for finding either.
             role = node.get("role")
             name = node.get("name")
-            if not role or role in ("hub", "terminal") or not name:
+            bucket = ("family-hub" if not role else
+                      "hub" if role == "hub" else
+                      "terminal" if role == "terminal" else
+                      "unnamed" if not name else None)
+            if bucket:
+                excluded[bucket] = excluded.get(bucket, 0) + 1
+                excluded_cards[bucket] = excluded_cards.get(bucket, 0) + len(node.get("flashcards") or [])
                 continue
             base = name
             if section == "positions":
@@ -748,8 +1013,97 @@ def build_flashcards(graph: dict) -> dict:
             else:
                 cards = _qa_cards(node.get("flashcards"))
             if not cards:
+                # A role node nobody has authored yet. Zero is the healthy value, so this carries no
+                # floor — but it is still printed, so it can never grow in silence.
+                excluded["no-cards"] = excluded.get("no-cards", 0) + 1
                 continue
-            decks[f"{base}|{role.capitalize()}"] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
+            key = f"{base}|{role.capitalize()}"
+            if key in decks:
+                # LAST WRITE WINS (`decks[key] = ...` below is unconditional), so the node arriving
+                # NOW is the survivor and `owner[key]` is the one losing its cards. Naming them the
+                # wrong way round sends the next reader to the file that is fine.
+                collisions.append((key, (section, nid, len(cards)), owner[key]))
+            owner[key] = (section, nid, len(cards))
+            per_section[section] = per_section.get(section, 0) + 1
+            decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
+
+    # ── The hubs' cards are re-homed, not dropped. Asserted, per hub, on the emitter's own card
+    #    builder (_qa_cards) rather than on a spec-side copy of it (CLAUDE.md section 6.3).
+    ROLE_SUFFIXES = ("/attacker", "/defender", "/top", "/bottom")
+    rehome_hubs = rehome_cards = 0
+    orphaned = []
+    for section in SECTIONS:
+        sec_nodes = graph.get(section, {})
+        for nid, node in sec_nodes.items():
+            role = node.get("role")
+            if role not in (None, "hub", "terminal"):
+                continue
+            hub_q = {c["q"] for c in _qa_cards(node.get("flashcards"))}
+            if not hub_q:
+                continue
+            if role:
+                members = [sec_nodes.get(nid + suf) for suf in ROLE_SUFFIXES]
+            else:  # a family hub's members are its own variants, not role suffixes
+                members = [v for k, v in sec_nodes.items()
+                           if v.get("familyHub") == nid or k.startswith(nid + "-from-")]
+            member_q = set()
+            for m in members:
+                if not m:
+                    continue
+                member_q |= {c["q"] for c in _qa_cards(m.get("flashcards"))}
+                for tier in (m.get("flashcardTiers") or {}).values():
+                    member_q |= {c["q"] for c in _qa_cards(tier)}
+            rehome_hubs += 1
+            rehome_cards += len(hub_q)
+            missing = hub_q - member_q
+            if missing:
+                orphaned.append((section, nid, len(missing), sorted(missing)[0][:70]))
+
+    # ── POSITIVE COVERAGE, PRINTED EVERY RUN — never let "found no problems" and "never looked"
+    #    produce the same output (CLAUDE.md section 6.6).
+    total_nodes = sum(len(graph.get(s, {})) for s in SECTIONS)
+    accounted = len(decks) + len(collisions) + sum(excluded.values())
+    print(f"  flashcard join: {total_nodes} nodes in {len(SECTIONS)} sections -> {len(decks)} decks "
+          f"({', '.join(f'{per_section.get(s, 0)} {s}' for s in SECTIONS)}); excluded "
+          f"{', '.join(f'{excluded.get(b, 0)} {b}' for b in sorted(excluded))}; "
+          f"{len(collisions)} collided; {accounted}/{total_nodes} accounted")
+    print(f"  flashcard join: hub cards re-homed {rehome_cards}/{rehome_cards} across {rehome_hubs} "
+          f"aggregator(s)" if not orphaned else
+          f"  flashcard join: {len(orphaned)} aggregator(s) hold cards that reach NO role node")
+    _un_nodes = sum(len(graph.get(s, {})) for s in UNREAD)
+    _un_cards = sum(len(n.get("flashcards") or []) for s in UNREAD for n in graph.get(s, {}).values())
+    if _un_nodes:
+        print(f"  flashcard join: UNACCOUNTED — {_un_nodes} node(s) / {_un_cards} authored card(s) in "
+              f"{'/'.join(UNREAD)} are never read by this join and reach no deck. Not an exclusion: "
+              f"nothing on record decided it (docs/Content.md tells authors to write them; deckCat() "
+              f"has no branch that renders them). Open question, printed so it stays one.")
+
+    errs = []
+    for key, kept, dropped in sorted(collisions):
+        errs.append(f"deck key {key!r} collided: kept {kept[0]}:{kept[1]} ({kept[2]} cards), "
+                    f"DROPPED {dropped[0]}:{dropped[1]} ({dropped[2]} cards)")
+    if collisions:
+        errs.append("One display name is authored in two sections. The key has no section term, so "
+                    "one deck overwrites the other and its cards never ship. Rename one side in "
+                    "content/ — there is no baseline to add it to, by design.")
+    if accounted != total_nodes:
+        errs.append(f"join is NOT total: {accounted} of {total_nodes} nodes accounted for "
+                    f"({total_nodes - accounted} unexplained). Every node must be a deck, a "
+                    f"collision, or a named exclusion.")
+    for b, floor in sorted(FLOORS.items()):
+        if excluded.get(b, 0) < floor:
+            errs.append(f"exclusion bucket {b!r} counted {excluded.get(b, 0)}, floor is {floor}. "
+                        f"A guard that stops matching reads exactly like a clean run.")
+    for s in SECTIONS:
+        if not per_section.get(s):
+            errs.append(f"section {s!r} emitted 0 decks — the join stopped seeing a whole section.")
+    if orphaned:
+        for sec, nid, n, sample in orphaned[:5]:
+            errs.append(f"aggregator {sec}:{nid} holds {n} card(s) present on no role node, "
+                        f"e.g. {sample!r} — excluding it DOES lose cards.")
+    if not rehome_cards:
+        errs.append("the re-home assertion checked 0 cards; it cannot fail, so it is not a check.")
+    _join_report(errs, "flashcard join")
     return decks
 
 
@@ -833,9 +1187,17 @@ def deck_name(key: str) -> str:
     return key.rsplit("|", 1)[0]
 
 
-def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -> dict:
-    """How often a roll ACTUALLY passes through each technique — the graph's stationary
-    distribution, not a cutoff.
+def build_technique_weights(graph: dict, frame: str, iters: int = 240, damp: float = 0.85) -> dict:
+    """How often a roll ACTUALLY passes through each technique IN `frame` — the graph's
+    stationary distribution, not a cutoff.
+
+    THE FRAME IS REQUIRED, WITH NO DEFAULT, ON PURPOSE. This read `edge["attemptProbability"]`
+    — the folded NO-GI scalar — for 77 versions while `attemptProbabilityByRuleset` sat on the
+    same dict on all 2,541 edges. 52 techniques are attemptable ONLY in gi, which is the app's
+    DEFAULT ruleset, so they scored ZERO; once v1.145.13 widened the table to both seats that
+    was 104 decks and 739 authored cards. A default here would let a caller re-acquire the bug
+    by omission, which is how it survived 77 versions in the first place — so callers say it.
+    Both returned tables are driven by the SAME walk, so the frame fixes occupancy too.
 
     The state machine is a Markov chain: position-role --attempt_probability--> technique
     --outcome probability--> position-role. Power-iterate the position distribution, then read
@@ -881,7 +1243,7 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
             if mass <= 0:
                 continue
             for edge in positions[pid].get("transitions") or []:
-                ap = edge.get("attemptProbability")
+                ap = _frame_attempt(edge, frame)
                 tgt = edge.get("target")
                 if not tgt or not isinstance(ap, (int, float)):
                     continue
@@ -912,13 +1274,178 @@ def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -
     s2 = sum(out.values()) or 1.0
     out = {k: round(v / s2, 8) for k, v in out.items()}
     top = list(out.items())[:3]
-    print(f"  weights: {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
+    print(f"  weights ({frame}): {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
+    # `pi` — where the roll SPENDS ITS TIME, keyed the way `build_flashcards` keys a position deck
+    # (the graph names every position hub "... Top"/"... Bottom"; the deck key strips that tail).
+    # It was computed and thrown away for 77 versions while `gameScore` weighted all 272 position
+    # decks at zero. Returned, not re-derived: one power iteration, two readings of it.
+    occ: dict[str, float] = {}
+    for pid, m in pi.items():
+        nm = (positions[pid].get("name") or "")
+        for suf in (" Top", " Bottom"):
+            if nm.endswith(suf):
+                nm = nm[: -len(suf)]
+                break
+        occ[f"{nm}|{(positions[pid].get('role') or '').capitalize()}"] = \
+            occ.get(f"{nm}|{(positions[pid].get('role') or '').capitalize()}", 0.0) + m
+    so = sum(occ.values()) or 1.0
+    return out, {k: round(v / so, 8) for k, v in sorted(occ.items(), key=lambda kv: -kv[1])}
+
+
+# One roll STEP exercises three separable kinds of knowledge, and each happens once per step:
+# where you are, what you do from there, and what is being done to you. So each block is its own
+# distribution summing to 1, and the score is their mean — no free parameter, and no block can be
+# tuned without saying so here.
+SCORE_BLOCKS = ("position", "attacker", "defender")
+
+
+def build_score_weights(graph: dict, frame: str) -> dict:
+    """The table `gameScore` sums: EVERY authored deck the state machine can reach, not just the
+    attacking third of it.
+
+    WHY THIS IS NOT A TUNING KNOB. `sum(pi)` and `sum(visits)` are both exactly 1.0 because
+    attempt probabilities sum to 100 on 272 of 272 position role-nodes in both rulesets — measured,
+    and `validate_graph_integrity` errors on any frame that does not. Occupancy and visit-rate are
+    therefore two readings of the SAME unit step, not different units, which is what makes a plain
+    mean of three blocks a statement rather than a weighting choice. (A previous session, mine,
+    called them "different units" and used that to argue the split was arbitrary. It was wrong.)
+
+    THE DEFENDER BLOCK MIRRORS THE ATTACKER ONE. Every technique visit is one exchange with two
+    seats: someone performs it and someone receives it. The stationary rate at which you defend
+    technique i is the rate at which it is attempted, so the mirror is the symmetric reading, not
+    an estimate. `docs/Neural.md` used to justify excluding it with "your drilling does not change
+    the opponent's rates" — true, and about the ODDS model. This is a KNOWLEDGE score: knowing the
+    escape is knowledge whether or not it moves their success rate.
+
+    NOTHING HERE DECAYS OR EXPIRES. The score moves only on answers — `deckMastery` is stage-based
+    and the belt cannot drop because time passed. This adds weight to what you have studied; it
+    takes nothing away for not studying. The retention/pressure choice does not arise in a weights
+    table and would arise in `_schedule` (SRS intervals), which is a separate change.
+    """
+    att, occ = build_technique_weights(graph, frame)
+    blocks = {
+        "position": occ,
+        "attacker": att,
+        "defender": {k.replace("|Attacker", "|Defender"): v for k, v in att.items()},
+    }
+    assert set(blocks) == set(SCORE_BLOCKS)
+    out: dict[str, float] = {}
+    for name in SCORE_BLOCKS:
+        b = blocks[name]
+        sb = sum(b.values()) or 1.0
+        if not b:
+            raise SystemExit(
+                f"[neural] score weights: the {name!r} block is EMPTY. A block that stops "
+                f"producing keys makes a third of the corpus silently unscoreable again, which "
+                f"is the exact defect this table exists to close. Refusing to emit."
+            )
+        for k, v in b.items():
+            out[k] = out.get(k, 0.0) + (v / sb) / len(SCORE_BLOCKS)
+    s = sum(out.values()) or 1.0
+    out = {k: round(v / s, 8) for k, v in sorted(out.items(), key=lambda kv: -kv[1])}
+    print(f"  score weights ({frame}): {len(out)} decks over {len(SCORE_BLOCKS)} blocks "
+          f"({', '.join(f'{n} {len(blocks[n])}' for n in SCORE_BLOCKS)}); "
+          f"heaviest {[(k, round(v, 4)) for k, v in list(out.items())[:3]]}")
     return out
 
 
-def build_curriculum(out_dir: Path, graph: dict) -> int:
+
+# Wire divisor for a score weight: each value ships as round(weight * WEIGHT_DIV) and the app
+# divides. An INTEGER divisor, not a float unit, so the wire can represent its own round numbers.
+# 1e7 keeps three significant figures on the lightest deck in the corpus with room to spare, and
+# `_compact_score_weights` refuses rather than letting a real weight round away.
+WEIGHT_DIV = 10_000_000
+
+
+def _compact_score_weights(tables: dict) -> dict:
+    """The wire for `build_score_weights`, BOTH RULESETS: position keys once, technique names
+    once, one integer per frame each — {div, p:{k, gi, nogi}, t:{k, gi, nogi}} — where every `t`
+    name carries both seats at the same value.
+
+    WHY KEYS ONCE. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and
+    lands the first hand at 382,197 of a 385,000 ceiling. The key strings are the entire cost, and
+    1,269 of the 2,810 are a second spelling of a name already present. Shipping each name once
+    and hanging one integer array per frame off it means the SECOND ruleset costs only integers.
+
+    WHY THE UNION, AND WHY A ZERO IS MEANINGFUL. The two frames do not span the same techniques:
+    52 are attemptable only in gi and 16 only in no-gi. `k` is therefore the union and a ZERO in a
+    frame's array means "not attemptable in this ruleset" — the app skips it rather than storing a
+    key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
+    this divisor means something else entirely and is refused below, not shipped.
+
+    THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
+    IS the attacker block re-keyed, both normalised the same way, so the two values are equal for
+    every technique. The round-trip asserts exactly that, per frame, against the table it was built
+    from — the day anyone makes the seats differ this refuses to emit rather than silently halving
+    one.
+
+    A NEW KEY, NOT A NEW SHAPE UNDER THE OLD ONE. `scoreWeights` (v1.145.13) and `weights` before
+    it are both left unwritten. An older bundle meeting a changed shape under a key it already
+    reads would do arithmetic on an object and render `Mastered NaN%`; under a new key it finds
+    nothing, scores 0, and recovers on the next reload. That is the failure worth having, and it
+    is v1.145.13's own reasoning applied to v1.145.13.
+    """
+    frames = tuple(sorted(tables))
+    def split(t):
+        pos = {k: v for k, v in t.items() if not k.endswith(("|Attacker", "|Defender"))}
+        att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
+        return pos, att
+    parts = {fr: split(tables[fr]) for fr in frames}
+    pk = sorted({k for fr in frames for k in parts[fr][0]},
+                key=lambda k: -max(parts[fr][0].get(k, 0.0) for fr in frames))
+    tk = sorted({k for fr in frames for k in parts[fr][1]},
+                key=lambda k: -max(parts[fr][1].get(k, 0.0) for fr in frames))
+    wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
+    for fr in frames:
+        pos, att = parts[fr]
+        for slot, keys, src in (("p", pk, pos), ("t", tk, att)):
+            vals = [round(src.get(k, 0.0) * WEIGHT_DIV) for k in keys]
+            lost = [k for i, k in enumerate(keys) if src.get(k, 0.0) > 0 and vals[i] == 0]
+            if lost:
+                raise SystemExit(
+                    f"[neural] score weights ({fr}/{slot}): {len(lost)} key(s) carry real "
+                    f"stationary mass that rounds to zero at the wire divisor {WEIGHT_DIV:,}, "
+                    f"e.g. {lost[:3]}. A zero weight is INVISIBLE to gameScore, not merely small, "
+                    f"and in this wire it positively means 'not attemptable in this ruleset'. "
+                    f"Raise WEIGHT_DIV rather than shipping a silent hole."
+                )
+            wire[slot][fr] = vals
+    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does and compare to the
+    # table it was built from. A compaction that silently drops or halves a block is the same
+    # defect class this whole ledger exists for, so it is checked, every run, for both rulesets.
+    for fr in frames:
+        full = tables[fr]
+        back = {}
+        for k, v in zip(wire["p"]["k"], wire["p"][fr]):
+            if v:
+                back[k] = v / WEIGHT_DIV
+        for k, v in zip(wire["t"]["k"], wire["t"][fr]):
+            if v:
+                back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+        lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
+        drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
+        if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
+            raise SystemExit(
+                f"[neural] score weights ({fr}): the compact wire does not round-trip — "
+                f"{len(set(full) - set(back))} key(s) missing, {len(set(back) - set(full))} "
+                f"invented, {len(lost)} rounded to zero, max drift {drift:.2e} against a "
+                f"{1.0 / WEIGHT_DIV:.0e} tolerance. The defender seat is spelled once on the "
+                f"assumption that it equals the attacker seat; if that stopped being true, spell "
+                f"both. Refusing to emit."
+            )
+    print(f"  score weights wire: {len(pk)} position + {len(tk)} technique keys x {len(frames)} "
+          f"frames at 1/{WEIGHT_DIV:,} ("
+          + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
+    return wire
+
+def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
-    which is legal — the app falls back to tree view)."""
+    which is legal — the app falls back to tree view).
+
+    Takes `decks` so the score-coverage ledger can join against the deck set THIS run just built,
+    in process. It must not re-read `flashcards/_index.json`: `source/quartz/static/neural/` is
+    gitignored in its entirety (.gitignore:71), so a check reading the emitted artifact is a check
+    that silently does not run on a fresh checkout."""
     from _curriculum import CURRICULUM, compute_pools, lesson_frames, load_curriculum, load_graph_index
     if not CURRICULUM.exists():
         return 0
@@ -935,7 +1462,15 @@ def build_curriculum(out_dir: Path, graph: dict) -> int:
                 lf = lesson_frames(lesson, node)
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
-    cur["weights"] = build_technique_weights(graph)
+    tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
+    cur["scoreWeightsByRuleset"] = _compact_score_weights(tables)
+    # PRINTED EVERY RUN, never fatal here — `validate_score_coverage.py` owns the definition and
+    # this is the same call the standalone check makes, so the two can never report different
+    # numbers. It is handed the REAL per-frame pair: until v1.146.0 both arguments were the one
+    # folded no-gi table, which is why its ruleset row read 104 decks / 739 cards. The gate that
+    # makes that fatal is `npm run validate:score-coverage -- --gate`, armed in ci-validate.yml.
+    from validate_score_coverage import score_coverage
+    score_coverage(decks, graph, tables)
     (out_dir / "curriculum.json").write_text(
         json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
     return len(cur["belts"])
@@ -987,19 +1522,28 @@ def _node_indexes(node_ids: list[str]) -> dict:
     return idx
 
 
-def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict) -> list[str]:
-    """Map one related_content reference onto the graph node ids it lights up ([] = unresolved).
+def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
+                    idx: dict) -> tuple[list[str], bool]:
+    """Map one related_content reference onto the graph node ids it lights up.
+
+    Returns (node ids, was_family_expanded); ([], False) = unresolved.
 
     `path` is graph.json's already-resolved member page path, tried first. It is not enough on
     its own: process_systems() drops a reference whose page was already claimed by an earlier
     one, so a System listing both "Knee Slice Pass" and its synonym "Knee Cut Pass" has only the
-    first in members[] — hence the slug layers, plus the authored aliases[] retry below."""
+    first in members[] — hence the slug layers, plus the authored aliases[] retry below.
+
+    THE SECOND RETURN VALUE IS LOAD-BEARING. A ref resolving through the `variant` or `children`
+    layer named a FAMILY ("Calf Slicer"), not a node — those layers exist because a family hub is
+    not in the graph — so one authored word becomes every "from X" finish in the family. That set
+    is a candidate list, not a membership list, and _anchor_family() below is what narrows it.
+    A `flat` or `leaf` hit is the author naming ONE exact node and is never narrowed."""
     if path:
         if path in ids:
-            return [path]
+            return [path], False
         kids = idx["children"].get(path)
         if kids:
-            return sorted(set(kids))
+            return sorted(set(kids)), True
     slug = slugify(name)
     candidates = [slug] + ([idx["alias"][slug]] if slug in idx["alias"] else [])
     prefixes = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
@@ -1008,8 +1552,40 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict
             for layer in ("flat", "variant", "leaf"):
                 hit = idx[layer].get((pre, cand))
                 if hit:
-                    return sorted(set(hit))
-    return []
+                    hits = sorted(set(hit))
+                    # `variant` IS the family layer; a multi-hit `leaf` is an
+                    # expansion too (one bare name, several nested nodes).
+                    return hits, (layer == "variant" or len(hits) > 1)
+    return [], False
+
+
+def _anchor_family(candidates: list[str], taught: set, byid: dict) -> list[str]:
+    """THE RULE, in one place: a family-expanded instance belongs to a System only if the System
+    also teaches the position it is thrown from.
+
+    "In this system" means the moves this system teaches, FROM THE PLACES IT TEACHES THEM. Both
+    consumers read the result through the emitted `nodes` — app.src.jsx systemNodeIdxs() feeds
+    BOTH renderSystemDetail (the side panel) and openSystem -> setFocusIdxSet (the graph
+    light-up) — so narrowing here narrows both, and they cannot drift apart.
+
+    Why it is needed: a submission family hub carries no node (0 of 297 families appear in
+    globalGraphLayout.json), so `Calf Slicer` expands to all eleven real finishes. The 10th
+    Planet No-Gi Guard System teaches Truck and Twister Control; it was lighting calf slicers
+    from 50-50, Backside 50-50, Carni, Honey Hole, Inside Sankaku, Rodeo Ride, Russian Cowboy,
+    Saddle and Twister Side Control as well.
+
+    Measured 2026-08-31 over the 47 Systems, from the emitted payload: family refs offered 952
+    candidate instances and anchoring ships 274 of them; total member nodes 1711 -> 952, median
+    per system 32 -> 19, worst offender (Submission Clinic System) 114 -> 57. Recompute with
+    `python3 -c "import json,statistics as st;S=json.load(open('source/quartz/static/neural/
+    systems.json'))['systems'];c=[len(x['nodes']) for x in S];print(sum(c),st.median(c),max(c))"`.
+
+    Returns [] when nothing anchors. That is NOT a silent drop: build_systems records the ref in
+    the System's `unanchored` list and check_systems_payload.py ratchets the total, because a
+    family whose every instance comes from a position the System never teaches is a CONTENT gap
+    (add the entry position to that System's related_content) and must stay visible as one.
+    """
+    return [n for n in candidates if (byid.get(n, {}).get("fromPositionId") or "") in taught]
 
 
 def _products(data: dict, sys_name: str) -> list[dict]:
@@ -1051,15 +1627,21 @@ def _products(data: dict, sys_name: str) -> list[dict]:
     return out
 
 
-def build_systems(graph: dict, node_ids: list[str]) -> dict:
+def build_systems(graph: dict, nodes: list[dict]) -> dict:
     """The Systems library: one entry per content/Systems/*.json, each carrying the graph
     nodes it teaches so the app can list all 47 AND highlight a System's members on the graph.
 
     Membership comes from related_content (the authored edge list) resolved against the ids
     in graph-data.json. Unresolvable graph-typed references are REPORTED per system in
-    `unresolved`, never dropped and never faked."""
+    `unresolved`, never dropped and never faked.
+
+    TWO PASSES, because the rule needs the whole system before it can judge any part of it:
+    pass 1 resolves every ref; pass 2 applies _anchor_family() against the positions pass 1
+    proved the System teaches. A family ref that anchors nothing lands in `unanchored`."""
     from regenerate_graph import build_alias_maps, quartz_slug  # page path + authored synonyms
 
+    node_ids = [n["id"] for n in nodes]
+    byid = {n["id"]: n for n in nodes}
     ids = set(node_ids)
     idx = _node_indexes(node_ids)
     # aliases[] is the authored synonym set (Knee Cut Pass -> Knee Slice Pass); without it a
@@ -1079,7 +1661,8 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             for m in (gsystems.get(slugify(name)) or {}).get("members") or []
         }
 
-        nodes, unresolved, glue = [], [], []
+        # ---- pass 1: resolve every authored ref, keeping family expansions as CANDIDATES ----
+        resolved, unresolved = [], []
         for item in data.get("related_content") or []:
             if not isinstance(item, dict):
                 continue
@@ -1090,18 +1673,43 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             if ctype and ctype not in GRAPH_REF_PREFIX:
                 non_graph += 1
                 continue
-            hit = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
+            hit, is_family = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
             if hit:
-                nodes.extend(hit)
-                # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
-                # belong together — the authored `relationship` says what each one DOES in the
-                # system ("primary finishing position", "entry when they refuse the leg"). Lighting
-                # nodes up without it just shows a constellation; this is what makes it a system.
-                # One entry per authored ref (not per resolved id) so the text is never duplicated
-                # across a hub's expanded children.
-                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
+                resolved.append((ref, hit, is_family, _clip(item.get("relationship") or "", 180)))
             elif ref not in unresolved:
                 unresolved.append(ref)
+
+        # ---- pass 2: the positions this System teaches, then anchor the families against them ----
+        # A position member counts however it resolved; only submission/transition FAMILIES are
+        # narrowed. Direct refs are the author naming one exact node and pass through untouched.
+        taught = {
+            byid[n]["posId"]
+            for _ref, hit, _fam, _role in resolved
+            for n in hit
+            if byid.get(n, {}).get("posId")
+        }
+        member_nodes, glue, unanchored = [], [], []
+        for ref, hit, is_family, role in resolved:
+            keep = _anchor_family(hit, taught, byid) if is_family else hit
+            if not keep:
+                # Reported, never expanded and never silently dropped — see _anchor_family.
+                if ref not in unanchored:
+                    unanchored.append(ref)
+                continue
+            member_nodes.extend(keep)
+            # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
+            # belong together — the authored `relationship` says what each one DOES in the
+            # system ("primary finishing position", "entry when they refuse the leg"). Lighting
+            # nodes up without it just shows a constellation; this is what makes it a system.
+            # One entry per authored ref (not per resolved id) so the text is never duplicated
+            # across a hub's expanded children. `fam` marks a family-expanded ref and carries how
+            # many instances it offered, so check_systems_payload.py can SEE the anchoring rule
+            # rather than infer it from a node count (a family narrowed to one node otherwise
+            # looks exactly like a direct ref).
+            entry = {"ref": ref, "nodes": keep, "role": role}
+            if is_family:
+                entry["fam"] = len(hit)
+            glue.append(entry)
 
         # The ordered spine: implementation_sequence is the system's narrative, and it is what
         # turns a lit set into "do this, then this". Carried verbatim, clipped, phases only.
@@ -1124,10 +1732,11 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             "summary": _clip(data.get("summary") or data.get("description") or ""),
             "type": (data.get("system_type") or "").strip(),
             "difficulty": (data.get("difficulty_level") or "").strip(),
-            "nodes": sorted(set(nodes)),
+            "nodes": sorted(set(member_nodes)),
             "glue": glue,
             "sequence": sequence,
             "unresolved": unresolved,
+            "unanchored": unanchored,
             "products": prods,
         })
 
@@ -1135,15 +1744,329 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
         "_meta": {
             "count": len(systems),
             "unresolved": sum(len(s["unresolved"]) for s in systems),
+            "unanchored": sum(len(s["unanchored"]) for s in systems),
             "nodes": sum(len(s["nodes"]) for s in systems),
             "nonGraphRefs": non_graph,
             "products": n_products,
             "note": "Generated by scripts/regenerate_neural_data.py from content/Systems/*.json + "
-                    "graph.json membership; `nodes` are graph-data.json ids. nonGraphRefs counts "
-                    "Principle/System cross-references, which are pages and never graph nodes.",
+                    "graph.json membership; `nodes` are graph-data.json ids, narrowed by "
+                    "_anchor_family: a family-expanded instance is a member only if the System "
+                    "also teaches the position it is thrown from. nonGraphRefs counts "
+                    "Principle/System cross-references, which are pages and never graph nodes. "
+                    "unanchored counts family refs no member position anchors — a content gap.",
         },
         "systems": systems,
     }
+
+
+# ── CONCEPTS: the two authored libraries the app had never been able to open ────────────────
+# content/Principles/*.json (59) and content/Learning/*.json (23) are pages, not graph nodes —
+# which is exactly why they had no route into the app. Explore carried SIX hardcoded rows under
+# "Principles" and FOUR under "Learning", and every one of them was a SEARCH SHORTCUT: clicking
+# "Angles" wrote "back" into the search box, so the reader who asked for a concept got a ranked
+# list of transitions and no concept at all. (Owner, v1.152.0: "I wasn't searching. The intent
+# was to open a content page on the side panel." And: "I remember seeing 20-something or 30
+# principles. Now I'm just seeing 6.")
+#
+# TWO PAYLOADS, THE SAME SPLIT THE REST OF THIS FILE ALREADY USES:
+#   · concepts.json          — the INDEX: every concept, its summary, and the graph nodes it
+#                              lights. Deferred (nothing on the roll path reads it), 63,074 B —
+#                              which with systems.json's 323,544 sits under the shared
+#                              `deferred_raw_bytes` ceiling of 500,000. Carrying `glue` here too
+#                              cost 160,170 B and left 16,286 B of headroom, so everything only
+#                              the OPEN PANEL reads went into the chunk it already fetches.
+#   · content/<hash>.json    — the BODY, one dossier per concept, in the SAME chunk space the
+#                              per-node dossiers already use, keyed "<Name>|<Principle|Learning>".
+#                              The app's `_ngc()` fetches, caches and renders it with no new
+#                              machinery — one seam, not two (CLAUDE.md section 6.5).
+#
+# WHAT IS DELIBERATELY NOT HERE. The full prose (content/Principles/*.md is ~2.4MB of authored
+# reading) needs a reading surface this pane is not, and the flashcards these files carry still
+# reach no deck — that is the UNACCOUNTED figure build_flashcards() prints every run, and it is
+# unchanged by this. What ships is the concept's own spine: summary, overview, the key points,
+# where it applies, what goes wrong, and how to train it.
+PRINCIPLES_DIR = ROOT / "content/Principles"
+LEARNING_DIR = ROOT / "content/Learning"
+
+# (cat, page folder, source dir). `cat` is the app's per-row vocabulary; the Explore section
+# label is the folder name, which is also what `exploreOpenSections` has always persisted —
+# so a reader's expanded "Principles" fold survives this change.
+CONCEPT_LIBS = (
+    ("Principle", "Principles", PRINCIPLES_DIR),
+    ("Learning", "Learning", LEARNING_DIR),
+)
+
+# Body caps. The chunk ceiling is 40,000 bytes (tests/artifacts/budget_site.json) and the fattest
+# per-node dossier already emitted is 21,349; the fattest concept under these caps is PRINTED by
+# the emit line in main(), every run, so it cannot drift past that gate in silence.
+#
+# EVERY CAP SITS AT OR ABOVE THE AUTHORED MAXIMUM, so nothing an author wrote is currently cut —
+# they are a ceiling against future growth, not an editorial decision. Measured across all 82
+# files; recompute before quoting:
+#
+#   python3 - <<'EOF'
+#   import json, glob
+#   F = {"Principles": ("key_principles","application_contexts","common_errors","training_approaches"),
+#        "Learning":   ("key_takeaways","bjj_applications","common_mistakes","training_exercises")}
+#   mx = {}
+#   for d_, (p,c,e,t) in F.items():
+#       for f in glob.glob(f"content/{d_}/*.json"):
+#           d = json.load(open(f))
+#           for k, v in (("overview", len(" ".join((d.get("overview") or "").split()))),
+#                        ("points", len(d.get(p) or [])), ("contexts", len(d.get(c) or [])),
+#                        ("errors", len(d.get(e) or [])), ("drills", len(d.get(t) or [])),
+#                        ("point_len", max([0]+[len(" ".join(str(x).split())) for x in (d.get(p) or [])]))):
+#               mx[k] = max(mx.get(k, 0), v)
+#   print(mx)
+#   EOF
+#
+# As of v1.152.0: overview 2,334 · points 9 (longest 237 chars) · contexts 18 · errors 8 · drills 6.
+OVERVIEW_CAP = 2600
+POINT_CAP, POINTS_MAX = 300, 12
+CTX_MAX, ERR_MAX, DRILL_MAX = 18, 8, 6
+
+# Per library, the authored field names for one normalised body shape. Principles and Learning
+# were authored by different templates and say the same things with different words; normalising
+# HERE (not in the app) means the renderer has one shape to draw and a third library would only
+# add a row to this table.
+CONCEPT_FIELDS = {
+    "Principle": {
+        "points": ("key_principles", None),
+        "contexts": ("application_contexts", ("context", "how_applied")),
+        "errors": ("common_errors", ("error", "consequence", "correction")),
+        "drills": ("training_approaches", ("approach_name", "description", "focus")),
+    },
+    "Learning": {
+        "points": ("key_takeaways", None),
+        "contexts": ("bjj_applications", ("scenario", "application")),
+        "errors": ("common_mistakes", ("mistake", "consequence", "correction")),
+        "drills": ("training_exercises", ("name", "description", "focus")),
+    },
+}
+
+
+def _concept_body(data: dict, cat: str) -> dict:
+    """The readable dossier for one concept, normalised out of whichever template authored it."""
+    spec = CONCEPT_FIELDS[cat]
+    body: dict = {}
+    ov = _clip((data.get("overview") or "").strip(), OVERVIEW_CAP)
+    if ov:
+        body["overview"] = ov
+
+    src, _ = spec["points"]
+    points = [_clip(str(p).strip(), POINT_CAP) for p in (data.get(src) or []) if str(p).strip()]
+    if points:
+        body["points"] = points[:POINTS_MAX]
+
+    src, keys = spec["contexts"]
+    contexts = []
+    for item in (data.get(src) or [])[:CTX_MAX]:
+        if not isinstance(item, dict):
+            continue
+        c, how = _clip((item.get(keys[0]) or "").strip(), 90), _clip((item.get(keys[1]) or "").strip(), 420)
+        if c and how:
+            contexts.append({"c": c, "how": how})
+    if contexts:
+        body["contexts"] = contexts
+
+    src, keys = spec["errors"]
+    errors = []
+    for item in (data.get(src) or [])[:ERR_MAX]:
+        if not isinstance(item, dict):
+            continue
+        err = _clip((item.get(keys[0]) or "").strip(), 260)
+        fix = _clip((item.get(keys[2]) or "").strip(), 340)
+        if err and fix:
+            errors.append({"err": err, "why": _clip((item.get(keys[1]) or "").strip(), 300), "fix": fix})
+    if errors:
+        body["errors"] = errors
+
+    src, keys = spec["drills"]
+    drills = []
+    for item in (data.get(src) or [])[:DRILL_MAX]:
+        if not isinstance(item, dict):
+            continue
+        name, how = _clip((item.get(keys[0]) or "").strip(), 90), _clip((item.get(keys[1]) or "").strip(), 420)
+        if name and how:
+            drills.append({"name": name, "how": how, "focus": _clip((item.get(keys[2]) or "").strip(), 220)})
+    if drills:
+        body["drills"] = drills
+    return body
+
+
+def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
+    """The Principles + Learning libraries: (index payload, dossier map keyed for the chunk writer).
+
+    Membership is `related_content` resolved against graph-data.json's own ids, the SAME resolver
+    build_systems uses — so a concept lights exactly the techniques its author linked, and a
+    reference that resolves to nothing is REPORTED per concept in `unresolved`, never dropped and
+    never faked.
+
+    Concept-to-concept references (content_type Principle/Learning/System) are not graph nodes and
+    were previously counted only as `nonGraphRefs` and thrown away. They are the cross-links a
+    reader actually follows between concepts, so they are kept in `related` — resolved against the
+    concepts THIS function emits, so a link can never point at a page that is not in the payload."""
+    from regenerate_graph import build_alias_maps, quartz_slug
+
+    ids = set(node_ids)
+    idx = _node_indexes(node_ids)
+    pos_alias, tech_alias = build_alias_maps(ROOT / "content")
+    idx["alias"] = {**pos_alias, **{a: v["slug"] for a, v in tech_alias.items()}}
+
+    # PASS 1: read every file, so pass 2 can resolve a cross-reference against the concepts that
+    # actually exist rather than minting a link to a page nobody emitted.
+    raw = []
+    for cat, folder, src_dir in CONCEPT_LIBS:
+        for path in sorted(src_dir.glob("*.json")):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            name = (data.get("name") or path.stem).strip()
+            raw.append((cat, folder, path, name, data))
+    # `by_slug` is what a concept-to-concept reference resolves through, so a slug shared by two
+    # concepts would silently send every link to whichever was read last. Zero collisions today
+    # (the two libraries do not overlap); asserted rather than believed, because the failure is a
+    # link that opens the WRONG page and reports nothing.
+    by_slug = {}
+    for cat, folder, path, name, data in raw:
+        sl, page = slugify(name), f"{folder}/{quartz_slug(path.stem)}"
+        if sl in by_slug and by_slug[sl] != page:
+            raise SystemExit(
+                f"[neural] concept slug {sl!r} names two pages ({by_slug[sl]} and {page}). Every "
+                f"cross-reference to it would resolve to one of them arbitrarily."
+            )
+        by_slug[sl] = page
+
+    # A REFERENCE AUTHORED AS A PAGE PATH IS THE SAME REFERENCE, SPELLED DIFFERENTLY.
+    # Most files write a bare display name ("Side Control"); at least one writes the page path
+    # ("Positions/Side Control", "Principles/Frames"). `slugify` folds the whole string to
+    # `positions-side-control`, which matches nothing — and the miss is invisible, because an
+    # unresolved ref is a legitimate outcome. Measured before this ladder existed: 8 unresolved
+    # graph refs, of which 6 were this one spelling in a single file, plus that file's entire set
+    # of concept cross-links. Same class as `_tech_keys` (CLAUDE.md section 6.6): try every
+    # spelling, then COUNT how often the extra rung fired so it can never rot in silence.
+    PATH_CTYPE = {v: k for k, v in GRAPH_REF_PREFIX.items()}      # "Positions" -> "Position"
+    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
+
+    concepts, dossiers = [], {}
+    non_graph = md_only = path_spelled = fam_expanded = 0
+    for cat, folder, path, name, data in raw:
+        page = f"{folder}/{quartz_slug(path.stem)}"
+        nodes, unresolved, glue, related = [], [], [], []
+        for item in data.get("related_content") or []:
+            if not isinstance(item, dict):
+                continue
+            ref = (item.get("name") or "").strip()
+            ctype = (item.get("content_type") or "").strip()
+            if not ref:
+                continue
+            pre, sep, tail = ref.partition("/")
+            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES):
+                ref = tail.strip()
+                if pre in PATH_CTYPE:
+                    ctype = ctype or PATH_CTYPE[pre]
+                path_spelled += 1
+            if ctype and ctype not in GRAPH_REF_PREFIX:
+                # a concept-to-concept (or concept-to-system) link. Kept when it names a page in
+                # THIS payload; a System is a page too but lives in systems.json, so it is counted
+                # and dropped rather than linked to a row that does not exist here.
+                non_graph += 1
+                hit = by_slug.get(slugify(ref))
+                if hit and hit != page and hit not in related:
+                    related.append(hit)
+                continue
+            # v1.151.0 gave _resolve_member a second return value: whether the ref named a
+            # FAMILY and was expanded to its instances. A System narrows that with
+            # _anchor_family(), because "in this system" means the moves it teaches FROM THE
+            # PLACES IT TEACHES THEM. A concept is NOT narrowed, and the difference is the point:
+            # a System is a curriculum, a principle is a general idea. "Levers" naming "Kimura"
+            # is a claim about every kimura, not about the three a syllabus happens to cover, and
+            # a concept has no "taught positions" set to anchor against in the first place. The
+            # expansion is measured and printed (`_meta.familyExpandedRefs`) so this stays a
+            # decision on record rather than a difference nobody noticed.
+            hit, is_family = _resolve_member(ref, ctype, None, ids, idx)
+            if hit:
+                fam_expanded += 1 if is_family else 0
+                nodes.extend(hit)
+                # THE GLUE, exactly as a System carries it: the authored `relationship` is what
+                # says why this technique is here. A lit constellation with no reason attached is
+                # the thing that made the six search shortcuts feel like an answer.
+                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
+            elif ref not in unresolved:
+                unresolved.append(ref)
+
+        # The chunk key. `|Principle` / `|Learning` keeps it out of the technique key space, which
+        # is bare display names — two libraries authoring "Base" would otherwise share a slot.
+        key = f"{name}|{cat}"
+        body = _concept_body(data, cat)
+        # THE INDEX/BODY LINE, and it is a byte budget, not a taste call. `concepts.json` is
+        # DEFERRED and shares a 500,000-byte ceiling with systems.json (323,544). Everything the
+        # LIST and the graph HIGHLIGHT need stays in the index so a click lights up instantly;
+        # everything only the open panel reads — the glue, the cross-links, the misses — rides in
+        # the chunk the panel already fetches. Measured: carrying `glue` in the index made
+        # concepts.json 160,170 B and left 16,286 B of headroom under that ceiling; without it,
+        # 63,074 B.
+        #
+        # A DUPLICATE KEY WOULD BE A SILENT DROP, so it is a build error. Two files under one
+        # library authoring the same `name` would share this slot, and last-write-wins would ship
+        # one concept's body under the other's row — the same shape as the deck-key collision the
+        # flashcard join refuses (CLAUDE.md section 6.6).
+        if key in dossiers:
+            raise SystemExit(
+                f"[neural] concept key {key!r} is authored twice ({path.name} collides with an "
+                f"earlier file of the same `name`). One body would overwrite the other. Rename "
+                f"one in content/ — there is no baseline to add it to, by design."
+            )
+        dossiers[key] = dict(body, cat=cat, name=name, url=f"/{page}",
+                             glue=glue, related=related, unresolved=unresolved)
+        concepts.append({
+            "id": page,
+            "key": key,
+            "name": name,
+            "cat": cat,
+            "url": f"/{page}",
+            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            "meta": _clip(" · ".join(
+                x for x in ((data.get("application_level") or "").strip(),
+                            (data.get("complexity_level") or "").strip(),
+                            (data.get("category") or "").strip()) if x), 60),
+            "nodes": sorted(set(nodes)),
+            "unresolved": unresolved,
+        })
+
+    # Editorial Learning pages authored as .md with no .json beside them (3 today) carry no
+    # structured body this emitter can read, so they are COUNTED and named rather than listed as
+    # rows that would open an empty panel. Printed every run: a silent omission is how the six
+    # shortcuts survived (CLAUDE.md section 6.6).
+    md_missing = []
+    for cat, folder, src_dir in CONCEPT_LIBS:
+        for md in sorted(src_dir.glob("*.md")):
+            if not (src_dir / f"{md.stem}.json").exists():
+                md_only += 1
+                md_missing.append(f"{folder}/{md.stem}")
+
+    concepts.sort(key=lambda c: (c["cat"] != "Principle", c["name"].lower()))
+    return (
+        {
+            "_meta": {
+                "count": len(concepts),
+                "principles": sum(1 for c in concepts if c["cat"] == "Principle"),
+                "learning": sum(1 for c in concepts if c["cat"] == "Learning"),
+                "nodes": sum(len(c["nodes"]) for c in concepts),
+                "unresolved": sum(len(c["unresolved"]) for c in concepts),
+                "related": sum(len(d["related"]) for d in dossiers.values()),
+                "nonGraphRefs": non_graph,
+                "pathSpelledRefs": path_spelled,
+                "familyExpandedRefs": fam_expanded,
+                "mdOnly": md_only,
+                "mdOnlyPages": md_missing,
+                "note": "Generated by scripts/regenerate_neural_data.py from content/Principles/*.json "
+                        "+ content/Learning/*.json; `nodes` are graph-data.json ids and `key` "
+                        "addresses the concept's dossier in the content/ chunk space. mdOnlyPages "
+                        "are authored .md with no .json beside them: no structured body to emit.",
+            },
+            "concepts": concepts,
+        },
+        dossiers,
+    )
 
 
 def main() -> None:
@@ -1183,28 +2106,55 @@ def main() -> None:
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
     # tests and the MC audit assemble the corpus from the chunks (scripts/_neural_decks.py,
     # e2e/decks.ts), so there is exactly ONE source of truth for a deck's cards.
+    # concepts.json + the concept dossiers — the Principles and Learning libraries. Built BEFORE
+    # the chunk write because its bodies share that chunk space (see write_ng_chunks(extra=...)).
+    conceptd, concept_dossiers = build_concepts([n["id"] for n in gd["nodes"]])
+    (OUT_DIR / "concepts.json").write_text(
+        json.dumps(conceptd, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    cm = conceptd["_meta"]
+    _cmax = max((len(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
+                 for v in concept_dossiers.values()), default=0)
+    print(f"concepts.json: {cm['principles']} principles + {cm['learning']} learning = "
+          f"{cm['count']} concepts, {cm['nodes']} lit nodes, {cm['related']} cross-links, "
+          f"{cm['unresolved']} unresolved refs "
+          f"({cm['nonGraphRefs']} non-graph refs seen, {cm['pathSpelledRefs']} written as a page "
+          f"path, {cm['familyExpandedRefs']} family-expanded and deliberately NOT anchored, "
+          f"{cm['mdOnly']} .md-only page(s) skipped)")
+    print(f"concepts/: {len(concept_dossiers)} readable bodies into the content/ chunk space, "
+          f"fattest {_cmax} bytes (chunk ceiling 40,000)")
+    # POSITIVE COVERAGE, HARD FLOOR (CLAUDE.md section 6.6). Every concept must reach a body: this
+    # payload exists because a click used to open a search instead of content, and "the section is
+    # empty" and "the section renders stubs" look identical from the outside. A file that stops
+    # parsing, a renamed authored field, a template drift — each of them lands here, loudly.
+    if len(concept_dossiers) < cm["count"]:
+        raise SystemExit(
+            f"[neural] concepts: {len(concept_dossiers)}/{cm['count']} carry a readable body. "
+            f"A concept row with no dossier opens an empty panel — the exact failure this payload "
+            f"was added to end. Check CONCEPT_FIELDS against the authored template."
+        )
+
     # Per-node dossiers, one chunk each, replacing the 21.2MB technique-content.js.
     from _neural_content import write_ng_chunks
-    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content")
+    n_ng, n_files, n_coll = write_ng_chunks(graph, OUT_DIR / "content", extra=concept_dossiers)
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph)
+    n_belts = build_curriculum(OUT_DIR, graph, decks)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 
     # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
     # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
     # a node the graph does not have.
-    sysd = build_systems(graph, [n["id"] for n in gd["nodes"]])
+    sysd = build_systems(graph, gd["nodes"])
     (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
     sm = sysd["_meta"]
     print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
-          f"{sm['unresolved']} unresolved refs, {sm['products']} products "
-          f"({sm['nonGraphRefs']} non-graph cross-refs skipped)")
+          f"{sm['unresolved']} unresolved refs, {sm['unanchored']} unanchored family refs, "
+          f"{sm['products']} products ({sm['nonGraphRefs']} non-graph cross-refs skipped)")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload, "

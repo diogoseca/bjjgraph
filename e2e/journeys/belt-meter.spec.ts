@@ -65,8 +65,13 @@ test.describe("Score belt retired @curated", () => {
 
     await page.evaluate(() => {
       const a = (window as any).__neural;
+      // `f` is REQUIRED since v1.146.0: the weights table is per ruleset, so `gameScore`
+      // memoises on (_stageVer, frame). A seed without it misses and the real score is
+      // recomputed, which reads as "the subtitle ignored my seed". Derived, never hard-coded,
+      // so it cannot drift from the app's own default.
       a._scoreCache = {
         v: a._stageVer || 0,
+        f: a._giMode === "nogi" ? "nogi" : "gi",
         out: { score: 0.5, belt: "blue", next: "purple", stripes: 2 },
       };
       a.renderTabSubtitles();

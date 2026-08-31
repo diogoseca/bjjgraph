@@ -303,7 +303,7 @@ The Rear Triangle Choke Finish from the attacker's perspective is a systematic s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rear Triangle Choke from Rear Triangle]] | 55% |
+| Success | [[Submissions/Rear Triangle Choke/from Rear Triangle]] | 55% |
 | Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 

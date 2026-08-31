@@ -82,14 +82,12 @@ test("a correct landing answer consumes refund #1, the JIT drill gets #2 then is
   await page.locator(`[data-tech="${options[0]}"]`).first().click()
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
 
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
+  await j.jitGrade()
   const r2 = await remaining()
   expect(r2 - r1, "the first JIT grade still fits the budget — refund #2 granted").toBeGreaterThanOrEqual(2)
 
   // ── DENIED: the second JIT grade — separate per-surface budgets would have granted it ──
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
+  await j.jitGrade()
   const r3 = await remaining()
   expect(r3 - r2, "the second JIT grade is denied — the landing answer already ate slot #1").toBeLessThan(1)
 

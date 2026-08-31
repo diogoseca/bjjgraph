@@ -291,6 +291,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 ## Related
 - [[Submissions/Rear Naked Choke]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Short Choke]]

@@ -333,7 +333,7 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 
 - [[Transitions/Escape from Dead Orchard]] - Related escape pathway from dead orchard control
 
-- [[Anaconda Choke from Dead Orchard]] - Submission threat that motivates this escape attempt
+- [[Submissions/Anaconda Choke/from Dead Orchard]] - Submission threat that motivates this escape attempt
 
 - [[Transitions/Granby Roll to Guard]] - Similar rolling escape mechanic for recovering guard from a back-exposed scramble
 

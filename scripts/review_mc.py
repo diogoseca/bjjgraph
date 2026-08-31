@@ -69,7 +69,7 @@ REVIEW_SCHEMA = {
 
 PROMPT_HEAD = """You are a demanding BJJ head instructor auditing multiple-choice flashcards for a trainer. Be SKEPTICAL — flag a card WEAK unless it is clearly excellent.
 
-For EACH card you are given its question, the full answer (GROUND TRUTH), and the current 4-option MC (1 correct cue + 2 plausible-wrong + 1 trap). Judge:
+For EACH card you are given its question, the full answer (GROUND TRUTH), and the current authored MC set (1 correct cue + 2 plausible-wrong + 1 trap). The app RENDERS THREE OPTIONS from it: the cue, the trap (always), and ONE of the two plausible lines. So the trap is what the player meets every time — judge it hardest — and each plausible must stand on its own, because it may be the only one shown. Judge:
 1. Is the CUE unambiguously the single best/correct answer per the full answer? (weak if ambiguous, partially wrong, or not the key point)
 2. Are BOTH plausible options wrong-but-tempting to a beginner and NOT accidentally correct? (weak if any is actually correct, or is obviously wrong / silly)
 3. Is the TRAP genuinely PUNISHING — gives up position, gets finished/passed/hurt — not merely suboptimal? (weak if it isn't really a trap)

@@ -388,32 +388,32 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Rubber Guard]] (Position) - Core control position serving as foundation for entire system
-- [[Mission Control]] (Position) - Critical checkpoint position for arm isolation and angle creation
-- [[New York]] (Position) - Final positioning checkpoint before triangle completion
-- [[Triangle Control]] (Position) - Finishing position with locked triangle and angle optimization
-- [[Closed Guard]] (Position) - Starting position where rubber guard entries are initiated
-- [[Omoplata Control]] (Position) - Primary alternative submission position when triangle is defended
-- [[Gogoplata Control]] (Position) - Alternative finish available from Mission Control and New York
-- [[Triangle from Guard]] (Submission) - Primary submission finish of the system
-- [[Rolling Omoplata from Omoplata Control]] (Submission) - Alternative omoplata submission when opponent defends triangle by extracting arm
-- [[Gogoplata]] (Submission) - High-level alternative when opponent's posture is extremely broken
-- [[Armbar Control]] (Position) - Control position reached when transitioning from triangle to armbar against stacking defense
-- [[Baratoplata]] (Submission) - Advanced alternative when opponent grabs leg to defend triangle
-- [[Triangle Setup]] (Transition) - Entry mechanics from various guard positions into triangle control
-- [[Closed Guard to Triangle]] (Transition) - Direct entry path bypassing rubber guard system for traditional setups
-- [[Triangle to Omoplata]] (Transition) - Fallback transition when triangle defense is successful
-- [[Triangle to Armbar]] (Transition) - Counter transition when opponent attempts stack defense
-- [[Switch to Triangle]] (Transition) - Entry mechanics from other submission attempts
-- [[Posture]] (Principle) - Foundational principle required before rubber guard establishment
-- [[Defensive Concepts]] (Principle) - Defensive framework for maintaining guard integrity throughout offensive sequences
-- [[Position Chains]] (Principle) - Theoretical foundation for linking control positions into multiple submission pathways
-- [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation essential for rubber guard positioning and angle creation
-- [[Fork Attacks]] (Principle) - Strategic framework for chaining triangle with alternative attacks that force defensive choices
-- [[10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy
-- [[Rubber Guard to Omoplata System]] (System) - Parallel system sharing control positions but emphasizing omoplata finish
-- [[Ryan Hall Triangle System]] (System) - Alternative triangle system using traditional closed guard entries
-- [[10th Planet No-Gi Guard System]] (System) - Comprehensive guard framework integrating rubber guard with other 10th Planet positions
+- [[Positions/Rubber Guard|Rubber Guard]] (Position) - Core control position serving as foundation for entire system
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) - Critical checkpoint position for arm isolation and angle creation
+- [[Positions/Rubber Guard/New York|New York]] (Position) - Final positioning checkpoint before triangle completion
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Finishing position with locked triangle and angle optimization
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Starting position where rubber guard entries are initiated
+- [[Positions/Omoplata Control|Omoplata Control]] (Position) - Primary alternative submission position when triangle is defended
+- [[Positions/Gogoplata Control|Gogoplata Control]] (Position) - Alternative finish available from Mission Control and New York
+- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission) - Primary submission finish of the system
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control|Rolling Omoplata from Omoplata Control]] (Submission) - Alternative omoplata submission when opponent defends triangle by extracting arm
+- [[Transitions/Gogoplata|Gogoplata]] (Submission) - High-level alternative when opponent's posture is extremely broken
+- [[Positions/Armbar Control|Armbar Control]] (Position) - Control position reached when transitioning from triangle to armbar against stacking defense
+- [[Submissions/Baratoplata|Baratoplata]] (Submission) - Advanced alternative when opponent grabs leg to defend triangle
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Entry mechanics from various guard positions into triangle control
+- [[Transitions/Closed Guard to Triangle|Closed Guard to Triangle]] (Transition) - Direct entry path bypassing rubber guard system for traditional setups
+- [[Transitions/Triangle to Omoplata|Triangle to Omoplata]] (Transition) - Fallback transition when triangle defense is successful
+- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition) - Counter transition when opponent attempts stack defense
+- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition) - Entry mechanics from other submission attempts
+- [[Principles/Posture|Posture]] (Principle) - Foundational principle required before rubber guard establishment
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive framework for maintaining guard integrity throughout offensive sequences
+- [[Principles/Position Chains|Position Chains]] (Principle) - Theoretical foundation for linking control positions into multiple submission pathways
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip mobility foundation essential for rubber guard positioning and angle creation
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic framework for chaining triangle with alternative attacks that force defensive choices
+- [[Systems/10th Planet Rubber Guard System|10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy
+- [[Systems/Rubber Guard to Omoplata System|Rubber Guard to Omoplata System]] (System) - Parallel system sharing control positions but emphasizing omoplata finish
+- [[Systems/Ryan Hall Triangle System|Ryan Hall Triangle System]] (System) - Alternative triangle system using traditional closed guard entries
+- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - Comprehensive guard framework integrating rubber guard with other 10th Planet positions
 
 
 </section>

@@ -321,7 +321,7 @@ The underhook sweep sits at the center of the butterfly guard bottom system, com
 
 - [[Positions/Dogfight Position]] - Intermediate scramble en route to the back take
 
-- [[Kimura from Butterfly Guard]] - Alternative attack when opponent exposes the near arm
+- [[Submissions/Kimura/from Butterfly Guard]] - Alternative attack when opponent exposes the near arm
 
 - [[Transitions/Underhook Pass]] - Counter concept from the top player's perspective
 

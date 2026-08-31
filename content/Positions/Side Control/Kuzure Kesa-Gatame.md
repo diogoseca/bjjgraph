@@ -277,25 +277,25 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (18% of attempts)
+- **[[Submissions/Americana/from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (18% of attempts)
 
-- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (16% of attempts)
+- **[[Submissions/Kimura/from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (16% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
+- **[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
-- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (13% of attempts)
+- **[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (13% of attempts)
 
-- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
+- **[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (10% of attempts)
 
 - **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (10% of attempts)
 
-- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (7% of attempts)
+- **[[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (7% of attempts)
 
 
 ### Common Mistakes

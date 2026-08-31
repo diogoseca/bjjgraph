@@ -312,7 +312,7 @@ The whizzer from deep half guard occupies a critical role in the top player's ha
 
 - [[Transitions/Electric Chair Entry from Deep Half]] - Bottom player's counter-attack option when whizzer is applied
 
-- [[Transitions/Kimura from Half Guard]] - Submission chain available by converting whizzer grip to kimura
+- [[Submissions/Kimura/from Half Guard]] - Submission chain available by converting whizzer grip to kimura
 
 - [[Transitions/Deep Half Entry]] - Entry technique that creates the position requiring the whizzer counter
 

@@ -16,6 +16,7 @@ on:
       - "scripts/**"
       - "graph.json"
       - "tests/artifacts/graph_validation_baseline.json"
+      - "tests/artifacts/seat_deck_baseline.json"
       - "node_ordinals.json"
       # the ordinal gate's INPUT is the layout: a node added there without a mint is exactly what
       # validate:ordinals exists to catch, and the filter used to let that PR through untested.
@@ -30,6 +31,10 @@ on:
       # emitter would never run the one test written to notice — the filter must include the
       # INPUTS its own gates read (CLAUDE.md §6.7), or the job goes green by never being triggered.
       - "source/quartz/plugins/emitters/componentResources.ts"
+      # tests/lastmod_git_path.test.mjs pins the pathspec lastmod.ts hands libgit2. Same rule as
+      # the line above: the gate's own subject must be in the filter, or the PR that breaks it is
+      # the one PR that never runs it.
+      - "source/quartz/plugins/transformers/lastmod.ts"
       # the CLAUDE.md budget + reference gates. Listing these is load-bearing, not tidiness:
       # a gate wired behind a path filter that excludes its own subject never runs on the PR
       # that breaks it, which is this repo's "absence produces a plausible answer" class in
@@ -77,6 +82,28 @@ jobs:
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
 
+      # The seat axis: a card served to a seat must have been written FOR that seat, and every
+      # seat that ships a deck must own at least one such card. Reads `content/**` and NOTHING
+      # else — deliberately above the payload emit below, because a gate whose corpus is
+      # gitignored does not fail on a fresh checkout, it SKIPS and prints the same clean line it
+      # would print if it had looked (CLAUDE.md §6.6). Its reachability half is S3, in
+      # tests/neural_seat_decks.test.mjs, which does need the emitted wire and therefore runs in
+      # "Pure unit suites" below.
+      - name: Seat-deck invariant (gate)
+        run: npm run validate:seats
+
+      # THE SCORE MUST BE ABLE TO SEE ITS OWN RULESET (v1.146.0). `--gate` fires on section 1
+      # only: a frame that scores an ATTEMPTABLE technique at zero. Written in v1.145.10 and
+      # deliberately left wired into no workflow, because the defect it fires on was still
+      # shipping -- 52 gi-only techniques at weight 0 under the DEFAULT ruleset, which v1.145.13
+      # widened to 104 decks / 739 cards across both seats. That is fixed, so the gate is armed.
+      # It is what stops the folded `attemptProbability` coming back: every route to this bug runs
+      # through one function, and a caller that omits the frame no longer compiles.
+      # Reads the COMMITTED graph.json through the emitter's own functions, so it is
+      # self-contained here and does not need the payload emit below.
+      - name: Score covers its ruleset (gate)
+        run: npm run validate:score-coverage:gate
+
       # THE CORPUS THE STEPS BELOW READ IS GENERATED, NOT COMMITTED (v1.129.2).
       # `source/quartz/static/neural/` is gitignored in its entirety (.gitignore:71), so
       # `graph-data.json`, `curriculum.json` and the flashcard chunks do not exist on a fresh
@@ -101,6 +128,15 @@ jobs:
       # gates. Needs the payload above — see the ordering note there before moving either step.
       - name: Pure unit suites
         run: node --test tests/*.test.mjs
+
+      # Per-ruleset exclusion (v1.149.0). MUST stay below the payload emit: its headline check is
+      # WIRE PARITY — that every `cal.avail` the app filters on equals the reachability walk. Every
+      # app-side test asserts "no surface shows an unavailable node PER THE MASK", so a mask that
+      # lies is invisible to all of them and only this step can see it. Without the payload the
+      # script prints "wire parity: SKIPPED" and still exits 0, which is a pass that checked the
+      # half that does not ship.
+      - name: Ruleset availability (wire parity, zero mass loss, no dead ends)
+        run: npm run validate:availability
 
       # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
       # references are acted on. Two cheap stdlib gates, no deps:

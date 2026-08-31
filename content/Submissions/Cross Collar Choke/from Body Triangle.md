@@ -313,6 +313,7 @@ This submission is particularly effective as a complement to the rear naked chok
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Back Control/Body Triangle]] - Primary starting position providing lower body control
 - [[Positions/Back Control]] - Parent position category for body triangle control
+- [[Submissions/Rear Naked Choke/from Body Triangle]] - Primary alternative submission creating attack chain
 
 </section>
 

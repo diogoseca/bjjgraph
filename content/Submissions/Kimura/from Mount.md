@@ -323,6 +323,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Triangle Choke]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Positions/Mount]] - Primary starting position - mount control must be established before attempting submission
 - [[Positions/Mount/High Mount]] - Optimal setup position - provides chest pressure and arm isolation opportunities
 - [[Positions/Mount/S Mount]] - Enhanced control variation - prevents rolling defenses more effectively

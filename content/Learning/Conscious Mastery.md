@@ -226,18 +226,18 @@ A: You memorize answers for specific sides of specific positions but never learn
 <section id="related" class="content-section">
 
 ## Related
-- [[Probabilistic Thinking]] (Learning) - The knowledge graph ranks each position's options by success rate -- conscious mastery means instantly recalling the highest-percentage choice
-- [[Committed Techniques]] (Learning) - Reading a position consciously includes weighing the failure cost of each option, not just its odds of success
-- [[Technique Chaining]] (Learning) - Role-level flashcards drill the read-then-answer pairing that lets chained attacks fire in the right sequence at speed
-- [[Training Partner Diversity]] (Learning) - Family-level principles are what transfer across the varied looks that different partners give you
-- [[Positional Sparring]] (Principle) - Fixed-position rounds are where flashcard recall is converted into a deliberate on-the-mat read
-- [[Positional Hierarchy]] (Principle) - The positional ladder underlies why higher positions offer higher-percentage options for the graph to rank
-- [[Position Chains]] (Principle) - The graph maps positions to their strongest transitions, which is the chain a practitioner rehearses through tiered cards
-- [[Control Maintenance]] (Principle) - Family-level principles like maintaining control transfer across every variant of a position
-- [[Mount]] (Position) - The family hub whose "Mount principles" illustrate the most general tier of the hierarchy
-- [[High Mount]] (Position) - The position-level and role-level examples used throughout: "High Mount mechanics" and "High Mount, top"
-- [[Back Control]] (Position) - A position whose ranked options in the graph make role-level flashcard recall especially decisive
-- [[Closed Guard]] (Position) - A position where family, position, and role tiers each teach a distinct layer of the same configuration
+- [[Learning/Probabilistic Thinking|Probabilistic Thinking]] (Learning) - The knowledge graph ranks each position's options by success rate -- conscious mastery means instantly recalling the highest-percentage choice
+- [[Learning/Committed Techniques|Committed Techniques]] (Learning) - Reading a position consciously includes weighing the failure cost of each option, not just its odds of success
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Role-level flashcards drill the read-then-answer pairing that lets chained attacks fire in the right sequence at speed
+- [[Learning/Training Partner Diversity|Training Partner Diversity]] (Learning) - Family-level principles are what transfer across the varied looks that different partners give you
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Fixed-position rounds are where flashcard recall is converted into a deliberate on-the-mat read
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - The positional ladder underlies why higher positions offer higher-percentage options for the graph to rank
+- [[Principles/Position Chains|Position Chains]] (Principle) - The graph maps positions to their strongest transitions, which is the chain a practitioner rehearses through tiered cards
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Family-level principles like maintaining control transfer across every variant of a position
+- [[Positions/Mount|Mount]] (Position) - The family hub whose "Mount principles" illustrate the most general tier of the hierarchy
+- [[Positions/Mount/High Mount|High Mount]] (Position) - The position-level and role-level examples used throughout: "High Mount mechanics" and "High Mount, top"
+- [[Positions/Back Control|Back Control]] (Position) - A position whose ranked options in the graph make role-level flashcard recall especially decisive
+- [[Positions/Closed Guard|Closed Guard]] (Position) - A position where family, position, and role tiers each teach a distinct layer of the same configuration
 
 
 

@@ -509,6 +509,146 @@
             "Crank past the elastic give"
           ]
         }
+      },
+      {
+        "question": "What is the optimal timing window for establishing the Kimura grip from half guard bottom?",
+        "answer": "The best timing occurs when the top player posts their hand on the mat for base, reaches across your body for crossface or underhook, or extends their arm during a passing attempt. These moments create arm exposure with the opponent's weight committed in a direction that makes retraction difficult. Attempting the grip when the opponent has their elbows tight and weight settled results in significantly lower success.",
+        "answer_line": "When they post a hand for base",
+        "distractors": {
+          "plausible": [
+            "When they're flat and heavy",
+            "Right as guard gets passed"
+          ],
+          "trap": [
+            "When their elbows are tight"
+          ]
+        }
+      },
+      {
+        "question": "Why must the inside arm thread deep near the opponent's elbow rather than their wrist?",
+        "answer": "Threading deep near the elbow provides substantially greater mechanical leverage for both controlling the shoulder joint and finishing the Kimura submission. A shallow grip near the wrist allows the opponent to straighten their arm and power out of the figure-four configuration through simple extension. The deep thread creates a shorter lever arm that requires less strength to maintain and generates more rotational force on the shoulder girdle.",
+        "answer_line": "Deep elbow grip, not wrist",
+        "distractors": {
+          "plausible": [
+            "Wrist grip is easier to catch",
+            "Elbow grip is safer for you"
+          ],
+          "trap": [
+            "Grip the wrist for control"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat while you have half guard bottom - how do you initiate the Kimura entry?",
+        "answer": "Secure their posted wrist with your outside hand using a quick C-grip before they retract. Immediately thread your inside arm deep under their tricep toward the elbow while pulling their wrist toward your centerline. Complete the figure-four by grabbing your own wrist. The posting hand is the most vulnerable target because their weight is committed forward through that arm, making retraction slow and giving you a larger entry window.",
+        "answer_line": "C-grip wrist, thread to elbow",
+        "distractors": {
+          "plausible": [
+            "Grab wrist, pull to your hip",
+            "Thread arm first, then grip wrist"
+          ],
+          "trap": [
+            "Overhook the arm and roll"
+          ]
+        }
+      },
+      {
+        "question": "What is the critical hip position required before attempting the Kimura grip from half guard?",
+        "answer": "You must be on your side with your inside hip elevated off the mat, creating an angle toward the opponent rather than lying flat on your back. This side position enables you to thread your inside arm under their tricep effectively and provides the hip mobility needed to drive the arm across their centerline. Attempting the Kimura while flat results in insufficient arm reach, weak grip leverage, and vulnerability to being smashed and passed.",
+        "answer_line": "Inside hip up, angle to them",
+        "distractors": {
+          "plausible": [
+            "Flat back, hips square",
+            "Outside hip elevated, angled away"
+          ],
+          "trap": [
+            "Stay flat to stay safe"
+          ]
+        }
+      },
+      {
+        "question": "How should you respond when the opponent begins pulling their arm back after you have secured the Kimura grip?",
+        "answer": "Maintain the grip firmly with elbows tight to your body and immediately increase rotational pressure on their shoulder to make extraction uncomfortable. Simultaneously use your hips to bridge into them, driving their trapped arm further across their centerline. Their arm retraction attempt can be converted into a sweep opportunity by using their pulling momentum against their own base. Never chase their arm by extending your own arms, as this compromises your grip structure.",
+        "answer_line": "Hold tight, bridge into sweep",
+        "distractors": {
+          "plausible": [
+            "Loosen grip, reset angle",
+            "Switch to armbar attack"
+          ],
+          "trap": [
+            "Chase arm by extending yours"
+          ]
+        }
+      },
+      {
+        "question": "What grip configuration is essential for maximum control in the Kimura from half guard?",
+        "answer": "The figure-four configuration requires your inside hand to grip your own outside wrist after threading deep under the opponent's tricep near the elbow. Your outside hand maintains a C-grip on the opponent's wrist with your thumb wrapped around for maximum control. Both elbows should be pulled tight to your body to create structural integrity. The grip functions as a closed chain where your body weight reinforces the lock rather than relying on grip strength alone.",
+        "answer_line": "Figure-four, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Grip wrist with both hands",
+            "Overhook grip, elbows flared"
+          ],
+          "trap": [
+            "Loose grip, rely on strength"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent drives forward aggressively to flatten you after you secure initial wrist control - what do you do?",
+        "answer": "Use their forward momentum to complete the Kimura grip faster by pulling their wrist toward your centerline as they drive. Their forward pressure actually assists the arm threading process by bringing their tricep closer to your inside hand. Once the figure-four is locked, their forward drive can be redirected into a rolling Kimura sweep where you use their committed weight to come on top. The key is to redirect their pressure through the Kimura system rather than fighting it.",
+        "answer_line": "Use momentum, finish grip fast",
+        "distractors": {
+          "plausible": [
+            "Brace and stop their drive",
+            "Retreat to reset your base"
+          ],
+          "trap": [
+            "Release wrist, frame instead"
+          ]
+        }
+      },
+      {
+        "question": "What role does the half guard leg entanglement play during the Kimura grip establishment?",
+        "answer": "The half guard leg entanglement serves as the critical anchor preventing the top player from disengaging and pulling away when you attack their arm. Without maintaining the leg entanglement, the top player can sprawl back, create distance, and extract their arm before the Kimura grip is consolidated. The trapped leg also limits their ability to change angle or circle to pass, keeping them in the plane where your arm attack is most effective.",
+        "answer_line": "Anchors them, stops retreat",
+        "distractors": {
+          "plausible": [
+            "Helps you finish the choke",
+            "Protects against leg locks"
+          ],
+          "trap": [
+            "Free your legs to attack arm"
+          ]
+        }
+      },
+      {
+        "question": "Your initial Kimura entry fails and the opponent retracts their arm before you can lock the figure-four - what chain attacks are available?",
+        "answer": "When the Kimura entry fails, you have several immediate follow-up options that exploit the opponent's defensive reaction. Their arm retraction typically pulls their weight backward, which opens underhook access on the same side for a standard half guard sweep or back take. If they retract by pulling their elbow tight, you can switch to an overhook on that arm and threaten overhook sweeps. The failed Kimura attempt also creates a momentary disruption in their passing pressure, giving you a window to re-establish knee shield or transition to deep half guard.",
+        "answer_line": "Underhook sweep or overhook",
+        "distractors": {
+          "plausible": [
+            "Reset and repeat Kimura grip",
+            "Switch directly to armbar"
+          ],
+          "trap": [
+            "Chase the retracting arm"
+          ]
+        }
+      },
+      {
+        "question": "How does combining the lockdown with the Kimura grip entry change the attack mechanics?",
+        "answer": "The lockdown anchors the opponent's trapped leg and forces their hips low, breaking their posture and preventing them from posturing up or disengaging when you attack the arm. This creates a more controlled entry environment where the opponent must post their hand to resist the lockdown's pulling force, directly exposing the arm you need for the Kimura. The lockdown also prevents the knee slice pass counter because their leg is immobilized, eliminating the highest-percentage defensive response to the Kimura entry from half guard.",
+        "answer_line": "Lockdown forces post, exposes arm",
+        "distractors": {
+          "plausible": [
+            "Lockdown speeds up submissions",
+            "Lockdown frees your hips to move"
+          ],
+          "trap": [
+            "Release lockdown to attack arm"
+          ]
+        }
       }
     ],
     "clips": [
@@ -538,6 +678,15 @@
         "channel": "Combat Arts Strength and Conditioning",
         "duration": 51,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "VtfT_NNt69U",
+        "title": "Kimura from half guard bottom",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -703,6 +852,90 @@
             "Post hand hard to stop rotation"
           ]
         }
+      },
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a Kimura from half guard bottom?",
+        "answer": "The earliest cue is when the bottom player releases their underhook or primary frame to reach for your arm, typically your posting hand or the arm establishing crossface. You may also feel their inside hand beginning to thread under your tricep or their body angle shifting aggressively to their side. Recognizing these early movements before the figure-four is locked gives you the widest window for prevention through arm retraction or forward pressure.",
+        "answer_line": "They release frame to grab arm",
+        "distractors": {
+          "plausible": [
+            "They post their hand for base",
+            "They flatten onto their back"
+          ],
+          "trap": [
+            "They dive for an underhook"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent has secured wrist control but has not completed the figure-four - what is your best immediate response?",
+        "answer": "Immediately pull your arm back toward your own hip while simultaneously driving your chest forward and down into the opponent's torso. The combination of arm retraction with forward pressure makes it nearly impossible for them to thread their inside arm under your tricep. If you cannot retract the arm, circle your elbow inward toward your own body to close the space under your tricep that they need for the thread. Speed is critical because once the figure-four locks, extraction becomes exponentially harder.",
+        "answer_line": "Retract arm, drive chest down",
+        "distractors": {
+          "plausible": [
+            "Push away and create space",
+            "Grab their wrist in return"
+          ],
+          "trap": [
+            "Extend arm to break the grip"
+          ]
+        }
+      },
+      {
+        "question": "How does maintaining proper arm discipline prevent the Kimura from half guard?",
+        "answer": "Keep your elbows connected to your body as the default position, never posting your hand near the opponent's centerline where it becomes vulnerable. When you must post for base, use the hand on the far side away from the opponent's reach. If establishing crossface, drive your arm across with your elbow tight rather than reaching with an extended arm. This discipline eliminates the arm exposure that creates the Kimura entry window entirely.",
+        "answer_line": "Keep elbows tight, no reach",
+        "distractors": {
+          "plausible": [
+            "Post with your near hand",
+            "Extend arm to control distance"
+          ],
+          "trap": [
+            "Reach across for crossface"
+          ]
+        }
+      },
+      {
+        "question": "What positional advancement opportunity exists when you successfully defend the Kimura attempt from half guard top?",
+        "answer": "When the bottom player commits both hands to the Kimura attempt, they sacrifice their primary frames and underhook control. This creates an immediate passing window because they have no defensive structure remaining to prevent your weight from settling. Drive your chest forward and down while working to free your trapped leg, as their lack of frames allows you to complete the pass to side control. Their failed Kimura attempt often leaves them flat on their back without the hip angle needed for guard retention.",
+        "answer_line": "Pass while they lack frames",
+        "distractors": {
+          "plausible": [
+            "Wait for them to re-frame",
+            "Switch to attacking the arm"
+          ],
+          "trap": [
+            "Back away to reset posture"
+          ]
+        }
+      },
+      {
+        "question": "Why is driving weight forward more effective than retreating when defending the Kimura grip establishment?",
+        "answer": "Forward pressure flattens the bottom player's hip angle, which is the structural foundation they need for threading their arm and completing the figure-four. When you retreat or lean back, you create the exact space they need to deepen their grip and access sweeping leverage. Forward pressure also pins their shoulders and reduces their ability to turn to their side, which is essential for the Kimura entry mechanics. Additionally, your forward weight makes their cross-body arm pull ineffective because your mass resists the directional force of the Kimura system.",
+        "answer_line": "Forward pressure flattens hips",
+        "distractors": {
+          "plausible": [
+            "Retreating creates safe space",
+            "Standing up escapes better"
+          ],
+          "trap": [
+            "Lean back to avoid the grip"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent has established a full Kimura grip and begins threatening a sweep - what is your defensive priority?",
+        "answer": "Your immediate priority is preventing the sweep rather than stripping the grip, because losing top position with the Kimura grip intact puts you in a far worse situation. Widen your base by posting your free hand far to the side and sprawling your hips to lower your center of gravity. Simultaneously drive your chest into their torso to flatten their hips and reduce their sweeping leverage. Once your base is stabilized against the sweep, begin working the grip break through controlled circular elbow movement combined with sustained forward pressure to degrade the figure-four structure.",
+        "answer_line": "Stop sweep first, then grip",
+        "distractors": {
+          "plausible": [
+            "Strip the grip immediately",
+            "Sit back to break the lock"
+          ],
+          "trap": [
+            "Roll away to escape the sweep"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -754,6 +987,15 @@
         "channel": "Revolution BJJ Ashland",
         "duration": 53,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "7dU6lsfyowU",
+        "title": "Escaping and preventing the half guard kimura",
+        "by": "Kieran Davern",
+        "vertical": false,
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 259,
+        "verified": "2026-07-15"
       }
     ]
   }

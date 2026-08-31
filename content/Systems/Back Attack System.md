@@ -365,34 +365,34 @@ Begin with static positional drills establishing harness control and hook placem
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Back Control]] (Position) - Primary position this system operates from and seeks to achieve
-- [[Seat Belt Control Back]] (Position) - Fundamental control configuration that enables all back attacks
-- [[Body Triangle]] (Position) - Alternative lower body control option for maximum compression
-- [[Turtle]] (Position) - Common starting position for back take entries and attacks
-- [[Crucifix]] (Position) - Advanced control variation accessed from persistent back defense
-- [[Gift Wrap]] (Position) - Arm isolation position that sets up back attacks and submissions
-- [[Rear Triangle]] (Position) - Submission control position accessible from back mount
-- [[Rear Naked Choke]] (Submission) - Primary submission finish and foundational attack from back control
-- [[Armbar from Back Transition]] (Transition) - Secondary attack that capitalizes on choke defense reactions
-- [[Bow and Arrow Choke]] (Submission) - Gi-specific submission using collar control from back position
-- [[Choke from Crucifix]] (Submission) - Advanced finish from arm isolation variations
-- [[Chair Sit to Back]] (Transition) - Fundamental entry from turtle position to back control
-- [[Arm Drag to Back]] (Transition) - Common entry from guard and standing positions
-- [[Turtle to Back Take]] (Transition) - Multiple entry options from opponent's defensive turtle position
-- [[Kimura to Back Take]] (Transition) - Back entry when opponent defends kimura submission attempts
-- [[Triangle to Back]] (Transition) - Transition pathway when triangle attempt is defended or incomplete
-- [[Rolling Back Take]] (Transition) - Dynamic entry from various scramble and transition situations
-- [[Single Leg to Back Take]] (Transition) - Standing entry when opponent defends single leg takedown
-- [[Control Maintenance]] (Principle) - Core principle emphasizing positional security before submission
-- [[Position Chains]] (Principle) - Sequential attack methodology that links positions and submissions into continuous pressure
-- [[Position-Over-Submission Approach]] (Principle) - Strategic framework prioritizing dominant position establishment
-- [[Hand Fighting]] (Principle) - Essential skill for removing defensive frames and creating submission access from back
-- [[Chin Protection]] (Principle) - Understanding opponent's primary defense helps create attack sequences
-- [[Back Door Escape]] (Transition) - Understanding escape mechanics improves attack and control strategies
-- [[Danaher Straight Jacket System]] (System) - Complementary system focusing on front bodylock to back control sequences
-- [[Garry Tonon Leg Lock to Back System]] (System) - Integration approach connecting leg attacks with back take opportunities
-- [[Roger Gracie Fundamental System]] (System) - Traditional approach emphasizing position-based back attacks and basic submissions
-- [[Defensive Prioritization Framework]] (System) - Understanding defensive hierarchies informs systematic attack sequences
+- [[Positions/Back Control|Back Control]] (Position) - Primary position this system operates from and seeks to achieve
+- [[Positions/Back Control/Seat Belt Control Back|Seat Belt Control Back]] (Position) - Fundamental control configuration that enables all back attacks
+- [[Positions/Back Control/Body Triangle|Body Triangle]] (Position) - Alternative lower body control option for maximum compression
+- [[Positions/Turtle|Turtle]] (Position) - Common starting position for back take entries and attacks
+- [[Positions/Crucifix|Crucifix]] (Position) - Advanced control variation accessed from persistent back defense
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Arm isolation position that sets up back attacks and submissions
+- [[Positions/Triangle Control/Rear Triangle|Rear Triangle]] (Position) - Submission control position accessible from back mount
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission finish and foundational attack from back control
+- [[Transitions/Armbar from Back Transition|Armbar from Back Transition]] (Transition) - Secondary attack that capitalizes on choke defense reactions
+- [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]] (Submission) - Gi-specific submission using collar control from back position
+- [[Submissions/Choke from Crucifix|Choke from Crucifix]] (Submission) - Advanced finish from arm isolation variations
+- [[Transitions/Chair Sit to Back|Chair Sit to Back]] (Transition) - Fundamental entry from turtle position to back control
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) - Common entry from guard and standing positions
+- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) - Multiple entry options from opponent's defensive turtle position
+- [[Transitions/Kimura to Back Take|Kimura to Back Take]] (Transition) - Back entry when opponent defends kimura submission attempts
+- [[Transitions/Triangle to Back|Triangle to Back]] (Transition) - Transition pathway when triangle attempt is defended or incomplete
+- [[Transitions/Rolling Back Take|Rolling Back Take]] (Transition) - Dynamic entry from various scramble and transition situations
+- [[Transitions/Single Leg to Back Take|Single Leg to Back Take]] (Transition) - Standing entry when opponent defends single leg takedown
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Core principle emphasizing positional security before submission
+- [[Principles/Position Chains|Position Chains]] (Principle) - Sequential attack methodology that links positions and submissions into continuous pressure
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic framework prioritizing dominant position establishment
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Essential skill for removing defensive frames and creating submission access from back
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - Understanding opponent's primary defense helps create attack sequences
+- [[Transitions/Back Door Escape|Back Door Escape]] (Transition) - Understanding escape mechanics improves attack and control strategies
+- [[Systems/Danaher Straight Jacket System|Danaher Straight Jacket System]] (System) - Complementary system focusing on front bodylock to back control sequences
+- [[Systems/Garry Tonon Leg Lock to Back System|Garry Tonon Leg Lock to Back System]] (System) - Integration approach connecting leg attacks with back take opportunities
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Traditional approach emphasizing position-based back attacks and basic submissions
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Understanding defensive hierarchies informs systematic attack sequences
 
 
 </section>

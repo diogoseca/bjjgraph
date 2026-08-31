@@ -302,9 +302,9 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (19% of attempts)
+- **[[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (19% of attempts)
 
-- **[[Toe Hold from Cross Ashi-Garami/Attacker|Toe Hold from Cross Ashi-Garami]]** (10% of attempts)
+- **[[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Toe Hold from Cross Ashi-Garami]]** (10% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (17% of attempts)
 
@@ -312,7 +312,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (9% of attempts)
 
-- **[[Heel Hook from Cross Ashi-Garami/Attacker|Heel Hook from Cross Ashi-Garami]]** (18% of attempts)
+- **[[Submissions/Heel Hook/from Cross Ashi-Garami/Attacker|Heel Hook from Cross Ashi-Garami]]** (18% of attempts)
 
 - **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (10% of attempts)
 

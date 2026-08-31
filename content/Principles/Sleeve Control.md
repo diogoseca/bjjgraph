@@ -468,18 +468,18 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 
 
 ### Related Content
-- [[Hand Fighting]] (Principle) - Hand fighting skills provide the foundational contact sequences needed to establish sleeve control within broader grip exchanges
-- [[Collar Control]] (Principle) - Complementary gripping concept that combines with sleeve control to create powerful two-point control systems
-- [[Posture]] (Principle) - Primary application of sleeve control - extending arms and pulling across centerline breaks opponent's upright posture
-- [[Spider Guard]] (Position) - Guard position built entirely on double sleeve control with feet in biceps creating maximum extension control
-- [[Lasso Guard]] (Position) - Guard variation using threaded leg around controlled sleeve to create mechanical lock on opponent's arm
-- [[Collar Sleeve Guard]] (Position) - Dedicated guard system optimizing the synergy between collar and sleeve grip combinations
-- [[Closed Guard]] (Position) - Foundational position where cross-sleeve and collar control creates primary closed guard control system
-- [[De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
-- [[Grips]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
-- [[Defensive Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity
-- [[Distance Control]] (Principle) - Sleeve control is the primary mechanism for regulating distance in guard - pulling to close range for attacks or extending to create defensive space
-- [[Butterfly Guard]] (Position) - Position where two-on-one sleeve control combines with butterfly hooks to create a high-percentage elevation sweep platform
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Hand fighting skills provide the foundational contact sequences needed to establish sleeve control within broader grip exchanges
+- [[Principles/Collar Control|Collar Control]] (Principle) - Complementary gripping concept that combines with sleeve control to create powerful two-point control systems
+- [[Principles/Posture|Posture]] (Principle) - Primary application of sleeve control - extending arms and pulling across centerline breaks opponent's upright posture
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Guard position built entirely on double sleeve control with feet in biceps creating maximum extension control
+- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Guard variation using threaded leg around controlled sleeve to create mechanical lock on opponent's arm
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Dedicated guard system optimizing the synergy between collar and sleeve grip combinations
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Foundational position where cross-sleeve and collar control creates primary closed guard control system
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
+- [[Principles/Grips|Grips]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity
+- [[Principles/Distance Control|Distance Control]] (Principle) - Sleeve control is the primary mechanism for regulating distance in guard - pulling to close range for attacks or extending to create defensive space
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Position where two-on-one sleeve control combines with butterfly hooks to create a high-percentage elevation sweep platform
 
 
 </section>

@@ -200,6 +200,10 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 ## Related
 - [[Submissions/Americana]] - Similar shoulder lock sharing rotational mechanics - alternative finish when opponent straightens arm during defense
 - [[Submissions/Arm Triangle]] - Alternative submission from side control when opponent defends Arm Crush by pulling elbow tight to body
+- [[Submissions/Armbar/from Side Control]] - Complementary arm attack from same primary position targeting the elbow joint instead of the shoulder
+- [[Submissions/Americana/from Kesa Gatame]] - Related shoulder lock from scarf hold variant with similar arm trapping configuration
+- [[Submissions/Americana/from Kuzure Kesa-Gatame]] - Related finish from modified scarf hold where arm is already in ideal crushing position
+- [[Submissions/Armbar/from Knee on Belly]] - Alternative arm attack from adjacent setup position when knee-on-belly pressure creates arm exposure
 - [[Positions/Side Control]] - Primary attacking position - establishes the control needed for submission setup
 - [[Positions/Kimura Trap]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration

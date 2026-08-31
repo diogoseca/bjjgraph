@@ -308,7 +308,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (4% of attempts)
 
-- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
+- **[[Submissions/Arm Triangle/from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
 
 - **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (6% of attempts)
 
@@ -316,15 +316,15 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (6% of attempts)
 
-- **[[Belly Down Armbar from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
+- **[[Submissions/Belly Down Armbar/from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
 
 - **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (0% of attempts)
 
-- **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
+- **[[Submissions/Boston Crab/from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
 
-- **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (4% of attempts)
+- **[[Submissions/Kimura/from Turtle/Attacker|Kimura from Turtle]]** (4% of attempts)
 
-- **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Turtle/Attacker|Loop Choke from Turtle]]** (0% of attempts)
 
 - **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (2% of attempts)
 

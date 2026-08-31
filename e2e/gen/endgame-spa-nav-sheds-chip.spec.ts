@@ -29,7 +29,7 @@ import { multiBeltEndgame } from "./personas"
  *   - multiBeltEndgame: stage:{} is EMPTY, so every landing asks despite prep/rec=3
  *     (questionFor gates on cardStage<2, not rec) — the streak is buildable at the
  *     endgame time-point.
- *   - answers go through the real keyboard surface (A/B/C/D); truth lives in this._mc
+ *   - answers go through the real keyboard surface (A/B/C); truth lives in this._mc
  *     (never a DOM attribute), gated on surface==="land" AND _landPending (the
  *     live-unanswered signal — _mc itself lingers after an answer).
  *   - between answers: rigged-successful hop (resolve 0.01 + outcome 0.01, first

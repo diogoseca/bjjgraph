@@ -281,7 +281,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (11% of attempts)
+- **[[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (11% of attempts)
 
 - **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (21% of attempts)
 

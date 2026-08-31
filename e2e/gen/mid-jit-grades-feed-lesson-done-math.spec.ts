@@ -106,8 +106,7 @@ test("three JIT grades complete a not-yet-studied unit's lesson — unit stays i
   // ── three grades through the sheet UI: reveal → Got it (advance covers the odometer window;
   // refunds outpace the 1.8s drain, so the decision window never expires) ──
   for (let i = 0; i < 3; i++) {
-    await page.locator("[data-jit-reveal]").click()
-    await page.locator("[data-jit-got]").click()
+    await j.jitGrade()
     await j.advance(600)
   }
 

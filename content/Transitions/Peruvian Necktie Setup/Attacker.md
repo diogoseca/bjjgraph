@@ -324,7 +324,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Peruvian Necktie from Front Headlock]] | 50% |
+| Success | [[Submissions/Peruvian Necktie/from Front Headlock]] | 50% |
 | Failure | [[Positions/Front Headlock]] | 35% |
 | Counter | [[Positions/Turtle]] | 15% |
 

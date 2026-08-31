@@ -337,7 +337,7 @@ The Sweep from Cross Ashi-Garami occupies a vital niche in the defensive leg ent
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement the bottom player can enter instead of sweeping
 
-- [[Outside Heel Hook from Cross Ashi-Garami]] - Primary submission threat the sweeper must avoid during the attempt
+- [[Submissions/Outside Heel Hook/from Cross Ashi-Garami]] - Primary submission threat the sweeper must avoid during the attempt
 
 
 </section>

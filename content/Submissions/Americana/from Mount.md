@@ -330,9 +330,6 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - [[Positions/Mount/Modified Mount]]
 - [[Positions/Mount/S Mount]]
 - [[Positions/Mount/Technical Mount]]
-- [[Positions/Side Control]]
-- [[Positions/North-South]]
-- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -344,9 +341,10 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Submissions/Far Side Armbar]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
+- [[Submissions/Armbar]]
+- [[Submissions/Triangle Choke]]
 - [[Positions/Mount]] - Primary starting position for this submission
 - [[Positions/Mount/High Mount]] - Advanced positional variation that increases americana effectiveness
 - [[Positions/Mount/S Mount]] - Alternative mount position providing greater leverage for americana

@@ -312,7 +312,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (7% of attempts)
 
-- **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Mount/Attacker|Cross Collar Choke from Mount]]** (0% of attempts)
 
 - **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
 
@@ -330,19 +330,19 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (10% of attempts)
 
-- **[[Americana from Mount/Attacker|Americana from Mount]]** (8% of attempts)
+- **[[Submissions/Americana/from Mount/Attacker|Americana from Mount]]** (8% of attempts)
 
-- **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (2% of attempts)
+- **[[Submissions/Ezekiel Choke/from Mount/Attacker|Ezekiel Choke from Mount]]** (2% of attempts)
 
-- **[[Kimura from Mount/Attacker|Kimura from Mount]]** (3% of attempts)
+- **[[Submissions/Kimura/from Mount/Attacker|Kimura from Mount]]** (3% of attempts)
 
-- **[[Loop Choke from Mount/Attacker|Loop Choke from Mount]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Mount/Attacker|Loop Choke from Mount]]** (0% of attempts)
 
-- **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (1% of attempts)
+- **[[Submissions/Monoplata/from Mount/Attacker|Monoplata from Mount]]** (1% of attempts)
 
 - **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (1% of attempts)
 
-- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (8% of attempts)
+- **[[Submissions/Armbar/from Mount/Attacker|Armbar from Mount]]** (8% of attempts)
 
 - **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (3% of attempts)
 

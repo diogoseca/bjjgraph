@@ -309,7 +309,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
 - Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Armbar/from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**

@@ -309,6 +309,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 ## Related
 - [[Submissions/Rear Naked Choke]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Clock Choke]]

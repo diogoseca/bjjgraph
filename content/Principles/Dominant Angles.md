@@ -450,17 +450,17 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 
 
 ### Related Content
-- [[Posture]] (Principle) - Complementary concept that works synergistically with angles to compromise opponent structure and alignment
-- [[Levers]] (Principle) - Theoretical framework explaining why perpendicular angles multiply force effectiveness
-- [[Fork Attacks]] (Principle) - Advanced application where angles intentionally present multiple threats that force defensive choices opening additional opportunities
-- [[Grips]] (Principle) - Essential element enabling angle creation by preventing opponent realignment
-- [[Kuzushi]] (Principle) - Off-balancing principle that angles produce—most sweeps rely on angular positioning to compromise the opponent's base
-- [[Scissor Sweep]] (Transition) - Sweep utilizing angular body positioning to compromise opponent's base through off-axis alignment
-- [[Pendulum Sweep]] (Transition) - Demonstrates angle creation through combined lateral and rotational movements from guard
-- [[Toreando Pass]] (Transition) - Guard pass requiring precise angular control to move around rather than through opponent's defenses
-- [[Deep Half Guard]] (Position) - Position fundamentally built on perpendicular angular positioning under opponent's structure
-- [[X-Guard]] (Position) - Guard position creating multi-directional angles that compromise opponent's base simultaneously
-- [[Berimbolo Entry]] (Transition) - Advanced transition demonstrating extreme angular inversion to circumvent opponent's defensive structure
+- [[Principles/Posture|Posture]] (Principle) - Complementary concept that works synergistically with angles to compromise opponent structure and alignment
+- [[Principles/Levers|Levers]] (Principle) - Theoretical framework explaining why perpendicular angles multiply force effectiveness
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Advanced application where angles intentionally present multiple threats that force defensive choices opening additional opportunities
+- [[Principles/Grips|Grips]] (Principle) - Essential element enabling angle creation by preventing opponent realignment
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing principle that angles produce—most sweeps rely on angular positioning to compromise the opponent's base
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Sweep utilizing angular body positioning to compromise opponent's base through off-axis alignment
+- [[Transitions/Pendulum Sweep|Pendulum Sweep]] (Transition) - Demonstrates angle creation through combined lateral and rotational movements from guard
+- [[Transitions/Toreando Pass|Toreando Pass]] (Transition) - Guard pass requiring precise angular control to move around rather than through opponent's defenses
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Position fundamentally built on perpendicular angular positioning under opponent's structure
+- [[Positions/X-Guard|X-Guard]] (Position) - Guard position creating multi-directional angles that compromise opponent's base simultaneously
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Advanced transition demonstrating extreme angular inversion to circumvent opponent's defensive structure
 
 
 </section>

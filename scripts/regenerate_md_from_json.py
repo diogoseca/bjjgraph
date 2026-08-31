@@ -142,13 +142,31 @@ def build_wikilink_resolver():
                 data = json.loads(json_file.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
                 continue
-            aliases = data.get("aliases") if isinstance(data, dict) else None
-            if not isinstance(aliases, list) or not aliases:
+            if not isinstance(data, dict):
                 continue
             canonical_name = json_file.stem
             rel = json_file.relative_to(folder_path).parent
             canonical_path = canonical_name if str(rel) == '.' else None
             cat_prefix = category if str(rel) == '.' else f"{category}/{rel}"
+
+            # THE DISPLAY NAME IS ITS OWN ALIAS whenever it differs from the filename.
+            # `index` is keyed by FILE STEM and `resolve()` renders f"{index[name]}/{name}", so the
+            # key has to BE the filename — which a nested submission's name is not: the record
+            # named "Armbar from Crucifix" lives at Submissions/Armbar/from Crucifix.json, stem
+            # "from Crucifix". Every related_content entry naming it therefore missed the index and
+            # fell through to `return name`, emitting a BARE `[[Armbar from Crucifix]]`. Quartz
+            # resolves a bare wikilink by FILENAME, no file has that name, and the link dangles.
+            # MEASURED at v1.155.0: 481 dangling internal links across 291 distinct targets.
+            # The alias path is the right seam because it returns a FULL PATH rather than being
+            # re-suffixed with the key. `index` is still consulted first, so a real page always
+            # wins and this can only ever rescue a name that resolves to nothing today.
+            display = data.get("name")
+            if isinstance(display, str) and display.strip() and display != canonical_name:
+                alias_to_canonical.setdefault(slugify(display), f"{cat_prefix}/{canonical_name}")
+
+            aliases = data.get("aliases")
+            if not isinstance(aliases, list) or not aliases:
+                continue
             for alias in aliases:
                 if isinstance(alias, str) and alias.strip():
                     alias_to_canonical.setdefault(slugify(alias), f"{cat_prefix}/{canonical_name}")

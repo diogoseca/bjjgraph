@@ -337,6 +337,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - [[Submissions/Armbar]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Spinning Armbar]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Positions/Mount/Technical Mount]] - Starting position providing asymmetric leg positioning and arm isolation for armbar execution
 - [[Positions/Mount]] - Parent position from which Technical Mount is established before armbar attack
 - [[Positions/Armbar Control]] - Finishing control position reached during armbar execution before applying breaking pressure

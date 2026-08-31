@@ -402,8 +402,8 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and alternative entanglement configuration
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry position for leg knot development
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related advanced leg entanglement with similar control principles
-- **[[Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
-- **[[Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
+- **[[Submissions/Heel Hook/from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
+- **[[Submissions/Toe Hold/from Outside Ashi]]** - Alternative submission attack when heel is defended
 - **[[Positions/Kneebar Control]]** - Secondary submission option from leg knot configuration
 - **[[Transitions/Ashi Garami Escape]]** - Primary defensive response from bottom position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option for bottom player

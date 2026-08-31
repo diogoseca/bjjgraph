@@ -231,7 +231,7 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 
 - **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (28% of attempts)
 
-- **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (18% of attempts)
+- **[[Submissions/Electric Chair/from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (18% of attempts)
 
 
 ### Common Mistakes

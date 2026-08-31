@@ -448,18 +448,18 @@ Practice finishing compression locks using only body weight and positioning, wit
 
 
 ### Related Content
-- [[Bicep Slicer]] (Submission) - The primary upper body compression lock, crushing the bicep against the humerus by folding the arm around an inserted forearm wedge
-- [[Calf Slicer]] (Submission) - The primary lower body compression lock, crushing the calf muscle against the tibia/femur by folding the leg around an inserted shin wedge
-- [[Banana Split]] (Submission) - A groin compression/stretch submission from the truck position that uses the legs to spread the opponent's legs apart, combining compression and stretching mechanics
-- [[Arm Crush]] (Submission) - A compression attack on the arm that crushes the forearm using body weight and positioning from various top control positions
-- [[Can Opener]] (Submission) - A cervical compression technique that uses interlocked hands behind the head to fold the neck forward, applying compression to the spine
-- [[Ashi Garami]] (Position) - The primary leg entanglement family that provides control for both heel hook rotational attacks and calf slicer compression attacks
-- [[Armbar Control]] (Position) - The armbar control position where bicep slicer opportunities arise when the opponent defends the armbar with bent-arm gripping
-- [[Kneebar Control]] (Position) - Kneebar position that naturally transitions to calf slicer when the opponent bends the knee to defend the hyperextension
-- [[Pressure]] (Principle) - Compression locks are a specialized application of pressure principles — concentrating force through a small bony surface to crush soft tissue
-- [[Levers]] (Principle) - Lever mechanics generate the folding force in compression locks, with the wedge bone acting as a fulcrum around which the limb is folded
-- [[Rotational Breaks]] (Principle) - Complementary submission mechanic that frequently coexists in the same positions — heel hooks and calf slicers often share the same leg entanglement
-- [[Submission Defense]] (Principle) - Understanding compression mechanics informs defensive strategies including limb straightening, wedge extraction, and early positional escape
+- [[Submissions/Bicep Slicer|Bicep Slicer]] (Submission) - The primary upper body compression lock, crushing the bicep against the humerus by folding the arm around an inserted forearm wedge
+- [[Submissions/Calf Slicer|Calf Slicer]] (Submission) - The primary lower body compression lock, crushing the calf muscle against the tibia/femur by folding the leg around an inserted shin wedge
+- [[Submissions/Banana Split|Banana Split]] (Submission) - A groin compression/stretch submission from the truck position that uses the legs to spread the opponent's legs apart, combining compression and stretching mechanics
+- [[Submissions/Arm Crush|Arm Crush]] (Submission) - A compression attack on the arm that crushes the forearm using body weight and positioning from various top control positions
+- [[Submissions/Can Opener|Can Opener]] (Submission) - A cervical compression technique that uses interlocked hands behind the head to fold the neck forward, applying compression to the spine
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - The primary leg entanglement family that provides control for both heel hook rotational attacks and calf slicer compression attacks
+- [[Positions/Armbar Control|Armbar Control]] (Position) - The armbar control position where bicep slicer opportunities arise when the opponent defends the armbar with bent-arm gripping
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) - Kneebar position that naturally transitions to calf slicer when the opponent bends the knee to defend the hyperextension
+- [[Principles/Pressure|Pressure]] (Principle) - Compression locks are a specialized application of pressure principles — concentrating force through a small bony surface to crush soft tissue
+- [[Principles/Levers|Levers]] (Principle) - Lever mechanics generate the folding force in compression locks, with the wedge bone acting as a fulcrum around which the limb is folded
+- [[Principles/Rotational Breaks|Rotational Breaks]] (Principle) - Complementary submission mechanic that frequently coexists in the same positions — heel hooks and calf slicers often share the same leg entanglement
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Understanding compression mechanics informs defensive strategies including limb straightening, wedge extraction, and early positional escape
 
 
 </section>

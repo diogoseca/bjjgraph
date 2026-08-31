@@ -64,6 +64,17 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
       "url": "https://www.youtube.com/watch?v=nkAYVo9sMGE",
       "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT190S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm drag to crucifix armlock",
+      "description": "Armbar from Crucifix film study: Arm drag to crucifix armlock, taught by John Gutta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
+      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
+      "creator": { "@type": "Person", "name": "John Gutta" },
+      "duration": "PT151S"
     }
   ]
 }
@@ -133,6 +144,14 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 ![](https://www.youtube.com/watch?v=nkAYVo9sMGE)
 
 <p class="clip-credit"><strong>Crucifix setup and armbar (no-gi)</strong> — taught by Revolution BJJ · 3:10 · <a href="https://www.youtube.com/watch?v=nkAYVo9sMGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qq1LScm50Ow)
+
+<p class="clip-credit"><strong>Arm drag to crucifix armlock</strong> — taught by John Gutta · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

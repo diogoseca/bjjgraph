@@ -318,7 +318,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 
 - [[Transitions/Body Lock Pass]] - Follow-up option when underhook is secured
 
-- [[Transitions/Kimura from Half Guard]] - Submission threat when opponent defends with frames
+- [[Submissions/Kimura/from Half Guard]] - Submission threat when opponent defends with frames
 
 - [[Submissions/Darce Choke]] - Submission option when opponent turns into underhook
 

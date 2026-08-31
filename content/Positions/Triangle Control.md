@@ -196,7 +196,7 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (42% of attempts)
+- **[[Submissions/Triangle Choke/from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (42% of attempts)
 
 - **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (20% of attempts)
 
@@ -206,7 +206,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (6% of attempts)
 
-- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (9% of attempts)
+- **[[Submissions/Inverted Triangle/from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (9% of attempts)
 
 
 ### Common Mistakes

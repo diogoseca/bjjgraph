@@ -11,8 +11,11 @@ import { journey } from "../dsl"
  *
  * New app surfaces this spec forces into existence:
  *   [data-jit]        — the in-sheet micro-drill block (at the "+X% drilling" seam)
- *   [data-jit-reveal] — reveal-answer button of the current micro-card
- *   [data-jit-got]    — "Got it" grade button (credits prep + pumps odds)
+ *   [data-jit-reveal] — reveal-answer button, the ladder's RECALL rung (stage >= 2, or a cold
+ *                       distractor pool); [data-jit-got] grades it
+ *   [data-jit-mc-opt] — the ladder's RECOGNITION rung (stage < 2), the default for a fresh deck
+ *   This file is about the ECONOMY, not the format, so it grades through `j.jitGrade()`, which
+ *   answers whichever rung is on screen. The ladder itself is jit-format.spec.ts's subject.
  *   [data-odds]       — the sheet's live odds odometer element (textContent = "NN%")
  *   beats: jit_opened, bonus_pumped (existing), expiry_warning, land_q_expired (v1.133.0 —
  *   timer_refund and hesitated retired with the hand clock)
@@ -40,8 +43,7 @@ test("JIT sheet drill pumps the odds odometer and the canvas edge", async ({ pag
 
   // drill 3 cards through the SHEET UI: reveal → Got it, three times
   for (let i = 0; i < 3; i++) {
-    await page.locator("[data-jit-reveal]").click()
-    await page.locator("[data-jit-got]").click()
+    await j.jitGrade()
     await j.advance(600) // odometer animation window
   }
 
@@ -79,8 +81,7 @@ test("drilling pumps odds and buys NO time — the clock belongs to the question
   // answering), so no window is running — and grading refunds nothing because there is nothing
   // to refund. The drill's whole payment is odds.
   expect(await remaining(), "the sheet declined the question").toBe(0)
-  await page.locator("[data-jit-reveal]").click()
-  await page.locator("[data-jit-got]").click()
+  await j.jitGrade()
   expect(await remaining(), "still no clock — the drill buys odds, never time").toBe(0)
   const refunds = (await j.beats()).filter((b: any) => b.beat === "timer_refund")
   expect(refunds.length, "the refund beat is retired").toBe(0)

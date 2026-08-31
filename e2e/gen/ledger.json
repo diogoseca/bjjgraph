@@ -535,7 +535,7 @@
   {
    "id": "core-028",
    "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "fresh card renders 4 MC options, clamped, with the mc_shown beat",
+   "title": "fresh card renders 3 MC options, clamped, with the mc_shown beat",
    "theme": "flashcards-behind-scenes",
    "L": "casual-week1",
    "F": "drill-mc",
@@ -708,7 +708,7 @@
    "L": "casual-week1",
    "F": "drill-mc",
    "B": "happy-path",
-   "invariant": "The golden Upa Escape card ships a <=36-char answer line, >=3 authored distractors, and a longer d field, and presents as 4 rendered options each <=36 chars (after stripping the number badge) whose tier map includes both 'trap' and 'plausible'.",
+   "invariant": "The golden Upa Escape card ships a <=36-char answer line, >=3 authored distractors, and a longer d field, and presents as 3 rendered options each <=36 chars (after stripping the number badge) whose tier map includes both 'trap' and 'plausible' \u2014 which is also the gate on TRAP-FIRST selection, since only two of the three authored distractors are shown.",
    "origin": "core",
    "status": "accepted"
   },

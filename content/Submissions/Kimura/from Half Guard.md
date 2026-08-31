@@ -75,6 +75,17 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
       "url": "https://www.youtube.com/watch?v=3scKusIPsC8",
       "creator": { "@type": "Person", "name": "Combat Arts" },
       "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Kimura from half guard bottom",
+      "description": "Kimura from Half Guard film study: Kimura from half guard bottom, taught by Renato Migliaccio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VtfT_NNt69U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VtfT_NNt69U",
+      "url": "https://www.youtube.com/watch?v=VtfT_NNt69U",
+      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
+      "duration": "PT73S"
     }
   ]
 }
@@ -152,6 +163,14 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 ![](https://www.youtube.com/watch?v=3scKusIPsC8)
 
 <p class="clip-credit"><strong>Kimura Trap Roll from Half Guard</strong> — taught by Combat Arts · 0:51 · <a href="https://www.youtube.com/watch?v=3scKusIPsC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VtfT_NNt69U)
+
+<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Renato Migliaccio · 1:13 · <a href="https://www.youtube.com/watch?v=VtfT_NNt69U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

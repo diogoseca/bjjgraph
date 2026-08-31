@@ -232,6 +232,7 @@ The technique requires precise control and understanding of leg entanglement mec
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar variation creating offensive dilemmas in leg lock systems
 - [[Transitions/Aoki Lock]] - Alternative leg lock from ashi garami positions creating offensive chains
 - [[Submissions/Achilles Lock]] - Related ankle compression attack from similar leg entanglement positions
+- [[Submissions/Heel Hook/from Backside 50-50]] - Complementary heel attack from related leg entanglement configuration
 - [[Submissions/Calf Slicer]] - Compression-based leg attack available from shared entanglement positions
 - [[Positions/Ashi Garami]] - Primary leg entanglement family containing 50-50 Guard and other positions for Estima Lock
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary position for Estima Lock application and leg lock system integration

@@ -259,9 +259,9 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (2% of attempts)
 
-- **[[Belly Down Armbar from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (1% of attempts)
+- **[[Submissions/Belly Down Armbar/from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (1% of attempts)
 
-- **[[Triangle Choke from Open Guard/Attacker|Triangle Choke from Open Guard]]** (6% of attempts)
+- **[[Submissions/Triangle Choke/from Open Guard/Attacker|Triangle Choke from Open Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

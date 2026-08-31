@@ -390,33 +390,33 @@ Begin with static position holds to develop flexibility and position familiarity
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Rubber Guard]] (Position) - Foundational position family for entire system
-- [[Mission Control]] (Position) - Primary control position in system progression
-- [[New York]] (Position) - Key transition position before omoplata entry
-- [[Omoplata Control]] (Position) - Final control position before submission or transition
-- [[Closed Guard]] (Position) - Starting position for system initiation
-- [[Meathook]] (Position) - Alternative rubber guard control used for pressure-based entries
-- [[Invisible Collar]] (Position) - Advanced rubber guard variation integrating with system
-- [[Chill Dog]] (Position) - Rubber guard position variation for different opponent reactions
-- [[Triangle Control]] (Position) - Alternative submission threat from rubber guard positions
-- [[Back Control]] (Position) - Position achieved when opponent rolls to escape omoplata
-- [[Closed Guard to Omoplata]] (Transition) - Core transition technique in system execution
-- [[Omoplata Sweep]] (Transition) - Alternative pathway when submission is defended
-- [[Omoplata to Back]] (Transition) - Position advancement when opponent rolls forward
-- [[Triangle Setup]] (Transition) - Integrated threat from rubber guard positions
-- [[Switch to Triangle]] (Transition) - Attack option when omoplata entry is blocked
-- [[Omoplata]] (Submission) - Primary submission finish in system
-- [[Armbar]] (Submission) - Key secondary submission threat integrated with omoplata and triangle attacks from rubber guard
-- [[Triangle Choke]] (Submission) - Secondary submission threat creating attack dilemmas
-- [[Baratoplata]] (Submission) - Advanced variation combining rubber guard and omoplata mechanics
-- [[Submission Chains]] (Principle) - Conceptual framework for connecting multiple attacks
-- [[Hip Escape Mechanics]] (Principle) - Hip mobility mechanics essential for rubber guard maintenance and omoplata execution
-- [[Posture]] (Principle) - Initial control establishment principle
-- [[Defensive Concepts]] (Principle) - Defensive awareness integrated with offensive guard system
-- [[Fork Attacks]] (Principle) - Strategic framework for creating multi-attack dilemmas from rubber guard
-- [[10th Planet Rubber Guard System]] (System) - Broader system family containing this specific chain
-- [[Rubber Guard to Triangle System]] (System) - Parallel attacking system from same positions
-- [[Ryan Hall Triangle System]] (System) - Alternative triangle-focused approach with omoplata connections
+- [[Positions/Rubber Guard|Rubber Guard]] (Position) - Foundational position family for entire system
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) - Primary control position in system progression
+- [[Positions/Rubber Guard/New York|New York]] (Position) - Key transition position before omoplata entry
+- [[Positions/Omoplata Control|Omoplata Control]] (Position) - Final control position before submission or transition
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Starting position for system initiation
+- [[Positions/Rubber Guard/Meathook|Meathook]] (Position) - Alternative rubber guard control used for pressure-based entries
+- [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]] (Position) - Advanced rubber guard variation integrating with system
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) - Rubber guard position variation for different opponent reactions
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Alternative submission threat from rubber guard positions
+- [[Positions/Back Control|Back Control]] (Position) - Position achieved when opponent rolls to escape omoplata
+- [[Transitions/Closed Guard to Omoplata|Closed Guard to Omoplata]] (Transition) - Core transition technique in system execution
+- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition) - Alternative pathway when submission is defended
+- [[Transitions/Omoplata to Back|Omoplata to Back]] (Transition) - Position advancement when opponent rolls forward
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Integrated threat from rubber guard positions
+- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition) - Attack option when omoplata entry is blocked
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Primary submission finish in system
+- [[Submissions/Armbar|Armbar]] (Submission) - Key secondary submission threat integrated with omoplata and triangle attacks from rubber guard
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Secondary submission threat creating attack dilemmas
+- [[Submissions/Baratoplata|Baratoplata]] (Submission) - Advanced variation combining rubber guard and omoplata mechanics
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Conceptual framework for connecting multiple attacks
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip mobility mechanics essential for rubber guard maintenance and omoplata execution
+- [[Principles/Posture|Posture]] (Principle) - Initial control establishment principle
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive awareness integrated with offensive guard system
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic framework for creating multi-attack dilemmas from rubber guard
+- [[Systems/10th Planet Rubber Guard System|10th Planet Rubber Guard System]] (System) - Broader system family containing this specific chain
+- [[Systems/Rubber Guard to Triangle System|Rubber Guard to Triangle System]] (System) - Parallel attacking system from same positions
+- [[Systems/Ryan Hall Triangle System|Ryan Hall Triangle System]] (System) - Alternative triangle-focused approach with omoplata connections
 
 
 </section>

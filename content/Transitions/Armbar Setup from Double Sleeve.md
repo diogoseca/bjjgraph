@@ -320,7 +320,7 @@ The armbar setup from double sleeve guard occupies a critical position in the op
 
 - [[Submissions/Omoplata]] - Chain attack when opponent bends arm to defend the armbar setup during rotation
 
-- [[Armbar from Armbar Control]] - Follow-up submission from armbar control to complete the finish
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up submission from armbar control to complete the finish
 
 
 </section>

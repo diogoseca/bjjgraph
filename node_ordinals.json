@@ -4,7 +4,7 @@
  "source": "source/quartz/static/globalGraphLayout.json#nodes[].id",
  "next_ordinal": 1467,
  "count_assigned": 1467,
- "count_live": 1467,
+ "count_live": 1462,
  "ordinals": {
   "Positions/Anaconda-Control": 0,
   "Positions/Aoki-Lock-Control": 1,
@@ -1474,5 +1474,11 @@
   "Transitions/Z-Guard-Sweep": 1465,
   "Transitions/Z-Guard-to-Half-Guard": 1466
  },
- "retired": {}
+ "retired": {
+  "Transitions/Arm-Triangle-from-Turtle": "2026-08-31",
+  "Transitions/Armbar-from-Crucifix": "2026-08-31",
+  "Transitions/Electric-Chair-from-Electric-Chair": "2026-08-31",
+  "Transitions/Kimura-from-Half-Guard": "2026-08-31",
+  "Transitions/Toe-Hold-from-Estima-Lock": "2026-08-31"
+ }
 }

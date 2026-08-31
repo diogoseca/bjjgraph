@@ -396,34 +396,34 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[X-Guard]] (Position) - Primary position of the system - all techniques build from this foundation
-- [[Single Leg X-Guard]] (Position) - Complementary position with shared mechanics and transitional connections
-- [[Butterfly Guard]] (Position) - Primary entry position - butterfly hooks convert to X-Guard hooks
-- [[Butterfly Hook Control]] (Position) - Foundational control position that leads to X-Guard entries
-- [[Seated Guard]] (Position) - Alternative entry position and recovery option from failed X-Guard
-- [[Back Control]] (Position) - Primary transition target when sweeps are defended
-- [[Deep Half Guard]] (Position) - Recovery position when X-Guard hooks are being stripped
-- [[X-Guard Sweep]] (Transition) - Fundamental sweep technique of the system
-- [[Butterfly Sweep]] (Transition) - Connected sweeping mechanics from butterfly entries
-- [[Butterfly Guard to X-Guard]] (Transition) - Primary entry sequence from butterfly position
-- [[Single Leg X Entry]] (Transition) - Alternative guard variation with shared entry pathways
-- [[Single Leg X Sweep]] (Transition) - Complementary sweeping option from similar leg positioning
-- [[De La Riva to X-Guard Transition]] (Transition) - Advanced entry from De La Riva guard system
-- [[Back Take]] (Transition) - Standard back take sequence when sweeps are defended
-- [[Arm Drag to Back]] (Transition) - Upper body connection to back takes from X-Guard
-- [[Guillotine Setup]] (Transition) - Submission entry when opponent defends by lowering posture
-- [[Kuzushi]] (Principle) - Core principle governing all X-Guard sweeping techniques
-- [[Center of Gravity]] (Principle) - Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard
-- [[Frames]] (Principle) - Essential framing principles for maintaining X-Guard against passing attempts
-- [[Control Maintenance]] (Principle) - Hook management and control retention principles applied to X-Guard positioning
-- [[Timing and Rhythm]] (Principle) - Critical timing concepts for successful sweep and transition execution
-- [[Connection Principles]] (Principle) - Governs smooth flow between X-Guard and other positions
-- [[Submission Chains]] (Principle) - Framework for connecting sweeps to submission opportunities
-- [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system that shares entry mechanics and philosophy
-- [[Marcelo Garcia Guillotine System]] (System) - Submission system that integrates with X-Guard guillotine entries
-- [[Dynamic Guard System]] (System) - Broader guard framework that includes X-Guard as key component
-- [[Caio Terra Guard Retention System]] (System) - Retention principles applicable to maintaining X-Guard
-- [[Back Attack System]] (System) - Back take methodology that connects to X-Guard transitions
+- [[Positions/X-Guard|X-Guard]] (Position) - Primary position of the system - all techniques build from this foundation
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Complementary position with shared mechanics and transitional connections
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Primary entry position - butterfly hooks convert to X-Guard hooks
+- [[Positions/Butterfly Guard/Butterfly Hook Control|Butterfly Hook Control]] (Position) - Foundational control position that leads to X-Guard entries
+- [[Positions/Seated Guard|Seated Guard]] (Position) - Alternative entry position and recovery option from failed X-Guard
+- [[Positions/Back Control|Back Control]] (Position) - Primary transition target when sweeps are defended
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Recovery position when X-Guard hooks are being stripped
+- [[Transitions/X-Guard Sweep|X-Guard Sweep]] (Transition) - Fundamental sweep technique of the system
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Connected sweeping mechanics from butterfly entries
+- [[Transitions/Butterfly Guard to X-Guard|Butterfly Guard to X-Guard]] (Transition) - Primary entry sequence from butterfly position
+- [[Transitions/Single Leg X Entry|Single Leg X Entry]] (Transition) - Alternative guard variation with shared entry pathways
+- [[Transitions/Single Leg X Sweep|Single Leg X Sweep]] (Transition) - Complementary sweeping option from similar leg positioning
+- [[Transitions/De La Riva to X-Guard Transition|De La Riva to X-Guard Transition]] (Transition) - Advanced entry from De La Riva guard system
+- [[Transitions/Back Take|Back Take]] (Transition) - Standard back take sequence when sweeps are defended
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) - Upper body connection to back takes from X-Guard
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Submission entry when opponent defends by lowering posture
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Core principle governing all X-Guard sweeping techniques
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard
+- [[Principles/Frames|Frames]] (Principle) - Essential framing principles for maintaining X-Guard against passing attempts
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Hook management and control retention principles applied to X-Guard positioning
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Critical timing concepts for successful sweep and transition execution
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Governs smooth flow between X-Guard and other positions
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Framework for connecting sweeps to submission opportunities
+- [[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia Butterfly Guard System]] (System) - Complementary system that shares entry mechanics and philosophy
+- [[Systems/Marcelo Garcia Guillotine System|Marcelo Garcia Guillotine System]] (System) - Submission system that integrates with X-Guard guillotine entries
+- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Broader guard framework that includes X-Guard as key component
+- [[Systems/Caio Terra Guard Retention System|Caio Terra Guard Retention System]] (System) - Retention principles applicable to maintaining X-Guard
+- [[Systems/Back Attack System|Back Attack System]] (System) - Back take methodology that connects to X-Guard transitions
 
 
 </section>

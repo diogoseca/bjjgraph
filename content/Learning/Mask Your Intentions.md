@@ -226,16 +226,16 @@ A: Regular training partners learn patterns quickly. If you always use the choke
 <section id="related" class="content-section">
 
 ## Related
-- [[Action and Reaction]] (Principle) - Feints exploit action-reaction dynamics by provoking defensive responses that create openings
-- [[Technique Chaining]] (Learning) - Chaining techniques is the primary vehicle for masking intentions -- each link disguises the next
-- [[Fork Attacks]] (Principle) - Fork attacks present multiple threats simultaneously, forcing the opponent to choose which to defend
-- [[Timing Windows]] (Learning) - Tempo changes and well-timed setups create the brief windows where disguised attacks land
-- [[Pattern Interrupts]] (Learning) - Complementary concept -- breaking predictable patterns is another form of masking intentions
-- [[Predictable Responses]] (Learning) - Masking intentions works by triggering predictable defensive responses you can anticipate and exploit
-- [[Closed Guard]] (Position) - Classic position for learning attack chains and misdirection (choke to armbar to triangle)
-- [[Mount]] (Position) - Mount provides many opportunities for dilemma-based attacks that rely on masking intentions
-- [[Butterfly Guard]] (Position) - Butterfly guard sweeps often rely on directional feints to load the opponent's weight incorrectly
-- [[Kuzushi]] (Principle) - Off-balancing often requires misdirection to displace the opponent's base effectively
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Feints exploit action-reaction dynamics by provoking defensive responses that create openings
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Chaining techniques is the primary vehicle for masking intentions -- each link disguises the next
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Fork attacks present multiple threats simultaneously, forcing the opponent to choose which to defend
+- [[Learning/Timing Windows|Timing Windows]] (Learning) - Tempo changes and well-timed setups create the brief windows where disguised attacks land
+- [[Learning/Pattern Interrupts|Pattern Interrupts]] (Learning) - Complementary concept -- breaking predictable patterns is another form of masking intentions
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Masking intentions works by triggering predictable defensive responses you can anticipate and exploit
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classic position for learning attack chains and misdirection (choke to armbar to triangle)
+- [[Positions/Mount|Mount]] (Position) - Mount provides many opportunities for dilemma-based attacks that rely on masking intentions
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Butterfly guard sweeps often rely on directional feints to load the opponent's weight incorrectly
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing often requires misdirection to displace the opponent's base effectively
 
 
 

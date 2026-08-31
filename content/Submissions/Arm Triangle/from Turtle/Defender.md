@@ -95,6 +95,14 @@ description: "Learn to defend and escape the arm triangle choke from turtle. Rec
         "@type": "Answer",
         "text": "Extract the trapped arm by swimming it forward and away from your body in a circular motion, driving the elbow forward first. Direction matters critically because pulling the arm backward actually tightens the choke—your shoulder drives deeper into your own carotid artery when you retract. The forward swimming motion opens the angle between your shoulder and neck, reducing the compression that makes the choke effective. Think of reaching forward to escape rather than pulling backward."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the single most important preventive defense against the arm triangle from turtle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keeping your elbows pinned tightly to the inside of your knees in a compact turtle shell. The entire arm triangle attack depends on isolating your near arm away from your body and driving it to your neck. If the attacker cannot achieve this arm isolation, the technique cannot progress to any subsequent stage. Maintaining tight elbows as your default turtle structure forces the attacker to either abandon the arm triangle or expend significant effort breaking your defensive shell, giving you time to execute escapes."
+      }
     }
   ]
 }

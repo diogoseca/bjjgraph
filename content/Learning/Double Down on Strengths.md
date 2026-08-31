@@ -222,16 +222,16 @@ A: Roger Gracie won multiple world championships using primarily closed guard an
 <section id="related" class="content-section">
 
 ## Related
-- [[Position Chains]] (Principle) - Position chains are how you build pathways to funnel the match toward your A-game
-- [[Funneling]] (Learning) - Funneling is the tactical method for steering every match toward your area of excellence
-- [[Asymmetric Warfare]] (Learning) - Complementary strategy -- doubling down on strengths gives you the weapon to impose in asymmetric matchups
-- [[Competition Mindset]] (Principle) - Competition success requires a focused game plan built around your strongest techniques
-- [[Positional Sparring]] (Principle) - Positional sparring is the training method that develops depth in specific positions
-- [[Closed Guard]] (Position) - Classic example of a position that rewards deep specialization
-- [[Half Guard]] (Position) - Half guard is a common specialization position with many sub-systems to explore in depth
-- [[Mount]] (Position) - Mount is a high-value position that benefits from deep study of maintenance and submission setups
-- [[Technique Chaining]] (Learning) - Chaining techniques together within your A-game is how depth-based specialization produces unstoppable offense
-- [[Escape Fundamentals]] (Principle) - Functional escape ability is the necessary complement to offensive specialization
+- [[Principles/Position Chains|Position Chains]] (Principle) - Position chains are how you build pathways to funnel the match toward your A-game
+- [[Learning/Funneling|Funneling]] (Learning) - Funneling is the tactical method for steering every match toward your area of excellence
+- [[Learning/Asymmetric Warfare|Asymmetric Warfare]] (Learning) - Complementary strategy -- doubling down on strengths gives you the weapon to impose in asymmetric matchups
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Competition success requires a focused game plan built around your strongest techniques
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Positional sparring is the training method that develops depth in specific positions
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classic example of a position that rewards deep specialization
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard is a common specialization position with many sub-systems to explore in depth
+- [[Positions/Mount|Mount]] (Position) - Mount is a high-value position that benefits from deep study of maintenance and submission setups
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Chaining techniques together within your A-game is how depth-based specialization produces unstoppable offense
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Functional escape ability is the necessary complement to offensive specialization
 
 
 

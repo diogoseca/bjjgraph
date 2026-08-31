@@ -330,6 +330,7 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Hindulotine]] - Primary control position from which this finish is executed
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics

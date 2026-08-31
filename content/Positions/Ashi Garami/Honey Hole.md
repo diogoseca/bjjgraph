@@ -300,25 +300,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (7% of attempts)
+- **[[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (7% of attempts)
 
-- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (13% of attempts)
+- **[[Submissions/Heel Hook/from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (13% of attempts)
 
-- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
+- **[[Submissions/Toe Hold/from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
 
 - **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
-- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
+- **[[Submissions/Estima Lock/from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (11% of attempts)
 
-- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (4% of attempts)
+- **[[Submissions/Calf Slicer/from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (4% of attempts)
 
 - **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (11% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (29% of attempts)
+- **[[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (29% of attempts)
 
-- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (9% of attempts)
+- **[[Submissions/Kneebar/from Honey Hole/Attacker|Kneebar from Honey Hole]]** (9% of attempts)
 
 
 ### Common Mistakes

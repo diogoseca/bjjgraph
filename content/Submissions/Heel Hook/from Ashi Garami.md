@@ -329,6 +329,7 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
+- [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control]]
 - [[Positions/Ashi Garami]] - Starting position for this submission variant providing fundamental outside leg entanglement control
 - [[Positions/Ashi Garami/Saddle]] - Superior finishing position in the leg entanglement hierarchy with maximum heel exposure for heel hook attacks
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Next advancement position in the hierarchy with improved inside space control and heel exposure angles

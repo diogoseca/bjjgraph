@@ -208,6 +208,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 - [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
 - [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
 - [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi
+- [[Submissions/Anaconda Choke/from Anaconda Control]] - Related finish when arm threading angle favors anaconda over brabo
 - [[Positions/Front Headlock]] - Primary setup position - Brabo is initiated from dominant front headlock control
 - [[Positions/Turtle]] - High-percentage entry - turtle defense creates ideal Brabo threading opportunity
 - [[Positions/Darce Control]] - Control position - intermediate position between Brabo setup and finish

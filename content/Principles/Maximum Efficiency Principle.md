@@ -446,17 +446,17 @@ Extended duration rounds (10-15 minutes) where goal is to maintain technical cap
 
 
 ### Related Content
-- [[Levers]] (Principle) - Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice
-- [[Energy Conservation]] (Principle) - Represents the practical training outcome and strategic implementation of maximum efficiency principles
-- [[Pressure]] (Principle) - Foundational understanding of force application mechanics that informs optimal positioning for efficiency maximization
-- [[Making Smaller Circles]] (Principle) - Complementary concept that multiplies efficiency by reducing movements to their smallest effective arc, eliminating wasted motion
-- [[Base]] (Principle) - Specific application of maximum efficiency principles to defensive positioning and stability
-- [[Center of Gravity]] (Principle) - Tactical implementation of efficiency through optimal mass positioning for control and pressure
-- [[Hip Bump Sweep]] (Transition) - Classic example of using minimal force and optimal timing to achieve maximum positional change through leverage
-- [[Closed Guard]] (Position) - Position that exemplifies efficiency through structural control allowing attacks while remaining relaxed
-- [[Triangle Choke]] (Submission) - Submission demonstrating maximum efficiency through using leg structure to create finishing pressure without arm strength
-- [[Frames]] (Principle) - Application of efficiency principles to defensive structure and space management
-- [[Kuzushi]] (Principle) - Demonstrates efficiency through minimal force application to disrupt opponent equilibrium and achieve positional advancement
+- [[Principles/Levers|Levers]] (Principle) - Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Represents the practical training outcome and strategic implementation of maximum efficiency principles
+- [[Principles/Pressure|Pressure]] (Principle) - Foundational understanding of force application mechanics that informs optimal positioning for efficiency maximization
+- [[Principles/Making Smaller Circles|Making Smaller Circles]] (Principle) - Complementary concept that multiplies efficiency by reducing movements to their smallest effective arc, eliminating wasted motion
+- [[Principles/Base|Base]] (Principle) - Specific application of maximum efficiency principles to defensive positioning and stability
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Tactical implementation of efficiency through optimal mass positioning for control and pressure
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Classic example of using minimal force and optimal timing to achieve maximum positional change through leverage
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Position that exemplifies efficiency through structural control allowing attacks while remaining relaxed
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Submission demonstrating maximum efficiency through using leg structure to create finishing pressure without arm strength
+- [[Principles/Frames|Frames]] (Principle) - Application of efficiency principles to defensive structure and space management
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Demonstrates efficiency through minimal force application to disrupt opponent equilibrium and achieve positional advancement
 
 
 </section>

@@ -224,11 +224,13 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 - [[Submissions/Guillotine Choke]] - Parent technique that the high elbow variation improves upon with superior carotid targeting
 - [[Submissions/Arm in Guillotine]] - Alternative grip variation using opponent's trapped arm for additional control
 - [[Submissions/Ten Finger Guillotine]] - Related guillotine variation using ten-finger grip for different pressure angle
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Alternative grip variation targeting chin control for choke setup
 - [[Submissions/Darce Choke]] - Transition option when opponent turns into the high elbow guillotine defense
 - [[Transitions/Anaconda Choke]] - Alternative front headlock choke with similar entries and setups
 - [[Submissions/Japanese Necktie]] - Related front headlock submission with cranking finish mechanics
 - [[Submissions/Peruvian Necktie]] - Front headlock submission with different finishing angle using leg pressure
 - [[Submissions/Arm Triangle]] - Alternative head-and-arm choke accessible from similar control positions
+- [[Submissions/Von Flue Choke/from Side Control]] - Counter-submission exploited by defenders who pass guard while opponent holds guillotine grip
 - [[Transitions/Guillotine Setup]] - Primary entry transition - establishes the front headlock control needed for high elbow guillotine
 - [[Positions/Front Headlock]] - Parent control position - high elbow guillotine is one option within the broader front headlock attack system
 - [[Transitions/Guillotine Defense]] - Defensive counter - understanding common defenses improves your ability to maintain the submission

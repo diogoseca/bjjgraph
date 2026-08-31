@@ -75,6 +75,17 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
       "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
       "creator": { "@type": "Person", "name": "Dan M." },
       "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by Panacea BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIoiYLBb_Vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIoiYLBb_Vg",
+      "url": "https://www.youtube.com/watch?v=pIoiYLBb_Vg",
+      "creator": { "@type": "Person", "name": "Panacea BJJ" },
+      "duration": "PT76S"
     }
   ]
 }
@@ -156,6 +167,14 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 ![](https://www.youtube.com/watch?v=X7JA72d-3vw)
 
 <p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIoiYLBb_Vg)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Panacea BJJ · 1:16 · <a href="https://www.youtube.com/watch?v=pIoiYLBb_Vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

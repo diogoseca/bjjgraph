@@ -182,6 +182,17 @@ description: "Defend the toe hold from Estima Lock in BJJ. Recognition cues, esc
       "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
       "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
       "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering ankle locks with a corkscrew toe hold",
+      "description": "Toe Hold from Estima Lock (Defender) film study: Countering ankle locks with a corkscrew toe hold, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cf-hK1t7qzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cf-hK1t7qzU",
+      "url": "https://www.youtube.com/watch?v=cf-hK1t7qzU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT65S"
     }
   ]
 }
@@ -221,6 +232,14 @@ Defending the toe hold from Estima Lock requires immediate recognition of the gr
 ![](https://www.youtube.com/watch?v=m0NLphEuFoc)
 
 <p class="clip-credit"><strong>Leg Lock Defense</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cf-hK1t7qzU)
+
+<p class="clip-credit"><strong>Countering ankle locks with a corkscrew toe hold</strong> — taught by Patrick Donabedian · 1:05 · <a href="https://www.youtube.com/watch?v=cf-hK1t7qzU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

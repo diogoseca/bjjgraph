@@ -218,18 +218,18 @@ A: Funnel toward your strongest positions -- the ones where you have the deepest
 <section id="related" class="content-section">
 
 ## Related
-- [[Grips]] (Principle) - Grip fighting is the first and most important layer of the funneling process
-- [[Hand Fighting]] (Principle) - Hand fighting is how grip-based funneling is won, controlling which grips are available to both players
-- [[Frames]] (Principle) - Killing opponent's frames is a key step in removing their defensive options
-- [[Dominant Angles]] (Principle) - Establishing dominant angles removes escape directions and narrows the opponent's choices
-- [[Pressure]] (Principle) - Pressure applied correctly limits the opponent's ability to create space and options
-- [[Distance Control]] (Principle) - Controlling distance determines which techniques are available, a fundamental funneling tool
-- [[Control Maintenance]] (Principle) - Maintaining control at each stage of the funnel prevents the opponent from reopening options
-- [[Side Control]] (Position) - Classic position where funneling -- killing frames, blocking escapes, advancing -- is clearly visible
-- [[Back Control]] (Position) - Back control funneling focuses on trapping defending arms to open the choke
-- [[Technique Chaining]] (Learning) - Chains that funnel the opponent's defenses into increasingly narrow options
-- [[Predictable Responses]] (Learning) - Funneling works because reduced options make responses predictable
-- [[Mask Your Intentions]] (Learning) - Funneling often disguises the real attack so the opponent's defensive reaction opens the intended path
+- [[Principles/Grips|Grips]] (Principle) - Grip fighting is the first and most important layer of the funneling process
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Hand fighting is how grip-based funneling is won, controlling which grips are available to both players
+- [[Principles/Frames|Frames]] (Principle) - Killing opponent's frames is a key step in removing their defensive options
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Establishing dominant angles removes escape directions and narrows the opponent's choices
+- [[Principles/Pressure|Pressure]] (Principle) - Pressure applied correctly limits the opponent's ability to create space and options
+- [[Principles/Distance Control|Distance Control]] (Principle) - Controlling distance determines which techniques are available, a fundamental funneling tool
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Maintaining control at each stage of the funnel prevents the opponent from reopening options
+- [[Positions/Side Control|Side Control]] (Position) - Classic position where funneling -- killing frames, blocking escapes, advancing -- is clearly visible
+- [[Positions/Back Control|Back Control]] (Position) - Back control funneling focuses on trapping defending arms to open the choke
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Chains that funnel the opponent's defenses into increasingly narrow options
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Funneling works because reduced options make responses predictable
+- [[Learning/Mask Your Intentions|Mask Your Intentions]] (Learning) - Funneling often disguises the real attack so the opponent's defensive reaction opens the intended path
 
 
 

@@ -141,7 +141,7 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Japanese Necktie from Front Headlock]] | 55% |
+| Success | [[Submissions/Japanese Necktie/from Front Headlock]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 30% |
 | Counter | [[Positions/Turtle]] | 15% |
 

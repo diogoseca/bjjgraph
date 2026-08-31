@@ -223,11 +223,11 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
+- **[[Submissions/Heel Hook/from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (21% of attempts)
 
-- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
+- **[[Submissions/Calf Slicer/from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
 
 - **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (16% of attempts)
 

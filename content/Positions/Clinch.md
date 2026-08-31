@@ -316,7 +316,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (5% of attempts)
 
-- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (8% of attempts)
+- **[[Submissions/Guillotine Choke/from Clinch/Attacker|Guillotine Choke from Clinch]]** (8% of attempts)
 
 
 ### Common Mistakes

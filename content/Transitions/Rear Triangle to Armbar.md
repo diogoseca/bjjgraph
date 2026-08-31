@@ -325,7 +325,7 @@ The Rear Triangle to Armbar transition sits at the center of the rear triangle a
 
 - [[Transitions/Rear Triangle Choke Finish]] - Alternative finishing attack from the same starting position
 
-- [[Armbar from Armbar Control]] - Follow-up submission finish from the resulting armbar control
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up submission finish from the resulting armbar control
 
 - [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive escape the opponent attempts once armbar control is established
 

@@ -160,7 +160,7 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Hindulotine from Hindulotine]] | 55% |
+| Success | [[Submissions/Hindulotine/from Hindulotine]] | 55% |
 | Failure | [[Positions/Hindulotine]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -337,7 +337,7 @@ The Finish from Hindulotine serves as the terminal submission pathway within the
 
 - [[Submissions/Arm in Guillotine]] - Related submission variation with arm trapped in choking configuration
 
-- [[Chin Strap Guillotine from Front Headlock]] - Alternative grip variation applicable to Hindulotine finishing mechanics
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Alternative grip variation applicable to Hindulotine finishing mechanics
 
 
 </section>

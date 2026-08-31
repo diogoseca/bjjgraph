@@ -314,7 +314,7 @@ The gogoplata to armbar transition fits within the broader rubber guard chain at
 
 - [[Positions/Omoplata Control]] - Alternative chain attack when opponent turns shoulder away to defend gogoplata
 
-- [[Armbar from Armbar Control]] - Follow-up submission executed from armbar control after successful transition
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up submission executed from armbar control after successful transition
 
 - [[Positions/Closed Guard]] - Base position from which rubber guard and gogoplata chains develop
 

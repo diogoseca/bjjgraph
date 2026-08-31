@@ -322,9 +322,9 @@ The Outside Ashi to Leg Knot entry sits at the heart of the modern leg-entanglem
 
 - [[Transitions/Outside Ashi to Inside Ashi]] - Alternative consolidation from outside ashi-garami toward an inside-position entanglement
 
-- [[Heel Hook from Saddle]] - Primary submission unlocked once the Leg Knot is consolidated and advanced to the saddle
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission unlocked once the Leg Knot is consolidated and advanced to the saddle
 
-- [[Toe Hold from Outside Ashi]] - Alternative attack from the same source when the weave is not available
+- [[Submissions/Toe Hold/from Outside Ashi]] - Alternative attack from the same source when the weave is not available
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Counter position the opponent can reach by spinning out during a mistimed weave
 

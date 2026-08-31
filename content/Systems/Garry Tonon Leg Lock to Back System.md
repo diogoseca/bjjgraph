@@ -378,35 +378,35 @@ The system requires both isolated component drilling and integrated flow trainin
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Saddle]] (Position) - Primary leg entanglement position within system with highest finishing rate
-- [[Inside Ashi-Garami]] (Position) - Foundational leg position offering bilateral transition options to back or truck
-- [[Outside Ashi-Garami]] (Position) - Alternative leg entanglement created during granby roll back escapes
-- [[Back Control]] (Position) - Primary upper body control position within system's attack cycle
-- [[Truck]] (Position) - Intermediate position linking saddle defense to back attacks and twister submissions
-- [[Seat Belt Control Back]] (Position) - Specific back control configuration achieved from leg attack transitions
-- [[Single Leg X-Guard]] (Position) - Entry position from standing that bridges to ashi garami variations
-- [[X-Guard]] (Position) - Transitional position connecting sweeps, leg attacks, and back taking sequences
-- [[Front Headlock]] (Position) - Alternative control position when opponent turtles to defend both legs and back
-- [[Gift Wrap]] (Position) - Arm control position that enhances back attack finishing and prevents hand fighting
-- [[Inside Ashi Entry]] (Transition) - Primary entry technique to establish foundational leg position
-- [[Saddle Entry from Top]] (Transition) - Offensive entry to highest percentage leg attack position in system
-- [[Kiss of the Dragon]] (Transition) - Dynamic back taking technique when opponent defends leg attacks with forward pressure
-- [[X-Guard to Ashi Garami]] (Transition) - Conversion pathway from x-guard position to leg entanglement positions
-- [[Turtle to Back Take]] (Transition) - Back attack entry when opponent uses turtle as intermediate defensive position
-- [[Back Take]] (Transition) - Collection of back taking methods utilized throughout system implementation
-- [[Heel Hook]] (Submission) - Primary leg submission that forces defensive movements exposing back attacks
-- [[Inside Heel Hook]] (Submission) - Specific finishing mechanic from inside ashi-garami position
-- [[Rear Naked Choke]] (Submission) - Primary back attack submission when leg defenses expose upper body
-- [[Twister]] (Submission) - Spine lock submission from truck position linking leg and back attacks
-- [[Kneebar]] (Submission) - Alternative leg submission when heel hook positioning is defended
-- [[Leg Entanglement]] (Position) - Foundational concept governing all leg attack positions in system
-- [[Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
-- [[Control Maintenance]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
-- [[Fork Attacks]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
-- [[Control Point Hierarchy]] (Principle) - Critical principle of prioritizing connection points throughout all system transitions
-- [[Danaher Leg Lock System]] (System) - Foundational leg lock system that provides technical framework for leg attack components
-- [[Back Attack System]] (System) - Complementary system focusing on back control and upper body submissions
-- [[Craig Jones Leg Lock System]] (System) - Alternative modern leg lock system sharing common positional concepts
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Primary leg entanglement position within system with highest finishing rate
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Foundational leg position offering bilateral transition options to back or truck
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Alternative leg entanglement created during granby roll back escapes
+- [[Positions/Back Control|Back Control]] (Position) - Primary upper body control position within system's attack cycle
+- [[Positions/Twister Control/Truck|Truck]] (Position) - Intermediate position linking saddle defense to back attacks and twister submissions
+- [[Positions/Back Control/Seat Belt Control Back|Seat Belt Control Back]] (Position) - Specific back control configuration achieved from leg attack transitions
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Entry position from standing that bridges to ashi garami variations
+- [[Positions/X-Guard|X-Guard]] (Position) - Transitional position connecting sweeps, leg attacks, and back taking sequences
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Alternative control position when opponent turtles to defend both legs and back
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Arm control position that enhances back attack finishing and prevents hand fighting
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Primary entry technique to establish foundational leg position
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Offensive entry to highest percentage leg attack position in system
+- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition) - Dynamic back taking technique when opponent defends leg attacks with forward pressure
+- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) - Conversion pathway from x-guard position to leg entanglement positions
+- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) - Back attack entry when opponent uses turtle as intermediate defensive position
+- [[Transitions/Back Take|Back Take]] (Transition) - Collection of back taking methods utilized throughout system implementation
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Primary leg submission that forces defensive movements exposing back attacks
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Specific finishing mechanic from inside ashi-garami position
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary back attack submission when leg defenses expose upper body
+- [[Submissions/Twister|Twister]] (Submission) - Spine lock submission from truck position linking leg and back attacks
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Alternative leg submission when heel hook positioning is defended
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Position) - Foundational concept governing all leg attack positions in system
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Critical principle of prioritizing connection points throughout all system transitions
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Foundational leg lock system that provides technical framework for leg attack components
+- [[Systems/Back Attack System|Back Attack System]] (System) - Complementary system focusing on back control and upper body submissions
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Alternative modern leg lock system sharing common positional concepts
 
 
 </section>

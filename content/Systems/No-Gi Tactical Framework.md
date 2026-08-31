@@ -405,36 +405,36 @@ No-gi tactical development requires progressive drilling that builds from contro
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Body Lock]] (Position) - Primary control mechanism replacing gi-based grips throughout the system
-- [[Front Headlock]] (Position) - Critical control hub for submissions and back takes in no-gi
-- [[Back Control]] (Position) - Highest-value target position in no-gi tactical framework
-- [[Inside Ashi-Garami]] (Position) - Fundamental leg control position for heel hook attacks
-- [[Outside Ashi-Garami]] (Position) - Alternative leg entanglement with different submission mechanics
-- [[Butterfly Guard]] (Position) - Dynamic guard system emphasizing underhook battles without gi
-- [[Deep Half Guard]] (Position) - No-gi guard variation using body positioning over fabric grips
-- [[Headquarters Position]] (Position) - Passing platform utilizing pressure and body weight control
-- [[Darce Control]] (Position) - No-gi specific choke control from multiple positions
-- [[Guillotine Control]] (Position) - High-frequency submission threat in no-gi grappling
-- [[Snap Down to Front Headlock]] (Transition) - Essential entry to front headlock system from standing
-- [[Inside Ashi Entry]] (Transition) - Modern entry to leg entanglement systems
-- [[Body Lock Pass]] (Transition) - Primary passing mechanism in no-gi tactical framework
-- [[Guillotine Setup]] (Transition) - High-percentage submission entry in no-gi exchanges
-- [[Rear Naked Choke]] (Submission) - Primary finishing submission from back control
-- [[Darce Choke]] (Submission) - Fundamental no-gi choke from front headlock and turtle
-- [[Guillotine Choke]] (Submission) - Versatile no-gi submission from standing and ground
-- [[Inside Heel Hook]] (Submission) - Modern leg attack central to no-gi competition
-- [[Anaconda Choke]] (Submission) - No-gi specific choke variation from front headlock
-- [[Kimura]] (Submission) - Fundamental shoulder lock effective without gi fabric
-- [[Grips]] (Principle) - Foundational skill set for no-gi control establishment
-- [[Connection Principles]] (Principle) - Essential principles governing connection and disconnection in no-gi contexts
-- [[Pressure]] (Principle) - Critical for position maintenance without gi grips
-- [[Frames]] (Principle) - Defensive framework for creating and maintaining space without gi-based controls
-- [[Fork Attacks]] (Principle) - Strategic approach to forcing opponent reactions
-- [[Danaher Leg Lock System]] (System) - Comprehensive leg attack framework integrated into no-gi tactical approach
-- [[Craig Jones Leg Lock System]] (System) - Modern competition-proven leg attack methodology
-- [[Danaher Front Headlock System]] (System) - Complete front headlock framework central to no-gi game
-- [[Gordon Ryan Passing System]] (System) - Modern no-gi passing methodology using pressure and body locks
-- [[Back Attack System]] (System) - Comprehensive approach to securing and finishing from back control
+- [[Positions/Body Lock|Body Lock]] (Position) - Primary control mechanism replacing gi-based grips throughout the system
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Critical control hub for submissions and back takes in no-gi
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value target position in no-gi tactical framework
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Fundamental leg control position for heel hook attacks
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Alternative leg entanglement with different submission mechanics
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard system emphasizing underhook battles without gi
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - No-gi guard variation using body positioning over fabric grips
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Passing platform utilizing pressure and body weight control
+- [[Positions/Darce Control|Darce Control]] (Position) - No-gi specific choke control from multiple positions
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - High-frequency submission threat in no-gi grappling
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Essential entry to front headlock system from standing
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Modern entry to leg entanglement systems
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Primary passing mechanism in no-gi tactical framework
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - High-percentage submission entry in no-gi exchanges
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary finishing submission from back control
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Fundamental no-gi choke from front headlock and turtle
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Versatile no-gi submission from standing and ground
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Modern leg attack central to no-gi competition
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - No-gi specific choke variation from front headlock
+- [[Submissions/Kimura|Kimura]] (Submission) - Fundamental shoulder lock effective without gi fabric
+- [[Principles/Grips|Grips]] (Principle) - Foundational skill set for no-gi control establishment
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Essential principles governing connection and disconnection in no-gi contexts
+- [[Principles/Pressure|Pressure]] (Principle) - Critical for position maintenance without gi grips
+- [[Principles/Frames|Frames]] (Principle) - Defensive framework for creating and maintaining space without gi-based controls
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic approach to forcing opponent reactions
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Comprehensive leg attack framework integrated into no-gi tactical approach
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Modern competition-proven leg attack methodology
+- [[Systems/Danaher Front Headlock System|Danaher Front Headlock System]] (System) - Complete front headlock framework central to no-gi game
+- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - Modern no-gi passing methodology using pressure and body locks
+- [[Systems/Back Attack System|Back Attack System]] (System) - Comprehensive approach to securing and finishing from back control
 
 
 </section>

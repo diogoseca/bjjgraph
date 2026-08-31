@@ -316,7 +316,9 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Submissions/Japanese Necktie]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Positions/Hindulotine]] - Intermediate control position providing rotational hip mechanics for the high elbow finish
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
 - [[Positions/Closed Guard]] - Common guard recovery position after failed defense or counter

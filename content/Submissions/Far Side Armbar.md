@@ -187,6 +187,10 @@ This submission appears frequently in both gi and no-gi competition at all level
 ## Related
 - [[Submissions/Armbar]] - Alternative armbar variation with inverted arm positioning and finishing mechanics
 - [[Submissions/Arm Crush]] - Direct arm compression attack from similar side control positions
+- [[Submissions/Armbar/from Mount]] - Related armbar entry from mount targeting near or far arm
+- [[Submissions/Armbar/from Side Control]] - Near-side armbar variant from the same starting position
+- [[Submissions/Armbar/from High Mount]] - Armbar variant from elevated mount providing superior finishing leverage
+- [[Submissions/Armbar/from Knee on Belly]] - Dynamic armbar entry using transitional knee pressure
 - [[Submissions/Kimura]] - Complementary shoulder lock that chains directly with far side armbar setups
 - [[Submissions/Americana]] - Near-arm shoulder lock creating defensive reactions that expose the far arm
 - [[Submissions/Arm Triangle]] - Head and arm choke available from similar top control positions

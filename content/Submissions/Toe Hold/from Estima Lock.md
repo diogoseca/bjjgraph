@@ -75,6 +75,17 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
       "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
       "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Paper cutter toe hold from 50/50",
+      "description": "Toe Hold from Estima Lock film study: Paper cutter toe hold from 50/50, taught by Garden State BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "creator": { "@type": "Person", "name": "Garden State BJJ coach" },
+      "duration": "PT60S"
     }
   ]
 }
@@ -156,6 +167,14 @@ This submission is particularly effective in no-gi grappling where the smooth su
 ![](https://www.youtube.com/watch?v=enJwT6Ttreo)
 
 <p class="clip-credit"><strong>Huge Detail on the Estima Lock</strong> — taught by Brandon Mccaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper cutter toe hold from 50/50</strong> — taught by Garden State BJJ coach · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

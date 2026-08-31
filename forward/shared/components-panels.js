@@ -25,10 +25,19 @@ export function flashcard(
     <p class="flashcard-question">${escapeHtml(context.question.prompt)}</p>
     ${
       multipleChoice
-        ? questionBlock({
-            state: state === "correct" ? "correct" : "unanswered",
+        ? // A card inside the pane is the DECK surface, and its prompt is already printed above
+          // as `.flashcard-question` — production renders the question once, not twice.
+          questionBlock({
+            state:
+              state === "correct"
+                ? "correct"
+                : state === "wrong"
+                  ? "wrong"
+                  : "unanswered",
             question: context.question,
             compact: true,
+            surface: "deck",
+            showPrompt: false,
           })
         : revealed
           ? `<div class="flashcard-answer"><small>Answer</small><p>${escapeHtml(context.question.answer || context.question.answers[context.question.correct])}</p></div>`
@@ -314,7 +323,11 @@ export function explorerPanel({
   if (mode === "collection") return collectionPanel();
   const treeGroups = [
     ["Systems", ["Leg Lock System", "Back Attack System", "Pressure Passing"]],
-    ["Principles", ["Frames & posture", "Base & connection", "Hip movement"]],
+    // Real principle names since v1.152.0. The three that were here ("Frames & posture", "Base &
+    // connection", "Hip movement") were labels on the retired search shortcuts and named no
+    // authored page — this catalog has no parity gate (CLAUDE.md 6.8), so a retired row survives
+    // here by default until somebody looks.
+    ["Principles", ["Base", "Dominant Angles", "Levers"]],
     ["Positions", ["Closed Guard", "Half Guard", "Mount", "Back Control"]],
     ["Transitions", ["Knee Slice Pass", "Waiter Sweep", "Technical Stand-up"]],
     ["Submissions", ["Armbar", "Triangle Choke", "Rear Naked Choke"]],

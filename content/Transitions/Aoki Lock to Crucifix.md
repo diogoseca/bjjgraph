@@ -333,7 +333,7 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 
 - [[Submissions/Choke from Crucifix]] - Primary follow-up submission from crucifix position
 
-- [[Transitions/Armbar from Crucifix]] - Secondary follow-up submission from crucifix position
+- [[Submissions/Armbar/from Crucifix]] - Secondary follow-up submission from crucifix position
 
 - [[Transitions/Crucifix from Turtle]] - Related crucifix entry using similar arm isolation mechanics
 

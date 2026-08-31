@@ -438,7 +438,7 @@ Start from various positions (truck, side control, failed back take). Partner pr
 - **[[Transitions/Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Positions/Back Control]]** - Common transition when bottom player exposes back during escape attempts
 - **[[Positions/Kimura Trap]]** - Submission control option when bottom player extends arm to frame
-- **[[Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
+- **[[Submissions/Calf Slicer/from Truck]]** - Leg attack available from established leg entanglement
 - **[[Positions/Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
 
 

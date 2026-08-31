@@ -85,12 +85,16 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
     return r.abort()
   })
 
+  // status per URL, first response wins — read below to prove the boot path fetches nothing that
+  // does not exist. Cheap here, and the only place that can see it.
+  const status = new Map<string, number>()
   page.on("request", (req) => {
     if (!frozen) requested.add(req.url())
   })
   page.on("response", (res) => {
     const url = res.url()
     if (!/^http:\/\/(localhost|127\.)/.test(url)) return
+    if (!status.has(url)) status.set(url, res.status())
     bodies.push(
       res
         .body()
@@ -176,6 +180,29 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   )
 
   const banned = rows.filter((r) => BANNED_ON_BOOT.some((re) => re.test(r.url))).map((r) => path(r.url))
+  // ── NOTHING ON THE BOOT PATH MAY 404 ────────────────────────────────────────────────────────
+  // The byte total cannot carry this claim on its own. A 404 here is served as 404.html — 27,788 B
+  // that LOOKS like a real payload — so a doomed fetch reads as weight rather than as a mistake,
+  // and removing one reads as an optimisation. Worse, the budget is a ceiling: whether a wasted
+  // fetch turns the gate red depends entirely on how much headroom happens to exist that week.
+  // When `richContentFor` was hashing a position's display title (all 136 position hub titles end
+  // "… Top", so the chunk key never resolved — §6.2), reverting the fix moved the total by 5,759 B
+  // against 5,497 B of headroom: red by 262 B in CI and GREEN LOCALLY, inside this spec's own
+  // documented ~1,060 B local-vs-CI gap. A gate whose mutant passes on the machine the work
+  // happens on is not a gate, so the claim gets its own assertion, which is exact and free.
+  //
+  // The snapshot probe is the one legitimate 404: `ensureButton` is hostname-gated on isDevHost()
+  // and short-circuits BEFORE the probe in production, but `localhost` is a dev host, so under
+  // `npx serve` it fires and falls through to 404.html. It is excluded BY NAME and counted, so the
+  // exclusion can never silently swallow a real one (§6.6 — a positive count, never a bare filter).
+  // Build-gating the snapshot button out of production is expected to take this to 0; that is a
+  // deliberate edit here, not a surprise.
+  const notFound = [...requested].filter((u) => status.get(u) === 404).map(path)
+  const harnessOnly = notFound.filter((p) => p.startsWith("/__snapshot/"))
+  const realNotFound = notFound.filter((p) => !p.startsWith("/__snapshot/"))
+  expect(harnessOnly, "the harness-only snapshot probe 404s exactly once").toHaveLength(1)
+  expect(realNotFound, "no request on the boot path may 404").toEqual([])
+
   expect(banned, "a monolith payload is back on the boot path").toEqual([])
   expect(raw, `raw bytes to first hand (heaviest: ${heaviest})`).toBeLessThanOrEqual(
     budget.first_hand_raw_bytes,

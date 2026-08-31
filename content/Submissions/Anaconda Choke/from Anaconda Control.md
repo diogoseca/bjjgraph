@@ -123,7 +123,7 @@ The submission's effectiveness comes from the combined pressure of the choking a
 
 The technique has become a staple in modern BJJ competition, with the Anaconda-to-Darce chain representing one of the highest-percentage front headlock attack systems available. Mastering the Anaconda requires understanding the precise arm threading depth, the critical role of the opponent's trapped shoulder in creating bilateral compression, and the rolling mechanics that generate finishing pressure through hip drive rather than arm strength alone.
 
-**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Anaconda Control]] (Top)
+**Starting Position**: [[Positions/Anaconda Control]] · **From**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -345,10 +345,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Positions/Front Headlock]]
 - [[Positions/Turtle]]
 - [[Positions/Anaconda Control]]
-- [[Positions/Standing Position]]
-- [[Positions/Clinch]]
-- [[Positions/Combat Base]]
-- [[Positions/Half Guard]]
+- [[Positions/Darce Control]]
 
 
 </section>
@@ -362,6 +359,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Marce Choke]]
+- [[Submissions/Peruvian Necktie]]
+- [[Submissions/Japanese Necktie]]
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
 - [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
 - [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control

@@ -233,17 +233,17 @@ A: A technique that truly works succeeds against a wide range of body types, def
 <section id="related" class="content-section">
 
 ## Related
-- [[Closed Guard]] (Position) - Common position where partner-specific habits create false confidence in sweeps and submissions
-- [[Half Guard]] (Position) - Position where body type differences dramatically change the effectiveness of sweeps and underhook battles
-- [[Mount]] (Position) - Dominant position where weight and body type differences significantly affect control and escape dynamics
-- [[Positional Sparring]] (Principle) - Structured sparring format that can be used to practice against specific styles and body types
-- [[Flow Rolling]] (Principle) - Low-intensity rolling format ideal for building comfort with unfamiliar training partners
-- [[Competition Preparation System]] (System) - Competition preparation requires diverse training partners to simulate unknown opponents
-- [[Guard Passing]] (Principle) - Guard passing techniques must be tested against varied guard styles to develop reliable passing sequences
-- [[Escape Fundamentals]] (Principle) - Escape techniques calibrated to one partner's control style may fail against different grips and pressure angles
-- [[De La Riva Guard]] (Position) - Specialized guards like De La Riva require exposure to dedicated guard players to develop effective passing responses
-- [[Investing in Loss]] (Learning) - Rolling with harder, unfamiliar partners means accepting short-term losses to fuel long-term skill development
-- [[Training Intensity]] (Learning) - Pairs with partner diversity to govern how hard and against whom you should roll to maximize learning
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Common position where partner-specific habits create false confidence in sweeps and submissions
+- [[Positions/Half Guard|Half Guard]] (Position) - Position where body type differences dramatically change the effectiveness of sweeps and underhook battles
+- [[Positions/Mount|Mount]] (Position) - Dominant position where weight and body type differences significantly affect control and escape dynamics
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Structured sparring format that can be used to practice against specific styles and body types
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Low-intensity rolling format ideal for building comfort with unfamiliar training partners
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Competition preparation requires diverse training partners to simulate unknown opponents
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Guard passing techniques must be tested against varied guard styles to develop reliable passing sequences
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Escape techniques calibrated to one partner's control style may fail against different grips and pressure angles
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Specialized guards like De La Riva require exposure to dedicated guard players to develop effective passing responses
+- [[Learning/Investing in Loss|Investing in Loss]] (Learning) - Rolling with harder, unfamiliar partners means accepting short-term losses to fuel long-term skill development
+- [[Learning/Training Intensity|Training Intensity]] (Learning) - Pairs with partner diversity to govern how hard and against whom you should roll to maximize learning
 
 
 

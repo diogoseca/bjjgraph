@@ -379,33 +379,33 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Lockdown]] (Position) - Core control position that enables entire system
-- [[Electric Chair]] (Position) - Primary attacking position from lockdown control
-- [[Half Guard]] (Position) - Parent position where system is initiated
-- [[Old School]] (Position) - Key sweep position when Electric Chair is defended
-- [[Deep Half Guard]] (Position) - Alternative half guard system that complements lockdown approaches
-- [[Truck]] (Position) - Advanced transition destination from lockdown scrambles
-- [[Twister Side Control]] (Position) - Back exposure position accessible from lockdown attacks
-- [[Dogfight Position]] (Position) - Transitional position when lockdown is partially broken
-- [[Lockdown Recovery]] (Transition) - Collection of sweeping techniques enabled by lockdown control
-- [[Old School Sweep]] (Transition) - Primary sweep execution from Electric Chair defense
-- [[Half Guard Pass]] (Transition) - Broader category of techniques that lockdown system enhances
-- [[Half Guard to Back Take]] (Transition) - Back attack opportunities created by Electric Chair pressure
-- [[Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
-- [[Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
-- [[Whizzer]] (Transition) - Primary defensive counter that must be systematically defeated
-- [[Electric Chair]] (Submission) - Finishing technique in competition formats allowing crotch attacks
-- [[Banana Split]] (Submission) - Advanced submission when opponent attempts leg extraction
-- [[Twister]] (Submission) - Advanced spine lock accessible from lockdown transitions
-- [[Kuzushi]] (Principle) - Fundamental principle governing all sweeping techniques in system
-- [[Defensive Concepts]] (Principle) - Defensive foundation including guard retention that lockdown control enhances
-- [[Grips]] (Principle) - Critical underhook battle principles that determine system success
-- [[Frames]] (Principle) - Framing mechanics used to create space and execute Homer Simpson recovery
-- [[Position Chains]] (Principle) - Chaining attacks from lockdown creates continuous submission opportunities
-- [[10th Planet Half Guard Bottom System]] (System) - Parent system containing lockdown as primary framework
-- [[10th Planet No-Gi Guard System]] (System) - Broader organizational system where lockdown plays key role
-- [[Twister System]] (System) - Advanced system utilizing positions accessible from lockdown
-- [[Andrew Wiltse Half Guard System]] (System) - Modern half guard approach incorporating lockdown principles
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Core control position that enables entire system
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) - Primary attacking position from lockdown control
+- [[Positions/Half Guard|Half Guard]] (Position) - Parent position where system is initiated
+- [[Positions/Half Guard/Old School|Old School]] (Position) - Key sweep position when Electric Chair is defended
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Alternative half guard system that complements lockdown approaches
+- [[Positions/Twister Control/Truck|Truck]] (Position) - Advanced transition destination from lockdown scrambles
+- [[Positions/Twister Control/Twister Side Control|Twister Side Control]] (Position) - Back exposure position accessible from lockdown attacks
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Transitional position when lockdown is partially broken
+- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) - Collection of sweeping techniques enabled by lockdown control
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Primary sweep execution from Electric Chair defense
+- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition) - Broader category of techniques that lockdown system enhances
+- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) - Back attack opportunities created by Electric Chair pressure
+- [[Transitions/Turtle to Truck|Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
+- [[Transitions/Underhook Sweep from Half|Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
+- [[Transitions/Whizzer|Whizzer]] (Transition) - Primary defensive counter that must be systematically defeated
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) - Finishing technique in competition formats allowing crotch attacks
+- [[Submissions/Banana Split|Banana Split]] (Submission) - Advanced submission when opponent attempts leg extraction
+- [[Submissions/Twister|Twister]] (Submission) - Advanced spine lock accessible from lockdown transitions
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Fundamental principle governing all sweeping techniques in system
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive foundation including guard retention that lockdown control enhances
+- [[Principles/Grips|Grips]] (Principle) - Critical underhook battle principles that determine system success
+- [[Principles/Frames|Frames]] (Principle) - Framing mechanics used to create space and execute Homer Simpson recovery
+- [[Principles/Position Chains|Position Chains]] (Principle) - Chaining attacks from lockdown creates continuous submission opportunities
+- [[Systems/10th Planet Half Guard Bottom System|10th Planet Half Guard Bottom System]] (System) - Parent system containing lockdown as primary framework
+- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - Broader organizational system where lockdown plays key role
+- [[Systems/Twister System|Twister System]] (System) - Advanced system utilizing positions accessible from lockdown
+- [[Systems/Andrew Wiltse Half Guard System|Andrew Wiltse Half Guard System]] (System) - Modern half guard approach incorporating lockdown principles
 
 
 </section>

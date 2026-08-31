@@ -391,34 +391,34 @@ Begin each training session with knee shield establishment drills from various p
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Knee Shield Half Guard]] (Position) - Primary positional foundation for the entire system
-- [[Deep Half Guard]] (Position) - Alternative variation accessed when knee shield is compromised
-- [[Lockdown]] (Position) - Complementary half guard variation for controlling opponent's leg
-- [[Single Leg X-Guard]] (Position) - Transitional position bridging half guard to leg entanglement attacks
-- [[Dogfight Position]] (Position) - Critical transitional position for back take sequences
-- [[Back Control]] (Position) - Highest-value outcome targeted by the system
-- [[Overhook Control]] (Position) - Opponent's counter-grip position in the underhook battle that determines offensive access from half guard
-- [[Outside Ashi-Garami]] (Position) - Leg entanglement position accessed from single leg X transitions
-- [[Underhook Sweep from Half]] (Transition) - Primary sweep attack from knee shield with underhook control
-- [[Old School Sweep]] (Transition) - Alternative sweep option when opponent defends underhook attacks
-- [[Waiter Sweep]] (Transition) - Primary sweep from deep half guard variations
-- [[Half Guard to Back Take]] (Transition) - Core back take pathway through dogfight conversion
-- [[Deep Half Entry]] (Transition) - Transition sequence when knee shield is flattened
-- [[Single Leg X Entry]] (Transition) - Entry pathway to leg entanglement positions
-- [[Technical Stand-up]] (Transition) - Alternative attack when opponent attempts to disengage
-- [[Knee Shield Retention]] (Transition) - Defensive transition maintaining knee shield positional integrity
-- [[Grips]] (Principle) - Battle for underhook control determining offensive access
-- [[Frames]] (Principle) - Essential skill for maintaining distance and creating angles
-- [[Defensive Concepts]] (Principle) - Overall defensive framework preventing guard passes
-- [[Kuzushi]] (Principle) - Technical principles underlying all sweep executions
-- [[Fork Attacks]] (Principle) - Strategic principle for dilemma-based attack selection
-- [[Position Chains]] (Principle) - System-building principle for connecting positions seamlessly
-- [[10th Planet Half Guard Bottom System]] (System) - Alternative half guard system emphasizing lockdown control
-- [[Lockdown to Electric Chair System]] (System) - Complementary system focusing on lockdown variations
-- [[Craig Jones Leg Lock System]] (System) - Leg entanglement system accessed from single leg X transitions
-- [[Lachlan Giles Leg Lock Defense Framework]] (System) - Defensive framework protecting against leg lock exposure during single leg X usage
-- [[Kimura from Half Guard]] (Submission) - Opportunistic submission attack when opponent overcommits to underhook denial
-- [[Darce Choke]] (Submission) - Submission option when opponent turtles during sweep attempts
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - Primary positional foundation for the entire system
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Alternative variation accessed when knee shield is compromised
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Complementary half guard variation for controlling opponent's leg
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Transitional position bridging half guard to leg entanglement attacks
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Critical transitional position for back take sequences
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value outcome targeted by the system
+- [[Positions/Overhook Control|Overhook Control]] (Position) - Opponent's counter-grip position in the underhook battle that determines offensive access from half guard
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Leg entanglement position accessed from single leg X transitions
+- [[Transitions/Underhook Sweep from Half|Underhook Sweep from Half]] (Transition) - Primary sweep attack from knee shield with underhook control
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Alternative sweep option when opponent defends underhook attacks
+- [[Transitions/Waiter Sweep|Waiter Sweep]] (Transition) - Primary sweep from deep half guard variations
+- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) - Core back take pathway through dogfight conversion
+- [[Transitions/Deep Half Entry|Deep Half Entry]] (Transition) - Transition sequence when knee shield is flattened
+- [[Transitions/Single Leg X Entry|Single Leg X Entry]] (Transition) - Entry pathway to leg entanglement positions
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Alternative attack when opponent attempts to disengage
+- [[Transitions/Knee Shield Retention|Knee Shield Retention]] (Transition) - Defensive transition maintaining knee shield positional integrity
+- [[Principles/Grips|Grips]] (Principle) - Battle for underhook control determining offensive access
+- [[Principles/Frames|Frames]] (Principle) - Essential skill for maintaining distance and creating angles
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Overall defensive framework preventing guard passes
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Technical principles underlying all sweep executions
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic principle for dilemma-based attack selection
+- [[Principles/Position Chains|Position Chains]] (Principle) - System-building principle for connecting positions seamlessly
+- [[Systems/10th Planet Half Guard Bottom System|10th Planet Half Guard Bottom System]] (System) - Alternative half guard system emphasizing lockdown control
+- [[Systems/Lockdown to Electric Chair System|Lockdown to Electric Chair System]] (System) - Complementary system focusing on lockdown variations
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Leg entanglement system accessed from single leg X transitions
+- [[Systems/Lachlan Giles Leg Lock Defense Framework|Lachlan Giles Leg Lock Defense Framework]] (System) - Defensive framework protecting against leg lock exposure during single leg X usage
+- [[Submissions/Kimura/from Half Guard|Kimura from Half Guard]] (Submission) - Opportunistic submission attack when opponent overcommits to underhook denial
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Submission option when opponent turtles during sweep attempts
 
 
 </section>

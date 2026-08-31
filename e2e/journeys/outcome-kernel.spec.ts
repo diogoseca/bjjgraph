@@ -110,8 +110,15 @@ test("@curated every node's rolled outcome distribution IS its authored one, dra
   const r = await page.evaluate(SWEEP, GRID)
 
   // the corpus is the one the canon quotes — if these move, the measurement moved, not the app
-  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1331)
-  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1327)
+  // 1326, not 1331 (v1.155.0 collapsed five transition twins). VERIFIED COMPLETE, not merely
+  // lowered: every technique node on the emitted wire carries cal.outcomes — 1029 transitions +
+  // 297 submissions = 1326, with ZERO technique nodes missing one. So this stays a real coverage
+  // floor: a sweep that started skipping nodes would still drop below it and fail here.
+  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1326)
+  // 1322 of 1326, was 1327 of 1331. All five collapsed twins ended in a counter, so the tail that
+  // does NOT — 3 ending in failure, 1 in success — is bit-identical to before. That tail is the
+  // part this line actually guards, and it did not move.
+  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1322)
   expect(r.sideEffects, "the probe moved nothing: zero fx beats emitted").toBe(0)
 
   // Pre-fix this read mean 0.0902 / max 0.2440 with ZERO nodes at 0. The tolerance is the sweep

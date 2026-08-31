@@ -233,17 +233,17 @@ A: When you suddenly release pressure and transition, the opponent who was braci
 <section id="related" class="content-section">
 
 ## Related
-- [[Pressure]] (Principle) - Pressure is the foundation of static control -- understanding weight distribution and angle management
-- [[Control Maintenance]] (Principle) - Control maintenance principles apply to both static and dynamic control modes
-- [[Position Chains]] (Principle) - Chaining positions together is the structural backbone of effective dynamic control
-- [[Cross Face Control]] (Principle) - Crossface is a primary tool for maintaining static control from side control and mount
-- [[Shoulder Pressure]] (Principle) - Shoulder pressure is a key static control mechanism for pinning and submission setup
-- [[Side Control]] (Position) - Side control is the position where the static vs dynamic decision is most frequently encountered
-- [[Mount]] (Position) - Mount typically favors static control for maintaining the position and setting up submissions
-- [[Knee on Belly]] (Position) - Knee on belly is a dynamic control position used to transition between pins
-- [[Back Control]] (Position) - Back control is the highest-value position where static control is usually optimal
-- [[Energy Conservation]] (Principle) - Choosing the right control mode conserves energy -- static against explosive opponents, dynamic against methodical ones
-- [[Technique Chaining]] (Learning) - Dynamic control depends on chaining transitions together, the same combinational logic as chaining attacks
+- [[Principles/Pressure|Pressure]] (Principle) - Pressure is the foundation of static control -- understanding weight distribution and angle management
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Control maintenance principles apply to both static and dynamic control modes
+- [[Principles/Position Chains|Position Chains]] (Principle) - Chaining positions together is the structural backbone of effective dynamic control
+- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Crossface is a primary tool for maintaining static control from side control and mount
+- [[Principles/Shoulder Pressure|Shoulder Pressure]] (Principle) - Shoulder pressure is a key static control mechanism for pinning and submission setup
+- [[Positions/Side Control|Side Control]] (Position) - Side control is the position where the static vs dynamic decision is most frequently encountered
+- [[Positions/Mount|Mount]] (Position) - Mount typically favors static control for maintaining the position and setting up submissions
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Knee on belly is a dynamic control position used to transition between pins
+- [[Positions/Back Control|Back Control]] (Position) - Back control is the highest-value position where static control is usually optimal
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Choosing the right control mode conserves energy -- static against explosive opponents, dynamic against methodical ones
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Dynamic control depends on chaining transitions together, the same combinational logic as chaining attacks
 
 
 

@@ -56,6 +56,13 @@ const NG_EDGE_SAT = 15;
 //   by EDGE, so the first ten are the likeliest picks; card 11+ hydrates on demand through the
 //   existing "Loading this state's cards…" path. Ten keeps the payload byte-identical to today.
 const NG_PREFETCH_CAP = 10;
+// THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
+// halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
+// strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
+// `xdc-template.html`, deliberately and permanently: a pager whose index disagrees with what the
+// eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
+// copy for `history` — the view ids never migrated (v1.95.0).
+const NG_PANE_TABS = ["explore", "challenges", "history"];
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -616,12 +623,28 @@ class Component extends DCLogic {
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
+        // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
+        // three, so an open study surface and a focused mini-row both keep the key they already
+        // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
+        // predicate; see it for why the block is re-derived rather than remembered.
+        //
+        // The `!this._detailCtx` gate on this branch is DELIBERATELY UNCHANGED. The branch this
+        // came from relaxed it, because ITS jit drill rendered through `_recallBlock` and so had
+        // a recall block live behind an open option sheet. Ours does not: `_recallBlock`'s only
+        // two callers are the node card and the landing card, and the landing card is inert
+        // behind a sheet anyway (`_landHidden`). Relaxing the gate here would buy a case that
+        // cannot be reached, and therefore cannot be tested (§6.9).
+        else if (e.key === " " && this._recallLive()) { this._recall.toggle(); }
         // v1.134.0: the pause toggle is retired with the transport — the game is turn-based and
         // the question clock is deliberately un-pausable ("that's our test to the user", owner)
-      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
-        e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
-        this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
+      } else if (!typing && /^[a-cA-C]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abc".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+        e.preventDefault(); // A/B/C answer whichever MC block is live — digits stay the option-card openers
+        this._mc.answer("abc".indexOf(e.key.toLowerCase()));
       } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
+        // STILL 1-4, NOT 1-3, AFTER MC DROPPED TO THREE OPTIONS (v1.148.0). preventDefault fires
+        // BEFORE the lookup, so a `4` here is SWALLOWED — mbtns[3] is undefined and nothing is
+        // clicked. Narrowing this to /^[1-3]$/ would let `4` fall through to the /^[1-9]$/
+        // option-card openers below, which is exactly the Q007 hazard their own comment records.
         e.preventDefault();
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
@@ -639,19 +662,113 @@ class Component extends DCLogic {
     // restore above; keep it that cheap, it runs on every event.
     window.addEventListener("keydown", () => { this._kbNav = true; }, true);
     window.addEventListener("pointerdown", () => { this._kbNav = false; }, true);
-    // swipe gestures on the drill panel: left/right = prev/next, down = reveal/got it, up = review again
+    // ── PANE GESTURES ── TWO pagers, ONE binding, because they share one element and the pane is
+    // only ever in one of the two modes (`_layoutPane` hides the nav for the other):
+    //   · a STUDY surface (`isDrillOpen`) pages its CARD deck — left/right = prev/next,
+    //     down = reveal / got it, up = review again. The original, unchanged.
+    //   · TABS MODE pages the TAB BAR — Explore ‹ Challenges ‹ Last rolls (v1.147.0, owner:
+    //     "users try to scroll left and right"). A three-tab nav on a phone IS a pager whether
+    //     or not anybody wired one, and every visitor arrives already knowing the gesture.
+    // Nothing here calls preventDefault (all listeners passive), so native vertical scrolling in
+    // the pane's own scroller is never fought for — the axis test alone decides. KNOWN AND
+    // UNAVOIDABLE HERE: on iOS a rightward drag begun within a few px of the LEFT SCREEN EDGE is
+    // the browser's own back gesture and never reaches this listener; taking it would mean a
+    // non-passive touchmove on the pane's scroller, which is the worse trade.
     const drill = this.drillRef.current;
     if (drill) {
-      let sx = 0, sy = 0, st = 0, tracking = false;
-      drill.addEventListener("touchstart", (e) => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); tracking = true; }, { passive: true });
+      let sx = 0, sy = 0, st = 0, tracking = false, hscroll = false, moved = 0, movedAt = 0;
+      let wAcc = 0, wLast = 0, wLock = false;
+      // A gesture that BEGINS inside a horizontal scroller belongs to that scroller, not to the
+      // pager. Written AHEAD of one rather than in response to one, and the distinction is worth
+      // keeping honest: the app's horizontal-scroller idiom is `.ng-cliprow` (`filmStudyHTML`),
+      // and at v1.147.0 both of its mount points — the option-detail sheet and the landing card —
+      // are OUTSIDE this element, so the pane has no reachable scroller today. It is a matter of
+      // one row being added to a Challenges or Explore body, and a pager that eats that row's
+      // drag is the kind of defect nobody attributes to the pager. Measured at touchstart, where
+      // the target is still the element the finger actually went down on; the `+4` is the
+      // sub-pixel slack a fractional layout leaves on an element that does NOT overflow.
+      const inHScroller = (t) => {
+        for (let el = t; el && el !== drill; el = el.parentElement) {
+          if (el.scrollWidth > el.clientWidth + 4) {
+            const ov = getComputedStyle(el).overflowX;
+            if (ov === "auto" || ov === "scroll") return true;
+          }
+        }
+        return false;
+      };
+      drill.addEventListener("touchstart", (e) => {
+        // a second finger is a pinch, not a swipe — and it arrives as its own touchstart, so
+        // without this the pair resolves to one very fast horizontal drag and pages the nav
+        if (e.touches && e.touches.length > 1) { tracking = false; return; }
+        const t = e.changedTouches[0];
+        sx = t.clientX; sy = t.clientY; st = Date.now(); tracking = true; moved = 0;
+        hscroll = inHScroller(e.target);
+      }, { passive: true });
       drill.addEventListener("touchend", (e) => {
-        if (!tracking || !this.isDrillOpen()) { tracking = false; return; }
+        if (!tracking) return;
         tracking = false;
         const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = t.clientY - sy;
+        moved = Math.max(Math.abs(dx), Math.abs(dy)); movedAt = Date.now();
         if (Date.now() - st > 700) return;
-        if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
-        if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
-        else { if (dy > 0) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } else { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+        if (this.isDrillOpen()) {
+          if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
+          if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
+          else { if (dy > 0) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } else { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+          return;
+        }
+        // tabs mode: HORIZONTAL-DOMINANT ONLY. The pane's body is a tall scroller and its
+        // vertical axis is not ours to take — the landing card's rule (v1.130.0), same numbers.
+        if (hscroll) return;
+        if (Math.abs(dx) < 40 || Math.abs(dx) <= Math.abs(dy)) return;
+        this._paneTabPageTo(this._paneGestureDir(dx, drill));
+      }, { passive: true });
+      // A SWIPE IS NOT A TAP. The pane is built almost entirely OUT of buttons — lesson rows,
+      // belt folds, list rows, the tab bar itself — so without this the click the browser
+      // synthesizes at the end of a swipe opens whatever the finger happened to lift over. The
+      // option tray's lesson, by way of the landing card, with TWO changes this surface needs
+      // and those did not:
+      //   · 16px, not the landing card's 6. A thumb on a list of rows is not a thumb on four MC
+      //     buttons: the browser's own tap slop is ~8px (Chrome) to ~10px (iOS), so 6 sits UNDER
+      //     the movement a browser still calls a tap and a shaky press on a lesson row would be
+      //     swallowed with nothing to show for it. 16 is clear of both, and the pager needs 40.
+      //   · the latch EXPIRES. This element lives for the whole session, where the landing card
+      //     dies with `clearLandCard` — a `moved` left standing by a swipe that ended over dead
+      //     space must never eat a real click minutes later.
+      drill.addEventListener("click", (e) => {
+        if (moved > 16 && Date.now() - movedAt < 700) { e.stopPropagation(); e.preventDefault(); }
+        moved = 0;
+      }, true);
+      // Trackpad "scroll left or right" — the same pager, the same accumulate-and-cool numbers as
+      // the landing card's wheel handler. deltaX-dominant only, so a vertical wheel keeps
+      // scrolling the pane. NB a wheel's deltaX is already in CONTENT space (positive = content
+      // moves left = forward), the opposite sign convention to a finger's dx — hence the flip.
+      drill.addEventListener("wheel", (e) => {
+        // no study check here: `_paneTabPageTo` owns that rule and refuses on its own. It was
+        // written out a second time and MEASURED redundant (the double mutant in
+        // pane-tab-swipe.spec.ts's header) — one rule, one place.
+        if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+        if (inHScroller(e.target)) return;
+        const now = Date.now();
+        // ONE FLICK IS ONE TAB (v1.151.1). A LATCH, not a cooldown — v1.147.0 shipped
+        // `now - wCool >= 350` and it rate-limits a stream without ever ENDING a gesture: a
+        // trackpad's inertia keeps deltas arriving for ~1s after the fingers lift, `wAcc` goes on
+        // filling the whole time the cooldown runs, and the instant it lapses the SAME physical
+        // flick pages again. Measured on the built bundle: one flick off `history` emitted two
+        // `pane_tab_paged` beats and landed on `explore` — the owner's "I'm passing through the
+        // middle tab but never landing on it". The clamp in `_paneTabPageTo` was never at fault;
+        // it clamped correctly on each of those steps.
+        // The stream itself is the gesture, so the gesture ends where the stream goes IDLE — the
+        // same 300ms gap the accumulator already resets on, one rule for both. A deliberate
+        // second flick clears the latch by arriving after that gap; a momentum tail never does.
+        if (now - wLast > 300) { wAcc = 0; wLock = false; }
+        wLast = now; // BEFORE the latch check: idle is measured from the last event of the flick,
+        if (wLock) return; // tail included, or the tail's own silence would unlatch mid-gesture
+        wAcc += e.deltaX;
+        if (Math.abs(wAcc) >= 60) {
+          wLock = true;
+          this._paneTabPageTo(this._paneGestureDir(-wAcc, drill));
+          wAcc = 0;
+        }
       }, { passive: true });
     }
     this.mastered = new Set();
@@ -1339,6 +1456,8 @@ class Component extends DCLogic {
       for (const [k, w] of edgeW) { const a = Math.floor(k / NN); if (w > maxW[a]) maxW[a] = w; }
       this._edgeW = edgeW; this._maxW = maxW;
     }
+    // RULESET MASK — built here so the very first frame already honours the stored ruleset.
+    this._rebuildRulesetMask();
     this.gcx = cx; this.gcy = cy;
     this.graphW = maxX - minX; this.graphH = maxY - minY; this.graphR = r;
     this.trail = []; this.pulse = null;
@@ -1466,6 +1585,48 @@ class Component extends DCLogic {
     this.playerRole = performerIsYou ? pr : (pr === "top" ? "bottom" : "top");
   }
   roleLabel() { return this.playerRole === "bottom" ? "Bottom" : "Top"; }
+  /**
+   * THE SEAT WORD — the one vocabulary for "which half of a pair is this", and the ONLY place it
+   * is spelled. Moved here from the canvas pair label in v1.129.4, which was its only caller until
+   * the drill header needed the same answer; CLAUDE.md §6.5 — when one question is answered in two
+   * places, one of them is already wrong, and the drill header's copy WAS wrong (see renderDrill).
+   *
+   * Owner: "wrt submission escaping/finishing — implement escaping/finishing roles". Right, and it
+   * is a BJJ point rather than a copy preference: you do not "attempt" a submission you are already
+   * holding, you FINISH it — and the other half is not "defending" in the positional sense, they
+   * are ESCAPING. A transition is the case where attempting/defending is the honest pair, because
+   * the move may simply not come off.
+   *
+   *   positions    TOP / BOTTOM
+   *   submissions  FINISHING / ESCAPING
+   *   transitions  ATTEMPTING / DEFENDING
+   *
+   * "ATTEMPTING", not "ATTACKING", remains the owner's word for transitions, and it keeps this
+   * clear of `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not
+   * start sharing vocabulary with a label about which half of a pair you are on.
+   *
+   * @param kind    a node `ty` ("positions"/"submissions"/"transitions") OR a deck `cat`
+   *                ("Position"/"Submission"/"Transition"). Both spellings reach this function from
+   *                live callers, so it normalises rather than making each caller translate.
+   *                `cat` can also be "Defense" — buildDrillPanel's deckKeyOverride branch stamps
+   *                that instead of the node's real category, which loses the submission/transition
+   *                distinction and therefore reads DEFENDING where a submission wants ESCAPING.
+   *                That is the override's defect, not this one's; fixing it belongs with the
+   *                Defender-deck work.
+   * @param primary true for the upper member of a drawn pair, and for the "Top"/"Attacker" half of
+   *                a deck key. Exactly the same axis, named once.
+   *
+   * Pinned by e2e/journeys/dual-pair.spec.ts (its WORDS table keys these by `ty`), so the strings
+   * are load-bearing — change one and that spec goes red, which is the point.
+   */
+  seatWord(kind, primary) {
+    const k = String(kind || "").toLowerCase();
+    return k.indexOf("position") === 0 ? (primary ? "TOP" : "BOTTOM")
+      : k.indexOf("submission") === 0 ? (primary ? "FINISHING" : "ESCAPING")
+      : (primary ? "ATTEMPTING" : "DEFENDING");
+  }
+  /** True for the "Top"/"Attacker" half of a deck key — the `primary` side seatWord() asks about. */
+  seatIsPrimary(role) { const r = String(role || "").toLowerCase(); return r === "top" || r === "attacker"; }
   advLabel(d) {
     if (d >= 0.55) return "Dominant";
     if (d >= 0.18) return "Winning";
@@ -1542,6 +1703,23 @@ class Component extends DCLogic {
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
   richContentFor(n) {
+    // A POSITION HAS NO RICH CONTENT, AND ASKING COST EVERY VISITOR A 404 (CLAUDE.md §6.2).
+    // This hashed `n.t` for every node type. Technique dossiers ARE keyed by the bare title, so
+    // those hit; position dossiers are keyed "<Family>|<Role>" — and all 136 position hub titles
+    // end "… Top" as an artifact of the visual collapse, so `qhash("Gogoplata Control Top")`
+    // (9395f3c1) named a chunk that does not exist while the real one is `qhash("Gogoplata
+    // Control|Top")` (2bcdc86d). Measured: 136 of 136 position nodes missed, 0 of 1,331 technique
+    // nodes did. `_ngc` FETCHES on a miss, so the first landing of every session pulled a 404 —
+    // 27,788 B decoded / ~5,708 B on the wire, served `no-store` so the browser cache never
+    // suppressed the repeat, and it sits on the critical path before the first hand.
+    //
+    // AND THE FETCH COULD NEVER HAVE PAID OFF. This returns non-null only when the dossier carries
+    // `perspectives`, and NO position dossier does — 0 of 272, against 1,326 of 1,326 technique
+    // dossiers (counted over all 1,598 entries in static/neural/content/). Fixing the KEY instead
+    // would have been worse: it would fetch a real 3.7 KB chunk and still return null here.
+    // So the honest fix is to stop asking. Two other callers (:1606, :10226) already spell the
+    // position key correctly for their own purposes and warm the cache themselves.
+    if (!n || n.ty === "positions") return null;
     const rc = this._ngc(n.t);
     return (rc && rc.perspectives) ? rc : null;
   }
@@ -1844,12 +2022,40 @@ class Component extends DCLogic {
   playedRole(node) {
     if (!node || node.ty !== "positions") return null;
     if (this.currentPos != null && node.idx === this.currentPos && this.playerRole) return this.roleLabel();
+    // ...and for any OTHER node, the member's own stamped side, which `_deriveDualPairs` has put
+    // there since v1.125.0. The title regex below could never supply it: all 136 collapsed hub
+    // titles end "… Top" (this file says so again at the dossier headline), and the partner member
+    // carries `t: h.t` — the hub's own title — so BOTH halves of every pair matched "Top" and the
+    // bottom orb was described by the top deck. Measured on the shipped wire: all 136 `<pos>|Bottom`
+    // decks were emitted and then mintable by nothing outside a live roll.
+    if (node.role === "top" || node.role === "bottom") return node.role[0].toUpperCase() + node.role.slice(1);
     const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
     return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : this.roleLabel();
   }
+  /**
+   * THE SIDE IS ON THE NODE. This returned the constant "Attacker" for every technique — the same
+   * shape `playedRole` was written to fix one line up, where a title-derived side was the constant
+   * "Top". `_deriveDualPairs` stamps `role: "attacker" | "defender"` on BOTH members of every pair
+   * as it builds them, and `techniqueOrigin(n, perspective)` has read that field all along — it
+   * flips the seat you are sat on when the perspective is the defender. So the app already knows
+   * which half of the exchange a technique node is; only the deck key refused to ask.
+   *
+   * The cost of not asking: 1,326 `<name>|Defender` decks — 6,403 cards, 29.2% of the whole
+   * corpus — are EMITTED and then addressable by nothing that goes through `deckKeyFor`. The one
+   * exception is `defendKeyFor`, which the panic drill uses, and that reaches only the 297
+   * submission Defender decks; the 1,029 transition ones (4,880 cards) reach no surface at all.
+   *
+   * IDENTITY WHERE THERE IS NO PAIR. `?dual=legacy` skips `_deriveDualPairs` entirely, so `role`
+   * is undefined and this returns "Attacker" exactly as before. On the paired graph the dealt hand
+   * is unchanged too: `_deriveDualPairs` hands the attempt edge to the PERFORMER side, so every
+   * option `optionsFor` deals is the rep (attacker) member. Only a node the user pointed at from
+   * the defender orb changes, which is the case this exists for.
+   *
+   * Pinned by e2e/journeys/seat-decks.spec.ts, as a property over all 1,331 technique sites.
+   */
   deckRole(node) {
     if (node.ty === "positions") return this.playedRole(node);
-    return "Attacker"; // you drilling a move = learning to execute it
+    return node.role === "defender" ? "Defender" : "Attacker";
   }
   deckKeyFor(node) {
     const cat = this.deckCat(node), role = this.deckRole(node);
@@ -2116,7 +2322,10 @@ class Component extends DCLogic {
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
         '<span class="ngBack" data-pane-back="1" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap;height:30px;padding:0 13px 0 10px;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>Back</span>' +
       '</div>' +
-      (role ? '<div style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:' + (roleColor || "#9fb0d8") + ';margin-bottom:5px;">' + role + '</div>' : '') +
+      // `data-drill-role` is a marker this file OWNS, so a spec can assert the kicker exists
+      // EXACTLY ONCE and read it without matching on a style or a word another element could carry
+      // (CLAUDE.md §6.7). It is the only handle on this element; nothing else queries it.
+      (role ? '<div data-drill-role="1" style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:' + (roleColor || "#9fb0d8") + ';margin-bottom:5px;">' + role + '</div>' : '') +
       '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;">' +
         '<div style="font-size:19px;font-weight:700;color:#eef1f6;line-height:1.14;letter-spacing:-.01em;text-wrap:balance;">' + title + '</div>' +
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
@@ -2562,6 +2771,32 @@ class Component extends DCLogic {
     const k = this.deckKeyFor(n); if (k && k.key) this.hydrateDeck(k.key);
   }
   /**
+   * WARM THE DEFENDER DECK BEFORE THE PANIC DRILL ASKS FOR IT.
+   *
+   * `enterDefense` chooses `_panicKey` with `_deckHasCards(dk)`, and that reader is STUB-NEGATIVE
+   * by design — a manifest stub carries `n` but no `cards`, so an unhydrated deck reads as "no
+   * cards" (the JIT drill relies on exactly that, see :4006). Nothing ever hydrated `dk`, so the
+   * test could only ever be false and the drill fell through to your POSITION deck every single
+   * time. The site's own comment says it credits the authored Defender deck "when it exists" —
+   * "when it exists" was never once true, for any of the 1,326 Defender decks.
+   *
+   * WHY HERE AND NOT IN `enterDefense`: `_panicKey` feeds `escapeChance` via
+   * `stateBonus(this._panicKey)`, so re-pointing it after an async hydrate would move the odds
+   * UNDER a decision the player is already making — the same law that forbids re-sorting the
+   * option tray mid-decision. Both callers announce the attack and then travel before the drill
+   * opens (a `startTravel` plus `after(0.3, …)` on the opponent-finish path), which is the window
+   * this fetch belongs in. By the time `enterDefense` runs the chunk has landed, `_deckHasCards`
+   * answers honestly, and the choice is made once, with the odds it will keep.
+   *
+   * Idempotent and coalesced: `hydrateDeck` dedupes through `_deckWaits`, so calling it on a deck
+   * already resident (or already in flight) costs nothing.
+   */
+  _prefetchDefendDeck(idx) {
+    const n = this.nodes && this.nodes[idx]; if (!n) return;
+    const k = this.defendKeyFor(n);
+    if (k && this.flashcards && this.flashcards.decks && this.flashcards.decks[k]) this.hydrateDeck(k);
+  }
+  /**
    * ONE definition of mastery, resident or not.
    *
    * `this.stage[key]` is keyed by question HASH, so a content pass that rewords a card leaves a
@@ -2627,7 +2862,7 @@ class Component extends DCLogic {
     for (let pass = 0; pass < 6; pass++) {
       this._mcNeed = [];
       this._rngBegin();
-      try { this.mcDistractors(card, deckKey, 3, tag); }
+      try { this.mcDistractors(card, deckKey, this.MC_DISTRACTORS, tag); }   // MUST match _mcBlock's ask (see MC_DISTRACTORS)
       catch (e) { /* the pass ABORTS at the first cold deck (see _mcCold); and a dry pass must
                      never break the surface it is warming */ }
       finally { this._rngRollback(); }
@@ -2681,6 +2916,69 @@ class Component extends DCLogic {
       });
     return this._systemsWait;
   }
+  // ── deferred Concepts payload (63KB: the Principles + Learning INDEX) ──
+  // Same posture, same reasoning as systems.json above: nothing on the roll path reads a concept,
+  // so boot must not pay for one. The index carries only what the LIST and the graph HIGHLIGHT
+  // need; each concept's readable body is a dossier chunk fetched when the panel opens.
+  _ensureConcepts() {
+    if (this._conceptsWait) return this._conceptsWait;
+    this._conceptsWait = fetch(this._dataBase() + "concepts.json")
+      .then((cr) => (cr.ok ? cr.json() : null))
+      .catch(() => null)
+      .then((c) => {
+        if (c && Array.isArray(c.concepts) && c.concepts.length) { this.concepts = c.concepts; this._onConcepts(); }
+        return this.concepts || [];
+      });
+    return this._conceptsWait;
+  }
+  _onConcepts() {
+    this._conceptsById = {};
+    for (const c of this.concepts) if (c && c.id) this._conceptsById[c.id] = c;
+    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is up
+  }
+  // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
+  // is the same shape one payload over — a concept lights the techniques its author linked).
+  conceptNodeIdxs(c) {
+    if (!c) return [];
+    if (!c._idxs) {
+      const out = [];
+      for (const id of (Array.isArray(c.nodes) ? c.nodes : [])) {
+        const i = this._idIndex ? this._idIndex.get(id) : null;
+        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+      }
+      c._idxs = out;
+    }
+    return c._idxs;
+  }
+  /** The concept's readable body, out of the SAME chunk space (and the same cache) as a node
+   *  dossier — `key` is "<Name>|<Principle|Learning>", minted by the emitter so it cannot land in
+   *  the technique key space. Returns null while the chunk is in flight and re-renders when it
+   *  lands. A null is never the ANSWER: renderConceptDetail always draws the index-level card
+   *  (name, meta, summary, the techniques, the page link) first, so a missing chunk degrades the
+   *  panel instead of blanking it. */
+  _conceptBody(c) {
+    if (!c || !c.key) return null;
+    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
+    if (Object.prototype.hasOwnProperty.call(C, c.key)) return C[c.key] || null;
+    this._hydrateContent(c.key).then(() => {
+      if (this._conceptId === c.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
+    });
+    return null;
+  }
+  openConcept(id) {
+    const c = this._conceptsById ? this._conceptsById[id] : null; if (!c) return;
+    // Explore owns the highlight, and any pane/tab transition runs clearFocus — so the transition
+    // goes FIRST and the selection is claimed after it (openSystem, same two lines, same reason).
+    if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    const idxs = this.conceptNodeIdxs(c);
+    this._conceptId = id;
+    this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
+    this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
+    this.setFocusIdxSet(idxs);
+    this.showExplorerList();
+  }
+  closeConcept() { this.clearFocus(); this.showExplorerList(); }
+
   // Deliberately NO speculative warm for systems.json. An idle callback fires long before a
   // hand exists on a cold boot, so "warm it at idle" simply put all 324KB back on the
   // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
@@ -3164,6 +3462,10 @@ class Component extends DCLogic {
     const rows = [];
     for (const r of F.ranked) {
       if (!decks[r.deck]) continue;
+      // RULESET (v1.153.0): a weak spot you cannot practise in the ruleset you train is not a weak
+      // spot — same argument as the manifest test above. A deck with NO node keeps its row (`i < 0`
+      // is "no verdict", not "excluded"); only a node the corpus rules out is dropped.
+      { const i = this.nodeForKey(r.deck); if (i >= 0 && !this.rsAllowsIdx(i)) continue; }
       const fam = r.deck.split("|")[0];
       if (seen.has(fam)) continue;
       seen.add(fam);
@@ -3293,9 +3595,17 @@ class Component extends DCLogic {
     return row;
   }
 
+  // THE LAST ROLLS FOOT IS EMPTY, DELIBERATELY (v1.146.2, owner: "I'm already logged in.
+  // Showing this makes no sense"). It used to carry a signed-in-only pair — a "Continue today"
+  // hero CTA over a quiet "Log out" — pinned under the roll history. Both were duplicates of
+  // surfaces that already own the job and say it better: the Explore stat row's `due` / `new`
+  // cells open the same session (openPlanSession / openSession), and Log out lives in the
+  // account menu (`data-menu-logout`, gated by e2e/journeys/account-menu.spec.ts), which is the
+  // only place auth controls belong. Do not re-add a foot here: `drillFootRef` is SHARED, and
+  // its remaining owner is the study takeover (`_sessionFoot`) — a home-tab foot competes with
+  // it for one slot (see CLAUDE.md 6.5, single-slot resource with many writers).
   renderDrillHome() {
     this.settings = this.settings || {};
-    const goal = this.get("dailyGoal", 30);
     const head = this.drillHeadRef.current, list = this.drillListRef.current, foot = this.drillFootRef.current;
     if (!head || !list) return;
     if (foot) { foot.style.display = "none"; foot.innerHTML = ""; }
@@ -3325,31 +3635,6 @@ class Component extends DCLogic {
 
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
-
-    // hero CTA pinned in the footer — only for signed-in users (guests get the save nudge in the
-    // pane's bottom anchor, renderPaneAnchor)
-    if (foot) {
-      foot.innerHTML = "";
-      if (!this.user) {
-        foot.style.display = "none";
-      } else {
-        foot.style.display = "flex";
-        const cta = document.createElement("button");
-        cta.style.cssText = "width:100%;cursor:pointer;font-family:inherit;border:none;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;align-items:center;gap:2px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 6px 20px rgba(74,108,255,.4);transition:filter .15s,transform .1s;";
-        cta.addEventListener("mouseenter", () => cta.style.filter = "brightness(1.08)");
-        cta.addEventListener("mouseleave", () => cta.style.filter = "none");
-        const left = Math.max(0, goal - (this.cardsToday || 0));
-        const sub = left > 0 ? left + " card" + (left === 1 ? "" : "s") + " left to win gold \uD83E\uDD47" : "Gold earned today \uD83E\uDD47";
-        cta.innerHTML = '<span style="font-size:14px;font-weight:700;color:#fff;">Continue today</span><span style="font-size:10.5px;font-weight:500;color:rgba(255,255,255,.82);">' + sub + '</span>';
-        cta.addEventListener("click", () => this.openSession("suggested", "Suggested for you"));
-        foot.appendChild(cta);
-        const out = document.createElement("button");
-        out.textContent = "Log out";
-        out.style.cssText = "width:100%;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:6px;border-radius:9px;border:none;background:transparent;color:#7e8aa3;";
-        out.addEventListener("click", () => { const A = this._auth(); if (A && A.signOut) { try { A.signOut(); } catch (e) {} } this.user = null; this._pulled = false; this.updateAccountUI(); this.renderDrillHome(); });
-        foot.appendChild(out);
-      }
-    }
   }
 
   _timeBucket(ts) {
@@ -3740,7 +4025,13 @@ class Component extends DCLogic {
     if (node) {
       const ctx = document.createElement("label");
       ctx.style.cssText = "display:flex;align-items:center;gap:7px;font-size:11px;color:#8b97b0;cursor:pointer;";
-      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;"> about: ' + this.splitName(node.t).main;
+      // `margin:0` and `flex:none` are LOAD-BEARING, not tidying: this modal portals to the app
+      // root and inherits the Quartz stylesheet, which styled every checkbox on the page for a
+      // markdown task-list gutter (`margin-inline-start:-1.4rem`) until it was scoped to
+      // `.page article` in base.scss. The app cannot opt out of a host global, so it states its
+      // own box: margin 0 puts the box flush with the textarea and Send above/below it, and
+      // flex:none stops the flex row shrinking it when the state's name is long.
+      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;margin:0;flex:none;"> about: ' + this.splitName(node.t).main;
       ctx.querySelector("input").addEventListener("change", (e) => { ctxOn = e.target.checked; });
       body.appendChild(ctx);
     }
@@ -3966,27 +4257,78 @@ class Component extends DCLogic {
         const renderJit = () => {
           const idx = (this._jitIdx[jitKey] || 0) % jc.length;
           const card = jc[idx];
+          let touched = false;   // the player has engaged THIS question — never rug-pull it
           jit.innerHTML =
             '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
               '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
               '<span style="font-size:10px;color:#6f8a78;">+10% now \u00b7 +3% forever \u00b7 +2.5s</span></div>' +
-            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>' +
+            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>';
+          const advance = () => { this._jitIdx[jitKey] = idx + 1; renderJit(); };
+          // What a graded card is worth HERE, and only that. The credit itself — stage, prep,
+          // sharpness, the SRS clock, the daily counter — belongs to `_mcAnswer` (MC) or to the
+          // `noteCardDone` call in the recall rung below, so this must never re-credit.
+          const banked = () => {
+            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
+            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // banked — commit is the next thing
+            advance();
+          };
+          // ── THE FORMAT LADDER REACHES THE JIT DRILL ─────────────────────────────────────────
+          // `askFormat` — recognition below stage 2, recall at or above it — and it is the NODE
+          // CARD's rule this surface joins, not the landing card's. `expandOption` pauses motion
+          // and DECLINES the landing question, so the JIT is a paused study surface with no clock,
+          // exactly like the dossier. The IN-PLAY rank gate (`_recallInPlayNow`: recall only from
+          // blue belt up, v1.133.0) is deliberately NOT consulted here — it prices a question
+          // asked against a running clock, and there is no clock on this side of the sheet.
+          if (this.askFormat(jitKey, card) === "mc") {
+            const mcw = this._mcBlock(card, jitKey, (ok) => {
+              if (ok) banked();
+              else nextBtn(advance);   // read the answer, then move on — a wrong answer buys nothing
+            }, "jit");
+            if (mcw) { jit.appendChild(mcw); return; }
+            // COLD POOL — fall through to recall and try ONCE to warm this deck. The panic
+            // drill's rule, for the panic drill's reason: a deck that cannot build MC at all
+            // must not loop render -> fallback -> warm -> render for ever.
+            if (!this._jitWarmTried) this._jitWarmTried = {};
+            if (!this._jitWarmTried[jitKey]) {
+              this._jitWarmTried[jitKey] = true;
+              this._warmMcPool(card, jitKey, "jit").then(() => {
+                if (touched || !jit.isConnected || (this._jitIdx[jitKey] || 0) % jc.length !== idx) return;
+                renderJit();   // same question, MC dress — a gentle upgrade, never a rug-pull
+              });
+            }
+          }
+          // ── RECALL ── the idiom this drill has always had. It is now the stage-2+ rung and the
+          // cold-pool fallback rather than the only format, and it still grades itself: no
+          // `_mcAnswer` ran, so the credit is made here.
+          const tail = document.createElement("div");
+          tail.innerHTML =
             '<div class="jitAns" style="display:none;margin-top:8px;font-size:12px;line-height:1.55;color:#a9cdb6;border-top:1px solid rgba(126,224,168,.15);padding-top:8px;">' + card.a + '</div>' +
             '<div style="display:flex;gap:8px;margin-top:10px;">' +
               '<button data-jit-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;">Reveal answer</button>' +
               '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 pump the odds</button>' +
             '</div>';
+          while (tail.firstChild) jit.appendChild(tail.firstChild);
           const rv = jit.querySelector("[data-jit-reveal]"), gt = jit.querySelector("[data-jit-got]");
-          rv.addEventListener("click", (ev) => { ev.stopPropagation(); jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
+          rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
           gt.addEventListener("click", (ev) => {
             ev.stopPropagation();
+            touched = true;
             this.prep[jitKey] = (this.prep[jitKey] || 0) + 1;
             this.noteCardDone(card, jitKey);          // credit + bonus_pumped beat + persistence
-            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
-            this._jitIdx[jitKey] = idx + 1;
-            renderJit();
-            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // bonus banked — commit is the next thing
+            banked();
           });
+        };
+        // A wrong MC answer must not strand the drill on a card whose answer is now on screen.
+        // The sidebar deck auto-advances for this reason; the panic drill deliberately does not
+        // (there, being wrong costs you the escape window). Here the sheet is paused and the
+        // player chose to study, so hand them the next card explicitly.
+        const nextBtn = (advance) => {
+          const b = document.createElement("button");
+          b.setAttribute("data-jit-next", "1");
+          b.textContent = "Next card \u2192";
+          b.style.cssText = "margin-top:9px;width:100%;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;";
+          b.addEventListener("click", (ev) => { ev.stopPropagation(); advance(); }); // the render's own advance, never a second copy of it
+          jit.appendChild(b);
         };
         renderJit();
         scroller.appendChild(jit);
@@ -4254,6 +4596,10 @@ class Component extends DCLogic {
     // single rep — while the stat beside it counts `rec[k] >= 3`, so "Mastered 3" opened a list
     // headed "180 techniques". Same set as `masteredCount()`, deliberately built from `rec`
     // rather than from the manifest so the count and the list can never be over different sets.
+    // NOT ruleset-filtered, deliberately: `mastered` and `explored` are the player's own RECORD,
+    // not material being dealt. Hiding a deck someone has already drilled to mastery because they
+    // flipped to no-gi makes their history look wrong; the buckets that DEAL (weak, suggested,
+    // system) are filtered at `weakSpots` and in the system branch below.
     if (bucket === "mastered") { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3); }
     if (bucket === "explored") return [...(this._exploredKeys || [])];
     // "system:<Systems/Slug>" — drill exactly the lit members, in the system's own order rather
@@ -4269,6 +4615,7 @@ class Component extends DCLogic {
       for (const id of ordered) {
         const i = this._idIndex ? this._idIndex.get(id) : null;
         if (i == null) continue;
+        if (!this.rsAllows(this.nodes[i])) continue;   // …nor a member this ruleset removed
         const k = this.deckKeyFor(this.nodes[i]).key;
         if (!decks[k] || seen.has(k)) continue;   // skip unauthored decks, never a dead session row
         seen.add(k);
@@ -4865,6 +5212,7 @@ class Component extends DCLogic {
         '<span class="t-fc" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "flashcards" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "flashcards" ? "#7e9bff" : "transparent") + ';">Flashcards</span>' +
         '<span class="t-rl" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "rolling" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "rolling" ? "#7e9bff" : "transparent") + ';">Rolling</span>' +
         '<span class="t-md" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "modifiers" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "modifiers" ? "#7e9bff" : "transparent") + ';">Modifiers</span>' +
+        '<span class="t-nt" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "notifications" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "notifications" ? "#7e9bff" : "transparent") + ';">Notifications</span>' +
         '<span class="t-kb" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "shortcuts" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "shortcuts" ? "#7e9bff" : "transparent") + ';">Shortcuts</span>' +
       '</div>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
@@ -4872,6 +5220,7 @@ class Component extends DCLogic {
     head.querySelector(".t-fc").addEventListener("click", () => { this._settingsTab = "flashcards"; this.renderSettings(); });
     head.querySelector(".t-rl").addEventListener("click", () => { this._settingsTab = "rolling"; this.renderSettings(); });
     head.querySelector(".t-md").addEventListener("click", () => { this._settingsTab = "modifiers"; this.renderSettings(); });
+    head.querySelector(".t-nt").addEventListener("click", () => { this._settingsTab = "notifications"; this.renderSettings(); });
     card.appendChild(head);
 
     const body = document.createElement("div");
@@ -4893,21 +5242,7 @@ class Component extends DCLogic {
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
-      // TRAINING-DAY DIGEST (v1.105.7, Beta) — the opt-in that makes the email Worker see you.
-      // Signed-in only: a digest without an address has nowhere to go. Default OFF; flipping it
-      // on starts recording the per-day dayLog (see noteCardDone) which syncs in the blob.
-      if (this.user) {
-        const wrap = document.createElement("div");
-        wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
-          [["On", true], ["Off", false]], "emailDigest", false));
-        const beta = document.createElement("span");
-        beta.textContent = "Beta";
-        beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
-        wrap.style.position = "relative";
-        wrap.appendChild(beta);
-        body.appendChild(wrap);
-      }
+      // (the training-day email row moved to the Notifications tab in v1.150.0)
       // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the knowledge band
       // reaches black; auto-flipped ON when the badge mints; freely flippable back. When on, a
       // stage-2+ card in PLAY renders as reveal/self-grade instead of multiple choice.
@@ -4942,6 +5277,36 @@ class Component extends DCLogic {
       cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
       tg.appendChild(cb); body.appendChild(tg);
+    } else if (tab === "notifications") {
+      // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
+      // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
+      // daily goal, answer mode and study format, i.e. the last place anyone looks for an email
+      // preference. It is the only notification the product sends, so this tab is honestly
+      // near-empty; do not pad it. When a second one exists it lands here beside the first.
+      if (this.user) {
+        // Signed-in only: a digest without an address has nowhere to go. Default OFF; flipping
+        // it on starts recording the per-day dayLog (see noteCardDone) which syncs in the blob.
+        // The KEY MUST STAY `emailDigest` — the digest Worker selects rows on
+        // `neural->settings->>emailDigest=eq.true`, so renaming it here would read to every
+        // opted-in user as a silent unsubscribe, with nothing anywhere going red.
+        const wrap = document.createElement("div");
+        wrap.setAttribute("data-digest-setting", "1");
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+          [["On", true], ["Off", false]], "emailDigest", false));
+        const beta = document.createElement("span");
+        beta.textContent = "Beta";
+        beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
+        wrap.style.position = "relative";
+        wrap.appendChild(beta);
+        body.appendChild(wrap);
+      } else {
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        const note = document.createElement("div");
+        note.setAttribute("data-notif-signedout", "1");
+        note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";
+        note.textContent = "The training-day email needs a signed-in account \u2014 that\u2019s where it would be sent. Sign in from the account menu to turn it on.";
+        body.appendChild(note);
+      }
     } else if (tab === "rolling") {
       const r = document.createElement("div");
       r.innerHTML = '<div style="font-size:15px;font-weight:600;color:#eef1f6;">Rolling simulation</div><div style="font-size:12.5px;color:#93a0bd;margin-top:5px;line-height:1.5;margin-bottom:16px;">When you pick a move, a dice-roll plays out against an AI opponent &mdash; success depends on the move\u2019s win % (boosted by your mastery).</div>';
@@ -5036,7 +5401,7 @@ class Component extends DCLogic {
       // landing questions — the in-roll quiz beat
       const lq = document.createElement("div");
       lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
-      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–D</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style="color:#c3cde0;">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.</div></div>';
+      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–C</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style="color:#c3cde0;">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.</div></div>';
       const lqb = document.createElement("button");
       const lqOn = this.get("landQuestions", true);
       lqb.innerHTML = lqOn ? "✓" : "";
@@ -5059,7 +5424,7 @@ class Component extends DCLogic {
       this.buildModifiers(body);
     } else {
       const rows = [
-        ["Answer a multiple-choice question", ["A", "B", "C", "D"]],
+        ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
         ["Flashcards: prev / next card", ["\u2190", "\u2192"]],
@@ -5634,7 +5999,7 @@ class Component extends DCLogic {
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
-    if (m !== "explore" && m !== "challenges" && m !== "history") return;
+    if (NG_PANE_TABS.indexOf(m) < 0) return;
     if (this._viewMode === m) return;
     // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
@@ -5649,6 +6014,78 @@ class Component extends DCLogic {
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
     this._renderPaneBody();
+  }
+  /**
+   * PAGE THE PANE'S TABS BY GESTURE (v1.147.0, owner: "users try to scroll left and right").
+   * ONE seam for every non-click way to change tab — `dir` is in NAV SPACE: +1 is the tab drawn
+   * to the RIGHT of the active one, -1 the one to its left. Callers hand over a gesture and the
+   * finger→nav conversion happens in `_paneGestureDir`, once, for the same reason `techniqueOrigin`
+   * exists: a direction rule written in two places disagrees with itself exactly once.
+   *
+   * Clamps at both ends, like `_landPageTo`. A pager that WRAPS teaches the wrong map — one swipe
+   * past the end teleports you across the whole nav, and no gesture is left meaning "you are at
+   * the edge".
+   */
+  _paneTabPageTo(dir) {
+    if (!this.deckShown || this._paneStudyActive()) return false; // a study surface owns the pane; its nav is hidden
+    const at = NG_PANE_TABS.indexOf(this._viewMode);
+    if (at < 0) return false;
+    const next = Math.max(0, Math.min(NG_PANE_TABS.length - 1, at + (dir > 0 ? 1 : -1)));
+    if (next === at) return false;
+    const from = NG_PANE_TABS[at];
+    const sign = next > at ? 1 : -1;
+    this.setViewMode(NG_PANE_TABS[next]);
+    this._paneSlideBody(sign);
+    this.fx("pane_tab_paged", { from: from, to: NG_PANE_TABS[next], dir: sign });
+    return true;
+  }
+  /**
+   * FINGER → NAV, and the answer to "should it be inverted?": no.
+   *
+   * THE CONTENT FOLLOWS THE FINGER. Dragging leftward pulls the tab on the right into view, so
+   * `dx < 0` is +1. That is UIPageViewController, Android ViewPager2 and every tabbed phone app
+   * the visitor already owns — and it is ALSO this app's own landing card
+   * (`_landPageTo(dx < 0 ? 1 : -1)`, v1.130.0). Two pagers inside one drawer disagreeing about
+   * which way is forward would be the defect, whatever the merits of the other convention.
+   *
+   * THERE IS NO DEVICE PREFERENCE TO READ — written down so nobody goes looking again. No web
+   * API exposes a swipe-direction or "natural scrolling" setting: `navigator`, `matchMedia` and
+   * the pointer events are all silent on it. macOS "natural scrolling" inverts WHEEL deltas
+   * inside the OS, so the browser is handed an already-flipped number and cannot tell; a touch
+   * gesture is never flipped at all, on any platform. The one REAL device signal is WRITING
+   * DIRECTION: under `dir="rtl"` the nav lays itself out history|challenges|explore, so the same
+   * drag must move the other way. Read it off the element that actually laid out — never off a
+   * language guess, because the browser has already done that work and can be overridden per page.
+   */
+  _paneGestureDir(dx, el) {
+    let rtl = false;
+    try { rtl = getComputedStyle(el || this.drillRef.current).direction === "rtl"; } catch (e) {}
+    return (dx < 0 ? 1 : -1) * (rtl ? -1 : 1);
+  }
+  /**
+   * The incoming body slides in from the side the finger pulled it from. This is the only thing
+   * that distinguishes "my swipe worked" from "the tab changed"; it is also how the gesture
+   * ADVERTISES itself, which is the actual complaint being fixed — people were already swiping.
+   * Transform + opacity only (no layout), cleared on completion so a scroller is never left
+   * holding a containing block it does not need. `prefers-reduced-motion` skips the animation,
+   * never the tab change.
+   */
+  _paneSlideBody(sign) {
+    if (this._reducedMotion()) return;
+    const el = this._viewMode === "history" ? this.drillListRef.current : this.explorerListRef.current;
+    if (!el) return;
+    clearTimeout(this._paneSlideT);
+    el.style.transition = "none";
+    el.style.transform = "translateX(" + (sign > 0 ? 18 : -18) + "px)";
+    el.style.opacity = "0.55";
+    // two frames: one commits the offset, the next transitions off it. A single rAF lands both
+    // writes in one style recalculation and nothing moves.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      el.style.transition = "transform .18s cubic-bezier(.2,.7,.2,1),opacity .18s linear";
+      el.style.transform = "translateX(0)";
+      el.style.opacity = "1";
+      this._paneSlideT = setTimeout(() => { el.style.transition = ""; el.style.transform = ""; el.style.opacity = ""; }, 240);
+    }));
   }
   styleViewToggle() {
     const vt = this.viewToggleRef.current; if (!vt) return;
@@ -5765,10 +6202,56 @@ class Component extends DCLogic {
     for (const g of graded) sum += g;
     return Math.min(1, sum / n);   // clamp: belt AND braces
   }
+  // THE ONE READER OF THE SCORE TABLE, and the only place the wire is expanded (v1.145.13).
+  // `scoreWeights` is `{div, p:{k,v}, t:{k,v}}`: position deck keys once, technique NAMES once,
+  // integers scaled by `div`. Every `t` name carries BOTH seats at the same value — the defender
+  // block IS the attacker block re-keyed, so spelling it twice on the wire bought nothing and
+  // cost 9,048 gzip; the emitter round-trips this expansion and refuses if it ever stops holding.
+  // Memoised on the payload object, not on a version: `curriculum` is assigned once, at fetch.
+  //
+  // `weights` (the old flat, attacker-only table) is still READ when present — the unit fixtures
+  // carry that shape — but is no longer emitted. A payload with neither scores 0 rather than
+  // guessing, which `deckMastery`'s manifest branch exists to make honest rather than silent.
+  // WHICH WEIGHTS TABLE IS MINE — the ONE answer, for every reader (gameScore, startPosTraffic).
+  // The table is per ruleset because the corpus is: 52 techniques are attemptable only in gi and
+  // 16 only in no-gi, so one folded table scored 104 decks / 739 cards at ZERO under gi, which is
+  // the DEFAULT ruleset. A zero in a frame's array means "not attemptable in this ruleset" and is
+  // SKIPPED rather than stored, or gameScore's own denominator would carry mass for a deck the
+  // player can never be dealt.
+  //
+  // THE MEMO IS PER FRAME AND HAS TO BE. It was a single slot (`this._scoreW`), which is fine for
+  // one table and silently wrong for two: the first read would pin whichever ruleset happened to
+  // be active and serve it to the other forever.
+  //
+  // Reads the old shapes where it finds them — `scoreWeights` (v1.145.13) and a flat `weights`
+  // before it — so every fixture carrying one still scores.
+  scoreWeights(frame) {
+    const fr = frame || (this._giMode === "nogi" ? "nogi" : "gi");
+    const c = this.curriculum; if (!c) return null;
+    const memo = this._scoreW || (this._scoreW = {});
+    if (memo[fr]) return memo[fr];
+    const br = c.scoreWeightsByRuleset;
+    const sw = (br && br.t && br.t[fr]) ? br : c.scoreWeights;
+    if (!sw || !sw.t) return (memo[fr] = c.weights || null);
+    const pv = sw.p[fr] || sw.p.v, tv = sw.t[fr] || sw.t.v;
+    if (!pv || !tv) return (memo[fr] = c.weights || null);
+    const d = sw.div || 1e7, o = {};
+    for (let i = 0; i < sw.p.k.length; i++) if (pv[i]) o[sw.p.k[i]] = pv[i] / d;
+    for (let i = 0; i < sw.t.k.length; i++) {
+      const v = tv[i] / d;
+      if (tv[i]) { o[sw.t.k[i] + "|Attacker"] = v; o[sw.t.k[i] + "|Defender"] = v; }
+    }
+    return (memo[fr] = o);
+  }
   gameScore() {
     const ver = this._stageVer || 0;
-    if (this._scoreCache && this._scoreCache.v === ver) return this._scoreCache.out; // ~21k card reads — memoised per stage change
-    const w = (this.curriculum && this.curriculum.weights) || null;
+    // KEYED ON THE FRAME TOO, AND IT HAS TO BE. `_stageVer` is bumped only by a card grade, so
+    // once the weights became per-ruleset a Gi/No-gi toggle would have moved the table under a
+    // cache with no reason to notice — the app would keep printing the other ruleset's percentage
+    // until the user happened to answer a card. A stale memo would have shipped this fix as a lie.
+    const frame = this._giMode === "nogi" ? "nogi" : "gi";
+    if (this._scoreCache && this._scoreCache.v === ver && this._scoreCache.f === frame) return this._scoreCache.out; // ~21k card reads — memoised per (stage, ruleset)
+    const w = this.scoreWeights(frame);
     const B = this.BELT_SCORE;
     let score = 0;
     if (w) {
@@ -5786,7 +6269,7 @@ class Component extends DCLogic {
       next: earned + 1 < B.length ? B[earned + 1][0] : null,
       stripes: hi > lo ? Math.max(0, Math.min(4, Math.floor(((score - lo) / (hi - lo)) * 4))) : 4,
     };
-    this._scoreCache = { v: ver, out: out };
+    this._scoreCache = { v: ver, f: frame, out: out };
     return out;
   }
   // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
@@ -5846,7 +6329,7 @@ class Component extends DCLogic {
       // 2662 Transitions — with nothing to tell the duplicates apart. `rep` is true for every
       // unpaired node, so this is a no-op on the legacy graph.
       if (!n.rep) continue;
-      if (!this.giAllows(n)) continue;
+      if (!this.rsAllows(n)) continue;   // the mask, so this pane and the canvas cannot disagree
       const fam = n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main;
       (g[fam] = g[fam] || []).push(n);
     }
@@ -5906,9 +6389,10 @@ class Component extends DCLogic {
       inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
       inp.addEventListener("pointerdown", (e) => e.stopPropagation());
     }
-    // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3) — only the stored
-    // preference is loaded here; setGiMode stays the one behavior seam
-    if (this._giMode == null) { try { this._giMode = localStorage.getItem("bjj_gi_mode") === "nogi" ? "nogi" : "gi"; } catch (e) { this._giMode = "gi"; } }
+    // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3); the stored preference is
+    // hydrated at ingest now (see _hydrateGiMode) — this call is the belt-and-braces for a pane
+    // that somehow opens first. setGiMode stays the one behavior seam.
+    this._hydrateGiMode();
     const vt = this.viewToggleRef.current;
     if (vt && !vt._wired) {
       vt._wired = true;
@@ -5921,20 +6405,91 @@ class Component extends DCLogic {
     if (m !== "gi" && m !== "nogi") return;
     this._giMode = m;
     try { localStorage.setItem("bjj_gi_mode", m); } catch (e) {}
+    // THE ONE SEAM WHERE THE RULESET CHANGES, so it is where everything derived from the weights
+    // table is released. `_posTraffic` is memoised on first read and carried NO version at all,
+    // which pinned the opening-position bias to whichever ruleset was active at the first roll.
+    // `_scoreW` and `_scoreCache` are keyed per frame and need no release — listed here so the
+    // next reader can see that was checked rather than forgotten.
+    this._posTraffic = null;
     this._explorer = null;
+    // v1.153.0 — everything below is memoised over a NODE SET that the ruleset now changes. Each
+    // one was built once and carried no version, exactly the defect `_posTraffic` above was fixed
+    // for. `_ambig` and `_edgeW`/`_maxW` are deliberately NOT released: label qualification and
+    // edge weights are geometry, and re-deriving them on a flip would move labels and line widths
+    // on nodes that did not change availability.
+    this._posIdx = null;
+    if (this.systems) for (const sy of this.systems) { if (sy) sy._idxs = null; }
+    this._rebuildRulesetMask();
+    // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
+    // `_curriculumIdxSet` is built eagerly by `_onCurriculum` (nulling it would kill path fog
+    // until the next curriculum load) and an excluded node is not drawn at all, so its fog
+    // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
+    // node set; `_scoreW`/`_scoreCache` are already per-frame.
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
   giAllows(n) {
-    // data-driven: a node's cal.avail.{gi,nogi} is derived from Q3's per-frame attempt
-    // probabilities (available in F iff attempted in F). Falls back to the old name heuristic
-    // only for nodes without calibrated availability (keeps behaviour for uncalibrated data).
+    // THE ONE RULESET PREDICATE. A node's `cal.avail.{gi,nogi}` is REACHABILITY-CLOSED at build
+    // time (`frame_reachable`, scripts/regenerate_neural_data.py): available in F iff a session in
+    // F can actually walk to it from the standing seats. That is stricter than the question it
+    // used to answer ("is it attempted anywhere in F"), which could not see the case that matters
+    // — Worm Guard/Bottom deals an honest-looking no-gi hand, conditional on standing in a guard
+    // that requires threading the opponent's lapel, which no no-gi edge ever enters.
+    //
+    // NO NAME MATCHING (ruling P3a). The fallback regex this used to carry is deleted: it fired on
+    // `Rear Naked Choke from Invisible Collar` — the canonical no-gi choke — because the POSITION
+    // is named "Collar", and the calibration panel refuted it in advance in its own notes. A node
+    // WITHOUT `avail` now fails OPEN (available in both), which is the honest answer for a node
+    // the corpus has no verdict on; the emitter counts them and refuses a wire where the table is
+    // empty, so "no verdict anywhere" can no longer read as "nothing is gi-only".
     const av = n.cal && n.cal.avail;
     const frame = this._giMode || "gi";
     if (av && typeof av[frame] === "boolean") return av[frame];
-    if (this._giMode !== "nogi") return true;
-    return !/collar|sleeve|lapel|spider|lasso|worm|loop |bow and arrow|ezekiel|cross choke|judo|gi tail|pant/i.test(n.t || "");
+    return true;
   }
+  _hydrateGiMode() {
+    // v1.153.0: hydrated at INGEST, not on the pane's first open. It used to live in
+    // `_wirePaneControls`, which `applyDeckVisibility` calls only inside `if (open && !wasShown)`
+    // — so a returning no-gi player who reloaded and played the graph without ever opening the
+    // pane was dealt the GI hand, gi odds and gi Explore until they happened to open it.
+    if (this._giMode == null) {
+      try { this._giMode = localStorage.getItem("bjj_gi_mode") === "nogi" ? "nogi" : "gi"; }
+      catch (e) { this._giMode = "gi"; }
+    }
+    return this._giMode;
+  }
+  _rebuildRulesetMask() {
+    // `giAllows` is the definition; this is its per-frame CACHE, not a second implementation —
+    // every entry is that method's own answer. It exists because the draw pass asks the question
+    // ~1500x per frame and a Map/property walk there is the difference between a filter and a
+    // stutter. Rebuilt only where the frame can change (ingest, setGiMode).
+    this._hydrateGiMode();
+    const ns = this.nodes || [];
+    const mask = new Uint8Array(ns.length);
+    let off = 0;
+    for (const n of ns) { const ok = this.giAllows(n); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
+    this._rsOk = mask;
+    this._rsOff = off;
+    this._rsFrame = this._giMode;
+    return mask;
+  }
+  _rulesetMask() {
+    // lazily self-healing: a length mismatch means `ingest` ran again without rebuilding, and a
+    // stale-length mask is the one failure mode that would silently read "allowed" for every node
+    // past its end. Rebuild rather than trust it.
+    const ns = this.nodes || [];
+    const m = this._rsOk;
+    // STAMPED WITH THE FRAME IT WAS BUILT FOR. `setGiMode` is the only sanctioned writer of
+    // `_giMode`, but a test rig or a journey that pokes the field directly would otherwise read a
+    // mask for the other ruleset and every assertion after it would be about the wrong graph —
+    // the failure would look like the filter not working rather than like a stale cache.
+    return m && m.length === ns.length && this._rsFrame === this._giMode ? m : this._rebuildRulesetMask();
+  }
+  rsAllows(n) {
+    // the reader every surface calls.
+    return !!n && this._rulesetMask()[n.idx] === 1;
+  }
+  rsAllowsIdx(i) { const n = this.nodes && this.nodes[i]; return !!n && this._rulesetMask()[i] === 1; }
   showExplorerList() {
     const sh = this.dossierSheetRef.current;
     if (sh && sh.style.display === "block") this.closeDossierSheet();
@@ -5999,6 +6554,13 @@ class Component extends DCLogic {
       this.renderSystemDetail(list, this._systemId, mk);
       return;
     }
+    // Same contract for a concept: it owns the list AND the focus set, so it renders ahead of
+    // the reset too. A live query still wins — search is the one surface that outranks a
+    // selection, and typing is the only thing that can arm one (v1.152.0).
+    if (this._conceptId && !q && this._conceptsById && this._conceptsById[this._conceptId]) {
+      this.renderConceptDetail(list, this._conceptId, mk);
+      return;
+    }
     // A list selection SURVIVES the reset below (Systems does the same via _systemId, but from
     // its own detail view). Without this, every Explore re-render — including one keystroke in
     // the search box — would drop the highlight a shared link just lit.
@@ -6024,8 +6586,22 @@ class Component extends DCLogic {
       // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
       // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
       // `?dual=legacy`.
-      const matches = this.nodes.filter((n) => n.rep && n.t.toLowerCase().includes(q)).slice(0, 120);
-      if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + q + '\u201d</span>', 12)); return; }
+      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
+      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
+      // page of results for states no no-gi session can enter.
+      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && n.t.toLowerCase().includes(q)).slice(0, 120);
+      // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
+      // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
+      // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
+      // is not a sanitiser; the payload is already lowercase. SELF-XSS ONLY: `_exQ` is written
+      // by the search input and by NOTHING ELSE since v1.152.0 — the hardcoded curatedMap terms
+      // that used to write it are gone with the search shortcuts (see below) — by NO url param
+      // (`?dual=` is the only one the app reads), and the query is never stored nor shown to
+      // anyone else —
+      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
+      // it slices the trusted title and uses q only for indexOf/length.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
@@ -6034,24 +6610,37 @@ class Component extends DCLogic {
       }
       return;
     }
-    // curated concept sections (authored on bjjgraph.org)
-    const curatedMap = {
-      Principles: ["#66CCEE", [["Frames & posture", "guard"], ["Base & connection", "control"], ["Hip movement", "escape"], ["Grip fighting", "grip"], ["Angles", "back"], ["Pressure", "side control"]]],
-      Learning: ["#7ee0a8", [["Fundamentals path", "guard"], ["Submission escapes", "escape"], ["Guard passing 101", "pass"], ["Back control & finishes", "back"]]],
-    };
-    const renderCurated = (label) => {
-      const entry = curatedMap[label], col = entry[0], items = entry[1];
+    // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
+    //
+    // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
+    // SEARCH TERM into the box and re-rendered — `["Angles", "back"]` ran a text search for
+    // "back". Owner: "If I click a principle like Angles, it goes to SEARCH mode. I wasn't
+    // searching. The intent was to open a content page on the side panel." And: "I remember
+    // seeing 20-something or 30 principles. Now I'm just seeing 6." Both complaints were the
+    // same literal: six rows AND a search-shaped click are what a search-shortcut list IS.
+    //
+    // 59 principles and 23 Learning entries are authored (content/Principles, content/Learning),
+    // and NONE of them is a graph node — which is why they had no route in. concepts.json is
+    // their index and their readable bodies ride the per-node dossier chunk space, so the same
+    // `_ngc()` cache serves both. See _ensureConcepts / renderConceptDetail.
+    const CONCEPT_DOT = { Principle: "#66CCEE", Learning: "#7ee0a8" };
+    const renderConcepts = (cat, label) => {
+      const all = (this.concepts || []).filter((c) => c.cat === cat);
+      // Deferred payload (63KB), same posture as Systems: ask at the first read, and _onConcepts
+      // re-renders Explore when it lands. Absent (or 404) -> no section yet, never a stub list.
+      if (!all.length) { this._ensureConcepts(); return; }
       const open = this._exploreSectionOpen(label);
-      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
-      for (const [name, term] of items) {
-        list.appendChild(mk('<span style="width:7px;height:7px;border-radius:50%;background:' + col + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + name + '</span>', 22, () => {
-          this._exQ = term; const inp = this.explorerSearchRef.current; if (inp) inp.value = term;
-          this.renderExplorer();
-        }));
+      for (const c of all) {
+        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:' + CONCEPT_DOT[cat] + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
+        row.setAttribute("data-concept-row", c.id);
+        row.setAttribute("data-concept-cat", c.cat);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
       }
     };
     // Systems: every authored system in systems.json, alphabetical. The whole library is listed
@@ -6108,9 +6697,9 @@ class Component extends DCLogic {
     // (the weak-spots count is Explore's call to action); Lists heads the sections.
     this.renderLists(list);
     renderSystems();
-    renderCurated("Principles");
+    renderConcepts("Principle", "Principles");
     for (const pair of data.order) renderGraphGroup(pair);
-    renderCurated("Learning");
+    renderConcepts("Learning", "Learning");
   }
   // ---------- focus set: the node selection the graph lights up ----------
   // General by design: a System lights its member techniques today, a shareable List will light
@@ -6126,7 +6715,7 @@ class Component extends DCLogic {
   }
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
-  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._listFocusId = null; }
+  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null; }
 
   // ---------- systems: the authored course library (systems.json, optional payload) ----------
   _onSystems() {
@@ -6142,7 +6731,9 @@ class Component extends DCLogic {
       const out = [];
       for (const id of (Array.isArray(s.nodes) ? s.nodes : [])) {
         const i = this._idIndex ? this._idIndex.get(id) : null;
-        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+        // a system's roster is authored gi-first; lighting a member the ruleset removed would
+        // point the camera at an orb that is not drawn. Released per-system by `setGiMode`.
+        if (i != null && this.nodes[i] && this.rsAllows(this.nodes[i]) && out.indexOf(i) < 0) out.push(i);
       }
       s._idxs = out;
     }
@@ -7011,7 +7602,7 @@ class Component extends DCLogic {
         this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
-        e.stopPropagation(); // the editor owns the keyboard: A/B/C/D, digits, and Esc
+        e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
         if (e.key === "Enter") { e.preventDefault(); commit(); }
         else if (e.key === "Escape") { e.preventDefault(); done = true; this.closeListPicker(); }
       });
@@ -7304,7 +7895,7 @@ class Component extends DCLogic {
         };
         inp.addEventListener("input", () => { this._listEditDraft = inp.value; });
         inp.addEventListener("keydown", (e) => {
-          // the editor owns the keyboard: stopPropagation keeps A/B/C/D, digits and —
+          // the editor owns the keyboard: stopPropagation keeps A/B/C, digits and —
           // critically — Escape (the pane's Esc ladder) out of the global handler
           e.stopPropagation();
           if (e.key === "Enter") { e.preventDefault(); finish(true); }
@@ -7980,6 +8571,130 @@ class Component extends DCLogic {
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
   }
+  /** THE PANEL THE CLICK WAS ALWAYS MEANT TO OPEN.
+   *
+   *  Two layers, and the split is a byte budget: the INDEX (concepts.json, deferred, 63KB) carries
+   *  the name, the meta, the summary and the graph nodes, so a row click lights the graph and
+   *  draws a card instantly; the BODY rides an on-demand chunk and fills in underneath. Nothing
+   *  here waits on the chunk — a panel that renders nothing until a fetch returns is how "it
+   *  searched instead" felt in the first place.
+   *
+   *  The sections are the concept's own spine, normalised by the emitter so Principles and
+   *  Learning (authored by two different templates, saying the same things in different words)
+   *  draw through ONE renderer: overview, points, contexts, errors, drills.
+   *
+   *  NOT here, deliberately: the full authored prose (content/Principles/*.md is ~2.4MB) and the
+   *  concept flashcards, which still reach no deck. The page link is how a reader gets the rest. */
+  renderConceptDetail(list, id, mk) {
+    const c = this._conceptsById[id]; if (!c) return;
+    const E = (v) => this.escHTML(v);
+    const body = this._conceptBody(c);
+    const idxs = this.conceptNodeIdxs(c);
+    const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 ' + (c.cat === "Learning" ? "All learning" : "All principles") + '</span>', 12, () => this.closeConcept());
+    back.setAttribute("data-concept-back", c.cat);
+    back.style.pointerEvents = "auto";
+    list.appendChild(back);
+
+    const card = document.createElement("section");
+    card.className = "ng-concept-detail";
+    card.setAttribute("data-concept-detail", c.id);
+    card.setAttribute("data-concept-cat", c.cat);
+    card.setAttribute("aria-label", c.name + " " + c.cat.toLowerCase());
+    const meta = [c.cat === "Learning" ? "Learning" : "Principle"];
+    if (c.meta) meta.push(E(c.meta));
+    if (idxs.length) meta.push(idxs.length + " lit on the graph");
+    card.innerHTML = "<h2>" + E(c.name) + '</h2><div class="ng-concept-meta">' + meta.join(" \u00b7 ") + "</div>" +
+      (c.summary ? "<p>" + E(c.summary) + "</p>" : "");
+    list.appendChild(card);
+
+    // ── the read. Rendered only when the chunk is here; until then the card above stands alone
+    //    and this fills in on the re-render the fetch triggers.
+    if (body) {
+      const sec = document.createElement("div");
+      sec.className = "ng-concept-body";
+      sec.setAttribute("data-concept-body", c.id);
+      const head = (t) => '<h3>' + E(t) + '</h3>';
+      let h = "";
+      if (body.overview) h += "<p>" + E(body.overview) + "</p>";
+      const points = Array.isArray(body.points) ? body.points : [];
+      if (points.length)
+        h += head(c.cat === "Learning" ? "Key takeaways" : "Key principles") +
+          '<ul data-concept-points="' + points.length + '">' + points.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
+      const contexts = Array.isArray(body.contexts) ? body.contexts : [];
+      if (contexts.length)
+        h += head("Where it applies") + '<dl data-concept-contexts="' + contexts.length + '">' +
+          contexts.map((x) => "<dt>" + E(x.c) + "</dt><dd>" + E(x.how) + "</dd>").join("") + "</dl>";
+      const errors = Array.isArray(body.errors) ? body.errors : [];
+      if (errors.length)
+        h += head("What goes wrong") + '<dl data-concept-errors="' + errors.length + '">' +
+          errors.map((x) => "<dt>" + E(x.err) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.fix) + "</dd>").join("") + "</dl>";
+      const drills = Array.isArray(body.drills) ? body.drills : [];
+      if (drills.length)
+        h += head("How to train it") + '<dl data-concept-drills="' + drills.length + '">' +
+          drills.map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) + (x.focus ? "<em>" + E(x.focus) + "</em>" : "") + "</dd>").join("") + "</dl>";
+      sec.innerHTML = h;
+      list.appendChild(sec);
+    }
+
+    // The full authored page. A REAL anchor, because it leaves the app: the .md prose behind it is
+    // the reading surface this pane is not, and the panel must say so rather than imply it is all
+    // there is.
+    const page = document.createElement("a");
+    page.className = "ng-concept-page";
+    page.setAttribute("data-concept-page", c.id);
+    page.href = c.url;
+    page.style.pointerEvents = "auto";
+    page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
+    list.appendChild(page);
+
+    // ── the techniques this concept names, with the authored reason each one is here. The glue
+    //    is the same idea a System carries: a lit constellation with no reason attached is what
+    //    the six search shortcuts already were.
+    if (idxs.length) {
+      const head = document.createElement("div");
+      head.className = "ng-system-members-head";
+      head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
+      list.appendChild(head);
+      const roleFor = new Map();
+      for (const g of (body && Array.isArray(body.glue) ? body.glue : [])) {
+        for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
+      }
+      for (const i of idxs) {
+        const n = this.nodes[i], sp = this.splitName(n.t);
+        const role = roleFor.get(n.id) || "";
+        const row = mk(
+          this.nodeGlyph(n.ty, this.hex(n.col), 8) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
+            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
+          22,
+          () => this.openDossier(i),
+        );
+        row.setAttribute("data-concept-node", n.id);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
+      }
+    }
+
+    // ── concept-to-concept links. These are the ~440 references build_systems could only count
+    //    and discard (they are pages, never graph nodes); here they are the navigation a reader
+    //    actually follows, and the emitter resolved each one against the payload it emitted, so
+    //    a link can never point at a row that does not exist.
+    const related = (body && Array.isArray(body.related) ? body.related : []).filter((rid) => this._conceptsById && this._conceptsById[rid]);
+    if (related.length) {
+      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">Related concepts</span>', 12));
+      for (const rid of related) {
+        const r = this._conceptsById[rid];
+        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:' + (r.cat === "Learning" ? "#7ee0a8" : "#66CCEE") + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + E(r.name) + "</span>", 22, () => this.openConcept(rid));
+        row.setAttribute("data-concept-link", rid);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
+      }
+    }
+
+    const missing = (Array.isArray(c.unresolved) ? c.unresolved : []).length;
+    if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " technique" + (missing === 1 ? "" : "s") + " named here aren\u2019t on the map yet</span>", 22));
+  }
   locateNode(idx) {
     // pure camera flight — the pane sits on the LEFT (v1.94.0; this comment used to say right),
     // and every caller (session rows, lesson study) keeps the pane open for the study that follows.
@@ -8202,7 +8917,7 @@ class Component extends DCLogic {
    * Same treatment (inline opacity + pointer-events) the option-detail sheet uses, and
    * _landBackfill already knows to preserve an inline hide across a re-render.
    */
-  /** Is the landing card currently standing down? A–D must not grade a question nobody can see:
+  /** Is the landing card currently standing down? A–C must not grade a question nobody can see:
    *  opening the pane suppresses the card but never nulls `this._mc`, so the keys stayed live
    *  over an invisible surface and a stray keystroke scored a question the player was not being
    *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
@@ -8302,7 +9017,12 @@ class Component extends DCLogic {
    *  card's stand-down can never drift from whether a sheet is actually open. Lifters, i.e. every
    *  site that hands the card back: `closeOptionDetail` (Back / ✕ / Esc / Enter-commit), the
    *  Execute door, the modal backdrop, both `confirmPlayFrom` exits, and `clearOptions`. */
-  _setDetailCtx(ctx) { this._detailCtx = ctx || null; this._syncDetailDim(); }
+  _setDetailCtx(ctx) {
+    // Closing the sheet takes the JIT drill's MC block off screen with it, so the keyboard goes
+    // back the way the dossier's does — see `_handBackMc`. Harmless when the JIT never asked.
+    if (!ctx) this._handBackMc("jit", true);   // the sheet declined on entry — see `_handBackMc`
+    this._detailCtx = ctx || null; this._syncDetailDim();
+  }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
     if (!b) return "";
@@ -8795,7 +9515,17 @@ class Component extends DCLogic {
     const renderResults = () => {
       const q = (this._searchQ || "").toLowerCase().trim();
       results.innerHTML = "";
-      let matches = q ? this.nodes.filter((n) => n.t.toLowerCase().includes(q)) : this.nodes.slice(0, 80);
+      // FILTER TO `rep`, or every hit doubles. `_deriveDualPairs` gives both members of a pair the
+      // hub's own title (`t: h.t`, :862), so a title match resolves to the site TWICE and the 100-cap
+      // below then shows 50 sites. The Explore pane's search (:6015) has always filtered; this one
+      // never did, so the modal listed 202 rows for "mount" where the rep set is 101. Same rule for
+      // the empty-query branch: `slice(0, 80)` over an interleaved [rep, partner, rep, …] node list
+      // is 40 sites shown twice, not 80 results. (CLAUDE.md §6.6 — one question answered in two
+      // places; the pane's spelling is the correct one.)
+      // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
+      // directly, so it inherited neither filter.
+      const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
+      let matches = q ? repd.filter((n) => n.t.toLowerCase().includes(q)) : repd.slice(0, 80);
       matches = matches.slice(0, 100);
       if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
       for (const n of matches) {
@@ -8945,6 +9675,25 @@ class Component extends DCLogic {
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
   // null = this text cannot be an MC option (the card falls back to classic recall).
   get MC_LINE() { return 36; } // one-line option cap; keep in sync with regenerate_neural_data MC_LINE_BUDGET
+  // HOW MANY WRONG OPTIONS AN MC ASKS (v1.148.0). 2 distractors + the correct one = THREE
+  // options, down from four: the landing card is clamped (helmet.html .ng-landcard,
+  // max-height:34vh on a phone) and a fourth ~44px row pushed the question, the clock and
+  // `More ▸` past it, so the card scrolled under a 9s decisionSec clock. Three also sits
+  // below the decision-fatigue threshold, which is the owner's reason for the number.
+  //
+  // ONE SEAM, TWO CALLERS, AND THEY MUST NEVER DISAGREE. _mcBlock draws for real and
+  // _warmMcPool runs the SAME pooler as a rolled-back dry pass to decide which deck chunks
+  // to hydrate. If the two asked for different counts the dry pass would name the wrong deck
+  // set, mc_pool_cold would fire on a live draw, and every rigged journey would replay
+  // differently (§6.5). Both read this getter; neither carries a literal.
+  //
+  // KEEP IN SYNC with MC_DISTRACTORS in scripts/audit_mc_viability.py, the exhaustive Python
+  // port that npm run validate:mc gates on — same contract as MC_LINE <-> MC_LINE_BUDGET.
+  //
+  // NOTE the floor below (`picked.length < 2` -> recall) now EQUALS this number, so a shipped
+  // MC block is always exactly three options or it is not an MC block at all. Raising this
+  // back to 3 re-opens the degraded-3-option case; the floor is deliberately still a literal.
+  get MC_DISTRACTORS() { return 2; }
   mcClip(a) {
     const m = String(a || "").match(/^[\s\S]*?[.!?]/);
     const s = (m ? m[0] : String(a || "")).trim();
@@ -8962,7 +9711,7 @@ class Component extends DCLogic {
   // `tag` scopes the RNG so one surface can never eat another's rigged queue: the landing card
   // draws on "land-mc-*", leaving "mc-*" to the sidebar/checkpoint exactly as journeys rig it.
   mcDistractors(card, deckKey, n, tag) {
-    n = n || 3;
+    n = n || this.MC_DISTRACTORS;
     const tPick = tag ? tag + "-mc-pick" : "mc-pick", tShuf = tag ? tag + "-mc-shuffle" : "mc-shuffle";
     const correct = card.a;
     if (!correct) return null;
@@ -8978,8 +9727,24 @@ class Component extends DCLogic {
     };
     const d = card.mc || null;                                // authored one-line graded tiers win
     if (d) {
-      (d.p || []).forEach((x) => tryAdd(x, "plausible", false));
+      // TRAP FIRST, AND IT IS NOT A STYLE CHOICE (v1.148.0). The corpus is uniformly 2 plausible
+      // + 1 trap — measured 23,406 of 23,406 cards carrying `distractors`, no other shape exists.
+      // tryAdd early-returns at `picked.length >= n`, so with MC_DISTRACTORS = 2 the two plausible
+      // lines filled both slots and `d.t` was NEVER CONSULTED: the trap tier, its 2x odds cost
+      // (0.08 vs 0.04, _landAnswered), its stage penalty (_mcAnswer bumps -1 on a trap) and the
+      // mc_wrong{tier:"trap"} beat would have gone quiet corpus-wide with validate:mc still
+      // reporting 100% viable, because that gate certifies at >=2 SURVIVORS and never asks which
+      // tiers they came from. Textbook §6.6: a fallback that produces a plausible value and never
+      // says it fired. Consult the trap first and it always survives the cut.
       (d.t || []).forEach((x) => tryAdd(x, "trap", false));
+      // ROTATE THE PLAUSIBLE SLOT. Two are authored and only one is shown; taking p[0] every time
+      // would permanently retire 23,406 already-authored lines and make the card identical on
+      // every meeting. One draw on the SAME tag as the pool loops, so it rolls back with the dry
+      // pass and replays frame-exact. Guarded on length so the draw count cannot depend on a
+      // card that authored only one (§6.6: choose the fallback BEFORE any rng draw).
+      const ps = (d.p || []).slice();
+      if (ps.length > 1) ps.unshift(ps.splice((this.rng(tPick) * ps.length) | 0, 1)[0]);
+      ps.forEach((x) => tryAdd(x, "plausible", false));
     }
     const decks = (this.flashcards && this.flashcards.decks) || {};
     // RESIDENCY DISCIPLINE (v1.80.4). Every deck this pooler consults must already be resident,
@@ -9005,8 +9770,13 @@ class Component extends DCLogic {
     if (picked.length < n) {                                  // graph-neighbor decks
       const idx = this.nodeForKey(deckKey);
       if (idx >= 0 && this.adj && this.adj[idx]) {
+        const rsOk = this._rulesetMask();
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
+          // a distractor naming a move this ruleset does not have is not a hard wrong answer, it
+          // is an unanswerable one. RNG NOTE: this changes the neighbour SET, so the draw stream
+          // moves — rigged journeys that pin `mc-pick` across a no-gi deck must be re-rigged.
+          if (!rsOk[k]) continue;
           const nc = consult(this.deckKeyFor(this.nodes[k]).key);
           if (nc && nc.length) tryAdd(nc[(this.rng(tPick) * nc.length) | 0].a, "pool", true);
         }
@@ -9019,10 +9789,18 @@ class Component extends DCLogic {
       let guard = 0;
       while (picked.length < n && guard++ < 60) {
         const k = keys[(this.rng(tPick) * keys.length) | 0];
+        // the KEY draw stays over the whole manifest so the stream cannot move with residency
+        // (the reason `keys` is the manifest, not the resident decks); the ruleset test is applied
+        // AFTER the draw, for the same reason.
+        { const ni = this.nodeForKey(k); if (ni >= 0 && !this.rsAllowsIdx(ni)) continue; }
         const dc = consult(k);
         if (dc && dc.length && k !== deckKey) tryAdd(dc[(this.rng(tPick) * dc.length) | 0].a, "pool", true);
       }
     }
+    // THE RECALL FLOOR, DELIBERATELY A LITERAL — not `< n`. It is the point below which a
+    // question is not worth asking, which is a different question from how many wrongs we
+    // want. At MC_DISTRACTORS = 2 the two coincide (so a shipped block is always exactly
+    // three options); at 3 they would not, and the floor must not follow the ask upward.
     if (picked.length < 2) return null;
     const opts = [{ text: correct, tier: "correct" }].concat(picked.map((t, i) => ({ text: t, tier: tiers[i] })));
     for (let i = opts.length - 1; i > 0; i--) {               // deterministic shuffle
@@ -9046,12 +9824,25 @@ class Component extends DCLogic {
   // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
   // `surface` names the block ("land" | "deck" | "checkpoint") so two live blocks can't read
   // each other's truth: the landing question and an open sidebar card coexist.
+  /**
+   * The option handle a surface's buttons carry. ONE rule, because it used to be a 4-way chain in
+   * `_mcBlock` and a 4-selector union in `_mcAnswer`, and a new surface had to be added to BOTH
+   * or its buttons built fine and then graded nothing (§6.5 — one question, two answers).
+   *
+   * Every surface but the sidebar deck gets its own handle: the landing card and an open sidebar
+   * card are on screen together, so a bare `[data-mc-opt]` would silently match both and every
+   * "the sidebar shows N options" assertion would stop meaning what it says.
+   */
+  _mcOptAttr(surface) { return !surface || surface === "deck" ? "data-mc-opt" : "data-" + surface + "-mc-opt"; }
   _mcBlock(card, key, onDone, surface) {
     // RNG SCOPE. `tag` is what keeps one surface out of another's rigged queue: the landing card
     // draws on land-mc-*, the node card on node-mc-*, and the sidebar/checkpoint keep the bare
     // mc-* stream journeys rig by name. A new surface that forgot its tag would eat those values
     // and every frame-exact replay would drift.
-    const mc = this.mcDistractors(card, key, 3, surface === "land" || surface === "node" || surface === "panic" ? surface : null);
+    // The rule is "every surface EXCEPT the sidebar deck draws on its own tag", stated once.
+    // It was a 3-way chain that had to grow a branch per surface, and the JIT was the fourth —
+    // a surface that forgot its branch silently drew on the bare mc-* stream (§6.5).
+    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
@@ -9070,7 +9861,7 @@ class Component extends DCLogic {
     // Each surface gets its OWN option handle. The landing card and an open sidebar card are on
     // screen at the same time, so a bare [data-mc-opt] selector would silently match both — the
     // split keeps every "the sidebar shows N options" assertion meaning what it says.
-    const OPT = truth.surface === "land" ? "data-land-mc-opt" : truth.surface === "node" ? "data-node-mc-opt" : truth.surface === "panic" ? "data-panic-mc-opt" : "data-mc-opt";
+    const OPT = this._mcOptAttr(truth.surface);
     let answered = false;
     // `truth.spent` is the expiry's door-closer (v1.135.0, owner: "when i click a wrong answer
     // after i run out of time it shouldnt lose me points as it already did"): _expireLandQ
@@ -9106,7 +9897,7 @@ class Component extends DCLogic {
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
     const answer = (i) => { if (truth.surface === "land" && this._landHidden()) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
-    truth.answer = answer;                                    // the A/B/C/D keyboard seam
+    truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
       b.setAttribute(OPT, String(i));
@@ -9124,7 +9915,7 @@ class Component extends DCLogic {
     const mc = truth || this._mc; if (!mc) return;
     const correct = i === mc.correct;
     const tier = mc.tiers[i];
-    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt],[data-node-mc-opt],[data-panic-mc-opt]");
+    const btns = wrap.querySelectorAll("[" + this._mcOptAttr(mc.surface) + "]");
     btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
     const cbtn = btns[mc.correct];
     if (cbtn) {
@@ -9231,36 +10022,81 @@ class Component extends DCLogic {
     ans.textContent = card.a || "";
     const row = document.createElement("div");
     row.style.cssText = "display:flex;gap:.5em;";
-    const btn = (label, attr, primary) => {
+    const btn = (label, attr, primary, narrow) => {
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute(attr, "1");
-      b.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:.95em;font-weight:700;padding:.7em .9em;min-height:2.6em;border-radius:.66em;border:1px solid " + (primary ? "rgba(110,160,255,.4)" : "rgba(150,170,210,.24)") + ";background:" + (primary ? "rgba(74,108,255,.18)" : "rgba(255,255,255,.04)") + ";color:" + (primary ? "#eef1f6" : "#c8d2e4") + ";";
+      b.style.cssText = (narrow ? "flex:0 0 auto;padding:.7em 1em;" : "flex:1;padding:.7em .9em;") + "cursor:pointer;font-family:inherit;font-size:.95em;font-weight:700;min-height:2.6em;border-radius:.66em;border:1px solid " + (primary ? "rgba(110,160,255,.4)" : "rgba(150,170,210,.24)") + ";background:" + (primary ? "rgba(74,108,255,.18)" : "rgba(255,255,255,.04)") + ";color:" + (primary ? "#eef1f6" : "#c8d2e4") + ";";
       b.textContent = label;
       return b;
     };
+    // ── REVEALING IS NO LONGER DESTRUCTIVE (ported from journey/defend-wt, v1.91.0) ────────────
+    // This row used to be emptied and rebuilt on reveal, so the answer could only ever go one
+    // way: once it was on screen the question was gone. The one thing a person actually does
+    // with a flashcard — glance, cover it, try again before committing to a grade — had no
+    // gesture at all. All four buttons are built up front now and `paint()` shows the pair the
+    // state calls for, which is also what lets SPACE toggle the block (see `_recallLive`).
     const reveal = btn("Show answer", p + "-reveal", true);
+    const hide = btn("Hide", p + "-hide", false, true);
+    const again = btn("Review again", p + "-again", false);
+    const got = btn("Got it", p + "-got", true);
+    row.appendChild(reveal); row.appendChild(hide); row.appendChild(again); row.appendChild(got);
     let graded = false;
-    reveal.addEventListener("click", () => {
-      ans.style.display = "block";
-      live.textContent = "Answer revealed.";
-      row.innerHTML = "";
-      const again = btn("Review again", p + "-again", false);
-      const got = btn("Got it", p + "-got", true);
-      const grade = (ok) => {
-        if (graded) return; graded = true;
-        this.gradeRecall(key, card, ok);
-        row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
-        live.textContent = ok ? "Marked as recalled." : "Marked for review.";
-        if (onDone) onDone(!!ok, ok ? "recalled" : "review");
-      };
-      again.addEventListener("click", () => grade(false));
-      got.addEventListener("click", () => grade(true));
-      row.appendChild(again); row.appendChild(got);
-    });
-    row.appendChild(reveal);
+    const truth = { key: key, qhash: this.qhash(card.q), surface: surface || "deck", revealed: false, wrap: wrap };
+    const paint = () => {
+      ans.style.display = truth.revealed ? "block" : "none";
+      reveal.style.display = truth.revealed ? "none" : "block";
+      hide.style.display = truth.revealed ? "block" : "none";
+      again.style.display = truth.revealed ? "block" : "none";
+      got.style.display = truth.revealed ? "block" : "none";
+    };
+    truth.toggle = () => {
+      if (graded) return;                      // a paid question does not go back under the cover
+      truth.revealed = !truth.revealed;
+      live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
+      paint();
+    };
+    const grade = (ok) => {
+      if (graded) return; graded = true;
+      this.gradeRecall(key, card, ok);
+      row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
+      live.textContent = ok ? "Marked as recalled." : "Marked for review.";
+      if (this._recall === truth) this._recall = null;   // graded: give the key back (see `_recallLive`)
+      if (onDone) onDone(!!ok, ok ? "recalled" : "review");
+    };
+    reveal.addEventListener("click", () => truth.toggle());
+    hide.addEventListener("click", () => truth.toggle());
+    again.addEventListener("click", () => grade(false));
+    got.addEventListener("click", () => grade(true));
+    paint();
+    this._recall = truth;   // the newest block owns Space, exactly as it owns A/B/C via `_mc`
     wrap.appendChild(ans); wrap.appendChild(row);
     return wrap;
+  }
+  /**
+   * The recall block SPACE is allowed to toggle, or null — and every clause is a rule this app
+   * has already had to learn once.
+   *
+   * HIDDEN IS NOT GONE, and this clause is the one doing the work today. The landing card can be
+   * mounted and inert behind the pane or the option sheet (`_landHidden()` asks three holders,
+   * and returns true for a torn-down card too, since it leads with `!this._landEl`). A-D already
+   * refuses to GRADE a question nobody can see; revealing one is the same mistake one step
+   * earlier, so the same predicate governs.
+   *
+   * DERIVED, NEVER LATCHED (§6.5). `this._recall` is a single slot with many writers, so "is that
+   * block still real?" is asked of the DOM rather than remembered. BE HONEST ABOUT WHAT THIS
+   * BUYS: for `land` it is redundant — `_landHidden()` already covers teardown — and a mutant
+   * that deletes it survives the suite. It earns its keep only on a surface with no such holder,
+   * which today means `_recallBlock`'s other caller, `_renderNodeQuestion`. That one is
+   * UNREACHABLE (§6.8, re-derived at v1.154.0: `_dossierIdx` is assigned null at four sites and a
+   * node index at none), so the clause is deliberate defence for a surface nobody can open yet,
+   * not a gated claim. Delete it the day that surface comes back with a holder of its own.
+   */
+  _recallLive() {
+    const r = this._recall;
+    if (!r || !r.wrap || !r.wrap.isConnected || !r.toggle) return null;
+    if (r.surface === "land" && this._landHidden()) return null;
+    return r;
   }
 
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
@@ -9345,7 +10181,16 @@ class Component extends DCLogic {
     this.deck = deck; this._deckInfo = info; // persist for keyboard/swipe nav helpers
     const catCol = { Position: "#c9d2e3", Transition: "#9fb0d8", Submission: "#d99", }[info.cat] || "#c9d2e3";
     const bonus = Math.round(this.stateBonus(info.key) * 100);
-    this.setDrillHeader(info.fam, "Recall to sharpen your odds", bonus > 0 ? "+" + bonus + "%" : "", this.roleLabel(), catCol);
+    // THE DECK'S SEAT, NOT THE ROLL'S. This passed `this.roleLabel()` — which is
+    // `playerRole`, i.e. which side YOU are on in the roll currently in play — where the deck's own
+    // role belongs. On a position deck the two usually agree, so it looked right; on a TECHNIQUE
+    // deck the axes are not even the same one (Attacker/Defender, not Top/Bottom), and 2,652 of the
+    // 2,924 shipped decks are technique decks, so the header printed the wrong role on 90.7% of
+    // them — a `<name>|Defender` deck opened from the panic drill could read "TOP". Worse, with no
+    // roll in play `roleLabel()` falls to the constant "Top", so the header was a constant dressed
+    // as a measurement (CLAUDE.md §6.6). `info.role` comes from the deck key itself (_entryForKey)
+    // and is the only thing here that knows which half of the exchange these cards are about.
+    this.setDrillHeader(info.fam, "Recall to sharpen your odds", bonus > 0 ? "+" + bonus + "%" : "", this.seatWord(info.cat, this.seatIsPrimary(info.role)), catCol);
     this.updateDrillCount();
     list.innerHTML = "";
 
@@ -9677,9 +10522,14 @@ class Component extends DCLogic {
     // every later reader (the card, the sheet, the odds refresh) values the move against the state
     // it was dealt from, not against wherever the roll has since moved to.
     const evOf = this._evRowsFor(posIdx, this.playerRole);
+    const rsOk = this._rulesetMask();
     for (const k of this.adj[posIdx]) {
       const n = this.nodes[k];
       if (n.ty === "positions") continue;
+      // RULESET (v1.153.0): a move this ruleset cannot produce is not a low-EDGE option, it is not
+      // an option. Applied here rather than inside `adj`, which is per-SITE and must stay whole —
+      // `opponentDefend` and `_posIdx` walk the same array and ask a different question.
+      if (!rsOk[k]) continue;
       if (seen.has(n.t)) continue; seen.add(n.t);
       // ONLY MOVES YOUR ROLE PERFORMS — READ, NOT INFERRED (v1.103.0). This used to be
       // `myVal(n) < oppVal(n) - 0.05`: "the beneficiary is the performer". That is a heuristic over
@@ -9698,9 +10548,10 @@ class Component extends DCLogic {
     // safety: if role-filtering left nothing, fall back to the best-for-me handful
     if (!out.length) {
       for (const k of this.adj[posIdx]) {
-        const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t + "_fb")) continue; seen.add(n.t + "_fb");
-        // the fallback relaxes ORIGIN, never ROLE: dealing the opponent's moves is not a
-        // safety net, it is the bug this filter exists to prevent
+        const n = this.nodes[k]; if (n.ty === "positions") continue; if (!rsOk[k]) continue; if (seen.has(n.t + "_fb")) continue; seen.add(n.t + "_fb");
+        // the fallback relaxes ORIGIN, never ROLE and never RULESET: dealing the opponent's moves
+        // is not a safety net, it is the bug this filter exists to prevent — and dealing a lapel
+        // entry to a player with no lapel is the same mistake with a different subject
         if (n.fromRole && n.fromRole !== this.playerRole) continue;
         out.push({ idx: k, node: n, res: this.resultPos(k, posIdx), ev: evOf ? evOf(k) : null });
       }
@@ -9994,17 +10845,32 @@ class Component extends DCLogic {
     }
   }
   /** Forget this visit's question — a different node, or the card going away. */
+  /**
+   * A TEMPORARY SURFACE GIVES THE KEYBOARD BACK (§6.5 — a single-slot resource with many writers).
+   *
+   * `this._mc` is what A-D grades against and the NEWEST block owns it, so a short-lived question
+   * — the dossier's, the option sheet's JIT drill — takes the keys from a landing question that
+   * outlives it. On the way out, hand them back to the block still on screen rather than nulling
+   * outright, which made A-D dead for the rest of the exchange.
+   *
+   * `declinedOnEntry` is the one place the two callers differ, and the difference is real rather
+   * than taste. The dossier does NOT decline, so `_landQ.answered` there means the PLAYER answered
+   * and the keys should go nowhere. The option sheet calls `_declineLandQ("sheet")` on the way in
+   * (v1.134.0), so `answered` is true on EVERY close and carries no information about the player
+   * at all — consulting it would null the keys every time, which is strictly worse than the
+   * do-nothing this replaced. Handing them back is safe either way: the landing block's own
+   * `answer()` refuses to re-grade once `answered || truth.spent`, so a spent block only repaints.
+   */
+  _handBackMc(fromSurface, declinedOnEntry) {
+    if (!this._mc || this._mc.surface !== fromSurface) return;
+    const opt = this._landEl ? this._landEl.querySelector("[data-land-mc-opt]") : null;
+    const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
+    const askable = declinedOnEntry || !(this._landQ && this._landQ.answered);
+    this._mc = back && askable ? back : null;
+  }
   _clearNodeQ() {
     this._nodeQ = null; this._nodeAsked = null; this._nodeWarmP = null;
-    // `this._mc` is what A-D grades against, and the newest block owns it. A dossier visit is
-    // short and the LANDING question outlives it, so hand the keys back to the block still on
-    // screen instead of leaving them pointed at one that no longer exists (nulling outright made
-    // A-D dead for the rest of the exchange).
-    if (this._mc && this._mc.surface === "node") {
-      const opt = this._landEl ? this._landEl.querySelector("[data-land-mc-opt]") : null;
-      const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
-      this._mc = back && !(this._landQ && this._landQ.answered) ? back : null;
-    }
+    this._handBackMc("node");
   }
   /**
    * Fill the dossier's question section.
@@ -10313,7 +11179,7 @@ class Component extends DCLogic {
     qw.style.cssText = "";
     const qt = document.createElement("div");
     // THE CORNER CLEARANCE BELONGS TO THE QUESTION, NOT THE BLOCK (v1.101.3). It was on the
-    // wrapper, so all four answers were inset 54px as well — they start below the corner
+    // wrapper, so every answer was inset 54px as well — they start below the corner
     // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
     // ellipsis, so the padding was spending width that answer text needed. Only the line that
     // actually runs under the `+` and the ✕ pays for them.
@@ -11192,12 +12058,45 @@ class Component extends DCLogic {
   // shared defense math: one seam for the escape cards, the live re-render, and the resolve.
   // dmod credits whichever deck the panic drill drills (authored Defender deck when it exists,
   // else your position deck) — so grading under fire visibly moves EVERY escape's number.
+  /**
+   * THE BASE IS THE SUBMISSION'S OWN RATE, SEEN FROM THE OTHER SEAT.
+   *
+   * This was a flat `0.4` and called neither `calSuccess` nor `success_rate` nor `outcomes`, while
+   * `moveChance` — the ATTACKING half of the very same exchange — has read `calSuccess(act)` as its
+   * base since v1.115.0. So all 49 distinct authored submission rates, spanning 10% to 90%, were
+   * invisible from the trapped seat: being caught in a 90% rear naked choke and a 10% calf slicer
+   * gave you identical base odds.
+   *
+   * DIRECTION, argued rather than assumed. `success_rate` is the ATTACKER's chance of finishing.
+   * This is one exchange seen from two seats, so the defender's base is its COMPLEMENT — a higher
+   * authored finish rate must LOWER the escape, never raise it. Using it unflipped would make both
+   * seats better off on the same number, which is the one direction that cannot be right.
+   *
+   * The old constant is not discarded, it is explained: `1 - 0.6 = 0.4`, so the flat value was
+   * always the complement of a 60%-finish submission — it just applied that one number to all 297.
+   * The complement is therefore exactly anchored at today's behaviour for a 60% sub and only
+   * spreads around it. Measured on the shipped wire: rates run 0.10-0.74 (median 0.54), so the
+   * base now runs 0.26-0.90 (median 0.46) where it was 0.40 for everything. Median escapes get
+   * ~6pp easier because the corpus median submission is 54%, not the 60% the constant assumed;
+   * 90 of 297 move by more than 10pp. Everything downstream — the dominance delta, the drill
+   * bonus, momentum, aiSkill and both clamps — is unchanged.
+   *
+   * MISSING RATE: `calSuccess` returns null for an unjoined node, and today that is 0 of 297 on
+   * the wire. It still cannot be allowed to be silent — a fallback that produces a plausible
+   * number and never says it fired is this repo's most expensive defect class (§6.6). The old
+   * constant stays as the fallback, and `enterDefense` emits `defend_rate_missing` once per catch
+   * when it fires. The beat is emitted THERE, not here: this function runs once per escape card
+   * and again for every card on each live re-render (`refreshEscapeOdds`), so a beat in here would
+   * flood the stream that carries challenge evidence.
+   */
   escapeChance(opt) {
     const sub = this._defendSub != null ? this.nodes[this._defendSub] : null;
     if (!sub || !opt || !opt.node) return 0;
+    const cal = this.calSuccess(sub);
+    const base = (cal != null) ? (1 - cal) : 0.4;
     const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
     // momentum is morale — it helps you defend just as it helps you attack
-    return Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
+    return Math.max(0.08, Math.min(0.92, base + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
   }
   escapeOddsSnapshot() {
     const list = this._optList;
@@ -11734,6 +12633,7 @@ class Component extends DCLogic {
       // highlighted in the hand (the "Finish it" affordance, _highlightStagedCard).
       if (this._stagedTech && this._stagedTech.side === "defender" && this.nodes[this._stagedTech.idx]) {
         const st = this._stagedTech; this._stagedTech = null;
+        this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
         this.setPaused(false);
         this.enterDefense(st.idx);
       }
@@ -12072,7 +12972,10 @@ class Component extends DCLogic {
   }
   // ── FIRST IMPRESSION: REAL TRAFFIC, NOT A UNIFORM LOTTERY ──
   // Share of real roll traffic per playable position, read off the SAME stationary distribution
-  // Game Knowledge is built on. `curriculum.weights` is keyed "<technique>|Attacker" (exactly the
+  // Game Knowledge is built on. The table is keyed by DECK KEY (v1.145.13 widened it from
+  // "<technique>|Attacker" to the whole corpus; position and |Defender keys resolve to nodes with
+  // no `fromPositionId` and are skipped below, so this distribution is unchanged — measured, the
+  // draw moves by a total variation of 1.2e-6). The technique keys are still exactly the
   // deck key `nodeForKey` resolves), each technique node carries exactly ONE canonical origin
   // (`fromPositionId`), and a position's attempt probabilities sum to 100 — so summing a
   // position's techniques recovers that position's own visit mass. Result: 136 entries summing to
@@ -12089,7 +12992,17 @@ class Component extends DCLogic {
   // the measured six-hub share lands ~.66, i.e. graphAdjacency's own .672, from the leaner input.
   startPosTraffic() {
     if (this._posTraffic) return this._posTraffic;
-    const w = (this.curriculum && this.curriculum.weights) || null;
+    // TECHNIQUE KEYS ONLY, EXPLICITLY (v1.145.13). This sums a technique's weight through its ONE
+    // canonical origin (`fromPositionId`), so a position or `|Defender` key has nothing to
+    // contribute. Leaving them to fall out of the `fromPositionId` guard below LOOKED equivalent
+    // and was not: a position deck key DOES resolve through `nodeForKey`, to a different index
+    // under `?dual=legacy` than under the pair render, so the two produced different traffic
+    // tables and `dual-consumers` went red on a build that was otherwise correct. Filtered here,
+    // this distribution is unchanged BY CONSTRUCTION rather than by accident — measured against
+    // the pre-v1.145.13 table, a total variation of 1.2e-6.
+    const all = this.scoreWeights();
+    const w = all && Object.fromEntries(
+      Object.keys(all).filter((k) => k.endsWith("|Attacker")).map((k) => [k, all[k]]));
     const out = {};
     if (w && this.nodes && this._posSlugIndex) {
       for (const k in w) {
@@ -12159,7 +13072,12 @@ class Component extends DCLogic {
     // floor on them, thinning every real weight, and changing which state a newcomer opens on.
     // Filtering to `rep` leaves the pool the same 136 sites, in the same order, drawing the same
     // site off the same `rng("start-pos")` value: the split is a model change, not a game one.
-    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
+    // RULESET (v1.153.0): a roll must not OPEN in a state this ruleset cannot produce, and the
+    // playability test below must count only moves it can actually deal — a position whose whole
+    // hand is gi-only is not playable no-gi even though `adj` says it has technique neighbours.
+    // Released by `setGiMode`, which is why the memo can stay unkeyed.
+    const rsOk = this._rulesetMask();
+    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && rsOk[n.idx] && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions" && rsOk[k])).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
@@ -13036,6 +13954,10 @@ class Component extends DCLogic {
     this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
+    // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
+    // carries no calibrated rate. 0 of 297 wire submissions do today, which is exactly why the day
+    // one does must not look like an ordinary catch.
+    if (this.calSuccess(sub) == null) this.fx("defend_rate_missing", { submission: sub.t });
     const dk = this.defendKeyFor(sub);
     this._panicKey = this._deckHasCards(dk) ? dk : (this._deckHasCards(this._posKey) ? this._posKey : null);
     this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
@@ -13092,8 +14014,13 @@ class Component extends DCLogic {
   opponentDefend() {
     // gather the opponent's adjacent options, split into finishes vs positional counters
     const subs = []; let trans = []; const seen = new Set();
+    const rsOk = this._rulesetMask();
     for (const k of this.adj[this.currentPos]) {
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
+      // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
+      // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
+      // about the EXCHANGE, not about your hand); availability is not a role question.
+      if (!rsOk[k]) continue;
       // STRICT during a belt test: the opponent only goes for finishes in the belt's vocabulary
       if (n.ty === "submissions") { if (this._beltPoolAllows(n)) subs.push(k); }
       else trans.push(k);
@@ -13116,6 +14043,7 @@ class Component extends DCLogic {
       // "Defending", not "Attacking": the verb is YOURS, and the opponent is the one attacking.
       // This branch and the positional one below disagreed with each other.
       this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 110, b: 110 } };
+      this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def)));
       return;
     }
@@ -13538,7 +14466,11 @@ class Component extends DCLogic {
     // no node carries `z`, so `LY(n) === n.y`.
     const ly = this._LY || ((q) => q.y);
     let best = -1, bd = (28 / scale) * (28 / scale);
+    const rsOk = this._rulesetMask();
     for (const n of this.nodes) {
+      // an orb the ruleset removed is not drawn, so it must not be pickable either — otherwise it
+      // is an invisible 28px hit target that opens a dossier for a state you cannot reach.
+      if (!rsOk[n.idx]) continue;
       const dx = n.x - wx, dy = ly(n) - wy, d2 = dx * dx + dy * dy;
       if (d2 < bd) { bd = d2; best = n.idx; }
     }
@@ -13743,6 +14675,9 @@ class Component extends DCLogic {
     const lift = nodeK * kLOD;
     const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
     this._LY = LY;   // ONE definition — `pairMid` reads the same lift the frame just drew with
+    // ONE ruleset mask for the whole frame, hoisted out of six enumerations below. Reading it per
+    // pass rather than per node is the difference between a filter and a stutter at ~1500 nodes.
+    const rsOk = this._rulesetMask();
     const cfg = this.cfg();
     const A = this.alpha;
     // slow-mo finish: dim the map for a beat while the finishing flare burns, then recover
@@ -13840,6 +14775,7 @@ class Component extends DCLogic {
       ctx.beginPath();
       for (const n of this.nodes) {
         if (!n.rep || !n.z) continue;                       // one per site, singles have no pool
+        if (!rsOk[n.idx]) continue;                         // absent in this ruleset
         const gyy = n.y + n.z * n.h;                        // the ground point itself
         if (n.x < L - pad || n.x > R + pad || gyy < Tp - pad || gyy > B + pad) continue;
         const rx = n.rSite * nodeK * 2.2, ry = rx / 1.7320508;
@@ -13852,7 +14788,7 @@ class Component extends DCLogic {
     // base links
     ctx.lineWidth = 0.6 / scale; ctx.strokeStyle = "rgba(170,182,215," + (0.12 * A * dim) + ")";
     ctx.beginPath();
-    for (const [a, b] of this.links) { const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); }
+    for (const [a, b] of this.links) { if (!rsOk[a] || !rsOk[b]) continue; const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); }
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
@@ -13888,7 +14824,7 @@ class Component extends DCLogic {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
         for (const k2 of this.adj[li]) {
-          const o = this.nodes[k2]; if (!o) continue;
+          const o = this.nodes[k2]; if (!o || !rsOk[k2]) continue;
           const w = (this._edgeW && this._edgeW.get(li * NN + k2)) || 0;
           const rel = mw > 0 ? w / mw : 0;
           ctx.lineWidth = (0.8 + 1.4 * rel) / scale;
@@ -14021,6 +14957,9 @@ class Component extends DCLogic {
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
     const spec = this._hasGround ? [] : null;
     for (const n of this.nodes) {
+      // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
+      // absent. Every other cull below is a rendering decision; this one is the graph's content.
+      if (!rsOk[n.idx]) continue;
       // viewport cull — the pass had none, and it issues a fill for every node at every zoom
       if (n.x < cxv - halfVW - cullPad || n.x > cxv + halfVW + cullPad) continue;
       const ny = LY(n);
@@ -14100,6 +15039,7 @@ class Component extends DCLogic {
     // screen-space floor is inherited from the deleted halo and is what makes this read at roll
     // zoom, where nodeK has taken the orb down to 0.4x.
     for (const n of this.nodes) {
+      if (!rsOk[n.idx]) continue;
       const age = this.now - n.lit; if (age > 1.9) continue;
       const k = Math.max(0, 1 - age / 1.9);
       const amp = n.litK || 1;
@@ -14210,6 +15150,7 @@ class Component extends DCLogic {
       ctx.textBaseline = "bottom";
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
       for (const n of this.nodes) {
+        if (!rsOk[n.idx]) continue;
         const age = this.now - n.lit; if (age > 3.2 || n.idx === this.focusIdx) continue;
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
@@ -14321,29 +15262,14 @@ class Component extends DCLogic {
         const gMaxW = Math.max(60, W - ox - 12);
         const above = act.z > 0;
         // ── THE ROLE WORD IS THE ONE THE CATEGORY ACTUALLY USES (v1.129.4) ──────────────────
-        // Owner: "wrt submission escaping/finishing — implement escaping/finishing roles". Right,
-        // and it is a BJJ point rather than a copy preference: you do not "attempt" a submission
-        // you are already holding, you FINISH it — and the other half is not "defending" in the
-        // positional sense, they are ESCAPING. A transition is the case where attempting/defending
-        // is the honest pair, because the move may simply not come off.
-        //
-        //   positions    TOP / BOTTOM
-        //   submissions  FINISHING / ESCAPING
-        //   transitions  ATTEMPTING / DEFENDING
-        //
-        // "ATTEMPTING", not "ATTACKING", remains the owner's word for transitions, and it keeps
-        // this clear of `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and
-        // must not start sharing vocabulary with a label about which half of a pair you are on.
+        // The vocabulary itself now lives in seatWord() — it had a second caller (the drill
+        // header), and a copied ternary is how the two drift. Read it there.
         //
         // THIS IS THE ROLE LINE, and it is a different object from the `from <position>` line
         // beneath the name: that one DISAMBIGUATES a shared short name (35 techniques are called
         // "Kimura"), this one says which side of the exchange you are pointing at. They sit on
         // opposite sides of the name for exactly that reason and must never be conflated.
-        const sub = n.ty === "positions"
-          ? (above ? "TOP" : "BOTTOM")
-          : n.ty === "submissions"
-            ? (above ? "FINISHING" : "ESCAPING")
-            : (above ? "ATTEMPTING" : "DEFENDING");
+        const sub = this.seatWord(n.ty, above);
         const subCol = act.idx === this.focusIdx
           ? this.myColor(act)
           : (act.z < 0 && act.colU ? act.colU : act.col);

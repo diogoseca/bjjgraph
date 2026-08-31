@@ -288,11 +288,13 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 ## Related
 - [[Submissions/Kimura]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Gift Wrap]] - Starting position for this submission variant
 - [[Positions/Back Control]] - Common position where Gift Wrap is established
+- [[Submissions/Rear Naked Choke/from Gift Wrap]] - Primary alternative attack from Gift Wrap
 - [[Positions/Crucifix]] - Positional advancement if Kimura fails
 - [[Positions/Mount/Technical Mount]] - Transition option while maintaining arm control
 

@@ -450,18 +450,18 @@ Combine shoulder pressure with other control mechanisms (crossface, hip pressure
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Parent concept providing theoretical foundation for shoulder pressure applications
-- [[Cross Face Control]] (Principle) - Complementary control mechanism often applied through same shoulder as pressure
-- [[Side Control]] (Position) - Primary position for developing and applying shoulder pressure fundamentals
-- [[Center of Gravity]] (Principle) - Foundational principle determining effectiveness of shoulder pressure application
-- [[Knee on Belly]] (Position) - Position demonstrating integration of shoulder pressure with other control mechanisms
-- [[Hip Pressure]] (Principle) - Complementary pressure concept creating two-point control system with shoulder pressure
-- [[Frames]] (Principle) - Primary defensive counter to shoulder pressure from bottom position
-- [[Kesa Gatame]] (Position) - Position exemplifying shoulder-based control as primary pinning mechanism
-- [[Mount]] (Position) - Superior position where shoulder pressure supplements positional control
-- [[Control Point Hierarchy]] (Principle) - Framework placing shoulder pressure within hierarchy of control mechanisms
-- [[Base]] (Principle) - Essential principle for maintaining stability while applying shoulder pressure
-- [[Forward Pressure]] (Principle) - Related directional-pressure concept that shoulder pressure concentrates through a single point
+- [[Principles/Pressure|Pressure]] (Principle) - Parent concept providing theoretical foundation for shoulder pressure applications
+- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Complementary control mechanism often applied through same shoulder as pressure
+- [[Positions/Side Control|Side Control]] (Position) - Primary position for developing and applying shoulder pressure fundamentals
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Foundational principle determining effectiveness of shoulder pressure application
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Position demonstrating integration of shoulder pressure with other control mechanisms
+- [[Principles/Hip Pressure|Hip Pressure]] (Principle) - Complementary pressure concept creating two-point control system with shoulder pressure
+- [[Principles/Frames|Frames]] (Principle) - Primary defensive counter to shoulder pressure from bottom position
+- [[Positions/Side Control/Kesa Gatame|Kesa Gatame]] (Position) - Position exemplifying shoulder-based control as primary pinning mechanism
+- [[Positions/Mount|Mount]] (Position) - Superior position where shoulder pressure supplements positional control
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Framework placing shoulder pressure within hierarchy of control mechanisms
+- [[Principles/Base|Base]] (Principle) - Essential principle for maintaining stability while applying shoulder pressure
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Related directional-pressure concept that shoulder pressure concentrates through a single point
 
 
 </section>

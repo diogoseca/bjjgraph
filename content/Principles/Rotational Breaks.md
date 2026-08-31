@@ -453,18 +453,18 @@ Partner provides graduated resistance to submission finishes, starting at 30% an
 
 
 ### Related Content
-- [[Kimura]] (Submission) - The archetypal internal shoulder rotation break, using a figure-four grip to twist the shoulder past its rotational limit
-- [[Americana]] (Submission) - The external shoulder rotation counterpart to the Kimura, exploiting the opposite rotational limit of the same joint
-- [[Heel Hook]] (Submission) - The primary rotational attack on the knee, applying twisting force to the knee's ligaments through control of the foot and shin
-- [[Inside Heel Hook]] (Submission) - Internal rotation heel hook variant that attacks the knee by rotating the tibia inward relative to the femur
-- [[Outside Heel Hook]] (Submission) - External rotation heel hook variant considered more dangerous due to the knee's lower tolerance for external rotation
-- [[Ashi Garami]] (Position) - The foundational leg entanglement position family that provides the control platform for heel hook rotational attacks on the knee
-- [[Kimura Trap]] (Position) - A control system built entirely around the Kimura rotational grip, using it for both submission threats and positional transitions
-- [[Torque]] (Principle) - The broader principle of rotational force application that governs the mechanics underlying all rotational break submissions
-- [[Levers]] (Principle) - Lever mechanics determine how much rotational force reaches the target joint based on grip position and lever arm length
-- [[Grips]] (Principle) - Grip configuration is the interface through which rotational force is transmitted, making grip quality essential for finishing
-- [[Leg Entanglement]] (Principle) - The positional control system that enables rotational attacks on the knee through various Ashi Garami configurations
-- [[Submission Defense]] (Principle) - Understanding rotational mechanics informs defensive strategies such as body rotation, limb straightening, and early escape timing
+- [[Submissions/Kimura|Kimura]] (Submission) - The archetypal internal shoulder rotation break, using a figure-four grip to twist the shoulder past its rotational limit
+- [[Submissions/Americana|Americana]] (Submission) - The external shoulder rotation counterpart to the Kimura, exploiting the opposite rotational limit of the same joint
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - The primary rotational attack on the knee, applying twisting force to the knee's ligaments through control of the foot and shin
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Internal rotation heel hook variant that attacks the knee by rotating the tibia inward relative to the femur
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) - External rotation heel hook variant considered more dangerous due to the knee's lower tolerance for external rotation
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - The foundational leg entanglement position family that provides the control platform for heel hook rotational attacks on the knee
+- [[Positions/Kimura Trap|Kimura Trap]] (Position) - A control system built entirely around the Kimura rotational grip, using it for both submission threats and positional transitions
+- [[Principles/Torque|Torque]] (Principle) - The broader principle of rotational force application that governs the mechanics underlying all rotational break submissions
+- [[Principles/Levers|Levers]] (Principle) - Lever mechanics determine how much rotational force reaches the target joint based on grip position and lever arm length
+- [[Principles/Grips|Grips]] (Principle) - Grip configuration is the interface through which rotational force is transmitted, making grip quality essential for finishing
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - The positional control system that enables rotational attacks on the knee through various Ashi Garami configurations
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Understanding rotational mechanics informs defensive strategies such as body rotation, limb straightening, and early escape timing
 
 
 </section>

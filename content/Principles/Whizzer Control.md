@@ -460,17 +460,17 @@ Scenario-based training where partner employs common Whizzer counters while prac
 
 
 ### Related Content
-- [[Defensive Concepts]] (Principle) - Parent concept - Whizzer Control serves as primary counter-mechanism within broader defensive strategy framework
-- [[Half Guard]] (Position) - Primary application context where Whizzer control proves tactically essential for defensive integrity
-- [[Frames]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
-- [[Turtle]] (Position) - Critical application context where Whizzer prevents back exposure and maintains defensive soundness
-- [[Control Maintenance]] (Principle) - Broader principle category within which Whizzer Control operates as specialized application
-- [[Levers]] (Principle) - Foundational concept underlying effective Whizzer mechanics and pressure application
-- [[Deep Half Guard]] (Position) - Position where Whizzer control prevents opponent from establishing dominant underhook and advancing position
-- [[Dogfight Position]] (Position) - Transitional position where Whizzer control determines success in achieving dominant angle
-- [[Posture]] (Principle) - Tactical outcome achieved through proper Whizzer pressure application and angle manipulation to disrupt opponent alignment
-- [[Front Headlock]] (Position) - Scramble position where Whizzer control prevents opponent underhook dominance
-- [[Overhook Control]] (Position) - Positional expression of sustained Whizzer pressure where the overhook becomes the dominant controlling structure
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Parent concept - Whizzer Control serves as primary counter-mechanism within broader defensive strategy framework
+- [[Positions/Half Guard|Half Guard]] (Position) - Primary application context where Whizzer control proves tactically essential for defensive integrity
+- [[Principles/Frames|Frames]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
+- [[Positions/Turtle|Turtle]] (Position) - Critical application context where Whizzer prevents back exposure and maintains defensive soundness
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Broader principle category within which Whizzer Control operates as specialized application
+- [[Principles/Levers|Levers]] (Principle) - Foundational concept underlying effective Whizzer mechanics and pressure application
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Position where Whizzer control prevents opponent from establishing dominant underhook and advancing position
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Transitional position where Whizzer control determines success in achieving dominant angle
+- [[Principles/Posture|Posture]] (Principle) - Tactical outcome achieved through proper Whizzer pressure application and angle manipulation to disrupt opponent alignment
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Scramble position where Whizzer control prevents opponent underhook dominance
+- [[Positions/Overhook Control|Overhook Control]] (Position) - Positional expression of sustained Whizzer pressure where the overhook becomes the dominant controlling structure
 
 
 </section>

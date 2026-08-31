@@ -467,18 +467,18 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 
 
 ### Related Content
-- [[Hand Fighting]] (Principle) - Broader category of hand engagement; grip fighting is the offensive control aspect within hand fighting
-- [[Connection Principles]] (Principle) - Strategic approach to establishing and maintaining points of contact that govern grip selection and sequencing
-- [[Levers]] (Principle) - Biomechanical leverage underpins efficient grip breaking and the ability to exploit superior grip positions
-- [[Defensive Concepts]] (Principle) - Defensive grip fighting supports guard retention, escape attempts, and overall positional defense
-- [[Control Maintenance]] (Principle) - Grip fighting establishes the initial controls that must then be maintained
-- [[Posture]] (Principle) - Grips established through grip fighting enable effective posture breaking mechanics
-- [[Guard Passing]] (Principle) - Winning grip fights is prerequisite for implementing effective passing strategies
-- [[Closed Guard]] (Position) - Classic position where grip fighting determines ability to break posture and attack
-- [[Spider Guard]] (Position) - Guard type entirely dependent on winning and maintaining specific grip battles
-- [[Standing Position]] (Position) - Initial grip fighting exchanges in standing determine takedown initiative
-- [[Collar Sleeve Guard]] (Position) - Guard built on fundamental grip fighting principle of collar-and-sleeve control
-- [[Collar Control]] (Principle) - Specialized application of grip fighting focused on establishing and retaining collar grips
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Broader category of hand engagement; grip fighting is the offensive control aspect within hand fighting
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Strategic approach to establishing and maintaining points of contact that govern grip selection and sequencing
+- [[Principles/Levers|Levers]] (Principle) - Biomechanical leverage underpins efficient grip breaking and the ability to exploit superior grip positions
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive grip fighting supports guard retention, escape attempts, and overall positional defense
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Grip fighting establishes the initial controls that must then be maintained
+- [[Principles/Posture|Posture]] (Principle) - Grips established through grip fighting enable effective posture breaking mechanics
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Winning grip fights is prerequisite for implementing effective passing strategies
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Classic position where grip fighting determines ability to break posture and attack
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Guard type entirely dependent on winning and maintaining specific grip battles
+- [[Positions/Standing Position|Standing Position]] (Position) - Initial grip fighting exchanges in standing determine takedown initiative
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Guard built on fundamental grip fighting principle of collar-and-sleeve control
+- [[Principles/Collar Control|Collar Control]] (Principle) - Specialized application of grip fighting focused on establishing and retaining collar grips
 
 
 </section>

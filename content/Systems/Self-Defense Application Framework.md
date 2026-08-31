@@ -386,27 +386,27 @@ Self-defense training requires a fundamentally different approach than sport BJJ
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Clinch]] (Position) - Critical control position for neutralizing strikes and controlling distance
-- [[Mount]] (Position) - Dominant top control position when ground fighting is necessary
-- [[Side Control]] (Position) - High-percentage control position allowing striking defense and awareness
-- [[Back Control]] (Position) - Optimal position for rapid control and submission in self-defense
-- [[Closed Guard]] (Position) - Traditional guard position that requires modification for self-defense contexts
-- [[Combat Base]] (Position) - Defensive posture used when in opponent's guard
-- [[Turtle]] (Position) - Defensive position requiring immediate escape in self-defense scenarios
-- [[Front Headlock]] (Position) - Standing control position useful for neutralizing untrained attackers
-- [[Knee on Belly]] (Position) - Mobile top control position allowing rapid disengagement and environmental awareness
-- [[Body Lock]] (Position) - Clinch control position for takedown entries and standing control
-- [[Bridge and Roll]] (Transition) - Basic escape from mount position
-- [[Guillotine Choke]] (Submission) - High-percentage submission from standing and clinch positions
-- [[Arm Triangle]] (Submission) - Effective submission from top control positions
-- [[Defensive Concepts]] (Principle) - Foundational defensive positioning and protective body mechanics for self-defense
-- [[Defensive Prioritization Framework]] (System) - Overall strategic framework for prioritizing defense-first decision-making
-- [[Escape Fundamentals]] (Principle) - Core escape principles and prioritization based on position severity
-- [[Base]] (Principle) - Critical for maintaining standing position and avoiding takedowns
-- [[Energy Conservation]] (Principle) - Managing energy expenditure during high-stress confrontations
-- [[Distance Control]] (Principle) - Essential principle for managing distance and creating escape opportunities
-- [[MMA Crossover Strategy]] (System) - Related system addressing striking integration with grappling
-- [[Standing Defense Strategy]] (System) - Complementary system for maintaining standing position against takedowns
+- [[Positions/Clinch|Clinch]] (Position) - Critical control position for neutralizing strikes and controlling distance
+- [[Positions/Mount|Mount]] (Position) - Dominant top control position when ground fighting is necessary
+- [[Positions/Side Control|Side Control]] (Position) - High-percentage control position allowing striking defense and awareness
+- [[Positions/Back Control|Back Control]] (Position) - Optimal position for rapid control and submission in self-defense
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Traditional guard position that requires modification for self-defense contexts
+- [[Positions/Combat Base|Combat Base]] (Position) - Defensive posture used when in opponent's guard
+- [[Positions/Turtle|Turtle]] (Position) - Defensive position requiring immediate escape in self-defense scenarios
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Standing control position useful for neutralizing untrained attackers
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Mobile top control position allowing rapid disengagement and environmental awareness
+- [[Positions/Body Lock|Body Lock]] (Position) - Clinch control position for takedown entries and standing control
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Basic escape from mount position
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - High-percentage submission from standing and clinch positions
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) - Effective submission from top control positions
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Foundational defensive positioning and protective body mechanics for self-defense
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Overall strategic framework for prioritizing defense-first decision-making
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Core escape principles and prioritization based on position severity
+- [[Principles/Base|Base]] (Principle) - Critical for maintaining standing position and avoiding takedowns
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Managing energy expenditure during high-stress confrontations
+- [[Principles/Distance Control|Distance Control]] (Principle) - Essential principle for managing distance and creating escape opportunities
+- [[Systems/MMA Crossover Strategy|MMA Crossover Strategy]] (System) - Related system addressing striking integration with grappling
+- [[Systems/Standing Defense Strategy|Standing Defense Strategy]] (System) - Complementary system for maintaining standing position against takedowns
 
 
 </section>

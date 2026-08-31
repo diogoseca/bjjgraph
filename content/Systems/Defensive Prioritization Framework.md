@@ -371,28 +371,28 @@ The framework is best developed through progressive resistance drilling that beg
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Positional Hierarchy]] (Principle) - Foundational principle that defines the threat levels this framework is built upon
-- [[Escape Fundamentals]] (Principle) - Core escape principles organizing priorities that guide framework application
-- [[Mount]] (Position) - Highest priority defensive situation requiring immediate framework application
-- [[Back Control]] (Position) - Maximum threat position with specific defensive protocols within the framework
-- [[Knee on Belly]] (Position) - Medium threat position requiring specific defensive response within framework
-- [[Elbow Escape to Guard]] (Transition) - Primary escape technique from mount and side control central to framework execution
-- [[Frame and Shrimp to Guard]] (Transition) - Core defensive movement pattern used across all framework applications
-- [[Bridge and Roll]] (Transition) - Essential mount escape within the framework's escape sequencing system
-- [[Technical Stand-up]] (Transition) - Critical escape option from bottom positions within the defensive priority system
-- [[Shrimp Escape]] (Transition) - Fundamental movement creating space for higher-level escapes in the framework
-- [[Frames]] (Principle) - Essential defensive skill for building structural barriers that underlie all framework applications
-- [[Distance Control]] (Principle) - Core defensive principle enabling escape execution throughout the framework
-- [[Energy Conservation]] (Principle) - Guides energy allocation decisions central to framework efficiency and long-round survival
-- [[Defensive Concepts]] (Principle) - Broader strategic defensive context within which this framework operates
-- [[Position-Over-Submission Approach]] (Principle) - Prioritization principle that informs threat evaluation and risk-reward decisions in the framework
-- [[Turtle]] (Position) - Defensive position with specific framework considerations and escape priorities
-- [[Half Guard]] (Position) - Recovery position representing successful framework execution from worse positions
-- [[Armbar Defense]] (Transition) - Critical submission defense technique integrated into framework protocols
-- [[Bridge and Shrimp]] (Principle) - Foundational escape mechanics for mount defense central to the framework's positional protocols
-- [[Hip Escape Mechanics]] (Principle) - Primary defensive movement principle for side control and bottom position recovery
-- [[Back Defense Protocol]] (System) - Specialized defensive system for back control situations within framework
-- [[Roger Gracie Fundamental System]] (System) - Fundamental approach emphasizing positional hierarchy aligned with framework philosophy
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Foundational principle that defines the threat levels this framework is built upon
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Core escape principles organizing priorities that guide framework application
+- [[Positions/Mount|Mount]] (Position) - Highest priority defensive situation requiring immediate framework application
+- [[Positions/Back Control|Back Control]] (Position) - Maximum threat position with specific defensive protocols within the framework
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Medium threat position requiring specific defensive response within framework
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Primary escape technique from mount and side control central to framework execution
+- [[Transitions/Frame and Shrimp to Guard|Frame and Shrimp to Guard]] (Transition) - Core defensive movement pattern used across all framework applications
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Essential mount escape within the framework's escape sequencing system
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Critical escape option from bottom positions within the defensive priority system
+- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition) - Fundamental movement creating space for higher-level escapes in the framework
+- [[Principles/Frames|Frames]] (Principle) - Essential defensive skill for building structural barriers that underlie all framework applications
+- [[Principles/Distance Control|Distance Control]] (Principle) - Core defensive principle enabling escape execution throughout the framework
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Guides energy allocation decisions central to framework efficiency and long-round survival
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Broader strategic defensive context within which this framework operates
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Prioritization principle that informs threat evaluation and risk-reward decisions in the framework
+- [[Positions/Turtle|Turtle]] (Position) - Defensive position with specific framework considerations and escape priorities
+- [[Positions/Half Guard|Half Guard]] (Position) - Recovery position representing successful framework execution from worse positions
+- [[Transitions/Armbar Defense|Armbar Defense]] (Transition) - Critical submission defense technique integrated into framework protocols
+- [[Principles/Bridge and Shrimp|Bridge and Shrimp]] (Principle) - Foundational escape mechanics for mount defense central to the framework's positional protocols
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Primary defensive movement principle for side control and bottom position recovery
+- [[Systems/Back Defense Protocol|Back Defense Protocol]] (System) - Specialized defensive system for back control situations within framework
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Fundamental approach emphasizing positional hierarchy aligned with framework philosophy
 
 
 </section>

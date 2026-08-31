@@ -427,18 +427,18 @@ Create training circuits where you start in various positions with opponent havi
 
 
 ### Related Content
-- [[Control Point Hierarchy]] (Principle) - Head control functions as the highest-value control point within the overall control point hierarchy framework
-- [[Cross Face Control]] (Principle) - Cross-face represents one of the most common and effective applications of head control principles in top positions
-- [[Posture]] (Principle) - Head control serves as the primary mechanism for breaking and preventing opponent posture across most positions
-- [[Front Headlock]] (Position) - Front headlock represents an entire positional category defined by head control as the fundamental characteristic
-- [[Back Control]] (Position) - Back control maintenance and submission attacks depend on effective head control to prevent chin protection and escape
-- [[Kesa Gatame]] (Position) - Scarf hold uses the arm wrapped around the head as its defining control mechanism, an applied form of head control
-- [[Anaconda Choke]] (Submission) - Anaconda setup and finish depend on front-headlock head control that traps the head and arm against the centerline
-- [[Rear Naked Choke]] (Submission) - Rear naked choke requires overcoming chin protection through superior head control before the choke can be applied
-- [[Brabo Choke]] (Submission) - Darce/brabo setup and finish depend on controlling head position to create the angle for the shoulder-of-justice pressure
-- [[Hand Fighting]] (Principle) - Hand fighting is the primary method of winning the grip exchanges that establish head control or break an opponent's head control
-- [[Chin Protection]] (Principle) - Chin protection serves as the primary defensive counter to head control in choke situations
-- [[Frames]] (Principle) - Head control often eliminates opponent's ability to create effective defensive frames
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Head control functions as the highest-value control point within the overall control point hierarchy framework
+- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Cross-face represents one of the most common and effective applications of head control principles in top positions
+- [[Principles/Posture|Posture]] (Principle) - Head control serves as the primary mechanism for breaking and preventing opponent posture across most positions
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Front headlock represents an entire positional category defined by head control as the fundamental characteristic
+- [[Positions/Back Control|Back Control]] (Position) - Back control maintenance and submission attacks depend on effective head control to prevent chin protection and escape
+- [[Positions/Side Control/Kesa Gatame|Kesa Gatame]] (Position) - Scarf hold uses the arm wrapped around the head as its defining control mechanism, an applied form of head control
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - Anaconda setup and finish depend on front-headlock head control that traps the head and arm against the centerline
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Rear naked choke requires overcoming chin protection through superior head control before the choke can be applied
+- [[Submissions/Brabo Choke|Brabo Choke]] (Submission) - Darce/brabo setup and finish depend on controlling head position to create the angle for the shoulder-of-justice pressure
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Hand fighting is the primary method of winning the grip exchanges that establish head control or break an opponent's head control
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - Chin protection serves as the primary defensive counter to head control in choke situations
+- [[Principles/Frames|Frames]] (Principle) - Head control often eliminates opponent's ability to create effective defensive frames
 
 
 </section>

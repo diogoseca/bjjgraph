@@ -385,33 +385,33 @@ The 10th Planet system requires specialized drilling that emphasizes position fa
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Rubber Guard]] (Position) - Primary position family for entire system
-- [[Mission Control]] (Position) - Foundational rubber guard control position
-- [[New York]] (Position) - Key rubber guard position for triangle setups
-- [[Meathook]] (Position) - Advanced rubber guard control for omoplata paths
-- [[Chill Dog]] (Position) - Rubber guard position for gogoplata attacks
-- [[Lockdown]] (Position) - Core half guard control mechanism
-- [[Electric Chair]] (Position) - Submission position from lockdown system
-- [[Truck]] (Position) - Central position for twister series attacks
-- [[Twister Control]] (Position) - Finishing position for signature submission
-- [[Inverted Guard]] (Position) - Transitional position in system flow
-- [[Triangle Setup]] (Transition) - Primary finishing path from rubber guard
-- [[Omoplata Sweep]] (Transition) - Alternative attack from rubber guard positions
-- [[Old School Sweep]] (Transition) - Primary sweep from lockdown position
-- [[Truck Entry]] (Transition) - Entry mechanism to twister series
-- [[Triangle from Guard]] (Submission) - Primary submission finish from rubber guard
-- [[Omoplata]] (Submission) - Alternative submission from rubber guard positions
-- [[Gogoplata]] (Submission) - Advanced submission from Chill Dog position
-- [[Twister]] (Submission) - Signature submission finish from truck
-- [[Calf Slicer]] (Submission) - Alternative finish from truck position
-- [[Electric Chair]] (Submission) - Primary submission from lockdown system
-- [[Frames]] (Principle) - Fundamental principle enabling guard maintenance and recovery
-- [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation enabling rubber guard and inverted positions
-- [[Submission Chains]] (Principle) - Strategic framework connecting system attacks
-- [[Fork Attacks]] (Principle) - Methodology for forcing opponents to choose between losing options
-- [[10th Planet Rubber Guard System]] (System) - Specialized subsystem focusing on rubber guard details
-- [[10th Planet Half Guard Bottom System]] (System) - Specialized subsystem focusing on lockdown variations
-- [[Twister System]] (System) - Specialized subsystem for truck and twister attacks
+- [[Positions/Rubber Guard|Rubber Guard]] (Position) - Primary position family for entire system
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) - Foundational rubber guard control position
+- [[Positions/Rubber Guard/New York|New York]] (Position) - Key rubber guard position for triangle setups
+- [[Positions/Rubber Guard/Meathook|Meathook]] (Position) - Advanced rubber guard control for omoplata paths
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) - Rubber guard position for gogoplata attacks
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Core half guard control mechanism
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) - Submission position from lockdown system
+- [[Positions/Twister Control/Truck|Truck]] (Position) - Central position for twister series attacks
+- [[Positions/Twister Control|Twister Control]] (Position) - Finishing position for signature submission
+- [[Positions/Inverted Guard|Inverted Guard]] (Position) - Transitional position in system flow
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Primary finishing path from rubber guard
+- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition) - Alternative attack from rubber guard positions
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Primary sweep from lockdown position
+- [[Transitions/Truck Entry|Truck Entry]] (Transition) - Entry mechanism to twister series
+- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission) - Primary submission finish from rubber guard
+- [[Submissions/Omoplata|Omoplata]] (Submission) - Alternative submission from rubber guard positions
+- [[Transitions/Gogoplata|Gogoplata]] (Submission) - Advanced submission from Chill Dog position
+- [[Submissions/Twister|Twister]] (Submission) - Signature submission finish from truck
+- [[Submissions/Calf Slicer|Calf Slicer]] (Submission) - Alternative finish from truck position
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) - Primary submission from lockdown system
+- [[Principles/Frames|Frames]] (Principle) - Fundamental principle enabling guard maintenance and recovery
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip mobility foundation enabling rubber guard and inverted positions
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Strategic framework connecting system attacks
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Methodology for forcing opponents to choose between losing options
+- [[Systems/10th Planet Rubber Guard System|10th Planet Rubber Guard System]] (System) - Specialized subsystem focusing on rubber guard details
+- [[Systems/10th Planet Half Guard Bottom System|10th Planet Half Guard Bottom System]] (System) - Specialized subsystem focusing on lockdown variations
+- [[Systems/Twister System|Twister System]] (System) - Specialized subsystem for truck and twister attacks
 
 
 </section>

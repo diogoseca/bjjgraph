@@ -327,8 +327,13 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from Side Control]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Hindulotine]]
+- [[Submissions/Americana/from Modified Scarf Hold]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Arm Triangle/from Reverse Scarf Hold]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting pin position for this submission
 - [[Positions/Side Control]] - Common transition position for arm triangle finishes
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar arm triangle mechanics

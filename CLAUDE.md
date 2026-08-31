@@ -212,6 +212,9 @@ exercise that direction (they all carry a key, and the mutant that shipped `post
 changes nothing when one is present). Neither runs in `ci-validate.yml`, which never builds; the
 keyless half runs on PRs via `e2e-full.yml` and both halves run on both deploys ·
 `validate:mc` MC viability · `validate:curriculum` · `validate:forward` /dev catalog ·
+`validate:availability` the per-ruleset exclusion layer — wire parity against the reachability
+walk, zero attempt-mass loss, no dead-end state — and it writes
+`tests/artifacts/ruleset_availability.json` ·
 `validate:flow` the FLOW selfcheck (adjoint vs finite differences) plus the content ratchet on
 `tests/artifacts/flow_validation_baseline.json` ·
 **`validate:claudemd`** this file's own char ratchet and reference integrity.
@@ -287,7 +290,9 @@ persistent nav on the static surface and **no gate guards it** (`check_seo_parit
 
 **Delivery.** Boot fetches `graph-data.json` (the compact wire — `ingest()` expands it),
 `app/neural.js` + `.css`, the deck **manifest** `flashcards/_index.json`, and `curriculum.json`.
-On demand: one deck's cards, one node's dossier, `systems.json`. **`_cardsOf(d)` is the only legal
+On demand: one deck's cards, one node's dossier, `systems.json`, `concepts.json`
+(the Principles + Learning index — each concept's readable body is a dossier in the SAME
+`content/` chunk space, keyed `<Name>|Principle`). **`_cardsOf(d)` is the only legal
 way to read cards — a manifest stub is truthy.** The manifest's `n` is load-bearing: `deckMastery`
 computes from it when cards are absent, so dropping it shows every user a white belt.
 
@@ -337,6 +342,8 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
+| the pane's tabs (click AND swipe) | `NG_PANE_TABS` · `setViewMode` · `_paneTabPageTo` · `_paneGestureDir` |
+| gi / no-gi exclusion | `giAllows` · `rsAllows` · `_rulesetMask` · `setGiMode` · `cal.avail` · `frame_reachable` |
 | build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |
 
 ---
@@ -487,6 +494,12 @@ symbol to every version that touched it.
 - **A fallback that produces a plausible value and never says it fired is strictly worse than a crash — it buys months of silence.** A missing `cal` made `calSuccess()` return null and `moveChance` fall through to `0.36 + dom*0.1`, so **~289 of 1,204 dealt cards printed a fabricated ~45.6% where authored rates span 10–74%**; `posId`-vs-slug left 54 of 136 positions running entirely on the no-candidates fallback; `posIdx` fell back to the technique itself and staged 1,331 of 2,934 nodes ON a technique node. **Do:** every fallback emits a NAMED beat or a counter (`mc_pool_cold`, `land_warm_stalled` are the pattern), and it is CHOSEN before any rng draw so the draw count cannot depend on content.
   <br>_(8)_
 
+- **`cal.avail` · `frame_reachable` — RULESET AVAILABILITY IS A REACHABILITY PROPERTY, NOT AN EDGE PROPERTY.** "Is this move attempted anywhere in frame F" is a question about one edge and cannot see the case that matters: a technique whose only origin is a state F never produces. `Worm Guard/Bottom` deals a full, honest no-gi hand (X-Guard Sweep 33, Omoplata 21) — conditional on standing in a guard entered by threading the opponent's lapel through their own legs, which no no-gi edge does. Measured: the edge question calls 52 techniques gi-only; the walk from `standing-position` calls **104 techniques and 18 position role-nodes** absent in no-gi.
+  **THE WALK REPORTS BOTH FRAMES; THE LAYER ACTS ON ONE.** `EXCLUDING_FRAMES` is `("nogi",)`. The gi column the walk finds — 21 techniques, all heel-hook family — is IBJJF LEGALITY, not equipment, and acting on it is not safe today: `backside-50-50/bottom` has exactly ONE gi move surviving `optionsFor`'s role AND origin filters, so removing it empties the main pass into the ORIGIN-RELAXED fallback — cards from other origins carrying no `ord` and no `ordOdds`. **`graph.json` cannot see that coming**: its per-frame sums apply neither role nor origin, so it reports the state healthy. An empty-hand check cannot see it either, because the fallback returns cards — test for `ord === undefined`.
+  **Do:** derive availability with `frame_reachable` (`scripts/regenerate_neural_data.py`), filter at the READER via `rsAllows` — never inside `adj`, which is per-SITE and role-blind by design — and never from a NAME (ruling P3a: a name sweep kills `Rear Naked Choke from Invisible Collar`, the canonical no-gi choke, because the POSITION is named "Collar"). Two numbers now both mean "availability" and are different sets: `cal.avail` is the walk; `docs/Neural.md`'s score-weight 52/16 is `_frame_positive`, the edge question, and is correct for what it measures.
+  **Pinned by `validate:availability` (wire parity, zero mass loss, no dead ends) + `tests/ruleset_availability.test.mjs` (the surfaces, the fallback detector, and the standing anti-name-matcher fixture).**
+  <br>_(1, and the whole no-gi graph was 104 techniques and 18 states too large)_
+
 - **`_tech_keys` — a spelling-sensitive join must try every spelling and then COUNT itself.** `graph.json` keys a technique by `slugify(<display name>)`, one flat kebab token; a layout id keeps the authored PATH, so `Submissions/Kimura/from-Front-Headlock` arrives with a `/` where the key has a `-`. **0 of 297 submission keys contain an inner slash, so 294 of 297 submissions shipped no odds at all** and nothing went red, because the fallback above printed a plausible number. The ladder is three rungs, cheapest first, and the last is the key's OWN CONSTRUCTOR rather than another guess: `as-is` → `slash→hyphen` → `slugify(title)`. Together 1331 of 1331. The emitter now refuses to write a wire below 95% coverage per type and prints the figure every run.
   <br>_(1, hidden for months, across 2 joins (`cal` and `tech_avail`))_
 
@@ -628,6 +641,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh` | one row per generated spec |
+| `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with
 `reuseExistingServer:false`. A config that reuses another worktree's server tests *that worktree's*

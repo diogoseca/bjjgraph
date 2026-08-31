@@ -232,17 +232,17 @@ A: During an exhale, core tension decreases and structural integrity is momentar
 <section id="related" class="content-section">
 
 ## Related
-- [[Kuzushi]] (Principle) - Off-balancing is most effective when timed to the opponent's natural weight shifts
-- [[Action and Reaction]] (Principle) - Reactions create timing windows that can be anticipated and exploited
-- [[Center of Gravity]] (Principle) - Weight shifts that create timing windows are movements of the center of gravity
-- [[Flow Rolling]] (Principle) - Flow rolling builds the sensory awareness needed to feel timing windows open during continuous movement
-- [[Energy Conservation]] (Principle) - Well-timed techniques conserve energy by exploiting moments of vulnerability instead of forcing against resistance
-- [[Predictable Responses]] (Learning) - Predictable responses create timing windows when opponents react to stimuli
-- [[Pattern Interrupts]] (Learning) - Breaking an opponent's rhythm forces transitions that open new timing windows
-- [[Economy of Motion]] (Learning) - Perfect timing eliminates wasted motion because well-timed techniques require minimal effort
-- [[Technique Chaining]] (Learning) - Each link in a chain works because the previous technique created a timing window for the next
-- [[Mount]] (Position) - Mount escapes and mount attacks are heavily timing-dependent based on weight shifts
-- [[Knee on Belly]] (Position) - Knee on belly creates timing windows through pressure that provokes defensive reactions
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing is most effective when timed to the opponent's natural weight shifts
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Reactions create timing windows that can be anticipated and exploited
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Weight shifts that create timing windows are movements of the center of gravity
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Flow rolling builds the sensory awareness needed to feel timing windows open during continuous movement
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Well-timed techniques conserve energy by exploiting moments of vulnerability instead of forcing against resistance
+- [[Learning/Predictable Responses|Predictable Responses]] (Learning) - Predictable responses create timing windows when opponents react to stimuli
+- [[Learning/Pattern Interrupts|Pattern Interrupts]] (Learning) - Breaking an opponent's rhythm forces transitions that open new timing windows
+- [[Learning/Economy of Motion|Economy of Motion]] (Learning) - Perfect timing eliminates wasted motion because well-timed techniques require minimal effort
+- [[Learning/Technique Chaining|Technique Chaining]] (Learning) - Each link in a chain works because the previous technique created a timing window for the next
+- [[Positions/Mount|Mount]] (Position) - Mount escapes and mount attacks are heavily timing-dependent based on weight shifts
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Knee on belly creates timing windows through pressure that provokes defensive reactions
 
 
 

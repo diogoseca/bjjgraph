@@ -470,18 +470,18 @@ Execute hip escape repetitions while already fatigued from previous training, si
 
 
 ### Related Content
-- [[Dealing with Pressure]] (Principle) - Understanding pressure patterns informs effective hip escape timing and direction
-- [[Bridge and Shrimp]] (Principle) - Core movement pattern that embodies hip escape mechanics
-- [[Frames]] (Principle) - Essential complementary skill for preserving created space
-- [[Escape Fundamentals]] (Principle) - Broader conceptual framework containing hip escape mechanics
-- [[Defensive Concepts]] (Principle) - Strategic defensive framework incorporating hip escape mechanics as core skill
-- [[Positional Hierarchy]] (Principle) - Understanding position values guides escape urgency and priority
-- [[Elbow Escape to Guard]] (Transition) - Specific technical application of hip escape mechanics from side control
-- [[Side Control Escape]] (Transition) - Direct implementation of hip escape mechanics principles
-- [[Upa Escape]] (Transition) - Mount escape combining hip mechanics with bridging emphasis
-- [[Mount]] (Position) - Common application position requiring hip escape mechanics
-- [[Side Control]] (Position) - Primary position where hip escape mechanics are applied
-- [[Knee on Belly]] (Position) - Pressure position requiring hip escape mechanics for recovery
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Understanding pressure patterns informs effective hip escape timing and direction
+- [[Principles/Bridge and Shrimp|Bridge and Shrimp]] (Principle) - Core movement pattern that embodies hip escape mechanics
+- [[Principles/Frames|Frames]] (Principle) - Essential complementary skill for preserving created space
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Broader conceptual framework containing hip escape mechanics
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Strategic defensive framework incorporating hip escape mechanics as core skill
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding position values guides escape urgency and priority
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Specific technical application of hip escape mechanics from side control
+- [[Transitions/Side Control Escape|Side Control Escape]] (Transition) - Direct implementation of hip escape mechanics principles
+- [[Transitions/Upa Escape|Upa Escape]] (Transition) - Mount escape combining hip mechanics with bridging emphasis
+- [[Positions/Mount|Mount]] (Position) - Common application position requiring hip escape mechanics
+- [[Positions/Side Control|Side Control]] (Position) - Primary position where hip escape mechanics are applied
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Pressure position requiring hip escape mechanics for recovery
 
 
 </section>

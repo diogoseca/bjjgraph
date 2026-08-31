@@ -331,7 +331,9 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
+- [[Submissions/Von Flue Choke/from Side Control]]
 - [[Submissions/Japanese Necktie]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Positions/Guillotine Control]] - Primary control position for consolidating the guillotine grip before finishing
 - [[Positions/Front Headlock]] - Parent position - precursor before securing the arm-in guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to consolidate control during finish

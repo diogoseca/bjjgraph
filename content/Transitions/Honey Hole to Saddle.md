@@ -327,9 +327,9 @@ The Honey Hole to Saddle transition occupies a unique position within the leg lo
 
 - [[Positions/Ashi Garami/Saddle]] - Target position representing the optimized dominant leg entanglement configuration
 
-- [[Inside Heel Hook from Honey Hole]] - Primary submission available from starting position before transition
+- [[Submissions/Inside Heel Hook/from Honey Hole]] - Primary submission available from starting position before transition
 
-- [[Heel Hook from Saddle]] - Primary submission available from target position after successful transition
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission available from target position after successful transition
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational position in the leg entanglement hierarchy preceding both Honey Hole and Saddle
 

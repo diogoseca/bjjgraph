@@ -277,11 +277,11 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (30% of attempts)
+- **[[Submissions/Heel Hook/from Saddle/Attacker|Heel Hook from Saddle]]** (30% of attempts)
 
 - **[[Transitions/Backstep from Leg Knot/Attacker|Backstep from Leg Knot]]** (20% of attempts)
 
-- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (14% of attempts)
+- **[[Submissions/Toe Hold/from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (14% of attempts)
 
 - **[[Transitions/Pressure Pass from Leg Knot/Attacker|Pressure Pass from Leg Knot]]** (18% of attempts)
 

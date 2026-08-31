@@ -221,15 +221,15 @@ A: Consider advancing to a more dominant position like mount or knee on belly ra
 <section id="related" class="content-section">
 
 ## Related
-- [[Positional Hierarchy]] (Principle) - The ranking system that defines which positions offer more control and submission opportunities
-- [[Position-Over-Submission Approach]] (Principle) - The foundational principle this article explores in depth
-- [[Control Maintenance]] (Principle) - Techniques for maintaining dominant positions before attacking
-- [[Pressure]] (Principle) - Using weight and pressure to consolidate positions and break down defenses
-- [[Mount]] (Position) - The quintessential dominant position where position-first strategy pays off most
-- [[Side Control]] (Position) - Key transitional position for advancing up the positional hierarchy
-- [[Back Control]] (Position) - The most dominant position in the hierarchy with the highest submission rates
-- [[Committed Techniques]] (Learning) - Choosing techniques that retain position on failure supports the position-first approach
-- [[Probabilistic Thinking]] (Learning) - Position-first strategy is fundamentally about playing the percentages
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - The ranking system that defines which positions offer more control and submission opportunities
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - The foundational principle this article explores in depth
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Techniques for maintaining dominant positions before attacking
+- [[Principles/Pressure|Pressure]] (Principle) - Using weight and pressure to consolidate positions and break down defenses
+- [[Positions/Mount|Mount]] (Position) - The quintessential dominant position where position-first strategy pays off most
+- [[Positions/Side Control|Side Control]] (Position) - Key transitional position for advancing up the positional hierarchy
+- [[Positions/Back Control|Back Control]] (Position) - The most dominant position in the hierarchy with the highest submission rates
+- [[Learning/Committed Techniques|Committed Techniques]] (Learning) - Choosing techniques that retain position on failure supports the position-first approach
+- [[Learning/Probabilistic Thinking|Probabilistic Thinking]] (Learning) - Position-first strategy is fundamentally about playing the percentages
 
 
 

@@ -338,6 +338,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 - [[Transitions/Gogoplata]]
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Choke from Crucifix]]
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Triangle Choke Side]]
 - [[Positions/Back Control]] - Primary starting position for this submission

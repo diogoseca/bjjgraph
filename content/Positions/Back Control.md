@@ -310,11 +310,11 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (27% of attempts)
+- **[[Submissions/Rear Naked Choke/from Back Control/Attacker|Rear Naked Choke from Back Control]]** (27% of attempts)
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
 
-- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (0% of attempts)
 
 - **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (6% of attempts)
 
@@ -348,13 +348,13 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (4% of attempts)
 
-- **[[Armbar from Back/Attacker|Armbar from Back]]** (3% of attempts)
+- **[[Submissions/Armbar/from Back/Attacker|Armbar from Back]]** (3% of attempts)
 
-- **[[Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (1% of attempts)
+- **[[Submissions/Armbar/from Back with Legs/Attacker|Armbar from Back with Legs]]** (1% of attempts)
 
-- **[[Rear Triangle Choke from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (2% of attempts)
+- **[[Submissions/Rear Triangle Choke/from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (2% of attempts)
 
-- **[[Short Choke from Back Control/Attacker|Short Choke from Back Control]]** (2% of attempts)
+- **[[Submissions/Short Choke/from Back Control/Attacker|Short Choke from Back Control]]** (2% of attempts)
 
 
 ### Common Mistakes

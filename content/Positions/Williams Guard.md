@@ -221,7 +221,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Williams Shoulder Lock from Williams Guard/Attacker|Williams Shoulder Lock from Williams Guard]]** (20% of attempts)
+- **[[Submissions/Williams Shoulder Lock/from Williams Guard/Attacker|Williams Shoulder Lock from Williams Guard]]** (20% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (11% of attempts)
 
@@ -231,7 +231,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 - **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (21% of attempts)
 
-- **[[Belly Down Armbar from Williams Guard/Attacker|Belly Down Armbar from Williams Guard]]** (11% of attempts)
+- **[[Submissions/Belly Down Armbar/from Williams Guard/Attacker|Belly Down Armbar from Williams Guard]]** (11% of attempts)
 
 
 ### Common Mistakes

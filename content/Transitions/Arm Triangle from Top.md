@@ -160,7 +160,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Arm Triangle from Side Control]] | 55% |
+| Success | [[Submissions/Arm Triangle/from Side Control]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -340,7 +340,7 @@ The arm triangle from top is a cornerstone of the side control submission system
 
 - [[Transitions/Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
 
-- [[Transitions/Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
+- [[Submissions/Arm Triangle/from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
 
 - [[Positions/Mount]] - Alternative starting position for the mounted arm triangle variant
 

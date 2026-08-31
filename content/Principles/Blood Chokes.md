@@ -452,18 +452,18 @@ Isolate the body mechanics that finish each choke type: chest expansion for rear
 
 
 ### Related Content
-- [[Rear Naked Choke]] (Submission) - The highest-percentage blood choke in BJJ, using forearm-bicep compression of both carotid arteries from back control
-- [[Triangle Choke]] (Submission) - Leg-based blood choke using thigh and calf to compress carotid arteries from guard positions
-- [[Anaconda Choke]] (Submission) - Arm-in blood choke that uses figure-four arm configuration to compress the carotid arteries from front headlock and turtle positions
-- [[Chin Protection]] (Principle) - The primary defensive principle against blood chokes, protecting the neck from choking arm or leg access
-- [[Submission Defense]] (Principle) - Encompasses the broader defensive framework including blood choke defense hierarchies and escape protocols
-- [[Submission Chains]] (Principle) - Blood chokes frequently serve as the anchor or entry point for submission chain systems
-- [[Back Control]] (Position) - The most dominant position for blood choke application, particularly the rear naked choke
-- [[Triangle Control]] (Position) - Control position for triangle choke blood choke variations with multiple finishing angles
-- [[Guillotine Control]] (Position) - Control position for guillotine blood choke variations from front headlock and guard
-- [[Front Headlock]] (Position) - Primary setup position for guillotine, darce, and anaconda blood choke entries
-- [[Darce Control]] (Position) - Control position for darce choke, an arm-in blood choke that compresses the carotid through arm and shoulder mechanics
-- [[Head Position]] (Principle) - Head control is a prerequisite for most blood choke setups, determining neck exposure and defensive posture options
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - The highest-percentage blood choke in BJJ, using forearm-bicep compression of both carotid arteries from back control
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Leg-based blood choke using thigh and calf to compress carotid arteries from guard positions
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - Arm-in blood choke that uses figure-four arm configuration to compress the carotid arteries from front headlock and turtle positions
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - The primary defensive principle against blood chokes, protecting the neck from choking arm or leg access
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - Encompasses the broader defensive framework including blood choke defense hierarchies and escape protocols
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Blood chokes frequently serve as the anchor or entry point for submission chain systems
+- [[Positions/Back Control|Back Control]] (Position) - The most dominant position for blood choke application, particularly the rear naked choke
+- [[Positions/Triangle Control|Triangle Control]] (Position) - Control position for triangle choke blood choke variations with multiple finishing angles
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Control position for guillotine blood choke variations from front headlock and guard
+- [[Positions/Front Headlock|Front Headlock]] (Position) - Primary setup position for guillotine, darce, and anaconda blood choke entries
+- [[Positions/Darce Control|Darce Control]] (Position) - Control position for darce choke, an arm-in blood choke that compresses the carotid through arm and shoulder mechanics
+- [[Principles/Head Position|Head Position]] (Principle) - Head control is a prerequisite for most blood choke setups, determining neck exposure and defensive posture options
 
 
 </section>

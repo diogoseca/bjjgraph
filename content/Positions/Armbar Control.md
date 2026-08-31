@@ -300,11 +300,11 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (32% of attempts)
+- **[[Submissions/Armbar/from Armbar Control/Attacker|Armbar from Armbar Control]]** (32% of attempts)
 
-- **[[Omoplata from Armbar Control/Attacker|Omoplata from Armbar Control]]** (6% of attempts)
+- **[[Submissions/Omoplata/from Armbar Control/Attacker|Omoplata from Armbar Control]]** (6% of attempts)
 
-- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (9% of attempts)
+- **[[Submissions/Kimura/from Armbar Control/Attacker|Kimura from Armbar Control]]** (9% of attempts)
 
 - **[[Transitions/Back Take from Armbar/Attacker|Back Take from Armbar]]** (12% of attempts)
 
@@ -312,7 +312,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 - **[[Transitions/Triangle from Armbar/Attacker|Triangle from Armbar]]** (9% of attempts)
 
-- **[[Belly Down Armbar from Armbar Control/Attacker|Belly Down Armbar from Armbar Control]]** (21% of attempts)
+- **[[Submissions/Belly Down Armbar/from Armbar Control/Attacker|Belly Down Armbar from Armbar Control]]** (21% of attempts)
 
 
 ### Common Mistakes

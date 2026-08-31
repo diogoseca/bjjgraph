@@ -346,7 +346,7 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 
 - [[Transitions/Front Headlock to Back]] - Alternative positional advancement from same control
 
-- [[Chin Strap Guillotine from Front Headlock]] - Submission variation with chin strap grip
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Submission variation with chin strap grip
 
 
 </section>

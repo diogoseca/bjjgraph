@@ -296,19 +296,19 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 - **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (34% of attempts)
 
-- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (12% of attempts)
+- **[[Submissions/Heel Hook/from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (12% of attempts)
 
 - **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (11% of attempts)
 
-- **[[Toe Hold from Inside Sankaku/Attacker|Toe Hold from Inside Sankaku]]** (9% of attempts)
+- **[[Submissions/Toe Hold/from Inside Sankaku/Attacker|Toe Hold from Inside Sankaku]]** (9% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Kneebar from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (7% of attempts)
+- **[[Submissions/Kneebar/from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (7% of attempts)
 
-- **[[Calf Slicer from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (4% of attempts)
+- **[[Submissions/Calf Slicer/from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (4% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 

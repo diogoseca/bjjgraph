@@ -426,7 +426,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 ## Related Positions and Techniques
 
 - **[[Positions/Armbar Control]]** - Parent hub page for this defensive position
-- **[[Armbar from Armbar Control]]** - Primary threat - submission being defended against
+- **[[Submissions/Armbar/from Armbar Control]]** - Primary threat - submission being defended against
 - **[[Positions/Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
 - **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense

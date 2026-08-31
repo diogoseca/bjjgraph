@@ -444,18 +444,18 @@ Extended top control rounds (5-10 minutes) where the attacker focuses on maintai
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Foundational principle for chest compression, providing the weight distribution and body mechanics concepts that enable effective torso pressure
-- [[Mount]] (Position) - Primary position for direct top-down chest compression through hip and body weight
-- [[Side Control]] (Position) - Key position for shoulder-driving chest compression that concentrates weight through the shoulder into the sternum and ribs
-- [[North-South]] (Position) - Position that combines chest compression with facial pressure, creating dual breathing restriction
-- [[Back Control]] (Position) - Platform for body triangle chest compression, one of the most effective circumferential compression techniques
-- [[Knee on Belly]] (Position) - Acute focal compression position that concentrates weight through a single knee into the abdomen
-- [[Frames]] (Principle) - Primary defensive mechanism against chest compression, creating skeletal barriers that allow breathing space
-- [[Dealing with Pressure]] (Principle) - Encompasses the broader strategies for surviving sustained chest compression including breathing techniques and mental composure
-- [[Base]] (Principle) - Stable base allows sustained compression without being swept or reversed by the defending opponent
-- [[Control Maintenance]] (Principle) - Sustained chest compression is a component of maintaining dominant control that degrades opponent defensive capacity over time
-- [[Energy Conservation]] (Principle) - Chest compression exemplifies energy-efficient offense where gravity does the work while the opponent expends energy trying to breathe
-- [[Submission Chains]] (Principle) - Compression creates the conditions for effective submission chains by degrading the opponent's defensive energy before transition to finishes
+- [[Principles/Pressure|Pressure]] (Principle) - Foundational principle for chest compression, providing the weight distribution and body mechanics concepts that enable effective torso pressure
+- [[Positions/Mount|Mount]] (Position) - Primary position for direct top-down chest compression through hip and body weight
+- [[Positions/Side Control|Side Control]] (Position) - Key position for shoulder-driving chest compression that concentrates weight through the shoulder into the sternum and ribs
+- [[Positions/North-South|North-South]] (Position) - Position that combines chest compression with facial pressure, creating dual breathing restriction
+- [[Positions/Back Control|Back Control]] (Position) - Platform for body triangle chest compression, one of the most effective circumferential compression techniques
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Acute focal compression position that concentrates weight through a single knee into the abdomen
+- [[Principles/Frames|Frames]] (Principle) - Primary defensive mechanism against chest compression, creating skeletal barriers that allow breathing space
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Encompasses the broader strategies for surviving sustained chest compression including breathing techniques and mental composure
+- [[Principles/Base|Base]] (Principle) - Stable base allows sustained compression without being swept or reversed by the defending opponent
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Sustained chest compression is a component of maintaining dominant control that degrades opponent defensive capacity over time
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Chest compression exemplifies energy-efficient offense where gravity does the work while the opponent expends energy trying to breathe
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Compression creates the conditions for effective submission chains by degrading the opponent's defensive energy before transition to finishes
 
 
 </section>

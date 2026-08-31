@@ -204,7 +204,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (40% of attempts)
+- **[[Submissions/Triangle Choke/from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (40% of attempts)
 
 - **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (22% of attempts)
 

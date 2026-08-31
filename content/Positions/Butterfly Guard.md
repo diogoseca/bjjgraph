@@ -207,7 +207,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (11% of attempts)
 
-- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
+- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
@@ -217,9 +217,9 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Transitions/Underhook Sweep/Attacker|Underhook Sweep]]** (5% of attempts)
 
-- **[[Kimura from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (4% of attempts)
+- **[[Submissions/Kimura/from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (4% of attempts)
 
-- **[[Omoplata from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
+- **[[Submissions/Omoplata/from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
 
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (4% of attempts)
 

@@ -306,9 +306,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
+- **[[Submissions/Armbar/from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
 
-- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
+- **[[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (3% of attempts)
 
@@ -316,7 +316,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (3% of attempts)
+- **[[Submissions/Neck Crank/from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (3% of attempts)
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (8% of attempts)
 
@@ -328,9 +328,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (5% of attempts)
 
-- **[[Belly Down Armbar from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
+- **[[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (8% of attempts)
+- **[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (8% of attempts)
 
 
 ### Common Mistakes

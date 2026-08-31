@@ -382,35 +382,35 @@ The Straight Jacket System requires progressive drilling that emphasizes muscle 
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Back Control]] (Position) - Primary position for entire system - all techniques begin from or transition through back control position
-- [[Seat Belt Control Back]] (Position) - Foundational control configuration that serves as the base level for all system progressions
-- [[Gift Wrap]] (Position) - Intermediate control level representing first major advancement in system hierarchy
-- [[Harness]] (Position) - Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment
-- [[Crucifix]] (Position) - Related arm control position that shares principles of upper body immobilization with straight jacket configuration
-- [[Body Lock]] (Position) - Alternative back control variation emphasizing torso compression that can be integrated with system principles
-- [[Turtle]] (Position) - Common opponent defensive position that creates back take entry opportunities for system initiation
-- [[Crab Ride]] (Position) - Transitional control position used to attack turtle and establish initial back control entry
-- [[Cross Body Ride]] (Position) - Alternative turtle attack position that creates back exposure and system entry opportunities
-- [[Kimura Trap]] (Position) - Related control system emphasizing arm immobilization principles similar to straight jacket methodology
-- [[Body Triangle]] (Position) - Lower body control variation that integrates with upper body straight jacket system for maximum position retention
-- [[Back Take]] (Transition) - General category of techniques used to achieve initial back control position for system entry
-- [[Turtle to Back Take]] (Transition) - Primary entry method from opponent's defensive turtle position to back control
-- [[Turtle to Back Control]] (Transition) - Specific transition from turtle attack to established seat belt control
-- [[Chair Sit to Back]] (Transition) - Technical entry method from turtle position to back mount using chair sit mechanics
-- [[Kimura to Back Take]] (Transition) - Transition from kimura control position to back mount when opponent defends submission
-- [[Half Guard to Back Take]] (Transition) - Entry method from half guard position to back control during scrambles or sweeps
-- [[Rolling Back Take]] (Transition) - Dynamic entry to back control using rolling mechanics from various positions
-- [[Two-on-One to Back Take]] (Transition) - Standing clinch entry using two-on-one grip control to access back position
-- [[Matrix Back Take]] (Transition) - Advanced back take entry from specific guard positions using matrix movement pattern
-- [[Rear Naked Choke]] (Submission) - Primary submission finish from straight jacket and gift wrap control positions
-- [[Armbar from Back Transition]] (Transition) - Alternative arm attack from back control when opponent defends neck from straight jacket position
-- [[Kimura on Trapped Arm]] (Transition) - Arm attack targeting immobilized limbs during back control and turtle-to-back transitions
-- [[Control Maintenance]] (Principle) - Fundamental principle underlying all system control levels - maintaining position before advancing
-- [[Position Chains]] (Principle) - Theoretical framework for understanding how positions connect - critical for system progression logic
-- [[Positional Hierarchy]] (Principle) - Concept explaining relative value of different control levels within back attack system
-- [[Fork Attacks]] (Principle) - Core methodology for developing interconnected techniques into coherent strategic frameworks where every defense opens an alternative attack
-- [[Submission Chains]] (Principle) - Framework for creating submission sequences where defensive reactions open alternative finishes
-- [[Back Attack System]] (System) - Broader systematic framework for attacking from back positions that complements straight jacket methodology
+- [[Positions/Back Control|Back Control]] (Position) - Primary position for entire system - all techniques begin from or transition through back control position
+- [[Positions/Back Control/Seat Belt Control Back|Seat Belt Control Back]] (Position) - Foundational control configuration that serves as the base level for all system progressions
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Intermediate control level representing first major advancement in system hierarchy
+- [[Positions/Harness|Harness]] (Position) - Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment
+- [[Positions/Crucifix|Crucifix]] (Position) - Related arm control position that shares principles of upper body immobilization with straight jacket configuration
+- [[Positions/Body Lock|Body Lock]] (Position) - Alternative back control variation emphasizing torso compression that can be integrated with system principles
+- [[Positions/Turtle|Turtle]] (Position) - Common opponent defensive position that creates back take entry opportunities for system initiation
+- [[Positions/Crab Ride|Crab Ride]] (Position) - Transitional control position used to attack turtle and establish initial back control entry
+- [[Positions/Cross Body Ride|Cross Body Ride]] (Position) - Alternative turtle attack position that creates back exposure and system entry opportunities
+- [[Positions/Kimura Trap|Kimura Trap]] (Position) - Related control system emphasizing arm immobilization principles similar to straight jacket methodology
+- [[Positions/Back Control/Body Triangle|Body Triangle]] (Position) - Lower body control variation that integrates with upper body straight jacket system for maximum position retention
+- [[Transitions/Back Take|Back Take]] (Transition) - General category of techniques used to achieve initial back control position for system entry
+- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) - Primary entry method from opponent's defensive turtle position to back control
+- [[Transitions/Turtle to Back Control|Turtle to Back Control]] (Transition) - Specific transition from turtle attack to established seat belt control
+- [[Transitions/Chair Sit to Back|Chair Sit to Back]] (Transition) - Technical entry method from turtle position to back mount using chair sit mechanics
+- [[Transitions/Kimura to Back Take|Kimura to Back Take]] (Transition) - Transition from kimura control position to back mount when opponent defends submission
+- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) - Entry method from half guard position to back control during scrambles or sweeps
+- [[Transitions/Rolling Back Take|Rolling Back Take]] (Transition) - Dynamic entry to back control using rolling mechanics from various positions
+- [[Transitions/Two-on-One to Back Take|Two-on-One to Back Take]] (Transition) - Standing clinch entry using two-on-one grip control to access back position
+- [[Transitions/Matrix Back Take|Matrix Back Take]] (Transition) - Advanced back take entry from specific guard positions using matrix movement pattern
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission finish from straight jacket and gift wrap control positions
+- [[Transitions/Armbar from Back Transition|Armbar from Back Transition]] (Transition) - Alternative arm attack from back control when opponent defends neck from straight jacket position
+- [[Transitions/Kimura on Trapped Arm|Kimura on Trapped Arm]] (Transition) - Arm attack targeting immobilized limbs during back control and turtle-to-back transitions
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Fundamental principle underlying all system control levels - maintaining position before advancing
+- [[Principles/Position Chains|Position Chains]] (Principle) - Theoretical framework for understanding how positions connect - critical for system progression logic
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Concept explaining relative value of different control levels within back attack system
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core methodology for developing interconnected techniques into coherent strategic frameworks where every defense opens an alternative attack
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Framework for creating submission sequences where defensive reactions open alternative finishes
+- [[Systems/Back Attack System|Back Attack System]] (System) - Broader systematic framework for attacking from back positions that complements straight jacket methodology
 
 
 </section>

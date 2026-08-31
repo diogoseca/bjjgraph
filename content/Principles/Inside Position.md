@@ -443,20 +443,20 @@ Practice positions where inside position involves multiple body parts simultaneo
 
 
 ### Related Content
-- [[Clinch]] (Position) - The primary position where inside position battles are most visible — underhook vs overhook pummeling determines who controls the clinch
-- [[Half Guard]] (Position) - A position where inside position (knee shield and underhook) determines whether the bottom player retains guard or gets flattened and passed
-- [[Butterfly Guard]] (Position) - Butterfly hooks are lower-body inside position, occupying the space between the opponent's thighs and torso for sweep and attack setups
-- [[Body Lock]] (Position) - The body lock represents complete inside position — both arms wrapped inside and around the opponent's torso for total upper body control
-- [[Double Unders]] (Position) - Double under passing is the guard passing expression of inside position — both arms inside the opponent's legs, collapsing the guard from the inside
-- [[Dogfight Position]] (Position) - Pure underhook battle from the knees where inside position determines who drives for the takedown or sweep
-- [[Headquarters Position]] (Position) - A passing position where the knee splits the opponent's legs, establishing lower body inside position for multiple pass options
-- [[Underhook Pummeling from Clinch]] (Transition) - The fundamental technique for establishing inside position in the clinch through swimming the arm under the opponent's arm
-- [[Underhook from Knee Shield]] (Transition) - Establishing the underhook from half guard bottom, combining inside arm position with the existing knee shield inside position
-- [[Grips]] (Principle) - Grips reinforce inside position once established and are used to fight for inside position — inside bicep ties and underhooks are both grips and inside positions
-- [[Head Position]] (Principle) - Head position supports and reinforces inside position — the head on the inside complements the underhook for complete inside control
-- [[Distance Control]] (Principle) - Inside position is a primary mechanism for controlling distance — the inside fighter dictates whether distance closes or opens
-- [[Frames]] (Principle) - Frames are the defensive counter to inside position, occupying space to prevent the opponent from establishing inside control
-- [[Forward Pressure]] (Principle) - Inside position enables effective forward pressure by placing the driving force inside the opponent's defensive structure
+- [[Positions/Clinch|Clinch]] (Position) - The primary position where inside position battles are most visible — underhook vs overhook pummeling determines who controls the clinch
+- [[Positions/Half Guard|Half Guard]] (Position) - A position where inside position (knee shield and underhook) determines whether the bottom player retains guard or gets flattened and passed
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Butterfly hooks are lower-body inside position, occupying the space between the opponent's thighs and torso for sweep and attack setups
+- [[Positions/Body Lock|Body Lock]] (Position) - The body lock represents complete inside position — both arms wrapped inside and around the opponent's torso for total upper body control
+- [[Positions/Double Unders|Double Unders]] (Position) - Double under passing is the guard passing expression of inside position — both arms inside the opponent's legs, collapsing the guard from the inside
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Pure underhook battle from the knees where inside position determines who drives for the takedown or sweep
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - A passing position where the knee splits the opponent's legs, establishing lower body inside position for multiple pass options
+- [[Transitions/Underhook Pummeling from Clinch|Underhook Pummeling from Clinch]] (Transition) - The fundamental technique for establishing inside position in the clinch through swimming the arm under the opponent's arm
+- [[Transitions/Underhook from Knee Shield|Underhook from Knee Shield]] (Transition) - Establishing the underhook from half guard bottom, combining inside arm position with the existing knee shield inside position
+- [[Principles/Grips|Grips]] (Principle) - Grips reinforce inside position once established and are used to fight for inside position — inside bicep ties and underhooks are both grips and inside positions
+- [[Principles/Head Position|Head Position]] (Principle) - Head position supports and reinforces inside position — the head on the inside complements the underhook for complete inside control
+- [[Principles/Distance Control|Distance Control]] (Principle) - Inside position is a primary mechanism for controlling distance — the inside fighter dictates whether distance closes or opens
+- [[Principles/Frames|Frames]] (Principle) - Frames are the defensive counter to inside position, occupying space to prevent the opponent from establishing inside control
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Inside position enables effective forward pressure by placing the driving force inside the opponent's defensive structure
 
 
 </section>

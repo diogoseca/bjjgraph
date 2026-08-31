@@ -327,6 +327,11 @@ At the highest levels of competition, the arm triangle from side control remains
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from High Mount]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame]]
+- [[Submissions/Americana/from Side Control]]
+- [[Submissions/Kimura/from Side Control]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control]] - Starting position where the arm triangle setup begins through crossface pressure and arm trapping
 - [[Positions/Mount]] - Alternative dominant position to advance to if arm triangle setup stalls

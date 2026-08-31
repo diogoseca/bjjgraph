@@ -433,16 +433,16 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 
 ### Related Content
-- [[Positional Sparring]] (Principle) - Complementary training methodology focusing on specific position mastery under competitive resistance
-- [[Position Chains]] (Principle) - Foundation for flowing positional sequences that flow rolling extends into dynamic, responsive environment
-- [[Energy Conservation]] (Principle) - Underlying principle governing intensity calibration and recovery optimization in flow rolling
-- [[Timing and Rhythm]] (Principle) - Movement attribute developed through continuous exposure in flow rolling environment
-- [[Competition Mindset]] (Principle) - Alternative training mindset with different objectives and intensity levels compared to flow rolling
-- [[Transition Management]] (Principle) - Core technical element emphasizing smooth positional transitions developed through flow rolling practice
-- [[Defensive Concepts]] (Principle) - Critical awareness framework for maintaining appropriate intensity and preventing injury during flow sessions
-- [[Escape Fundamentals]] (Principle) - Escape mechanics frequently practiced during flow rolling through multiple low-intensity exposure opportunities
-- [[Dealing with Pressure]] (Principle) - Training methodology that flow rolling implements through calibrated resistance and progressive pressure exposure
-- [[Mental Game Framework]] (System) - Psychological framework supporting ego management and cooperative mindset required for effective flow rolling
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Complementary training methodology focusing on specific position mastery under competitive resistance
+- [[Principles/Position Chains|Position Chains]] (Principle) - Foundation for flowing positional sequences that flow rolling extends into dynamic, responsive environment
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Underlying principle governing intensity calibration and recovery optimization in flow rolling
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Movement attribute developed through continuous exposure in flow rolling environment
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Alternative training mindset with different objectives and intensity levels compared to flow rolling
+- [[Principles/Transition Management|Transition Management]] (Principle) - Core technical element emphasizing smooth positional transitions developed through flow rolling practice
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Critical awareness framework for maintaining appropriate intensity and preventing injury during flow sessions
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Escape mechanics frequently practiced during flow rolling through multiple low-intensity exposure opportunities
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Training methodology that flow rolling implements through calibrated resistance and progressive pressure exposure
+- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - Psychological framework supporting ego management and cooperative mindset required for effective flow rolling
 
 
 </section>

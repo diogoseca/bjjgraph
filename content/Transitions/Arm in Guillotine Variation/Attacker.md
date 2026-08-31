@@ -324,7 +324,7 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Arm in Guillotine from Guillotine Control]] | 55% |
+| Success | [[Submissions/Arm in Guillotine/from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 

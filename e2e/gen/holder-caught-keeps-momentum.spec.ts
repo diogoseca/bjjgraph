@@ -16,7 +16,7 @@ import { whiteBeltHolder } from "./personas"
  * The one player-side trap this spec must dodge is the trap it exists to document: an
  * UNANSWERED landing question makes the next pick an "ignored" break (:4912). So the
  * journey answers the landing question BEFORE every pick, through the real keyboard
- * surface (A/B/C/D → truth in this._mc, never a DOM attribute), gated on _landPending —
+ * surface (A/B/C → truth in this._mc, never a DOM attribute), gated on _landPending —
  * the live-unanswered signal (:4285 set, :4303 cleared) — because _mc itself is NOT nulled
  * after an answer (the closure's `answered` flag is the only guard there).
  *
@@ -38,7 +38,7 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
   await j.boot("/", { initialState: whiteBeltHolder() })
   await j.land("Mount Top")
 
-  // ── answer the live landing question like a user: keyboard A/B/C/D. Gated on
+  // ── answer the live landing question like a user: keyboard A/B/C. Gated on
   // _landPending (unanswered-question-on-the-table), because _mc lingers after an answer. ──
   const answerLanding = async (): Promise<boolean> => {
     const mc = await page.evaluate(() => {

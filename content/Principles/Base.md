@@ -460,17 +460,17 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 
 
 ### Related Content
-- [[Posture]] (Principle) - Opposing concept that targets base maintenance vulnerabilities from offensive perspective
-- [[Center of Gravity]] (Principle) - Foundational component concept that underlies effective base maintenance
-- [[Combat Base]] (Position) - Primary position exemplifying base maintenance principles in passing context
-- [[Mount]] (Position) - Dominant position requiring sophisticated base maintenance to prevent escapes
-- [[Closed Guard]] (Position) - Position where base maintenance directly determines success against sweep attempts
-- [[Posture Recovery]] (Transition) - Technique for restoring compromised base and posture in guard positions
-- [[Bridge and Roll]] (Transition) - Escape technique that specifically targets poor base maintenance from mount
-- [[Butterfly Sweep]] (Transition) - Sweep that exploits base maintenance failures in butterfly guard passing
-- [[Levers]] (Principle) - Theoretical foundation providing mechanical basis for understanding why certain base configurations are more stable
-- [[Action and Reaction]] (Principle) - Dynamic interplay concept where base maintenance counters destabilizing forces through reactive adjustments
-- [[Kuzushi]] (Principle) - Concept that targets base vulnerabilities, understanding both concepts enhances performance
+- [[Principles/Posture|Posture]] (Principle) - Opposing concept that targets base maintenance vulnerabilities from offensive perspective
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Foundational component concept that underlies effective base maintenance
+- [[Positions/Combat Base|Combat Base]] (Position) - Primary position exemplifying base maintenance principles in passing context
+- [[Positions/Mount|Mount]] (Position) - Dominant position requiring sophisticated base maintenance to prevent escapes
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Position where base maintenance directly determines success against sweep attempts
+- [[Transitions/Posture Recovery|Posture Recovery]] (Transition) - Technique for restoring compromised base and posture in guard positions
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Escape technique that specifically targets poor base maintenance from mount
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Sweep that exploits base maintenance failures in butterfly guard passing
+- [[Principles/Levers|Levers]] (Principle) - Theoretical foundation providing mechanical basis for understanding why certain base configurations are more stable
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Dynamic interplay concept where base maintenance counters destabilizing forces through reactive adjustments
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Concept that targets base vulnerabilities, understanding both concepts enhances performance
 
 
 </section>

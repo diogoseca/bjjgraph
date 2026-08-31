@@ -458,18 +458,18 @@ Practice chaining multiple wedges in sequence: insert first wedge, use it to cre
 
 
 ### Related Content
-- [[Frames]] (Principle) - Frames resist force head-on while wedges redirect force laterally — they are complementary defensive tools often used together
-- [[Levers]] (Principle) - Lever mechanics explain why wedge angle and depth amplify force redirection
-- [[Distance Control]] (Principle) - Wedges are primary tools for establishing and maintaining minimum distance between bodies
-- [[Escape Fundamentals]] (Principle) - Most escapes begin with a wedge insertion as the first step in creating space
-- [[Guard Passing]] (Principle) - Offensive wedges (knee inside thigh, elbow against knee line) are core guard passing mechanics
-- [[Knee Shield Half Guard]] (Position) - The knee shield is the most iconic wedge application in BJJ, built entirely around wedge mechanics
-- [[Half Guard]] (Position) - Half guard bottom relies heavily on knee shield wedges and forearm wedges for retention and recovery
-- [[Side Control]] (Position) - Escaping side control requires inserting knee and elbow wedges to create space for guard recovery
-- [[Mount]] (Position) - Mount escapes use elbow and knee wedges as the foundation of the elbow escape sequence
-- [[Butterfly Guard]] (Position) - Butterfly hooks function as wedges inserted under the opponent's thighs for elevation and sweeping
-- [[Headquarters Position]] (Position) - The passer's lead knee acts as a splitting wedge to open guard passing lanes
-- [[Elbow Escape to Guard]] (Transition) - Classic escape that relies on inserting an elbow wedge inside the opponent's thigh to create the initial space
+- [[Principles/Frames|Frames]] (Principle) - Frames resist force head-on while wedges redirect force laterally — they are complementary defensive tools often used together
+- [[Principles/Levers|Levers]] (Principle) - Lever mechanics explain why wedge angle and depth amplify force redirection
+- [[Principles/Distance Control|Distance Control]] (Principle) - Wedges are primary tools for establishing and maintaining minimum distance between bodies
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Most escapes begin with a wedge insertion as the first step in creating space
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Offensive wedges (knee inside thigh, elbow against knee line) are core guard passing mechanics
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - The knee shield is the most iconic wedge application in BJJ, built entirely around wedge mechanics
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard bottom relies heavily on knee shield wedges and forearm wedges for retention and recovery
+- [[Positions/Side Control|Side Control]] (Position) - Escaping side control requires inserting knee and elbow wedges to create space for guard recovery
+- [[Positions/Mount|Mount]] (Position) - Mount escapes use elbow and knee wedges as the foundation of the elbow escape sequence
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Butterfly hooks function as wedges inserted under the opponent's thighs for elevation and sweeping
+- [[Positions/Headquarters Position|Headquarters Position]] (Position) - The passer's lead knee acts as a splitting wedge to open guard passing lanes
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Classic escape that relies on inserting an elbow wedge inside the opponent's thigh to create the initial space
 
 
 </section>

@@ -323,7 +323,7 @@ The far side armbar from knee on belly integrates into the KOB attack system as 
 
 - [[Positions/Half Guard]] - Counter destination — where the attacker may end up if the opponent successfully disrupts the transition
 
-- [[Armbar from Armbar Control]] - Follow-up finish submission executed from armbar control after successfully completing this transition
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up finish submission executed from armbar control after successfully completing this transition
 
 - [[Submissions/Baseball Bat Choke]] - Complementary attack from KOB that creates the defensive reactions exploited by the far side armbar
 

@@ -323,13 +323,13 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 
 - [[Positions/Armbar Control]] - Target position on successful execution
 
-- [[Armbar from Armbar Control]] - Completion submission from armbar control position
+- [[Submissions/Armbar/from Armbar Control]] - Completion submission from armbar control position
 
 - [[Submissions/Rear Naked Choke]] - Primary choking attack that creates the defensive reaction exploited by this transition
 
 - [[Positions/Back Control]] - Grounded version of starting position with similar armbar options
 
-- [[Transitions/Armbar from Crucifix]] - Alternative armbar setup from crucifix, another position accessible from back control
+- [[Submissions/Armbar/from Crucifix]] - Alternative armbar setup from crucifix, another position accessible from back control
 
 - [[Submissions/Bow and Arrow Choke]] - Alternative submission threat from back control that chains with armbar
 

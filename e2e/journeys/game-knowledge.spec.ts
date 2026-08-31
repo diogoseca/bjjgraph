@@ -25,6 +25,15 @@ const soloDeck = async (page: any) => {
       (candidate: string) =>
         ((app.flashcards.decks[candidate] || {}).cards || []).length >= 3,
     )!;
+    // Make this ONE deck the entire curriculum. EVERY compact block and the memo they fill must
+    // go with it: `scoreWeights()` prefers `scoreWeightsByRuleset` (v1.146.0), then
+    // `scoreWeights` (v1.145.13), then the flat `weights`, and caches per frame on first read —
+    // so overwriting only the flat table would leave the real 2,882-deck one in charge and this
+    // deck would be a rounding error instead of the whole score. Deleting both forks rather than
+    // seeding one keeps the subject here the score's ARITHMETIC, not a ruleset.
+    delete app.curriculum.scoreWeightsByRuleset;
+    delete app.curriculum.scoreWeights;
+    app._scoreW = null;
     app.curriculum.weights = { [key]: 1 };
     app.stage = {};
     app._stageVer = (app._stageVer || 0) + 1;
@@ -195,19 +204,28 @@ test.describe("Game Knowledge @curated", () => {
     ).toHaveAttribute("data-crown", "4");
   });
 
-  test("the shipped curriculum weights every attacker deck as one distribution", async ({
+  test("the shipped curriculum weights the WHOLE corpus as one distribution", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/");
-    const weights = await page.evaluate(
-      () => ((window as any).__neural.curriculum || {}).weights || null,
-    );
-    expect(weights).toBeTruthy();
-    const keys = Object.keys(weights);
-    expect(keys.length).toBeGreaterThan(1000);
-    expect(keys.every((key) => key.endsWith("|Attacker"))).toBe(true);
-    const sum = keys.reduce((total, key) => total + weights[key], 0);
-    expect(sum).toBeCloseTo(1, 4);
+    // Driven through the app's own expander, not by re-reading the payload: since v1.145.13 the
+    // wire is compact and there is no flat table to read. This asserted `every key ends |Attacker`
+    // until the owner ruled that the score must span the whole corpus -- 1,326 Defender and 272
+    // position decks (9,071 cards, 41.4%) used to weigh exactly nothing.
+    const w = await page.evaluate(() => (window as any).__neural.scoreWeights());
+    expect(w).toBeTruthy();
+    const keys = Object.keys(w);
+    expect(keys.length).toBeGreaterThan(2500);
+    const by = (suffix: string) => keys.filter((k) => k.endsWith(suffix)).length;
+    expect(by("|Attacker"), "attacker decks are weighted").toBeGreaterThan(1000);
+    expect(by("|Defender"), "SO ARE DEFENDER DECKS").toBe(by("|Attacker"));
+    expect(by("|Top") + by("|Bottom"), "AND POSITION DECKS").toBe(272);
+    const sum = keys.reduce((total, key) => total + w[key], 0);
+    expect(sum, "still one distribution").toBeCloseTo(1, 4);
+    // The owner's first constraint, asserted where a user would feel it: the heaviest deck in the
+    // whole table is a position, so studying where you ARE is the single best-scoring thing to do.
+    const heaviest = keys.reduce((a, b) => (w[a] >= w[b] ? a : b));
+    expect(heaviest.endsWith("|Top") || heaviest.endsWith("|Bottom")).toBe(true);
   });
 });

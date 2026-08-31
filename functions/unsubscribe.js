@@ -1,7 +1,8 @@
 /**
  * One-click digest unsubscribe (v1.105.7) — the List-Unsubscribe target. GET or POST
  * /unsubscribe?u=<user_id>&t=<hmac>. Verifies the HMAC (so an address can only unsubscribe
- * itself), writes digest_suppress via the service key, and answers with a tiny page. Secrets
+ * itself), writes digest_suppress via the service key, TURNS THE BLOB'S OWN KEY OFF, and
+ * answers with a tiny page. Secrets
  * come from the Pages project's environment variables (Settings > Environment variables):
  * SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, UNSUB_HMAC_SECRET — same values as the Worker's.
  */
@@ -41,6 +42,40 @@ export async function onRequest({ request, env }) {
     body: JSON.stringify({ user_id: u }),
   });
   if (!r.ok && r.status !== 409) return new Response("Could not unsubscribe — try again later.", { status: 502, headers: SHARE_STATIC_HEADERS });
+
+  // ── and tell the APP, which is the only side the user can see ──────────────────────────
+  // digest_suppress stops the mail, but it is service-role-only: the client never reads it, so
+  // for the whole life of this Function the Settings toggle went on reading "On" after an
+  // unsubscribe, and `noteCardDone` went on writing the per-day `dayLog` it gates on that key.
+  // Nothing looked broken — mail had stopped — which is precisely why it survived.
+  // BEST EFFORT, and deliberately after the write above: the stop is authoritative and must
+  // never fail because a settings key could not be updated. Read-modify-write is safe enough
+  // here (a lost race with a concurrent push leaves exactly today's behaviour, and the Worker
+  // still refuses to mail), and the fresh `settingsAt` stamp is what stops the next push from
+  // any signed-in device reviving `true` through the per-key LWW merge.
+  try {
+    const sel = await fetch(env.SUPABASE_URL + "/rest/v1/user_training_data?select=neural&user_id=eq." + encodeURIComponent(u), {
+      headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: "Bearer " + env.SUPABASE_SERVICE_ROLE_KEY },
+    });
+    if (sel.ok) {
+      const rows = await sel.json();
+      const blob = (rows && rows[0] && rows[0].neural) || {};
+      blob.settings = Object.assign({}, blob.settings, { emailDigest: false });
+      blob.settingsAt = Object.assign({}, blob.settingsAt, { emailDigest: Date.now() });
+      await fetch(env.SUPABASE_URL + "/rest/v1/user_training_data?user_id=eq." + encodeURIComponent(u), {
+        method: "PATCH",
+        headers: {
+          apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+          Authorization: "Bearer " + env.SUPABASE_SERVICE_ROLE_KEY,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ neural: blob }),
+      });
+    }
+  } catch (e) {
+    console.log("[unsubscribe] blob not updated for " + u + ": " + (e && e.message));
+  }
+
   return new Response(
     "<!doctype html><body style=\"font-family:sans-serif;max-width:420px;margin:80px auto;text-align:center;\"><h2>Unsubscribed.</h2><p>No more training-day emails. You can turn them back on any time in Settings.</p></body>",
     { headers: { "content-type": "text/html; charset=utf-8", ...SHARE_STATIC_HEADERS } },

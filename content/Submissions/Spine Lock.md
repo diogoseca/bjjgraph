@@ -195,6 +195,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - [[Submissions/Bow and Arrow Choke]] - Back control choke that chains with truck entries and spine lock setups
 - [[Submissions/Far Side Armbar]] - Arm attack accessible during spine lock position transitions
 - [[Submissions/Kimura]] - Shoulder lock available during truck and back control sequences
+- [[Submissions/Neck Crank/from Twister Control]] - Related cervical spine submission with similar safety considerations
 - [[Positions/Half Guard/Electric Chair]] - 10th Planet submission from half guard connecting to truck and spine lock entries
 - [[Positions/Twister Control/Truck]] - Primary attacking position for spine lock setup and control
 - [[Positions/Twister Control]] - Alternative finishing position that combines with spine compression

@@ -434,18 +434,18 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 
 ### Related Content
-- [[Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
-- [[Flow Rolling]] (Principle) - Training method that directly develops energy conservation through controlled tempo and movement efficiency
-- [[Base]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
-- [[Frames]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
-- [[Closed Guard]] (Position) - Recovery position allowing energy conservation while maintaining control
-- [[Turtle]] (Position) - Highly efficient defensive position requiring minimal energy to maintain
-- [[Escape Fundamentals]] (Principle) - Application context where energy conservation principles are critical for efficient escapes
-- [[Position-Over-Submission Approach]] (Principle) - Strategic framework supporting energy conservation through positional focus
-- [[Defensive Concepts]] (Principle) - Complementary framework emphasizing efficient defense and selective resistance
-- [[Guard Pull]] (Transition) - Tactical tool for avoiding high-energy standup exchanges
-- [[Defensive Prioritization Framework]] (System) - Systematic implementation of energy conservation principles through defensive priority assessment
-- [[Deep Half Guard]] (Position) - Defensive recovery position exemplifying energy conservation under pressure
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Training method that directly develops energy conservation through controlled tempo and movement efficiency
+- [[Principles/Base|Base]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
+- [[Principles/Frames|Frames]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Recovery position allowing energy conservation while maintaining control
+- [[Positions/Turtle|Turtle]] (Position) - Highly efficient defensive position requiring minimal energy to maintain
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Application context where energy conservation principles are critical for efficient escapes
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic framework supporting energy conservation through positional focus
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Complementary framework emphasizing efficient defense and selective resistance
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Tactical tool for avoiding high-energy standup exchanges
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Systematic implementation of energy conservation principles through defensive priority assessment
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Defensive recovery position exemplifying energy conservation under pressure
 
 
 </section>

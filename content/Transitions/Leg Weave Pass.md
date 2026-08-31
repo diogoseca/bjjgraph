@@ -318,7 +318,7 @@ The leg weave pass represents a crucial component of modern pressure passing sys
 
 - [[Positions/Side Control]] - Ending position and goal of the leg weave pass sequence
 
-- [[Transitions/Kimura from Half Guard]] - Submission opportunity arising from heavy pressure positions during the weave
+- [[Submissions/Kimura/from Half Guard]] - Submission opportunity arising from heavy pressure positions during the weave
 
 - [[Submissions/Darce Choke]] - Submission threat that develops if opponent turns into you during the pass
 

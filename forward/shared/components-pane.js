@@ -216,15 +216,53 @@ function historyBody({ rolls = pastRolls, empty = false, expanded = -1 } = {}) {
 /**
  * The study takeover. A live deck/session/checkpoint hides the tab bar entirely and the
  * head's `‹ Back` returns to the tab you came from — two body modes, one pane.
+ *
+ * THE HEAD IS `setDrillHeader(title, sub)` (app.src.jsx). All four production callers go
+ * through it, and only the strings differ, so this renders the same two slots rather than a
+ * per-state layout. A checkpoint is the caller with no role kicker and no count chip:
+ * `setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " \u00b7 " + cp.unit.name)`.
  */
-function studyBody({ state = "recall" } = {}, context = defaultContext) {
-  return `<div class="pane-body pane-body--study" data-pane-view="study">
-    <div class="pane-study-head"><button class="pane-back" type="button" data-pane-back>‹ Back</button><b>${escapeHtml(context.name)}</b></div>
-    ${
-      state === "complete"
-        ? '<div class="drill-complete"><span>✓</span><h3>Session complete</h3><p>8 cards reviewed. Your roll odds now reflect the work.</p></div>'
-        : flashcard({ state: state === "revealed" ? "revealed" : "question" }, context)
-    }
+function studyBody({ state = "recall", checkpoint = null } = {}, context = defaultContext) {
+  const quiz = state === "checkpoint";
+  // A checkpoint belongs to ONE unit of ONE belt and is asked card by card, so its subtitle is
+  // an index into the picks plus that unit's name — never a belt-level tally. The catalog used to
+  // head this "BLUE BELT CHECKPOINT · 4/8": a string production has never emitted, inside a modal
+  // production does not have. Archive: "THE CATALOG'S CHECKPOINT WAS A MODAL PRODUCTION HAS
+  // NEVER HAD".
+  const cp = quiz
+    ? {
+        step: 2,
+        total: 6,
+        unit: "Foundations and complete loops",
+        result: "question",
+        ...(checkpoint || {}),
+      }
+    : null;
+  const title = quiz ? "Checkpoint" : escapeHtml(context.name);
+  const sub = quiz ? `${cp.step} of ${cp.total} · ${escapeHtml(cp.unit)}` : "";
+  const body = quiz
+    ? // The quiz is ALWAYS multiple choice — `renderDrill` returns true for `_checkpoint`
+      // before it consults the recall ladder at all.
+      // `result` carries all three quiz states through: a wrong pick must still mark its trap,
+      // which is the one thing the retired modal did that a bare "not correct" would lose.
+      flashcard(
+        {
+          mode: "multiple-choice",
+          state:
+            cp.result === "correct"
+              ? "correct"
+              : cp.result === "wrong"
+                ? "wrong"
+                : "question",
+        },
+        context,
+      )
+    : state === "complete"
+      ? '<div class="drill-complete"><span>✓</span><h3>Session complete</h3><p>8 cards reviewed. Your roll odds now reflect the work.</p></div>'
+      : flashcard({ state: state === "revealed" ? "revealed" : "question" }, context);
+  return `<div class="pane-body pane-body--study" data-pane-view="study"${quiz ? ' data-pane-study-kind="checkpoint"' : ""}>
+    <div class="pane-study-head ng-pane-drillhead" data-production-selector=".ng-pane-drillhead"><button class="pane-back" type="button" data-pane-back>‹ Back</button><b>${title}</b>${sub ? `<small class="pane-study-sub">${sub}</small>` : ""}</div>
+    ${body}
   </div>`;
 }
 
@@ -276,11 +314,12 @@ export function pane(
     explore = {},
     corridor = {},
     history = {},
+    checkpoint = null,
   } = {},
   context = defaultContext,
 ) {
   const body = study
-    ? studyBody({ state: study }, context)
+    ? studyBody({ state: study, checkpoint }, context)
     : tab === "challenges"
       ? corridorBody(corridor)
       : tab === "history"

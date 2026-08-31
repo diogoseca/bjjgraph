@@ -466,18 +466,18 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 
 
 ### Related Content
-- [[Frames]] (Principle) - Provides foundational technical skill for establishing structural barriers against pressure
-- [[Defensive Concepts]] (Principle) - Broader defensive framework that encompasses pressure management alongside guard retention and escape planning
-- [[Escape Fundamentals]] (Principle) - Represents the technical execution phase that follows successful pressure management
-- [[Energy Conservation]] (Principle) - Essential complementary skill for sustainable pressure defense over extended periods
-- [[Hip Escape Mechanics]] (Principle) - Provides specific technical movements for creating space under pressure
-- [[Mount]] (Position) - Primary position where pressure management skills are essential for survival and escape
-- [[Side Control]] (Position) - Common pressure position requiring specialized frame and breathing management
-- [[Knee on Belly]] (Position) - High-intensity pressure position testing acute pressure tolerance and frame effectiveness
-- [[Elbow Escape to Guard]] (Transition) - Common escape technique that requires effective pressure management as prerequisite
-- [[Bridge and Roll]] (Transition) - Escape technique that depends on pressure management to create execution opportunity
-- [[Positional Hierarchy]] (Principle) - Strategic framework for prioritizing which pressure situations to escape first based on positional danger
-- [[Defensive Prioritization Framework]] (System) - Systematic approach to defensive decision-making that applies pressure management principles across all bottom positions
+- [[Principles/Frames|Frames]] (Principle) - Provides foundational technical skill for establishing structural barriers against pressure
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Broader defensive framework that encompasses pressure management alongside guard retention and escape planning
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Represents the technical execution phase that follows successful pressure management
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Essential complementary skill for sustainable pressure defense over extended periods
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Provides specific technical movements for creating space under pressure
+- [[Positions/Mount|Mount]] (Position) - Primary position where pressure management skills are essential for survival and escape
+- [[Positions/Side Control|Side Control]] (Position) - Common pressure position requiring specialized frame and breathing management
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - High-intensity pressure position testing acute pressure tolerance and frame effectiveness
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Common escape technique that requires effective pressure management as prerequisite
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Escape technique that depends on pressure management to create execution opportunity
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Strategic framework for prioritizing which pressure situations to escape first based on positional danger
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Systematic approach to defensive decision-making that applies pressure management principles across all bottom positions
 
 
 </section>

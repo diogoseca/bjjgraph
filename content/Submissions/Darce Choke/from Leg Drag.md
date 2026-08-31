@@ -316,6 +316,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Darce Choke]]
 - [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]]
 - [[Positions/Leg Drag Control]] - Primary starting position for this submission entry
 - [[Positions/Darce Control]] - Intermediate control position when Darce is locked but not yet finished
 - [[Positions/Side Control]] - Alternative consolidation if Darce attempt fails from leg drag

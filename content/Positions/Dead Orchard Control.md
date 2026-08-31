@@ -306,7 +306,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Anaconda Choke from Dead Orchard/Attacker|Anaconda Choke from Dead Orchard]]** (18% of attempts)
+- **[[Submissions/Anaconda Choke/from Dead Orchard/Attacker|Anaconda Choke from Dead Orchard]]** (18% of attempts)
 
 - **[[Transitions/Dead Orchard to Darce Switch/Attacker|Dead Orchard to Darce Switch]]** (12% of attempts)
 

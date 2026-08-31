@@ -242,7 +242,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
-- **[[Belly Down Armbar from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar/from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -315,7 +315,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
 
-- **[[Kimura from Lasso Guard/Attacker|Kimura from Lasso Guard]]** (3% of attempts)
+- **[[Submissions/Kimura/from Lasso Guard/Attacker|Kimura from Lasso Guard]]** (3% of attempts)
 
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
 

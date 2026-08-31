@@ -12,7 +12,7 @@ import { journey } from "../dsl"
  *   right → the ordinary credit path (mastery + sharpness already move the odds) + clock refund
  *   wrong → a transient _qMod hit on THIS exchange only, forgiven on the next arrival
  *
- * Keys: A/B/C/D answer the live MC block; digits stay the option-card openers.
+ * Keys: A/B/C answer the live MC block; digits stay the option-card openers.
  * The right sidebar is the STUDY surface and now reads back as classic recall by default.
  *
  * Surfaces: [data-landcard] [data-land-count] [data-land-q] [data-land-more] [data-land-close]

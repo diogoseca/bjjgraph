@@ -453,18 +453,18 @@ Video analysis of high-level competition matches identifying successful position
 
 
 ### Related Content
-- [[Positional Hierarchy]] (Principle) - Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements
-- [[Timing and Rhythm]] (Principle) - Foundational timing concepts that enable smooth chaining of sequential positions, with proper rhythm determining effectiveness of multi-step progressions
-- [[Submission Chains]] (Principle) - Complementary chaining concept where submission sequences integrate with positional chains to create comprehensive offensive systems
-- [[Transition Management]] (Principle) - Technical framework for maintaining control during sequential movements, ensuring smooth chain execution without positional interruptions
-- [[Competition Strategy]] (System) - Strategic framework where position chains become components of comprehensive competition game plans built around tested sequential progressions
-- [[Fork Attacks]] (Principle) - Strategic principle where advanced chains force opponent to choose between defensive options that each lead to unfavorable subsequent positions
-- [[Competition Mindset]] (Principle) - Competitive framework where position chains must be designed to support point accumulation, time management, and match pressure objectives
-- [[Energy Conservation]] (Principle) - Physiological framework that determines which chain progressions are sustainable versus which deplete energy reserves prematurely
-- [[Back Control]] (Position) - Common goal position for offensive chains from multiple starting positions due to dominant control and high submission success rates
-- [[Mount]] (Position) - Frequent intermediate position in chains advancing from side control or sweep positions toward back control or submissions
-- [[Half Guard]] (Position) - Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences
-- [[Pass to Side Control]] (Transition) - Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Foundational timing concepts that enable smooth chaining of sequential positions, with proper rhythm determining effectiveness of multi-step progressions
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Complementary chaining concept where submission sequences integrate with positional chains to create comprehensive offensive systems
+- [[Principles/Transition Management|Transition Management]] (Principle) - Technical framework for maintaining control during sequential movements, ensuring smooth chain execution without positional interruptions
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Strategic framework where position chains become components of comprehensive competition game plans built around tested sequential progressions
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic principle where advanced chains force opponent to choose between defensive options that each lead to unfavorable subsequent positions
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Competitive framework where position chains must be designed to support point accumulation, time management, and match pressure objectives
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Physiological framework that determines which chain progressions are sustainable versus which deplete energy reserves prematurely
+- [[Positions/Back Control|Back Control]] (Position) - Common goal position for offensive chains from multiple starting positions due to dominant control and high submission success rates
+- [[Positions/Mount|Mount]] (Position) - Frequent intermediate position in chains advancing from side control or sweep positions toward back control or submissions
+- [[Positions/Half Guard|Half Guard]] (Position) - Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences
+- [[Transitions/Pass to Side Control|Pass to Side Control]] (Transition) - Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount
 
 
 </section>

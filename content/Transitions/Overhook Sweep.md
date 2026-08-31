@@ -328,7 +328,7 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 - [[Transitions/Flower Sweep]] - Follow-up sweep when opponent posts free hand wide
 
-- [[Kimura from Guard]] - Submission attack from the same overhook control
+- [[Submissions/Kimura/from Guard]] - Submission attack from the same overhook control
 
 - [[Transitions/Closed Guard to Triangle]] - Alternative attack when opponent pulls arm free from overhook
 

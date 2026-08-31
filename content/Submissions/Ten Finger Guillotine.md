@@ -226,6 +226,7 @@ The submission works through a combination of blood restriction and airway compr
 - [[Submissions/Arm in Guillotine]] - Arm-trapped variation trading choking efficiency for control
 - [[Transitions/Anaconda Choke]] - Transition option when opponent turns into the choke
 - [[Submissions/Darce Choke]] - Transition option when opponent turns away from pressure
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Alternative chin-based grip guillotine finish
 - [[Submissions/Arm Triangle]] - Related head-and-arm choke from front headlock transitions
 - [[Submissions/Brabo Choke]] - Gi-based head-and-arm choke alternative from similar positions
 - [[Positions/Hindulotine]] - Advanced guillotine variation from guard position

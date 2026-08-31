@@ -327,7 +327,7 @@ The Heel Hook Defense Escape is a critical component of the leg lock defense sys
 
 - [[Positions/Open Guard]] - Primary target position upon successful escape and guard recovery
 
-- [[Inside Heel Hook from Honey Hole]] - The specific submission threat that necessitates this escape
+- [[Submissions/Inside Heel Hook/from Honey Hole]] - The specific submission threat that necessitates this escape
 
 - [[Submissions/Inside Heel Hook]] - The submission class being defended against during the escape
 

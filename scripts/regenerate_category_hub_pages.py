@@ -35,6 +35,32 @@ class ContentItem:
     file_path: Optional[str] = None
 
 
+def _wikilink(item) -> str:
+    """`[[Category/Sub/Dir/Stem|Display Name]]` — path-prefixed, display text preserved.
+
+    A bare `[[Display Name]]` is resolved by Quartz on FILENAME, so it dangles for every record
+    whose display name is not its filename: `Armbar from Crucifix` lives at
+    content/Submissions/Armbar/from Crucifix.json, stem `from Crucifix`. Measured at v1.155.0,
+    481 internal links corpus-wide dangled this way, 5 of them on this hub page alone. The path
+    comes from file_path, which is the only thing here that knows where the page actually is.
+    """
+    fp = getattr(item, "file_path", None)
+    if not fp:
+        return f"[[{item.name}]]"
+    rel = Path(fp)
+    try:
+        rel = rel.relative_to("content")
+    except ValueError:
+        pass
+    target = str(rel.with_suffix("")).replace("\\", "/")
+    # ALWAYS carry the display alias, even when the stem already equals the name. These links are
+    # rendered as HEADINGS, so the link TEXT becomes the heading text and the heading text is what
+    # the anchor id is slugified from: a bare `[[Positions/Mount]]` retitles the heading
+    # "Positions/Mount" and moves #mount, breaking every in-page anchor on the hub (measured: 139
+    # on Positions, 47 on Systems).
+    return f"[[{target}|{item.name}]]"
+
+
 class CategoryHubPageGenerator:
     """Generates category hub pages from content directories"""
     
@@ -283,7 +309,7 @@ class CategoryHubPageGenerator:
             content_lines.append(f"## {cat_title}\n")
 
             for item in cat_items:
-                content_lines.append(f"### [[{item.name}]]\n")
+                content_lines.append(f"### {_wikilink(item)}\n")
                 content_lines.append(f"{item.description}\n")
             content_lines.append("")
 
@@ -292,7 +318,7 @@ class CategoryHubPageGenerator:
             if categorized:
                 content_lines.append("## Other Techniques\n")
             for item in uncategorized:
-                content_lines.append(f"### [[{item.name}]]\n")
+                content_lines.append(f"### {_wikilink(item)}\n")
                 content_lines.append(f"{item.description}\n")
         
         return "\n".join(content_lines)

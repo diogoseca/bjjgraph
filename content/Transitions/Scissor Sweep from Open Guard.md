@@ -327,7 +327,7 @@ The Scissor Sweep from Open Guard occupies a foundational role in the BJJ positi
 
 - [[Transitions/Butterfly Sweep]] - Alternative sweep from open guard using different mechanics against forward pressure
 
-- [[Triangle Choke from Open Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
+- [[Submissions/Triangle Choke/from Open Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
 
 - [[Positions/Collar Sleeve Guard]] - Related guard position using similar grip configuration for sweeps and submissions
 

@@ -73,7 +73,10 @@ CHUNK_DIRS = ("flashcards", "content")
 # ceiling below so it cannot grow unbounded either.
 #   · systems.json — the authored course library (v1.80.4): read only by the Explore tab and the
 #     system buckets, fetched at idle or on first read, never on the roll path.
-DEFERRED = ("systems.json",)
+#   · concepts.json — the Principles + Learning index (v1.152.0): read only when the Explore tab
+#     renders one of those two sections. Its readable BODIES are not here at all — they live in
+#     the per-node content/ chunk space, so they are already scored as on-demand chunks.
+DEFERRED = ("systems.json", "concepts.json")
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB

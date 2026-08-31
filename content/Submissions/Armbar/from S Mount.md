@@ -339,6 +339,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - [[Submissions/Americana]]
 - [[Submissions/Armbar]]
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Submissions/Kimura]]
 - [[Positions/Mount/S Mount]] - Source position providing optimal arm isolation and perpendicular control for armbar execution
 - [[Positions/Mount]] - Parent position from which S Mount is established before armbar attack

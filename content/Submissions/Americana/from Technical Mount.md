@@ -331,8 +331,15 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## Related
 - [[Submissions/Americana]]
+- [[Submissions/Americana/from Mount]]
+- [[Submissions/Americana/from 3-4 Mount]]
+- [[Submissions/Americana/from S Mount]]
+- [[Submissions/Americana/from High Mount]]
+- [[Submissions/Americana/from Side Control]]
+- [[Submissions/Americana/from Kesa Gatame]]
 - [[Submissions/Kimura]]
 - [[Submissions/Armbar]]
+- [[Submissions/Armbar/from Armbar Control]]
 - [[Positions/Mount/Technical Mount]] - Primary starting position providing asymmetric mount base for this shoulder lock
 - [[Positions/Mount]] - Parent position from which technical mount is entered before Americana setup
 - [[Transitions/Mount to Armbar]] - Primary alternative attack creating binary threat with Americana from the same position

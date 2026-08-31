@@ -230,18 +230,18 @@ A: Strip the most dangerous connection first -- the one enabling sweeps or back 
 <section id="related" class="content-section">
 
 ## Related
-- [[Guard Passing]] (Principle) - The three-phase model is a strategic framework for applying guard passing principles
-- [[Grips]] (Principle) - Grip stripping is the primary skill of the disentangle phase
-- [[Hand Fighting]] (Principle) - Hand fighting drives the disentangle phase where clearing connections is the priority
-- [[Hip Pressure]] (Principle) - Hip pressure is essential during the control phase to prevent re-guarding
-- [[Cross Face Control]] (Principle) - Crossface is the primary tool for the consolidation phase
-- [[Pressure]] (Principle) - Pressure establishment during consolidation is what makes the pass permanent
-- [[Phases of Guard]] (Learning) - Mirror concept -- the guard player's phases correspond to the passer's phases from the opposite perspective
-- [[Layers of Guard]] (Learning) - The layers of guard are what the passer must disentangle during the first phase
-- [[De La Riva Guard]] (Position) - DLR requires specific disentanglement strategy -- clearing the hook before attempting to pass
-- [[Closed Guard]] (Position) - Closed guard illustrates the phases clearly: break open (disentangle), control legs (control), pass and settle (consolidate)
-- [[Half Guard]] (Position) - Half guard passing requires clearing the knee shield (disentangle) before hip control (control)
-- [[Side Control]] (Position) - Side control is the most common position where consolidation must be established after passing
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - The three-phase model is a strategic framework for applying guard passing principles
+- [[Principles/Grips|Grips]] (Principle) - Grip stripping is the primary skill of the disentangle phase
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Hand fighting drives the disentangle phase where clearing connections is the priority
+- [[Principles/Hip Pressure|Hip Pressure]] (Principle) - Hip pressure is essential during the control phase to prevent re-guarding
+- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Crossface is the primary tool for the consolidation phase
+- [[Principles/Pressure|Pressure]] (Principle) - Pressure establishment during consolidation is what makes the pass permanent
+- [[Learning/Phases of Guard|Phases of Guard]] (Learning) - Mirror concept -- the guard player's phases correspond to the passer's phases from the opposite perspective
+- [[Learning/Layers of Guard|Layers of Guard]] (Learning) - The layers of guard are what the passer must disentangle during the first phase
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - DLR requires specific disentanglement strategy -- clearing the hook before attempting to pass
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard illustrates the phases clearly: break open (disentangle), control legs (control), pass and settle (consolidate)
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard passing requires clearing the knee shield (disentangle) before hip control (control)
+- [[Positions/Side Control|Side Control]] (Position) - Side control is the most common position where consolidation must be established after passing
 
 
 

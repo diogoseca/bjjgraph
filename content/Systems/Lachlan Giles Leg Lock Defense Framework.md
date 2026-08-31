@@ -373,36 +373,36 @@ The Lachlan Giles framework emphasizes progressive resistance drilling that buil
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Saddle]] (Position) - Primary high-danger position requiring emergency defensive protocols
-- [[Inside Ashi-Garami]] (Position) - Critical position to recognize and escape before opponent establishes full saddle control
-- [[Outside Ashi-Garami]] (Position) - Mid-danger position with specific clearing sequence different from standard ashi
-- [[50-50 Guard]] (Position) - Common leg entanglement requiring unique defensive approach due to mutual entanglement
-- [[Cross Ashi-Garami]] (Position) - High-danger position requiring immediate defensive response to prevent saddle transition
-- [[Ashi Garami]] (Position) - Foundational position where most defensive sequences begin and prevention is most effective
-- [[Single Leg X-Guard]] (Position) - Entry position for many leg attacks, key area for prevention strategies
-- [[Knee Shield Half Guard]] (Position) - Defensive guard structure that helps prevent initial leg entanglement entries
-- [[Ankle Lock Escape to Standing]] (Transition) - Key defensive transition for escaping ankle lock control and returning to a safe standing position
-- [[Ashi Garami Escape]] (Transition) - Fundamental clearing sequence taught as first defensive technique in the system
-- [[Outside Ashi Entry]] (Transition) - Common attack entry that must be recognized and prevented or defended against
-- [[Inside Ashi Entry]] (Transition) - High-danger entry pattern requiring specific prevention strategies
-- [[Ashi Entry from Leg Entanglement]] (Transition) - Common transition pathway creating leg entanglement opportunities that must be recognized and defended
-- [[Knee Slice Pass]] (Transition) - Passing technique that can expose legs to entanglement if performed without proper defense awareness
-- [[Defensive Concepts]] (Principle) - Overarching defensive concepts that inform all defensive decision-making in leg lock scenarios
-- [[Submission Defense]] (Principle) - General defensive principles that apply specifically to leg lock scenarios
-- [[Leg Entanglement]] (Principle) - Core concept underlying understanding of how legs become trapped and controlled
-- [[Frames]] (Principle) - Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways
-- [[Escape Fundamentals]] (Principle) - Foundational escape principles including systematic prioritization of escape options based on position danger level
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional escape before attempting counter-attacks
-- [[Positional Hierarchy]] (Principle) - Understanding of position danger levels that maps directly to leg entanglement risk assessment
-- [[Danaher Leg Lock System]] (System) - Primary offensive system this framework was developed to defend against
-- [[Craig Jones Leg Lock System]] (System) - Modern offensive leg lock approach requiring specific defensive adaptations
-- [[Defensive Prioritization Framework]] (System) - Broader defensive system that leg lock defense integrates within
-- [[Caio Terra Guard Retention System]] (System) - Guard retention system whose principles integrate with leg entanglement prevention strategies
-- [[Heel Hook]] (Submission) - Primary submission threat this defensive system addresses
-- [[Inside Heel Hook]] (Submission) - Specific heel hook variation from saddle and inside sankaku positions
-- [[Outside Heel Hook]] (Submission) - Heel hook variation requiring different defensive mechanics than inside variation
-- [[Straight Ankle Lock]] (Submission) - Lower-danger submission that defensive system must also address from various ashi positions
-- [[Kneebar]] (Submission) - Alternative leg attack requiring modifications to standard defensive protocols
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Primary high-danger position requiring emergency defensive protocols
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Critical position to recognize and escape before opponent establishes full saddle control
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Mid-danger position with specific clearing sequence different from standard ashi
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Common leg entanglement requiring unique defensive approach due to mutual entanglement
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) - High-danger position requiring immediate defensive response to prevent saddle transition
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Foundational position where most defensive sequences begin and prevention is most effective
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Entry position for many leg attacks, key area for prevention strategies
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - Defensive guard structure that helps prevent initial leg entanglement entries
+- [[Transitions/Ankle Lock Escape to Standing|Ankle Lock Escape to Standing]] (Transition) - Key defensive transition for escaping ankle lock control and returning to a safe standing position
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) - Fundamental clearing sequence taught as first defensive technique in the system
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Common attack entry that must be recognized and prevented or defended against
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - High-danger entry pattern requiring specific prevention strategies
+- [[Transitions/Ashi Entry from Leg Entanglement|Ashi Entry from Leg Entanglement]] (Transition) - Common transition pathway creating leg entanglement opportunities that must be recognized and defended
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Passing technique that can expose legs to entanglement if performed without proper defense awareness
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Overarching defensive concepts that inform all defensive decision-making in leg lock scenarios
+- [[Principles/Submission Defense|Submission Defense]] (Principle) - General defensive principles that apply specifically to leg lock scenarios
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - Core concept underlying understanding of how legs become trapped and controlled
+- [[Principles/Frames|Frames]] (Principle) - Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Foundational escape principles including systematic prioritization of escape options based on position danger level
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional escape before attempting counter-attacks
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding of position danger levels that maps directly to leg entanglement risk assessment
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Primary offensive system this framework was developed to defend against
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Modern offensive leg lock approach requiring specific defensive adaptations
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Broader defensive system that leg lock defense integrates within
+- [[Systems/Caio Terra Guard Retention System|Caio Terra Guard Retention System]] (System) - Guard retention system whose principles integrate with leg entanglement prevention strategies
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Primary submission threat this defensive system addresses
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) - Specific heel hook variation from saddle and inside sankaku positions
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) - Heel hook variation requiring different defensive mechanics than inside variation
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Lower-danger submission that defensive system must also address from various ashi positions
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Alternative leg attack requiring modifications to standard defensive protocols
 
 
 </section>

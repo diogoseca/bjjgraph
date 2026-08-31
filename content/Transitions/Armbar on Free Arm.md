@@ -323,7 +323,7 @@ The Armbar on Free Arm fits within the Gift Wrap attack system as a primary limb
 
 - [[Positions/Armbar Control]] - Target position - successful attack leads to armbar control
 
-- [[Armbar from Armbar Control]] - Finishing submission - completes the armbar after establishing control position
+- [[Submissions/Armbar/from Armbar Control]] - Finishing submission - completes the armbar after establishing control position
 
 - [[Submissions/Rear Naked Choke]] - Alternative attack - chains with armbar as threat combination
 
@@ -337,7 +337,7 @@ The Armbar on Free Arm fits within the Gift Wrap attack system as a primary limb
 
 - [[Positions/Back Control/Body Triangle]] - Leg control that combines with Gift Wrap for armbar setup
 
-- [[Gift Wrap Armbar from Gift Wrap]] - Related submission - armbar finish from Gift Wrap position
+- [[Submissions/Gift Wrap Armbar/from Gift Wrap]] - Related submission - armbar finish from Gift Wrap position
 
 - [[Submissions/Belly Down Armbar]] - Variant finish when opponent rotates during armbar attempt
 

@@ -225,17 +225,17 @@ A: Retention is the most undertrained phase because it is the least exciting -- 
 <section id="related" class="content-section">
 
 ## Related
-- [[Guard Passing]] (Principle) - Understanding the three guard phases helps guard passers identify which phase the guard player is in and target the weakest one
-- [[Distance Control]] (Principle) - Distance management is the core skill of the engagement phase
-- [[Grips]] (Principle) - Grip establishment is the primary task during the engagement phase and grip maintenance drives the maintenance phase
-- [[Hip Escape Mechanics]] (Principle) - Hip escapes are the primary movement for the retention phase
-- [[Frames]] (Principle) - Frames are essential for creating space during the retention phase
-- [[Closed Guard]] (Position) - Closed guard is a maintenance-phase guard that requires phase awareness when it is opened
-- [[De La Riva Guard]] (Position) - DLR illustrates all three phases clearly -- engagement (hook and grip), maintenance (sweeps), retention (recovery when hook is stripped)
-- [[Spider Guard]] (Position) - Spider guard engagement requires specific grip sequencing before attacks are available
-- [[Open Guard]] (Position) - Open guard is where all three phases are most distinct and most important
-- [[Butterfly Guard]] (Position) - Butterfly guard maintenance requires active hooking and off-balancing to prevent settling
-- [[Phases of Passing]] (Learning) - Mirror concept -- understanding phases from both perspectives creates complete strategic awareness
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Understanding the three guard phases helps guard passers identify which phase the guard player is in and target the weakest one
+- [[Principles/Distance Control|Distance Control]] (Principle) - Distance management is the core skill of the engagement phase
+- [[Principles/Grips|Grips]] (Principle) - Grip establishment is the primary task during the engagement phase and grip maintenance drives the maintenance phase
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip escapes are the primary movement for the retention phase
+- [[Principles/Frames|Frames]] (Principle) - Frames are essential for creating space during the retention phase
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard is a maintenance-phase guard that requires phase awareness when it is opened
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - DLR illustrates all three phases clearly -- engagement (hook and grip), maintenance (sweeps), retention (recovery when hook is stripped)
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Spider guard engagement requires specific grip sequencing before attacks are available
+- [[Positions/Open Guard|Open Guard]] (Position) - Open guard is where all three phases are most distinct and most important
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Butterfly guard maintenance requires active hooking and off-balancing to prevent settling
+- [[Learning/Phases of Passing|Phases of Passing]] (Learning) - Mirror concept -- understanding phases from both perspectives creates complete strategic awareness
 
 
 

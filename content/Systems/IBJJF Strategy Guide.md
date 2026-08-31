@@ -379,36 +379,36 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Competition Strategy]] (System) - Parent system providing broader competition preparation framework beyond IBJJF-specific rules
-- [[Competition Preparation System]] (System) - Complementary system addressing training periodization and mental preparation for tournaments
-- [[Competition Scoring Strategy]] (System) - Related system focusing on universal scoring principles across rule sets
-- [[Mount]] (Position) - Highest-value position (4 points) critical for building IBJJF point leads
-- [[Back Control]] (Position) - Highest-value position (4 points) offering both points and high-percentage submissions
-- [[Side Control]] (Position) - Transitional control position following guard pass, gateway to mount and back
-- [[Knee on Belly]] (Position) - 2-point scoring position useful for accumulating points and advantages
-- [[Closed Guard]] (Position) - Fundamental guard position requiring strategic opening and passing for 3 points
-- [[Half Guard]] (Position) - Common transitional position where sweeps and passes frequently occur
-- [[De La Riva Guard]] (Position) - Modern open guard position offering sweep opportunities for 2-point scoring
-- [[X-Guard]] (Position) - Sweeping guard position effective for 2-point scoring sequences
-- [[Spider Guard]] (Position) - Sleeve-control guard offering distance management and sweep options
-- [[Turtle]] (Position) - Defensive position that doesn't concede points but limits offensive options
-- [[Pass to Side Control]] (Transition) - 3-point scoring transition fundamental to IBJJF competition success
-- [[Toreando Pass]] (Transition) - High-percentage guard pass effective for scoring under time pressure
-- [[Knee Cut Pass]] (Transition) - Reliable passing technique that establishes clear 3-second stabilization criteria
-- [[Stack Pass]] (Transition) - Pressure-based pass offering clear scoring criteria when stabilized
-- [[Back Take]] (Transition) - 4-point scoring transition offering maximum point value in single movement
-- [[Double Leg Entry]] (Transition) - Wrestling-based takedown for 2-point opening exchanges
-- [[Guard Pull]] (Transition) - Strategic alternative to takedown exchange, avoiding scrambles while establishing guard
-- [[Hip Escape to Guard]] (Transition) - Fundamental defensive movement preventing opponent's 3-point guard passes
-- [[Bridge and Roll]] (Transition) - Mount escape preventing opponent's 4-point position retention
-- [[Positional Hierarchy]] (Principle) - Foundational principle underlying IBJJF point value assignments and strategic positioning
-- [[Position-Over-Submission Approach]] (Principle) - Core tactical principle for IBJJF competition where position secures points before submission attempts
-- [[Competition Mindset]] (Principle) - Mental framework for competition-specific strategic planning and match execution
-- [[Position Chains]] (Principle) - Sequential position planning essential for chaining scoring sequences in IBJJF matches
-- [[Energy Conservation]] (Principle) - Critical principle for multi-match tournament performance and pacing across bracket
-- [[Timing and Rhythm]] (Principle) - Decision-making principle for score-based tactical timing adjustments during matches
-- [[Guard Passing]] (Principle) - Technical principles underlying 3-point scoring through guard passing
-- [[Rear Naked Choke]] (Submission) - Highest-percentage submission from back control (4-point position)
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Parent system providing broader competition preparation framework beyond IBJJF-specific rules
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Complementary system addressing training periodization and mental preparation for tournaments
+- [[Systems/Competition Scoring Strategy|Competition Scoring Strategy]] (System) - Related system focusing on universal scoring principles across rule sets
+- [[Positions/Mount|Mount]] (Position) - Highest-value position (4 points) critical for building IBJJF point leads
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position (4 points) offering both points and high-percentage submissions
+- [[Positions/Side Control|Side Control]] (Position) - Transitional control position following guard pass, gateway to mount and back
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - 2-point scoring position useful for accumulating points and advantages
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental guard position requiring strategic opening and passing for 3 points
+- [[Positions/Half Guard|Half Guard]] (Position) - Common transitional position where sweeps and passes frequently occur
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Modern open guard position offering sweep opportunities for 2-point scoring
+- [[Positions/X-Guard|X-Guard]] (Position) - Sweeping guard position effective for 2-point scoring sequences
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Sleeve-control guard offering distance management and sweep options
+- [[Positions/Turtle|Turtle]] (Position) - Defensive position that doesn't concede points but limits offensive options
+- [[Transitions/Pass to Side Control|Pass to Side Control]] (Transition) - 3-point scoring transition fundamental to IBJJF competition success
+- [[Transitions/Toreando Pass|Toreando Pass]] (Transition) - High-percentage guard pass effective for scoring under time pressure
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) - Reliable passing technique that establishes clear 3-second stabilization criteria
+- [[Transitions/Stack Pass|Stack Pass]] (Transition) - Pressure-based pass offering clear scoring criteria when stabilized
+- [[Transitions/Back Take|Back Take]] (Transition) - 4-point scoring transition offering maximum point value in single movement
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) - Wrestling-based takedown for 2-point opening exchanges
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Strategic alternative to takedown exchange, avoiding scrambles while establishing guard
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental defensive movement preventing opponent's 3-point guard passes
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Mount escape preventing opponent's 4-point position retention
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Foundational principle underlying IBJJF point value assignments and strategic positioning
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Core tactical principle for IBJJF competition where position secures points before submission attempts
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Mental framework for competition-specific strategic planning and match execution
+- [[Principles/Position Chains|Position Chains]] (Principle) - Sequential position planning essential for chaining scoring sequences in IBJJF matches
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Critical principle for multi-match tournament performance and pacing across bracket
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Decision-making principle for score-based tactical timing adjustments during matches
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Technical principles underlying 3-point scoring through guard passing
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Highest-percentage submission from back control (4-point position)
 
 
 </section>

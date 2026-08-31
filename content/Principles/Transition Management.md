@@ -460,18 +460,18 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 
 
 ### Related Content
-- [[Submission Chains]] (Principle) - Focuses on the structured chaining of multiple attack attempts into coherent linked progressions that complement positional transition management
-- [[Positional Hierarchy]] (Principle) - Provides evaluative framework for assessing transition value and advancement potential
-- [[Timing and Rhythm]] (Principle) - Governs when to initiate transitions based on opponent's defensive state and movement patterns
-- [[Energy Conservation]] (Principle) - Influences transition frequency and commitment levels based on energy conservation principles
-- [[Defensive Concepts]] (Principle) - Provides the defensive awareness framework essential for evaluating transition risk-reward ratios and vulnerability during position changes
-- [[Position Chains]] (Principle) - Represents advanced application of transition management through systematic position sequences
-- [[Control Maintenance]] (Principle) - Governs preservation of dominance and connection during transitional movements
-- [[Action and Reaction]] (Principle) - Provides methods for deliberately creating transition windows by provoking predictable opponent reactions
-- [[Pass to Side Control]] (Transition) - Major category of transitions where management principles heavily influence success rates
-- [[Back Take]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
-- [[Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
-- [[Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Focuses on the structured chaining of multiple attack attempts into coherent linked progressions that complement positional transition management
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Provides evaluative framework for assessing transition value and advancement potential
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Governs when to initiate transitions based on opponent's defensive state and movement patterns
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Influences transition frequency and commitment levels based on energy conservation principles
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Provides the defensive awareness framework essential for evaluating transition risk-reward ratios and vulnerability during position changes
+- [[Principles/Position Chains|Position Chains]] (Principle) - Represents advanced application of transition management through systematic position sequences
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Governs preservation of dominance and connection during transitional movements
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Provides methods for deliberately creating transition windows by provoking predictable opponent reactions
+- [[Transitions/Pass to Side Control|Pass to Side Control]] (Transition) - Major category of transitions where management principles heavily influence success rates
+- [[Transitions/Back Take|Back Take]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
 
 
 </section>

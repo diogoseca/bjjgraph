@@ -44,8 +44,7 @@ test("attack window exhausts both refunds (t,t,f) → caught opens a fresh defen
   // ── EXHAUST the attack window's budget: 3 grades; the block re-renders after each,
   //    same selectors. refundDecision grants iff d.refunds < 2 → [true, true, false]. ──
   for (let i = 0; i < 3; i++) {
-    await page.locator("[data-jit-reveal]").click()
-    await page.locator("[data-jit-got]").click()
+    await j.jitGrade()
   }
   const attackGrants = (await j.beats()).filter((b: any) => b.beat === "timer_refund").map((b: any) => b.granted)
   expect(attackGrants, "3 JIT grades: two granted, third refused — budget exhausted").toEqual([true, true, false])

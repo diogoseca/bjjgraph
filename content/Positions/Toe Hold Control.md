@@ -281,7 +281,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (30% of attempts)
+- **[[Submissions/Toe Hold/from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (30% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
@@ -293,7 +293,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 - **[[Transitions/Toe Hold to Straight Ankle Lock/Attacker|Toe Hold to Straight Ankle Lock]]** (12% of attempts)
 
-- **[[Kneebar from Toe Hold Control/Attacker|Kneebar from Toe Hold Control]]** (10% of attempts)
+- **[[Submissions/Kneebar/from Toe Hold Control/Attacker|Kneebar from Toe Hold Control]]** (10% of attempts)
 
 
 ### Common Mistakes

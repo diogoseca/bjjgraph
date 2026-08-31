@@ -160,7 +160,7 @@ The finishing mechanics rely on structural compression rather than muscular stre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ten Finger Guillotine from Guillotine Control]] | 55% |
+| Success | [[Submissions/Ten Finger Guillotine/from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
@@ -323,7 +323,7 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 
 - [[Transitions/Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
 
-- [[Chin Strap Guillotine from Front Headlock]] - Alternative submission - different finishing grip targeting chin and jaw line
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Alternative submission - different finishing grip targeting chin and jaw line
 
 - [[Positions/Front Headlock]] - Parent control category - broader head control system this variation belongs to
 

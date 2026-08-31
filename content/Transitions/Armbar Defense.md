@@ -329,7 +329,7 @@ Armbar defense is integrated throughout the entire BJJ positional hierarchy, as 
 
 - [[Transitions/Elbow Escape to Guard]] - Foundational escape movement that supports armbar defense mechanics
 
-- [[Armbar from Armbar Control]] - The submission finish being defended against - understanding finishing mechanics informs defensive timing and priorities
+- [[Submissions/Armbar/from Armbar Control]] - The submission finish being defended against - understanding finishing mechanics informs defensive timing and priorities
 
 - [[Transitions/Back Take from Armbar]] - Transition opportunity when opponent overcommits to armbar finish during your escape
 

@@ -310,6 +310,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
+- [[Submissions/Ankle Lock/from X-Guard]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Omoplata]]

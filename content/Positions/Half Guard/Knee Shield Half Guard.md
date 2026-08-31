@@ -216,7 +216,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
-- **[[Kimura from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (7% of attempts)
+- **[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (7% of attempts)
 
 - **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (17% of attempts)
 

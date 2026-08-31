@@ -239,7 +239,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Transitions/Overhook to Closed Guard/Attacker|Overhook to Closed Guard]]** (12% of attempts)
 
-- **[[Omoplata from Guard/Attacker|Omoplata from Guard]]** (8% of attempts)
+- **[[Submissions/Omoplata/from Guard/Attacker|Omoplata from Guard]]** (8% of attempts)
 
 
 ### Common Mistakes

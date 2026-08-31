@@ -229,15 +229,15 @@ A: Fundamental techniques have the highest base success rates because they are m
 <section id="related" class="content-section">
 
 ## Related
-- [[Committed Techniques]] (Learning) - Committed techniques factor failure cost into the probability equation
-- [[Position Over Submission]] (Learning) - Positional advancement is a probabilistic strategy -- better position means higher submission probability
-- [[Positional Hierarchy]] (Principle) - The positional hierarchy reflects probability -- higher positions yield higher submission success rates
-- [[Fork Attacks]] (Principle) - Fork attacks increase overall success probability by offering multiple finishing paths simultaneously
-- [[Control Maintenance]] (Principle) - Maintaining control increases the number of attempts you get, which improves cumulative success probability
-- [[Competition Mindset]] (Principle) - Probabilistic risk assessment under score and clock pressure is core to a sound competition mindset
-- [[Back Control]] (Position) - The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke
-- [[Mount]] (Position) - Mount offers multiple high-percentage submissions with high position retention on failure
-- [[Closed Guard]] (Position) - Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position
+- [[Learning/Committed Techniques|Committed Techniques]] (Learning) - Committed techniques factor failure cost into the probability equation
+- [[Learning/Position Over Submission|Position Over Submission]] (Learning) - Positional advancement is a probabilistic strategy -- better position means higher submission probability
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - The positional hierarchy reflects probability -- higher positions yield higher submission success rates
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Fork attacks increase overall success probability by offering multiple finishing paths simultaneously
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Maintaining control increases the number of attempts you get, which improves cumulative success probability
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Probabilistic risk assessment under score and clock pressure is core to a sound competition mindset
+- [[Positions/Back Control|Back Control]] (Position) - The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke
+- [[Positions/Mount|Mount]] (Position) - Mount offers multiple high-percentage submissions with high position retention on failure
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position
 
 
 

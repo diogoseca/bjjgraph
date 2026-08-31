@@ -315,7 +315,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 
 **If opponent extends arms to create frames or push away from chest pressure:**
-- Execute **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/from Side Control/Attacker|Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 

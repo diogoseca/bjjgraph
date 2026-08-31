@@ -331,11 +331,11 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (3% of attempts)
 
-- **[[Flying Kneebar from Standing Position/Attacker|Flying Kneebar from Standing Position]]** (1% of attempts)
+- **[[Submissions/Flying Kneebar/from Standing Position/Attacker|Flying Kneebar from Standing Position]]** (1% of attempts)
 
-- **[[Kimura from Standing/Attacker|Kimura from Standing]]** (2% of attempts)
+- **[[Submissions/Kimura/from Standing/Attacker|Kimura from Standing]]** (2% of attempts)
 
-- **[[Reverse Kimura from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (1% of attempts)
+- **[[Submissions/Reverse Kimura/from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (1% of attempts)
 
 - **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (0% of attempts)
 

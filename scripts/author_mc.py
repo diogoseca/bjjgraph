@@ -64,8 +64,15 @@ RESPONSE_SCHEMA = {
 
 PROMPT = """You are a BJJ instructional editor authoring MULTIPLE-CHOICE options for flashcards
 in an interactive trainer. For EACH card below, given its question and full answer, produce a
-tight 4-option multiple-choice set. The full answer stays as-is (shown as "more detail" after
+tight multiple-choice set. The full answer stays as-is (shown as "more detail" after
 the reveal) — you are only writing the short options.
+
+AUTHOR THREE WRONGS; THE APP SHOWS TWO. Since v1.146.0 the renderer asks for MC_DISTRACTORS = 2
+(three options on screen) and it takes the TRAP FIRST, then ONE of the two plausible lines, drawn
+so both stay in circulation. So: the trap is on screen every single time — write it as the best
+one you have — and the second plausible is headroom for when a length or similarity guard rejects
+the other, not filler. Keep authoring 2 + 1: dropping to 2 would remove that headroom and re-flag
+the whole corpus as needing work.
 
 Output per card:
 - answer_line: the ONE correct answer as a terse cue, a phrase not a sentence, <= {budget}

@@ -321,7 +321,7 @@ The heel strip is the critical junction between leg lock defense and guard recov
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where heel strip may apply to both practitioners simultaneously
 
-- [[Heel Hook from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
 
 
 </section>

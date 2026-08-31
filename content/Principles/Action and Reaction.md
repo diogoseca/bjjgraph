@@ -456,18 +456,18 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 
 
 ### Related Content
-- [[Pressure]] (Principle) - Applying pressure generates defensive reactions that create exploitable attacking opportunities
-- [[Fork Attacks]] (Principle) - Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage
-- [[Submission Chains]] (Principle) - Linked submission sequences that rely on reaction-based transitions between attacking positions
-- [[Timing and Rhythm]] (Principle) - Critical for identifying optimal exploitation moment when reaction creates maximum vulnerability
-- [[Hip Bump Sweep]] (Transition) - Classic exploitation of forward commitment reaction from collar grip threat in closed guard
-- [[Scissor Sweep]] (Transition) - Exploits base-widening reaction from ankle pick or distance management threats
-- [[Pendulum Sweep]] (Transition) - Exploits posture and base reactions from collar and sleeve grip threats
-- [[Butterfly Sweep]] (Transition) - Exploits forward pressure reactions from underhook threats
-- [[X-Guard Sweep]] (Transition) - Exploits weight distribution reactions from technical standup threats
-- [[Triangle Choke]] (Submission) - Often finished by exploiting defensive posturing reactions to initial triangle setup
-- [[Kimura]] (Submission) - Creates multiple reaction-based opportunities including sweeps and back takes
-- [[Energy Conservation]] (Principle) - Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques
+- [[Principles/Pressure|Pressure]] (Principle) - Applying pressure generates defensive reactions that create exploitable attacking opportunities
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Linked submission sequences that rely on reaction-based transitions between attacking positions
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Critical for identifying optimal exploitation moment when reaction creates maximum vulnerability
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Classic exploitation of forward commitment reaction from collar grip threat in closed guard
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Exploits base-widening reaction from ankle pick or distance management threats
+- [[Transitions/Pendulum Sweep|Pendulum Sweep]] (Transition) - Exploits posture and base reactions from collar and sleeve grip threats
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Exploits forward pressure reactions from underhook threats
+- [[Transitions/X-Guard Sweep|X-Guard Sweep]] (Transition) - Exploits weight distribution reactions from technical standup threats
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Often finished by exploiting defensive posturing reactions to initial triangle setup
+- [[Submissions/Kimura|Kimura]] (Submission) - Creates multiple reaction-based opportunities including sweeps and back takes
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques
 
 
 </section>

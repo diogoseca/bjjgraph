@@ -231,7 +231,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (16% of attempts)
 
-- **[[Heel Hook from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (13% of attempts)
+- **[[Submissions/Heel Hook/from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -292,7 +292,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Toe Hold from Backside 50-50/Attacker|Toe Hold from Backside 50-50]]** (10% of attempts)
+- **[[Submissions/Toe Hold/from Backside 50-50/Attacker|Toe Hold from Backside 50-50]]** (10% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
 
@@ -302,11 +302,11 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (16% of attempts)
 
-- **[[Calf Slicer from Backside 50-50/Attacker|Calf Slicer from Backside 50-50]]** (4% of attempts)
+- **[[Submissions/Calf Slicer/from Backside 50-50/Attacker|Calf Slicer from Backside 50-50]]** (4% of attempts)
 
 - **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (12% of attempts)
 
-- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (25% of attempts)
+- **[[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (25% of attempts)
 
 
 ### Common Mistakes

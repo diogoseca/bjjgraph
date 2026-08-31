@@ -315,7 +315,7 @@ export const componentItems = [
     "multiple-choice",
     "Multiple-choice block",
     "Decisions",
-    "In-play A–D recognition question with explicit outcome states.",
+    "In-play A–C recognition question with explicit outcome states.",
     ["Unanswered", "Correct", "Wrong", "Long copy"],
     (v, context) =>
       stack(

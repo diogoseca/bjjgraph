@@ -315,6 +315,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
+- [[Submissions/Armbar/from Armbar Control]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Kesa Gatame Arm Crush]]

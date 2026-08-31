@@ -432,17 +432,17 @@ Set up positional sparring that simulates competition intensity: start from a sp
 
 
 ### Related Content
-- [[Maximum Efficiency Principle]] (Principle) - Making Smaller Circles is the training methodology that produces maximum efficiency — eliminating waste to achieve more with less
-- [[Energy Conservation]] (Principle) - Deep refinement naturally reduces energy cost per technique as unnecessary movement is eliminated
-- [[Positional Sparring]] (Principle) - Positional sparring is the primary training tool for pressure-testing refinements at each stage of the smaller circles process
-- [[Flow Rolling]] (Principle) - Flow rolling provides the low-intensity environment needed for conscious experimentation with technique refinements
-- [[Position Chains]] (Principle) - Position chains emerge naturally when individual positions are mastered deeply enough to see their connections
-- [[Guard Passing]] (Principle) - Guard passing benefits enormously from depth-first refinement — one deeply mastered pass outperforms twenty shallow ones
-- [[Control Maintenance]] (Principle) - Deep practice of holding a single position produces effortless control because all unnecessary effort has been refined away
-- [[Escape Fundamentals]] (Principle) - Applying the depth-first approach to one escape per position produces defenses as reliable and reflexive as refined attacks
-- [[Closed Guard]] (Position) - The closed guard is a classic position for applying Making Smaller Circles — mastering one sweep deeply before expanding
-- [[Mount]] (Position) - Mount attacks and mount escapes both benefit from the depth-first refinement approach
-- [[Half Guard]] (Position) - Half guard systems are naturally built through the Making Smaller Circles approach — master the underhook, then expand to variations
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Making Smaller Circles is the training methodology that produces maximum efficiency — eliminating waste to achieve more with less
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Deep refinement naturally reduces energy cost per technique as unnecessary movement is eliminated
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Positional sparring is the primary training tool for pressure-testing refinements at each stage of the smaller circles process
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Flow rolling provides the low-intensity environment needed for conscious experimentation with technique refinements
+- [[Principles/Position Chains|Position Chains]] (Principle) - Position chains emerge naturally when individual positions are mastered deeply enough to see their connections
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Guard passing benefits enormously from depth-first refinement — one deeply mastered pass outperforms twenty shallow ones
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Deep practice of holding a single position produces effortless control because all unnecessary effort has been refined away
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Applying the depth-first approach to one escape per position produces defenses as reliable and reflexive as refined attacks
+- [[Positions/Closed Guard|Closed Guard]] (Position) - The closed guard is a classic position for applying Making Smaller Circles — mastering one sweep deeply before expanding
+- [[Positions/Mount|Mount]] (Position) - Mount attacks and mount escapes both benefit from the depth-first refinement approach
+- [[Positions/Half Guard|Half Guard]] (Position) - Half guard systems are naturally built through the Making Smaller Circles approach — master the underhook, then expand to variations
 
 
 </section>

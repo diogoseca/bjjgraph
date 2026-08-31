@@ -21,7 +21,7 @@
     "3-4 Mount",
     "Mount",
     "Modified Mount",
-    "Technical Mount"
+    "High Mount"
   ],
   "success_rate": {
     "gi": 45,
@@ -132,8 +132,8 @@
     "Cross Collar Choke",
     "Far Side Armbar",
     "Arm Triangle",
-    "Gift Wrap Armbar from Gift Wrap",
-    "Flying Armbar from Closed Guard"
+    "Armbar",
+    "Wrist Lock"
   ],
   "related_content": [
     {

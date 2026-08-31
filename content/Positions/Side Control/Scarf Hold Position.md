@@ -292,21 +292,21 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (12% of attempts)
+- **[[Submissions/Americana/from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (12% of attempts)
 
-- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (15% of attempts)
+- **[[Submissions/Kimura/from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (15% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (11% of attempts)
+- **[[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (11% of attempts)
 
 - **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (12% of attempts)
 
 - **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (15% of attempts)
 
-- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (15% of attempts)
+- **[[Submissions/Belly Down Armbar/from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (15% of attempts)
 
 
 ### Common Mistakes

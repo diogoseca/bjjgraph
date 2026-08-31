@@ -412,17 +412,17 @@ Practice combining rotational torque with linear force in specific techniques. E
 
 
 ### Related Content
-- [[Kimura]] (Submission) - The quintessential torque-based submission, using a figure-four ratchet grip to generate progressive rotational force on the shoulder joint
-- [[Americana]] (Submission) - External rotation shoulder torque submission using the same figure-four grip mechanics in the opposite rotational direction
-- [[Heel Hook]] (Submission) - Applies torque to the knee through an allen-key lever system where small hand rotations produce large rotational forces through the shin lever arm
-- [[Rotational Breaks]] (Principle) - The specific application of torque to submission finishing — what happens when rotational force is applied past a joint's anatomical limit
-- [[Levers]] (Principle) - Lever systems are the mechanical framework through which torque is generated and transmitted to the target
-- [[Grips]] (Principle) - Grip configuration determines the direction, magnitude, and efficiency of torque transmission to the opponent
-- [[Kuzushi]] (Principle) - Rotational off-balancing is a torque-based kuzushi strategy that attacks balance from angular rather than linear directions
-- [[Kimura Trap]] (Position) - A positional system built around the Kimura torque grip, using rotational control for both submissions and transitions
-- [[Ashi Garami]] (Position) - The leg entanglement family that provides the anchoring and lever systems for torque-based heel hook finishing
-- [[Center of Gravity]] (Principle) - Torque rotates the opponent's center of gravity around pivot points, creating off-balancing opportunities for sweeps and transitions
-- [[Dominant Angles]] (Principle) - Creating dominant angles often involves rotational movement that repositions your body for optimal torque application
+- [[Submissions/Kimura|Kimura]] (Submission) - The quintessential torque-based submission, using a figure-four ratchet grip to generate progressive rotational force on the shoulder joint
+- [[Submissions/Americana|Americana]] (Submission) - External rotation shoulder torque submission using the same figure-four grip mechanics in the opposite rotational direction
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Applies torque to the knee through an allen-key lever system where small hand rotations produce large rotational forces through the shin lever arm
+- [[Principles/Rotational Breaks|Rotational Breaks]] (Principle) - The specific application of torque to submission finishing — what happens when rotational force is applied past a joint's anatomical limit
+- [[Principles/Levers|Levers]] (Principle) - Lever systems are the mechanical framework through which torque is generated and transmitted to the target
+- [[Principles/Grips|Grips]] (Principle) - Grip configuration determines the direction, magnitude, and efficiency of torque transmission to the opponent
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Rotational off-balancing is a torque-based kuzushi strategy that attacks balance from angular rather than linear directions
+- [[Positions/Kimura Trap|Kimura Trap]] (Position) - A positional system built around the Kimura torque grip, using rotational control for both submissions and transitions
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - The leg entanglement family that provides the anchoring and lever systems for torque-based heel hook finishing
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Torque rotates the opponent's center of gravity around pivot points, creating off-balancing opportunities for sweeps and transitions
+- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Creating dominant angles often involves rotational movement that repositions your body for optimal torque application
 
 
 </section>

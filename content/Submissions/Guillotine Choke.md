@@ -232,6 +232,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 ## Related
 - [[Submissions/High Elbow Guillotine]] - Primary high-percentage variation using elevated elbow for pure blood choke mechanics
 - [[Submissions/Arm in Guillotine]] - Arm-trapped variation effective against chin-tuck defense and from bottom half guard
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Advanced variation targeting under-chin pressure when standard grip is defended
 - [[Submissions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts when opponent circles
 - [[Transitions/Anaconda Choke]] - Complementary front headlock choke using arm-in configuration with rolling finish
 - [[Positions/Hindulotine]] - Modified guillotine grip variation with different mechanical finishing pressure

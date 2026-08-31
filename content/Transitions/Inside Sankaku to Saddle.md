@@ -327,7 +327,7 @@ The Inside Sankaku to Saddle transition serves as the primary positional upgrade
 
 - [[Transitions/Inside Sankaku Heel Hook]] - Primary submission attack from the source position that this transition complements
 
-- [[Heel Hook from Saddle]] - Primary submission attack available from the target position after successful transition
+- [[Submissions/Heel Hook/from Saddle]] - Primary submission attack available from the target position after successful transition
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Fallback position if transition fails and figure-four configuration loosens
 

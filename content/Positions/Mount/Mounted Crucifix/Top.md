@@ -310,11 +310,11 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 **If opponent's neck is exposed and both arms are trapped:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Neck Crank/from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Submissions/Armbar/from Crucifix/Attacker|Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
 
 

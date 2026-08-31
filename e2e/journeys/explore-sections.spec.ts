@@ -33,15 +33,27 @@ const SECTIONS = [
   "Learning",
 ];
 
-/** Systems is a deferred payload; the section header only exists once it lands — and its
- *  arrival re-renders the whole Explore body, which can replace an element between a
- *  test's measure and its next step. Settle it before asserting. */
-const awaitSystems = async (page: Page) => {
-  await page.evaluate(() => (window as any).__neural._ensureSystems());
+/** THREE of these six sections are DEFERRED payloads, and the header only exists once the
+ *  payload lands — Systems (systems.json) and, since v1.152.0, Principles AND Learning, which
+ *  are both rendered from concepts.json (they used to be hardcoded literals that needed no
+ *  fetch, which is exactly why this helper only ever named Systems). Each arrival re-renders the
+ *  whole Explore body and can replace an element between a test's measure and its next step, so
+ *  settle ALL of them before asserting — one un-awaited payload is a flake, not a failure. */
+const awaitSections = async (page: Page) => {
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a._ensureSystems();
+    a._ensureConcepts();
+  });
   await expect
-    .poll(() => page.evaluate(() => !!(window as any).__neural.systems), {
-      timeout: 20_000,
-    })
+    .poll(
+      () =>
+        page.evaluate(() => {
+          const a = (window as any).__neural;
+          return !!a.systems && (a.concepts || []).length > 0;
+        }),
+      { timeout: 20_000 },
+    )
     .toBe(true);
   await page.waitForTimeout(80); // the arrival re-render settles
 };
@@ -50,7 +62,7 @@ const awaitSystems = async (page: Page) => {
 const openExplore = async (page: Page) => {
   await page.locator(".ng-logo").click();
   await page.locator("[data-view='explore']").click();
-  await awaitSystems(page);
+  await awaitSections(page);
 };
 
 /** A REAL reload with storage kept (the DSL wipes localStorage per navigation otherwise). */
@@ -67,7 +79,7 @@ test("fresh boot: every Explore section starts collapsed — no rows leak below 
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
-  await openExplore(page); // settles systems — the Systems header exists once it lands
+  await openExplore(page); // settles the deferred payloads — three headers exist only once they land
 
   for (const s of SECTIONS)
     await expect(
@@ -78,6 +90,10 @@ test("fresh boot: every Explore section starts collapsed — no rows leak below 
   await expect(
     page.locator("[data-system-row]"),
     "no system rows under a folded Systems header",
+  ).toHaveCount(0);
+  await expect(
+    page.locator("[data-concept-row]"),
+    "nor concept rows under folded Principles / Learning headers (v1.152.0: these two sections\n     became payload-driven lists, so they can leak the same way Systems can)",
   ).toHaveCount(0);
   await expect(
     page.locator('[data-list-add][data-list-surface="explore"]'),

@@ -188,6 +188,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 - [[Submissions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
 - [[Submissions/Americana]] - Complementary shoulder lock creating attack chains from scarf hold positions
 - [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
+- [[Submissions/Americana/from Kesa Gatame]] - Position-specific variant frequently chained with arm crush when opponent defends one attack
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
 - [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles

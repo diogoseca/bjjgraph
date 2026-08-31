@@ -314,7 +314,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 
 **If opponent reaches for underhook to recover half guard structure:**
-- Execute **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/North-South]] (Probability: 60%)
 
 

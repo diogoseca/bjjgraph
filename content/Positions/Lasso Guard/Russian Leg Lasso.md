@@ -227,7 +227,7 @@ Emerging from the competitive evolution of the traditional lasso guard, the Russ
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
-- **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (7% of attempts)
+- **[[Submissions/Omoplata/from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (7% of attempts)
 
 - **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (4% of attempts)
 

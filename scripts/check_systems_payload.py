@@ -21,7 +21,9 @@ Asserts:
   6. total unresolved <= UNRESOLVED_CEILING and total member nodes >= MIN_MEMBER_NODES;
   7. _meta counts agree with the arrays (catches a stale or hand-edited payload);
   8. product entries carry a real https URL, and no url contains "REPLACE_ME" once
-     AFFILIATE_REF is set (while it is unset the placeholder is expected and only reported).
+     AFFILIATE_REF is set (while it is unset the placeholder is expected and only reported);
+  9. THE ANCHORING INVARIANT — every node a FAMILY-EXPANDED ref contributed is anchored: its
+     from-position is itself a position member of that system. See ANCHORING below.
 
 ORDERING: check 8 assumes the ref has already been stamped, so in a pipeline that sets
 AFFILIATE_REF this gate must run AFTER scripts/apply_affiliate_ref.py, not before it.
@@ -47,6 +49,42 @@ GRAPH_DATA = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "graph-d
 
 SUMMARY_CAP = 240  # contract cap; keep in sync with regenerate_neural_data.SUMMARY_CAP
 
+# ── ANCHORING ─────────────────────────────────────────────────────────────────────────────────
+# "In this system" means: the moves this system teaches, from the places this system teaches them.
+#
+# A related_content ref naming a submission FAMILY ("Calf Slicer") has no node of its own — a
+# family hub is a flashcard aggregator, and 0 of 297 submission families appear in
+# globalGraphLayout.json. So the emitter expands the name to the family's real "from X" finishes.
+# Unfiltered, that expansion was 909 of 1711 member nodes (53%) across 109 refs: the 10th Planet
+# No-Gi Guard System lit ALL ELEVEN calf slicers — from 50-50, Carni, Honey Hole, Rodeo Ride,
+# Saddle … — when the two it actually teaches are from Truck and from Twister Control. The owner's
+# words: one calf slicer "being applied from every fucking place".
+#
+# THE RULE (regenerate_neural_data._anchor_family, the single implementation both the side panel
+# and the graph highlight read through): a family-expanded instance belongs to a system only if
+# the system also teaches the position it is thrown from. An EXPLICITLY authored instance
+# ("Kimura from Half Guard") is the author naming one exact node and is never filtered.
+#
+# This check is the ratchet on that rule. `fam` on a glue entry marks a ref the emitter expanded,
+# so the gate reads expansion from the payload rather than inferring it from a node count — a ref
+# that anchors down to one node is otherwise indistinguishable from an explicit ref.
+#
+# Measured 2026-08-31: family refs offered 952 candidate instances; anchoring ships 274 of them.
+# Recompute both numbers with:
+#   python3 -c "import json;S=json.load(open('source/quartz/static/neural/systems.json'))['systems'];\
+#   f=[g for s in S for g in s['glue'] if g.get('fam')];print(len(f),sum(len(s['unanchored']) for s in S))"
+FAM_REF_FLOOR = 70          # family-expanded refs the gate must actually SEE (measured 97).
+                            # Zero here means the matcher matched nothing, which is not a pass.
+UNANCHORED_CEILING = 31     # refs naming a family whose every instance comes from a position the
+                            # system does not teach. Reported per system in `unanchored`, never
+                            # expanded and never silently dropped. Each one is a CONTENT gap:
+                            # lowering this means an author added the missing entry position.
+                            # Known today: Craig Jones "Inside Heel Hook" (the system teaches
+                            # Saddle, the finishes are authored from Honey Hole / Inside Sankaku /
+                            # Ushiro Ashi Garami — separate position nodes here, same position to
+                            # most readers), and Submission Clinic "Omoplata" (it teaches no guard
+                            # any omoplata is authored from).
+
 # Measured 2026-08-09 (47 systems, 818 graph-typed related_content refs): every system resolves
 # at least one node, so this allow-list is EMPTY on purpose. An entry here means a System whose
 # related_content points at nothing the graph renders — justify it in a comment or fix the content.
@@ -57,14 +95,59 @@ KNOWN_EMPTY: frozenset[str] = frozenset()
 # Ratchet: fixing that content lowers this to 0; a resolution regression raises it and fails here.
 UNRESOLVED_CEILING = 3
 
-# Measured: 1711 member nodes across the 47 systems. Floor with headroom for ordinary content
+# Measured 2026-08-31: 952 member nodes across the 47 systems (was 1711 before the anchoring rule
+# above; median per system 32 -> 19, max 114 -> 57). Floor with headroom for ordinary content
 # edits — a big drop means resolution broke, not that authors deleted a third of the corpus.
-MIN_MEMBER_NODES = 1600
+MIN_MEMBER_NODES = 880
 
 REQUIRED = {
     "id": str, "name": str, "url": str, "summary": str, "type": str,
     "difficulty": str, "nodes": list, "unresolved": list, "products": list,
+    "unanchored": list,
 }
+
+
+def check_anchoring(systems: list, nodes_by_id: dict) -> tuple[list[str], int, int]:
+    """Check 9 — every node a family-expanded ref contributed comes from a position the system
+    teaches. Returns (errors, family refs seen, unanchored refs), and the caller FAILS on a zero
+    coverage count: a rule that matched nothing must never read the same as a rule that held.
+    """
+    errors: list[str] = []
+    fam_refs = unanchored = 0
+    for s in systems:
+        sid = s.get("id", "<no id>")
+        glue = s.get("glue")
+        if not isinstance(glue, list):
+            errors.append(f"{sid}: `glue` missing or not a list — the anchoring rule is unreadable")
+            continue
+        unanchored += len(s.get("unanchored") or [])
+        # the positions this system teaches; a family instance must come from one of them
+        taught = {
+            nodes_by_id[n]["posId"]
+            for n in s.get("nodes") or []
+            if n in nodes_by_id and nodes_by_id[n].get("posId")
+        }
+        for g in glue:
+            if not isinstance(g, dict):
+                errors.append(f"{sid}: glue entry is not an object")
+                continue
+            g_nodes = g.get("nodes") or []
+            # `fam` marks a ref the emitter expanded from a family name. Fall back to a >1 node
+            # count so this gate still goes RED against a payload built before `fam` existed.
+            if not (g.get("fam") or len(g_nodes) > 1):
+                continue
+            fam_refs += 1
+            stray = [
+                n for n in g_nodes
+                if n in nodes_by_id and (nodes_by_id[n].get("fromPositionId") or "") not in taught
+            ]
+            if stray:
+                errors.append(
+                    f"{sid}: family ref {g.get('ref')!r} contributed {len(stray)} of {len(g_nodes)} "
+                    f"node(s) from positions this system does not teach — "
+                    f"{[n.split('/', 1)[1] for n in stray[:4]]}"
+                    + (" …" if len(stray) > 4 else ""))
+    return errors, fam_refs, unanchored
 
 
 def check(payload: dict, node_ids: set[str], expected_ids: set[str]) -> list[str]:
@@ -148,13 +231,30 @@ def main() -> None:
             sys.exit(1)
     try:
         payload = json.loads(PAYLOAD.read_text())
-        node_ids = {n["id"] for n in json.loads(GRAPH_DATA.read_text())["nodes"]}
+        nodes_by_id = {n["id"]: n for n in json.loads(GRAPH_DATA.read_text())["nodes"]}
+        node_ids = set(nodes_by_id)
     except (json.JSONDecodeError, KeyError, TypeError) as exc:
         print(f"[check_systems_payload] ERROR: unreadable payload — {exc}", file=sys.stderr)
         sys.exit(1)
 
     expected_ids = {f"Systems/{quartz_slug(p.stem)}" for p in SYSTEMS_DIR.glob("*.json")}
     errors = check(payload, node_ids, expected_ids)
+
+    anchor_errors, fam_refs, unanchored = check_anchoring(
+        payload.get("systems") or [], nodes_by_id)
+    errors.extend(anchor_errors)
+    if fam_refs < FAM_REF_FLOOR:
+        errors.append(
+            f"the anchoring rule saw only {fam_refs} family-expanded ref(s), below the floor "
+            f"{FAM_REF_FLOOR} — check 9 matched (almost) nothing, which reads exactly like a pass "
+            f"and is not one. Either `glue[].fam` stopped being emitted or membership resolution "
+            f"regressed")
+    if unanchored > UNANCHORED_CEILING:
+        errors.append(
+            f"{unanchored} family ref(s) anchor no instance at all, above the measured ceiling "
+            f"{UNANCHORED_CEILING} — a System names a submission family but teaches none of the "
+            f"positions it is thrown from. Fix the content (add the entry position to that "
+            f"System's related_content), do not raise this ceiling to hide it")
 
     placeholders = [
         (s["id"], p.get("url", ""))
@@ -183,6 +283,10 @@ def main() -> None:
           f"(all present in graph-data.json), {unres}/{UNRESOLVED_CEILING} unresolved refs, "
           f"{prods} product(s) across {sum(1 for s in systems if s['products'])} system(s), "
           f"{meta.get('nonGraphRefs', '?')} non-graph cross-refs skipped")
+    print(f"[check_systems_payload] anchoring OK — {fam_refs} family-expanded ref(s) checked "
+          f"(floor {FAM_REF_FLOOR}), every contributed node thrown from a position its System "
+          f"teaches; {unanchored}/{UNANCHORED_CEILING} ref(s) anchor nothing and are reported, "
+          f"not expanded")
     if placeholders:
         print(f"[check_systems_payload] NOTE — {len(placeholders)} product url(s) still contain "
               f"REPLACE_ME. AFFILIATE_REF is unset, so that is expected: the ref-substitution "

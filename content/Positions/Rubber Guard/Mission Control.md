@@ -243,7 +243,7 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (11% of attempts)
 
-- **[[Belly Down Armbar from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (5% of attempts)
+- **[[Submissions/Belly Down Armbar/from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (5% of attempts)
 
 
 ### Common Mistakes

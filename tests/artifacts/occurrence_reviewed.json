@@ -1,0 +1,155 @@
+{
+ "note": "Adjudication ledger for validate_occurrence_surface.py SECTION 4 (requirement contradictions). A row here is REMOVED from the triage list. `decided_by` is REQUIRED and is the point of this file: `position_type_reviewed.json` was read as black-belt evidence for months when 91 of its 93 rulings were LLM adjudication wearing a human label, and the session that first cited it that way has retracted the claim. So this file never says 'reviewed' -- it says WHO. `owner_decision` means a human decided; `llm-adjudication` means a model did, and carries no more weight than the value it is adjudicating. The script prints the two counts separately and never merges them. | v1.149.0: 24 of the 31 SECTION 4 rows adjudicated by equipment mechanism (never by name -- ruling P3a). The 7 left UNADJUDICATED are deliberate and are the owner's: invisible-collar__{top,bottom} (authored state_invariants demand gi collar material while the panel calls it grip-agnostic and hands the no-gi RNC 37 points), russian-leg-lasso__{top,bottom} (the file's two seats give OPPOSITE mechanism reads -- top says arm-wrap, bottom says sleeve-anchored), lasso-guard__{top,bottom} and inverted-lasso-guard__bottom (the panel deliberately floored these at 1-2 rather than zeroing, yet the graph makes them unreachable in no-gi by cascade -- see tests/artifacts/ruleset_availability.json).",
+ "schema": {
+  "verdict": "gi-dependent | not-gi-dependent | needs-grappling-judgement",
+  "decided_by": "owner_decision | llm-adjudication",
+  "decided_on": "YYYY-MM-DD",
+  "evidence": "why -- quote the authored prerequisite or the mechanism, never the technique name"
+ },
+ "reviewed": {
+  "lapel-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Own prerequisite: 'Ability to extract opponent's lapel while maintaining guard position'. The calibration's only populated `frame_unavailable` (nogi), on 11 unanimous 10/10 zero ballots; the numbers content ships for that frame are occurrence_moe's deliberate mirror, not a distribution."
+  },
+  "lapel-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag, verbatim: 'position_is_gi_native: Lapel Guard/Top is a gi-only position by definition; the no-gi column is a conditional projection of which passing mechanics survive without a jacket, not an observed distribution.'"
+  },
+  "worm-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Own prerequisite: 'Opponent wearing gi with accessible lapel that can be extracted and controlled'. Entry ruling: 'worm guard is entered by feeding the opponent's lapel through the legs -- categorically impossible without a gi lapel.'"
+  },
+  "worm-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag: 'No-gi column is a modeled analog, not a real observed meta.' A passing seat cannot exist facing a guard that cannot be assembled."
+  },
+  "squid-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag: 'no-gi node semi-fictional: the position is lapel-defined, so Squid Guard/Bottom in no-gi is really degraded generic open guard'. Own prerequisite: 'Access to opponent's gi lapel for gripping and manipulation'."
+  },
+  "squid-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Own prerequisite: 'Bottom player has successfully established Squid Guard configuration with lapel wrapped around...'. Joint state: if the bottom seat cannot be assembled, the top seat is not facing it."
+  },
+  "ringworm-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Own prerequisite: 'Opponent wearing a gi with accessible lapel'. Ruling on its entry: 'Ringworm is a worm-guard lapel derivative; cloth-dependent, unavailable no-gi.'"
+  },
+  "ringworm-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag: 'position_is_gi_only: three of six moves are lapel-dependent and ruled unavailable in no-gi; the entire gi head (grip break + leg extraction, ~48%) vanishes no-gi.'"
+  },
+  "piranha-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag: 'Position is gi-only by nature'. Ruling on the signature sweep: 'the practitioner's own lapel fed under and around the opponent's leg (the leash). With no lapel there is no piranha leash.'"
+  },
+  "piranha-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Container flag, unanimous panel note: 'Entire no-gi column is nominal/phantom: piranha guard cannot form without a lapel.'"
+  },
+  "collar-sleeve-guard__bottom": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "State invariant #1, verbatim: 'cross-collar grip with four fingers deep inside opponent's collar near the shoulder'. The sleeve half has a bare-arm analog (the wrist); four fingers inside a collar does not."
+  },
+  "collar-sleeve-guard__top": {
+   "verdict": "gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Joint state with the above. NOTE the gap this row exposes: the panel issued ZERO availability rulings here because every listed move is a PASS and passes are legal in both rulesets -- a move-level ruling can never ask whether the STATE is occupiable."
+  },
+  "closed-guard__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Prerequisite reads 'hips, biceps, collar, or lapels' -- cloth is one option among grip-agnostic ones. frame_rationale: 'No move is unavailable in either ruleset, so there are no per-frame zeros.'"
+  },
+  "crab-ride__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Prerequisite: 'At least one controlling grip on opponent's body OR gi'. frame_rationale: 'All ten moves are legal in both the gi and no-gi, so no availability zeros apply.'"
+  },
+  "de-la-riva-guard__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "The DLR hook is the defining structure and is grip-agnostic; only the lapel EXIT is zeroed ('De La Riva to Lapel Guard ... no fabric analog in no-gi'). frame_rationale gives no-gi DLR ~40% of attempts via single-leg-X."
+  },
+  "headquarters-position__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Knee-line pin; the prerequisite offers 'knee, thigh, or pants'. frame_rationale: 'every listed move is a legal, real passing option in both rulesets'."
+  },
+  "s-mount__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Four bridge/frame escapes, no cloth. Eight availability_rulings each read 'no gi-specific grip required and no legality issue. gi == nogi'."
+  },
+  "scarf-hold-position__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Head control is 'their collar, their own belt, or clasping behind opponent's neck' -- one of three. frame_rationale: 'No move is ruleset-unavailable in either frame'."
+  },
+  "half-butterfly__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Prerequisite: 'underhook, overhook, OR collar grip'. frame_rationale: 'every move in the pack is legal and mechanically available in BOTH gi and no-gi'."
+  },
+  "knee-on-belly__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "The pin is body mechanics; only the two collar chokes are zeroed. frame_rationale has KOB-to-Mount rising to the modal no-gi action."
+  },
+  "meathook__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "frame_rationale: 'Meathook is a 10th-Planet no-gi-native waypoint ... No move here is a lapel/collar-only technique.'"
+  },
+  "spider-guard__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Defining invariant #1 is grip-agnostic: 'at least one foot actively placed against opponent's bicep, arm, or hip'. Only Spider-to-Lasso is zeroed. frame_rationale: strip the sleeves and it 'degenerates into a transient wrist-control frame' -- degenerates, not vanishes."
+  },
+  "spider-guard__top": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "All eight listed moves are universal passes: 'no move in this pack is ruleset-illegal, so there are zero availability rulings'."
+  },
+  "z-lock-half-guard__bottom": {
+   "verdict": "not-gi-dependent",
+   "decided_by": "llm-adjudication",
+   "decided_on": "2026-08-31",
+   "evidence": "Lockdown and butterfly hook are leg structures; upper body is 'underhook OR collar grips OR overhook'. frame_rationale: 'no heel hooks, no lapel/collar-specific techniques'."
+  }
+ }
+}

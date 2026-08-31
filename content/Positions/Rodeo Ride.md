@@ -293,9 +293,9 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (5% of attempts)
 
-- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (0% of attempts)
+- **[[Submissions/Clock Choke/from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (0% of attempts)
 
-- **[[Bow and Arrow Choke from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (0% of attempts)
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (5% of attempts)
 
@@ -307,9 +307,9 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 - **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (6% of attempts)
 
-- **[[Calf Slicer from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (5% of attempts)
+- **[[Submissions/Calf Slicer/from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (5% of attempts)
 
-- **[[Rear Naked Choke from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (9% of attempts)
+- **[[Submissions/Rear Naked Choke/from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (9% of attempts)
 
 
 ### Common Mistakes

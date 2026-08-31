@@ -312,7 +312,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Mounted Crucifix Armbar]]
-- [[Transitions/Armbar from Crucifix]]
+- [[Submissions/Armbar/from Crucifix]]
 - [[Submissions/Americana]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Choke from Crucifix]]

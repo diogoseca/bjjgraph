@@ -302,15 +302,15 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (20% of attempts)
 
-- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (0% of attempts)
 
-- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (11% of attempts)
+- **[[Submissions/Kimura/from Modified Mount/Attacker|Kimura from Modified Mount]]** (11% of attempts)
 
 - **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (14% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (15% of attempts)
 
-- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (9% of attempts)
+- **[[Submissions/Americana/from Modified Mount/Attacker|Americana from Modified Mount]]** (9% of attempts)
 
 
 ### Common Mistakes

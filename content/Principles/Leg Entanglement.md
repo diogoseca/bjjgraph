@@ -456,16 +456,16 @@ Live training starting from established leg entanglement positions with specific
 
 
 ### Related Content
-- [[Ashi Garami]] (Position) - Primary foundational leg entanglement position demonstrating core control principles
-- [[Honey Hole]] (Position) - Advanced leg entanglement representing highest point in positional hierarchy with inside position control
-- [[50-50 Guard]] (Position) - Symmetrical leg entanglement demonstrating importance of breaking symmetry through inside position
-- [[Inside Ashi-Garami]] (Position) - Superior entanglement configuration showing inside position advantage over standard ashi
-- [[Heel Hook]] (Submission) - Primary submission attack from leg entanglement positions requiring proper entanglement foundation
-- [[Kneebar]] (Submission) - Alternative submission from leg entanglement positions emphasizing different mechanical control
-- [[Control Point Hierarchy]] (Principle) - Governing principle explaining relative value of different control points in entanglement
-- [[Connection Principles]] (Principle) - Fundamental concept explaining how multiple connection points create redundant control
-- [[Inside Position]] (Principle) - Core organizing principle defining the highest tier of the leg entanglement hierarchy
-- [[Craig Jones Leg Lock System]] (System) - Expert system built on systematic leg entanglement entries, hierarchy, and finishing mechanics
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Primary foundational leg entanglement position demonstrating core control principles
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) - Advanced leg entanglement representing highest point in positional hierarchy with inside position control
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Symmetrical leg entanglement demonstrating importance of breaking symmetry through inside position
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Superior entanglement configuration showing inside position advantage over standard ashi
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Primary submission attack from leg entanglement positions requiring proper entanglement foundation
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Alternative submission from leg entanglement positions emphasizing different mechanical control
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Governing principle explaining relative value of different control points in entanglement
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Fundamental concept explaining how multiple connection points create redundant control
+- [[Principles/Inside Position|Inside Position]] (Principle) - Core organizing principle defining the highest tier of the leg entanglement hierarchy
+- [[Systems/Craig Jones Leg Lock System|Craig Jones Leg Lock System]] (System) - Expert system built on systematic leg entanglement entries, hierarchy, and finishing mechanics
 
 
 </section>

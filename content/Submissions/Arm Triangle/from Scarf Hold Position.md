@@ -328,6 +328,11 @@ This submission chain rewards patient practitioners who understand how to read d
 
 ## Related
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Arm Triangle/from Kesa Gatame]]
+- [[Submissions/Arm Triangle/from Side Control]]
+- [[Submissions/Americana/from Scarf Hold Position]]
+- [[Submissions/Arm Triangle/from Modified Scarf Hold]]
+- [[Submissions/Arm Triangle/from Shoulder of Justice]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control/Scarf Hold Position]] - Starting position for this submission entry
 - [[Positions/Side Control]] - Common finishing position when walking to perpendicular angle

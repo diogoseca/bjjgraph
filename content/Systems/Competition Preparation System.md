@@ -429,31 +429,31 @@ Competition preparation training follows progressive periodization with distinct
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Competition Strategy]] (System) - Complementary strategic framework for in-match tactical execution
-- [[Competition Scoring Strategy]] (System) - Specific ruleset optimization tactics for point-based competitions
-- [[Mental Game Framework]] (System) - Psychological preparation methodology integrated into competition prep
-- [[IBJJF Strategy Guide]] (System) - Ruleset-specific preparation for IBJJF format tournaments
-- [[Competition Mindset]] (Principle) - Foundational psychological principles for competitive performance
-- [[Positional Hierarchy]] (Principle) - Position value framework applied to strategic game plan development and scoring priorities
-- [[Maximum Efficiency Principle]] (Principle) - Energy expenditure optimization across multi-match tournament formats
-- [[Grips]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
-- [[Defensive Concepts]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
-- [[Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
-- [[Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
-- [[Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
-- [[Arm Drag]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
-- [[Double Leg Entry]] (Transition) - High-percentage takedown for offensive standing game plans
-- [[Single Leg Entry]] (Transition) - Alternative takedown system for competition offensive strategies
-- [[Closed Guard]] (Position) - Fundamental competition position requiring strategic drilling
-- [[Mount]] (Position) - High-value scoring position essential for competition tactics
-- [[Back Control]] (Position) - Maximum point-value position prioritized in competitive strategy
-- [[Half Guard]] (Position) - Common competition position requiring extensive preparation
-- [[De La Riva Guard]] (Position) - Modern guard system frequently encountered in competition
-- [[X-Guard]] (Position) - Offensive guard position useful for sweep-oriented game plans
-- [[Butterfly Guard]] (Position) - Dynamic guard system effective for aggressive competition approaches
-- [[Rear Naked Choke]] (Submission) - Highest-percentage submission finish requiring competition drilling
-- [[Triangle Choke]] (Submission) - Fundamental submission threat integrated into guard game plans
-- [[Armbar from Armbar Control]] (Submission) - Essential offensive armbar completion integrated into competition game plans from multiple positions
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Complementary strategic framework for in-match tactical execution
+- [[Systems/Competition Scoring Strategy|Competition Scoring Strategy]] (System) - Specific ruleset optimization tactics for point-based competitions
+- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - Psychological preparation methodology integrated into competition prep
+- [[Systems/IBJJF Strategy Guide|IBJJF Strategy Guide]] (System) - Ruleset-specific preparation for IBJJF format tournaments
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Foundational psychological principles for competitive performance
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Position value framework applied to strategic game plan development and scoring priorities
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Energy expenditure optimization across multi-match tournament formats
+- [[Principles/Grips|Grips]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) - High-percentage takedown for offensive standing game plans
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) - Alternative takedown system for competition offensive strategies
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental competition position requiring strategic drilling
+- [[Positions/Mount|Mount]] (Position) - High-value scoring position essential for competition tactics
+- [[Positions/Back Control|Back Control]] (Position) - Maximum point-value position prioritized in competitive strategy
+- [[Positions/Half Guard|Half Guard]] (Position) - Common competition position requiring extensive preparation
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Modern guard system frequently encountered in competition
+- [[Positions/X-Guard|X-Guard]] (Position) - Offensive guard position useful for sweep-oriented game plans
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard system effective for aggressive competition approaches
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Highest-percentage submission finish requiring competition drilling
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Fundamental submission threat integrated into guard game plans
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Essential offensive armbar completion integrated into competition game plans from multiple positions
 
 
 </section>

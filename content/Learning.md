@@ -193,95 +193,95 @@ Level up your BJJ with strategy, training methods, and competition tactics. Lear
 
 
 
-### [[Asymmetric Warfare]]
+### [[Learning/Asymmetric Warfare|Asymmetric Warfare]]
 
 Master the BJJ strategy of attacking where your opponent is weakest. Learn to identify defensive gaps, exploit skill imbalances, and funnel the match into your strengths.
 
-### [[Committed Techniques]]
+### [[Learning/Committed Techniques|Committed Techniques]]
 
 Learn why choosing BJJ techniques with high position retention on failure separates smart grapplers from reckless ones. Favor moves that keep you safe when they do not work.
 
-### [[Conscious Mastery]]
+### [[Learning/Conscious Mastery|Conscious Mastery]]
 
 Learn how tiered BJJ flashcards -- family, position, and role level -- plus the knowledge graph build conscious mastery: instant, deliberate recall at grandmaster speed.
 
-### [[Defend With Purpose]]
+### [[Learning/Defend With Purpose|Defend With Purpose]]
 
 Why passive survival is not real defense in BJJ. Every defensive action must advance you toward a better position. Defense chains that actually escape bad positions.
 
-### [[Double Down on Strengths]]
+### [[Learning/Double Down on Strengths|Double Down on Strengths]]
 
 Learn why depth beats breadth in BJJ game development. Discover how building a devastating A-game and funneling opponents into your strengths creates consistent winning results.
 
-### [[Economy of Motion]]
+### [[Learning/Economy of Motion|Economy of Motion]]
 
 Discover why the most effective BJJ players move less, not more. Learn how minimal movement and maximum efficiency let smaller grapplers dominate larger opponents on the mat.
 
-### [[Funneling]]
+### [[Learning/Funneling|Funneling]]
 
 Master BJJ funneling strategy. Systematically reduce opponent options through grips, positions, and sequences that force the fight into your strongest area.
 
-### [[Investing in Loss]]
+### [[Learning/Investing in Loss|Investing in Loss]]
 
 The psychology of being behind in BJJ competition and how to use loss as a systematic improvement tool. Turning bad positions into training advantages.
 
-### [[Layers of Guard]]
+### [[Learning/Layers of Guard|Layers of Guard]]
 
 Understand guard as a multi-layered defensive system in BJJ. Learn how feet, knees, frames, and underhooks create concentric barriers that must be peeled one at a time.
 
-### [[Mask Your Intentions]]
+### [[Learning/Mask Your Intentions|Mask Your Intentions]]
 
 Learn how feints, misdirection, and setups make BJJ techniques effective. Discover why telegraphing kills submissions and how to disguise your true attacks on the mat.
 
-### [[Path of Least Resistance]]
+### [[Learning/Path of Least Resistance|Path of Least Resistance]]
 
 Master the BJJ principle of going around obstacles rather than through them. Learn to read defensive barriers, redirect your attacks, and choose efficient routes on the mat.
 
-### [[Pattern Interrupts]]
+### [[Learning/Pattern Interrupts|Pattern Interrupts]]
 
 Learn how to break your opponent's pre-programmed BJJ responses with tempo changes, unusual grips, and unexpected angles. Disrupt their automatic reactions to gain advantage.
 
-### [[Phases of Guard]]
+### [[Learning/Phases of Guard|Phases of Guard]]
 
 Understand the three distinct phases of guard play in BJJ: engagement, maintenance, and retention. Learn different strategies and techniques required for each phase of guard work.
 
-### [[Phases of Passing]]
+### [[Learning/Phases of Passing|Phases of Passing]]
 
 Master the three phases of guard passing in BJJ: disentangle, control, and consolidate. Learn why rushing steps causes failure and how to pass systematically against any guard.
 
-### [[Position Over Submission]]
+### [[Learning/Position Over Submission|Position Over Submission]]
 
 Learn why securing dominant position before attacking submissions is the most reliable path to victory in BJJ. Master the positional hierarchy.
 
-### [[Predictable Responses]]
+### [[Learning/Predictable Responses|Predictable Responses]]
 
 Learn how to exploit common defensive reactions in BJJ. When you push, they pull. When you pull, they push. Master the action-reaction chains that create openings on the mat.
 
-### [[Prevention Over Cure]]
+### [[Learning/Prevention Over Cure|Prevention Over Cure]]
 
 Learn why early defense in BJJ is far more effective than late escapes. Discover how hand fighting and proactive positioning prevent bad positions.
 
-### [[Probabilistic Thinking]]
+### [[Learning/Probabilistic Thinking|Probabilistic Thinking]]
 
 Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure.
 
-### [[Static vs Dynamic Control]]
+### [[Learning/Static vs Dynamic Control|Static vs Dynamic Control]]
 
 Understand when to hold position vs when to flow in BJJ. Learn the strategic differences between heavy pinning control and transitional movement-based control on the mat.
 
-### [[Technique Chaining]]
+### [[Learning/Technique Chaining|Technique Chaining]]
 
 Learn why chaining techniques together creates unstoppable offense in BJJ. Master attack sequences, combination principles, and how to flow between sweeps, passes, and submissions.
 
-### [[Timing Windows]]
+### [[Learning/Timing Windows|Timing Windows]]
 
 Master BJJ timing. Learn to recognize transition moments, weight shifts, and breath cycles that create momentary openings for attacks and escapes.
 
-### [[Training Intensity]]
+### [[Learning/Training Intensity|Training Intensity]]
 
 How to manage speed, energy, and intensity across BJJ training, competition, and self-defense. The 80% capacity principle and stress inoculation for combat sports.
 
-### [[Training Partner Diversity]]
+### [[Learning/Training Partner Diversity|Training Partner Diversity]]
 
 Why training with the same partners creates blind spots in your BJJ game. Seek varied body types, styles, and skill levels to build a complete game.
 

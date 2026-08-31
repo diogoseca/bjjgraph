@@ -441,18 +441,18 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 
 
 ### Related Content
-- [[Timing and Rhythm]] (Principle) - Positional sparring develops timing through high-volume positional repetition under resistance
-- [[Pressure]] (Principle) - Foundational principle that informs intensity calibration and progressive resistance in positional sparring
-- [[Flow Rolling]] (Principle) - Alternative training method emphasizing continuous movement versus positional focus
-- [[Competition Mindset]] (Principle) - Positional sparring serves as primary competition preparation methodology by building mental toughness in specific scenarios
-- [[Kuzushi]] (Principle) - Commonly developed through positional sparring from guard positions with sweep objectives
-- [[Guard Passing]] (Principle) - Refined through positional sparring with passer objectives against resisting guard players
-- [[Escape Fundamentals]] (Principle) - Accelerated development through positional sparring from disadvantageous positions
-- [[Position Chains]] (Principle) - Positional sparring reveals which techniques connect systematically under resistance
-- [[Mount]] (Position) - Common positional sparring scenario for developing top control and submission attacks
-- [[Closed Guard]] (Position) - Fundamental positional sparring position for guard development
-- [[Back Control]] (Position) - High-value positional sparring scenario for back attack development
-- [[Competition Preparation System]] (System) - Comprehensive framework incorporating positional sparring as core methodology
+- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Positional sparring develops timing through high-volume positional repetition under resistance
+- [[Principles/Pressure|Pressure]] (Principle) - Foundational principle that informs intensity calibration and progressive resistance in positional sparring
+- [[Principles/Flow Rolling|Flow Rolling]] (Principle) - Alternative training method emphasizing continuous movement versus positional focus
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Positional sparring serves as primary competition preparation methodology by building mental toughness in specific scenarios
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Commonly developed through positional sparring from guard positions with sweep objectives
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Refined through positional sparring with passer objectives against resisting guard players
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Accelerated development through positional sparring from disadvantageous positions
+- [[Principles/Position Chains|Position Chains]] (Principle) - Positional sparring reveals which techniques connect systematically under resistance
+- [[Positions/Mount|Mount]] (Position) - Common positional sparring scenario for developing top control and submission attacks
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental positional sparring position for guard development
+- [[Positions/Back Control|Back Control]] (Position) - High-value positional sparring scenario for back attack development
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Comprehensive framework incorporating positional sparring as core methodology
 
 
 </section>

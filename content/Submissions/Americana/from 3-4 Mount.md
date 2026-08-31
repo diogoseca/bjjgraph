@@ -321,7 +321,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - [[Positions/Mount/3-4 Mount]]
 - [[Positions/Mount]]
 - [[Positions/Mount/Modified Mount]]
-- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount/High Mount]]
 
 
 </section>
@@ -335,6 +335,8 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Arm Triangle]]
+- [[Submissions/Armbar]]
+- [[Submissions/Wrist Lock]]
 - [[Positions/Mount/3-4 Mount]] - Starting position providing asymmetric base for this submission
 - [[Positions/Mount]] - Parent position family from which 3-4 Mount derives
 - [[Positions/Mount/Technical Mount]] - Related mount variation with similar arm isolation opportunities for shoulder locks

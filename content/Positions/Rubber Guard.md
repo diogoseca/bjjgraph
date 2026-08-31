@@ -200,7 +200,7 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
-- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (12% of attempts)
+- **[[Submissions/Omoplata/from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (12% of attempts)
 
 - **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (18% of attempts)
 

@@ -302,19 +302,19 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (8% of attempts)
+- **[[Submissions/Americana/from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (8% of attempts)
 
-- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (15% of attempts)
+- **[[Submissions/Kimura/from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (15% of attempts)
 
 - **[[Transitions/Back Step/Attacker|Back Step]]** (7% of attempts)
 
-- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (11% of attempts)
+- **[[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (11% of attempts)
 
 - **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (13% of attempts)
 
 - **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (16% of attempts)
 
-- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (10% of attempts)
+- **[[Submissions/North-South Choke/from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (10% of attempts)
 
 
 ### Common Mistakes

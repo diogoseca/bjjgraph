@@ -384,34 +384,34 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Closed Guard]] (Position) - Fundamental guard position requiring mastery of breaking posture, creating angles, and executing sweeps and submissions
-- [[Half Guard]] (Position) - Critical transitional position for both offensive sweeps and defensive recovery requiring systematic development
-- [[De La Riva Guard]] (Position) - Essential open guard system for purple belt level providing sweeps, back-takes, and leg entanglement entries
-- [[Spider Guard]] (Position) - Fundamental open guard with extensive sweep and transition options requiring technical precision
-- [[Butterfly Guard]] (Position) - Dynamic guard system emphasizing elevation sweeps and quick transitions to dominant positions
-- [[Mount]] (Position) - Dominant position requiring ability to maintain control and finish submissions against competent escape attempts
-- [[Back Control]] (Position) - Highest-value position in BJJ requiring systematic approach to achieve and maintain against defensive efforts
-- [[Knee on Belly]] (Position) - Transitional control position useful for maintaining top pressure while setting up submissions
-- [[Butterfly Sweep]] (Transition) - Essential elevation sweep demonstrating hook usage and elevation mechanics
-- [[Arm Drag]] (Transition) - Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps
-- [[Back Take]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
-- [[Berimbolo Entry]] (Transition) - Modern open-guard back-take sequence rewarding inversion timing and grip control at purple belt level
-- [[Triangle Setup]] (Transition) - Fundamental submission entry teaching angle creation and arm isolation from guard
-- [[Back Step Pass]] (Transition) - Systematic guard pass requiring understanding of pressure, base, and guard retention counters
-- [[Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
-- [[Defensive Concepts]] (Principle) - Critical defensive framework covering guard retention, escape timing, and position recovery principles
-- [[Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
-- [[Position-Over-Submission Approach]] (Principle) - Strategic framework emphasizing positional dominance before submission attempts
-- [[Frames]] (Principle) - Defensive concept teaching space creation and pressure management from bad positions
-- [[Base]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions
-- [[Kuzushi]] (Principle) - Technical framework for understanding base disruption and elevation principles across sweep types
-- [[Escape Fundamentals]] (Principle) - Systematic approach to defensive positioning and position recovery from bad situations
-- [[Position Chains]] (Principle) - Core concept linking positions into connected sequences that define purple belt game development
-- [[Competition Mindset]] (Principle) - Mental framework for managing pressure, executing game plans, and adapting during competitive matches
-- [[Competition Strategy]] (System) - Framework for tournament preparation and strategic game planning under competitive pressure
-- [[Roger Gracie Fundamental System]] (System) - Exemplary model of fundamental mastery and positional dominance appropriate for purple belt study
-- [[Kimura Trap System]] (System) - Control-to-submission framework that connects top control to submissions and back-takes for top-game development
-- [[Marcelo Garcia Butterfly Guard System]] (System) - Model open-guard system demonstrating chained sweeps and back-takes appropriate for guard specialization
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental guard position requiring mastery of breaking posture, creating angles, and executing sweeps and submissions
+- [[Positions/Half Guard|Half Guard]] (Position) - Critical transitional position for both offensive sweeps and defensive recovery requiring systematic development
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Essential open guard system for purple belt level providing sweeps, back-takes, and leg entanglement entries
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Fundamental open guard with extensive sweep and transition options requiring technical precision
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard system emphasizing elevation sweeps and quick transitions to dominant positions
+- [[Positions/Mount|Mount]] (Position) - Dominant position requiring ability to maintain control and finish submissions against competent escape attempts
+- [[Positions/Back Control|Back Control]] (Position) - Highest-value position in BJJ requiring systematic approach to achieve and maintain against defensive efforts
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Transitional control position useful for maintaining top pressure while setting up submissions
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) - Essential elevation sweep demonstrating hook usage and elevation mechanics
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps
+- [[Transitions/Back Take|Back Take]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Modern open-guard back-take sequence rewarding inversion timing and grip control at purple belt level
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) - Fundamental submission entry teaching angle creation and arm isolation from guard
+- [[Transitions/Back Step Pass|Back Step Pass]] (Transition) - Systematic guard pass requiring understanding of pressure, base, and guard retention counters
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Critical defensive framework covering guard retention, escape timing, and position recovery principles
+- [[Principles/Guard Passing|Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic framework emphasizing positional dominance before submission attempts
+- [[Principles/Frames|Frames]] (Principle) - Defensive concept teaching space creation and pressure management from bad positions
+- [[Principles/Base|Base]] (Principle) - Fundamental principle preventing sweeps and maintaining postural stability in all positions
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Technical framework for understanding base disruption and elevation principles across sweep types
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Systematic approach to defensive positioning and position recovery from bad situations
+- [[Principles/Position Chains|Position Chains]] (Principle) - Core concept linking positions into connected sequences that define purple belt game development
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Mental framework for managing pressure, executing game plans, and adapting during competitive matches
+- [[Systems/Competition Strategy|Competition Strategy]] (System) - Framework for tournament preparation and strategic game planning under competitive pressure
+- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Exemplary model of fundamental mastery and positional dominance appropriate for purple belt study
+- [[Systems/Kimura Trap System|Kimura Trap System]] (System) - Control-to-submission framework that connects top control to submissions and back-takes for top-game development
+- [[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia Butterfly Guard System]] (System) - Model open-guard system demonstrating chained sweeps and back-takes appropriate for guard specialization
 
 
 </section>

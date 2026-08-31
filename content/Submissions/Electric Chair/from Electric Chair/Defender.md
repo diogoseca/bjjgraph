@@ -95,6 +95,14 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
         "@type": "Answer",
         "text": "After escaping, immediately work to establish standard half guard top position by driving your weight forward through crossface or shoulder pressure and securing your free leg in a wide base for stability. Focus on breaking whatever remains of the lockdown configuration before the opponent can re-engage the leg control. If the lockdown is already broken, transition directly to a passing sequence such as knee slice or smash pass to capitalize on the scramble before the opponent can re-establish their lockdown guard system."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that the Electric Chair is being attempted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is when the bottom player releases one hand from their underhook or other upper body control to reach for your near ankle. This grip change signals the transition from sweep threat to submission attempt and represents your best window for defense, as the finish requires ankle control to create the splitting action."
+      }
     }
   ]
 }
@@ -191,6 +199,17 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
       "url": "https://www.youtube.com/watch?v=O6HinOc-zvA",
       "creator": { "@type": "Person", "name": "Keenan Cornelius" },
       "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Electric Chair: the 3 micro battles to win",
+      "description": "Electric Chair from Electric Chair (Defender) film study: Electric Chair: the 3 micro battles to win, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pzpqHP-xx0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pzpqHP-xx0I",
+      "url": "https://www.youtube.com/watch?v=pzpqHP-xx0I",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT630S"
     }
   ]
 }
@@ -238,6 +257,14 @@ Defending the Electric Chair requires early recognition and immediate defensive 
 ![](https://www.youtube.com/watch?v=O6HinOc-zvA)
 
 <p class="clip-credit"><strong>The best lockdown counter</strong> — taught by Keenan Cornelius · 8:58 · <a href="https://www.youtube.com/watch?v=O6HinOc-zvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pzpqHP-xx0I)
+
+<p class="clip-credit"><strong>Electric Chair: the 3 micro battles to win</strong> — taught by Patrick Donabedian · 10:30 · <a href="https://www.youtube.com/watch?v=pzpqHP-xx0I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

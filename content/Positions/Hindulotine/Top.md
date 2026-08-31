@@ -318,7 +318,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 **If opponent flattens out completely in defensive turtle position:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 - Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Arm Triangle from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Arm Triangle/from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent creates defensive frames with arms while defending neck:**

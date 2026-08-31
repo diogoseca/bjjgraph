@@ -320,6 +320,7 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
+- [[Submissions/Ankle Lock/from X-Guard]]
 - [[Positions/Ashi Garami]] - Foundational leg entanglement configuration and primary entry position for kneebar attacks
 - [[Positions/Kneebar Control]] - Finishing control position achieved when kneebar is fully locked from entanglement
 - [[Positions/Leg Entanglement]] - Parent positional system encompassing all ashi garami variants where kneebar is available

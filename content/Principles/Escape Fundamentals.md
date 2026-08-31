@@ -466,18 +466,18 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 
 
 ### Related Content
-- [[Frames]] (Principle) - Core prerequisite skill that provides structural foundation for all escape fundamentals applications
-- [[Hip Escape Mechanics]] (Principle) - Essential mechanical component providing primary space and angle generation during escapes
-- [[Positional Hierarchy]] (Principle) - Strategic framework that determines which escape fundamentals to apply based on positional priority
-- [[Dealing with Pressure]] (Principle) - Position-specific application of universal escape fundamentals to managing opponent's weight and control in pinning scenarios
-- [[Elbow Escape from Mount]] (Transition) - Specific implementation of escape fundamentals from mount position using elbow-knee connection to recover guard
-- [[Hip Escape to Guard]] (Transition) - Core escape transition applying hip movement fundamentals to recover guard from side control and similar pins
-- [[Back Door Escape]] (Transition) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
-- [[Defensive Concepts]] (Principle) - Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives
-- [[Distance Control]] (Principle) - Complementary concept explaining how space is generated, maintained, and exploited during defensive sequences
-- [[Elbow Escape to Guard]] (Transition) - Primary technical application of escape fundamentals from side control and mount positions
-- [[Shrimp Escape]] (Transition) - Fundamental hip escape movement that operationalizes space and angle creation principles
-- [[Bridge and Roll]] (Transition) - Explosive escape technique that applies fundamental principles through bridging mechanics and timing
+- [[Principles/Frames|Frames]] (Principle) - Core prerequisite skill that provides structural foundation for all escape fundamentals applications
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Essential mechanical component providing primary space and angle generation during escapes
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Strategic framework that determines which escape fundamentals to apply based on positional priority
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Position-specific application of universal escape fundamentals to managing opponent's weight and control in pinning scenarios
+- [[Transitions/Elbow Escape from Mount|Elbow Escape from Mount]] (Transition) - Specific implementation of escape fundamentals from mount position using elbow-knee connection to recover guard
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Core escape transition applying hip movement fundamentals to recover guard from side control and similar pins
+- [[Transitions/Back Door Escape|Back Door Escape]] (Transition) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives
+- [[Principles/Distance Control|Distance Control]] (Principle) - Complementary concept explaining how space is generated, maintained, and exploited during defensive sequences
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Primary technical application of escape fundamentals from side control and mount positions
+- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition) - Fundamental hip escape movement that operationalizes space and angle creation principles
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) - Explosive escape technique that applies fundamental principles through bridging mechanics and timing
 
 
 </section>

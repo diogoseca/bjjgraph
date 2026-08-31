@@ -315,7 +315,7 @@ The Leg Drag to Darce Setup occupies a crucial junction in the leg drag passing 
 
 - [[Transitions/Leg Drag Pass to Side Control]] - Alternative consolidation from leg drag
 
-- [[Transitions/Arm Triangle from Turtle]] - Related attack sequence
+- [[Submissions/Arm Triangle/from Turtle]] - Related attack sequence
 
 - [[Transitions/Leg Drag to Back Take]] - Alternative transition when opponent turns away
 

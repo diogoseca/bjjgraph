@@ -312,7 +312,7 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Gift Wrap]] - Control position that sets up ideal triangle entry
 
-- [[Americana from Modified Mount]] - Alternative attack when arm isolation fails
+- [[Submissions/Americana/from Modified Mount]] - Alternative attack when arm isolation fails
 
 - [[Positions/Mount/S Mount]] - Similar asymmetric mount used for armbar that can transition to triangle
 

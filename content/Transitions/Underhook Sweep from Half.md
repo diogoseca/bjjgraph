@@ -330,7 +330,7 @@ The Underhook Sweep from Half Guard represents a cornerstone technique within th
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position variation for defensive structure
 
-- [[Transitions/Kimura from Half Guard]] - Submission threat that creates underhook opportunities
+- [[Submissions/Kimura/from Half Guard]] - Submission threat that creates underhook opportunities
 
 - [[Positions/Half Guard/Lockdown]] - Alternative leg control method in half guard system
 

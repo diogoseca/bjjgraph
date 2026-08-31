@@ -451,18 +451,18 @@ Systematic rotation through closed guard, open guard, spider, DLR, butterfly, an
 
 
 ### Related Content
-- [[Closed Guard]] (Position) - Primary position where fundamental posture breaking mechanics are developed using leg squeeze and collar-sleeve grips
-- [[Spider Guard]] (Position) - Guard variation that uses foot pressure and arm extension as primary posture breaking mechanisms
-- [[De La Riva Guard]] (Position) - Open guard position where hook and collar combination creates powerful posture breaking capability
-- [[Butterfly Guard]] (Position) - Guard type utilizing underhooks and hooks for explosive posture breaking mechanics
-- [[Half Guard]] (Position) - Position where underhook-based posture breaking prevents flattening and creates sweep opportunities
-- [[Hip Bump Sweep]] (Transition) - Classic sweep from closed guard that requires broken posture as prerequisite for execution
-- [[Scissor Sweep]] (Transition) - Fundamental sweep requiring opponent's broken posture to prevent them from posting and defending
-- [[Triangle Choke]] (Submission) - Primary submission from guard that requires sustained broken posture for successful entry and finish
-- [[Grips]] (Principle) - Complementary concept determining which grips provide optimal posture breaking capability
-- [[Base]] (Principle) - Understanding opponent's base requirements reveals vulnerabilities to exploit through posture breaking
-- [[Escape Fundamentals]] (Principle) - Posture breaking serves as primary guard defense mechanism by eliminating opponent's passing pressure
-- [[Action and Reaction]] (Principle) - Works synergistically with posture breaking to exploit opponent's predictable recovery responses from guard
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary position where fundamental posture breaking mechanics are developed using leg squeeze and collar-sleeve grips
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Guard variation that uses foot pressure and arm extension as primary posture breaking mechanisms
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Open guard position where hook and collar combination creates powerful posture breaking capability
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Guard type utilizing underhooks and hooks for explosive posture breaking mechanics
+- [[Positions/Half Guard|Half Guard]] (Position) - Position where underhook-based posture breaking prevents flattening and creates sweep opportunities
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Classic sweep from closed guard that requires broken posture as prerequisite for execution
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Fundamental sweep requiring opponent's broken posture to prevent them from posting and defending
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Primary submission from guard that requires sustained broken posture for successful entry and finish
+- [[Principles/Grips|Grips]] (Principle) - Complementary concept determining which grips provide optimal posture breaking capability
+- [[Principles/Base|Base]] (Principle) - Understanding opponent's base requirements reveals vulnerabilities to exploit through posture breaking
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Posture breaking serves as primary guard defense mechanism by eliminating opponent's passing pressure
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Works synergistically with posture breaking to exploit opponent's predictable recovery responses from guard
 
 
 </section>

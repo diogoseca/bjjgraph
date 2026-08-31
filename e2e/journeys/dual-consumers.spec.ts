@@ -141,9 +141,13 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   const legacy = await harvest(page)
 
   // the control group really is the old graph, and the subject really is the new one
-  expect(legacy.nodes, "?dual=legacy is one node per site").toBe(1467)
-  expect(pair.nodes, "the default is two members per site").toBe(2934)
-  expect(pair.reps, "…over the same 1,467 sites").toBe(legacy.reps)
+  // 1462/2924, not 1467/2934: v1.155.0 collapsed five moves authored as BOTH a transition and a
+  // submission, so five SITES are gone (their ordinals retired, never reused). The invariant these
+  // three lines exist for is untouched — legacy is one node per site, the default is exactly two
+  // members per site, and both cover the same rep set.
+  expect(legacy.nodes, "?dual=legacy is one node per site").toBe(1462)
+  expect(pair.nodes, "the default is two members per site").toBe(2924)
+  expect(pair.reps, "…over the same 1,462 sites").toBe(legacy.reps)
 
   const keys = Object.keys(legacy.hands)
   expect(keys.length, "every role-hand is dealt on both graphs").toBe(272)
@@ -179,7 +183,10 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
 
   // ORDINALS ARE THE PROMISE. The rep member IS the hub node, so no ordinal is minted, none moves,
   // and no partner carries one — which is what lets every `/l/<code>` already posted resolve.
-  expect(Object.keys(pair.ordinals).length, "1,467 nodes carry a share ordinal").toBe(1467)
+  // 1462 LIVE nodes carry an ordinal. node_ordinals.json still holds 1467 ASSIGNED — the five
+  // collapsed sites are RETIRED and keep theirs forever so it can never be reissued — but a
+  // retired id is not on the wire, so the app's map is the live count.
+  expect(Object.keys(pair.ordinals).length, "1,462 live nodes carry a share ordinal").toBe(1462)
   expect(pair.ordinals, "…and not one of them moved").toEqual(legacy.ordinals)
 
   // EXPLORE LISTS SITES. Both halves carry the same title, so a member-level walk would print
@@ -409,7 +416,9 @@ test("@curated every technique seats a roll at its canonical origin, on the side
   expect(r.stageTy.NONE, "no technique fails to find an origin").toBeUndefined()
   expect(r.stageTy.transitions, "and none seats you inside a transition").toBeUndefined()
   expect(r.stageTy.submissions, "…or inside a submission").toBeUndefined()
-  expect(r.stageTy.positions, "all 2,662 technique members seat at a position").toBe(2662)
+  // 2652 = 2 x 1326 techniques (was 2 x 1331). A COVERAGE FLOOR, not a structural claim: the
+  // three assertions above are the gate, and this one proves they were applied to every member.
+  expect(r.stageTy.positions, "all 2,652 technique members seat at a position").toBe(2652)
   expect(r.sideBad, "…on the side that performs it, defenders flipped").toBe(0)
 
   // AND THE POINT OF IT: the technique you tapped is in the hand you are dealt. The adj-walk

@@ -233,19 +233,19 @@ A: Review the match and identify the specific moment it turned against you. Dete
 <section id="related" class="content-section">
 
 ## Related
-- [[Competition Mindset]] (Principle) - Competition mindset must include the ability to perform effectively when behind on points or in bad positions
-- [[Escape Fundamentals]] (Principle) - Escape skills are the primary return on investment when you practice from bad positions
-- [[Positional Hierarchy]] (Principle) - Understanding the positional hierarchy tells you exactly how far behind you are and what recovery path to take
-- [[Positional Sparring]] (Principle) - Positional sparring is the ideal format for investing in loss because you can repeatedly start from bad positions
-- [[Mount]] (Position) - One of the most common positions where practitioners avoid training from the bottom, creating a dangerous gap
-- [[Back Control]] (Position) - Back control defense is critical and can only be developed by spending time in the worst defensive position in BJJ
-- [[Side Control]] (Position) - Side control escapes require practice under real pressure and are a common weak point for practitioners who avoid bottom positions
-- [[Competition Preparation System]] (System) - Competition preparation must include training from disadvantaged positions to prepare for worst-case scenarios
-- [[Mental Game Framework]] (System) - The mental framework for handling loss and using it constructively is central to long-term competitive development
-- [[Defensive Concepts]] (Principle) - Defensive concepts are stress-tested and refined through the practice of investing in loss
-- [[Training Intensity]] (Learning) - Training at appropriate intensity while in bad positions is essential for realistic skill development
-- [[Defend With Purpose]] (Learning) - Investing in loss creates opportunities to practice purposeful defense rather than passive survival
-- [[Turtle]] (Position) - Turtle is a common recovery position that practitioners must practice defending and escaping through investing in loss
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Competition mindset must include the ability to perform effectively when behind on points or in bad positions
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Escape skills are the primary return on investment when you practice from bad positions
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding the positional hierarchy tells you exactly how far behind you are and what recovery path to take
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Positional sparring is the ideal format for investing in loss because you can repeatedly start from bad positions
+- [[Positions/Mount|Mount]] (Position) - One of the most common positions where practitioners avoid training from the bottom, creating a dangerous gap
+- [[Positions/Back Control|Back Control]] (Position) - Back control defense is critical and can only be developed by spending time in the worst defensive position in BJJ
+- [[Positions/Side Control|Side Control]] (Position) - Side control escapes require practice under real pressure and are a common weak point for practitioners who avoid bottom positions
+- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Competition preparation must include training from disadvantaged positions to prepare for worst-case scenarios
+- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - The mental framework for handling loss and using it constructively is central to long-term competitive development
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive concepts are stress-tested and refined through the practice of investing in loss
+- [[Learning/Training Intensity|Training Intensity]] (Learning) - Training at appropriate intensity while in bad positions is essential for realistic skill development
+- [[Learning/Defend With Purpose|Defend With Purpose]] (Learning) - Investing in loss creates opportunities to practice purposeful defense rather than passive survival
+- [[Positions/Turtle|Turtle]] (Position) - Turtle is a common recovery position that practitioners must practice defending and escaping through investing in loss
 
 
 

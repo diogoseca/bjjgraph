@@ -95,6 +95,14 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
         "@type": "Answer",
         "text": "The best defense is prevention: never post your free hand on the mat to resist rotation. If you feel the urge to post, instead use that hand to attack the attacker's figure-four grip or control their hip. If you've already posted and feel the sweep loading, immediately retract the posted hand and lower your base by dropping your hips toward the mat. Widen your knees to create a broader base that's harder to sweep. The sweep requires you to be high on a single post point, so lowering your center of gravity neutralizes the leverage."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that your opponent is attempting a Kimura from half guard bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is when the bottom player releases their underhook or primary frame to reach for your arm, typically your posting hand or the arm establishing crossface. You may also feel their inside hand beginning to thread under your tricep or their body angle shifting aggressively to their side. Recognizing these early movements before the figure-four is locked gives you the widest window for prevention through arm retraction or forward pressure."
+      }
     }
   ]
 }
@@ -191,6 +199,17 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
       "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
       "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Escaping and preventing the half guard kimura",
+      "description": "Kimura from Half Guard (Defender) film study: Escaping and preventing the half guard kimura, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dU6lsfyowU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dU6lsfyowU",
+      "url": "https://www.youtube.com/watch?v=7dU6lsfyowU",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT259S"
     }
   ]
 }
@@ -238,6 +257,14 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 ![](https://www.youtube.com/watch?v=urKU1BKZNXA)
 
 <p class="clip-credit"><strong>Kimura Counter from Top Half Guard</strong> — taught by Revolution BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dU6lsfyowU)
+
+<p class="clip-credit"><strong>Escaping and preventing the half guard kimura</strong> — taught by Kieran Davern · 4:19 · <a href="https://www.youtube.com/watch?v=7dU6lsfyowU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

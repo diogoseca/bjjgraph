@@ -2215,1443 +2215,1443 @@ Master all BJJ submission techniques. Complete guide to chokes, joint locks, and
 
 
 
-### [[Achilles Lock]]
+### [[Submissions/Achilles Lock|Achilles Lock]]
 
 Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions.
 
-### [[Americana]]
+### [[Submissions/Americana|Americana]]
 
 Master the Americana shoulder lock from mount and side control. Complete safety protocols, systematic setup, and controlled execution. Beginner 45%, Intermediate 60%, Advanced 75%.
 
-### [[Americana from 3-4 Mount]]
+### [[Submissions/Americana/from 3-4 Mount|Americana from 3-4 Mount]]
 
 Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder lock setup, grip mechanics, finishing details, defensive counters, and safety protocols.
 
-### [[Americana from High Mount]]
+### [[Submissions/Americana/from High Mount|Americana from High Mount]]
 
 Master the Americana shoulder lock from High Mount. Finishing guide with figure-four grip mechanics, rotational pressure techniques, and escape defense.
 
-### [[Americana from Kesa Gatame]]
+### [[Submissions/Americana/from Kesa Gatame|Americana from Kesa Gatame]]
 
 Master the Americana shoulder lock from Kesa Gatame in BJJ. Complete guide covering figure-four mechanics, finishing details, and defensive strategies.
 
-### [[Americana from Kimura Trap]]
+### [[Submissions/Americana/from Kimura Trap|Americana from Kimura Trap]]
 
 Master the Americana from Kimura Trap in BJJ. Convert your Kimura grip into a high-percentage shoulder lock when opponents pull their arm down to defend.
 
-### [[Americana from Kuzure Kesa-Gatame]]
+### [[Submissions/Americana/from Kuzure Kesa-Gatame|Americana from Kuzure Kesa-Gatame]]
 
 Master the Americana shoulder lock from Kuzure Kesa-Gatame. Complete guide covering finishing mechanics, defensive counters, and progressive training drills for BJJ.
 
-### [[Americana from Modified Mount]]
+### [[Submissions/Americana/from Modified Mount|Americana from Modified Mount]]
 
 Master the Americana shoulder lock from Modified Mount. Learn grip mechanics, finishing details, and defensive counters for this high-percentage submission.
 
-### [[Americana from Modified Scarf Hold]]
+### [[Submissions/Americana/from Modified Scarf Hold|Americana from Modified Scarf Hold]]
 
 Master the Americana shoulder lock from Modified Scarf Hold. Complete guide covering figure-four grip mechanics, finishing details, and defensive counters for BJJ.
 
-### [[Americana from Mount]]
+### [[Submissions/Americana/from Mount|Americana from Mount]]
 
 Master the Americana shoulder lock from mount with safety protocols, setup, and execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-### [[Americana from North-South]]
+### [[Submissions/Americana/from North-South|Americana from North-South]]
 
 Master the Americana shoulder lock from North-South position. Complete guide covering unique perpendicular setup, grip mechanics, finishing details, and defenses.
 
-### [[Americana from Reverse Kesa-Gatame]]
+### [[Submissions/Americana/from Reverse Kesa-Gatame|Americana from Reverse Kesa-Gatame]]
 
 Master the Americana shoulder lock from Reverse Kesa-Gatame. Complete finishing guide covering setup, execution, counters, and safety protocols.
 
-### [[Americana from Reverse Scarf Hold]]
+### [[Submissions/Americana/from Reverse Scarf Hold|Americana from Reverse Scarf Hold]]
 
 Master the Americana shoulder lock from Reverse Scarf Hold. Complete guide with setup, execution steps, defensive counters, and safety protocols.
 
-### [[Americana from S Mount]]
+### [[Submissions/Americana/from S Mount|Americana from S Mount]]
 
 Master the Americana shoulder lock from S Mount. Step-by-step guide covering setup, execution, defense, and safety for this high-percentage finishing technique.
 
-### [[Americana from Scarf Hold Position]]
+### [[Submissions/Americana/from Scarf Hold Position|Americana from Scarf Hold Position]]
 
 Master the Americana shoulder lock from Scarf Hold Position. Learn figure-four grip setup, perpendicular finishing angle, and safe application from kesa gatame.
 
-### [[Americana from Shoulder of Justice]]
+### [[Submissions/Americana/from Shoulder of Justice|Americana from Shoulder of Justice]]
 
 Master the Americana from Shoulder of Justice in BJJ. Step-by-step finishing guide with shoulder pressure setup, grip mechanics, and defensive counters.
 
-### [[Americana from Side Control]]
+### [[Submissions/Americana/from Side Control|Americana from Side Control]]
 
 Master the Americana from Side Control in BJJ. Complete guide to setup, execution, defense, and safety for this fundamental shoulder lock submission.
 
-### [[Americana from Technical Mount]]
+### [[Submissions/Americana/from Technical Mount|Americana from Technical Mount]]
 
 Master the Americana shoulder lock from Technical Mount in BJJ. Complete guide with grip mechanics, finishing sequences, defensive counters, and training progressions.
 
-### [[Anaconda Choke]]
+### [[Submissions/Anaconda Choke|Anaconda Choke]]
 
 Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and front headlock, finishing mechanics, safety protocols, and defensive strategies.
 
-### [[Anaconda Choke from Anaconda Control]]
+### [[Submissions/Anaconda Choke/from Anaconda Control|Anaconda Choke from Anaconda Control]]
 
 Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and front headlock, finishing mechanics, safety protocols, and defensive strategies.
 
-### [[Anaconda Choke from Dead Orchard]]
+### [[Submissions/Anaconda Choke/from Dead Orchard|Anaconda Choke from Dead Orchard]]
 
 Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide to finishing mechanics, grip adjustments, and pressure application for this blood choke.
 
-### [[Ankle Lock from X-Guard]]
+### [[Submissions/Ankle Lock/from X-Guard|Ankle Lock from X-Guard]]
 
 Master the ankle lock from X-Guard in BJJ. Complete guide to setup, grip mechanics, finishing details, and defense for this versatile leg lock submission.
 
-### [[Aoki Lock]]
+### [[Submissions/Aoki Lock|Aoki Lock]]
 
 Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-### [[Aoki Lock from Aoki Lock Control]]
+### [[Submissions/Aoki Lock/from Aoki Lock Control|Aoki Lock from Aoki Lock Control]]
 
 Complete guide to finishing the Aoki Lock leg compression from Aoki Lock control. Figure-four foot trap, plantar-flexion mechanics, and key defensive counters.
 
-### [[Aoki Lock from Ashi Garami]]
+### [[Submissions/Aoki Lock/from Ashi Garami|Aoki Lock from Ashi Garami]]
 
 Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
-### [[Arm Crush]]
+### [[Submissions/Arm Crush|Arm Crush]]
 
 Master the Arm Crush submission in BJJ. Learn shoulder lock mechanics, setup from side control, and safe application for training and competition.
 
-### [[Arm Crush from Side Control]]
+### [[Submissions/Arm Crush/from Side Control|Arm Crush from Side Control]]
 
 Master the Arm Crush submission in BJJ. Learn shoulder lock mechanics, setup from side control, and safe application for training and competition.
 
-### [[Arm Triangle]]
+### [[Submissions/Arm Triangle|Arm Triangle]]
 
 Master the Arm Triangle choke in BJJ. Setup from side control, execution mechanics, finishing details. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Arm Triangle from High Mount]]
+### [[Submissions/Arm Triangle/from High Mount|Arm Triangle from High Mount]]
 
 Master the arm triangle choke from high mount in BJJ. Step-by-step guide covering setup, grip transitions, finishing angles, defensive counters, and safety.
 
-### [[Arm Triangle from Hindulotine]]
+### [[Submissions/Arm Triangle/from Hindulotine|Arm Triangle from Hindulotine]]
 
 Master the Arm Triangle from Hindulotine in BJJ. Learn how guillotine defense creates head-and-arm choke opportunities with detailed finishing mechanics.
 
-### [[Arm Triangle from Kesa Gatame]]
+### [[Submissions/Arm Triangle/from Kesa Gatame|Arm Triangle from Kesa Gatame]]
 
 Master the Arm Triangle from Kesa Gatame with step-by-step grip transitions, finishing angles, and chest compression mechanics. Complete attacker and defender guide.
 
-### [[Arm Triangle from Kuzure Kesa-Gatame]]
+### [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame|Arm Triangle from Kuzure Kesa-Gatame]]
 
 Master the arm triangle from Kuzure Kesa-Gatame with setup mechanics, finishing angles, and escape strategies for this powerful modified scarf hold choke.
 
-### [[Arm Triangle from Modified Scarf Hold]]
+### [[Submissions/Arm Triangle/from Modified Scarf Hold|Arm Triangle from Modified Scarf Hold]]
 
 Master the Arm Triangle from Modified Scarf Hold. Learn setup mechanics, grip transitions, finishing angles, and defensive responses for this blood choke.
 
-### [[Arm Triangle from Reverse Kesa-Gatame]]
+### [[Submissions/Arm Triangle/from Reverse Kesa-Gatame|Arm Triangle from Reverse Kesa-Gatame]]
 
 Master the Arm Triangle from Reverse Kesa-Gatame in BJJ. Convert the natural far-arm isolation of reverse scarf hold into a high-percentage blood choke.
 
-### [[Arm Triangle from Reverse Scarf Hold]]
+### [[Submissions/Arm Triangle/from Reverse Scarf Hold|Arm Triangle from Reverse Scarf Hold]]
 
 Master the Arm Triangle from Reverse Scarf Hold. Complete guide covering setup mechanics, grip transitions, finishing angles, and defensive strategies.
 
-### [[Arm Triangle from Scarf Hold Position]]
+### [[Submissions/Arm Triangle/from Scarf Hold Position|Arm Triangle from Scarf Hold Position]]
 
 Master the Arm Triangle from Scarf Hold Position. Learn grip transitions from kesa gatame to head-and-arm choke with detailed finishing mechanics and defense.
 
-### [[Arm Triangle from Shoulder of Justice]]
+### [[Submissions/Arm Triangle/from Shoulder of Justice|Arm Triangle from Shoulder of Justice]]
 
 Master the Arm Triangle from Shoulder of Justice. Learn how intense jaw pressure forces the defensive reaction that creates this high-percentage blood choke finish.
 
-### [[Arm Triangle from Side Control]]
+### [[Submissions/Arm Triangle/from Side Control|Arm Triangle from Side Control]]
 
 Master the Arm Triangle from Side Control in BJJ. Complete finishing mechanics, defensive counters, and progressive training drills for this high-percentage blood choke.
 
-### [[Arm Triangle from Turtle]]
+### [[Submissions/Arm Triangle/from Turtle|Arm Triangle from Turtle]]
 
 Master the arm triangle choke from turtle position in BJJ. Learn setup mechanics, grip transitions, and finishing details for this blood choke attack.
 
-### [[Arm Triangle from Twister Side Control]]
+### [[Submissions/Arm Triangle/from Twister Side Control|Arm Triangle from Twister Side Control]]
 
 Learn the Arm Triangle from Twister Side Control in BJJ. Complete guide covering grip transitions, finishing mechanics, and defensive counters.
 
-### [[Arm in Guillotine]]
+### [[Submissions/Arm in Guillotine|Arm in Guillotine]]
 
 Master Arm in Guillotine in BJJ. High-percentage front headlock choke with trapped arm. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete safety guide included.
 
-### [[Arm in Guillotine from Front Headlock]]
+### [[Submissions/Arm in Guillotine/from Front Headlock|Arm in Guillotine from Front Headlock]]
 
 Master the arm-in guillotine from front headlock with expert grip mechanics, step-by-step finishing sequences, and proven defensive strategies for BJJ.
 
-### [[Arm in Guillotine from Guillotine Control]]
+### [[Submissions/Arm in Guillotine/from Guillotine Control|Arm in Guillotine from Guillotine Control]]
 
 Master the arm-in guillotine from guillotine control. Learn grip mechanics, finishing details, and defensive counters for this high-percentage choke variation.
 
-### [[Armbar]]
+### [[Submissions/Armbar|Armbar]]
 
 Master the Armbar submission in BJJ. Complete guide covering setups from mount, guard, back control, and side control with detailed mechanics and defense strategies.
 
-### [[Armbar from Armbar Control]]
+### [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]]
 
 Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step elbow hyperextension mechanics, grip details, and counters. Beginner 30%, Intermediate 50%, Advanced 65%.
 
-### [[Armbar from Back]]
+### [[Submissions/Armbar/from Back|Armbar from Back]]
 
 Master the Armbar from Back Control in BJJ. Complete safety guide with setup, execution, and finish. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-### [[Armbar from Back with Legs]]
+### [[Submissions/Armbar/from Back with Legs|Armbar from Back with Legs]]
 
 Master Armbar from Back with Legs in BJJ. Complete guide with safety protocols, setup from back control, and finishing mechanics. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Armbar from Crucifix]]
+### [[Submissions/Armbar/from Crucifix|Armbar from Crucifix]]
 
 Master Armbar from Crucifix in BJJ. Complete guide with safety protocols, setup, execution steps, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.
 
-### [[Armbar from Guard]]
+### [[Submissions/Armbar/from Guard|Armbar from Guard]]
 
 Master the armbar from guard with systematic technique breakdown, safety protocols, and execution details. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-### [[Armbar from High Mount]]
+### [[Submissions/Armbar/from High Mount|Armbar from High Mount]]
 
 Master the Armbar from High Mount in BJJ. Complete guide to setup mechanics, finishing sequences, defensive escapes, and progressive training methods.
 
-### [[Armbar from Knee on Belly]]
+### [[Submissions/Armbar/from Knee on Belly|Armbar from Knee on Belly]]
 
 Master the armbar from knee on belly in BJJ. Complete guide to setup, execution, defense, and finishing mechanics from this dynamic dominant position.
 
-### [[Armbar from Mount]]
+### [[Submissions/Armbar/from Mount|Armbar from Mount]]
 
 Master Armbar from Mount in BJJ. Complete safety protocols, setup, execution steps. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
-### [[Armbar from S Mount]]
+### [[Submissions/Armbar/from S Mount|Armbar from S Mount]]
 
 Master the Armbar from S Mount in BJJ. Step-by-step guide covering setup, execution mechanics, finishing details, and defensive strategies for all levels.
 
-### [[Armbar from Side Control]]
+### [[Submissions/Armbar/from Side Control|Armbar from Side Control]]
 
 Master the Armbar from Side Control in BJJ. Complete guide covering setup from top position, finishing mechanics, and defensive strategies for all levels.
 
-### [[Armbar from Technical Mount]]
+### [[Submissions/Armbar/from Technical Mount|Armbar from Technical Mount]]
 
 Master the Armbar from Technical Mount in BJJ. Complete guide to setup mechanics, finishing details, and defensive counters for this high-percentage arm lock.
 
-### [[Banana Split]]
+### [[Submissions/Banana Split|Banana Split]]
 
 Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate.
 
-### [[Banana Split from Truck]]
+### [[Submissions/Banana Split/from Truck|Banana Split from Truck]]
 
 Master the Banana Split compression submission from the truck in BJJ. Complete guide covering the twister-hook setup, execution, and safety. 48% success rate.
 
-### [[Baratoplata]]
+### [[Submissions/Baratoplata|Baratoplata]]
 
 Master the Baratoplata shoulder lock in BJJ. Advanced submission from rubber guard combining omoplata mechanics with arm weave isolation for devastating finishing pressure.
 
-### [[Baratoplata from Crackhead Control]]
+### [[Submissions/Baratoplata/from Crackhead Control|Baratoplata from Crackhead Control]]
 
 Master the Baratoplata from Crackhead Control. Complete guide to this 10th Planet shoulder lock with setup mechanics, finishing details, and safety protocols.
 
-### [[Baseball Bat Choke]]
+### [[Submissions/Baseball Bat Choke|Baseball Bat Choke]]
 
 Master the Baseball Bat Choke in BJJ. Devastating collar choke from top positions with tight control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Baseball Bat Choke from Knee on Belly]]
+### [[Submissions/Baseball Bat Choke/from Knee on Belly|Baseball Bat Choke from Knee on Belly]]
 
 Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi collar grip mechanics, spinning finish details, and pressure-based setups unique to KOB.
 
-### [[Belly Down Armbar]]
+### [[Submissions/Belly Down Armbar|Belly Down Armbar]]
 
 Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle and scrambles, and finishing mechanics for this high-percentage joint lock.
 
-### [[Belly Down Armbar from Armbar Control]]
+### [[Submissions/Belly Down Armbar/from Armbar Control|Belly Down Armbar from Armbar Control]]
 
 Master the belly down armbar finish from armbar control in BJJ. Learn prone finishing mechanics, grip transitions, and high-percentage completion.
 
-### [[Belly Down Armbar from Kesa Gatame]]
+### [[Submissions/Belly Down Armbar/from Kesa Gatame|Belly Down Armbar from Kesa Gatame]]
 
 Master the belly down armbar finish from Kesa Gatame. Learn the step-over transition, prone finishing mechanics, and defenses for this high-percentage arm lock.
 
-### [[Belly Down Armbar from Knee on Belly]]
+### [[Submissions/Belly Down Armbar/from Knee on Belly|Belly Down Armbar from Knee on Belly]]
 
 Master the belly down armbar finish from knee on belly in BJJ. Complete guide covering setup, execution, defensive strategies, and essential safety protocols.
 
-### [[Belly Down Armbar from Kuzure Kesa-Gatame]]
+### [[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame|Belly Down Armbar from Kuzure Kesa-Gatame]]
 
 Master the belly down armbar finish from Kuzure Kesa-Gatame. Expert guide to arm isolation, prone rotation technique, and high-percentage finishing mechanics.
 
-### [[Belly Down Armbar from Lasso Guard]]
+### [[Submissions/Belly Down Armbar/from Lasso Guard|Belly Down Armbar from Lasso Guard]]
 
 Master the belly down armbar finish from lasso guard. Learn grip transitions, rotation mechanics, and belly-down finishing details for this guard submission.
 
-### [[Belly Down Armbar from Mission Control]]
+### [[Submissions/Belly Down Armbar/from Mission Control|Belly Down Armbar from Mission Control]]
 
 Learn the belly down armbar finish from Mission Control in BJJ. Master rubber guard arm isolation, prone finishing mechanics, and essential safety protocols.
 
-### [[Belly Down Armbar from Modified Scarf Hold]]
+### [[Submissions/Belly Down Armbar/from Modified Scarf Hold|Belly Down Armbar from Modified Scarf Hold]]
 
 Master the belly down armbar finish from modified scarf hold. Expert guide covering setup, arm isolation, transition mechanics, and defensive responses.
 
-### [[Belly Down Armbar from Mounted Crucifix]]
+### [[Submissions/Belly Down Armbar/from Mounted Crucifix|Belly Down Armbar from Mounted Crucifix]]
 
 Master the belly down armbar finish from mounted crucifix. Learn prone armbar mechanics, elbow hyperextension control, and safe finishing techniques from this dominant position.
 
-### [[Belly Down Armbar from Mounted Triangle]]
+### [[Submissions/Belly Down Armbar/from Mounted Triangle|Belly Down Armbar from Mounted Triangle]]
 
 Master the belly down armbar finish from mounted triangle. Learn rotation mechanics, arm isolation, and prone finishing details for this high-control submission.
 
-### [[Belly Down Armbar from New York]]
+### [[Submissions/Belly Down Armbar/from New York|Belly Down Armbar from New York]]
 
 Master the belly down armbar finish from New York rubber guard. Learn overhook arm isolation, prone rotation mechanics, and high-leverage finishing details.
 
-### [[Belly Down Armbar from Open Guard]]
+### [[Submissions/Belly Down Armbar/from Open Guard|Belly Down Armbar from Open Guard]]
 
 Master the belly down armbar finish from open guard in BJJ. Learn grip isolation, hip rotation mechanics, and prone finishing details for this high-percentage arm lock.
 
-### [[Belly Down Armbar from Scarf Hold Position]]
+### [[Submissions/Belly Down Armbar/from Scarf Hold Position|Belly Down Armbar from Scarf Hold Position]]
 
 Master the belly down armbar finish from scarf hold position. Learn arm isolation, prone transition mechanics, and high-leverage elbow finishing details.
 
-### [[Belly Down Armbar from Side Control]]
+### [[Submissions/Belly Down Armbar/from Side Control|Belly Down Armbar from Side Control]]
 
 Master the belly down armbar finish from side control in BJJ. Learn prone armbar mechanics, grip control, rotation technique, and safe application from top position.
 
-### [[Belly Down Armbar from Spider Guard]]
+### [[Submissions/Belly Down Armbar/from Spider Guard|Belly Down Armbar from Spider Guard]]
 
 Master the belly down armbar finish from Spider Guard. Learn grip transitions, prone finishing mechanics, and defensive counters for this powerful arm lock.
 
-### [[Belly Down Armbar from Turtle]]
+### [[Submissions/Belly Down Armbar/from Turtle|Belly Down Armbar from Turtle]]
 
 Learn to execute and defend the belly down armbar from turtle in BJJ. Covers arm isolation, step-over transition, prone finishing, and escape paths.
 
-### [[Belly Down Armbar from Williams Guard]]
+### [[Submissions/Belly Down Armbar/from Williams Guard|Belly Down Armbar from Williams Guard]]
 
 Master the belly down armbar from Williams Guard. Learn prone rotation mechanics that convert shoulder lock control into a stack-proof armbar finish in BJJ.
 
-### [[Bicep Slicer]]
+### [[Submissions/Bicep Slicer|Bicep Slicer]]
 
 Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Bicep Slicer from Crucifix]]
+### [[Submissions/Bicep Slicer/from Crucifix|Bicep Slicer from Crucifix]]
 
 Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Boston Crab]]
+### [[Submissions/Boston Crab|Boston Crab]]
 
 Master Boston Crab submission in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-### [[Boston Crab from Turtle]]
+### [[Submissions/Boston Crab/from Turtle|Boston Crab from Turtle]]
 
 Master Boston Crab submission in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-### [[Bow and Arrow Choke]]
+### [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]]
 
 Master the Bow and Arrow Choke in BJJ. Complete guide with safety protocols, setup from back control, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.
 
-### [[Bow and Arrow Choke from Back Control]]
+### [[Submissions/Bow and Arrow Choke/from Back Control|Bow and Arrow Choke from Back Control]]
 
 Master the Bow and Arrow Choke from back control. Learn collar grip setup, leg leverage mechanics, finishing details, and defenses for this high-percentage gi submission.
 
-### [[Bow and Arrow Choke from Body Triangle]]
+### [[Submissions/Bow and Arrow Choke/from Body Triangle|Bow and Arrow Choke from Body Triangle]]
 
 Master the bow and arrow choke from body triangle in BJJ. Learn deep collar grip mechanics, body extension finishing details, and proven defensive strategies.
 
-### [[Bow and Arrow Choke from Harness]]
+### [[Submissions/Bow and Arrow Choke/from Harness|Bow and Arrow Choke from Harness]]
 
 Master the Bow and Arrow Choke from Harness position in BJJ. Learn collar grip mechanics, leg hook extension, and finishing details for this high-percentage gi choke.
 
-### [[Bow and Arrow Choke from Invisible Collar]]
+### [[Submissions/Bow and Arrow Choke/from Invisible Collar|Bow and Arrow Choke from Invisible Collar]]
 
 Master the Bow and Arrow Choke from Invisible Collar. Learn concealed grip transitions, finishing mechanics, defense strategies, and safety protocols.
 
-### [[Bow and Arrow Choke from Rear Triangle]]
+### [[Submissions/Bow and Arrow Choke/from Rear Triangle|Bow and Arrow Choke from Rear Triangle]]
 
 Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn collar grip mechanics, leg extension finish, and defensive strategies for this gi technique.
 
-### [[Bow and Arrow Choke from Rodeo Ride]]
+### [[Submissions/Bow and Arrow Choke/from Rodeo Ride|Bow and Arrow Choke from Rodeo Ride]]
 
 Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel choke setup, cross-collar grip mechanics, and finishing details from this advanced turtle attack position.
 
-### [[Bow and Arrow Choke from Russian Cowboy]]
+### [[Submissions/Bow and Arrow Choke/from Russian Cowboy|Bow and Arrow Choke from Russian Cowboy]]
 
 Master the Bow and Arrow Choke from Russian Cowboy in BJJ. Learn collar grip mechanics, leg extension finishing details, and defensive counters from this back control variant.
 
-### [[Bow and Arrow Choke from Seat Belt Control Back]]
+### [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back|Bow and Arrow Choke from Seat Belt Control Back]]
 
 Master the Bow and Arrow Choke from Seat Belt back control. Learn gi lapel grip mechanics, leg extension finishing details, and systematic submission chain strategies.
 
-### [[Bow and Arrow Choke from Truck]]
+### [[Submissions/Bow and Arrow Choke/from Truck|Bow and Arrow Choke from Truck]]
 
 Master the Bow and Arrow Choke from Truck. Learn collar grip setup from perpendicular control, leg leverage through entanglement, and finishing details for this gi choke.
 
-### [[Brabo Choke]]
+### [[Submissions/Brabo Choke|Brabo Choke]]
 
 Master the Brabo Choke in BJJ. Complete guide with safety protocols, setup from front headlock, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Brabo Choke from Front Headlock]]
+### [[Submissions/Brabo Choke/from Front Headlock|Brabo Choke from Front Headlock]]
 
 Master the Brabo Choke in BJJ. Complete guide with safety protocols, setup from front headlock, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Breadcutter Choke]]
+### [[Submissions/Breadcutter Choke|Breadcutter Choke]]
 
 Master the Breadcutter Choke in BJJ. Devastating collar choke from turtle and back control using the gi. Complete guide with setup, finishing mechanics, and defense.
 
-### [[Breadcutter Choke from Kuzure Kesa-Gatame]]
+### [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Breadcutter Choke from Kuzure Kesa-Gatame]]
 
 Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert collar grip mechanics, finishing sequences, and defensive strategies for purple to brown belts.
 
-### [[Breadcutter Choke from Side Control]]
+### [[Submissions/Breadcutter Choke/from Side Control|Breadcutter Choke from Side Control]]
 
 Master the Breadcutter Choke from Side Control. Learn gi collar grip mechanics, finishing details, and defensive counters for this high-percentage blood choke.
 
-### [[Buggy Choke]]
+### [[Submissions/Buggy Choke|Buggy Choke]]
 
 Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense.
 
-### [[Buggy Choke from Half Guard]]
+### [[Submissions/Buggy Choke/from Half Guard|Buggy Choke from Half Guard]]
 
 Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense.
 
-### [[Calf Slicer]]
+### [[Submissions/Calf Slicer|Calf Slicer]]
 
 Master the Calf Slicer in BJJ. Complete guide with safety protocols, setup from 50-50 and Truck, execution steps, and defense strategies for this compression lock.
 
-### [[Calf Slicer from 50-50 Guard]]
+### [[Submissions/Calf Slicer/from 50-50 Guard|Calf Slicer from 50-50 Guard]]
 
 Master the calf slicer from 50-50 Guard. Complete guide covering setup, finishing mechanics, defense, and safety for this advanced compression submission.
 
-### [[Calf Slicer from Backside 50-50]]
+### [[Submissions/Calf Slicer/from Backside 50-50|Calf Slicer from Backside 50-50]]
 
 Master the calf slicer from backside 50-50 with expert finishing mechanics, defensive strategies, safety protocols, and progressive training methods.
 
-### [[Calf Slicer from Carni]]
+### [[Submissions/Calf Slicer/from Carni|Calf Slicer from Carni]]
 
 Master the calf slicer from Carni position in BJJ. Learn compression lock mechanics, shin placement, and how to chain this finish with heel hook threats.
 
-### [[Calf Slicer from Honey Hole]]
+### [[Submissions/Calf Slicer/from Honey Hole|Calf Slicer from Honey Hole]]
 
 Master the calf slicer from Honey Hole position in BJJ. Complete guide covering compression mechanics, setup sequences, defensive counters, and training safety.
 
-### [[Calf Slicer from Inside Sankaku]]
+### [[Submissions/Calf Slicer/from Inside Sankaku|Calf Slicer from Inside Sankaku]]
 
 Master the calf slicer from inside sankaku. Complete guide covering setup, execution mechanics, defense strategies, and safety for this advanced compression.
 
-### [[Calf Slicer from Rodeo Ride]]
+### [[Submissions/Calf Slicer/from Rodeo Ride|Calf Slicer from Rodeo Ride]]
 
 Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to compression lock mechanics, defensive escapes, and training progressions from turtle control.
 
-### [[Calf Slicer from Russian Cowboy]]
+### [[Submissions/Calf Slicer/from Russian Cowboy|Calf Slicer from Russian Cowboy]]
 
 Master the calf slicer from Russian Cowboy in BJJ. Complete guide to setup, execution, and defense of this powerful compression lock from back control.
 
-### [[Calf Slicer from Saddle]]
+### [[Submissions/Calf Slicer/from Saddle|Calf Slicer from Saddle]]
 
 Learn the calf slicer from saddle position with step-by-step finishing mechanics, defensive escapes, and critical safety protocols for leg lock practitioners.
 
-### [[Calf Slicer from Truck]]
+### [[Submissions/Calf Slicer/from Truck|Calf Slicer from Truck]]
 
 Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-### [[Calf Slicer from Twister Control]]
+### [[Submissions/Calf Slicer/from Twister Control|Calf Slicer from Twister Control]]
 
 Master the calf slicer from twister control in BJJ. Learn setup mechanics, finishing details, and safety protocols for this advanced compression submission.
 
-### [[Calf Slicer from Twister Side Control]]
+### [[Submissions/Calf Slicer/from Twister Side Control|Calf Slicer from Twister Side Control]]
 
 Learn the calf slicer from twister side control with expert finishing mechanics, defensive strategies, and safety protocols for advanced BJJ practitioners.
 
-### [[Can Opener]]
+### [[Submissions/Can Opener|Can Opener]]
 
 Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%.
 
-### [[Can Opener from Closed Guard]]
+### [[Submissions/Can Opener/from Closed Guard|Can Opener from Closed Guard]]
 
 Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%.
 
-### [[Chin Strap Guillotine from Front Headlock]]
+### [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]]
 
 Master the Chin Strap Guillotine in BJJ. High-control choke targeting the neck from front headlock positions with figure-four grip and shoulder drive mechanics.
 
-### [[Choke from Crucifix]]
+### [[Submissions/Choke from Crucifix|Choke from Crucifix]]
 
 Master the Choke from Crucifix in BJJ. Complete guide covering blood choke mechanics, arm-trap finishing, safety protocols, and defensive escapes from crucifix.
 
-### [[Clock Choke]]
+### [[Submissions/Clock Choke|Clock Choke]]
 
 Master the Clock Choke in BJJ. Gi-based blood choke from turtle using lapel control and circular walking pressure to compress carotid arteries.
 
-### [[Clock Choke from Invisible Collar]]
+### [[Submissions/Clock Choke/from Invisible Collar|Clock Choke from Invisible Collar]]
 
 Master the Clock Choke from Invisible Collar with concealed collar grip setup, walking pressure mechanics, and finishing details for gi competition success.
 
-### [[Clock Choke from Rodeo Ride]]
+### [[Submissions/Clock Choke/from Rodeo Ride|Clock Choke from Rodeo Ride]]
 
 Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based blood choke mechanics using dynamic turtle control and circular walking pressure to finish.
 
-### [[Cross Collar Choke]]
+### [[Submissions/Cross Collar Choke|Cross Collar Choke]]
 
 Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, finishing mechanics, and defense strategies for all levels.
 
-### [[Cross Collar Choke from 3-4 Mount]]
+### [[Submissions/Cross Collar Choke/from 3-4 Mount|Cross Collar Choke from 3-4 Mount]]
 
 Master the cross collar choke from 3-4 mount in BJJ. Complete guide covering grip mechanics, finishing details, and defensive counters for gi grapplers.
 
-### [[Cross Collar Choke from Body Triangle]]
+### [[Submissions/Cross Collar Choke/from Body Triangle|Cross Collar Choke from Body Triangle]]
 
 Master the cross collar choke from body triangle in BJJ. Learn grip mechanics, finishing details, and defensive strategies for this powerful gi submission.
 
-### [[Cross Collar Choke from Closed Guard]]
+### [[Submissions/Cross Collar Choke/from Closed Guard|Cross Collar Choke from Closed Guard]]
 
 Master the cross collar choke from closed guard with detailed grip mechanics, posture breaking sequences, and finishing details for gi BJJ practitioners.
 
-### [[Cross Collar Choke from High Mount]]
+### [[Submissions/Cross Collar Choke/from High Mount|Cross Collar Choke from High Mount]]
 
 Master the Cross Collar Choke from High Mount in BJJ. Complete guide to grip placement, finishing mechanics, defense strategies, and safety protocols.
 
-### [[Cross Collar Choke from Invisible Collar]]
+### [[Submissions/Cross Collar Choke/from Invisible Collar|Cross Collar Choke from Invisible Collar]]
 
 Master the Cross Collar Choke Finish from Invisible Collar in BJJ. Expert finishing mechanics, defense strategies, and training progressions for gi grapplers.
 
-### [[Cross Collar Choke from Knee on Belly]]
+### [[Submissions/Cross Collar Choke/from Knee on Belly|Cross Collar Choke from Knee on Belly]]
 
 Master the cross collar choke from knee on belly. Learn grip sequencing, pressure-to-choke transitions, and finishing mechanics for this devastating gi attack.
 
-### [[Cross Collar Choke from Modified Mount]]
+### [[Submissions/Cross Collar Choke/from Modified Mount|Cross Collar Choke from Modified Mount]]
 
 Master the Cross Collar Choke from Modified Mount. Learn grip placement, weight distribution, and finishing mechanics unique to this asymmetric mount variation.
 
-### [[Cross Collar Choke from Mount]]
+### [[Submissions/Cross Collar Choke/from Mount|Cross Collar Choke from Mount]]
 
 Master the Cross Collar Choke from Mount in BJJ. Learn deep collar grip mechanics, mount maintenance during setup, and finishing sequences for this classic gi choke.
 
-### [[Crotch Ripper]]
+### [[Submissions/Crotch Ripper|Crotch Ripper]]
 
 Master the Crotch Ripper leg lock in BJJ. Groin compression submission from lockdown with safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-### [[Crotch Ripper from Lockdown]]
+### [[Submissions/Crotch Ripper/from Lockdown|Crotch Ripper from Lockdown]]
 
 Master the Crotch Ripper leg lock in BJJ. Groin compression submission from lockdown with safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.
 
-### [[Darce Choke]]
+### [[Submissions/Darce Choke|Darce Choke]]
 
 Master the Darce Choke in BJJ. Complete guide covering setup requirements, finishing mechanics, safety protocols, and defensive strategies from multiple positions.
 
-### [[Darce Choke from Darce Control]]
+### [[Submissions/Darce Choke/from Darce Control|Darce Choke from Darce Control]]
 
 Master the Darce Choke finish from Darce Control position. Learn grip mechanics, hip positioning, shoulder pressure, and finishing details for this high-percentage blood choke.
 
-### [[Darce Choke from Leg Drag]]
+### [[Submissions/Darce Choke/from Leg Drag|Darce Choke from Leg Drag]]
 
 Master the Darce choke from leg drag control in BJJ. Complete guide covering entry mechanics, finishing details, and defensive responses for grapplers.
 
-### [[Darce Choke from Overhook Control]]
+### [[Submissions/Darce Choke/from Overhook Control|Darce Choke from Overhook Control]]
 
 Master the Darce Choke from Overhook Control with expert finishing mechanics, defensive strategies, and training progressions for this arm triangle variant.
 
-### [[Darce Choke from Twister Side Control]]
+### [[Submissions/Darce Choke/from Twister Side Control|Darce Choke from Twister Side Control]]
 
 Master the Darce Choke from Twister Side Control with detailed finishing mechanics, defensive counters, and safety protocols for serious BJJ practitioners.
 
-### [[Electric Chair]]
+### [[Submissions/Electric Chair|Electric Chair]]
 
 Master the Electric Chair from lockdown. Complete guide with compression mechanics, setup, and safety. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Electric Chair from Deep Half Guard]]
+### [[Submissions/Electric Chair/from Deep Half Guard|Electric Chair from Deep Half Guard]]
 
 Master the Electric Chair from lockdown. Complete guide with compression mechanics, setup, and safety. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Electric Chair from Electric Chair]]
+### [[Submissions/Electric Chair/from Electric Chair|Electric Chair from Electric Chair]]
 
 Master the Electric Chair in BJJ. Complete lockdown submission guide targeting the hip and groin. Systematic setup, execution, and defense strategies.
 
-### [[Estima Lock]]
+### [[Submissions/Estima Lock|Estima Lock]]
 
 Master Estima Lock foot submission with safety protocols, setup from 50-50 guard, execution steps, defense patterns. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.
 
-### [[Estima Lock from Estima Lock Control]]
+### [[Submissions/Estima Lock/from Estima Lock Control|Estima Lock from Estima Lock Control]]
 
 Master the Estima Lock finish from Estima Lock control. Complete guide to foot lock mechanics, grip configuration, dorsiflexion pressure, and safe application.
 
-### [[Estima Lock from Honey Hole]]
+### [[Submissions/Estima Lock/from Honey Hole|Estima Lock from Honey Hole]]
 
 Master the Estima Lock from Honey Hole in BJJ. Complete guide to foot lock mechanics, setup sequences, and defensive strategies from inside leg entanglement.
 
-### [[Estima Lock from Saddle]]
+### [[Submissions/Estima Lock/from Saddle|Estima Lock from Saddle]]
 
 Learn the Estima Lock from Saddle position with expert finishing mechanics, grip details, safety protocols, and defensive strategies for BJJ practitioners.
 
-### [[Ezekiel Choke]]
+### [[Submissions/Ezekiel Choke|Ezekiel Choke]]
 
 Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based blood choke mechanics, bilateral pressure, safety protocols, and finishing from mount and side control.
 
-### [[Ezekiel Choke from Closed Guard]]
+### [[Submissions/Ezekiel Choke/from Closed Guard|Ezekiel Choke from Closed Guard]]
 
 Master the Ezekiel Choke from inside closed guard top. Gi sleeve grip setup, surprise attack timing, finishing mechanics, and complete defensive counter guide.
 
-### [[Ezekiel Choke from Mount]]
+### [[Submissions/Ezekiel Choke/from Mount|Ezekiel Choke from Mount]]
 
 Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mechanics, weight-driven finishing sequences, and defenses against this devastating gi blood choke.
 
-### [[Ezekiel Choke from Side Control]]
+### [[Submissions/Ezekiel Choke/from Side Control|Ezekiel Choke from Side Control]]
 
 Master the Ezekiel Choke from Side Control with this complete BJJ guide covering sleeve grip setup, finishing mechanics, defense, and training drills.
 
-### [[Far Side Armbar]]
+### [[Submissions/Far Side Armbar|Far Side Armbar]]
 
 Master Far Side Armbar from top positions. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Far Side Armbar from Side Control]]
+### [[Submissions/Far Side Armbar/from Side Control|Far Side Armbar from Side Control]]
 
 Master Far Side Armbar from top positions. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Flying Armbar from Closed Guard]]
+### [[Submissions/Flying Armbar/from Closed Guard|Flying Armbar from Closed Guard]]
 
 Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Complete guide with safety protocols and defense.
 
-### [[Flying Kneebar]]
+### [[Submissions/Flying Kneebar|Flying Kneebar]]
 
 Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-### [[Flying Kneebar from Standing Position]]
+### [[Submissions/Flying Kneebar/from Standing Position|Flying Kneebar from Standing Position]]
 
 Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-### [[Gift Wrap Armbar from Gift Wrap]]
+### [[Submissions/Gift Wrap Armbar/from Gift Wrap|Gift Wrap Armbar from Gift Wrap]]
 
 Master the Gift Wrap Armbar in BJJ. Complete guide to attacking the isolated arm from gift wrap control with finishing mechanics, defenses, and safety.
 
-### [[Gogoplata]]
+### [[Submissions/Gogoplata|Gogoplata]]
 
 Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-### [[Gogoplata from Gogoplata Control]]
+### [[Submissions/Gogoplata/from Gogoplata Control|Gogoplata from Gogoplata Control]]
 
 Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.
 
-### [[Guillotine Choke]]
+### [[Submissions/Guillotine Choke|Guillotine Choke]]
 
 Master the Guillotine Choke in BJJ with step-by-step execution, safety protocols, and variations. Complete guide for attacking and defending this versatile choke.
 
-### [[Guillotine Choke from Butterfly Guard]]
+### [[Submissions/Guillotine Choke/from Butterfly Guard|Guillotine Choke from Butterfly Guard]]
 
 Master the Guillotine Choke from Butterfly Guard. Learn hook elevation setups, grip mechanics, and finishing details for this high-percentage blood choke.
 
-### [[Guillotine Choke from Clinch]]
+### [[Submissions/Guillotine Choke/from Clinch|Guillotine Choke from Clinch]]
 
 Master the Guillotine Choke from Clinch in BJJ. Complete guide to the standing guillotine variation covering grip mechanics, finishing details, and defensive strategies.
 
-### [[Guillotine Choke from Guillotine Control]]
+### [[Submissions/Guillotine Choke/from Guillotine Control|Guillotine Choke from Guillotine Control]]
 
 Master the guillotine choke finish from guillotine control. Complete guide covering grip mechanics, finishing sequences, and defensive responses.
 
-### [[Guillotine Choke from Hindulotine]]
+### [[Submissions/Guillotine Choke/from Hindulotine|Guillotine Choke from Hindulotine]]
 
 Master the guillotine choke finish from Hindulotine position. Learn rotational torque mechanics, grip placement, and step-by-step execution for this high-percentage blood choke.
 
-### [[Guillotine Choke from Twister Control]]
+### [[Submissions/Guillotine Choke/from Twister Control|Guillotine Choke from Twister Control]]
 
 Master the guillotine choke from Twister Control. Learn setup mechanics, finishing sequences, and defensive strategies for this 10th Planet submission chain.
 
-### [[Heel Hook]]
+### [[Submissions/Heel Hook|Heel Hook]]
 
 Master the Heel Hook in BJJ. Complete safety-first guide covering inside/outside variations, setup from Ashi Garami positions, anatomical targets, and defensive counters.
 
-### [[Heel Hook from 50-50 Guard]]
+### [[Submissions/Heel Hook/from 50-50 Guard|Heel Hook from 50-50 Guard]]
 
 Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip mechanics, finishing details, and critical safety protocols for this advanced leg lock.
 
-### [[Heel Hook from Ashi Garami]]
+### [[Submissions/Heel Hook/from Ashi Garami|Heel Hook from Ashi Garami]]
 
 Master the heel hook from Ashi Garami with systematic grip mechanics, rotational finishing details, and hierarchy-based attack strategy for no-gi grappling.
 
-### [[Heel Hook from Backside 50-50]]
+### [[Submissions/Heel Hook/from Backside 50-50|Heel Hook from Backside 50-50]]
 
 Master the heel hook from Backside 50-50 in BJJ. Complete guide to opportunistic leg lock finishing from disadvantaged entanglement with expert breakdowns.
 
-### [[Heel Hook from Carni]]
+### [[Submissions/Heel Hook/from Carni|Heel Hook from Carni]]
 
 Master the heel hook from Carni position in BJJ. Expert finishing guide covering rotational mechanics, leg control, defensive escapes, and safe training methods.
 
-### [[Heel Hook from Cross Ashi-Garami]]
+### [[Submissions/Heel Hook/from Cross Ashi-Garami|Heel Hook from Cross Ashi-Garami]]
 
 Master the heel hook from Cross Ashi-Garami with expert finishing mechanics, safety protocols, and defensive strategies for this high-percentage leg lock.
 
-### [[Heel Hook from Grasshopper Guard]]
+### [[Submissions/Heel Hook/from Grasshopper Guard|Heel Hook from Grasshopper Guard]]
 
 Master the heel hook from grasshopper guard with inverted entry mechanics, leg entanglement transitions, finishing details, and essential safety protocols.
 
-### [[Heel Hook from Honey Hole]]
+### [[Submissions/Heel Hook/from Honey Hole|Heel Hook from Honey Hole]]
 
 Master the heel hook finish from Honey Hole. Step-by-step guide with grip mechanics, rotational breaking details, safety protocols, and escape defense.
 
-### [[Heel Hook from Inside Ashi-Garami]]
+### [[Submissions/Heel Hook/from Inside Ashi-Garami|Heel Hook from Inside Ashi-Garami]]
 
 Master the heel hook from Inside Ashi-Garami with expert finishing mechanics, grip configurations, safety protocols, and defensive strategies for serious BJJ practitioners.
 
-### [[Heel Hook from Inside Sankaku]]
+### [[Submissions/Heel Hook/from Inside Sankaku|Heel Hook from Inside Sankaku]]
 
 Master the heel hook from Inside Sankaku position. Complete guide to grip mechanics, rotational finishing, defensive responses, and safe training protocols.
 
-### [[Heel Hook from Kneebar Control]]
+### [[Submissions/Heel Hook/from Kneebar Control|Heel Hook from Kneebar Control]]
 
 Learn the heel hook from kneebar control in BJJ. Complete guide covering grip transition mechanics, finishing details, defensive counters, and safety protocols.
 
-### [[Heel Hook from Saddle]]
+### [[Submissions/Heel Hook/from Saddle|Heel Hook from Saddle]]
 
 Master the heel hook from saddle position in BJJ. Complete guide to setup, finishing mechanics, defense, and safety protocols for this devastating leg lock.
 
-### [[Heel Hook from Ushiro Ashi]]
+### [[Submissions/Heel Hook/from Ushiro Ashi|Heel Hook from Ushiro Ashi]]
 
 Master the Heel Hook from Ushiro Ashi-Garami. Complete guide covering reversed leg entanglement finishing mechanics, grip adjustments, safety, and defense.
 
-### [[High Elbow Guillotine]]
+### [[Submissions/High Elbow Guillotine|High Elbow Guillotine]]
 
 Master High Elbow Guillotine in BJJ. Complete guide with safety protocols, setup, execution, and expert analysis. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[High Elbow Guillotine from Front Headlock]]
+### [[Submissions/High Elbow Guillotine/from Front Headlock|High Elbow Guillotine from Front Headlock]]
 
 Master the High Elbow Guillotine from Front Headlock with elevated elbow mechanics, hip rotation finishing pressure, and comprehensive defensive strategies.
 
-### [[High Elbow Guillotine from Guillotine Control]]
+### [[Submissions/High Elbow Guillotine/from Guillotine Control|High Elbow Guillotine from Guillotine Control]]
 
 Master the High Elbow Guillotine from Guillotine Control. Complete guide covering ceiling-elbow mechanics, carotid compression, and proven defensive counters.
 
-### [[High Elbow Guillotine from Hindulotine]]
+### [[Submissions/High Elbow Guillotine/from Hindulotine|High Elbow Guillotine from Hindulotine]]
 
 Master the High Elbow Guillotine from Hindulotine. Learn elevated elbow finishing mechanics, rotational pressure setups, and defensive counters for this blood choke.
 
-### [[Hindulotine]]
+### [[Submissions/Hindulotine|Hindulotine]]
 
 Learn the Hindulotine choke, an advanced guillotine variation using a chin strap grip from front headlock control. Complete guide with setups, mechanics, and defense.
 
-### [[Hindulotine from Hindulotine]]
+### [[Submissions/Hindulotine/from Hindulotine|Hindulotine from Hindulotine]]
 
 Master the Hindulotine choke finish from Hindulotine control. Complete guide to chin strap grip mechanics, rotational torque, and finishing details.
 
-### [[Inside Heel Hook]]
+### [[Submissions/Inside Heel Hook|Inside Heel Hook]]
 
 Master Inside Heel Hook in BJJ. Complete guide with safety protocols, entry mechanics, and leg entanglement control. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%.
 
-### [[Inside Heel Hook from Honey Hole]]
+### [[Submissions/Inside Heel Hook/from Honey Hole|Inside Heel Hook from Honey Hole]]
 
 Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide covering grip mechanics, rotational finishing, defense protocols, and training safety.
 
-### [[Inside Heel Hook from Inside Sankaku]]
+### [[Submissions/Inside Heel Hook/from Inside Sankaku|Inside Heel Hook from Inside Sankaku]]
 
 Master the Inside Sankaku heel hook finish with detailed grip mechanics, rotational pressure application, defensive counters, and essential safety protocols.
 
-### [[Inside Heel Hook from Ushiro Ashi-Garami]]
+### [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami|Inside Heel Hook from Ushiro Ashi-Garami]]
 
 Master the inside heel hook from ushiro ashi-garami with detailed finishing mechanics, grip adjustments, and safety protocols for this advanced leg lock.
 
-### [[Inverted Triangle]]
+### [[Submissions/Inverted Triangle|Inverted Triangle]]
 
 Master the Inverted Triangle choke in BJJ. Complete guide covering setup from guard and scrambles, perpendicular finishing mechanics, and defensive counters.
 
-### [[Inverted Triangle from Triangle Control]]
+### [[Submissions/Inverted Triangle/from Triangle Control|Inverted Triangle from Triangle Control]]
 
 Master the Inverted Triangle from Triangle Control. Learn setup mechanics, finishing details, and defensive counters for this advanced blood choke variation.
 
-### [[Japanese Necktie]]
+### [[Submissions/Japanese Necktie|Japanese Necktie]]
 
 Master Japanese Necktie in BJJ. Complete guide with safety protocols, setup from turtle, execution steps, and variations. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Japanese Necktie from Front Headlock]]
+### [[Submissions/Japanese Necktie/from Front Headlock|Japanese Necktie from Front Headlock]]
 
 Master Japanese Necktie in BJJ. Complete guide with safety protocols, setup from turtle, execution steps, and variations. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Kesa Gatame Arm Crush]]
+### [[Submissions/Kesa Gatame Arm Crush|Kesa Gatame Arm Crush]]
 
 Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering execution, defense, and safety for this powerful compression lock from scarf hold position.
 
-### [[Kesa Gatame Arm Crush from Kesa Gatame]]
+### [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame Arm Crush from Kesa Gatame]]
 
 Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering execution, defense, and safety for this powerful compression lock from scarf hold position.
 
-### [[Kimura]]
+### [[Submissions/Kimura|Kimura]]
 
 Master the Kimura shoulder lock in BJJ. Complete guide covering grip mechanics, finishing technique, defensive escapes, and applications from multiple positions.
 
-### [[Kimura from Armbar Control]]
+### [[Submissions/Kimura/from Armbar Control|Kimura from Armbar Control]]
 
 Master the Kimura shoulder lock from Armbar Control in BJJ. Learn figure-four grip transitions, finishing mechanics, and high-percentage chain attacks.
 
-### [[Kimura from Butterfly Guard]]
+### [[Submissions/Kimura/from Butterfly Guard|Kimura from Butterfly Guard]]
 
 Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, hook leverage, finishing mechanics, and counters for this high-percentage bottom submission.
 
-### [[Kimura from Crucifix]]
+### [[Submissions/Kimura/from Crucifix|Kimura from Crucifix]]
 
 Master the Kimura from Crucifix in BJJ. Learn how bilateral arm isolation creates devastating shoulder lock opportunities with expert finishing mechanics.
 
-### [[Kimura from Flattened Half Guard]]
+### [[Submissions/Kimura/from Flattened Half Guard|Kimura from Flattened Half Guard]]
 
 Master the Kimura shoulder lock from flattened half guard top. Expert guide covering grip capture, pressure finishing mechanics, and counter management.
 
-### [[Kimura from Front Headlock]]
+### [[Submissions/Kimura/from Front Headlock|Kimura from Front Headlock]]
 
 Master the Kimura shoulder lock from front headlock in BJJ. Learn grip transitions, figure-four mechanics, and finishing details from this dominant control position.
 
-### [[Kimura from Gift Wrap]]
+### [[Submissions/Kimura/from Gift Wrap|Kimura from Gift Wrap]]
 
 Master the Kimura from Gift Wrap in BJJ. Complete guide to transitioning the trapped arm into a high-percentage shoulder lock with step-by-step finishing details.
 
-### [[Kimura from Guard]]
+### [[Submissions/Kimura/from Guard|Kimura from Guard]]
 
 Master the Kimura from Guard in BJJ. Complete guide covering setup, execution, and finishing mechanics from closed guard with safety protocols and defensive strategies.
 
-### [[Kimura from Half Guard]]
+### [[Submissions/Kimura/from Half Guard|Kimura from Half Guard]]
 
 Master the Kimura from Half Guard in BJJ. Complete guide with safety protocols, setup from underhook battle, finishing mechanics. Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Kimura from High Mount]]
+### [[Submissions/Kimura/from High Mount|Kimura from High Mount]]
 
 Master the Kimura shoulder lock from High Mount. Complete finishing guide with figure-four grip mechanics, rotational force application, and defensive counters.
 
-### [[Kimura from Kesa Gatame]]
+### [[Submissions/Kimura/from Kesa Gatame|Kimura from Kesa Gatame]]
 
 Master the Kimura shoulder lock from Kesa Gatame. Complete guide covering grip transition mechanics, finishing rotation, defense, and safety for BJJ practitioners.
 
-### [[Kimura from Kimura Trap]]
+### [[Submissions/Kimura/from Kimura Trap|Kimura from Kimura Trap]]
 
 Master the Kimura from Kimura Trap in BJJ. Complete guide to finishing the shoulder lock from figure-four control with attacking and defensive strategies.
 
-### [[Kimura from Knee Shield Half Guard]]
+### [[Submissions/Kimura/from Knee Shield Half Guard|Kimura from Knee Shield Half Guard]]
 
 Master the Kimura from Knee Shield Half Guard. Complete guide to setup, grip mechanics, finishing sequence, and defensive counters for this bottom half guard shoulder lock.
 
-### [[Kimura from Knee on Belly]]
+### [[Submissions/Kimura/from Knee on Belly|Kimura from Knee on Belly]]
 
 Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressure creates shoulder lock opportunities through forced defensive reactions and grip exposure.
 
-### [[Kimura from Kuzure Kesa-Gatame]]
+### [[Submissions/Kimura/from Kuzure Kesa-Gatame|Kimura from Kuzure Kesa-Gatame]]
 
 Master the Kimura shoulder lock from Kuzure Kesa-Gatame with expert grip mechanics, finishing sequences, and counters for attacker and defender.
 
-### [[Kimura from Lasso Guard]]
+### [[Submissions/Kimura/from Lasso Guard|Kimura from Lasso Guard]]
 
 Master the Kimura shoulder lock from Lasso Guard top position. Learn setup mechanics, figure-four grip details, finishing sequences, and defensive counters.
 
-### [[Kimura from Lockdown]]
+### [[Submissions/Kimura/from Lockdown|Kimura from Lockdown]]
 
 Master the Kimura from Lockdown in BJJ. Learn how the lockdown half guard creates unique shoulder lock opportunities with trapped-leg control mechanics.
 
-### [[Kimura from Modified Mount]]
+### [[Submissions/Kimura/from Modified Mount|Kimura from Modified Mount]]
 
 Master the Kimura shoulder lock from Modified Mount. Learn grip mechanics, rotational finishing details, and defensive strategies for this high-percentage submission.
 
-### [[Kimura from Modified Scarf Hold]]
+### [[Submissions/Kimura/from Modified Scarf Hold|Kimura from Modified Scarf Hold]]
 
 Master the Kimura from Modified Scarf Hold in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and safety protocols.
 
-### [[Kimura from Mount]]
+### [[Submissions/Kimura/from Mount|Kimura from Mount]]
 
 Master the Kimura from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution steps for this high-percentage shoulder lock.
 
-### [[Kimura from New York Control]]
+### [[Submissions/Kimura/from New York Control|Kimura from New York Control]]
 
 Master the Kimura shoulder lock from New York Control rubber guard. Complete guide covering setup mechanics, grip transitions, finishing details, and defensive strategies.
 
-### [[Kimura from Overhook Control]]
+### [[Submissions/Kimura/from Overhook Control|Kimura from Overhook Control]]
 
 Master the Kimura shoulder lock from overhook control. Complete guide to grip transitions, rotational finishing mechanics, and defensive counter-strategies.
 
-### [[Kimura from Quarter Guard]]
+### [[Submissions/Kimura/from Quarter Guard|Kimura from Quarter Guard]]
 
 Master the Kimura shoulder lock from Quarter Guard top. Expert guide covering figure-four grip attacks, finishing mechanics, counters, and training drills for BJJ.
 
-### [[Kimura from Reverse Kesa-Gatame]]
+### [[Submissions/Kimura/from Reverse Kesa-Gatame|Kimura from Reverse Kesa-Gatame]]
 
 Master the Kimura from Reverse Kesa-Gatame with expert finishing mechanics, grip transitions, and defensive counters for this high-percentage shoulder lock.
 
-### [[Kimura from Reverse Scarf Hold]]
+### [[Submissions/Kimura/from Reverse Scarf Hold|Kimura from Reverse Scarf Hold]]
 
 Master the Kimura shoulder lock from Reverse Scarf Hold with expert finishing mechanics, grip sequences, defensive counters, and safety protocols.
 
-### [[Kimura from S Mount]]
+### [[Submissions/Kimura/from S Mount|Kimura from S Mount]]
 
 Master the Kimura shoulder lock from S Mount in BJJ. Complete finishing guide covering figure-four grip mechanics, rotational pressure, and defensive counters for grapplers.
 
-### [[Kimura from Scarf Hold Position]]
+### [[Submissions/Kimura/from Scarf Hold Position|Kimura from Scarf Hold Position]]
 
 Master the Kimura from Scarf Hold in BJJ. High-percentage shoulder lock using the perpendicular angle and arm isolation of kesa gatame to finish.
 
-### [[Kimura from Shoulder of Justice]]
+### [[Submissions/Kimura/from Shoulder of Justice|Kimura from Shoulder of Justice]]
 
 Master the Kimura from Shoulder of Justice in BJJ. Complete guide covering shoulder lock mechanics, grip sequences, finishing details, and escape strategies.
 
-### [[Kimura from Side Control]]
+### [[Submissions/Kimura/from Side Control|Kimura from Side Control]]
 
 Master the Kimura from Side Control in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-### [[Kimura from Standing]]
+### [[Submissions/Kimura/from Standing|Kimura from Standing]]
 
 Master the Kimura from Standing in BJJ. Complete safety guide with takedown integration, shoulder lock mechanics, control transitions. Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Kimura from Turtle]]
+### [[Submissions/Kimura/from Turtle|Kimura from Turtle]]
 
 Master Kimura from Turtle in BJJ. Complete guide with safety protocols, setup, execution steps. Success: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Kimura from Twister Side Control]]
+### [[Submissions/Kimura/from Twister Side Control|Kimura from Twister Side Control]]
 
 Master the Kimura shoulder lock from Twister Side Control. Complete guide to setup, figure-four grip mechanics, finishing details, and defense strategies.
 
-### [[Kneebar]]
+### [[Submissions/Kneebar|Kneebar]]
 
 Master the Kneebar in BJJ. Complete guide covering safety protocols, setup from ashi garami, finishing mechanics, and defensive escapes for all skill levels.
 
-### [[Kneebar from 50-50]]
+### [[Submissions/Kneebar/from 50-50|Kneebar from 50-50]]
 
 Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety protocols, leg entanglement mechanics, finish details. Beginner 30%, Intermediate 50%, Advanced 70%.
 
-### [[Kneebar from Backside 50-50]]
+### [[Submissions/Kneebar/from Backside 50-50|Kneebar from Backside 50-50]]
 
 Master the kneebar from Backside 50-50 in BJJ. Complete guide to leg isolation, finishing mechanics, and defense from this dominant leg entanglement position.
 
-### [[Kneebar from Carni]]
+### [[Submissions/Kneebar/from Carni|Kneebar from Carni]]
 
 Master the kneebar from Carni position in BJJ. Complete guide to setup mechanics, finishing details, defensive counters, and essential safety protocols.
 
-### [[Kneebar from Guard]]
+### [[Submissions/Kneebar/from Guard|Kneebar from Guard]]
 
 Master Kneebar from Guard in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Kneebar from Half Guard]]
+### [[Submissions/Kneebar/from Half Guard|Kneebar from Half Guard]]
 
 Master the Kneebar from Half Guard in BJJ. Complete guide covering setup, execution, defense, and safety protocols for this powerful leg lock submission.
 
-### [[Kneebar from Honey Hole]]
+### [[Submissions/Kneebar/from Honey Hole|Kneebar from Honey Hole]]
 
 Master the kneebar from Honey Hole in BJJ. Complete guide to hip extension finishing mechanics, defensive counters, and critical safety protocols for knee locks.
 
-### [[Kneebar from Inside Ashi-Garami]]
+### [[Submissions/Kneebar/from Inside Ashi-Garami|Kneebar from Inside Ashi-Garami]]
 
 Master the kneebar from inside ashi-garami. Learn hip positioning, foot control mechanics, and progressive finishing techniques for this powerful leg lock.
 
-### [[Kneebar from Inside Sankaku]]
+### [[Submissions/Kneebar/from Inside Sankaku|Kneebar from Inside Sankaku]]
 
 Master the kneebar from Inside Sankaku in BJJ. Complete finishing guide covering setup mechanics, hip extension technique, defensive counters, and safety protocols.
 
-### [[Kneebar from Kneebar Control]]
+### [[Submissions/Kneebar/from Kneebar Control|Kneebar from Kneebar Control]]
 
 Master the kneebar finish from kneebar control in BJJ. Step-by-step execution guide covering hip mechanics, leg control, defensive counters, and safety protocols.
 
-### [[Kneebar from Leg Entanglement]]
+### [[Submissions/Kneebar/from Leg Entanglement|Kneebar from Leg Entanglement]]
 
 Master the kneebar from leg entanglement in BJJ. Learn setup from ashi garami, execution mechanics, and defensive strategies for this high-percentage leg lock.
 
-### [[Kneebar from Saddle]]
+### [[Submissions/Kneebar/from Saddle|Kneebar from Saddle]]
 
 Master the kneebar from Saddle position in BJJ. Expert guide covering finishing mechanics, hip extension technique, and comprehensive safety protocols.
 
-### [[Kneebar from Single Leg X-Guard]]
+### [[Submissions/Kneebar/from Single Leg X-Guard|Kneebar from Single Leg X-Guard]]
 
 Master the kneebar from Single Leg X-Guard. Expert guide to this BJJ leg lock counter-attack with entry mechanics, finishing details, and safety protocols.
 
-### [[Kneebar from Straight Ankle Lock Control]]
+### [[Submissions/Kneebar/from Straight Ankle Lock Control|Kneebar from Straight Ankle Lock Control]]
 
 Master the kneebar from straight ankle lock control in BJJ. Complete guide covering setup mechanics, finishing details, defensive counters, and safety protocols.
 
-### [[Kneebar from Toe Hold Control]]
+### [[Submissions/Kneebar/from Toe Hold Control|Kneebar from Toe Hold Control]]
 
 Master the kneebar from toe hold control in BJJ. Complete guide to reading defensive reactions, transitioning attacks, and finishing the knee hyperextension.
 
-### [[Kneebar from Top]]
+### [[Submissions/Kneebar/from Top|Kneebar from Top]]
 
 Master the Kneebar from Top positions in BJJ. Complete safety guide with setup, execution, and control mechanics for attacking the knee joint from dominant positions.
 
-### [[Loop Choke]]
+### [[Submissions/Loop Choke|Loop Choke]]
 
 Master the Loop Choke in BJJ - deceptive collar choke from guard, mount, side control, turtle. Technical execution with grip mechanics and body positioning.
 
-### [[Loop Choke from Closed Guard]]
+### [[Submissions/Loop Choke/from Closed Guard|Loop Choke from Closed Guard]]
 
 Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide covering collar grip setup, turning mechanics, and finishing this blood choke from guard bottom.
 
-### [[Loop Choke from Half Guard]]
+### [[Submissions/Loop Choke/from Half Guard|Loop Choke from Half Guard]]
 
 Master the Loop Choke from Half Guard Top in BJJ. Learn deep collar grip timing, sprawl finishing mechanics, and setups that exploit guard recovery attempts.
 
-### [[Loop Choke from Mount]]
+### [[Submissions/Loop Choke/from Mount|Loop Choke from Mount]]
 
 Master the Loop Choke from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Loop Choke from Side Control]]
+### [[Submissions/Loop Choke/from Side Control|Loop Choke from Side Control]]
 
 Master the Loop Choke from Side Control in BJJ. Complete guide to gi collar setup, sprawl finishing mechanics, defensive strategies, and training drills.
 
-### [[Loop Choke from Turtle]]
+### [[Submissions/Loop Choke/from Turtle|Loop Choke from Turtle]]
 
 Master the loop choke from turtle in BJJ. Learn cross-collar grip mechanics, rolling finishes, and defensive counters for this high-percentage gi submission.
 
-### [[Marce Choke]]
+### [[Submissions/Marce Choke|Marce Choke]]
 
 Master the Marce Choke in BJJ - a powerful gi-specific lapel choke from top positions. Complete setup, execution, defense, and safety protocols for competition.
 
-### [[Marce Choke from Side Control]]
+### [[Submissions/Marce Choke/from Side Control|Marce Choke from Side Control]]
 
 Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, defense, and safety protocols for gi competition.
 
-### [[Mir Lock]]
+### [[Submissions/Mir Lock|Mir Lock]]
 
 Master the Mir Lock shoulder submission in BJJ. Complete guide with safety protocols, setup from top control, execution, and defensive strategies for all levels.
 
-### [[Mir Lock from Side Control]]
+### [[Submissions/Mir Lock/from Side Control|Mir Lock from Side Control]]
 
 Master the Mir Lock shoulder submission in BJJ. Complete guide with safety protocols, setup from top control, execution, and defensive strategies for all levels.
 
-### [[Monoplata]]
+### [[Submissions/Monoplata|Monoplata]]
 
 Master the Monoplata submission in BJJ. Complete guide covering setup from guard, execution steps, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.
 
-### [[Monoplata from Guard]]
+### [[Submissions/Monoplata/from Guard|Monoplata from Guard]]
 
 Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.
 
-### [[Monoplata from Mount]]
+### [[Submissions/Monoplata/from Mount|Monoplata from Mount]]
 
 Master Monoplata from Mount in BJJ. Complete safety guide covering setup, execution, and injury prevention. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.
 
-### [[Mounted Crucifix Armbar]]
+### [[Submissions/Mounted Crucifix Armbar|Mounted Crucifix Armbar]]
 
 Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finishing mechanics, step-by-step execution, escape defense, and safety protocols.
 
-### [[Mounted Crucifix Armbar from Mounted Crucifix]]
+### [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix|Mounted Crucifix Armbar from Mounted Crucifix]]
 
 Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finishing mechanics, step-by-step execution, escape defense, and safety protocols.
 
-### [[Neck Crank from Mounted Crucifix]]
+### [[Submissions/Neck Crank/from Mounted Crucifix|Neck Crank from Mounted Crucifix]]
 
 Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cervical spine compression finish using arm-trapped control for high-percentage taps.
 
-### [[Neck Crank from Twister Control]]
+### [[Submissions/Neck Crank/from Twister Control|Neck Crank from Twister Control]]
 
 Master the neck crank from Twister Control in BJJ. Learn cervical spine attack mechanics, safe application protocols, and progressive training methods.
 
-### [[North-South Choke]]
+### [[Submissions/North-South Choke|North-South Choke]]
 
 Master North-South Choke in BJJ. Complete guide with setup from top control, execution mechanics, safety protocols. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[North-South Choke from Kesa Gatame]]
+### [[Submissions/North-South Choke/from Kesa Gatame|North-South Choke from Kesa Gatame]]
 
 Complete guide to the North-South Choke from Kesa Gatame in BJJ. Detailed execution steps, defensive counters, safety protocols, and training progressions.
 
-### [[North-South Choke from Modified Scarf Hold]]
+### [[Submissions/North-South Choke/from Modified Scarf Hold|North-South Choke from Modified Scarf Hold]]
 
 Master the North-South Choke from Modified Scarf Hold with step-by-step entry mechanics, shoulder pressure finishing details, and proven defensive strategies.
 
-### [[North-South Choke from North-South]]
+### [[Submissions/North-South Choke/from North-South|North-South Choke from North-South]]
 
 Master the North-South Choke from North-South in BJJ. Expert guide to grip mechanics, shoulder pressure, and finishing details for this powerful blood choke.
 
-### [[North-South Choke from Reverse Scarf]]
+### [[Submissions/North-South Choke/from Reverse Scarf|North-South Choke from Reverse Scarf]]
 
 Master the North-South Choke from Reverse Scarf Hold. Complete finishing mechanics, escape strategies, and progressive training drills for BJJ grapplers.
 
-### [[North-South Choke from Shoulder of Justice]]
+### [[Submissions/North-South Choke/from Shoulder of Justice|North-South Choke from Shoulder of Justice]]
 
 Master the North-South Choke from Shoulder of Justice with detailed grip mechanics, transition steps, and finishing pressure. Complete BJJ submission guide.
 
-### [[North-South Choke from Side Control]]
+### [[Submissions/North-South Choke/from Side Control|North-South Choke from Side Control]]
 
 Master the North-South Choke from Side Control in BJJ. Learn the transition, grip mechanics, shoulder pressure, and finishing details for this high-percentage blood choke.
 
-### [[Omoplata]]
+### [[Submissions/Omoplata|Omoplata]]
 
 Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations from guard positions with sweep options.
 
-### [[Omoplata from Armbar Control]]
+### [[Submissions/Omoplata/from Armbar Control|Omoplata from Armbar Control]]
 
 Master the omoplata from armbar control in BJJ. Complete guide covering chain attack mechanics, finishing details, defensive strategies, and training drills.
 
-### [[Omoplata from Butterfly Guard]]
+### [[Submissions/Omoplata/from Butterfly Guard|Omoplata from Butterfly Guard]]
 
 Master the Omoplata from Butterfly Guard. Learn hook elevation entries, overhook setups, and finishing mechanics for this dynamic BJJ shoulder lock submission.
 
-### [[Omoplata from Crackhead Control]]
+### [[Submissions/Omoplata/from Crackhead Control|Omoplata from Crackhead Control]]
 
 Master the omoplata from Crackhead Control. Complete guide to this 10th Planet shoulder lock entry with finishing mechanics, defensive counters, and drills.
 
-### [[Omoplata from De La Riva Guard]]
+### [[Submissions/Omoplata/from De La Riva Guard|Omoplata from De La Riva Guard]]
 
 Master the omoplata from De La Riva Guard. Leverage DLR hooks and angles to isolate the shoulder, with sweep-to-finish details for serious grapplers.
 
-### [[Omoplata from Double Sleeve Guard]]
+### [[Submissions/Omoplata/from Double Sleeve Guard|Omoplata from Double Sleeve Guard]]
 
 Master the omoplata shoulder lock from double sleeve guard. Learn grip manipulation, leg swing mechanics, and finishing details for this high-percentage setup.
 
-### [[Omoplata from Guard]]
+### [[Submissions/Omoplata/from Guard|Omoplata from Guard]]
 
 Master Omoplata from Guard in BJJ. Complete shoulder lock guide with safety protocols, setup, execution. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-### [[Omoplata from Inverted Guard]]
+### [[Submissions/Omoplata/from Inverted Guard|Omoplata from Inverted Guard]]
 
 Master the omoplata from inverted guard in BJJ. Complete guide to setup, execution, and finishing this advanced shoulder lock from the inverted position.
 
-### [[Omoplata from Omoplata Control]]
+### [[Submissions/Omoplata/from Omoplata Control|Omoplata from Omoplata Control]]
 
 Master the omoplata finish from omoplata control position. Complete guide covering shoulder lock mechanics, finishing sequences, and defensive counters.
 
-### [[Omoplata from Rubber Guard]]
+### [[Submissions/Omoplata/from Rubber Guard|Omoplata from Rubber Guard]]
 
 Master the omoplata from Rubber Guard with entries from Mission Control and New York. Complete guide covering setup, execution, counters, and defense for no-gi.
 
-### [[Omoplata from Russian Leg Lasso]]
+### [[Submissions/Omoplata/from Russian Leg Lasso|Omoplata from Russian Leg Lasso]]
 
 Master the omoplata from Russian Leg Lasso. Complete guide covering finishing mechanics, defensive counters, and progressive training for advanced grapplers.
 
-### [[Omoplata from Spider Guard]]
+### [[Submissions/Omoplata/from Spider Guard|Omoplata from Spider Guard]]
 
 Master the Omoplata from Spider Guard in BJJ. Complete guide covering entry mechanics, shoulder lock finish, defense strategies, and competition tactics.
 
-### [[Outside Heel Hook]]
+### [[Submissions/Outside Heel Hook|Outside Heel Hook]]
 
 Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention, and defensive strategies from leg entanglements.
 
-### [[Outside Heel Hook from 50-50 Guard]]
+### [[Submissions/Outside Heel Hook/from 50-50 Guard|Outside Heel Hook from 50-50 Guard]]
 
 Master the outside heel hook from 50-50 guard. Learn grip mechanics, heel exposure techniques, and safe finishing details for this high-risk leg lock attack.
 
-### [[Outside Heel Hook from Backside 50-50]]
+### [[Submissions/Outside Heel Hook/from Backside 50-50|Outside Heel Hook from Backside 50-50]]
 
 Master the Outside Heel Hook from Backside 50-50. Complete guide to rotational heel hook mechanics, safety protocols, and competition finishing strategies.
 
-### [[Outside Heel Hook from Cross Ashi-Garami]]
+### [[Submissions/Outside Heel Hook/from Cross Ashi-Garami|Outside Heel Hook from Cross Ashi-Garami]]
 
 Master the outside heel hook from cross ashi-garami. Learn grip mechanics, rotational finishing details, defensive counters, and critical safety protocols.
 
-### [[Outside Heel Hook from Honey Hole]]
+### [[Submissions/Outside Heel Hook/from Honey Hole|Outside Heel Hook from Honey Hole]]
 
 Master the outside heel hook from Honey Hole position. Learn grip transitions, rotational finishing mechanics, safety protocols, and defense strategies.
 
-### [[Outside Heel Hook from Leg Entanglement]]
+### [[Submissions/Outside Heel Hook/from Leg Entanglement|Outside Heel Hook from Leg Entanglement]]
 
 Master the outside heel hook from leg entanglement positions. Expert finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.
 
-### [[Outside Heel Hook from Outside Ashi-Garami]]
+### [[Submissions/Outside Heel Hook/from Outside Ashi-Garami|Outside Heel Hook from Outside Ashi-Garami]]
 
 Master the outside heel hook from outside ashi-garami with complete finishing mechanics, defensive strategies, and safety protocols for leg lock practitioners.
 
-### [[Outside Heel Hook from Saddle]]
+### [[Submissions/Outside Heel Hook/from Saddle|Outside Heel Hook from Saddle]]
 
 Master the outside heel hook from saddle position with proper grip mechanics, rotational finishing details, and critical safety protocols for training.
 
-### [[Outside Heel Hook from Ushiro Ashi-Garami]]
+### [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami|Outside Heel Hook from Ushiro Ashi-Garami]]
 
 Master the outside heel hook from ushiro ashi-garami. Expert guide covering reversed-angle grip mechanics, finishing details, and safety for this leg lock.
 
-### [[Paper Cutter Choke]]
+### [[Submissions/Paper Cutter Choke|Paper Cutter Choke]]
 
 Master Paper Cutter Choke in BJJ. Complete guide with safety protocols, setup from side control, execution details and defensive strategies for all levels.
 
-### [[Paper Cutter Choke from Kuzure Kesa-Gatame]]
+### [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Paper Cutter Choke from Kuzure Kesa-Gatame]]
 
 Master the paper cutter choke from kuzure kesa-gatame. Complete guide covering lapel grip mechanics, finishing details, and defense strategies.
 
-### [[Peruvian Necktie]]
+### [[Submissions/Peruvian Necktie|Peruvian Necktie]]
 
 Master the Peruvian Necktie in BJJ. Complete guide covering front headlock setup, leg threading mechanics, finishing sequence, and defensive escapes with safety protocols.
 
-### [[Peruvian Necktie from Front Headlock]]
+### [[Submissions/Peruvian Necktie/from Front Headlock|Peruvian Necktie from Front Headlock]]
 
 Master the Peruvian Necktie from front headlock. Learn leg-over-head blood choke mechanics, grip details, and finishing techniques for competitive BJJ.
 
-### [[Rear Naked Choke]]
+### [[Submissions/Rear Naked Choke|Rear Naked Choke]]
 
 Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.
 
-### [[Rear Naked Choke from Back Control]]
+### [[Submissions/Rear Naked Choke/from Back Control|Rear Naked Choke from Back Control]]
 
 Master the rear naked choke from back control. Complete guide to hand fighting, grip mechanics, choking sequences, and defensive strategies in BJJ.
 
-### [[Rear Naked Choke from Body Triangle]]
+### [[Submissions/Rear Naked Choke/from Body Triangle|Rear Naked Choke from Body Triangle]]
 
 Master the Rear Naked Choke from Body Triangle with expert finishing mechanics, grip sequences, and defensive strategies for this dominant back attack.
 
-### [[Rear Naked Choke from Crucifix]]
+### [[Submissions/Rear Naked Choke/from Crucifix|Rear Naked Choke from Crucifix]]
 
 Master the Rear Naked Choke from Crucifix position in BJJ. High-percentage blood choke finish with bilateral arm control, setup mechanics, and defense.
 
-### [[Rear Naked Choke from Gift Wrap]]
+### [[Submissions/Rear Naked Choke/from Gift Wrap|Rear Naked Choke from Gift Wrap]]
 
 Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the arm trap eliminates neck defense, creating a high-percentage blood choke finish.
 
-### [[Rear Naked Choke from Harness]]
+### [[Submissions/Rear Naked Choke/from Harness|Rear Naked Choke from Harness]]
 
 Master the Rear Naked Choke from Harness in BJJ. Complete guide to grip transitions, choking mechanics, defense strategies, and safety protocols.
 
-### [[Rear Naked Choke from Invisible Collar]]
+### [[Submissions/Rear Naked Choke/from Invisible Collar|Rear Naked Choke from Invisible Collar]]
 
 Master the Rear Naked Choke from Invisible Collar. Learn collar-to-RNC bait-and-switch transitions, finishing mechanics, and complete defensive guide.
 
-### [[Rear Naked Choke from Mounted Crucifix]]
+### [[Submissions/Rear Naked Choke/from Mounted Crucifix|Rear Naked Choke from Mounted Crucifix]]
 
 Learn to finish and defend the rear naked choke from mounted crucifix. Expert guide covering grip mechanics, choking arm placement, and escape methods.
 
-### [[Rear Naked Choke from Rear Triangle]]
+### [[Submissions/Rear Naked Choke/from Rear Triangle|Rear Naked Choke from Rear Triangle]]
 
 Master the Rear Naked Choke from Rear Triangle position. Learn how triangle leg control frees both hands for the choke while eliminating common RNC defenses.
 
-### [[Rear Naked Choke from Rodeo]]
+### [[Submissions/Rear Naked Choke/from Rodeo|Rear Naked Choke from Rodeo]]
 
 Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide covering finishing mechanics, control strategies, and defensive escapes from this turtle attack position.
 
-### [[Rear Naked Choke from Russian Cowboy]]
+### [[Submissions/Rear Naked Choke/from Russian Cowboy|Rear Naked Choke from Russian Cowboy]]
 
 Master the Rear Naked Choke from Russian Cowboy. Learn setup mechanics, chin clearing, grip transitions, and finishing details from single-hook back control.
 
-### [[Rear Naked Choke from Seat Belt Control Back]]
+### [[Submissions/Rear Naked Choke/from Seat Belt Control Back|Rear Naked Choke from Seat Belt Control Back]]
 
 Master the Rear Naked Choke from Seat Belt Control Back. Complete guide covering grip transitions, choking mechanics, defense, and training progressions.
 
-### [[Rear Naked Choke from Standing Back Control]]
+### [[Submissions/Rear Naked Choke/from Standing Back Control|Rear Naked Choke from Standing Back Control]]
 
 Master the rear naked choke from standing back control in BJJ. Complete guide covering grip mechanics, finishing sequences, and defensive counters for all levels.
 
-### [[Rear Naked Choke from Standing Rear Clinch]]
+### [[Submissions/Rear Naked Choke/from Standing Rear Clinch|Rear Naked Choke from Standing Rear Clinch]]
 
 Master the Standing RNC from Rear Clinch in BJJ. Expert guide to finishing mechanics, carotid compression, escape defense, and safety for standing chokes.
 
-### [[Rear Triangle Choke]]
+### [[Submissions/Rear Triangle Choke|Rear Triangle Choke]]
 
 Master the Rear Triangle Choke in BJJ. Complete guide to finishing mechanics, defensive escapes, and safety protocols for this high-percentage back attack.
 
-### [[Rear Triangle Choke from Back Control]]
+### [[Submissions/Rear Triangle Choke/from Back Control|Rear Triangle Choke from Back Control]]
 
 Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Rear Triangle Choke from Rear Triangle]]
+### [[Submissions/Rear Triangle Choke/from Rear Triangle|Rear Triangle Choke from Rear Triangle]]
 
 Master the rear triangle choke finish from rear triangle position. Learn squeeze mechanics, hip angle adjustments, and systematic finishing sequences for competition BJJ.
 
-### [[Reverse Armbar from Mount]]
+### [[Submissions/Armbar/Reverse Armbar from Mount|Reverse Armbar from Mount]]
 
 Master the Reverse Armbar in BJJ. Complete guide with safety protocols, setup, execution, and variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Reverse Kimura]]
+### [[Submissions/Reverse Kimura|Reverse Kimura]]
 
 Master Reverse Kimura in BJJ. Complete guide with safety protocols, setup from various positions, and execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Reverse Kimura from Standing Position]]
+### [[Submissions/Reverse Kimura/from Standing Position|Reverse Kimura from Standing Position]]
 
 Master Reverse Kimura in BJJ. Complete guide with safety protocols, setup from various positions, and execution. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Rolling Armbar from Closed Guard]]
+### [[Submissions/Armbar/Rolling Armbar from Closed Guard|Rolling Armbar from Closed Guard]]
 
 Master the Rolling Armbar in BJJ. Dynamic submission from guard and scrambles with technical precision. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-### [[Rolling Omoplata from Omoplata Control]]
+### [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control|Rolling Omoplata from Omoplata Control]]
 
 Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from failed sweeps or scrambles. Complete guide with finishing mechanics and safety protocols.
 
-### [[Short Choke]]
+### [[Submissions/Short Choke|Short Choke]]
 
 Master the Short Choke in BJJ. Devastating lapel strangle from top positions with minimal space. Complete guide with finishing mechanics, defense, and safety.
 
-### [[Short Choke from Back Control]]
+### [[Submissions/Short Choke/from Back Control|Short Choke from Back Control]]
 
 Master the Short Choke from Back Control in BJJ. Learn cross-collar grip mechanics, finishing sequences, and defensive counters for this tight gi blood choke.
 
-### [[Short Choke from Body Triangle]]
+### [[Submissions/Short Choke/from Body Triangle|Short Choke from Body Triangle]]
 
 Master the short choke from body triangle in BJJ. Learn lapel feeding mechanics, grip positioning, and finishing details for this high-percentage gi choke.
 
-### [[Short Choke from Cross Body]]
+### [[Submissions/Short Choke/from Cross Body|Short Choke from Cross Body]]
 
 Master the Short Choke from Cross Body Ride in BJJ. Complete guide covering forearm choke mechanics, finishing pressure, and defensive strategies with safety protocols.
 
-### [[Short Choke from Gift Wrap]]
+### [[Submissions/Short Choke/from Gift Wrap|Short Choke from Gift Wrap]]
 
 Master the Short Choke from Gift Wrap in BJJ. Complete guide to finishing this forearm choke using arm trap control, with safety protocols and defense strategies.
 
-### [[Short Choke from Harness]]
+### [[Submissions/Short Choke/from Harness|Short Choke from Harness]]
 
 Learn the Short Choke from Harness in BJJ. Master gi lapel choke mechanics, grip threading sequences, and finishing details from seatbelt back control.
 
-### [[Short Choke from Seat Belt Control Back]]
+### [[Submissions/Short Choke/from Seat Belt Control Back|Short Choke from Seat Belt Control Back]]
 
 Master the Short Choke from Seat Belt Control Back position in BJJ. Complete gi lapel choking guide with grip mechanics, finishing details, and defense strategies.
 
-### [[Spine Lock]]
+### [[Submissions/Spine Lock|Spine Lock]]
 
 Master the Spine Lock submission in BJJ. Learn advanced spinal compression techniques from truck and twister control positions targeting the lumbar spine.
 
-### [[Spine Lock from Truck]]
+### [[Submissions/Spine Lock/from Truck|Spine Lock from Truck]]
 
 Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae.
 
-### [[Spinning Armbar]]
+### [[Submissions/Spinning Armbar|Spinning Armbar]]
 
 Master the Spinning Armbar in BJJ. Dynamic rotational submission targeting the elbow from guard, mount, and scrambles. Complete guide with attack and defense.
 
-### [[Spinning Armbar from Closed Guard]]
+### [[Submissions/Spinning Armbar/from Closed Guard|Spinning Armbar from Closed Guard]]
 
 Master the Spinning Armbar from Closed Guard in BJJ. Complete guide to this dynamic rotational armbar entry with attack strategies and defensive counters.
 
-### [[Straight Ankle Lock]]
+### [[Submissions/Straight Ankle Lock|Straight Ankle Lock]]
 
 Master the Straight Ankle Lock in BJJ. Complete guide with safety protocols, setup from Ashi Garami, finishing mechanics, and defensive strategies for all levels.
 
-### [[Straight Ankle Lock from Straight Ankle Lock Control]]
+### [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control|Straight Ankle Lock from Straight Ankle Lock Control]]
 
 Complete guide to the straight ankle lock finish from ankle lock control. Breaking mechanics, grip placement, defensive counters, and safety protocols.
 
-### [[Suloev Stretch from Half Guard]]
+### [[Submissions/Suloev Stretch/from Half Guard|Suloev Stretch from Half Guard]]
 
 Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.
 
-### [[Tarikoplata]]
+### [[Submissions/Tarikoplata|Tarikoplata]]
 
 Master the Tarikoplata shoulder lock in BJJ. Advanced guard submission combining omoplata mechanics with wrist control for devastating compound shoulder attacks.
 
-### [[Tarikoplata from Closed Guard]]
+### [[Submissions/Tarikoplata/from Closed Guard|Tarikoplata from Closed Guard]]
 
 Master the Tarikoplata shoulder lock in BJJ. Advanced guard submission combining omoplata mechanics with wrist control for devastating compound shoulder attacks.
 
-### [[Ten Finger Guillotine]]
+### [[Submissions/Ten Finger Guillotine|Ten Finger Guillotine]]
 
 Master the Ten Finger Guillotine in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-### [[Ten Finger Guillotine from Front Headlock]]
+### [[Submissions/Ten Finger Guillotine/from Front Headlock|Ten Finger Guillotine from Front Headlock]]
 
 Master the Ten Finger Guillotine from Front Headlock position. Complete guide to grip mechanics, finishing sequences, counters, and defensive escapes.
 
-### [[Ten Finger Guillotine from Guillotine Control]]
+### [[Submissions/Ten Finger Guillotine/from Guillotine Control|Ten Finger Guillotine from Guillotine Control]]
 
 Master the Ten Finger Guillotine from Guillotine Control in BJJ. Setup, grip mechanics, finishing details, and defensive counters for this high-percentage choke.
 
-### [[Toe Hold]]
+### [[Submissions/Toe Hold|Toe Hold]]
 
 Master the Toe Hold leg lock in BJJ. Complete guide with safety protocols, setup from leg entanglements, execution mechanics, and defense strategies.
 
-### [[Toe Hold from 50-50]]
+### [[Submissions/Toe Hold/from 50-50|Toe Hold from 50-50]]
 
 Master the Toe Hold from 50-50 Guard in BJJ. Complete guide to rotational ankle lock setup, execution, defense, and safety protocols for leg entanglement systems.
 
-### [[Toe Hold from Ashi Garami]]
+### [[Submissions/Toe Hold/from Ashi Garami|Toe Hold from Ashi Garami]]
 
 Master the toe hold from Ashi Garami leg entanglement. Complete guide to figure-four grip mechanics, rotational finishing, defense, and safe training protocols.
 
-### [[Toe Hold from Backside 50-50]]
+### [[Submissions/Toe Hold/from Backside 50-50|Toe Hold from Backside 50-50]]
 
 Master the toe hold from Backside 50-50 in BJJ. Complete guide covering grip mechanics, rotational finishing details, and position-specific leg lock strategy.
 
-### [[Toe Hold from Cross Ashi-Garami]]
+### [[Submissions/Toe Hold/from Cross Ashi-Garami|Toe Hold from Cross Ashi-Garami]]
 
 Master the toe hold from cross ashi-garami with grip mechanics, rotational finishing details, and safe application from this dominant leg entanglement position.
 
-### [[Toe Hold from Estima Lock]]
+### [[Submissions/Toe Hold/from Estima Lock|Toe Hold from Estima Lock]]
 
 Master the toe hold from Estima Lock in BJJ. Expert guide covering grip transitions, rotational finishing mechanics, and defensive escapes from this leg lock attack.
 
-### [[Toe Hold from Honey Hole]]
+### [[Submissions/Toe Hold/from Honey Hole|Toe Hold from Honey Hole]]
 
 Master the toe hold from Honey Hole in BJJ. Complete finishing guide with grip mechanics, rotational pressure application, defense strategies, and safety.
 
-### [[Toe Hold from Inside Ashi-Garami]]
+### [[Submissions/Toe Hold/from Inside Ashi-Garami|Toe Hold from Inside Ashi-Garami]]
 
 Master the toe hold from Inside Ashi-Garami. Complete guide to grip mechanics, rotational finishing pressure, and safe training progression for leg locks.
 
-### [[Toe Hold from Inside Sankaku]]
+### [[Submissions/Toe Hold/from Inside Sankaku|Toe Hold from Inside Sankaku]]
 
 Master the toe hold from Inside Sankaku. Learn grip mechanics, rotational finishing details, defensive counters, and safety protocols for this leg lock.
 
-### [[Toe Hold from Kneebar Control]]
+### [[Submissions/Toe Hold/from Kneebar Control|Toe Hold from Kneebar Control]]
 
 Master the toe hold from kneebar control in BJJ. Learn grip transitions, rotational finishing mechanics, and safe application for this essential leg lock chain attack.
 
-### [[Toe Hold from Leg Entanglement]]
+### [[Submissions/Toe Hold/from Leg Entanglement|Toe Hold from Leg Entanglement]]
 
 Master the toe hold from leg entanglement positions in BJJ. Expert guide to figure-four grip mechanics, rotational finishing, and safe training protocols.
 
-### [[Toe Hold from Outside Ashi]]
+### [[Submissions/Toe Hold/from Outside Ashi|Toe Hold from Outside Ashi]]
 
 Master the toe hold from Outside Ashi-Garami in BJJ. Complete guide to rotational foot lock mechanics, safe finishing technique, and defensive strategies.
 
-### [[Toe Hold from Saddle]]
+### [[Submissions/Toe Hold/from Saddle|Toe Hold from Saddle]]
 
 Master the toe hold from saddle with expert grip mechanics, finishing details, and defensive strategies for this powerful leg entanglement attack.
 
-### [[Toe Hold from Toe Hold Control]]
+### [[Submissions/Toe Hold/from Toe Hold Control|Toe Hold from Toe Hold Control]]
 
 Master the toe hold finish from Toe Hold Control. Complete guide to figure-four grip mechanics, progressive rotational pressure, and safe application.
 
-### [[Toe Hold from Ushiro Ashi-Garami]]
+### [[Submissions/Toe Hold/from Ushiro Ashi-Garami|Toe Hold from Ushiro Ashi-Garami]]
 
 Master the toe hold finish from ushiro ashi-garami with complete grip mechanics, step-by-step execution, safety protocols, and proven defensive counters.
 
-### [[Triangle Choke]]
+### [[Submissions/Triangle Choke|Triangle Choke]]
 
 Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-### [[Triangle Choke Side]]
+### [[Submissions/Triangle Choke Side|Triangle Choke Side]]
 
 Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.
 
-### [[Triangle Choke Side from Side Control]]
+### [[Submissions/Triangle Choke Side/from Side Control|Triangle Choke Side from Side Control]]
 
 Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.
 
-### [[Triangle Choke from Closed Guard]]
+### [[Submissions/Triangle Choke/from Closed Guard|Triangle Choke from Closed Guard]]
 
 Master triangle choke from closed guard in BJJ. Complete guide covering setup, angle creation, finishing mechanics, and defense with safety protocols.
 
-### [[Triangle Choke from Crackhead Control]]
+### [[Submissions/Triangle Choke/from Crackhead Control|Triangle Choke from Crackhead Control]]
 
 Complete guide to the triangle choke from Crackhead Control. Master the 10th Planet setup, finishing mechanics, counters, and defensive escape strategies.
 
-### [[Triangle Choke from De La Riva]]
+### [[Submissions/Triangle Choke/from De La Riva|Triangle Choke from De La Riva]]
 
 Master Triangle from De La Riva in BJJ. Complete guide with setup requirements, execution steps, and safety protocols. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
-### [[Triangle Choke from Mounted Triangle]]
+### [[Submissions/Triangle Choke/from Mounted Triangle|Triangle Choke from Mounted Triangle]]
 
 Master the triangle choke from mounted triangle position. Learn finishing mechanics, angle adjustments, and defensive counters for this high-percentage BJJ submission.
 
-### [[Triangle Choke from Open Guard]]
+### [[Submissions/Triangle Choke/from Open Guard|Triangle Choke from Open Guard]]
 
 Master the Triangle Choke from Open Guard in BJJ. Expert guide covering setup, angle creation, finishing mechanics, defensive escapes, and safety protocols.
 
-### [[Triangle Choke from Spider Guard]]
+### [[Submissions/Triangle Choke/from Spider Guard|Triangle Choke from Spider Guard]]
 
 Master Triangle from Spider Guard. Setup from spider hooks, angle creation, finish mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
-### [[Triangle Choke from Triangle Control]]
+### [[Submissions/Triangle Choke/from Triangle Control|Triangle Choke from Triangle Control]]
 
 Master the triangle choke finish from triangle control. Learn precise angle adjustments, hip elevation, and squeeze mechanics to tap opponents consistently.
 
-### [[Twister]]
+### [[Submissions/Twister|Twister]]
 
 Master the Twister spinal lock in BJJ. Complete guide covering Truck position setup, spine rotation mechanics, safety protocols, and defense strategies for advanced practitioners.
 
-### [[Twister from Cross Body Ride]]
+### [[Submissions/Twister/from Cross Body Ride|Twister from Cross Body Ride]]
 
 Master the Twister spinal lock from Cross Body Ride. Complete guide with finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.
 
-### [[Twister from Russian Cowboy]]
+### [[Submissions/Twister/from Russian Cowboy|Twister from Russian Cowboy]]
 
 Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock submission with step-by-step execution, defense strategies, and safety protocols.
 
-### [[Twister from Twister Control]]
+### [[Submissions/Twister/from Twister Control|Twister from Twister Control]]
 
 Master the Twister submission from Twister Control. Complete guide covering spinal lock mechanics, safety protocols, and finishing details for advanced practitioners.
 
-### [[Twister from Twister Side Control]]
+### [[Submissions/Twister/from Twister Side Control|Twister from Twister Side Control]]
 
 Master the Twister spinal lock from Twister Side Control with step-by-step finishing mechanics, safety protocols, and proven defensive strategies for grapplers.
 
-### [[Von Flue Choke from Side Control]]
+### [[Submissions/Von Flue Choke/from Side Control|Von Flue Choke from Side Control]]
 
 Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
-### [[Williams Shoulder Lock]]
+### [[Submissions/Williams Shoulder Lock|Williams Shoulder Lock]]
 
 Master the Williams Shoulder Lock in BJJ. Complete guide covering safety protocols, setup from Williams Guard, execution steps, and defensive strategies.
 
-### [[Williams Shoulder Lock from Williams Guard]]
+### [[Submissions/Williams Shoulder Lock/from Williams Guard|Williams Shoulder Lock from Williams Guard]]
 
 Master the Williams Shoulder Lock from Williams Guard. Learn finishing mechanics, grip details, defensive counters, and safety protocols for this shoulder lock.
 
-### [[Wrist Lock]]
+### [[Submissions/Wrist Lock|Wrist Lock]]
 
 Finish the Wrist Lock (mão de vaca) from closed guard top: flexion mechanics on planted hands, finishing steps, and defense. Success: 30/45/60%.
 

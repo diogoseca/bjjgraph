@@ -25,7 +25,7 @@ import { beltReady } from "./personas"
  * Determinism (probe 3x green 14.4s/14.9s/16.7s, then deleted): beltReady()'s stage map is
  * EMPTY, so questionFor (cardStage < 2) asks on every deck — the probe reached ×8 in 8
  * straight question-bearing landings from Mount Top with zero carries on this route. Answers
- * go through the real keyboard (A/B/C/D); truth is read from this._mc gated on
+ * go through the real keyboard (A/B/C); truth is read from this._mc gated on
  * _landPending && [data-land-q] (the reliable ask-detector — a stale _mc survives an answered
  * block). Hops ride the first transition option with resolve/outcome rigged [0.01]
  * (transitions never hit game-over, so the roll — and per-roll momentum — survives all

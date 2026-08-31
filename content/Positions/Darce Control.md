@@ -282,7 +282,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (34% of attempts)
+- **[[Submissions/Darce Choke/from Darce Control/Attacker|Darce Choke from Darce Control]]** (34% of attempts)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 

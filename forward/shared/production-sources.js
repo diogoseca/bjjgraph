@@ -48,6 +48,27 @@ const SOURCES = {
     symbols: ["renderDrillHome", "renderDrill", "applyDeckVisibility"],
     handles: [".ng-drill", ".ng-drilltab", "drillHeadRef", "drillListRef"],
   },
+  // The unit checkpoint is the ONE pane in study mode, never a modal: `_checkpointShow()` calls
+  // `setDrillHeader("Checkpoint", "<i> of <n> \u00b7 <unit name>")` and then `renderDrill()`, and
+  // `_paneStudyActive()` counts `_checkpoint` alongside a deck and a session. There is no
+  // `[data-checkpoint]` anywhere in app.src.jsx — the catalog used to cite one.
+  checkpoint: {
+    files: ["neural/src/xdc-template.html", "neural/src/app.src.jsx"],
+    symbols: [
+      "startCheckpoint",
+      "_checkpointShow",
+      "_checkpointAnswer",
+      "_cancelCheckpoint",
+      "setDrillHeader",
+      "_mcBlock",
+    ],
+    handles: [
+      ".ng-drill",
+      ".ng-pane-drillhead",
+      "drillHeadRef",
+      "drillListRef",
+    ],
+  },
   explorer: {
     files: ["neural/src/xdc-template.html", "neural/src/app.src.jsx"],
     symbols: ["renderExplorer", "applyExplorerVisibility"],
@@ -246,6 +267,7 @@ function screenSourceKeys(id, group) {
       keys.push("challenges");
   } else if (group === "Progress & mastery") {
     keys.push("knowledge", "event");
+    if (id.includes("checkpoint")) keys.push("checkpoint");
     if (
       id.includes("challenge") ||
       id.includes("collection") ||
@@ -259,8 +281,9 @@ function screenSourceKeys(id, group) {
     keys.push("challenges", "knowledge");
   } else if (group === "Explore & challenges") {
     if (id.startsWith("dossier")) keys.push("dossier");
-    else if (id.startsWith("challenge") || id.startsWith("checkpoint"))
-      keys.push("challenges", "knowledge");
+    else if (id.startsWith("checkpoint"))
+      keys.push("checkpoint", "challenges", "knowledge");
+    else if (id.startsWith("challenge")) keys.push("challenges", "knowledge");
     else keys.push("explorer");
   } else if (group === "Settings & account") {
     keys.push(

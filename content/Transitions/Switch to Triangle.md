@@ -329,13 +329,13 @@ The switch to triangle is a cornerstone transition in the closed guard offensive
 
 - [[Submissions/Triangle Choke]] - Primary destination submission for this transition
 
-- [[Triangle Choke from Closed Guard]] - Specific application context for this technique
+- [[Submissions/Triangle Choke/from Closed Guard]] - Specific application context for this technique
 
-- [[Armbar from Guard]] - Most common starting position before switching to triangle
+- [[Submissions/Armbar/from Guard]] - Most common starting position before switching to triangle
 
-- [[Kimura from Guard]] - Alternative starting attack that commonly leads to triangle switch
+- [[Submissions/Kimura/from Guard]] - Alternative starting attack that commonly leads to triangle switch
 
-- [[Omoplata from Guard]] - Related submission chain option with similar transition mechanics
+- [[Submissions/Omoplata/from Guard]] - Related submission chain option with similar transition mechanics
 
 - [[Transitions/Triangle to Armbar]] - Reverse chain when opponent defends triangle
 

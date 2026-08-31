@@ -31,8 +31,9 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `flashcards/_index.json` | boot | the deck **manifest**: `{deckKey: [category, n]}` |
 | `curriculum.json` | boot | `curriculum.weights` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
-| `content/<hash>.json` | on demand | one node's dossier (`window.NG_CONTENT` caches) |
+| `content/<hash>.json` | on demand | one node's dossier, **and one concept's body** (`<Name>\|Principle`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
+| `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
 
 Chunks are addressed by `fnv1a32(key)` — the app's own `qhash`, ported byte-identically into
 `scripts/_neural_content.py`. A chunk holds a `{key: value}` map, so a hash collision shares a file
@@ -59,7 +60,8 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 ### Landing
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
-**one-line definition → film → one multiple-choice question → your options → `More ▸`**. The card
+**one-line definition → film → one multiple-choice question (three options) → your options →
+`More ▸`**. The card
 prints no name and no side: the graph names the state, beside the node.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
@@ -73,8 +75,20 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
+**A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
+once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
+the answer and try again before committing to a grade. **Space toggles** the live block — the app
+publishes it as `this._recall`, the way `this._mc` carries A/B/C — and refuses one that has left
+the screen or is standing inert behind the pane or the option sheet (`_recallLive`, the same
+predicate A-D uses). Grading releases the key. Space still goes to an open study surface and a
+focused mini-row first.
+
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
-asks as timed recall Q/A in play; below blue, recognition-first MC holds. The black-belt badge
+asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
+a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
+node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
+stage 2, recall at or above it, whatever the belt. `expandOption` pauses motion and declines the
+landing question, so the JIT has no clock to price. The black-belt badge
 still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
 challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
 remover. **EDGE is taught in two quiet places**: a legend row ("+7 · Tilt toward winning", full
@@ -139,6 +153,28 @@ is never chrome-only) with no live trigger in this corpus; authored `answer_line
 remains the quality upgrade over truncation. The option-node label pass yields to the
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
 the focus, and drawing both names is the "printed twice" defect.
+
+**Three options, and the trap is always one of them** (v1.148.0). `MC_DISTRACTORS = 2`
+(`app.src.jsx`, mirrored in `scripts/audit_mc_viability.py`) is the one seam, read by `_mcBlock`
+AND `_warmMcPool`'s dry pass. The ask now equals the recall floor, so a block is exactly three
+options or it is not an MC block. **Selection order is load-bearing:** the corpus is uniformly 2
+`plausible` + 1 `trap`, so the pooler takes the TRAP FIRST — consulting `plausible` first leaves
+the trap tier unreachable corpus-wide with every gate still green — then rotates which plausible
+fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned by
+`mc-oneline.spec.ts`; full story in the archive.
+
+### The JIT drill follows the format ladder
+
+The in-sheet micro-drill (`[data-jit]`) was the last surface that only ever asked one way. It now
+asks through `askFormat`, like the node card: an unproven card deals MC (`[data-jit-mc-opt]`, tags
+`jit-mc-pick`/`jit-mc-shuffle`, so it can never eat the bare `mc-*` queue journeys rig by name); a
+card at its MC cap reads back as the reveal → "Got it" rung it always had; a cold distractor pool
+falls back to recall with ONE warm attempt per deck (`_jitWarmTried`). Right pumps the odds and
+deals the next card, wrong pumps nothing and offers `[data-jit-next]` — the sheet is paused, and a
+read answer should not strand the drill. Credit is `_mcAnswer`'s alone (`banked()` carries the pump
+and the beacon, never credit), so a graded card counts once; closing the sheet hands the A/B/C keys
+back (`_handBackMc`, the dossier's idiom). Gated by `e2e/journeys/jit-format.spec.ts`; the economy
+journeys grade format-agnostically through the DSL's `jitGrade()`.
 
 ### The option sheet is the card you pressed (v1.136.0)
 
@@ -379,8 +415,14 @@ each are 60, and MAX reads 30).
 **What it inherits, and the copy says so:** the solve is no-gi while gi is the default ruleset
 (146 nodes differ); the opponent it prices is `opponentDefend`, which filters neither role nor
 origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
-not change the opponent's rates; and `gameScore` weights all 272 position decks at **zero** while
-FLOW's top ten are all positions — two published numbers that will disagree.
+not change the opponent's rates — that was about the ODDS model, and this is a KNOWLEDGE score, so
+since v1.145.13 both seats and all 272 position decks are weighted.
+
+> **RULED AND CLOSED (v1.145.13).** This file used to call the Defender and position zeros "on
+> purpose"; no human had. The owner's ruling: score the whole corpus and let scores fall, while
+> nobody yet holds a belt worth losing. `gameScore` now weights all three blocks — the FLOW
+> disagreement above is resolved in FLOW's favour, and the sentence before this one describes
+> what `gameScore` no longer does.
 
 ## 5. The pair
 
@@ -455,6 +497,23 @@ On a phone the pane is an 88vw drawer and **is** the screen, so closing it is ho
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
 film rather than resuming.
 
+**The tab bar is a pager** (v1.147.0). A horizontal touch drag anywhere in the pane, or a
+trackpad's horizontal wheel, walks the three tabs; the CONTENT FOLLOWS THE FINGER, so dragging
+leftward pulls the tab on the right into view — `_landPageTo`'s convention, and every native
+pager's. It clamps at both ends rather than wrapping, refuses a vertical-dominant drag (that axis
+belongs to the pane's own scroller) and refuses one begun inside a horizontal scroller such as a
+dossier's film strip. A study surface keeps the gesture for its own cards. No platform exposes a
+swipe-direction preference to a web app; the one device signal that exists is writing direction,
+so an RTL layout flips the mapping (`_paneGestureDir`). A swipe is never a tap: a capture-phase
+suppressor eats the click the browser synthesises at the end of one.
+
+**One gesture is one tab** (v1.151.1). The wheel path ends its gesture on the STREAM going idle
+(a 300ms gap), not on a timer: a trackpad's inertia keeps deltas arriving for about a second after
+the fingers lift, and v1.147.0's cooldown merely rate-limited that tail, so one flick off the
+rightmost tab paged twice and landed two tabs away — "passing through the middle tab but never
+landing on it". The clamp was never involved. The touch path was always one step, because a drag
+has an explicit end.
+
 **Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
 results before any section exists, so a match inside a folded group is never hidden; that query
 branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
@@ -478,7 +537,32 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution
 of the graph as a Markov chain, computed at build time into `curriculum.weights`. `mastery_i` is
-`deckMastery(key)`. Nothing is cut: a rare technique counts, proportionally to how rare it is.
+`deckMastery(key)`. No rare technique is cut: it counts proportionally to how rare it is.
+
+**The score spans the WHOLE corpus (v1.145.13).** One roll step exercises three separable kinds of
+knowledge, each happening once per step: **where you are**, **what you do from there**, and **what
+is being done to you**. Three blocks — position occupancy `pi`, technique visit-rate `visits`, and
+those visits mirrored to the defending seat — each summing to 1; the score is their mean. Not a
+tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
+`sum(visits)` are both exactly 1 — three readings of one unit step.
+
+Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
+**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
+Control|Top` leads).
+
+**Nothing about the score decays.** `deckMastery` moves only on answers — the belt cannot drop
+because time passed. Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
+are shown*), never in what a deck is *worth*.
+
+**Wire.** `curriculum.scoreWeightsByRuleset` is `{div, p:{k,gi,nogi}, t:{k,gi,nogi}}` — position
+keys once, technique NAMES once, one int array **per ruleset**, each `t` name carrying **both
+seats**. `scoreWeights(frame)` is the one expander; the emitter
+round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
+techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
+scored them 0 in both seats (**104 decks, 739 cards**). `k` is the union, a **zero means "not
+attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
+pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
 Bands: white .20 · blue .40 · purple .60 · brown .70 · black .80. An MC answer caps a card at stage
 2 = 2/3 mastery, so pure recognition tops out at 0.667 — recall is the only route past 0.7 **by

@@ -442,19 +442,19 @@ Positional sparring starting from back control where the attacker tries to maint
 
 
 ### Related Content
-- [[Grips]] (Principle) - Hooks and grips are the two fundamental attachment methods — hooks use geometric curve, grips use squeeze force
-- [[Connection Principles]] (Principle) - Hooks are a primary physical mechanism for establishing the connections described by connection principles
-- [[Kuzushi]] (Principle) - Hooks provide the attachment points from which off-balancing forces are applied for sweeps and takedowns
-- [[Base]] (Principle) - Hooks disrupt the opponent's base by controlling limb position and restricting weight distribution
-- [[Energy Conservation]] (Principle) - Hooks are among the most energy-efficient control tools due to their passive geometric retention
-- [[Butterfly Guard]] (Position) - Defined entirely by butterfly hooks under the opponent's thighs — the essential hook-based guard
-- [[Back Control]] (Position) - Back control hooks inside the thighs are the primary retention mechanism for the position
-- [[De La Riva Guard]] (Position) - Built around the De La Riva hook behind the opponent's lead knee
-- [[X-Guard]] (Position) - Dual hook system on a single leg for maximum elevation and sweep leverage
-- [[Half Guard]] (Position) - The underhook from half guard bottom is the most critical arm hook in defensive grappling
-- [[Turtle]] (Position) - The hook insertion battle from turtle defines whether the position converts to back control
-- [[Clinch]] (Position) - The underhook versus overhook battle is the defining arm hook contest of clinch grappling
-- [[Basic Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
+- [[Principles/Grips|Grips]] (Principle) - Hooks and grips are the two fundamental attachment methods — hooks use geometric curve, grips use squeeze force
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Hooks are a primary physical mechanism for establishing the connections described by connection principles
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Hooks provide the attachment points from which off-balancing forces are applied for sweeps and takedowns
+- [[Principles/Base|Base]] (Principle) - Hooks disrupt the opponent's base by controlling limb position and restricting weight distribution
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Hooks are among the most energy-efficient control tools due to their passive geometric retention
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Defined entirely by butterfly hooks under the opponent's thighs — the essential hook-based guard
+- [[Positions/Back Control|Back Control]] (Position) - Back control hooks inside the thighs are the primary retention mechanism for the position
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Built around the De La Riva hook behind the opponent's lead knee
+- [[Positions/X-Guard|X-Guard]] (Position) - Dual hook system on a single leg for maximum elevation and sweep leverage
+- [[Positions/Half Guard|Half Guard]] (Position) - The underhook from half guard bottom is the most critical arm hook in defensive grappling
+- [[Positions/Turtle|Turtle]] (Position) - The hook insertion battle from turtle defines whether the position converts to back control
+- [[Positions/Clinch|Clinch]] (Position) - The underhook versus overhook battle is the defining arm hook contest of clinch grappling
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
 
 
 </section>

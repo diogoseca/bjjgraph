@@ -471,18 +471,18 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 
 
 ### Related Content
-- [[Collar Control]] (Principle) - Applies connection principles to specific collar grip strategies for posture control and attack setup
-- [[Frames]] (Principle) - Applies connection principles specifically to building defensive space-preserving structures through frames
-- [[Control Point Hierarchy]] (Principle) - Ranks connection points by control value in specific positions
-- [[Closed Guard]] (Position) - Primary training ground for developing offensive connection management skills
-- [[Spider Guard]] (Position) - Advanced application of connection principles using distance-control grips and foot connections
-- [[Back Control]] (Position) - Demonstrates high-level connection maintenance against opponent's breaking attempts
-- [[Hip Escape to Guard]] (Transition) - Fundamental escape that relies on breaking opponent's connections while creating space
-- [[Hand Fighting]] (Principle) - Close-range application of connection breaking and establishment through hand position battles
-- [[Pressure]] (Principle) - Requires proper connections to transmit control force effectively
-- [[Base]] (Principle) - Provides stable foundation from which effective connections can be established
-- [[Grips]] (Principle) - Competitive application of connection principles in establishing grip dominance
-- [[Defensive Concepts]] (Principle) - Defensive counterpart encompassing space-preserving connections and escape frameworks
+- [[Principles/Collar Control|Collar Control]] (Principle) - Applies connection principles to specific collar grip strategies for posture control and attack setup
+- [[Principles/Frames|Frames]] (Principle) - Applies connection principles specifically to building defensive space-preserving structures through frames
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Ranks connection points by control value in specific positions
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary training ground for developing offensive connection management skills
+- [[Positions/Spider Guard|Spider Guard]] (Position) - Advanced application of connection principles using distance-control grips and foot connections
+- [[Positions/Back Control|Back Control]] (Position) - Demonstrates high-level connection maintenance against opponent's breaking attempts
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental escape that relies on breaking opponent's connections while creating space
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Close-range application of connection breaking and establishment through hand position battles
+- [[Principles/Pressure|Pressure]] (Principle) - Requires proper connections to transmit control force effectively
+- [[Principles/Base|Base]] (Principle) - Provides stable foundation from which effective connections can be established
+- [[Principles/Grips|Grips]] (Principle) - Competitive application of connection principles in establishing grip dominance
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive counterpart encompassing space-preserving connections and escape frameworks
 
 
 </section>

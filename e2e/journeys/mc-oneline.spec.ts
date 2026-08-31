@@ -67,7 +67,9 @@ test("golden card: one-line options + authored plausible/trap tiers, straight fr
   const g = (DECKS[GOLDEN_DECK].cards as any[]).find((c) => c.q === GOLDEN_Q)
   expect(g, "golden card in payload").toBeTruthy()
   expect(g.a.length).toBeLessThanOrEqual(MC_LINE) // one-line answer
-  expect((g.mc.p.length + g.mc.t.length)).toBeGreaterThanOrEqual(3) // 2 plausible + 1 trap
+  expect((g.mc.p.length + g.mc.t.length)).toBeGreaterThanOrEqual(3) // 2 plausible + 1 trap AUTHORED
+  // (only two of the three are SHOWN — MC_DISTRACTORS = 2. The spare plausible is headroom for
+  // when a guard rejects one, and the rotation below keeps both in circulation.)
   expect(g.d.length).toBeGreaterThan(g.a.length) // full explanation preserved separately
 
   const j = journey(page)
@@ -80,12 +82,17 @@ test("golden card: one-line options + authored plausible/trap tiers, straight fr
   await page.waitForFunction(() => !!(window as any).__neural._mc, null, { timeout: 20_000 })
 
   const opts = await page.locator("[data-mc-opt]").allTextContents()
-  expect(opts.length).toBe(4)
+  expect(opts.length).toBe(3) // 1 correct + MC_DISTRACTORS
   for (const t of opts) {
     // strip the leading number badge; every rendered option is one line (≤ budget)
     expect(t.replace(/^\d+/, "").length).toBeLessThanOrEqual(MC_LINE)
   }
-  // the tiers are the AUTHORED ones carried by the payload — not runtime-injected
+  // the tiers are the AUTHORED ones carried by the payload — not runtime-injected.
+  // AND THIS IS THE GATE ON TRAP-FIRST (v1.148.0). The corpus is uniformly 2 plausible + 1 trap
+  // and only two wrongs are shown; if mcDistractors consulted `p` before `t` the plausible pair
+  // would fill both slots and the trap tier would be unreachable for every authored card in the
+  // corpus — with validate:mc still reporting 100%, because it certifies survivor COUNT and never
+  // asks which tier they came from. Mutating the order back turns exactly this line red.
   const tiers = await page.evaluate(() => (window as any).__neural._mc.tiers)
   expect(tiers).toContain("trap")
   expect(tiers).toContain("plausible")

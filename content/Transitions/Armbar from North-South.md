@@ -321,13 +321,13 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 
 - [[Positions/Armbar Control]] - Primary success outcome position
 
-- [[Armbar from Armbar Control]] - Follow-up finish submission from Armbar Control
+- [[Submissions/Armbar/from Armbar Control]] - Follow-up finish submission from Armbar Control
 
 - [[Transitions/North-South to Kimura]] - Complementary attack creating offensive dilemma
 
 - [[Submissions/North-South Choke]] - Alternative submission from same starting position
 
-- [[Transitions/Armbar from Crucifix]] - Related armbar entry from alternative controlling position
+- [[Submissions/Armbar/from Crucifix]] - Related armbar entry from alternative controlling position
 
 - [[Submissions/Far Side Armbar]] - Alternative armbar variation with different entry angle
 

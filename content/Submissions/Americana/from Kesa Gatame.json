@@ -21,7 +21,8 @@
   "from_positions": [
     "Kesa Gatame",
     "Kuzure Kesa-Gatame",
-    "Side Control"
+    "Scarf Hold Position",
+    "Modified Scarf Hold"
   ],
   "success_rate": {
     "gi": 50,
@@ -114,8 +115,8 @@
     "Arm Triangle",
     "Kimura",
     "Kesa Gatame Arm Crush",
-    "Far Side Armbar",
-    "Ezekiel Choke"
+    "Ezekiel Choke",
+    "Armbar"
   ],
   "related_content": [
     {

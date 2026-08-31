@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "note": "OBSERVED, not a ceiling. What curriculum.weights can see, derived from the committed graph.json through the emitter's own functions. `ruleset` is a DEFECT class with a known cause; `unscored` is an open question for the owner and is deliberately NOT an exemption list.",
+    "recompute": "npm run validate:score-coverage -- --write"
+  },
+  "join": {
+    "attacker_decks": 1326,
+    "pct": 99.62,
+    "reached": 1321
+  },
+  "ruleset": {
+    "gi": {
+      "attemptable": {
+        "cards": 12630,
+        "decks": 1305
+      },
+      "unweighted": {
+        "cards": 491,
+        "decks": 52
+      },
+      "unweighted_examples": [
+        "Backstep Around Worm Guard",
+        "Baseball Bat Choke from Knee on Belly",
+        "Bow and Arrow Choke Setup",
+        "Bow and Arrow Choke from Back Control",
+        "Bow and Arrow Choke from Body Triangle"
+      ]
+    },
+    "nogi": {
+      "attemptable": {
+        "cards": 12303,
+        "decks": 1269
+      },
+      "unweighted": {
+        "cards": 0,
+        "decks": 0
+      },
+      "unweighted_examples": []
+    }
+  },
+  "scored": {
+    "card_pct": 96.29,
+    "cards": 21101,
+    "decks": 2810
+  },
+  "totals": {
+    "cards": 21915,
+    "decks": 2924
+  },
+  "unscored": {
+    "orphan": {
+      "cards": 75,
+      "decks": 10,
+      "keys": [
+        "Aoki Lock|Attacker",
+        "Aoki Lock|Defender",
+        "Buggy Choke|Attacker",
+        "Buggy Choke|Defender",
+        "Inside Heel Hook from Inside Sankaku|Attacker",
+        "Inside Heel Hook from Inside Sankaku|Defender",
+        "Kneebar from Carni|Attacker",
+        "Kneebar from Carni|Defender",
+        "Kneebar|Attacker",
+        "Kneebar|Defender"
+      ],
+      "why": "no position edge targets the node - unreachable, graph wiring, see Group 1"
+    },
+    "ruleset": {
+      "cards": 739,
+      "decks": 104,
+      "keys": [
+        "Backstep Around Worm Guard|Attacker",
+        "Backstep Around Worm Guard|Defender",
+        "Baseball Bat Choke from Knee on Belly|Attacker",
+        "Baseball Bat Choke from Knee on Belly|Defender",
+        "Bow and Arrow Choke Setup|Attacker",
+        "Bow and Arrow Choke Setup|Defender",
+        "Bow and Arrow Choke from Back Control|Attacker",
+        "Bow and Arrow Choke from Back Control|Defender",
+        "Bow and Arrow Choke from Body Triangle|Attacker",
+        "Bow and Arrow Choke from Body Triangle|Defender",
+        "Bow and Arrow Choke from Harness|Attacker",
+        "Bow and Arrow Choke from Harness|Defender"
+      ],
+      "why": "attemptable in gi only, and the table is solved in the folded no-gi frame - the OPEN defect the ruleset rows above report; both seats, not just the attacker"
+    }
+  }
+}

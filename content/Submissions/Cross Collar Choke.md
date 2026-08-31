@@ -251,6 +251,7 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 - [[Positions/Half Guard]] - Position where collar grips can be established before advancing
 - [[Transitions/Triangle Setup]] - Primary backup attack when opponent defends Cross Collar with frames
 - [[Transitions/Mount to Armbar]] - Common follow-up transition when opponent straightens arms from mount defending choke
+- [[Submissions/Armbar/from Armbar Control]] - Chain attack from guard when opponent extends arms defending the collar choke
 
 </section>
 

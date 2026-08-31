@@ -309,7 +309,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 **If opponent attempts to roll forward or granby away from the hook:**
 - Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
-- Execute **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Submissions/Twister/from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **If opponent turns into you to escape the bottom position:**

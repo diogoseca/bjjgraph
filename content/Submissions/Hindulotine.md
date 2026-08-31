@@ -204,6 +204,7 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 ## Related
 - [[Submissions/High Elbow Guillotine]] - Similar guillotine variation with different grip mechanics for comparison and cross-training
 - [[Submissions/Arm in Guillotine]] - Alternative guillotine finish when opponent's arm becomes trapped inside the choke
+- [[Submissions/Chin Strap Guillotine/from Front Headlock]] - Related chin strap grip technique with similar finishing mechanics
 - [[Transitions/Anaconda Choke]] - Chain submission when opponent tucks chin and turns to defend the Hindulotine
 - [[Submissions/Darce Choke]] - Chain submission when opponent exposes far arm while defending
 - [[Submissions/Brabo Choke]] - Related front headlock choke with gi-specific grip variation
@@ -211,6 +212,7 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 - [[Positions/Front Headlock]] - Alternative entry position and fallback when grip is lost
 - [[Transitions/Hindulotine to Anaconda Choke]] - Chain submission transition when opponent defends by tucking chin
 - [[Transitions/Hindulotine to Darce Choke]] - Alternative finish transition when opponent exposes the far arm defending
+- [[Submissions/Hindulotine/from Hindulotine]] - Primary finishing submission from Hindulotine control
 
 </section>
 

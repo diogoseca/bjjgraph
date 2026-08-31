@@ -327,6 +327,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 ## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Arm Crush]]
+- [[Submissions/Flying Armbar/from Closed Guard]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Kimura]]
 - [[Submissions/Cross Collar Choke]]

@@ -399,35 +399,35 @@ The system should be trained in progressive phases, beginning with positional co
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Ashi Garami]] (Position) - Primary positional platform for entire submission chain
-- [[Inside Ashi-Garami]] (Position) - Enhanced control variation that strengthens chain execution
-- [[Outside Ashi-Garami]] (Position) - Alternative positional platform when opponent rotates
-- [[Kneebar Control]] (Position) - Finishing position for kneebar component of chain
-- [[Straight Ankle Lock Control]] (Position) - Finishing position for footlock component of chain
-- [[50-50 Guard]] (Position) - Alternative position that supports similar submission chain
-- [[Saddle]] (Position) - Advanced position that expands chain with heel hook variations
-- [[Honey Hole]] (Position) - Related leg entanglement position for expanded leg attack system
-- [[Cross Ashi-Garami]] (Position) - Alternative ashi variation for chain execution
-- [[Straight Ankle Lock]] (Submission) - Primary submission and entry point for the chain
-- [[Kneebar]] (Submission) - Secondary submission and transition target in chain
-- [[Flying Kneebar]] (Submission) - Dynamic kneebar entry variation that develops explosive finishing applicable to the chain
-- [[Achilles Lock]] (Submission) - Related ankle attack that shares similar positional prerequisites
-- [[Heel Hook]] (Submission) - Advanced leg attack that can be integrated into expanded system
-- [[Toe Hold]] (Submission) - Alternative ankle attack that expands offensive options
-- [[Inside Ashi Entry]] (Transition) - Primary entry method to establish chain starting position
-- [[Outside Ashi Entry]] (Transition) - Alternative entry when inside position is unavailable
-- [[Ashi Garami Escape]] (Transition) - Understanding escapes improves position maintenance and transition timing
-- [[X-Guard to Ashi Garami]] (Transition) - Common entry pathway from guard positions
-- [[Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
-- [[Leg Entanglement]] (Position) - Fundamental positional concept underlying control maintenance in chain
-- [[Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
-- [[Transition Management]] (Principle) - Broader concept governing smooth transitions between submission attempts
-- [[Fork Attacks]] (Principle) - Strategic concept of creating no-win defensive scenarios
-- [[Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
-- [[Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions
-- [[Levers]] (Principle) - Biomechanical leverage principles underlying both submissions in chain
-- [[Positional Sparring]] (Principle) - Training methodology for developing chain proficiency through structured practice
-- [[Danaher Leg Lock System]] (System) - Comprehensive system that this chain is fundamental component of
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Primary positional platform for entire submission chain
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Enhanced control variation that strengthens chain execution
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Alternative positional platform when opponent rotates
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) - Finishing position for kneebar component of chain
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) - Finishing position for footlock component of chain
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Alternative position that supports similar submission chain
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Advanced position that expands chain with heel hook variations
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) - Related leg entanglement position for expanded leg attack system
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) - Alternative ashi variation for chain execution
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Primary submission and entry point for the chain
+- [[Transitions/Kneebar|Kneebar]] (Submission) - Secondary submission and transition target in chain
+- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission) - Dynamic kneebar entry variation that develops explosive finishing applicable to the chain
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) - Related ankle attack that shares similar positional prerequisites
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Advanced leg attack that can be integrated into expanded system
+- [[Submissions/Toe Hold|Toe Hold]] (Submission) - Alternative ankle attack that expands offensive options
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Primary entry method to establish chain starting position
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Alternative entry when inside position is unavailable
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) - Understanding escapes improves position maintenance and transition timing
+- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) - Common entry pathway from guard positions
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Position) - Fundamental positional concept underlying control maintenance in chain
+- [[Principles/Submission Chains|Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
+- [[Principles/Transition Management|Transition Management]] (Principle) - Broader concept governing smooth transitions between submission attempts
+- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic concept of creating no-win defensive scenarios
+- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions
+- [[Principles/Levers|Levers]] (Principle) - Biomechanical leverage principles underlying both submissions in chain
+- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Training methodology for developing chain proficiency through structured practice
+- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Comprehensive system that this chain is fundamental component of
 
 
 </section>

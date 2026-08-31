@@ -14,7 +14,7 @@ import { curriculumMid } from "./personas"
  * :4900 auto_pick → pick → enterAttempt) never calls _landAnswered — which is the ONLY
  * emitter of land_q_answered (:4319) and the ONLY writer of _qMod's penalty (:4311).
  *
- * Journey: a mid-curriculum player answers landing 1 by KEYBOARD (a/b/c/d answers the
+ * Journey: a mid-curriculum player answers landing 1 by KEYBOARD (a/b/c answers the
  * live MC block) to earn combo ×1, advances one state, then freezes on landing 2's
  * question until the decision clock expires. The streak dies at ×1 with reason "ignored";
  * _qMod stays exactly 0; the beat stream holds exactly ONE land_q_answered (landing 1's

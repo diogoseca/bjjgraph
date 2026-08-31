@@ -375,32 +375,32 @@ Begin with static positional drilling where partner has back control but doesn't
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
-- [[Back Control]] (Position) - Primary position this defensive system addresses
-- [[Body Triangle]] (Position) - Advanced back control variation requiring modified escape protocol
-- [[Seat Belt Control Back]] (Position) - Specific grip configuration this system defends against
-- [[Turtle]] (Position) - Common recovery position when escaping back control
-- [[Closed Guard]] (Position) - Primary target position when recovering from back control
-- [[Crucifix]] (Position) - Position to avoid when escaping back control improperly
-- [[Shrimp Escape]] (Transition) - Core movement pattern used in hip escape sequences
-- [[Elbow Escape to Guard]] (Transition) - Alternative escape technique from back control
-- [[Hip Escape to Guard]] (Transition) - Fundamental movement for creating space during escapes
-- [[Granby Roll to Guard]] (Transition) - Advanced escape option when hooks are partially cleared
-- [[Technical Stand-up]] (Transition) - Recovery option when opponent creates distance during escape
-- [[Back Door Escape]] (Transition) - Key escape transition used during back control escape sequences
-- [[Arm Recovery to Guard]] (Transition) - Final phase of escape protocol returning to guard position
-- [[Hand Fighting]] (Principle) - Critical defensive skill for preventing chokes from back control
-- [[Chin Protection]] (Principle) - First priority in back defense protocol
-- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
-- [[Frames]] (Principle) - Essential principle for preventing opponent from flattening you
-- [[Hip Escape Mechanics]] (Principle) - Fundamental movement principle underlying all escape sequences
-- [[Escape Fundamentals]] (Principle) - Strategic framework defining priority order of defensive actions
-- [[Distance Control]] (Principle) - Core principle of generating room for escape movements
-- [[Energy Conservation]] (Principle) - Critical for surviving extended back control situations
-- [[Dealing with Pressure]] (Principle) - Overall strategic approach to handling dominant pressure situations
-- [[Back Attack System]] (System) - Offensive system this protocol specifically defends against
-- [[Danaher Straight Jacket System]] (System) - Advanced back control system requiring refined defensive protocol
-- [[Defensive Prioritization Framework]] (System) - Broader defensive system that includes back escape protocols
-- [[Rear Naked Choke]] (Submission) - Primary submission threat defended against in this system
+- [[Positions/Back Control|Back Control]] (Position) - Primary position this defensive system addresses
+- [[Positions/Back Control/Body Triangle|Body Triangle]] (Position) - Advanced back control variation requiring modified escape protocol
+- [[Positions/Back Control/Seat Belt Control Back|Seat Belt Control Back]] (Position) - Specific grip configuration this system defends against
+- [[Positions/Turtle|Turtle]] (Position) - Common recovery position when escaping back control
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Primary target position when recovering from back control
+- [[Positions/Crucifix|Crucifix]] (Position) - Position to avoid when escaping back control improperly
+- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition) - Core movement pattern used in hip escape sequences
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Alternative escape technique from back control
+- [[Transitions/Hip Escape to Guard|Hip Escape to Guard]] (Transition) - Fundamental movement for creating space during escapes
+- [[Transitions/Granby Roll to Guard|Granby Roll to Guard]] (Transition) - Advanced escape option when hooks are partially cleared
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) - Recovery option when opponent creates distance during escape
+- [[Transitions/Back Door Escape|Back Door Escape]] (Transition) - Key escape transition used during back control escape sequences
+- [[Transitions/Arm Recovery to Guard|Arm Recovery to Guard]] (Transition) - Final phase of escape protocol returning to guard position
+- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Critical defensive skill for preventing chokes from back control
+- [[Principles/Chin Protection|Chin Protection]] (Principle) - First priority in back defense protocol
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
+- [[Principles/Frames|Frames]] (Principle) - Essential principle for preventing opponent from flattening you
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Fundamental movement principle underlying all escape sequences
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Strategic framework defining priority order of defensive actions
+- [[Principles/Distance Control|Distance Control]] (Principle) - Core principle of generating room for escape movements
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Critical for surviving extended back control situations
+- [[Principles/Dealing with Pressure|Dealing with Pressure]] (Principle) - Overall strategic approach to handling dominant pressure situations
+- [[Systems/Back Attack System|Back Attack System]] (System) - Offensive system this protocol specifically defends against
+- [[Systems/Danaher Straight Jacket System|Danaher Straight Jacket System]] (System) - Advanced back control system requiring refined defensive protocol
+- [[Systems/Defensive Prioritization Framework|Defensive Prioritization Framework]] (System) - Broader defensive system that includes back escape protocols
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary submission threat defended against in this system
 
 
 </section>

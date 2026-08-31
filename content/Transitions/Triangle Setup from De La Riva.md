@@ -318,7 +318,7 @@ The Triangle Setup from De La Riva integrates into the broader DLR attack system
 
 - [[Positions/Collar Sleeve Guard]] - Related open guard system with strong triangle setup options sharing grip principles
 
-- [[Omoplata from De La Riva Guard]] - Related submission attack using similar hip rotation and arm-isolation mechanics from the same guard
+- [[Submissions/Omoplata/from De La Riva Guard]] - Related submission attack using similar hip rotation and arm-isolation mechanics from the same guard
 
 
 </section>

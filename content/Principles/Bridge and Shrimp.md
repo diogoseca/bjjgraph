@@ -453,18 +453,18 @@ Full resistance positional sparring starting from worst-case bottom positions, r
 
 
 ### Related Content
-- [[Hip Escape Mechanics]] (Principle) - Direct extension of bridge and shrimp fundamentals with additional technical refinements for specific escape scenarios
-- [[Escape Fundamentals]] (Principle) - Comprehensive framework that incorporates bridge and shrimp as foundational movement patterns for all escapes
-- [[Frames]] (Principle) - Complementary defensive skill that preserves space created by bridge and shrimp movements
-- [[Positional Hierarchy]] (Principle) - Understanding positional hierarchy determines escape priority and which bridge and shrimp sequences to deploy from each inferior position
-- [[Elbow Escape to Guard]] (Transition) - Classic escape technique built entirely on bridge and shrimp movement patterns from side control
-- [[Upa Escape]] (Transition) - Mount escape that relies on explosive bridge movement as primary mechanical driver
-- [[Defensive Concepts]] (Principle) - Broader defensive framework that incorporates bridge and shrimp as core mechanical tools for all bottom position escapes
-- [[Mount]] (Position) - Primary defensive challenge that requires bridge and shrimp mastery for reliable escape
-- [[Side Control]] (Position) - Common inferior position where bridge and shrimp movements form foundation of escape strategy
-- [[Energy Conservation]] (Principle) - Strategic principle that requires efficient bridge and shrimp mechanics for sustainable defensive efforts
-- [[Kuzushi]] (Principle) - Bridge mechanics directly contribute to sweep execution from guard positions, sharing the same hip elevation and explosive movement patterns
-- [[Center of Gravity]] (Principle) - Understanding opponent's weight distribution is essential for timing bridge and shrimp movements and choosing optimal escape directions
+- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Direct extension of bridge and shrimp fundamentals with additional technical refinements for specific escape scenarios
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Comprehensive framework that incorporates bridge and shrimp as foundational movement patterns for all escapes
+- [[Principles/Frames|Frames]] (Principle) - Complementary defensive skill that preserves space created by bridge and shrimp movements
+- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding positional hierarchy determines escape priority and which bridge and shrimp sequences to deploy from each inferior position
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) - Classic escape technique built entirely on bridge and shrimp movement patterns from side control
+- [[Transitions/Upa Escape|Upa Escape]] (Transition) - Mount escape that relies on explosive bridge movement as primary mechanical driver
+- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Broader defensive framework that incorporates bridge and shrimp as core mechanical tools for all bottom position escapes
+- [[Positions/Mount|Mount]] (Position) - Primary defensive challenge that requires bridge and shrimp mastery for reliable escape
+- [[Positions/Side Control|Side Control]] (Position) - Common inferior position where bridge and shrimp movements form foundation of escape strategy
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Strategic principle that requires efficient bridge and shrimp mechanics for sustainable defensive efforts
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Bridge mechanics directly contribute to sweep execution from guard positions, sharing the same hip elevation and explosive movement patterns
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Understanding opponent's weight distribution is essential for timing bridge and shrimp movements and choosing optimal escape directions
 
 
 </section>

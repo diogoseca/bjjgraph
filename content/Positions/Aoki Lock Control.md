@@ -288,7 +288,7 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Aoki Lock from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (26% of attempts)
+- **[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (26% of attempts)
 
 - **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** (25% of attempts)
 

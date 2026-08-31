@@ -240,20 +240,20 @@ A: Guard is a neutral position, not a safe position. If you recover guard passiv
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Frames]] (Principle) - Frames are the foundational tool for creating space in purposeful defense and the starting point of every escape chain
-- [[Principles/Escape Fundamentals]] (Principle) - Escape fundamentals provide the technical vocabulary for the defensive chains described in purposeful defense
-- [[Principles/Hip Escape Mechanics]] (Principle) - Hip escapes are the primary movement used to create space after frames are established in the defense chain
-- [[Principles/Defensive Concepts]] (Principle) - General defensive concepts provide the strategic framework that purposeful defense makes tactical and actionable
-- [[Principles/Positional Hierarchy]] (Principle) - Understanding the positional hierarchy tells you exactly where your defense should be taking you
-- [[Principles/Bridge and Shrimp]] (Principle) - Bridge and shrimp are the two core movements that drive purposeful defense from bottom positions
-- [[Positions/Mount]] (Position) - Mount is the primary position where passive defense fails most visibly due to the energy asymmetry favoring the top player
-- [[Positions/Side Control]] (Position) - Side control escapes are the most common application of frame-to-escape defense chains
-- [[Positions/Back Control]] (Position) - Back control defense requires the most urgent purposeful defense because of the high submission threat
-- [[Positions/Half Guard]] (Position) - Half guard is a common waypoint in defensive escape chains, serving as a platform for full guard recovery or sweeps
-- [[Positions/Knee on Belly]] (Position) - Knee on belly defense demonstrates purposeful defense clearly: push off the knee AND escape, not just remove the knee
-- [[Principles/Submission Defense]] (Principle) - Submission defense is the starting point of purposeful defense, not the endpoint
-- [[Learning/Investing in Loss]] (Learning) - Investing in loss creates the training conditions where purposeful defense can be practiced and refined
-- [[Positions/Closed Guard]] (Position) - Closed guard is the most common recovery destination in defensive escape chains from bottom positions
+- [[Principles/Frames|Principles/Frames]] (Principle) - Frames are the foundational tool for creating space in purposeful defense and the starting point of every escape chain
+- [[Principles/Escape Fundamentals|Principles/Escape Fundamentals]] (Principle) - Escape fundamentals provide the technical vocabulary for the defensive chains described in purposeful defense
+- [[Principles/Hip Escape Mechanics|Principles/Hip Escape Mechanics]] (Principle) - Hip escapes are the primary movement used to create space after frames are established in the defense chain
+- [[Principles/Defensive Concepts|Principles/Defensive Concepts]] (Principle) - General defensive concepts provide the strategic framework that purposeful defense makes tactical and actionable
+- [[Principles/Positional Hierarchy|Principles/Positional Hierarchy]] (Principle) - Understanding the positional hierarchy tells you exactly where your defense should be taking you
+- [[Principles/Bridge and Shrimp|Principles/Bridge and Shrimp]] (Principle) - Bridge and shrimp are the two core movements that drive purposeful defense from bottom positions
+- [[Positions/Mount|Positions/Mount]] (Position) - Mount is the primary position where passive defense fails most visibly due to the energy asymmetry favoring the top player
+- [[Positions/Side Control|Positions/Side Control]] (Position) - Side control escapes are the most common application of frame-to-escape defense chains
+- [[Positions/Back Control|Positions/Back Control]] (Position) - Back control defense requires the most urgent purposeful defense because of the high submission threat
+- [[Positions/Half Guard|Positions/Half Guard]] (Position) - Half guard is a common waypoint in defensive escape chains, serving as a platform for full guard recovery or sweeps
+- [[Positions/Knee on Belly|Positions/Knee on Belly]] (Position) - Knee on belly defense demonstrates purposeful defense clearly: push off the knee AND escape, not just remove the knee
+- [[Principles/Submission Defense|Principles/Submission Defense]] (Principle) - Submission defense is the starting point of purposeful defense, not the endpoint
+- [[Learning/Investing in Loss|Learning/Investing in Loss]] (Learning) - Investing in loss creates the training conditions where purposeful defense can be practiced and refined
+- [[Positions/Closed Guard|Positions/Closed Guard]] (Position) - Closed guard is the most common recovery destination in defensive escape chains from bottom positions
 
 
 

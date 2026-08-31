@@ -306,7 +306,7 @@ Closed Guard to Hindulotine is the principal guard-based on-ramp into the Hindul
 
 - [[Positions/Closed Guard]] - Starting position from which this entry is executed
 
-- [[Guillotine Choke from Hindulotine]] - Primary finishing transition available once the Hindulotine is established
+- [[Submissions/Guillotine Choke/from Hindulotine]] - Primary finishing transition available once the Hindulotine is established
 
 - [[Transitions/Hip Bump Sweep]] - Shares the broken-posture trigger from closed guard and chains with guillotine catches
 

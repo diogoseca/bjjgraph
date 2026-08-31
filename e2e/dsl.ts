@@ -540,6 +540,32 @@ export class Journey {
     });
   }
 
+  /**
+   * GRADE THE JIT DRILL CORRECTLY, WHATEVER FORMAT IT IS ASKING IN.
+   *
+   * The in-sheet micro-drill follows `askFormat`: an unproven card (stage < 2) asks MULTIPLE
+   * CHOICE, a card at its MC cap reads back as recall, and a deck whose distractor pool is cold
+   * falls back to recall too. Every caller of this helper is asserting something about the
+   * ECONOMY — the odds pump, the lesson-done math, the refund budget — and not one of them is
+   * about which format the question wore, so the format lives here instead of in six specs.
+   *
+   * Answers from `__neural._mc` (surface "jit") rather than re-deriving the correct option: a
+   * spec-side copy of the grader would agree with a broken build by construction (§6.3).
+   */
+  async jitGrade() {
+    const fmt = await this.page.evaluate(() => {
+      const m = (window as W).__neural._mc;
+      return m && m.surface === "jit" ? m.correct : null;
+    });
+    if (fmt == null) {
+      await this.page.locator("[data-jit-reveal]").click();
+      await this.page.locator("[data-jit-got]").click();
+    } else {
+      await this.page.locator("[data-jit-mc-opt]").nth(fmt).click();
+    }
+    return this;
+  }
+
   /** Wait for every in-flight deck/pool fetch to settle (hydration is real async). */
   async decksSettled() {
     await this.page.evaluate(async () => {

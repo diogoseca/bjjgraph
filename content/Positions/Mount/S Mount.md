@@ -296,9 +296,9 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 - **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
 
-- **[[Americana from S Mount/Attacker|Americana from S Mount]]** (3% of attempts)
+- **[[Submissions/Americana/from S Mount/Attacker|Americana from S Mount]]** (3% of attempts)
 
-- **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (5% of attempts)
+- **[[Submissions/Kimura/from S Mount/Attacker|Kimura from S Mount]]** (5% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
@@ -310,7 +310,7 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 - **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (10% of attempts)
 
-- **[[Armbar from S Mount/Attacker|Armbar from S Mount]]** (18% of attempts)
+- **[[Submissions/Armbar/from S Mount/Attacker|Armbar from S Mount]]** (18% of attempts)
 
 
 ### Common Mistakes

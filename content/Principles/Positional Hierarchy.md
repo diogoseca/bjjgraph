@@ -461,18 +461,18 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 
 
 ### Related Content
-- [[Position-Over-Submission Approach]] (Principle) - Direct implementation philosophy - position-before-submission approach operationalizes hierarchical understanding into tactical decision-making rule
-- [[Control Point Hierarchy]] (Principle) - Nested hierarchy system - control points provide micro-level hierarchy within positions while positional hierarchy provides macro-level framework
-- [[Escape Fundamentals]] (Principle) - Defensive application - escape fundamentals represent defensive implementation of positional hierarchy establishing escape priority system based on hierarchical danger
-- [[Mount]] (Position) - Highest traditional hierarchical position - represents apex of offensive positional hierarchy with maximum control and submission access
-- [[Back Control]] (Position) - Highest hierarchical position alongside mount - represents ultimate control position with superior submission access and minimal escape options
-- [[Side Control]] (Position) - High hierarchical position - represents secure platform below mount and back control with excellent control and advancement opportunities
-- [[Closed Guard]] (Position) - Neutral hierarchical position - represents balanced position where hierarchy understanding guides offensive versus defensive priorities
-- [[Half Guard]] (Position) - Medium defensive hierarchical position - demonstrates application of hierarchy to determine sweep versus retention priorities
-- [[Turtle]] (Position) - Low defensive hierarchical position - exemplifies position requiring urgent improvement based on hierarchical vulnerability
-- [[Energy Conservation]] (Principle) - Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return
-- [[Position Chains]] (Principle) - Sequenced progression framework - supplies the connected technical pathways used to climb deliberately from lower-value to higher-value positions
-- [[Competition Mindset]] (Principle) - Strategic extension - extends hierarchical understanding into comprehensive game planning and match strategy for competitive contexts
+- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Direct implementation philosophy - position-before-submission approach operationalizes hierarchical understanding into tactical decision-making rule
+- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Nested hierarchy system - control points provide micro-level hierarchy within positions while positional hierarchy provides macro-level framework
+- [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Defensive application - escape fundamentals represent defensive implementation of positional hierarchy establishing escape priority system based on hierarchical danger
+- [[Positions/Mount|Mount]] (Position) - Highest traditional hierarchical position - represents apex of offensive positional hierarchy with maximum control and submission access
+- [[Positions/Back Control|Back Control]] (Position) - Highest hierarchical position alongside mount - represents ultimate control position with superior submission access and minimal escape options
+- [[Positions/Side Control|Side Control]] (Position) - High hierarchical position - represents secure platform below mount and back control with excellent control and advancement opportunities
+- [[Positions/Closed Guard|Closed Guard]] (Position) - Neutral hierarchical position - represents balanced position where hierarchy understanding guides offensive versus defensive priorities
+- [[Positions/Half Guard|Half Guard]] (Position) - Medium defensive hierarchical position - demonstrates application of hierarchy to determine sweep versus retention priorities
+- [[Positions/Turtle|Turtle]] (Position) - Low defensive hierarchical position - exemplifies position requiring urgent improvement based on hierarchical vulnerability
+- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return
+- [[Principles/Position Chains|Position Chains]] (Principle) - Sequenced progression framework - supplies the connected technical pathways used to climb deliberately from lower-value to higher-value positions
+- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Strategic extension - extends hierarchical understanding into comprehensive game planning and match strategy for competitive contexts
 
 
 </section>

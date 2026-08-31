@@ -210,7 +210,7 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (43% of attempts)
+- **[[Submissions/Gogoplata/from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (43% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 

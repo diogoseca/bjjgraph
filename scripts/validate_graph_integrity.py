@@ -1266,6 +1266,95 @@ def main():
                 ),
             })
 
+    # ── ONE NAME, ONE SECTION (error) ──────────────────────────────────────────────────────────
+    # A technique's graph id is slugify(<name>) minted PER SECTION, so the id namespace is not
+    # global: the same display name authored in both content/Transitions/ and content/Submissions/
+    # produces the SAME id in two sections. Everything that resolves by section survives that;
+    # scripts/regenerate_neural_data.py's flashcard join does not — it keys one flat dict and the
+    # second write silently wins, dropping 10 decks / 90 cards. Worse, the two copies are two
+    # independent authorings: measured, all 10 role-node pairs carry DIFFERENT outcomes, and the
+    # submissions copy reaches `game-over` while the transitions copy does not. Nothing reported it.
+    #
+    # TWO SHAPES ARE LEGITIMATE AND ARE NOT FLAGGED:
+    #   · a POSITION and a technique sharing a name (Knee on Belly is both a state and the move
+    #     into it) — different sections, different kinds, no join collides on it;
+    #   · a transition ENTRY plus a submission FAMILY HUB of the same name (Anaconda Choke: the
+    #     transition enters Anaconda Control, the `is_family` submission is an edgeless flashcard
+    #     aggregator with no outcomes). That pair is the documented content pattern.
+    #
+    # What is flagged is the third shape: the same move authored TWICE, both non-family. Those
+    # five are enumerated so a new one fails immediately rather than joining an aggregate count
+    # (CLAUDE.md §6.7 — a baseline names what it tolerates). Shrinking this set always passes;
+    # emptying it should delete the set and this comment's last paragraph.
+    # EMPTY, and it should stay empty. The five that were here were collapsed in v1.154.2 under
+    # the owner's typing ruling — a move whose success edge reaches the game-over sink IS a
+    # submission, so it may not also exist as a transition record. Re-populating this set would be
+    # tolerating a type error, not baselining a known issue; fix the content instead.
+    KNOWN_DUAL_AUTHORED = set()
+    _dual = sorted((transition_file_names & submission_file_names) - family_hub_names)
+    print(f"  cross-section name check: {len(transition_file_names)} transitions x "
+          f"{len(submission_file_names)} submissions -> {len(_dual)} authored in BOTH as non-family"
+          + (f" ({len(set(_dual) - KNOWN_DUAL_AUTHORED)} unbaselined)" if _dual else ""))
+    for name in _dual:
+        if name in KNOWN_DUAL_AUTHORED:
+            continue
+        all_issues.append({
+            "type": "dual_authored_technique",
+            "severity": "error",
+            "name": name,
+            "file": transition_index.get(name, ""),
+            "message": (
+                f"'{name}' is authored as BOTH a transition ({transition_index.get(name)}) and a "
+                f"non-family submission ({submission_index.get(name)}). One id, two state machines: "
+                f"the flashcard join keys them identically and silently drops one deck. Keep one "
+                f"file, or rename one (a grip ENTRY and its FINISH are different moves and deserve "
+                f"different names)."
+            ),
+        })
+    for name in sorted(KNOWN_DUAL_AUTHORED - set(_dual)):
+        print(f"  cross-section name check: '{name}' is FIXED — remove it from KNOWN_DUAL_AUTHORED")
+
+    # ── SUCCESS-REACHABILITY (report) ──────────────────────────────────────────────────────────
+    # A position that no move can REACH BY SUCCEEDING is enterable only by failing something. That
+    # is almost always a modelling accident, and the ordinary in-degree check cannot see it: when
+    # the Kimura twin collapsed, `kimura-trap/bottom` went 5 -> 4 total inbound and 1 -> 0
+    # success-result inbound, so every "in-degree >= 1" formulation passed it green. Count the
+    # SUCCESS arrivals specifically, or this class stays invisible.
+    #
+    # Reporting-only on purpose: the one instance today is a deliberate, ratified consequence of
+    # the twin collapse, and the position is still reachable. Promote to an error once that is
+    # resolved — a fresh instance means somebody deleted a state's only way in.
+    _succ_in, _any_in = {}, {}
+    for _path in list(TRANSITIONS_PATH.rglob("*.json")) + list(SUBMISSIONS_PATH.rglob("*.json")):
+        _d = load_json(_path)
+        if not isinstance(_d, dict) or _d.get("is_family"):
+            continue
+        for _o in _d.get("outcomes") or []:
+            _to = _o.get("to")
+            if not _to or _to == "game-over":
+                continue
+            _any_in[_to] = _any_in.get(_to, 0) + 1
+            if _o.get("result") == "success":
+                _succ_in[_to] = _succ_in.get(_to, 0) + 1
+    _fail_only = sorted(t for t in _any_in if not _succ_in.get(t))
+    _base_path = Path("tests/artifacts/success_reachability_baseline.json")
+    _base = load_json(_base_path) or {}
+    _baselined = set(_base.get("known") or {}) | set(_base.get("reviewed") or {})
+    _new = [t for t in _fail_only if t not in _baselined]
+    _fixed = sorted(_baselined - set(_fail_only))
+    print(f"  success-reachability: {len(_any_in)} position role-node(s) receive an outcome edge; "
+          f"{len(_succ_in)} reachable by SUCCEEDING; {len(_fail_only)} only by failing "
+          f"({len(_baselined)} baselined, {len(_new)} new)")
+    if not _any_in:
+        print("  success-reachability: 0 edges seen — the check looked at nothing, treat as broken")
+    for _t in _new:
+        print(f"    success-reachability: NEW — {_t!r} has {_any_in[_t]} inbound edge(s), none a "
+              f"success. A player can only arrive there by failing their own move. If a move was "
+              f"just deleted, it was that position's last way in; re-author the entry under a "
+              f"non-colliding name rather than restoring a twin.")
+    for _t in _fixed:
+        print(f"    success-reachability: {_t!r} is FIXED — remove it from {_base_path}")
+
     # Probability sum errors (error)
     for e in prob_errors:
         all_issues.append({

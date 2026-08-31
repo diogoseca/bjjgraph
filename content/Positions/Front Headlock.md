@@ -309,21 +309,21 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (2% of attempts)
+- **[[Submissions/Kimura/from Front Headlock/Attacker|Kimura from Front Headlock]]** (2% of attempts)
 
-- **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
+- **[[Submissions/Peruvian Necktie/from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
-- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (5% of attempts)
+- **[[Submissions/Arm in Guillotine/from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (5% of attempts)
 
-- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (5% of attempts)
+- **[[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (5% of attempts)
 
-- **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
+- **[[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (1% of attempts)
+- **[[Submissions/Brabo Choke/from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (1% of attempts)
 
-- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
+- **[[Submissions/Chin Strap Guillotine/from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (2% of attempts)
+- **[[Submissions/Japanese Necktie/from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (2% of attempts)
 
 
 ### Common Mistakes

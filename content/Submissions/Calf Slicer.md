@@ -243,6 +243,7 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 - [[Submissions/Achilles Lock]] - Foundational straight ankle lock from similar leg entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic leg lock entry that chains with calf slicer when kneebar is defended
 - [[Submissions/Estima Lock]] - Foot compression lock sharing similar delayed pain onset characteristics
+- [[Submissions/Heel Hook/from Backside 50-50]] - High-percentage heel hook variant from position adjacent to calf slicer entries
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary attacking position for lower body Calf Slicer entries
 - [[Positions/Twister Control/Truck]] - Highest percentage attacking position for Calf Slicer finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement position with Calf Slicer options

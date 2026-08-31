@@ -415,18 +415,18 @@ Flow roll at 50% intensity with the specific focus of maintaining structural ali
 
 
 ### Related Content
-- [[Posture]] (Principle) - Posture is a specific subset of Structure focused on spinal alignment, while Structure encompasses the entire skeletal system's alignment
-- [[Frames]] (Principle) - Frames are defensive applications of structural principles — bone stacking determines whether a frame holds or collapses under pressure
-- [[Base]] (Principle) - Base is the foundation that Structure connects to — together they form the complete system of stability and force transmission
-- [[Pressure]] (Principle) - Pressure is the output of good structural alignment — body weight transmitted efficiently through bone stacking produces heavy, effortless pressure
-- [[Levers]] (Principle) - Lever effectiveness depends on structural rigidity through the lever system — structural breaks dissipate mechanical advantage
-- [[Center of Gravity]] (Principle) - Center of gravity determines weight placement while Structure determines how that weight connects to the base and transmits through the skeleton
-- [[Connection Principles]] (Principle) - Connection to the opponent provides external force transmission points while Structure provides the internal skeletal pathway for that force
-- [[Forward Pressure]] (Principle) - Forward pressure relies on structural alignment through the spine and into the driving legs to transmit force without collapsing
-- [[Cross Face Control]] (Principle) - Crossface effectiveness depends on structural alignment from the shoulder through the core to the hips — it is body structure, not arm strength
-- [[Kuzushi]] (Principle) - Off-balancing often works by breaking the opponent's structure rather than merely displacing their center of gravity
-- [[Side Control]] (Position) - The premier position for demonstrating structural pressure — top side control with proper bone stacking produces the heaviest pressure in BJJ
-- [[Mount]] (Position) - Mount requires dynamic structural management — shifting between pressure structure and submission structure as the tactical need changes
+- [[Principles/Posture|Posture]] (Principle) - Posture is a specific subset of Structure focused on spinal alignment, while Structure encompasses the entire skeletal system's alignment
+- [[Principles/Frames|Frames]] (Principle) - Frames are defensive applications of structural principles — bone stacking determines whether a frame holds or collapses under pressure
+- [[Principles/Base|Base]] (Principle) - Base is the foundation that Structure connects to — together they form the complete system of stability and force transmission
+- [[Principles/Pressure|Pressure]] (Principle) - Pressure is the output of good structural alignment — body weight transmitted efficiently through bone stacking produces heavy, effortless pressure
+- [[Principles/Levers|Levers]] (Principle) - Lever effectiveness depends on structural rigidity through the lever system — structural breaks dissipate mechanical advantage
+- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Center of gravity determines weight placement while Structure determines how that weight connects to the base and transmits through the skeleton
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Connection to the opponent provides external force transmission points while Structure provides the internal skeletal pathway for that force
+- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Forward pressure relies on structural alignment through the spine and into the driving legs to transmit force without collapsing
+- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Crossface effectiveness depends on structural alignment from the shoulder through the core to the hips — it is body structure, not arm strength
+- [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing often works by breaking the opponent's structure rather than merely displacing their center of gravity
+- [[Positions/Side Control|Side Control]] (Position) - The premier position for demonstrating structural pressure — top side control with proper bone stacking produces the heaviest pressure in BJJ
+- [[Positions/Mount|Mount]] (Position) - Mount requires dynamic structural management — shifting between pressure structure and submission structure as the tactical need changes
 
 
 </section>

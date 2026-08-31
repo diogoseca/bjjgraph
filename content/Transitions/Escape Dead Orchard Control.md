@@ -334,7 +334,7 @@ The Escape Dead Orchard Control occupies a critical defensive node in the front 
 
 - [[Transitions/Anaconda Grip Break to Front Headlock]] - Related escape - similar grip-breaking mechanics from standard anaconda
 
-- [[Anaconda Choke from Dead Orchard]] - Primary threat - submission the escape must prevent
+- [[Submissions/Anaconda Choke/from Dead Orchard]] - Primary threat - submission the escape must prevent
 
 - [[Transitions/Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
 
