@@ -240,13 +240,6 @@
   background: rgba(214, 164, 90, 0.22);
 }
 
-.ng-challenge-distinction {
-  margin: 2px 3px 12px;
-  color: #8793aa;
-  font-size: 10.5px;
-  line-height: 1.5;
-}
-
 .ng-track-list,
 .ng-coin-list {
   display: grid;
@@ -492,13 +485,8 @@
 /* the Tutorial section's CSS left with renderTutorialSection in v1.137.0 (owner: "remove
    the whole tutorial section") — git history at v1.136.0 if a home is ever wanted. */
 
-/* the ladder explains itself ONCE (the per-track prose block is display-retired) */
-.ng-ladder-note {
-  margin: 0 3px 10px;
-  color: #7f8ba4;
-  font-size: 9.5px;
-  line-height: 1.5;
-}
+/* v1.162.0: .ng-challenge-distinction and .ng-ladder-note are gone — both sat above the
+   corridor, where the arrival scroll hid them. git history at v1.161.0 if ever wanted. */
 
 .ng-challenge-curriculum {
   display: grid;

@@ -63,7 +63,8 @@ test("corrupt progress: Challenges recovers to five open tracks with no earned e
   expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe(
     "challenges",
   );
-  expect(await page.locator(".ng-challenge-distinction").count()).toBe(1);
+  // v1.162.0: the tab's head paragraph is gone; the corridor itself is the render proof
+  expect(await page.locator(".ng-challenge-ladder").count()).toBe(1);
   expect(await page.locator(".ng-track-card").count()).toBe(TRACKS.length);
   expect(await page.locator(".ng-challenge-group").count()).toBeGreaterThan(0);
 
