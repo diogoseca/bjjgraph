@@ -5114,6 +5114,7 @@ class Component extends DCLogic {
         '<span class="t-fc" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "flashcards" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "flashcards" ? "#7e9bff" : "transparent") + ';">Flashcards</span>' +
         '<span class="t-rl" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "rolling" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "rolling" ? "#7e9bff" : "transparent") + ';">Rolling</span>' +
         '<span class="t-md" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "modifiers" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "modifiers" ? "#7e9bff" : "transparent") + ';">Modifiers</span>' +
+        '<span class="t-nt" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "notifications" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "notifications" ? "#7e9bff" : "transparent") + ';">Notifications</span>' +
         '<span class="t-kb" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "shortcuts" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "shortcuts" ? "#7e9bff" : "transparent") + ';">Shortcuts</span>' +
       '</div>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
@@ -5121,6 +5122,7 @@ class Component extends DCLogic {
     head.querySelector(".t-fc").addEventListener("click", () => { this._settingsTab = "flashcards"; this.renderSettings(); });
     head.querySelector(".t-rl").addEventListener("click", () => { this._settingsTab = "rolling"; this.renderSettings(); });
     head.querySelector(".t-md").addEventListener("click", () => { this._settingsTab = "modifiers"; this.renderSettings(); });
+    head.querySelector(".t-nt").addEventListener("click", () => { this._settingsTab = "notifications"; this.renderSettings(); });
     card.appendChild(head);
 
     const body = document.createElement("div");
@@ -5142,21 +5144,7 @@ class Component extends DCLogic {
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
-      // TRAINING-DAY DIGEST (v1.105.7, Beta) — the opt-in that makes the email Worker see you.
-      // Signed-in only: a digest without an address has nowhere to go. Default OFF; flipping it
-      // on starts recording the per-day dayLog (see noteCardDone) which syncs in the blob.
-      if (this.user) {
-        const wrap = document.createElement("div");
-        wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
-          [["On", true], ["Off", false]], "emailDigest", false));
-        const beta = document.createElement("span");
-        beta.textContent = "Beta";
-        beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
-        wrap.style.position = "relative";
-        wrap.appendChild(beta);
-        body.appendChild(wrap);
-      }
+      // (the training-day email row moved to the Notifications tab in v1.150.0)
       // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the knowledge band
       // reaches black; auto-flipped ON when the badge mints; freely flippable back. When on, a
       // stage-2+ card in PLAY renders as reveal/self-grade instead of multiple choice.
@@ -5191,6 +5179,36 @@ class Component extends DCLogic {
       cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
       tg.appendChild(cb); body.appendChild(tg);
+    } else if (tab === "notifications") {
+      // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
+      // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
+      // daily goal, answer mode and study format, i.e. the last place anyone looks for an email
+      // preference. It is the only notification the product sends, so this tab is honestly
+      // near-empty; do not pad it. When a second one exists it lands here beside the first.
+      if (this.user) {
+        // Signed-in only: a digest without an address has nowhere to go. Default OFF; flipping
+        // it on starts recording the per-day dayLog (see noteCardDone) which syncs in the blob.
+        // The KEY MUST STAY `emailDigest` — the digest Worker selects rows on
+        // `neural->settings->>emailDigest=eq.true`, so renaming it here would read to every
+        // opted-in user as a silent unsubscribe, with nothing anywhere going red.
+        const wrap = document.createElement("div");
+        wrap.setAttribute("data-digest-setting", "1");
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+          [["On", true], ["Off", false]], "emailDigest", false));
+        const beta = document.createElement("span");
+        beta.textContent = "Beta";
+        beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
+        wrap.style.position = "relative";
+        wrap.appendChild(beta);
+        body.appendChild(wrap);
+      } else {
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        const note = document.createElement("div");
+        note.setAttribute("data-notif-signedout", "1");
+        note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";
+        note.textContent = "The training-day email needs a signed-in account \u2014 that\u2019s where it would be sent. Sign in from the account menu to turn it on.";
+        body.appendChild(note);
+      }
     } else if (tab === "rolling") {
       const r = document.createElement("div");
       r.innerHTML = '<div style="font-size:15px;font-weight:600;color:#eef1f6;">Rolling simulation</div><div style="font-size:12.5px;color:#93a0bd;margin-top:5px;line-height:1.5;margin-bottom:16px;">When you pick a move, a dice-roll plays out against an AI opponent &mdash; success depends on the move\u2019s win % (boosted by your mastery).</div>';
