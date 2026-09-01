@@ -21,7 +21,7 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Inside Ashi-Garami",
-      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
@@ -51,7 +51,7 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

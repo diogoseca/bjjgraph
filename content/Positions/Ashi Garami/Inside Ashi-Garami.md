@@ -286,7 +286,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (24% of attempts)
+- **[[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (23% of attempts)
 
 - **[[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (7% of attempts)
 
@@ -296,19 +296,19 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (7% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (7% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (6% of attempts)
 
-- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (7% of attempts)
+- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (6% of attempts)
 
 - **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (4% of attempts)
 
 - **[[Submissions/Kneebar/from Inside Ashi-Garami/Attacker|Kneebar from Inside Ashi-Garami]]** (6% of attempts)
 
-- **[[Submissions/Achilles Lock/from Inside Ashi-Garami/Attacker|Achilles Lock from Inside Ashi-Garami]]** (3% of attempts)
+- **[[Submissions/Achilles Lock/from Inside Ashi-Garami/Attacker|Achilles Lock from Inside Ashi-Garami]]** (6% of attempts)
 
 
 ### Common Mistakes

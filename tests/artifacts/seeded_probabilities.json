@@ -1,5 +1,5 @@
 {
- "note": "PROVENANCE LEDGER for probabilities introduced by agent authoring, pending owner ratification. This is a REVIEW QUEUE, not a gate: no script reads it and no CI step fails on it. It is written so that every number an agent put into the corpus can be found, sourced and ratified in one pass, rather than being indistinguishable from a calibrated one six months later. `decided_by` is the point of the file and follows the convention of occurrence_reviewed.json: it never says 'reviewed', it says WHO. `agent-draft` carries no more weight than the reasoning printed beside it. Ratify by setting decided_by to `owner_decision` (optionally adjusting the value first); delete a row once its value has been through the calibration pipeline and the value is no longer a draft. Attempt probability (occurrence%) has NO automated seeding path in this repo by design — calibrate_probabilities.py routes occurrence% and outcome_dist to a human-gated proposal file because, unlike success%, they have no self-correcting community-vote loop. Every attempt row below is therefore a seed awaiting elicitation, not an estimate.",
+ "note": "PROVENANCE LEDGER for probabilities introduced by agent authoring, pending owner ratification. This is a REVIEW QUEUE, not a gate: no script reads it and no CI step fails on it. It is written so that every number an agent put into the corpus can be found, sourced and ratified in one pass, rather than being indistinguishable from a calibrated one six months later. `decided_by` is the point of the file and follows the convention of occurrence_reviewed.json: it never says 'reviewed', it says WHO. `agent-draft` carries no more weight than the reasoning printed beside it. `owner-directed` means the owner called for the change and the agent calibrated the magnitude — still open to correction, but not a bare agent guess. Ratify by setting decided_by to `owner_decision` (optionally adjusting the value first); delete a row once its value has been through the calibration pipeline and the value is no longer a draft. Attempt probability (occurrence%) has NO automated seeding path in this repo by design — calibrate_probabilities.py routes occurrence% and outcome_dist to a human-gated proposal file because, unlike success%, they have no self-correcting community-vote loop. Every attempt row below is therefore a seed awaiting elicitation, not an estimate.",
  "source": "v1.156.0 — content/missing-nodes-kimura",
  "schema": {
   "value": "the number as authored",
@@ -8,17 +8,6 @@
   "decided_by": "agent-draft | owner_decision | calibrated"
  },
  "rows": {
-  "Achilles Lock from Inside Ashi-Garami :: attempt_probability @ Inside Ashi-Garami/Top": {
-   "value": {
-    "gi": 3,
-    "nogi": 3
-   },
-   "basis": "SEEDED AT THE FLOOR, NOT ESTIMATED. 3 is validate_graph_integrity.py THRESHOLDS['attempt_too_low'] — the lowest value that is not reported as `attempt_negligible`. Symmetric across rulesets because the Achilles Lock is IBJJF-legal at every belt in both gi and no-gi, unlike the heel hook sharing this seat (gi 0 / nogi 24). No corpus number anchors the MAGNITUDE: the three sibling finishes at this seat sit at gi 20 (Toe Hold), gi 16 (Kneebar) and gi 0 (Heel Hook), a range this seed does not attempt to interpolate.",
-   "invented": true,
-   "decided_by": "agent-draft",
-   "review_first": true,
-   "note": "THE ONE ROW THAT MOST NEEDS CALIBRATION. Everything else here is a reused corpus number."
-  },
   "Half Guard to Kimura Trap :: attempt_probability @ Half Guard/Bottom": {
    "value": {
     "gi": 4,
@@ -60,9 +49,23 @@
    "invented": false,
    "decided_by": "agent-draft"
   },
-  "RENORMALISATION :: 15 pre-existing entries, 1 point each": {
-   "value": "Half Guard/Bottom: 5 entries -1; Inside Ashi-Garami/Top: 6 entries -1 (per frame, see report)",
-   "basis": "Mechanical, not a judgement. Each frame must sum to 100, so the new entry's mass is absorbed by rescaling every pre-existing entry PROPORTIONALLY through scripts/_prob_norm.largest_remainder_round — the repo's single normalizer, which preserves each move's relative share exactly and puts the leftover units on the largest fractional parts. No move's rank or relative weight changed; the heel hook's structural gi 0 stayed 0. Every delta is exactly 1 percentage point.",
+  "Achilles Lock from Inside Ashi-Garami :: attempt_probability @ Inside Ashi-Garami/Top": {
+   "value": {
+    "gi": 16,
+    "nogi": 6
+   },
+   "previous_value": {
+    "gi": 3,
+    "nogi": 3
+   },
+   "basis": "OWNER-DIRECTED BUMP, agent-calibrated. The 3/3 seed was the `attempt_too_low` floor and the owner rejected it as too low; measured against the corpus he is right — 3 was the second-lowest gi share of all 53 leg-attack submission attempts, above only `Calf Slicer from 50-50 Guard` (2) and the gi-illegal heel hooks (0-1). GROUNDING, at the identical seat: `Heel Hook from Inside Ashi-Garami` is gi 0 / nogi 25, so in gi the heel hook carries none of the attack mass and the two gi-legal finishes carry it — `Toe Hold from Inside Ashi-Garami` gi 21 / nogi 7 and `Kneebar from Inside Ashi-Garami` gi 17 / nogi 6, both running a gi:nogi ratio of 2.7-2.9x for exactly that reason. The Achilles Lock is the only leg attack legal at every IBJJF belt in BOTH rulesets and Inside Ashi-Garami (standard ashi / single-leg-X) is its canonical position, so it belongs in that cluster, not at the floor. 16/6 is a 2.67x ratio, in family with both, and lands it between the two after renormalisation (Toe Hold 18, Achilles 16, Kneebar 14) rather than overtaking either. Cross-checks: corpus median for leg-attack attempts is gi 6 / nogi 10; the same-FAMILY `Straight Ankle Lock from Straight Ankle Lock Control` sits at gi 9 / nogi 10, lower because at a dedicated ankle-lock control position the mass is split across seven escape/transition rows.",
+   "invented": false,
+   "decided_by": "owner-directed",
+   "note": "The owner directed the bump; the magnitude and the gi/nogi asymmetry are the agent's calibration against the seat's own comparables and remain open to correction. This row is no longer the review-first row — nothing in this ledger is now a bare judgement call."
+  },
+  "RENORMALISATION :: 16 pre-existing entries absorb the two new attempt shares": {
+   "value": "Half Guard/Bottom: 5 entries -1pt. Inside Ashi-Garami/Top: 11 entries rescaled from the PRE-BRANCH base to absorb 16 gi / 6 nogi (Toe Hold 21->18, Kneebar 17->14, Outside Ashi Entry 16->13, Inside Ashi to Outside Ashi 14->12, Heel Hook nogi 25->23, five others -1).",
+   "basis": "Mechanical, not a judgement. Each frame must sum to 100, so the new entry's mass is absorbed by rescaling every pre-existing entry PROPORTIONALLY through scripts/_prob_norm.largest_remainder_round — the repo's single normalizer, which preserves each move's relative share exactly and puts the leftover units on the largest fractional parts. No move's rank changed and the heel hook's structural gi 0 stayed 0. The Inside Ashi-Garami rescale is computed from the PRE-BRANCH values (a0ae23caa), not from the 3/3 seed's output, so the two roundings do not compound.",
    "invented": false,
    "decided_by": "agent-draft"
   }

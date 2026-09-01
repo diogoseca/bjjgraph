@@ -391,42 +391,42 @@
         "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 24
+          "nogi": 23
         }
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 20,
+          "gi": 18,
           "nogi": 7
         }
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 15
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 7
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 8
+          "gi": 13,
+          "nogi": 7
         }
       },
       {
@@ -439,36 +439,36 @@
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi to Outside Ashi",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 7
+          "gi": 12,
+          "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi-Garami to Ushiro Ashi",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 4
         }
       },
       {
         "transition": "Kneebar from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 16,
+          "gi": 14,
           "nogi": 6
         }
       },
       {
         "transition": "Achilles Lock from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 16,
+          "nogi": 6
         }
       }
     ],

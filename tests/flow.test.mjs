@@ -93,11 +93,11 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
 // unreachable-by-success, so this assertion was green at 1% without ever having looked at it.
 //
 // v1.156.0 restored the success arrival into that state (`Half Guard to Kimura Trap`), and the
-// disagreement immediately acquired weight: js 0.079033 vs py 0.077188, rel 2.391%. Attribution,
+// disagreement immediately acquired weight: js 0.079085 vs py 0.077247, rel 2.378%. Attribution,
 // by rebuilding graph.json three times and re-solving:
 //     neither new move dealt : V0 0.079070  (bit-equal to the previous committed reference)
-//     + Achilles Lock only   : V0 0.079102  (+0.04%)
-//     + the Kimura Trap entry: V0 0.077188  (-2.38%)  <- all of it
+//     + Achilles Lock only   : V0 0.079162  (+0.12%)
+//     + the Kimura Trap entry: V0 0.077247  (-2.42%)  <- all of it
 // Python prices that state as a value sink because you cannot finish from it (no submission is
 // dealt from Kimura Trap/Bottom) and three of its ten moves loop straight back into it. The JS's
 // four-move view of the same state does not price it the same way.
