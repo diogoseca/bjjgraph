@@ -93,7 +93,7 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
 // unreachable-by-success, so this assertion was green at 1% without ever having looked at it.
 //
 // v1.156.0 restored the success arrival into that state (`Half Guard to Kimura Trap`), and the
-// disagreement immediately acquired weight: js 0.078647 vs py 0.076847, rel 2.342%. Attribution,
+// disagreement immediately acquired weight: js 0.078299 vs py 0.076493, rel 2.362%. Attribution,
 // by rebuilding graph.json three times and re-solving:
 //     neither new move dealt : V0 0.079070  (bit-equal to the previous committed reference)
 //     + Achilles Lock only   : V0 0.079162  (+0.12%)
@@ -153,16 +153,23 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // "is it value-weighted?" test and fails this one. It is the owner's own requirement:
   // mastering rubber guard funnelled them into an omoplata they fail, and the score has to be
   // able to say so.
-  // 19, not 18, since v1.157.0: `Shoulder of Justice Kimura Setup|Attacker` joined the set when the
-  // owner's Kimura Trap seat ruling moved `Kimura from Kimura Trap` to the Bottom seat. Its success
-  // lands on Kimura Trap/Top, which no longer has a direct finish, so succeeding at it now costs you
-  // value — which is the whole point this test exists to keep visible. The count stays HARD-CODED for
-  // the same reason the technique-site count does: it is a tripwire, so a drift belongs in a commit
-  // message, not absorbed by deriving it from the source it checks.
+  // 24, not 18. The whole drift is ONE cause, and it is the point this test exists to keep visible:
+  // the owner's Kimura Trap seat ruling (v1.157.0) and its 2026-09-01 generalisation (v1.158.0) moved
+  // BOTH finishes — `Kimura from Kimura Trap` and `Americana from Kimura Trap` — onto Kimura Trap/
+  // Bottom, the seat that holds the figure four. Kimura Trap/Top therefore has no submission at all,
+  // so every move that SUCCEEDS into it now costs you value. The six joiners, in order:
+  //   v1.157.0 (18 -> 19): Shoulder of Justice Kimura Setup|Attacker
+  //   v1.158.0 (19 -> 24): Kimura from Back, Kimura from Crab Ride, Kimura from Diamond Guard,
+  //                        Kimura Switch, North-South to Kimura  (all |Attacker)
+  // Every one of them is a grip-ESTABLISHING move landing on Top, which is the open question the
+  // flow_validation_baseline `reviewed` rows name: the position conflates a top kimura trap with a
+  // bottom one, and splitting it is the real fix. The count stays HARD-CODED for the same reason the
+  // technique-site count does: it is a tripwire, so a drift belongs in a commit message, not absorbed
+  // by deriving it from the source it checks.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = REF.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 19, "19 decks backfire at lam 2 on a blank profile");
-  assert.deepEqual(jsNeg, pyNeg, "and they are the same 19");
+  assert.equal(jsNeg.length, 24, "24 decks backfire at lam 2 on a blank profile");
+  assert.deepEqual(jsNeg, pyNeg, "and they are the same 24");
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
   assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));

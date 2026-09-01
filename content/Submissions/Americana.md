@@ -204,7 +204,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Americana/from High Mount|High Mount]] | Top | 68% | [[Submissions/Americana/from High Mount/Attacker|Attack →]] | [[Submissions/Americana/from High Mount/Defender|Defend →]] |
-| [[Submissions/Americana/from Kimura Trap|Kimura Trap]] | Top | 68% | [[Submissions/Americana/from Kimura Trap/Attacker|Attack →]] | [[Submissions/Americana/from Kimura Trap/Defender|Defend →]] |
+| [[Submissions/Americana/from Kimura Trap|Kimura Trap]] | Bottom | 68% | [[Submissions/Americana/from Kimura Trap/Attacker|Attack →]] | [[Submissions/Americana/from Kimura Trap/Defender|Defend →]] |
 | [[Submissions/Americana/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Americana/from Modified Mount/Attacker|Attack →]] | [[Submissions/Americana/from Modified Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from North-South|North-South]] | Top | 68% | [[Submissions/Americana/from North-South/Attacker|Attack →]] | [[Submissions/Americana/from North-South/Defender|Defend →]] |
 | [[Submissions/Americana/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 68% | [[Submissions/Americana/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Reverse Kesa-Gatame/Defender|Defend →]] |

@@ -28,7 +28,7 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
     },
     {
       "@type": "HowToStep",
-      "name": "Bridge explosively toward the attacker and turn onto your side to disrupt their weight distribution and finishing angle",
+      "name": "Drive forward and flatten them onto their back to destroy the angle and the fulcrum",
       "text": "When the attacker is settling their weight for the finish but before they have fully pinned your elbow and established the arc If successful: Disrupts the attacker's base and finishing position, potentially creating enough space to extract the arm or recover guard",
       "position": 2
     },
@@ -55,7 +55,7 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
       "name": "How do you recognize when the attacker is redirecting from a Kimura attempt to an Americana from Kimura Trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary recognition cue is a pressure direction change on your wrist—instead of being pulled upward behind your back for the Kimura, your wrist begins being pressed downward toward the mat. You will also feel the attacker's chest weight settle heavier onto your shoulder area, and they may walk their feet toward your head to change their finishing angle. The transition happens within the same grip, so there is no grip break to signal the change—only the direction of force."
+        "text": "The primary recognition cue is a pressure direction change on your wrist—instead of being pulled upward behind your back for the Kimura, your wrist begins being pressed downward in an arc. You will also feel your elbow being clamped against their torso as they come up onto their near elbow and turn their chest into you. The transition happens within the same grip, so there is no grip break to signal the change—only the direction of force."
       }
     },
     {
@@ -198,7 +198,7 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
 
 Defending the Americana from Kimura Trap requires recognizing the moment your opponent redirects from the Kimura to the Americana—specifically when they begin pressing your wrist toward the mat rather than pulling it behind your back. The critical defensive window is narrow because the figure-four grip is already established and the top player maintains full positional control throughout the transition. Your primary objective is to prevent your elbow from being pinned to the mat, as this is the fulcrum point that makes the Americana finish mechanically possible. Secondary objectives include creating enough space to straighten your arm or turning into your opponent to disrupt their finishing angle. Understanding that the Kimura defense itself creates the Americana setup allows you to anticipate the redirection and prepare your counter before the attacker fully commits to the new direction of force.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 
 </section>
@@ -246,8 +246,8 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 <p class="section-subtitle">How do you know when someone is attempting Americana from Kimura Trap?</p>
 
 - Pressure on your wrist changes direction from being pulled upward behind your back to being pressed downward toward the mat
-- The attacker's chest weight shifts onto your shoulder and upper arm area, settling heavier than during the Kimura attempt
-- You feel your elbow being driven toward the mat by the attacker's forearm or chest pressure as they establish the fulcrum
+- The bottom player comes up onto their near elbow and turns their chest into you, clamping your elbow rather than pulling it upward
+- You feel your elbow being trapped against their torso by their shoulder and forearm as they establish the fulcrum
 - The attacker walks their feet toward your head, changing their angle to increase Americana leverage
 - Your wrist begins moving in an arc along the mat away from your body rather than being pulled behind your back
 
@@ -283,7 +283,7 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 - **If successful**: Returns to neutral Kimura Trap position where attacker must re-establish their attack angle. Be aware this re-exposes the Kimura.
 - **Risk**: Straightening the arm re-opens the standard Kimura attack path and may expose armbar if arm extends too far
 
-### 2. Bridge explosively toward the attacker and turn onto your side to disrupt their weight distribution and finishing angle
+### 2. Drive forward and flatten them onto their back to destroy the angle and the fulcrum
 
 - **When to use**: When the attacker is settling their weight for the finish but before they have fully pinned your elbow and established the arc
 - **Targets**: [[Positions/Kimura Trap]]
@@ -295,7 +295,7 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 - **When to use**: When you have enough arm mobility to move the trapped hand across your centerline, typically before the elbow is fully pinned
 - **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Recovers closed guard by pulling the attacker's body forward with the arm movement, creating the space to lock your legs around them
-- **Risk**: If the attacker maintains strong chest pressure, the cross-body pull may not generate enough movement and exposes your arm to further control
+- **Risk**: If the bottom player keeps their leg entanglement and stays on their side, the cross-body pull may not generate enough movement and exposes your arm to further control
 
 
 
@@ -368,7 +368,7 @@ Pull your trapped arm across your body to drag the attacker forward while simult
 <p class="section-subtitle">How do you train defense against Americana from Kimura Trap?</p>
 
 **Phase 1: Recognition Drilling** - Identifying the Kimura-to-Americana pressure change
-Partner alternates between Kimura and Americana pressure directions at 20% intensity. Defender calls out which direction they feel without looking. Build pattern recognition for the wrist pressure change, chest weight shift, and angle adjustment. 5 minutes per side, eyes closed for advanced version.
+Partner alternates between Kimura and Americana pressure directions at 20% intensity. Defender calls out which direction they feel without looking. Build pattern recognition for the wrist pressure change, the elbow clamp, and the angle adjustment. 5 minutes per side, eyes closed for advanced version.
 
 **Phase 2: Escape Mechanics Practice** - Executing each defensive option with correct timing and body mechanics
 Partner sets up Americana from Kimura Trap at 40% resistance. Defender practices each escape in isolation: arm straightening with immediate shrimp, bridge-and-turn with guard recovery, and cross-body arm pull to closed guard. 20 repetitions of each escape per side before combining them into reactive drilling.

@@ -80,6 +80,18 @@
    "invented": false,
    "decided_by": "owner_decision",
    "note": "The ruling itself is in tests/artifacts/seat_deck_baseline.json `reviewed` — the ledger validate_seat_decks.py reads."
+  },
+  "Kimura Trap seat re-seat :: the Americana follows the grip (general rule, 2026-09-01)": {
+   "value": {
+    "Americana from Kimura Trap": {
+     "gi": 9,
+     "nogi": 9
+    }
+   },
+   "basis": "NO PROBABILITY WAS CHOSEN. The move carries its existing attempt mass across unchanged; Kimura Trap/Top's 7 survivors renormalise to 100 and Bottom's 11 shrink to 91 to make room, through _prob_norm.largest_remainder_round. Success vector untouched (68/21/11); only the seat of the failure destination flipped, a role-flip of the authored value.",
+   "invented": false,
+   "decided_by": "owner_decision",
+   "note": "General rule of 2026-09-01, recorded in tests/artifacts/seat_deck_baseline.json `reviewed`."
   }
  }
 }

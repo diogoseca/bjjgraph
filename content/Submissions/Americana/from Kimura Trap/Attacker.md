@@ -41,13 +41,13 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
     {
       "@type": "HowToStep",
       "name": "Pin the elbow to the mat",
-      "text": "As you redirect the wrist, use your chest weight and the figure-four structure to drive the opponent's elbow firmly into the mat. This elbow contact point becomes the fulcrum for the Americana lever. Without the elbow pinned, the submission has no fixed point to generate rotational force against.",
+      "text": "As you redirect the wrist, use the figure-four structure and your near shoulder to trap the opponent's elbow against your own chest. That elbow contact point becomes the fulcrum for the Americana lever. Without the elbow fixed, the submission has no point to generate rotational force against.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Settle weight and establish finishing position",
-      "text": "Drop your chest weight heavily onto the opponent's shoulder and upper arm area. Walk your feet slightly toward their head to increase the angle of pressure. Your body should feel like a heavy blanket pinning their upper body while your arms control the submission mechanics.",
+      "text": "Come up onto your near elbow and turn your chest into the opponent so the trapped elbow is clamped between your torso and their own body. Pull their base toward you with the entangled leg to increase the angle. Your legs and your turning torso supply the pressure that a top player would supply with weight.",
       "position": 5
     },
     {
@@ -87,7 +87,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
       "name": "Your opponent defends the Kimura by straightening their arm completely—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A straightened arm eliminates the Americana angle but opens the Kimura path. Immediately redirect back to the standard Kimura by pulling their now-extended wrist behind their back. The straight arm also exposes armbar opportunities from top position. This is the core dilemma of the Kimura Trap system—the defense for one submission creates the setup for another. Never try to force the Americana on a straight arm."
+        "text": "A straightened arm eliminates the Americana angle but opens the Kimura path. Immediately redirect back to the standard Kimura by pulling their now-extended wrist behind their back. The straight arm also opens the armbar and the Kimura sweep from this seat. This is the core dilemma of the Kimura Trap system—the defence for one submission creates the setup for another. Never try to force the Americana on a straight arm."
       }
     },
     {
@@ -217,9 +217,9 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Executing the Americana from Kimura Trap requires reading your opponent's defensive reaction to the Kimura threat and smoothly redirecting pressure from internal (Kimura) to external (Americana) shoulder rotation. The figure-four grip is already established, so you change the direction of force rather than reconfiguring your hands. This makes the transition nearly invisible to the defender, who is focused on protecting against the Kimura. Maintain heavy chest pressure throughout the redirection to prevent the defender from creating space or straightening their arm. The finish relies on pinning the opponent's elbow to the mat while driving their wrist in a controlled arc toward the mat on the far side, creating a lever that applies progressive external rotation to the glenohumeral joint. The opponent's own Kimura defense—elbow tight, hand low—provides the ideal starting position for the Americana finishing angle.
+Executing the Americana from Kimura Trap requires reading your opponent's defensive reaction to the Kimura threat and smoothly redirecting pressure from internal (Kimura) to external (Americana) shoulder rotation. The figure-four grip is already established, so you change the direction of force rather than reconfiguring your hands. This makes the transition nearly invisible to the defender, who is focused on protecting against the Kimura. From underneath you hold them with the leg entanglement rather than with weight: the half guard or lockdown is what stops them driving forward, standing, or straightening the arm while you switch direction. The finish relies on trapping the opponent's elbow against your own chest or the mat as a fixed fulcrum while driving their wrist in a controlled arc, applying progressive external rotation to the glenohumeral joint. Their own Kimura defence — elbow tight, hand low — is exactly the starting position the Americana wants.
 
-**From Position**: [[Positions/Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 
 </section>
@@ -274,10 +274,10 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 
 <p class="section-subtitle">What do you need before attempting Americana from Kimura Trap?</p>
 
-- Established figure-four Kimura grip from Kimura Trap Top position with grip depth near the opponent's elbow, not their wrist
-- Top position control with chest pressure pinning the opponent's upper body, preventing them from sitting up or bridging effectively
+- Established figure-four Kimura grip from Kimura Trap Bottom with grip depth near the opponent's elbow, not their wrist
+- Half guard or lockdown entanglement intact, preventing the opponent from driving forward, standing, or backing out during the switch
 - Opponent has committed to Kimura defense by pulling their elbow tight to their body and driving their hand toward the mat
-- Your hips are low and sprawled with a wide base, preventing the opponent from rolling or creating significant space during the transition
+- Your hips off the mat and your near elbow posted, so you have an arc to drive the wrist through rather than being flat underneath them
 - The opponent's trapped arm elbow is accessible for pinning to the mat as the Americana fulcrum
 
 
@@ -292,8 +292,8 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 1. **Threaten the Kimura finish**: From Kimura Trap Top with the figure-four grip secured near the opponent's elbow, begin pulling their wrist upward behind their back as if finishing the standard Kimura. Apply enough pressure to force a genuine defensive reaction but do not fully commit your weight to the Kimura direction. (Timing: 2-3 seconds of progressive Kimura pressure)
 2. **Read the defensive reaction**: Feel for the opponent pulling their elbow tight against their ribs and driving their hand toward the mat. This is the most common Kimura defense at intermediate and advanced levels. Their arm will feel heavy and resistant to upward movement. This is your trigger to redirect. (Timing: Immediate recognition, under 1 second)
 3. **Redirect wrist pressure downward**: Without adjusting your figure-four grip, reverse the direction of pressure on the opponent's wrist. Instead of pulling upward for the Kimura, press their wrist downward toward the mat on the far side of their body. Flow with their defensive momentum rather than fighting against it. (Timing: Smooth transition over 1-2 seconds)
-4. **Pin the elbow to the mat**: As you redirect the wrist, use your chest weight and the figure-four structure to drive the opponent's elbow firmly into the mat. This elbow contact point becomes the fulcrum for the Americana lever. Without the elbow pinned, the submission has no fixed point to generate rotational force against. (Timing: Simultaneous with wrist redirection)
-5. **Settle weight and establish finishing position**: Drop your chest weight heavily onto the opponent's shoulder and upper arm area. Walk your feet slightly toward their head to increase the angle of pressure. Your body should feel like a heavy blanket pinning their upper body while your arms control the submission mechanics. (Timing: 1-2 seconds to settle position)
+4. **Pin the elbow to the mat**: As you redirect the wrist, use the figure-four structure and your near shoulder to trap the opponent's elbow against your own chest. That elbow contact point becomes the fulcrum for the Americana lever. Without the elbow fixed, the submission has no point to generate rotational force against. (Timing: Simultaneous with wrist redirection)
+5. **Settle weight and establish finishing position**: Come up onto your near elbow and turn your chest into the opponent so the trapped elbow is clamped between your torso and their own body. Pull their base toward you with the entangled leg to increase the angle. Your legs and your turning torso supply the pressure that a top player would supply with weight. (Timing: 1-2 seconds to settle position)
 6. **Apply the paintbrush finish**: With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the mat away from their body. Imagine painting a line on the mat with their knuckles. This creates progressive external rotation of the shoulder joint. Keep the motion parallel to the mat rather than lifting upward. (Timing: 3-5 seconds of slow, controlled pressure)
 7. **Increase pressure to completion**: Progressively increase the arc of the wrist movement while maintaining the elbow pin. The opponent will reach their rotational limit and tap. If they resist, micro-adjust your chest position closer to their head to increase leverage. Never jerk or spike the pressure—maintain steady, progressive force throughout. (Timing: 1-3 seconds to tap, stop immediately on tap signal)
 
@@ -322,7 +322,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 - **Straightening the arm to prevent the elbow pin and eliminate the Americana fulcrum** (Effectiveness: High) - Your Response: If the opponent straightens their arm, you lose the Americana angle but gain a direct path back to the Kimura by pulling their now-extended wrist behind their back. The straight arm also exposes armbar opportunities. Flow back to Kimura immediately. → Leads to [[Positions/Kimura Trap]]
 - **Bridging explosively and turning toward you to relieve shoulder pressure and create scramble opportunity** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your weight connected and your base wide. As they bridge, their elbow often lifts off the mat—re-pin it as they settle. If they commit to turning, follow to back control while maintaining the grip. Their bridge wastes energy while you conserve through patient pressure. → Leads to [[Positions/Kimura Trap]]
 - **Pulling trapped arm across their body to reguard and create distance for guard recovery** (Effectiveness: Medium) - Your Response: If they pull the arm across their centerline, they are moving it back into Kimura territory. Immediately redirect back to the Kimura finish. This cross-body arm position also exposes arm triangle and north-south choke opportunities. Follow their arm movement and attack the opening they create. → Leads to [[Positions/Closed Guard]]
-- **Gripping their own belt or pants with the trapped hand to create a fixed anchor point** (Effectiveness: Low) - Your Response: Grip anchoring delays the finish but does not escape the position. Maintain steady pressure and use your body weight to gradually break the grip. Walk your feet toward their head to increase leverage. Their grip will fatigue before your body weight does. Alternatively, peel the grip by driving your knee into their forearm. → Leads to [[Positions/Kimura Trap]]
+- **Gripping their own belt or pants with the trapped hand to create a fixed anchor point** (Effectiveness: Low) - Your Response: Grip anchoring delays the finish but does not escape the position. Maintain steady pressure and break the grip by turning your torso further and pulling their base with the entangled leg. Their grip will fatigue before your structure does. Alternatively, peel the grip by driving your free forearm across it. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>
@@ -346,7 +346,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 ### 3. Using arm strength to crank the Americana rather than using body weight and positioning for leverage
 
 - **Consequence**: Rapid energy depletion, reduced finishing power against strong opponents, and risk of losing grip or position as you fatigue
-- **Correction**: Settle your chest weight onto the opponent's shoulder area and use hip positioning and foot walking to create angle changes. Your arms maintain the grip structure while your body provides the force.
+- **Correction**: Come up onto your near elbow and turn your chest into them to clamp the elbow, using hip and leg pressure to change the angle. Your arms maintain the grip structure while your torso and legs provide the force.
 
 ### 4. Redirecting to the Americana before the opponent has fully committed to Kimura defense
 
@@ -356,7 +356,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 ### 5. Failing to pin the opponent's elbow to the mat before applying rotational pressure
 
 - **Consequence**: Without the elbow as a fixed fulcrum, the entire arm moves together and no torque is generated on the shoulder joint. The opponent can simply move their arm with the pressure.
-- **Correction**: Prioritize the elbow pin above all else. Use your chest weight and the inside of your forearm to drive their elbow firmly into the mat before beginning the wrist arc. No pin means no finish.
+- **Correction**: Prioritize the elbow trap above all else. Use your near shoulder and the inside of your forearm to clamp their elbow against your chest before beginning the wrist arc. No fixed elbow means no finish.
 
 ### 6. Allowing chest to rise off the opponent during the transition, creating space
 
@@ -377,7 +377,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 Partner lies flat with arm in Kimura defense position (elbow tight, hand low). Practice transitioning the direction of pressure from Kimura (upward behind back) to Americana (downward along mat) without releasing the figure-four grip. 50 repetitions per side with zero resistance. Focus on smooth directional change and maintaining grip depth.
 
 **Phase 2: Positional Control Integration** - Combining the grip transition with top pressure and elbow pinning
-Start in full Kimura Trap Top with partner providing light resistance. Practice the complete sequence: threaten Kimura, read the defense, redirect to Americana, pin elbow, finish. Partner provides increasing resistance to the Kimura to train reaction reading. 30 repetitions per side focusing on maintaining chest pressure throughout.
+Start in full Kimura Trap Bottom with partner providing light resistance. Practise the complete sequence: threaten Kimura, read the defence, redirect to Americana, clamp the elbow, finish. Partner provides increasing resistance to the Kimura to train reaction reading. 30 repetitions per side focusing on keeping the leg entanglement live throughout.
 
 **Phase 3: Live Flow with Decision Tree** - Reading and reacting to genuine defensive responses
 Partner chooses their own defense to the Kimura threat (pull arm down, straighten arm, bridge, or grip anchor). Attacker must read the response and apply the correct follow-up: Americana on arm-down, return to Kimura on straight arm, ride the bridge, or break the grip. Progressive resistance from 50% to 80%.

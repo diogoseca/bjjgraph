@@ -112,7 +112,7 @@ The figure-four grip transfers seamlessly between Kimura and Americana without a
 
 At the purple and brown belt level, this technique punishes opponents who have developed strong Kimura defense but have not yet internalized the Americana counter-threat. The dual-direction submission threat—Kimura pulling upward, Americana pressing downward—creates a genuine dilemma where defending one attack directly feeds the other. This forced-choice dynamic is the hallmark of high-level submission grappling and represents the Kimura Trap system's philosophical core: every defense creates a new attack.
 
-**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
+**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -200,9 +200,9 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 - **Redirect wrist pressure downward**: Without adjusting your figure-four grip, reverse the direction of pressure on the opponent's wrist. ...
 
-- **Pin the elbow to the mat**: As you redirect the wrist, use your chest weight and the figure-four structure to drive the opponent...
+- **Pin the elbow to the mat**: As you redirect the wrist, use the figure-four structure and your near shoulder to trap the opponent...
 
-- **Settle weight and establish finishing position**: Drop your chest weight heavily onto the opponent's shoulder and upper arm area. Walk your feet sligh...
+- **Settle weight and establish finishing position**: Come up onto your near elbow and turn your chest into the opponent so the trapped elbow is clamped b...
 
 - **Apply the paintbrush finish**: With the elbow pinned and your weight settled, drive the opponent's wrist in a slow arc along the ma...
 
@@ -222,7 +222,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 - **Using arm strength to crank the Americana rather than using body weight and positioning for leverage**
   - Consequence: Rapid energy depletion, reduced finishing power against strong opponents, and risk of losing grip or position as you fatigue
-  - Correction: Settle your chest weight onto the opponent's shoulder area and use hip positioning and foot walking to create angle changes. Your arms maintain the grip structure while your body provides the force.
+  - Correction: Come up onto your near elbow and turn your chest into them to clamp the elbow, using hip and leg pressure to change the angle. Your arms maintain the grip structure while your torso and legs provide the force.
 
 
 </section>
@@ -254,9 +254,9 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 - Pressure on your wrist changes direction from being pulled upward behind your back to being pressed downward toward the mat
 
-- The attacker's chest weight shifts onto your shoulder and upper arm area, settling heavier than during the Kimura attempt
+- The bottom player comes up onto their near elbow and turns their chest into you, clamping your elbow rather than pulling it upward
 
-- You feel your elbow being driven toward the mat by the attacker's forearm or chest pressure as they establish the fulcrum
+- You feel your elbow being trapped against their torso by their shoulder and forearm as they establish the fulcrum
 
 - The attacker walks their feet toward your head, changing their angle to increase Americana leverage
 
