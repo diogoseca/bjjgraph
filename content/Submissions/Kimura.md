@@ -200,7 +200,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Kimura/from High Mount|High Mount]] | Top | 68% | [[Submissions/Kimura/from High Mount/Attacker|Attack →]] | [[Submissions/Kimura/from High Mount/Defender|Defend →]] |
-| [[Submissions/Kimura/from Kimura Trap|Kimura Trap]] | Top | 68% | [[Submissions/Kimura/from Kimura Trap/Attacker|Attack →]] | [[Submissions/Kimura/from Kimura Trap/Defender|Defend →]] |
+| [[Submissions/Kimura/from Kimura Trap|Kimura Trap]] | Bottom | 68% | [[Submissions/Kimura/from Kimura Trap/Attacker|Attack →]] | [[Submissions/Kimura/from Kimura Trap/Defender|Defend →]] |
 | [[Submissions/Kimura/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Kimura/from Modified Mount/Attacker|Attack →]] | [[Submissions/Kimura/from Modified Mount/Defender|Defend →]] |
 | [[Submissions/Kimura/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 68% | [[Submissions/Kimura/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Kimura/from Reverse Kesa-Gatame/Defender|Defend →]] |
 | [[Submissions/Kimura/from Reverse Scarf Hold|Reverse Scarf Hold]] | Top | 68% | [[Submissions/Kimura/from Reverse Scarf Hold/Attacker|Attack →]] | [[Submissions/Kimura/from Reverse Scarf Hold/Defender|Defend →]] |

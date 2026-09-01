@@ -21,37 +21,37 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle Setup",
-      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Kimura Trap",
-      "text": "From this position, attempt Americana from Kimura Trap. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Kimura Trap. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

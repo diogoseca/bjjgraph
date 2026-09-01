@@ -3,10 +3,10 @@
     "transition_files": 1030,
     "submission_files": 361,
     "position_files": 136,
-    "total_issues": 352,
+    "total_issues": 353,
     "errors": 0,
     "warnings": 7,
-    "info": 345,
+    "info": 346,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 6,
-    "attempt_outliers": 295,
+    "attempt_outliers": 296,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -2113,6 +2113,16 @@
       "severity": "info",
       "transition": "Heel Hook from Inside Sankaku",
       "current": 1
+    },
+    {
+      "file": "content/Positions/Kimura Trap.json",
+      "position": "Kimura Trap",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Electric Chair Transition' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Electric Chair Transition",
+      "current": 2
     },
     {
       "file": "content/Positions/Lapel Guard.json",

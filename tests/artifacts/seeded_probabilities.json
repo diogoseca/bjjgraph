@@ -68,6 +68,18 @@
    "basis": "Mechanical, not a judgement. Each frame must sum to 100, so the new entry's mass is absorbed by rescaling every pre-existing entry PROPORTIONALLY through scripts/_prob_norm.largest_remainder_round — the repo's single normalizer, which preserves each move's relative share exactly and puts the leftover units on the largest fractional parts. No move's rank changed and the heel hook's structural gi 0 stayed 0. The Inside Ashi-Garami rescale is computed from the PRE-BRANCH values (a0ae23caa), not from the 3/3 seed's output, so the two roundings do not compound.",
    "invented": false,
    "decided_by": "agent-draft"
+  },
+  "Kimura Trap seat re-seat :: the Kimura finish moves Top -> Bottom (v1.157.0)": {
+   "value": {
+    "Kimura from Kimura Trap": {
+     "gi": 21,
+     "nogi": 19
+    }
+   },
+   "basis": "NO PROBABILITY WAS CHOSEN HERE. The move carries its existing attempt mass across unchanged — a re-seat moves which seat deals a move, not how often it is attempted from the position. Kimura Trap/Top loses 21 gi / 19 nogi and its 7 survivors renormalise back to 100; Kimura Trap/Bottom's 10 originals shrink to 79 gi / 81 nogi to make room, both through _prob_norm.largest_remainder_round, so every surviving move keeps its relative share exactly. The success vector and success_rate are untouched (50/30/20); only the SEAT of the failure and counter destinations flipped, which is a role-flip of the authored value, not a new number.",
+   "invented": false,
+   "decided_by": "owner_decision",
+   "note": "The ruling itself is in tests/artifacts/seat_deck_baseline.json `reviewed` — the ledger validate_seat_decks.py reads."
   }
  }
 }

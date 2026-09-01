@@ -93,11 +93,13 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
 // unreachable-by-success, so this assertion was green at 1% without ever having looked at it.
 //
 // v1.156.0 restored the success arrival into that state (`Half Guard to Kimura Trap`), and the
-// disagreement immediately acquired weight: js 0.079085 vs py 0.077247, rel 2.378%. Attribution,
+// disagreement immediately acquired weight: js 0.078647 vs py 0.076847, rel 2.342%. Attribution,
 // by rebuilding graph.json three times and re-solving:
 //     neither new move dealt : V0 0.079070  (bit-equal to the previous committed reference)
 //     + Achilles Lock only   : V0 0.079162  (+0.12%)
 //     + the Kimura Trap entry: V0 0.077247  (-2.42%)  <- all of it
+// (v1.157.0 then moved the Kimura finish to the Bottom seat under the owner's ruling, taking py
+//  to 0.076847; the js/py gap is unchanged in cause and size.)
 // Python prices that state as a value sink because you cannot finish from it (no submission is
 // dealt from Kimura Trap/Bottom) and three of its ten moves loop straight back into it. The JS's
 // four-move view of the same state does not price it the same way.
@@ -151,10 +153,16 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // "is it value-weighted?" test and fails this one. It is the owner's own requirement:
   // mastering rubber guard funnelled them into an omoplata they fail, and the score has to be
   // able to say so.
+  // 19, not 18, since v1.157.0: `Shoulder of Justice Kimura Setup|Attacker` joined the set when the
+  // owner's Kimura Trap seat ruling moved `Kimura from Kimura Trap` to the Bottom seat. Its success
+  // lands on Kimura Trap/Top, which no longer has a direct finish, so succeeding at it now costs you
+  // value — which is the whole point this test exists to keep visible. The count stays HARD-CODED for
+  // the same reason the technique-site count does: it is a tripwire, so a drift belongs in a commit
+  // message, not absorbed by deriving it from the source it checks.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = REF.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 18, "18 decks backfire at lam 2 on a blank profile");
-  assert.deepEqual(jsNeg, pyNeg, "and they are the same 18");
+  assert.equal(jsNeg.length, 19, "19 decks backfire at lam 2 on a blank profile");
+  assert.deepEqual(jsNeg, pyNeg, "and they are the same 19");
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
   assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));

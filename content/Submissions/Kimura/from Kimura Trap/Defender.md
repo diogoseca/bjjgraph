@@ -55,7 +55,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
       "name": "What are the earliest recognition cues that indicate a Kimura finish is being initiated from Kimura Trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cues include the attacker's feet beginning to walk in an arc toward your head, a shift in their chest pressure from holding to actively driving, their grip tightening and beginning to rotate your wrist down behind your back, and increased downward pressure from their hips. Recognizing these early signals provides a critical window where defensive options like clasping hands and initiating hip movement remain viable before the finish becomes difficult to stop."
+        "text": "The earliest cues include the bottom player hip-escaping onto their near side, their near elbow posting so their chest turns toward you, the lockdown or half guard tightening on your leg, and their grip beginning to rotate your wrist down behind your back. Recognising these early gives you a critical window where clasping your hands and driving forward to flatten them are still viable."
       }
     },
     {
@@ -206,7 +206,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
 
 Defending the Kimura from Kimura Trap requires early recognition that the attacker is transitioning from positional control to active submission finishing. The defender must act decisively before the attacker achieves the finishing angle, as late-stage defense against a properly positioned Kimura with full rotational force is extremely difficult and risks injury. The primary defensive hierarchy involves preventing the trapped arm from being painted behind the back through grip defense and structural integrity, maintaining connection between the trapped elbow and the torso, and creating counter-movement opportunities through bridging and hip escape that force the attacker to choose between maintaining the submission or preserving positional control. Understanding the mechanical progression of the Kimura finish allows the defender to identify which defensive layer is appropriate at each stage and when tapping becomes the safest option.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 
 </section>
@@ -254,7 +254,7 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 <p class="section-subtitle">How do you know when someone is attempting Kimura from Kimura Trap?</p>
 
 - Opponent's figure-four grip tightens and their hands begin actively rotating your wrist away from your body rather than simply holding position
-- Opponent walks their feet in an arc toward your head while maintaining or increasing chest pressure, creating a perpendicular finishing angle
+- The bottom player hip-escapes onto their near side and posts on their elbow, turning their chest toward you — the angle is being built and the finish is next
 - Opponent shifts weight forward and begins driving your trapped arm toward the mat behind your back with progressive force
 - Opponent's hips lower and create downward rotational pressure on your shoulder that was not present during the control phase
 
