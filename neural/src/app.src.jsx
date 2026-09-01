@@ -3126,8 +3126,6 @@ class Component extends DCLogic {
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
-      const hadLegacyTutorial = Object.keys(((p.tut || {}).done) || {}).length > 0;
-      const hadChallenges = Object.keys(p.challenges || {}).length > 0;
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
       this.challenges = Object.assign({}, p.challenges || {});
       this.badges = Object.assign({}, p.badges || {});
@@ -3144,10 +3142,9 @@ class Component extends DCLogic {
       // a user who already met the old 3-beat coach starts the drip past those three steps
       if (!p.tut) { try { if (localStorage.getItem("bjj-neural-coached")) { this.tut.done.coach1 = 1; this.tut.done.coach2 = 1; this.tut.done.coach3 = 1; } } catch (e) {} }
       this._syncWhiteChallengeCompatibility(p.updatedAt || 0);
-      this._challengeMigrationNotice =
-        hadLegacyTutorial &&
-        !hadChallenges &&
-        !this.get("challengeMigrationSeen", false);
+      // the legacy-tutorial migration NOTICE retired in v1.162.0 with the two prose lines
+      // at the head of the Challenges tab; the migration itself still happens above, in
+      // _syncWhiteChallengeCompatibility. `challengeMigrationSeen` is now read by nothing.
       this.cardsToday = this._days[this._dayKey()] || 0;
     } catch (e) { /* corrupt/absent — start fresh */ }
   }

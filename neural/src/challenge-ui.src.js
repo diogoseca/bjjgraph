@@ -120,11 +120,11 @@ const NG_CHALLENGE_UI_METHODS = {
     if (this._learningViewsTracked[view]) return;
     this._learningViewsTracked[view] = true;
     if (view === "challenges") {
-      if (!this._challengeMigrationNotice) {
-        this.fx("challenges_opened", {
-          tracks: NG_CHALLENGE_TRACKS.length,
-        });
-      }
+      // v1.162.0: the migration-notice gate went with the notice itself — the beat now
+      // fires on every first open of the tab, with nothing left to stay quiet for.
+      this.fx("challenges_opened", {
+        tracks: NG_CHALLENGE_TRACKS.length,
+      });
       this.track("neural_challenges_viewed", {});
     } else if (view === "history") {
       this.track("neural_history_viewed", {});
@@ -372,7 +372,7 @@ const NG_CHALLENGE_UI_METHODS = {
     // done yet dims gently via CSS on data-lesson-done (visual only; every row stays live)
     const frontier =
       trackId === this._frontierBeltId() ? this.challengeFrontier(trackId) : null;
-    // no per-track prose here — the whole corridor explains itself ONCE (.ng-ladder-note)
+    // no per-track prose here — and since v1.162.0 no corridor-wide line either
     for (let index = 0; index < belt.units.length; index += 1) {
       const unit = belt.units[index];
       const live = unit.lessons.filter((lesson) => this._lessonLive(lesson));
@@ -621,22 +621,6 @@ const NG_CHALLENGE_UI_METHODS = {
     return section;
   },
 
-  challengeEnvironmentNotice() {
-    if (typeof navigator !== "undefined" && navigator.onLine === false) {
-      return {
-        state: "offline",
-        text: "Offline - completions stay on this device and sync later.",
-      };
-    }
-    if (!this.user) {
-      return {
-        state: "signed-out",
-        text: "Playing as guest - progress is saved on this device.",
-      };
-    }
-    return null;
-  },
-
   renderChallenges(list) {
     this._renderingChallengeView = true;
     try {
@@ -682,38 +666,19 @@ const NG_CHALLENGE_UI_METHODS = {
         list.appendChild(maint);
         maintBand = maint;
       }
-      const intro = document.createElement("p");
-      intro.className = "ng-challenge-distinction";
-      const migrated = !!this._challengeMigrationNotice;
-      const environment = this.challengeEnvironmentNotice();
-      if (migrated) {
-        intro.textContent =
-          "Tutorial is now White Challenges - same progress, more to collect.";
-        intro.dataset.challengeState = "migrated";
-      } else if (environment) {
-        intro.textContent = environment.text;
-        intro.dataset.challengeState = environment.state;
-      } else {
-        intro.textContent =
-          "Tracks label the material. Your Game Knowledge shows your proven progress.";
-        intro.dataset.challengeState = "synced";
-      }
-      list.appendChild(intro);
-      if (migrated) {
-        this._challengeMigrationNotice = false;
-        this.set("challengeMigrationSeen", true);
-      }
+      // v1.162.0, owner: the two prose lines that used to open this tab (.ng-challenge-
+      // distinction — guest/offline/migration state; .ng-ladder-note — "Every lesson is
+      // open …") are GONE. Both sat ABOVE the corridor, so the arrival scroll below pushed
+      // them off the top and nobody read them without scrolling back up. The corridor now
+      // starts at the top of the scrollport and the arrival scroll can land at 0.
+      // `challengeEnvironmentNotice()` left with them (it had no other reader), and so did
+      // the migration notice; `challengeMigrationSeen` is a settings key, so it is RETIRED
+      // BY CEASING TO READ IT, never deleted (CLAUDE.md §6.6 — a deleted settings key is
+      // re-added by the first pull from any device that still carries it).
       // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
       // opening the tab scrolls the corridor to the frontier belt (the topmost belt still
       // left to complete; below, after the ladder mounts). The glow marks "do this next".
       const pinnedId = this._frontierBeltId();
-
-      // ONE explainer line for the whole corridor (was a prose block per track)
-      const note = document.createElement("p");
-      note.className = "ng-ladder-note";
-      note.textContent =
-        "Every lesson is open. Checkpoints and the optional capstones just ask for proof first.";
-      list.appendChild(note);
 
       // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
       // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
@@ -861,8 +826,8 @@ const NG_CHALLENGE_UI_METHODS = {
       // the view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
       // reduced-motion identical; re-renders never touch the scroll (renderExplorer
       // preserves it, the History-body gate precedent). No frontier (everything proven) =
-      // that belt's top. Since v1.137.0 there is nothing above the corridor to scroll past
-      // but the one explainer line — the Tutorial section is gone.
+      // that belt's top. Since v1.162.0 there is nothing above the corridor at all except
+      // the sticky maintenance band, so a white-belt frontier lands at scrollTop 0.
       if (this._challengeScrollPending) {
         this._challengeScrollPending = false;
         const sec = ladder.querySelector(

@@ -299,16 +299,14 @@ test.describe("Challenge curriculum @curated", () => {
     expect(focus!.focusActive).toBe(true);
   });
 
-  test("the ladder explains itself once, not once per belt", async ({ page }) => {
+  test("the ladder carries no prose, per belt or overall", async ({ page }) => {
     const j = journey(page);
     await j.boot("/");
     await openChallenges(page);
 
-    // ONE plain line for the whole ladder; the per-track prose block is display-retired
-    await expect(page.locator(".ng-ladder-note")).toHaveCount(1);
-    await expect(page.locator(".ng-ladder-note")).toContainText(
-      "Every lesson is open",
-    );
+    // v1.162.0: the last corridor-wide line is gone too — the per-track prose block was
+    // display-retired in v1.96.0, and .ng-ladder-note followed it.
+    await expect(page.locator(".ng-ladder-note")).toHaveCount(0);
     await expect(
       page
         .locator(".ng-challenge-curriculum")

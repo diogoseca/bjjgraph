@@ -74,10 +74,28 @@ test.describe("Challenges UI @curated", () => {
       page.locator(".ng-challenge-checkpoint").first(),
     ).toBeDisabled();
     await expect(page.locator("[data-capstone='black'] button")).toBeDisabled();
-    // the corridor explains itself once — one plain line above the belts (v1.96.0)
-    await expect(page.locator(".ng-ladder-note")).toContainText(
-      "Every lesson is open",
-    );
+    // v1.162.0 (owner): NOTHING renders above the corridor but the sticky maintenance
+    // band — the two prose lines that used to open the tab are gone, so the belt
+    // sections are the first thing in the scrollport.
+    await expect(page.locator(".ng-ladder-note")).toHaveCount(0);
+    await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
+    expect(
+      await page.evaluate(() => {
+        const list = document.querySelector(".ng-challenge-ladder");
+        const host = list && (list.parentElement as HTMLElement);
+        if (!host || !list) return null;
+        const before: string[] = [];
+        for (const el of Array.from(host.children)) {
+          if (el === list) break;
+          // the sticky maintenance band is the ONE thing allowed above the corridor,
+          // and it only mounts while cards are actually due
+          if (el.classList.contains("ng-maint-band")) continue;
+          before.push(el.className || el.tagName.toLowerCase());
+        }
+        return before;
+      }),
+      "no prose sits between the top of the tab and the first belt",
+    ).toEqual([]);
   });
 
   test("pinning is gone: the corridor opens itself at the topmost incomplete belt", async ({
@@ -182,7 +200,7 @@ test.describe("Challenges UI @curated", () => {
     await expect(shelf).not.toContainText("Available to earn");
   });
 
-  test("legacy progress receives one quiet migration explanation", async ({
+  test("legacy progress migrates into White challenges without a notice", async ({
     page,
   }) => {
     const j = journey(page);
@@ -197,49 +215,38 @@ test.describe("Challenges UI @curated", () => {
     });
 
     await page.locator(".ng-logo").click();
-    await expect(page.locator(".ng-challenge-distinction")).toHaveText(
-      "Tutorial is now White Challenges - same progress, more to collect.",
-    );
-    // 7 seeded tut steps + white.pane-open: opening the merged pane IS opening the flashcards
-    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8. The
-    // Tutorial section that used to PRINT that count left in v1.137.0, so the migration is
-    // asserted where it now lives — the ledger the notice is about.
+    // v1.162.0 (owner): the one-off "Tutorial is now White Challenges" line is retired
+    // along with the rest of the tab's head prose — the migration is silent, and the
+    // ledger below is the only thing that has to be true.
+    await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
+    // ── 8 -> 9, AND THAT MOVE IS THE POINT ──────────────────────────────────────────────
+    // 7 seeded tut steps + white.pane-open (opening the merged pane IS opening the flashcards
+    // pane; pane_paused fires on every open since v1.76.0) + white.challenges.
+    //
+    // That last one is NEW here and it is the migration notice's last side effect. The notice
+    // gated the `challenges_opened` fx in noteLearningViewOpen — a legacy user opening this tab
+    // fired no beat, so `white.challenges` never completed for the one population that had most
+    // obviously done the thing it asks for. The gate existed only to keep the beat quiet while
+    // the notice was on screen; the notice went in v1.162.0 and the gate went with it, so this
+    // user now earns the objective on the same open as everybody else.
+    //
+    // If this ever reads 8 again, the suppression is back. Do not "fix" it by lowering the
+    // number (CLAUDE.md §6.3 — if a change should have moved a count and did not, that is the
+    // finding).
     expect(
       await page.evaluate(
         () => (window as any).__neural.challengeTrackProgress("white").done,
       ),
-      "the seeded legacy steps migrated, plus the one this open earned",
-    ).toBe(8);
+      "the seeded legacy steps migrated, plus pane-open and challenges-opened",
+    ).toBe(9);
     await page.locator("[data-view='explore']").click();
     await page.locator("[data-view='challenges']").click();
-    await expect(page.locator(".ng-challenge-distinction")).not.toContainText(
-      "Tutorial is now",
-    );
+    await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
   });
 
-  test("guest and offline challenge progress stays explicit", async ({
-    page,
-    context,
-  }) => {
-    const j = journey(page);
-    await j.boot("/", { keepTutorial: true });
-    await page.locator(".ng-logo").click();
-
-    const notice = page.locator(".ng-challenge-distinction");
-    await expect(notice).toHaveAttribute("data-challenge-state", "signed-out");
-    await expect(notice).toHaveText(
-      "Playing as guest - progress is saved on this device.",
-    );
-
-    await context.setOffline(true);
-    await expect(notice).toHaveAttribute("data-challenge-state", "offline");
-    await expect(notice).toHaveText(
-      "Offline - completions stay on this device and sync later.",
-    );
-
-    await context.setOffline(false);
-    await expect(notice).toHaveAttribute("data-challenge-state", "signed-out");
-  });
+  // The guest/offline notice test left with the paragraph it asserted (v1.162.0). Guest
+  // and offline progress still behave identically — they were never explained anywhere
+  // but that line, and `challengeEnvironmentNotice()` is deleted, not merely unrendered.
 
   test("legacy tree, path, and collection preferences migrate to Explore and Challenges", async ({
     page,
