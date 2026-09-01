@@ -55,9 +55,50 @@ from _model import model as _model_tier, effort as _model_effort  # single sourc
 
 try:
     from tqdm import tqdm
-except ImportError:  # CI / minimal envs without tqdm — degrade to a plain iterator
-    def tqdm(iterable=None, *args, **kwargs):
-        return iterable if iterable is not None else []
+except ImportError:  # CI / minimal envs without tqdm
+    # ── A DEGRADED PATH HAS TO CARRY THE WHOLE API ITS CALLER USES ────────────────────
+    # This fell back to the bare iterable, which satisfies `for fp in pbar` and NOTHING
+    # else: `main()` then calls `pbar.set_postfix_str(...)` on the first file and
+    # `pbar.close()` at the end, and a list has neither. So the script died with
+    # `AttributeError: 'list' object has no attribute 'set_postfix_str'` in exactly the
+    # environment this branch was written for — ci-validate.yml installs jsonschema and
+    # nothing else, so tqdm is absent there and present on every dev machine that has
+    # ever run the proofreader. tests/proofread_fork_safety.test.mjs 104-108 were red on
+    # dev for that reason alone, and green for everyone who ran them locally.
+    #
+    # Reproduce the CI environment without uninstalling anything:
+    #   mkdir -p /tmp/no-tqdm && echo 'raise ImportError' > /tmp/no-tqdm/tqdm.py
+    #   PYTHONPATH=/tmp/no-tqdm npm run test:units
+    #
+    # The shim mirrors the methods this script actually calls, by name and on purpose —
+    # no catch-all __getattr__, because a typo'd bar method should still fail loudly
+    # under the gate rather than silently no-op. Add a method here when a caller needs
+    # one; do not make it magic.
+    class tqdm:  # noqa: N801 — deliberately shadows the real class's name
+        def __init__(self, iterable=None, *args, **kwargs):
+            self._iterable = [] if iterable is None else iterable
+
+        def __iter__(self):
+            return iter(self._iterable)
+
+        def __len__(self):
+            return len(self._iterable)
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            self.close()
+            return False
+
+        def set_postfix_str(self, *args, **kwargs):
+            """Display-only on a real bar; nothing to draw without one."""
+
+        def update(self, *args, **kwargs):
+            """Display-only."""
+
+        def close(self):
+            """Display-only."""
 
 # =============================================================================
 # CONSTANTS
