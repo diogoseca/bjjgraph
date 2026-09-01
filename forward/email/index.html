@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Digest email · /dev</title>
+<!--
+  THE TRAINING-DAY EMAIL, BEFORE ANYONE RECEIVES ONE (v1.159.0).
+
+  This renders through the SAME `render.js` the Worker sends with, over the SAME
+  `fixtures.js` that `tests/digest_render.test.mjs` asserts against. Both files are copied
+  here by scripts/build_forward_components.mjs — they are not duplicated. A preview that
+  re-implemented the email would agree with itself and drift from what actually sends, which
+  is the §6.3 trap; this cannot, because there is only one implementation.
+
+  Sending is NOT reachable from this page and never should be. The Worker's own trigger mails
+  everyone opted in, with no dry-run and no scoping — see the report.
+-->
+<style>
+  :root {
+    --bg: #0f1219; --panel: #161a23; --panel2: #1c2230; --line: #262d3a;
+    --ink: #e6e8ec; --muted: #8d96a8; --accent: #6e8bff; --warn: #e8b46b;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 14px; }
+  header { padding: 22px 24px 16px; border-bottom: 1px solid var(--line); }
+  h1 { margin: 0 0 6px; font-size: 17px; font-weight: 650; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.6; max-width: 74ch; }
+  header code { font-family: var(--mono); font-size: 11.5px; background: var(--panel2); padding: 1px 5px; border-radius: 4px; }
+  .warn { margin-top: 10px; color: var(--warn); font-size: 12px; display: flex; gap: 7px; align-items: flex-start; }
+
+  .layout { display: grid; grid-template-columns: 268px 1fr; min-height: calc(100vh - 108px); }
+  @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } nav { border-right: none !important; border-bottom: 1px solid var(--line); } }
+
+  nav { border-right: 1px solid var(--line); padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+  nav button {
+    text-align: left; background: none; border: 1px solid transparent; border-radius: 8px;
+    color: var(--muted); font-family: inherit; font-size: 13px; padding: 9px 11px; cursor: pointer; line-height: 1.35;
+  }
+  nav button:hover { background: var(--panel); color: var(--ink); }
+  nav button[aria-current="true"] { background: var(--panel2); border-color: var(--accent); color: var(--ink); font-weight: 600; }
+  nav button span { display: block; font-family: var(--mono); font-size: 10.5px; color: var(--muted); margin-top: 3px; font-weight: 400; }
+
+  main { padding: 18px 24px 60px; min-width: 0; }
+  .note { color: var(--muted); font-size: 12.5px; line-height: 1.65; max-width: 78ch; margin: 0 0 16px; }
+  .subject {
+    font-family: var(--mono); font-size: 12.5px; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-bottom: 14px;
+    overflow-x: auto; white-space: nowrap;
+  }
+  .subject b { color: var(--muted); font-weight: 400; letter-spacing: .08em; font-size: 10.5px; text-transform: uppercase; display: block; margin-bottom: 4px; }
+
+  .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
+  .tabs button {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 7px; color: var(--muted);
+    font-family: var(--mono); font-size: 11.5px; padding: 6px 11px; cursor: pointer;
+  }
+  .tabs button[aria-pressed="true"] { border-color: var(--accent); color: var(--ink); background: var(--panel2); }
+
+  iframe { width: 100%; max-width: 640px; height: 760px; border: 1px solid var(--line); border-radius: 10px; background: #fff; display: block; }
+  pre.text {
+    background: #fff; color: #1c2130; font-family: var(--mono); font-size: 12.5px; line-height: 1.65;
+    border: 1px solid var(--line); border-radius: 10px; padding: 18px; max-width: 640px;
+    white-space: pre-wrap; word-break: break-word; margin: 0;
+  }
+  .hidden { display: none !important; }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .err { color: var(--warn); font-family: var(--mono); font-size: 12px; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Training-day digest — email preview</h1>
+  <p>
+    Rendered through the same <code>render.js</code> the Worker sends with, over the same
+    <code>fixtures.js</code> that <code>tests/digest_render.test.mjs</code> asserts against.
+    Every case here is a case the suite already checks. Nothing on this page can send anything.
+  </p>
+  <p class="warn"><span aria-hidden="true">▲</span><span>The Worker's manual trigger has no dry-run and no per-user scoping — it mails everyone opted in. Do not use it to preview.</span></p>
+</header>
+
+<div class="layout">
+  <nav id="nav" aria-label="Cases"></nav>
+  <main>
+    <p class="note" id="note"></p>
+    <div class="subject"><b>Subject</b><span id="subject"></span></div>
+    <div class="tabs" role="group" aria-label="Format">
+      <button id="tabHtml" aria-pressed="true">HTML</button>
+      <button id="tabText" aria-pressed="false">Plain text</button>
+    </div>
+    <iframe id="frame" title="Rendered email"></iframe>
+    <pre class="text hidden" id="plain"></pre>
+    <p class="err hidden" id="err"></p>
+  </main>
+</div>
+
+<script type="module">
+  const err = document.getElementById("err");
+  let FIXTURES, renderHtml, renderText, renderSubject;
+  try {
+    ({ FIXTURES } = await import("./fixtures.js"));
+    ({ renderHtml, renderText, renderSubject } = await import("./render.js"));
+  } catch (e) {
+    err.classList.remove("hidden");
+    err.textContent =
+      "Could not load render.js / fixtures.js. They are copied here at build time by " +
+      "scripts/build_forward_components.mjs — if you are serving forward/ directly rather " +
+      "than source/public/dev/, run `npm run build:forward` first. (" + e.message + ")";
+    throw e;
+  }
+
+  const nav = document.getElementById("nav");
+  const note = document.getElementById("note");
+  const subject = document.getElementById("subject");
+  const frame = document.getElementById("frame");
+  const plain = document.getElementById("plain");
+  const tabHtml = document.getElementById("tabHtml");
+  const tabText = document.getElementById("tabText");
+
+  let current = FIXTURES[0];
+  let mode = "html";
+
+  FIXTURES.forEach((f) => {
+    const b = document.createElement("button");
+    b.innerHTML = "";
+    b.append(f.label);
+    const s = document.createElement("span");
+    s.textContent = f.id;
+    b.appendChild(s);
+    b.addEventListener("click", () => { current = f; draw(); });
+    b.dataset.id = f.id;
+    nav.appendChild(b);
+  });
+
+  function draw() {
+    for (const b of nav.children) b.setAttribute("aria-current", String(b.dataset.id === current.id));
+    note.textContent = current.note;
+    subject.textContent = renderSubject(current.digest);
+    tabHtml.setAttribute("aria-pressed", String(mode === "html"));
+    tabText.setAttribute("aria-pressed", String(mode === "text"));
+    frame.classList.toggle("hidden", mode !== "html");
+    plain.classList.toggle("hidden", mode !== "text");
+    if (mode === "html") frame.srcdoc = renderHtml(current.digest);
+    else plain.textContent = renderText(current.digest);
+    const u = new URL(location.href);
+    u.hash = current.id;
+    history.replaceState(null, "", u);
+  }
+
+  tabHtml.addEventListener("click", () => { mode = "html"; draw(); });
+  tabText.addEventListener("click", () => { mode = "text"; draw(); });
+
+  const wanted = location.hash.slice(1);
+  if (wanted) current = FIXTURES.find((f) => f.id === wanted) || current;
+  draw();
+</script>
+</body>
+</html>
