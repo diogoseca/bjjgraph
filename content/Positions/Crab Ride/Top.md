@@ -116,6 +116,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
   "@type": "WebPage",
   "name": "Crab Ride Top",
   "description": "Master Crab Ride Top attacks in BJJ. Complete guide covering back control entries, submission setups, and crucifix transitions. Dominant attacking position with 70% advancement rate.",
+  "disambiguatingDescription": "Often confused with Back Control \u2014 Crab Ride secures only one asymmetric hook and sits perpendicular to the spine, whereas Back Control requires chest-to-back alignment with both hooks (or a body triangle) plus a seatbelt grip. Often confused with Truck \u2014 the Truck threads a leg through to isolate and trap one of the opponent\u0027s legs for the twister system, while Crab Ride hooks the near hip without trapping a leg and is oriented toward taking the back. Often confused with Cross Body Ride \u2014 Cross Body Ride drives a controlling leg across the body toward the Truck and twister attacks, while Crab Ride uses a single near-hip hook as a gateway to back control and the crucifix.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -192,6 +193,11 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Back Control|Back Control]]</strong> — Crab Ride secures only one asymmetric hook and sits perpendicular to the spine, whereas Back Control requires chest-to-back alignment with both hooks (or a body triangle) plus a seatbelt grip</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Twister Control/Truck|Truck]]</strong> — the Truck threads a leg through to isolate and trap one of the opponent&#39;s legs for the twister system, while Crab Ride hooks the near hip without trapping a leg and is oriented toward taking the back</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Cross Body Ride|Cross Body Ride]]</strong> — Cross Body Ride drives a controlling leg across the body toward the Truck and twister attacks, while Crab Ride uses a single near-hip hook as a gateway to back control and the crucifix</p>
+</aside>
 <section id="overview" class="content-section">
 
 Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.
