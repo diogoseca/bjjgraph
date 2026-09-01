@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
 - **v1.163.0** — [THE REFERENCE SURFACES DO NOT PLAY](#v1-163-0-the-reference-surfaces-do-not-play)
 - **v1.155.3** — [THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION](#v1-155-3-the-system-that-never-spoke-and-the-miss)
 - **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
@@ -6033,3 +6034,65 @@ double-claim. `systems-surface.spec.ts` 7/7, **curated 205/205 in 10.1m**, units
 what the system contains. When a report is ambiguous between "show me less" and "contain less", the
 reversible one is presentation — and here it was also the only one that did not require inventing a
 completeness assumption the data never made.
+
+
+---
+
+<a id="v1-165-0-where-the-roll-starts-standing-anywhere-a"></a>
+
+## v1.165.0 — WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE
+
+> **Status:** Current. Gated by `e2e/journeys/start-from.spec.ts` (5 journeys, 3 `@curated`);
+> 7 of 7 mutants killed on the shipped build (table below). Built on v1.148.0 as v1.149.0,
+> rebased onto v1.164.x at push time — the app merged clean, the version and the index did not.
+
+**Owner:** "the user can select how it starts, whether to start from random, from standing, or from
+the position most beneficial for the user to learn to complement his game. That one is coming
+soon. … or like something that feels personal like my weak spots or some better copywriting."
+
+**Did not exist.** `startRoll` drew `rng("start-pos")` over every playable site on every roll — the
+first-impression bias on a fresh profile (v1.82.3), uniform after. Now a `startFrom` setting,
+Settings → Rolling, above Uniform (`[data-settings-start]`, pills `[data-start-pick]`):
+
+- **Anywhere** (`random`, default) — the historical draw, byte-for-byte.
+- **Standing** — every roll opens on `standing-position`'s rep member via `_posSlugIndex`
+  (`_standingStart`). Placed AFTER the `rigStart` rail — so `land()` keeps working on a profile
+  that carries the setting — and BEFORE the first-impression branch, whose bookkeeping is left
+  untouched (an opening on the feet is not the random opening that debt is about). The `start-pos`
+  draw is CONSUMED and ignored: exactly ONE value per `startRoll` in every mode, so a rigged queue
+  stays in lockstep however the setting is flipped mid-journey.
+- **My weak spots** (`weak`) — rendered LOCKED (`segBtn` locked, `data-start-locked`, its own
+  "coming soon" line) and written by nothing; `startFrom()` reads it as `random` if a synced blob
+  ever carries it. A visible promise is a roadmap; a choice that appears one day is a surprise.
+
+**Copy** is the player's, and the app's own Explore vocabulary: "Where the roll starts" ·
+"Anywhere" · "My weak spots" — not "random position" or "biggest gaps in my game". The row says
+that the side you play is still drawn each time, because it is.
+
+**The fallback is loud (§6.6).** A wire with no playable standing-position — never shipped; only
+`_posIdx`'s filter (now ruleset-masked) could make one — starts on the ordinary draw and emits
+`start_from_fallback {want, have}`; the spec simulates it by cutting the site from `_posIdx`.
+
+**When "weak" ships:** key the start state on posId + "/" + role. `startPosTraffic` is top-only
+(§6.6, 0 of 90 bottom decks moved a score) and `weakSpots()` ranks DECKS — technique families,
+not states to stand in — so the mapping from a leaking deck to a start state IS the work, and the
+spec for it must assert the role.
+
+**Harness notes, for the next worktree.** A bare `npx playwright test … start-from` on 1.61 ran
+all 444 journeys (the positional filter matched nothing and fell through) — pass the explicit
+file path. `_posIdx` is built lazily by the first `startRoll` and `beats` is undefined until the
+first beat, so a journey that restarts must let the boot roll land (`nextHand`) first; a
+`resetRoll()` during the intro crashed `draw()` on a non-finite gradient radius — not a user path,
+not chased.
+
+**Mutation** (each rebuilt and run against its named journey):
+
+| mutant | journey | result |
+|---|---|---|
+| standing branch deleted | Standing opens every roll… | killed |
+| `rng("start-pos")` not consumed under Standing | Standing opens every roll… | killed (queue length 3) |
+| `start_from_fallback` fx deleted | a wire without a playable standing position… | killed |
+| `weak` unlocked | the row ships… | killed |
+| Standing outranks the `rigStart` rail | a rigged start outranks Standing… | killed |
+| `fx()` in the pill's onClick | changes nothing you have earned | killed |
+| row not appended | the row ships… | killed |

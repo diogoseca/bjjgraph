@@ -355,6 +355,13 @@ losing as it is keen to win. The rungs are built **from the wire** (`evLam`), so
 table renders no row. The dial re-orders hands; it cannot change which moves you are offered, and
 it cannot move the clock. `_evLamIdx()` is read once per deal.
 
+**Where the roll starts** is a user setting (Settings → Rolling, above Uniform; v1.165.0): Standing
+· Anywhere (default — the historical draw: first-impression bias, then uniform) · My weak spots
+(LOCKED, "coming soon"; written by nothing, read as Anywhere). `startFrom()` is the one reader;
+`startRoll` consults it after the `rigStart` rail and before the first-impression branch, still
+consuming ONE `start-pos` value per roll. A wire with no playable standing-position falls back to
+the draw and emits `start_from_fallback`. Pinned by `e2e/journeys/start-from.spec.ts`.
+
 **The honesty gap, still open.** The shipped `opponentDefend` iterates hub adjacency with **no role
 filter and no origin filter** and never reads `attemptProbability`. Only ~12% of what it may play
 is a move the model's opponent would consider; the modelled set is a strict subset in all 272

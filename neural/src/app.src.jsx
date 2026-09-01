@@ -31,6 +31,19 @@ const NG_LOSS_PRESETS = {
   2: ["Slightly cautious", "the default. Getting caught counts about twice what finishing pays — roughly how most people actually feel. Careful, not passive."],
   4: ["Self-defence", "the street. Getting caught counts four times what finishing pays, so the ranking prefers staying out of trouble over gambling for the tap."],
 };
+// WHERE THE ROLL STARTS (v1.165.0) — the Settings → Rolling row, in render order: [value, label,
+// note]. Owner: "the user can select how it starts, whether to start from random, from standing, or
+// from the position most beneficial for the user to learn to complement his game. That one is
+// coming soon." The third row is that promise. It RENDERS (locked) and is never written: a choice
+// the player can see is a roadmap, a choice that appears one day is a surprise. `startFrom()` is
+// the one reader and resolves it to "random" if a synced blob ever carries it. Copy rule from the
+// same brief: it should feel PERSONAL — "my weak spots", not "biggest gaps in the game".
+const NG_START_FROM = [
+  ["standing", "Standing", "Every roll opens on the feet, the way a match does. You work your way to the ground."],
+  ["random", "Anywhere", "A random position each roll, top or bottom, so the whole graph gets trained \u2014 the default."],
+  ["weak", "My weak spots", "Coming soon \u2014 each roll opens where your game leaks most, so you drill what is actually costing you."],
+];
+const NG_START_LOCKED = { weak: true };
 // EDGE saturates its palette at |15|, not `potColor`'s default 45. MEASURED over all 1246 emitted
 // (state,move) pairs: p5 −14 · median 0 · p95 +12, and 93.3% inside ±15 — so on the 45 scale the
 // whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
@@ -5365,6 +5378,44 @@ class Component extends DCLogic {
       dnote.style.cssText = "font-size:11px;color:#69748f;line-height:1.5;margin:-14px 0 22px;";
       dnote.textContent = "Harder opponents arrive with the ladder \u2014 Normal is the calibrated one.";
       body.appendChild(dnote);
+      // ── WHERE THE ROLL STARTS (v1.165.0) ── three pills from NG_START_FROM, one of them LOCKED.
+      // segBtn attaches no handler to a locked pill, so the promised choice cannot be written from
+      // here; its own "coming soon" line sits under the row so nobody has to click to learn that.
+      // The note box describes the ACTIVE choice, the way the loss-aversion row does.
+      const sf = document.createElement("div");
+      sf.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      sf.setAttribute("data-settings-start", "1");
+      sf.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Where the roll starts</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Where you and your opponent are when a new roll begins. Which side you play \u2014 top or bottom \u2014 is still drawn each time.</div>';
+      const sseg = document.createElement("div");
+      sseg.style.cssText = "display:flex;gap:9px;flex-wrap:wrap;margin-top:12px;";
+      const sfCur = this.startFrom();
+      for (const [v, label] of NG_START_FROM) {
+        const locked = !!NG_START_LOCKED[v];
+        const b = this.segBtn(label, v === sfCur, locked, () => {
+          this.set("startFrom", v);
+          this.track("neural_start_from_set", { mode: v });
+          this.renderSettings();
+        });
+        b.setAttribute("data-start-pick", v);
+        if (locked) { b.setAttribute("data-start-locked", "1"); b.title = "Coming soon"; }
+        sseg.appendChild(b);
+      }
+      sf.appendChild(sseg);
+      const sfRow = NG_START_FROM.find((r) => r[0] === sfCur) || NG_START_FROM[1];
+      const sfNote = document.createElement("div");
+      sfNote.setAttribute("data-start-note", sfRow[0]);
+      sfNote.style.cssText = "font-size:12px;color:#93a0bd;line-height:1.5;margin-top:11px;padding:9px 11px;background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:9px;";
+      sfNote.innerHTML = '<b style="color:#cbd4e6;">' + sfRow[1] + '</b> \u2014 ' + sfRow[2];
+      sf.appendChild(sfNote);
+      for (const [v, label, note] of NG_START_FROM) {
+        if (!NG_START_LOCKED[v]) continue;
+        const soon = document.createElement("div");
+        soon.setAttribute("data-start-soon", v);
+        soon.style.cssText = "font-size:11px;color:#69748f;line-height:1.5;margin-top:8px;";
+        soon.innerHTML = '<b style="color:#8b97b0;">' + label + '</b> \u2014 ' + note;
+        sf.appendChild(soon);
+      }
+      body.appendChild(sf);
       // uniform — the GI/NO-GI choice lives HERE and only here (v1.95.3, owner: the pane
       // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
       // still re-filters techniques, lessons, checkpoints and odds everywhere.
@@ -13255,6 +13306,25 @@ class Component extends DCLogic {
   // the twenty most-travelled, while ~17 states stay genuinely likely. `floor` mixes uniform back
   // in so all 136 keep a real chance: the draw is BIASED, never NARROWED, and never repetitive.
   get START_BIAS() { return { gamma: 1.5, floor: 0.02 }; }
+  // ── WHERE THE ROLL STARTS (v1.165.0) ── the ONE reader of the `startFrom` setting.
+  // "random" is the historical draw below (first-impression bias, then uniform) and the default.
+  // "standing" opens EVERY roll on Standing Position. "weak" is the promised third choice and is
+  // NOT SHIPPED: it reads as "random" here rather than inventing a ranking. When it ships it must
+  // be keyed on posId + "/" + role — `startPosTraffic` is top-only (§6.6) and `weakSpots()` ranks
+  // DECKS, which are technique families, not states to stand in; the mapping IS the work.
+  // A settings key is forever (`_pullAndMerge` has no tombstone): retire this by ceasing to read it.
+  startFrom() { return this.get("startFrom", "random") === "standing" ? "standing" : "random"; }
+  // The standing site's index in the playable pool, or -1 with a NAMED beat. The bare slug maps to
+  // the rep member (`_posSlugIndex`, top owns it), which is the entry `_posIdx` holds — so on the
+  // shipped wire this never falls back. If a wire without a playable standing-position ever arrives
+  // the roll still starts, on the ordinary draw, and SAYS SO (`start_from_fallback`) instead of
+  // printing a plausible opening (§6.6: a silent fallback is worse than a crash).
+  _standingStart(pool) {
+    const ix = this._posSlugIndex ? this._posSlugIndex.get("standing-position") : null;
+    if (ix != null && pool.indexOf(ix) >= 0) return ix;
+    this.fx("start_from_fallback", { want: "standing", have: ix == null ? "no-node" : "not-playable" });
+    return -1;
+  }
   // Returns {idx, weighted} — `weighted:false` means the traffic table was not there yet and this is
   // the historical uniform pick. The CALLER needs to know, because a degraded draw must not be
   // allowed to spend the once-per-visitor first impression (see startRoll).
@@ -13308,8 +13378,18 @@ class Component extends DCLogic {
     const rsOk = this._rulesetMask();
     const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && rsOk[n.idx] && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions" && rsOk[k])).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
+    let standingAt = -1;
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
+    } else if (this.startFrom() === "standing" && (standingAt = this._standingStart(positions)) >= 0) {
+      // WHERE THE ROLL STARTS = Standing (v1.165.0). The test rail above still outranks it, so
+      // `land()` keeps working on a profile that carries the setting. The `start-pos` draw is
+      // CONSUMED and ignored: exactly ONE value per startRoll in every mode, so a rigged queue
+      // stays in lockstep whichever way the setting is flipped mid-journey. The first-impression
+      // bookkeeping is left alone on purpose — an opening on the feet is not the random opening
+      // that debt is about, so switching back to Anywhere later still gets the biased first draw.
+      this.rng("start-pos");
+      this.currentPos = standingAt;
     } else
     // FIRST-EVER ROLL: bias the opening state toward one a newcomer might have a NAME for.
     // The `withDeck` filter this replaces was meant to do that and was a NO-OP — all 136 playable
