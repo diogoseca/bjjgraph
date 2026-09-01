@@ -162,6 +162,15 @@ export class Journey {
        *  ingest. For journeys about the PRE-PAINT window (a visitor who leaves while the loader
        *  is still up) — the readiness gate is downstream of everything such a test observes. */
       unready?: boolean;
+      /** boot the PRE-SPLIT graph: one hub node per site, no derived pair. This replaced
+       *  `?dual=legacy` in v1.158.1, when that query param was deleted — the app now reads no
+       *  parameter that can change the render, and `window.__NEURAL_NO_PAIRS__` is reachable only
+       *  from here. It exists for ONE caller, `dual-consumers.spec.ts`, which needs the same build
+       *  booted twice to diff the pre-split graph against the paired one; that differential is the
+       *  oracle for the `cal.ev` index-remap trap (CLAUDE.md 6.6). The flag is re-registered on
+       *  EVERY boot, true or false, and Playwright runs init scripts in registration order, so the
+       *  latest boot's value wins and a `noPairs` boot can never leak into the next one. */
+      noPairs?: boolean;
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -359,6 +368,11 @@ export class Journey {
     // same amount again rather than arriving instantly on the previous boot's accumulated clock.
     this.st.simMs = 0;
     this.st.wallT0 = Date.now();
+    // Re-registered every boot so the LAST registration wins (see `noPairs` above): passing the
+    // value rather than only registering when true is what stops it leaking into a later boot.
+    await this.page.addInitScript((v) => {
+      (window as any).__NEURAL_NO_PAIRS__ = v;
+    }, !!opts.noPairs);
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {

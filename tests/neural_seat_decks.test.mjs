@@ -133,9 +133,11 @@ test("standing on a position, the SIDE YOU PLAY wins over the member's own stamp
   assert.equal(b.deckKeyFor(b.nodes[rep.idx]).role, "Top");
 });
 
-test("?dual=legacy is byte-identical: with no stamped role, techniques fall back to |Attacker", () => {
-  // The escape hatch ships no pairs, so no node carries `role`. Both fixes must be the identity
-  // there or the flag stops being an escape hatch.
+test("the pre-split graph is byte-identical: with no stamped role, techniques fall back to |Attacker", () => {
+  // The pre-split graph ships no pairs, so no node carries `role`. Both fixes must be the identity
+  // there or the control group stops being a control group. (Renamed in v1.158.1: this never used
+  // the `?dual=legacy` param it was named after — it simulates the pre-split graph by deleting
+  // `role` in JS — so the rename is the test finally saying what it does.)
   const a = app((x) => { for (const n of x.nodes) delete n.role; });
   const tech = a.nodes.filter((n) => n.ty !== "positions");
   assert.ok(tech.length > 2000);

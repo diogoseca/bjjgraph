@@ -16,11 +16,17 @@ type Any = any
  * the format is self-describing, so if the remap were wrong the app would still find rows, still
  * print integers on the option cards, and print the WRONG technique's number on every one. No
  * exception, no console warning, no blank card. Journey 1 exists for exactly that, and it is a
- * DIFFERENTIAL — the same build, booted twice, once with `?dual=legacy` — because the only
+ * DIFFERENTIAL — the same build, booted twice, once with `{ noPairs: true }` — because the only
  * trustworthy oracle for "did this join move?" is the graph the join was written against.
  *
- * `?dual=legacy` is the escape hatch and the control group at the same time. If it is ever
- * retired, these journeys lose their oracle and must be rewritten against stored expectations.
+ * THE CONTROL GROUP IS THE POINT, and it now has no other reason to exist. Until v1.158.1 it was
+ * `?dual=legacy`, a query param that was also the visitor-facing escape hatch; the owner retired
+ * the escape hatch and the param read path with it, so the app reads no parameter that can change
+ * the render. The pre-split boot survives as `j.boot("/", { noPairs: true })`, reachable only from
+ * the DSL. That was deliberate: retiring it outright would have left these journeys to be
+ * rewritten against STORED expectations, and a stored expectation is written from the same reading
+ * of the code it checks, so it agrees by construction (CLAUDE.md 6.3). A live differential does
+ * not.
  *
  * ONE RULE FOR ADDING TO THIS FILE: **never assert a render by re-implementing its filter.** The
  * first pass of this audit measured Explore's search as `nodes.filter(n => n.rep && …)` — a
@@ -137,7 +143,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   const j = journey(page)
   await j.boot("/")
   const pair = await harvest(page)
-  await j.boot("/?dual=legacy")
+  await j.boot("/", { noPairs: true })
   const legacy = await harvest(page)
 
   // the control group really is the old graph, and the subject really is the new one
@@ -145,7 +151,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   // submission, so five SITES are gone (their ordinals retired, never reused). The invariant these
   // three lines exist for is untouched — legacy is one node per site, the default is exactly two
   // members per site, and both cover the same rep set.
-  expect(legacy.nodes, "?dual=legacy is one node per site").toBe(1462)
+  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1462)
   expect(pair.nodes, "the default is two members per site").toBe(2924)
   expect(pair.reps, "…over the same 1,462 sites").toBe(legacy.reps)
 
@@ -178,7 +184,7 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   const j = journey(page)
   await j.boot("/")
   const pair = await harvest(page)
-  await j.boot("/?dual=legacy")
+  await j.boot("/", { noPairs: true })
   const legacy = await harvest(page)
 
   // ORDINALS ARE THE PROMISE. The rep member IS the hub node, so no ordinal is minted, none moves,
@@ -224,8 +230,8 @@ test("a share code minted on the hub graph opens the same class on the paired on
 }) => {
   const j = journey(page)
 
-  // Mint on ?dual=legacy — literally the pre-split app — then open it on the default.
-  await j.boot("/?dual=legacy")
+  // Mint on the noPairs control group — literally the pre-split app — then open it on the default.
+  await j.boot("/", { noPairs: true })
   const minted = await page.evaluate(() => {
     const a = (window as Any).__neural
     const ids = a.nodes
@@ -422,7 +428,7 @@ test("@curated every technique seats a roll at its canonical origin, on the side
   expect(r.sideBad, "…on the side that performs it, defenders flipped").toBe(0)
 
   // AND THE POINT OF IT: the technique you tapped is in the hand you are dealt. The adj-walk
-  // managed 421 of 1,331 (31.6%) — on the paired graph AND on ?dual=legacy alike, so this was a
+  // managed 421 of 1,331 (31.6%) — on the paired graph AND on the pre-split one alike, so this was a
   // pre-existing defect the split exposed rather than caused. The 5 that still miss are content
   // (`from_position_role_mismatch`), not code; the assertion is a floor so a content fix cannot
   // break the gate, but it is far above what a regression would leave.

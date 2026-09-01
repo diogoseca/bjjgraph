@@ -315,8 +315,10 @@ filter, so only ~12% of what it may play is a move the model's opponent would co
 describes a better-behaved opponent than the one you face. Say so in any copy explaining EDGE.
 
 **The pair.** Every state draws as two orbs (merged → mitosis → split, gated by `kLOD`). It is
-**derived at ingest** (`_deriveDualPairs`), costs zero wire bytes, and `?dual=legacy` is the only
-escape hatch. The **rep member IS the hub** — same id, same share ordinal, same URL — so lists,
+**derived at ingest** (`_deriveDualPairs`), costs zero wire bytes, and is UNCONDITIONAL — the
+`?dual=legacy` escape hatch was retired in v1.158.1 along with its query-param read, so no URL
+parameter can change how the graph renders. The pre-split graph survives for ONE caller,
+`j.boot("/", { noPairs: true })`, because `dual-consumers.spec.ts` needs it as a live control group. The **rep member IS the hub** — same id, same share ordinal, same URL — so lists,
 systems and curriculum joins all still land. `adj` is per-SITE and **must not be role-split**.
 
 **Persistence.** One v2 blob: settings (per-key LWW), `challenges`, `badges`, `coins`, `srs`,

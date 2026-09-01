@@ -274,8 +274,11 @@ async function run(vp) {
   console.log("  loss-aversion dial:", JSON.stringify(dial))
   written.push(await shot(page, "05-settings-rolling-loss-aversion", vp))
 
-  // ── 6 · the SAME view under ?dual=legacy ──────────────────────────────────────────────────
-  await page.goto(`${BASE}${AT}?dual=legacy`, { waitUntil: "load" })
+  // ── 6 · the SAME view on the pre-split graph ──────────────────────────────────────────────
+  // v1.158.1: `?dual=legacy` is gone; the flag must be set before the bundle boots, or this shot
+  // would silently be a duplicate of shot 5 rather than the comparison it is labelled as.
+  await page.addInitScript(() => { window.__NEURAL_NO_PAIRS__ = true })
+  await page.goto(`${BASE}${AT}`, { waitUntil: "load" })
   await settle(page)
   console.log("  facts(legacy):", JSON.stringify(await facts(page)))
   written.push(await shot(page, "06-same-view-dual-legacy-comparison", vp))

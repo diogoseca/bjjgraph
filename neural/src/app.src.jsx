@@ -846,8 +846,8 @@ class Component extends DCLogic {
         // shipped tree. Since v1.125.0 the pair is DERIVED from this very payload at ingest and is
         // the default, so the prototype had nothing left to be: it was 2.47MB of the same graph,
         // reachable only from a dev server, describing a shape the app now builds itself. The
-        // fork, its dev-serve route and its generator are gone; `?dual=` is a `legacy` switch and
-        // nothing else. See `_dualVariant`.
+        // fork, its dev-serve route and its generator are gone, and since v1.158.1 so is `?dual=`
+        // itself — the pair is unconditional. See the pair block in `ingest`.
         // NB the bare `fetch("graph-data.json"` literal below is REWRITTEN by build.mjs to prefix
         // __NEURAL_DATA_BASE; it must survive verbatim or the build throws by design.
         const r = await fetch("graph-data.json");
@@ -918,12 +918,13 @@ class Component extends DCLogic {
   /**
    * ── THE PAIR IS DERIVED AT INGEST, NEVER SHIPPED (v1.125.0) ────────────────────────────────
    *
-   * `?dual=iso` is the default now (owner). The prototype got there by EMITTING 2,931 pre-split
+   * The iso pair is the default now (owner), and since v1.158.1 it is the ONLY thing a visitor can
+   * get — the `?dual=` param it was once selected by is deleted. The prototype got there by EMITTING 2,931 pre-split
    * nodes — measured, 2,471,947 raw / 199,358 gzip against the shipped wire's 546,746 / 90,492,
    * which puts the eager set at ~3.25MB against a 1.6MB ceiling. It cannot ship that way and it
    * does not have to: both roles are already in the data model, so the split is a pure function
    * of the wire. This rewrites `data` into the EXACT shape the prototype file has and hands it
-   * to the same ingest that has been rendering `?dual=iso` since v1.113.0 — so the look the owner
+   * to the same ingest that has been rendering the iso pair since v1.113.0 — so the look the owner
    * approved is reproduced by running the identical code, not by reimplementing it. Zero wire bytes.
    *
    * THE HUB KEEPS ITS ID. The rep member (top / attacker) IS the hub node — same id, same share
@@ -1151,10 +1152,15 @@ class Component extends DCLogic {
     // ── THE PAIR (v1.125.0) ────────────────────────────────────────────────────────────────────
     // Between the outcome expansion (which this READS, to learn which side each technique lands
     // you on) and the EDGE table below (whose `idxs` and map keys are NODE INDEXES, so the split
-    // has to happen before they are built, not after). `?dual=legacy` is the escape hatch, and it
-    // is the ONLY thing that skips this — every other spelling of the flag, and no flag at all,
-    // gets the pair (v1.126.0).
-    if (this._dualVariant() !== "legacy") {
+    // has to happen before they are built, not after). THE PAIR IS UNCONDITIONAL for every visitor
+    // (v1.158.1): the `?dual=` query param that used to skip it is gone. What remains is
+    // `window.__NEURAL_NO_PAIRS__`, which NO URL can set and no visitor can reach — it exists only
+    // so `e2e/journeys/dual-consumers.spec.ts` can boot the same build twice and diff the
+    // pre-split graph against the paired one. That differential is the oracle for the `cal.ev`
+    // index-remap trap (CLAUDE.md 6.6), and an index remap fails by printing a WRONG believable
+    // number rather than by throwing, so the control group is load-bearing — which is the whole
+    // reason this branch outlived the param that created it.
+    if (!(typeof window !== "undefined" && window.__NEURAL_NO_PAIRS__)) {
       try { this._deriveDualPairs(data); }
       catch (e) { console.warn("[neural] pair derivation failed — rendering hubs:", e); }
     }
@@ -2073,7 +2079,8 @@ class Component extends DCLogic {
    * exception is `defendKeyFor`, which the panic drill uses, and that reaches only the 297
    * submission Defender decks; the 1,029 transition ones (4,880 cards) reach no surface at all.
    *
-   * IDENTITY WHERE THERE IS NO PAIR. `?dual=legacy` skips `_deriveDualPairs` entirely, so `role`
+   * IDENTITY WHERE THERE IS NO PAIR. The pre-split graph (`window.__NEURAL_NO_PAIRS__`, test-only
+   * since v1.158.1) skips `_deriveDualPairs` entirely, so `role`
    * is undefined and this returns "Attacker" exactly as before. On the paired graph the dealt hand
    * is unchanged too: `_deriveDualPairs` hands the attempt edge to the PERFORMER side, so every
    * option `optionsFor` deals is the rep (attacker) member. Only a node the user pointed at from
@@ -2662,22 +2669,6 @@ class Component extends DCLogic {
   //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
-  /**
-   * `?dual` is a ONE-VALUE SWITCH, and the value is the way OUT (v1.126.0).
-   *
-   * `legacy` = the hub-collapsed graph, one node per site — the escape hatch the owner kept.
-   * **Everything else, `null` included, is the default: the derived iso pair.** The flag has no
-   * opt-IN spelling any more, so `?dual=iso`, `?dual=fixed` and `?dual=force` are
-   * ACCEPTED-AND-IGNORED rather than rejected — the repo's own `?variant=legacy` precedent. That
-   * is not politeness: those three named PROTOTYPE PAYLOADS which no longer exist, and the graph
-   * they used to show is the one a plain visit now shows. An old link lands on what it promised.
-   * A typo'd value has always fallen through to `null`, so this needs no code to be true — which
-   * is exactly why it is written down instead.
-   */
-  _dualVariant() {
-    try { return new URLSearchParams(location.search).get("dual") === "legacy" ? "legacy" : null; }
-    catch (e) { return null; }
-  }
   _ingestDeckManifest(j) {
     const src = (j && j.decks) || {};
     const decks = {};
@@ -6641,7 +6632,7 @@ class Component extends DCLogic {
       // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
       // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
       // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
-      // `?dual=legacy`.
+      // the pre-split graph.
       // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
       // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
       // page of results for states no no-gi session can enter.
@@ -6651,9 +6642,14 @@ class Component extends DCLogic {
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
       // is not a sanitiser; the payload is already lowercase. SELF-XSS ONLY: `_exQ` is written
       // by the search input and by NOTHING ELSE since v1.152.0 — the hardcoded curatedMap terms
-      // that used to write it are gone with the search shortcuts (see below) — by NO url param
-      // (`?dual=` is the only one the app reads), and the query is never stored nor shown to
-      // anyone else —
+      // that used to write it are gone with the search shortcuts (see below) — by NO url param,
+      // and the query is never stored nor shown to anyone else —
+      // (PRECISION, because the earlier note here was wrong and a wrong security claim is worse
+      // than none: `?dual=` was never "the only param the app reads". `?l=<code>` is read too, by
+      // `ngListParseSharePath(location.pathname + location.search)` — the last degradation rung
+      // for a share link pasted onto any page. What IS true, and is what v1.158.1 bought, is that
+      // after `?dual=` was deleted NO query parameter can change how the graph RENDERS: `?l=`
+      // opens a shared list and can do nothing else, and it is validated by `nglValidCode`.)
       // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
       // it slices the trusted title and uses q only for indexOf/length.
       // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
@@ -6841,7 +6837,7 @@ class Component extends DCLogic {
    *
    * Normalising in the LIST LAYER rather than at the capture button is deliberate: this is the
    * layer's own invariant, so a surface added later cannot bypass it by calling `addToList`. It
-   * is an identity on every unpaired node, so `?dual=legacy` and the pre-split world are
+   * is an identity on every unpaired node, so the pre-split graph and the pre-split world are
    * untouched — and no shipped build has ever been able to store a member id, so there is nothing
    * to migrate.
    */
@@ -9520,7 +9516,7 @@ class Component extends DCLogic {
    *  · `rollFromPosition` — which is what a TAP ON THE GRAPH runs — walked `adj[]` and took the
    *    first position it met. A technique is adjacent to its origin AND to everywhere its
    *    outcomes land, in link order, so this is a coin toss with 3-5 sides. **MEASURED over all
-   *    1,331 techniques, on the paired graph AND on `?dual=legacy` alike: the walk disagrees with
+   *    1,331 techniques, on the paired graph AND on the pre-split one alike: the walk disagrees with
    *    the canonical origin on 907, and the technique you just tapped is not even in the hand you
    *    are dealt 910 times — 68.4%.** Tapping `Head Extraction to Posture` stood you in Closed
    *    Guard; it is authored from Gogoplata Control. The canonical origin lands it in the hand
@@ -13156,7 +13152,7 @@ class Component extends DCLogic {
     // canonical origin (`fromPositionId`), so a position or `|Defender` key has nothing to
     // contribute. Leaving them to fall out of the `fromPositionId` guard below LOOKED equivalent
     // and was not: a position deck key DOES resolve through `nodeForKey`, to a different index
-    // under `?dual=legacy` than under the pair render, so the two produced different traffic
+    // under the pre-split graph than under the pair render, so the two produced different traffic
     // tables and `dual-consumers` went red on a build that was otherwise correct. Filtered here,
     // this distribution is unchanged BY CONSTRUCTION rather than by accident — measured against
     // the pre-v1.145.13 table, a total variation of 1.2e-6.
