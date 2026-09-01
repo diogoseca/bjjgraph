@@ -41,7 +41,8 @@ import { journey } from "../dsl";
  *
  * Rails: __neural.systems, ._systemsById, ._focusIdxSet (the fog gate the draw loop reads),
  *        ._systemId, .camTarget, window.NG_CONTENT.decks (the chunk cache the panel draws from)
- * Handles: [data-system-row], [data-system-detail], [data-system-node], [data-system-back],
+ * Handles: [data-system-row], [data-system-detail], [data-system-node], [data-system-family],
+ *          [data-system-back],
  *          [data-system-courses], [data-system-cta], [data-affiliate-disclosure],
  *          [data-system-body] + [data-doc-*], p.affiliate-disclosure + a[data-affiliate="true"]
  *          (page), #study-this-system
@@ -58,11 +59,14 @@ import { journey } from "../dsl";
  *    panel that refetches on every paint — has no journey.
  */
 
+type GlueEntry = { ref: string; nodes: string[]; role?: string; fam?: number };
+
 type SystemEntry = {
   id: string;
   key: string;
   name: string;
   nodes: string[];
+  glue: GlueEntry[];
   products: Array<{
     name: string;
     instructor: string;
@@ -71,6 +75,27 @@ type SystemEntry = {
     vendor: string;
   }>;
 };
+
+/** The panel's row plan, mirroring renderSystemDetail: one row per authored reference, families
+ *  collapsed, and FIRST REFERENCE WINS for a node two refs both claim (a synonym pair such as
+ *  "Knee Slice Pass" / "Knee Cut Pass"). Recomputing it here is legitimate only because the
+ *  assertions below also pin the expanded set against `target.nodes` — the app's own answer. */
+function rowPlan(s: SystemEntry): {
+  fams: Array<{ ref: string; nodes: string[] }>;
+  loose: number;
+} {
+  const seen = new Set<string>();
+  const fams: Array<{ ref: string; nodes: string[] }> = [];
+  let loose = 0;
+  for (const g of s.glue) {
+    const kids = g.nodes.filter((n) => !seen.has(n));
+    if (!kids.length) continue;
+    for (const n of kids) seen.add(n);
+    if (g.fam && kids.length > 1) fams.push({ ref: g.ref, nodes: kids });
+    else loose += kids.length;
+  }
+  return { fams, loose };
+}
 
 // The SERVED copy is what the app fetches; the emitted copy is what the build will serve next.
 // Reading either keeps the spec honest before a build has copied the payload across.
@@ -266,10 +291,52 @@ test("Explore lists every authored system and selecting one lights its members @
   await expect(
     page.locator(`[data-system-detail="${target.id}"]`),
   ).toBeVisible();
+  // ONE ROW PER AUTHORED REFERENCE. A ref naming a submission family ("Calf Slicer") expands to
+  // every "from X" finish, so listing one row per NODE turned one authored word into eleven
+  // near-identical rows — the owner's report. Membership is untouched (a System is not exhaustive
+  // on positions, and v1.151.0's attempt to filter it deleted `Inside Heel Hook` from the Craig
+  // Jones Leg Lock System); the collapse is presentational, and this is what pins it.
+  const { fams, loose } = rowPlan(target);
+  await expect(
+    page.locator("[data-system-family]"),
+    "each family reference is ONE row, not one row per variant",
+  ).toHaveCount(fams.length);
   await expect(
     page.locator("[data-system-node]"),
-    "its members are readable as a list too",
+    "collapsed families contribute no node rows until opened",
+  ).toHaveCount(loose);
+  const widest = [...fams].sort((a, b) => b.nodes.length - a.nodes.length)[0];
+  expect(
+    await page
+      .locator(`[data-system-family="${widest.ref}"] .ng-system-variants`)
+      .innerText(),
+    "the collapsed row says how many variants it stands for",
+  ).toContain(`${widest.nodes.length} variants`);
+
+  // expanding every family reveals exactly the member set — nothing was dropped to achieve the
+  // collapse, which is the failure mode the reverted v1.151.0 filter actually shipped
+  for (const g of fams) {
+    await page.locator(`[data-system-family="${g.ref}"]`).click();
+  }
+  await expect(
+    page.locator("[data-system-node]"),
+    "every member is still reachable once the families are open",
   ).toHaveCount(target.nodes.length);
+  expect(
+    await page
+      .locator("[data-system-node]")
+      .evaluateAll((els) =>
+        els.map((e) => e.getAttribute("data-system-node")).sort(),
+      ),
+    "and they are exactly the published members",
+  ).toEqual([...target.nodes].sort());
+  for (const g of fams) {
+    await page.locator(`[data-system-family="${g.ref}"]`).click();
+  }
+  await expect(
+    page.locator("[data-system-node]"),
+    "collapsing again removes them from the DOM, so 'collapsed' is checkable",
+  ).toHaveCount(loose);
   expect(
     await litIds(page),
     "exactly this system's published members are lit — none dropped, none extra",
@@ -677,11 +744,16 @@ test("a system with no authored course offers no link at all", async ({
   // would be a broken promise, so the honest surface has nothing to click through to
   await expect(page.locator(".ng-learning-list a")).toHaveCount(0);
 
-  // the system is still fully usable: members lit and readable
+  // the system is still fully usable: members lit, and readable as one row per authored ref
+  // (families collapse — see the row-count claim in the first journey)
   expect(await litIds(page)).toEqual([...target.nodes].sort());
-  await expect(page.locator("[data-system-node]")).toHaveCount(
-    target.nodes.length,
-  );
+  const plan = rowPlan(target);
+  await expect(page.locator("[data-system-family]")).toHaveCount(plan.fams.length);
+  await expect(page.locator("[data-system-node]")).toHaveCount(plan.loose);
+  expect(
+    plan.fams.reduce((n, f) => n + f.nodes.length, 0) + plan.loose,
+    "and between them the rows account for every member",
+  ).toBe(target.nodes.length);
 
   // and the way back out is a click, not a reload
   await page.locator("[data-system-back]").click();
@@ -780,10 +852,14 @@ test("a system panel reads the system's own words — and one dropped chunk does
     "and the panel is a read, not a title and a shrug",
   ).toBeGreaterThan(1500);
 
-  // the index card and the members still stand: the body is added TO the panel, not instead of it
-  await expect(page.locator("[data-system-node]")).toHaveCount(
-    target.nodes.length,
+  // the index card and the members still stand: the body is added TO the panel, not instead of it.
+  // Members are one row per authored reference (families collapsed), so the claim is against the
+  // row plan — and against the LIT set, which is still every member.
+  const bodyPlan = rowPlan(target);
+  await expect(page.locator("[data-system-family]")).toHaveCount(
+    bodyPlan.fams.length,
   );
+  await expect(page.locator("[data-system-node]")).toHaveCount(bodyPlan.loose);
   expect(await litIds(page)).toEqual([...target.nodes].sort());
   expect(errors, "no page error across the journey").toEqual([]);
 });

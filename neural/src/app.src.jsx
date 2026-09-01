@@ -8589,13 +8589,27 @@ class Component extends DCLogic {
       head.innerHTML =
         '<span class="ng-system-kicker">In this system</span><b>' + proven + "/" + idxs.length + " recall-proven</b>";
       list.appendChild(head);
-      const roleFor = new Map();
-      for (const g of Array.isArray(s.glue) ? s.glue : []) {
-        for (const id of g.nodes || []) if (g.role && !roleFor.has(id)) roleFor.set(id, g.role);
-      }
-      for (const i of idxs) {
+      // ── ONE ROW PER AUTHORED REFERENCE ────────────────────────────────────────────────────
+      // A System is not exhaustive on anything. The owner's rule, verbatim: "systems aren't
+      // perfect perspectives. usually they cover some transitions, some positions, some
+      // submissions, they're not exhaustive by rule on anything... it doesn't need to cover the
+      // entire family of variants of a position." So MEMBERSHIP STAYS INCLUSIVE — every instance
+      // an authored ref resolves to is a member, and the graph lights all of them.
+      //
+      // What was actually wrong is MULTIPLICITY, and it belongs here, in the panel: one authored
+      // word ("Calf Slicer") became eleven near-identical rows, so a system read as if it were
+      // mostly calf slicers. A ref the emitter expanded from a family name carries `glue[].fam`;
+      // it renders as ONE row with its variant count and expands on click. Nothing is hidden from
+      // the graph, nothing is dropped, and the reader sees the system's shape instead of its
+      // combinatorics. (v1.151.0 tried to fix this by DELETING members and was reverted — it took
+      // `Inside Heel Hook` out of the Craig Jones Leg Lock System.)
+      const idxOf = new Map();
+      for (const i of idxs) idxOf.set(this.nodes[i].id, i);
+      const isProven = (i) => {
+        try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
+      };
+      const nodeRow = (i, role, inset) => {
         const n = this.nodes[i], sp = this.splitName(n.t);
-        const role = roleFor.get(n.id) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
@@ -8606,9 +8620,68 @@ class Component extends DCLogic {
         );
         row.setAttribute("data-system-node", n.id);
         if (role) row.setAttribute("data-system-role", "1");
+        if (inset) row.style.paddingLeft = "38px";
+        row.style.pointerEvents = "auto";
+        return row;
+      };
+      const glue = Array.isArray(s.glue) ? s.glue : [];
+      // FIRST REFERENCE WINS. A node can legitimately sit in two glue entries — a System listing
+      // both "Knee Slice Pass" and its synonym "Knee Cut Pass", or `Electric Chair` matching both
+      // a family and a direct ref — and the old code could not double-render because it iterated
+      // the deduped member set. Grouping by ref reintroduces that risk: measured 13 duplicate rows
+      // across 9 Systems without this guard. A row therefore belongs to the FIRST ref that claims
+      // it, and a family's count is the number of rows it actually owns.
+      const seen = new Set();
+      for (const g of glue) {
+        const kids = (g.nodes || [])
+          .map((id) => idxOf.get(id))
+          .filter((i) => i != null && !seen.has(i));
+        if (!kids.length) continue;
+        for (const i of kids) seen.add(i);
+        // a ref that named ONE node is that node's own row, exactly as before
+        if (!g.fam || kids.length < 2) {
+          for (const i of kids) list.appendChild(nodeRow(i, g.role || "", false));
+          continue;
+        }
+        const done = kids.filter(isProven).length;
+        const head0 = this.nodes[kids[0]];
+        // Expand IN PLACE, creating the instance rows on demand: a collapsed family must not leave
+        // its members in the DOM, or "collapsed" would be a visual claim no spec could check.
+        const kidRows = [];
+        const toggle = () => {
+          if (kidRows.length) {
+            for (const r of kidRows.splice(0)) r.remove();
+            row.setAttribute("aria-expanded", "false");
+            return;
+          }
+          let after = row;
+          for (const i of kids) {
+            const r = nodeRow(i, "", true);
+            after.insertAdjacentElement("afterend", r);
+            kidRows.push(r);
+            after = r;
+          }
+          row.setAttribute("aria-expanded", "true");
+        };
+        // mk() with a handler builds a <button> with the same hover treatment as every other row —
+        // a div with a click listener would be mouse-only and would not match its siblings.
+        const row = mk(
+          this.nodeGlyph(head0.ty, this.hex(head0.col), 8) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + E(g.ref) +
+            '</span><span class="ng-system-variants">' + kids.length + " variants \u00b7 " + done +
+            " proven</span>" +
+            (g.role ? '<span class="ng-system-role">' + E(g.role) + "</span>" : "") + "</span>",
+          22,
+          toggle,
+        );
+        row.setAttribute("data-system-family", g.ref);
+        row.setAttribute("data-system-family-count", String(kids.length));
+        row.setAttribute("aria-expanded", "false");
         row.style.pointerEvents = "auto";
         list.appendChild(row);
       }
+      // anything no glue entry claimed (defensive: a member with no authored ref) still lists
+      for (const i of idxs) if (!seen.has(i)) list.appendChild(nodeRow(i, "", false));
       const drill = document.createElement("button");
       drill.type = "button";
       drill.className = "ng-system-drill";

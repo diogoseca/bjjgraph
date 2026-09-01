@@ -5604,6 +5604,10 @@ Verified by rendering all three states directly: 3 MC options, `data-mc-opt` and
 
 ## v1.151.0 — "IN THIS SYSTEM" MEANS FROM THE PLACES THE SYSTEM TEACHES
 
+> **REVERTED IN v1.161.0 — the rule below was wrong.** The owner rejected its premise:
+> systems are not exhaustive on positions, and the filter deleted real members. Read
+> v1.161.0 before acting on anything here.
+
 Owner's report, near verbatim: clicking a system shows "in this system" with one calf slicer
 *"being applied from every fucking place"*, omoplata *"from a lot of techniques too. It seems odd
 that if a submission is in the system, then we get all variants of it. Maybe it should be more
@@ -5874,3 +5878,70 @@ dossiers and their floor), `scripts/check_systems_payload.py` (check 10 + the co
 `neural/src/concepts.css` (`.ng-concept-body` → `.ng-doc-body`, + the metric indicator list),
 `e2e/journeys/systems-surface.spec.ts`, `e2e/journeys/concepts-surface.spec.ts`, `CLAUDE.md` (§5
 seam index), `docs/Neural.md`.
+
+---
+
+## v1.161.0 — ONE ROW PER AUTHORED REFERENCE (AND THE MEMBERSHIP RULE THAT WAS WRONG)
+
+**This supersedes v1.151.0 and reverts its rule.** The report both entries answer: clicking a
+system showed one calf slicer *"being applied from every fucking place"*, omoplata *"from a lot of
+techniques too. It seems odd that if a submission is in the system, then we get all variants of it.
+Maybe it should be more specific, or this system should be improved."*
+
+**The mechanism** (unchanged, and still correct): not `process_systems`, which resolves each ref to
+exactly ONE node. The expansion is `_node_indexes`' `variant`/`children` layers, which exist
+*because* a submission family hub is not a graph node — **0 of 297 families appear in
+globalGraphLayout.json** — so `Submissions/Calf-Slicer` cannot be lit and the emitter substitutes
+every real `from X` finish. **909 of 1,711 member nodes (53%) from 109 refs, all Submissions.**
+
+**THE WRONG TURN, RECORDED BECAUSE THE REASONING LOOKED SOUND.** v1.151.0 read "more specific" as a
+MEMBERSHIP problem and shipped *an instance belongs only if the system also teaches the position it
+is thrown from*. It measured beautifully — 1,711 → 952, median 32 → 19, and on the reported case it
+yielded exactly `Calf Slicer from Truck` + `from Twister Control`. The owner rejected the premise:
+*"i dont have that assumption. systems arent perfect prespectives. usually they cover some
+transitions, some positions, some submissions, they're not exhaustive by rule on anything... it
+doesnt need to cover the entire family of variants of a position."*
+
+The damage was already in the shipping commit's own output, filed under the euphemism "content
+gaps": **31 authored refs deleted entirely** — the **Craig Jones Leg Lock System lost `Inside Heel
+Hook` AND `Straight Ankle Lock`**, the Marcelo Garcia Guillotine System lost `Darce Choke` and
+`Anaconda Choke`, the Ryan Hall Triangle System lost `Triangle Choke Side`, the Twister System lost
+`Electric Chair`. **A leg-lock system with no heel hook is not a fix.** The generalisable error: a
+filter justified by treating one authored list (positions) as complete enough to adjudicate another
+(submissions), when the corpus promises no such thing. §6.6's family — a rule producing a complete,
+plausible, WRONG answer — and the gate written beside it went green on all 47 systems while they
+were being emptied, because it asserted the rule rather than the outcome.
+
+**THE ACTUAL FIX IS PRESENTATIONAL.** Membership is inclusive again (**1,711, unchanged**), and
+`MIN_MEMBER_NODES = 1600` is now also the tripwire on a repeat. What was wrong was MULTIPLICITY:
+one authored word became eleven near-identical rows, so a system *read* as mostly calf slicers.
+`renderSystemDetail` now draws **one row per authored reference** — a glue entry carrying `fam`
+collapses to a single row (`Calf Slicer · 11 variants · 2 proven`) and expands on click, creating
+instance rows on demand so "collapsed" is a DOM fact rather than a visual claim.
+
+**Corpus effect, membership untouched: 1,714 rows → 809 (53% fewer), median 32 → 18, max 114 → 28.**
+Submission Clinic 114 → 25 (Kimura's 31 variants become one row), the reported 10th Planet No-Gi
+Guard System 44 → 20, Craig Jones 38 → 19 **and it keeps its heel hooks**. Re-derived on the
+rebased tree — v1.155.3's cross-type rung lands 3 more members than the 1,711 first measured, and
+a figure from a tree that no longer exists is not a figure.
+
+**A bug the collapse introduced, caught before shipping.** Grouping by reference reintroduced a
+double-render the old code could not commit, because it iterated the deduped member set: measured
+**13 duplicate rows across 9 Systems** (the `Knee Slice Pass` / `Knee Cut Pass` synonym pair, and
+`Electric Chair` matching both a family and a direct ref). FIRST REFERENCE WINS, and the spec
+mirrors it.
+
+**Gated.** `check_systems_payload.py` check 9 stopped asserting anchoring and now asserts the panel
+contract: every member node is claimed by exactly one glue entry (an unclaimed node leaks a loose
+row), `fam` equals its node count, `FAM_REF_FLOOR = 90` (measured 133).
+**Payload mutants, 4/4 killed** — `fam` not emitted (floor fires) · `fam` off by one · a family glue
+entry dropped with members kept · **the reverted v1.151.0 filter re-introduced → "only 952 member
+nodes resolved, below the floor 1600"**. **Spec mutants, 4/4 killed** — collapse removed · collapse
+hides rows instead of removing them (the §6.1 `opacity:0` trap) · variant count off by one · dedupe
+removed, which went red in a *different* journey, the one whose target carries the `Electric Chair`
+double-claim. `systems-surface.spec.ts` 7/7, **curated 205/205 in 10.1m**, units 139/139.
+
+**The lesson worth keeping:** "maybe it should be more specific" was about what the LIST says, not
+what the system contains. When a report is ambiguous between "show me less" and "contain less", the
+reversible one is presentation — and here it was also the only one that did not require inventing a
+completeness assumption the data never made.

@@ -160,6 +160,18 @@
   font-size: 10px;
   line-height: 1.4;
 }
+/* The variant count on a collapsed family row ("Calf Slicer · 11 variants · 2 proven"). It is the
+   only thing telling the reader the row stands for a set, so it sits inline with the name rather
+   than under it, and it must never be the same colour as the name it qualifies. */
+.ng-system-variants {
+  margin-left: 7px;
+  color: #6b7691;
+  font-size: 11px;
+  white-space: nowrap;
+}
+[data-system-family][aria-expanded="true"] {
+  background: rgba(255, 255, 255, 0.045);
+}
 .ng-system-drill {
   width: calc(100% - 24px);
   margin: 10px 12px 4px;

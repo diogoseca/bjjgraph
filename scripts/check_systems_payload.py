@@ -22,8 +22,8 @@ Asserts:
   7. _meta counts agree with the arrays (catches a stale or hand-edited payload);
   8. product entries carry a real https URL, and no url contains "REPLACE_ME" once
      AFFILIATE_REF is set (while it is unset the placeholder is expected and only reported);
-  9. THE ANCHORING INVARIANT — every node a FAMILY-EXPANDED ref contributed is anchored: its
-     from-position is itself a position member of that system. See ANCHORING below;
+  9. THE PANEL CONTRACT — every member node is claimed by exactly one glue entry, and a
+     family-expanded ref carries `fam` == its node count. See PANEL CONTRACT below;
  10. THE READABLE BODY — every System (and every concept sharing that chunk space) has a dossier
      chunk at the address the app computes from its `key`, and that chunk carries authored prose.
      See BODIES below.
@@ -55,41 +55,35 @@ CHUNKS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "content"
 
 SUMMARY_CAP = 240  # contract cap; keep in sync with regenerate_neural_data.SUMMARY_CAP
 
-# ── ANCHORING ─────────────────────────────────────────────────────────────────────────────────
-# "In this system" means: the moves this system teaches, from the places this system teaches them.
+# ── PANEL CONTRACT ────────────────────────────────────────────────────────────────────────────
+# "In this system" lists ONE ROW PER AUTHORED REFERENCE, not one per graph node.
 #
 # A related_content ref naming a submission FAMILY ("Calf Slicer") has no node of its own — a
 # family hub is a flashcard aggregator, and 0 of 297 submission families appear in
-# globalGraphLayout.json. So the emitter expands the name to the family's real "from X" finishes.
-# Unfiltered, that expansion was 909 of 1711 member nodes (53%) across 109 refs: the 10th Planet
-# No-Gi Guard System lit ALL ELEVEN calf slicers — from 50-50, Carni, Honey Hole, Rodeo Ride,
-# Saddle … — when the two it actually teaches are from Truck and from Twister Control. The owner's
-# words: one calf slicer "being applied from every fucking place".
+# globalGraphLayout.json — so the emitter expands the name to the family's real "from X" finishes.
+# Across the 47 Systems that is 909 of 1711 member nodes from 109 refs, and unrendered it made one
+# authored word into eleven near-identical rows. The owner: one calf slicer "being applied from
+# every fucking place".
 #
-# THE RULE (regenerate_neural_data._anchor_family, the single implementation both the side panel
-# and the graph highlight read through): a family-expanded instance belongs to a system only if
-# the system also teaches the position it is thrown from. An EXPLICITLY authored instance
-# ("Kimura from Half Guard") is the author naming one exact node and is never filtered.
+# MEMBERSHIP IS NOT THE LEVER. A System is not exhaustive on anything — owner, verbatim: "systems
+# aren't perfect perspectives. usually they cover some transitions, some positions, some
+# submissions, they're not exhaustive by rule on anything... it doesn't need to cover the entire
+# family of variants of a position." v1.151.0 ignored that and filtered members down to the ones
+# whose from-position the System also authored; it deleted 759 of 1711 member nodes and removed 31
+# authored refs outright, including `Inside Heel Hook` from the Craig Jones Leg Lock System. It was
+# reverted in v1.152.0. Nothing here may filter membership again.
 #
-# This check is the ratchet on that rule. `fam` on a glue entry marks a ref the emitter expanded,
-# so the gate reads expansion from the payload rather than inferring it from a node count — a ref
-# that anchors down to one node is otherwise indistinguishable from an explicit ref.
-#
-# Measured 2026-08-31: family refs offered 952 candidate instances; anchoring ships 274 of them.
-# Recompute both numbers with:
-#   python3 -c "import json;S=json.load(open('source/quartz/static/neural/systems.json'))['systems'];\
-#   f=[g for s in S for g in s['glue'] if g.get('fam')];print(len(f),sum(len(s['unanchored']) for s in S))"
-FAM_REF_FLOOR = 70          # family-expanded refs the gate must actually SEE (measured 97).
+# The fix is presentational and lives in app.src.jsx renderSystemDetail: a glue entry carrying
+# `fam` renders as ONE row with its variant count, expanding on click. This gate protects the two
+# things that silently break it:
+#   * a member node no glue entry claims would render as a loose ungrouped row (the panel's
+#     defensive tail), so the collapse would leak rows nobody can explain;
+#   * `fam` disagreeing with the node count would print a wrong number on the row.
+FAM_REF_FLOOR = 90          # family-expanded refs the gate must actually SEE (measured 133).
                             # Zero here means the matcher matched nothing, which is not a pass.
-UNANCHORED_CEILING = 31     # refs naming a family whose every instance comes from a position the
-                            # system does not teach. Reported per system in `unanchored`, never
-                            # expanded and never silently dropped. Each one is a CONTENT gap:
-                            # lowering this means an author added the missing entry position.
-                            # Known today: Craig Jones "Inside Heel Hook" (the system teaches
-                            # Saddle, the finishes are authored from Honey Hole / Inside Sankaku /
-                            # Ushiro Ashi Garami — separate position nodes here, same position to
-                            # most readers), and Submission Clinic "Omoplata" (it teaches no guard
-                            # any omoplata is authored from).
+                            # Recompute: python3 -c "import json;S=json.load(open('source/quartz/\
+                            # static/neural/systems.json'))['systems'];print(sum(1 for s in S \
+                            # for g in s['glue'] if g.get('fam')))"
 
 # Measured 2026-08-09 (47 systems, 818 graph-typed related_content refs): every system resolves
 # at least one node, so this allow-list is EMPTY on purpose. An entry here means a System whose
@@ -101,15 +95,15 @@ KNOWN_EMPTY: frozenset[str] = frozenset()
 # Ratchet: fixing that content lowers this to 0; a resolution regression raises it and fails here.
 UNRESOLVED_CEILING = 3
 
-# Measured 2026-08-31: 952 member nodes across the 47 systems (was 1711 before the anchoring rule
-# above; median per system 32 -> 19, max 114 -> 57). Floor with headroom for ordinary content
+# Measured: 1711 member nodes across the 47 systems. Floor with headroom for ordinary content
 # edits — a big drop means resolution broke, not that authors deleted a third of the corpus.
-MIN_MEMBER_NODES = 880
+# It is ALSO the tripwire on the reverted v1.151.0 filter: any rule that narrows membership again
+# lands here first (that filter took this to 952).
+MIN_MEMBER_NODES = 1600
 
 REQUIRED = {
     "id": str, "key": str, "name": str, "url": str, "summary": str, "type": str,
-    "difficulty": str, "nodes": list, "unresolved": list, "products": list,
-    "unanchored": list,
+    "difficulty": str, "nodes": list, "unresolved": list, "products": list, "glue": list,
 }
 
 # ── BODIES ────────────────────────────────────────────────────────────────────────────────────
@@ -211,47 +205,38 @@ def check_bodies(entries: list[tuple[str, str, str]]) -> tuple[list[str], dict]:
     return errors, cov
 
 
-def check_anchoring(systems: list, nodes_by_id: dict) -> tuple[list[str], int, int]:
-    """Check 9 — every node a family-expanded ref contributed comes from a position the system
-    teaches. Returns (errors, family refs seen, unanchored refs), and the caller FAILS on a zero
-    coverage count: a rule that matched nothing must never read the same as a rule that held.
+def check_panel(systems: list, nodes_by_id: dict) -> tuple[list[str], int]:
+    """Check 9 — the panel contract. Returns (errors, family refs seen); the caller FAILS on a
+    zero coverage count, because a rule that matched nothing reads exactly like a rule that held.
     """
     errors: list[str] = []
-    fam_refs = unanchored = 0
+    fam_refs = 0
     for s in systems:
         sid = s.get("id", "<no id>")
         glue = s.get("glue")
         if not isinstance(glue, list):
-            errors.append(f"{sid}: `glue` missing or not a list — the anchoring rule is unreadable")
+            errors.append(f"{sid}: `glue` missing or not a list — the panel cannot group rows")
             continue
-        unanchored += len(s.get("unanchored") or [])
-        # the positions this system teaches; a family instance must come from one of them
-        taught = {
-            nodes_by_id[n]["posId"]
-            for n in s.get("nodes") or []
-            if n in nodes_by_id and nodes_by_id[n].get("posId")
-        }
+        claimed = set()
         for g in glue:
             if not isinstance(g, dict):
                 errors.append(f"{sid}: glue entry is not an object")
                 continue
             g_nodes = g.get("nodes") or []
-            # `fam` marks a ref the emitter expanded from a family name. Fall back to a >1 node
-            # count so this gate still goes RED against a payload built before `fam` existed.
-            if not (g.get("fam") or len(g_nodes) > 1):
+            claimed.update(g_nodes)
+            if not g.get("fam"):
                 continue
             fam_refs += 1
-            stray = [
-                n for n in g_nodes
-                if n in nodes_by_id and (nodes_by_id[n].get("fromPositionId") or "") not in taught
-            ]
-            if stray:
+            if g["fam"] != len(g_nodes):
                 errors.append(
-                    f"{sid}: family ref {g.get('ref')!r} contributed {len(stray)} of {len(g_nodes)} "
-                    f"node(s) from positions this system does not teach — "
-                    f"{[n.split('/', 1)[1] for n in stray[:4]]}"
-                    + (" …" if len(stray) > 4 else ""))
-    return errors, fam_refs, unanchored
+                    f"{sid}: family ref {g.get('ref')!r} says fam={g['fam']} but carries "
+                    f"{len(g_nodes)} node(s) — the collapsed row would print the wrong count")
+        loose = [n for n in (s.get("nodes") or []) if n not in claimed]
+        if loose:
+            errors.append(
+                f"{sid}: {len(loose)} member node(s) claimed by no glue entry — they would render "
+                f"as loose ungrouped rows: {loose[:4]}")
+    return errors, fam_refs
 
 
 def check(payload: dict, node_ids: set[str], expected_ids: set[str]) -> list[str]:
@@ -344,21 +329,14 @@ def main() -> None:
     expected_ids = {f"Systems/{quartz_slug(p.stem)}" for p in SYSTEMS_DIR.glob("*.json")}
     errors = check(payload, node_ids, expected_ids)
 
-    anchor_errors, fam_refs, unanchored = check_anchoring(
-        payload.get("systems") or [], nodes_by_id)
-    errors.extend(anchor_errors)
+    panel_errors, fam_refs = check_panel(payload.get("systems") or [], nodes_by_id)
+    errors.extend(panel_errors)
     if fam_refs < FAM_REF_FLOOR:
         errors.append(
-            f"the anchoring rule saw only {fam_refs} family-expanded ref(s), below the floor "
+            f"the panel contract saw only {fam_refs} family-expanded ref(s), below the floor "
             f"{FAM_REF_FLOOR} — check 9 matched (almost) nothing, which reads exactly like a pass "
-            f"and is not one. Either `glue[].fam` stopped being emitted or membership resolution "
-            f"regressed")
-    if unanchored > UNANCHORED_CEILING:
-        errors.append(
-            f"{unanchored} family ref(s) anchor no instance at all, above the measured ceiling "
-            f"{UNANCHORED_CEILING} — a System names a submission family but teaches none of the "
-            f"positions it is thrown from. Fix the content (add the entry position to that "
-            f"System's related_content), do not raise this ceiling to hide it")
+            f"and is not one. `glue[].fam` is what collapses eleven calf slicers into one row; "
+            f"without it the panel silently goes back to one row per node")
 
     # ── check 10: the readable bodies, for BOTH libraries that share the chunk space ──
     # concepts.json is emitted by the same script in the same run, so its absence is a broken
@@ -434,10 +412,9 @@ def main() -> None:
           f"(all present in graph-data.json), {unres}/{UNRESOLVED_CEILING} unresolved refs, "
           f"{prods} product(s) across {sum(1 for s in systems if s['products'])} system(s), "
           f"{meta.get('nonGraphRefs', '?')} non-graph cross-refs skipped")
-    print(f"[check_systems_payload] anchoring OK — {fam_refs} family-expanded ref(s) checked "
-          f"(floor {FAM_REF_FLOOR}), every contributed node thrown from a position its System "
-          f"teaches; {unanchored}/{UNANCHORED_CEILING} ref(s) anchor nothing and are reported, "
-          f"not expanded")
+    print(f"[check_systems_payload] panel OK — {fam_refs} family-expanded ref(s) checked "
+          f"(floor {FAM_REF_FLOOR}), each collapsing to one row with a matching variant count; "
+          f"every member node is claimed by a glue entry")
     if cmeta:
         print(f"[check_systems_payload] concepts OK — {clit} lit nodes (floor "
               f"{CONCEPT_NODES_FLOOR}), {cunres}/{CONCEPT_UNRESOLVED_CEILING} unresolved, "
