@@ -391,13 +391,13 @@
         "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 25
+          "nogi": 24
         }
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 21,
+          "gi": 20,
           "nogi": 7
         }
       },
@@ -405,7 +405,7 @@
         "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 16
+          "nogi": 15
         }
       },
       {
@@ -425,7 +425,7 @@
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 16,
+          "gi": 15,
           "nogi": 8
         }
       },
@@ -433,7 +433,7 @@
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
@@ -460,8 +460,15 @@
       {
         "transition": "Kneebar from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 17,
+          "gi": 16,
           "nogi": 6
+        }
+      },
+      {
+        "transition": "Achilles Lock from Inside Ashi-Garami",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

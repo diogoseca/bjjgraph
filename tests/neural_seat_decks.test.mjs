@@ -83,15 +83,20 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 
 // ── 2: EACH MEMBER RESOLVES TO ITS OWN SEAT ─────────────────────────────────────────────────
 
-// 1326, not 1331: v1.154.2 collapsed five moves that were authored as BOTH a transition and a
+// 1328, not 1331: v1.154.2 collapsed five moves that were authored as BOTH a transition and a
 // submission — a type error under the owner's ruling that a move whose success edge reaches the
 // game-over sink IS a submission and may not also exist as a transition record. The five
-// transition twins were deleted whole (their ordinals retired, never reused). The number stays
-// HARD-CODED on purpose: it is a tripwire for silent corpus loss, so a drift here should be
-// explained in a commit, not absorbed by deriving it from the same source it is checking.
-test("all 1,326 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
+// transition twins were deleted whole (their ordinals retired, never reused), taking the count
+// to 1326. v1.156.0 then added TWO nodes and took it back to 1328: `Half Guard to Kimura Trap`,
+// which restores the success arrival into kimura-trap/bottom that the collapse removed (under a
+// non-colliding name, so it does NOT recreate a twin — its success edge reaches a position, not
+// the sink), and `Achilles Lock from Inside Ashi-Garami`, the first authored member of the only
+// family hub that had none. The number stays HARD-CODED on purpose: it is a tripwire for silent
+// corpus loss, so a drift here should be explained in a commit, not absorbed by deriving it from
+// the same source it is checking.
+test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1326, "the technique site count itself");
+  assert.equal(tech.length, 1328, "the technique site count itself");
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -100,7 +105,7 @@ test("all 1,326 technique sites: the rep keys |Attacker and the partner keys |De
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2652, "positive coverage: every technique seat was read");
+  assert.equal(checked, 2656, "positive coverage: every technique seat was read");
 });
 
 test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", () => {
@@ -170,6 +175,6 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
     }
   }
   assert.equal(states, 272, "every position seat deals a hand");   // positive coverage
-  assert.equal(options, 1326, "and the whole corpus of dealt options was read");
+  assert.equal(options, 1328, "and the whole corpus of dealt options was read");
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

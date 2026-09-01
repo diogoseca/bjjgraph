@@ -226,13 +226,13 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (14% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (10% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
@@ -244,7 +244,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to X-Guard/Attacker|Half Guard to X-Guard]]** (4% of attempts)
 
-- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (7% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (6% of attempts)
 
 - **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (6% of attempts)
 
@@ -263,6 +263,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (4% of attempts)
 
 - **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
+
+- **[[Transitions/Half Guard to Kimura Trap/Attacker|Half Guard to Kimura Trap]]** (5% of attempts)
 
 
 ### Common Mistakes

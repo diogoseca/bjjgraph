@@ -1,4 +1,15 @@
 {
- "worklist": [],
- "detail": {}
+ "worklist": [
+  "Half Guard to Kimura Trap|Defender"
+ ],
+ "detail": {
+  "Half Guard to Kimura Trap|Defender": {
+   "cards": 4,
+   "clippable": 4,
+   "viable": 4,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 1.0
+  }
+ }
 }

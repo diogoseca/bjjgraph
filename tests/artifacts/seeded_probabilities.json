@@ -1,0 +1,70 @@
+{
+ "note": "PROVENANCE LEDGER for probabilities introduced by agent authoring, pending owner ratification. This is a REVIEW QUEUE, not a gate: no script reads it and no CI step fails on it. It is written so that every number an agent put into the corpus can be found, sourced and ratified in one pass, rather than being indistinguishable from a calibrated one six months later. `decided_by` is the point of the file and follows the convention of occurrence_reviewed.json: it never says 'reviewed', it says WHO. `agent-draft` carries no more weight than the reasoning printed beside it. Ratify by setting decided_by to `owner_decision` (optionally adjusting the value first); delete a row once its value has been through the calibration pipeline and the value is no longer a draft. Attempt probability (occurrence%) has NO automated seeding path in this repo by design — calibrate_probabilities.py routes occurrence% and outcome_dist to a human-gated proposal file because, unlike success%, they have no self-correcting community-vote loop. Every attempt row below is therefore a seed awaiting elicitation, not an estimate.",
+ "source": "v1.156.0 — content/missing-nodes-kimura",
+ "schema": {
+  "value": "the number as authored",
+  "basis": "where the number came from — an existing corpus number, a threshold, or (flagged) a judgement",
+  "invented": "true when no corpus number anchors it; these are the rows to calibrate first",
+  "decided_by": "agent-draft | owner_decision | calibrated"
+ },
+ "rows": {
+  "Achilles Lock from Inside Ashi-Garami :: attempt_probability @ Inside Ashi-Garami/Top": {
+   "value": {
+    "gi": 3,
+    "nogi": 3
+   },
+   "basis": "SEEDED AT THE FLOOR, NOT ESTIMATED. 3 is validate_graph_integrity.py THRESHOLDS['attempt_too_low'] — the lowest value that is not reported as `attempt_negligible`. Symmetric across rulesets because the Achilles Lock is IBJJF-legal at every belt in both gi and no-gi, unlike the heel hook sharing this seat (gi 0 / nogi 24). No corpus number anchors the MAGNITUDE: the three sibling finishes at this seat sit at gi 20 (Toe Hold), gi 16 (Kneebar) and gi 0 (Heel Hook), a range this seed does not attempt to interpolate.",
+   "invented": true,
+   "decided_by": "agent-draft",
+   "review_first": true,
+   "note": "THE ONE ROW THAT MOST NEEDS CALIBRATION. Everything else here is a reused corpus number."
+  },
+  "Half Guard to Kimura Trap :: attempt_probability @ Half Guard/Bottom": {
+   "value": {
+    "gi": 4,
+    "nogi": 5
+   },
+   "basis": "The attempt mass the name `Kimura from Half Guard` has carried at this exact seat continuously, before and after v1.155.0 — it is still there, unchanged, at gi 4 / nogi 5. Precise statement, because the distinction matters: that entry's mass was never re-homed by the collapse; what the collapse removed was the transition RECORD behind the name, which owned the success edge into Kimura Trap/Bottom (the submission that won the name's deck-key collision finishes to game-over instead). This new entry restores the ROUTE at the mass the route's own name has always carried, and does not touch the existing submission entry. Corroborating siblings at the same seat: Half Guard to Jailbreak 4/4, Half Guard to X-Guard 4/4, Half Guard to K-Guard 2/4, Half Guard to Old School 2/2.",
+   "invented": false,
+   "decided_by": "agent-draft"
+  },
+  "Half Guard to Kimura Trap :: success_rate + outcome vector": {
+   "value": {
+    "success_rate": {
+     "gi": 40,
+     "nogi": 40
+    },
+    "outcomes": {
+     "Kimura Trap/Bottom (success)": 40,
+     "Half Guard/Bottom (failure)": 40,
+     "Side Control/Bottom (counter)": 20
+    }
+   },
+   "basis": "The deleted twin's vector, VERBATIM — success 40 / failure 40 / counter 20 with success_rate 40, read from git at 920a60261^:content/Transitions/Kimura from Half Guard.json. Same origin seat, same success destination, same counter destination. Nothing averaged, nothing interpolated, no new number. regenerate:votes seeded the new display name from it at community 40.0 / vote_count 30, which is the house seed convention (PRIOR_VOTE_COUNT=30).",
+   "invented": false,
+   "decided_by": "agent-draft"
+  },
+  "Achilles Lock from Inside Ashi-Garami :: success_rate + outcome vector": {
+   "value": {
+    "success_rate": {
+     "gi": 58,
+     "nogi": 58
+    },
+    "outcomes": {
+     "game-over (success)": 58,
+     "Inside Ashi-Garami/Top (failure)": 27,
+     "Closed Guard/Bottom (counter)": 15
+    }
+   },
+   "basis": "58 was ALREADY in templates/votes.json at HEAD for this exact display name, at community 58.0 / vote_count 30 — a vote seed for a node that did not exist. It is also the Achilles Lock family hub's own authored success_rate. Authoring 58 therefore introduces no drift against either. The 58/27/15 split is `Straight Ankle Lock from Straight Ankle Lock Control` verbatim (the corpus's other straight-ankle-family finish, at the identical success rate). The two non-success TARGETS are the convention of all three sibling finishes at this seat — Heel Hook, Kneebar and Toe Hold from Inside Ashi-Garami all fail to Inside Ashi-Garami/Top and counter to Closed Guard/Bottom.",
+   "invented": false,
+   "decided_by": "agent-draft"
+  },
+  "RENORMALISATION :: 15 pre-existing entries, 1 point each": {
+   "value": "Half Guard/Bottom: 5 entries -1; Inside Ashi-Garami/Top: 6 entries -1 (per frame, see report)",
+   "basis": "Mechanical, not a judgement. Each frame must sum to 100, so the new entry's mass is absorbed by rescaling every pre-existing entry PROPORTIONALLY through scripts/_prob_norm.largest_remainder_round — the repo's single normalizer, which preserves each move's relative share exactly and puts the leftover units on the largest fractional parts. No move's rank or relative weight changed; the heel hook's structural gi 0 stayed 0. Every delta is exactly 1 percentage point.",
+   "invented": false,
+   "decided_by": "agent-draft"
+  }
+ }
+}

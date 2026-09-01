@@ -25458,6 +25458,18 @@
           "vote_count": 30
         }
       }
+    },
+    "Half Guard to Kimura Trap": {
+      "community": {
+        "gi": {
+          "success_rate": 40.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 40.0,
+          "vote_count": 30
+        }
+      }
     }
   }
 }

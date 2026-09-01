@@ -1321,9 +1321,13 @@ def main():
     # success-result inbound, so every "in-degree >= 1" formulation passed it green. Count the
     # SUCCESS arrivals specifically, or this class stays invisible.
     #
-    # Reporting-only on purpose: the one instance today is a deliberate, ratified consequence of
-    # the twin collapse, and the position is still reachable. Promote to an error once that is
-    # resolved — a fresh instance means somebody deleted a state's only way in.
+    # NOW AN ERROR on any NEW instance (v1.156.0), which is what the reporting-only version of this
+    # block asked for. It was reporting-only while `reviewed` held Kimura Trap/Bottom — a deliberate,
+    # ratified consequence of the twin collapse. That row was resolved by authoring
+    # `Half Guard to Kimura Trap`, `reviewed` is empty, and the 123 rows left in `known` are all the
+    # passive-seat class (the successful performer lands on the opposite seat, which the role-split
+    # derives). A NEW instance therefore means somebody deleted a state's only way in, and that is
+    # an error. Baselined rows stay silent; shrinking the list still always passes.
     _succ_in, _any_in = {}, {}
     for _path in list(TRANSITIONS_PATH.rglob("*.json")) + list(SUBMISSIONS_PATH.rglob("*.json")):
         _d = load_json(_path)
@@ -1348,6 +1352,15 @@ def main():
     if not _any_in:
         print("  success-reachability: 0 edges seen — the check looked at nothing, treat as broken")
     for _t in _new:
+        all_issues.append({
+            "type": "success_unreachable",
+            "severity": "error",
+            "name": _t,
+            "message": (f"{_t} has {_any_in[_t]} inbound edge(s), none a success. A player can only "
+                        f"arrive there by failing their own move. If a move was just deleted, it was "
+                        f"that position's last way in; re-author the entry under a non-colliding name "
+                        f"rather than restoring a twin (never restore the twin)."),
+        })
         print(f"    success-reachability: NEW — {_t!r} has {_any_in[_t]} inbound edge(s), none a "
               f"success. A player can only arrive there by failing their own move. If a move was "
               f"just deleted, it was that position's last way in; re-author the entry under a "
