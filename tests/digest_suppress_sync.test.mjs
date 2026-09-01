@@ -27,7 +27,8 @@
 // Run: node --test tests/digest_suppress_sync.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import worker, { runDigest, MAX_SENDS_PER_RUN, MANIFEST_MIN_DECKS, MANIFEST_URL } from "../workers/digest/index.js";
+import worker, { runDigest, MAX_SENDS_PER_RUN, SEND_FAILURES_STOP, MANIFEST_MIN_DECKS, MANIFEST_URL } from "../workers/digest/index.js";
+import { LOCK_AT } from "../workers/digest/suppress.js";
 import { onRequest } from "../functions/unsubscribe.js";
 import { byId } from "../workers/digest/fixtures.js";
 import { safeEqual } from "../workers/digest/safe-equal.js";
@@ -74,9 +75,11 @@ const manifestOf = (n = MANIFEST_MIN_DECKS + 200) => {
 };
 const REAL = new Set(Object.keys(manifestOf().decks));
 
-/** `key=eq.value` filters out of a PostgREST query string, applied to rows. */
-const eqFilters = (qs) => [...qs.matchAll(/(?:^|[?&])([A-Za-z_]+)=eq\.([^&]*)/g)].map((m) => [m[1], decodeURIComponent(m[2])]);
-const applyEq = (rows, qs) => eqFilters(qs).reduce((acc, [k, v]) => acc.filter((r) => String(r[k]) === v), rows);
+/** `key=eq.value` and `key=gt.value` filters out of a PostgREST query string, applied to rows
+ *  (`gt` compares timestamps — the one place the code uses it is `sent_at=gt.<iso>`). */
+const filtersOf = (qs) => [...qs.matchAll(/(?:^|[?&])([A-Za-z_]+)=(eq|gt)\.([^&]*)/g)].map((m) => [m[1], m[2], decodeURIComponent(m[3])]);
+const applyEq = (rows, qs) => filtersOf(qs).reduce((acc, [k, op, v]) =>
+  acc.filter((r) => op === "eq" ? String(r[k]) === v : Date.parse(r[k]) > Date.parse(v)), rows);
 
 /**
  * A PostgREST + Email double. Records every call so the assertions can read what the code
@@ -93,8 +96,9 @@ const applyEq = (rows, qs) => eqFilters(qs).reduce((acc, [k, v]) => acc.filter((
  *   · the public manifest, and the content-chunk miss;
  *   · `fail` — a set of table names whose GET answers 500, so a read can be made to fail.
  */
-function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(), fail = new Set(), odd = new Set(), maxRows = 1000, emailOf = null } = {}) {
+function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(), fail = new Set(), odd = new Set(), maxRows = 1000, emailOf = null, userOf = null, sendImpl = null, writeFault = null } = {}) {
   const calls = [];
+  const posts = {};   // POSTs per table so far — `writeFault(table, n, body)` can fail the nth
   const state = { rows: JSON.parse(JSON.stringify(rows)), suppress: [...suppress], sent: [...sent] };
   const mails = [];
   const json = (body, status = 200, headers = {}) =>
@@ -160,10 +164,14 @@ function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(),
       if (method === "GET") return json(applyEq(state.suppress, path));
       if (method === "POST") {
         const body = JSON.parse(init.body);
-        const row = { at: iso(Date.now()), ...body };
+        // PostgREST hands a timestamptz back in ITS spelling (`+00:00`, not `Z`), never the
+        // string that was written — so a reader that compares `at` as a string is wrong here
+        // exactly as it would be live
+        const pg = (t) => new Date(Date.parse(t)).toISOString().replace("Z", "+00:00");
+        const row = { ...body, at: pg(body.at || iso(Date.now())) };
         const i = state.suppress.findIndex((s) => s.user_id === body.user_id);
         if (i < 0) state.suppress.push(row);
-        else if (/merge-duplicates/.test(hdr(init, "prefer"))) state.suppress[i] = { ...state.suppress[i], ...body };
+        else if (/merge-duplicates/.test(hdr(init, "prefer"))) state.suppress[i] = { ...state.suppress[i], ...row };
         else return new Response("duplicate key", { status: 409 });
         return new Response(null, { status: 201 });
       }
@@ -175,11 +183,31 @@ function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(),
     }
     if (path.startsWith("/rest/v1/digest_sent")) {
       if (method === "GET") return json(applyEq(state.sent, path));
-      if (method === "POST") { state.sent.push(JSON.parse(init.body)); return new Response(null, { status: 201 }); }
+      if (method === "DELETE") { state.sent = applyEq(state.sent, path).length ? state.sent.filter((r) => !applyEq([r], path).length) : state.sent; return new Response(null, { status: 204 }); }
+      if (method === "POST") {
+        const body = JSON.parse(init.body);
+        posts.digest_sent = (posts.digest_sent || 0) + 1;
+        const faulted = writeFault && writeFault("digest_sent", posts.digest_sent, body);
+        if (faulted) return faulted;
+        // PostgREST's contract: a PK conflict is 409 unless `resolution=` says otherwise;
+        // ignore-duplicates inserts nothing on conflict; merge-duplicates replaces the row's
+        // fields; `return=representation` answers with the rows the statement actually
+        // touched (RETURNING), so an ignored duplicate answers `[]`.
+        const prefer = hdr(init, "prefer");
+        const i = state.sent.findIndex((r) => r.user_id === body.user_id && r.day === body.day);
+        let touched = [];
+        if (i < 0) { const row = { sent_at: iso(Date.now()), ...body }; state.sent.push(row); touched = [row]; }
+        else if (/resolution=merge-duplicates/.test(prefer)) { state.sent[i] = { ...state.sent[i], ...body }; touched = [state.sent[i]]; }
+        else if (!/resolution=ignore-duplicates/.test(prefer)) return new Response("duplicate key", { status: 409 });
+        return /return=representation/.test(prefer) ? json(touched, 201) : new Response(null, { status: 201 });
+      }
     }
     if (path.startsWith("/auth/v1/admin/users/")) {
       const id = path.slice("/auth/v1/admin/users/".length);
-      return json({ email: emailOf ? emailOf(id) : "player+" + id.replace(/-/g, "") + "@example.test" });
+      // what GoTrue's admin endpoint answers: the address, and the three fields the Worker
+      // reads as kill switches — a live, confirmed user by default
+      const user = { email: emailOf ? emailOf(id) : "player+" + id.replace(/-/g, "") + "@example.test", email_confirmed_at: iso(Date.now() - 30 * 864e5) };
+      return json(userOf ? { ...user, ...userOf(id) } : user);
     }
     throw new Error("unstubbed request: " + method + " " + u);
   };
@@ -188,7 +216,9 @@ function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(),
     SUPABASE_URL: SB,
     SUPABASE_SERVICE_ROLE_KEY: "service-role-test-key",
     UNSUB_HMAC_SECRET: SECRET,
-    EMAIL: { send: async (m) => { mails.push(m); return { messageId: "msg-" + mails.length }; } },
+    // `mails` is EVERY call to the binding — attempted, not delivered. The default delivers;
+    // `sendImpl(mail, n)` can answer {} (no messageId) or throw for the nth call.
+    EMAIL: { send: async (m) => { mails.push(m); return sendImpl ? sendImpl(m, mails.length) : { messageId: "msg-" + mails.length }; } },
   };
   return { env, calls, state, mails, fetchImpl };
 }
@@ -443,7 +473,7 @@ test("a legacy suppression (blob never turned off) keeps blocking — no deploy-
   assert.equal(h.state.suppress.length, 1, "the row must survive");
 });
 
-test("turning it back on in Settings after unsubscribing resumes, and clears the row", async () => {
+test("turning it back on in Settings after unsubscribing resumes — and the row SURVIVES the lift", async () => {
   const h = harness({
     rows: [{ user_id: USER, neural: blobFor(Date.now() - 36e5) }],   // re-opted-in an hour ago
     suppress: [{ user_id: USER, at: iso(Date.now() - 2 * 864e5) }],  // unsubscribed two days ago
@@ -451,7 +481,14 @@ test("turning it back on in Settings after unsubscribing resumes, and clears the
   const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
   assert.equal(h.mails.length, 1, "the page promises Settings can turn it back on");
   assert.equal(out.sent, 1);
-  assert.equal(h.state.suppress.length, 0, "a lifted suppression must not linger and re-block tomorrow");
+  // v1.164.3: until now a lift DELETED the row. The row is the only memory that a stop ever
+  // happened, and the second-stop lock below needs it — so a lift leaves it exactly as it was,
+  // and the stamp-newer-than-`at` rule simply keeps lifting it on every later run.
+  // kills: restore the DELETE on lift
+  assert.equal(h.state.suppress.length, 1, "a lifted row must survive — it is what makes a second stop final");
+  assert.ok(!h.calls.some((c) => c.method === "DELETE"), "nothing DELETEs a suppression row any more");
+  const again = await withFetch(h.fetchImpl, () => runDigest(h.env));
+  assert.deepEqual(again.skipped, { already_sent: 1 }, "tomorrow the surviving row does not re-block them");
 });
 
 test("a future-dated opt-in stamp is refused — a fast clock cannot re-subscribe anyone", async () => {
@@ -938,4 +975,349 @@ test("safeEqual: equal is equal, and every way of differing is not — including
   assert.equal(safeEqual("a\u0000", "a"), false, "a NUL suffix is not equal to nothing");
   assert.equal(safeEqual("a", "a\u0000"), false);
   assert.equal(safeEqual(undefined, "undefined"), true, "stringified, like `===` on a template — which is why the caller checks the key exists first");
+});
+
+// ── the red team's second pass (v1.164.3) ───────────────────────────────────────────────
+//
+// v1.164.2 made the blob unable to carry a payload. The red team then got through FOUR other
+// doors, each closed here by a test named after the bypass. Every claim drives the real
+// `runDigest` / `onRequest` against the double and reads what the binding was CALLED with —
+// `h.mails` is every call, delivered or not, because the bypasses were all about calls the
+// summary never counted.
+//
+//   1. THE CEILING WAS A COUNT OF RECORDED SENDS, NOT OF SENDS. `sent++` was the last statement
+//      after the dedupe POST, so a dedupe write that failed (500, 409, a 200 with "ok" for a
+//      body), a binding that answered {} or threw AFTER delivering — any of them — landed in
+//      the per-user catch as a `failures` entry the brake never read: 1,500 rows → 1,500
+//      mails, sent=0, no CEILING line, and the same 1,500 again tomorrow because no dedupe
+//      row ever landed. Now the dedupe row is a CLAIM written BEFORE the send (insert-if-
+//      absent, the inserted row read back and checked as ours and fresh); a claim that fails
+//      or cannot be verified STOPS THE RUN; `attempted` increments before `EMAIL.send` and is
+//      what the brake reads; SEND_FAILURES_STOP consecutive send failures stop the run; and a
+//      claimed day is never retried — a lost digest beats a repeated one.
+//   2. THE ROW OWNER COULD LIFT THE RECIPIENT'S STOP AT WILL. The lift rule (`settingsAt.
+//      emailDigest` newer than `digest_suppress.at`) trusted the blob's stamp, which under
+//      open signup the ATTACKER writes while the RECIPIENT is somebody else; and the lift
+//      DELETED the row, so every cycle looked like the first. Now the row survives a lift, and
+//      a second stop that follows a mail sent after the first stop is FINAL: the Function
+//      writes LOCK_AT (a timestamp no stamp can outrank), the Worker names it
+//      `suppressed_locked`, and only the owner's hand lifts it. One extra mail per address,
+//      ever, is the bound. A repeat click with no mail in between stays idempotent.
+//   3. THE OWNER'S KILL SWITCHES DID NOT STOP THE MAIL. compose() read only `user.email`, so
+//      a banned, soft-deleted or unconfirmed auth user was mailed. Now each is a skip by name.
+//   4. EMAIL_RE ADMITTED C1 CONTROLS, ZERO-WIDTH CHARACTERS AND RFC 5322 SPECIALS. It was a
+//      deny-list (`[^\s@\x00-\x1f\x7f]`); it is now an ASCII allow-list.
+//
+// Mutants (v1.164.3): 39 run against index.js, unsubscribe.js and suppress.js, 38 killed by
+// a named test (the table is in the commit that shipped it; each test below names what it
+// kills). THE ONE NON-KILL, so nobody reads it as covered: the claim's freshness window
+// (CLAIM_FRESH_MS) cannot be tripped by the double, whose `sent_at` is always now — it guards
+// a PostgREST that answered an OLD row on conflict, which the documentation does not describe
+// and this suite cannot exercise. Worth knowing: the Worker's explicit `isLocked` check only
+// NAMES the skip — a Worker that never heard of the lock is still blocked by its ordinary
+// rule, which is why the lock is a sentinel `at` and not a column.
+// Two tests here were NOT red-first — "the binding is checked BEFORE the claim" and "a repeat
+// click with NO mail in between is idempotent" pass on v1.164.2 too (no claim, no lock). They
+// exist to kill mutants of the new code (M12, M22), and say so.
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const manyRows = (n) => Array.from({ length: n }, (_, i) =>
+  ({ user_id: "00000000-0000-4000-8000-" + String(i).padStart(12, "0"), neural: blobFor(Date.now() - 864e5) }));
+const authReads = (h) => h.calls.filter((c) => c.url.includes("/auth/v1/admin/users/")).length;
+const quiet = async (fn) => {
+  const errors = [], real = console.error;
+  console.error = (...a) => errors.push(a.join(" "));
+  try { return { out: await fn(), errors }; } finally { console.error = real; }
+};
+
+test("bypass 1: a dedupe write that fails STOPS the run before any mail — 500, 409 and a 200 that is not a row set alike", async () => {
+  const faults = {
+    "500": () => new Response("boom", { status: 500 }),
+    "409": () => new Response("duplicate key", { status: 409 }),
+    "200 'ok'": () => new Response("ok", { status: 200 }),
+    "200 an object": () => new Response(JSON.stringify({ message: "not rows" }), { status: 200, headers: { "content-type": "application/json" } }),
+    "201 somebody else's row": (body) => new Response(JSON.stringify([{ ...body, user_id: "99999999-9999-4999-8999-999999999999", sent_at: iso(Date.now()) }]), { status: 201, headers: { "content-type": "application/json" } }),
+  };
+  for (const [label, fault] of Object.entries(faults)) {
+    const h = harness({ rows: manyRows(1500), writeFault: (table, n, body) => (table === "digest_sent" ? fault(body) : null) });
+    const { out, errors } = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+    // kills: send before the dedupe write; catch the claim error per user and continue;
+    // trust a claim body without parsing it; accept a claim row that is not ours
+    assert.equal(h.mails.length, 0, label + ": a mail the run cannot record must not be sent");
+    assert.equal(out.sent, 0, label);
+    assert.equal(authReads(h), 1, label + ": the run must STOP at the first failed claim, not evaluate 1,499 more");
+    assert.equal(out.deferred, 1499, label + ": the rows left are counted as deferred");
+    assert.ok(out.failures.some((f) => /STOPPED/.test(f) && /1499 rows left/.test(f)), label + ": " + JSON.stringify(out.failures));
+    assert.ok(errors.some((e) => /RUN STOPPED/.test(e)), label + ": the stop must be logged loudly, got " + JSON.stringify(errors));
+    // and tomorrow, with the same fault, still nothing — not 1,500 more
+    const again = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+    assert.equal(h.mails.length, 0, label + ": a second run under the same fault sent mail");
+    assert.equal(again.out.sent, 0);
+  }
+});
+
+test("bypass 1: a claim that fails on the third user stops the run at two mails — never 'every third user skipped'", async () => {
+  const h = harness({ rows: manyRows(600), writeFault: (table, n) => (table === "digest_sent" && n % 3 === 0 ? new Response("boom", { status: 500 }) : null) });
+  const { out } = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+  // kills: continue past a failed claim (299 mails)
+  assert.equal(h.mails.length, 2, "two users mailed, then the run stopped");
+  assert.equal(out.sent, 2);
+  assert.equal(out.deferred, 597);
+  assert.equal(h.state.sent.length, 2, "a claim per mail sent, and none after the stop");
+});
+
+test("bypass 1: the ceiling counts ATTEMPTS — a binding that answers {} for every second call still stops at 200 calls", async () => {
+  // every even call "delivers" without a messageId: the Worker cannot know whether it went,
+  // so it is attempted (the brake), claimed (never retried) and a failure (the summary)
+  const h = harness({ rows: manyRows(400), sendImpl: (m, n) => (n % 2 === 0 ? {} : { messageId: "msg-" + n }) });
+  const { out, errors } = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+  // kills: brake on `sent` instead of `attempted` (400 calls); count `attempted` after the send
+  assert.equal(h.mails.length, MAX_SENDS_PER_RUN, "the binding was called more times than the ceiling");
+  assert.equal(out.sent, MAX_SENDS_PER_RUN / 2, "only a returned messageId is a sent");
+  assert.equal(out.attempted, MAX_SENDS_PER_RUN, "the summary must carry the attempt count");
+  assert.equal(out.deferred, 200);
+  assert.equal(h.state.sent.length, MAX_SENDS_PER_RUN, "every attempt is claimed, delivered or not");
+  assert.ok(errors.some((e) => /CEILING/.test(e)));
+  assert.equal(out.failures.filter((f) => /no messageId/.test(f)).length, MAX_SENDS_PER_RUN / 2, "each unverified send is a named failure");
+});
+
+test("bypass 1: a binding that fails for everyone stops the run after SEND_FAILURES_STOP claims, and no claimed user is ever retried", async () => {
+  // a throw after delivery and a throw before it are the same from here: the Worker cannot
+  // tell them apart, so both are 'claimed, not retried'
+  const h = harness({ rows: manyRows(1500), sendImpl: () => { throw new Error("binding down"); } });
+  const { out, errors } = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+  // kills: drop the consecutive-failure stop (200 calls); reset the streak on a failure
+  assert.equal(SEND_FAILURES_STOP, 3, "the stop is a documented constant — change it in its own commit");
+  assert.equal(h.mails.length, SEND_FAILURES_STOP, "a dead binding must not burn 200 claims");
+  assert.equal(out.sent, 0);
+  assert.equal(out.attempted, SEND_FAILURES_STOP);
+  assert.equal(h.state.sent.length, SEND_FAILURES_STOP, "the claims stand: a mail that MAY have gone is never sent twice");
+  assert.ok(out.failures.some((f) => /STOPPED/.test(f) && /binding down/.test(f)), JSON.stringify(out.failures.slice(-2)));
+  assert.equal(out.deferred, 1500 - SEND_FAILURES_STOP);
+  assert.ok(errors.some((e) => /RUN STOPPED/.test(e)));
+  // tomorrow, same fault: the NEXT three users, never the same three
+  // kills: DELETE the claim when the send fails
+  await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+  assert.equal(h.mails.length, 2 * SEND_FAILURES_STOP);
+  assert.equal(new Set(h.mails.map((m) => m.to)).size, 2 * SEND_FAILURES_STOP, "a user was retried after a claimed send");
+});
+
+test("bypass 1: a claim somebody else holds is a skip by name, not a mail — and the run goes on", async () => {
+  // the read said 'not sent', the insert found the row already there: another writer (a
+  // concurrent trigger, a retried cron) claimed it in between. PostgREST answers `[]`.
+  const h = harness({ rows: manyRows(2), writeFault: (table, n) => (table === "digest_sent" && n === 1
+    ? new Response("[]", { status: 201, headers: { "content-type": "application/json" } }) : null) });
+  const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+  // kills: treat `[]` as a claim (2 mails); treat `[]` as a stop (0 mails)
+  assert.equal(h.mails.length, 1);
+  assert.equal(out.skipped.claimed_elsewhere, 1);
+  assert.equal(out.sent, 1);
+});
+
+test("bypass 1: the binding is checked BEFORE the claim — a missing binding burns no dedupe rows", async () => {
+  const h = harness({ rows: manyRows(5) });
+  delete h.env.EMAIL;
+  const { out } = await quiet(() => withFetch(h.fetchImpl, () => runDigest(h.env)));
+  // kills: claim before the binding check
+  assert.equal(h.state.sent.length, 0, "a claim was written for a mail that could never be sent");
+  assert.equal(out.sent, 0);
+  assert.ok(out.failures.length >= 1 && out.failures.every((f) => /EMAIL binding/.test(f) || /STOPPED/.test(f)), JSON.stringify(out.failures));
+});
+
+// ── bypass 2: the second stop is final ──────────────────────────────────────────────────
+
+/** The row owner's PATCH — anon key, owner-writable RLS — re-stamping the opt-in. */
+const restamp = async (h, ms = Date.now()) => {
+  const blob = h.state.rows[0].neural;
+  blob.settings = { ...blob.settings, emailDigest: true };
+  blob.settingsAt = { ...blob.settingsAt, emailDigest: ms };
+  await h.fetchImpl(SB + "/rest/v1/user_training_data?user_id=eq." + USER, { method: "PATCH", body: JSON.stringify({ neural: blob }) });
+};
+/** A fresh, older, already-past day for the blob — so the dedupe row from the last cycle's
+ *  mail is not what stops the next one (the red team's own move). */
+const freshDay = (h, i) => {
+  const day = iso(Date.parse(YESTERDAY) - i * 864e5).slice(0, 10);
+  const blob = h.state.rows[0].neural;
+  blob.days = { [day]: 4 };
+  blob.dayLog = { [day]: { s: 41.5, k: ["Mount|Top"], w: [3, "thin", "Guard|Bottom"] } };
+};
+
+test("bypass 2: five unsubscribe/re-stamp cycles mail the recipient ONCE — the second stop after a mail is final", async () => {
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }] });
+  let total = 0;
+  const outs = [];
+  for (let i = 0; i < 5; i++) {
+    freshDay(h, i);
+    const res = await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));
+    assert.equal(res.status, 200, "cycle " + i + ": the unsubscribe itself must always succeed");
+    await sleep(5);
+    await restamp(h);                       // the attacker's PATCH, newer than `at`, not in the future
+    await sleep(5);
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    outs.push(out);
+    total += out.sent;
+  }
+  // kills: DELETE the row on lift (every cycle is then the first); never write LOCK_AT in the
+  // Function; drop the `suppressed_locked` name in the Worker (still blocked, unnamed)
+  assert.equal(total, 1, "the row owner mailed the recipient " + total + " times across five cycles");
+  assert.equal(h.mails.length, 1);
+  assert.equal(outs[0].sent, 1, "the FIRST lift is honoured — Settings can still turn it back on once");
+  for (let i = 1; i < 5; i++) assert.deepEqual(outs[i].skipped, { suppressed_locked: 1 }, "cycle " + i + ": " + JSON.stringify(outs[i].skipped));
+  assert.equal(h.state.suppress.length, 1);
+  assert.equal(Date.parse(h.state.suppress[0].at), Date.parse(LOCK_AT), "the lock is the sentinel `at`, so even a Worker that never heard of it stays blocked");
+  assert.ok(!h.calls.some((c) => c.method === "DELETE"), "nothing may DELETE a suppression row");
+});
+
+test("bypass 2: the pre-stamped variant — a stamp written ahead of the stop, valid by run time — is bounded the same way", async () => {
+  // the attacker stamps FIRST (a moment from now), the victim stops, the clock passes the
+  // stamp before the cron. The stamp is newer than `at` and not in the future at run time.
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }] });
+  let total = 0;
+  for (let i = 0; i < 3; i++) {
+    freshDay(h, i);
+    await restamp(h, Date.now() + 40);      // ahead of the stop that follows
+    await sleep(5);
+    await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));
+    // the Function's own blob write stamps `now`, which would be OLDER than the stop; the
+    // attacker re-asserts the pre-stamp (a race they can always win, so assume they do)
+    await restamp(h, Date.now() + 40);
+    await sleep(60);                        // the clock passes the stamp
+    total += (await withFetch(h.fetchImpl, () => runDigest(h.env))).sent;
+  }
+  assert.equal(total, 1, "pre-stamping is the same one extra mail, then the lock");
+});
+
+test("bypass 2: a repeat click with NO mail in between is idempotent — a double-submit never locks anyone out", async () => {
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }] });
+  const first = await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));
+  await sleep(5);
+  const second = await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));   // a refresh of the done page
+  assert.equal(first.status, 200); assert.equal(second.status, 200);
+  assert.notEqual(Date.parse(h.state.suppress[0].at), Date.parse(LOCK_AT), "no mail was sent after the first stop, so the second click is the same stop");
+  assert.ok(!/for good/i.test(await second.text()), "the page must not announce a lock that did not happen");
+  // and Settings can still turn it back on — the FIRST lift is the user's to make
+  await sleep(5);
+  await restamp(h);
+  await sleep(5);
+  const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+  // kills: lock on any second click
+  assert.equal(out.sent, 1, "a double-submit locked the user out of their own re-opt-in");
+});
+
+test("bypass 2: the locked page says so, and the lock is idempotent", async () => {
+  const h = harness({
+    rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }],
+    suppress: [{ user_id: USER, at: iso(Date.now() - 2 * 864e5) }],
+    sent: [{ user_id: USER, day: YESTERDAY, sent_at: iso(Date.now() - 864e5) }],   // a mail went AFTER the stop
+  });
+  const res = await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));
+  assert.equal(res.status, 200);
+  const html = await res.text();
+  // kills: reuse the ordinary done page (it promises Settings, which is now a lie)
+  assert.match(html, /for good/i, "the page must tell the recipient this stop is final");
+  assert.ok(!/Settings/.test(html), "the locked page must not promise Settings can turn it back on");
+  assert.match(html, /coach@bjjgraph\.org/, "and must say who can");
+  assert.equal(Date.parse(h.state.suppress[0].at), Date.parse(LOCK_AT));
+  assert.equal(h.state.rows[0].neural.settings.emailDigest, false, "the blob half still runs on a lock");
+  const again = await withFetch(h.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: h.env }));
+  assert.equal(again.status, 200);
+  assert.equal(Date.parse(h.state.suppress[0].at), Date.parse(LOCK_AT), "locking twice is still locked");
+  assert.equal(h.state.suppress.length, 1);
+});
+
+test("bypass 2: a lift-check the Function cannot make is a lock (fail closed); a first stop it cannot check is still a stop", async () => {
+  // the digest_sent read fails: the user already has a row, so the doubt costs them only the
+  // Settings re-opt-in the owner has already agreed to trade away
+  const locked = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], suppress: [{ user_id: USER, at: iso(Date.now() - 864e5) }], fail: new Set(["digest_sent"]) });
+  const r1 = await withFetch(locked.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: locked.env }));
+  assert.equal(r1.status, 200);
+  // kills: skip the lock when the lift-check read fails
+  assert.equal(Date.parse(locked.state.suppress[0].at), Date.parse(LOCK_AT), "a lift the Function cannot rule out is a lift");
+  // the suppress read fails: no row is known, so this is written as a first stop — the stop is
+  // the authoritative act and must never fail because a lookup did
+  const plain = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], fail: new Set(["digest_suppress"]) });
+  const r2 = await withFetch(plain.fetchImpl, async () => onRequest({ request: await unsubRequest(USER), env: plain.env }));
+  assert.equal(r2.status, 200);
+  assert.equal(plain.state.suppress.length, 1, "the stop must still be written");
+  assert.notEqual(Date.parse(plain.state.suppress[0].at), Date.parse(LOCK_AT), "a first-time unsubscriber is not locked by a lookup failure");
+});
+
+test("bypass 2: an `at` the Worker cannot parse is a failure, never a lift", async () => {
+  for (const at of ["not a timestamp", null, 1725148800000, ""]) {
+    const h = harness({
+      rows: [{ user_id: USER, neural: blobFor(Date.now() - 36e5) }],
+      suppress: [{ user_id: USER, at }],
+    });
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    // kills: `Date.parse(at) || 0` (a garbage `at` read as the epoch, which every stamp
+    // outranks); `atMs` reading a non-string as 0
+    assert.equal(h.mails.length, 0, JSON.stringify(at) + ": an unreadable stop was read as 'lifted'");
+    assert.equal(out.failures.length, 1, JSON.stringify(at));
+    assert.match(out.failures[0], /digest_suppress/);
+  }
+});
+
+// ── bypass 3: the owner's kill switches ──────────────────────────────────────────────────
+
+test("bypass 3: a banned, soft-deleted or unconfirmed auth user is a skip by name; an expired ban is not", async () => {
+  const cases = {
+    banned: { banned_until: "2099-01-01T00:00:00Z" },
+    deleted: { deleted_at: "2026-01-01T00:00:00Z" },
+    unconfirmed: { email_confirmed_at: null },
+  };
+  for (const [reason, patch] of Object.entries(cases)) {
+    const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], userOf: () => patch });
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    // kills: drop the deleted_at check; drop the banned_until check; drop the email_confirmed_at check
+    assert.equal(h.mails.length, 0, reason + ": the owner's kill switch did not stop the mail");
+    assert.deepEqual(out.skipped, { [reason]: 1 }, reason);
+  }
+  // fail closed on a ban the Worker cannot read, and on a user object with no confirmation field at all
+  for (const [label, patch, reason] of [
+    ["unparseable ban", { banned_until: "soon" }, "banned"],
+    ["confirmation field absent", { email_confirmed_at: undefined }, "unconfirmed"],
+    ["confirmation unparseable", { email_confirmed_at: "yes" }, "unconfirmed"],
+  ]) {
+    const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], userOf: () => patch });
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    // kills: `Date.parse(banned_until) > Date.now()` (NaN is not greater, so an unreadable ban lets the mail through)
+    assert.equal(h.mails.length, 0, label);
+    assert.deepEqual(out.skipped, { [reason]: 1 }, label);
+  }
+  // an expired ban is a lifted ban — GoTrue's own reading
+  const expired = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], userOf: () => ({ banned_until: iso(Date.now() - 864e5) }) });
+  const out = await withFetch(expired.fetchImpl, () => runDigest(expired.env));
+  assert.equal(expired.mails.length, 1, "an expired ban must not block");
+  assert.equal(out.sent, 1);
+});
+
+// ── bypass 4: the address allow-list ─────────────────────────────────────────────────────
+
+test("bypass 4: C1 controls, zero-width characters, RFC 5322 specials, quoted local parts and IP literals are refused; ordinary addresses pass", async () => {
+  // the red team's list verbatim (control characters as escapes so the source stays readable)
+  const refused = [
+    ["U+0085 NEL", "a\u0085b@x.test"], ["U+200B", "a@x.test\u200b"], ["angle-wrapped", "<a@x.test>"], ["trailing >", "a@x.test>"],
+    ["leading <", "<a@x.test"], ["comma", "a,b@x.test"], ["semicolon", "a@x.test;"], ["quoted local part", "\"Bcc:z\"@x.test"],
+    ["display name", "Victim<a@x.test>"], ["header-shaped", "Bcc:a@x.test"], ["scheme", "mailto:a@x.test"], ["backslash", "a\\@x.test"],
+    ["IP literal", "a@[1.2.3.4]"], ["U+00AD soft hyphen", "a\u00adb@x.test"], ["non-ASCII local", "josé@x.test"], ["leading dot", ".a@x.test"],
+    ["double dot", "a..b@x.test"], ["no TLD", "a@x"], ["numeric TLD", "a@x.123"], ["label starts with -", "a@-x.test"], ["parenthesised comment", "a(b)@x.test"],
+    ["percent", "a%b@x.test"], ["pipe", "a|b@x.test"], ["backtick", "a`b@x.test"],
+    ["65-char local part", "a".repeat(65) + "@x.test"], ["255 chars", "a".repeat(60) + "@" + ("b".repeat(63) + ".").repeat(3) + "test"],
+    ["64-char label", "a@" + "b".repeat(64) + ".test"],
+  ];
+  for (const [label, email] of refused) {
+    const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], emailOf: () => email });
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    // kills: restore the deny-list EMAIL_RE (`[^\s@\x00-\x1f\x7f]`)
+    assert.equal(h.mails.length, 0, label + ": " + JSON.stringify(email) + " reached the binding");
+    assert.deepEqual(out.skipped, { no_email: 1 }, label);
+  }
+  const accepted = ["first.last+tag@sub.example.co.uk", "a_b-c@x.io", "A1@X.TEST", "x@x.museum", "a.b.c@a-b.c-d.org"];
+  for (const email of accepted) {
+    const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], emailOf: () => email });
+    const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+    assert.equal(h.mails.length, 1, JSON.stringify(email) + " is an ordinary address and must pass");
+    assert.equal(h.mails[0].to, email);
+    assert.equal(out.sent, 1);
+  }
 });

@@ -35,11 +35,22 @@
  * asks. What no confirm page can guard: a sandbox that renders the page and presses its button
  * — stopping that needs a second click or a challenge, which the ruling forbids.
  *
+ * THE SECOND STOP IS FINAL (v1.164.3; the argument is in workers/digest/suppress.js). The
+ * Worker lifts a stop when the blob's stamp is newer than the row's `at`, and the blob is the
+ * ROW OWNER's to write — who, under open signup, need not be the recipient. So a stop that
+ * follows a mail sent AFTER an earlier stop (a `digest_sent` row later than the row's `at`)
+ * is written as LOCK_AT, an `at` no stamp can outrank, and the page says so instead of
+ * promising Settings. A repeat click with no mail in between is the same stop, refreshed.
+ * The two lookups fail CLOSED in the direction that never sends mail: an existing row the
+ * Function cannot check is locked; a row it cannot even find is written as a first stop —
+ * the stop is the authoritative act and must never fail because a lookup did.
+ *
  * Secrets come from the Pages project's environment variables (Settings > Environment
  * variables): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, UNSUB_HMAC_SECRET — same values as the
  * Worker's. Pinned by tests/digest_suppress_sync.test.mjs ("the method half").
  */
 import { safeEqual } from "../workers/digest/safe-equal.js";
+import { LOCK_AT, atMs, isLocked } from "../workers/digest/suppress.js";
 
 // The 6 site-wide security headers, BYTE-IDENTICAL to `_headers` /* and to the /l/ Function —
 // a Pages Function response never inherits `_headers`, and check_headers_cache derives this
@@ -102,6 +113,40 @@ export async function onRequest({ request, env }) {
   if (method !== "POST") return new Response("Method not allowed.", { status: 405, headers: { Allow: "GET, HEAD, POST", ...SHARE_STATIC_HEADERS } });
   if (!(await intentOf(request))) return confirmPage(url);
 
+  // ── first stop, or final stop? (v1.164.3) ────────────────────────────────────────────────
+  // A row that already exists means the recipient has said stop before. If a mail went out
+  // AFTER that stop, something lifted it — Settings, or the row owner's PATCH — and the
+  // recipient is now saying stop AGAIN: that is final. Two reads, each failing closed the way
+  // the header describes.
+  const sbGet = async (path) => {
+    const r = await fetch(env.SUPABASE_URL + path, { headers: { apikey: env.SUPABASE_SERVICE_ROLE_KEY, Authorization: "Bearer " + env.SUPABASE_SERVICE_ROLE_KEY } });
+    if (!r.ok) throw new Error(path.split("?")[0] + " -> " + r.status);
+    const rows = await r.json();
+    if (!Array.isArray(rows)) throw new Error(path.split("?")[0] + " -> not a row set");
+    return rows;
+  };
+  let existing = null;
+  try {
+    existing = (await sbGet("/rest/v1/digest_suppress?select=at&user_id=eq." + encodeURIComponent(u)))[0] || null;
+  } catch (e) {
+    console.log("[unsubscribe] existing stop unreadable for " + u + ", writing a first stop: " + (e && e.message));
+  }
+  let lock = false;
+  if (existing) {
+    const at = atMs(existing);
+    if (isLocked(existing) || !Number.isFinite(at)) lock = true;   // already final, or an `at` nobody can read
+    else {
+      try {
+        const mailedSince = await sbGet("/rest/v1/digest_sent?select=day&user_id=eq." + encodeURIComponent(u) +
+          "&sent_at=gt." + encodeURIComponent(new Date(at).toISOString()) + "&limit=1");
+        lock = mailedSince.length > 0;
+      } catch (e) {
+        lock = true;   // a lift the Function cannot rule out is a lift
+        console.log("[unsubscribe] lift check failed for " + u + ", locking: " + (e && e.message));
+      }
+    }
+  }
+
   const r = await fetch(env.SUPABASE_URL + "/rest/v1/digest_suppress", {
     method: "POST",
     headers: {
@@ -117,7 +162,9 @@ export async function onRequest({ request, env }) {
     // write below is best-effort. A user who unsubscribed, turned it back on in Settings, and
     // unsubscribed again on a day the blob write failed was left with a stamp newer than a
     // stale `at` — and the next run mailed them. The second stop must be the one that counts.
-    body: JSON.stringify({ user_id: u, at: new Date().toISOString() }),
+    // LOCK_AT on a final stop (v1.164.3): the Worker's lift rule is false for it by
+    // construction, so even a Worker that never heard of the lock stays blocked.
+    body: JSON.stringify({ user_id: u, at: lock ? LOCK_AT : new Date().toISOString() }),
   });
   if (!r.ok && r.status !== 409) return new Response("Could not unsubscribe — try again later.", { status: 502, headers: SHARE_STATIC_HEADERS });
 
@@ -154,5 +201,7 @@ export async function onRequest({ request, env }) {
     console.log("[unsubscribe] blob not updated for " + u + ": " + (e && e.message));
   }
 
+  // the done page must not promise what the lock has just taken away
+  if (lock) return page("<h2>Unsubscribed for good.</h2><p>No more training-day emails. This was a second unsubscribe after a mail had already gone out, so it is final. If that was not what you wanted, write to coach@bjjgraph.org.</p>");
   return page("<h2>Unsubscribed.</h2><p>No more training-day emails. You can turn them back on any time in Settings.</p>");
 }

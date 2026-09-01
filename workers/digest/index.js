@@ -14,14 +14,19 @@
  *   2. For each: the latest `dayLog` day with allow-listed techniques that has NOT been mailed
  *      (digest_sent dedupes; the client writes LOCAL dates, so "today" needs no timezone math).
  *   3. Suppression check (one-click unsubscribe writes digest_suppress). Read PER USER, and a
- *      read that fails is a user that is not mailed — never an empty list.
- *   4. Compose: techniques · count · Game Knowledge % (+delta) · NEXT-BELT ETA at the recent
+ *      read that fails is a user that is not mailed — never an empty list. A LOCKED row
+ *      (suppress.js) is never lifted by anything in this Worker.
+ *   4. The auth user: the owner's kill switches (banned, deleted, unconfirmed) are skips by
+ *      name, and the address must pass an ASCII allow-list before it reaches a To: header.
+ *   5. Compose: techniques · count · Game Knowledge % (+delta) · NEXT-BELT ETA at the recent
  *      pace · streak · the weak-spots MAGAZINE section (top spot with an attributed clip when
  *      the public content chunk carries one; the second as "an extra").
- *   5. Send via Cloudflare Email (the EMAIL binding), at most MAX_SENDS_PER_RUN per run. If the
- *      binding is absent or rejects arbitrary recipients (Email Sending still rolling out),
- *      every send fails LOUDLY with a clear log line — never silently — and the runbook's
- *      fallback question goes to the owner.
+ *   6. CLAIM the (user, day) in digest_sent — BEFORE the send (v1.164.3) — then send via
+ *      Cloudflare Email (the EMAIL binding), at most MAX_SENDS_PER_RUN ATTEMPTS per run. A
+ *      claim that fails or cannot be verified STOPS THE RUN: mail this run cannot record is
+ *      mail this run does not send. A claimed day is never retried, delivered or not — a lost
+ *      digest beats a repeated one. SEND_FAILURES_STOP consecutive send failures stop the run.
+ *      If the binding is absent, the run stops before any claim, LOUDLY.
  *
  * THE BLOB IS HOSTILE INPUT (v1.164.2). `neural` is written by the row's owner with the public
  * anon key every browser ships, under an owner-writable RLS policy that checks no shape, and
@@ -34,6 +39,13 @@
  * strings are capped, and a row whose score is not a number is skipped by name. FAIL CLOSED
  * everywhere: what this run cannot verify, this run does not send — the cron retries tomorrow.
  *
+ * THE SECOND PASS (v1.164.3). With the blob unable to carry a payload, the red team went
+ * through four other doors, each closed here and pinned by a test named after it in
+ * tests/digest_suppress_sync.test.mjs: the per-run ceiling counted RECORDED sends (a dedupe
+ * write that failed after the send made 1,500 rows 1,500 mails, sent=0, every run); the row
+ * owner could lift the RECIPIENT's unsubscribe by re-stamping the blob (suppress.js); a
+ * banned, deleted or unconfirmed auth user was still mailed; and EMAIL_RE was a deny-list.
+ *
  * Secrets (wrangler secret put): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, UNSUB_HMAC_SECRET.
  * The service key lives ONLY here (Workers secrets) — never in the repo, never in the client.
  */
@@ -42,6 +54,7 @@ import {
   SITE, beltEta, streakOf, renderText, renderHtml, renderSubject,
 } from "./render.js";
 import { safeEqual } from "./safe-equal.js";
+import { atMs, isLocked } from "./suppress.js";
 
 // THE TWO ADDRESSES THE MAIL CARRIES, and they are deliberately the same mailbox.
 //   From:     who it is from, and where a reply goes when a client ignores Reply-To.
@@ -65,8 +78,37 @@ const REPLY_TO = "coach@bjjgraph.org";
  * logs it, records how many rows it left unevaluated in `failures`, and stops: those users are
  * still un-deduped, so tomorrow's run takes them first. It is a BRAKE, not a scheduler — if it
  * trips on an ordinary day, the owner raises it on purpose, in a commit that says why.
+ *
+ * IT COUNTS ATTEMPTS (v1.164.3). It used to read `sent`, which was incremented as the LAST
+ * statement after the dedupe write — so the one scenario its own first sentence names, "a
+ * bug that stops deduping", was the one where it did nothing: the send had already happened,
+ * the write threw, the per-user catch filed a failure the brake never read, and 1,500 rows
+ * were 1,500 mails with sent=0, and the same 1,500 again the next morning. `attempted` now
+ * increments immediately BEFORE `EMAIL.send`, and the brake reads that.
  */
 export const MAX_SENDS_PER_RUN = 200;
+
+/**
+ * CONSECUTIVE SEND FAILURES THAT STOP THE RUN. A send that throws or returns no messageId is a
+ * send the Worker cannot tell from a delivery (the binding may throw AFTER handing the mail
+ * off), so its day stays claimed and is never retried. Three in a row is a dead binding, a
+ * revoked quota or a broken payload, not three unlucky recipients — and every further attempt
+ * would burn one more user's digest for nothing. Three, not one: a single bad address must
+ * not be able to stop the whole base's mail every morning it trains.
+ */
+export const SEND_FAILURES_STOP = 3;
+
+/**
+ * HOW FRESH A CLAIM MUST BE. The dedupe row is inserted with `resolution=ignore-duplicates`
+ * and read back with `return=representation`: Postgres's RETURNING yields only the row this
+ * statement inserted, so a conflict answers `[]` and a claim is ours only if the body holds
+ * OUR (user_id, day) — and its `sent_at` is within this window of now. The window guards a
+ * server that answered an OLD row (a proxy's cached response, a PostgREST that behaved
+ * differently from its documentation): such a row is somebody else's send, and treating it as
+ * ours would mail twice. Ten minutes covers any clock skew between the Worker and the
+ * database many times over.
+ */
+export const CLAIM_FRESH_MS = 10 * 60 * 1000;
 
 /**
  * THE MANIFEST FLOOR. The public deck manifest lists every real deck (~2,900 as of v1.164.2:
@@ -86,10 +128,19 @@ export const MANIFEST_URL = SITE + "/static/neural/flashcards/_index.json";
 const CAP = { techniques: 40, weak: 4, keyLen: 120, count: 10000, streak: 3650, delta: 100 };
 const DAY_RE = /^\d{4}-\d{2}-\d{2}$/;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-// Conservative: one @, no whitespace or control characters, a dot in the domain, RFC length.
-// The auth admin API's own validation is upstream; this is the Worker refusing to put anything
-// it cannot vouch for into a `To:` header.
-const EMAIL_RE = /^[^\s@\x00-\x1f\x7f]{1,64}@[^\s@\x00-\x1f\x7f]+\.[^\s@\x00-\x1f\x7f]+$/;
+// AN ALLOW-LIST, NOT A DENY-LIST (v1.164.3). The previous form, `[^\s@\x00-\x1f\x7f]`,
+// refused C0 controls, DEL and JS `\s` — and admitted the C1 range (U+0085 NEL is a line
+// terminator to some parsers), zero-width and soft-hyphen characters, and every RFC 5322
+// special that a header parser reads as structure: `<>`, `,`, `;`, `"`, `\\`, `()`, `[]`, `:`.
+// What is admitted now: a dot-atom local part over [A-Za-z0-9_+-] (no leading, trailing or
+// double dots, at most 64 chars), an @, and a domain of alphanumeric labels (a hyphen inside
+// a label only, each ≤ 63 chars) ending in an alphabetic TLD. Refused on purpose, and visible
+// in the run summary as `no_email`: quoted local parts, IP literals, comments, the rarer atext
+// specials (`!#$%&'*/=?^\x60{|}~`), and any non-ASCII (an IDN or EAI address the Worker cannot
+// vouch for is a skip, not a guess). The auth admin API's own validation is upstream; this is
+// the Worker refusing to put anything it cannot vouch for into a `To:` header.
+const EMAIL_RE = /^[A-Za-z0-9_+-]+(?:\.[A-Za-z0-9_+-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)+[A-Za-z]{2,63}$/;
+const emailOk = (e) => typeof e === "string" && e.length <= 254 && e.indexOf("@") <= 64 && EMAIL_RE.test(e);
 const PAGE = 1000;               // PostgREST's default max-rows; one page is one request
 const DRY_RUN_SAMPLE = 5;        // the trigger's dry run returns this many rendered digests
 
@@ -167,6 +218,40 @@ async function sbAll(env, path) {
   }
   if (all.length !== total) throw new Error("supabase " + path.split("?")[0] + " -> " + all.length + " rows for a count of " + total);
   return all;
+}
+
+/** A throw that means "stop the run here": the loop records it, counts the rows left, and
+ *  breaks. Everything else thrown inside the loop is one user's failure. */
+class StopRun extends Error {
+  constructor(msg) { super(msg); this.stopRun = true; }
+}
+
+/**
+ * THE CLAIM (v1.164.3). Inserts the (user, day) dedupe row BEFORE the send and answers whether
+ * this call is the one that inserted it. True: ours, send. False: the row was already there —
+ * another writer (a concurrent trigger, a retried cron) claimed it between our read and our
+ * write, so this user is `claimed_elsewhere` and the run goes on. A throw: the write failed,
+ * or answered something this Worker cannot verify as its own insert (a non-JSON body, a
+ * non-array, a row that is not ours, a row not stamped within CLAIM_FRESH_MS) — and the
+ * caller turns that into a StopRun, because a run that cannot record a send must not send.
+ */
+async function claimDay(env, uid, day) {
+  const r = await sbRaw(env, "/rest/v1/digest_sent?select=user_id,day,sent_at", {
+    method: "POST",
+    headers: { Prefer: "resolution=ignore-duplicates, return=representation" },
+    body: JSON.stringify({ user_id: uid, day }),
+  });
+  const text = await r.text();
+  let rows;
+  try { rows = JSON.parse(text); } catch (e) { throw new Error("claim answered a non-JSON body " + JSON.stringify(text.slice(0, 40))); }
+  if (!Array.isArray(rows)) throw new Error("claim answered a non-row-set body");
+  if (rows.length === 0) return false;
+  const c = rows[0];
+  if (rows.length !== 1 || !c || c.user_id !== uid || c.day !== day) throw new Error("claim answered a row that is not ours");
+  const stamped = Date.parse(String(c.sent_at));
+  if (!(Number.isFinite(stamped) && Math.abs(Date.now() - stamped) <= CLAIM_FRESH_MS))
+    throw new Error("claim answered a row stamped " + JSON.stringify(c.sent_at) + " — not this run's insert");
+  return true;
 }
 
 /**
@@ -277,9 +362,7 @@ function byDay(obj, hit) {
 
 /**
  * ONE USER'S DIGEST, OR A NAMED REASON NOT TO SEND. Pure over the row and the run context —
- * no send, no write; the caller decides both. `lift` is the suppression this user has
- * legitimately turned back on (Settings after unsubscribing), which the caller DELETES only on
- * a live send — a dry run must leave the row exactly as it found it.
+ * no send, no write; the caller decides both.
  */
 async function compose(env, row, ctx) {
   const uid = row.user_id;
@@ -297,14 +380,24 @@ async function compose(env, row, ctx) {
   // rather than trusted (a fast device must not be able to re-subscribe its owner).
   // The row is read PER USER, here, and a failed read throws out of compose: this user is then
   // a `failures` entry, never a send (v1.164.2 — it used to `.catch(() => [])`).
+  //
+  // AND THE LOCK (v1.164.3, the whole argument in suppress.js). The stamp is the ROW OWNER's
+  // word, and under open signup the row owner is not necessarily the recipient — so the
+  // stamp may lift a stop ONCE, and a second stop that follows a mail is final. The Function
+  // writes it as a sentinel `at` that no stamp can outrank, so the rule below is false for it
+  // by construction; the explicit check is what NAMES it in the summary. The row is never
+  // DELETED on a lift any more: it is the memory that a stop happened, which the lock needs.
   const sup = await sbRows(env, "/rest/v1/digest_suppress?select=user_id,at&user_id=eq." + uid);
   ctx.suppressRowsSeen += sup.length;
-  let lift = null;
   if (sup.length) {
-    const at = Date.parse(sup[0].at) || 0;
+    if (isLocked(sup[0])) return { skip: "suppressed_locked" };
+    const at = atMs(sup[0]);
+    // `Date.parse(at) || 0` was the previous line: a garbage `at` read as the epoch, which
+    // every stamp outranks — an unreadable stop was a lift. Fail closed: a failure, by name.
+    if (!Number.isFinite(at)) throw new Error("digest_suppress.at unreadable: " + JSON.stringify(sup[0].at));
     const stamp = row.settingsAt && row.settingsAt.emailDigest;
     if (!(typeof stamp === "number" && stamp > at && stamp <= Date.now())) return { skip: "suppressed" };
-    lift = uid;   // lifted — the caller clears it on a live send, or tomorrow's run blocks them again
+    // lifted — the row stays exactly as it is, and lifts again tomorrow by the same rule
   }
 
   const dayLog = byDay(row.dayLog, hit);
@@ -333,10 +426,23 @@ async function compose(env, row, ctx) {
   ctx.sentRowsSeen += sentRows.length;
   if (sentRows.length) return { skip: "already_sent", capped };
 
-  // the address: auth admin API, service role only
+  // the auth user: admin API, service role only. THE OWNER'S KILL SWITCHES FIRST (v1.164.3):
+  // banning is the dashboard's one-click abuse response, and a banned, soft-deleted or
+  // unconfirmed account was still mailed because only `email` was ever read. Each is a skip
+  // by name; each fails CLOSED on a value it cannot read (a ban it cannot parse is a ban, a
+  // confirmation it cannot parse is none). An EXPIRED ban is a lifted ban — GoTrue's reading.
+  // `email_confirmed_at` is required, not merely checked: the day the owner turns
+  // mailer_autoconfirm off, an address that never confirmed must not be mailed.
   const user = await sb(env, "/auth/v1/admin/users/" + uid);
-  const email = user && user.email;
-  if (typeof email !== "string" || email.length > 254 || !EMAIL_RE.test(email)) return { skip: "no_email", capped };
+  if (!user || typeof user !== "object") return { skip: "no_email", capped };
+  if (user.deleted_at != null) return { skip: "deleted", capped };
+  if (user.banned_until != null) {
+    const until = Date.parse(String(user.banned_until));
+    if (!(Number.isFinite(until) && until <= Date.now())) return { skip: "banned", capped };
+  }
+  if (user.email_confirmed_at == null || !Number.isFinite(Date.parse(String(user.email_confirmed_at)))) return { skip: "unconfirmed", capped };
+  const email = user.email;
+  if (!emailOk(email)) return { skip: "no_email", capped };
 
   const prevDay = valid[valid.length - 2];
   const prevS = prevDay ? entries[prevDay].s : null;
@@ -359,17 +465,17 @@ async function compose(env, row, ctx) {
     clip: e.w[0] ? await clipFor(e.w[0]) : null,
     unsubUrl: SITE + "/unsubscribe?u=" + uid + "&t=" + (await hmacToken(env, uid)),
   };
-  return { digest, day, email, lift, capped };
+  return { digest, day, email, capped };
 }
 
 /**
  * Exported for `tests/digest_suppress_sync.test.mjs`, which drives it against a PostgREST
  * double. The Workers runtime only ever reaches it through the two handlers below.
  *
- *   opts.send  — true (the cron's default) sends and writes; false builds every digest, sends
- *                nothing, WRITES nothing (no dedupe row, no lifted suppression), and returns a
- *                sample. The cron never passes false; the trigger never passes true without a
- *                user (see `fetch`).
+ *   opts.send  — true (the cron's default) claims and sends; false builds every digest, sends
+ *                nothing, WRITES nothing (no claim, no row touched), and returns a sample. The
+ *                cron never passes false; the trigger never passes true without a user (see
+ *                `fetch`).
  *   opts.user  — a UUID scopes the rows query to one user; null is the whole base.
  *
  * Returns, and logs as ONE line, the run summary — every counter positive, every skip named,
@@ -400,15 +506,17 @@ export async function runDigest(env, opts = {}) {
   const failures = [];
   const sample = [];
   const sentUsers = new Set();
-  let sent = 0, capped = 0, wouldSend = 0, deferred = 0;
+  const skip = (why) => { skipped[why] = (skipped[why] || 0) + 1; };
+  let sent = 0, attempted = 0, capped = 0, wouldSend = 0, deferred = 0, sendFailStreak = 0;
 
   for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
-    // THE BRAKE. Rows past it are not evaluated at all (their suppress/sent/auth reads are the
-    // cost the brake exists to stop), so the count is rows LEFT, not sends deferred.
-    if (send && sent >= MAX_SENDS_PER_RUN) {
+    // THE BRAKE — on ATTEMPTS (see MAX_SENDS_PER_RUN). Rows past it are not evaluated at all
+    // (their suppress/sent/auth reads are the cost the brake exists to stop), so the count is
+    // rows LEFT, not sends deferred.
+    if (send && attempted >= MAX_SENDS_PER_RUN) {
       deferred = rows.length - i;
-      const msg = "ceiling: " + MAX_SENDS_PER_RUN + " sends reached, " + deferred + " rows left unevaluated for the next run";
+      const msg = "ceiling: " + MAX_SENDS_PER_RUN + " sends attempted, " + deferred + " rows left unevaluated for the next run";
       console.error("[digest] CEILING HIT — " + msg);
       failures.push(msg);
       break;
@@ -416,8 +524,8 @@ export async function runDigest(env, opts = {}) {
     try {
       const c = await compose(env, row, ctx);
       capped += c.capped || 0;
-      if (c.skip) { skipped[c.skip] = (skipped[c.skip] || 0) + 1; continue; }
-      const { digest, day, email, lift } = c;
+      if (c.skip) { skip(c.skip); continue; }
+      const { digest, day, email } = c;
       const mail = {
         to: email,
         from: FROM,
@@ -438,7 +546,7 @@ export async function runDigest(env, opts = {}) {
       }
       // ONE SEND PER USER PER RUN. The rows query is unique on user_id and the day dedupe holds
       // it anyway; this is the explicit form, so a future second row shape cannot double-mail.
-      if (sentUsers.has(row.user_id)) { skipped.duplicate_row = (skipped.duplicate_row || 0) + 1; continue; }
+      if (sentUsers.has(row.user_id)) { skip("duplicate_row"); continue; }
 
       // 5. send — the Email Service binding's options API (owner's dashboard snippet,
       // 2026-08-17; field list confirmed against Cloudflare's Workers API reference 2026-09-01:
@@ -458,35 +566,55 @@ export async function runDigest(env, opts = {}) {
       // — a prefetcher's, a gateway's, a scanner's — renders a confirm page and mutates nothing,
       // and a bare POST is treated the same. So the header's silent-POST hazard is closed at
       // the endpoint, and the suppression stays LIFTABLE from Settings (since v1.149.1).
+      // no binding, no run — checked BEFORE the claim, so a missing binding burns nobody's day
       if (!env.EMAIL || typeof env.EMAIL.send !== "function")
-        throw new Error("EMAIL binding missing — connect Email Service and copy the binding stanza from the dashboard's wrangler tab (see RUNBOOK.md)");
-      // the lifted suppression is cleared FIRST, and only on a live send: a mail that goes out
-      // while the row stays would be re-blocked tomorrow, and a dry run must not touch the row
-      if (lift) await sb(env, "/rest/v1/digest_suppress?user_id=eq." + lift, { method: "DELETE" });
-      const sent1 = await env.EMAIL.send(mail);
-      if (!sent1 || !sent1.messageId) throw new Error("send returned no messageId");
-      sentUsers.add(row.user_id);
+        throw new StopRun("EMAIL binding missing — connect Email Service and copy the binding stanza from the dashboard's wrangler tab (see RUNBOOK.md)");
 
-      await sb(env, "/rest/v1/digest_sent", {
-        method: "POST",
-        headers: { Prefer: "resolution=merge-duplicates" },
-        body: JSON.stringify({ user_id: row.user_id, day }),
-      });
+      // THE ORDER IS THE FIX (v1.164.3): claim, count, send. Until now it was send, record,
+      // count — and any throw between the send and the count was a mail the ceiling never
+      // saw and the dedupe never held (the red team's 1,500-row run: 1,500 mails, sent=0,
+      // 1,500 more the next morning). A claim that fails stops the run; a claim somebody
+      // else holds is a named skip; only a claim that is verifiably ours is followed by a send.
+      let claimed;
+      try { claimed = await claimDay(env, row.user_id, day); }
+      catch (e) { throw new StopRun("dedupe write failed for " + row.user_id + " — " + (e && e.message)); }
+      if (!claimed) { skip("claimed_elsewhere"); continue; }
+
+      attempted++;   // BEFORE the send: this is what the brake reads
+      let sent1 = null, sendErr = null;
+      try { sent1 = await env.EMAIL.send(mail); } catch (e) { sendErr = e; }
+      if (!sent1 || !sent1.messageId) {
+        // the day stays claimed: the binding may have delivered before it threw, and a lost
+        // digest is the cheap failure — a repeated one is the expensive one
+        const why = sendErr ? ((sendErr && sendErr.message) || String(sendErr)) : "send returned no messageId";
+        if (++sendFailStreak >= SEND_FAILURES_STOP)
+          throw new StopRun(SEND_FAILURES_STOP + " consecutive send failures, last: " + why + " (each day claimed, not retried)");
+        throw new Error("send failed, day claimed and not retried: " + why);
+      }
+      sendFailStreak = 0;
+      sentUsers.add(row.user_id);
       sent++;
     } catch (err) {
+      if (err && err.stopRun) {
+        deferred = rows.length - i - 1;
+        const msg = "STOPPED — " + err.message + "; " + deferred + " rows left unevaluated for the next run";
+        console.error("[digest] RUN STOPPED — " + err.message + "; " + deferred + " rows left");
+        failures.push(row.user_id + ": " + msg);
+        break;
+      }
       failures.push(row.user_id + ": " + (err && err.message));
     }
   }
   const result = {
     mode, rows: rows.length, manifest_decks: allow.size,
     suppress_rows_seen: ctx.suppressRowsSeen, sent_rows_seen: ctx.sentRowsSeen,
-    sent, capped, deferred, skipped, failures,
+    sent, attempted, capped, deferred, skipped, failures,
     ...(send ? {} : { would_send: wouldSend, sample }),
   };
   // the summary line — one per run, every counter present even when zero
   console.log("[digest] run mode=" + mode + " rows=" + rows.length + " manifest_decks=" + allow.size +
     " suppress_rows_seen=" + ctx.suppressRowsSeen + " sent_rows_seen=" + ctx.sentRowsSeen +
-    " sent=" + sent + (send ? "" : " would_send=" + wouldSend) + " capped=" + capped + " deferred=" + deferred +
+    " sent=" + sent + " attempted=" + attempted + (send ? "" : " would_send=" + wouldSend) + " capped=" + capped + " deferred=" + deferred +
     " skipped=" + JSON.stringify(skipped) + " failures=" + failures.length);
   return result;
 }
