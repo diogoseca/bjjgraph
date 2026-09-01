@@ -18,7 +18,14 @@ collapsed every {gi,nogi} map in the file to its no-gi cell, and the damage was
 invisible because the next `npm run migrate:ruleset` re-mirrored the survivor.
 Every probability the model returns is therefore a NO-GI verdict — `_prob_write`
 moves only the nogi cell, and a fork-preservation gate refuses the save on the first
-collapsed map. Gated by tests/proofread_fork_safety.test.mjs.
+collapsed map.
+
+Its LIST edits are bounded the same way: `_list_add` / `_list_remove` read minItems,
+maxItems and the declared item shape from the schema `scripts/validate_json.py` will
+judge the file against, because the unbounded versions produced files the bot's own
+validate step then reverted — 12 of 30 on the v1.154.1 re-run.
+
+Gated by tests/proofread_fork_safety.test.mjs.
 
 Usage:
     python3 scripts/proofread_all_transitions.py                            # all files
@@ -576,6 +583,75 @@ def _doc_is_forked(data: Any) -> bool:
     return False
 
 
+# ---------------------------------------------------------------------------
+# SCHEMA-BOUNDED LIST EDITS
+#
+# The audit's list edits are applied blind: it removes `from_positions` entries
+# until the list is shorter than the schema's minItems, and appends a bare string
+# to `related_submissions` even on a FAMILY hub, where the schema wants
+# {name, relationship} objects. Both produce a file the bot's own validate step
+# then REVERTS — measured on the v1.154.1 Submissions re-run, 12 of 30 files were
+# discarded that way (9 to the floor, 3 to the object form), the same 18/30
+# survival rate as the run before it. A ~70-minute xhigh pass throwing away 40%
+# of its own output is the failure this section exists to stop.
+#
+# The bounds are read from the SAME schema `scripts/validate_json.py` will judge
+# the file against — imported, never a second copy of the selection rules, which
+# is the two-places-one-answer trap (CLAUDE.md 6.5).
+# ---------------------------------------------------------------------------
+
+def schema_for(file_path: Path, category: str) -> Optional[dict]:
+    """The schema the validator will use for this file, or None if it cannot be resolved."""
+    try:
+        from validate_json import load_schema  # same seam the bot's validate step uses
+        return load_schema(category, str(file_path))
+    except BaseException as e:  # SystemExit included: load_schema exits on a missing template
+        print(f"  WARNING: no schema bounds for {file_path} ({e!r}) — list edits unbounded")
+        return None
+
+
+def _bounds(schema: Optional[dict], field: str) -> Tuple[int, Optional[int], Optional[str]]:
+    """``(minItems, maxItems, item type)`` for one array field. Permissive when unknown."""
+    if not schema:
+        return 0, None, None
+    prop = (schema.get("properties") or {}).get(field) or {}
+    return int(prop.get("minItems") or 0), prop.get("maxItems"), (prop.get("items") or {}).get("type")
+
+
+def _entry_name(entry: Any) -> Any:
+    """The name of a list entry, whether it is a bare string or a {name, ...} object."""
+    return entry.get("name") if isinstance(entry, dict) else entry
+
+
+def _list_add(items: List[Any], name: str, reason: str, schema: Optional[dict],
+              field: str, log: List[str], label: str) -> bool:
+    """Append ``name`` to a list field, in the SHAPE and within the BOUNDS its schema declares."""
+    lo, hi, item_type = _bounds(schema, field)
+    if any(_entry_name(e) == name for e in items):
+        return False
+    if hi is not None and len(items) >= hi:
+        print(f"    SKIP add {label} '{name}': {field} is at its schema ceiling ({hi})")
+        return False
+    items.append({"name": name, "relationship": reason} if item_type == "object" else name)
+    log.append(f"Added {label}: {name}: {reason}")
+    return True
+
+
+def _list_remove(items: List[Any], name: str, reason: str, schema: Optional[dict],
+                 field: str, log: List[str], label: str) -> bool:
+    """Remove ``name`` unless that would take the list below its schema floor."""
+    lo, _, _ = _bounds(schema, field)
+    idx = next((i for i, e in enumerate(items) if _entry_name(e) == name), None)
+    if idx is None:
+        return False
+    if len(items) <= lo:
+        print(f"    SKIP remove {label} '{name}': {field} is at its schema floor ({lo})")
+        return False
+    items.pop(idx)
+    log.append(f"Removed {label}: {name}: {reason}")
+    return True
+
+
 def _ruleset_cells(obj: Any, path: str = "") -> Dict[str, dict]:
     """Every {gi,nogi} map in a document, keyed by its structural path.
 
@@ -651,13 +727,16 @@ def apply_position_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
     return data, log
 
 
-def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
+def apply_transition_changes(data: dict, changes: dict,
+                             schema: Optional[dict] = None) -> Tuple[dict, List[str]]:
     """Apply transition audit changes and return modified data + change log.
 
     ``data`` is the RAW authored document ({gi,nogi} maps intact) — see process_file.
+    ``schema`` bounds the outcome list the same way it bounds a submission's lists.
     """
     log = []
     forked = _doc_is_forked(data)
+    out_lo, out_hi, _ = _bounds(schema, "outcomes")
 
     # from_position fix
     fp_fix = changes.get("from_position_fix")
@@ -671,15 +750,20 @@ def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
     # Removals
     for item in changes.get("outcomes_to_remove", []):
         to_val = item.get("to", "")
-        before = len(outcomes)
+        if not any(o.get("to") == to_val for o in outcomes):
+            continue
+        if len(outcomes) <= out_lo:
+            print(f"    SKIP remove outcome -> {to_val}: outcomes is at its schema floor ({out_lo})")
+            continue
         outcomes = [o for o in outcomes if o.get("to") != to_val]
-        if len(outcomes) < before:
-            log.append(f"Removed outcome -> {to_val}: {item.get('reason', '')}")
+        log.append(f"Removed outcome -> {to_val}: {item.get('reason', '')}")
 
     # Additions
     for item in changes.get("outcomes_to_add", []):
         to_val = item.get("to", "")
-        if not any(o.get("to") == to_val for o in outcomes):
+        if out_hi is not None and len(outcomes) >= out_hi:
+            print(f"    SKIP add outcome -> {to_val}: outcomes is at its schema ceiling ({out_hi})")
+        elif not any(o.get("to") == to_val for o in outcomes):
             outcomes.append({
                 "to": to_val,
                 "probability": _prob_new(forked, item.get("probability", 10)),
@@ -709,10 +793,13 @@ def apply_transition_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
     return data, log
 
 
-def apply_submission_changes(data: dict, changes: dict) -> Tuple[dict, List[str]]:
+def apply_submission_changes(data: dict, changes: dict,
+                             schema: Optional[dict] = None) -> Tuple[dict, List[str]]:
     """Apply submission audit changes and return modified data + change log.
 
     ``data`` is the RAW authored document ({gi,nogi} maps intact) — see process_file.
+    ``schema`` is the validator's own schema for this file; list edits stay inside its
+    minItems/maxItems and match its declared item shape. None = unbounded (and warned).
     """
     log = []
 
@@ -723,37 +810,20 @@ def apply_submission_changes(data: dict, changes: dict) -> Tuple[dict, List[str]
         data["starting_position"] = sp_fix["suggested"]
         log.append(f"Fixed starting_position: '{old}' -> '{sp_fix['suggested']}': {sp_fix.get('reason', '')}")
 
-    # from_positions removals/additions
-    from_positions = data.get("from_positions", [])
-    for item in changes.get("from_positions_to_remove", []):
-        pos = item.get("position", "")
-        if pos in from_positions:
-            from_positions.remove(pos)
-            log.append(f"Removed from_position: {pos}: {item.get('reason', '')}")
-
-    for item in changes.get("from_positions_to_add", []):
-        pos = item.get("position", "")
-        if pos not in from_positions:
-            from_positions.append(pos)
-            log.append(f"Added from_position: {pos}: {item.get('reason', '')}")
-
-    data["from_positions"] = from_positions
-
-    # related_submissions removals/additions
-    related = data.get("related_submissions", [])
-    for item in changes.get("related_submissions_to_remove", []):
-        name = item.get("name", "")
-        if name in related:
-            related.remove(name)
-            log.append(f"Removed related_submission: {name}: {item.get('reason', '')}")
-
-    for item in changes.get("related_submissions_to_add", []):
-        name = item.get("name", "")
-        if name not in related:
-            related.append(name)
-            log.append(f"Added related_submission: {name}: {item.get('reason', '')}")
-
-    data["related_submissions"] = related
+    # from_positions / related_submissions removals + additions, bounded by the schema
+    # the validator will judge this file against (see _list_add / _list_remove).
+    for field, add_key, rm_key, id_key, label in (
+        ("from_positions", "from_positions_to_add", "from_positions_to_remove",
+         "position", "from_position"),
+        ("related_submissions", "related_submissions_to_add", "related_submissions_to_remove",
+         "name", "related_submission"),
+    ):
+        items = data.get(field, [])
+        for item in changes.get(rm_key, []):
+            _list_remove(items, item.get(id_key, ""), item.get("reason", ""), schema, field, log, label)
+        for item in changes.get(add_key, []):
+            _list_add(items, item.get(id_key, ""), item.get("reason", ""), schema, field, log, label)
+        data[field] = items
 
     return data, log
 
@@ -843,12 +913,13 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
     # Apply changes
     changes = parsed.get("changes", {})
+    schema = schema_for(file_path, category)  # bounds every list edit below
     if category == "Positions":
         data, change_log = apply_position_changes(data, changes)
     elif category == "Transitions":
-        data, change_log = apply_transition_changes(data, changes)
+        data, change_log = apply_transition_changes(data, changes, schema)
     else:
-        data, change_log = apply_submission_changes(data, changes)
+        data, change_log = apply_submission_changes(data, changes, schema)
 
     result_info["changes_count"] = len(change_log)
     result_info["log"] = change_log

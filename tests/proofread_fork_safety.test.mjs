@@ -20,7 +20,12 @@
 //   2. AN AUDITED PROBABILITY IS A NO-GI VERDICT. The model reads the no-gi frame, so its number
 //      lands in `nogi` and the authored `gi` survives untouched — and each frame independently
 //      still sums to 100 (CLAUDE.md §7).
-//   3. THE GATE CANNOT PASS ON NOTHING. The preserved-map count is printed and must be positive;
+//   3. LIST EDITS STAY INSIDE THE SCHEMA. The audit used to remove `from_positions` past the
+//      schema's minItems and append a bare string to a FAMILY hub's object-form
+//      `related_submissions`, so the bot's own validate step reverted the file. Measured on the
+//      v1.154.1 Submissions re-run: 12 of 30 files discarded that way (9 to the floor, 3 to the
+//      object form). These two tests are the floor and the shape.
+//   4. THE GATE CANNOT PASS ON NOTHING. The preserved-map count is printed and must be positive;
 //      a run that preserved zero maps because it never saw any is not a pass (CLAUDE.md §6.6).
 //
 // NOT COVERED, so nobody reads this file as more than it is: the inference call itself, the
@@ -86,6 +91,9 @@ function runAudit({ dir: sub, name, doc, changes }) {
     for (const c of ["Positions", "Transitions", "Submissions"]) {
       mkdirSync(join(dir, "content", c), { recursive: true });
     }
+    // The bot always runs from the repo root, so the real schemas are on hand — the script
+    // resolves list bounds through validate_json.load_schema, which reads templates/ relatively.
+    cpSync(resolve(ROOT, "templates"), join(dir, "templates"), { recursive: true });
     const target = join(dir, "content", sub, `${name}.json`);
     writeFileSync(target, JSON.stringify(doc, null, 2) + "\n");
     const before = readFileSync(target, "utf8");
@@ -154,4 +162,68 @@ test("the save prints a POSITIVE preserved-map count, so it cannot pass on nothi
   assert.ok(m, `no preserved-map count printed — the gate did not run.\n${stdout}`);
   assert.equal(m[1], m[2], `maps were lost: ${m[0]}`);
   assert.ok(Number(m[1]) > 0, `preserved-map count is zero — nothing was actually checked.\n${stdout}`);
+});
+
+/** A DUAL submission: schema wants from_positions minItems 2, related_submissions minItems 3. */
+const DUAL_SUBMISSION = {
+  name: "Fixture Lock", slug: "fixture-lock",
+  starting_position: "Mount", from_position: "Mount/Top",
+  success_rate: { gi: 68, nogi: 62 },
+  from_positions: ["Mount", "S Mount"],
+  related_submissions: ["Armbar", "Kimura", "Americana"],
+  outcomes: [
+    { to: "game-over", probability: { gi: 60, nogi: 55 }, result: "success" },
+    { to: "Mount/Top", probability: { gi: 40, nogi: 45 }, result: "failure" },
+  ],
+  attacker: {}, defender: {},
+};
+
+/** A FAMILY hub: related_submissions items are {name, relationship} OBJECTS, not strings. */
+const FAMILY_HUB = {
+  name: "Fixture Family", slug: "fixture-family", is_family: true,
+  from_positions: ["Mount", "Side Control"],
+  related_submissions: [{ name: "Kimura", relationship: "sister shoulder lock" }],
+  variations: [{ name: "Fixture Family/from Mount" }],
+};
+
+test("a removal never takes a list below its schema floor", () => {
+  const { after, stdout } = runAudit({
+    dir: "Submissions", name: "Fixture Lock", doc: DUAL_SUBMISSION,
+    changes: {
+      from_positions_to_remove: [{ position: "S Mount", reason: "fixture" }],
+      related_submissions_to_remove: [{ name: "Americana", reason: "fixture" }],
+      from_positions_to_add: [{ position: "High Mount", reason: "fixture" }],
+    },
+  });
+  const a = JSON.parse(after);
+  // from_positions is at minItems 2 -> the removal is refused, the addition still lands
+  assert.ok(a.from_positions.includes("S Mount"),
+    `removal took from_positions below its schema floor.\n${stdout}`);
+  assert.ok(a.from_positions.includes("High Mount"), `addition did not land.\n${stdout}`);
+  // related_submissions is at minItems 3 -> that removal is refused too
+  assert.equal(a.related_submissions.length, 3,
+    `removal took related_submissions below its schema floor.\n${stdout}`);
+  assert.match(stdout, /schema floor/, `no skip was printed — the guard is silent.\n${stdout}`);
+});
+
+test("an addition matches the schema's declared item SHAPE (object vs string)", () => {
+  const { after, stdout } = runAudit({
+    dir: "Submissions", name: "Fixture Family", doc: FAMILY_HUB,
+    changes: {
+      related_submissions_to_add: [
+        { name: "Armbar", reason: "the primary chain" },
+        { name: "Kimura", reason: "already present as an object — must not double-add" },
+      ],
+    },
+  });
+  const a = JSON.parse(after);
+  // dedup must compare by NAME across both shapes: an object never equals its own name string
+  assert.equal(a.related_submissions.filter((e) => (e.name ?? e) === "Kimura").length, 1,
+    `an entry already present as an object was added again as a duplicate.\n${stdout}`);
+  const added = a.related_submissions.find((e) => (e.name ?? e) === "Armbar");
+  assert.ok(added, `addition did not land.\n${stdout}`);
+  assert.equal(typeof added, "object",
+    `a bare string was appended to an object-form list — the bot's validate step reverts this.\n${stdout}`);
+  assert.equal(added.relationship, "the primary chain",
+    `the audit's reason was dropped instead of becoming the relationship.\n${stdout}`);
 });
