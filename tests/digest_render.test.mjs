@@ -173,6 +173,18 @@ test("prettyKey turns a deck key into something a person would say", () => {
   assert.equal(prettyKey("Standing"), "Standing", "a key with no role keeps its bare name");
 });
 
+// ── the copy must not promise what the endpoint no longer does ──────────────────────────
+
+test("neither body calls the link a one-click unsubscribe — since v1.164.0 it opens a confirm page", () => {
+  // The body link is a GET, and /unsubscribe mutates nothing on GET (only the RFC 8058 POST from
+  // the mailbox provider's own button is still one click). "Unsubscribe with one click" above a
+  // link that asks for a click is a promise the page then breaks.
+  for (const f of FIXTURES) {
+    assert.ok(!/with one click/i.test(renderHtml(f.digest)), f.id + ": html still promises one click");
+    assert.ok(!/with one click/i.test(renderText(f.digest)), f.id + ": plaintext still promises one click");
+  }
+});
+
 // ── the fixtures themselves have to stay honest ──────────────────────────────────────────
 
 test("the fixture set still reaches every branch it claims to", () => {

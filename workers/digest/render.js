@@ -82,7 +82,7 @@ export function renderText(d) {
     eta + (d.streak > 1 ? d.streak + " training days in a row\n" : "") +
     "\nWhat you reviewed:\n" + d.techniques.slice(0, 10).map((t) => "  · " + prettyKey(t)).join("\n") +
     (d.techniques.length > 10 ? "\n  · …and " + (d.techniques.length - 10) + " more" : "") +
-    weak + "\n" + SITE + "\n\nUnsubscribe: " + d.unsubUrl + "\n";
+    weak + "\n" + SITE + "\n\nUnsubscribe (one click to confirm): " + d.unsubUrl + "\n";
 }
 
 export function renderHtml(d) {
@@ -116,7 +116,7 @@ export function renderHtml(d) {
   ${weakBlock}
   <p style="margin:22px 0 0;"><a href="${SITE}" style="display:inline-block;background:#4a6cff;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:10px 18px;border-radius:9px;">Keep it — do your maintenance</a></p>
   <p style="margin:26px 0 0;font-size:11px;color:#999;">You asked for this after active days (Settings → Training-day email · Beta).
-  <a href="${d.unsubUrl}" style="color:#999;">Unsubscribe with one click</a>.</p>
+  <a href="${d.unsubUrl}" style="color:#999;">Unsubscribe</a> (one click to confirm).</p>
   </body></html>`;
 }
 

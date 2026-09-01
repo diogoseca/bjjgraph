@@ -200,10 +200,11 @@ export async function runDigest(env) {
       // field, add List-Unsubscribe one-click there too" — it has one, so here it is. RFC 8058:
       // `List-Unsubscribe-Post` is what turns the mailbox provider's own Unsubscribe button into
       // a single click, and Gmail and Yahoo have required it of bulk senders since 2024. The URL
-      // is the same HMAC-signed endpoint as the body link, and it already answers POST as well as
-      // GET, so there is nothing new to trust. NB the one hazard: a provider or scanner may POST
-      // that URL without a human, which unsubscribes silently — which is a reason to keep the
-      // suppression LIFTABLE from Settings (it is, since v1.149.1), not a reason to omit it.
+      // is the same HMAC-signed endpoint as the body link. Since v1.164.0 that endpoint honours
+      // ONLY a POST whose form body carries the marker below (or its own confirm button); a GET
+      // — a prefetcher's, a gateway's, a scanner's — renders a confirm page and mutates nothing,
+      // and a bare POST is treated the same. So the header's silent-POST hazard is closed at
+      // the endpoint, and the suppression stays LIFTABLE from Settings (since v1.149.1).
       if (!env.EMAIL || typeof env.EMAIL.send !== "function")
         throw new Error("EMAIL binding missing — connect Email Service and copy the binding stanza from the dashboard's wrangler tab (see RUNBOOK.md)");
       const sent1 = await env.EMAIL.send({
