@@ -39,6 +39,8 @@
  * variables): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, UNSUB_HMAC_SECRET — same values as the
  * Worker's. Pinned by tests/digest_suppress_sync.test.mjs ("the method half").
  */
+import { safeEqual } from "../workers/digest/safe-equal.js";
+
 // The 6 site-wide security headers, BYTE-IDENTICAL to `_headers` /* and to the /l/ Function —
 // a Pages Function response never inherits `_headers`, and check_headers_cache derives this
 // route from the filename and fails the build if the block is missing or drifts.
@@ -89,7 +91,9 @@ export async function onRequest({ request, env }) {
   const url = new URL(request.url);
   const u = url.searchParams.get("u") || "";
   const t = url.searchParams.get("t") || "";
-  const ok = u && t && env.UNSUB_HMAC_SECRET && t === (await token(env.UNSUB_HMAC_SECRET, u));
+  // constant-time (v1.164.2): `===` returned at the first differing byte of the one value this
+  // Function exists to check. Same helper as the digest Worker's trigger bearer.
+  const ok = u && t && env.UNSUB_HMAC_SECRET && safeEqual(t, await token(env.UNSUB_HMAC_SECRET, u));
   if (!ok) return new Response("Invalid unsubscribe link.", { status: 400, headers: SHARE_STATIC_HEADERS });
 
   // ── the method gate: nothing below this line runs without a marker in a POST body ────────
@@ -106,7 +110,14 @@ export async function onRequest({ request, env }) {
       "Content-Type": "application/json",
       Prefer: "resolution=merge-duplicates",
     },
-    body: JSON.stringify({ user_id: u }),
+    // `at` IN THE BODY (v1.164.2). merge-duplicates keeps the existing row's columns for every
+    // key the body does not carry, and the column default fires only on insert — so a repeat
+    // confirm used to leave the FIRST stop's timestamp. That mattered: the Worker lifts a
+    // suppression when the blob's `settingsAt.emailDigest` is later than `at`, and the blob
+    // write below is best-effort. A user who unsubscribed, turned it back on in Settings, and
+    // unsubscribed again on a day the blob write failed was left with a stamp newer than a
+    // stale `at` — and the next run mailed them. The second stop must be the one that counts.
+    body: JSON.stringify({ user_id: u, at: new Date().toISOString() }),
   });
   if (!r.ok && r.status !== 409) return new Response("Could not unsubscribe — try again later.", { status: 502, headers: SHARE_STATIC_HEADERS });
 

@@ -33,19 +33,54 @@ notice and never fails the deploy. If wrangler rejects the `send_email` binding
 stanza, copy the block from the dashboard's "Connect to Email Service" wrangler
 tab — its spelling is authoritative.
 
-## 5. Dry-run before the cron ever fires
+## 5. Dry-run before the cron ever fires (v1.164.2 — the trigger is a dry run BY DEFAULT)
+Until v1.164.2 this step called a LIVE SEND to every pending user a "dry-run". It is not
+any more: a bare GET builds every digest, sends nothing, writes nothing, and shows you what
+would go out.
 ```
+# the whole base, nothing sent, nothing written — what tomorrow's cron would do
 curl -s https://bjjgraph-digest.<your-workers-subdomain>.workers.dev \
   -H "Authorization: Bearer <SUPABASE_SERVICE_ROLE_KEY>"
+
+# one user, still a dry run
+curl -s "https://bjjgraph-digest.<your-workers-subdomain>.workers.dev/?user=<uuid>" \
+  -H "Authorization: Bearer <SUPABASE_SERVICE_ROLE_KEY>"
+
+# ONE live send, to ONE user (your own account). `send=1` without `user=` is refused —
+# the base is the cron's, behind its 200-per-run ceiling; the trigger mails one person at a time.
+curl -s "https://bjjgraph-digest.<your-workers-subdomain>.workers.dev/?send=1&user=<uuid>" \
+  -H "Authorization: Bearer <SUPABASE_SERVICE_ROLE_KEY>"
 ```
-Returns `{sent, of, failures}`. With no opt-ins yet: `{"sent":0,...,"reason":"nobody opted in"}`.
-Flip the toggle on your own account (Settings → Training-day email · Beta),
-review a few cards, wait past local midnight, re-run — you should get one email.
+A dry run returns `{mode:"dry-run", would_send, sample:[{user_id_prefix, day, subject, text}], rows,
+manifest_decks, suppress_rows_seen, sent_rows_seen, capped, skipped:{reason:count}, failures}`
+— the sample is at most 5 rendered mails. A live send returns the same summary with `sent`.
+With no opt-ins yet: `rows:0, would_send:0`. A run that cannot verify something —
+the public deck manifest unreachable or implausibly small, a Supabase read that fails, a row
+count PostgREST will not confirm — answers 500 with the reason and sends nothing; the same
+condition at 04:00 is logged as `[digest] RUN ABORTED, nothing sent: …` and the cron retries
+the next morning.
+
+Flip the toggle on your own account (Settings → Training-day email · Beta), review a few cards,
+wait past local midnight, run the one-user dry run, read the sample, then `send=1&user=` —
+you should get one email.
+
+**The bearer is still the service-role key.** That is the database's master credential and
+the wrong thing to be typing into a curl line. The swap to a separate `DIGEST_TRIGGER_TOKEN`
+needs a new Workers secret only you can set:
+```
+openssl rand -hex 32 | npx wrangler secret put DIGEST_TRIGGER_TOKEN   # in workers/digest
+```
+and then a one-line change in `fetch()` (index.js) to compare against it — ask for that commit
+once the secret exists; nothing in the repo can mint it.
 
 ## 6. Done
 The cron takes over. Sends only for days with activity, only once per day per
-user, honours one-click unsubscribe (List-Unsubscribe + `/unsubscribe`), and
-skips the still-in-progress day so local midnights are always respected.
+user, at most 200 mails per run (a brake against one runaway run costing the
+domain's deliverability — raise it in a commit that says why), honours one-click
+unsubscribe (List-Unsubscribe + `/unsubscribe`), and skips the still-in-progress
+day so local midnights are always respected. Every run logs one summary line:
+`[digest] run mode=cron rows=N manifest_decks=N suppress_rows_seen=N
+sent_rows_seen=N sent=N capped=N deferred=N skipped={…} failures=N`.
 
 ## What the email contains
 Count + techniques reviewed · Game Knowledge % (+today's delta) · "at this pace:

@@ -14,8 +14,9 @@
   re-implemented the email would agree with itself and drift from what actually sends, which
   is the §6.3 trap; this cannot, because there is only one implementation.
 
-  Sending is NOT reachable from this page and never should be. The Worker's own trigger mails
-  everyone opted in, with no dry-run and no scoping — see the report.
+  Sending is NOT reachable from this page and never should be. The Worker's own trigger is a
+  dry run by default since v1.164.2 (`?send=1&user=<uuid>` is the only live path, one person
+  at a time) — see workers/digest/RUNBOOK.md step 5.
 -->
 <style>
   :root {
@@ -80,7 +81,7 @@
     <code>fixtures.js</code> that <code>tests/digest_render.test.mjs</code> asserts against.
     Every case here is a case the suite already checks. Nothing on this page can send anything.
   </p>
-  <p class="warn"><span aria-hidden="true">▲</span><span>The Worker's manual trigger has no dry-run and no per-user scoping — it mails everyone opted in. Do not use it to preview.</span></p>
+  <p class="warn"><span aria-hidden="true">▲</span><span>To see a REAL user's mail, use the Worker's trigger as a dry run (<code>?user=&lt;uuid&gt;</code>, nothing sent, nothing written) — RUNBOOK step 5. Only <code>?send=1&amp;user=</code> sends, and only to that one person.</span></p>
 </header>
 
 <div class="layout">

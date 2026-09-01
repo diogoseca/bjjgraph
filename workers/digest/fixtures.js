@@ -107,6 +107,53 @@ export const FIXTURES = [
       unsubUrl: UNSUB,
     },
   },
+  {
+    id: "hostile-numbers",
+    label: "Numbers that are not numbers",
+    note: "Every field that is EXPECTED to be a number arrives as a string carrying markup, and two carry a CR LF. The blob is written by its owner with the public key under an RLS policy that checks no shape, so this is a digest an attacker can compose (v1.164.2). The claims: no raw markup from any field reaches the HTML, no CR or LF reaches the subject, no CR reaches the plaintext body. `hostile-text` covers the string fields; this covers the ones nobody escaped because of their type.",
+    digest: {
+      count: '<a href="https://evil.test/">24</a>',
+      techniques: ["Mount|Top", "Kimura|Attacker"],
+      score: "x</b><img src=x onerror=alert(1)>",
+      delta: "0%\r\nBcc: x@y",
+      eta: { belt: "blue<u>", days: "15<b>" },
+      streak: 12,
+      weakTop: [],
+      clip: null,
+      unsubUrl: UNSUB,
+    },
+    /**
+     * THE SAME ATTACK ONE LAYER UP: the raw `neural` blob a row owner can write, in the shape
+     * `runDigest` reads. `tests/digest_suppress_sync.test.mjs` feeds it through the real Worker
+     * against the PostgREST double and asserts the mail names only decks the public manifest
+     * lists and carries none of these strings. Kept beside the digest so the two halves of
+     * the finding are one case: what the composer must refuse, and what the renderer must
+     * neutralise anyway. `%DAY%` is replaced by the test with a date the Worker will mail.
+     */
+    blob: {
+      v: 2,
+      settings: { emailDigest: true },
+      days: { "%DAY%": "9e99", "2026-08-30<script>": 5, ["__proto__"]: 1, "1999-13-45": 2 },
+      dayLog: {
+        "%DAY%": {
+          s: " 41.5 ",
+          k: ["Mount|Top", "<script>alert(1)</script>|Top", "A".repeat(500), "Kimura|Attacker", 7, null],
+          w: [3, "thin", "Evil<b>|Top", "Guard|Bottom", "<img src=x onerror=1>|Bottom", "Mount|Top", "Half Guard|Bottom"],
+        },
+        "2026-08-30<script>": { s: 99, k: ["Mount|Top"] },
+        "1999-01-01": { s: "1e309", k: ["Mount|Top"] },
+      },
+    },
+  },
 ];
+
+/** Every string carried by the hostile fixtures — the set no output may contain verbatim.
+ *  A helper rather than a list, so a new hostile field is covered the day it is added. */
+export const hostileStrings = (v, out = []) => {
+  if (typeof v === "string") { if (/[<>\r\n"']/.test(v)) out.push(v); }
+  else if (Array.isArray(v)) v.forEach((x) => hostileStrings(x, out));
+  else if (v && typeof v === "object") Object.keys(v).forEach((k) => { hostileStrings(k, out); hostileStrings(v[k], out); });
+  return out;
+};
 
 export const byId = (id) => FIXTURES.find((f) => f.id === id) || null;

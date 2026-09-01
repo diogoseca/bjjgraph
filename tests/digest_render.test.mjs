@@ -17,8 +17,8 @@
 // Run: node --test tests/digest_render.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { FIXTURES, byId } from "../workers/digest/fixtures.js";
-import { renderHtml, renderText, renderSubject, esc, beltEta, prettyKey } from "../workers/digest/render.js";
+import { FIXTURES, byId, hostileStrings } from "../workers/digest/fixtures.js";
+import { renderHtml, renderText, renderSubject, renderPreheader, esc, hdr, plain, SUBJECT_MAX, beltEta, prettyKey } from "../workers/digest/render.js";
 
 /**
  * Text content with tags removed — for asserting what a READER sees, not what the markup is.
@@ -28,14 +28,25 @@ import { renderHtml, renderText, renderSubject, esc, beltEta, prettyKey } from "
  * carried "% today)"). `preheaderOf` is the one place that knows the marker.
  */
 const PREHEADER_RE = /<div[^>]*\bdata-preheader\b[^>]*>([\s\S]*?)<\/div>/g;
+/** Entities back to characters, AFTER the tags are gone — so an escaped `&lt;b&gt;` reads as
+ *  the literal text `<b>` a reader would see, and a raw `<b>` was stripped as a tag. That
+ *  order is what lets a hostile fixture satisfy "the headline says what the data says"
+ *  without the assertion ever mistaking escaped markup for markup (v1.164.2). */
+const decode = (s) => s.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, "&");
 const visible = (html) =>
-  html.replace(PREHEADER_RE, " ").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  decode(html.replace(PREHEADER_RE, " ").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
 
-/** The preheader's own text, minus the gap-stuffing that follows it. One marker, owned here. */
+/** The preheader's own text as a reader would see it — decoded, whitespace-collapsed, minus the
+ *  gap-stuffing that follows it. One marker, owned here. */
 const preheaderOf = (html) => {
   const all = [...html.matchAll(PREHEADER_RE)];
-  return all.length === 1 ? all[0][1].replace(/(?:&zwnj;|&nbsp;|\s)+$/, "").trim() : null;
+  return all.length === 1 ? decode(all[0][1].replace(/(?:&zwnj;|&nbsp;|\s)+$/, "")).replace(/\s+/g, " ").trim() : null;
 };
+
+/** The fixtures whose numeric fields are numbers — the ones a claim ABOUT NUMBERS can read. The
+ *  hostile-numbers case has strings there on purpose, and its own tests below say what must
+ *  hold for those; a numeric claim asserted on a string would be asserting on a coincidence. */
+const numeric = (d) => ["count", "score"].every((k) => typeof d[k] === "number") && (d.delta == null || typeof d.delta === "number");
 
 // ── every fixture, every time ────────────────────────────────────────────────────────────
 
@@ -80,7 +91,7 @@ test("the subject line is the module's, not a second copy in the Worker", () => 
   // body's own numbers the reader gets one count in the inbox and another in the mail.
   for (const f of FIXTURES) {
     const s = renderSubject(f.digest);
-    assert.ok(s.includes(String(f.digest.score)), f.id + ": subject lost the score");
+    if (numeric(f.digest)) assert.ok(s.includes(String(f.digest.score)), f.id + ": subject lost the score");
     assert.ok(s.includes(String(f.digest.techniques.length)), f.id + ": subject lost the count");
     assert.equal(/technique(?!s)/.test(s), f.digest.techniques.length === 1,
       f.id + ": subject plural disagrees with the count");
@@ -257,7 +268,7 @@ test("a preheader opens the body, is hidden from the reader, and repeats a line 
     // the choice: the weak spot when there is one (the thing the subject does NOT say),
     // otherwise the Game Knowledge line.
     if (d.weakTop.length) {
-      assert.ok(pre.includes(esc(prettyKey(d.weakTop[0]))), f.id + ": the preheader should name the weak spot");
+      assert.ok(pre.includes(prettyKey(d.weakTop[0])), f.id + ": the preheader should name the weak spot");
     } else {
       // the WHOLE line as the reader sees it — the delta is the one part of it the subject does
       // not already say, so a preheader that trims it is a preheader that echoes the subject.
@@ -322,11 +333,14 @@ test("the delta is one neutral colour — no green, no red, and the same colour 
     // at all (inheriting the body's ink is also one neutral colour, and must not read as red) —
     // read from the BODY, because the preheader repeats this line, unwrapped, on the days with
     // no weak spot.
-    const m = html.replace(PREHEADER_RE, "").match(/(?:<span style="([^"]*)">\s*)?\(([+-]?)[\d.]+% today\)/);
+    // `[^()]*?` rather than `[\d.]+`: the hostile fixture's delta is not digits, and the
+    // colour claim holds for it too — what it renders is escaped text inside the same span.
+    const m = html.replace(PREHEADER_RE, "").match(/(?:<span style="([^"]*)">\s*)?\(([+-]?)[^()]*?% today\)/);
     assert.equal(!!m, f.digest.delta != null, f.id + ": delta presence disagrees with the data");
     if (!m) continue;
     const col = ((m[1] || "").match(/color:\s*(#[0-9a-f]{3,6})/i) || [, "inherit"])[1];
     seen.add(col.toLowerCase());
+    if (!numeric(f.digest)) continue;   // the sign of a non-number is not a claim
     // the sign is the meaning, and it must survive
     assert.equal(m[2], f.digest.delta >= 0 ? "+" : "-", f.id + ": the delta lost its sign");
     assert.ok(renderText(f.digest).includes("(" + (f.digest.delta >= 0 ? "+" : "") + f.digest.delta + "% today)"),
@@ -335,6 +349,130 @@ test("the delta is one neutral colour — no green, no red, and the same colour 
   assert.equal(seen.size, 1, "the delta must be ONE colour across positive, zero and negative days — saw " + [...seen].join(", "));
   const pos = FIXTURES.some((f) => f.digest.delta > 0), neg = FIXTURES.some((f) => f.digest.delta < 0);
   assert.ok(pos && neg, "the fixture set must carry both signs for this to mean anything");
+});
+
+// ── every field is a sink, whatever its type (v1.164.2) ─────────────────────────────────
+//
+// THE FINDING: the blob is owner-written under an RLS policy that checks no shape, and the
+// fields nobody escaped were the ones "known" to be numbers. `renderHtml({count: '<a href=…>'})`
+// put an anchor in the <h1>; `score: 'x</b><img …>'` put the img beside it; and
+// `renderSubject({score: '0%\r\nBcc: x@y'})` returned a CR LF inside a header line — which is
+// the end of the Subject and the start of whatever the attacker wrote next. `hostile-numbers`
+// is that digest; these are the three rules, each asserted DIFFERENTIALLY against a control
+// digest of the same shape with real numbers (§6.3: what the template draws anyway cancels).
+//
+// Mutants (v1.164.2): 29 run against render.js, 26 killed, each named beside the test that
+// kills it. THREE NON-KILLS, recorded so nobody reads them as covered: dropping `esc` (html)
+// or `plain` (text) on `d.streak` survives — the template's own `d.streak > 1` guard is false
+// for every string carrying a `<`, `>`, `&`, quote or control character (they all coerce to
+// NaN), so no hostile value can reach that interpolation while the guard stands; and dropping
+// `esc` on the `…and N more` fold count survives — it is `techniques.length - 10`, an
+// arithmetic result, which no value can make anything but a number. All three keep their
+// escaper regardless: the guard and the arithmetic are one refactor from gone.
+
+/** The hostile digest with real numbers in the hostile slots — same branches, same markup. */
+const controlFor = (d) => ({ ...d, count: 24, score: 33.3, delta: 0, eta: { belt: "blue", days: 15 } });
+/** Every element name the document opens or closes, in order — the template's skeleton. */
+const tagCensus = (html) => (html.match(/<\/?[a-zA-Z][a-zA-Z0-9]*/g) || []).map((t) => t.toLowerCase());
+
+test("a hostile value in a numeric slot adds no element to the HTML, and the reader sees it as literal text", () => {
+  const f = byId("hostile-numbers");
+  const html = renderHtml(f.digest);
+  const control = renderHtml(controlFor(f.digest));
+  // kills: drop `esc` on count / score / delta / eta.belt / eta.days in renderHtml
+  assert.deepEqual(tagCensus(html), tagCensus(control),
+    "the hostile digest draws a different set of elements than its control — a value became markup");
+  // the markup-carrying strings; the CR LF one is whitespace to an HTML parser and is the
+  // subject's and the plaintext's problem, asserted below
+  for (const hs of hostileStrings(f.digest).filter((x) => /[<>"']/.test(x))) {
+    assert.ok(!html.includes(hs), "a hostile value reached the HTML verbatim: " + JSON.stringify(hs));
+  }
+  assert.ok(!/<a href="https:\/\/evil/.test(html) && !/<img/.test(html) && !/<u>/.test(html), "attacker markup rendered as elements");
+  // the "Next stop" branch (no pace) interpolates the belt a second time — kills: drop `esc` there
+  const stalled = { ...f.digest, eta: { belt: "blue<u>", days: null } };
+  assert.deepEqual(tagCensus(renderHtml(stalled)), tagCensus(renderHtml({ ...stalled, ...controlFor(f.digest), eta: { belt: "blue", days: null } })),
+    "the Next stop line rendered the belt as markup");
+  // the delta with markup in it — the fixture's delta is the CR LF payload, which an HTML
+  // parser reads as whitespace, so this branch needs its own probe — kills: drop `esc` on delta
+  assert.deepEqual(tagCensus(renderHtml({ ...f.digest, delta: "<u>1</u>" })), tagCensus(renderHtml(controlFor(f.digest))),
+    "the delta rendered as markup");
+  // a duck-typed `techniques` whose length is the payload — kills: drop `esc` on techniques.length
+  const duck = (len) => ({ ...f.digest, techniques: { length: len, slice: () => [] } });
+  assert.deepEqual(tagCensus(renderHtml(duck("<u>2</u>"))), tagCensus(renderHtml(duck(2))), "the technique count rendered as markup");
+  // escaped, not dropped: what the reader sees is the literal string, brackets and all
+  const seen = visible(html);
+  assert.ok(seen.includes(String(f.digest.count) + " cards"), "the count was not rendered as literal text");
+  assert.ok(seen.includes("Game Knowledge: " + f.digest.score + "%"), "the score was not rendered as literal text");
+});
+
+test("the preheader fallback escapes too — it is the one copy of the score line the weak-spot branch never shows", () => {
+  const f = byId("hostile-numbers");
+  assert.equal(f.digest.weakTop.length, 0, "this fixture must take the fallback branch for the claim to mean anything");
+  const pre = renderPreheader(f.digest);
+  // kills: drop `esc` on score / delta in renderPreheader
+  for (const hs of hostileStrings(f.digest).filter((x) => /[<>"']/.test(x))) assert.ok(!pre.includes(hs), "the preheader carries a hostile value verbatim");
+  assert.ok(!/<[a-z]/i.test(pre), "the preheader opened an element: " + pre);
+});
+
+test("the subject carries no control character from any field it reads, and is capped", () => {
+  const f = byId("hostile-numbers");
+  const CTRL = /[\x00-\x1f\x7f]/;
+  assert.ok(!CTRL.test(renderSubject(f.digest)), "a control character reached the subject from the fixture");
+  // every input renderSubject concatenates, fed the CR LF payload in turn (the fixture carries
+  // it in `delta`, which the subject does not read — this is what makes the claim total).
+  // kills: drop `hdr` on score; drop `hdr` on techniques.length (the third probe is a
+  // duck-typed `techniques` whose `length` is the payload — not a digest shape runDigest can
+  // build, but exactly the "regardless of expected type" the rule is about)
+  const crlf = f.digest.delta;
+  assert.ok(/\r\n/.test(crlf), "the fixture must carry a CR LF for this to test anything");
+  const probes = [
+    { ...f.digest, score: crlf },
+    { ...f.digest, score: "0%\r\nBcc: x@y\tX\x00Y\x7f" },
+    { ...f.digest, techniques: { length: crlf } },
+  ];
+  for (const d of probes) {
+    const s = renderSubject(d);
+    assert.ok(!CTRL.test(s), "control character in the subject: " + JSON.stringify(s));
+    assert.ok(s.startsWith("Today at BJJGraph: "), "the subject lost its opening");
+  }
+  // kills: drop the SUBJECT_MAX slice
+  const long = renderSubject({ ...f.digest, score: "9".repeat(5000) });
+  assert.ok(long.length <= SUBJECT_MAX, "a 5,000-character score produced a " + long.length + "-character subject");
+  assert.ok(SUBJECT_MAX >= 60 && SUBJECT_MAX <= 998, "the cap must fit a real subject and an RFC 5322 line");
+});
+
+test("the plaintext body carries no CR, and no value can add a line to it", () => {
+  const f = byId("hostile-numbers");
+  const text = renderText(f.digest);
+  // kills: drop `plain` on delta (the fixture's CR LF lives there)
+  assert.ok(!/\r/.test(text), "a CR reached the plaintext body");
+  // differential: same skeleton as the control, so a value cannot smuggle a line — kills: drop
+  // `plain` on any renderText value that the fixture makes hostile
+  const lines = (t) => t.split("\n").length;
+  assert.equal(lines(text), lines(renderText(controlFor(f.digest))),
+    "the hostile body has a different number of lines than its control — a value carried a line break");
+  // and the other fields, fed the CR LF in turn (count, score, eta.belt, eta.days, a technique,
+  // a weak spot, the unsubscribe URL) — kills: drop `plain` on any one of them
+  const crlf = f.digest.delta;
+  const probes = [
+    { ...f.digest, count: crlf }, { ...f.digest, score: crlf },
+    { ...f.digest, eta: { belt: crlf, days: crlf } },
+    { ...f.digest, techniques: [crlf + "|Top"] },
+    { ...f.digest, weakTop: [crlf + "|Top", crlf + "|Bottom"], clip: { id: crlf, who: crlf, title: "t", dur: null } },
+    { ...f.digest, streak: 5, unsubUrl: f.digest.unsubUrl + crlf },
+    { ...f.digest, techniques: { length: crlf, slice: () => [] } },
+  ];
+  for (const d of probes) {
+    assert.ok(!/\r/.test(renderText(d)), "a CR reached the plaintext body through " + JSON.stringify(Object.keys(d).filter((k) => JSON.stringify(d[k]).includes("\\r"))));
+  }
+});
+
+test("hdr and plain remove every C0 control and DEL, and nothing else", () => {
+  const all = Array.from({ length: 33 }, (_, i) => String.fromCharCode(i === 32 ? 127 : i)).join("");
+  assert.equal(hdr("a" + all + "b"), "ab");
+  assert.equal(plain("a" + all + "b"), "ab");
+  assert.equal(hdr("Mount (top) · 41.5% — ünïcödé"), "Mount (top) · 41.5% — ünïcödé", "printable text must pass through untouched");
+  assert.equal(hdr(41.5), "41.5", "a number is stringified, not refused");
 });
 
 // ── the fixtures themselves have to stay honest ──────────────────────────────────────────
@@ -351,6 +489,7 @@ test("the fixture set still reaches every branch it claims to", () => {
   assert.ok(has((d) => d.delta < 0), "need a losing-ground case");
   assert.ok(has((d) => d.techniques.length > 10), "need a folding case");
   assert.ok(has((d) => d.count === 1), "need a singular case");
-  assert.ok(FIXTURES.length >= 8 && new Set(FIXTURES.map((f) => f.id)).size === FIXTURES.length,
+  assert.ok(has((d) => !numeric(d)), "need a case whose numeric fields are not numbers");
+  assert.ok(FIXTURES.length >= 9 && new Set(FIXTURES.map((f) => f.id)).size === FIXTURES.length,
     "fixture ids must be unique");
 });
