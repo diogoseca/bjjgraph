@@ -85,6 +85,28 @@ export function renderText(d) {
     weak + "\n" + SITE + "\n\nUnsubscribe (one click to confirm): " + d.unsubUrl + "\n";
 }
 
+/**
+ * THE PREVIEW LINE, TAKEN FROM THE EMAIL ITSELF (v1.164.1).
+ *
+ * Gmail and Apple Mail show a snippet beside the subject, and with nothing set they scrape
+ * the first body line — "TODAY AT BJJGRAPH 24 cards · 6 techniques", which is the subject
+ * again. This picks the one line the SUBJECT does not already say: the weak-spot sentence
+ * when there is one, otherwise the Game Knowledge line. Both are strings the body renders
+ * verbatim; nothing here is new prose, and the test pins that by requiring the preheader to
+ * be a substring of the visible body. It is rendered into a div that every client hides
+ * (`display:none` for most, `mso-hide:all` for Outlook's Word engine, the zeros for the
+ * clients that ignore one of those), followed by a run of zwnj/nbsp pairs so a client cannot
+ * backfill its preview pane from the body after the text runs out.
+ */
+export function renderPreheader(d) {
+  if (d.weakTop.length) return esc(prettyKey(d.weakTop[0])) + " is your softest spot right now.";
+  return "Game Knowledge: " + d.score + "%" +
+    (d.delta != null ? " (" + (d.delta >= 0 ? "+" : "") + d.delta + "% today)" : "");
+}
+
+/** 100 pairs = 200 blank characters; the longest preview pane in common use is ~140. */
+const PREHEADER_GAP = "&zwnj;&nbsp;".repeat(100);
+
 export function renderHtml(d) {
   const li = d.techniques.slice(0, 10).map((t) => "<li>" + esc(prettyKey(t)) + "</li>").join("");
   const more = d.techniques.length > 10 ? "<li>…and " + (d.techniques.length - 10) + " more</li>" : "";
@@ -99,22 +121,34 @@ export function renderHtml(d) {
   const extra = d.weakTop[1]
     ? `<p style="margin:10px 0 0;font-size:12px;color:#555;">And one for the road: <b>${esc(prettyKey(d.weakTop[1]))}</b> — worth a look next session.</p>`
     : "";
+  // The rule is a td with a border-top, not an <hr>: Outlook desktop draws a bare <hr> as a
+  // 3D bevel and ignores its border/margin styles. Every client draws a td border flat.
   const weakBlock = d.weakTop.length
-    ? `<hr style="border:none;border-top:1px solid #ddd;margin:18px 0;">
+    ? `<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:18px 0;"><tr><td style="border-top:1px solid #ddd;font-size:1px;line-height:1px;height:1px;">&nbsp;</td></tr></table>
        <p style="margin:0;font-size:11px;letter-spacing:.1em;color:#888;">WEAK SPOTS</p>
        <p style="margin:6px 0 0;font-size:14px;"><b>${esc(prettyKey(d.weakTop[0]))}</b> is your softest spot right now.</p>
        ${clipBlock}${extra}`
     : "";
+  // Layout notes, each one a client that punished the plainer markup (v1.164.1):
+  //  · the delta is ONE neutral colour. Green/red inverted into mud under dark-mode recolouring,
+  //    ~1 in 12 men cannot tell the pair apart, and the plaintext twin never had it — the sign
+  //    is what carries the meaning, and it is kept.
+  //  · the CTA is a table button. Padding on a bare <a> is ignored by Outlook's Word engine,
+  //    which rendered it as an underlined link on white; the colour goes on the td as a
+  //    bgcolor ATTRIBUTE (the form Outlook honours) and again in style for everyone else, the
+  //    padding goes on the td, and the anchor is display:block so the whole box is the link.
+  //    Text and href are pinned by tests/digest_render.test.mjs — change them on purpose.
   return `<!doctype html><html><body style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;color:#1c2130;max-width:520px;margin:0 auto;padding:24px 18px;">
+  <div data-preheader="1" style="display:none;max-height:0;max-width:0;overflow:hidden;mso-hide:all;font-size:1px;line-height:1px;opacity:0;color:transparent;">${renderPreheader(d)}${PREHEADER_GAP}</div>
   <p style="font-size:11px;letter-spacing:.14em;color:#888;margin:0;">TODAY AT BJJGRAPH</p>
   <h1 style="font-size:20px;margin:6px 0 14px;">${d.count} card${d.count === 1 ? "" : "s"} · ${d.techniques.length} technique${d.techniques.length === 1 ? "" : "s"}</h1>
-  <p style="margin:0;font-size:15px;">Game Knowledge: <b>${d.score}%</b>${d.delta != null ? ` <span style="color:${d.delta >= 0 ? "#188a4c" : "#b3403a"};">(${d.delta >= 0 ? "+" : ""}${d.delta}% today)</span>` : ""}</p>
+  <p style="margin:0;font-size:15px;">Game Knowledge: <b>${d.score}%</b>${d.delta != null ? ` <span style="color:#555;">(${d.delta >= 0 ? "+" : ""}${d.delta}% today)</span>` : ""}</p>
   ${eta}
   ${d.streak > 1 ? `<p style="margin:10px 0 0;font-size:13px;">🔥 ${d.streak} training days in a row</p>` : ""}
   <p style="margin:16px 0 6px;font-size:12px;letter-spacing:.08em;color:#888;">WHAT YOU REVIEWED</p>
   <ul style="margin:0;padding-left:20px;font-size:14px;line-height:1.7;">${li}${more}</ul>
   ${weakBlock}
-  <p style="margin:22px 0 0;"><a href="${SITE}" style="display:inline-block;background:#4a6cff;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:10px 18px;border-radius:9px;">Keep it — do your maintenance</a></p>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:22px 0 0;border-collapse:separate;"><tr><td bgcolor="#4a6cff" style="background:#4a6cff;border-radius:9px;padding:10px 18px;"><a href="${SITE}" style="display:block;color:#fff;text-decoration:none;font-weight:700;font-size:14px;">Keep it — do your maintenance</a></td></tr></table>
   <p style="margin:26px 0 0;font-size:11px;color:#999;">You asked for this after active days (Settings → Training-day email · Beta).
   <a href="${d.unsubUrl}" style="color:#999;">Unsubscribe</a> (one click to confirm).</p>
   </body></html>`;

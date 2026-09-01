@@ -20,8 +20,22 @@ import assert from "node:assert/strict";
 import { FIXTURES, byId } from "../workers/digest/fixtures.js";
 import { renderHtml, renderText, renderSubject, esc, beltEta, prettyKey } from "../workers/digest/render.js";
 
-/** Text content with tags removed — for asserting what a READER sees, not what the markup is. */
-const visible = (html) => html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+/**
+ * Text content with tags removed — for asserting what a READER sees, not what the markup is.
+ * The preheader is cut out FIRST: it is display:none in every client, so it is not something a
+ * reader sees, and leaving it in would let its copy satisfy an assertion about the body (the
+ * delta test would pass on a build that deleted the visible delta, because the preheader still
+ * carried "% today)"). `preheaderOf` is the one place that knows the marker.
+ */
+const PREHEADER_RE = /<div[^>]*\bdata-preheader\b[^>]*>([\s\S]*?)<\/div>/g;
+const visible = (html) =>
+  html.replace(PREHEADER_RE, " ").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+
+/** The preheader's own text, minus the gap-stuffing that follows it. One marker, owned here. */
+const preheaderOf = (html) => {
+  const all = [...html.matchAll(PREHEADER_RE)];
+  return all.length === 1 ? all[0][1].replace(/(?:&zwnj;|&nbsp;|\s)+$/, "").trim() : null;
+};
 
 // ── every fixture, every time ────────────────────────────────────────────────────────────
 
@@ -183,6 +197,144 @@ test("neither body calls the link a one-click unsubscribe — since v1.164.0 it 
     assert.ok(!/with one click/i.test(renderHtml(f.digest)), f.id + ": html still promises one click");
     assert.ok(!/with one click/i.test(renderText(f.digest)), f.id + ": plaintext still promises one click");
   }
+});
+
+// ── how the markup survives real clients (v1.164.1) ─────────────────────────────────────
+//
+// Mutants: 44 run against render.js, 43 killed. The one survivor is EQUIVALENT and recorded so
+// nobody reads it as coverage: "delta span dropped, colour inherited from the body" — that is
+// still one neutral colour, which is the whole claim, and the delta test accepts it on purpose
+// (an assertion that demanded the span would go red on that correct build — §6.3).
+//
+// These pin SHAPE, not copy: nothing below reads a sentence that was not already in the
+// email. The four claims, each with the client that punished the old markup:
+//   preheader — Gmail and Apple Mail scrape the first body line as preview text, which was
+//               "TODAY AT BJJGRAPH …", an echo of the subject sitting right beside it;
+//   the button — padding on a bare <a> is ignored by Outlook's Word engine, so the CTA
+//               rendered there as an underlined link on white;
+//   the rule  — a bare <hr> is a 3D bevel in Outlook desktop;
+//   the delta — the green/red pair inverts into mud under dark-mode recolouring and is one of
+//               the pairs ~1 in 12 men cannot separate. The sign already carries the meaning.
+
+test("a preheader opens the body, is hidden from the reader, and repeats a line the email already says", () => {
+  for (const f of FIXTURES) {
+    const { digest: d } = f;
+    const html = renderHtml(d);
+    const marks = (html.match(/data-preheader/g) || []).length;
+    assert.equal(marks, 1, f.id + ": exactly one preheader marker (§6.7 — own the selector)");
+
+    // FIRST in the body — what the client scrapes is whatever comes first, so a preheader that
+    // sits after the headline is a preheader the client never reads.
+    assert.ok(/<body[^>]*>\s*<div[^>]*data-preheader/.test(html),
+      f.id + ": the preheader must be the first element inside <body>");
+    assert.ok(html.indexOf("data-preheader") < html.indexOf("TODAY AT BJJGRAPH"),
+      f.id + ": the preheader must precede the visible headline");
+
+    // hidden every way a client can be hidden from — Outlook Word engine ignores display:none
+    // (hence mso-hide), some clients ignore max-height (hence the zeros).
+    const style = (html.match(/<div[^>]*data-preheader[^>]*>/) || [""])[0];
+    for (const rule of ["display:none", "max-height:0", "overflow:hidden", "mso-hide:all", "opacity:0"]) {
+      assert.ok(style.includes(rule), f.id + ": preheader style lost " + rule);
+    }
+    assert.ok(/font-size:(0|1px)/.test(style) && /line-height:(0|1px)/.test(style),
+      f.id + ": preheader must be sized to nothing");
+
+    // gap-stuffed — without the run of blanks a client backfills its preview pane from the
+    // visible body, which lands "TODAY AT BJJGRAPH" back in the preview. 70 pairs is 140
+    // characters, the longest preview pane in common use (Apple Mail on iPad).
+    const inner = (html.match(/data-preheader[^>]*>([\s\S]*?)<\/div>/) || [, ""])[1];
+    const pairs = (inner.match(/&zwnj;&nbsp;/g) || []).length;
+    assert.ok(pairs >= 70, f.id + ": preheader gap-stuffing is too short to block backfill (" + pairs + " pairs)");
+
+    // derived, not invented — the preheader's words must already be words the reader sees.
+    const pre = preheaderOf(html);
+    assert.ok(pre && pre.length > 0, f.id + ": preheader is empty");
+    assert.ok(visible(html).includes(pre),
+      f.id + ": the preheader says something the body does not — \"" + pre + "\"");
+    assert.notEqual(pre, renderSubject(d), f.id + ": the preheader must not echo the subject");
+    assert.ok(!pre.includes("TODAY AT BJJGRAPH"), f.id + ": the preheader is the headline again");
+
+    // the choice: the weak spot when there is one (the thing the subject does NOT say),
+    // otherwise the Game Knowledge line.
+    if (d.weakTop.length) {
+      assert.ok(pre.includes(esc(prettyKey(d.weakTop[0]))), f.id + ": the preheader should name the weak spot");
+    } else {
+      // the WHOLE line as the reader sees it — the delta is the one part of it the subject does
+      // not already say, so a preheader that trims it is a preheader that echoes the subject.
+      const line = visible((html.replace(PREHEADER_RE, "").match(/<p[^>]*>Game Knowledge:[\s\S]*?<\/p>/) || [""])[0]);
+      assert.equal(pre, line, f.id + ": with no weak spot, the preheader is the Game Knowledge line, whole");
+    }
+    assert.ok(!/undefined|NaN|\[object/.test(pre), f.id + ": preheader carries a placeholder word");
+  }
+});
+
+test("the CTA is a table button — background and padding on the td, the anchor a block inside it", () => {
+  const TEXT = "Keep it — do your maintenance";
+  for (const f of FIXTURES) {
+    const html = renderHtml(f.digest);
+    // the anchor: same href, same text, and the look it always had — this is what the other
+    // agent's CTA work must be able to change on purpose, so it is pinned by value, not by shape.
+    const a = (html.match(/<a href="([^"]*)"([^>]*)>([^<]*)<\/a>/g) || [])
+      .map((m) => m.match(/<a href="([^"]*)"([^>]*)>([^<]*)<\/a>/))
+      .find((m) => m[3] === TEXT);
+    assert.ok(a, f.id + ": the CTA anchor with its exact text is gone");
+    assert.equal(a[1], "https://bjjgraph.org", f.id + ": the CTA href changed");
+    for (const rule of ["display:block", "color:#fff", "font-weight:700", "font-size:14px", "text-decoration:none"]) {
+      assert.ok(a[2].includes(rule), f.id + ": the CTA anchor lost " + rule);
+    }
+    assert.ok(!/padding/.test(a[2]), f.id + ": padding on the anchor is the Outlook bug this replaces");
+
+    // the cell: the anchor's nearest enclosing td carries the colour as an ATTRIBUTE (the only
+    // form Outlook honours) and the padding that gives the button its box.
+    const at = html.indexOf(a[0]);
+    const before = html.slice(0, at);
+    const tdOpen = before.slice(before.lastIndexOf("<td"));
+    assert.ok(tdOpen.startsWith("<td") && !tdOpen.includes("</td>"), f.id + ": the CTA anchor is not inside a td");
+    assert.ok(/bgcolor="#4a6cff"/.test(tdOpen), f.id + ": the button td needs bgcolor=\"#4a6cff\"");
+    assert.ok(/style="[^"]*padding:\s*\d+px[^"]*"/.test(tdOpen), f.id + ": the button td needs padding in its style");
+    assert.ok(/style="[^"]*background:#4a6cff/.test(tdOpen), f.id + ": the button td needs the background in style too (bgcolor is Outlook's, style is everyone else's)");
+
+    // the table: presentational, so a screen reader does not announce a one-cell grid.
+    const tableOpen = before.slice(before.lastIndexOf("<table"));
+    assert.ok(tableOpen.startsWith("<table") && !tableOpen.includes("</table>"), f.id + ": the CTA td is not inside a table");
+    assert.ok(/role="presentation"/.test(tableOpen), f.id + ": the button table must be role=presentation");
+  }
+});
+
+test("no <hr> anywhere — the weak-spot rule is a td with a border-top, present exactly when the block is", () => {
+  for (const f of FIXTURES) {
+    const html = renderHtml(f.digest);
+    assert.ok(!/<hr[\s>\/]/i.test(html), f.id + ": a bare <hr> is a bevel in Outlook desktop");
+    const rules = (html.match(/<td[^>]*style="[^"]*border-top:\s*1px solid[^"]*"[^>]*>/g) || []).length;
+    const has = f.digest.weakTop.length > 0;
+    assert.equal(rules, has ? 1 : 0,
+      f.id + ": expected " + (has ? "one" : "no") + " border-top rule td, found " + rules);
+  }
+});
+
+test("the delta is one neutral colour — no green, no red, and the same colour whichever way it points", () => {
+  const seen = new Set();
+  for (const f of FIXTURES) {
+    const html = renderHtml(f.digest);
+    assert.ok(!/#188a4c/i.test(html), f.id + ": the green is back");
+    assert.ok(!/#b3403a/i.test(html), f.id + ": the red is back");
+    // the delta with whatever wraps it — a span with a colour, a span without one, or nothing
+    // at all (inheriting the body's ink is also one neutral colour, and must not read as red) —
+    // read from the BODY, because the preheader repeats this line, unwrapped, on the days with
+    // no weak spot.
+    const m = html.replace(PREHEADER_RE, "").match(/(?:<span style="([^"]*)">\s*)?\(([+-]?)[\d.]+% today\)/);
+    assert.equal(!!m, f.digest.delta != null, f.id + ": delta presence disagrees with the data");
+    if (!m) continue;
+    const col = ((m[1] || "").match(/color:\s*(#[0-9a-f]{3,6})/i) || [, "inherit"])[1];
+    seen.add(col.toLowerCase());
+    // the sign is the meaning, and it must survive
+    assert.equal(m[2], f.digest.delta >= 0 ? "+" : "-", f.id + ": the delta lost its sign");
+    assert.ok(renderText(f.digest).includes("(" + (f.digest.delta >= 0 ? "+" : "") + f.digest.delta + "% today)"),
+      f.id + ": plaintext delta drifted");
+  }
+  assert.equal(seen.size, 1, "the delta must be ONE colour across positive, zero and negative days — saw " + [...seen].join(", "));
+  const pos = FIXTURES.some((f) => f.digest.delta > 0), neg = FIXTURES.some((f) => f.digest.delta < 0);
+  assert.ok(pos && neg, "the fixture set must carry both signs for this to mean anything");
 });
 
 // ── the fixtures themselves have to stay honest ──────────────────────────────────────────
