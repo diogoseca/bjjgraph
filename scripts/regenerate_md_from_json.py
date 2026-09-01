@@ -67,7 +67,26 @@ CATEGORIES = {
 
 # Shared Jinja2 environment with custom filters. slugify comes from scripts/_slug.py
 # (single source of truth shared with the graph, redirect, and validation scripts).
+def _jsonstr(v):
+    """A JSON string literal, safe to sit inside a <script> block.
+
+    THE FILTER EXISTS BECAUSE THE TEMPLATES WRITE JSON BY HAND. Every schema block interpolates
+    authored prose into a JSON string literal (`"text": "{{ qa.answer }}"`), and Jinja has no idea
+    it is writing JSON — one `"` in the prose ends the string early and the whole JSON-LD block
+    becomes unparseable, silently. `scripts/check_schema_jsonld.py` is the gate; this is the fix.
+
+    NOT Jinja's built-in `| tojson`, deliberately: that one HTML-escapes `'` to `\u0027`, which is
+    correct but rewrites every apostrophe in 3,810 generated files — a 19,364-line diff whose whole
+    content is cosmetic. This escapes what JSON requires (via json.dumps) plus the three characters
+    that can end a <script> early, and leaves apostrophes alone. Measured: the corpus diff drops to
+    the handful of files that were actually broken.
+    """
+    s = json.dumps("" if v is None else str(v), ensure_ascii=False)
+    return s.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+
+
 _JINJA_ENV = Environment()
+_JINJA_ENV.filters["jsonstr"] = _jsonstr
 _JINJA_ENV.filters["slugify"] = slugify
 
 

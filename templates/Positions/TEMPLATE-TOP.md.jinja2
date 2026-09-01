@@ -56,8 +56,8 @@ description: "{{ top.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ top.name }}",
-  "description": "{{ top.description }}",
+  "name": {{ top.name | jsonstr }},
+  "description": {{ top.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
@@ -76,7 +76,7 @@ description: "{{ top.description }}"
   }{%- if family is defined and family %},
   "mainEntityOfPage": {
     "@type": "CollectionPage",
-    "name": "{{ family }}",
+    "name": {{ family | jsonstr }},
     "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
   }
   {%- endif %}
@@ -104,7 +104,7 @@ description: "{{ top.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ top.name }}",
+      "name": {{ top.name | jsonstr }},
       "item": "https://bjjgraph.org/Positions/{{ top.name.replace(' ', '-') }}"
     }
   ]

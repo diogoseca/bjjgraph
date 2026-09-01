@@ -86,8 +86,8 @@ description: "{{ description }}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>

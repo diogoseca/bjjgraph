@@ -13,9 +13,9 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "name": "{{name}}",
-  "description": "{{description}}",
-  "articleSection": "{{category}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ description | jsonstr }},
+  "articleSection": {{ category | jsonstr }},
   "url": "https://bjjgraph.org/Learning/{{name.replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
@@ -32,7 +32,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Learning", "item": "https://bjjgraph.org/Learning/"},
-    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Learning/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Learning/{{name.replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -45,10 +45,10 @@ description: "{{description}}"
     {%- for qa in knowledge_assessment[:6] %}
     {
       "@type": "Question",
-      "name": "{{qa.question}}",
+      "name": {{ qa.question | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{qa.answer}}"
+        "text": {{ qa.answer | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -61,8 +61,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Learning/"
 }
 </script>

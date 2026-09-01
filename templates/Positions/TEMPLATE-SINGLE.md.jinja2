@@ -57,8 +57,8 @@ description: "{{ data.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ data.name.split('|')[0].strip() }}",
-  "description": "{{ data.description }}",
+  "name": {{ data.name.split('|')[0].strip() | jsonstr }},
+  "description": {{ data.description | jsonstr }},
   {%- if data.aliases is defined and data.aliases %}
   "alternateName": [{% for alias in data.aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
@@ -74,7 +74,7 @@ description: "{{ data.description }}"
   }{%- if data.family is defined and data.family %},
   "mainEntityOfPage": {
     "@type": "CollectionPage",
-    "name": "{{ data.family }}",
+    "name": {{ data.family | jsonstr }},
     "url": "https://bjjgraph.org/Families/{{ data.family | slugify }}"
   }
   {%- endif %}
@@ -102,7 +102,7 @@ description: "{{ data.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ data.name.split('|')[0].strip() }}",
+      "name": {{ data.name.split('|')[0].strip() | jsonstr }},
       "item": "https://bjjgraph.org/Positions/{{ data.name.split('|')[0].strip().replace(' ', '-') }}"
     }
   ]
@@ -151,8 +151,8 @@ description: "{{ data.description }}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ data.name }}",
-  "description": "{{ data.summary }}",
+  "name": {{ data.name | jsonstr }},
+  "description": {{ data.summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>

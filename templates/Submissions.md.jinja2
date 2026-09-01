@@ -21,8 +21,8 @@ description: "{{description}}"
     {%- for step in execution_steps[:8] %}
     {
       "@type": "HowToStep",
-      "name": "{{step.action}}",
-      "text": "{{step.description}}",
+      "name": {{ step.action | jsonstr }},
+      "text": {{ step.description | jsonstr }},
       "position": {{loop.index}}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -40,10 +40,10 @@ description: "{{description}}"
     {%- for qa in flashcards[:6] %}
     {
       "@type": "Question",
-      "name": "{{qa.question}}",
+      "name": {{ qa.question | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{qa.answer}}"
+        "text": {{ qa.answer | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -55,8 +55,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{name}}",
-  "description": "{{description}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ description | jsonstr }},
   "url": "https://bjjgraph.org/Submissions/{{name.replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
@@ -73,7 +73,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Submissions/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Submissions/{{name.replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -83,8 +83,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>

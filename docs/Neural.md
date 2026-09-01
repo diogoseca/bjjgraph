@@ -525,9 +525,11 @@ on-demand chunk a node dossier already uses, keyed `<Name>|Principle|Learning|Sy
 renderer — `_bodyDocHTML`, with `NG_DOC_LABELS` naming each library's blocks (no label, not drawn).
 A cached `null` is a MISS here, never an answer: `_docBody` forces one re-read per key per session
 and `_hydrateContent` retries a transport failure (`NG_CHUNK_TRIES`) while still caching a 404.
-Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and seats the
-board on a position it names (`_seedPageFromUrl`) instead of the front-door draw — the seat needs
-the intro still running, the panel does not.
+Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
+techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
+`_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
+submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
+asked for, and the owner's reference law replaced it.
 
 **Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
 describe material difficulty, never rank or access. The frontier belt drives the default-open

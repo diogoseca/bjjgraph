@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.163.0** — [THE REFERENCE SURFACES DO NOT PLAY](#v1-163-0-the-reference-surfaces-do-not-play)
 - **v1.155.3** — [THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION](#v1-155-3-the-system-that-never-spoke-and-the-miss)
 - **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
 - **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
@@ -5736,6 +5737,93 @@ diagnosis. Regenerate before you attribute.
 4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.
 
 ---
+
+## v1.163.0 — THE REFERENCE SURFACES DO NOT PLAY
+
+Owner, and it is a RULE rather than a bug report: *"Principles and systems should mean the roll is
+not on. It only starts if the player clicks on a position, transition or submission. Clicking on
+principles and systems and learning will only highlight techniques it references. That's the
+rule."*
+
+**THIS REVERSES v1.155.3, WHICH WAS CORRECT FOR ITS CONTRACT.** `/Principles/<slug>`,
+`/Learning/<slug>` and `/Systems/<slug>` are real built pages and none is a graph node, so
+`_seedFromUrl` resolved nothing and all 129 of them booted the front-door weighted draw — the
+reader who asked for a principle got a random roll. v1.155.3 fixed that by SEATING the board on
+the first position among the entry's members. Under the rule above that seat is itself the defect:
+it is still a roll nobody asked to start, chosen by the app rather than by the player. The old
+journey's assertions — *"the board is seeded from the page, not left to the front-door draw"* and
+*"the roll stands where the principle teaches"* — are deliberately inverted, and the spec header
+records why so the reversal reads as a ruling and not as a regression.
+
+**THE THIRD STATE.** `introDone` (3.2s) handed the board to exactly two branches: a URL seat, or
+`startRoll()`. A reference page must take NEITHER, so deleting the seat alone would have fallen
+straight through to the front-door draw — i.e. back to the v1.155.2 bug. `_refPage` is that third
+branch: the panel opens, its techniques light, and the board stays empty until the player clicks
+something they can stand on.
+
+**AND IT CLOSED A RACE THE SEAT HAD.** The seat was computed inside `_seedPageFromUrl`'s `.then()`
+and guarded by `!this.introDone` — but `concepts.json`/`systems.json` are DEFERRED, so on a slow
+connection the 3.2s handoff had already dealt a front-door hand and the arrival lost silently.
+`_refPage` is set SYNCHRONOUSLY from the path regex, before any fetch: the page KIND is knowable
+from the address, so the decision no longer depends on when 63KB lands. It also covers the 3
+`.md`-only Learning pages, which have no payload row to open — nothing highlights, and nothing
+plays either, because the rule is about what kind of page this is and not about whether we hold
+data for it.
+
+**MUTANTS, four killed, and the pair matters.** Reference-page arrival falls through to
+`startRoll()` again → the two arrival journeys red · the arrival stops marking itself → red · the
+v1.155.3 seat restored → red · **a member row no longer starts a roll → red.** The last one is the
+rule's *other* half and is why it is asserted at all: "arriving starts nothing" on its own is
+indistinguishable from a broken app, so the same journey clicks a technique the principle names
+and requires the roll to begin there. The Systems arrival is a separate journey because Systems is
+a separate payload and a separate open path (`openSystem`) — a fix applied only to concepts would
+have left half the libraries playing.
+
+## THE SCHEMA MARKUP THAT DID NOT PARSE
+
+Found while measuring, not reported: `npm run build` prints
+`SchemaExtractor: Invalid JSON-LD in Learning/Conscious-Mastery` — one line among thousands, exit
+0. Every content page builds its JSON-LD by interpolating authored prose into a hand-written JSON
+string literal (`"text": "{{ qa.answer }}"`), and Jinja has no idea it is writing JSON. That page's
+FAQ answer says `such as "Mount principles"`; the quote ends the string early and the block is
+unparseable. Google drops an invalid block silently, and `check_seo_parity.py` reads the
+`<article>`, not the `<script>` — so the rich result stops existing and nothing anywhere says so.
+Section 6.6, one vocabulary over.
+
+**MEASURED: 1 bad block of 21,545, across 4,603 generated files.** 89 interpolations whose whole
+value is a single expression are now `{{ x | jsonstr }}`. 86 more are literal text PLUS an
+expression (`"{{ error.consequence }} The correct approach is: {{ error.correction }}"`) and are
+equally capable of breaking; they are NOT rewritten, because restructuring each into a
+concatenation is a 15-template change in an unrelated sprint and a half-done pass that reads as
+finished is worse than a gate that names the file the day it breaks. `--report-exposure` prints
+that 86 on demand.
+
+**`| jsonstr`, NOT Jinja's `| tojson`.** `tojson` also HTML-escapes apostrophes to `\u0027` —
+correct, and it rewrote **3,810 files / 19,364 lines** whose entire content was cosmetic. The
+custom filter escapes what JSON requires plus the three characters that can end a `<script>`
+early, and leaves apostrophes alone: **the corpus diff is 1 file, 1 line.**
+
+**THE SAME REGEX BUG, TWICE, IN ONE SITTING — recorded because it is the lesson.** The rewrite's
+pattern used `(.*?)` under `fullmatch`, which happily spans `}} literal {{`, so it read a
+literal+expression value as one expression and emitted raw prose where a quoted string belonged —
+corrupting 4 values and turning ~2,000 position pages red. The survey said 89 and the rewrite did
+93; **that four-count disagreement was the signal and it was skipped.** Fixed by making survey and
+rewrite share one pattern (`[^{}]*?`) and ASSERTING the counts agree. Then the gate's own
+`--report-exposure` was found still carrying the loose copy — reporting 82/4 where an independent
+count said 86/0. Section 6.3: a second implementation agrees with itself by construction.
+
+**GATE.** `scripts/check_schema_jsonld.py` (`npm run validate:schema`, wired into
+`ci-validate.yml`, whose paths filter already carries `content/**` and `templates/**`). It prints a
+positive coverage count every run and floors it, so a scan that matches nothing fails LOUDLY
+instead of reading as a clean corpus. Mutants: the block pattern renamed → floors fire naming the
+cause; the template fix reverted → the real break returns, named, exit 1.
+
+**NOT DONE, and it was asked for.** "Fix content gaps — Triangle from Guard is great." Both gaps
+this session had reported were already closed on dev before this branch started: v1.156.0 verified
+`Triangle from Guard` was never missing (it is a Transition, and v1.155.3's cross-type rung is
+what made the Submission-typed reference to it resolve), and authored the genuinely-absent
+`Achilles Lock from Inside Ashi-Garami`. Both payloads now report **0 unresolved refs**. Nothing
+was re-authored here.
 
 ## v1.155.3 — THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION
 

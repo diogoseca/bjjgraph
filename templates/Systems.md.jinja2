@@ -21,8 +21,8 @@ description: "{{description}}"
     {%- for step in implementation_sequence[:8] %}
     {
       "@type": "HowToStep",
-      "name": "{{step.phase}}",
-      "text": "{{step.description}}",
+      "name": {{ step.phase | jsonstr }},
+      "text": {{ step.description | jsonstr }},
       "position": {{loop.index}}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -34,8 +34,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{name}}",
-  "description": "{{description}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ description | jsonstr }},
   "url": "https://bjjgraph.org/Systems/{{name.replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
@@ -52,7 +52,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Systems/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Systems/{{name.replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -68,7 +68,7 @@ description: "{{description}}"
       "name": "What is a common obstacle: {{obstacle.obstacle}}?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{obstacle.solution}}"
+        "text": {{ obstacle.solution | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -81,8 +81,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{name}}",
-  "description": "{{summary}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>

@@ -21,8 +21,8 @@ description: "{{description}}"
     {%- for step in decision_framework[:6] %}
     {
       "@type": "HowToStep",
-      "name": "{{step.decision_point}}",
-      "text": "{{step.action}}",
+      "name": {{ step.decision_point | jsonstr }},
+      "text": {{ step.action | jsonstr }},
       "position": {{loop.index}}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -34,8 +34,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{name}}",
-  "description": "{{description}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ description | jsonstr }},
   "url": "https://bjjgraph.org/Principles/{{name.replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
@@ -52,7 +52,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Principles", "item": "https://bjjgraph.org/Principles/"},
-    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Principles/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Principles/{{name.replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -81,8 +81,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{name}}",
-  "description": "{{summary}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>

@@ -9520,6 +9520,23 @@ class Component extends DCLogic {
     const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
     const m = /^(Principles|Learning|Systems)\/(.+)$/i.exec(id);
     if (!m) return false;
+    // ── THE REFERENCE SURFACES DO NOT PLAY (owner's rule) ────────────────────────────────────
+    // "Principles and systems should mean the roll is not on. It only starts if the player clicks
+    // on a position, transition or submission. Clicking on principles and systems and learning
+    // will only highlight techniques it references."
+    //
+    // So this marks the arrival and NOTHING ELSE follows from it: no seat, no hand, no stage. The
+    // panel opens and its techniques light; `_refPage` is what stops the intro handoff from
+    // falling through to `startRoll()` (see introDone) now that there is no seat to take instead.
+    //
+    // SET SYNCHRONOUSLY, FROM THE PATH ALONE, and that is the fix for a race the seat had: the
+    // payload is DEFERRED, so the old seat was decided inside this `.then()` and was conditional
+    // on `!introDone` — a slow payload meant the 3.2s handoff had already dealt a front-door hand
+    // and the arrival lost. The page KIND is knowable from the address with no fetch at all, so
+    // the decision no longer depends on when 63KB lands. It also covers the 3 .md-only Learning
+    // pages, which have no payload row to open: nothing highlights, and nothing plays either —
+    // the rule is about what kind of page this is, not about whether we happen to hold data.
+    this._refPage = true;
     const sys = /^systems$/i.test(m[1]);
     (sys ? this._ensureSystems() : this._ensureConcepts()).then(() => {
       const by = (sys ? this._systemsById : this._conceptsById) || {};
@@ -9530,20 +9547,6 @@ class Component extends DCLogic {
       if (!key) { const want = id.toLowerCase(); for (const k in by) if (k.toLowerCase() === want) { key = k; break; } }
       if (!key) return;   // a page with no payload row — e.g. the 3 .md-only Learning pages
       const entry = by[key];
-      if (!this.introDone) {
-        const idxs = sys ? this.systemNodeIdxs(entry) : this.conceptNodeIdxs(entry);
-        // A POSITION IS A PLACE YOU CAN STAND. Techniques resolve to their origin anyway
-        // (techniqueOrigin), but a position member is the seat the page's own list puts first
-        // without a derivation in between; the fallback is the first member in emitted order, so
-        // this is deterministic for a given payload rather than "whatever came back".
-        let seat = -1;
-        for (const i of idxs) {
-          const n = this.nodes[i]; if (!n) continue;
-          if (seat < 0) seat = i;
-          if (n.ty === "positions") { seat = i; break; }
-        }
-        if (seat >= 0) { this._urlSeedIdx = seat; this._urlSeedRole = null; this._urlSeeded = true; this._prefetchLandDeck(seat); }
-      }
       if (sys) this.openSystem(key); else this.openConcept(key);
     });
     return false;
@@ -14514,6 +14517,14 @@ class Component extends DCLogic {
             this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole);
             this._staged = this.currentPos;
             tgt = null;   // ...and the intro's parting overview must not overwrite that framing
+          } else if (this._refPage) {
+            // A REFERENCE PAGE STARTS NOTHING (owner's rule; see _seedPageFromUrl). Not a seat and
+            // not a draw — the reader asked to read about a principle, a system or a lesson, and a
+            // roll they did not ask for is the thing being fixed. The board stays empty until they
+            // click a position, transition or submission; the pane holds the entry and the graph
+            // holds its lit set, whose own camera lease is re-asserted by the camHeld() branch
+            // above. `currentPos` stays undefined here, which is the same state the whole intro
+            // runs in, so nothing downstream meets a shape it has not already seen.
           } else {
             this.startRoll();
           }

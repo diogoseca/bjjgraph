@@ -36,11 +36,23 @@ import { journey } from "../dsl";
  *          [data-concept-node], [data-concept-link], [data-concept-page]
  * Beats (PostHog): neural_concept_opened
  *
- * AND THE URL (v1.155.3). /Principles/<slug>, /Learning/<slug> and /Systems/<slug> are real built
- * pages — they are what search and every wikilink hand out — and none of them is a graph node, so
- * `_seedFromUrl` resolved nothing and all 129 of them booted the front-door weighted draw: the
- * reader who asked for a principle got a random roll and no principle. The last test here is that
- * arriving on one OPENS it and stands the board where it teaches.
+ * THE REFERENCE SURFACES DO NOT PLAY — the owner's rule, and the reason this file exists twice
+ * over. "Principles and systems should mean the roll is not on. It only starts if the player
+ * clicks on a position, transition or submission. Clicking on principles and systems and learning
+ * will only highlight techniques it references. That's the rule."
+ *
+ * So a Principle, a Learning entry and a System are things you READ. Opening one — by clicking its
+ * row or by typing its address — lights the techniques it references and shows its body, and does
+ * NOT seat the board, deal a hand, stage anything or start a roll. The roll starts when the player
+ * clicks a POSITION, TRANSITION or SUBMISSION, and only then. Both halves are asserted here,
+ * because the first half alone is indistinguishable from a broken app.
+ *
+ * HISTORY, so the reversal is legible. /Principles/<slug>, /Learning/<slug> and /Systems/<slug>
+ * are real built pages and none is a graph node, so `_seedFromUrl` resolved nothing and all 129
+ * booted the front-door weighted draw (fixed v1.155.3 by seating the board on a member position).
+ * That seat is now itself the defect: it is a roll the reader never asked to start. v1.155.3's
+ * assertions ("the board is seeded from the page", "the roll stands where the principle teaches")
+ * were CORRECT for their contract and are deliberately inverted below.
  *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · the .md-only Learning pages (3 today, `_meta.mdOnlyPages`) are deliberately NOT rows — this
@@ -84,6 +96,31 @@ const payload = () => {
       );
   }
   return PAYLOAD;
+};
+
+/** systems.json, read the same way concepts.json is: the SERVED copy first, the emitted copy as
+ *  the fallback before a build has copied it across. The rule covers all three libraries and
+ *  Systems is a separate payload, so this journey cannot borrow the concepts one. */
+let SYS: { systems: Array<{ id: string; nodes: string[] }> } | null = null;
+const systemsPayload = () => {
+  if (!SYS) {
+    for (const rel of [
+      "../../source/public/static/neural/systems.json",
+      "../../source/quartz/static/neural/systems.json",
+    ]) {
+      try {
+        SYS = JSON.parse(readFileSync(resolve(__dirname, rel), "utf8"));
+        break;
+      } catch {
+        /* next candidate */
+      }
+    }
+    if (!SYS)
+      throw new Error(
+        "systems.json is not emitted — run `npm run regenerate:neural`",
+      );
+  }
+  return SYS;
 };
 
 const of = (cat: "Principle" | "Learning") =>
@@ -375,13 +412,14 @@ test("Explore lists every authored Learning entry, and opening one opens content
   expect(errors, "no page error across the journey").toEqual([]);
 });
 
-test("arriving on a principle's own page opens that principle — not a random roll @curated", async ({
+test("arriving on a principle's own page opens it and starts NOTHING @curated", async ({
   page,
 }) => {
   const errors = watchErrors(page);
-  // The widest principle that names at least one POSITION. The position half is load-bearing and
-  // not a convenience: a roll can only STAND in a position, so this is the concept whose seat is
-  // checkable end to end. Chosen from the payload, never named here.
+  // The widest principle that names at least one POSITION. Nothing is seated any more (see the
+  // rule above), but the position half is still load-bearing for the SECOND half of this journey:
+  // it is the member whose click has to start the roll the arrival refused to. Chosen from the
+  // payload, never named here.
   const target = payload()
     .concepts.filter(
       (c) =>
@@ -411,40 +449,115 @@ test("arriving on a principle's own page opens that principle — not a random r
     page.locator(`[data-concept-detail="${target.id}"]`),
     "on the side panel, which is what the address named",
   ).toBeVisible();
-  expect(
-    await litIds(page),
-    "and its techniques are lit on the graph",
-  ).toEqual([...target.nodes].sort());
+  expect(await litIds(page), "and its techniques are lit on the graph").toEqual(
+    [...target.nodes].sort(),
+  );
 
-  const seed = await page.evaluate(() => {
+  // ── THE RULE. Nothing is seated and nothing is dealt. The intro runs for 3.2s and then hands
+  //    the board either to a URL seat or to `startRoll()`; a reference page must take NEITHER
+  //    branch, so this advances well past that handoff before asking.
+  await j.advance(4000);
+  const idle = await page.evaluate(() => {
     const a = (window as any).__neural;
     return {
       seeded: !!a._urlSeeded,
-      id: a._urlSeedIdx >= 0 && a.nodes[a._urlSeedIdx] ? a.nodes[a._urlSeedIdx].id : null,
+      seedIdx: a._urlSeedIdx,
+      pos: a.currentPos == null ? null : a.currentPos,
+      staged: a._staged == null ? null : a._staged,
+      played: !!a._played,
+      landCard: !!a._landEl,
+      rollLog: (a.rollLog || []).length,
     };
   });
-  expect(
-    seed.seeded,
-    "the board is seeded from the page, not left to the front-door draw",
-  ).toBe(true);
-  expect(
-    target.nodes,
-    "and seeded at a node this principle actually names",
-  ).toContain(seed.id);
+  expect(idle.seeded, "a reference page seeds no board").toBe(false);
+  expect(idle.pos, "nothing is standing anywhere").toBe(null);
+  expect(idle.staged, "and nothing is staged").toBe(null);
+  expect(idle.played, "and no roll has played").toBe(false);
+  expect(idle.landCard, "and no landing card was built").toBe(false);
+  expect(idle.rollLog, "and the roll log is empty").toBe(0);
 
-  // ...and the intro hands the board to that seat. `siteIdOf` because a pair partner carries a
-  // different id from the hub the payload names (CLAUDE.md 6.6) — the app's own normaliser, not a
-  // second copy of the rule.
-  await j.advance(4000);
-  const stood = await page.evaluate((ids: string[]) => {
-    const a = (window as any).__neural;
-    const here = a.siteIdOf(a.nodes[a.currentPos].id);
-    return { here: here, inSet: ids.map((i) => a.siteIdOf(i)).indexOf(here) >= 0 };
-  }, target.nodes);
+  // The beat stream is the app's own record of a hand existing. `options_dealt` is what the
+  // cold-start spine calls "the first actionable state" (app.src.jsx `hand_dealt`), and
+  // `roll_staged` is what a stage fires — a reference arrival must emit neither.
+  const beats = (await j.beats()).map((b) => b.beat);
   expect(
-    stood.inSet,
-    `the roll stands where the principle teaches (stood on ${stood.here})`,
-  ).toBe(true);
+    beats.filter((b) => b === "options_dealt" || b === "roll_staged"),
+    "no hand was dealt and nothing was staged",
+  ).toEqual([]);
+
+  // ── THE OTHER HALF OF THE RULE, and it is what keeps the first half from being "the app is
+  //    broken": a POSITION, TRANSITION or SUBMISSION is what starts a roll, and the concept's own
+  //    member list is full of them. Clicking one begins the roll the arrival refused to begin.
+  const nodeRow = page.locator("[data-concept-node]").first();
+  const clickedId = await nodeRow.getAttribute("data-concept-node");
+  await nodeRow.click();
+  await j.advance(600);
+  const after = await page.evaluate((id: string) => {
+    const a = (window as any).__neural;
+    const site = (i: number) => (a.nodes[i] ? a.siteIdOf(a.nodes[i].id) : null);
+    return {
+      here: [
+        a._stagedTech ? site(a._stagedTech.idx) : null,
+        site(a.currentPos),
+      ],
+      want: a.siteIdOf(id),
+      staged: a._staged != null,
+    };
+  }, clickedId!);
+  expect(
+    after.here,
+    "clicking a technique the principle names is what starts the roll",
+  ).toContain(after.want);
+  expect(after.staged, "and it is a real staged roll").toBe(true);
+
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("arriving on a System's own page opens it and starts NOTHING", async ({
+  page,
+}) => {
+  const errors = watchErrors(page);
+  // Systems are the OTHER payload and the OTHER open path (`openSystem`, `systems.json`), so the
+  // rule has to be claimed for them separately — a fix applied only to concepts would leave half
+  // the libraries playing. Read from the systems payload for the same reason concepts are.
+  const sys = systemsPayload()
+    .systems.filter((x) => (x.nodes || []).length > 0)
+    .sort((a, b) => b.nodes.length - a.nodes.length)[0];
+  expect(sys, "some system lights nodes").toBeTruthy();
+
+  const j = journey(page);
+  await j.boot("/" + sys.id);
+  await expect
+    .poll(() => page.evaluate(() => (window as any).__neural._systemId), {
+      timeout: 20_000,
+      message:
+        "the system page opened its own system (needs `npm run regenerate:neural` + a build)",
+    })
+    .toBe(sys.id);
+
+  await j.advance(4000);
+  const idle = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return {
+      pos: a.currentPos == null ? null : a.currentPos,
+      staged: a._staged == null ? null : a._staged,
+      played: !!a._played,
+      lit: a._focusIdxSet ? a._focusIdxSet.size : 0,
+    };
+  });
+  expect(idle.pos, "a System page stands the board nowhere").toBe(null);
+  expect(idle.staged, "and stages nothing").toBe(null);
+  expect(idle.played, "and plays nothing").toBe(false);
+  expect(
+    idle.lit,
+    "but it DOES light the techniques it teaches — that is the whole of what it does",
+  ).toBe(sys.nodes.length);
+
+  const beats = (await j.beats()).map((b) => b.beat);
+  expect(
+    beats.filter((b) => b === "options_dealt" || b === "roll_staged"),
+    "no hand, no stage",
+  ).toEqual([]);
 
   expect(errors, "no page error across the journey").toEqual([]);
 });

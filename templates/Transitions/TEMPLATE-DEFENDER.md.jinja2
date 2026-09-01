@@ -21,7 +21,7 @@ description: "{{ defender.description }}"
     {%- for option in defender.defensive_options[:6] %}
     {
       "@type": "HowToStep",
-      "name": "{{ option.action }}",
+      "name": {{ option.action | jsonstr }},
       "text": "{{ option.when_to_use }}{% if option.if_successful %} If successful: {{ option.if_successful }}{% endif %}",
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
@@ -41,10 +41,10 @@ description: "{{ defender.description }}"
     {%- for qa in defender.flashcards[:6] %}
     {
       "@type": "Question",
-      "name": "{{ qa.question }}",
+      "name": {{ qa.question | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ qa.answer }}"
+        "text": {{ qa.answer | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -58,7 +58,7 @@ description: "{{ defender.description }}"
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "{{ name }} Defender",
-  "description": "{{ defender.description }}",
+  "description": {{ defender.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
@@ -77,7 +77,7 @@ description: "{{ defender.description }}"
   }{%- if family is defined and family %},
   "mainEntityOfPage": {
     "@type": "CollectionPage",
-    "name": "{{ family }}",
+    "name": {{ family | jsonstr }},
     "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
   }
   {%- endif %}
@@ -105,7 +105,7 @@ description: "{{ defender.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ name }}",
+      "name": {{ name | jsonstr }},
       "item": "https://bjjgraph.org/Transitions/{{ name.replace(' ', '-') }}"
     },
     {

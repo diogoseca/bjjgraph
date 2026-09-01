@@ -305,6 +305,15 @@ the game stops; close = it resumes, but only if the pane is what stopped it** (l
 `applyDeckVisibility`, not `setDeckOpen`). One pane, anchored left, three tabs: Explore ·
 Challenges · Last rolls.
 
+**Reference law** (owner). A **Principle, a Learning entry and a System are pages, not places.**
+Opening one — its row, or its own URL — lights the techniques it references and shows its body,
+and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only when the
+player clicks a position, transition or submission.** `_refPage`, set from the path alone in
+`_seedPageFromUrl`, is what holds the intro handoff off `startRoll()`; deciding it from the path
+rather than from the payload is deliberate, because the payload is deferred and used to lose the
+race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts
+nothing, and a member row that starts a roll).
+
 **The hand.** `optionsFor` deals every legal move (uncapped), ranked by **EDGE**, and the order is
 **frozen at deal time** — a mid-decision grade moves the printed numbers but must never re-sort a
 tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):

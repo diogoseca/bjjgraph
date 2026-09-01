@@ -82,6 +82,17 @@ jobs:
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
 
+      # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
+      # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
+      # string early and the block is silently unparseable: Google drops it without a word, the
+      # build prints one line among thousands and exits 0, and check_seo_parity reads the
+      # <article> rather than the <script>. Measured when this was added: 1 of 21,545 blocks.
+      # The gate prints a positive coverage count and floors it, so "found no problems" can never
+      # be produced by "never looked" (CLAUDE.md §6.6). Its inputs — content/**, templates/** —
+      # are already in this job's paths filter above.
+      - name: Schema markup parses (hard gate)
+        run: npm run validate:schema
+
       # The seat axis: a card served to a seat must have been written FOR that seat, and every
       # seat that ships a deck must own at least one such card. Reads `content/**` and NOTHING
       # else — deliberately above the payload emit below, because a gate whose corpus is
