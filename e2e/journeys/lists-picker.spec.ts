@@ -488,7 +488,7 @@ test.describe("in the 390px drawer", () => {
     // (Option cards lost their own + in v1.101.1.)
     const optAdd = page.locator('[data-list-add][data-list-surface="land"]').first();
     await expect(optAdd).toBeVisible();
-    const ab = (await optAdd.boundingBox())!;
+    const ab = await j.boxOf('[data-list-add][data-list-surface="land"]', "the land + control");
     await page.touchscreen.tap(ab.x + ab.width / 2, ab.y + ab.height / 2);
 
     const picker = page.locator("[data-list-picker]");
@@ -561,7 +561,7 @@ test.describe("in the 390px drawer", () => {
     await page.screenshot({ path: resolve(SHOTS, "picker-390-option-card.png") });
 
     // a real touch on a row files it, with the clock still running
-    const rowBox = (await page.locator("[data-list-pick]").nth(1).boundingBox())!;
+    const rowBox = await j.boxOf("[data-list-pick] >> nth=1", "the second picker row");
     const chosen = await page
       .locator("[data-list-pick]")
       .nth(1)

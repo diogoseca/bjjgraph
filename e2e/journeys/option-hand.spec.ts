@@ -88,7 +88,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
-  expect(hands.length, "all 272 role-hands were walked").toBe(272)
+  expect(hands.length, "all 272 role-hands were walked").toBe(272) // census:roleHands
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
@@ -289,7 +289,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
       fbDistinct: new Set(fb).size,
     }
   })
-  expect(wire.n, "the corpus").toBe(298)
+  expect(wire.n, "the corpus").toBe(298) // census:submissions
   expect(wire.uncalibrated, "every submission carries a calibrated rate").toBe(0)
   expect(wire.min, "authored rates run from").toBe(10)
   expect(wire.max, "...to").toBe(74)

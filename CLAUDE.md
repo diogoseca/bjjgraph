@@ -219,6 +219,8 @@ walk, zero attempt-mass loss, no dead-end state — and it writes
 `tests/artifacts/flow_validation_baseline.json` ·
 **`validate:claudemd`** this file's own char ratchet and reference integrity.
 
+**The corpus census.** Corpus sizes are hard-coded across specs as tripwires, on purpose. `tests/corpus_census.test.mjs` computes every one of them from the wire (~0.5s, no browser) and fails naming EVERY stale literal at once with `file:line` and `old -> new`; `npm run census:update` rewrites them. Mark a new literal with a trailing `// census:<key>` comment — the line must carry exactly one number outside strings, or the scan refuses it rather than guessing. **This runs in `test:units`, so it fires on a push to dev** — which is the whole point: a push to dev runs no Playwright, so before the census a content change met its stale e2e literals one at a time, a deploy later. That happened twice (v1.155.2, v1.158.1).
+
 **Regenerate** — `regenerate` runs the full chain: `issues → json → explode → migrate:ruleset →
 validate:graph (gate) → md → hubs → votes → graph → explorer`. Individually: `regenerate:issues`
 lists files needing fixes · `regenerate:json` the costly Claude pass (600s interval; `:fast` for 0)
@@ -233,6 +235,8 @@ lists files needing fixes · `regenerate:json` the costly Claude pass (600s inte
 **Build and serve** — `build` (Quartz, ~10 min, then share-shell + payload budget) ·
 `build:share-shell` · `build:forward` · `serve` (`scripts/dev-serve.mjs` on :8080, with the
 `<snapshot />` receiver) · `dev` = build + serve.
+
+**Bootstrap a fresh worktree** — `npm run bootstrap` (npm install + chromium + the neural payload, ~1 min) is everything the unit suites, the census and the validators need. The e2e journeys additionally need a BUILT site: `npm run build` (~10 min) then `npm run dev:neural:app`. That gap is why work has shipped unverified — a fresh worktree has no `node_modules` and no `source/public`, so `npm test` cannot run at all until you pay it.
 
 **Neural bundle** — `dev:neural:app` rebuilds the bundle and copies it into `source/public`
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·

@@ -96,7 +96,7 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 // the same source it is checking.
 test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1328, "the technique site count itself");
+  assert.equal(tech.length, 1328, "the technique site count itself"); // census:techSites
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -105,7 +105,7 @@ test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |De
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2656, "positive coverage: every technique seat was read");
+  assert.equal(checked, 2656, "positive coverage: every technique seat was read"); // census:techMembers
 });
 
 test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", () => {
@@ -177,6 +177,6 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
     }
   }
   assert.equal(states, 272, "every position seat deals a hand");   // positive coverage
-  assert.equal(options, 1328, "and the whole corpus of dealt options was read");
+  assert.equal(options, 1328, "and the whole corpus of dealt options was read"); // census:techSites
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

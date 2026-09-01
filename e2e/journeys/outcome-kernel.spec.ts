@@ -115,11 +115,11 @@ test("@curated every node's rolled outcome distribution IS its authored one, dra
   // technique node on the emitted wire carries cal.outcomes — 1030 transitions + 298 submissions
   // = 1328, with ZERO technique nodes missing one. So this stays a real coverage floor: a sweep
   // that started skipping nodes would still drop below it and fail here.
-  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1328)
+  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1328) // census:calOutcomeNodes
   // 1324 of 1328 (1322 of 1326 before v1.156.0; both new nodes end in a counter, +2). THE TAIL IS
   // THE PART THIS LINE GUARDS AND IT HAS NEVER MOVED: 3 ending in failure, 1 in success, measured
   // again on this corpus and bit-identical across the collapse AND the two additions.
-  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1324)
+  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1324) // census:endsCounter
   expect(r.sideEffects, "the probe moved nothing: zero fx beats emitted").toBe(0)
 
   // Pre-fix this read mean 0.0902 / max 0.2440 with ZERO nodes at 0. The tolerance is the sweep

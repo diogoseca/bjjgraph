@@ -997,7 +997,7 @@ test("the + beside Your lists creates a class list — the one deliberate creati
 
   const plus = page.locator("[data-lists-new]");
   await expect(plus).toHaveAttribute("aria-label", "New list");
-  const box = (await plus.boundingBox())!;
+  const box = await j.boxOf("[data-lists-new]", "the New list +");
   expect(box.width, "44px target").toBeGreaterThanOrEqual(44);
   expect(box.height, "44px target").toBeGreaterThanOrEqual(44);
 

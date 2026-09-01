@@ -84,7 +84,21 @@ const NO_CHANGES = {
   related_submissions_to_remove: [], related_submissions_to_add: [],
 };
 
-/** Run the real script over a scratch corpus; returns { stdout, before, after }. */
+/**
+ * Run the real script over a scratch corpus; returns { stdout, before, after }.
+ *
+ * THE EXIT STATUS IS ASSERTED HERE, and that is the point of this wrapper (v1.159.2). Until it
+ * was, this function returned only stdout and the file, so a script that DIED before touching
+ * anything produced the identical evidence as a genuine de-fork regression: "edit did not
+ * apply". That is exactly the CLAUDE.md 6.6 shape — absence producing a plausible answer —
+ * inside the file written to catch it, and it cost a full investigation to unpick. When the
+ * tqdm fallback returned a bare list (fixed in v1.159.1), these tests were red on dev for
+ * WEEKS reading like a content defect; the traceback was in the message the whole time, at the
+ * end, under a banner that looked like normal output.
+ *
+ * A non-zero exit is now its own failure, quoting the tail of stderr, so the next crash names
+ * itself on the first line instead of being read as a fork defect.
+ */
 function runAudit({ dir: sub, name, doc, changes }) {
   const dir = mkdtempSync(join(tmpdir(), "proofread-fork-"));
   try {
@@ -106,6 +120,16 @@ function runAudit({ dir: sub, name, doc, changes }) {
 
     const r = spawnSync("python3", [SCRIPT, "--file", target, "--stub-response", stub, "--batch"],
       { cwd: dir, encoding: "utf8" });
+    if (r.error) {
+      assert.fail(`the proofreader could not be spawned: ${r.error.message}`);
+    }
+    if (r.status !== 0) {
+      const tail = String(r.stderr || "").trim().split("\n").slice(-12).join("\n");
+      assert.fail(
+        `the proofreader EXITED ${r.status} — it never reached the edit, so nothing below this ` +
+        `line is evidence about forking. Last 12 lines of stderr:\n${tail}`,
+      );
+    }
     return { stdout: `${r.stdout}${r.stderr}`, before, after: readFileSync(target, "utf8") };
   } finally {
     rmSync(dir, { recursive: true, force: true });

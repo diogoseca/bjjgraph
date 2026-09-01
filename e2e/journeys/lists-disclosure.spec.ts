@@ -149,7 +149,7 @@ test("a list's techniques live behind its count line — the chevron opens them 
   // one row below these. Pinning 44 here made the Lists section the ONE part of the pane on a
   // different rhythm, which is exactly what the owner saw. 24 is also WCAG 2.2 AA (2.5.8).
   // and it names what it does for a screen reader
-  const box = (await toggle.boundingBox())!;
+  const box = await j.boxOf(`[data-list-open="${id}"]`, "the disclosure toggle");
   expect(box.height, "pane-sized target").toBeGreaterThanOrEqual(24);
   await expect(toggle).toHaveAttribute("aria-label", /Hide the techniques in “Monday fundamentals”/);
   expect(
@@ -285,7 +285,7 @@ test("× removes that technique from THAT list: count, storage and the lit graph
 
   const victim = picks[1];
   const rm = `[data-list-items="${id}"] [data-list-item-remove="${victim.id}"]`;
-  const rmBox = (await page.locator(rm).boundingBox())!;   // pane figure, see the note above
+  const rmBox = await j.boxOf(rm, "the item remove button");   // pane figure, see the note above
   expect(rmBox.width, "pane-sized target").toBeGreaterThanOrEqual(24);
   expect(rmBox.height, "pane-sized target").toBeGreaterThanOrEqual(24);
   await expect(page.locator(rm)).toHaveAttribute("aria-label", `Remove ${victim.name} from this list`);
@@ -493,7 +493,7 @@ test.describe("in the 390px drawer", () => {
   expect(geo.scrolls, "the items region never becomes its own scroll box").toBe(false);
 
   // the toggle stays a real target in the drawer too (pane figure, not the in-roll one)
-  const tb = (await page.locator(`[data-list-open="${id}"]`).boundingBox())!;
+  const tb = await j.boxOf(`[data-list-open="${id}"]`, "the drawer toggle");
   expect(tb.height).toBeGreaterThanOrEqual(24);
 
   // and a real touch on the × removes, at MEASURED coordinates (never locator.click())

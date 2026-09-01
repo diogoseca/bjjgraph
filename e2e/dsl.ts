@@ -710,6 +710,43 @@ export class Journey {
    *  overlays must each re-enable `pointer-events`, it also retries through interception. Both
    *  turned "proven clickable by mouse" into a claim the assertion did not make. This one refuses to
    *  scroll, and names the element that is actually under the cursor when something else is. */
+  /**
+   * The element's laid-out box, waited for rather than snatched.
+   *
+   * `locator.boundingBox()` returns NULL for an element that is present but not yet laid out, or
+   * that was replaced between resolving the locator and measuring it — and the pane re-renders on
+   * deck hydration, which lands later on a slow CI box than on a dev machine. Read straight into
+   * `const box = (await x.boundingBox())!`, that null becomes
+   * `TypeError: Cannot read properties of null (reading 'width')`, which reads like a broken
+   * selector and is really a race. It cost a red curated gate on v1.158.2 that passed on a re-run
+   * of the identical job, with byte-identical app and content.
+   *
+   * `retries: 0` is deliberate here (see playwright.config.ts) — "a retry hides a rails bug" — so
+   * the answer is not to re-run the test, it is to stop reading a box before there is one. This
+   * waits for the element to be visible and to report a real box, then measures once.
+   *
+   * It does NOT weaken anything: an element that never lays out still fails, by timeout, naming
+   * itself. Assert on the returned box exactly as before.
+   */
+  async boxOf(selector: string, what?: string) {
+    const label = what || selector;
+    const loc = this.page.locator(selector);
+    await expect(loc, `${label}: never became visible, so it has no box to measure`).toBeVisible();
+    let box = await loc.boundingBox();
+    if (!box) {
+      // visible but not yet measurable (a re-render landed between the two calls) — one settle
+      await this.page.waitForTimeout(50);
+      box = await loc.boundingBox();
+    }
+    if (!box) {
+      throw new Error(
+        `${label}: visible but reported no bounding box twice. Either an ancestor has zero size, ` +
+        `or the element is being replaced faster than it can be measured.`,
+      );
+    }
+    return box;
+  }
+
   async clickByMouse(selector: string, what?: string) {
     const label = what || selector;
     const hit = await this.page.evaluate((sel) => {

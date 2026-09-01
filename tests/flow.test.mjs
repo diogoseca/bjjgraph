@@ -168,7 +168,7 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // by deriving it from the source it checks.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = REF.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 24, "24 decks backfire at lam 2 on a blank profile");
+  assert.equal(jsNeg.length, 24, "24 decks backfire at lam 2 on a blank profile"); // census:negDecks
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 24");
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
