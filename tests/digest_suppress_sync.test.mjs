@@ -205,3 +205,32 @@ test("an ordinary opted-in user with no suppression is unaffected", async () => 
   assert.equal(out.sent, 1);
   assert.equal(h.state.sent.length, 1, "and the per-day dedupe row is written");
 });
+
+// ── the envelope ────────────────────────────────────────────────────────────────────────
+
+test("the mail carries From, Reply-To and a one-click List-Unsubscribe", async () => {
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }] });
+  await withFetch(h.fetchImpl, () => runDigest(h.env));
+  assert.equal(h.mails.length, 1);
+  const m = h.mails[0];
+
+  assert.equal(m.from, "coach@bjjgraph.org", "From must stay the human mailbox");
+  // CAMELCASE. The REST API spells this `reply_to`; on the binding an unknown key is ignored
+  // and the mail still sends, so the wrong spelling drops the header with nothing going red.
+  assert.equal(m.replyTo, "coach@bjjgraph.org", "Reply-To missing or spelled the REST way");
+  assert.ok(!("reply_to" in m), "reply_to is the REST spelling — the binding will ignore it");
+
+  // RFC 8058: the URL goes in angle brackets, and the Post header is what makes it one click.
+  assert.ok(m.headers, "no headers object — the provider's own unsubscribe button stays dumb");
+  assert.equal(m.headers["List-Unsubscribe"], "<" + UNSUB_OF(m) + ">",
+    "List-Unsubscribe must carry the same signed URL as the body link");
+  assert.equal(m.headers["List-Unsubscribe-Post"], "List-Unsubscribe=One-Click");
+});
+
+/** The signed unsubscribe URL the body actually shipped — read back out of the mail, so the
+ *  header and the body link cannot drift apart. */
+function UNSUB_OF(mail) {
+  const m = /(https:\/\/bjjgraph\.org\/unsubscribe\?u=[^"\s<]+)/.exec(mail.text);
+  assert.ok(m, "the plaintext body lost its unsubscribe URL");
+  return m[1];
+}

@@ -26,6 +26,18 @@ import {
   SITE, beltEta, streakOf, renderText, renderHtml, renderSubject,
 } from "./render.js";
 
+// THE TWO ADDRESSES THE MAIL CARRIES, and they are deliberately the same mailbox.
+//   From:     who it is from, and where a reply goes when a client ignores Reply-To.
+//   Reply-To: where a reply goes explicitly. Stated even though it duplicates From, because
+//             the moment either changes (a no-reply sender, a different brand address) the
+//             replies must keep landing in a human inbox — and a Reply-To that was never
+//             there is the kind of omission nobody notices until the replies stop.
+// coach@bjjgraph.org is Email Routing -> the owner's personal inbox. Replies are read by a
+// person by design; there is no processing worker and must not be one without saying so.
+// The binding also accepts { email, name } here if a display name is ever wanted.
+const FROM = "coach@bjjgraph.org";
+const REPLY_TO = "coach@bjjgraph.org";
+
 // fnv1a32, byte-identical to the app's qhash — content chunks are addressed by it. It stays
 // HERE rather than in render.js: it addresses the content chunk the Worker fetches, so it
 // belongs with the fetching, not with the pure view.
@@ -175,20 +187,36 @@ export async function runDigest(env) {
         unsubUrl: SITE + "/unsubscribe?u=" + row.user_id + "&t=" + (await hmacToken(env, row.user_id)),
       };
 
-      // 5. send — the Email Service binding's simple-options API (verified against the owner's
-      // dashboard snippet, 2026-08-17: `env.EMAIL.send({to, from, subject, html, text})` returns
-      // {messageId}; no API token, no raw MIME). LOUD on absence: the runbook's one gate.
+      // 5. send — the Email Service binding's options API (owner's dashboard snippet,
+      // 2026-08-17; field list confirmed against Cloudflare's Workers API reference 2026-09-01:
+      // to/from/subject/html/text/cc/bcc/replyTo/headers/attachments, returns {messageId}).
+      // `replyTo` is CAMELCASE on the binding — the REST API spells the same field `reply_to`,
+      // and getting that backwards fails silently: an unknown key is simply ignored, the mail
+      // still sends, and the header is quietly absent. LOUD on absence: the runbook's one gate.
       // Replies go to coach@bjjgraph.org, which Email Routing forwards to the owner's inbox —
-      // deliberately human-read, no processing worker. The unsubscribe link lives in the body;
-      // when the simple API grows a headers field, add List-Unsubscribe one-click there too.
+      // deliberately human-read, no processing worker.
+      //
+      // LIST-UNSUBSCRIBE, finally. This comment used to say "when the simple API grows a headers
+      // field, add List-Unsubscribe one-click there too" — it has one, so here it is. RFC 8058:
+      // `List-Unsubscribe-Post` is what turns the mailbox provider's own Unsubscribe button into
+      // a single click, and Gmail and Yahoo have required it of bulk senders since 2024. The URL
+      // is the same HMAC-signed endpoint as the body link, and it already answers POST as well as
+      // GET, so there is nothing new to trust. NB the one hazard: a provider or scanner may POST
+      // that URL without a human, which unsubscribes silently — which is a reason to keep the
+      // suppression LIFTABLE from Settings (it is, since v1.149.1), not a reason to omit it.
       if (!env.EMAIL || typeof env.EMAIL.send !== "function")
         throw new Error("EMAIL binding missing — connect Email Service and copy the binding stanza from the dashboard's wrangler tab (see RUNBOOK.md)");
       const sent1 = await env.EMAIL.send({
         to: email,
-        from: "coach@bjjgraph.org",
+        from: FROM,
+        replyTo: REPLY_TO,
         subject: renderSubject(digest),
         html: renderHtml(digest),
         text: renderText(digest),
+        headers: {
+          "List-Unsubscribe": "<" + digest.unsubUrl + ">",
+          "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        },
       });
       if (!sent1 || !sent1.messageId) throw new Error("send returned no messageId");
 
