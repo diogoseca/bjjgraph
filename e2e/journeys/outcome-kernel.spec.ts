@@ -110,15 +110,16 @@ test("@curated every node's rolled outcome distribution IS its authored one, dra
   const r = await page.evaluate(SWEEP, GRID)
 
   // the corpus is the one the canon quotes — if these move, the measurement moved, not the app
-  // 1326, not 1331 (v1.155.0 collapsed five transition twins). VERIFIED COMPLETE, not merely
-  // lowered: every technique node on the emitted wire carries cal.outcomes — 1029 transitions +
-  // 297 submissions = 1326, with ZERO technique nodes missing one. So this stays a real coverage
-  // floor: a sweep that started skipping nodes would still drop below it and fail here.
-  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1326)
-  // 1322 of 1326, was 1327 of 1331. All five collapsed twins ended in a counter, so the tail that
-  // does NOT — 3 ending in failure, 1 in success — is bit-identical to before. That tail is the
-  // part this line actually guards, and it did not move.
-  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1322)
+  // 1328: 1331 before the v1.155.0 collapse of five transition twins, 1326 after, and 1328 once
+  // v1.156.0 added one transition and one submission. VERIFIED COMPLETE, not merely moved: every
+  // technique node on the emitted wire carries cal.outcomes — 1030 transitions + 298 submissions
+  // = 1328, with ZERO technique nodes missing one. So this stays a real coverage floor: a sweep
+  // that started skipping nodes would still drop below it and fail here.
+  expect(r.nodes, "every node carrying cal.outcomes was swept").toBe(1328)
+  // 1324 of 1328 (1322 of 1326 before v1.156.0; both new nodes end in a counter, +2). THE TAIL IS
+  // THE PART THIS LINE GUARDS AND IT HAS NEVER MOVED: 3 ending in failure, 1 in success, measured
+  // again on this corpus and bit-identical across the collapse AND the two additions.
+  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1324)
   expect(r.sideEffects, "the probe moved nothing: zero fx beats emitted").toBe(0)
 
   // Pre-fix this read mean 0.0902 / max 0.2440 with ZERO nodes at 0. The tolerance is the sweep

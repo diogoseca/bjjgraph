@@ -147,13 +147,17 @@ test("@curated the EDGE node-index join survives the split: every card prints th
   const legacy = await harvest(page)
 
   // the control group really is the old graph, and the subject really is the new one
-  // 1462/2924, not 1467/2934: v1.155.0 collapsed five moves authored as BOTH a transition and a
-  // submission, so five SITES are gone (their ordinals retired, never reused). The invariant these
-  // three lines exist for is untouched — legacy is one node per site, the default is exactly two
-  // members per site, and both cover the same rep set.
-  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1462)
-  expect(pair.nodes, "the default is two members per site").toBe(2924)
-  expect(pair.reps, "…over the same 1,462 sites").toBe(legacy.reps)
+  // 1464/2928. The corpus has moved twice and both moves are deliberate: v1.155.0 collapsed five
+  // transition twins (1467 -> 1462 sites, their ordinals retired and never reused), then v1.156.0
+  // added TWO sites — `Transitions/Half-Guard-to-Kimura-Trap`, which restores the success arrival
+  // into kimura-trap/bottom the collapse removed, and `Submissions/Achilles-Lock/from-Inside-Ashi-
+  // Garami`, the first authored member of the only family hub that had none (ordinals 1468 and
+  // 1467, minted append-only). 1462 + 2 = 1464. The invariant these three lines exist for is
+  // untouched — legacy is one node per site, the default is exactly two members per site, and both
+  // cover the same rep set.
+  expect(legacy.nodes, "the noPairs control group is one node per site").toBe(1464)
+  expect(pair.nodes, "the default is two members per site").toBe(2928)
+  expect(pair.reps, "…over the same 1,464 sites").toBe(legacy.reps)
 
   const keys = Object.keys(legacy.hands)
   expect(keys.length, "every role-hand is dealt on both graphs").toBe(272)
@@ -169,7 +173,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
     cards += legacy.hands[k].length
     marked += legacy.hands[k].filter((c: Any) => c.mark !== null).length
   }
-  expect(cards, "1,326 dealt cards compared").toBe(1326)
+  expect(cards, "1,328 dealt cards compared").toBe(1328)
   // …and the table is genuinely being read. Without this the test would pass on a build where
   // `_ev` came back empty on BOTH graphs — every mark null, every comparison trivially equal.
   expect(marked, "…of which most carry a real EDGE from the table").toBeGreaterThan(1200)
@@ -189,10 +193,11 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
 
   // ORDINALS ARE THE PROMISE. The rep member IS the hub node, so no ordinal is minted, none moves,
   // and no partner carries one — which is what lets every `/l/<code>` already posted resolve.
-  // 1462 LIVE nodes carry an ordinal. node_ordinals.json still holds 1467 ASSIGNED — the five
-  // collapsed sites are RETIRED and keep theirs forever so it can never be reissued — but a
-  // retired id is not on the wire, so the app's map is the live count.
-  expect(Object.keys(pair.ordinals).length, "1,462 live nodes carry a share ordinal").toBe(1462)
+  // 1464 LIVE nodes carry an ordinal. node_ordinals.json holds 1469 ASSIGNED — the five collapsed
+  // sites are RETIRED and keep theirs forever so they can never be reissued, and v1.156.0 minted
+  // two new ones (1467, 1468) append-only — but a retired id is not on the wire, so the app's map
+  // is the live count: 1469 assigned − 5 retired = 1464.
+  expect(Object.keys(pair.ordinals).length, "1,464 live nodes carry a share ordinal").toBe(1464)
   expect(pair.ordinals, "…and not one of them moved").toEqual(legacy.ordinals)
 
   // EXPLORE LISTS SITES. Both halves carry the same title, so a member-level walk would print
@@ -422,9 +427,10 @@ test("@curated every technique seats a roll at its canonical origin, on the side
   expect(r.stageTy.NONE, "no technique fails to find an origin").toBeUndefined()
   expect(r.stageTy.transitions, "and none seats you inside a transition").toBeUndefined()
   expect(r.stageTy.submissions, "…or inside a submission").toBeUndefined()
-  // 2652 = 2 x 1326 techniques (was 2 x 1331). A COVERAGE FLOOR, not a structural claim: the
+  // 2656 = 2 x 1328 techniques (1331 before the v1.155.0 collapse, 1326 after it, 1328 once
+  // v1.156.0 added a transition and a submission). A COVERAGE FLOOR, not a structural claim: the
   // three assertions above are the gate, and this one proves they were applied to every member.
-  expect(r.stageTy.positions, "all 2,652 technique members seat at a position").toBe(2652)
+  expect(r.stageTy.positions, "all 2,656 technique members seat at a position").toBe(2656)
   expect(r.sideBad, "…on the side that performs it, defenders flipped").toBe(0)
 
   // AND THE POINT OF IT: the technique you tapped is in the hand you are dealt. The adj-walk
@@ -433,7 +439,7 @@ test("@curated every technique seats a roll at its canonical origin, on the side
   // (`from_position_role_mismatch`), not code; the assertion is a floor so a content fix cannot
   // break the gate, but it is far above what a regression would leave.
   expect(r.notInHand, "at most the known content misses: " + JSON.stringify(r.bad)).toBeLessThanOrEqual(5)
-  expect(r.inHand, "1,326 of 1,331 techniques are dealt from where they seat you").toBe(1326)
+  expect(r.inHand, "1,328 of 1,328 techniques are dealt from where they seat you").toBe(1328)
 })
 
 // ══════════════════════════════════════════════════════════════════════════════════════════
@@ -474,10 +480,11 @@ test("both perspective pages of a technique resolve, and the Defender page plays
   expect(r.att.ok, "every Attacker page seats the performing side").toBe(r.att.n)
   expect(r.def.ok, "every Defender page seats the OTHER side").toBe(r.def.n)
   expect(r.mirror, "…and both name the same origin site").toBe(r.att.n)
-  // 1,325 and not 1,330, for the same reason the three counts above moved: v1.155.0 collapsed five
-  // moves authored as BOTH a transition and a submission, so five technique PAGES are gone with
-  // them. v1.155.2 followed the collapse through this file and this literal was the one it missed —
-  // and it went unseen because a push to dev runs no e2e, so the next PR is where it surfaces.
-  // Derive it, never guess it: 1,462 wire nodes − 136 positions − game-over = 1,325.
-  expect(r.att.n, "over every technique page in the corpus").toBe(1325)
+  // 1,327. Same derivation as ever, and it is the derivation that is load-bearing, not the number:
+  // wire nodes − 136 positions − game-over. v1.155.0 collapsed five twins (1,330 -> 1,325) and
+  // v1.156.0 added two sites (-> 1,327), so 1,464 − 136 − 1 = 1,327.
+  // Derive it, never guess it. History worth keeping: v1.155.2 followed the collapse through this
+  // file and THIS literal was the one it missed, unseen because a push to dev runs no e2e — which
+  // is exactly how all six counts in this file went red again on the v1.158.1 dev deploy.
+  expect(r.att.n, "over every technique page in the corpus").toBe(1327)
 })

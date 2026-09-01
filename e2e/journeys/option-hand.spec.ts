@@ -271,8 +271,10 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // submission's ~+0.9 attacker strength is 45-46% for ALL of them.
   const wire = await page.evaluate(() => {
     const a = (window as any).__neural
-    // SITES, not members (v1.125.0): the corpus is still 297 submissions, each now drawn as an
-    // attacker/defender pair. Only the attacker owns the exchange, so only it carries `cal`.
+    // SITES, not members (v1.125.0): each submission is drawn as an attacker/defender pair, and
+    // only the attacker owns the exchange, so only it carries `cal`. 298 since v1.156.0 authored
+    // `Achilles Lock from Inside Ashi-Garami` — the first member of the only family hub that had
+    // none, so nothing could reach it (an edge may not point at a family hub).
     const subs = a.nodes.filter((n: any) => n.ty === "submissions" && n.rep !== false)
     const cal = subs.map((n: any) => a.calSuccess(n))
     const rates = subs.filter((n: any, i: number) => cal[i] != null).map((n: any) => Math.round(a.calSuccess(n) * 100))
@@ -287,7 +289,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
       fbDistinct: new Set(fb).size,
     }
   })
-  expect(wire.n, "the corpus").toBe(297)
+  expect(wire.n, "the corpus").toBe(298)
   expect(wire.uncalibrated, "every submission carries a calibrated rate").toBe(0)
   expect(wire.min, "authored rates run from").toBe(10)
   expect(wire.max, "...to").toBe(74)
