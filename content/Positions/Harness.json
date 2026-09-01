@@ -1,12 +1,30 @@
 {
   "name": "Harness",
   "slug": "harness",
+  "bot_metadata": {
+    "last_improved": "2026-07-18",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.",
   "aliases": [
     "Seatbelt",
     "Seat Belt",
     "Seatbelt Control",
     "Seat Belt Control"
+  ],
+  "disambiguations": [
+    {
+      "name": "Back Control",
+      "reason": "back control is defined by both hooks being established, while the harness is defined by the seat belt grip and can exist with or without hooks"
+    },
+    {
+      "name": "Body Triangle",
+      "reason": "the body triangle locks the legs in a figure-four around the torso, while the harness is the upper-body seat belt grip at the chest"
+    },
+    {
+      "name": "Gift Wrap",
+      "reason": "the gift wrap traps the opponent's arm across their own neck, while the harness clasps both hands at the chest without trapping an arm"
+    }
   ],
   "variant_uniqueness": "Seat belt grip prioritizes submission proximity",
   "summary": "The Harness, or seat belt, is a back-control grip where the attacker wraps one arm over the opponent's shoulder and the other under the far armpit and clasps the hands at the chest, anchoring the rear-mount attacking system.",
