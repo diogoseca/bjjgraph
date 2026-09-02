@@ -141,6 +141,23 @@ class Component extends DCLogic {
   // (v1.114.0: it no longer decides whether the state is NAMED — the label beside the node is
   // the one naming design at every zoom. See THE ARRIVAL IS THE EVENT, below.)
   ROLL_ZOOM = 0.085;
+  // ── THE STAGED ARRIVAL (v1.168.0, owner) ──────────────────────────────────────────────────
+  // The restart used to print kicker+name+role+opponent ALL AT ONCE for 1.3s while the canvas
+  // label named the same state beside the orb — the position and the role each printed twice,
+  // at the same moment. It is now a sequence with a hand-off: the kicker rides alone while the
+  // camera breathes OUT to the whole graph, then the state names itself (name + role — the
+  // opponent is gone from this line: `_ladder.rank` never touched the AI, see ladderState) as
+  // the camera flies to the landing framing, then the centre block cross-fades INTO the canvas
+  // label, which is at full strength exactly when the flight settles. Total 6.2s, owner-tuned
+  // on the "Between Rolls" motion prototype (2.0 / 2.4 / 1.8). The verdict holds in endRound
+  // grew round(x1.5) in the same ruling, with a "New roll in 3s…" countdown on their tail.
+  NG_ARRIVE_KICKER = 2.0;   // "Restarting the roll", alone, camera wide
+  NG_ARRIVE_NAME = 2.4;     // the state fades in; the flight to the landing framing begins
+  NG_ARRIVE_HANDOFF = 1.8;  // centre block out, canvas label in — a cross-fade, not a cut
+  /** Every arrival stamp dies here — the complete lifter set is this call (§6.5): the normal
+   *  path (enterLand), and both user takeovers (rollFromPosition, stageRollAt). `_arriveWide`
+   *  also carries its own deadline in updateCamera, so a missed lifter costs 2s, not forever. */
+  _endArrival() { this._arriveWide = false; this._arriveGlideUntil = null; this._arriveLabelT = null; }
   /** The resting light on the state you are STANDING IN — present always, hugging the orb.
    *  Not the retired halo: a third of its alpha and a quarter of its reach. See v1.114.1. */
   REST_GLOW = 0.42;
@@ -10747,12 +10764,36 @@ class Component extends DCLogic {
   showCenter(kicker, text, sub, tone, small) {
     const col = this.toneColor(tone);
     const k = this.evcKickerRef.current, t = this.evcTextRef.current, s = this.evcSubRef.current, box = this.evCenterRef.current;
+    // EVERY WRITE RELEASES THE ARRIVAL'S STYLING (§6.5 — the stamp rule). `_centerReveal` fades
+    // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
+    // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
+    // get the stock instant text and .55s box fade back, not the arrival's leftovers.
+    if (box) box.style.transitionDuration = "";
+    for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
     if (s) s.textContent = sub || "";
     if (box) box.style.opacity = "1";
   }
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
+  /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
+   *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
+  _centerReveal(text, sub) {
+    for (const [el, val] of [[this.evcTextRef.current, text], [this.evcSubRef.current, sub]]) {
+      if (!el) continue;
+      el.textContent = val;
+      el.style.transition = "opacity .6s ease";
+      el.style.opacity = "0";
+      requestAnimationFrame(() => requestAnimationFrame(() => { el.style.opacity = "1"; }));
+    }
+  }
+  /** Beat 3: the centre block fades out over the whole hand-off while the canvas label ramps in
+   *  (draw() reads `_arriveLabelT`) — the state is never named twice at full strength. */
+  _centerHandoff() {
+    const box = this.evCenterRef.current; if (!box) return;
+    box.style.transitionDuration = this.NG_ARRIVE_HANDOFF + "s";
+    box.style.opacity = "0";
+  }
 
   /**
    * `nodeIdx` (v1.106.5) names the node the round ENDED on — the submission you finished with, or
@@ -10808,18 +10849,27 @@ class Component extends DCLogic {
     if (this.adv) this.adv.shown = false;
     this.pulse = null; this.optionIdxs = [];
     const map = {
-      win: { k: "Submission", big: "You finished it", tone: "good", hold: 4.4 },
-      lose: { k: "Tapped out", big: "You got caught", tone: "bad", hold: 3.8 },
-      reset: { k: "Scramble", big: "Roll reset", tone: "muted", hold: 2.8 },
+      // round(hold x 1.5), owner (v1.168.0): "it's too fast in between game end and new roll".
+      // The dead time is also LABELLED now — the announcer counts the last three seconds down,
+      // so the wait reads as a timer, not a hang. Was 4.4 / 3.8 / 2.8.
+      win: { k: "Submission", big: "You finished it", tone: "good", hold: 6.6 },
+      lose: { k: "Tapped out", big: "You got caught", tone: "bad", hold: 5.7 },
+      reset: { k: "Scramble", big: "Roll reset", tone: "muted", hold: 4.2 },
     };
     const m = map[kind] || map.reset;
     if (this.evRef.current) this.evRef.current.style.opacity = "0";
     this.showCenter(m.k, m.big, name || "", m.tone);
     this.endCenter = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
     this.endZoom = true;
+    // "New roll in 3s… 2s… 1s…" rides the verdict's tail. Plain setEvent on purpose: the
+    // announcer is ONE slot and any later writer wins (§6.5) — a capstone banner or a share
+    // arrival simply overwrites a tick, and the next tick concedes the same way.
+    for (const sLeft of [3, 2, 1]) {
+      this.after(m.hold - sLeft, () => this.setEvent("Restarting", "New roll in " + sLeft + "s\u2026", "muted"));
+    }
     this.after(m.hold, () => {
       this.hideCenter();
-      this.after(0.55, () => { this.endZoom = false; this.startRoll(); });
+      this.after(0.8, () => { this.endZoom = false; this.startRoll(); }); // was 0.55; same x1.5 ruling
     });
   }
 
@@ -12898,6 +12948,10 @@ class Component extends DCLogic {
       return false;   // the board keeps the roll it has; a URL arrival never reaches here (NONE
                       // above) and every other caller is acting on an already-live board.
     }
+    // A user takeover mid-arrival ends the staged arrival — wide camera, glide and label ramp
+    // all yield. AFTER the ruleset guard on purpose: a REFUSED seat keeps the roll the board
+    // has, and if that roll is mid-arrival its choreography must keep playing undisturbed.
+    this._endArrival();
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
     // A NEW ROLL ENDS THE FILM, FIRST (v1.106.5) — before `clearTimers()` takes its step timer and
     // before this function writes the camera. `setPaused` also stops a replay, but it is called at
@@ -13575,15 +13629,36 @@ class Component extends DCLogic {
     this._prefetchLandDeck(this.currentPos); // the intro is the deck's runway (v1.106.6)
     const lad = this.ladderState();
     this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
-    // A weak-spots opening names the CRACK it is about — the technique or the position — instead
-    // of the generic restart kicker; the rest of the toast is unchanged.
-    this.showCenter(this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0] : "Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
+    // THE STAGED ARRIVAL (v1.168.0) — see the NG_ARRIVE_* block for the design. Three beats:
+    //   1. the kicker ALONE, camera wide ("the whole graph breathes out");
+    //   2. the state fades in — name + role, no opponent (the belt label never touched the AI);
+    //   3. the centre hands off to the canvas label as the flight settles.
+    // The announcer's countdown ends the moment this begins.
+    this._rollsBegun = (this._rollsBegun || 0) + 1;
+    if (this.evRef.current) this.evRef.current.style.opacity = "0";
+    // A weak-spots opening names the CRACK it is about (v1.166.0) — that kicker survives the
+    // staged cut and rides beat 1 alone. Otherwise the session's FIRST roll is not a restart —
+    // "Restarting" on a first visit was the owner's original complaint, and no earlier roll
+    // exists for the word to be true of.
+    this.showCenter(
+      this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0]
+        : this._rollsBegun > 1 ? "Restarting the roll" : "Starting the roll",
+      "", "", "muted", true);
     this.focusIdx = this.currentPos; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
     this._played = false;
+    this._arriveWide = true;   // camera beat 1 — updateCamera also holds this to a hard deadline
+    this._arriveWideUntil = this.now + this.NG_ARRIVE_KICKER + 0.5;
+    this._arriveGlideUntil = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF;
+    this._arriveLabelT = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME; // hand-off start
     this.flare(this.currentPos);
-    this.after(1.3, () => this.enterLand(true));
+    this.after(this.NG_ARRIVE_KICKER, () => {
+      this._arriveWide = false;   // beat 2: the follow-cam flies to the landing framing
+      this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
+    });
+    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => this._centerHandoff());
+    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF, () => this.enterLand(true));
   }
 
   startLandRipple(centerIdx, neighborIdxs) {
@@ -13618,7 +13693,8 @@ class Component extends DCLogic {
     this.focusIdx = this._stagedTech ? this._stagedTech.idx : this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;
-    this.hideCenter(); // clear the "Restarting the roll" center toast as play begins
+    this.hideCenter(); // clear the arrival's center toast as play begins
+    this._endArrival(); // the normal lifter: the flight is over, the label is at full strength
     // THE LANDING IS the arrival, so it carries the arrival bloom (v1.114.0). This re-flare fires
     // AFTER updateTravel's, on the same node — without the amplitude here it would immediately
     // demote the destination's bloom back to a pass-through's and restart its decay, i.e. the
@@ -14781,6 +14857,11 @@ class Component extends DCLogic {
       tgt = null;
     } else if (this.endZoom) {
       tgt = { cx: this.endCenter.x, cy: this.endCenter.y, vw: this.graphW * 1.55 };
+    } else if (this._arriveWide && this.now < (this._arriveWideUntil || 0)) {
+      // ARRIVAL BEAT 1 (v1.168.0): the whole graph, the intro's own parting framing. The
+      // deadline is the flag's own lease (§6.5) — every lifter lives in _endArrival(), and a
+      // missed one costs half a second past the beat, never a stuck-wide camera.
+      tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 };
     } else {
       const mode = this.cfg().cameraMode;
       if (mode === "Overview") {
@@ -14814,8 +14895,14 @@ class Component extends DCLogic {
     // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
     // the glowing node you're flying toward.
     const flight = this._dossierIdx != null;
-    const tauP = !this.introDone ? 0.8 : flight ? 0.28 : 0.5;
-    const tauV = !this.introDone ? 0.9 : flight ? 0.7 : 0.55;
+    // ARRIVAL GLIDE (v1.168.0, owner: "the zoom in needs to be slower"): the staged arrival's
+    // out-and-in is one long breath, tau ~1s, timed so the flight settles as the hand-off ends.
+    // A user's own camera (a lease, or live input) gets the stock pace back immediately —
+    // their flight must never inherit the arrival's slowness.
+    const arriveGlide = this._arriveGlideUntil != null && this.now < this._arriveGlideUntil
+      && !this.camHeld() && !this.userActiveNow();
+    const tauP = !this.introDone ? 0.8 : arriveGlide ? 1.0 : flight ? 0.28 : 0.5;
+    const tauV = !this.introDone ? 0.9 : arriveGlide ? 1.05 : flight ? 0.7 : 0.55;
     const aP = 1 - Math.exp(-dt / tauP), aV = 1 - Math.exp(-dt / tauV);
     this.cam.cx += (this.camTarget.cx - this.cam.cx) * aP;
     this.cam.cy += (this.camTarget.cy - this.cam.cy) * aP;
@@ -15164,6 +15251,13 @@ class Component extends DCLogic {
     const rsOk = this._rulesetMask();
     const cfg = this.cfg();
     const A = this.alpha;
+    // ARRIVAL HAND-OFF RAMP (v1.168.0): 0 while the centre block is the only thing naming the
+    // state, easing to 1 across the hand-off so the canvas label is at full strength exactly
+    // when the flight settles. `_arriveLabelT` is a stamp on the game clock; null (or any past
+    // arrival) reads as 1, so every non-arrival frame draws exactly what it always drew — and a
+    // takeover clears the stamp in _endArrival(), so a NEW focus is never born half-invisible.
+    const arriveA = this._arriveLabelT == null ? 1
+      : Math.max(0, Math.min(1, (this.now - this._arriveLabelT) / this.NG_ARRIVE_HANDOFF));
     // slow-mo finish: dim the map for a beat while the finishing flare burns, then recover
     let dim = 1;
     if (this._slowmo) {
@@ -15648,6 +15742,7 @@ class Component extends DCLogic {
       // rich label = role + name, anchored beside a node
       const richLabel = (idx, role, roleCol, name, big) => {
         const n = this.nodes[idx]; if (!n) return;
+        const lA = big ? A * arriveA : A; // big = the focused state's label — it rides the arrival ramp
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
         const ox = sx + halfW(n) + 11;
@@ -15655,11 +15750,11 @@ class Component extends DCLogic {
         ctx.textBaseline = "alphabetic";
         const dfam = this._displayFam || "'Space Grotesk'";
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
-        ctx.fillStyle = this.rgba(roleCol, A);
+        ctx.fillStyle = this.rgba(roleCol, lA);
         ctx.fillText(role.toUpperCase(), ox, sy - (big ? 7 : 5));
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
-        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
+        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
         ctx.fillText(name, ox, sy + (big ? 11 : 9));
         ctx.shadowBlur = 0;
         // published for the same reason `_lastPairLabel` is: this is canvas text with no DOM to
@@ -15762,7 +15857,7 @@ class Component extends DCLogic {
         ctx.textBaseline = "alphabetic";
         // a pair you are merely POINTING AT is not the state you are in — it reads one step back
         // so the focus keeps its rank on a graph where every position is now a pair (v1.125.0).
-        const aF = focused ? A : A * 0.86;
+        const aF = focused ? A * arriveA : A * 0.86; // the focused label rides the arrival ramp
         // ── THE BLOCK STRADDLES THE MIDLINE, NOT THE NAME (v1.129.4) ────────────────────────
         // Owner: "those from wtv position look poorly aligned. rule is when those extra subtitles
         // show, the label shouldnt be aligned at the center, but rather the label and the 'from
