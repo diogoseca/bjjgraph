@@ -312,7 +312,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Transitions/Backstep from Worm Guard/Attacker|Backstep from Worm Guard]]** (12% of attempts)
 
-- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (0% of attempts)
+- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (gi only)
 
 
 ### Common Mistakes

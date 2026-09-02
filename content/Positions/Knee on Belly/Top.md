@@ -33,13 +33,13 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "HowToStep",
       "name": "Execute Baseball Bat Choke from Knee on Belly",
-      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Knee on Belly",
-      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 4
     },
     {

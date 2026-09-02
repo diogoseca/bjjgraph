@@ -306,7 +306,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (6% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (0% of attempts)
+- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (gi only)
 
 - **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (10% of attempts)
 

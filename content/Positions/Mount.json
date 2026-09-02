@@ -137,7 +137,7 @@
         "transition": "Cross Collar Choke from Mount",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -221,7 +221,7 @@
         "transition": "Loop Choke from Mount",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

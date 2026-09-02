@@ -45,7 +45,7 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {

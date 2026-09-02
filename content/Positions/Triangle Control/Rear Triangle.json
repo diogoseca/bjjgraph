@@ -307,7 +307,7 @@
         "transition": "Bow and Arrow Choke from Rear Triangle",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

@@ -428,7 +428,7 @@
         "transition": "Lapel Strip from Worm Guard",
         "attempt_probability": {
           "gi": 27,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],

@@ -285,7 +285,7 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 - **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (4% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Bow and Arrow Choke from Rear Triangle]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Bow and Arrow Choke from Rear Triangle]]** (gi only)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (11% of attempts)
 

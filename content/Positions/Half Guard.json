@@ -241,7 +241,7 @@
         "transition": "Loop Choke from Half Guard",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

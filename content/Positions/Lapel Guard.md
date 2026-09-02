@@ -227,27 +227,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (18% of attempts)
+- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (gi only)
 
-- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (9% of attempts)
+- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (gi only)
 
-- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (6% of attempts)
+- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (gi only)
 
-- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (12% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (gi only)
 
-- **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (8% of attempts)
+- **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (gi only)
 
-- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (5% of attempts)
+- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (gi only)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (9% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (gi only)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (8% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (gi only)
 
-- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (10% of attempts)
+- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (gi only)
 
-- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (gi only)
 
-- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (4% of attempts)
+- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (gi only)
 
 
 ### Common Mistakes
@@ -308,9 +308,9 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (0% of attempts)
+- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (gi only)
 
-- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (0% of attempts)
+- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (gi only)
 
 - **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** (16% of attempts)
 

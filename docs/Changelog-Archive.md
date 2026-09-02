@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
 - **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
 - **v1.165.2** — [THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT](#v1-165-2-the-last-86-and-the-differential-that-c)
@@ -4848,6 +4849,100 @@ script loading reduced.
 **Open for the owner:** the PR on `proofread-bot/submissions` still carries its 72 de-forked cells.
 No value is lost, but merging as-is needs a `npm run migrate:ruleset` after; re-running the bot on
 the fixed script is cleaner.
+
+
+<a id="v1-167-0-the-first-nulls-and-the-surface-list"></a>
+
+## v1.167.0 — THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST
+
+> **Status:** Current. Closes the three items v1.153.0 named as debt in its own commit.
+
+**1. THE NULL LAYER IS LIVE — 62 CELLS, AND IT MOVED NO NUMBER.** `_ruleset.py` has defined `null`
+as "this edge does not exist in that ruleset" since calibration-v2 and the corpus used it **zero
+times**. It now carries 62 (v1.167.0), minted from the Q3 calibration's own verdict by
+`apply_occurrence_calibration.py --write-nulls`. The blast radius was measured BEFORE writing any:
+`frame_reachable` bit-identical in both frames, `cal.avail` unchanged, every hand unchanged.
+`graph.json` regenerates bit-identical modulo its `generated` stamp, and `regenerate:md` on the
+pristine corpus produced **0 changed pages** — which is what proves the 14-file hardening pass was
+null-safety and not a behaviour change.
+
+**WHAT THE READER GAINS.** 34 pages stopped lying: `(0% of attempts)` became `(gi only)`, and the
+JSON-LD Google ingests went from *"attempted in 0% of exchanges"* to *"exists in the gi ruleset
+only; it does not occur in no-gi"*.
+
+**IT COULD NOT BE WRITTEN BEFORE, AND THE BLOCKER LIST WAS 14 FILES LONG.** The worst was not a
+crash: `regenerate_md_from_json.py` REDUCED each document and then validated the reduced form
+against the schema for the UNREDUCED shape, so a null matched neither arm of the `oneOf`, 32
+positions were SKIPPED, and `main()` exited 0 because `regenerate:md` passes no `--strict` — the
+chain would have reported success over 105 stale published pages. Fatal by default now. **The same
+fix exposed something nobody was looking for:** validating the RAW document checks the `gi` cell of
+every forked probability for the first time. `gi: 180` in `Mount.json` passes HEAD and fails the
+patch, because `reduce_to_scalar` discarded that cell before the schema saw it.
+
+**AND THE CHECK WATCHING THE EXCLUSION ALMOST WENT QUIET.** `validate_occurrence_surface` builds
+section 3's targets FROM section 2's hits, and section 2 only emits a hit where `frame_mass > 0` —
+an `or 0` coercion. Nulling the Lapel mirror zeroes that mass, so the report would have said
+*"routing INTO an unavailable frame: 0"* where the truth is 12, and its zero-coverage floor would
+not fire because it measures a denominator that stays healthy. The repo's canonical defect, about
+to be committed by the fix for it. Both halves fixed.
+
+**THE ONE REAL CONSEQUENCE, AND IT IS THE OWNER'S.** `cal.ev` is solved in ONE frame (`evFrame` =
+"nogi"). `lapel-guard/bottom` now has no no-gi hand, so it gets no EDGE block and its **11 cards
+lose their EDGE chip in GI** — a live state in the default ruleset. Measured: no fabrication, no
+crash (`calSuccess` still returns the authored 0.55–0.58; `moveChance` prints 45%/42%, not the
+`0.36 + dom*0.1` fallback) — only the EDGE comparison is gone. What makes it shippable is that those
+11 chips were computed from the MIRROR, so the app stopped printing EDGE derived from numbers that
+were never real. Solving the EDGE MDP per frame is the fix, and it is a probability decision.
+
+**THAT NULL ALSO SPLIT THE TWO FLOW IMPLEMENTATIONS, ON THE FIRST CORPUS THAT COULD TELL THEM
+APART.** `solve_flow.py` drops a role-node whose OPPONENT has no hand in the frame; `flow.src.js`
+checked only its own. The moment `lapel-guard/bottom` lost its hand they disagreed by exactly 7
+decks — `Lapel Guard|Top` and its six attacker decks — and `tests/flow.test.mjs` went red. Same rule
+both sides now, and that spec's three hard-coded counts (544 / 136 / 272) became derivations.
+
+**2. THE SURFACE LIST NOW DERIVES ITSELF.** v1.153.0 filtered the surfaces its author could
+enumerate by hand, and said in the same commit that a hand-maintained list gets a new member missing
+by default. A four-lens sweep found **38 more** within one version: the ESCAPE TRAY you pick from
+while caught, the drill queue from a shared class, a URL arrival onto a gi-only technique's page,
+the graph highlight and its camera, the roll seat funnel, and **all four node walks in
+`neural/src/flow.src.js`** — the weak-spots engine, in a file a target-file sweep never opens.
+Twelve chokepoints filtered, and `check_ruleset_surfaces.py` derives the rest: **48 enumerations,
+26 filtered, 22 exempt with a written reason, 0 unclassified.** It blanks strings and comments
+first, so a guard written in prose does not count.
+
+**THE LINE THAT KEPT RECURRING, WORTH MORE THAN THE LIST:** material the app DEALS obeys the
+ruleset; the player's own RECORD does not. `listIdxs` stays whole — filtering it would shrink a
+class a coach posted and re-encode a SHORTER share code — while `openListSession`'s queue,
+`setFocusIdxSet`'s lighting and the camera sets filter. Same rule retired `mastered`/`explored`.
+
+**3. THE FALLBACK DETECTOR WAS BLIND, AND IT WAS MINE.** v1.153.0's "no hand falls into the
+origin-relaxed fallback" test walked `n.rep` position nodes — all 136 of which are the hub, role
+"top" — so it saw **136 of 272 hands and no BOTTOM seat at all**, which is exactly where
+`backside-50-50/bottom`, the state the gi decision turned on, lives. It also keyed on
+`o[0].ord === undefined`, and `orderScore` returns null on 100 of 1328 main-pass cards, so any fix
+setting `ord` there would have blinded it for good. The fallback now stamps a POSITIVE
+`relaxed: true`, emits a named beat, and sorts through `_cmpRelaxed` — a named seam, so the spec
+asserts against the app's own order rather than a copy that agrees with itself.
+
+**THE GI/NO-GI BOUNDARY IS STATED IN TWO PLACES THAT POINT AT EACH OTHER:** `EXCLUDING_FRAMES =
+("nogi",)` in the emitter, `--null-frames nogi` in the applier. The first mint ran without the flag
+and wrote **8 gi nulls** — the heel-hook family — a claim about which gi ruleset the app models, not
+a fact about a garment. Reverted; the default now encodes the decision.
+
+**Gates:** `validate:surfaces` (new, hard, in `ci-validate.yml`) · `validate:availability` ·
+`test:units` 174/174 · `validate:graph` 0 errors · `validate:flow` OK, 270/272 priced ·
+`validate:json` clean · `regenerate:md` exit 0, 0 stale pages, 96 absences marked.
+
+**Mutants, all killed** (enumerated in each gate's own docstring). The decisive one: on an
+identical broken build the NEW fallback detector goes red and v1.153.0's goes GREEN — the
+measurement that the old one was blind, rather than the argument that it was.
+
+**LEFT, NAMED.** The EDGE-per-frame question above. **9 further nulls** blocked in 4 containers
+(`closed-guard__bottom`, `squid-guard__bottom`, `standing-position__top`, `worm-guard__bottom`)
+whose move sets drifted since Q3 elicitation — the applier refuses a stale calibration, correctly,
+and they want a re-run, not a force. And `regenerate_votes.py` keys rates by NAME: 5 names collide
+across Transitions and Submissions and the SUBMISSION silently wins, measured on the wire as
+`kimura-from-half-guard/attacker` = 22.0 in both collections. Made loud, not changed.
 
 
 <a id="v1-153-0-in-no-gi-the-lapel-guards-stop-existing"></a>

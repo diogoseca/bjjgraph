@@ -164,6 +164,14 @@ Techniques split the same way, with **Attacker/Defender** instead of Top/Bottom:
 **Every probability is a per-ruleset `{gi, nogi}` map**, and each frame sums to 100 independently.
 `graph.json` carries the folded no-gi scalar **plus** the `*ByRuleset` pair.
 
+**A cell may be `null`, and it is not zero.** `scripts/_ruleset.py` has always defined `null` as
+"this edge does not exist in that ruleset", against `0` = "exists, ~never attempted". The corpus used
+it **0 times until v1.167.0** and now carries **62** — no-gi only, minted from the Q3 calibration's
+own unavailability verdict by `apply_occurrence_calibration.py --write-nulls`. A frame whose cells
+are all null vanishes from `present_rulesets`, so no sum check runs on it; that is the mechanism, not
+a loophole. Never write `or 0` on one of these cells — it re-animates an edge the corpus says is not
+there. Drop it, and COUNT what you dropped.
+
 ```jsonc
 // content/Positions/Mount.json  → top.transitions[]
 { "transition": "Mount to Armbar",          // key is `transition`, NOT `name`
@@ -215,6 +223,8 @@ keyless half runs on PRs via `e2e-full.yml` and both halves run on both deploys 
 `validate:availability` the per-ruleset exclusion layer — wire parity against the reachability
 walk, zero attempt-mass loss, no dead-end state — and it writes
 `tests/artifacts/ruleset_availability.json` ·
+`validate:surfaces` the DERIVED half: every node enumeration in `neural/src` either consults the
+ruleset mask or is named in `tests/artifacts/ruleset_surfaces.json` with a reason ·
 `validate:flow` the FLOW selfcheck (adjoint vs finite differences) plus the content ratchet on
 `tests/artifacts/flow_validation_baseline.json` ·
 **`validate:claudemd`** this file's own char ratchet and reference integrity.
@@ -513,7 +523,9 @@ symbol to every version that touched it.
 - **`cal.avail` · `frame_reachable` — RULESET AVAILABILITY IS A REACHABILITY PROPERTY, NOT AN EDGE PROPERTY.** "Is this move attempted anywhere in frame F" is a question about one edge and cannot see the case that matters: a technique whose only origin is a state F never produces. `Worm Guard/Bottom` deals a full, honest no-gi hand (X-Guard Sweep 33, Omoplata 21) — conditional on standing in a guard entered by threading the opponent's lapel through their own legs, which no no-gi edge does. Measured: the edge question calls 52 techniques gi-only; the walk from `standing-position` calls **104 techniques and 18 position role-nodes** absent in no-gi.
   **THE WALK REPORTS BOTH FRAMES; THE LAYER ACTS ON ONE.** `EXCLUDING_FRAMES` is `("nogi",)`. The gi column the walk finds — 21 techniques, all heel-hook family — is IBJJF LEGALITY, not equipment, and acting on it is not safe today: `backside-50-50/bottom` has exactly ONE gi move surviving `optionsFor`'s role AND origin filters, so removing it empties the main pass into the ORIGIN-RELAXED fallback — cards from other origins carrying no `ord` and no `ordOdds`. **`graph.json` cannot see that coming**: its per-frame sums apply neither role nor origin, so it reports the state healthy. An empty-hand check cannot see it either, because the fallback returns cards — test for `ord === undefined`.
   **Do:** derive availability with `frame_reachable` (`scripts/regenerate_neural_data.py`), filter at the READER via `rsAllows` — never inside `adj`, which is per-SITE and role-blind by design — and never from a NAME (ruling P3a: a name sweep kills `Rear Naked Choke from Invisible Collar`, the canonical no-gi choke, because the POSITION is named "Collar"). Two numbers now both mean "availability" and are different sets: `cal.avail` is the walk; `docs/Neural.md`'s score-weight 52/16 is `_frame_positive`, the edge question, and is correct for what it measures.
-  **Pinned by `validate:availability` (wire parity, zero mass loss, no dead ends) + `tests/ruleset_availability.test.mjs` (the surfaces, the fallback detector, and the standing anti-name-matcher fixture).**
+  **AND THE SURFACE LIST WAS HAND-MAINTAINED FOR EXACTLY ONE VERSION.** v1.153.0 filtered the surfaces its author could enumerate; a four-lens sweep then found **38 more** a player could reach — the ESCAPE TRAY you pick from while caught, the drill queue built from a shared class, a URL arrival straight onto a gi-only technique's page, and all four node walks in `neural/src/flow.src.js`, the weak-spots engine, in a file the target-file sweep never opened. That is §6.7's hand-maintained-enumeration defect, and it landed within one commit. The list is now DERIVED by `validate:surfaces`; the guard belongs at the READER, never inside `adj`.
+  **The recurring line: material the app DEALS obeys the ruleset; the player's own RECORD does not.** A class a coach posted stays what they posted — filtering `listIdxs` would silently shrink a received class and re-encode a SHORTER share code.
+  **Pinned by `validate:availability` (wire parity, zero mass loss, no dead ends) + `validate:surfaces` (every enumeration filtered or justified) + `tests/ruleset_availability.test.mjs` (the surfaces, the fallback detector, and the standing anti-name-matcher fixture).**
   <br>_(1, and the whole no-gi graph was 104 techniques and 18 states too large)_
 
 - **`_tech_keys` — a spelling-sensitive join must try every spelling and then COUNT itself.** `graph.json` keys a technique by `slugify(<display name>)`, one flat kebab token; a layout id keeps the authored PATH, so `Submissions/Kimura/from-Front-Headlock` arrives with a `/` where the key has a `-`. **0 of 297 submission keys contain an inner slash, so 294 of 297 submissions shipped no odds at all** and nothing went red, because the fallback above printed a plausible number. The ladder is three rungs, cheapest first, and the last is the key's OWN CONSTRUCTOR rather than another guess: `as-is` → `slash→hyphen` → `slugify(title)`. Together 1331 of 1331. The emitter now refuses to write a wire below 95% coverage per type and prints the figure every run.
@@ -658,6 +670,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh` | one row per generated spec |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
+| `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with
 `reuseExistingServer:false`. A config that reuses another worktree's server tests *that worktree's*

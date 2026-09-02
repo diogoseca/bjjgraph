@@ -18,9 +18,10 @@ description: "{{description}}"
   "@type": "HowTo",
   "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
   {#- the loop is built OUTSIDE the string so jsonstr can quote the whole value; ', '.join == the
-      old per-item `', ' if not loop.last` joiner #}
+      old per-item `', ' if not loop.last` joiner. `pct` supplies its own "%" (and the absent-frame
+      marker in its place), so the literal one that used to sit here is gone. #}
   {%- set _outcome_bits = [] %}
-  {%- for outcome in outcomes %}{% set _ = _outcome_bits.append((outcome.to) ~ " (" ~ (outcome.probability) ~ "%)") %}{% endfor %}
+  {%- for outcome in outcomes %}{% set _ = _outcome_bits.append((outcome.to) ~ " (" ~ (outcome.probability | pct) ~ ")") %}{% endfor %}
   "description": {{ ("Step-by-step guide for " ~ (name) ~ " from " ~ (from_position) ~ ". Possible outcomes: " ~ (_outcome_bits | join(", ")) ~ ".") | jsonstr }},
   "step": [
     {%- for step in execution_steps[:8] %}
@@ -106,7 +107,7 @@ description: "{{description}}"
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position) }}]]
-**Success Rate**: {{success_rate}}%
+**Success Rate**: {{ success_rate | pct }}
 
 </section>
 
@@ -117,7 +118,7 @@ description: "{{description}}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to) }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to) }}]] | {{ outcome.probability | pct }} |
 {% endfor %}
 
 </section>

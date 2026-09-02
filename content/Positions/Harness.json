@@ -462,7 +462,7 @@
         "transition": "Bow and Arrow Choke from Harness",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

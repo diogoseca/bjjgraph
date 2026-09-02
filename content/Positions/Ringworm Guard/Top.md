@@ -21,19 +21,19 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Grip Break and Posture Recovery",
-      "text": "From this position, attempt Lapel Grip Break and Posture Recovery. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Grip Break and Posture Recovery. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction from Lapel Wrap",
-      "text": "From this position, attempt Leg Extraction from Lapel Wrap. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction from Lapel Wrap. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass with Lapel Control Negation",
-      "text": "From this position, attempt Stack Pass with Lapel Control Negation. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass with Lapel Control Negation. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
     },
     {

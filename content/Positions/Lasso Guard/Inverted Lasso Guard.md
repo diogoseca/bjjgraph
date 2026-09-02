@@ -241,9 +241,9 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 - **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (6% of attempts)
 
-- **[[Transitions/Inverted Lasso Sweep/Attacker|Inverted Lasso Sweep]]** (0% of attempts)
+- **[[Transitions/Inverted Lasso Sweep/Attacker|Inverted Lasso Sweep]]** (gi only)
 
-- **[[Transitions/Inverted Lasso to Lasso Guard/Attacker|Inverted Lasso to Lasso Guard]]** (0% of attempts)
+- **[[Transitions/Inverted Lasso to Lasso Guard/Attacker|Inverted Lasso to Lasso Guard]]** (gi only)
 
 
 ### Common Mistakes

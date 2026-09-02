@@ -471,7 +471,7 @@
         "transition": "Bow and Arrow Setup from Standing Back",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],

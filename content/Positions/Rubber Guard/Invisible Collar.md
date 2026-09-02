@@ -296,9 +296,9 @@ The invisible collar serves multiple strategic functions within back attack syst
 
 - **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (3% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (gi only)
 
-- **[[Submissions/Clock Choke/from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (0% of attempts)
+- **[[Submissions/Clock Choke/from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (gi only)
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (29% of attempts)
 

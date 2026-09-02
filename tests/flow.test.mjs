@@ -56,9 +56,23 @@ test("the kernel collapses the pair: 544 ev entries become 272 states, nothing d
   // `_deriveDualPairs` files the SAME cal.ev block on BOTH pair members, so `_ev` holds two
   // entries per hand. Iterating it directly doubles every stake AND still prints plausible
   // numbers — §6.6's index-join failure exactly. The dedupe is on posId/role.
-  assert.equal(APP._ev.size, 544, "the wire really does file both members");
-  assert.equal(K.cov.evKeys, 544);
-  assert.equal(K.n, 272, "272 role-nodes, not 544");
+  // DERIVED, not typed. `_ev` holds exactly two entries per priced hand, so the count follows the
+  // corpus and cannot rot into a number nobody can reproduce. It fell 544 -> 542 when the FIRST
+  // authored nulls landed (v1.167.0): `lapel-guard/bottom`'s eleven no-gi cells became null, so the
+  // state has no no-gi hand, and `cal.ev` is solved in ONE frame (`evFrame`, "nogi") — a state that
+  // does not exist there gets no block. That is the null layer working, not a join regressing.
+  assert.equal(APP._ev.size % 2, 0, "the wire files BOTH members of every pair, so the count is even");
+  assert.equal(K.cov.evKeys, APP._ev.size, "the kernel reads every entry the wire filed");
+  assert.ok(APP._ev.size >= 500, `ev coverage starved: ${APP._ev.size}`);
+  assert.equal(APP._ev.size / 2 - K.states.length, 1,
+    "exactly one priced hand is dropped by the kernel — the seat whose OPPONENT has no hand in "
+    + `this frame (cov.oppNoHand=${K.cov.oppNoHand}). Any other number means the pair collapse moved.`);
+  // The claim is that the kernel holds ROLE-NODES, not the doubled member entries — so it is
+  // asserted against the state set it built, not against a number typed when the corpus was
+  // different. `K.n` was 272 before the first nulls and is 270 now; what must never change is that
+  // it equals the state count and is nowhere near the 544 member entries.
+  assert.equal(K.n, K.states.length, "the kernel's width IS its state set — role-nodes, not members");
+  assert.ok(K.n >= 260 && K.n < APP._ev.size, `role-node count out of band: ${K.n} vs ${APP._ev.size} ev entries`);
   assert.equal(K.cov.dropped, 0, "every ev entry resolved to a posId");
   assert.equal(K.cov.unresolved, 0, "every continuation cell resolved to a state");
   assert.ok(K.cov.cells > 5000, `positive cell coverage, got ${K.cov.cells}`);
@@ -68,8 +82,14 @@ test("both roles carry occupancy — the top-member collapse must never come bac
   // The cheap formula this replaced scored EXACTLY 0 for every bottom-side technique, because
   // `startPosTraffic` keys through `_posSlugIndex`, which maps a position to its TOP member.
   // A bottom player was handed fifteen guard-passing techniques as their "weakest spots".
+  // The floor is DERIVED from the state set rather than typed, for the same reason as above: one
+  // bottom seat left the frame when its no-gi hand became null, and the invariant this test defends
+  // is "every bottom state the kernel HOLDS carries occupancy", not "there are exactly 136 of them".
+  const bottomStates = K.states.filter((s) => s.endsWith("/bottom"));
   const bottom = K.states.filter((s, i) => s.endsWith("/bottom") && RUN.rhoV[REF.horizon][i] > 0);
-  assert.equal(bottom.length, 136, "all 136 bottom states carry start occupancy");
+  assert.ok(bottomStates.length >= 130, `bottom-state coverage starved: ${bottomStates.length}`);
+  assert.equal(bottom.length, bottomStates.length,
+    `every bottom state the kernel holds must carry start occupancy (${bottom.length} of ${bottomStates.length})`);
   const botDecks = K.deckKeys.filter((d, i) => d.endsWith("|Bottom") && RUN.grad[i] !== 0);
   assert.ok(botDecks.length >= 130, `bottom position decks must score, got ${botDecks.length}`);
 });

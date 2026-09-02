@@ -39,7 +39,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Truck",
-      "text": "From this position, attempt Bow and Arrow Choke from Truck. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Truck. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 4
     },
     {

@@ -287,7 +287,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (gi only)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (5% of attempts)
 

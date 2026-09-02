@@ -30,7 +30,9 @@ from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
     RULESETS,
+    Number,
     any_ruleset_map,
+    is_ruleset_map,
     iter_cells,
     sum_cells,
     present_rulesets,
@@ -64,17 +66,126 @@ TECHNIQUE_EXPECTATIONS = {
 
 
 def _per_ruleset_totals(items, key):
-    """Return [(ruleset_or_None, total)] of ``item[key]`` sums.
+    """Return ``(totals, absent_frames, nonnumeric_rows)`` for ``item[key]`` sums.
 
-    Scalar (pre-migration) data -> a single ``[(None, legacy_sum)]`` so existing
-    checks behave byte-identically. Forked {gi,nogi} data -> one ``(ruleset, sum)``
-    per ruleset that has any non-null cell.
+    ``totals``          ``[(ruleset_or_None, total)]``, one pair per frame that
+                        EXISTS. Scalar (pre-migration) data -> a single
+                        ``[(None, legacy_sum)]`` so existing checks behave
+                        byte-identically. Forked {gi,nogi} data -> one
+                        ``(ruleset, sum)`` per ruleset with any non-null cell.
+    ``absent_frames``   the rulesets with NO non-null cell anywhere in this array.
+                        Always empty for scalar data (a legacy scalar mirrors into
+                        both frames, so no frame can be absent).
+    ``nonnumeric_rows`` how many rows carry ``key`` but not a number — a bare
+                        ``null`` being the one that matters.
+
+    WHY THIS RETURNS THREE THINGS INSTEAD OF ONE. Under the null contract
+    (``scripts/_ruleset.py``) a cell is ``null`` when the edge does not exist in
+    that ruleset, so ``present_rulesets`` correctly drops an all-null frame. Every
+    per-frame gate in this file is a ``for rs, total in _per_ruleset_totals(...)``
+    loop, so a dropped frame yielded no tuple, ran no body, appended no issue and
+    printed nothing: "this frame does not exist" and "nobody checked this frame"
+    were the same output, on the max_errors:0 gate. That is CLAUDE.md §6.6 —
+    absence produces a plausible answer — and the fix is the one this repo has
+    reinvented five times: hand the caller a POSITIVE coverage count, make it
+    hard-fail on zero, and make every skip PRINT.
+
+    Callers MUST consume all three. Ignoring ``absent_frames`` restores the silence.
+
+    ``nonnumeric_rows`` exists because a bare ``null`` is NOT the contract (which
+    is per-frame, ``{gi: null, nogi: null}``): the old ``sum(it.get(key, 0) ...)``
+    raised "TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'" on
+    one, which killed the audit mid-run at step 2 of 14 — steps 3-14 never ran and
+    the gate reported nothing at all.
     """
     dict_items = [it for it in items if isinstance(it, dict)]
     values = [it[key] for it in dict_items if key in it]
     if any_ruleset_map(values):
-        return [(rs, sum_cells(dict_items, key, rs)) for rs in present_rulesets(values)]
-    return [(None, sum(it.get(key, 0) for it in dict_items))]
+        present = present_rulesets(values)
+        totals = [(rs, sum_cells(dict_items, key, rs)) for rs in present]
+        # A MIXED array — one bare `null` beside forked maps — takes this branch,
+        # and `sum_cells` drops the null from every frame, so the remaining rows
+        # could still total 100 and the row vanished with no error and no count.
+        # Measured: outcomes [{gi:100,nogi:100}, null] summed to 100 and reported
+        # nothing. Count a row that contributes to NO frame (bare null, string,
+        # a dict that is not a {gi,nogi} map). A row that IS a map with a null
+        # cell is the OPPOSITE case and must not be flagged: that edge genuinely
+        # does not exist in that ruleset and correctly contributes 0 there.
+        nonforked = sum(1 for v in values
+                        if not (is_ruleset_map(v)
+                                or (isinstance(v, Number) and not isinstance(v, bool))))
+        return totals, [rs for rs in RULESETS if rs not in present], nonforked
+    # Legacy scalar rows. Sum only real numbers so a bare null degrades to a NAMED
+    # issue instead of a traceback; rows missing `key` contributed 0 before and
+    # contribute nothing now, which is the same total. (bool is an int in Python —
+    # a boolean probability is a defect, not a 1.)
+    nonnumeric = sum(1 for v in values if not isinstance(v, Number) or isinstance(v, bool))
+    total = sum(v for v in values if isinstance(v, Number) and not isinstance(v, bool))
+    return [(None, total)], [], nonnumeric
+
+
+def _record_frame_coverage(coverage, issues, key, file_path, name, role, totals, absent, nonnumeric):
+    """Turn one ``_per_ruleset_totals`` result into coverage counts and issues.
+
+    The ONE place that decides what an absent frame means, shared by all three sum
+    gates in this file (position root transitions, position top/bottom transitions,
+    technique outcomes) so the three cannot drift apart (CLAUDE.md §6.5).
+
+    The distinction it enforces:
+      - a frame absent while the OTHER frame exists is DATA — the move genuinely
+        has no gi (or no no-gi) form. Severity `info`, never fails the gate, but it
+        is emitted and counted so a corpus quietly shedding a ruleset is visible.
+      - a value absent in EVERY frame is a DEFECT: an edge that exists in no
+        ruleset is a deletion somebody wrote as a null. Severity `error`, so it
+        goes through the max_errors:0 ratchet instead of vanishing.
+      - a bare `null` is a schema defect: `error`, and it names the row count.
+    """
+    coverage["checked"] += len(totals)
+    if not totals:
+        # Do NOT also count these frames as `absent`. A value that exists in no
+        # ruleset is ONE fact, reported once, under `dead`; counting its two empty
+        # frames as absent as well printed "Skipped (frame absent...): 2" beside a
+        # SKIPPED/ABSENT section that listed no absent frame at all — a count that
+        # does not reconcile with its own list is the §6.6 defect one layer down.
+        # (No-op on today's corpus, where both are 0.)
+        # Forked rows present, every cell null in BOTH frames (scalar data can
+        # never land here — it always yields one legacy total).
+        coverage["dead"] += 1
+        issues.append({
+            "file": file_path,
+            "name": name,
+            "role": role,
+            "type": f"{key}_no_ruleset",
+            "message": (f"{name} [{role}]: {key} exists in NO ruleset — every cell is null "
+                        f"in both gi and nogi, so no sum was checked; an edge that exists in "
+                        f"neither ruleset is a deletion, not a null"),
+            "severity": "error",
+        })
+    else:
+        coverage["absent"] += len(absent)
+        for rs in absent:
+            issues.append({
+                "file": file_path,
+                "name": name,
+                "role": role,
+                "ruleset": rs,
+                "type": f"{key}_frame_absent",
+                "message": (f"{name} [{role}]: {key}[{rs}] frame ABSENT (all cells null) "
+                            f"— sum check SKIPPED"),
+                "severity": "info",
+            })
+    if nonnumeric:
+        coverage["bare_null"] += nonnumeric
+        issues.append({
+            "file": file_path,
+            "name": name,
+            "role": role,
+            "type": f"{key}_bare_null",
+            "message": (f"{name} [{role}]: {key} is not a number on {nonnumeric} row(s) — an "
+                        f"edge that does not exist in a ruleset is written per-frame as "
+                        f"{{gi: null, nogi: null}}, never as a bare null"),
+            "severity": "error",
+        })
 
 
 def load_json(path):
@@ -149,6 +260,11 @@ def build_position_data():
     probability_errors = []
     position_names = set()
     position_files = {}  # position_name -> file_path
+    # Ruleset-frame coverage. `checked` is the positive count this gate reports so
+    # that "every frame summed clean" can never print the same as "no frame was
+    # summed at all"; main() hard-fails when it is 0 (CLAUDE.md §6.6).
+    frame_issues = []
+    coverage = {"checked": 0, "absent": 0, "dead": 0, "bare_null": 0}
 
     for path in sorted(POSITIONS_PATH.rglob("*.json")):
         data = load_json(path)
@@ -166,7 +282,10 @@ def build_position_data():
         if root_transitions and "top" not in data and "bottom" not in data:
             names = [t.get("transition", "") for t in root_transitions]
             all_referenced_transitions.update(names)
-            for rs, total in _per_ruleset_totals(root_transitions, "attempt_probability"):
+            _totals, _absent, _nonnum = _per_ruleset_totals(root_transitions, "attempt_probability")
+            _record_frame_coverage(coverage, frame_issues, "attempt_probability",
+                                   str(path), pos_name, "root", _totals, _absent, _nonnum)
+            for rs, total in _totals:
                 role_label = "root" if rs is None else f"root[{rs}]"
                 roles_checked.append((role_label, names, total))
                 if total != 100:
@@ -191,7 +310,10 @@ def build_position_data():
                 continue
             names = [t.get("transition", "") for t in transitions]
             all_referenced_transitions.update(names)
-            for rs, total in _per_ruleset_totals(transitions, "attempt_probability"):
+            _totals, _absent, _nonnum = _per_ruleset_totals(transitions, "attempt_probability")
+            _record_frame_coverage(coverage, frame_issues, "attempt_probability",
+                                   str(path), pos_name, role, _totals, _absent, _nonnum)
+            for rs, total in _totals:
                 role_label = role if rs is None else f"{role}[{rs}]"
                 roles_checked.append((role_label, names, total))
                 if total != 100:
@@ -209,7 +331,8 @@ def build_position_data():
 
         position_refs[str(path)] = roles_checked
 
-    return all_referenced_transitions, probability_errors, position_names, position_files
+    return (all_referenced_transitions, probability_errors, position_names,
+            position_files, frame_issues, coverage)
 
 
 def build_reachable_positions(position_names):
@@ -290,8 +413,13 @@ def find_naming_inconsistencies(orphaned_names, missing_names, max_distance=3):
 
 
 def check_outcome_probabilities():
-    """Check outcome probability sums and outliers in Transitions and Submissions."""
+    """Check outcome probability sums and outliers in Transitions and Submissions.
+
+    Returns ``(issues, coverage)`` — see _record_frame_coverage for what the
+    coverage counts mean and why a gate that reports only issues is not enough.
+    """
     issues = []
+    coverage = {"checked": 0, "absent": 0, "dead": 0, "bare_null": 0}
 
     for source_path, label in [(TRANSITIONS_PATH, "Transition"), (SUBMISSIONS_PATH, "Submission")]:
         for path in sorted(source_path.rglob("*.json")):
@@ -321,7 +449,10 @@ def check_outcome_probabilities():
                 continue
 
             # Sum check (per-ruleset when forked; legacy single-sum otherwise)
-            for rs, total in _per_ruleset_totals(outcomes, "probability"):
+            _totals, _absent, _nonnum = _per_ruleset_totals(outcomes, "probability")
+            _record_frame_coverage(coverage, issues, "probability",
+                                   str(path), name, label.lower(), _totals, _absent, _nonnum)
+            for rs, total in _totals:
                 if total != 100:
                     rs_sfx = f" ({rs})" if rs else ""
                     issue = {
@@ -352,8 +483,21 @@ def check_outcome_probabilities():
                         "outcome": o,
                     })
 
-                # Threshold checks, per ruleset frame (scalar -> single (None, prob))
-                for rs, prob in iter_cells(o.get("probability", 0)):
+                # Threshold checks, per ruleset frame (scalar -> single (None, prob)).
+                # NO `, 0` DEFAULT. `iter_cells` already yields nothing for a null
+                # cell, an all-null map or a bare null — which is the right answer
+                # under the null contract (scripts/_ruleset.py): a frame that does
+                # not exist has no probability to compare against a threshold, and
+                # substituting 0 would re-animate the edge as "exists, never
+                # succeeds". The old `.get("probability", 0)` fabricated exactly
+                # that for a row MISSING the key (0 such rows today; recompute with
+                #   python3 -c "import json;from pathlib import Path;print(sum(1 for b in ('Transitions','Submissions') for f in Path('content',b).rglob('*.json') for o in (json.load(open(f)).get('outcomes') or []) if isinstance(o,dict) and 'probability' not in o))"
+                # ). The skip is not counted HERE on purpose: this is the outlier
+                # scan, and every one of those rows is already NAMED loudly by the
+                # sum gate above in the same run ("probability[<rs>] sum is ..." or
+                # the bare-null / no-ruleset issues from _record_frame_coverage),
+                # so a second counter would double-report the same fact.
+                for rs, prob in iter_cells(o.get("probability")):
                     rs_sfx = f"[{rs}]" if rs else ""
 
                     # Success too high
@@ -384,7 +528,8 @@ def check_outcome_probabilities():
             if expectations:
                 for o in outcomes:
                     if o.get("result") == "success":
-                        for rs, prob in iter_cells(o.get("probability", 0)):
+                        # No `, 0` default — see the threshold scan above.
+                        for rs, prob in iter_cells(o.get("probability")):
                             rs_sfx = f"[{rs}]" if rs else ""
                             if prob > expectations.get("success_max", 100):
                                 issues.append({
@@ -405,7 +550,7 @@ def check_outcome_probabilities():
                                     "current": prob,
                                 })
 
-    return issues
+    return issues, coverage
 
 
 def check_transition_outliers():
@@ -425,7 +570,11 @@ def check_transition_outliers():
             transitions = data[role].get("transitions", [])
             for t in transitions:
                 name = t.get("transition", "")
-                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                # No `, 0` default: a frame that does not exist yields no cell, and
+                # 0 would re-animate it as "exists, never attempted" — the exact
+                # distinction the null contract draws. Rows this drops are already
+                # named by build_position_data's sum gate in the same run.
+                for rs, prob in iter_cells(t.get("attempt_probability")):
                     rs_sfx = f"[{rs}]" if rs else ""
 
                     if prob > THRESHOLDS["attempt_too_high"]:
@@ -457,7 +606,11 @@ def check_transition_outliers():
         if root_transitions and "top" not in data and "bottom" not in data:
             for t in root_transitions:
                 name = t.get("transition", "")
-                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                # No `, 0` default: a frame that does not exist yields no cell, and
+                # 0 would re-animate it as "exists, never attempted" — the exact
+                # distinction the null contract draws. Rows this drops are already
+                # named by build_position_data's sum gate in the same run.
+                for rs, prob in iter_cells(t.get("attempt_probability")):
                     rs_sfx = f"[{rs}]" if rs else ""
 
                     if prob > THRESHOLDS["attempt_too_high"]:
@@ -683,6 +836,15 @@ def check_position_type_vs_score():
                 continue
             # re-derive the pre-sign value: position_role_strength already applied the word, so
             # recompute the bare arithmetic to see whether the two ever pointed different ways
+            # `or 0` SURVIVES HERE DELIBERATELY, and it is not a ruleset re-animation:
+            # point_value is a plain scoring integer, never a {gi,nogi} map (measured
+            # over every top/bottom state_properties block in content/Positions — all
+            # int, 0 forked). Recompute:
+            #   python3 -c "import json;from pathlib import Path;print({type((b.get('state_properties') or {}).get('point_value')).__name__ for f in Path('content/Positions').rglob('*.json') for b in (json.load(open(f)).get(r) for r in ('top','bottom')) if isinstance(b,dict) and 'point_value' in (b.get('state_properties') or {})})"
+            # It coerces a MISSING or explicitly-null point_value to the neutral
+            # midpoint of the -4..4 scale, which is what "no points scored here"
+            # means for this metric. If point_value is ever forked, this line must
+            # become a per-frame read, not a scalar with a default.
             bare = sgn.clamp_strength(
                 sgn.W_POINT * sgn.normalize(sp.get("point_value", 0) or 0, -4, 4)
                 + sgn.W_SUBMISSION * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "submission_probability"), 0, 100)
@@ -972,21 +1134,69 @@ def _iter_graph_technique_nodes(graph):
 def validate_successrate_coherence(graph):
     """Every attacker/defender node's headline successRate must equal the sum of its 'success'
     outcome probabilities (within 1.0). Guards the headline<->breakdown coherence the graph build's
-    outcome rescale maintains after a vote/prior override."""
+    outcome rescale maintains after a vote/prior override.
+
+    Returns ``(violations, coverage)``.
+
+    WHY IT COUNTS. graph.json carries FOLDED scalars, so once the technique-level
+    fork admits nulls this gate meets them three ways, and all three used to be
+    invisible: ``successRate`` null (skipped by a bare ``continue``), an outcome
+    ``probability`` null (``sum(o.get("probability", 0) ...)`` raised
+    ``TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'`` and took
+    the whole audit down), and a node with no success outcome at all. A gate that
+    skipped every node still printed "Coherence violations: 0" — the §6.6 shape:
+    "found no problems" and "never looked" producing the same output. So: DROP the
+    null cell, COUNT the drop, PRINT the count, and hard-fail when the positive
+    count is 0 while nodes exist.
+
+    Measured on today's graph.json: 2656 attacker/defender nodes, 2656 checked,
+    0 skipped. Recompute the set with
+      python3 -c "import json;g=json.load(open('graph.json'));print(sum(1 for c in ('transitions','submissions') for n in (g.get(c) or {}).values() if isinstance(n,dict) and n.get('role') in ('attacker','defender')))"
+    """
     violations = []
+    coverage = {"checked": 0, "no_success_outcome": 0, "null_rate": 0,
+                "null_probability": 0, "nodes": 0}
     for key, node in _iter_graph_technique_nodes(graph):
         if node.get("role") not in ("attacker", "defender"):
             continue
+        coverage["nodes"] += 1
         outcomes = node.get("outcomes")
         if not outcomes:
+            coverage["no_success_outcome"] += 1
             continue
         succ = [o for o in outcomes if o.get("result") == "success"]
         if not succ:
+            coverage["no_success_outcome"] += 1
             continue
         sr = node.get("successRate")
-        if sr is None:
+        if sr is None or not isinstance(sr, Number) or isinstance(sr, bool):
+            # A null headline rate means the technique does not exist in the folded
+            # frame — correctly unchecked, but never silently.
+            coverage["null_rate"] += 1
             continue
-        succ_sum = sum(o.get("probability", 0) for o in succ)
+        probs = [o.get("probability") for o in succ]
+        nums = [v for v in probs if isinstance(v, Number) and not isinstance(v, bool)]
+        if len(nums) != len(probs):
+            # A headline rate WITH a hole in its breakdown. Summing the rest would
+            # invent a total that is short by exactly the missing cells and report
+            # a fabricated "incoherent" delta, so the comparison is dropped, not
+            # guessed. Info severity: an absent frame is data, and this gate's job
+            # is to stop the drop being silent, not to fail a legitimately forked
+            # corpus on the max_errors:0 ratchet.
+            coverage["null_probability"] += 1
+            violations.append({
+                "type": "successrate_probability_null",
+                "severity": "info",
+                "name": node.get("name", key),
+                "node": key,
+                "message": (f"{key}: successRate {sr:g} kept, but {len(probs) - len(nums)} of "
+                            f"{len(probs)} success outcome probabilities are null/non-numeric "
+                            f"— coherence comparison SKIPPED (a partial sum would be a "
+                            f"fabricated delta)"),
+            })
+            continue
+        coverage["checked"] += 1
+        succ_sum = sum(nums)
         if abs(sr - succ_sum) > 1.0:
             violations.append({
                 "type": "successrate_incoherent",
@@ -996,13 +1206,32 @@ def validate_successrate_coherence(graph):
                 "message": (f"{key}: successRate {sr:g} != Σ success outcomes {succ_sum:g} "
                             f"(|Δ| {abs(sr - succ_sum):g} > 1.0)"),
             })
-    return violations
+    # THE FLOOR. Nodes present but nothing compared = this gate checked NOTHING.
+    if coverage["nodes"] and coverage["checked"] == 0:
+        violations.append({
+            "type": "successrate_coherence_no_coverage",
+            "severity": "error",
+            "name": "successRate coherence",
+            "message": (f"successRate coherence compared 0 of {coverage['nodes']} attacker/"
+                        f"defender nodes — this gate checked NOTHING; a clean result here "
+                        f"is a false pass"),
+        })
+    return violations, coverage
 
 
 def validate_defender_complement(graph):
     """Each attacker/defender pair (matched by base slug) must have complementary success rates:
-    defender.successRate ≈ 100 - attacker.successRate (within 1.5)."""
+    defender.successRate ≈ 100 - attacker.successRate (within 1.5).
+
+    Returns ``(violations, coverage)``. The two ``continue``s below are correct —
+    an unpaired attacker has nothing to complement, and a null successRate means
+    the technique does not exist in the folded frame — but they were SILENT, so a
+    graph in which every rate went null still printed "Coherence violations: 0"
+    (CLAUDE.md §6.6). They are counted and printed now, with a floor on the
+    positive count. Measured today: 1328 pairs checked, 0 skipped.
+    """
     violations = []
+    coverage = {"checked": 0, "no_pair": 0, "null_rate": 0, "attackers": 0}
     attackers, defenders = {}, {}
     for key, node in _iter_graph_technique_nodes(graph):
         role = node.get("role")
@@ -1011,14 +1240,23 @@ def validate_defender_complement(graph):
             attackers[base] = node
         elif role == "defender":
             defenders[base] = node
+    coverage["attackers"] = len(attackers)
     for base, att in attackers.items():
         dfn = defenders.get(base)
         if dfn is None:
+            coverage["no_pair"] += 1
             continue
         asr = att.get("successRate")
         dsr = dfn.get("successRate")
-        if asr is None or dsr is None:
+        if (asr is None or dsr is None
+                or not isinstance(asr, Number) or isinstance(asr, bool)
+                or not isinstance(dsr, Number) or isinstance(dsr, bool)):
+            # NOT `or 0`: a null rate is "does not exist in this frame", and 0
+            # would assert the defender wins 100% of an exchange that never
+            # happens. Drop the pair, count the drop.
+            coverage["null_rate"] += 1
             continue
+        coverage["checked"] += 1
         if abs(dsr - (100 - asr)) > 1.5:
             violations.append({
                 "type": "defender_not_complement",
@@ -1028,14 +1266,37 @@ def validate_defender_complement(graph):
                 "message": (f"{base}: defender successRate {dsr:g} != 100 - attacker {asr:g} "
                             f"(= {100 - asr:g}, |Δ| {abs(dsr - (100 - asr)):g} > 1.5)"),
             })
-    return violations
+    # THE FLOOR — attackers present but no pair compared means this checked NOTHING.
+    if coverage["attackers"] and coverage["checked"] == 0:
+        violations.append({
+            "type": "defender_complement_no_coverage",
+            "severity": "error",
+            "name": "defender complement",
+            "message": (f"defender-complement compared 0 of {coverage['attackers']} attacker "
+                        f"nodes — this gate checked NOTHING; a clean result here is a false "
+                        f"pass"),
+        })
+    return violations, coverage
 
 
 def validate_votes_priors(votes_data):
     """Schema gate on templates/votes.json: community and prior are SEPARATE, PAIRED keys; every
     community frame has vote_count >= PRIOR_VOTE_COUNT; every present prior frame block has
-    pseudo_count >= 1 and success_rate in [0,100]. Legacy (unmigrated) entries are skipped."""
+    pseudo_count >= 1 and success_rate in [0,100]. Legacy (unmigrated) entries are skipped.
+
+    Returns ``(violations, coverage)``. `prior.<rs> is None` is an ABSENT FRAME and
+    is correctly skipped — but silently, so a votes file that lost a whole ruleset
+    read exactly like one that passed (CLAUDE.md §6.6). Counted and printed now.
+    Measured on templates/votes.json today: 1614 entries, 339 carry a prior, 678
+    prior frame-blocks present, 0 absent; 1275 entries carry no prior at all, which
+    is legitimate (community-only) and is why the ABSENT rule is NOT extended to
+    "present in community, absent in prior" — scoped that way it flags 1275 x 2 =
+    2550 rows on the current corpus and blows the max_errors:0 ratchet. Recompute:
+      python3 -c "import json;v=json.load(open('templates/votes.json'))['votes'];print(len(v),sum(1 for e in v.values() if isinstance(e,dict) and e.get('prior')))"
+    """
     violations = []
+    coverage = {"entries": 0, "community_frames": 0, "prior_frames": 0,
+                "prior_frames_absent": 0, "no_prior": 0}
 
     def add(name, msg):
         violations.append({"type": "votes_schema", "severity": "error", "name": name, "message": msg})
@@ -1043,29 +1304,49 @@ def validate_votes_priors(votes_data):
     for name, entry in votes_data.get("votes", {}).items():
         if not isinstance(entry, dict):
             continue
+        coverage["entries"] += 1
         community = entry.get("community")
         prior = entry.get("prior")
         if community is not None:
+            # RULESETS (the constant pair), not present_rulesets, is DELIBERATE
+            # here: a community block is the ballot itself and must exist in both
+            # frames — a missing one is the "missing vote_count" error below, not
+            # an absent frame.
             for rs in RULESETS:
                 block = community.get(rs)
                 if not isinstance(block, dict) or block.get("vote_count") is None:
                     add(name, f"{name}: community.{rs} missing vote_count")
-                elif block["vote_count"] < PRIOR_VOTE_COUNT:
-                    add(name, f"{name}: community.{rs} vote_count {block['vote_count']} < {PRIOR_VOTE_COUNT}")
-        if prior is not None:
+                else:
+                    coverage["community_frames"] += 1
+                    if block["vote_count"] < PRIOR_VOTE_COUNT:
+                        add(name, f"{name}: community.{rs} vote_count {block['vote_count']} < {PRIOR_VOTE_COUNT}")
+        if prior is None:
+            coverage["no_prior"] += 1
+        else:
             if community is None:
                 add(name, f"{name}: has 'prior' but no 'community' (keys must be separate and paired)")
             for rs in RULESETS:
                 block = prior.get(rs)
                 if block is None:
-                    continue  # a ruleset frame may be absent; only present frames are checked
+                    # A ruleset frame may be absent; only present frames are
+                    # checked. COUNTED, so an absent frame and a checked one can
+                    # never print the same thing (CLAUDE.md §6.6).
+                    coverage["prior_frames_absent"] += 1
+                    continue
+                coverage["prior_frames"] += 1
                 pc = block.get("pseudo_count")
                 sr = block.get("success_rate")
                 if pc is None or pc < 1:
                     add(name, f"{name}: prior.{rs} pseudo_count {pc} < 1")
                 if sr is None or not (0 <= sr <= 100):
                     add(name, f"{name}: prior.{rs} success_rate {sr} out of [0,100]")
-    return violations
+    # THE FLOOR — entries present but no community frame verified means the schema
+    # gate ran over nothing.
+    if coverage["entries"] and coverage["community_frames"] == 0:
+        add("votes.json", f"votes schema verified 0 community frames across "
+                          f"{coverage['entries']} entries — this gate checked NOTHING; "
+                          f"a clean result here is a false pass")
+    return violations, coverage
 
 
 def main():
@@ -1092,9 +1373,12 @@ def main():
 
     # Step 2: Build position references
     print(f"[2/{total_steps}] Scanning position files for transition references...")
-    all_refs, prob_errors, position_names, position_files = build_position_data()
+    (all_refs, prob_errors, position_names, position_files,
+     attempt_frame_issues, attempt_cov) = build_position_data()
     print(f"  Found {len(all_refs)} unique transition references across positions")
     print(f"  Found {len(position_names)} position names")
+    print(f"  attempt_probability ruleset frames summed: {attempt_cov['checked']} "
+          f"(skipped as absent: {attempt_cov['absent']})")
 
     # Step 2b: Build submission file index
     submission_index = {}
@@ -1140,7 +1424,17 @@ def main():
 
     # Step 7: Outcome probability checks
     print(f"[7/{total_steps}] Checking outcome probabilities (Transitions + Submissions)...")
-    outcome_issues = check_outcome_probabilities()
+    outcome_issues, outcome_cov = check_outcome_probabilities()
+    print(f"  outcomes.probability ruleset frames summed: {outcome_cov['checked']} "
+          f"(skipped as absent: {outcome_cov['absent']})")
+
+    # Ruleset-frame coverage totals, aggregated across both sum gates. Computed
+    # here (not at summary time) because the FLOOR below has to become an ISSUE,
+    # and issues are assembled further down.
+    frames_checked = attempt_cov["checked"] + outcome_cov["checked"]
+    frames_absent = attempt_cov["absent"] + outcome_cov["absent"]
+    frames_dead = attempt_cov["dead"] + outcome_cov["dead"]
+    frames_bare_null = attempt_cov["bare_null"] + outcome_cov["bare_null"]
     outcome_errors = [i for i in outcome_issues if i["severity"] == "error"]
     outcome_warnings = [i for i in outcome_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(outcome_errors)}, Warnings: {len(outcome_warnings)}")
@@ -1179,18 +1473,43 @@ def main():
     # Step 13: Coherence gates on generated graph.json + templates/votes.json (calibration-v2 2.3b)
     print(f"[13/{total_steps}] Checking successRate / defender-complement / votes-prior coherence...")
     coherence_issues = []
+    # Coverage for the three coherence gates. Each one is a bag of `continue`s over
+    # values that may legitimately be null; without these counts "compared every
+    # node, all coherent" and "compared nothing at all" print the same line
+    # (CLAUDE.md §6.6). Each gate carries its own floor as an error-severity issue.
+    sr_cov = {"checked": 0, "nodes": 0, "null_rate": 0, "null_probability": 0,
+              "no_success_outcome": 0}
+    dc_cov = {"checked": 0, "attackers": 0, "null_rate": 0, "no_pair": 0}
+    vt_cov = {"entries": 0, "community_frames": 0, "prior_frames": 0,
+              "prior_frames_absent": 0, "no_prior": 0}
     graph_data = load_json(GRAPH_PATH) if GRAPH_PATH.exists() else None
     votes_data = load_json(VOTES_PATH) if VOTES_PATH.exists() else None
     if graph_data:
-        coherence_issues.extend(validate_successrate_coherence(graph_data))
-        coherence_issues.extend(validate_defender_complement(graph_data))
+        _v, sr_cov = validate_successrate_coherence(graph_data)
+        coherence_issues.extend(_v)
+        _v, dc_cov = validate_defender_complement(graph_data)
+        coherence_issues.extend(_v)
     else:
         print(f"  (graph.json not present at {GRAPH_PATH} — skipping graph coherence checks)")
     if votes_data:
-        coherence_issues.extend(validate_votes_priors(votes_data))
+        _v, vt_cov = validate_votes_priors(votes_data)
+        coherence_issues.extend(_v)
     else:
         print(f"  (votes.json not present at {VOTES_PATH} — skipping votes-prior checks)")
     print(f"  Coherence violations: {len(coherence_issues)}")
+    # The POSITIVE coverage counts for step 13, printed on every run so that a gate
+    # which skipped everything cannot look like a gate that found nothing.
+    print(f"  successRate coherence: {sr_cov['checked']} of {sr_cov['nodes']} attacker/defender "
+          f"nodes compared (skipped: {sr_cov['null_rate']} null successRate, "
+          f"{sr_cov['null_probability']} null outcome probability, "
+          f"{sr_cov['no_success_outcome']} no success outcome)")
+    print(f"  defender complement:   {dc_cov['checked']} of {dc_cov['attackers']} attacker "
+          f"nodes compared (skipped: {dc_cov['null_rate']} null rate, "
+          f"{dc_cov['no_pair']} no defender)")
+    print(f"  votes schema:          {vt_cov['community_frames']} community frames + "
+          f"{vt_cov['prior_frames']} prior frames checked across {vt_cov['entries']} entries "
+          f"(prior frames absent: {vt_cov['prior_frames_absent']}, "
+          f"entries with no prior: {vt_cov['no_prior']})")
 
     # Step 14: Summary
     print(f"[14/{total_steps}] Compiling report...")
@@ -1368,6 +1687,27 @@ def main():
     for _t in _fixed:
         print(f"    success-reachability: {_t!r} is FIXED — remove it from {_base_path}")
 
+    # Ruleset-frame coverage issues (info for an absent frame, error for a value
+    # that exists in no frame at all, error for a bare null). These are the trace a
+    # SKIPPED sum leaves behind — without them an absent frame and a clean frame
+    # print identically (CLAUDE.md §6.6).
+    all_issues.extend(attempt_frame_issues)
+
+    # THE FLOOR, as an ISSUE. It has to be one: ci-validate.yml runs this script
+    # with `|| true` and gates on report["summary"]["errors"], so a floor that only
+    # set an exit code would be invisible to the PR ratchet — the gate that exists
+    # to protect the deploy. Reached when the content tree is empty or unreadable,
+    # or every probability in the corpus went null in both frames at once; all of
+    # which used to print "Errors: 0" and exit 0 (CLAUDE.md §6.6).
+    if frames_checked == 0:
+        all_issues.append({
+            "type": "no_frames_checked",
+            "severity": "error",
+            "message": ("0 ruleset frames were summed — this gate checked NOTHING. "
+                        "Empty or unreadable content tree, or every probability null "
+                        "in both frames. A clean report here is a false pass."),
+        })
+
     # Probability sum errors (error)
     for e in prob_errors:
         all_issues.append({
@@ -1480,6 +1820,23 @@ def main():
     for e in attempt_sum_errors:
         print(f"  {e['position']} [{e['role']}]: sum={e['sum']}%")
 
+    # Ruleset frames that were SKIPPED because they do not exist, plus values that
+    # exist in no ruleset at all. Printed only when non-empty: the running TOTALS
+    # print unconditionally in the SUMMARY block below, so a zero here is already
+    # reported and a section of nothing would just be noise. Without this list a
+    # skipped sum left no trace a human would ever read — the by-type tally names
+    # the type but not the file (CLAUDE.md §6.6).
+    frame_absent_issues = [i for i in all_issues if i["type"].endswith("_frame_absent")]
+    frame_dead_issues = [i for i in all_issues
+                         if i["type"].endswith("_no_ruleset") or i["type"].endswith("_bare_null")]
+    if frame_absent_issues or frame_dead_issues:
+        print(f"\n--- RULESET FRAMES SKIPPED / ABSENT "
+              f"({len(frame_absent_issues) + len(frame_dead_issues)}) ---")
+        for i in frame_dead_issues:
+            print(f"  ERROR: {i['message']}")
+        for i in frame_absent_issues:
+            print(f"  {i['message']}")
+
     # Orphaned positions
     orphaned_pos_issues = [i for i in all_issues if i["type"] == "orphaned_position"]
     print(f"\n--- ORPHANED POSITIONS ({len(orphaned_pos_issues)}) ---")
@@ -1504,12 +1861,28 @@ def main():
     complement_bad = [i for i in all_issues if i["type"] == "defender_not_complement"]
     votes_schema_bad = [i for i in all_issues if i["type"] == "votes_schema"]
     coherence_total = len(sr_incoherent) + len(complement_bad) + len(votes_schema_bad)
+    # The step-13 SKIP trace: nodes whose comparison was dropped because a value is
+    # null, and the two floors. These must print their own MESSAGE, not just land in
+    # the by-type tally — a tally names the type, never the node, and a skip nobody
+    # can read is the silence this whole pass exists to remove (CLAUDE.md §6.6).
+    # Empty on today's corpus, so this section is absent from today's output.
+    coherence_skips = [i for i in all_issues if i["type"] in (
+        "successrate_probability_null",
+        "successrate_coherence_no_coverage",
+        "defender_complement_no_coverage",
+    )]
     print(f"\n--- COHERENCE VIOLATIONS ({coherence_total}) ---")
     print("(graph.json successRate<->outcomes, defender complement, votes.json prior schema)")
     for e in (sr_incoherent + complement_bad + votes_schema_bad)[:20]:
         print(f"  {e['message']}")
     if coherence_total > 20:
         print(f"  ... and {coherence_total - 20} more")
+    if coherence_skips:
+        print(f"\n--- COHERENCE COMPARISONS SKIPPED ({len(coherence_skips)}) ---")
+        for e in coherence_skips[:20]:
+            print(f"  {e['message']}")
+        if len(coherence_skips) > 20:
+            print(f"  ... and {len(coherence_skips) - 20} more")
 
     # Outcome warnings (always compute for report, only print if not errors-only)
     outcome_warns = [i for i in all_issues if i["type"] in ("outcome_too_high", "counter_high", "technique_range_high", "technique_range_low")]
@@ -1548,6 +1921,17 @@ def main():
     print(f"  Position files:         {len(position_names)}")
     print(f"  Coherence violations:   {coherence_total} "
           f"(successRate {len(sr_incoherent)}, complement {len(complement_bad)}, votes {len(votes_schema_bad)})")
+    # The positive coverage count. It prints on EVERY run, green or red, and it
+    # survives --errors-only, because its whole job is to stop "no frame was ever
+    # summed" from looking like "every frame summed clean" (CLAUDE.md §6.6). A
+    # non-zero `skipped` is a corpus shedding a ruleset — expected once nulls land,
+    # but never silent.
+    print(f"  Ruleset frames summed:  {frames_checked} "
+          f"(attempt {attempt_cov['checked']}, outcomes {outcome_cov['checked']})")
+    print(f"    Skipped (frame absent in that ruleset): {frames_absent} "
+          f"(attempt {attempt_cov['absent']}, outcomes {outcome_cov['absent']})")
+    if frames_dead or frames_bare_null:
+        print(f"    Values existing in NO ruleset: {frames_dead}   bare-null rows: {frames_bare_null}")
     print(f"  Total issues:           {len(all_issues)}")
     print(f"    Errors:               {error_count}")
     print(f"    Warnings:             {warning_count}")
@@ -1582,6 +1966,26 @@ def main():
             "successrate_incoherent": len(sr_incoherent),
             "defender_not_complement": len(complement_bad),
             "votes_schema_violations": len(votes_schema_bad),
+            # Coverage, not defects: how many gi/no-gi frames this run actually
+            # summed, and how many it skipped because the frame does not exist.
+            "ruleset_frames_checked": frames_checked,
+            "ruleset_frames_absent": frames_absent,
+            "attempt_frames_checked": attempt_cov["checked"],
+            "attempt_frames_absent": attempt_cov["absent"],
+            "outcome_frames_checked": outcome_cov["checked"],
+            "outcome_frames_absent": outcome_cov["absent"],
+            "values_in_no_ruleset": frames_dead,
+            "bare_null_rows": frames_bare_null,
+            # Step 13 coverage — the positive counts behind "Coherence violations".
+            "successrate_nodes_compared": sr_cov["checked"],
+            "successrate_nodes_total": sr_cov["nodes"],
+            "successrate_skipped_null_rate": sr_cov["null_rate"],
+            "successrate_skipped_null_probability": sr_cov["null_probability"],
+            "complement_pairs_compared": dc_cov["checked"],
+            "complement_skipped_null_rate": dc_cov["null_rate"],
+            "votes_community_frames_checked": vt_cov["community_frames"],
+            "votes_prior_frames_checked": vt_cov["prior_frames"],
+            "votes_prior_frames_absent": vt_cov["prior_frames_absent"],
         },
         "issues": all_issues,
         "naming_inconsistencies": name_matches,
@@ -1609,6 +2013,14 @@ def main():
         print(f"Suggested new files appended to: {suggested_path} ({suggested_count} entries)")
     else:
         print("No new file suggestions from audit.")
+
+    # The floor's own line. The verdict itself already rode in as an
+    # error-severity issue above (so the PR ratchet sees it); this only makes the
+    # reason legible to whoever is reading the run.
+    if frames_checked == 0:
+        print("\n  FAIL: 0 ruleset frames were summed. This gate checked NOTHING — "
+              "an empty/unreadable content tree, or every probability null in both "
+              "frames. A clean report here would be a false pass.")
 
     # Exit code 1 only for error-severity issues
     return 1 if error_count > 0 else 0

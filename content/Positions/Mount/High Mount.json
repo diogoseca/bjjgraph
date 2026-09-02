@@ -426,7 +426,7 @@
         "transition": "Cross Collar Choke from High Mount",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

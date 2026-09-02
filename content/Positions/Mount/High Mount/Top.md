@@ -27,7 +27,7 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from High Mount",
-      "text": "From this position, attempt Cross Collar Choke from High Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from High Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 2
     },
     {

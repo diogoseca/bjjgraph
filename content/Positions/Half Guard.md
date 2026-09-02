@@ -355,7 +355,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (1% of attempts)
 
-- **[[Submissions/Loop Choke/from Half Guard/Attacker|Loop Choke from Half Guard]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Half Guard/Attacker|Loop Choke from Half Guard]]** (gi only)
 
 - **[[Submissions/Suloev Stretch/from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
 

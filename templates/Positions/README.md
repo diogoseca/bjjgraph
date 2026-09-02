@@ -145,12 +145,33 @@ Each role object (top or bottom) contains these keys:
 | 5 | `state_invariants` | 3+ anatomical/positional conditions that must hold |
 | 6 | `prerequisites` | 3+ conditions required before entering |
 | 7 | `key_principles` | 5-7 fundamental concepts |
-| 8 | `transitions` | Array of `{transition, attempt_probability}` (must sum to 100%) |
+| 8 | `transitions` | Array of `{transition, attempt_probability: {gi, nogi}}`; each frame's non-null cells sum to 100 independently. A null cell means the transition does not exist in that ruleset (distinct from 0 = exists, ~never attempted); a frame with no non-null cells is not summed |
 | 9 | `decision_tree` | 3+ if/else conditions with probabilistic actions |
 | 10 | `common_errors` | 5+ mistakes with consequence and correction |
 | 11 | `training_drills` | 3+ drills with name, description, duration |
 | 12 | `related_content` | 3-15 related positions/techniques |
 | 13 | `position_metrics` | Retention, advancement, submission rates by skill level |
+
+### Null probabilities, and how they render
+
+`attempt_probability` (and every other forked probability) is a `{"gi": n|null, "nogi": n|null}`
+map. The two values mean different things and are not interchangeable:
+
+| cell | means | renders as |
+|---|---|---|
+| `7` | attempted in 7% of exchanges in that ruleset | `7% of attempts` |
+| `0` | the move exists in that ruleset but is almost never attempted | `0% of attempts` |
+| `null` | **the move does not exist in that ruleset at all** | `gi only` / `no-gi only` |
+
+Pages render the folded **no-gi** frame (`docs/Content.md`), so a `null` in `nogi` is the case
+the reader sees: the row keeps its wikilink and its name, and the percentage is replaced by the
+marker naming the ruleset the move does belong to. No template ever writes an absence marker
+itself: all three spellings come from filters in `scripts/regenerate_md_from_json.py` — `pct`
+(the table cells and inline rows), `attempt_note` (the JSON-LD HowTo step) and
+`outcomes_absence_note` (the footnote under an outcomes table) — so the corpus cannot grow a
+second wording, and a template site that was never taught about absences raises instead of
+printing `None%`. Never author `0` to mean "not in this ruleset"; the graph reads that as a live
+edge with a low attempt rate.
 
 ---
 
@@ -171,13 +192,13 @@ Each role object (top or bottom) contains these keys:
 
 3. **Fill out bottom section**
    - Defensive overview (400w)
-   - 4+ transitions with `attempt_probability` summing to 100%
+   - 4+ transitions whose `attempt_probability` cells sum to 100% per ruleset frame; null cells are excluded from the sum, and a frame with no non-null cells is not summed
    - 5+ defensive errors
    - Training drills
 
 4. **Fill out top section**
    - Offensive overview (400w)
-   - 4+ transitions with `attempt_probability` summing to 100%
+   - 4+ transitions whose `attempt_probability` cells sum to 100% per ruleset frame; null cells are excluded from the sum, and a frame with no non-null cells is not summed
    - 5+ offensive errors
    - Training drills
 

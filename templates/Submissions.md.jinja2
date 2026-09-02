@@ -109,7 +109,7 @@ description: "{{description}}"
 {% if from_position is defined and from_position -%}
 **From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
 {% endif -%}
-**Success Rate**: {{success_rate}}%
+**Success Rate**: {{ success_rate | pct }}
 
 </section>
 
@@ -250,7 +250,7 @@ description: "{{description}}"
 | Result | Position | Probability |
 |--------|----------|------------|
 {% for o in outcomes -%}
-| {{ o.result | capitalize }} | [[{{ resolve(o.to) }}]] | {{ o.probability }}% |
+| {{ o.result | capitalize }} | [[{{ resolve(o.to) }}]] | {{ o.probability | pct }} |
 {% endfor %}
 
 </section>

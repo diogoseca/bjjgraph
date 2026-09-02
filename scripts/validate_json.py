@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify as _slugify  # shared single-source slugify
 from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
     RULESETS,
+    Number,
     is_ruleset_map,
     any_ruleset_map,
     available,
@@ -612,11 +613,42 @@ def validate_success_rate_ordering(data, path=""):
     def check_single_rate(rate, location):
         """Check that a single rate value is 0-100 (scalar or {gi,nogi} map)."""
         if is_ruleset_map(rate):
+            # A null cell means the technique does not exist in that ruleset
+            # (scripts/_ruleset.py), so it is CORRECTLY unchecked. But an unchecked
+            # cell and a checked one printed the same thing — nothing — so count
+            # what was actually looked at and fail on zero (CLAUDE.md §6.6). A rate
+            # null in BOTH frames is a technique that exists in neither: a deletion
+            # somebody wrote as a null.
+            checked = 0
             for rs in RULESETS:
                 c = rate.get(rs)
+                if c is None:
+                    continue
+                checked += 1
+                # UNGUARDED, deliberately out of scope for the null pass: the
+                # isinstance(c, int) test lets a float through unchecked (130.0 is
+                # silently accepted where 130 errors) and treats True as 1. Zero
+                # float and zero bool cells exist in the corpus today (measured
+                # over all 1391 success_rate maps), so widening this is a NEW gate,
+                # not a null fix, and belongs in its own commit with its own
+                # red-proof.
                 if isinstance(c, int) and (c < 0 or c > 100):
                     errors.append(f"{location}[{rs}]: value {c} out of range 0-100")
+            if checked == 0:
+                errors.append(
+                    f"{location}: null in BOTH gi and nogi — value unchecked; a rate that "
+                    f"exists in neither ruleset means the technique exists in neither, "
+                    f"which is a deletion, not a null"
+                )
             return
+        # A BARE `null` rate falls past every branch below and is reported by
+        # nothing here — deliberately, and verified rather than assumed: the
+        # schema rejects it first ("Schema validation error: None is not valid
+        # under any of the given schemas at success_rate", BLOCKING, exit 1), so a
+        # second check here would be a duplicate message, not new coverage. The
+        # contract's null is per-FRAME ({gi: null, nogi: null}), which the
+        # is_ruleset_map branch above owns. Re-verify with:
+        #   python3 -c "import json;p='content/Transitions/100% Sweep.json';d=json.load(open(p));d['success_rate']=None;open('/tmp/x.json','w').write(json.dumps(d))"
         if STRICT_RULESET and isinstance(rate, int):
             errors.append(f"{location}: bare scalar {rate}; expected a {{gi,nogi}} map (--strict-ruleset)")
             return
@@ -651,6 +683,116 @@ def validate_success_rate_ordering(data, path=""):
     return errors
 
 
+def check_probability_sum(dict_items, key, label):
+    """The ONE per-ruleset sum gate for a forked probability array.
+
+    Three sites ask this identical question — a position role's
+    `transitions[].attempt_probability`, a Transition's `outcomes[].probability`
+    and a Submission's `outcomes[].probability`. They were three copies, and when
+    the null contract landed each copy needed the same three fixes; per CLAUDE.md
+    §6.5 the copies are DELETED rather than synced. `key` and `label` carry the
+    only real difference between them (the field name and the message prefix), so
+    every string emitted here is byte-identical to what each copy printed.
+
+    THE NULL CONTRACT (`scripts/_ruleset.py`): a cell is `null` when the edge does
+    NOT EXIST in that ruleset — distinct from `0` = "exists, ~never attempted".
+    `present_rulesets` therefore drops a frame whose cells are all null. That is
+    the CORRECT answer to "which frames does this thing exist in", and it is also
+    exactly why this function has to count: a dropped frame runs no sum, appends
+    no error and prints nothing, so "this frame does not exist" and "nobody
+    checked this frame" used to produce identical output. That is CLAUDE.md §6.6,
+    the single most repeated defect class in this repo — absence produces a
+    plausible answer. The fix here is the one the repo has independently
+    reinvented five times: emit a POSITIVE coverage count, hard-fail on zero, and
+    make every skip PRINT.
+
+    Returns (errors, notices, frames_checked):
+      errors         BLOCKING. A present frame sums wrong; or the value exists in
+                     NO ruleset at all (rows present, zero frames checked — the
+                     floor breach); or a probability is a bare `null` instead of a
+                     per-frame map.
+      notices        NON-BLOCKING but PRINTED: one line per absent frame, naming
+                     the sum check that was skipped. A ruleset legitimately not
+                     existing is data, not a defect — it must never fail the gate,
+                     and it must never be silent either.
+      frames_checked The positive coverage count: how many ruleset frames actually
+                     had their sum verified. Legacy scalar rows report 1 (one
+                     frame-agnostic sum ran). Zero with rows present is a defect,
+                     never a pass.
+    """
+    errors = []
+    notices = []
+    values = [it[key] for it in dict_items if key in it]
+
+    if any_ruleset_map(values):
+        # Forked data: each ruleset's available cells must independently sum to 100.
+        #
+        # A MIXED array is the trap here: one bare `null` beside forked maps takes
+        # the forked branch, `sum_cells` drops the null cell from every frame, and
+        # the remaining rows can still total 100 — so the row vanished from the sum
+        # with no error and no count. Not hypothetical: outcomes
+        # [{gi:100,nogi:100}, null] summed to 100 and reported nothing. A row whose
+        # value is neither a {gi,nogi} map nor a number contributes to NO frame, so
+        # it is counted and NAMED (a row that IS a map with a null cell is the
+        # opposite case — that edge legitimately does not exist in that ruleset,
+        # contributes 0 there, and must NOT be flagged).
+        nonforked = [v for v in values
+                     if not (is_ruleset_map(v)
+                             or (isinstance(v, Number) and not isinstance(v, bool)))]
+        if nonforked:
+            errors.append(
+                f"{label}: {key} is not a number on {len(nonforked)} of {len(values)} rows "
+                f"(first: {nonforked[0]!r}); an edge that does not exist in a ruleset is "
+                f"written per-frame as {{gi: null, nogi: null}}, never as a bare null"
+            )
+        present = present_rulesets(values)
+        for rs in present:
+            total = sum_cells(dict_items, key, rs)
+            if total != 100:
+                errors.append(f"{label}: {key}[{rs}] sum is {total:g}, should be 100")
+        if not present:
+            # Every cell null in BOTH frames. This is not an absent frame, it is a
+            # row that exists in no ruleset at all — i.e. a deletion someone wrote
+            # as a null. Blocking, because the alternative is the silence above.
+            # The wording keeps the literal substring "<key> sum is", which is what
+            # validate_json_file's routing keys on to mark a sum failure blocking.
+            errors.append(
+                f"{label}: {key} sum is UNCHECKED — every cell is null in BOTH gi and "
+                f"nogi across {len(values)} rows; an edge that exists in neither ruleset "
+                f"is a deletion, not a null"
+            )
+        else:
+            for rs in RULESETS:
+                if rs not in present:
+                    notices.append(
+                        f"{label}: {key}[{rs}] frame ABSENT (all {len(values)} cells null) "
+                        f"— sum check SKIPPED"
+                    )
+        return errors, notices, len(present)
+
+    # Legacy scalar rows (pre-migration). Zero of these in the corpus today; the
+    # branch stays so the migration seam remains reversible.
+    if STRICT_RULESET:
+        errors.append(f"{label}: {key} is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
+    # A bare `null` is NOT the null contract — the contract is per-FRAME, written
+    # {gi: null, nogi: null}. The old `sum(it.get(key, 0) ...)` raised
+    # "TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'" on one,
+    # taking the whole gate down mid-run. Sum only real numbers, then NAME what was
+    # excluded — a filter that drops rows silently is the same §6.6 defect.
+    # (bool is an int in Python; a boolean probability is a defect, not a 1.)
+    nonnumeric = [v for v in values if not isinstance(v, Number) or isinstance(v, bool)]
+    total = sum(v for v in values if isinstance(v, Number) and not isinstance(v, bool))
+    if nonnumeric:
+        errors.append(
+            f"{label}: {key} is not a number on {len(nonnumeric)} of {len(values)} rows "
+            f"(first: {nonnumeric[0]!r}); an edge that does not exist in a ruleset is "
+            f"written per-frame as {{gi: null, nogi: null}}, never as a bare null"
+        )
+    if total != 100:
+        errors.append(f"{label}: {key} sum is {total}, should be 100")
+    return errors, notices, 1
+
+
 def validate_attempt_probability_sum(transitions, path=""):
     """Validate attempt_probability sums to 100% for a transitions array.
 
@@ -659,39 +801,27 @@ def validate_attempt_probability_sum(transitions, path=""):
         path: Path string for error messages (e.g., "top.transitions")
 
     Returns:
-        List of error messages
+        (errors, notices, frames_checked) — see check_probability_sum. `notices`
+        are the absent-frame skips: non-blocking, but the caller MUST surface them.
     """
-    errors = []
-
     if not transitions or not isinstance(transitions, list):
-        return errors
+        return [], [], 0
 
-    # Check if any transition has attempt_probability
+    # Check if any transition has attempt_probability.
+    # This guard is why the empty case never reaches the seam here: a role that
+    # authors no attempt_probability at all is a different (schema) question, and
+    # the outcomes callers deliberately DO pass an empty array through, where a
+    # 0-sum error is the right answer.
     has_attempt_probability = any(
         isinstance(t, dict) and 'attempt_probability' in t
         for t in transitions
     )
 
     if not has_attempt_probability:
-        return errors
+        return [], [], 0
 
     dict_transitions = [t for t in transitions if isinstance(t, dict)]
-    ap_values = [t['attempt_probability'] for t in dict_transitions if 'attempt_probability' in t]
-
-    if any_ruleset_map(ap_values):
-        # Forked data: each ruleset's available cells must independently sum to 100.
-        for rs in present_rulesets(ap_values):
-            total = sum_cells(dict_transitions, 'attempt_probability', rs)
-            if total != 100:
-                errors.append(f"{path}: attempt_probability[{rs}] sum is {total:g}, should be 100")
-    else:
-        if STRICT_RULESET:
-            errors.append(f"{path}: attempt_probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
-        total = sum(t.get('attempt_probability', 0) for t in dict_transitions)
-        if total != 100:
-            errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
-
-    return errors
+    return check_probability_sum(dict_transitions, 'attempt_probability', path)
 
 
 def validate_position_transitions(data, category, content_index, path=""):
@@ -779,9 +909,16 @@ def validate_position_transitions(data, category, content_index, path=""):
                     f"{section_path}[{i}].transition: Transition '{transition_name}' not found in Transitions/ or Submissions/"
                 )
 
-        # Validate attempt_probability sum
-        prob_errors = validate_attempt_probability_sum(transitions_array, section_path)
+        # Validate attempt_probability sum.
+        # `notices` are absent-ruleset-frame skips. They ride the WARNINGS channel
+        # on purpose: a move that does not exist in gi is data, so it must not fail
+        # the gate — but it must still print, or an absent frame reads exactly like
+        # a checked one (CLAUDE.md §6.6).
+        prob_errors, prob_notices, _frames_checked = validate_attempt_probability_sum(
+            transitions_array, section_path
+        )
         errors.extend(prob_errors)
+        warnings.extend(prob_notices)
 
     # Check top.transitions
     if 'top' in data and isinstance(data['top'], dict):
@@ -813,16 +950,29 @@ def validate_transition_outcomes(data, category, content_index, path=""):
         path: Path string for error messages
 
     Returns:
-        List of error messages
+        (sum_errors, link_errors, notices).
+
+        The two error lists are SEPARATE because they are routed differently and
+        the routing used to be a substring test — `if "probability sum" in err` —
+        which is a selector scoped to somebody else's wording rather than a marker
+        this function owns (CLAUDE.md §6.7). It silently misfiled the null
+        contract's new bare-null error as NON-blocking here while the Submissions
+        branch, asking the identical question through the identical seam, made it
+        BLOCKING. Returning the two lists apart makes the routing structural, so a
+        message added later cannot land in the wrong channel by not containing a
+        phrase. `notices` are absent-ruleset-frame skips: never blocking, but the
+        caller must surface them (see check_probability_sum).
     """
     errors = []
+    link_errors = []
+    notices = []
 
     if category != "Transitions":
-        return errors
+        return errors, link_errors, notices
 
     outcomes = data.get('outcomes')
     if not outcomes or not isinstance(outcomes, list):
-        return errors
+        return errors, link_errors, notices
 
     positions_index = content_index.get("Positions", set())
     submissions_index = content_index.get("Submissions", set())
@@ -833,32 +983,31 @@ def validate_transition_outcomes(data, category, content_index, path=""):
         validate_transition_outcomes.alias_index = build_alias_index()
     alias_index = validate_transition_outcomes.alias_index
 
-    # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+    # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise).
+    # One shared seam with the position and Submission sites — see check_probability_sum.
     dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
-    prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
-
-    if any_ruleset_map(prob_values):
-        for rs in present_rulesets(prob_values):
-            total = sum_cells(dict_outcomes, 'probability', rs)
-            if total != 100:
-                errors.append(f"{path}outcomes: probability[{rs}] sum is {total:g}, should be 100")
-    else:
-        if STRICT_RULESET:
-            errors.append(f"{path}outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
-        total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
-        if total_probability != 100:
-            errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
+    sum_errors, sum_notices, _frames_checked = check_probability_sum(
+        dict_outcomes, 'probability', f"{path}outcomes"
+    )
+    # `_frames_checked` is deliberately unused at every call site: the FLOOR it
+    # would guard (rows present, zero frames verified) is enforced INSIDE
+    # check_probability_sum, which turns it into a blocking error there rather
+    # than trusting three callers to remember. It stays in the signature because
+    # it is the seam's positive coverage count and a future aggregate consumer
+    # must not have to re-derive it.
+    errors.extend(sum_errors)
+    notices.extend(sum_notices)
 
     # Validate each outcome
     for i, outcome in enumerate(outcomes):
         if not isinstance(outcome, dict):
-            errors.append(f"{path}outcomes[{i}]: expected object, got {type(outcome).__name__}")
+            link_errors.append(f"{path}outcomes[{i}]: expected object, got {type(outcome).__name__}")
             continue
 
         # Validate result field
         result = outcome.get('result')
         if result and result not in valid_results:
-            errors.append(
+            link_errors.append(
                 f"{path}outcomes[{i}].result: '{result}' is not valid. "
                 f"Must be one of: {', '.join(sorted(valid_results))}"
             )
@@ -891,11 +1040,11 @@ def validate_transition_outcomes(data, category, content_index, path=""):
                     found = True
 
             if not found:
-                errors.append(
+                link_errors.append(
                     f"{path}outcomes[{i}].to: '{to_position}' not found in Positions/ or Submissions/"
                 )
 
-    return errors
+    return errors, link_errors, notices
 
 
 def validate_role_consistency(data, category, path=""):
@@ -1168,16 +1317,30 @@ def validate_json_file(json_path, schema, category, strict=False):
 
     # Validate Transition outcomes array
     if category == "Transitions" and isinstance(data, dict):
-        outcome_errors = validate_transition_outcomes(
+        outcome_sum_errors, outcome_link_errors, outcome_notices = validate_transition_outcomes(
             data, category, content_index, json_path.name + ":"
         )
-        for err in outcome_errors:
+        # STRUCTURAL routing, not a substring test. Everything check_probability_sum
+        # emits is a probability defect and is BLOCKING — the wrong sum, the value
+        # that exists in no ruleset, the bare null. The old `if "probability sum" in
+        # err` keyed on wording rather than on a marker this code owns, so the null
+        # contract's new bare-null error ("… is not a number on N of M rows") fell
+        # through to NON_BLOCKING here while the Submissions branch — the same
+        # question, the same seam — made it blocking. Order is unchanged: the sum
+        # errors were already extended first.
+        for err in outcome_sum_errors:
             errors.append(err)
-            # Probability sum errors are blocking, link errors are non_blocking
-            if "probability sum" in err:
-                categories["blocking"].append(err)
-            else:
-                categories["non_blocking"].append(err)
+            categories["blocking"].append(err)
+        # Link errors (a bad `to`, a bad `result`) stay non-blocking, as before.
+        for err in outcome_link_errors:
+            errors.append(err)
+            categories["non_blocking"].append(err)
+        # Absent-frame skips: NOT a defect (the edge genuinely does not exist in
+        # that ruleset), so they never fail the gate — but they print, so a corpus
+        # quietly shedding a ruleset is visible instead of silent (CLAUDE.md §6.6).
+        for note in outcome_notices:
+            warnings.append(note)
+            categories["non_blocking"].append(note)
 
         # Role consistency → non_blocking
         role_errors = validate_role_consistency(data, category, json_path.name + ":")
@@ -1188,27 +1351,26 @@ def validate_json_file(json_path, schema, category, strict=False):
     if category == "Submissions" and isinstance(data, dict):
         outcomes = data.get('outcomes')
         if outcomes and isinstance(outcomes, list):
-            # Reuse the same validation logic as transitions
-            # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+            # Same question as the Transitions branch above, so it is the SAME
+            # SEAM — this used to be a verbatim copy of it, which is how the null
+            # contract needed the identical three fixes in two places (CLAUDE.md
+            # §6.5: collapse to one named seam and DELETE the copy).
+            # Blast radius, because a wrong SET is the usual way this number rots
+            # (§6.9): 298 Submission files carry an `outcomes` array. Only 3 of
+            # them sit at the root of Submissions/ — count them with `glob` instead
+            # of `rglob` and you get "3", which is the set the validator does NOT
+            # walk. Recompute:
+            #   python3 -c "import json;from pathlib import Path;print(sum(1 for p in Path('content/Submissions').rglob('*.json') if isinstance(json.load(open(p)),dict) and json.load(open(p)).get('outcomes')))"
             dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
-            prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
-            if any_ruleset_map(prob_values):
-                for rs in present_rulesets(prob_values):
-                    total = sum_cells(dict_outcomes, 'probability', rs)
-                    if total != 100:
-                        err = f"{json_path.name}:outcomes: probability[{rs}] sum is {total:g}, should be 100"
-                        errors.append(err)
-                        categories["blocking"].append(err)
-            else:
-                if STRICT_RULESET:
-                    err = f"{json_path.name}:outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)"
-                    errors.append(err)
-                    categories["blocking"].append(err)
-                total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
-                if total_probability != 100:
-                    err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
-                    errors.append(err)
-                    categories["blocking"].append(err)
+            sum_errors, sum_notices, _frames_checked = check_probability_sum(
+                dict_outcomes, 'probability', f"{json_path.name}:outcomes"
+            )
+            for err in sum_errors:
+                errors.append(err)
+                categories["blocking"].append(err)
+            for note in sum_notices:
+                warnings.append(note)
+                categories["non_blocking"].append(note)
 
             # Validate each outcome
             valid_results = {'success', 'failure', 'counter'}

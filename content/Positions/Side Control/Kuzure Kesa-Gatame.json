@@ -403,7 +403,7 @@
         "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -417,7 +417,7 @@
         "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

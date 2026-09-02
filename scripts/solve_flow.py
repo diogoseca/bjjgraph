@@ -108,20 +108,56 @@ class Flow:
         self.index = self.model.index
         self.flipidx = self.model.flipidx
 
+        # WHAT THIS FRAME HAS, straight off the Model. `frame_absent` is "every attempt cell here
+        # is null in this ruleset"; `passive_opp` is "my hand exists but my opponent's role-node
+        # is frame-absent, so they cannot move"; `live` is the rest. See `Model` in
+        # solve_edge_values.py for why the state INDEX space still holds all 272 either way, and
+        # for the larger reachability verdict this deliberately does not use.
+        self.frame_absent = self.model.frame_absent
+        self.passive_opp = self.model.passive_opp
+        priced = set(self.model.live)
+        self.live_idx = [i for i, s in enumerate(self.states) if s in priced]
+
         # deck key <-> index. Positions first so a position deck is easy to spot.
         self.deck_keys: list[str] = []
         self._deck_idx: dict[str, int] = {}
-        self.pos_deck = [self._deck(pos_deck_key(graph, s)) for s in self.states]
+        # A DECK IS REGISTERED ONLY WHERE THE FRAME CAN ACTUALLY DEAL IT, and the set that decides
+        # that is `model.live` -- the SAME set `default_d0` integrates over. A deck registered at
+        # a state d0 excludes carries an identically-zero gradient, and the ranking can only read
+        # that as "worth nothing to drill" when the truth is that this ruleset cannot produce the
+        # state at all. Two different facts, one number, and the wrong one is the plausible one.
+        #
+        # THE TWO SETS MUST BE THE SAME SET. Skipping only `frame_absent` here while d0 also drops
+        # `passive_opp` is worse than skipping neither: it leaves behind exactly the decks that
+        # can never score -- measured on the 71-cell fixture, 1 position deck (`Lapel Guard|Top`)
+        # plus the 6 technique decks whose only origin is `lapel-guard/top` -- and the coverage
+        # floor below then fails for a modelling choice rather than for a defect.
+        #
+        # `-1` marks "no deck here"; `p_eff` and `adjoint` both honour it. A technique dealt at
+        # some OTHER live state keeps its deck, so only decks with no live origin disappear.
+        self.pos_deck, self.skipped_pos_decks = [], []
+        for s in self.states:
+            if s not in priced:
+                self.pos_deck.append(-1)
+                self.skipped_pos_decks.append(s)
+                continue
+            self.pos_deck.append(self._deck(pos_deck_key(graph, s)))
         self.n_pos_decks = len(self.deck_keys)
 
         self.mine = [self._resolve(h, True) for h in self.model.hands]
         self.theirs = [self._resolve(h, False) for h in self.model.opp_hands]
         # technique deck per (state, action)
         self.tech_deck: list[list[int]] = []
+        self.skipped_tech_cards = 0
         for i, s in enumerate(self.states):
             row = []
+            live_here = s in priced
             for a in self.model.hands[i]:
                 k = tech_deck_key(graph, a.target, a.cat)
+                if not live_here:
+                    self.skipped_tech_cards += 1
+                    row.append(-1)
+                    continue
                 row.append(self._deck(k) if k else -1)
             self.tech_deck.append(row)
 
@@ -173,8 +209,8 @@ class Flow:
         `moveChance`'s player half: p0 + stateBonus(posKey) + stateBonus(techKey), clamped.
         Returns (p, dp) where dp is 0 outside the clamp -- the gradient must respect it.
         """
-        td = self.tech_deck[i][t]
-        raw = self.p0[i][t] + m[self.pos_deck[i]] + (m[td] if td >= 0 else 0.0)
+        td, pd = self.tech_deck[i][t], self.pos_deck[i]
+        raw = self.p0[i][t] + (m[pd] if pd >= 0 else 0.0) + (m[td] if td >= 0 else 0.0)
         if raw <= P_LO:
             return P_LO, 0.0
         if raw >= P_HI:
@@ -214,7 +250,12 @@ def backward(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, keep_ab=False):
         for i in range(n):
             hand = fl.theirs[i]
             if not hand:
-                continue                      # optionless opponent = reset = a draw (0.0)
+                # optionless opponent = reset = a draw (0.0) -- TRUE for a state that HAS this
+                # frame and no legal move, FALSE for one whose opponent's role-node is
+                # frame-absent: that opponent has no frame, not no options, and the state is
+                # named in `fl.passive_opp`. Nothing can be decided here (continuations landing
+                # on this state still need a number), so `default_d0` excludes it instead.
+                continue
             oppacts = fl.model.opp_hands[i]
             w = l = 0.0
             for t, br in enumerate(hand):
@@ -242,6 +283,10 @@ def backward(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, keep_ab=False):
         nVl = [0.0] * n
         ab_ply = [] if keep_ab else None
         for i in range(n):
+            # An empty hand leaves vw = vl = 0.0 -- there is no `if not rows` guard here, the
+            # loop simply does not run. Same rule as solve_edge_values.py's V recursion: 0.0 is a
+            # LEGAL value, so it cannot double as "no data". A frame-absent state is named in
+            # `fl.frame_absent` and dropped by `default_d0`; never sentinel it with a float.
             hand = fl.mine[i]
             vw = vl = 0.0
             ab_row = [] if keep_ab else None
@@ -283,10 +328,44 @@ def backward(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, keep_ab=False):
     return Vw, Vl, Uw, Ul, AB
 
 
+def default_d0(fl: Flow):
+    """
+    The start distribution V0 integrates over: uniform across the states this FRAME can price.
+
+    A MODELLING CHOICE, NOT A FACT, and it is worth saying so at the line. A real roll starts at
+    `regenerate_neural_data.ROLL_SEEDS` and spreads from there; seeding from the two seats the way
+    `frame_reachable` does is the honest version and is deliberately NOT taken here, because it
+    moves V0 today and this pass may not (measured, no-gi: restricting d0 to the 254 role-nodes
+    `tests/artifacts/ruleset_availability.json` says the frame can reach takes V0 +0.076492575 ->
+    +0.073898681, a delta of -0.002594).
+
+    What IS taken here: a state with no frame, and a state whose opponent has no frame, are
+    excluded. Both are priced at a fabricated value the recursion had to invent -- V = 0.0 for the
+    first (the loop simply does not run) and an inflated V for the second (an opponent who cannot
+    move is scored as a draw) -- and 0.0 is a legal V, so neither can be spotted downstream. The
+    denominator is PRINTED by every caller, so a shrinking population is visible rather than
+    quietly diluting the mean.
+
+    THIS SET AND THE DECK REGISTRY ARE ONE SET (`Flow.__init__` skips both position and technique
+    decks outside `model.live`). Excluding a state here while still registering its decks leaves
+    a deck that can never score, and the coverage floor in `selfcheck` then fails for a modelling
+    choice rather than for a defect -- measured on the 71-cell fixture: 7 such decks.
+    """
+    live = fl.live_idx
+    if not live:
+        raise SystemExit("[flow] frame %s prices 0 of %d role-nodes -- refusing to integrate V0 "
+                         "over a frame that does not exist" % (fl.opts.frame, fl.n))
+    w = 1.0 / len(live)
+    d = [0.0] * fl.n
+    for i in live:
+        d[i] = w
+    return d
+
+
 def v0(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, d0=None):
     """The number FLOW maximises: your expected p_win - lam*p_loss over a whole roll."""
     Vw, Vl, _uw, _ul, _ab = backward(fl, m, lam, H, pi)
-    d = d0 if d0 is not None else [1.0 / fl.n] * fl.n
+    d = d0 if d0 is not None else default_d0(fl)
     return sum(d[i] * (Vw[i] - lam * Vl[i]) for i in range(fl.n))
 
 
@@ -313,7 +392,7 @@ def adjoint(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, d0=None):
     n = fl.n
     P = pi if pi is not None else fl.att
     Vw, Vl, _uw, _ul, AB = backward(fl, m, lam, H, P, keep_ab=True)
-    d = d0 if d0 is not None else [1.0 / n] * n
+    d = d0 if d0 is not None else default_d0(fl)
     V0 = sum(d[i] * (Vw[i] - lam * Vl[i]) for i in range(n))
 
     grad = [0.0] * len(fl.deck_keys)
@@ -341,7 +420,8 @@ def adjoint(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, d0=None):
                 if dp:
                     A, B = ab_ply[i][t]
                     g = w * (A - B) * dp
-                    grad[pd] += g                       # the position deck moves EVERY card
+                    if pd >= 0:
+                        grad[pd] += g                   # the position deck moves EVERY card
                     td = fl.tech_deck[i][t]
                     if td >= 0:
                         grad[td] += g                   # ...the technique deck moves this one
@@ -484,22 +564,56 @@ def selfcheck(fl: Flow, lam=2.0, H=FLOW_H, eps=1e-4, samples=8) -> int:
         print("  linearisation recovers %.1f%%-%.1f%% of the exact gain (top 12)"
               % (100 * min(ratios), 100 * max(ratios)))
 
-    # -- 5. coverage, printed, hard-failing on zero (CLAUDE.md 6.6) --------- #
+    # -- 5. coverage, printed, hard-failing BELOW A REAL FLOOR (CLAUDE.md 6.6) --------- #
+    # `scored == 0` is not a floor, it is total collapse: ONE dead deck rode straight through it
+    # while this very comment cited 6.6. The honest floor is every registered deck -- a deck with
+    # no gradient is a deck that should not have been registered, which is exactly what the
+    # frame-absent position deck was.
     scored = sum(1 for g in grad if g != 0.0)
     print("  coverage: %d/%d decks carry a gradient (%d position, %d technique)"
           % (scored, len(grad), fl.n_pos_decks, len(grad) - fl.n_pos_decks))
-    if scored == 0:
+    if scored < len(grad):
         bad += 1
-        print("  FAIL zero decks scored")
+        dead = [fl.deck_keys[k] for k in range(len(grad)) if grad[k] == 0.0]
+        print("  FAIL %d registered deck(s) carry NO gradient: %s"
+              % (len(dead), ", ".join(dead[:8]) + (" ..." if len(dead) > 8 else "")))
 
     # -- 6. both roles are reachable: the top-member collapse must not recur - #
-    bot = sum(1 for i in range(fl.n) if fl.states[i].endswith("/bottom") and rhoV[H][i] > 0)
-    print("  bottom-side states with occupancy: %d of %d" % (bot, fl.n // 2))
-    if bot == 0:
+    # MEASURE AT A PLY THE FORWARD SWEEP ACTUALLY COMPUTED. `rhoV[H]` IS d0, assigned directly
+    # from it above, and d0 is uniform by construction -- so the retired form printed 136 of 136
+    # on ANY graph, including one where three bottom states are never entered. A check that
+    # cannot fail is not evidence (CLAUDE.md 6.9), and this one sat three lines under a comment
+    # citing 6.6.
+    entered = [i for i in range(fl.n) if fl.states[i].endswith("/bottom")
+               and any(rhoV[ply][i] > 0 for ply in range(H))]
+    print("  bottom-side states entered by the forward sweep: %d of %d" % (len(entered), fl.n // 2))
+    if len(entered) == 0:
         bad += 1
         print("  FAIL no bottom-side state carries occupancy")
+    seen = set(entered)
+    never = [fl.states[i] for i in range(fl.n) if fl.states[i].endswith("/bottom")
+             and i not in seen]
+    if never:
+        print("    never entered: %s" % ", ".join(never[:8]))
 
-    print("  V0 at zero drilling: %+.6f" % V0)
+    # -- 7. what this frame does not have, NAMED (CLAUDE.md 6.7: an aggregate is unfalsifiable) - #
+    print("  frame %s: %d of %d role-nodes priced; no move here %d%s; opponent has none %d%s; "
+          "decks skipped %d position / %d technique card(s)"
+          % (fl.opts.frame, len(fl.live_idx), fl.n,
+             len(fl.frame_absent),
+             (" (" + ", ".join(fl.frame_absent[:6]) + ")") if fl.frame_absent else "",
+             len(fl.passive_opp),
+             (" (" + ", ".join(fl.passive_opp[:6]) + ")") if fl.passive_opp else "",
+             len(fl.skipped_pos_decks), fl.skipped_tech_cards))
+    # THE FLOOR. Everything above this line is a diagnostic; this is the one hard claim: a frame
+    # that prices nothing has produced a gradient vector of zeros, and every row in this report
+    # would then read as a clean pass over an empty set.
+    if not fl.live_idx:
+        bad += 1
+        print("  FAIL frame %s prices 0 of %d role-nodes -- this whole report is vacuous"
+              % (fl.opts.frame, fl.n))
+
+    print("  V0 at zero drilling: %+.6f  (uniform over %d start state(s))" % (V0, len(fl.live_idx)))
     return bad
 
 
@@ -634,6 +748,14 @@ def main(argv=None):
     print("FLOW  states %d  decks %d (%d position, %d technique)  lam %.1f  H %d  frame %s"
           % (fl.n, len(fl.deck_keys), fl.n_pos_decks,
              len(fl.deck_keys) - fl.n_pos_decks, a.lam, a.horizon, a.frame))
+    # The positive coverage count, printed on every run whatever the mode: 0 here means the null
+    # layer has not landed, not that nobody looked.
+    print("      priced %d/%d role-nodes   no move in this frame: %d%s   opponent has none: %d%s"
+          % (len(fl.live_idx), fl.n,
+             len(fl.frame_absent),
+             (" (" + ", ".join(fl.frame_absent[:6]) + ")") if fl.frame_absent else "",
+             len(fl.passive_opp),
+             (" (" + ", ".join(fl.passive_opp[:6]) + ")") if fl.passive_opp else ""))
 
     if a.reference:
         # The whole-structure differential the JS kernel is gated against (CLAUDE.md 6.6):
@@ -690,7 +812,8 @@ def main(argv=None):
         return 0
 
     out, back, V0, grad = rank(fl, lam=a.lam, H=a.horizon, top=a.top, exact=not a.fast)
-    print("\nV0 at zero drilling %+.6f   (the value of a roll before you drill anything)" % V0)
+    print("\nV0 at zero drilling %+.6f   (the value of a roll before you drill anything, uniform "
+          "over the %d state(s) this frame prices)" % (V0, len(fl.live_idx)))
     print("\nTOP %d BY GAIN  (what mastering this deck is worth to your whole game)" % a.top)
     for i, r in enumerate(out):
         print("  %2d. %+.5f  %-8s %s" % (i + 1, r["gain"], "position" if r["pos"] else "tech", r["deck"]))

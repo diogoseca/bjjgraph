@@ -3,10 +3,10 @@
     "transition_files": 1030,
     "submission_files": 361,
     "position_files": 136,
-    "total_issues": 353,
+    "total_issues": 354,
     "errors": 0,
     "warnings": 7,
-    "info": 346,
+    "info": 347,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -20,7 +20,24 @@
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
-    "votes_schema_violations": 0
+    "votes_schema_violations": 0,
+    "ruleset_frames_checked": 3199,
+    "ruleset_frames_absent": 1,
+    "attempt_frames_checked": 543,
+    "attempt_frames_absent": 1,
+    "outcome_frames_checked": 2656,
+    "outcome_frames_absent": 0,
+    "values_in_no_ruleset": 0,
+    "bare_null_rows": 0,
+    "successrate_nodes_compared": 2656,
+    "successrate_nodes_total": 2656,
+    "successrate_skipped_null_rate": 0,
+    "successrate_skipped_null_probability": 0,
+    "complement_pairs_compared": 1328,
+    "complement_skipped_null_rate": 0,
+    "votes_community_frames_checked": 3228,
+    "votes_prior_frames_checked": 678,
+    "votes_prior_frames_absent": 0
   },
   "issues": [
     {
@@ -38,6 +55,15 @@
       "file": "content/Submissions/Kneebar/from Backside 50-50.json",
       "from_position": "Backside 50-50/Top",
       "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
+    },
+    {
+      "file": "content/Positions/Lapel Guard.json",
+      "name": "Lapel Guard",
+      "role": "bottom",
+      "ruleset": "nogi",
+      "type": "attempt_probability_frame_absent",
+      "message": "Lapel Guard [bottom]: attempt_probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
     },
     {
       "type": "position_type_score_disagreement",

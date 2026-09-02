@@ -449,7 +449,7 @@
         "transition": "Bow and Arrow Choke Setup",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

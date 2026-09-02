@@ -748,7 +748,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -762,14 +762,14 @@
         "transition": "Lapel to Spider Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Lapel to Lasso Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -790,7 +790,7 @@
         "transition": "Collar Sleeve Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

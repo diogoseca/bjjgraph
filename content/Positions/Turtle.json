@@ -374,7 +374,7 @@
         "transition": "Clock Choke",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -395,7 +395,7 @@
         "transition": "Loop Choke from Turtle",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

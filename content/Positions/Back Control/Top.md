@@ -33,7 +33,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Back Control",
-      "text": "From this position, attempt Bow and Arrow Choke from Back Control. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Back Control. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
     },
     {

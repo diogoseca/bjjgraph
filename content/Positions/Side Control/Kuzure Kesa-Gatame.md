@@ -285,11 +285,11 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
+- **[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (gi only)
 
 - **[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (13% of attempts)
 
-- **[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
+- **[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (gi only)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (10% of attempts)
 

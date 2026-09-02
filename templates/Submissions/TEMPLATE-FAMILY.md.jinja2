@@ -120,7 +120,7 @@ description: "{{ description }}"
 <span class="meta-chip">{{ submission_category }}</span>
 <span class="meta-chip">{{ submission_type }}</span>
 <span class="meta-chip">Targets {{ target_area }}</span>
-<span class="meta-chip">~{{ success_rate }}% avg</span>
+<span class="meta-chip">{{ success_rate | pct(' avg', '~') }}</span>
 </div>
 
 > [!danger] Safety
@@ -179,7 +179,7 @@ description: "{{ description }}"
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 {% for v in variants_comparison -%}
-| [[Submissions/{{ name }}/{{ v.variant_name }}|{{ v.from_position.split('/')[0] if '/' in v.from_position else v.from_position }}]] | {{ v.seat }} | {{ v.success_rate }}% | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Attacker|Attack →]]{% else %}—{% endif %} | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Defender|Defend →]]{% else %}—{% endif %} |
+| [[Submissions/{{ name }}/{{ v.variant_name }}|{{ v.from_position.split('/')[0] if '/' in v.from_position else v.from_position }}]] | {{ v.seat }} | {{ v.success_rate | pct }} | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Attacker|Attack →]]{% else %}—{% endif %} | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Defender|Defend →]]{% else %}—{% endif %} |
 {% endfor %}
 
 </div>

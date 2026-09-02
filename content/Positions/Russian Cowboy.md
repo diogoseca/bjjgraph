@@ -302,7 +302,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (8% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (gi only)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 

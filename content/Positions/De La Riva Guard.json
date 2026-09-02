@@ -499,7 +499,7 @@
         "transition": "De La Riva to Lapel Guard",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],

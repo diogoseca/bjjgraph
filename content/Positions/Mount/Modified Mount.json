@@ -296,7 +296,7 @@
         "transition": "Cross Collar Choke from Modified Mount",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

@@ -301,7 +301,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (16% of attempts)
 
-- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (0% of attempts)
+- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (gi only)
 
 
 ### Common Mistakes

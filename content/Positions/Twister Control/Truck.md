@@ -308,7 +308,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Truck/Attacker|Bow and Arrow Choke from Truck]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Truck/Attacker|Bow and Arrow Choke from Truck]]** (gi only)
 
 - **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
 

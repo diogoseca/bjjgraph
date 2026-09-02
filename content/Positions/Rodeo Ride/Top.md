@@ -45,13 +45,13 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     {
       "@type": "HowToStep",
       "name": "Execute Clock Choke from Rodeo Ride",
-      "text": "From this position, attempt Clock Choke from Rodeo Ride. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Clock Choke from Rodeo Ride. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Rodeo Ride",
-      "text": "From this position, attempt Bow and Arrow Choke from Rodeo Ride. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Rodeo Ride. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],

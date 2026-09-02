@@ -45,13 +45,13 @@ description: "Master Invisible Collar from top position with grip concealment ta
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Invisible Collar",
-      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Clock Choke from Invisible Collar",
-      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],

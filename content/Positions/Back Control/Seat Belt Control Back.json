@@ -313,7 +313,7 @@
         "transition": "Bow and Arrow Choke from Seat Belt Control Back",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

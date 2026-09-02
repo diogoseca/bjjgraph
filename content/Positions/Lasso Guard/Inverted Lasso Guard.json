@@ -855,14 +855,14 @@
         "transition": "Inverted Lasso Sweep",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Inverted Lasso to Lasso Guard",
         "attempt_probability": {
           "gi": 18,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],

@@ -283,7 +283,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (gi only)
 
 - **[[Submissions/Short Choke/from Body Triangle/Attacker|Short Choke from Body Triangle]]** (12% of attempts)
 
@@ -295,7 +295,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (gi only)
 
 - **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (13% of attempts)
 

@@ -790,7 +790,7 @@
         "transition": "Spider to Lasso Guard",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

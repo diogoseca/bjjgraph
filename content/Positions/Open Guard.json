@@ -846,7 +846,7 @@
         "transition": "Open Guard to Collar Sleeve Guard",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -860,7 +860,7 @@
         "transition": "Open Guard to Double Sleeve Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -874,7 +874,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

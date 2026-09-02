@@ -283,14 +283,14 @@
         "transition": "Baseball Bat Choke from Knee on Belly",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Cross Collar Choke from Knee on Belly",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

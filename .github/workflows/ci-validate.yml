@@ -149,6 +149,13 @@ jobs:
       - name: Ruleset availability (wire parity, zero mass loss, no dead ends)
         run: npm run validate:availability
 
+      # The DERIVED half of the same feature. `validate:availability` proves the wire's table is
+      # right; this proves the app still CONSULTS it everywhere a node reaches a person. It is a
+      # static scan of neural/src, needs no payload and no browser, and it exists because the
+      # surface list was hand-maintained for exactly one version before a sweep found 38 more.
+      - name: Ruleset surfaces (every node enumeration is filtered or justified)
+        run: npm run validate:surfaces
+
       # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
       # references are acted on. Two cheap stdlib gates, no deps:
       #   budget — a char ratchet, plus the structural checks that make the file work at all

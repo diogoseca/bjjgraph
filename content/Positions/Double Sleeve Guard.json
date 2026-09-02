@@ -891,7 +891,7 @@
         "transition": "Double Sleeve to Lasso",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

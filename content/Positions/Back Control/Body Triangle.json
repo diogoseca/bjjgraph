@@ -388,7 +388,7 @@
         "transition": "Bow and Arrow Choke from Body Triangle",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -430,7 +430,7 @@
         "transition": "Cross Collar Choke from Body Triangle",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

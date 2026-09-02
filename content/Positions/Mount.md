@@ -312,7 +312,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (7% of attempts)
 
-- **[[Submissions/Cross Collar Choke/from Mount/Attacker|Cross Collar Choke from Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Mount/Attacker|Cross Collar Choke from Mount]]** (gi only)
 
 - **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
 
@@ -336,7 +336,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Submissions/Kimura/from Mount/Attacker|Kimura from Mount]]** (3% of attempts)
 
-- **[[Submissions/Loop Choke/from Mount/Attacker|Loop Choke from Mount]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Mount/Attacker|Loop Choke from Mount]]** (gi only)
 
 - **[[Submissions/Monoplata/from Mount/Attacker|Monoplata from Mount]]** (1% of attempts)
 

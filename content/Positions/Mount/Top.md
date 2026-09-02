@@ -27,7 +27,7 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Mount",
-      "text": "From this position, attempt Cross Collar Choke from Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 2
     },
     {

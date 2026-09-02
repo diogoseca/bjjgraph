@@ -289,7 +289,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (13% of attempts)
 
-- **[[Submissions/Cross Collar Choke/from High Mount/Attacker|Cross Collar Choke from High Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from High Mount/Attacker|Cross Collar Choke from High Mount]]** (gi only)
 
 - **[[Submissions/Americana/from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
 

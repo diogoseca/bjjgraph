@@ -33,7 +33,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
     },
     {

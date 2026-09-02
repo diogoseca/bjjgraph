@@ -220,19 +220,19 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (20% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (0% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (gi only)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (0% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (gi only)
 
 - **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (9% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (0% of attempts)
+- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (gi only)
 
 - **[[Transitions/Collar Sleeve to Spider Guard/Attacker|Collar Sleeve to Spider Guard]]** (1% of attempts)
 

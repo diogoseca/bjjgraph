@@ -127,7 +127,7 @@ description: "{{ description }}"
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
-**Success Rate**: {{ success_rate }}%
+**Success Rate**: {{ success_rate | pct }}
 
 </section>
 
@@ -158,8 +158,12 @@ description: "{{ description }}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability | pct }} |
 {% endfor %}
+{%- set _absence_note = outcomes | outcomes_absence_note %}
+{%- if _absence_note %}
+{{ _absence_note }}
+{% endif %}
 
 </section>
 

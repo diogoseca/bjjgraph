@@ -324,14 +324,14 @@
         "transition": "Clock Choke from Rodeo Ride",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Bow and Arrow Choke from Rodeo Ride",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

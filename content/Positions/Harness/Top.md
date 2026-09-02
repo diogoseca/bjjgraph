@@ -45,7 +45,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Harness",
-      "text": "From this position, attempt Bow and Arrow Choke from Harness. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Harness. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {

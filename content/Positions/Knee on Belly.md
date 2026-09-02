@@ -306,9 +306,9 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 
 - **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (16% of attempts)
 
-- **[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (0% of attempts)
+- **[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (gi only)
 
-- **[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (gi only)
 
 - **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (17% of attempts)
 

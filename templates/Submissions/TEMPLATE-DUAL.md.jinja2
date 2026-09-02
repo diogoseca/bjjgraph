@@ -104,7 +104,7 @@ description: "{{ description }}"
 <span class="meta-chip">{{ submission_category }}</span>
 <span class="meta-chip">{{ submission_type }}</span>
 <span class="meta-chip">Targets {{ target_area }}</span>
-<span class="meta-chip">{{ success_rate }}% success</span>
+<span class="meta-chip">{{ success_rate | pct(' success') }}</span>
 </div>
 
 > [!danger] Safety
@@ -168,8 +168,12 @@ description: "{{ description }}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for o in outcomes -%}
-| {{ o.result | capitalize }} | [[{{ resolve(o.to.split('/')[0] if '/' in o.to else o.to) }}]] | {{ o.probability }}% |
+| {{ o.result | capitalize }} | [[{{ resolve(o.to.split('/')[0] if '/' in o.to else o.to) }}]] | {{ o.probability | pct }} |
 {% endfor %}
+{%- set _absence_note = outcomes | outcomes_absence_note %}
+{%- if _absence_note %}
+{{ _absence_note }}
+{% endif %}
 
 </section>
 

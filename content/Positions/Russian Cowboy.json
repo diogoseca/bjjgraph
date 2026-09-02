@@ -427,7 +427,7 @@
         "transition": "Bow and Arrow Choke from Russian Cowboy",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

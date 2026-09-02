@@ -245,7 +245,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 - **[[Transitions/Spider Sweep/Attacker|Spider Sweep]]** (6% of attempts)
 
-- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (0% of attempts)
+- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (gi only)
 
 - **[[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (2% of attempts)
 

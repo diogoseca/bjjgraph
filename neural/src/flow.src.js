@@ -116,7 +116,13 @@ export function ngFlowBuild(app, opts) {
     return i;
   };
   const seenPair = new Set();
-  const cov = { evKeys: 0, states: 0, dropped: 0, cells: 0, unresolved: 0 };
+  // `rsDropped` / `rsHandDropped` are the RULESET counters (v1.167.0). FLOW builds the whole
+  // weak-spot state space from `app._ev`, which is corpus-wide and frame-blind, so before this it
+  // ranked a no-gi player's "weakest spots" over states and moves no no-gi session can reach.
+  // Counted, not silent: a kernel that quietly loses half the corpus reads exactly like one that
+  // did not (CLAUDE.md §6.6).
+  const cov = { evKeys: 0, states: 0, dropped: 0, cells: 0, unresolved: 0, rsDropped: 0, rsHandDropped: 0, oppNoHand: 0 };
+  const rsOk = (i) => (typeof app.rsAllowsIdx === "function" ? app.rsAllowsIdx(i) : true);
 
   if (!ev || !ev.size) return null;
   // PASS 1 — the state space, deduped across pair members, positions first so a position deck
@@ -129,10 +135,28 @@ export function ngFlowBuild(app, opts) {
     const n = nodes[ni];
     const pid = n && n.posId;
     if (!pid) { cov.dropped++; continue; }
+    if (!rsOk(ni)) { cov.rsDropped++; continue; }   // a state this ruleset cannot produce
     const sk = pid + "/" + role;
     if (seenPair.has(sk)) continue;
     seenPair.add(sk);
     raw.push([sk, role, n, m]);
+  }
+  // AN EXCHANGE NEEDS TWO SEATS (v1.167.0). `solve_flow.py` drops a role-node whose OPPONENT has
+  // no hand in this frame — it prints `opponent has none: N` — because a state the other side
+  // cannot move from is not an exchange the MDP can price. The JS kernel checked only its own
+  // hand, so once the first authored null removed `lapel-guard/bottom`'s no-gi hand the two
+  // implementations disagreed by 7 decks (Lapel Guard|Top and its six attacker decks). That is
+  // §6.5 — one question answered in two places — and `tests/flow.test.mjs` is the gate that caught
+  // it, on the first corpus that could tell them apart. Same rule, same side, one seam.
+  {
+    const seats = new Set(raw.map((r) => r[0]));
+    const before = raw.length;
+    for (let i = raw.length - 1; i >= 0; i--) {
+      const [sk, role] = raw[i];
+      const other = sk.slice(0, sk.lastIndexOf("/")) + "/" + (role === "top" ? "bottom" : "top");
+      if (!seats.has(other)) raw.splice(i, 1);
+    }
+    cov.oppNoHand = before - raw.length;
   }
   raw.sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
   for (let i = 0; i < raw.length; i++) { stateIdx.set(raw[i][0], i); states.push(raw[i][0]); }
@@ -149,6 +173,7 @@ export function ngFlowBuild(app, opts) {
     for (const [ti, row] of m) {
       const tn = nodes[ti];
       if (!tn || tn.ty === "positions") continue;
+      if (!rsOk(ti)) { cov.rsHandDropped++; continue; }   // …and a move it cannot deal
       const a = ngFlowAction(tn, resolve, nodeAt);
       if (!a.succ.length && !a.miss.length) continue;
       const lamRow = (row.lam && row.lam[lamIdx]) || null;

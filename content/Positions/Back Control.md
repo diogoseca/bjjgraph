@@ -314,7 +314,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (gi only)
 
 - **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (6% of attempts)
 

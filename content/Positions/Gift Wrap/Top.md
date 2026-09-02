@@ -45,7 +45,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke Setup",
-      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {

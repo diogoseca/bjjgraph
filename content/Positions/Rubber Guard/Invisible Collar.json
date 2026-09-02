@@ -408,14 +408,14 @@
         "transition": "Bow and Arrow Choke from Invisible Collar",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Clock Choke from Invisible Collar",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

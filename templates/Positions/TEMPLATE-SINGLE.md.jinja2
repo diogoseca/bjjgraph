@@ -23,7 +23,10 @@ description: "{{ data.description }}"
     {
       "@type": "HowToStep",
       "name": {{ ("Execute " ~ (transition.transition)) | jsonstr }},
-      "text": {{ ("From this position, attempt " ~ (transition.transition) ~ ". This technique is attempted in " ~ (transition.attempt_probability) ~ "% of exchanges from this position.") | jsonstr }},
+      {#- `attempt_note` carries BOTH sentences: the ordinary "attempted in N% of exchanges" and,
+          for a frame the corpus says does not exist, "exists in the gi ruleset only". It must stay
+          inside `jsonstr` — this is JSON-LD and the note is prose. #}
+      "text": {{ ("From this position, attempt " ~ (transition.transition) ~ ". " ~ (transition.attempt_probability | attempt_note)) | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -251,7 +254,7 @@ description: "{{ data.description }}"
 {% for node in data.decision_tree -%}
 **{{ node.condition }}:**
 {% for action in node.actions -%}
-- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
+- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability | pct }})
 {% endfor %}
 
 {% endfor %}

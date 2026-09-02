@@ -355,7 +355,7 @@
         "transition": "Strip Lapel from Piranha",
         "attempt_probability": {
           "gi": 28,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],
@@ -740,7 +740,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -789,14 +789,14 @@
         "transition": "Piranha Guard Sweep",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Piranha to Worm Guard",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],

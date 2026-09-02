@@ -319,7 +319,7 @@
         "transition": "Bow and Arrow Choke from Truck",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

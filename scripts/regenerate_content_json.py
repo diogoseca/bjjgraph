@@ -28,6 +28,7 @@ import sys
 import time
 import re
 import threading
+from collections import defaultdict  # check_prompt_templates: format_map without KeyErrors
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime
@@ -43,7 +44,9 @@ from scripts.claude_infer import call_claude as _infer_call_claude
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
-from scripts._ruleset import as_map, cell, any_ruleset_map, RULESETS  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
+from scripts._ruleset import (  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
+    is_ruleset_map, iter_cells, present_rulesets, RULESETS,
+)
 from scripts._model import model as _model_tier, effort as _model_effort  # single source of truth: models.env
 
 
@@ -103,6 +106,82 @@ def tprint(*args, **kwargs):
     kwargs.setdefault("flush", True)
     with _print_lock:
         print(*args, **kwargs)
+
+
+# =============================================================================
+# RULESET COVERAGE
+# =============================================================================
+# CLAUDE.md 6.6: "found no problems" and "never looked" must not print the same
+# thing. Both readers of a {gi,nogi} probability in this file had already failed
+# that test. `o.get("probability", 0) == 0` is False for EVERY dict, so the
+# placeholder scan in needs_enrichment went inert the day the maps landed and kept
+# reporting every file complete; the sum normalizer coerced an authored null to 0
+# with `float(c or 0)` and said nothing. Neither had a number you could check.
+# So both now count the cells they actually read, the run prints the totals, and a
+# run that reached forked data and read none of it fails instead of looking clean.
+_ruleset_stats_lock = threading.Lock()
+ruleset_stats = {
+    "norm_groups": 0,       # probability groups that reached the {gi,nogi} normalizer
+    "norm_cells": 0,        # cells present in their frame, i.e. cells we may rescale
+    "norm_null_cells": 0,   # authored nulls dropped from their frame's sum
+    "norm_null_frames": 0,  # frames dropped whole: no move in the group exists there
+    "norm_dead_groups": 0,  # groups with a forked value but no present frame at all
+    "enrich_cells": 0,      # outcome probability cells read by the placeholder scan
+    "enrich_outcomes": 0,   # outcomes the placeholder scan looked at (the floor's denominator)
+}
+
+
+def ruleset_stats_inc(key, n=1):
+    with _ruleset_stats_lock:
+        ruleset_stats[key] += n
+
+
+def ruleset_coverage_line() -> str:
+    """One line naming what the ruleset readers actually touched this run."""
+    r = ruleset_stats
+    return (f"Ruleset:   normalizer read {r['norm_cells']} cells in {r['norm_groups']} forked "
+            f"groups (skipped {r['norm_null_cells']} null cells, {r['norm_null_frames']} absent "
+            f"frames, {r['norm_dead_groups']} frameless groups); placeholder scan read "
+            f"{r['enrich_cells']} cells in {r['enrich_outcomes']} outcomes")
+
+
+def ruleset_coverage_shortfall() -> Optional[str]:
+    """The floor. Returns the reason when the counters describe a reader that ran
+    over forked data without reading any of it, else None."""
+    r = ruleset_stats
+    if r["norm_groups"] and not r["norm_cells"]:
+        return (f"{r['norm_groups']} forked probability groups reached the normalizer and "
+                f"0 present cells came back — it read nothing, it did not find nothing")
+    if r["enrich_outcomes"] and not r["enrich_cells"]:
+        # The exact shape of the bug this scan is being repaired from: it looked at
+        # outcomes and read no probability out of any of them. Either the reader has
+        # gone inert again, or every outcome examined is missing its probability —
+        # both are failures, and neither may print what a clean scan prints.
+        return (f"the placeholder scan looked at {r['enrich_outcomes']} outcomes and read "
+                f"0 probability cells — it read nothing, it did not find nothing")
+    return None
+
+
+def check_prompt_templates() -> Tuple[int, List[str]]:
+    """Every `*_PROMPT` must survive str.format. Returns (count checked, failures).
+
+    The templates are DISCOVERED, not listed: a hand-maintained list is missing its
+    newest member by default (CLAUDE.md 6.7). A literal `{` in prompt prose — e.g.
+    writing the {gi,nogi} contract into the position prompt without doubling the
+    braces — raises `ValueError: Invalid format specifier` inside build_prompt, after
+    file selection, on every file of that category. Checking it here costs
+    microseconds and names the template instead of the symptom."""
+    failures: List[str] = []
+    templates = sorted(k for k, v in globals().items()
+                       if k.endswith("_PROMPT") and isinstance(v, str))
+    for name in templates:
+        try:
+            globals()[name].format_map(defaultdict(str))
+        except Exception as e:
+            failures.append(f"{name}: {type(e).__name__}: {e} — a literal brace in prompt "
+                            f"prose must be doubled ({{{{ }}}})")
+    return len(templates), failures
+
 
 # =============================================================================
 # TEMPLATE DETECTION (ported from bash)
@@ -328,13 +407,27 @@ def needs_enrichment(data: dict, category: str) -> bool:
     if category in ("Principles", "Systems") and not str(data.get("summary", "")).strip():
         return True
 
-    # Check for placeholder outcomes (Transitions/Submissions)
+    # Check for placeholder outcomes (Transitions/Submissions).
+    # `o.get("probability", 0) == 0` was the whole test here and a dict never equals
+    # 0, so from the Q3 map migration onward this branch could only ever fire on the
+    # "Unknown" half: every forked outcome, placeholder or not, read as finished.
+    # Read the frames instead. An outcome with NO present cell is a placeholder for
+    # the same reason a missing key is one, and an all-zero outcome is a placeholder
+    # in whichever frames it exists — but a null cell is NOT zero, so it is not
+    # evidence of a placeholder and is excluded by iter_cells rather than counted as 0.
     outcomes = data.get("outcomes", [])
+    placeholder = False
     for o in outcomes:
-        if "Unknown" in o.get("to", "") or o.get("probability", 0) == 0:
-            return True
-
-    return False
+        cells = [c for _, c in iter_cells(o.get("probability"))]
+        ruleset_stats_inc("enrich_outcomes")
+        ruleset_stats_inc("enrich_cells", len(cells))
+        if "Unknown" in o.get("to", "") or not cells or all(c == 0 for c in cells):
+            placeholder = True
+    # The loop runs to the end on purpose: returning on the first hit would make the
+    # coverage count depend on WHERE the first placeholder sits, and a counter that
+    # under-reports is a counter you cannot put a floor under. The verdict is unchanged
+    # (it is a plain OR over the outcomes).
+    return placeholder
 
 
 # =============================================================================
@@ -530,8 +623,9 @@ VARIANT UNIQUENESS (required, 50 char max):
 
 TRANSITIONS FIELD (CRITICAL - unified state machine model):
 - transitions[] is the ONLY transition field. No offensive_transitions, defensive_responses, or counter_transitions.
-- Each entry: {{ "transition": "Technique Name", "attempt_probability": N }}
-- attempt_probability values MUST sum to 100% per role (top/bottom)
+- Each entry: {{ "transition": "Technique Name", "attempt_probability": {{"gi": N, "nogi": N}} }}
+- attempt_probability is per-ruleset. null in a frame means this move DOES NOT EXIST in that ruleset - never replace a null with 0 or with a number, never add a frame to a move that has none, and never move a value between frames.
+- Within each frame, the NON-NULL attempt_probability cells MUST sum to 100% per role (top/bottom); null cells are excluded from that sum and a frame with no non-null cells is not summed at all
 - top.transitions = what the practitioner does from the top role
 - bottom.transitions = what the practitioner does from the bottom role
 - SINGLE positions: transitions[] at root level (no top/bottom)
@@ -686,6 +780,11 @@ REQUIREMENTS:
 # DOMAIN-SPECIFIC PROMPTS
 # =============================================================================
 
+# EVERY *_PROMPT below is a str.format TEMPLATE: `{name}` is a substitution and a
+# literal brace must be DOUBLED. A single `{` in prose does not fail at import — it
+# fails inside build_prompt, on every file of that category, with the unhelpful
+# "Invalid format specifier". Adding the {gi,nogi} null rule to the position prompt
+# did exactly that. check_prompt_templates() (called from main) is the guard.
 POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
 
 ## Position: {file_path}
@@ -714,7 +813,8 @@ POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 
 ### 2. Preserve transitions; review attempt_probability
 - PRESERVE every existing entry in `transitions[]`. Dropping one RE-ORPHANS a submission and is NOT allowed — keep all original transition names for both roles.
-- You MAY re-tune `attempt_probability` to reflect realistic training choices, but every original transition must remain and the values MUST sum to exactly 100% per role (top/bottom).
+- You MAY re-tune `attempt_probability` to reflect realistic training choices, but every original transition must remain and, within each ruleset frame, the non-null values MUST sum to exactly 100% per role (top/bottom).
+- `attempt_probability` is `{{"gi": N, "nogi": N}}`. A null cell means this move DOES NOT EXIST in that ruleset, which is NOT the same as 0 (exists, ~never attempted): keep every null exactly where it is, never fill one in, and never null one that carries a number.
 - Do NOT invent transitions that lack a content file; only adjust probabilities across the existing set.
 
 ### 3. Add/Improve flashcards (8-12 Q&A pairs)
@@ -1216,7 +1316,9 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
     if "Broken link" in validation_errors:
         error_guidance += "- Fix broken wikilinks using ONLY names from the valid reference lists\n"
     if "sum to 100" in validation_errors:
-        error_guidance += "- Fix probability values to sum to exactly 100%\n"
+        error_guidance += ("- Fix probability values so that, WITHIN EACH ruleset frame, the "
+                           "non-null cells sum to exactly 100%. A null cell means the edge does "
+                           "not exist in that ruleset: leave it null, never fill it with 0.\n")
     if "Missing required" in validation_errors:
         error_guidance += "- Add all missing required fields\n"
     if not error_guidance:
@@ -1686,25 +1788,96 @@ def normalize_probabilities(data: dict, category: str) -> bool:
         if not isinstance(items, list) or not items:
             return
         # {gi,nogi} maps (Q3+: real divergence): normalize each frame independently.
-        if any_ruleset_map(it.get(key) for it in items if isinstance(it, dict)):
-            for rs in RULESETS:
-                vals = []
-                for it in items:
-                    c = cell(it.get(key, 0), rs) if isinstance(it, dict) else None
+        #
+        # NULL IS NOT ZERO (scripts/_ruleset.py): a null cell means the move DOES NOT
+        # EXIST in that ruleset, a 0 means it exists and is ~never attempted. This loop
+        # used to run over RULESETS and coerce every cell with `float(c or 0)`, which
+        # re-animated whatever the corpus had declared absent: an 11-move frame nulled
+        # on purpose came back out of here as [10,9,9,9,9,9,9,9,9,9,9] summing to 100,
+        # a distribution validate_graph_integrity then certifies. The authored nulls
+        # that did survive a run survived by ACCIDENT — when the cells that were left
+        # still happened to total 100 the sum check below short-circuited before the
+        # write — so one retune, one added transition or one proofread pass was enough
+        # to lose the lot. Frames now come from present_rulesets() and null cells never
+        # enter the sum, the rounding or the write; both skips are counted, because a
+        # normalizer that dropped everything must not read like one that dropped nothing.
+        forked = [it.get(key) for it in items if isinstance(it, dict) and is_ruleset_map(it.get(key))]
+        if forked:
+            # The group's frame set is read from the FORKED cells ONLY. An un-forked item
+            # — no key at all, or a bare legacy scalar, which is exactly the shape an LLM
+            # hands back for a transition it just added — carries no ruleset opinion, so it
+            # must never RESURRECT a frame the authored data says does not exist. Measured
+            # on the fixture: one new move worth `7` dropped into a gi-only group came back
+            # out of here owning the whole no-gi frame at 100, a fabricated distribution
+            # that validate_graph_integrity would then certify. Reading `frames` from every
+            # value instead of from the forked ones is what allowed it.
+            frames = present_rulesets(forked)
+            ruleset_stats_inc("norm_groups")
+            if not frames:
+                # Every forked cell in the group is null in every frame: there is no ruleset
+                # in which these moves exist, so there is no sum to fix and nothing here may
+                # invent one. Say so out loud — a skip that prints nothing reads like a pass.
+                ruleset_stats_inc("norm_dead_groups")
+                unforked = len(items) - len(forked)
+                tprint(f"  [ruleset] `{key}`: {len(forked)} forked entries with no present frame"
+                       + (f" (+{unforked} un-forked)" if unforked else "")
+                       + " — no ruleset frame to sum, left untouched")
+                return
+            ruleset_stats_inc("norm_null_frames", len(RULESETS) - len(frames))
+            for rs in frames:
+                idx, vals = [], []
+                for i, it in enumerate(items):
+                    if not isinstance(it, dict):
+                        continue
+                    raw = it.get(key, 0)  # an absent key prices at 0, as it always has
+                    if is_ruleset_map(raw):
+                        c = raw.get(rs)
+                        if c is None:
+                            # Authored absence. Not ours to fill: it leaves the sum, the
+                            # rounding AND the write, and it is counted so that a frame we
+                            # dropped whole cannot read like a frame we found nothing in.
+                            ruleset_stats_inc("norm_null_cells")
+                            continue
+                    else:
+                        # Un-forked: absent key, or a legacy scalar that applies to every
+                        # frame this group HAS. Deliberately NOT treated as a contract null
+                        # — the contract's null lives in a map cell and this item has no map
+                        # — so it keeps the pre-null pricing (0 for absent, the scalar
+                        # otherwise, non-numbers 0 via the guard below). `frames` is what
+                        # stops it from reaching a frame the group does not have.
+                        c = raw if isinstance(raw, (int, float)) else 0
                     try:
-                        vals.append(max(0.0, float(c if c is not None else 0)))
+                        vals.append(max(0.0, float(c)))
                     except (TypeError, ValueError):
                         vals.append(0.0)
-                if round(sum(vals)) == 100:
+                    idx.append(i)
+                ruleset_stats_inc("norm_cells", len(vals))
+                if not vals or round(sum(vals)) == 100:
                     continue
-                for it, nv in zip(items, _largest_remainder_round(vals, 100)):
-                    if isinstance(it, dict):
-                        m = as_map(it.get(key, 0))
-                        if m.get(rs) != nv:
-                            m[rs] = nv
-                            changed = True
-                        it[key] = m
+                for i, nv in zip(idx, _largest_remainder_round(vals, 100)):
+                    it = items[i]
+                    raw = it.get(key, 0)  # same absent-key pricing as the read above
+                    if is_ruleset_map(raw):
+                        m = {r: raw.get(r) for r in RULESETS}  # keeps the other frame, null and all
+                    else:
+                        # Absent key or legacy scalar. The schema requires both cells once
+                        # the value is a map, so both are written — but only the frames this
+                        # group actually has get a number, so a newly added move cannot mint
+                        # a frame the rest of the group does not exist in. Identical to
+                        # as_map() while both frames are present, i.e. the entire corpus today.
+                        m = {r: (raw if r in frames else None) for r in RULESETS}
+                    if m.get(rs) != nv:
+                        m[rs] = nv
+                        changed = True
+                    it[key] = m
             return
+        # LEGACY (un-forked) group: reached only when NOT ONE item in it carries a
+        # {gi,nogi} map. The `0` default survives here deliberately — there is no null
+        # for it to destroy. The contract's null lives in a map CELL, and a value that
+        # is a map of nulls (`{"gi": null, "nogi": null}`) is still a ruleset map, so it
+        # is handled by the forked branch above and never lands here. A BARE `null` is
+        # not the contract's null and is not schema-valid either (attempt_probability /
+        # probability are `oneOf: integer | {gi,nogi}`), so pricing it 0 is unchanged.
         vals = []
         for it in items:
             try:
@@ -2118,6 +2291,15 @@ Domain-specific prompts:
 {'=' * 70}
 """, flush=True)
 
+    # Fail before the first file, not on it: a literal brace in prompt prose only
+    # explodes inside build_prompt. Prints the positive count, refuses a zero.
+    _n_tmpl, _tmpl_fail = check_prompt_templates()
+    if _tmpl_fail or not _n_tmpl:
+        for _f in _tmpl_fail or ["no *_PROMPT templates found — the discovery is broken"]:
+            print(f"ERROR: prompt template — {_f}", flush=True)
+        return 1
+    print(f"Prompt templates: {_n_tmpl} format-checked", flush=True)
+
     # Build reference lists
     print("Building reference lists...", flush=True)
     refs = build_reference_lists()
@@ -2155,7 +2337,16 @@ Domain-specific prompts:
         files = collect_files(args.category, args.errors_only)
 
         if not files:
+            # 6.6: this is the "found no problems" exit, and it is the EXACT output an
+            # inert scan produces — the placeholder half of collect_files printed it for
+            # months while reading nothing at all. Print what the scan actually read
+            # before taking the clean bill of health, and fail if it read nothing.
             print("No files need processing!")
+            tprint(ruleset_coverage_line())
+            _sf = ruleset_coverage_shortfall()
+            if _sf:
+                tprint(f"ERROR: ruleset coverage floor — {_sf}")
+                return 1
             return 0
 
         print(f"Found {len(files)} files to process\n", flush=True)
@@ -2229,7 +2420,16 @@ Failed:    {stats['failed']}
 Retries:   {stats['retries']}
 Stubs:     {stats['stubs_created']}
 Errors:    {len(stats['errors'])}
+{ruleset_coverage_line()}
 """)
+
+    # 6.6 floor: a reader that touched forked data and read none of it is a failure,
+    # not a clean run. Reported beside the errors and carried into the exit code.
+    _shortfall = ruleset_coverage_shortfall()
+    if _shortfall:
+        tprint(f"ERROR: ruleset coverage floor — {_shortfall}")
+        stats_append_error(f"ruleset coverage floor: {_shortfall}")
+        stats_inc("failed")
 
     if stats["errors"]:
         tprint("Errors:")
@@ -2243,6 +2443,7 @@ Errors:    {len(stats['errors'])}
         LOGS_PATH.mkdir(parents=True, exist_ok=True)
         run_summary["finished_at"] = datetime.now().isoformat()
         run_summary["stats"] = dict(stats)
+        run_summary["ruleset_coverage"] = dict(ruleset_stats)  # what the {gi,nogi} readers read
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         summary_path = LOGS_PATH / f"run_{timestamp}.json"
         with open(summary_path, 'w', encoding='utf-8') as f:

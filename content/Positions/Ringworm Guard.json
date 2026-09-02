@@ -345,21 +345,21 @@
         "transition": "Lapel Grip Break and Posture Recovery",
         "attempt_probability": {
           "gi": 28,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Leg Extraction from Lapel Wrap",
         "attempt_probability": {
           "gi": 21,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Stack Pass with Lapel Control Negation",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -723,7 +723,7 @@
         "transition": "Ringworm Sweep to Back Control",
         "attempt_probability": {
           "gi": 30,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -744,7 +744,7 @@
         "transition": "Lapel Sweep to Back",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -758,7 +758,7 @@
         "transition": "Ringworm Guard to Worm Guard",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

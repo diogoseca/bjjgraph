@@ -21,13 +21,13 @@ description: "Navigate and pass lapel guard configurations with technical precis
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Clear to Toreando Pass",
-      "text": "From this position, attempt Lapel Clear to Toreando Pass. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Clear to Toreando Pass. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Backstep Around Worm Guard",
-      "text": "From this position, attempt Backstep Around Worm Guard. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Backstep Around Worm Guard. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 2
     },
     {

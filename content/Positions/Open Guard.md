@@ -243,15 +243,15 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (3% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (0% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (gi only)
 
 - **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (5% of attempts)
 
-- **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (0% of attempts)
+- **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (gi only)
 
 - **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (10% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
 
 - **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (7% of attempts)
 

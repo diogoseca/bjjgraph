@@ -113,7 +113,7 @@
         "transition": "Bow and Arrow Choke from Back Control",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {

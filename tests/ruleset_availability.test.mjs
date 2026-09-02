@@ -115,18 +115,103 @@ test("no-gi is the acting frame; gi is admitted whole", () => {
 
 test("NO HAND FALLS INTO THE ORIGIN-RELAXED FALLBACK", () => {
   // The sharper form of the dead-end check, and the one that caught the real defect. `optionsFor`
-  // has a safety net: when role+origin filtering leaves NOTHING it re-deals with ORIGIN relaxed,
-  // ranked by `myVal` and carrying no frozen `ord`/`ordOdds` — an unranked hand with no EDGE.
-  // An empty-hand check cannot see it, because the fallback returns cards. graph.json cannot see
-  // it either: its per-frame sums do not apply role or origin, so it reported the state healthy.
+  // has a safety net: when role+origin filtering leaves NOTHING it re-deals with ORIGIN relaxed —
+  // cards from a state you are not standing in, carrying that other state's `ev` row. An empty-hand
+  // check cannot see it, because the fallback RETURNS CARDS; and graph.json cannot see it coming,
+  // because its per-frame sums apply neither role nor origin and report the state healthy.
+  //
+  // THIS TEST SHIPPED BROKEN IN v1.153.0, TWICE OVER, and both halves are fixed here.
+  //  · It walked `n.rep` position nodes. All 136 of those are the hub, whose role is "top" — so it
+  //    covered 136 of 272 hands and could not see a BOTTOM seat. `backside-50-50/bottom` is a
+  //    bottom seat, and it is the single state the whole gi-exclusion decision turned on. The
+  //    detector was blind to the one case it was written for.
+  //  · It keyed on `o[0].ord === undefined`. `orderScore` returns null on 100 of 1328 main-pass
+  //    cards (3 of them a hand's first card), so the check survived only on the undefined/null
+  //    distinction, and any fix that set `ord` in the fallback would have blinded it permanently.
+  //    The fallback now stamps `relaxed: true` — a positive signal, not an absence.
   for (const a of [CTRL, GI, NOGI]) {
     const relaxed = [];
-    for (const p of a.nodes.filter((n) => n.ty === "positions" && n.rep && a.rsAllows(n))) {
+    let walked = 0;
+    // BOTH SEATS. `_deriveDualPairs` stamps the member's side on the member, so the 272 position
+    // members ARE the 272 role-hands; the rep half alone is every "top" and no "bottom".
+    for (const p of a.nodes.filter((n) => n.ty === "positions" && a.rsAllows(n))) {
       const o = hand(a, p);
-      if (o.length && o[0].ord === undefined) relaxed.push(p.id);
+      if (!o.length) continue;
+      walked++;
+      if (o.some((x) => x.relaxed)) relaxed.push(p.id + "/" + (p.role || "?"));
     }
+    const seats = new Set(a.nodes.filter((n) => n.ty === "positions" && a.rsAllows(n)).map((n) => n.role));
+    assert.deepEqual([...seats].sort(), ["bottom", "top"], `${a._giMode}: the walk must cover both seats`);
+    assert.ok(walked >= 200, `${a._giMode}: hand coverage starved — only ${walked} hands walked`);
     assert.deepEqual(relaxed, [], `${a._giMode}: ${relaxed.length} hand(s) fell through to the origin-relaxed fallback`);
   }
+});
+
+test("…and the fallback detector can actually fire", () => {
+  // A fixture that cannot trigger the failure it forbids is a decoration (CLAUDE.md §6.3, and the
+  // lesson `tests/occurrence_gate.test.mjs` learned when its "Collar Guard A/B" fixture let a
+  // name-matcher mutant survive). Zero hands reach the fallback naturally, so the test above passes
+  // on a build whose detector is broken — as v1.153.0's was. This forces the branch and proves the
+  // detector sees it.
+  //
+  // The fixture is DERIVED, not named: the first BOTTOM seat that (a) falls wholly into the
+  // fallback when its own origin-local bottom moves are masked off, (b) leaves its TOP seat dealing
+  // a normal hand — which is what makes it a test of SEAT COVERAGE and not just of the branch — and
+  // (c) carries at least one `myVal` tie, without which the comparator's name tiebreak is never
+  // exercised. A hard-coded position name would rot on the next corpus change; the search does not.
+  const a = app("gi");
+  a.noteChallenges = () => {};   // the beat's downstream lives in a sibling bundle file, not here
+  let fixture = null;
+  for (const seat of a.nodes.filter((n) => n.ty === "positions" && n.role === "bottom")) {
+    const mask = a._rulesetMask();
+    const saved = [];
+    for (const k of a.adj[seat.idx]) {
+      const n = a.nodes[k];
+      if (n.ty !== "positions" && n.fromPositionId === seat.posId && n.fromRole === "bottom") {
+        saved.push([k, mask[k]]); mask[k] = 0;
+      }
+    }
+    const forced = hand(a, seat);
+    const top = a.nodes.find((n) => n.ty === "positions" && n.posId === seat.posId && n.role === "top");
+    const topHand = top ? hand(a, top) : [];
+    let ties = 0;
+    for (let i = 0; i < forced.length; i++) {
+      for (let j = i + 1; j < forced.length; j++) if (a.myVal(forced[i].node) === a.myVal(forced[j].node)) ties++;
+    }
+    if (forced.length && forced.every((x) => x.relaxed) && topHand.length
+        && !topHand.some((x) => x.relaxed) && ties > 0) { fixture = { seat, forced, topHand, ties }; break; }
+    for (const [k, v] of saved) mask[k] = v;   // restore before trying the next seat
+  }
+  assert.ok(fixture, "no bottom seat could be forced into the fallback with a tie — the fixture search found nothing, so this test proves nothing");
+
+  // 1. the branch stamps its positive signal
+  assert.ok(fixture.forced.every((x) => x.relaxed === true),
+    "the fallback fired but did not stamp `relaxed` — the detector is blind again");
+  // 2. it is a BOTTOM seat and its TOP seat is unaffected: a rep-only walk cannot see this hand,
+  //    which is exactly how v1.153.0's detector missed backside-50-50/bottom.
+  assert.equal(fixture.seat.role, "bottom");
+  assert.equal(fixture.seat.rep, false, "the fixture seat must be the non-rep half, or it proves nothing about seat coverage");
+  assert.ok(!fixture.topHand.some((x) => x.relaxed), "the fixture's top seat must stay normal");
+  // 3. the relaxed hand is a STRICT TOTAL ORDER under the app's OWN comparator. `_cmpRelaxed` is a
+  //    named seam for exactly this reason — a spec-side copy would agree with itself by
+  //    construction. `ties > 0` above is what makes the name tiebreak reachable at all.
+  //    SEAT THE COMPARATOR FIRST: `_cmpRelaxed` reads `myVal` -> `valIdx` -> `this.playerRole`, so
+  //    it answers a different question in the other seat. The fixture search above ends on the TOP
+  //    seat, and comparing a bottom hand under a top seat reorders it — which is how this assertion
+  //    caught its own harness.
+  a.currentPos = fixture.seat.idx;
+  a.playerRole = "bottom";
+  let zeroPairs = 0;
+  for (let i = 0; i < fixture.forced.length; i++) {
+    for (let j = i + 1; j < fixture.forced.length; j++) {
+      if (a._cmpRelaxed(fixture.forced[i], fixture.forced[j]) === 0) zeroPairs++;
+    }
+  }
+  assert.ok(fixture.ties > 0, "fixture carries no myVal tie, so the tiebreak is untested");
+  assert.equal(zeroPairs, 0, `the relaxed comparator called ${zeroPairs} distinct card pair(s) equal — a tie hands the order to the node index`);
+  const resorted = fixture.forced.slice().reverse().sort((x, y) => a._cmpRelaxed(x, y));
+  assert.deepEqual(resorted.map((o) => o.node.t), fixture.forced.map((o) => o.node.t),
+    "the relaxed hand's order moved when the input was permuted");
 });
 
 test("NO POSITION IS LEFT WITHOUT EXITS — the dead-end check", () => {

@@ -241,7 +241,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 - **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (8% of attempts)
 
-- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (gi only)
 
 - **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (1% of attempts)
 

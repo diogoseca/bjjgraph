@@ -291,7 +291,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (6% of attempts)
 
-- **[[Submissions/Bow and Arrow Choke/from Harness/Attacker|Bow and Arrow Choke from Harness]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Harness/Attacker|Bow and Arrow Choke from Harness]]** (gi only)
 
 - **[[Submissions/Short Choke/from Harness/Attacker|Short Choke from Harness]]** (10% of attempts)
 

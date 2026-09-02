@@ -448,7 +448,7 @@
     },
     "transitions": {
       "type": "array",
-      "description": "Available transitions from this position. attempt_probability MUST sum to 100%",
+      "description": "Available transitions from this position. Within each ruleset frame, the non-null attempt_probability cells sum to 100 independently. A null cell means the transition DOES NOT EXIST in that ruleset - distinct from 0, which means it exists but is almost never attempted. A frame with no non-null cells does not exist for this role and is not summed.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -495,7 +495,7 @@
                 "additionalProperties": false
               }
             ],
-            "description": "Probability this transition is attempted (all must sum to 100%)"
+            "description": "Probability this transition is attempted, per ruleset. The non-null cells of a frame sum to 100 across this role's transitions; null means the transition does not exist in that ruleset."
           }
         }
       }

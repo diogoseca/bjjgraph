@@ -2974,7 +2974,9 @@ class Component extends DCLogic {
       const out = [];
       for (const id of (Array.isArray(c.nodes) ? c.nodes : [])) {
         const i = this._idIndex ? this._idIndex.get(id) : null;
-        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+        // authored gi-first, same as a System's roster — a member the ruleset removes is not drawn,
+        // so counting it in "N lit" prints a number the map cannot show. Released by `setGiMode`.
+        if (i != null && this.nodes[i] && this.rsAllowsIdx(i) && out.indexOf(i) < 0) out.push(i);
       }
       c._idxs = out;
     }
@@ -3550,7 +3552,12 @@ class Component extends DCLogic {
   /** The pre-FLOW rule, kept ONLY as the loud-fallback path (see weakSpots). */
   _weakSpotsLegacy() {
     const decks = (this.flashcards && this.flashcards.decks) || {};
-    const keys = Object.keys(decks);
+    // RULESET (v1.167.0). This is the LOUD-FALLBACK ranking — it runs whenever the FLOW kernel is
+    // cold (a fresh boot, a missing payload), which is exactly when a returning player first reads
+    // their weak spots. `weakSpots()` filters; without the same filter here the cold path ranked a
+    // no-gi player over gi-only decks and the two answers disagreed by their reachability alone.
+    // A deck with NO node keeps its row: "no verdict" is not "excluded".
+    const keys = Object.keys(decks).filter((k) => { const i = this.nodeForKey(k); return i < 0 || this.rsAllowsIdx(i); });
     const prep = this.prep || {};
     const seen = new Set();
     const uniq = (arr) => arr.filter((k) => { const f = k.split("|")[0]; if (seen.has(f)) return false; seen.add(f); return true; });
@@ -4210,7 +4217,9 @@ class Component extends DCLogic {
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.splitName(this.nodes[opt.res].t).main : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
-    const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions").slice(0, 4).map((k) => this.splitName(this.nodes[k].t).main);
+    // prose that NAMES states: "A transition from your current position to X, Y" must not name a
+    // state this ruleset cannot produce, or the sheet advertises a destination the map does not have.
+    const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)).slice(0, 4).map((k) => this.splitName(this.nodes[k].t).main);
     // titleParts no longer shapes the TITLE (the sheet prints the technique's own name), but it
     // still GATES the on-success line: `resName` is `opt.res`, a deal-time first-position-
     // neighbor heuristic — measured wrong for 188 of 323 "X to Y"-named transitions when the
@@ -4908,7 +4917,7 @@ class Component extends DCLogic {
     // `openLessonStudy` builds its own `_session` and goes STRAIGHT to studyFromSession, so the
     // belt corridor keeps its one-card lesson view (a different, gated surface) — see renderSession.
     this._session = { keys: keys, label: label, sub: sub || null, idx: 0, filter: bucket === "due" ? "due" : null, bucket: bucket };
-    this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
+    this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
     this.closeModal();
     this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
     this.renderSession();
@@ -4961,7 +4970,7 @@ class Component extends DCLogic {
       // infinite scroll: the head is dealt whole, the tail arrives a page at a time
       shown: Math.min(keys.length, due.length + fresh.length + 10),
     };
-    this._sessionNodes = keys.slice(0, this._session.shown).map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
+    this._sessionNodes = keys.slice(0, this._session.shown).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
     this.closeModal();
     this.frameNodes(this._sessionNodes);
     this.renderSession();
@@ -6238,7 +6247,7 @@ class Component extends DCLogic {
   openLessonStudy(l, unit, belt) {
     const keys = unit.lessons.filter((x) => this._lessonLive(x)).map((x) => x.deckKey);
     this._session = { keys: keys, label: unit.name, idx: Math.max(0, keys.indexOf(l.deckKey)) };
-    this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
+    this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
     const idx = this._lessonNodeIdx(l.deckKey);
     if (idx >= 0) this.locateNode(idx); // prezi flight (pane stays open — study takes it over next)
     this.studyFromSession(l.deckKey);
@@ -6519,6 +6528,13 @@ class Component extends DCLogic {
     // on nodes that did not change availability.
     this._posIdx = null;
     if (this.systems) for (const sy of this.systems) { if (sy) sy._idxs = null; }
+    if (this.concepts) for (const co of this.concepts) { if (co) co._idxs = null; }
+    // FLOW's kernel is built over a ruleset-filtered state space (flow.src.js), and its cache key is
+    // `_stageVer/_flowVer/lam` with NO ruleset component — so without this release a flip keeps the
+    // other ruleset's weak spots forever. The filter and its release must ship together or the
+    // filter is invisible after the first flip.
+    this._flowKernel = null;
+    this._flowScoreCache = null;
     this._rebuildRulesetMask();
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
     // `_curriculumIdxSet` is built eagerly by `_onCurriculum` (nulling it would kill path fog
@@ -6811,8 +6827,13 @@ class Component extends DCLogic {
   // its own through these same two calls. The draw loop reads _focusIdxSet exactly like the
   // path-view fog (non-members drop to 30% ink) and rings the members on top.
   setFocusIdxSet(idxs, noFrame) {
+    // THE HIGHLIGHT CHOKEPOINT (v1.167.0). Every "light these nodes" caller lands here — a System's
+    // members, a Principle or Learning concept's, a List's, and a /l/<code> arrival's — so ONE
+    // ruleset guard covers all four, and `frameNodes` below cannot fly the camera to an orb the
+    // active ruleset does not draw. Filtering at each caller instead would be four hand-maintained
+    // lists of the kind §6.7 says gets a new member missing by default.
     const set = new Set();
-    for (const i of idxs || []) if (this.nodes && this.nodes[i]) set.add(i);
+    for (const i of idxs || []) if (this.nodes && this.nodes[i] && this.rsAllowsIdx(i)) set.add(i);
     this._focusIdxSet = set.size ? set : null;
     // noFrame: a re-render of the SAME selection must not yank the camera again (typing in the
     // Explore search re-renders on every keystroke).
@@ -7209,14 +7230,20 @@ class Component extends DCLogic {
   openListSession(listId) {
     const idxs = this.listIdxs(listId);
     if (!idxs.length) return;
+    // A LIST HAS TWO HALVES AND THEY ANSWER DIFFERENTLY (v1.167.0). Its CONTENT is a record — a
+    // class a coach posted stays what they posted, so `listIdxs` is left whole and the rows still
+    // render. What is DEALT from it is material, and material obeys the ruleset. Filtering
+    // `listIdxs` itself would be the tempting half-fix and is wrong in the other direction: it
+    // would silently shrink a received class and re-encode a shorter share code.
+    const live = idxs.filter((i) => this.rsAllowsIdx(i));
     const keys = [];
-    for (const i of idxs) { const k = this.deckKeyFor(this.nodes[i]).key; if (k && keys.indexOf(k) < 0) keys.push(k); }
+    for (const i of live) { const k = this.deckKeyFor(this.nodes[i]).key; if (k && keys.indexOf(k) < 0) keys.push(k); }
     if (!keys.length) return;
     const l = this._listsMap()[listId];
     const label = listId === "__shared" ? "Shared class" : (l && l.name) || "Class list";
     this._session = { keys: keys, label: label, idx: 0 };
-    this._sessionNodes = idxs;
-    this.frameNodes(idxs);
+    this._sessionNodes = live;
+    this.frameNodes(live);
     this.renderSession();
     this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
     this.track("neural_share_list_drill", { list: listId, techniques: keys.length, shared: listId === "__shared" });
@@ -9251,7 +9278,9 @@ class Component extends DCLogic {
     if (vw > rearm) { this._zoomArmed = true; return; }
     if (vw > deep || this._zoomArmed === false || this._dossierIdx != null) return;
     let best = -1, bd = 1e9;
-    for (const n of this.nodes) { const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
+    // the mobile zoom-open picks the nearest orb and opens its dossier — the same rule the pointer
+    // hit-test obeys: an orb the ruleset does not draw must not be pickable by proximity either.
+    for (const n of this.nodes) { if (!this.rsAllows(n)) continue; const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
     if (best >= 0 && bd * (this.W / vw) < this.W * 0.5) { this._zoomArmed = false; this.openDossier(best, true); }
   }
   /**
@@ -9464,6 +9493,9 @@ class Component extends DCLogic {
     const id = decodeURIComponent(String(path).replace(/^\/+/, "").replace(/\/+$/, ""));
     if (!id) return -1;
     const i = this._idIndex.get(id);
+    // same rule as `_nodeAndRoleForPath`: a Back/Forward pop onto a node the ruleset removed
+    // resolves to nothing, so the caller falls through rather than seating an absent state.
+    if (i != null && this.nodes[i] && !this.rsAllows(this.nodes[i])) return -1;
     return i == null ? -1 : i;
   }
   /**
@@ -9514,6 +9546,12 @@ class Component extends DCLogic {
     }
     if (i == null) return NONE;
     const n = this.nodes[i]; if (!n) return NONE;
+    // RULESET (v1.167.0). Quartz emits a page for every node in the corpus regardless of ruleset,
+    // so a no-gi visitor can arrive from a search result on /Transitions/Worm-Guard-Entry. Resolving
+    // to NONE here is deliberate and is the cheapest correct answer: `_seedFromUrl` then falls
+    // through to `_seedPageFromUrl` and the ordinary boot start, so the visitor gets a live board
+    // rather than a seat in a state their ruleset cannot produce — and no new control flow.
+    if (!this.rsAllows(n)) return NONE;
     if (!role && (n.role === "top" || n.role === "bottom")) role = n.role;   // dual: the member IS a side
     if (!persp && (n.role === "attacker" || n.role === "defender")) persp = n.role;
     // A TECHNIQUE PAGE LANDS ON THE TECHNIQUE (v1.132.0, owner: "if I click Kimura, then the
@@ -9751,7 +9789,7 @@ class Component extends DCLogic {
 
     const renderDetail = () => {
       detail.innerHTML = "";
-      const n = this.nodes.find((z) => z.idx === this._searchSel);
+      const n = this.nodes.find((z) => z.idx === this._searchSel && this.rsAllows(z));
       if (!n) { detail.innerHTML = '<div style="color:#7e8aa3;font-size:14px;">Search and pick a technique to see details.</div>'; return; }
       const cat = this.deckCat(n), isPos = n.ty === "positions";
       const deckKey = this.deckKeyFor(n).key;
@@ -10824,9 +10862,27 @@ class Component extends DCLogic {
         // is not a safety net, it is the bug this filter exists to prevent — and dealing a lapel
         // entry to a player with no lapel is the same mistake with a different subject
         if (n.fromRole && n.fromRole !== this.playerRole) continue;
-        out.push({ idx: k, node: n, res: this.resultPos(k, posIdx), ev: evOf ? evOf(k) : null });
+        // `relaxed` IS THE SIGNAL, and it is POSITIVE on purpose. The only previous way to tell a
+        // fallback hand from a real one was the ABSENCE of `ord` — and `orderScore` legitimately
+        // returns null on 100 of 1328 main-pass cards, 3 of them a hand's FIRST card, so
+        // `ord == null` never distinguished the two and `ord === undefined` was one refactor away
+        // from becoming permanent blindness. Absence is not a signal (CLAUDE.md §6.6).
+        // These cards are also TELEPORTS: origin is relaxed, so each one comes from a state you
+        // are not standing in, and its `ev` row is that other state's row.
+        out.push({ idx: k, node: n, res: this.resultPos(k, posIdx), ev: evOf ? evOf(k) : null, relaxed: true });
       }
-      out.sort((a, b) => this.myVal(b.node) - this.myVal(a.node));
+      // A STRICT TOTAL ORDER, like the main pass. `myVal` alone TIES, and `Array#sort` is stable,
+      // so every tie handed the decision to the node index — the exact trap `_cmpDealt` ends with a
+      // name tiebreak to avoid. Deliberately NOT `_cmpDealt`: these cards carry no frozen EDGE keys
+      // and must not be dressed as though they were ranked by one.
+      out.sort((a, b) => this._cmpRelaxed(a, b));
+      // NO FALLBACK IS SILENT. Zero hands reach this branch in either ruleset today (measured over
+      // all 272 role-hands); if that ever changes, production says so instead of quietly dealing
+      // origin-relaxed cards that look like a normal tray.
+      if (!this._relaxedBeat) {
+        this._relaxedBeat = 1;
+        this.fx("hand_origin_relaxed", { state: this.nodes[posIdx].id, role: this.playerRole, n: out.length });
+      }
       return out.slice(0, 6);
     }
     // FREEZE (v1.118.0). Both ranking inputs are read HERE, once, and never again: `moveChance`
@@ -10858,7 +10914,9 @@ class Component extends DCLogic {
   // means this change cannot alter a path nobody can observe.
   resultPos(actIdx, fromIdx) {
     let best = -1;
-    for (const k of this.adj[actIdx]) { if (this.nodes[k].ty === "positions" && k !== fromIdx) { best = k; break; } }
+    // the destination this card PRINTS as its on-success landing. Naming an excluded state would
+    // promise the player somewhere the map cannot take them.
+    for (const k of this.adj[actIdx]) { if (this.nodes[k].ty === "positions" && k !== fromIdx && this.rsAllowsIdx(k)) { best = k; break; } }
     if (best < 0) for (const k of this.adj[actIdx]) { if (this.nodes[k].ty === "positions") { best = k; break; } }
     return best;
   }
@@ -12821,6 +12879,25 @@ class Component extends DCLogic {
 
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx, staged, roleOverride) {
+    // THE SEAT FUNNEL, AND THEREFORE THE RULESET GUARD (v1.167.0). Every path that puts a player
+    // somewhere arrives here: the ▶ on a list row, a dossier's "Roll from here", a belt capstone's
+    // authored seat, a Back/Forward pop, and — the one that reaches strangers — a direct URL
+    // arrival from a search result or a shared link on a node's own page. Those pages are emitted
+    // by Quartz for every node in the corpus regardless of ruleset, so a no-gi player can be handed
+    // /Transitions/Worm-Guard-Entry and, before this, would simply be seated there.
+    //
+    // It ANNOUNCES and falls through to an ordinary start rather than refusing silently or seating
+    // anyway: a dead board teaches nothing, and seating re-admits the very node the ruleset
+    // removed. Auto-switching the ruleset instead would be the other honest answer and is the
+    // owner's call — it writes a persisted setting off someone else's link.
+    if (nodeIdx != null && nodeIdx >= 0 && this.nodes && this.nodes[nodeIdx] && !this.rsAllowsIdx(nodeIdx)) {
+      const n = this.nodes[nodeIdx];
+      this.fx("seat_refused_ruleset", { node: n.id, frame: this._giMode || "gi" });
+      this.setEvent(this.displayName ? this.displayName(n) : n.t,
+        "is gi-only — you are training no-gi", "muted");
+      return false;   // the board keeps the roll it has; a URL arrival never reaches here (NONE
+                      // above) and every other caller is acting on an already-live board.
+    }
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
     // A NEW ROLL ENDS THE FILM, FIRST (v1.106.5) — before `clearTimers()` takes its step timer and
     // before this function writes the camera. `setPaused` also stops a replay, but it is called at
@@ -14126,6 +14203,16 @@ class Component extends DCLogic {
   // the odds and the EDGE you can see) would otherwise re-rank the hand under the player's hand
   // while they are reaching for a card. The displayed numbers move; the cards do not.
   // Documented rank: EDGE desc → odds desc → attempt% desc → name asc, all four deterministic.
+  _cmpRelaxed(a, b) {
+    // THE ORIGIN-RELAXED HAND'S ORDER, named so a spec can assert against it instead of writing a
+    // second copy that agrees with itself by construction (CLAUDE.md §6.3 — the audit BUILT to
+    // find that class committed it). `myVal` alone TIES, and `Array#sort` is stable, so every tie
+    // handed the decision to the node index. The name tiebreak is what makes it a total order.
+    // Deliberately NOT `_cmpDealt`: these cards carry no frozen EDGE keys and must not be dressed
+    // as though they were ranked by one.
+    return (this.myVal(b.node) - this.myVal(a.node))
+      || (a.node.t < b.node.t ? -1 : a.node.t > b.node.t ? 1 : 0);
+  }
   _cmpDealt(a, b) {
     const av = a.ord, bv = b.ord;
     if ((av == null) !== (bv == null)) return av == null ? 1 : -1;
@@ -14321,9 +14408,16 @@ class Component extends DCLogic {
     this.fx("caught", { submission: sub ? sub.t : null });
     // escape routes: positions reachable from the submission node (back to safety)
     const escapes = []; const seen = new Set();
+    const rsOk = this._rulesetMask();
     for (const k of this.adj[subIdx]) {
       const n = this.nodes[k];
-      if (n.ty !== "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
+      if (n.ty !== "positions") continue;
+      // THE ESCAPE TRAY OBEYS THE RULESET TOO (v1.167.0). You are caught and picking between these;
+      // escaping into a state this ruleset cannot produce is the same defect as dealing a lapel
+      // entry to a player with no lapel, with worse timing. The stay-and-survive fallback below is
+      // the floor, so this can never empty the tray.
+      if (!rsOk[k]) continue;
+      if (seen.has(n.t)) continue; seen.add(n.t);
       escapes.push({ idx: k, node: n, res: k });
     }
     // fallback: stay-and-survive returns to current position
@@ -14824,7 +14918,7 @@ class Component extends DCLogic {
     let posIdx = idx;
     if (n.ty !== "positions") {
       let p = -1;
-      for (const k of this.adj[idx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
+      for (const k of this.adj[idx]) { if (this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)) { p = k; break; } }
       posIdx = p >= 0 ? p : -1;
     }
     if (posIdx < 0) return;

@@ -318,13 +318,13 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Submissions/Belly Down Armbar/from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
 
-- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (0% of attempts)
+- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (gi only)
 
 - **[[Submissions/Boston Crab/from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
 
 - **[[Submissions/Kimura/from Turtle/Attacker|Kimura from Turtle]]** (4% of attempts)
 
-- **[[Submissions/Loop Choke/from Turtle/Attacker|Loop Choke from Turtle]]** (0% of attempts)
+- **[[Submissions/Loop Choke/from Turtle/Attacker|Loop Choke from Turtle]]** (gi only)
 
 - **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (2% of attempts)
 
