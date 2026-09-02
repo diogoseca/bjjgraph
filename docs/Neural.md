@@ -355,12 +355,26 @@ losing as it is keen to win. The rungs are built **from the wire** (`evLam`), so
 table renders no row. The dial re-orders hands; it cannot change which moves you are offered, and
 it cannot move the clock. `_evLamIdx()` is read once per deal.
 
-**Where the roll starts** is a user setting (Settings → Rolling, above Uniform; v1.165.0): Standing
-· Anywhere (default — the historical draw: first-impression bias, then uniform) · My weak spots
-(LOCKED, "coming soon"; written by nothing, read as Anywhere). `startFrom()` is the one reader;
+**Where the roll starts** is a user setting (Settings → Rolling, above Uniform; v1.165.0, third
+pill unlocked v1.166.0): Standing · Anywhere (default — the historical draw: first-impression
+bias, then uniform) · **My weak spots** — each roll opens on a spot FLOW says your game leaks
+from, where a spot is a **position + seat pair, never a position alone** (owner, 2026-09-02).
+`_weakStates` maps each `weakSpots().ranked` deck — the SAME list the pane's "N weak spots"
+prints, never a second ranking — to `(posId, role)`: a position deck by its key's own suffix, a
+technique deck by `fromPositionId` + `fromRole` with a `|Defender` deck flipping the seat. It
+keeps the `leaking` tier (widened to the top 8 mapped rows when that tier maps fewer than 3),
+dedupes on `posId + "/" + role` so two cracks in one state do not double its weight, and
+publishes the window as `_lastWeakWindow` for the specs. `_weakStart` then takes ONE
+`rng("start-pos")` draw, inverse-CDF weighted by FLOW gain — the biggest leak opens most often,
+never every time — and `startRoll` overrides `playerRole` with the spot's own seat (the role draw
+is still consumed, so draw counts are identical in every mode). `startFrom()` is the one reader;
 `startRoll` consults it after the `rigStart` rail and before the first-impression branch, still
-consuming ONE `start-pos` value per roll. A wire with no playable standing-position falls back to
-the draw and emits `start_from_fallback`. Pinned by `e2e/journeys/start-from.spec.ts`.
+consuming ONE `start-pos` value per roll. An empty window (no ranking, or nothing maps into the
+playable pool) and a wire with no playable standing-position both fall back to the ordinary draw
+and emit `start_from_fallback {want, have}`. The Settings note under "My weak spots" names the
+live spot — the crack, its seat, and where the roll opens — from the same window, and the opening
+toast reads "Your weak spot: &lt;crack&gt;". Pinned by `e2e/journeys/start-from.spec.ts`
+(10 journeys, 8 `@curated`).
 
 **The honesty gap, still open.** The shipped `opponentDefend` iterates hub adjacency with **no role
 filter and no origin filter** and never reads `attemptProbability`. Only ~12% of what it may play

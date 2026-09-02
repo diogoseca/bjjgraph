@@ -31,19 +31,17 @@ const NG_LOSS_PRESETS = {
   2: ["Slightly cautious", "the default. Getting caught counts about twice what finishing pays — roughly how most people actually feel. Careful, not passive."],
   4: ["Self-defence", "the street. Getting caught counts four times what finishing pays, so the ranking prefers staying out of trouble over gambling for the tap."],
 };
-// WHERE THE ROLL STARTS (v1.165.0) — the Settings → Rolling row, in render order: [value, label,
-// note]. Owner: "the user can select how it starts, whether to start from random, from standing, or
-// from the position most beneficial for the user to learn to complement his game. That one is
-// coming soon." The third row is that promise. It RENDERS (locked) and is never written: a choice
-// the player can see is a roadmap, a choice that appears one day is a surprise. `startFrom()` is
-// the one reader and resolves it to "random" if a synced blob ever carries it. Copy rule from the
-// same brief: it should feel PERSONAL — "my weak spots", not "biggest gaps in the game".
+// WHERE THE ROLL STARTS (v1.165.0, third pill shipped v1.166.0) — the Settings → Rolling row, in
+// render order: [value, label, note]. Owner: "the user can select how it starts, whether to start
+// from random, from standing, or from the position most beneficial for the user to learn to
+// complement his game … or something that feels personal like my weak spots." All three are LIVE.
+// Copy rule from the same brief: it should feel PERSONAL — "my weak spots", not "biggest gaps in
+// the game" — and never the model's words (no "FLOW", "gain", "tier", "kernel") on this surface.
 const NG_START_FROM = [
   ["standing", "Standing", "Every roll opens on the feet, the way a match does. You work your way to the ground."],
   ["random", "Anywhere", "A random position each roll, top or bottom, so the whole graph gets trained \u2014 the default."],
-  ["weak", "My weak spots", "Coming soon \u2014 each roll opens where your game leaks most, so you drill what is actually costing you."],
+  ["weak", "My weak spots", "Each roll opens on a spot your game leaks from \u2014 the position and the seat \u2014 weighted toward the biggest leak, so you drill what is actually costing you."],
 ];
-const NG_START_LOCKED = { weak: true };
 // EDGE saturates its palette at |15|, not `potColor`'s default 45. MEASURED over all 1246 emitted
 // (state,move) pairs: p5 −14 · median 0 · p95 +12, and 93.3% inside ±15 — so on the 45 scale the
 // whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
@@ -5378,10 +5376,10 @@ class Component extends DCLogic {
       dnote.style.cssText = "font-size:11px;color:#69748f;line-height:1.5;margin:-14px 0 22px;";
       dnote.textContent = "Harder opponents arrive with the ladder \u2014 Normal is the calibrated one.";
       body.appendChild(dnote);
-      // ── WHERE THE ROLL STARTS (v1.165.0) ── three pills from NG_START_FROM, one of them LOCKED.
-      // segBtn attaches no handler to a locked pill, so the promised choice cannot be written from
-      // here; its own "coming soon" line sits under the row so nobody has to click to learn that.
-      // The note box describes the ACTIVE choice, the way the loss-aversion row does.
+      // ── WHERE THE ROLL STARTS (v1.166.0) ── three pills from NG_START_FROM, all LIVE. The
+      // note box describes the ACTIVE choice, the way the loss-aversion row does; under "My weak
+      // spots" it also names the live spot — the crack and where the roll opens — read from the
+      // SAME window the draw uses (`_weakStates`), never a second ranking (§6.5).
       const sf = document.createElement("div");
       sf.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
       sf.setAttribute("data-settings-start", "1");
@@ -5390,14 +5388,12 @@ class Component extends DCLogic {
       sseg.style.cssText = "display:flex;gap:9px;flex-wrap:wrap;margin-top:12px;";
       const sfCur = this.startFrom();
       for (const [v, label] of NG_START_FROM) {
-        const locked = !!NG_START_LOCKED[v];
-        const b = this.segBtn(label, v === sfCur, locked, () => {
+        const b = this.segBtn(label, v === sfCur, false, () => {
           this.set("startFrom", v);
           this.track("neural_start_from_set", { mode: v });
           this.renderSettings();
         });
         b.setAttribute("data-start-pick", v);
-        if (locked) { b.setAttribute("data-start-locked", "1"); b.title = "Coming soon"; }
         sseg.appendChild(b);
       }
       sf.appendChild(sseg);
@@ -5406,15 +5402,24 @@ class Component extends DCLogic {
       sfNote.setAttribute("data-start-note", sfRow[0]);
       sfNote.style.cssText = "font-size:12px;color:#93a0bd;line-height:1.5;margin-top:11px;padding:9px 11px;background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:9px;";
       sfNote.innerHTML = '<b style="color:#cbd4e6;">' + sfRow[1] + '</b> \u2014 ' + sfRow[2];
-      sf.appendChild(sfNote);
-      for (const [v, label, note] of NG_START_FROM) {
-        if (!NG_START_LOCKED[v]) continue;
-        const soon = document.createElement("div");
-        soon.setAttribute("data-start-soon", v);
-        soon.style.cssText = "font-size:11px;color:#69748f;line-height:1.5;margin-top:8px;";
-        soon.innerHTML = '<b style="color:#8b97b0;">' + label + '</b> \u2014 ' + note;
-        sf.appendChild(soon);
+      if (sfCur === "weak") {
+        // The live spot, in the player's words (no "FLOW", "gain", "tier", "kernel"): the CRACK
+        // by name — a technique deck names the technique, a position deck the position — and the
+        // state + seat the roll opens on. textContent, because the names come from the wire.
+        const win = this._weakStates(this._posIdx || []);
+        const live = document.createElement("div");
+        live.setAttribute("data-start-now", "1");
+        live.style.cssText = "margin-top:7px;color:#cbd4e6;";
+        if (win.length) {
+          const w0 = win[0];
+          const side = /\|Attacker$/.test(w0.deck) ? "attacking" : /\|Defender$/.test(w0.deck) ? "defending" : w0.role;
+          live.textContent = "Right now: " + w0.deck.split("|")[0] + " (" + side + ") \u2014 opens " + this.posFamily(this.nodes[w0.idx].t) + ", " + w0.role + ".";
+        } else {
+          live.textContent = "Until the model has your first drills, this opens Anywhere.";
+        }
+        sfNote.appendChild(live);
       }
+      sf.appendChild(sfNote);
       body.appendChild(sf);
       // uniform — the GI/NO-GI choice lives HERE and only here (v1.95.3, owner: the pane
       // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
@@ -13306,14 +13311,14 @@ class Component extends DCLogic {
   // the twenty most-travelled, while ~17 states stay genuinely likely. `floor` mixes uniform back
   // in so all 136 keep a real chance: the draw is BIASED, never NARROWED, and never repetitive.
   get START_BIAS() { return { gamma: 1.5, floor: 0.02 }; }
-  // ── WHERE THE ROLL STARTS (v1.165.0) ── the ONE reader of the `startFrom` setting.
-  // "random" is the historical draw below (first-impression bias, then uniform) and the default.
-  // "standing" opens EVERY roll on Standing Position. "weak" is the promised third choice and is
-  // NOT SHIPPED: it reads as "random" here rather than inventing a ranking. When it ships it must
-  // be keyed on posId + "/" + role — `startPosTraffic` is top-only (§6.6) and `weakSpots()` ranks
-  // DECKS, which are technique families, not states to stand in; the mapping IS the work.
+  // ── WHERE THE ROLL STARTS (v1.165.0; "weak" shipped v1.166.0) ── the ONE reader of the
+  // `startFrom` setting. "random" is the historical draw below (first-impression bias, then
+  // uniform) and the default. "standing" opens EVERY roll on Standing Position. "weak" opens on a
+  // spot FLOW says your game leaks from — `_weakStart` below. The seat is keyed on
+  // posId + "/" + role, which is why `startPosTraffic` (top-only, §6.6) is never read here:
+  // `weakSpots()` ranks DECKS with a seat, and `_weakStates` maps each to its state + seat.
   // A settings key is forever (`_pullAndMerge` has no tombstone): retire this by ceasing to read it.
-  startFrom() { return this.get("startFrom", "random") === "standing" ? "standing" : "random"; }
+  startFrom() { const v = this.get("startFrom", "random"); return v === "standing" || v === "weak" ? v : "random"; }
   // The standing site's index in the playable pool, or -1 with a NAMED beat. The bare slug maps to
   // the rep member (`_posSlugIndex`, top owns it), which is the entry `_posIdx` holds — so on the
   // shipped wire this never falls back. If a wire without a playable standing-position ever arrives
@@ -13324,6 +13329,63 @@ class Component extends DCLogic {
     if (ix != null && pool.indexOf(ix) >= 0) return ix;
     this.fx("start_from_fallback", { want: "standing", have: ix == null ? "no-node" : "not-playable" });
     return -1;
+  }
+  // ── MY WEAK SPOTS (v1.166.0) ── deck → state + seat, PUBLISHED. A weak spot is a POSITION +
+  // SEAT pair, never a position alone (owner, 2026-09-02): a leaking `Kimura from Mount|Defender`
+  // seats you BOTTOM of mount. This maps each `weakSpots().ranked` row — the SAME list the pane's
+  // "N weak spots" prints, never a second ranking (§6.5) — to the playable pool:
+  //   position deck  → its own posId; the seat is the key's own suffix (`|Bottom` → bottom).
+  //   technique deck → `fromPositionId` + `fromRole`; a `|Defender` deck FLIPS the seat, because
+  //                    the defender stands in the same position on the other side.
+  // Rows kept: the whole `leaking` tier, widened to the top 8 mapped rows when that tier maps
+  // fewer than 3. Deduped on posId + "/" + role so two cracks in one state do not double its
+  // weight (§6.6, the `_ev` doubling trap). The result is published as `this._lastWeakWindow`
+  // (§6.3: specs read what the app published, they never re-rank). `[]` when nothing maps.
+  _weakStates(pool) {
+    const out = [];
+    const seen = new Set();
+    let widen = null; // decided ONCE, at the end of the leaking run: widen only if it mapped < 3
+    for (const r of (this.weakSpots().ranked || [])) {
+      if (r.tier !== "leaking") {
+        if (widen == null) widen = out.length < 3;
+        if (!widen || out.length >= 8) break;
+      }
+      const i = this.nodeForKey(r.deck); if (i < 0) continue;
+      const n = this.nodes[i];
+      let posId, role;
+      if (n.ty === "positions") { posId = n.posId; role = /\|Bottom$/.test(r.deck) ? "bottom" : "top"; }
+      else {
+        posId = n.fromPositionId; role = String(n.fromRole || "").toLowerCase();
+        if (role !== "top" && role !== "bottom") continue;
+        if (/\|Defender$/.test(r.deck)) role = role === "top" ? "bottom" : "top";
+      }
+      if (!posId) continue;
+      const idx = this._posSlugIndex ? this._posSlugIndex.get(String(posId).toLowerCase()) : null;
+      if (idx == null || pool.indexOf(idx) < 0) continue;
+      const key = String(posId).toLowerCase() + "/" + role;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ idx: idx, role: role, deck: r.deck, w: r.gain });
+    }
+    return (this._lastWeakWindow = out);
+  }
+  // ONE `rng("start-pos")` draw, inverse-CDF over the window's FLOW gains (all positive by
+  // construction — tiers hold positive gain only): the biggest leak opens most often, never every
+  // time. An empty window returns null WITHOUT drawing, with a NAMED beat (§6.6): the caller falls
+  // through to the ordinary draw, which takes its own single value — so exactly one `start-pos`
+  // per startRoll holds in every mode, and the fallback is chosen before any draw.
+  _weakStart(pool) {
+    const win = this._weakStates(pool);
+    if (!win.length) {
+      this.fx("start_from_fallback", { want: "weak", have: (this.weakSpots().ranked || []).length ? "no-state" : "no-ranking" });
+      return null;
+    }
+    let total = 0;
+    for (const r of win) total += r.w;
+    const u = this.rng("start-pos");
+    let acc = 0;
+    for (const r of win) { acc += r.w / total; if (u < acc) return r; }
+    return win[win.length - 1]; // float slack at u→1
   }
   // Returns {idx, weighted} — `weighted:false` means the traffic table was not there yet and this is
   // the historical uniform pick. The CALLER needs to know, because a degraded draw must not be
@@ -13358,6 +13420,7 @@ class Component extends DCLogic {
     this._roam = false; // any fresh roll leaves free roam
     this._lastOutcome = null; this._lastFinish = null;
     this.rollLog = []; this._lastActor = null;
+    this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
@@ -13378,10 +13441,11 @@ class Component extends DCLogic {
     const rsOk = this._rulesetMask();
     const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && rsOk[n.idx] && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions" && rsOk[k])).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
-    let standingAt = -1;
+    let standingAt = -1, weakAt = null;
+    const sfMode = this.startFrom();
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
-    } else if (this.startFrom() === "standing" && (standingAt = this._standingStart(positions)) >= 0) {
+    } else if (sfMode === "standing" && (standingAt = this._standingStart(positions)) >= 0) {
       // WHERE THE ROLL STARTS = Standing (v1.165.0). The test rail above still outranks it, so
       // `land()` keeps working on a profile that carries the setting. The `start-pos` draw is
       // CONSUMED and ignored: exactly ONE value per startRoll in every mode, so a rigged queue
@@ -13390,6 +13454,13 @@ class Component extends DCLogic {
       // that debt is about, so switching back to Anywhere later still gets the biased first draw.
       this.rng("start-pos");
       this.currentPos = standingAt;
+    } else if (sfMode === "weak" && (weakAt = this._weakStart(positions))) {
+      // WHERE THE ROLL STARTS = My weak spots (v1.166.0). The spot is a position + SEAT:
+      // `rng("role")` was already drawn above — left in place so draw counts stay identical in
+      // every mode — and OVERRIDDEN by the spot's own seat. A null from `_weakStart` (no ranking,
+      // or nothing maps into the pool) falls through to the ordinary draw below, which takes its
+      // own single `start-pos` value: exactly one per startRoll still holds in every mode.
+      this.currentPos = weakAt.idx; this.playerRole = weakAt.role; this._startSpot = weakAt.deck;
     } else
     // FIRST-EVER ROLL: bias the opening state toward one a newcomer might have a NAME for.
     // The `withDeck` filter this replaces was meant to do that and was a NO-OP — all 136 playable
@@ -13427,7 +13498,9 @@ class Component extends DCLogic {
     this._prefetchLandDeck(this.currentPos); // the intro is the deck's runway (v1.106.6)
     const lad = this.ladderState();
     this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
-    this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
+    // A weak-spots opening names the CRACK it is about — the technique or the position — instead
+    // of the generic restart kicker; the rest of the toast is unchanged.
+    this.showCenter(this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0] : "Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
     this.focusIdx = this.currentPos; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);

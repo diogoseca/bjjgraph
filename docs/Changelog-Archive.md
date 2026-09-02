@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
 - **v1.165.2** — [THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT](#v1-165-2-the-last-86-and-the-differential-that-c)
 - **v1.163.0** — [THE REFERENCE SURFACES DO NOT PLAY](#v1-163-0-the-reference-surfaces-do-not-play)
@@ -6082,9 +6083,11 @@ completeness assumption the data never made.
 
 ## v1.165.0 — WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE
 
-> **Status:** Current. Gated by `e2e/journeys/start-from.spec.ts` (5 journeys, 3 `@curated`);
-> 7 of 7 mutants killed on the shipped build (table below). Built on v1.148.0 as v1.149.0,
-> rebased onto v1.164.x at push time — the app merged clean, the version and the index did not.
+> **Status:** Partially superseded by v1.166.0, which UNLOCKED the third pill ("My weak spots"
+> ships; the locked-pill claims below are historical). Gated by `e2e/journeys/start-from.spec.ts`
+> (5 journeys, 3 `@curated` at this version); 7 of 7 mutants killed on the shipped build (table
+> below). Built on v1.148.0 as v1.149.0, rebased onto v1.164.x at push time — the app merged
+> clean, the version and the index did not.
 
 **Owner:** "the user can select how it starts, whether to start from random, from standing, or from
 the position most beneficial for the user to learn to complement his game. That one is coming
@@ -6136,3 +6139,73 @@ not chased.
 | Standing outranks the `rigStart` rail | a rigged start outranks Standing… | killed |
 | `fx()` in the pill's onClick | changes nothing you have earned | killed |
 | row not appended | the row ships… | killed |
+
+---
+
+<a id="v1-166-0-a-roll-opens-where-your-game-leaks-seat"></a>
+
+## v1.166.0 — A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL
+
+> Built by omp in the `feature-start-from-weak-spots` herdr worktree, off `origin/dev` at
+> v1.165.0 (`83a6ae2f7`). Unlocks the third "Where the roll starts" pill that v1.165.0 shipped
+> LOCKED.
+
+**Owner, on what a weak spot IS (2026-09-02):** "A weak spot could be not only a position but
+also a transition or a submission that's really frequently visited by your game but you're not
+getting right, and that's messing up your mesh. That should also be the logic behind the 'N weak
+spots' in the side panel … sometimes one crack in the gameplan is enough. Newbs need at least one
+gameplan — we help by pointing out the chinks in your armor, the weakest point that doesn't let
+you defend and disallows you to attack effectively." And the definition that shaped the design:
+**a spot is a position + seat (top/bottom) pair, not a position alone** — a leaking
+`Kimura from Mount|Defender` seats you bottom of mount.
+
+**One list, one seam.** The pane's "N weak spots" and this opening read the SAME ranking through
+`weakSpots()` (FLOW, v1.138.0) — no second ranking (§6.5). `_weakStates(pool)` maps each
+`ranked` deck to a state + seat: a position deck by its key's own suffix (`Mount|Bottom` →
+bottom of mount), a technique deck by `fromPositionId` + `fromRole` with a `|Defender` deck
+flipping the seat (the defender stands in the same position on the other side). It keeps the
+`leaking` tier, widened to the top 8 mapped rows when that tier maps fewer than 3 (measured on a
+fresh profile: leaking mapped exactly 1 — `Side Control|Top` — so the widening is the common
+case, window n=8, 4 of 8 rows bottom-seated), dedupes on `posId + "/" + role` so two cracks in
+one state do not double its weight (§6.6, the `_ev` doubling shape), and PUBLISHES the window as
+`_lastWeakWindow` so the specs read the render's output rather than re-ranking (§6.3).
+
+**One draw, weighted.** `_weakStart` takes ONE `rng("start-pos")` value, inverse-CDF over the
+window's FLOW gains (positive by construction — tiers hold positive gain only): the biggest leak
+opens most often, never every time (fresh profile: top share 0.289 vs uniform 0.125).
+`startRoll` then OVERRIDES `playerRole` with the spot's seat — `rng("role")` is still drawn, so
+draw counts stay identical in every mode — and the toast reads "Your weak spot: <crack>". An
+empty window fires `start_from_fallback {want:"weak", have:"no-ranking"|"no-state"}` WITHOUT
+drawing, and the ordinary draw below takes its own single value: exactly one `start-pos` per
+`startRoll` still holds everywhere, and the fallback is chosen before any draw (§6.6).
+`startFrom()` now returns `weak`; the seat is keyed on `posId + "/" + role`, which is why
+`startPosTraffic` (top-only, §6.6) is never read here.
+
+**Settings.** `NG_START_LOCKED`, the `data-start-locked` branch and the `data-start-soon` line
+are deleted; the weak note box appends the live spot from `_weakStates(pool)[0]` — "Right now:
+<crack> (<attacking|defending|top|bottom>) — opens <position>, <top|bottom>." — or "Until the
+model has your first drills, this opens Anywhere." on an empty window. Player's words only: no
+"FLOW", "gain", "tier", "kernel" (the spec's jargon sweep now includes all four).
+
+**Mutation** (each rebuilt and run against its named journey; 6 of 6 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| role not overridden | a bottom-seat spot seats you bottom… | killed |
+| Defender not flipped | …a Defender crack seats you on the other side | killed |
+| window uniform instead of weighted | the opening draw is weighted by the leak, not uniform | killed |
+| fallback `fx` deleted | an empty ranking still starts the roll… and says so | killed |
+| weak pill locked again | the row ships… all three live | killed |
+| `_lastWeakWindow` not deduped | two cracks in one state count once… | killed |
+
+The dedupe and Defender-flip mutants are killable only on an AUTHORED ranking — the fresh
+profile's natural window need not contain a duplicate or open on a Defender deck — so journey 10
+monkeypatches `weakSpots()` with three real wire decks (found by reading the nodes, never
+invented) and drives the unmodified map: three cracks, two states, weight dropped not summed.
+
+**Spec:** `e2e/journeys/start-from.spec.ts`, 5 → 10 journeys (8 `@curated`): the flipped control
+journey (all pills live, no "coming soon" anywhere), seat-from-the-wire, bottom-seat reachability
+over a rigged top role draw, a 400-step `u` sweep in the `sweepFirstStart` shape (±0.03 of
+`w0/Σw`, >0.05 from `1/n`, skip-with-reason if the window cannot distinguish them), the loud
+no-ranking fallback, and the crafted dedupe/flip journey. "Nothing you have earned" now clicks
+`weak` too.
