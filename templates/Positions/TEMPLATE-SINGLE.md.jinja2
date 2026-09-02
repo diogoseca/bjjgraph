@@ -16,14 +16,14 @@ description: "{{ data.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Use {{ data.name.split('|')[0].strip() }}",
-  "description": "Complete guide to {{ data.name.split('|')[0].strip().lower() }} in BJJ.",
+  "name": {{ ("How to Use " ~ (data.name.split('|')[0].strip())) | jsonstr }},
+  "description": {{ ("Complete guide to " ~ (data.name.split('|')[0].strip().lower()) ~ " in BJJ.") | jsonstr }},
   "step": [
     {%- for transition in data.transitions[:8] %}
     {
       "@type": "HowToStep",
-      "name": "Execute {{ transition.transition }}",
-      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
+      "name": {{ ("Execute " ~ (transition.transition)) | jsonstr }},
+      "text": {{ ("From this position, attempt " ~ (transition.transition) ~ ". This technique is attempted in " ~ (transition.attempt_probability) ~ "% of exchanges from this position.") | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -41,10 +41,10 @@ description: "{{ data.description }}"
     {%- for error in data.common_errors[:6] %}
     {
       "@type": "Question",
-      "name": "What happens if you {{ error.error.lower() }}?",
+      "name": {{ ("What happens if you " ~ (error.error.lower()) ~ "?") | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ error.consequence }} The correct approach is: {{ error.correction }}"
+        "text": {{ ((error.consequence) ~ " The correct approach is: " ~ (error.correction)) | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -75,7 +75,7 @@ description: "{{ data.description }}"
   "mainEntityOfPage": {
     "@type": "CollectionPage",
     "name": {{ data.family | jsonstr }},
-    "url": "https://bjjgraph.org/Families/{{ data.family | slugify }}"
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (data.family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -103,7 +103,7 @@ description: "{{ data.description }}"
       "@type": "ListItem",
       "position": 3,
       "name": {{ data.name.split('|')[0].strip() | jsonstr }},
-      "item": "https://bjjgraph.org/Positions/{{ data.name.split('|')[0].strip().replace(' ', '-') }}"
+      "item": {{ ("https://bjjgraph.org/Positions/" ~ (data.name.split('|')[0].strip().replace(' ', '-'))) | jsonstr }}
     }
   ]
 }
@@ -134,7 +134,7 @@ description: "{{ data.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}

@@ -16,8 +16,12 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{name}} in BJJ",
-  "description": "Step-by-step guide for {{name}} from {{from_position}}. Possible outcomes: {% for outcome in outcomes %}{{outcome.to}} ({{outcome.probability}}%){{ ', ' if not loop.last else '' }}{% endfor %}.",
+  "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
+  {#- the loop is built OUTSIDE the string so jsonstr can quote the whole value; ', '.join == the
+      old per-item `', ' if not loop.last` joiner #}
+  {%- set _outcome_bits = [] %}
+  {%- for outcome in outcomes %}{% set _ = _outcome_bits.append((outcome.to) ~ " (" ~ (outcome.probability) ~ "%)") %}{% endfor %}
+  "description": {{ ("Step-by-step guide for " ~ (name) ~ " from " ~ (from_position) ~ ". Possible outcomes: " ~ (_outcome_bits | join(", ")) ~ ".") | jsonstr }},
   "step": [
     {%- for step in execution_steps[:8] %}
     {
@@ -58,7 +62,7 @@ description: "{{description}}"
   "@type": "WebPage",
   "name": {{ name | jsonstr }},
   "description": {{ description | jsonstr }},
-  "url": "https://bjjgraph.org/Transitions/{{name.replace(' ', '-')}}",
+  "url": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-'))) | jsonstr }},
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -74,7 +78,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Transitions/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-'))) | jsonstr }}}
   ]
 }
 </script>

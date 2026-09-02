@@ -64,7 +64,7 @@ description: "{{ description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
@@ -98,12 +98,12 @@ description: "{{ description }}"
   "@type": "FAQPage",
   "mainEntity": [
 {%- if summary %}
-    { "@type": "Question", "name": "What is the {{ name }}?", "acceptedAnswer": { "@type": "Answer", "text": {{ summary | tojson }} } },
+    { "@type": "Question", "name": {{ ("What is the " ~ (name) ~ "?") | jsonstr }}, "acceptedAnswer": { "@type": "Answer", "text": {{ summary | tojson }} } },
 {%- endif %}
 {%- if variants_comparison %}
-    { "@type": "Question", "name": "What positions can you finish the {{ name }} from?", "acceptedAnswer": { "@type": "Answer", "text": {{ ("You can finish the " ~ name ~ " from " ~ (faqns.positions | unique | join(", ")) ~ ".") | tojson }} } },
+    { "@type": "Question", "name": {{ ("What positions can you finish the " ~ (name) ~ " from?") | jsonstr }}, "acceptedAnswer": { "@type": "Answer", "text": {{ ("You can finish the " ~ name ~ " from " ~ (faqns.positions | unique | join(", ")) ~ ".") | tojson }} } },
 {%- endif %}
-    { "@type": "Question", "name": "Is the {{ name }} dangerous?", "acceptedAnswer": { "@type": "Answer", "text": {{ (name ~ " targets the " ~ target_area ~ ". Primary risk: " ~ safety_considerations.injury_risks[0].injury ~ ". Tap early and release immediately on the tap.") | tojson }} } }
+    { "@type": "Question", "name": {{ ("Is the " ~ (name) ~ " dangerous?") | jsonstr }}, "acceptedAnswer": { "@type": "Answer", "text": {{ (name ~ " targets the " ~ target_area ~ ". Primary risk: " ~ safety_considerations.injury_risks[0].injury ~ ". Tap early and release immediately on the tap.") | tojson }} } }
   ]
 }
 </script>

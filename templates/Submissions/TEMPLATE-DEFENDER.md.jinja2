@@ -17,14 +17,14 @@ description: "{{ defender.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend {{ name }} in BJJ",
-  "description": "Step-by-step guide for defending and escaping {{ name }} in BJJ.",
+  "name": {{ ("How to Defend " ~ (name) ~ " in BJJ") | jsonstr }},
+  "description": {{ ("Step-by-step guide for defending and escaping " ~ (name) ~ " in BJJ.") | jsonstr }},
   "step": [
     {%- for option in defender.defensive_options[:6] %}
     {
       "@type": "HowToStep",
       "name": {{ option.action | jsonstr }},
-      "text": "{{ option.when_to_use }}{% if option.if_successful %} If successful: {{ option.if_successful }}{% endif %}",
+      "text": {{ ((option.when_to_use) ~ ((" If successful: " ~ option.if_successful) if option.if_successful else "")) | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -59,7 +59,7 @@ description: "{{ defender.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ name }} Defender",
+  "name": {{ ((name) ~ " Defender") | jsonstr }},
   "description": {{ defender.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
@@ -80,7 +80,7 @@ description: "{{ defender.description }}"
   "mainEntityOfPage": {
     "@type": "CollectionPage",
     "name": {{ family | jsonstr }},
-    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -108,13 +108,13 @@ description: "{{ defender.description }}"
       "@type": "ListItem",
       "position": 3,
       "name": {{ name | jsonstr }},
-      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}"
+      "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-'))) | jsonstr }}
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Defender",
-      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}/Defender"
+      "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-')) ~ "/Defender") | jsonstr }}
     }
   ]
 }
@@ -145,7 +145,7 @@ description: "{{ defender.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}

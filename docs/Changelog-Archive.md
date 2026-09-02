@@ -34,6 +34,7 @@ given and the label is kept as an alias — **the labels in this document are no
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
+- **v1.165.2** — [THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT](#v1-165-2-the-last-86-and-the-differential-that-c)
 - **v1.163.0** — [THE REFERENCE SURFACES DO NOT PLAY](#v1-163-0-the-reference-surfaces-do-not-play)
 - **v1.155.3** — [THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION](#v1-155-3-the-system-that-never-spoke-and-the-miss)
 - **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
@@ -5738,6 +5739,45 @@ diagnosis. Regenerate before you attribute.
 4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.
 
 ---
+
+## v1.165.2 — THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT
+
+v1.163.0 fixed the JSON-LD escaping class for the 89 whole-value interpolations and left 86
+literal+expression values raw, gated but breakable, with the exposure printed on demand. Owner,
+quoting that report back: *"can you improve that?"* This is the improvement: **the exposure is
+zero and the class is now un-reintroducible**, not merely detected.
+
+**THE TRANSFORM.** `"lit {{ e1 }} lit {{ e2 }}"` becomes
+`{{ ("lit " ~ (e1) ~ " lit " ~ (e2)) | jsonstr }}` — every expression parenthesised (a filter
+inside one must not capture the concatenation), every literal segment JSON-DECODED before
+re-emission (an author-escaped `\"` must round-trip once, not twice). Survey and rewrite run in
+ONE pass over ONE pattern set, and the count is asserted against the independent figure — the
+v1.163.0 lesson, now structural.
+
+**THE FIRST ATTEMPT SHIPPED JINJA TAGS INTO 1,328 PAGES, and the parse gate said nothing.** The
+survey had only ever asked about `{{ }}`; three values also carried STATEMENTS — two
+`{% if option.if_successful %}` and one `{% for outcome in outcomes %}` — and the transform
+treated the tags as literal text, so 1,328 pages' schema said, in valid JSON,
+`...grip{% if option.if_successful %} If successful: ...`. `check_schema_jsonld.py` stayed GREEN:
+the output parsed; it was semantically wrong, not syntactically. **A parse gate proves syntax;
+only a differential proves content.** The decode-equality differential — every block of all 4,603
+files parsed and compared against a pre-change baseline of the decoded objects — is what caught
+it: 21,545 compared, 1,328 changed, all one cause. The three statement values were converted by
+hand (inline-if for the pair; a `{% set %}`-built list joined outside the string for the loop,
+`", " | join` standing in for the old `', ' if not loop.last` joiner) and the transform now
+hard-fails on `{%`.
+
+**THE LANDING: 21,545 blocks compared, 0 decoded changes, 0 files changed — byte-identical.**
+Today's corpus needed no different bytes (the one page that did was fixed in v1.163.0), so the
+whole rewrite is prophylaxis: the construction that could break is no longer written anywhere.
+
+**THE GATE IS NOW A RATCHET, two layers.** Layer 1, at the TEMPLATE, before any regeneration: no
+quoted string inside an ld+json block may carry `{{` or `{%` at all — not colon-anchored, because
+the colon anchor in the first survey is exactly why the statement values were found late. Floors
+on files (10) and blocks (25) so a scan that matches nothing fails as itself. Layer 2 unchanged:
+every emitted block parses. Mutants: a raw interpolation reintroduced → red naming the template
+and the value · a statement reintroduced → red · the scan pointed at nothing → floors fire.
+`--report-exposure` now prints the ratchet detail and exits 1 on any hit.
 
 ## v1.163.0 — THE REFERENCE SURFACES DO NOT PLAY
 

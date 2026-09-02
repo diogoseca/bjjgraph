@@ -15,14 +15,14 @@ description: "{{ bottom.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Escape {{ bottom.name }}",
-  "description": "Step-by-step guide to escaping and defending {{ bottom.name.replace(' Bottom', '').replace(' (Defense)', '') }} position in BJJ.",
+  "name": {{ ("How to Escape " ~ (bottom.name)) | jsonstr }},
+  "description": {{ ("Step-by-step guide to escaping and defending " ~ (bottom.name.replace(' Bottom', '').replace(' (Defense)', '')) ~ " position in BJJ.") | jsonstr }},
   "step": [
     {%- for transition in bottom.transitions[:6] %}
     {
       "@type": "HowToStep",
-      "name": "Execute {{ transition.transition }}",
-      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
+      "name": {{ ("Execute " ~ (transition.transition)) | jsonstr }},
+      "text": {{ ("From this position, attempt " ~ (transition.transition) ~ ". This technique is attempted in " ~ (transition.attempt_probability) ~ "% of exchanges from this position.") | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -40,10 +40,10 @@ description: "{{ bottom.description }}"
     {%- for error in bottom.common_errors[:5] %}
     {
       "@type": "Question",
-      "name": "What happens if you {{ error.error.lower() }}?",
+      "name": {{ ("What happens if you " ~ (error.error.lower()) ~ "?") | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ error.consequence }} The correct approach is: {{ error.correction }}"
+        "text": {{ ((error.consequence) ~ " The correct approach is: " ~ (error.correction)) | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -77,7 +77,7 @@ description: "{{ bottom.description }}"
   "mainEntityOfPage": {
     "@type": "CollectionPage",
     "name": {{ family | jsonstr }},
-    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -105,7 +105,7 @@ description: "{{ bottom.description }}"
       "@type": "ListItem",
       "position": 3,
       "name": {{ bottom.name | jsonstr }},
-      "item": "https://bjjgraph.org/Positions/{{ bottom.name.replace(' ', '-') }}"
+      "item": {{ ("https://bjjgraph.org/Positions/" ~ (bottom.name.replace(' ', '-'))) | jsonstr }}
     }
   ]
 }
@@ -136,7 +136,7 @@ description: "{{ bottom.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}

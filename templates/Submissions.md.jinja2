@@ -15,8 +15,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{name}} in BJJ",
-  "description": "Step-by-step guide for {{name}} with safety protocols.",
+  "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
+  "description": {{ ("Step-by-step guide for " ~ (name) ~ " with safety protocols.") | jsonstr }},
   "step": [
     {%- for step in execution_steps[:8] %}
     {
@@ -57,7 +57,7 @@ description: "{{description}}"
   "@type": "WebPage",
   "name": {{ name | jsonstr }},
   "description": {{ description | jsonstr }},
-  "url": "https://bjjgraph.org/Submissions/{{name.replace(' ', '-')}}",
+  "url": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-'))) | jsonstr }},
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -73,7 +73,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Submissions/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-'))) | jsonstr }}}
   ]
 }
 </script>

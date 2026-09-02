@@ -15,8 +15,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Apply {{name}} in BJJ",
-  "description": "Decision framework for applying {{name}}.",
+  "name": {{ ("How to Apply " ~ (name) ~ " in BJJ") | jsonstr }},
+  "description": {{ ("Decision framework for applying " ~ (name) ~ ".") | jsonstr }},
   "step": [
     {%- for step in decision_framework[:6] %}
     {
@@ -36,7 +36,7 @@ description: "{{description}}"
   "@type": "WebPage",
   "name": {{ name | jsonstr }},
   "description": {{ description | jsonstr }},
-  "url": "https://bjjgraph.org/Principles/{{name.replace(' ', '-')}}",
+  "url": {{ ("https://bjjgraph.org/Principles/" ~ (name.replace(' ', '-'))) | jsonstr }},
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -52,7 +52,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Principles", "item": "https://bjjgraph.org/Principles/"},
-    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": "https://bjjgraph.org/Principles/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Principles/" ~ (name.replace(' ', '-'))) | jsonstr }}}
   ]
 }
 </script>
@@ -65,10 +65,10 @@ description: "{{description}}"
     {%- for error in common_errors[:6] %}
     {
       "@type": "Question",
-      "name": "What is a common mistake in {{error.error}}?",
+      "name": {{ ("What is a common mistake in " ~ (error.error) ~ "?") | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{error.consequence}} The correction is: {{error.correction}}"
+        "text": {{ ((error.consequence) ~ " The correction is: " ~ (error.correction)) | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -123,7 +123,7 @@ description: "{{description}}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}

@@ -17,8 +17,8 @@ description: "{{ attacker.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{ name }} in BJJ",
-  "description": "Step-by-step guide for {{ name }} with safety protocols.",
+  "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
+  "description": {{ ("Step-by-step guide for " ~ (name) ~ " with safety protocols.") | jsonstr }},
   "step": [
     {%- for step in attacker.execution_steps[:8] %}
     {
@@ -59,7 +59,7 @@ description: "{{ attacker.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ name }} Attacker",
+  "name": {{ ((name) ~ " Attacker") | jsonstr }},
   "description": {{ attacker.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
@@ -80,7 +80,7 @@ description: "{{ attacker.description }}"
   "mainEntityOfPage": {
     "@type": "CollectionPage",
     "name": {{ family | jsonstr }},
-    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -108,13 +108,13 @@ description: "{{ attacker.description }}"
       "@type": "ListItem",
       "position": 3,
       "name": {{ name | jsonstr }},
-      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}"
+      "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-'))) | jsonstr }}
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Submissions/{{ name.replace(' ', '-') }}/Attacker"
+      "item": {{ ("https://bjjgraph.org/Submissions/" ~ (name.replace(' ', '-')) ~ "/Attacker") | jsonstr }}
     }
   ]
 }
@@ -145,7 +145,7 @@ description: "{{ attacker.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
