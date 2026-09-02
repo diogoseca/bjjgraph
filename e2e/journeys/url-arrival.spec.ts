@@ -163,7 +163,7 @@ test("pressing play is what starts the roll, and only then does it reach history
 test("the front door is untouched — / still deals its own first impression", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
-  await j.advance(6000)
+  await j.advance(10200) // intro 3.2s + the staged arrival 6.2s (v1.168.0) + the deal
   const a = await arrival(page)
   expect(a.seeded, "no node was named, so nothing was seeded").toBe(false)
   expect(a.paused, "and the roll is running, as it always has been").toBe(false)
@@ -255,30 +255,46 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
  * aim drift **13.06 world units → 0.28**. The camera now makes ONE approach to a target that was
  * right from the first frame, instead of chasing one that moves under it.
  */
-test("@curated the opening flight has a fixed aim, not one that drifts as the card mounts", async ({
+test("@curated the opening flight is piecewise-fixed: one wide aim, one landing aim, no drift in either", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.advance(3300) // the intro hands the camera over at 3.2s
 
-  const aims: number[] = []
-  for (let i = 0; i < 14; i++) {
-    await j.advance(400)
-    const cy = await page.evaluate(() =>
-      (window as any).__neural.camTarget ? (window as any).__neural.camTarget.cy : null,
-    )
-    if (cy != null) aims.push(cy)
+  // v1.168.0 CHANGED THE CLAIM, NOT THE BUG THIS SPEC PINS. The staged arrival aims WIDE for
+  // its first beat (NG_ARRIVE_KICKER = 2.0s) and then re-aims ONCE at the landing framing — a
+  // designed retarget at a designed moment. What must still never happen is the original
+  // defect: the aim moving UNDER the flight because the card mounted or the band's cold prior
+  // gave way. So each phase is sampled separately and pinned to zero drift, and phase B's
+  // window deliberately spans enterLand (~9.4s) and the card's mount — the exact event whose
+  // aim-shift this spec exists to forbid.
+  const sample = async (n: number) => {
+    const out: number[] = []
+    for (let i = 0; i < n; i++) {
+      await j.advance(400)
+      const cy = await page.evaluate(() =>
+        (window as any).__neural.camTarget ? (window as any).__neural.camTarget.cy : null,
+      )
+      if (cy != null) out.push(cy)
+    }
+    return out
   }
-  expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
+  const wide = await sample(4) // 3.3s → 4.9s: the kicker beat, camera on the whole graph
+  const gcy = await page.evaluate(() => (window as any).__neural.gcy)
+  expect(wide.length, "the wide beat was sampled").toBeGreaterThan(2)
+  for (const cy of wide)
+    expect(Math.abs(cy - gcy), "beat 1 aims at the graph's own centre, every sample").toBeLessThan(3)
 
-  // THE CLAIM: the aim is settled from the first sample. Not "the camera is instantly there" —
-  // it still flies, and should — but it flies to ONE place.
+  await j.advance(700) // cross the beat boundary at 5.2s
+  const aims = await sample(14) // 5.6s → 11.2s: the approach, the landing AND the card's mount
+  expect(aims.length, "the flight was sampled").toBeGreaterThan(10)
   const drift = Math.max(...aims) - Math.min(...aims)
   expect(
     drift,
-    `the opening aim does not move under the flight (drift ${drift.toFixed(2)} world units across ${aims.length} samples)`,
+    `the landing aim does not move under the flight — card mount included (drift ${drift.toFixed(2)} world units across ${aims.length} samples)`,
   ).toBeLessThan(3)
+  await j.advance(1500) // let the tween settle before measuring where it landed
 
   // ...AND IT LANDS IN THE BAND, not at the screen's middle. Measured against the card that by now
   // exists, which is the surface the band is carved out of.

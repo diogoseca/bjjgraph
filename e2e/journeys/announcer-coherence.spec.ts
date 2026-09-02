@@ -256,7 +256,7 @@ test("@curated the clock running out reveals the answer, says so, and steals not
 }) => {
   const j = journey(page);
   await j.boot("/");
-  await j.advance(6000);
+  await j.advance(10200); // intro 3.2s + the staged arrival 6.2s (v1.168.0) + the deal
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
   const handBefore = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length);

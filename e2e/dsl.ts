@@ -815,8 +815,9 @@ export class Journey {
       if (idx < 0) throw new Error(`position not found: ${pos}`);
       a.rigStart(idx); // test rail: next startRoll begins here (deterministic role=top)
     }, position);
-    // intro (3.2s) + roll-start toast + landing + options dealt — pump until the hand exists
-    for (let i = 0; i < 12; i++) {
+    // intro (3.2s) + the staged arrival (6.2s, v1.168.0: kicker → name → hand-off) + landing +
+    // options dealt — pump until the hand exists
+    for (let i = 0; i < 16; i++) {
       await this.advance(1000);
       const n = await this.page.evaluate(
         () => ((window as W).__neural.optionIdxs || []).length,

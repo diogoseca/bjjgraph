@@ -215,7 +215,14 @@ test("the class a link lit is STILL ON SCREEN seconds after arrival, with the ro
 
   const s = await screen(page);
   expect(s.paused, "premise: the roll is RUNNING (nothing paused it — pane law stands)").toBe(false);
-  expect(s.hand, "premise: a hand is dealt, so the follow-cam has a node it wants").toBeGreaterThan(0);
+  // v1.168.0: the staged arrival runs 6.2s, so at t=6s the roll is live but the hand is not
+  // dealt yet — the 7s lease and a dealt hand no longer overlap. The premise the lease must
+  // beat is "the follow-cam has a node it wants", which is true from startRoll's camFocus on;
+  // the dealt hand is asserted below, after the lease lapses, where it can be true.
+  expect(
+    await page.evaluate(() => { const a: any = (window as any).__neural; return !!a.camFocus && a.currentPos != null; }),
+    "premise: the roll is live, so the follow-cam has a node it wants",
+  ).toBe(true);
   expect(
     s.litOnScreen,
     `${s.lit - s.litOnScreen} of ${s.lit} shared nodes are OFF a ${s.W}x${s.H} screen ${s.t}s ` +
@@ -242,6 +249,7 @@ test("the class a link lit is STILL ON SCREEN seconds after arrival, with the ro
   const before = s.cam;
   await j.advance(9000);
   const after = await screen(page);
+  expect(after.hand, "…and by now the hand IS dealt — the roll the lease was holding off is real").toBeGreaterThan(0);
   expect(
     after.currentOnScreen,
     `once the lease lapses the roll owns the camera again — current node ` +
