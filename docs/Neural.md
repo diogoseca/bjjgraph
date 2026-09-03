@@ -75,6 +75,19 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
+**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
+film row, the card and the hand each collapse from their own ghost ✕ and come back from a dock at
+bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed layer and
+nothing when all are open. The choice is a setting — `landFilm` · `landCard` · `landHand`,
+mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A collapsed
+card is **not built**: no question, no clock, no miss, `land_q_skipped {reason:"collapsed"}`
+(the panic drill skips the same way, `panic_skipped`); expanding it mid-landing asks then. A
+collapsed hand is **dealt and hidden** — the roll waits, digits are dead — escapes included
+(v1.173.0, owner: "if I didn't ask to see outcomes don't show them to me"; the catch is announced
+as "<name> locked in", nothing more). All three collapsed is a graph browser: click a node, the
+ripple lights what it connects to, nothing docks. `setLayer` is the one writer (`_applyLayers`
+follows a cloud pull too).
+
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
 the answer and try again before committing to a grade. **Space toggles** the live block — the app
@@ -148,7 +161,8 @@ only one that has never shown a question, on the current position, with a live d
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
 The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
-anchored by its bottom, so an expanding clip grows upward into empty screen. **A technique's film
+anchored by its bottom, so an expanding clip grows upward into empty screen; it carries its own
+ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. **A technique's film
 lives under its content entry's `perspectives.{attacker,defender}.clips`** (v1.132.1 — measured:
 1 of 1,326 technique entries carry a top-level `clips`, while 2,716 perspective arrays were in the
 chunks all along); the staged side picks the reel, so the escaping orb shows the defense films.
@@ -240,7 +254,8 @@ committing unpauses; the pane law still freezes travel). **The background ladder
 click empty sky once — the card closes (question declined, free) and the hand stays; click again
 — **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
 centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
-roam. **The staged technique's card is the go**: its option card in the hand takes the action
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
 accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
 `_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
 PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
@@ -292,8 +307,8 @@ exploratory red lets go), the green never moves, and none of it emits a beat or 
 ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
-The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the
-platform's job), and by the "see more" hint, which docks off the tray's **measured** top. A drag
+The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
+the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.
@@ -687,7 +702,8 @@ the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a
 number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
-grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_dockOptionHint`, `_bandBot`.
+grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_landDatum` (the hand ✕ docks off it
+too; the film ✕ off the last thumbnail), `_bandBot`.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
 is for surfaces a thumb uses mid-roll — the option hand, the escape hand, the landing card. Glyphs

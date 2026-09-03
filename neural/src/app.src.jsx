@@ -2,6 +2,28 @@
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
 const NG_LAND_MORE_COL = "#7e8aa3";
+// ── THE THREE BOTTOM LAYERS (v1.171.0, owner) ─────────────────────────────────────────────────
+// "If he clicks another node at that instance, then another row of videos and another row of
+// multiple-choice cards will show up and it shouldn't. It should still be collapsed." The film
+// row, the question card and the hand each collapse from their own ghost ✕ and come back from
+// the dock (`_renderLayerDock`), and the choice is a SETTING: sticky across landings, reloads
+// and devices. Three scalar keys rather than one map so two devices toggling two DIFFERENT
+// layers never clobber each other under the per-key LWW merge (`_pullAndMerge`). The keys are
+// forever (§6.6: a settings key cannot be deleted — retire one by ceasing to read it). Readers
+// go through `_layerOn`; the ONE writer is `setLayer`.
+//   · card OFF  = the card is NOT BUILT (never hidden): `_landHidden()` already reads a null
+//                 `_landEl` as hidden, so every key and clock gate goes dead by construction,
+//                 no `land-mc-*` draw is consumed, and the funnel names the gap
+//                 (`land_q_skipped {reason:"collapsed"}`). Expanding mid-landing asks then.
+//   · film OFF  = not built either; a late chunk under a collapsed card still docks the film.
+//   · hand OFF  = DEALT but hidden (`_syncHandLayer`): the deal IS the roll state and its order
+//                 is frozen at deal time (§5), so expanding shows the same hand, instantly.
+//                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
+const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
+const NG_LAYER_ORDER = ["film", "card", "hand"];
+// The 24px ghost button every layer handle is cut from — the landing card's ✕ wrote this inline
+// first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
+const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
 // SPACED-REPETITION INTERVAL LADDER (v1.105.0, owner directive — reverses the old "forgetting is
 // tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
 // rung; any failure resets to rung 0 (1 day).
@@ -118,7 +140,6 @@ class Component extends DCLogic {
   legendMarkRef = React.createRef();
   legendPointRef = React.createRef();
   legendRef = React.createRef();
-  optionHintRef = React.createRef();
   optDetailRef = React.createRef();
   brandFontRef = React.createRef();
   accountRef = React.createRef();
@@ -197,8 +218,7 @@ class Component extends DCLogic {
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
-      legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
-      scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
+      legendPointRef: this.legendPointRef, legendRef: this.legendRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
@@ -700,7 +720,8 @@ class Component extends DCLogic {
         e.preventDefault();
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
-      } else if (!typing && /^[1-9]$/.test(e.key) && this._optPick && this._optList && !this._checkpoint && this.get("cardNumbers", true)) {
+      } else if (!typing && /^[1-9]$/.test(e.key) && this._optPick && this._optList && !this._checkpoint && this.get("cardNumbers", true) && this._handShown()) {
+        // (`_handShown`, v1.171.0: a digit must not open a sheet on a hand the player put away)
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
@@ -827,6 +848,7 @@ class Component extends DCLogic {
     this.prep = {};
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
+    this._renderLayerDock(); // a layer put away last visit shows its dock glyph from the first frame
     this._onChallengeConnectivity = () => {
       const explorer = this.explorerRef.current;
       if (
@@ -1952,6 +1974,7 @@ class Component extends DCLogic {
     if (card._expanded) return;
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
     card._expanded = true; this._expandedClip = card;
+    { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = "hidden"; } // never beside the player's own ✕
     this.fx("short_watched", { id: clip.id });
     const vertical = !!clip.vertical, start = clip.start || 0, end = clip.end || 0;
     const row = card.parentElement;
@@ -2035,6 +2058,7 @@ class Component extends DCLogic {
     card.style.cursor = "pointer";
     card._expanded = false;
     if (this._expandedClip === card) this._expandedClip = null;
+    { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = ""; }
     // the strip just shrank back — re-anchor it, or it stays parked where the player left it
     if (this._landFilmEl && this._landFilmEl.contains(card)) requestAnimationFrame(() => this._dockLandFilm());
   }
@@ -2528,8 +2552,6 @@ class Component extends DCLogic {
       // user: focus falls to <body>, which is where their next click was going anyway.
       if (this._kbNav) setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
     }
-    const hint = this.optionHintRef.current;
-    if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
@@ -4623,7 +4645,6 @@ class Component extends DCLogic {
     // this is where the panel animates from and the visual anchor we must not jump away from.
     const srcRect = srcCard ? srcCard.getBoundingClientRect() : null;
     this._detailSrc = srcCard || null;
-    const hint = this.optionHintRef.current; if (hint) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }
     const offParent = panel.offsetParent || this.wrapRef.current;
     const opr = offParent.getBoundingClientRect();
     const W = Math.min(660, Math.round(window.innerWidth * 0.94));
@@ -5614,6 +5635,31 @@ class Component extends DCLogic {
       lqb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (lqOn ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (lqOn ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       lqb.addEventListener("click", () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); });
       lq.appendChild(lqb); body.appendChild(lq);
+      // ── THE THREE BOTTOM LAYERS (v1.171.0) ── the same rows the ghost ✕ and the dock write,
+      // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
+      const lay = document.createElement("div");
+      lay.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
+      const LAYER_ROWS = [
+        ["film", "Videos", "The film row above the card."],
+        ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
+        ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
+      ];
+      for (const [name, title, sub] of LAYER_ROWS) {
+        const on = this._layerOn(name);
+        const r = document.createElement("div");
+        r.setAttribute("data-layer-row", name);
+        r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
+        r.innerHTML = '<div><div style="font-size:13px;font-weight:600;color:#dfe5f1;">' + title + '</div><div style="font-size:12px;color:#93a0bd;margin-top:2px;line-height:1.5;">' + sub + '</div></div>';
+        const rb = document.createElement("button");
+        rb.setAttribute("data-layer-toggle", name);
+        rb.setAttribute("aria-pressed", on ? "true" : "false");
+        rb.innerHTML = on ? "✓" : "";
+        rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
+        rb.addEventListener("click", () => { this.setLayer(name, !this._layerOn(name), "settings"); this.renderSettings(); });
+        r.appendChild(rb); lay.appendChild(r);
+      }
+      body.appendChild(lay);
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
@@ -5965,6 +6011,7 @@ class Component extends DCLogic {
             if (!(sk in merged) || ct > lt) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
           }
           this.settings = merged; this._settingsAt = mAt;
+          this._applyLayers();   // another device may have put a layer away (or back) under this one
         }
         this.cardsToday = days[this._dayKey()] || 0;
         this._refreshChallengeEvidence();
@@ -7239,7 +7286,7 @@ class Component extends DCLogic {
   // Two zones because they are two different intentions: ◉ lights the class WITHOUT covering
   // it, and "Class ▸" opens the pane to read / save / drill it.
   // ══════════════════════════════════════════════════════════════════════════════════════
-  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); }
+  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); this._renderLayerDock(); /* the dock steps aside from the cue pill on a phone (v1.171.0) */ }
   /**
    * One flag on <body> naming the live cue kind — a layout/diagnostic hook for the thumb
    * band (the pill-era CSS that consumed it is gone; specs and snapshots still read it).
@@ -9241,7 +9288,7 @@ class Component extends DCLogic {
   _suppressTray(hide) {
     if (this._traySup === hide) return;
     this._traySup = hide;
-    for (const ref of [this.optionsRef, this.optionHintRef]) {
+    for (const ref of [this.optionsRef]) {
       const op = ref && ref.current; if (!op) continue;
       op.style.transition = "opacity .25s";
       if (hide) { op.style.opacity = "0.1"; op.style.pointerEvents = "none"; }
@@ -10830,19 +10877,24 @@ class Component extends DCLogic {
     const leg = this.legendRef.current;
     if (leg && op) {
       let overlap = false;
-      if (op.children.length) {
+      if (op.children.length && this._handShown()) {   // a put-away hand (v1.171.0) covers nothing
         const lr = leg.getBoundingClientRect();
         for (const c of op.children) { const cr = c.getBoundingClientRect(); if (cr.right > lr.left - 12 && cr.left < lr.right + 12 && cr.bottom > lr.top - 12) { overlap = true; break; } }
       }
       leg.style.opacity = overlap ? "0.06" : "1";
     }
-    // scroll affordance: show "more →" only when the option row overflows and isn't at the end
-    const hint = this.optionHintRef.current;
-    if (hint && op) {
-      const more = !this.deckShown && !this._detailCtx && op.children.length && (op.scrollWidth - op.clientWidth - op.scrollLeft > 8);
-      hint.style.opacity = more ? "0.5" : "0";
-      hint.style.pointerEvents = more ? "auto" : "none";
-      if (more) this._dockOptionHint(hint, op);
+    // (the "see more →" scroll hint that docked here was DELETED in v1.171.1, owner: "it's too
+    // much on screen to have the see more and the x". The tray still scrolls by wheel and drag.)
+    // ── THE HAND'S ✕ (v1.171.0) ── shown only when there is a hand to put away: dealt, its layer
+    // on, not the escape tray, and not under the pane, the option sheet or a reading surface.
+    if (op) {
+      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._detailCtx && !this._traySup);
+      let x = this._handCloseEl;
+      if (show && !x) x = this._buildHandClose();
+      if (x) {
+        x.style.visibility = show ? "visible" : "hidden";
+        if (show) { const want = this._dockTrayTop(op); if (want && x.style.bottom !== want) x.style.bottom = want; }
+      }
     }
     // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
     // bottom-right chip, so the chip stays put and stays clickable while the pane is open.
@@ -10855,7 +10907,7 @@ class Component extends DCLogic {
   clearOptions() {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -11592,8 +11644,14 @@ class Component extends DCLogic {
     waits[key] = p;
     return p;
   }
-  clearLandCard() {
-    this._landQ = null; this._landIdx = null; this._landMode = null;    this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
+  /** The CARD only — `_landIdx` / `_landMode` and the film strip survive. This is what the card
+   *  LAYER uses (`_applyLayers`): a card put away by preference still belongs to a landing, so
+   *  `_dockLandFilm` knows what it serves and a late chunk (`_landBackfill`) can still dock the
+   *  film under it. INVARIANT since v1.171.0: `_landIdx` MAY be set while `_landEl` is null.
+   *  Every reader that matters already asks `_landEl` (or `_landHidden()`, which reads a null
+   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. */
+  _clearLandCardOnly() {
+    this._landQ = null; this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
     this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
     // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
     // against, so a stale land block's answer key would let `A`-`D` grade a question that is no
@@ -11602,8 +11660,15 @@ class Component extends DCLogic {
     // card) is a window wide enough to matter.
     if (this._mc && this._mc.surface === "land") this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
-    // the film strip is a SIBLING now, so it does not go away with the card on its own
+  }
+  // the film strip is a SIBLING (v1.101.1), so it does not go away with the card on its own
+  _clearLandFilm() {
     if (this._landFilmEl) { this.clearClipLoops(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+  }
+  clearLandCard() {
+    this._clearLandCardOnly();
+    this._landIdx = null; this._landMode = null;
+    this._clearLandFilm();
   }
   // ── LATE PAYLOAD BACKFILL ── the comprehension payloads are deferred on purpose (decks 4.3MB
   // gz, dossier content 5.3MB gz — first paint must not wait on them) and on a measured Fast-4G
@@ -11638,7 +11703,18 @@ class Component extends DCLogic {
     this._landQSkip(d.key, "decks_in_flight", d.mode);
   }
   _landBackfill() {
-    if (!this._landEl) return;
+    if (!this._landEl) {
+      // A COLLAPSED CARD STILL OWNS ITS FILM (v1.171.0). The card layer is off, the landing is
+      // live (`_landIdx` kept by `_clearLandCardOnly`) and the film layer is on: the late chunk
+      // docks the strip alone. No card, no question, no skip beat — the landing already named
+      // its skip when it rendered.
+      if (this._layerOn("card") || this._landIdx == null || this._landFilmEl || !this._layerOn("film")) return;
+      if (this._landMode !== "land" && this._landMode !== "attempt") return;
+      const n = this.nodes && this.nodes[this._landIdx]; if (!n) return;
+      const clips = this._landFilmClips(n);
+      if (clips) { this._renderLandFilm(clips); this._dockLandFilm(); }
+      return;
+    }
     if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
     const stTech = this._landMode === "attempt" && this._stagedTech && this._landIdx === this._stagedTech.idx;
     if (!stTech && (this._landMode !== "land" || this._landIdx !== this.currentPos)) return;
@@ -11883,14 +11959,21 @@ class Component extends DCLogic {
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
     const info = this.ngContentFor(node);
-    // A TECHNIQUE'S FILM LIVES UNDER ITS PERSPECTIVES (v1.132.1). The chunks have carried
-    // `perspectives.{attacker,defender}.clips` all along (2,716 authored arrays; measured 1 of
-    // 1,326 technique entries carry a TOP-LEVEL `clips`) — the card only ever read `info.clips`,
-    // so technique cards showed no film at all. The staged side picks the reel: the escaping orb
-    // shows the defense films.
-    const perspSide = this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
-    const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
-    const filmClips = (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
+    const filmClips = this._landFilmClips(node, info);
+    // ── THE CARD LAYER (v1.171.0, owner) ── a card the player put away stays away: NOT BUILT.
+    // The landing still happens (the hand is dealt above this, the ripple lights the options),
+    // the film still docks if its own layer is on, and the funnel names the gap. `_landIdx` and
+    // `_landMode` are set so the film and a late chunk know which landing they serve (the
+    // `_clearLandCardOnly` invariant). A backfill (`_landLate`) never repeats the skip beat.
+    if (!this._layerOn("card")) {
+      this._landIdx = node.idx; this._landMode = mode || "land";
+      if (filmClips && this._layerOn("film")) this._renderLandFilm(filmClips);
+      this._landWarmP = null;                                   // nothing outstanding: landSettled resolves
+      if (!this._landLate) this._landQSkip(key, "collapsed", mode);
+      requestAnimationFrame(() => this._dockLandFilm());
+      this._renderLayerDock();
+      return null;
+    }
     const glyph = this.seenGlyph(key);
 
     const el = document.createElement("div");
@@ -11942,18 +12025,8 @@ class Component extends DCLogic {
     // `max-height` + `overflow-y:auto` meant the player was clipped and had to be scrolled to.
     // As a sibling anchored above the card it grows UPWARD into empty screen, which is also what
     // makes an expanded clip land top-centre.
-    if (filmClips) {
-      const film = document.createElement("div");
-      film.className = "ng-landfilm";
-      film.setAttribute("data-land-film", "1");
-      // width/padding are a FIRST-FRAME GUESS only — _dockLandFilm immediately overwrites both
-      // from the card's measured box, which is the one source of truth (see it for why).
-      film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
-      film.innerHTML = this.filmStudyHTML(filmClips, true);
-      (this.__ngRoot || document.body).appendChild(film);
-      this._landFilmEl = film;
-      this.wireClips(film, filmClips);
-    }
+    // (v1.171.0: the strip is built by `_renderLandFilm`, gated by its own layer)
+    if (filmClips && this._layerOn("film")) this._renderLandFilm(filmClips);
 
     // 4 — ONE question, always multiple choice: this is the in-play format (the sidebar is
     // where the same cards read back as classic recall)
@@ -12001,7 +12074,7 @@ class Component extends DCLogic {
     // 5 + 6 — the fuller container behind `More ▸`, the foot, and the two corner controls are
     // ONE seam shared with the panic drill (`_landCardChrome`), so the defence card can never
     // drift from the landing card's anatomy again.
-    this._landCardChrome(el, node, famChip, perspSide);
+    this._landCardChrome(el, node, famChip, this._landPerspSide(node));
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
     // clearLandCard. Horizontal-dominant ONLY — vertical stays the card's native overflow-y
     // scroll, which is also why the drill panel's vertical swipe actions are deliberately not
@@ -12225,13 +12298,18 @@ class Component extends DCLogic {
     const xb = document.createElement("button");
     xb.type = "button";
     xb.setAttribute("data-land-close", "1");
-    xb.setAttribute("aria-label", "Hide this card");
-    xb.title = "Hide this card";
+    xb.setAttribute("aria-label", "Hide the question card");
+    xb.title = "Hide the question card";
     xb.textContent = "✕";
-    xb.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
+    xb.style.cssText = NG_GHOST_BTN_CSS;
     xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(255,255,255,.08)"; });
     xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "none"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this._declineLandQ("close"); this.fx("land_dismissed", { node: node.t, answered: !!(this._landQ && this._landQ.answered) }); this.clearLandCard(); });
+    // STICKY (v1.171.0, owner): the ✕ is the card LAYER's handle, not a per-landing dismiss. It
+    // used to `clearLandCard()` and the next landing rebuilt the card — "it should still be
+    // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
+    // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
+    // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
+    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
     corner.appendChild(xb);
     el.appendChild(corner);
   }
@@ -12409,6 +12487,189 @@ class Component extends DCLogic {
    * and it grows upward, so an expanded clip climbs into empty screen instead of being clipped
    * inside a scrollport. If it would climb off the top it pins to a 16px inset instead.
    */
+  // ═══ THE THREE BOTTOM LAYERS (v1.171.0) — see NG_LAYER_KEYS for the design ═══════════════════
+  _layerOn(name) { const k = NG_LAYER_KEYS[name]; return !k || this.get(k, true) !== false; }
+  /** A put-away hand stays away, CAUGHT OR NOT (v1.171.1, owner — a Defender URL arrival with
+   *  only the videos on showed the escape tray: "if I didn't ask to see outcomes don't show them
+   *  to me"). v1.171.0 forced the escapes visible under attack on the theory that hiding the
+   *  only exit is a trap; the owner's rule is that the layer is the player's choice, whole. */
+  _handShown() { return this._layerOn("hand"); }
+  /** THE ONE WRITER. Persists, names the beat, drops the camera band cache and applies the
+   *  layers to the current landing in place. `src` is the handle that asked: x · dock · settings. */
+  setLayer(name, on, src) {
+    if (!NG_LAYER_KEYS[name]) return false;
+    on = on !== false;
+    if (this._layerOn(name) === on) return false;
+    this.set(NG_LAYER_KEYS[name], on);
+    this.fx("land_layer", { layer: name, on: on, src: src || "api" });
+    // THE ONE `_bandBot` RESET. The band only ever tightens for the life of a viewport (§6.1 —
+    // a per-landing reset hands the loose answer straight back on the first card-without-film
+    // frame). A layer toggle is the one event that legitimately frees or takes screen, so it is
+    // the one place the cache is dropped; the next frame measures whatever is actually there.
+    this._bandBot = null;
+    this._applyLayers();
+    return true;
+  }
+  /** Make the surfaces match the keys, for the landing that is live right now. Also runs after
+   *  a cloud pull (`_pullAndMerge`) — another device may have flipped a key under this one. */
+  _applyLayers() {
+    const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
+    const inDefense = this._defendSub != null;
+    if (!this._layerOn("card")) {
+      if (this._landEl) {
+        this._declineLandQ("collapsed");
+        this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
+        this._clearLandCardOnly();
+      }
+    } else if (!this._landEl && n && this._decision && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
+      // EXPANDING MID-LANDING ASKS (owner). A truthy `reuse` skips the per-landing reset, so
+      // this landing's answered set and page cache survive: a question answered BEFORE the card
+      // was put away grades the fresh one as extra (the economy law), an unanswered landing is
+      // scored on this one and re-arms the clock through `_mountLandQ`.
+      this.renderLandCard(n, this._landMode, null, { el: null });
+    }
+    if (!this._layerOn("film")) this._clearLandFilm();
+    else if (!this._landFilmEl && n && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
+      const clips = this._landFilmClips(n); if (clips) this._renderLandFilm(clips);
+    }
+    this._syncHandLayer();
+    if (this._landEl) this._dockLandCard(this._landEl); else if (this._landFilmEl) this._dockLandFilm();
+    this._renderLayerDock();
+    this.updateUiShift(0);
+  }
+  /** The hand: dealt, and either shown or `visibility:hidden` — the one property that also
+   *  removes it from hit-testing (§6.1: `opacity:0` is not hidden). `_suppressTray` owns
+   *  opacity on the same element for the reading surfaces; the two never meet. */
+  _syncHandLayer() {
+    const on = this._handShown();
+    for (const ref of [this.optionsRef]) {
+      const el = ref && ref.current; if (!el) continue;
+      if (on) el.style.removeProperty("visibility");
+      else el.style.setProperty("visibility", "hidden", "important");
+    }
+    if (!on && this._handCloseEl) this._handCloseEl.style.visibility = "hidden";
+  }
+  /** Where the fixed chrome above the hand docks from: the tray's own `bottom` plus its
+   *  MEASURED height — zero when the hand layer is put away, so the card and the film drop into
+   *  the tray's slot (the screen the player asked back). ONE seam (§6.5) for the three dockers
+   *  that each used to carry their own `TRAY_BOTTOM = 84`. */
+  _landDatum() {
+    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    const row = this.optionsRef.current;
+    const h = row && this._handShown() ? row.getBoundingClientRect().height : 0;
+    return { tray: TRAY_BOTTOM, h: h > 0 ? h : 0 };
+  }
+  /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
+   *  The film picks its reel with it and `_landCardChrome` picks the block `More ▸` unfolds; when
+   *  the film extraction moved the expression out of renderLandCard, the chrome call was left
+   *  reading a `perspSide` that no longer existed there — a ReferenceError on every landing, from
+   *  a merge that compiled clean (§6.5: collapse to ONE named seam before a second caller exists).
+   *  Caught by `dual-pair.spec.ts`, not by the build. */
+  _landPerspSide(node) {
+    return this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
+  }
+  _landFilmClips(node, info) {
+    info = info || this.ngContentFor(node);
+    // A TECHNIQUE'S FILM LIVES UNDER ITS PERSPECTIVES (v1.132.1). The chunks have carried
+    // `perspectives.{attacker,defender}.clips` all along (2,716 authored arrays; measured 1 of
+    // 1,326 technique entries carry a TOP-LEVEL `clips`) — the card only ever read `info.clips`,
+    // so technique cards showed no film at all. The staged side picks the reel: the escaping orb
+    // shows the defense films.
+    const perspSide = this._landPerspSide(node);
+    const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
+    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
+  }
+  // FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row aka
+  // the videos outside the ng-landcard ... should be outside, immediately above it"). It is a
+  // row of thumbnails that GROWS when one is played, and growing it inside a card with
+  // `max-height` + `overflow-y:auto` meant the player was clipped and had to be scrolled to. As
+  // a sibling anchored above the card it grows UPWARD into empty screen, which is also what
+  // makes an expanded clip land top-centre. Since v1.171.0 it carries its own ghost ✕ — the
+  // film LAYER's handle — hidden while a clip is expanded so it never sits beside the player's.
+  _renderLandFilm(filmClips) {
+    if (!filmClips || !filmClips.length) return null;
+    this._clearLandFilm();
+    const film = document.createElement("div");
+    film.className = "ng-landfilm";
+    film.setAttribute("data-land-film", "1");
+    // width/padding are a FIRST-FRAME GUESS only — _dockLandFilm immediately overwrites both
+    // from the card's measured box, which is the one source of truth (see it for why).
+    film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
+    film.innerHTML = this.filmStudyHTML(filmClips, true);
+    // UNDER THREE CLIPS THE ROW CENTRES (v1.171.1, owner): one or two left-aligned thumbnails
+    // left the strip's right half empty, with the ✕ stranded at the far edge.
+    if (filmClips.length < 3) { const row = film.querySelector(".ng-cliprow"); if (row) row.style.justifyContent = "center"; }
+    const xb = document.createElement("button");
+    xb.type = "button";
+    xb.setAttribute("data-film-close", "1");
+    xb.setAttribute("aria-label", "Hide the videos");
+    xb.title = "Hide the videos";
+    xb.textContent = "✕";
+    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
+    xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
+    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
+    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
+    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
+    film.appendChild(xb);
+    (this.__ngRoot || document.body).appendChild(film);
+    this._landFilmEl = film;
+    this.wireClips(film, filmClips);
+    return film;
+  }
+  _dockTrayTop(row) { const d = this._landDatum(); return d.h ? Math.round(d.tray + d.h + 10) + "px" : null; }
+  /** The hand's ✕ — ghost, top-right of the tray, inside the wrap (it
+   *  stacks under the pane and the option sheet, and `attachInput` names it). Built once. */
+  _buildHandClose() {
+    const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return null;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("data-hand-close", "1");
+    b.setAttribute("aria-label", "Hide your moves");
+    b.title = "Hide your moves";
+    b.textContent = "✕";
+    b.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;right:" + (this.isMobile() ? 12 : 24) + "px;bottom:238px;z-index:4;opacity:.55;visibility:hidden;";
+    b.addEventListener("mouseenter", () => { b.style.opacity = "1"; b.style.color = "#dbe2f0"; b.style.background = "rgba(255,255,255,.08)"; });
+    b.addEventListener("mouseleave", () => { b.style.opacity = ".55"; b.style.color = "#8b97b0"; b.style.background = "none"; });
+    b.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("hand", false, "x"); });
+    wrap.appendChild(b);
+    this._handCloseEl = b;
+    return b;
+  }
+  /** THE DOCK: one muted glyph per COLLAPSED layer, at bottom-centre — the retired transport's
+   *  seat (xdc-template.html, v1.134.0), free on every viewport. Nothing when every layer is
+   *  open: the element is REMOVED, never display:none, so `elementFromPoint` can never return
+   *  it (§6.1). On a phone each glyph is a 44px thumb target over a 24px layout box
+   *  (`.ng-lists-new` pattern), and the dock steps left of the share cue's pill. */
+  _renderLayerDock() {
+    const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return;
+    const off = NG_LAYER_ORDER.filter((l) => !this._layerOn(l));
+    let dock = this._layerDockEl;
+    if (!off.length) { if (dock) { try { dock.remove(); } catch (e) {} this._layerDockEl = null; } return; }
+    const mob = this.isMobile();
+    if (!dock) {
+      dock = document.createElement("div");
+      dock.className = "ng-layerdock";
+      dock.setAttribute("data-layer-dock", "1");
+      wrap.appendChild(dock);
+      this._layerDockEl = dock;
+    }
+    dock.style.cssText = "position:absolute;left:50%;bottom:" + (mob ? 28 : 30) + "px;z-index:4;pointer-events:auto;display:flex;align-items:center;gap:" + (mob ? 12 : 6) + "px;transform:translateX(" + (mob && this._shareCue ? "calc(-50% - 34px)" : "-50%") + ");";
+    const L = { film: ["▶", "Show the videos"], card: ["?", "Show the question card"], hand: ["⋯", "Show your moves"] };
+    dock.innerHTML = "";
+    for (const l of off) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("data-layer-show", l);
+      b.setAttribute("aria-label", L[l][1]);
+      b.title = L[l][1];
+      b.textContent = L[l][0];
+      b.style.cssText = NG_GHOST_BTN_CSS + "color:#6b7691;font-size:" + (l === "hand" ? 15 : 11) + "px;" + (mob ? "width:44px;height:44px;margin:-10px;" : "");
+      b.addEventListener("mouseenter", () => { b.style.color = "#dbe2f0"; b.style.background = "rgba(255,255,255,.08)"; });
+      b.addEventListener("mouseleave", () => { b.style.color = "#6b7691"; b.style.background = "none"; });
+      b.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer(l, true, "dock"); });
+      dock.appendChild(b);
+    }
+  }
   _dockLandFilm() {
     const f = this._landFilmEl; if (!f) return;
     const H = window.innerHeight || 800;
@@ -12428,8 +12689,26 @@ class Component extends DCLogic {
         f.style.paddingRight = cs.paddingRight;
       }
     }
-    const cardTop = c ? c.getBoundingClientRect().top : H - 236;
+    // No card: the CSS constant while one is on its way, or — the card layer put away
+    // (v1.171.0) — the strip sits where the card would, straight above the hand's datum.
+    let cardTop;
+    if (c) cardTop = c.getBoundingClientRect().top;
+    else if (this._layerOn("card")) cardTop = H - 236;
+    else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
     const h = f.offsetHeight || 0;
+    // THE ✕ HUGS THE LAST THUMBNAIL (v1.171.1, owner: "sometimes appears far away from the last
+    // video"). Measured, never a constant: 4px right of the last clip's box, top-aligned to it,
+    // and clamped inside the strip when the row overflows and scrolls.
+    const xb = f.querySelector("[data-film-close]");
+    if (xb) {
+      const clips = f.querySelectorAll(".ng-clip"); const last = clips[clips.length - 1];
+      if (last) {
+        const fr = f.getBoundingClientRect(), lr = last.getBoundingClientRect();
+        const left = Math.min(Math.round(lr.right - fr.left + 4), Math.round(fr.width - 28));
+        xb.style.right = "auto"; xb.style.left = Math.max(0, left) + "px";
+        xb.style.top = Math.max(0, Math.round(lr.top - fr.top)) + "px";
+      }
+    }
     let bottom = Math.round(H - cardTop + 8);
     if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
     f.style.bottom = bottom + "px";
@@ -12438,9 +12717,13 @@ class Component extends DCLogic {
     if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
     if (!el) return;
     const row = this.optionsRef.current; if (!row) return;
-    const h = row.getBoundingClientRect().height;
-    if (!(h > 0)) return; // no hand dealt yet — the CSS constant is as good a guess as any
-    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    const { tray: TRAY_BOTTOM, h } = this._landDatum();
+    if (!(h > 0)) {
+      // no VISIBLE hand: dealt-but-put-away (v1.171.0) hands the card the tray's own slot;
+      // not dealt yet — the CSS constant is as good a guess as any
+      if (!this._handShown()) el.style.setProperty("bottom", TRAY_BOTTOM + "px", "important");
+      return;
+    }
     // DESKTOP DOCKS ONLY WHEN IT MUST (v1.104.4). This was mobile-only because the desktop
     // constant (`bottom:236px`) clears an ordinary option tray. An ESCAPE tray is taller — its
     // cards carry the extra "escape route" line — and measured at 1440x900 the card's bottom
@@ -12459,25 +12742,6 @@ class Component extends DCLogic {
     // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
     // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
     el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");  }
-  // ── "SEE MORE" SITS ABOVE THE HAND, NOT UNDER IT (v1.123.0, owner) ──────────────────────────
-  // It was `bottom:68px`, a constant BELOW the tray's own `bottom:84px` — so it hung under the
-  // hand, in the bottom band, on top of the account chip. MEASURED at every width where it
-  // renders (844x390 through 1440x900): the hint's box sits exactly 2px above the chip's, with
-  // the same right edge — 1345,819..1416,832 against 1317,834..1416,876 at 1440x900. That is the
-  // owner's "overlaps user icon and text", and it is universal, not device-specific.
-  //
-  // The fix is the tray's own MEASURED top, never a constant: the row has no fixed height (138px
-  // at 390x844, 144px at 1440x900, and taller again for an escape hand, whose cards carry an
-  // extra line), which is the same lesson `_dockLandCard` learned. Right-aligned, so it never
-  // meets the landing card — that card is `min(520px, 100vw-32px)` and CENTRED, and at every
-  // width this hint is still shown its right edge clears the hint's left edge.
-  _dockOptionHint(el, row) {
-    const h = row.getBoundingClientRect().height;
-    if (!h) return;
-    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
-    const want = Math.round(TRAY_BOTTOM + h + 10) + "px";
-    if (this._hintDockAt !== want) { this._hintDockAt = want; el.style.bottom = want; }
-  }
   _landAnswered(correct, tier, mode, hooks, format) {
     this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
@@ -12709,6 +12973,9 @@ class Component extends DCLogic {
     const pk = this._panicKey;
     const pc = pk ? this._cardsOf(decks[pk]) : null;
     if (!pc || !pc.length) return;
+    // A COLLAPSED CARD ASKS NOTHING (v1.171.0, owner) — the drill included. The escapes are
+    // untimed already, so nothing is lost but the question; the gap is named (§6.6).
+    if (!this._layerOn("card")) { this.fx("panic_skipped", { reason: "collapsed", deckKey: pk }); return; }
     this._jitIdx = this._jitIdx || {};
     this.clearLandCard();               // one card slot; never two stacked
     const card = document.createElement("div");
@@ -14006,6 +14273,7 @@ class Component extends DCLogic {
     const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
     for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, this._decisionDsec, i + 1));
     if (el) el.style.pointerEvents = "auto";
+    this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
     this._highlightStagedCard();
     // the landing's decision CONTEXT — pick/opts for the hand, plus the QUESTION window's timer
@@ -14697,7 +14965,7 @@ class Component extends DCLogic {
     if (!escapes.length) escapes.push({ idx: this.currentPos, node: this.nodes[this.currentPos], res: this.currentPos });
     this.optionIdxs = escapes.map((e) => e.idx);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
-    this.setEvent("Caught", this.splitName(sub.t).main + " locked in \u2014 drill to loosen it", "bad");
+    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
     // the danger owns the camera and the field: frame the exchange, fog everything else
     this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
     this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
@@ -14745,6 +15013,7 @@ class Component extends DCLogic {
     };
     for (let i = 0; i < escapes.length; i++) el.appendChild(this.buildOptionCard(escapes[i], pick, dsec, i + 1, "escape"));
     if (el) el.style.pointerEvents = "auto";
+    this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     this._optPick = pick; this._optList = escapes;
     this.buildPanicCard(el, sub);
     // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
@@ -15318,15 +15587,14 @@ class Component extends DCLogic {
       // FIFTH SURFACE (v1.102.1): the option-detail sheet. Its capture moved into the header
       // corner and a REAL tap on it did nothing — same retarget, same silence. Every fixed
       // overlay that owns controls belongs in this list; that is why it is a list.
-      // SIXTH SURFACE (v1.123.0): the "see more" hint. It is a fixed overlay whose whole purpose
-      // is a click (`onClick={scrollOptions}`), and it has NEVER been in this list — the option
-      // ROW next to it is immune only because componentDidMount gives it its own `pointerdown`
-      // stopPropagation, which the hint never had. PRE-EXISTING, not introduced by moving it:
-      // the affordance has been dead to the mouse for as long as it has existed, and it surfaced
-      // now only because uncapping the hand made it worth writing the first spec that clicks it
-      // with a REAL mouse instead of `locator.click()`. Sixth time; the list is the cure.
+      // SIXTH SURFACE (v1.123.0) was the "see more" hint — a fixed overlay whose whole purpose
+      // was a click, and it had NEVER been in this list: dead to the mouse for as long as it
+      // existed, found only when the first spec clicked it with a REAL mouse. DELETED in v1.171.1
+      // (owner: too much chrome beside the hand's ✕); the lesson stays. Sixth time; the list is the cure.
+      // SIXTH AND SEVENTH today (v1.171.0): the layer dock and the hand's ✕ — both live in the wrap,
+      // both exist to be clicked. Proven by `land-layers.spec.ts` with `j.clickByMouse`.
       for (const ov of [this._landEl, this._landFilmEl, this.optDetailRef && this.optDetailRef.current,
-        this.optionHintRef && this.optionHintRef.current]) {
+        this._layerDockEl, this._handCloseEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();

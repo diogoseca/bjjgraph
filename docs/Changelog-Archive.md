@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
 - **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
 - **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
 - **v1.170.3** — [THE PINCH LEFT THE STAGED TRACKING RUNNING](#v1-170-3-the-pinch-left-the-staged-tracking-running)
@@ -158,14 +159,14 @@ Only symbols touched by two or more versions are listed — a token that appears
 by `grep` and does not need an index row.
 
 - `rollFromPosition` — v1.129.1, v1.127.0, v1.126.0, v1.125.0, v1.114.4, v1.109.0, v1.104.5, v1.103.2, v1.101.0, v1.81.4, v1.70.0
-- `_dockLandCard` — v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_dockLandCard` — v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
 - `graph.json` — v1.125.0, v1.116.0, v1.115.0, v1.104.6, v1.104.3, v1.80.4
 - `opponentDefend` — v1.129.0, v1.127.2, v1.125.0, v1.121.0, v1.116.0, v1.109.0
 - `rollCamTarget` — v1.129.6, v1.128.1, v1.127.2, v1.114.3, v1.114.2, v1.109.0
 - `stageRollAt` — v1.129.5, v1.129.3, v1.129.1, v1.127.0, v1.123.0, v1.114.2
 - `adj` — v1.126.0, v1.125.0, v1.123.0, v1.121.0, v1.119.0
 - `applyDeckVisibility` — v1.109.0, v1.99.4, v1.95.1, v1.81.3, v1.68.0
-- `attachInput` — v1.123.0, v1.114.3, v1.104.4, v1.101.0, v1.81.3
+- `attachInput` — v1.171.0, v1.123.0, v1.114.3, v1.104.4, v1.101.0, v1.81.3
 - `camFocus` — v1.127.0, v1.125.0, v1.114.4, v1.114.3, v1.109.0
 - `enterAttempt` — v1.129.0, v1.128.1, v1.109.0, v1.99.4, v1.70.0
 - `moveChance` — v1.121.0, v1.115.0, v1.104.3, v1.70.0, v1.68.0
@@ -225,14 +226,14 @@ by `grep` and does not need an index row.
 - `ROLL_ZOOM` — v1.109.0, v1.101.0
 - `SHARE_STATIC_HEADERS` — v1.81.3, v1.81.2
 - `_ambig` — v1.126.0, v1.125.0
-- `_bandBot` — v1.129.6, v1.114.4
+- `_bandBot` — v1.171.0, v1.129.6, v1.114.4
 - `_checkpoint` — v1.104.0, v1.76.0
 - `_curriculumIdxSet` — v1.126.0, v1.125.0
-- `_dockLandFilm` — v1.114.4, v1.104.2
+- `_dockLandFilm` — v1.171.0, v1.114.4, v1.104.2
 - `_dockOptionHint` — v1.127.2, v1.123.0
 - `_dossierAutoPaused` — v1.129.1, v1.68.0
 - `_exploreStatsRow` — v1.129.8, v1.76.0
-- `_landBackfill` — v1.104.8, v1.101.0
+- `_landBackfill` — v1.171.0, v1.104.8, v1.101.0
 - `_landEl` — v1.104.4, v1.101.0
 - `_landPending` — v1.129.0, v1.70.0
 - `_lastPairLabel` — v1.129.4, v1.129.1
@@ -263,7 +264,7 @@ by `grep` and does not need an index row.
 - `cardOrder` — v1.122.0, v1.104.3
 - `challengeView` — v1.76.0, v1.68.0
 - `check_position_type_vs_score` — v1.104.6, v1.103.0
-- `clearLandCard` — v1.104.4, v1.101.0
+- `clearLandCard` — v1.171.0, v1.104.4, v1.101.0
 - `clearOptions` — v1.129.3, v1.128.1
 - `click` — v1.129.1, v1.123.0
 - `coins` — v1.109.0, v1.68.0
@@ -314,7 +315,7 @@ by `grep` and does not need an index row.
 - `rec` — v1.109.0, v1.68.0
 - `regenerate_graph.py` — v1.104.6, v1.81.0
 - `removeFromList` — v1.126.0, v1.99.4
-- `renderLandCard` — v1.104.8, v1.82.3
+- `renderLandCard` — v1.171.0, v1.104.8, v1.82.3
 - `resultPos` — v1.126.0, v1.125.0
 - `richLabel` — v1.129.1, v1.114.0
 - `role` — v1.127.2, v1.114.2
@@ -6510,3 +6511,107 @@ really realistic like max payne … but more modern fluid movement."
 **Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
 them) and the vignette fade (a transition under a removed animation — verified by eye on the real
 dev server, not by a gate).
+
+## v1.173.0 — THREE LAYERS, ONE DOCK
+
+*(shipped from `feat-minimize-node-content`; its own two commits are labelled v1.171.0 and v1.171.1, written before dev's unrelated v1.171.0 and v1.172.0 landed, and the in-code comments carry those branch labels. Index A's warning applies — the labels here are not reliable keys.)*
+
+**Owner:** "when he closes that he now only sees the outcomes … if he clicks another node at that
+instance, then another row of videos and another row of multiple-choice cards will show up and it
+shouldn't. It should still be collapsed … we have to have a mechanism to expand it again and
+collapse it again whenever we want to." And the beginner's case: "just having the roles and seeing
+what that connects to is a lot better than understanding what better connects to what."
+
+**What shipped.** Three persisted booleans — `landFilm` · `landCard` · `landHand` (default on,
+three scalars rather than one map so two devices toggling two different layers never clobber
+each other under the per-key LWW) — read live per landing through `_layerOn`, written only by
+`setLayer` (persist · `land_layer` beat · `_bandBot = null` · `_applyLayers` in place). The card's
+✕ became the card layer's handle (sticky; it used to `clearLandCard()` per landing); the film
+strip and the hand each got a twin ghost ✕ (`data-film-close`, `data-hand-close`, all cut from
+`NG_GHOST_BTN_CSS`); a dock at bottom-centre — the retired transport's seat — shows one muted
+glyph per COLLAPSED layer (▶ ? ⋯) and is REMOVED when every layer is open. Settings › Rolling
+mirrors the three rows. The see-more hint moved from `right:24px` to `56px` to make room.
+
+**Two decisions that shaped it.** (1) A collapsed CARD is NOT BUILT, never hidden:
+`_landHidden()` already reads a null `_landEl` as hidden, so every key and clock gate went dead
+by construction, no `land-mc-*` draw is consumed, and the funnel names the gap
+(`land_q_skipped {reason:"collapsed"}`; `panic_skipped` for the drill). Build-and-hide would
+have made `_landPending`, the clock and the skip beat all lie. Expanding mid-landing calls
+`renderLandCard(…, {el:null})` — a truthy `reuse` keeps the landing's answered set, so a
+question answered before the card was put away grades the fresh one as extra. New invariant,
+commented at `_clearLandCardOnly`: **`_landIdx` may be set while `_landEl` is null**, so a late
+chunk still docks the FILM under a collapsed card (`_landBackfill`'s new first branch).
+(2) A collapsed HAND is DEALT and hidden (`visibility:hidden !important` on the persistent
+tray — the deal is the roll state and its order is frozen), forced visible under attack
+(`_handShown` reads `_defendSub`): being caught is not a landing, and hiding the only exit by
+preference is a trap the player did not choose.
+
+**Docking.** `_landDatum()` replaced the `TRAY_BOTTOM = 84` each of `_dockLandCard` and
+`_dockOptionHint` carried: tray bottom plus the MEASURED tray height, zero when the hand is put
+away, so the card (and a cardless film) drop into the tray's slot. `_bandBot` keeps its
+tighten-only rule; the ONE reset is in `setLayer`, the one event that legitimately frees screen.
+
+**A pre-existing race surfaced.** `roll-card.spec.ts` "the card's corner capture really is
+clickable, by mouse" went red 4 of 4 with this bundle and green 2 of 2 with origin/dev's; an
+instrumented probe traced the close to `onFlashcardsReady → buildDrillPanel →
+applyDeckVisibility → closeListPicker` — a deck-chunk batch (real-clock `setTimeout(0)`)
+landing a few ms AFTER the click, which the 400ms wait had won by luck. The spec now waits for
+`_deckWaits` to drain and `_hydrateRefresh` to clear before clicking; 3 of 3 green after.
+`option-overflow` "the hand uncapped" (16 vs 14 over-cap hands) was the harness serving a STALE
+wire from another checkout — it fails identically on origin/dev's bundle — not this change.
+
+**Mutation** (`land-layers.spec.ts`, 11 of 11 killed; two needed a second pass):
+
+| mutant | test | first pass → final |
+|---|---|---|
+| M1 collapsed branch deleted | sticky | killed |
+| M2 setLayer writes the value, forgets `this.set` | survives a reload | SURVIVED → killed by the LWW-stamp assert (other writers save the blob in-window; only cross-device could tell) |
+| M3 enterLand drops `_syncHandLayer` | caught | SURVIVED under "independent" (the hidden style lingers on the persistent tray) → killed by the post-escape landing |
+| M4 digit gate drops `_handShown` | independent | killed |
+| M5 dock not in `attachInput`'s list | sticky (clickByMouse) | killed |
+| M6 `_bandBot` not dropped | geometry | killed |
+| M7 background tap goes sticky | background ladder | killed |
+| M8 skip reason renamed | sticky | killed |
+| M9 `_dockLandCard` ignores the datum | geometry | killed |
+| M10 phone glyphs lose the 44px box | phone | killed |
+| M11 `_handShown` drops the defense force | caught | killed |
+
+**Spec:** `e2e/journeys/land-layers.spec.ts` (8 journeys, one `@curated`). Docs: `docs/Neural.md`
+§3 paragraph, film line, ladder line; CLAUDE.md §5 seam row, §6.1 surface count 6 → 8.
+
+**Status (second pass, same ship — branch label v1.171.1):** decision (2) above is REVERSED. Owner, after previewing a Defender URL
+arrival with only the videos on: it "showed to me the outcomes … if I didn't ask to see outcomes
+don't show them to me". `_handShown` no longer reads `_defendSub`; the escape tray obeys the hand
+layer like every other deal, and the dock brings it back mid-defence. The catch is announced as
+"<name> locked in" — the "drill to loosen it" tail is gone. M11 inverted (forcing the escapes
+visible is now the mutant); M3 moved to the reload test, where the tray is a fresh element and
+only the first deal's sync can hide it.
+Two more owner calls in the same preview: the **"see more →" hint is DELETED** (`optionHintRef`,
+`_dockOptionHint`, `scrollOptions`, `.ng-seemore` and its phone rule — "it's too much on screen
+to have the see more and the x"; the tray still scrolls by wheel and drag, and `attachInput`'s
+list is 7 surfaces), and the **film ✕ hugs the last thumbnail**: `_dockLandFilm` places it 4px
+right of the last `.ng-clip`'s measured box, and a row of fewer than three clips is CENTRED.
+
+**INTEGRATING WITH dev's OWN v1.171.0, AND THE BUG THE MERGE MADE.** dev shipped its own v1.171.0
+(the Defender landing and the panic drill) plus v1.172.0 while this branch was in preview, so the
+branch merged dev in first — the repo's own pattern (`702315dd9`). One conflict mattered: dev had
+EXTRACTED the card's corner/foot block out of `renderLandCard` into `_landCardChrome`, shared with
+the drill, and this branch had edited the ✕ inside that block. Resolution took dev's extraction and
+re-applied the sticky ✕ inside the helper — so the drill's ✕ is now the card LAYER's handle too
+(it hides the drill; the escapes stay dealt, and a later catch skips the drill by `panic_skipped`).
+
+The merge then produced a defect that **compiled clean and passed the layer specs**: dev's chrome
+call reads `perspSide`, a local this branch had MOVED out of `renderLandCard` when it extracted
+`_landFilmClips`. Result: `ReferenceError: perspSide is not defined` on every landing card.
+`dual-pair.spec.ts` caught it (11 journeys red at once); the build could not, and neither could a
+spec that only asserts the collapsed path, because a collapsed card never reaches the chrome. Fixed
+by the §6.5 remedy rather than by restoring the local: `_landPerspSide(node)` is now the one seam
+both callers ask. **The lesson for a merge, not just for a refactor: when one side extracts a block
+and the other moves a local OUT of the same function, textual merge succeeds and the binding
+breaks — the audit after a merge has to be "does every symbol still resolve at RUNTIME", which
+here meant running the specs of the side you merged IN, not only your own.**
+
+**Two ceilings raised** (`tests/artifacts/budget_docs.json`, with the reasoning in its own note):
+the archive, which **origin/dev had already breached by 1,424 chars before this branch merged** —
+that gate was red on dev independently — and `docs/Neural.md`, following the standing instruction
+its own note left for "the next writer who touches it".
