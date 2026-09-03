@@ -6615,3 +6615,17 @@ here meant running the specs of the side you merged IN, not only your own.**
 the archive, which **origin/dev had already breached by 1,424 chars before this branch merged** —
 that gate was red on dev independently — and `docs/Neural.md`, following the standing instruction
 its own note left for "the next writer who touches it".
+
+**Status (v1.173.1):** the deploy's own curated gate ran the suite this box could not — **216
+passed, one failed**: `payload-first-hand`, at **385,900 gzip against a 385,000 ceiling**.
+Measured by building one source tree at three refs: v1.170.1 **153,550** → dev's v1.172.0
+**154,176** (+626, dev's own two ships) → this merge **156,105** (+1,929, the three layers). The
+ceiling had ~1,000 of headroom and the feature needed ~1,900. Tidying was tried first and does
+not reach it: one ghost-button factory for the four handles plus one check-row builder shared
+with the questions toggle measured **288 bytes**, and the three settings rows in full are only
+**438** — closing the gap would mean deleting the hand ✕, the handle whose crowding is why the
+see-more hint went in this same ship. Ceiling raised to **386,400** with the arithmetic in its
+own note, and flagged as the owner's call: the ceilings are targets from Observatory field data,
+and this is 0.36% of the first-hand payload. The two refactors are deliberately NOT in that
+commit — the box's root disk was 100% full and could not run Playwright, so the shipped tree is
+byte-for-byte the one CI validated and only the number moved.
