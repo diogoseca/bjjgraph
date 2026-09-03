@@ -349,6 +349,17 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
   // the card enters on a REAL-time CSS animation (ngCardInX, .28s) and `advance` pumps the
   // SIMULATED clock — so a click dispatched immediately lands on a card still fading in
   await page.waitForTimeout(400)
+  // …AND THE DECK CHUNKS MUST HAVE LANDED (v1.171.0). The hand's warm-up fetches resolve on the
+  // REAL clock, each batch fires onFlashcardsReady → buildDrillPanel → applyDeckVisibility,
+  // which closes an open picker ("an anchored chooser cannot outlive the surface it hangs off").
+  // A batch landing a few ms AFTER the click below closed the picker this test then looked for —
+  // a race the 400ms above won by luck until a heavier bundle lost it 4 of 4 runs. Wait for the
+  // in-flight map to drain, so the click is the last thing that happens to the card.
+  await page.waitForFunction(() => {
+    const a = (window as Any).__neural
+    return !a._hydrateRefresh && !Object.keys(a._deckWaits || {}).length
+  }, null, { timeout: 15000 })
+  await page.waitForTimeout(100)
 
   const sel = `[data-list-add="${id}"][data-list-surface="land"]`
   await j.clickByMouse(sel, "the card's corner capture")

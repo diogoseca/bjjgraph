@@ -356,7 +356,8 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | what you are doing | seams |
 |---|---|
 | overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
-| docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockOptionHint` · `_bandBot` |
+| docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockOptionHint` · `_landDatum` · `_bandBot` |
+| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
 | starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
@@ -410,7 +411,7 @@ symbol to every version that touched it.
 ### 6.1 Before you add, move or hide a fixed overlay (or touch `attachInput`)
 
 - **`attachInput` · `setPointerCapture` — a control inside a fixed overlay is dead to the MOUSE.** `attachInput`'s `pointerdown` captures on the wrap, which retargets the later `pointerup`, so the browser resolves the click from the down/up common ancestor and your listener never runs. It measures correctly, `elementFromPoint` returns it, keyboard works, and `locator.click()` passes because it dispatches on the element.
-  **Do:** name the overlay in `attachInput`'s pointerdown early-return list (`app.src.jsx` — 6 surfaces, numbered in code: node card, dossier sheet, landing card, film strip, option-detail sheet, see-more hint), set `pointer-events:auto` INLINE on the control, and prove it with `j.clickByMouse(sel)` (`e2e/dsl.ts`).
+  **Do:** name the overlay in `attachInput`'s pointerdown early-return list (`app.src.jsx` — 8 surfaces, numbered in code: node card, dossier sheet, landing card, film strip, option-detail sheet, see-more hint, layer dock, hand ✕), set `pointer-events:auto` INLINE on the control, and prove it with `j.clickByMouse(sel)` (`e2e/dsl.ts`).
   **Partially pinned:** `clickByMouse` only fires for overlays somebody wrote a mouse journey for, and the list is hand-maintained with no gate deriving it — that is how `.ng-seemore` stayed dead to the mouse for its entire existence.
   <br>_(6 surfaces (v1.69.1 → v1.123.0), all found by hand)_
 

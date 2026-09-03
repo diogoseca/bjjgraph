@@ -1,11 +1,11 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
-  "measured_at": "2026-09-03T03:41:15.111Z"
+  "measured_at": "2026-09-03T05:15:46.671Z"
  },
  "request_count": 19,
- "first_hand_raw_bytes": 1608317,
- "first_hand_gzip_bytes": 382376,
+ "first_hand_raw_bytes": 1587803,
+ "first_hand_gzip_bytes": 378753,
  "start_position": "Gogoplata Control Top",
  "charged_from_disk": [],
  "heaviest": [
@@ -16,8 +16,8 @@
   },
   {
    "path": "/static/neural/app/neural.js",
-   "raw": 512196,
-   "gzip": 153504
+   "raw": 519639,
+   "gzip": 155535
   },
   {
    "path": "/static/neural/flashcards/_index.json",
@@ -27,12 +27,12 @@
   {
    "path": "/static/neural/curriculum.json",
    "raw": 97530,
-   "gzip": 21065
+   "gzip": 21062
   },
   {
    "path": "/postscript.js",
-   "raw": 75641,
-   "gzip": 27667
+   "raw": 75798,
+   "gzip": 27768
   },
   {
    "path": "/index.css",
@@ -41,18 +41,13 @@
   },
   {
    "path": "/static/neural/app/neural.css",
-   "raw": 35288,
-   "gzip": 7650
+   "raw": 34910,
+   "gzip": 7589
   },
   {
    "path": "/",
    "raw": 30457,
-   "gzip": 6672
-  },
-  {
-   "path": "/__snapshot/ping",
-   "raw": 27788,
-   "gzip": 5759
+   "gzip": 6671
   },
   {
    "path": "/static/neural/flashcards/f9603f06.json",
@@ -83,6 +78,11 @@
    "path": "/static/neural/flashcards/4bf4a736.json",
    "raw": 5701,
    "gzip": 2211
+  },
+  {
+   "path": "/static/neural/flashcards/f48e87c0.json",
+   "raw": 5138,
+   "gzip": 2039
   }
  ]
 }
