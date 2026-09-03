@@ -6630,6 +6630,30 @@ and this is 0.36% of the first-hand payload. The two refactors are deliberately 
 commit — the box's root disk was 100% full and could not run Playwright, so the shipped tree is
 byte-for-byte the one CI validated and only the number moved.
 
+## v1.173.2 — THE QUALIFIER STAYS A SUBTITLE AT EVERY ZOOM
+
+**Owner:** on `Trap and Roll from Mount / DEFENDING` — the gap between `from Mount` and
+`DEFENDING` became conspicuously large, and zooming out moved `from Mount` back into the title.
+
+**What was true.** The split-pair path already rendered `Trap and Roll` and `from Mount` on
+separate rows, but its lower role used the 24px headline's clearance and then followed the lower
+orb even farther away. The minimum qualifier-to-role baseline gap was therefore 23px against the
+15px rhythm of the two name rows. Below the pair merge threshold, a different renderer took over:
+the focus fallback passed `displayName(n)` into `richLabel`. Because `Trap and Roll` is ambiguous
+across origins, `displayName` correctly returned the full authored name — but `richLabel` had only
+one name row, so it recomposed the qualifier into the headline.
+
+**What is true now.** `richLabel` owns the graph naming structure and accepts no caller-composed
+name: it always draws `graphName(n)` as the headline and `splitName(n.t).from` as the optional
+qualifier. `_labelWidthPx` measures the widest of those actual rows rather than the retired inline
+string. In a qualified lower pair, the role sits one `NG_LABEL_LEAD` below the qualifier; upper
+roles and unqualified lower roles keep their orb-following behavior.
+
+**Pinned by:** `tests/neural_type_scale.test.mjs` runs the real wire through the real `ingest()` and
+`draw()` paths with the reported defender node, records the actual `fillText` calls, and checks
+both LODs. `e2e/journeys/graph-naming.spec.ts` renders the real canvas at split and merge scales,
+asserts the published geometry, and reads back positive pixels from every affected row.
+
 ## v1.174.0 — THE CORRIDOR GETS THE KEYBOARD (AND ⏎ BECOMES THE COMMIT KEY)
 
 **Owner:** "i want to have keys navigation especially for the flashcards in the challenges like

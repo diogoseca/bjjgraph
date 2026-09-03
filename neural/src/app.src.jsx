@@ -15362,7 +15362,7 @@ class Component extends DCLogic {
     // here has any reason to overturn.
     let cx = f.x + 0.06 * vw;
     if (this.isMobile() && n) {
-      const labelW = this._labelWidthPx(n, !!(n.pi >= 0));
+      const labelW = this._labelWidthPx(n);
       if (labelW > 0) {
         // centre the orb+label block…
         let px = W / 2 - (11 + labelW) / 2;
@@ -15378,17 +15378,15 @@ class Component extends DCLogic {
     }
     return { cx: cx, cy: cy, vw: vw };
   }
-  // THE WIDTH OF THE NAME THE GRAPH IS ABOUT TO DRAW, in px, measured with the font it draws it
-  // with. Cached per node + font size, because the follow-cam calls `rollCamTarget` every frame
-  // and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is mid-frame during
-  // a draw and its `font` is state, so borrowing it would be a heisenbug waiting to happen.
-  _labelWidthPx(n, paired) {
-    // ONE SOURCE WITH THE DRAW (v1.138.0). This was `paired ? 18 : 17`, a hand-copied mirror of the
-    // pair group's focused size and of richLabel's `big` — which had ALREADY drifted (richLabel
-    // draws `big` at the focus size, so 17 was simply wrong), and which nothing tied to the draw:
-    // `dual-pair.spec.ts` measures THIS, so a mismatch mis-frames the phone with every test green.
-    // `paired` no longer selects a size because both paths now draw the state's name at one rank;
-    // it is kept in the signature because the CACHE KEY and both call sites are written for it.
+  // THE WIDTH OF THE WIDEST ROW THE GRAPH IS ABOUT TO DRAW, in px, measured with that row's
+  // actual font. Cached per node + headline size, because the follow-cam calls `rollCamTarget`
+  // every frame and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is
+  // mid-frame state during a draw and its `font` is state, so borrowing it would be a heisenbug.
+  _labelWidthPx(n) {
+    // ONE SOURCE WITH THE DRAW (v1.138.0, two-row names v1.173.2). The pair group and the merged
+    // rich label now draw the same short headline plus optional qualifier. Measuring the old
+    // inline `displayName` after the draw stopped using it shifted qualified phone labels left by
+    // space the visible rows did not occupy.
     const px = this.nameFontPx();
     const key = n.idx + "|" + px;
     this._labelWCache = this._labelWCache || new Map();
@@ -15399,9 +15397,14 @@ class Component extends DCLogic {
       if (!this._measCtx) this._measCtx = document.createElement("canvas").getContext("2d");
       const c = this._measCtx;
       if (c) {
-        c.font = "700 " + px + "px " + (this._displayFam || "'Space Grotesk'") + ", sans-serif";
-        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
-        w = c.measureText(nm).width || 0;
+        const fam = this._displayFam || "'Space Grotesk'";
+        const sp = this.splitName(n.t);
+        c.font = "700 " + px + "px " + fam + ", sans-serif";
+        w = c.measureText(this.graphName(n)).width || 0;
+        if (n.ty !== "positions" && sp.from) {
+          c.font = "600 11.5px " + fam + ", sans-serif";
+          w = Math.max(w, c.measureText(sp.from).width || 0);
+        }
       }
     } catch (e) { w = 0; }   // no canvas: fall back to the orb-centred framing, never to a crash
     this._labelWCache.set(key, w);
@@ -16355,37 +16358,55 @@ class Component extends DCLogic {
         ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
         ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
       }
-      // rich label = role + name, anchored beside a node
-      const richLabel = (idx, role, roleCol, name, big) => {
+      // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
+      // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
+      // "from Mount" back into the headline while the split pair rendered it as a subtitle.
+      const richLabel = (idx, role, roleCol, big) => {
         const n = this.nodes[idx]; if (!n) return;
         const lA = big ? A * arriveA : A; // big = the focused state's label — it rides the arrival ramp
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
         const ox = sx + halfW(n) + 11;
+        const maxW = Math.max(60, W - ox - 12);
+        const sp = this.splitName(n.t);
+        const main = this.graphName(n);
+        const qual = n.ty === "positions" ? "" : sp.from || "";
+        // Shift the existing role/name pair together by half a row when a qualifier appears, so
+        // adding the third line does not move the visual centre of the whole merged label.
+        const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const roleY = sy - (big ? 7 : 5) - lift;
+        const nameY = sy + (big ? 11 : 9) - lift;
+        const qualY = nameY + this.NG_LABEL_LEAD;
         ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
         ctx.textBaseline = "alphabetic";
         const dfam = this._displayFam || "'Space Grotesk'";
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, lA);
-        ctx.fillText(role.toUpperCase(), ox, sy - (big ? 7 : 5));
+        ctx.fillText(role.toUpperCase(), ox, roleY);
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
-        ctx.fillText(name, ox, sy + (big ? 11 : 9));
+        const drawnMain = this._fitText(ctx, main, maxW);
+        ctx.fillText(drawnMain, ox, nameY);
+        let drawnQual = "";
+        if (qual) {
+          ctx.font = "600 " + (big ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
+          drawnQual = this._fitText(ctx, qual, maxW);
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA * 0.62);
+          ctx.fillText(drawnQual, ox, qualY);
+        }
         ctx.shadowBlur = 0;
-        // published for the same reason `_lastPairLabel` is: this is canvas text with no DOM to
-        // query, and the anchor comes from `halfW`, a draw-local closure. Reading the strings the
-        // frame passed to `fillText` is the render's OUTPUT, not a re-derivation of its logic.
-        this._lastRichLabel = { idx: idx, kicker: role, name: name, big: !!big, namePx: rNamePx };
+        // Published draw output: canvas has no DOM, and `ox`/baselines are draw-local geometry.
+        this._lastRichLabel = { idx: idx, kicker: role, name: drawnMain, qual: drawnQual, big: !!big, ox: ox, roleY: roleY, nameY: nameY, qualY: qual ? qualY : null, namePx: rNamePx };
       };
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
         const am = this.activeMove;
         // a staged technique already wears the big pair label (name · qualifier · role) — the
-        // small unqualified travel label over it was the owner's "just 'armbar', tiny" report
+        // small travel label over it was the owner's "just 'armbar', tiny" report
         const fn = this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
         const dup = fn && (am.idx === this.focusIdx || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
-        if (!dup) richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
+        if (!dup) richLabel(am.idx, am.verb, am.col, false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
@@ -16510,23 +16531,22 @@ class Component extends DCLogic {
         // the name's BODY instead of its tail and the mutant survived three different oracles.
         // Reading the strings the frame passed to `fillText` is not a re-implementation of the
         // render — it IS the render's output.
-        // THE ROLE WORD RIDES ITS ORB (v1.135.0 — owner: "why does top mount look red like i'm
-        // going to lose?"). The block anchors at the pair MIDLINE ("the name never moves"), which
-        // left TOP/BOTTOM floating equidistant from both orbs — measured 33px from each at roll
-        // zoom — so the eye could bind "TOP · Mount" to the red bottom orb underneath. The word
-        // now sits at its own member's drawn y whenever the split allows, clamped to the block's
-        // existing clearances so it can never land on the name or the qualifier; merged pairs
-        // (small gap) degenerate to the old offsets by construction.
+        // THE ROLE WORD RIDES ITS ORB (v1.135.0) unless that tears apart two adjacent subtitle
+        // rows (v1.173.2). Above roles still sit beside their upper member, and an unqualified
+        // lower role still follows its lower member. A qualified lower role instead sits exactly
+        // one shared row lead beneath `from …`: placement below the centred name block already
+        // identifies the lower half, while following a wide-split orb opened the reported void
+        // between "from Mount" and "DEFENDING".
         const syAct = (LY(act) - this.cam.cy) * scale + H / 2;
-        // THE CLEARANCE IS THE NAME'S, NOT A CONSTANT (v1.138.0). The literal 18 here was the
-        // ascender height of an 18px name plus ~5px of air; MEASURED on the shipped face, that
-        // name reaches 13px above its baseline, and a 24px one reaches 18px — so the old constant
-        // would have put TOP/BOTTOM exactly ON the name's ascenders at the new size. Derived, it
-        // reproduces 18 at both 15px and 18px (the floor holds the unfocused row where it was) and
-        // gives 23 at 24px, keeping the same 5px of air. Recompute the ascents with
-        // tests/artifacts/_label_size_probe.mjs.
-        const clr = Math.max(18, Math.round(namePx * 0.78 + 4));
-        const subY = above ? Math.min(nameY - clr, syAct + 4) : Math.max((qual ? qualY : nameY) + clr, syAct + 4);
+        // Where the role is adjacent to the headline, clearance scales with the headline's actual
+        // size: measured ascent plus 5px of air. The qualifier branch uses NG_LABEL_LEAD, whose
+        // measured small-text clearance is already shared by both canvas naming paths.
+        const nameClr = Math.max(18, Math.round(namePx * 0.78 + 4));
+        const subY = above
+          ? Math.min(nameY - nameClr, syAct + 4)
+          : qual
+            ? qualY + this.NG_LABEL_LEAD
+            : Math.max(nameY + nameClr, syAct + 4);
         // `namePx` rides along for the same reason the strings do: the size lives in a draw-local
         // and there is no DOM to read it back from, so a spec asserting the type hierarchy would
         // otherwise have to re-type the number and agree with a broken build by construction
@@ -16562,12 +16582,11 @@ class Component extends DCLogic {
           // it is the same "stated twice" defect the in-node pass was deleted for. The ROLE is
           // the part no shape carries, so it is the part that gets written. Category survives
           // only where there is no role to name.
-          const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
           const rl = this.roleLabel();
           const kick = rl
             ? String(rl).toUpperCase()
             : (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION");
-          richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
+          richLabel(this.focusIdx, kick, this.myColor(n), true);
         }
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
