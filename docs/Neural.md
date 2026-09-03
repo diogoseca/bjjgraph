@@ -587,6 +587,19 @@ because the map is written before their first render asks.
 describe material difficulty, never rank or access. The frontier belt drives the default-open
 section, the arrival scroll, the tab belt's dye and stripes, and the cue. Nothing ever re-locks.
 
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
 the side it was played, clock held) and ⟲ (replay). History is in memory and has never persisted.
 

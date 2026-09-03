@@ -661,20 +661,50 @@ class Component extends DCLogic {
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
-        else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
         // techniques and between flashcards"). Same shape as the History-home branch above and
-        // the same `_miniReg` handles — ←/→ page the open deck's cards, ↑/↓ walk the queue.
+        // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
         if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
-        else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         if (e.key === "ArrowLeft") this.drillPrev();
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+      } else if (!typing && !this._detailCtx && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+        // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
+        // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
+        // in shape to the History-home and inline-session branches above, on the same `_miniReg`
+        // handles: ←/→ page the open lesson deck's cards, ↑/↓ walk the ladder's lesson rows,
+        // opening each one as it arrives (`challengeLessonNav`, challenge-ui.src.js).
+        // ORDER: BELOW the drill branch, so a checkpoint quiz or a lesson study — both
+        // `_paneStudyActive`, which `_challengeInline` excludes — keeps the keys it already had;
+        // ABOVE the landing card's ←/→, for the reason that branch states about itself.
+        e.preventDefault();
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+      } else if (e.key === "Enter" && !typing && !this._detailCtx) {
+        // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
+        // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
+        // three-state rule), so a deck is workable without leaving the home row. Below the option
+        // sheet's Enter, which executes the staged technique and must keep the key.
+        //
+        // THE ACTIVATION GUARD IS SPACE'S, FOR SPACE'S REASON (v1.113.4): ⏎ activates every
+        // focused <button>/<summary>/<a> too, and the Challenges corridor is built entirely out
+        // of them, so preventing default here would break Tab-then-Enter on a lesson row. Left
+        // to the browser instead — which is exactly why an opening inline deck moves focus onto
+        // its deck BOX, a container that owns neither key (see `openMini`).
+        if (t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
+        const mini = this._focusedMini();
+        if (mini) { e.preventDefault(); mini.enter(); }
+        else if (this.isDrillOpen()) {
+          // the study takeover reads back the same way, so ⏎ means the same thing there as ↓
+          e.preventDefault(); if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
+        }
       } else if (!typing && !this._detailCtx && this._landEl && !this._landHidden() && (this._landMode === "land" || this._landMode === "attempt") && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
         // branches so it can never steal from an open study surface; the defense card is excluded
@@ -694,7 +724,9 @@ class Component extends DCLogic {
         if (e.key === " " && t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
-        else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
+        // `_focusedMini()` is the surface scope, not just a registry hit: it is what keeps Space
+        // off a deck that belongs to another tab (see its own header).
+        else if (e.key === " " && this._focusedMini()) { this._focusedMini().reveal(); }
         // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
         // three, so an open study surface and a focused mini-row both keep the key they already
         // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
@@ -3158,11 +3190,18 @@ class Component extends DCLogic {
    * the scroller aligns its top, so the question and the row it belongs to lead. Already fully
    * visible → no movement at all, which is what "visual continuity" means when paging ↓ then ↑.
    * Pinned by e2e/journeys/session-scroll.spec.ts.
+   *
+   * THREE SURFACES, ONE SEAM (v1.175.0): the Challenges corridor's lesson decks live in a
+   * DIFFERENT scroller (the explorer list) and carry a different open-handle, so they pass both
+   * in — `_scrollFocusedDeck(explorerList, deckBox)` from `openMini`. Written as parameters with
+   * the History/session values as defaults rather than as a second copy of this arithmetic: it is
+   * the same question ("show the open deck with the least motion") and this repo has paid for
+   * answering one question twice more than once (§6.5).
    */
-  _scrollFocusedDeck() {
+  _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
-      const list = this.drillListRef.current; if (!list) return;
-      let deck = this._openMini && this._openMini.el;
+      const list = scroller || this.drillListRef.current; if (!list) return;
+      let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {
         // no registered opener (a first paint) — the one deck that is actually laid out
         deck = Array.prototype.find.call(list.querySelectorAll("[data-mini-deck]"), (el) => el.offsetParent !== null) || null;
@@ -3172,10 +3211,15 @@ class Component extends DCLogic {
       const dr = deck.getBoundingClientRect();
       const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      const pad = 12;
-      const room = lr.height - 2 * pad;
+      // A STICKY header inside the scroller owns the top of the scrollport and must be subtracted,
+      // MEASURED off the element and never as a CSS constant (§6.1, `_dockLandCard`): the corridor
+      // carries the maintenance band, which is one wrapping line from being taller than it looks.
+      // Absent on the History/session lists, where this query finds nothing and the inset is 0.
+      const band = list.querySelector("[data-maintenance]");
+      const pad = 12 + (band ? band.getBoundingClientRect().height : 0);
+      const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
-      else if (dr.bottom > lr.bottom - pad) list.scrollTop += dr.bottom - (lr.bottom - pad);
+      else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
     });
   }
   menuBtn(label, active, onClick) {
@@ -3930,6 +3974,40 @@ class Component extends DCLogic {
       if (st.revealed) { ansSet.add(st.idx); this.noteCardSeen(key, st.idx); } // reveal = SEEN only; mastery credit requires grading (honest economy)
       render();
     };
+    // GRADING IN PLACE (v1.105.2): reveal stays SEEN-only; the grade is the credit, through the
+    // same `gradeRecall` choke as every surface — lesson evidence, prep, stage and the SRS
+    // schedule all flow. One grade per card per session (the `gradedSet` latch below; render()
+    // rebuilds innerHTML wholesale, so without it six Got-its would climb six interval rungs).
+    // HOISTED out of render() in v1.175.0 so the ⏎ key and the buttons commit through ONE seam
+    // (§6.5): the local copy was rebuilt on every repaint and reachable only by mouse.
+    // AND IT MOVES THE DECK BEFORE IT GRADES, which is the whole reason the corridor's inline
+    // deck used to die under a Got-it: `gradeRecall` fires beats, `noteChallenges` repaints the
+    // Challenges tab whenever one advances, and that repaint rebuilds this deck from
+    // `_deckState[key]`. Grade-then-advance therefore repainted card N as "Graded", and the
+    // `doNext()` that followed walked `st.idx` on and rendered into the DETACHED wrap — a write
+    // that reports success and shows nothing (§6.6). Advance first and the rebuild reads the
+    // card the player is owed. `card` is captured BEFORE the walk, so the credit still lands on
+    // what was answered.
+    const gradeMini = (ok) => {
+      if (gradedSet.has(st.idx)) return;
+      gradedSet.add(st.idx);
+      ansSet.add(st.idx);
+      const card = cards[st.idx];
+      if (ok) doNext(); else render();               // a miss stays put for a re-read
+      this.gradeRecall(key, card, ok);
+      if (onGrade) onGrade(ok);
+    };
+    // ⏎ IS THE COMMIT KEY (v1.175.0, owner: "keys navigation especially for the flashcards in
+    // the challenges … up arrow down arrow left right space enter"). Space FLIPS the card; Enter
+    // says "got it" and walks on, so a whole deck is workable without leaving the home row.
+    // THREE states, ONE verb, because a key that sits dead reads as broken: face-down → reveal,
+    // revealed → grade, already graded → next card (gradeMini's latch would swallow the second
+    // press, and "Graded — next card →" is exactly what the card is already telling you).
+    const doEnter = () => {
+      if (!st.revealed) { doReveal(); return; }
+      if (gradedSet.has(st.idx)) { doNext(); return; }
+      gradeMini(true);
+    };
     const render = () => {
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
@@ -3947,7 +4025,9 @@ class Component extends DCLogic {
         '</div>' +
         (st.revealed ? '<div data-mini-a="1" style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
         (st.revealed && !gradedSet.has(st.idx)
-          ? '<div style="display:flex;gap:7px;margin-top:8px;"><button data-mini-again="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(232,150,107,.4);background:rgba(232,150,107,.12);color:#f0c4ad;">Review again</button><button data-mini-got="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(110,214,160,.4);background:rgba(110,214,160,.13);color:#bfe6cf;">Got it</button></div>'
+          // the ⏎ chip on Got-it is the same promise the Reveal button's `space` chip makes — the
+          // two keys the card is worked with, printed on the two buttons that do it
+          ? '<div style="display:flex;gap:7px;margin-top:8px;"><button data-mini-again="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(232,150,107,.4);background:rgba(232,150,107,.12);color:#f0c4ad;">Review again</button><button data-mini-got="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(110,214,160,.4);background:rgba(110,214,160,.13);color:#bfe6cf;">Got it<kbd style="font-family:inherit;font-size:9px;font-weight:700;opacity:.55;border:1px solid currentColor;border-radius:4px;padding:1px 6px;margin-left:6px;letter-spacing:.04em;">\u21b5</kbd></button></div>'
           : (st.revealed ? '<div data-mini-graded="1" style="margin-top:8px;font-size:10.5px;color:#7e8aa3;text-align:center;">Graded \u2014 next card \u2192</div>' : '')) +
         '<div style="display:flex;gap:7px;margin-top:9px;">' +
           navBtn("mp", "M15 18l-6-6 6-6") +
@@ -3961,24 +4041,14 @@ class Component extends DCLogic {
       mr.onmouseenter = () => mr.style.background = "rgba(74,108,255,.28)";
       mr.onmouseleave = () => mr.style.background = "rgba(74,108,255,.16)";
       mp.onclick = doPrev; mn.onclick = doNext; mr.onclick = doReveal;
-      // GRADING IN PLACE (v1.105.2): reveal stays SEEN-only; these are the credit, through the
-      // same gradeRecall choke as every surface — lesson evidence, prep, stage and the SRS
-      // schedule all flow. One grade per card per session (the latch above).
+      // the buttons are the MOUSE half of the one grade seam hoisted above — never a second copy
       const gb = wrap.querySelector("[data-mini-got]"), ab = wrap.querySelector("[data-mini-again]");
-      const gradeMini = (ok) => {
-        if (gradedSet.has(st.idx)) return;
-        gradedSet.add(st.idx);
-        ansSet.add(st.idx);
-        this.gradeRecall(key, cards[st.idx], ok);
-        if (ok) doNext(); else render();               // a miss stays put for a re-read
-        if (onGrade) onGrade(ok);
-      };
       if (gb) gb.onclick = () => gradeMini(true);
       if (ab) ab.onclick = () => gradeMini(false);
       wrap.querySelectorAll(".mt").forEach((t) => t.onclick = () => { st.idx = parseInt(t.dataset.i, 10); st.revealed = false; render(); });
     };
     this._miniReg = this._miniReg || {};
-    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext };
+    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
     render();
     return wrap;
   }
@@ -5105,6 +5175,47 @@ class Component extends DCLogic {
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
   /**
+   * Is the CHALLENGES CORRIDOR the thing on screen — the third inline-deck surface, and the one
+   * the owner found keyless (v1.175.0)? Same shape as `_sessionInline`: read the screen, never a
+   * flag. `_paneStudyActive()` excludes the takeovers the corridor launches (a lesson study, a
+   * checkpoint quiz, a capstone) — those are `isDrillOpen()`'s, and its branch already has them.
+   */
+  _challengeInline() { return !!(this.deckShown && this._viewMode === "challenges" && !this._paneStudyActive()); }
+  /**
+   * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
+   *
+   * `_focusRow` + `_miniReg` are ONE registry shared by three surfaces (roll history `c<n>`,
+   * inline session `s<i>`, challenge corridor `lesson:<deckKey>`), and nothing clears the row
+   * handle when you change tabs. So a rid left behind by one surface stays resolvable from
+   * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
+   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
+   *
+   * The corridor answers through `_lessonRows`, which is rebuilt with the rows it indexes, and
+   * through `offsetParent` — the CSS's own answer to "can the player see this row". That is what
+   * makes a FOLDED belt give the keyboard back: a fold is `display:none` on `.ng-belt-body` and
+   * leaves every row in the DOM, so the deck is still open and still registered, just invisible.
+   * Unfolding hands the keys straight back, because nothing was thrown away to achieve it.
+   *
+   * One resolver, five callers (the three arrow branches, Space, ⏎) — the alternative was a
+   * fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is where §6.5 says
+   * to stop and name the seam.
+   */
+  _focusedMini() {
+    const rid = this._focusRow;
+    const reg = rid && this._miniReg ? this._miniReg[rid] : null;
+    if (!reg) return null;
+    const lesson = typeof rid === "string" && rid.indexOf("lesson:") === 0;
+    if (this._challengeInline()) {
+      if (!lesson) return null;
+      const row = (this._lessonRows || []).find((entry) => entry.rid === rid);
+      return row && row.row && row.row.offsetParent !== null ? reg : null;
+    }
+    if (lesson) return null; // and a corridor row is not drivable from another tab either
+    if (this._sessionInline()) return reg;
+    if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
+    return null;
+  }
+  /**
    * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
    * extreme flashcards because I can go back and forth between techniques and between flashcards
    * and actually reveal them… the idea isn't for the whole technique to take up the entire space
@@ -5683,9 +5794,15 @@ class Component extends DCLogic {
         ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
+        // THE FLASHCARD ROWS COVER ALL FOUR DECK SURFACES (v1.175.0): the study takeover, the
+        // roll history's inline decks, the inline session queue and — new here — the Challenges
+        // corridor's lesson decks. One vocabulary, because there is one handler and one
+        // `_miniReg` behind them; the legend is the only place these are documented, so a row
+        // that is not true of every one of the four does not belong in it.
         ["Flashcards: prev / next card", ["\u2190", "\u2192"]],
         ["Flashcards: prev / next technique", ["\u2191", "\u2193"]],
-        ["Flashcards: flip / got it", ["Space"]],
+        ["Flashcards: flip the card", ["Space"]],
+        ["Flashcards: got it, next card", ["\u23ce"]],
         ["Flashcards: review again", ["\u2191"]],
         ["Landing card: prev / next question", ["\u2190", "\u2192"]],
         ["Open / search explorer", ["/", "\u2318K"]],

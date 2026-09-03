@@ -370,6 +370,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
 | the pane's tabs (click AND swipe) | `NG_PANE_TABS` · `setViewMode` · `_paneTabPageTo` · `_paneGestureDir` |
+| keys on an inline deck (history · session · corridor) | `_miniReg` · `_focusRow` · `_challengeInline` · `challengeLessonNav` · `_lessonRows` — one registry for all three; a deck that takes focus takes it on the deck BOX, never a button (Space/⏎ are activation keys, §6.1) |
 | gi / no-gi exclusion | `giAllows` · `rsAllows` · `_rulesetMask` · `setGiMode` · `cal.avail` · `frame_reachable` |
 | build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |
 

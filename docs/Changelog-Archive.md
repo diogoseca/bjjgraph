@@ -6747,3 +6747,88 @@ pause/resume voids all four claims") has **zero call sites** — `setPaused` nev
 `pick`'s `setPaused(false)` resumes the roll with the pane still open and `_paneAutoPaused` still
 latched, so the game runs behind an open pane, which pane law forbids. Both are live in
 production; neither is in this change's scope.
+
+## v1.175.0 — THE CORRIDOR GETS THE KEYBOARD (AND ⏎ BECOMES THE COMMIT KEY)
+
+**Owner:** "i want to have keys navigation especially for the flashcards in the challenges like
+up arrow down arrow left right space enter etc".
+
+**What was true.** Three surfaces render the same inline deck through `_miniDeck`, and only two
+of them could be worked from the keyboard. `_onKey`'s arrow branches gated on the History tab
+(`_viewMode === "history" && _drillView === "home"`), on `_sessionInline()`, or on an open drill;
+the Challenges corridor matched none of them, and `openMini` never set `_focusRow`, so there was
+nothing for ←/→/Space to resolve even if a branch had run. Worse than dead: the corridor is built
+entirely out of `<button>`s, and v1.113.4 had deliberately made Space yield to a focused control,
+so the Space that followed a click on ▸ ACTIVATED the ▸ and shut the deck the player had just
+opened. That is the same complaint v1.113.4 answered ("keyboard shortcuts don't really work in
+challenges") arriving through the other door.
+
+**And grading in the corridor was broken by mouse too, silently.** `gradeRecall` fires beats;
+`noteChallenges` repaints the Challenges tab whenever one advances durably; `renderChallenges`
+rebuilds the ladder from scratch. So a Got-it CLOSED the deck being worked — and because
+`gradeMini` credited BEFORE walking the deck on, the `doNext()` that followed rendered into the
+wrap the repaint had already detached: right state, dead screen (§6.6). Measured on the built
+site: the THIRD grade of a lesson is the one that repaints (that is where `lessonDone` flips and
+emits `lesson_done`); grades one and two move nothing durable and left no trace of the defect.
+
+**What is true now.**
+
+- **One resolver, five callers.** `_focusedMini()` (app.src.jsx) answers "which inline deck do the
+  keys drive", scoped to the surface actually showing. `_focusRow` + `_miniReg` are ONE registry
+  for three surfaces (`c<n>` history, `s<i>` session, `lesson:<deckKey>` corridor) and nothing
+  clears the row handle on a tab switch — so before this, the corridor's new keys could have
+  resolved a handle Last-rolls left behind: ←/→ paging a hidden deck, ⏎ GRADING a card nobody was
+  shown. It was the fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is
+  where §6.5 says to name the seam instead.
+- **↑/↓ walk the ladder** (`challengeLessonNav` + the `_lessonRows` registry, rebuilt with the rows
+  it indexes), opening each row's deck as it arrives. Cold start opens the FRONTIER row, not the
+  top of the corridor: the tab already scrolled there, so the first ↓ must not yank the reader five
+  belts up. Visibility is asked of the DOM (`offsetParent`) — a folded belt is `display:none` and
+  keeps every row, so the CSS is the only honest authority, and that same check is what makes a
+  fold hand the keyboard back and an unfold hand it straight back.
+- **⏎ is the commit key.** `doEnter` in `_miniDeck`: face-down → reveal, revealed → grade Got-it and
+  walk on, already graded → next card. Three states, one verb, because a key that sits dead reads
+  as broken. The Got-it button now prints a `⏎` chip beside Reveal's `space` chip.
+- **Focus moves onto the deck BOX** (`tabindex="-1"`) when a deck opens, which is the whole reason
+  Space and ⏎ can be claimed at all: a container owns neither activation key, so v1.113.4's yield
+  stays intact and Tab-then-Space on a lesson row still opens it.
+- **An open deck survives a repaint** — the `_histRow` pattern (`_openLessonRid` + a re-open at the
+  foot of the lesson loop, with focus FALSE so a background repaint steals nothing) — and
+  `gradeMini` now walks the deck on BEFORE crediting, so the rebuild paints the card the player is
+  owed.
+
+**Payload.** The change itself measured **+2,578 B raw / +695 B gzip** on the branch before the
+merge. On the merged tree (dev's sticky layers and the Last-rolls repaint underneath it) the boot
+payload reads **1,385,220 / 1,600,000 raw** and **313,729 / 330,000 gzip**, and the
+browser-measured first hand **1,619,544 raw / 385,684 gzip** against the ceiling v1.173.1 had just
+raised to **386,400** — about 700 B of headroom left, which is the next ship's problem and is
+recorded here so it is not a surprise. `tests/artifacts/first_hand_payload.json` carries the
+observation, and it is re-measured (a few bytes either way) by every run of
+`payload-first-hand.spec.ts`.
+
+**Mutation** (each rebuilt and run against `e2e/journeys/keyboard.spec.ts`; 10 of 10 killed):
+
+| mutant | killed by |
+|---|---|
+| `challengeLessonNav` call removed | "↓ opened the next lesson's deck" |
+| `openMini` never claims `_focusRow` | "and took the keyboard focus row" |
+| focus never moves off the ▸ | "with DOM focus moved off the ▸ button onto the deck box" |
+| no re-open after a repaint | "the deck is STILL OPEN across that repaint" · "the open deck came back" |
+| ⏎ branch removed | "⏎ credited the card through gradeRecall" |
+| `_focusedMini` visibility check dropped | "→ walks nothing once the deck is folded away" |
+| `_focusedMini` surface scoping dropped | "→ did not page the deck on the tab we left" |
+| `gradeMini` credits before walking on | "not sitting on the graded card" |
+| `_lessonRows` not rebuilt per render | "→ walked to the second card" |
+| Space no longer reaches an inline deck | "Space revealed the answer" |
+
+**Spec:** `e2e/journeys/keyboard.spec.ts` +4 journeys (corridor pages/flips/grades; a repaint
+leaves no dead keys, incl. fold and unfold; keys never reach a deck on the tab you left; Space and
+⏎ still activate a Tab-focused corridor button). Docs: `docs/Neural.md` pane section, the Settings
+→ Shortcuts legend (its rows now cover all four deck surfaces), CLAUDE.md §5 seam index.
+
+**Environment note, for anyone re-running this:** the first full-suite attempt reported 381
+failures, every one of them `net::ERR_INSUFFICIENT_RESOURCES` / `Target crashed` with no product
+assertion anywhere. Root cause was a FULL DISK (`/` at 100%, 48 KB free) with three worktrees
+building concurrently — Chromium could not launch at all (`about:blank` failed too). The same
+files pass in seconds with a few hundred MB free. Read the failure MESSAGE before reading a red
+suite as a regression.
