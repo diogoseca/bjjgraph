@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.174.0** — [EVERY ROLL YOU PLAYED REACHES THE SHELF, AND THE SHELF REPAINTS](#v1-174-0-every-roll-you-played-reaches-the-shelf)
 - **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
 - **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
 - **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
@@ -174,7 +175,7 @@ by `grep` and does not need an index row.
 - `openListPicker` — v1.129.8, v1.126.0, v1.103.2, v1.101.0, v1.99.4
 - `optionsFor` — v1.123.0, v1.119.0, v1.116.0, v1.104.3, v1.103.0
 - `setEvent` — v1.129.0, v1.128.1, v1.104.1, v1.81.4, v1.81.3
-- `_pastRolls` — v1.109.0, v1.104.5, v1.76.0, v1.68.0
+- `_pastRolls` — v1.174.0, v1.109.0, v1.104.5, v1.76.0, v1.68.0
 - `challenges` — v1.109.0, v1.76.0, v1.74.0, v1.68.0
 - `confirmPlayFrom` — v1.129.3, v1.126.0, v1.114.2, v1.76.0
 - `displayName` — v1.126.0, v1.125.0, v1.114.0, v1.103.0
@@ -215,7 +216,7 @@ by `grep` and does not need an index row.
 - `pairMid` — v1.127.0, v1.125.0, v1.114.3
 - `regenerate_neural_data.py` — v1.119.0, v1.103.0, v1.81.0
 - `rep` — v1.128.0, v1.126.0, v1.125.0
-- `rollLog` — v1.109.0, v1.104.5, v1.76.0
+- `rollLog` — v1.174.0, v1.109.0, v1.104.5, v1.76.0
 - `scrollLeft` — v1.129.3, v1.129.1, v1.123.0
 - `tsc` — v1.129.4, v1.127.0, v1.126.0
 - `tut.done` — v1.104.0, v1.74.0, v1.68.0
@@ -6653,8 +6654,101 @@ roles and unqualified lower roles keep their orb-following behavior.
 `draw()` paths with the reported defender node, records the actual `fillText` calls, and checks
 both LODs. `e2e/journeys/graph-naming.spec.ts` renders the real canvas at split and merge scales,
 asserts the published geometry, and reads back positive pixels from every affected row.
+---
 
-## v1.174.0 — THE CORRIDOR GETS THE KEYBOARD (AND ⏎ BECOMES THE COMMIT KEY)
+## v1.174.0 — EVERY ROLL YOU PLAYED REACHES THE SHELF, AND THE SHELF REPAINTS
+
+Owner: *"please look into and fix why last rolls is not updating as i click outcomes and continue
+my roll, etc. it seems stuck - but in the past it worked, grouping steps into rolls (groups of
+steps collapsible/expandable with inline flashcards too or something i think"*.
+
+The grouping was never removed. Two defects in the roll-close path meant the groups mostly never
+arrived, and when they did the tab was not repainted to show them.
+
+**Reproduced first, in production mode.** The e2e harness could not see either defect: every
+journey that advances a roll re-opens the pane afterwards, so `buildDrillPanel`'s repaint always
+covered for the missing one. So the app was driven in a real headless Chromium against the shipped
+bundle and the real payload, clicking tray cards and Go like a player, with Last rolls open the
+whole time. Session 1: **6 picks, 5 rolls ended, 1 row on the shelf.** Session 2: **2 rolls ended,
+0 rows.** The pane's DOM matched `rollLog` on every sample — the render was never the problem.
+
+**Defect 1 — `rollLog.length > 1` discarded the ordinary short roll.** Three copies of the archive
+block (`startRoll`, `rollFromPosition`, `_enterRoam`) each carried
+`if (this._played && this.rollLog && this.rollLog.length > 1)`. `_played` (set in `_tick` on the
+first unpaused frame with a live hand, v1.68.0) is the honest "was this a roll" test; `> 1` was its
+pre-`_played` proxy for "did anything happen" and had become the half that threw real rolls away.
+You attack from the state you opened in and either finish it — `resolve` → `endRound("win")` — or
+get caught there and lose the escape: the log holds exactly ONE state, because a landing that
+returns you to the same state is deduped by design. Beat trail of one such roll, verbatim:
+`land(Standing Position Top) → commit(Kimura from Standing) → impact_fail → opponent_attack →
+caught → panic_drill_opened → defeat_drain → roll_end{outcome:"lose", moves:0}` — and then nothing,
+anywhere in the app, that this had ever happened.
+
+**Defect 2 — nothing repainted the tab when a roll was filed.** `rollLog` and `_pastRolls` ARE
+what Last rolls draws, and the only refresh was `buildDrillPanel`, i.e. THE NEXT LANDING. Free roam
+(background tap ×2, v1.134.0) has no next landing: measured with the tab open, `rollLog` went 3 → 0
+and `_pastRolls` 0 → 1 while the DOM kept all three rows under **This roll** and showed **zero**
+`[data-past-roll]` rows — frozen on a roll that no longer existed, hiding the one it had just
+archived, until something else happened to land. That is the "it seems stuck" report exactly.
+
+**The fix is one seam, `_closeRoll()`** — the three copies deleted, `rollLog = []` now written in
+exactly one place in the file (§6.5: collapse to one named seam and DELETE the copy). It archives,
+clears, says which it did, and repaints:
+
+- **Predicate:** played AND (two states OR a verdict (`_lastOutcome`, written by `endRound`) OR a
+  move committed in it). The third is `_rollActed`, set at `enterAttempt`'s `commit` beat, because
+  the log cannot see an attempt that failed and left you where you stood. A board that was only
+  staged and abandoned still files nothing — the case `> 1` was really protecting.
+- **Both branches emit a beat** (§6.6, absence produces a plausible answer): `roll_archived
+  {states, outcome, shelf}` or `roll_discarded {states, played, acted}`. "Filed nothing" can no
+  longer read like "never looked".
+- **`_refreshHistoryRows()`** — `_replayRefreshRows` renamed, since it now serves two writers of the
+  data the tab draws (the film, and a roll being filed). Same guard as `buildDrillPanel`: History
+  shown, home view, no study takeover — an open Explore search or Challenges scroll is never
+  stomped. Pane law is untouched: this repaints a body, it never opens or closes the pane.
+- Stale `c*` row latches (`_openRow`/`_focusRow`/`_openMini`/`_rollFocus`) are dropped with the roll
+  they pointed at, so no orphan row re-opens on the next one.
+
+**One-state rolls needed a label.** `_pastRollRow` composed its own `start → end` while
+`replayLabel` composed the same sentence separately — two answers to one question, invisible until
+a one-state roll made them disagree ("Mount → Mount"). Both now read `replayEnds(roll)` →
+`{from, to}`, where a single-state roll's `to` is the FINISH (`endRound`'s third argument, the
+submission you hit or were caught in) and `null` for a scramble reset, which prints the start name
+once. Rows read *"Truck → Calf Slicer from Truck · 1 state · won"*, the ⟲ button's accessible name
+matches, and the film of such a roll is `[wide, land, finish]` — `replaySteps` already handled it,
+so nothing was gained by hiding the roll. Plural fixed with it ("1 states").
+
+**Measured after (same harness, tab open):** rolls ended = rolls archived = `[data-past-roll]`
+rows, at every sample, across 8 picks. Free roam: rows 3 → 0, shelf rows 2 → 3, on the tap, with no
+landing in between. Prevalence of the discarded roll, re-derivable:
+`tests/artifacts/_last_rolls_archive_probe.mjs` (production mode, no rigging, always presses the
+first EDGE-ranked card) — **9 rolls ended over three runs, 4 of them one-state (44%)**.
+
+**Mutation** (each rebuilt with `npm run dev:neural:app` and run against the named journey; 2 of 2
+killed):
+
+| mutant | journey | result |
+|---|---|---|
+| `acted = log.length > 1` (the old predicate) | …first exchange still becomes a past roll | killed ("the roll that just ended is on the shelf" → null) |
+| `_refreshHistoryRows()` dropped from `_closeRoll` | free roam files the roll it ends… | killed (`[data-past-roll]` count 0, stale rows kept) |
+
+**Spec:** `e2e/journeys/pane-history.spec.ts` +2 journeys. Regression: pane-history 7/7,
+history-replay 6/6, pane-law 7/7, play-from-row 4/4, roll-card 13/13 (including the background
+ladder), first-impression 7/7, newcomer-story 1/1, golden-path 3/3, `test:units` 229/229.
+Doc: `docs/Neural.md` Last-rolls paragraph extended.
+
+**Not touched, deliberately:** the archive still happens when the NEXT roll starts, not in
+`endRound` — `pane-history.spec.ts`'s "the history survives the round ending" pins that a row you
+are reading when the round ends stays readable, and moving the archive earlier would empty
+**This roll** under the reader's hands.
+
+**Found while reading, not fixed here:** `_clearPauseLatches()` (v1.113.4, "any deliberate
+pause/resume voids all four claims") has **zero call sites** — `setPaused` never calls it. And
+`pick`'s `setPaused(false)` resumes the roll with the pane still open and `_paneAutoPaused` still
+latched, so the game runs behind an open pane, which pane law forbids. Both are live in
+production; neither is in this change's scope.
+
+## v1.175.0 — THE CORRIDOR GETS THE KEYBOARD (AND ⏎ BECOMES THE COMMIT KEY)
 
 **Owner:** "i want to have keys navigation especially for the flashcards in the challenges like
 up arrow down arrow left right space enter etc".
@@ -6704,11 +6798,13 @@ emits `lesson_done`); grades one and two move nothing durable and left no trace 
   owed.
 
 **Payload.** The change itself measured **+2,578 B raw / +695 B gzip** on the branch before the
-merge. On the merged tree (dev's three sticky layers underneath it) the boot payload reads
-**1,385,166 / 1,600,000 raw** and **313,638 / 330,000 gzip**, and the browser-measured first hand
-**1,619,490 raw / 385,585 gzip** against the ceiling v1.173.1 had just raised to **386,400** —
-815 B of headroom left, which is the next ship's problem and is recorded here so it is not a
-surprise. `tests/artifacts/first_hand_payload.json` carries the observation.
+merge. On the merged tree (dev's sticky layers and the Last-rolls repaint underneath it) the boot
+payload reads **1,385,220 / 1,600,000 raw** and **313,729 / 330,000 gzip**, and the
+browser-measured first hand **1,619,544 raw / 385,684 gzip** against the ceiling v1.173.1 had just
+raised to **386,400** — about 700 B of headroom left, which is the next ship's problem and is
+recorded here so it is not a surprise. `tests/artifacts/first_hand_payload.json` carries the
+observation, and it is re-measured (a few bytes either way) by every run of
+`payload-first-hand.spec.ts`.
 
 **Mutation** (each rebuilt and run against `e2e/journeys/keyboard.spec.ts`; 10 of 10 killed):
 

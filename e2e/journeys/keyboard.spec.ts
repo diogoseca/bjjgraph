@@ -210,7 +210,7 @@ test("typing in a field never triggers a shortcut", async ({ page }) => {
 })
 
 /**
- * ── THE CHALLENGES CORRIDOR'S INLINE DECKS (v1.174.0) ──────────────────────────────────────
+ * ── THE CHALLENGES CORRIDOR'S INLINE DECKS (v1.175.0) ──────────────────────────────────────
  *
  * Owner: "I want to have keys navigation especially for the flashcards in the challenges — up
  * arrow down arrow left right space enter." Before this, the corridor was the ONE inline-deck

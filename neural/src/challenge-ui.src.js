@@ -356,7 +356,7 @@ const NG_CHALLENGE_UI_METHODS = {
     return null;
   },
 
-  // ── THE CORRIDOR'S ↑/↓ (v1.174.0, owner: "keys navigation especially for the flashcards in
+  // ── THE CORRIDOR'S ↑/↓ (v1.175.0, owner: "keys navigation especially for the flashcards in
   // the challenges") ── walks the lesson rows the ladder is showing and opens the target's
   // inline deck, which is also what hands it the rest of the keyboard (`openMini` sets
   // `_focusRow`, so ←/→/Space/⏎ land on the deck you just walked to). Same contract as
@@ -542,7 +542,7 @@ const NG_CHALLENGE_UI_METHODS = {
         // sidebar open". `toggleMini` keeps the ▸'s open/close semantics; the row click is
         // open-or-focus (clicking the name of an already-open lesson does not slam it shut).
         //
-        // `focus` is the KEYBOARD half (v1.174.0). Two separate things, both load-bearing:
+        // `focus` is the KEYBOARD half (v1.175.0). Two separate things, both load-bearing:
         //  · `_focusRow = rid` (ALWAYS, focus or not) hands this deck to `_onKey`'s challenge
         //    branch — ←/→ page its cards, Space flips, ⏎ grades — through the SAME `_miniReg`
         //    handles the roll history and the inline session use. One keyboard, not three (§6.5).
@@ -624,7 +624,7 @@ const NG_CHALLENGE_UI_METHODS = {
           frontier: isFrontier,
           open: openMini,
         });
-        // AN OPEN DECK SURVIVES A REPAINT (v1.174.0) — the `_histRow` pattern, and here it is
+        // AN OPEN DECK SURVIVES A REPAINT (v1.175.0) — the `_histRow` pattern, and here it is
         // not a nicety: `gradeRecall` fires beats, `noteChallenges` repaints this tab whenever
         // one advances, so grading a card used to close the deck you were working out from under
         // you. `_deckState[key]` lives on the component, so the rebuilt deck resumes on the same
@@ -709,7 +709,7 @@ const NG_CHALLENGE_UI_METHODS = {
     this._renderingChallengeView = true;
     try {
       this.noteLearningViewOpen("challenges");
-      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.174.0) — exactly as
+      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.175.0) — exactly as
       // renderDrillHome and renderSession rebuild `_miniReg`. It is what ↑/↓ walks AND what
       // `_focusedMini` scopes the keyboard by, so a row that no longer renders (a gi switch
       // drops a gi-only lesson) takes its keys with it instead of leaving them pointed at a

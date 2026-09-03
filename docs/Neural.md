@@ -587,7 +587,7 @@ because the map is written before their first render asks.
 describe material difficulty, never rank or access. The frontier belt drives the default-open
 section, the arrival scroll, the tab belt's dye and stripes, and the cue. Nothing ever re-locks.
 
-**Every inline deck answers the same four keys** (v1.174.0). The roll history's rows, the session
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
 queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
 cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
 folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
@@ -602,6 +602,17 @@ rather than a dead one.
 
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
 the side it was played, clock held) and ⟲ (replay). History is in memory and has never persisted.
+
+**Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
+`_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
+`_enterRoam` — and it archives, clears `rollLog`, emits `roll_archived` / `roll_discarded`, and
+refreshes the tab through `_refreshHistoryRows()`. A roll counts if it ran (`_played`) and either
+visited two states, reached a verdict, or had a move committed in it (`_rollActed`): so the
+one-exchange roll — you finish from the state you opened in, or get caught there — is kept and
+titled by its FINISH via `replayEnds`, while a board that was only staged and abandoned still
+files nothing. Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
