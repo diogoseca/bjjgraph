@@ -6413,3 +6413,25 @@ styling as a technique's `from <origin>` — on Explore rows, both search panes,
 card and the System/concept member rows, and `nodeMatches(n, q)` makes "scarf hold" find Kesa
 Gatame. Never in `t` (deck joins key on `posFamily(n.t)`; the list layer prints the full authored
 name) and never on the canvas (`halfW`/`_fitText` width-bound; `graphName` is the one rule).
+
+**AND THEN THE ROWS SAID "KESA GATAME TOP AKA SCARF HOLD".** Owner: "lol those trailing Top vs
+aka without top is weird. actually the top shouldn't appear there trailing, only in those
+subtitles." The aka only exposed a defect that predated it: every DOM surface printed
+`splitName(n.t).main`, which for a POSITION is the whole title, role artifact included. So three
+surfaces answered one question three ways — the canvas said "Kesa Gatame" (`graphName`, v1.128.1),
+the node card said "Kesa Gatame" (it strips and hands the seat to its own badge, v1.129.x), and
+the Explore row, the search row and pane, the list drawer, the class drawer, the systems and
+concept member rows, the option sheet's "advances to", the feedback "about:" line, the dossier's
+attack and related-position chips and the roll seed name all said "Kesa Gatame Top". Wrong twice
+over: `_deriveDualPairs` gives BOTH pair members the hub's title, so a bottom seat's row read
+"Top" too, and Explore lists SITES (`if (!n.rep) continue`), where no seat is being named at all.
+**`graphName(n)` is now THE name on every surface**, `nodeQual(n)` the dim second line, and a seat
+is named BESIDE a name — never inside it: the node card's badge, the row's `ng-system-role` chip,
+the canvas pair label's own `sub` line (verified live: `_lastPairLabel` publishes
+`main:"Kesa Gatame", sub:"TOP"`). `displayName` short-circuits positions to it, because the
+ambiguity map it consults is keyed on the raw title and could only ever hand back the artifact;
+the four canvas sites that re-implemented the ternary now call the seam. `listItemName` strips for
+positions only — a technique keeps its whole qualified title, which is that function's entire
+point. Untouched deliberately: the wire `t` (deck joins key on `posFamily(n.t)`), `_beltPoolAllows`
+and the deck-key ladder (joins, not display), and the static page's own "Roll started in Mount
+Top" snackbar, where the seat IS the destination and reads as prose.

@@ -362,6 +362,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
 | outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
+| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or `aka <alias>` on a position) · `nodeMatches` (search reads the alias too) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
 | decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
 | a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
