@@ -728,6 +728,21 @@
   min-width: 0;
 }
 
+/* THE DECK BOX TAKES FOCUS (v1.171.0), because the keyboard cannot reach an inline deck from a
+   <button>: Space and Enter are that button's activation keys and the handler yields to them.
+   A container owns neither, so focus parks here and ←/→/Space/Enter reach _onKey. No ring on a
+   programmatic focus (the deck is already the only thing that just changed on screen); a
+   keyboard-initiated one still gets an outline, which is what :focus-visible is for. */
+.ng-lesson-deckbox:focus {
+  outline: none;
+}
+
+.ng-lesson-deckbox:focus-visible {
+  outline: 1px solid rgba(120, 150, 255, 0.45);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
+
 .ng-challenge-checkpoint,
 .ng-challenge-capstone > button {
   padding: 0 10px;
