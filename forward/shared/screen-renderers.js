@@ -38,13 +38,6 @@ import { listPicker, shareCue } from "./components-share.js";
 import { defaultContext } from "./fixtures.js";
 import { icon } from "./icons.js";
 
-function intro({ firstRun = false } = {}) {
-  return `<section class="ng-intro" data-production-selector=".ng-intro">
-    <h1>${firstRun ? "Your first roll." : "Roll the graph."}</h1>
-    <p>${firstRun ? "Choose a move, answer what you know, and watch the state machine react." : "A live roll plays out across the map. Choose your move, or let it flow."}</p>
-  </section>`;
-}
-
 function pausedChip({ staged = false } = {}) {
   return `<div class="paused-chip ng-paused">${icon("pause", 11)} ${staged ? "STAGED · CLOCK HELD" : "PAUSED"}</div>`;
 }
@@ -90,8 +83,6 @@ export function gameScreen(options = {}, context = defaultContext) {
     active = true,
     sparse = false,
     signedIn = false,
-    showIntro = false,
-    firstRun = false,
     toast = null,
     landing = null,
     tray = null,
@@ -149,7 +140,6 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${graphField({ muted: !active || sparse, lit, litLabel, litPath })}
     ${brand()}
     ${accountBubble({ signedIn, open: accountOpen })}
-    ${showIntro ? intro({ firstRun }) : ""}
     ${toast ? eventToast(toast) : ""}
     ${landing ? landingCard(landing, context) : ""}
     ${tray ? optionTray({ ...tray, ruleset: tray.ruleset || options.ruleset || null, context }) : ""}
