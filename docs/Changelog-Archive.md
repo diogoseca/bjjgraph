@@ -6703,7 +6703,12 @@ emits `lesson_done`); grades one and two move nothing durable and left no trace 
   `gradeMini` now walks the deck on BEFORE crediting, so the rebuild paints the card the player is
   owed.
 
-**Payload:** +2,578 B raw / +695 B gzip (1,375,947 / 1,600,000 raw, 311,040 / 330,000 gzip).
+**Payload.** The change itself measured **+2,578 B raw / +695 B gzip** on the branch before the
+merge. On the merged tree (dev's three sticky layers underneath it) the boot payload reads
+**1,385,166 / 1,600,000 raw** and **313,638 / 330,000 gzip**, and the browser-measured first hand
+**1,619,490 raw / 385,585 gzip** against the ceiling v1.173.1 had just raised to **386,400** —
+815 B of headroom left, which is the next ship's problem and is recorded here so it is not a
+surprise. `tests/artifacts/first_hand_payload.json` carries the observation.
 
 **Mutation** (each rebuilt and run against `e2e/journeys/keyboard.spec.ts`; 10 of 10 killed):
 
