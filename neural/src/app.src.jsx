@@ -3976,7 +3976,7 @@ class Component extends DCLogic {
   }
   _pastRollRow(roll, decks) {
     const log = roll.log || [];
-    const start = log[0], end = log[log.length - 1];
+    const start = log[0];   // `end` lives in `replayEnds` now — the row prints what that returns
     const oc = { win: { c: "#7ee0a8", t: "won" }, lose: { c: "#e8889e", t: "tapped" }, reset: { c: "#7e8aa3", t: "reset" } }[roll.outcome] || { c: "#7e8aa3", t: "ended" };
     const box = document.createElement("div");
     box.style.cssText = "margin:0 -8px;";
@@ -3984,11 +3984,15 @@ class Component extends DCLogic {
     r.setAttribute("data-past-roll", String(roll.ts));
     r.style.cssText = "display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:8px;cursor:pointer;transition:background .12s;";
     const label = this.replayLabel(roll);
+    // ONE COMPOSER FOR "WHERE THIS ROLL WENT" (`replayEnds`), read here as markup and by
+    // `replayLabel` as a sentence — the row title used to compose its own `start → end` and
+    // therefore disagreed with the ⟲ button's own label the moment a one-state roll appeared.
+    const ends = this.replayEnds(roll);
     r.innerHTML =
       '<span style="flex:none;width:8px;height:8px;border-radius:50%;background:' + oc.c + ';box-shadow:0 0 6px ' + oc.c + '55;"></span>' +
       '<div style="flex:1;min-width:0;">' +
-        '<div style="font-size:12.5px;font-weight:600;color:#c2cce0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (start ? start.name : "?") + ' <span style="color:#5d6883;">\u2192</span> ' + (end ? end.name : "?") + '</div>' +
-        '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + log.length + ' states \u00b7 ' + oc.t + ' \u00b7 ' + this._agoLabel(roll.ts) + '</div>' +
+        '<div style="font-size:12.5px;font-weight:600;color:#c2cce0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + ends.from + (ends.to ? ' <span style="color:#5d6883;">\u2192</span> ' + ends.to : '') + '</div>' +
+        '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + log.length + (log.length === 1 ? ' state \u00b7 ' : ' states \u00b7 ') + oc.t + ' \u00b7 ' + this._agoLabel(roll.ts) + '</div>' +
       '</div>';
     // \u2500\u2500 THE ROW'S TWO QUIET CONTROLS (v1.106.5, owner: "a play from here and a replay button") \u2500\u2500
     // They are 12px apart, the same miss-distance a list row keeps between Share and Delete: these
@@ -9155,12 +9159,13 @@ class Component extends DCLogic {
     if (this._roam) return;
     this._dropExpiryEvent(); // roaming away — the expiry sentence lets go (v1.138.0)
     this._roam = true;
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
-    this.rollLog = []; this._played = false;
+    // FREE ROAM ENDS THE ROLL — AND IT IS THE ONE END WITH NO LANDING BEHIND IT. Every other
+    // path reaches `enterLand` -> `buildDrillPanel` a second later, which is what used to repaint
+    // Last rolls; roam never lands again, so the tab sat frozen on the rows of a roll that no
+    // longer existed while the roll it had just archived stayed invisible. `_closeRoll` owns the
+    // repaint, which is why this is one call and not a fourth copy of the archive block.
+    this._closeRoll();
+    this._played = false;
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
@@ -13025,15 +13030,10 @@ class Component extends DCLogic {
       const o = this.techniqueOrigin(this.nodes[nodeIdx]);
       if (o.idx >= 0) { posIdx = o.idx; seatRole = o.role; }
     }
-    // a roll that never played is not a roll: restaging over it archives nothing (see _played)
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
+    // restaging ends the roll you were in: archive it, clear it, repaint Last rolls — one seam
+    this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
-    this._lastOutcome = null; this._lastFinish = null;
-    this.rollLog = []; this._lastActor = null; this._currentDeckKey = null;
+    this._lastActor = null; this._currentDeckKey = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
@@ -13195,10 +13195,26 @@ class Component extends DCLogic {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
   }
-  replayLabel(roll) {
+  /**
+   * WHERE AN ARCHIVED ROLL WENT — `{from, to}`, the ONE composer for that question. The Last-rolls
+   * row draws it as markup (a styled arrow) and `replayLabel` speaks it as a sentence, so the row
+   * title and the ⟲ button's accessible name cannot disagree.
+   *
+   * A ROLL THAT ENDED WHERE IT STARTED STILL WENT SOMEWHERE: one-state rolls only reach this shelf
+   * at all since `_closeRoll` stopped discarding them, and "Mount → Mount" is not what happened —
+   * the FINISH is (`endRound` records the submission you hit, or were caught in). With no finish
+   * (a scramble reset) `to` is null and the start name stands alone rather than twice.
+   */
+  replayEnds(roll) {
     const log = (roll && roll.log) || [];
     const a = log[0], b = log[log.length - 1];
-    return (a ? a.name : "?") + " → " + (b ? b.name : "?");
+    const from = (a && a.name) || "?";
+    if (log.length === 1) { const fin = roll && roll.finish; return { from: from, to: (fin && fin.name) || null }; }
+    return { from: from, to: (b && b.name) || "?" };
+  }
+  replayLabel(roll) {
+    const e = this.replayEnds(roll);
+    return e.to ? e.from + " → " + e.to : e.from;
   }
   /**
    * PURE: an archived roll -> the ordered beats of its film. One `land` per state, one `sweep` per
@@ -13319,7 +13335,7 @@ class Component extends DCLogic {
     this.track("neural_roll_replayed", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null });
     this._replayBeat("roll_replay_start", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null, reduced: reduced });
     this._renderReplayBar();
-    this._replayRefreshRows();
+    this._refreshHistoryRows();
     this._replayStep();
     return true;
   }
@@ -13396,11 +13412,15 @@ class Component extends DCLogic {
     this._clearReplayBar();
     if (this._replayAutoPaused) { this._replayAutoPaused = false; this.setPaused(false); }
     this._replayBeat("roll_replay_end", { reason: reason || "stopped", step: Math.max(0, R.i), steps: R.steps.length });
-    this._replayRefreshRows();
+    this._refreshHistoryRows();
     return true;
   }
-  /** The History rows show which roll is playing, so the ⟲ that started it can offer to stop it. */
-  _replayRefreshRows() {
+  /** THE ONE REPAINT OF THE LAST-ROLLS BODY, for every writer of the data it draws: the film
+   *  (rows show which roll is playing, so the ⟲ that started it can offer to stop it) and
+   *  `_closeRoll` (a roll leaving `rollLog` for `_pastRolls`). Guarded, not conditional on the
+   *  caller: an open Explore search or Challenges scroll must never be stomped, and a study
+   *  takeover owns the pane. `buildDrillPanel` carries the same guard for the roll loop. */
+  _refreshHistoryRows() {
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
   }
   /**
@@ -13590,6 +13610,57 @@ class Component extends DCLogic {
     }
     return { idx: pool[pool.length - 1], weighted: true }; // float slack at u→1
   }
+  /**
+   * ── ONE ANSWER TO "WAS THAT A ROLL, AND WHERE DID IT GO?" ────────────────────────────────
+   *
+   * `startRoll`, `rollFromPosition` and `_enterRoam` each end the roll in front of the player,
+   * and each carried its own copy of the archive block. Two defects lived in those copies, both
+   * of which the owner reported as "Last rolls is stuck, it used to group my rolls":
+   *
+   *  · `rollLog.length > 1` DISCARDED, silently, any roll that ended on its first exchange —
+   *    which is the ordinary short roll: you attack from the state you opened in and either
+   *    finish it or get caught there, so the log holds exactly one state. Measured in a real
+   *    browser on the shipped bundle: 5 of 6 rolls in one session and 2 of 2 in another left NO
+   *    row anywhere; the rate is re-derivable, unrigged, at 44% of rolls that ended
+   *    (`tests/artifacts/_last_rolls_archive_probe.mjs`, which also asserts shelf == rows).
+   *    `_played` is the honest "was this a roll" test;
+   *    `> 1` was its pre-`_played` proxy for "did anything happen" and had become the half that
+   *    threw real rolls away. The evidence that a one-state roll IS a roll: it reached a VERDICT
+   *    (`_lastOutcome`, written by `endRound`) or the player COMMITTED a move in it
+   *    (`_rollActed`, written at `enterAttempt`'s `commit` beat — the log dedupes consecutive
+   *    landings on the same state, so a failed attempt that leaves you where you stood is an
+   *    exchange the log cannot see). A board that was merely staged and abandoned still archives
+   *    nothing, which is the case `> 1` was really protecting.
+   *  · NOTHING REPAINTED THE PANE. `rollLog` and `_pastRolls` ARE what Last rolls draws, and the
+   *    only refresh in the app was `buildDrillPanel` — i.e. THE NEXT LANDING. See `_enterRoam`.
+   *
+   * The seam therefore owns the whole transition: archive, clear, SAY WHICH IT DID, repaint. Both
+   * branches emit a beat because §6.6 forbids "archived nothing" and "never looked" printing the
+   * same thing — `roll_archived` carries the state count and the shelf depth, `roll_discarded`
+   * carries the reason it was not a roll.
+   *
+   * Callers keep their own per-roll resets (`_lastActor`, `_currentDeckKey`, `_played`, `_roam`):
+   * this owns the archived RECORD and nothing else.
+   */
+  _closeRoll() {
+    const log = this.rollLog || [];
+    const acted = log.length > 1 || !!this._rollActed || !!this._lastOutcome;
+    if (log.length && this._played && acted) {
+      this._pastRolls = this._pastRolls || [];
+      this._pastRolls.unshift({ log: log.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
+      if (this._pastRolls.length > 40) this._pastRolls.pop();
+      this.fx("roll_archived", { states: log.length, outcome: this._lastOutcome || "reset", shelf: this._pastRolls.length });
+    } else if (log.length) {
+      this.fx("roll_discarded", { states: log.length, played: !!this._played, acted: acted });
+    }
+    this.rollLog = []; this._rollActed = false;
+    this._lastOutcome = null; this._lastFinish = null;
+    // the rows that just went away, and the group that just appeared, are both on screen NOW
+    if (this._openRow && /^c/.test(this._openRow)) { this._openRow = null; this._focusRow = null; this._openMini = null; }
+    this._rollFocus = null;
+    this._refreshHistoryRows();
+  }
+
   startRoll() {
     this.stopReplay("roll");   // a new roll ends the film first (see rollFromPosition)
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
@@ -13597,16 +13668,10 @@ class Component extends DCLogic {
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this._combo = 0; this._landPending = false; this._updateComboChip(); // momentum is per-MATCH: a new roll starts cold
     this.track("neural_roll_started", {});
-    // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
-    // — but only if it ever actually played (a staged roam is not a roll; see _played)
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
+    // the roll that just ended becomes a PAST roll here — archive, clear, repaint (_closeRoll)
+    this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
-    this._lastOutcome = null; this._lastFinish = null;
-    this.rollLog = []; this._lastActor = null;
+    this._lastActor = null;
     this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -14100,6 +14165,10 @@ class Component extends DCLogic {
     this._disarmLandClock();
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
+    // THE COMMIT IS THE PROOF THIS WAS A ROLL (see _closeRoll). `rollLog` cannot carry it: it
+    // dedupes consecutive landings on the same state, so an attempt that fails and leaves you
+    // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
+    this._rollActed = true;
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
