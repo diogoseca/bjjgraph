@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.170.3** — [THE PINCH LEFT THE STAGED TRACKING RUNNING](#v1-170-3-the-pinch-left-the-staged-tracking-running)
 - **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
 - **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
@@ -6351,3 +6352,40 @@ expanded on payload land, board empty.
 (expanded section, folded neighbours, no seat/hand/stage, no `options_dealt`/`roll_staged`
 beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
 `docs/Neural.md` reference-law paragraph extended.
+
+## v1.170.3 — THE PINCH LEFT THE STAGED TRACKING RUNNING
+
+**Owner**, on `/Positions/Mount/Bottom` (dev deploy): *"while zooming in, the landcard flickers."*
+
+**What was true.** A URL arrival is a STAGED board — paused from birth, `_staged` set, nothing
+played — and v1.114.4 made such a board re-aim its framing every frame (`stagedIdle` in
+`updateCamera` → `rollCamTarget`) until the user takes the camera, gated by `_stagedCamFree`. The
+comment beside the gate says "a real pan, pinch or wheel clears it". Two of three did: the pan
+handler and the wheel handler both wrote `_stagedCamFree = false`; the pinch branch of
+`pointermove` called only `releaseCamera()`, which drops a flight LEASE and nothing else. So on a
+phone the fingers wrote `cam.vw` and `camTarget.vw`, then the very next frame `stagedIdle` held,
+`rollCamTarget` rewrote `camTarget`, and the tween stepped the camera back toward the staged
+framing — one step out, one step back, per frame — and the moment the fingers lifted the camera
+flew home. Desktop never saw it: the wheel is the desktop zoom and it clears the gate.
+
+**Measured** on dev.bjjgraph.pages.dev at 390x844, CDP touch pinch on bare canvas, `cam.vw` per
+rAF: `130.48` at rest → `108.46, 110.77, 93.15, 80.71, 84.14, 71.89, 62.12, 66.26, 56.36, 60.62 …
+24.70` during the pinch (every other frame reverses), then `29.6 → 118.2` in ~1.5s after touchEnd
+with `camTarget.vw` pinned at `130.48` throughout and `_stagedCamFree` still `true`. With
+`_stagedCamFree` forced false before the same gesture: 185 frames, **0 reversals**, rests at
+`22.5`. The "flicker" is the board jittering under the landing card; the card itself never moved
+(MutationObserver on the card: zero attribute or child mutations during the gesture).
+
+**What is true now.** The pinch branch clears both latches, exactly as the pan does:
+`this.releaseCamera(); this._stagedCamFree = false;`. One line; the reasoning and the numbers sit
+above it in `attachInput`.
+
+**Mutation** (dropping `_stagedCamFree = false` from the pinch branch, rebuilt, run against the
+new journey): killed twice over — `free` reads true at lift, and with that assertion commented out
+the camera-holds assertion goes red on its own (`vw` 116.3 against a `< 78.4` bar).
+
+**Spec:** `e2e/journeys/dual-pair.spec.ts` +1 journey, `pinch on a staged board` — a 390x844
+`hasTouch` describe, real two-point touch through `Input.dispatchTouchEvent` (Chromium turns it
+into the `pointerType: "touch"` events the wrap's pinch branch reads; `page.mouse` cannot make two
+pointers). Asserts the staged posture first, that the pinch begins on the canvas, then `free`
+false at lift, zoom held, and `camTarget.vw` still equal to `cam.vw` 1.5s later.

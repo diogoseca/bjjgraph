@@ -15195,7 +15195,17 @@ class Component extends DCLogic {
         const sa = this.W / vw;
         this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
         this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
-        this.releaseCamera(); // a pinch is the user taking the camera; never fight a live gesture
+        // A PINCH IS THE USER TAKING THE CAMERA — never fight a live gesture. BOTH latches, not
+        // one: `releaseCamera()` drops a flight lease, and `_stagedCamFree = false` ends the
+        // staged board's per-frame re-aim (see `stagedIdle` in updateCamera). The pan and the
+        // wheel always cleared both; the pinch cleared only the lease, so on a URL arrival —
+        // paused from birth, `_staged` set, nothing played — the follow-cam kept writing
+        // `camTarget` from `rollCamTarget` every frame while the fingers wrote `cam.vw`.
+        // Measured on /Positions/Mount/Bottom at 390x844: `cam.vw` sawtoothed 108 → 110 → 93 →
+        // 80 → 84 → 71 → 62 → 66 … (one step toward the fingers, one back toward the staged
+        // framing, per frame) and flew from 24 back to 118 the moment the fingers lifted. The
+        // owner: "while zooming in, the landcard flickers" — the board jittering under the card.
+        this.releaseCamera(); this._stagedCamFree = false;
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
