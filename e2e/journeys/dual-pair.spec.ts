@@ -679,7 +679,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
       const sx = (mid.x - a.cam.cx) * scale + a.W / 2
       // the focus mark is 1.28x the orb (v1.114.0), which is the silhouette the label clears
       const r = Math.max(f.r * K * scale, partner ? partner.r * K * scale : 0) * 1.28
-      const w = a._labelWidthPx(f, f.pi >= 0)
+      const w = a._labelWidthPx(f)
       return { W: a.W, orbSx: sx, left: sx - r, right: sx + r + 11 + w, labelW: w }
     })
 
@@ -740,7 +740,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
       const p = f.pi >= 0 ? a.nodes[f.pi] : null
       const sx = (a.pairMid(f).x - a.cam.cx) * scale + a.W / 2
       const r = Math.max(f.r * K * scale, p ? p.r * K * scale : 0) * 1.28
-      const lw = a._labelWidthPx(f, f.pi >= 0)
+      const lw = a._labelWidthPx(f)
       return {
         W: a.W,
         min: a.NG_LABEL_LEFT_MIN,

@@ -234,14 +234,16 @@ survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck 
 cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
 (owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.
 
-### The pair label (v1.135.0)
+### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
-The pair label group anchors at the pair MIDLINE — "the name never moves" — but **the role word
-rides its orb**: `subY = min(nameY − 18, orbY + 4)` above (mirrored below), clamped to the
-block's clearances, so an ordinary ~35px pair keeps the old offsets (±1px) and a wide roll-zoom
-split puts TOP beside the blue orb it names instead of floating equidistant from both members
-(the owner's "why does top mount look red" — the eye bound the midline label to the red bottom
-orb). Published as `_lastPairLabel.subY`; pinned by `dual-pair.spec.ts`.
+The pair label group anchors at the pair MIDLINE — "the name never moves". A role word adjacent to
+the headline **rides its orb**: `subY = min(nameY − clearance, orbY + 4)` above (mirrored below), so
+a wide split binds TOP to the blue orb it names instead of the red bottom orb. One exception keeps
+a qualified lower label legible: `from …` and DEFENDING/ESCAPING are adjacent subtitle rows, one
+`NG_LABEL_LEAD` apart, rather than letting the lower role chase its orb and open a large hole in the
+stack. At merge scale `richLabel` preserves the same short headline plus qualifier row; zoom never
+recomposes `from …` into the title. Geometry is published through `_lastPairLabel` and
+`_lastRichLabel`; the pair behavior is pinned by `dual-pair.spec.ts` and `graph-naming.spec.ts`.
 
 ### The turn-based shell (v1.134.0)
 
@@ -494,11 +496,12 @@ purpose, because they are asking about the exchange, not about your hand.
 `deg` is geometry and stays split; `siteDeg` is the state and is the hub's. `cal.ev` goes on
 **both** halves whole, because the side you are playing can differ from the half you stand on.
 
-**Labels.** `pairGroup` renders one label group for the pair: the name pinned to the midline, the
-qualifier beneath it, and the role subtitle on the outside of whichever half you point at. When a
-qualifier renders, the two-row block straddles the midline. Role words are per category — positions
-**TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions **ATTEMPTING/DEFENDING**. The graph
-never bakes a role into a name (`graphName`).
+**Labels.** `pairGroup` renders one label group for the pair: the name block pinned to the midline,
+the qualifier beneath the headline, and the role on the side of whichever half you point at. A
+qualified lower role joins that subtitle stack at the same row lead; all other split roles ride
+their orb. `richLabel` keeps the headline and qualifier separate after the pair merges. Role words
+are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions
+**ATTEMPTING/DEFENDING**. The graph never bakes a role into a name (`graphName`).
 
 ---
 
