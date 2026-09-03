@@ -75,7 +75,7 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
-**Three layers, one preference each** (v1.171.0, owner: "it should still be collapsed"). The
+**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
 film row, the card and the hand each collapse from their own ghost ✕ and come back from a dock at
 bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed layer and
 nothing when all are open. The choice is a setting — `landFilm` · `landCard` · `landHand`,
@@ -83,7 +83,7 @@ mirrored in Settings › Rolling — so it holds across landings, reloads and de
 card is **not built**: no question, no clock, no miss, `land_q_skipped {reason:"collapsed"}`
 (the panic drill skips the same way, `panic_skipped`); expanding it mid-landing asks then. A
 collapsed hand is **dealt and hidden** — the roll waits, digits are dead — escapes included
-(v1.171.1, owner: "if I didn't ask to see outcomes don't show them to me"; the catch is announced
+(v1.173.0, owner: "if I didn't ask to see outcomes don't show them to me"; the catch is announced
 as "<name> locked in", nothing more). All three collapsed is a graph browser: click a node, the
 ripple lights what it connects to, nothing docks. `setLayer` is the one writer (`_applyLayers`
 follows a cloud pull too).
@@ -117,8 +117,13 @@ origin position (the engine's states are positions); `_stagedTech = {idx, side}`
 exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
 orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
 consumed at the `_played` latch): the attacking side commits that very technique through the
-ordinary pick path; the defending side gets `enterDefense` — the red rush, vignette burning,
-escape hand, think fast. Any other commit or teardown (`clearOptions`) consumes the latch, so
+ordinary pick path; the defending side of a SUBMISSION gets `enterDefense` on arrival — the red
+rush, vignette burning, escape hand, think fast. The defending side of a TRANSITION is a calm
+staged landing (v1.171.0, owner: "we're not defending against a submission, we're in poor shape
+but calm down"): the attempt card reads from the defender perspective, your hand is the
+defending seat's, the camera keeps `rollCamTarget`'s band, and play waits for the button — the
+same thing the roll loop does, since `opponentDefend` plays a transition as a positional move and
+only ever rushes over a finish. Any other commit or teardown (`clearOptions`) consumes the latch, so
 picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
 resolves to the family's most-connected member instead of falling through to a random weighted
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
@@ -126,7 +131,10 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 
 Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
 familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
-that landing only.
+that landing only. The panic drill is a landing card and wears the same chrome
+(`_landCardChrome`, v1.171.0): its `More ▸` reads the submission's DEFENDER block, `+` captures
+the submission, `✕` hides the drill while the catch and the escapes stay live. On a URL arrival
+the Defender deck is late-bound — the drill opens the moment its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -300,7 +308,7 @@ ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at al
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
-the platform's job); the "see more" hint that also scrolled it was deleted in v1.171.1. A drag
+the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.

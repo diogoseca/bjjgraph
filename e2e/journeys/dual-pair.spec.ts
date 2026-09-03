@@ -376,6 +376,84 @@ test("swapping to the other half holds the camera, and a real pan releases it", 
 })
 
 /**
+ * A PINCH ENDS THE STAGED TRACKING TOO (v1.170.3).
+ *
+ * Owner, on /Positions/Mount/Bottom: "while zooming in, the landcard flickers." A URL arrival is a
+ * staged board — paused from birth, `_staged` set, nothing played — so `stagedIdle` holds and the
+ * follow-cam re-aims `camTarget` from `rollCamTarget` EVERY FRAME until the user takes the camera.
+ * The pan handler and the wheel handler both end that with `_stagedCamFree = false`; the pinch
+ * handler cleared only the flight lease. So on a phone the fingers wrote `cam.vw` and the tracking
+ * wrote it back, one step each per frame: measured on the dev deploy at 390x844, `cam.vw` went
+ * 108 → 110 → 93 → 80 → 84 → 71 → 62 → 66 … and flew from 24 back to 118 as soon as the fingers
+ * lifted. The board jittering under the landing card is the "flicker".
+ *
+ * The gesture is real touch input through CDP (two touch points on bare canvas, above the card),
+ * which Chromium turns into the `pointerType: "touch"` pointer events the wrap's pinch branch
+ * reads — `page.mouse` cannot make two pointers, and calling the handler would test nothing.
+ * KILLS: dropping `_stagedCamFree = false` from the pinch branch — `free` stays true and, after
+ * the fingers lift, the tracking flies the camera back to the staged framing (`held` fails too).
+ */
+test.describe("pinch on a staged board", () => {
+  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
+
+  test("a pinch ends the staged tracking, and the zoom stays where the fingers left it", async ({
+    page,
+  }) => {
+    const j = journey(page)
+    await j.boot(AT)
+    await settle(page, j)
+
+    const read = () =>
+      page.evaluate(() => {
+        const a = (window as Any).__neural
+        return {
+          vw: a.cam.vw as number,
+          tgtVw: a.camTarget.vw as number,
+          free: a._stagedCamFree as boolean,
+          staged: a._staged != null && !a._played && !!a.paused,
+        }
+      })
+    const before = await read()
+    expect(before.staged, "a URL arrival is a staged board").toBe(true)
+    expect(before.free, "…whose framing tracks until the user moves the camera").toBe(true)
+
+    // BARE CANVAS: y=230 is under the announcer and above the card (top ≈ 368 at this height).
+    const hit = await page.evaluate(() => {
+      const el = document.elementFromPoint(195, 230)
+      return el ? el.tagName : "none"
+    })
+    expect(hit, "the pinch starts on the canvas, not on an overlay").toBe("CANVAS")
+
+    const cdp = await page.context().newCDPSession(page)
+    const pts = (d: number) => [
+      { x: 195 - d, y: 230, id: 0 },
+      { x: 195 + d, y: 230, id: 1 },
+    ]
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25).slice(0, 1) })
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25) })
+    for (let i = 1; i <= 20; i++) {
+      await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: pts(25 + i * 6) })
+      await j.advance(50)
+    }
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: pts(145).slice(0, 1) })
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
+    const lifted = await read()
+    expect(lifted.free, "a pinch ends the staged tracking").toBe(false)
+    expect(lifted.vw, "the fingers zoomed in").toBeLessThan(before.vw * 0.6)
+
+    // THE FINGERS ARE GONE, THE CAMERA STAYS. With the tracking still live this is where the
+    // follow-cam takes the zoom back (24 → 118 in ~1.5s on the dev deploy).
+    await j.advance(1500)
+    const held = await read()
+    expect(held.vw, "the camera stays where the user put it").toBeLessThan(before.vw * 0.6)
+    expect(
+      Math.abs(Math.log(held.tgtVw / held.vw)),
+      "and nothing is re-aiming it elsewhere",
+    ).toBeLessThan(0.02)
+  })
+})
+
+/**
  * FIND A PAIR THAT IS NOT THE ONE YOU ARE STANDING IN, well inside the glass and clear of the
  * landing card, and report its two halves plus the midline between them.
  *

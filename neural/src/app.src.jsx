@@ -3141,11 +3141,41 @@ class Component extends DCLogic {
     w.style.animation = "ngDeckExpire " + dsec + "s linear forwards";
     w.style.animationPlayState = this.paused ? "paused" : "running";
   }
-  _scrollFocusedDeck() {    requestAnimationFrame(() => {
+  /**
+   * Bring the OPEN inline deck fully into the pane's scroller — row header, question and Reveal.
+   *
+   * Two defects lived here until v1.172.0 (owner: "when I click one that is below the fold it
+   * doesn't seem to open right, like the scrolling position changes"):
+   *  · It targeted `list.querySelector(".mt")` — the FIRST progress tick in the list. The session's
+   *    rows keep their built deck in the DOM when they collapse (`display:none`, so a reopen is
+   *    free), so once any earlier row had been opened, the first `.mt` was a HIDDEN one, whose rect
+   *    is all zeros, and `scrollTop += (0 - lr.top) - 110` threw the list upwards by the pane's own
+   *    offset. The history home never showed it because `renderDrillHome` rebuilds every row.
+   *  · It always parked the tick at 110px from the top, even when the deck was already in view —
+   *    so walking the queue with ↓/↑ moved the list under a deck the user could already read.
+   * Now: the target is `_openMini.el` (the one deck that is open, on both surfaces) plus the row
+   * above it, and the scroll is the SMALLEST one that shows the whole block; a block taller than
+   * the scroller aligns its top, so the question and the row it belongs to lead. Already fully
+   * visible → no movement at all, which is what "visual continuity" means when paging ↓ then ↑.
+   * Pinned by e2e/journeys/session-scroll.spec.ts.
+   */
+  _scrollFocusedDeck() {
+    requestAnimationFrame(() => {
       const list = this.drillListRef.current; if (!list) return;
-      const mt = list.querySelector(".mt"); if (!mt) return;
-      const tr = mt.getBoundingClientRect(), lr = list.getBoundingClientRect();
-      list.scrollTop += (tr.top - lr.top) - 110;
+      let deck = this._openMini && this._openMini.el;
+      if (!deck || !deck.isConnected || deck.style.display === "none") {
+        // no registered opener (a first paint) — the one deck that is actually laid out
+        deck = Array.prototype.find.call(list.querySelectorAll("[data-mini-deck]"), (el) => el.offsetParent !== null) || null;
+        if (!deck) return;
+      }
+      const row = deck.previousElementSibling;
+      const dr = deck.getBoundingClientRect();
+      const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
+      const lr = list.getBoundingClientRect();
+      const pad = 12;
+      const room = lr.height - 2 * pad;
+      if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
+      else if (dr.bottom > lr.bottom - pad) list.scrollTop += dr.bottom - (lr.bottom - pad);
     });
   }
   menuBtn(label, active, onClick) {
@@ -3669,9 +3699,12 @@ class Component extends DCLogic {
     const newN = fresh.length;
     const num = (v) => '<b style="color:#e9bd70;font-weight:700;">' + v + '</b>';
     const newTxt = num(newN) + ' new';
-    // due counts TECHNIQUES, because techniques are what the due session lists (see dueDeckCount)
-    const due = this.dueDeckCount();
+    // THE CELL COUNTS CARDS — the same `dueCount()` the Challenges band prints (v1.172.0, owner:
+    // "18 cards due" over "35 due" on one pane: "the due cards should be consistent"). The
+    // technique count moved to the tooltip; it is a COVER of those cards (see bucketTechniques
+    // "due"), so it is never larger than the number printed.
     const dueCards = this.dueCount();
+    const due = this.dueDeckCount();
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
     row.setAttribute("data-flow-cold", w.cold ? "1" : "0");
@@ -3696,7 +3729,7 @@ class Component extends DCLogic {
       '<span class="ngStat" data-b="mastered" style="' + cell + 'color:#8b97b0;border-bottom:1px dashed rgba(139,151,176,.35);">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
       // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage, amber while
       // anything is owed. One press opens the due SESSION, not the browse modal.
-      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' technique' + (due === 1 ? '' : 's') + ' due · ' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" style="' + cell + 'color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
+      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" aria-label="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" style="' + cell + 'color:' + (dueCards > 0 ? "#d6a45a" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (dueCards > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + dueCards + '</b> due</span>' +
       '<span class="ngStat" data-b="new" data-new="' + newN + '" data-weak="' + newN + '" title="' + this._flowTitle(w, fresh) + '" style="' + cell + 'color:#d6a45a;border-bottom:1px dashed rgba(214,164,90,.4);">' + newTxt + '</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "new";
@@ -4762,14 +4795,39 @@ class Component extends DCLogic {
       // REAL now (v1.105.0). Deck keys holding >=1 due-and-unreviewed card, most overdue first.
       // Guests keep local schedules — the "once you have an account" promise in the old empty
       // copy was never a mechanism, and the schedule lives in the same local blob as everything.
+      //
+      // ONE ROW PER OWED CARD, NOT ONE PER DECK COPY (v1.172.0). `_schedule` mirrors a shared
+      // card's review into EVERY deck that carries it (`_sharedDecksFor`), so `duePool()` lists
+      // the same fact once per copy: 18 distinct cards read as 35 decks on the owner's account, and
+      // the stat cell said "35 due" under a band that said "18 cards due". Answering a card in any
+      // one deck clears it from all of them, so 17 of those rows would have finished themselves
+      // untouched. This is a greedy cover: walk decks most-overdue first and keep one only if it
+      // owes a card no kept deck already covers. The result is at most `dueCount()` rows, and
+      // answering every kept row's due cards clears the whole debt.
+      // Order is a strict total order (§6.6): overdue days desc, then cards owed desc, then key.
       const today = this._epochDay();
-      const over = new Map();
+      const per = new Map();   // key -> { od: days overdue (max over its cards), qs: [qhash] }
       for (const e of this.duePool()) {
-        const m = this.srs[e.key][e.qh];
-        const od = today - m[0];
-        if (!over.has(e.key) || od > over.get(e.key)) over.set(e.key, od);
+        if (!decks[e.key]) continue;   // never a session row over a deck the manifest lacks
+        const od = today - this.srs[e.key][e.qh][0];
+        let d = per.get(e.key);
+        if (!d) per.set(e.key, (d = { od: od, qs: [] }));
+        else if (od > d.od) d.od = od;
+        d.qs.push(e.qh);
       }
-      return [...over.keys()].filter((k) => decks[k]).sort((a, b) => over.get(b) - over.get(a));
+      const order = [...per.keys()].sort((a, b) => {
+        const A = per.get(a), B = per.get(b);
+        return (B.od - A.od) || (B.qs.length - A.qs.length) || (a < b ? -1 : a > b ? 1 : 0);
+      });
+      const covered = new Set();
+      const out = [];
+      for (const k of order) {
+        const qs = per.get(k).qs;
+        if (!qs.some((q) => !covered.has(q))) continue;
+        for (const q of qs) covered.add(q);
+        out.push(k);
+      }
+      return out;
     }
     return keys;
   }
@@ -5011,15 +5069,18 @@ class Component extends DCLogic {
     if (!keys.length) { this.openFlashBrowser("mastered", "Mastered"); return; }
     this.hydrateDecks(due.concat(fresh));
     const dueCards = this.dueCount();
+    const techs = (n) => n + " technique" + (n === 1 ? "" : "s");
     const sections = [];
-    if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed" });
+    // The section note names the ROWS (techniques); the header above it names the CARDS, the
+    // same figure the stat cell and the Challenges band print (v1.172.0) — one number per pane.
+    if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed across " + techs(due.length) });
     if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: "ranked by what they'd fix" });
     if (more.length) sections.push({ at: due.length + fresh.length, label: "More, in order", note: "same ranking, further down" });
     this._session = {
       keys: keys,
-      label: anchor === "due" ? due.length + " due today" : fresh.length + " new",
+      label: anchor === "due" ? dueCards + " card" + (dueCards === 1 ? "" : "s") + " due today" : fresh.length + " new",
       sub: anchor === "due"
-        ? dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed \u00b7 maintenance first"
+        ? techs(due.length) + " \u00b7 maintenance first"
         : "ranked by what they'd fix",
       idx: (anchor === "due" || !fresh.length) ? 0 : due.length,
       filter: null, dueUntil: due.length, anchor: anchor, sections: sections, bucket: "plan",
@@ -5195,6 +5256,7 @@ class Component extends DCLogic {
           if (detail.style.display === "none") return;
           if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
           build();
+          this._scrollFocusedDeck();   // the real deck is taller than its placeholder; keep it in view
         });
       }
     };
@@ -7927,9 +7989,12 @@ class Component extends DCLogic {
     const n = i != null ? this.nodes[i] : null;
     const item = document.createElement("div");
     item.setAttribute("data-list-itemrow", nodeId);
-    // EXPLORE'S ITEM ROW (v1.103.4): the same 22px indent, 8px gap and hover wash its sections
-    // give a position or a technique — because that is exactly what these are.
-    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 12px 7px 38px;border-radius:7px;";
+    // ONE RUNG UNDER THE LIST NAME. This row is a CHILD of the list row, which already pads
+    // 22px, so its own padding STACKS: the 38px it used to carry (copied from Explore's leaf
+    // ladder as if this were a sibling row) put the glyph 60px from the pane edge and the ×
+    // 12px inboard of the list's own ×. 10px is Explore's header→family step (12→22); 0 on
+    // the right lines the × up under the list row's ×. Same 8px gap and hover wash as Explore.
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 0 7px 10px;border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     // the category shape, same vocabulary as the canvas and as Explore's own rows
@@ -8237,7 +8302,7 @@ class Component extends DCLogic {
         if (!l.items.length) {
           const em = document.createElement("div");
           em.setAttribute("data-list-empty", id);
-          em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:5px 12px 5px 38px;";
+          em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:5px 0 5px 10px;"; // same inset as _listItemRow — the parent row already pads 22px
           // THREE SURFACES THAT REALLY CARRY [data-list-add], NAMED IN THE GLYPH THEY WEAR.
           // This was doubly stale (v1.129.8): it named a `+` that is now a star, and TWO
           // surfaces that stopped carrying the control — the option cards lost theirs in
@@ -10062,12 +10127,14 @@ class Component extends DCLogic {
   }
   dueCount() { const seen = new Set(); for (const e of this.duePool()) seen.add(e.qh); return seen.size; }
   /**
-   * How many TECHNIQUES the due session will hold — `dueCount()` counts FACTS.
+   * How many TECHNIQUE ROWS the due session lists — `dueCount()` counts CARDS, and every printed
+   * due figure (stat cell, Challenges band, session header) is `dueCount()`.
    *
-   * The two legitimately differ and the gap is not small: the blended deck hierarchy puts ~20% of
-   * a deck's cards in from a higher tier, so one due fact can be owed by several decks, and the
-   * stat printed "5 due" over a session that listed 7 (owner: "kind of misleading as well").
-   * The stat counts what you are about to be shown; the FACT figure moves to its tooltip.
+   * History, because the ruling flipped once: v1.138.0 printed THIS on the stat cell, since the
+   * blended hierarchy mirrors a due card into every deck carrying it and "5 due" opened 7 rows.
+   * That made 18 cards read as "35 due" beside a band saying "18 cards due" (v1.172.0, owner:
+   * "the due cards should be consistent"). The bucket is now a cover — one row per owed card, never
+   * a second row for a copy — so this is <= dueCount() and the printed number is the debt itself.
    * It also filters to `decks[k]`, which `dueCount()` does not — so this can never send you into
    * an empty session over cards whose deck is not in the manifest.
    */
@@ -12004,122 +12071,10 @@ class Component extends DCLogic {
       else this._landQSkip(key, reason, mode);
     }
 
-    // 5 — THE FULLER CONTAINER, UNFOLDED IN PLACE (v1.101.0). Everything the retired in-node
-    // card used to carry now lives one affordance lower, inside the card you are already
-    // reading — "the normal game container should be the default" (owner). Built lazily on the
-    // first open, so a roll nobody expands never pays for it.
-    // Computed at render time, not on first open: the FOOT has to know whether a `More` is
-    // warranted before it draws one. It is a few cache reads and a string, no DOM.
-    const moreHTML = this._landMoreHTML(node);
-    let moreBody = null;
-    if (moreHTML) {
-      moreBody = document.createElement("div");
-      moreBody.id = "ng-land-more";
-      moreBody.setAttribute("data-land-more-body", "1");
-      moreBody.style.cssText = "display:none;";
-      moreBody._ngMoreHTML = moreHTML;
-      el.appendChild(moreBody);
-    }
-
-    // 6 — everything else is behind one affordance
-    // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
-    // a film row and a 4-option question the content is routinely TALLER than that. A static
-    // footer then sits below the scroll box: present in the DOM, reported "visible" by a
-    // locator, and unreachable by a real mouse until the user scrolls INSIDE the card — which
-    // nobody does mid-roll. Sticking it to the bottom of the scrollport keeps `More ▸` and the
-    // add-to-class + on screen at every scroll offset. pointer-events is re-enabled here as
-    // well as on the button: a fixed overlay's disabled pointer-events is inherited, and this
-    // repo has paid for that twice (v1.69.1).
-    const foot = document.createElement("div");
-    foot.setAttribute("data-land-foot", "1");
-    foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(19,22,37,0),rgba(19,22,37,.94) 45%,rgba(19,22,37,.97));";
-    if (moreBody) {
-      const more = document.createElement("button");
-      more.setAttribute("data-land-more", "1");
-      more.setAttribute("aria-expanded", "false");
-      more.setAttribute("aria-controls", "ng-land-more");
-      more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
-      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
-      more.addEventListener("click", () => this.expandLandCard());
-      foot.appendChild(more);
-    }
-    // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
-    // Owner: "why cant i click and navigate to Omoplata from De La Riva Guard?" — and the two
-    // reports are one story. Before v1.129.1 a technique tap NAVIGATED, by accident: it fell
-    // through to `stageRollAt`, which hops a technique to its origin position. The owner asked
-    // for that to stop ("it seems to always go to an adjacent or nearby position"), it did, and
-    // what was left is a card that names a technique with no way to act on it. The old "Roll from
-    // here" button exists only in `renderDossier`, which v1.101.5 disclosed as unreachable.
-    //
-    // So the tap READS and this button GOES — deliberately, on a control you can see, instead of
-    // as a side effect of tapping. `confirmPlayFrom` is the seam: it handles every node type
-    // (a technique seeds at its origin position, which is the same hop as before) and it CONFIRMS
-    // first, because starting a roll here discards the one you are in.
-    //
-    // WORTH KNOWING, because it is the likeliest cause of the owner's report: `Omoplata from De
-    // La Riva Guard` IS authored (3% from `de-la-riva-guard/bottom`) and IS dealt in that hand —
-    // but it is absent from `/top`, where you are passing, not attacking. Arriving on the bare
-    // hub seats you TOP, so the node is visible on the graph and legitimately not in your hand.
-    // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
-    // control (it opens this state's flashcards), not a header ornament, and the owner asked for
-    // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
-    // to the right edge, so the + no longer needs its own.
-    const chip = document.createElement("span");
-    chip.innerHTML = famChip.html;
-    const chipEl = chip.firstChild;
-    if (chipEl) {
-      if (totalCards) chipEl.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
-      foot.appendChild(chipEl);
-    }
-    el.appendChild(foot);
-    // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
-    // Owner: "the + should only show top right next of the x close icon when the card is open".
-    // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
-    // the card as a whole — so they sit together in the corner, absolutely positioned so they
-    // cost the card NO vertical space. That is the whole point of this pass: the question shows
-    // the moment the card does. Dismiss clears this landing's card only; the next landing renders
-    // a fresh one, and `_landBackfill` returns early on a null `_landEl`, so a late payload can
-    // never resurrect a card the player put away.
-    const corner = document.createElement("div");
-    corner.setAttribute("data-land-corner", "1");
-    // 5px from the top AND 5px from the right — the owner asked for the pair to sit "a bit
-    // closer and a bit closer to the top (symmetric to how the x close button is close to the
-    // right edge)". The symmetry only works once the row's height is the 24px ✕ and not the
-    // 44px thumb + (see below), or align-items:center pushes BOTH glyphs 10px down.
-    corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:2px;";
-    // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
-    // the canvas hit-tests above anything that does not re-enable it.
-    // 14px: unboxed like the sheet's, and one step under it because v1.104.2 requires this
-    // corner's geometry to be set by the 24px ✕ beside it, never by the 44px thumb box.
-    const addBtn = this._listAddButton(node.id, "land", 14);
-    // quieter than every other surface's copy of it: two bordered boxes in a corner read as a
-    // toolbar. The HIT AREA is untouched (24px desktop / 44px thumb) — only the paint is.
-    addBtn.style.border = "none";
-    addBtn.style.background = "none";
-    // THE 44px THUMB TARGET MUST NOT SET THE CORNER'S GEOMETRY (v1.104.2). On a phone
-    // `_listAddButton` returns a 44x44 box; beside a 24x24 ✕ under align-items:center that makes
-    // the row 44 tall, so both glyphs sat 10px lower than the 5px inset implies and 20px apart.
-    // A -10px margin shrinks its LAYOUT box to 24x24 while the button still renders — and still
-    // takes a thumb — at 44. Same trick as `.ng-lists-new`: the glyph is small, the hit area is
-    // not. The ✕ is painted after it, so it wins hit-testing where the boxes overlap.
-    if (addBtn.style.width === "44px") addBtn.style.margin = "-10px";
-    corner.appendChild(addBtn);
-    const xb = document.createElement("button");
-    xb.type = "button";
-    xb.setAttribute("data-land-close", "1");
-    xb.setAttribute("aria-label", "Hide the question card");
-    xb.title = "Hide the question card";
-    xb.textContent = "✕";
-    xb.style.cssText = NG_GHOST_BTN_CSS;
-    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(255,255,255,.08)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "none"; });
-    // STICKY (v1.171.0, owner): the ✕ is the card LAYER's handle, not a per-landing dismiss. It
-    // used to `clearLandCard()` and the next landing rebuilt the card — "it should still be
-    // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
-    // (film stays: its own layer) and persists the choice; the dock brings it back.
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
-    corner.appendChild(xb);
-    el.appendChild(corner);
+    // 5 + 6 — the fuller container behind `More ▸`, the foot, and the two corner controls are
+    // ONE seam shared with the panic drill (`_landCardChrome`), so the defence card can never
+    // drift from the landing card's anatomy again.
+    this._landCardChrome(el, node, famChip, this._landPerspSide(node));
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
     // clearLandCard. Horizontal-dominant ONLY — vertical stays the card's native overflow-y
     // scroll, which is also why the drill panel's vertical swipe actions are deliberately not
@@ -12224,6 +12179,141 @@ class Component extends DCLogic {
     return el;
   }
   /**
+   * THE CARD'S CHROME — everything a landing card carries BELOW and AROUND its question, in one
+   * place, because the panic drill is a landing card too (buildPanicCard) and used to ship
+   * without any of it. Owner, on /Submissions/Americana/from-Modified-Scarf-Hold/Defender: "the
+   * landcard should look like the other ones in other techniques like positions with the
+   * favorite and close buttons, the more link". Same DOM, same attributes, same handlers —
+   * `expandLandCard`, `_dockLandCard`, `attachInput`'s early-return list and every spec that
+   * queries `[data-land-more]` / `[data-list-add]` / `[data-land-close]` see one anatomy.
+   *
+   * `side` picks the perspective the fuller container reads from: the defending seat of a
+   * technique reads the DEFENDER block when it is authored (see _landMoreHTML).
+   */
+  _landCardChrome(el, node, famChip, side) {
+    const totalCards = famChip.total;
+    // 5 — THE FULLER CONTAINER, UNFOLDED IN PLACE (v1.101.0). Everything the retired in-node
+    // card used to carry now lives one affordance lower, inside the card you are already
+    // reading — "the normal game container should be the default" (owner). Built lazily on the
+    // first open, so a roll nobody expands never pays for it.
+    // Computed at render time, not on first open: the FOOT has to know whether a `More` is
+    // warranted before it draws one. It is a few cache reads and a string, no DOM.
+    const moreHTML = this._landMoreHTML(node, side);
+    let moreBody = null;
+    if (moreHTML) {
+      moreBody = document.createElement("div");
+      moreBody.id = "ng-land-more";
+      moreBody.setAttribute("data-land-more-body", "1");
+      moreBody.style.cssText = "display:none;";
+      moreBody._ngMoreHTML = moreHTML;
+      el.appendChild(moreBody);
+    }
+
+    // 6 — everything else is behind one affordance
+    // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
+    // a film row and a 4-option question the content is routinely TALLER than that. A static
+    // footer then sits below the scroll box: present in the DOM, reported "visible" by a
+    // locator, and unreachable by a real mouse until the user scrolls INSIDE the card — which
+    // nobody does mid-roll. Sticking it to the bottom of the scrollport keeps `More ▸` and the
+    // add-to-class + on screen at every scroll offset. pointer-events is re-enabled here as
+    // well as on the button: a fixed overlay's disabled pointer-events is inherited, and this
+    // repo has paid for that twice (v1.69.1).
+    const foot = document.createElement("div");
+    foot.setAttribute("data-land-foot", "1");
+    // the gradient fades INTO the card's own background: the danger skin (helmet.html) is
+    // (38,16,18); every other card is (19,22,37). A navy strip on a red card read as a bar.
+    const bg = el.getAttribute("data-landcard") === "defense" ? "38,16,18" : "19,22,37";
+    foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(" + bg + ",0),rgba(" + bg + ",.94) 45%,rgba(" + bg + ",.97));";
+    if (moreBody) {
+      const more = document.createElement("button");
+      more.setAttribute("data-land-more", "1");
+      more.setAttribute("aria-expanded", "false");
+      more.setAttribute("aria-controls", "ng-land-more");
+      more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
+      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
+      more.addEventListener("click", () => this.expandLandCard());
+      foot.appendChild(more);
+    }
+    // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
+    // Owner: "why cant i click and navigate to Omoplata from De La Riva Guard?" — and the two
+    // reports are one story. Before v1.129.1 a technique tap NAVIGATED, by accident: it fell
+    // through to `stageRollAt`, which hops a technique to its origin position. The owner asked
+    // for that to stop ("it seems to always go to an adjacent or nearby position"), it did, and
+    // what was left is a card that names a technique with no way to act on it. The old "Roll from
+    // here" button exists only in `renderDossier`, which v1.101.5 disclosed as unreachable.
+    //
+    // So the tap READS and this button GOES — deliberately, on a control you can see, instead of
+    // as a side effect of tapping. `confirmPlayFrom` is the seam: it handles every node type
+    // (a technique seeds at its origin position, which is the same hop as before) and it CONFIRMS
+    // first, because starting a roll here discards the one you are in.
+    //
+    // WORTH KNOWING, because it is the likeliest cause of the owner's report: `Omoplata from De
+    // La Riva Guard` IS authored (3% from `de-la-riva-guard/bottom`) and IS dealt in that hand —
+    // but it is absent from `/top`, where you are passing, not attacking. Arriving on the bare
+    // hub seats you TOP, so the node is visible on the graph and legitimately not in your hand.
+    // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
+    // control (it opens this state's flashcards), not a header ornament, and the owner asked for
+    // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
+    // to the right edge, so the + no longer needs its own.
+    const chip = document.createElement("span");
+    chip.innerHTML = famChip.html;
+    const chipEl = chip.firstChild;
+    if (chipEl) {
+      if (totalCards) chipEl.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
+      foot.appendChild(chipEl);
+    }
+    el.appendChild(foot);
+    // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
+    // Owner: "the + should only show top right next of the x close icon when the card is open".
+    // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
+    // the card as a whole — so they sit together in the corner, absolutely positioned so they
+    // cost the card NO vertical space. That is the whole point of this pass: the question shows
+    // the moment the card does. Dismiss clears this landing's card only; the next landing renders
+    // a fresh one, and `_landBackfill` returns early on a null `_landEl`, so a late payload can
+    // never resurrect a card the player put away.
+    const corner = document.createElement("div");
+    corner.setAttribute("data-land-corner", "1");
+    // 5px from the top AND 5px from the right — the owner asked for the pair to sit "a bit
+    // closer and a bit closer to the top (symmetric to how the x close button is close to the
+    // right edge)". The symmetry only works once the row's height is the 24px ✕ and not the
+    // 44px thumb + (see below), or align-items:center pushes BOTH glyphs 10px down.
+    corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:2px;";
+    // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
+    // the canvas hit-tests above anything that does not re-enable it.
+    // 14px: unboxed like the sheet's, and one step under it because v1.104.2 requires this
+    // corner's geometry to be set by the 24px ✕ beside it, never by the 44px thumb box.
+    const addBtn = this._listAddButton(node.id, "land", 14);
+    // quieter than every other surface's copy of it: two bordered boxes in a corner read as a
+    // toolbar. The HIT AREA is untouched (24px desktop / 44px thumb) — only the paint is.
+    addBtn.style.border = "none";
+    addBtn.style.background = "none";
+    // THE 44px THUMB TARGET MUST NOT SET THE CORNER'S GEOMETRY (v1.104.2). On a phone
+    // `_listAddButton` returns a 44x44 box; beside a 24x24 ✕ under align-items:center that makes
+    // the row 44 tall, so both glyphs sat 10px lower than the 5px inset implies and 20px apart.
+    // A -10px margin shrinks its LAYOUT box to 24x24 while the button still renders — and still
+    // takes a thumb — at 44. Same trick as `.ng-lists-new`: the glyph is small, the hit area is
+    // not. The ✕ is painted after it, so it wins hit-testing where the boxes overlap.
+    if (addBtn.style.width === "44px") addBtn.style.margin = "-10px";
+    corner.appendChild(addBtn);
+    const xb = document.createElement("button");
+    xb.type = "button";
+    xb.setAttribute("data-land-close", "1");
+    xb.setAttribute("aria-label", "Hide the question card");
+    xb.title = "Hide the question card";
+    xb.textContent = "✕";
+    xb.style.cssText = NG_GHOST_BTN_CSS;
+    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(255,255,255,.08)"; });
+    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "none"; });
+    // STICKY (v1.171.0, owner): the ✕ is the card LAYER's handle, not a per-landing dismiss. It
+    // used to `clearLandCard()` and the next landing rebuilt the card — "it should still be
+    // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
+    // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
+    // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
+    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
+    corner.appendChild(xb);
+    el.appendChild(corner);
+  }
+  /**
    * MORE ▸ UNFOLDS THE GAME'S OWN CARD (v1.101.0).
    *
    * It used to call `openDossier`, which flew the camera into the node and mounted a second,
@@ -12315,10 +12405,14 @@ class Component extends DCLogic {
     if (!t) return "";                       // it was ONLY the lead-in: say nothing
     return this.mcClip(t) || t.slice(0, 220);
   }
-  _landMoreHTML(node) {
+  _landMoreHTML(node, side) {
     const info = this.ngContentFor(node) || {};
     const rc = this.richContentFor(node);
-    const persp = rc && rc.perspectives ? rc.perspectives.attacker : null;
+    // the seat's own block when it is AUTHORED (richDetailHTML's rule: an unauthored defender
+    // block is never mirrored from the attack), else the attacker's — which is every position
+    // and every attacking seat, i.e. exactly what this read before `side` existed
+    const P = rc && rc.perspectives ? rc.perspectives : null;
+    const persp = P ? ((side === "defender" && P.defender && P.defender.authored) ? P.defender : P.attacker) : null;
     const secHead = (t) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#8496b8;margin:0 0 6px;">' + t + '</div>';
     const bullet = (t, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:11.5px;line-height:1.45;color:#c4cde0;margin-bottom:5px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + t + '</span></div>';
     let h = "";
@@ -12465,6 +12559,15 @@ class Component extends DCLogic {
     const h = row && this._handShown() ? row.getBoundingClientRect().height : 0;
     return { tray: TRAY_BOTTOM, h: h > 0 ? h : 0 };
   }
+  /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
+   *  The film picks its reel with it and `_landCardChrome` picks the block `More ▸` unfolds; when
+   *  the film extraction moved the expression out of renderLandCard, the chrome call was left
+   *  reading a `perspSide` that no longer existed there — a ReferenceError on every landing, from
+   *  a merge that compiled clean (§6.5: collapse to ONE named seam before a second caller exists).
+   *  Caught by `dual-pair.spec.ts`, not by the build. */
+  _landPerspSide(node) {
+    return this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
+  }
   _landFilmClips(node, info) {
     info = info || this.ngContentFor(node);
     // A TECHNIQUE'S FILM LIVES UNDER ITS PERSPECTIVES (v1.132.1). The chunks have carried
@@ -12472,7 +12575,7 @@ class Component extends DCLogic {
     // 1,326 technique entries carry a TOP-LEVEL `clips`) — the card only ever read `info.clips`,
     // so technique cards showed no film at all. The staged side picks the reel: the escaping orb
     // shows the defense films.
-    const perspSide = this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
+    const perspSide = this._landPerspSide(node);
     const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
     return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
   }
@@ -12817,8 +12920,8 @@ class Component extends DCLogic {
   }
   pickFirstEscape() { const p = this._optPick, l = this._optList; if (p && l && l.length) p(l[0]); }
 
-  // heartbeat vignette — visible trouble. Escape snaps it off in 180ms (the relief IS the
-  // reward); a tap lets it drain slowly with the defeat.
+  // heartbeat vignette — visible trouble, in slow motion (helmet.html `ngHeartbeat`). Escape
+  // snaps it off in ~.3s (the relief IS the reward); a tap lets it drain slowly with the defeat.
   showVignette() {
     if (this._vignetteEl) return;
     const v = document.createElement("div");
@@ -12834,9 +12937,20 @@ class Component extends DCLogic {
     const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
     if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     const v = this._vignetteEl; if (!v) return; this._vignetteEl = null;
-    v.style.transition = relief ? "opacity .18s ease" : "opacity .5s ease";
-    v.style.opacity = "0";
-    setTimeout(() => { try { v.remove(); } catch (e) {} }, relief ? 200 : 520);
+    // STOP THE HEARTBEAT BEFORE FADING. A running CSS animation outranks an inline declaration
+    // of the property it animates (the same cascade fact `_suppressLand` documents), so with
+    // `ngHeartbeat` still driving `opacity` the two lines below never faded anything — the
+    // "180ms snap-off" was a hard `remove()` after 200ms of full-strength red. Freeze the
+    // animation at its current frame first, and the transition takes over from there; the
+    // defeat drain (.5s) and the relief snap (.18s) now read as designed. Longer than they were
+    // because the slow-motion beat (helmet.html) makes an abrupt cut look like a glitch.
+    const cs = getComputedStyle(v);
+    v.style.opacity = cs.opacity; v.style.transform = cs.transform;
+    v.style.animation = "none";
+    void v.offsetWidth; // commit the frozen frame so the transition has a start value
+    v.style.transition = relief ? "opacity .32s ease-out, transform .32s ease-out" : "opacity .9s ease-in, transform .9s ease-in";
+    v.style.opacity = "0"; v.style.transform = "scale(1)";
+    setTimeout(() => { try { v.remove(); } catch (e) {} }, relief ? 340 : 920);
   }
 
   // ── PANIC DRILL: THE DEFENCE QUESTION IS A LANDING CARD (v1.104.4, owner: it "should show
@@ -12883,7 +12997,27 @@ class Component extends DCLogic {
       card.innerHTML =
         '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
         '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
-        '<div style="padding-right:8px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
+        '<div style="padding-right:54px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
+      // THE LANDING CARD'S CHROME, ON THE DRILL TOO (owner: "the landcard should look like the
+      // other ones … with the favorite and close buttons, the more link"). Same seam as
+      // renderLandCard, so More ▸ unfolds the submission's fuller container read from the
+      // DEFENDER block, the `+` captures the submission, the ✕ hides the drill (the escapes
+      // stay dealt — `_expireLandQ` gates on `_landEl`, so a hidden drill has no clock to lose).
+      // Rebuilt on every render because the question block replaces the card's innerHTML; an
+      // unfolded More stays unfolded across it, exactly as a landing backfill keeps it.
+      // THE DOSSIER LANDS AFTER THE CARD on a cold visit (measured: decks @25.3s, content
+      // @27.0s — see _landBackfill), and `More ▸` is decided at render time from that dossier.
+      // A landing card gets its More from the backfill; the drill is excluded from it by mode,
+      // so it refits its own chrome ONCE when the chunk `_ngc` requested resolves — on THIS card
+      // only, never twice, and never when the foot already carries a More.
+      const chrome = () => {
+        for (const sel of ["[data-land-more-body]", "[data-land-foot]", "[data-land-corner]"]) { const old = card.querySelector(sel); if (old) old.remove(); }
+        this._landCardChrome(card, sub, this.familiarityChip(pk, "data-land-count", { clickable: true, style: "margin-left:auto;" }), "defender");
+        if (this._landOpen) this.expandLandCard(true);
+        if (card.querySelector("[data-land-more]")) return;
+        const p = this._contentWaits && this._contentWaits[sub.t];
+        if (p) p.then(() => { if (this._landEl !== card || card.querySelector("[data-land-more]") || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
+      };
       // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
       // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
       // (_mcAnswer carries the SRS/prep credit), danger skin from the card. `done` adds only
@@ -12900,7 +13034,7 @@ class Component extends DCLogic {
         if (row) this.setBeacon("escape", row);  // graded — now TAKE the escape
       };
       const mcw = this._mcBlock(fc, pk, done, "panic");
-      if (mcw) { card.appendChild(mcw); this._dockLandCard(card); return; }
+      if (mcw) { card.appendChild(mcw); chrome(); this._dockLandCard(card); return; }
       // COLD POOL FALLBACK: the recall idiom the drill always had. The warm below upgrades this
       // very question to MC the moment the pool lands — but only while it stands untouched.
       let touched = false;
@@ -12912,6 +13046,7 @@ class Component extends DCLogic {
           '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it \u2192 +escape%</button>' +
         '</div>';
       while (tail.firstChild) card.appendChild(tail.firstChild);
+      chrome();
       const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
       rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
       gt.addEventListener("click", (ev) => {
@@ -12938,10 +13073,14 @@ class Component extends DCLogic {
         });
       }
     };
+    // a fresh landing (the drill is one): folded, and its own auto-pause latch clean — the same
+    // reset renderLandCard applies when `_landIdx` changes. Set BEFORE render() so the chrome
+    // (expandLandCard reads `_landIdx` for its beat) and the background-tap dismissal name it.
+    this._landOpen = false; this._landAutoPaused = false;
+    this._landIdx = sub.idx; this._landMode = "defense";
     render();
     (this.__ngRoot || document.body).appendChild(card);
     this._landEl = card;
-    this._landMode = "defense";
     this._dockLandCard(card);
     this.fx("panic_drill_opened", { deck_key: pk });
     this.setBeacon("panic", card);
@@ -13313,7 +13452,8 @@ class Component extends DCLogic {
     // (the engine's states are positions — v1.126.0 measured what staging ON a technique node
     // does to the hand), but the CHOSEN node keeps the camera, the URL, the focus and the card;
     // the first unpaused frame runs THE EXCHANGE from your side of it (_runStagedTech):
-    // finishing/attacking → you attempt it, escaping/defending → the red defense rush.
+    // finishing/attacking → you attempt it, escaping a SUBMISSION → the red defense rush. Defending
+    // a TRANSITION is neither: see the arrival callback below.
     const chosen = posIdx !== nodeIdx && this.nodes[nodeIdx] ? nodeIdx : posIdx;
     if (chosen !== posIdx) {
       const fr = String(this.nodes[chosen].fromRole || "").toLowerCase();
@@ -13360,8 +13500,19 @@ class Component extends DCLogic {
       // v1.134.0 (owner): clicking the ESCAPING orb IS choosing to be caught — the rush starts
       // now, no play button in between. The attacker side reads instead, with its own card
       // highlighted in the hand (the "Finish it" affordance, _highlightStagedCard).
-      if (this._stagedTech && this._stagedTech.side === "defender" && this.nodes[this._stagedTech.idx]) {
-        const st = this._stagedTech; this._stagedTech = null;
+      // ONLY A SUBMISSION IS A CATCH. The roll loop itself never panics over a transition —
+      // `opponentDefend` plays one as a positional move and lands you in the next state — so a
+      // `/Transitions/<x>/Defender` arrival must not either (owner: "we're not defending against
+      // a submission, we're in poor shape but calm down"). It staged the panic drill instead:
+      // vignette, red clock, "beat the clock", and `frameNodes` fitting the whole danger set to
+      // the WHOLE viewport, which put the state behind the card `_dockLandCard` had just docked.
+      // A transition's defending seat is an ordinary staged landing: the attempt card reads the
+      // exchange from the defender perspective (`perspSide` in renderLandCard, the `|Defender`
+      // deck via deckKeyFor), the hand is yours from the defending side, the camera is
+      // `rollCamTarget`'s band-aware composition, and play waits for the button like any other.
+      const st = this._stagedTech;
+      if (st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
+        this._stagedTech = null;
         this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
         this.setPaused(false);
         this.enterDefense(st.idx);
@@ -14848,7 +14999,7 @@ class Component extends DCLogic {
           this.playerRole = "bottom"; // escaping usually lands you bottom/neutral
           this.flashFx(this.myVal(opt.node) - before);
           this.currentPos = opt.idx; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
-          this.killVignette(true); // 180ms snap-off — the relief IS the reward
+          this.killVignette(true); // the quick snap-off — the relief IS the reward
           this.fx("relief", {});
           // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
           // `idx` is the position you land on, so enterLand's own guard (`intent.idx !==
@@ -14870,8 +15021,32 @@ class Component extends DCLogic {
     // player still chooses. `finish` survives as the failed-escape / tap-out path only.
     this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: escapes };
     // the DRILL's window arms on the fresh decision — the panic card (already _landEl) carries the bar
-    if (this._landEl && this._landEl.hasAttribute("data-panic"))
-      this._armLandClock(this._landEl.querySelector("[data-land-clock]"));
+    const armDrill = () => {
+      if (this._landEl && this._landEl.hasAttribute("data-panic"))
+        this._armLandClock(this._landEl.querySelector("[data-land-clock]"));
+    };
+    armDrill();
+    // ── THE DRILL OPENS WHEN ITS DECK LANDS (owner, on /Submissions/Americana/from-Modified-
+    // Scarf-Hold/Defender: "the choices row is also missing here? why?"). A URL arrival on the
+    // escaping seat has NO travel window: `_prefetchLandDeck` fires at stage and `enterDefense`
+    // runs 0.6s later, so on a cold visit the Defender chunk is still in flight, `_deckHasCards`
+    // is honestly false for BOTH decks, `_panicKey` is null and `buildPanicCard` returns without
+    // a card — vignette, "Caught", one escape, and no question, ever. Measured with the harness:
+    // `wait:true` on the deck the frame the drill was skipped, 5 cards resident two seconds later.
+    // The odds are NOT moved under the player by binding late: with `_panicKey` null,
+    // `escapeChance` already reads `stateBonus(defendKeyFor(sub))`, i.e. THIS key — so the number
+    // every escape card printed is the number it keeps. Only the Defender deck is late-bound; the
+    // position-deck fallback is not (that WOULD change the odds' key). Guards: same catch, no card
+    // on the table (the player may have picked, been tapped, or reset), and a real deck.
+    if (!this._panicKey) {
+      const p = this.hydrateDeck(dk);
+      if (p) p.then(() => {
+        if (this._defendSub !== subIdx || this._landEl || !this._deckHasCards(dk)) return;
+        this._panicKey = dk;
+        this.buildPanicCard(this.optionsRef.current, sub);
+        armDrill();
+      });
+    }
   }
   oppVal(node) {
     const s = node.s;
@@ -15450,7 +15625,17 @@ class Component extends DCLogic {
         const sa = this.W / vw;
         this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
         this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
-        this.releaseCamera(); // a pinch is the user taking the camera; never fight a live gesture
+        // A PINCH IS THE USER TAKING THE CAMERA — never fight a live gesture. BOTH latches, not
+        // one: `releaseCamera()` drops a flight lease, and `_stagedCamFree = false` ends the
+        // staged board's per-frame re-aim (see `stagedIdle` in updateCamera). The pan and the
+        // wheel always cleared both; the pinch cleared only the lease, so on a URL arrival —
+        // paused from birth, `_staged` set, nothing played — the follow-cam kept writing
+        // `camTarget` from `rollCamTarget` every frame while the fingers wrote `cam.vw`.
+        // Measured on /Positions/Mount/Bottom at 390x844: `cam.vw` sawtoothed 108 → 110 → 93 →
+        // 80 → 84 → 71 → 62 → 66 … (one step toward the fingers, one back toward the staged
+        // framing, per frame) and flew from 24 back to 118 the moment the fingers lifted. The
+        // owner: "while zooming in, the landcard flickers" — the board jittering under the card.
+        this.releaseCamera(); this._stagedCamFree = false;
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }

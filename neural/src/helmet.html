@@ -147,8 +147,17 @@
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
   .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
-  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 68%,rgba(226,58,48,.5) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
-  @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  /* THE VIGNETTE IS A HEARTBEAT IN SLOW MOTION (owner: "more chill, more slow motion of a heart
+     beat really realistic like max payne … but more modern fluid movement"). Cardiac anatomy,
+     not a sine: S1 (lub — the strong closing, a sharp ~160ms attack) then S2 (dub — softer,
+     ~0.9s later) then a long diastole where the edge settles; the whole cycle runs at 3.2s,
+     about a third of a resting heart's real speed. Two channels move together: opacity (the
+     red rising) and scale (the edge CONTRACTING inward on each beat — the element is oversized
+     by 7% so the squeeze never uncovers a corner). Attack and decay carry different easings,
+     set per keyframe, so the rise snaps and the fall drains — the retired 1s ease-in-out
+     sawtooth was the "panic" the owner asked to calm. Reduced motion: still, low fog (below). */
+  .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.36;will-change:opacity,transform;animation:ngHeartbeat 3.2s linear infinite;}
+  @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
      (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and

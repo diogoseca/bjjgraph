@@ -16,6 +16,10 @@ import { journey } from "../dsl";
  *   · merge: later `last` wins; same-day tie → smaller ivl (a failure is never erased by an
  *     earlier same-day success); success keeps the larger ivl (grade-before-pull heals)
  *   · due-ness never touches stage/gameScore — the belt cannot drop because time passed
+ *   · ONE due number per pane (v1.172.0): the stat cell, the Challenges band and the session
+ *     header all print `dueCount()` (distinct CARDS); `bucketTechniques("due")` is a COVER of
+ *     those cards — a deck copy of an already-covered card never adds a row — so the technique
+ *     count is <= the card count and lives in the tooltip / section note.
  *
  * Tests seed past-due schedules via the blob (`initialState`) instead of moving a clock —
  * `_epochDay()` is only read at grade/pool time, so a `last` of yesterday is all it takes.
@@ -239,7 +243,7 @@ test("merge: the later review wins; a same-day failure beats a success; mature i
   expect(r.clockClamp[2]).toBeLessThanOrEqual(today);
 });
 
-test("the maintenance surfaces: the band cell counts facts (not deck copies) and starts the session", async ({
+test("the maintenance surfaces: every due figure is the CARD count, the session lists a cover of it, and the band starts it", async ({
   page,
 }) => {
   const j = journey(page);
@@ -247,66 +251,76 @@ test("the maintenance surfaces: the band cell counts facts (not deck copies) and
   await j.hydrateAll();
   await j.land("Mount Top");
 
-  const r = await page.evaluate(() => {
+  // THE FIXTURE IS A REAL SHARED CARD. `_schedule` mirrors a review into every deck that carries
+  // the question (`_sharedDecksFor`), so the honest shape of the srs blob is the same fact under
+  // two deck keys — and a deck that does not carry the question would only reach the fallback
+  // whole-deck row, which is not the surface under test. `other` additionally owes a second card
+  // (planted in `other` only, so it is owed nowhere else), so the cover has a real decision to
+  // make: `other` owes 2, Mount|Top owes 1 of the same 2, so the one row is `other` and Mount|Top
+  // adds nothing.
+  type Card = { q: string };
+  type Fixture =
+    | { ok: true; key: string; other: string; cards: number; decks: number; rows: string[] }
+    | { ok: false; reason: string };
+  const r: Fixture = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
-    const card = a._cardsOf(a.flashcards.decks[key])[0];
+    const key: string = a.deckKeyFor(a.nodes[a.currentPos]).key;
+    const cards: Card[] = a._cardsOf(a.flashcards.decks[key]);
+    let shared: Card | null = null, other: string | undefined;
+    for (const c of cards) {
+      const list: string[] | null = a._sharedDecksFor(c.q, key);
+      if (list) { shared = c; other = list.find((k) => k !== key && a._cardsOf(a.flashcards.decks[k])); if (other) break; }
+    }
+    if (!shared || !other) return { ok: false as const, reason: "no shared card resident in a second deck" };
+    const own = (a._cardsOf(a.flashcards.decks[other]) as Card[]).find((c) => c.q !== shared!.q);
+    if (!own) return { ok: false as const, reason: other + " has only the one card" };
     const today = a._epochDay();
-    // the SAME fact scheduled in two decks (the cross-deck mirror writes this shape)
-    a.srs[key] = { [a.qhash(card.q)]: [today - 1, 3, today - 4] };
-    a.srs["High Mount|Top"] = { [a.qhash(card.q)]: [today - 1, 3, today - 4] };
+    a.srs[key] = { [a.qhash(shared.q)]: [today - 1, 3, today - 4] };
+    a.srs[other] = { [a.qhash(shared.q)]: [today - 1, 3, today - 4], [a.qhash(own.q)]: [today - 1, 3, today - 4] };
     a.openPane("explore");
-    return null;
+    return { ok: true as const, key, other, cards: a.dueCount(), decks: a.dueDeckCount(), rows: a.bucketTechniques("due") };
   });
+  if (!r.ok) throw new Error(r.reason);
+  // 3 srs entries, 2 distinct cards, 1 covering deck — the three numbers this test is about.
+  expect({ cards: r.cards, decks: r.decks, rows: r.rows }).toEqual({ cards: 2, decks: 1, rows: [r.other] });
   await page.waitForTimeout(400);
 
   const cell = page.locator('.ngStat[data-b="due"]');
   await expect(cell).toBeVisible();
-  // THE CELL COUNTS TECHNIQUES, THE TOOLTIP COUNTS CARDS (v1.138.0, owner: pressing "5 due"
-  // opened 7 techniques and that "is kind of misleading as well"). Both figures are honest and
-  // they legitimately differ — this fixture is the proof: ONE fact, filed in TWO decks. So the
-  // card count dedupes by qhash to 1 while the session lists 2 rows, and the RULE is that the
-  // printed number is the one the press delivers.
+  // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
+  // "the due cards should be consistent"). The technique count is the tooltip's second figure.
   await expect(cell).toContainText("2 due");
-  await expect(cell).toHaveAttribute("title", /1 card due/);
-  expect(await page.evaluate(() => {
-    const a = (window as any).__neural;
-    return { cards: a.dueCount(), decks: a.dueDeckCount() };
-  }), "the two figures differ by construction here").toEqual({ cards: 1, decks: 2 });
+  await expect(cell).toHaveAttribute("title", /^2 cards due · 1 technique · /);
 
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
   // ONE SURFACE, TWO DOORS (v1.138.0). Both study cells open the same queue — Maintenance, then
-  // Learn next, then the rest of the ranking — and the door only decides the anchor. So the
-  // promise is not "the queue is 2 rows", it is "the MAINTENANCE SECTION is the 2 you pressed",
-  // and the section header says so on screen. `filter` is per-ROW now (a maintenance row shows
-  // due cards only, a learn-next row shows its whole deck), so the session no longer carries one.
+  // Learn next, then the rest of the ranking — and the door only decides the anchor. The header
+  // repeats the cell's number in the cell's unit; the MAINTENANCE SECTION is the cover.
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
       const s = a._session;
-      return { session: !!s, label: s && s.label, anchor: s && s.anchor, dueRows: s && s.dueUntil };
+      return { session: !!s, label: s && s.label, sub: s && s.sub, anchor: s && s.anchor, dueRows: s && s.dueUntil, first: s && s.keys[0] };
     }),
-    "the label repeats the stat's own arithmetic back",
-  ).toEqual({ session: true, label: "2 due today", anchor: "due", dueRows: 2 });
+    "the header repeats the stat's own arithmetic back",
+  ).toEqual({ session: true, label: "2 cards due today", sub: "1 technique · maintenance first", anchor: "due", dueRows: 1, first: r.other });
   await expect(page.locator('[data-session-section="Maintenance"]')).toBeVisible();
-  // ...and a maintenance row is narrowed to what is OWED, not shown as its whole deck.
-  // Only the FIRST row here: this fixture writes the same `srs` entry into a second deck that
-  // does not actually contain that question, so its filter matches nothing and `_entryForKey`
-  // falls back to the whole deck by design ("falls back if the filter empties"). That fallback
-  // is the thing being relied on, so assert the narrowing where the fact really lives.
+  await expect(page.locator('[data-session-section="Maintenance"]')).toContainText("2 cards owed across 1 technique");
+  // ...and the maintenance row is narrowed to what is OWED — both cards, not its whole deck.
   expect(await page.evaluate(() => {
     const a = (window as any).__neural;
     const k = a._session.keys[0];
     const due = a._entryForKey(k, "due").cards.length;
     const whole = a._entryForKey(k, null).cards.length;
     return { due: due, narrowed: whole > due };
-  }), "the maintenance row is its due cards, not its whole deck").toEqual({ due: 1, narrowed: true });
+  }), "the maintenance row is its due cards, not its whole deck").toEqual({ due: 2, narrowed: true });
 
-  // and the Challenges mirror band exists while something is owed
+  // and the Challenges band prints the SAME number while something is owed
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));
   await page.waitForTimeout(400);
   await expect(page.locator("[data-maintenance]")).toBeVisible();
+  await expect(page.locator("[data-maintenance]")).toContainText("2 cards due");
 });
 
 test("due-ness NEVER moves the score — the belt cannot drop because time passed", async ({

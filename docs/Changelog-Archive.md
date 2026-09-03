@@ -33,7 +33,10 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
-- **v1.171.0** — [THREE LAYERS, ONE DOCK](#v1-171-0-three-layers-one-dock)
+- **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
+- **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
+- **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
+- **v1.170.3** — [THE PINCH LEFT THE STAGED TRACKING RUNNING](#v1-170-3-the-pinch-left-the-staged-tracking-running)
 - **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
 - **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
@@ -6353,7 +6356,165 @@ expanded on payload land, board empty.
 beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
 `docs/Neural.md` reference-law paragraph extended.
 
-## v1.171.0 — THREE LAYERS, ONE DOCK
+## v1.172.0 — ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN
+
+**Owner, two reports in one sitting.** *"In the side panel I see '18 cards due · keep what you
+earned' but in the bottom I see 'Mastered 0 (0%) · 35 due · 1 new' — the due cards should be
+consistent."* Then, on the inline session: *"when I click one that is below the fold it doesn't
+seem to open right, like the scrolling position changes … it should make itself visible above the
+fold, also the case if I go down the list and back up the list."*
+
+### The two due figures were both honest, and that was the problem
+
+`dueCount()` dedupes the srs pool by question hash → 18 CARDS. `dueDeckCount()` counted every deck
+key holding one → 35 DECKS, because `_schedule` mirrors a shared card's review into every deck that
+carries it (`_sharedDecksFor`), so one owed fact produces one srs entry per copy. v1.138.0 had put
+the deck figure on the stat cell (owner then: "5 due" opened 7 rows, "kind of misleading") and the
+card figure on the band; on an account with real cross-deck history the two drifted to 18 vs 35 on
+one pane. Answering a shared card in any one deck clears it from all of them, so 17 of those 35
+rows would have finished themselves untouched.
+
+**Ruling (owner): 18.** Every printed due figure — stat cell, Challenges band, session header — is
+now `dueCount()`. `bucketTechniques("due")` became a **greedy cover**: decks walk most-overdue
+first (ties: more distinct cards owed, then key), and a deck is kept only if it owes a card no kept
+deck already covers. So `dueDeckCount() <= dueCount()`, the technique count moved to the cell's
+tooltip and the section note ("18 cards owed across N techniques"), and answering every kept row's
+due cards clears the whole debt. A deck the manifest lacks is skipped before it can claim coverage.
+
+The plan queue below the Maintenance section (Learn next · More, in order, with the `0/65` counter
+over the whole queue) is unchanged — that is v1.138.0's one-list design, and the section headers
+name it.
+
+### The list jumped because it scrolled against a hidden tick
+
+`_scrollFocusedDeck` targeted `list.querySelector(".mt")` — the FIRST progress tick in the pane.
+The session keeps a collapsed row's built deck in the DOM (`display:none`), and `renderSession`
+opens row 0 on arrival, so from the second click on the first `.mt` was a hidden one: rect all
+zeros, `scrollTop += (0 - lr.top) - 110`, the list thrown upward by the pane's own offset. The
+history home never showed it because `renderDrillHome` rebuilds its rows each time. It also always
+parked the tick at 110px even when the deck was already readable, so ↓/↑ moved the list under a
+card the user was looking at.
+
+Now it targets `_openMini.el` (the one open deck, on both surfaces) plus the row above it, and
+scrolls the SMALLEST amount that shows the whole block; taller than the scroller → align the top.
+Already fully visible → no movement. A late chunk that swaps the placeholder for the real deck
+re-fits once more.
+
+**Mutation** (bundle rebuilt per mutant, run against the named journey):
+
+| mutant | journey | result |
+|---|---|---|
+| old first-`.mt` body restored | `session-scroll.spec.ts` | killed — after the click the Reveal sat 73.8px below the scroller |
+| `bucketTechniques("due")` back to one row per deck | `tests/due_cover.test.mjs` (5 tests) · `srs-due.spec.ts` maintenance surfaces | killed — 3 srs copies must be 1 row |
+
+**Specs:** `e2e/journeys/session-scroll.spec.ts` (new — click a row below the fold, ↓×3, ↑×3, the
+open `[data-mini-deck]` and its row measured inside the scroller after each), `srs-due.spec.ts`
+maintenance-surfaces test rewritten for the card ruling (fixture is now a REAL shared card, found
+via `_sharedDecksFor`), `tests/due_cover.test.mjs` (node-side, real Component prototype).
+Curated gate: 218/218 on a private port — :8133 was held by another worktree's run during
+verification (§6.4), which is why two earlier runs showed ERR_CONNECTION_REFUSED noise.
+## v1.170.3 — THE PINCH LEFT THE STAGED TRACKING RUNNING
+
+**Owner**, on `/Positions/Mount/Bottom` (dev deploy): *"while zooming in, the landcard flickers."*
+
+**What was true.** A URL arrival is a STAGED board — paused from birth, `_staged` set, nothing
+played — and v1.114.4 made such a board re-aim its framing every frame (`stagedIdle` in
+`updateCamera` → `rollCamTarget`) until the user takes the camera, gated by `_stagedCamFree`. The
+comment beside the gate says "a real pan, pinch or wheel clears it". Two of three did: the pan
+handler and the wheel handler both wrote `_stagedCamFree = false`; the pinch branch of
+`pointermove` called only `releaseCamera()`, which drops a flight LEASE and nothing else. So on a
+phone the fingers wrote `cam.vw` and `camTarget.vw`, then the very next frame `stagedIdle` held,
+`rollCamTarget` rewrote `camTarget`, and the tween stepped the camera back toward the staged
+framing — one step out, one step back, per frame — and the moment the fingers lifted the camera
+flew home. Desktop never saw it: the wheel is the desktop zoom and it clears the gate.
+
+**Measured** on dev.bjjgraph.pages.dev at 390x844, CDP touch pinch on bare canvas, `cam.vw` per
+rAF: `130.48` at rest → `108.46, 110.77, 93.15, 80.71, 84.14, 71.89, 62.12, 66.26, 56.36, 60.62 …
+24.70` during the pinch (every other frame reverses), then `29.6 → 118.2` in ~1.5s after touchEnd
+with `camTarget.vw` pinned at `130.48` throughout and `_stagedCamFree` still `true`. With
+`_stagedCamFree` forced false before the same gesture: 185 frames, **0 reversals**, rests at
+`22.5`. The "flicker" is the board jittering under the landing card; the card itself never moved
+(MutationObserver on the card: zero attribute or child mutations during the gesture).
+
+**What is true now.** The pinch branch clears both latches, exactly as the pan does:
+`this.releaseCamera(); this._stagedCamFree = false;`. One line; the reasoning and the numbers sit
+above it in `attachInput`.
+
+**Mutation** (dropping `_stagedCamFree = false` from the pinch branch, rebuilt, run against the
+new journey): killed twice over — `free` reads true at lift, and with that assertion commented out
+the camera-holds assertion goes red on its own (`vw` 116.3 against a `< 78.4` bar).
+
+**Spec:** `e2e/journeys/dual-pair.spec.ts` +1 journey, `pinch on a staged board` — a 390x844
+`hasTouch` describe, real two-point touch through `Input.dispatchTouchEvent` (Chromium turns it
+into the `pointerType: "touch"` events the wrap's pinch branch reads; `page.mouse` cannot make two
+pointers). Asserts the staged posture first, that the pinch begins on the canvas, then `free`
+false at lift, zoom held, and `camTarget.vw` still equal to `cam.vw` 1.5s later.
+
+## v1.171.0 — A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED
+
+**Owner:** on `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender` — "it centered the current
+node behind the landcard … instead of showing it centered in the visible available space above
+the landcard, as it's done in other techniques. also the panic effects are uncalled for. we're not
+defending against a submission, we're in poor shape but calm down." Then, on
+`/Submissions/Americana/from-Modified-Scarf-Hold/Defender`: "the choices row is also missing
+here? why? … the landcard should look like the other ones … with the favorite and close buttons,
+the more link … and the panic vignette should be more chill, more slow motion of a heart beat
+really realistic like max payne … but more modern fluid movement."
+
+**What was true.** Four defects, three of them one line each.
+
+1. `rollFromPosition`'s arrival callback ran `enterDefense` for EVERY defender-staged technique.
+   The roll loop itself never panics over a transition — `opponentDefend` plays one as a
+   positional move — so a transition's Defender page was the only place in the app that did. And
+   `enterDefense` frames its danger set with `frameNodes`, which fits the WHOLE viewport, so the
+   state sat behind the card `_dockLandCard` had just docked. Both symptoms, one call.
+2. A URL arrival on a submission's escaping seat has no travel window: `_prefetchLandDeck` fires
+   at stage, `enterDefense` runs 0.6s later, and on a cold visit the Defender chunk is still in
+   flight. `_deckHasCards` is honestly false for both decks, `_panicKey` is null, `buildPanicCard`
+   returns without a card. Vignette, "Caught", one escape, and no question — ever. Measured in the
+   harness: `wait:true` on the deck the frame the drill was skipped, five cards resident two
+   seconds later. `panic-drill-defender-deck.spec.ts` had named exactly this entry as its non-kill.
+3. `buildPanicCard` built the question and nothing else: no `More ▸`, no `+`, no `✕`, no foot.
+   The landing card's chrome lived inline in `renderLandCard`.
+4. `ngHeartbeat` was a 1s ease-in-out sawtooth on opacity alone. And `killVignette`'s fade never
+   ran: a CSS animation outranks the inline `opacity` it animates, so the "180ms snap-off" was a
+   hard `remove()` after 200ms of full-strength red.
+
+**What is true now.**
+
+- The arrival callback gates the rush on `ty === "submissions"`. A transition's defending seat is
+  an ordinary staged landing: attempt card from the defender perspective (`perspSide`), the
+  `|Defender` deck, your hand from the defending side, `rollCamTarget`'s band-aware composition,
+  paused until play.
+- `enterDefense` late-binds the Defender deck: when `_panicKey` is null it awaits `hydrateDeck(dk)`
+  and opens the drill on the same catch, guarded on `_defendSub`, no card on the table, and real
+  cards. The odds do not move under the player: with `_panicKey` null, `escapeChance` already reads
+  `stateBonus(defendKeyFor(sub))` — the same key. The position-deck fallback is deliberately NOT
+  late-bound (that would change the odds' key).
+- `_landCardChrome(el, node, famChip, side)` is the one seam for More-body + foot + corner, called
+  by `renderLandCard` and by the drill's every render. `_landMoreHTML(node, side)` reads the
+  DEFENDER block when authored. The drill refits its chrome once when the dossier chunk lands
+  (the drill is excluded from `_landBackfill` by mode). The foot gradient follows the card skin.
+- The vignette is cardiac: S1 at 0–5% (sharp attack, `scale(.955)` contraction on an element
+  oversized by 7%), S2 at 23.5% (softer), long diastole, 3.2s cycle, per-keyframe easings.
+  `killVignette` freezes the animation at its current frame before transitioning, so the defeat
+  drain (.9s) and the relief snap (.32s) actually run.
+
+**Mutation** (rebuilt and run against `landcard-modes.spec.ts`; 3 of 3 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| `ty === "submissions"` gate gone | 6b | killed |
+| late-bind dropped | 6 | killed (no `[data-panic]` in 20s) |
+| `_landCardChrome` dropped from the drill | 6 | killed |
+
+**Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
+them) and the vignette fade (a transition under a removed animation — verified by eye on the real
+dev server, not by a gate).
+
+## v1.173.0 — THREE LAYERS, ONE DOCK
+
+*(shipped from `feat-minimize-node-content`; its own two commits are labelled v1.171.0 and v1.171.1, written before dev's unrelated v1.171.0 and v1.172.0 landed, and the in-code comments carry those branch labels. Index A's warning applies — the labels here are not reliable keys.)*
 
 **Owner:** "when he closes that he now only sees the outcomes … if he clicks another node at that
 instance, then another row of videos and another row of multiple-choice cards will show up and it
@@ -6418,7 +6579,7 @@ wire from another checkout — it fails identically on origin/dev's bundle — n
 **Spec:** `e2e/journeys/land-layers.spec.ts` (8 journeys, one `@curated`). Docs: `docs/Neural.md`
 §3 paragraph, film line, ladder line; CLAUDE.md §5 seam row, §6.1 surface count 6 → 8.
 
-**Status (v1.171.1):** decision (2) above is REVERSED. Owner, after previewing a Defender URL
+**Status (second pass, same ship — branch label v1.171.1):** decision (2) above is REVERSED. Owner, after previewing a Defender URL
 arrival with only the videos on: it "showed to me the outcomes … if I didn't ask to see outcomes
 don't show them to me". `_handShown` no longer reads `_defendSub`; the escape tray obeys the hand
 layer like every other deal, and the dock brings it back mid-defence. The catch is announced as
@@ -6430,3 +6591,27 @@ Two more owner calls in the same preview: the **"see more →" hint is DELETED**
 to have the see more and the x"; the tray still scrolls by wheel and drag, and `attachInput`'s
 list is 7 surfaces), and the **film ✕ hugs the last thumbnail**: `_dockLandFilm` places it 4px
 right of the last `.ng-clip`'s measured box, and a row of fewer than three clips is CENTRED.
+
+**INTEGRATING WITH dev's OWN v1.171.0, AND THE BUG THE MERGE MADE.** dev shipped its own v1.171.0
+(the Defender landing and the panic drill) plus v1.172.0 while this branch was in preview, so the
+branch merged dev in first — the repo's own pattern (`702315dd9`). One conflict mattered: dev had
+EXTRACTED the card's corner/foot block out of `renderLandCard` into `_landCardChrome`, shared with
+the drill, and this branch had edited the ✕ inside that block. Resolution took dev's extraction and
+re-applied the sticky ✕ inside the helper — so the drill's ✕ is now the card LAYER's handle too
+(it hides the drill; the escapes stay dealt, and a later catch skips the drill by `panic_skipped`).
+
+The merge then produced a defect that **compiled clean and passed the layer specs**: dev's chrome
+call reads `perspSide`, a local this branch had MOVED out of `renderLandCard` when it extracted
+`_landFilmClips`. Result: `ReferenceError: perspSide is not defined` on every landing card.
+`dual-pair.spec.ts` caught it (11 journeys red at once); the build could not, and neither could a
+spec that only asserts the collapsed path, because a collapsed card never reaches the chrome. Fixed
+by the §6.5 remedy rather than by restoring the local: `_landPerspSide(node)` is now the one seam
+both callers ask. **The lesson for a merge, not just for a refactor: when one side extracts a block
+and the other moves a local OUT of the same function, textual merge succeeds and the binding
+breaks — the audit after a merge has to be "does every symbol still resolve at RUNTIME", which
+here meant running the specs of the side you merged IN, not only your own.**
+
+**Two ceilings raised** (`tests/artifacts/budget_docs.json`, with the reasoning in its own note):
+the archive, which **origin/dev had already breached by 1,424 chars before this branch merged** —
+that gate was red on dev independently — and `docs/Neural.md`, following the standing instruction
+its own note left for "the next writer who touches it".
