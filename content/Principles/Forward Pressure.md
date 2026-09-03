@@ -308,7 +308,7 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 
 **Kesa Gatame**: Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force.
 
-**Modified Scarf Hold**: Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities.
+**Kuzure Kesa Gatame**: Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities.
 
 **Combat Base**: Forward pressure in combat base drives the opponent's legs down and back while maintaining structural integrity, using advancing force to flatten the bottom player and create passing opportunities without sacrificing defensive stability.
 

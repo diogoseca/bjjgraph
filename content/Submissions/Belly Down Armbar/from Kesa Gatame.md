@@ -297,7 +297,7 @@ This technique is particularly effective against opponents who defend the tradit
 ## From Which Positions?
 
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>
@@ -313,7 +313,7 @@ This technique is particularly effective against opponents who defend the tradit
 - [[Submissions/Arm Crush]]
 - [[Positions/Side Control/Kesa Gatame]] - Starting position for this submission variant
 - [[Positions/Armbar Control]] - Control position reached during successful arm isolation
-- [[Positions/Side Control/Modified Scarf Hold]] - Alternative starting position with similar arm control mechanics
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Alternative starting position with similar arm control mechanics
 
 </section>
 

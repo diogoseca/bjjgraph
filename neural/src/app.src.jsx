@@ -1036,7 +1036,7 @@ class Component extends DCLogic {
           x: h.x, y: h.y, t: h.t, ty: h.ty, s: h.s || null, role: role,
           pairId: si === 0 ? h.id + "/" + SUF[roles[1]] : h.id,
           posId: h.posId || null, fromPositionId: h.fromPositionId || null,
-          fromRole: h.fromRole || null, familyHub: h.familyHub || null,
+          fromRole: h.fromRole || null, familyHub: h.familyHub || null, aka: h.aka || null,
           o: si === 0 ? h.o : null,   // the share ordinal belongs to the hub, and the rep IS the hub
         };
         // `sv` colours the member by ITS OWN side's advantage; `s` stays the full pair so
@@ -1236,7 +1236,7 @@ class Component extends DCLogic {
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -1708,6 +1708,20 @@ class Component extends DCLogic {
   splitName(t) {
     const m = (t || "").match(/^(.*?)\s+[Ff]rom\s+(.+)$/);
     return m ? { main: m[1].trim(), from: "from " + m[2].trim() } : { main: t || "", from: "" };  }
+  /** The dim qualifier printed beside a node's name on DOM surfaces: a technique's "from <origin>"
+   *  tail, or — the same slot, same styling — a position's first authored alias as "aka Scarf
+   *  Hold" (v1.171.0). `aka` is emitted by regenerate_neural_data.py from `aliases[0]` and only
+   *  on positions, so the two never compete for the slot. Never on the canvas: the label paths
+   *  are width-bound (halfW, _fitText) and answer "what is this" with `graphName` alone. Never in
+   *  `t`: `posFamily(n.t)` keys deck joins and the list layer prints the FULL authored name. */
+  nodeQual(n) {
+    const sp = this.splitName(n.t);
+    return sp.from || (n.aka ? "aka " + n.aka : "");
+  }
+  /** Search hit test for a node: its title, or its alias — so "scarf hold" finds Kesa Gatame. */
+  nodeMatches(n, q) {
+    return n.t.toLowerCase().includes(q) || !!(n.aka && n.aka.toLowerCase().includes(q));
+  }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
    *  surfaces, lists and dossier always render the FULL authored name by canon. */
@@ -6740,7 +6754,7 @@ class Component extends DCLogic {
       // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
       // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
       // page of results for states no no-gi session can enter.
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && n.t.toLowerCase().includes(q)).slice(0, 120);
+      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -6761,7 +6775,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.nodeQual(n) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -6840,7 +6854,7 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.nodeQual(n) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
           const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
           list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
@@ -8725,11 +8739,11 @@ class Component extends DCLogic {
         try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
       };
       const nodeRow = (i, role, inset) => {
-        const n = this.nodes[i], sp = this.splitName(n.t);
+        const n = this.nodes[i], sp = this.splitName(n.t), qual = this.nodeQual(n);
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
-            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -8937,12 +8951,12 @@ class Component extends DCLogic {
         for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
       }
       for (const i of idxs) {
-        const n = this.nodes[i], sp = this.splitName(n.t);
+        const n = this.nodes[i], sp = this.splitName(n.t), qual = this.nodeQual(n);
         const role = roleFor.get(n.id) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
-            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -9868,7 +9882,7 @@ class Component extends DCLogic {
       const deckKey = this.deckKeyFor(n).key;
       const deck = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[deckKey] : null;
       let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.splitName(n.t).main + '</div>';
-      if (this.splitName(n.t).from) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.splitName(n.t).from + '</div>';
+      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.nodeQual(n) + '</div>';
       html += '<div style="display:inline-block;margin-top:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#8094b4;border:1px solid rgba(150,170,210,.25);border-radius:6px;padding:4px 9px;">' + cat + '</div>';
       detail.innerHTML = html;
       const btns = document.createElement("div"); btns.style.cssText = "display:flex;gap:10px;margin:18px 0 6px;flex-wrap:wrap;";
@@ -9907,13 +9921,13 @@ class Component extends DCLogic {
       // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
       // directly, so it inherited neither filter.
       const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
-      let matches = q ? repd.filter((n) => n.t.toLowerCase().includes(q)) : repd.slice(0, 80);
+      let matches = q ? repd.filter((n) => this.nodeMatches(n, q)) : repd.slice(0, 80);
       matches = matches.slice(0, 100);
       if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
       for (const n of matches) {
         const r = document.createElement("div"); const active = n.idx === this._searchSel;
         r.style.cssText = "cursor:pointer;padding:10px 12px;border-radius:9px;margin-bottom:2px;font-size:13.5px;background:" + (active ? "rgba(74,108,255,.18)" : "transparent") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.splitName(n.t).from + '</span>' : "");
+        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.splitName(n.t).main, q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.nodeQual(n) + '</span>' : "");
         r.addEventListener("click", () => { this._searchSel = n.idx; renderResults(); renderDetail(); });
         results.appendChild(r);
       }
@@ -11012,7 +11026,7 @@ class Component extends DCLogic {
   // top now deals all 25 of its cards and the 9 transitions are simply there. It is deleted
   // rather than kept, and with it goes the open question v1.119.0 recorded for the owner —
   // whether the admitted card should be the category's best by EDGE or its most-ATTEMPTED
-  // (`Side Control to Scarf Hold Position` +3 vs `Side Control to Mount` −2 on 23%). Both moves
+  // (`Side Control to Kesa Gatame` +3 vs `Side Control to Mount` −2 on 23%). Both moves
   // are dealt now, so there is nothing left to choose between and nothing to answer.
   //
   // NB the `!out.length` fallback in optionsFor keeps its own `.slice(0, 6)`. That is NOT this

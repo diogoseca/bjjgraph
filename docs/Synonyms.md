@@ -100,7 +100,7 @@ Documented in `docs/SEO.md` and referenced briefly here:
 | D'Arce Choke ↔ Brabo Choke | Synonym | Collapse into `Darce Choke.json` (filename preserved); display name `D'Arce Choke`; alias `Brabo Choke`. |
 | Hip Bump Sweep ↔ Hip Bump Sweep V2 | Synonym (legacy artifact) | Delete V2 file entirely; no alias needed since "V2" is not a search term. |
 | Rear Naked Choke / Mata Leão / Hadaka Jime | Synonym | Single page `Rear Naked Choke.json`; aliases `Mata Leão`, `Hadaka Jime`, `Sleeper Hold`, `RNC`. |
-| Kesa Gatame, Reverse Kesa-Gatame, Kuzure Kesa-Gatame | Variant | Separate files, all declare `family: "Side Control"`. Family hub at `content/Families/Side Control.json`. |
+| Kesa Gatame / Scarf Hold · Kuzure Kesa Gatame / Modified Scarf Hold · Ushiro Kesa Gatame / Reverse Scarf Hold | Synonym (3 pairs) | Each pair was TWO files with a twin technique set each (v1.171.0). Collapsed into the judo-named file, uniformly spelled; the English name is an alias. The three judo names remain Variants of each other. |
 | Inside Heel Hook ↔ Outside Heel Hook | Variant (and a False Synonym!) | Both declare `family: "Heel Hook"`. Both also declare each other in `disambiguations[]` to flag the opposite-leg-configuration gotcha. |
 | Mount ↔ Reverse Mount | False Synonym | Separate files; reciprocal disambiguations; pair in `do_not_merge.json`. |
 | Ankle Lock / Straight Ankle Lock / Achilles Lock | False Synonym (3-way) | Separate files; three-way reciprocal disambiguations; all three pairs in `do_not_merge.json`. |

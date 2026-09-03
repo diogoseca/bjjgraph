@@ -288,6 +288,24 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 return nn
         return None
 
+    # ── `aka`: the position's FIRST authored alias (v1.171.0) ─────────────────────────────
+    # The static page has rendered `aliases[]` as "Also known as" since the synonym epic; the app
+    # never saw it, so a player standing on Kesa Gatame had no way to learn it is the Scarf Hold
+    # they were taught. Only the first alias ships (~20 bytes on ~16 of 133 positions), only on
+    # positions (a technique's qualifier slot is already taken by "from <origin>"), and only
+    # to DOM surfaces — the canvas label is width-bound (halfW, _fitText). Read from the
+    # authored JSON, not graph.json, which does not carry the field. Keyed by the position's
+    # own `slug` because that is what `posId` is (leaf slug, see the node loop below).
+    pos_aka = {}
+    for pf in sorted((ROOT / "content/Positions").rglob("*.json")):
+        try:
+            pd = json.loads(pf.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        al = pd.get("aliases") if isinstance(pd, dict) else None
+        if isinstance(al, list) and al and isinstance(al[0], str) and al[0].strip():
+            pos_aka[slugify(pd.get("slug") or pd.get("name") or pf.stem)] = al[0].strip()
+
     # ── WIRE COMPACTION (v1.107.0) ──────────────────────────────────────────────────────────
     # graph-data.json is the largest BOOT payload (was 1.55MB raw / 144KB gzip), and 46% of it
     # was `cal`. The wire is now compact and `ingest()` (app.src.jsx) EXPANDS it back into the
@@ -435,6 +453,9 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             rn = _pos_role(pslug, "top") or _pos_role(pslug, "bottom")
             if rn and rn.get("familyHub"):
                 node["familyHub"] = rn["familyHub"]
+            aka = pos_aka.get(node["posId"])
+            if aka:
+                node["aka"] = aka
         nodes.append(node)
 
     # ── THE JOIN MUST NEVER ROT SILENTLY AGAIN ──────────────────────────────────────────────
@@ -485,6 +506,15 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         raise SystemExit("[neural] availability: every technique is available in BOTH frames. The "
                          "corpus has authored ruleset zeros; a table that finds none is a matcher "
                          "that matched nothing, not a corpus without gi-only moves.")
+    # `aka` is a join by slug too, and a join that matched nothing looks exactly like a corpus
+    # with no aliases. The authored count is the floor: every position that carries aliases[]
+    # must land on exactly one wire node, or the key changed and the surface went silently blank.
+    _aka_n = sum(1 for nd in nodes if nd["ty"] == "positions" and nd.get("aka"))
+    print(f"  aka: {_aka_n} positions carry an alias on the wire ({len(pos_aka)} authored)")
+    if _aka_n != len(pos_aka):
+        raise SystemExit(f"[neural] aka join: {len(pos_aka)} positions author aliases[] but "
+                         f"{_aka_n} wire nodes carry one. `posId` and the authored `slug` no "
+                         f"longer agree for {len(pos_aka) - _aka_n} of them.")
 
     # A position's wire node is a HUB — one `avail` for both seats. That is only sound while the
     # seats agree. They do today (9 cloth guards, 18 role-nodes, always in pairs); if one ever

@@ -101,7 +101,7 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the North-South Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The North-South Choke is a body-pressure blood choke finished from North-South and related top pins, burying the attacker\u0027s bicep and shoulder into both carotid arteries with bodyweight rather than a visible arm wrap." } },
-    { "@type": "Question", "name": "What positions can you finish the North-South Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the North-South Choke from North-South, Shoulder of Justice, Kesa Gatame, Modified Scarf Hold, Side Control, Reverse Scarf Hold." } },
+    { "@type": "Question", "name": "What positions can you finish the North-South Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the North-South Choke from North-South, Shoulder of Justice, Kesa Gatame, Side Control." } },
     { "@type": "Question", "name": "Is the North-South Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "North-South Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -181,9 +181,7 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 | [[Submissions/North-South Choke/from North-South|North-South]] | Top | 68% | [[Submissions/North-South Choke/from North-South/Attacker|Attack →]] | [[Submissions/North-South Choke/from North-South/Defender|Defend →]] |
 | [[Submissions/North-South Choke/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/North-South Choke/from Shoulder of Justice/Defender|Defend →]] |
 | [[Submissions/North-South Choke/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/North-South Choke/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/North-South Choke/from Kesa Gatame/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/North-South Choke/from Modified Scarf Hold/Defender|Defend →]] |
 | [[Submissions/North-South Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/North-South Choke/from Side Control/Attacker|Attack →]] | [[Submissions/North-South Choke/from Side Control/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from Reverse Scarf|Reverse Scarf Hold]] | Top | 42% | [[Submissions/North-South Choke/from Reverse Scarf/Attacker|Attack →]] | [[Submissions/North-South Choke/from Reverse Scarf/Defender|Defend →]] |
 
 
 </div>

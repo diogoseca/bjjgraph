@@ -128,7 +128,6 @@
     "Kesa Gatame",
     "Modified Mount",
     "Half Guard",
-    "Scarf Hold Position",
     "Combat Base"
   ],
   "related_submissions": [
@@ -213,10 +212,6 @@
     {
       "name": "Mount",
       "relationship": "Position advancement option when opponent turns into the choke"
-    },
-    {
-      "name": "Scarf Hold Position",
-      "relationship": "Transitional position that can lead to baseball bat setup"
     }
   ],
   "clips": [

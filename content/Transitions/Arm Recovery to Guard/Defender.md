@@ -21,7 +21,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     {
       "@type": "HowToStep",
       "name": "Tighten the armpit clamp by dropping your chest weight onto their upper arm while squeezing your elbow against your ribs, then drive your hip pressure deeper into their ribs to restrict bridge power",
-      "text": "When you recognize the early shoulder rotation or foot-planting cues before the bridge begins—preemptive tightening is far more effective than reactive tightening after the bridge If successful: Opponent remains trapped in Kuzure Kesa-Gatame with their arm still isolated, their bridge energy wasted, and their escape window closed until their next attempt",
+      "text": "When you recognize the early shoulder rotation or foot-planting cues before the bridge begins—preemptive tightening is far more effective than reactive tightening after the bridge If successful: Opponent remains trapped in Kuzure Kesa Gatame with their arm still isolated, their bridge energy wasted, and their escape window closed until their next attempt",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     {
       "@type": "HowToStep",
       "name": "Switch to North-South by rotating perpendicular to their body when you feel the bridge coming, denying the guard recovery angle entirely",
-      "text": "When the opponent's bridge is powerful enough that maintaining Kuzure Kesa-Gatame becomes difficult—rather than fighting their bridge strength, flow with it by transitioning to North-South where their guard recovery mechanics cannot function If successful: You transition to North-South control, which eliminates the guard recovery threat entirely since their legs cannot reach you from this angle. You maintain top control and can attack from the new position",
+      "text": "When the opponent's bridge is powerful enough that maintaining Kuzure Kesa Gatame becomes difficult—rather than fighting their bridge strength, flow with it by transitioning to North-South where their guard recovery mechanics cannot function If successful: You transition to North-South control, which eliminates the guard recovery threat entirely since their legs cannot reach you from this angle. You maintain top control and can attack from the new position",
       "position": 4
     }
   ],
@@ -72,10 +72,10 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges hard and you feel your armpit clamp loosening—should you fight to maintain Kuzure Kesa-Gatame or transition?",
+      "name": "Your opponent bridges hard and you feel your armpit clamp loosening—should you fight to maintain Kuzure Kesa Gatame or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the bridge has already disrupted your base and the clamp is loosening, fighting to maintain the exact position is often lower-percentage than transitioning. Your best options are: immediately transition to armbar by extending the partially freed arm, or rotate to North-South to deny the guard recovery angle entirely. Stubbornly fighting to maintain a compromised Kuzure Kesa-Gatame often results in losing both the arm control and the passing position when the opponent completes the escape sequence."
+        "text": "If the bridge has already disrupted your base and the clamp is loosening, fighting to maintain the exact position is often lower-percentage than transitioning. Your best options are: immediately transition to armbar by extending the partially freed arm, or rotate to North-South to deny the guard recovery angle entirely. Stubbornly fighting to maintain a compromised Kuzure Kesa Gatame often results in losing both the arm control and the passing position when the opponent completes the escape sequence."
       }
     },
     {
@@ -189,13 +189,13 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
 
 <section id="overview" class="content-section">
 
-As the top player in Kuzure Kesa-Gatame, your opponent's arm recovery attempt represents one of the most common and highest-value escapes they will attempt. Your role as the defender in this context means maintaining your dominant top position by preventing the trapped arm from being extracted and denying the subsequent guard recovery. Understanding the mechanics of this escape is essential for shutting it down at each phase: the initial shoulder rotation, the bridge that creates the extraction window, the elbow pull, and the hip escape to guard.
+As the top player in Kuzure Kesa Gatame, your opponent's arm recovery attempt represents one of the most common and highest-value escapes they will attempt. Your role as the defender in this context means maintaining your dominant top position by preventing the trapped arm from being extracted and denying the subsequent guard recovery. Understanding the mechanics of this escape is essential for shutting it down at each phase: the initial shoulder rotation, the bridge that creates the extraction window, the elbow pull, and the hip escape to guard.
 
 The critical defensive principle is that arm recovery requires a specific sequence of events—bridge, extract, hip escape, insert legs—and disrupting any single link in that chain defeats the entire escape. Your primary weapons are armpit clamp pressure on the trapped arm, hip-to-rib weight distribution that restricts their bridge power, and the ability to follow their hip movement to deny guard recovery space. The most common error defenders make is reacting only to the arm pull itself while ignoring the bridge that precedes it. By the time they feel the arm moving, the weight shift has already created the opening.
 
 Advanced defense involves reading the escape attempt before it develops and preemptively attacking. When you feel the opponent internally rotating their shoulder or planting their feet for a bridge, you have two strategic options: tighten your control to deny the escape entirely, or deliberately allow partial extraction to transition into an armbar. This counter-offensive approach transforms a defensive moment into an attacking opportunity, punishing the escape attempt and discouraging future extraction efforts. The key is recognizing the early signals and choosing your response before the opponent commits to their bridge.
 
-**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -267,8 +267,8 @@ Advanced defense involves reading the escape attempt before it develops and pree
 ### 1. Tighten the armpit clamp by dropping your chest weight onto their upper arm while squeezing your elbow against your ribs, then drive your hip pressure deeper into their ribs to restrict bridge power
 
 - **When to use**: When you recognize the early shoulder rotation or foot-planting cues before the bridge begins—preemptive tightening is far more effective than reactive tightening after the bridge
-- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- **If successful**: Opponent remains trapped in Kuzure Kesa-Gatame with their arm still isolated, their bridge energy wasted, and their escape window closed until their next attempt
+- **Targets**: [[Positions/Side Control/Kuzure Kesa Gatame]]
+- **If successful**: Opponent remains trapped in Kuzure Kesa Gatame with their arm still isolated, their bridge energy wasted, and their escape window closed until their next attempt
 - **Risk**: Over-committing chest weight forward to tighten the clamp can shift your center of gravity, potentially making you vulnerable to a Granby Roll or bridge-and-roll reversal if the arm recovery was a setup
 
 ### 2. Transition to armbar by extending their trapped arm as they attempt extraction—when their elbow begins moving, redirect the arm into full extension and swing your leg over their face
@@ -281,14 +281,14 @@ Advanced defense involves reading the escape attempt before it develops and pree
 ### 3. Follow the hip escape by driving your hips into theirs and re-establishing chest-to-chest contact before they can insert a knee shield or close their guard
 
 - **When to use**: When the opponent successfully extracts the arm and begins hip escaping—this is the last defensive window before guard recovery completes. Your reaction must be immediate as the gap between arm extraction and knee insertion is typically under two seconds
-- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa Gatame]]
 - **If successful**: You re-establish side control or modified scarf hold with new grips on their now-free arm, denying the guard recovery and returning to a dominant control position
 - **Risk**: Driving forward aggressively into their hip escape may run you into a knee shield if they insert it faster than you advance, potentially creating a Half Guard situation rather than maintaining your original control
 
 ### 4. Switch to North-South by rotating perpendicular to their body when you feel the bridge coming, denying the guard recovery angle entirely
 
-- **When to use**: When the opponent's bridge is powerful enough that maintaining Kuzure Kesa-Gatame becomes difficult—rather than fighting their bridge strength, flow with it by transitioning to North-South where their guard recovery mechanics cannot function
-- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **When to use**: When the opponent's bridge is powerful enough that maintaining Kuzure Kesa Gatame becomes difficult—rather than fighting their bridge strength, flow with it by transitioning to North-South where their guard recovery mechanics cannot function
+- **Targets**: [[Positions/Side Control/Kuzure Kesa Gatame]]
 - **If successful**: You transition to North-South control, which eliminates the guard recovery threat entirely since their legs cannot reach you from this angle. You maintain top control and can attack from the new position
 - **Risk**: The transition creates a brief moment of reduced control where the opponent may turtle, recover to all fours, or establish frames during the rotation
 
@@ -302,7 +302,7 @@ Advanced defense involves reading the escape attempt before it develops and pree
 
 <p class="section-subtitle">What is the best outcome when defending Arm Recovery to Guard?</p>
 
-### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 Shut down the extraction at the earliest phase by tightening the armpit clamp when you feel the shoulder rotation, then drive hip pressure into their ribs to deny the bridge. If the arm extraction fails, immediately re-consolidate your pin by resetting your hip angle and chest weight before they can chain into a different escape.
 
@@ -365,7 +365,7 @@ Partner bridges at 50-70% power while top player focuses on maintaining armpit c
 Partner performs full arm recovery sequence at moderate speed. Top player practices both defensive retention and the armbar counter-transition when the arm begins to clear. Develop the decision framework for when to tighten the clamp versus when to flow into the armbar. Practice North-South transition as alternative when the bridge is too powerful to absorb.
 
 **Week 7+** - Live positional defense integration
-Full positional sparring from Kuzure Kesa-Gatame where the bottom player uses arm recovery as part of their complete escape system. Top player integrates clamp defense, armbar counters, hip-following, and North-South transitions into a reactive defensive system. Track which defensive responses are most effective against each escape variation.
+Full positional sparring from Kuzure Kesa Gatame where the bottom player uses arm recovery as part of their complete escape system. Top player integrates clamp defense, armbar counters, hip-following, and North-South transitions into a reactive defensive system. Track which defensive responses are most effective against each escape variation.
 
 
 

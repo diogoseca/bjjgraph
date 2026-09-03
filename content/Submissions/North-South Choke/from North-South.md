@@ -303,7 +303,7 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 ## From Which Positions?
 
 - [[Positions/North-South]]
-- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Side Control/Ushiro Kesa Gatame]]
 
 
 </section>

@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.171.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-171-0-three-positions-that-existed-twice-the-k)
 - **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
 - **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
 - **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
@@ -6351,3 +6352,64 @@ expanded on payload land, board empty.
 (expanded section, folded neighbours, no seat/hand/stage, no `options_dealt`/`roll_staged`
 beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
 `docs/Neural.md` reference-law paragraph extended.
+
+## v1.171.0 — THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE
+
+**Owner:** "we got kuzure kesa gatame which is aka modified scarf hold, and afaik kesa gatame is
+aka scarf hold. how do we show that in the graph? … i guess it'd be like the judo/canonical
+version first and the legend 'aka Scarf Hold'" — then, on the survey: "canonical should be ushiro
+kesa gatame and the aka is Reverse Scarf Hold. please merge whatever else content makes sense".
+
+**What the survey found.** `aliases[]` already existed on 13 positions and rendered on the static
+page (Mount → Tate Shiho Gatame), but the neural wire never carried it. And the real defect was
+upstream of "aka": the corpus held **six position files for three positions** —
+`Kesa Gatame` ≡ `Scarf Hold Position`, `Kuzure Kesa-Gatame` ≡ `Modified Scarf Hold`,
+`Reverse Kesa-Gatame` ≡ `Reverse Scarf Hold` — each side with its own copy of the technique set
+(61 technique files hung off the six), and the pairs cross-wired: `Kesa Gatame to Modified Scarf
+Hold` landed on `Modified Scarf Hold/Top`, not on Kuzure. Submissions even listed both spellings
+in `from_positions[]` as two origins. `docs/Synonyms.md` §2 had prescribed the collapse since the
+synonym epic; nobody had done it for this triplet.
+
+**The decision.** Judo names canonical, uniformly spelled: `Kesa Gatame`, `Kuzure Kesa Gatame`,
+`Ushiro Kesa Gatame`. English names become `aliases[]` (Scarf Hold · Scarf Hold Position · Hon
+Kesa Gatame / Modified Scarf Hold · Broken Scarf Hold / Reverse Scarf Hold · Reverse Kesa
+Gatame). `quartz_slug` maps `Kuzure Kesa-Gatame` and `Kuzure Kesa Gatame` to the same id, so that
+spelling fix cost no ordinal; `Reverse Kesa-Gatame → Ushiro Kesa Gatame` is a real rename.
+
+**The fold, by rule rather than by hand.** A loser technique whose name, with the loser position
+replaced by the canonical, matched an existing survivor was a TWIN → deleted (16: eleven
+`Kimura/Americana/Arm Triangle/Belly Down Armbar from <loser>` submissions, `Bridge Escape from
+Scarf Hold`, `Escape Reverse Scarf Hold`, `Reverse Scarf to North-South/Side Control`, and
+`Side Control to Scarf Hold Position`, whose 2/2 attempt mass folded into `Side Control to Kesa
+Gatame` → 5/4). The rest were UNIQUE → retargeted and renamed (32 renames incl. the canonical
+side's spelling: `Kesa Gatame to Mount`, `Escape Kesa Gatame`, `Bridge from Kesa Gatame`,
+`Kuzure Kesa Gatame to Kesa Gatame`, `North-South Choke from Ushiro Kesa Gatame`, `Kimura Trap to
+Ushiro Kesa Gatame`…). The canonical hand kept its authored composition and gained only the moves
+AUTHORED FROM the merged state (not the loser's generic entries — `Back Step` from Outside Ashi,
+`Arm Extraction to Turtle` from Aoki Lock were origin-mismatched and dead in `optionsFor`
+already), then renormalised per frame with largest-remainder rounding, nulls preserved. Every
+hand sums to 100 in both frames; every `from_position` / `outcomes[].to` resolves.
+
+**Everything else that named them.** `templates/votes.json` (58 keys renamed, 16 twin rows
+dropped — canonical rows iterated FIRST, because the first pass let a twin win the key);
+`success_reachability_baseline.json` (rekeyed, 3 loser rows dropped);
+`occurrence_calibration.json` (the 6 canonical containers rekeyed so the Q3 ballots still join;
+the 6 loser containers stay as the ledger's own record, beside Crackhead Control's);
+`occurrence_reviewed.json` (one orphan row); `node_ordinals.json` (+26 minted, 44 retired, 0
+renumbered); 90 hand-authored 301s in `source/quartz/static/_redirects` for the pages the
+generator can no longer see; `option-hand.spec.ts` (side-control/top 25 → 24, 9 → 8
+transitions, and the named card); `solve_edge_values.py`'s 272 tripwire → 266.
+
+**The census did its job.** `npm run test:units` named 18 stale literals at once
+(sites 1464→1445, members 2928→2890, roleHands 272→266, positions 136→133, techSites
+1328→1312, submissions 298→287…). `neural_seat_decks.test.mjs` held four hand-held copies
+(a `>= 2900` floor that 2890 tripped, plus 136/272 in two tests); they are census-marked now.
+
+**"aka" on the wire.** `regenerate_neural_data.py` emits `aka` = `aliases[0]` on position nodes
+(16 of 133, read from the authored JSON keyed by `slug` = `posId`, counted every run, and the
+emitter refuses a wire where the authored count and the joined count disagree). The app carries
+it through `ingest()` and the pair split, prints it through `nodeQual(n)` — the same dim slot and
+styling as a technique's `from <origin>` — on Explore rows, both search panes, the search detail
+card and the System/concept member rows, and `nodeMatches(n, q)` makes "scarf hold" find Kesa
+Gatame. Never in `t` (deck joins key on `posFamily(n.t)`; the list layer prints the full authored
+name) and never on the canvas (`halfW`/`_fitText` width-bound; `graphName` is the one rule).

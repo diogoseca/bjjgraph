@@ -435,7 +435,6 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Positions/North-South]]** - Alternative dominant position via transition when opponent turns into you
 - **[[Positions/Knee on Belly]]** - Transitional control position for point scoring and mobility
 - **[[Positions/Side Control/Kesa Gatame]]** - Variation of side control with different control mechanics and head emphasis
-- **[[Positions/Side Control/Scarf Hold Position]]** - Related holding position with head control emphasis
 - **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
 - **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape
 - **[[Submissions/Americana]]** - Primary shoulder lock submission transition from this position

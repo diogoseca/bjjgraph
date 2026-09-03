@@ -368,7 +368,7 @@ The position demands different strategic approaches based on whether you're esta
 
 - **[[Positions/Side Control/Kesa Gatame]]** - Alternative scarf hold pin with different control mechanics
 
-- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Reverse scarf hold variation with inverted alignment
+- **[[Positions/Side Control/Ushiro Kesa Gatame]]** - Reverse scarf hold variation with inverted alignment
 
 - **[[Positions/Crucifix]]** - Advanced control position with superior arm isolation
 

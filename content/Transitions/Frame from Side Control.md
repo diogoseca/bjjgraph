@@ -314,7 +314,7 @@ The Frame from Side Control occupies the foundational layer of the bottom side c
 
 - [[Transitions/Elbow Escape to Guard]] - Primary escape sequence enabled once frames establish sufficient space
 
-- [[Transitions/Frame Escape from Kuzure Kesa]] - Related frame escape sharing identical forearm mechanics from different pin
+- [[Transitions/Frame Escape from Kuzure Kesa Gatame]] - Related frame escape sharing identical forearm mechanics from different pin
 
 - [[Positions/North-South]] - Position opponent may transition to when lateral frames redirect their pressure
 

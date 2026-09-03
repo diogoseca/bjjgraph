@@ -326,8 +326,7 @@ The submission can be entered from various side control variations including sta
 
 - [[Positions/Side Control]]
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
 
@@ -354,7 +353,7 @@ The submission can be entered from various side control variations including sta
 - [[Transitions/Side Control to Mount]] - Alternative transition if armbar is not available
 - [[Transitions/Side Control to North-South]] - Position transition that can lead to armbar setup
 - [[Positions/Gift Wrap]] - Control position that can transition to armbar
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for armbar entry
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Modified scarf hold with arm isolation ideal for armbar entry
 
 </section>
 

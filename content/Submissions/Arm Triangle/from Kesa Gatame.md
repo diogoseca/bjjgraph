@@ -46,8 +46,8 @@ description: "Master the Arm Triangle from Kesa Gatame with step-by-step grip tr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm Triangle from Scarf Hold Position",
-      "description": "Arm Triangle from Kesa Gatame film study: Arm Triangle from Scarf Hold Position, taught by Mat Life Training Center.",
+      "name": "Arm Triangle from Kesa Gatame",
+      "description": "Arm Triangle from Kesa Gatame film study: Arm Triangle from Kesa Gatame, taught by Mat Life Training Center.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
       "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
@@ -139,7 +139,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 
 ![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
 
-<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Triangle from Kesa Gatame</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -318,7 +318,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 ## From Which Positions?
 
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>
@@ -329,8 +329,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Triangle/from Side Control]]
 - [[Submissions/Americana/from Kesa Gatame]]
-- [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame]]
-- [[Submissions/Arm Triangle/from Modified Scarf Hold]]
+- [[Submissions/Arm Triangle/from Kuzure Kesa Gatame]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm Triangle/from Hindulotine]]
@@ -338,7 +337,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 - [[Submissions/North-South Choke]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position with head and arm control already established
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative scarf hold variant with similar arm triangle entry path
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Alternative scarf hold variant with similar arm triangle entry path
 - [[Positions/Side Control]] - Common finishing position after walking to perpendicular angle
 - [[Positions/North-South]] - Alternative submission position when arm triangle stalls
 - [[Positions/Front Headlock]] - Related head control position used in head-and-arm attack chains

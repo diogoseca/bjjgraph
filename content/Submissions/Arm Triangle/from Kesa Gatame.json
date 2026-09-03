@@ -67,14 +67,13 @@
   },
   "from_positions": [
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame"
+    "Kuzure Kesa Gatame"
   ],
   "related_submissions": [
     "Arm Triangle",
     "Arm Triangle from Side Control",
     "Americana from Kesa Gatame",
-    "Arm Triangle from Kuzure Kesa-Gatame",
-    "Arm Triangle from Modified Scarf Hold",
+    "Arm Triangle from Kuzure Kesa Gatame",
     "Arm in Guillotine",
     "Anaconda Choke",
     "Arm Triangle from Hindulotine",
@@ -88,7 +87,7 @@
       "relationship": "Primary starting position with head and arm control already established"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Alternative scarf hold variant with similar arm triangle entry path"
     },
     {
@@ -449,7 +448,7 @@
     "clips": [
       {
         "id": "xz9-FEBFFIo",
-        "title": "Arm Triangle from Scarf Hold Position",
+        "title": "Arm Triangle from Kesa Gatame",
         "by": "Mat Life Training Center",
         "vertical": false,
         "channel": "Mat Life Training Center",

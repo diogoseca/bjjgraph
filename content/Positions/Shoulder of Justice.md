@@ -379,7 +379,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 - **[[Positions/Knee on Belly]]** - Transition option when opponent creates space while shrimping
 
-- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Alternative pressure position with similar control objectives
+- **[[Positions/Side Control/Kuzure Kesa Gatame]]** - Alternative pressure position with similar control objectives
 
 - **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
 

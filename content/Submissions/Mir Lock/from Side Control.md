@@ -305,9 +305,9 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 - [[Positions/North-South]]
 - [[Positions/Side Control/Kesa Gatame]]
 - [[Positions/Mount/Modified Mount]]
-- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Side Control/Ushiro Kesa Gatame]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>

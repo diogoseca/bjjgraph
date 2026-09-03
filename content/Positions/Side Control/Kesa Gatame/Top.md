@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Kesa Gatame",
-      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from Kesa Gatame",
-      "text": "From this position, attempt North-South Choke from Kesa Gatame. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from Kesa Gatame. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Kesa Gatame",
-      "text": "From this position, attempt Arm Triangle from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Kesa Gatame. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kesa Gatame to Modified Scarf Hold",
-      "text": "From this position, attempt Kesa Gatame to Modified Scarf Hold. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kesa Gatame to Kuzure Kesa Gatame",
+      "text": "From this position, attempt Kesa Gatame to Kuzure Kesa Gatame. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
   "@type": "WebPage",
   "name": "Kesa Gatame Top",
   "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 78% retention rate. Complete guide covering control, submissions, and transitions.",
+  "alternateName": ["Scarf Hold", "Scarf Hold Position", "Hon Kesa Gatame"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -192,6 +193,9 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Scarf Hold</strong>, <strong>Scarf Hold Position</strong>, <strong>Hon Kesa Gatame</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning position that has been adapted for Brazilian Jiu-Jitsu. The top practitioner sits perpendicular to their supine opponent, controlling the head and near arm while using their bodyweight to pin the opponent's torso. This position creates immense pressure and restricts the opponent's breathing and movement, making it highly effective for maintaining control and setting up submissions.
@@ -364,7 +368,7 @@ Partner starts in Kesa Gatame Top and must maintain position for 2-minute rounds
 
 ### Transition Flow Drill
 
-From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa-Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.
+From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Ushiro Kesa Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.
 
 **Duration**: 3 rounds of 3 minutes
 
@@ -408,8 +412,8 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 ## Related Positions and Techniques
 
-- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Mirror variation facing opposite direction
-- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified variation with different arm control
+- **[[Positions/Side Control/Ushiro Kesa Gatame]]** - Mirror variation facing opposite direction
+- **[[Positions/Side Control/Kuzure Kesa Gatame]]** - Modified variation with different arm control
 - **[[Positions/Side Control]]** - Parent category, closely related pinning position
 - **[[Positions/North-South]]** - Common transition target for control maintenance
 - **[[Positions/Mount]]** - Common advancement target when opponent turns in

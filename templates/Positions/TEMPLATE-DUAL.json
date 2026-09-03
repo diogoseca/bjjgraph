@@ -54,7 +54,7 @@
     },
     "family": {
       "type": "string",
-      "description": "Name of the variant-family hub this position belongs to. Empty = standalone. Example: 'Side Control' (for Kesa Gatame, Kuzure Kesa-Gatame). See docs/Synonyms.md."
+      "description": "Name of the variant-family hub this position belongs to. Empty = standalone. Example: 'Side Control' (for Kesa Gatame, Kuzure Kesa Gatame). See docs/Synonyms.md."
     },
     "bot_metadata": {
       "type": "object",

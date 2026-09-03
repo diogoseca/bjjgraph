@@ -328,7 +328,7 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 
 **Combat Base**: Distribute weight strategically between posted foot, base knee, and hands to maintain strong posture against guard breaks while creating enough downward pressure to limit opponent's offensive options, balancing stability needs against mobility for standing or passing.
 
-**Scarf Hold Position**: Create heavy cross-body pressure through chest and near-side control of opponent's arm while maintaining wide base through spread legs, using weight distribution that simultaneously pins opponent's upper body and prevents their hip mobility for escape.
+**Kesa Gatame**: Create heavy cross-body pressure through chest and near-side control of opponent's arm while maintaining wide base through spread legs, using weight distribution that simultaneously pins opponent's upper body and prevents their hip mobility for escape.
 
 
 

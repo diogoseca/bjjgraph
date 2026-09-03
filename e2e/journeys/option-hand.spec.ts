@@ -88,7 +88,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
-  expect(hands.length, "all 272 role-hands were walked").toBe(272) // census:roleHands
+  expect(hands.length, "all 266 role-hands were walked").toBe(266) // census:roleHands
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
@@ -107,18 +107,20 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   expect(withheld.join("\n"), "a legal move survived both filters and was still not dealt").toBe("")
 
   // The hand the retired floor was written for, now the proof that it is unnecessary. Side
-  // control top survives 25 cards — 16 submissions and 9 transitions — and the ten best by EDGE
+  // control top survives 24 cards — 16 submissions and 8 transitions — and the ten best by EDGE
   // are all submissions, so the old cap left the sport's most common top position unable to
-  // ADVANCE position at all. All 25 are dealt, so all 9 transitions are simply there, including
+  // ADVANCE position at all. All 24 are dealt, so all 8 transitions are simply there, including
   // `Side Control to Mount` (23% attempt, the largest authored anywhere from that state) which
   // the floor did NOT admit — it scores −2 and lost the floor's slot to a +3 card.
+  // (25 → 24 and 9 → 8 in v1.171.0: `Side Control to Scarf Hold Position` was a twin of
+  // `Side Control to Kesa Gatame` — one position filed twice — and collapsed into it.)
   const sct = hands.find((h: any) => h.st === "side-control/top")!
-  expect(sct.pool.length, "side-control/top survivor pool").toBe(25)
-  expect(sct.cards.length, "and every one of them is dealt").toBe(25)
-  expect(sct.cards.filter((c: any) => c.ty === "transitions").length, "all 9 transitions, not one admitted card").toBe(9)
+  expect(sct.pool.length, "side-control/top survivor pool").toBe(24)
+  expect(sct.cards.length, "and every one of them is dealt").toBe(24)
+  expect(sct.cards.filter((c: any) => c.ty === "transitions").length, "all 8 transitions, not one admitted card").toBe(8)
   const names = sct.cards.map((c: any) => c.t)
   expect(names, "the most-attempted move from side control is on screen").toContain("Side Control to Mount")
-  expect(names, "so is the card the retired floor used to admit in its place").toContain("Side Control to Scarf Hold Position")
+  expect(names, "so is the card the retired floor used to admit in its place").toContain("Side Control to Kesa Gatame")
 
   // and the biggest hand in the corpus is dealt whole
   const stand = hands.find((h: any) => h.st === "standing-position/top")!
@@ -289,7 +291,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
       fbDistinct: new Set(fb).size,
     }
   })
-  expect(wire.n, "the corpus").toBe(298) // census:submissions
+  expect(wire.n, "the corpus").toBe(287) // census:submissions
   expect(wire.uncalibrated, "every submission carries a calibrated rate").toBe(0)
   expect(wire.min, "authored rates run from").toBe(10)
   expect(wire.max, "...to").toBe(74)

@@ -98,8 +98,7 @@
     "Knee on Belly",
     "North-South",
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame",
-    "Modified Scarf Hold",
+    "Kuzure Kesa Gatame",
     "High Mount",
     "S Mount",
     "Modified Mount"
@@ -261,7 +260,7 @@
       "slug": "from-kimura-trap"
     },
     {
-      "name": "from Kuzure Kesa-Gatame",
+      "name": "from Kuzure Kesa Gatame",
       "slug": "from-kuzure-kesa-gatame"
     },
     {
@@ -281,7 +280,7 @@
       "slug": "from-north-south"
     },
     {
-      "name": "from Reverse Kesa-Gatame",
+      "name": "from Ushiro Kesa Gatame",
       "slug": "from-reverse-kesa-gatame"
     },
     {

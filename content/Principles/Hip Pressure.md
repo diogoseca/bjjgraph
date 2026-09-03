@@ -299,9 +299,9 @@ While general pressure principles govern how a top player manages total bodyweig
 
 **Long Step Pass**: Hip pressure stabilizes passing position by controlling opponent's hips during leg clearing sequences, preventing guard recovery through hip rotation or elevation that would disrupt the pass.
 
-**Modified Scarf Hold**: Extreme hip pressure application where entire bodyweight drives through hips into opponent's core, creating maximum pinning effect that exhausts defensive capabilities while maintaining dominant control.
+**Kuzure Kesa Gatame**: Extreme hip pressure application where entire bodyweight drives through hips into opponent's core, creating maximum pinning effect that exhausts defensive capabilities while maintaining dominant control.
 
-**Kuzure Kesa-Gatame**: Hip pressure combines with arm control to pin opponent's upper body, with hip placement preventing bridge escapes while maintaining position for transitions or submissions.
+**Kuzure Kesa Gatame**: Hip pressure combines with arm control to pin opponent's upper body, with hip placement preventing bridge escapes while maintaining position for transitions or submissions.
 
 **Kesa Gatame**: Hip pressure drives through opponent's chest while controlling arm, creating comprehensive pinning system where hip weight prevents bridge movements and enables superior positional control.
 

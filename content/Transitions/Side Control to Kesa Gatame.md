@@ -323,9 +323,9 @@ The transition to Kesa Gatame occupies a critical position within the side contr
 
 - [[Positions/Side Control/Kesa Gatame]] - Target position achieved upon successful completion of the transition
 
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold variation accessible from similar hip rotation
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Modified scarf hold variation accessible from similar hip rotation
 
-- [[Positions/Side Control/Reverse Kesa-Gatame]] - Alternative scarf hold variation facing opposite direction
+- [[Positions/Side Control/Ushiro Kesa Gatame]] - Alternative scarf hold variation facing opposite direction
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement that creates dilemma with Kesa Gatame threat
 
@@ -340,8 +340,6 @@ The transition to Kesa Gatame occupies a critical position within the side contr
 - [[Positions/North-South]] - Recovery position if Kesa Gatame control is lost during transition
 
 - [[Positions/Knee on Belly]] - Alternative transitional position from side control
-
-- [[Positions/Side Control/Modified Scarf Hold]] - Variation with different leg positioning available during the transition
 
 
 </section>

@@ -86,7 +86,7 @@
       "slug": "from-kesa-gatame"
     },
     {
-      "name": "from Kuzure Kesa-Gatame",
+      "name": "from Kuzure Kesa Gatame",
       "slug": "from-kuzure-kesa-gatame"
     },
     {
@@ -94,7 +94,7 @@
       "slug": "from-modified-scarf-hold"
     },
     {
-      "name": "from Reverse Kesa-Gatame",
+      "name": "from Ushiro Kesa Gatame",
       "slug": "from-reverse-kesa-gatame"
     },
     {
@@ -203,12 +203,8 @@
       "relationship": "Alternative setup position when opponent frames defensively"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Modified scarf hold position allows similar arm triangle setup"
-    },
-    {
-      "name": "Modified Scarf Hold",
-      "relationship": "Body positioning allows similar compression mechanics"
     },
     {
       "name": "North-South",

@@ -55,11 +55,11 @@
       "relationship": "Target position achieved upon successful completion of the transition"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Modified scarf hold variation accessible from similar hip rotation"
     },
     {
-      "name": "Reverse Kesa-Gatame",
+      "name": "Ushiro Kesa Gatame",
       "relationship": "Alternative scarf hold variation facing opposite direction"
     },
     {
@@ -89,10 +89,6 @@
     {
       "name": "Knee on Belly",
       "relationship": "Alternative transitional position from side control"
-    },
-    {
-      "name": "Modified Scarf Hold",
-      "relationship": "Variation with different leg positioning available during the transition"
     }
   ],
   "variants_and_adaptations": [

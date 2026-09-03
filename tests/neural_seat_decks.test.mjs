@@ -70,9 +70,11 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
   const mint = new Set(APP.nodes.map((n) => APP.deckKeyFor(n).key));
   const shipped = new Set(Object.keys(DECKS));
 
-  // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly.
-  assert.ok(shipped.size >= 2900, `manifest starved: ${shipped.size} decks`);
-  assert.ok(APP.nodes.length >= 2900, `node set starved: ${APP.nodes.length}`);
+  // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly. The floor
+  // IS the census count (a `>=` against today's corpus), so a deliberate content move re-arms it
+  // with `npm run census:update` and an accidental loss still trips it.
+  assert.ok(shipped.size >= 2890, `manifest starved: ${shipped.size} decks`); // census:members
+  assert.ok(APP.nodes.length >= 2890, `node set starved: ${APP.nodes.length}`); // census:members
 
   const unreachable = [...shipped].filter((k) => !mint.has(k));
   assert.deepEqual(unreachable, [], `${unreachable.length} shipped deck(s) the app cannot ask for`);
@@ -96,7 +98,7 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 // the same source it is checking.
 test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1328, "the technique site count itself"); // census:techSites
+  assert.equal(tech.length, 1312, "the technique site count itself"); // census:techSites
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -105,12 +107,12 @@ test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |De
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2656, "positive coverage: every technique seat was read"); // census:techMembers
+  assert.equal(checked, 2624, "positive coverage: every technique seat was read"); // census:techMembers
 });
 
-test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", () => {
+test("every position site: the rep keys |Top and the partner keys |Bottom", () => {
   const pos = SITES.filter((n) => n.ty === "positions");
-  assert.equal(pos.length, 136);
+  assert.equal(pos.length, 133); // census:positions
   let checked = 0;
   for (const rep of pos) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -118,7 +120,7 @@ test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", (
     assert.equal(APP.deckKeyFor(partner).role, "Bottom", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 272);
+  assert.equal(checked, 266); // census:roleHands
 });
 
 // ── 3: THE ROLL STILL OVERRIDES THE MEMBER, AND LEGACY IS UNTOUCHED ─────────────────────────
@@ -146,7 +148,7 @@ test("the pre-split graph is byte-identical: with no stamped role, techniques fa
 
 // ── 4: THE FIX MUST NOT MOVE THE HAND ───────────────────────────────────────────────────────
 
-test("the dealt hand is untouched: every option is the rep member, on all 272 states", () => {
+test("the dealt hand is untouched: every option is the rep member, on every state", () => {
   // The claim that made `deckRole` safe to change was that `_deriveDualPairs` hands the attempt
   // edge to the PERFORMER side, so `optionsFor` can only ever deal a rep. That is reasoning, and
   // reasoning is what §6.5 says gets this repo into trouble — so it is measured instead, over the
@@ -176,7 +178,7 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
       if (n.role === "defender" || a.deckKeyFor(n).role !== "Attacker") moved++;
     }
   }
-  assert.equal(states, 272, "every position seat deals a hand");   // positive coverage
-  assert.equal(options, 1328, "and the whole corpus of dealt options was read"); // census:techSites
+  assert.equal(states, 266, "every position seat deals a hand");   // positive coverage // census:roleHands
+  assert.equal(options, 1312, "and the whole corpus of dealt options was read"); // census:techSites
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

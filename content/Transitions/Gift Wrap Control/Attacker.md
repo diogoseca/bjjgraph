@@ -4,7 +4,7 @@
 
 ---
 title: "Gift Wrap Control Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Gift Wrap Control in BJJ. Attacking perspective with setup, execution steps, and counters from Kuzure Kesa-Gatame."
+description: "How to execute Gift Wrap Control in BJJ. Attacking perspective with setup, execution steps, and counters from Kuzure Kesa Gatame."
 ---
 
 
@@ -16,7 +16,7 @@ description: "How to execute Gift Wrap Control in BJJ. Attacking perspective wit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Gift Wrap Control in BJJ",
-  "description": "Step-by-step guide for executing Gift Wrap Control from Kuzure Kesa-Gatame/Top.",
+  "description": "Step-by-step guide for executing Gift Wrap Control from Kuzure Kesa Gatame/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -87,7 +87,7 @@ description: "How to execute Gift Wrap Control in BJJ. Attacking perspective wit
       "name": "Your opponent posts their far hand on your hip as you attempt the wrap—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When they post on your hip, the wrap is not available. Maintain Kuzure Kesa-Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure."
+        "text": "When they post on your hip, the wrap is not available. Maintain Kuzure Kesa Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure."
       }
     },
     {
@@ -124,7 +124,7 @@ description: "How to execute Gift Wrap Control in BJJ. Attacking perspective wit
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gift Wrap Control Attacker",
-  "description": "How to execute Gift Wrap Control in BJJ. Attacking perspective with setup, execution steps, and counters from Kuzure Kesa-Gatame.",
+  "description": "How to execute Gift Wrap Control in BJJ. Attacking perspective with setup, execution steps, and counters from Kuzure Kesa Gatame.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -220,13 +220,13 @@ description: "How to execute Gift Wrap Control in BJJ. Attacking perspective wit
 
 <section id="overview" class="content-section">
 
-Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.
+Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.
 
 The strategic value of the Gift Wrap lies in its dual function as both a control enhancement and a submission platform. Once established, the wrapped arm prevents effective framing, eliminates bridge power (since the opponent cannot post), and creates immediate access to chokes, back takes, and mounted attacks. The position exemplifies the principle of using the opponent's own body against them—their trapped arm becomes a lever that restricts their movement and breathing while exposing their neck and back.
 
 In competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.
 
-**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa Gatame]] (Top)
 
 </section>
 
@@ -289,7 +289,7 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 <p class="section-subtitle">What do you need before attempting Gift Wrap Control?</p>
 
-- Kuzure Kesa-Gatame established with consistent hip pressure into opponent's ribs
+- Kuzure Kesa Gatame established with consistent hip pressure into opponent's ribs
 - Opponent's near arm is already trapped or controlled across your body
 - Opponent's far arm is within reach and not actively framing your hip
 - Your chest is low and heavy, preventing opponent from creating upper body space
@@ -322,7 +322,7 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Gift Wrap]] | 65% |
-| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Failure | [[Positions/Side Control/Kuzure Kesa Gatame]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -334,10 +334,10 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 <p class="section-subtitle">How might your opponent counter Gift Wrap Control?</p>
 
-- **Opponent straightens arm before wrap completes, preventing the fold** (Effectiveness: High) - Your Response: Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- **Opponent frames against your hip with far arm before you can secure wrist** (Effectiveness: High) - Your Response: Maintain Kuzure Kesa-Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent straightens arm before wrap completes, preventing the fold** (Effectiveness: High) - Your Response: Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity → Leads to [[Positions/Side Control/Kuzure Kesa Gatame]]
+- **Opponent frames against your hip with far arm before you can secure wrist** (Effectiveness: High) - Your Response: Maintain Kuzure Kesa Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap → Leads to [[Positions/Side Control/Kuzure Kesa Gatame]]
 - **Opponent explosively bridges as you release wrist to secure wrap** (Effectiveness: Medium) - Your Response: Keep head position past their shoulder and widen base leg—their bridge without arm posting has minimal power and you can resettle → Leads to [[Positions/Half Guard]]
-- **Opponent turns aggressively into you during wrap transition** (Effectiveness: Medium) - Your Response: Their turn toward you opens mount transition—use their momentum to slide your knee across their belly while maintaining arm control → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent turns aggressively into you during wrap transition** (Effectiveness: Medium) - Your Response: Their turn toward you opens mount transition—use their momentum to slide your knee across their belly while maintaining arm control → Leads to [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>
@@ -398,7 +398,7 @@ Add light resistance where partner attempts to straighten arm or frame. Focus on
 Partner defends at 50% with realistic arm positioning. Practice recognizing when wrap is available versus when armbar or americana is better option. Chain between control attempts based on partner's defense.
 
 **Week 7+** - Competition application
-Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points.
+Full positional sparring starting from Kuzure Kesa Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points.
 
 
 

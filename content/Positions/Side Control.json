@@ -29,29 +29,14 @@
       "description": "Traditional scarf hold with head control and far arm trapped"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "slug": "kuzure-kesa-gatame",
       "description": "Modified scarf hold with variations in arm control"
     },
     {
-      "name": "Modified Scarf Hold",
-      "slug": "modified-scarf-hold",
-      "description": "Adapted scarf position with enhanced mobility"
-    },
-    {
-      "name": "Reverse Kesa-Gatame",
-      "slug": "reverse-kesa-gatame",
+      "name": "Ushiro Kesa Gatame",
+      "slug": "ushiro-kesa-gatame",
       "description": "Inverted scarf hold facing opponent's legs"
-    },
-    {
-      "name": "Reverse Scarf Hold",
-      "slug": "reverse-scarf-hold",
-      "description": "Alternative reverse positioning with different control points"
-    },
-    {
-      "name": "Scarf Hold Position",
-      "slug": "scarf-hold-position",
-      "description": "Classic scarf hold with traditional grips"
     }
   ],
   "related_positions": [
@@ -163,8 +148,8 @@
       {
         "transition": "Side Control to Kesa Gatame",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
@@ -186,13 +171,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 1
-        }
-      },
-      {
-        "transition": "Side Control to Scarf Hold Position",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       },
       {
@@ -287,7 +265,7 @@
         }
       },
       {
-        "transition": "Side Control to Kuzure Kesa-Gatame",
+        "transition": "Side Control to Kuzure Kesa Gatame",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
@@ -441,10 +419,6 @@
       {
         "name": "Kesa Gatame",
         "relationship": "Variation of side control with different control mechanics and head emphasis"
-      },
-      {
-        "name": "Scarf Hold Position",
-        "relationship": "Related holding position with head control emphasis"
       },
       {
         "name": "Half Guard",

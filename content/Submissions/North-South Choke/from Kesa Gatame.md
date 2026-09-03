@@ -299,8 +299,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 ## From Which Positions?
 
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>

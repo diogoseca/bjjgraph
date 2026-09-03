@@ -299,8 +299,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 ## From Which Positions?
 
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>
@@ -316,7 +315,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position accessible when opponent defends the finish
-- [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variation where similar Kimura mechanics apply
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Related scarf hold variation where similar Kimura mechanics apply
 
 </section>
 
