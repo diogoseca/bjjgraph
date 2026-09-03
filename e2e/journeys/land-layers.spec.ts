@@ -11,7 +11,7 @@ import { journey } from "../dsl"
  * is a setting (`landFilm` · `landCard` · `landHand`), so it survives the next landing, a reload
  * and (per-key LWW) another device. A collapsed CARD is not built: no question, no clock, no
  * miss, `land_q_skipped {reason:"collapsed"}`; expanding it mid-landing asks then. A collapsed
- * HAND is dealt and hidden — the roll waits — and the escape tray shows regardless.
+ * HAND is dealt and hidden — the roll waits — escapes included (v1.171.1, owner).
  *
  * Surfaces: [data-land-close] [data-film-close] [data-hand-close] [data-layer-dock]
  *           [data-layer-show=film|card|hand] [data-layer-toggle=…] · settings above
@@ -27,9 +27,9 @@ import { journey } from "../dsl"
  *   M2  setLayer writes the value but forgets `this.set`    → "survives a reload" — pinned by the
  *       LWW STAMP assert, not by the reload: other writers save the blob within the window, so
  *       a bare `this.settings[k] = v` survives a reload and only loses cross-device
- *   M3  drop `_syncHandLayer()` from enterLand              → "caught" — the hidden style LINGERS
- *       on the persistent tray across ordinary deals, so the only landing that can tell is the
- *       one after the escape tray forced it visible ("independent" alone did NOT kill it)
+ *   M3  drop `_syncHandLayer()` from enterLand              → "survives a reload" — the hidden
+ *       style LINGERS on the persistent tray across ordinary deals, so the only deal that can
+ *       tell is the FIRST one on a fresh element ("independent" alone did NOT kill it)
  *   M4  drop `_handShown()` from the digit gate             → "independent" (`1` opens a sheet)
  *   M5  drop `_layerDockEl` from attachInput's list          → "sticky" (clickByMouse on the dock)
  *   M6  drop `this._bandBot = null` in setLayer              → "geometry" (band cache kept)
@@ -37,7 +37,8 @@ import { journey } from "../dsl"
  *   M8  the skip reason is not "collapsed"                   → "sticky" (reason)
  *   M9  `_dockLandCard` ignores the datum when the hand hides → "geometry" (card stays at 236)
  *   M10 drop the 44px box on the phone glyphs                → "phone"
- *   M11 drop the `_defendSub` force in `_handShown`          → "caught"
+ *   M11 `_handShown` forces the escapes visible (v1.171.0's rule) → "caught" (v1.171.1 reversed it)
+ *   M12 the caught sentence keeps its "drill to loosen it" tail → "caught"
  * NOT PINNED HERE (by design): that the camera actually reclaims the freed band after a toggle —
  * the band is asserted DROPPED (`_bandBot === null`), not re-measured; the settings rows' copy;
  * and the film ✕ hiding while a clip is expanded (no clip plays under the harness).
@@ -182,7 +183,7 @@ test("the choice survives a reload (persisted, read live at the next landing)", 
   // through the real handle, and through setLayer's OWN save — no _flushSave here, so a writer
   // that forgets `this.set` (M2) leaves nothing for the next boot to find
   await j.clickByMouse("[data-land-close]", "the card's ✕")
-  await page.evaluate(() => (window as any).__neural.setLayer("film", false, "test"))
+  await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("film", false, "test"); a.setLayer("hand", false, "test") })
   await j.advance(1200) // > the 400ms save debounce
   // the per-key TIMESTAMP is the cross-device half of the claim: without it the LWW merge lets a
   // stale device's value win (M2 writes the value and forgets the stamp — a reload alone cannot
@@ -194,12 +195,14 @@ test("the choice survives a reload (persisted, read live at the next landing)", 
   const keys = await page.evaluate(() => { const a = (window as any).__neural; return { card: a.get("landCard", true), film: a.get("landFilm", true), dock: document.querySelectorAll("[data-layer-show]").length } })
   expect(keys.card, "landCard came back off").toBe(false)
   expect(keys.film, "landFilm came back off").toBe(false)
-  expect(keys.dock, "the dock is up from boot, before any landing").toBe(2)
+  expect(keys.dock, "the dock is up from boot, before any landing").toBe(3)
   await j.land("Mount Top")
   const s = await read(page)
   expect(s.card, "no card on the first landing after the reload").toBe(false)
   expect(s.tray, "a hand, as always").toBeGreaterThan(0)
-  expect(s.dock).toEqual(["film", "card"])
+  // the tray is a FRESH element after a reload, so only the per-landing sync can hide it (M3)
+  expect(s.trayVis, "…hidden by the first deal, from a persisted key").toBe("hidden")
+  expect(s.dock).toEqual(["film", "card", "hand"])
 })
 
 test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ hides a DEALT hand, kills the digits, and the roll still advances", async ({ page }) => {
@@ -325,7 +328,7 @@ test("the settings rows mirror the keys, both ways", async ({ page }) => {
   await expect(page.locator('[data-layer-toggle="card"]'), "a change from the board shows in the row").toHaveAttribute("aria-pressed", "true")
 })
 
-test("caught with the hand put away: the escape tray shows regardless, and a collapsed card skips the drill by name", async ({ page }) => {
+test("caught with the hand put away: the escape tray stays away too, and a collapsed card skips the drill by name", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -349,21 +352,21 @@ test("caught with the hand put away: the escape tray shows regardless, and a col
     }
   })
   expect(d.defend).toBe(true)
-  expect(d.escapes, "escapes dealt").toBeGreaterThan(0)
-  expect(d.vis, "the escape tray is VISIBLE under a put-away hand").toBe("visible")
-  expect(d.handX, "and carries no ✕ — the escapes are not the hand layer").not.toBe("visible")
+  expect(d.escapes, "escapes dealt — the roll state is whole").toBeGreaterThan(0)
+  // v1.171.1 (owner): "if I didn't ask to see outcomes don't show them to me" — caught or not.
+  // v1.171.0 forced the escapes visible here; a Defender URL arrival with only the videos on
+  // showed the escape tray, and that was the wrong call.
+  expect(d.vis, "the escape tray stays AWAY under a put-away hand").toBe("hidden")
+  expect(d.handX, "and no hand ✕ over a hidden tray").not.toBe("visible")
   expect(d.panic, "no drill on a collapsed card").toBe(false)
   expect(d.skipped, "…and the gap is named").toContain("collapsed")
+  const said = await page.evaluate(() => { const a = (window as any).__neural; const t = a.evTextRef && a.evTextRef.current; return t ? t.textContent : "" })
+  expect(said, "the announcer names the catch and nothing more (v1.171.1)").toMatch(/ locked in$/)
 
-  // …and the escape's landing hides the hand AGAIN. The tray is one persistent element, so the
-  // hidden style would simply linger without a per-landing sync — this is the case where it
-  // matters: the escape tray forced it visible, and the next deal must read the layer afresh (M3).
-  await j.rig("escape", [0.01])
-  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
-  await j.nextHand()
-  const after = await read(page)
-  expect(after.tray, "a hand is dealt after the escape").toBeGreaterThan(0)
-  expect(after.trayVis, "…and hidden again — the layer is read per landing").toBe("hidden")
+  // and the dock brings the escapes back, mid-defence
+  await j.clickByMouse('[data-layer-show="hand"]', "the dock's hand glyph")
+  await j.advance(200)
+  expect((await read(page)).trayVis, "the escapes are there to be chosen once asked for").toBe("visible")
 })
 
 test.describe("phone", () => {

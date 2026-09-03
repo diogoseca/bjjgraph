@@ -6417,3 +6417,16 @@ wire from another checkout — it fails identically on origin/dev's bundle — n
 
 **Spec:** `e2e/journeys/land-layers.spec.ts` (8 journeys, one `@curated`). Docs: `docs/Neural.md`
 §3 paragraph, film line, ladder line; CLAUDE.md §5 seam row, §6.1 surface count 6 → 8.
+
+**Status (v1.171.1):** decision (2) above is REVERSED. Owner, after previewing a Defender URL
+arrival with only the videos on: it "showed to me the outcomes … if I didn't ask to see outcomes
+don't show them to me". `_handShown` no longer reads `_defendSub`; the escape tray obeys the hand
+layer like every other deal, and the dock brings it back mid-defence. The catch is announced as
+"<name> locked in" — the "drill to loosen it" tail is gone. M11 inverted (forcing the escapes
+visible is now the mutant); M3 moved to the reload test, where the tray is a fresh element and
+only the first deal's sync can hide it.
+Two more owner calls in the same preview: the **"see more →" hint is DELETED** (`optionHintRef`,
+`_dockOptionHint`, `scrollOptions`, `.ng-seemore` and its phone rule — "it's too much on screen
+to have the see more and the x"; the tray still scrolls by wheel and drag, and `attachInput`'s
+list is 7 surfaces), and the **film ✕ hugs the last thumbnail**: `_dockLandFilm` places it 4px
+right of the last `.ng-clip`'s measured box, and a row of fewer than three clips is CENTRED.

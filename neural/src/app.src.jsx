@@ -18,7 +18,7 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 //   · film OFF  = not built either; a late chunk under a collapsed card still docks the film.
 //   · hand OFF  = DEALT but hidden (`_syncHandLayer`): the deal IS the roll state and its order
 //                 is frozen at deal time (§5), so expanding shows the same hand, instantly.
-//                 The ESCAPE tray under attack shows regardless (`_handShown`).
+//                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // The 24px ghost button every layer handle is cut from — the landing card's ✕ wrote this inline
@@ -140,7 +140,6 @@ class Component extends DCLogic {
   legendMarkRef = React.createRef();
   legendPointRef = React.createRef();
   legendRef = React.createRef();
-  optionHintRef = React.createRef();
   optDetailRef = React.createRef();
   brandFontRef = React.createRef();
   accountRef = React.createRef();
@@ -219,8 +218,7 @@ class Component extends DCLogic {
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
-      legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
-      scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
+      legendPointRef: this.legendPointRef, legendRef: this.legendRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
@@ -2554,8 +2552,6 @@ class Component extends DCLogic {
       // user: focus falls to <body>, which is where their next click was going anyway.
       if (this._kbNav) setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
     }
-    const hint = this.optionHintRef.current;
-    if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
@@ -4616,7 +4612,6 @@ class Component extends DCLogic {
     // this is where the panel animates from and the visual anchor we must not jump away from.
     const srcRect = srcCard ? srcCard.getBoundingClientRect() : null;
     this._detailSrc = srcCard || null;
-    const hint = this.optionHintRef.current; if (hint) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }
     const offParent = panel.offsetParent || this.wrapRef.current;
     const opr = offParent.getBoundingClientRect();
     const W = Math.min(660, Math.round(window.innerWidth * 0.94));
@@ -5586,7 +5581,7 @@ class Component extends DCLogic {
       const LAYER_ROWS = [
         ["film", "Videos", "The film row above the card."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
-        ["hand", "Your moves", "The hand of moves. Off = the roll waits until you show them; the escape tray shows regardless."],
+        ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
         const on = this._layerOn(name);
@@ -9228,7 +9223,7 @@ class Component extends DCLogic {
   _suppressTray(hide) {
     if (this._traySup === hide) return;
     this._traySup = hide;
-    for (const ref of [this.optionsRef, this.optionHintRef]) {
+    for (const ref of [this.optionsRef]) {
       const op = ref && ref.current; if (!op) continue;
       op.style.transition = "opacity .25s";
       if (hide) { op.style.opacity = "0.1"; op.style.pointerEvents = "none"; }
@@ -10821,18 +10816,12 @@ class Component extends DCLogic {
       }
       leg.style.opacity = overlap ? "0.06" : "1";
     }
-    // scroll affordance: show "more →" only when the option row overflows and isn't at the end
-    const hint = this.optionHintRef.current;
-    if (hint && op) {
-      const more = !this.deckShown && !this._detailCtx && op.children.length && (op.scrollWidth - op.clientWidth - op.scrollLeft > 8);
-      hint.style.opacity = more ? "0.5" : "0";
-      hint.style.pointerEvents = more ? "auto" : "none";
-      if (more) this._dockOptionHint(hint, op);
-    }
+    // (the "see more →" scroll hint that docked here was DELETED in v1.171.1, owner: "it's too
+    // much on screen to have the see more and the x". The tray still scrolls by wheel and drag.)
     // ── THE HAND'S ✕ (v1.171.0) ── shown only when there is a hand to put away: dealt, its layer
     // on, not the escape tray, and not under the pane, the option sheet or a reading surface.
     if (op) {
-      const show = !!(op.children.length && this._handShown() && this._defendSub == null && !this.deckShown && !this._detailCtx && !this._traySup);
+      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._detailCtx && !this._traySup);
       let x = this._handCloseEl;
       if (show && !x) x = this._buildHandClose();
       if (x) {
@@ -10851,7 +10840,7 @@ class Component extends DCLogic {
   clearOptions() {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -12406,9 +12395,11 @@ class Component extends DCLogic {
    */
   // ═══ THE THREE BOTTOM LAYERS (v1.171.0) — see NG_LAYER_KEYS for the design ═══════════════════
   _layerOn(name) { const k = NG_LAYER_KEYS[name]; return !k || this.get(k, true) !== false; }
-  /** The ESCAPE tray is not the hand layer: being caught is not a landing, and hiding the only
-   *  exit because of a preference is a trap the player did not choose. */
-  _handShown() { return this._layerOn("hand") || this._defendSub != null; }
+  /** A put-away hand stays away, CAUGHT OR NOT (v1.171.1, owner — a Defender URL arrival with
+   *  only the videos on showed the escape tray: "if I didn't ask to see outcomes don't show them
+   *  to me"). v1.171.0 forced the escapes visible under attack on the theory that hiding the
+   *  only exit is a trap; the owner's rule is that the layer is the player's choice, whole. */
+  _handShown() { return this._layerOn("hand"); }
   /** THE ONE WRITER. Persists, names the beat, drops the camera band cache and applies the
    *  layers to the current landing in place. `src` is the handle that asked: x · dock · settings. */
   setLayer(name, on, src) {
@@ -12457,7 +12448,7 @@ class Component extends DCLogic {
    *  opacity on the same element for the reading surfaces; the two never meet. */
   _syncHandLayer() {
     const on = this._handShown();
-    for (const ref of [this.optionsRef, this.optionHintRef]) {
+    for (const ref of [this.optionsRef]) {
       const el = ref && ref.current; if (!el) continue;
       if (on) el.style.removeProperty("visibility");
       else el.style.setProperty("visibility", "hidden", "important");
@@ -12502,12 +12493,16 @@ class Component extends DCLogic {
     // from the card's measured box, which is the one source of truth (see it for why).
     film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
     film.innerHTML = this.filmStudyHTML(filmClips, true);
+    // UNDER THREE CLIPS THE ROW CENTRES (v1.171.1, owner): one or two left-aligned thumbnails
+    // left the strip's right half empty, with the ✕ stranded at the far edge.
+    if (filmClips.length < 3) { const row = film.querySelector(".ng-cliprow"); if (row) row.style.justifyContent = "center"; }
     const xb = document.createElement("button");
     xb.type = "button";
     xb.setAttribute("data-film-close", "1");
     xb.setAttribute("aria-label", "Hide the videos");
     xb.title = "Hide the videos";
     xb.textContent = "✕";
+    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
     xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
     xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
     xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
@@ -12519,7 +12514,7 @@ class Component extends DCLogic {
     return film;
   }
   _dockTrayTop(row) { const d = this._landDatum(); return d.h ? Math.round(d.tray + d.h + 10) + "px" : null; }
-  /** The hand's ✕ — ghost, top-right of the tray beside the see-more hint, inside the wrap (it
+  /** The hand's ✕ — ghost, top-right of the tray, inside the wrap (it
    *  stacks under the pane and the option sheet, and `attachInput` names it). Built once. */
   _buildHandClose() {
     const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return null;
@@ -12598,6 +12593,19 @@ class Component extends DCLogic {
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
     const h = f.offsetHeight || 0;
+    // THE ✕ HUGS THE LAST THUMBNAIL (v1.171.1, owner: "sometimes appears far away from the last
+    // video"). Measured, never a constant: 4px right of the last clip's box, top-aligned to it,
+    // and clamped inside the strip when the row overflows and scrolls.
+    const xb = f.querySelector("[data-film-close]");
+    if (xb) {
+      const clips = f.querySelectorAll(".ng-clip"); const last = clips[clips.length - 1];
+      if (last) {
+        const fr = f.getBoundingClientRect(), lr = last.getBoundingClientRect();
+        const left = Math.min(Math.round(lr.right - fr.left + 4), Math.round(fr.width - 28));
+        xb.style.right = "auto"; xb.style.left = Math.max(0, left) + "px";
+        xb.style.top = Math.max(0, Math.round(lr.top - fr.top)) + "px";
+      }
+    }
     let bottom = Math.round(H - cardTop + 8);
     if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
     f.style.bottom = bottom + "px";
@@ -12631,23 +12639,6 @@ class Component extends DCLogic {
     // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
     // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
     el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");  }
-  // ── "SEE MORE" SITS ABOVE THE HAND, NOT UNDER IT (v1.123.0, owner) ──────────────────────────
-  // It was `bottom:68px`, a constant BELOW the tray's own `bottom:84px` — so it hung under the
-  // hand, in the bottom band, on top of the account chip. MEASURED at every width where it
-  // renders (844x390 through 1440x900): the hint's box sits exactly 2px above the chip's, with
-  // the same right edge — 1345,819..1416,832 against 1317,834..1416,876 at 1440x900. That is the
-  // owner's "overlaps user icon and text", and it is universal, not device-specific.
-  //
-  // The fix is the tray's own MEASURED top, never a constant: the row has no fixed height (138px
-  // at 390x844, 144px at 1440x900, and taller again for an escape hand, whose cards carry an
-  // extra line), which is the same lesson `_dockLandCard` learned. Right-aligned, so it never
-  // meets the landing card — that card is `min(520px, 100vw-32px)` and CENTRED, and at every
-  // width this hint is still shown its right edge clears the hint's left edge.
-  _dockOptionHint(el, row) {
-    const want = this._dockTrayTop(row);
-    if (!want) return;
-    if (this._hintDockAt !== want) { this._hintDockAt = want; el.style.bottom = want; }
-  }
   _landAnswered(correct, tier, mode, hooks, format) {
     this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
@@ -14823,7 +14814,7 @@ class Component extends DCLogic {
     if (!escapes.length) escapes.push({ idx: this.currentPos, node: this.nodes[this.currentPos], res: this.currentPos });
     this.optionIdxs = escapes.map((e) => e.idx);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
-    this.setEvent("Caught", this.splitName(sub.t).main + " locked in \u2014 drill to loosen it", "bad");
+    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
     // the danger owns the camera and the field: frame the exchange, fog everything else
     this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
     this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
@@ -14871,7 +14862,7 @@ class Component extends DCLogic {
     };
     for (let i = 0; i < escapes.length; i++) el.appendChild(this.buildOptionCard(escapes[i], pick, dsec, i + 1, "escape"));
     if (el) el.style.pointerEvents = "auto";
-    this._syncHandLayer();               // the escapes show regardless of the hand layer (`_handShown`)
+    this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     this._optPick = pick; this._optList = escapes;
     this.buildPanicCard(el, sub);
     // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
@@ -15421,17 +15412,14 @@ class Component extends DCLogic {
       // FIFTH SURFACE (v1.102.1): the option-detail sheet. Its capture moved into the header
       // corner and a REAL tap on it did nothing — same retarget, same silence. Every fixed
       // overlay that owns controls belongs in this list; that is why it is a list.
-      // SIXTH SURFACE (v1.123.0): the "see more" hint. It is a fixed overlay whose whole purpose
-      // is a click (`onClick={scrollOptions}`), and it has NEVER been in this list — the option
-      // ROW next to it is immune only because componentDidMount gives it its own `pointerdown`
-      // stopPropagation, which the hint never had. PRE-EXISTING, not introduced by moving it:
-      // the affordance has been dead to the mouse for as long as it has existed, and it surfaced
-      // now only because uncapping the hand made it worth writing the first spec that clicks it
-      // with a REAL mouse instead of `locator.click()`. Sixth time; the list is the cure.
-      // SEVENTH AND EIGHTH (v1.171.0): the layer dock and the hand's ✕ — both live in the wrap,
+      // SIXTH SURFACE (v1.123.0) was the "see more" hint — a fixed overlay whose whole purpose
+      // was a click, and it had NEVER been in this list: dead to the mouse for as long as it
+      // existed, found only when the first spec clicked it with a REAL mouse. DELETED in v1.171.1
+      // (owner: too much chrome beside the hand's ✕); the lesson stays. Sixth time; the list is the cure.
+      // SIXTH AND SEVENTH today (v1.171.0): the layer dock and the hand's ✕ — both live in the wrap,
       // both exist to be clicked. Proven by `land-layers.spec.ts` with `j.clickByMouse`.
       for (const ov of [this._landEl, this._landFilmEl, this.optDetailRef && this.optDetailRef.current,
-        this.optionHintRef && this.optionHintRef.current, this._layerDockEl, this._handCloseEl]) {
+        this._layerDockEl, this._handCloseEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();
