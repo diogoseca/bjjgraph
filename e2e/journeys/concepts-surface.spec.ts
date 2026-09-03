@@ -260,6 +260,8 @@ test("Explore lists every authored principle, and opening one opens content — 
     await hdr.textContent(),
     "and the section header counts what it lists",
   ).toContain(String(principles.length));
+  const searchRow = page.locator(".ng-explorer-tools");
+  await expect(searchRow, "the Explore root carries the search row").toBeVisible();
 
   // MOUSE REACHABILITY is claimed only where a real mouse can reach: the first row, at the top of
   // a freshly expanded section. The content claims below use the widest concept (chosen from the
@@ -284,10 +286,29 @@ test("Explore lists every authored principle, and opening one opens content — 
     s.resultsHeader,
     "and the pane is not showing flat ranked search results",
   ).toBe(false);
+  // The search row belongs to the Explore ROOT. A Principle owning the pane is a page, not a
+  // list to filter — the row (and its "Search techniques…" placeholder) must be gone while the
+  // detail renders, and back the moment ‹ Back returns the list (owner).
+  await expect(
+    searchRow,
+    "no search row while a principle owns the pane",
+  ).toBeHidden();
+  // THE ADDRESS BAR FOLLOWS THE PAGE (owner: "clicking items in the explore should change the
+  // url ... like it used to, similar to quartz"). A principle's id IS its built path — the one
+  // `_seedPageFromUrl` opens on arrival — so opening it pushes that path. (Back/Forward are
+  // Quartz's: its SPA router soft-navigates on EVERY popstate, so the app reboots on the previous
+  // address rather than unwinding in place — asserted at the end of this journey, where a reboot
+  // cannot eat the steps that follow.)
+  const pathRe = (id: string) =>
+    new RegExp("/" + id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(\\?|$)");
+  await expect(page, "opening a principle pushes its own page path").toHaveURL(
+    pathRe(first.id),
+  );
 
   // back out, then the widest concept: the strongest highlight and content claim
   await page.locator("[data-concept-back]").click();
   await expect(rows).toHaveCount(principles.length);
+  await expect(searchRow, "‹ Back restores the Explore root's search row").toBeVisible();
 
   const target = [...principles].sort(
     (a, b) => b.nodes.length - a.nodes.length,
@@ -295,6 +316,9 @@ test("Explore lists every authored principle, and opening one opens content — 
   await page.locator(`[data-concept-row="${target.id}"]`).click();
   const detail = page.locator(`[data-concept-detail="${target.id}"]`);
   await expect(detail).toBeVisible();
+  await expect(page, "the second principle pushed its path too").toHaveURL(
+    pathRe(target.id),
+  );
   await expect(detail, "the panel names the concept").toContainText(
     target.name,
   );
@@ -354,6 +378,18 @@ test("Explore lists every authored principle, and opening one opens content — 
     "clicking a listed technique takes the reader to it",
   ).toContain(landed.want);
   expect(landed.paneOpen, "and hands the graph back").toBe(false);
+  // ...and the address bar followed the technique too (`rollFromPosition` -> `_syncUrl`: the
+  // CHOSEN node, never its origin).
+  await expect(page, "a technique row pushes the technique's own path").toHaveURL(
+    pathRe(clickedId!),
+  );
+  // Back is Quartz's: the SPA router soft-navigates on every popstate and the app reboots on the
+  // previous address — so the URL unwinds to the page, and the page re-opens from its path the
+  // way an arrival does (the arrival journeys below own what that boot shows).
+  await page.goBack();
+  await expect(page, "Back returns to the page the pane had open").toHaveURL(
+    pathRe(target.id),
+  );
 
   expect(errors, "no page error across the journey").toEqual([]);
 });

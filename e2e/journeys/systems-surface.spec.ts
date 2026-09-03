@@ -291,6 +291,15 @@ test("Explore lists every authored system and selecting one lights its members @
   await expect(
     page.locator(`[data-system-detail="${target.id}"]`),
   ).toBeVisible();
+  // a System is a page: opening it pushes its own path (owner: "clicking items in the explore
+  // should change the url"), and the Explore-root search row steps aside while it owns the pane
+  await expect(page, "opening a system pushes its page path").toHaveURL(
+    new RegExp("/" + target.id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(\\?|$)"),
+  );
+  await expect(
+    page.locator(".ng-explorer-tools"),
+    "no search row while a system owns the pane",
+  ).toBeHidden();
   // ONE ROW PER AUTHORED REFERENCE. A ref naming a submission family ("Calf Slicer") expands to
   // every "from X" finish, so listing one row per NODE turned one authored word into eleven
   // near-identical rows — the owner's report. Membership is untouched (a System is not exhaustive

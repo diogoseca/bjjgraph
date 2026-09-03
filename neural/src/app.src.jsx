@@ -2580,6 +2580,24 @@ class Component extends DCLogic {
   // post-hydration refresh ran buildDrillPanel and stomped the very surface the user opened —
   // the same class of bug as onFlashcardsReady's, one layer down.
   _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint || this._studyOpen); }
+  // Does a System or Concept detail view own the Explore body right now? The SAME predicate
+  // renderExplorer branches on (a live query outranks either), kept here so the chrome above
+  // the list and the list itself cannot disagree about what is showing.
+  _exploreDetailOwnsList() {
+    if ((this._exQ || "").trim()) return false;
+    return !!((this._systemId && this._systemsById && this._systemsById[this._systemId]) ||
+              (this._conceptId && this._conceptsById && this._conceptsById[this._conceptId]));
+  }
+  // THE ONE WRITER of the search row's visibility. It shows on the Explore ROOT only — not on
+  // another tab, not under a study takeover, and not while a Principle / Learning / System
+  // detail owns the list (owner: "I should only see that in explore tab root"). Three callers
+  // (_layoutPane, styleViewToggle, renderExplorer) because the detail id is set AFTER openPane
+  // has already laid the pane out, so the render is the only site that sees the final answer.
+  _syncExploreTools(study) {
+    const tools = this.explorerToolsRef.current; if (!tools) return;
+    const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && !this._exploreDetailOwnsList();
+    tools.style.display = show ? "flex" : "none";
+  }
   _layoutPane() {
     const panel = this.drillRef.current; if (!panel) return;
     const study = this._paneStudyActive();
@@ -2587,8 +2605,7 @@ class Component extends DCLogic {
     this._paneWasStudy = study;
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
     const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
-    const tools = this.explorerToolsRef.current;
-    if (tools) tools.style.display = (study || this._viewMode !== "explore") ? "none" : "flex";
+    this._syncExploreTools(study);
     const showEx = !study && this._viewMode !== "history";
     const exList = this.explorerListRef.current; if (exList) exList.style.display = showEx ? "block" : "none";
     if (!showEx) { const dos = this.dossierRef.current; if (dos) dos.style.display = "none"; }
@@ -3051,6 +3068,7 @@ class Component extends DCLogic {
     this._conceptId = id;
     this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
+    this._pushUrl("/" + id, { ngPage: id });
     this.setFocusIdxSet(idxs);
     this.showExplorerList();
   }
@@ -6220,11 +6238,7 @@ class Component extends DCLogic {
       const on = s.getAttribute("data-view") === this._viewMode;
       s.setAttribute("aria-pressed", on ? "true" : "false");
     });
-    const search = this.explorerSearchWrapRef.current;
-    if (search) search.style.display = this._viewMode === "explore" ? "flex" : "none";
-    // tools = the search row only since the GI pill moved to Settings (v1.95.3) — Explore only
-    const tools = this.explorerToolsRef.current;
-    if (tools) tools.style.display = this._viewMode === "explore" ? "flex" : "none";
+    this._syncExploreTools();
     if (this.renderTabSubtitles) this.renderTabSubtitles(); // the Explore subtitle is the score's one exposure (v1.98.1)
   }
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
@@ -6661,6 +6675,7 @@ class Component extends DCLogic {
       this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
     list.innerHTML = "";
     if (this.renderTabSubtitles) this.renderTabSubtitles();
+    this._syncExploreTools();
     if (this._viewMode === "challenges") {
       this.renderChallenges(list);
       if (keepScroll != null) list.scrollTop = keepScroll;
@@ -6895,6 +6910,7 @@ class Component extends DCLogic {
     this._systemBody(s);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_system_opened", { system: s.name, nodes: idxs.length, has_course: !!(s.products && s.products.length) });
     this.setFocusIdxSet(idxs);
+    this._pushUrl("/" + id, { ngPage: id });
     this.showExplorerList();
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
@@ -9500,11 +9516,19 @@ class Component extends DCLogic {
     return n && n.id ? "/" + n.id : null;
   }
   _syncUrl(idx) {
+    const path = this._nodeUrlPath(idx); if (!path) return;
+    this._pushUrl(path, { ngNode: this.nodes[idx].id });
+  }
+  // THE ONE WRITER of the address bar. Two callers, two page kinds: `_syncUrl` for a node the
+  // user chose (rollFromPosition), and openConcept/openSystem for a PAGE opened in the pane —
+  // a Principle, a Learning entry or a System is a real built page too (its id IS its path, which
+  // is what `_seedPageFromUrl` round-trips on Back/Forward and on arrival). Owner: "clicking
+  // items in the explore should change the url ... like it used to, similar to quartz".
+  _pushUrl(path, state) {
     try {
       if (/^\/l\//.test(location.pathname)) return;
-      const path = this._nodeUrlPath(idx); if (!path) return;
       if (location.pathname === path) return;
-      history.pushState({ ngNode: this.nodes[idx].id }, "", path + location.search);
+      history.pushState(state, "", path + location.search);
     } catch (e) { /* history unavailable (sandboxed iframe) — navigation is not load-bearing */ }
   }
   /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
