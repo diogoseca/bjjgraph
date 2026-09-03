@@ -3119,11 +3119,41 @@ class Component extends DCLogic {
     w.style.animation = "ngDeckExpire " + dsec + "s linear forwards";
     w.style.animationPlayState = this.paused ? "paused" : "running";
   }
-  _scrollFocusedDeck() {    requestAnimationFrame(() => {
+  /**
+   * Bring the OPEN inline deck fully into the pane's scroller — row header, question and Reveal.
+   *
+   * Two defects lived here until v1.171.0 (owner: "when I click one that is below the fold it
+   * doesn't seem to open right, like the scrolling position changes"):
+   *  · It targeted `list.querySelector(".mt")` — the FIRST progress tick in the list. The session's
+   *    rows keep their built deck in the DOM when they collapse (`display:none`, so a reopen is
+   *    free), so once any earlier row had been opened, the first `.mt` was a HIDDEN one, whose rect
+   *    is all zeros, and `scrollTop += (0 - lr.top) - 110` threw the list upwards by the pane's own
+   *    offset. The history home never showed it because `renderDrillHome` rebuilds every row.
+   *  · It always parked the tick at 110px from the top, even when the deck was already in view —
+   *    so walking the queue with ↓/↑ moved the list under a deck the user could already read.
+   * Now: the target is `_openMini.el` (the one deck that is open, on both surfaces) plus the row
+   * above it, and the scroll is the SMALLEST one that shows the whole block; a block taller than
+   * the scroller aligns its top, so the question and the row it belongs to lead. Already fully
+   * visible → no movement at all, which is what "visual continuity" means when paging ↓ then ↑.
+   * Pinned by e2e/journeys/session-scroll.spec.ts.
+   */
+  _scrollFocusedDeck() {
+    requestAnimationFrame(() => {
       const list = this.drillListRef.current; if (!list) return;
-      const mt = list.querySelector(".mt"); if (!mt) return;
-      const tr = mt.getBoundingClientRect(), lr = list.getBoundingClientRect();
-      list.scrollTop += (tr.top - lr.top) - 110;
+      let deck = this._openMini && this._openMini.el;
+      if (!deck || !deck.isConnected || deck.style.display === "none") {
+        // no registered opener (a first paint) — the one deck that is actually laid out
+        deck = Array.prototype.find.call(list.querySelectorAll("[data-mini-deck]"), (el) => el.offsetParent !== null) || null;
+        if (!deck) return;
+      }
+      const row = deck.previousElementSibling;
+      const dr = deck.getBoundingClientRect();
+      const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
+      const lr = list.getBoundingClientRect();
+      const pad = 12;
+      const room = lr.height - 2 * pad;
+      if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
+      else if (dr.bottom > lr.bottom - pad) list.scrollTop += dr.bottom - (lr.bottom - pad);
     });
   }
   menuBtn(label, active, onClick) {
@@ -3647,9 +3677,12 @@ class Component extends DCLogic {
     const newN = fresh.length;
     const num = (v) => '<b style="color:#e9bd70;font-weight:700;">' + v + '</b>';
     const newTxt = num(newN) + ' new';
-    // due counts TECHNIQUES, because techniques are what the due session lists (see dueDeckCount)
-    const due = this.dueDeckCount();
+    // THE CELL COUNTS CARDS — the same `dueCount()` the Challenges band prints (v1.171.0, owner:
+    // "18 cards due" over "35 due" on one pane: "the due cards should be consistent"). The
+    // technique count moved to the tooltip; it is a COVER of those cards (see bucketTechniques
+    // "due"), so it is never larger than the number printed.
     const dueCards = this.dueCount();
+    const due = this.dueDeckCount();
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
     row.setAttribute("data-flow-cold", w.cold ? "1" : "0");
@@ -3674,7 +3707,7 @@ class Component extends DCLogic {
       '<span class="ngStat" data-b="mastered" style="' + cell + 'color:#8b97b0;border-bottom:1px dashed rgba(139,151,176,.35);">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
       // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage, amber while
       // anything is owed. One press opens the due SESSION, not the browse modal.
-      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' technique' + (due === 1 ? '' : 's') + ' due · ' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" style="' + cell + 'color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
+      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" aria-label="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + (this.cardsToday || 0) + ' answered today" style="' + cell + 'color:' + (dueCards > 0 ? "#d6a45a" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (dueCards > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + dueCards + '</b> due</span>' +
       '<span class="ngStat" data-b="new" data-new="' + newN + '" data-weak="' + newN + '" title="' + this._flowTitle(w, fresh) + '" style="' + cell + 'color:#d6a45a;border-bottom:1px dashed rgba(214,164,90,.4);">' + newTxt + '</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "new";
@@ -4741,14 +4774,39 @@ class Component extends DCLogic {
       // REAL now (v1.105.0). Deck keys holding >=1 due-and-unreviewed card, most overdue first.
       // Guests keep local schedules — the "once you have an account" promise in the old empty
       // copy was never a mechanism, and the schedule lives in the same local blob as everything.
+      //
+      // ONE ROW PER OWED CARD, NOT ONE PER DECK COPY (v1.171.0). `_schedule` mirrors a shared
+      // card's review into EVERY deck that carries it (`_sharedDecksFor`), so `duePool()` lists
+      // the same fact once per copy: 18 distinct cards read as 35 decks on the owner's account, and
+      // the stat cell said "35 due" under a band that said "18 cards due". Answering a card in any
+      // one deck clears it from all of them, so 17 of those rows would have finished themselves
+      // untouched. This is a greedy cover: walk decks most-overdue first and keep one only if it
+      // owes a card no kept deck already covers. The result is at most `dueCount()` rows, and
+      // answering every kept row's due cards clears the whole debt.
+      // Order is a strict total order (§6.6): overdue days desc, then cards owed desc, then key.
       const today = this._epochDay();
-      const over = new Map();
+      const per = new Map();   // key -> { od: days overdue (max over its cards), qs: [qhash] }
       for (const e of this.duePool()) {
-        const m = this.srs[e.key][e.qh];
-        const od = today - m[0];
-        if (!over.has(e.key) || od > over.get(e.key)) over.set(e.key, od);
+        if (!decks[e.key]) continue;   // never a session row over a deck the manifest lacks
+        const od = today - this.srs[e.key][e.qh][0];
+        let d = per.get(e.key);
+        if (!d) per.set(e.key, (d = { od: od, qs: [] }));
+        else if (od > d.od) d.od = od;
+        d.qs.push(e.qh);
       }
-      return [...over.keys()].filter((k) => decks[k]).sort((a, b) => over.get(b) - over.get(a));
+      const order = [...per.keys()].sort((a, b) => {
+        const A = per.get(a), B = per.get(b);
+        return (B.od - A.od) || (B.qs.length - A.qs.length) || (a < b ? -1 : a > b ? 1 : 0);
+      });
+      const covered = new Set();
+      const out = [];
+      for (const k of order) {
+        const qs = per.get(k).qs;
+        if (!qs.some((q) => !covered.has(q))) continue;
+        for (const q of qs) covered.add(q);
+        out.push(k);
+      }
+      return out;
     }
     return keys;
   }
@@ -4990,15 +5048,18 @@ class Component extends DCLogic {
     if (!keys.length) { this.openFlashBrowser("mastered", "Mastered"); return; }
     this.hydrateDecks(due.concat(fresh));
     const dueCards = this.dueCount();
+    const techs = (n) => n + " technique" + (n === 1 ? "" : "s");
     const sections = [];
-    if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed" });
+    // The section note names the ROWS (techniques); the header above it names the CARDS, the
+    // same figure the stat cell and the Challenges band print (v1.171.0) — one number per pane.
+    if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed across " + techs(due.length) });
     if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: "ranked by what they'd fix" });
     if (more.length) sections.push({ at: due.length + fresh.length, label: "More, in order", note: "same ranking, further down" });
     this._session = {
       keys: keys,
-      label: anchor === "due" ? due.length + " due today" : fresh.length + " new",
+      label: anchor === "due" ? dueCards + " card" + (dueCards === 1 ? "" : "s") + " due today" : fresh.length + " new",
       sub: anchor === "due"
-        ? dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed \u00b7 maintenance first"
+        ? techs(due.length) + " \u00b7 maintenance first"
         : "ranked by what they'd fix",
       idx: (anchor === "due" || !fresh.length) ? 0 : due.length,
       filter: null, dueUntil: due.length, anchor: anchor, sections: sections, bucket: "plan",
@@ -5174,6 +5235,7 @@ class Component extends DCLogic {
           if (detail.style.display === "none") return;
           if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
           build();
+          this._scrollFocusedDeck();   // the real deck is taller than its placeholder; keep it in view
         });
       }
     };
@@ -10015,12 +10077,14 @@ class Component extends DCLogic {
   }
   dueCount() { const seen = new Set(); for (const e of this.duePool()) seen.add(e.qh); return seen.size; }
   /**
-   * How many TECHNIQUES the due session will hold — `dueCount()` counts FACTS.
+   * How many TECHNIQUE ROWS the due session lists — `dueCount()` counts CARDS, and every printed
+   * due figure (stat cell, Challenges band, session header) is `dueCount()`.
    *
-   * The two legitimately differ and the gap is not small: the blended deck hierarchy puts ~20% of
-   * a deck's cards in from a higher tier, so one due fact can be owed by several decks, and the
-   * stat printed "5 due" over a session that listed 7 (owner: "kind of misleading as well").
-   * The stat counts what you are about to be shown; the FACT figure moves to its tooltip.
+   * History, because the ruling flipped once: v1.138.0 printed THIS on the stat cell, since the
+   * blended hierarchy mirrors a due card into every deck carrying it and "5 due" opened 7 rows.
+   * That made 18 cards read as "35 due" beside a band saying "18 cards due" (v1.171.0, owner:
+   * "the due cards should be consistent"). The bucket is now a cover — one row per owed card, never
+   * a second row for a copy — so this is <= dueCount() and the printed number is the debt itself.
    * It also filters to `decks[k]`, which `dueCount()` does not — so this can never send you into
    * an empty session over cards whose deck is not in the manifest.
    */

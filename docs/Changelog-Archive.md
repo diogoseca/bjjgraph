@@ -6351,3 +6351,61 @@ expanded on payload land, board empty.
 (expanded section, folded neighbours, no seat/hand/stage, no `options_dealt`/`roll_staged`
 beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
 `docs/Neural.md` reference-law paragraph extended.
+
+## v1.171.0 — ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN
+
+**Owner, two reports in one sitting.** *"In the side panel I see '18 cards due · keep what you
+earned' but in the bottom I see 'Mastered 0 (0%) · 35 due · 1 new' — the due cards should be
+consistent."* Then, on the inline session: *"when I click one that is below the fold it doesn't
+seem to open right, like the scrolling position changes … it should make itself visible above the
+fold, also the case if I go down the list and back up the list."*
+
+### The two due figures were both honest, and that was the problem
+
+`dueCount()` dedupes the srs pool by question hash → 18 CARDS. `dueDeckCount()` counted every deck
+key holding one → 35 DECKS, because `_schedule` mirrors a shared card's review into every deck that
+carries it (`_sharedDecksFor`), so one owed fact produces one srs entry per copy. v1.138.0 had put
+the deck figure on the stat cell (owner then: "5 due" opened 7 rows, "kind of misleading") and the
+card figure on the band; on an account with real cross-deck history the two drifted to 18 vs 35 on
+one pane. Answering a shared card in any one deck clears it from all of them, so 17 of those 35
+rows would have finished themselves untouched.
+
+**Ruling (owner): 18.** Every printed due figure — stat cell, Challenges band, session header — is
+now `dueCount()`. `bucketTechniques("due")` became a **greedy cover**: decks walk most-overdue
+first (ties: more distinct cards owed, then key), and a deck is kept only if it owes a card no kept
+deck already covers. So `dueDeckCount() <= dueCount()`, the technique count moved to the cell's
+tooltip and the section note ("18 cards owed across N techniques"), and answering every kept row's
+due cards clears the whole debt. A deck the manifest lacks is skipped before it can claim coverage.
+
+The plan queue below the Maintenance section (Learn next · More, in order, with the `0/65` counter
+over the whole queue) is unchanged — that is v1.138.0's one-list design, and the section headers
+name it.
+
+### The list jumped because it scrolled against a hidden tick
+
+`_scrollFocusedDeck` targeted `list.querySelector(".mt")` — the FIRST progress tick in the pane.
+The session keeps a collapsed row's built deck in the DOM (`display:none`), and `renderSession`
+opens row 0 on arrival, so from the second click on the first `.mt` was a hidden one: rect all
+zeros, `scrollTop += (0 - lr.top) - 110`, the list thrown upward by the pane's own offset. The
+history home never showed it because `renderDrillHome` rebuilds its rows each time. It also always
+parked the tick at 110px even when the deck was already readable, so ↓/↑ moved the list under a
+card the user was looking at.
+
+Now it targets `_openMini.el` (the one open deck, on both surfaces) plus the row above it, and
+scrolls the SMALLEST amount that shows the whole block; taller than the scroller → align the top.
+Already fully visible → no movement. A late chunk that swaps the placeholder for the real deck
+re-fits once more.
+
+**Mutation** (bundle rebuilt per mutant, run against the named journey):
+
+| mutant | journey | result |
+|---|---|---|
+| old first-`.mt` body restored | `session-scroll.spec.ts` | killed — after the click the Reveal sat 73.8px below the scroller |
+| `bucketTechniques("due")` back to one row per deck | `tests/due_cover.test.mjs` (5 tests) · `srs-due.spec.ts` maintenance surfaces | killed — 3 srs copies must be 1 row |
+
+**Specs:** `e2e/journeys/session-scroll.spec.ts` (new — click a row below the fold, ↓×3, ↑×3, the
+open `[data-mini-deck]` and its row measured inside the scroller after each), `srs-due.spec.ts`
+maintenance-surfaces test rewritten for the card ruling (fixture is now a REAL shared card, found
+via `_sharedDecksFor`), `tests/due_cover.test.mjs` (node-side, real Component prototype).
+Curated gate: 218/218 on a private port — :8133 was held by another worktree's run during
+verification (§6.4), which is why two earlier runs showed ERR_CONNECTION_REFUSED noise.
