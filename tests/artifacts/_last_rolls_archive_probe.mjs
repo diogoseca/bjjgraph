@@ -16,7 +16,7 @@
  * EDGE-ranked one a player is most likely to press, and it is what makes the run reproducible
  * without rigging (the tray order is frozen at deal time).
  *
- * Measured at v1.171.0 over three runs (PICKS=8, 10, 10): **9 rolls ended, 4 of them held exactly
+ * Measured at v1.174.0 over three runs (PICKS=8, 10, 10): **9 rolls ended, 4 of them held exactly
  * one state (44%)** — pre-fix those 4 left no trace anywhere in the app. Run-to-run spread is
  * wide (1/2, 1/3, 2/4) because nothing is rigged, which is the point: this prices the real game,
  * not a scripted one. Re-derive before quoting; the shelf/rows equality below is the invariant.
@@ -106,7 +106,7 @@ const run = async () => {
 
   console.log("rolls that ENDED           :", out.ended, "(" + out.outcomes.join(", ") + ")")
   console.log("archived to the shelf      :", out.archived, "states:", out.states.join(","))
-  console.log("  of those, ONE-STATE rolls:", out.oneState, "<- discarded outright before v1.171.0")
+  console.log("  of those, ONE-STATE rolls:", out.oneState, "<- discarded outright before v1.174.0")
   console.log("discarded (never a roll)   :", out.discarded)
   console.log("_pastRolls / rows on screen:", out.shelf, "/", out.rowsOnScreen, "  (must be equal: the pane repaints when a roll is filed)")
   console.log("live rows in This roll     :", out.liveRows)

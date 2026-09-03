@@ -12,8 +12,8 @@ import { journey } from "../dsl"
  *   - each row opens a card that reads question → Reveal → answer (never options)
  *   - revealing is SEEN, not credit — the honest economy holds here too
  *   - the history survives the round boundary, because the pane no longer clears itself
- *   - EVERY roll that was played reaches the shelf, including the one-exchange roll (v1.171.0)
- *   - and the shelf repaints when a roll is filed, not one landing later (v1.171.0)
+ *   - EVERY roll that was played reaches the shelf, including the one-exchange roll (v1.174.0)
+ *   - and the shelf repaints when a roll is filed, not one landing later (v1.174.0)
  *
  * Surfaces: [data-hist] [data-hist-actor] [data-hist-current] [data-mini-deck]
  *           [data-mini-q] [data-mini-reveal] [data-mini-a] [data-past-roll]
@@ -139,7 +139,7 @@ test("Last rolls carries the roll rows — and explains itself when nothing roll
 })
 
 /**
- * THE ONE-EXCHANGE ROLL IS A ROLL (v1.171.0).
+ * THE ONE-EXCHANGE ROLL IS A ROLL (v1.174.0).
  *
  * Owner: "last rolls is not updating as i click outcomes and continue my roll … it seems stuck".
  * `_closeRoll`'s predicate used to demand `rollLog.length > 1`, so the ordinary short roll — you
@@ -204,7 +204,7 @@ test("a roll that ends on its first exchange still becomes a past roll", async (
 })
 
 /**
- * FREE ROAM FILES THE ROLL IT ENDS — AND THE SHELF REPAINTS ON THE SPOT (v1.171.0).
+ * FREE ROAM FILES THE ROLL IT ENDS — AND THE SHELF REPAINTS ON THE SPOT (v1.174.0).
  *
  * The other half of the owner's "it seems stuck". `rollLog` and `_pastRolls` ARE what this tab
  * draws, and the app's only repaint used to be `buildDrillPanel` — i.e. the NEXT LANDING. Roam
