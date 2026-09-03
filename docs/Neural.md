@@ -550,7 +550,12 @@ Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
 submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
-asked for, and the owner's reference law replaced it.
+asked for, and the owner's reference law replaced it. A bare CATEGORY HUB — `/Positions`,
+`/Transitions`, `/Submissions`, `/Systems`, `/Principles`, `/Learning` — is the same law one level
+up (v1.169.0): the arrival opens the pane on Explore with that ONE section expanded, written
+through the same persisted `exploreOpenSections` map a header click uses (neighbours keep their
+folds), and starts nothing. The deferred sections render expanded when their payload lands,
+because the map is written before their first render asks.
 
 **Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
 describe material difficulty, never rank or access. The frontier belt drives the default-open

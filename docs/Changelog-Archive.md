@@ -6304,3 +6304,50 @@ over a rigged top role draw, a 400-step `u` sweep in the `sweepFirstStart` shape
 `w0/Σw`, >0.05 from `1/n`, skip-with-reason if the window cannot distinguish them), the loud
 no-ranking fallback, and the crafted dedupe/flip journey. "Nothing you have earned" now clicks
 `weak` too.
+
+## v1.169.0 — A CATEGORY HUB OPENS ITS OWN SHELF
+
+**Owner:** `/Transitions`, `/Positions`, `/Systems`, `/Principles` (etc.) "maybe those should
+just open the sidebar and expand those".
+
+**What was true.** All six category hubs — /Positions, /Transitions, /Submissions, /Systems,
+/Principles, /Learning — are built pages and none is a graph node, so `_nodeAndRoleForPath`
+resolved nothing and `_seedPageFromUrl` matched only `<Library>/<slug>`: every hub arrival fell
+straight through to the front-door weighted draw. The address named a category; the app answered
+with a random roll and a closed pane. The same gap v1.155.3 closed for the 129 entry pages, one
+level up, for the six pages that head them.
+
+**What is true now.** A hub branch at the top of `_seedPageFromUrl`, decided synchronously from
+the path alone (the same no-fetch posture as the entry-page branch below it):
+
+- **Reference posture.** `_refPage = true` — a hub is browsed, not played. The intro handoff
+  starts no roll; the board stays empty until the reader clicks a position, transition or
+  submission (the owner's reference law — see concepts-surface.spec.ts).
+- **The pane opens on Explore** (`openPane("explore")` + `showExplorerList()`), and the ONE
+  section the address names is expanded through the SAME persisted map a header click writes —
+  `exploreOpenSections`, via `_setExploreSectionOpen`, factored out of `_toggleExploreSection`
+  so there is one writer shape. Neighbours keep their own folds; the label vocabulary stays
+  Explore's fixed six, so the map stays bounded.
+- **Deferred sections need nothing extra.** Systems/Principles/Learning headers exist only once
+  their payload lands; the map is written before their first render asks, so they materialise
+  already expanded.
+- **Back/Forward inherits it** — the popstate handler already routes non-node paths through
+  `_seedPageFromUrl`.
+- Best-effort `scrollIntoView` on the named header (a returning visitor can have whole sections
+  expanded above it); a missed scroll on a not-yet-rendered deferred header costs nothing.
+
+**Measured** (built site, real browser): /Transitions → pane on Explore, Transitions (1030)
+expanded with leaf rows, five neighbours folded, `currentPos` null. /Principles → all 59 rows
+expanded on payload land, board empty.
+
+**Mutation** (each rebuilt and run against the named journey; 2 of 2 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| hub regex never matches | both new journeys | killed (both red) |
+| `_refPage = true` dropped | …and starts nothing | killed (idle/beat asserts red) |
+
+**Spec:** `e2e/journeys/explore-sections.spec.ts` +2 journeys — the /Transitions arrival
+(expanded section, folded neighbours, no seat/hand/stage, no `options_dealt`/`roll_staged`
+beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
+`docs/Neural.md` reference-law paragraph extended.

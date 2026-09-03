@@ -6475,11 +6475,14 @@ class Component extends DCLogic {
     if (map && typeof map === "object" && Object.prototype.hasOwnProperty.call(map, label)) return !!map[label];
     return false;
   }
-  _toggleExploreSection(label) {
+  _setExploreSectionOpen(label, open) {
     const cur = this.get("exploreOpenSections", null);
     const map = Object.assign({}, cur && typeof cur === "object" ? cur : {});
-    map[label] = !this._exploreSectionOpen(label);
+    map[label] = !!open;
     this.set("exploreOpenSections", map);
+  }
+  _toggleExploreSection(label) {
+    this._setExploreSectionOpen(label, !this._exploreSectionOpen(label));
     this.renderExplorer();
   }
   toggleExplorer() {
@@ -9629,6 +9632,35 @@ class Component extends DCLogic {
    */
   _seedPageFromUrl(path) {
     const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
+    // ── A CATEGORY HUB PAGE OPENS ITS EXPLORE SECTION (v1.169.0) ─────────────────────────────
+    // /Positions, /Transitions, /Submissions, /Systems, /Principles and /Learning are built hub
+    // pages and none is a graph node, so all six used to fall straight through to the front-door
+    // weighted draw — the address named a category and the app answered with a random roll.
+    // Owner: those URLs should just open the sidebar and expand that category. So: reference
+    // posture (`_refPage` — a hub is browsed, not played; same synchronous, path-alone decision
+    // as below), the pane opens on Explore, and the ONE section the address names is expanded
+    // through the same persisted map a header click writes (`exploreOpenSections`) — neighbours
+    // keep their own folds, and the label vocabulary stays Explore's fixed six. The deferred
+    // sections (Systems, Principles, Learning) render expanded when their payload lands, because
+    // the flag is in the map before their first render asks for it.
+    const hub = /^(positions|transitions|submissions|systems|principles|learning)$/i.exec(id);
+    if (hub) {
+      this._refPage = true;
+      const label = hub[1].charAt(0).toUpperCase() + hub[1].slice(1).toLowerCase();
+      if (!this._exploreSectionOpen(label)) this._setExploreSectionOpen(label, true);
+      this.openPane("explore");
+      this.showExplorerList();
+      // best-effort: put the named header at the top — a returning visitor can have whole
+      // sections expanded above it. A deferred header may not exist yet; those sit near the
+      // top of the list anyway, so a missed scroll costs nothing.
+      setTimeout(() => {
+        try {
+          const el = document.querySelector('[data-explore-section="' + label + '"]');
+          if (el && el.scrollIntoView) el.scrollIntoView({ block: "start" });
+        } catch (e) { /* non-fatal */ }
+      }, 80);
+      return false;
+    }
     const m = /^(Principles|Learning|Systems)\/(.+)$/i.exec(id);
     if (!m) return false;
     // ── THE REFERENCE SURFACES DO NOT PLAY (owner's rule) ────────────────────────────────────
