@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  *   · merge: later `last` wins; same-day tie → smaller ivl (a failure is never erased by an
  *     earlier same-day success); success keeps the larger ivl (grade-before-pull heals)
  *   · due-ness never touches stage/gameScore — the belt cannot drop because time passed
- *   · ONE due number per pane (v1.171.0): the stat cell, the Challenges band and the session
+ *   · ONE due number per pane (v1.172.0): the stat cell, the Challenges band and the session
  *     header all print `dueCount()` (distinct CARDS); `bucketTechniques("due")` is a COVER of
  *     those cards — a deck copy of an already-covered card never adds a row — so the technique
  *     count is <= the card count and lives in the tooltip / section note.
@@ -287,7 +287,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
 
   const cell = page.locator('.ngStat[data-b="due"]');
   await expect(cell).toBeVisible();
-  // THE CELL PRINTS CARDS (v1.171.0, owner: "18 cards due" on the band over "35 due" here —
+  // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
   // "the due cards should be consistent"). The technique count is the tooltip's second figure.
   await expect(cell).toContainText("2 due");
   await expect(cell).toHaveAttribute("title", /^2 cards due · 1 technique · /);

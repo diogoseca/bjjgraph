@@ -3122,7 +3122,7 @@ class Component extends DCLogic {
   /**
    * Bring the OPEN inline deck fully into the pane's scroller — row header, question and Reveal.
    *
-   * Two defects lived here until v1.171.0 (owner: "when I click one that is below the fold it
+   * Two defects lived here until v1.172.0 (owner: "when I click one that is below the fold it
    * doesn't seem to open right, like the scrolling position changes"):
    *  · It targeted `list.querySelector(".mt")` — the FIRST progress tick in the list. The session's
    *    rows keep their built deck in the DOM when they collapse (`display:none`, so a reopen is
@@ -3677,7 +3677,7 @@ class Component extends DCLogic {
     const newN = fresh.length;
     const num = (v) => '<b style="color:#e9bd70;font-weight:700;">' + v + '</b>';
     const newTxt = num(newN) + ' new';
-    // THE CELL COUNTS CARDS — the same `dueCount()` the Challenges band prints (v1.171.0, owner:
+    // THE CELL COUNTS CARDS — the same `dueCount()` the Challenges band prints (v1.172.0, owner:
     // "18 cards due" over "35 due" on one pane: "the due cards should be consistent"). The
     // technique count moved to the tooltip; it is a COVER of those cards (see bucketTechniques
     // "due"), so it is never larger than the number printed.
@@ -4775,7 +4775,7 @@ class Component extends DCLogic {
       // Guests keep local schedules — the "once you have an account" promise in the old empty
       // copy was never a mechanism, and the schedule lives in the same local blob as everything.
       //
-      // ONE ROW PER OWED CARD, NOT ONE PER DECK COPY (v1.171.0). `_schedule` mirrors a shared
+      // ONE ROW PER OWED CARD, NOT ONE PER DECK COPY (v1.172.0). `_schedule` mirrors a shared
       // card's review into EVERY deck that carries it (`_sharedDecksFor`), so `duePool()` lists
       // the same fact once per copy: 18 distinct cards read as 35 decks on the owner's account, and
       // the stat cell said "35 due" under a band that said "18 cards due". Answering a card in any
@@ -5051,7 +5051,7 @@ class Component extends DCLogic {
     const techs = (n) => n + " technique" + (n === 1 ? "" : "s");
     const sections = [];
     // The section note names the ROWS (techniques); the header above it names the CARDS, the
-    // same figure the stat cell and the Challenges band print (v1.171.0) — one number per pane.
+    // same figure the stat cell and the Challenges band print (v1.172.0) — one number per pane.
     if (due.length) sections.push({ at: 0, label: "Maintenance", note: dueCards + " card" + (dueCards === 1 ? "" : "s") + " owed across " + techs(due.length) });
     if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: "ranked by what they'd fix" });
     if (more.length) sections.push({ at: due.length + fresh.length, label: "More, in order", note: "same ranking, further down" });
@@ -10085,7 +10085,7 @@ class Component extends DCLogic {
    *
    * History, because the ruling flipped once: v1.138.0 printed THIS on the stat cell, since the
    * blended hierarchy mirrors a due card into every deck carrying it and "5 due" opened 7 rows.
-   * That made 18 cards read as "35 due" beside a band saying "18 cards due" (v1.171.0, owner:
+   * That made 18 cards read as "35 due" beside a band saying "18 cards due" (v1.172.0, owner:
    * "the due cards should be consistent"). The bucket is now a cover — one row per owed card, never
    * a second row for a copy — so this is <= dueCount() and the printed number is the debt itself.
    * It also filters to `decks[k]`, which `dueCount()` does not — so this can never send you into

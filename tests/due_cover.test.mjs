@@ -1,4 +1,4 @@
-// THE DUE BUCKET IS A COVER OF THE DUE CARDS (v1.171.0).
+// THE DUE BUCKET IS A COVER OF THE DUE CARDS (v1.172.0).
 //
 // `_schedule` mirrors a shared card's review into every deck that carries it, so the srs blob
 // holds one entry per deck COPY of a fact. Counting decks therefore over-reports the debt — on the

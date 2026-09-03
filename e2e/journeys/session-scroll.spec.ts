@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
- * THE OPEN INLINE DECK STAYS IN VIEW (v1.171.0). Owner: "when I click one that is below the fold
+ * THE OPEN INLINE DECK STAYS IN VIEW (v1.172.0). Owner: "when I click one that is below the fold
  * it doesn't seem to open right, like the scrolling position changes … it should make itself
  * visible above the fold, also the case if I go down the list and back up the list".
  *
