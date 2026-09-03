@@ -13,8 +13,9 @@ import { journey } from "../dsl"
  * navigate to it. The URL changes to it, and the landcard is standard." A technique click or
  * URL lands ON the technique — URL, camera, focus, a position-anatomy card — with the SEAT at
  * its origin, staged; committing its own highlighted card runs THE EXCHANGE (v1.134.0): finishing/attacking side
- * commits it, escaping/defending side gets the red defense rush ("if I click play, I want to
- * see that rush … you need to think fast").
+ * commits it, escaping a SUBMISSION gets the red defense rush ("if I click play, I want to
+ * see that rush … you need to think fast"). Defending a TRANSITION is a calm staged landing
+ * (journey 6b, owner: "we're not defending against a submission, we're in poor shape but calm down").
  *
  * ECONOMY LAW (unchanged): `land_q_answered` is challenge evidence and combo has no cap, so
  * only the FIRST answered card per landing pays refund/combo/qMod — later answers grade as
@@ -28,6 +29,9 @@ import { journey } from "../dsl"
  *   M5 — a technique URL is rewritten to its origin (the pre-v1.132.0 yank)  → journey 5
  *   M6 — play on a defender-staged technique deals a placid hand (no rush)   → journey 6
  *   M7 — play on an attacker-staged technique does not commit the exchange   → journey 7
+ *   M6b — a transition's Defender page enters the rush anyway (`ty` gate gone) → journey 6b
+ *   M6c — enterDefense never late-binds the Defender deck (cold arrival: no drill) → journey 6
+ *   M6d — buildPanicCard ships without the landing chrome (_landCardChrome gone) → journey 6
  *   M8 — the emitter ships paragraph display-answers again (_hard_clip gone:
  *        MC starves on 532 decks and recall shows at stage 0, inverting the
  *        recognise-first progression — the owner's Americana report)         → journey 5b
@@ -488,6 +492,103 @@ test("arriving on the defending side brings the red rush — no play button in b
   expect(s.beats, "the rush announced itself").toContain("defend_start")
   expect(s.beats).toContain("caught")
   expect(s.escapes, "the escape hand is dealt — untimed").toBeGreaterThan(0)
+
+  // ── THE DRILL OPENS WHEN ITS DECK LANDS, WITH THE LANDING CARD'S CHROME ──────────────────
+  // Owner, on /Submissions/Americana/from-Modified-Scarf-Hold/Defender: "the choices row is
+  // also missing here? why?" — a URL arrival has no travel window, so the Defender chunk was
+  // still in flight when enterDefense chose `_panicKey`, and the drill silently never opened
+  // (vignette, Caught, one escape, no question). enterDefense now late-binds the Defender deck.
+  // The wait below is REAL time (the chunk is a fetch); sim-time advances do not move it.
+  // Kills: dropping the late-bind (no [data-panic] ever on a cold arrival) and dropping
+  // `_landCardChrome` from buildPanicCard (no ✕ / + / foot on the drill).
+  await page.waitForFunction(() => !!document.querySelector("[data-panic]"), null, { timeout: 20000 })
+  await j.advance(600)
+  const d = await page.evaluate(() => {
+    const a = (window as W).__neural
+    const card = document.querySelector("[data-panic]") as HTMLElement
+    return {
+      panicKey: a._panicKey,
+      mc: card.querySelectorAll("[data-panic-mc-opt], [data-panic-reveal]").length,
+      close: !!card.querySelector("[data-land-close]"),
+      add: !!card.querySelector("[data-list-add]"),
+      foot: !!card.querySelector("[data-land-foot]"),
+      beats: (a.beats || []).map((b: any) => b.beat),
+    }
+  })
+  expect(d.panicKey, "the drill credits the Defender deck once it lands").toMatch(/\|Defender$/)
+  expect(d.beats).toContain("panic_drill_opened")
+  expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
+  expect(d.close && d.add && d.foot, "the drill wears the landing card's chrome: ✕, +, foot").toBe(true)
+  // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
+  // capture) — the catch stays live and the escapes stay dealt
+  await j.clickByMouse("[data-land-close]")
+  const closed = await page.evaluate(() => {
+    const a = (window as W).__neural
+    return { card: !!document.querySelector("[data-panic]"), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
+  })
+  expect(closed.card, "✕ hides the drill").toBe(false)
+  expect(closed.defense, "…but you are still caught").toBe(true)
+  expect(closed.escapes, "…and the escapes are still yours to pick").toBeGreaterThan(0)
+})
+
+// ── 6b. defending a TRANSITION is not a catch ────────────────────────────────────────────────
+/* Owner, on /Transitions/Modified-Scarf-to-Kesa-Gatame/Defender: the panic drill opened
+ * ("Defend it — beat the clock", vignette, red clock) and the state sat BEHIND the card. Both
+ * came from one line: the staged-defender branch called enterDefense for every technique type,
+ * while the roll loop itself (opponentDefend) only ever rushes over a SUBMISSION — a transition
+ * is played as a positional move. So the arrival is the ordinary staged landing: attempt card
+ * from the defender perspective, no rush, paused, and the camera on rollCamTarget's band-aware
+ * composition rather than frameNodes' whole-viewport fit.
+ * Kills M6b (drop the `ty === "submissions"` gate → defense live, vignette, `caught` beat).
+ * The camera half reads the node through `pairMid` (§6.2) and requires it ABOVE the docked
+ * card's top edge — the differential the owner saw, not a camTarget read.
+ */
+test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card @curated", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender")
+  await j.advance(8000)
+  for (let i = 0; i < 3; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top) // force layout between frames (§6.2)
+    await j.advance(400)
+  }
+  const s = await page.evaluate(() => {
+    const a = (window as W).__neural
+    const card = document.querySelector("[data-landcard]") as HTMLElement | null
+    const st = a._stagedTech
+    const n = st ? a.nodes[st.idx] : null
+    const W = a.W, H = a.H, scale = W / a.cam.vw
+    const m = n ? a.pairMid(n) : null
+    const y = m ? Math.round(H / 2 + (m.y - a.cam.cy) * scale) : null
+    return {
+      defense: a._defendSub != null,
+      vignette: !!document.querySelector(".ng-vignette"),
+      panic: !!document.querySelector("[data-panic]"),
+      beats: (a.beats || []).map((b: any) => b.beat),
+      paused: a.paused,
+      staged: n ? { t: n.t, ty: n.ty, side: st.side } : null,
+      mode: card ? card.getAttribute("data-landcard") : null,
+      cardAbout: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null,
+      role: a.playerRole,
+      hand: (a.optionIdxs || []).length,
+      nodeY: y,
+      cardTop: card ? Math.round(card.getBoundingClientRect().top) : null,
+      H,
+    }
+  })
+  expect(s.staged, "the transition is staged from the defending seat").toEqual({ t: "Modified Scarf to Kesa Gatame", ty: "transitions", side: "defender" })
+  expect(s.role, "…which is the seat opposite its top-authored origin").toBe("bottom")
+  expect(s.defense, "NOT a catch").toBe(false)
+  expect(s.vignette, "no vignette").toBe(false)
+  expect(s.panic, "no panic drill card").toBe(false)
+  expect(s.beats, "the rush never announced itself").not.toContain("caught")
+  expect(s.beats).not.toContain("defend_start")
+  expect(s.paused, "staged and paused — play waits for the button like any other arrival").toBe(true)
+  expect(s.mode, "an ordinary attempt card…").toBe("attempt")
+  expect(s.cardAbout, "…about the technique").toBe("Modified Scarf to Kesa Gatame")
+  expect(s.hand, "your hand from the defending seat is dealt").toBeGreaterThan(0)
+  expect(s.cardTop, "the card is docked").toBeGreaterThan(0)
+  expect(s.nodeY, "the state sits ABOVE the card, in the free band — not behind it").toBeLessThan(s.cardTop!)
+  expect(s.nodeY!).toBeGreaterThan(0)
 })
 
 // ── 7. the finishing side = Finish it, in the hand ───────────────────────────────────────────

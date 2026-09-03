@@ -728,7 +728,7 @@
   min-width: 0;
 }
 
-/* THE DECK BOX TAKES FOCUS (v1.171.0), because the keyboard cannot reach an inline deck from a
+/* THE DECK BOX TAKES FOCUS (v1.174.0), because the keyboard cannot reach an inline deck from a
    <button>: Space and Enter are that button's activation keys and the handler yields to them.
    A container owns neither, so focus parks here and ←/→/Space/Enter reach _onKey. No ring on a
    programmatic focus (the deck is already the only thing that just changed on screen); a

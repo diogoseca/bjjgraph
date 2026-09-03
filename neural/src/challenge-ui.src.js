@@ -356,7 +356,7 @@ const NG_CHALLENGE_UI_METHODS = {
     return null;
   },
 
-  // ── THE CORRIDOR'S ↑/↓ (v1.171.0, owner: "keys navigation especially for the flashcards in
+  // ── THE CORRIDOR'S ↑/↓ (v1.174.0, owner: "keys navigation especially for the flashcards in
   // the challenges") ── walks the lesson rows the ladder is showing and opens the target's
   // inline deck, which is also what hands it the rest of the keyboard (`openMini` sets
   // `_focusRow`, so ←/→/Space/⏎ land on the deck you just walked to). Same contract as
@@ -385,29 +385,6 @@ const NG_CHALLENGE_UI_METHODS = {
     }
     rows[next].open(true);
     return true;
-  },
-
-  // Keep a walked-to row IN VIEW with the minimum motion — the arrival scroll's rule, for the
-  // same reason: the sticky maintenance band owns the top of the scrollport, so it is MEASURED
-  // off the band and never assumed (§6.1, `_dockLandCard`). A row that has not laid out yet
-  // reads `height 0` — that is SKIP, not a constraint. Already-visible rows are left alone, or
-  // every ↑/↓ would jitter the corridor under the reader.
-  _scrollLessonRow(row, deck) {
-    const list = this.explorerListRef && this.explorerListRef.current;
-    if (!list || !row) return;
-    requestAnimationFrame(() => {
-      const lr = list.getBoundingClientRect();
-      if (!(lr.height > 0)) return;
-      const rr = row.getBoundingClientRect();
-      const band = list.querySelector("[data-maintenance]");
-      const stick = band ? band.getBoundingClientRect().height + 8 : 0;
-      const top = lr.top + stick + 8;
-      const bottom = deck ? deck.getBoundingClientRect().bottom : rr.bottom;
-      if (rr.top < top) list.scrollTop += rr.top - top;
-      else if (bottom > lr.bottom - 8) {
-        list.scrollTop += Math.min(rr.top - top, bottom - lr.bottom + 8);
-      }
-    });
   },
 
   challengeCurriculumElement(trackId) {
@@ -565,7 +542,7 @@ const NG_CHALLENGE_UI_METHODS = {
         // sidebar open". `toggleMini` keeps the ▸'s open/close semantics; the row click is
         // open-or-focus (clicking the name of an already-open lesson does not slam it shut).
         //
-        // `focus` is the KEYBOARD half (v1.171.0). Two separate things, both load-bearing:
+        // `focus` is the KEYBOARD half (v1.174.0). Two separate things, both load-bearing:
         //  · `_focusRow = rid` (ALWAYS, focus or not) hands this deck to `_onKey`'s challenge
         //    branch — ←/→ page its cards, Space flips, ⏎ grades — through the SAME `_miniReg`
         //    handles the roll history and the inline session use. One keyboard, not three (§6.5).
@@ -615,7 +592,7 @@ const NG_CHALLENGE_UI_METHODS = {
           deckBox.style.display = "block";
           toggle.setAttribute("aria-expanded", "true");
           toggle.querySelector("span").textContent = "▾";
-          this._openLessonMini = { rid: rid, close: closeSelf };
+          this._openLessonMini = { rid: rid, el: deckBox, close: closeSelf };
           this._openLessonRid = rid;
           this._focusRow = rid;
           if (focus) {
@@ -624,7 +601,9 @@ const NG_CHALLENGE_UI_METHODS = {
             } catch (e) {
               deckBox.focus();
             }
-            this._scrollLessonRow(lessonRow, deckBox);
+            // the shared minimum-motion scroll (app.src.jsx), on THIS surface's scroller and
+            // handle — the row above the deck is `lessonRow`, which is what it reads for the block
+            this._scrollFocusedDeck(this.explorerListRef && this.explorerListRef.current, deckBox);
           }
         };
         const toggleMini = () => { if (deckBox.style.display !== "none") closeSelf(); else openMini(true); };
@@ -645,7 +624,7 @@ const NG_CHALLENGE_UI_METHODS = {
           frontier: isFrontier,
           open: openMini,
         });
-        // AN OPEN DECK SURVIVES A REPAINT (v1.171.0) — the `_histRow` pattern, and here it is
+        // AN OPEN DECK SURVIVES A REPAINT (v1.174.0) — the `_histRow` pattern, and here it is
         // not a nicety: `gradeRecall` fires beats, `noteChallenges` repaints this tab whenever
         // one advances, so grading a card used to close the deck you were working out from under
         // you. `_deckState[key]` lives on the component, so the rebuilt deck resumes on the same
@@ -730,7 +709,7 @@ const NG_CHALLENGE_UI_METHODS = {
     this._renderingChallengeView = true;
     try {
       this.noteLearningViewOpen("challenges");
-      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.171.0) — exactly as
+      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.174.0) — exactly as
       // renderDrillHome and renderSession rebuild `_miniReg`. It is what ↑/↓ walks AND what
       // `_focusedMini` scopes the keyboard by, so a row that no longer renders (a gi switch
       // drops a gi-only lesson) takes its keys with it instead of leaving them pointed at a
