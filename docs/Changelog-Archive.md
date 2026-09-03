@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
 - **v1.170.3** — [THE PINCH LEFT THE STAGED TRACKING RUNNING](#v1-170-3-the-pinch-left-the-staged-tracking-running)
 - **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
 - **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
@@ -6446,3 +6447,65 @@ the camera-holds assertion goes red on its own (`vw` 116.3 against a `< 78.4` ba
 into the `pointerType: "touch"` events the wrap's pinch branch reads; `page.mouse` cannot make two
 pointers). Asserts the staged posture first, that the pinch begins on the canvas, then `free`
 false at lift, zoom held, and `camTarget.vw` still equal to `cam.vw` 1.5s later.
+
+## v1.171.0 — A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED
+
+**Owner:** on `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender` — "it centered the current
+node behind the landcard … instead of showing it centered in the visible available space above
+the landcard, as it's done in other techniques. also the panic effects are uncalled for. we're not
+defending against a submission, we're in poor shape but calm down." Then, on
+`/Submissions/Americana/from-Modified-Scarf-Hold/Defender`: "the choices row is also missing
+here? why? … the landcard should look like the other ones … with the favorite and close buttons,
+the more link … and the panic vignette should be more chill, more slow motion of a heart beat
+really realistic like max payne … but more modern fluid movement."
+
+**What was true.** Four defects, three of them one line each.
+
+1. `rollFromPosition`'s arrival callback ran `enterDefense` for EVERY defender-staged technique.
+   The roll loop itself never panics over a transition — `opponentDefend` plays one as a
+   positional move — so a transition's Defender page was the only place in the app that did. And
+   `enterDefense` frames its danger set with `frameNodes`, which fits the WHOLE viewport, so the
+   state sat behind the card `_dockLandCard` had just docked. Both symptoms, one call.
+2. A URL arrival on a submission's escaping seat has no travel window: `_prefetchLandDeck` fires
+   at stage, `enterDefense` runs 0.6s later, and on a cold visit the Defender chunk is still in
+   flight. `_deckHasCards` is honestly false for both decks, `_panicKey` is null, `buildPanicCard`
+   returns without a card. Vignette, "Caught", one escape, and no question — ever. Measured in the
+   harness: `wait:true` on the deck the frame the drill was skipped, five cards resident two
+   seconds later. `panic-drill-defender-deck.spec.ts` had named exactly this entry as its non-kill.
+3. `buildPanicCard` built the question and nothing else: no `More ▸`, no `+`, no `✕`, no foot.
+   The landing card's chrome lived inline in `renderLandCard`.
+4. `ngHeartbeat` was a 1s ease-in-out sawtooth on opacity alone. And `killVignette`'s fade never
+   ran: a CSS animation outranks the inline `opacity` it animates, so the "180ms snap-off" was a
+   hard `remove()` after 200ms of full-strength red.
+
+**What is true now.**
+
+- The arrival callback gates the rush on `ty === "submissions"`. A transition's defending seat is
+  an ordinary staged landing: attempt card from the defender perspective (`perspSide`), the
+  `|Defender` deck, your hand from the defending side, `rollCamTarget`'s band-aware composition,
+  paused until play.
+- `enterDefense` late-binds the Defender deck: when `_panicKey` is null it awaits `hydrateDeck(dk)`
+  and opens the drill on the same catch, guarded on `_defendSub`, no card on the table, and real
+  cards. The odds do not move under the player: with `_panicKey` null, `escapeChance` already reads
+  `stateBonus(defendKeyFor(sub))` — the same key. The position-deck fallback is deliberately NOT
+  late-bound (that would change the odds' key).
+- `_landCardChrome(el, node, famChip, side)` is the one seam for More-body + foot + corner, called
+  by `renderLandCard` and by the drill's every render. `_landMoreHTML(node, side)` reads the
+  DEFENDER block when authored. The drill refits its chrome once when the dossier chunk lands
+  (the drill is excluded from `_landBackfill` by mode). The foot gradient follows the card skin.
+- The vignette is cardiac: S1 at 0–5% (sharp attack, `scale(.955)` contraction on an element
+  oversized by 7%), S2 at 23.5% (softer), long diastole, 3.2s cycle, per-keyframe easings.
+  `killVignette` freezes the animation at its current frame before transitioning, so the defeat
+  drain (.9s) and the relief snap (.32s) actually run.
+
+**Mutation** (rebuilt and run against `landcard-modes.spec.ts`; 3 of 3 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| `ty === "submissions"` gate gone | 6b | killed |
+| late-bind dropped | 6 | killed (no `[data-panic]` in 20s) |
+| `_landCardChrome` dropped from the drill | 6 | killed |
+
+**Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
+them) and the vignette fade (a transition under a removed animation — verified by eye on the real
+dev server, not by a gate).

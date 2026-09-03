@@ -104,8 +104,13 @@ origin position (the engine's states are positions); `_stagedTech = {idx, side}`
 exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
 orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
 consumed at the `_played` latch): the attacking side commits that very technique through the
-ordinary pick path; the defending side gets `enterDefense` — the red rush, vignette burning,
-escape hand, think fast. Any other commit or teardown (`clearOptions`) consumes the latch, so
+ordinary pick path; the defending side of a SUBMISSION gets `enterDefense` on arrival — the red
+rush, vignette burning, escape hand, think fast. The defending side of a TRANSITION is a calm
+staged landing (v1.171.0, owner: "we're not defending against a submission, we're in poor shape
+but calm down"): the attempt card reads from the defender perspective, your hand is the
+defending seat's, the camera keeps `rollCamTarget`'s band, and play waits for the button — the
+same thing the roll loop does, since `opponentDefend` plays a transition as a positional move and
+only ever rushes over a finish. Any other commit or teardown (`clearOptions`) consumes the latch, so
 picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
 resolves to the family's most-connected member instead of falling through to a random weighted
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
@@ -113,7 +118,10 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 
 Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
 familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
-that landing only.
+that landing only. The panic drill is a landing card and wears the same chrome
+(`_landCardChrome`, v1.171.0): its `More ▸` reads the submission's DEFENDER block, `+` captures
+the submission, `✕` hides the drill while the catch and the escapes stay live. On a URL arrival
+the Defender deck is late-bound — the drill opens the moment its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
