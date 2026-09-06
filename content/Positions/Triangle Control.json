@@ -377,8 +377,8 @@
       {
         "transition": "Triangle Choke from Triangle Control",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 42
+          "gi": 41,
+          "nogi": 39
         }
       },
       {
@@ -414,6 +414,27 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 9
+        }
+      },
+      {
+        "transition": "Kimura from Triangle Control",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Americana from Triangle Control",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Armbar from Triangle Control",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
         }
       }
     ],

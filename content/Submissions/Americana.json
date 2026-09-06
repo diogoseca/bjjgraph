@@ -102,7 +102,8 @@
     "Modified Scarf Hold",
     "High Mount",
     "S Mount",
-    "Modified Mount"
+    "Modified Mount",
+    "Triangle Control"
   ],
   "related_submissions": [
     {
@@ -307,6 +308,10 @@
     {
       "name": "from Technical Mount",
       "slug": "from-technical-mount"
+    },
+    {
+      "name": "Americana from Triangle Control",
+      "slug": "from-triangle-control"
     }
   ],
   "clips": [

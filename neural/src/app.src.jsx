@@ -655,7 +655,8 @@ class Component extends DCLogic {
           else this.setDeckOpen(false); // PANE LAW: Esc closes the pane last, once no overlay is up
         }
       } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
-        e.preventDefault(); const ctx = this._detailCtx; this.closeOptionDetail(); ctx.onPick(ctx.opt);
+        e.preventDefault(); const ctx = this._detailCtx;
+        if (ctx.onPick && ctx.opt && !ctx.opt.threat) { this.closeOptionDetail(); ctx.onPick(ctx.opt); }
       } else if (!typing && !this._detailCtx && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
@@ -1149,7 +1150,7 @@ class Component extends DCLogic {
         continue;
       }
       const A = out[rep(i)], B = out[low(i)];
-      A.cal = { avail: cal.avail }; B.cal = { avail: cal.avail };
+      A.cal = { avail: cal.avail, stateAlias: cal.stateAlias }; B.cal = { avail: cal.avail, stateAlias: cal.stateAlias };
       // `ev` goes on BOTH members, whole. It is keyed by role already, and `_evRowsFor(posIdx,
       // role)` looks up `posIdx + "/" + role` — so filing each role's block only on its own member
       // makes the answer depend on WHICH HALF you happen to be standing on, and the side you are
@@ -2886,6 +2887,7 @@ class Component extends DCLogic {
    *  manifest-arrival backfill re-requests in that case. Fire-and-forget on purpose. */
   _prefetchLandDeck(idx) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (n.ty === "submissions") this.loadSubmissionChoices(n).catch(() => {});
     const k = this.deckKeyFor(n); if (k && k.key) this.hydrateDeck(k.key);
   }
   /**
@@ -2911,6 +2913,7 @@ class Component extends DCLogic {
    */
   _prefetchDefendDeck(idx) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (n.ty === "submissions") this.loadSubmissionChoices(n).catch(() => {});
     const k = this.defendKeyFor(n);
     if (k && this.flashcards && this.flashcards.decks && this.flashcards.decks[k]) this.hydrateDeck(k);
   }
@@ -4351,6 +4354,7 @@ class Component extends DCLogic {
   }
 
   expandOption(opt, onPick, srcCard) {
+    if (opt.threat || opt.action === "escape") { this.previewStateChoice(opt, onPick); return; }
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) { onPick(opt); return; }
     // ── THE SHEET LIVES ON THE ROOT PLANE (v1.136.0) ─────────────────────────────────────────
@@ -4583,7 +4587,7 @@ class Component extends DCLogic {
     back.style.cssText = "cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
     const go = document.createElement("button");
     go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
-    go.innerHTML = (cat === "Submission" ? "Go for the " + sp.main : "Execute this move") + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
+    go.innerHTML = this.choiceEscape(this.choiceLabel(opt)) + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
     go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
     // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
     // and on a phone it is a full-width surface where a 44px target actually fits.
@@ -4778,11 +4782,13 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   hideOptDetail() {
+    if (this._stateChoiceClose) this._stateChoiceClose();
     const panel = this.optDetailRef.current;
     if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
   }
   closeOptionDetail() {
+    if (this._stateChoiceClose) { this._setDetailCtx(null); this._stateChoiceClose(); return; }
     // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
     // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
     // never called it, so peeking at an option and backing out left the card that says where you
@@ -6839,7 +6845,9 @@ class Component extends DCLogic {
     return this._giMode;
   }
   _rebuildRulesetMask() {
-    // `giAllows` is the definition; this is its per-frame CACHE, not a second implementation —
+    // The playable mask excludes unavailable techniques and retired control aliases. Aliases
+    // remain resolvable for old URLs and authored outcomes through canonicalState.
+    // `giAllows` owns ruleset availability; this is the playable projection cache —
     // every entry is that method's own answer. It exists because the draw pass asks the question
     // ~1500x per frame and a Map/property walk there is the difference between a filter and a
     // stutter. Rebuilt only where the frame can change (ingest, setGiMode).
@@ -6847,7 +6855,7 @@ class Component extends DCLogic {
     const ns = this.nodes || [];
     const mask = new Uint8Array(ns.length);
     let off = 0;
-    for (const n of ns) { const ok = this.giAllows(n); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
+    for (const n of ns) { const ok = this.giAllows(n) && !(n.cal && n.cal.stateAlias); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
     this._rsOk = mask;
     this._rsOff = off;
     this._rsFrame = this._giMode;
@@ -9770,7 +9778,8 @@ class Component extends DCLogic {
     if (!path || !this._idIndex) return -1;
     const id = decodeURIComponent(String(path).replace(/^\/+/, "").replace(/\/+$/, ""));
     if (!id) return -1;
-    const i = this._idIndex.get(id);
+    const raw = this._idIndex.get(id);
+    const i = raw == null ? raw : this.canonicalState(raw);
     // same rule as `_nodeAndRoleForPath`: a Back/Forward pop onto a node the ruleset removed
     // resolves to nothing, so the caller falls through rather than seating an absent state.
     if (i != null && this.nodes[i] && !this.rsAllows(this.nodes[i])) return -1;
@@ -9823,7 +9832,11 @@ class Component extends DCLogic {
       }
     }
     if (i == null) return NONE;
-    const n = this.nodes[i]; if (!n) return NONE;
+    let n = this.nodes[i]; if (!n) return NONE;
+    if (n.cal && n.cal.stateAlias) {
+      role = role || n.role;
+      i = this.canonicalState(i, role); n = this.nodes[i];
+    }
     // RULESET (v1.167.0). Quartz emits a page for every node in the corpus regardless of ruleset,
     // so a no-gi visitor can arrive from a search result on /Transitions/Worm-Guard-Entry. Resolving
     // to NONE here is deliberate and is the cheapest correct answer: `_seedFromUrl` then falls
@@ -11029,6 +11042,7 @@ class Component extends DCLogic {
   clearOptions() {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
+    this._waitingSubmission = null;
     const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
@@ -11171,13 +11185,181 @@ class Component extends DCLogic {
   }
 
   // action nodes adjacent to a position, ranked, deduped by title
-  optionsFor(posIdx) {
+  // Submission identity is independent of its attacker's physical top/bottom seat.
+  submissionNode(node) {
+    if (!node || node.ty !== "submissions") return null;
+    return node.role === "defender" && node.pi >= 0 ? this.nodes[node.pi] : node;
+  }
+  canonicalState(idx, role) {
+    const n = this.nodes[idx];
+    if (!n) return idx;
+    const alias = n.cal && n.cal.stateAlias;
+    if (!alias) return idx;
+    const target = this._techSlugIndex && this._techSlugIndex.get(alias);
+    const sub = this.submissionNode(this.nodes[target]);
+    if (!sub || !this.rsAllows(sub)) return idx;
+    return (role || n.role) === sub.fromRole ? sub.idx : (sub.pi >= 0 ? sub.pi : sub.idx);
+  }
+  choiceLabel(opt) {
+    if (opt.label) return opt.label;
+    if (opt.action === "finish") return "Finish";
+    const n = this.submissionNode(opt.node) || opt.node;
+    if (n.cal && n.cal.choiceLabel) return n.cal.choiceLabel;
+    const origin = this.nodes[this.posNodeForId(n.fromPositionId)];
+    const from = origin ? this.posFamily(origin.t) : "";
+    let name = n.t;
+    if (from && name.endsWith(" from " + from)) name = name.slice(0, -(6 + from.length));
+    if (n.ty === "submissions") return "Attack " + name;
+    if (from && name.startsWith(from + " to ")) {
+      const to = name.slice(from.length + 4);
+      return to === "Back" || to === "Back Control" ? "Take the back" : "Move to " + to;
+    }
+    return name;
+  }
+  choiceEscape(text) {
+    return String(text || "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  loadSubmissionChoices(node) {
+    const sub = this.submissionNode(node);
+    if (sub.cal.defenses) return Promise.resolve();
+    const loads = this._submissionLoads || (this._submissionLoads = new Map());
+    if (loads.has(sub.idx)) return loads.get(sub.idx);
+    const pending = fetch(this._dataBase() + "submission-details/" + this.qhash(sub.t) + ".json")
+      .then((r) => { if (!r.ok) throw new Error("Submission choices unavailable"); return r.json(); })
+      .then((payload) => {
+        const body = payload[sub.t];
+        if (!body || !Array.isArray(body.choices) || !body.choices.length) throw new Error("Submission has no defensive responses");
+        sub.cal.defenses = body.choices; sub._defenseDetails = body.details || [];
+      }).finally(() => loads.delete(sub.idx));
+    loads.set(sub.idx, pending); return pending;
+  }
+  waitForSubmissionChoices(sub, ready) {
+    if (sub.cal.defenses) return false;
+    this.clearOptions();
+    const token = {}; this._waitingSubmission = token;
+    const pos = this.currentPos, role = this.playerRole;
+    const current = () => this._waitingSubmission === token && this.currentPos === pos && this.playerRole === role && !this.__ngDestroyed;
+    const el = this.optionsRef.current;
+    const message = (failed) => {
+      if (!el) return;
+      el.style.pointerEvents = "auto";
+      el.innerHTML = '<div role="status" style="color:#b7c5dc;padding:18px;">' +
+        (failed ? 'Choices could not load. <button data-retry-choices>Retry</button>' : 'Loading submission choices…') + '</div>';
+      const retry = el.querySelector("[data-retry-choices]");
+      if (retry) retry.onclick = () => this.waitForSubmissionChoices(sub, ready);
+    };
+    this._optPick = null; this._optList = null; this._decision = null;
+    message(false);
+    this.loadSubmissionChoices(sub).then(() => {
+      if (!current()) return;
+      this._waitingSubmission = null; ready();
+    }).catch(() => { if (current()) message(true); });
+    return true;
+  }
+  submissionDefenses(node) {
+    const sub = this.submissionNode(node);
+    if (!sub) return [];
+    const out = [];
+    for (const d of (sub.cal && sub.cal.defenses) || []) {
+      const r = this.resolveOutcomeTo(d.to);
+      const dest = this.canonicalState(r.idx, r.role);
+      if (dest < 0 || r.terminal || !this.rsAllowsIdx(dest)) continue;
+      out.push({ idx: sub.pi >= 0 ? sub.pi : sub.idx, node: this.nodes[sub.pi >= 0 ? sub.pi : sub.idx],
+        res: dest, destinationRole: r.role || this.nodes[dest].role, label: d.label,
+        action: "escape", defense: d, submission: sub.idx });
+    }
+    return out;
+  }
+  submissionOptions(node, role) {
+    const sub = this.submissionNode(node);
+    if (!sub || !this.rsAllows(sub)) return [];
+    if (role !== sub.fromRole) return this.submissionDefenses(sub);
+    const out = [{ idx: sub.idx, node: sub, res: -1, action: "finish", label: "Finish", submission: sub.idx }];
+    const seen = new Set([sub.idx]);
+    for (const key of (sub.cal && sub.cal.stateMoves) || []) {
+      const idx = this._techSlugIndex && this._techSlugIndex.get(key);
+      const n = this.submissionNode(this.nodes[idx]) || this.nodes[idx];
+      if (!n || !this.rsAllows(n) || seen.has(n.idx)) continue;
+      seen.add(n.idx);
+      const success = (n.cal && n.cal.outcomes || []).find((o) => o.result === "success" && o.to !== "game-over");
+      const target = success && this.resolveOutcomeTo(success.to);
+      out.push({ idx: n.idx, node: n, res: target && target.idx >= 0 ? this.canonicalState(target.idx, target.role) : this.resultPos(n.idx, sub.idx),
+        action: n.ty === "submissions" ? "enter" : "transition", submission: sub.idx });
+    }
+    return out;
+  }
+  opponentThreats(posIdx) {
+    const here = this.nodes[posIdx];
+    const role = this.playerRole === "top" ? "bottom" : "top";
+    // Do not change the live player role to inspect the other hand.
+    const opts = here.ty === "submissions" ? this.submissionOptions(here, role) : this.optionsFor(posIdx, role);
+    return opts.map((o) => ({ ...o, threat: true, actor: "opponent" }));
+  }
+  renderChoiceGroups(el, own, threats, pick, seconds, escape) {
+    const add = (label, list, threat) => {
+      if (!list.length) return;
+      const group = document.createElement("div");
+      group.setAttribute("data-choice-group", threat ? "opponent" : "you");
+      group.style.cssText = "display:flex;flex-direction:column;gap:7px;flex:none;min-width:0;";
+      const title = document.createElement("div");
+      title.textContent = label;
+      title.style.cssText = "font-size:10px;font-weight:700;letter-spacing:.06em;color:" + (threat ? "#ef8585" : "#93a0bd") + ";padding-left:3px;";
+      group.appendChild(title);
+      const row = document.createElement("div");
+      row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
+      list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
+      group.appendChild(row); el.appendChild(group);
+    };
+    add("Your options", own, false);
+    add("Opponent threats", threats, true);
+  }
+  previewStateChoice(opt, onPick) {
+    const panel = this.optDetailRef.current;
+    if (!panel) return; // a threat must NEVER become a move through a missing-panel fallback
+    if (this._stateChoiceClose) this._stateChoiceClose();
+    this._setDetailCtx(null);
+    this._declineLandQ("sheet");
+    const wasPaused = this.paused;
+    this.setPaused(true);
+    const previousStyle = panel.style.cssText;
+    const preview = {}; this._stateChoicePreview = preview;
+    const root = this.__ngRoot || document.body;
+    if (panel.parentElement !== root) root.appendChild(panel);
+    panel.style.cssText = "position:fixed;z-index:50;display:block;left:50%;bottom:24px;transform:translateX(-50%);width:min(460px,calc(100vw - 28px));max-height:75vh;overflow:auto;background:#151b2c;border:1px solid #536078;border-radius:16px;padding:22px;pointer-events:auto;";
+    const esc = (t) => this.choiceEscape(t);
+    const d = opt.defense;
+    const dest = this.nodes[opt.res];
+    panel.innerHTML = '<div data-choice-preview="1" style="color:#dce3f0;"><div style="color:' + (opt.threat ? '#e8956b' : '#93a0bd') + ';font-size:11px;">' + (opt.threat ? 'Opponent threat' : 'Your response') + '</div><h3 style="margin:10px 0;">' + esc(this.choiceLabel(opt)) + '</h3><div data-choice-explanation style="line-height:1.5;font-size:14px;">' +
+      (d ? esc(d.action || d.label) : esc(opt.node.t)) + '</div>' +
+      (dest ? '<p style="font-size:13px;">Possible continuation: ' + esc(this.displayName(dest)) + '</p>' : '') +
+      (opt.threat ? '<p style="font-size:13px;color:#e8956b;">Your opponent may attempt this. Choose your response from your options.</p>' : '') +
+      '<button data-choice-close style="cursor:pointer;padding:10px 16px;">Back to choices</button>' +
+      (!opt.threat ? '<button data-choice-go style="cursor:pointer;padding:10px 16px;margin-left:8px;">' + esc(this.choiceLabel(opt)) + '</button>' : '') + '</div>';
+    const close = () => { this._stateChoiceClose = null; this._stateChoicePreview = null; panel.style.cssText = previousStyle; panel.style.display = "none"; this.setPaused(!!wasPaused); };
+    this._stateChoiceClose = close;
+    this._setDetailCtx(opt.threat ? { opt } : { opt, onPick });
+    panel.querySelector("[data-choice-close]").onclick = () => { this._setDetailCtx(null); close(); };
+    const go = panel.querySelector("[data-choice-go]");
+    if (go) go.onclick = () => { this._setDetailCtx(null); close(); onPick(opt); };
+    // The state payload is already resident; previews never need a second fetch.
+    const details = this.nodes[opt.submission] && this.nodes[opt.submission]._defenseDetails;
+    const detail = d && d.detail != null && details && details[d.detail];
+    if (detail) {
+      const body = panel.querySelector("[data-choice-explanation]");
+      if (body) body.innerHTML = '<p>' + esc(detail.action) + '</p><p>' + esc(detail.when_to_use) + '</p><p>' + esc(detail.risk) + '</p>';
+    }
+  }
+
+  optionsFor(posIdx, role) {
+    role = role || this.playerRole;
+    posIdx = this.canonicalState(posIdx, role);
+    if (this.nodes[posIdx].ty === "submissions") return this.submissionOptions(this.nodes[posIdx], role);
     const seen = new Set(); const out = [];
     const hereId = this.nodes[posIdx].posId || null;
     // the EDGE table for THIS state and THIS side, resolved once. Stamped onto each opt below so
     // every later reader (the card, the sheet, the odds refresh) values the move against the state
     // it was dealt from, not against wherever the roll has since moved to.
-    const evOf = this._evRowsFor(posIdx, this.playerRole);
+    const evOf = this._evRowsFor(posIdx, role);
     const rsOk = this._rulesetMask();
     for (const k of this.adj[posIdx]) {
       const n = this.nodes[k];
@@ -11195,7 +11377,7 @@ class Component extends DCLogic {
       // that actually holds it, which is how a bottom player ended up with no submissions at all.
       // The authored role cannot invert; if it is WRONG that is a content bug, and
       // validate_graph_integrity's `from_position_role_mismatch` names all 65 of them.
-      if (n.fromRole && n.fromRole !== this.playerRole) continue;
+      if (n.fromRole && n.fromRole !== role) continue;
       // contextual: exact canonical origin match (data now provides fromPositionId)
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId) continue;
       const res = this.resultPos(k, posIdx);
@@ -11208,7 +11390,7 @@ class Component extends DCLogic {
         // the fallback relaxes ORIGIN, never ROLE and never RULESET: dealing the opponent's moves
         // is not a safety net, it is the bug this filter exists to prevent — and dealing a lapel
         // entry to a player with no lapel is the same mistake with a different subject
-        if (n.fromRole && n.fromRole !== this.playerRole) continue;
+        if (n.fromRole && n.fromRole !== role) continue;
         // `relaxed` IS THE SIGNAL, and it is POSITIVE on purpose. The only previous way to tell a
         // fallback hand from a real one was the ABSENCE of `ord` — and `orderScore` legitimately
         // returns null on 100 of 1328 main-pass cards, 3 of them a hand's FIRST card, so
@@ -11289,8 +11471,10 @@ class Component extends DCLogic {
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node;
     const isEsc = mode === "escape";
+    const isThreat = !!opt.threat;
+    const isEntry = n.ty === "submissions" && !isEsc && opt.action !== "finish";
     const card = document.createElement("div");
-    card.setAttribute("data-tech", n.t); // journey tests click option cards by technique title
+    card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     // DERIVED, NOT COINCIDENTAL (v1.104.3). `n.col` is `domColor(n.s[0])` frozen at INGEST, and
     // `s[0]` is ATTACKER for a technique — a role-BLIND read of a role-typed pair. On THIS
@@ -11316,15 +11500,15 @@ class Component extends DCLogic {
     // moves this state authors, so the EDGE table cannot value them and a fabricated number is
     // forbidden \u2014 it keeps its category word, its own-strength glyph and its landing-position
     // potential, which there is not a second quantity but the same one twice.
-    const edge = isEsc ? null : this.edgeMark(opt);
-    const col = edge ? edge.col : this.hex(this.myColor(n));
+    const edge = isEsc || isThreat || opt.submission != null ? null : this.edgeMark(opt);
+    const col = isThreat ? "#ef8585" : edge ? edge.col : this.hex(this.myColor(n));
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const pot = Math.round(this.movePotential(opt) * 100);
     // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
     // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
-    const rateCaption = this.isMobile() ? "Odds" : "Success rate";
+    const rateCaption = isEntry ? "Finish odds" : this.isMobile() ? "Odds" : "Success rate";
     const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
       '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
@@ -11365,9 +11549,9 @@ class Component extends DCLogic {
       // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
       // for — this card's job is name, category, potential and odds, at a glance, on a clock.
       // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
-      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.displayName(n) + '</div>' +
-      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">escape route</div>' : '') +
-      bottomRow +
+      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.choiceEscape(this.choiceLabel(opt)) + '</div>' +
+      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">defensive response</div>' : '') +
+      (isThreat ? '' : bottomRow) +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
     // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
     // "These are the techniques we learned in today's class" means TRANSITIONS AND SUBMISSIONS.
@@ -11382,7 +11566,9 @@ class Component extends DCLogic {
     // per-card clutter, which is 8 copies of the same control across one hand.
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
-    card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
+    card.setAttribute("data-choice-action", opt.action || "transition");
+    if (isThreat) card.setAttribute("data-opponent-threat", "1");
+    card.addEventListener("click", () => { if (isThreat || isEsc) this.previewStateChoice(opt, onPick); else this.expandOption(opt, onPick, card); });
     // ONE CLOCK (v1.114.1). This bar used to be a CSS animation (`ngCount <dsec>s`) on the WALL
     // clock, while the decision it depicts runs on `gdt` in `_tickDecision`. `setPaused` kept the
     // two in step for pauses — but nothing kept them in step for a REFUND: answering the landing
@@ -11403,7 +11589,7 @@ class Component extends DCLogic {
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
   _paintEdge(oc) {
-    if (!oc || oc.esc) return;
+    if (!oc || oc.esc || oc.opt.threat) return;
     const e = this.edgeMark(oc.opt); if (!e) return;
     const num = oc.card.querySelector(".ngedge");
     if (num) { num.textContent = e.txt; num.style.color = e.col; }
@@ -13024,7 +13210,7 @@ class Component extends DCLogic {
     const base = (cal != null) ? (1 - cal) : 0.4;
     const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
     // momentum is morale — it helps you defend just as it helps you attack
-    return Math.max(0.08, Math.min(0.92, base + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
+    return Math.max(0.08, Math.min(0.92, base + (this.myVal(this.nodes[opt.res] || opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
   }
   escapeOddsSnapshot() {
     const list = this._optList;
@@ -13035,7 +13221,7 @@ class Component extends DCLogic {
     if (this._defendSub == null) return;
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
-      const pct = Math.round(this.escapeChance({ node: oc.node }) * 100);
+      const pct = Math.round(this.escapeChance(oc.opt) * 100);
       el.textContent = pct + "%";
       el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     }
@@ -13503,6 +13689,7 @@ class Component extends DCLogic {
 
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx, staged, roleOverride) {
+    nodeIdx = this.canonicalState(nodeIdx, roleOverride || (this.nodes[nodeIdx] && this.nodes[nodeIdx].role));
     // THE SEAT FUNNEL, AND THEREFORE THE RULESET GUARD (v1.167.0). Every path that puts a player
     // somewhere arrives here: the ▶ on a list row, a dossier's "Roll from here", a belt capstone's
     // authored seat, a Back/Forward pop, and — the one that reaches strangers — a direct URL
@@ -13534,8 +13721,8 @@ class Component extends DCLogic {
     this.stopReplay("roll");
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
-    // A technique is not a state you can stand in: seat the roll at its ONE canonical origin, on
-    // the side that performs it. `techniqueOrigin` is the single seam — see its note for what the
+    // Transitions stage at their origin; submissions are playable states. Origin metadata
+    // supplies the physical seat in both cases. `techniqueOrigin` is the single seam — see its note for what the
     // adj-walk this replaces was actually doing (68.4% of taps dealt a hand without the technique
     // in it, and every lower orb staged a roll on a technique node).
     let posIdx = nodeIdx, seatRole = null;
@@ -13576,7 +13763,7 @@ class Component extends DCLogic {
       const fr = String(this.nodes[chosen].fromRole || "").toLowerCase();
       this._stagedTech = { idx: chosen, side: (fr === "top" || fr === "bottom") && this.playerRole !== fr ? "defender" : "attacker" };
     }
-    this.currentPos = posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
+    this.currentPos = this.nodes[chosen].ty === "submissions" ? chosen : posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
     // SWAPPING BETWEEN TWO HALVES OF ONE STATE MOVES NOTHING. Both members of a pair share a
     // midpoint, so the camera's subject is literally unchanged — and the right way to guarantee
     // the owner's "the camera should move just a little" is to not touch it at all rather than to
@@ -13653,7 +13840,7 @@ class Component extends DCLogic {
     oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";
     const eyebrow = oc.card.querySelector("[data-cat]");
     if (eyebrow) {
-      eyebrow.textContent = oc.node && oc.node.ty === "submissions" ? "Finish it" : "Execute";
+      eyebrow.textContent = oc.node && oc.node.ty === "submissions" ? "Submission" : "Execute";
       eyebrow.style.color = "#9ab0e0";
       eyebrow.style.letterSpacing = ".08em";
     }
@@ -14327,7 +14514,15 @@ class Component extends DCLogic {
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
   }
   enterLand(first) {
+    const canonical = this.canonicalState(this.currentPos, this.playerRole);
+    if (canonical !== this.currentPos) { this.currentPos = canonical; this._syncUrl(canonical); }
     const pos = this.nodes[this.currentPos];
+    if (pos.ty === "submissions") {
+      const sub = this.submissionNode(pos);
+      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first))) return;
+      if (this.playerRole !== sub.fromRole) { this.enterDefense(sub.idx); return; }
+      this.currentPos = sub.idx;
+    }
     this._flushLandSkipDebt(); // a new arrival settles the previous landing's deferred verdict
     this._prefetchLandDeck(this.currentPos); // idempotent; covers outcome landings' render window
     this._qMod = 0; // a new arrival forgives the last exchange's wrong answer
@@ -14452,8 +14647,8 @@ class Component extends DCLogic {
     this._decisionDsec = this.get("decisionSec", 9);
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
-    for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, this._decisionDsec, i + 1));
+    const pick = (opt) => { if (picked || opt.threat) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
+    this.renderChoiceGroups(el, opts, this.opponentThreats(this.currentPos), pick, this._decisionDsec, false);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
@@ -14670,6 +14865,7 @@ class Component extends DCLogic {
     if (d.remaining <= 0) this._expireLandQ();
   }
   enterAttempt(opt) {
+    if (opt.threat) return;
     // THE OPTION HAND IS NEVER UNDER AN OPEN MENU (v1.99.5). Capture never stops the clock, so
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
@@ -14703,6 +14899,19 @@ class Component extends DCLogic {
     // copies it onto the landing it produces. In-memory only: `rollLog` has never persisted
     // across a reload and this does not change that.
     this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx, via: opt.idx };
+    if (opt.node.ty === "submissions" && opt.action !== "finish") {
+      const sub = this.submissionNode(opt.node);
+      this._pendingIntent = { actor: "you", idx: sub.idx, via: sub.idx, kind: "entry" };
+      this._prefetchLandDeck(sub.idx);
+      this.setEvent("You go for", sub.t, "info");
+      this.activeMove = { idx: sub.idx, verb: "Attacking", col: { r: 94, g: 149, b: 255 } };
+      this.startTravel([this.currentPos, sub.idx], () => {
+        this.currentPos = sub.idx; this.playerRole = sub.fromRole;
+        this._stagedTech = null; this.moveCount++; this._lastActor = "you";
+        this.enterLand(false);
+      });
+      return;
+    }
     // ONE SUBJECT PER LABEL (v1.104.1, owner). The announcer names WHO IS INITIATING; the graph
     // verb names YOUR posture toward that move. They used to have different subjects and
     // contradict each other on screen — "OPPONENT DEFENDS Crucifix Maintenance" over a graph
@@ -15095,12 +15304,14 @@ class Component extends DCLogic {
     const r = this.resolveOutcomeTo(out.to);
     // a finish is the roll's LAST node — the one arrival that never produces a landing, so it
     // takes the arrival bloom here or nowhere (v1.114.0).
-    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
-    const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
+    if (r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
+    const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : (opt.res >= 0 ? opt.res : this.currentPos);
     this.setEvent("Transition lands", act.t, "good");
     this.startTravel([opt.idx, dest], () => {
       const before = this.myVal(this.nodes[this.currentPos]);
-      if (r.role) this.playerRole = r.role; else this.applyRoleByAction(act.t, act.ty, true);
+      if (r.role) this.playerRole = r.role;
+      else if (this.nodes[dest].ty === "submissions") this.playerRole = this.submissionNode(this.nodes[dest]).fromRole;
+      else this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
@@ -15113,13 +15324,14 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.fx("impact_fail", { technique: act.t, counter: !!(out && out.result === "counter") });
     const r = this.resolveOutcomeTo(out.to);
-    const dest = r.idx >= 0 ? r.idx : this.currentPos;
+    const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : this.currentPos;
     const counter = out.result === "counter";
     this.setEvent(counter ? "Countered" : "Failed", act.t + (counter ? " reversed" : " stuffed"), "bad");
     if (dest === this.currentPos) { this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend()); return; }
     this.startTravel([opt.idx, dest], () => {
       const before = this.myVal(this.nodes[this.currentPos]);
       if (r.role) this.playerRole = r.role;
+      else if (this.nodes[dest].ty === "submissions") { const sub = this.submissionNode(this.nodes[dest]); this.playerRole = sub.fromRole === "top" ? "bottom" : "top"; }
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       this.after(0.5, () => this.opponentDefend());
@@ -15128,33 +15340,43 @@ class Component extends DCLogic {
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   enterDefense(subIdx) {
-    const sub = this.nodes[subIdx];
+    const sub = this.submissionNode(this.nodes[subIdx]);
+    if (!sub.cal.defenses) {
+      this.currentPos = sub.pi >= 0 ? sub.pi : sub.idx;
+      this.playerRole = sub.fromRole === "top" ? "bottom" : "top";
+      this.waitForSubmissionChoices(sub, () => this.enterDefense(sub.idx)); return;
+    }
     this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
     this.clearLandCard();
     this.fx("defend_start", { submission: sub ? sub.t : null });
     this.fx("caught", { submission: sub ? sub.t : null });
-    // escape routes: positions reachable from the submission node (back to safety)
-    const escapes = []; const seen = new Set();
-    const rsOk = this._rulesetMask();
-    for (const k of this.adj[subIdx]) {
-      const n = this.nodes[k];
-      if (n.ty !== "positions") continue;
-      // THE ESCAPE TRAY OBEYS THE RULESET TOO (v1.167.0). You are caught and picking between these;
-      // escaping into a state this ruleset cannot produce is the same defect as dealing a lapel
-      // entry to a player with no lapel, with worse timing. The stay-and-survive fallback below is
-      // the floor, so this can never empty the tray.
-      if (!rsOk[k]) continue;
-      if (seen.has(n.t)) continue; seen.add(n.t);
-      escapes.push({ idx: k, node: n, res: k });
+    this._stagedTech = null;
+    this.setPaused(false);
+    subIdx = this.submissionNode(sub).idx;
+    this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
+    this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
+    this.focusIdx = this.currentPos;
+    const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
+    const log = this.rollLog = this.rollLog || [];
+    if (!log.length || log[log.length - 1].key !== key) {
+      const intent = this._pendingIntent;
+      const via = intent && this.nodes[intent.via];
+      log.push({ key, name: this.posFamily(sub.t), role: this.roleLabel(), idx: this.currentPos,
+        actor: log.length ? (this._lastActor || "opp") : "start", val: this.signedVal(this.nodes[this.currentPos]),
+        from: log.length ? log[log.length - 1].idx : null, intend: null,
+        via: via ? { idx: via.idx, name: via.t, ty: via.ty, actor: intent.actor, kind: intent.kind || null } : null });
+      if (log.length > 24) log.shift();
     }
-    // fallback: stay-and-survive returns to current position
-    if (!escapes.length) escapes.push({ idx: this.currentPos, node: this.nodes[this.currentPos], res: this.currentPos });
-    this.optionIdxs = escapes.map((e) => e.idx);
+    this._pendingIntent = null;
+    const escapes = this.submissionDefenses(this.nodes[subIdx]);
+    if (!escapes.length) throw new Error("Submission has no available defensive responses: " + sub.t);
+    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
+    this.optionIdxs = escapes.map((e) => e.res);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
     this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
     // the danger owns the camera and the field: frame the exchange, fog everything else
-    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
-    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
+    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
+    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
     // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
@@ -15172,32 +15394,35 @@ class Component extends DCLogic {
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
-      if (picked) return; picked = true;
+      if (picked || opt.threat) return; picked = true;
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
+      this._rollActed = true;
       this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
-      this.setEvent("Escaping", opt.node.t, "info");
+      this.setEvent("Escaping", this.choiceLabel(opt), "info");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
-      this.startTravel([subIdx, opt.idx], () => {
+      this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null;
         if (this.rng("escape") < chance) {
-          this.fx("escape", { via: opt.node.t });
+          const landed = this.canonicalState(opt.res, opt.destinationRole);
+          const stillCaught = !!this.submissionNode(this.nodes[landed]);
+          this.fx(stillCaught ? "defense_survived" : "escape", { via: this.choiceLabel(opt) });
           const before = this.myVal(this.nodes[this.currentPos]);
-          this.playerRole = "bottom"; // escaping usually lands you bottom/neutral
-          this.flashFx(this.myVal(opt.node) - before);
-          this.currentPos = opt.idx; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
-          this.killVignette(true); // the quick snap-off — the relief IS the reward
-          this.fx("relief", {});
+          this.playerRole = opt.destinationRole; // authored destination is already defender-relative
+          this.flashFx(this.myVal(this.nodes[opt.res]) - before);
+          this.currentPos = landed; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+          this.killVignette(!stillCaught);
+          if (!stillCaught) this.fx("relief", {});
           // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
           // `idx` is the position you land on, so enterLand's own guard (`intent.idx !==
           // currentPos`) still renders no "you aimed for" line here — this adds the film's edge,
           // not a new sentence in the history row.
-          this._pendingIntent = { actor: "you", idx: opt.idx, via: subIdx, kind: "escape" };
-          this.setEvent("Escaped!", opt.node.t, "good");
+          this._pendingIntent = { actor: "you", idx: opt.res, via: subIdx, kind: "escape" };
+          this.setEvent(stillCaught ? "Still defending" : "Escaped!", this.displayName(this.nodes[landed]), stillCaught ? "info" : "good");
           this.after(0.7, () => this.enterLand(false));
         } else { finish(); }
       });
     };
-    for (let i = 0; i < escapes.length; i++) el.appendChild(this.buildOptionCard(escapes[i], pick, dsec, i + 1, "escape"));
+    this.renderChoiceGroups(el, escapes, this.opponentThreats(this.currentPos), pick, dsec, true);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     this._optPick = pick; this._optList = escapes;
@@ -15240,10 +15465,30 @@ class Component extends DCLogic {
     return -(node.dom || 0);
   }
   opponentDefend() {
+    this.currentPos = this.canonicalState(this.currentPos, this.playerRole);
+    const state = this.submissionNode(this.nodes[this.currentPos]);
+    if (state) {
+      if (this.playerRole !== state.fromRole) { this.enterDefense(state.idx); return; }
+      const responses = this.submissionDefenses(state);
+      if (!responses.length) { this.enterLand(false); return; }
+      const response = responses[Math.min(responses.length - 1, Math.floor(this.rng("opp-pick") * responses.length))];
+      const dest = this.nodes[response.res];
+      // The defense destination is from THEIR perspective. Mirror its seat for our landing.
+      const role = response.destinationRole === "top" ? "bottom" : "top";
+      const idx = dest.role === role ? dest.idx : (dest.pi >= 0 ? dest.pi : dest.idx);
+      this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
+      this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
+      this.startTravel([state.idx, idx], () => {
+        this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
+        this.after(0.5, () => this.enterLand(false));
+      });
+      return;
+    }
     // gather the opponent's adjacent options, split into finishes vs positional counters
     const subs = []; let trans = []; const seen = new Set();
     const rsOk = this._rulesetMask();
-    for (const k of this.adj[this.currentPos]) {
+    for (const option of this.optionsFor(this.currentPos, this.playerRole === "top" ? "bottom" : "top")) {
+      const k = option.idx;
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
       // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
       // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
@@ -15284,8 +15529,8 @@ class Component extends DCLogic {
     // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
     // fall back to the legacy resultPos heuristic when the node is uncalibrated.
     const draw = this.drawOutcome(defNode);
-    let intendDest;
-    if (draw) { const rr = this.resolveOutcomeTo(draw.to); intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
+    let intendDest, opponentDestinationRole = null;
+    if (draw) { const rr = this.resolveOutcomeTo(draw.to); opponentDestinationRole = rr.role; intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
     else { intendDest = this.resultPos(def, this.currentPos); }
     if (intendDest < 0) intendDest = this.currentPos;
     const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
@@ -15301,7 +15546,10 @@ class Component extends DCLogic {
     this.startTravel(path, () => {
       const nd = actualDest;
       const before = this.myVal(this.nodes[this.currentPos]);
-      this.applyRoleByAction(defNode.t, defNode.ty, false);
+      const caught = this.submissionNode(this.nodes[nd]);
+      if (caught) this.playerRole = caught.fromRole === "top" ? "bottom" : "top";
+      else if (opponentDestinationRole) this.playerRole = opponentDestinationRole === "top" ? "bottom" : "top";
+      else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
       this.currentPos = nd; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));

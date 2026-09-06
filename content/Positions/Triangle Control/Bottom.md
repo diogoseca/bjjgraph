@@ -21,7 +21,7 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Triangle Control",
-      "text": "From this position, attempt Triangle Choke from Triangle Control. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Triangle Control. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {

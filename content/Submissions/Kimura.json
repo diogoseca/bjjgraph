@@ -88,7 +88,8 @@
     "North-South",
     "Kimura Trap",
     "Open Guard",
-    "Clinch"
+    "Clinch",
+    "Triangle Control"
   ],
   "related_submissions": [
     {
@@ -365,6 +366,10 @@
     {
       "name": "from Twister Side Control",
       "slug": "from-twister-side-control"
+    },
+    {
+      "name": "Kimura from Triangle Control",
+      "slug": "from-triangle-control"
     }
   ],
   "clips": [

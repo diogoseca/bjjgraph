@@ -30,6 +30,8 @@ test("@curated the panic drill reaches the authored Defender deck, not your posi
   await j.rig("opp-finish", [0.01])   // the opponent goes for the finish
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
+  await j.advance(3000)
+  await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
 
   const got = await page.evaluate(() => {

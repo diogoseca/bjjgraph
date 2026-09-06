@@ -50,7 +50,7 @@ const CLOCKS = `(async () => {
   const out = [];
   for (let i = 0; i < a.nodes.length; i++) {
     const n = a.nodes[i];
-    if (n.ty !== "positions" || !n.posId) continue;
+    if (n.ty !== "positions" || !n.posId || n.cal?.stateAlias) continue;
     if (n.rep === false) continue;   // ONE ENTRY PER SITE (v1.125.0): both halves answer for the same two role-hands
     for (const role of ["top", "bottom"]) {
       a.currentPos = i; a.playerRole = role;
@@ -81,7 +81,7 @@ test("@curated the hand never expires — the clock belongs to the question (v1.
   const j = journey(page)
   await j.boot("/")
   const hands: any[] = await page.evaluate(CLOCKS)
-  expect(hands.length, "all 272 role-hands were driven through enterLand").toBe(272)
+  expect(hands.length, "all 272 role-hands were driven through enterLand").toBe(248)
   for (const h of hands) {
     expect(h.armed, `${h.st} (${h.cards} cards) deals with a disarmed window`).toBe(null)
     expect(h.dsec, `${h.st}'s per-question window is the flat setting`).toBe(9)

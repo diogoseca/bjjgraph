@@ -1,5 +1,42 @@
 # BJJGraph Architecture
 
+## Playable submission states
+
+A submission occurrence is a state with its own attacker and defender choices. Its origin
+remains metadata: Americana from Mount and Americana from Side Control keep distinct IDs,
+role decks, outcomes, and links. Entering an attack opens that state. Exactly one **Finish**
+action resolves its terminal outcome; switching attacks enters the next submission first.
+
+`neural/submission-states.json` explicitly records continuations and legacy control aliases.
+An alias is justified only when the old control record describes the same established lock;
+Back Control, Front Headlock, Ashi Garami, Kimura Trap, and distinct triangle configurations
+remain independent. Old control URLs and outcome targets resolve to the corresponding
+submission seat, while duplicate control orbs are hidden. Stored IDs and ordinals remain intact.
+The FLOW evaluator retains those authored control vertices internally so this visual projection
+does not discard probability mass.
+
+`scripts/submission_choices.py` compiles the catalog alongside the authored submission records.
+The attacker sees Finish plus zero or more named continuations. The defender sees authored
+responses, with attacker-relative outcome roles flipped once. Response success can retain the
+submission threat; it is announced as continued defense rather than an escape. Per-state
+overrides correct the primary triangle and armbar escape destinations.
+
+The same choices row separates **Your options** from **Opponent threats**. Threats are red and
+readable, but cannot be executed through clicks, shortcuts, or the move dispatcher. Labels
+name only the action or destination (Finish, Attack Kimura, Take the back); durable full names
+remain available in study content and history. Response choices and their explanations load together on entry
+from `submission-details/`. A loading or retry state holds the hand until that complete set
+is ready; a late response cannot replace a subsequently chosen state.
+
+The three arm attacks retaining the triangle entanglement have separate source records. Their
+initial probabilities are model estimates, not measured success rates; future calibration can
+replace those values without changing their state identity. The catalog is deliberately
+explicit: shared family or adjacency alone never establishes a valid continuation.
+
+Pinned by `tests/submission_states.test.mjs` (both roles and rulesets, alias equivalence,
+triangle branches, role-preserving escapes and entry semantics) and
+`e2e/journeys/submission-choices.spec.ts` (actual cards, attack entry and threat/keyboard isolation).
+
 ## JSON-First Content Pipeline
 
 BJJGraph transforms structured JSON into a static site:
