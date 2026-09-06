@@ -60,6 +60,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
 }) => {
   type Rec = { url: string; raw: number; gzip: number }
   const requested = new Set<string>()
+  const snapshotMethods: string[] = []
   const bodies: Promise<Rec | null>[] = []
   let frozen = false
 
@@ -90,6 +91,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   const status = new Map<string, number>()
   page.on("request", (req) => {
     if (!frozen) requested.add(req.url())
+    if (new URL(req.url()).pathname === "/__snapshot/ping") snapshotMethods.push(req.method())
   })
   page.on("response", (res) => {
     const url = res.url()
@@ -193,7 +195,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   //
   // The snapshot probe is the one legitimate 404: `ensureButton` is hostname-gated on isDevHost()
   // and short-circuits BEFORE the probe in production, but `localhost` is a dev host, so under
-  // `npx serve` it fires and falls through to 404.html. It is excluded BY NAME and counted, so the
+  // `npx serve` it receives 404. HEAD checks availability without downloading 404.html. It is excluded BY NAME and counted, so the
   // exclusion can never silently swallow a real one (§6.6 — a positive count, never a bare filter).
   // Build-gating the snapshot button out of production is expected to take this to 0; that is a
   // deliberate edit here, not a surprise.
@@ -201,6 +203,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   const harnessOnly = notFound.filter((p) => p.startsWith("/__snapshot/"))
   const realNotFound = notFound.filter((p) => !p.startsWith("/__snapshot/"))
   expect(harnessOnly, "the harness-only snapshot probe 404s exactly once").toHaveLength(1)
+  expect(snapshotMethods, "the availability probe must not download the custom 404 page").toEqual(["HEAD"])
   expect(realNotFound, "no request on the boot path may 404").toEqual([])
 
   expect(banned, "a monolith payload is back on the boot path").toEqual([])

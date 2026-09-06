@@ -60,7 +60,7 @@ BUDGET = ROOT / "tests/artifacts/budget_site.json"
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
 NEURAL_DIR = "static/neural"
-CHUNK_DIRS = ("flashcards", "content")
+CHUNK_DIRS = ("flashcards", "content", "submission-details")
 
 # Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
 # because the alternative — silently scoring them as eager — makes this gate measure something

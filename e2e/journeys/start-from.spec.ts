@@ -230,7 +230,7 @@ test("@curated Standing opens every roll on standing-position, consuming one sta
     const ix = a._posSlugIndex.get("standing-position");
     return { size: (a._posIdx || []).length, inPool: (a._posIdx || []).indexOf(ix) >= 0, rep: a.nodes[ix]?.rep, at: a.currentPos === ix };
   });
-  expect(pool.size, "the playable pool is the 136 sites").toBe(136);
+  expect(pool.size, "the playable position pool excludes submission aliases").toBe(124); // census:playablePositions
   expect(pool.inPool, "standing-position's rep member is in it").toBe(true);
   expect(pool.rep, "…and it IS the rep member").toBe(true);
   expect(pool.at, "…and that is the node the roll stands on").toBe(true);

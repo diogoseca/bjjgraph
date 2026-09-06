@@ -96,7 +96,7 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 // the same source it is checking.
 test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1328, "the technique site count itself"); // census:techSites
+  assert.equal(tech.length, 1331, "the technique site count itself"); // census:techSites
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -105,7 +105,7 @@ test("all 1,328 technique sites: the rep keys |Attacker and the partner keys |De
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2656, "positive coverage: every technique seat was read"); // census:techMembers
+  assert.equal(checked, 2662, "positive coverage: every technique seat was read"); // census:techMembers
 });
 
 test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", () => {
@@ -146,7 +146,7 @@ test("the pre-split graph is byte-identical: with no stamped role, techniques fa
 
 // ── 4: THE FIX MUST NOT MOVE THE HAND ───────────────────────────────────────────────────────
 
-test("the dealt hand is untouched: every option is the rep member, on all 272 states", () => {
+test("ordinary position options use Attacker decks; submission defenses use their own state contract", () => {
   // The claim that made `deckRole` safe to change was that `_deriveDualPairs` hands the attempt
   // edge to the PERFORMER side, so `optionsFor` can only ever deal a rep. That is reasoning, and
   // reasoning is what §6.5 says gets this repo into trouble — so it is measured instead, over the
@@ -162,7 +162,7 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
   a._rsOk = new Uint8Array(a.nodes.length).fill(1);
   a.flashcards = { decks: {} }; a.prep = {}; a.rec = {}; a.stage = {}; a.srs = {}; a._sharp = {};
   let states = 0, options = 0, moved = 0;
-  for (const p of a.nodes.filter((n) => n.ty === "positions")) {
+  for (const p of a.nodes.filter((n) => n.ty === "positions" && !n.cal?.stateAlias)) {
     a.currentPos = p.idx;
     a.playerRole = p.role === "bottom" ? "bottom" : "top";
     let o;
@@ -176,7 +176,7 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
       if (n.role === "defender" || a.deckKeyFor(n).role !== "Attacker") moved++;
     }
   }
-  assert.equal(states, 272, "every position seat deals a hand");   // positive coverage
-  assert.equal(options, 1328, "and the whole corpus of dealt options was read"); // census:techSites
+  assert.equal(states, 248, "distinct positions each deal both seats"); // census:positionChoiceSeats
+  assert.equal(options, 1229, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

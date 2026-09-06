@@ -64,7 +64,9 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
     await j.rig("resolve", [0.01]);
     await j.rig("outcome", [0.01]);
     if (submission) {
-      await j.pick(submission);
+      await j.pick(submission); // establish the submission state
+      await j.advance(3000);
+      await j.pick(submission); // its one Finish action completes the exchange
       await j.advanceUntil("roll_end", 20000);
       return true;
     }

@@ -24,6 +24,8 @@ test("restart mid-defense: no ghost tap, no ladder drop, defense state fully dis
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
+  await j.advance(3000)
+  await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
   await expect(page.locator("[data-panic]")).toBeVisible()
 
@@ -89,6 +91,8 @@ test("odds refresh routes back to normal math after a defense is abandoned", asy
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
+  await j.advance(3000)
+  await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
 
   await page.evaluate(() => (window as any).__neural.resetRoll())

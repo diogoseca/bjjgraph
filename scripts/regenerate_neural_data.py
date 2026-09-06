@@ -547,6 +547,9 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         if not cal.get("ew") and not cal.get("avail"):
             nd.pop("cal", None)
 
+    from submission_choices import compile_choices
+    compile_choices(ROOT, nodes)
+
     # links ride as [sourceIdx, targetIdx] pairs into THIS file's nodes array (self-consistent:
     # both halves are regenerated together; array indices never leave the file — share links
     # use the permanent ordinals, never these). Unresolvable ids and self-loops are dropped
@@ -1794,6 +1797,8 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
 
     node_ids = [n["id"] for n in nodes]
     byid = {n["id"]: n for n in nodes}
+    submission_ids = {slugify(n["t"]): n["id"] for n in nodes if n["ty"] == "submissions"}
+    state_aliases = {n["id"]: submission_ids[n["cal"]["stateAlias"]] for n in nodes if n.get("cal", {}).get("stateAlias")}
     ids = set(node_ids)
     idx = _node_indexes(node_ids)
     # aliases[] is the authored synonym set (Knee Cut Pass -> Knee Slice Pass); without it a
@@ -1828,6 +1833,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
                 continue
             hit, is_family = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx, stats)
             if hit:
+                hit = list(dict.fromkeys(state_aliases.get(n, n) for n in hit))
                 resolved.append((ref, hit, is_family, _clip(item.get("relationship") or "", 180)))
             elif ref not in unresolved:
                 unresolved.append(ref)
@@ -2245,6 +2251,8 @@ def main() -> None:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     gd = build_graph_data(layout, graph, ordinals)
+    from submission_choices import write_details
+    write_details(ROOT, OUT_DIR)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
 
     # Retired payloads: delete them if an older tree still has them. These are the two files the
