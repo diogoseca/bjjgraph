@@ -6902,3 +6902,14 @@ threat captions occupy one line and fit beside their percentages without overlap
 
 Validation: 241 unit tests and all 221 curated browser journeys passed. Startup measured
 386,585 gzip bytes against the unchanged 387,400 ceiling.
+
+
+## v1.176.3 — Use one odds caption across choices
+
+All choice-card footers say “Odds”, for player actions and opponent threats, on desktop
+and phone. Expanded technique cards and their adjustment tooltip use the same term.
+The compact non-wrapping footer remains; probability calculations are unchanged.
+
+Validation: rebuilt the app and passed all 221 curated browser journeys. A rendered check
+also confirmed consistent choice captions at phone and desktop widths. Startup measured
+386,546 gzip bytes against the unchanged 387,400 ceiling.
