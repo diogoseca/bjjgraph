@@ -13,26 +13,42 @@
   "from_position": "Inverted Guard/Bottom",
   "outcomes": [
     {
-      "to": "50-50 Guard/Top",
-      "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
-    },
-    {
       "to": "Inverted Guard/Bottom",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 23,
+        "nogi": 15
       },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
       "probability": {
-        "gi": 10,
+        "gi": 9,
         "nogi": 10
+      },
+      "result": "counter"
+    },
+    {
+      "to": "50-50 Guard/Bottom",
+      "probability": {
+        "gi": 53,
+        "nogi": 58
+      },
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": {
+        "gi": 11,
+        "nogi": 12
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": {
+        "gi": 4,
+        "nogi": 5
       },
       "result": "counter"
     }

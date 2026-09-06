@@ -16,24 +16,40 @@
     {
       "to": "Chill Dog/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 47,
+        "nogi": 45
       },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 25,
+        "nogi": 25
       },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 13,
+        "nogi": 12
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": {
+        "gi": 8,
+        "nogi": 10
+      },
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 7,
+        "nogi": 8
       },
       "result": "counter"
     }

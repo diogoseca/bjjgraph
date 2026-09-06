@@ -113,7 +113,7 @@ Strategically, the arm drag functions as both a primary attack and a setup withi
 
 The arm drag rewards timing over athleticism. The optimal window opens when your opponent extends an arm for a grip, pushes forward, or commits weight to one side. Reading these moments and executing with precise hip rotation rather than arm strength separates functional arm drags from telegraphed attempts that experienced grapplers easily counter.
 
-**From Position**: [[Positions/Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 34%
 
 </section>
@@ -160,9 +160,10 @@ The arm drag rewards timing over athleticism. The optimal window opens when your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Standing Rear Clinch]] | 55% |
-| Failure | [[Positions/Clinch]] | 30% |
+| Success | [[Positions/Standing Rear Clinch]] | 40% |
+| Failure | [[Positions/Clinch]] | 33% |
 | Counter | [[Positions/Front Headlock]] | 15% |
+| Success | [[Positions/Turtle]] | 12% |
 
 
 </section>

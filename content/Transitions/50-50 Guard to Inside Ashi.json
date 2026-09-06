@@ -15,15 +15,15 @@
     {
       "to": "Inside Ashi-Garami/Top",
       "probability": {
-        "gi": 65,
-        "nogi": 65
+        "gi": 54,
+        "nogi": 46
       },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
       "probability": {
-        "gi": 25,
+        "gi": 21,
         "nogi": 25
       },
       "result": "failure"
@@ -31,8 +31,24 @@
     {
       "to": "50-50 Guard/Bottom",
       "probability": {
+        "gi": 8,
+        "nogi": 8
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Backside 50-50/Top",
+      "probability": {
         "gi": 10,
-        "nogi": 10
+        "nogi": 12
+      },
+      "result": "success"
+    },
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": {
+        "gi": 7,
+        "nogi": 9
       },
       "result": "counter"
     }

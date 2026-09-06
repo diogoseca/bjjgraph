@@ -16,7 +16,7 @@ description: "Learn to execute the arm drag from clinch with precise grip mechan
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Drag from Clinch in BJJ",
-  "description": "Step-by-step guide for executing Arm Drag from Clinch from Clinch/Bottom.",
+  "description": "Step-by-step guide for executing Arm Drag from Clinch from Clinch/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -228,7 +228,7 @@ description: "Learn to execute the arm drag from clinch with precise grip mechan
 
 From the attacker's perspective, the arm drag from clinch is a high-efficiency technique that converts neutral standing engagement into dominant rear control through precise timing and angular movement. The technique demands disciplined grip acquisition disguised within normal hand fighting, explosive hip rotation to power the drag, and immediate chest-to-back connection to prevent the opponent from turning back in. Success depends on reading the opponent's weight distribution and arm extension patterns to identify the optimal moment for execution. The attacker must commit fully once initiated, treating the grip-pull-step sequence as one coordinated burst rather than discrete phases, because any hesitation allows the opponent to pummel back in or counter with a snap down.
 
-**From Position**: [[Positions/Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -322,9 +322,10 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Standing Rear Clinch]] | 55% |
-| Failure | [[Positions/Clinch]] | 30% |
+| Success | [[Positions/Standing Rear Clinch]] | 40% |
+| Failure | [[Positions/Clinch]] | 33% |
 | Counter | [[Positions/Front Headlock]] | 15% |
+| Success | [[Positions/Turtle]] | 12% |
 
 
 </section>

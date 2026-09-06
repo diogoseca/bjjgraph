@@ -16,24 +16,40 @@
     {
       "to": "Headquarters Position/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 46,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "Seated Guard/Top",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 25,
+        "nogi": 28
       },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 12,
+        "nogi": 12
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": {
+        "gi": 10,
+        "nogi": 12
+      },
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": {
+        "gi": 7,
+        "nogi": 8
       },
       "result": "counter"
     }

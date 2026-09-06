@@ -18,26 +18,34 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 58,
-        "nogi": 58
+        "gi": 50,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
       "probability": {
-        "gi": 27,
-        "nogi": 27
+        "gi": 24,
+        "nogi": 30
       },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
       "probability": {
-        "gi": 15,
+        "gi": 13,
         "nogi": 15
       },
       "result": "counter"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": {
+        "gi": 13,
+        "nogi": 15
+      },
+      "result": "success"
     }
   ],
   "success_rate": {

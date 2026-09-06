@@ -16,24 +16,32 @@
     {
       "to": "Front Headlock/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 50,
+        "nogi": 45
       },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Bottom",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 27,
+        "nogi": 33
       },
       "result": "failure"
     },
     {
       "to": "Darce Control/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 14,
+        "nogi": 12
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Guillotine Control/Bottom",
+      "probability": {
+        "gi": 9,
+        "nogi": 10
       },
       "result": "counter"
     }

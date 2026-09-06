@@ -328,9 +328,11 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Headquarters Position]] | 55% |
-| Failure | [[Positions/Seated Guard]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 40% |
+| Failure | [[Positions/Seated Guard]] | 28% |
+| Counter | [[Positions/Half Guard]] | 12% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
+| Counter | [[Positions/Front Headlock]] | 8% |
 
 
 </section>

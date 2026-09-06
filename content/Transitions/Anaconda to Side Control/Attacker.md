@@ -322,9 +322,10 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Anaconda Control]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Anaconda Control]] | 23% |
+| Counter | [[Positions/Half Guard]] | 11% |
+| Failure | [[Positions/Front Headlock]] | 8% |
 
 
 </section>
