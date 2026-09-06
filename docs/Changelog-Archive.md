@@ -6889,3 +6889,16 @@ the live refresh restores the score color; that limit is recorded in the spec.
 Validation: all 241 unit tests and 221 curated browser journeys passed; four focused browser
 journeys then passed against the final copied bundle. Startup measured 386,607 gzip bytes
 against the unchanged 387,400 ceiling. The fixed-red and hidden-odds mutants both failed.
+
+
+## v1.176.2 — Keep choice odds on one line
+
+Opponent choice footers use the compact caption “Base odds” for escapes, finishes and other
+outcomes. Odds captions cannot wrap, avoiding the extra footer line on narrow cards while
+retaining the distinction between opponent base probabilities and player-adjusted odds.
+
+The app bundle was rebuilt. A rendered-browser check at 390px and 1440px confirmed both
+threat captions occupy one line and fit beside their percentages without overlap.
+
+Validation: 241 unit tests and all 221 curated browser journeys passed. Startup measured
+386,585 gzip bytes against the unchanged 387,400 ceiling.

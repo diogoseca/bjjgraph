@@ -11536,11 +11536,10 @@ class Component extends DCLogic {
     const pct = chance == null ? null : Math.round(chance * 100);
     const oddsCol = this.choiceOddsColor(pct, isThreat);
     const pot = Math.round(this.movePotential(opt) * 100);
-    // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
-    // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
-    const rateCaption = isThreat ? (opt.action === "escape" ? "Base escape odds" : n.ty === "submissions" ? "Base finish odds" : "Base odds") : isEntry ? "Finish odds" : this.isMobile() ? "Odds" : "Success rate";
+    // Keep odds captions compact so narrow choice cards retain a single-line footer.
+    const rateCaption = isThreat ? "Base odds" : isEntry ? "Finish odds" : this.isMobile() ? "Odds" : "Success rate";
     const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
-      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
+      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;white-space:nowrap;">' + rateCaption + '</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + (pct == null ? '—' : pct + '%') + '</span>' +
       '</div>';
     // THE MIDDLE SLOT NAMES THE NUMBER OPPOSITE IT. The category word there was redundant with the
