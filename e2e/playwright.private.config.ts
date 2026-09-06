@@ -13,8 +13,16 @@ import { defineConfig } from "@playwright/test";
  * So: our own port, `reuseExistingServer: false`, and `serve` resolved out of node_modules rather
  * than `npx` (which can fetch a different version mid-run).
  *
+ * ALSO: `TMPDIR`. Chromium's user-data-dir and temp files land there (default `/tmp`), which on
+ * the dev box is the 25G ROOT volume — not the 98G `/home` one this repo sits on. With root full
+ * the browser dies mid-suite as `ERR_INSUFFICIENT_RESOURCES` / `Target crashed` / a 240s timeout
+ * on a 2s spec, the failing route MOVES between runs, and it is indistinguishable from
+ * contention. Measured on one commit, idle box: `forward-components.spec.ts:716` red 3-of-3 with
+ * 111M free on `/`, green 2-of-2 with TMPDIR on `/home`. Check `df -h /` before believing a red.
+ *
  *   PW_TESTDIR=./journeys npx playwright test -c e2e/playwright.private.config.ts
  *   PW_TESTDIR=./gen      npx playwright test -c e2e/playwright.private.config.ts
+ *   TMPDIR=/home/user/tmp-pw PW_TESTDIR=./journeys npx playwright test -c e2e/playwright.private.config.ts
  */
 const PORT = process.env.PW_PORT || "8131";
 const DIR = process.env.PW_TESTDIR || "./journeys";

@@ -6440,6 +6440,31 @@ positions only — a technique keeps its whole qualified title, which is that fu
 point. Untouched deliberately: the wire `t` (deck joins key on `posFamily(n.t)`), `_beltPoolAllows`
 and the deck-key ladder (joins, not display), and the static page's own "Roll started in Mount
 Top" snackbar, where the seat IS the destination and reads as prose.
+
+**THE MERGE, AND A RED THAT WAS THE MACHINE.** Landed on dev 26 commits later (v1.176.0).
+Upstream's `v1.173.2` had meanwhile moved the CANVAS the same way — `richLabel` composes its own
+name through `graphName`, `_labelWidthPx` measures headline plus qualifier — so both app
+conflicts resolved to THEIRS and the canvas half of v1.172.0 is gone; the DOM half, `nodeQual`,
+`nodeMatches`, `_bareDup` and the emitter's `aka` are what shipped. Upstream had touched no
+content, no `graph.json`, no `node_ordinals.json`, so the collapse's premise was intact: all six
+files, no alias on the wire. One real merge finding, caught by the suite: a new upstream journey
+(`landcard-modes.spec.ts:546`) booted `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender`, a
+node this collapse renamed; the URL and two literals moved, the journey's subject did not.
+
+And the lesson worth more than the merge: `forward-components.spec.ts:716` was red 3-of-3 on an
+IDLE box and I called it environmental on circumstantial grounds — every route rendered in a
+fresh context, and it stayed red with upstream's own `graph.json`, so it was provably not the
+content. What I asserted without proving was the mechanism, and the owner pushed back: "That
+can't be true. Please check it again because I increased the file system to about 150 GB." Both
+were true. `/home` is 98G with 59G free; `/` is a SEPARATE 25G volume, 100% full at 111M — and
+`TMPDIR` defaults to `/tmp`, on root, where Chromium puts its profile. `TMPDIR=/home/user/tmp-pw`
+turned it green 2-of-2 at 2.0s, same commit, same box, and the whole gate to **219/219**. Two
+earlier controls (`--disable-dev-shm-usage`, `--disk-cache-dir` on tmpfs) had ruled out shm and
+the CACHE and I read that as ruling out disk — it did not; the profile is a third thing. The trap
+is now in CLAUDE.md §6.4 with its trigger tokens, because a full root mimics contention exactly
+(`Target crashed`, `browserContext.close`, 240s ceilings on 2s specs) and had already been
+misread twice in this session as three worktrees sharing six cores.
+
 ## v1.172.0 — ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN
 
 **Owner, two reports in one sitting.** *"In the side panel I see '18 cards due · keep what you
