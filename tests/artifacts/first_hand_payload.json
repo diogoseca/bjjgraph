@@ -1,11 +1,11 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
-  "measured_at": "2026-09-03T21:04:19.740Z"
+  "measured_at": "2026-09-06T10:09:23.295Z"
  },
  "request_count": 19,
- "first_hand_raw_bytes": 1595915,
- "first_hand_gzip_bytes": 380585,
+ "first_hand_raw_bytes": 1607844,
+ "first_hand_gzip_bytes": 383977,
  "start_position": "Gogoplata Control Top",
  "charged_from_disk": [],
  "heaviest": [
@@ -16,8 +16,8 @@
   },
   {
    "path": "/static/neural/app/neural.js",
-   "raw": 512172,
-   "gzip": 153599
+   "raw": 523587,
+   "gzip": 156870
   },
   {
    "path": "/static/neural/flashcards/_index.json",
@@ -41,8 +41,8 @@
   },
   {
    "path": "/static/neural/app/neural.css",
-   "raw": 34910,
-   "gzip": 7589
+   "raw": 35424,
+   "gzip": 7710
   },
   {
    "path": "/",

@@ -15,8 +15,8 @@ import { journey } from "../dsl"
  * `_posKey` is also truthy. What separates the two builds is WHICH key: `<submission>|Defender`
  * after the fix, a `|Top`/`|Bottom` position key before it.
  *
- * NON-KILL: this does not cover the staged-defender entry (tapping the escaping orb), which shares
- * the same prefetch seam but needs a different journey to reach.
+ * The staged-defender entry (tapping / arriving on the escaping orb) shares the same seam and has
+ * NO travel window, so the deck is late-bound there — pinned by `landcard-modes.spec.ts` journey 6.
  */
 test("@curated the panic drill reaches the authored Defender deck, not your position deck", async ({ page }) => {
   const j = journey(page)

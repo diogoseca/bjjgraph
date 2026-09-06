@@ -356,6 +356,37 @@ const NG_CHALLENGE_UI_METHODS = {
     return null;
   },
 
+  // ── THE CORRIDOR'S ↑/↓ (v1.175.0, owner: "keys navigation especially for the flashcards in
+  // the challenges") ── walks the lesson rows the ladder is showing and opens the target's
+  // inline deck, which is also what hands it the rest of the keyboard (`openMini` sets
+  // `_focusRow`, so ←/→/Space/⏎ land on the deck you just walked to). Same contract as
+  // `sessionNav`: returns false when there is nowhere to go, so a caller can fall through.
+  //
+  // VISIBILITY IS ASKED OF THE DOM, never re-derived from `_beltSectionOpen` (§6.3): a collapsed
+  // belt is `display:none` on `.ng-belt-body`, so `offsetParent === null` is the render's own
+  // answer to "can the player see this row", and it stays right if the CSS changes.
+  //
+  // Cold start (nothing open yet) opens the FRONTIER row rather than the top of the corridor:
+  // the tab already scrolled there on arrival, so the first ↓ must not yank the reader five
+  // belts up. With no frontier (everything proven) it takes the first/last row for the direction.
+  challengeLessonNav(dir) {
+    const rows = (this._lessonRows || []).filter(
+      (entry) => entry.row && entry.row.offsetParent !== null,
+    );
+    if (!rows.length) return false;
+    const at = rows.findIndex((entry) => entry.rid === this._focusRow);
+    let next;
+    if (at < 0) {
+      const front = rows.findIndex((entry) => entry.frontier);
+      next = front >= 0 ? front : dir > 0 ? 0 : rows.length - 1;
+    } else {
+      next = Math.max(0, Math.min(rows.length - 1, at + (dir > 0 ? 1 : -1)));
+      if (next === at) return false; // at the end of the corridor — nothing to walk to
+    }
+    rows[next].open(true);
+    return true;
+  },
+
   challengeCurriculumElement(trackId) {
     const section = document.createElement("section");
     section.className = "ng-challenge-curriculum";
@@ -416,9 +447,12 @@ const NG_CHALLENGE_UI_METHODS = {
           "data-lesson-done",
           this.lessonDone(lesson.deckKey) ? "true" : "false",
         );
-        if (frontier && frontier.lesson.deckKey === lesson.deckKey && frontier.unit === unit) {
-          button.setAttribute("data-frontier", "1");
-        }
+        const isFrontier = !!(
+          frontier &&
+          frontier.lesson.deckKey === lesson.deckKey &&
+          frontier.unit === unit
+        );
+        if (isFrontier) button.setAttribute("data-frontier", "1");
         const lessonComplete = this.lessonDone(lesson.deckKey);
         button.innerHTML =
           this.crownBadge(
@@ -441,7 +475,7 @@ const NG_CHALLENGE_UI_METHODS = {
         // visible, progress visible, graph showing where you are. `openLessonStudy` (the full
         // takeover) survives for sessions/checkpoints; it is no longer the row's verb.
         button.addEventListener("click", () => {
-          if (deckBox.style.display === "none") openMini();
+          openMini(true); // never closes — clicking an open lesson's name focuses it, v1.105.2
           const ni = this._lessonNodeIdx(lesson.deckKey);
           if (ni >= 0) this.locateNode(ni);
         });
@@ -475,6 +509,10 @@ const NG_CHALLENGE_UI_METHODS = {
         const deckBox = document.createElement("div");
         deckBox.className = "ng-lesson-deckbox";
         deckBox.style.display = "none";
+        // tabindex -1: the deck box is where focus GOES when the deck opens, and it must not be
+        // a <button>/<summary> — those own Space and ⏎ as activation keys (see openMini).
+        deckBox.setAttribute("tabindex", "-1");
+        deckBox.setAttribute("data-lesson-deckbox", lesson.deckKey);
         const toggle = document.createElement("button");
         toggle.type = "button";
         toggle.className = "ng-lesson-decktoggle";
@@ -493,6 +531,9 @@ const NG_CHALLENGE_UI_METHODS = {
           if (this._openLessonMini && this._openLessonMini.rid === rid) {
             this._openLessonMini = null;
           }
+          // give the keyboard back: a closed deck must not keep answering ←/→/Space/⏎
+          if (this._openLessonRid === rid) this._openLessonRid = null;
+          if (this._focusRow === rid) this._focusRow = null;
         };
         let built = false;
         // openMini: the ▸ body, hoisted so the ROW's own click can share it (v1.105.2). The
@@ -500,7 +541,19 @@ const NG_CHALLENGE_UI_METHODS = {
         // see the inline question and answer... if you went to the actual technique but kept the
         // sidebar open". `toggleMini` keeps the ▸'s open/close semantics; the row click is
         // open-or-focus (clicking the name of an already-open lesson does not slam it shut).
-        const openMini = () => {
+        //
+        // `focus` is the KEYBOARD half (v1.175.0). Two separate things, both load-bearing:
+        //  · `_focusRow = rid` (ALWAYS, focus or not) hands this deck to `_onKey`'s challenge
+        //    branch — ←/→ page its cards, Space flips, ⏎ grades — through the SAME `_miniReg`
+        //    handles the roll history and the inline session use. One keyboard, not three (§6.5).
+        //  · DOM focus MOVES onto the deck box only when `focus` is true. It has to move at all
+        //    because the corridor is built entirely from buttons: leave focus on the ▸ (or on the
+        //    row) and Space/⏎ are THAT button's activation keys, which `_onKey` deliberately
+        //    yields to (v1.113.4) — so the next Space would slam the deck shut instead of
+        //    flipping the card. `preventScroll`, because the scroll is ours on the next line.
+        // A corridor repaint re-opens with focus FALSE (see the foot of this loop): evidence
+        // beats repaint this tab, and stealing focus on a background repaint is its own bug.
+        const openMini = (focus) => {
           if (this._openLessonMini && this._openLessonMini.rid !== rid) {
             this._openLessonMini.close(); // accordion — one inline deck at a time
           }
@@ -539,9 +592,21 @@ const NG_CHALLENGE_UI_METHODS = {
           deckBox.style.display = "block";
           toggle.setAttribute("aria-expanded", "true");
           toggle.querySelector("span").textContent = "▾";
-          this._openLessonMini = { rid: rid, close: closeSelf };
+          this._openLessonMini = { rid: rid, el: deckBox, close: closeSelf };
+          this._openLessonRid = rid;
+          this._focusRow = rid;
+          if (focus) {
+            try {
+              deckBox.focus({ preventScroll: true });
+            } catch (e) {
+              deckBox.focus();
+            }
+            // the shared minimum-motion scroll (app.src.jsx), on THIS surface's scroller and
+            // handle — the row above the deck is `lessonRow`, which is what it reads for the block
+            this._scrollFocusedDeck(this.explorerListRef && this.explorerListRef.current, deckBox);
+          }
         };
-        const toggleMini = () => { if (deckBox.style.display !== "none") closeSelf(); else openMini(); };
+        const toggleMini = () => { if (deckBox.style.display !== "none") closeSelf(); else openMini(true); };
         toggle.addEventListener("click", toggleMini);
 
         lessonRow.appendChild(toggle);
@@ -550,6 +615,25 @@ const NG_CHALLENGE_UI_METHODS = {
         }
         lessons.appendChild(lessonRow);
         lessons.appendChild(deckBox);
+        // THE ROW REGISTRY the corridor's ↑/↓ walks (challengeLessonNav), in ladder order.
+        this._lessonRows = this._lessonRows || [];
+        this._lessonRows.push({
+          rid: rid,
+          key: lesson.deckKey,
+          row: lessonRow,
+          frontier: isFrontier,
+          open: openMini,
+        });
+        // AN OPEN DECK SURVIVES A REPAINT (v1.175.0) — the `_histRow` pattern, and here it is
+        // not a nicety: `gradeRecall` fires beats, `noteChallenges` repaints this tab whenever
+        // one advances, so grading a card used to close the deck you were working out from under
+        // you. `_deckState[key]` lives on the component, so the rebuilt deck resumes on the same
+        // card. No focus steal: the repaint is not the user asking for one.
+        // A FOLDED belt is no exception, and deliberately so: the fold leaves every row in the
+        // DOM at `display:none`, so the deck stays open and registered, just invisible — and
+        // `_focusedMini` refuses an invisible row, which is what gives the keyboard back while
+        // folded and hands it straight back on unfold. Nothing is thrown away to achieve it.
+        if (this._openLessonRid === rid) openMini(false);
       }
       const checkpoint = document.createElement("button");
       checkpoint.type = "button";
@@ -625,6 +709,13 @@ const NG_CHALLENGE_UI_METHODS = {
     this._renderingChallengeView = true;
     try {
       this.noteLearningViewOpen("challenges");
+      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.175.0) — exactly as
+      // renderDrillHome and renderSession rebuild `_miniReg`. It is what ↑/↓ walks AND what
+      // `_focusedMini` scopes the keyboard by, so a row that no longer renders (a gi switch
+      // drops a gi-only lesson) takes its keys with it instead of leaving them pointed at a
+      // detached deck. `_openLessonRid` is deliberately NOT cleared: it is what re-opens the
+      // deck the player is working, at the foot of the lesson loop.
+      this._lessonRows = [];
       this._pathDim = !!this.curriculum;
       const selectedId = this.selectedChallengeTrack();
       const selected =

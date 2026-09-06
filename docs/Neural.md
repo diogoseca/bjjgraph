@@ -75,6 +75,19 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
+**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
+film row, the card and the hand each collapse from their own ghost ✕ and come back from a dock at
+bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed layer and
+nothing when all are open. The choice is a setting — `landFilm` · `landCard` · `landHand`,
+mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A collapsed
+card is **not built**: no question, no clock, no miss, `land_q_skipped {reason:"collapsed"}`
+(the panic drill skips the same way, `panic_skipped`); expanding it mid-landing asks then. A
+collapsed hand is **dealt and hidden** — the roll waits, digits are dead — escapes included
+(v1.173.0, owner: "if I didn't ask to see outcomes don't show them to me"; the catch is announced
+as "<name> locked in", nothing more). All three collapsed is a graph browser: click a node, the
+ripple lights what it connects to, nothing docks. `setLayer` is the one writer (`_applyLayers`
+follows a cloud pull too).
+
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
 the answer and try again before committing to a grade. **Space toggles** the live block — the app
@@ -104,8 +117,13 @@ origin position (the engine's states are positions); `_stagedTech = {idx, side}`
 exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
 orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
 consumed at the `_played` latch): the attacking side commits that very technique through the
-ordinary pick path; the defending side gets `enterDefense` — the red rush, vignette burning,
-escape hand, think fast. Any other commit or teardown (`clearOptions`) consumes the latch, so
+ordinary pick path; the defending side of a SUBMISSION gets `enterDefense` on arrival — the red
+rush, vignette burning, escape hand, think fast. The defending side of a TRANSITION is a calm
+staged landing (v1.171.0, owner: "we're not defending against a submission, we're in poor shape
+but calm down"): the attempt card reads from the defender perspective, your hand is the
+defending seat's, the camera keeps `rollCamTarget`'s band, and play waits for the button — the
+same thing the roll loop does, since `opponentDefend` plays a transition as a positional move and
+only ever rushes over a finish. Any other commit or teardown (`clearOptions`) consumes the latch, so
 picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
 resolves to the family's most-connected member instead of falling through to a random weighted
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
@@ -113,7 +131,10 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 
 Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
 familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
-that landing only.
+that landing only. The panic drill is a landing card and wears the same chrome
+(`_landCardChrome`, v1.171.0): its `More ▸` reads the submission's DEFENDER block, `+` captures
+the submission, `✕` hides the drill while the catch and the escapes stay live. On a URL arrival
+the Defender deck is late-bound — the drill opens the moment its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -140,7 +161,8 @@ only one that has never shown a question, on the current position, with a live d
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
 The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
-anchored by its bottom, so an expanding clip grows upward into empty screen. **A technique's film
+anchored by its bottom, so an expanding clip grows upward into empty screen; it carries its own
+ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. **A technique's film
 lives under its content entry's `perspectives.{attacker,defender}.clips`** (v1.132.1 — measured:
 1 of 1,326 technique entries carry a top-level `clips`, while 2,716 perspective arrays were in the
 chunks all along); the staged side picks the reel, so the escaping orb shows the defense films.
@@ -212,14 +234,16 @@ survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck 
 cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
 (owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.
 
-### The pair label (v1.135.0)
+### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
-The pair label group anchors at the pair MIDLINE — "the name never moves" — but **the role word
-rides its orb**: `subY = min(nameY − 18, orbY + 4)` above (mirrored below), clamped to the
-block's clearances, so an ordinary ~35px pair keeps the old offsets (±1px) and a wide roll-zoom
-split puts TOP beside the blue orb it names instead of floating equidistant from both members
-(the owner's "why does top mount look red" — the eye bound the midline label to the red bottom
-orb). Published as `_lastPairLabel.subY`; pinned by `dual-pair.spec.ts`.
+The pair label group anchors at the pair MIDLINE — "the name never moves". A role word adjacent to
+the headline **rides its orb**: `subY = min(nameY − clearance, orbY + 4)` above (mirrored below), so
+a wide split binds TOP to the blue orb it names instead of the red bottom orb. One exception keeps
+a qualified lower label legible: `from …` and DEFENDING/ESCAPING are adjacent subtitle rows, one
+`NG_LABEL_LEAD` apart, rather than letting the lower role chase its orb and open a large hole in the
+stack. At merge scale `richLabel` preserves the same short headline plus qualifier row; zoom never
+recomposes `from …` into the title. Geometry is published through `_lastPairLabel` and
+`_lastRichLabel`; the pair behavior is pinned by `dual-pair.spec.ts` and `graph-naming.spec.ts`.
 
 ### The turn-based shell (v1.134.0)
 
@@ -232,7 +256,8 @@ committing unpauses; the pane law still freezes travel). **The background ladder
 click empty sky once — the card closes (question declined, free) and the hand stays; click again
 — **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
 centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
-roam. **The staged technique's card is the go**: its option card in the hand takes the action
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
 accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
 `_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
 PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
@@ -284,8 +309,8 @@ exploratory red lets go), the green never moves, and none of it emits a beat or 
 ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
-The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the
-platform's job), and by the "see more" hint, which docks off the tray's **measured** top. A drag
+The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
+the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.
@@ -471,11 +496,12 @@ purpose, because they are asking about the exchange, not about your hand.
 `deg` is geometry and stays split; `siteDeg` is the state and is the hub's. `cal.ev` goes on
 **both** halves whole, because the side you are playing can differ from the half you stand on.
 
-**Labels.** `pairGroup` renders one label group for the pair: the name pinned to the midline, the
-qualifier beneath it, and the role subtitle on the outside of whichever half you point at. When a
-qualifier renders, the two-row block straddles the midline. Role words are per category — positions
-**TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions **ATTEMPTING/DEFENDING**. The graph
-never bakes a role into a name (`graphName`).
+**Labels.** `pairGroup` renders one label group for the pair: the name block pinned to the midline,
+the qualifier beneath the headline, and the role on the side of whichever half you point at. A
+qualified lower role joins that subtitle stack at the same row lead; all other split roles ride
+their orb. `richLabel` keeps the headline and qualifier separate after the pair merges. Role words
+are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions
+**ATTEMPTING/DEFENDING**. The graph never bakes a role into a name (`graphName`).
 
 ---
 
@@ -561,8 +587,32 @@ because the map is written before their first render asks.
 describe material difficulty, never rank or access. The frontier belt drives the default-open
 section, the arrival scroll, the tab belt's dye and stripes, and the cue. Nothing ever re-locks.
 
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
 the side it was played, clock held) and ⟲ (replay). History is in memory and has never persisted.
+
+**Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
+`_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
+`_enterRoam` — and it archives, clears `rollLog`, emits `roll_archived` / `roll_discarded`, and
+refreshes the tab through `_refreshHistoryRows()`. A roll counts if it ran (`_played`) and either
+visited two states, reached a verdict, or had a move committed in it (`_rollActed`): so the
+one-exchange roll — you finish from the state you opened in, or get caught there — is kept and
+titled by its FINISH via `replayEnds`, while a board that was only staged and abandoned still
+files nothing. Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
@@ -679,7 +729,8 @@ the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a
 number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
-grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_dockOptionHint`, `_bandBot`.
+grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_landDatum` (the hand ✕ docks off it
+too; the film ✕ off the last thumbnail), `_bandBot`.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
 is for surfaces a thumb uses mid-roll — the option hand, the escape hand, the landing card. Glyphs

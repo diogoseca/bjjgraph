@@ -130,51 +130,13 @@ test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) =>
   expect(stand.warmed, "11 decks warmed").toBe(11)
 })
 
-test.describe("the overflow hint", () => {
+// (the three "overflow hint" describes that lived here — above the hand, click+wheel, not on a
+// phone, not in landscape — went with the hint itself in v1.171.1, owner: "it's too much on
+// screen to have the see more and the x". The wheel half of the reach test survives below.)
+test.describe("reaching the folded cards", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("@curated sits above the hand and clear of the account chip", async ({ page }) => {
-    const j = journey(page)
-    await j.boot("/")
-    await page.evaluate(STAGE("standing-position", "top"))
-    // `updateUiShift` is what writes the hint's opacity, pointer-events AND its dock, and in test
-    // mode the frame loop runs on the advance() pump — a wall-clock wait pumps nothing.
-    await j.advance(2500)
-    await page.locator("[data-tech]").first().waitFor({ state: "attached" })
-    await j.advance(600)
-    const dealt: any = await page.evaluate(TRAY)
-    expect(dealt.cards, "the worst hand is dealt whole").toBe(34)
-    expect(dealt.scrollW - dealt.clientW, "and it overflows, so the hint has a job").toBeGreaterThan(1000)
-
-    const m = await page.evaluate(() => {
-      const a = (window as any).__neural
-      const hint = a.optionHintRef.current, row = a.optionsRef.current
-      const chip = document.querySelector(".ng-acctwrap")
-      const b = (e: any) => { const r = e.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom } }
-      return { hint: b(hint), row: b(row), chip: b(chip), disp: getComputedStyle(hint).display, op: getComputedStyle(hint).opacity }
-    })
-    expect(m.disp, "shown at this width").not.toBe("none")
-    expect(Number(m.op), "and actually visible").toBeGreaterThan(0)
-
-    // ABOVE the row — the owner's ask. It used to be bottom:68px against the row's bottom:84px,
-    // i.e. UNDER the hand entirely.
-    expect(m.hint.b, "the hint's bottom edge clears the tray's top edge").toBeLessThanOrEqual(m.row.t)
-
-    // and therefore nowhere near the chip it used to sit 2px above
-    const overlaps = !(m.hint.r <= m.chip.l || m.hint.l >= m.chip.r || m.hint.b <= m.chip.t || m.hint.t >= m.chip.b)
-    expect(overlaps, "the hint must not overlap the account chip").toBe(false)
-    expect(m.chip.t - m.hint.b, "measured clearance to the chip (was 2px)").toBeGreaterThan(100)
-
-    // it is its own hit target, not something painted under the chip
-    const at = await page.evaluate(() => {
-      const h = (window as any).__neural.optionHintRef.current.getBoundingClientRect()
-      const e = document.elementFromPoint(h.left + h.width / 2, h.top + h.height / 2)
-      return e ? e.className : null
-    })
-    expect(String(at), "elementFromPoint at the hint's centre is the hint").toContain("ng-seemore")
-  })
-
-  test("@curated reaches the folded cards — click, and wheel", async ({ page }) => {
+  test("@curated a wheel over the hand scrolls it to the last card", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await page.evaluate(STAGE("standing-position", "top"))
@@ -184,15 +146,9 @@ test.describe("the overflow hint", () => {
 
     const left = () => page.evaluate(() => (window as any).__neural.optionsRef.current.scrollLeft)
     expect(await left(), "the tray starts at the beginning").toBe(0)
+    expect(await page.locator(".ng-seemore").count(), "no see-more hint exists any more (v1.171.1)").toBe(0)
 
-    // a REAL mouse click on the hint, not locator.click() — the hint is a fixed overlay and this
-    // repo has a long history of overlays that hit-test to something else (see attachInput)
-    await j.clickByMouse(".ng-seemore", "the see-more hint")
-    await page.waitForTimeout(700) // tweenScroll is a 420ms tween
-    const afterClick = await left()
-    expect(afterClick, "clicking see-more scrolls the hand").toBeGreaterThan(100)
-
-    // and a wheel over the tray scrolls it too. A VERTICAL wheel does not scroll a horizontally
+    // a wheel over the tray scrolls it. A VERTICAL wheel does not scroll a horizontally
     // overflowing element in any browser, so without the v1.123.0 handler a mouse user could not
     // reach card 34 by scrolling at all.
     const box = await page.evaluate(() => {
@@ -202,7 +158,7 @@ test.describe("the overflow hint", () => {
     await page.mouse.move(box.x, box.y)
     await page.mouse.wheel(0, 600)
     await page.waitForTimeout(250)
-    expect(await left(), "a wheel over the hand scrolls the hand").toBeGreaterThan(afterClick)
+    expect(await left(), "a wheel over the hand scrolls the hand").toBeGreaterThan(100)
 
     // the far end is reachable: keep wheeling and the tray bottoms out at its full extent
     for (let i = 0; i < 12; i++) { await page.mouse.wheel(0, 900); await page.waitForTimeout(60) }
@@ -212,48 +168,5 @@ test.describe("the overflow hint", () => {
       return { l: el.scrollLeft, max: el.scrollWidth - el.clientWidth }
     })
     expect(end.max - end.l, "the last card is reachable").toBeLessThan(4)
-  })
-})
-
-test.describe("the overflow hint on a small screen", () => {
-  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
-
-  test("@curated is not rendered on a phone", async ({ page }) => {
-    const j = journey(page)
-    await j.boot("/")
-    await page.evaluate(STAGE("standing-position", "top"))
-    await j.advance(2500)
-    await page.locator("[data-tech]").first().waitFor({ state: "attached" })
-    await j.advance(600)
-    const m = await page.evaluate(() => {
-      const a = (window as any).__neural
-      const hint = a.optionHintRef.current, row = a.optionsRef.current
-      return { disp: getComputedStyle(hint).display, cls: hint.className, overflow: row.scrollWidth - row.clientWidth, cards: row.querySelectorAll("[data-tech]").length }
-    })
-    expect(m.cards, "the phone still gets the whole hand").toBe(34)
-    expect(m.overflow, "which certainly overflows a 390px screen").toBeGreaterThan(1000)
-    expect(m.cls, "the element carries the class the rule targets").toContain("ng-seemore")
-    expect(m.disp, "and the rule fires — a thumb drags the tray, it needs no label").toBe("none")
-  })
-})
-
-test.describe("the overflow hint in landscape", () => {
-  // 844x390 — a phone held sideways. This is the case the OLD width-only rule missed: 844px is
-  // WIDE, so `@media (max-width:640px)` never fired and the owner saw the hint on their phone.
-  test.use({ viewport: { width: 844, height: 390 }, hasTouch: true })
-
-  test("@curated is not rendered on a phone held sideways", async ({ page }) => {
-    const j = journey(page)
-    await j.boot("/")
-    await page.evaluate(STAGE("standing-position", "top"))
-    await j.advance(2500)
-    await page.locator("[data-tech]").first().waitFor({ state: "attached" })
-    await j.advance(600)
-    const m = await page.evaluate(() => {
-      const hint = (window as any).__neural.optionHintRef.current
-      return { disp: getComputedStyle(hint).display, w: innerWidth, h: innerHeight }
-    })
-    expect(m.w, "this viewport is wider than the old 640px rule").toBeGreaterThan(640)
-    expect(m.disp, "and it is still hidden — the height term is what catches it").toBe("none")
   })
 })
