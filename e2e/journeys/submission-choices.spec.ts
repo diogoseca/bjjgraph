@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test'
 import { journey } from '../dsl'
 
+// Mutation coverage: shared fixed-red threat palette and hidden threat odds fail the first journey.
+// An initial-render-only red override survives because the live refresh restores the score color.
+
 test('@curated submission choices distinguish switching attacks, finishing, and opponent threats', async ({page})=>{
   const errors:string[]=[]; page.on('pageerror', e=>errors.push(e.message))
   const j=journey(page)
@@ -12,6 +15,15 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   await expect(own).toContainText('Attack Americana')
   await expect(own).toContainText('Attack straight arm lock')
   await expect(own).toContainText('Take the back')
+  const threats=page.locator('[data-choice-group="opponent"] [data-opponent-threat]')
+  await expect(threats.locator('.ngodds')).toHaveCount(2)
+  await expect(threats.first()).toContainText('Base escape odds')
+  const marks=await threats.evaluateAll(cards=>cards.map(card=>({points:card.querySelector('.ngedge')?.textContent,color:(card.querySelector('.ngbar') as HTMLElement).style.background,odds:card.querySelector('.ngodds')?.textContent})))
+  expect(marks[0].points).not.toBe(marks[1].points)
+  expect(marks[0].color).not.toBe(marks[1].color)
+  await page.evaluate(()=>{const a=(window as any).__neural,bonus=a.stateBonus;try{a.stateBonus=()=>0.3;a.refreshOptionOdds()}finally{a.stateBonus=bonus}})
+  expect(await threats.locator('.ngodds').allTextContents()).toEqual(marks.map(m=>m.odds))
+  await page.evaluate(()=>(window as any).__neural.refreshOptionOdds())
   await page.screenshot({path:'/tmp/submission-triangle-options.png'})
   const before=await page.evaluate(()=>{const a=(window as any).__neural;return [a.currentPos,a.playerRole,a.moveCount]})
   const threat=page.locator('[data-choice-group="opponent"] [data-opponent-threat]').filter({hasText:'Posture up'})
@@ -44,6 +56,12 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   await expect(own).toContainText('Stack escape')
   await expect(own.locator('[data-choice-action="finish"]')).toHaveCount(0)
   await expect(page.locator('[data-choice-group="opponent"] [data-choice-action="finish"]')).toHaveCount(1)
+  const finish=page.locator('[data-choice-group="opponent"] [data-choice-action="finish"]')
+  await expect(finish.locator('.ngedge')).toHaveText('-100')
+  await expect(finish).toContainText('Base finish odds')
+  const finishOdds=await finish.locator('.ngodds').textContent()
+  await page.evaluate(()=>(window as any).__neural.refreshEscapeOdds())
+  await expect(finish.locator('.ngodds')).toHaveText(finishOdds!)
   await page.keyboard.press('1')
   await expect(page.locator('[data-choice-preview]')).toContainText('Posture up')
   await expect(page.locator('[data-choice-go]')).toHaveText('Posture up')

@@ -11295,6 +11295,35 @@ class Component extends DCLogic {
     const opts = here.ty === "submissions" ? this.submissionOptions(here, role) : this.optionsFor(posIdx, role);
     return opts.map((o) => ({ ...o, threat: true, actor: "opponent" }));
   }
+  // Threat tint is the resulting state scored for US, including any seat reversal.
+  // An opponent move is not automatically a maximally bad state. The group label owns
+  // actor identity; this mark owns the outcome value, on the graph's -100..100 scale.
+  threatMark(opt) {
+    let target = this.nodes[opt.res] || opt.node, role = opt.destinationRole;
+    if (opt.action !== "escape") {
+      const success = (opt.node.cal && opt.node.cal.outcomes || []).find((o) => o.result === "success");
+      const r = success && this.resolveOutcomeTo(success.to);
+      if (opt.action === "finish") return { i: -100, txt: "-100", col: this.hex(this.domColor(-1)) };
+      if (opt.node.ty === "submissions") { target = this.submissionNode(opt.node); role = null; }
+      else if (r && r.idx >= 0) { target = this.nodes[this.canonicalState(r.idx, r.role)]; role = r.role; }
+    }
+    const mine = role ? (role === "top" ? "bottom" : "top") : this.playerRole;
+    const slot = target.ty === "positions" ? (mine === "bottom" ? 1 : 0) : (role && target.fromRole === mine ? 0 : 1);
+    const v = target.s && target.s[slot];
+    if (typeof v !== "number") return null;
+    const i = Math.round(v * 100) + 0;
+    return { i, txt: (i > 0 ? "+" : "") + i, col: this.hex(this.domColor(i / 100)) };
+  }
+  choiceChance(opt) {
+    if (!opt.threat) return opt.action === "escape" ? this.escapeChance(opt) : this.moveChance(opt.node);
+    // Opponent previews show the authored base, not our practice bonuses. An escape has
+    // no independently calibrated rate: its base is the complement of the current finish.
+    const base = this.calSuccess(this.submissionNode(opt.node) || opt.node);
+    return base == null ? null : opt.action === "escape" ? 1 - base : base;
+  }
+  choiceOddsColor(pct, threat) {
+    return pct >= 60 ? (threat ? "#e8956b" : "#7ee0a8") : pct >= 38 ? "#cbd24e" : (threat ? "#7ee0a8" : "#e8956b");
+  }
   renderChoiceGroups(el, own, threats, pick, seconds, escape) {
     const add = (label, list, threat) => {
       if (!list.length) return;
@@ -11472,7 +11501,7 @@ class Component extends DCLogic {
     const n = opt.node;
     const isEsc = mode === "escape";
     const isThreat = !!opt.threat;
-    const isEntry = n.ty === "submissions" && !isEsc && opt.action !== "finish";
+    const isEntry = n.ty === "submissions" && !isEsc && opt.action !== "escape" && opt.action !== "finish";
     const card = document.createElement("div");
     card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
@@ -11500,18 +11529,19 @@ class Component extends DCLogic {
     // moves this state authors, so the EDGE table cannot value them and a fabricated number is
     // forbidden \u2014 it keeps its category word, its own-strength glyph and its landing-position
     // potential, which there is not a second quantity but the same one twice.
-    const edge = isEsc || isThreat || opt.submission != null ? null : this.edgeMark(opt);
-    const col = isThreat ? "#ef8585" : edge ? edge.col : this.hex(this.myColor(n));
+    const edge = isThreat ? this.threatMark(opt) : isEsc || opt.submission != null ? null : this.edgeMark(opt);
+    const col = edge ? edge.col : this.hex(this.myColor(n));
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
-    const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
-    const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    const chance = this.choiceChance(opt);
+    const pct = chance == null ? null : Math.round(chance * 100);
+    const oddsCol = this.choiceOddsColor(pct, isThreat);
     const pot = Math.round(this.movePotential(opt) * 100);
     // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
     // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
-    const rateCaption = isEntry ? "Finish odds" : this.isMobile() ? "Odds" : "Success rate";
+    const rateCaption = isThreat ? (opt.action === "escape" ? "Base escape odds" : n.ty === "submissions" ? "Base finish odds" : "Base odds") : isEntry ? "Finish odds" : this.isMobile() ? "Odds" : "Success rate";
     const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
       '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
-      '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
+      '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + (pct == null ? '—' : pct + '%') + '</span>' +
       '</div>';
     // THE MIDDLE SLOT NAMES THE NUMBER OPPOSITE IT. The category word there was redundant with the
     // glyph SHAPE beside it (v1.103.6 canon: circle=position, triangle=submission, diamond=
@@ -11551,7 +11581,7 @@ class Component extends DCLogic {
       // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
       '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.choiceEscape(this.choiceLabel(opt)) + '</div>' +
       (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">defensive response</div>' : '') +
-      (isThreat ? '' : bottomRow) +
+      bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
     // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
     // "These are the techniques we learned in today's class" means TRANSITIONS AND SUBMISSIONS.
@@ -11589,8 +11619,8 @@ class Component extends DCLogic {
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
   _paintEdge(oc) {
-    if (!oc || oc.esc || oc.opt.threat) return;
-    const e = this.edgeMark(oc.opt); if (!e) return;
+    if (!oc || oc.esc) return;
+    const e = oc.opt.threat ? this.threatMark(oc.opt) : this.edgeMark(oc.opt); if (!e) return;
     const num = oc.card.querySelector(".ngedge");
     if (num) { num.textContent = e.txt; num.style.color = e.col; }
     const g = oc.card.querySelector(".ngglyph");
@@ -11607,9 +11637,9 @@ class Component extends DCLogic {
     if (this._defendSub != null) { this.refreshEscapeOdds(); return; } // defense window: the tray holds ESCAPE cards
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
-      const pct = Math.round(this.moveChance(oc.node) * 100);
-      el.textContent = pct + "%";
-      el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+      const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
+      el.textContent = pct == null ? "—" : pct + "%";
+      el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
       this._paintEdge(oc);
     }
   }
@@ -13221,9 +13251,10 @@ class Component extends DCLogic {
     if (this._defendSub == null) return;
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
-      const pct = Math.round(this.escapeChance(oc.opt) * 100);
-      el.textContent = pct + "%";
-      el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+      const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
+      el.textContent = pct == null ? "—" : pct + "%";
+      el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
+      this._paintEdge(oc);
     }
   }
   pickFirstEscape() { const p = this._optPick, l = this._optList; if (p && l && l.length) p(l[0]); }

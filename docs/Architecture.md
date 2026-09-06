@@ -21,8 +21,11 @@ responses, with attacker-relative outcome roles flipped once. Response success c
 submission threat; it is announced as continued defense rather than an escape. Per-state
 overrides correct the primary triangle and armbar escape destinations.
 
-The same choices row separates **Your options** from **Opponent threats**. Threats are red and
-readable, but cannot be executed through clicks, shortcuts, or the move dispatcher. Labels
+The same choices row separates **Your options** from **Opponent threats**. Threat colors and
+signed points follow the resulting state from the player’s future seat, including role reversals;
+opponent ownership does not force a red value. Their labeled base odds use the authored success
+rate (its complement for a defensive response), without applying the player’s practice bonuses.
+They are readable, but cannot be executed through clicks, shortcuts, or the move dispatcher. Labels
 name only the action or destination (Finish, Attack Kimura, Take the back); durable full names
 remain available in study content and history. Response choices and their explanations load together on entry
 from `submission-details/`. A loading or retry state holds the hand until that complete set

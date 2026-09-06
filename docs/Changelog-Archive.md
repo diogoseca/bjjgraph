@@ -6866,3 +6866,26 @@ Two existing Quartz formatting differences were normalized for the required form
 The local checkout uses a sparse worktree because the shared disk is nearly full; the complete
 site build and browser artifacts were held in RAM-backed storage. An earlier browser run was
 interrupted when the disk filled; the complete successful run used RAM for logs and results.
+
+
+## v1.176.1 — Threat colors follow state scores; odds remain visible
+
+Opponent cards no longer use a fixed red. Their signed points and glyph/bar tint follow the
+resulting state on the graph’s score palette, evaluated for the player’s future seat. This
+includes reversals and legacy control aliases; a favorable result may be blue. The group
+heading identifies whose options these are, and an opposing finish remains a terminal −100.
+
+Threat percentages are restored as labeled base odds, without the player’s practice bonuses
+or success overrides. Defensive responses use the complement of the current submission’s
+authored finish rate; the corpus does not provide independent per-response rates. Both normal
+and defensive refreshes preserve this distinction. Threat previews remain non-executable.
+
+The submission-state unit test covers physical role changes, canonical destinations, favorable
+outcomes and base rates. The browser journey checks actual score colors, visible percentages
+and updates in both attacker and defender hands. Reverting the shared palette to one red or
+hiding threat odds makes that journey fail. An initial-render-only red mutant survives because
+the live refresh restores the score color; that limit is recorded in the spec.
+
+Validation: all 241 unit tests and 221 curated browser journeys passed; four focused browser
+journeys then passed against the final copied bundle. Startup measured 386,607 gzip bytes
+against the unchanged 387,400 ceiling. The fixed-red and hidden-odds mutants both failed.

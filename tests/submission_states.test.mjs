@@ -114,3 +114,28 @@ test('selecting an alternative submission enters its state without ending the ro
   assert.equal(a.optionsFor(a.currentPos)[0].action,'finish');
   const before=a.currentPos; a.enterAttempt({...o,threat:true}); assert.equal(a.currentPos,before); assert.equal(lands,1);
 });
+
+test('opponent threat points follow the future player seat, with neutral and favorable outcomes allowed',async()=>{
+  const a=await boot(),s=find(a,'Triangle Choke from Triangle Control');
+  a.playerRole='bottom';a.currentPos=s.idx;
+  const threats=a.opponentThreats(s.idx);
+  for(const [label,dest] of [['Posture up','open-guard'],['Stack escape','half-guard']]) {
+    const o=threats.find(o=>o.label===label),p=a.nodes.find(n=>n.ty==='positions'&&n.posId===dest);
+    assert.equal(a.threatMark(o).i,Math.round(p.s[1]*100)+0,label);
+    assert.equal(a.choiceChance(o),1-a.calSuccess(s),label);
+  }
+  assert.notEqual(a.threatMark(threats[0]).col,a.threatMark(threats[1]).col);
+  const mount=a.nodes.find(n=>n.ty==='positions'&&n.posId==='mount');
+  const turn={threat:true,node:{ty:'transitions',cal:{successRate:60,outcomes:[{result:'success',to:'mount/top'}]}}};
+  a.playerRole='top';
+  assert.equal(a.threatMark(turn).i,Math.round(mount.s[1]*100)); // opponent takes top: we become bottom
+  turn.node.cal.outcomes[0].to='mount/bottom';
+  assert.equal(a.threatMark(turn).i,Math.round(mount.s[0]*100));
+  assert.ok(a.threatMark(turn).i>0); // opponent ownership alone must never force red
+  turn.node.cal.outcomes[0].to='armbar-control/top';
+  assert.equal(a.threatMark(turn).i,Math.round(find(a,'Armbar from Armbar Control').s[1]*100));
+  assert.equal(a.choiceChance(turn),0.6);
+  a.stateBonus=()=>0.9;a.userMods=[{on:true,name:turn.node.t,pct:95}];
+  assert.equal(a.choiceChance(turn),0.6); // our improvements do not improve their base rate
+  assert.equal(a.threatMark({threat:true,action:'finish',node:s}).i,-100);
+});
