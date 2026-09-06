@@ -160,9 +160,10 @@ The critical challenge lies in maintaining grip integrity throughout the rotatio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Anaconda Control]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Anaconda Control]] | 23% |
+| Counter | [[Positions/Half Guard]] | 11% |
+| Failure | [[Positions/Front Headlock]] | 8% |
 
 
 </section>

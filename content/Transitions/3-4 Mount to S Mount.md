@@ -142,8 +142,9 @@ Strategically, this transition should be initiated when the near-side arm become
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount/S Mount]] | 55% |
-| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 28% |
+| Counter | [[Positions/Half Guard]] | 5% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>

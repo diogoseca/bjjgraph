@@ -306,9 +306,11 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Anaconda Control]] | 58% |
-| Failure | [[Positions/Turtle]] | 28% |
-| Counter | [[Positions/Turtle]] | 14% |
+| Success | [[Positions/Anaconda Control]] | 40% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Turtle]] | 8% |
+| Failure | [[Positions/Front Headlock]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 7% |
 
 
 </section>

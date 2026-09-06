@@ -12,31 +12,39 @@
     "wrestling",
     "no-gi"
   ],
-  "from_position": "Clinch/Bottom",
+  "from_position": "Clinch/Top",
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 49,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 27,
+        "nogi": 33
       },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
       "probability": {
-        "gi": 15,
+        "gi": 13,
         "nogi": 15
       },
       "result": "counter"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": {
+        "gi": 11,
+        "nogi": 12
+      },
+      "result": "success"
     }
   ],
   "success_rate": {
