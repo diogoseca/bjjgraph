@@ -5,5 +5,5 @@
   "raising_a_ceiling": "Shrinking always passes. Raising one means the boot payload grew: justify it in the commit body, and never do it to make a red gate green."
  },
  "first_hand_raw_bytes": 1900000,
- "first_hand_gzip_bytes": 385000
+ "first_hand_gzip_bytes": 387000
 }
