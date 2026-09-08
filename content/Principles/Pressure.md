@@ -314,7 +314,7 @@ Unlike a discrete technique with a defined start and finish, pressure is a conce
 
 **Headquarters Position**: Pressure is applied through forward leaning that loads weight onto opponent's lower body while maintaining strategic distance from upper body attacks. Knee pressure controls hip movement while maintaining enough pressure to prevent guard recovery without overcommitting to a position that invites submissions.
 
-**Kuzure Kesa-Gatame**: Maximum pressure is applied through specialized positioning that concentrates entire bodyweight into opponent's diaphragm and ribcage. This modified scarf hold variation represents extreme application of pressure principles, creating nearly unbearable compression through chest-on-chest weight placement and head control designed to force immediate tap or position abandonment.
+**Kuzure Kesa Gatame**: Maximum pressure is applied through specialized positioning that concentrates entire bodyweight into opponent's diaphragm and ribcage. This modified scarf hold variation represents extreme application of pressure principles, creating nearly unbearable compression through chest-on-chest weight placement and head control designed to force immediate tap or position abandonment.
 
 **Back Control**: Pressure is applied through chest compression against opponent's back while hooks create lower body control. Weight distribution creates constant pressure that limits breathing and prevents posture recovery, with pressure maintained through tight connection and strategic weight placement.
 

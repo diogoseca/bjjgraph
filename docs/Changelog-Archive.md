@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
 - **v1.174.0** — [EVERY ROLL YOU PLAYED REACHES THE SHELF, AND THE SHELF REPAINTS](#v1-174-0-every-roll-you-played-reaches-the-shelf)
 - **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
 - **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
@@ -6357,6 +6358,113 @@ expanded on payload land, board empty.
 beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
 `docs/Neural.md` reference-law paragraph extended.
 
+## v1.176.0 — THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE
+
+**Owner:** "we got kuzure kesa gatame which is aka modified scarf hold, and afaik kesa gatame is
+aka scarf hold. how do we show that in the graph? … i guess it'd be like the judo/canonical
+version first and the legend 'aka Scarf Hold'" — then, on the survey: "canonical should be ushiro
+kesa gatame and the aka is Reverse Scarf Hold. please merge whatever else content makes sense".
+
+**What the survey found.** `aliases[]` already existed on 13 positions and rendered on the static
+page (Mount → Tate Shiho Gatame), but the neural wire never carried it. And the real defect was
+upstream of "aka": the corpus held **six position files for three positions** —
+`Kesa Gatame` ≡ `Scarf Hold Position`, `Kuzure Kesa-Gatame` ≡ `Modified Scarf Hold`,
+`Reverse Kesa-Gatame` ≡ `Reverse Scarf Hold` — each side with its own copy of the technique set
+(61 technique files hung off the six), and the pairs cross-wired: `Kesa Gatame to Modified Scarf
+Hold` landed on `Modified Scarf Hold/Top`, not on Kuzure. Submissions even listed both spellings
+in `from_positions[]` as two origins. `docs/Synonyms.md` §2 had prescribed the collapse since the
+synonym epic; nobody had done it for this triplet.
+
+**The decision.** Judo names canonical, uniformly spelled: `Kesa Gatame`, `Kuzure Kesa Gatame`,
+`Ushiro Kesa Gatame`. English names become `aliases[]` (Scarf Hold · Scarf Hold Position · Hon
+Kesa Gatame / Modified Scarf Hold · Broken Scarf Hold / Reverse Scarf Hold · Reverse Kesa
+Gatame). `quartz_slug` maps `Kuzure Kesa-Gatame` and `Kuzure Kesa Gatame` to the same id, so that
+spelling fix cost no ordinal; `Reverse Kesa-Gatame → Ushiro Kesa Gatame` is a real rename.
+
+**The fold, by rule rather than by hand.** A loser technique whose name, with the loser position
+replaced by the canonical, matched an existing survivor was a TWIN → deleted (16: eleven
+`Kimura/Americana/Arm Triangle/Belly Down Armbar from <loser>` submissions, `Bridge Escape from
+Scarf Hold`, `Escape Reverse Scarf Hold`, `Reverse Scarf to North-South/Side Control`, and
+`Side Control to Scarf Hold Position`, whose 2/2 attempt mass folded into `Side Control to Kesa
+Gatame` → 5/4). The rest were UNIQUE → retargeted and renamed (32 renames incl. the canonical
+side's spelling: `Kesa Gatame to Mount`, `Escape Kesa Gatame`, `Bridge from Kesa Gatame`,
+`Kuzure Kesa Gatame to Kesa Gatame`, `North-South Choke from Ushiro Kesa Gatame`, `Kimura Trap to
+Ushiro Kesa Gatame`…). The canonical hand kept its authored composition and gained only the moves
+AUTHORED FROM the merged state (not the loser's generic entries — `Back Step` from Outside Ashi,
+`Arm Extraction to Turtle` from Aoki Lock were origin-mismatched and dead in `optionsFor`
+already), then renormalised per frame with largest-remainder rounding, nulls preserved. Every
+hand sums to 100 in both frames; every `from_position` / `outcomes[].to` resolves.
+
+**Everything else that named them.** `templates/votes.json` (58 keys renamed, 16 twin rows
+dropped — canonical rows iterated FIRST, because the first pass let a twin win the key);
+`success_reachability_baseline.json` (rekeyed, 3 loser rows dropped);
+`occurrence_calibration.json` (the 6 canonical containers rekeyed so the Q3 ballots still join;
+the 6 loser containers stay as the ledger's own record, beside Crackhead Control's);
+`occurrence_reviewed.json` (one orphan row); `node_ordinals.json` (+26 minted, 44 retired, 0
+renumbered); 90 hand-authored 301s in `source/quartz/static/_redirects` for the pages the
+generator can no longer see; `option-hand.spec.ts` (side-control/top 25 → 24, 9 → 8
+transitions, and the named card); `solve_edge_values.py`'s 272 tripwire → 266.
+
+**The census did its job.** `npm run test:units` named 18 stale literals at once
+(sites 1464→1445, members 2928→2890, roleHands 272→266, positions 136→133, techSites
+1328→1312, submissions 298→287…). `neural_seat_decks.test.mjs` held four hand-held copies
+(a `>= 2900` floor that 2890 tripped, plus 136/272 in two tests); they are census-marked now.
+
+**"aka" on the wire.** `regenerate_neural_data.py` emits `aka` = `aliases[0]` on position nodes
+(16 of 133, read from the authored JSON keyed by `slug` = `posId`, counted every run, and the
+emitter refuses a wire where the authored count and the joined count disagree). The app carries
+it through `ingest()` and the pair split, prints it through `nodeQual(n)` — the same dim slot and
+styling as a technique's `from <origin>` — on Explore rows, both search panes, the search detail
+card and the System/concept member rows, and `nodeMatches(n, q)` makes "scarf hold" find Kesa
+Gatame. Never in `t` (deck joins key on `posFamily(n.t)`; the list layer prints the full authored
+name) and never on the canvas (`halfW`/`_fitText` width-bound; `graphName` is the one rule).
+
+**AND THEN THE ROWS SAID "KESA GATAME TOP AKA SCARF HOLD".** Owner: "lol those trailing Top vs
+aka without top is weird. actually the top shouldn't appear there trailing, only in those
+subtitles." The aka only exposed a defect that predated it: every DOM surface printed
+`splitName(n.t).main`, which for a POSITION is the whole title, role artifact included. So three
+surfaces answered one question three ways — the canvas said "Kesa Gatame" (`graphName`, v1.128.1),
+the node card said "Kesa Gatame" (it strips and hands the seat to its own badge, v1.129.x), and
+the Explore row, the search row and pane, the list drawer, the class drawer, the systems and
+concept member rows, the option sheet's "advances to", the feedback "about:" line, the dossier's
+attack and related-position chips and the roll seed name all said "Kesa Gatame Top". Wrong twice
+over: `_deriveDualPairs` gives BOTH pair members the hub's title, so a bottom seat's row read
+"Top" too, and Explore lists SITES (`if (!n.rep) continue`), where no seat is being named at all.
+**`graphName(n)` is now THE name on every surface**, `nodeQual(n)` the dim second line, and a seat
+is named BESIDE a name — never inside it: the node card's badge, the row's `ng-system-role` chip,
+the canvas pair label's own `sub` line (verified live: `_lastPairLabel` publishes
+`main:"Kesa Gatame", sub:"TOP"`). `displayName` short-circuits positions to it, because the
+ambiguity map it consults is keyed on the raw title and could only ever hand back the artifact;
+the four canvas sites that re-implemented the ternary now call the seam. `listItemName` strips for
+positions only — a technique keeps its whole qualified title, which is that function's entire
+point. Untouched deliberately: the wire `t` (deck joins key on `posFamily(n.t)`), `_beltPoolAllows`
+and the deck-key ladder (joins, not display), and the static page's own "Roll started in Mount
+Top" snackbar, where the seat IS the destination and reads as prose.
+
+**THE MERGE, AND A RED THAT WAS THE MACHINE.** Landed on dev 26 commits later (v1.176.0).
+Upstream's `v1.173.2` had meanwhile moved the CANVAS the same way — `richLabel` composes its own
+name through `graphName`, `_labelWidthPx` measures headline plus qualifier — so both app
+conflicts resolved to THEIRS and the canvas half of v1.172.0 is gone; the DOM half, `nodeQual`,
+`nodeMatches`, `_bareDup` and the emitter's `aka` are what shipped. Upstream had touched no
+content, no `graph.json`, no `node_ordinals.json`, so the collapse's premise was intact: all six
+files, no alias on the wire. One real merge finding, caught by the suite: a new upstream journey
+(`landcard-modes.spec.ts:546`) booted `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender`, a
+node this collapse renamed; the URL and two literals moved, the journey's subject did not.
+
+And the lesson worth more than the merge: `forward-components.spec.ts:716` was red 3-of-3 on an
+IDLE box and I called it environmental on circumstantial grounds — every route rendered in a
+fresh context, and it stayed red with upstream's own `graph.json`, so it was provably not the
+content. What I asserted without proving was the mechanism, and the owner pushed back: "That
+can't be true. Please check it again because I increased the file system to about 150 GB." Both
+were true. `/home` is 98G with 59G free; `/` is a SEPARATE 25G volume, 100% full at 111M — and
+`TMPDIR` defaults to `/tmp`, on root, where Chromium puts its profile. `TMPDIR=/home/user/tmp-pw`
+turned it green 2-of-2 at 2.0s, same commit, same box, and the whole gate to **219/219**. Two
+earlier controls (`--disable-dev-shm-usage`, `--disk-cache-dir` on tmpfs) had ruled out shm and
+the CACHE and I read that as ruling out disk — it did not; the profile is a third thing. The trap
+is now in CLAUDE.md §6.4 with its trigger tokens, because a full root mimics contention exactly
+(`Target crashed`, `browserContext.close`, 240s ceilings on 2s specs) and had already been
+misread twice in this session as three worktrees sharing six cores.
+
 ## v1.172.0 — ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN
 
 **Owner, two reports in one sitting.** *"In the side panel I see '18 cards due · keep what you
@@ -6832,3 +6940,79 @@ assertion anywhere. Root cause was a FULL DISK (`/` at 100%, 48 KB free) with th
 building concurrently — Chromium could not launch at all (`about:blank` failed too). The same
 files pass in seconds with a few hundred MB free. Read the failure MESSAGE before reading a red
 suite as a regression.
+
+
+## v1.176.0 — Submission states own their choices
+
+Submission arrivals from URLs, graph taps and transitions now open their own choices:
+exactly one Finish, concrete continuations, and named defender responses. Short labels
+omit the current state. Triangle gains distinct Kimura, Americana and retained-triangle
+straight arm-lock variants, with initial model rates. Their additions explain the census,
+ordinal and FLOW-reference updates.
+
+Twelve redundant controls become playable aliases; stored vertices remain for old links
+and the evaluator. Submission choices and explanations load together, preserving arrival
+seats and distinguishing continued threats from completed escapes. Opponent outcomes form
+a separate, preview-only group. The snapshot availability probe uses HEAD to avoid fetching
+a static server’s custom 404 body.
+
+Validation: 240 units, 221 curated journeys and eight final-build journeys passed; Quartz
+rendered 4,618 Markdown files and passed type/format checks; graph audit found zero errors.
+Removing Finish or flipping escape seats failed mutation checks. First hand: 386,212 gzip
+bytes, ceiling 387,400. A sparse worktree and RAM build avoided the full shared disk.
+
+## v1.176.1 — Threat colors follow state scores; odds remain visible
+
+Threat points and glyph/bar colors follow the resulting state from the player’s future
+seat, including reversals and aliases; favorable outcomes may be blue. Opposing finishes
+remain −100. Visible opponent rates exclude player bonuses/overrides. Escapes use the
+complement of the authored finish rate; independent per-response rates are unavailable.
+Both refresh paths preserve these semantics, and threat previews cannot execute moves.
+
+Validation: 241 units, 221 curated journeys and four final-build checks passed. Startup:
+386,607 gzip bytes against 387,400. Fixed-red shared palettes and hidden odds failed
+mutation checks. An initial-render-only red mutant survived because live refresh restores
+the score color; the spec records that limit.
+
+## v1.176.2 — Keep choice odds on one line
+
+Threat footers use “Base odds” with wrapping disabled. Rendered checks at 390px and 1440px
+confirmed single-line captions fit beside percentages. Rebuilt app; 241 units and 221
+curated journeys passed. Startup: 386,585 gzip bytes against 387,400.
+
+## v1.176.3 — Use one odds caption across choices
+
+All player/opponent choice cards, expanded cards and adjustment tooltips use “Odds”.
+Calculations stay unchanged. Rebuilt app; 221 curated journeys passed, with consistent
+phone/desktop captions. Startup: 386,546 gzip bytes against 387,400.
+
+## v1.176.4 — Integrate submission choices with dev’s position naming cleanup
+
+Combined the feature with dev’s Kesa consolidation and seat-name cleanup. Regenerated graph,
+layout, explorer and FLOW reference: 1,448 sites, 133 positions (12 playable aliases), 1,315
+techniques, 290 submissions, 242 playable position seats and 1,213 position cards. Exact
+coverage is 290 gi/259 no-gi submissions after duplicate removals.
+
+Published dev ordinals remain unchanged; triangle variants receive 1495–1497. The lock has
+1,498 assigned IDs, 1,448 live and 50 retired. Validation explicitly compares origin/dev;
+the integration’s first parent is dev, preserving CI’s HEAD^1 baseline. Americana/Kimura
+indexes drop retired scarf duplicates, correct Ushiro slugs and remove North-South Kimura
+(previously folded into Kimura Trap). All 14/29 canonical variant references resolve.
+
+Quartz build/type/format, 241 units, 222 curated journeys, graph integrity, JSON/JSON-LD,
+seat-deck, flow and ordinal gates passed. No baselines changed. Startup: 371,928 gzip bytes
+against 387,400. CI then caught the combined changelog exceeding its documentation budget.
+
+## v1.176.5 — Keep integration notes within the documentation budget
+
+Condensed this branch’s changelog entries, preserving behavior, validation and migration
+facts. The documentation ceiling is unchanged; budget and reference gates pass.
+
+## v1.176.6 — Bring full-suite fixtures into the submission-state model
+
+Older non-curated journeys counted retired aliases or expected submission entry to resolve
+immediately. Fixtures now use the actual 121-position pool, concrete resolving transitions,
+explicit Finish actions and payload readiness. Exact outcome, RNG, role and UI assertions
+remain; archive checks cover both two-state entries and direct one-state finishes. Targeted
+runs pass all 53 affected journeys. Runtime code is unchanged. Census and documentation
+gates pass without changing baselines or timeouts.

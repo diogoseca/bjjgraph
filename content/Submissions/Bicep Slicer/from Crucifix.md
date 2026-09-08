@@ -305,7 +305,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - [[Positions/North-South]]
 - [[Positions/Mount/S Mount]]
 - [[Positions/Gift Wrap]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>

@@ -2611,7 +2611,7 @@
         }
       }
     },
-    "Bridge Escape from Modified Scarf Hold": {
+    "Bridge Escape from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 40.0,
@@ -2635,7 +2635,7 @@
         }
       }
     },
-    "Bridge Escape from Reverse Scarf Hold": {
+    "Bridge Escape from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 40.0,
@@ -2655,18 +2655,6 @@
         },
         "nogi": {
           "success_rate": 30.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Bridge Escape from Scarf Hold": {
-      "community": {
-        "gi": {
-          "success_rate": 40.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 40.0,
           "vote_count": 30
         }
       }
@@ -2713,7 +2701,7 @@
         }
       }
     },
-    "Bridge from Modified Scarf Hold": {
+    "Bridge from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 30.0,
@@ -2725,7 +2713,7 @@
         }
       }
     },
-    "Bridge from Reverse Kesa-Gatame": {
+    "Bridge from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 45.0,
@@ -2749,7 +2737,7 @@
         }
       }
     },
-    "Bridge from Scarf Hold Position": {
+    "Bridge from Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 30.0,
@@ -5287,7 +5275,7 @@
         }
       }
     },
-    "Escape Modified Scarf Hold": {
+    "Escape Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 45.0,
@@ -5311,7 +5299,7 @@
         }
       }
     },
-    "Escape Reverse Kesa-Gatame": {
+    "Escape Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 45.0,
@@ -5335,19 +5323,7 @@
         }
       }
     },
-    "Escape Reverse Scarf Hold": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Escape Scarf Hold Position": {
+    "Escape Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 45.0,
@@ -6139,7 +6115,7 @@
         }
       }
     },
-    "Frame Escape from Kuzure Kesa": {
+    "Frame Escape from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 40.0,
@@ -6313,7 +6289,7 @@
         }
       }
     },
-    "Frame from Reverse Scarf Hold": {
+    "Frame from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 40.0,
@@ -9049,7 +9025,7 @@
         }
       }
     },
-    "Kesa Gatame to Modified Scarf Hold": {
+    "Kesa Gatame to Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 70.0,
@@ -9061,7 +9037,7 @@
         }
       }
     },
-    "Kesa Gatame to Reverse Kesa-Gatame": {
+    "Kesa Gatame to Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 65.0,
@@ -9181,7 +9157,7 @@
         }
       }
     },
-    "Kimura Trap to Reverse Scarf Hold": {
+    "Kimura Trap to Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 65.0,
@@ -9316,18 +9292,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": false,
           "override": false
-        }
-      }
-    },
-    "Kimura from Modified Scarf Hold": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
         }
       }
     },
@@ -11713,7 +11677,7 @@
         }
       }
     },
-    "Modified Scarf to Kesa Gatame": {
+    "Kuzure Kesa Gatame to Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 60.0,
@@ -11725,7 +11689,7 @@
         }
       }
     },
-    "Modified Scarf to Mount": {
+    "Kuzure Kesa Gatame to Mount": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -12049,7 +12013,7 @@
         }
       }
     },
-    "North-South Choke from Reverse Scarf": {
+    "North-South Choke from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 42.0,
@@ -13987,7 +13951,7 @@
         }
       }
     },
-    "Reverse Kesa to North-South": {
+    "Ushiro Kesa Gatame to North-South": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -13999,7 +13963,7 @@
         }
       }
     },
-    "Reverse Kesa to Side Control": {
+    "Ushiro Kesa Gatame to Side Control": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -14055,30 +14019,6 @@
         },
         "nogi": {
           "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Reverse Scarf to North-South": {
-      "community": {
-        "gi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 55.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Reverse Scarf to Side Control": {
-      "community": {
-        "gi": {
-          "success_rate": 60.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 60.0,
           "vote_count": 30
         }
       }
@@ -14989,7 +14929,7 @@
         }
       }
     },
-    "Scarf Hold to Mount": {
+    "Kesa Gatame to Mount": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -15001,7 +14941,7 @@
         }
       }
     },
-    "Scarf Hold to Side Control": {
+    "Kesa Gatame to Side Control": {
       "community": {
         "gi": {
           "success_rate": 55.0,
@@ -15484,18 +15424,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Side Control to Scarf Hold Position": {
-      "community": {
-        "gi": {
-          "success_rate": 70.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 70.0,
-          "vote_count": 30
         }
       }
     },
@@ -18589,7 +18517,7 @@
         }
       }
     },
-    "Turn In from Reverse Kesa": {
+    "Turn In from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 40.0,
@@ -21187,7 +21115,7 @@
         }
       }
     },
-    "Breadcutter Choke from Kuzure Kesa-Gatame": {
+    "Breadcutter Choke from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 58.0,
@@ -21211,7 +21139,7 @@
         }
       }
     },
-    "Kimura from Kuzure Kesa-Gatame": {
+    "Kimura from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -21262,18 +21190,6 @@
           "run_id": "2026-07-07T17:37:32.832419Z",
           "reviewed": true,
           "override": false
-        }
-      }
-    },
-    "Kimura from Scarf Hold Position": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
         }
       }
     },
@@ -21391,7 +21307,7 @@
         }
       }
     },
-    "Kimura from Reverse Kesa-Gatame": {
+    "Kimura from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -21404,18 +21320,6 @@
       }
     },
     "Kimura from Overhook Control": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Kimura from Reverse Scarf Hold": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -21973,7 +21877,7 @@
         }
       }
     },
-    "Paper Cutter Choke from Kuzure Kesa-Gatame": {
+    "Paper Cutter Choke from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -22375,7 +22279,7 @@
         }
       }
     },
-    "North-South Choke from Modified Scarf Hold": {
+    "North-South Choke from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 58.0,
@@ -23083,31 +22987,7 @@
         }
       }
     },
-    "Americana from Kuzure Kesa-Gatame": {
-      "community": {
-        "gi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Americana from Scarf Hold Position": {
-      "community": {
-        "gi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Americana from Modified Scarf Hold": {
+    "Americana from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 68.0,
@@ -23155,19 +23035,7 @@
         }
       }
     },
-    "Americana from Reverse Kesa-Gatame": {
-      "community": {
-        "gi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 68.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Americana from Reverse Scarf Hold": {
+    "Americana from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 68.0,
@@ -24535,31 +24403,7 @@
         }
       }
     },
-    "Arm Triangle from Kuzure Kesa-Gatame": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Arm Triangle from Scarf Hold Position": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Arm Triangle from Modified Scarf Hold": {
+    "Arm Triangle from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -24607,19 +24451,7 @@
         }
       }
     },
-    "Arm Triangle from Reverse Kesa-Gatame": {
-      "community": {
-        "gi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 62.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Arm Triangle from Reverse Scarf Hold": {
+    "Arm Triangle from Ushiro Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 62.0,
@@ -24853,19 +24685,7 @@
         }
       }
     },
-    "Belly Down Armbar from Kuzure Kesa-Gatame": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Belly Down Armbar from Scarf Hold Position": {
+    "Belly Down Armbar from Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 50.0,
@@ -24878,18 +24698,6 @@
       }
     },
     "Belly Down Armbar from Open Guard": {
-      "community": {
-        "gi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        },
-        "nogi": {
-          "success_rate": 50.0,
-          "vote_count": 30
-        }
-      }
-    },
-    "Belly Down Armbar from Modified Scarf Hold": {
       "community": {
         "gi": {
           "success_rate": 50.0,
@@ -25369,7 +25177,7 @@
         }
       }
     },
-    "Side Control to Kuzure Kesa-Gatame": {
+    "Side Control to Kuzure Kesa Gatame": {
       "community": {
         "gi": {
           "success_rate": 60.0,

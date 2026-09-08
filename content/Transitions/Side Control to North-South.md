@@ -320,7 +320,7 @@ The North-South transition is a critical component of top control maintenance an
 
 - [[Transitions/Side Control Escape]] - Opponent's defense you are preventing with transition timing
 
-- [[Positions/Side Control/Reverse Kesa-Gatame]] - Alternative pinning angle from similar starting position
+- [[Positions/Side Control/Ushiro Kesa Gatame]] - Alternative pinning angle from similar starting position
 
 - [[Transitions/Armbar from North-South]] - Arm attack available after completing transition
 

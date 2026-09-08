@@ -1,0 +1,355 @@
+{
+  "name": "Kimura from Triangle Control",
+  "description": "Learn Kimura from Triangle Control: retain the triangle entanglement while attacking the arm, recognize defensive responses, and connect the finish to other attacks.",
+  "summary": "A bent arm with internal shoulder rotation attack from the bottom player’s established triangle entanglement.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "armbar-control",
+    "chain-attack"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Triangle Control",
+  "from_position": "Triangle Control/Bottom",
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
+  "overview": "Kimura from Triangle Control is a distinct submission state: the bottom player retains the triangle entanglement while changing the active threat to the arm. Keep the elbow bent and control the wrist while using the triangle entanglement to limit the opponent’s posture. The original triangle choke remains a possible follow-up if the arm defense makes it available. The defender must protect the attacked arm while continuing to address the entanglement. The finish ends the exchange; establishing this arm attack does not itself imply a tap.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "Varies with injury severity and treatment; a clinician must assess an injury."
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "Varies with injury severity and treatment; a clinician must assess an injury."
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "Varies with injury severity and treatment; a clinician must assess an injury."
+      },
+      {
+        "injury": "Bicep tendon strain or rupture from combined rotation and extension forces",
+        "severity": "Medium",
+        "recovery_time": "Varies with injury severity and treatment; a clinician must assess an injury."
+      }
+    ],
+    "application_speed": "Apply pressure slowly and progressively with a qualified instructor supervising practice. Never jerk or force the joint; release immediately at any tap, request to stop, or sign of distress.",
+    "tap_signals": [
+      "Any hand or foot tap",
+      "A verbal tap or request to stop",
+      "A cry of pain, distress, or loss of responsiveness; stop immediately"
+    ],
+    "release_protocol": [
+      "Immediately remove pressure from the arm and neck at any tap or sign of distress.",
+      "Release the arm grip and open the triangle entanglement without forcing the partner’s limb.",
+      "Stop the exchange and check on the partner before resuming practice."
+    ],
+    "training_restrictions": [
+      "Practice finishing mechanics under qualified supervision with a cooperative partner and minimal pressure.",
+      "Tell the instructor and partner about prior arm, shoulder, or neck injuries before practice.",
+      "Stop immediately if control is lost, pain occurs, or either partner wants to stop."
+    ]
+  },
+  "from_positions": [
+    "Triangle Control",
+    "Closed Guard"
+  ],
+  "related_submissions": [
+    "Triangle Choke",
+    "Kimura",
+    "Americana",
+    "Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "Triangle Control",
+      "relationship": "The retained leg entanglement underlying this arm attack"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Alternative neck attack when the arm defense exposes the choke"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Recovery after the triangle entanglement is released"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
+      "result": "success"
+    },
+    {
+      "to": "Triangle Control/Bottom",
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "Kimura from Triangle Control Attacker",
+    "description": "Kimura from an established triangle entanglement, with attack and defense choices.",
+    "overview": "Kimura from Triangle Control is a distinct submission state: the bottom player retains the triangle entanglement while changing the active threat to the arm. Keep the elbow bent and control the wrist while using the triangle entanglement to limit the opponent’s posture. The original triangle choke remains a possible follow-up if the arm defense makes it available. The defender must protect the attacked arm while continuing to address the entanglement. The finish ends the exchange; establishing this arm attack does not itself imply a tap.",
+    "key_principles": [
+      "Keep the elbow bent and control the wrist while using the triangle entanglement to limit the opponent’s posture.",
+      "Keep the opponent’s posture controlled while changing the arm grip.",
+      "Choose the arm attack that matches the available joint alignment.",
+      "Maintain control before applying finishing pressure.",
+      "Release immediately at a tap; the arm attack and choke must both be released."
+    ],
+    "setup_requirements": [
+      "Established triangle entanglement from the bottom.",
+      "Access to the arm being attacked.",
+      "Control of the wrist and elbow appropriate to this attack.",
+      "Enough posture control to adjust the grip without losing the entanglement."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Maintain the entanglement",
+        "description": "Keep control of the opponent’s posture as you change your attacking grip."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify the available arm position",
+        "description": "Confirm that the arm position supports a bent arm with internal shoulder rotation attack."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure the wrist and elbow",
+        "description": "Keep the elbow bent and control the wrist while using the triangle entanglement to limit the opponent’s posture."
+      },
+      {
+        "step_number": 4,
+        "action": "Address the defensive grip",
+        "description": "If the opponent connects their hands, preserve control and address the connection before adding pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Apply controlled finishing pressure",
+        "description": "Increase pressure progressively only while the joint alignment and control remain established."
+      },
+      {
+        "step_number": 6,
+        "action": "Release or follow the defense",
+        "description": "Release immediately on a tap. If the opponent successfully protects the arm, reassess the triangle choke and other available branches."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "The opponent connects their hands to protect the arm",
+        "effectiveness": "High",
+        "your_response": "Maintain the entanglement and address the grip or switch attacks."
+      },
+      {
+        "counter": "The opponent recovers posture",
+        "effectiveness": "High",
+        "your_response": "Address posture before continuing the arm finish."
+      },
+      {
+        "counter": "The opponent extracts the attacked arm",
+        "effectiveness": "High",
+        "your_response": "Reassess the neck attack and positional recovery."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Abandoning posture control",
+        "consequence": "The opponent can disrupt the entanglement",
+        "correction": "Maintain the triangle while changing grips."
+      },
+      {
+        "error": "Forcing the wrong arm alignment",
+        "consequence": "The intended joint lock is unavailable",
+        "correction": "Switch to an attack matching the available arm position."
+      },
+      {
+        "error": "Pulling with the arms alone",
+        "consequence": "Control and alignment deteriorate",
+        "correction": "Use coordinated control of the wrist, elbow, and entanglement."
+      },
+      {
+        "error": "Treating entry as a completed finish",
+        "consequence": "The defender still has meaningful responses",
+        "correction": "Establish the attack, then choose and execute the finish."
+      },
+      {
+        "error": "Continuing after a tap",
+        "consequence": "The partner can be injured",
+        "correction": "Release both the arm attack and triangle immediately."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "1",
+        "focus": "Recognition",
+        "description": "Identify which arm alignment exposes this branch."
+      },
+      {
+        "phase": "2",
+        "focus": "Control",
+        "description": "Change grips with a cooperative partner while retaining the entanglement."
+      },
+      {
+        "phase": "3",
+        "focus": "Defense recognition",
+        "description": "Practice responding to connected hands and posture recovery."
+      },
+      {
+        "phase": "4",
+        "focus": "Positional practice",
+        "description": "Use controlled positional rounds with immediate release at the tap."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What makes Kimura from Triangle Control a distinct state?",
+        "answer": "The triangle entanglement is retained, but the active submission threat is the arm."
+      },
+      {
+        "question": "What joint action defines Kimura from Triangle Control?",
+        "answer": "Bent arm with internal shoulder rotation. The triangle entanglement remains in place while the arm becomes the active target."
+      },
+      {
+        "question": "What must remain controlled when entering Kimura from Triangle Control?",
+        "answer": "The opponent’s posture and the triangle entanglement."
+      },
+      {
+        "question": "Does entering Kimura from Triangle Control complete the submission?",
+        "answer": "No. The attacker must still finish, and the defender can respond."
+      },
+      {
+        "question": "What must be released when a partner taps during Kimura from Triangle Control?",
+        "answer": "Both the arm attack and the triangle entanglement, immediately."
+      }
+    ],
+    "clips": []
+  },
+  "defender": {
+    "name": "Kimura from Triangle Control Defender",
+    "description": "Defend the arm attack while addressing the retained triangle entanglement.",
+    "overview": "The triangle entanglement remains in place while the attacker changes the active threat to the arm. Protect the joint first, keep the neck defended, and recover posture only after the immediate arm threat is addressed.",
+    "key_principles": [
+      "Recognize the change from neck attack to arm attack.",
+      "Protect the attacked joint before attempting positional recovery.",
+      "Keep the neck protected while defending the arm.",
+      "Recover posture only when the joint is protected.",
+      "Tap immediately if you cannot defend safely."
+    ],
+    "recognition_cues": [
+      "The attacker redirects hand control to the wrist and elbow.",
+      "The attacker aligns the arm for bent arm with internal shoulder rotation.",
+      "The leg entanglement remains in place during the arm attack."
+    ],
+    "defensive_options": [
+      {
+        "action": "Connect the hands to protect the arm",
+        "when_to_use": "Before the attacker separates and aligns the attacked arm",
+        "targets_outcome": "Triangle Control/Bottom",
+        "if_successful": "The immediate arm finish is blocked while the triangle remains.",
+        "risk": "The neck attack remains available."
+      },
+      {
+        "action": "Recover posture while keeping the arm protected",
+        "when_to_use": "After protecting the joint and creating space",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The triangle entanglement is cleared and you remain on top.",
+        "risk": "Reaching or posturing without arm protection can expose the finish."
+      },
+      {
+        "action": "Extract the arm when the attacking grip loosens",
+        "when_to_use": "When a grip change creates an opening without loading the joint",
+        "targets_outcome": "Triangle Control/Bottom",
+        "if_successful": "The arm attack is interrupted.",
+        "risk": "The attacker can return to the neck attack."
+      }
+    ],
+    "escape_paths": [
+      "Protect the attacked arm, then recover posture and clear the leg entanglement.",
+      "Extract the arm during a safe grip opening while continuing to defend the neck."
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Protect the arm and clear the triangle, arriving on top from the defender’s perspective."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the arm attack while defending the choke",
+        "consequence": "The attacker can finish the joint lock",
+        "correction": "Protect the attacked joint while continuing to defend the neck."
+      },
+      {
+        "error": "Jerking the arm free against a fixed grip",
+        "consequence": "Sudden movement can injure the joint",
+        "correction": "Use controlled defensive movement; tap if the joint is trapped."
+      },
+      {
+        "error": "Recovering posture before protecting the arm",
+        "consequence": "The arm may remain exposed as the body moves",
+        "correction": "Protect the joint before attempting positional recovery."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What remains dangerous while defending Kimura from Triangle Control?",
+        "answer": "The triangle choke remains available while the leg entanglement is retained."
+      },
+      {
+        "question": "What is the first priority when caught in Kimura from Triangle Control?",
+        "answer": "Protect the attacked joint before attempting posture recovery."
+      },
+      {
+        "question": "What should you do if Kimura from Triangle Control is secured and safe defense is no longer available?",
+        "answer": "Tap immediately when safe defense is no longer available; do not wait for pain or try to force through a secured joint lock."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "1",
+        "focus": "Recognition",
+        "description": "Identify which arm alignment exposes this branch."
+      },
+      {
+        "phase": "2",
+        "focus": "Control",
+        "description": "Change grips with a cooperative partner while retaining the entanglement."
+      },
+      {
+        "phase": "3",
+        "focus": "Defense recognition",
+        "description": "Practice responding to connected hands and posture recovery."
+      }
+    ],
+    "clips": []
+  }
+}

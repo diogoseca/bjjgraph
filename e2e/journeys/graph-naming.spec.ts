@@ -547,7 +547,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
     }
     return { titled, roled, bad }
   })
-  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(136)
+  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(133) // census:positions
   expect(corpus.roled, `and the graph prints none of them (${JSON.stringify(corpus.bad)})`).toBe(0)
 
   // ...AND ON THE GLASS, which is what stops this journey from being a re-implementation of the
@@ -653,7 +653,13 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  // Mount/Bottom, not Side-Control/Bottom (v1.171.0): the boot state is only a FRAME that must
+  // contain an isolated, ambiguous, qualified pair. The Kesa Gatame collapse re-embedded 27
+  // nodes around Side Control and the old frame lost its last candidate (`clear >= 300` found
+  // nothing); measured over ten states at 1440x900, Mount/Bottom's `Ezekiel Choke from Mount`
+  // clears by 1874px — the most room of any frame, so a future re-layout is least likely to
+  // take it away. Side-Control/Top, Closed-Guard/Bottom and Turtle/Bottom also have none.
+  await j.boot("/Positions/Mount/Bottom")
   await j.advance(6000)
 
   // a technique pair with a real qualifier, well clear of other nodes in its own label bands

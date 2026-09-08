@@ -314,7 +314,7 @@ The Back Take from Kesa Gatame occupies a critical role in the bottom player's e
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation commonly established after completing this transition
 
-- [[Positions/Side Control/Reverse Kesa-Gatame]] - Related Kesa variation the top player may transition to when defending the back take
+- [[Positions/Side Control/Ushiro Kesa Gatame]] - Related Kesa variation the top player may transition to when defending the back take
 
 - [[Positions/Mount]] - Counter position opponent may achieve if back take attempt fails and they step over
 

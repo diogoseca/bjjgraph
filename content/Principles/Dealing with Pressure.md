@@ -328,7 +328,7 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 
 **Mount Control**: Under established mount control, pressure management involves systematic frame construction to prevent grapevine hooks, protecting neck constantly, and using small hip movements to prevent opponent from achieving perfect weight distribution.
 
-**Kuzure Kesa-Gatame**: Under modified scarf hold pressure, management requires protecting near arm from kimura attacks, using far arm to create breathing space, and maintaining hip mobility to prevent opponent from consolidating control.
+**Kuzure Kesa Gatame**: Under modified scarf hold pressure, management requires protecting near arm from kimura attacks, using far arm to create breathing space, and maintaining hip mobility to prevent opponent from consolidating control.
 
 
 

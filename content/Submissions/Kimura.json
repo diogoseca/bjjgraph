@@ -88,7 +88,8 @@
     "North-South",
     "Kimura Trap",
     "Open Guard",
-    "Clinch"
+    "Clinch",
+    "Triangle Control"
   ],
   "related_submissions": [
     {
@@ -291,7 +292,7 @@
       "slug": "from-knee-on-belly"
     },
     {
-      "name": "from Kuzure Kesa-Gatame",
+      "name": "from Kuzure Kesa Gatame",
       "slug": "from-kuzure-kesa-gatame"
     },
     {
@@ -307,20 +308,12 @@
       "slug": "from-modified-mount"
     },
     {
-      "name": "from Modified Scarf Hold",
-      "slug": "from-modified-scarf-hold"
-    },
-    {
       "name": "from Mount",
       "slug": "from-mount"
     },
     {
       "name": "from New York Control",
       "slug": "from-new-york-control"
-    },
-    {
-      "name": "from North-South",
-      "slug": "from-north-south"
     },
     {
       "name": "from Overhook Control",
@@ -331,20 +324,12 @@
       "slug": "from-quarter-guard"
     },
     {
-      "name": "from Reverse Kesa-Gatame",
-      "slug": "from-reverse-kesa-gatame"
-    },
-    {
-      "name": "from Reverse Scarf Hold",
-      "slug": "from-reverse-scarf-hold"
+      "name": "from Ushiro Kesa Gatame",
+      "slug": "from-ushiro-kesa-gatame"
     },
     {
       "name": "from S Mount",
       "slug": "from-s-mount"
-    },
-    {
-      "name": "from Scarf Hold Position",
-      "slug": "from-scarf-hold-position"
     },
     {
       "name": "from Shoulder of Justice",
@@ -365,6 +350,10 @@
     {
       "name": "from Twister Side Control",
       "slug": "from-twister-side-control"
+    },
+    {
+      "name": "Kimura from Triangle Control",
+      "slug": "from-triangle-control"
     }
   ],
   "clips": [

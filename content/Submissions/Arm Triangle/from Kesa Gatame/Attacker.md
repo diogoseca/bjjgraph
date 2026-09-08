@@ -188,8 +188,8 @@ description: "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm Triangle from Scarf Hold Position",
-      "description": "Arm Triangle from Kesa Gatame (Attacker) film study: Arm Triangle from Scarf Hold Position, taught by Mat Life Training Center.",
+      "name": "Arm Triangle from Kesa Gatame",
+      "description": "Arm Triangle from Kesa Gatame (Attacker) film study: Arm Triangle from Kesa Gatame, taught by Mat Life Training Center.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
       "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
@@ -247,7 +247,7 @@ The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head 
 
 ![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
 
-<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Triangle from Kesa Gatame</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

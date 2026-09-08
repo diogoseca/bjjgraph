@@ -339,6 +339,9 @@ test("caught with the hand put away: the escape tray stays away too, and a colla
     const a = (window as any).__neural
     a.enterDefense(a.nodes.findIndex((n: any) => n.ty === "submissions"))
   })
+  // Cold submission choices load over the network; a simulated frame advance does not
+  // await that response. Observe the completed catch before checking its hidden layers.
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._defendSub != null)).toBe(true)
   await j.advance(400)
   const d = await page.evaluate(() => {
     const a = (window as any).__neural

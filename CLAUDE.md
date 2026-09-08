@@ -363,6 +363,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
 | outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
+| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or `aka <alias>` on a position) · `nodeMatches` (search reads the alias too) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
 | decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
 | a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
@@ -495,6 +496,10 @@ symbol to every version that touched it.
   **Do:** any new WebGL surface on a page the journeys boot must either early-return on `window.__NEURAL_TEST__` or be registered for the sweep in `e2e/dsl.ts` (contexts are recorded at creation into `__glCtxs` and lost before navigation). **Never probe with `getContext("webgl")` to DETECT a context — that CREATES one**, at ~11s to make and lose.
   **Diagnostic:** if the dev preview looks stale, read the gate step's DURATION before assuming a content problem.
   <br>_(the two Pixi surfaces that caused it are deleted, but the sweep and the guard are live and load-bearing)_
+
+- **`ERR_INSUFFICIENT_RESOURCES` · `Target crashed` · a 240s timeout on a spec that takes 2s — read `df -h /` BEFORE reading the diff.** Chromium's user-data-dir and temp files go to `TMPDIR` (default `/tmp`), which on this host is the 25G ROOT volume, not the 98G `/home` one the repo sits on. A full root does not fail loudly: the browser dies on the 4th or 5th heavy navigation in one page, the failing route MOVES between runs, and every other test in the same file passes. Measured: `forward-components.spec.ts:716` red 3-of-3 at 6.2s with 111M free, green 2-of-2 at 2.0s with `TMPDIR=/home/user/tmp-pw`, same commit, same idle box. It also mimics contention exactly (`browserContext.close: Target … has been closed` under a full suite), so it is the first thing to rule out, not the last.
+  **Do:** `TMPDIR=<dir on the roomy volume> npx playwright test …`, and never conclude a red is "load" or "content" until `df` is clean. Ruling out shm (`--disable-dev-shm-usage`) and the disk CACHE (`--disk-cache-dir`) does not rule out the profile — that is the mistake that cost a session here.
+  <br>_(1 measured, and it had already been misread twice as contention)_
 
 ### 6.5 Before you write app runtime logic
 

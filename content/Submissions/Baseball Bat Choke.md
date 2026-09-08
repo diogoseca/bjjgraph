@@ -224,7 +224,6 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 - [[Transitions/Side Control to North-South]] - Common transition that creates baseball bat opportunities
 - [[Positions/Back Control]] - Baseball bat grips can facilitate back take if choke angle is not optimal
 - [[Positions/Mount]] - Position advancement option when opponent turns into the choke
-- [[Positions/Side Control/Scarf Hold Position]] - Transitional position that can lead to baseball bat setup
 
 </section>
 

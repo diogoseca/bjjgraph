@@ -689,14 +689,14 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 111,
-      "name": "Bridge Escape from Modified Mount",
-      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-modified-mount"
+      "name": "Bridge Escape from Kuzure Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
       "position": 112,
-      "name": "Bridge Escape from Modified Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-modified-scarf-hold"
+      "name": "Bridge Escape from Modified Mount",
+      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-modified-mount"
     },
     {
       "@type": "ListItem",
@@ -707,860 +707,860 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 114,
-      "name": "Bridge Escape from Reverse Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-reverse-scarf-hold"
-    },
-    {
-      "@type": "ListItem",
-      "position": 115,
       "name": "Bridge Escape from S Mount",
       "url": "https://bjjgraph.org/Transitions/bridge-escape-from-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 116,
-      "name": "Bridge Escape from Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-scarf-hold"
+      "position": 115,
+      "name": "Bridge Escape from Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/bridge-escape-from-ushiro-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 116,
       "name": "Bridge and Roll",
       "url": "https://bjjgraph.org/Transitions/bridge-and-roll"
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 117,
       "name": "Bridge and Turn to Turtle",
       "url": "https://bjjgraph.org/Transitions/bridge-and-turn-to-turtle"
     },
     {
       "@type": "ListItem",
+      "position": 118,
+      "name": "Bridge from Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/bridge-from-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
       "position": 119,
-      "name": "Bridge from Modified Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/bridge-from-modified-scarf-hold"
+      "name": "Bridge from Kuzure Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/bridge-from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
       "position": 120,
-      "name": "Bridge from Reverse Kesa-Gatame",
-      "url": "https://bjjgraph.org/Transitions/bridge-from-reverse-kesa-gatame"
-    },
-    {
-      "@type": "ListItem",
-      "position": 121,
       "name": "Bridge from Reverse Mount",
       "url": "https://bjjgraph.org/Transitions/bridge-from-reverse-mount"
     },
     {
       "@type": "ListItem",
-      "position": 122,
-      "name": "Bridge from Scarf Hold Position",
-      "url": "https://bjjgraph.org/Transitions/bridge-from-scarf-hold-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 123,
+      "position": 121,
       "name": "Bridge from Technical Mount",
       "url": "https://bjjgraph.org/Transitions/bridge-from-technical-mount"
     },
     {
       "@type": "ListItem",
-      "position": 124,
+      "position": 122,
+      "name": "Bridge from Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/bridge-from-ushiro-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 123,
       "name": "Bridge to Mount from High Mount",
       "url": "https://bjjgraph.org/Transitions/bridge-to-mount-from-high-mount"
     },
     {
       "@type": "ListItem",
-      "position": 125,
+      "position": 124,
       "name": "Buggy Choke from Bottom Side Control",
       "url": "https://bjjgraph.org/Transitions/buggy-choke-from-bottom-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 126,
+      "position": 125,
       "name": "Buggy Choke to Front Headlock",
       "url": "https://bjjgraph.org/Transitions/buggy-choke-to-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 127,
+      "position": 126,
       "name": "Buggy Choke to North-South",
       "url": "https://bjjgraph.org/Transitions/buggy-choke-to-north-south"
     },
     {
       "@type": "ListItem",
-      "position": 128,
+      "position": 127,
       "name": "Buggy Choke to Side Control",
       "url": "https://bjjgraph.org/Transitions/buggy-choke-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 129,
+      "position": 128,
       "name": "Bull Pass from Collar Sleeve",
       "url": "https://bjjgraph.org/Transitions/bull-pass-from-collar-sleeve"
     },
     {
       "@type": "ListItem",
-      "position": 130,
+      "position": 129,
       "name": "Bull Pass from Seated",
       "url": "https://bjjgraph.org/Transitions/bull-pass-from-seated"
     },
     {
       "@type": "ListItem",
-      "position": 131,
+      "position": 130,
       "name": "Butterfly Guard Pull",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-pull"
     },
     {
       "@type": "ListItem",
-      "position": 132,
+      "position": 131,
       "name": "Butterfly Guard to Butterfly Half Guard",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-to-butterfly-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 133,
+      "position": 132,
       "name": "Butterfly Guard to Butterfly Hook Control",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-to-butterfly-hook-control"
     },
     {
       "@type": "ListItem",
-      "position": 134,
+      "position": 133,
       "name": "Butterfly Guard to Half Butterfly",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-to-half-butterfly"
     },
     {
       "@type": "ListItem",
-      "position": 135,
+      "position": 134,
       "name": "Butterfly Guard to Williams Guard",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-to-williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 136,
+      "position": 135,
       "name": "Butterfly Guard to X-Guard",
       "url": "https://bjjgraph.org/Transitions/butterfly-guard-to-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 137,
+      "position": 136,
       "name": "Butterfly Half Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/butterfly-half-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 138,
+      "position": 137,
       "name": "Butterfly Hook Recovery",
       "url": "https://bjjgraph.org/Transitions/butterfly-hook-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 139,
+      "position": 138,
       "name": "Butterfly Hook Sweep",
       "url": "https://bjjgraph.org/Transitions/butterfly-hook-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 140,
+      "position": 139,
       "name": "Butterfly Pass",
       "url": "https://bjjgraph.org/Transitions/butterfly-pass"
     },
     {
       "@type": "ListItem",
-      "position": 141,
+      "position": 140,
       "name": "Butterfly Smash",
       "url": "https://bjjgraph.org/Transitions/butterfly-smash"
     },
     {
       "@type": "ListItem",
-      "position": 142,
+      "position": 141,
       "name": "Butterfly Sweep",
       "url": "https://bjjgraph.org/Transitions/butterfly-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 143,
+      "position": 142,
       "name": "Butterfly Sweep with Guillotine",
       "url": "https://bjjgraph.org/Transitions/butterfly-sweep-with-guillotine"
     },
     {
       "@type": "ListItem",
-      "position": 144,
+      "position": 143,
       "name": "Carni to Gogoplata Setup",
       "url": "https://bjjgraph.org/Transitions/carni-to-gogoplata-setup"
     },
     {
       "@type": "ListItem",
-      "position": 145,
+      "position": 144,
       "name": "Cartwheel Escape from Omoplata",
       "url": "https://bjjgraph.org/Transitions/cartwheel-escape-from-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 146,
+      "position": 145,
       "name": "Cartwheel Pass",
       "url": "https://bjjgraph.org/Transitions/cartwheel-pass"
     },
     {
       "@type": "ListItem",
-      "position": 147,
+      "position": 146,
       "name": "Chair Sit to Back",
       "url": "https://bjjgraph.org/Transitions/chair-sit-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 148,
+      "position": 147,
       "name": "Clear leg and transition to X-Guard",
       "url": "https://bjjgraph.org/Transitions/clear-leg-and-transition-to-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 149,
+      "position": 148,
       "name": "Clock Choke",
       "url": "https://bjjgraph.org/Transitions/clock-choke"
     },
     {
       "@type": "ListItem",
-      "position": 150,
+      "position": 149,
       "name": "Closed Guard to Hindulotine",
       "url": "https://bjjgraph.org/Transitions/closed-guard-to-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 151,
+      "position": 150,
       "name": "Closed Guard to Omoplata",
       "url": "https://bjjgraph.org/Transitions/closed-guard-to-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 152,
+      "position": 151,
       "name": "Closed Guard to Overhook Guard",
       "url": "https://bjjgraph.org/Transitions/closed-guard-to-overhook-guard"
     },
     {
       "@type": "ListItem",
-      "position": 153,
+      "position": 152,
       "name": "Closed Guard to Triangle",
       "url": "https://bjjgraph.org/Transitions/closed-guard-to-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 154,
+      "position": 153,
       "name": "Collar Drag",
       "url": "https://bjjgraph.org/Transitions/collar-drag"
     },
     {
       "@type": "ListItem",
-      "position": 155,
+      "position": 154,
       "name": "Collar Drag from Open Guard",
       "url": "https://bjjgraph.org/Transitions/collar-drag-from-open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 156,
+      "position": 155,
       "name": "Collar Drag from Worm Guard",
       "url": "https://bjjgraph.org/Transitions/collar-drag-from-worm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 157,
+      "position": 156,
       "name": "Collar Sleeve Sweep",
       "url": "https://bjjgraph.org/Transitions/collar-sleeve-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 158,
+      "position": 157,
       "name": "Collar Sleeve to De La Riva",
       "url": "https://bjjgraph.org/Transitions/collar-sleeve-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 159,
+      "position": 158,
       "name": "Collar Sleeve to Spider Guard",
       "url": "https://bjjgraph.org/Transitions/collar-sleeve-to-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 160,
+      "position": 159,
       "name": "Combat Base to Headquarters",
       "url": "https://bjjgraph.org/Transitions/combat-base-to-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 161,
+      "position": 160,
       "name": "Complete Leg Weave Pass",
       "url": "https://bjjgraph.org/Transitions/complete-leg-weave-pass"
     },
     {
       "@type": "ListItem",
-      "position": 162,
+      "position": 161,
       "name": "Complete Pass from Flattened Half",
       "url": "https://bjjgraph.org/Transitions/complete-pass-from-flattened-half"
     },
     {
       "@type": "ListItem",
-      "position": 163,
+      "position": 162,
       "name": "Complete Pass from Quarter",
       "url": "https://bjjgraph.org/Transitions/complete-pass-from-quarter"
     },
     {
       "@type": "ListItem",
-      "position": 164,
+      "position": 163,
       "name": "Complete Triangle Escape",
       "url": "https://bjjgraph.org/Transitions/complete-triangle-escape"
     },
     {
       "@type": "ListItem",
-      "position": 165,
+      "position": 164,
       "name": "Consolidate Mount",
       "url": "https://bjjgraph.org/Transitions/consolidate-mount"
     },
     {
       "@type": "ListItem",
-      "position": 166,
+      "position": 165,
       "name": "Controlled Descent",
       "url": "https://bjjgraph.org/Transitions/controlled-descent"
     },
     {
       "@type": "ListItem",
-      "position": 167,
+      "position": 166,
       "name": "Counter Ashi Entry",
       "url": "https://bjjgraph.org/Transitions/counter-ashi-entry"
     },
     {
       "@type": "ListItem",
-      "position": 168,
+      "position": 167,
       "name": "Counter Entangle from Cross Ashi",
       "url": "https://bjjgraph.org/Transitions/counter-entangle-from-cross-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 169,
+      "position": 168,
       "name": "Counter Entangle to 50-50 from Ashi",
       "url": "https://bjjgraph.org/Transitions/counter-entangle-to-50-50-from-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 170,
+      "position": 169,
       "name": "Counter Entry to Opponent's Leg",
       "url": "https://bjjgraph.org/Transitions/counter-entry-to-opponent's-leg"
     },
     {
       "@type": "ListItem",
-      "position": 171,
+      "position": 170,
       "name": "Counter Leg Attack",
       "url": "https://bjjgraph.org/Transitions/counter-leg-attack"
     },
     {
       "@type": "ListItem",
-      "position": 172,
+      "position": 171,
       "name": "Counter Leg Hook",
       "url": "https://bjjgraph.org/Transitions/counter-leg-hook"
     },
     {
       "@type": "ListItem",
-      "position": 173,
+      "position": 172,
       "name": "Counter Roll from Matrix",
       "url": "https://bjjgraph.org/Transitions/counter-roll-from-matrix"
     },
     {
       "@type": "ListItem",
-      "position": 174,
+      "position": 173,
       "name": "Counter Roll to Top",
       "url": "https://bjjgraph.org/Transitions/counter-roll-to-top"
     },
     {
       "@type": "ListItem",
-      "position": 175,
+      "position": 174,
       "name": "Counter Rotation from Toe Hold",
       "url": "https://bjjgraph.org/Transitions/counter-rotation-from-toe-hold"
     },
     {
       "@type": "ListItem",
-      "position": 176,
+      "position": 175,
       "name": "Counter Sweep",
       "url": "https://bjjgraph.org/Transitions/counter-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 177,
+      "position": 176,
       "name": "Counter Sweep from Leg Entanglement",
       "url": "https://bjjgraph.org/Transitions/counter-sweep-from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 178,
+      "position": 177,
       "name": "Counter Sweep from Outside Ashi",
       "url": "https://bjjgraph.org/Transitions/counter-sweep-from-outside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 179,
+      "position": 178,
       "name": "Counter Throw from Standing Rear Clinch",
       "url": "https://bjjgraph.org/Transitions/counter-throw-from-standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 180,
+      "position": 179,
       "name": "Counter from Ankle Lock",
       "url": "https://bjjgraph.org/Transitions/counter-from-ankle-lock"
     },
     {
       "@type": "ListItem",
-      "position": 181,
+      "position": 180,
       "name": "Counter from Estima Lock",
       "url": "https://bjjgraph.org/Transitions/counter-from-estima-lock"
     },
     {
       "@type": "ListItem",
-      "position": 182,
+      "position": 181,
       "name": "Counter heel hook",
       "url": "https://bjjgraph.org/Transitions/counter-heel-hook"
     },
     {
       "@type": "ListItem",
-      "position": 183,
+      "position": 182,
       "name": "Counter-entangle to 50-50 Guard",
       "url": "https://bjjgraph.org/Transitions/counter-entangle-to-50-50-guard"
     },
     {
       "@type": "ListItem",
-      "position": 184,
+      "position": 183,
       "name": "Crab Ride Escape to Guard",
       "url": "https://bjjgraph.org/Transitions/crab-ride-escape-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 185,
+      "position": 184,
       "name": "Crab Ride to Back",
       "url": "https://bjjgraph.org/Transitions/crab-ride-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 186,
+      "position": 185,
       "name": "Crackhead Control Entry",
       "url": "https://bjjgraph.org/Transitions/crackhead-control-entry"
     },
     {
       "@type": "ListItem",
-      "position": 187,
+      "position": 186,
       "name": "Crackhead Control to Carni",
       "url": "https://bjjgraph.org/Transitions/crackhead-control-to-carni"
     },
     {
       "@type": "ListItem",
-      "position": 188,
+      "position": 187,
       "name": "Crackhead Control to Mission Control",
       "url": "https://bjjgraph.org/Transitions/crackhead-control-to-mission-control"
     },
     {
       "@type": "ListItem",
-      "position": 189,
+      "position": 188,
       "name": "Crackhead Control to New York",
       "url": "https://bjjgraph.org/Transitions/crackhead-control-to-new-york"
     },
     {
       "@type": "ListItem",
-      "position": 190,
+      "position": 189,
       "name": "Cross Ashi Transition",
       "url": "https://bjjgraph.org/Transitions/cross-ashi-transition"
     },
     {
       "@type": "ListItem",
-      "position": 191,
+      "position": 190,
       "name": "Cross Ashi to 50-50",
       "url": "https://bjjgraph.org/Transitions/cross-ashi-to-50-50"
     },
     {
       "@type": "ListItem",
-      "position": 192,
+      "position": 191,
       "name": "Cross Body to Back Control",
       "url": "https://bjjgraph.org/Transitions/cross-body-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 193,
+      "position": 192,
       "name": "Cross Body to Side Control",
       "url": "https://bjjgraph.org/Transitions/cross-body-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 194,
+      "position": 193,
       "name": "Cross Face Pass from Flattened Half",
       "url": "https://bjjgraph.org/Transitions/cross-face-pass-from-flattened-half"
     },
     {
       "@type": "ListItem",
-      "position": 195,
+      "position": 194,
       "name": "Crossface Pass",
       "url": "https://bjjgraph.org/Transitions/crossface-pass"
     },
     {
       "@type": "ListItem",
-      "position": 196,
+      "position": 195,
       "name": "Crossface from Dogfight",
       "url": "https://bjjgraph.org/Transitions/crossface-from-dogfight"
     },
     {
       "@type": "ListItem",
-      "position": 197,
+      "position": 196,
       "name": "Crossface from Old School",
       "url": "https://bjjgraph.org/Transitions/crossface-from-old-school"
     },
     {
       "@type": "ListItem",
-      "position": 198,
+      "position": 197,
       "name": "Crossface to Combat Base",
       "url": "https://bjjgraph.org/Transitions/crossface-to-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 199,
+      "position": 198,
       "name": "Crucifix Choke Defense",
       "url": "https://bjjgraph.org/Transitions/crucifix-choke-defense"
     },
     {
       "@type": "ListItem",
-      "position": 200,
+      "position": 199,
       "name": "Crucifix Maintenance",
       "url": "https://bjjgraph.org/Transitions/crucifix-maintenance"
     },
     {
       "@type": "ListItem",
-      "position": 201,
+      "position": 200,
       "name": "Crucifix Transition",
       "url": "https://bjjgraph.org/Transitions/crucifix-transition"
     },
     {
       "@type": "ListItem",
-      "position": 202,
+      "position": 201,
       "name": "Crucifix from Turtle",
       "url": "https://bjjgraph.org/Transitions/crucifix-from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 203,
+      "position": 202,
       "name": "Crucifix to Mount",
       "url": "https://bjjgraph.org/Transitions/crucifix-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 204,
+      "position": 203,
       "name": "Darce Control Maintenance",
       "url": "https://bjjgraph.org/Transitions/darce-control-maintenance"
     },
     {
       "@type": "ListItem",
-      "position": 205,
+      "position": 204,
       "name": "Darce Setup",
       "url": "https://bjjgraph.org/Transitions/darce-setup"
     },
     {
       "@type": "ListItem",
-      "position": 206,
+      "position": 205,
       "name": "Darce from Lockdown Counter",
       "url": "https://bjjgraph.org/Transitions/darce-from-lockdown-counter"
     },
     {
       "@type": "ListItem",
-      "position": 207,
+      "position": 206,
       "name": "Darce from Turtle",
       "url": "https://bjjgraph.org/Transitions/darce-from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 208,
+      "position": 207,
       "name": "Darce to Anaconda Switch",
       "url": "https://bjjgraph.org/Transitions/darce-to-anaconda-switch"
     },
     {
       "@type": "ListItem",
-      "position": 209,
+      "position": 208,
       "name": "De La Riva Sweep",
       "url": "https://bjjgraph.org/Transitions/de-la-riva-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 210,
+      "position": 209,
       "name": "De La Riva to Grasshopper Guard",
       "url": "https://bjjgraph.org/Transitions/de-la-riva-to-grasshopper-guard"
     },
     {
       "@type": "ListItem",
-      "position": 211,
+      "position": 210,
       "name": "De La Riva to Inverted Guard",
       "url": "https://bjjgraph.org/Transitions/de-la-riva-to-inverted-guard"
     },
     {
       "@type": "ListItem",
-      "position": 212,
+      "position": 211,
       "name": "De La Riva to Lapel Guard",
       "url": "https://bjjgraph.org/Transitions/de-la-riva-to-lapel-guard"
     },
     {
       "@type": "ListItem",
-      "position": 213,
+      "position": 212,
       "name": "De La Riva to X-Guard Transition",
       "url": "https://bjjgraph.org/Transitions/de-la-riva-to-x-guard-transition"
     },
     {
       "@type": "ListItem",
-      "position": 214,
+      "position": 213,
       "name": "Dead Orchard to Darce Switch",
       "url": "https://bjjgraph.org/Transitions/dead-orchard-to-darce-switch"
     },
     {
       "@type": "ListItem",
-      "position": 215,
+      "position": 214,
       "name": "Deashi Harai",
       "url": "https://bjjgraph.org/Transitions/deashi-harai"
     },
     {
       "@type": "ListItem",
-      "position": 216,
+      "position": 215,
       "name": "Deep Half Entry",
       "url": "https://bjjgraph.org/Transitions/deep-half-entry"
     },
     {
       "@type": "ListItem",
-      "position": 217,
+      "position": 216,
       "name": "Deep Half Entry from Flattened",
       "url": "https://bjjgraph.org/Transitions/deep-half-entry-from-flattened"
     },
     {
       "@type": "ListItem",
-      "position": 218,
+      "position": 217,
       "name": "Deep Half Sweep",
       "url": "https://bjjgraph.org/Transitions/deep-half-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 219,
+      "position": 218,
       "name": "Deep Half to X-Guard",
       "url": "https://bjjgraph.org/Transitions/deep-half-to-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 220,
+      "position": 219,
       "name": "Defend Old School Sweep",
       "url": "https://bjjgraph.org/Transitions/defend-old-school-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 221,
+      "position": 220,
       "name": "Defend Vaporizer Sweep",
       "url": "https://bjjgraph.org/Transitions/defend-vaporizer-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 222,
+      "position": 221,
       "name": "Defense from Standing Rear Clinch",
       "url": "https://bjjgraph.org/Transitions/defense-from-standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 223,
+      "position": 222,
       "name": "Defensive Roll",
       "url": "https://bjjgraph.org/Transitions/defensive-roll"
     },
     {
       "@type": "ListItem",
-      "position": 224,
+      "position": 223,
       "name": "Distance Creation to Reset",
       "url": "https://bjjgraph.org/Transitions/distance-creation-to-reset"
     },
     {
       "@type": "ListItem",
-      "position": 225,
+      "position": 224,
       "name": "Dogfight Position",
       "url": "https://bjjgraph.org/Transitions/dogfight-position"
     },
     {
       "@type": "ListItem",
-      "position": 226,
+      "position": 225,
       "name": "Dogfight Sweep",
       "url": "https://bjjgraph.org/Transitions/dogfight-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 227,
+      "position": 226,
       "name": "Double Jump to Mount",
       "url": "https://bjjgraph.org/Transitions/double-jump-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 228,
+      "position": 227,
       "name": "Double Jump to Side Control",
       "url": "https://bjjgraph.org/Transitions/double-jump-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 229,
+      "position": 228,
       "name": "Double Leg Entry",
       "url": "https://bjjgraph.org/Transitions/double-leg-entry"
     },
     {
       "@type": "ListItem",
-      "position": 230,
+      "position": 229,
       "name": "Double Leg Finish",
       "url": "https://bjjgraph.org/Transitions/double-leg-finish"
     },
     {
       "@type": "ListItem",
-      "position": 231,
+      "position": 230,
       "name": "Double Leg Setup",
       "url": "https://bjjgraph.org/Transitions/double-leg-setup"
     },
     {
       "@type": "ListItem",
-      "position": 232,
+      "position": 231,
       "name": "Double Sleeve Sweep",
       "url": "https://bjjgraph.org/Transitions/double-sleeve-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 233,
+      "position": 232,
       "name": "Double Sleeve to De La Riva",
       "url": "https://bjjgraph.org/Transitions/double-sleeve-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 234,
+      "position": 233,
       "name": "Double Sleeve to Lasso",
       "url": "https://bjjgraph.org/Transitions/double-sleeve-to-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 235,
+      "position": 234,
       "name": "Double Sleeve to Spider",
       "url": "https://bjjgraph.org/Transitions/double-sleeve-to-spider"
     },
     {
       "@type": "ListItem",
-      "position": 236,
+      "position": 235,
       "name": "Double Sleeve to Spider Guard",
       "url": "https://bjjgraph.org/Transitions/double-sleeve-to-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 237,
+      "position": 236,
       "name": "Double Under Pass",
       "url": "https://bjjgraph.org/Transitions/double-under-pass"
     },
     {
       "@type": "ListItem",
-      "position": 238,
+      "position": 237,
       "name": "Double Underhook Pass",
       "url": "https://bjjgraph.org/Transitions/double-underhook-pass"
     },
     {
       "@type": "ListItem",
-      "position": 239,
+      "position": 238,
       "name": "Duck Under from Clinch",
       "url": "https://bjjgraph.org/Transitions/duck-under-from-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 240,
+      "position": 239,
       "name": "Elbow Escape from 3-4 Mount",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-from-3-4-mount"
     },
     {
       "@type": "ListItem",
-      "position": 241,
+      "position": 240,
       "name": "Elbow Escape from Back",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 242,
+      "position": 241,
       "name": "Elbow Escape from Flattened Half",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-from-flattened-half"
     },
     {
       "@type": "ListItem",
-      "position": 243,
+      "position": 242,
       "name": "Elbow Escape from Mount",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 244,
+      "position": 243,
       "name": "Elbow Escape to Guard",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 245,
+      "position": 244,
       "name": "Elbow Escape to Remove Hooks",
       "url": "https://bjjgraph.org/Transitions/elbow-escape-to-remove-hooks"
     },
     {
       "@type": "ListItem",
-      "position": 246,
+      "position": 245,
       "name": "Electric Chair Entry from Deep Half",
       "url": "https://bjjgraph.org/Transitions/electric-chair-entry-from-deep-half"
     },
     {
       "@type": "ListItem",
-      "position": 247,
+      "position": 246,
       "name": "Electric Chair Transition",
       "url": "https://bjjgraph.org/Transitions/electric-chair-transition"
     },
     {
       "@type": "ListItem",
-      "position": 248,
+      "position": 247,
       "name": "Elevation Sweep to Mount",
       "url": "https://bjjgraph.org/Transitions/elevation-sweep-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 249,
+      "position": 248,
       "name": "Elevator Sweep",
       "url": "https://bjjgraph.org/Transitions/elevator-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 250,
+      "position": 249,
       "name": "Escape Body Lock",
       "url": "https://bjjgraph.org/Transitions/escape-body-lock"
     },
     {
       "@type": "ListItem",
-      "position": 251,
+      "position": 250,
       "name": "Escape Chill Dog",
       "url": "https://bjjgraph.org/Transitions/escape-chill-dog"
     },
     {
       "@type": "ListItem",
-      "position": 252,
+      "position": 251,
       "name": "Escape Dead Orchard Control",
       "url": "https://bjjgraph.org/Transitions/escape-dead-orchard-control"
     },
     {
       "@type": "ListItem",
-      "position": 253,
+      "position": 252,
       "name": "Escape Double Jump",
       "url": "https://bjjgraph.org/Transitions/escape-double-jump"
     },
     {
       "@type": "ListItem",
+      "position": 253,
+      "name": "Escape Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/escape-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
       "position": 254,
+      "name": "Escape Kuzure Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/escape-kuzure-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 255,
       "name": "Escape Leg Hook",
       "url": "https://bjjgraph.org/Transitions/escape-leg-hook"
     },
     {
       "@type": "ListItem",
-      "position": 255,
+      "position": 256,
       "name": "Escape Matrix Position",
       "url": "https://bjjgraph.org/Transitions/escape-matrix-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 256,
-      "name": "Escape Modified Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/escape-modified-scarf-hold"
     },
     {
       "@type": "ListItem",
@@ -1571,1178 +1571,1178 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 258,
-      "name": "Escape Reverse Kesa-Gatame",
-      "url": "https://bjjgraph.org/Transitions/escape-reverse-kesa-gatame"
-    },
-    {
-      "@type": "ListItem",
-      "position": 259,
       "name": "Escape Reverse Mount",
       "url": "https://bjjgraph.org/Transitions/escape-reverse-mount"
     },
     {
       "@type": "ListItem",
-      "position": 260,
-      "name": "Escape Reverse Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/escape-reverse-scarf-hold"
-    },
-    {
-      "@type": "ListItem",
-      "position": 261,
-      "name": "Escape Scarf Hold Position",
-      "url": "https://bjjgraph.org/Transitions/escape-scarf-hold-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 262,
+      "position": 259,
       "name": "Escape Seat Belt Control",
       "url": "https://bjjgraph.org/Transitions/escape-seat-belt-control"
     },
     {
       "@type": "ListItem",
-      "position": 263,
+      "position": 260,
       "name": "Escape Shoulder of Justice",
       "url": "https://bjjgraph.org/Transitions/escape-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 264,
+      "position": 261,
       "name": "Escape Technical Mount to Half Guard",
       "url": "https://bjjgraph.org/Transitions/escape-technical-mount-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 265,
+      "position": 262,
       "name": "Escape Twister Side Control",
       "url": "https://bjjgraph.org/Transitions/escape-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 266,
+      "position": 263,
+      "name": "Escape Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/escape-ushiro-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 264,
       "name": "Escape Vaporizer",
       "url": "https://bjjgraph.org/Transitions/escape-vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 267,
+      "position": 265,
       "name": "Escape Z-Lock Half Guard",
       "url": "https://bjjgraph.org/Transitions/escape-z-lock-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 268,
+      "position": 266,
       "name": "Escape Zombie Control",
       "url": "https://bjjgraph.org/Transitions/escape-zombie-control"
     },
     {
       "@type": "ListItem",
-      "position": 269,
+      "position": 267,
       "name": "Escape from Crab Ride",
       "url": "https://bjjgraph.org/Transitions/escape-from-crab-ride"
     },
     {
       "@type": "ListItem",
-      "position": 270,
+      "position": 268,
       "name": "Escape from Cross Body Ride",
       "url": "https://bjjgraph.org/Transitions/escape-from-cross-body-ride"
     },
     {
       "@type": "ListItem",
-      "position": 271,
+      "position": 269,
       "name": "Escape from Dead Orchard",
       "url": "https://bjjgraph.org/Transitions/escape-from-dead-orchard"
     },
     {
       "@type": "ListItem",
-      "position": 272,
+      "position": 270,
       "name": "Escape from Rodeo Ride",
       "url": "https://bjjgraph.org/Transitions/escape-from-rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 273,
+      "position": 271,
       "name": "Escape from Russian Cowboy",
       "url": "https://bjjgraph.org/Transitions/escape-from-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 274,
+      "position": 272,
       "name": "Escape from Truck",
       "url": "https://bjjgraph.org/Transitions/escape-from-truck"
     },
     {
       "@type": "ListItem",
-      "position": 275,
+      "position": 273,
       "name": "Escape from Vaporizer",
       "url": "https://bjjgraph.org/Transitions/escape-from-vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 276,
+      "position": 274,
       "name": "Estima Lock Counter Roll",
       "url": "https://bjjgraph.org/Transitions/estima-lock-counter-roll"
     },
     {
       "@type": "ListItem",
-      "position": 277,
+      "position": 275,
       "name": "Estima Lock to Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/estima-lock-to-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 278,
+      "position": 276,
       "name": "Estima Lock to Saddle",
       "url": "https://bjjgraph.org/Transitions/estima-lock-to-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 279,
+      "position": 277,
       "name": "Explosive Bridge to Guard Recovery",
       "url": "https://bjjgraph.org/Transitions/explosive-bridge-to-guard-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 280,
+      "position": 278,
       "name": "Explosive Bridge to Turtle",
       "url": "https://bjjgraph.org/Transitions/explosive-bridge-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 281,
+      "position": 279,
       "name": "Explosive Forward Roll",
       "url": "https://bjjgraph.org/Transitions/explosive-forward-roll"
     },
     {
       "@type": "ListItem",
-      "position": 282,
+      "position": 280,
       "name": "Extract leg and establish Single Leg X",
       "url": "https://bjjgraph.org/Transitions/extract-leg-and-establish-single-leg-x"
     },
     {
       "@type": "ListItem",
-      "position": 283,
+      "position": 281,
       "name": "Extract legs and stand up",
       "url": "https://bjjgraph.org/Transitions/extract-legs-and-stand-up"
     },
     {
       "@type": "ListItem",
-      "position": 284,
+      "position": 282,
       "name": "Fallback to Inside Ashi-Garami",
       "url": "https://bjjgraph.org/Transitions/fallback-to-inside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 285,
+      "position": 283,
       "name": "Far Side Armbar from KOB",
       "url": "https://bjjgraph.org/Transitions/far-side-armbar-from-kob"
     },
     {
       "@type": "ListItem",
-      "position": 286,
+      "position": 284,
       "name": "Feet on Hips Sickle Sweep",
       "url": "https://bjjgraph.org/Transitions/feet-on-hips-sickle-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 287,
+      "position": 285,
       "name": "Feet on Hips Tripod Sweep",
       "url": "https://bjjgraph.org/Transitions/feet-on-hips-tripod-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 288,
+      "position": 286,
       "name": "Feet on Hips to De La Riva",
       "url": "https://bjjgraph.org/Transitions/feet-on-hips-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 289,
+      "position": 287,
       "name": "Fight to Inside Ashi from Saddle",
       "url": "https://bjjgraph.org/Transitions/fight-to-inside-ashi-from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 290,
+      "position": 288,
       "name": "Finish Buggy Choke",
       "url": "https://bjjgraph.org/Transitions/finish-buggy-choke"
     },
     {
       "@type": "ListItem",
-      "position": 291,
+      "position": 289,
       "name": "Finish from Hindulotine",
       "url": "https://bjjgraph.org/Transitions/finish-from-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 292,
+      "position": 290,
       "name": "Fireman's Carry",
       "url": "https://bjjgraph.org/Transitions/fireman's-carry"
     },
     {
       "@type": "ListItem",
-      "position": 293,
+      "position": 291,
       "name": "Float Passing",
       "url": "https://bjjgraph.org/Transitions/float-passing"
     },
     {
       "@type": "ListItem",
-      "position": 294,
+      "position": 292,
       "name": "Flower Sweep",
       "url": "https://bjjgraph.org/Transitions/flower-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 295,
+      "position": 293,
       "name": "Follow to Back Control",
       "url": "https://bjjgraph.org/Transitions/follow-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 296,
+      "position": 294,
       "name": "Foot Grab Sweep",
       "url": "https://bjjgraph.org/Transitions/foot-grab-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 297,
+      "position": 295,
       "name": "Forward Drive Sweep from Dogfight",
       "url": "https://bjjgraph.org/Transitions/forward-drive-sweep-from-dogfight"
     },
     {
       "@type": "ListItem",
-      "position": 298,
+      "position": 296,
       "name": "Forward Roll",
       "url": "https://bjjgraph.org/Transitions/forward-roll"
     },
     {
       "@type": "ListItem",
-      "position": 299,
+      "position": 297,
       "name": "Forward Roll from Saddle",
       "url": "https://bjjgraph.org/Transitions/forward-roll-from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 300,
+      "position": 298,
       "name": "Frame Escape from Darce",
       "url": "https://bjjgraph.org/Transitions/frame-escape-from-darce"
     },
     {
       "@type": "ListItem",
-      "position": 301,
+      "position": 299,
       "name": "Frame Escape from High Mount",
       "url": "https://bjjgraph.org/Transitions/frame-escape-from-high-mount"
     },
     {
       "@type": "ListItem",
-      "position": 302,
-      "name": "Frame Escape from Kuzure Kesa",
-      "url": "https://bjjgraph.org/Transitions/frame-escape-from-kuzure-kesa"
+      "position": 300,
+      "name": "Frame Escape from Kuzure Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/frame-escape-from-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 303,
+      "position": 301,
       "name": "Frame Escape from Shoulder of Justice",
       "url": "https://bjjgraph.org/Transitions/frame-escape-from-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 304,
+      "position": 302,
       "name": "Frame and Distance Creation",
       "url": "https://bjjgraph.org/Transitions/frame-and-distance-creation"
     },
     {
       "@type": "ListItem",
-      "position": 305,
+      "position": 303,
       "name": "Frame and Escape Mounted Triangle",
       "url": "https://bjjgraph.org/Transitions/frame-and-escape-mounted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 306,
+      "position": 304,
       "name": "Frame and Extract to Half Guard",
       "url": "https://bjjgraph.org/Transitions/frame-and-extract-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 307,
+      "position": 305,
       "name": "Frame and Posture from Anaconda",
       "url": "https://bjjgraph.org/Transitions/frame-and-posture-from-anaconda"
     },
     {
       "@type": "ListItem",
-      "position": 308,
+      "position": 306,
       "name": "Frame and Shrimp from Knee on Belly",
       "url": "https://bjjgraph.org/Transitions/frame-and-shrimp-from-knee-on-belly"
     },
     {
       "@type": "ListItem",
-      "position": 309,
+      "position": 307,
       "name": "Frame and Shrimp from S Mount",
       "url": "https://bjjgraph.org/Transitions/frame-and-shrimp-from-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 310,
+      "position": 308,
       "name": "Frame and Shrimp to Guard",
       "url": "https://bjjgraph.org/Transitions/frame-and-shrimp-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 311,
+      "position": 309,
       "name": "Frame and Turn",
       "url": "https://bjjgraph.org/Transitions/frame-and-turn"
     },
     {
       "@type": "ListItem",
-      "position": 312,
-      "name": "Frame from Reverse Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/frame-from-reverse-scarf-hold"
-    },
-    {
-      "@type": "ListItem",
-      "position": 313,
+      "position": 310,
       "name": "Frame from Shoulder of Justice",
       "url": "https://bjjgraph.org/Transitions/frame-from-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 314,
+      "position": 311,
       "name": "Frame from Side Control",
       "url": "https://bjjgraph.org/Transitions/frame-from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 315,
+      "position": 312,
       "name": "Frame from Twister Side Control",
       "url": "https://bjjgraph.org/Transitions/frame-from-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 316,
+      "position": 313,
+      "name": "Frame from Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/frame-from-ushiro-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 314,
       "name": "Frame to Guard from Kesa Gatame",
       "url": "https://bjjgraph.org/Transitions/frame-to-guard-from-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 317,
+      "position": 315,
       "name": "Front Headlock to Anaconda",
       "url": "https://bjjgraph.org/Transitions/front-headlock-to-anaconda"
     },
     {
       "@type": "ListItem",
-      "position": 318,
+      "position": 316,
       "name": "Front Headlock to Back",
       "url": "https://bjjgraph.org/Transitions/front-headlock-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 319,
+      "position": 317,
       "name": "Front Headlock to Darce",
       "url": "https://bjjgraph.org/Transitions/front-headlock-to-darce"
     },
     {
       "@type": "ListItem",
-      "position": 320,
+      "position": 318,
       "name": "Front Headlock to Guillotine",
       "url": "https://bjjgraph.org/Transitions/front-headlock-to-guillotine"
     },
     {
       "@type": "ListItem",
-      "position": 321,
+      "position": 319,
       "name": "Ghost Escape from Side Control",
       "url": "https://bjjgraph.org/Transitions/ghost-escape-from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 322,
+      "position": 320,
       "name": "Gift Wrap",
       "url": "https://bjjgraph.org/Transitions/gift-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 323,
+      "position": 321,
       "name": "Gift Wrap Arm Recovery",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-arm-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 324,
+      "position": 322,
       "name": "Gift Wrap Control",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-control"
     },
     {
       "@type": "ListItem",
-      "position": 325,
+      "position": 323,
       "name": "Gift Wrap Maintenance",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-maintenance"
     },
     {
       "@type": "ListItem",
-      "position": 326,
+      "position": 324,
       "name": "Gift Wrap Transition",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-transition"
     },
     {
       "@type": "ListItem",
-      "position": 327,
+      "position": 325,
       "name": "Gift Wrap from Back",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 328,
+      "position": 326,
       "name": "Gift Wrap to Back",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 329,
+      "position": 327,
       "name": "Gift Wrap to Technical Mount",
       "url": "https://bjjgraph.org/Transitions/gift-wrap-to-technical-mount"
     },
     {
       "@type": "ListItem",
-      "position": 330,
+      "position": 328,
       "name": "Gogoplata",
       "url": "https://bjjgraph.org/Transitions/gogoplata"
     },
     {
       "@type": "ListItem",
-      "position": 331,
+      "position": 329,
       "name": "Gogoplata to Armbar",
       "url": "https://bjjgraph.org/Transitions/gogoplata-to-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 332,
+      "position": 330,
       "name": "Granby Roll to Guard",
       "url": "https://bjjgraph.org/Transitions/granby-roll-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 333,
+      "position": 331,
       "name": "Granby to Closed Guard",
       "url": "https://bjjgraph.org/Transitions/granby-to-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 334,
+      "position": 332,
       "name": "Grasshopper Sweep",
       "url": "https://bjjgraph.org/Transitions/grasshopper-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 335,
+      "position": 333,
       "name": "Grip Break",
       "url": "https://bjjgraph.org/Transitions/grip-break"
     },
     {
       "@type": "ListItem",
-      "position": 336,
+      "position": 334,
       "name": "Grip Break and Face",
       "url": "https://bjjgraph.org/Transitions/grip-break-and-face"
     },
     {
       "@type": "ListItem",
-      "position": 337,
+      "position": 335,
       "name": "Grip Fight Escape from Rear Triangle",
       "url": "https://bjjgraph.org/Transitions/grip-fight-escape-from-rear-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 338,
+      "position": 336,
       "name": "Grip Strip from Buggy Choke",
       "url": "https://bjjgraph.org/Transitions/grip-strip-from-buggy-choke"
     },
     {
       "@type": "ListItem",
-      "position": 339,
+      "position": 337,
       "name": "Guard Opening Sequence",
       "url": "https://bjjgraph.org/Transitions/guard-opening-sequence"
     },
     {
       "@type": "ListItem",
-      "position": 340,
+      "position": 338,
       "name": "Guard Pass from Chill Dog",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-chill-dog"
     },
     {
       "@type": "ListItem",
-      "position": 341,
+      "position": 339,
       "name": "Guard Pass from Diamond Guard",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-diamond-guard"
     },
     {
       "@type": "ListItem",
-      "position": 342,
+      "position": 340,
       "name": "Guard Pass from Leg Entanglement",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 343,
+      "position": 341,
       "name": "Guard Pass from New York Control",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-new-york-control"
     },
     {
       "@type": "ListItem",
-      "position": 344,
+      "position": 342,
       "name": "Guard Pass from Standing Guard",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-standing-guard"
     },
     {
       "@type": "ListItem",
-      "position": 345,
+      "position": 343,
       "name": "Guard Pass from Williams Guard",
       "url": "https://bjjgraph.org/Transitions/guard-pass-from-williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 346,
+      "position": 344,
       "name": "Guard Pull",
       "url": "https://bjjgraph.org/Transitions/guard-pull"
     },
     {
       "@type": "ListItem",
-      "position": 347,
+      "position": 345,
       "name": "Guard Pull from Clinch",
       "url": "https://bjjgraph.org/Transitions/guard-pull-from-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 348,
+      "position": 346,
       "name": "Guard Recovery from Combat Base",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 349,
+      "position": 347,
       "name": "Guard Recovery from Double Sleeve Guard",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-double-sleeve-guard"
     },
     {
       "@type": "ListItem",
-      "position": 350,
+      "position": 348,
       "name": "Guard Recovery from Double Unders",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-double-unders"
     },
     {
       "@type": "ListItem",
-      "position": 351,
+      "position": 349,
       "name": "Guard Recovery from Guillotine Control",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-guillotine-control"
     },
     {
       "@type": "ListItem",
-      "position": 352,
+      "position": 350,
       "name": "Guard Recovery from Hindulotine",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-hindulotine"
     },
     {
       "@type": "ListItem",
-      "position": 353,
+      "position": 351,
       "name": "Guard Recovery from Inside Ashi-Garami",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-inside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 354,
+      "position": 352,
       "name": "Guard Recovery from Jailbreak",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-jailbreak"
     },
     {
       "@type": "ListItem",
-      "position": 355,
+      "position": 353,
       "name": "Guard Recovery from Leg Entanglement",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 356,
+      "position": 354,
       "name": "Guard Recovery from Reverse Half Guard",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-reverse-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 357,
+      "position": 355,
       "name": "Guard Recovery from Spider Guard",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 358,
+      "position": 356,
       "name": "Guard Recovery from Squid Guard",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-squid-guard"
     },
     {
       "@type": "ListItem",
-      "position": 359,
+      "position": 357,
       "name": "Guard Recovery from Triangle Control",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 360,
+      "position": 358,
       "name": "Guard Recovery from Zombie",
       "url": "https://bjjgraph.org/Transitions/guard-recovery-from-zombie"
     },
     {
       "@type": "ListItem",
-      "position": 361,
+      "position": 359,
       "name": "Guillotine Counter",
       "url": "https://bjjgraph.org/Transitions/guillotine-counter"
     },
     {
       "@type": "ListItem",
-      "position": 362,
+      "position": 360,
       "name": "Guillotine Defense",
       "url": "https://bjjgraph.org/Transitions/guillotine-defense"
     },
     {
       "@type": "ListItem",
-      "position": 363,
+      "position": 361,
       "name": "Guillotine Escape to Von Flue",
       "url": "https://bjjgraph.org/Transitions/guillotine-escape-to-von-flue"
     },
     {
       "@type": "ListItem",
-      "position": 364,
+      "position": 362,
       "name": "Guillotine Escape via Posture",
       "url": "https://bjjgraph.org/Transitions/guillotine-escape-via-posture"
     },
     {
       "@type": "ListItem",
-      "position": 365,
+      "position": 363,
       "name": "Guillotine Setup",
       "url": "https://bjjgraph.org/Transitions/guillotine-setup"
     },
     {
       "@type": "ListItem",
-      "position": 366,
+      "position": 364,
       "name": "Guillotine from Turtle",
       "url": "https://bjjgraph.org/Transitions/guillotine-from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 367,
+      "position": 365,
       "name": "Half Butterfly Sweep",
       "url": "https://bjjgraph.org/Transitions/half-butterfly-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 368,
+      "position": 366,
       "name": "Half Butterfly to Dogfight",
       "url": "https://bjjgraph.org/Transitions/half-butterfly-to-dogfight"
     },
     {
       "@type": "ListItem",
-      "position": 369,
+      "position": 367,
       "name": "Half Guard Pass",
       "url": "https://bjjgraph.org/Transitions/half-guard-pass"
     },
     {
       "@type": "ListItem",
-      "position": 370,
+      "position": 368,
       "name": "Half Guard Recovery",
       "url": "https://bjjgraph.org/Transitions/half-guard-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 371,
+      "position": 369,
       "name": "Half Guard Whizzer Counter",
       "url": "https://bjjgraph.org/Transitions/half-guard-whizzer-counter"
     },
     {
       "@type": "ListItem",
-      "position": 372,
+      "position": 370,
       "name": "Half Guard to Back Take",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 373,
+      "position": 371,
       "name": "Half Guard to Double Jump",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-double-jump"
     },
     {
       "@type": "ListItem",
-      "position": 374,
+      "position": 372,
       "name": "Half Guard to Flattened Half Guard",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-flattened-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 375,
+      "position": 373,
       "name": "Half Guard to Jailbreak",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-jailbreak"
     },
     {
       "@type": "ListItem",
-      "position": 376,
+      "position": 374,
       "name": "Half Guard to K-Guard",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-k-guard"
     },
     {
       "@type": "ListItem",
-      "position": 377,
+      "position": 375,
       "name": "Half Guard to Kimura Trap",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-kimura-trap"
     },
     {
       "@type": "ListItem",
-      "position": 378,
+      "position": 376,
       "name": "Half Guard to Leg Hook",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-leg-hook"
     },
     {
       "@type": "ListItem",
-      "position": 379,
+      "position": 377,
       "name": "Half Guard to Leg Weave",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-leg-weave"
     },
     {
       "@type": "ListItem",
-      "position": 380,
+      "position": 378,
       "name": "Half Guard to Old School",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-old-school"
     },
     {
       "@type": "ListItem",
-      "position": 381,
+      "position": 379,
       "name": "Half Guard to Pocket Half Guard",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-pocket-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 382,
+      "position": 380,
       "name": "Half Guard to Quarter Guard",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-quarter-guard"
     },
     {
       "@type": "ListItem",
-      "position": 383,
+      "position": 381,
       "name": "Half Guard to Triangle Escape Position",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-triangle-escape-position"
     },
     {
       "@type": "ListItem",
-      "position": 384,
+      "position": 382,
       "name": "Half Guard to X-Guard",
       "url": "https://bjjgraph.org/Transitions/half-guard-to-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 385,
+      "position": 383,
       "name": "Hand Control to Extract",
       "url": "https://bjjgraph.org/Transitions/hand-control-to-extract"
     },
     {
       "@type": "ListItem",
-      "position": 386,
+      "position": 384,
       "name": "Hand Fight from Seat Belt Control",
       "url": "https://bjjgraph.org/Transitions/hand-fight-from-seat-belt-control"
     },
     {
       "@type": "ListItem",
-      "position": 387,
+      "position": 385,
       "name": "Hand Fight to Turtle from Back",
       "url": "https://bjjgraph.org/Transitions/hand-fight-to-turtle-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 388,
+      "position": 386,
       "name": "Hand Fighting from Back",
       "url": "https://bjjgraph.org/Transitions/hand-fighting-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 389,
+      "position": 387,
       "name": "Hand Fighting to Remove Collar Grip",
       "url": "https://bjjgraph.org/Transitions/hand-fighting-to-remove-collar-grip"
     },
     {
       "@type": "ListItem",
-      "position": 390,
+      "position": 388,
       "name": "Harai Goshi",
       "url": "https://bjjgraph.org/Transitions/harai-goshi"
     },
     {
       "@type": "ListItem",
-      "position": 391,
+      "position": 389,
       "name": "Harness Escape to Half Guard",
       "url": "https://bjjgraph.org/Transitions/harness-escape-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 392,
+      "position": 390,
       "name": "Harness to Body Lock",
       "url": "https://bjjgraph.org/Transitions/harness-to-body-lock"
     },
     {
       "@type": "ListItem",
-      "position": 393,
+      "position": 391,
       "name": "Head Extraction to Posture",
       "url": "https://bjjgraph.org/Transitions/head-extraction-to-posture"
     },
     {
       "@type": "ListItem",
-      "position": 394,
+      "position": 392,
       "name": "Headquarters Pass",
       "url": "https://bjjgraph.org/Transitions/headquarters-pass"
     },
     {
       "@type": "ListItem",
-      "position": 395,
+      "position": 393,
       "name": "Heel Drag Escape",
       "url": "https://bjjgraph.org/Transitions/heel-drag-escape"
     },
     {
       "@type": "ListItem",
-      "position": 396,
+      "position": 394,
       "name": "Heel Grab Sweep",
       "url": "https://bjjgraph.org/Transitions/heel-grab-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 397,
+      "position": 395,
       "name": "Heel Hook Defense Escape",
       "url": "https://bjjgraph.org/Transitions/heel-hook-defense-escape"
     },
     {
       "@type": "ListItem",
-      "position": 398,
+      "position": 396,
       "name": "Heel Strip from Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/heel-strip-from-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 399,
+      "position": 397,
       "name": "High Crotch",
       "url": "https://bjjgraph.org/Transitions/high-crotch"
     },
     {
       "@type": "ListItem",
-      "position": 400,
+      "position": 398,
       "name": "High Elbow Guillotine Variation",
       "url": "https://bjjgraph.org/Transitions/high-elbow-guillotine-variation"
     },
     {
       "@type": "ListItem",
-      "position": 401,
+      "position": 399,
       "name": "High Guard to Rubber Guard",
       "url": "https://bjjgraph.org/Transitions/high-guard-to-rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 402,
+      "position": 400,
       "name": "High Mount Transition",
       "url": "https://bjjgraph.org/Transitions/high-mount-transition"
     },
     {
       "@type": "ListItem",
-      "position": 403,
+      "position": 401,
       "name": "High Mount to S Mount",
       "url": "https://bjjgraph.org/Transitions/high-mount-to-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 404,
+      "position": 402,
       "name": "Hindulotine to Anaconda Choke",
       "url": "https://bjjgraph.org/Transitions/hindulotine-to-anaconda-choke"
     },
     {
       "@type": "ListItem",
-      "position": 405,
+      "position": 403,
       "name": "Hindulotine to Darce Choke",
       "url": "https://bjjgraph.org/Transitions/hindulotine-to-darce-choke"
     },
     {
       "@type": "ListItem",
-      "position": 406,
+      "position": 404,
       "name": "Hip Bump Sweep",
       "url": "https://bjjgraph.org/Transitions/hip-bump-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 407,
+      "position": 405,
       "name": "Hip Escape from Back Control",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 408,
+      "position": 406,
       "name": "Hip Escape from Cross Body Ride",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-cross-body-ride"
     },
     {
       "@type": "ListItem",
-      "position": 409,
+      "position": 407,
       "name": "Hip Escape from Crucifix",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 410,
+      "position": 408,
       "name": "Hip Escape from Front Headlock",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 411,
+      "position": 409,
       "name": "Hip Escape from Mounted Crucifix",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 412,
+      "position": 410,
       "name": "Hip Escape from Russian Cowboy",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 413,
+      "position": 411,
       "name": "Hip Escape from Side Control",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 414,
+      "position": 412,
       "name": "Hip Escape from Truck",
       "url": "https://bjjgraph.org/Transitions/hip-escape-from-truck"
     },
     {
       "@type": "ListItem",
-      "position": 415,
+      "position": 413,
       "name": "Hip Escape to Guard",
       "url": "https://bjjgraph.org/Transitions/hip-escape-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 416,
+      "position": 414,
       "name": "Hip Escape to Turtle",
       "url": "https://bjjgraph.org/Transitions/hip-escape-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 417,
+      "position": 415,
       "name": "Hip Rotation Defense",
       "url": "https://bjjgraph.org/Transitions/hip-rotation-defense"
     },
     {
       "@type": "ListItem",
-      "position": 418,
+      "position": 416,
       "name": "Hip Rotation Escape from Electric Chair",
       "url": "https://bjjgraph.org/Transitions/hip-rotation-escape-from-electric-chair"
     },
     {
       "@type": "ListItem",
-      "position": 419,
+      "position": 417,
       "name": "Hitchhiker Escape from Armbar",
       "url": "https://bjjgraph.org/Transitions/hitchhiker-escape-from-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 420,
+      "position": 418,
       "name": "Homer Simpson Sweep",
       "url": "https://bjjgraph.org/Transitions/homer-simpson-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 421,
+      "position": 419,
       "name": "Honey Hole to Saddle",
       "url": "https://bjjgraph.org/Transitions/honey-hole-to-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 422,
+      "position": 420,
       "name": "Hook Leg and Take Back",
       "url": "https://bjjgraph.org/Transitions/hook-leg-and-take-back"
     },
     {
       "@type": "ListItem",
-      "position": 423,
+      "position": 421,
       "name": "Hook Sweep",
       "url": "https://bjjgraph.org/Transitions/hook-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 424,
+      "position": 422,
       "name": "Inside Ashi Entry",
       "url": "https://bjjgraph.org/Transitions/inside-ashi-entry"
     },
     {
       "@type": "ListItem",
-      "position": 425,
+      "position": 423,
       "name": "Inside Ashi to Outside Ashi",
       "url": "https://bjjgraph.org/Transitions/inside-ashi-to-outside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 426,
+      "position": 424,
       "name": "Inside Ashi-Garami to Cross Ashi",
       "url": "https://bjjgraph.org/Transitions/inside-ashi-garami-to-cross-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 427,
+      "position": 425,
       "name": "Inside Ashi-Garami to Honey Hole",
       "url": "https://bjjgraph.org/Transitions/inside-ashi-garami-to-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 428,
+      "position": 426,
       "name": "Inside Ashi-Garami to Ushiro Ashi",
       "url": "https://bjjgraph.org/Transitions/inside-ashi-garami-to-ushiro-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 429,
+      "position": 427,
       "name": "Inside Heel Hook from Ushiro",
       "url": "https://bjjgraph.org/Transitions/inside-heel-hook-from-ushiro"
     },
     {
       "@type": "ListItem",
-      "position": 430,
+      "position": 428,
       "name": "Inside Position Recovery",
       "url": "https://bjjgraph.org/Transitions/inside-position-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 431,
+      "position": 429,
       "name": "Inside Sankaku Heel Hook",
       "url": "https://bjjgraph.org/Transitions/inside-sankaku-heel-hook"
     },
     {
       "@type": "ListItem",
-      "position": 432,
+      "position": 430,
       "name": "Inside Sankaku to Saddle",
       "url": "https://bjjgraph.org/Transitions/inside-sankaku-to-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 433,
+      "position": 431,
       "name": "Inversion Escape",
       "url": "https://bjjgraph.org/Transitions/inversion-escape"
     },
     {
       "@type": "ListItem",
-      "position": 434,
+      "position": 432,
       "name": "Inversion Escape from Leg Entanglement",
       "url": "https://bjjgraph.org/Transitions/inversion-escape-from-leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 435,
+      "position": 433,
       "name": "Inversion from Headquarters",
       "url": "https://bjjgraph.org/Transitions/inversion-from-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 436,
+      "position": 434,
       "name": "Inversion to Turtle",
       "url": "https://bjjgraph.org/Transitions/inversion-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 437,
+      "position": 435,
       "name": "Invert from Reverse Half Guard",
       "url": "https://bjjgraph.org/Transitions/invert-from-reverse-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 438,
+      "position": 436,
       "name": "Inverted Lasso Sweep",
       "url": "https://bjjgraph.org/Transitions/inverted-lasso-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 439,
+      "position": 437,
       "name": "Inverted Lasso to Lasso Guard",
       "url": "https://bjjgraph.org/Transitions/inverted-lasso-to-lasso-guard"
     },
     {
       "@type": "ListItem",
-      "position": 440,
+      "position": 438,
       "name": "Inverted Triangle",
       "url": "https://bjjgraph.org/Transitions/inverted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 441,
+      "position": 439,
       "name": "Ippon Seoi Nage",
       "url": "https://bjjgraph.org/Transitions/ippon-seoi-nage"
     },
     {
       "@type": "ListItem",
-      "position": 442,
+      "position": 440,
       "name": "Jailbreak to Back Take",
       "url": "https://bjjgraph.org/Transitions/jailbreak-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 443,
+      "position": 441,
       "name": "Jailbreak to Deep Half Entry",
       "url": "https://bjjgraph.org/Transitions/jailbreak-to-deep-half-entry"
     },
     {
       "@type": "ListItem",
-      "position": 444,
+      "position": 442,
       "name": "Jailbreak to Turtle",
       "url": "https://bjjgraph.org/Transitions/jailbreak-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 445,
+      "position": 443,
       "name": "Japanese Necktie Setup",
       "url": "https://bjjgraph.org/Transitions/japanese-necktie-setup"
     },
     {
       "@type": "ListItem",
-      "position": 446,
+      "position": 444,
       "name": "John Wayne Sweep",
       "url": "https://bjjgraph.org/Transitions/john-wayne-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 447,
+      "position": 445,
       "name": "Jumping Guard",
       "url": "https://bjjgraph.org/Transitions/jumping-guard"
     },
     {
       "@type": "ListItem",
-      "position": 448,
+      "position": 446,
       "name": "K-Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/k-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 449,
+      "position": 447,
       "name": "K-Guard to Single Leg X",
       "url": "https://bjjgraph.org/Transitions/k-guard-to-single-leg-x"
     },
     {
       "@type": "ListItem",
-      "position": 450,
+      "position": 448,
       "name": "KOB to Mount",
       "url": "https://bjjgraph.org/Transitions/kob-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 451,
+      "position": 449,
       "name": "KOB to Side Control",
       "url": "https://bjjgraph.org/Transitions/kob-to-side-control"
     },
     {
       "@type": "ListItem",
+      "position": 450,
+      "name": "Kesa Gatame to Kuzure Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-kuzure-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 451,
+      "name": "Kesa Gatame to Mount",
+      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-mount"
+    },
+    {
+      "@type": "ListItem",
       "position": 452,
-      "name": "Kesa Gatame to Modified Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-modified-scarf-hold"
+      "name": "Kesa Gatame to Side Control",
+      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-side-control"
     },
     {
       "@type": "ListItem",
       "position": 453,
-      "name": "Kesa Gatame to Reverse Kesa-Gatame",
-      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-reverse-kesa-gatame"
+      "name": "Kesa Gatame to Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/kesa-gatame-to-ushiro-kesa-gatame"
     },
     {
       "@type": "ListItem",
@@ -2777,8 +2777,8 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 459,
-      "name": "Kimura Trap to Reverse Scarf Hold",
-      "url": "https://bjjgraph.org/Transitions/kimura-trap-to-reverse-scarf-hold"
+      "name": "Kimura Trap to Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/kimura-trap-to-ushiro-kesa-gatame"
     },
     {
       "@type": "ListItem",
@@ -3065,446 +3065,446 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 507,
+      "name": "Kuzure Kesa Gatame to Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/kuzure-kesa-gatame-to-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 508,
+      "name": "Kuzure Kesa Gatame to Mount",
+      "url": "https://bjjgraph.org/Transitions/kuzure-kesa-gatame-to-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 509,
       "name": "Lapel Clear to Toreando Pass",
       "url": "https://bjjgraph.org/Transitions/lapel-clear-to-toreando-pass"
     },
     {
       "@type": "ListItem",
-      "position": 508,
+      "position": 510,
       "name": "Lapel Elevator Sweep",
       "url": "https://bjjgraph.org/Transitions/lapel-elevator-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 509,
+      "position": 511,
       "name": "Lapel Grip Break and Posture Recovery",
       "url": "https://bjjgraph.org/Transitions/lapel-grip-break-and-posture-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 510,
+      "position": 512,
       "name": "Lapel Guard to Piranha Guard",
       "url": "https://bjjgraph.org/Transitions/lapel-guard-to-piranha-guard"
     },
     {
       "@type": "ListItem",
-      "position": 511,
+      "position": 513,
       "name": "Lapel Omoplata Entry",
       "url": "https://bjjgraph.org/Transitions/lapel-omoplata-entry"
     },
     {
       "@type": "ListItem",
-      "position": 512,
+      "position": 514,
       "name": "Lapel Strip from Worm Guard",
       "url": "https://bjjgraph.org/Transitions/lapel-strip-from-worm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 513,
+      "position": 515,
       "name": "Lapel Sweep to Back",
       "url": "https://bjjgraph.org/Transitions/lapel-sweep-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 514,
+      "position": 516,
       "name": "Lapel Triangle Setup",
       "url": "https://bjjgraph.org/Transitions/lapel-triangle-setup"
     },
     {
       "@type": "ListItem",
-      "position": 515,
+      "position": 517,
       "name": "Lapel to De La Riva",
       "url": "https://bjjgraph.org/Transitions/lapel-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 516,
+      "position": 518,
       "name": "Lapel to Lasso Guard",
       "url": "https://bjjgraph.org/Transitions/lapel-to-lasso-guard"
     },
     {
       "@type": "ListItem",
-      "position": 517,
+      "position": 519,
       "name": "Lapel to Spider Guard",
       "url": "https://bjjgraph.org/Transitions/lapel-to-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 518,
+      "position": 520,
       "name": "Lasso Guard Backstep Pass",
       "url": "https://bjjgraph.org/Transitions/lasso-guard-backstep-pass"
     },
     {
       "@type": "ListItem",
-      "position": 519,
+      "position": 521,
       "name": "Lasso Guard Pass",
       "url": "https://bjjgraph.org/Transitions/lasso-guard-pass"
     },
     {
       "@type": "ListItem",
-      "position": 520,
+      "position": 522,
       "name": "Lasso Guard Stack Pass",
       "url": "https://bjjgraph.org/Transitions/lasso-guard-stack-pass"
     },
     {
       "@type": "ListItem",
-      "position": 521,
+      "position": 523,
       "name": "Lasso Guard to Inverted Lasso Guard",
       "url": "https://bjjgraph.org/Transitions/lasso-guard-to-inverted-lasso-guard"
     },
     {
       "@type": "ListItem",
-      "position": 522,
+      "position": 524,
       "name": "Lasso Guard to Russian Leg Lasso",
       "url": "https://bjjgraph.org/Transitions/lasso-guard-to-russian-leg-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 523,
+      "position": 525,
       "name": "Lasso Sweep",
       "url": "https://bjjgraph.org/Transitions/lasso-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 524,
+      "position": 526,
       "name": "Leg Drag Counter to Half Guard",
       "url": "https://bjjgraph.org/Transitions/leg-drag-counter-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 525,
+      "position": 527,
       "name": "Leg Drag Escape to Closed Guard",
       "url": "https://bjjgraph.org/Transitions/leg-drag-escape-to-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 526,
+      "position": 528,
       "name": "Leg Drag Pass",
       "url": "https://bjjgraph.org/Transitions/leg-drag-pass"
     },
     {
       "@type": "ListItem",
-      "position": 527,
+      "position": 529,
       "name": "Leg Drag Pass to Side Control",
       "url": "https://bjjgraph.org/Transitions/leg-drag-pass-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 528,
+      "position": 530,
       "name": "Leg Drag While Clearing Lapel",
       "url": "https://bjjgraph.org/Transitions/leg-drag-while-clearing-lapel"
     },
     {
       "@type": "ListItem",
-      "position": 529,
+      "position": 531,
       "name": "Leg Drag from DLR",
       "url": "https://bjjgraph.org/Transitions/leg-drag-from-dlr"
     },
     {
       "@type": "ListItem",
-      "position": 530,
+      "position": 532,
       "name": "Leg Drag from Headquarters",
       "url": "https://bjjgraph.org/Transitions/leg-drag-from-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 531,
+      "position": 533,
       "name": "Leg Drag to Back Take",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 532,
+      "position": 534,
       "name": "Leg Drag to Crucifix",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 533,
+      "position": 535,
       "name": "Leg Drag to Darce Setup",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-darce-setup"
     },
     {
       "@type": "ListItem",
-      "position": 534,
+      "position": 536,
       "name": "Leg Drag to Inside Ashi",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-inside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 535,
+      "position": 537,
       "name": "Leg Drag to Knee on Belly",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-knee-on-belly"
     },
     {
       "@type": "ListItem",
-      "position": 536,
+      "position": 538,
       "name": "Leg Drag to Mount",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 537,
+      "position": 539,
       "name": "Leg Drag to North-South",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-north-south"
     },
     {
       "@type": "ListItem",
-      "position": 538,
+      "position": 540,
       "name": "Leg Drag to Technical Mount",
       "url": "https://bjjgraph.org/Transitions/leg-drag-to-technical-mount"
     },
     {
       "@type": "ListItem",
-      "position": 539,
+      "position": 541,
       "name": "Leg Extraction",
       "url": "https://bjjgraph.org/Transitions/leg-extraction"
     },
     {
       "@type": "ListItem",
-      "position": 540,
+      "position": 542,
       "name": "Leg Extraction Escape",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-escape"
     },
     {
       "@type": "ListItem",
-      "position": 541,
+      "position": 543,
       "name": "Leg Extraction Escape from Entanglement",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-escape-from-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 542,
+      "position": 544,
       "name": "Leg Extraction Pass",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-pass"
     },
     {
       "@type": "ListItem",
-      "position": 543,
+      "position": 545,
       "name": "Leg Extraction from Cross Ashi",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-from-cross-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 544,
+      "position": 546,
       "name": "Leg Extraction from Inside Ashi",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-from-inside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 545,
+      "position": 547,
       "name": "Leg Extraction from Lapel Wrap",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-from-lapel-wrap"
     },
     {
       "@type": "ListItem",
-      "position": 546,
+      "position": 548,
       "name": "Leg Extraction from Leg Knot",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-from-leg-knot"
     },
     {
       "@type": "ListItem",
-      "position": 547,
+      "position": 549,
       "name": "Leg Extraction from Truck",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-from-truck"
     },
     {
       "@type": "ListItem",
-      "position": 548,
+      "position": 550,
       "name": "Leg Extraction to Combat Base",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-to-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 549,
+      "position": 551,
       "name": "Leg Extraction to Guard",
       "url": "https://bjjgraph.org/Transitions/leg-extraction-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 550,
+      "position": 552,
       "name": "Leg Hook to Half Guard",
       "url": "https://bjjgraph.org/Transitions/leg-hook-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 551,
+      "position": 553,
       "name": "Leg Hook to Side Control",
       "url": "https://bjjgraph.org/Transitions/leg-hook-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 552,
+      "position": 554,
       "name": "Leg Pummeling from Saddle",
       "url": "https://bjjgraph.org/Transitions/leg-pummeling-from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 553,
+      "position": 555,
       "name": "Leg Recovery to De La Riva",
       "url": "https://bjjgraph.org/Transitions/leg-recovery-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 554,
+      "position": 556,
       "name": "Leg Weave Escape to Half Guard",
       "url": "https://bjjgraph.org/Transitions/leg-weave-escape-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 555,
+      "position": 557,
       "name": "Leg Weave Pass",
       "url": "https://bjjgraph.org/Transitions/leg-weave-pass"
     },
     {
       "@type": "ListItem",
-      "position": 556,
+      "position": 558,
       "name": "Leg Weave Pass Completion",
       "url": "https://bjjgraph.org/Transitions/leg-weave-pass-completion"
     },
     {
       "@type": "ListItem",
-      "position": 557,
+      "position": 559,
       "name": "Level Change Takedown",
       "url": "https://bjjgraph.org/Transitions/level-change-takedown"
     },
     {
       "@type": "ListItem",
-      "position": 558,
+      "position": 560,
       "name": "Limp Leg Escape to Pass",
       "url": "https://bjjgraph.org/Transitions/limp-leg-escape-to-pass"
     },
     {
       "@type": "ListItem",
-      "position": 559,
+      "position": 561,
       "name": "Limp leg extraction to Half Guard",
       "url": "https://bjjgraph.org/Transitions/limp-leg-extraction-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 560,
+      "position": 562,
       "name": "Lockdown Break and Pass",
       "url": "https://bjjgraph.org/Transitions/lockdown-break-and-pass"
     },
     {
       "@type": "ListItem",
-      "position": 561,
+      "position": 563,
       "name": "Lockdown Break from Z-Lock",
       "url": "https://bjjgraph.org/Transitions/lockdown-break-from-z-lock"
     },
     {
       "@type": "ListItem",
-      "position": 562,
+      "position": 564,
       "name": "Lockdown Escape to Half Guard Pass",
       "url": "https://bjjgraph.org/Transitions/lockdown-escape-to-half-guard-pass"
     },
     {
       "@type": "ListItem",
-      "position": 563,
+      "position": 565,
       "name": "Lockdown Recovery",
       "url": "https://bjjgraph.org/Transitions/lockdown-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 564,
+      "position": 566,
       "name": "Lockdown Whizzer Pass",
       "url": "https://bjjgraph.org/Transitions/lockdown-whizzer-pass"
     },
     {
       "@type": "ListItem",
-      "position": 565,
+      "position": 567,
       "name": "Lockdown to Vaporizer",
       "url": "https://bjjgraph.org/Transitions/lockdown-to-vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 566,
+      "position": 568,
       "name": "Lockdown to Z-Lock Half Guard",
       "url": "https://bjjgraph.org/Transitions/lockdown-to-z-lock-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 567,
+      "position": 569,
       "name": "Long Step Around Ringworm",
       "url": "https://bjjgraph.org/Transitions/long-step-around-ringworm"
     },
     {
       "@type": "ListItem",
-      "position": 568,
+      "position": 570,
       "name": "Long Step Pass",
       "url": "https://bjjgraph.org/Transitions/long-step-pass"
     },
     {
       "@type": "ListItem",
-      "position": 569,
+      "position": 571,
       "name": "Lumberjack Sweep",
       "url": "https://bjjgraph.org/Transitions/lumberjack-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 570,
+      "position": 572,
       "name": "Mat Return from Standing Rear Clinch",
       "url": "https://bjjgraph.org/Transitions/mat-return-from-standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 571,
+      "position": 573,
       "name": "Mat Return to Back Mount",
       "url": "https://bjjgraph.org/Transitions/mat-return-to-back-mount"
     },
     {
       "@type": "ListItem",
-      "position": 572,
+      "position": 574,
       "name": "Matrix Back Take",
       "url": "https://bjjgraph.org/Transitions/matrix-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 573,
+      "position": 575,
       "name": "Matrix to Back Control",
       "url": "https://bjjgraph.org/Transitions/matrix-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 574,
+      "position": 576,
       "name": "Matrix to Side Control",
       "url": "https://bjjgraph.org/Transitions/matrix-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 575,
+      "position": 577,
       "name": "Meathook Entry from Rubber Guard",
       "url": "https://bjjgraph.org/Transitions/meathook-entry-from-rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 576,
+      "position": 578,
       "name": "Meathook to Gogoplata Control",
       "url": "https://bjjgraph.org/Transitions/meathook-to-gogoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 577,
+      "position": 579,
       "name": "Mission Control Entry from Rubber Guard",
       "url": "https://bjjgraph.org/Transitions/mission-control-entry-from-rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 578,
+      "position": 580,
       "name": "Mission Control Recovery",
       "url": "https://bjjgraph.org/Transitions/mission-control-recovery"
-    },
-    {
-      "@type": "ListItem",
-      "position": 579,
-      "name": "Modified Scarf to Kesa Gatame",
-      "url": "https://bjjgraph.org/Transitions/modified-scarf-to-kesa-gatame"
-    },
-    {
-      "@type": "ListItem",
-      "position": 580,
-      "name": "Modified Scarf to Mount",
-      "url": "https://bjjgraph.org/Transitions/modified-scarf-to-mount"
     },
     {
       "@type": "ListItem",
@@ -4325,1884 +4325,1854 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
     {
       "@type": "ListItem",
       "position": 717,
-      "name": "Reverse Kesa to North-South",
-      "url": "https://bjjgraph.org/Transitions/reverse-kesa-to-north-south"
-    },
-    {
-      "@type": "ListItem",
-      "position": 718,
-      "name": "Reverse Kesa to Side Control",
-      "url": "https://bjjgraph.org/Transitions/reverse-kesa-to-side-control"
-    },
-    {
-      "@type": "ListItem",
-      "position": 719,
       "name": "Reverse Mount Transition",
       "url": "https://bjjgraph.org/Transitions/reverse-mount-transition"
     },
     {
       "@type": "ListItem",
-      "position": 720,
+      "position": 718,
       "name": "Reverse Mount to Mount",
       "url": "https://bjjgraph.org/Transitions/reverse-mount-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 721,
+      "position": 719,
       "name": "Reverse Mount to Side Control",
       "url": "https://bjjgraph.org/Transitions/reverse-mount-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 722,
-      "name": "Reverse Scarf to North-South",
-      "url": "https://bjjgraph.org/Transitions/reverse-scarf-to-north-south"
-    },
-    {
-      "@type": "ListItem",
-      "position": 723,
-      "name": "Reverse Scarf to Side Control",
-      "url": "https://bjjgraph.org/Transitions/reverse-scarf-to-side-control"
-    },
-    {
-      "@type": "ListItem",
-      "position": 724,
+      "position": 720,
       "name": "Reverse X to Ashi Garami Entry",
       "url": "https://bjjgraph.org/Transitions/reverse-x-to-ashi-garami-entry"
     },
     {
       "@type": "ListItem",
-      "position": 725,
+      "position": 721,
       "name": "Reverse X to Back Take",
       "url": "https://bjjgraph.org/Transitions/reverse-x-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 726,
+      "position": 722,
       "name": "Reverse X to Single Leg X Entry",
       "url": "https://bjjgraph.org/Transitions/reverse-x-to-single-leg-x-entry"
     },
     {
       "@type": "ListItem",
-      "position": 727,
+      "position": 723,
       "name": "Reverse X-Guard Entry",
       "url": "https://bjjgraph.org/Transitions/reverse-x-guard-entry"
     },
     {
       "@type": "ListItem",
-      "position": 728,
+      "position": 724,
       "name": "Reverse X-Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/reverse-x-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 729,
+      "position": 725,
       "name": "Reverse X-Guard to Standard X-Guard",
       "url": "https://bjjgraph.org/Transitions/reverse-x-guard-to-standard-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 730,
+      "position": 726,
       "name": "Reverse the entanglement to Outside Ashi",
       "url": "https://bjjgraph.org/Transitions/reverse-the-entanglement-to-outside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 731,
+      "position": 727,
       "name": "Ringworm Guard Entry",
       "url": "https://bjjgraph.org/Transitions/ringworm-guard-entry"
     },
     {
       "@type": "ListItem",
-      "position": 732,
+      "position": 728,
       "name": "Ringworm Guard to Worm Guard",
       "url": "https://bjjgraph.org/Transitions/ringworm-guard-to-worm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 733,
+      "position": 729,
       "name": "Ringworm Sweep to Back Control",
       "url": "https://bjjgraph.org/Transitions/ringworm-sweep-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 734,
+      "position": 730,
       "name": "Ringworm to Spider Guard",
       "url": "https://bjjgraph.org/Transitions/ringworm-to-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 735,
+      "position": 731,
       "name": "Rodeo Ride to Back Control",
       "url": "https://bjjgraph.org/Transitions/rodeo-ride-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 736,
+      "position": 732,
       "name": "Rodeo Ride to Turtle",
       "url": "https://bjjgraph.org/Transitions/rodeo-ride-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 737,
+      "position": 733,
       "name": "Roll Defense from Anaconda",
       "url": "https://bjjgraph.org/Transitions/roll-defense-from-anaconda"
     },
     {
       "@type": "ListItem",
-      "position": 738,
+      "position": 734,
       "name": "Roll Escape from Cross Body Ride",
       "url": "https://bjjgraph.org/Transitions/roll-escape-from-cross-body-ride"
     },
     {
       "@type": "ListItem",
-      "position": 739,
+      "position": 735,
       "name": "Roll Escape from Russian Cowboy",
       "url": "https://bjjgraph.org/Transitions/roll-escape-from-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 740,
+      "position": 736,
       "name": "Roll Forward from Omoplata",
       "url": "https://bjjgraph.org/Transitions/roll-forward-from-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 741,
+      "position": 737,
       "name": "Roll Through Escape",
       "url": "https://bjjgraph.org/Transitions/roll-through-escape"
     },
     {
       "@type": "ListItem",
-      "position": 742,
+      "position": 738,
       "name": "Roll Through to Reversal",
       "url": "https://bjjgraph.org/Transitions/roll-through-to-reversal"
     },
     {
       "@type": "ListItem",
-      "position": 743,
+      "position": 739,
       "name": "Roll from Chill Dog",
       "url": "https://bjjgraph.org/Transitions/roll-from-chill-dog"
     },
     {
       "@type": "ListItem",
-      "position": 744,
+      "position": 740,
       "name": "Roll from Dead Orchard",
       "url": "https://bjjgraph.org/Transitions/roll-from-dead-orchard"
     },
     {
       "@type": "ListItem",
-      "position": 745,
+      "position": 741,
       "name": "Roll from Rodeo Ride",
       "url": "https://bjjgraph.org/Transitions/roll-from-rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 746,
+      "position": 742,
       "name": "Roll from Vaporizer",
       "url": "https://bjjgraph.org/Transitions/roll-from-vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 747,
+      "position": 743,
       "name": "Roll to Deep Half Guard",
       "url": "https://bjjgraph.org/Transitions/roll-to-deep-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 748,
+      "position": 744,
       "name": "Roll to Guard",
       "url": "https://bjjgraph.org/Transitions/roll-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 749,
+      "position": 745,
       "name": "Roll to Guard from Truck",
       "url": "https://bjjgraph.org/Transitions/roll-to-guard-from-truck"
     },
     {
       "@type": "ListItem",
-      "position": 750,
+      "position": 746,
       "name": "Roll to Truck",
       "url": "https://bjjgraph.org/Transitions/roll-to-truck"
     },
     {
       "@type": "ListItem",
-      "position": 751,
+      "position": 747,
       "name": "Roll to Turtle",
       "url": "https://bjjgraph.org/Transitions/roll-to-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 752,
+      "position": 748,
       "name": "Rolling Back Take",
       "url": "https://bjjgraph.org/Transitions/rolling-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 753,
+      "position": 749,
       "name": "Rolling Back Take Reversal",
       "url": "https://bjjgraph.org/Transitions/rolling-back-take-reversal"
     },
     {
       "@type": "ListItem",
-      "position": 754,
+      "position": 750,
       "name": "Rolling Back Take from Half Butterfly",
       "url": "https://bjjgraph.org/Transitions/rolling-back-take-from-half-butterfly"
     },
     {
       "@type": "ListItem",
-      "position": 755,
+      "position": 751,
       "name": "Rolling Escape from Anaconda",
       "url": "https://bjjgraph.org/Transitions/rolling-escape-from-anaconda"
     },
     {
       "@type": "ListItem",
-      "position": 756,
+      "position": 752,
       "name": "Rolling Escape to Guard",
       "url": "https://bjjgraph.org/Transitions/rolling-escape-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 757,
+      "position": 753,
       "name": "Rolling Guard Pull",
       "url": "https://bjjgraph.org/Transitions/rolling-guard-pull"
     },
     {
       "@type": "ListItem",
-      "position": 758,
+      "position": 754,
       "name": "Rolling Kimura",
       "url": "https://bjjgraph.org/Transitions/rolling-kimura"
     },
     {
       "@type": "ListItem",
-      "position": 759,
+      "position": 755,
       "name": "Rolling Kimura Escape",
       "url": "https://bjjgraph.org/Transitions/rolling-kimura-escape"
     },
     {
       "@type": "ListItem",
-      "position": 760,
+      "position": 756,
       "name": "Rolling Kneebar",
       "url": "https://bjjgraph.org/Transitions/rolling-kneebar"
     },
     {
       "@type": "ListItem",
-      "position": 761,
+      "position": 757,
       "name": "Rolling to Guard",
       "url": "https://bjjgraph.org/Transitions/rolling-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 762,
+      "position": 758,
       "name": "Rotate to Carni",
       "url": "https://bjjgraph.org/Transitions/rotate-to-carni"
     },
     {
       "@type": "ListItem",
-      "position": 763,
+      "position": 759,
       "name": "Rubber Guard Clear to Pass",
       "url": "https://bjjgraph.org/Transitions/rubber-guard-clear-to-pass"
     },
     {
       "@type": "ListItem",
-      "position": 764,
+      "position": 760,
       "name": "Rubber Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/rubber-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 765,
+      "position": 761,
       "name": "Rubber Guard Top Posture Escape",
       "url": "https://bjjgraph.org/Transitions/rubber-guard-top-posture-escape"
     },
     {
       "@type": "ListItem",
-      "position": 766,
+      "position": 762,
       "name": "Rubber Guard to Closed Guard",
       "url": "https://bjjgraph.org/Transitions/rubber-guard-to-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 767,
+      "position": 763,
       "name": "Russian Cowboy to Back Control",
       "url": "https://bjjgraph.org/Transitions/russian-cowboy-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 768,
+      "position": 764,
       "name": "Russian Lasso Sweep",
       "url": "https://bjjgraph.org/Transitions/russian-lasso-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 769,
+      "position": 765,
       "name": "Russian Lasso to De La Riva",
       "url": "https://bjjgraph.org/Transitions/russian-lasso-to-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 770,
+      "position": 766,
       "name": "Russian Tie to Back Take",
       "url": "https://bjjgraph.org/Transitions/russian-tie-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 771,
+      "position": 767,
       "name": "S Mount Armbar Setup",
       "url": "https://bjjgraph.org/Transitions/s-mount-armbar-setup"
     },
     {
       "@type": "ListItem",
-      "position": 772,
+      "position": 768,
       "name": "S Mount to Mounted Triangle",
       "url": "https://bjjgraph.org/Transitions/s-mount-to-mounted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 773,
+      "position": 769,
       "name": "S-Mount Transition",
       "url": "https://bjjgraph.org/Transitions/s-mount-transition"
     },
     {
       "@type": "ListItem",
-      "position": 774,
+      "position": 770,
       "name": "SLX to Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/slx-to-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 775,
+      "position": 771,
       "name": "SLX to X-Guard",
       "url": "https://bjjgraph.org/Transitions/slx-to-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 776,
+      "position": 772,
       "name": "Saddle Entry from Outside Ashi",
       "url": "https://bjjgraph.org/Transitions/saddle-entry-from-outside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 777,
+      "position": 773,
       "name": "Saddle Entry from Top",
       "url": "https://bjjgraph.org/Transitions/saddle-entry-from-top"
     },
     {
       "@type": "ListItem",
-      "position": 778,
+      "position": 774,
       "name": "Saddle Fallback to Inside Ashi",
       "url": "https://bjjgraph.org/Transitions/saddle-fallback-to-inside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 779,
+      "position": 775,
       "name": "Sasae Tsurikomi Ashi",
       "url": "https://bjjgraph.org/Transitions/sasae-tsurikomi-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 780,
-      "name": "Scarf Hold to Mount",
-      "url": "https://bjjgraph.org/Transitions/scarf-hold-to-mount"
-    },
-    {
-      "@type": "ListItem",
-      "position": 781,
-      "name": "Scarf Hold to Side Control",
-      "url": "https://bjjgraph.org/Transitions/scarf-hold-to-side-control"
-    },
-    {
-      "@type": "ListItem",
-      "position": 782,
+      "position": 776,
       "name": "Scissor Sweep",
       "url": "https://bjjgraph.org/Transitions/scissor-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 783,
+      "position": 777,
       "name": "Scissor Sweep from Open Guard",
       "url": "https://bjjgraph.org/Transitions/scissor-sweep-from-open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 784,
+      "position": 778,
       "name": "Scoot Hips to Guard from Back",
       "url": "https://bjjgraph.org/Transitions/scoot-hips-to-guard-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 785,
+      "position": 779,
       "name": "Scramble to Guard",
       "url": "https://bjjgraph.org/Transitions/scramble-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 786,
+      "position": 780,
       "name": "Seat Belt Control Back",
       "url": "https://bjjgraph.org/Transitions/seat-belt-control-back"
     },
     {
       "@type": "ListItem",
-      "position": 787,
+      "position": 781,
       "name": "Seat Belt Peel Escape",
       "url": "https://bjjgraph.org/Transitions/seat-belt-peel-escape"
     },
     {
       "@type": "ListItem",
-      "position": 788,
+      "position": 782,
       "name": "Seat Belt to Body Triangle",
       "url": "https://bjjgraph.org/Transitions/seat-belt-to-body-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 789,
+      "position": 783,
       "name": "Seat Belt to Full Back Control",
       "url": "https://bjjgraph.org/Transitions/seat-belt-to-full-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 790,
+      "position": 784,
       "name": "Shake Off Rodeo Ride",
       "url": "https://bjjgraph.org/Transitions/shake-off-rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 791,
+      "position": 785,
       "name": "Shin Removal to Pass",
       "url": "https://bjjgraph.org/Transitions/shin-removal-to-pass"
     },
     {
       "@type": "ListItem",
-      "position": 792,
+      "position": 786,
       "name": "Shin Shield Recovery",
       "url": "https://bjjgraph.org/Transitions/shin-shield-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 793,
+      "position": 787,
       "name": "Shin to Shin Pull",
       "url": "https://bjjgraph.org/Transitions/shin-to-shin-pull"
     },
     {
       "@type": "ListItem",
-      "position": 794,
+      "position": 788,
       "name": "Shin-to-Shin Sweep",
       "url": "https://bjjgraph.org/Transitions/shin-to-shin-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 795,
+      "position": 789,
       "name": "Shin-to-Shin from Headquarters",
       "url": "https://bjjgraph.org/Transitions/shin-to-shin-from-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 796,
+      "position": 790,
       "name": "Shin-to-Shin to Single Leg X",
       "url": "https://bjjgraph.org/Transitions/shin-to-shin-to-single-leg-x"
     },
     {
       "@type": "ListItem",
-      "position": 797,
+      "position": 791,
       "name": "Short Choke Attack",
       "url": "https://bjjgraph.org/Transitions/short-choke-attack"
     },
     {
       "@type": "ListItem",
-      "position": 798,
+      "position": 792,
       "name": "Shoulder Walk Escape from Back",
       "url": "https://bjjgraph.org/Transitions/shoulder-walk-escape-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 799,
+      "position": 793,
       "name": "Shoulder of Justice Kimura Setup",
       "url": "https://bjjgraph.org/Transitions/shoulder-of-justice-kimura-setup"
     },
     {
       "@type": "ListItem",
-      "position": 800,
+      "position": 794,
       "name": "Shoulder of Justice to Mount",
       "url": "https://bjjgraph.org/Transitions/shoulder-of-justice-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 801,
+      "position": 795,
       "name": "Shrimp Escape",
       "url": "https://bjjgraph.org/Transitions/shrimp-escape"
     },
     {
       "@type": "ListItem",
-      "position": 802,
+      "position": 796,
       "name": "Sickle Sweep",
       "url": "https://bjjgraph.org/Transitions/sickle-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 803,
+      "position": 797,
       "name": "Side Control Escape",
       "url": "https://bjjgraph.org/Transitions/side-control-escape"
     },
     {
       "@type": "ListItem",
-      "position": 804,
+      "position": 798,
       "name": "Side Control to Kesa Gatame",
       "url": "https://bjjgraph.org/Transitions/side-control-to-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 805,
+      "position": 799,
       "name": "Side Control to Knee on Belly",
       "url": "https://bjjgraph.org/Transitions/side-control-to-knee-on-belly"
     },
     {
       "@type": "ListItem",
-      "position": 806,
-      "name": "Side Control to Kuzure Kesa-Gatame",
+      "position": 800,
+      "name": "Side Control to Kuzure Kesa Gatame",
       "url": "https://bjjgraph.org/Transitions/side-control-to-kuzure-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 807,
+      "position": 801,
       "name": "Side Control to Mount",
       "url": "https://bjjgraph.org/Transitions/side-control-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 808,
+      "position": 802,
       "name": "Side Control to North-South",
       "url": "https://bjjgraph.org/Transitions/side-control-to-north-south"
     },
     {
       "@type": "ListItem",
-      "position": 809,
-      "name": "Side Control to Scarf Hold Position",
-      "url": "https://bjjgraph.org/Transitions/side-control-to-scarf-hold-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 810,
+      "position": 803,
       "name": "Side Control to Shoulder of Justice",
       "url": "https://bjjgraph.org/Transitions/side-control-to-shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 811,
+      "position": 804,
       "name": "Single Leg Entry",
       "url": "https://bjjgraph.org/Transitions/single-leg-entry"
     },
     {
       "@type": "ListItem",
-      "position": 812,
+      "position": 805,
       "name": "Single Leg Takedown",
       "url": "https://bjjgraph.org/Transitions/single-leg-takedown"
     },
     {
       "@type": "ListItem",
-      "position": 813,
+      "position": 806,
       "name": "Single Leg X Entry",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-entry"
     },
     {
       "@type": "ListItem",
-      "position": 814,
+      "position": 807,
       "name": "Single Leg X Recovery",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-recovery"
     },
     {
       "@type": "ListItem",
-      "position": 815,
+      "position": 808,
       "name": "Single Leg X Sweep",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 816,
+      "position": 809,
       "name": "Single Leg X Transition",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-transition"
     },
     {
       "@type": "ListItem",
-      "position": 817,
+      "position": 810,
       "name": "Single Leg X to Estima Lock",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-to-estima-lock"
     },
     {
       "@type": "ListItem",
-      "position": 818,
+      "position": 811,
       "name": "Single Leg X-Guard to Inside Sankaku",
       "url": "https://bjjgraph.org/Transitions/single-leg-x-guard-to-inside-sankaku"
     },
     {
       "@type": "ListItem",
-      "position": 819,
+      "position": 812,
       "name": "Single Leg to Back Take",
       "url": "https://bjjgraph.org/Transitions/single-leg-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 820,
+      "position": 813,
       "name": "Sit Out from Side Control",
       "url": "https://bjjgraph.org/Transitions/sit-out-from-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 821,
+      "position": 814,
       "name": "Sit Out from Turtle",
       "url": "https://bjjgraph.org/Transitions/sit-out-from-turtle"
     },
     {
       "@type": "ListItem",
-      "position": 822,
+      "position": 815,
       "name": "Sit Through Escape",
       "url": "https://bjjgraph.org/Transitions/sit-through-escape"
     },
     {
       "@type": "ListItem",
-      "position": 823,
+      "position": 816,
       "name": "Sit Through to Guard",
       "url": "https://bjjgraph.org/Transitions/sit-through-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 824,
+      "position": 817,
       "name": "Sit to Half Guard",
       "url": "https://bjjgraph.org/Transitions/sit-to-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 825,
+      "position": 818,
       "name": "Sitting Guard Pull",
       "url": "https://bjjgraph.org/Transitions/sitting-guard-pull"
     },
     {
       "@type": "ListItem",
-      "position": 826,
+      "position": 819,
       "name": "Smash Half Butterfly",
       "url": "https://bjjgraph.org/Transitions/smash-half-butterfly"
     },
     {
       "@type": "ListItem",
-      "position": 827,
+      "position": 820,
       "name": "Smash Pass",
       "url": "https://bjjgraph.org/Transitions/smash-pass"
     },
     {
       "@type": "ListItem",
-      "position": 828,
+      "position": 821,
       "name": "Smash Pass Counter",
       "url": "https://bjjgraph.org/Transitions/smash-pass-counter"
     },
     {
       "@type": "ListItem",
-      "position": 829,
+      "position": 822,
       "name": "Smash Pass from Knee Shield",
       "url": "https://bjjgraph.org/Transitions/smash-pass-from-knee-shield"
     },
     {
       "@type": "ListItem",
-      "position": 830,
+      "position": 823,
       "name": "Smash Pass from X-Guard",
       "url": "https://bjjgraph.org/Transitions/smash-pass-from-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 831,
+      "position": 824,
       "name": "Smash Pocket Half",
       "url": "https://bjjgraph.org/Transitions/smash-pocket-half"
     },
     {
       "@type": "ListItem",
-      "position": 832,
+      "position": 825,
       "name": "Smash from Butterfly Half",
       "url": "https://bjjgraph.org/Transitions/smash-from-butterfly-half"
     },
     {
       "@type": "ListItem",
-      "position": 833,
+      "position": 826,
       "name": "Smash from Butterfly Hook Control",
       "url": "https://bjjgraph.org/Transitions/smash-from-butterfly-hook-control"
     },
     {
       "@type": "ListItem",
-      "position": 834,
+      "position": 827,
       "name": "Smash from Knee Shield",
       "url": "https://bjjgraph.org/Transitions/smash-from-knee-shield"
     },
     {
       "@type": "ListItem",
-      "position": 835,
+      "position": 828,
       "name": "Snap Down from Dogfight",
       "url": "https://bjjgraph.org/Transitions/snap-down-from-dogfight"
     },
     {
       "@type": "ListItem",
-      "position": 836,
+      "position": 829,
       "name": "Snap Down from Standing",
       "url": "https://bjjgraph.org/Transitions/snap-down-from-standing"
     },
     {
       "@type": "ListItem",
-      "position": 837,
+      "position": 830,
       "name": "Snap Down to Front Headlock",
       "url": "https://bjjgraph.org/Transitions/snap-down-to-front-headlock"
     },
     {
       "@type": "ListItem",
-      "position": 838,
+      "position": 831,
       "name": "Spider Guard Pass",
       "url": "https://bjjgraph.org/Transitions/spider-guard-pass"
     },
     {
       "@type": "ListItem",
-      "position": 839,
+      "position": 832,
       "name": "Spider Guard to Omoplata",
       "url": "https://bjjgraph.org/Transitions/spider-guard-to-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 840,
+      "position": 833,
       "name": "Spider Sweep",
       "url": "https://bjjgraph.org/Transitions/spider-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 841,
+      "position": 834,
       "name": "Spider to Lasso Guard",
       "url": "https://bjjgraph.org/Transitions/spider-to-lasso-guard"
     },
     {
       "@type": "ListItem",
-      "position": 842,
+      "position": 835,
       "name": "Sprawl",
       "url": "https://bjjgraph.org/Transitions/sprawl"
     },
     {
       "@type": "ListItem",
-      "position": 843,
+      "position": 836,
       "name": "Sprawl Defense",
       "url": "https://bjjgraph.org/Transitions/sprawl-defense"
     },
     {
       "@type": "ListItem",
-      "position": 844,
+      "position": 837,
       "name": "Sprawl and Disengage",
       "url": "https://bjjgraph.org/Transitions/sprawl-and-disengage"
     },
     {
       "@type": "ListItem",
-      "position": 845,
+      "position": 838,
       "name": "Squid Guard Entry",
       "url": "https://bjjgraph.org/Transitions/squid-guard-entry"
     },
     {
       "@type": "ListItem",
-      "position": 846,
+      "position": 839,
       "name": "Squid Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/squid-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 847,
+      "position": 840,
       "name": "Squid to Ringworm Guard",
       "url": "https://bjjgraph.org/Transitions/squid-to-ringworm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 848,
+      "position": 841,
       "name": "Stack Defense",
       "url": "https://bjjgraph.org/Transitions/stack-defense"
     },
     {
       "@type": "ListItem",
-      "position": 849,
+      "position": 842,
       "name": "Stack Defense from Omoplata",
       "url": "https://bjjgraph.org/Transitions/stack-defense-from-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 850,
+      "position": 843,
       "name": "Stack Escape from Triangle",
       "url": "https://bjjgraph.org/Transitions/stack-escape-from-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 851,
+      "position": 844,
       "name": "Stack Pass",
       "url": "https://bjjgraph.org/Transitions/stack-pass"
     },
     {
       "@type": "ListItem",
-      "position": 852,
+      "position": 845,
       "name": "Stack Pass Over Lapel Barrier",
       "url": "https://bjjgraph.org/Transitions/stack-pass-over-lapel-barrier"
     },
     {
       "@type": "ListItem",
-      "position": 853,
+      "position": 846,
       "name": "Stack Pass from Carni",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-carni"
     },
     {
       "@type": "ListItem",
-      "position": 854,
+      "position": 847,
       "name": "Stack Pass from Clamp Guard",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-clamp-guard"
     },
     {
       "@type": "ListItem",
-      "position": 855,
+      "position": 848,
       "name": "Stack Pass from Double Unders",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-double-unders"
     },
     {
       "@type": "ListItem",
-      "position": 856,
+      "position": 849,
       "name": "Stack Pass from Inversion",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-inversion"
     },
     {
       "@type": "ListItem",
-      "position": 857,
+      "position": 850,
       "name": "Stack Pass from Meathook",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-meathook"
     },
     {
       "@type": "ListItem",
-      "position": 858,
+      "position": 851,
       "name": "Stack Pass from Mission Control",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-mission-control"
     },
     {
       "@type": "ListItem",
-      "position": 859,
+      "position": 852,
       "name": "Stack Pass from Spider",
       "url": "https://bjjgraph.org/Transitions/stack-pass-from-spider"
     },
     {
       "@type": "ListItem",
-      "position": 860,
+      "position": 853,
       "name": "Stack Pass with Lapel Control Negation",
       "url": "https://bjjgraph.org/Transitions/stack-pass-with-lapel-control-negation"
     },
     {
       "@type": "ListItem",
-      "position": 861,
+      "position": 854,
       "name": "Stack from Chill Dog",
       "url": "https://bjjgraph.org/Transitions/stack-from-chill-dog"
     },
     {
       "@type": "ListItem",
-      "position": 862,
+      "position": 855,
       "name": "Stack from Inverted",
       "url": "https://bjjgraph.org/Transitions/stack-from-inverted"
     },
     {
       "@type": "ListItem",
-      "position": 863,
+      "position": 856,
       "name": "Stack from Inverted Lasso",
       "url": "https://bjjgraph.org/Transitions/stack-from-inverted-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 864,
+      "position": 857,
       "name": "Stack from Williams Guard",
       "url": "https://bjjgraph.org/Transitions/stack-from-williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 865,
+      "position": 858,
       "name": "Stand Up from Combat Base",
       "url": "https://bjjgraph.org/Transitions/stand-up-from-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 866,
+      "position": 859,
       "name": "Stand Up in Closed Guard",
       "url": "https://bjjgraph.org/Transitions/stand-up-in-closed-guard"
     },
     {
       "@type": "ListItem",
-      "position": 867,
+      "position": 860,
       "name": "Stand and Circle Away",
       "url": "https://bjjgraph.org/Transitions/stand-and-circle-away"
     },
     {
       "@type": "ListItem",
-      "position": 868,
+      "position": 861,
       "name": "Standing Back Control Entry",
       "url": "https://bjjgraph.org/Transitions/standing-back-control-entry"
     },
     {
       "@type": "ListItem",
-      "position": 869,
+      "position": 862,
       "name": "Standing Escape",
       "url": "https://bjjgraph.org/Transitions/standing-escape"
     },
     {
       "@type": "ListItem",
-      "position": 870,
+      "position": 863,
       "name": "Standing Escape from Reverse X-Guard",
       "url": "https://bjjgraph.org/Transitions/standing-escape-from-reverse-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 871,
+      "position": 864,
       "name": "Standing Escape from SLX",
       "url": "https://bjjgraph.org/Transitions/standing-escape-from-slx"
     },
     {
       "@type": "ListItem",
-      "position": 872,
+      "position": 865,
       "name": "Standing Escape from X-Guard",
       "url": "https://bjjgraph.org/Transitions/standing-escape-from-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 873,
+      "position": 866,
       "name": "Standing Guard Pass with Distance Creation",
       "url": "https://bjjgraph.org/Transitions/standing-guard-pass-with-distance-creation"
     },
     {
       "@type": "ListItem",
-      "position": 874,
+      "position": 867,
       "name": "Standing Guard Pull",
       "url": "https://bjjgraph.org/Transitions/standing-guard-pull"
     },
     {
       "@type": "ListItem",
-      "position": 875,
+      "position": 868,
       "name": "Standing Reset to Open Guard",
       "url": "https://bjjgraph.org/Transitions/standing-reset-to-open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 876,
+      "position": 869,
       "name": "Standing Switch Defense",
       "url": "https://bjjgraph.org/Transitions/standing-switch-defense"
     },
     {
       "@type": "ListItem",
-      "position": 877,
+      "position": 870,
       "name": "Standing Switch from Rear Clinch",
       "url": "https://bjjgraph.org/Transitions/standing-switch-from-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 878,
+      "position": 871,
       "name": "Standing Up from Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/standing-up-from-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 879,
+      "position": 872,
       "name": "Standing Up from Combat Base",
       "url": "https://bjjgraph.org/Transitions/standing-up-from-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 880,
+      "position": 873,
       "name": "Standing Up from Inside Ashi",
       "url": "https://bjjgraph.org/Transitions/standing-up-from-inside-ashi"
     },
     {
       "@type": "ListItem",
-      "position": 881,
+      "position": 874,
       "name": "Standing to Single Leg X",
       "url": "https://bjjgraph.org/Transitions/standing-to-single-leg-x"
     },
     {
       "@type": "ListItem",
-      "position": 882,
+      "position": 875,
       "name": "Standing up in Base",
       "url": "https://bjjgraph.org/Transitions/standing-up-in-base"
     },
     {
       "@type": "ListItem",
-      "position": 883,
+      "position": 876,
       "name": "Step Over Escape",
       "url": "https://bjjgraph.org/Transitions/step-over-escape"
     },
     {
       "@type": "ListItem",
-      "position": 884,
+      "position": 877,
       "name": "Step Over from X-Guard",
       "url": "https://bjjgraph.org/Transitions/step-over-from-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 885,
+      "position": 878,
       "name": "Step Over to Mount",
       "url": "https://bjjgraph.org/Transitions/step-over-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 886,
+      "position": 879,
       "name": "Straight Ankle Lock Entry",
       "url": "https://bjjgraph.org/Transitions/straight-ankle-lock-entry"
     },
     {
       "@type": "ListItem",
-      "position": 887,
+      "position": 880,
       "name": "Straight Footlock",
       "url": "https://bjjgraph.org/Transitions/straight-footlock"
     },
     {
       "@type": "ListItem",
-      "position": 888,
+      "position": 881,
       "name": "Straighten Leg Defense from Electric Chair",
       "url": "https://bjjgraph.org/Transitions/straighten-leg-defense-from-electric-chair"
     },
     {
       "@type": "ListItem",
-      "position": 889,
+      "position": 882,
       "name": "Straighten Leg Kneebar Defense",
       "url": "https://bjjgraph.org/Transitions/straighten-leg-kneebar-defense"
     },
     {
       "@type": "ListItem",
-      "position": 890,
+      "position": 883,
       "name": "Strip Grip from Zombie",
       "url": "https://bjjgraph.org/Transitions/strip-grip-from-zombie"
     },
     {
       "@type": "ListItem",
-      "position": 891,
+      "position": 884,
       "name": "Strip Lapel from Piranha",
       "url": "https://bjjgraph.org/Transitions/strip-lapel-from-piranha"
     },
     {
       "@type": "ListItem",
-      "position": 892,
+      "position": 885,
       "name": "Strip Russian Leg Lasso",
       "url": "https://bjjgraph.org/Transitions/strip-russian-leg-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 893,
+      "position": 886,
       "name": "Sumi Gaeshi",
       "url": "https://bjjgraph.org/Transitions/sumi-gaeshi"
     },
     {
       "@type": "ListItem",
-      "position": 894,
+      "position": 887,
       "name": "Suplex from Rear Clinch",
       "url": "https://bjjgraph.org/Transitions/suplex-from-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 895,
+      "position": 888,
       "name": "Sweep from Chill Dog",
       "url": "https://bjjgraph.org/Transitions/sweep-from-chill-dog"
     },
     {
       "@type": "ListItem",
-      "position": 896,
+      "position": 889,
       "name": "Sweep from Clamp Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-clamp-guard"
     },
     {
       "@type": "ListItem",
-      "position": 897,
+      "position": 890,
       "name": "Sweep from Combat Base",
       "url": "https://bjjgraph.org/Transitions/sweep-from-combat-base"
     },
     {
       "@type": "ListItem",
-      "position": 898,
+      "position": 891,
       "name": "Sweep from Cross Ashi-Garami",
       "url": "https://bjjgraph.org/Transitions/sweep-from-cross-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 899,
+      "position": 892,
       "name": "Sweep from Diamond Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-diamond-guard"
     },
     {
       "@type": "ListItem",
-      "position": 900,
+      "position": 893,
       "name": "Sweep from Double Jump",
       "url": "https://bjjgraph.org/Transitions/sweep-from-double-jump"
     },
     {
       "@type": "ListItem",
-      "position": 901,
+      "position": 894,
       "name": "Sweep from Double Unders",
       "url": "https://bjjgraph.org/Transitions/sweep-from-double-unders"
     },
     {
       "@type": "ListItem",
-      "position": 902,
+      "position": 895,
       "name": "Sweep from Electric Chair",
       "url": "https://bjjgraph.org/Transitions/sweep-from-electric-chair"
     },
     {
       "@type": "ListItem",
-      "position": 903,
+      "position": 896,
       "name": "Sweep from Headquarters",
       "url": "https://bjjgraph.org/Transitions/sweep-from-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 904,
+      "position": 897,
       "name": "Sweep from Honey Hole",
       "url": "https://bjjgraph.org/Transitions/sweep-from-honey-hole"
     },
     {
       "@type": "ListItem",
-      "position": 905,
+      "position": 898,
       "name": "Sweep from Inside Sankaku",
       "url": "https://bjjgraph.org/Transitions/sweep-from-inside-sankaku"
     },
     {
       "@type": "ListItem",
-      "position": 906,
+      "position": 899,
       "name": "Sweep from Inverted Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-inverted-guard"
     },
     {
       "@type": "ListItem",
-      "position": 907,
+      "position": 900,
       "name": "Sweep from Knee Shield",
       "url": "https://bjjgraph.org/Transitions/sweep-from-knee-shield"
     },
     {
       "@type": "ListItem",
-      "position": 908,
+      "position": 901,
       "name": "Sweep from Leg Hook",
       "url": "https://bjjgraph.org/Transitions/sweep-from-leg-hook"
     },
     {
       "@type": "ListItem",
-      "position": 909,
+      "position": 902,
       "name": "Sweep from Leg Weave",
       "url": "https://bjjgraph.org/Transitions/sweep-from-leg-weave"
     },
     {
       "@type": "ListItem",
-      "position": 910,
+      "position": 903,
       "name": "Sweep from Matrix",
       "url": "https://bjjgraph.org/Transitions/sweep-from-matrix"
     },
     {
       "@type": "ListItem",
-      "position": 911,
+      "position": 904,
       "name": "Sweep from Meathook",
       "url": "https://bjjgraph.org/Transitions/sweep-from-meathook"
     },
     {
       "@type": "ListItem",
-      "position": 912,
+      "position": 905,
       "name": "Sweep from New York",
       "url": "https://bjjgraph.org/Transitions/sweep-from-new-york"
     },
     {
       "@type": "ListItem",
-      "position": 913,
+      "position": 906,
       "name": "Sweep from Pocket Half Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-pocket-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 914,
+      "position": 907,
       "name": "Sweep from Quarter Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-quarter-guard"
     },
     {
       "@type": "ListItem",
-      "position": 915,
+      "position": 908,
       "name": "Sweep from Reverse Half Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-reverse-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 916,
+      "position": 909,
       "name": "Sweep from Saddle",
       "url": "https://bjjgraph.org/Transitions/sweep-from-saddle"
     },
     {
       "@type": "ListItem",
-      "position": 917,
+      "position": 910,
       "name": "Sweep from Standing Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-standing-guard"
     },
     {
       "@type": "ListItem",
-      "position": 918,
+      "position": 911,
       "name": "Sweep from Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Transitions/sweep-from-ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 919,
+      "position": 912,
       "name": "Sweep from Z-Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-z-guard"
     },
     {
       "@type": "ListItem",
-      "position": 920,
+      "position": 913,
       "name": "Sweep from Z-Lock Half Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-z-lock-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 921,
+      "position": 914,
       "name": "Sweep from Zombie Guard",
       "url": "https://bjjgraph.org/Transitions/sweep-from-zombie-guard"
     },
     {
       "@type": "ListItem",
-      "position": 922,
+      "position": 915,
       "name": "Sweep to Mount",
       "url": "https://bjjgraph.org/Transitions/sweep-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 923,
+      "position": 916,
       "name": "Switch to Anaconda Configuration",
       "url": "https://bjjgraph.org/Transitions/switch-to-anaconda-configuration"
     },
     {
       "@type": "ListItem",
-      "position": 924,
+      "position": 917,
       "name": "Switch to Darce Configuration",
       "url": "https://bjjgraph.org/Transitions/switch-to-darce-configuration"
     },
     {
       "@type": "ListItem",
-      "position": 925,
+      "position": 918,
       "name": "Switch to Triangle",
       "url": "https://bjjgraph.org/Transitions/switch-to-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 926,
+      "position": 919,
       "name": "Tai Otoshi",
       "url": "https://bjjgraph.org/Transitions/tai-otoshi"
     },
     {
       "@type": "ListItem",
-      "position": 927,
+      "position": 920,
       "name": "Takedown from Bottom",
       "url": "https://bjjgraph.org/Transitions/takedown-from-bottom"
     },
     {
       "@type": "ListItem",
-      "position": 928,
+      "position": 921,
       "name": "Takedown from Standing Guard",
       "url": "https://bjjgraph.org/Transitions/takedown-from-standing-guard"
     },
     {
       "@type": "ListItem",
-      "position": 929,
+      "position": 922,
       "name": "Takedown to Grounded Back Control",
       "url": "https://bjjgraph.org/Transitions/takedown-to-grounded-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 930,
+      "position": 923,
       "name": "Tani Otoshi",
       "url": "https://bjjgraph.org/Transitions/tani-otoshi"
     },
     {
       "@type": "ListItem",
-      "position": 931,
+      "position": 924,
       "name": "Tarikoplata Setup",
       "url": "https://bjjgraph.org/Transitions/tarikoplata-setup"
     },
     {
       "@type": "ListItem",
-      "position": 932,
+      "position": 925,
       "name": "Technical Mount to Back Control",
       "url": "https://bjjgraph.org/Transitions/technical-mount-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 933,
+      "position": 926,
       "name": "Technical Mount to Mount",
       "url": "https://bjjgraph.org/Transitions/technical-mount-to-mount"
     },
     {
       "@type": "ListItem",
-      "position": 934,
+      "position": 927,
       "name": "Technical Mount to S Mount",
       "url": "https://bjjgraph.org/Transitions/technical-mount-to-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 935,
+      "position": 928,
       "name": "Technical Stand Up from Ground",
       "url": "https://bjjgraph.org/Transitions/technical-stand-up-from-ground"
     },
     {
       "@type": "ListItem",
-      "position": 936,
+      "position": 929,
       "name": "Technical Stand Up from Open Guard",
       "url": "https://bjjgraph.org/Transitions/technical-stand-up-from-open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 937,
+      "position": 930,
       "name": "Technical Stand Up to Single Leg",
       "url": "https://bjjgraph.org/Transitions/technical-stand-up-to-single-leg"
     },
     {
       "@type": "ListItem",
-      "position": 938,
+      "position": 931,
       "name": "Technical Stand-up",
       "url": "https://bjjgraph.org/Transitions/technical-stand-up"
     },
     {
       "@type": "ListItem",
-      "position": 939,
+      "position": 932,
       "name": "Technical Standup from Inversion",
       "url": "https://bjjgraph.org/Transitions/technical-standup-from-inversion"
     },
     {
       "@type": "ListItem",
-      "position": 940,
+      "position": 933,
       "name": "Ten Finger Guillotine Variation",
       "url": "https://bjjgraph.org/Transitions/ten-finger-guillotine-variation"
     },
     {
       "@type": "ListItem",
-      "position": 941,
+      "position": 934,
       "name": "Toe Hold to Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/toe-hold-to-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 942,
+      "position": 935,
       "name": "Toe Hold to Straight Ankle Lock",
       "url": "https://bjjgraph.org/Transitions/toe-hold-to-straight-ankle-lock"
     },
     {
       "@type": "ListItem",
-      "position": 943,
+      "position": 936,
       "name": "Tomahawk Sweep",
       "url": "https://bjjgraph.org/Transitions/tomahawk-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 944,
+      "position": 937,
       "name": "Tomoe Nage",
       "url": "https://bjjgraph.org/Transitions/tomoe-nage"
     },
     {
       "@type": "ListItem",
-      "position": 945,
+      "position": 938,
       "name": "Toreando Pass",
       "url": "https://bjjgraph.org/Transitions/toreando-pass"
     },
     {
       "@type": "ListItem",
-      "position": 946,
+      "position": 939,
       "name": "Toreando Pass from De La Riva",
       "url": "https://bjjgraph.org/Transitions/toreando-pass-from-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 947,
+      "position": 940,
       "name": "Toreando Pass from Seated Guard",
       "url": "https://bjjgraph.org/Transitions/toreando-pass-from-seated-guard"
     },
     {
       "@type": "ListItem",
-      "position": 948,
+      "position": 941,
       "name": "Toreando from Double Sleeve",
       "url": "https://bjjgraph.org/Transitions/toreando-from-double-sleeve"
     },
     {
       "@type": "ListItem",
-      "position": 949,
+      "position": 942,
       "name": "Toreando from Headquarters",
       "url": "https://bjjgraph.org/Transitions/toreando-from-headquarters"
     },
     {
       "@type": "ListItem",
-      "position": 950,
+      "position": 943,
       "name": "Toreando from Inverted",
       "url": "https://bjjgraph.org/Transitions/toreando-from-inverted"
     },
     {
       "@type": "ListItem",
-      "position": 951,
+      "position": 944,
       "name": "Toss Pass from Double Unders",
       "url": "https://bjjgraph.org/Transitions/toss-pass-from-double-unders"
     },
     {
       "@type": "ListItem",
-      "position": 952,
+      "position": 945,
       "name": "Transition to Clamp Guard",
       "url": "https://bjjgraph.org/Transitions/transition-to-clamp-guard"
     },
     {
       "@type": "ListItem",
-      "position": 953,
+      "position": 946,
       "name": "Transition to Diamond Guard",
       "url": "https://bjjgraph.org/Transitions/transition-to-diamond-guard"
     },
     {
       "@type": "ListItem",
-      "position": 954,
+      "position": 947,
       "name": "Trap and Roll from High Mount",
       "url": "https://bjjgraph.org/Transitions/trap-and-roll-from-high-mount"
     },
     {
       "@type": "ListItem",
-      "position": 955,
+      "position": 948,
       "name": "Trap and Roll from Mount",
       "url": "https://bjjgraph.org/Transitions/trap-and-roll-from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 956,
+      "position": 949,
       "name": "Trap and Roll from S Mount",
       "url": "https://bjjgraph.org/Transitions/trap-and-roll-from-s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 957,
+      "position": 950,
       "name": "Triangle Clear to Side",
       "url": "https://bjjgraph.org/Transitions/triangle-clear-to-side"
     },
     {
       "@type": "ListItem",
-      "position": 958,
+      "position": 951,
       "name": "Triangle Escape",
       "url": "https://bjjgraph.org/Transitions/triangle-escape"
     },
     {
       "@type": "ListItem",
-      "position": 959,
+      "position": 952,
       "name": "Triangle Setup",
       "url": "https://bjjgraph.org/Transitions/triangle-setup"
     },
     {
       "@type": "ListItem",
-      "position": 960,
+      "position": 953,
       "name": "Triangle Setup from De La Riva",
       "url": "https://bjjgraph.org/Transitions/triangle-setup-from-de-la-riva"
     },
     {
       "@type": "ListItem",
-      "position": 961,
+      "position": 954,
       "name": "Triangle from Armbar",
       "url": "https://bjjgraph.org/Transitions/triangle-from-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 962,
+      "position": 955,
       "name": "Triangle from Back",
       "url": "https://bjjgraph.org/Transitions/triangle-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 963,
+      "position": 956,
       "name": "Triangle from Clamp Guard",
       "url": "https://bjjgraph.org/Transitions/triangle-from-clamp-guard"
     },
     {
       "@type": "ListItem",
-      "position": 964,
+      "position": 957,
       "name": "Triangle from Diamond Guard",
       "url": "https://bjjgraph.org/Transitions/triangle-from-diamond-guard"
     },
     {
       "@type": "ListItem",
-      "position": 965,
+      "position": 958,
       "name": "Triangle from Guard",
       "url": "https://bjjgraph.org/Transitions/triangle-from-guard"
     },
     {
       "@type": "ListItem",
-      "position": 966,
+      "position": 959,
       "name": "Triangle from Mount",
       "url": "https://bjjgraph.org/Transitions/triangle-from-mount"
     },
     {
       "@type": "ListItem",
-      "position": 967,
+      "position": 960,
       "name": "Triangle from Spider Guard",
       "url": "https://bjjgraph.org/Transitions/triangle-from-spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 968,
+      "position": 961,
       "name": "Triangle to Armbar",
       "url": "https://bjjgraph.org/Transitions/triangle-to-armbar"
     },
     {
       "@type": "ListItem",
-      "position": 969,
+      "position": 962,
       "name": "Triangle to Back",
       "url": "https://bjjgraph.org/Transitions/triangle-to-back"
     },
     {
       "@type": "ListItem",
-      "position": 970,
+      "position": 963,
       "name": "Triangle to Omoplata",
       "url": "https://bjjgraph.org/Transitions/triangle-to-omoplata"
     },
     {
       "@type": "ListItem",
-      "position": 971,
+      "position": 964,
       "name": "Tripod Sweep",
       "url": "https://bjjgraph.org/Transitions/tripod-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 972,
+      "position": 965,
       "name": "Truck Entry",
       "url": "https://bjjgraph.org/Transitions/truck-entry"
     },
     {
       "@type": "ListItem",
-      "position": 973,
+      "position": 966,
       "name": "Truck Maintenance",
       "url": "https://bjjgraph.org/Transitions/truck-maintenance"
     },
     {
       "@type": "ListItem",
-      "position": 974,
+      "position": 967,
       "name": "Truck Position Entry",
       "url": "https://bjjgraph.org/Transitions/truck-position-entry"
     },
     {
       "@type": "ListItem",
-      "position": 975,
+      "position": 968,
       "name": "Truck to Back Control",
       "url": "https://bjjgraph.org/Transitions/truck-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 976,
+      "position": 969,
       "name": "Truck to Twister Side Control",
       "url": "https://bjjgraph.org/Transitions/truck-to-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 977,
+      "position": 970,
       "name": "Turn In and Face",
       "url": "https://bjjgraph.org/Transitions/turn-in-and-face"
     },
     {
       "@type": "ListItem",
-      "position": 978,
-      "name": "Turn In from Reverse Kesa",
-      "url": "https://bjjgraph.org/Transitions/turn-in-from-reverse-kesa"
-    },
-    {
-      "@type": "ListItem",
-      "position": 979,
+      "position": 971,
       "name": "Turn In from Twister Side Control",
       "url": "https://bjjgraph.org/Transitions/turn-in-from-twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 980,
+      "position": 972,
+      "name": "Turn In from Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Transitions/turn-in-from-ushiro-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 973,
       "name": "Turn and Extract from Kneebar",
       "url": "https://bjjgraph.org/Transitions/turn-and-extract-from-kneebar"
     },
     {
       "@type": "ListItem",
-      "position": 981,
+      "position": 974,
       "name": "Turn into Opponent from Back",
       "url": "https://bjjgraph.org/Transitions/turn-into-opponent-from-back"
     },
     {
       "@type": "ListItem",
-      "position": 982,
+      "position": 975,
       "name": "Turn to Face from Zombie",
       "url": "https://bjjgraph.org/Transitions/turn-to-face-from-zombie"
     },
     {
       "@type": "ListItem",
-      "position": 983,
+      "position": 976,
       "name": "Turn to Turtle from Knee on Belly",
       "url": "https://bjjgraph.org/Transitions/turn-to-turtle-from-knee-on-belly"
     },
     {
       "@type": "ListItem",
-      "position": 984,
+      "position": 977,
       "name": "Turtle Attack Sequence",
       "url": "https://bjjgraph.org/Transitions/turtle-attack-sequence"
     },
     {
       "@type": "ListItem",
-      "position": 985,
+      "position": 978,
       "name": "Turtle Flatten to Side Control",
       "url": "https://bjjgraph.org/Transitions/turtle-flatten-to-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 986,
+      "position": 979,
       "name": "Turtle from Back Control",
       "url": "https://bjjgraph.org/Transitions/turtle-from-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 987,
+      "position": 980,
       "name": "Turtle from Side Control Bottom",
       "url": "https://bjjgraph.org/Transitions/turtle-from-side-control-bottom"
     },
     {
       "@type": "ListItem",
-      "position": 988,
+      "position": 981,
       "name": "Turtle to Aoki Lock",
       "url": "https://bjjgraph.org/Transitions/turtle-to-aoki-lock"
     },
     {
       "@type": "ListItem",
-      "position": 989,
+      "position": 982,
       "name": "Turtle to Back Control",
       "url": "https://bjjgraph.org/Transitions/turtle-to-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 990,
+      "position": 983,
       "name": "Turtle to Back Take",
       "url": "https://bjjgraph.org/Transitions/turtle-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 991,
+      "position": 984,
       "name": "Turtle to Guard",
       "url": "https://bjjgraph.org/Transitions/turtle-to-guard"
     },
     {
       "@type": "ListItem",
-      "position": 992,
+      "position": 985,
       "name": "Turtle to Matrix",
       "url": "https://bjjgraph.org/Transitions/turtle-to-matrix"
     },
     {
       "@type": "ListItem",
-      "position": 993,
+      "position": 986,
       "name": "Turtle to Rodeo Ride",
       "url": "https://bjjgraph.org/Transitions/turtle-to-rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 994,
+      "position": 987,
       "name": "Turtle to Russian Cowboy",
       "url": "https://bjjgraph.org/Transitions/turtle-to-russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 995,
+      "position": 988,
       "name": "Turtle to Standing",
       "url": "https://bjjgraph.org/Transitions/turtle-to-standing"
     },
     {
       "@type": "ListItem",
-      "position": 996,
+      "position": 989,
       "name": "Turtle to Truck",
       "url": "https://bjjgraph.org/Transitions/turtle-to-truck"
     },
     {
       "@type": "ListItem",
-      "position": 997,
+      "position": 990,
       "name": "Turtle to Truck Entry",
       "url": "https://bjjgraph.org/Transitions/turtle-to-truck-entry"
     },
     {
       "@type": "ListItem",
-      "position": 998,
+      "position": 991,
       "name": "Twister Entry",
       "url": "https://bjjgraph.org/Transitions/twister-entry"
     },
     {
       "@type": "ListItem",
-      "position": 999,
+      "position": 992,
       "name": "Twister SC to Back Take",
       "url": "https://bjjgraph.org/Transitions/twister-sc-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 1000,
+      "position": 993,
       "name": "Twister SC to Truck",
       "url": "https://bjjgraph.org/Transitions/twister-sc-to-truck"
     },
     {
       "@type": "ListItem",
-      "position": 1001,
+      "position": 994,
       "name": "Two-on-One to Back Take",
       "url": "https://bjjgraph.org/Transitions/two-on-one-to-back-take"
     },
     {
       "@type": "ListItem",
-      "position": 1002,
+      "position": 995,
       "name": "Uchi Mata",
       "url": "https://bjjgraph.org/Transitions/uchi-mata"
     },
     {
       "@type": "ListItem",
-      "position": 1003,
+      "position": 996,
       "name": "Underhook Pass",
       "url": "https://bjjgraph.org/Transitions/underhook-pass"
     },
     {
       "@type": "ListItem",
-      "position": 1004,
+      "position": 997,
       "name": "Underhook Pummeling from Clinch",
       "url": "https://bjjgraph.org/Transitions/underhook-pummeling-from-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 1005,
+      "position": 998,
       "name": "Underhook Recovery from Flattened",
       "url": "https://bjjgraph.org/Transitions/underhook-recovery-from-flattened"
     },
     {
       "@type": "ListItem",
-      "position": 1006,
+      "position": 999,
       "name": "Underhook Sweep",
       "url": "https://bjjgraph.org/Transitions/underhook-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1007,
+      "position": 1000,
       "name": "Underhook Sweep from Dogfight",
       "url": "https://bjjgraph.org/Transitions/underhook-sweep-from-dogfight"
     },
     {
       "@type": "ListItem",
-      "position": 1008,
+      "position": 1001,
       "name": "Underhook Sweep from Half",
       "url": "https://bjjgraph.org/Transitions/underhook-sweep-from-half"
     },
     {
       "@type": "ListItem",
-      "position": 1009,
+      "position": 1002,
       "name": "Underhook Sweep from Pocket Half",
       "url": "https://bjjgraph.org/Transitions/underhook-sweep-from-pocket-half"
     },
     {
       "@type": "ListItem",
-      "position": 1010,
+      "position": 1003,
       "name": "Underhook from Knee Shield",
       "url": "https://bjjgraph.org/Transitions/underhook-from-knee-shield"
     },
     {
       "@type": "ListItem",
-      "position": 1011,
+      "position": 1004,
       "name": "Upa Escape",
       "url": "https://bjjgraph.org/Transitions/upa-escape"
     },
     {
       "@type": "ListItem",
-      "position": 1012,
+      "position": 1005,
       "name": "Ushiro Ashi-Garami Escape",
       "url": "https://bjjgraph.org/Transitions/ushiro-ashi-garami-escape"
     },
     {
       "@type": "ListItem",
-      "position": 1013,
+      "position": 1006,
       "name": "Ushiro Ashi-Garami to Deep Half",
       "url": "https://bjjgraph.org/Transitions/ushiro-ashi-garami-to-deep-half"
     },
     {
       "@type": "ListItem",
-      "position": 1014,
+      "position": 1007,
+      "name": "Ushiro Kesa Gatame to North-South",
+      "url": "https://bjjgraph.org/Transitions/ushiro-kesa-gatame-to-north-south"
+    },
+    {
+      "@type": "ListItem",
+      "position": 1008,
+      "name": "Ushiro Kesa Gatame to Side Control",
+      "url": "https://bjjgraph.org/Transitions/ushiro-kesa-gatame-to-side-control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 1009,
       "name": "Waiter Sweep",
       "url": "https://bjjgraph.org/Transitions/waiter-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1015,
+      "position": 1010,
       "name": "Whip-up Sweep",
       "url": "https://bjjgraph.org/Transitions/whip-up-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1016,
+      "position": 1011,
       "name": "Whizzer",
       "url": "https://bjjgraph.org/Transitions/whizzer"
     },
     {
       "@type": "ListItem",
-      "position": 1017,
+      "position": 1012,
       "name": "Whizzer from Deep Half",
       "url": "https://bjjgraph.org/Transitions/whizzer-from-deep-half"
     },
     {
       "@type": "ListItem",
-      "position": 1018,
+      "position": 1013,
       "name": "Williams Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/williams-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1019,
+      "position": 1014,
       "name": "Worm Guard Entry",
       "url": "https://bjjgraph.org/Transitions/worm-guard-entry"
     },
     {
       "@type": "ListItem",
-      "position": 1020,
+      "position": 1015,
       "name": "Worm Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/worm-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1021,
+      "position": 1016,
       "name": "Worm to Squid Guard",
       "url": "https://bjjgraph.org/Transitions/worm-to-squid-guard"
     },
     {
       "@type": "ListItem",
-      "position": 1022,
+      "position": 1017,
       "name": "X Pass",
       "url": "https://bjjgraph.org/Transitions/x-pass"
     },
     {
       "@type": "ListItem",
-      "position": 1023,
+      "position": 1018,
       "name": "X-Guard Elevation Sweep",
       "url": "https://bjjgraph.org/Transitions/x-guard-elevation-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1024,
+      "position": 1019,
       "name": "X-Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/x-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1025,
+      "position": 1020,
       "name": "X-Guard Technical Stand Up",
       "url": "https://bjjgraph.org/Transitions/x-guard-technical-stand-up"
     },
     {
       "@type": "ListItem",
-      "position": 1026,
+      "position": 1021,
       "name": "X-Guard to Ashi Garami",
       "url": "https://bjjgraph.org/Transitions/x-guard-to-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 1027,
+      "position": 1022,
       "name": "X-Guard to Single Leg X",
       "url": "https://bjjgraph.org/Transitions/x-guard-to-single-leg-x"
     },
     {
       "@type": "ListItem",
-      "position": 1028,
+      "position": 1023,
       "name": "Z-Guard Pass",
       "url": "https://bjjgraph.org/Transitions/z-guard-pass"
     },
     {
       "@type": "ListItem",
-      "position": 1029,
+      "position": 1024,
       "name": "Z-Guard Sweep",
       "url": "https://bjjgraph.org/Transitions/z-guard-sweep"
     },
     {
       "@type": "ListItem",
-      "position": 1030,
+      "position": 1025,
       "name": "Z-Guard to Half Guard",
       "url": "https://bjjgraph.org/Transitions/z-guard-to-half-guard"
     }
@@ -6381,7 +6351,7 @@ Master arm recovery from crucifix in BJJ. Systematic guide to freeing trapped ar
 
 ### [[Transitions/Arm Recovery to Guard|Arm Recovery to Guard]]
 
-Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
+Learn Arm Recovery to Guard from Kuzure Kesa Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
 ### [[Transitions/Arm Triangle Setup|Arm Triangle Setup]]
 
@@ -6675,29 +6645,25 @@ Master the bridge escape from 3-4 mount in BJJ. Complete guide to exploiting asy
 
 Master the bridge escape from Kesa Gatame in BJJ. Complete guide to hip mechanics, timing, and half guard recovery from the scarf hold position.
 
+### [[Transitions/Bridge Escape from Kuzure Kesa Gatame|Bridge Escape from Kuzure Kesa Gatame]]
+
+Master the bridge escape from Kuzure Kesa Gatame in BJJ. Complete guide to timing, hip mechanics, and guard recovery from this oppressive chest-pressure pin.
+
 ### [[Transitions/Bridge Escape from Modified Mount|Bridge Escape from Modified Mount]]
 
 Master the bridge escape from Modified Mount in BJJ. Learn to exploit asymmetric weight distribution for half guard recovery and systematic escape chains.
-
-### [[Transitions/Bridge Escape from Modified Scarf Hold|Bridge Escape from Modified Scarf Hold]]
-
-Master the bridge escape from Modified Scarf Hold in BJJ. Complete guide to timing, hip mechanics, and guard recovery from this oppressive chest-pressure pin.
 
 ### [[Transitions/Bridge Escape from Mounted Crucifix|Bridge Escape from Mounted Crucifix]]
 
 Master the bridge escape from mounted crucifix in BJJ. Learn explosive bridging mechanics, arm extraction timing, and systematic guard recovery methods.
 
-### [[Transitions/Bridge Escape from Reverse Scarf Hold|Bridge Escape from Reverse Scarf Hold]]
-
-Master the Bridge Escape from Reverse Scarf Hold in BJJ. Step-by-step guide to bridge timing, directional mechanics, and half guard recovery techniques.
-
 ### [[Transitions/Bridge Escape from S Mount|Bridge Escape from S Mount]]
 
 Master the bridge escape from S Mount in BJJ. Technical guide to timing, arm protection, bridge mechanics, and guard recovery from this dominant position.
 
-### [[Transitions/Bridge Escape from Scarf Hold|Bridge Escape from Scarf Hold]]
+### [[Transitions/Bridge Escape from Ushiro Kesa Gatame|Bridge Escape from Ushiro Kesa Gatame]]
 
-Master the bridge escape from scarf hold in BJJ. Learn explosive bridging mechanics, arm trapping, and rotational force to escape kesa gatame to half guard.
+Master the Bridge Escape from Ushiro Kesa Gatame in BJJ. Step-by-step guide to bridge timing, directional mechanics, and half guard recovery techniques.
 
 ### [[Transitions/Bridge and Roll|Bridge and Roll]]
 
@@ -6707,25 +6673,25 @@ Master the Bridge and Roll escape from Mount in BJJ. Complete breakdown of hip e
 
 Master the Bridge and Turn to Turtle escape from North-South. Step-by-step execution with timing cues and defensive counters for both perspectives.
 
-### [[Transitions/Bridge from Modified Scarf Hold|Bridge from Modified Scarf Hold]]
+### [[Transitions/Bridge from Kesa Gatame|Bridge from Kesa Gatame]]
 
-Master the bridge escape from Modified Scarf Hold in BJJ. Step-by-step bridging mechanics, timing windows, and reversal technique for escaping this pin.
+Master the bridge-and-roll reversal from scarf hold in BJJ. Step-by-step guide to arm trapping, leg hooking, and explosive bridging for a full kesa gatame reversal.
 
-### [[Transitions/Bridge from Reverse Kesa-Gatame|Bridge from Reverse Kesa-Gatame]]
+### [[Transitions/Bridge from Kuzure Kesa Gatame|Bridge from Kuzure Kesa Gatame]]
 
-Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete guide to bridge timing, hip mechanics, and transitions for escaping reverse scarf hold.
+Master the bridge escape from Kuzure Kesa Gatame in BJJ. Step-by-step bridging mechanics, timing windows, and reversal technique for escaping this pin.
 
 ### [[Transitions/Bridge from Reverse Mount|Bridge from Reverse Mount]]
 
 Master the Bridge from Reverse Mount escape in BJJ. Complete guide to explosive bridging mechanics, timing windows, and escape sequences to turtle.
 
-### [[Transitions/Bridge from Scarf Hold Position|Bridge from Scarf Hold Position]]
-
-Master the bridge-and-roll reversal from scarf hold in BJJ. Step-by-step guide to arm trapping, leg hooking, and explosive bridging for a full kesa gatame reversal.
-
 ### [[Transitions/Bridge from Technical Mount|Bridge from Technical Mount]]
 
 Master the bridge escape from technical mount in BJJ. Complete guide to timing, hip mechanics, guard recovery, and countering armbar threats from bottom.
+
+### [[Transitions/Bridge from Ushiro Kesa Gatame|Bridge from Ushiro Kesa Gatame]]
+
+Master the bridge escape from Ushiro Kesa Gatame in BJJ. Complete guide to bridge timing, hip mechanics, and transitions for escaping reverse scarf hold.
 
 ### [[Transitions/Bridge to Mount from High Mount|Bridge to Mount from High Mount]]
 
@@ -7247,6 +7213,14 @@ Escape Dead Orchard Control in BJJ with systematic frame defense and hip escape 
 
 Master Escape Double Jump in BJJ. Safely retreat from a failed double jump entry to half guard with systematic leg extraction and frame recovery techniques.
 
+### [[Transitions/Escape Kesa Gatame|Escape Kesa Gatame]]
+
+Master the Escape from Kesa Gatame in BJJ. Complete guide to bridge-and-turn mechanics, frame creation, and guard recovery from kesa gatame.
+
+### [[Transitions/Escape Kuzure Kesa Gatame|Escape Kuzure Kesa Gatame]]
+
+Learn the frame-and-hip escape from Kuzure Kesa Gatame in BJJ. Systematic guide to creating space, freeing the trapped arm, and recovering guard position.
+
 ### [[Transitions/Escape Leg Hook|Escape Leg Hook]]
 
 Master the Escape Leg Hook in BJJ. Systematic hip escape and frame techniques to free your trapped leg from hook control and recover standard half guard position.
@@ -7255,29 +7229,13 @@ Master the Escape Leg Hook in BJJ. Systematic hip escape and frame techniques to
 
 Master escaping the Matrix position in BJJ. Technical guide to recovering from stalled rotations, transitioning safely to turtle, and preventing back takes.
 
-### [[Transitions/Escape Modified Scarf Hold|Escape Modified Scarf Hold]]
-
-Learn the frame-and-hip escape from Modified Scarf Hold in BJJ. Systematic guide to creating space, freeing the trapped arm, and recovering guard position.
-
 ### [[Transitions/Escape Reverse Half Guard|Escape Reverse Half Guard]]
 
 Master the Escape from Reverse Half Guard in BJJ. Learn hip rotation recovery, frame establishment, and guard retention to recover standard half guard.
 
-### [[Transitions/Escape Reverse Kesa-Gatame|Escape Reverse Kesa-Gatame]]
-
-Master the hip escape from Reverse Kesa-Gatame in BJJ. Systematic guide covering frame establishment, shrimping mechanics, and half guard recovery.
-
 ### [[Transitions/Escape Reverse Mount|Escape Reverse Mount]]
 
 Learn to escape Reverse Mount in BJJ. Complete guide covering hip escape mechanics, half guard recovery, and critical defensive strategies against back takes.
-
-### [[Transitions/Escape Reverse Scarf Hold|Escape Reverse Scarf Hold]]
-
-Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic hip escapes, frame creation, and guard recovery techniques from this challenging pin.
-
-### [[Transitions/Escape Scarf Hold Position|Escape Scarf Hold Position]]
-
-Master the Escape from Scarf Hold Position in BJJ. Complete guide to bridge-and-turn mechanics, frame creation, and guard recovery from kesa gatame.
 
 ### [[Transitions/Escape Seat Belt Control|Escape Seat Belt Control]]
 
@@ -7294,6 +7252,10 @@ Master the Escape from Technical Mount to Half Guard in BJJ. Complete guide cove
 ### [[Transitions/Escape Twister Side Control|Escape Twister Side Control]]
 
 Master the escape from twister side control in BJJ. Complete guide covering frame creation, leg extraction, and systematic escape mechanics for bottom players.
+
+### [[Transitions/Escape Ushiro Kesa Gatame|Escape Ushiro Kesa Gatame]]
+
+Master the hip escape from Ushiro Kesa Gatame in BJJ. Systematic guide covering frame establishment, shrimping mechanics, and half guard recovery.
 
 ### [[Transitions/Escape Vaporizer|Escape Vaporizer]]
 
@@ -7439,9 +7401,9 @@ Master the Frame Escape from Darce in BJJ. Complete guide to framing techniques,
 
 Master the Frame Escape from High Mount in BJJ. Learn frame creation, hip movement, and timing to reduce positional severity and create escape opportunities.
 
-### [[Transitions/Frame Escape from Kuzure Kesa|Frame Escape from Kuzure Kesa]]
+### [[Transitions/Frame Escape from Kuzure Kesa Gatame|Frame Escape from Kuzure Kesa Gatame]]
 
-Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn systematic framing mechanics, hip escape timing, and guard recovery from modified scarf hold.
+Master the frame escape from Kuzure Kesa Gatame in BJJ. Learn systematic framing mechanics, hip escape timing, and guard recovery from modified scarf hold.
 
 ### [[Transitions/Frame Escape from Shoulder of Justice|Frame Escape from Shoulder of Justice]]
 
@@ -7479,10 +7441,6 @@ Master Frame and Shrimp to Guard escape from Leg Drag Control in BJJ. Step-by-st
 
 Learn Frame and Turn escape from Twister Control. Step-by-step technique to reduce spinal rotation and recover guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
-### [[Transitions/Frame from Reverse Scarf Hold|Frame from Reverse Scarf Hold]]
-
-Master the frame escape from Reverse Scarf Hold in BJJ. Complete guide to defensive framing mechanics, hip escape timing, and guard recovery from reverse pin.
-
 ### [[Transitions/Frame from Shoulder of Justice|Frame from Shoulder of Justice]]
 
 Master framing from Shoulder of Justice in BJJ. Defensive guide to creating structural frames, relieving jaw pressure, and transitioning to side control bottom.
@@ -7494,6 +7452,10 @@ Master the defensive frame from Side Control in BJJ. Complete guide to disruptin
 ### [[Transitions/Frame from Twister Side Control|Frame from Twister Side Control]]
 
 Master the frame escape from twister side control. Complete guide to systematic framing, hip movement, and half guard recovery with step-by-step execution.
+
+### [[Transitions/Frame from Ushiro Kesa Gatame|Frame from Ushiro Kesa Gatame]]
+
+Master the frame escape from Ushiro Kesa Gatame in BJJ. Complete guide to defensive framing mechanics, hip escape timing, and guard recovery from reverse pin.
 
 ### [[Transitions/Frame to Guard from Kesa Gatame|Frame to Guard from Kesa Gatame]]
 
@@ -7529,7 +7491,7 @@ Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from trapped arm posit
 
 ### [[Transitions/Gift Wrap Control|Gift Wrap Control]]
 
-Master Gift Wrap Control in BJJ. Complete guide to arm trapping from Kuzure Kesa-Gatame with attacker execution steps and defender escape strategies.
+Master Gift Wrap Control in BJJ. Complete guide to arm trapping from Kuzure Kesa Gatame with attacker execution steps and defender escape strategies.
 
 ### [[Transitions/Gift Wrap Maintenance|Gift Wrap Maintenance]]
 
@@ -8039,13 +8001,21 @@ Master the Knee on Belly to Mount transition in BJJ. Learn weight transfer mecha
 
 Master the KOB to Side Control transition in BJJ. Learn to consolidate from knee on belly into stable side control while denying guard recovery attempts.
 
-### [[Transitions/Kesa Gatame to Modified Scarf Hold|Kesa Gatame to Modified Scarf Hold]]
+### [[Transitions/Kesa Gatame to Kuzure Kesa Gatame|Kesa Gatame to Kuzure Kesa Gatame]]
 
-Master the transition from Kesa Gatame to Modified Scarf Hold in BJJ. Step-by-step guide covering chest pressure transfer, arm control, and positional adjustment.
+Master the transition from Kesa Gatame to Kuzure Kesa Gatame in BJJ. Step-by-step guide covering chest pressure transfer, arm control, and positional adjustment.
 
-### [[Transitions/Kesa Gatame to Reverse Kesa-Gatame|Kesa Gatame to Reverse Kesa-Gatame]]
+### [[Transitions/Kesa Gatame to Mount|Kesa Gatame to Mount]]
 
-Master the transition from Kesa Gatame to Reverse Kesa-Gatame. Complete guide covering rotation mechanics, arm isolation, pressure maintenance, and defensive counters.
+Master the Kesa Gatame to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement.
+
+### [[Transitions/Kesa Gatame to Side Control|Kesa Gatame to Side Control]]
+
+Master the Kesa Gatame to Side Control transition in BJJ. Learn grip changes, hip repositioning, and crossface establishment for secure positional advancement.
+
+### [[Transitions/Kesa Gatame to Ushiro Kesa Gatame|Kesa Gatame to Ushiro Kesa Gatame]]
+
+Master the transition from Kesa Gatame to Ushiro Kesa Gatame. Complete guide covering rotation mechanics, arm isolation, pressure maintenance, and defensive counters.
 
 ### [[Transitions/Kimura Counter via Roll|Kimura Counter via Roll]]
 
@@ -8067,9 +8037,9 @@ Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount using figure-
 
 Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimura Control when opponent defends shoulder lock. Complete guide with attacker and defender perspectives.
 
-### [[Transitions/Kimura Trap to Reverse Scarf Hold|Kimura Trap to Reverse Scarf Hold]]
+### [[Transitions/Kimura Trap to Ushiro Kesa Gatame|Kimura Trap to Ushiro Kesa Gatame]]
 
-Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Learn hip rotation mechanics, arm control retention, and pressure transfer for dominant pinning control.
+Master the Kimura Trap to Ushiro Kesa Gatame transition in BJJ. Learn hip rotation mechanics, arm control retention, and pressure transfer for dominant pinning control.
 
 ### [[Transitions/Kimura from Back|Kimura from Back]]
 
@@ -8258,6 +8228,14 @@ Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step execution from standi
 ### [[Transitions/Kouchi Gari|Kouchi Gari]]
 
 Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch with diagonal off-balancing. Complete guide with execution steps and combinations.
+
+### [[Transitions/Kuzure Kesa Gatame to Kesa Gatame|Kuzure Kesa Gatame to Kesa Gatame]]
+
+Master the Kuzure Kesa Gatame to Kesa Gatame transition in BJJ. Step-by-step guide covering hip rotation, head control transfer, and arm trapping mechanics.
+
+### [[Transitions/Kuzure Kesa Gatame to Mount|Kuzure Kesa Gatame to Mount]]
+
+Master the Modified Kesa Gatame to Mount transition in BJJ. Learn weight transfer, leg clearance timing, and pressure maintenance to secure full mount control.
 
 ### [[Transitions/Lapel Clear to Toreando Pass|Lapel Clear to Toreando Pass]]
 
@@ -8546,14 +8524,6 @@ Master Mission Control entry from Rubber Guard in BJJ. Learn grip transitions, h
 ### [[Transitions/Mission Control Recovery|Mission Control Recovery]]
 
 Master Mission Control Recovery in BJJ. Learn to return to rubber guard control when a gogoplata attempt fails, preserving position and offensive cycling.
-
-### [[Transitions/Modified Scarf to Kesa Gatame|Modified Scarf to Kesa Gatame]]
-
-Master the Modified Scarf Hold to Kesa Gatame transition in BJJ. Step-by-step guide covering hip rotation, head control transfer, and arm trapping mechanics.
-
-### [[Transitions/Modified Scarf to Mount|Modified Scarf to Mount]]
-
-Master the Modified Scarf Hold to Mount transition in BJJ. Learn weight transfer, leg clearance timing, and pressure maintenance to secure full mount control.
 
 ### [[Transitions/Morote Seoi Nage|Morote Seoi Nage]]
 
@@ -9099,14 +9069,6 @@ Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard contr
 
 Master the Reverse Heel Hook Counter from Ushiro Ashi-Garami. Counter-attack technique turning defensive leg entanglement into inside ashi-garami offense.
 
-### [[Transitions/Reverse Kesa to North-South|Reverse Kesa to North-South]]
-
-Master the Reverse Kesa to North-South transition in BJJ. Complete guide to rotation mechanics, pressure maintenance, and counters for pin advancement.
-
-### [[Transitions/Reverse Kesa to Side Control|Reverse Kesa to Side Control]]
-
-Master the Reverse Kesa to Side Control transition in BJJ. Complete guide covering rotation mechanics, pressure maintenance, and grip transitions for top control.
-
 ### [[Transitions/Reverse Mount Transition|Reverse Mount Transition]]
 
 Master the Reverse Mount Transition from North-South. Step-by-step guide to securing reverse mount for armbar attacks and positional advancement.
@@ -9118,14 +9080,6 @@ Master the Reverse Mount to Mount transition in BJJ. Complete guide to rotating 
 ### [[Transitions/Reverse Mount to Side Control|Reverse Mount to Side Control]]
 
 Master the Reverse Mount to Side Control transition in BJJ. Step-by-step hip rotation, weight transfer, and crossface techniques for dominant side control.
-
-### [[Transitions/Reverse Scarf to North-South|Reverse Scarf to North-South]]
-
-Master the Reverse Scarf to North-South transition in BJJ. Learn weight transfer mechanics, pressure maintenance, and control during positional rotation.
-
-### [[Transitions/Reverse Scarf to Side Control|Reverse Scarf to Side Control]]
-
-Master the Reverse Scarf Hold to Side Control transition in BJJ. Learn rotational mechanics, pressure maintenance, and timing for seamless positional advancement.
 
 ### [[Transitions/Reverse X to Ashi Garami Entry|Reverse X to Ashi Garami Entry]]
 
@@ -9351,14 +9305,6 @@ Master the Saddle Fallback to Inside Ashi in BJJ. Learn when and how to retreat 
 
 Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo foot sweep with kuzushi setup, timing, foot placement, and combination attacks from standing.
 
-### [[Transitions/Scarf Hold to Mount|Scarf Hold to Mount]]
-
-Master the Scarf Hold to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement.
-
-### [[Transitions/Scarf Hold to Side Control|Scarf Hold to Side Control]]
-
-Master the Scarf Hold to Side Control transition in BJJ. Learn grip changes, hip repositioning, and crossface establishment for secure positional advancement.
-
 ### [[Transitions/Scissor Sweep|Scissor Sweep]]
 
 Master the Scissor Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, defense strategies, and systematic integration for sweeping to Mount.
@@ -9455,9 +9401,9 @@ Master the side control to Kesa Gatame transition in BJJ. Step-by-step guide cov
 
 Master the Side Control to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and explosive knee placement for dynamic top advancement.
 
-### [[Transitions/Side Control to Kuzure Kesa-Gatame|Side Control to Kuzure Kesa-Gatame]]
+### [[Transitions/Side Control to Kuzure Kesa Gatame|Side Control to Kuzure Kesa Gatame]]
 
-Master the side control to Kuzure Kesa-Gatame transition in BJJ. Step-by-step guide to arm isolation, hip shift, and establishing the modified scarf hold pin.
+Master the side control to Kuzure Kesa Gatame transition in BJJ. Step-by-step guide to arm isolation, hip shift, and establishing the modified scarf hold pin.
 
 ### [[Transitions/Side Control to Mount|Side Control to Mount]]
 
@@ -9466,10 +9412,6 @@ Master the fundamental transition from side control to mount in BJJ. Step-by-ste
 ### [[Transitions/Side Control to North-South|Side Control to North-South]]
 
 Master the Side Control to North-South transition in BJJ. Maintain crushing pressure while advancing position for kimuras, chokes, and armbars.
-
-### [[Transitions/Side Control to Scarf Hold Position|Side Control to Scarf Hold Position]]
-
-Master the transition from Side Control to Scarf Hold (Kesa Gatame) in BJJ. Learn perpendicular angle adjustment, arm isolation, and head control mechanics.
 
 ### [[Transitions/Side Control to Shoulder of Justice|Side Control to Shoulder of Justice]]
 
@@ -10143,13 +10085,13 @@ Master the Truck to Twister Side Control transition in BJJ. Step-by-step guide c
 
 Learn Turn In and Face escape from Buggy Choke bottom in BJJ. Step-by-step rotation to eliminate choking angle and recover guard. Beginner 30%, Advanced 65%.
 
-### [[Transitions/Turn In from Reverse Kesa|Turn In from Reverse Kesa]]
-
-Master the Turn In escape from Reverse Kesa-Gatame. Learn hip mechanics, framing sequences, and half guard recovery techniques to escape this crushing pin.
-
 ### [[Transitions/Turn In from Twister Side Control|Turn In from Twister Side Control]]
 
 Master the turn-in escape from twister side control in BJJ. Learn frame creation, hip rotation, and leg extraction techniques to recover half guard safely.
+
+### [[Transitions/Turn In from Ushiro Kesa Gatame|Turn In from Ushiro Kesa Gatame]]
+
+Master the Turn In escape from Ushiro Kesa Gatame. Learn hip mechanics, framing sequences, and half guard recovery techniques to escape this crushing pin.
 
 ### [[Transitions/Turn and Extract from Kneebar|Turn and Extract from Kneebar]]
 
@@ -10286,6 +10228,14 @@ Learn Ushiro Ashi-Garami Escape in BJJ. Systematic leg extraction from reversed 
 ### [[Transitions/Ushiro Ashi-Garami to Deep Half|Ushiro Ashi-Garami to Deep Half]]
 
 Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Escape reversed leg entanglement to sweeping position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.
+
+### [[Transitions/Ushiro Kesa Gatame to North-South|Ushiro Kesa Gatame to North-South]]
+
+Master the Ushiro Kesa Gatame to North-South transition in BJJ. Complete guide to rotation mechanics, pressure maintenance, and counters for pin advancement.
+
+### [[Transitions/Ushiro Kesa Gatame to Side Control|Ushiro Kesa Gatame to Side Control]]
+
+Master the Ushiro Kesa Gatame to Side Control transition in BJJ. Complete guide covering rotation mechanics, pressure maintenance, and grip transitions for top control.
 
 ### [[Transitions/Waiter Sweep|Waiter Sweep]]
 

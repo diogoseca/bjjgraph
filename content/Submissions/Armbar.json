@@ -125,6 +125,10 @@
     {
       "name": "from Technical Mount",
       "slug": "from-Technical-Mount"
+    },
+    {
+      "name": "Armbar from Triangle Control",
+      "slug": "from-triangle-control"
     }
   ],
   "from_positions": [
@@ -137,7 +141,8 @@
     "Armbar Control",
     "Side Control",
     "Back Control",
-    "High Mount"
+    "High Mount",
+    "Triangle Control"
   ],
   "related_submissions": [
     {

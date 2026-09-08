@@ -27,14 +27,12 @@ test("JIT sheet drill pumps the odds odometer and the canvas edge", async ({ pag
   await j.boot("/")
   await j.land("Mount Top")
 
-  // choose a mid-odds option (headroom for +18)
-  const options = await j.optionTitles()
-  let target = options[0]
-  for (const o of options) {
-    const odds = await j.displayedOdds(o)
-    if (odds >= 20 && odds <= 70) { target = o; break } // clear of both clamp zones
-  }
+  // A resolving transition with headroom for +18. Submission entries now land in a
+  // separate submission state, so selecting one would not close this resolution loop.
+  const target = "Consolidate Mount"
   const before = await j.displayedOdds(target)
+  expect(before).toBeGreaterThanOrEqual(20)
+  expect(before).toBeLessThanOrEqual(70)
 
   // open the expand sheet (real click) — the JIT drill block must exist inside it
   await page.locator(`[data-tech="${target}"]`).first().click()
