@@ -34,11 +34,11 @@ test("newcomer's first session: question → execute → pane → roam → Chall
 
   // ── 2. the state introduces itself and asks exactly one question ──
   await expect(page.locator("[data-landcard]"), "identity card").toBeVisible();
-  // v1.174.0: the graph owns identity; the familiarity marker rides More's detached row.
+  // v1.175.0: the graph owns identity; the deck count is a quiet line in the card's corner.
   await expect(page.locator("[data-land-id]")).toHaveCount(0);
-  await expect(page.locator("[data-landcard] [data-land-count]")).toHaveCount(0);
-  const idText = (await page.locator(".ng-landmore [data-land-count]").textContent()) || "";
-  expect(idText, "marked as new to them").toContain("○");
+  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(0);
+  const idText = (await page.locator("[data-landcard] [data-land-corner] [data-land-count]").textContent()) || "";
+  expect(idText, "nothing proven yet: the count starts at zero").toMatch(/^0\/\d+$/);
   await expect(page.locator("[data-land-q]"), "one question").toHaveCount(1);
 
   // ── 3. answering right raises the odds and buys clock ──
@@ -86,8 +86,10 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     await page.evaluate(() => !!(window as any).__neural.paused),
     "roll live",
   ).toBe(false);
-  // "Study this state" remains the familiarity chip's manual route: Last rolls, current deck open.
-  await j.clickByMouse("[data-land-count]", "study this state");
+  // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
+  // the same rail pane-history.spec.ts drives.
+  await page.locator(".ng-logo").click();
+  await page.locator('.ng-learning-nav [data-view="history"]').click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "the pane stopped it",
@@ -98,6 +100,8 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     "a row per state visited",
   ).toBeGreaterThan(1);
   await expect(page.locator("[data-hist-current]"), "the latest roll row is focused").toBeVisible();
+  // a row opens its deck on click (the chip used to open it for you; v1.175.0 retired the chip)
+  await page.locator("[data-hist-current]").click();
   const deck = page.locator("[data-mini-deck]").first();
   await expect(deck.locator("[data-mini-q]"), "question").toBeVisible();
   await deck.locator("[data-mini-reveal]").click();

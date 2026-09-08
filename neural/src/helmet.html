@@ -116,7 +116,8 @@
     .ng-legendkey{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
-    .ng-landcard,.ng-landmore.open{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    .ng-landcard{bottom:206px!important;max-height:34vh!important;}
+    .ng-landcard,.ng-landmore.open{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
     .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
@@ -183,10 +184,14 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   /* More starts as a pill below the hand, then that SAME root-plane sibling takes the real
-     .ng-landcard shell. Only its independent scroll/dock rules differ. */
+     .ng-landcard shell. Open, it is NOT a scrollport (v1.175.0, owner: "when I scroll this card
+     should go under the fold too so it should be long"): no max-height, no overflow, top-docked
+     under the timed card at its content height, and the whole reading column — film, timed card,
+     this card, the pushed-down hand — translates together (`_readApply`). touch-action:none so a
+     phone drag reaches that column instead of rubber-banding the document. */
   .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
-  .ng-landmore.open{bottom:16px!important;z-index:90!important;}
-  .ng-landmore.open>div:first-child{position:sticky!important;top:0;z-index:3;padding-bottom:9px;transform:none!important;background:inherit;}
+  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;z-index:90!important;touch-action:none;}
+  .ng-landmore.open>div:first-child{padding-bottom:9px;transform:none!important;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry

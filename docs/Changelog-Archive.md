@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.175.0** — [THE READING COLUMN, AND THE COUNT GOES QUIET](#v1-175-0-the-reading-column-and-the-count-goes-quiet)
 - **v1.174.0** — [MORE BECOMES THE SECOND CARD](#v1-174-0-more-becomes-the-second-card)
 - **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
 - **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
@@ -159,9 +160,9 @@ Generated mechanically from the backticked tokens in each entry (a hand-maintain
 Only symbols touched by two or more versions are listed — a token that appears once is findable
 by `grep` and does not need an index row.
 
-- `_dockLandCard` — v1.174.0, v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
-- `_landCardChrome` — v1.174.0, v1.171.0
-- `_landDatum` — v1.174.0, v1.173.0
+- `_dockLandCard` — v1.175.0, v1.174.0, v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_landCardChrome` — v1.175.0, v1.174.0, v1.171.0
+- `_landDatum` — v1.175.0, v1.174.0, v1.173.0
 - `graph.json` — v1.125.0, v1.116.0, v1.115.0, v1.104.6, v1.104.3, v1.80.4
 - `opponentDefend` — v1.129.0, v1.127.2, v1.125.0, v1.121.0, v1.116.0, v1.109.0
 - `rollCamTarget` — v1.129.6, v1.128.1, v1.127.2, v1.114.3, v1.114.2, v1.109.0
@@ -6513,6 +6514,68 @@ really realistic like max payne … but more modern fluid movement."
 **Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
 them) and the vignette fade (a transition under a removed animation — verified by eye on the real
 dev server, not by a gate).
+
+## v1.175.0 — THE READING COLUMN, AND THE COUNT GOES QUIET
+
+**Owner, on v1.174.0's independently scrolling second card:** (1) "When I click More I wasn't
+expecting the choices row to disappear behind the card that shows on top." (2) The `0/8` pill:
+"That should show in the flashcard perhaps under the star and the close button, very discreet …
+not even having a pill design, just having the text and the text being boring gray … It should not
+open the last rows when I click it." (3) "When I scroll this card should go under the fold too so
+it should be long. It shouldn't stay within the fold … what moves up is this new card that showed,
+the land card and the videos row. Basically everything moves up and the background, where it says
+'Top Mount' in the current node, gets hidden behind it … if I scroll [back] we get back to the same
+state we were in." (4) "I don't want to see any 0 out of 8 flashcard [in the More row]."
+
+**The column.** `.ng-landmore.open` lost its scrollport (`max-height:none; overflow:visible;
+bottom:auto`) and docks 6px under the timed card at content height, so a long read runs under the
+fold. The hand is PUSHED below it rather than covered: `_dockLandMore` measures the More card's
+bottom against the hand's slot (the timed card's own clearance — 8 + the phone's 34px ✕ row, 12
+on desktop; the fold when the hand is put away) and that distance is `_readMax`. `_readApply(s)`
+translates film, timed card and More card by `-s` (`translate(-50%, -s)`, their centring kept)
+and moves the tray by `_readMax - s` on its `bottom` — never its `transform`, which the option
+sheet owns and rewrites (`expandOption`/`closeOptionDetail`/`clearOptions`), and the template's
+`84px` is WRITTEN back, never deleted (§6.1). At `s = 0` the hand sits just under the More card,
+off the fold; at `s = _readMax` it is home and the whole read has passed through the viewport.
+Input: ONE document-level capture `wheel` in `boot` (the column's members are root-plane
+siblings outside the wrap, whose own wheel is the zoom) that yields to any ancestor that scrolls
+itself vertically (`_readOwnScroll`: the pane, the modal, a timed card whose question overflows —
+NOT the hand, which overflows sideways; measured: at the end of a read the hand rose under a
+resting cursor and its glide took the wheel meant to scroll back); a per-member vertical touch
+drag with `_trayFling`'s decay (`_readTouch`). No keyboard binding — a ↑/↓/PageUp/PageDown
+branch was written and cut for weight (the payload sat 11 bytes under its ceiling at v1.174.0).
+Picking a card from the hand at the foot of the read closes the column first, or the sheet opens
+under the z:90 card with the tray still pushed.
+
+**Two readers had to add the offset back.** Every dock measures in the home frame (`_readClear`
+before, `_readApply` after, inside one synchronous call — no frame paints between). But
+`_dockLandFilm` runs a frame later through the translation, and the camera band in
+`rollCamTarget` reads the card's top every frame into a cache that only ever TIGHTENS for the
+life of the viewport (§6.1) — read through a 300px translation it would have held the camera
+high for the rest of the session. Both add `_readOffset()`. Measured at 390×844 with Mount Top's
+authored dossier: More 586→870 (under the 844 fold), `_readMax` 290–298, hand pushed to 920; at
+the end the hand at 622–760 exactly as before, the film off the top at −7, the timed card at 91;
+`_bandBot.y` 271 before, during and after.
+
+**The count.** `familiarityChip` is now the node card's alone; the landing corner
+(`_landCardChrome`) is a column — the ★/✕ row, then `data-land-count` as 9.5px #5b6580 text
+with `pointer-events:none` and no handler, fed by the new `_deckProgress(key)` the chip also
+reads. The question line grew `NG_LAND_Q_MIN_H = 32` so a one-line question's first answer row
+cannot start under the 40px-deep corner. The More row lost the chip and is not built at all when
+`_landMoreHTML` is empty (`_renderLandMore(node, side)`; the panic refit guards on `_landMoreEl`
+instead of a child count). The chip's `openMenu(true)` route from the landing is gone; the pane's
+Last rolls tab is the study route (`newcomer-story` now walks logo → tab).
+
+**Pinned by:** `roll-card.spec.ts` ("More grows into a long second card and the whole column
+scrolls, hand pushed not covered" — every member's rect before/open/mid/end/back/Less/Esc/
+background/teardown, the tray's `bottom`, the band cache, the wheel over the hand; "a card picked
+from the foot of the read closes the column"; the two desktop `column scrolls from the graph`
+journeys, which also pin that the wheel does not zoom); `landing-card.spec.ts` ("the corner count
+is bare done/total text that opens nothing"); `landing-priority.spec.ts` and `newcomer-story`
+(the count in the corner, none in the row). **Not pinned:** the touch drag and fling (driven by
+CDP `Input.dispatchTouchEvent` on the dev server — measured 160px of drag landing at `_readS`
+252 with the fling — but no journey binds a touchscreen), and iOS rubber-banding under
+`touch-action:none`, which headless Chromium cannot show.
 
 ## v1.174.0 — MORE BECOMES THE SECOND CARD
 

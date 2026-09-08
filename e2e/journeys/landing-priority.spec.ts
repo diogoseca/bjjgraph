@@ -17,8 +17,8 @@ import { journey } from "../dsl";
  * (decision trees, principles, common mistakes, metrics) must NOT be in the landing card before
  * or after More is used.
  *
- * Surfaces: [data-landcard] [data-land-film] [data-land-q] [data-land-more-body]
- *           .ng-landmore [data-land-more] [data-land-count] · setting: landQuestions
+ * Surfaces: [data-landcard] [data-land-film] [data-land-q] [data-land-corner] [data-land-count]
+ *           [data-land-more-body] .ng-landmore [data-land-more] · setting: landQuestions
  */
 
 test("the landing shows film, then the question — in that order @curated", async ({
@@ -32,8 +32,8 @@ test("the landing shows film, then the question — in that order @curated", asy
   await expect(card).toBeVisible();
 
   // DOM order IS the landing card's read order. The graph owns name and side; the definition
-  // stays behind More, while More and familiarity share a root-plane sibling below the dealt
-  // choices. Neither adds a footer or content child to the timed card.
+  // stays behind More, its own root-plane sibling below the dealt choices; the deck count is a
+  // line inside the corner (v1.175.0). Nothing adds a footer or content child to the timed card.
   const order = await card.evaluate((el) =>
     Array.from(el.children)
       .filter((c) => !c.hasAttribute("data-land-corner") && !c.hasAttribute("data-land-clock-track"))
@@ -71,7 +71,7 @@ test("the landing shows film, then the question — in that order @curated", asy
   ).toBe(0);
 });
 
-test("the graph owns identity; familiarity stays outside the timed card", async ({
+test("the graph owns identity; the timed card keeps only a quiet deck count", async ({
   page,
 }) => {
   const j = journey(page);
@@ -103,15 +103,15 @@ test("the graph owns identity; familiarity stays outside the timed card", async 
       other: a.playerRole === "bottom" ? "top" : "bottom",
     };
   });
-  // v1.101.0 moved the name and side onto the graph. v1.174.0 moves the retained familiarity
-  // control with More into the detached row, leaving the timed card to its question and chrome.
+  // v1.101.0 moved the name and side onto the graph. v1.175.0 keeps the deck count in the timed
+  // card, as bare text under the corner buttons — no glyph, no pill, no name, no side.
   expect(txt, "the state's name is the graph's job now").not.toContain(expected.main);
   expect(
     txt,
     `nor either side (title is ${expected.title})`,
   ).not.toMatch(new RegExp(`\\b(${expected.role}|${expected.other})\\b`, "i"));
-  await expect(page.locator("[data-landcard] [data-land-count]")).toHaveCount(0);
-  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(1);
+  await expect(page.locator("[data-landcard] [data-land-corner] [data-land-count]")).toHaveCount(1);
+  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(0);
   expect(txt, "no familiarity glyph leaks into the timed card").not.toMatch(/[○◐●]/);
 });
 
@@ -240,6 +240,6 @@ test("a state you have proven greets you without a question", async ({
     page.locator("[data-landcard]"),
     "the remaining landing controls stay available",
   ).toBeVisible();
-  await expect(page.locator("[data-landcard] [data-land-count]")).toHaveCount(0);
-  await expect(page.locator(".ng-landmore [data-land-count]"), "study remains available").toHaveCount(1);
+  await expect(page.locator("[data-landcard] [data-land-corner] [data-land-count]"), "the count stays").toHaveCount(1);
+  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(0);
 });

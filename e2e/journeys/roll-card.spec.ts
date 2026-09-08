@@ -4,16 +4,19 @@ import { journey } from "../dsl"
 type Any = any
 
 /**
- * THE TIMED LANDING CARD AND THE FULLER READING CARD ARE SEPARATE (v1.174.0).
+ * THE TIMED LANDING CARD AND THE FULLER READING CARD ARE SEPARATE (v1.174.0), AND THEY SCROLL AS
+ * ONE COLUMN (v1.175.0).
  *
  * v1.100.0 made the node itself the dossier. v1.101.0 moved those fuller rows into the landing
  * card. The owner's final boundary is stricter: “More shouldn't touch the landcard”; the small
- * control must expand itself into another landcard-shaped container.
+ * control must expand itself into another landcard-shaped container — and that container is not
+ * a scrollport: it is long, it runs under the fold, and reading it scrolls the screen (film,
+ * timed card, second card and the pushed-down hand together).
  *
  * This file pins the complete boundary after the minimized-content merge: the roll settles close
  * enough for the graph to name the state, the timed card stays the persisted `card` layer, and
- * More morphs its own subordinate root-plane sibling into an independently scrollable reading
- * card without changing the timed card.
+ * More morphs its own subordinate root-plane sibling into the second card of that column without
+ * changing the timed card.
  */
 
 
@@ -39,6 +42,11 @@ const seedDossier = async (page: Any) => {
         "A disciplined frame can make forward pressure expensive, so clear the frame before committing weight across it.",
         "A well-timed hip turn creates enough space to recover a knee line unless the upper body remains connected.",
         "Reaching without a stable base exposes a reversal, especially when the opponent can connect elbow and knee.",
+      ],
+      // a film row, so the reading column has all three of its root-plane members (v1.175.0)
+      clips: [
+        { id: "aQ2vFXXBn-o", title: "Countering a full inversion", who: "Gordon Ryan" },
+        { id: "bQ2vFXXBn-o", title: "Second clip", who: "Someone" },
       ],
     }
     a._landQ = null
@@ -145,221 +153,279 @@ test("the landing card does not repeat what the graph already says", async ({ pa
   await expect(page.locator("[data-land-close]"), "a small way out, top right").toHaveCount(1)
 })
 
-test("More grows into its own scrollable card without touching the landing card @curated", async ({ page }) => {
+/** One reading of the whole landing surface, in viewport pixels. `home` is the frame every
+ *  dock rule wrote; the column only ever TRANSLATES from it (`_readApply`), so every number here
+ *  is a rect the player sees, never a recomputation of the app's own maths (§6.3). */
+const column = (page: Any) =>
+  page.evaluate(() => {
+    const a = (window as Any).__neural
+    const r = (e: HTMLElement | null) => {
+      if (!e) return null
+      const b = e.getBoundingClientRect()
+      return { top: Math.round(b.top), bottom: Math.round(b.bottom), height: Math.round(b.height) }
+    }
+    const card = a._landEl as HTMLElement, row = a._landMoreEl as HTMLElement | null
+    const tray = a.optionsRef.current as HTMLElement
+    const detail = row ? (row.querySelector("[data-land-more-body]") as HTMLElement) : null
+    const cnt = card.querySelector("[data-land-count]") as HTMLElement | null
+    return {
+      S: a._readS || 0,
+      M: a._readMax || 0,
+      open: !!a._landOpen,
+      paused: !!a.paused,
+      autoPaused: !!a._landAutoPaused,
+      card: r(card),
+      cardScrollTop: card.scrollTop,
+      cardChildren: card.childElementCount,
+      cardMaxHeight: card.style.maxHeight,
+      film: r(a._landFilmEl),
+      row: r(row),
+      rowOpen: !!row && row.classList.contains("open"),
+      rowScrollable: !!row && row.scrollHeight > row.clientHeight + 1,
+      rowOverflow: row ? getComputedStyle(row).overflowY : null,
+      rowMaxHeight: row ? getComputedStyle(row).maxHeight : null,
+      rowChips: row ? row.querySelectorAll("[data-land-count]").length : 0,
+      detailDisplay: detail ? detail.style.display : null,
+      detailOutside: !!detail && !card.contains(detail),
+      detailText: detail ? (detail.textContent || "").trim().length : 0,
+      label: row ? (row.querySelector("[data-land-more]")?.textContent || "").trim() : null,
+      aria: row ? row.querySelector("[data-land-more]")?.getAttribute("aria-expanded") : null,
+      tray: r(tray),
+      trayBottom: tray.style.bottom,
+      handX: r(a._handCloseEl),
+      count: cnt ? { text: cnt.textContent, attr: cnt.getAttribute("data-land-count"), color: getComputedStyle(cnt).color, pointer: getComputedStyle(cnt).pointerEvents, inCorner: !!cnt.closest("[data-land-corner]") } : null,
+      band: a._bandBot ? a._bandBot.y : null,
+      viewportBottom: window.innerHeight,
+      closeLabel: card.querySelector("[data-land-close]")?.getAttribute("aria-label"),
+      nodeCard: a.nodeCardRef.current ? a.nodeCardRef.current.style.display : null,
+      dossierIdx: a._dossierIdx ?? null,
+    }
+  })
+
+/**
+ * THE READING COLUMN (v1.175.0). Owner, on v1.174.0's independently scrolling second card:
+ * "I wasn't expecting the choices row to disappear behind the card", "when I scroll this card
+ * should go under the fold too so it should be long … what moves up is this new card, the land
+ * card and the videos row. Basically everything moves up … if I scroll [back] we get back to the
+ * same state we were in." So: More opens a second card at content height under the timed card
+ * (no scrollport), the hand is PUSHED below it rather than covered, and a wheel — anywhere but a
+ * surface that scrolls itself — translates film + card + More + hand together, back to the exact
+ * open frame at offset 0. Mutants that must die: `_readApply` dropping the hand (`trayBottom`
+ * stays 84px at offset 0 → covered), the More card keeping `overflow-y:auto` (`rowScrollable`),
+ * `_dockLandFilm`/the band measuring through the translation (`band` moves), `_readClear` on
+ * close (Less leaves the tray pushed).
+ */
+test("More grows into a long second card and the whole column scrolls, hand pushed not covered @curated", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await seedDossier(page)
-  // Let the real entry motion settle before comparing the two independent fixed surfaces.
+  // Let the real entry motion settle before comparing the independent fixed surfaces.
   await page.waitForTimeout(400)
 
-  const body = page.locator("[data-land-more-body]")
-  const more = page.locator("[data-land-more]")
   const moreCard = page.locator(".ng-landmore")
-  await expect(body, "the fuller content belongs to its sibling from the first render").toHaveCount(1)
-  await expect(more, "the separate More affordance exists").toBeVisible()
-  expect(await body.evaluate((e: Any) => e.style.display), "and the detail starts folded").toBe("none")
+  await expect(page.locator("[data-land-more-body]"), "the fuller content belongs to its sibling from the first render").toHaveCount(1)
+  await expect(page.locator("[data-land-more]"), "the separate More affordance exists").toBeVisible()
+  await expect(page.locator("[data-landcard] [data-land-count]"), "the deck count lives in the timed card's corner").toHaveCount(1)
 
-  const before = await page.evaluate(() => {
-    const a = (window as Any).__neural
-    const w = window as Any
-    const card = a._landEl as HTMLElement
-    const row = document.querySelector(".ng-landmore") as HTMLElement
-    const detail = row.querySelector("[data-land-more-body]") as HTMLElement
-    const tray = a.optionsRef.current as HTMLElement
-    const cr = card.getBoundingClientRect()
-    const mr = row.getBoundingClientRect()
-    const tr = tray.getBoundingClientRect()
-    w.__landCardBefore = card
-    w.__landMoreBefore = row
-    return {
-      paused: a.paused,
-      detailOutside: !card.contains(detail) && row.contains(detail),
-      cardTop: Math.round(cr.top),
-      cardBottom: Math.round(cr.bottom),
-      cardHeight: Math.round(cr.height),
-      cardScrollTop: card.scrollTop,
-      cardMaxHeight: card.style.maxHeight,
-      cardChildren: card.childElementCount,
-      closeLabel: card.querySelector("[data-land-close]")?.getAttribute("aria-label"),
-      moreTop: Math.round(mr.top),
-      moreBottom: Math.round(mr.bottom),
-      moreHeight: Math.round(mr.height),
-      trayTop: Math.round(tr.top),
-      trayBottom: Math.round(tr.bottom),
-      viewportBottom: window.innerHeight,
-    }
-  })
+  const before = await column(page)
   expect(before.paused, "premise: the roll is running").toBe(false)
-  expect(before.detailOutside, "the fuller content is already owned by the root-plane sibling").toBe(true)
+  expect(before.open).toBe(false)
+  expect(before.detailDisplay, "the detail starts folded").toBe("none")
+  expect(before.detailOutside, "the fuller content is owned by the root-plane sibling").toBe(true)
+  expect(before.rowChips, "the More row carries no familiarity pill any more").toBe(0)
+  expect(before.count!.text, "the corner count is bare done/total text").toMatch(/^\d+\/\d+$/)
+  expect(before.count!.attr).toBe(before.count!.text)
+  expect(before.count!.inCorner, "…under the corner's two buttons").toBe(true)
+  expect(before.count!.pointer, "…and it is not a control").toBe("none")
+  expect(before.count!.color, "…in the quiet grey, not the chip's blue").toBe("rgb(91, 101, 128)")
   expect(before.closeLabel, "the landing X retains the minimized card-layer job").toBe("Hide the question card")
-  expect(before.cardBottom, "the card clears the dealt choices").toBeLessThanOrEqual(before.trayTop - 7)
-  expect(before.moreTop, "More starts after the choices row ends").toBeGreaterThanOrEqual(before.trayBottom + 5)
-  expect(before.moreTop, "and stays attached to that row").toBeLessThanOrEqual(before.trayBottom + 7)
-  expect(before.moreBottom, "the collapsed row remains on screen").toBeLessThanOrEqual(before.viewportBottom)
+  expect(before.card!.bottom, "the card clears the dealt choices").toBeLessThanOrEqual(before.tray!.top - 7)
+  expect(before.row!.top, "More starts after the choices row ends").toBeGreaterThanOrEqual(before.tray!.bottom + 5)
+  expect(before.row!.top, "and stays attached to that row").toBeLessThanOrEqual(before.tray!.bottom + 7)
+  expect(before.trayBottom, "the hand sits at its datum").toBe("84px")
 
   await j.clickByMouse("[data-land-more]", "the floating More affordance")
   await expect(moreCard, "the control itself becomes the second card").toHaveClass(/\bopen\b/)
   await page.waitForTimeout(400)
 
-  const open = await page.evaluate(() => {
-    const a = (window as Any).__neural
-    const w = window as Any
-    const card = a._landEl as HTMLElement
-    const row = a._landMoreEl as HTMLElement
-    const detail = row.querySelector("[data-land-more-body]") as HTMLElement
-    const cr = card.getBoundingClientRect()
-    const rr = row.getBoundingClientRect()
-    return {
-      sameLandingCard: card === w.__landCardBefore,
-      sameMoreRoot: row === w.__landMoreBefore,
-      display: detail.style.display,
-      detailInMoreCard: row.contains(detail) && !card.contains(detail),
-      text: (detail.textContent || "").trim().length,
-      label: (row.querySelector("[data-land-more]")?.textContent || "").trim(),
-      aria: row.querySelector("[data-land-more]")?.getAttribute("aria-expanded"),
-      landingCloseLabel: card.querySelector("[data-land-close]")?.getAttribute("aria-label"),
-      cardTop: Math.round(cr.top),
-      cardHeight: Math.round(cr.height),
-      cardScrollTop: card.scrollTop,
-      cardMaxHeight: card.style.maxHeight,
-      cardChildren: card.childElementCount,
-      rowTop: Math.round(rr.top),
-      rowBottom: Math.round(rr.bottom),
-      rowHeight: Math.round(rr.height),
-      rowScrollTop: row.scrollTop,
-      rowScrollable: row.scrollHeight > row.clientHeight,
-      paused: a.paused,
-      autoPaused: !!a._landAutoPaused,
-      nodeCard: a.nodeCardRef.current ? a.nodeCardRef.current.style.display : null,
-      sheet: a.dossierSheetRef.current ? a.dossierSheetRef.current.style.display : null,
-      dossierIdx: a._dossierIdx,
-    }
-  })
-  expect(open.sameLandingCard, "opening keeps the exact landing-card element").toBe(true)
-  expect(open.sameMoreRoot, "the More row itself expands; no replacement surface is mounted").toBe(true)
-  expect(open.display, "the detail rows open").toBe("block")
-  expect(open.detailInMoreCard, "inside the second card and outside the landing card").toBe(true)
-  expect(open.text, "with real content").toBeGreaterThan(0)
-  expect(open.label, "the reversible affordance names its open state").toContain("Less")
-  expect(open.aria, "the open state is announced").toBe("true")
-  expect(open.landingCloseLabel, "More never changes the landing card's X").toBe(before.closeLabel)
-  expect(open.cardTop, "More does not move the landing card").toBe(before.cardTop)
-  expect(open.cardHeight, "More does not resize the landing card").toBe(before.cardHeight)
-  expect(open.cardScrollTop, "More does not scroll the landing card").toBe(before.cardScrollTop)
-  expect(open.cardMaxHeight, "More does not cap the landing card").toBe(before.cardMaxHeight)
-  expect(open.cardChildren, "More adds nothing to the landing card").toBe(before.cardChildren)
-  expect(open.rowTop, "the expanded More card starts below the landing card").toBeGreaterThanOrEqual(before.cardBottom + 5)
-  expect(open.rowHeight, "the pill grows into a card").toBeGreaterThan(before.moreHeight + 100)
-  expect(open.rowBottom, "the expanded card is anchored to the viewport").toBeLessThanOrEqual(829)
-  expect(open.rowScrollTop, "the new card starts at its own top").toBe(0)
-  expect(open.rowScrollable, "the new card owns a real vertical scrollport").toBe(true)
+  const open = await column(page)
+  expect(open.open).toBe(true)
+  expect(open.S, "a fresh read starts at the top").toBe(0)
+  expect(open.detailDisplay).toBe("block")
+  expect(open.detailText, "with real content").toBeGreaterThan(0)
+  expect(open.label).toContain("Less")
+  expect(open.aria).toBe("true")
+  expect(open.card, "More does not move, resize or scroll the landing card").toEqual(before.card)
+  expect(open.cardScrollTop).toBe(before.cardScrollTop)
+  expect(open.cardChildren).toBe(before.cardChildren)
+  expect(open.cardMaxHeight).toBe(before.cardMaxHeight)
+  expect(open.film, "nor the film strip").toEqual(before.film)
+  expect(open.row!.top, "the second card starts just under the landing card").toBeGreaterThanOrEqual(before.card!.bottom + 5)
+  expect(open.row!.top).toBeLessThanOrEqual(before.card!.bottom + 7)
+  expect(open.row!.height, "the pill grows into a card").toBeGreaterThan(before.row!.height + 100)
+  expect(open.rowScrollable, "the second card is NOT a scrollport").toBe(false)
+  expect(open.rowOverflow).toBe("visible")
+  expect(open.rowMaxHeight, "…and nothing caps it").toBe("none")
+  expect(open.row!.bottom, "it is long: it runs under the fold").toBeGreaterThan(open.viewportBottom)
+  expect(open.M, "the column has that much to travel").toBeGreaterThan(0)
+  expect(open.tray!.top, "the choices row is PUSHED below the second card, never covered").toBeGreaterThanOrEqual(open.row!.bottom + 8)
+  expect(open.handX!.top, "with its own ✕ riding above it, clear of the card too").toBeGreaterThanOrEqual(open.row!.bottom + 7)
+  expect(open.trayBottom, "the push is written on the tray's `bottom`, not its sheet-owned transform").not.toBe("84px")
   expect(open.paused, "reading is not charged to the clock").toBe(true)
   expect(open.autoPaused, "on its own latch, so it only gives back what it took").toBe(true)
-  expect(open.nodeCard, "the retired in-node container stays down").toBe("none")
-  expect(open.sheet, "no dossier sheet opens").not.toBe("block")
-  expect(open.dossierIdx ?? null, "the More card is not the node dossier").toBeNull()
-
-  const expandedBox = await moreCard.boundingBox()
-  expect(expandedBox, "the expanded More card has a mouse target").not.toBeNull()
-  await page.mouse.move(
-    expandedBox!.x + expandedBox!.width / 2,
-    expandedBox!.y + expandedBox!.height * 0.72,
-  )
-  await page.mouse.wheel(0, 900)
-  await expect.poll(
-    () => page.evaluate(() => ((window as Any).__neural._landMoreEl as HTMLElement).scrollTop),
-    { message: "wheel input scrolls the independent More card" },
-  ).toBeGreaterThan(40)
-  expect(
-    await page.evaluate(() => ((window as Any).__neural._landEl as HTMLElement).scrollTop),
-    "the same wheel leaves the landing card at its original scroll position",
-  ).toBe(before.cardScrollTop)
-
-  await j.clickByMouse("[data-land-more]", "the sticky Less control")
-  const folded = await page.evaluate(() => {
+  // A camera aim in the OPEN frame (offset 0 — the dock itself) is the answer every later aim
+  // must repeat. Taken through the real entry point, because the follow-cam suppresses its own
+  // aim while paused and the cache only ever tightens (§6.1): a stale, looser cache is fine, a
+  // tighter-than-the-dock one is the bug.
+  const bandHome = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const w = window as Any
-    const card = a._landEl as HTMLElement
-    const row = a._landMoreEl as HTMLElement
-    const detail = row.querySelector("[data-land-more-body]") as HTMLElement
-    const cr = card.getBoundingClientRect()
-    return {
-      sameLandingCard: card === w.__landCardBefore,
-      display: detail.style.display,
-      open: !!a._landOpen,
-      rowOpen: row.classList.contains("open"),
-      rowScrollTop: row.scrollTop,
-      cardTop: Math.round(cr.top),
-      cardHeight: Math.round(cr.height),
-      cardScrollTop: card.scrollTop,
-      cardMaxHeight: card.style.maxHeight,
-      cardChildren: card.childElementCount,
-      paused: a.paused,
-      closeLabel: card.querySelector("[data-land-close]")?.getAttribute("aria-label"),
-    }
+    a.rollCamTarget(a.camFocus, false)
+    return a._bandBot ? a._bandBot.y : null
   })
-  expect(folded.sameLandingCard, "Less leaves the landing card mounted").toBe(true)
-  expect(folded.display, "the extra rows fold").toBe("none")
+  expect(bandHome, "premise: the open frame measures a band").not.toBeNull()
+  expect(open.nodeCard, "the retired in-node container stays down").toBe("none")
+  expect(open.dossierIdx, "the More card is not the node dossier").toBeNull()
+
+  // ── a wheel over the second card scrolls the SCREEN: every member moves by the same amount ──
+  const box = await moreCard.boundingBox()
+  expect(box).not.toBeNull()
+  await page.mouse.move(box!.x + box!.width / 2, box!.y + 60)
+  await page.mouse.wheel(0, 120)
+  await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS), { message: "the column moved" }).toBe(120)
+  const mid = await column(page)
+  expect(mid.open, "scrolling never closes the read").toBe(true)
+  expect(mid.card!.top, "the landing card rose by the wheel").toBe(open.card!.top - 120)
+  expect(mid.film!.top, "the film row rose with it").toBe(open.film!.top - 120)
+  expect(mid.row!.top, "so did the second card").toBe(open.row!.top - 120)
+  expect(mid.tray!.top, "and the pushed hand comes up from under the fold").toBe(open.tray!.top - 120)
+  expect(mid.handX!.top).toBe(open.handX!.top - 120)
+  expect(mid.cardScrollTop, "the landing card's own scrollport is untouched").toBe(before.cardScrollTop)
+  expect(mid.card!.height).toBe(open.card!.height)
+  // The follow-cam suppresses its auto-aim while paused, so the band is not measured by itself
+  // mid-read — but `frameNodes` (a pane row's locate) still can be. Drive the real entry point:
+  // an aim taken through the translation must measure the DOCK, or the tighten-only cache holds
+  // the camera high for the rest of the session (§6.1). Mutant: drop `_readOffset()` there —
+  // measured, the cache then tightens from the dock's answer to 120px above it.
+  const aimed = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    a.rollCamTarget(a.camFocus, false)
+    return a._bandBot ? a._bandBot.y : null
+  })
+  expect(aimed, "a camera aim taken mid-read measures the dock, not the translation").toBe(bandHome)
+  expect(mid.band, "and nothing else tightened it on the way").toBe(bandHome)
+
+  // ── to the end: the hand is home again, the whole read has passed through the viewport ──
+  await page.mouse.wheel(0, 4000)
+  await expect.poll(() => page.evaluate(() => { const a = (window as Any).__neural; return a._readS === a._readMax })).toBe(true)
+  const end = await column(page)
+  expect(end.tray, "at the end of the read the choices row sits exactly where it always sits").toEqual(before.tray)
+  expect(end.trayBottom).toBe("84px")
+  expect(end.row!.bottom, "with the second card ending above it").toBeLessThanOrEqual(end.tray!.top - 8 - 34)
+  expect(end.row!.bottom).toBeGreaterThanOrEqual(end.tray!.top - 8 - 34 - 16)
+  expect(end.card!.top, "the landing card has moved up by the travel").toBe(open.card!.top - end.M)
+  expect(end.open).toBe(true)
+
+  // ── the hand is under the cursor now; a vertical wheel there still scrolls the screen back ──
+  await page.mouse.move(195, (end.tray!.top + end.tray!.bottom) / 2)
+  await page.mouse.wheel(0, -4000)
+  await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS), { message: "wheel over the hand scrolls the column back" }).toBe(0)
+  const back = await column(page)
+  expect(back.open, "scrolling back to the top does not dismiss the reading card").toBe(true)
+  expect(back.card, "the same frame as when it opened").toEqual(open.card)
+  expect(back.row).toEqual(open.row)
+  expect(back.tray).toEqual(open.tray)
+  expect(back.detailDisplay).toBe("block")
+  expect(back.paused, "the open reading card keeps its owned pause").toBe(true)
+
+  // ── Less: the exact frame before the click ──
+  await page.mouse.move(box!.x + box!.width / 2, box!.y + 20)
+  await j.clickByMouse("[data-land-more]", "the Less control")
+  await expect(moreCard).not.toHaveClass(/\bopen\b/)
+  const folded = await column(page)
   expect(folded.open).toBe(false)
-  expect(folded.rowOpen).toBe(false)
-  expect(folded.rowScrollTop, "the More card returns to its own top").toBe(0)
-  expect(folded.cardTop).toBe(before.cardTop)
-  expect(folded.cardHeight).toBe(before.cardHeight)
+  expect(folded.detailDisplay, "the extra rows fold").toBe("none")
+  expect(folded.card).toEqual(before.card)
+  expect(folded.film).toEqual(before.film)
+  expect(folded.row, "the pill returns below the hand").toEqual(before.row)
+  expect(folded.tray, "the hand is home").toEqual(before.tray)
+  expect(folded.trayBottom).toBe("84px")
+  expect(folded.handX).toEqual(before.handX)
   expect(folded.cardScrollTop).toBe(before.cardScrollTop)
-  expect(folded.cardMaxHeight).toBe(before.cardMaxHeight)
   expect(folded.cardChildren).toBe(before.cardChildren)
   expect(folded.paused, "the auto-pause is returned").toBe(false)
   expect(folded.closeLabel, "the landing X never changed jobs").toBe(before.closeLabel)
 
+  // ── Esc, mid-read, restores the same frame ──
   await j.clickByMouse("[data-land-more]", "More after Less collapses")
   await expect(moreCard).toHaveClass(/\bopen\b/)
-  const reopenedBox = await moreCard.boundingBox()
-  expect(reopenedBox).not.toBeNull()
-  await page.mouse.move(
-    reopenedBox!.x + reopenedBox!.width / 2,
-    reopenedBox!.y + reopenedBox!.height * 0.72,
-  )
-  await page.mouse.wheel(0, 900)
-  await expect.poll(
-    () => page.evaluate(() => ((window as Any).__neural._landMoreEl as HTMLElement).scrollTop),
-  ).toBeGreaterThan(40)
-  await page.mouse.wheel(0, -2000)
-  await expect.poll(
-    () => page.evaluate(() => ((window as Any).__neural._landMoreEl as HTMLElement).scrollTop),
-    { message: "the independent card scrolls back to its own top" },
-  ).toBeLessThanOrEqual(1)
-  expect(await page.evaluate(() => !!(window as Any).__neural._landOpen), "scrolling up does not dismiss the reading card").toBe(true)
-  expect(await body.evaluate((e: Any) => e.style.display), "the fuller content remains readable at scroll-top").toBe("block")
-  expect(await page.evaluate(() => !!(window as Any).__neural.paused), "the open reading card keeps its owned pause").toBe(true)
-  await j.clickByMouse("[data-land-more]", "Less after scrolling back to top")
-  await expect(moreCard).not.toHaveClass(/\bopen\b/)
-  expect(await page.evaluate(() => !!(window as Any).__neural.paused), "Less returns the owned pause").toBe(false)
-
-  await j.clickByMouse("[data-land-more]", "More after Less collapses")
-  await expect(moreCard).toHaveClass(/\bopen\b/)
+  await page.mouse.move(box!.x + box!.width / 2, box!.y + 60)
+  await page.mouse.wheel(0, 150)
+  await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS)).toBe(150)
   await page.keyboard.press("Escape")
   await expect(moreCard, "Esc closes the deliberate More card before the landing").not.toHaveClass(/\bopen\b/)
   await expect(page.locator("[data-landcard]"), "the underlying landing remains mounted").toBeVisible()
-  expect(await page.evaluate(() => !!(window as Any).__neural.paused), "Esc also returns the owned pause").toBe(false)
+  const esc = await column(page)
+  expect(esc.card).toEqual(before.card)
+  expect(esc.tray).toEqual(before.tray)
+  expect(esc.trayBottom).toBe("84px")
+  expect(esc.paused, "Esc also returns the owned pause").toBe(false)
 
+  // ── a background tap, mid-read, likewise ──
   await j.clickByMouse("[data-land-more]", "More before a background dismissal")
   await expect(moreCard).toHaveClass(/\bopen\b/)
+  await page.mouse.wheel(0, 150)
+  await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS)).toBe(150)
   await page.evaluate(() => (window as Any).__neural._tapBackground())
   await expect(moreCard, "background closes the independent More step first").not.toHaveClass(/\bopen\b/)
   await expect(page.locator("[data-landcard]"), "the timed card survives that first background step").toBeVisible()
-  expect(await page.evaluate(() => !!(window as Any).__neural.paused), "background returns the More-owned pause").toBe(false)
+  const bg = await column(page)
+  expect(bg.card).toEqual(before.card)
+  expect(bg.tray).toEqual(before.tray)
+  expect(bg.paused, "background returns the More-owned pause").toBe(false)
 
+  // ── a full teardown mid-read leaves no orphan surface and no pushed hand ──
   await j.clickByMouse("[data-land-more]", "More before the landing slot is torn down")
   await expect(moreCard).toHaveClass(/\bopen\b/)
+  await page.mouse.wheel(0, 150)
+  await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS)).toBe(150)
   await page.evaluate(() => (window as Any).__neural.clearOptions())
   await expect(moreCard, "a full teardown leaves no orphan reading surface").toHaveCount(0)
   const tornDown = await page.evaluate(() => {
     const a = (window as Any).__neural
-    return { open: !!a._landOpen, autoPaused: !!a._landAutoPaused, paused: !!a.paused }
+    return { open: !!a._landOpen, autoPaused: !!a._landAutoPaused, paused: !!a.paused, trayBottom: (a.optionsRef.current as HTMLElement).style.bottom }
   })
-  expect(tornDown, "the teardown releases every More-owned state").toEqual({ open: false, autoPaused: false, paused: false })
+  expect(tornDown, "the teardown releases every More-owned state, the hand's datum included").toEqual({ open: false, autoPaused: false, paused: false, trayBottom: "84px" })
+})
+
+/** Picking up a card from the hand at the foot of the read closes the column before the sheet
+ *  opens — otherwise the sheet (root plane, z:50) opens UNDER the More card (z:90) with the
+ *  tray still pushed. Mutant: drop the `expandLandCard(false)` at the top of `expandOption`. */
+test("a card picked from the foot of the read closes the column and opens its sheet", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await seedDossier(page)
+  await page.waitForTimeout(400)
+  await j.clickByMouse("[data-land-more]", "More")
+  await expect(page.locator(".ng-landmore")).toHaveClass(/\bopen\b/)
+  await page.evaluate(() => (window as Any).__neural._readScrollBy(5000))
+  const end = await column(page)
+  expect(end.S, "premise: read to the end").toBe(end.M)
+  expect(end.trayBottom, "premise: the hand is home and reachable").toBe("84px")
+  const tech = await page.evaluate(() => {
+    const c = (window as Any).__neural.optionsRef.current.querySelector("[data-tech]")
+    return c ? c.getAttribute("data-tech") : null
+  })
+  expect(tech, "premise: a dealt card to pick up").toBeTruthy()
+  await j.clickByMouse(`[data-tech="${tech}"]`, "the first dealt card, at the foot of the read")
+  await expect(page.locator("[data-go]"), "its sheet opens").toBeVisible()
+  const after = await column(page)
+  expect(after.open, "the read closed first").toBe(false)
+  expect(after.trayBottom, "and the hand is at its datum under the sheet").toBe("84px")
+  expect(after.rowOpen).toBe(false)
 })
 
 test("the film row rides the game card", async ({ page }) => {
@@ -588,17 +654,19 @@ test("only the question line clears the corner controls — the answers get thei
 })
 
 /**
- * AN UNFOLDED CARD MUST FIT THE SCREEN IT IS ON.
+ * THE TIMED CARD NEVER LEAVES THE SCREEN, AND ON DESKTOP THE COLUMN SCROLLS FROM THE GRAPH TOO.
  *
  * The card is anchored by its BOTTOM (236px desktop, 206px phone, and `_dockLandCard` overrides
  * that again). The old constant expanded ceiling grew it UPWARD off a short viewport — measured
  * at 1440x720 the top was -28 with `scrollHeight == clientHeight`, so there was no internal scroll
- * to recover it either. Owner: "I can't scroll up". More now grows content under the folded
- * card's measured height, itself capped by the space above that fixed bottom: the footprint stays
- * on-screen and whatever does not fit is the scrollable reveal.
+ * to recover it either. Owner: "I can't scroll up". Since v1.174.0 More never touches the timed
+ * card; since v1.175.0 the second card runs under the fold at content height and the whole
+ * column translates — and on desktop the wheel that moves it may land on the GRAPH beside the
+ * 520px column (the document-level capture in `boot`), which must NOT zoom the camera instead.
+ * Mutant: drop the capture listener → `cam.vw` moves and `_readS` stays 0.
  */
 for (const height of [900, 720]) {
-  test(`the unfolded card stays on screen and scrolls at ${height}px tall`, async ({ page }) => {
+  test(`the timed card stays on screen and the column scrolls from the graph at ${height}px tall`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height })
     const j = journey(page)
     await j.boot("/")
@@ -607,29 +675,32 @@ for (const height of [900, 720]) {
     await seedDossier(page)
     await page.waitForTimeout(400)
 
+    const before = await column(page)
     await page.locator("[data-land-more]").click()
     await page.waitForTimeout(400)
+    const open = await column(page)
+    expect(open.card, "More leaves the timed card exactly where it was").toEqual(before.card)
+    expect(open.card!.top, `the card's top is on screen (got ${open.card!.top} of ${height})`).toBeGreaterThanOrEqual(0)
+    expect(open.card!.bottom, "and its bottom has not left it either").toBeLessThanOrEqual(height)
+    expect(open.row!.top, "the second card starts under it").toBeGreaterThanOrEqual(open.card!.bottom + 5)
+    expect(open.rowScrollable, "and is not a scrollport").toBe(false)
+    expect(open.tray!.top, "the hand is pushed below it, not covered").toBeGreaterThanOrEqual(open.row!.bottom + 8)
 
-    const m = await page.evaluate(() => {
-      const a = (window as Any).__neural
-      const el = a._landEl as HTMLElement
-      const r = el.getBoundingClientRect()
-      return {
-        top: Math.round(r.top),
-        bottom: Math.round(r.bottom),
-        scrollH: el.scrollHeight,
-        clientH: el.clientHeight,
-        vh: window.innerHeight,
-      }
-    })
+    const vw0 = await page.evaluate(() => (window as Any).__neural.cam.vw)
+    await page.mouse.move(150, 300)   // the graph, well left of the centred column
+    await page.mouse.wheel(0, 160)
+    await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS), { message: "a wheel over the graph scrolls the read" }).toBe(Math.min(160, open.M))
+    expect(await page.evaluate(() => (window as Any).__neural.cam.vw), "and does not zoom the camera").toBe(vw0)
+    const mid = await column(page)
+    expect(mid.card!.top).toBe(open.card!.top - mid.S)
+    expect(mid.row!.top).toBe(open.row!.top - mid.S)
+    expect(mid.tray!.top).toBe(open.tray!.top - mid.S)
 
-    expect(m.top, `the card's top is on screen (got ${m.top} of ${m.vh})`).toBeGreaterThanOrEqual(0)
-    expect(m.bottom, "and its bottom has not left it either").toBeLessThanOrEqual(m.vh)
-    // whatever did not fit is REACHABLE: either it all fits, or the card scrolls
-    expect(
-      m.scrollH <= m.clientH + 1 || m.clientH > 0,
-      "content that overflows is scrollable, not clipped away",
-    ).toBe(true)
+    await page.keyboard.press("Escape")
+    const closed = await column(page)
+    expect(closed.card).toEqual(before.card)
+    expect(closed.tray).toEqual(before.tray)
+    expect(closed.trayBottom).toBe("84px")
   })
 }
 

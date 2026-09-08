@@ -2,6 +2,12 @@
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
 const NG_LAND_MORE_COL = "#7e8aa3";
+// The landing question's minimum box height, so its first answer row can never start under the
+// card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
+// count line = 40px from the padding-box top; the question starts at the card's padding-top
+// (11px phone / 13px desktop), so 32px reaches 43px on the tighter of the two. A two-line
+// question (2 × 12.5px × 1.35 ≈ 34px) is already past it, so this only ever moves a one-liner.
+const NG_LAND_Q_MIN_H = 32;
 // ── THE THREE BOTTOM LAYERS (v1.171.0, owner) ─────────────────────────────────────────────────
 // "If he clicks another node at that instance, then another row of videos and another row of
 // multiple-choice cards will show up and it shouldn't. It should still be collapsed." The film
@@ -573,6 +579,19 @@ class Component extends DCLogic {
       e.preventDefault();
       this._trayGlideBy(orow, d);
     }, { passive: false });
+    // ── WHILE MORE IS OPEN, THE VERTICAL WHEEL SCROLLS THE SCREEN (v1.175.0, owner: "I have to
+    // scroll the screen and what moves up is this new card … the land card and the videos
+    // row") ── ONE document-level capture listener, because the column's members are root-plane
+    // siblings outside the wrap (whose wheel is the zoom) and the read is a deliberate screen:
+    // over the graph, the film, the timed card or the More card the wheel moves the column.
+    // Surfaces that scroll THEMSELVES keep it — the hand (its own horizontal glide, above), the
+    // pane, the modal, a timed card whose question overflows (`_readOwnScroll`).
+    document.addEventListener("wheel", (e) => {
+      if (!this._landOpen || !this._readMax || this._readOwnScroll(e.target)) return;
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || !e.deltaY) return;   // a trackpad's real horizontal gesture is not ours
+      e.preventDefault(); e.stopPropagation();
+      this._readScrollBy(e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? (window.innerHeight || 800) : 1));
+    }, { passive: false, capture: true });
     // ── AND A MOUSE CAN DRAG IT (v1.129.1) ────────────────────────────────────────────────────
     // Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging
     // or horizontally scrolling is not working." The wheel above works (measured: a vertical
@@ -4273,6 +4292,11 @@ class Component extends DCLogic {
     // wrap-relative absolute and viewport-fixed coordinates coincide.
     const root = this.__ngRoot || document.body;
     if (panel.parentElement !== root) { root.appendChild(panel); panel.style.position = "fixed"; panel.style.zIndex = "50"; }
+    // PICKING UP A CARD ENDS THE READ (v1.175.0). The hand is reachable at the foot of the
+    // reading column, and this sheet would otherwise open UNDER the More card (root plane, z:90)
+    // with the hand's `bottom` still pushed. Close the column first — it returns only its own
+    // pause, and the sheet takes a fresh one on the next line.
+    if (this._landOpen) this.expandLandCard(false);
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
     this._dropExpiryEvent();        // reading a move — the expiry sentence lets go (v1.138.0)
@@ -11548,9 +11572,10 @@ class Component extends DCLogic {
   /**
    * THE FAMILIARITY CHIP — the seen-glyph fused with the deck's answered count ("● 3/8").
    *
-   * ONE implementation serves the in-node plate and the detached More/familiarity row. `attr`
-   * remains each surface's own refresh handle, so a selector cannot silently update the wrong
-   * copy when both exist.
+   * Serves the in-node plate (`data-node-count`). The landing card does NOT use it since
+   * v1.175.0 — its corner carries the bare count from `_deckProgress` (`_landCardChrome`), by
+   * the owner's word: no pill, no glyph, nothing to press. `attr` remains each surface's own
+   * refresh handle, so a selector cannot silently update the wrong copy when both exist.
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
@@ -11565,13 +11590,18 @@ class Component extends DCLogic {
       return !!b && this.BELT_SCORE.findIndex((x) => x[0] === b) >= 1;
     } catch (e) { return false; }
   }
-  familiarityChip(key, attr, opts) {
-    const o = opts || {};
-    const glyph = this.seenGlyph(key);
+  /** done/total for one deck, the manifest `n` standing in until the chunk lands (see above).
+   *  ONE reader for the node card's chip and the landing card's corner count (v1.175.0). */
+  _deckProgress(key) {
     const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
     const total = this._deckCardCount(deckD);
     const done = Math.min((this.prep && this.prep[key]) || 0, total);
-    const full = total > 0 && done >= total;
+    return { total: total, done: done, full: total > 0 && done >= total };
+  }
+  familiarityChip(key, attr, opts) {
+    const o = opts || {};
+    const glyph = this.seenGlyph(key);
+    const { total, done, full } = this._deckProgress(key);
     const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
     const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
       '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
@@ -11635,6 +11665,9 @@ class Component extends DCLogic {
    * Removing its DOM preserves `_landOpen` across a same-landing backfill; the caller that
    * actually turns the card layer off closes the state and returns its pause first. */
   _clearLandMore() {
+    // No reading card, nothing pushes the hand: the column goes home even on a raw unmount, so a
+    // rebuild that arrives with `_landOpen` kept re-measures from the same frame every time.
+    this._readClear();
     if (this._landMoreEl) { try { this._landMoreEl.remove(); } catch (e) {} this._landMoreEl = null; }
   }
   /** The CARD only — `_landIdx` / `_landMode` and the film strip survive. This is what the card
@@ -11780,7 +11813,10 @@ class Component extends DCLogic {
     // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
     // ellipsis, so the padding was spending width that answer text needed. Only the line that
     // actually runs under the `+` and the ✕ pays for them.
-    qt.style.cssText = "padding-right:54px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
+    // ...AND THE CORNER IS 40px DEEP NOW (v1.175.0): the deck count sits under the two buttons
+    // (`_landCardChrome`), so a one-line question keeps its box tall enough that the first answer
+    // row starts below the count — NG_LAND_Q_MIN_H, measured against the corner, not a guess.
+    qt.style.cssText = "padding-right:54px;min-height:" + NG_LAND_Q_MIN_H + "px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
     qt.textContent = card.q;
     qw.appendChild(qt);
     const done = (fmt) => (ok, tier) => {
@@ -12004,9 +12040,10 @@ class Component extends DCLogic {
     if (this._decision && this._decision.remaining != null) { this._landClockEl = clkTrack.firstChild; this._barF = null; }
 
     // 1 — THE LANDING CARD HAS NO HEADER OR FOOTER (v1.174.0).
-    // The graph names the state and side beside the node. The familiarity control keeps its
-    // manual "study this state" route but moves with More into the separate row below the dealt
-    // choices, so neither control adds content or scroll state to this timed card.
+    // The graph names the state and side beside the node. The deck count is a quiet line under
+    // the corner's two buttons (v1.175.0, `_landCardChrome`) — it opens nothing; the pane's Last
+    // rolls tab is the study route — and More is its own root-plane sibling below the dealt
+    // choices, so neither adds content or scroll state to this timed card.
     //
     // An ATTEMPT card keeps its headline: it names the technique the question is ABOUT, and the
     // graph only labels that one while the sweep is animating.
@@ -12118,12 +12155,15 @@ class Component extends DCLogic {
         }
       }, { passive: true });
       // Keep the landing card's own close corner reachable when a long QUESTION scrolls. More
-      // has a separate scrollport and separate close control; none of its state is read here.
+      // has no scrollport of its own (v1.175.0) — its column is `_readApply`'s, not this card's.
       el.addEventListener("scroll", () => {
         const pinnedCorner = el.querySelector("[data-land-corner]");
         if (pinnedCorner) pinnedCorner.style.transform = "translateY(" + el.scrollTop + "px)";
       }, { passive: true });
     }
+    // ...and while More is open, a VERTICAL drag on this card moves the whole reading column —
+    // unless the card's own question scrollport wants it (`_readOwnScroll`).
+    this._readTouch(el);
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
     // player has not moved on), and never loop — after the warm, questionFor either has a card
     // or the deck genuinely has none.
@@ -12188,41 +12228,42 @@ class Component extends DCLogic {
     this._syncDetailDim();
     return el;
   }
-  /** Build the More surface as a root-plane sibling of the timed card. Collapsed, it is the
-   * measured More/familiarity row below the dealt hand. Expanded, this same element becomes a scrollable,
-   * landcard-shaped reading surface. `_landCardChrome` is shared by ordinary and panic cards,
-   * so `side` must travel with it for defender-authored content. */
-  _renderLandMore(node, side, key) {
+  /** Build the More surface as a root-plane sibling of the timed card — ONLY when this state has
+   * something behind More (`_landMoreHTML` non-empty; owner v1.102.0: "if there is nothing to
+   * show by clicking More then don't show the More"). Collapsed, it is the measured row below the
+   * dealt hand holding the More pill and nothing else (v1.175.0 — the familiarity count moved
+   * into the timed card's corner, `_landCardChrome`). Expanded, this same element becomes the
+   * long, unclipped second card of the reading column (`expandLandCard`). `_landCardChrome` is
+   * shared by ordinary and panic cards, so `side` must travel with it for defender content. */
+  _renderLandMore(node, side) {
     this._clearLandMore();
     const moreHTML = this._landMoreHTML(node, side);
+    if (!moreHTML) return;
     const moreRow = document.createElement("div");
     moreRow.className = "ng-landmore";
-    moreRow.innerHTML = '<div>' + (moreHTML ? '<button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button>' : '') +
-      this.familiarityChip(key, "data-land-count", { style: "position:absolute;right:0;top:5px;pointer-events:auto;" }).html + '</div>' +
-      (moreHTML ? '<div id="ng-land-more" data-land-more-body style="display:none"></div>' : '');
-    const moreHead = moreRow.firstChild, more = moreHTML ? moreHead.firstChild : null, chip = moreHead.lastChild;
+    moreRow.innerHTML = '<div><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div>' +
+      '<div id="ng-land-more" data-land-more-body style="display:none"></div>';
+    const moreHead = moreRow.firstChild, more = moreHead.firstChild;
     moreHead.style.cssText = "position:relative;height:38px;display:flex;justify-content:center;";
-    if (more) {
-      moreRow.lastChild._ngMoreHTML = moreHTML;
-      // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-      more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
-      more.onclick = (e) => { e.stopPropagation(); this.expandLandCard(); };
-    }
-    if (chip.dataset.landCount) chip.onclick = (e) => { e.stopPropagation(); this.openMenu(true); };
+    moreRow.lastChild._ngMoreHTML = moreHTML;
+    // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
+    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    more.onclick = (e) => { e.stopPropagation(); this.expandLandCard(); };
     (this.__ngRoot || document.body).appendChild(moreRow);
     this._landMoreEl = moreRow;
+    this._readTouch(moreRow);   // a phone reads by dragging the card it is reading
   }
   /**
-   * SHARED CARD CHROME. The question card owns only its top-right capture + layer-close corner.
-   * `_renderLandMore` creates the fuller reading surface beside it. Keeping both calls in this
-   * helper makes the ordinary landing and panic drill share one anatomy without putting the
-   * More body or its scrolling back inside either timed card.
+   * SHARED CARD CHROME. The question card owns only its top-right corner: capture, the
+   * card-layer ✕, and under them the deck count. `_renderLandMore` creates the fuller reading
+   * surface beside it. Keeping both calls in this helper makes the ordinary landing and panic
+   * drill share one anatomy without putting the More body back inside either timed card.
    *
    * `side` picks the perspective the sibling reads from: a technique's defending seat uses its
    * authored DEFENDER block (see `_landMoreHTML`).
    */
   _landCardChrome(el, node, key, side) {
-    this._renderLandMore(node, side, key);
+    this._renderLandMore(node, side);
     // ── THE CARD LAYER'S TWO CORNER CONTROLS, TOP-RIGHT ──
     // Capture and layer-close are chrome about THIS timed card, so they cost it no vertical
     // space. The sibling More card owns its own collapse controls and never changes this corner.
@@ -12232,7 +12273,10 @@ class Component extends DCLogic {
     // closer and a bit closer to the top (symmetric to how the x close button is close to the
     // right edge)". The symmetry only works once the row's height is the 24px ✕ and not the
     // 44px thumb + (see below), or align-items:center pushes BOTH glyphs 10px down.
-    corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:2px;";
+    // A column (v1.175.0): the button row, then the deck count right-aligned under it.
+    corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;flex-direction:column;align-items:flex-end;";
+    const btns = document.createElement("div");
+    btns.style.cssText = "display:flex;align-items:center;gap:2px;";
     // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
     // the canvas hit-tests above anything that does not re-enable it.
     // 14px: unboxed like the sheet's, and one step under it because v1.104.2 requires this
@@ -12249,7 +12293,7 @@ class Component extends DCLogic {
     // takes a thumb — at 44. Same trick as `.ng-lists-new`: the glyph is small, the hit area is
     // not. The ✕ is painted after it, so it wins hit-testing where the boxes overlap.
     if (addBtn.style.width === "44px") addBtn.style.margin = "-10px";
-    corner.appendChild(addBtn);
+    btns.appendChild(addBtn);
     const xb = document.createElement("button");
     xb.type = "button";
     xb.setAttribute("data-land-close", "1");
@@ -12265,37 +12309,59 @@ class Component extends DCLogic {
     // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
     // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
     xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
-    corner.appendChild(xb);
+    btns.appendChild(xb);
+    corner.appendChild(btns);
+    // ── THE DECK COUNT, UNDER THE BUTTONS (v1.175.0, owner) ── "kept only as gray text under
+    // the close and the favorite icon within the landcard on the top right, but very subtle".
+    // Text only: no pill, no glyph, no handler — it opens nothing (the pane's Last rolls tab is
+    // the study route). `data-land-count` keeps carrying done/total so the specs read one value.
+    // pointer-events:none so the corner's re-enabled hit-testing does not make it a dead button.
+    const prog = this._deckProgress(key);
+    if (prog.total) {
+      const cnt = document.createElement("span");
+      cnt.setAttribute("data-land-count", prog.done + "/" + prog.total);
+      cnt.setAttribute("role", "img");
+      cnt.setAttribute("aria-label", prog.done + " of " + prog.total + " cards recall-proven");
+      cnt.style.cssText = "pointer-events:none;margin-top:1px;padding-right:5px;font-family:'Space Grotesk',sans-serif;font-size:9.5px;font-weight:600;line-height:10px;letter-spacing:.02em;color:#5b6580;";
+      cnt.textContent = prog.done + "/" + prog.total;
+      corner.appendChild(cnt);
+    }
     el.appendChild(corner);
   }
   /**
-   * MORE ▸ GROWS INTO ITS OWN READING CARD (v1.174.0).
+   * MORE ▸ GROWS INTO THE SECOND CARD OF A READING COLUMN (v1.174.0; column v1.175.0).
    *
    * The control begins in the measured row below the dealt choices. Opening morphs that SAME
-   * root-plane sibling into a landcard-shaped container with its own vertical scrollport; the
-   * timed card remains the exact surface it was before the click.
+   * root-plane sibling into a landcard-shaped container docked 6px under the timed card at its
+   * full content height — no scrollport, so a long read runs under the fold. The timed card
+   * remains the exact surface it was before the click, and the hand is PUSHED below the new
+   * card rather than covered (owner: "I wasn't expecting the choices row to disappear behind
+   * the card"). Reading is then a scroll of the whole column — film, timed card, More, hand —
+   * by `_readApply`, back to this exact frame at offset 0.
    *
    * Reading pauses the roll on its OWN latch (`_landAutoPaused`), so closing can never resume a
-   * roll the player paused by hand. Less, Esc and a background tap close only the reading card;
-   * scrolling down and back up remains inside it until the player explicitly closes it.
+   * roll the player paused by hand. Less, Esc, a background tap and picking a card close only
+   * the reading column; scrolling never closes it.
    */
   expandLandCard(open) {
     const el = this._landEl, row = this._landMoreEl;
     if (!el || !row) return false;
     const body = row.lastChild, btn = row.firstChild.firstChild;
     const want = open == null ? !this._landOpen : !!open;
+    if (want && !this._landOpen) this._readS = 0;   // a fresh read starts at the top; a rebuild keeps its place
     this._landOpen = want;
     row.classList.toggle("open", want);
     if (want && !body.firstChild && body._ngMoreHTML) body.innerHTML = body._ngMoreHTML;
-    row.scrollTop = 0;
     body.style.display = want ? "block" : "none";
     row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
       if (!this.paused) { this.setPaused(true); this._landAutoPaused = true; }
       const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
       this.fx("land_more_opened", { node: node ? node.t : null });
-    } else if (this._landAutoPaused) {
-      this.setPaused(false); this._landAutoPaused = false;
+    } else {
+      this._readStop(); this._readS = 0; this._readMax = 0;
+      this._readClear();
+      if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
     }
     btn.setAttribute("aria-expanded", String(want));
     btn.textContent = want ? "Less" : "More";
@@ -12303,6 +12369,107 @@ class Component extends DCLogic {
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
     this._dockLandMore(el);
     return true;
+  }
+  // ═══ THE READING COLUMN (v1.175.0, owner: "what moves up is this new card that showed, the
+  // land card and the videos row. Basically everything moves up and the background … gets
+  // hidden behind it") ═════════════════════════════════════════════════════════════════════
+  // Nothing here is a scroll container. The film, the timed card and the More card are fixed
+  // root-plane siblings that keep every dock rule they have; the hand is a wrap-plane absolute
+  // element whose `transform` belongs to the option sheet (`expandOption`), so it moves on
+  // `bottom` instead. `_readS` is the one offset, `_readMax` how far the column may travel:
+  // measured in `_dockLandMore` as the distance the More card's bottom overhangs the hand's
+  // slot (or the fold when the hand is put away). At `_readS = 0` the hand sits `_readMax`
+  // below its home, just under the More card; at `_readS = _readMax` it is back home and the
+  // whole read has passed through the viewport. Every dock measures in the HOME frame
+  // (`_readClear` first, `_readApply` after) so no rect is read through its own translation —
+  // the two readers that run between docks (`_dockLandFilm`, the camera band) add
+  // `_readOffset()` back explicitly.
+  _readOffset() { return this._landOpen ? (this._readS || 0) : 0; }
+  /** The home frame: every column member where its dock put it, the hand at the tray datum. */
+  _readClear() {
+    for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
+    const tray = this.optionsRef && this.optionsRef.current;
+    if (tray) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
+    if (this._handCloseEl) this._handCloseEl.style.transform = "";
+  }
+  _readApply(s) {
+    const max = this._readMax || 0;
+    s = Math.max(0, Math.min(max, Math.round(s || 0)));
+    this._readS = s;
+    for (const t of this._landSurfaces()) {
+      t.style.transform = "translate(-50%," + (-s) + "px)";
+      // a running ngCardInX outranks the inline transform and would snap the card by `s` when it
+      // ends — a member positioned off its home frame gives up the entry motion
+      if (s) t.style.animation = "none";
+    }
+    const push = max - s;
+    const tray = this.optionsRef && this.optionsRef.current;
+    if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
+    if (this._handCloseEl) this._handCloseEl.style.transform = push ? "translateY(" + push + "px)" : "";
+  }
+  _readScrollBy(dy) {
+    if (!this._landOpen || !this._readMax) return false;
+    this._readStop();
+    const before = this._readS || 0;
+    this._readApply(before + dy);
+    return this._readS !== before;
+  }
+  /** Does `t` sit in something that scrolls itself VERTICALLY — the pane, the modal, a timed
+   *  card whose question overflows? Then the column leaves that input alone. The hand is not
+   *  one: it overflows sideways, so a vertical wheel over it moves the page it rides (measured:
+   *  at the end of a read the hand rises under a resting cursor, and the tray's own glide had
+   *  taken the wheel that was meant to scroll back); its horizontal deltas still reach it.
+   */
+  _readOwnScroll(t) {
+    for (let n = t; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
+      if (n.scrollHeight > n.clientHeight + 1) {
+        const o = getComputedStyle(n).overflowY;
+        if (o === "auto" || o === "scroll") return true;
+      }
+    }
+    return false;
+  }
+  _readStop() { if (this._readRaf) { cancelAnimationFrame(this._readRaf); this._readRaf = 0; } }
+  // release: keep travelling and decay — `_trayFling`'s curve, on the column's offset
+  _readFling(vel) {
+    this._readStop();
+    let v = Math.max(-4, Math.min(4, vel)), last = performance.now();
+    const step = (now) => {
+      this._readRaf = 0;
+      const dt = Math.min(64, Math.max(1, now - last)); last = now;
+      v *= Math.pow(0.94, dt / 16);
+      if (Math.abs(v) < 0.02 || !this._landOpen) return;
+      const before = this._readS || 0;
+      this._readApply(before + v * dt);
+      if (this._readS === before) return;            // hit an end: stop dead rather than grinding
+      this._readRaf = requestAnimationFrame(step);
+    };
+    this._readRaf = requestAnimationFrame(step);
+  }
+  /** A vertical touch drag on a column member scrolls the column (1:1 under the finger, a fling
+   *  on release). Bound per element, so it dies with the element. A DRAG IS NOT A PICK: the
+   *  capture-phase click suppressor is the option tray's lesson. */
+  _readTouch(el) {
+    let y0 = 0, s0 = 0, lastY = 0, lastT = 0, vy = 0, live = false, moved = 0;
+    el.addEventListener("touchstart", (e) => {
+      live = false;
+      if (!this._landOpen || !this._readMax || e.touches.length !== 1 || this._readOwnScroll(e.target)) return;
+      this._readStop();
+      const t = e.touches[0];
+      y0 = lastY = t.clientY; s0 = this._readS || 0; lastT = performance.now(); vy = 0; live = true; moved = 0;
+    }, { passive: true });
+    el.addEventListener("touchmove", (e) => {
+      if (!live) return;
+      const t = e.touches[0], now = performance.now();
+      moved = Math.max(moved, Math.abs(t.clientY - y0));
+      this._readApply(s0 - (t.clientY - y0));
+      const dt = now - lastT;
+      if (dt > 0) { vy = vy * 0.6 + ((lastY - t.clientY) / dt) * 0.4; lastY = t.clientY; lastT = now; }
+    }, { passive: true });
+    const end = () => { if (!live) return; live = false; if (Math.abs(vy) > 0.05) this._readFling(vy); };
+    el.addEventListener("touchend", end, { passive: true });
+    el.addEventListener("touchcancel", end, { passive: true });
+    el.addEventListener("click", (e) => { if (moved > 6) { e.stopPropagation(); e.preventDefault(); } moved = 0; }, true);
   }
   /**
    * The sections the retired in-node container carried, at the game card's own text size:
@@ -12549,6 +12716,7 @@ class Component extends DCLogic {
     (this.__ngRoot || document.body).appendChild(film);
     this._landFilmEl = film;
     this.wireClips(film, filmClips);
+    this._readTouch(film);   // the strip rides the reading column too (v1.175.0)
     return film;
   }
   _dockTrayTop(row) { const d = this._landDatum(); return d.h ? Math.round(d.tray + d.h + 10) + "px" : null; }
@@ -12626,8 +12794,9 @@ class Component extends DCLogic {
     }
     // No card: the CSS constant while one is on its way, or — the card layer put away
     // (v1.171.0) — the strip sits where the card would, straight above the hand's datum.
+    // (+ `_readOffset()`: this runs a frame after the dock, through the column's own translation)
     let cardTop;
-    if (c) cardTop = c.getBoundingClientRect().top;
+    if (c) cardTop = c.getBoundingClientRect().top + this._readOffset();
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
     const h = f.offsetHeight || 0;
@@ -12651,15 +12820,34 @@ class Component extends DCLogic {
   _dockLandMore(card, tray) {
     const moreRow = this._landMoreEl;
     if (!moreRow || card !== this._landEl) return;
+    // ── OPEN: the second card of the reading column (v1.175.0) ──
+    // Measure in the HOME frame, dock 6px under the timed card at content height, then find how
+    // far the column must travel: the More card's bottom against the hand's slot (the same
+    // clearance the timed card keeps above the tray — 8 + the phone's 34px ✕ row, 12 on
+    // desktop), or against the fold when the hand is put away. That distance is `_readMax`;
+    // `_readApply` pushes the hand down by it and the offset the reader had is kept, clamped.
+    if (this._landOpen) {
+      this._readClear();
+      const cr = card.getBoundingClientRect();
+      if (!(cr.width > 0)) return;
+      moreRow.style.width = Math.round(cr.width) + "px";
+      moreRow.style.top = Math.round(cr.bottom + 6) + "px";
+      moreRow.style.bottom = "auto";
+      const mr = moreRow.getBoundingClientRect();
+      const H = window.innerHeight || 800;
+      let limit = H - 16;
+      if (this._handShown()) {
+        const choiceRow = this.optionsRef.current;
+        const tr = choiceRow && choiceRow.getBoundingClientRect();
+        if (tr && tr.height > 0) limit = tr.top - (this.isMobile() ? 8 + 34 : 12);
+      }
+      this._readMax = Math.max(0, Math.round(mr.bottom - limit));
+      this._readApply(this._readS || 0);
+      return;
+    }
     const cr = card.getBoundingClientRect();
     if (!(cr.width > 0)) return;
     moreRow.style.width = Math.round(cr.width) + "px";
-    // The reading card starts after the timed card and grows only through the free viewport band.
-    // Re-docking never moves or resizes the timed card underneath it.
-    if (this._landOpen) {
-      moreRow.style.setProperty("top", Math.round(cr.bottom + 6) + "px", "important");
-      return;
-    }
     let tr = tray;
     if (!tr && this._handShown()) {
       const choiceRow = this.optionsRef.current;
@@ -12677,6 +12865,8 @@ class Component extends DCLogic {
   _dockLandCard(el) {
     if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
     if (!el) return;
+    // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
+    if (this._landOpen) this._readClear();
     const row = this.optionsRef.current;
     if (!row) { this._dockLandMore(el); return; }
     const { tray: TRAY_BOTTOM, h } = this._landDatum();
@@ -12972,9 +13162,9 @@ class Component extends DCLogic {
         const oldCorner = card.querySelector("[data-land-corner]"); if (oldCorner) oldCorner.remove();
         this._landCardChrome(card, sub, pk, "defender");
         if (this._landOpen) this.expandLandCard(true);
-        if (this._landMoreEl.childElementCount > 1) return;
+        if (this._landMoreEl) return;   // built only when the defender block exists (v1.175.0)
         const p = this._contentWaits && this._contentWaits[sub.t];
-        if (p) p.then(() => { if (this._landEl !== card || (this._landMoreEl && this._landMoreEl.childElementCount > 1) || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
+        if (p) p.then(() => { if (this._landEl !== card || this._landMoreEl || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
       };
       // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
       // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
@@ -15149,7 +15339,12 @@ class Component extends DCLogic {
         // band `-12`, tripped the "no room" fallback, and threw the camera 61px in one frame and
         // ~90px in another during a pair swap. A surface that leaves no band above it has not
         // laid out yet; skip it and let the next one (or the cache) answer.
-        if (r.height > 0 && r.top > top + 80) { bot = Math.min(bot, r.top - 12); measured = true; break; }
+        // A TRANSLATED ELEMENT IS NOT A CONSTRAINT EITHER (v1.175.0): while More is open the
+        // column rides `_readS` px above its dock, and this cache only ever TIGHTENS for the life
+        // of the viewport — a band read through that translation would hold the camera high for
+        // the rest of the session. Add the offset back; the dock is the constraint, not the read.
+        const rTop = r.top + this._readOffset();
+        if (r.height > 0 && rTop > top + 80) { bot = Math.min(bot, rTop - 12); measured = true; break; }
       } catch (e) { /* non-fatal */ }
     }
     // THE BAND TIGHTENS AT ONCE AND GIVES GROUND SLOWLY. Caching only the "nothing to measure"

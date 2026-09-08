@@ -115,10 +115,14 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
     const card = document.querySelector(".ng-landcard") as HTMLElement;
     const add = c.querySelector("[data-list-add]") as HTMLElement;
     const x = c.querySelector("[data-land-close]") as HTMLElement;
+    const cnt = c.querySelector("[data-land-count]") as HTMLElement | null;
     const star = add.querySelector("svg") as unknown as SVGElement;
     const cb = card.getBoundingClientRect(), ab = add.getBoundingClientRect(), xb = x.getBoundingClientRect();
+    // the corner is a COLUMN since v1.175.0 (buttons, then the deck count); the row is the
+    // buttons' own parent
+    const row = x.parentElement as HTMLElement;
     return {
-      rowH: Math.round(c.getBoundingClientRect().height),
+      rowH: Math.round(row.getBoundingClientRect().height),
       xFromTop: Math.round(xb.top - cb.top),
       xFromRight: Math.round(cb.right - xb.right),
       addGlyphMid: Math.round(ab.top + ab.height / 2 - cb.top),
@@ -126,6 +130,7 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
       addHit: Math.round(ab.width),
       starW: star ? star.getAttribute("width") : null,
       starBox: star ? Math.round(star.getBoundingClientRect().width) : -1,
+      countBelow: cnt ? Math.round(cnt.getBoundingClientRect().top) >= Math.round(xb.bottom) : null,
     };
   });
   // the row is the ✕'s height, NOT the thumb ★'s — that is what lifts the pair to the inset
@@ -133,6 +138,7 @@ test("the corner pair sits high, tight, and symmetric — and both controls stay
   expect(m.xFromTop, "same inset from the top as from the right").toBe(m.xFromRight);
   expect(m.addGlyphMid, "both glyphs on one baseline").toBe(m.xGlyphMid);
   expect(m.addHit, "and the star keeps its 44px thumb target").toBe(44);
+  expect(m.countBelow, "the deck count sits under the pair, never beside it").not.toBe(false);
   // THE GLYPH IS SIZED BY ITS BOX, NOT BY `font-size` (v1.129.8). Under an SVG `font-size` is
   // inert, and this corner used to be the site that set it — 15px, which after the star would
   // have silently rendered at the 12px default. 14 here: unboxed beside the ✕ (nothing competing,

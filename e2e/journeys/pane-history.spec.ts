@@ -22,6 +22,12 @@ const openPane = async (page: Page) => {
   await page.locator(".ng-logo").click()
   await page.locator('.ng-learning-nav [data-view="history"]').click()
 }
+// …and a row opens its own deck on click. (v1.175.0 retired the landing chip that used to land
+// here with the current row already open — "it should not open the last rolls", owner.)
+const openCurrentDeck = async (page: Page) => {
+  await openPane(page)
+  await page.locator("[data-hist-current]").click()
+}
 
 test("the pane lists every state the roll has visited, in order", async ({ page }) => {
   const j = journey(page)
@@ -62,7 +68,7 @@ test("a history row reads question → reveal → answer, never multiple choice"
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openPane(page)
+  await openCurrentDeck(page)
 
   const deck = page.locator("[data-mini-deck]").first()
   await expect(deck, "the current state's card is open in the pane").toBeVisible()
@@ -89,7 +95,7 @@ test("revealing in the pane is SEEN, not credit", async ({ page }) => {
     return { prep: (a.prep && a.prep[k]) || 0, score: a.gameScore().score, key: k }
   })
 
-  await openPane(page)
+  await openCurrentDeck(page)
   await page.locator("[data-mini-deck]").first().locator("[data-mini-reveal]").click()
 
   const after = await page.evaluate((k) => {
@@ -104,7 +110,7 @@ test("the history survives the round ending", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openPane(page)
+  await openCurrentDeck(page)
   const before = await page.locator("[data-hist]").count()
 
   // endRound is the seam that used to hide the pane; time is frozen while it is open
