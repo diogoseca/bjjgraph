@@ -113,7 +113,7 @@ description: "Master the Americana shoulder lock from mount and side control. Co
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Americana?", "acceptedAnswer": { "@type": "Answer", "text": "The Americana is a figure-four shoulder lock \u2014 also called the keylock or ude garami \u2014 that pins the opponent\u0027s bent arm at 90 degrees and externally rotates the shoulder past its range, most often finished from mount or side control." } },
-    { "@type": "Question", "name": "What positions can you finish the Americana from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Americana from High Mount, Kimura Trap, Kuzure Kesa Gatame, Modified Mount, North-South, S Mount, Shoulder of Justice, Kesa Gatame, Side Control, Mount, 3-4 Mount, Technical Mount." } },
+    { "@type": "Question", "name": "What positions can you finish the Americana from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Americana from High Mount, Kimura Trap, Kuzure Kesa Gatame, Modified Mount, North-South, Ushiro Kesa Gatame, S Mount, Shoulder of Justice, Kesa Gatame, Side Control, Triangle Control, Mount, 3-4 Mount, Technical Mount." } },
     { "@type": "Question", "name": "Is the Americana dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Americana targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early and release immediately on the tap." } }
   ]
 }
@@ -208,10 +208,12 @@ From a strategic perspective, the Americana exemplifies positional control befor
 | [[Submissions/Americana/from Kuzure Kesa Gatame|Kuzure Kesa Gatame]] | Top | 68% | [[Submissions/Americana/from Kuzure Kesa Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Kuzure Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Americana/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Americana/from Modified Mount/Attacker|Attack →]] | [[Submissions/Americana/from Modified Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from North-South|North-South]] | Top | 68% | [[Submissions/Americana/from North-South/Attacker|Attack →]] | [[Submissions/Americana/from North-South/Defender|Defend →]] |
+| [[Submissions/Americana/from Ushiro Kesa Gatame|Ushiro Kesa Gatame]] | Top | 68% | [[Submissions/Americana/from Ushiro Kesa Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Ushiro Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Americana/from S Mount|S Mount]] | Top | 68% | [[Submissions/Americana/from S Mount/Attacker|Attack →]] | [[Submissions/Americana/from S Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/Americana/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Americana/from Shoulder of Justice/Defender|Defend →]] |
 | [[Submissions/Americana/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Americana/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Americana/from Side Control|Side Control]] | Top | 50% | [[Submissions/Americana/from Side Control/Attacker|Attack →]] | [[Submissions/Americana/from Side Control/Defender|Defend →]] |
+| [[Submissions/Americana/Americana from Triangle Control|Triangle Control]] | Bottom | 50% | [[Submissions/Americana/Americana from Triangle Control/Attacker|Attack →]] | [[Submissions/Americana/Americana from Triangle Control/Defender|Defend →]] |
 | [[Submissions/Americana/from Mount|Mount]] | Top | 48% | [[Submissions/Americana/from Mount/Attacker|Attack →]] | [[Submissions/Americana/from Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from 3-4 Mount|3-4 Mount]] | Top | 45% | [[Submissions/Americana/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Americana/from 3-4 Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from Technical Mount|Technical Mount]] | Top | 45% | [[Submissions/Americana/from Technical Mount/Attacker|Attack →]] | [[Submissions/Americana/from Technical Mount/Defender|Defend →]] |

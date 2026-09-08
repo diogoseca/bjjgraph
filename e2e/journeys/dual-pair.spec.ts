@@ -699,8 +699,8 @@ test("@curated the phone frames the orb AND its name, centred together", async (
 
   // THE WORST POSITION NAME IN THE CORPUS still fits — this is the 18-of-136 half of the fix, and
   // it is the one a constant framing could not deliver at any offset.
-  await page.goto("/Positions/Straight-Ankle-Lock-Control")
-  await j.boot("/Positions/Straight-Ankle-Lock-Control")
+  await page.goto("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
+  await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
   await settle(page, j)
   const w = await block(page)
   expect(w.labelW, "this is the widest position label in the corpus").toBeGreaterThan(200)
@@ -718,7 +718,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
  * walks it into the bezel. `NG_LABEL_LEFT_MIN` is a floor on the drawn SILHOUETTE — not the centre —
  * so a big focus orb is held off by the same visible margin as a small one.
  *
- * MEASURED, on the widest position name in the corpus ("Straight Ankle Lock Control"): at 320px
+ * MEASURED, on the widest position name in the corpus ("Reverse De La Riva Guard"): at 320px
  * (iPhone SE) pure centring wants the orb edge at 30 and the clamp holds it at exactly 50, with the
  * label still ending at 309 of 320; at 360 it binds at exactly 50; at 390 it does NOT bind (64) and
  * pure centring wins. A floor that engages only when it is needed, which is what makes it a floor
@@ -730,7 +730,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
   const j = journey(page)
   for (const width of [320, 360, 390]) {
     await page.setViewportSize({ width, height: 780 })
-    await j.boot("/Positions/Straight-Ankle-Lock-Control")
+    await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
     await settle(page, j)
     const g = await page.evaluate(() => {
       const a: any = (window as any).__neural
