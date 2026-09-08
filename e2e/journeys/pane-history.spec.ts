@@ -139,17 +139,18 @@ test("Last rolls carries the roll rows — and explains itself when nothing roll
 })
 
 /**
- * THE ONE-EXCHANGE ROLL IS A ROLL (v1.174.0).
+ * A SHORT FINISHED ROLL IS A ROLL (v1.174.0).
  *
  * Owner: "last rolls is not updating as i click outcomes and continue my roll … it seems stuck".
  * `_closeRoll`'s predicate used to demand `rollLog.length > 1`, so the ordinary short roll — you
  * attack from the state you opened in and finish it, or get caught there — left NO row anywhere:
  * measured on the built bundle, 5 of 6 rolls in one session and 2 of 2 in another vanished.
  *
- * The pane stays CLOSED across the restart on purpose: pane law holds the clock, and the archive
+ * Submission entry now visits its own state before the explicit Finish action; both landings
+ * belong in the archive. The pane stays CLOSED across the restart on purpose: pane law holds the clock, and the archive
  * rides `startRoll`, which is a timer. Opening it is the reader's job, at the end.
  */
-test("a roll that ends on its first exchange still becomes a past roll", async ({ page }) => {
+test("a short roll archives both the opening position and the submission it finishes", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -161,7 +162,7 @@ test("a roll that ends on its first exchange still becomes a past roll", async (
   })
   expect(sub, "premise: the opening hand offers a submission to finish with").not.toBeNull()
 
-  await j.rig("resolve", [0.01]) // the attempt lands → endRound("win") on the first exchange
+  await j.rig("resolve", [0.01]) // the explicit Finish lands → endRound("win")
   await j.rig("outcome", [0.01])
   // ...and the roll that STARTS after it draws nothing unrigged, so the restart cannot flake
   await j.rig("start-pos", [0.5])
@@ -169,6 +170,15 @@ test("a roll that ends on its first exchange still becomes a past roll", async (
   await j.rig("ai-skill", [0.5])
   await j.rig("max-moves", [0.5])
   await j.pick(sub as string)
+  await j.nextHand()
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a.nodes[a.currentPos].t
+  })).toBe(sub)
+  const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+  await expect(finish).toHaveCount(1)
+  await finish.click()
+  await page.locator("[data-go]").click()
 
   // pump the verdict hold (6.6s) and the 0.8s hand-off that runs startRoll, which is where a
   // finished roll is filed
@@ -180,22 +190,23 @@ test("a roll that ends on its first exchange still becomes a past roll", async (
       const p = (a._pastRolls || [])[0]
       const arch = (a.beats || []).filter((b: any) => b.beat === "roll_archived")
       return p
-        ? { states: (p.log || []).length, outcome: p.outcome, finish: p.finish && p.finish.name, beat: arch[arch.length - 1] || null }
+        ? { states: (p.log || []).length, keys: (p.log || []).map((r: any) => r.key), outcome: p.outcome, finish: p.finish && p.finish.name, beat: arch[arch.length - 1] || null }
         : null
     })
   }
   expect(past, "the roll that just ended is on the shelf").not.toBeNull()
-  expect(past.states, "and it is the one-state roll we played").toBe(1)
+  expect(past.states, "both visited states are archived").toBe(2)
+  expect(past.keys).toEqual(["Mount|Top", sub + "|Attacker"])
   expect(past.outcome, "filed with the verdict it ended on").toBe("win")
   expect(past.finish, "and the submission that finished it").toBe(sub)
   // §6.6: the archive says what it did, so "filed nothing" can never read like "never looked"
-  expect(past.beat, "the archive emits a beat carrying its own count").toMatchObject({ states: 1, outcome: "win" })
+  expect(past.beat, "the archive emits a beat carrying its own count").toMatchObject({ states: 2, outcome: "win" })
 
   await page.evaluate(() => (window as any).__neural.openPane("history"))
   const row = page.locator("[data-past-roll]")
   await expect(row, "one row under Previous rolls").toHaveCount(1)
-  // a one-state roll went somewhere: the row names the FINISH, never "Mount → Mount"
-  await expect(row, "and says so in the singular").toContainText("1 state ·")
+  // The row names the finish and counts both visited states.
+  await expect(row).toContainText("2 states ·")
   const title = (await row.innerText()).split("\n")[0]
   expect(title, "the row is titled start → finish").toBe("Mount → " + sub)
   expect(await page.locator("[data-replay-roll]").first().getAttribute("aria-label")).toBe(
@@ -252,4 +263,42 @@ test("free roam files the roll it ends, and Last rolls repaints without waiting 
     "the rows of a roll that no longer exists are gone from This roll",
   ).toHaveCount(0)
   await expect(page.locator("[data-mini-deck]"), "and so is the card that hung off them").toHaveCount(0)
+})
+
+// Preserve the one-state archive regression guard: submission entry from a position now
+// visits two states, but a roll opened directly in a submission can still finish in one.
+test("a direct submission finish archives its one-state roll", async ({ page }) => {
+  const j = journey(page)
+  const title = "Triangle Choke from Triangle Control"
+  const key = title + "|Attacker"
+  await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
+  await j.advance(4000)
+  expect(await page.evaluate(() => (window as any).__neural.rollLog.map((r: any) => r.key))).toEqual([key])
+  // URL arrivals stage a paused board; the transport Play action makes it an actual roll.
+  await page.evaluate(() => (window as any).__neural.setPaused(false))
+  await j.advance(900)
+  await j.rig("resolve", [0.01])
+  await j.rig("outcome", [0.01])
+  await j.rig("start-pos", [0.5])
+  await j.rig("role", [0])
+  await j.rig("ai-skill", [0.5])
+  await j.rig("max-moves", [0.5])
+  const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+  await expect(finish).toHaveCount(1)
+  await finish.click()
+  await page.locator("[data-go]").click()
+  await j.advanceUntil("roll_archived", 20000, 500)
+  const past = await page.evaluate(() => {
+    const a = (window as any).__neural, p = a._pastRolls[0]
+    return { keys: p.log.map((r: any) => r.key), outcome: p.outcome,
+      finish: p.finish.name, beat: a.beats.find((b: any) => b.beat === "roll_archived") }
+  })
+  expect(past.keys).toEqual([key])
+  expect(past.outcome).toBe("win")
+  expect(past.finish).toBe(title)
+  expect(past.beat).toMatchObject({states: 1, outcome: "win"})
+  await page.evaluate(() => (window as any).__neural.openPane("history"))
+  const row = page.locator("[data-past-roll]")
+  await expect(row).toHaveCount(1)
+  await expect(row).toContainText("1 state ·")
 })

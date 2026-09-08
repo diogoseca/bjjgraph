@@ -7007,3 +7007,12 @@ against 387,400. CI then caught the combined changelog exceeding its documentati
 
 Condensed this branch’s changelog entries, preserving behavior, validation and migration
 facts. The documentation ceiling is unchanged; budget and reference gates pass.
+
+## v1.176.6 — Bring full-suite fixtures into the submission-state model
+
+Older non-curated journeys counted retired aliases or expected submission entry to resolve
+immediately. Fixtures now use the actual 121-position pool, concrete resolving transitions,
+explicit Finish actions and payload readiness. Exact outcome, RNG, role and UI assertions
+remain; archive checks cover both two-state entries and direct one-state finishes. Targeted
+runs pass all 53 affected journeys. Runtime code is unchanged. Census and documentation
+gates pass without changing baselines or timeouts.
