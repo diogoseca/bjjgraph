@@ -113,7 +113,7 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Kimura?", "acceptedAnswer": { "@type": "Answer", "text": "The Kimura is a figure-four shoulder lock that rotates the opponent\u0027s arm behind their back to attack the rotator cuff and shoulder capsule, usable as both a finish and a controlling grip from nearly every position in grappling." } },
-    { "@type": "Question", "name": "What positions can you finish the Kimura from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kimura from High Mount, Kimura Trap, Modified Mount, S Mount, Shoulder of Justice, Crucifix, Gift Wrap, Butterfly Guard, Flattened Half Guard, Kuzure Kesa Gatame, Lockdown, Overhook Control, Quarter Guard, Turtle, Half Guard, Knee on Belly, Standing Position, Front Headlock, Closed Guard, Armbar Control, Kesa Gatame, Knee Shield Half Guard, Lasso Guard, New York Control, Side Control, Mount, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Kimura from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kimura from High Mount, Kimura Trap, Modified Mount, S Mount, Shoulder of Justice, Crucifix, Gift Wrap, Butterfly Guard, Flattened Half Guard, Kuzure Kesa Gatame, Lockdown, Overhook Control, Quarter Guard, Ushiro Kesa Gatame, Turtle, Half Guard, Knee on Belly, Standing Position, Front Headlock, Closed Guard, Armbar Control, Kesa Gatame, Knee Shield Half Guard, Lasso Guard, New York Control, Side Control, Triangle Control, Mount, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Kimura dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kimura targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early and release immediately on the tap." } }
   ]
 }
@@ -212,6 +212,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | [[Submissions/Kimura/from Lockdown|Lockdown]] | Bottom | 62% | [[Submissions/Kimura/from Lockdown/Attacker|Attack →]] | [[Submissions/Kimura/from Lockdown/Defender|Defend →]] |
 | [[Submissions/Kimura/from Overhook Control|Overhook Control]] | Top | 62% | [[Submissions/Kimura/from Overhook Control/Attacker|Attack →]] | [[Submissions/Kimura/from Overhook Control/Defender|Defend →]] |
 | [[Submissions/Kimura/from Quarter Guard|Quarter Guard]] | Top | 62% | [[Submissions/Kimura/from Quarter Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Quarter Guard/Defender|Defend →]] |
+| [[Submissions/Kimura/from Ushiro Kesa Gatame|Ushiro Kesa Gatame]] | Top | 62% | [[Submissions/Kimura/from Ushiro Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kimura/from Ushiro Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Kimura/from Turtle|Turtle]] | Top | 62% | [[Submissions/Kimura/from Turtle/Attacker|Attack →]] | [[Submissions/Kimura/from Turtle/Defender|Defend →]] |
 | [[Submissions/Kimura/from Half Guard|Half Guard]] | Bottom | 60% | [[Submissions/Kimura/from Half Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Half Guard/Defender|Defend →]] |
 | [[Submissions/Kimura/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Kimura/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Kimura/from Knee on Belly/Defender|Defend →]] |
@@ -224,6 +225,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | [[Submissions/Kimura/from Lasso Guard|Lasso Guard]] | Top | 50% | [[Submissions/Kimura/from Lasso Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Lasso Guard/Defender|Defend →]] |
 | [[Submissions/Kimura/from New York Control|New York Control]] | Bottom | 50% | [[Submissions/Kimura/from New York Control/Attacker|Attack →]] | [[Submissions/Kimura/from New York Control/Defender|Defend →]] |
 | [[Submissions/Kimura/from Side Control|Side Control]] | Top | 50% | [[Submissions/Kimura/from Side Control/Attacker|Attack →]] | [[Submissions/Kimura/from Side Control/Defender|Defend →]] |
+| [[Submissions/Kimura/Kimura from Triangle Control|Triangle Control]] | Bottom | 50% | [[Submissions/Kimura/Kimura from Triangle Control/Attacker|Attack →]] | [[Submissions/Kimura/Kimura from Triangle Control/Defender|Defend →]] |
 | [[Submissions/Kimura/from Mount|Mount]] | Top | 48% | [[Submissions/Kimura/from Mount/Attacker|Attack →]] | [[Submissions/Kimura/from Mount/Defender|Defend →]] |
 | [[Submissions/Kimura/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Kimura/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Kimura/from Twister Side Control/Defender|Defend →]] |
 
@@ -266,7 +268,6 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 - [[Submissions/Cross Collar Choke]] - Complementary gi attack creating submission dilemmas from shared top positions
 - [[Submissions/Belly Down Armbar]] - Transition option when Kimura defense involves rolling to turtle position
 - [[Positions/Kimura Trap]] - Specialized control position built entirely around Kimura grip mechanics
-- [[Transitions/Kimura to Back Take]] - Primary transition when opponent defends Kimura finish by rolling or turning
 - [[Positions/Side Control]] - Most common and high-percentage position for Kimura application
 - [[Positions/Half Guard]] - Key position for bottom player to attack Kimura on opponent's underhook
 - [[Positions/Gift Wrap]] - Alternative shoulder control position that can transition to Kimura

@@ -109,6 +109,8 @@ test("a rigged win plays the victory fanfare", async ({ page }) => {
   test.skip(!subName, "no submission from the start position");
   await j.rig("resolve", [0.01]);
   await j.pick(subName as string);
+  await j.nextHand();
+  await j.pick(subName as string); // Finish from the submission state
   await j.advanceUntil("roll_end", 20000);
 
   const log = await j.soundLog();

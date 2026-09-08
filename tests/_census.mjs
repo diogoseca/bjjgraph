@@ -61,12 +61,12 @@ export function computeCensus() {
   const positions = reps.filter((n) => n.ty === "positions");
 
   // the dealt hand, over every position seat — the same sweep dual-consumers harvests
-  let dealtCards = 0;
+  let dealtCards = 0, positionChoiceCards = 0;
   const savedRole = a.playerRole, savedPos = a.currentPos;
-  for (const p of positions) {
+  for (const p of positions.filter(n => !n.cal?.stateAlias)) {
     for (const role of ["top", "bottom"]) {
       a.playerRole = role; a.currentPos = p.idx;
-      try { dealtCards += a.optionsFor(p.idx).length; } catch { /* a seat that cannot deal is a
+      try { const n = a.optionsFor(p.idx).length; dealtCards += n; if (!p.cal?.stateAlias) positionChoiceCards += n; } catch { /* a seat that cannot deal is a
         different gate's problem; the census must not mask it by counting it as zero silently */ }
     }
   }
@@ -103,6 +103,9 @@ export function computeCensus() {
     // Derived, never guessed — the literal it backs is the one v1.155.2 missed.
     techPages:        reps.length - positions.length - 1,
     dealtCards,
+    positionChoiceCards,
+    playablePositions: positions.filter(p => !p.cal?.stateAlias).length,
+    positionChoiceSeats: positions.filter(p => !p.cal?.stateAlias).length * 2,
     calOutcomeNodes:  withOutcomes.length,
     endsCounter,
   };

@@ -122,7 +122,9 @@ export function ngFlowBuild(app, opts) {
   // Counted, not silent: a kernel that quietly loses half the corpus reads exactly like one that
   // did not (CLAUDE.md §6.6).
   const cov = { evKeys: 0, states: 0, dropped: 0, cells: 0, unresolved: 0, rsDropped: 0, rsHandDropped: 0, oppNoHand: 0 };
-  const rsOk = (i) => (typeof app.rsAllowsIdx === "function" ? app.rsAllowsIdx(i) : true);
+  // Solver states retain authored control aliases as computational vertices. Their UI
+  // projection is a submission state; hiding the duplicate orb must not drop probability mass.
+  const rsOk = (i) => (typeof app.giAllows === "function" ? app.giAllows(app.nodes[i]) : true);
 
   if (!ev || !ev.size) return null;
   // PASS 1 — the state space, deduped across pair members, positions first so a position deck

@@ -6940,3 +6940,79 @@ assertion anywhere. Root cause was a FULL DISK (`/` at 100%, 48 KB free) with th
 building concurrently — Chromium could not launch at all (`about:blank` failed too). The same
 files pass in seconds with a few hundred MB free. Read the failure MESSAGE before reading a red
 suite as a regression.
+
+
+## v1.176.0 — Submission states own their choices
+
+Submission arrivals from URLs, graph taps and transitions now open their own choices:
+exactly one Finish, concrete continuations, and named defender responses. Short labels
+omit the current state. Triangle gains distinct Kimura, Americana and retained-triangle
+straight arm-lock variants, with initial model rates. Their additions explain the census,
+ordinal and FLOW-reference updates.
+
+Twelve redundant controls become playable aliases; stored vertices remain for old links
+and the evaluator. Submission choices and explanations load together, preserving arrival
+seats and distinguishing continued threats from completed escapes. Opponent outcomes form
+a separate, preview-only group. The snapshot availability probe uses HEAD to avoid fetching
+a static server’s custom 404 body.
+
+Validation: 240 units, 221 curated journeys and eight final-build journeys passed; Quartz
+rendered 4,618 Markdown files and passed type/format checks; graph audit found zero errors.
+Removing Finish or flipping escape seats failed mutation checks. First hand: 386,212 gzip
+bytes, ceiling 387,400. A sparse worktree and RAM build avoided the full shared disk.
+
+## v1.176.1 — Threat colors follow state scores; odds remain visible
+
+Threat points and glyph/bar colors follow the resulting state from the player’s future
+seat, including reversals and aliases; favorable outcomes may be blue. Opposing finishes
+remain −100. Visible opponent rates exclude player bonuses/overrides. Escapes use the
+complement of the authored finish rate; independent per-response rates are unavailable.
+Both refresh paths preserve these semantics, and threat previews cannot execute moves.
+
+Validation: 241 units, 221 curated journeys and four final-build checks passed. Startup:
+386,607 gzip bytes against 387,400. Fixed-red shared palettes and hidden odds failed
+mutation checks. An initial-render-only red mutant survived because live refresh restores
+the score color; the spec records that limit.
+
+## v1.176.2 — Keep choice odds on one line
+
+Threat footers use “Base odds” with wrapping disabled. Rendered checks at 390px and 1440px
+confirmed single-line captions fit beside percentages. Rebuilt app; 241 units and 221
+curated journeys passed. Startup: 386,585 gzip bytes against 387,400.
+
+## v1.176.3 — Use one odds caption across choices
+
+All player/opponent choice cards, expanded cards and adjustment tooltips use “Odds”.
+Calculations stay unchanged. Rebuilt app; 221 curated journeys passed, with consistent
+phone/desktop captions. Startup: 386,546 gzip bytes against 387,400.
+
+## v1.176.4 — Integrate submission choices with dev’s position naming cleanup
+
+Combined the feature with dev’s Kesa consolidation and seat-name cleanup. Regenerated graph,
+layout, explorer and FLOW reference: 1,448 sites, 133 positions (12 playable aliases), 1,315
+techniques, 290 submissions, 242 playable position seats and 1,213 position cards. Exact
+coverage is 290 gi/259 no-gi submissions after duplicate removals.
+
+Published dev ordinals remain unchanged; triangle variants receive 1495–1497. The lock has
+1,498 assigned IDs, 1,448 live and 50 retired. Validation explicitly compares origin/dev;
+the integration’s first parent is dev, preserving CI’s HEAD^1 baseline. Americana/Kimura
+indexes drop retired scarf duplicates, correct Ushiro slugs and remove North-South Kimura
+(previously folded into Kimura Trap). All 14/29 canonical variant references resolve.
+
+Quartz build/type/format, 241 units, 222 curated journeys, graph integrity, JSON/JSON-LD,
+seat-deck, flow and ordinal gates passed. No baselines changed. Startup: 371,928 gzip bytes
+against 387,400. CI then caught the combined changelog exceeding its documentation budget.
+
+## v1.176.5 — Keep integration notes within the documentation budget
+
+Condensed this branch’s changelog entries, preserving behavior, validation and migration
+facts. The documentation ceiling is unchanged; budget and reference gates pass.
+
+## v1.176.6 — Bring full-suite fixtures into the submission-state model
+
+Older non-curated journeys counted retired aliases or expected submission entry to resolve
+immediately. Fixtures now use the actual 121-position pool, concrete resolving transitions,
+explicit Finish actions and payload readiness. Exact outcome, RNG, role and UI assertions
+remain; archive checks cover both two-state entries and direct one-state finishes. Targeted
+runs pass all 53 affected journeys. Runtime code is unchanged. Census and documentation
+gates pass without changing baselines or timeouts.
