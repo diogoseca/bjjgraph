@@ -254,6 +254,7 @@ class Component extends DCLogic {
     this._detailCtx = null;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
+    if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
     if (this._onWinResize) window.removeEventListener("resize", this._onWinResize);
     if (this._onKey) window.removeEventListener("keydown", this._onKey);
     this.clearTimers();
@@ -557,6 +558,8 @@ class Component extends DCLogic {
     this.ctx = this.canvas.getContext("2d");
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(this.wrapRef.current);
+    this._onChoiceFonts = () => this.fitChoiceTitles();
+    document.fonts.addEventListener("loadingdone", this._onChoiceFonts);
     this._onWinResize = () => this.resize();
     window.addEventListener("resize", this._onWinResize);
     this.resize();
@@ -11407,6 +11410,7 @@ class Component extends DCLogic {
     };
     add("Your options", own, false);
     add("Opponent threats", threats, true);
+    this.fitChoiceTitles();
   }
   previewStateChoice(opt, onPick) {
     const panel = this.optDetailRef.current;
@@ -11563,13 +11567,30 @@ class Component extends DCLogic {
     const txt = showNum ? '<text x="10" y="' + ty2 + '" text-anchor="middle" dominant-baseline="middle" font-size="8.5" font-weight="700" font-family="\'Space Grotesk\',sans-serif" fill="#eef1f6">' + num + '</text>' : '';
     return '<svg width="20" height="20" viewBox="0 0 20 20">' + shape + txt + '</svg>';
   }
+  // Measure the mounted text with the actual font. Keep the largest size that fits
+  // two lines; a fixed slot alone would hide a third line instead of fitting the name.
+  // Re-run after font loading and resize, always starting at the normal title size.
+  fitChoiceTitles() {
+    const tray = this.optionsRef.current;
+    if (!tray) return;
+    for (const slot of tray.querySelectorAll(".ngchoice-title")) {
+      if (!slot.clientWidth) continue;
+      const text = slot.firstElementChild;
+      let size = 13.5;
+      text.style.fontSize = size + "px";
+      while (size > 1 && (text.scrollHeight > size * 1.22 * 2 + 1 || text.scrollWidth > slot.clientWidth)) {
+        size -= 0.25;
+        text.style.fontSize = size + "px";
+      }
+    }
+  }
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node;
     const isEsc = mode === "escape";
     const isThreat = !!opt.threat;
     const card = document.createElement("div");
     card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
-    card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
+    card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;flex:0 0 150px;width:150px;height:144px;box-sizing:border-box;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     // DERIVED, NOT COINCIDENTAL (v1.104.3). `n.col` is `domColor(n.s[0])` frozen at INGEST, and
     // `s[0]` is ATTACKER for a technique — a role-BLIND read of a role-typed pair. On THIS
     // surface it happens to be right, and the audit says so: 0 of 1203 cards across all 136
@@ -11602,9 +11623,9 @@ class Component extends DCLogic {
     const oddsCol = this.choiceOddsColor(pct, isThreat);
     const pot = Math.round(this.movePotential(opt) * 100);
     // Keep odds captions compact so narrow choice cards retain a single-line footer.
-    const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
+    const bottomRow = '<div class="ngbotrow" style="flex:none;margin-top:auto;padding-top:8px;white-space:nowrap;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
       '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;white-space:nowrap;">Odds</div>' +
-      '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + (pct == null ? '—' : pct + '%') + '</span>' +
+      '<span class="ngodds" style="flex:none;font-size:15px;font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (pct == null ? '—' : pct + '%') + '</span>' +
       '</div>';
     // THE MIDDLE SLOT NAMES THE NUMBER OPPOSITE IT. The category word there was redundant with the
     // glyph SHAPE beside it (v1.103.6 canon: circle=position, triangle=submission, diamond=
@@ -11642,8 +11663,8 @@ class Component extends DCLogic {
       // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
       // for — this card's job is name, category, potential and odds, at a glance, on a clock.
       // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
-      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.choiceEscape(this.choiceLabel(opt)) + '</div>' +
-      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">defensive response</div>' : '') +
+      '<div class="ngchoice-title" style="flex:none;height:34px;font-weight:600;color:#eef1f6;line-height:1.22;"><span style="display:block;font-size:13.5px;">' + this.choiceEscape(this.choiceLabel(opt)) + '</span></div>' +
+      (isEsc ? '<div style="flex:none;font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;white-space:nowrap;">defensive response</div>' : '') +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
     // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
@@ -16155,6 +16176,7 @@ class Component extends DCLogic {
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
+    this.fitChoiceTitles();
     if (this._landEl) requestAnimationFrame(() => { if (this._landEl) this._dockLandCard(this._landEl); });
   }
   /**
