@@ -6944,105 +6944,66 @@ suite as a regression.
 
 ## v1.176.0 — Submission states own their choices
 
-The owner distinguished a submission state from its family and its origin, required exactly
-one Finish action, and asked that opponent outcomes remain visible without pretending they
-are our choices. The runtime now enters submission states consistently from URLs, graph taps,
-and transitions. Short action labels avoid repeating the current state. The triangle includes
-Kimura, Americana and a straight arm lock retaining the entanglement, alongside its existing
-armbar, Omoplata and back-take connections. Those three additions explain the corpus census
-and append-only ordinal changes; the FLOW reference was regenerated from their source data.
+Submission arrivals from URLs, graph taps and transitions now open their own choices:
+exactly one Finish, concrete continuations, and named defender responses. Short labels
+omit the current state. Triangle gains distinct Kimura, Americana and retained-triangle
+straight arm-lock variants, with initial model rates. Their additions explain the census,
+ordinal and FLOW-reference updates.
 
-Twelve redundant control records are compatibility aliases in the playable projection. Their
-stored graph vertices remain for old links and the statistical evaluator. Defensive actions
-come from each submission's authored responses, with named triangle/armbar corrections;
-arrival roles are preserved and a surviving threat is distinguished from a completed escape.
-Opponent threats have a separate red group and no execution path. Defensive choices and explanations
-load together on entry to each submission state. Initial rates for the new triangle attacks are model estimates.
+Twelve redundant controls become playable aliases; stored vertices remain for old links
+and the evaluator. Submission choices and explanations load together, preserving arrival
+seats and distinguishing continued threats from completed escapes. Opponent outcomes form
+a separate, preview-only group. The snapshot availability probe uses HEAD to avoid fetching
+a static server’s custom 404 body.
 
-Validation: all 240 unit tests and all 221 curated browser journeys passed. Eight affected
-journeys then passed against the complete fresh site build, including the strengthened EDGE
-coverage fraction and the first-hand payload assertion. Quartz rendered 4,618 Markdown files;
-its type and formatting checks passed. The authored graph audit reported zero errors. Mutation
-probes removing Finish and flipping escape seats each failed the named submission-state tests.
-
-The fresh browser measured 386,212 gzip bytes to the first hand against the unchanged 387,400
-ceiling. The local snapshot availability probe now uses HEAD: a static preview needs its status,
-not the complete custom 404 body. The payload journey also asserts that request method. The
-static-site payload gate includes the new per-submission chunks and passes its existing ceilings.
-Two existing Quartz formatting differences were normalized for the required formatting gate.
-
-The local checkout uses a sparse worktree because the shared disk is nearly full; the complete
-site build and browser artifacts were held in RAM-backed storage. An earlier browser run was
-interrupted when the disk filled; the complete successful run used RAM for logs and results.
-
+Validation: 240 units, 221 curated journeys and eight final-build journeys passed; Quartz
+rendered 4,618 Markdown files and passed type/format checks; graph audit found zero errors.
+Removing Finish or flipping escape seats failed mutation checks. First hand: 386,212 gzip
+bytes, ceiling 387,400. A sparse worktree and RAM build avoided the full shared disk.
 
 ## v1.176.1 — Threat colors follow state scores; odds remain visible
 
-Opponent cards no longer use a fixed red. Their signed points and glyph/bar tint follow the
-resulting state on the graph’s score palette, evaluated for the player’s future seat. This
-includes reversals and legacy control aliases; a favorable result may be blue. The group
-heading identifies whose options these are, and an opposing finish remains a terminal −100.
+Threat points and glyph/bar colors follow the resulting state from the player’s future
+seat, including reversals and aliases; favorable outcomes may be blue. Opposing finishes
+remain −100. Visible opponent rates exclude player bonuses/overrides. Escapes use the
+complement of the authored finish rate; independent per-response rates are unavailable.
+Both refresh paths preserve these semantics, and threat previews cannot execute moves.
 
-Threat percentages are restored as labeled base odds, without the player’s practice bonuses
-or success overrides. Defensive responses use the complement of the current submission’s
-authored finish rate; the corpus does not provide independent per-response rates. Both normal
-and defensive refreshes preserve this distinction. Threat previews remain non-executable.
-
-The submission-state unit test covers physical role changes, canonical destinations, favorable
-outcomes and base rates. The browser journey checks actual score colors, visible percentages
-and updates in both attacker and defender hands. Reverting the shared palette to one red or
-hiding threat odds makes that journey fail. An initial-render-only red mutant survives because
-the live refresh restores the score color; that limit is recorded in the spec.
-
-Validation: all 241 unit tests and 221 curated browser journeys passed; four focused browser
-journeys then passed against the final copied bundle. Startup measured 386,607 gzip bytes
-against the unchanged 387,400 ceiling. The fixed-red and hidden-odds mutants both failed.
-
+Validation: 241 units, 221 curated journeys and four final-build checks passed. Startup:
+386,607 gzip bytes against 387,400. Fixed-red shared palettes and hidden odds failed
+mutation checks. An initial-render-only red mutant survived because live refresh restores
+the score color; the spec records that limit.
 
 ## v1.176.2 — Keep choice odds on one line
 
-Opponent choice footers use the compact caption “Base odds” for escapes, finishes and other
-outcomes. Odds captions cannot wrap, avoiding the extra footer line on narrow cards while
-retaining the distinction between opponent base probabilities and player-adjusted odds.
-
-The app bundle was rebuilt. A rendered-browser check at 390px and 1440px confirmed both
-threat captions occupy one line and fit beside their percentages without overlap.
-
-Validation: 241 unit tests and all 221 curated browser journeys passed. Startup measured
-386,585 gzip bytes against the unchanged 387,400 ceiling.
-
+Threat footers use “Base odds” with wrapping disabled. Rendered checks at 390px and 1440px
+confirmed single-line captions fit beside percentages. Rebuilt app; 241 units and 221
+curated journeys passed. Startup: 386,585 gzip bytes against 387,400.
 
 ## v1.176.3 — Use one odds caption across choices
 
-All choice-card footers say “Odds”, for player actions and opponent threats, on desktop
-and phone. Expanded technique cards and their adjustment tooltip use the same term.
-The compact non-wrapping footer remains; probability calculations are unchanged.
-
-Validation: rebuilt the app and passed all 221 curated browser journeys. A rendered check
-also confirmed consistent choice captions at phone and desktop widths. Startup measured
-386,546 gzip bytes against the unchanged 387,400 ceiling.
-
+All player/opponent choice cards, expanded cards and adjustment tooltips use “Odds”.
+Calculations stay unchanged. Rebuilt app; 221 curated journeys passed, with consistent
+phone/desktop captions. Startup: 386,546 gzip bytes against 387,400.
 
 ## v1.176.4 — Integrate submission choices with dev’s position naming cleanup
 
-Combined submission states and consistent “Odds” labels with the Kesa Gatame consolidation
-and seat-name presentation changes already on dev. The merged graph has 1,448 live sites:
-133 positions, including 12 compatibility aliases, and 1,315 techniques (290 submissions).
-Playable position choices span 242 seats and 1,213 cards. Submission coverage is now pinned
-exactly at 290 gi and 259 no-gi states; the previous floor predated dev’s duplicate removals.
+Combined the feature with dev’s Kesa consolidation and seat-name cleanup. Regenerated graph,
+layout, explorer and FLOW reference: 1,448 sites, 133 positions (12 playable aliases), 1,315
+techniques, 290 submissions, 242 playable position seats and 1,213 position cards. Exact
+coverage is 290 gi/259 no-gi submissions after duplicate removals.
 
-Dev’s published ordinal assignments are preserved. The three draft-only triangle variants
-are minted after them at 1495–1497, with 1,498 assigned IDs, 1,448 live and 50 retired. The
-append-only validator explicitly compares with origin/dev. The integration merge keeps dev
-as its first parent so CI’s HEAD^1 identity check uses the published baseline.
+Published dev ordinals remain unchanged; triangle variants receive 1495–1497. The lock has
+1,498 assigned IDs, 1,448 live and 50 retired. Validation explicitly compares origin/dev;
+the integration’s first parent is dev, preserving CI’s HEAD^1 baseline. Americana/Kimura
+indexes drop retired scarf duplicates, correct Ushiro slugs and remove North-South Kimura
+(previously folded into Kimura Trap). All 14/29 canonical variant references resolve.
 
-Regenerated graph, layout, explorer and flow reference artifacts from the combined content.
-Americana and Kimura family indexes now list canonical surviving variants: retired scarf
-duplicates are removed, Ushiro slugs corrected, and the old North-South Kimura reference
-removed because that variant was previously folded into Kimura Trap. Their generated pages
-resolve all 14 and 29 variant references respectively.
+Quartz build/type/format, 241 units, 222 curated journeys, graph integrity, JSON/JSON-LD,
+seat-deck, flow and ordinal gates passed. No baselines changed. Startup: 371,928 gzip bytes
+against 387,400. CI then caught the combined changelog exceeding its documentation budget.
 
-Validation: complete Quartz build and type/format checks passed, as did 241 unit tests and
-all 222 curated browser journeys. Graph integrity reported zero errors; JSON, JSON-LD,
-seat-deck and flow gates passed without changing their baselines. Startup measured 371,928
-gzip bytes against the unchanged 387,400 ceiling.
+## v1.176.5 — Keep integration notes within the documentation budget
+
+Condensed this branch’s changelog entries, preserving behavior, validation and migration
+facts. The documentation ceiling is unchanged; budget and reference gates pass.
