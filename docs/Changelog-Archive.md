@@ -6690,6 +6690,15 @@ CDP `Input.dispatchTouchEvent` on the dev server — measured 160px of drag land
 252 with the fling — but no journey binds a touchscreen), and iOS rubber-banding under
 `touch-action:none`, which headless Chromium cannot show.
 
+**Merge verification (v1.177.0–1.177.1).** The integrated tree passed the full site build,
+241 unit tests, 223 curated journeys, content/availability validators, Quartz checks and an
+`npm ci --ignore-scripts --dry-run`. First-hand gzip was 373,097 bytes against the 387,400-byte
+ceiling. Docking now measures layout edges rather than the entry animation's translated rect,
+which otherwise adds 8px to the final reading gap. The merge also restored 18 dependency
+versions accidentally stamped with the upstream app version; root package versions alone advance.
+A concurrent landing-seat fix arrived after the full gate; after merging it and rebuilding,
+all 26 landing-role, start-from and roll-card journeys passed.
+
 ## v1.174.0 — MORE BECOMES THE SECOND CARD
 
 **Owner:** "More shouldn't touch the landcard. Rather it should be like expanding itself into
