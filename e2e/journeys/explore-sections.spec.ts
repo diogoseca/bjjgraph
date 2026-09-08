@@ -16,6 +16,11 @@ import { journey } from "../dsl";
  *  - Search must never hide a match behind a fold: a query renders FLAT ranked results
  *    (the pre-existing design), so an item inside a collapsed group is always reachable
  *    by typing its name.
+ *  - ARRIVING ON A CATEGORY HUB URL (v1.169.0) — /Positions, /Transitions, /Submissions,
+ *    /Systems, /Principles, /Learning — opens the pane on Explore with THAT section
+ *    expanded (written through the same exploreOpenSections map a header click uses;
+ *    neighbours keep their folds) and starts NOTHING: a hub is a reference surface, so
+ *    the owner's rule from concepts-surface.spec.ts applies — no seat, no hand, no roll.
  *
  * Handles: [data-explore-section="<label>"] (header buttons, aria-expanded),
  *          [data-system-row], [data-list-add][data-list-surface="explore"] (leaf rows)
@@ -172,4 +177,112 @@ test("search reveals a technique living inside a collapsed group — matches are
     page.locator('[data-explore-section="Submissions"]'),
   ).toHaveAttribute("aria-expanded", "false");
   await expect(page.locator(`[data-list-add="${pick.id}"]`)).toHaveCount(0);
+});
+
+/** The rails these two arrival journeys read — compile-time only, so the shape is safe to
+ *  reference inside page.evaluate callbacks (nothing is captured at runtime). */
+type HubRails = {
+  deckShown?: boolean;
+  _viewMode?: string;
+  _urlSeeded?: boolean;
+  currentPos?: number | null;
+  _staged?: number | null;
+  _played?: boolean;
+  rollLog?: unknown[];
+};
+
+test("arriving on a category hub URL opens Explore with that section expanded — and starts nothing", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/Transitions");
+
+  // the pane is up, on Explore — that is what the address asked for
+  await expect
+    .poll(
+      () =>
+        page.evaluate(() => {
+          // __neural is the app's own test rail; dsl.ts boot() gates on it existing
+          const w = window as unknown as { __neural: HubRails };
+          const a = w.__neural;
+          return a.deckShown ? a._viewMode || "" : "";
+        }),
+      { message: "the hub arrival opened the pane on Explore" },
+    )
+    .toBe("explore");
+
+  // …with the named section expanded and really showing its rows
+  await expect(
+    page.locator('[data-explore-section="Transitions"]'),
+    "the section the address names is expanded",
+  ).toHaveAttribute("aria-expanded", "true");
+  expect(
+    await page.locator('[data-list-add][data-list-surface="explore"]').count(),
+    "and its technique rows are visible",
+  ).toBeGreaterThan(0);
+
+  // …without dragging any neighbour open (the two undeferred ones exist to be asked)
+  for (const s of ["Positions", "Submissions"])
+    await expect(
+      page.locator(`[data-explore-section="${s}"]`),
+      `${s} keeps its own fold`,
+    ).toHaveAttribute("aria-expanded", "false");
+
+  // THE REFERENCE RULE (concepts-surface.spec.ts): a hub is browsed, not played. The intro
+  // hands the board off at 3.2s — advance well past that and nothing may have seated, dealt
+  // or staged.
+  await j.advance(4000);
+  const idle = await page.evaluate(() => {
+    // __neural is the app's own test rail; dsl.ts boot() gates on it existing
+    const w = window as unknown as { __neural: HubRails };
+    const a = w.__neural;
+    return {
+      seeded: !!a._urlSeeded,
+      pos: a.currentPos == null ? null : a.currentPos,
+      staged: a._staged == null ? null : a._staged,
+      played: !!a._played,
+      rollLog: (a.rollLog || []).length,
+    };
+  });
+  expect(idle.seeded, "a hub page seeds no board").toBe(false);
+  expect(idle.pos, "nothing is standing anywhere").toBe(null);
+  expect(idle.staged, "and nothing is staged").toBe(null);
+  expect(idle.played, "and no roll has played").toBe(false);
+  expect(idle.rollLog, "and the roll log is empty").toBe(0);
+  const beats = (await j.beats()).map((b) => b.beat);
+  expect(
+    beats.filter((b) => b === "options_dealt" || b === "roll_staged"),
+    "no hand was dealt and nothing was staged",
+  ).toEqual([]);
+});
+
+test("arriving on /Systems expands the DEFERRED Systems section once its payload lands", async ({
+  page,
+}) => {
+  // Systems (like Principles and Learning) is a deferred payload: the header does not exist
+  // until systems.json lands. The arrival writes the fold map BEFORE the first render asks,
+  // so the section must materialise already expanded — a fix applied only to the three
+  // graph-backed sections would leave the deferred half of the vocabulary folded.
+  const j = journey(page);
+  await j.boot("/Systems");
+  await expect
+    .poll(
+      () =>
+        page.evaluate(() => {
+          // __neural is the app's own test rail; dsl.ts boot() gates on it existing
+          const w = window as unknown as { __neural: HubRails };
+          const a = w.__neural;
+          return a.deckShown ? a._viewMode || "" : "";
+        }),
+      { message: "the hub arrival opened the pane on Explore" },
+    )
+    .toBe("explore");
+  await expect(
+    page.locator('[data-explore-section="Systems"]'),
+    "Systems renders expanded when its payload lands (needs `npm run regenerate:neural` + a build so systems.json is served)",
+  ).toHaveAttribute("aria-expanded", "true", { timeout: 20_000 });
+  expect(
+    await page.locator("[data-system-row]").count(),
+    "and its rows are visible",
+  ).toBeGreaterThan(0);
 });

@@ -17,6 +17,7 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
   "@type": "WebPage",
   "name": "Kesa Gatame",
   "description": "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.",
+  "alternateName": ["Scarf Hold", "Scarf Hold Position", "Hon Kesa Gatame"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -96,6 +97,9 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Scarf Hold</strong>, <strong>Scarf Hold Position</strong>, <strong>Hon Kesa Gatame</strong></p>
+</aside>
 <div class="role-links">
 
 [[Kesa Gatame/Bottom|Play as Bottom]]
@@ -113,7 +117,7 @@ Historically, Kesa Gatame has been a cornerstone of judo newaza and was prominen
 
 The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.
 
-Kesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa-Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.
+Kesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Ushiro Kesa Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.
 
 </section>
 
@@ -223,23 +227,27 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (11% of attempts)
+- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (9% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (10% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (8% of attempts)
 
-- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (10% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
 
-- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (9% of attempts)
+- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (9% of attempts)
+- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (8% of attempts)
+
+- **[[Transitions/Bridge from Kesa Gatame/Attacker|Bridge from Kesa Gatame]]** (7% of attempts)
+
+- **[[Transitions/Escape Kesa Gatame/Attacker|Escape Kesa Gatame]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -304,25 +312,29 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Submissions/Kimura/from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (17% of attempts)
+- **[[Submissions/Kimura/from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (13% of attempts)
 
-- **[[Submissions/North-South Choke/from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (9% of attempts)
+- **[[Submissions/North-South Choke/from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (10% of attempts)
+- **[[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (10% of attempts)
+- **[[Transitions/Kesa Gatame to Kuzure Kesa Gatame/Attacker|Kesa Gatame to Kuzure Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (10% of attempts)
+- **[[Transitions/Kesa Gatame to Ushiro Kesa Gatame/Attacker|Kesa Gatame to Ushiro Kesa Gatame]]** (8% of attempts)
 
-- **[[Submissions/Americana/from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (9% of attempts)
+- **[[Submissions/Americana/from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (7% of attempts)
 
-- **[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (6% of attempts)
+- **[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (5% of attempts)
 
-- **[[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (6% of attempts)
+- **[[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (5% of attempts)
+
+- **[[Transitions/Kesa Gatame to Mount/Attacker|Kesa Gatame to Mount]]** (9% of attempts)
+
+- **[[Transitions/Kesa Gatame to Side Control/Attacker|Kesa Gatame to Side Control]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -363,11 +375,9 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 - **[[Positions/Side Control]]** - Parent category with similar point value but different control mechanics
 
-- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Variation facing opposite direction that addresses back exposure concerns
+- **[[Positions/Side Control/Ushiro Kesa Gatame]]** - Variation facing opposite direction that addresses back exposure concerns
 
-- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified variation with different arm control and weight distribution
-
-- **[[Positions/Side Control/Modified Scarf Hold]]** - Variation with modified leg positioning for enhanced control
+- **[[Positions/Side Control/Kuzure Kesa Gatame]]** - Modified variation with different arm control and weight distribution
 
 - **[[Positions/North-South]]** - Common transition target for maintaining control when opponent creates space
 

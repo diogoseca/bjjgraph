@@ -4,7 +4,7 @@
 
 ---
 title: "Arm Recovery to Guard | BJJ Technique | BJJ Graph"
-description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Learn Arm Recovery to Guard from Kuzure Kesa Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Arm Recovery to Guard",
-  "description": "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Arm Recovery to Guard from Kuzure Kesa Gatame bottom. Step-by-step arm extraction to re-guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Arm Recovery to Guard",
-  "description": "Arm Recovery to Guard is a defensive transition from Kuzure Kesa-Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.",
+  "description": "Arm Recovery to Guard is a defensive transition from Kuzure Kesa Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,15 +105,15 @@ description: "Learn Arm Recovery to Guard from Kuzure Kesa-Gatame bottom. Step-b
 
 <section id="overview" class="content-section">
 
-**Arm Recovery to Guard is a defensive transition from Kuzure Kesa-Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.**
+**Arm Recovery to Guard is a defensive transition from Kuzure Kesa Gatame bottom that extracts the trapped arm through internal shoulder rotation, a frame, and a perpendicular bridge to recover Closed Guard or Half Guard with both arms free.**
 
-Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.
+Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.
 
-The strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa-Gatame when the timing window presents itself.
+The strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa Gatame when the timing window presents itself.
 
 The technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.
 
-**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kuzure Kesa Gatame]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -162,7 +162,7 @@ The technique requires precise coordination between shoulder mechanics, hip move
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 50% |
 | Success | [[Positions/Half Guard]] | 15% |
-| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Failure | [[Positions/Side Control/Kuzure Kesa Gatame]] | 25% |
 | Counter | [[Positions/Armbar Control]] | 10% |
 
 
@@ -314,7 +314,7 @@ The technique requires precise coordination between shoulder mechanics, hip move
 
 ## Position Integration
 
-Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-Gatame bottom, forming part of a complete defensive system alongside Elbow Escape, Granby Roll, Bridge and Roll, and Technical Standup. Its unique value is that it directly addresses the position's defining feature—the arm trap—while recovering to an offensive guard position rather than a neutral or still-defensive position like Turtle. In the broader escape hierarchy, arm recovery should be the first-choice escape when timing permits, as Closed Guard offers the best offensive return. When arm recovery is denied, practitioners chain into Elbow Escape for Half Guard recovery or Granby Roll for Turtle, then work back toward guard from those intermediate positions. The technique integrates with the guard game by providing a direct re-entry into Closed Guard or Half Guard attack systems.
+Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa Gatame bottom, forming part of a complete defensive system alongside Elbow Escape, Granby Roll, Bridge and Roll, and Technical Standup. Its unique value is that it directly addresses the position's defining feature—the arm trap—while recovering to an offensive guard position rather than a neutral or still-defensive position like Turtle. In the broader escape hierarchy, arm recovery should be the first-choice escape when timing permits, as Closed Guard offers the best offensive return. When arm recovery is denied, practitioners chain into Elbow Escape for Half Guard recovery or Granby Roll for Turtle, then work back toward guard from those intermediate positions. The technique integrates with the guard game by providing a direct re-entry into Closed Guard or Half Guard attack systems.
 
 </section>
 
@@ -324,7 +324,7 @@ Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-
 ## Related Techniques
 
 
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position—modified scarf hold where arm is trapped
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Starting position—modified scarf hold where arm is trapped
 
 - [[Positions/Closed Guard]] - Primary successful outcome—full guard recovery with both arms free
 
@@ -338,7 +338,7 @@ Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-
 
 - [[Positions/Armbar Control]] - Counter risk—opponent may transition to armbar during failed extraction
 
-- [[Submissions/Americana/from Kuzure Kesa-Gatame]] - Opponent's submission threat that creates the timing window for extraction
+- [[Submissions/Americana/from Kuzure Kesa Gatame]] - Opponent's submission threat that creates the timing window for extraction
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position when Closed Guard is not reachable
 

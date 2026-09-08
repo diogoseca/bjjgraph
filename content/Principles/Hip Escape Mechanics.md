@@ -320,7 +320,7 @@ Often the first movement pattern taught to a white belt and one of the last full
 
 **Closed Guard**: When posture is compromised, hip escapes help recover optimal positioning by creating space and angles that enable posture recovery or transition to more advantageous open guard positions.
 
-**Kuzure Kesa-Gatame**: Coordinating hip escapes with specific arm extraction sequences to escape modified scarf hold positions, using bridging to create initial space before rotating away from opponent's control.
+**Kuzure Kesa Gatame**: Coordinating hip escapes with specific arm extraction sequences to escape modified scarf hold positions, using bridging to create initial space before rotating away from opponent's control.
 
 **S Mount**: Timing hip escapes to coincide with opponent's weight transitions when establishing S-mount positioning, creating space during momentary base instability to prevent full position consolidation.
 

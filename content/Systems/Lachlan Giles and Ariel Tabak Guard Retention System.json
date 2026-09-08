@@ -255,12 +255,12 @@
     {
       "question": "What should you identify before selecting a guard-retention response?",
       "answer": "Identify the passer's route and which defensive barriers remain available; the same movement will not solve every passing situation.",
-      "answer_line": "Read the route and remaining barriers"
+      "answer_line": "Read the route and usable barriers"
     },
     {
       "question": "Why does clearing the feet not always mean the guard has been passed?",
       "answer": "The knees, elbows, and remaining frames may still prevent the passer from controlling the torso and allow useful leg contact to be restored.",
-      "answer_line": "Other barriers can still protect the torso"
+      "answer_line": "Other barriers still protect torso"
     },
     {
       "question": "When is a retention repetition complete?",
@@ -275,7 +275,7 @@
     {
       "question": "How can a partner drill reveal a recurring retention mistake?",
       "answer": "Limit the passer to one route, pause when contact is lost, and record the barrier you failed to preserve before testing one adjustment.",
-      "answer_line": "Constrain the pass and inspect lost contact"
+      "answer_line": "Limit the pass; inspect lost contact"
     },
     {
       "question": "What changes once the passer establishes a settled pin?",

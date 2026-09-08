@@ -301,7 +301,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (10% of attempts)
 
-- **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (8% of attempts)
+- **[[Transitions/Kimura Trap to Ushiro Kesa Gatame/Attacker|Kimura Trap to Ushiro Kesa Gatame]]** (8% of attempts)
 
 
 ### Common Mistakes

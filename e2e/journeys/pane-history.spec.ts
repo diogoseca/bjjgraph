@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test"
+import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
@@ -12,14 +12,24 @@ import { journey } from "../dsl"
  *   - each row opens a card that reads question → Reveal → answer (never options)
  *   - revealing is SEEN, not credit — the honest economy holds here too
  *   - the history survives the round boundary, because the pane no longer clears itself
+ *   - EVERY roll that was played reaches the shelf, including the one-exchange roll (v1.174.0)
+ *   - and the shelf repaints when a roll is filed, not one landing later (v1.174.0)
  *
  * Surfaces: [data-hist] [data-hist-actor] [data-hist-current] [data-mini-deck]
- *           [data-mini-q] [data-mini-reveal] [data-mini-a]
+ *           [data-mini-q] [data-mini-reveal] [data-mini-a] [data-past-roll]
  */
 
-// the pill is deleted (v1.99.0) — "study this state" (openHomeToLatest, which lands on
-// History with the current row's deck open) survives on the landing card's familiarity chip
-const openPane = (page: any) => page.locator("[data-land-count]").click()
+// The logo is the pane opener; Last rolls owns the history surface.
+const openPane = async (page: Page) => {
+  await page.locator(".ng-logo").click()
+  await page.locator('.ng-learning-nav [data-view="history"]').click()
+}
+// …and a row opens its own deck on click. (v1.175.0 retired the landing chip that used to land
+// here with the current row already open — "it should not open the last rolls", owner.)
+const openCurrentDeck = async (page: Page) => {
+  await openPane(page)
+  await page.locator("[data-hist-current]").click()
+}
 
 test("the pane lists every state the roll has visited, in order", async ({ page }) => {
   const j = journey(page)
@@ -60,7 +70,7 @@ test("a history row reads question → reveal → answer, never multiple choice"
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openPane(page)
+  await openCurrentDeck(page)
 
   const deck = page.locator("[data-mini-deck]").first()
   await expect(deck, "the current state's card is open in the pane").toBeVisible()
@@ -87,7 +97,7 @@ test("revealing in the pane is SEEN, not credit", async ({ page }) => {
     return { prep: (a.prep && a.prep[k]) || 0, score: a.gameScore().score, key: k }
   })
 
-  await openPane(page)
+  await openCurrentDeck(page)
   await page.locator("[data-mini-deck]").first().locator("[data-mini-reveal]").click()
 
   const after = await page.evaluate((k) => {
@@ -102,7 +112,7 @@ test("the history survives the round ending", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openPane(page)
+  await openCurrentDeck(page)
   const before = await page.locator("[data-hist]").count()
 
   // endRound is the seam that used to hide the pane; time is frozen while it is open
@@ -134,4 +144,169 @@ test("Last rolls carries the roll rows — and explains itself when nothing roll
   expect(await page.locator("[data-hist]").count(), "one row per visited state").toBeGreaterThanOrEqual(1)
   await expect(page.locator("[data-hist-current]"), "the LATEST row is marked").toHaveCount(1)
   await expect(page.locator("[data-hist-empty]"), "and the empty line is gone").toHaveCount(0)
+})
+
+/**
+ * A SHORT FINISHED ROLL IS A ROLL (v1.174.0).
+ *
+ * Owner: "last rolls is not updating as i click outcomes and continue my roll … it seems stuck".
+ * `_closeRoll`'s predicate used to demand `rollLog.length > 1`, so the ordinary short roll — you
+ * attack from the state you opened in and finish it, or get caught there — left NO row anywhere:
+ * measured on the built bundle, 5 of 6 rolls in one session and 2 of 2 in another vanished.
+ *
+ * Submission entry now visits its own state before the explicit Finish action; both landings
+ * belong in the archive. The pane stays CLOSED across the restart on purpose: pane law holds the clock, and the archive
+ * rides `startRoll`, which is a timer. Opening it is the reader's job, at the end.
+ */
+test("a short roll archives both the opening position and the submission it finishes", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  const sub = await page.evaluate(() => {
+    const a = (window as any).__neural
+    for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "submissions") return a.nodes[i].t
+    return null
+  })
+  expect(sub, "premise: the opening hand offers a submission to finish with").not.toBeNull()
+
+  await j.rig("resolve", [0.01]) // the explicit Finish lands → endRound("win")
+  await j.rig("outcome", [0.01])
+  // ...and the roll that STARTS after it draws nothing unrigged, so the restart cannot flake
+  await j.rig("start-pos", [0.5])
+  await j.rig("role", [0])
+  await j.rig("ai-skill", [0.5])
+  await j.rig("max-moves", [0.5])
+  await j.pick(sub as string)
+  await j.nextHand()
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a.nodes[a.currentPos].t
+  })).toBe(sub)
+  const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+  await expect(finish).toHaveCount(1)
+  await finish.click()
+  await page.locator("[data-go]").click()
+
+  // pump the verdict hold (6.6s) and the 0.8s hand-off that runs startRoll, which is where a
+  // finished roll is filed
+  let past: any = null
+  for (let n = 0; n < 40 && !past; n++) {
+    await j.advance(500)
+    past = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const p = (a._pastRolls || [])[0]
+      const arch = (a.beats || []).filter((b: any) => b.beat === "roll_archived")
+      return p
+        ? { states: (p.log || []).length, keys: (p.log || []).map((r: any) => r.key), outcome: p.outcome, finish: p.finish && p.finish.name, beat: arch[arch.length - 1] || null }
+        : null
+    })
+  }
+  expect(past, "the roll that just ended is on the shelf").not.toBeNull()
+  expect(past.states, "both visited states are archived").toBe(2)
+  expect(past.keys).toEqual(["Mount|Top", sub + "|Attacker"])
+  expect(past.outcome, "filed with the verdict it ended on").toBe("win")
+  expect(past.finish, "and the submission that finished it").toBe(sub)
+  // §6.6: the archive says what it did, so "filed nothing" can never read like "never looked"
+  expect(past.beat, "the archive emits a beat carrying its own count").toMatchObject({ states: 2, outcome: "win" })
+
+  await page.evaluate(() => (window as any).__neural.openPane("history"))
+  const row = page.locator("[data-past-roll]")
+  await expect(row, "one row under Previous rolls").toHaveCount(1)
+  // The row names the finish and counts both visited states.
+  await expect(row).toContainText("2 states ·")
+  const title = (await row.innerText()).split("\n")[0]
+  expect(title, "the row is titled start → finish").toBe("Mount → " + sub)
+  expect(await page.locator("[data-replay-roll]").first().getAttribute("aria-label")).toBe(
+    "Replay Mount → " + sub,
+  )
+})
+
+/**
+ * FREE ROAM FILES THE ROLL IT ENDS — AND THE SHELF REPAINTS ON THE SPOT (v1.174.0).
+ *
+ * The other half of the owner's "it seems stuck". `rollLog` and `_pastRolls` ARE what this tab
+ * draws, and the app's only repaint used to be `buildDrillPanel` — i.e. the NEXT LANDING. Roam
+ * has no next landing, so a background double-tap with the tab open left the finished roll's rows
+ * frozen on screen and the roll it had just archived invisible, indefinitely.
+ *
+ * No `advance()` after the taps, deliberately: any pumped frame could land something and repaint
+ * for the wrong reason, which is exactly the false pass this test exists to refuse.
+ */
+test("free roam files the roll it ends, and Last rolls repaints without waiting for a landing", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  // one real exchange first, so this is unambiguously a played roll (and a multi-state one, so
+  // the assertion below is about the REPAINT and not about the archive predicate)
+  const t = await page.evaluate(() => {
+    const a = (window as any).__neural
+    for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t
+    return (a.nodes[(a.optionIdxs || [])[0]] || {}).t || ""
+  })
+  await j.rig("resolve", [0.01])
+  await j.rig("outcome", [0.01])
+  await j.pick(t)
+  await j.nextHand()
+
+  await openPane(page)
+  const rows = await page.locator("[data-hist]").count()
+  expect(rows, "premise: the live roll's states are on screen").toBeGreaterThan(1)
+  expect(await page.locator("[data-past-roll]").count(), "premise: the shelf is empty").toBe(0)
+
+  // tap 1 closes the landing card, tap 2 is free roam (the ladder pinned by roll-card.spec.ts)
+  await page.evaluate(() => (window as any).__neural._tapBackground())
+  await page.evaluate(() => (window as any).__neural._tapBackground())
+
+  expect(
+    await page.evaluate(() => ((window as any).__neural.rollLog || []).length),
+    "roam ended the roll",
+  ).toBe(0)
+  await expect(page.locator("[data-past-roll]"), "and filed it under Previous rolls").toHaveCount(1)
+  await expect(
+    page.locator("[data-hist]"),
+    "the rows of a roll that no longer exists are gone from This roll",
+  ).toHaveCount(0)
+  await expect(page.locator("[data-mini-deck]"), "and so is the card that hung off them").toHaveCount(0)
+})
+
+// Preserve the one-state archive regression guard: submission entry from a position now
+// visits two states, but a roll opened directly in a submission can still finish in one.
+test("a direct submission finish archives its one-state roll", async ({ page }) => {
+  const j = journey(page)
+  const title = "Triangle Choke from Triangle Control"
+  const key = title + "|Attacker"
+  await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
+  await j.advance(4000)
+  expect(await page.evaluate(() => (window as any).__neural.rollLog.map((r: any) => r.key))).toEqual([key])
+  // URL arrivals stage a paused board; the transport Play action makes it an actual roll.
+  await page.evaluate(() => (window as any).__neural.setPaused(false))
+  await j.advance(900)
+  await j.rig("resolve", [0.01])
+  await j.rig("outcome", [0.01])
+  await j.rig("start-pos", [0.5])
+  await j.rig("role", [0])
+  await j.rig("ai-skill", [0.5])
+  await j.rig("max-moves", [0.5])
+  const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+  await expect(finish).toHaveCount(1)
+  await finish.click()
+  await page.locator("[data-go]").click()
+  await j.advanceUntil("roll_archived", 20000, 500)
+  const past = await page.evaluate(() => {
+    const a = (window as any).__neural, p = a._pastRolls[0]
+    return { keys: p.log.map((r: any) => r.key), outcome: p.outcome,
+      finish: p.finish.name, beat: a.beats.find((b: any) => b.beat === "roll_archived") }
+  })
+  expect(past.keys).toEqual([key])
+  expect(past.outcome).toBe("win")
+  expect(past.finish).toBe(title)
+  expect(past.beat).toMatchObject({states: 1, outcome: "win"})
+  await page.evaluate(() => (window as any).__neural.openPane("history"))
+  const row = page.locator("[data-past-roll]")
+  await expect(row).toHaveCount(1)
+  await expect(row).toContainText("1 state ·")
 })

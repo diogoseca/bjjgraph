@@ -89,7 +89,7 @@ const rigAmbient = async (j: any, n: number) => {
 type WeakRow = { idx: number; role: string; deck: string; w: number };
 type WeakNode = {
   idx: number; t: string; ty: string; rep?: boolean;
-  posId: string | null; fromPositionId: string | null; fromRole: string | null;
+  posId: string | null; fromPositionId: string | null; fromRole: string | null; role?: string;
 };
 type NeuralApp = {
   nodes: WeakNode[];
@@ -230,7 +230,7 @@ test("@curated Standing opens every roll on standing-position, consuming one sta
     const ix = a._posSlugIndex.get("standing-position");
     return { size: (a._posIdx || []).length, inPool: (a._posIdx || []).indexOf(ix) >= 0, rep: a.nodes[ix]?.rep, at: a.currentPos === ix };
   });
-  expect(pool.size, "the playable pool is the 136 sites").toBe(136);
+  expect(pool.size, "the playable position pool excludes submission aliases").toBe(121); // census:playablePositions
   expect(pool.inPool, "standing-position's rep member is in it").toBe(true);
   expect(pool.rep, "…and it IS the rep member").toBe(true);
   expect(pool.at, "…and that is the node the roll stands on").toBe(true);
@@ -398,6 +398,8 @@ test("@curated a weak-spots roll opens on the biggest leak, on its seat — and 
     return {
       len: win.length,
       w0,
+      openingPosId: w0 ? a.nodes[w0.idx].posId : null,
+      nodeRole: a.nodes[a.currentPos].role,
       spot: a._startSpot,
       current: { idx: a.currentPos, posId: a.nodes[a.currentPos].posId, role: a.playerRole },
       wire: n ? { ty: n.ty, posId: n.posId, fromPositionId: n.fromPositionId, fromRole: n.fromRole } : null,
@@ -405,7 +407,8 @@ test("@curated a weak-spots roll opens on the biggest leak, on its seat — and 
     };
   });
   expect(r.len, "the window the draw used is PUBLISHED").toBeGreaterThan(0);
-  expect(r.current.idx, "the roll opened on the first row's state").toBe(r.w0.idx);
+  expect(r.current.posId, "the roll opened on the first row's position").toBe(r.openingPosId);
+  expect(r.nodeRole, "the focused node is the spot's seat").toBe(r.w0.role);
   expect(r.current.role, "…on the spot's own seat, over the rigged top role draw").toBe(r.w0.role);
   expect(r.spot, "…and the crack is named for the toast").toBe(r.w0.deck);
   expect(r.rigLeft, "exactly one start-pos draw, as in every other mode").toBe(0);
@@ -453,12 +456,12 @@ test("@curated a bottom-seat spot seats you bottom even when the role draw says 
     const a = (window as unknown as { __neural: NeuralApp }).__neural; // page boundary: the app's own debug handle
     const win = a._lastWeakWindow || [];
     const k = win.findIndex((row) => row.role === "bottom");
-    if (k < 0) return { k, mid: 0, row: null };
+    if (k < 0) return { k, mid: 0, row: null, posId: null };
     const total = win.reduce((acc, row) => acc + row.w, 0);
     let below = 0;
     for (let i = 0; i < k; i++) below += win[i].w;
     // the row's cumulative-weight midpoint, computed from the PUBLISHED window's own weights
-    return { k, mid: (below + win[k].w / 2) / total, row: win[k] };
+    return { k, mid: (below + win[k].w / 2) / total, row: win[k], posId: a.nodes[win[k].idx].posId };
   });
   expect(t.k, "some window row is a bottom seat — games leak from under people too").toBeGreaterThanOrEqual(0);
 
@@ -468,9 +471,10 @@ test("@curated a bottom-seat spot seats you bottom even when the role draw says 
   expect(s.hand).toBeGreaterThan(0);
   const after = await page.evaluate(() => {
     const a = (window as unknown as { __neural: NeuralApp }).__neural; // page boundary: the app's own debug handle
-    return { idx: a.currentPos, role: a.playerRole };
+    return { posId: a.nodes[a.currentPos].posId, role: a.playerRole, nodeRole: a.nodes[a.currentPos].role };
   });
-  expect(after.idx, "the draw landed the bottom-seat row").toBe(t.row!.idx);
+  expect(after.posId, "the draw landed the bottom-seat row's position").toBe(t.posId);
+  expect(after.nodeRole, "the graph focuses the bottom member").toBe("bottom");
   expect(after.role, "…and the SEAT is the spot's, overriding the rigged top role").toBe("bottom");
 });
 

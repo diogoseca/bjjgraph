@@ -4,7 +4,7 @@
 
 ---
 title: "Gift Wrap Control Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, defensive options, and escape strategies from Kuzure Kesa-Gatame arm wrap."
+description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, defensive options, and escape strategies from Kuzure Kesa Gatame arm wrap."
 ---
 
 
@@ -21,7 +21,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
     {
       "@type": "HowToStep",
       "name": "Post far hand on attacker's hip to create a frame that prevents wrist access",
-      "text": "Before attacker secures wrist control—this is the earliest and most effective prevention point If successful: Attacker cannot initiate the wrap and must return to standard Kuzure Kesa-Gatame attacks, giving you time to work hip escapes",
+      "text": "Before attacker secures wrist control—this is the earliest and most effective prevention point If successful: Attacker cannot initiate the wrap and must return to standard Kuzure Kesa Gatame attacks, giving you time to work hip escapes",
       "position": 1
     },
     {
@@ -88,7 +88,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How does your far arm position in Kuzure Kesa-Gatame bottom determine your vulnerability to the Gift Wrap?",
+      "name": "How does your far arm position in Kuzure Kesa Gatame bottom determine your vulnerability to the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your far arm is relaxed at your side or extended toward the mat, the attacker has free access to your wrist for the wrap initiation. If your far arm frames on the attacker's hip, it blocks their reaching path. If your elbow is bent tight with hand near your chin, they cannot easily grip and thread. Arm positioning is the single biggest factor in Gift Wrap vulnerability."
@@ -104,7 +104,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gift Wrap Control Defender",
-  "description": "How to defend against Gift Wrap Control in BJJ. Recognition cues, defensive options, and escape strategies from Kuzure Kesa-Gatame arm wrap.",
+  "description": "How to defend against Gift Wrap Control in BJJ. Recognition cues, defensive options, and escape strategies from Kuzure Kesa Gatame arm wrap.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -182,9 +182,9 @@ Defending against Gift Wrap Control requires understanding that the technique ha
 
 The biomechanical challenge of Gift Wrap defense centers on the fact that the attacker uses chest weight on the elbow as a fulcrum, making it nearly impossible to simply muscle the arm free once the wrap is locked. Successful defense therefore depends on timing: either preventing wrist control before the wrap begins, straightening the arm to deny the fold, or creating enough hip movement during the brief grip transition to disrupt the attacker's base. Each defensive window is narrow and requires precise execution under pressure.
 
-From a systematic perspective, Gift Wrap defense integrates into the broader Kuzure Kesa-Gatame escape framework. The defender must balance between preventing the wrap (which requires arm management) and working standard bottom escapes (which require hip movement and framing). Over-focusing on either creates openings for the other. Advanced defenders learn to use their wrap prevention efforts as setup for hip escapes—when the attacker reaches for the far wrist, their weight shifts slightly, creating a momentary window for bridging or shrimping that can restore guard position.
+From a systematic perspective, Gift Wrap defense integrates into the broader Kuzure Kesa Gatame escape framework. The defender must balance between preventing the wrap (which requires arm management) and working standard bottom escapes (which require hip movement and framing). Over-focusing on either creates openings for the other. Advanced defenders learn to use their wrap prevention efforts as setup for hip escapes—when the attacker reaches for the far wrist, their weight shifts slightly, creating a momentary window for bridging or shrimping that can restore guard position.
 
-**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa Gatame]] (Top)
 
 </section>
 
@@ -214,7 +214,7 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 
 <p class="section-subtitle">How do you know when someone is attempting Gift Wrap Control?</p>
 
-- Attacker's near-side hand reaches across your body toward your far wrist or forearm while maintaining Kuzure Kesa-Gatame pressure
+- Attacker's near-side hand reaches across your body toward your far wrist or forearm while maintaining Kuzure Kesa Gatame pressure
 - Attacker shifts chest weight onto your far-side elbow, pinning it to the mat—this is the setup for threading your arm across your throat
 - Attacker's head begins driving past your far shoulder toward the mat, indicating they are committing to the wrap position and consolidating control
 - You feel your far wrist being pulled toward your opposite shoulder while your elbow is pinned—the arm is being threaded across your throat
@@ -247,14 +247,14 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 ### 1. Post far hand on attacker's hip to create a frame that prevents wrist access
 
 - **When to use**: Before attacker secures wrist control—this is the earliest and most effective prevention point
-- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- **If successful**: Attacker cannot initiate the wrap and must return to standard Kuzure Kesa-Gatame attacks, giving you time to work hip escapes
+- **Targets**: [[Positions/Side Control/Kuzure Kesa Gatame]]
+- **If successful**: Attacker cannot initiate the wrap and must return to standard Kuzure Kesa Gatame attacks, giving you time to work hip escapes
 - **Risk**: Extended arm may be vulnerable to americana or kimura if attacker switches attacks
 
 ### 2. Explosively straighten the far arm before it crosses the throat line
 
 - **When to use**: When attacker has wrist control and begins threading your arm across your body—you must act before the arm crosses the throat
-- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa Gatame]]
 - **If successful**: Denies the fold needed to complete the wrap, forces attacker to either abandon wrap or switch to armbar/americana on the extended arm
 - **Risk**: Extended arm is exposed to armbar finish if attacker reads the straightening and transitions immediately
 
@@ -282,9 +282,9 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 
 <p class="section-subtitle">What is the best outcome when defending Gift Wrap Control?</p>
 
-### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa Gatame]]
 
-Prevent the wrap entirely by maintaining a stiff arm frame on the attacker's hip with your far hand. This denies wrist access and forces the attacker to abandon the wrap attempt, returning to standard Kuzure Kesa-Gatame where you retain both arms for defense. Combine the frame with small hip escapes to begin working toward standard bottom escapes.
+Prevent the wrap entirely by maintaining a stiff arm frame on the attacker's hip with your far hand. This denies wrist access and forces the attacker to abandon the wrap attempt, returning to standard Kuzure Kesa Gatame where you retain both arms for defense. Combine the frame with small hip escapes to begin working toward standard bottom escapes.
 
 ### → [[Positions/Half Guard]]
 
@@ -300,7 +300,7 @@ Time an explosive bridge to the precise moment the attacker transitions from wri
 
 <p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap Control?</p>
 
-### 1. Leaving the far arm extended and relaxed at your side while in Kuzure Kesa-Gatame bottom
+### 1. Leaving the far arm extended and relaxed at your side while in Kuzure Kesa Gatame bottom
 
 - **Consequence**: Gives the attacker free access to your far wrist, allowing them to initiate the wrap with zero resistance
 - **Correction**: Keep the far arm bent with elbow tight to your ribs and hand near your chin, or actively frame against the attacker's hip to deny wrist access
@@ -317,7 +317,7 @@ Time an explosive bridge to the precise moment the attacker transitions from wri
 
 ### 4. Focusing entirely on arm defense while neglecting hip escapes and guard recovery
 
-- **Consequence**: Even if you prevent the wrap, you remain stuck in Kuzure Kesa-Gatame bottom where the attacker can simply re-attempt or switch to other attacks
+- **Consequence**: Even if you prevent the wrap, you remain stuck in Kuzure Kesa Gatame bottom where the attacker can simply re-attempt or switch to other attacks
 - **Correction**: Integrate wrap prevention with hip escape attempts—use the attacker's reaching motion as a trigger to shrimp, combining arm defense with positional improvement
 
 ### 5. Turning away from the attacker when the wrap begins to lock
@@ -336,7 +336,7 @@ Time an explosive bridge to the precise moment the attacker transitions from wri
 <p class="section-subtitle">How do you train defense against Gift Wrap Control?</p>
 
 **Week 1-2** - Recognition and prevention
-Partner initiates Gift Wrap at slow speed from Kuzure Kesa-Gatame. Practice identifying the wrist reach and elbow pin early. Focus on preemptive hip framing and keeping the far arm in defensive position. No escape attempts yet—develop awareness of the attack sequence.
+Partner initiates Gift Wrap at slow speed from Kuzure Kesa Gatame. Practice identifying the wrist reach and elbow pin early. Focus on preemptive hip framing and keeping the far arm in defensive position. No escape attempts yet—develop awareness of the attack sequence.
 
 **Week 3-4** - Timing defensive responses
 Partner attempts Gift Wrap at moderate speed. Practice the three defensive windows: hip frame before wrist control, arm straightening before the fold, and explosive bridge during grip transition. Partner provides feedback on timing accuracy.
@@ -345,7 +345,7 @@ Partner attempts Gift Wrap at moderate speed. Practice the three defensive windo
 Partner establishes full Gift Wrap control. Practice escaping the locked position through bridging, hip movement, and guard recovery. Accept that arm recovery is secondary—focus on disrupting base and creating space for half guard recovery at increasing resistance levels.
 
 **Week 7+** - Integration with positional sparring
-Full resistance positional sparring starting from Kuzure Kesa-Gatame bottom. Partner can attempt Gift Wrap or any other attack. Practice blending wrap prevention with standard escapes under competition conditions. Track which defensive window you use most successfully.
+Full resistance positional sparring starting from Kuzure Kesa Gatame bottom. Partner can attempt Gift Wrap or any other attack. Practice blending wrap prevention with standard escapes under competition conditions. Track which defensive window you use most successfully.
 
 
 

@@ -20,9 +20,7 @@
   "from_position": "Kesa Gatame/Top",
   "from_positions": [
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame",
-    "Scarf Hold Position",
-    "Modified Scarf Hold"
+    "Kuzure Kesa Gatame"
   ],
   "success_rate": {
     "gi": 50,
@@ -124,7 +122,7 @@
       "relationship": "Primary source position providing the arm isolation and chest pressure foundation for this submission"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Modified scarf hold variant offering alternative arm isolation entry to the Americana"
     },
     {

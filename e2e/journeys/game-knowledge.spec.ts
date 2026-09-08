@@ -220,7 +220,7 @@ test.describe("Game Knowledge @curated", () => {
     const by = (suffix: string) => keys.filter((k) => k.endsWith(suffix)).length;
     expect(by("|Attacker"), "attacker decks are weighted").toBeGreaterThan(1000);
     expect(by("|Defender"), "SO ARE DEFENDER DECKS").toBe(by("|Attacker"));
-    expect(by("|Top") + by("|Bottom"), "AND POSITION DECKS").toBe(272);
+    expect(by("|Top") + by("|Bottom"), "AND POSITION DECKS").toBe(266); // census:roleHands
     const sum = keys.reduce((total, key) => total + w[key], 0);
     expect(sum, "still one distribution").toBeCloseTo(1, 4);
     // The owner's first constraint, asserted where a user would feel it: the heaviest deck in the

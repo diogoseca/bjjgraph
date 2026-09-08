@@ -52,6 +52,8 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
     await j.rig("outcome", [0.01]);
     if (sub) {
       await j.pick(sub);
+      await j.nextHand();
+      await j.pick(sub); // Finish before expecting a tap or capstone proof
       await j.advanceUntil("roll_end", 20000);
       return true;
     }

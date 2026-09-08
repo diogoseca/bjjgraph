@@ -5,8 +5,8 @@ import { journey } from "../dsl"
  * P1 — THE QUESTION-FIRST LANDING.
  *
  * The flashcard stopped being a place you go and became what the game asks you on arrival:
- * identity (what this is, where you came from, which side you're playing, have you met it) →
- * film → ONE multiple-choice question → your options → "More" for everything else.
+ * the graph supplies identity, then the landing shows film → ONE multiple-choice question →
+ * your options → the detached More/familiarity row. The timed card itself has no footer.
  *
  * Economy (one rule on both surfaces, no double-counting):
  *   right → the ordinary credit path (mastery + sharpness already move the odds) + clock refund
@@ -15,7 +15,7 @@ import { journey } from "../dsl"
  * Keys: A/B/C answer the live MC block; digits stay the option-card openers.
  * The right sidebar is the STUDY surface and now reads back as classic recall by default.
  *
- * Surfaces: [data-landcard] [data-land-count] [data-land-q] [data-land-more] [data-land-close]
+ * Surfaces: [data-landcard] [data-land-q] [data-land-corner] [data-land-count] .ng-landmore [data-land-more] [data-land-close]
  * Beats: land_q_shown, land_q_answered {correct, tier, qMod}
  */
 
@@ -46,9 +46,8 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await j.land("Mount Top")
 
   await expect(page.locator("[data-landcard]"), "landing card docked above the hand").toBeVisible()
-  await expect(page.locator("[data-landcard]"), "the card is up").toBeVisible()
-  // v1.101.1: no header block on a landing — the counter is the card's meta, in the foot
-  await expect(page.locator("[data-land-foot] [data-land-count]"), "counter in the foot").toHaveCount(1)
+  await expect(page.locator("[data-landcard] [data-land-corner] [data-land-count]"), "the deck count is a quiet line in the timed card's corner (v1.175.0)").toHaveCount(1)
+  await expect(page.locator(".ng-landmore [data-land-count]"), "and no longer rides a More row").toHaveCount(0)
   await expect(page.locator("[data-land-q]"), "one question").toBeVisible()
   await j.expectBeat("land_q_shown")
 
@@ -96,7 +95,7 @@ test("a wrong answer costs THIS exchange only — the next arrival forgives it",
   expect(await page.evaluate(() => (window as any).__neural._qMod), "forgiven on arrival").toBe(0)
 })
 
-test("a proven deck asks nothing — the card degrades to identity", async ({ page }) => {
+test("a proven deck asks nothing — the landing keeps only its remaining controls", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -110,8 +109,8 @@ test("a proven deck asks nothing — the card degrades to identity", async ({ pa
   })
 
   await expect(page.locator("[data-land-q]"), "nothing left to ask").toHaveCount(0)
-  await expect(page.locator("[data-landcard]"), "identity still lands").toBeVisible()
-  await expect(page.locator("[data-landcard]")).toBeVisible()
+  await expect(page.locator("[data-landcard]"), "the landing surface remains").toBeVisible()
+  await expect(page.locator("[data-landcard] [data-land-count]"), "the corner count remains without a question").toHaveCount(1)
 })
 
 test("the sidebar reads back as classic recall — multiple choice is the in-roll format", async ({
@@ -153,39 +152,56 @@ test("digits still open option sheets while a landing question is live", async (
   await expect(page.locator("[data-go]"), "digit 1 opened the first option's sheet").toBeVisible()
 })
 
-test("the identity chip fuses the seen-glyph with the deck's recall count and opens study", async ({
-  page,
-}) => {
+/** v1.175.0 (owner): "not even having a pill design, just having the text and the text being
+ *  boring gray … It should not open the last rolls when I click it." The count is text under the
+ *  corner's ★ and ✕, carries done/total, and is inert — the pane's Last rolls tab is the study
+ *  route now (pane-history.spec.ts drives it). Mutants: the chip's `openMenu(true)` handler back
+ *  on the count (the pane opens); the glyph back in the text (the regex fails). */
+test("the corner count is bare done/total text that opens nothing", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
 
-  // one top-right chip, not two adjacent familiarity indicators (v1.76.0 merged-glyph decision)
-  const chip = page.locator("[data-land-foot] [data-land-count]")
-  await expect(chip, "the chip rides the identity row").toBeVisible()
-  const label = await chip.getAttribute("data-land-count")
+  const cnt = page.locator("[data-landcard] [data-land-corner] [data-land-count]")
+  await expect(cnt, "the count sits in the timed card's corner").toBeVisible()
+  const label = await cnt.getAttribute("data-land-count")
   const state = await page.evaluate(() => {
     const a = (window as any).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
     const deck = a.flashcards && a.flashcards.decks ? a.flashcards.decks[key] : null
     const total = deck && deck.cards ? deck.cards.length : 0
-    return { total, done: Math.min((a.prep && a.prep[key]) || 0, total) }
+    const xb = document.querySelector("[data-land-corner] [data-land-close]") as HTMLElement
+    const c = document.querySelector("[data-land-corner] [data-land-count]") as HTMLElement
+    const cr = c.getBoundingClientRect()
+    return {
+      total,
+      done: Math.min((a.prep && a.prep[key]) || 0, total),
+      text: (c.textContent || "").trim(),
+      underButtons: cr.top >= xb.getBoundingClientRect().bottom - 1,
+      rightEdgeInset: Math.round(document.querySelector("[data-landcard]")!.getBoundingClientRect().right - cr.right),
+      pill: getComputedStyle(c).borderStyle !== "none" || getComputedStyle(c).backgroundColor !== "rgba(0, 0, 0, 0)",
+      color: getComputedStyle(c).color,
+      size: getComputedStyle(c).fontSize,
+      hit: document.elementFromPoint(cr.left + cr.width / 2, cr.top + cr.height / 2) === c,
+    }
   })
   expect(state.total, "this landing has an authored deck").toBeGreaterThan(0)
-  expect(label, "chip carries done/total").toBe(`${state.done}/${state.total}`)
+  expect(label, "the count carries done/total").toBe(`${state.done}/${state.total}`)
+  expect(state.text, "…as bare text, no glyph").toBe(label)
+  expect(state.underButtons, "under the ★ and the ✕").toBe(true)
+  expect(state.rightEdgeInset, "hugging the same right edge").toBeLessThanOrEqual(12)
+  expect(state.pill, "no pill: no border, no background").toBe(false)
+  expect(state.color, "boring grey").toBe("rgb(91, 101, 128)")
+  expect(parseFloat(state.size), "and small").toBeLessThan(10)
+  expect(state.hit, "it is not a hit target — the corner beneath takes the point").toBe(false)
 
-  // clicking it is a manual study open — pane-law-legal, lands on the History tab's deck
-  await chip.click()
-  expect(
-    await page.evaluate(() => !!(window as any).__neural.deckShown),
-    "chip click opened the pane",
-  ).toBe(true)
-  expect(
-    await page.evaluate(() => (window as any).__neural._viewMode),
-    "on the History tab (study this state)",
-  ).toBe("history")
-  await j.expectBeat("pane_paused")
+  const box = await cnt.boundingBox()
+  await page.mouse.click(box!.x + box!.width / 2, box!.y + box!.height / 2)
+  await page.waitForTimeout(200)
+  expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "clicking it opens no pane").toBe(false)
+  await expect(page.locator("[data-landcard]"), "and dismisses nothing").toBeVisible()
 })
+
 
 /**
  * SPENT MEANS SPENT (v1.135.0). Owner: "when i click a wrong answer after i run out of time it

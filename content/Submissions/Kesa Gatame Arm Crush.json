@@ -19,8 +19,7 @@
   "from_position": "Kesa Gatame/Top",
   "from_positions": [
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame",
-    "Scarf Hold Position"
+    "Kuzure Kesa Gatame"
   ],
   "success_rate": {
     "gi": 45,
@@ -72,7 +71,7 @@
       "description": "Standard arm crush using traditional scarf hold hip fulcrum"
     },
     {
-      "name": "from Kuzure Kesa-Gatame",
+      "name": "from Kuzure Kesa Gatame",
       "slug": "from-kuzure-kesa-gatame",
       "description": "Arm crush from modified scarf hold with pre-isolated arm control"
     },
@@ -94,7 +93,7 @@
       "when_to_use": "When opponent is actively fighting wrist control and single-hand grip on the forearm is insufficient to maintain arm positioning for the finish"
     },
     {
-      "variation_name": "Arm Crush from Kuzure Kesa-Gatame Transition",
+      "variation_name": "Arm Crush from Kuzure Kesa Gatame Transition",
       "description": "Starting from the modified scarf hold where the arm is already isolated under the attacker's armpit, the attacker threads both arms around the trapped limb and transitions the elbow to their hip. This entry is particularly effective because the arm isolation in kuzure kesa provides a head start on the arm positioning required for the crush.",
       "when_to_use": "When controlling from modified scarf hold and opponent resists americana or kimura attempts by keeping their arm rigid and extended"
     }
@@ -131,12 +130,8 @@
       "relationship": "Primary starting position providing the control framework for the arm crush setup"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Alternative starting position with pre-isolated arm control that facilitates the crush entry"
-    },
-    {
-      "name": "Scarf Hold Position",
-      "relationship": "Positional family sharing control mechanics and arm trapping principles"
     },
     {
       "name": "Americana",

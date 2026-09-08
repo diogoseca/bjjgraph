@@ -316,7 +316,7 @@ The Escape from Shoulder of Justice occupies a critical role within the side con
 
 - [[Positions/North-South]] - Alternative threat position - turning into shoulder pressure opens north-south transition for top player
 
-- [[Transitions/Escape Modified Scarf Hold]] - Similar escape technique - shares framing and hip escape mechanics from related side control variant
+- [[Transitions/Escape Kuzure Kesa Gatame]] - Similar escape technique - shares framing and hip escape mechanics from related side control variant
 
 - [[Transitions/Bridge Escape from Kesa Gatame]] - Related escape concept - similar bridge-based displacement mechanics applicable to side control escapes
 

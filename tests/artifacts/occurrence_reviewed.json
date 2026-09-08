@@ -109,12 +109,6 @@
    "decided_on": "2026-08-31",
    "evidence": "Four bridge/frame escapes, no cloth. Eight availability_rulings each read 'no gi-specific grip required and no legality issue. gi == nogi'."
   },
-  "scarf-hold-position__top": {
-   "verdict": "not-gi-dependent",
-   "decided_by": "llm-adjudication",
-   "decided_on": "2026-08-31",
-   "evidence": "Head control is 'their collar, their own belt, or clasping behind opponent's neck' -- one of three. frame_rationale: 'No move is ruleset-unavailable in either frame'."
-  },
   "half-butterfly__bottom": {
    "verdict": "not-gi-dependent",
    "decided_by": "llm-adjudication",

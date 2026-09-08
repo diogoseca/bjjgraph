@@ -318,7 +318,7 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 
 **Open Guard**: Using frames to create and maintain distance during scrambles, preventing opponent from establishing dominant pins while legs work to re-establish guard structure. Frames buy time for guard recovery sequences.
 
-**Modified Scarf Hold**: Creating frames against opponent's head and far hip to generate the space necessary for escape attempts. The head frame prevents increased pressure while the hip frame creates the foundational space for hip escape.
+**Kuzure Kesa Gatame**: Creating frames against opponent's head and far hip to generate the space necessary for escape attempts. The head frame prevents increased pressure while the hip frame creates the foundational space for hip escape.
 
 **Knee Shield Half Guard**: The knee shield itself functions as the primary frame, with supplementary arm frames managing upper body control. This creates a comprehensive framing structure that prevents both upper and lower body advancement.
 

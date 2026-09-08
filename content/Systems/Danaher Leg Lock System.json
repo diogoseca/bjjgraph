@@ -435,25 +435,25 @@
     {
       "question": "How are outside ashi, 50/50 and inside sankaku related?",
       "answer": "Outside ashi and 50/50 are distinct entanglements. Inside sankaku is also commonly called the saddle or honey hole. Their usefulness depends on control and the opponent’s defenses rather than a fixed ladder.",
-      "answer_line": "Distinct positions; saddle is inside sankaku",
+      "answer_line": "Saddle = inside sankaku; rest differ",
       "distractors": {
         "plausible": [
-          "50/50 is another name for outside ashi",
-          "The saddle is a step below inside sankaku"
+          "50/50 is the same as outside ashi",
+          "Saddle ranks below inside sankaku"
         ],
         "trap": [
-          "Every entanglement has identical controls"
+          "All entanglements use equal controls"
         ]
       }
     },
     {
       "question": "What should be checked before adding a leg-lock finishing setup?",
       "answer": "Check knee-line retention, control of movement and the requirements of the specific submission with your coach. If the partner can withdraw the knee or rotate beyond your control, reset or recover position.",
-      "answer_line": "Retain knee line and control movement",
+      "answer_line": "Keep knee line and movement control",
       "distractors": {
         "plausible": [
           "Clear their knee before gripping",
-          "Hold the heel while they freely rotate"
+          "Hold heel; allow free rotation"
         ],
         "trap": [
           "Finish faster when control is lost"
