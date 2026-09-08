@@ -11015,7 +11015,7 @@ class Component extends DCLogic {
       if (show && !x) x = this._buildHandClose();
       if (x) {
         x.style.visibility = show ? "visible" : "hidden";
-        if (show) { const want = this._dockTrayTop(op); if (want && x.style.bottom !== want) x.style.bottom = want; }
+        if (show) this._dockHandClose(op, x);
       }
     }
     // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
@@ -12738,7 +12738,15 @@ class Component extends DCLogic {
     this.wireClips(film, filmClips);
     return film;
   }
-  _dockTrayTop(row) { const d = this._landDatum(); return d.h ? Math.round(d.tray + d.h + 10) + "px" : null; }
+  _dockHandClose(row, button) {
+    const last = row.lastElementChild, wrap = this.wrapRef.current;
+    if (!last || !wrap) return;
+    const rr = row.getBoundingClientRect(), lr = last.getBoundingClientRect(), wr = wrap.getBoundingClientRect();
+    // Like the videos' ✕: beside the last item, aligned with its top, and clamped
+    // inside the visible row while it scrolls. No separate band above the choices.
+    button.style.left = Math.round(Math.max(rr.left, Math.min(lr.right + 4, rr.right - 28)) - wr.left) + "px";
+    button.style.top = Math.round(Math.max(rr.top, lr.top) - wr.top) + "px";
+  }
   /** The hand's ✕ — ghost, top-right of the tray, inside the wrap (it
    *  stacks under the pane and the option sheet, and `attachInput` names it). Built once. */
   _buildHandClose() {
@@ -12749,9 +12757,9 @@ class Component extends DCLogic {
     b.setAttribute("aria-label", "Hide your moves");
     b.title = "Hide your moves";
     b.textContent = "✕";
-    b.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;right:" + (this.isMobile() ? 12 : 24) + "px;bottom:238px;z-index:4;opacity:.55;visibility:hidden;";
-    b.addEventListener("mouseenter", () => { b.style.opacity = "1"; b.style.color = "#dbe2f0"; b.style.background = "rgba(255,255,255,.08)"; });
-    b.addEventListener("mouseleave", () => { b.style.opacity = ".55"; b.style.color = "#8b97b0"; b.style.background = "none"; });
+    b.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;z-index:4;background:rgba(19,22,37,.72);visibility:hidden;";
+    b.addEventListener("mouseenter", () => { b.style.color = "#dbe2f0"; b.style.background = "rgba(40,46,66,.92)"; });
+    b.addEventListener("mouseleave", () => { b.style.color = "#8b97b0"; b.style.background = "rgba(19,22,37,.72)"; });
     b.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("hand", false, "x"); });
     wrap.appendChild(b);
     this._handCloseEl = b;
