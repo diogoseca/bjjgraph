@@ -61,9 +61,9 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
 **film → one multiple-choice question (three options) → your options → More**. The timed card has
-no header or footer; it prints no name or side. Its one corner (top-right) holds capture, the
-card-layer ✕, and under them the deck's `done/total` as a quiet grey line (v1.175.0, owner: "very
-very discreet … not even having a pill design") — text only, no glyph, nothing to press.
+no header or footer and prints no name or side. Its top-right corner holds capture, the card-layer
+✕ and, under them, the deck's `done/total` as quiet grey text (v1.175.0, owner: "very very
+discreet") — no glyph, no pill, nothing to press.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
@@ -91,27 +91,22 @@ is the one writer (`_applyLayers` follows a cloud pull too).
 
 **More is a subordinate card, not a fourth persisted layer** (v1.174.0, owner: "More shouldn't
 touch the landcard"). When deeper authored content exists, its pill sits in a measured row below
-the dealt hand (the row holds nothing else). Opening morphs that exact root-plane sibling into a
+the dealt hand (nothing else rides that row). Opening morphs that exact root-plane sibling into a
 second landcard-shaped container at z:90, docked 6px under the timed card **at its full content
-height** — no scrollport, no cap, so a long read runs under the fold (v1.175.0, owner: "it
-should be long … Above the fold it should fall long after that"). The fuller body is never a
-descendant of the timed `[data-landcard]`, and that card's element, geometry, children,
-max-height and scroll position do not change. **The hand is pushed below the new card, never
-covered**: `_dockLandMore` measures how far the More card's bottom overhangs the hand's slot
-(`_readMax`) and `_readApply` moves the tray down by it on its `bottom` (the tray's transform
-belongs to the option sheet). Reading is then a scroll of the whole column — film, timed card,
-More card, hand and its ✕ translate together (`_readS`, wheel anywhere but a surface that scrolls
-itself; a vertical touch drag on any member, with a fling; no keyboard binding) — and at the end
-of the travel the hand is back at its datum with the read above it;
-scrolling back returns the exact open frame. Docks measure in the home frame (`_readClear`
-first), and the two readers that run between docks — `_dockLandFilm` and the camera band cache,
-which only ever tightens — add `_readOffset()` back. Less, Esc, the first background step and
-picking a card from the hand close it (the sheet would otherwise open under it); scrolling never
-does. Its latch pauses while reading and returns only the pause it took. Film and hand can be
-minimized without removing More; a put-away hand makes the fold the travel limit. Minimizing the
-owning card layer closes/removes More and returns that pause; restoring the card rebuilds More
-folded. `_landCardChrome` applies the same boundary to the panic drill from the defender
-perspective.
+height** — no scrollport, no cap, so a long read runs under the fold (v1.175.0). The body is
+never a child of the timed `[data-landcard]`, which does not change at all. **The hand is pushed
+below the new card, never covered**: `_dockLandMore` measures the overhang past the hand's slot
+(`_readMax`) and `_readApply` moves the tray down by it on its `bottom` (its transform is the
+sheet's; its ✕ re-docks to the row each frame). Reading is a scroll of the whole column — film,
+timed card, More card and hand translate together (`_readS`; wheel anywhere but a surface that
+scrolls itself, a vertical touch drag with a fling, no keyboard binding); the end of the travel
+puts the hand home under the read, and scrolling back returns the open frame. Docks measure in
+the home frame (`_readClear` first); the two readers that run between docks — `_dockLandFilm`
+and the tighten-only camera band cache — add `_readOffset()` back. Less, Esc, the first
+background step and picking a card close it; scrolling never does. Its latch pauses while reading
+and returns only the pause it took. Film and hand minimize independently of More (a put-away
+hand makes the fold the limit); minimizing the card layer folds and removes More, returning its
+pause, and restoring it rebuilds More folded.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -154,13 +149,11 @@ resolves to the family's most-connected member instead of falling through to a r
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
 `staged_exchange {technique, side}`.
 
-The timed card has one compact top-right corner: capture `+`, the card layer's 22px `✕`, and the
-deck count under them (v1.175.0); the sticky ✕ persists `landCard`, while a background tap
-remains a per-landing gesture. The timed card has no footer, and the count opens nothing — the
-pane's Last rolls tab is the study route. The panic drill is a landing card and uses the same
-seam (`_landCardChrome`): its More reads the submission's DEFENDER block, `+` captures the
-submission, and the timed card's `✕` hides the card layer while the catch and escapes stay live.
-On a URL arrival the Defender deck is late-bound — the drill opens the moment its chunk lands.
+The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
+the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
+landing card on the same seam (`_landCardChrome`): its More reads the submission's DEFENDER
+block, `+` captures the submission, `✕` hides the card layer while the catch and escapes stay
+live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -729,9 +722,8 @@ number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
 grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
-`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks off it
-too; the film ✕ off the last thumbnail). On a phone the full-width card also reserves the hand
-✕'s row, so that real-mouse target is not buried underneath it. `_bandBot` keeps the tightest
+`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks inside
+the row beside its last card; the film ✕ off the last thumbnail). `_bandBot` keeps the tightest
 observed play band.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
