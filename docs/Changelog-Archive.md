@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.174.0** — [MORE BECOMES THE SECOND CARD](#v1-174-0-more-becomes-the-second-card)
 - **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
 - **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
 - **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
@@ -158,8 +159,9 @@ Generated mechanically from the backticked tokens in each entry (a hand-maintain
 Only symbols touched by two or more versions are listed — a token that appears once is findable
 by `grep` and does not need an index row.
 
-- `rollFromPosition` — v1.129.1, v1.127.0, v1.126.0, v1.125.0, v1.114.4, v1.109.0, v1.104.5, v1.103.2, v1.101.0, v1.81.4, v1.70.0
-- `_dockLandCard` — v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_dockLandCard` — v1.174.0, v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_landCardChrome` — v1.174.0, v1.171.0
+- `_landDatum` — v1.174.0, v1.173.0
 - `graph.json` — v1.125.0, v1.116.0, v1.115.0, v1.104.6, v1.104.3, v1.80.4
 - `opponentDefend` — v1.129.0, v1.127.2, v1.125.0, v1.121.0, v1.116.0, v1.109.0
 - `rollCamTarget` — v1.129.6, v1.128.1, v1.127.2, v1.114.3, v1.114.2, v1.109.0
@@ -6511,6 +6513,46 @@ really realistic like max payne … but more modern fluid movement."
 **Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
 them) and the vignette fade (a transition under a removed animation — verified by eye on the real
 dev server, not by a gate).
+
+## v1.174.0 — MORE BECOMES THE SECOND CARD
+
+**Owner:** "More shouldn't touch the landcard. Rather it should be like expanding itself into
+another landcard card container that grows under the fold, filling the content of it, and user
+scrolls down and up too." The boundary is literal. `[data-land-more-body]` is never appended to the
+timed `[data-landcard]`; `_renderLandMore` builds one root-plane sibling whose collapsed state is
+the More/familiarity row and whose open state is a second, independently scrollable card beginning
+below the timed card. Opening preserves the exact timed-card element, rect, children, max-height
+and scroll position. The reading card owns sticky Less, Esc/background-first dismissal,
+bidirectional scrolling that stays open at scroll-top and `_landAutoPaused`; no action on it
+changes the timed card's layer handle.
+
+**No fourth layer.** This landed on top of v1.173.0's minimized-content branch rather than
+replacing it. More is subordinate to `landCard`: turning that layer off first folds More, returns
+only its owned pause and removes both card roots; restoring the current landing rebuilds More
+folded. `landFilm` and `landHand` remain independent — `_clearLandFilm` cannot delete More, and a
+hidden hand gives the timed card back its tray slot while `_dockLandMore` reserves the small row
+above the layer dock. With a visible hand, More measures below that hand; when the minimized dock
+shares the band, only the pill shifts aside. `_landDatum` remains the single tray measurement.
+
+The 390×844 live pass found one minimized-branch interaction outside the new row: the hand ✕ sat
+inside the timed card's full-width box, so `elementFromPoint` returned an answer radiogroup at its
+centre. Desktop had room beside the card and hid the defect. Mobile `_dockLandCard` now reserves
+the hand control's 34px row; the real-mouse phone journey proves the ✕ owns its centre and that
+putting the hand away leaves both the card and More mounted.
+
+**One shared anatomy, still.** `_landCardChrome(el, node, key, side)` keeps the merged branch's
+top-right capture + persisted card-layer ✕ and calls the sibling builder for both normal landings
+and the panic drill. The panic card therefore reads authored defender content in the same second
+card. The familiarity fraction is retained beside More, outside the timed card, and still opens
+Last rolls on the current deck; only the otherwise-empty timed-card footer is gone. The question's
+`totalCards` binding comes directly from `_deckCardCount`, while chrome derives the chip from the
+same key — the merge-sensitive split that prevents a detached UI control from becoming the
+question builder's data transport.
+
+**Pinned by:** `roll-card.spec.ts` ("More grows into its own scrollable card" — body ownership,
+same timed card, independent down/up wheel scroll, Less and Esc); `land-layers.spec.ts`
+(film/hand independence, card-layer teardown/restore, pause ownership, dock clearance); and
+`landcard-modes.spec.ts` (panic uses the same timed-card chrome and detached More surface).
 
 ## v1.173.0 — THREE LAYERS, ONE DOCK
 

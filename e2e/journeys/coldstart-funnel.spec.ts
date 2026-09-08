@@ -56,7 +56,6 @@ const seen = (page: any, label: string) =>
       "[data-land-def]",
       "[data-land-film]",
       "[data-land-q]",
-      "[data-land-count]",
       "[data-land-more]",
       ".ng-optionrow",
       ".ng-sharecue",

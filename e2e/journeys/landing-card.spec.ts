@@ -5,8 +5,8 @@ import { journey } from "../dsl"
  * P1 — THE QUESTION-FIRST LANDING.
  *
  * The flashcard stopped being a place you go and became what the game asks you on arrival:
- * identity (what this is, where you came from, which side you're playing, have you met it) →
- * film → ONE multiple-choice question → your options → "More" for everything else.
+ * the graph supplies identity, then the landing shows film → ONE multiple-choice question →
+ * your options → the detached More/familiarity row. The timed card itself has no footer.
  *
  * Economy (one rule on both surfaces, no double-counting):
  *   right → the ordinary credit path (mastery + sharpness already move the odds) + clock refund
@@ -15,7 +15,7 @@ import { journey } from "../dsl"
  * Keys: A/B/C answer the live MC block; digits stay the option-card openers.
  * The right sidebar is the STUDY surface and now reads back as classic recall by default.
  *
- * Surfaces: [data-landcard] [data-land-count] [data-land-q] [data-land-more] [data-land-close]
+ * Surfaces: [data-landcard] [data-land-q] .ng-landmore [data-land-more] [data-land-count] [data-land-close]
  * Beats: land_q_shown, land_q_answered {correct, tier, qMod}
  */
 
@@ -46,9 +46,8 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await j.land("Mount Top")
 
   await expect(page.locator("[data-landcard]"), "landing card docked above the hand").toBeVisible()
-  await expect(page.locator("[data-landcard]"), "the card is up").toBeVisible()
-  // v1.101.1: no header block on a landing — the counter is the card's meta, in the foot
-  await expect(page.locator("[data-land-foot] [data-land-count]"), "counter in the foot").toHaveCount(1)
+  await expect(page.locator("[data-landcard] [data-land-count]"), "the familiarity control is not in the timed card").toHaveCount(0)
+  await expect(page.locator(".ng-landmore [data-land-count]"), "the familiarity control rides the detached row").toHaveCount(1)
   await expect(page.locator("[data-land-q]"), "one question").toBeVisible()
   await j.expectBeat("land_q_shown")
 
@@ -96,7 +95,7 @@ test("a wrong answer costs THIS exchange only — the next arrival forgives it",
   expect(await page.evaluate(() => (window as any).__neural._qMod), "forgiven on arrival").toBe(0)
 })
 
-test("a proven deck asks nothing — the card degrades to identity", async ({ page }) => {
+test("a proven deck asks nothing — the landing keeps only its remaining controls", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -110,8 +109,8 @@ test("a proven deck asks nothing — the card degrades to identity", async ({ pa
   })
 
   await expect(page.locator("[data-land-q]"), "nothing left to ask").toHaveCount(0)
-  await expect(page.locator("[data-landcard]"), "identity still lands").toBeVisible()
-  await expect(page.locator("[data-landcard]")).toBeVisible()
+  await expect(page.locator("[data-landcard]"), "the landing surface remains").toBeVisible()
+  await expect(page.locator(".ng-landmore [data-land-count]"), "study remains reachable without a question").toHaveCount(1)
 })
 
 test("the sidebar reads back as classic recall — multiple choice is the in-roll format", async ({
@@ -153,16 +152,13 @@ test("digits still open option sheets while a landing question is live", async (
   await expect(page.locator("[data-go]"), "digit 1 opened the first option's sheet").toBeVisible()
 })
 
-test("the identity chip fuses the seen-glyph with the deck's recall count and opens study", async ({
-  page,
-}) => {
+test("the familiarity chip keeps its recall count and manual study route", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
 
-  // one top-right chip, not two adjacent familiarity indicators (v1.76.0 merged-glyph decision)
-  const chip = page.locator("[data-land-foot] [data-land-count]")
-  await expect(chip, "the chip rides the identity row").toBeVisible()
+  const chip = page.locator(".ng-landmore [data-land-count]")
+  await expect(chip, "the chip shares More's detached control row").toBeVisible()
   const label = await chip.getAttribute("data-land-count")
   const state = await page.evaluate(() => {
     const a = (window as any).__neural
@@ -174,18 +170,12 @@ test("the identity chip fuses the seen-glyph with the deck's recall count and op
   expect(state.total, "this landing has an authored deck").toBeGreaterThan(0)
   expect(label, "chip carries done/total").toBe(`${state.done}/${state.total}`)
 
-  // clicking it is a manual study open — pane-law-legal, lands on the History tab's deck
-  await chip.click()
-  expect(
-    await page.evaluate(() => !!(window as any).__neural.deckShown),
-    "chip click opened the pane",
-  ).toBe(true)
-  expect(
-    await page.evaluate(() => (window as any).__neural._viewMode),
-    "on the History tab (study this state)",
-  ).toBe("history")
+  await j.clickByMouse("[data-land-count]", "the detached familiarity chip")
+  expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "chip click opened the pane").toBe(true)
+  expect(await page.evaluate(() => (window as any).__neural._viewMode), "on Last rolls").toBe("history")
   await j.expectBeat("pane_paused")
 })
+
 
 /**
  * SPENT MEANS SPENT (v1.135.0). Owner: "when i click a wrong answer after i run out of time it

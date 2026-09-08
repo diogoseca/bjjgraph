@@ -10,15 +10,18 @@ import { journey } from "../dsl";
  * it's not that quick explanation, if it's not the Q&A, if it's not multiple choice, if it's not
  * the choices out of this — then it doesn't matter. If it doesn't matter, it should be hidden and
  * only shown if the user clicks to show more."
+ * v1.174.0 makes the boundary structural: More and the retained familiarity control share a
+ * root-plane sibling; expanding it must never append to or mutate the timed landing card.
  *
  * So this spec is a NEGATIVE test as much as a positive one: the deep content the dossier holds
- * (decision trees, principles, common mistakes, metrics) must NOT be on screen until More is used.
+ * (decision trees, principles, common mistakes, metrics) must NOT be in the landing card before
+ * or after More is used.
  *
- * Surfaces: [data-landcard] [data-land-count] [data-land-film] [data-land-q] [data-land-more-body]
- *           [data-land-more] · setting: landQuestions
+ * Surfaces: [data-landcard] [data-land-film] [data-land-q] [data-land-more-body]
+ *           .ng-landmore [data-land-more] [data-land-count] · setting: landQuestions
  */
 
-test("the landing card shows identity, then film, then the question — in that order @curated", async ({
+test("the landing shows film, then the question — in that order @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -28,10 +31,9 @@ test("the landing card shows identity, then film, then the question — in that 
   const card = page.locator("[data-landcard]");
   await expect(card).toBeVisible();
 
-  // DOM order IS the read order — and since v1.101.1 it opens on the CONTENT, not on a header:
-  // the name and the side are on the graph, the definition is behind `More`, and the counter
-  // sits in the foot. What is left above the question is film, which is comprehension support
-  // for it. (The ✕ is a child too, but it is absolutely positioned and reads as chrome.)
+  // DOM order IS the landing card's read order. The graph owns name and side; the definition
+  // stays behind More, while More and familiarity share a root-plane sibling below the dealt
+  // choices. Neither adds a footer or content child to the timed card.
   const order = await card.evaluate((el) =>
     Array.from(el.children)
       .filter((c) => !c.hasAttribute("data-land-corner") && !c.hasAttribute("data-land-clock-track"))
@@ -40,15 +42,10 @@ test("the landing card shows identity, then film, then the question — in that 
           ? "film"
           : c.hasAttribute("data-land-q")
             ? "q"
-            : c.hasAttribute("data-land-more-body")
-              ? "more"
-              : c.hasAttribute("data-land-foot")
-                ? "foot"
-                : "other",
+            : "other",
       ),
   );
   expect(order.indexOf("other"), "nothing unaccounted for above the question").toBe(-1);
-  expect(order[order.length - 1], "More last").toBe("foot");
   const qi = order.indexOf("q");
   expect(qi, "the question is present, and it is at the top or just under the film").toBeGreaterThanOrEqual(0);
   // v1.101.1: film is no longer a CHILD of the card — it is its own strip docked immediately
@@ -68,11 +65,13 @@ test("the landing card shows identity, then film, then the question — in that 
       "and it sits immediately above it",
     ).toBeLessThanOrEqual(filmGeom.cardTop + 1);
   }
-  const mi = order.indexOf("more");
-  if (mi >= 0) expect(mi, "the unfoldable rest comes after it").toBeGreaterThan(qi);
+  expect(
+    await card.locator("[data-land-more-body]").count(),
+    "the fuller body is never a landing-card child",
+  ).toBe(0);
 });
 
-test("identity names the state, where you came from, your role, and whether you have met it", async ({
+test("the graph owns identity; familiarity stays outside the timed card", async ({
   page,
 }) => {
   const j = journey(page);
@@ -104,17 +103,16 @@ test("identity names the state, where you came from, your role, and whether you 
       other: a.playerRole === "bottom" ? "top" : "bottom",
     };
   });
-  // v1.101.0 MOVED the name and the side onto the GRAPH — the roll settles close enough that the
-  // node draws both, and repeating them here was the owner's complaint. What the card keeps is the
-  // part the graph cannot say: where you came from, and how well you know this state.
+  // v1.101.0 moved the name and side onto the graph. v1.174.0 moves the retained familiarity
+  // control with More into the detached row, leaving the timed card to its question and chrome.
   expect(txt, "the state's name is the graph's job now").not.toContain(expected.main);
   expect(
     txt,
     `nor either side (title is ${expected.title})`,
   ).not.toMatch(new RegExp(`\\b(${expected.role}|${expected.other})\\b`, "i"));
-  // the seen marker is one of the three glyphs, and on a fresh boot it is "new"
-  expect(txt, "a have-you-met-it marker").toMatch(/[○◐●]/);
-  expect(txt, "fresh player has met nothing").toContain("○");
+  await expect(page.locator("[data-landcard] [data-land-count]")).toHaveCount(0);
+  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(1);
+  expect(txt, "no familiarity glyph leaks into the timed card").not.toMatch(/[○◐●]/);
 });
 
 test("everything that is NOT priority stays behind More", async ({ page }) => {
@@ -136,7 +134,7 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
   });
 
   const card = page.locator("[data-landcard]");
-  const body = ((await card.textContent()) || "").toLowerCase();
+  const landingBody = ((await card.textContent()) || "").toLowerCase();
   // the dossier's deep sections must not leak onto the landing
   for (const deep of [
     "decision tree",
@@ -145,7 +143,7 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
     "if it stalls",
     "numbers",
   ]) {
-    expect(body, `"${deep}" is not on the landing card`).not.toContain(deep);
+    expect(landingBody, `"${deep}" is not on the landing card`).not.toContain(deep);
   }
 
   await expect(
@@ -157,27 +155,34 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
     "and the dossier is shut until it is used",
   ).toBe(false);
 
-  await page.locator("[data-land-more]").click();
-  // v1.101.0: More UNFOLDS THIS CARD. It does not open a dossier — there is no second container
-  // to open — so the thing to assert is that the rest arrived, in place.
-  expect(
-    await page.evaluate(() => {
-      const b = (window as any).__neural._landEl.querySelector("[data-land-more-body]");
-      return !!b && b.style.display === "block" && (b.textContent || "").trim().length > 0;
-    }),
-    "More unfolds the rest into the card you are already reading",
-  ).toBe(true);
+  await j.clickByMouse("[data-land-more]", "the independent More control");
+  const opened = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const card = a._landEl as HTMLElement;
+    const row = a._landMoreEl as HTMLElement;
+    const detail = row && row.querySelector("[data-land-more-body]") as HTMLElement | null;
+    return {
+      visible: !!detail && detail.style.display === "block" && (detail.textContent || "").trim().length > 0,
+      separate: !!detail && row.contains(detail) && !card.contains(detail),
+      expanded: row && row.classList.contains("open"),
+      landingText: (card.textContent || "").toLowerCase(),
+    };
+  });
+  expect(opened.visible, "More fills its own card with the fuller rows").toBe(true);
+  expect(opened.separate, "the reading card is a sibling, never a landing-card child").toBe(true);
+  expect(opened.expanded, "the More surface itself becomes that card").toBe(true);
+  expect(opened.landingText, "opening More leaves the landing card's content untouched").toBe(landingBody);
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx != null),
-    "and still opens no separate reading surface",
+    "and still does not enter the node dossier",
   ).toBe(false);
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
-    "which stops the game while you read, like every other reading surface",
+    "the independent reading card stops the game while it is open",
   ).toBe(true);
 });
 
-test("turning questions off leaves the identity card but asks nothing", async ({
+test("turning questions off leaves the landing surface but asks nothing", async ({
   page,
 }) => {
   const j = journey(page);
@@ -197,7 +202,7 @@ test("turning questions off leaves the identity card but asks nothing", async ({
   ).toHaveCount(0);
   await expect(
     page.locator("[data-landcard]"),
-    "but identity is priority either way",
+    "but the remaining landing controls stay available",
   ).toBeVisible();
 
   await page.evaluate(() => {
@@ -233,8 +238,8 @@ test("a state you have proven greets you without a question", async ({
   ).toHaveCount(0);
   await expect(
     page.locator("[data-landcard]"),
-    "but it still introduces itself",
+    "the remaining landing controls stay available",
   ).toBeVisible();
-  const txt = (await page.locator("[data-landcard]").textContent()) || "";
-  expect(txt, "and says you have proven it").toContain("●");
+  await expect(page.locator("[data-landcard] [data-land-count]")).toHaveCount(0);
+  await expect(page.locator(".ng-landmore [data-land-count]"), "study remains available").toHaveCount(1);
 });

@@ -51,6 +51,8 @@ const read = (page: any) =>
     return {
       card: !!a._landEl,
       cardEls: document.querySelectorAll("[data-landcard]").length,
+      more: !!a._landMoreEl,
+      moreOpen: !!a._landOpen,
       film: !!a._landFilmEl,
       tray: (a.optionIdxs || []).length,
       trayVis: getComputedStyle(a.optionsRef.current).visibility,
@@ -212,12 +214,14 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   await seedFilm(page)
   await j.advance(400)
   expect((await read(page)).film, "film authored and up").toBe(true)
+  expect((await read(page)).more, "the card's More sibling is authored too").toBe(true)
 
   await j.clickByMouse("[data-film-close]", "the film's ✕")
   await j.advance(300)
   const f1 = await read(page)
   expect(f1.film, "the strip is gone").toBe(false)
   expect(f1.card, "the card is untouched").toBe(true)
+  expect(f1.more, "film is independent: More stays with the card").toBe(true)
   expect(f1.keys.film).toBe(false)
   expect(f1.dock).toEqual(["film"])
   // a re-render WITH film authored builds no strip while the layer is off
@@ -226,6 +230,7 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   const f2 = await read(page)
   expect(f2.film, "a re-render with film authored builds no strip").toBe(false)
   expect(f2.card).toBe(true)
+  expect(f2.more, "a card rebuild preserves its independent More sibling").toBe(true)
 
   // ── the hand ──
   await j.clickByMouse("[data-hand-close]", "the hand's ✕")
@@ -236,6 +241,7 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect(h1.tray, "…but the hand is still DEALT").toBeGreaterThan(0)
   expect(h1.pick, "and still yours to play").toBe(true)
   expect(h1.dock).toEqual(["film", "hand"])
+  expect(h1.more, "hand is independent: More stays with the card").toBe(true)
   await page.keyboard.press("1")
   await j.advance(200)
   expect((await read(page)).detail, "a digit opens no sheet on a put-away hand").toBe(false)
@@ -257,10 +263,73 @@ test("the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect(h3.dock).toEqual(["film"])
 })
 
-test("geometry: a put-away hand hands the card the tray's slot, and the toggle drops the camera band cache", async ({ page }) => {
+test("the More reading card is independent of film and hand, but follows the minimized card layer", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await seedFilm(page)
+  await j.advance(400)
+  const before = await page.evaluate(() => {
+    const a = (window as any).__neural
+    ;(window as any).__layerCardBefore = a._landEl
+    ;(window as any).__layerMoreBefore = a._landMoreEl
+    return { card: !!a._landEl, more: !!a._landMoreEl }
+  })
+  expect(before, "premise: both surfaces are mounted").toEqual({ card: true, more: true })
+
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.setLayer("film", false, "test")
+    a.setLayer("hand", false, "test")
+  })
+  await j.advance(300)
+  const independent = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return {
+      sameCard: a._landEl === (window as any).__layerCardBefore,
+      sameMore: a._landMoreEl === (window as any).__layerMoreBefore,
+      moreVisible: !!a._landMoreEl && getComputedStyle(a._landMoreEl).visibility !== "hidden",
+      dock: Array.from(document.querySelectorAll("[data-layer-show]")).map((b: any) => b.getAttribute("data-layer-show")),
+    }
+  })
+  expect(independent.sameCard, "film/hand toggles keep the exact timed card").toBe(true)
+  expect(independent.sameMore, "and keep the exact More sibling").toBe(true)
+  expect(independent.moreVisible, "More remains available with those layers minimized").toBe(true)
+  expect(independent.dock).toEqual(["film", "hand"])
+
+  await j.clickByMouse("[data-land-more]", "More with film and hand minimized")
+  const opened = await read(page)
+  expect(opened.moreOpen, "the reading card opens").toBe(true)
+  expect(opened.more, "from its own root").toBe(true)
+  expect(await page.evaluate(() => !!(window as any).__neural.paused), "and owns the pause").toBe(true)
+
+  // The card preference may change under this tab through the persisted settings merge. It must
+  // close the subordinate reading card first, return only its pause, then remove both card roots.
+  await page.evaluate(() => (window as any).__neural.setLayer("card", false, "test"))
+  await j.advance(300)
+  const hidden = await read(page)
+  expect(hidden.card, "the timed card is gone").toBe(false)
+  expect(hidden.more, "no orphan More survives its owning layer").toBe(false)
+  expect(hidden.moreOpen, "the reading state closed with it").toBe(false)
+  expect(await page.evaluate(() => !!(window as any).__neural.paused), "its owned pause was returned").toBe(false)
+  expect(hidden.dock).toEqual(["film", "card", "hand"])
+
+  await j.clickByMouse('[data-layer-show="card"]', "restore the card from the minimized-content dock")
+  await j.advance(300)
+  const restored = await read(page)
+  expect(restored.card, "the current landing's timed card is rebuilt").toBe(true)
+  expect(restored.more, "its More sibling is rebuilt with it").toBe(true)
+  expect(restored.moreOpen, "restoration is folded, never a surprise screen").toBe(false)
+  expect(restored.trayVis, "the independently minimized hand stays hidden").toBe("hidden")
+  expect(restored.film, "the independently minimized film stays hidden").toBe(false)
+  expect(restored.dock).toEqual(["film", "hand"])
+})
+
+test("geometry: a put-away hand gives the card its slot while preserving More above the layer dock", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await seedFilm(page)
   await j.advance(1200)
   const before = await page.evaluate(() => {
     const a = (window as any).__neural
@@ -276,21 +345,37 @@ test("geometry: a put-away hand hands the card the tray's slot, and the toggle d
   await j.advance(600)
   const after = await page.evaluate(() => {
     const a = (window as any).__neural
-    const r = a._landEl.getBoundingClientRect()
-    return { gap: window.innerHeight - r.bottom }
+    const c = a._landEl.getBoundingClientRect()
+    const m = a._landMoreEl.getBoundingClientRect()
+    const d = document.querySelector("[data-layer-dock]")!.getBoundingClientRect()
+    return {
+      cardGap: window.innerHeight - c.bottom,
+      moreGap: m.top - c.bottom,
+      clearDock: m.bottom <= d.top - 8,
+    }
   })
-  expect(Math.abs(after.gap - 84), "the card sits on the tray's own bottom (84px)").toBeLessThanOrEqual(2)
+  expect(after.cardGap, "the card reclaims space without taking More's row").toBeLessThan(before.gap)
+  expect(after.cardGap, "the card leaves room for More above the 84px bottom dock").toBeGreaterThanOrEqual(130)
+  expect(after.moreGap, "More docks immediately below the timed card").toBeGreaterThanOrEqual(5)
+  expect(after.moreGap, "even if the card's entry transform is still settling").toBeLessThanOrEqual(16)
+  expect(after.clearDock, "More does not collide with the minimized-content dock").toBe(true)
 
-  // and back: the hand returns and the card climbs off it again
+  // and back: the hand returns, the card climbs off it and More returns below the choices
   await page.evaluate(() => (window as any).__neural.setLayer("hand", true, "test"))
   await j.advance(600)
   const back = await page.evaluate(() => {
     const a = (window as any).__neural
     const c = a._landEl.getBoundingClientRect(), t = a.optionsRef.current.getBoundingClientRect()
-    return { clear: c.bottom <= t.top + 1, vis: getComputedStyle(a.optionsRef.current).visibility }
+    const m = a._landMoreEl.getBoundingClientRect()
+    return {
+      clear: c.bottom <= t.top + 1,
+      moreAfterHand: m.top >= t.bottom + 5 && m.top <= t.bottom + 7,
+      vis: getComputedStyle(a.optionsRef.current).visibility,
+    }
   })
   expect(back.vis).toBe("visible")
   expect(back.clear, "the card clears the returned tray").toBe(true)
+  expect(back.moreAfterHand, "More docks below the returned hand").toBe(true)
 })
 
 test("the background ladder stays per-landing: a tap closes THIS card, the next landing has one", async ({ page }) => {
@@ -371,6 +456,32 @@ test("caught with the hand put away: the escape tray stays away too, and a colla
 
 test.describe("phone", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
+  test("the hand X owns its centre beside a full-width card, and minimizing it keeps More", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await seedFilm(page)
+    await j.advance(600)
+    const g = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const x = a._handCloseEl as HTMLElement
+      const xr = x.getBoundingClientRect()
+      const hit = document.elementFromPoint(xr.left + xr.width / 2, xr.top + xr.height / 2)
+      return {
+        own: hit === x || x.contains(hit),
+        more: !!a._landMoreEl,
+      }
+    })
+    expect(g.own, "the timed card does not intercept the hand X").toBe(true)
+    expect(g.more, "premise: More is present").toBe(true)
+    await j.clickByMouse("[data-hand-close]", "the phone hand X")
+    await j.advance(300)
+    const s = await read(page)
+    expect(s.keys.hand, "the real mouse click minimizes the hand").toBe(false)
+    expect(s.trayVis).toBe("hidden")
+    expect(s.card, "the card remains").toBe(true)
+    expect(s.more, "and its More sibling remains").toBe(true)
+  })
   test("every dock glyph is a 44px thumb target that owns its centre, clear of the legend and the chip, and a tap works", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")

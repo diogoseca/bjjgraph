@@ -140,9 +140,6 @@ test("probe: the landing card before, and after, the deck payload lands", async 
         hasQ: !!document.querySelector("[data-land-q]"),
         hasDef: !!document.querySelector("[data-land-def]"),
         hasFilm: !!document.querySelector("[data-land-film]"),
-        chip: (
-          document.querySelector("[data-land-count]") as HTMLElement
-        )?.getAttribute("data-land-count"),
         drilltab: (document.querySelector(".ng-sharecue") as HTMLElement)
           ?.innerText,
         funnel: (a.csBeats || [])

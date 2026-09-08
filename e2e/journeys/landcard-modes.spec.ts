@@ -500,17 +500,33 @@ test("arriving on the defending side brings the red rush — no play button in b
   // (vignette, Caught, one escape, no question). enterDefense now late-binds the Defender deck.
   // The wait below is REAL time (the chunk is a fetch); sim-time advances do not move it.
   // Kills: dropping the late-bind (no [data-panic] ever on a cold arrival) and dropping
-  // `_landCardChrome` from buildPanicCard (no ✕ / + / foot on the drill).
+  // `_landCardChrome` from buildPanicCard (no ✕ / + / independent More sibling on the drill).
   await page.waitForFunction(() => !!document.querySelector("[data-panic]"), null, { timeout: 20000 })
+  // The DSL serves `{}` for dossier chunks. Author one defender read so this test can distinguish
+  // the shared More seam from the legitimate "nothing more, no control" degradation.
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    const sub = a.nodes[a._defendSub]
+    const w = window as any
+    w.NG_CONTENT = w.NG_CONTENT || {}
+    w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
+    w.NG_CONTENT.decks[sub.t] = {
+      def: "Keep the threatened joint aligned while making space to recover a safe defensive frame.",
+      counters: ["Clear the controlling grip before turning into the escape."],
+    }
+    a.buildPanicCard(a.optionsRef.current, sub)
+  })
   await j.advance(600)
   const d = await page.evaluate(() => {
     const a = (window as W).__neural
     const card = document.querySelector("[data-panic]") as HTMLElement
+    const more = a._landMoreEl as HTMLElement | null
     return {
       panicKey: a._panicKey,
       mc: card.querySelectorAll("[data-panic-mc-opt], [data-panic-reveal]").length,
       close: !!card.querySelector("[data-land-close]"),
       add: !!card.querySelector("[data-list-add]"),
+      more: !!more && !card.contains(more) && !!more.querySelector("[data-land-more]"),
       foot: !!card.querySelector("[data-land-foot]"),
       beats: (a.beats || []).map((b: any) => b.beat),
     }
@@ -518,7 +534,7 @@ test("arriving on the defending side brings the red rush — no play button in b
   expect(d.panicKey, "the drill credits the Defender deck once it lands").toMatch(/\|Defender$/)
   expect(d.beats).toContain("panic_drill_opened")
   expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
-  expect(d.close && d.add && d.foot, "the drill wears the landing card's chrome: ✕, +, foot").toBe(true)
+  expect(d.close && d.add && d.more && !d.foot, "the drill shares ✕ / + / More, but no retired footer").toBe(true)
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
   // capture) — the catch stays live and the escapes stay dealt
   await j.clickByMouse("[data-land-close]")

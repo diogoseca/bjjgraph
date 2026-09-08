@@ -256,7 +256,7 @@ test("clicking a listed technique opens its dossier — the same move as a share
     await page.evaluate(() => {
       const a = (window as any).__neural;
       const el = a._landEl;
-      const body = el ? el.querySelector("[data-land-more-body]") : null;
+      const body = a._landMoreEl ? a._landMoreEl.querySelector("[data-land-more-body]") : null;
       return {
         card: !!el,
         idx: a._landIdx,

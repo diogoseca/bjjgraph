@@ -60,9 +60,9 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 ### Landing
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
-**one-line definition → film → one multiple-choice question (three options) → your options →
-`More ▸`**. The card
-prints no name and no side: the graph names the state, beside the node.
+**film → one multiple-choice question (three options) → your options → More**. The timed card has
+no header or footer; it prints no name or side, and the retained familiarity fraction rides
+More's detached control row rather than changing the timed card.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
@@ -76,17 +76,29 @@ answer with no pump and the player still chooses. While caught, the field fogs t
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 
 **Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
-film row, the card and the hand each collapse from their own ghost ✕ and come back from a dock at
-bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed layer and
-nothing when all are open. The choice is a setting — `landFilm` · `landCard` · `landHand`,
-mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A collapsed
-card is **not built**: no question, no clock, no miss, `land_q_skipped {reason:"collapsed"}`
-(the panic drill skips the same way, `panic_skipped`); expanding it mid-landing asks then. A
-collapsed hand is **dealt and hidden** — the roll waits, digits are dead — escapes included
-(v1.173.0, owner: "if I didn't ask to see outcomes don't show them to me"; the catch is announced
-as "<name> locked in", nothing more). All three collapsed is a graph browser: click a node, the
-ripple lights what it connects to, nothing docks. `setLayer` is the one writer (`_applyLayers`
-follows a cloud pull too).
+film row, the timed card and the hand each collapse from their own ghost ✕ and come back from a
+dock at bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed
+layer and nothing when all are open. The choice is a setting — `landFilm` · `landCard` ·
+`landHand`, mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A
+collapsed card is **not built**: no question, no clock, no miss,
+`land_q_skipped {reason:"collapsed"}` (the panic drill skips the same way, `panic_skipped`);
+expanding it mid-landing asks then. A collapsed hand is **dealt and hidden** — the roll waits,
+digits are dead — escapes included (v1.173.0, owner: "if I didn't ask to see outcomes don't show
+them to me"; the catch is announced as "<name> locked in", nothing more). All three collapsed is
+a graph browser: click a node, the ripple lights what it connects to, nothing docks. `setLayer`
+is the one writer (`_applyLayers` follows a cloud pull too).
+
+**More is a subordinate card, not a fourth persisted layer** (v1.174.0, owner: "More shouldn't
+touch the landcard"). When deeper authored content exists, its pill sits in a measured row below
+the dealt hand. Opening morphs that exact root-plane sibling into a second landcard-shaped
+container at z:90, starting below the timed card in the free viewport band; the fuller body is
+never a descendant of the timed `[data-landcard]`, and that card's element, geometry, children,
+max-height and scroll position do not change. The new card has its own vertical scrollport and
+sticky Less control; scrolling down and back to the top stays inside it until Less, Esc or the
+first background step closes it. Its latch pauses while reading and returns only the pause it took.
+Film and hand can be minimized without removing More. Minimizing the owning card layer
+closes/removes More and returns that pause; restoring the card rebuilds More folded.
+`_landCardChrome` applies the same boundary to the panic drill from the defender perspective.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -129,12 +141,14 @@ resolves to the family's most-connected member instead of falling through to a r
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
 `staged_exchange {technique, side}`.
 
-Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
-familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
-that landing only. The panic drill is a landing card and wears the same chrome
-(`_landCardChrome`, v1.171.0): its `More ▸` reads the submission's DEFENDER block, `+` captures
-the submission, `✕` hides the drill while the catch and the escapes stay live. On a URL arrival
-the Defender deck is late-bound — the drill opens the moment its chunk lands.
+The timed card has one compact top-right corner: capture `+` and the card layer's 22px `✕`; the
+sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture. The timed
+card has no footer: its familiarity chip moves into More's separate control row, preserving the
+manual study route, and that pill grows into the reading card with Less sticky while its body
+scrolls. The panic drill is a landing card and uses the same seam
+(`_landCardChrome`): its More reads the submission's DEFENDER block, `+` captures the submission,
+and the timed card's `✕` hides the card layer while the catch and escapes stay live. On a URL
+arrival the Defender deck is late-bound — the drill opens the moment its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -702,8 +716,11 @@ the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a
 number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
-grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_landDatum` (the hand ✕ docks off it
-too; the film ✕ off the last thumbnail), `_bandBot`.
+grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
+`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks off it
+too; the film ✕ off the last thumbnail). On a phone the full-width card also reserves the hand
+✕'s row, so that real-mouse target is not buried underneath it. `_bandBot` keeps the tightest
+observed play band.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
 is for surfaces a thumb uses mid-roll — the option hand, the escape hand, the landing card. Glyphs

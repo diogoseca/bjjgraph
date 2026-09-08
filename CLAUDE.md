@@ -356,8 +356,8 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | what you are doing | seams |
 |---|---|
 | overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
-| docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_landDatum` · `_bandBot` |
-| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden |
+| docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
+| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; More is a separate scroll surface subordinate to the card layer |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
 | starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
@@ -411,18 +411,18 @@ symbol to every version that touched it.
 ### 6.1 Before you add, move or hide a fixed overlay (or touch `attachInput`)
 
 - **`attachInput` · `setPointerCapture` — a control inside a fixed overlay is dead to the MOUSE.** `attachInput`'s `pointerdown` captures on the wrap, which retargets the later `pointerup`, so the browser resolves the click from the down/up common ancestor and your listener never runs. It measures correctly, `elementFromPoint` returns it, keyboard works, and `locator.click()` passes because it dispatches on the element.
-  **Do:** name the overlay in `attachInput`'s pointerdown early-return list (`app.src.jsx` — 7 surfaces, numbered in code: node card, dossier sheet, landing card, film strip, option-detail sheet, layer dock, hand ✕), set `pointer-events:auto` INLINE on the control, and prove it with `j.clickByMouse(sel)` (`e2e/dsl.ts`).
-  **Partially pinned:** `clickByMouse` only fires for overlays somebody wrote a mouse journey for, and the list is hand-maintained with no gate deriving it — that is how `.ng-seemore` stayed dead to the mouse for its entire existence.
-  <br>_(6 surfaces (v1.69.1 → v1.123.0), all found by hand)_
+  **Do:** name the overlay in `attachInput`'s pointerdown early-return list (`app.src.jsx` — 8 surfaces: node card, dossier sheet, landing card, film strip, More reading card, option-detail sheet, layer dock, hand ✕); keep card siblings in `_landSurfaces()`, set `pointer-events:auto` INLINE on the control, and prove it with `j.clickByMouse(sel)` (`e2e/dsl.ts`).
+  **Partially pinned:** `clickByMouse` only fires for overlays somebody wrote a mouse journey for, and the full list is still hand-maintained — that is how `.ng-seemore` stayed dead to the mouse for its entire existence.
+  <br>_(8 surfaces today; 6 defect instances found by hand)_
 
-- **`opacity:0` IS NOT HIDDEN — an invisible overlay still eats clicks.** Hit-testing ignores opacity, and `pointer-events` is inherited, so any descendant that re-enables it inline stays live across its whole box — `[data-land-foot]` does exactly that on purpose (`app.src.jsx`), because it holds `More ▸` and the capture `+`. Symptom: something UNDERNEATH is dead to the mouse and `elementFromPoint` returns the thing you thought was gone (measured: `<div data-land-foot="1">` at the centre of a capture button, 120s of Playwright retries).
+- **`opacity:0` IS NOT HIDDEN — an invisible overlay still eats clicks.** Hit-testing ignores opacity, and `pointer-events` is inherited, so any descendant that re-enables it inline stays live across its whole box — `[data-land-more]` does that inside the floating row (`app.src.jsx`). Symptom: something UNDERNEATH is dead to the mouse; before the landing footer was retired, `elementFromPoint` measured its invisible `<div data-land-foot="1">` at the centre of a capture button after 120s of Playwright retries.
   **Do:** also write `visibility:hidden !important` — inherited, unescapable here, removes the subtree from hit-testing. `_suppressLand` (`app.src.jsx`) is the reference. Assert inertness with `elementFromPoint`, never a visual check.
   **UNGUARDED: no gate enumerates the hide-sites.** (The long-leaky `expandOption` site was
   DELETED outright in v1.136.0 — the sheet stacks OVER the landing card at z:6 vs z:5 instead of
   hiding it, owner's call.)
   <br>_(5 by v1.100.2; the last leaky site deleted in v1.136.0)_
 
-- **`_dockLandCard` · `_dockLandFilm` · `_landDatum` · `_bandBot` — fixed chrome docks off a MEASURED rect, never a CSS constant.** The option tray is `bottom:84px` with no height and grows upward as card names wrap; anything tuned against it collides at some viewport. Measured overlaps: landing card 63px, escape tray 7px, option hint 2px at EVERY width, pane/card 108px at 1024, phone challenge cue 6,700 px².
+- **`_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` — fixed chrome docks off a MEASURED rect, never a CSS constant.** The option tray is `bottom:84px` with no height and grows upward as names wrap; anything tuned against it collides at some viewport. Measured overlaps: landing card 63px, escape tray 7px, option hint 2px at EVERY width, pane/card 108px at 1024, phone challenge cue 6,700 px².
   **Two sub-rules:** keep the TIGHTEST measurement ever taken at this viewport (the band flickers because card and film mount on different frames, and a per-landing reset hands the loose answer straight back); and an element that has not laid out yet reads `rect.top == 0` — that is SKIP, not a constraint.
   (The fourth instance — the phone challenge cue over the focus label — was resolved by DELETING the cue in v1.133.0, owner's call; `_cue_collision_probe.mjs` stays as the archive's evidence.)
   <br>_(12 (self-counted as "the third"); 0 still open)_

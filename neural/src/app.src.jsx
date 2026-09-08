@@ -645,6 +645,7 @@ class Component extends DCLogic {
         if (this.closeModalIfOpen()) return;
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
+        if (this._landOpen) { e.preventDefault(); this.expandLandCard(false); return; }
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
@@ -2492,8 +2493,8 @@ class Component extends DCLogic {
     // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
     // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
     // merged pane (any tab, any study surface) — _dossierAutoPaused stays separate for the node
-    // dossier. Latched here, not in setDeckOpen, because several study entry points (openMenu,
-    // openHomeToLatest, checkpoint) assign deckOpen directly.
+    // dossier. Latched here, not in setDeckOpen, because study, session and checkpoint entry
+    // points also assign deckOpen directly.
     // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
     // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
     // state (migration notice, shelf scroll). The flag makes the refresh skip it; the caller's
@@ -2502,9 +2503,8 @@ class Component extends DCLogic {
     if (open && !wasShown) {
       this._csStep("pane_opened"); // marked HERE, not in setDeckOpen: study entry points assign deckOpen directly
       // EVERY open path wires the pane's static controls exactly once (v1.93.0). The tab bar,
-      // search and gi-toggle used to be wired only by openPane(); a session whose FIRST open came
-      // through openHomeToLatest / openMenu / openStudy (account chip, drill pill, landing chip,
-      // challenge fallback) got a pane whose Explore/Challenges tabs were dead buttons. This is
+      // search and gi-toggle used to be wired only by openPane(), so direct study/session entry
+      // points could produce a pane whose Explore/Challenges tabs were dead buttons. This is
       // the same choke point that latches the pane law, so no open path can miss it; the _wired
       // flags inside make repeat calls no-ops.
       this._wirePaneControls();
@@ -2701,15 +2701,17 @@ class Component extends DCLogic {
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
-  openMenu() {
+  openMenu(latest) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     this._drillView = "home";
     if (this._checkpoint) this._cancelCheckpoint(); // walking home mid-quiz abandons it (same as ✕/Esc)
     this.deck = null; this._studyOpen = null; this._session = null; // home = tabs mode, not study takeover
     if (this._viewMode !== "history") this.setViewMode("history");
+    if (latest) this._openRow = this._focusRow = "c" + (this._rollFocus = this.rollLog.length - 1);
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
     this.renderDrillHome();
+    if (latest) this._scrollFocusedDeck();
     this.lastInteract = this.now;
   }
   closeMenu() { this.setDeckOpen(false); }
@@ -3100,25 +3102,6 @@ class Component extends DCLogic {
   // hand exists on a cold boot, so "warm it at idle" simply put all 324KB back on the
   // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
   // re-renders when it lands — one click's worth of latency, once.
-  openHomeToLatest() {
-    // "Study this state" lands in the flashcards home (History tab), focused on the CURRENT state's
-    // deck (even if its cards aren't authored yet — the row shows the scaffold). Never falls back
-    // to a previous state.
-    this._drillView = "home"; this.deck = null; this._studyOpen = null; this._session = null;
-    if (this._checkpoint) this._cancelCheckpoint();
-    if (this._viewMode !== "history") this.setViewMode("history");
-    const rl = this.rollLog || [];
-    let idx = rl.length - 1;
-    this._rollFocus = idx;
-    this._openRow = null;
-    this._focusRow = null;
-    if (idx >= 0) { this._openRow = "c" + idx; this._focusRow = "c" + idx; }
-    this.deckReady = true; this.deckOpen = true;
-    this.applyDeckVisibility();
-    this.renderDrillHome();
-    this._scrollFocusedDeck();
-    this.lastInteract = this.now;
-  }
   focusRollItem(idx) {
     // arrow up/down moves the focus through THIS ROLL, opening the focused state's deck (collapsing the rest)
     const rl = this.rollLog || [];
@@ -9138,10 +9121,10 @@ class Component extends DCLogic {
     // the node dialog we just practiced now should show instead". So the sheet never opens, on
     // any form factor, and `openDossier` has exactly two jobs:
     //
-    //   · the node you are on   -> make sure its card is there, and unfold it
-    //   · any other node        -> STAGE the roll there (fly, land, deal, clock held) and unfold
-    //     the card that lands. This is already what tapping a node on the graph does, and
-    //     `rollFromPosition` hops a technique to its adjacent position, so it is safe for both
+    //   · the node you are on   -> make sure its timed card and folded More sibling are there
+    //   · any other node        -> STAGE the roll there (fly, land, deal, clock held) with the
+    //     same timed card + detached More sibling. This is already what tapping a node on the
+    //     graph does; `rollFromPosition` hops a technique to its adjacent position, so it is safe for both
     //     node kinds. NB it archives a roll that has actually been PLAYED (`_played`); a staged
     //     roll nobody played is never recorded.
     //
@@ -9160,7 +9143,7 @@ class Component extends DCLogic {
     } else if (!this._landEl) {
       this.renderLandCard(n, "land", null);
     }
-    this._dossierIdx = null;                   // nothing "opened"; the game card simply grew
+    this._dossierIdx = null;                   // no dossier opened; the standard landing surfaces mounted
     if (this.deckShown) this.setDeckOpen(false);
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
     this.lastInteract = this.now; this.flare(idx);
@@ -9201,10 +9184,10 @@ class Component extends DCLogic {
   }
   /**
    * RETIRED (v1.101.0): the in-node "fuller container". Zooming into a node used to mount the
-   * whole dossier inside the node's own shape; the owner's call is that the game's normal card
-   * is the container and `More ▸` unfolds it there, so this surface no longer exists. The method
-   * stays as the ONE place that guarantees it stays down — `draw()` calls it every frame, and a
-   * hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
+   * whole dossier inside the node's own shape; the standard timed card and its detached More
+   * sibling now carry that material without either growing inside the graph. The method stays as
+   * the ONE place that guarantees the retired surface stays down — `draw()` calls it every frame,
+   * and a hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
    * glyph crossfaded out with nothing drawn in their place.
    */
   updateNodeCard() {
@@ -9254,6 +9237,9 @@ class Component extends DCLogic {
     this.closeNodeDossier();
     this.closeDossierSheet();
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
+    // More is its own card and therefore its own background step. Closing the timed card first
+    // would remove the sibling while leaving `_landOpen` and its owned pause latched.
+    if (this._landOpen) { this.expandLandCard(false); return; }
     if (this._landEl) {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
       this._declineLandQ("bg");
@@ -9311,6 +9297,11 @@ class Component extends DCLogic {
    *  over an invisible surface and a stray keystroke scored a question the player was not being
    *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
    *  `_landBackfill` already uses, so there is no second source of truth. */
+  /** One landing surface has three root-plane pieces. Keep every overlay consumer on this list:
+   * the floating More row owns controls just as the card and film strip do. */
+  _landSurfaces() {
+    return [this._landEl, this._landFilmEl, this._landMoreEl].filter(Boolean);
+  }
   _landHidden() {
     // ASK THE HOLDERS, NOT THE PIXELS. The first cut read the inline opacity `_suppressLand`
     // writes — and lost a race: the option sheet restores the card through a .25s transition, so
@@ -9320,7 +9311,7 @@ class Component extends DCLogic {
     return !this._landEl || !!this._landPaneHid || !!this._traySup || !!this._detailCtx;
   }
   _suppressLand(hide) {
-    const el = this._landEl; if (!el) return;
+    const surfaces = this._landSurfaces(); if (!surfaces.length) return;
     // `!important` is REQUIRED, not defensive. `.ng-landcard` carries `animation:ngCardInX .28s`,
     // and a running CSS animation outranks a plain inline declaration — so a plain
     // `style.opacity = "0"` is simply ignored while it plays. That window is not theoretical here:
@@ -9329,20 +9320,17 @@ class Component extends DCLogic {
     // inline opacity "0", computed 0.99, card fully painted over the node. `!important` outranks
     // an animation; `style.opacity` still reads "0", which is what _landBackfill detects.
     // ...AND `visibility`, WHICH IS THE ONLY ONE OF THE THREE THAT ACTUALLY DISARMS THE CARD.
-    // `pointer-events` on the root is INHERITED, so a child that re-enables it inline wins for
-    // itself — and `[data-land-foot]` does exactly that, deliberately (a fixed overlay's
-    // disabled pointer-events is inherited, and the footer holds `More ▸` and the capture +).
-    // Hit-testing ignores `opacity`. So a "hidden" landing card left a fully INVISIBLE sticky
-    // footer strip live across the bottom of its box, and whatever sat under it was dead to the
-    // mouse: measured with elementFromPoint returning `<div data-land-foot="1">` at the centre
-    // of the in-node dossier's capture button (Playwright: "subtree intercepts pointer events",
-    // 120s of retries). `visibility` is inherited too, but nothing here sets `visible` to
-    // escape it, and it removes the subtree from hit-testing outright. `!important` for the
-    // same reason as the opacity above: a running entry animation outranks a plain declaration.
-    for (const t of [el, this._landFilmEl]) {
-      if (!t) continue;
+    // `pointer-events` on a root is INHERITED, so the floating More button can re-enable itself
+    // inline. Hit-testing ignores `opacity`: before the landing footer was retired, a "hidden"
+    // card left that fully INVISIBLE sticky strip live across the bottom of its box, and whatever
+    // sat under it was dead to the mouse. `elementFromPoint` measured `<div data-land-foot="1">`
+    // at the centre of the in-node dossier's capture button (Playwright: "subtree intercepts
+    // pointer events", 120s of retries). `visibility` is inherited too, but nothing here sets
+    // `visible` to escape it, and it removes the subtree from hit-testing outright. `!important`
+    // is required for the same reason as opacity above: a running entry animation outranks it.
+    for (const t of surfaces) {
       if (hide) { t.style.setProperty("opacity", "0", "important"); t.style.pointerEvents = "none"; t.style.setProperty("visibility", "hidden", "important"); }
-      else { t.style.removeProperty("opacity"); t.style.pointerEvents = ""; t.style.removeProperty("visibility"); }
+      else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
   }
   /**
@@ -9367,8 +9355,9 @@ class Component extends DCLogic {
    * answer-after-Esc contract this surface exists to keep. With the root left alone, the existing
    * early-return keeps absorbing the tap and no geometry code is needed in §6.1's most dangerous,
    * hand-maintained list. `inert` on the children is what actually disarms them: it is the only
-   * primitive a descendant cannot re-enable inline, which matters because `[data-land-foot]` does
-   * exactly that with `pointer-events` on purpose, and it takes focus and the a11y tree with it.
+   * primitive a descendant cannot re-enable inline, which matters because the familiarity
+   * control and the floating More button both set `pointer-events:auto` on purpose; it takes
+   * focus and the a11y tree with them.
    *
    * The dim itself is a STYLESHEET rule keyed on `data-behind-sheet` (helmet.html), not an inline
    * style: stylesheet `!important` outranks the running `ngCardInX` entry animation, so a card
@@ -9396,8 +9385,7 @@ class Component extends DCLogic {
    */
   _syncDetailDim() {
     const on = !!this._detailCtx;
-    for (const t of [this._landEl, this._landFilmEl]) {
-      if (!t) continue;
+    for (const t of this._landSurfaces()) {
       if (on) t.setAttribute("data-behind-sheet", "1"); else t.removeAttribute("data-behind-sheet");
       for (const c of t.children) c.inert = on;
     }
@@ -10172,10 +10160,10 @@ class Component extends DCLogic {
   // null = this text cannot be an MC option (the card falls back to classic recall).
   get MC_LINE() { return 36; } // one-line option cap; keep in sync with regenerate_neural_data MC_LINE_BUDGET
   // HOW MANY WRONG OPTIONS AN MC ASKS (v1.148.0). 2 distractors + the correct one = THREE
-  // options, down from four: the landing card is clamped (helmet.html .ng-landcard,
-  // max-height:34vh on a phone) and a fourth ~44px row pushed the question, the clock and
-  // `More ▸` past it, so the card scrolled under a 9s decisionSec clock. Three also sits
-  // below the decision-fatigue threshold, which is the owner's reason for the number.
+  // options, down from four: on a phone a fourth ~44px answer row pushed the live question under
+  // the card's scrollport while its 9s decision clock kept running. `More` now floats outside the
+  // card, but three still preserves the visible question and sits below the decision-fatigue
+  // threshold, which is the owner's reason for the number.
   //
   // ONE SEAM, TWO CALLERS, AND THEY MUST NEVER DISAGREE. _mcBlock draws for real and
   // _warmMcPool runs the SAME pooler as a rolled-back dry pass to decide which deck chunks
@@ -11560,10 +11548,9 @@ class Component extends DCLogic {
   /**
    * THE FAMILIARITY CHIP — the seen-glyph fused with the deck's answered count ("● 3/8").
    *
-   * ONE implementation for every surface that wears it: the landing card's identity header and
-   * the in-node card's header plate. `attr` is the SURFACE'S OWN HANDLE — a shared selector would
-   * silently match both when they are on screen together (the landing card is up behind the node
-   * card whenever a reader opens one mid-roll), exactly the trap the MC option split exists for.
+   * ONE implementation serves the in-node plate and the detached More/familiarity row. `attr`
+   * remains each surface's own refresh handle, so a selector cannot silently update the wrong
+   * copy when both exist.
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
@@ -11586,7 +11573,7 @@ class Component extends DCLogic {
     const done = Math.min((this.prep && this.prep[key]) || 0, total);
     const full = total > 0 && done >= total;
     const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
-    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;' + (total && o.clickable ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
+    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
       '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
       (total ? '<span>' + done + "/" + total + '</span>' : '') +
     '</span>';
@@ -11644,12 +11631,19 @@ class Component extends DCLogic {
     waits[key] = p;
     return p;
   }
+  /** The More reading card is subordinate to the question-card LAYER, never the film layer.
+   * Removing its DOM preserves `_landOpen` across a same-landing backfill; the caller that
+   * actually turns the card layer off closes the state and returns its pause first. */
+  _clearLandMore() {
+    if (this._landMoreEl) { try { this._landMoreEl.remove(); } catch (e) {} this._landMoreEl = null; }
+  }
   /** The CARD only — `_landIdx` / `_landMode` and the film strip survive. This is what the card
    *  LAYER uses (`_applyLayers`): a card put away by preference still belongs to a landing, so
    *  `_dockLandFilm` knows what it serves and a late chunk (`_landBackfill`) can still dock the
    *  film under it. INVARIANT since v1.171.0: `_landIdx` MAY be set while `_landEl` is null.
    *  Every reader that matters already asks `_landEl` (or `_landHidden()`, which reads a null
-   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. */
+   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. More follows
+   *  this layer: no question card means no orphan More pill or reading card. */
   _clearLandCardOnly() {
     this._landQ = null; this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
     this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
@@ -11660,12 +11654,21 @@ class Component extends DCLogic {
     // card) is a window wide enough to matter.
     if (this._mc && this._mc.surface === "land") this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
+    this._clearLandMore();
   }
-  // the film strip is a SIBLING (v1.101.1), so it does not go away with the card on its own
+  // the film strip is an INDEPENDENT layer sibling (v1.171.0)
   _clearLandFilm() {
     if (this._landFilmEl) { this.clearClipLoops(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
-  clearLandCard() {
+  /** Full card-slot teardown. A normal teardown closes the independent reading card and returns
+   * only its owned pause; `renderLandCard` passes `true` to this method on the one same-landing
+   * rebuild path that keeps that state while replacing both DOM roots around a re-parented question. */
+  clearLandCard(preserveMoreState) {
+    if (!preserveMoreState) {
+      if (this._landOpen && this._landEl && this._landMoreEl) this.expandLandCard(false);
+      else if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
+      this._landOpen = false;
+    }
     this._clearLandCardOnly();
     this._landIdx = null; this._landMode = null;
     this._clearLandFilm();
@@ -11728,17 +11731,19 @@ class Component extends DCLogic {
     // ride the surviving DOM nodes) kept working. The exact bug class j.clickByMouse exists for,
     // inverted.
     const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && this._mc.surface === "land") ? this._mc : null } : null;
-    // keyboard users: if focus was on one of the card's own handles, put it back on the new one
+    // keyboard users: if focus was on the independent More control, put it back after rebuild
     const act = document.activeElement;
-    let held = null;
-    if (act && this._landEl.contains(act))
-      for (const h of ["data-land-more", "data-land-count"])
-        if (act.hasAttribute(h)) { held = "[" + h + "]"; break; }
+    const held = act && this._landSurfaces().some((surface) => surface.contains(act))
+      && act.hasAttribute("data-land-more") ? "[data-land-more]" : null;
     // (v1.136.0: the sheet no longer hides the card inline, so a rebuilt card inherits nothing —
     // the opacity-inheritance dance that lived here died with the hide-site)
     this._landLate = true;                       // the beat says "this question arrived late"
     try { this.renderLandCard(pos, stTech ? "attempt" : "land", null, reuse); } finally { this._landLate = false; }
-    if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
+    if (held && this._landEl) {
+      let t = null;
+      for (const surface of this._landSurfaces()) { t = surface.querySelector(held); if (t) break; }
+      if (t && t.focus) try { t.focus(); } catch (e) {}
+    }
   }
   // ═══ LANDING-CARD PAGING (v1.130.0; the reveal/hide rung shipped here and was retired the
   // next day — owner: "I don't like that hide answers part" — along with the visible ‹dots›
@@ -11846,7 +11851,7 @@ class Component extends DCLogic {
     const mount = (qw) => {
       const old = el.querySelector("[data-land-q]");
       if (old) old.replaceWith(qw);
-      else el.insertBefore(qw, el.querySelector("[data-land-more-body]") || el.querySelector("[data-land-foot]"));
+      else el.appendChild(qw);
       this._landPage = next;
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
       this.fx("land_q_paged", { dir: dir > 0 ? 1 : -1, from: from, to: next, deckKey: key });
@@ -11910,11 +11915,15 @@ class Component extends DCLogic {
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
     // A NEW landing starts folded; a re-render of the SAME one (a late payload backfilling film
-    // or the question) keeps whatever the reader opened. Dropping the pause latch with it means
-    // a stale `_landAutoPaused` can never resume a roll somebody else paused.
-    if (this._landIdx !== node.idx) { this._landOpen = false; this._landAutoPaused = false; }
+    // or the question) keeps whatever the reader opened and the pause it owns.
+    const sameLanding = this._landIdx === node.idx;
+    if (sameLanding) this.clearLandCard(true);
+    else {
+      // A navigation/teardown is not a backfill. Close the old reading card before resetting its
+      // state, or its auto-pause loses its owner and the new landing starts frozen.
+      this.clearLandCard();
+    }
     if (this._landOpenNext) { this._landOpen = true; this._landOpenNext = false; } // opened to be read
-    this.clearLandCard();
     // ── PER-LANDING PAGING + RUNG STATE (v1.130.0) ── a backfill re-render (`reuse`) is the
     // SAME landing completing itself around the mounted question: the cursor, the answered set
     // and the page cache must survive it (the re-parented block lives in that cache). Everything
@@ -11931,6 +11940,8 @@ class Component extends DCLogic {
     // return null when the coach owned the first landing — which was every cold visitor, i.e. it
     // silently deleted the question from the one decision the comprehension mechanic exists for.
     const key = key0;
+    const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    const totalCards = this._deckCardCount(deckD);
     // the setting gates the QUESTION, not the card: identity and film are priority either way
     const wantQ = this.get("landQuestions", true);
     let card = wantQ ? this.questionFor(key) : null;
@@ -11992,20 +12003,13 @@ class Component extends DCLogic {
     el.appendChild(clkTrack);
     if (this._decision && this._decision.remaining != null) { this._landClockEl = clkTrack.firstChild; this._barF = null; }
 
-    // 1 — THE LANDING CARD HAS NO HEADER AT ALL (v1.101.1).
-    // v1.101.0 cut the name and the side out of it, because the roll now settles at ROLL_ZOOM
-    // and the graph draws both inside the node — leaving a thin "from <previous>" line with the
-    // familiarity chip parked opposite it. The owner's read on that leftover: the chip "should
-    // show bottom right same row as More instead of top right in its own row", and the block it
-    // was in "shouldn't show". Both are right: one line and one chip do not earn a row above the
-    // question, and the chip is a footer control (it opens this state's flashcards) sitting in a
-    // header's slot. So a LANDING opens on its question, and the counter rides the foot beside
-    // `More ▸` and the capture `+`, which are the card's other two controls.
+    // 1 — THE LANDING CARD HAS NO HEADER OR FOOTER (v1.174.0).
+    // The graph names the state and side beside the node. The familiarity control keeps its
+    // manual "study this state" route but moves with More into the separate row below the dealt
+    // choices, so neither control adds content or scroll state to this timed card.
     //
     // An ATTEMPT card keeps its headline: it names the technique the question is ABOUT, and the
     // graph only labels that one while the sweep is animating.
-    const famChip = this.familiarityChip(key, "data-land-count", { clickable: true, style: "margin-left:auto;" });
-    const totalCards = famChip.total;   // manifest `n` until the chunk lands
     // ONE ANATOMY (v1.132.0, owner: "using the positions in roles top/bottom as good guides to
     // what the submissions should show"). The attempt card's header and its "Roll from here"
     // button are gone: the graph names the focused node beside it (the same rule that removed
@@ -12071,10 +12075,10 @@ class Component extends DCLogic {
       else this._landQSkip(key, reason, mode);
     }
 
-    // 5 + 6 — the fuller container behind `More ▸`, the foot, and the two corner controls are
-    // ONE seam shared with the panic drill (`_landCardChrome`), so the defence card can never
-    // drift from the landing card's anatomy again.
-    this._landCardChrome(el, node, famChip, this._landPerspSide(node));
+    // 5 + 6 — the independent More card and the in-card corner are ONE shared seam for ordinary
+    // landings and the panic drill. The helper preserves the minimized card layer: More follows
+    // that layer, while film and hand remain independently collapsible.
+    this._landCardChrome(el, node, key, this._landPerspSide(node));
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
     // clearLandCard. Horizontal-dominant ONLY — vertical stays the card's native overflow-y
     // scroll, which is also why the drill panel's vertical swipe actions are deliberately not
@@ -12112,6 +12116,12 @@ class Component extends DCLogic {
           this._landPageTo(wAcc > 0 ? 1 : -1);
           wAcc = 0;
         }
+      }, { passive: true });
+      // Keep the landing card's own close corner reachable when a long QUESTION scrolls. More
+      // has a separate scrollport and separate close control; none of its state is read here.
+      el.addEventListener("scroll", () => {
+        const pinnedCorner = el.querySelector("[data-land-corner]");
+        if (pinnedCorner) pinnedCorner.style.transform = "translateY(" + el.scrollTop + "px)";
       }, { passive: true });
     }
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
@@ -12165,10 +12175,10 @@ class Component extends DCLogic {
     } else {
       this._landWarmP = null;   // nothing outstanding: this card is what the state has to ask
     }
-    // an unfolded card stays unfolded across a backfill — the payload landing is not a request
-    // to close what the reader opened. `_landOpen` is dropped when the LANDING changes, below.
-    if (this._landOpen) this.expandLandCard(true);
+    // Dock the independent pieces only after the landing card has taken its final measured
+    // clearance above the dealt choices.
     this._dockLandCard(el);
+    if (this._landOpen) this.expandLandCard(true);
     // a fresh card born while the reading sheet owns the screen must not pop over it
     if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
     // ...and one born under an OPEN OPTION SHEET is born stood down. Unconditional on purpose: it
@@ -12178,99 +12188,44 @@ class Component extends DCLogic {
     this._syncDetailDim();
     return el;
   }
-  /**
-   * THE CARD'S CHROME — everything a landing card carries BELOW and AROUND its question, in one
-   * place, because the panic drill is a landing card too (buildPanicCard) and used to ship
-   * without any of it. Owner, on /Submissions/Americana/from-Modified-Scarf-Hold/Defender: "the
-   * landcard should look like the other ones in other techniques like positions with the
-   * favorite and close buttons, the more link". Same DOM, same attributes, same handlers —
-   * `expandLandCard`, `_dockLandCard`, `attachInput`'s early-return list and every spec that
-   * queries `[data-land-more]` / `[data-list-add]` / `[data-land-close]` see one anatomy.
-   *
-   * `side` picks the perspective the fuller container reads from: the defending seat of a
-   * technique reads the DEFENDER block when it is authored (see _landMoreHTML).
-   */
-  _landCardChrome(el, node, famChip, side) {
-    const totalCards = famChip.total;
-    // 5 — THE FULLER CONTAINER, UNFOLDED IN PLACE (v1.101.0). Everything the retired in-node
-    // card used to carry now lives one affordance lower, inside the card you are already
-    // reading — "the normal game container should be the default" (owner). Built lazily on the
-    // first open, so a roll nobody expands never pays for it.
-    // Computed at render time, not on first open: the FOOT has to know whether a `More` is
-    // warranted before it draws one. It is a few cache reads and a string, no DOM.
+  /** Build the More surface as a root-plane sibling of the timed card. Collapsed, it is the
+   * measured More/familiarity row below the dealt hand. Expanded, this same element becomes a scrollable,
+   * landcard-shaped reading surface. `_landCardChrome` is shared by ordinary and panic cards,
+   * so `side` must travel with it for defender-authored content. */
+  _renderLandMore(node, side, key) {
+    this._clearLandMore();
     const moreHTML = this._landMoreHTML(node, side);
-    let moreBody = null;
-    if (moreHTML) {
-      moreBody = document.createElement("div");
-      moreBody.id = "ng-land-more";
-      moreBody.setAttribute("data-land-more-body", "1");
-      moreBody.style.cssText = "display:none;";
-      moreBody._ngMoreHTML = moreHTML;
-      el.appendChild(moreBody);
+    const moreRow = document.createElement("div");
+    moreRow.className = "ng-landmore";
+    moreRow.innerHTML = '<div>' + (moreHTML ? '<button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button>' : '') +
+      this.familiarityChip(key, "data-land-count", { style: "position:absolute;right:0;top:5px;pointer-events:auto;" }).html + '</div>' +
+      (moreHTML ? '<div id="ng-land-more" data-land-more-body style="display:none"></div>' : '');
+    const moreHead = moreRow.firstChild, more = moreHTML ? moreHead.firstChild : null, chip = moreHead.lastChild;
+    moreHead.style.cssText = "position:relative;height:38px;display:flex;justify-content:center;";
+    if (more) {
+      moreRow.lastChild._ngMoreHTML = moreHTML;
+      // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
+      more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+      more.onclick = (e) => { e.stopPropagation(); this.expandLandCard(); };
     }
-
-    // 6 — everything else is behind one affordance
-    // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
-    // a film row and a 4-option question the content is routinely TALLER than that. A static
-    // footer then sits below the scroll box: present in the DOM, reported "visible" by a
-    // locator, and unreachable by a real mouse until the user scrolls INSIDE the card — which
-    // nobody does mid-roll. Sticking it to the bottom of the scrollport keeps `More ▸` and the
-    // add-to-class + on screen at every scroll offset. pointer-events is re-enabled here as
-    // well as on the button: a fixed overlay's disabled pointer-events is inherited, and this
-    // repo has paid for that twice (v1.69.1).
-    const foot = document.createElement("div");
-    foot.setAttribute("data-land-foot", "1");
-    // the gradient fades INTO the card's own background: the danger skin (helmet.html) is
-    // (38,16,18); every other card is (19,22,37). A navy strip on a red card read as a bar.
-    const bg = el.getAttribute("data-landcard") === "defense" ? "38,16,18" : "19,22,37";
-    foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(" + bg + ",0),rgba(" + bg + ",.94) 45%,rgba(" + bg + ",.97));";
-    if (moreBody) {
-      const more = document.createElement("button");
-      more.setAttribute("data-land-more", "1");
-      more.setAttribute("aria-expanded", "false");
-      more.setAttribute("aria-controls", "ng-land-more");
-      more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
-      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
-      more.addEventListener("click", () => this.expandLandCard());
-      foot.appendChild(more);
-    }
-    // ── AN ATTEMPT CARD MUST LET YOU GO THERE (v1.129.3) ──────────────────────────────────
-    // Owner: "why cant i click and navigate to Omoplata from De La Riva Guard?" — and the two
-    // reports are one story. Before v1.129.1 a technique tap NAVIGATED, by accident: it fell
-    // through to `stageRollAt`, which hops a technique to its origin position. The owner asked
-    // for that to stop ("it seems to always go to an adjacent or nearby position"), it did, and
-    // what was left is a card that names a technique with no way to act on it. The old "Roll from
-    // here" button exists only in `renderDossier`, which v1.101.5 disclosed as unreachable.
-    //
-    // So the tap READS and this button GOES — deliberately, on a control you can see, instead of
-    // as a side effect of tapping. `confirmPlayFrom` is the seam: it handles every node type
-    // (a technique seeds at its origin position, which is the same hop as before) and it CONFIRMS
-    // first, because starting a roll here discards the one you are in.
-    //
-    // WORTH KNOWING, because it is the likeliest cause of the owner's report: `Omoplata from De
-    // La Riva Guard` IS authored (3% from `de-la-riva-guard/bottom`) and IS dealt in that hand —
-    // but it is absent from `/top`, where you are passing, not attacking. Arriving on the bare
-    // hub seats you TOP, so the node is visible on the graph and legitimately not in your hand.
-    // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
-    // control (it opens this state's flashcards), not a header ornament, and the owner asked for
-    // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
-    // to the right edge, so the + no longer needs its own.
-    const chip = document.createElement("span");
-    chip.innerHTML = famChip.html;
-    const chipEl = chip.firstChild;
-    if (chipEl) {
-      if (totalCards) chipEl.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
-      foot.appendChild(chipEl);
-    }
-    el.appendChild(foot);
-    // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
-    // Owner: "the + should only show top right next of the x close icon when the card is open".
-    // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
-    // the card as a whole — so they sit together in the corner, absolutely positioned so they
-    // cost the card NO vertical space. That is the whole point of this pass: the question shows
-    // the moment the card does. Dismiss clears this landing's card only; the next landing renders
-    // a fresh one, and `_landBackfill` returns early on a null `_landEl`, so a late payload can
-    // never resurrect a card the player put away.
+    if (chip.dataset.landCount) chip.onclick = (e) => { e.stopPropagation(); this.openMenu(true); };
+    (this.__ngRoot || document.body).appendChild(moreRow);
+    this._landMoreEl = moreRow;
+  }
+  /**
+   * SHARED CARD CHROME. The question card owns only its top-right capture + layer-close corner.
+   * `_renderLandMore` creates the fuller reading surface beside it. Keeping both calls in this
+   * helper makes the ordinary landing and panic drill share one anatomy without putting the
+   * More body or its scrolling back inside either timed card.
+   *
+   * `side` picks the perspective the sibling reads from: a technique's defending seat uses its
+   * authored DEFENDER block (see `_landMoreHTML`).
+   */
+  _landCardChrome(el, node, key, side) {
+    this._renderLandMore(node, side, key);
+    // ── THE CARD LAYER'S TWO CORNER CONTROLS, TOP-RIGHT ──
+    // Capture and layer-close are chrome about THIS timed card, so they cost it no vertical
+    // space. The sibling More card owns its own collapse controls and never changes this corner.
     const corner = document.createElement("div");
     corner.setAttribute("data-land-corner", "1");
     // 5px from the top AND 5px from the right — the owner asked for the pair to sit "a bit
@@ -12314,69 +12269,46 @@ class Component extends DCLogic {
     el.appendChild(corner);
   }
   /**
-   * MORE ▸ UNFOLDS THE GAME'S OWN CARD (v1.101.0).
+   * MORE ▸ GROWS INTO ITS OWN READING CARD (v1.174.0).
    *
-   * It used to call `openDossier`, which flew the camera into the node and mounted a second,
-   * differently-shaped container over the graph. The owner's call: "the other fuller container
-   * should no longer show, and instead the normal game container should be the default. upon
-   * clicking more all of the other sections that were present in the fuller container would show
-   * there now." So the card grows instead — same card, same place, same question still on the
-   * table above it.
+   * The control begins in the measured row below the dealt choices. Opening morphs that SAME
+   * root-plane sibling into a landcard-shaped container with its own vertical scrollport; the
+   * timed card remains the exact surface it was before the click.
    *
-   * Reading is not free time: unfolding auto-pauses the roll and folding gives the clock back,
-   * on its OWN latch (`_landAutoPaused`), so it can never resume a roll the player paused by
-   * hand — the same rule the pane and the dossier already follow.
+   * Reading pauses the roll on its OWN latch (`_landAutoPaused`), so closing can never resume a
+   * roll the player paused by hand. Less, Esc and a background tap close only the reading card;
+   * scrolling down and back up remains inside it until the player explicitly closes it.
    */
   expandLandCard(open) {
-    const el = this._landEl; if (!el) return false;
-    const body = el.querySelector("[data-land-more-body]");
-    const btn = el.querySelector("[data-land-more]");
-    if (!body || !btn) return false;
+    const el = this._landEl, row = this._landMoreEl;
+    if (!el || !row) return false;
+    const body = row.lastChild, btn = row.firstChild.firstChild;
     const want = open == null ? !this._landOpen : !!open;
     this._landOpen = want;
-    const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
+    row.classList.toggle("open", want);
+    if (want && !body.firstChild && body._ngMoreHTML) body.innerHTML = body._ngMoreHTML;
+    row.scrollTop = 0;
+    body.style.display = want ? "block" : "none";
+    row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
-      if (!body.firstChild && body._ngMoreHTML) {
-        const box = document.createElement("div");
-        box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";
-        box.innerHTML = body._ngMoreHTML;
-        body.appendChild(box);
-      }
-      body.style.display = "block";
-      // BOUND IT BY THE SPACE THAT ACTUALLY EXISTS, not by a constant. The card is anchored by its
-      // BOTTOM (bottom:236px desktop, 206px phone, and _dockLandCard overrides that again), so a
-      // fixed "min(620px,74vh)" grows it upward past the top of the viewport on any short screen —
-      // measured at 1440x720 the expanded card's top was -28 with scrollHeight == clientHeight, so
-      // there was no internal scroll to recover it either. The owner: "I can't scroll up".
-      // Its own measured bottom is the honest ceiling: everything above it, less a 12px inset.
-      // (`!important` for the same reason as the mobile rule it has to outrank.)
-      const r = el.getBoundingClientRect();
-      const avail = Math.max(220, Math.round(r.bottom) - 12);
-      el.style.setProperty("max-height", Math.min(620, avail) + "px", "important");
       if (!this.paused) { this.setPaused(true); this._landAutoPaused = true; }
+      const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
       this.fx("land_more_opened", { node: node ? node.t : null });
-    } else {
-      body.style.display = "none";
-      el.style.removeProperty("max-height");
-      if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
+    } else if (this._landAutoPaused) {
+      this.setPaused(false); this._landAutoPaused = false;
     }
-    btn.setAttribute("aria-expanded", want ? "true" : "false");
-    const lab = btn.querySelector("[data-land-more-label]"); if (lab) lab.textContent = want ? "Less" : "More";
-    const ch = btn.querySelector("[data-land-more-chevron]"); if (ch) ch.style.transform = want ? "rotate(90deg)" : "";
-    // "#7e8aa3", NOT "" (v1.104.2, owner: after More -> Less it "is black over a dark
-    // background, so it's poorly readable"). The resting colour is declared in the button's
-    // OWN cssText, and `style.color = ""` REMOVES that inline declaration rather than restoring
-    // it — so a collapsed card inherited from a parent that sets no colour and fell back to the
-    // UA default, black, on a #131625 card. Restore the value; never clear it.
+    btn.setAttribute("aria-expanded", String(want));
+    btn.textContent = want ? "Less" : "More";
+    // Restore the declared resting colour rather than deleting the inline declaration.
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
-    this._dockLandCard(el);
+    this._dockLandMore(el);
     return true;
   }
   /**
    * The sections the retired in-node container carried, at the game card's own text size:
-   * principles, where it leads, what beats it, and — for a position — the attacks available from
-   * it. Film and the one-line definition are NOT repeated here; they are already above, because
-   * they are what a player wants without asking.
+   * the useful definition, principles, where it leads and what beats it. Film is not repeated
+   * here; it owns the independent film layer. The dealt hand is already the complete answer to
+   * "attacks from here", so raw adjacency never appears as a second, dishonest option list.
    */
   /**
    * The fuller sections as HTML, or "" when this state has none — and "" is the whole point:
@@ -12516,11 +12448,14 @@ class Component extends DCLogic {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
     const inDefense = this._defendSub != null;
     if (!this._layerOn("card")) {
+      // More belongs to the card layer. A cloud/settings change can put that layer away while
+      // its reading card owns the pause, so close it first and return only that owned pause.
+      if (this._landOpen && this._landMoreEl) this.expandLandCard(false);
       if (this._landEl) {
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
-      }
+      } else this._clearLandMore();
     } else if (!this._landEl && n && this._decision && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
       // EXPANDING MID-LANDING ASKS (owner). A truthy `reuse` skips the per-landing reset, so
       // this landing's answered set and page cache survive: a question answered BEFORE the card
@@ -12713,35 +12648,63 @@ class Component extends DCLogic {
     if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
     f.style.bottom = bottom + "px";
   }
+  _dockLandMore(card, tray) {
+    const moreRow = this._landMoreEl;
+    if (!moreRow || card !== this._landEl) return;
+    const cr = card.getBoundingClientRect();
+    if (!(cr.width > 0)) return;
+    moreRow.style.width = Math.round(cr.width) + "px";
+    // The reading card starts after the timed card and grows only through the free viewport band.
+    // Re-docking never moves or resizes the timed card underneath it.
+    if (this._landOpen) {
+      moreRow.style.setProperty("top", Math.round(cr.bottom + 6) + "px", "important");
+      return;
+    }
+    let tr = tray;
+    if (!tr && this._handShown()) {
+      const choiceRow = this.optionsRef.current;
+      if (choiceRow) tr = choiceRow.getBoundingClientRect();
+    }
+    moreRow.style.top = Math.round(tr && tr.height > 0 ? tr.bottom + 6 : cr.bottom + 6) + "px";
+    moreRow.style.bottom = "auto";
+    // The minimized-content dock owns bottom-centre whenever another layer is off. With a visible
+    // hand both controls share that band, so move only the pill inside its full-width inert row;
+    // expanded More resets this transform in CSS.
+    const head = moreRow.firstChild;
+    const dockSharesBand = this._handShown() && NG_LAYER_ORDER.some((l) => !this._layerOn(l));
+    head.style.transform = dockSharesBand ? "translateX(90px)" : "";
+  }
   _dockLandCard(el) {
     if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
     if (!el) return;
-    const row = this.optionsRef.current; if (!row) return;
+    const row = this.optionsRef.current;
+    if (!row) { this._dockLandMore(el); return; }
     const { tray: TRAY_BOTTOM, h } = this._landDatum();
+    const rb = row.getBoundingClientRect();
     if (!(h > 0)) {
-      // no VISIBLE hand: dealt-but-put-away (v1.171.0) hands the card the tray's own slot;
-      // not dealt yet — the CSS constant is as good a guess as any
-      if (!this._handShown()) el.style.setProperty("bottom", TRAY_BOTTOM + "px", "important");
+      // A hidden hand frees its slot, except for the independent More pill subordinate to this
+      // card. Reserve that measured row above the minimized-layer dock.
+      if (!this._handShown()) {
+        const moreGap = this._landMoreEl && !this._landOpen ? 50 : 0;
+        el.style.setProperty("bottom", (TRAY_BOTTOM + moreGap) + "px", "important");
+      }
+      this._dockLandMore(el);
       return;
     }
-    // DESKTOP DOCKS ONLY WHEN IT MUST (v1.104.4). This was mobile-only because the desktop
-    // constant (`bottom:236px`) clears an ordinary option tray. An ESCAPE tray is taller — its
-    // cards carry the extra "escape route" line — and measured at 1440x900 the card's bottom
-    // landed at 664 against a tray top of 657: a 7px overlap on the one screen where you are
-    // under a 4-9s clock. So desktop now measures, and moves the card ONLY if it would actually
-    // collide; with no overlap the CSS constant is left exactly as it was, so nothing that
-    // looked right before can move.
+    // Desktop moves only when the authored baseline would collide with the real hand.
     if (!this.isMobile()) {
-      const rb = row.getBoundingClientRect(), cb = el.getBoundingClientRect();
-      if (cb.bottom <= rb.top - 8) { el.style.removeProperty("bottom"); return; }
-      el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 12) + "px", "important");
+      const cb = el.getBoundingClientRect();
+      if (cb.bottom <= rb.top - 8) el.style.removeProperty("bottom");
+      else el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 12) + "px", "important");
+      this._dockLandMore(el, rb);
       return;
     }
-    // `!important` is REQUIRED, not cargo cult: the mobile rule is
-    // `@media (max-width:640px){.ng-landcard{bottom:206px!important}}`, and a plain inline style
-    // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
-    // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
-    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");  }
+    // Important outranks the phone stylesheet's `.ng-landcard{bottom:206px!important}`. The hand
+    // ✕ itself occupies the 34px immediately above the tray; unlike desktop it cannot sit beside
+    // a full-width card, so that measured chrome gets its own clearance too.
+    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8 + 34) + "px", "important");
+    this._dockLandMore(el, rb);
+  }
   _landAnswered(correct, tier, mode, hooks, format) {
     this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
@@ -12998,25 +12961,20 @@ class Component extends DCLogic {
         '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
         '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
         '<div style="padding-right:54px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
-      // THE LANDING CARD'S CHROME, ON THE DRILL TOO (owner: "the landcard should look like the
-      // other ones … with the favorite and close buttons, the more link"). Same seam as
-      // renderLandCard, so More ▸ unfolds the submission's fuller container read from the
-      // DEFENDER block, the `+` captures the submission, the ✕ hides the drill (the escapes
-      // stay dealt — `_expireLandQ` gates on `_landEl`, so a hidden drill has no clock to lose).
-      // Rebuilt on every render because the question block replaces the card's innerHTML; an
-      // unfolded More stays unfolded across it, exactly as a landing backfill keeps it.
-      // THE DOSSIER LANDS AFTER THE CARD on a cold visit (measured: decks @25.3s, content
-      // @27.0s — see _landBackfill), and `More ▸` is decided at render time from that dossier.
-      // A landing card gets its More from the backfill; the drill is excluded from it by mode,
-      // so it refits its own chrome ONCE when the chunk `_ngc` requested resolves — on THIS card
-      // only, never twice, and never when the foot already carries a More.
+      // THE LANDING CARD'S SHARED CHROME, ON THE DRILL TOO. The timed question keeps only the
+      // card-layer corner; More builds as its own sibling and reads the submission's DEFENDER
+      // block. Rebuilt on every question because `innerHTML` replaces the card, while `_landOpen`
+      // preserves an already-open reading card across that rebuild.
+      // The dossier lands after the deck on a cold visit. A normal landing gets More through
+      // `_landBackfill`; the drill is excluded by mode, so this closure refits once when its own
+      // content request resolves.
       const chrome = () => {
-        for (const sel of ["[data-land-more-body]", "[data-land-foot]", "[data-land-corner]"]) { const old = card.querySelector(sel); if (old) old.remove(); }
-        this._landCardChrome(card, sub, this.familiarityChip(pk, "data-land-count", { clickable: true, style: "margin-left:auto;" }), "defender");
+        const oldCorner = card.querySelector("[data-land-corner]"); if (oldCorner) oldCorner.remove();
+        this._landCardChrome(card, sub, pk, "defender");
         if (this._landOpen) this.expandLandCard(true);
-        if (card.querySelector("[data-land-more]")) return;
+        if (this._landMoreEl.childElementCount > 1) return;
         const p = this._contentWaits && this._contentWaits[sub.t];
-        if (p) p.then(() => { if (this._landEl !== card || card.querySelector("[data-land-more]") || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
+        if (p) p.then(() => { if (this._landEl !== card || (this._landMoreEl && this._landMoreEl.childElementCount > 1) || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
       };
       // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
       // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
@@ -15466,6 +15424,7 @@ class Component extends DCLogic {
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
+    if (this._landEl) requestAnimationFrame(() => { if (this._landEl) this._dockLandCard(this._landEl); });
   }
   /**
    * THE ANNOUNCER'S SIZE IS WRITTEN HERE, NOT IN THE TEMPLATE (v1.138.0).
@@ -15577,23 +15536,11 @@ class Component extends DCLogic {
       // moved out of the node and into the sheet.
       const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
       if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
-      // ...AND THE GAME CARD ITSELF, plus its film strip. Fourth surface, same bug: `clickByMouse`
-      // on the card's corner `+` measured the button, hit-tested to the button, dispatched a real
-      // mouse click on the button — and the capture never happened, because the capture below
-      // retargets pointerup to this wrap and the browser resolves the click to their common
-      // ancestor. `locator.click()` (which dispatches on the element) masked it completely.
-      // Every fixed overlay that owns its own controls needs to be named here; the alternative is
-      // finding it once per surface, by hand, forever.
-      // FIFTH SURFACE (v1.102.1): the option-detail sheet. Its capture moved into the header
-      // corner and a REAL tap on it did nothing — same retarget, same silence. Every fixed
-      // overlay that owns controls belongs in this list; that is why it is a list.
-      // SIXTH SURFACE (v1.123.0) was the "see more" hint — a fixed overlay whose whole purpose
-      // was a click, and it had NEVER been in this list: dead to the mouse for as long as it
-      // existed, found only when the first spec clicked it with a REAL mouse. DELETED in v1.171.1
-      // (owner: too much chrome beside the hand's ✕); the lesson stays. Sixth time; the list is the cure.
-      // SIXTH AND SEVENTH today (v1.171.0): the layer dock and the hand's ✕ — both live in the wrap,
-      // both exist to be clicked. Proven by `land-layers.spec.ts` with `j.clickByMouse`.
-      for (const ov of [this._landEl, this._landFilmEl, this.optDetailRef && this.optDetailRef.current,
+      // ...AND EVERY GAME-CARD ROOT-PLANE SIBLING. `_landSurfaces()` is the one list for the
+      // timed card, film and More card; a new sibling cannot fix suppression while remaining
+      // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
+      // current fixed-control set.
+      for (const ov of [...this._landSurfaces(), this.optDetailRef && this.optDetailRef.current,
         this._layerDockEl, this._handCloseEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }

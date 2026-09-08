@@ -19,10 +19,6 @@
      horizontally centres a left:50% overlay: the card enters half its own width to the right and
      snaps into place when the animation ends. Anything centred that way needs this variant. */
   @keyframes ngCardInX{from{opacity:0;transform:translate(-50%,8px);}to{opacity:1;transform:translate(-50%,0);}}
-  /* the landing card's More ▸ body — it unfolds downward inside a card that is already there,
-     so it fades and rises a few pixels rather than sliding a whole surface in. NB it must NOT
-     translate on X: the card itself is centred with translateX(-50%) and this is a child. */
-  @keyframes ngMoreIn{from{opacity:0;transform:translateY(-4px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
@@ -120,7 +116,7 @@
     .ng-legendkey{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
-    .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    .ng-landcard,.ng-landmore.open{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
     .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
@@ -166,8 +162,8 @@
                                                         replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
         50-79  coaching                               — coach 70 · combo pop 72
-        90-99  DELIBERATE temporary screens           — account menu 90 · modal (settings/
-               legal/auth/search) + roll-from confirm 95
+        90-99  DELIBERATE temporary screens           — More reading card + account menu 90 ·
+               modal (settings/legal/auth/search) + roll-from confirm 95
      Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
      landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
      ambient gameplay overlay, and a deliberate screen's scrim takes the input. Anything
@@ -185,7 +181,12 @@
      graph leaves the card its own space and both stay fully clickable. */
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  /* More starts as a pill below the hand, then that SAME root-plane sibling takes the real
+     .ng-landcard shell. Only its independent scroll/dock rules differ. */
+  .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
+  .ng-landmore.open{bottom:16px!important;z-index:90!important;}
+  .ng-landmore.open>div:first-child{position:sticky!important;top:0;z-index:3;padding-bottom:9px;transform:none!important;background:inherit;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry
@@ -271,6 +272,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-landmore.open,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

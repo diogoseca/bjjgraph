@@ -345,12 +345,11 @@ for (const [roleDraw, side, other] of [
  * the surfaces under it disagreed. So this sweeps the WHOLE pool a fresh profile can draw, both
  * sides, and checks three things that must agree about one fact:
  *
- *   1. the identity block names the side being played, and never the other one — anywhere in it,
- *      including the familiarity chip's tooltip;
- *   2. the DECK the card is built from (question, chip count, `_posKey` odds bonus, roll-log row)
- *      is that side's deck — this is the seam `deckRole()` broke: it read the side off the node
- *      TITLE, and all 136 collapsed hub titles end in "Top", so the fallback to `playerRole` was
- *      dead code and every bottom landing was described by the top deck;
+ *   1. the graph label names the side being played, and never the other one;
+ *   2. the DECK the question, `_posKey` odds bonus and roll-log row use is that side's deck —
+ *      this is the seam `deckRole()` broke: it read the side off the node TITLE, and all 136
+ *      collapsed hub titles end in "Top", so the fallback to `playerRole` was dead code and every
+ *      bottom landing used the top deck;
  *   3. and the dealt hand is MEASURED, not claimed. This clause used to re-run optionsFor's own
  *      predicate (`myVal >= oppVal - 0.05`) over the hand that predicate had just produced, so it was
  *      a TAUTOLOGY — it could not fail, which makes it a false green whatever it reads. It now checks
@@ -374,7 +373,7 @@ for (const [roleDraw, side, other] of [
  * the card, in that order, and it is the only way to walk 272 landings in one test. The two tests
  * above already walk the full startRoll -> intro -> coach path end to end.
  */
-test("WIN 2 as a property: on every first-roll state, both sides, the card and its deck name the side you are playing (the dealt hand is measured, not claimed)", async ({
+test("WIN 2 as a property: on every first-roll state, both sides, the graph and deck name the side you are playing (the dealt hand is measured, not claimed)", async ({
   page,
 }) => {
   const j = journey(page);
