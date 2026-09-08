@@ -14541,6 +14541,10 @@ class Component extends DCLogic {
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }
+    // The draw is over sites (top representatives); the roll stands on the chosen SEAT.
+    // Resolve before prefetch, focus and the staged intro so Bottom never flies to a Top orb.
+    const start = this.nodes[this.currentPos];
+    if (start.pairId && start.role !== this.playerRole && start.pi >= 0) this.currentPos = start.pi;
     this._prefetchLandDeck(this.currentPos); // the intro is the deck's runway (v1.106.6)
     const lad = this.ladderState();
     this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
