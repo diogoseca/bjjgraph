@@ -148,7 +148,7 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "B-Team Dilemma System",
-  "description": "The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.",
+  "description": "The B-Team Dilemma System is a BJJGraph framework for studying connected no-gi threats, using defensive reactions to choose between positional control and another attack.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -167,13 +167,13 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 
 ## What is B-Team Dilemma System?
 
-**The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.**
+**The B-Team Dilemma System is a BJJGraph framework for studying connected no-gi threats, using defensive reactions to choose between positional control and another attack.**
 
-The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.
+This BJJGraph guide groups related no-gi attack decisions under a B-Team-inspired label. It is an editorial study framework, not the title of an official team curriculum. A defended submission may create another opportunity, but the next position still requires its own entry and control.
 
-At its core, the dilemma system recognizes that elite-level opponents will defend your initial attacks. Instead of viewing defense as failure, the system treats every defensive reaction as an opportunity to transition into an even more dangerous position. When an opponent defends the outside heel hook, they expose the back take. When they defend the back take, they return to leg entanglements. This cyclical nature creates mental and physical exhaustion, as opponents realize there is no 'safe' defensive option.
+The linked Craig Jones instructional is a useful companion for triangle-to-leg decisions. Its focus is narrower than this page's leg-to-back framework, so it should not be treated as a demonstration of every sequence below. Use [[Systems/Craig Jones Triangle to Leg Lock System]] for a focused study plan.
 
-The B-Team approach differs from traditional submission hunting by prioritizing positional chains over individual finishes. Success is measured not by immediate taps, but by controlling the tempo of engagement and forcing opponents into progressively worse positions until submission becomes inevitable. This methodology has proven devastatingly effective in competition, producing multiple ADCC medalists and establishing a new paradigm for systematic offensive grappling.
+In practice, identify the specific reaction that makes a switch possible and keep a positional fallback when it does not. A useful session can end with improved control recognition even when neither attacking branch produces a submission.
 
 </section>
 
@@ -182,15 +182,37 @@ The B-Team approach differs from traditional submission hunting by prioritizing 
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill B-Team Dilemma System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 23 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
+<p class="product-card__instructor">with Craig Jones</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students exploring upper- versus lower-body dilemmas; this is a companion to the broader guide, not a complete leg-to-back curriculum.</p>
+<p class="product-card__blurb">Connects triangle attacks with lower-body entanglements rather than treating each submission as an isolated finish.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=b-team-dilemma-system&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -311,6 +333,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Compare the triangle-to-leg transitions in volume six with the commentary in volume eight.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=b-team-dilemma-system&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -421,8 +454,20 @@ The B-Team Dilemma System requires specialized drilling that emphasizes transiti
 - [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Foundational leg lock methodology providing technical basis for leg entanglement components
 - [[Systems/Garry Tonon Leg Lock to Back System|Garry Tonon Leg Lock to Back System]] (System) - Parallel system emphasizing similar leg-to-back transitions with different entry methodologies
 - [[Systems/Back Attack System|Back Attack System]] (System) - Complementary system providing back control retention and submission techniques for second half of dilemma
+- [[Systems/Craig Jones Triangle to Leg Lock System|Craig Jones Triangle to Leg Lock System]] (System) - A focused guide to the verified triangle-and-leg instructional.
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=b-team-dilemma-system&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
+</section>
+
+
 
 </main>

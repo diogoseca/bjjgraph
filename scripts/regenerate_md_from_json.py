@@ -525,7 +525,6 @@ def build_wikilink_resolver():
                 f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
                 f'data-system-name="{name_e}" data-member-count="{n}">'
                 '<span class="system-card__shine" aria-hidden="true"></span>'
-                '<span class="system-card__type-chip">System</span>'
                 f'<span class="system-card__name">{name_e}</span>'
                 f'<span class="system-card__unlocks-badge">{badge}</span>'
                 + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')

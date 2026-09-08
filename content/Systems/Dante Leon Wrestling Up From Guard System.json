@@ -1,0 +1,246 @@
+{
+  "name": "Dante Leon Wrestling Up From Guard System",
+  "description": "Connect guard to coming-up attacks with Dante Leon course guidance, distance management, leg and underhook choices, and drills that measure control after rising.",
+  "summary": "The Dante Leon Wrestling Up From Guard System is an independent BJJGraph guide to seated guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "Coming up from guard changes the exchange from moving someone over you to meeting their base with your own. The first challenge is having enough connection to rise without simply following a retreating opponent. The second is keeping useful head and arm position when they resist. This guide concentrates on those two transitions rather than teaching a general standing takedown curriculum.\n\nThe course outline connects X-guard and De La Riva with coming-up attacks, then explores reverse De La Riva and butterfly branches. Its common thread is distance and opponent reaction across several starting guards. Wrestling Up From Guard by Dante Leon is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "A rise needs a useful connection rather than pursuit alone.",
+    "Read withdrawal differently from forward pressure.",
+    "Keep head and arm positioning in view while leaving the mat.",
+    "Use a familiar guard as the launch point.",
+    "Measure control after rising instead of counting every stand-up as success.",
+    "Return to guard when the connection no longer supports the attack."
+  ],
+  "key_components": [
+    {
+      "component_name": "Distance decision",
+      "description": "Compare an opponent who remains connected with one who withdraws while you prepare to rise.",
+      "purpose": "Identify whether coming up is supported by the exchange."
+    },
+    {
+      "component_name": "Guard launch point",
+      "description": "Choose one X-guard, De La Riva, or butterfly configuration and specify the connection used to rise.",
+      "purpose": "Make the transition repeatable enough to troubleshoot."
+    },
+    {
+      "component_name": "Upper-body continuity",
+      "description": "Track the head and arm relationship as your base changes from seated to kneeling or standing.",
+      "purpose": "Avoid losing control during the change in height."
+    },
+    {
+      "component_name": "Finish or return",
+      "description": "Continue only while the leg or upper-body connection remains useful, otherwise rebuild guard deliberately.",
+      "purpose": "Keep the attack from becoming an unsupported chase."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose the launch guard",
+      "description": "Pick one familiar guard and define the leg or arm connection you need before coming up."
+    },
+    {
+      "step_number": 2,
+      "phase": "Test the distance",
+      "description": "Let the partner stay close or withdraw so you must choose whether to rise."
+    },
+    {
+      "step_number": 3,
+      "phase": "Change height under control",
+      "description": "Rehearse the first movement onto a supporting base while checking the head and arm relationship."
+    },
+    {
+      "step_number": 4,
+      "phase": "Add one defensive tie",
+      "description": "Have the partner apply a light agreed overhook or frame and study the selected response with a coach."
+    },
+    {
+      "step_number": 5,
+      "phase": "Complete the exchange",
+      "description": "End at stable top control, an agreed leg-control position, or a deliberate guard recovery and explain the choice."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The bottom player rises after the opponent has already disengaged.",
+      "solution": "Rebuild distance and connection instead of treating the stand-up itself as an attack."
+    },
+    {
+      "obstacle": "A useful leg grip remains but the head position collapses.",
+      "solution": "Isolate the change-of-height phase with a coach before adding the finish."
+    },
+    {
+      "obstacle": "Several starting guards are mixed in one drill.",
+      "solution": "Choose one launch point until the first lost connection can be identified."
+    },
+    {
+      "obstacle": "A successful rise is followed by an immediate reversal.",
+      "solution": "Keep the exercise running through the landing and assess top control separately."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Distance judgment",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Stays seated when the connection has disappeared",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Launch clarity",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Names the control needed to rise",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Height transition",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Preserves head and arm awareness while coming up",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Exchange completion",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Distinguishes rising from controlling the result",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Start from one guard and let the partner either stay connected or withdraw. Rise only when the chosen connection supports it; finish the round at stable top control or a deliberate return to guard. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Choose the launch guard",
+        "focus": "Pick one familiar guard and define the leg or arm connection you need before coming up."
+      },
+      {
+        "stage": "Test the distance",
+        "focus": "Let the partner stay close or withdraw so you must choose whether to rise."
+      },
+      {
+        "stage": "Change height under control",
+        "focus": "Rehearse the first movement onto a supporting base while checking the head and arm relationship."
+      },
+      {
+        "stage": "Add one defensive tie",
+        "focus": "Have the partner apply a light agreed overhook or frame and study the selected response with a coach."
+      }
+    ],
+    "common_mistakes": [
+      "The bottom player rises after the opponent has already disengaged.",
+      "A useful leg grip remains but the head position collapses.",
+      "Several starting guards are mixed in one drill."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Dogfight Position",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing seated guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What makes coming up an attack rather than merely standing?",
+      "answer": "A useful leg or upper-body connection must connect the rise to a positional objective instead of just following the opponent."
+    },
+    {
+      "question": "How should withdrawal affect the decision to rise?",
+      "answer": "If withdrawal removes the required connection, rebuild distance or guard rather than pursuing an attack that no longer has control."
+    },
+    {
+      "question": "Why begin from one starting guard?",
+      "answer": "A fixed launch point makes it possible to locate the lost connection before adding the different mechanics of another guard."
+    },
+    {
+      "question": "What needs attention during the change from seated to kneeling?",
+      "answer": "Keep track of head and arm relationships as the base changes so the rise does not surrender useful upper-body position."
+    },
+    {
+      "question": "When should a coming-up repetition finish?",
+      "answer": "Finish at the agreed control or deliberate recovery destination, with enough continuity to judge what happened after the rise."
+    },
+    {
+      "question": "Why count guard recovery as a valid decision?",
+      "answer": "Returning to guard can preserve a playable position when the connection needed to finish the coming-up attack has disappeared."
+    }
+  ],
+  "products": [
+    {
+      "id": "wrestling-up-from-guard-by-dante-leon",
+      "title": "Wrestling Up From Guard",
+      "instructor": "Dante Leon",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The course outline connects X-guard and De La Riva with coming-up attacks, then explores reverse De La Riva and butterfly branches. Its common thread is distance and opponent reaction across several starting guards.",
+      "best_for": "No-gi guard players with basic positional familiarity who want to study seated guard. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Begin with distance management and forced reactions in volume one. Choose one starting guard, then compare its coming-up route with the underhook or butterfly material that supports your next exchange.",
+      "practice_tip": "BJJGraph drill: Start from one guard and let the partner either stay connected or withdraw. Rise only when the chosen connection supports it; finish the round at stable top control or a deliberate return to guard."
+    }
+  ]
+}

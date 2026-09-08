@@ -65,6 +65,7 @@ type SystemEntry = {
   id: string;
   key: string;
   name: string;
+  type: string;
   nodes: string[];
   glue: GlueEntry[];
   products: Array<{
@@ -208,14 +209,14 @@ const awaitSystems = async (page: Page) => {
  *
  *  Registered AFTER boot() so it sits above the DSL's own handler (Playwright matches last-first);
  *  nothing fetches a system chunk before a row is clicked. */
-const serveSystemChunks = async (page: Page, hobbleFirst?: string) => {
+const serveSystemChunks = async (page: Page, hobbleFirst?: string, holdBody?: Promise<void>) => {
   const keys = new Set(payload().systems.map((s) => s.key));
   const roots = [
     "../../source/public/static/neural/content",
     "../../source/quartz/static/neural/content",
   ];
   const seen = { empty: 0, failed: 0, served: 0 };
-  await page.route("**/static/neural/content/*.json", (r) => {
+  await page.route("**/static/neural/content/*.json", async (r) => {
     const name = new URL(r.request().url()).pathname.split("/").pop()!;
     for (const root of roots) {
       try {
@@ -236,6 +237,7 @@ const serveSystemChunks = async (page: Page, hobbleFirst?: string) => {
             });
           }
         }
+        if (hobbleFirst && map[hobbleFirst] && holdBody) await holdBody;
         seen.served++;
         return r.fulfill({ body: raw, contentType: "application/json" });
       } catch {
@@ -257,6 +259,58 @@ const openExplore = async (page: Page) => {
   await expect(hdr).toBeVisible();
   if ((await hdr.getAttribute("aria-expanded")) !== "true") await hdr.click();
 };
+
+// Topic membership comes from the emitted payload and is compared with the actual DOM set.
+// This journey checks filtering/navigation, not dossier prose (the DSL serves empty chunks).
+// Mutation coverage for this new journey has not yet been measured.
+test("Systems topic filter narrows the library and survives detail navigation @curated", async ({ page }) => {
+  const errors = watchErrors(page);
+  const data = payload();
+  const guards = data.systems.filter((s) => s.type === "Guard System");
+  expect(guards.length, "the fixture contains guard systems").toBeGreaterThan(0);
+  expect(guards.length, "the filter must exclude other topics").toBeLessThan(data.systems.length);
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await awaitSystems(page);
+  await openExplore(page);
+
+  const filter = page.getByLabel("System topic", { exact: true });
+  const rows = page.locator("[data-system-row]");
+  const ids = () => rows.evaluateAll((els) => els.map((e) => e.getAttribute("data-system-row")).sort());
+  await expect(filter).toHaveCount(1);
+  await expect(filter).toHaveValue("");
+  await expect(rows).toHaveCount(data.systems.length);
+  await expect(page.locator("[data-system-match-count]")).toHaveText(`${data.systems.length} of ${data.systems.length} systems`);
+  const types = [...new Set(data.systems.map((s) => s.type).filter(Boolean))].sort();
+  expect(await filter.locator("option").evaluateAll((els) => els.map((e) => (e as HTMLOptionElement).value).filter(Boolean).sort())).toEqual(types);
+  await expect(filter.locator('option[value="Guard System"]')).toHaveText(`Guard System (${guards.length})`);
+
+  // The measured mouse opens the real native control; keyboard selection exercises its change event.
+  await j.clickByMouse("[data-system-filter]");
+  await page.keyboard.press("Home");
+  await page.keyboard.press("g");
+  await page.keyboard.press("Enter");
+  await expect(filter).toHaveValue("Guard System");
+  await expect(rows).toHaveCount(guards.length);
+  expect(await ids()).toEqual(guards.map((s) => s.id).sort());
+  await expect(page.locator("[data-system-match-count]")).toHaveText(`${guards.length} of ${data.systems.length} systems`);
+
+  const targetId = await rows.first().getAttribute("data-system-row");
+  await j.clickByMouse(`[data-system-row="${targetId}"]`);
+  await expect(page.locator(`[data-system-detail="${targetId}"]`)).toBeVisible();
+  await j.clickByMouse("[data-system-back]");
+  await expect(filter).toHaveValue("Guard System");
+  expect(await ids()).toEqual(guards.map((s) => s.id).sort());
+
+  await j.clickByMouse("[data-system-filter]");
+  await page.keyboard.press("Home");
+  await page.keyboard.press("Enter");
+  await expect(filter).toHaveValue("");
+  await expect(rows).toHaveCount(data.systems.length);
+  expect(await ids()).toEqual(data.systems.map((s) => s.id).sort());
+  expect(errors).toEqual([]);
+});
 
 test("Explore lists every authored system and selecting one lights its members @curated", async ({
   page,
@@ -461,8 +515,18 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
   await page.locator(`[data-system-row="${target.id}"]`).click();
 
   const cta = page.locator("[data-system-cta]");
-  await expect(page.locator("[data-system-courses]")).toHaveCount(1);
-  await expect(cta, "one CTA per authored course").toHaveCount(products.length);
+  await expect(page.locator("[data-system-courses]")).toHaveCount(3);
+  await expect(cta, "overview courses plus two contextual CTAs").toHaveCount(products.length + 2);
+  for (const placement of ["overview", "sequence", "practice"]) {
+    const shelf = page.locator(`[data-course-placement="${placement}"]`);
+    await expect(shelf.locator("[data-affiliate-disclosure]")).toHaveText(CANONICAL_DISCLOSURE);
+    const link = shelf.locator("[data-system-cta]").first();
+    const destination = new URL((await link.getAttribute("href"))!);
+    expect(destination.searchParams.has("rfsn")).toBe(true);
+    expect(destination.searchParams.has("ref")).toBe(false);
+    expect(destination.pathname).toBe(new URL(products[0].url).pathname);
+    await expect(link).toHaveAttribute("data-placement", placement);
+  }
   await expect(cta.first()).toHaveAttribute("target", "_blank");
   const rel = (await cta.first().getAttribute("rel")) || "";
   expect(rel, "affiliate links are disclosed to crawlers").toContain(
@@ -496,7 +560,16 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
     ["utm_term", products[0].id],
   ]);
 
-  await cta.first().click();
+  for (const placement of ["overview", "sequence", "practice"]) {
+    const link = page.locator(`[data-course-placement="${placement}"] [data-system-cta]`).first();
+    await link.scrollIntoViewIfNeeded();
+    const box = await link.boundingBox();
+    expect(box, `${placement} link has a rendered target`).not.toBeNull();
+    const point = { x: box!.x + box!.width / 2, y: box!.y + box!.height / 2 };
+    expect(await link.evaluate((a, p) => a.contains(document.elementFromPoint(p.x, p.y)), point),
+      `${placement} link is reachable with the mouse`).toBe(true);
+    await page.mouse.click(point.x, point.y);
+  }
 
   // selection + click are the pair the affiliate revenue is read from
   const caps = await page.evaluate(() => (window as any).__caps);
@@ -518,7 +591,9 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
   // a[data-affiliate="true"] and it is the one cross-surface conversion event — until v1.83.0
   // the app CTA carried no such attribute, so the documented funnel had no step 3 for 100% of
   // default traffic and every conversion report was measuring the legacy page only.
-  const clickout = caps.find((c: any) => c.event === "affiliate_clickout");
+  const clickouts = caps.filter((c: any) => c.event === "affiliate_clickout");
+  expect(clickouts.map((c: any) => c.props.placement)).toEqual(["overview", "sequence", "practice"]);
+  const clickout = clickouts[0];
   expect(
     clickout,
     "the app reports the documented conversion event, not only its own beat",
@@ -552,7 +627,8 @@ test("the app discloses the commission immediately above the link it applies to 
   await openExplore(page);
   await page.locator(`[data-system-row="${target.id}"]`).click();
 
-  const disc = page.locator("[data-affiliate-disclosure]");
+  await expect(page.locator("[data-affiliate-disclosure]")).toHaveCount(3);
+  const disc = page.locator('[data-course-placement="overview"] [data-affiliate-disclosure]');
   await expect(disc, "exactly one disclosure on the shelf").toHaveCount(1);
   await expect(
     disc,
@@ -636,10 +712,11 @@ test("the generated system page discloses the commission above its product link 
   await context.route("**/static/neural/app/neural.js", (r) => r.abort());
   await page.goto(`/${target.id}`);
 
-  const disc = page.locator("p.affiliate-disclosure");
+  await expect(page.locator("p.affiliate-disclosure")).toHaveCount(3);
+  const disc = page.locator("#unlock-this-system p.affiliate-disclosure");
   const link = page.locator('a[data-affiliate="true"]');
   await expect(link, "the page renders the sponsored product link").toHaveCount(
-    courses(target).length,
+    courses(target).length + 2,
   );
   await expect(disc).toHaveCount(1);
   await expect(disc).toBeVisible();
@@ -666,27 +743,19 @@ test("the generated system page discloses the commission above its product link 
   ).toBeLessThan(900);
 });
 
-test("a system whose product link was never verified renders no CTA on either surface @curated", async ({
+test("a system without a verified product has a free study page @curated", async ({
   page,
   context,
 }) => {
-  // Verified 2026-08-09: two of the three authored products 404. Only link_status:"live"
-  // survives into the payload (regenerate_neural_data._products) and onto the page
-  // (live_products in templates/Systems.md.jinja2) — a dead CTA earns exactly what no CTA earns
-  // and costs the reader's trust, so an empty slot is the honest degradation.
+  // Dead, unverified and missing-status products are exercised as fixtures by
+  // tests/system_affiliates.py. This browser check also covers systems without a course,
+  // so fixing every dead URL does not remove its test data.
   const dir = resolve(__dirname, "../../content/Systems");
   const unverified = readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(readFileSync(resolve(dir, f), "utf8")))
-    .filter((d: any) =>
-      (d.products || []).some(
-        (p: any) => (p.link_status || "unverified") !== "live",
-      ),
-    );
-  expect(
-    unverified.length,
-    "there is at least one authored-but-unverified product to guard",
-  ).toBeGreaterThan(0);
+    .filter((d: any) => !(d.products || []).some((p: any) => p.link_status === "live"));
+  expect(unverified.length, "at least one system offers the free study path").toBeGreaterThan(0);
 
   const data = payload();
   const bareIds: string[] = [];
@@ -775,7 +844,11 @@ test("a system panel reads the system's own words — and one dropped chunk does
   const target = [...data.systems].sort((a, b) => a.id.localeCompare(b.id))[0];
   const j = journey(page);
   await j.boot("/");
-  const seen = await serveSystemChunks(page, target.key);
+  expect(data.systems.every((s) => !("sequence" in s)), "ordered prose is deferred out of the catalog index").toBe(true);
+  expect(courses(target).length, "the retry fixture must exercise course shelves").toBeGreaterThan(0);
+  let releaseBody!: () => void;
+  const holdBody = new Promise<void>((resolve) => { releaseBody = resolve; });
+  const seen = await serveSystemChunks(page, target.key, holdBody);
   await j.land("Mount Top");
   await awaitSystems(page);
   await openExplore(page);
@@ -785,6 +858,17 @@ test("a system panel reads the system's own words — and one dropped chunk does
     page.locator(`[data-system-detail="${target.id}"]`),
     "the row opens the system",
   ).toBeVisible();
+
+  // Hold the real body response so cold rendering cannot pass through a warm-cache race.
+  // The three course shelves must exist even while their neighboring sequence is deferred.
+  try {
+    await expect(page.locator("[data-system-sequence]")).toHaveCount(0);
+    for (const placement of ["overview", "sequence", "practice"]) {
+      await expect(page.locator(`[data-system-courses][data-course-placement="${placement}"] [data-system-cta]`)).toHaveCount(placement === "overview" ? courses(target).length : 1);
+    }
+  } finally {
+    releaseBody();
+  }
 
   // THE RETRIES, first: this body's first request came back as a chunk without it (a stale 200)
   // and its second as a 502. Under the cache this replaces, either one was the session's permanent
@@ -808,6 +892,7 @@ test("a system panel reads the system's own words — and one dropped chunk does
     return b
       ? {
           overview: String(b.overview || "").length,
+          sequence: (b.sequence || []) as Array<{ n: number; phase: string; detail: string }>,
           blocks: {
             points: (b.points || []).length,
             contexts: (b.contexts || []).length,
@@ -824,6 +909,17 @@ test("a system panel reads the system's own words — and one dropped chunk does
     emitted!.overview,
     "and the overview is authored prose, not a placeholder",
   ).toBeGreaterThan(200);
+
+  expect(emitted!.sequence.length, "the recovered dossier carries the authored spine").toBeGreaterThanOrEqual(5);
+  const spine = page.locator("[data-system-sequence]");
+  await expect(spine).toHaveCount(1);
+  await expect(spine).toHaveAttribute("data-system-sequence", String(emitted!.sequence.length));
+  await expect(spine.locator(":scope > li")).toHaveCount(emitted!.sequence.length);
+  expect(await spine.locator(":scope > li").evaluateAll((els) => els.map((el) => ({
+    phase: el.querySelector("b")?.textContent || "",
+    detail: el.querySelector("span")?.textContent || "",
+  })))).toEqual(emitted!.sequence.map(({ phase, detail }) => ({ phase, detail })));
+  await expect(page.locator("[data-system-courses]")).toHaveCount(3);
 
   const drawn: Record<string, number> = {};
   for (const [block, n] of Object.entries(emitted!.blocks)) {

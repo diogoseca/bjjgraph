@@ -1,0 +1,250 @@
+{
+  "name": "Priit Mihkelson Turtle Defense System",
+  "description": "Explore Priit Mihkelson Turtle Defense System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Priit Mihkelson Turtle Defense System is a study framework for using defensive posture and early grip awareness to create a deliberate exit from turtle.",
+  "tags": [
+    "bjj",
+    "system",
+    "turtle"
+  ],
+  "system_type": "Defense System",
+  "difficulty_level": "Intermediate",
+  "overview": "Turtle can buy time during a guard recovery, but it also exposes the back and introduces neck and hook threats. This guide treats it as a position with defensive tasks and an exit decision. Priit Mihkelson's dedicated turtle course is the companion because its syllabus connects posture, grip and hook management with guard returns and standing options. It does not make turtle universally safe: choose the response for the actual grip, position and training context in front of you.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "Study the role of the elbows, neck and feet before asking a partner to apply an attacking grip.",
+    "Let the partner attempt one hook or harness connection and identify when prevention becomes a later escape problem.",
+    "Stop the positional drill when a neck attack is established and practise that response with appropriate instruction.",
+    "Rehearse one return to guard from the specific grip situation you have just tested.",
+    "With suitable space, test a standing option and check whether the partner still controls the back after you rise."
+  ],
+  "key_components": [
+    {
+      "component_name": "Establish the defensive shape",
+      "description": "Study the role of the elbows, neck and feet before asking a partner to apply an attacking grip.",
+      "purpose": "Give the establish the defensive shape stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Recognise the first intrusion",
+      "description": "Let the partner attempt one hook or harness connection and identify when prevention becomes a later escape problem.",
+      "purpose": "Give the recognise the first intrusion stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Separate neck and positional threats",
+      "description": "Stop the positional drill when a neck attack is established and practise that response with appropriate instruction.",
+      "purpose": "Give the separate neck and positional threats stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Choose a guard-return route",
+      "description": "Rehearse one return to guard from the specific grip situation you have just tested.",
+      "purpose": "Give the choose a guard-return route stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Compare a standing exit",
+      "description": "With suitable space, test a standing option and check whether the partner still controls the back after you rise.",
+      "purpose": "Give the compare a standing exit stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Establish the defensive shape",
+      "description": "Study the role of the elbows, neck and feet before asking a partner to apply an attacking grip."
+    },
+    {
+      "step_number": 2,
+      "phase": "Recognise the first intrusion",
+      "description": "Let the partner attempt one hook or harness connection and identify when prevention becomes a later escape problem."
+    },
+    {
+      "step_number": 3,
+      "phase": "Separate neck and positional threats",
+      "description": "Stop the positional drill when a neck attack is established and practise that response with appropriate instruction."
+    },
+    {
+      "step_number": 4,
+      "phase": "Choose a guard-return route",
+      "description": "Rehearse one return to guard from the specific grip situation you have just tested."
+    },
+    {
+      "step_number": 5,
+      "phase": "Compare a standing exit",
+      "description": "With suitable space, test a standing option and check whether the partner still controls the back after you rise."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Assuming compact posture removes every threat",
+      "solution": "Have the partner identify remaining hook and neck access in slow practice."
+    },
+    {
+      "obstacle": "Waiting until a harness is fully settled",
+      "solution": "Compare early prevention with the later escape so the timing difference stays visible."
+    },
+    {
+      "obstacle": "Standing while leaving the rear grip unaddressed",
+      "solution": "Review whether the rise improved the position or carried the same control upward."
+    },
+    {
+      "obstacle": "Using survival time as the only metric",
+      "solution": "Record the quality of the exit and any immediate reattachment."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Turtle.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Turtle and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Study the role of the elbows, neck and feet before asking a partner to apply an attacking grip."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Let the partner attempt one hook or harness connection and identify when prevention becomes a later escape problem."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Stop the positional drill when a neck attack is established and practise that response with appropriate instruction."
+      },
+      {
+        "stage": "Connect",
+        "focus": "With suitable space, test a standing option and check whether the partner still controls the back after you rise."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming compact posture removes every threat",
+      "Waiting until a harness is fully settled",
+      "Standing while leaving the rear grip unaddressed",
+      "Using survival time as the only metric"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Transition position where hook access, rear grips and the exit direction must be assessed."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Endpoint used to check whether following back exposure produced a stable position."
+    },
+    {
+      "name": "Standing Position",
+      "content_type": "Position",
+      "relationship": "Exit endpoint to assess after rising from turtle; standing alone does not remove rear grips."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Guard-return endpoint used to judge whether the defensive transition is complete."
+    },
+    {
+      "name": "Front Headlock",
+      "content_type": "Position",
+      "relationship": "Counter-position that changes the neck-defense priority during a scramble."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Principle for restoring useful inside contact before attempting larger movement."
+    },
+    {
+      "name": "Defensive Concepts",
+      "content_type": "Principle",
+      "relationship": "Principle for prioritising immediate threats before positional improvement."
+    },
+    {
+      "name": "Transition Management",
+      "content_type": "Principle",
+      "relationship": "Reference for evaluating the vulnerable interval between two stable positions."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "In Priit Mihkelson Turtle Defense System, what should the establish the defensive shape stage investigate?",
+      "answer": "Study the role of the elbows, neck and feet before asking a partner to apply an attacking grip."
+    },
+    {
+      "question": "In Priit Mihkelson Turtle Defense System, what should the recognise the first intrusion stage investigate?",
+      "answer": "Let the partner attempt one hook or harness connection and identify when prevention becomes a later escape problem."
+    },
+    {
+      "question": "In Priit Mihkelson Turtle Defense System, what should the separate neck and positional threats stage investigate?",
+      "answer": "Stop the positional drill when a neck attack is established and practise that response with appropriate instruction."
+    },
+    {
+      "question": "In Priit Mihkelson Turtle Defense System, what should the choose a guard-return route stage investigate?",
+      "answer": "Rehearse one return to guard from the specific grip situation you have just tested."
+    },
+    {
+      "question": "In Priit Mihkelson Turtle Defense System, what should the compare a standing exit stage investigate?",
+      "answer": "With suitable space, test a standing option and check whether the partner still controls the back after you rise."
+    },
+    {
+      "question": "How should you respond to this practice problem: assuming compact posture removes every threat?",
+      "answer": "Have the partner identify remaining hook and neck access in slow practice."
+    }
+  ],
+  "products": [
+    {
+      "id": "protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson",
+      "title": "Protecting & Generating Dynamic Offense From The Turtle",
+      "instructor": "Priit Mihkelson",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for using defensive posture and early grip awareness to create a deliberate exit from turtle. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "Practitioners who routinely arrive in turtle and want a structured way to study early defense and exits; this guide concerns grappling rather than striking situations.",
+      "study_focus": "Start with posture, elbow positioning and hook prevention, then compare harness responses with the later guard-return and stand-up options.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Establish the defensive shape' from Turtle. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

@@ -428,6 +428,14 @@ Uchi Mata is a high-impact throwing technique that requires proper safety protoc
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Kenta-Iwamoto-Foot-Sweep-System" data-cta="related-system-card" data-system-slug="systems/kenta-iwamoto-foot-sweep-system" data-system-name="Kenta Iwamoto Foot Sweep System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kenta Iwamoto Foot Sweep System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related combination option</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

@@ -1,0 +1,250 @@
+{
+  "name": "Giancarlo Bodoni Turtle to Back System",
+  "description": "Explore Giancarlo Bodoni Turtle to Back System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Giancarlo Bodoni Turtle to Back System is a study framework for turning a rear ride into stable back control while accounting for hooks and stand-up attempts.",
+  "tags": [
+    "bjj",
+    "system",
+    "no-gi"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "overview": "A visible back is an opportunity to establish control, but it does not guarantee that hooks or a finish are available. This guide studies the gap between following a turtled opponent and securing a usable rear position. Giancarlo Bodoni's Behind The Elbows course is the selected companion because its syllabus distinguishes turtle shapes, hook insertion, breakdowns and four-point stand-ups. That makes it a focused complement to the site's guides on finishing once back control is already established.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "Identify whether the elbows and knees offer access before deciding where to establish the initial ride.",
+    "Choose one demonstrated breakdown and stop when the partner loses the intended support rather than continuing into a submission.",
+    "Study one near-side or far-side hook route and keep chest-to-back contact through the change.",
+    "Let the partner raise their hips into a four-point stance and examine how the ride and control objective change.",
+    "Complete the chosen back-control route and add hand fighting only after the partner can test the landing."
+  ],
+  "key_components": [
+    {
+      "component_name": "Read the turtle shape",
+      "description": "Identify whether the elbows and knees offer access before deciding where to establish the initial ride.",
+      "purpose": "Give the read the turtle shape stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Create a controlled breakdown",
+      "description": "Choose one demonstrated breakdown and stop when the partner loses the intended support rather than continuing into a submission.",
+      "purpose": "Give the create a controlled breakdown stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Insert a hook with connection",
+      "description": "Study one near-side or far-side hook route and keep chest-to-back contact through the change.",
+      "purpose": "Give the insert a hook with connection stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Account for the stand-up",
+      "description": "Let the partner raise their hips into a four-point stance and examine how the ride and control objective change.",
+      "purpose": "Give the account for the stand-up stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Stabilise before finishing",
+      "description": "Complete the chosen back-control route and add hand fighting only after the partner can test the landing.",
+      "purpose": "Give the stabilise before finishing stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Read the turtle shape",
+      "description": "Identify whether the elbows and knees offer access before deciding where to establish the initial ride."
+    },
+    {
+      "step_number": 2,
+      "phase": "Create a controlled breakdown",
+      "description": "Choose one demonstrated breakdown and stop when the partner loses the intended support rather than continuing into a submission."
+    },
+    {
+      "step_number": 3,
+      "phase": "Insert a hook with connection",
+      "description": "Study one near-side or far-side hook route and keep chest-to-back contact through the change."
+    },
+    {
+      "step_number": 4,
+      "phase": "Account for the stand-up",
+      "description": "Let the partner raise their hips into a four-point stance and examine how the ride and control objective change."
+    },
+    {
+      "step_number": 5,
+      "phase": "Stabilise before finishing",
+      "description": "Complete the chosen back-control route and add hand fighting only after the partner can test the landing."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Jumping for both hooks without a stable ride",
+      "solution": "Practise the first hook and the connection that supports it."
+    },
+    {
+      "obstacle": "Using the same breakdown against every turtle shape",
+      "solution": "Name which support the partner is offering before choosing the direction."
+    },
+    {
+      "obstacle": "Ignoring the transition to four points",
+      "solution": "Introduce that response as a separate stage rather than treating it as an accidental scramble."
+    },
+    {
+      "obstacle": "Measuring progress only by rear naked chokes",
+      "solution": "Track whether the partner can turn or stand before counting an attacking result."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Turtle.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Turtle and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Identify whether the elbows and knees offer access before deciding where to establish the initial ride."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Choose one demonstrated breakdown and stop when the partner loses the intended support rather than continuing into a submission."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Study one near-side or far-side hook route and keep chest-to-back contact through the change."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Complete the chosen back-control route and add hand fighting only after the partner can test the landing."
+      }
+    ],
+    "common_mistakes": [
+      "Jumping for both hooks without a stable ride",
+      "Using the same breakdown against every turtle shape",
+      "Ignoring the transition to four points",
+      "Measuring progress only by rear naked chokes"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Transition position where hook access, rear grips and the exit direction must be assessed."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Endpoint used to check whether following back exposure produced a stable position."
+    },
+    {
+      "name": "Standing Back Control",
+      "content_type": "Position",
+      "relationship": "Standing continuation where the rear connection must be reassessed."
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "content_type": "Position",
+      "relationship": "Upper-body rear connection used while studying hook insertion and back control."
+    },
+    {
+      "name": "Body Triangle",
+      "content_type": "Position",
+      "relationship": "Alternative rear leg-control configuration to compare with hook placement."
+    },
+    {
+      "name": "Rear Naked Choke",
+      "content_type": "Submission",
+      "relationship": "Finishing family to explore after establishing rear control and hand-fighting access."
+    },
+    {
+      "name": "Connection Principles",
+      "content_type": "Principle",
+      "relationship": "Principle for preserving useful contact while moving between positions."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Principle for testing whether the pin survives a grip change or attack."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "In Giancarlo Bodoni Turtle to Back System, what should the read the turtle shape stage investigate?",
+      "answer": "Identify whether the elbows and knees offer access before deciding where to establish the initial ride."
+    },
+    {
+      "question": "In Giancarlo Bodoni Turtle to Back System, what should the create a controlled breakdown stage investigate?",
+      "answer": "Choose one demonstrated breakdown and stop when the partner loses the intended support rather than continuing into a submission."
+    },
+    {
+      "question": "In Giancarlo Bodoni Turtle to Back System, what should the insert a hook with connection stage investigate?",
+      "answer": "Study one near-side or far-side hook route and keep chest-to-back contact through the change."
+    },
+    {
+      "question": "In Giancarlo Bodoni Turtle to Back System, what should the account for the stand-up stage investigate?",
+      "answer": "Let the partner raise their hips into a four-point stance and examine how the ride and control objective change."
+    },
+    {
+      "question": "In Giancarlo Bodoni Turtle to Back System, what should the stabilise before finishing stage investigate?",
+      "answer": "Complete the chosen back-control route and add hand fighting only after the partner can test the landing."
+    },
+    {
+      "question": "How should you respond to this practice problem: jumping for both hooks without a stable ride?",
+      "answer": "Practise the first hook and the connection that supports it."
+    }
+  ],
+  "products": [
+    {
+      "id": "essential-connections-chest-to-back-behind-the-elbows-by-giancarlo-bodoni",
+      "title": "Essential Connections: Chest To Back - Behind The Elbows",
+      "instructor": "Giancarlo Bodoni",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/essential-connections-chest-to-back-behind-the-elbows-by-giancarlo-bodoni?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for turning a rear ride into stable back control while accounting for hooks and stand-up attempts. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "No-gi players who get behind turtle but lose opponents during hook insertion or stand-up attempts.",
+      "study_focus": "Compare closed and open turtle, then the near-hook and far-hook pathways; review the stand-up and four-point material once the basic ride is familiar.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Read the turtle shape' from Turtle. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

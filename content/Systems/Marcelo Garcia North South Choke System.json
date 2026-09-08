@@ -1,0 +1,247 @@
+{
+  "name": "Marcelo Garcia North South Choke System",
+  "description": "Study Marcelo Garcia north-south choke decisions through alignment, frame-clearing and top-position entries, with specific course guidance and practical checkpoints.",
+  "summary": "The Marcelo Garcia North South Choke System is a BJJGraph study framework for connecting top-position entries with alignment and frame-management decisions around the north-south choke.",
+  "overview": "The Complete North South Choke is a direct instructional match for students who reach north-south but struggle to establish a useful choke position. The published lessons examine alignment, grips and frames, then connect the attack to several top positions and other submissions.\n\nBJJGraph's original study plan begins with the control problem before the finish. Identify whether a blocking arm prevents entry, whether the head position changes the alignment, or whether movement breaks the connection after entry. Those are different problems and should be reviewed separately. The goal is to make a repeatable, comfortable training setup that a coach can assess, rather than using additional squeezing to compensate for uncertain positioning.",
+  "tags": [
+    "bjj",
+    "system",
+    "north-south",
+    "choke",
+    "top-game"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "key_principles": [
+    "Separate reaching north-south from establishing the intended choke alignment.",
+    "Identify a blocking arm before trying to deepen the entry.",
+    "Maintain enough base to recognise and respond to the defender's movement.",
+    "Distinguish an entry problem from a connection lost after entry.",
+    "Keep a stable top-position fallback when the choke configuration is unavailable.",
+    "Stop and reset if the exchange becomes neck pressure or discomfort instead of a clear technical task."
+  ],
+  "key_components": [
+    {
+      "component_name": "Alignment assessment",
+      "description": "Compare the initial north-south position with the demonstrated choke setup and identify where the defender still has room to turn.",
+      "purpose": "Locate the positional problem before adding finishing effort."
+    },
+    {
+      "component_name": "Frame identification",
+      "description": "Name the arm or hand that blocks access and distinguish a frame preventing entry from one disrupting established control.",
+      "purpose": "Select a relevant frame-management lesson."
+    },
+    {
+      "component_name": "Top-position entry routes",
+      "description": "Choose side control, mount or top half guard as a starting context and track what control is carried into north-south.",
+      "purpose": "Connect the submission study to an existing top game."
+    },
+    {
+      "component_name": "Reconnection and fallback",
+      "description": "Observe whether a small defensive movement calls for re-establishing contact or returning to a familiar pin.",
+      "purpose": "Avoid chasing the neck after the useful setup is gone."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Establish the reference position",
+      "description": "Start in a comfortable north-south control and review the selected alignment demonstration with a coach."
+    },
+    {
+      "step_number": 2,
+      "phase": "Add one blocking arm",
+      "description": "Let the defender place an agreed frame. Identify where it interrupts access before rehearsing the matching response."
+    },
+    {
+      "step_number": 3,
+      "phase": "Enter from side control",
+      "description": "Use one familiar top entry and stop when the chosen north-south control is recognisable. Record whether the frame returns during the move."
+    },
+    {
+      "step_number": 4,
+      "phase": "Introduce a small movement",
+      "description": "Allow a slow head turn or other coach-approved response. Compare restoring contact with returning to a stable pin."
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect a second top entry",
+      "description": "Study the course's mount or half-guard context and compare the same alignment and frame checkpoints after entry."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The attacker squeezes but cannot identify the alignment.",
+      "solution": "Remove finishing effort and compare the setup with the coached reference position."
+    },
+    {
+      "obstacle": "A blocking arm is ignored while the attacker moves around the head.",
+      "solution": "Name the frame and study its effect on access before repeating the entry."
+    },
+    {
+      "obstacle": "The choke attempt gives the defender room to escape top control.",
+      "solution": "Track the contact lost during the attempt and rehearse returning to a familiar pin."
+    },
+    {
+      "obstacle": "One unsuccessful setup is treated as proof the technique does not fit.",
+      "solution": "Classify the failure as entry, frame, alignment or reconnection before selecting the next lesson."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Alignment recognition",
+      "description": "Assess whether the intended control can be described without squeezing.",
+      "proficiency_indicators": [
+        "Identifies the reference setup",
+        "Notices room to turn",
+        "Can pause comfortably"
+      ]
+    },
+    {
+      "metric_name": "Frame diagnosis",
+      "description": "Classify the blocking arm by its effect.",
+      "proficiency_indicators": [
+        "Names the arm",
+        "Distinguishes blocked access",
+        "Recognises disrupted contact"
+      ]
+    },
+    {
+      "metric_name": "Entry consistency",
+      "description": "Check whether different top starts reach the same control checkpoint.",
+      "proficiency_indicators": [
+        "Names the starting pin",
+        "Finds the reference position",
+        "Records returning frames"
+      ]
+    },
+    {
+      "metric_name": "Top retention",
+      "description": "Observe the response when the choke setup is lost.",
+      "proficiency_indicators": [
+        "Recognises lost connection",
+        "Can return to a pin",
+        "Does not chase a loose neck hold"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests an entry-and-frame exercise from side control. Stop at the selected north-south setup and ask the partner to show one agreed blocking arm. Rehearse recognising the frame and returning to the reference position without finishing pressure. Add a slow defensive movement only when both partners can describe the alignment and reset comfortably.",
+    "progression_path": [
+      {
+        "stage": "Reference",
+        "focus": "Recognise the intended north-south control and alignment."
+      },
+      {
+        "stage": "Frame",
+        "focus": "Identify one arm that prevents or disrupts the setup."
+      },
+      {
+        "stage": "Entry",
+        "focus": "Reach the same checkpoint from side control."
+      },
+      {
+        "stage": "Recovery",
+        "focus": "Compare reconnection with returning to a familiar pin."
+      }
+    ],
+    "common_mistakes": [
+      "Using more squeezing to compensate for an unclear setup.",
+      "Treating every defensive frame as the same problem.",
+      "Letting a lost choke attempt become a loss of top position."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "North-South Choke",
+      "content_type": "Submission",
+      "relationship": "The primary submission reference."
+    },
+    {
+      "name": "North-South",
+      "content_type": "Position",
+      "relationship": "The central study position."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "The first top-entry context."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "A second top-entry setting."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Another course entry context."
+    },
+    {
+      "name": "Knee on Belly",
+      "content_type": "Position",
+      "relationship": "A neighbouring top position for later study."
+    },
+    {
+      "name": "Kimura Trap",
+      "content_type": "Position",
+      "relationship": "A related arm-control context."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Vocabulary for defensive arm obstructions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Supports balance during setup and reconnection."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Frames the choice to retain top position."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why separate north-south position from a north-south choke setup?",
+      "answer": "Reaching the position does not guarantee useful alignment or access around the defender's frames, so the choke configuration needs its own assessment."
+    },
+    {
+      "question": "What should you identify when an arm blocks the entry?",
+      "answer": "Name the blocking arm and determine whether it prevents initial access or disrupts contact after the setup is already established."
+    },
+    {
+      "question": "What should happen if squeezing increases without a clear setup?",
+      "answer": "Remove finishing effort, reset comfortably and review alignment with a coach rather than using force to hide the positional problem."
+    },
+    {
+      "question": "Why compare entries from different top positions?",
+      "answer": "Different starts may restore the defender's frames in different ways, so compare whether each reaches the same useful control checkpoint."
+    },
+    {
+      "question": "What is a useful fallback after losing the choke connection?",
+      "answer": "Return to a familiar top pin when reconnection is unavailable instead of chasing a loose neck hold and surrendering the position."
+    },
+    {
+      "question": "How should an unsuccessful north-south choke round be classified?",
+      "answer": "Identify whether the limiting problem was entry, a frame, alignment or lost contact so the next study task addresses the actual obstacle."
+    }
+  ],
+  "products": [
+    {
+      "id": "the-complete-north-south-choke-by-marcelo-garcia",
+      "title": "The Complete North South Choke",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-complete-north-south-choke-by-marcelo-garcia?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A dedicated north-south choke reference covering alignment, blocking arms and entries from established top positions.",
+      "best_for": "Top players who reach north-south but need more precise setup and troubleshooting; this is a submission study course rather than a general pinning curriculum.",
+      "study_focus": "Start with alignment and grip concepts, then compare the frame-clearing material with one familiar top entry.",
+      "practice_tip": "BJJGraph suggestion: pause at the setup, identify the blocking arm and compare reconnection with returning to side control."
+    }
+  ]
+}

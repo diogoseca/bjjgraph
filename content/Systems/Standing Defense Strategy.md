@@ -4,7 +4,7 @@
 
 ---
 title: "Standing Defense Strategy | BJJ System | BJJ Graph"
-description: "Master standing defense with systematic framework for takedown prevention, sprawling, base maintenance, and strategic positioning. Complete guide to defending leg attacks."
+description: "Study stance, leg-attack defense, and tie clearing with a BJJGraph training guide and Alex Enriquez's Wrestling Takedown Defense For Grappling instructional."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master standing defense with systematic framework for takedown pre
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Standing Defense Strategy",
-  "description": "Master standing defense with systematic framework for takedown prevention, sprawling, base maintenance, and strategic positioning. Complete guide to defending leg attacks.",
+  "description": "Study stance, leg-attack defense, and tie clearing with a BJJGraph training guide and Alex Enriquez's Wrestling Takedown Defense For Grappling instructional.",
   "url": "https://bjjgraph.org/Systems/Standing-Defense-Strategy",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master standing defense with systematic framework for takedown pre
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Standing Defense Strategy",
-  "description": "The Standing Defense Strategy is a defensive framework that prevents takedowns through distance management, base maintenance, grip fighting, and explosive sprawling, while teaching when to pull guard or counter-attack instead of continuing the standing exchange.",
+  "description": "The Standing Defense Strategy is a BJJGraph framework for recognizing takedown entries, maintaining balance, defending leg attacks, and choosing a stable follow-up position.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,13 +159,11 @@ description: "Master standing defense with systematic framework for takedown pre
 
 ## What is Standing Defense Strategy?
 
-**The Standing Defense Strategy is a defensive framework that prevents takedowns through distance management, base maintenance, grip fighting, and explosive sprawling, while teaching when to pull guard or counter-attack instead of continuing the standing exchange.**
+**The Standing Defense Strategy is a BJJGraph framework for recognizing takedown entries, maintaining balance, defending leg attacks, and choosing a stable follow-up position.**
 
-In both gi and no-gi grappling the match begins on the feet, where the practitioner who dictates whether and how the fight reaches the ground holds a decisive tactical edge. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.
+Standing defense begins before a shot reaches your legs. Stance, movement, hand contact, and head position give you opportunities to interrupt an entry; later responses depend on the grip and angle the attacker has already secured. Treat these as connected decisions rather than relying on a single explosive sprawl.
 
-The foundation of this system rests on three core pillars: distance management, base maintenance, and reactive positioning. Unlike purely offensive takedown systems, standing defense requires constant threat assessment and the ability to recognize and neutralize takedown attempts before they fully develop. This system teaches practitioners to fight at optimal ranges where they can defend effectively while minimizing exposure to high-percentage takedowns.
-
-Mastery of standing defense is essential for both gi and no-gi competition, as it allows practitioners to control when and how the match transitions to the ground. The system includes protocols for dealing with various takedown attacks (singles, doubles, body locks, trips), grip fighting strategies to prevent dominant grips, and decision-making frameworks for when to defend standing versus when to accept guard pulling as the superior tactical choice.
+This page is an independent BJJGraph framework for studying those decisions. Alex Enriquez's Wrestling Takedown Defense For Grappling is a useful optional companion because its published outline covers stance and motion, leg-attack defense, and clearing ties in a grappling context. Use the instructional for demonstrations and these practice suggestions to organize rounds. Gi grip exchanges and the decision to pull guard still need separate attention with your coach and chosen ruleset.
 
 </section>
 
@@ -174,15 +172,37 @@ Mastery of standing defense is essential for both gi and no-gi competition, as i
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Standing Defense Strategy?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 27 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="wrestling-takedown-defense-for-grappling-by-alex-enriquez">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Wrestling Takedown Defense For Grappling</h3>
+<p class="product-card__instructor">with Alex Enriquez</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> BJJ practitioners building takedown defense for grappling. Gi-specific grip sequences and strategic guard pulling are separate parts of this BJJGraph guide.</p>
+<p class="product-card__blurb">A close fit for the standing-defense side of this system, with a published syllabus covering stance, sprawls, leg attacks, and clearing ties.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=standing-defense-strategy&utm_term=wrestling-takedown-defense-for-grappling-by-alex-enriquez" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="wrestling-takedown-defense-for-grappling-by-alex-enriquez" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -297,6 +317,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Begin with the main principles and stance-and-motion drills; then select one single-leg or double-leg defense before studying the tie-clearing section.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=standing-defense-strategy&utm_term=wrestling-takedown-defense-for-grappling-by-alex-enriquez" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="wrestling-takedown-defense-for-grappling-by-alex-enriquez" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Wrestling Takedown Defense For Grappling &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -312,36 +343,32 @@ Key points:
 <section id="assessment-metrics" class="content-section">
 
 ## How to Measure Your Progress
-**Takedown Defense Percentage**: Measure percentage of opponent takedown attempts successfully defended in live training and competition
+**Entry recognition**: Record when you noticed the attack and what contact gave the cue.
 Proficiency indicators:
-- Beginner: 40-50% defense rate against similar skill opponents
-- Intermediate: 60-75% defense rate with consistent sprawl mechanics
-- Advanced: 80%+ defense rate with ability to counter-attack from defensive positions
-- Expert: 85%+ defense rate against higher-skilled wrestlers with strategic guard pulling when appropriate
+- Notice a level change while keeping balance.
+- Identify which tie helped the attacker enter.
+- Distinguish an unconnected shot from a secured leg grip.
 
 
-**Grips Effectiveness**: Assess ability to prevent opponent from establishing dominant grips and maintain preferred hand positioning
+**Base during movement**: Observe footwork while the partner changes direction.
 Proficiency indicators:
-- Consistently break opponent grips within 2-3 seconds of establishment
-- Prevent opponent from securing body lock or double sleeve control
-- Maintain inside hand position or frame control majority of standing exchange
-- Recognize and exploit opponent's grip fighting weaknesses
+- Circle without crossing the feet.
+- Recover stance after hand fighting.
+- Avoid leaning so far forward that the head is easily pulled down.
 
 
-**Distance Control Consistency**: Evaluate ability to maintain optimal engagement distance and avoid being driven to mat boundaries
+**Defense selection**: Compare the response with the actual grip and angle.
 Proficiency indicators:
-- Maintain awareness of position relative to mat boundaries during exchanges
-- Successfully circle away from opponent's pressure without retreating linearly
-- Control when engagement occurs through footwork and positioning
-- Rarely get caught against boundaries in vulnerable positions
+- Name the leg attack being defended.
+- Recognize when a late defense is required.
+- Reset safely when the position exceeds the drill's scope.
 
 
-**Transition Decision Making**: Quality of decisions regarding when to continue standing defense vs when to pull guard or attempt counter-offense
+**Useful follow-up**: Track the position achieved after stopping the attack.
 Proficiency indicators:
-- Pull guard strategically rather than as panic reaction to pressure
-- Recognize opportunities to transition from sprawl to front headlock
-- Understand tactical implications of standing vs guard in various score/time scenarios
-- Demonstrate ability to execute plan rather than being forced into unwanted positions
+- Recover a balanced stance.
+- Secure control before attempting a counter.
+- Check neck exposure when the exchange becomes grounded.
 
 
 
@@ -356,11 +383,10 @@ Proficiency indicators:
 Standing defense training should integrate technical drilling, reaction training, and live situational sparring. Begin each session with stance and movement drills focusing on footwork fundamentals and base maintenance. Progress to grip fighting drills where partners practice breaking grips and maintaining distance control. Incorporate sprawl reaction drills using progressive resistance - starting with slow, predictable shots and advancing to explosive, random attacks. Finish with situational sparring where one partner attacks only with takedowns while defender practices full defensive system including strategic guard pulling. Video analysis of training and competition footage is essential for identifying defensive weaknesses and improving decision-making. Emphasize quality over quantity in repetitions, ensuring proper mechanics before increasing speed or resistance.
 
 ### Progression Path
-**Foundation Phase (Weeks 1-4)** (Focus: Establish proper defensive stance, basic sprawl mechanics, and fundamental grip fighting habits. Develop base stability through static and dynamic balance drills.) - 4-6 weeks
-**Integration Phase (Weeks 5-8)** (Focus: Combine individual skills into cohesive defensive sequences. Practice transitioning from grip fighting to sprawl defense to follow-up positions. Increase pace and resistance gradually.) - 4-6 weeks
-**Reaction Development (Weeks 9-16)** (Focus: Develop automatic defensive responses through high-volume reaction drilling. Improve recognition speed for different takedown attacks and appropriate defensive responses. Add counter-offensive options.) - 8-12 weeks
-**Decision-Making Phase (Weeks 17-24)** (Focus: Integrate strategic decision-making regarding when to defend standing vs pull guard vs counter-attack. Practice system under competition-specific scenarios with score, time, and rule set considerations.) - 8-16 weeks
-**Competition Refinement (Week 25+)** (Focus: Refine system based on competition experience and opponent-specific preparation. Develop game plans for different opponent types (wrestlers, guard pullers, judo players). Continue technical maintenance and evolution.) - Ongoing
+**Stance and contact** (Focus: Maintain balance while circling and making light hand contact.)
+**Predictable entries** (Focus: Practice one agreed attack and its initial defensive response with a cooperative partner.)
+**Established grips** (Focus: Study controlled late starts separately from open-space defense, with a coach checking the position.)
+**Decision rounds** (Focus: Mix a small number of attacks and review whether you selected the appropriate response; progress through consistency rather than a calendar.)
 
 
 ### Common Mistakes
@@ -409,5 +435,16 @@ Standing defense training should integrate technical drilling, reaction training
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>BJJGraph drill: let a partner use one agreed leg attack at controlled speed. Alternate defending the initial entry and recovering after the grip is established; reset when balance or neck control is lost.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=standing-defense-strategy&utm_term=wrestling-takedown-defense-for-grappling-by-alex-enriquez" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="wrestling-takedown-defense-for-grappling-by-alex-enriquez" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Wrestling Takedown Defense For Grappling &rarr;</a></p>
+</section>
+
+
 
 </main>

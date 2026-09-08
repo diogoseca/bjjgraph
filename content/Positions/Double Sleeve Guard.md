@@ -384,6 +384,14 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Jonathan-Thomas-Double-Sleeve-Guard-System" data-cta="related-system-card" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jonathan Thomas Double Sleeve Guard System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

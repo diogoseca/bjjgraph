@@ -1,0 +1,247 @@
+{
+  "name": "Edwin Najmi Submission Attack System",
+  "description": "Explore Edwin Najmi submission entries through Darce, triangle and Estima-lock study tracks, with specific course guidance and practical positional checkpoints.",
+  "summary": "The Edwin Najmi Submission Attack System is a BJJGraph study guide for recognising Darce, triangle and Estima-lock opportunities within distinct positional exchanges.",
+  "overview": "Mission Submission groups Edwin Najmi's instruction into Darce, triangle and Estima-lock sections. The listed setups span top and bottom positions, with gi-dependent guard entries alongside techniques that do not require fabric grips. This makes the course a set of specialised attacking tracks rather than one universal chain.\n\nBJJGraph's original plan below starts with the Darce track and adds a second family only when it fits the student's existing positions. The useful question is whether an opportunity appears during movement and can be converted into recognisable control. Submission-oriented study still needs positional judgement; a possible grip is not a reason to abandon a stable position or force an unfamiliar finish.",
+  "tags": [
+    "bjj",
+    "system",
+    "darce",
+    "triangle",
+    "estima-lock"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Advanced",
+  "key_principles": [
+    "Choose one submission family before combining the course tracks.",
+    "Recognise the positional opening before committing to the attacking grip.",
+    "Keep gi-dependent setups separate from no-gi practice choices.",
+    "Compare a top and bottom entry by the control available afterward.",
+    "Treat Estima-lock control as a separate advanced study topic.",
+    "Use grounded triangle entries before considering more dynamic variations."
+  ],
+  "key_components": [
+    {
+      "component_name": "Darce entry contexts",
+      "description": "Compare a side-control entry with a half-guard entry and identify the head-and-arm relationship each requires.",
+      "purpose": "Give the first study track a concrete positional focus."
+    },
+    {
+      "component_name": "Triangle setup selection",
+      "description": "Select a familiar grounded guard entry and note whether sleeve grips or other fabric controls are part of the setup.",
+      "purpose": "Match the chosen entry to the equipment and game being practised."
+    },
+    {
+      "component_name": "Estima-lock opportunity recognition",
+      "description": "Study where the foot becomes accessible in a selected passing exchange without attempting a surprise application.",
+      "purpose": "Separate spotting the opportunity from executing an advanced lock."
+    },
+    {
+      "component_name": "Attack-or-position decision",
+      "description": "Assess whether pursuing the chosen submission preserves control or makes a pass, reversal or escape easier for the partner.",
+      "purpose": "Keep the attacking objective connected to positional consequences."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Begin with the Darce track",
+      "description": "Study one top side-control setup and end practice at a recognisable head-and-arm control position."
+    },
+    {
+      "step_number": 2,
+      "phase": "Compare the half-guard context",
+      "description": "Use the matching half-guard lesson to identify what changes in access, available space and balance."
+    },
+    {
+      "step_number": 3,
+      "phase": "Add one grounded triangle",
+      "description": "Choose a closed-guard or other familiar grounded entry. Note which grips are essential before trying it without the gi."
+    },
+    {
+      "step_number": 4,
+      "phase": "Study an Estima entry separately",
+      "description": "With a coach, use one leg-drag context to identify the offered foot and a clear catch-and-release endpoint. Do not combine it with an uncontrolled passing round."
+    },
+    {
+      "step_number": 5,
+      "phase": "Evaluate the attacking choice",
+      "description": "In a short positional exchange, name the attack that appeared and the position that would be surrendered to pursue it. Reset if the tradeoff is unclear."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The three submission tracks become a disconnected move list.",
+      "solution": "Start with the family that already appears in your rounds and delay the others."
+    },
+    {
+      "obstacle": "A gi setup is attempted after removing its essential grip.",
+      "solution": "Record fabric dependence and select a different demonstrated entry when appropriate."
+    },
+    {
+      "obstacle": "The attacker abandons a useful pass for a loose submission grip.",
+      "solution": "Compare the likely positional result with the control actually available."
+    },
+    {
+      "obstacle": "An advanced foot-lock attempt surprises the partner.",
+      "solution": "Use a separate coached recognition drill with an agreed catch-and-release endpoint."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Darce entry comparison",
+      "description": "Describe what differs between the chosen side-control and half-guard starts.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies head-and-arm access",
+        "Recognises lost balance"
+      ]
+    },
+    {
+      "metric_name": "Grip-context fit",
+      "description": "Check whether the selected triangle setup fits the practice context.",
+      "proficiency_indicators": [
+        "Identifies fabric grips",
+        "Chooses a grounded entry",
+        "Can explain a missing grip"
+      ]
+    },
+    {
+      "metric_name": "Foot-opportunity recognition",
+      "description": "Review recognition of the selected Estima-lock entry without pressure.",
+      "proficiency_indicators": [
+        "Names the passing context",
+        "Identifies the offered foot",
+        "Uses the agreed endpoint"
+      ]
+    },
+    {
+      "metric_name": "Positional judgement",
+      "description": "Assess the cost of pursuing an attack during movement.",
+      "proficiency_indicators": [
+        "Identifies the current position",
+        "Describes the tradeoff",
+        "Can decline an unsupported attack"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests two separate Darce entry rounds: one from side control and one from half guard. Stop at head-and-arm control and compare the available space. Add a grounded triangle track later. Keep Estima-lock recognition in a separate coached catch-and-release exercise so the opportunity can be discussed without a surprise joint-lock application.",
+    "progression_path": [
+      {
+        "stage": "Darce access",
+        "focus": "Recognise one side-control entry without finishing pressure."
+      },
+      {
+        "stage": "Context comparison",
+        "focus": "Study how half guard changes the same head-and-arm task."
+      },
+      {
+        "stage": "Second family",
+        "focus": "Choose one grounded triangle that fits the available grips."
+      },
+      {
+        "stage": "Selective integration",
+        "focus": "Recognise a submission opportunity and evaluate its positional cost."
+      }
+    ],
+    "common_mistakes": [
+      "Trying to connect every course technique into one chain.",
+      "Ignoring the fabric grips used by a selected guard entry.",
+      "Confusing spotting an Estima-lock opportunity with readiness to apply it."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Darce Choke",
+      "content_type": "Submission",
+      "relationship": "The first instructional track."
+    },
+    {
+      "name": "Darce Control",
+      "content_type": "Position",
+      "relationship": "A stopping point for the head-and-arm entry drill."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "A top Darce entry context."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "An alternative Darce context to compare."
+    },
+    {
+      "name": "Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "The second instructional track."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "A grounded triangle entry setting."
+    },
+    {
+      "name": "Spider Guard",
+      "content_type": "Position",
+      "relationship": "A gi-dependent guard context to distinguish."
+    },
+    {
+      "name": "Estima Lock",
+      "content_type": "Submission",
+      "relationship": "A separate advanced foot-lock topic."
+    },
+    {
+      "name": "Leg Drag Control",
+      "content_type": "Position",
+      "relationship": "A passing context for opportunity recognition."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "A useful comparison when evaluating the cost of an attack."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why begin Mission Submission study with one attacking track?",
+      "answer": "Darce, triangle and Estima-lock entries arise in different exchanges; choosing one familiar track makes the practice objective clearer."
+    },
+    {
+      "question": "What should be compared between side-control and half-guard Darce entries?",
+      "answer": "Compare access to the head-and-arm relationship, available space and balance before assuming the same entry works unchanged."
+    },
+    {
+      "question": "Why record the fabric grips in a triangle setup?",
+      "answer": "Some course entries rely on gi controls, so removing those grips changes the setup and may require choosing a different entry."
+    },
+    {
+      "question": "How should an Estima-lock entry first be studied?",
+      "answer": "Use a separate coached recognition and catch-and-release exercise with an agreed endpoint, rather than surprising a partner during passing."
+    },
+    {
+      "question": "What decision accompanies a submission opportunity during a pass?",
+      "answer": "Evaluate whether the available control justifies pursuing the attack and which positional advantage would be surrendered to do so."
+    },
+    {
+      "question": "Why use grounded triangle entries early in this plan?",
+      "answer": "A familiar grounded context makes the grip and control problems easier to study before adding the demands of more dynamic entries."
+    }
+  ],
+  "products": [
+    {
+      "id": "mission-submission-by-edwin-najmi",
+      "title": "Mission Submission",
+      "instructor": "Edwin Najmi",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/mission-submission-by-edwin-najmi?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Three specialised submission tracks: Darce entries, triangle setups and Estima-lock opportunities.",
+      "best_for": "Experienced students seeking focused attacking options; the course mixes gi-specific setups and advanced submissions rather than providing a beginner curriculum.",
+      "study_focus": "Start with the Darce section and compare side-control and half-guard entries before selecting a second track.",
+      "practice_tip": "BJJGraph suggestion: stop each Darce entry at control and record whether pursuing it improved or weakened your position."
+    }
+  ]
+}

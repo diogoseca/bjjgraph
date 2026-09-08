@@ -1,0 +1,247 @@
+{
+  "name": "Danaher Armbar System",
+  "description": "Study the Danaher armbar system through entry, control and grip-separation decisions, with linked positions, practical review questions and a focused course guide.",
+  "summary": "The Danaher Armbar System is a BJJGraph study framework for treating the armbar as an entry, control and decision process before attempting a finish.",
+  "overview": "Arm Bars: Enter The System provides a detailed course companion for a familiar problem: reaching an armbar position while the defender can still turn, connect their hands or recover posture. Its published contents separate entry and control from later stages and include work from guard, mount and other positions.\n\nBJJGraph organises those topics below into an original study plan. Begin by identifying which stage is failing in your own rounds. Someone who loses the arm during entry needs a different practice task from someone who retains the position but cannot deal with a defensive grip. Use coached demonstrations for the technical details and treat the control position as a useful stopping point for drills.",
+  "tags": [
+    "bjj",
+    "system",
+    "armbar",
+    "no-gi",
+    "submission-control"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "key_principles": [
+    "Separate reaching the armbar position from securing the arm.",
+    "Check control of the shoulder as well as the wrist.",
+    "Reassess body orientation when the defender turns instead of pulling harder.",
+    "Treat joined hands as a grip-separation problem before attempting extension.",
+    "Compare top and bottom entries by the control they preserve.",
+    "Release immediately on a tap or request to stop."
+  ],
+  "key_components": [
+    {
+      "component_name": "Entry selection",
+      "description": "Choose a guard or mount entry and identify the moment the targeted arm becomes separated from the defender's torso.",
+      "purpose": "Locate the start of the control task."
+    },
+    {
+      "component_name": "Armbar position retention",
+      "description": "Check whether the defender can withdraw the elbow or rotate the shoulder while the attacker maintains the chosen configuration.",
+      "purpose": "Find the source of an escape before discussing the finish."
+    },
+    {
+      "component_name": "Defensive-grip recognition",
+      "description": "Identify how the defender joins their hands and study the corresponding separation option without racing into extension.",
+      "purpose": "Replace an undirected pulling contest with a specific problem."
+    },
+    {
+      "component_name": "Orientation changes",
+      "description": "Compare the same armbar control while the defender lies on their back and while they begin to turn.",
+      "purpose": "Understand why a configuration may require adjustment."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose top or bottom",
+      "description": "Start from one familiar mount or guard entry. Record where control of the elbow and shoulder first becomes available."
+    },
+    {
+      "step_number": 2,
+      "phase": "Stop at the armbar position",
+      "description": "End repetitions before any finishing pressure. Let the defender make a small, agreed attempt to retract the elbow so both partners can assess retention."
+    },
+    {
+      "step_number": 3,
+      "phase": "Add a defensive grip",
+      "description": "Have the defender connect their hands in one agreed way. Study the matching separation lesson with a coach and reset before extension."
+    },
+    {
+      "step_number": 4,
+      "phase": "Test a change of orientation",
+      "description": "Allow a slow turn. Notice whether the original control follows the shoulder or leaves room for the arm to escape."
+    },
+    {
+      "step_number": 5,
+      "phase": "Compare the entry with the outcome",
+      "description": "Return to the starting mount or guard and repeat the full control sequence. Count retained positions separately from completed submissions."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The elbow escapes during the transition.",
+      "solution": "Shorten the entry and stop at the moment shoulder control disappears."
+    },
+    {
+      "obstacle": "The attacker pulls against joined hands without changing the situation.",
+      "solution": "Name the grip and return to a specific separation study task."
+    },
+    {
+      "obstacle": "A turn is treated as a cue to extend faster.",
+      "solution": "Remove finishing pressure and examine how the armbar position follows the turn."
+    },
+    {
+      "obstacle": "Top and bottom armbar results are mixed together.",
+      "solution": "Track the starting position so improvements can be attributed to the relevant entry."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Entry retention",
+      "description": "Observe whether the target arm remains controlled at the end of the transition.",
+      "proficiency_indicators": [
+        "Names the entry",
+        "Identifies elbow withdrawal",
+        "Can stop in the control position"
+      ]
+    },
+    {
+      "metric_name": "Grip diagnosis",
+      "description": "Assess recognition of the defensive hand connection.",
+      "proficiency_indicators": [
+        "Describes the grip",
+        "Selects a relevant lesson",
+        "Separates the drill from extension"
+      ]
+    },
+    {
+      "metric_name": "Orientation awareness",
+      "description": "Check what changes when the defender turns.",
+      "proficiency_indicators": [
+        "Notices shoulder movement",
+        "Identifies lost control",
+        "Resets before forcing a finish"
+      ]
+    },
+    {
+      "metric_name": "Stage-specific review",
+      "description": "Classify the limiting problem after each short round.",
+      "proficiency_indicators": [
+        "Distinguishes entry failure",
+        "Distinguishes control failure",
+        "Distinguishes grip-separation difficulty"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests a stop-at-control drill: begin with a familiar mount entry, pause in the armbar position and let the defender make a small elbow-withdrawal attempt. In a separate round, add one defensive hand grip. Keep separation work distinct from finishing pressure so a coach can identify whether entry, retention or grip management needs attention.",
+    "progression_path": [
+      {
+        "stage": "Entry",
+        "focus": "Reach the chosen armbar position without losing the targeted arm."
+      },
+      {
+        "stage": "Retention",
+        "focus": "Observe elbow withdrawal and shoulder-turn responses."
+      },
+      {
+        "stage": "Separation",
+        "focus": "Study one joined-hands problem with a clear reset."
+      },
+      {
+        "stage": "Connection",
+        "focus": "Combine the same entry and control task under modest resistance."
+      }
+    ],
+    "common_mistakes": [
+      "Changing the entry before understanding why the elbow escapes.",
+      "Using extension pressure to compensate for lost shoulder control.",
+      "Measuring all armbar practice by taps alone."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "Primary submission family for further technical reading."
+    },
+    {
+      "name": "Armbar Control",
+      "content_type": "Position",
+      "relationship": "The position at which entry drills can stop."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "A top-position entry context."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "A bottom-position entry context."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "An adjacent top position for later study."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Another upper-body control context."
+    },
+    {
+      "name": "Wedges",
+      "content_type": "Principle",
+      "relationship": "Helps explain retained contact during orientation changes."
+    },
+    {
+      "name": "Levers",
+      "content_type": "Principle",
+      "relationship": "Background for understanding mechanical advantage."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Provides vocabulary for defensive hand connections."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "The principal objective of the retention drill."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why separate armbar entry and control in practice?",
+      "answer": "An entry can reach the right location while still allowing elbow withdrawal; evaluating control reveals whether the next stage is actually available."
+    },
+    {
+      "question": "What should a grip-separation drill identify first?",
+      "answer": "Identify the defender's hand connection before selecting a separation method, and keep that task distinct from applying armbar extension."
+    },
+    {
+      "question": "What does repeated elbow withdrawal suggest you should review?",
+      "answer": "Review the entry and shoulder-control transition rather than assuming the finishing mechanics are the only problem."
+    },
+    {
+      "question": "How should you study a defender turning during an armbar?",
+      "answer": "Use slow movement without finishing pressure to see which connections remain useful and where the arm becomes free."
+    },
+    {
+      "question": "Why record whether an armbar began from mount or guard?",
+      "answer": "The entry and balance problems differ, so keeping their results separate makes it easier to choose the next useful practice task."
+    },
+    {
+      "question": "What is a useful endpoint for an armbar entry drill?",
+      "answer": "Stop in an agreed armbar control position that both partners recognise, without needing a submission finish to count the entry."
+    }
+  ],
+  "products": [
+    {
+      "id": "enter-the-system-arm-bar-by-john-danaher",
+      "title": "Arm Bars: Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A dedicated armbar course covering control, defensive-grip separation and entries from top and bottom.",
+      "best_for": "Students who know a basic armbar but need to diagnose where entries or control fail; the depth makes it a study reference rather than a quick overview.",
+      "study_focus": "Begin with the stage overview, then compare control in volume two with separation in volume three.",
+      "practice_tip": "BJJGraph suggestion: pause after a mount entry and test elbow retention before adding any defensive grip or finishing pressure."
+    }
+  ]
+}

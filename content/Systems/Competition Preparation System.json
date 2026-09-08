@@ -12,8 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "summary": "The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.",
-  "overview": "Competition preparation in Brazilian Jiu-Jitsu extends far beyond technical proficiency. A comprehensive competition preparation system integrates physical conditioning, mental fortitude, strategic game planning, nutritional optimization, and tactical adaptation to create peak performance on competition day. This framework addresses the complete athlete preparation cycle from initial tournament selection through post-competition analysis, ensuring systematic development of competitive skills alongside technical ability. The modern competition landscape demands not only technical excellence but also psychological resilience, strategic adaptability, and intelligent energy management across multiple matches. Champions distinguish themselves through superior preparation methodologies that address physical readiness, mental conditioning, tactical planning, and recovery protocols. This system provides the structured framework necessary to transform training room performance into competition success, bridging the gap between technical knowledge and competitive execution through systematic preparation protocols.",
+  "summary": "The Competition Preparation System connects a BJJ game plan with focused practice, tournament logistics, coach communication, and post-event review so competitors can rehearse the demands of competition day.",
+  "overview": "Tournament preparation involves choices that ordinary classes may leave open: which exchanges to rehearse, what to pack, how to organize arrival and warm-up, and how to communicate with a coach. This framework connects those decisions to a game plan and a review process. Preparation can make the day more familiar, while outcomes still depend on the opponent, execution, and circumstances.\n\nMatt D'Aquino's Competition Preparation Masterclass offers a relevant combat-sports perspective on this process. The published syllabus covers training, tournament logistics, strategy, and the coach-athlete relationship. Its judo background is useful context when deciding which ideas to adapt with a BJJ coach. The routines below are BJJGraph suggestions, and event-specific requirements should be checked with the organizer.",
   "key_principles": [
     "Systematic periodization of training intensity leading to competition peak",
     "Mental rehearsal and visualization techniques for competitive scenarios",
@@ -526,6 +526,21 @@
           "Hard sparring day before weigh-in"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "daquino-competition-preparation-masterclass",
+      "title": "Competition Preparation Masterclass",
+      "instructor": "Matt D'Aquino",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A combat-sports preparation course from a judo instructor, with modules on competition-specific training, packing and travel, match strategy, coach communication, and post-event review.",
+      "best_for": "Competitors building their first tournament checklist or improving an existing routine. Apply its general preparation ideas with your BJJ coach; the course is not a current BJJ rules guide.",
+      "study_focus": "Start with the training introduction and tournament logistics, then review strategy and the coach-athlete relationship. Use the post-event section to plan a structured debrief.",
+      "practice_tip": "BJJGraph suggestion: rehearse arrival, warm-up, a timed practice match, and a brief debrief. Identify one logistical problem and one technical priority to resolve before the event."
     }
   ]
 }

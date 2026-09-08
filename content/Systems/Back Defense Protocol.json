@@ -1,6 +1,6 @@
 {
   "name": "Back Defense Protocol",
-  "description": "Master back defense in BJJ with systematic escape protocols. Learn hand fighting, hip escapes, and recovery strategies. Complete defensive framework for all skill levels.",
+  "description": "Study back-control escapes through hand fighting, hook management, and guard recovery, with a BJJGraph practice guide to Brian Glick's BJJ Fanatics course.",
   "tags": [
     "bjj",
     "defense",
@@ -11,7 +11,7 @@
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
   "summary": "The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.",
-  "overview": "Back control is widely considered the most dominant position in Brazilian Jiu-Jitsu, handing the attacker the seatbelt grip, two hooks, and direct access to the neck — which is precisely why a structured escape methodology matters more here than almost anywhere else on the mat. This protocol replaces panicked scrambling with a disciplined hierarchy of defensive actions: protect the neck, fight the grips, build frames, hip escape, clear the hooks, and recover guard or standing. Each phase is deliberately sequenced so that survival is never sacrificed for escape speed — the practitioner only advances to the next stage once the previous threat is neutralized. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced grapplers, and because it targets the position rather than any single submission, it remains effective against rear naked chokes, collar chokes, body-triangle control, and arm attacks alike. Mastering this protocol builds the calm, methodical mindset needed to work back to safety under sustained pressure.",
+  "overview": "Start by identifying what currently prevents your escape: access to your neck, control of your shoulders, or control of your hips. Protecting the neck remains a priority while you improve the other two. Moving your hips without accounting for the attacking hands can turn a positional problem into a submission.\n\nThis is an independent BJJGraph practice framework. Brian Glick's Only Way Out: Dynamic Back Escapes is a directly relevant optional instructional: its published syllabus includes defensive hand fighting, escapes to either side, body triangles, and guard recovery. Use the course for technical demonstrations and this page to organize partner practice. Begin with one starting configuration and one recoverable destination; add the attacker's reactions once you can explain why the initial escape works.",
   "key_principles": [
     "Chin protection is the absolute priority - survival before escape",
     "Hand fighting disrupts choking mechanics and buys time",
@@ -135,43 +135,39 @@
   ],
   "assessment_metrics": [
     {
-      "metric_name": "Survival Time Under Back Control",
-      "description": "Measure how long you can maintain defensive position without getting submitted when starting from established back control during positional sparring",
+      "metric_name": "Threat recognition",
+      "description": "Review which threat you addressed first in each round.",
       "proficiency_indicators": [
-        "Beginner: 30-60 seconds against equal skill opponents",
-        "Intermediate: 2-3 minutes against equal skill opponents",
-        "Advanced: Can survive indefinitely while working escapes against equal skill opponents",
-        "Expert: Can survive and escape against higher belts regularly"
+        "Identify the choking arm before moving.",
+        "Notice when an arm becomes trapped.",
+        "Pause positional progress when neck defense breaks down."
       ]
     },
     {
-      "metric_name": "Escape Success Rate",
-      "description": "Track percentage of back control situations where you successfully return to guard or neutral position during live training",
+      "metric_name": "Upper-body freedom",
+      "description": "Observe whether your escape changes shoulder control.",
       "proficiency_indicators": [
-        "Beginner: 20-30% escape rate against equal skill",
-        "Intermediate: 50-60% escape rate against equal skill",
-        "Advanced: 70-80% escape rate against equal skill",
-        "Expert: 60%+ escape rate against higher skill opponents"
+        "Explain which grip prevents your turn.",
+        "Keep hand protection during the initial movement.",
+        "Recognize when the attacker reconnects chest to back."
       ]
     },
     {
-      "metric_name": "Technical Efficiency During Escape",
-      "description": "Evaluate whether escapes follow systematic protocol versus random explosive movements. Coach or training partner assessment of technique quality.",
+      "metric_name": "Hook management",
+      "description": "Track which lower-body control blocks recovery.",
       "proficiency_indicators": [
-        "Follows chin protection protocol automatically without thinking",
-        "Creates frames before attempting hip movement",
-        "Executes hip escapes in proper sequence",
-        "Maintains defensive integrity throughout entire escape process"
+        "Distinguish two hooks from a body triangle.",
+        "Clear the blocking hook without ignoring the hands.",
+        "Reset the drill when the starting configuration changes."
       ]
     },
     {
-      "metric_name": "Recovery Position Quality",
-      "description": "Assess what position you achieve after escaping back control and how secure that position is",
+      "metric_name": "Stable recovery",
+      "description": "Record the position reached and whether it can be held.",
       "proficiency_indicators": [
-        "Beginner: Reaches turtle or open guard but often gets passed immediately",
-        "Intermediate: Establishes closed guard or combat base with basic control",
-        "Advanced: Recovers to closed guard with strong grips and posture control",
-        "Expert: Can choose recovery position strategically and establish immediate advantage"
+        "Recover guard with usable frames.",
+        "Avoid treating a brief turn as a completed escape.",
+        "Identify the attacker's first reattachment attempt."
       ]
     }
   ],
@@ -179,34 +175,20 @@
     "drilling_approach": "Begin with static positional drilling where partner has back control but doesn't actively finish. Practice the full escape sequence slowly, focusing on each phase. Progress to progressive resistance where partner defends your escape attempts but doesn't counter-attack. Finally, add full resistance positional sparring with back control as starting position. Dedicate at least 10 minutes per training session to back escape drilling, rotating partners to experience different body types and control styles. Film your escapes periodically to identify technical breakdowns in your protocol.",
     "progression_path": [
       {
-        "stage": "Foundation Phase",
-        "focus": "Master basic chin protection and frame creation. Build comfort being in back control without panicking.",
-        "timeframe": "Weeks 1-4"
+        "stage": "Recognize the controls",
+        "focus": "Map the hands, shoulder connection, and leg configuration with a cooperative partner."
       },
       {
-        "stage": "Technical Development Phase",
-        "focus": "Learn complete hip escape sequences. Practice clearing hooks methodically. Develop sensitivity to opponent's weight distribution.",
-        "timeframe": "Weeks 5-12"
+        "stage": "Build one route",
+        "focus": "Practice a single escape to guard from a consistent starting configuration."
       },
       {
-        "stage": "Integration Phase",
-        "focus": "Combine all elements into fluid escape sequences. Begin recognizing which escape variation to use based on opponent's control style.",
-        "timeframe": "Weeks 13-24"
+        "stage": "Add a reaction",
+        "focus": "Let the partner reattach a hook or change hand control so you can identify the next problem."
       },
       {
-        "stage": "Refinement Phase",
-        "focus": "Develop high-percentage escapes that work consistently. Learn to defend while simultaneously setting up escapes. Begin countering opponent's adjustments.",
-        "timeframe": "Months 7-12"
-      },
-      {
-        "stage": "Advanced Application Phase",
-        "focus": "Escape against higher belts regularly. Develop ability to recover to advantageous positions. Integrate re-guard strategies seamlessly.",
-        "timeframe": "Year 2+"
-      },
-      {
-        "stage": "Mastery Phase",
-        "focus": "Teach others the protocol effectively. Develop personalized variations based on body type. Escape becomes automatic under stress.",
-        "timeframe": "Year 3+"
+        "stage": "Integrate resistance",
+        "focus": "Use short positional rounds; progress when the sequence remains controlled, not after a fixed number of weeks."
       }
     ],
     "common_mistakes": [
@@ -462,6 +444,21 @@
           "Turn belly-down and stay flat"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "only-way-out-dynamic-back-escapes-by-brian-glick",
+      "title": "Only Way Out: Dynamic Back Escapes",
+      "instructor": "Brian Glick",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A focused match for this guide: the published syllabus connects hand fighting, hook management, body-triangle escapes, and guard recovery.",
+      "best_for": "Grapplers who want detailed work on escaping back control. This is a positional study choice rather than a general escape curriculum.",
+      "study_focus": "Begin with the rear-mount overview and defensive hand-fighting fundamentals, then choose the overhook-side or underhook-side escape section that matches your starting position.",
+      "practice_tip": "BJJGraph drill: start with a seatbelt and two hooks, agree on light resistance, and score a repetition only after the neck is protected and you have stabilized a guard recovery."
     }
   ]
 }

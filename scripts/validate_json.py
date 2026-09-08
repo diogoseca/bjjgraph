@@ -314,10 +314,10 @@ def validate_products(data, category):
         image = str(p.get("image", ""))
         if not url:
             warnings.append(f"{loc} ('{title}'): missing affiliate_url")
-        elif "REPLACE_ME" in url or "placehold.co" in image:
+        elif "placehold.co" in image:
             warnings.append(
-                f"{loc} ('{title}'): placeholder affiliate_url/image not yet replaced "
-                f"with a real BJJFanatics link"
+                f"{loc} ('{title}'): placeholder cover image; use verified course artwork "
+                f"or omit the image. The referral placeholder is expected until build time."
             )
         status = str(p.get("link_status", "")).lower()
         if status and status != "live":

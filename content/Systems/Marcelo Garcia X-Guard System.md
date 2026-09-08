@@ -4,7 +4,7 @@
 
 ---
 title: "Marcelo Garcia X-Guard System | BJJ System | BJJ Graph"
-description: "Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery."
+description: "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -69,7 +69,7 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Marcelo Garcia X-Guard System",
-  "description": "Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery.",
+  "description": "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Marcelo-Garcia-X-Guard-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -146,7 +146,7 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Marcelo Garcia X-Guard System",
-  "description": "The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.",
+  "description": "X-guard gives you a way to work underneath a standing opponent and affect their balance.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -165,9 +165,11 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 
 ## What is Marcelo Garcia X-Guard System?
 
-**The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.**
+**X-guard gives you a way to work underneath a standing opponent and affect their balance.**
 
-Marcelo Garcia's X-Guard System represents one of the most dominant guard frameworks in modern Brazilian Jiu-Jitsu. This systematic approach transforms the X-Guard from a single position into a comprehensive attacking platform that seamlessly connects entries, sweeps, back takes, and submissions. Unlike traditional guards that rely on grips and frames, the X-Guard uses precise leg positioning and weight distribution to create mechanical advantages that work against opponents of any size. The system's genius lies in its interconnected nature - every defensive response from the opponent opens a new attacking opportunity, creating the dilemmas that define high-level guard play. Marcelo refined this system through years of competition at the highest levels, developing entry sequences from standing, seated, and butterfly positions that flow naturally into powerful sweeping mechanics. The X-Guard's core principle of elevating and off-balancing the opponent while maintaining control through leg hooks creates opportunities for both sweeps and transitions to more dominant positions like the back or mount.
+X-guard gives you a way to work underneath a standing opponent and affect their balance. Connect a familiar butterfly or shin-to-shin entry to one sweep, then learn how your choice changes when the opponent shifts their weight.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -176,15 +178,37 @@ Marcelo Garcia's X-Guard System represents one of the most dominant guard framew
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Marcelo Garcia X-Guard System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 23 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="marcelo-garcia-x-guard-formula">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Marcelo X Guard</h3>
+<p class="product-card__instructor">with Marcelo Garcia</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Guard players who want to move underneath a standing opponent and finish on top.</p>
+<p class="product-card__blurb">Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-x-guard-system&utm_term=marcelo-garcia-x-guard-formula" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="marcelo-garcia-x-guard-formula" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -314,6 +338,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Begin with an entry you already use, then compare the stand-up, tilt and push-back sweep options.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-x-guard-system&utm_term=marcelo-garcia-x-guard-formula" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="marcelo-garcia-x-guard-formula" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Marcelo X Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -427,5 +462,16 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Practise one entry and ask your partner to shift their weight. Choose the sweep direction from their balance rather than forcing a preset finish.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-x-guard-system&utm_term=marcelo-garcia-x-guard-formula" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="marcelo-garcia-x-guard-formula" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Marcelo X Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

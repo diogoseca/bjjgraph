@@ -1,0 +1,247 @@
+{
+  "name": "Bernardo Faria Omoplata System",
+  "description": "Study Bernardo Faria omoplata entries and defensive reactions with a focused course guide, connected guard positions and clear submission-versus-sweep decisions.",
+  "summary": "The Bernardo Faria Omoplata System is a BJJGraph study framework for connecting omoplata entries with control, defensive-reaction recognition and the choice between attacking and taking top position.",
+  "overview": "Omoplata Everyone offers a focused instructional destination for this shoulder-lock family. Its contents include gi-grip entries, standing and rolling reactions, related attacks and the decision to give up the submission for a positional result. The title is the course name, not a promise that an omoplata will work on every opponent.\n\nBJJGraph's original plan below begins with a closed-guard entry and treats the resulting control as its own skill. A defender standing, rolling or connecting their hands presents a different problem each time. Practise identifying those reactions before choosing a response, and keep a sweep or guard-recovery option available when the original attack no longer fits.",
+  "tags": [
+    "bjj",
+    "system",
+    "omoplata",
+    "gi",
+    "submission-chain"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Intermediate",
+  "key_principles": [
+    "Treat entry and retained omoplata control as different stages.",
+    "Track the defender's posture before selecting the next response.",
+    "Recognise the role of sleeve, belt or lapel grips in a chosen gi setup.",
+    "Distinguish maintaining a shoulder attack from accepting a positional result.",
+    "Compare standing and rolling reactions in separate drills.",
+    "Use controlled movement and release shoulder-lock pressure immediately on a partner signal."
+  ],
+  "key_components": [
+    {
+      "component_name": "Closed-guard entry",
+      "description": "Select a sleeve-based entry and identify the point at which the arm is captured in the intended omoplata configuration.",
+      "purpose": "Create a familiar starting sequence for the study plan."
+    },
+    {
+      "component_name": "Posture response",
+      "description": "Observe whether the defender remains low or begins to stand and identify how that changes the available connection.",
+      "purpose": "Choose a response based on posture rather than a memorised continuation."
+    },
+    {
+      "component_name": "Roll and grip defence",
+      "description": "Compare a controlled rolling response with a joined-hands defence without assuming they require the same answer.",
+      "purpose": "Separate distinct obstacles to continued shoulder control."
+    },
+    {
+      "component_name": "Submission-to-position choice",
+      "description": "Assess when keeping the attack is useful and when accepting top position gives a clearer outcome.",
+      "purpose": "Make the positional branch an intentional part of the system."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose one gi entry",
+      "description": "Start with the closed-guard sleeve-grip lesson. Note which fabric controls are essential and stop at the intended omoplata position."
+    },
+    {
+      "step_number": 2,
+      "phase": "Confirm retained control",
+      "description": "Have the partner make a small posture adjustment without rolling. Observe whether the arm remains captured before considering the finish."
+    },
+    {
+      "step_number": 3,
+      "phase": "Study the standing response",
+      "description": "Review the relevant section with a coach and practise recognising the posture change without forcing shoulder pressure."
+    },
+    {
+      "step_number": 4,
+      "phase": "Compare the rolling defence",
+      "description": "Use a separate cooperative round with an agreed roll and endpoint. Determine whether the attack can be retained or whether a positional result is available."
+    },
+    {
+      "step_number": 5,
+      "phase": "Choose the outcome",
+      "description": "Repeat the original entry with one of the two agreed reactions. State whether the next goal is continued control, top position or guard recovery."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The entry depends on a sleeve grip that the student has not established.",
+      "solution": "Rebuild the entry from its actual grip requirements before opening guard."
+    },
+    {
+      "obstacle": "Standing and rolling defences are treated as the same reaction.",
+      "solution": "Practise them in separate rounds and name the change before responding."
+    },
+    {
+      "obstacle": "The attacker retains a shoulder lock while the partner rolls unpredictably.",
+      "solution": "Reset and use a cooperative, coach-approved rolling drill with no finishing pressure."
+    },
+    {
+      "obstacle": "A useful sweep is declined because the original submission did not finish.",
+      "solution": "Review the positional result as a legitimate branch and practise stabilising top position."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Grip-to-entry clarity",
+      "description": "Assess the relationship between the gi grip and the initial capture.",
+      "proficiency_indicators": [
+        "Names the essential grip",
+        "Recognises the captured arm",
+        "Stops at the control position"
+      ]
+    },
+    {
+      "metric_name": "Reaction discrimination",
+      "description": "Identify the defender's chosen posture change.",
+      "proficiency_indicators": [
+        "Distinguishes standing",
+        "Distinguishes rolling",
+        "Recognises a joined-hands defence"
+      ]
+    },
+    {
+      "metric_name": "Control continuity",
+      "description": "Check what remains after a defensive movement.",
+      "proficiency_indicators": [
+        "Tracks the arm",
+        "Notices a lost connection",
+        "Resets before forcing the shoulder"
+      ]
+    },
+    {
+      "metric_name": "Outcome selection",
+      "description": "Review the chosen goal after the reaction.",
+      "proficiency_indicators": [
+        "Can retain the attack when appropriate",
+        "Can accept top position",
+        "Can choose guard recovery"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests a closed-guard entry followed by two separate reaction rounds. In the first, the partner begins a slow standing response; in the second, use a coach-approved cooperative roll with a clear stopping point. Apply no finishing pressure during the comparison. Name whether the next objective is retained control, a positional result or guard recovery.",
+    "progression_path": [
+      {
+        "stage": "Entry",
+        "focus": "Establish the sleeve-based capture from closed guard."
+      },
+      {
+        "stage": "Posture",
+        "focus": "Recognise a slow standing response."
+      },
+      {
+        "stage": "Rolling",
+        "focus": "Compare a cooperative roll with a fixed endpoint."
+      },
+      {
+        "stage": "Choice",
+        "focus": "Select continued attack, top position or guard recovery from the observed reaction."
+      }
+    ],
+    "common_mistakes": [
+      "Skipping the gi grips needed for the chosen entry.",
+      "Forcing the same response against standing and rolling defences.",
+      "Treating a sweep as a failed submission instead of a useful outcome."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Omoplata",
+      "content_type": "Submission",
+      "relationship": "The primary shoulder-lock reference."
+    },
+    {
+      "name": "Omoplata Control",
+      "content_type": "Position",
+      "relationship": "The intended stopping point after entry."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "The first entry context."
+    },
+    {
+      "name": "Lasso Guard",
+      "content_type": "Position",
+      "relationship": "Another gi-grip context for later study."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "A different guard entry context."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "A further starting position to compare."
+    },
+    {
+      "name": "Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "A related attack with separate control requirements."
+    },
+    {
+      "name": "Monoplata",
+      "content_type": "Submission",
+      "relationship": "A neighbouring shoulder-lock configuration."
+    },
+    {
+      "name": "Sleeve Control",
+      "content_type": "Principle",
+      "relationship": "Explains the role of the initial gi grip."
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Frames the decision after a posture change."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why record the gi grips used in an omoplata entry?",
+      "answer": "Sleeve, belt or lapel controls may be essential to the chosen setup, so removing them changes the entry and its available control."
+    },
+    {
+      "question": "What should be identified before responding to an omoplata defence?",
+      "answer": "Name whether the defender is standing, rolling or connecting their hands, because these are different control problems."
+    },
+    {
+      "question": "Why stop an early omoplata drill at control rather than a finish?",
+      "answer": "It allows both partners to assess the captured arm and posture without using shoulder-lock pressure to conceal an unstable entry."
+    },
+    {
+      "question": "How should a rolling defence be introduced?",
+      "answer": "Use a cooperative, coach-approved movement with a clear endpoint and no finishing pressure while the positional response is being learned."
+    },
+    {
+      "question": "When is taking top position a useful omoplata outcome?",
+      "answer": "It is useful when the reaction offers a stable positional result and continuing the shoulder attack would require chasing lost control."
+    },
+    {
+      "question": "Does the course title mean the omoplata is guaranteed to work?",
+      "answer": "No. It is the vendor's course title; the study plan treats control, defensive reactions and positional alternatives as conditional decisions."
+    }
+  ],
+  "products": [
+    {
+      "id": "omoplata-everyone-by-bernardo-faria",
+      "title": "Omoplata Everyone",
+      "instructor": "Bernardo Faria",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "An omoplata-focused course with gi entries, standing and rolling defences, and a positional branch when the finish is unavailable.",
+      "best_for": "Gi students who already know a basic omoplata and want reaction-specific troubleshooting; several setups depend on fabric grips.",
+      "study_focus": "Start with the closed-guard sleeve entry, then compare standing reactions with the later rolling-defence and positional-result sections.",
+      "practice_tip": "BJJGraph suggestion: separate standing and rolling response rounds and name whether your next objective is control or top position."
+    }
+  ]
+}

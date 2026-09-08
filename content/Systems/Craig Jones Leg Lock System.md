@@ -4,7 +4,7 @@
 
 ---
 title: "Craig Jones Leg Lock System | BJJ System | BJJ Graph"
-description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg attack framework with systematic entries, control positions, and submission chains. Competition-proven methodology."
+description: "A focused introduction to Craig’s leg-attack approach, with entries, entanglements and finishing details. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -69,7 +69,7 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Craig Jones Leg Lock System",
-  "description": "Master Craig Jones Leg Lock System in BJJ. High-percentage leg attack framework with systematic entries, control positions, and submission chains. Competition-proven methodology.",
+  "description": "A focused introduction to Craig’s leg-attack approach, with entries, entanglements and finishing details. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Craig-Jones-Leg-Lock-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -154,7 +154,7 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Craig Jones Leg Lock System",
-  "description": "The Craig Jones Leg Lock System is a modern, competition-proven framework for lower-body submissions that prioritizes high-percentage control—chiefly the saddle (inside sankaku)—and dual-leg dilemma attacks to force defensive errors and finish heel hooks.",
+  "description": "This guide organizes Craig Jones-style leg attacks around entry, entanglement control and responses to movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -173,9 +173,11 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 
 ## What is Craig Jones Leg Lock System?
 
-**The Craig Jones Leg Lock System is a modern, competition-proven framework for lower-body submissions that prioritizes high-percentage control—chiefly the saddle (inside sankaku)—and dual-leg dilemma attacks to force defensive errors and finish heel hooks.**
+**This guide organizes Craig Jones-style leg attacks around entry, entanglement control and responses to movement.**
 
-Developed and popularized by Australian black belt Craig Jones through his submission-only competition success and his widely studied instructionals, this framework distills modern leg locking into a compact set of reliable control positions and finishing chains. Unlike traditional leg lock approaches that rely on explosive entries and raw athleticism, it emphasizes positional control, opponent management, and creating genuine submission threats from stable configurations. The system integrates seamlessly with contemporary guard passing and top game strategies, allowing practitioners to transition fluidly between leg attacks and traditional positional advancement. Jones's methodology centers on the saddle position (inside sankaku) as the primary control platform, with systematic pathways to enter, maintain, and finish from this dominant configuration. The approach emphasizes controlling the opponent's ability to clear their trapped leg while simultaneously attacking both the near and far leg, creating dilemmas that force defensive errors. This dual-threat framework prevents common escape sequences and maintains offensive pressure throughout the engagement.
+This guide organizes Craig Jones-style leg attacks around entry, entanglement control and responses to movement. Start with one position you can recognize and retain under resistance, then add another option when the initial attack is unavailable.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -184,15 +186,37 @@ Developed and popularized by Australian black belt Craig Jones through his submi
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Craig Jones Leg Lock System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 25 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="down-under-leg-attacks-by-craig-jones">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Down Under Leg Attacks</h3>
+<p class="product-card__instructor">with Craig Jones</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> No-gi students exploring Craig’s leg attacks alongside coached positional practice.</p>
+<p class="product-card__blurb">A focused introduction to Craig’s leg-attack approach, with entries, entanglements and finishing details.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-leg-lock-system&utm_term=down-under-leg-attacks-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -322,6 +346,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Use the course contents to select one entry and its control position before adding alternative attacks.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-leg-lock-system&utm_term=down-under-leg-attacks-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Down Under Leg Attacks &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -439,5 +474,16 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Begin inside one entanglement and practise recognizing when control is lost. Reset instead of chasing a heel through an escape.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-leg-lock-system&utm_term=down-under-leg-attacks-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Down Under Leg Attacks &rarr;</a></p>
+</section>
+
+
 
 </main>

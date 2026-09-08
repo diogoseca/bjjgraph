@@ -4,7 +4,7 @@
 
 ---
 title: "Bernardo Faria Pressure System | BJJ System | BJJ Graph"
-description: "Master Bernardo Faria's legendary pressure passing system. Learn systematic top pressure, weight distribution, and control principles that won 5 World Championships."
+description: "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -69,7 +69,7 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Bernardo Faria Pressure System",
-  "description": "Master Bernardo Faria's legendary pressure passing system. Learn systematic top pressure, weight distribution, and control principles that won 5 World Championships.",
+  "description": "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Bernardo-Faria-Pressure-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -146,7 +146,7 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Bernardo Faria Pressure System",
-  "description": "The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.",
+  "description": "Pressure passing depends on connection and weight placement.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -165,9 +165,11 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 
 ## What is Bernardo Faria Pressure System?
 
-**The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.**
+**Pressure passing depends on connection and weight placement.**
 
-Forged across years of elite gi competition that produced five IBJJF World Championships, this top game emerged from a deliberate rejection of speed and athleticism in favor of weight, timing, and relentless patience. Rather than scrambling to pass, the practitioner makes opponents carry bodyweight on their hips, chest, and shoulders until their guard collapses from exhaustion. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.
+Pressure passing depends on connection and weight placement. This guide examines how to limit hip movement, advance past the legs and settle into control. The linked instructional focuses on Bernardo’s no-gi approach, including over-under passing.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -176,15 +178,37 @@ Forged across years of elite gi competition that produced five IBJJF World Champ
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Bernardo Faria Pressure System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 28 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="no-gi-pressure-passing-by-bernardo-faria">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">No Gi Pressure Passing</h3>
+<p class="product-card__instructor">with Bernardo Faria</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students developing close-range passing. This course focuses on no-gi rather than gi-specific grip details.</p>
+<p class="product-card__blurb">Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -311,6 +335,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Study the over-under controls first, then the adjustments that keep the opponent from recovering guard.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: No Gi Pressure Passing &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -430,5 +465,16 @@ Begin with static positional drilling focusing on proper weight distribution and
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Enter the over-under position cooperatively, then add resistance to retaining the connection. Judge progress by control rather than speed.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: No Gi Pressure Passing &rarr;</a></p>
+</section>
+
+
 
 </main>

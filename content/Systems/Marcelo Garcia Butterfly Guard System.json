@@ -1,6 +1,6 @@
 {
   "name": "Marcelo Garcia Butterfly Guard System",
-  "description": "Master Marcelo Garcia's revolutionary butterfly guard system. Learn systematic sweeps, back takes, and transitions from the seated guard position with technical precision.",
+  "description": "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "summary": "The Marcelo Garcia Butterfly Guard System is a dynamic seated-guard framework that uses active butterfly hooks, an underhook, and high head position to chain elevation sweeps, arm-drag back takes, single-leg-X entries, and guillotines into forced dilemmas.",
-  "overview": "Marcelo Garcia's Butterfly Guard System represents one of the most effective and proven guard systems in modern Brazilian Jiu-Jitsu. Built around active hooks, superior positioning, and explosive timing, this system emphasizes constant off-balancing and aggressive sweep attempts. Unlike static guard systems that rely on grips and stalling, Marcelo's approach focuses on dynamic movement, creating angles, and capitalizing on opponent reactions. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, making it essential for MMA and submission grappling competitors. At its core, the butterfly guard uses inside positioning with both feet as hooks under the opponent's thighs, combined with underhook control and head positioning to create sweeping opportunities. The beauty of this system lies in its simplicity and high success rate across all skill levels. Marcelo refined this approach through decades of competition at the highest levels, proving its effectiveness against world-class opponents. The system connects seamlessly to back takes, guillotine attacks, and transitions to other guard positions, making it a complete framework rather than isolated techniques.",
+  "summary": "Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight.",
+  "overview": "Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight. This guide connects seated engagement, off-balancing and follow-up attacks so that a blocked sweep can lead to another decision.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Maintain active butterfly hooks at all times to control distance and create sweeping leverage",
     "Secure at least one underhook to prevent opponent's crossface and enable offensive attacks",
@@ -445,6 +445,21 @@
           "Push into the crossface harder"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-complete-butterfly-guard-by-marcelo-garcia",
+      "title": "The Complete Butterfly Guard",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks.",
+      "best_for": "Students building a seated guard who want more detail on connections and timing.",
+      "study_focus": "Start with the butterfly control and sweep material, then explore the connections to your existing guard.",
+      "practice_tip": "Work from seated guard against a kneeling partner. Establish your upper-body connection before testing whether the hook can elevate them."
     }
   ]
 }

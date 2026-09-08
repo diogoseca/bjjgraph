@@ -227,6 +227,11 @@
   },
   "related_content": [
     {
+      "name": "Cage Clinch to Ground System",
+      "content_type": "System",
+      "relationship": "Focused study plan linking cage clinch, a takedown, and stable top control with a directly matched Neiman Gracie course"
+    },
+    {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
       "relationship": "Foundational no-gi system that provides technical base for MMA adaptation"
@@ -370,11 +375,6 @@
       "name": "Base",
       "content_type": "Principle",
       "relationship": "Fundamental principle adapted for strike-aware balance and posture"
-    },
-    {
-      "name": "Energy Conservation",
-      "content_type": "Principle",
-      "relationship": "Pacing principle accounting for increased cardio demands of MMA"
     }
   ],
   "flashcards": [

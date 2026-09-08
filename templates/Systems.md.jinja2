@@ -109,6 +109,15 @@ description: "{{description}}"
 
 </section>
 
+{% macro course_next_step(p, placement, heading, note, label) %}
+<section id="course-{{ placement }}" class="content-section system-study-free" data-course-placement="{{ placement }}">
+<h2>{{ heading }}</h2>
+<p>{{ note | e }}</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="0" data-placement="{{ placement }}">{{ label }}: {{ p.title | e }} &rarr;</a></p>
+</section>
+{% endmacro %}
+
 {% set member_count = (related_content | rejectattr('content_type', 'equalto', 'System') | list | length) %}
 {# Only a product whose affiliate_url was OPENED and confirmed to resolve to that exact
    instructional may render (content/Systems/*.json → link_status: "live", link_checked: date).
@@ -120,9 +129,9 @@ description: "{{description}}"
 {% if live_products %}
 <section id="unlock-this-system" class="content-section product-cards">
 
-## Unlock This System
+## Study this system with BJJ Fanatics
 
-<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
 
 <!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
      and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
@@ -141,20 +150,20 @@ description: "{{description}}"
 <div class="product-card__body">
 <h3 class="product-card__title">{{ p.title }}</h3>
 {% if p.instructor %}<p class="product-card__instructor">with {{ p.instructor }}</p>{% endif %}
-<span class="product-card__unlocks-badge">Unlocks {{ member_count }} technique{{ 's' if member_count != 1 else '' }} in this system</span>
+{% if p.best_for %}<p class="product-card__blurb"><strong>Who it suits:</strong> {{ p.best_for | e }}</p>{% endif %}
 {% if p.blurb %}<p class="product-card__blurb">{{ p.blurb }}</p>{% endif %}
 </div>
-<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}">{# NO PRICE IN THE LABEL. price_usd is authored reference data we cannot keep fresh — every
+<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}" data-placement="overview">{# NO PRICE IN THE LABEL. price_usd is authored reference data we cannot keep fresh — every
    value on file was wrong (by up to 3.6x) when checked against the vendor on 2026-08-09, and
    "Get it · $97" landing on a $349 checkout is the same broken promise as a dead link. The
-   vendor's own page is the only truthful price surface. #}Get the instructional <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+   vendor's own page is the only truthful price surface. #}View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
 </article>
 {% endfor %}
 </div>
 
 </section>
 {% else %}
-{# NO VERIFIED PRODUCT — the common case (44 of 47 systems). The page must still look finished
+{# NO VERIFIED PRODUCT — a system without a close, verified course match. The page must still look finished
    and still teach, so the slot the product cards would have filled carries the FREE next step
    instead of an empty region. Deliberately no outbound vendor link: a generic shop URL nobody
    verified would be exactly the guess this pipeline forbids. #}
@@ -223,6 +232,10 @@ Key points:
 
 </section>
 
+{% if live_products %}
+{{ course_next_step(live_products[0], 'sequence', 'Where to begin in the instructional', live_products[0].study_focus | default('Choose the syllabus section that matches the sequence you are practising.'), 'Explore the course contents on BJJ Fanatics') }}
+{% endif %}
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -274,5 +287,9 @@ Proficiency indicators:
 {% endfor %}
 
 </section>
+
+{% if live_products %}
+{{ course_next_step(live_products[0], 'practice', 'Take one idea into your next session', live_products[0].practice_tip | default('Pick one part of this system to practise with your coach, then revisit the relevant lesson.'), 'Check the sample and current price on BJJ Fanatics') }}
+{% endif %}
 
 </main>

@@ -12,8 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "summary": "The Mental Game Framework is a competition-focused psychological system that builds emotional regulation, breath control, position-based decision trees, and pressure inoculation into measurable, daily mental training for Brazilian Jiu-Jitsu.",
-  "overview": "Two competitors with nearly identical technical games are routinely separated by what happens between the ears—who stays composed when behind on points, who keeps attacking when fatigued, and who makes clean reads under pressure. This system addresses the critical mental components that separate good competitors from great ones: emotional regulation under pressure, strategic decision-making in real-time, and the development of an offensive mindset that maintains composure regardless of position. The framework integrates cognitive strategies, visualization techniques, and pressure inoculation training to build mental resilience. Unlike technical systems that focus purely on physical execution, this framework recognizes that matches are often won or lost based on psychological factors—the ability to stay calm when behind on points, make intelligent decisions when fatigued, and maintain offensive creativity when under defensive pressure. The system is built around three core pillars: pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, position-based decision trees, energy management), and post-competition analysis (honest self-assessment, pattern recognition, continuous improvement). This holistic approach ensures that mental training becomes as systematic and measurable as physical training.",
+  "summary": "The Mental Game Framework organizes BJJ competition practice into preparation, attention during exchanges, and post-round reflection, using repeatable routines to support decisions under pressure.",
+  "overview": "Training rounds give you repeated chances to notice how attention changes under pressure. This framework organizes that practice around preparation before the round, a useful next action during exchanges, and a short review afterward. Its aim is a routine you can repeat and adjust, without assuming that composure alone determines a match result.\n\nJosh McKinney's Champions Stay Present is a close instructional match for the competition side of this work. Its published syllabus includes goal setting, competition-day preparation, and post-event analysis. Use those themes alongside the exercises below; the position-based drills are BJJGraph practice suggestions rather than a description of the course's exact exercises.",
   "key_principles": [
     "Maintain offensive mindset regardless of position or score",
     "Use controlled breathing to regulate emotional state and decision-making quality",
@@ -438,6 +438,21 @@
           "Stall and run out the clock"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "mckinney-champions-stay-present",
+      "title": "Champions Stay Present",
+      "instructor": "Josh McKinney",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A BJJ competition mindset course covering goal setting, training-camp preparation, competition-day focus, and reviewing performances. It fits the preparation, execution, and reflection cycle in this framework.",
+      "best_for": "Grapplers who want a repeatable mental routine alongside technical practice. It focuses on competing and does not cover every decision tree in this page.",
+      "study_focus": "Begin with the goal-setting volume, then the competition-day and post-competition analysis volumes. Compare their themes with one recent match or training round.",
+      "practice_tip": "BJJGraph suggestion: choose one attention cue before a positional round, note when attention drifts, and record the next useful action you took. Review the routine separately from the result."
     }
   ]
 }

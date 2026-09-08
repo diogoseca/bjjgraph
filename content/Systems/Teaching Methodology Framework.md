@@ -184,6 +184,8 @@ Synthesizing the most effective pedagogical principles from elite-level coaches,
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Teaching Methodology Framework?
@@ -324,6 +326,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -441,5 +445,7 @@ The drilling methodology follows a strict progressive resistance protocol that p
 
 
 </section>
+
+
 
 </main>

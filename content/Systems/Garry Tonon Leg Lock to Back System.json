@@ -1,6 +1,6 @@
 {
   "name": "Garry Tonon Leg Lock to Back System",
-  "description": "Master Garry Tonon's leg lock to back system. Learn seamless transitions between lower body attacks and back control. High-percentage competition system.",
+  "description": "Connects wrestling and scrambles with back exposure, leg entanglements and submission entries. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "summary": "The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.",
-  "overview": "The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal—every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.",
+  "summary": "A wrestling exchange can expose either the legs or the back as the opponent reacts.",
+  "overview": "A wrestling exchange can expose either the legs or the back as the opponent reacts. This guide connects those opportunities without treating every scramble as a submission attempt. Garry’s wrestling-and-submission course provides broader context for studying the transitions.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Attack cycling between lower body submissions and back control creates inescapable dilemmas",
     "Defensive movements against leg locks naturally expose back taking opportunities",
@@ -494,6 +494,21 @@
           "Chasing every submission equally"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "shoot-to-kill-wrestle-scramble-submit-by-garry-tonon",
+      "title": "Shoot To Kill: Wrestle, Scramble, Submit",
+      "instructor": "Garry Tonon",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects wrestling and scrambles with back exposure, leg entanglements and submission entries.",
+      "best_for": "Students exploring links between wrestling and submissions. This is broader than a leg-lock-to-back-only course.",
+      "study_focus": "Look for the back-exposure and leg-entry material that matches your preferred wrestling exchange.",
+      "practice_tip": "Choose one controlled scramble with your coach. Practise recognizing the back or leg opening without rushing into a jumping entry."
     }
   ]
 }

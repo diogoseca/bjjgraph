@@ -4,7 +4,7 @@
 
 ---
 title: "Garry Tonon Leg Lock to Back System | BJJ System | BJJ Graph"
-description: "Master Garry Tonon's leg lock to back system. Learn seamless transitions between lower body attacks and back control. High-percentage competition system."
+description: "Connects wrestling and scrambles with back exposure, leg entanglements and submission entries. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Garry Tonon Leg Lock to Back System",
-  "description": "Master Garry Tonon's leg lock to back system. Learn seamless transitions between lower body attacks and back control. High-percentage competition system.",
+  "description": "Connects wrestling and scrambles with back exposure, leg entanglements and submission entries. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Garry-Tonon-Leg-Lock-to-Back-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Garry Tonon Leg Lock to Back System",
-  "description": "The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.",
+  "description": "A wrestling exchange can expose either the legs or the back as the opponent reacts.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,9 +159,11 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 
 ## What is Garry Tonon Leg Lock to Back System?
 
-**The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.**
+**A wrestling exchange can expose either the legs or the back as the opponent reacts.**
 
-The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal—every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.
+A wrestling exchange can expose either the legs or the back as the opponent reacts. This guide connects those opportunities without treating every scramble as a submission attempt. Garry’s wrestling-and-submission course provides broader context for studying the transitions.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -170,15 +172,37 @@ The Garry Tonon Leg Lock to Back System represents one of the most sophisticated
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Garry Tonon Leg Lock to Back System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 26 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Shoot To Kill: Wrestle, Scramble, Submit</h3>
+<p class="product-card__instructor">with Garry Tonon</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students exploring links between wrestling and submissions. This is broader than a leg-lock-to-back-only course.</p>
+<p class="product-card__blurb">Connects wrestling and scrambles with back exposure, leg entanglements and submission entries.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=garry-tonon-leg-lock-to-back-system&utm_term=shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -296,6 +320,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Look for the back-exposure and leg-entry material that matches your preferred wrestling exchange.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=garry-tonon-leg-lock-to-back-system&utm_term=shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Shoot To Kill: Wrestle, Scramble, Submit &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -410,5 +445,16 @@ The system requires both isolated component drilling and integrated flow trainin
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Choose one controlled scramble with your coach. Practise recognizing the back or leg opening without rushing into a jumping entry.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=garry-tonon-leg-lock-to-back-system&utm_term=shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Shoot To Kill: Wrestle, Scramble, Submit &rarr;</a></p>
+</section>
+
+
 
 </main>

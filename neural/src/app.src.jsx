@@ -856,6 +856,7 @@ class Component extends DCLogic {
         system_name: a.getAttribute("data-system-name") || null,
         vendor: a.getAttribute("data-vendor") || null,
         position: a.hasAttribute("data-position") ? Number(a.getAttribute("data-position")) : null,
+        placement: a.getAttribute("data-placement") || null,
       });
     });
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
@@ -6794,13 +6795,60 @@ class Component extends DCLogic {
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
-      for (const s of all) {
-        const meta = [s.difficulty, s.type].filter(Boolean).join(" \u00b7 ");
-        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(s.name) + '</span>' + (meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(meta) + '</span>' : ""), 22, () => this.openSystem(s.id));
-        row.setAttribute("data-system-row", s.id);
-        row.style.pointerEvents = "auto";
-        list.appendChild(row);
+      // Session-local browsing state: only the selector changes it. Detail/back, pane folds,
+      // and deferred payload renders preserve it; a fresh app instance starts with all systems.
+      const typeCounts = new Map();
+      for (const s of all) if (s.type) typeCounts.set(s.type, (typeCounts.get(s.type) || 0) + 1);
+      if (!typeCounts.has(this._systemTypeFilter)) this._systemTypeFilter = "";
+      const controls = document.createElement("div");
+      controls.className = "ng-system-filter";
+      const label = document.createElement("label");
+      label.htmlFor = "ng-system-topic";
+      label.textContent = "System topic";
+      const select = document.createElement("select");
+      select.id = "ng-system-topic";
+      select.setAttribute("data-system-filter", "1");
+      select.style.pointerEvents = "auto";
+      const option = (value, text) => {
+        const el = document.createElement("option");
+        el.value = value;
+        el.textContent = text;
+        select.appendChild(el);
+      };
+      option("", "All systems (" + all.length + ")");
+      for (const [type, count] of [...typeCounts].sort((a, b) => a[0].localeCompare(b[0]))) {
+        option(type, type + " (" + count + ")");
       }
+      select.value = this._systemTypeFilter;
+      select.addEventListener("pointerdown", (e) => e.stopPropagation());
+      select.addEventListener("keydown", (e) => e.stopPropagation());
+      const count = document.createElement("span");
+      count.id = "ng-system-match-count";
+      count.setAttribute("data-system-match-count", "1");
+      count.setAttribute("role", "status");
+      select.setAttribute("aria-describedby", count.id);
+      controls.append(label, select, count);
+      list.appendChild(controls);
+      const rows = document.createElement("div");
+      rows.setAttribute("data-system-results", "1");
+      list.appendChild(rows);
+      const renderRows = () => {
+        rows.replaceChildren();
+        const matches = all.filter((s) => !this._systemTypeFilter || s.type === this._systemTypeFilter);
+        count.textContent = matches.length + " of " + all.length + " systems";
+        for (const s of matches) {
+          const meta = [s.difficulty, s.type].filter(Boolean).join(" \u00b7 ");
+          const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(s.name) + '</span>' + (meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(meta) + '</span>' : ""), 22, () => this.openSystem(s.id));
+          row.setAttribute("data-system-row", s.id);
+          row.style.pointerEvents = "auto";
+          rows.appendChild(row);
+        }
+      };
+      select.addEventListener("change", () => {
+        this._systemTypeFilter = select.value;
+        renderRows(); // Keep the native control and keyboard focus mounted while results change.
+      });
+      renderRows();
     };
     const renderGraphGroup = (pair) => {
       const label = pair[0], key = pair[1];
@@ -8595,7 +8643,8 @@ class Component extends DCLogic {
     const s = this._systemsById[id]; if (!s) return;
     const E = (v) => this.escHTML(v);
     const idxs = this.systemNodeIdxs(s);
-    const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 All systems</span>', 12, () => this.closeSystem());
+    const systemBody = this._systemBody(s); // One body lookup per render; hydration re-renders this view.
+    const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 Back to systems</span>', 12, () => this.closeSystem());
     back.setAttribute("data-system-back", "1");
     back.style.pointerEvents = "auto";
     list.appendChild(back);
@@ -8613,10 +8662,18 @@ class Component extends DCLogic {
     // (content/Systems/*.json link_status:"live" — see regenerate_neural_data._products); this
     // shape check is the second belt, so a malformed entry renders nothing rather than a dead CTA.
     const products = (Array.isArray(s.products) ? s.products : []).filter((p) => p && typeof p.url === "string" && /^https?:\/\//i.test(p.url));
-    if (products.length) {
+    const courseShelf = (placement) => {
+      if (!products.length) return null;
       const shelf = document.createElement("div");
       shelf.className = "ng-system-courses";
       shelf.setAttribute("data-system-courses", "1");
+      shelf.setAttribute("data-course-placement", placement);
+      const selected = placement === "overview" ? products : products.slice(0, 1);
+      const labels = {
+        overview: "VIEW COURSE & SYLLABUS ON BJJ FANATICS",
+        sequence: "EXPLORE THE COURSE CONTENTS ON BJJ FANATICS",
+        practice: "CHECK SAMPLE & CURRENT PRICE ON BJJ FANATICS",
+      };
       // PROXIMATE DISCLOSURE — legally required, and required HERE. FTC 16 CFR Part 255 and the
       // UK ASA/CAP code both want it clear, conspicuous and CLOSE TO THE LINK; the site-wide
       // statement in terms.md is the backstop, not the disclosure. It renders above the cards so
@@ -8633,7 +8690,13 @@ class Component extends DCLogic {
       // monetised link then structurally cannot render without it. e2e/journeys/systems-surface
       // asserts that order in the live DOM and scripts/check_affiliate_surface.py asserts it in
       // this source \u2014 the compliance claim is gated, not merely intended.
-      products.forEach((p, i) => {
+      selected.forEach((p, i) => {
+        const note = document.createElement("p");
+        note.className = "ng-system-course-note";
+        note.textContent = placement === "sequence" ? p.study_focus || "Choose the syllabus section that matches your training focus." :
+          placement === "practice" ? p.practice_tip || "Choose one idea to practise with your coach, then revisit the lesson." :
+          [p.blurb, p.best_for].filter(Boolean).join(" ");
+        if (note.textContent) shelf.insertBefore(note, disc);
         const a = document.createElement("a");
         a.className = "ng-system-cta";
         a.setAttribute("data-system-cta", "1");
@@ -8647,22 +8710,31 @@ class Component extends DCLogic {
         a.setAttribute("data-system-name", s.name || "");
         a.setAttribute("data-vendor", String(p.vendor || "bjjfanatics").toLowerCase());
         a.setAttribute("data-position", String(i));
+        a.setAttribute("data-placement", placement);
         a.href = this.affiliateHref(p.url, s, p);  // authored URL + utm only; never synthesized
         a.target = "_blank";
         a.rel = "sponsored nofollow noopener";     // byte-for-byte the page's rel
         a.style.pointerEvents = "auto";
-        a.innerHTML = "<span><small>LEARN IT FROM THE SOURCE</small><b>" + E(p.name || "See the course") + "</b>" +
+        a.innerHTML = "<span><small>" + E(labels[placement]) + "</small><b>" + E(p.name || "See the course") + "</b>" +
           (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">\u2197</i>';
-        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null, product_id: p.id || null, position: i }));
+        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null, product_id: p.id || null, position: i, placement }));
         shelf.appendChild(a);
       });
-      list.appendChild(shelf);
-    }
+      return shelf;
+    };
+    const appendCourses = (placement) => {
+      const shelf = courseShelf(placement);
+      if (shelf) list.appendChild(shelf);
+    };
+    appendCourses("overview");
     // ── THE GLUE ── A system is not a node and not merely a set of nodes: it is the set plus the
     // reason they belong together. Two authored layers carry that and neither was ever surfaced:
     // `sequence` (the ordered narrative — do this, then this) and each member's `role` (what that
     // technique DOES here). Without them a selection is just a constellation lighting up.
-    const seq = Array.isArray(s.sequence) ? s.sequence : [];
+    // New indexes defer the spine with the dossier; cached older indexes still carry it inline.
+    // Course shelves below remain available while the deferred body is loading or retrying.
+    const seq = Array.isArray(s.sequence) ? s.sequence :
+      (systemBody && Array.isArray(systemBody.sequence) ? systemBody.sequence : []);
     if (seq.length) {
       const spine = document.createElement("ol");
       spine.className = "ng-system-sequence";
@@ -8673,6 +8745,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">How it runs</span>', 12));
       list.appendChild(spine);
     }
+    appendCourses("sequence");
     if (idxs.length) {
       // Derived progress, never self-reported: this app's canon is that mastery is recall-proven
       // (MC can never mint it), so a "mark as known" button would let a claim outrank the evidence.
@@ -8796,14 +8869,15 @@ class Component extends DCLogic {
     // and how to know it is working: ~20KB per system, 145,746 words across the 47, and until
     // v1.155.3 the app read two fields of it (the summary and the sequence above). It rides the
     // same on-demand chunk a node dossier does, so it costs the boot payload nothing and the panel
-    // draws it when it lands — nothing above waits on it.
+    // draws it when it lands. The ordered spine hydrates with it; metadata, members, and course
+    // shelves remain available before the response arrives.
     //
     // LAST, not under the card, and that is a placement decision with a reason: a concept panel is
     // a READ and opens with its prose, but a System panel is an ACT — light the members, drill
     // them, buy the course — and the body is 12,396 chars on the first system alone. Putting it
     // second would bury "Drill this system" about seven screens down, which is a regression
     // dressed as content. The measured pane scroll height is 7,750px with the read at the end.
-    const doc = this._bodyDocHTML(this._systemBody(s), "System");
+    const doc = this._bodyDocHTML(systemBody, "System");
     if (doc) {
       const sec = document.createElement("div");
       sec.className = "ng-doc-body";
@@ -8811,6 +8885,7 @@ class Component extends DCLogic {
       sec.innerHTML = doc;
       list.appendChild(sec);
     }
+    appendCourses("practice");
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
   }

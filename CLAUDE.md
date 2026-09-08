@@ -639,8 +639,9 @@ of the below.
 - One funnel event on both surfaces: `affiliate_clickout`, delegated on `a[data-affiliate="true"]`,
   with `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=<system-slug>&utm_term=<product-id>`.
 - **The ref is injected at deploy time, never committed.** Content carries the literal
-  `?ref=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` into emitted
-  artifacts only. No secret set = warning, placeholder kept, exit 0.
+  `?rfsn=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` into emitted
+  artifacts only. Local builds read the gitignored root `.env`; CI environment takes precedence.
+  No ref configured = warning, placeholder kept, exit 0.
 
 **Proximate disclosure is mandatory** (FTC 16 CFR 255, UK ASA/CAP): it renders above the link, in
 the same block, uncollapsed, from two places — the app's CTA shelf and

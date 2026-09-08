@@ -183,3 +183,39 @@
   font: 700 12px/1 "Plus Jakarta Sans", sans-serif;
   cursor: pointer;
 }
+
+.ng-system-course-note {
+  margin: 0 0 4px;
+  color: #c4cde0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* A native selector keeps the full catalog available while narrowing a long Systems list. */
+.ng-system-filter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 6px;
+  padding: 8px 22px 12px;
+  color: #c4cde0;
+  font-size: 12px;
+}
+.ng-system-filter label { font-weight: 600; }
+.ng-system-filter select {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid rgba(169, 139, 255, 0.35);
+  border-radius: 7px;
+  background: #172033;
+  color: #eef1f6;
+  font: inherit;
+  color-scheme: dark;
+}
+.ng-system-filter select:focus-visible {
+  outline: 2px solid #a98bff;
+  outline-offset: 2px;
+}
+.ng-system-filter [data-system-match-count] { color: #9aa6bd; }

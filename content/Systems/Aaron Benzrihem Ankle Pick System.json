@@ -1,0 +1,263 @@
+{
+  "name": "Aaron Benzrihem Ankle Pick System",
+  "description": "Study gi ankle-pick connections with a focused Aaron Benzrihem course match, practical partner drills, clear decisions, and ways to review your progress.",
+  "tags": [
+    "bjj",
+    "system",
+    "gi",
+    "gi-ankle-pick-connections"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "summary": "The Aaron Benzrihem Ankle Pick System links gi grips and off-balancing to same-side or cross-body ankle picks from standing, seated guard, and a three-point stance.",
+  "overview": "An ankle can be within reach without being a useful takedown target. Build the upper-body connection first, observe which foot the opponent makes available, and choose a finishing direction that matches the grip. Comparing standing and seated starts can help you see when the same idea needs a different entry.\n\nBasics To Advanced: Ankle Picks For Jiu Jitsu by Aaron Benzrihem is the matched instructional. Benzrihem distinguishes standing, seated, and three-point starts, with same-side and cross-body finishes and setups from feints and grip changes. The drills, sequence, and assessment criteria below are an original BJJGraph study plan; use them to organize practice alongside the course and feedback from a coach.",
+  "key_principles": [
+    "Choose the target ankle in relation to the upper-body grip.",
+    "Prompt a step before reaching down without support.",
+    "Keep standing and seated starting conditions distinct.",
+    "Maintain balance as the level changes.",
+    "Continue through the landing rather than stopping at ankle contact."
+  ],
+  "key_components": [
+    {
+      "component_name": "Grip and target relationship",
+      "description": "Choose one upper-body grip and identify whether the same-side or opposite ankle is the intended target before lowering your level.",
+      "purpose": "Connect the hand position to a specific attack."
+    },
+    {
+      "component_name": "Standing setup",
+      "description": "Use one reviewed feint or snap to prompt a step, then attempt the ankle contact only when that step appears.",
+      "purpose": "Create an observable entry cue."
+    },
+    {
+      "component_name": "Seated connection",
+      "description": "From seated guard, preserve the selected upper-body grip while rehearsing the move toward the ankle at a cooperative pace.",
+      "purpose": "Test what changes when starting below the opponent."
+    },
+    {
+      "component_name": "Finishing direction",
+      "description": "Begin with ankle contact established and practice the agreed finish while the defender gives a single balance reaction.",
+      "purpose": "Separate touching the ankle from completing the takedown."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Grip and target relationship",
+      "description": "BJJGraph study task: Choose one upper-body grip and identify whether the same-side or opposite ankle is the intended target before lowering your level.",
+      "key_points": [
+        "Connect the hand position to a specific attack."
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Standing setup",
+      "description": "BJJGraph study task: Use one reviewed feint or snap to prompt a step, then attempt the ankle contact only when that step appears.",
+      "key_points": [
+        "Create an observable entry cue."
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Seated connection",
+      "description": "BJJGraph study task: From seated guard, preserve the selected upper-body grip while rehearsing the move toward the ankle at a cooperative pace.",
+      "key_points": [
+        "Test what changes when starting below the opponent."
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Finishing direction",
+      "description": "BJJGraph study task: Begin with ankle contact established and practice the agreed finish while the defender gives a single balance reaction.",
+      "key_points": [
+        "Separate touching the ankle from completing the takedown."
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect and review",
+      "description": "Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "You touch the ankle but the opponent remains balanced.",
+      "solution": "Isolate the finishing direction and upper-body connection from a pre-established ankle grip."
+    },
+    {
+      "obstacle": "The level change breaks your own posture.",
+      "solution": "Reduce the reach and rehearse the entry with a coach at a cooperative pace."
+    },
+    {
+      "obstacle": "A standing setup is copied unchanged from seated guard.",
+      "solution": "Review the different starting position and preserve the relevant grip while rebuilding the entry."
+    },
+    {
+      "obstacle": "Every feint is followed by an attack even when no step occurs.",
+      "solution": "Require the selected movement cue before attempting ankle contact."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Grip and target relationship",
+      "description": "Connect the hand position to a specific attack.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for grip and target relationship.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Standing setup",
+      "description": "Create an observable entry cue.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for standing setup.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Seated connection",
+      "description": "Test what changes when starting below the opponent.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for seated connection.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Finishing direction",
+      "description": "Separate touching the ankle from completing the takedown.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for finishing direction.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: Choose one upper-body grip and identify whether the same-side or opposite ankle is the intended target before lowering your level. Then connect it to standing setup. Compare the first lost control point after each round. Keep the first repetitions cooperative and agree on resistance, space, and reset conditions. Once the starting task is clear, add one defensive option at a time and compare the result with the intended control objective.",
+    "progression_path": [
+      {
+        "stage": "1. Grip and target relationship",
+        "focus": "Connect the hand position to a specific attack. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "2. Standing setup",
+        "focus": "Create an observable entry cue. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "3. Seated connection",
+        "focus": "Test what changes when starting below the opponent. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "4. Finishing direction",
+        "focus": "Separate touching the ankle from completing the takedown. Use the corresponding component drill before broadening the defender's choices."
+      }
+    ],
+    "common_mistakes": [
+      "You touch the ankle but the opponent remains balanced.",
+      "The level change breaks your own posture.",
+      "A standing setup is copied unchanged from seated guard.",
+      "Every feint is followed by an attack even when no step occurs."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Standing Position",
+      "content_type": "Position",
+      "relationship": "Standing ankle-pick start"
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Bottom entry into a standing attack"
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Context for seated connections"
+    },
+    {
+      "name": "Clinch",
+      "content_type": "Position",
+      "relationship": "Standing grip exchanges"
+    },
+    {
+      "name": "Ankle Pick",
+      "content_type": "Transition",
+      "relationship": "Related takedown route"
+    },
+    {
+      "name": "Ankle Pick Sweep",
+      "content_type": "Transition",
+      "relationship": "Related attack from guard"
+    },
+    {
+      "name": "Collar Drag",
+      "content_type": "Transition",
+      "relationship": "Related grip-and-movement setup"
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Upper-body connection to the target"
+    },
+    {
+      "name": "Kuzushi",
+      "content_type": "Principle",
+      "relationship": "Off-balancing before the finish"
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance during level changes"
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Using a feint to prompt the step"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why is reaching the ankle insufficient to complete an ankle pick?",
+      "answer": "The opponent may remain balanced unless the upper-body connection and finishing direction also support the takedown."
+    },
+    {
+      "question": "How should you choose the target ankle?",
+      "answer": "Relate the intended same-side or cross-body target to the upper-body grip and the movement you are trying to create."
+    },
+    {
+      "question": "What should a standing setup produce before the attack?",
+      "answer": "It should prompt an observable step or balance change that makes the selected ankle available."
+    },
+    {
+      "question": "What changes when studying an ankle pick from seated guard?",
+      "answer": "The starting height and movement differ, so preserve the relevant grip and rebuild the entry instead of copying standing footwork."
+    },
+    {
+      "question": "How can you isolate a weak ankle-pick finish?",
+      "answer": "Begin with ankle contact already established and work on the agreed direction against one controlled balance reaction."
+    },
+    {
+      "question": "What should you do if a feint produces no useful step?",
+      "answer": "Maintain or rebuild the connection instead of automatically reaching for an ankle that has not become available."
+    }
+  ],
+  "products": [
+    {
+      "id": "basics-to-advanced-ankle-picks-for-jiu-jitsu-by-aaron-benzrihem",
+      "title": "Basics To Advanced: Ankle Picks For Jiu Jitsu",
+      "instructor": "Aaron Benzrihem",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/basics-to-advanced-ankle-picks-for-jiu-jitsu-by-aaron-benzrihem?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Benzrihem distinguishes standing, seated, and three-point starts, with same-side and cross-body finishes and setups from feints and grip changes.",
+      "best_for": "Gi players connecting a standing takedown to their seated guard game. The grip-focused syllabus is especially relevant if you already maintain collar or sleeve contact.",
+      "study_focus": "Begin with the starting-position comparison and finishing mechanics, then one standing setup and one seated entry before studying three-point variations.",
+      "practice_tip": "BJJGraph practice suggestion: Choose one upper-body grip and identify whether the same-side or opposite ankle is the intended target before lowering your level. Then connect it to standing setup. Compare the first lost control point after each round."
+    }
+  ]
+}

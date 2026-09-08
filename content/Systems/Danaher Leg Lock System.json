@@ -3,18 +3,19 @@
   "products": [
     {
       "id": "danaher-leglocks-enter-the-system",
-      "title": "Enter The System: Leglocks",
+      "title": "Leglocks: Enter The System",
       "instructor": "John Danaher",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/enter-the-system-leglocks-by-john-danaher?ref=REPLACE_ME",
-      "link_status": "dead",
-      "link_checked": "2026-08-09",
-      "image": "https://placehold.co/640x360/1e293b/ffffff?text=Enter+The+System%3A+Leglocks",
-      "blurb": "The complete leg-lock system that defined modern no-gi — ashi garami entries, controls, and breaking mechanics, taught step by step.",
-      "price_usd": 77
+      "affiliate_url": "https://bjjfanatics.com/products/leglocks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects inside position, ashi garami entries, knee-line control and leg attacks in a structured curriculum.",
+      "best_for": "No-gi students who want to understand control before adding more leg-lock entries.",
+      "study_focus": "Start with the inside-position and knee-line sections before studying the entry variations.",
+      "practice_tip": "With your coach, choose one entry and practise retaining the position while your partner works to free the knee. Reset before applying submission pressure."
     }
   ],
-  "description": "Master the Danaher Leg Lock System. Systematic framework for ashi-garami positions, leg control, and lower body submissions with 70%+ finish rates.",
+  "description": "Connects inside position, ashi garami entries, knee-line control and leg attacks in a structured curriculum. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -27,21 +28,21 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The Danaher Leg Lock System is a no-gi submission framework that treats ashi-garami leg entanglements as a positional hierarchy—establishing control, advancing position, and systematically breaking the leg before finishing with heel hooks and other lower-body submissions.",
-  "overview": "The Danaher Leg Lock System represents a paradigmatic shift in modern Brazilian Jiu-Jitsu, transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Developed by John Danaher and perfected by his students at the Renzo Gracie Academy, this system treats leg entanglements as positions rather than submissions, establishing control hierarchies, transition pathways, and finishing mechanics that mirror traditional upper body systems.\n\nAt its core, the system is built upon the ashi-garami family of positions—a spectrum of leg entanglements ranging from outside ashi-garami (least control) to inside sankaku (maximum control). Each position offers distinct control advantages, submission options, and transition pathways. The revolutionary aspect lies in treating these positions with the same systematic rigor as mount or back control, establishing clear objectives for control maintenance, position advancement, and systematic breaking before finishing.\n\nThe system's effectiveness stems from its emphasis on mechanical hierarchy over opportunism. Rather than attempting submissions from weak positions, practitioners learn to recognize positional deficiencies, advance through the hierarchy systematically, and only commit to finishing attempts from positions of overwhelming control. This approach has proven devastatingly effective in competition, with Danaher's students achieving unprecedented success through leg locks at the highest levels of no-gi grappling.",
+  "summary": "A leg entry is useful only if you can retain control when your partner moves.",
+  "overview": "A leg entry is useful only if you can retain control when your partner moves. This guide organizes ashi garami around inside position, knee-line retention and transitions between entanglements. The aim is to recognize when to hold, adjust or disengage before attempting a submission.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
-    "Position Before Submission - Establish dominant leg entanglement before attempting finishes",
-    "Control Hierarchy - Recognize and advance through ashi-garami positional spectrum",
-    "Systematic Breaking - Use structured approach to compromise defensive structures",
-    "Mechanical Advantage - Maximize leverage through proper body positioning and alignment",
-    "Entry Systems - Establish leg entanglements through systematic guard passing and transitions",
-    "Defensive Nullification - Remove opponent's escape options through positional dominance",
-    "Bite Point Optimization - Achieve ideal finishing position before applying force"
+    "Control Before Submission - Retain the entanglement before adding finishing pressure",
+    "Recognize the Position - Distinguish standard ashi, outside ashi and 50/50",
+    "Knee-Line Retention - Understand when the opponent can withdraw the knee",
+    "Manage Rotation - Recognize how movement changes the available controls",
+    "Build One Entry - Connect a familiar guard to a position you can maintain",
+    "Train Defense Alongside Attack - Recognize early escape opportunities with your coach",
+    "Use Controlled Practice - Reset when control is lost and release immediately on a tap"
   ],
   "key_components": [
     {
-      "component_name": "Ashi-Garami Positional Hierarchy",
-      "description": "The foundation of the system is the classification of leg entanglements into a spectrum from outside ashi-garami (50-50), through standard ashi-garami, to inside ashi-garami (4-11 position), saddle/honey hole position, and finally inside sankaku. Each position offers progressively greater control and finishing potential. Understanding this hierarchy allows practitioners to recognize when they have sufficient control to finish versus when they must advance position first.",
+      "component_name": "Leg Entanglements and Control",
+      "description": "Ashi garami describes a family of leg entanglements. Standard ashi, outside ashi and 50/50 have different control problems; 50/50 is not another name for outside ashi. Inside sankaku is also commonly called the saddle or honey hole, rather than being a separate step above them. Choose transitions based on knee-line control, rotation and the opponent’s available defenses.",
       "purpose": "Establish clear positional objectives and advancement pathways in leg entanglements"
     },
     {
@@ -50,9 +51,9 @@
       "purpose": "Create reliable pathways from common positions to leg entanglement control"
     },
     {
-      "component_name": "Breaking Mechanics",
-      "description": "The systematic approach to compromising defensive leg positioning involves specific sequences for removing inside heel exposure defense, straightening the leg, clearing the knee line, and achieving the ideal bite point for submission. These mechanics apply across all heel hook, toe hold, and knee attack variations, providing a unified framework for finishing from any ashi-garami position. The breaking system emphasizes gradual, systematic pressure over explosive finishing attempts.",
-      "purpose": "Establish reliable methods for compromising defensive structures and achieving finishing positions"
+      "component_name": "Submission Setup and Controlled Practice",
+      "description": "Finishing details depend on the submission and entanglement. Study them with a qualified coach after positional control is established. Retain the opponent’s knee line during the setup, avoid uncontrolled rotation, and release immediately on a tap.",
+      "purpose": "Connect positional control to supervised submission practice"
     },
     {
       "component_name": "Transition Pathways",
@@ -97,12 +98,11 @@
     {
       "step_number": 4,
       "phase": "Breaking Sequences",
-      "description": "Develop systematic breaking mechanics for straightening the leg, clearing the knee line, and achieving heel hook bite point",
+      "description": "Study the finishing setup for one submission with your coach after you can retain the position.",
       "key_points": [
-        "Learn inside heel exposure clearance techniques",
-        "Practice systematic leg extension under control",
-        "Master knee line clearance for optimal finishing angle",
-        "Develop sensitivity for recognizing ideal bite point achievement"
+        "Distinguish knee-line retention from the defender’s escape goal",
+        "Use cooperative practice before resistance",
+        "Release immediately on a tap and reset when control is lost"
       ]
     },
     {
@@ -152,24 +152,24 @@
   ],
   "common_obstacles": [
     {
-      "obstacle": "Premature Finishing Attempts - Students attempt heel hooks from insufficient control positions, leading to escapes and position loss",
-      "solution": "Emphasize position quality assessment before finishing. Establish clear control benchmarks (inside heel cleared, leg straight, knee line cleared) that must be achieved before committing to finish. Drill position advancement until it becomes automatic to improve position rather than force submissions."
+      "obstacle": "Chasing a finish before controlling the position",
+      "solution": "Start rounds with positional retention as the goal. Ask your partner to withdraw the knee, and reset when they escape rather than holding a finishing grip through uncontrolled movement."
     },
     {
       "obstacle": "Entry Difficulty - Practitioners struggle to reliably enter ashi-garami positions against aware opponents",
       "solution": "Develop systematic entry sequences from common positions rather than isolated techniques. Focus on single leg X-guard as primary gateway position, practice seated guard pulls with immediate leg entanglement, and integrate ashi entries into existing guard passing sequences to create multiple pathways."
     },
     {
-      "obstacle": "Positional Stagnation - Getting stuck in outside ashi-garami or 50-50 without ability to advance hierarchy",
-      "solution": "Drill specific transition sequences between ashi-garami positions until movement becomes fluid. Focus on recognizing defensive reactions that create advancement opportunities. Practice saddle position entry from all ashi configurations as ultimate control position."
+      "obstacle": "Treating every entanglement as a fixed step on a ladder",
+      "solution": "Study the control problem in the position you have. Outside ashi and 50/50 can have useful attacks; a transition is a choice based on the opponent’s defense, not a requirement to reach a single ideal position."
     },
     {
       "obstacle": "Defense Ignorance - Lack of understanding defensive priorities leads to dangerous training situations and injury risk",
       "solution": "Mandate comprehensive defensive instruction parallel to offensive system development. Ensure all practitioners understand inside heel exposure defense, safe rolling directions, and tap-early protocols. Establish training culture that prioritizes long-term safety over short-term submission success."
     },
     {
-      "obstacle": "Mechanical Confusion - Difficulty distinguishing between different heel hook, toe hold, and ankle lock mechanics from similar positions",
-      "solution": "Study each submission's specific mechanical requirements and ideal finishing configurations. Practice isolated breaking mechanics before combining with position control. Understand that inside heel hooks require hip rotation, outside heel hooks need knee line clearance, and toe holds demand figure-four ankle control with distinct mechanical emphasis for each."
+      "obstacle": "Confusing attacking control with defensive escape",
+      "solution": "The attacker generally wants to retain the opponent’s knee line, while the defender seeks to free it. Ask your coach to distinguish those roles before practising the details of an individual submission."
     }
   ],
   "assessment_metrics": [
@@ -177,7 +177,7 @@
       "metric_name": "Entry Success Rate",
       "description": "Measure ability to reliably establish ashi-garami positions from common starting points",
       "proficiency_indicators": [
-        "Can enter standard ashi-garami from single leg X-guard 70%+ of attempts",
+        "Can repeat the entry while keeping the knee line controlled as resistance increases",
         "Successfully transitions from seated guard to leg entanglement against resistance",
         "Recognizes and capitalizes on ashi-garami opportunities during guard passing sequences",
         "Establishes leg entanglement control within 30 seconds of engagement in training"
@@ -204,13 +204,12 @@
       ]
     },
     {
-      "metric_name": "Submission Finish Rate from Position",
-      "description": "Success rate of submission attempts when proper position has been established",
+      "metric_name": "Control During Submission Setup",
+      "description": "Assess whether the setup preserves position and allows controlled practice",
       "proficiency_indicators": [
-        "70%+ finish rate from saddle/honey hole position in training",
-        "50%+ finish rate from standard inside ashi-garami",
-        "Rarely loses position during finishing attempts",
-        "Can achieve tap with controlled, progressive pressure rather than explosive force"
+        "Retains the knee line while setting the grip",
+        "Recognizes loss of control and resets",
+        "Releases immediately on a tap"
       ]
     },
     {
@@ -259,12 +258,11 @@
       }
     ],
     "common_mistakes": [
-      "Attempting heel hooks from outside ashi or 50-50 without advancing position first",
-      "Neglecting defensive training and inside heel exposure protection fundamentals",
-      "Using explosive force for submissions rather than systematic positional breaking",
-      "Failing to establish hip-to-hip connection before attempting leg control",
-      "Ignoring upper body control, allowing opponents to frame and create escape space",
-      "Practicing only offensive system without understanding defensive priorities and injury prevention"
+      "Chasing a submission after losing the knee line",
+      "Treating 50/50 and outside ashi as the same position",
+      "Treating the saddle and inside sankaku as separate steps in a fixed hierarchy",
+      "Adding resistance before understanding the position",
+      "Using speed or force to compensate for lost control"
     ]
   },
   "related_content": [
@@ -281,17 +279,17 @@
     {
       "name": "Honey Hole",
       "content_type": "Position",
-      "relationship": "Maximum control configuration - primary finishing position in system hierarchy"
+      "relationship": "Common name for the inside sankaku entanglement"
     },
     {
       "name": "Outside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Entry-level position in hierarchy - starting point for advancement sequences"
+      "relationship": "Leg entanglement with specific rotation and knee-line control requirements"
     },
     {
       "name": "50-50 Guard",
       "content_type": "Position",
-      "relationship": "Outside ashi variation requiring position advancement for finishing opportunities"
+      "relationship": "Distinct shared leg entanglement with its own attacking and defensive choices"
     },
     {
       "name": "Single Leg X-Guard",
@@ -301,7 +299,7 @@
     {
       "name": "Inside Sankaku",
       "content_type": "Position",
-      "relationship": "Maximum control position at top of ashi-garami hierarchy"
+      "relationship": "Crossed-leg entanglement also commonly called the saddle or honey hole"
     },
     {
       "name": "De La Riva Guard",
@@ -321,7 +319,7 @@
     {
       "name": "Saddle",
       "content_type": "Position",
-      "relationship": "Elite control position offering highest percentage heel hook finishes"
+      "relationship": "Common name for the inside sankaku entanglement"
     },
     {
       "name": "Cross Ashi-Garami",
@@ -435,30 +433,30 @@
       }
     },
     {
-      "question": "How does the ashi-garami hierarchy progress from least to most control?",
-      "answer": "Control increases from outside ashi-garami and 50-50 (least), through standard ashi-garami, to inside ashi-garami, the saddle/honey hole, and finally inside sankaku, which offers maximum control and the highest-percentage heel hook finishes.",
-      "answer_line": "Sankaku is the highest control",
+      "question": "How are outside ashi, 50/50 and inside sankaku related?",
+      "answer": "Outside ashi and 50/50 are distinct entanglements. Inside sankaku is also commonly called the saddle or honey hole. Their usefulness depends on control and the opponent’s defenses rather than a fixed ladder.",
+      "answer_line": "Distinct positions; saddle is inside sankaku",
       "distractors": {
         "plausible": [
-          "50-50 offers the most control",
-          "Standard ashi is the ceiling"
+          "50/50 is another name for outside ashi",
+          "The saddle is a step below inside sankaku"
         ],
         "trap": [
-          "Outside ashi is best for heels"
+          "Every entanglement has identical controls"
         ]
       }
     },
     {
-      "question": "What control benchmarks must be met before committing to a heel hook?",
-      "answer": "The inside heel exposure defense must be cleared, the leg straightened, and the knee line cleared to reach the ideal bite point. Finishing before these are achieved typically leads to escapes and loss of position.",
-      "answer_line": "Clear defense, straighten, knee line",
+      "question": "What should be checked before adding a leg-lock finishing setup?",
+      "answer": "Check knee-line retention, control of movement and the requirements of the specific submission with your coach. If the partner can withdraw the knee or rotate beyond your control, reset or recover position.",
+      "answer_line": "Retain knee line and control movement",
       "distractors": {
         "plausible": [
-          "Secure the grip, then crank",
-          "Trap the leg, finish fast"
+          "Clear their knee before gripping",
+          "Hold the heel while they freely rotate"
         ],
         "trap": [
-          "Skip knee line, finish now"
+          "Finish faster when control is lost"
         ]
       }
     },
@@ -477,16 +475,16 @@
       }
     },
     {
-      "question": "What is the most common error practitioners make with this system, and how is it corrected?",
-      "answer": "Attempting heel hooks from weak positions like outside ashi or 50-50 without advancing the hierarchy first. The fix is drilling position advancement to the saddle until improving position becomes automatic before any finish.",
-      "answer_line": "Drill advancing to the saddle",
+      "question": "What should you do when you lose positional control during a leg attack?",
+      "answer": "Recover a useful entanglement or reset the exchange. Do not chase a finishing grip through uncontrolled movement; the next choice depends on the position and your partner’s reaction.",
+      "answer_line": "Recover control or reset",
       "distractors": {
         "plausible": [
-          "Practice heel hook grip strength",
-          "Memorize more submissions"
+          "Keep the grip and rotate faster",
+          "Always force a transition to saddle"
         ],
         "trap": [
-          "Finish heels from 50-50 guard"
+          "Finish regardless of knee position"
         ]
       }
     },
@@ -506,7 +504,7 @@
     },
     {
       "question": "How does the system's breaking approach differ from explosive leg-lock finishing?",
-      "answer": "It emphasizes gradual, systematic pressure, straightening the leg and clearing the knee line under control, rather than explosive cranking, which preserves position, reduces escape risk, and protects the training partner from injury.",
+      "answer": "It emphasizes gradual, systematic pressure, straightening the leg and retaining the knee line under control, rather than explosive cranking, which preserves position, reduces escape risk, and protects the training partner from injury.",
       "answer_line": "Steady straightening under control",
       "distractors": {
         "plausible": [

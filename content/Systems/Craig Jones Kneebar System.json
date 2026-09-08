@@ -1,0 +1,247 @@
+{
+  "name": "Craig Jones Kneebar System",
+  "description": "Explore Craig Jones kneebar entries through half guard, leg entanglements and passing contexts, with focused course guidance and clear positional practice goals.",
+  "summary": "The Craig Jones Kneebar System is a BJJGraph study guide for comparing kneebar control and entry decisions across guard, leg-entanglement and top-position contexts.",
+  "overview": "You Can't Knee bahh is a dedicated kneebar instructional whose published contents include foundational concepts, top and bottom half guard, 50/50, passing entries and later rolling study. It offers a more focused destination than a general leg-lock course for students investigating the kneebar itself.\n\nBJJGraph's original plan below compares two entry contexts before adding more variations. The central distinction is between reaching the leg and retaining the control needed for the selected kneebar configuration. A passing entry also carries a positional cost if the leg becomes free. Use a coach to select an appropriate configuration, agree permitted techniques, and end early drills at control rather than joint extension.",
+  "tags": [
+    "bjj",
+    "system",
+    "kneebar",
+    "no-gi",
+    "leg-locks"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Advanced",
+  "key_principles": [
+    "Distinguish a kneebar entry from a retained kneebar control position.",
+    "Compare top and bottom half-guard entries as different balance problems.",
+    "Identify which leg is targeted and which movement would release it.",
+    "Evaluate the top position being surrendered before committing to a passing entry.",
+    "Treat other leg-lock branches as separate techniques requiring separate agreement.",
+    "Use controlled catch-and-release practice instead of rapid extension."
+  ],
+  "key_components": [
+    {
+      "component_name": "Configuration recognition",
+      "description": "Study one demonstrated kneebar configuration and identify how the target leg remains connected before any finishing movement.",
+      "purpose": "Set a shared endpoint for entry practice."
+    },
+    {
+      "component_name": "Half-guard entry comparison",
+      "description": "Compare an entry from top half guard with one from bottom and describe the different balance demands.",
+      "purpose": "Find the version that best fits the practitioner's current game."
+    },
+    {
+      "component_name": "Entanglement transfer",
+      "description": "Observe how moving from an existing leg entanglement changes access to the targeted leg and surrounding control.",
+      "purpose": "Separate a familiar starting position from the new kneebar requirements."
+    },
+    {
+      "component_name": "Passing-to-attack tradeoff",
+      "description": "Review whether pursuing the leg from top improves the exchange or simply gives up a useful passing position.",
+      "purpose": "Keep kneebar opportunities connected to positional judgement."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Set the control endpoint",
+      "description": "Review one kneebar configuration with a coach. Both partners should recognise the target leg and the moment at which the drill stops."
+    },
+    {
+      "step_number": 2,
+      "phase": "Study top half guard",
+      "description": "Use a selected top-half entry and stop at the agreed control position without applying extension."
+    },
+    {
+      "step_number": 3,
+      "phase": "Compare bottom half guard",
+      "description": "Repeat from the matching bottom context and record which balance and connection problems change."
+    },
+    {
+      "step_number": 4,
+      "phase": "Add one entanglement start",
+      "description": "Choose a familiar entanglement, such as a coached 50/50 context, and investigate whether the target leg can be retained through the transfer."
+    },
+    {
+      "step_number": 5,
+      "phase": "Review a passing entry",
+      "description": "Compare a selected top entry with continuing the pass. Decide what control must be available before giving up the passing position."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The attacker reaches the leg but cannot stop in control.",
+      "solution": "Shorten the entry and identify where the leg begins to withdraw."
+    },
+    {
+      "obstacle": "A top-half entry is applied unchanged from bottom.",
+      "solution": "Treat the two contexts as separate study tasks and compare balance before speed."
+    },
+    {
+      "obstacle": "Rolling momentum replaces recognition of the endpoint.",
+      "solution": "Use a slower coached entry until both partners can stop in the intended position."
+    },
+    {
+      "obstacle": "A passing attempt is abandoned for an unsecured kneebar.",
+      "solution": "Review the cost of the switch and retain top position when the leg is not controlled."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Endpoint clarity",
+      "description": "Check that both partners recognise the intended kneebar control.",
+      "proficiency_indicators": [
+        "Names the target leg",
+        "Stops without extension",
+        "Identifies leg withdrawal"
+      ]
+    },
+    {
+      "metric_name": "Half-guard comparison",
+      "description": "Describe the differences between top and bottom entries.",
+      "proficiency_indicators": [
+        "Names the starting role",
+        "Recognises balance changes",
+        "Records a role-specific obstacle"
+      ]
+    },
+    {
+      "metric_name": "Transfer retention",
+      "description": "Assess whether the leg remains controlled from an entanglement start.",
+      "proficiency_indicators": [
+        "Identifies the original connection",
+        "Finds the new endpoint",
+        "Resets when contact is lost"
+      ]
+    },
+    {
+      "metric_name": "Passing judgement",
+      "description": "Review the decision to pursue a kneebar from top.",
+      "proficiency_indicators": [
+        "Identifies the passing advantage",
+        "States the attack requirement",
+        "Can choose to continue passing"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests paired half-guard entry rounds: one from top and one from bottom, both ending at a coach-approved kneebar control position. Use no extension pressure. Record which entry lets the target leg withdraw and which disrupts balance. Study passing entries separately so retaining top position remains an explicit alternative.",
+    "progression_path": [
+      {
+        "stage": "Endpoint",
+        "focus": "Recognise one kneebar configuration with no finishing pressure."
+      },
+      {
+        "stage": "Half guard",
+        "focus": "Compare top and bottom entry problems."
+      },
+      {
+        "stage": "Entanglement",
+        "focus": "Transfer from one familiar leg-control start."
+      },
+      {
+        "stage": "Top decision",
+        "focus": "Compare a passing entry with maintaining the pass."
+      }
+    ],
+    "common_mistakes": [
+      "Counting contact with the leg as completed kneebar control.",
+      "Using momentum before learning to stop at the endpoint.",
+      "Giving up a stable top position for a loose leg attack."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Kneebar",
+      "content_type": "Submission",
+      "relationship": "The primary submission reference."
+    },
+    {
+      "name": "Kneebar Control",
+      "content_type": "Position",
+      "relationship": "The entry drill's stopping point."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Top and bottom contexts for comparison."
+    },
+    {
+      "name": "Ashi Garami",
+      "content_type": "Position",
+      "relationship": "A related entanglement family."
+    },
+    {
+      "name": "K-Guard",
+      "content_type": "Position",
+      "relationship": "A further entry context for later study."
+    },
+    {
+      "name": "Crab Ride",
+      "content_type": "Position",
+      "relationship": "Another positional context listed in the course."
+    },
+    {
+      "name": "Knee on Belly",
+      "content_type": "Position",
+      "relationship": "A top-position entry setting."
+    },
+    {
+      "name": "Toe Hold",
+      "content_type": "Submission",
+      "relationship": "A separate branch to distinguish from the kneebar."
+    },
+    {
+      "name": "Leg Entanglement",
+      "content_type": "Principle",
+      "relationship": "Background for retained lower-body control."
+    },
+    {
+      "name": "Transition Management",
+      "content_type": "Principle",
+      "relationship": "Frames the cost of moving from passing to an attack."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What separates a kneebar entry from kneebar control?",
+      "answer": "Reaching the leg is only the entry; control requires a recognisable position that retains the target leg before any extension is attempted."
+    },
+    {
+      "question": "Why compare top and bottom half-guard entries separately?",
+      "answer": "They present different balance and connection problems, so a solution from one role should not be assumed to transfer unchanged to the other."
+    },
+    {
+      "question": "What should end an early kneebar entry repetition?",
+      "answer": "Stop at a coach-approved control position recognised by both partners, without needing extension pressure or a tap to count the entry."
+    },
+    {
+      "question": "What should be checked before pursuing a kneebar while passing?",
+      "answer": "Check the leg-control requirements and the value of the top position being surrendered; continuing the pass remains a legitimate choice."
+    },
+    {
+      "question": "What does repeated leg withdrawal suggest about the entry?",
+      "answer": "It suggests the transfer is losing the connection needed for control, so shorten the sequence and inspect that moment before adding speed."
+    },
+    {
+      "question": "How should a rolling entry be introduced in this plan?",
+      "answer": "Use coaching and a clear stopping point; both partners should understand the endpoint before momentum or additional resistance is introduced."
+    }
+  ],
+  "products": [
+    {
+      "id": "you-cant-kneebar-by-craig-jones",
+      "title": "You Can't Knee bahh",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A kneebar-focused course spanning half guard, leg entanglements and passing-related entries.",
+      "best_for": "Students already comfortable with coached leg-lock practice who want a dedicated kneebar study track; it includes advanced and rolling entries.",
+      "study_focus": "Begin with the configuration concepts, then compare top and bottom half guard before adding an entanglement or passing entry.",
+      "practice_tip": "BJJGraph suggestion: end paired top- and bottom-half repetitions at control and compare where the target leg escapes."
+    }
+  ]
+}

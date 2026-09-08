@@ -1632,6 +1632,8 @@ def _products(data: dict, sys_name: str) -> list[dict]:
             "url": url,
             "id": (p.get("id") or "").strip(),
             "vendor": (p.get("vendor") or "BJJFanatics").strip(),
+            **{field: p[field].strip() for field in ("blurb", "best_for", "study_focus", "practice_tip")
+               if isinstance(p.get(field), str) and p[field].strip()},
         })
     return out
 
@@ -1877,7 +1879,9 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
                 f"[neural] system key {key!r} is authored twice ({path.name} collides with an "
                 f"earlier file of the same `name`). One body would overwrite the other."
             )
-        dossiers[key] = dict(_system_body(data), cat="System", name=name, url=f"/{page}")
+        # Only an open detail reads the ordered spine. Keep its existing caps and all steps,
+        # but deliver it with the dossier so catalog growth does not inflate the shared index.
+        dossiers[key] = dict(_system_body(data), sequence=sequence, cat="System", name=name, url=f"/{page}")
         systems.append({
             "id": page,
             "key": key,
@@ -1888,7 +1892,6 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
             "difficulty": (data.get("difficulty_level") or "").strip(),
             "nodes": sorted(set(member_nodes)),
             "glue": glue,
-            "sequence": sequence,
             "unresolved": unresolved,
             "products": prods,
         })

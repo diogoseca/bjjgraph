@@ -1,0 +1,247 @@
+{
+  "name": "Jason Rau Ankle Lock System",
+  "description": "Study Jason Rau ankle-lock decisions through grips, leg position and changing opponent posture, with a focused course guide and linked control and back-take topics.",
+  "summary": "The Jason Rau Ankle Lock System is a BJJGraph study framework for connecting ankle-lock control with the positional decisions created by a defender's changing posture.",
+  "overview": "Dynamic Ankle Locks provides a specific course companion for studying grips and leg position alongside seated, kneeling and standing reactions. Its syllabus extends beyond straight ankle locks to other submissions and back-take options. That distinction matters when choosing a section for a particular training session.\n\nThe plan below is BJJGraph's original study sequence. It begins with recognising whether the ankle and leg remain connected to the attacker as the defender changes posture. A lost connection can make a positional transition more sensible than continuing the original submission. Select permitted techniques with a coach, and keep advanced Aoki-lock or heel-hook branches separate from a straight-ankle-only practice objective.",
+  "tags": [
+    "bjj",
+    "system",
+    "ankle-lock",
+    "no-gi",
+    "leg-entanglement"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Advanced",
+  "key_principles": [
+    "Assess the leg connection as well as the hand grip.",
+    "Name whether the defender is seated, kneeling or standing before choosing a response.",
+    "Treat a posture change as a new control problem rather than a reason to squeeze harder.",
+    "Distinguish straight ankle locks from other submissions in the course.",
+    "Keep back-take options available when the original leg connection is no longer useful.",
+    "Define allowed attacks before an entanglement round begins."
+  ],
+  "key_components": [
+    {
+      "component_name": "Grip and leg-position pairing",
+      "description": "Compare the selected ankle grip with the leg arrangement supporting it rather than evaluating either in isolation.",
+      "purpose": "Identify whether the whole position supports the attempted attack."
+    },
+    {
+      "component_name": "Posture classification",
+      "description": "Observe the different balance and connection problems presented by a seated, kneeling or standing defender.",
+      "purpose": "Choose the relevant lesson for the actual exchange."
+    },
+    {
+      "component_name": "Connection-loss response",
+      "description": "Notice when the attacker can no longer maintain useful leg contact despite retaining the foot with the hands.",
+      "purpose": "Avoid chasing the original finish after its positional basis is gone."
+    },
+    {
+      "component_name": "Secondary-route selection",
+      "description": "Compare guard recovery or a coached back-take route with a permitted secondary submission.",
+      "purpose": "Make the next objective explicit instead of switching locks blindly."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose one straight-ankle position",
+      "description": "Begin in a familiar leg entanglement and identify the grip and leg contact used in the selected lesson."
+    },
+    {
+      "step_number": 2,
+      "phase": "Test seated posture",
+      "description": "Let the partner make one small seated adjustment. Stop when either the grip or supporting leg connection ceases to control the exchange."
+    },
+    {
+      "step_number": 3,
+      "phase": "Compare a kneeling reaction",
+      "description": "Use the corresponding course section to review what changes when the partner comes to their knees. Keep the entry task free of finishing pressure."
+    },
+    {
+      "step_number": 4,
+      "phase": "Name the loss of connection",
+      "description": "Rehearse a deliberate release or positional fallback when the legs can no longer support the original attack."
+    },
+    {
+      "step_number": 5,
+      "phase": "Add one secondary route",
+      "description": "Select a coach-approved back-take or other permitted branch. Compare its required control with the option of recovering guard."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The hands retain the foot while the legs lose contact.",
+      "solution": "Stop and diagnose the leg-position problem instead of increasing finishing effort."
+    },
+    {
+      "obstacle": "The same answer is used against every defender posture.",
+      "solution": "Separate seated and kneeling rounds and identify the different control requirements."
+    },
+    {
+      "obstacle": "A straight-ankle drill drifts into another leg lock.",
+      "solution": "Name permitted attacks in advance and reset before an unagreed branch."
+    },
+    {
+      "obstacle": "A back take is assumed whenever the ankle lock fails.",
+      "solution": "Check that the new route has its own connection and choose guard recovery when it does not."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Connection assessment",
+      "description": "Observe whether the grip and leg position work together.",
+      "proficiency_indicators": [
+        "Identifies supporting contact",
+        "Recognises a hand-only hold",
+        "Can release deliberately"
+      ]
+    },
+    {
+      "metric_name": "Posture recognition",
+      "description": "Classify the defender's posture before selecting a response.",
+      "proficiency_indicators": [
+        "Distinguishes seated from kneeling",
+        "Recognises a standing change",
+        "Chooses a relevant study section"
+      ]
+    },
+    {
+      "metric_name": "Branch boundaries",
+      "description": "Check that the drill remains within its agreed submission scope.",
+      "proficiency_indicators": [
+        "Names allowed locks",
+        "Recognises a different branch",
+        "Resets before an unagreed attack"
+      ]
+    },
+    {
+      "metric_name": "Fallback quality",
+      "description": "Review the next objective after losing ankle-lock control.",
+      "proficiency_indicators": [
+        "Can recover guard",
+        "Can describe a back-take requirement",
+        "Declines an unsupported transition"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests two entry-and-control rounds from the same ankle-lock position: one with the partner seated and one with a slow kneeling reaction. Keep finishing pressure out of the comparison. Record whether the first loss is the hand grip or supporting leg contact, then use that observation to select a course lesson and a coached fallback.",
+    "progression_path": [
+      {
+        "stage": "Pairing",
+        "focus": "Recognise the relationship between the ankle grip and supporting leg position."
+      },
+      {
+        "stage": "Posture",
+        "focus": "Compare seated and kneeling defensive reactions."
+      },
+      {
+        "stage": "Disconnection",
+        "focus": "Practise deliberate release and guard recovery."
+      },
+      {
+        "stage": "Branching",
+        "focus": "Add one permitted secondary route with clear control requirements."
+      }
+    ],
+    "common_mistakes": [
+      "Holding the foot after the rest of the entanglement has disappeared.",
+      "Treating all ankle-related submissions as interchangeable.",
+      "Forcing a back take without establishing its entry connection."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Straight Ankle Lock",
+      "content_type": "Submission",
+      "relationship": "The primary submission to distinguish from secondary branches."
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "content_type": "Position",
+      "relationship": "The initial control reference."
+    },
+    {
+      "name": "Ashi Garami",
+      "content_type": "Position",
+      "relationship": "A leg-entanglement study context."
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "A posture context for comparison."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "A related lower-body connection context."
+    },
+    {
+      "name": "Matrix",
+      "content_type": "Position",
+      "relationship": "A reference for a secondary positional route."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "A possible destination with separate entry requirements."
+    },
+    {
+      "name": "Aoki Lock",
+      "content_type": "Submission",
+      "relationship": "A different submission to identify when selecting permitted material."
+    },
+    {
+      "name": "Leg Entanglement",
+      "content_type": "Principle",
+      "relationship": "Background for evaluating leg contact."
+    },
+    {
+      "name": "Connection Principles",
+      "content_type": "Principle",
+      "relationship": "Explains why retaining a hand grip alone may be insufficient."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why examine leg position as well as the ankle grip?",
+      "answer": "The hands may retain the foot after the supporting leg contact has disappeared, leaving the original attack without useful positional control."
+    },
+    {
+      "question": "What defender postures should be distinguished in this study plan?",
+      "answer": "Separate seated, kneeling and standing situations because each changes the connection and balance problems the attacker must solve."
+    },
+    {
+      "question": "Does Dynamic Ankle Locks contain only straight ankle locks?",
+      "answer": "No. The listed material also includes other leg submissions and back-take options, so choose the permitted study track deliberately."
+    },
+    {
+      "question": "What should happen when a straight-ankle drill reaches an unagreed branch?",
+      "answer": "Reset before applying the different submission and return to the techniques and endpoints agreed for that session."
+    },
+    {
+      "question": "When is a back take a useful alternative to the ankle lock?",
+      "answer": "It is useful when its own entry connection is present; a failed ankle attack alone does not establish a viable back-take route."
+    },
+    {
+      "question": "What should be recorded during the posture-comparison drill?",
+      "answer": "Record the defender's posture and whether the hand grip or supporting leg connection was the first part of control to fail."
+    }
+  ],
+  "products": [
+    {
+      "id": "dynamic-ankle-locks-by-jason-rau",
+      "title": "Dynamic Ankle Locks",
+      "instructor": "Jason Rau",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects ankle-lock grips and leg positions with posture-dependent reactions and secondary positional options.",
+      "best_for": "Students with coached leg-entanglement experience; the syllabus includes Aoki locks and heel hooks alongside straight-ankle material.",
+      "study_focus": "Review the initial grip and leg-position lessons, then compare seated and kneeling reactions before studying secondary routes.",
+      "practice_tip": "BJJGraph suggestion: identify whether hand control or leg contact disappears first as the partner changes posture."
+    }
+  ]
+}

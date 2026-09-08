@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.168.0",
+  "version": "1.169.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -14,7 +14,7 @@
     "dev:neural:app": "node neural/build/build.mjs && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) \u2014 reload the browser'",
     "dev": "npm run build && npm run serve",
     "validate:json": "python3 scripts/validate_json.py --all",
-  "validate:schema": "python3 scripts/check_schema_jsonld.py",
+    "validate:schema": "python3 scripts/check_schema_jsonld.py",
     "validate:seats": "python3 scripts/validate_seat_decks.py",
     "validate:headers": "python3 scripts/check_headers_cache.py",
     "validate:payload": "python3 scripts/check_payload_budget.py",
@@ -55,7 +55,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && npx quartz build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload",
+    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload && python3 scripts/apply_affiliate_ref.py",
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
     "regenerate:headers": "python3 scripts/regenerate_headers.py",
     "regenerate:llms": "python3 scripts/regenerate_llms_txt.py",

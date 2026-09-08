@@ -1,0 +1,246 @@
+{
+  "name": "Dante Leon Reverse De La Riva System",
+  "description": "Study no-gi reverse De La Riva through Dante Leon course guidance, knee-shield control, knee-slice recovery, and distinct standing or kneeling sweep decisions.",
+  "summary": "The Dante Leon Reverse De La Riva System is an independent BJJGraph guide to reverse de la riva guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Advanced",
+  "overview": "Reverse De La Riva can act as a barrier against an advancing leg and a connection for changing angle underneath it. That does not make every knee-slice attempt an invitation to invert. First determine whether the hook and upper-body frames still provide space. The useful next action changes when the passer drops a knee, stands tall, or squares the hips.\n\nThe published syllabus covers foundational recovery, knee-shield variations, inversion branches, and standing-opponent options. This page focuses on connecting those positional problems rather than cataloguing its submission finishes. No Gi Reverse De La Riva by Dante Leon is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "Preserve space before attempting to rotate underneath.",
+    "Read the passer's knee and hip position together.",
+    "Use the knee shield as a barrier rather than a substitute for hand fighting.",
+    "Let an available angle justify inversion.",
+    "Connect to another guard when the original hook loses value.",
+    "Separate standing-opponent choices from close-range recovery."
+  ],
+  "key_components": [
+    {
+      "component_name": "Knee-slice interception",
+      "description": "Recognize when the passer's advancing knee threatens to clear your leg barrier and settle torso control.",
+      "purpose": "Catch the positional problem before it becomes a pin."
+    },
+    {
+      "component_name": "Knee-shield structure",
+      "description": "Check whether the shield and arm frames preserve room without twisting the trapped leg.",
+      "purpose": "Keep a workable platform for the next decision."
+    },
+    {
+      "component_name": "Angle change",
+      "description": "Explore one coached route underneath the controlled leg while observing the passer's ability to follow.",
+      "purpose": "Create a new position rather than invert without a destination."
+    },
+    {
+      "component_name": "Standing response",
+      "description": "Compare the available leg connection when the passer rises and changes the height of the hips.",
+      "purpose": "Select a sweep or coming-up task appropriate to distance."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Recover the hook",
+      "description": "Use a slow knee-slice entry and stop while a reverse De La Riva connection can still be recovered."
+    },
+    {
+      "step_number": 2,
+      "phase": "Restore the shield",
+      "description": "Check the space between the bodies and rebuild the missing barrier before attacking."
+    },
+    {
+      "step_number": 3,
+      "phase": "Choose one angle",
+      "description": "Practise a single coached angle change with a clear endpoint and a comfortable range."
+    },
+    {
+      "step_number": 4,
+      "phase": "Read the rise",
+      "description": "Have the passer stand so you can distinguish a standing sweep task from the previous close-range problem."
+    },
+    {
+      "step_number": 5,
+      "phase": "Link the fallback",
+      "description": "When the hook is cleared, move to a familiar guard and restart the decision rather than forcing the same route."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The passer controls the shoulders before inversion begins.",
+      "solution": "Return to frame recovery and stop treating rotation as an escape from every upper-body pin."
+    },
+    {
+      "obstacle": "The hook remains but the knee shield collapses.",
+      "solution": "Rebuild the barrier or transition guards before trying to attack through the compressed space."
+    },
+    {
+      "obstacle": "A standing opponent is treated like a kneeling one.",
+      "solution": "Run separate starting-height rounds and describe the changed distance."
+    },
+    {
+      "obstacle": "The inversion ends with no named control.",
+      "solution": "Choose a reachable endpoint with a coach and score position rather than motion."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Recovery timing",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Recognizes the knee-slice threat before torso control",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Shield function",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Keeps usable space without forcing the knee",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Angle selection",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Names the intended destination before rotating",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Height adaptation",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Changes the task when the passer stands",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Let the passer alternate a controlled knee-slice entry and a return to standing. Preserve the hook and frames, then name whether your next task is recovery, angle change, or coming up. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Recover the hook",
+        "focus": "Use a slow knee-slice entry and stop while a reverse De La Riva connection can still be recovered."
+      },
+      {
+        "stage": "Restore the shield",
+        "focus": "Check the space between the bodies and rebuild the missing barrier before attacking."
+      },
+      {
+        "stage": "Choose one angle",
+        "focus": "Practise a single coached angle change with a clear endpoint and a comfortable range."
+      },
+      {
+        "stage": "Read the rise",
+        "focus": "Have the passer stand so you can distinguish a standing sweep task from the previous close-range problem."
+      }
+    ],
+    "common_mistakes": [
+      "The passer controls the shoulders before inversion begins.",
+      "The hook remains but the knee shield collapses.",
+      "A standing opponent is treated like a kneeling one."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Reverse De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Shin-to-Shin Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why is a reverse De La Riva hook not enough by itself?",
+      "answer": "A hook without upper-body space can leave the passer free to flatten the shoulders and prevent a useful angle change."
+    },
+    {
+      "question": "What should you inspect before attempting an inversion?",
+      "answer": "Check the available space, the controlled leg, and the destination so rotation has a purpose and stays within comfortable range."
+    },
+    {
+      "question": "How does the knee shield support the guard?",
+      "answer": "It helps maintain a barrier to forward pressure while the arms and hook work together to preserve a playable position."
+    },
+    {
+      "question": "Why practise standing-opponent responses separately?",
+      "answer": "Raising the hips changes the distance and leg connection, so the same close-range recovery may no longer be the relevant task."
+    },
+    {
+      "question": "What should happen after the reverse De La Riva hook is cleared?",
+      "answer": "Recover another familiar guard or rebuild the connection rather than continue an angle change without control of the leg."
+    },
+    {
+      "question": "What makes a knee-slice recovery drill informative?",
+      "answer": "Pause before the passer settles the shoulders and identify the barrier that remains available, then test one recovery adjustment."
+    }
+  ],
+  "products": [
+    {
+      "id": "no-gi-reverse-de-la-riva-by-dante-leon",
+      "title": "No Gi Reverse De La Riva",
+      "instructor": "Dante Leon",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The published syllabus covers foundational recovery, knee-shield variations, inversion branches, and standing-opponent options. This page focuses on connecting those positional problems rather than cataloguing its submission finishes.",
+      "best_for": "No-gi guard players with basic positional familiarity who want to study reverse de la riva guard. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Start with the fundamentals and knee-slice recovery in volume one. Compare the knee-shield material in volume two with the standing-opponent section in volume four.",
+      "practice_tip": "BJJGraph drill: Let the passer alternate a controlled knee-slice entry and a return to standing. Preserve the hook and frames, then name whether your next task is recovery, angle change, or coming up."
+    }
+  ]
+}
