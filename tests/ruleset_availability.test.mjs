@@ -105,7 +105,9 @@ test("no-gi is the acting frame; gi is admitted whole", () => {
   // column the walk reports is IBJJF heel-hook LEGALITY, not equipment, and excluding it emptied
   // `backside-50-50/bottom`'s main pass into the origin-relaxed fallback. If gi is ever added to
   // that tuple this test goes red and the fallback test below is the one to read first.
-  const excl = (a) => a.nodes.filter((n) => n.rep && !a.rsAllows(n));
+  // Control aliases are presentation exclusions in both frames; this differential
+  // measures garment availability. Their URL and choice equivalence is separately gated.
+  const excl = (a) => a.nodes.filter((n) => n.rep && !n.cal?.stateAlias && !a.rsAllows(n));
   assert.equal(excl(CTRL).length, 0, "the control must exclude nothing, or every number below is meaningless");
   assert.equal(excl(GI).length, 0, "gi is not an excluding frame — see EXCLUDING_FRAMES");
   assert.ok(excl(NOGI).length >= 80, `no-gi excludes ${excl(NOGI).length} sites — expected the cloth-defined guards and their techniques`);

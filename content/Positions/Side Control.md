@@ -159,11 +159,8 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Side Control]] | High | Low | High | Low | Perpendicular alignment maximizes control |
 | [[Kesa Gatame]] | High | Medium | Medium | Medium | Perpendicular angle trades back exposure for arm |
-| [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Trades head control for trapped arm submissions |
-| [[Modified Scarf Hold]] | High | Low to Medium | High | Medium | Chest pressure trades mobility for control |
-| [[Reverse Kesa-Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
-| [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse facing trades vision for chest pressure |
-| [[Scarf Hold Position]] | High | Low to Medium | Medium | Low | Perpendicular angle creates unique escapes |
+| [[Kuzure Kesa Gatame]] | High | Low to Medium | High | Medium | Trades head control for trapped arm submissions |
+| [[Ushiro Kesa Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
 
 
 
@@ -290,15 +287,13 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Submissions/Ezekiel Choke/from Side Control/Attacker|Ezekiel Choke from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (2% of attempts)
+- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (4% of attempts)
 
 - **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (3% of attempts)
 
 - **[[Submissions/North-South Choke/from Side Control/Attacker|North-South Choke from Side Control]]** (5% of attempts)
 
 - **[[Submissions/Breadcutter Choke/from Side Control/Attacker|Breadcutter Choke from Side Control]]** (1% of attempts)
-
-- **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (2% of attempts)
 
 - **[[Submissions/Americana/from Side Control/Attacker|Americana from Side Control]]** (5% of attempts)
 
@@ -326,7 +321,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Submissions/Von Flue Choke/from Side Control/Attacker|Von Flue Choke from Side Control]]** (3% of attempts)
 
-- **[[Transitions/Side Control to Kuzure Kesa-Gatame/Attacker|Side Control to Kuzure Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Side Control to Kuzure Kesa Gatame/Attacker|Side Control to Kuzure Kesa Gatame]]** (2% of attempts)
 
 
 ### Common Mistakes

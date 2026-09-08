@@ -202,6 +202,12 @@ const column = (page: Any) =>
     }
   })
 
+/** A few pumped frames: the hand's ✕ is re-docked to the row's live rect by `updateUiShift`
+ *  every frame (v1.176.7), and under `__NEURAL_TEST__` frames only run through the `advance()`
+ *  pump (rAF ticks nothing) — so a read taken straight after an input sees the ✕ a frame behind
+ *  the tray it rides. 50ms of sim time is three ticks; the read is paused, so nothing else moves. */
+const settle = (j: Any) => j.advance(50)
+
 /**
  * THE READING COLUMN (v1.175.0). Owner, on v1.174.0's independently scrolling second card:
  * "I wasn't expecting the choices row to disappear behind the card", "when I scroll this card
@@ -249,6 +255,7 @@ test("More grows into a long second card and the whole column scrolls, hand push
   await j.clickByMouse("[data-land-more]", "the floating More affordance")
   await expect(moreCard, "the control itself becomes the second card").toHaveClass(/\bopen\b/)
   await page.waitForTimeout(400)
+  await settle(j)
 
   const open = await column(page)
   expect(open.open).toBe(true)
@@ -271,7 +278,7 @@ test("More grows into a long second card and the whole column scrolls, hand push
   expect(open.row!.bottom, "it is long: it runs under the fold").toBeGreaterThan(open.viewportBottom)
   expect(open.M, "the column has that much to travel").toBeGreaterThan(0)
   expect(open.tray!.top, "the choices row is PUSHED below the second card, never covered").toBeGreaterThanOrEqual(open.row!.bottom + 8)
-  expect(open.handX!.top, "with its own ✕ riding above it, clear of the card too").toBeGreaterThanOrEqual(open.row!.bottom + 7)
+  expect(open.handX!.top, "with its own ✕ riding inside the pushed row, clear of the card too").toBeGreaterThanOrEqual(open.row!.bottom + 7)
   expect(open.trayBottom, "the push is written on the tray's `bottom`, not its sheet-owned transform").not.toBe("84px")
   expect(open.paused, "reading is not charged to the clock").toBe(true)
   expect(open.autoPaused, "on its own latch, so it only gives back what it took").toBe(true)
@@ -294,6 +301,7 @@ test("More grows into a long second card and the whole column scrolls, hand push
   await page.mouse.move(box!.x + box!.width / 2, box!.y + 60)
   await page.mouse.wheel(0, 120)
   await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS), { message: "the column moved" }).toBe(120)
+  await settle(j)
   const mid = await column(page)
   expect(mid.open, "scrolling never closes the read").toBe(true)
   expect(mid.card!.top, "the landing card rose by the wheel").toBe(open.card!.top - 120)
@@ -319,11 +327,12 @@ test("More grows into a long second card and the whole column scrolls, hand push
   // ── to the end: the hand is home again, the whole read has passed through the viewport ──
   await page.mouse.wheel(0, 4000)
   await expect.poll(() => page.evaluate(() => { const a = (window as Any).__neural; return a._readS === a._readMax })).toBe(true)
+  await settle(j)
   const end = await column(page)
   expect(end.tray, "at the end of the read the choices row sits exactly where it always sits").toEqual(before.tray)
   expect(end.trayBottom).toBe("84px")
-  expect(end.row!.bottom, "with the second card ending above it").toBeLessThanOrEqual(end.tray!.top - 8 - 34)
-  expect(end.row!.bottom).toBeGreaterThanOrEqual(end.tray!.top - 8 - 34 - 16)
+  expect(end.row!.bottom, "with the second card ending 8px above it — the card's own clearance").toBeLessThanOrEqual(end.tray!.top - 7)
+  expect(end.row!.bottom).toBeGreaterThanOrEqual(end.tray!.top - 9)
   expect(end.card!.top, "the landing card has moved up by the travel").toBe(open.card!.top - end.M)
   expect(end.open).toBe(true)
 
@@ -331,6 +340,7 @@ test("More grows into a long second card and the whole column scrolls, hand push
   await page.mouse.move(195, (end.tray!.top + end.tray!.bottom) / 2)
   await page.mouse.wheel(0, -4000)
   await expect.poll(() => page.evaluate(() => (window as Any).__neural._readS), { message: "wheel over the hand scrolls the column back" }).toBe(0)
+  await settle(j)
   const back = await column(page)
   expect(back.open, "scrolling back to the top does not dismiss the reading card").toBe(true)
   expect(back.card, "the same frame as when it opened").toEqual(open.card)
@@ -343,6 +353,7 @@ test("More grows into a long second card and the whole column scrolls, hand push
   await page.mouse.move(box!.x + box!.width / 2, box!.y + 20)
   await j.clickByMouse("[data-land-more]", "the Less control")
   await expect(moreCard).not.toHaveClass(/\bopen\b/)
+  await settle(j)
   const folded = await column(page)
   expect(folded.open).toBe(false)
   expect(folded.detailDisplay, "the extra rows fold").toBe("none")

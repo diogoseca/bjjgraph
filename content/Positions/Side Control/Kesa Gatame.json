@@ -2,9 +2,14 @@
   "name": "Kesa Gatame",
   "slug": "kesa-gatame",
   "description": "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.",
+  "aliases": [
+    "Scarf Hold",
+    "Scarf Hold Position",
+    "Hon Kesa Gatame"
+  ],
   "variant_uniqueness": "Perpendicular angle trades back exposure for arm",
   "summary": "Kesa Gatame (Scarf Hold) is a judo-derived side pin where the top player sits perpendicular to a supine opponent, trapping the head and near arm to immobilize the upper body while trading some back exposure for crushing chest control.",
-  "overview": "Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.\n\nHistorically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.\n\nThe strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.\n\nKesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa-Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.",
+  "overview": "Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.\n\nHistorically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.\n\nThe strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.\n\nKesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Ushiro Kesa Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.",
   "key_principles": [
     "Perpendicular body positioning creates unique control mechanics distinct from standard side control",
     "Top player must balance offensive pressure with defensive awareness of back exposure",
@@ -20,16 +25,12 @@
       "relationship": "Parent category with similar point value but different control mechanics"
     },
     {
-      "name": "Reverse Kesa-Gatame",
+      "name": "Ushiro Kesa Gatame",
       "relationship": "Variation facing opposite direction that addresses back exposure concerns"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Modified variation with different arm control and weight distribution"
-    },
-    {
-      "name": "Modified Scarf Hold",
-      "relationship": "Variation with modified leg positioning for enhanced control"
     },
     {
       "name": "North-South",
@@ -186,7 +187,7 @@
       },
       {
         "name": "Transition Flow Drill",
-        "description": "From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa-Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.",
+        "description": "From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Ushiro Kesa Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.",
         "duration": "3 rounds of 3 minutes"
       },
       {
@@ -202,11 +203,11 @@
     ],
     "related_content": [
       {
-        "name": "Reverse Kesa-Gatame",
+        "name": "Ushiro Kesa Gatame",
         "relationship": "Mirror variation facing opposite direction"
       },
       {
-        "name": "Kuzure Kesa-Gatame",
+        "name": "Kuzure Kesa Gatame",
         "relationship": "Modified variation with different arm control"
       },
       {
@@ -266,71 +267,85 @@
       {
         "transition": "Kimura from Kesa Gatame",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "North-South Choke from Kesa Gatame",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Arm Triangle from Kesa Gatame",
         "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Kesa Gatame to Kuzure Kesa Gatame",
+        "attempt_probability": {
           "gi": 9,
-          "nogi": 10
+          "nogi": 8
         }
       },
       {
-        "transition": "Kesa Gatame to Modified Scarf Hold",
+        "transition": "Kesa Gatame to Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Kesa Gatame to Reverse Kesa-Gatame",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Americana from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Kesa Gatame Arm Crush from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Belly Down Armbar from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Kesa Gatame to Mount",
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
         }
       },
       {
-        "transition": "Kesa Gatame Arm Crush from Kesa Gatame",
+        "transition": "Kesa Gatame to Side Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Belly Down Armbar from Kesa Gatame",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 12
         }
       }
     ],
@@ -643,11 +658,11 @@
         "relationship": "Similar defensive position with different escape mechanics"
       },
       {
-        "name": "Kuzure Kesa-Gatame",
+        "name": "Kuzure Kesa Gatame",
         "relationship": "Variation with modified grip and weight distribution"
       },
       {
-        "name": "Reverse Kesa-Gatame",
+        "name": "Ushiro Kesa Gatame",
         "relationship": "Opposite-side variation of scarf hold"
       },
       {
@@ -710,64 +725,78 @@
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Back Take from Kesa Gatame",
-        "attempt_probability": {
-          "gi": 10,
+          "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Bridge and Turn to Turtle",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Ghost Escape from Side Control",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
+        "transition": "Hip Escape to Guard",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Bridge Escape from Kesa Gatame",
+        "transition": "Back Take from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Bridge and Turn to Turtle",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Ghost Escape from Side Control",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 9
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Bridge Escape from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Frame to Guard from Kesa Gatame",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Bridge from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Escape Kesa Gatame",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],
@@ -888,7 +917,7 @@
     "clips": [
       {
         "id": "ORpUBUxK1QE",
-        "title": "Reverse Kesa Gatame Escape to Back Take",
+        "title": "Ushiro Kesa Gatame Escape to Back Take",
         "by": "Gymnanigains",
         "vertical": false,
         "channel": "Gymnanigains",
@@ -960,7 +989,7 @@
     },
     {
       "question": "Why does the perpendicular angle of Kesa Gatame create back exposure for the top player?",
-      "answer": "Because the top player sits alongside and faces across the opponent's body rather than squaring over the chest, the top player's own back and far side are turned partially away from the opponent's free far arm and hips. This is the central trade-off of the position: the perpendicular orientation buys crushing head-and-arm control at the cost of leaving the top player's back reachable when the opponent turns in. The exposure is intrinsic to the geometry, not an execution error, which is why variations like Reverse Kesa-Gatame exist specifically to address it. Both players must understand that the same angle that makes the pin strong is what makes the back-take a live threat.",
+      "answer": "Because the top player sits alongside and faces across the opponent's body rather than squaring over the chest, the top player's own back and far side are turned partially away from the opponent's free far arm and hips. This is the central trade-off of the position: the perpendicular orientation buys crushing head-and-arm control at the cost of leaving the top player's back reachable when the opponent turns in. The exposure is intrinsic to the geometry, not an execution error, which is why variations like Ushiro Kesa Gatame exist specifically to address it. Both players must understand that the same angle that makes the pin strong is what makes the back-take a live threat.",
       "answer_line": "Intrinsic trade-off, not an error",
       "distractors": {
         "plausible": [
@@ -987,8 +1016,8 @@
       }
     },
     {
-      "question": "How does Kesa Gatame relate to its adjacent variations such as Reverse Kesa-Gatame and Kuzure Kesa-Gatame?",
-      "answer": "Kesa Gatame sits within a family of judo-derived scarf holds that share the perpendicular head-and-near-arm control but differ in facing direction and arm configuration. Reverse Kesa-Gatame faces the opposite direction toward the opponent's hips, trading the standard version's back exposure for a different vulnerability profile, while Kuzure Kesa-Gatame ('broken' scarf hold) modifies the arm control and weight distribution for a more stable base. All variants preserve the defining perpendicular angle and upper-body trap but rebalance the control-versus-exposure trade-off. Understanding the family means recognizing that a player flows between these based on which vulnerability the opponent is currently attacking.",
+      "question": "How does Kesa Gatame relate to its adjacent variations such as Ushiro Kesa Gatame and Kuzure Kesa Gatame?",
+      "answer": "Kesa Gatame sits within a family of judo-derived scarf holds that share the perpendicular head-and-near-arm control but differ in facing direction and arm configuration. Ushiro Kesa Gatame faces the opposite direction toward the opponent's hips, trading the standard version's back exposure for a different vulnerability profile, while Kuzure Kesa Gatame ('broken' scarf hold) modifies the arm control and weight distribution for a more stable base. All variants preserve the defining perpendicular angle and upper-body trap but rebalance the control-versus-exposure trade-off. Understanding the family means recognizing that a player flows between these based on which vulnerability the opponent is currently attacking.",
       "answer_line": "Same angle, different facing/grip",
       "distractors": {
         "plausible": [

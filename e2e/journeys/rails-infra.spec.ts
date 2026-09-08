@@ -27,13 +27,15 @@ test("opponent finish attempt emits opponent_attack with the technique", async (
   await j.boot("/")
   await j.land("Mount Top")
 
-  // our move fails → opponent's turn → rigged to go for the kill
-  const options = await j.optionTitles()
+  // A concrete transition resolves its authored counter to Half Guard Bottom. The first
+  // ranked card is a submission entry, which opens its own hand without a resolve draw.
+  // From half guard the opponent is on top and has both attacks and positional moves.
+  expect(await j.optionTitles()).toContain("Consolidate Mount")
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
-  await j.pick(options[0])
+  await j.pick("Consolidate Mount")
   await j.advanceUntil("opponent_attack", 20000)
 
   const beat = (await j.beats()).find((b: any) => b.beat === "opponent_attack") as any
@@ -54,12 +56,12 @@ test("opponent positional counter emits opponent_move (and no phantom attack)", 
   await j.boot("/")
   await j.land("Mount Top")
 
-  const options = await j.optionTitles()
+  expect(await j.optionTitles()).toContain("Consolidate Mount")
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.99]) // decline the finish → positional counter branch
   await j.rig("opp-pick", [0.01])
-  await j.pick(options[0])
+  await j.pick("Consolidate Mount")
   await j.advanceUntil("opponent_move", 20000)
 
   const beats = await j.beats()

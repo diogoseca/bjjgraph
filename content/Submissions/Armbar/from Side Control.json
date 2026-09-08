@@ -97,8 +97,7 @@
   "from_positions": [
     "Side Control",
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame",
-    "Modified Scarf Hold",
+    "Kuzure Kesa Gatame",
     "North-South",
     "Knee on Belly"
   ],
@@ -151,7 +150,7 @@
       "relationship": "Control position that can transition to armbar"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Modified scarf hold with arm isolation ideal for armbar entry"
     }
   ],

@@ -41,14 +41,19 @@ import { dirname, resolve } from "node:path";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const APP = resolve(HERE, "../neural/src/app.src.jsx");
 const TPL = resolve(HERE, "../neural/src/xdc-template.html");
+const WIRE = JSON.parse(
+  readFileSync(
+    resolve(HERE, "../source/quartz/static/neural/graph-data.json"),
+    "utf8",
+  ),
+);
 const src = readFileSync(APP, "utf8");
 const tpl = readFileSync(TPL, "utf8");
 
-const Component = new Function(
-  "DCLogic",
-  "React",
-  `${src}\nreturn Component;`,
-)(class DCLogic {}, { createRef: () => ({ current: null }) });
+const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+  class DCLogic {},
+  { createRef: () => ({ current: null }) },
+);
 
 /** The real instance at a given viewport width. `isMobile()` reads `this.W` (falling back to
  *  `window.innerWidth`, which does not exist here), so the width must be set explicitly. */
@@ -56,6 +61,72 @@ function at(width) {
   const a = new Component({});
   a.W = width;
   return a;
+}
+
+/** A recording 2D context: `draw()` runs unchanged, but no browser/GPU is required. */
+function recordingContext(texts) {
+  const state = {};
+  const gradient = { addColorStop() {} };
+  return new Proxy(state, {
+    get(target, key) {
+      if (key in target) return target[key];
+      if (key === "fillText")
+        return (text, x, y) =>
+          texts.push({ text: String(text), x, y, font: target.font });
+      if (key === "measureText")
+        return (text) => {
+          const match = String(target.font || "").match(/([\d.]+)px/);
+          const px = match ? parseFloat(match[1]) : 12;
+          return { width: String(text).length * px * 0.55 };
+        };
+      if (key === "createLinearGradient" || key === "createRadialGradient")
+        return () => gradient;
+      return () => {};
+    },
+    set(target, key, value) {
+      target[key] = value;
+      return true;
+    },
+  });
+}
+
+/** Run the real wire through the real ingest and canvas draw paths at one camera scale. */
+function labelApp() {
+  const a = at(495);
+  a.props = {};
+  a.settings = {};
+  a.beats = [];
+  a.track = () => {};
+  a._saveProgress = () => {};
+  a.get = (_key, fallback) => fallback;
+  a.set = () => {};
+  a.ingest(structuredClone(WIRE));
+  const focus = a.nodes.find(
+    (n) => n.t === "Trap and Roll from Mount" && n.role === "defender",
+  );
+  assert.ok(focus, "the reported defender node exists in the shipped wire");
+  const partner = a.nodes[focus.pi];
+  assert.ok(partner, "the reported node has its attacker pair");
+  const texts = [];
+  a.ctx = recordingContext(texts);
+  a.H = 600;
+  a.dpr = 1;
+  a.alpha = 1;
+  a.now = 10;
+  a.startTime = 0;
+  a.focusIdx = focus.idx;
+  a.currentPos = focus.idx;
+  a.playerRole = "top";
+  a.paused = true;
+  a.pulse = null;
+  a.activeMove = null;
+  a.optionIdxs = [];
+  a.trail = [];
+  a.ripples = [];
+  a.anim = (_key, fallback) => fallback;
+  a.updateNodeCard = () => {};
+  a.cam = { cx: focus.x, cy: (focus.y + partner.y) / 2, vw: a.W / 3 };
+  return { a, texts };
 }
 
 const WIDTHS = [320, 360, 390, 414, 640, 641, 768, 1024, 1280, 1440];
@@ -66,8 +137,14 @@ test("the announcer never outranks the name of the state it is describing", () =
     const a = at(w);
     const name = a.nameFontPx();
     const ann = a.announcerPx();
-    assert.ok(Number.isFinite(name) && name > 0, `${w}px: nameFontPx() must be a real size, got ${name}`);
-    assert.ok(Number.isFinite(ann) && ann > 0, `${w}px: announcerPx() must be a real size, got ${ann}`);
+    assert.ok(
+      Number.isFinite(name) && name > 0,
+      `${w}px: nameFontPx() must be a real size, got ${name}`,
+    );
+    assert.ok(
+      Number.isFinite(ann) && ann > 0,
+      `${w}px: announcerPx() must be a real size, got ${ann}`,
+    );
     // a full step, not a rounding: the owner asked for a hierarchy you can see, and 1px is not one
     assert.ok(
       ann <= name / 1.15,
@@ -76,7 +153,11 @@ test("the announcer never outranks the name of the state it is describing", () =
     checked++;
   }
   // POSITIVE COVERAGE (CLAUDE.md 6.6): "matched nothing" must never look like "all fine"
-  assert.equal(checked, WIDTHS.length, "every viewport in the table must have been checked");
+  assert.equal(
+    checked,
+    WIDTHS.length,
+    "every viewport in the table must have been checked",
+  );
 });
 
 test("the phone keeps the label size its @curated width bound was measured at", () => {
@@ -84,9 +165,19 @@ test("the phone keeps the label size its @curated width bound was measured at", 
   // `_labelWidthPx`, and measured (tests/artifacts/_label_size_probe.mjs) 320px admits at most
   // 19px before that deploy gate goes red. Growing this without re-running that probe is the
   // failure this test exists to make loud.
-  assert.ok(at(320).nameFontPx() <= 19, "320px: the narrow label size must stay inside dual-pair.spec.ts's bound");
-  assert.equal(at(640).nameFontPx(), at(320).nameFontPx(), "one narrow value up to isMobile()'s own 640px edge");
-  assert.ok(at(641).nameFontPx() > at(640).nameFontPx(), "…and the wide step must actually be a step");
+  assert.ok(
+    at(320).nameFontPx() <= 19,
+    "320px: the narrow label size must stay inside dual-pair.spec.ts's bound",
+  );
+  assert.equal(
+    at(640).nameFontPx(),
+    at(320).nameFontPx(),
+    "one narrow value up to isMobile()'s own 640px edge",
+  );
+  assert.ok(
+    at(641).nameFontPx() > at(640).nameFontPx(),
+    "…and the wide step must actually be a step",
+  );
 });
 
 test("the draw, richLabel and _labelWidthPx all read nameFontPx() — no hand-copied mirrors", () => {
@@ -95,11 +186,18 @@ test("the draw, richLabel and _labelWidthPx all read nameFontPx() — no hand-co
   // sites is invisible to every other gate in the repo.
   const sites = [
     [/const namePx = focused \? this\.nameFontPx\(\) : 15;/, "pair-group draw"],
-    [/const rNamePx = big \? this\.nameFontPx\(\) : 13;/, "richLabel big branch"],
+    [
+      /const rNamePx = big \? this\.nameFontPx\(\) : 13;/,
+      "richLabel big branch",
+    ],
     [/const px = this\.nameFontPx\(\);/, "_labelWidthPx"],
   ];
   for (const [re, what] of sites) {
-    assert.equal((src.match(re) || []).length, 1, `${what} must read nameFontPx() exactly once`);
+    assert.equal(
+      (src.match(re) || []).length,
+      1,
+      `${what} must read nameFontPx() exactly once`,
+    );
   }
   // and the literal that used to live there must be gone from every canvas font string
   assert.equal(
@@ -109,20 +207,98 @@ test("the draw, richLabel and _labelWidthPx all read nameFontPx() — no hand-co
   );
   // the drawn size must be PUBLISHED, or the journey gate has to re-type it and would agree with
   // a broken build by construction (CLAUDE.md 6.3)
-  assert.match(src, /_lastPairLabel = \{[^}]*namePx: namePx/, "_lastPairLabel must publish namePx");
-  assert.match(src, /_lastRichLabel = \{[^}]*namePx: rNamePx/, "_lastRichLabel must publish namePx");
+  assert.match(
+    src,
+    /_lastPairLabel = \{[^}]*namePx: namePx/,
+    "_lastPairLabel must publish namePx",
+  );
+  assert.match(
+    src,
+    /_lastRichLabel = \{[^}]*namePx: rNamePx/,
+    "_lastRichLabel must publish namePx",
+  );
+});
+
+test("a qualified focus keeps separate, compact subtitle rows across label LODs", () => {
+  const { a, texts } = labelApp();
+
+  a.draw();
+  const split = a._lastPairLabel;
+  assert.ok(a._lodK > 0.5, `the pair must be split, got LOD ${a._lodK}`);
+  assert.ok(split, "the real pair renderer emitted a focused label");
+  assert.equal(split.main, "Trap and Roll");
+  assert.equal(split.qual, "from Mount");
+  assert.equal(split.sub, "DEFENDING");
+  assert.equal(split.above, false, "DEFENDING is the lower role");
+  assert.equal(
+    split.subY - split.qualY,
+    split.qualY - split.nameY,
+    "the qualifier and lower role use the same compact baseline rhythm",
+  );
+  assert.ok(
+    texts.some((row) => row.text === "Trap and Roll"),
+    "the split canvas drew the short title",
+  );
+  assert.ok(
+    texts.some((row) => row.text === "from Mount"),
+    "the split canvas drew the qualifier",
+  );
+
+  texts.length = 0;
+  a.cam.vw = a.W; // scale 1: below pairGroup's merge threshold
+  a.draw();
+  const merged = a._lastRichLabel;
+  assert.ok(a._lodK < 0.5, `the pair must be merged, got LOD ${a._lodK}`);
+  assert.equal(a._lastPairLabel, null, "the split-pair renderer stood down");
+  assert.ok(merged, "the real merged renderer emitted a focused label");
+  assert.equal(merged.name, "Trap and Roll", "the title stays short");
+  assert.equal(
+    merged.qual,
+    "from Mount",
+    "the origin remains its own subtitle",
+  );
+  assert.ok(
+    merged.qualY > merged.nameY,
+    "the qualifier baseline is below the title",
+  );
+  assert.ok(
+    texts.some((row) => row.text === "Trap and Roll"),
+    "the merged canvas drew the short title",
+  );
+  assert.ok(
+    texts.some((row) => row.text === "from Mount"),
+    "the merged canvas drew the qualifier",
+  );
+  assert.ok(
+    !texts.some((row) => row.text === "Trap and Roll from Mount"),
+    "no canvas row recomposes the qualifier into the title",
+  );
 });
 
 test("the template's announcer size is a first-frame guess the app overwrites", () => {
   const row = tpl.match(/<div ref="\{\{ evTextRef \}\}" style="([^"]*)"/);
-  assert.ok(row, "the announcer text row must still be findable in xdc-template.html");
+  assert.ok(
+    row,
+    "the announcer text row must still be findable in xdc-template.html",
+  );
   const px = row[1].match(/font-size:([\d.]+)px;/);
-  assert.ok(px, `the announcer row must carry a plain px font-size, got: ${row[1].slice(0, 60)}`);
+  assert.ok(
+    px,
+    `the announcer row must carry a plain px font-size, got: ${row[1].slice(0, 60)}`,
+  );
   const guess = parseFloat(px[1]);
   // it is never READ by the app, but a guess further from the truth than the step it is guessing
   // means a visible reflow on the first resize — so pin it to the wide value it stands in for.
-  assert.equal(guess, at(1280).announcerPx(), "the first-frame guess must match announcerPx() at desktop width");
-  assert.match(src, /_applyTypeScale\(\)/, "…and _applyTypeScale must exist to overwrite it");
+  assert.equal(
+    guess,
+    at(1280).announcerPx(),
+    "the first-frame guess must match announcerPx() at desktop width",
+  );
+  assert.match(
+    src,
+    /_applyTypeScale\(\)/,
+    "…and _applyTypeScale must exist to overwrite it",
+  );
   assert.match(
     src,
     /resize\(\)\s*\{[\s\S]*?this\._applyTypeScale\(\);[\s\S]*?\n  \}/,

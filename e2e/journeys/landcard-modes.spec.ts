@@ -561,7 +561,10 @@ test("arriving on the defending side brings the red rush — no play button in b
  */
 test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card @curated", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender")
+  // `Kuzure Kesa Gatame to Kesa Gatame`, the same node the owner reported as `Modified Scarf to
+  // Kesa Gatame` — its position was one of three filed twice and collapsed onto the judo name
+  // (v1.176.0). Subject unchanged: a TOP-authored transition, so its Defender seat is bottom.
+  await j.boot("/Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame/Defender")
   await j.advance(8000)
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top) // force layout between frames (§6.2)
@@ -591,7 +594,7 @@ test("arriving on a TRANSITION's defending side is a calm staged landing — no 
       H,
     }
   })
-  expect(s.staged, "the transition is staged from the defending seat").toEqual({ t: "Modified Scarf to Kesa Gatame", ty: "transitions", side: "defender" })
+  expect(s.staged, "the transition is staged from the defending seat").toEqual({ t: "Kuzure Kesa Gatame to Kesa Gatame", ty: "transitions", side: "defender" })
   expect(s.role, "…which is the seat opposite its top-authored origin").toBe("bottom")
   expect(s.defense, "NOT a catch").toBe(false)
   expect(s.vignette, "no vignette").toBe(false)
@@ -600,7 +603,7 @@ test("arriving on a TRANSITION's defending side is a calm staged landing — no 
   expect(s.beats).not.toContain("defend_start")
   expect(s.paused, "staged and paused — play waits for the button like any other arrival").toBe(true)
   expect(s.mode, "an ordinary attempt card…").toBe("attempt")
-  expect(s.cardAbout, "…about the technique").toBe("Modified Scarf to Kesa Gatame")
+  expect(s.cardAbout, "…about the technique").toBe("Kuzure Kesa Gatame to Kesa Gatame")
   expect(s.hand, "your hand from the defending seat is dealt").toBeGreaterThan(0)
   expect(s.cardTop, "the card is docked").toBeGreaterThan(0)
   expect(s.nodeY, "the state sits ABOVE the card, in the free band — not behind it").toBeLessThan(s.cardTop!)

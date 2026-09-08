@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Kesa Gatame",
-      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape from Side Control",
-      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
   "@type": "WebPage",
   "name": "Kesa Gatame Bottom",
   "description": "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering defensive frames, bridge-and-turn mechanics, and guard recovery from scarf hold.",
+  "alternateName": ["Scarf Hold", "Scarf Hold Position", "Hon Kesa Gatame"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -165,8 +166,8 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Kesa Gatame Escape to Back Take",
-      "description": "Kesa Gatame (Bottom) film study: Reverse Kesa Gatame Escape to Back Take, taught by Gymnanigains.",
+      "name": "Ushiro Kesa Gatame Escape to Back Take",
+      "description": "Kesa Gatame (Bottom) film study: Ushiro Kesa Gatame Escape to Back Take, taught by Gymnanigains.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
       "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
@@ -203,6 +204,9 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Scarf Hold</strong>, <strong>Scarf Hold Position</strong>, <strong>Hon Kesa Gatame</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Kesa Gatame Bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where the bottom practitioner faces intense chest-to-chest pressure from an opponent controlling from the scarf hold position. This classical judo pin has been adapted for BJJ competition and presents unique escape challenges due to the opponent's ability to control both the head and near-side arm while applying crushing chest pressure. The position requires specific escape mechanics that differ significantly from standard side control escapes, as the top player's weight distribution and control points create a distinct defensive problem. Understanding the fundamental escape pathways from Kesa Gatame Bottom is essential for any practitioner, as this position appears frequently in both gi and no-gi competition, particularly against opponents with judo backgrounds or those who favor old-school control positions.
@@ -225,7 +229,7 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
 
-<p class="clip-credit"><strong>Reverse Kesa Gatame Escape to Back Take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ushiro Kesa Gatame Escape to Back Take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -434,8 +438,8 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 ## Related Positions and Techniques
 
 - **[[Positions/Side Control]]** - Similar defensive position with different escape mechanics
-- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Variation with modified grip and weight distribution
-- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Opposite-side variation of scarf hold
+- **[[Positions/Side Control/Kuzure Kesa Gatame]]** - Variation with modified grip and weight distribution
+- **[[Positions/Side Control/Ushiro Kesa Gatame]]** - Opposite-side variation of scarf hold
 - **[[Positions/North-South]]** - Common transition target for top player
 - **[[Positions/Mount]]** - Common transition target for top player
 - **[[Positions/Turtle]]** - Primary escape target position

@@ -658,7 +658,10 @@ def selfcheck(graph):
     P = graph["positions"]
     checks = []
     roles = sorted(k for k in P if is_role(k))
-    checks.append(("272 position role-nodes", len(roles) == 272, "%d" % len(roles)))
+    # A TRIPWIRE, not a derivation: 133 positions x 2 seats. 272 until v1.171.0, when the three
+    # Kesa Gatame positions that existed twice (judo name + English name) collapsed to one each.
+    # Moving this number is a statement about the corpus; say why in the commit that moves it.
+    checks.append(("266 position role-nodes", len(roles) == 266, "%d" % len(roles)))
     checks.append(("non-role position entries carry no transitions",
                    all(not P[k].get("transitions") for k in P if not is_role(k)),
                    "%d entries" % (len(P) - len(roles))))

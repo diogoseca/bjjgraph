@@ -39,7 +39,8 @@ const NAMEABLE = [
   "Open Guard Top",
   "Mount Top",
 ];
-const UNIFORM = 6 / 136; // 0.044 — what a uniform draw gives the nameable six
+const PLAYABLE_POSITIONS = 121; // census:playablePositions
+const UNIFORM = NAMEABLE.length / PLAYABLE_POSITIONS; // the nameable share of a uniform draw
 
 /** Evidence, written ONLY on request. `tests/artifacts/coldstart/` is tracked and cited, so a plain
  *  local run must leave it byte-identical (see that directory's README):
@@ -63,16 +64,9 @@ async function sweepFirstStart(
   return page.evaluate(
     ([n, names]) => {
       const a = (window as any).__neural;
-      const pool = a.nodes
-        .filter(
-          (nd: any) =>
-            nd.ty === "positions" &&
-            // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter. Every state is a pair now,
-            // and admitting both halves would double the pool the weighted draw is defined over.
-            nd.rep !== false &&
-            a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
-        )
-        .map((nd: any) => nd.idx);
+      // Boot can still be staged; start a roll to produce the actual filtered opening pool.
+      a.startRoll();
+      const pool = a._posIdx.slice();
       const hits: Record<string, number> = {};
       const N = n as number;
       for (let i = 0; i < N; i++) {
@@ -128,8 +122,8 @@ test("a first-ever visitor opens on a position they might have a name for", asyn
 
   expect(
     s.poolSize,
-    "the playable pool itself is untouched — 136 role-nodes",
-  ).toBe(136);
+    "every playable position participates in the opening pool",
+  ).toBe(PLAYABLE_POSITIONS);
   expect(s.allInPool, "every draw still comes out of that same pool").toBe(
     true,
   );
@@ -148,7 +142,7 @@ test("a first-ever visitor opens on a position they might have a name for", asyn
   ).toBeGreaterThanOrEqual(10);
 });
 
-test("a returning player's opening draw is untouched — uniform over the whole pool", async ({
+test("a returning player's opening draw is uniform over the playable pool", async ({
   page,
 }) => {
   const j = journey(page);
@@ -160,16 +154,9 @@ test("a returning player's opening draw is untouched — uniform over the whole 
 
   const same = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const pool = a.nodes
-      .filter(
-        (nd: any) =>
-          nd.ty === "positions" &&
-          // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
-          // and admitting both halves would double the pool this measures.
-          nd.rep !== false &&
-          a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
-      )
-      .map((nd: any) => nd.idx);
+    // Boot can still be staged; start a roll to produce the actual filtered opening pool.
+    a.startRoll();
+    const pool = a._posIdx.slice();
     const mismatch: string[] = [];
     let nameable = 0;
     const NAMES = [
@@ -180,7 +167,7 @@ test("a returning player's opening draw is untouched — uniform over the whole 
       "Open Guard Top",
       "Mount Top",
     ];
-    // 4 samples per pool slot exactly (136 * 4), so the measured share IS 6/136 with no
+    // Four samples per playable pool slot, so the measured nameable share is exact with no
     // quantisation slack to hide behind
     const N = pool.length * 4;
     for (let i = 0; i < N; i++) {
@@ -198,12 +185,14 @@ test("a returning player's opening draw is untouched — uniform over the whole 
     }
     return {
       returning: !!localStorage.getItem("bjj-neural-progress"),
+      poolSize: pool.length,
       mismatch: mismatch.slice(0, 5),
       mismatches: mismatch.length,
       nameableShare: nameable / N,
     };
   });
 
+  expect(same.poolSize, "uniform draws cover every playable position").toBe(PLAYABLE_POSITIONS);
   expect(same.returning, "the profile really does carry prior progress").toBe(
     true,
   );
@@ -211,7 +200,7 @@ test("a returning player's opening draw is untouched — uniform over the whole 
     same.mismatches,
     `a returning player's draw must map u -> position exactly as it always did: ${JSON.stringify(same.mismatch)}`,
   ).toBe(0);
-  expect(same.nameableShare, "and therefore stays uniform (6/136)").toBeCloseTo(
+  expect(same.nameableShare, "and therefore stays uniform over the playable pool").toBeCloseTo(
     UNIFORM,
     2,
   );
@@ -381,14 +370,9 @@ test("WIN 2 as a property: on every first-roll state, both sides, the graph and 
 
   const audit = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const pool = a.nodes.filter(
-      (nd: any) =>
-        nd.ty === "positions" &&
-        // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
-        // and admitting both halves would double the pool this measures.
-        nd.rep !== false &&
-        a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
-    );
+    // Boot can still be staged; start a roll to produce the actual filtered opening pool.
+    a.startRoll();
+    const pool = a._posIdx.map((i: number) => a.nodes[i]);
     const rows: any[] = [];
     for (const nd of pool) {
       for (const role of ["top", "bottom"]) {
@@ -471,33 +455,33 @@ test("WIN 2 as a property: on every first-roll state, both sides, the graph and 
       1,
     );
 
-  expect(audit.length, "the whole pool, both sides").toBe(272);
+  expect(audit.length, "every playable position, both sides").toBe(242); // census:positionChoiceSeats
 
   const contradicts = audit.filter((r) => r.namesOther);
   expect(
     contradicts.length,
-    `${contradicts.length}/272 identity blocks name the side NOT being played: ${brief(contradicts)}`,
+    `${contradicts.length}/${audit.length} identity blocks name the side NOT being played: ${brief(contradicts)}`,
   ).toBe(0);
   const silent = audit.filter((r) => !r.namesOwn);
   expect(
     silent.length,
-    `${silent.length}/272 identity blocks never say which side you are on: ${brief(silent)}`,
+    `${silent.length}/${audit.length} identity blocks never say which side you are on: ${brief(silent)}`,
   ).toBe(0);
 
   const wrongDeck = audit.filter((r) => r.deckKey !== r.wantKey);
   expect(
     wrongDeck.length,
-    `${wrongDeck.length}/272 landings are described by the OTHER side's deck: ${brief(wrongDeck)}`,
+    `${wrongDeck.length}/${audit.length} landings are described by the OTHER side's deck: ${brief(wrongDeck)}`,
   ).toBe(0);
   const wrongPosKey = audit.filter((r) => r.posKey !== r.wantKey);
   expect(
     wrongPosKey.length,
-    `${wrongPosKey.length}/272 drill panels opened the other side's deck: ${brief(wrongPosKey)}`,
+    `${wrongPosKey.length}/${audit.length} drill panels opened the other side's deck: ${brief(wrongPosKey)}`,
   ).toBe(0);
   const unresolvable = audit.filter((r) => !r.keyResolves);
   expect(
     unresolvable.length,
-    `${unresolvable.length}/272 deck keys do not resolve back to their own node: ${brief(unresolvable)}`,
+    `${unresolvable.length}/${audit.length} deck keys do not resolve back to their own node: ${brief(unresolvable)}`,
   ).toBe(0);
 
   // ── the dealt hand, measured against the AUTHORED origin role (not against the predicate that
@@ -520,7 +504,7 @@ test("WIN 2 as a property: on every first-roll state, both sides, the graph and 
   const escaped = audit.filter((r) => !r.roleFiltered);
   expect(
     escaped.length,
-    `${escaped.length}/272 combos have NO role-filtered candidate at all and deal from optionsFor's ` +
+    `${escaped.length}/${audit.length} combos have NO role-filtered candidate at all and deal from optionsFor's ` +
       `unfiltered escape (54 of 136 positions carry no technique whose canonical origin is that ` +
       `position). Graph-data coherence, out of scope here — but this ceiling must not grow. ` +
       `Examples: ${JSON.stringify(escaped.slice(0, 5).map((r) => r.node + "/" + r.role))}`,
@@ -623,21 +607,17 @@ test("the role cannot be read off the node title — every pool entry is titled 
   await j.boot("/", { keepTutorial: true });
   const t = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const pool = a.nodes.filter(
-      (nd: any) =>
-        nd.ty === "positions" &&
-        // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
-        // and admitting both halves would double the pool this measures.
-        nd.rep !== false &&
-        a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
-    );
+    // Boot can still be staged; start a roll to produce the actual filtered opening pool.
+    a.startRoll();
+    const pool = a._posIdx.map((i: number) => a.nodes[i]);
     return {
       total: pool.length,
       endsTop: pool.filter((n: any) => /\btop\s*$/i.test(n.t)).length,
       endsBottom: pool.filter((n: any) => /\bbottom\s*$/i.test(n.t)).length,
     };
   });
-  expect(t.endsTop, "all 136 hub titles end in Top").toBe(t.total);
+  expect(t.total, "every playable position was inspected").toBe(PLAYABLE_POSITIONS);
+  expect(t.endsTop, "every playable hub title ends in Top").toBe(t.total);
   expect(
     t.endsBottom,
     "so a title-derived role is a constant, and deriving it would delete bottom play",

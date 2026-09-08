@@ -675,26 +675,57 @@ class Component extends DCLogic {
           else this.setDeckOpen(false); // PANE LAW: Esc closes the pane last, once no overlay is up
         }
       } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
-        e.preventDefault(); const ctx = this._detailCtx; this.closeOptionDetail(); ctx.onPick(ctx.opt);
+        e.preventDefault(); const ctx = this._detailCtx;
+        if (ctx.onPick && ctx.opt && !ctx.opt.threat) { this.closeOptionDetail(); ctx.onPick(ctx.opt); }
       } else if (!typing && !this._detailCtx && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
-        else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
         // techniques and between flashcards"). Same shape as the History-home branch above and
-        // the same `_miniReg` handles — ←/→ page the open deck's cards, ↑/↓ walk the queue.
+        // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
         if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
-        else { const c = this._focusRow && this._miniReg && this._miniReg[this._focusRow]; if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         if (e.key === "ArrowLeft") this.drillPrev();
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
+      } else if (!typing && !this._detailCtx && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+        // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
+        // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
+        // in shape to the History-home and inline-session branches above, on the same `_miniReg`
+        // handles: ←/→ page the open lesson deck's cards, ↑/↓ walk the ladder's lesson rows,
+        // opening each one as it arrives (`challengeLessonNav`, challenge-ui.src.js).
+        // ORDER: BELOW the drill branch, so a checkpoint quiz or a lesson study — both
+        // `_paneStudyActive`, which `_challengeInline` excludes — keeps the keys it already had;
+        // ABOVE the landing card's ←/→, for the reason that branch states about itself.
+        e.preventDefault();
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
+        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
+      } else if (e.key === "Enter" && !typing && !this._detailCtx) {
+        // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
+        // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
+        // three-state rule), so a deck is workable without leaving the home row. Below the option
+        // sheet's Enter, which executes the staged technique and must keep the key.
+        //
+        // THE ACTIVATION GUARD IS SPACE'S, FOR SPACE'S REASON (v1.113.4): ⏎ activates every
+        // focused <button>/<summary>/<a> too, and the Challenges corridor is built entirely out
+        // of them, so preventing default here would break Tab-then-Enter on a lesson row. Left
+        // to the browser instead — which is exactly why an opening inline deck moves focus onto
+        // its deck BOX, a container that owns neither key (see `openMini`).
+        if (t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
+        const mini = this._focusedMini();
+        if (mini) { e.preventDefault(); mini.enter(); }
+        else if (this.isDrillOpen()) {
+          // the study takeover reads back the same way, so ⏎ means the same thing there as ↓
+          e.preventDefault(); if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
+        }
       } else if (!typing && !this._detailCtx && this._landEl && !this._landHidden() && (this._landMode === "land" || this._landMode === "attempt") && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
         // branches so it can never steal from an open study surface; the defense card is excluded
@@ -714,7 +745,9 @@ class Component extends DCLogic {
         if (e.key === " " && t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
-        else if (e.key === " " && this._focusRow && this._miniReg && this._miniReg[this._focusRow] && (this._sessionInline() || (this.deckShown && this._viewMode === "history" && this._drillView === "home"))) { this._miniReg[this._focusRow].reveal(); }
+        // `_focusedMini()` is the surface scope, not just a registry hit: it is what keeps Space
+        // off a deck that belongs to another tab (see its own header).
+        else if (e.key === " " && this._focusedMini()) { this._focusedMini().reveal(); }
         // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
         // three, so an open study surface and a focused mini-row both keep the key they already
         // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
@@ -1078,7 +1111,7 @@ class Component extends DCLogic {
           x: h.x, y: h.y, t: h.t, ty: h.ty, s: h.s || null, role: role,
           pairId: si === 0 ? h.id + "/" + SUF[roles[1]] : h.id,
           posId: h.posId || null, fromPositionId: h.fromPositionId || null,
-          fromRole: h.fromRole || null, familyHub: h.familyHub || null,
+          fromRole: h.fromRole || null, familyHub: h.familyHub || null, aka: h.aka || null,
           o: si === 0 ? h.o : null,   // the share ordinal belongs to the hub, and the rep IS the hub
         };
         // `sv` colours the member by ITS OWN side's advantage; `s` stays the full pair so
@@ -1137,7 +1170,7 @@ class Component extends DCLogic {
         continue;
       }
       const A = out[rep(i)], B = out[low(i)];
-      A.cal = { avail: cal.avail }; B.cal = { avail: cal.avail };
+      A.cal = { avail: cal.avail, stateAlias: cal.stateAlias }; B.cal = { avail: cal.avail, stateAlias: cal.stateAlias };
       // `ev` goes on BOTH members, whole. It is keyed by role already, and `_evRowsFor(posIdx,
       // role)` looks up `posIdx + "/" + role` — so filing each role's block only on its own member
       // makes the answer depend on WHICH HALF you happen to be standing on, and the side you are
@@ -1278,7 +1311,7 @@ class Component extends DCLogic {
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -1450,10 +1483,22 @@ class Component extends DCLogic {
     // authored name on every option card and every in-node label — the exact opposite of the rule,
     // which is to qualify only what is genuinely ambiguous. `rep` is true for every unpaired node.
     this._ambig = new Map();
+    // …AND THE BARE-NAME SPACE, which is `nodeQual`'s last resort. A node with no qualifier at
+    // all — no "from <origin>", no alias — has nothing beside its name, so if a SECOND node wears
+    // the same bare name the two rows are indistinguishable. Measured: 5 of 792 bare names, and
+    // every one is a POSITION against a same-named TECHNIQUE (Gift Wrap, Dogfight Position,
+    // Mounted Triangle, Buggy Choke, Seat Belt Control Back) — the corpus's own collisions, the
+    // ones §6.7 records as dangling wikilinks. They were invisible only because the position's
+    // title carried the "… Top" artifact that v1.171.0 took off every surface. Counted here, over
+    // the same per-SITE set as `_ambig`, so the fallback fires on exactly those and nowhere else.
+    this._bareDup = new Map();
     for (const n of nodes) {
       if (!n.rep) continue;
-      const m = this.splitName(n.t).main;
-      this._ambig.set(m, (this._ambig.get(m) || 0) + 1);
+      const sp = this.splitName(n.t);
+      this._ambig.set(sp.main, (this._ambig.get(sp.main) || 0) + 1);
+      if (sp.from || n.aka) continue;
+      const bare = this.graphName(n);
+      this._bareDup.set(bare, (this._bareDup.get(bare) || 0) + 1);
     }
     // share-link ordinal manifest, both directions, built once per ingest
     this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
@@ -1750,11 +1795,37 @@ class Component extends DCLogic {
   splitName(t) {
     const m = (t || "").match(/^(.*?)\s+[Ff]rom\s+(.+)$/);
     return m ? { main: m[1].trim(), from: "from " + m[2].trim() } : { main: t || "", from: "" };  }
+  /** The dim qualifier printed beside a node's name on DOM surfaces: a technique's "from <origin>"
+   *  tail, or — the same slot, same styling — a position's first authored alias as "aka Scarf
+   *  Hold" (v1.171.0). `aka` is emitted by regenerate_neural_data.py from `aliases[0]` and only
+   *  on positions, so the two never compete for the slot. Never on the canvas: the label paths
+   *  are width-bound (halfW, _fitText) and answer "what is this" with `graphName` alone. Never in
+   *  `t`: `posFamily(n.t)` keys deck joins and the list layer prints the FULL authored name. */
+  nodeQual(n) {
+    const sp = this.splitName(n.t);
+    if (sp.from) return sp.from;
+    if (n.aka) return "aka " + n.aka;
+    // LAST RESORT (v1.171.0): a bare name another node also wears. Only the KIND tells them
+    // apart — "Mounted Triangle (position)" vs "Mounted Triangle (transition)" — and a
+    // parenthetical is the disambiguation idiom a reader already knows. `_bareDup` is counted at
+    // ingest, so this is silent on the 787 bare names that are unique.
+    if (this._bareDup && (this._bareDup.get(this.graphName(n)) || 0) > 1) return "(" + this.deckCat(n).toLowerCase() + ")";
+    return "";
+  }
+  /** Search hit test for a node: its title, or its alias — so "scarf hold" finds Kesa Gatame. */
+  nodeMatches(n, q) {
+    return n.t.toLowerCase().includes(q) || !!(n.aka && n.aka.toLowerCase().includes(q));
+  }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
-   *  surfaces, lists and dossier always render the FULL authored name by canon. */
+   *  surfaces, lists and dossier always render the FULL authored name by canon.
+   *
+   *  A POSITION short-circuits to `graphName`: it has no `from` qualifier to fold in, and the
+   *  ambiguity map is keyed on the raw title, which for a position still carries the role
+   *  artifact — so consulting it here could only ever hand back "Kesa Gatame Top". */
   displayName(n) {
     if (!n) return "";
+    if (n.ty === "positions") return this.graphName(n);
     const sp = this.splitName(n.t);
     return this._ambig && (this._ambig.get(sp.main) || 0) > 1 ? n.t : sp.main;
   }
@@ -1770,6 +1841,18 @@ class Component extends DCLogic {
   // wrong: there is one orb, it is neither side, and the role belongs to the pair group that is
   // deliberately not drawn there. The focus label already used `posFamily`; this is the same rule
   // for the other three canvas label paths, so the graph answers "what is this" one way.
+  //
+  // AND SO DOES THE DOM (v1.171.0). Owner, on the aka rows: "those trailing Top vs aka without
+  // top is weird. actually the top shouldn't appear there trailing, only in those subtitles."
+  // Every DOM surface printed `splitName(n.t).main`, which for a position IS the whole title —
+  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (it strips, and hands the
+  // seat to its badge — see openDossier), and the Explore row, the search row, the list drawer,
+  // the systems row and every naming prose line said "Kesa Gatame Top". Two answers to one
+  // question (§6.5), and the row's answer is WRONG twice over: `_deriveDualPairs` gives both pair
+  // members the hub's title, so a BOTTOM seat's row read "Top" too, and Explore lists SITES
+  // (`if (!n.rep) continue`), where no seat is being named at all.
+  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the node
+  // card's badge, the systems/concept row's role chip, the canvas rich label's role word.
   graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
   // Binary-search the longest prefix that fits, then ellipsize. `ctx.font` must already be set —
   // the caller owns it, because every label site draws at its own size.
@@ -2875,6 +2958,7 @@ class Component extends DCLogic {
    *  manifest-arrival backfill re-requests in that case. Fire-and-forget on purpose. */
   _prefetchLandDeck(idx) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (n.ty === "submissions") this.loadSubmissionChoices(n).catch(() => {});
     const k = this.deckKeyFor(n); if (k && k.key) this.hydrateDeck(k.key);
   }
   /**
@@ -2900,6 +2984,7 @@ class Component extends DCLogic {
    */
   _prefetchDefendDeck(idx) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (n.ty === "submissions") this.loadSubmissionChoices(n).catch(() => {});
     const k = this.defendKeyFor(n);
     if (k && this.flashcards && this.flashcards.decks && this.flashcards.decks[k]) this.hydrateDeck(k);
   }
@@ -3160,11 +3245,18 @@ class Component extends DCLogic {
    * the scroller aligns its top, so the question and the row it belongs to lead. Already fully
    * visible → no movement at all, which is what "visual continuity" means when paging ↓ then ↑.
    * Pinned by e2e/journeys/session-scroll.spec.ts.
+   *
+   * THREE SURFACES, ONE SEAM (v1.175.0): the Challenges corridor's lesson decks live in a
+   * DIFFERENT scroller (the explorer list) and carry a different open-handle, so they pass both
+   * in — `_scrollFocusedDeck(explorerList, deckBox)` from `openMini`. Written as parameters with
+   * the History/session values as defaults rather than as a second copy of this arithmetic: it is
+   * the same question ("show the open deck with the least motion") and this repo has paid for
+   * answering one question twice more than once (§6.5).
    */
-  _scrollFocusedDeck() {
+  _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
-      const list = this.drillListRef.current; if (!list) return;
-      let deck = this._openMini && this._openMini.el;
+      const list = scroller || this.drillListRef.current; if (!list) return;
+      let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {
         // no registered opener (a first paint) — the one deck that is actually laid out
         deck = Array.prototype.find.call(list.querySelectorAll("[data-mini-deck]"), (el) => el.offsetParent !== null) || null;
@@ -3174,10 +3266,15 @@ class Component extends DCLogic {
       const dr = deck.getBoundingClientRect();
       const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      const pad = 12;
-      const room = lr.height - 2 * pad;
+      // A STICKY header inside the scroller owns the top of the scrollport and must be subtracted,
+      // MEASURED off the element and never as a CSS constant (§6.1, `_dockLandCard`): the corridor
+      // carries the maintenance band, which is one wrapping line from being taller than it looks.
+      // Absent on the History/session lists, where this query finds nothing and the inset is 0.
+      const band = list.querySelector("[data-maintenance]");
+      const pad = 12 + (band ? band.getBoundingClientRect().height : 0);
+      const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
-      else if (dr.bottom > lr.bottom - pad) list.scrollTop += dr.bottom - (lr.bottom - pad);
+      else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
     });
   }
   menuBtn(label, active, onClick) {
@@ -3932,6 +4029,40 @@ class Component extends DCLogic {
       if (st.revealed) { ansSet.add(st.idx); this.noteCardSeen(key, st.idx); } // reveal = SEEN only; mastery credit requires grading (honest economy)
       render();
     };
+    // GRADING IN PLACE (v1.105.2): reveal stays SEEN-only; the grade is the credit, through the
+    // same `gradeRecall` choke as every surface — lesson evidence, prep, stage and the SRS
+    // schedule all flow. One grade per card per session (the `gradedSet` latch below; render()
+    // rebuilds innerHTML wholesale, so without it six Got-its would climb six interval rungs).
+    // HOISTED out of render() in v1.175.0 so the ⏎ key and the buttons commit through ONE seam
+    // (§6.5): the local copy was rebuilt on every repaint and reachable only by mouse.
+    // AND IT MOVES THE DECK BEFORE IT GRADES, which is the whole reason the corridor's inline
+    // deck used to die under a Got-it: `gradeRecall` fires beats, `noteChallenges` repaints the
+    // Challenges tab whenever one advances, and that repaint rebuilds this deck from
+    // `_deckState[key]`. Grade-then-advance therefore repainted card N as "Graded", and the
+    // `doNext()` that followed walked `st.idx` on and rendered into the DETACHED wrap — a write
+    // that reports success and shows nothing (§6.6). Advance first and the rebuild reads the
+    // card the player is owed. `card` is captured BEFORE the walk, so the credit still lands on
+    // what was answered.
+    const gradeMini = (ok) => {
+      if (gradedSet.has(st.idx)) return;
+      gradedSet.add(st.idx);
+      ansSet.add(st.idx);
+      const card = cards[st.idx];
+      if (ok) doNext(); else render();               // a miss stays put for a re-read
+      this.gradeRecall(key, card, ok);
+      if (onGrade) onGrade(ok);
+    };
+    // ⏎ IS THE COMMIT KEY (v1.175.0, owner: "keys navigation especially for the flashcards in
+    // the challenges … up arrow down arrow left right space enter"). Space FLIPS the card; Enter
+    // says "got it" and walks on, so a whole deck is workable without leaving the home row.
+    // THREE states, ONE verb, because a key that sits dead reads as broken: face-down → reveal,
+    // revealed → grade, already graded → next card (gradeMini's latch would swallow the second
+    // press, and "Graded — next card →" is exactly what the card is already telling you).
+    const doEnter = () => {
+      if (!st.revealed) { doReveal(); return; }
+      if (gradedSet.has(st.idx)) { doNext(); return; }
+      gradeMini(true);
+    };
     const render = () => {
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
@@ -3949,7 +4080,9 @@ class Component extends DCLogic {
         '</div>' +
         (st.revealed ? '<div data-mini-a="1" style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
         (st.revealed && !gradedSet.has(st.idx)
-          ? '<div style="display:flex;gap:7px;margin-top:8px;"><button data-mini-again="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(232,150,107,.4);background:rgba(232,150,107,.12);color:#f0c4ad;">Review again</button><button data-mini-got="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(110,214,160,.4);background:rgba(110,214,160,.13);color:#bfe6cf;">Got it</button></div>'
+          // the ⏎ chip on Got-it is the same promise the Reveal button's `space` chip makes — the
+          // two keys the card is worked with, printed on the two buttons that do it
+          ? '<div style="display:flex;gap:7px;margin-top:8px;"><button data-mini-again="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(232,150,107,.4);background:rgba(232,150,107,.12);color:#f0c4ad;">Review again</button><button data-mini-got="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(110,214,160,.4);background:rgba(110,214,160,.13);color:#bfe6cf;">Got it<kbd style="font-family:inherit;font-size:9px;font-weight:700;opacity:.55;border:1px solid currentColor;border-radius:4px;padding:1px 6px;margin-left:6px;letter-spacing:.04em;">\u21b5</kbd></button></div>'
           : (st.revealed ? '<div data-mini-graded="1" style="margin-top:8px;font-size:10.5px;color:#7e8aa3;text-align:center;">Graded \u2014 next card \u2192</div>' : '')) +
         '<div style="display:flex;gap:7px;margin-top:9px;">' +
           navBtn("mp", "M15 18l-6-6 6-6") +
@@ -3963,24 +4096,14 @@ class Component extends DCLogic {
       mr.onmouseenter = () => mr.style.background = "rgba(74,108,255,.28)";
       mr.onmouseleave = () => mr.style.background = "rgba(74,108,255,.16)";
       mp.onclick = doPrev; mn.onclick = doNext; mr.onclick = doReveal;
-      // GRADING IN PLACE (v1.105.2): reveal stays SEEN-only; these are the credit, through the
-      // same gradeRecall choke as every surface — lesson evidence, prep, stage and the SRS
-      // schedule all flow. One grade per card per session (the latch above).
+      // the buttons are the MOUSE half of the one grade seam hoisted above — never a second copy
       const gb = wrap.querySelector("[data-mini-got]"), ab = wrap.querySelector("[data-mini-again]");
-      const gradeMini = (ok) => {
-        if (gradedSet.has(st.idx)) return;
-        gradedSet.add(st.idx);
-        ansSet.add(st.idx);
-        this.gradeRecall(key, cards[st.idx], ok);
-        if (ok) doNext(); else render();               // a miss stays put for a re-read
-        if (onGrade) onGrade(ok);
-      };
       if (gb) gb.onclick = () => gradeMini(true);
       if (ab) ab.onclick = () => gradeMini(false);
       wrap.querySelectorAll(".mt").forEach((t) => t.onclick = () => { st.idx = parseInt(t.dataset.i, 10); st.revealed = false; render(); });
     };
     this._miniReg = this._miniReg || {};
-    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext };
+    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
     render();
     return wrap;
   }
@@ -4033,7 +4156,7 @@ class Component extends DCLogic {
   }
   _pastRollRow(roll, decks) {
     const log = roll.log || [];
-    const start = log[0], end = log[log.length - 1];
+    const start = log[0];   // `end` lives in `replayEnds` now — the row prints what that returns
     const oc = { win: { c: "#7ee0a8", t: "won" }, lose: { c: "#e8889e", t: "tapped" }, reset: { c: "#7e8aa3", t: "reset" } }[roll.outcome] || { c: "#7e8aa3", t: "ended" };
     const box = document.createElement("div");
     box.style.cssText = "margin:0 -8px;";
@@ -4041,11 +4164,15 @@ class Component extends DCLogic {
     r.setAttribute("data-past-roll", String(roll.ts));
     r.style.cssText = "display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:8px;cursor:pointer;transition:background .12s;";
     const label = this.replayLabel(roll);
+    // ONE COMPOSER FOR "WHERE THIS ROLL WENT" (`replayEnds`), read here as markup and by
+    // `replayLabel` as a sentence — the row title used to compose its own `start → end` and
+    // therefore disagreed with the ⟲ button's own label the moment a one-state roll appeared.
+    const ends = this.replayEnds(roll);
     r.innerHTML =
       '<span style="flex:none;width:8px;height:8px;border-radius:50%;background:' + oc.c + ';box-shadow:0 0 6px ' + oc.c + '55;"></span>' +
       '<div style="flex:1;min-width:0;">' +
-        '<div style="font-size:12.5px;font-weight:600;color:#c2cce0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (start ? start.name : "?") + ' <span style="color:#5d6883;">\u2192</span> ' + (end ? end.name : "?") + '</div>' +
-        '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + log.length + ' states \u00b7 ' + oc.t + ' \u00b7 ' + this._agoLabel(roll.ts) + '</div>' +
+        '<div style="font-size:12.5px;font-weight:600;color:#c2cce0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + ends.from + (ends.to ? ' <span style="color:#5d6883;">\u2192</span> ' + ends.to : '') + '</div>' +
+        '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + log.length + (log.length === 1 ? ' state \u00b7 ' : ' states \u00b7 ') + oc.t + ' \u00b7 ' + this._agoLabel(roll.ts) + '</div>' +
       '</div>';
     // \u2500\u2500 THE ROW'S TWO QUIET CONTROLS (v1.106.5, owner: "a play from here and a replay button") \u2500\u2500
     // They are 12px apart, the same miss-distance a list row keeps between Share and Delete: these
@@ -4185,7 +4312,7 @@ class Component extends DCLogic {
       // `.page article` in base.scss. The app cannot opt out of a host global, so it states its
       // own box: margin 0 puts the box flush with the textarea and Send above/below it, and
       // flex:none stops the flex row shrinking it when the state's name is long.
-      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;margin:0;flex:none;"> about: ' + this.splitName(node.t).main;
+      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;margin:0;flex:none;"> about: ' + this.graphName(node);
       ctx.querySelector("input").addEventListener("change", (e) => { ctxOn = e.target.checked; });
       body.appendChild(ctx);
     }
@@ -4279,6 +4406,7 @@ class Component extends DCLogic {
   }
 
   expandOption(opt, onPick, srcCard) {
+    if (opt.threat || opt.action === "escape") { this.previewStateChoice(opt, onPick); return; }
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) { onPick(opt); return; }
     // ── THE SHEET LIVES ON THE ROOT PLANE (v1.136.0) ─────────────────────────────────────────
@@ -4312,11 +4440,11 @@ class Component extends DCLogic {
     const col = edge ? edge.col : this.hex(this.myColor(n)), cat = this.deckCat(n); // role-correct, see buildOptionCard
     const pct = Math.round(this.moveChance(n) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
-    const resName = opt.res >= 0 ? this.splitName(this.nodes[opt.res].t).main : "\u2014";
+    const resName = opt.res >= 0 ? this.graphName(this.nodes[opt.res]) : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     // prose that NAMES states: "A transition from your current position to X, Y" must not name a
     // state this ruleset cannot produce, or the sheet advertises a destination the map does not have.
-    const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)).slice(0, 4).map((k) => this.splitName(this.nodes[k].t).main);
+    const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)).slice(0, 4).map((k) => this.graphName(this.nodes[k]));
     // titleParts no longer shapes the TITLE (the sheet prints the technique's own name), but it
     // still GATES the on-success line: `resName` is `opt.res`, a deal-time first-position-
     // neighbor heuristic — measured wrong for 188 of 323 "X to Y"-named transitions when the
@@ -4338,7 +4466,7 @@ class Component extends DCLogic {
     panel.appendChild(grab);
     const head = document.createElement("div");
     head.style.cssText = "position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
-    const editBtn = '<button class="ng-bsuc-edit" title="Adjust your success rate" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#8b97b0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></button>';
+    const editBtn = '<button class="ng-bsuc-edit" title="Adjust your odds" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#8b97b0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></button>';
     const stepsSpan = '<span class="ng-bsuc-steps" style="display:none;align-items:center;gap:7px;opacity:0;transition:opacity .18s ease;"><button class="ng-bsuc-dn" title="Lower" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">\u2212</button><button class="ng-bsuc-up" title="Raise" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">+</button></span>';
     // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
     const mPct = Math.round((this.mastery(this._posKey) + this.mastery(this.deckKeyFor(n).key)) * 100);
@@ -4388,7 +4516,7 @@ class Component extends DCLogic {
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
-        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">Success rate</span>' +
+        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">Odds</span>' +
         '<span style="display:flex;align-items:center;gap:8px;">' + stepsSpan + editBtn +
           '<span class="ngsucbig" data-odds style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</span>' +
         '</span>' +
@@ -4516,7 +4644,7 @@ class Component extends DCLogic {
     back.style.cssText = "cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
     const go = document.createElement("button");
     go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
-    go.innerHTML = (cat === "Submission" ? "Go for the " + sp.main : "Execute this move") + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
+    go.innerHTML = this.choiceEscape(this.choiceLabel(opt)) + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
     go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
     // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
     // and on a phone it is a full-width surface where a 44px target actually fits.
@@ -4711,11 +4839,13 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   hideOptDetail() {
+    if (this._stateChoiceClose) this._stateChoiceClose();
     const panel = this.optDetailRef.current;
     if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
   }
   closeOptionDetail() {
+    if (this._stateChoiceClose) { this._setDetailCtx(null); this._stateChoiceClose(); return; }
     // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
     // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
     // never called it, so peeking at an option and backing out left the card that says where you
@@ -5107,6 +5237,47 @@ class Component extends DCLogic {
    * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
+  /**
+   * Is the CHALLENGES CORRIDOR the thing on screen — the third inline-deck surface, and the one
+   * the owner found keyless (v1.175.0)? Same shape as `_sessionInline`: read the screen, never a
+   * flag. `_paneStudyActive()` excludes the takeovers the corridor launches (a lesson study, a
+   * checkpoint quiz, a capstone) — those are `isDrillOpen()`'s, and its branch already has them.
+   */
+  _challengeInline() { return !!(this.deckShown && this._viewMode === "challenges" && !this._paneStudyActive()); }
+  /**
+   * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
+   *
+   * `_focusRow` + `_miniReg` are ONE registry shared by three surfaces (roll history `c<n>`,
+   * inline session `s<i>`, challenge corridor `lesson:<deckKey>`), and nothing clears the row
+   * handle when you change tabs. So a rid left behind by one surface stays resolvable from
+   * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
+   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
+   *
+   * The corridor answers through `_lessonRows`, which is rebuilt with the rows it indexes, and
+   * through `offsetParent` — the CSS's own answer to "can the player see this row". That is what
+   * makes a FOLDED belt give the keyboard back: a fold is `display:none` on `.ng-belt-body` and
+   * leaves every row in the DOM, so the deck is still open and still registered, just invisible.
+   * Unfolding hands the keys straight back, because nothing was thrown away to achieve it.
+   *
+   * One resolver, five callers (the three arrow branches, Space, ⏎) — the alternative was a
+   * fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is where §6.5 says
+   * to stop and name the seam.
+   */
+  _focusedMini() {
+    const rid = this._focusRow;
+    const reg = rid && this._miniReg ? this._miniReg[rid] : null;
+    if (!reg) return null;
+    const lesson = typeof rid === "string" && rid.indexOf("lesson:") === 0;
+    if (this._challengeInline()) {
+      if (!lesson) return null;
+      const row = (this._lessonRows || []).find((entry) => entry.rid === rid);
+      return row && row.row && row.row.offsetParent !== null ? reg : null;
+    }
+    if (lesson) return null; // and a corridor row is not drivable from another tab either
+    if (this._sessionInline()) return reg;
+    if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
+    return null;
+  }
   /**
    * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
    * extreme flashcards because I can go back and forth between techniques and between flashcards
@@ -5686,9 +5857,15 @@ class Component extends DCLogic {
         ["Answer a multiple-choice question", ["A", "B", "C"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
+        // THE FLASHCARD ROWS COVER ALL FOUR DECK SURFACES (v1.175.0): the study takeover, the
+        // roll history's inline decks, the inline session queue and — new here — the Challenges
+        // corridor's lesson decks. One vocabulary, because there is one handler and one
+        // `_miniReg` behind them; the legend is the only place these are documented, so a row
+        // that is not true of every one of the four does not belong in it.
         ["Flashcards: prev / next card", ["\u2190", "\u2192"]],
         ["Flashcards: prev / next technique", ["\u2191", "\u2193"]],
-        ["Flashcards: flip / got it", ["Space"]],
+        ["Flashcards: flip the card", ["Space"]],
+        ["Flashcards: got it, next card", ["\u23ce"]],
         ["Flashcards: review again", ["\u2191"]],
         ["Landing card: prev / next question", ["\u2190", "\u2192"]],
         ["Open / search explorer", ["/", "\u2318K"]],
@@ -6725,7 +6902,9 @@ class Component extends DCLogic {
     return this._giMode;
   }
   _rebuildRulesetMask() {
-    // `giAllows` is the definition; this is its per-frame CACHE, not a second implementation —
+    // The playable mask excludes unavailable techniques and retired control aliases. Aliases
+    // remain resolvable for old URLs and authored outcomes through canonicalState.
+    // `giAllows` owns ruleset availability; this is the playable projection cache —
     // every entry is that method's own answer. It exists because the draw pass asks the question
     // ~1500x per frame and a Map/property walk there is the difference between a filter and a
     // stutter. Rebuilt only where the frame can change (ingest, setGiMode).
@@ -6733,7 +6912,7 @@ class Component extends DCLogic {
     const ns = this.nodes || [];
     const mask = new Uint8Array(ns.length);
     let off = 0;
-    for (const n of ns) { const ok = this.giAllows(n); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
+    for (const n of ns) { const ok = this.giAllows(n) && !(n.cal && n.cal.stateAlias); mask[n.idx] = ok ? 1 : 0; if (!ok) off++; }
     this._rsOk = mask;
     this._rsOff = off;
     this._rsFrame = this._giMode;
@@ -6856,7 +7035,7 @@ class Component extends DCLogic {
       // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
       // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
       // page of results for states no no-gi session can enter.
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && n.t.toLowerCase().includes(q)).slice(0, 120);
+      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -6877,7 +7056,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.nodeQual(n) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -6956,7 +7135,7 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.nodeQual(n) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
           const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
           list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
@@ -7413,7 +7592,11 @@ class Component extends DCLogic {
   listItemName(nodeId) {
     const i = this._idIndex ? this._idIndex.get(this.siteIdOf(nodeId)) : null;
     const n = i != null ? this.nodes[i] : null;
-    return n ? n.t : nodeId;
+    if (!n) return nodeId;
+    // A TECHNIQUE keeps its whole title, qualifier included — that is this function's point. A
+    // POSITION's title carries the "… Top" rendering artifact, which is not part of its authored
+    // name, so it comes off here too (v1.171.0); a list holds SITES, and a site has no seat.
+    return n.ty === "positions" ? this.graphName(n) : n.t;
   }
   toggleListItem(nodeId, surface) {
     const had = this.activeListHas(nodeId);
@@ -8015,11 +8198,11 @@ class Component extends DCLogic {
     // 12px #9aa6bd with the qualifier in #6b7691 — byte for byte what Explore's leaf rows use
     nameBtn.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:12px;color:#9aa6bd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
     if (n) {
-      const sp = this.splitName(n.t);
-      nameBtn.innerHTML = this.escHTML(sp.main) +
-        (sp.from ? ' <span style="color:#6b7691;">' + this.escHTML(sp.from) + '</span>' : "");
-      nameBtn.title = n.t; // the full name survives the ellipsis on a 390px drawer
-      nameBtn.setAttribute("aria-label", n.t);
+      const qual = this.nodeQual(n), nm = this.listItemName(n.id);
+      nameBtn.innerHTML = this.escHTML(this.graphName(n)) +
+        (qual ? ' <span style="color:#6b7691;">' + this.escHTML(qual) + '</span>' : "");
+      nameBtn.title = nm; // the full name survives the ellipsis on a 390px drawer
+      nameBtn.setAttribute("aria-label", nm);
     } else {
       // an id this build cannot resolve (a list synced from a newer build): name it, don't hide it
       nameBtn.textContent = nodeId;
@@ -8418,10 +8601,10 @@ class Component extends DCLogic {
       // listItemName(). It renders dimmer, but it renders: a recipient has to be able to tell
       // which of the 35 Kimuras their coach drilled.
       if (n) {
-        const sp = this.splitName(n.t);
-        nameBtn.innerHTML = this.escHTML(sp.main) +
-          (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
-        nameBtn.title = n.t;
+        const qual = this.nodeQual(n);
+        nameBtn.innerHTML = this.escHTML(this.graphName(n)) +
+          (qual ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(qual) + '</span>' : "");
+        nameBtn.title = this.listItemName(n.id);
       } else {
         nameBtn.textContent = id;
       }
@@ -8844,11 +9027,11 @@ class Component extends DCLogic {
         try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
       };
       const nodeRow = (i, role, inset) => {
-        const n = this.nodes[i], sp = this.splitName(n.t);
+        const n = this.nodes[i], qual = this.nodeQual(n);
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
-            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
-            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -9056,12 +9239,12 @@ class Component extends DCLogic {
         for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
       }
       for (const i of idxs) {
-        const n = this.nodes[i], sp = this.splitName(n.t);
+        const n = this.nodes[i], qual = this.nodeQual(n);
         const role = roleFor.get(n.id) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
-            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
-            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -9277,12 +9460,13 @@ class Component extends DCLogic {
     if (this._roam) return;
     this._dropExpiryEvent(); // roaming away — the expiry sentence lets go (v1.138.0)
     this._roam = true;
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
-    this.rollLog = []; this._played = false;
+    // FREE ROAM ENDS THE ROLL — AND IT IS THE ONE END WITH NO LANDING BEHIND IT. Every other
+    // path reaches `enterLand` -> `buildDrillPanel` a second later, which is what used to repaint
+    // Last rolls; roam never lands again, so the tab sat frozen on the rows of a roll that no
+    // longer existed while the roll it had just archived stayed invisible. `_closeRoll` owns the
+    // repaint, which is why this is one call and not a fourth copy of the archive block.
+    this._closeRoll();
+    this._played = false;
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
@@ -9476,7 +9660,7 @@ class Component extends DCLogic {
     // "Top") title suffix: once it became the side actually being played, `\s+Bottom\s*$` could not
     // match "Mount Top", so a bottom landing's dossier read "Mount Top" next to a "Bottom" badge —
     // and the same hole opened whenever the badge was suppressed for other-side authored copy.
-    const title = n.ty === "positions" ? this.posFamily(sp.main) : sp.main;
+    const title = this.graphName(n);
     const dom0 = n.dom || 0;
     const badge = n.ty === "positions"
       ? (role ? { label: role, tone: dom0 >= 0.18 ? "ahead" : dom0 <= -0.18 ? "behind" : "even" } : null)
@@ -9548,7 +9732,7 @@ class Component extends DCLogic {
     if (attacks.length) {
       h += '<div data-ds="at" style="margin-top:13px;">' + secHead("Attacks from here", "#ff8a7e") +
         '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + attacks.map((k) =>
-          '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
+          '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + pct(k) + '</span>').join("") + '</div></div>';
     }
     const hasFold = mistakes.length || relPos.length || (rc && rc.context);
     if (hasFold) {
@@ -9557,7 +9741,7 @@ class Component extends DCLogic {
       if (rc && rc.context) h += '<p style="margin:0 0 13px;font-size:11.5px;line-height:1.55;color:#9aa6bd;">' + rc.context + '</p>';
       if (mistakes.length) h += '<div style="margin-bottom:13px;">' + secHead("Common mistakes", "#6b7691") + mistakes.map((m) => bullet('<b style="color:#dbe2f0;font-weight:600;">' + m.err + '</b> \u2014 ' + m.fix, "#8b97b0")).join("") + '</div>';
       if (relPos.length) h += '<div>' + secHead("Related positions", "#6b7691") + '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + relPos.map((k) =>
-        '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:600;color:#c4cde0;background:rgba(150,170,210,.12);border:1px solid rgba(150,170,210,.2);border-radius:7px;padding:4px 10px;">' + this.splitName(this.nodes[k].t).main + '</span>').join("") + '</div></div>';
+        '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:600;color:#c4cde0;background:rgba(150,170,210,.12);border:1px solid rgba(150,170,210,.2);border-radius:7px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + '</span>').join("") + '</div></div>';
       h += '</div>';
     }
     h += '<div class="dsRoll" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:16px;background:linear-gradient(135deg,rgba(74,108,255,.18),rgba(74,108,255,.07));border:1px solid rgba(110,160,255,.35);border-radius:12px;padding:11px 14px;">' +
@@ -9660,7 +9844,8 @@ class Component extends DCLogic {
     if (!path || !this._idIndex) return -1;
     const id = decodeURIComponent(String(path).replace(/^\/+/, "").replace(/\/+$/, ""));
     if (!id) return -1;
-    const i = this._idIndex.get(id);
+    const raw = this._idIndex.get(id);
+    const i = raw == null ? raw : this.canonicalState(raw);
     // same rule as `_nodeAndRoleForPath`: a Back/Forward pop onto a node the ruleset removed
     // resolves to nothing, so the caller falls through rather than seating an absent state.
     if (i != null && this.nodes[i] && !this.rsAllows(this.nodes[i])) return -1;
@@ -9713,7 +9898,11 @@ class Component extends DCLogic {
       }
     }
     if (i == null) return NONE;
-    const n = this.nodes[i]; if (!n) return NONE;
+    let n = this.nodes[i]; if (!n) return NONE;
+    if (n.cal && n.cal.stateAlias) {
+      role = role || n.role;
+      i = this.canonicalState(i, role); n = this.nodes[i];
+    }
     // RULESET (v1.167.0). Quartz emits a page for every node in the corpus regardless of ruleset,
     // so a no-gi visitor can arrive from a search result on /Transitions/Worm-Guard-Entry. Resolving
     // to NONE here is deliberate and is the cheapest correct answer: `_seedFromUrl` then falls
@@ -9923,10 +10112,10 @@ class Component extends DCLogic {
     const persp = this._perspective || "attacker";
     // every state (position / transition / submission) is a node you can roll from.
     // positions seed at themselves; transitions & submissions seed at their origin position.
-    let seedIdx = n.idx, seedName = this.splitName(n.t).main;
+    let seedIdx = n.idx, seedName = this.graphName(n);
     if (n.ty !== "positions") {
       const fp = this.posNodeForId(n.fromPositionId);
-      if (fp >= 0) { seedIdx = fp; seedName = this.splitName(this.nodes[fp].t).main; }
+      if (fp >= 0) { seedIdx = fp; seedName = this.graphName(this.nodes[fp]); }
     }
     const given = opts && opts.role ? String(opts.role).toLowerCase() : null;
     const staged = !!(opts && opts.staged);
@@ -9991,8 +10180,8 @@ class Component extends DCLogic {
       const cat = this.deckCat(n), isPos = n.ty === "positions";
       const deckKey = this.deckKeyFor(n).key;
       const deck = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[deckKey] : null;
-      let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.splitName(n.t).main + '</div>';
-      if (this.splitName(n.t).from) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.splitName(n.t).from + '</div>';
+      let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.graphName(n) + '</div>';
+      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.nodeQual(n) + '</div>';
       html += '<div style="display:inline-block;margin-top:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#8094b4;border:1px solid rgba(150,170,210,.25);border-radius:6px;padding:4px 9px;">' + cat + '</div>';
       detail.innerHTML = html;
       const btns = document.createElement("div"); btns.style.cssText = "display:flex;gap:10px;margin:18px 0 6px;flex-wrap:wrap;";
@@ -10007,7 +10196,7 @@ class Component extends DCLogic {
       btns.appendChild(loc);
       detail.appendChild(btns);
       const desc = document.createElement("div"); desc.style.cssText = "margin-top:18px;font-size:14px;color:#c2ccde;line-height:1.65;";
-      const neighbors = this.adj[n.idx].slice(0, 6).map((k) => this.splitName(this.nodes[k].t).main);
+      const neighbors = this.adj[n.idx].slice(0, 6).map((k) => this.graphName(this.nodes[k]));
       const deckCards = this._cardsOf(deck);
       if (deckCards && deckCards.length) {
         desc.innerHTML = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:8px;">Key question</div><div style="font-weight:600;color:#eef1f6;margin-bottom:6px;">' + deckCards[0].q + '</div>' + deckCards[0].a;
@@ -10031,13 +10220,13 @@ class Component extends DCLogic {
       // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
       // directly, so it inherited neither filter.
       const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
-      let matches = q ? repd.filter((n) => n.t.toLowerCase().includes(q)) : repd.slice(0, 80);
+      let matches = q ? repd.filter((n) => this.nodeMatches(n, q)) : repd.slice(0, 80);
       matches = matches.slice(0, 100);
       if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
       for (const n of matches) {
         const r = document.createElement("div"); const active = n.idx === this._searchSel;
         r.style.cssText = "cursor:pointer;padding:10px 12px;border-radius:9px;margin-bottom:2px;font-size:13.5px;background:" + (active ? "rgba(74,108,255,.18)" : "transparent") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.splitName(n.t).from + '</span>' : "");
+        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.nodeQual(n) + '</span>' : "");
         r.addEventListener("click", () => { this._searchSel = n.idx; renderResults(); renderDetail(); });
         results.appendChild(r);
       }
@@ -10905,7 +11094,7 @@ class Component extends DCLogic {
       if (show && !x) x = this._buildHandClose();
       if (x) {
         x.style.visibility = show ? "visible" : "hidden";
-        if (show) { const want = this._dockTrayTop(op); if (want && x.style.bottom !== want) x.style.bottom = want; }
+        if (show) this._dockHandClose(op, x);
       }
     }
     // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
@@ -10919,6 +11108,7 @@ class Component extends DCLogic {
   clearOptions() {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
+    this._waitingSubmission = null;
     const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
@@ -11061,13 +11251,210 @@ class Component extends DCLogic {
   }
 
   // action nodes adjacent to a position, ranked, deduped by title
-  optionsFor(posIdx) {
+  // Submission identity is independent of its attacker's physical top/bottom seat.
+  submissionNode(node) {
+    if (!node || node.ty !== "submissions") return null;
+    return node.role === "defender" && node.pi >= 0 ? this.nodes[node.pi] : node;
+  }
+  canonicalState(idx, role) {
+    const n = this.nodes[idx];
+    if (!n) return idx;
+    const alias = n.cal && n.cal.stateAlias;
+    if (!alias) return idx;
+    const target = this._techSlugIndex && this._techSlugIndex.get(alias);
+    const sub = this.submissionNode(this.nodes[target]);
+    if (!sub || !this.rsAllows(sub)) return idx;
+    return (role || n.role) === sub.fromRole ? sub.idx : (sub.pi >= 0 ? sub.pi : sub.idx);
+  }
+  choiceLabel(opt) {
+    if (opt.label) return opt.label;
+    if (opt.action === "finish") return "Finish";
+    const n = this.submissionNode(opt.node) || opt.node;
+    if (n.cal && n.cal.choiceLabel) return n.cal.choiceLabel;
+    const origin = this.nodes[this.posNodeForId(n.fromPositionId)];
+    const from = origin ? this.posFamily(origin.t) : "";
+    let name = n.t;
+    if (from && name.endsWith(" from " + from)) name = name.slice(0, -(6 + from.length));
+    if (n.ty === "submissions") return "Attack " + name;
+    if (from && name.startsWith(from + " to ")) {
+      const to = name.slice(from.length + 4);
+      return to === "Back" || to === "Back Control" ? "Take the back" : "Move to " + to;
+    }
+    return name;
+  }
+  choiceEscape(text) {
+    return String(text || "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  loadSubmissionChoices(node) {
+    const sub = this.submissionNode(node);
+    if (sub.cal.defenses) return Promise.resolve();
+    const loads = this._submissionLoads || (this._submissionLoads = new Map());
+    if (loads.has(sub.idx)) return loads.get(sub.idx);
+    const pending = fetch(this._dataBase() + "submission-details/" + this.qhash(sub.t) + ".json")
+      .then((r) => { if (!r.ok) throw new Error("Submission choices unavailable"); return r.json(); })
+      .then((payload) => {
+        const body = payload[sub.t];
+        if (!body || !Array.isArray(body.choices) || !body.choices.length) throw new Error("Submission has no defensive responses");
+        sub.cal.defenses = body.choices; sub._defenseDetails = body.details || [];
+      }).finally(() => loads.delete(sub.idx));
+    loads.set(sub.idx, pending); return pending;
+  }
+  waitForSubmissionChoices(sub, ready) {
+    if (sub.cal.defenses) return false;
+    this.clearOptions();
+    const token = {}; this._waitingSubmission = token;
+    const pos = this.currentPos, role = this.playerRole;
+    const current = () => this._waitingSubmission === token && this.currentPos === pos && this.playerRole === role && !this.__ngDestroyed;
+    const el = this.optionsRef.current;
+    const message = (failed) => {
+      if (!el) return;
+      el.style.pointerEvents = "auto";
+      el.innerHTML = '<div role="status" style="color:#b7c5dc;padding:18px;">' +
+        (failed ? 'Choices could not load. <button data-retry-choices>Retry</button>' : 'Loading submission choices…') + '</div>';
+      const retry = el.querySelector("[data-retry-choices]");
+      if (retry) retry.onclick = () => this.waitForSubmissionChoices(sub, ready);
+    };
+    this._optPick = null; this._optList = null; this._decision = null;
+    message(false);
+    this.loadSubmissionChoices(sub).then(() => {
+      if (!current()) return;
+      this._waitingSubmission = null; ready();
+    }).catch(() => { if (current()) message(true); });
+    return true;
+  }
+  submissionDefenses(node) {
+    const sub = this.submissionNode(node);
+    if (!sub) return [];
+    const out = [];
+    for (const d of (sub.cal && sub.cal.defenses) || []) {
+      const r = this.resolveOutcomeTo(d.to);
+      const dest = this.canonicalState(r.idx, r.role);
+      if (dest < 0 || r.terminal || !this.rsAllowsIdx(dest)) continue;
+      out.push({ idx: sub.pi >= 0 ? sub.pi : sub.idx, node: this.nodes[sub.pi >= 0 ? sub.pi : sub.idx],
+        res: dest, destinationRole: r.role || this.nodes[dest].role, label: d.label,
+        action: "escape", defense: d, submission: sub.idx });
+    }
+    return out;
+  }
+  submissionOptions(node, role) {
+    const sub = this.submissionNode(node);
+    if (!sub || !this.rsAllows(sub)) return [];
+    if (role !== sub.fromRole) return this.submissionDefenses(sub);
+    const out = [{ idx: sub.idx, node: sub, res: -1, action: "finish", label: "Finish", submission: sub.idx }];
+    const seen = new Set([sub.idx]);
+    for (const key of (sub.cal && sub.cal.stateMoves) || []) {
+      const idx = this._techSlugIndex && this._techSlugIndex.get(key);
+      const n = this.submissionNode(this.nodes[idx]) || this.nodes[idx];
+      if (!n || !this.rsAllows(n) || seen.has(n.idx)) continue;
+      seen.add(n.idx);
+      const success = (n.cal && n.cal.outcomes || []).find((o) => o.result === "success" && o.to !== "game-over");
+      const target = success && this.resolveOutcomeTo(success.to);
+      out.push({ idx: n.idx, node: n, res: target && target.idx >= 0 ? this.canonicalState(target.idx, target.role) : this.resultPos(n.idx, sub.idx),
+        action: n.ty === "submissions" ? "enter" : "transition", submission: sub.idx });
+    }
+    return out;
+  }
+  opponentThreats(posIdx) {
+    const here = this.nodes[posIdx];
+    const role = this.playerRole === "top" ? "bottom" : "top";
+    // Do not change the live player role to inspect the other hand.
+    const opts = here.ty === "submissions" ? this.submissionOptions(here, role) : this.optionsFor(posIdx, role);
+    return opts.map((o) => ({ ...o, threat: true, actor: "opponent" }));
+  }
+  // Threat tint is the resulting state scored for US, including any seat reversal.
+  // An opponent move is not automatically a maximally bad state. The group label owns
+  // actor identity; this mark owns the outcome value, on the graph's -100..100 scale.
+  threatMark(opt) {
+    let target = this.nodes[opt.res] || opt.node, role = opt.destinationRole;
+    if (opt.action !== "escape") {
+      const success = (opt.node.cal && opt.node.cal.outcomes || []).find((o) => o.result === "success");
+      const r = success && this.resolveOutcomeTo(success.to);
+      if (opt.action === "finish") return { i: -100, txt: "-100", col: this.hex(this.domColor(-1)) };
+      if (opt.node.ty === "submissions") { target = this.submissionNode(opt.node); role = null; }
+      else if (r && r.idx >= 0) { target = this.nodes[this.canonicalState(r.idx, r.role)]; role = r.role; }
+    }
+    const mine = role ? (role === "top" ? "bottom" : "top") : this.playerRole;
+    const slot = target.ty === "positions" ? (mine === "bottom" ? 1 : 0) : (role && target.fromRole === mine ? 0 : 1);
+    const v = target.s && target.s[slot];
+    if (typeof v !== "number") return null;
+    const i = Math.round(v * 100) + 0;
+    return { i, txt: (i > 0 ? "+" : "") + i, col: this.hex(this.domColor(i / 100)) };
+  }
+  choiceChance(opt) {
+    if (!opt.threat) return opt.action === "escape" ? this.escapeChance(opt) : this.moveChance(opt.node);
+    // Opponent previews show the authored base, not our practice bonuses. An escape has
+    // no independently calibrated rate: its base is the complement of the current finish.
+    const base = this.calSuccess(this.submissionNode(opt.node) || opt.node);
+    return base == null ? null : opt.action === "escape" ? 1 - base : base;
+  }
+  choiceOddsColor(pct, threat) {
+    return pct >= 60 ? (threat ? "#e8956b" : "#7ee0a8") : pct >= 38 ? "#cbd24e" : (threat ? "#7ee0a8" : "#e8956b");
+  }
+  renderChoiceGroups(el, own, threats, pick, seconds, escape) {
+    const add = (label, list, threat) => {
+      if (!list.length) return;
+      const group = document.createElement("div");
+      group.setAttribute("data-choice-group", threat ? "opponent" : "you");
+      group.style.cssText = "display:flex;flex-direction:column;gap:7px;flex:none;min-width:0;";
+      const title = document.createElement("div");
+      title.textContent = label;
+      title.style.cssText = "font-size:10px;font-weight:700;letter-spacing:.06em;color:" + (threat ? "#ef8585" : "#93a0bd") + ";padding-left:3px;";
+      group.appendChild(title);
+      const row = document.createElement("div");
+      row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
+      list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
+      group.appendChild(row); el.appendChild(group);
+    };
+    add("Your options", own, false);
+    add("Opponent threats", threats, true);
+  }
+  previewStateChoice(opt, onPick) {
+    const panel = this.optDetailRef.current;
+    if (!panel) return; // a threat must NEVER become a move through a missing-panel fallback
+    if (this._stateChoiceClose) this._stateChoiceClose();
+    this._setDetailCtx(null);
+    this._declineLandQ("sheet");
+    const wasPaused = this.paused;
+    this.setPaused(true);
+    const previousStyle = panel.style.cssText;
+    const preview = {}; this._stateChoicePreview = preview;
+    const root = this.__ngRoot || document.body;
+    if (panel.parentElement !== root) root.appendChild(panel);
+    panel.style.cssText = "position:fixed;z-index:50;display:block;left:50%;bottom:24px;transform:translateX(-50%);width:min(460px,calc(100vw - 28px));max-height:75vh;overflow:auto;background:#151b2c;border:1px solid #536078;border-radius:16px;padding:22px;pointer-events:auto;";
+    const esc = (t) => this.choiceEscape(t);
+    const d = opt.defense;
+    const dest = this.nodes[opt.res];
+    panel.innerHTML = '<div data-choice-preview="1" style="color:#dce3f0;"><div style="color:' + (opt.threat ? '#e8956b' : '#93a0bd') + ';font-size:11px;">' + (opt.threat ? 'Opponent threat' : 'Your response') + '</div><h3 style="margin:10px 0;">' + esc(this.choiceLabel(opt)) + '</h3><div data-choice-explanation style="line-height:1.5;font-size:14px;">' +
+      (d ? esc(d.action || d.label) : esc(opt.node.t)) + '</div>' +
+      (dest ? '<p style="font-size:13px;">Possible continuation: ' + esc(this.displayName(dest)) + '</p>' : '') +
+      (opt.threat ? '<p style="font-size:13px;color:#e8956b;">Your opponent may attempt this. Choose your response from your options.</p>' : '') +
+      '<button data-choice-close style="cursor:pointer;padding:10px 16px;">Back to choices</button>' +
+      (!opt.threat ? '<button data-choice-go style="cursor:pointer;padding:10px 16px;margin-left:8px;">' + esc(this.choiceLabel(opt)) + '</button>' : '') + '</div>';
+    const close = () => { this._stateChoiceClose = null; this._stateChoicePreview = null; panel.style.cssText = previousStyle; panel.style.display = "none"; this.setPaused(!!wasPaused); };
+    this._stateChoiceClose = close;
+    this._setDetailCtx(opt.threat ? { opt } : { opt, onPick });
+    panel.querySelector("[data-choice-close]").onclick = () => { this._setDetailCtx(null); close(); };
+    const go = panel.querySelector("[data-choice-go]");
+    if (go) go.onclick = () => { this._setDetailCtx(null); close(); onPick(opt); };
+    // The state payload is already resident; previews never need a second fetch.
+    const details = this.nodes[opt.submission] && this.nodes[opt.submission]._defenseDetails;
+    const detail = d && d.detail != null && details && details[d.detail];
+    if (detail) {
+      const body = panel.querySelector("[data-choice-explanation]");
+      if (body) body.innerHTML = '<p>' + esc(detail.action) + '</p><p>' + esc(detail.when_to_use) + '</p><p>' + esc(detail.risk) + '</p>';
+    }
+  }
+
+  optionsFor(posIdx, role) {
+    role = role || this.playerRole;
+    posIdx = this.canonicalState(posIdx, role);
+    if (this.nodes[posIdx].ty === "submissions") return this.submissionOptions(this.nodes[posIdx], role);
     const seen = new Set(); const out = [];
     const hereId = this.nodes[posIdx].posId || null;
     // the EDGE table for THIS state and THIS side, resolved once. Stamped onto each opt below so
     // every later reader (the card, the sheet, the odds refresh) values the move against the state
     // it was dealt from, not against wherever the roll has since moved to.
-    const evOf = this._evRowsFor(posIdx, this.playerRole);
+    const evOf = this._evRowsFor(posIdx, role);
     const rsOk = this._rulesetMask();
     for (const k of this.adj[posIdx]) {
       const n = this.nodes[k];
@@ -11085,7 +11472,7 @@ class Component extends DCLogic {
       // that actually holds it, which is how a bottom player ended up with no submissions at all.
       // The authored role cannot invert; if it is WRONG that is a content bug, and
       // validate_graph_integrity's `from_position_role_mismatch` names all 65 of them.
-      if (n.fromRole && n.fromRole !== this.playerRole) continue;
+      if (n.fromRole && n.fromRole !== role) continue;
       // contextual: exact canonical origin match (data now provides fromPositionId)
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId) continue;
       const res = this.resultPos(k, posIdx);
@@ -11098,7 +11485,7 @@ class Component extends DCLogic {
         // the fallback relaxes ORIGIN, never ROLE and never RULESET: dealing the opponent's moves
         // is not a safety net, it is the bug this filter exists to prevent — and dealing a lapel
         // entry to a player with no lapel is the same mistake with a different subject
-        if (n.fromRole && n.fromRole !== this.playerRole) continue;
+        if (n.fromRole && n.fromRole !== role) continue;
         // `relaxed` IS THE SIGNAL, and it is POSITIVE on purpose. The only previous way to tell a
         // fallback hand from a real one was the ABSENCE of `ord` — and `orderScore` legitimately
         // returns null on 100 of 1328 main-pass cards, 3 of them a hand's FIRST card, so
@@ -11143,7 +11530,7 @@ class Component extends DCLogic {
   // top now deals all 25 of its cards and the 9 transitions are simply there. It is deleted
   // rather than kept, and with it goes the open question v1.119.0 recorded for the owner —
   // whether the admitted card should be the category's best by EDGE or its most-ATTEMPTED
-  // (`Side Control to Scarf Hold Position` +3 vs `Side Control to Mount` −2 on 23%). Both moves
+  // (`Side Control to Kesa Gatame` +3 vs `Side Control to Mount` −2 on 23%). Both moves
   // are dealt now, so there is nothing left to choose between and nothing to answer.
   //
   // NB the `!out.length` fallback in optionsFor keeps its own `.slice(0, 6)`. That is NOT this
@@ -11179,8 +11566,9 @@ class Component extends DCLogic {
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node;
     const isEsc = mode === "escape";
+    const isThreat = !!opt.threat;
     const card = document.createElement("div");
-    card.setAttribute("data-tech", n.t); // journey tests click option cards by technique title
+    card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     // DERIVED, NOT COINCIDENTAL (v1.104.3). `n.col` is `domColor(n.s[0])` frozen at INGEST, and
     // `s[0]` is ATTACKER for a technique — a role-BLIND read of a role-typed pair. On THIS
@@ -11206,18 +11594,17 @@ class Component extends DCLogic {
     // moves this state authors, so the EDGE table cannot value them and a fabricated number is
     // forbidden \u2014 it keeps its category word, its own-strength glyph and its landing-position
     // potential, which there is not a second quantity but the same one twice.
-    const edge = isEsc ? null : this.edgeMark(opt);
+    const edge = isThreat ? this.threatMark(opt) : isEsc || opt.submission != null ? null : this.edgeMark(opt);
     const col = edge ? edge.col : this.hex(this.myColor(n));
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
-    const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
-    const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    const chance = this.choiceChance(opt);
+    const pct = chance == null ? null : Math.round(chance * 100);
+    const oddsCol = this.choiceOddsColor(pct, isThreat);
     const pot = Math.round(this.movePotential(opt) * 100);
-    // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
-    // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
-    const rateCaption = this.isMobile() ? "Odds" : "Success rate";
+    // Keep odds captions compact so narrow choice cards retain a single-line footer.
     const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
-      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
-      '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
+      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;white-space:nowrap;">Odds</div>' +
+      '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + (pct == null ? '—' : pct + '%') + '</span>' +
       '</div>';
     // THE MIDDLE SLOT NAMES THE NUMBER OPPOSITE IT. The category word there was redundant with the
     // glyph SHAPE beside it (v1.103.6 canon: circle=position, triangle=submission, diamond=
@@ -11255,8 +11642,8 @@ class Component extends DCLogic {
       // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
       // for — this card's job is name, category, potential and odds, at a glance, on a clock.
       // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
-      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.displayName(n) + '</div>' +
-      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">escape route</div>' : '') +
+      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.choiceEscape(this.choiceLabel(opt)) + '</div>' +
+      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">defensive response</div>' : '') +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
     // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
@@ -11272,7 +11659,9 @@ class Component extends DCLogic {
     // per-card clutter, which is 8 copies of the same control across one hand.
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
-    card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
+    card.setAttribute("data-choice-action", opt.action || "transition");
+    if (isThreat) card.setAttribute("data-opponent-threat", "1");
+    card.addEventListener("click", () => { if (isThreat || isEsc) this.previewStateChoice(opt, onPick); else this.expandOption(opt, onPick, card); });
     // ONE CLOCK (v1.114.1). This bar used to be a CSS animation (`ngCount <dsec>s`) on the WALL
     // clock, while the decision it depicts runs on `gdt` in `_tickDecision`. `setPaused` kept the
     // two in step for pauses — but nothing kept them in step for a REFUND: answering the landing
@@ -11294,7 +11683,7 @@ class Component extends DCLogic {
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
   _paintEdge(oc) {
     if (!oc || oc.esc) return;
-    const e = this.edgeMark(oc.opt); if (!e) return;
+    const e = oc.opt.threat ? this.threatMark(oc.opt) : this.edgeMark(oc.opt); if (!e) return;
     const num = oc.card.querySelector(".ngedge");
     if (num) { num.textContent = e.txt; num.style.color = e.col; }
     const g = oc.card.querySelector(".ngglyph");
@@ -11311,9 +11700,9 @@ class Component extends DCLogic {
     if (this._defendSub != null) { this.refreshEscapeOdds(); return; } // defense window: the tray holds ESCAPE cards
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
-      const pct = Math.round(this.moveChance(oc.node) * 100);
-      el.textContent = pct + "%";
-      el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+      const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
+      el.textContent = pct == null ? "—" : pct + "%";
+      el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
       this._paintEdge(oc);
     }
   }
@@ -12376,21 +12765,21 @@ class Component extends DCLogic {
   // Nothing here is a scroll container. The film, the timed card and the More card are fixed
   // root-plane siblings that keep every dock rule they have; the hand is a wrap-plane absolute
   // element whose `transform` belongs to the option sheet (`expandOption`), so it moves on
-  // `bottom` instead. `_readS` is the one offset, `_readMax` how far the column may travel:
-  // measured in `_dockLandMore` as the distance the More card's bottom overhangs the hand's
-  // slot (or the fold when the hand is put away). At `_readS = 0` the hand sits `_readMax`
-  // below its home, just under the More card; at `_readS = _readMax` it is back home and the
-  // whole read has passed through the viewport. Every dock measures in the HOME frame
-  // (`_readClear` first, `_readApply` after) so no rect is read through its own translation —
-  // the two readers that run between docks (`_dockLandFilm`, the camera band) add
-  // `_readOffset()` back explicitly.
+  // `bottom` instead — and its ✕ needs nothing: `_dockHandClose` re-reads the row's rect every
+  // frame, so it rides the pushed row by itself. `_readS` is the one offset, `_readMax` how far
+  // the column may travel: measured in `_dockLandMore` as the distance the More card's bottom
+  // overhangs the hand's slot (or the fold when the hand is put away). At `_readS = 0` the hand
+  // sits `_readMax` below its home, just under the More card; at `_readS = _readMax` it is back
+  // home and the whole read has passed through the viewport. Every dock measures in the HOME
+  // frame (`_readClear` first, `_readApply` after) so no rect is read through its own
+  // translation — the two readers that run between docks (`_dockLandFilm`, the camera band)
+  // add `_readOffset()` back explicitly.
   _readOffset() { return this._landOpen ? (this._readS || 0) : 0; }
   /** The home frame: every column member where its dock put it, the hand at the tray datum. */
   _readClear() {
     for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
-    if (this._handCloseEl) this._handCloseEl.style.transform = "";
   }
   _readApply(s) {
     const max = this._readMax || 0;
@@ -12405,7 +12794,6 @@ class Component extends DCLogic {
     const push = max - s;
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
-    if (this._handCloseEl) this._handCloseEl.style.transform = push ? "translateY(" + push + "px)" : "";
   }
   _readScrollBy(dy) {
     if (!this._landOpen || !this._readMax) return false;
@@ -12719,7 +13107,15 @@ class Component extends DCLogic {
     this._readTouch(film);   // the strip rides the reading column too (v1.175.0)
     return film;
   }
-  _dockTrayTop(row) { const d = this._landDatum(); return d.h ? Math.round(d.tray + d.h + 10) + "px" : null; }
+  _dockHandClose(row, button) {
+    const last = row.lastElementChild, wrap = this.wrapRef.current;
+    if (!last || !wrap) return;
+    const rr = row.getBoundingClientRect(), lr = last.getBoundingClientRect(), wr = wrap.getBoundingClientRect();
+    // Like the videos' ✕: beside the last item, aligned with its top, and clamped
+    // inside the visible row while it scrolls. No separate band above the choices.
+    button.style.left = Math.round(Math.max(rr.left, Math.min(lr.right + 4, rr.right - 28)) - wr.left) + "px";
+    button.style.top = Math.round(Math.max(rr.top, lr.top) - wr.top) + "px";
+  }
   /** The hand's ✕ — ghost, top-right of the tray, inside the wrap (it
    *  stacks under the pane and the option sheet, and `attachInput` names it). Built once. */
   _buildHandClose() {
@@ -12730,9 +13126,9 @@ class Component extends DCLogic {
     b.setAttribute("aria-label", "Hide your moves");
     b.title = "Hide your moves";
     b.textContent = "✕";
-    b.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;right:" + (this.isMobile() ? 12 : 24) + "px;bottom:238px;z-index:4;opacity:.55;visibility:hidden;";
-    b.addEventListener("mouseenter", () => { b.style.opacity = "1"; b.style.color = "#dbe2f0"; b.style.background = "rgba(255,255,255,.08)"; });
-    b.addEventListener("mouseleave", () => { b.style.opacity = ".55"; b.style.color = "#8b97b0"; b.style.background = "none"; });
+    b.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;z-index:4;background:rgba(19,22,37,.72);visibility:hidden;";
+    b.addEventListener("mouseenter", () => { b.style.color = "#dbe2f0"; b.style.background = "rgba(40,46,66,.92)"; });
+    b.addEventListener("mouseleave", () => { b.style.color = "#8b97b0"; b.style.background = "rgba(19,22,37,.72)"; });
     b.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("hand", false, "x"); });
     wrap.appendChild(b);
     this._handCloseEl = b;
@@ -12823,25 +13219,32 @@ class Component extends DCLogic {
     // ── OPEN: the second card of the reading column (v1.175.0) ──
     // Measure in the HOME frame, dock 6px under the timed card at content height, then find how
     // far the column must travel: the More card's bottom against the hand's slot (the same
-    // clearance the timed card keeps above the tray — 8 + the phone's 34px ✕ row, 12 on
-    // desktop), or against the fold when the hand is put away. That distance is `_readMax`;
+    // clearance the timed card keeps above the tray — 8 on a phone, 12 on desktop), or against
+    // the fold when the hand is put away. That distance is `_readMax`;
     // `_readApply` pushes the hand down by it and the offset the reader had is kept, clamped.
     if (this._landOpen) {
       this._readClear();
       const cr = card.getBoundingClientRect();
       if (!(cr.width > 0)) return;
-      moreRow.style.width = Math.round(cr.width) + "px";
-      moreRow.style.top = Math.round(cr.bottom + 6) + "px";
-      moreRow.style.bottom = "auto";
-      const mr = moreRow.getBoundingClientRect();
       const H = window.innerHeight || 800;
+      // LAYOUT, NOT RECTS, for the two edges the travel is measured between. Both cards carry
+      // `ngCardInX`, whose first keyframe is `translate(-50%, 8px)`, and a rect read on the frame
+      // the class lands includes that 8px — measured: the More card docked 16px above the hand
+      // at the end of every read instead of 8. The card's used `bottom` and the row's own
+      // `top` + `offsetHeight` are what the animation settles to.
+      const cardBottom = H - parseFloat(getComputedStyle(card).bottom);
+      const top = Math.round(cardBottom + 6);
+      moreRow.style.width = Math.round(cr.width) + "px";
+      moreRow.style.top = top + "px";
+      moreRow.style.bottom = "auto";
+      const rowBottom = top + moreRow.offsetHeight;
       let limit = H - 16;
       if (this._handShown()) {
         const choiceRow = this.optionsRef.current;
         const tr = choiceRow && choiceRow.getBoundingClientRect();
-        if (tr && tr.height > 0) limit = tr.top - (this.isMobile() ? 8 + 34 : 12);
+        if (tr && tr.height > 0) limit = tr.top - (this.isMobile() ? 8 : 12);
       }
-      this._readMax = Math.max(0, Math.round(mr.bottom - limit));
+      this._readMax = Math.max(0, Math.round(rowBottom - limit));
       this._readApply(this._readS || 0);
       return;
     }
@@ -12889,10 +13292,9 @@ class Component extends DCLogic {
       this._dockLandMore(el, rb);
       return;
     }
-    // Important outranks the phone stylesheet's `.ng-landcard{bottom:206px!important}`. The hand
-    // ✕ itself occupies the 34px immediately above the tray; unlike desktop it cannot sit beside
-    // a full-width card, so that measured chrome gets its own clearance too.
-    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8 + 34) + "px", "important");
+    // Important outranks the phone stylesheet's `.ng-landcard{bottom:206px!important}`. (The
+    // hand's ✕ sits INSIDE the row since v1.176.7, so it needs no band of its own up here.)
+    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");
     this._dockLandMore(el, rb);
   }
   _landAnswered(correct, tier, mode, hooks, format) {
@@ -13055,7 +13457,7 @@ class Component extends DCLogic {
     const base = (cal != null) ? (1 - cal) : 0.4;
     const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
     // momentum is morale — it helps you defend just as it helps you attack
-    return Math.max(0.08, Math.min(0.92, base + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
+    return Math.max(0.08, Math.min(0.92, base + (this.myVal(this.nodes[opt.res] || opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
   }
   escapeOddsSnapshot() {
     const list = this._optList;
@@ -13066,9 +13468,10 @@ class Component extends DCLogic {
     if (this._defendSub == null) return;
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
-      const pct = Math.round(this.escapeChance({ node: oc.node }) * 100);
-      el.textContent = pct + "%";
-      el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+      const chance = this.choiceChance(oc.opt), pct = chance == null ? null : Math.round(chance * 100);
+      el.textContent = pct == null ? "—" : pct + "%";
+      el.style.color = this.choiceOddsColor(pct, oc.opt.threat);
+      this._paintEdge(oc);
     }
   }
   pickFirstEscape() { const p = this._optPick, l = this._optList; if (p && l && l.length) p(l[0]); }
@@ -13529,6 +13932,7 @@ class Component extends DCLogic {
 
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx, staged, roleOverride) {
+    nodeIdx = this.canonicalState(nodeIdx, roleOverride || (this.nodes[nodeIdx] && this.nodes[nodeIdx].role));
     // THE SEAT FUNNEL, AND THEREFORE THE RULESET GUARD (v1.167.0). Every path that puts a player
     // somewhere arrives here: the ▶ on a list row, a dossier's "Roll from here", a belt capstone's
     // authored seat, a Back/Forward pop, and — the one that reaches strangers — a direct URL
@@ -13560,8 +13964,8 @@ class Component extends DCLogic {
     this.stopReplay("roll");
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
-    // A technique is not a state you can stand in: seat the roll at its ONE canonical origin, on
-    // the side that performs it. `techniqueOrigin` is the single seam — see its note for what the
+    // Transitions stage at their origin; submissions are playable states. Origin metadata
+    // supplies the physical seat in both cases. `techniqueOrigin` is the single seam — see its note for what the
     // adj-walk this replaces was actually doing (68.4% of taps dealt a hand without the technique
     // in it, and every lower orb staged a roll on a technique node).
     let posIdx = nodeIdx, seatRole = null;
@@ -13569,15 +13973,10 @@ class Component extends DCLogic {
       const o = this.techniqueOrigin(this.nodes[nodeIdx]);
       if (o.idx >= 0) { posIdx = o.idx; seatRole = o.role; }
     }
-    // a roll that never played is not a roll: restaging over it archives nothing (see _played)
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
+    // restaging ends the roll you were in: archive it, clear it, repaint Last rolls — one seam
+    this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
-    this._lastOutcome = null; this._lastFinish = null;
-    this.rollLog = []; this._lastActor = null; this._currentDeckKey = null;
+    this._lastActor = null; this._currentDeckKey = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
@@ -13607,7 +14006,7 @@ class Component extends DCLogic {
       const fr = String(this.nodes[chosen].fromRole || "").toLowerCase();
       this._stagedTech = { idx: chosen, side: (fr === "top" || fr === "bottom") && this.playerRole !== fr ? "defender" : "attacker" };
     }
-    this.currentPos = posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
+    this.currentPos = this.nodes[chosen].ty === "submissions" ? chosen : posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
     // SWAPPING BETWEEN TWO HALVES OF ONE STATE MOVES NOTHING. Both members of a pair share a
     // midpoint, so the camera's subject is literally unchanged — and the right way to guarantee
     // the owner's "the camera should move just a little" is to not touch it at all rather than to
@@ -13684,7 +14083,7 @@ class Component extends DCLogic {
     oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";
     const eyebrow = oc.card.querySelector("[data-cat]");
     if (eyebrow) {
-      eyebrow.textContent = oc.node && oc.node.ty === "submissions" ? "Finish it" : "Execute";
+      eyebrow.textContent = oc.node && oc.node.ty === "submissions" ? "Submission" : "Execute";
       eyebrow.style.color = "#9ab0e0";
       eyebrow.style.letterSpacing = ".08em";
     }
@@ -13751,10 +14150,26 @@ class Component extends DCLogic {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
   }
-  replayLabel(roll) {
+  /**
+   * WHERE AN ARCHIVED ROLL WENT — `{from, to}`, the ONE composer for that question. The Last-rolls
+   * row draws it as markup (a styled arrow) and `replayLabel` speaks it as a sentence, so the row
+   * title and the ⟲ button's accessible name cannot disagree.
+   *
+   * A ROLL THAT ENDED WHERE IT STARTED STILL WENT SOMEWHERE: one-state rolls only reach this shelf
+   * at all since `_closeRoll` stopped discarding them, and "Mount → Mount" is not what happened —
+   * the FINISH is (`endRound` records the submission you hit, or were caught in). With no finish
+   * (a scramble reset) `to` is null and the start name stands alone rather than twice.
+   */
+  replayEnds(roll) {
     const log = (roll && roll.log) || [];
     const a = log[0], b = log[log.length - 1];
-    return (a ? a.name : "?") + " → " + (b ? b.name : "?");
+    const from = (a && a.name) || "?";
+    if (log.length === 1) { const fin = roll && roll.finish; return { from: from, to: (fin && fin.name) || null }; }
+    return { from: from, to: (b && b.name) || "?" };
+  }
+  replayLabel(roll) {
+    const e = this.replayEnds(roll);
+    return e.to ? e.from + " → " + e.to : e.from;
   }
   /**
    * PURE: an archived roll -> the ordered beats of its film. One `land` per state, one `sweep` per
@@ -13875,7 +14290,7 @@ class Component extends DCLogic {
     this.track("neural_roll_replayed", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null });
     this._replayBeat("roll_replay_start", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null, reduced: reduced });
     this._renderReplayBar();
-    this._replayRefreshRows();
+    this._refreshHistoryRows();
     this._replayStep();
     return true;
   }
@@ -13952,11 +14367,15 @@ class Component extends DCLogic {
     this._clearReplayBar();
     if (this._replayAutoPaused) { this._replayAutoPaused = false; this.setPaused(false); }
     this._replayBeat("roll_replay_end", { reason: reason || "stopped", step: Math.max(0, R.i), steps: R.steps.length });
-    this._replayRefreshRows();
+    this._refreshHistoryRows();
     return true;
   }
-  /** The History rows show which roll is playing, so the ⟲ that started it can offer to stop it. */
-  _replayRefreshRows() {
+  /** THE ONE REPAINT OF THE LAST-ROLLS BODY, for every writer of the data it draws: the film
+   *  (rows show which roll is playing, so the ⟲ that started it can offer to stop it) and
+   *  `_closeRoll` (a roll leaving `rollLog` for `_pastRolls`). Guarded, not conditional on the
+   *  caller: an open Explore search or Challenges scroll must never be stomped, and a study
+   *  takeover owns the pane. `buildDrillPanel` carries the same guard for the roll loop. */
+  _refreshHistoryRows() {
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
   }
   /**
@@ -14146,6 +14565,57 @@ class Component extends DCLogic {
     }
     return { idx: pool[pool.length - 1], weighted: true }; // float slack at u→1
   }
+  /**
+   * ── ONE ANSWER TO "WAS THAT A ROLL, AND WHERE DID IT GO?" ────────────────────────────────
+   *
+   * `startRoll`, `rollFromPosition` and `_enterRoam` each end the roll in front of the player,
+   * and each carried its own copy of the archive block. Two defects lived in those copies, both
+   * of which the owner reported as "Last rolls is stuck, it used to group my rolls":
+   *
+   *  · `rollLog.length > 1` DISCARDED, silently, any roll that ended on its first exchange —
+   *    which is the ordinary short roll: you attack from the state you opened in and either
+   *    finish it or get caught there, so the log holds exactly one state. Measured in a real
+   *    browser on the shipped bundle: 5 of 6 rolls in one session and 2 of 2 in another left NO
+   *    row anywhere; the rate is re-derivable, unrigged, at 44% of rolls that ended
+   *    (`tests/artifacts/_last_rolls_archive_probe.mjs`, which also asserts shelf == rows).
+   *    `_played` is the honest "was this a roll" test;
+   *    `> 1` was its pre-`_played` proxy for "did anything happen" and had become the half that
+   *    threw real rolls away. The evidence that a one-state roll IS a roll: it reached a VERDICT
+   *    (`_lastOutcome`, written by `endRound`) or the player COMMITTED a move in it
+   *    (`_rollActed`, written at `enterAttempt`'s `commit` beat — the log dedupes consecutive
+   *    landings on the same state, so a failed attempt that leaves you where you stood is an
+   *    exchange the log cannot see). A board that was merely staged and abandoned still archives
+   *    nothing, which is the case `> 1` was really protecting.
+   *  · NOTHING REPAINTED THE PANE. `rollLog` and `_pastRolls` ARE what Last rolls draws, and the
+   *    only refresh in the app was `buildDrillPanel` — i.e. THE NEXT LANDING. See `_enterRoam`.
+   *
+   * The seam therefore owns the whole transition: archive, clear, SAY WHICH IT DID, repaint. Both
+   * branches emit a beat because §6.6 forbids "archived nothing" and "never looked" printing the
+   * same thing — `roll_archived` carries the state count and the shelf depth, `roll_discarded`
+   * carries the reason it was not a roll.
+   *
+   * Callers keep their own per-roll resets (`_lastActor`, `_currentDeckKey`, `_played`, `_roam`):
+   * this owns the archived RECORD and nothing else.
+   */
+  _closeRoll() {
+    const log = this.rollLog || [];
+    const acted = log.length > 1 || !!this._rollActed || !!this._lastOutcome;
+    if (log.length && this._played && acted) {
+      this._pastRolls = this._pastRolls || [];
+      this._pastRolls.unshift({ log: log.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
+      if (this._pastRolls.length > 40) this._pastRolls.pop();
+      this.fx("roll_archived", { states: log.length, outcome: this._lastOutcome || "reset", shelf: this._pastRolls.length });
+    } else if (log.length) {
+      this.fx("roll_discarded", { states: log.length, played: !!this._played, acted: acted });
+    }
+    this.rollLog = []; this._rollActed = false;
+    this._lastOutcome = null; this._lastFinish = null;
+    // the rows that just went away, and the group that just appeared, are both on screen NOW
+    if (this._openRow && /^c/.test(this._openRow)) { this._openRow = null; this._focusRow = null; this._openMini = null; }
+    this._rollFocus = null;
+    this._refreshHistoryRows();
+  }
+
   startRoll() {
     this.stopReplay("roll");   // a new roll ends the film first (see rollFromPosition)
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
@@ -14153,16 +14623,10 @@ class Component extends DCLogic {
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this._combo = 0; this._landPending = false; this._updateComboChip(); // momentum is per-MATCH: a new roll starts cold
     this.track("neural_roll_started", {});
-    // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
-    // — but only if it ever actually played (a staged roam is not a roll; see _played)
-    if (this._played && this.rollLog && this.rollLog.length > 1) {
-      this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
-      if (this._pastRolls.length > 40) this._pastRolls.pop();
-    }
+    // the roll that just ended becomes a PAST roll here — archive, clear, repaint (_closeRoll)
+    this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
-    this._lastOutcome = null; this._lastFinish = null;
-    this.rollLog = []; this._lastActor = null;
+    this._lastActor = null;
     this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -14293,7 +14757,15 @@ class Component extends DCLogic {
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
   }
   enterLand(first) {
+    const canonical = this.canonicalState(this.currentPos, this.playerRole);
+    if (canonical !== this.currentPos) { this.currentPos = canonical; this._syncUrl(canonical); }
     const pos = this.nodes[this.currentPos];
+    if (pos.ty === "submissions") {
+      const sub = this.submissionNode(pos);
+      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first))) return;
+      if (this.playerRole !== sub.fromRole) { this.enterDefense(sub.idx); return; }
+      this.currentPos = sub.idx;
+    }
     this._flushLandSkipDebt(); // a new arrival settles the previous landing's deferred verdict
     this._prefetchLandDeck(this.currentPos); // idempotent; covers outcome landings' render window
     this._qMod = 0; // a new arrival forgives the last exchange's wrong answer
@@ -14418,8 +14890,8 @@ class Component extends DCLogic {
     this._decisionDsec = this.get("decisionSec", 9);
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
-    for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, this._decisionDsec, i + 1));
+    const pick = (opt) => { if (picked || opt.threat) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt); };
+    this.renderChoiceGroups(el, opts, this.opponentThreats(this.currentPos), pick, this._decisionDsec, false);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
@@ -14636,6 +15108,7 @@ class Component extends DCLogic {
     if (d.remaining <= 0) this._expireLandQ();
   }
   enterAttempt(opt) {
+    if (opt.threat) return;
     // THE OPTION HAND IS NEVER UNDER AN OPEN MENU (v1.99.5). Capture never stops the clock, so
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
@@ -14657,6 +15130,10 @@ class Component extends DCLogic {
     this._disarmLandClock();
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
+    // THE COMMIT IS THE PROOF THIS WAS A ROLL (see _closeRoll). `rollLog` cannot carry it: it
+    // dedupes consecutive landings on the same state, so an attempt that fails and leaves you
+    // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
+    this._rollActed = true;
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
@@ -14665,6 +15142,19 @@ class Component extends DCLogic {
     // copies it onto the landing it produces. In-memory only: `rollLog` has never persisted
     // across a reload and this does not change that.
     this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx, via: opt.idx };
+    if (opt.node.ty === "submissions" && opt.action !== "finish") {
+      const sub = this.submissionNode(opt.node);
+      this._pendingIntent = { actor: "you", idx: sub.idx, via: sub.idx, kind: "entry" };
+      this._prefetchLandDeck(sub.idx);
+      this.setEvent("You go for", sub.t, "info");
+      this.activeMove = { idx: sub.idx, verb: "Attacking", col: { r: 94, g: 149, b: 255 } };
+      this.startTravel([this.currentPos, sub.idx], () => {
+        this.currentPos = sub.idx; this.playerRole = sub.fromRole;
+        this._stagedTech = null; this.moveCount++; this._lastActor = "you";
+        this.enterLand(false);
+      });
+      return;
+    }
     // ONE SUBJECT PER LABEL (v1.104.1, owner). The announcer names WHO IS INITIATING; the graph
     // verb names YOUR posture toward that move. They used to have different subjects and
     // contradict each other on screen — "OPPONENT DEFENDS Crucifix Maintenance" over a graph
@@ -15057,12 +15547,14 @@ class Component extends DCLogic {
     const r = this.resolveOutcomeTo(out.to);
     // a finish is the roll's LAST node — the one arrival that never produces a landing, so it
     // takes the arrival bloom here or nowhere (v1.114.0).
-    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
-    const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
+    if (r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
+    const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : (opt.res >= 0 ? opt.res : this.currentPos);
     this.setEvent("Transition lands", act.t, "good");
     this.startTravel([opt.idx, dest], () => {
       const before = this.myVal(this.nodes[this.currentPos]);
-      if (r.role) this.playerRole = r.role; else this.applyRoleByAction(act.t, act.ty, true);
+      if (r.role) this.playerRole = r.role;
+      else if (this.nodes[dest].ty === "submissions") this.playerRole = this.submissionNode(this.nodes[dest]).fromRole;
+      else this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
@@ -15075,13 +15567,14 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.fx("impact_fail", { technique: act.t, counter: !!(out && out.result === "counter") });
     const r = this.resolveOutcomeTo(out.to);
-    const dest = r.idx >= 0 ? r.idx : this.currentPos;
+    const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : this.currentPos;
     const counter = out.result === "counter";
     this.setEvent(counter ? "Countered" : "Failed", act.t + (counter ? " reversed" : " stuffed"), "bad");
     if (dest === this.currentPos) { this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend()); return; }
     this.startTravel([opt.idx, dest], () => {
       const before = this.myVal(this.nodes[this.currentPos]);
       if (r.role) this.playerRole = r.role;
+      else if (this.nodes[dest].ty === "submissions") { const sub = this.submissionNode(this.nodes[dest]); this.playerRole = sub.fromRole === "top" ? "bottom" : "top"; }
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       this.after(0.5, () => this.opponentDefend());
@@ -15090,33 +15583,43 @@ class Component extends DCLogic {
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   enterDefense(subIdx) {
-    const sub = this.nodes[subIdx];
+    const sub = this.submissionNode(this.nodes[subIdx]);
+    if (!sub.cal.defenses) {
+      this.currentPos = sub.pi >= 0 ? sub.pi : sub.idx;
+      this.playerRole = sub.fromRole === "top" ? "bottom" : "top";
+      this.waitForSubmissionChoices(sub, () => this.enterDefense(sub.idx)); return;
+    }
     this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
     this.clearLandCard();
     this.fx("defend_start", { submission: sub ? sub.t : null });
     this.fx("caught", { submission: sub ? sub.t : null });
-    // escape routes: positions reachable from the submission node (back to safety)
-    const escapes = []; const seen = new Set();
-    const rsOk = this._rulesetMask();
-    for (const k of this.adj[subIdx]) {
-      const n = this.nodes[k];
-      if (n.ty !== "positions") continue;
-      // THE ESCAPE TRAY OBEYS THE RULESET TOO (v1.167.0). You are caught and picking between these;
-      // escaping into a state this ruleset cannot produce is the same defect as dealing a lapel
-      // entry to a player with no lapel, with worse timing. The stay-and-survive fallback below is
-      // the floor, so this can never empty the tray.
-      if (!rsOk[k]) continue;
-      if (seen.has(n.t)) continue; seen.add(n.t);
-      escapes.push({ idx: k, node: n, res: k });
+    this._stagedTech = null;
+    this.setPaused(false);
+    subIdx = this.submissionNode(sub).idx;
+    this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
+    this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
+    this.focusIdx = this.currentPos;
+    const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
+    const log = this.rollLog = this.rollLog || [];
+    if (!log.length || log[log.length - 1].key !== key) {
+      const intent = this._pendingIntent;
+      const via = intent && this.nodes[intent.via];
+      log.push({ key, name: this.posFamily(sub.t), role: this.roleLabel(), idx: this.currentPos,
+        actor: log.length ? (this._lastActor || "opp") : "start", val: this.signedVal(this.nodes[this.currentPos]),
+        from: log.length ? log[log.length - 1].idx : null, intend: null,
+        via: via ? { idx: via.idx, name: via.t, ty: via.ty, actor: intent.actor, kind: intent.kind || null } : null });
+      if (log.length > 24) log.shift();
     }
-    // fallback: stay-and-survive returns to current position
-    if (!escapes.length) escapes.push({ idx: this.currentPos, node: this.nodes[this.currentPos], res: this.currentPos });
-    this.optionIdxs = escapes.map((e) => e.idx);
+    this._pendingIntent = null;
+    const escapes = this.submissionDefenses(this.nodes[subIdx]);
+    if (!escapes.length) throw new Error("Submission has no available defensive responses: " + sub.t);
+    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
+    this.optionIdxs = escapes.map((e) => e.res);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
     this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
     // the danger owns the camera and the field: frame the exchange, fog everything else
-    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
-    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.idx)));
+    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
+    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
     // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
@@ -15134,32 +15637,35 @@ class Component extends DCLogic {
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
-      if (picked) return; picked = true;
+      if (picked || opt.threat) return; picked = true;
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
+      this._rollActed = true;
       this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
-      this.setEvent("Escaping", opt.node.t, "info");
+      this.setEvent("Escaping", this.choiceLabel(opt), "info");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
-      this.startTravel([subIdx, opt.idx], () => {
+      this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null;
         if (this.rng("escape") < chance) {
-          this.fx("escape", { via: opt.node.t });
+          const landed = this.canonicalState(opt.res, opt.destinationRole);
+          const stillCaught = !!this.submissionNode(this.nodes[landed]);
+          this.fx(stillCaught ? "defense_survived" : "escape", { via: this.choiceLabel(opt) });
           const before = this.myVal(this.nodes[this.currentPos]);
-          this.playerRole = "bottom"; // escaping usually lands you bottom/neutral
-          this.flashFx(this.myVal(opt.node) - before);
-          this.currentPos = opt.idx; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
-          this.killVignette(true); // the quick snap-off — the relief IS the reward
-          this.fx("relief", {});
+          this.playerRole = opt.destinationRole; // authored destination is already defender-relative
+          this.flashFx(this.myVal(this.nodes[opt.res]) - before);
+          this.currentPos = landed; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+          this.killVignette(!stillCaught);
+          if (!stillCaught) this.fx("relief", {});
           // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
           // `idx` is the position you land on, so enterLand's own guard (`intent.idx !==
           // currentPos`) still renders no "you aimed for" line here — this adds the film's edge,
           // not a new sentence in the history row.
-          this._pendingIntent = { actor: "you", idx: opt.idx, via: subIdx, kind: "escape" };
-          this.setEvent("Escaped!", opt.node.t, "good");
+          this._pendingIntent = { actor: "you", idx: opt.res, via: subIdx, kind: "escape" };
+          this.setEvent(stillCaught ? "Still defending" : "Escaped!", this.displayName(this.nodes[landed]), stillCaught ? "info" : "good");
           this.after(0.7, () => this.enterLand(false));
         } else { finish(); }
       });
     };
-    for (let i = 0; i < escapes.length; i++) el.appendChild(this.buildOptionCard(escapes[i], pick, dsec, i + 1, "escape"));
+    this.renderChoiceGroups(el, escapes, this.opponentThreats(this.currentPos), pick, dsec, true);
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     this._optPick = pick; this._optList = escapes;
@@ -15202,10 +15708,30 @@ class Component extends DCLogic {
     return -(node.dom || 0);
   }
   opponentDefend() {
+    this.currentPos = this.canonicalState(this.currentPos, this.playerRole);
+    const state = this.submissionNode(this.nodes[this.currentPos]);
+    if (state) {
+      if (this.playerRole !== state.fromRole) { this.enterDefense(state.idx); return; }
+      const responses = this.submissionDefenses(state);
+      if (!responses.length) { this.enterLand(false); return; }
+      const response = responses[Math.min(responses.length - 1, Math.floor(this.rng("opp-pick") * responses.length))];
+      const dest = this.nodes[response.res];
+      // The defense destination is from THEIR perspective. Mirror its seat for our landing.
+      const role = response.destinationRole === "top" ? "bottom" : "top";
+      const idx = dest.role === role ? dest.idx : (dest.pi >= 0 ? dest.pi : dest.idx);
+      this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
+      this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
+      this.startTravel([state.idx, idx], () => {
+        this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
+        this.after(0.5, () => this.enterLand(false));
+      });
+      return;
+    }
     // gather the opponent's adjacent options, split into finishes vs positional counters
     const subs = []; let trans = []; const seen = new Set();
     const rsOk = this._rulesetMask();
-    for (const k of this.adj[this.currentPos]) {
+    for (const option of this.optionsFor(this.currentPos, this.playerRole === "top" ? "bottom" : "top")) {
+      const k = option.idx;
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
       // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
       // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
@@ -15246,8 +15772,8 @@ class Component extends DCLogic {
     // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
     // fall back to the legacy resultPos heuristic when the node is uncalibrated.
     const draw = this.drawOutcome(defNode);
-    let intendDest;
-    if (draw) { const rr = this.resolveOutcomeTo(draw.to); intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
+    let intendDest, opponentDestinationRole = null;
+    if (draw) { const rr = this.resolveOutcomeTo(draw.to); opponentDestinationRole = rr.role; intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
     else { intendDest = this.resultPos(def, this.currentPos); }
     if (intendDest < 0) intendDest = this.currentPos;
     const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
@@ -15263,7 +15789,10 @@ class Component extends DCLogic {
     this.startTravel(path, () => {
       const nd = actualDest;
       const before = this.myVal(this.nodes[this.currentPos]);
-      this.applyRoleByAction(defNode.t, defNode.ty, false);
+      const caught = this.submissionNode(this.nodes[nd]);
+      if (caught) this.playerRole = caught.fromRole === "top" ? "bottom" : "top";
+      else if (opponentDestinationRole) this.playerRole = opponentDestinationRole === "top" ? "bottom" : "top";
+      else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
       this.currentPos = nd; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
@@ -15398,7 +15927,7 @@ class Component extends DCLogic {
     // here has any reason to overturn.
     let cx = f.x + 0.06 * vw;
     if (this.isMobile() && n) {
-      const labelW = this._labelWidthPx(n, !!(n.pi >= 0));
+      const labelW = this._labelWidthPx(n);
       if (labelW > 0) {
         // centre the orb+label block…
         let px = W / 2 - (11 + labelW) / 2;
@@ -15414,17 +15943,15 @@ class Component extends DCLogic {
     }
     return { cx: cx, cy: cy, vw: vw };
   }
-  // THE WIDTH OF THE NAME THE GRAPH IS ABOUT TO DRAW, in px, measured with the font it draws it
-  // with. Cached per node + font size, because the follow-cam calls `rollCamTarget` every frame
-  // and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is mid-frame during
-  // a draw and its `font` is state, so borrowing it would be a heisenbug waiting to happen.
-  _labelWidthPx(n, paired) {
-    // ONE SOURCE WITH THE DRAW (v1.138.0). This was `paired ? 18 : 17`, a hand-copied mirror of the
-    // pair group's focused size and of richLabel's `big` — which had ALREADY drifted (richLabel
-    // draws `big` at the focus size, so 17 was simply wrong), and which nothing tied to the draw:
-    // `dual-pair.spec.ts` measures THIS, so a mismatch mis-frames the phone with every test green.
-    // `paired` no longer selects a size because both paths now draw the state's name at one rank;
-    // it is kept in the signature because the CACHE KEY and both call sites are written for it.
+  // THE WIDTH OF THE WIDEST ROW THE GRAPH IS ABOUT TO DRAW, in px, measured with that row's
+  // actual font. Cached per node + headline size, because the follow-cam calls `rollCamTarget`
+  // every frame and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is
+  // mid-frame state during a draw and its `font` is state, so borrowing it would be a heisenbug.
+  _labelWidthPx(n) {
+    // ONE SOURCE WITH THE DRAW (v1.138.0, two-row names v1.173.2). The pair group and the merged
+    // rich label now draw the same short headline plus optional qualifier. Measuring the old
+    // inline `displayName` after the draw stopped using it shifted qualified phone labels left by
+    // space the visible rows did not occupy.
     const px = this.nameFontPx();
     const key = n.idx + "|" + px;
     this._labelWCache = this._labelWCache || new Map();
@@ -15435,9 +15962,14 @@ class Component extends DCLogic {
       if (!this._measCtx) this._measCtx = document.createElement("canvas").getContext("2d");
       const c = this._measCtx;
       if (c) {
-        c.font = "700 " + px + "px " + (this._displayFam || "'Space Grotesk'") + ", sans-serif";
-        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
-        w = c.measureText(nm).width || 0;
+        const fam = this._displayFam || "'Space Grotesk'";
+        const sp = this.splitName(n.t);
+        c.font = "700 " + px + "px " + fam + ", sans-serif";
+        w = c.measureText(this.graphName(n)).width || 0;
+        if (n.ty !== "positions" && sp.from) {
+          c.font = "600 11.5px " + fam + ", sans-serif";
+          w = Math.max(w, c.measureText(sp.from).width || 0);
+        }
       }
     } catch (e) { w = 0; }   // no canvas: fall back to the orb-centred framing, never to a crash
     this._labelWCache.set(key, w);
@@ -16380,37 +16912,55 @@ class Component extends DCLogic {
         ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
         ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
       }
-      // rich label = role + name, anchored beside a node
-      const richLabel = (idx, role, roleCol, name, big) => {
+      // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
+      // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
+      // "from Mount" back into the headline while the split pair rendered it as a subtitle.
+      const richLabel = (idx, role, roleCol, big) => {
         const n = this.nodes[idx]; if (!n) return;
         const lA = big ? A * arriveA : A; // big = the focused state's label — it rides the arrival ramp
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
         const ox = sx + halfW(n) + 11;
+        const maxW = Math.max(60, W - ox - 12);
+        const sp = this.splitName(n.t);
+        const main = this.graphName(n);
+        const qual = n.ty === "positions" ? "" : sp.from || "";
+        // Shift the existing role/name pair together by half a row when a qualifier appears, so
+        // adding the third line does not move the visual centre of the whole merged label.
+        const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const roleY = sy - (big ? 7 : 5) - lift;
+        const nameY = sy + (big ? 11 : 9) - lift;
+        const qualY = nameY + this.NG_LABEL_LEAD;
         ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
         ctx.textBaseline = "alphabetic";
         const dfam = this._displayFam || "'Space Grotesk'";
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, lA);
-        ctx.fillText(role.toUpperCase(), ox, sy - (big ? 7 : 5));
+        ctx.fillText(role.toUpperCase(), ox, roleY);
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
-        ctx.fillText(name, ox, sy + (big ? 11 : 9));
+        const drawnMain = this._fitText(ctx, main, maxW);
+        ctx.fillText(drawnMain, ox, nameY);
+        let drawnQual = "";
+        if (qual) {
+          ctx.font = "600 " + (big ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
+          drawnQual = this._fitText(ctx, qual, maxW);
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA * 0.62);
+          ctx.fillText(drawnQual, ox, qualY);
+        }
         ctx.shadowBlur = 0;
-        // published for the same reason `_lastPairLabel` is: this is canvas text with no DOM to
-        // query, and the anchor comes from `halfW`, a draw-local closure. Reading the strings the
-        // frame passed to `fillText` is the render's OUTPUT, not a re-derivation of its logic.
-        this._lastRichLabel = { idx: idx, kicker: role, name: name, big: !!big, namePx: rNamePx };
+        // Published draw output: canvas has no DOM, and `ox`/baselines are draw-local geometry.
+        this._lastRichLabel = { idx: idx, kicker: role, name: drawnMain, qual: drawnQual, big: !!big, ox: ox, roleY: roleY, nameY: nameY, qualY: qual ? qualY : null, namePx: rNamePx };
       };
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
         const am = this.activeMove;
         // a staged technique already wears the big pair label (name · qualifier · role) — the
-        // small unqualified travel label over it was the owner's "just 'armbar', tiny" report
+        // small travel label over it was the owner's "just 'armbar', tiny" report
         const fn = this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
         const dup = fn && (am.idx === this.focusIdx || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
-        if (!dup) richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
+        if (!dup) richLabel(am.idx, am.verb, am.col, false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
@@ -16476,7 +17026,7 @@ class Component extends DCLogic {
         // group — and the qualifier hangs beneath it, which pushes the BOTTOM role subtitle down
         // one line so the two can never overlap.
         const _sp = this.splitName(n.t);
-        const nm = n.ty === "positions" ? this.posFamily(n.t) : _sp.main;
+        const nm = this.graphName(n);
         const qual = n.ty === "positions" ? "" : _sp.from || "";
         const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
         const gMaxW = Math.max(60, W - ox - 12);
@@ -16535,23 +17085,22 @@ class Component extends DCLogic {
         // the name's BODY instead of its tail and the mutant survived three different oracles.
         // Reading the strings the frame passed to `fillText` is not a re-implementation of the
         // render — it IS the render's output.
-        // THE ROLE WORD RIDES ITS ORB (v1.135.0 — owner: "why does top mount look red like i'm
-        // going to lose?"). The block anchors at the pair MIDLINE ("the name never moves"), which
-        // left TOP/BOTTOM floating equidistant from both orbs — measured 33px from each at roll
-        // zoom — so the eye could bind "TOP · Mount" to the red bottom orb underneath. The word
-        // now sits at its own member's drawn y whenever the split allows, clamped to the block's
-        // existing clearances so it can never land on the name or the qualifier; merged pairs
-        // (small gap) degenerate to the old offsets by construction.
+        // THE ROLE WORD RIDES ITS ORB (v1.135.0) unless that tears apart two adjacent subtitle
+        // rows (v1.173.2). Above roles still sit beside their upper member, and an unqualified
+        // lower role still follows its lower member. A qualified lower role instead sits exactly
+        // one shared row lead beneath `from …`: placement below the centred name block already
+        // identifies the lower half, while following a wide-split orb opened the reported void
+        // between "from Mount" and "DEFENDING".
         const syAct = (LY(act) - this.cam.cy) * scale + H / 2;
-        // THE CLEARANCE IS THE NAME'S, NOT A CONSTANT (v1.138.0). The literal 18 here was the
-        // ascender height of an 18px name plus ~5px of air; MEASURED on the shipped face, that
-        // name reaches 13px above its baseline, and a 24px one reaches 18px — so the old constant
-        // would have put TOP/BOTTOM exactly ON the name's ascenders at the new size. Derived, it
-        // reproduces 18 at both 15px and 18px (the floor holds the unfocused row where it was) and
-        // gives 23 at 24px, keeping the same 5px of air. Recompute the ascents with
-        // tests/artifacts/_label_size_probe.mjs.
-        const clr = Math.max(18, Math.round(namePx * 0.78 + 4));
-        const subY = above ? Math.min(nameY - clr, syAct + 4) : Math.max((qual ? qualY : nameY) + clr, syAct + 4);
+        // Where the role is adjacent to the headline, clearance scales with the headline's actual
+        // size: measured ascent plus 5px of air. The qualifier branch uses NG_LABEL_LEAD, whose
+        // measured small-text clearance is already shared by both canvas naming paths.
+        const nameClr = Math.max(18, Math.round(namePx * 0.78 + 4));
+        const subY = above
+          ? Math.min(nameY - nameClr, syAct + 4)
+          : qual
+            ? qualY + this.NG_LABEL_LEAD
+            : Math.max(nameY + nameClr, syAct + 4);
         // `namePx` rides along for the same reason the strings do: the size lives in a draw-local
         // and there is no DOM to read it back from, so a spec asserting the type hierarchy would
         // otherwise have to re-type the number and agree with a broken build by construction
@@ -16587,12 +17136,12 @@ class Component extends DCLogic {
           // it is the same "stated twice" defect the in-node pass was deleted for. The ROLE is
           // the part no shape carries, so it is the part that gets written. Category survives
           // only where there is no role to name.
-          const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
+
           const rl = this.roleLabel();
           const kick = rl
             ? String(rl).toUpperCase()
             : (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION");
-          richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
+          richLabel(this.focusIdx, kick, this.myColor(n), true);
         }
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
@@ -16632,7 +17181,7 @@ class Component extends DCLogic {
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
         const qual = n.ty === "positions" ? "" : sp.from || "";
-        const main = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
+        const main = this.graphName(n);
         // with a qualifier the block straddles the node's line; without one nothing moves.
         // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
         // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
