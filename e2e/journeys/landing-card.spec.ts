@@ -157,7 +157,7 @@ test("digits still open option sheets while a landing question is live", async (
  *  corner's ★ and ✕, carries done/total, and is inert — the pane's Last rolls tab is the study
  *  route now (pane-history.spec.ts drives it). Mutants: the chip's `openMenu(true)` handler back
  *  on the count (the pane opens); the glyph back in the text (the regex fails). */
-test("the corner count is bare done/total text that opens nothing", async ({ page }) => {
+test("the corner shows card position as bare text that opens nothing", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -187,7 +187,7 @@ test("the corner count is bare done/total text that opens nothing", async ({ pag
   })
   expect(state.total, "this landing has an authored deck").toBeGreaterThan(0)
   expect(label, "the count carries done/total").toBe(`${state.done}/${state.total}`)
-  expect(state.text, "…as bare text, no glyph").toBe(label)
+  expect(state.text, "the visible count is the current card, not answered progress").toBe(`1/${state.total}`)
   expect(state.underButtons, "under the ★ and the ✕").toBe(true)
   expect(state.rightEdgeInset, "hugging the same right edge").toBeLessThanOrEqual(12)
   expect(state.pill, "no pill: no border, no background").toBe(false)

@@ -162,7 +162,7 @@ test("a horizontal swipe pages, a vertical one scrolls, and a swipe never answer
         const el = document.querySelector(".ng-landcard") as HTMLElement
         const mk = (x: number, y: number) =>
           new Touch({ identifier: 1, target: el, clientX: x, clientY: y })
-        el.dispatchEvent(new TouchEvent("touchstart", { changedTouches: [mk(a, b)], bubbles: true }))
+        el.dispatchEvent(new TouchEvent("touchstart", { touches: [mk(a, b)], changedTouches: [mk(a, b)], bubbles: true }))
         el.dispatchEvent(new TouchEvent("touchend", { changedTouches: [mk(c, d)], bubbles: true }))
       },
       [x1, y1, x2, y2] as const,
@@ -196,7 +196,7 @@ test("a horizontal swipe pages, a vertical one scrolls, and a swipe never answer
     const cx = r.left + r.width / 2
     const cy = r.top + r.height / 2
     const mk = (x: number, y: number) => new Touch({ identifier: 1, target: btn, clientX: x, clientY: y })
-    el.dispatchEvent(new TouchEvent("touchstart", { changedTouches: [mk(cx - 120, cy)], bubbles: true }))
+    el.dispatchEvent(new TouchEvent("touchstart", { touches: [mk(cx - 120, cy)], changedTouches: [mk(cx - 120, cy)], bubbles: true }))
     el.dispatchEvent(new TouchEvent("touchend", { changedTouches: [mk(cx, cy)], bubbles: true }))
     btn.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }))
   })

@@ -183,6 +183,42 @@
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  /* One stable viewport for the whole deck, including revealed recall answers. Long content
+     scrolls inside; changing questions never resizes the card or the film row above it. */
+  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 40px));height:256px;padding:16px 18px;overscroll-behavior:contain;scroll-padding-block:12px;}
+  .ng-land-deck [data-land-q]{padding-bottom:44px;}
+  .ng-land-deck [data-land-nav]{position:absolute;left:0;right:0;bottom:0;height:44px;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(17,20,34,0),#111422 40%);}
+  .ng-land-deck [data-land-nav] button{position:absolute;bottom:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;border-radius:12px;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
+  .ng-land-deck [data-land-prev]{left:2px;}
+  .ng-land-deck [data-land-next]{right:2px;}
+  .ng-land-deck [data-land-nav] button[hidden]{display:none;}
+  @media(hover:hover){.ng-land-deck [data-land-nav] button:hover{color:#e0e9ff;background:rgba(126,160,255,.08);}}
+  .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
+  .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
+  .ng-land-deck [data-land-recall]{font-size:13px;}
+  .ng-land-deck [data-land-recall] button{min-height:44px!important;}
+  .ng-land-deck button:focus-visible{outline:2px solid #9cbcff;outline-offset:2px;}
+  @media(max-width:640px){
+    .ng-landcard.ng-land-deck{height:248px;}
+    .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
+  }
+  /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
+     inline important dimensions. Long answers remain scrollable, with full-size touch targets. */
+  @media(max-width:699px) and (max-height:700px){
+    .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
+  }
+  /* Landscape is a two-column composition, not a cropped portrait layout. */
+  @media(min-width:700px) and (max-height:540px){
+    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 40px);height:calc(100dvh - 112px);padding:12px 14px;}
+    .ng-has-land-deck .ng-optionrow{left:56vw!important;padding-left:12px!important;padding-right:12px!important;}
+    .ng-has-land-deck .ng-landfilm{left:78vw!important;width:calc(44vw - 24px)!important;}
+    .ng-has-land-deck .ng-landmore{left:28vw;}
+    .ng-has-land-deck .ng-landmore.open{width:calc(56vw - 40px)!important;}
+    .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
+  }
+  .ng-landstack{--back-step-x:3px;position:fixed;left:50%;transform:translateX(-50%);z-index:4;pointer-events:none;}
+  .ng-landstack>div{transform:translate(calc(var(--back-index)*var(--back-step-x)),calc(var(--back-index)*3px));position:absolute;inset:0;border:1px solid rgba(130,150,190,.3);border-radius:15px;background:linear-gradient(180deg,#20263b,#171c2e);box-shadow:1px 2px 3px rgba(0,0,0,.22);}
+  @media(max-width:640px){.ng-landstack{--back-step-x:2px;}}
   /* More starts as a pill below the hand, then that SAME root-plane sibling takes the real
      .ng-landcard shell. Open, it is NOT a scrollport (v1.175.0, owner: "when I scroll this card
      should go under the fold too so it should be long"): no max-height, no overflow, top-docked
