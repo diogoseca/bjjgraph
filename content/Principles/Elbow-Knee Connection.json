@@ -1,0 +1,268 @@
+{
+  "name": "Elbow-Knee Connection",
+  "description": "Use elbow-knee connection in BJJ to protect inside space, retain guard, and rebuild frames. Learn how top players separate that connection to pass and control.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "summary": "Elbow-Knee Connection organizes the elbows and knees around the torso to protect inside space. Defenders preserve or rebuild that barrier; attackers separate it to pass, pin, isolate limbs, and enter submissions.",
+  "overview": "The space between an elbow and its nearby knee is a common route to controlling the torso. Keeping those limbs coordinated can prevent a passer from reaching the hips and shoulders together, while reconnecting them helps a pinned player recover a useful frame or guard. Connection does not mean gluing the elbow to the knee throughout a roll: grips, posts, and attacks require deliberate openings. The question is whether the opening is protected by another useful structure. The player seeking control tries to separate the elbow and knee and occupy the gap before it closes. This relationship appears in guard retention, pin escapes, turtle exchanges, and the isolation that precedes many submissions.",
+  "key_principles": [
+    "Protect the space between your elbows, knees, and torso",
+    "Rebuild connection before trying to recover a large amount of space",
+    "Open the barrier deliberately for grips or posts and replace its support",
+    "Attack the gap with stable control rather than an unsupported reach",
+    "Coordinate hip movement with the returning elbow or knee",
+    "Treat connection as a changing relationship rather than a fixed pose"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Recognize the gap",
+      "description": "Identify where a separated elbow and knee expose the hip or shoulder to control."
+    },
+    {
+      "skill_name": "Recover inside space",
+      "description": "Bring a knee or elbow into a useful barrier while moving the hips out of pressure."
+    },
+    {
+      "skill_name": "Coordinate frames",
+      "description": "Link the upper-body frame and lower-body barrier so one does not leave the other exposed."
+    },
+    {
+      "skill_name": "Separate the barrier",
+      "description": "Use grips and angle changes to move the elbow and knee apart while keeping balance."
+    },
+    {
+      "skill_name": "Replace lost connections",
+      "description": "Use another frame or hook when an attack temporarily opens the elbow-knee space."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Inside Position",
+      "relationship_type": "Complementary",
+      "description": "Inside Position supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Frames",
+      "relationship_type": "Complementary",
+      "description": "Frames supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Hip Escape Mechanics supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Guard retention",
+      "how_applied": "Keep knees and elbows coordinated while tracking the passer around the hips."
+    },
+    {
+      "context": "Guard passing",
+      "how_applied": "Separate the knee from its upper-body frame and occupy the gap with control."
+    },
+    {
+      "context": "Mount escapes",
+      "how_applied": "Recover an elbow inside, move the hips, and bring a knee into the opening."
+    },
+    {
+      "context": "Side-control escapes",
+      "how_applied": "Frame at the upper body while creating a route for the near knee to return."
+    },
+    {
+      "context": "Turtle and submissions",
+      "how_applied": "Protect exposed gaps and deny limb isolation; attackers occupy them before advancing."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "What is the immediate objective?",
+      "action": "Protect the space between your elbows, knees, and torso"
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Which support is useful?",
+      "action": "Rebuild connection before trying to recover a large amount of space"
+    },
+    {
+      "step_number": 3,
+      "decision_point": "What can the opponent recover?",
+      "action": "Open the barrier deliberately for grips or posts and replace its support"
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Can you act without losing structure?",
+      "action": "Attack the gap with stable control rather than an unsupported reach"
+    },
+    {
+      "step_number": 5,
+      "decision_point": "How did the opponent respond?",
+      "action": "Coordinate hip movement with the returning elbow or knee"
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Is the next action controlled?",
+      "action": "Treat connection as a changing relationship rather than a fixed pose"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Keeping everything clenched",
+      "consequence": "You lose the mobility needed to build useful frames.",
+      "correction": "Connect with purpose and move when the opening is protected."
+    },
+    {
+      "error": "Moving the hips without frames",
+      "consequence": "The opponent follows and closes the opening.",
+      "correction": "Establish an upper-body barrier before recovering the knee."
+    },
+    {
+      "error": "Reaching the elbow away",
+      "consequence": "The torso becomes exposed to a pin or arm isolation.",
+      "correction": "Replace the barrier before committing the reach."
+    },
+    {
+      "error": "Pushing the knee through pressure",
+      "consequence": "Effort rises without creating a route.",
+      "correction": "Change the angle and move the hips first."
+    },
+    {
+      "error": "Passing the legs but ignoring the elbow",
+      "consequence": "The defender can reconnect and recover guard.",
+      "correction": "Control the gap between hip and shoulder before settling."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Gap recognition",
+      "description": "Pause during guard passing and point out each exposed elbow-knee gap.",
+      "focus": "Awareness"
+    },
+    {
+      "approach_name": "Retention rounds",
+      "description": "A passer tries to reach the torso while the guard player keeps useful barriers.",
+      "focus": "Guard retention"
+    },
+    {
+      "approach_name": "Escape checkpoints",
+      "description": "Recover an inside elbow and then a knee from a cooperative pin.",
+      "focus": "Sequential recovery"
+    },
+    {
+      "approach_name": "Separation rounds",
+      "description": "Begin with connected frames; the top player creates and occupies one gap.",
+      "focus": "Passing control"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Names the relevant supports in a paused exchange",
+        "Demonstrates the principle with a cooperative partner",
+        "Recognizes when control is lost and resets"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Uses the principle against light resistance",
+        "Explains both the attacking and defensive application",
+        "Recovers the relevant structure after one disruption"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Maintains the principle through changing positions",
+        "Adapts when the opponent blocks the first route",
+        "Combines the principle with timing and angle changes"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Diagnoses subtle failures under varied resistance",
+        "Chooses when to release or replace a connection",
+        "Teaches the principle using examples from multiple roles"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "content_type": "Position",
+      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Inside Position",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How does Elbow-Knee Connection apply in guard retention?",
+      "answer": "Keep knees and elbows coordinated while tracking the passer around the hips. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Elbow-Knee Connection apply in guard passing?",
+      "answer": "Separate the knee from its upper-body frame and occupy the gap with control. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Elbow-Knee Connection apply in mount escapes?",
+      "answer": "Recover an elbow inside, move the hips, and bring a knee into the opening. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Elbow-Knee Connection apply in side-control escapes?",
+      "answer": "Frame at the upper body while creating a route for the near knee to return. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Elbow-Knee Connection apply in turtle and submissions?",
+      "answer": "Protect exposed gaps and deny limb isolation; attackers occupy them before advancing. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "What is Elbow-Knee Connection?",
+      "answer": "Elbow-Knee Connection organizes the elbows and knees around the torso to protect inside space. Defenders preserve or rebuild that barrier; attackers separate it to pass, pin, isolate limbs, and enter submissions."
+    }
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Highlights exchanges that preserve, rebuild, or separate the elbow-knee barrier, including the opponent’s passing, pinning, and limb-isolation opportunities.",
+    "terms": [
+      "elbow",
+      "knee shield",
+      "guard retention",
+      "guard recovery",
+      "shrimp"
+    ],
+    "families": []
+  }
+}

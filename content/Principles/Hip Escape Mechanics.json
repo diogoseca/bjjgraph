@@ -429,6 +429,11 @@
       "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Pressure position requiring hip escape mechanics for recovery"
+    },
+    {
+      "name": "Elbow-Knee Connection",
+      "content_type": "Principle",
+      "relationship": "Hip movement creates a route for the knee to reconnect behind a useful elbow frame."
     }
   ],
   "flashcards": [
@@ -601,5 +606,16 @@
       "duration": 59,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Hip Escape Mechanics applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "hip escape",
+      "shrimp",
+      "hip movement",
+      "move your hips"
+    ],
+    "families": []
+  }
 }

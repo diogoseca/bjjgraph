@@ -468,6 +468,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - **[[Center of Gravity]]** (Complementary): Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension
 - **[[Posture]]** (Extension): Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application
 - **[[Collar Control]]** (Extension): Collar Control applies connection principles to specific collar grips, using lapel and collar connections to dominate posture and set up attacks through targeted connection management
+- **[[Limb Isolation]]** (Complementary): Isolation removes useful supporting connections; defense rebuilds those connections.
 
 
 ### Related Content
@@ -483,6 +484,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - [[Principles/Base|Base]] (Principle) - Provides stable foundation from which effective connections can be established
 - [[Principles/Grips|Grips]] (Principle) - Competitive application of connection principles in establishing grip dominance
 - [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive counterpart encompassing space-preserving connections and escape frameworks
+- [[Principles/Limb Isolation|Limb Isolation]] (Principle) - Isolation removes useful supporting connections; defense rebuilds those connections.
 
 
 </section>

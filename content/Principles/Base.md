@@ -457,6 +457,7 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 - **[[Levers]]** (Prerequisite): Leverage principles provide the mechanical foundation for understanding why certain base configurations are more stable than others. Base maintenance applies these leverage concepts to positional control.
 - **[[Energy Conservation]]** (Complementary): Proper base maintenance allows efficient energy use by reducing unnecessary compensatory movements. Stable base requires less muscular effort to maintain than constantly recovering from compromised positions.
 - **[[Control Maintenance]]** (Extension): Base maintenance is the foundational layer of control maintenance. Without stable base, all other control mechanisms become ineffective regardless of grips or positioning.
+- **[[Alignment]]** (Complementary): Base supplies the support points that alignment coordinates with posture and limb structure.
 
 
 ### Related Content
@@ -471,6 +472,7 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 - [[Principles/Levers|Levers]] (Principle) - Theoretical foundation providing mechanical basis for understanding why certain base configurations are more stable
 - [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Dynamic interplay concept where base maintenance counters destabilizing forces through reactive adjustments
 - [[Principles/Kuzushi|Kuzushi]] (Principle) - Concept that targets base vulnerabilities, understanding both concepts enhances performance
+- [[Principles/Alignment|Alignment]] (Principle) - Base supplies the support points that alignment coordinates with posture and limb structure.
 
 
 </section>

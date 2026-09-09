@@ -148,7 +148,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Head Position",
-  "description": "Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.",
+  "description": "Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -205,7 +205,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 
 ## What is Head Position?
 
-**Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.**
+**Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.**
 
 Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.
 

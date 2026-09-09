@@ -539,5 +539,14 @@
       "duration": 657,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Collar Control applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "collar",
+      "lapel"
+    ],
+    "families": []
+  }
 }

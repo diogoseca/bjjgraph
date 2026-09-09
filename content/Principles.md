@@ -41,342 +41,360 @@ description: "Master fundamental BJJ principles and concepts. Complete guide to 
     {
       "@type": "ListItem",
       "position": 3,
+      "name": "Alignment",
+      "url": "https://bjjgraph.org/Principles/alignment"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
       "name": "Base",
       "url": "https://bjjgraph.org/Principles/base"
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "name": "Blood Chokes",
       "url": "https://bjjgraph.org/Principles/blood-chokes"
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "name": "Bridge and Shrimp",
       "url": "https://bjjgraph.org/Principles/bridge-and-shrimp"
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "name": "Center of Gravity",
       "url": "https://bjjgraph.org/Principles/center-of-gravity"
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "name": "Chest Compression",
       "url": "https://bjjgraph.org/Principles/chest-compression"
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "name": "Chin Protection",
       "url": "https://bjjgraph.org/Principles/chin-protection"
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "name": "Clamps",
       "url": "https://bjjgraph.org/Principles/clamps"
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "name": "Collar Control",
       "url": "https://bjjgraph.org/Principles/collar-control"
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "name": "Competition Mindset",
       "url": "https://bjjgraph.org/Principles/competition-mindset"
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "name": "Compression Locks",
       "url": "https://bjjgraph.org/Principles/compression-locks"
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "name": "Connection Principles",
       "url": "https://bjjgraph.org/Principles/connection-principles"
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "name": "Control Maintenance",
       "url": "https://bjjgraph.org/Principles/control-maintenance"
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "name": "Control Point Hierarchy",
       "url": "https://bjjgraph.org/Principles/control-point-hierarchy"
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "name": "Cranks",
       "url": "https://bjjgraph.org/Principles/cranks"
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "name": "Cross Face Control",
       "url": "https://bjjgraph.org/Principles/cross-face-control"
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "name": "Dealing with Pressure",
       "url": "https://bjjgraph.org/Principles/dealing-with-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "name": "Defensive Concepts",
       "url": "https://bjjgraph.org/Principles/defensive-concepts"
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "name": "Distance Control",
       "url": "https://bjjgraph.org/Principles/distance-control"
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "name": "Dominant Angles",
       "url": "https://bjjgraph.org/Principles/dominant-angles"
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
+      "name": "Elbow-Knee Connection",
+      "url": "https://bjjgraph.org/Principles/elbow-knee-connection"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
       "name": "Energy Conservation",
       "url": "https://bjjgraph.org/Principles/energy-conservation"
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 25,
       "name": "Escape Fundamentals",
       "url": "https://bjjgraph.org/Principles/escape-fundamentals"
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 26,
       "name": "Flow Rolling",
       "url": "https://bjjgraph.org/Principles/flow-rolling"
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 27,
       "name": "Fork Attacks",
       "url": "https://bjjgraph.org/Principles/fork-attacks"
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 28,
       "name": "Forward Pressure",
       "url": "https://bjjgraph.org/Principles/forward-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 29,
       "name": "Frames",
       "url": "https://bjjgraph.org/Principles/frames"
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 30,
       "name": "Grips",
       "url": "https://bjjgraph.org/Principles/grips"
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 31,
       "name": "Guard Passing",
       "url": "https://bjjgraph.org/Principles/guard-passing"
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 32,
       "name": "Hand Fighting",
       "url": "https://bjjgraph.org/Principles/hand-fighting"
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 33,
       "name": "Head Position",
       "url": "https://bjjgraph.org/Principles/head-position"
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 34,
       "name": "Hip Escape Mechanics",
       "url": "https://bjjgraph.org/Principles/hip-escape-mechanics"
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 35,
       "name": "Hip Pressure",
       "url": "https://bjjgraph.org/Principles/hip-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 36,
       "name": "Hooks",
       "url": "https://bjjgraph.org/Principles/hooks"
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 37,
       "name": "Hyperextension",
       "url": "https://bjjgraph.org/Principles/hyperextension"
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 38,
       "name": "Inside Position",
       "url": "https://bjjgraph.org/Principles/inside-position"
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 39,
       "name": "Kuzushi",
       "url": "https://bjjgraph.org/Principles/kuzushi"
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 40,
       "name": "Leg Entanglement",
       "url": "https://bjjgraph.org/Principles/leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 41,
       "name": "Levers",
       "url": "https://bjjgraph.org/Principles/levers"
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 42,
+      "name": "Limb Isolation",
+      "url": "https://bjjgraph.org/Principles/limb-isolation"
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
       "name": "Making Smaller Circles",
       "url": "https://bjjgraph.org/Principles/making-smaller-circles"
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 44,
       "name": "Maximum Efficiency Principle",
       "url": "https://bjjgraph.org/Principles/maximum-efficiency-principle"
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 45,
       "name": "Position Chains",
       "url": "https://bjjgraph.org/Principles/position-chains"
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 46,
       "name": "Position-Over-Submission Approach",
       "url": "https://bjjgraph.org/Principles/position-over-submission-approach"
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 47,
       "name": "Positional Hierarchy",
       "url": "https://bjjgraph.org/Principles/positional-hierarchy"
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 48,
       "name": "Positional Sparring",
       "url": "https://bjjgraph.org/Principles/positional-sparring"
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 49,
       "name": "Posts",
       "url": "https://bjjgraph.org/Principles/posts"
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 50,
       "name": "Posture",
       "url": "https://bjjgraph.org/Principles/posture"
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 51,
       "name": "Pressure",
       "url": "https://bjjgraph.org/Principles/pressure"
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 52,
       "name": "Rotational Breaks",
       "url": "https://bjjgraph.org/Principles/rotational-breaks"
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 53,
       "name": "Shoulder Pressure",
       "url": "https://bjjgraph.org/Principles/shoulder-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 54,
       "name": "Sleeve Control",
       "url": "https://bjjgraph.org/Principles/sleeve-control"
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 55,
       "name": "Structure",
       "url": "https://bjjgraph.org/Principles/structure"
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 56,
       "name": "Submission Chains",
       "url": "https://bjjgraph.org/Principles/submission-chains"
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 57,
       "name": "Submission Defense",
       "url": "https://bjjgraph.org/Principles/submission-defense"
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 58,
       "name": "Timing and Rhythm",
       "url": "https://bjjgraph.org/Principles/timing-and-rhythm"
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 59,
       "name": "Torque",
       "url": "https://bjjgraph.org/Principles/torque"
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 60,
       "name": "Transition Management",
       "url": "https://bjjgraph.org/Principles/transition-management"
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 61,
       "name": "Wedges",
       "url": "https://bjjgraph.org/Principles/wedges"
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 62,
       "name": "Whizzer Control",
       "url": "https://bjjgraph.org/Principles/whizzer-control"
     }
@@ -416,6 +434,10 @@ Master creating deliberate opponent responses and exploiting predictable defensi
 ### [[Principles/Air Chokes|Air Chokes]]
 
 Understand air choke mechanics in BJJ. Learn tracheal compression principles, windpipe restriction techniques, defensive awareness, and the differences from blood chokes.
+
+### [[Principles/Alignment|Alignment]]
+
+Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent’s across positions, transitions, and submissions.
 
 ### [[Principles/Base|Base]]
 
@@ -487,11 +509,15 @@ Master defensive concepts in BJJ with systematic frameworks for survival, escape
 
 ### [[Principles/Distance Control|Distance Control]]
 
-Master Distance Control in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.
+Manage distance in BJJ from either role: create space to escape, close it to connect and pin, and change range for guard play, passing, takedowns, and submissions.
 
 ### [[Principles/Dominant Angles|Dominant Angles]]
 
 Master Dominant Angles in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities.
+
+### [[Principles/Elbow-Knee Connection|Elbow-Knee Connection]]
+
+Use elbow-knee connection in BJJ to protect inside space, retain guard, and rebuild frames. Learn how top players separate that connection to pass and control.
 
 ### [[Principles/Energy Conservation|Energy Conservation]]
 
@@ -565,6 +591,10 @@ Master Leg Entanglement principles in BJJ. Learn systematic lower body control, 
 
 Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.
 
+### [[Principles/Limb Isolation|Limb Isolation]]
+
+Understand limb isolation in BJJ: separate a target from its supporting structures, deny reconnection, and apply the same ideas to passing, escapes, and submissions.
+
 ### [[Principles/Making Smaller Circles|Making Smaller Circles]]
 
 Master Making Smaller Circles in BJJ. Learn depth-before-breadth training — refine core movement patterns until effortless, then expand for accelerated skill development.
@@ -595,7 +625,7 @@ Master posts in BJJ. Learn to plant extended limbs against the mat or opponent f
 
 ### [[Principles/Posture|Posture]]
 
-Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.
+Use posture in BJJ to align your head, spine, and hips from either role. Learn to preserve your own alignment and disrupt it during guard play, passing, and submissions.
 
 ### [[Principles/Pressure|Pressure]]
 

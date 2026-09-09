@@ -443,6 +443,7 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 - **[[Hip Escape Mechanics]]** (Extension): Hip escape movements serve as a primary mechanism for adjusting fulcrum positioning and lever arm ratios from bottom positions. Understanding leverage informs which hip movements create maximum mechanical advantage for escapes and guard recovery.
 - **[[Kuzushi]]** (Advanced form): Sweeps succeed through leverage application where opponent's weight distribution becomes a liability. Lever mechanics explain how minimal force at optimal angles creates maximum destabilizing effects to reverse position.
 - **[[Posture]]** (Extension): Breaking opponent's posture relies fundamentally on leverage - creating fulcrum points and applying force through favorable lever arm ratios to overcome their structural stability and base.
+- **[[Limb Isolation]]** (Complementary): Separating a limb from its supporting connections makes its lever easier to control.
 
 
 ### Related Content
@@ -458,6 +459,7 @@ Flow rolling with constraint that techniques must be abandoned immediately when 
 - [[Principles/Kuzushi|Kuzushi]] (Principle) - Advanced application where leverage mechanics explain how minimal force at optimal angles creates maximum destabilizing effects to reverse position
 - [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Hip escapes leverage fulcrum repositioning to create space and recover guard, demonstrating leverage principles applied defensively from bottom positions
 - [[Principles/Posture|Posture]] (Principle) - Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability
+- [[Principles/Limb Isolation|Limb Isolation]] (Principle) - Separating a limb from its supporting connections makes its lever easier to control.
 
 
 </section>

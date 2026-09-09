@@ -14,7 +14,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.",
+  "summary": "Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.",
   "overview": "Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.",
   "key_principles": [
     "Control the head to control the spine and subsequently the entire body structure",
@@ -512,5 +512,9 @@
       "duration": 31,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Head Position can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

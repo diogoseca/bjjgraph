@@ -3129,7 +3129,19 @@ class Component extends DCLogic {
   }
   _onConcepts() {
     this._conceptsById = {};
-    for (const c of this.concepts) if (c && c.id) this._conceptsById[c.id] = c;
+    const allSites = Array.from(this._ordinalIndex().values());
+    for (const c of this.concepts) if (c && c.id) {
+      // Universal principles carry one flag instead of repeating the entire graph in the wire.
+      if (c.allNodes) c.nodes = allSites;
+      else if (typeof c.nodeMask === "string") {
+        c.nodes = [];
+        for (const [ordinal, id] of this._ordinalIndex()) {
+          const nibble = parseInt(c.nodeMask.charAt(c.nodeMask.length - 1 - (ordinal >> 2)), 16);
+          if (nibble & (1 << (ordinal & 3))) c.nodes.push(id);
+        }
+      }
+      this._conceptsById[c.id] = c;
+    }
     if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is up
   }
   // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
@@ -3196,13 +3208,44 @@ class Component extends DCLogic {
     // Explore owns the highlight, and any pane/tab transition runs clearFocus — so the transition
     // goes FIRST and the selection is claimed after it (openSystem, same two lines, same reason).
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    this.clearFocus();
     const idxs = this.conceptNodeIdxs(c);
     this._conceptId = id;
+    this._conceptMemberLimit = 60;
     this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
     this._pushUrl("/" + id, { ngPage: id });
-    this.setFocusIdxSet(idxs);
+    this.focusConcept(c);
     this.showExplorerList();
+  }
+  focusConcept(c, noFrame) {
+    const idxs = this.conceptNodeIdxs(c);
+    const panel = this.drillRef && this.drillRef.current;
+    if (panel) {
+      if (c.cat === "Principle") panel.setAttribute("data-principle-view", "1");
+      else panel.removeAttribute("data-principle-view");
+    }
+    if (c.cat === "Principle") {
+      const bothSides = idxs.flatMap((i) => {
+        const twin = this._idIndex.get(this.nodes[i].pairId);
+        return twin == null || !this.rsAllowsIdx(twin) ? [i] : [i, twin];
+      });
+      this.setFocusIdxSet(bothSides, true);
+      // Keep the entire map in context, even for a narrowly applicable principle.
+      if (!noFrame) {
+        // Measure the reading pane after its responsive layout applies. The graph belongs in
+        // the remaining visible area, not behind the pane (especially on phones).
+        const rect = panel && panel.getBoundingClientRect();
+        const wrap = this.wrapRef && this.wrapRef.current;
+        const origin = wrap && wrap.getBoundingClientRect();
+        let viewport;
+        if (rect && origin && rect.width && rect.height) {
+          if (this.W <= 640) viewport = { left: 0, top: 64, width: this.W, height: Math.max(1, rect.top - origin.top - 64), padding: 1.3 };
+          else { const left = rect.right - origin.left; viewport = { left, top: 0, width: Math.max(1, this.W - left), height: this.H, padding: 1.3 }; }
+        }
+        this.frameNodes(this.nodes.filter((n) => n.rep !== false && this.rsAllowsIdx(n.idx)).map((n) => n.idx), viewport);
+      }
+    } else this.setFocusIdxSet(idxs, noFrame);
   }
   closeConcept() { this.clearFocus(); this.showExplorerList(); }
 
@@ -5081,7 +5124,7 @@ class Component extends DCLogic {
   // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
   // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
   // frames identically.
-  frameNodes(idxs) {
+  frameNodes(idxs, viewport) {
     if (!idxs || !idxs.length || !this.nodes) return;
     let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
     for (const i of idxs) { const n = this.nodes[i]; if (!n) continue; minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
@@ -5090,9 +5133,15 @@ class Component extends DCLogic {
     // so a selection that is tall and narrow was framed on its width and hung off the top and
     // bottom of the screen — the same margin has to be asked for vertically or "framed" is a claim
     // about one axis only.
-    const aspect = (this.H || 1) / (this.W || 1);
-    const need = Math.max((maxx - minx) * 2.2, aspect > 0 ? ((maxy - miny) * 2.2) / aspect : 0);
-    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, need) };
+    const W = this.W || 1, H = this.H || 1;
+    const box = viewport || { left: 0, top: 0, width: W, height: H, padding: 2.2 };
+    const need = Math.max((maxx - minx) * box.padding * W / box.width, (maxy - miny) * box.padding * W / box.height);
+    const vw = Math.max(this.graphW * 0.4, need);
+    this.camTarget = {
+      cx: (minx + maxx) / 2 - (box.left + box.width / 2 - W / 2) * vw / W,
+      cy: (miny + maxy) / 2 - (box.top + box.height / 2 - H / 2) * vw / W,
+      vw,
+    };
     // …and TAKE THE CAMERA, or the flight above is a wish. See holdCamera().
     this.holdCamera();
   }
@@ -6867,6 +6916,8 @@ class Component extends DCLogic {
     this._flowKernel = null;
     this._flowScoreCache = null;
     this._rebuildRulesetMask();
+    const concept = this._conceptsById && this._conceptsById[this._conceptId];
+    if (concept) this.focusConcept(concept, true);
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
     // `_curriculumIdxSet` is built eagerly by `_onCurriculum` (nulling it would kill path fog
     // until the next curriculum load) and an excluded node is not drawn at all, so its fog
@@ -7222,7 +7273,11 @@ class Component extends DCLogic {
   }
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
-  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null; }
+  clearFocus() {
+    this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null;
+    const panel = this.drillRef && this.drillRef.current;
+    if (panel) panel.removeAttribute("data-principle-view");
+  }
 
   // ---------- systems: the authored course library (systems.json, optional payload) ----------
   _onSystems() {
@@ -7251,6 +7306,7 @@ class Component extends DCLogic {
     // Explore is the tab that owns the highlight. Any pane/tab transition runs clearFocus, so the
     // transition goes FIRST and the selection is claimed after it (a row click skips this).
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    this.clearFocus();
     const idxs = this.systemNodeIdxs(s);
     this._systemId = id;
     this._systemBody(s);   // start the body fetch with the click, not with the first paint of it
@@ -7503,6 +7559,7 @@ class Component extends DCLogic {
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
     const idxs = this.listIdxs(listId);
     if (!idxs.length) return;
+    this.clearFocus();
     this._listFocusId = listId;
     this.setFocusIdxSet(idxs);
     this.renderExplorer(); // keepList carries the selection through the render's own reset
@@ -9285,6 +9342,14 @@ class Component extends DCLogic {
     // ── the read. Rendered only when the chunk is here; until then the card above stands alone
     //    and this fills in on the re-render the fetch triggers.
     const doc = this._bodyDocHTML(body, c.cat);
+    if (c.cat === "Principle") {
+      const note = document.createElement("p");
+      note.className = "ng-system-role";
+      note.setAttribute("data-principle-coverage", c.allNodes ? "all" : "specific");
+      note.textContent = (c.allNodes ? "Applies throughout the graph. " : "Highlighted techniques use or counter this principle. ") +
+        "Both sides are included: top and bottom, attacking and defending. Showing the current gi/no-gi graph.";
+      list.appendChild(note);
+    }
     if (doc) {
       const sec = document.createElement("div");
       sec.className = "ng-doc-body";
@@ -9316,9 +9381,20 @@ class Component extends DCLogic {
       for (const g of (body && Array.isArray(body.glue) ? body.glue : [])) {
         for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
       }
-      for (const i of idxs) {
+      const evidence = body && body.evidence;
+      if (evidence && Array.isArray(evidence.matches)) for (const [ordinal, mask] of evidence.matches) {
+        const nid = this._ordinalIndex().get(ordinal);
+        if (nid && !roleFor.has(nid)) {
+          const terms = (evidence.terms || []).filter((_, bit) => mask & (1 << bit));
+          roleFor.set(nid, terms.length ? "Uses or counters: " + terms.join(", ") + "." : "References this principle in its instruction.");
+        }
+      }
+      // Bound DOM work even when a principle covers the whole graph. The highlight always
+      // contains every member; this limit only batches the browsable list.
+      const limit = this._conceptMemberLimit || 60;
+      for (const i of idxs.slice(0, limit)) {
         const n = this.nodes[i], qual = this.nodeQual(n);
-        const role = roleFor.get(n.id) || "";
+        const role = roleFor.get(n.id) || (body && body.applicability) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
@@ -9330,6 +9406,21 @@ class Component extends DCLogic {
         row.setAttribute("data-concept-node", n.id);
         row.style.pointerEvents = "auto";
         list.appendChild(row);
+      }
+      if (idxs.length > limit) {
+        const more = document.createElement("button");
+        more.type = "button";
+        more.className = "ng-concept-page";
+        more.setAttribute("data-concept-more", c.id);
+        more.textContent = "Show more techniques (" + limit + " of " + idxs.length + ")";
+        more.style.pointerEvents = "auto";
+        more.onclick = () => {
+          const scroll = list.scrollTop;
+          this._conceptMemberLimit = limit + 60;
+          this.renderExplorer();
+          list.scrollTop = scroll;
+        };
+        list.appendChild(more);
       }
     }
 
@@ -16167,7 +16258,7 @@ class Component extends DCLogic {
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
     // flight the user asked for never happens. See holdCamera().
-    if (this.introDone && this.camHeld()) tgt = null;
+    if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
     if (tgt) { this.camTarget.cx = tgt.cx; this.camTarget.cy = tgt.cy; this.camTarget.vw = tgt.vw; }
     // dossier flight: CENTER faster than the zoom dives (prezi-style) — otherwise at deep zoom the
     // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
@@ -16255,6 +16346,8 @@ class Component extends DCLogic {
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
     this.fitChoiceTitles();
+    const concept = this._conceptsById && this._conceptsById[this._conceptId];
+    if (concept && this.deckShown) this.focusConcept(concept);
     if (this._landEl) requestAnimationFrame(() => { if (this._landEl) this._dockLandCard(this._landEl); });
   }
   /**
@@ -16777,6 +16870,8 @@ class Component extends DCLogic {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.2);
       for (const k of this._focusIdxSet) {
         const n = this.nodes[k]; if (!n) continue;
+        // At overview zoom both roles share one visible site; avoid drawing the same ring twice.
+        if (n.pairId && !n.rep && kLOD < 0.02) continue;
         ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.8 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.7, 0, 6.2832); ctx.stroke();

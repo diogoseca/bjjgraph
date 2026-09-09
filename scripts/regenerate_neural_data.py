@@ -2088,11 +2088,34 @@ def _concept_body(data: dict, cat: str) -> dict:
     return body
 
 
+def _principle_instructions(data: dict) -> str:
+    """Only instructional prose: related links and quizzes are not applicability evidence."""
+    def strings(value):
+        if isinstance(value, str):
+            yield value
+        elif isinstance(value, list):
+            for item in value:
+                yield from strings(item)
+        elif isinstance(value, dict):
+            for key, item in value.items():
+                if key not in {"related_content", "flashcards", "clips", "related_submissions"}:
+                    yield from strings(item)
+    fields = ("name", "summary", "overview", "key_principles", "top", "bottom",
+              "attacker", "defender", "submission_type", "target_area", "execution_steps")
+    return " ".join(text for field in fields for text in strings(data.get(field))).casefold()
+
+
+def _principle_sources():
+    return [(ctype, path, json.loads(path.read_text(encoding="utf-8")))
+            for ctype, folder in GRAPH_REF_PREFIX.items()
+            for path in sorted((ROOT / "content" / folder).rglob("*.json"))]
+
+
 def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     """The Principles + Learning libraries: (index payload, dossier map keyed for the chunk writer).
 
-    Membership is `related_content` resolved against graph-data.json's own ids, the SAME resolver
-    build_systems uses — so a concept lights exactly the techniques its author linked, and a
+    Membership combines related_content with reviewed principle applicability rules.
+    All links resolve against graph-data.json ids using the same resolver as systems; a
     reference that resolves to nothing is REPORTED per concept in `unresolved`, never dropped and
     never faked.
 
@@ -2141,6 +2164,9 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
 
     concepts, dossiers = [], {}
+    principle_sources = [(ctype, path, source, _principle_instructions(source))
+                         for ctype, path, source in _principle_sources()]
+    ordinals = load_ordinals()
     stats: dict = {}                    # rung coverage, printed and shipped in _meta
     non_graph = md_only = path_spelled = fam_expanded = 0
     for cat, folder, path, name, data in raw:
@@ -2188,6 +2214,46 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             elif ref not in unresolved:
                 unresolved.append(ref)
 
+        evidence = {}
+        applicability = data.get("graph_applicability") if cat == "Principle" else None
+        all_nodes = bool(applicability and applicability.get("scope") == "all")
+        if applicability and not all_nodes:
+            import re
+            patterns = [re.compile(r"(?<!\w)" + re.escape(term.casefold()) + r"(?!\w)")
+                        for term in applicability.get("terms", [])]
+            # Explicit family selectors include EVERY origin and are a build error if misspelled.
+            for family in applicability.get("families", []):
+                hits, _ = _resolve_member(family, "Submission", None, ids, idx, stats)
+                if not hits:
+                    raise ValueError(f"{name}: unknown applicability family {family!r}")
+                nodes.extend(hits)
+                glue.append({"ref": family, "nodes": hits, "role": "This submission family uses or opposes the principle across its variants."})
+            own_names = {slugify(name), *(slugify(a) for a in data.get("aliases", []))}
+            for ctype, source_path, source, instruction in principle_sources:
+                matches = [term for term, pattern in zip(applicability.get("terms", []), patterns)
+                           if pattern.search(instruction)]
+                reverse = any(slugify(str(ref.get("name", "")).removeprefix("Principles/")) in own_names
+                              for ref in source.get("related_content", []) if isinstance(ref, dict))
+                family_match = ctype == "Submission" and source_path.relative_to(ROOT / "content" / "Submissions").parts[0] in applicability.get("families", [])
+                if not matches and not reverse and not family_match:
+                    continue
+                hits, _ = _resolve_member(source.get("name") or source_path.stem, ctype, None, ids, idx, stats)
+                if not hits:
+                    continue
+                nodes.extend(hits)
+                mask = sum(1 << i for i, term in enumerate(applicability.get("terms", [])) if term in matches)
+                for nid in hits:
+                    evidence[ordinals[nid]] = evidence.get(ordinals[nid], 0) | mask
+                # A technique's starting position is also an application context. Do not walk all
+                # neighbors: a choke from Mount does not make every unrelated Mount attack a choke.
+                origin = source.get("from_position")
+                if isinstance(origin, str):
+                    origin = re.sub(r"/(Top|Bottom|Attacker|Defender)$", "", origin, flags=re.I)
+                    origins, _ = _resolve_member(origin, "Position", None, ids, idx, stats)
+                    nodes.extend(origins)
+            if not nodes:
+                raise ValueError(f"{name}: applicability matched no graph nodes")
+
         # The chunk key. `|Principle` / `|Learning` keeps it out of the technique key space, which
         # is bare display names — two libraries authoring "Base" would otherwise share a slot.
         key = f"{name}|{cat}"
@@ -2211,7 +2277,9 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 f"one in content/ — there is no baseline to add it to, by design."
             )
         dossiers[key] = dict(body, cat=cat, name=name, url=f"/{page}",
-                             glue=glue, related=related, unresolved=unresolved)
+                             glue=glue, related=related, unresolved=unresolved,
+                             applicability=applicability.get("rationale", "") if applicability else "",
+                             evidence={"terms": applicability.get("terms", []), "matches": sorted(evidence.items())} if applicability else {})
         concepts.append({
             "id": page,
             "key": key,
@@ -2223,7 +2291,9 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 x for x in ((data.get("application_level") or "").strip(),
                             (data.get("complexity_level") or "").strip(),
                             (data.get("category") or "").strip()) if x), 60),
-            "nodes": sorted(set(nodes)),
+            "nodes": [] if applicability else sorted(set(nodes)),
+            **({"nodeMask": format(sum(1 << ordinals[nid] for nid in set(nodes)), "x")} if applicability and not all_nodes else {}),
+            **({"allNodes": True} if all_nodes else {}),
             "unresolved": unresolved,
         })
 
@@ -2245,7 +2315,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 "count": len(concepts),
                 "principles": sum(1 for c in concepts if c["cat"] == "Principle"),
                 "learning": sum(1 for c in concepts if c["cat"] == "Learning"),
-                "nodes": sum(len(c["nodes"]) for c in concepts),
+                "nodes": sum(len(node_ids) if c.get("allNodes") else (int(c["nodeMask"], 16).bit_count() if "nodeMask" in c else len(c["nodes"])) for c in concepts),
                 "unresolved": sum(len(c["unresolved"]) for c in concepts),
                 "related": sum(len(d["related"]) for d in dossiers.values()),
                 "nonGraphRefs": non_graph,
@@ -2255,7 +2325,8 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 "mdOnly": md_only,
                 "mdOnlyPages": md_missing,
                 "note": "Generated by scripts/regenerate_neural_data.py from content/Principles/*.json "
-                        "+ content/Learning/*.json; `nodes` are graph-data.json ids and `key` "
+                        "+ content/Learning/*.json; nodes are graph ids, nodeMask is a hex bitset of permanent share ordinals, "
+                        "allNodes covers every graph site, and key "
                         "addresses the concept's dossier in the content/ chunk space. mdOnlyPages "
                         "are authored .md with no .json beside them: no structured body to emit.",
             },

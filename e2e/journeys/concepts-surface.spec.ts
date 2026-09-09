@@ -68,6 +68,8 @@ type Concept = {
   name: string;
   cat: "Principle" | "Learning";
   nodes: string[];
+  allNodes?: boolean;
+  nodeMask?: string;
 };
 
 // The SERVED copy is what the app fetches; the emitted copy is what the build will serve next.
@@ -94,6 +96,34 @@ const payload = () => {
       throw new Error(
         "concepts.json is not emitted — run `npm run regenerate:neural`",
       );
+    const lock = JSON.parse(
+      readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8"),
+    ).ordinals;
+    const graph = JSON.parse(
+      readFileSync(
+        resolve(__dirname, "../../source/quartz/static/neural/graph-data.json"),
+        "utf8",
+      ),
+    );
+    // The wire explicitly retires control-position aliases from the drawn graph.
+    const live = graph.nodes
+      .filter((n: any) => !n.cal?.stateAlias && n.cal?.avail?.gi !== false)
+      .map((n: any) => n.id);
+    const playable = new Set(live);
+    const ids = new Map(
+      Object.entries(lock).map(([id, ordinal]) => [ordinal, id]),
+    );
+    for (const c of PAYLOAD!.concepts) {
+      if (c.allNodes) c.nodes = live;
+      else if (c.nodeMask)
+        c.nodes = [...ids]
+          .filter(
+            ([o]) =>
+              (BigInt("0x" + c.nodeMask!) & (1n << BigInt(o as number))) !== 0n,
+          )
+          .map(([, id]) => id)
+          .filter((id) => playable.has(id));
+    }
   }
   return PAYLOAD;
 };
@@ -188,9 +218,9 @@ const litIds = (page: Page): Promise<string[] | null> =>
     const a = (window as any).__neural;
     const set = a._focusIdxSet;
     return set
-      ? Array.from(set)
-          .map((i: any) => a.nodes[i].id)
-          .sort()
+      ? Array.from(
+          new Set(Array.from(set).map((i: any) => a.siteIdOf(a.nodes[i].id))),
+        ).sort()
       : null;
   });
 
@@ -261,7 +291,10 @@ test("Explore lists every authored principle, and opening one opens content — 
     "and the section header counts what it lists",
   ).toContain(String(principles.length));
   const searchRow = page.locator(".ng-explorer-tools");
-  await expect(searchRow, "the Explore root carries the search row").toBeVisible();
+  await expect(
+    searchRow,
+    "the Explore root carries the search row",
+  ).toBeVisible();
 
   // MOUSE REACHABILITY is claimed only where a real mouse can reach: the first row, at the top of
   // a freshly expanded section. The content claims below use the widest concept (chosen from the
@@ -308,7 +341,10 @@ test("Explore lists every authored principle, and opening one opens content — 
   // back out, then the widest concept: the strongest highlight and content claim
   await page.locator("[data-concept-back]").click();
   await expect(rows).toHaveCount(principles.length);
-  await expect(searchRow, "‹ Back restores the Explore root's search row").toBeVisible();
+  await expect(
+    searchRow,
+    "‹ Back restores the Explore root's search row",
+  ).toBeVisible();
 
   const target = [...principles].sort(
     (a, b) => b.nodes.length - a.nodes.length,
@@ -342,7 +378,7 @@ test("Explore lists every authored principle, and opening one opens content — 
   await expect(
     page.locator("[data-concept-node]"),
     "and they are readable as a list too",
-  ).toHaveCount(target.nodes.length);
+  ).toHaveCount(Math.min(60, target.nodes.length));
   await expect(
     page.locator(`[data-concept-page][href="${"/" + target.id}"]`),
     "the full authored page is one click away",
@@ -380,9 +416,10 @@ test("Explore lists every authored principle, and opening one opens content — 
   expect(landed.paneOpen, "and hands the graph back").toBe(false);
   // ...and the address bar followed the technique too (`rollFromPosition` -> `_syncUrl`: the
   // CHOSEN node, never its origin).
-  await expect(page, "a technique row pushes the technique's own path").toHaveURL(
-    pathRe(clickedId!),
-  );
+  await expect(
+    page,
+    "a technique row pushes the technique's own path",
+  ).toHaveURL(pathRe(clickedId!));
   // Back is Quartz's: the SPA router soft-navigates on every popstate and the app reboots on the
   // previous address — so the URL unwinds to the page, and the page re-opens from its path the
   // way an arrival does (the arrival journeys below own what that boot shows).
@@ -597,3 +634,83 @@ test("arriving on a System's own page opens it and starts NOTHING", async ({
 
   expect(errors, "no page error across the journey").toEqual([]);
 });
+
+for (const viewport of [
+  { width: 1440, height: 900 },
+  { width: 390, height: 844 },
+]) {
+  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px @curated`, async ({
+    page,
+  }) => {
+    await page.setViewportSize(viewport);
+    const j = journey(page);
+    await j.boot("/Principles/Compression-Locks");
+    await expect(
+      page.locator('[data-principle-coverage="specific"]'),
+    ).toBeVisible();
+    await j.advance(10000); // beyond the intro AND the camera lease
+    const result = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const sites = a.nodes.filter((n: any) => n.rep && a.rsAllowsIdx(n.idx));
+      const panel = a.drillRef.current;
+      const origin = a.wrapRef.current.getBoundingClientRect();
+      const obscured: string[] = [];
+      const offscreen = sites
+        .filter((n: any) => {
+          const x = a.W / 2 + ((n.x - a.cam.cx) * a.W) / a.cam.vw;
+          const y = a.H / 2 + ((a._LY(n) - a.cam.cy) * a.W) / a.cam.vw;
+          const hit = document.elementFromPoint(
+            origin.left + x,
+            origin.top + y,
+          );
+          if (hit && panel.contains(hit)) obscured.push(n.id);
+          return x < 0 || x > a.W || y < 0 || y > a.H;
+        })
+        .map((n: any) => n.id);
+      const lit = Array.from(a._focusIdxSet) as number[];
+      return {
+        offscreen,
+        obscured,
+        sites: sites.length,
+        lit: lit.length,
+        missingTwins: lit.filter(
+          (i) => !a._focusIdxSet.has(a._idIndex.get(a.nodes[i].pairId)),
+        ),
+        roles: [...new Set(lit.map((i) => a.nodes[i].role))].sort(),
+        staged: a._staged != null,
+      };
+    });
+    expect(result.sites).toBeGreaterThan(1000);
+    expect(result.offscreen).toEqual([]);
+    expect(
+      result.obscured,
+      "the reading pane must not cover graph nodes",
+    ).toEqual([]);
+    expect(result.lit).toBeGreaterThan(20);
+    expect(result.missingTwins).toEqual([]);
+    expect(result.roles).toEqual(["attacker", "bottom", "defender", "top"]);
+    expect(result.staged).toBe(false);
+    await expect(page.locator("[data-concept-node]")).toHaveCount(60);
+    const more = page.locator("[data-concept-more]");
+    await more.scrollIntoViewIfNeeded();
+    const rect = await more.boundingBox();
+    expect(rect).toBeTruthy();
+    const scrollBefore = await page
+      .locator(".ng-learning-list")
+      .evaluate((el) => el.scrollTop);
+    await j.clickByMouse("[data-concept-more]");
+    expect(
+      await page.locator(".ng-learning-list").evaluate((el) => el.scrollTop),
+    ).toBeCloseTo(scrollBefore, 0);
+    await expect(page.locator("[data-concept-node]")).toHaveCount(
+      Math.min(120, result.lit / 2),
+    );
+    expect(
+      await page.evaluate(() => (window as any).__neural._focusIdxSet.size),
+    ).toBe(result.lit);
+    await page.locator("[data-concept-back]").scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-concept-back]");
+    await expect(page.locator("[data-principle-view]")).toHaveCount(0);
+    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+  });
+}

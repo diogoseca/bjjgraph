@@ -4,7 +4,7 @@
 
 ---
 title: "Posture | BJJ Principle | BJJ Graph"
-description: "Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications."
+description: "Use posture in BJJ to align your head, spine, and hips from either role. Learn to preserve your own alignment and disrupt it during guard play, passing, and submissions."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture",
-  "description": "Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.",
+  "description": "Use posture in BJJ to align your head, spine, and hips from either role. Learn to preserve your own alignment and disrupt it during guard play, passing, and submissions.",
   "url": "https://bjjgraph.org/Principles/Posture",
   "isPartOf": {
     "@type": "WebSite",
@@ -148,7 +148,7 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posture",
-  "description": "Posture is the spinal and head alignment that lets a top player generate pressure, pass, and defend submissions; breaking an opponent's posture is the primary offensive priority from every guard.",
+  "description": "Posture is the alignment of the head, spine, and pelvis that supports effective movement and force transfer. Both players preserve or recover their own posture while disrupting the opponent’s, whether standing, playing guard, passing, escaping, or exchanging submissions.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -216,9 +216,9 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 
 ## What is Posture?
 
-**Posture is the spinal and head alignment that lets a top player generate pressure, pass, and defend submissions; breaking an opponent's posture is the primary offensive priority from every guard.**
+**Posture is the alignment of the head, spine, and pelvis that supports effective movement and force transfer. Both players preserve or recover their own posture while disrupting the opponent’s, whether standing, playing guard, passing, escaping, or exchanging submissions.**
 
-Posture represents the fundamental skill of disrupting an opponent's spinal alignment and structural stability from guard positions to create offensive opportunities and prevent defensive capability. Unlike specific techniques, posture breaking is a comprehensive conceptual framework that applies across all guard variations and directly determines success in bottom positions. This concept encompasses the biomechanical understanding that an opponent with broken posture cannot effectively generate passing pressure, defend submissions, or maintain base, making posture breaking the primary offensive priority from guard. Posture breaking serves as both an offensive prerequisite that enables sweeps and submissions, and a defensive mechanism that prevents guard passing by eliminating opponent's pressure capability. The ability to consistently break and maintain broken posture often determines success from guard positions, making it one of the most essential conceptual elements in bottom game development.
+Posture connects the head, spine, and pelvis into a shape that supports the task at hand. It is not simply sitting upright inside closed guard: a bottom player needs posture to frame, turn, and recover guard, while a top player needs it to transmit pressure without overreaching. In standing exchanges, posture supports balance and makes grips useful. During submissions, both attacker and defender manage spinal and hip alignment to preserve control or recover movement. Effective posture changes with the position; staying rigid or insisting on a vertical spine can make movement harder. Ask whether your current alignment lets you direct force and move safely, then disrupt the opponent’s ability to do the same.
 
 </section>
 
@@ -261,15 +261,13 @@ Posture represents the fundamental skill of disrupting an opponent's spinal alig
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Control opponent's head to disrupt spinal alignment and prevent postural recovery
-- Use grips to create mechanical advantage that prevents opponent from posturing up
-- Generate hip movement to create angles that compromise opponent's base and posture
-- Apply pulling pressure toward your center to break opponent's vertical alignment
-- Combine multiple grip and control points to make postural recovery difficult
-- Recognize optimal timing windows when opponent's posture is vulnerable
-- Maintain constant pressure preventing posture re-establishment between attacks
-- Coordinate posture breaking with immediate offensive action to capitalize on vulnerability
-- Understand that opponent's primary defensive goal is postural maintenance
+- Preserve useful head, spine, and pelvis alignment from top, bottom, attacking, and defending roles
+- Adapt posture to the task instead of insisting on an upright or rigid spine in every position
+- Coordinate posture with base and limb structure so movement and force transfer remain available
+- Use grips and angles to disrupt the opponent’s alignment before advancing control
+- Recover your own alignment when pressure or a grip prevents effective movement
+- Read the opponent’s recovery: rising posture can open hip-bump attacks while forward posture can expose other routes
+- Reassess both players’ posture during transitions and submission exchanges
 
 
 </section>
@@ -448,6 +446,7 @@ Systematic rotation through closed guard, open guard, spider, DLR, butterfly, an
 - **[[Levers]]** (Prerequisite): Understanding leverage enables efficient posture breaking using optimal mechanical advantage rather than strength. Proper leverage application allows smaller practitioners to break posture of larger opponents. Leverage principles inform grip selection and pulling vector optimization.
 - **[[Defensive Concepts]]** (Complementary): Defensive concepts and posture breaking work together as integrated guard systems. Effective posture breaking serves as a primary defensive mechanism by eliminating opponent's passing pressure before it develops. Strong posture breaking fundamentally improves overall guard retention capability.
 - **[[Frames]]** (Complementary): Defensive frames in open guard work synergistically with posture breaking by preventing opponent from establishing strong passing positions. Frames create distance while posture breaking eliminates pressure. Combined application of framing and posture disruption creates comprehensive guard control.
+- **[[Alignment]]** (Complementary): Posture works with base and limb structure to preserve effective movement for either player.
 
 
 ### Related Content
@@ -456,13 +455,14 @@ Systematic rotation through closed guard, open guard, spider, DLR, butterfly, an
 - [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Open guard position where hook and collar combination creates powerful posture breaking capability
 - [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Guard type utilizing underhooks and hooks for explosive posture breaking mechanics
 - [[Positions/Half Guard|Half Guard]] (Position) - Position where underhook-based posture breaking prevents flattening and creates sweep opportunities
-- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Classic sweep from closed guard that requires broken posture as prerequisite for execution
+- [[Transitions/Hip Bump Sweep|Hip Bump Sweep]] (Transition) - Often attacks an opponent who sits or postures upright; posture changes create different sweep opportunities rather than every sweep requiring a forward posture break.
 - [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) - Fundamental sweep requiring opponent's broken posture to prevent them from posting and defending
 - [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Primary submission from guard that requires sustained broken posture for successful entry and finish
 - [[Principles/Grips|Grips]] (Principle) - Complementary concept determining which grips provide optimal posture breaking capability
 - [[Principles/Base|Base]] (Principle) - Understanding opponent's base requirements reveals vulnerabilities to exploit through posture breaking
 - [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Posture breaking serves as primary guard defense mechanism by eliminating opponent's passing pressure
 - [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Works synergistically with posture breaking to exploit opponent's predictable recovery responses from guard
+- [[Principles/Alignment|Alignment]] (Principle) - Posture works with base and limb structure to preserve effective movement for either player.
 
 
 </section>

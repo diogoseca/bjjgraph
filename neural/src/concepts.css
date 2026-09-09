@@ -159,3 +159,29 @@
   font-size: 11px;
   line-height: 1.45;
 }
+
+/* On a phone a principle is read alongside its graph. The marker is removed by clearFocus
+   and when another library opens, so the ordinary Explore and study panes retain their layout. */
+@media (max-width: 640px) {
+  .ng-drill[data-principle-view] {
+    top: 42% !important;
+    width: 100% !important;
+    max-width: none !important;
+    border-top: 1px solid rgba(130, 150, 190, 0.3);
+    border-radius: 16px 16px 0 0;
+  }
+  .ng-drill[data-principle-view] .ng-learning-nav,
+  .ng-drill[data-principle-view] .ng-pane-stats,
+  .ng-drill[data-principle-view] .ng-pane-anchor,
+  .ng-drill[data-principle-view] .ng-pane-feedback {
+    display: none !important;
+  }
+  .ng-drill[data-principle-view] .ng-explorer-close {
+    top: 4px;
+    right: 8px;
+  }
+  .ng-drill[data-principle-view] .ng-learning-list {
+    min-height: 0;
+    padding-top: 12px !important;
+  }
+}

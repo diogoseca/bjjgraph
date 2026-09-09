@@ -1,0 +1,260 @@
+{
+  "name": "Alignment",
+  "description": "Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent’s across positions, transitions, and submissions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "summary": "Alignment coordinates base, posture, and limb structure so you can direct force and move effectively. Preserve or recover your own alignment while disrupting the opponent’s, regardless of position or role.",
+  "overview": "Alignment brings base, posture, and structure together into one practical question: can you move and direct force toward your goal without giving the opponent easy control? A recognizable position does not guarantee useful alignment. You can be on top but off balance, or underneath with strong frames and a clear route to recovery. During a transition, the relationship between your support points, spine, and limbs matters more than holding a fixed shape. During a submission exchange, the attacker tries to separate these supports while the defender reconnects them. Assess both players before committing, and improve the missing part instead of compensating with more effort.",
+  "key_principles": [
+    "Maintain support points that let you resist and generate force",
+    "Keep head, spine, and pelvis organized for the intended movement",
+    "Connect limbs to your torso rather than reaching without support",
+    "Disrupt the opponent’s alignment before demanding a large movement",
+    "Reassess alignment while changing grips and positions",
+    "Recover structure and posture before escalating effort"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Assess base",
+      "description": "Locate the support points that let you move without collapsing or overcommitting."
+    },
+    {
+      "skill_name": "Assess posture",
+      "description": "Check whether your head, spine, and hips support the direction you intend to move."
+    },
+    {
+      "skill_name": "Assess structure",
+      "description": "Identify unsupported limbs and reconnect them to useful frames or control points."
+    },
+    {
+      "skill_name": "Read the opponent",
+      "description": "Notice which of the opponent’s base, posture, or limb structure is easiest to disrupt."
+    },
+    {
+      "skill_name": "Recover under load",
+      "description": "Restore one useful support at a time while preserving the others under pressure."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Base",
+      "relationship_type": "Complementary",
+      "description": "Base supports the mechanics described in Alignment; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Posture",
+      "relationship_type": "Complementary",
+      "description": "Posture supports the mechanics described in Alignment; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Structure",
+      "relationship_type": "Complementary",
+      "description": "Structure supports the mechanics described in Alignment; apply both when assessing each player’s control and recovery options."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Standing",
+      "how_applied": "Move the opponent beyond a useful support point before committing to a takedown."
+    },
+    {
+      "context": "Guard",
+      "how_applied": "Keep frames connected to the hips while disrupting the passer’s posture."
+    },
+    {
+      "context": "Passing and pins",
+      "how_applied": "Direct weight through stable supports without reaching past your base."
+    },
+    {
+      "context": "Escapes",
+      "how_applied": "Restore a frame and useful spinal alignment before turning into space."
+    },
+    {
+      "context": "Submissions",
+      "how_applied": "Control alignment around the target; on defense, reconnect the limb and recover movement."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "What is the immediate objective?",
+      "action": "Maintain support points that let you resist and generate force"
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Which support is useful?",
+      "action": "Keep head, spine, and pelvis organized for the intended movement"
+    },
+    {
+      "step_number": 3,
+      "decision_point": "What can the opponent recover?",
+      "action": "Connect limbs to your torso rather than reaching without support"
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Can you act without losing structure?",
+      "action": "Disrupt the opponent’s alignment before demanding a large movement"
+    },
+    {
+      "step_number": 5,
+      "decision_point": "How did the opponent respond?",
+      "action": "Reassess alignment while changing grips and positions"
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Is the next action controlled?",
+      "action": "Recover structure and posture before escalating effort"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Trusting the position name",
+      "consequence": "A top position can still be mechanically weak.",
+      "correction": "Check support, spine, and limbs before advancing."
+    },
+    {
+      "error": "Staying rigid",
+      "consequence": "A fixed shape prevents adaptation.",
+      "correction": "Adjust alignment as the force direction changes."
+    },
+    {
+      "error": "Reaching without support",
+      "consequence": "The opponent can separate the limb from the torso.",
+      "correction": "Move your base before extending your reach."
+    },
+    {
+      "error": "Fixing only one element",
+      "consequence": "Strong frames fail if posture or base collapses.",
+      "correction": "Check all three elements together."
+    },
+    {
+      "error": "Using effort to hide a gap",
+      "consequence": "Fatigue increases without restoring control.",
+      "correction": "Recover the missing support before adding force."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Three-part check",
+      "description": "Pause a cooperative exchange and identify each player’s base, posture, and structure.",
+      "focus": "Recognition"
+    },
+    {
+      "approach_name": "One missing support",
+      "description": "Begin with one compromised support and recover it against light resistance.",
+      "focus": "Recovery"
+    },
+    {
+      "approach_name": "Transition checkpoint",
+      "description": "Change positions slowly and pause when alignment deteriorates.",
+      "focus": "Continuity"
+    },
+    {
+      "approach_name": "Constraint round",
+      "description": "Score a point for disrupting alignment and stabilizing before advancing.",
+      "focus": "Application"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Names the relevant supports in a paused exchange",
+        "Demonstrates the principle with a cooperative partner",
+        "Recognizes when control is lost and resets"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Uses the principle against light resistance",
+        "Explains both the attacking and defensive application",
+        "Recovers the relevant structure after one disruption"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Maintains the principle through changing positions",
+        "Adapts when the opponent blocks the first route",
+        "Combines the principle with timing and angle changes"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Diagnoses subtle failures under varied resistance",
+        "Chooses when to release or replace a connection",
+        "Teaches the principle using examples from multiple roles"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Apply Alignment when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Apply Alignment when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "Apply Alignment when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Alignment across roles."
+    },
+    {
+      "name": "Posture",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Alignment across roles."
+    },
+    {
+      "name": "Structure",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Alignment across roles."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How does Alignment apply in standing?",
+      "answer": "Move the opponent beyond a useful support point before committing to a takedown. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Alignment apply in guard?",
+      "answer": "Keep frames connected to the hips while disrupting the passer’s posture. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Alignment apply in passing and pins?",
+      "answer": "Direct weight through stable supports without reaching past your base. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Alignment apply in escapes?",
+      "answer": "Restore a frame and useful spinal alignment before turning into space. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Alignment apply in submissions?",
+      "answer": "Control alignment around the target; on defense, reconnect the limb and recover movement. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "What is Alignment?",
+      "answer": "Alignment coordinates base, posture, and limb structure so you can direct force and move effectively. Preserve or recover your own alignment while disrupting the opponent’s, regardless of position or role."
+    }
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Base, posture, and structure affect how both players perform, prevent, and recover from every graph position, transition, and submission."
+  }
+}

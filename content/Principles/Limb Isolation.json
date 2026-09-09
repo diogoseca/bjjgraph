@@ -1,0 +1,260 @@
+{
+  "name": "Limb Isolation",
+  "description": "Understand limb isolation in BJJ: separate a target from its supporting structures, deny reconnection, and apply the same ideas to passing, escapes, and submissions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "summary": "Limb Isolation separates an arm or leg from the supports that make it strong. Control the nearby joint and deny reconnection to create attacks; restore those connections to defend, recover guard, or escape.",
+  "overview": "An arm or leg is harder to control when it can recruit the torso, the opposite limb, and useful contact with the mat. Limb isolation reduces that support so a smaller part of the opponent must deal with more of your body. It is useful well before a submission: controlling one leg can open a guard pass, and removing one arm’s posting ability can enable a sweep. Isolation requires control of the joints and space around the target, not just a tight grip at its endpoint. The defender works on the same problem in reverse by reconnecting the elbow or knee, changing orientation, or rebuilding a support. Maintain your own balance throughout and release an attack when safe control is lost.",
+  "key_principles": [
+    "Choose a target whose support can realistically be removed",
+    "Control the joint near the torso as well as the limb’s endpoint",
+    "Use multiple parts of your body to control one target",
+    "Deny reconnection before advancing the attack",
+    "Maintain your own base while separating the limb",
+    "Defend by rebuilding support and orientation before forcing withdrawal"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Find supporting connections",
+      "description": "Identify how the target uses the torso, opposite limb, and mat for support."
+    },
+    {
+      "skill_name": "Control the proximal joint",
+      "description": "Manage the shoulder or hip so endpoint control cannot simply be rotated away."
+    },
+    {
+      "skill_name": "Separate without reaching",
+      "description": "Move your body to isolate the target while keeping your own base and structure."
+    },
+    {
+      "skill_name": "Deny reconnection",
+      "description": "Use a stable barrier to prevent the elbow or knee returning to its useful support."
+    },
+    {
+      "skill_name": "Recover the target",
+      "description": "Coordinate grip clearing and body movement to reconnect an isolated limb safely."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Complementary",
+      "description": "Connection Principles supports the mechanics described in Limb Isolation; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Control Point Hierarchy supports the mechanics described in Limb Isolation; apply both when assessing each player’s control and recovery options."
+    },
+    {
+      "principle_name": "Levers",
+      "relationship_type": "Complementary",
+      "description": "Levers supports the mechanics described in Limb Isolation; apply both when assessing each player’s control and recovery options."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Guard passing",
+      "how_applied": "Separate one leg from the other so the knees cannot track the passer together."
+    },
+    {
+      "context": "Sweeps",
+      "how_applied": "Occupy or isolate a posting arm while redirecting the opponent’s balance."
+    },
+    {
+      "context": "Pins",
+      "how_applied": "Separate an elbow from the ribs to weaken frames and expose control routes."
+    },
+    {
+      "context": "Joint submissions",
+      "how_applied": "Control the shoulder or hip and prevent the target reconnecting before finishing."
+    },
+    {
+      "context": "Submission defense",
+      "how_applied": "Restore supporting connections and joint orientation before trying to pull free."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "What is the immediate objective?",
+      "action": "Choose a target whose support can realistically be removed"
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Which support is useful?",
+      "action": "Control the joint near the torso as well as the limb’s endpoint"
+    },
+    {
+      "step_number": 3,
+      "decision_point": "What can the opponent recover?",
+      "action": "Use multiple parts of your body to control one target"
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Can you act without losing structure?",
+      "action": "Deny reconnection before advancing the attack"
+    },
+    {
+      "step_number": 5,
+      "decision_point": "How did the opponent respond?",
+      "action": "Maintain your own base while separating the limb"
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Is the next action controlled?",
+      "action": "Defend by rebuilding support and orientation before forcing withdrawal"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Pulling only the hand or foot",
+      "consequence": "The opponent can move their whole body behind the grip.",
+      "correction": "Control the shoulder or hip as well."
+    },
+    {
+      "error": "Separating without stabilizing",
+      "consequence": "The target reconnects during your next movement.",
+      "correction": "Block the recovery route before advancing."
+    },
+    {
+      "error": "Sacrificing your own base",
+      "consequence": "The opponent can sweep or reverse while you reach.",
+      "correction": "Move your supports closer to the target."
+    },
+    {
+      "error": "Squeezing continuously",
+      "consequence": "Effort increases without reducing the opponent’s options.",
+      "correction": "Improve the position of your barriers."
+    },
+    {
+      "error": "Forcing a trapped limb free",
+      "consequence": "Withdrawal may load the joint further.",
+      "correction": "Address the control and orientation first; tap when needed."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Support inventory",
+      "description": "Identify which contacts make a partner’s arm or leg difficult to isolate.",
+      "focus": "Recognition"
+    },
+    {
+      "approach_name": "Reconnection game",
+      "description": "One partner separates an elbow from the ribs while the other tries to reconnect.",
+      "focus": "Arm control"
+    },
+    {
+      "approach_name": "Single-leg passing game",
+      "description": "Control one leg while the guard player tries to bring both knees back in front.",
+      "focus": "Leg control"
+    },
+    {
+      "approach_name": "Catch and release",
+      "description": "Establish a controlled submission position, then release without applying finishing force.",
+      "focus": "Safe control"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Names the relevant supports in a paused exchange",
+        "Demonstrates the principle with a cooperative partner",
+        "Recognizes when control is lost and resets"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Uses the principle against light resistance",
+        "Explains both the attacking and defensive application",
+        "Recovers the relevant structure after one disruption"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Maintains the principle through changing positions",
+        "Adapts when the opponent blocks the first route",
+        "Combines the principle with timing and angle changes"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Diagnoses subtle failures under varied resistance",
+        "Chooses when to release or replace a connection",
+        "Teaches the principle using examples from multiple roles"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "Apply Limb Isolation when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Kimura",
+      "content_type": "Submission",
+      "relationship": "Apply Limb Isolation when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Kneebar",
+      "content_type": "Submission",
+      "relationship": "Apply Limb Isolation when establishing this control and when defending or recovering from it."
+    },
+    {
+      "name": "Connection Principles",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Limb Isolation across roles."
+    },
+    {
+      "name": "Control Point Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Limb Isolation across roles."
+    },
+    {
+      "name": "Levers",
+      "content_type": "Principle",
+      "relationship": "Complementary framework for applying Limb Isolation across roles."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How does Limb Isolation apply in guard passing?",
+      "answer": "Separate one leg from the other so the knees cannot track the passer together. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Limb Isolation apply in sweeps?",
+      "answer": "Occupy or isolate a posting arm while redirecting the opponent’s balance. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Limb Isolation apply in pins?",
+      "answer": "Separate an elbow from the ribs to weaken frames and expose control routes. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Limb Isolation apply in joint submissions?",
+      "answer": "Control the shoulder or hip and prevent the target reconnecting before finishing. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "How does Limb Isolation apply in submission defense?",
+      "answer": "Restore supporting connections and joint orientation before trying to pull free. Assess both players and maintain controlled movement as the exchange changes."
+    },
+    {
+      "question": "What is Limb Isolation?",
+      "answer": "Limb Isolation separates an arm or leg from the supports that make it strong. Control the nearby joint and deny reconnection to create attacks; restore those connections to defend, recover guard, or escape."
+    }
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Separating or reconnecting limbs affects frames, posts, grips, passes, sweeps, pins, and submissions from either side of every exchange."
+  }
+}

@@ -461,6 +461,7 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 - **[[Pressure]]** (Complementary): Understanding how opponents apply pressure through weight distribution and body positioning directly informs effective frame placement. Knowing where pressure originates enables practitioners to position frames that redirect force along optimal angles.
 - **[[Posture]]** (Extension): From guard positions, Frames extends into Posture by using frames against the opponent's shoulders, head, and collar to prevent posture recovery and maintain the distance control necessary for guard retention and attacks.
 - **[[Maximum Efficiency Principle]]** (Prerequisite): Understanding Maximum Efficiency Principle is essential for effective Frames, as optimal framing relies on achieving maximum defensive output with minimum energy expenditure through proper skeletal alignment and force distribution.
+- **[[Elbow-Knee Connection]]** (Complementary): Coordinating upper-body frames with the knees protects the route to the torso.
 
 
 ### Related Content
@@ -476,6 +477,7 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 - [[Principles/Levers|Levers]] (Principle) - Foundational concept underlying effective frame creation through skeletal alignment and mechanical advantage
 - [[Principles/Base|Base]] (Principle) - Inverse application of similar biomechanical principles used in framing, applied to maintaining top positions
 - [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Frames serves as a core component of escape fundamentals, providing the initial space for movement
+- [[Principles/Elbow-Knee Connection|Elbow-Knee Connection]] (Principle) - Coordinating upper-body frames with the knees protects the route to the torso.
 
 
 </section>

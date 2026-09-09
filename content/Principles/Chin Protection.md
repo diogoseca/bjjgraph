@@ -148,7 +148,7 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Chin Protection",
-  "description": "Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.",
+  "description": "Chin Protection uses head and shoulder positioning to make neck access harder while the hands address grips and the body works toward escape. It is one defensive layer, not a reliable escape from an established choke, and applies to both preventing access and recognizing it as an attacker.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -216,7 +216,7 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 
 ## What is Chin Protection?
 
-**Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.**
+**Chin Protection uses head and shoulder positioning to make neck access harder while the hands address grips and the body works toward escape. It is one defensive layer, not a reliable escape from an established choke, and applies to both preventing access and recognizing it as an attacker.**
 
 Chin Protection represents the fundamental defensive principle of maintaining proper head and neck positioning to eliminate available space for opponent's choking attacks, particularly in back control and front headlock scenarios. Unlike active defensive techniques that require complex technical execution, chin protection is a constant postural discipline that creates structural barriers preventing opponent's arms from accessing the neck's vulnerable surfaces. This concept encompasses the biomechanical understanding of neck protection, head positioning strategies, shoulder coordination, and the integration of chin protection with other defensive elements to create comprehensive submission defense. Chin protection serves as both the first line of defense against choking attacks by denying opponent access to required anatomical targets, and as a foundational element supporting all other defensive techniques by maintaining defensive structural integrity. The ability to maintain proper chin protection reflexively, even under pressure and during transitional movements, often represents the difference between surviving dangerous positions and succumbing to high-percentage submissions, making it one of the most essential fundamental concepts for all BJJ practitioners.
 
@@ -261,7 +261,7 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Keep chin tucked toward chest at all times when under choking threat or in vulnerable positions
+- Use chin position as one layer of neck protection alongside hand fighting, grip control, and positional recovery
 - Maintain neck alignment with chin pulled down rather than extending upward which exposes throat
 - Elevate shoulders toward ears to create additional protective barrier around neck's lateral surfaces
 - Apply downward head pressure against opponent's attacking arm to restrict depth advancement
@@ -269,7 +269,7 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 - Maintain chin protection throughout all defensive movements and escape attempts
 - Position head defensively before opponent establishes strong grips or controlling positions
 - Breathe deliberately despite chin tuck to prevent panic and maintain defensive composure
-- Create layered defense with chin protection as structural foundation supporting active hand fighting
+- Do not treat a tucked chin as a guarantee of safety or a reason to remain in an established submission
 
 
 </section>

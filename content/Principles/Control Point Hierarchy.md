@@ -441,6 +441,7 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - **[[Defensive Concepts]]** (Complementary): Defensive Concepts from bottom positions apply hierarchical understanding to prevent opponent's control point acquisition during guard passing and top pressure attempts
 - **[[Inside Position]]** (Extension): Inside Position governs the grip and angle battle that establishes and maintains the control points identified by the hierarchy as high-value
 - **[[Base]]** (Prerequisite): Base provides the foundational stability required to establish and maintain control points without being swept or reversed
+- **[[Limb Isolation]]** (Complementary): Control near the shoulder or hip limits how an isolated limb can reconnect or rotate free.
 
 
 ### Related Content
@@ -456,6 +457,7 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - [[Positions/Half Guard|Half Guard]] (Position) - Position where underhook control represents apex of hierarchy for bottom player
 - [[Positions/Crucifix|Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
 - [[Principles/Inside Position|Inside Position]] (Principle) - Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value
+- [[Principles/Limb Isolation|Limb Isolation]] (Principle) - Control near the shoulder or hip limits how an isolated limb can reconnect or rotate free.
 
 
 </section>

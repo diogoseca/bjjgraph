@@ -519,5 +519,30 @@
       "duration": 12,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Rotational Breaks applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "rotational lock",
+      "rotational joint",
+      "twisting lock",
+      "internal rotation",
+      "external rotation",
+      "heel hook",
+      "kimura",
+      "americana",
+      "omoplata",
+      "toe hold"
+    ],
+    "families": [
+      "Kimura",
+      "Americana",
+      "Omoplata",
+      "Heel Hook",
+      "Inside Heel Hook",
+      "Outside Heel Hook",
+      "Toe Hold"
+    ]
+  }
 }

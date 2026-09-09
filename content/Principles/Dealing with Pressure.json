@@ -553,5 +553,15 @@
       "duration": 545,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Dealing with Pressure applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "pressure",
+      "flatten",
+      "smother"
+    ],
+    "families": []
+  }
 }

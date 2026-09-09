@@ -482,6 +482,7 @@ Execute hip escape repetitions while already fatigued from previous training, si
 - [[Positions/Mount|Mount]] (Position) - Common application position requiring hip escape mechanics
 - [[Positions/Side Control|Side Control]] (Position) - Primary position where hip escape mechanics are applied
 - [[Positions/Knee on Belly|Knee on Belly]] (Position) - Pressure position requiring hip escape mechanics for recovery
+- [[Principles/Elbow-Knee Connection|Elbow-Knee Connection]] (Principle) - Hip movement creates a route for the knee to reconnect behind a useful elbow frame.
 
 
 </section>
