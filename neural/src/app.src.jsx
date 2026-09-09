@@ -6614,7 +6614,16 @@ class Component extends DCLogic {
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     return live.length > 0 && live.every((l) => this.lessonDone(l.deckKey)) && !!(this.units && this.units[uk] && this.units[uk].checkpoint);
   }
-  _lessonNodeIdx(deckKey) { const e = this._lessonIndex && this._lessonIndex[deckKey]; if (!e || !this._idIndex) return -1; const i = this._idIndex.get(e.nodeId); return i == null ? -1 : i; }
+  _lessonNodeIdx(deckKey) {
+    const e = this._lessonIndex && this._lessonIndex[deckKey];
+    if (!e || !this._idIndex) return -1;
+    const i = this._idIndex.get(e.nodeId);
+    if (i == null) return -1;
+    // Curriculum IDs name the site; the deck's role chooses its graph orb.
+    const n = this.nodes[i], role = (deckKey.split("|")[1] || "").toLowerCase();
+    const partner = n && n.pi >= 0 ? this.nodes[n.pi] : null;
+    return partner && partner.role === role ? partner.idx : i;
+  }
   _maybeLessonDone(key) {
     const e = this._lessonIndex && this._lessonIndex[key];
     if (!e || !this.lessonDone(key)) return;
@@ -7690,7 +7699,7 @@ class Component extends DCLogic {
     this.track("neural_share_list_drill", { list: listId, techniques: keys.length, shared: listId === "__shared" });
   }
 
-  // ---------- add affordance (dossier, Explore rows, landing card, challenge lesson rows) ----------
+  // ---------- add affordance (dossier, Explore rows, landing card) ----------
   /**
    * The name a technique must be called by ANYWHERE a list is read: the FULL authored name,
    * qualifier included. `splitName().main` is a display shorthand for surfaces that show the

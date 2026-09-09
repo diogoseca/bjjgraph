@@ -469,19 +469,18 @@ const NG_CHALLENGE_UI_METHODS = {
           (lessonComplete
             ? '<i class="ng-lesson-check" aria-hidden="true">✓</i>'
             : "");
-        // THE ROW READS AND LOCATES; IT NEVER TAKES THE PANE OVER (v1.105.2, owner: clicking the
-        // technique "opens the technique in the left sidebar, which is really weird"). The name
-        // click = the ▸'s inline Q&A + a pane-aware camera flight to the lesson's node — ladder
-        // visible, progress visible, graph showing where you are. `openLessonStudy` (the full
-        // takeover) survives for sessions/checkpoints; it is no longer the row's verb.
+        // Navigate just like a graph click: replace the selected node and update its URL.
+        // Keep the corridor and its inline cards open while the graph stages the technique.
         button.addEventListener("click", () => {
           openMini(true); // never closes — clicking an open lesson's name focuses it, v1.105.2
           const ni = this._lessonNodeIdx(lesson.deckKey);
-          if (ni >= 0) this.locateNode(ni);
+          if (ni >= 0) {
+            this.stageRollAt(ni);
+            // Keep the pane-aware flight instead of letting the staged roll reframe it.
+            this._stagedCamFree = false;
+            this.locateNode(ni);
+          }
         });
-        // A lesson row is also a technique a coach may have covered in class, so it carries the
-        // same + affordance as Explore/dossier/landing. The button must be a SIBLING: a nested
-        // <button> closes the outer one in the HTML parser and would break the row entirely.
         const lessonIdx = this._lessonNodeIdx ? this._lessonNodeIdx(lesson.deckKey) : -1;
         const lessonNode = lessonIdx >= 0 && this.nodes ? this.nodes[lessonIdx] : null;
         // category tint: the row leans toward its node's palette color (position /
@@ -505,7 +504,7 @@ const NG_CHALLENGE_UI_METHODS = {
         lessonRow.className = "ng-challenge-lessonrow";
         lessonRow.appendChild(button);
         // inline mini deck — the History pattern on the ladder: the disclosure reveals the
-        // deck IN PLACE (no study takeover); the row itself still opens the full study
+        // deck IN PLACE (no study takeover); the row also navigates to the technique
         const deckBox = document.createElement("div");
         deckBox.className = "ng-lesson-deckbox";
         deckBox.style.display = "none";
@@ -610,9 +609,6 @@ const NG_CHALLENGE_UI_METHODS = {
         toggle.addEventListener("click", toggleMini);
 
         lessonRow.appendChild(toggle);
-        if (lessonNode) {
-          lessonRow.appendChild(this._listAddButton(lessonNode.id, "lesson"));
-        }
         lessons.appendChild(lessonRow);
         lessons.appendChild(deckBox);
         // THE ROW REGISTRY the corridor's ↑/↓ walks (challengeLessonNav), in ladder order.
