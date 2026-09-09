@@ -1,5 +1,31 @@
+# Public BJJ study content is available for search and AI answers.
+# Content Signals describe use preferences; the content licence still applies.
 User-agent: *
-Allow: /
+Content-Signal: search=yes, ai-input=yes
 Disallow: /private/
+Disallow: /dev/
+Disallow: /l/
+Disallow: /l.html
+Disallow: /l-manifest.json
+Disallow: /unsubscribe
+Disallow: /ping
+Allow: /
+
+# Search/retrieval agents share these rules, including the exclusions above.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Content-Signal: search=yes, ai-input=yes
+Disallow: /private/
+Disallow: /dev/
+Disallow: /l/
+Disallow: /l.html
+Disallow: /l-manifest.json
+Disallow: /unsubscribe
+Disallow: /ping
+Allow: /
 
 Sitemap: https://bjjgraph.org/sitemap.xml

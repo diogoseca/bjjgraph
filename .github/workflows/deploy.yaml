@@ -141,6 +141,9 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
 
+      - name: Publish agent discovery and Markdown articles
+        run: npm run regenerate:agents
+
       # Must follow the stamp: the gate treats a leftover REPLACE_ME as fatal only when
       # AFFILIATE_REF is set, so running it first would fail on a placeholder that the
       # previous step was about to replace.

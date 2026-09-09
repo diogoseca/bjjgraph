@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.179.0",
+  "version": "1.180.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -55,7 +55,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload && python3 scripts/apply_affiliate_ref.py",
+    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents",
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
     "regenerate:headers": "python3 scripts/regenerate_headers.py",
     "regenerate:llms": "python3 scripts/regenerate_llms_txt.py",
@@ -73,7 +73,9 @@
     "build:share-shell": "node scripts/build_share_shell.mjs",
     "test:units": "node --test tests/*.test.mjs",
     "e2e:share": "playwright test -c e2e/playwright.share.config.ts",
-    "e2e:replay": "playwright test -c e2e/playwright.replay.config.ts"
+    "e2e:replay": "playwright test -c e2e/playwright.replay.config.ts",
+    "regenerate:agents": "python3 scripts/regenerate_agent_discovery.py",
+    "test:agents": "node --test tests/agent_discovery.test.mjs && python3 -B tests/agent_discovery_test.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",

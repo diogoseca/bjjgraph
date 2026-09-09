@@ -19,7 +19,7 @@ Schema markup is generated automatically by Jinja2 templates during build.
 1. JSON source files contain structured data
 2. Jinja2 templates read JSON and output schema in `<script type="application/ld+json">`
 3. Quartz builds static HTML with embedded schema
-4. Google crawls and displays rich results
+4. Search engines can read the markup; eligibility and display depend on their supported features and policies.
 
 ### Example HowTo Schema
 
@@ -241,3 +241,71 @@ The daily content improvement bot (`content-improvement-bot.yml`) applies SEO en
 - [ ] Update underperforming content
 - [ ] Add internal links to new content
 - [ ] Verify schema with Rich Results Test
+
+
+## Search and AI assistant discovery
+
+The public introduction describes BJJ Graph as a free BJJ study app: remembering
+techniques after class, learning positions, exploring escapes, and connecting moves.
+It states the beta status, optional account sync, and the limits of simulated odds.
+The homepage's WebApplication entity describes the same visible features without
+invented ratings, testimonials, or instructor endorsements. `content/index.md` is
+an authored root page (it has no JSON generator); category articles remain JSON-first.
+
+`npm run regenerate:agents` runs **after Quartz and affiliate stamping** in the
+local build and both deployment workflows. It copies the canonical robots.txt to
+`source/public/robots.txt`; Quartz's Static emitter alone puts it at
+`/static/robots.txt`, which crawlers do not use. Search/retrieval bots and ordinary
+crawlers can read public content. Private, development, share, and action routes
+are excluded. `Content-Signal: search=yes, ai-input=yes` welcomes search and
+answers grounded in public content. Training permission is left unspecified;
+existing content licensing still applies.
+
+The same step reads sitemap-listed built HTML and emits `/markdown/{path}.md`,
+`/site-index.json`, `/auth.md`, `/api.md`, `/openapi.json`, and the RFC 9727
+`/.well-known/api-catalog`. It removes `noindex` pages from the sitemap. It does
+not export source JSON, drafts, private progress, or user-created share lists.
+Markdown retains article text, links, tables, and visible disclosures. Canonical
+links point to the ordinary human-facing article. The API describes anonymous
+**reading only**; it does not advertise delegated login, purchases, or writes.
+
+The Pages middleware serves Markdown on public article URLs when the request
+explicitly prefers `text/markdown` in Accept. Browser requests receive the app's
+HTML. Other Functions, including share previews and unsubscribe, pass through.
+Missing Markdown falls back to normal routing. The build derives `_routes.json`
+from public article prefixes plus existing Function routes; static assets and
+explicit Markdown downloads remain static.
+
+Both representations set `Vary: Accept`. Negotiated responses bypass the shared
+CDN cache because Cloudflare's default cache key does not include Accept; static
+article/Markdown assets still benefit from the asset cache. Normal HTML retains
+its browser cache policy. Negotiated Markdown is `private, no-store` and drops
+asset validators and encoding headers. Direct `/markdown/*` URLs are noindex;
+that header is explicitly removed from negotiated canonical URLs. Security
+headers are applied in the Function because Pages does not apply `_headers` there.
+
+Validation: `npm run test:agents` exercises actual handler responses, content
+export, crawler exclusions, links, tables, headers, and existing-route passthrough.
+The Node tests also run in `test:units`; the Python tests run in validation CI.
+After deployment, check the edge responses, not just the files on disk:
+
+```bash
+curl -i https://bjjgraph.org/robots.txt
+curl -I https://bjjgraph.org/
+curl -i -H 'Accept: text/markdown' https://bjjgraph.org/
+curl -i -H 'Accept: text/markdown' https://bjjgraph.org/Positions/Mount
+curl -i https://bjjgraph.org/.well-known/api-catalog
+curl -I https://bjjgraph.org/static/neural/app/neural.js
+```
+
+Cloudflare dashboard settings are independent of these files. Check AI Crawl
+Control and WAF challenges if a retrieval bot is still blocked, and verify any
+managed robots policy does not override these search/input preferences. The
+origin already implements Markdown negotiation; Cloudflare's automatic converter
+is optional. Re-scan agent readiness after deployment. These capabilities support
+discovery; they do not guarantee indexing, rankings, citations, or recommendations.
+
+References: [Cloudflare agent readiness](https://blog.cloudflare.com/agent-readiness/),
+[Markdown negotiation](https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/),
+[API catalog format](https://www.rfc-editor.org/rfc/rfc9727.html), and
+[Google AI search guidance](https://developers.google.com/search/docs/appearance/ai-features).

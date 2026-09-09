@@ -125,6 +125,9 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
 
+      - name: Publish agent discovery and Markdown articles
+        run: npm run regenerate:agents
+
       # Must follow the stamp — see the prod workflow for why.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
