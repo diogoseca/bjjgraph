@@ -9417,7 +9417,10 @@ class Component extends DCLogic {
     // "Your current position" at all: dismissing the card with its ✕ (v1.101.1) nulls `_landEl`,
     // so the next click on your own node fell straight through to the sheet. A dismissed card is
     // a card to REBUILD, not a reason to open a different surface.
-    if (n.ty !== "positions" || idx !== this.currentPos) {
+    // Free roam keeps currentPos as a camera anchor, but its roll and hand are gone.
+    // Returning to that same position must stage it again, just like any other node;
+    // rebuilding only the card leaves _roam latched and the choices empty.
+    if (this._roam || n.ty !== "positions" || idx !== this.currentPos) {
       // NAVIGATE TO IT (v1.132.0, owner: "when you click on a transition or on a submission, you
       // navigate to it. The URL changes to it, and the landcard is standard."). A technique lands
       // ON the technique — rollFromPosition keeps the chosen node's camera/URL/focus and seats

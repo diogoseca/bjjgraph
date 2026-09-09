@@ -864,8 +864,41 @@ test("@curated background taps: close the card, then free roam — and a node cl
     "the card is up to begin with",
   ).toBe(true)
 
+  // Drive real pointer input: calling stageRollAt directly bypasses the same-node
+  // shortcut in attachInput/openDossier, which was the broken route after free roam.
+  const clickBackground = async () => {
+    const point = await page.evaluate(() => {
+      const a: any = (window as any).__neural
+      for (let y = 100; y < a.H - 100; y += 40) {
+        for (let x = 100; x < a.W - 100; x += 40) {
+          const hit = document.elementFromPoint(x, y)
+          if (hit !== a.canvas && hit !== a.wrapRef.current) continue
+          a._updateHover({ clientX: x, clientY: y })
+          if (!a._hover) return { x, y }
+        }
+      }
+      return null
+    })
+    expect(point, "an unobstructed empty point on the graph").not.toBeNull()
+    await page.mouse.click(point!.x, point!.y)
+  }
+  const clickCurrentNode = async () => {
+    const point = await page.evaluate(() => {
+      const a: any = (window as any).__neural
+      const n = a.nodes[a.currentPos]
+      const rect = a.canvas.getBoundingClientRect()
+      const scale = a.W / a.cam.vw
+      const x = rect.left + (n.x - a.cam.cx) * scale + a.W / 2
+      const y = rect.top + (a._LY(n) - a.cam.cy) * scale + a.H / 2
+      const hit = document.elementFromPoint(x, y)
+      return { x, y, reachable: hit === a.canvas || hit === a.wrapRef.current }
+    })
+    expect(point.reachable, "the current node is reachable by mouse").toBe(true)
+    await page.mouse.click(point.x, point.y)
+  }
+
   // tap 1: the card closes, the hand stays
-  await page.evaluate(() => (window as any).__neural._tapBackground())
+  await clickBackground()
   await j.advance(300)
   const after1 = await page.evaluate(() => {
     const a: any = (window as any).__neural
@@ -876,8 +909,15 @@ test("@curated background taps: close the card, then free roam — and a node cl
   expect(after1.beats, "the dismissal is named").toContain("land_dismissed")
   expect(after1.roam).toBe(false)
 
+  // Returning after just a dismissal restores the card without ending the hand.
+  const hand = await page.evaluate(() => (window as any).__neural.optionIdxs.slice())
+  await clickCurrentNode()
+  await expect(page.locator("[data-landcard]")).toBeVisible()
+  expect(await page.evaluate(() => (window as any).__neural.optionIdxs)).toEqual(hand)
+  await clickBackground()
+
   // tap 2: free roam — tray gone, camera pulled back
-  await page.evaluate(() => (window as any).__neural._tapBackground())
+  await clickBackground()
   await j.advance(300)
   const after2 = await page.evaluate(() => {
     const a: any = (window as any).__neural
@@ -888,10 +928,7 @@ test("@curated background taps: close the card, then free roam — and a node cl
   expect(after2.beats).toContain("roam_entered")
 
   // a node click stages fresh — the surfaces come back whole
-  await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    a.stageRollAt(a.currentPos)
-  })
+  await clickCurrentNode()
   await j.advance(2000)
   const back = await page.evaluate(() => {
     const a: any = (window as any).__neural
@@ -900,6 +937,7 @@ test("@curated background taps: close the card, then free roam — and a node cl
   })
   expect(back.roam, "roam ends on a stage").toBe(false)
   expect(back.card, "the card is back").toBe(true)
+  await expect(page.locator("[data-landcard]")).toBeVisible()
   expect(back.tray, "and the hand with it").toBeGreaterThan(0)
 })
 
