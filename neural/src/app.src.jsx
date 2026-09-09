@@ -491,6 +491,8 @@ class Component extends DCLogic {
     if (list) list.querySelectorAll(".ngCurExpire").forEach((w) => { w.style.animationPlayState = p ? "paused" : "running"; });
   }
   resetRoll() {
+    // Restart is a request for a new camera flight, even immediately after a pan or click.
+    this.releaseCamera(); this.lastInteract = -99;
     this.setPaused(false);
     this.startRoll();
   }
@@ -9984,32 +9986,23 @@ class Component extends DCLogic {
   // layout and Quartz derive them from the same content files. So a node's canonical URL needs no
   // mapping table and cannot drift from the site.
   //
-  // ONLY on DELIBERATE navigation — `rollFromPosition`, i.e. a node the USER chose. A roll's own
-  // moves never touch the URL: they are gameplay, not browsing, and the site's PostHog snippet
-  // captures `$pageview` on history changes (Quartz's own SPA router navigates by pushState too),
-  // so syncing every auto-advance would multiply pageviews by the length of a roll.
-  //
-  // A `/l/<code>` arrival owns its URL — the recipient path parses `location.pathname`, and the
-  // rewrite rung depends on it — so it is never rewritten out from under itself.
+  // Deliberate browsing adds a history entry. Revealed gameplay replaces that entry so
+  // the address follows the roll without making Back walk every automatic move.
   _nodeUrlPath(idx) {
     const n = this.nodes && this.nodes[idx];
     return n && n.id ? "/" + n.id : null;
   }
-  _syncUrl(idx) {
+  _syncUrl(idx, replace = false) {
     const path = this._nodeUrlPath(idx); if (!path) return;
-    this._pushUrl(path, { ngNode: this.nodes[idx].id });
+    this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
-  // THE ONE WRITER of the address bar. Two callers, two page kinds: `_syncUrl` for a node the
-  // user chose (rollFromPosition), and openConcept/openSystem for a PAGE opened in the pane —
-  // a Principle, a Learning entry or a System is a real built page too (its id IS its path, which
-  // is what `_seedPageFromUrl` round-trips on Back/Forward and on arrival). Owner: "clicking
-  // items in the explore should change the url ... like it used to, similar to quartz".
-  _pushUrl(path, state) {
+  _pushUrl(path, state, replace = false) {
     try {
       if (/^\/l\//.test(location.pathname)) return;
-      if (location.pathname === path) return;
-      history.pushState(state, "", path + location.search);
-    } catch (e) { /* history unavailable (sandboxed iframe) — navigation is not load-bearing */ }
+      if (decodeURI(location.pathname) === path) return;
+      history[replace ? "replaceState" : "pushState"](
+        { ...history.state, ...state }, "", path + location.search);
+    } catch (e) { /* history unavailable (sandboxed iframe) */ }
   }
   /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
   _nodeForPath(path) {
@@ -11317,7 +11310,7 @@ class Component extends DCLogic {
     // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
     // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
     // get the stock instant text and .55s box fade back, not the arrival's leftovers.
-    if (box) box.style.transitionDuration = "";
+    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; }
     for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
@@ -11327,7 +11320,14 @@ class Component extends DCLogic {
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
   /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
+  _frameArrivalHeading() {
+    const box = this.evCenterRef.current; if (!box) return;
+    const band = this._landingBand();
+    box.style.top = band.top + "px";
+    box.style.bottom = ((this.H || 800) - band.bottom) + "px";
+  }
   _centerReveal(text, sub) {
+    this._frameArrivalHeading();
     for (const [el, val] of [[this.evcTextRef.current, text], [this.evcSubRef.current, sub]]) {
       if (!el) continue;
       el.textContent = val;
@@ -12596,7 +12596,7 @@ class Component extends DCLogic {
       if (filmClips && this._layerOn("film")) this._renderLandFilm(filmClips);
       this._landWarmP = null;                                   // nothing outstanding: landSettled resolves
       if (!this._landLate) this._landQSkip(key, "collapsed", mode);
-      requestAnimationFrame(() => this._dockLandFilm());
+      this._dockLandFilm();
       this._renderLayerDock();
       return null;
     }
@@ -13179,10 +13179,8 @@ class Component extends DCLogic {
     if (this._layerOn(name) === on) return false;
     this.set(NG_LAYER_KEYS[name], on);
     this.fx("land_layer", { layer: name, on: on, src: src || "api" });
-    // THE ONE `_bandBot` RESET. The band only ever tightens for the life of a viewport (§6.1 —
-    // a per-landing reset hands the loose answer straight back on the first card-without-film
-    // frame). A layer toggle is the one event that legitimately frees or takes screen, so it is
-    // the one place the cache is dropped; the next frame measures whatever is actually there.
+    // A layer toggle invalidates the cached teardown framing; the next frame measures
+    // the newly docked surfaces, including any space this toggle has freed.
     this._bandBot = null;
     this._applyLayers();
     return true;
@@ -13380,9 +13378,9 @@ class Component extends DCLogic {
     }
     // No card: the CSS constant while one is on its way, or — the card layer put away
     // (v1.171.0) — the strip sits where the card would, straight above the hand's datum.
-    // (+ `_readOffset()`: this runs a frame after the dock, through the column's own translation)
+    // Use the settled dock, excluding both the entry animation and reading translation.
     let cardTop;
-    if (c) cardTop = c.getBoundingClientRect().top + this._readOffset();
+    if (c) cardTop = H - parseFloat(getComputedStyle(c).bottom) - c.offsetHeight;
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
     const h = f.offsetHeight || 0;
@@ -13402,6 +13400,7 @@ class Component extends DCLogic {
     let bottom = Math.round(H - cardTop + 8);
     if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
     f.style.bottom = bottom + "px";
+    if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
   }
   _dockLandMore(card, tray) {
     const moreRow = this._landMoreEl;
@@ -13456,7 +13455,11 @@ class Component extends DCLogic {
     head.style.transform = dockSharesBand ? "translateX(90px)" : "";
   }
   _dockLandCard(el) {
-    if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
+    this._layoutLandCard(el);
+    this._dockLandFilm();
+    if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
+  }
+  _layoutLandCard(el) {
     if (!el) return;
     // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
     if (this._landOpen) this._readClear();
@@ -14197,24 +14200,8 @@ class Component extends DCLogic {
       this._stagedTech = { idx: chosen, side: (fr === "top" || fr === "bottom") && this.playerRole !== fr ? "defender" : "attacker" };
     }
     this.currentPos = this.nodes[chosen].ty === "submissions" ? chosen : posIdx; this.focusIdx = chosen; this.pulse = null; this.activeMove = null;
-    // SWAPPING BETWEEN TWO HALVES OF ONE STATE MOVES NOTHING. Both members of a pair share a
-    // midpoint, so the camera's subject is literally unchanged — and the right way to guarantee
-    // the owner's "the camera should move just a little" is to not touch it at all rather than to
-    // recompute the same answer from a layout that is, at this instant, mid-teardown. Chasing the
-    // band instead cost three wrong attempts: an undocked film strip reporting `top: 0`, a card
-    // back before its film, and a fallback to the whole screen — each a different wrong frame.
-    const _nextFocus = this.pairMid(this.nodes[chosen]);
-    const _sameSubject = !!this.camFocus
-      && Math.abs(this.camFocus.x - _nextFocus.x) < 1e-6
-      && Math.abs(this.camFocus.y - _nextFocus.y) < 1e-6;
-    this.camFocus = _nextFocus;
-    this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
-    // the SAME framing the settled follow-cam uses — a click that navigates must not land on a
-    // different composition than the roll does (v1.103.2)
-    // ...and aim at the PAIR (`camFocus`), not at `n.y`. This line still read the stored
-    // coordinates, which `LY` lifts a member ~37px off at roll zoom — the same "code reads `n.y`
-    // where the renderer draws `LY(n)`" defect v1.114.3 fixed in three other places.
-    if (!_sameSubject) this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
+    this.camFocus = this.pairMid(this.nodes[chosen]);
+    this.releaseCamera();
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._syncUrl(chosen);                     // the address bar follows the CHOSEN node — a
     this._lastChosenIdx = chosen;              // technique URL is never rewritten to its origin
@@ -14222,17 +14209,9 @@ class Component extends DCLogic {
     this._prefetchLandDeck(chosen);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
     if (staged) this._stagedCamFree = true;      // ...and its framing tracks until they pan
-    // HOLD THE FRAME UNTIL THE CARD IS BACK. `clearOptions()` above dropped the landing card and
-    // the film strip, and `enterLand` rebuilds them ~600ms later on DIFFERENT frames — so between
-    // here and there the layout is half-mounted and every read of it is a different wrong answer
-    // (measured on a pair swap: an undocked film strip reporting `top: 0`, then a card without its
-    // film, then the real band — the camera chasing all three). The target written on the line
-    // below is computed from the cached band and is already right; nothing after it has anything
-    // truer to say until the card exists again.
-    this._reframeHold = !!staged;
-
+    // Mount and dock before the first flight frame, so this target uses the NEW rows.
     this.flare(chosen);
-    this.after(0.6, () => {
+    {
       this.enterLand(true);
       // v1.134.0 (owner): clicking the ESCAPING orb IS choosing to be caught — the rush starts
       // now, no play button in between. The attacker side reads instead, with its own card
@@ -14254,7 +14233,8 @@ class Component extends DCLogic {
         this.setPaused(false);
         this.enterDefense(st.idx);
       }
-    }, true);
+      this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
+    }
   }
   // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
   // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
@@ -14914,7 +14894,7 @@ class Component extends DCLogic {
       this._startSpot ? "Your weak spot: " + this._startSpot.split("|")[0]
         : this._rollsBegun > 1 ? "Restarting the roll" : "Starting the roll",
       "", "", "muted", true);
-    this.focusIdx = this.currentPos; this.pulse = null;
+    this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
     this._played = false;
@@ -14922,13 +14902,16 @@ class Component extends DCLogic {
     this._arriveWideUntil = this.now + this.NG_ARRIVE_KICKER + 0.5;
     this._arriveGlideUntil = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF;
     this._arriveLabelT = this.now + this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME; // hand-off start
-    this.flare(this.currentPos);
     this.after(this.NG_ARRIVE_KICKER, () => {
-      this._arriveWide = false;   // beat 2: the follow-cam flies to the landing framing
+      this._arriveWide = false;
+      // Reveal identity, URL, highlight and measured content in the same frame.
+      this.enterLand(true, true);
       this._centerReveal(this.posFamily(this.nodes[this.currentPos].t), this.roleLabel());
     });
     this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME, () => this._centerHandoff());
-    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF, () => this.enterLand(true));
+    this.after(this.NG_ARRIVE_KICKER + this.NG_ARRIVE_NAME + this.NG_ARRIVE_HANDOFF, () => {
+      this.hideCenter(); this._endArrival();
+    });
   }
 
   startLandRipple(centerIdx, neighborIdxs) {
@@ -14950,13 +14933,13 @@ class Component extends DCLogic {
     const last = this.ripples[this.ripples.length - 1];
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
   }
-  enterLand(first) {
+  enterLand(first, arriving = false) {
     const canonical = this.canonicalState(this.currentPos, this.playerRole);
-    if (canonical !== this.currentPos) { this.currentPos = canonical; this._syncUrl(canonical); }
+    if (canonical !== this.currentPos) this.currentPos = canonical;
     const pos = this.nodes[this.currentPos];
     if (pos.ty === "submissions") {
       const sub = this.submissionNode(pos);
-      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first))) return;
+      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first, arriving))) return;
       if (this.playerRole !== sub.fromRole) { this.enterDefense(sub.idx); return; }
       this.currentPos = sub.idx;
     }
@@ -14969,10 +14952,11 @@ class Component extends DCLogic {
     // a staged EXCHANGE keeps the CHOSEN node as the focus: the graph names the technique the
     // card is about, and the camera holds it (v1.132.0) — everything else is the seat's landing
     this.focusIdx = this._stagedTech ? this._stagedTech.idx : this.currentPos; this.pulse = null;
+    this.camFocus = this.pairMid(this.nodes[this.focusIdx]);
+    this._syncUrl(this.focusIdx, true);
     this._settleT = this.now;
     this.activeMove = null;
-    this.hideCenter(); // clear the arrival's center toast as play begins
-    this._endArrival(); // the normal lifter: the flight is over, the label is at full strength
+    if (!arriving) { this.hideCenter(); this._endArrival(); }
     // THE LANDING IS the arrival, so it carries the arrival bloom (v1.114.0). This re-flare fires
     // AFTER updateTravel's, on the same node — without the amplitude here it would immediately
     // demote the destination's bloom back to a pass-through's and restart its decay, i.e. the
@@ -15099,7 +15083,6 @@ class Component extends DCLogic {
     const stTech = this._stagedTech && this.nodes[this._stagedTech.idx];
     if (stTech && first) this.renderLandCard(stTech, "attempt", null);
     else this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
-    this._reframeHold = false;              // the card is back — the band means something again
     this.renderTutorial();
     this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
   }
@@ -15303,6 +15286,8 @@ class Component extends DCLogic {
   }
   enterAttempt(opt) {
     if (opt.threat) return;
+    if (this._arriveGlideUntil != null) this.hideCenter();
+    this._endArrival();
     // THE OPTION HAND IS NEVER UNDER AN OPEN MENU (v1.99.5). Capture never stops the clock, so
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
@@ -15793,6 +15778,7 @@ class Component extends DCLogic {
     this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
     this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
     this.focusIdx = this.currentPos;
+    this._syncUrl(this.focusIdx, true);
     const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
     const log = this.rollLog = this.rollLog || [];
     if (!log.length || log[log.length - 1].key !== key) {
@@ -16027,70 +16013,9 @@ class Component extends DCLogic {
         if (r.height > 0 && getComputedStyle(ev).opacity !== "0") top = Math.max(top, r.bottom + 12);
       } catch (e) { /* non-fatal */ }
     }
-    // THE BAND MUST SURVIVE THE CARD'S TEARDOWN (v1.114.4). Staging a new state calls
-    // `clearOptions()`, which drops the landing card AND the film strip — and for the ~600ms
-    // until `enterLand` rebuilds them there is nothing to measure, so `bot` fell back to
-    // `H - 240` and the frame became the middle of the WHOLE SCREEN. Owner: "it seems to want to
-    // center the node to the center of the screen initially instead of centering to the available
-    // visible space (above the landcard)". Measured clicking the partner orb: wantY 136 -> 338 for
-    // two frames, and `rollFromPosition` writes camTarget inside exactly that window. So remember
-    // the last real measurement and keep using it while the card is rebuilding; it is the same
-    // card, docked to the same bottom, so this is a truer answer than the fallback.
-    // ── THE COLD PRIOR IS THE CARD'S USUAL BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6) ──────
-    // Owner: "correct the position of the graph shift since it initially centers to the screen,
-    // not the available space above the landcard as it's should in the first animation."
-    //
-    // On the FIRST landing there is nothing to measure — the card mounts ~1.2s after the intro
-    // hands over — and `_bandBot` has no cached answer at this viewport yet, so this fallback was
-    // the only input. `H - 240` is not a band, it is very nearly the whole screen: measured at
-    // H=900 it put `wantY` at 338 and the focus opened at screen y **413** against a screen middle
-    // of 450, then crawled to its real home at 196 over about five seconds. That slow drift IS the
-    // "it initially centers to the screen" the owner sees.
-    //
-    // `H * 0.42` is not a new guess — it is the constant the "no room" branch a few lines below
-    // already uses, and it predicts this viewport's settled band almost exactly: it gives
-    // `wantY` 197 against a measured resting value of **196**. Erring tight is the safe direction
-    // by the same argument `_bandBot` is built on (too tight only ever puts the node HIGHER, never
-    // behind the card), and the moment a real card exists the measurement below overrides it.
-    let bot = Math.max(120, H * 0.42), measured = false;
-    for (const el of [this._landFilmEl, this._landEl]) {
-      if (!el) continue;
-      try {
-        const r = el.getBoundingClientRect();
-        // AN UNDOCKED ELEMENT IS NOT A CONSTRAINT. `_dockLandFilm` positions the film strip AFTER
-        // it is inserted, so for a frame or two `rect.top` reads **0** — measured, that made the
-        // band `-12`, tripped the "no room" fallback, and threw the camera 61px in one frame and
-        // ~90px in another during a pair swap. A surface that leaves no band above it has not
-        // laid out yet; skip it and let the next one (or the cache) answer.
-        // A TRANSLATED ELEMENT IS NOT A CONSTRAINT EITHER (v1.175.0): while More is open the
-        // column rides `_readS` px above its dock, and this cache only ever TIGHTENS for the life
-        // of the viewport — a band read through that translation would hold the camera high for
-        // the rest of the session. Add the offset back; the dock is the constraint, not the read.
-        const rTop = r.top + this._readOffset();
-        if (r.height > 0 && rTop > top + 80) { bot = Math.min(bot, rTop - 12); measured = true; break; }
-      } catch (e) { /* non-fatal */ }
-    }
-    // THE BAND TIGHTENS AT ONCE AND GIVES GROUND SLOWLY. Caching only the "nothing to measure"
-    // case was not enough: the card and the film strip are rebuilt on DIFFERENT frames, so for a
-    // moment the card is back (bot 362) while the film is not (bot 256) and the band flickers
-    // LOOSER — measured as a 4.8 world-unit / ~53px camera swing on a pair swap, which is exactly
-    // the "moves a lot" the owner saw. Every transient during a rebuild loosens the band, and
-    // every real change that matters (a card appearing, a taller question) tightens it — so
-    // taking a tighter answer instantly and easing toward a looser one absorbs the flicker
-    // without ever letting the camera sit in space the card is about to cover. The ease is
-    // per-call and this is called once per frame by the follow-cam: tau is about a quarter second.
-    // THE BAND ONLY EVER TIGHTENS, FOR THE LIFE OF THE VIEWPORT. The card and the film strip mount
-    // on DIFFERENT frames, and a film box can measure zero mid-transition — so a "first element
-    // with height wins" read ALTERNATES between two answers: measured on a pair swap, the
-    // follow-cam flipped `camTarget.cy` between 4.44 (film seen, bot 256) and -0.36 (card only,
-    // bot 363) frame after frame. That flicker IS the swing the owner saw. Keeping the tightest
-    // answer ever measured at this height is stable by construction, and it errs in the safe
-    // direction: too tight only ever puts the node HIGHER, never behind the card. Deliberately NOT
-    // reset per landing — that was tried, and it hands the very first post-reset frame (card
-    // without its film) back to the loose answer, which is the whole bug.
-    if (this._bandBot && this._bandBot.h === H) bot = Math.min(bot, this._bandBot.y);
-    if (measured) this._bandBot = { h: H, y: bot };
-    if (bot - top < 80) { top = 16; bot = Math.max(120, H * 0.42); }   // no room: use the top band
+    const band = this._landingBand(top);
+    const bot = band.bottom;
+    top = band.top;
     const wantY = (top + bot) / 2;
     const scale = W / vw;
     const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
@@ -16137,6 +16062,28 @@ class Component extends DCLogic {
     }
     return { cx: cx, cy: cy, vw: vw };
   }
+  // Read settled layout coordinates: CSS entry animations and the reading column's
+  // translation must not make the flight chase moving rectangles. The choices count too.
+  _landingBand(top = 16) {
+    const H = this.H || 800;
+    let bottom = H - 16, measured = false;
+    for (const el of [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current]) {
+      if (!el || !el.offsetHeight) continue;
+      const css = getComputedStyle(el);
+      if (css.display === "none") continue;
+      const dock = parseFloat(css.bottom);
+      const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
+      if (y <= top + 32) continue;
+      bottom = Math.min(bottom, y - 12); measured = true;
+    }
+    if (!this._landEl && this._layerOn("card") && this._bandBot?.h === H) {
+      bottom = this._bandBot.y; // the landing is being rebuilt, even if its hand still exists
+    } else if (measured) this._bandBot = { h: H, y: bottom };
+    else if (this._layerOn("card") || this._layerOn("film") || this._handShown()) {
+      bottom = this._bandBot?.h === H ? this._bandBot.y : Math.max(120, H * 0.42);
+    }
+    return { top, bottom: Math.max(top + 32, bottom), measured };
+  }
   // THE WIDTH OF THE WIDEST ROW THE GRAPH IS ABOUT TO DRAW, in px, measured with that row's
   // actual font. Cached per node + headline size, because the follow-cam calls `rollCamTarget`
   // every frame and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is
@@ -16171,6 +16118,7 @@ class Component extends DCLogic {
   }
   updateCamera(dt) {
     const el = this.now - this.startTime;
+    if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     let tgt = null;
@@ -16253,7 +16201,6 @@ class Component extends DCLogic {
     // therefore keeps tracking — and the moment the user pans (`userActiveNow`), takes a lease,
     // or presses play, every one of the guards around this line takes the camera back.
     if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;
-    if (this._reframeHold) tgt = null;   // mid-rebuild: the layout has nothing true to say yet
     // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
@@ -16273,10 +16220,33 @@ class Component extends DCLogic {
     const tauP = !this.introDone ? 0.8 : arriveGlide ? 1.0 : flight ? 0.28 : 0.5;
     const tauV = !this.introDone ? 0.9 : arriveGlide ? 1.05 : flight ? 0.7 : 0.55;
     const aP = 1 - Math.exp(-dt / tauP), aV = 1 - Math.exp(-dt / tauV);
-    this.cam.cx += (this.camTarget.cx - this.cam.cx) * aP;
-    this.cam.cy += (this.camTarget.cy - this.cam.cy) * aP;
+    const oldScale = this.W / this.cam.vw;
     this.cam.lvw += (Math.log(this.camTarget.vw) - this.cam.lvw) * aV;
     this.cam.vw = Math.exp(this.cam.lvw);
+    const follow = tgt && this.introDone && !this.endZoom && !this._arriveWide
+      && this.cfg().cameraMode !== "Overview" && this.camFocus;
+    if (follow) {
+      const f = this.camFocus, scale = this.W / this.cam.vw;
+      const targetScale = this.W / this.camTarget.vw;
+      const x = (f.x - this.cam.cx) * oldScale;
+      const y = (f.y - this.cam.cy) * oldScale;
+      let nextY = y + ((f.y - this.camTarget.cy) * targetScale - y) * aP;
+      // A newly mounted/backfilled row may take space immediately. Keep the focused
+      // silhouette and its label above it on that very frame, including paired nodes.
+      if (!this.pulse && this.focusIdx >= 0 && !this._landOpen) {
+        const band = this._landingBand();
+        const n = this.nodes[this.focusIdx];
+        const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
+        const margin = Math.max(30, (Math.abs((this._LY ? this._LY(n) : n.y) - f.y) + n.r * nodeK * 1.6) * scale);
+        if (band.measured) nextY = Math.max(band.top + margin - this.H / 2,
+          Math.min(band.bottom - margin - this.H / 2, nextY));
+      }
+      this.cam.cx = f.x - (x + ((f.x - this.camTarget.cx) * targetScale - x) * aP) / scale;
+      this.cam.cy = f.y - nextY / scale;
+    } else {
+      this.cam.cx += (this.camTarget.cx - this.cam.cx) * aP;
+      this.cam.cy += (this.camTarget.cy - this.cam.cy) * aP;
+    }
   }
 
   startLoop() {
