@@ -583,7 +583,9 @@ has an explicit end.
 **Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
 results before any section exists, so a match inside a folded group is never hidden; that query
 branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
-the top, built from the same three-rung indent as every other group.
+the top, built from the same three-rung indent as every other group. Systems use topic branches
+with counts and indented system leaves, matching position families. Topic folds start collapsed,
+remain independent, and survive detail/back navigation and section folds within the session.
 
 **A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
 (`concepts.json`, `systems.json`) carries the card and the ids it lights; the body rides the

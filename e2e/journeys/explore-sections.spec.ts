@@ -282,7 +282,7 @@ test("arriving on /Systems expands the DEFERRED Systems section once its payload
     "Systems renders expanded when its payload lands (needs `npm run regenerate:neural` + a build so systems.json is served)",
   ).toHaveAttribute("aria-expanded", "true", { timeout: 20_000 });
   expect(
-    await page.locator("[data-system-row]").count(),
-    "and its rows are visible",
+    await page.locator("[data-system-category]").count(),
+    "and its topic branches are visible",
   ).toBeGreaterThan(0);
 });

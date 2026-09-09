@@ -252,65 +252,96 @@ const serveSystemChunks = async (page: Page, hobbleFirst?: string, holdBody?: Pr
 /** Open the pane on Explore the way a reader does: the logo, then the tab — then expand
  *  the Systems section, which (like every Explore section) defaults COLLAPSED since
  *  v1.99.3 (explore-sections.spec.ts owns that contract). */
-const openExplore = async (page: Page) => {
+const openExplore = async (page: Page, expandCategories = true) => {
   await page.locator(".ng-logo").click();
   await page.locator("[data-view='explore']").click();
   const hdr = page.locator('[data-explore-section="Systems"]');
   await expect(hdr).toBeVisible();
   if ((await hdr.getAttribute("aria-expanded")) !== "true") await hdr.click();
+  if (expandCategories) {
+    for (const category of await page.locator("[data-system-category]").all()) {
+      if ((await category.getAttribute("aria-expanded")) !== "true") await category.click();
+    }
+  }
 };
 
-// Topic membership comes from the emitted payload and is compared with the actual DOM set.
-// This journey checks filtering/navigation, not dossier prose (the DSL serves empty chunks).
-// Mutation coverage for this new journey has not yet been measured.
-test("Systems topic filter narrows the library and survives detail navigation @curated", async ({ page }) => {
-  const errors = watchErrors(page);
-  const data = payload();
-  const guards = data.systems.filter((s) => s.type === "Guard System");
-  expect(guards.length, "the fixture contains guard systems").toBeGreaterThan(0);
-  expect(guards.length, "the filter must exclude other topics").toBeLessThan(data.systems.length);
-  const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
-  await awaitSystems(page);
-  await openExplore(page);
+// Compare topic membership against the emitted catalog and exercise real branch controls.
+// The DSL serves empty dossier chunks here; this checks tree navigation, not dossier prose.
+// Mutation coverage for this journey has not yet been measured.
+for (const width of [1440, 390]) {
+  test(`Systems topics expand as independent subtrees at ${width}px @curated`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    const errors = watchErrors(page);
+    const data = payload();
+    const guards = data.systems.filter((s) => s.type === "Guard System");
+    expect(guards.length).toBeGreaterThan(0);
+    const j = journey(page);
+    await j.boot("/");
+    await j.land("Mount Top");
+    await awaitSystems(page);
+    await openExplore(page, false);
 
-  const filter = page.getByLabel("System topic", { exact: true });
-  const rows = page.locator("[data-system-row]");
-  const ids = () => rows.evaluateAll((els) => els.map((e) => e.getAttribute("data-system-row")).sort());
-  await expect(filter).toHaveCount(1);
-  await expect(filter).toHaveValue("");
-  await expect(rows).toHaveCount(data.systems.length);
-  await expect(page.locator("[data-system-match-count]")).toHaveText(`${data.systems.length} of ${data.systems.length} systems`);
-  const types = [...new Set(data.systems.map((s) => s.type).filter(Boolean))].sort();
-  expect(await filter.locator("option").evaluateAll((els) => els.map((e) => (e as HTMLOptionElement).value).filter(Boolean).sort())).toEqual(types);
-  await expect(filter.locator('option[value="Guard System"]')).toHaveText(`Guard System (${guards.length})`);
+    const categories = page.locator("[data-system-category]");
+    const rows = page.locator("[data-system-row]");
+    const ids = () => rows.evaluateAll((els) => els.map((e) => e.getAttribute("data-system-row")).sort());
+    const types = [...new Set(data.systems.map((s) => s.type || "Uncategorized"))].sort();
+    expect(await categories.evaluateAll((els) => els.map((e) => e.getAttribute("data-system-category")).sort())).toEqual(types);
+    await expect(page.locator("[data-system-filter]")).toHaveCount(0);
+    await expect(rows).toHaveCount(0);
 
-  // The measured mouse opens the real native control; keyboard selection exercises its change event.
-  await j.clickByMouse("[data-system-filter]");
-  await page.keyboard.press("Home");
-  await page.keyboard.press("g");
-  await page.keyboard.press("Enter");
-  await expect(filter).toHaveValue("Guard System");
-  await expect(rows).toHaveCount(guards.length);
-  expect(await ids()).toEqual(guards.map((s) => s.id).sort());
-  await expect(page.locator("[data-system-match-count]")).toHaveText(`${guards.length} of ${data.systems.length} systems`);
+    const guardSelector = '[data-system-category="Guard System"]';
+    const guard = page.locator(guardSelector);
+    await guard.scrollIntoViewIfNeeded();
+    await j.clickByMouse(guardSelector);
+    await expect(guard).toHaveAttribute("aria-expanded", "true");
+    await expect(guard).toContainText(String(guards.length));
+    expect(await ids()).toEqual(guards.map((s) => s.id).sort());
+    const nestedRows = page.locator('[data-system-children="Guard System"] [data-system-row]');
+    await expect(nestedRows).toHaveCount(guards.length);
+    const indent = await nestedRows.first().evaluate((el) => {
+      const branch = el.closest("[data-system-branch]")!;
+      const parent = branch.querySelector("[data-system-category]")!;
+      return parseFloat(getComputedStyle(el).paddingLeft) - parseFloat(getComputedStyle(parent).paddingLeft);
+    });
+    expect(indent, "systems sit one tree level below their topic").toBe(16);
+    expect(await nestedRows.evaluateAll((els) => els.every((el) => el.scrollWidth <= el.clientWidth))).toBe(true);
 
-  const targetId = await rows.first().getAttribute("data-system-row");
-  await j.clickByMouse(`[data-system-row="${targetId}"]`);
-  await expect(page.locator(`[data-system-detail="${targetId}"]`)).toBeVisible();
-  await j.clickByMouse("[data-system-back]");
-  await expect(filter).toHaveValue("Guard System");
-  expect(await ids()).toEqual(guards.map((s) => s.id).sort());
+    // Keyboard collapse/reopen stays on the same branch button.
+    await page.keyboard.press("Enter");
+    await expect(guard).toBeFocused();
+    await expect(rows).toHaveCount(0);
+    await page.keyboard.press("Space");
+    await expect(guard).toHaveAttribute("aria-expanded", "true");
+    expect(await ids()).toEqual(guards.map((s) => s.id).sort());
 
-  await j.clickByMouse("[data-system-filter]");
-  await page.keyboard.press("Home");
-  await page.keyboard.press("Enter");
-  await expect(filter).toHaveValue("");
-  await expect(rows).toHaveCount(data.systems.length);
-  expect(await ids()).toEqual(data.systems.map((s) => s.id).sort());
-  expect(errors).toEqual([]);
-});
+    const targetId = await nestedRows.first().getAttribute("data-system-row");
+    await nestedRows.first().scrollIntoViewIfNeeded();
+    await j.clickByMouse(`[data-system-row="${targetId}"]`);
+    await expect(page.locator(`[data-system-detail="${targetId}"]`)).toBeVisible();
+    await j.clickByMouse("[data-system-back]");
+    await expect(guard).toHaveAttribute("aria-expanded", "true");
+    expect(await ids()).toEqual(guards.map((s) => s.id).sort());
+
+    // A second topic opens alongside the first; folding the parent preserves both choices.
+    const secondType = types.find((type) => type !== "Guard System")!;
+    const second = page.locator(`[data-system-category="${secondType}"]`);
+    await second.scrollIntoViewIfNeeded();
+    await j.clickByMouse(`[data-system-category="${secondType}"]`);
+    await expect(guard).toHaveAttribute("aria-expanded", "true");
+    await expect(second).toHaveAttribute("aria-expanded", "true");
+    const expected = data.systems.filter((s) => ["Guard System", secondType].includes(s.type)).map((s) => s.id).sort();
+    expect(await ids()).toEqual(expected);
+    const header = page.locator('[data-explore-section="Systems"]');
+    await header.click();
+    await expect(categories).toHaveCount(0);
+    await expect(rows).toHaveCount(0);
+    await header.click();
+    expect(await ids()).toEqual(expected);
+    await expect(guard).toHaveAttribute("aria-expanded", "true");
+    await expect(second).toHaveAttribute("aria-expanded", "true");
+    expect(errors).toEqual([]);
+  });
+}
 
 test("Explore lists every authored system and selecting one lights its members @curated", async ({
   page,

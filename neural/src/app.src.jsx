@@ -7160,7 +7160,7 @@ class Component extends DCLogic {
         list.appendChild(row);
       }
     };
-    // Systems: every authored system in systems.json, alphabetical. The whole library is listed
+    // Systems: every authored system in systems.json, grouped by topic. The whole library is listed
     // (no hand-picked shortlist) — a row lights its members on the graph and opens its page.
     const renderSystems = () => {
       const all = this.systems || [];
@@ -7173,60 +7173,43 @@ class Component extends DCLogic {
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
-      // Session-local browsing state: only the selector changes it. Detail/back, pane folds,
-      // and deferred payload renders preserve it; a fresh app instance starts with all systems.
-      const typeCounts = new Map();
-      for (const s of all) if (s.type) typeCounts.set(s.type, (typeCounts.get(s.type) || 0) + 1);
-      if (!typeCounts.has(this._systemTypeFilter)) this._systemTypeFilter = "";
-      const controls = document.createElement("div");
-      controls.className = "ng-system-filter";
-      const label = document.createElement("label");
-      label.htmlFor = "ng-system-topic";
-      label.textContent = "System topic";
-      const select = document.createElement("select");
-      select.id = "ng-system-topic";
-      select.setAttribute("data-system-filter", "1");
-      select.style.pointerEvents = "auto";
-      const option = (value, text) => {
-        const el = document.createElement("option");
-        el.value = value;
-        el.textContent = text;
-        select.appendChild(el);
-      };
-      option("", "All systems (" + all.length + ")");
-      for (const [type, count] of [...typeCounts].sort((a, b) => a[0].localeCompare(b[0]))) {
-        option(type, type + " (" + count + ")");
+      // Topics are family branches, with the same session-local folds and 22 → 38px
+      // indentation as the position tree. Multiple branches can remain open together.
+      const topics = new Map();
+      for (const s of all) {
+        const type = s.type || "Uncategorized";
+        if (!topics.has(type)) topics.set(type, []);
+        topics.get(type).push(s);
       }
-      select.value = this._systemTypeFilter;
-      select.addEventListener("pointerdown", (e) => e.stopPropagation());
-      select.addEventListener("keydown", (e) => e.stopPropagation());
-      const count = document.createElement("span");
-      count.id = "ng-system-match-count";
-      count.setAttribute("data-system-match-count", "1");
-      count.setAttribute("role", "status");
-      select.setAttribute("aria-describedby", count.id);
-      controls.append(label, select, count);
-      list.appendChild(controls);
-      const rows = document.createElement("div");
-      rows.setAttribute("data-system-results", "1");
-      list.appendChild(rows);
-      const renderRows = () => {
-        rows.replaceChildren();
-        const matches = all.filter((s) => !this._systemTypeFilter || s.type === this._systemTypeFilter);
-        count.textContent = matches.length + " of " + all.length + " systems";
-        for (const s of matches) {
-          const meta = [s.difficulty, s.type].filter(Boolean).join(" \u00b7 ");
-          const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(s.name) + '</span>' + (meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(meta) + '</span>' : ""), 22, () => this.openSystem(s.id));
-          row.setAttribute("data-system-row", s.id);
-          row.style.pointerEvents = "auto";
-          rows.appendChild(row);
-        }
-      };
-      select.addEventListener("change", () => {
-        this._systemTypeFilter = select.value;
-        renderRows(); // Keep the native control and keyboard focus mounted while results change.
-      });
-      renderRows();
+      for (const [type, systems] of [...topics].sort((a, b) => a[0].localeCompare(b[0]))) {
+        const fk = "systems|" + type;
+        const branch = document.createElement("div");
+        branch.setAttribute("data-system-branch", type);
+        const children = document.createElement("div");
+        children.setAttribute("data-system-children", type);
+        const row = mk("", 22, () => {
+          if (this._exp.f.has(fk)) this._exp.f.delete(fk); else this._exp.f.add(fk);
+          renderBranch(); // Keep the branch button mounted so keyboard focus survives toggles.
+        });
+        row.setAttribute("data-system-category", type);
+        row.style.pointerEvents = "auto";
+        const renderBranch = () => {
+          const expanded = this._exp.f.has(fk);
+          row.setAttribute("aria-expanded", expanded ? "true" : "false");
+          row.innerHTML = '<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="font-size:13px;font-weight:600;color:#c4cde0;">' + this.escHTML(type) + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + systems.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(expanded) + '</span>';
+          children.replaceChildren();
+          if (!expanded) return;
+          for (const s of [...systems].sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))) {
+            const leaf = mk('<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
+            leaf.setAttribute("data-system-row", s.id);
+            leaf.style.pointerEvents = "auto";
+            children.appendChild(leaf);
+          }
+        };
+        branch.append(row, children);
+        list.appendChild(branch);
+        renderBranch();
+      }
     };
     const renderGraphGroup = (pair) => {
       const label = pair[0], key = pair[1];
