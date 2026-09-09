@@ -662,6 +662,14 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   await j.boot("/Positions/Mount/Bottom")
   await j.advance(6000)
 
+  // Pixel differences need the same camera for both frames. The arrival flight can
+  // still be settling after the content is revealed; take a lease at its current view.
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.holdCamera()
+    a.camTarget = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }
+  })
+
   // a technique pair with a real qualifier, well clear of other nodes in its own label bands
   const pick = await page.evaluate(() => {
     const a: any = (window as any).__neural

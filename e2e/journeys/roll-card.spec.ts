@@ -509,7 +509,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
     const nc = a.nodeCardRef && a.nodeCardRef.current
     const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._landMoreEl ? a._landMoreEl.querySelector("[data-land-more-body]") : null
-    const add = a._landEl ? a._landEl.querySelector("[data-list-add]") : null
+    const add = document.querySelector("[data-seat-star]")
     return {
       nodeCard: nc ? nc.style.display : null,
       sheet: sh ? sh.style.display : null,
@@ -523,7 +523,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   expect(st.sheet, "and no node-dossier reading sheet opens").not.toBe("block")
   expect(st.card, "the game card is what opens").toBe(true)
   expect(st.unfolded, "folded — More is one tap away, exactly like a position's card").toBe("none")
-  expect(st.capture, "and its corner star captures the TECHNIQUE, not its origin position").toBe(tech.id)
+  expect(st.capture, "and the seat star captures the TECHNIQUE, not its origin position").toBe(tech.id)
   // flown TO the node, not INTO it: the old path drove the camera to graphW*0.0085
   expect(st.zoom, "the camera stops at reading distance, not inside the node").toBeGreaterThan(0.02)
 
@@ -561,7 +561,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
  * exposed it a third time: "Add to today's class list" was visible, enabled, hit-testable — and
  * dead. Traced as `doc-down:dsListTxt` then `doc-click:` on an element with no class at all.
  */
-test("the card's corner capture really is clickable, by mouse", async ({ page }) => {
+test("the seat's capture star really is clickable, by mouse", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -592,8 +592,8 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
   }, null, { timeout: 15000 })
   await page.waitForTimeout(100)
 
-  const sel = `[data-list-add="${id}"][data-list-surface="land"]`
-  await j.clickByMouse(sel, "the card's corner capture")
+  const sel = `[data-list-add="${id}"][data-list-surface="seat"]`
+  await j.clickByMouse(sel, "the seat's capture star")
   await j.advance(200)
   // v1.101.9: the `+` NEVER files on its own — it asks. One list still asks, because "the last
   // list you touched" is not a destination the user chose.

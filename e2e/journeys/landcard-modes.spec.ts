@@ -534,7 +534,7 @@ test("arriving on the defending side brings the red rush — no play button in b
   expect(d.panicKey, "the drill credits the Defender deck once it lands").toMatch(/\|Defender$/)
   expect(d.beats).toContain("panic_drill_opened")
   expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
-  expect(d.close && d.add && d.more && !d.foot, "the drill shares ✕ / + / More, but no retired footer").toBe(true)
+  expect(d.close && !d.add && d.more && !d.foot, "the drill shares close and More; capture belongs to the graph seat").toBe(true)
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
   // capture) — the catch stays live and the escapes stay dealt
   await j.clickByMouse("[data-land-close]")

@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
 - **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
 - **v1.175.0** — [THE READING COLUMN, AND THE COUNT GOES QUIET](#v1-175-0-the-reading-column-and-the-count-goes-quiet)
 - **v1.174.0** — [MORE BECOMES THE SECOND CARD](#v1-174-0-more-becomes-the-second-card)
@@ -7134,3 +7135,19 @@ explicit Finish actions and payload readiness. Exact outcome, RNG, role and UI a
 remain; archive checks cover both two-state entries and direct one-state finishes. Targeted
 runs pass all 53 affected journeys. Runtime code is unchanged. Census and documentation
 gates pass without changing baselines or timeouts.
+
+## v1.182.0 — Capture beside the graph seat
+
+Moved the list star from the question card to the right of the graph's role label. Canvas text
+measurement supplies the anchor for a real DOM button, so the control follows pan/zoom and
+supports mouse, touch and keyboard activation. Unsaved is a quiet outline; saved is filled gold.
+The existing list picker still chooses the destination, and membership remains site-based across
+both seats. The card corner now contains only close and deck progress; hiding it leaves capture
+available on the graph. Hovered seat labels retain a pointer path to their star.
+
+Regression coverage: `seat-star.spec.ts` exercises both seats of all three node categories on
+phone and desktop, list selection/removal, keyboard return and capture after card dismissal.
+Existing picker, reading-card and share journeys now target the graph control.
+
+Arrival fixtures also wait for the visible hand-off before interaction and accept a capstone
+hand already dealt during its start action. The wheel journey uses the same settled arrival.

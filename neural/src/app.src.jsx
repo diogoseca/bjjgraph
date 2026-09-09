@@ -237,6 +237,7 @@ class Component extends DCLogic {
     // _flushSave also clears _saveT, killing that late writer. Guarded so a (hypothetical)
     // pre-ingest unmount can never overwrite real storage with empty state.
     try { if (this._progressLoaded) this._flushSave(); } catch (e) {}
+    try { this.closeListPicker(); this._syncSeatStars([]); } catch (e) {}
     try { this.closeAccountMenu(); } catch (e) {} // drops the capture-phase outside-tap listener
     try { this.clearClipLoops(); } catch (e) {}
     try { if (this.sound && this.sound.destroy) this.sound.destroy(); } catch (e) {} // close AudioContext, stop voices, drop listeners
@@ -2662,6 +2663,7 @@ class Component extends DCLogic {
     }
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
+    if (open) this._syncSeatStars([]); // graph controls must not float over the learning pane
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
     // control; every apply re-renders it (it hides while the pane owns its corner)
     this._renderShareCue();
@@ -7682,7 +7684,7 @@ class Component extends DCLogic {
     this.track("neural_share_list_drill", { list: listId, techniques: keys.length, shared: listId === "__shared" });
   }
 
-  // ---------- add affordance (dossier, Explore rows, landing card) ----------
+  // ---------- add affordance (dossier, Explore rows, graph seat) ----------
   /**
    * The name a technique must be called by ANYWHERE a list is read: the FULL authored name,
    * qualifier included. `splitName().main` is a display shorthand for surfaces that show the
@@ -7847,9 +7849,58 @@ class Component extends DCLogic {
     // really changes; membership lives in the name's aside and, per list, on the picker's own
     // role="menuitemcheckbox" + aria-checked rows. Deliberately NOT rewritten here: this painter
     // runs on every list mutation and would stomp aria-expanded to "false" under an open menu.
-    el.style.color = on ? "#a9c2ff" : "#9ab0e0";
+    const seat = el.getAttribute("data-list-surface") === "seat";
+    el.setAttribute("data-list-saved", on ? "true" : "false");
+    if (seat) {
+      el.setAttribute("aria-label", c.label + " — " + this.listItemName(nodeId));
+      el.title = on ? c.status : "Add " + this.listItemName(nodeId) + " to a list";
+      el.style.color = on ? "#efc66d" : "#9aa6ba";
+      el.style.borderColor = "transparent";
+      el.style.background = "transparent";
+      return;
+    }
+    el.style.color = on ? "#efc66d" : "#9ab0e0";
     el.style.borderColor = on ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.28)";
     el.style.background = on ? "rgba(150,180,255,.13)" : "rgba(255,255,255,.04)";
+  }
+  /** Capture is attached to the seat drawn this frame, never to the question card.
+   * Lists still hold whole sites: use the shared writer/readers so either seat keeps its
+   * existing share ordinal and both seats honestly show the same saved state.
+   */
+  _syncSeatStars(anchors) {
+    const buttons = this._seatStarButtons || (this._seatStarButtons = new Map());
+    const rect = this.canvas ? this.canvas.getBoundingClientRect() : { left: 0, top: 0 };
+    const size = this.isMobile() ? 44 : 28;
+    const visible = new Set();
+    this._seatStarAnchors = [];
+    for (const a of anchors) {
+      if (this.deckShown || this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
+          a.y < size / 2 || a.y > this.H - size / 2) continue;
+      const node = this.nodes[a.idx]; if (!node) continue;
+      visible.add(a.idx);
+      this._seatStarAnchors.push(a);
+      let b = buttons.get(a.idx);
+      if (!b) {
+        b = this._listAddButton(node.id, "seat", 14);
+        b.className = "ng-seat-star";
+        b.setAttribute("data-seat-star", String(a.idx));
+        b.addEventListener("pointermove", () => { this._hover = { idx: a.idx, t: this.now }; });
+        b.style.position = "fixed";
+        b.style.zIndex = "4"; // ambient graph chrome, below the reading cards and deliberate screens
+        b.style.left = "0"; b.style.top = "0";
+        b.style.border = "1px solid transparent";
+        (this.__ngRoot || document.body).appendChild(b);
+        buttons.set(a.idx, b);
+      }
+      b.style.width = size + "px"; b.style.height = size + "px";
+      b.style.transform = "translate(" + (rect.left + a.x - size / 2) + "px," + (rect.top + a.y - size / 2) + "px)";
+      b.style.opacity = String(a.alpha);
+    }
+    for (const [idx, b] of buttons) {
+      if (visible.has(idx)) continue;
+      if (this._pickAnchor === b) this.closeListPicker();
+      b.remove(); buttons.delete(idx);
+    }
   }
   _listAddButton(nodeId, surface, glyphPx) {
     const b = document.createElement("button");
@@ -7864,7 +7915,7 @@ class Component extends DCLogic {
     // "sheet" joins them (v1.102.1): its capture is the compact corner glyph now, not a labelled
     // footer button, and 24px in a corner is exactly the target a thumb misses. The GLYPH stays
     // small on both form factors; only the hit area grows.
-    const thumb = this.isMobile() && (surface === "option" || surface === "land" || surface === "sheet");
+    const thumb = this.isMobile() && (surface === "option" || surface === "land" || surface === "sheet" || surface === "seat");
     const size = thumb ? 44 : 24;
     // A STAR IS NOT A `+`, SO ITS BOX IS NOT THE `+`'s (v1.129.8). A five-pointed star's ink is
     // centrally concentrated and its five points taper to nothing, so at equal box it reads
@@ -12994,36 +13045,13 @@ class Component extends DCLogic {
    */
   _landCardChrome(el, node, key, side) {
     this._renderLandMore(node, side);
-    // ── THE CARD LAYER'S TWO CORNER CONTROLS, TOP-RIGHT ──
-    // Capture and layer-close are chrome about THIS timed card, so they cost it no vertical
-    // space. The sibling More card owns its own collapse controls and never changes this corner.
+    // The question card owns its close button and deck count. The capture star belongs
+    // to the graph's seat label, and remains available when this card is hidden.
     const corner = document.createElement("div");
     corner.setAttribute("data-land-corner", "1");
-    // 5px from the top AND 5px from the right — the owner asked for the pair to sit "a bit
-    // closer and a bit closer to the top (symmetric to how the x close button is close to the
-    // right edge)". The symmetry only works once the row's height is the 24px ✕ and not the
-    // 44px thumb + (see below), or align-items:center pushes BOTH glyphs 10px down.
-    // A column (v1.175.0): the button row, then the deck count right-aligned under it.
     corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;flex-direction:column;align-items:flex-end;";
     const btns = document.createElement("div");
     btns.style.cssText = "display:flex;align-items:center;gap:2px;";
-    // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
-    // the canvas hit-tests above anything that does not re-enable it.
-    // 14px: unboxed like the sheet's, and one step under it because v1.104.2 requires this
-    // corner's geometry to be set by the 24px ✕ beside it, never by the 44px thumb box.
-    const addBtn = this._listAddButton(node.id, "land", 14);
-    // quieter than every other surface's copy of it: two bordered boxes in a corner read as a
-    // toolbar. The HIT AREA is untouched (24px desktop / 44px thumb) — only the paint is.
-    addBtn.style.border = "none";
-    addBtn.style.background = "none";
-    // THE 44px THUMB TARGET MUST NOT SET THE CORNER'S GEOMETRY (v1.104.2). On a phone
-    // `_listAddButton` returns a 44x44 box; beside a 24x24 ✕ under align-items:center that makes
-    // the row 44 tall, so both glyphs sat 10px lower than the 5px inset implies and 20px apart.
-    // A -10px margin shrinks its LAYOUT box to 24x24 while the button still renders — and still
-    // takes a thumb — at 44. Same trick as `.ng-lists-new`: the glyph is small, the hit area is
-    // not. The ✕ is painted after it, so it wins hit-testing where the boxes overlap.
-    if (addBtn.style.width === "44px") addBtn.style.margin = "-10px";
-    btns.appendChild(addBtn);
     const xb = document.createElement("button");
     xb.type = "button";
     xb.setAttribute("data-land-close", "1");
@@ -16534,6 +16562,11 @@ class Component extends DCLogic {
   _updateHover(e) {
     if (!this.cam || !this.nodes) return;
     const rect = this.canvas.getBoundingClientRect();
+    if (e.type === "pointermove") {
+      const x = e.clientX - rect.left, y = e.clientY - rect.top;
+      const a = (this._seatStarAnchors || []).find((a) => x >= a.roleX - 36 && x <= a.x + 22 && Math.abs(y - a.y) <= 22);
+      if (a) { this._hover = { idx: a.idx, t: this.now }; return; }
+    }
     const scale = this.W / this.cam.vw;
     const wx = this.cam.cx + (e.clientX - rect.left - this.W / 2) / scale;
     const wy = this.cam.cy + (e.clientY - rect.top - this.H / 2) / scale;
@@ -16583,6 +16616,7 @@ class Component extends DCLogic {
       // programmatic paths masked it, exactly like the retired coach's button in v1.69.1. Found by
       // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
       // Panning the graph from inside the card was never a gesture anyone wanted.
+      if (e.target && e.target.closest && e.target.closest("[data-seat-star]")) return;
       const nc = this.nodeCardRef && this.nodeCardRef.current;
       if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
       // ...AND THE READING SHEET, which since v1.101.0 is a desktop surface too. Same bug, same
@@ -17209,6 +17243,7 @@ class Component extends DCLogic {
     //    text at all now, which is the consistent reading of the same rule; if the pair needs to
     //    label both halves, that is a label-side decision, not an in-node one.
 
+    const seatStars = [];
     // labels
     if (cfg.showLabels) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -17271,6 +17306,7 @@ class Component extends DCLogic {
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, lA);
         ctx.fillText(role.toUpperCase(), ox, roleY);
+        if (big) seatStars.push({ idx, roleX: ox, x: ox + ctx.measureText(role.toUpperCase()).width + 15, y: roleY - 4, alpha: lA });
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
@@ -17443,6 +17479,7 @@ class Component extends DCLogic {
         ctx.font = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(subCol, aF);
         ctx.fillText(sub, ox, subY);
+        seatStars.push({ idx: act.idx, roleX: ox, x: ox + ctx.measureText(sub).width + 15, y: subY - 4, alpha: aF });
         ctx.shadowBlur = 0;
         return true;
       };
@@ -17451,8 +17488,11 @@ class Component extends DCLogic {
       this._lastPairLabel = null;
       this._lastRichLabel = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
-      const _hovNode = (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-        ? this.nodes[this._hover.idx] : null;
+      const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
+        b === this._pickAnchor || b.matches(":hover, :focus-visible"));
+      const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
+        : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
+          ? this.nodes[this._hover.idx] : null;
       if (this.focusIdx >= 0 && !this.pulse) {
         const n = this.nodes[this.focusIdx];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
@@ -17531,5 +17571,6 @@ class Component extends DCLogic {
         ctx.shadowBlur = 0;
       }
     }
+    this._syncSeatStars(seatStars);
   }
 }

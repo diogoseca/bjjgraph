@@ -819,10 +819,13 @@ export class Journey {
     // options dealt — pump until the hand exists
     for (let i = 0; i < 16; i++) {
       await this.advance(1000);
-      const n = await this.page.evaluate(
-        () => ((window as W).__neural.optionIdxs || []).length,
-      );
-      if (n > 0) break;
+      const ready = await this.page.evaluate(() => {
+        const a = (window as W).__neural;
+        // Cards mount at the reveal now, before the label hand-off finishes. A journey
+        // that asks to land must reach the visible node, not stop on the intro overlay.
+        return (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null;
+      });
+      if (ready) break;
     }
     // settle before returning: from here on, the
     // landing question either exists or this state does not ask one

@@ -103,67 +103,31 @@ test("More -> Less leaves the toggle readable, not black @curated", async ({ pag
   expect(open!.computed, "open is brighter, so the toggle still reads as active").not.toBe(before!.computed);
 });
 
-test("the corner pair sits high, tight, and symmetric — and both controls stay hittable", async ({ page }) => {
+test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
   await seedFilm(page);
   await page.waitForTimeout(300);
-
   const m = await page.evaluate(() => {
-    const c = document.querySelector("[data-land-corner]") as HTMLElement;
     const card = document.querySelector(".ng-landcard") as HTMLElement;
-    const add = c.querySelector("[data-list-add]") as HTMLElement;
-    const x = c.querySelector("[data-land-close]") as HTMLElement;
-    const cnt = c.querySelector("[data-land-count]") as HTMLElement | null;
-    const star = add.querySelector("svg") as unknown as SVGElement;
-    const cb = card.getBoundingClientRect(), ab = add.getBoundingClientRect(), xb = x.getBoundingClientRect();
-    // the corner is a COLUMN since v1.175.0 (buttons, then the deck count); the row is the
-    // buttons' own parent
-    const row = x.parentElement as HTMLElement;
+    const x = card.querySelector("[data-land-close]") as HTMLElement;
+    const cnt = card.querySelector("[data-land-count]") as HTMLElement | null;
+    const cb = card.getBoundingClientRect(), xb = x.getBoundingClientRect();
+    const hit = document.elementFromPoint(xb.x + xb.width / 2, xb.y + xb.height / 2);
     return {
-      rowH: Math.round(row.getBoundingClientRect().height),
-      xFromTop: Math.round(xb.top - cb.top),
-      xFromRight: Math.round(cb.right - xb.right),
-      addGlyphMid: Math.round(ab.top + ab.height / 2 - cb.top),
-      xGlyphMid: Math.round(xb.top + xb.height / 2 - cb.top),
-      addHit: Math.round(ab.width),
-      starW: star ? star.getAttribute("width") : null,
-      starBox: star ? Math.round(star.getBoundingClientRect().width) : -1,
-      countBelow: cnt ? Math.round(cnt.getBoundingClientRect().top) >= Math.round(xb.bottom) : null,
+      rowH: Math.round(x.parentElement!.getBoundingClientRect().height),
+      top: Math.round(xb.top - cb.top), right: Math.round(cb.right - xb.right),
+      countBelow: cnt ? cnt.getBoundingClientRect().top >= xb.bottom : true,
+      hit: hit === x || x.contains(hit), stars: card.querySelectorAll("[data-list-add]").length,
     };
   });
-  // the row is the ✕'s height, NOT the thumb ★'s — that is what lifts the pair to the inset
-  expect(m.rowH, "the 44px thumb target must not set the row height").toBe(24);
-  expect(m.xFromTop, "same inset from the top as from the right").toBe(m.xFromRight);
-  expect(m.addGlyphMid, "both glyphs on one baseline").toBe(m.xGlyphMid);
-  expect(m.addHit, "and the star keeps its 44px thumb target").toBe(44);
-  expect(m.countBelow, "the deck count sits under the pair, never beside it").not.toBe(false);
-  // THE GLYPH IS SIZED BY ITS BOX, NOT BY `font-size` (v1.129.8). Under an SVG `font-size` is
-  // inert, and this corner used to be the site that set it — 15px, which after the star would
-  // have silently rendered at the 12px default. 14 here: unboxed beside the ✕ (nothing competing,
-  // so it reads heavier), and one step under the sheet's 15 because v1.104.2 requires this
-  // corner's geometry to come from the 24px ✕ rather than the 44px thumb.
-  expect(m.starW, "the corner star is sized deliberately, not left on the boxed default").toBe("14");
-  expect(m.starBox, "and it renders at that size, not at the 44px hit area").toBe(14);
-
-  // THE OVERLAP IS DELIBERATE BUT MUST NOT EAT THE ✕: the + renders 44 while laying out at 24, so
-  // its box overhangs. The ✕ paints later and should still win — verified, never assumed, because
-  // an intercepting sibling is exactly this repo's recurring pointer bug class.
-  const hit = await page.evaluate(() => {
-    const c = document.querySelector("[data-land-corner]")!;
-    const at = (el: HTMLElement) => {
-      const b = el.getBoundingClientRect();
-      const t = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2);
-      return t === el || el.contains(t!) ? "self" : "INTERCEPTED";
-    };
-    return {
-      x: at(c.querySelector("[data-land-close]") as HTMLElement),
-      add: at(c.querySelector("[data-list-add]") as HTMLElement),
-    };
-  });
-  expect(hit.x, "the ✕ owns its own centre").toBe("self");
-  expect(hit.add, "the star owns its own centre").toBe("self");
+  expect(m.rowH).toBe(24);
+  expect(m.top).toBe(m.right);
+  expect(m.countBelow).toBe(true);
+  expect(m.hit).toBe(true);
+  expect(m.stars).toBe(0);
+  await expect(page.locator("[data-seat-star]")).toBeVisible();
 });
 
 test("the clip hover is a hint, not a flash", async ({ page }) => {

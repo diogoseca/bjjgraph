@@ -180,6 +180,12 @@
      its own copy. That overlap is why the coach suppressed the card entirely, which in turn deleted
      the landing question from every cold visitor's first decision. Docking the coach above the
      graph leaves the card its own space and both stay fully clickable. */
+  .ng-seat-star{touch-action:manipulation;transition:color .18s ease;}
+  .ng-seat-star svg{opacity:.48;transition:opacity .18s ease,filter .18s ease;}
+  .ng-seat-star:hover svg,.ng-seat-star:focus-visible svg,.ng-seat-star[aria-expanded="true"] svg{opacity:1;}
+  .ng-seat-star[data-list-saved="true"] svg{opacity:1;filter:drop-shadow(0 0 4px rgba(239,198,109,.22));}
+  .ng-seat-star:focus-visible{outline:2px solid #efc66d;outline-offset:1px;}
+  @media(prefers-reduced-motion:reduce){.ng-seat-star,.ng-seat-star svg{transition:none;}}
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}

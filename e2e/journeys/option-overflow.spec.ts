@@ -15,23 +15,6 @@ import { journey } from "../dsl"
  * overlaps user icon and text, and in mobile screens or small screens i mean dont show it."
  */
 
-/** Stage a roll at a NAMED state through the app's OWN navigation path.
- *
- *  DELIBERATELY `rollFromPosition`, not `currentPos = i; enterLand()`. The direct poke deals the
- *  hand fine but leaves `focusIdx`/`pulse`/`activeMove` and the camera un-aimed, and the very
- *  next frame throws `createRadialGradient ... non-finite` out of `draw()` — VERIFIED to do so on
- *  the pre-v1.123.0 bundle too (10 cards dealt, same crash), so it is a harness misuse and not a
- *  regression. The sweeps below never pump a frame, so they may still use the fast poke; anything
- *  that needs the app to RENDER has to arrive the way a user does. */
-const STAGE = (posId: string, role: string) => `(() => {
-  const a = window.__neural;
-  let idx = -1;
-  for (let i = 0; i < a.nodes.length; i++) { const n = a.nodes[i]; if (n.ty === "positions" && n.posId === ${JSON.stringify(posId)}) { idx = i; break; } }
-  if (idx < 0) throw new Error("no such position: " + ${JSON.stringify(posId)});
-  a.rollFromPosition(idx, true, ${JSON.stringify(role)});
-  return idx;
-})()`
-
 const TRAY = `(() => {
   const a = window.__neural, row = a.optionsRef.current;
   return {
@@ -88,7 +71,7 @@ test("@curated the hand never expires — the clock belongs to the question (v1.
   }
   // …and a REAL landing that times out keeps its hand: the reveal is the whole penalty.
   // (Fresh boot first: the CLOCKS sweep drives 272 direct pokes and leaves the camera unaimed —
-  // the same reason the spec's own STAGE helper refuses direct pokes.)
+  // the same reason the wheel journey arrives through j.land.)
   await j.boot("/")
   await j.land("Mount Top")
   const before = await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)
@@ -139,8 +122,7 @@ test.describe("reaching the folded cards", () => {
   test("@curated a wheel over the hand scrolls it to the last card", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
-    await page.evaluate(STAGE("standing-position", "top"))
-    await j.advance(2500)
+    await j.land("Standing Position Top") // finish the arrival before rendering the tray
     await page.locator("[data-tech]").first().waitFor({ state: "attached" })
     await j.advance(600)
 

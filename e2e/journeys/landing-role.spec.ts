@@ -51,7 +51,16 @@ for (const role of ["bottom", "top"] as const) {
       expect(intro.focusRole, "the camera follows that seat during the flight").toBe(role);
       if (opening === "Carni") expect(intro.name).toBe("Carni");
 
-      await j.nextHand(30000);
+      // The hand is already dealt when the intro names the node. Wait for the hand-off,
+      // not for a second options_dealt event that requires playing another move.
+      await expect.poll(async () => {
+        await j.advance(200);
+        return page.evaluate(() => {
+          const a = (window as any).__neural;
+          return a._arriveGlideUntil == null && a.optionIdxs.length > 0;
+        });
+      }, { timeout: 30000, intervals: [10] }).toBe(true);
+      await j.landQuestion();
       await j.advance(300);
       const landed = await readSeat();
       expect(landed.idx, "the intro hands off to the same node").toBe(intro.idx);

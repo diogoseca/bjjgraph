@@ -61,9 +61,14 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
 **film → one multiple-choice question (three options) → your options → More**. The timed card has
-no header or footer and prints no name or side. Its top-right corner holds capture, the card-layer
-✕ and, under them, the deck's `done/total` as quiet grey text (v1.175.0, owner: "very very
+no header or footer and prints no name or side. Its top-right corner holds the card-layer
+✕ and, under it, the deck's `done/total` as quiet grey text (v1.175.0, owner: "very very
 discreet") — no glyph, no pill, nothing to press.
+
+The capture star sits immediately after the graph's role/seat label, using the existing seat
+vocabulary for positions, transitions and submissions. A quiet outline opens the list picker;
+a filled gold star means the technique belongs to at least one list. Closing the question card
+does not hide this control. Lists continue to save whole techniques across their two seats.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
@@ -152,7 +157,7 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
 the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
 landing card on the same seam (`_landCardChrome`): its More reads the submission's DEFENDER
-block, `+` captures the submission, `✕` hides the card layer while the catch and escapes stay
+block, while `✕` hides the card layer and the catch and escapes stay
 live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
