@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "If your mount transition attempt is blocked by the opponent recovering their base, what alternative attacks should you pursue?",
+        "question": "Your mount transition from Double Jump is blocked as they rebase: what attacks do you chain to?",
         "answer": "When the mount is blocked, immediately chain to alternative Double Jump attacks based on the opponent's defensive response. If they recover turtle, re-establish hooks for back control pursuit. If they turn to their side, enter crab ride. If they roll away from pressure, follow into truck position. The mount transition is one option within a broader three-pronged attack system from Double Jump that eliminates safe defensive choices.",
         "answer_line": "Chain to back, crab ride, truck",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "Your opponent has extracted one hook and is stepping over - what is your immediate defensive response?",
+        "question": "From turtle, they extract one hook and step over: what is your immediate defense?",
         "answer": "Immediately initiate a hip escape toward the side of the extracted hook while turning your body to face the opponent and inserting your knee to establish a frame or half guard position. This hip movement creates a physical barrier that prevents the step-over from completing cleanly. Timing is critical because the hip escape must begin during the step-over motion before the attacker settles weight into mount.",
         "answer_line": "Hip escape toward extracted side",
         "distractors": {

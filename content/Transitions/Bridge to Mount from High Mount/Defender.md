@@ -64,7 +64,7 @@ description: "Learn to maintain High Mount against bridge attempts. Base adjustm
     },
     {
       "@type": "Question",
-      "name": "Your opponent plants their feet and you sense a bridge is imminent - what preemptive adjustment do you make?",
+      "name": "They plant their feet under your high mount and a bridge looks imminent: what preemptive adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post one hand wide near their head for tripod stability and squeeze knees tighter against their armpits to restrict hip range of motion. Drop hips slightly lower to increase the vertical distance they must bridge to displace you. If possible, reach for a collar grip or wrist control with your free hand to threaten a submission, which forces them to defend rather than commit to the bridge."
@@ -72,7 +72,7 @@ description: "Learn to maintain High Mount against bridge attempts. Base adjustm
     },
     {
       "@type": "Question",
-      "name": "The opponent's bridge partially succeeds and your knees begin sliding downward - how do you recover advantage?",
+      "name": "Their bridge slides your knees down from high mount: how do you regain the advantage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting to walk knees back up immediately, flow with the displacement momentum by transitioning to S Mount on whichever side the bridge created space. Step one knee across their torso while extending the other leg back for base. This converts their partially successful escape into a positional advancement for you that is more dangerous than the original high mount position."

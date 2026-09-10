@@ -100,7 +100,7 @@ description: "How to execute Anaconda Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls their trapped arm free during your anaconda setup - what immediate adjustment do you make?",
+      "name": "Your opponent frees their trapped arm during your anaconda setup: what do you switch to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to Darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the Darce angle that wasn't available with the arm trapped inside. Never try to re-trap the arm - flow to the submission that their defensive movement creates."

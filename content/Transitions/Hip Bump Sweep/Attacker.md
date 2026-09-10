@@ -92,7 +92,7 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat as you initiate the Hip Bump - how do you adjust mid-technique?",
+      "name": "They post a hand on the mat as you start the hip bump sweep — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment you feel them post, abandon the sweep and immediately transition to the Kimura. Their posting hand is planted on the mat with elbow exposed, which is the ideal Kimura setup. Release their other wrist, reach over their posting arm to secure the figure-four grip on their wrist, and rotate the Kimura by driving their hand toward their back. The key is recognizing the post instantly and switching without hesitation."

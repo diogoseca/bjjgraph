@@ -92,7 +92,7 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
     },
     {
       "@type": "Question",
-      "name": "Your opponent's grip fighting suddenly weakens and their arms drop from defending their neck—what should you do immediately?",
+      "name": "RNC from Russian Cowboy: their grip fighting suddenly weakens and hands drop, what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately check for signs of unconsciousness rather than continuing to squeeze. A sudden drop in defensive effort often indicates the blood choke is taking effect and the opponent may be losing consciousness without being able to tap. Release pressure, check responsiveness by calling their name, and if they are unconscious, place them in recovery position and monitor breathing. Never assume they are giving up—always verify consciousness."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
     },
     {
       "@type": "Question",
-      "name": "At what point in the RNC sequence from Russian Cowboy is the defender effectively past the point of escape?",
+      "name": "RNC from Russian Cowboy: at what point is the defender past realistic escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four is fully locked with the choking hand gripping the opposite bicep and the free hand positioned behind the head, the defender's escape options drop dramatically. At this stage, two-on-one grip strips become mechanically inefficient against the locked figure-four, and the diagonal stretch from the hook prevents the body curl needed to relieve pressure. The defender's best remaining option is an immediate tap rather than prolonged resistance that risks unconsciousness."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
     },
     {
       "@type": "Question",
-      "name": "Your opponent manages to wedge two fingers under your choking forearm during the squeeze—what grip adjustment prevents them from creating space?",
+      "name": "RNC from Russian Cowboy: they wedge fingers under your forearm, what grip change kills the space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting their fingers directly, shift to a palm-to-palm grip variation by releasing the bicep grip and clasping both hands together behind the opponent's head in a Gable grip or S-grip. This changes the compression vector and eliminates the gap their fingers were exploiting. Simultaneously increase the diagonal stretch through your hook to extend their body, which pulls the neck deeper into whatever grip configuration you hold. Switching grip style is faster than stripping fingers."

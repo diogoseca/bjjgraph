@@ -86,7 +86,7 @@ description: "Execute the Clock Choke from Invisible Collar with concealed grip 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your collar grip with both hands during the walking arc—what adjustment prevents escape?",
+      "name": "They strip your collar grip with both hands during the clock choke walk - what adjustment works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate the walking motion to tighten the choke faster than the opponent can strip the grip. Simultaneously drive your chest weight harder into their upper back to compress their posture and limit their hand fighting leverage. If the grip begins slipping despite acceleration, immediately transition to a rear naked choke attempt since both their hands are committed to fighting the collar arm, leaving their neck completely unprotected for the RNC entry."
@@ -94,7 +94,7 @@ description: "Execute the Clock Choke from Invisible Collar with concealed grip 
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Clock Choke from Invisible Collar in training?",
+      "name": "What are the key safety considerations when training the clock choke from invisible collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply pressure slowly and progressively over 3-5 seconds minimum to allow your partner time to recognize the choke and tap. The concealed nature of this technique means your partner may not realize the choke is active until pressure builds, making gradual application essential. Release immediately upon any tap signal—verbal, hand tap, or foot tap. Never maintain pressure after your partner goes limp. Monitor for signs of distress since the blood choke can cause unconsciousness rapidly."
@@ -110,7 +110,7 @@ description: "Execute the Clock Choke from Invisible Collar with concealed grip 
     },
     {
       "@type": "Question",
-      "name": "What control requirements must be established before committing to the clock choke finish from invisible collar?",
+      "name": "What control must be established before committing to the clock choke from invisible collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four prerequisites must be confirmed before committing: deep four-finger collar penetration with knuckles against the neck, a secure far-side anchor grip on the opponent's hip or belt, hooks removed with weight transitioning to sprawl position over the opponent's shoulders, and the opponent's posture compressed in turtle with limited mobility. Missing any one of these requirements significantly reduces finishing probability and may result in losing both the submission and back control position."

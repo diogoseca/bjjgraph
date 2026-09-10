@@ -98,7 +98,7 @@ description: "Defend the Kimura from Modified Mount effectively. Recognize grip 
     },
     {
       "@type": "Question",
-      "name": "What should you do if the attacker has the figure-four locked but has not yet pinned your wrist to the mat?",
+      "name": "Under Modified Mount, the figure-four is locked but your wrist isn't pinned yet—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last reliable escape window before the submission becomes extremely dangerous. Immediately bridge hard toward the posted leg while pulling your elbow tight to your body — the attacker's hands are both committed to the grip and cannot post to stop the bridge. Simultaneously hip escape in the direction of the bridge to create space for guard recovery. If the bridge alone does not break position, turn your body aggressively toward the attacker to close the shoulder rotation angle, reducing the mechanical advantage of the figure-four. Do not try to break the grip — use whole-body movement to escape the position instead."

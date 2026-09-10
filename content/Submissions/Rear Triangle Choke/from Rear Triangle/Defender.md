@@ -58,7 +58,7 @@ description: "Essential defensive guide against the rear triangle choke finish. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the rear triangle choke is being set up from back control before it is fully locked?",
+      "name": "How do you recognize a rear triangle being set up from back control before it locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling a leg thread under your armpit from behind with the shin moving across the back of your neck. You will also feel increasing pressure on one side of your neck as the opponent works to lock the figure-four. The moment you feel a leg moving under your armpit, immediately clamp your elbow tight to your ribs to prevent the arm from being trapped. Early recognition—before the ankle locks behind the knee—is the most effective defensive window."
@@ -82,7 +82,7 @@ description: "Essential defensive guide against the rear triangle choke finish. 
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the rear triangle choke at different stages of the attack?",
+      "name": "What are your defensive options at each stage of a rear triangle attack from the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before the lock: clamp the elbow to prevent arm entrapment and fight the threading leg. During the lock: grip the locking ankle and attempt to peel it from the knee crook while keeping the chin tucked. After the lock but before the squeeze: prioritize arm extraction by pulling the elbow to the ribs and threading the forearm across the centerline. During the squeeze: wedge the free hand between the knees to create space and attempt an emergency roll to disrupt the angle. At every stage, chin protection and controlled breathing extend the survival window."
@@ -98,7 +98,7 @@ description: "Essential defensive guide against the rear triangle choke finish. 
     },
     {
       "@type": "Question",
-      "name": "What immediate body positioning adjustments should you make upon recognizing the rear triangle is being locked to maximize your survival window?",
+      "name": "On recognizing the rear triangle locking, what body adjustments extend your survival window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin tightly to your chest and turn your face toward the non-choking leg side to protect the carotid arteries from full compression. Simultaneously clamp your soon-to-be-trapped elbow tight against your ribs to prevent the arm from being fully isolated inside the triangle. Drop your weight and sink your hips low to resist the attacker's posture-breaking efforts. These three adjustments performed within the first two seconds of recognition can extend your defensive window from mere seconds to thirty seconds or more, providing critical time for systematic escape execution."

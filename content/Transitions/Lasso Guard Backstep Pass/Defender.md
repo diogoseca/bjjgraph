@@ -64,7 +64,7 @@ description: "Learn to defend the Lasso Guard Backstep Pass. Recognition cues, t
     },
     {
       "@type": "Question",
-      "name": "Why is following the passer's rotation with your hips more effective than pulling them back with grips?",
+      "name": "Why is following the passer's backstep rotation with your hips better than pulling with grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling against the backstep direction fights the passer's momentum and overextends your arms, compromising structural frames. Following the rotation with hip movement maintains the perpendicular angle between your shin and their arm—the angle that gives the lasso its power. Hip movement preserves mechanical advantage while pulling creates a strength contest the top player typically wins."

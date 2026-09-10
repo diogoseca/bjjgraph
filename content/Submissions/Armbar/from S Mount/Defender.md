@@ -58,7 +58,7 @@ description: "Defend and escape the Armbar from S Mount in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel the armbar being set up from S Mount?",
+      "name": "What single defensive action matters most when you feel the S mount armbar being set up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. This bent-arm position is structurally resistant to extension and buys time for secondary defensive actions. The grip must be established before the attacker secures full wrist control—once they have two-on-one on your wrist with the arm extended, the submission is effectively complete."
@@ -74,7 +74,7 @@ description: "Defend and escape the Armbar from S Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you create escape opportunities when the attacker maintains tight S Mount control without attacking?",
+      "name": "How do you create escape chances when the attacker holds tight S mount without attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker holds position without transitioning, use micro-movements to test their base—small hip bumps and shoulder adjustments that force weight shifts. You can bait the armbar attempt by slightly extending the arm, then capitalize on their weight shift as they commit to the lean-back by bridging toward them and collapsing their perpendicular angle. The key principle is forcing them to move so you can time your escape during their transition rather than against their settled control."
@@ -98,7 +98,7 @@ description: "Defend and escape the Armbar from S Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What should you prioritize if the attacker successfully extends your arm but has not yet engaged their hips for the finish?",
+      "name": "They extended your arm from S mount but haven't engaged their hips — what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately turn your body toward the extended arm and try to curl it back by pulling your elbow toward your hip. Simultaneously bridge toward the attacker to reduce the angle they need for the finish. If you can get your elbow past the centerline of their hips, you can begin extracting the arm. If the arm is fully extended but hips are not yet engaged, you have a 1-2 second window—this is your last opportunity before the submission becomes mechanically complete and you must tap."

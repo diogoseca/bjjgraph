@@ -56,7 +56,7 @@ description: "How to defend against Squid Guard Entry in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?",
+      "name": "Which cue shows squid guard entry rather than worm guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers."
@@ -72,7 +72,7 @@ description: "How to defend against Squid Guard Entry in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your arm is already wrapped but the bottom player has not yet angled their hips—what defensive window exists?",
+      "name": "Your arm is wrapped but they haven't angled their hips yet—what defensive window is open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder."

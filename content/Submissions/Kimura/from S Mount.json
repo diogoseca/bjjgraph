@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "What defensive reaction from your opponent signals the ideal moment to transition from armbar threat to Kimura attack?",
+        "question": "From S Mount, what defensive reaction signals the moment to switch from armbar threat to Kimura?",
         "answer": "When the opponent bends their trapped arm to defend the armbar, pulling their hand toward their body or gripping their own collar, this creates the ideal Kimura window. The bent-arm position exposes the wrist for figure-four grip acquisition while simultaneously removing the armbar threat. This bent-arm defense is the trigger to initiate the Kimura rather than continuing to fight for arm extension.",
         "safety_critical": false,
         "answer_line": "Bends arm, grips own collar",
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Your opponent starts straightening their arm while you are establishing the figure-four grip - what adjustment prevents escape?",
+        "question": "S Mount: they straighten the arm as you set the figure-four—what adjustment prevents escape?",
         "answer": "Immediately abandon the Kimura grip attempt and transition to the armbar finish, since the opponent has voluntarily extended their arm into the exact position the armbar requires. This is the fundamental Kimura-armbar dilemma from S Mount. The extended arm is mechanically indefensible against a properly applied armbar from this position, so their defense against one attack feeds directly into the other.",
         "safety_critical": false,
         "answer_line": "Abandon Kimura, finish armbar",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "question": "In competition, how do you set up the Kimura when your opponent maintains a strong collar grip defense from S Mount bottom?",
+        "question": "In competition, how do you set up the S Mount Kimura against a strong collar grip defense?",
         "answer": "Strip the collar grip systematically by peeling fingers one at a time, starting with the pinky side. Alternatively, drive their elbow to the mat using your body weight, which changes the angle of their grip and makes it significantly weaker. You can also fake the armbar extension to force them to adjust their grip, creating the window to thread your hand under the wrist. Patience and positional pressure will eventually break any grip defense.",
         "safety_critical": false,
         "answer_line": "Strip pinky-side, pin elbow",
@@ -594,7 +594,7 @@
         }
       },
       {
-        "question": "Your opponent momentarily releases one hand to readjust their figure-four grip - what immediate action do you take?",
+        "question": "Under S Mount, they briefly release a hand to readjust the figure-four—what do you do immediately?",
         "answer": "Pull your trapped arm back explosively toward your body and re-grip your own collar before they can re-establish control. Simultaneously begin a hip escape toward their legs to create distance. This is your best escape window since the figure-four structure is broken. Even a half-second of released pressure is enough to extract the arm if you react immediately and decisively.",
         "safety_critical": false,
         "answer_line": "Yank arm back, re-grip collar",
@@ -609,7 +609,7 @@
         }
       },
       {
-        "question": "Why is extending your arm to push the opponent away a critical error when defending the Kimura from S Mount?",
+        "question": "Why is extending your arm to push away a critical error when defending the Kimura from S Mount?",
         "answer": "Extending the arm removes the bend that protects against both the Kimura and the armbar. A straight arm from S Mount is the ideal position for an armbar finish, so you would be trading one submission threat for another that may be even more immediately dangerous. The core principle is to keep the arm bent and use hip movement and free-arm frames for escape rather than pushing with the trapped arm.",
         "safety_critical": true,
         "answer_line": "Straight arm feeds the armbar",

@@ -70,7 +70,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary anatomical target of the Suloev Stretch and what dual mechanism creates the submission pressure?",
+      "name": "What does the Suloev Stretch target, and what dual mechanism creates the pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Suloev Stretch primarily targets the posterior knee joint (specifically the PCL and posterior capsule) while simultaneously creating pressure through two mechanisms: compression of the calf muscle into the hamstring, and bending stress on the knee joint. The figure-four configuration traps the leg in a bent position while hip extension drives the compression force through both the muscular tissue and the joint structures. This dual-threat nature makes the submission effective against various body types and flexibility levels."
@@ -78,7 +78,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the minimum application time for this submission in training and why is controlled pressure critical for safety?",
+      "name": "Suloev Stretch: how long should you take to apply it in training, and why does speed matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time in training should be 5-7 seconds of progressive, controlled pressure. This is critical because the Suloev Stretch can cause severe knee ligament damage (particularly PCL tears) and calf muscle tears if applied explosively. The submission creates intense pressure rapidly, and the bent leg position makes it difficult for the defending person to tap quickly in some cases. Slow, progressive application allows the training partner to recognize the danger, feel the pressure building, and tap safely before any injury occurs. Explosive or jerking motions can cause immediate injury before the tap can even be executed."
@@ -86,7 +86,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the correct configuration of the figure-four lock in the Suloev Stretch and why is this structural integrity important?",
+      "name": "How is the figure-four locked in the Suloev Stretch, and why does that structure matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four lock is configured by stepping your near leg over the opponent's trapped thigh (shin across their thigh above the knee), then bringing your far leg underneath their trapped leg to hook your own ankle with your foot, creating a locked loop around their leg. This structural integrity is important because it prevents the leg from extending or escaping, maintains the proper bent angle at the knee, secures the compression of calf-to-hamstring, and provides the stable platform needed to transmit your hip extension pressure effectively into the submission. Without a tight, secure figure-four, the leg can slip out or the pressure dissipates ineffectively."
@@ -94,7 +94,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What upper body controls must be maintained during the Suloev Stretch and what happens if these controls are lost?",
+      "name": "Which upper body controls hold the Suloev Stretch, and what happens if you lose them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must maintain constant chest pressure into the opponent's upper body, often combined with crossface control or controlling their far arm to prevent rotation. If these upper body controls are lost, the opponent can sit up, turn into you, relieve pressure on the submission, potentially escape the position entirely, or counter-attack with their own leg entanglements. The upper body control is what keeps them flat and prevents them from generating the leverage needed to defend the leg attack. The submission requires simultaneous control of both upper and lower body to be effective."
@@ -110,7 +110,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the key positional requirements that must be established before applying finishing pressure in the Suloev Stretch?",
+      "name": "What must be in place before you apply finishing pressure in the Suloev Stretch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before applying finishing pressure, you must have: a secure figure-four lock with knees squeezed together and ankle properly hooked; the opponent's heel pulled toward their own buttocks with knee bent at 90-120 degrees; your hips positioned close to their hip on the trapped leg side; their calf compressed firmly against their hamstring; upper body controls (chest pressure and/or crossface) preventing them from sitting up; and your body alignment creating a 'T' shape where you can extend your hips forward effectively. Attempting to finish without all these elements in place results in an ineffective submission and potentially unsafe mechanics. The setup is 80% of the technique's effectiveness."

@@ -84,7 +84,7 @@ description: "How to execute Roll to Turtle in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure during side control - how does this affect your roll timing?",
+      "name": "They drive a heavy crossface in side control — how does that affect your roll to turtle timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heavy crossface pressure actually creates favorable timing for the roll because the opponent's weight is committed forward and high. Use their forward pressure against them by turning into it rather than fighting against it. The momentum of their crossface can be redirected to assist your rotation while their committed base makes following your movement more difficult."

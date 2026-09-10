@@ -58,7 +58,7 @@ description: "Learn to defend the Arm Triangle from Twister Side Control. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from Twister Side Control to an arm triangle?",
+      "name": "How do you recognize the attacker switching from Twister Side Control to an arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key recognition cue is feeling the attacker's chest weight drive down onto your framing arm, pinning it against your own neck, followed by the release of their controlling grip as they begin threading their arm over yours and behind your neck. You may also feel their hips disengage from the Twister Side Control leg entanglement as they prepare to walk to the finishing angle."
@@ -74,7 +74,7 @@ description: "Learn to defend the Arm Triangle from Twister Side Control. Recogn
     },
     {
       "@type": "Question",
-      "name": "What arm positioning prevents the attacker from converting Twister Side Control pressure into an arm triangle?",
+      "name": "What arm position stops the attacker turning Twister Side Control pressure into an arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending the shoulder pressure, use head positioning and hip movement rather than arm frames across your neck."
@@ -82,7 +82,7 @@ description: "Learn to defend the Arm Triangle from Twister Side Control. Recogn
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
+      "name": "In Twister Side Control the head-and-arm lock is on but not yet perpendicular—what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard."
@@ -90,7 +90,7 @@ description: "Learn to defend the Arm Triangle from Twister Side Control. Recogn
     },
     {
       "@type": "Question",
-      "name": "What are the most common defensive errors that allow the arm triangle transition from Twister Side Control?",
+      "name": "What defensive errors most often let the attacker hit the arm triangle from Twister Side Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is instinctively framing across your own neck when defending the shoulder pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity, and it closes within 2-3 seconds."

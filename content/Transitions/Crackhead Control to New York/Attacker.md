@@ -90,7 +90,7 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What is the primary mechanical difference between Crackhead Control and New York that this transition creates?",
+      "name": "What mechanical trade-off does moving from Crackhead Control to New York create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crackhead Control positions the controlling leg across the opponent's neck or upper back with maximum downward pressure and deep overhook penetration, creating high submission density but significant back exposure. New York positions the shin across the shoulder blades with slightly less aggressive pressure but improved stability. The transition trades immediate submission threat for positional sustainability and access to different attack chains like Invisible Collar, Zombie, and Carni."
@@ -98,7 +98,7 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "How do you prevent back exposure during the transitional moment when your primary leg is repositioning?",
+      "name": "During the New York switch, how do you avoid back exposure while your leg repositions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free leg must maintain active hip connection through butterfly hook, posting on opponent's hip, or hooking behind their leg. This leg becomes the primary safety mechanism during transition. Establish this connection before releasing the shin grip and maintain it throughout the leg repositioning movement. If the hip connection is lost, the opponent can immediately begin circling toward back control."
@@ -106,7 +106,7 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Why would you choose to transition to New York rather than continuing to hunt submissions from Crackhead Control?",
+      "name": "Why switch to New York instead of continuing to hunt Crackhead Control submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strategic reasons include: opponent has developed defensive timing for Crackhead submissions and is threatening back takes during your extensions; your hip flexors are fatiguing from the aggressive Crackhead positioning; you want access to attack chains more easily accessed from New York like Invisible Collar or Zombie; or the opponent's posture recovery is making Crackhead submissions difficult but they remain vulnerable to New York attacks."
@@ -114,7 +114,7 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What is the correct grip position when re-establishing shin control after the leg repositions to New York?",
+      "name": "Where should you grip the shin when re-establishing control in New York?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip the shin between the ankle and lower calf with a full hand wrap. Gripping too low near the knee allows the opponent to easily strip the control and restore posture. The ankle-adjacent grip provides maximum leverage and makes grip stripping significantly more difficult. The hand should wrap fully around the shin rather than just grabbing with fingers."

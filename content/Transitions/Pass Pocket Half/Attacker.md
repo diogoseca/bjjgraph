@@ -90,7 +90,7 @@ description: "Learn to pass the Pocket Half Guard with systematic pressure techn
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins scooting their hips underneath you for a deep half entry mid-pass - how do you adjust?",
+      "name": "They scoot their hips under you for deep half as you pass pocket half: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop the extraction attempt and drive your hips back down heavy into their body. Re-flatten them by increasing crossface pressure while simultaneously pulling with your underhook to prevent them from getting underneath you. If they have already entered deep half, you must address that position with appropriate deep half counters before reattempting the pocket half pass."
@@ -106,7 +106,7 @@ description: "Learn to pass the Pocket Half Guard with systematic pressure techn
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the bottom player actively fights your underhook during the pass?",
+      "name": "They fight your underhook during the pocket half pass: what grip adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they begin stripping your underhook, immediately deepen the grip by pulling your elbow tighter to your body and regripping further across their back. If they successfully reduce your underhook depth, consider switching to a whizzer or overhook on the same side to maintain upper body control while you work to recover the deep underhook. Never accept a shallow underhook—either fight to deepen it or switch to an alternative control mechanism."

@@ -64,7 +64,7 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully traps your posting arm against their chest. What is your immediate response to prevent the reversal?",
+      "name": "They trap your posting arm against their chest in 3-4 mount - how do you stop the reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your chest weight forward and down to maximize pressure on their diaphragm, reducing their ability to generate upward bridge force. Simultaneously drive your mounted-side knee deeper into their armpit to create a wedge that resists the turning motion. If you cannot free the trapped arm, be prepared to transition to side control or knee on belly with the bridge rather than fighting the reversal from a compromised base. Flowing to a different top position is better than being fully reversed."
@@ -72,7 +72,7 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy against bridge escapes differ in 3-4 mount versus traditional symmetric mount?",
+      "name": "How does defending bridge escapes in 3-4 mount differ from symmetric mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In 3-4 mount, you must specifically protect the posted-leg side because it is structurally weaker—this is the predictable escape direction. In symmetric mount, bridges can come toward either side equally, requiring balanced defense. In 3-4 mount, concentrate your posting readiness and arm protection on the posted-leg side specifically. Additionally, the hip-switching counter that consolidates to full mount is uniquely available in 3-4 mount because you already have one leg in transition position."
@@ -80,7 +80,7 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "When should you abandon 3-4 mount defense and transition to a different top position during a bridge attempt?",
+      "name": "When should you leave 3-4 mount for another top position during their bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when you feel your base breaking and your center of gravity shifting past the recovery point—typically when the bridge has lifted your hips above the opponent's centerline and you cannot post effectively. At this point, fighting the reversal wastes energy and risks a complete reversal. Instead, flow with the momentum to side control, north-south, or knee on belly. The decision point is whether you can still post and recover versus whether the bridge has already displaced you beyond your base of support."

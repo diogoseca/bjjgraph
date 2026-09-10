@@ -56,7 +56,7 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt a jumping guard, and how do they differ from normal grip fighting movements?",
+      "name": "What early cues show a jumping guard is coming, and how do they differ from normal grip fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include a sudden forward step that closes distance beyond normal grip fighting range, a noticeable increase in grip pressure on your collar or sleeve as they prepare to use you as an anchor, and a subtle loading of their legs with both feet parallel and weight shifting to the balls of their feet. These differ from normal grip fighting because standard exchanges involve alternating grip attempts with natural stance adjustments, while jumping guard preparation shows a coordinated commitment of grips, footwork, and weight distribution all aligning simultaneously toward a single explosive movement. The grip tightening in particular is distinctive because it serves a pulling function rather than a controlling function."
@@ -72,7 +72,7 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has made contact and their legs are around your torso but ankles are not yet locked - what is the highest percentage response in this critical window?",
+      "name": "Their legs are around your torso but ankles aren't locked yet — highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In this critical 1-2 second window, immediately widen your base by stepping one foot back and out to a wide stance, then drive your hips forward and down to create pressure that makes ankle locking difficult. Simultaneously establish an underhook on one side and begin circling toward the underhook side to create an angle that prevents symmetrical guard closure. Use your free hand to push down on their top knee to create space between their legs and your body. The combination of base widening, hip pressure, underhook angle, and knee control attacks multiple aspects of their guard closure simultaneously, making it extremely difficult for them to complete the locked ankles position."
@@ -80,7 +80,7 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should your standing stance and distance management change when you know your opponent favors jumping guard entries?",
+      "name": "How should your stance and distance change against an opponent who favors jumping guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a slightly longer range than normal by keeping your lead foot farther back, forcing them to cover more distance to reach jumping range. Keep your hands active at mid-level rather than reaching forward for grips, which would allow them to use your extended arm as an anchor. Adopt a slightly wider base with more knee bend than typical standing posture, pre-loading your sprawl reaction. Focus your grip fighting on controlling their sleeves rather than engaging collar grips, as sleeve control limits their ability to pull you into jumping range and denies them the collar anchor they need. When they step forward, immediately match with a small step back rather than holding ground, maintaining the distance differential that makes their jump fall short."

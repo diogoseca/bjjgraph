@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "What defensive reaction from the opponent creates the arm triangle opportunity from Shoulder of Justice?",
+        "question": "Which defensive reaction to Shoulder of Justice opens the arm triangle?",
         "answer": "The trigger is the opponent bringing their far arm across their own face and neck to shield against the intense jaw pressure of Shoulder of Justice. Their forearm or hand pushes against your shoulder or crosses their own throat line to relieve the pressure. This arm crossing their own neck positions their shoulder against their carotid, creating the head-and-arm configuration. Rather than fighting this reaction, you capitalize on it as the setup for the arm triangle.",
         "safety_critical": false,
         "answer_line": "Far arm crosses own neck",
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent starts to retract their far arm during the grip switch - what adjustment prevents escape?",
+        "question": "They retract the far arm during your Shoulder of Justice grip switch — what stops the escape?",
         "answer": "Increase chest pressure immediately by driving your weight down onto their retracting arm before it clears. If you cannot pin it, abandon the arm triangle attempt and immediately re-establish Shoulder of Justice jaw pressure with your shoulder back in their chin. Do not chase a half-locked arm triangle. The retraction removes their own defense against the jaw pressure, so returning to Shoulder of Justice restarts the dilemma cycle and the reaction will reappear.",
         "safety_critical": false,
         "answer_line": "Drive chest weight onto the arm",
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
+        "question": "With the arm triangle locked from Shoulder of Justice, what shows escape is no longer possible?",
         "answer": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body. Their face may begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively to disrupt your angle, they have passed the point of no escape and the finish is imminent.",
         "safety_critical": false,
         "answer_line": "Shoulder bone pinned, no space",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from extracting their trapped arm during the transition from Shoulder of Justice to arm triangle?",
+        "question": "How do you stop the arm escaping during the Shoulder of Justice to arm triangle switch?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their far arm against their own neck so they cannot retract it. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out during transition, immediately return to Shoulder of Justice pressure rather than chasing a compromised arm triangle.",
         "safety_critical": false,
         "answer_line": "Chest pressure pins the arm",
@@ -605,7 +605,7 @@
         }
       },
       {
-        "question": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
+        "question": "Head-and-arm locked from Shoulder of Justice, angle not yet walked — what escapes remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to disrupt the angle.",
         "safety_critical": false,
         "answer_line": "Turn in, frame hips, get to knees",
@@ -620,7 +620,7 @@
         }
       },
       {
-        "question": "What are the most common defensive errors that allow the arm triangle transition from Shoulder of Justice?",
+        "question": "What defensive errors let Shoulder of Justice become an arm triangle?",
         "answer": "The most common error is instinctively bringing the far arm across the face to shield against jaw pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity and closes within 2-3 seconds.",
         "safety_critical": false,
         "answer_line": "Crossing the far arm over your face",

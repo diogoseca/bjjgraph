@@ -88,7 +88,7 @@ description: "Learn to execute the posture break from Mission Control as the top
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-grips your head immediately after you strip their primary head control - how do you respond?",
+      "name": "From Mission Control, they re-grip your head right after you strip it: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the new grip with your free hand while maintaining your hip post if already established. Do not give up on the grip fight—re-gripping is expected and you must be prepared to strip multiple times. If they consistently re-grip faster than you can strip, switch to a two-handed grip strip approach, temporarily sacrificing the hip post to break their head control completely before reposting. The key is persistence in the grip fight rather than abandoning the sequence."
@@ -104,7 +104,7 @@ description: "Learn to execute the posture break from Mission Control as the top
     },
     {
       "@type": "Question",
-      "name": "During the posture break, your opponent begins sliding their leg across your face for a triangle - what is your immediate response?",
+      "name": "Breaking posture from Mission Control, they slide a leg across your face for a triangle — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive forward with stacking pressure rather than continuing to posture upward. Continuing upward assists their triangle entry by creating the space needed for the leg to cross. Stacking forward collapses their hip elevation and compresses the space needed for the triangle lock. Simultaneously tuck your chin and ensure your trapped arm elbow stays pinned to your ribs. Once the triangle threat is neutralized by the stacking pressure, reassess whether to continue the posture break or switch to a stacking escape approach."

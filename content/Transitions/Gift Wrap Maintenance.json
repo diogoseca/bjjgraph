@@ -264,7 +264,7 @@
         }
       },
       {
-        "question": "What conditions indicate that your Gift Wrap maintenance is degrading and requires immediate correction?",
+        "question": "What signs show your Gift Wrap control is degrading and needs immediate correction?",
         "answer": "Key indicators include feeling slack in the trapped arm's diagonal line across the chest, your chest lifting away from the opponent's back, hooks becoming shallow with heels sliding toward knee level, and the opponent's trapped arm drifting below their shoulder line toward their waist. Any single indicator requires immediate correction. Multiple simultaneous indicators suggest the control is close to failure.",
         "answer_line": "Slack in the arm's diagonal line",
         "distractors": {
@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "Your opponent explosively bridges while you maintain Gift Wrap—what is the most common failure point?",
+        "question": "They bridge explosively against your Gift Wrap: what is the most common failure point?",
         "answer": "The most common failure is allowing your chest to separate from their back during the bridge. When the opponent bridges, the natural reaction is to lean back to absorb the force, but this creates the space they need for shoulder rotation and arm recovery. The correct response is to drive your hips and chest forward into the bridge, loading your weight onto them rather than pulling away, which collapses the bridge while maintaining all contact points.",
         "answer_line": "Chest separating from their back",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "How should your controlling hand be positioned on the opponent's trapped wrist for optimal retention?",
+        "question": "How should your controlling hand grip their trapped wrist to retain the Gift Wrap?",
         "answer": "Grip their wrist or lower forearm with your thumb on the inside toward their body and fingers wrapping the outside. This grip orientation allows you to pull their arm across their chest while your forearm presses against the back of their upper arm, creating two opposing pressure points. Gripping too high on the forearm reduces leverage, while gripping the hand allows wrist rotation escape.",
         "answer_line": "Thumb inside, fingers wrap out",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their shoulder forward to extract the trapped arm—what is your immediate counter?",
+        "question": "They rotate the trapped shoulder forward to escape the Gift Wrap: what is your counter?",
         "answer": "Drive your controlling elbow toward the opponent's hip on the trapped arm side while simultaneously tightening chest-to-back connection. This counters their shoulder rotation by applying force in the opposite rotational direction. Additionally, briefly threatening a rear naked choke with your free arm forces them to address the neck threat, interrupting the arm recovery sequence and combining anti-rotation pressure with offensive distraction.",
         "answer_line": "Elbow to hip, tighten connection",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "If your maintenance is failing and the opponent is recovering their arm, what attack should you launch?",
+        "question": "With Gift Wrap control failing and their arm recovering, what attack should you launch?",
         "answer": "As the arm begins recovering, immediately attack the rear naked choke. During arm recovery, the opponent typically commits their free arm to pushing against your controlling arm, which removes it from neck defense. This creates a brief but high-percentage window for the choke. If the choke fails, the recovery process also loosens their overall defensive structure, which can be exploited to re-establish the Gift Wrap or transition to crucifix.",
         "answer_line": "Attack the rear naked choke",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "Your attacker begins threatening a rear naked choke between maintenance cycles—how does this change your escape strategy?",
+        "question": "They threaten a rear naked choke between Gift Wrap cycles: how does your escape plan change?",
         "answer": "The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance.",
         "answer_line": "Defend choke first, then escape",
         "distractors": {

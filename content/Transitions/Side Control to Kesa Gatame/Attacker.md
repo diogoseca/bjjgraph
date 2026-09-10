@@ -74,7 +74,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical hip movement that defines the transition from standard side control to Kesa Gatame, and why must it be executed as a continuous motion?",
+      "name": "Which hip movement defines the switch to Kesa Gatame, and why must it be continuous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical movement is a roughly 90-degree hip rotation from perpendicular alignment (facing across opponent's body) to parallel alignment (facing toward opponent's head). This must be continuous because any pause during the rotation creates a window where your weight is partially distributed and your base is transitional. A paused rotation leaves you in a no-man's-land where you have neither the stability of side control nor the control of Kesa Gatame, allowing the opponent to exploit the compromised position with frames or guard recovery attempts."
@@ -82,7 +82,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
     },
     {
       "@type": "Question",
-      "name": "Why must head control be deepened from crossface to full head wrap before initiating the hip rotation?",
+      "name": "Why deepen the crossface into a full head wrap before rotating your hips into Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface (forearm across the jaw) provides directional pressure but not the secure head immobilization needed for Kesa Gatame. If you rotate your hips before deepening to a full head wrap (arm threaded under the neck with bicep cupping the back of the head), the opponent can turn their head to face you during the rotation, which allows them to begin turning their body into you and threatening back takes. The deep head wrap locks their head position so they cannot follow your rotation with their own body movement, maintaining the control asymmetry that makes Kesa Gatame effective."
@@ -90,7 +90,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins actively framing against your face with their free arm during the transition - how do you adjust?",
+      "name": "They frame on your face with their free arm during the Kesa Gatame entry — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the frame directly, use it as a submission opportunity. Their extended arm is vulnerable to americana by catching their wrist and rotating it toward the mat, or you can trap the framing arm with your near leg by posting it across their body. Alternatively, walk your head control deeper and close the space between their framing arm and their neck, threatening an arm triangle. The key principle is to convert their defensive action into an offensive opportunity rather than engaging in a strength contest against their frame."
@@ -98,7 +98,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
     },
     {
       "@type": "Question",
-      "name": "What are the essential grip and body positioning requirements that must be established before the hip rotation begins?",
+      "name": "What grips and body position must be set before you rotate your hips into Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before rotation: your arm must be threaded deep under opponent's neck with bicep controlling the back of their head; their near arm must be isolated with your near-side arm positioned to trap it under your armpit; your chest must be heavy on their upper torso with no space between bodies; and your base must be stable enough to support a smooth rotation. Without all four elements secured, the rotation creates exploitable gaps. The most commonly skipped element is the deep head wrap, and this is the element most responsible for transition failures."
@@ -114,7 +114,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
     },
     {
       "@type": "Question",
-      "name": "How does the base leg positioning in Kesa Gatame differ from standard side control, and why is this critical for the transition?",
+      "name": "How does the base leg differ in Kesa Gatame versus side control, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In standard side control, base comes from knees and hip-to-hip connection. In Kesa Gatame, the far leg posts wide behind you at 45 degrees acting as a kickstand, while the near leg extends forward or hooks the opponent's far hip. This is critical during the transition because your base system fundamentally changes as you rotate. Midway through the rotation, if you have not yet established the wide posted leg, you are in a vulnerable phase with neither side control base nor Kesa Gatame base. The far leg must begin posting wide as soon as the hip rotation passes the halfway point."

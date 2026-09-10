@@ -64,7 +64,7 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is sprawl timing critical against Morote Seoi Nage, and when exactly should you initiate the sprawl?",
+      "name": "Defending Morote Seoi Nage, when exactly must you sprawl, and why is that timing critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sprawl must be initiated the moment the opponent steps their lead foot across your stance and begins rotating their hips. This is the transition between kuzushi and entry, and it represents the last moment where a sprawl can prevent the opponent from loading you onto their back. Sprawling too early alerts the opponent to switch attacks, while sprawling too late means they have already achieved back-to-chest contact and your hip drop will actually accelerate the throw rather than prevent it."
@@ -72,7 +72,7 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured both sleeve grips and is pulling you forward aggressively. What is your defensive priority?",
+      "name": "They have both sleeve grips and are pulling you forward for a throw: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to strip at least one sleeve grip using a two-on-one grip break before the opponent can step in for the rotation. Without bilateral control, the throw loses most of its effectiveness and control. Simultaneously, sit your hips back to resist the forward pull and prevent your weight from shifting onto your toes. If you cannot break the grip in time and the entry begins, immediately transition to a sprawl defense rather than continuing to fight the grips while being thrown."
@@ -80,7 +80,7 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive stance when you suspect your opponent favors forward throws like Morote Seoi Nage?",
+      "name": "How should you set your stance against an opponent who favors Morote Seoi Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a known forward-throw specialist, adopt a slightly more upright stance with your hips further back than normal and your weight distributed more toward your heels. Keep your elbows tighter to your body to make sleeve grips harder to secure. Maintain slightly wider foot spacing to lower your center of gravity and increase sprawl stability. Use more circular grip fighting rather than straight push-pull patterns to deny the opponent the bilateral control they need to initiate the technique."
@@ -88,7 +88,7 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "The throw has been partially completed and you are being lifted off your feet. What is the best defensive option at this late stage?",
+      "name": "Morote Seoi Nage is underway and you are off your feet: what is your best late option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, preventing the throw entirely is unlikely. Your priority shifts to controlling the landing. Counter-rotate your body toward the opponent and pull them with you using whatever grip you have, aiming to land in closed guard rather than flat on your back in side control. Tuck your chin to protect your head during impact, and immediately begin framing and hip escape movements upon landing to prevent the opponent from settling into a dominant position. Accepting the takedown points but denying side control is far better than landing flat and being pinned."

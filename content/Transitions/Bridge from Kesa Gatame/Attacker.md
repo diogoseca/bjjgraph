@@ -74,7 +74,7 @@ description: "Execute the complete bridge-and-roll reversal from scarf hold bott
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the 45-degree bridge angle critical for the scarf hold reversal rather than a vertical bridge?",
+      "name": "Why bridge at 45 degrees rather than straight up for the kesa gatame reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 45-degree angle exploits the perpendicular configuration of scarf hold by directing rotational force over the opponent's exposed shoulder line. A vertical bridge only lifts them momentarily before gravity returns them to position, generating no horizontal displacement. The angled bridge converts vertical hip extension power into horizontal rolling momentum that targets the structural weakness of the opponent's back-facing angle, which they cannot resist with simple downward pressure alone."
@@ -82,7 +82,7 @@ description: "Execute the complete bridge-and-roll reversal from scarf hold bott
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical control point that must be established before committing to the bridge?",
+      "name": "Which control must you establish before committing to the bridge from kesa gatame bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Trapping the opponent's head-wrapping arm is the most critical control point. Without this arm secured across your chest, the opponent can immediately post their hand on the mat when they feel the bridge, creating a solid structural base that completely negates the rotational force. The arm trap eliminates their primary posting ability, making the roll mechanically possible. The leg hook and foot positioning enhance the bridge but cannot compensate for a missing arm trap."

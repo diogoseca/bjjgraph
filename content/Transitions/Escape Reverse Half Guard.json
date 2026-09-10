@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "Your opponent establishes a strong crossface from behind during your escape attempt - how do you respond?",
+        "question": "They establish a strong crossface from behind during your escape: how do you respond?",
         "answer": "Stop the rotation immediately and address the crossface first. Use your inside hand to frame against their crossface arm, creating enough space to move their arm past your head. Only resume the rotation after neutralizing the crossface control. Attempting to rotate through a strong crossface results in being flattened and losing all offensive capability from the position.",
         "answer_line": "Frame crossface, clear arm first",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent begins inserting hooks for back control as you initiate your rotation - what is your response?",
+        "question": "They start inserting hooks as you begin your rotation: what is your response?",
         "answer": "Keep your elbows tight to your body and address the hooks immediately before continuing the rotation. Scoop the hook with your hand and push it down while maintaining your leg control on their trapped leg. If the opponent gets one hook in, you must clear it before completing the rotation, as rotating with hooks established transitions you directly into a back control disadvantage.",
         "answer_line": "Scoop and clear hook first",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What grip adjustments are necessary when transitioning from reverse half guard to standard half guard?",
+        "question": "How do your grips and frames change as you rotate to standard half guard?",
         "answer": "During the rotation, your frames transition from pushing against the opponent's hips from behind to establishing standard half guard frames facing the opponent. Your inside arm shifts from a defensive neck-protecting position to either an underhook attempt or forearm frame against the opponent's chest and shoulder. Your outside hand transitions from hip frame to collar grip or head control for standard half guard offense.",
         "answer_line": "Hip push becomes chest frame",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest indicators that the bottom player is about to attempt the reverse half guard escape?",
+        "question": "What are the earliest signs they are about to attempt the reverse half guard escape?",
         "answer": "The earliest indicators are frame placement against your hips on the trapped leg side and initial hip escaping movements away from your body. These preparatory actions create the space needed for rotation and precede the actual escape by one to two seconds. Feeling increased pushing pressure against your hips should trigger an immediate defensive response before the rotation begins.",
         "answer_line": "Frames on hips, hip escaping",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "How should you adjust your pressure if the bottom player begins to invert rather than rotate normally?",
+        "question": "How do you adjust pressure if they start inverting instead of rotating normally?",
         "answer": "If the bottom player begins inverting, shift your weight toward their hips and sprawl your legs back to eliminate the space they need for inversion. Drive your chest pressure downward toward the mat rather than forward. This prevents the inversion entry and forces them back to the standard rotation-based escape pattern, which is more predictable and easier to counter from your position.",
         "answer_line": "Sprawl hips, drive chest down",
         "distractors": {

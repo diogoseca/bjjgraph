@@ -98,7 +98,7 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that the bottom player is transitioning from control to an active Buggy Choke finish?",
+      "name": "How do you recognize half guard bottom shifting from control into a buggy choke finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition is signaled by the bottom player chambering their knee up toward their own head, your crossface arm suddenly feeling pinned and unable to straighten, their hand reaching toward their own shin to close a loop around your head, and compression building on the sides of your neck. These combined changes mean they are sealing the choke rather than just holding half guard."

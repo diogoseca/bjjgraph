@@ -82,7 +82,7 @@ description: "Learn to defend the outside heel hook from Honey Hole. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun rotating for the outside heel hook but has not fully secured the figure-four - what do you do?",
+      "name": "They are rotating for the outside heel hook but lack the figure-four; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the cupping hand with both of your hands using a two-on-one grip strip, peeling their fingers off your heel while simultaneously initiating a hip rotation toward 50-50. This dual-action approach works because the grip is at its weakest before the figure-four locks it in place. If you successfully strip the grip, immediately commit to a full positional escape attempt before they can re-establish any heel hook grip."
@@ -90,7 +90,7 @@ description: "Learn to defend the outside heel hook from Honey Hole. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does defending the outside heel hook differ from defending the inside heel hook from the same position?",
+      "name": "How does defending the outside heel hook differ from defending the inside from honey hole?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key difference is the direction of dangerous rotation. Inside heel hook defense involves preventing inward heel rotation toward your centerline, while outside heel hook defense requires preventing outward, lateral heel rotation away from your centerline. The common inside heel hook defense of rotating your knee inward actually exposes the lateral heel and feeds the outside heel hook. Effective defense against dual threats requires recognizing which direction the grip is configured for and adjusting accordingly, or escaping the position entirely before any grip is secured."

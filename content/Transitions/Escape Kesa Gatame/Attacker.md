@@ -74,7 +74,7 @@ description: "Execute the Escape from Kesa Gatame in BJJ. Step-by-step guide to 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why are standard side control shrimping escapes ineffective against scarf hold and what movement pattern replaces them?",
+      "name": "Why does shrimping fail against kesa gatame, and what movement replaces it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest."
@@ -106,7 +106,7 @@ description: "Execute the Escape from Kesa Gatame in BJJ. Step-by-step guide to 
     },
     {
       "@type": "Question",
-      "name": "Why is the bottom leg hook on the opponent's near leg critical before attempting any escape from scarf hold?",
+      "name": "Why hook their near leg before escaping kesa gatame bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg hook serves dual purpose. First, it prevents the opponent from transitioning to mount during escape attempts, which would result in a significantly worse position. Second, it provides a control point to disrupt their base during the bridge phase by controlling their nearest support structure. Without this hook, escape attempts frequently result in mount rather than freedom."
@@ -114,7 +114,7 @@ description: "Execute the Escape from Kesa Gatame in BJJ. Step-by-step guide to 
     },
     {
       "@type": "Question",
-      "name": "Your bridge-and-roll attempt is defended because the opponent widens their base - what do you do next?",
+      "name": "Your bridge and roll fails because they widen their base: what do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to the ghost escape variant. When the opponent widens base and drops hips to counter the bridge, they create space behind their body. Turn into the opponent and come to your knees behind them, using the backdoor escape pathway. The key is flowing immediately from the failed bridge into the next technique rather than resetting and losing the positional disruption you created."

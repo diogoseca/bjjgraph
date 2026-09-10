@@ -50,7 +50,7 @@ description: "How to defend against Leg Drag to North-South in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the passer is transitioning toward north-south rather than continuing to mount or side control?",
+      "name": "Earliest cue that the passer is going to north-south rather than mount or side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their feet begin to walk in an arc toward your head combined with a release or loosening of their grip on your dragged leg. Their chest pressure also shifts from driving laterally into your shoulder to sliding across your upper chest toward your sternum. This directional change in pressure is the most reliable tactile indicator."
@@ -66,7 +66,7 @@ description: "How to defend against Leg Drag to North-South in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your frames are established but the passer has already cleared your shoulder line—what is your best remaining option?",
+      "name": "Framing under leg drag, but they cleared your shoulder line — best remaining option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, your best option is to immediately hip escape hard toward their legs while pulling your knees to your chest. You are trying to insert a knee or both knees between your bodies before they settle full north-south pressure. If you can get even one knee inside, you can work to half guard. If they have already settled chest-to-chest, switch to north-south escape techniques—controlled breathing, small hip escapes, and frame creation to eventually insert a knee during their submission attempts."
@@ -74,7 +74,7 @@ description: "How to defend against Leg Drag to North-South in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "During positional sparring from leg drag bottom, what specific defensive drill prepares you for the north-south transition?",
+      "name": "What sparring drill best prepares leg drag bottom for the north-south transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture."
@@ -82,7 +82,7 @@ description: "How to defend against Leg Drag to North-South in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How does your defensive response differ based on whether you are still in leg drag control versus the passer being mid-transition to north-south?",
+      "name": "How does your defence differ in leg drag control versus mid-transition to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In leg drag control before the transition starts, your defense focuses on preventing all three consolidation pathways through lateral frames and hip positioning. Once the north-south transition is in progress, your defense must specifically target the circular motion—either turning into them to block the arc or exploiting the released leg grip to insert a knee. The key difference is that mid-transition defense requires directional awareness and immediate reaction to a specific threat, whereas pre-transition defense is about general positional integrity."

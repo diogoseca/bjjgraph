@@ -287,7 +287,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Cross Collar Choke from Mount primarily target to cause submission?",
+        "question": "What does the cross collar choke from mount primarily target to cause the submission?",
         "answer": "The Cross Collar Choke targets both carotid arteries on the lateral sides of the neck. The forearm bones from each gripping arm compress these arteries bilaterally, restricting blood flow to the brain. This produces unconsciousness within 4-8 seconds when properly applied, unlike trachea-based chokes which restrict airflow and take much longer to become effective.",
         "safety_critical": true,
         "answer_line": "Both carotid arteries",
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "Your opponent begins stripping your first collar grip with both hands — what immediate attacking opportunity does this create?",
+        "question": "They strip your first collar grip with both hands from mount—what attack does that open?",
         "answer": "When the opponent uses both hands to strip your collar grip, both of their arms are occupied above their torso and away from their body. This creates an immediate Americana or Kimura opportunity on either arm since they cannot defend the shoulder lock while gripping your wrist. Alternatively, their elevated elbows create space to advance to high mount where collar access improves dramatically.",
         "safety_critical": false,
         "answer_line": "Americana or Kimura on either arm",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "How do you distinguish between effective carotid compression and dangerous trachea crushing during application?",
+        "question": "How do you tell effective carotid compression from dangerous trachea crushing?",
         "answer": "Carotid compression targets the sides of the neck where the arteries are superficial, producing a sensation of pressure and lightheadedness without pain or difficulty breathing. Trachea crushing targets the front of the throat, causing coughing, gagging, and sharp pain. The wrist blade should be positioned laterally at mid-neck height. If your partner reports throat pain or coughing, your hand position is too centered and needs to shift to the side of the neck.",
         "safety_critical": true,
         "answer_line": "Wrist blade on side of neck",
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin and clasps hands behind their head to deny collar access — what adjustment allows you to continue attacking?",
+        "question": "They tuck the chin and clasp hands behind the head—how do you keep attacking from mount?",
         "answer": "Use forearm cross-face pressure to turn their head and expose collar on one side, or transition to an Ezekiel Choke using the gi sleeve as the choking surface since this attack does not require collar access. You can also dig the first grip in by wedging your fingers between their clasped hands and the collar, using their own chin tuck to anchor the grip deeper as you pry the collar open with your wrist.",
         "safety_critical": false,
         "answer_line": "Cross-face to turn head, or Ezekiel",
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "What are the key safety protocols when your training partner stops moving during a Cross Collar Choke application?",
+        "question": "What do you do if your partner stops moving during a cross collar choke?",
         "answer": "Immediately release all grips and disengage the position. A partner who stops moving may have lost consciousness from carotid compression. Place them on their side in recovery position, monitor breathing, and alert the instructor immediately. Do not shake them or attempt to wake them forcefully. Blood chokes can cause unconsciousness within seconds, so any sudden loss of resistance must be treated as a potential loss of consciousness requiring immediate medical assessment.",
         "safety_critical": true,
         "answer_line": "Release, recovery position, alert",
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if the choke feels tight but the opponent is not tapping after several seconds?",
+        "question": "The choke feels tight but no tap after several seconds—what grip adjustment do you make?",
         "answer": "If pressure feels tight but no tap comes, the grip is likely compressing the trachea rather than the carotid arteries. Without releasing the position, rotate your wrists slightly to reposition the forearm bones laterally toward the sides of the neck. Ensure the X-formation is at mid-neck height rather than against the chin or throat. In training, if repositioning does not produce a tap within a few additional seconds, release and reset rather than cranking harder on an incorrectly positioned choke.",
         "safety_critical": true,
         "answer_line": "Rotate wrists to sides of neck",
@@ -577,7 +577,7 @@
         }
       },
       {
-        "question": "Why is extending your arms to push the opponent away a dangerous defensive response to the Cross Collar Choke?",
+        "question": "Why is pushing them away with extended arms a dangerous cross collar choke defense?",
         "answer": "Extended arms create immediate armbar and Americana opportunities from mount. The opponent can abandon the choke attempt and transition to a joint lock on the extended limb, which may be even harder to defend than the original choke. This compounds the danger by giving the attacker a second high-percentage submission option. Proper defense uses two-on-one grip control with elbows kept tight to the body.",
         "safety_critical": false,
         "answer_line": "Extended arms invite armbar",
@@ -607,7 +607,7 @@
         }
       },
       {
-        "question": "What are the visual and tactile recognition cues that a Cross Collar Choke is being set up from Mount?",
+        "question": "What visual and tactile cues show a cross collar choke is being set up from mount?",
         "answer": "Visual cues include the opponent reaching cross-body toward your far collar, dropping chest weight forward, and threading a second hand under the first arm. Tactile cues include feeling fingers inserting inside your collar behind your neck, wrist bone pressure against the side of your neck, and increasing cross-face pressure from the forearm of the gripping arm. Recognizing these early allows defense at the grip stage rather than the finish.",
         "safety_critical": false,
         "answer_line": "Fingers deep inside your collar",

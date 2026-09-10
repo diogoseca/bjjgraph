@@ -84,7 +84,7 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why is Kouchi Gari particularly effective as part of combination attacks rather than as an isolated technique?",
+      "name": "Why is Kouchi Gari more effective in combination than as an isolated attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When an opponent defends one way, they expose themselves to the follow-up. This makes Kouchi Gari an excellent opening move in a combination, even when the initial throw does not land cleanly."

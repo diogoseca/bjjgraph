@@ -56,7 +56,7 @@ description: "Defend against the hip escape from Ushiro Kesa Gatame. Learn to re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that the bottom player is initiating a hip escape rather than a bridge?",
+      "name": "What earliest cue shows the bottom player is hip escaping rather than bridging?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the hip turn—the bottom player rotating onto their far hip indicates a shrimping escape, while planting both feet symmetrically indicates a bridge. The hip escape also shows the free arm positioning as a lateral frame against your hip rather than a push-off point under your shoulder. Recognizing this distinction within the first second allows you to apply the correct defensive response: forward pressure for hip escapes versus sprawling for bridges."
@@ -72,7 +72,7 @@ description: "Defend against the hip escape from Ushiro Kesa Gatame. Learn to re
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully inserts a knee shield during their escape—what is the best immediate response?",
+      "name": "They insert a knee shield against your ushiro kesa gatame: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the knee shield is in, do not try to remove it by pulling the leg out, as this creates more space. Instead, drive shoulder pressure against the knee shield to flatten it, then transition to a half guard passing strategy such as the knee slice or smash pass. Alternatively, if the shield is not deeply set, you can backstep to re-establish a different control position. The key recognition is that Ushiro Kesa Gatame is lost once the knee enters—switching to half guard top mentality is essential."
@@ -80,7 +80,7 @@ description: "Defend against the hip escape from Ushiro Kesa Gatame. Learn to re
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to transition from pin defense to mount advancement during the escape attempt?",
+      "name": "When should you leave the pin to advance to mount during their escape attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when the bottom player has created lateral space through two or three shrimps but has not yet raised their near knee to block. Their hips are angled away from you and moving in one direction, creating a clear pathway for your far leg to step over. This window typically exists for one to two seconds between the space creation and the knee insertion. Committing too early means insufficient space for the step-over; committing too late means the knee shield blocks the transition."

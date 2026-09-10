@@ -74,7 +74,7 @@ description: "How to execute Standing Escape in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical assessment you must make before committing to the Standing Escape from Invisible Collar?",
+      "name": "Before committing to the standing escape from invisible collar, what must you assess?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must assess the depth of the opponent's collar grip. If all four fingers are deeply embedded inside the gi material with knuckles against your neck, standing will tighten the choke by adding gravitational force to the collar pressure. Only commit to standing when you have successfully created slack in the collar through two-on-one wrist control and can verify the grip is shallow enough to survive the vertical transition."
@@ -82,7 +82,7 @@ description: "How to execute Standing Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain a forward lean of approximately 45 degrees during the standing phase rather than standing upright?",
+      "name": "Escaping the invisible collar, why lean forward about 45 degrees instead of standing upright?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forward lean serves two critical functions. First, it prevents the opponent from using their body weight to pull you backward into their lap, which would reset the escape with potentially deeper hooks. Second, it loads your weight onto the opponent's bottom hook, making it easier to peel by driving their foot toward the mat. Standing upright creates a pendulum effect where the attacker's hanging weight generates backward momentum that collapses the escape."
@@ -90,7 +90,7 @@ description: "How to execute Standing Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent locks a body triangle as you begin shifting weight to stand—how do you adjust your escape strategy?",
+      "name": "They lock a body triangle as you shift weight to stand from invisible collar. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the standing escape immediately. A body triangle dramatically increases the opponent's ability to control your hips and execute mat returns during standing attempts. Switch to addressing the body triangle first by angling your trapped leg and working to unlock the figure-four configuration. Hip escape and rolling escape variants are more effective against body triangle than standing. Return to the standing escape only after successfully breaking the body triangle lock."
@@ -106,7 +106,7 @@ description: "How to execute Standing Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the collar grip and shoots for a rear naked choke as you initiate the stand-up—what is your response window?",
+      "name": "They drop the collar and shoot for an RNC as you start standing. What's your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transition creates a 1-2 second window where neither the collar choke nor the RNC is fully established. In this window, immediately tuck your chin and trap their transitioning arm under your armpit by clamping your elbow tight to your body. Simultaneously accelerate your standing sequence—the opponent's attention is divided between establishing the new choke and maintaining positional control. This is actually a favorable moment to complete the escape because their grip transition temporarily weakens their overall control structure."

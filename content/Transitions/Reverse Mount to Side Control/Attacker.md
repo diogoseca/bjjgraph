@@ -80,7 +80,7 @@ description: "Master the attacker's approach to converting Reverse Mount into Si
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important preparatory action before initiating the hip rotation toward side control?",
+      "name": "Before rotating from reverse mount to side control, what is the key preparatory action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Blocking the opponent's far hip with your near-side hand is the most critical preparatory action. This prevents the opponent from inserting their near-side knee between your bodies during the rotation, which is the highest-percentage counter to this transition. Without the hip block, the rotation creates a natural gap that the opponent's knee can exploit to recover half guard."
@@ -104,7 +104,7 @@ description: "Master the attacker's approach to converting Reverse Mount into Si
     },
     {
       "@type": "Question",
-      "name": "What determines whether side control is a better conversion target than standard mount from reverse mount?",
+      "name": "When is side control a better conversion target than mount from reverse mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Side control is preferred when the opponent's arm positioning creates strong frames against your chest that would block mount rotation, when you want immediate access to submission chains like americana and kimura that are more accessible from side control, or when the opponent's defensive posture makes hook insertion for back control impractical. Side control is also the safer choice against opponents who are skilled at timing bridges during the longer mount rotation arc."
@@ -120,7 +120,7 @@ description: "Master the attacker's approach to converting Reverse Mount into Si
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts inserting their knee between your bodies during mid-rotation - what is your immediate response?",
+      "name": "They insert a knee between you mid-rotation to side control. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your rotating hip down aggressively to flatten their inserting knee back to the mat. If their knee has progressed past the point of flattening, accelerate through the remaining rotation to establish crossface in side control before they can fully recover half guard. If half guard is established despite your efforts, immediately transition to half guard passing sequences rather than attempting to retreat back to reverse mount, which wastes the positional progress already made."

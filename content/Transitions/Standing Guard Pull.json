@@ -261,7 +261,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the guard pull relative to your opponent's posture and weight distribution?",
+        "question": "Relative to your opponent's posture, when should you initiate the guard pull?",
         "answer": "The optimal timing is immediately after you have broken the opponent's posture forward, when their weight has shifted onto their toes and their hips are above their feet. This is the window where they cannot effectively sprawl or retreat because their center of gravity is already compromised forward. Pulling before the posture break invites a sprawl counter; pulling too late after they recover posture gives them time to brace and strip grips. The ideal pull happens within one second of a successful posture break.",
         "answer_line": "Right after posture break",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "In which direction should your pulling force be applied during the descent to maximize guard establishment success?",
+        "question": "In which direction should you pull during the descent of a standing guard pull?",
         "answer": "Your pulling force should be directed diagonally downward and toward you, not straight down. The collar grip pulls the opponent's head and shoulders forward and slightly to the side of your collar grip, creating a rotational off-balancing that prevents them from driving straight forward over you. The sleeve grip pulls laterally to prevent their posting hand from reaching the mat. This combined diagonal force vector tilts the opponent over the axis of your developing guard structure, loading their weight onto your hooks rather than allowing them to remain balanced over their own feet.",
         "answer_line": "Diagonal down, not straight down",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your initial guard pull lands you in open guard but your opponent immediately stands tall and begins stripping your grips—what is your follow-up sequence?",
+        "question": "After your pull, they stand tall and strip grips: what is your follow-up?",
         "answer": "Immediately transition to a distance-management guard by placing both feet on their hips to maintain separation while you work to re-establish grips. From feet-on-hips, you have options to transition to De La Riva by hooking their lead leg, collar-sleeve by fighting for upper body grips, or shin-to-shin guard if they step forward. The critical priority is maintaining at least one foot on their hip as a frame while you fight for grips with your hands. Never allow them to stand tall with no leg contact—this is the passing configuration that defeats open guard.",
         "answer_line": "Feet on hips, fight for grips",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "Your opponent strips your collar grip mid-pull while you are already descending—how do you salvage the transition?",
+        "question": "They strip your collar grip mid-pull as you descend: how do you salvage the transition?",
         "answer": "With the collar grip lost, redirect your free hand to their opposite sleeve or wrist for a two-on-one sleeve configuration, or frame on their shoulder to prevent them from driving forward. Complete the sit but immediately transition to a seated guard posture rather than lying back—scoot your hips forward to close the distance gap created by losing the pulling grip. From seated guard, you can re-establish grips at close range or use your feet on their hips to create controlled distance. The key is not aborting entirely but adapting the landing to a viable guard position despite the compromised grip.",
         "answer_line": "Switch to sleeve, seat guard",
         "distractors": {
@@ -373,7 +373,7 @@
         }
       },
       {
-        "question": "What is the maximum acceptable time between your hip landing on the mat and your first hook insertion?",
+        "question": "How long after your hip lands may you wait before inserting your first hook?",
         "answer": "One second is the maximum acceptable window. Beyond one second without a hook or frame, the opponent has time to advance past your legs and begin a passing sequence with positional advantage. Elite guard pullers insert their primary hook during the descent itself, making the landing and hook insertion essentially simultaneous. Training should focus on reducing this gap to zero through pre-planned hook patterns that activate as part of the sitting motion rather than as a separate action after landing.",
         "answer_line": "One second, near simultaneous",
         "distractors": {
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "How should your guard pull strategy change when your opponent has a significant size or strength advantage?",
+        "question": "How should your guard pull change against a significantly bigger, stronger opponent?",
         "answer": "Against larger opponents, prioritize distance-creating guard variations like De La Riva or feet-on-hips rather than close-range butterfly guard, because their weight advantage makes close-range control more difficult to maintain. Use a deeper collar grip for greater leverage during the posture break, and sit further away during the descent to create more space for your legs to work. Focus on angular guard play rather than direct hook sweeps, as your leverage advantage increases with distance and angle. Consider the seated guard pull variant to avoid the risk of being crushed during a contested descent.",
         "answer_line": "Distance guard: DLR or feet-hips",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "How should your body weight distribution change the moment you recognize a guard pull is being initiated?",
+        "question": "How should your weight shift the instant you read a guard pull coming?",
         "answer": "Immediately shift your weight slightly forward onto the balls of your feet and engage your core to resist the pulling force. Lower your center of gravity by bending your knees to maintain base while preparing to drive forward. Do not sit your hips back or lean away—this creates the distance the puller needs. Your weight should be distributed to enable an explosive forward drive that can crash through the developing guard structure. Think of loading your hips to spring forward rather than bracing backward against the pull.",
         "answer_line": "Weight forward, low, drive in",
         "distractors": {
@@ -548,7 +548,7 @@
         }
       },
       {
-        "question": "Your opponent has pulled guard and established sleeve grips but has not yet inserted hooks—what is your immediate priority?",
+        "question": "They pulled guard with sleeve grips but no hooks yet: what is your immediate priority?",
         "answer": "Your immediate priority is advancing your hips past the opponent's leg line before they insert hooks. Drive your lead knee forward between their thighs and drop your weight to pin their hips while stripping or pummeling past their sleeve grips. The hooks are more dangerous than the grips—sleeve grips without hooks create pulling force but no structural guard, while hooks without grips still create a functional guard framework. Address the legs first by advancing past them, then deal with the grip fighting from a dominant half guard or headquarters position.",
         "answer_line": "Advance hips past their legs",
         "distractors": {

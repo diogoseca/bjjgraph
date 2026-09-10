@@ -74,7 +74,7 @@ description: "Learn to execute the Russian Lasso to De La Riva transition. Detai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical grip that must be maintained throughout the Russian Lasso to De La Riva transition?",
+      "name": "Which grip must you keep throughout the Russian lasso to De La Riva transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar grip on the opposite side of the lasso leg must be maintained throughout the entire transition. This grip serves as the constant anchor that prevents the opponent from creating distance or initiating a pass during the vulnerable leg repositioning phase. Without it, the opponent can freely advance when the lasso leg is extracted and before the DLR hook is established, creating a complete breakdown in guard structure."
@@ -106,7 +106,7 @@ description: "Learn to execute the Russian Lasso to De La Riva transition. Detai
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a properly established DLR hook from a shallow ineffective hook after this transition?",
+      "name": "After this transition, what makes a DLR hook deep and effective rather than shallow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A proper DLR hook has the instep cupping behind the opponent's knee joint with the shin pressing into the back of their thigh, driven deep by pulling the knee toward your chest. A shallow hook wraps loosely around the calf without engaging the knee joint and provides minimal control. The depth of the hook determines your ability to off-balance the opponent and generate sweep leverage, making it the difference between a functional guard and a position easily cleared."

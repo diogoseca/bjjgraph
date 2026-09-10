@@ -64,7 +64,7 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your near arm is trapped and the attacker has locked their grip - which direction do you circle and why?",
+      "name": "Anaconda locked on your trapped near arm: which way do you circle, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle away from the trapped arm side. If your right arm is trapped, circle to your left. Circling away opens the angle of the constricting loop and creates space for potential arm extraction. Circling toward the trapped side feeds into the choke by tightening the loop. While circling, your free hand should be pulling on the attacker's choking wrist or elbow to create additional space at the neck."
@@ -72,7 +72,7 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "The attacker begins stepping over your back for the gator roll - what is your immediate defensive response?",
+      "name": "They step over your back for the gator roll: what's your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand firmly on the mat or against the attacker's hip to block the step-over and deny them the angle needed to complete the roll. Simultaneously sprawl your legs back to lower your center of gravity and make the roll more difficult. If the step is already mid-flight, consider going with the roll momentum and scrambling immediately on landing rather than trying to stop a committed roll. Timing determines which response is appropriate."

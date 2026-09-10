@@ -64,7 +64,7 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action to maintain throughout the entire heel hook defense sequence?",
+      "name": "What single defensive action must you maintain throughout a heel hook defense from ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining dorsiflexion (foot flexed with toes pulled toward the shin) throughout the entire defense. This position pulls the heel closer to the lower leg, making it significantly more difficult for the attacker to seat their wrist behind the Achilles and establish a finishing grip. Even momentary relaxation of dorsiflexion during grip fighting or escape attempts creates the opening for a skilled attacker to establish the heel hook. This one action buys more defensive time than any other single technique."
@@ -72,7 +72,7 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a shallow ushiro entanglement you can escape versus a deep entanglement requiring alternative strategy?",
+      "name": "How do you tell a shallow ushiro entanglement from a deep one needing another strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In shallow entanglement, the attacker's inside leg has minimal control below your knee and their upper body grips have not established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they are actively working heel grips. Deep entanglement requires accepting turtle or counter-entanglement rather than forcing extraction, which would worsen heel exposure during the struggle."
@@ -88,7 +88,7 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "When should you accept turtle position instead of continuing to fight the leg extraction from ushiro?",
+      "name": "When should you accept turtle instead of fighting to extract your leg from ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept turtle when the attacker's control is too deep to safely extract your leg with dorsiflexion alone, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you have been defending for more than five seconds without measurable escape progress, or when your energy is depleting rapidly from grip fighting. Turtle is a significantly safer transitional position than remaining in deep ushiro entanglement with an active submission threat."
@@ -96,7 +96,7 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "What counter-attack opportunity exists when the attacker adjusts their grips to establish the heel hook?",
+      "name": "What counter-attack opens when they shift grips to set the heel hook from ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases their inside leg control or shifts both hands to establish heel grips, their own legs often become exposed for counter-entanglement. During this adjustment phase, the attacker's focus shifts from position maintenance to submission finishing, creating a window where you can enter your own outside ashi-garami on their free leg or establish 50-50 guard. This transforms the exchange from pure defense into a bilateral leg lock battle that favors whoever established superior position first."

@@ -82,7 +82,7 @@ description: "Defend against the Kimura from Twister Side Control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the Kimura from Twister Side Control at different stages?",
+      "name": "Defending the Kimura from twister side control, what options exist at each stage of the attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is stage-dependent. Before the grip: keep elbows tight and deny wrist access. During grip transition: fight the wrist grip immediately and exploit the attacker's reduced shoulder pressure to hip escape. With figure-four partially set: straighten the arm to break the angle or retract the elbow forcefully. With figure-four locked: grab your own shorts or thigh as a temporary anchor to stall rotation. During rotation: tap before injury occurs. The earlier you engage defensive action, the higher your success probability."

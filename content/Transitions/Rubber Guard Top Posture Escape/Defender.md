@@ -56,7 +56,7 @@ description: "Defend against posture escape attempts from Rubber Guard bottom. M
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal response when you feel the opponent's free hand framing on your controlling knee?",
+      "name": "In rubber guard, they frame on your controlling knee; what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase downward pressure with the controlling leg and pull the opponent's head down with your free hand to re-break posture before they can push your knee away. If the frame is already strong, adjust your hip angle to change the vector of their push, making their frame less effective. Consider advancing to New York position to add a secondary control point that makes the single-leg frame insufficient."
@@ -80,7 +80,7 @@ description: "Defend against posture escape attempts from Rubber Guard bottom. M
     },
     {
       "@type": "Question",
-      "name": "What should you do if the opponent successfully recovers full posture and you lose Rubber Guard entirely?",
+      "name": "They fully recover posture and you lose rubber guard entirely; what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If Rubber Guard is fully lost, immediately transition to your backup closed guard lock if ankles are still crossed. If not, recover to open guard by establishing foot-on-hip frames and sleeve or wrist control to prevent immediate guard passing. Do not attempt to re-establish Rubber Guard against a postured opponent as this requires broken posture as a prerequisite. Instead, work to break their posture again from closed or open guard before reattempting Rubber Guard entry."

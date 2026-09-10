@@ -56,7 +56,7 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What visual cues indicate that your opponent is about to attempt a boot scoot escape from your saddle control?",
+      "name": "What cues warn you that they are about to boot scoot out of your saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the opponent pulling their free leg back to position the foot on your hip, signaling they are establishing a pushing frame. If they suddenly grab their own foot or ankle with both hands rather than fighting your grips, they are securing heel protection in preparation for the escape. A subtle shift of their shoulders and hips indicating they are loading their core for backward movement is another early indicator that scooting is imminent."
@@ -64,7 +64,7 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
     },
     {
       "@type": "Question",
-      "name": "What is the most effective timing for re-engaging after the opponent creates initial distance with a boot scoot?",
+      "name": "When should you re-engage after they create distance with a boot scoot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal re-engagement window is immediately after they complete each individual scoot, before they can re-establish their pushing frame. During the scoot itself, they have momentum and frame pressure working for them. In the brief pause between scoots when they are resetting their frame position, drive your hips forward to reclaim the lost distance and tighten the entanglement. Consistent forward pressure between scoots prevents the escape from building compound momentum."
@@ -80,7 +80,7 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
     },
     {
       "@type": "Question",
-      "name": "Your opponent's boot scoot has created significant space and the entanglement is loosening—what transition preserves your attacking position?",
+      "name": "Their boot scoot has loosened your saddle: what transition keeps your attack alive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the saddle is degrading beyond recovery, transition to inside ashi garami by adjusting your leg configuration to maintain control of their leg from a closer position. This preserves your offensive potential while acknowledging that the full saddle cannot be re-established from the current distance. From inside ashi garami, you can rebuild toward saddle or pursue alternative submissions. A controlled transition to a slightly inferior but secure position is always better than stubbornly holding a loose saddle and losing all leg control."
@@ -88,7 +88,7 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make when the opponent begins scooting to maintain maximum control over the entanglement?",
+      "name": "As they start scooting, what grip adjustments keep maximum control of the entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize controlling the opponent's trapped leg ankle or foot with at least one hand at all times—this is your anchor point that prevents extraction even as distance increases. Use your other hand to either strip their free leg frame or control their hip to prevent effective scooting force. If you must choose between maintaining your finishing grip on the heel and maintaining positional control, choose positional control—you can re-establish the finishing grip once the escape attempt is stopped."

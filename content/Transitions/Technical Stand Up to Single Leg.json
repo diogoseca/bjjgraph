@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls hard and you cannot complete the single leg - what are your immediate chain options?",
+        "question": "They sprawl hard and your single leg stalls. What are your immediate chain options?",
         "answer": "Chain immediately rather than stalling in a sprawled position. Primary options: switch to ankle pick by releasing upper grip and securing the ankle while driving shoulder into their knee; thread your legs into Single Leg X-Guard by dropping hips underneath their sprawled leg; convert to double leg if second leg is accessible; or pull butterfly guard to reset with offensive initiative. The key is maintaining forward pressure and attacking initiative rather than allowing them to consolidate the sprawl into a front headlock.",
         "answer_line": "Chain to ankle pick or X-guard",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What structural elements make the technical standup safe against forward driving pressure from the top player?",
+        "question": "Which structural elements keep the technical standup safe against the top player's forward drive?",
         "answer": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing.",
         "distractors": {
           "plausible": [
@@ -334,7 +334,7 @@
         "answer_line": "Shortens lever, kills the hop"
       },
       {
-        "question": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
+        "question": "When should you abandon the technical standup and use a position-specific escape instead?",
         "answer": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control.",
         "distractors": {
           "plausible": [
@@ -348,7 +348,7 @@
         "answer_line": "Hooks or choke on: escape first"
       },
       {
-        "question": "Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?",
+        "question": "They whizzer your arm as you enter the single leg. How do you use that against them?",
         "answer": "The whizzer commits their weight and balance to one side, creating predictable force you can exploit. Circle toward their whizzer side, using their overhook commitment to gain angle behind them for a back take. Alternatively, release your inside grip and convert to an outside trip on their far leg while they are focused on driving the whizzer. A third option is to drop your hips and thread into Single Leg X-Guard underneath their whizzer pressure, as their forward lean makes it difficult to retract and defend the guard entry.",
         "answer_line": "Circle to whizzer side, take back",
         "distractors": {
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "What specific body cues from your opponent signal that now is the moment to initiate the single leg entry?",
+        "question": "Which cues from your opponent tell you to fire the single leg entry off the technical standup?",
         "answer": "Watch for the opponent stepping their lead foot forward to close distance, which loads weight onto that leg and reduces their sprawl ability. A reach with their arms toward your head or collar creates upper body commitment that delays hip defense. Flat-footed stance rather than being on the balls of their feet indicates slower reaction time. Any moment where their weight shifts forward over their toes rather than sitting back in their hips creates an optimal entry window because they cannot retreat fast enough to sprawl.",
         "answer_line": "Weight forward, lead foot steps",
         "distractors": {
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "If your single leg attempt transitions into a scramble where neither player has clear position, what should your priorities be?",
+        "question": "Your single leg turns into a scramble with no clear position. What are your priorities?",
         "answer": "Protect your neck and head position first, then fight for an underhook, then work your hips underneath the opponent to retain some form of guard. Front headlock and guillotine are the most common scramble submissions, which is why the neck comes first, and an underhook on at least one side controls the pummeling exchange. If you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant top position.",
         "distractors": {
           "plausible": [
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "How should you position your hips when you feel the opponent initiating a single leg penetration step?",
+        "question": "How do you position your hips as you feel their single leg penetration step?",
         "answer": "Drop your hips explosively backward and downward in a sprawl motion, driving your pelvis toward the mat while keeping your chest up. Your hips should move away from the opponent's penetrating shoulder, creating an angle that makes their forward drive ineffective. Simultaneously widen your base by stepping your free leg out to the side. The sprawl must be reactive and immediate: even a half-second delay allows them to get underneath your center of gravity where the sprawl becomes ineffective.",
         "answer_line": "Sprawl hips back, chest up",
         "distractors": {
@@ -547,7 +547,7 @@
         }
       },
       {
-        "question": "Your opponent has secured a single leg grip and is driving forward - what is your priority sequence for defense?",
+        "question": "They've secured a single leg and are driving forward. What's your defensive priority sequence?",
         "answer": "First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip.",
         "answer_line": "Whizzer the attacking arm",
         "distractors": {
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "What defensive adjustment do you make if the opponent switches from single leg to ankle pick mid-attack?",
+        "question": "They switch from single leg to ankle pick mid-attack. What defensive adjustment do you make?",
         "answer": "When you feel them release the high grip and reach for your ankle, immediately pull your targeted foot backward while driving your hips forward and down to make the ankle inaccessible. Simultaneously snap their head down with both hands to break their posture and prevent them from following through on the ankle pick. If they get a grip on the ankle, kick it free explosively while posting your hands on their shoulders to create separation. The ankle pick is most dangerous when you are retreating, so maintaining forward pressure makes it significantly harder to execute.",
         "answer_line": "Pull foot back, snap head down",
         "distractors": {

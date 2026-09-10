@@ -106,7 +106,7 @@ description: "How to execute Hip Escape to Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your first hip escape and maintains chest connection - what adjustment do you make?",
+      "name": "They follow your first hip escape from gift wrap and keep chest connection; what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continue with sequential hip escapes in the same direction rather than switching or stopping. Each escape creates incremental space, and the cumulative distance eventually becomes impossible to follow while maintaining Gift Wrap control. Three to four consecutive hip escapes typically create enough space for frame insertion and arm extraction."

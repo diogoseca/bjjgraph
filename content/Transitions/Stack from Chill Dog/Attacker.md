@@ -82,7 +82,7 @@ description: "Learn to execute the Stack from Chill Dog as the attacking top pla
     },
     {
       "@type": "Question",
-      "name": "Your opponent suddenly widens their base and posts their hands wide during your stacking attempt - how do you adapt?",
+      "name": "They widen their base and post wide during your stack from Chill Dog: how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The widened base indicates they are abandoning the compact elbow-to-knee frame to resist your forward pressure. This actually opens new attack opportunities. You can shift to a perpendicular angle for a walk-around stack variant, or take advantage of the broken elbow-to-knee connection to insert a near hook for back control. The widened base that resists the stack simultaneously exposes the gaps that other attacks exploit, creating the exact dilemma-based pressure that makes the stack valuable even when it does not succeed directly."
@@ -106,7 +106,7 @@ description: "Learn to execute the Stack from Chill Dog as the attacking top pla
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's elbows begin separating from their knees as your pressure builds - what should you do immediately?",
+      "name": "Their elbows start separating from their knees under your stack: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical inflection point where the defensive frame is failing. You must continue driving forward without pause to follow through the collapse. Do not stop to readjust or switch techniques at this moment. Continue your forward pressure and be ready to immediately establish crossface and underhook as the opponent transitions from turtle to a flat or side-lying position. The window between frame collapse and guard recovery is one to two seconds, so immediate follow-through is essential."

@@ -74,7 +74,7 @@ description: "Learn to defend against the heel hook from Carni. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What is the correct first defensive action when you feel the opponent establishing Carni control on your leg?",
+      "name": "What is your first defensive action as the opponent establishes Carni control on your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct first action is boot defense: immediately dorsiflex your ankle (pull toes toward your shin) and point your toes away from the attacker while curling your heel toward your own buttock. This hides the heel from the attacker's grip and makes it significantly harder for them to establish the wrist blade position against your Achilles tendon. Only after boot defense is established should you begin working on hook clearance and leg extraction."

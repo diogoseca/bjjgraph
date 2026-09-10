@@ -92,7 +92,7 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "At what angle relative to the opponent's spine should you be when applying maximum finishing pressure?",
+      "name": "For the clock choke, what angle to their spine gives maximum finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should be approximately perpendicular (90 degrees) to their spine when applying maximum pressure. This angle creates optimal leverage for the rotational pressure component of the choke. Being too parallel reduces the effectiveness of your sprawl, while going past 90 degrees can release tension on the collar grip and allow them to turn into you."
@@ -100,7 +100,7 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent turtles very tight with their chin tucked—how do you create the opening for Clock Choke?",
+      "name": "They turtle tight with chin tucked: how do you open the collar for the clock choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hip control arm to threaten back takes or far-side attacks, forcing them to address those threats and potentially lift their head or create collar access. You can also work to flatten them by sprawling pressure onto their upper back, which typically opens the neck as they try to post. If they remain completely tucked, consider transitioning to crucifix or back control entries that bypass the chin defense entirely."

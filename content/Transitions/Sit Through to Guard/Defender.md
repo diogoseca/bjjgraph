@@ -72,7 +72,7 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already begun threading their leg mid-sit-through - what is the highest percentage response?",
+      "name": "Turtle top: they are already threading the leg on a sit through - best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation by maintaining chest-to-back contact and circling with them rather than trying to stuff the leg back. As they rotate, you have a window to insert your near-side hook before they can fully face you and establish guard. Keep your hips glued to theirs throughout the movement and use the seatbelt grip to maintain upper body control. If executed correctly, their sit through actually assists your back take as their rotation creates hook entry opportunities."
@@ -80,7 +80,7 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution to deny the sit through without overcommitting forward?",
+      "name": "Turtle top: how do you distribute weight to deny the sit through without overcommitting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct your pressure downward at approximately 45 degrees through your chest into their upper back, rather than driving horizontally forward. Keep your hips relatively heavy and positioned over their hips rather than stacking onto their shoulders. Maintain a mobile base by keeping your knees slightly wider than shoulder width. This distribution prevents the lateral movement needed for the sit through while keeping you balanced enough to follow any direction change without being redirected by their escape attempt."
@@ -88,7 +88,7 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent feints a sit through to one side then executes it to the opposite side - how do you defend the misdirection?",
+      "name": "Turtle top: they feint a sit through one way then go the other - how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is responding to the feint with body positioning rather than committing to a specific counter. When you feel the initial lateral shift, maintain center position and follow with your hips rather than lunging to block. Keep your chest centered on their spine and let your hips stay heavy and neutral. When the real sit through comes to the opposite side, you are still in position to follow. If you overcommit to the feint side by driving laterally, you create the exact space they need on the opposite side for the real escape."

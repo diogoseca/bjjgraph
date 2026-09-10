@@ -50,7 +50,7 @@ description: "Learn to maintain Kuzure Kesa Gatame against bridge escape attempt
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that your opponent is preparing a bridge escape from Kuzure Kesa Gatame?",
+      "name": "What is the earliest sign your opponent is setting up a bridge escape from kuzure kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicator is foot repositioning - the bottom player drawing their heels close to their buttocks and planting feet flat on the mat. This is the mechanical prerequisite for any effective bridge and typically occurs before core tensing or breathing changes. Monitoring foot position through peripheral awareness or feeling the mat vibration through your own base allows preemptive counter-adjustment."
@@ -66,7 +66,7 @@ description: "Learn to maintain Kuzure Kesa Gatame against bridge escape attempt
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges powerfully toward your head side and creates significant space - how do you convert this into a mount transition?",
+      "name": "They bridge hard toward your head side and make space - how do you convert it to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ride the bridge momentum rather than fighting it. As the opponent's hips rise and your chest lifts, immediately step your far knee over to the opposite side of their body, using the space they created for your mount transition. Drive your hips down into their midsection as you complete the step-over and establish low mount with grapevines before they can react to the position change."

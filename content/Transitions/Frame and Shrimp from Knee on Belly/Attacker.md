@@ -74,7 +74,7 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical frame placement for initiating the Frame and Shrimp escape from Knee on Belly?",
+      "name": "Which frames start the Frame and Shrimp escape from knee on belly bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side forearm frames against the opponent's knee while the far hand controls their hip or belt line. This dual frame creates structural resistance against the downward knee pressure without extending the arms into vulnerable submission positions. The frames must be established before any movement begins — they are the foundation upon which the entire escape sequence is built. Without proper frames, the opponent's pressure overwhelms any escape attempt."
@@ -90,7 +90,7 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your first shrimp by hopping their knee to your new position — how do you adjust?",
+      "name": "They hop their knee to follow your first shrimp from knee on belly — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately continue shrimping in the same direction and insert your knee shield on the new side rather than resetting flat. Chain multiple shrimp attempts together without pausing, as each displacement degrades the opponent's ability to follow cleanly. Their repeated knee repositioning compromises their base stability, and the cumulative space gains from chained shrimps eventually exceed their ability to track your movement."
@@ -106,7 +106,7 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
     },
     {
       "@type": "Question",
-      "name": "What happens if you extend your arms to push the opponent's knee away instead of using structural frames?",
+      "name": "From knee on belly bottom, what's the risk of extending your arms to push the knee away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can capture an outstretched limb and transition to a submission without abandoning their controlling position. Additionally, vertical pushing force is easily absorbed by the opponent's committed bodyweight, making it energetically wasteful. Proper frames keep elbows tight and convert defensive arm structure into a platform for lateral escape movement rather than futile vertical resistance."

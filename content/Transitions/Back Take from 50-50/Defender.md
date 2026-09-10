@@ -56,7 +56,7 @@ description: "How to defend against Back Take from 50-50 in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from leg attacks to a back take attempt?",
+      "name": "From 50-50 bottom, what's the earliest cue they're switching from leg attacks to your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent's near-side arm shifts from controlling your foot, ankle, or heel to reaching over your shoulder blade or threading under your armpit. This grip change indicates they are abandoning the leg attack in favor of establishing upper body control for the back take. You may also feel their leg entanglement tension decrease simultaneously as they prepare to extract."
@@ -72,7 +72,7 @@ description: "How to defend against Back Take from 50-50 in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already secured a partial harness grip but has not yet extracted their legs - what is your best defensive option?",
+      "name": "They have a partial harness but haven't freed their legs from 50-50: what's your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-attack their legs with a counter heel hook or ankle lock. Since they still have their legs entangled in the 50-50, their own legs are vulnerable. By threatening a counter-submission, you force them to choose between completing the back take while risking a leg lock finish, or releasing the harness grip to defend their own legs. This dilemma typically causes them to abandon the back take attempt and return to leg lock defense."

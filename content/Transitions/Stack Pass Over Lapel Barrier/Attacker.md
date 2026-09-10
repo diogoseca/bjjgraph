@@ -68,7 +68,7 @@ description: "How to execute Stack Pass Over Lapel Barrier in BJJ. Attacking per
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary strategic advantage of committing to the stack rather than clearing the lapel first?",
+      "name": "Why commit to the stack instead of clearing the lapel first when passing lapel guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clearing the lapel requires fighting a persistent fabric configuration that doesn't disappear when you break hand grips—the wrap remains around your body. This consumes significant energy and time while keeping you in the opponent's strongest control range. Committing to the stack bypasses this problem entirely by making the lapel irrelevant through compression. Once the opponent's spine is folded and their hips are immobilized, the mechanical advantages of the lapel configuration cease to function regardless of whether the grip remains."
@@ -76,7 +76,7 @@ description: "How to execute Stack Pass Over Lapel Barrier in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts a strong frame on your left shoulder as you begin driving the stack—how do you adjust?",
+      "name": "They frame on your left shoulder as you start the stack over the lapel—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dip your left shoulder below their frame by lowering your angle of attack while simultaneously using your collar grip to pull their upper body toward you. This collapses the space their frame needs to be effective. If the frame is too strong to swim under, shift your driving angle slightly to the opposite side of the frame while maintaining forward pressure. The key is never backing away from the frame—you solve it by going under or around while continuing the forward drive."
@@ -84,7 +84,7 @@ description: "How to execute Stack Pass Over Lapel Barrier in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "At what point during the pass sequence should you extract your trapped leg from the lapel configuration?",
+      "name": "When in the stack pass should you extract your leg from the lapel wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extract the trapped leg only after you have cleared your hips around the opponent's legs and begun consolidating side control. At this point, the opponent's hip mobility is eliminated by your chest pressure and crossface, so removing the lapel entanglement is a matter of simple unwinding rather than a contested grip fight. Attempting extraction earlier creates space and time for the opponent to re-establish guard structure, attack sweeps, or reconfigure their lapel control while your attention is divided."
@@ -100,7 +100,7 @@ description: "How to execute Stack Pass Over Lapel Barrier in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the lapel grip and starts transitioning to lasso guard as you commit forward—what do you do?",
+      "name": "They drop the lapel and go for lasso as you commit to the stack—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continue the forward pressure without hesitation. The opponent's guard transition is reactive and the new configuration will not be fully established before your stack pressure arrives. A partially formed lasso or spider guard is far weaker than the established lapel system they abandoned. Your committed forward drive that was designed to defeat the lapel configuration works equally well against any partially formed guard. Stopping to reassess gives them time to complete the transition and establish a new defensive structure."

@@ -84,7 +84,7 @@ description: "Learn to attack the kneebar from toe hold control. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What specific defensive reaction from your opponent signals that the kneebar transition is available?",
+      "name": "Which defensive reaction to your toe hold signals that the kneebar is available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar becomes available when your opponent straightens their leg to relieve toe hold ankle rotation, rotates their knee inward to limit rotational torque on the ankle, or pushes away to create distance from the toe hold grip. All three reactions expose the posterior knee to hyperextension by either straightening the leg line or creating space for hip repositioning against the popliteal fossa."

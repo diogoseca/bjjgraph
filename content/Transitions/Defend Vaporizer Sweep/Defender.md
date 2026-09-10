@@ -56,7 +56,7 @@ description: "Learn to complete Vaporizer sweeps against defensive opponents. Ad
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The top player widens their base and lowers their hips to defend your Old School sweep - what attack does this defensive reaction expose?",
+      "name": "The top player widens their base and drops their hips against your old school sweep — what opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wide base with lowered hips directly exposes the top player to the Electric Chair submission and sweep. When their knees are spread apart for lateral stability, their far leg becomes accessible for capture. Release the lockdown deliberately, secure their far leg, and drive your hips upward to split their legs. Their wide defensive stance, which protects against the lateral sweep, becomes a liability against the vertical leg split of the Electric Chair."
@@ -64,7 +64,7 @@ description: "Learn to complete Vaporizer sweeps against defensive opponents. Ad
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your attack strategy when you feel the top player beginning to clear your lockdown?",
+      "name": "You feel the top player clearing your lockdown — how do you adjust your attack strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you detect lockdown clearing through leg circulation or knee positioning changes, immediately escalate offensive urgency. Either tighten the lockdown by squeezing your legs together and extending their leg further, or commit to an immediate sweep attempt before the lockdown degrades to the point where it no longer provides leverage. A partially cleared lockdown still provides enough control for one committed sweep attempt, but waiting longer eliminates remaining offensive options entirely."

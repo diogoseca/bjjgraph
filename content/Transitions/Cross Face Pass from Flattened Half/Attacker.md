@@ -88,7 +88,7 @@ description: "Master the cross face pass from flattened half guard as the top pl
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you can effectively begin the cross face pass from flattened half guard?",
+      "name": "What conditions must be set before starting the cross face pass from flattened half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You need established crossface control turning their head away, chest-to-chest contact with settled weight through skeletal alignment, the opponent's frames collapsed so they cannot create distance, and their underhook neutralized or controlled. Without all four conditions, attempting the pass creates openings for frame recovery or guard transitions that undo your pressure advantage."

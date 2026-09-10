@@ -74,7 +74,7 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary visual cue that your opponent has created an opportunity for the triangle to back transition?",
+      "name": "What is the main visual cue that the back take is open from triangle control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent begins turning their shoulders away from the choking leg or driving forward in a stacking motion, they create rotational back exposure. The key is recognizing their commitment to a directional escape rather than maintaining a neutral defended position. This rotational commitment is the trigger because once they invest their weight and momentum in one direction, they cannot easily reverse course to prevent the back take."
@@ -90,7 +90,7 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand firmly on the mat and stops your rotation during the transition. How do you adjust?",
+      "name": "They post a hand on the mat and stall your rotation to the back: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have three primary options when the opponent posts successfully. First, use your transitioning leg to kick their posted arm out from underneath them, collapsing their base. Second, accept a technical mount position by placing your first hook and settling your weight rather than forcing the full rotation, then work to back control from technical mount. Third, if their arm is extended during the post, attack a kimura grip to either force them down or create a submission threat that opens the back take pathway."
@@ -114,7 +114,7 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending the triangle effectively but staying square without turning. Should you attempt the back take?",
+      "name": "They defend the triangle well but stay square without turning: should you go for the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No — continue attacking the triangle, since the back take requires rotational exposure that only exists when the opponent turns or commits weight. Against a square, neutral defense with no rotation, keep working the choke by adjusting your angle, pulling their head down, and breaking their grip defense. Alternatively, shift to the armbar when they posture, or threaten the omoplata when they drive forward. Only transition to the back take when their defensive movement creates genuine back exposure."

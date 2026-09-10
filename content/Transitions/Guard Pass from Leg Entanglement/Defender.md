@@ -56,7 +56,7 @@ description: "Defend the Guard Pass from Leg Entanglement in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical recognition cue that your opponent is about to attempt a guard pass rather than continuing leg attacks?",
+      "name": "From bottom entanglement, what cue shows they're passing rather than attacking legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is when your opponent begins reaching for upper body grips—collar tie, wrist control, underhook, or lapel grip—rather than fighting for heel control or adjusting their leg positioning within the entanglement. When an opponent shifts their attention upward to establish an anchor on your upper body, they are setting up the prerequisite for extraction. This grip-seeking behavior typically precedes the actual hook-stripping by several seconds, providing a window to preemptively deepen your hooks, threaten a submission, or transition to a more dominant entanglement."
@@ -64,7 +64,7 @@ description: "Defend the Guard Pass from Leg Entanglement in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your primary inside hook during their pass attempt—what is your first response within the critical window?",
+      "name": "They strip your inside hook during their pass — what is your first response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first response is immediate re-pummeling of the stripped hook by circling your foot back inside their leg and re-establishing the hook behind their knee or across their thigh. This must happen within the first one to two seconds of losing the hook, as any delay allows the passer to occupy the space with their wedging knee or advance to the next extraction phase. Simultaneously pull their trapped foot toward your chest using your grip to prevent them from creating additional separation. If re-pummeling the same hook fails, immediately transition to an alternative entanglement variant rather than fighting for the same position from a deteriorating angle."
@@ -80,7 +80,7 @@ description: "Defend the Guard Pass from Leg Entanglement in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you modify your defensive strategy when your opponent uses the smash pass extraction variant with heavy downward pressure?",
+      "name": "How do you defend when they smash pass your entanglement with heavy downward pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the smash pass variant, your hooks cannot withstand sustained heavy pressure through raw strength alone. Modify your strategy by using active hip movement to create angles that redirect the pressure rather than absorbing it directly. Shrimp your hips laterally to prevent being pinned flat, which changes the pressure vector from directly down into a diagonal that your hooks can manage. Simultaneously work to insert a knee shield or butterfly hook that creates a structural frame between your body and theirs, converting the exchange from a pressure battle into a framing battle where leverage advantages shift to the bottom player."

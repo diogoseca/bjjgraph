@@ -82,7 +82,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-tightens their figure-four as you begin pummeling your knee past their outside leg hook - how do you adjust?",
+      "name": "They re-tighten the figure-four as you pummel your knee past their outside hook — adjust how?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the pummel immediately and return to the grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting at the thumbs. Only resume the leg pummel after you have loosened their configuration again. Attempting to force through a re-tightened figure-four wastes energy and risks heel exposure during the struggle against superior structural control."
@@ -90,7 +90,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
     },
     {
       "@type": "Question",
-      "name": "Why should you bridge toward the opponent rather than pulling your trapped leg away during the hip clearing phase?",
+      "name": "Why bridge toward your opponent instead of pulling the trapped leg out when clearing the hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging toward the opponent collapses the perpendicular angle that gives the Saddle its mechanical advantage for heel hooks. Pulling the leg away creates rotational force that loads the heel hook mechanics and can cause immediate knee ligament damage. Moving toward the opponent reduces joint stress while eliminating the space they need for finishing. This counter-intuitive direction is the critical biomechanical insight of the technique."
@@ -98,7 +98,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
     },
     {
       "@type": "Question",
-      "name": "What role does the free leg play throughout the entire transition sequence from Saddle to Inside Ashi?",
+      "name": "What role does your free leg play throughout the Saddle to Inside Ashi transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The free leg serves as your primary defensive frame throughout the entire transition. It posts on the opponent's hip to prevent them from driving deeper into your trapped leg, controls distance to prevent re-tightening of the entanglement, and reduces the opponent's ability to maintain perpendicular alignment. Without effective free leg framing, the opponent can simply re-establish Saddle pressure whenever you attempt to pummel."
@@ -106,7 +106,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
     },
     {
       "@type": "Question",
-      "name": "You have successfully degraded to Inside Ashi-Garami but feel the opponent immediately attempting to re-enter Saddle - what prevents this?",
+      "name": "You reach Inside Ashi and they try to re-enter Saddle — what stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish Inside Ashi defensive posture by controlling your own knee line and framing on the opponent's hips with both legs. The critical detail is preventing your knee from rotating outward, which would allow the opponent to thread their legs back into the figure-four configuration. Keep your knee pointed toward your centerline and maintain active hip position facing the opponent rather than turning away from them."
@@ -114,7 +114,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
     },
     {
       "@type": "Question",
-      "name": "During your escape attempt, the opponent begins extending your heel with rotational pressure - what is your immediate response?",
+      "name": "They start extending your heel with rotational pressure mid-escape — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. Once heel hook rotational pressure is applied, the window for safe escape has closed. Continuing to fight the escape while the heel is being rotated risks severe medial collateral ligament and anterior cruciate ligament damage that can end your training career. There is no escape technique that justifies risking permanent knee injury. Reset and attempt the escape sequence again with better timing and heel protection."

@@ -64,7 +64,7 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to attempt a bridge-based sweep defense against the Pocket Half Pass?",
+      "name": "Defending the Pocket half pass, when is the best moment to attempt a bridge-based sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is during the passer's extraction weight shift, when they commit their weight to the trapped knee side to begin driving it toward the mat. At this moment, their base is asymmetrically loaded and most vulnerable to a bridge in the opposite direction. Bridging before this moment fights against their full balanced base, and bridging after it is too late because their leg is already clearing."
@@ -72,7 +72,7 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining the half guard leg entanglement critical even when other defensive options are being attempted?",
+      "name": "Defending the Pocket half pass, why keep the leg entanglement even while trying other defenses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg entanglement is your final control point that forces the passer to complete the extraction sequence before achieving side control. Without it, the passer can simply step through to side control without any resistance. All defensive responses work around maintaining this grip. Releasing it prematurely concedes the pass entirely and eliminates all remaining defensive leverage."
@@ -80,7 +80,7 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your underhook has been stripped and the passer has established deep crossface - what should your immediate defensive strategy be?",
+      "name": "Pocket half bottom: underhook stripped and they have a deep crossface. What is your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt to recover the underhook against an established crossface. Instead, immediately transition to an alternative defensive guard. Your best option is to hip escape and insert a knee shield to create distance, then work to recover either full guard or establish a different half guard variation. Alternatively, use the passer's forward pressure momentum to scoot underneath for deep half guard entry. When your primary control point is lost, transition to a new defensive system rather than fighting to recover the original one."
@@ -88,7 +88,7 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "What recognition cues indicate the passer is about to commit to the final leg extraction rather than continuing positional pressure?",
+      "name": "Defending the Pocket half pass, what cues show they are committing to the leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary cues signal extraction commitment: the passer's trapped knee begins driving toward the mat with rotational hip movement rather than static downward pressure, their free hand shifts from arm control to hip blocking position to prevent your knee insertion during the pass, and their crossface intensifies significantly as they try to prevent your rotation during the vulnerable extraction phase. Recognizing these cues gives you a 1-2 second window to execute your chosen defensive response."

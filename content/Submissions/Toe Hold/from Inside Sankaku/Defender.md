@@ -84,7 +84,7 @@ description: "Defend the toe hold from Inside Sankaku with grip fighting, body r
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to attempt a powerful leg straightening movement against an established toe hold?",
+      "name": "Why is explosively straightening your leg against a locked toe hold dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive leg extension against a locked toe hold concentrates force through the already-compromised ankle joint and midfoot structures. The rotational lock on the foot means extension adds a secondary vector of force that can tear the lateral ankle ligaments and damage the Lisfranc joint complex simultaneously. The movement happens faster than your nervous system can register pain, so structural damage occurs before you feel the need to tap."

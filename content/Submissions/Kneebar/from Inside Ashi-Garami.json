@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "Your opponent starts extending their leg to create distance from inside ashi-garami - how do you capitalize on this for the kneebar entry?",
+        "question": "They extend their leg from inside ashi-garami: how do you use that for the kneebar entry?",
         "answer": "The leg extension is the ideal trigger for the kneebar transition. Immediately secure their foot against your chest with a clamp grip, then initiate the hip pivot toward the outside of their extended leg. Their extension has done half your work by straightening the knee and exposing the joint line. Pivot your hips over their knee while maintaining the foot control, establish your leg clamp around the thigh, and you are in finishing position. The key is recognizing this window immediately rather than continuing to fight for heel control.",
         "safety_critical": false,
         "answer_line": "Clamp foot, pivot hips over knee",
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "What are the critical control requirements that must be established before initiating the kneebar finish from inside ashi-garami?",
+        "question": "Which controls must be locked before you start the kneebar finish from inside ashi-garami?",
         "answer": "Three checkpoints must be confirmed before applying finishing pressure. First, the opponent's foot must be securely locked against your chest with both arms creating a clamp that prevents extraction. Second, your hips must be positioned directly over the opponent's knee line with your hip crease sitting on the joint. Third, your legs must be tightly clamped around the opponent's thigh with ankles crossed to prevent knee retraction. Skipping any of these checkpoints dramatically reduces finishing percentage and increases escape probability.",
         "safety_critical": false,
         "answer_line": "Foot, hip crease, legs all locked",
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "You have pivoted your hips over the knee but your opponent begins rotating their knee inward - what adjustment prevents escape?",
+        "question": "Your hips are over their knee but they rotate the knee inward: what adjustment prevents escape?",
         "answer": "Increase your leg clamp pressure immediately to resist the rotation while using your hands to correct the foot back to a toes-up alignment. If rotation continues despite increased clamping, recognize this as a transition trigger rather than a problem to force through. The inward knee rotation exposes the heel for heel hook attacks, so flow to that submission rather than muscling the kneebar. Forcing a kneebar against strong knee rotation wastes energy and risks losing position, while transitioning maintains offensive pressure.",
         "safety_critical": false,
         "answer_line": "Clamp harder, flow to heel hook",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "Your grip on the opponent's foot starts slipping during the hip extension phase - how do you adjust without losing the submission?",
+        "question": "Your grip on their foot slips during hip extension: how do you adjust without losing the kneebar?",
         "answer": "Immediately cease hip extension and re-secure the foot before continuing. Pull your elbows tight to your body and re-clamp the foot against your sternum with both forearms creating a shelf underneath. If the foot has shifted, adjust the alignment back to toes-up before resuming pressure. Never increase hip extension speed to try to finish before the foot escapes - this creates dangerous uncontrolled force. If the foot cannot be re-secured, release the kneebar and return to inside ashi-garami to reset.",
         "safety_critical": false,
         "answer_line": "Stop, re-clamp foot, then continue",
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "What is the proper application speed for the kneebar and why is progressive pressure critical for safety?",
+        "question": "How fast should you apply the kneebar, and why is progressive pressure critical for safety?",
         "answer": "In training, the kneebar must be applied with slow, progressive hip extension over a minimum of 3-5 seconds from initial engagement to full pressure. Progressive application is critical because knee ligament damage occurs rapidly once the hyperextension threshold is crossed, and the defender has very little warning between feeling pressure and experiencing injury. Unlike chokes where blood flow restriction provides gradual warning signs, knee hyperextension can tear the PCL with a sudden spike of force. Slow application gives the defender time to recognize danger and tap safely.",
         "safety_critical": true,
         "answer_line": "Slow, progressive, 3-5 seconds",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "question": "What common finishing error reduces kneebar effectiveness against experienced defenders and how do you correct it?",
+        "question": "What is the most common kneebar finishing error against skilled defenders, and how do you fix it?",
         "answer": "The most common finishing error is positioning the hips too high on the thigh rather than directly over the knee line. This creates a compression on the thigh muscles rather than true hyperextension of the knee joint. Experienced defenders can absorb thigh compression without tapping while working their escape. The correction is to feel for the opponent's kneecap and ensure your hip crease sits right at the joint line where the thigh meets the shin. Even half an inch of misalignment dramatically reduces finishing effectiveness.",
         "safety_critical": false,
         "answer_line": "Seat hip crease on the knee line",
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "What defensive options are available at different stages of the kneebar attempt from inside ashi-garami?",
+        "question": "What kneebar defenses are available at each stage of the attack from inside ashi-garami?",
         "answer": "During the early transition phase when the attacker is shifting grips and beginning to pivot, boot extraction is the highest-percentage defense with low risk. During the mid-transition when hips are moving but not fully engaged, knee retraction combined with active bending denies the extension. Once hips are partially over the knee, inward knee rotation can misalign the hyperextension angle but risks exposing the heel. Once the kneebar is fully locked with hips engaged, legs clamped, and extension beginning, the only safe response is to tap immediately.",
         "safety_critical": true,
         "answer_line": "Extract early, retract, then tap",
@@ -590,7 +590,7 @@
         }
       },
       {
-        "question": "When is the point of no return where you should tap rather than continue attempting to escape the kneebar?",
+        "question": "At what point in a kneebar must you tap instead of continuing to escape?",
         "answer": "The point of no return is reached when three conditions are met simultaneously: the attacker's hip crease is seated directly over your knee joint, their legs are clamped around your thigh preventing knee retraction, and your foot is pinned against their chest with no looseness in the grip. Once the attacker begins hip extension from this locked position, the hyperextension force on your knee increases exponentially and ligament damage can occur within fractions of a second. Tap at the first sensation of pressure on the knee joint when fully locked rather than testing the limits.",
         "safety_critical": true,
         "answer_line": "Hips, legs, foot locked - tap now",

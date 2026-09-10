@@ -92,7 +92,7 @@ description: "How to execute Technical Stand-up in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your lead knee as you begin the hip elevation phase — how do you adjust?",
+      "name": "They post on your lead knee as you elevate your hips in the technical stand-up. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If opponent posts on your lead knee, they are attempting to pin it and collapse your barrier. Immediately redirect the lead leg by angling your foot outward and pushing their hand off with a circular knee motion. Alternatively, switch to extending the lead leg fully into their hip to create a longer barrier they cannot easily control. If the knee control is strong, abandon the current attempt and switch sides — post with the opposite hand and use the other leg as the new lead barrier. The worst response is to try to power through their post, which collapses your structure."
@@ -100,7 +100,7 @@ description: "How to execute Technical Stand-up in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What is the most critical hip movement detail that determines whether the trail leg swing succeeds or fails?",
+      "name": "Which hip detail decides whether the trail leg swing succeeds in the technical stand-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical detail is achieving full hip extension before initiating the leg swing. The hips must rise high enough that there is a clear gap between your glutes and the mat — typically 12-18 inches of clearance. This height creates the space needed for the trail leg to swing through without catching on the mat or being blocked by opponent. If hips are only partially elevated, the leg swing arc is too shallow and the foot drags or gets trapped. The hip drive should be vertical, not forward, pushing toward the ceiling while maintaining the tripod base."

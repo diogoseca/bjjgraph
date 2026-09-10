@@ -92,7 +92,7 @@ description: "How to execute Baratoplata Setup in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts to straighten their trapped arm when you start threading—what alternative attack opens?",
+      "name": "Setting up the Baratoplata, they straighten the trapped arm as you thread: what attack opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straightened arm opens the Armbar on Free Arm directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."

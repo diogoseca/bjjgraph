@@ -72,7 +72,7 @@ description: "How to defend the Single Leg X-Guard to Inside Sankaku entry in BJ
     },
     {
       "@type": "Question",
-      "name": "Once the Inside Sankaku figure-four is fully locked and the bottom player grips your heel, what is the correct response?",
+      "name": "Inside sankaku is locked and they grip your heel: what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift from escape to damage control: hide your heel tightly against your own hip and tap early. The inside heel hook applies rotational force to the knee and ankle ligaments and injures almost instantly with no warning, so there is no time to assess whether an escape is still possible mid-submission. Recognizing that the position is lost and tapping early is the correct, safe decision once a firm heel grip is established."

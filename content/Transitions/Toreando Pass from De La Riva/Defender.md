@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Toreando Pass from De La Riva
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your ankle grip but you still have the DLR hook active. What is your immediate priority?",
+      "name": "They strip your ankle grip but your DLR hook is still in: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is re-establishing the ankle grip before the passer can address the now-unsupported hook. The DLR hook without the ankle grip loses most of its sweeping power and becomes easy to strip. Simultaneously increase hook tension by pulling your knee toward your chest aggressively to buy time for grip recovery. If re-gripping is not possible within one to two seconds, transition proactively to X-Guard by threading your bottom foot."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the Toreando Pass from De La Riva
     },
     {
       "@type": "Question",
-      "name": "How does the passer's lateral momentum during the toreando create a counter-attack opportunity for the defender?",
+      "name": "How does the passer's lateral toreando commitment create a counter-attack chance for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer commits fully to one lateral direction, their base becomes compromised along the perpendicular axis. This directional commitment creates an opportunity for the defender to time an inversion, sweep, or guard recovery that exploits the passer's inability to change direction mid-sprint. The passer's momentum can be redirected by tracking their movement with hip rotation and timing a knee insertion or berimbolo entry during their directional commitment."

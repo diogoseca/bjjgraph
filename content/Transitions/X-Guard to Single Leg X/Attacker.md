@@ -98,7 +98,7 @@ description: "Complete guide to executing the X-Guard to Single Leg X transition
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on your chest and drives forward pressure during the transition—how do you adjust?",
+      "name": "Your opponent posts on your chest and drives forward during your X-Guard to SLX switch—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the SLX transition and use their forward drive to your advantage. Re-establish the X-Guard knee hook if still possible, or redirect their forward momentum into a sweep by extending both legs powerfully. If the forward pressure is too strong to maintain X-Guard, thread underneath them into deep half guard using their momentum. Never continue the reconfiguration against strong forward pressure, as the momentary loosening of hooks will be exploited."

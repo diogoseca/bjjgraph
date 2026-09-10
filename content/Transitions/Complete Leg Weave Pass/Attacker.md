@@ -74,7 +74,7 @@ description: "Execute the Complete Leg Weave Pass to finish guard passing from l
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pumping their hips away as you attempt to extract your weaved leg - how do you maintain passing pressure?",
+      "name": "Finishing a leg weave, they pump their hips away as you extract: how do you keep pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase crossface shoulder pressure immediately and drive your weight forward into their upper body to counteract the hip escape direction. Your chest should chase their movement, not your legs. If their hips create distance, close it with forward pressure through your shoulder rather than pulling your leg back. The crossface anchor must track their upper body so the distance gained by their hips is negated by your forward drive."
@@ -90,7 +90,7 @@ description: "Execute the Complete Leg Weave Pass to finish guard passing from l
     },
     {
       "@type": "Question",
-      "name": "The bottom player inserts a knee shield just as you begin clearing your hook - what adjustment do you make?",
+      "name": "They insert a knee shield as you clear your weaved leg: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the extraction and address the knee shield immediately. Collapse the knee shield by driving your hip weight into it and angling your shoulder pressure toward their head to flatten their upper body. If the shield is only partially established, you can often smash through it by committing your hip forward through the shield. If fully established, consider switching to a knee slice finish that uses the shield as a wedge point rather than fighting it directly."
@@ -98,7 +98,7 @@ description: "Execute the Complete Leg Weave Pass to finish guard passing from l
     },
     {
       "@type": "Question",
-      "name": "What grip must be maintained throughout the entire leg weave pass completion to prevent guard recovery?",
+      "name": "Which control must never be lost while completing the leg weave pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface shoulder pressure must be maintained uninterrupted from the initial leg weave position through the final side control consolidation. This is the primary anchor that prevents the bottom player from turning, sitting up, or following your leg movement during extraction. Secondary to this is the far hip control hand, which prevents knee insertion during the transition phase. Losing either grip creates a defensive window that skilled guard players will exploit immediately."
@@ -106,7 +106,7 @@ description: "Execute the Complete Leg Weave Pass to finish guard passing from l
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs a deep underhook as you transition from leg weave to side control - how do you counter?",
+      "name": "They get a deep underhook as you go leg weave to side control: how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a whizzer over their underhooking arm and drive your weight forward to flatten them back to the mat. If you cannot establish the whizzer, switch your crossface to a heavy shoulder of justice pressure that makes their underhook uncomfortable and difficult to maintain. The worst response is to try pulling their arm out, which creates space. Instead, accept the underhook temporarily and use your superior top position weight to make it ineffective by flattening their body before they can use it to create a scramble."

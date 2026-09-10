@@ -68,7 +68,7 @@ description: "Defend the arm attack while addressing the retained triangle entan
     },
     {
       "@type": "Question",
-      "name": "What should you do if Americana from Triangle Control is secured and safe defense is no longer available?",
+      "name": "What should you do once the Americana from triangle control is locked and defense is gone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when safe defense is no longer available; do not wait for pain or try to force through a secured joint lock."

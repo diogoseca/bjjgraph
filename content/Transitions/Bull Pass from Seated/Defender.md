@@ -64,7 +64,7 @@ description: "Defend the Bull Pass from Seated Guard effectively. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured grips on both your knees and is about to drive forward - what is your highest-percentage defensive response?",
+      "name": "They grip both your knees in seated guard and are about to drive: best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull one knee free using a sharp hip rotation while simultaneously scooting your hips backward to create distance. If you cannot free a leg in time, turn to your side toward the direction your legs are being pushed and work to insert a knee shield between you and the advancing opponent. The worst response is to remain flat and try to push back with both legs, as this loses the direct strength exchange."
@@ -88,7 +88,7 @@ description: "Defend the Bull Pass from Seated Guard effectively. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "When your opponent's Bull Pass partially succeeds and you retain only half guard, what is your immediate priority?",
+      "name": "Their bull pass partly succeeds and you keep only half guard: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately turn to your side facing the opponent and fight for the underhook on the trapped leg side. The opponent's bull pass momentum often carries them slightly past optimal half guard top positioning, creating a window for the underhook before they consolidate. Establish knee shield if possible to manage distance. Do not remain flat on your back because the transition from bull pass to half guard gives you a brief adjustment window."

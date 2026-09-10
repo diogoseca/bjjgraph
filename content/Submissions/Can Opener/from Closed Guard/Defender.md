@@ -58,7 +58,7 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Can Opener is being set up from inside your closed guard?",
+      "name": "What is the earliest cue a Can Opener is being set up inside your closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent abandons normal grip fighting patterns (collar, sleeve, pant grips) and instead begins swimming one or both hands toward the back of your head while inside your closed guard. This hand trajectory is distinctly different from standard guard passing mechanics where the hands target your hips, knees, or lapels. The moment you feel fingers reaching behind your skull rather than engaging in standard grip fighting, you should immediately pull their posture down with collar grips and re-establish dominant grip control to deny the hand positioning entirely."
@@ -82,7 +82,7 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
     },
     {
       "@type": "Question",
-      "name": "What symptoms after a Can Opener attempt should cause you to stop training and seek medical evaluation?",
+      "name": "Which symptoms after a Can Opener mean you should stop training and get medical evaluation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop training immediately and seek medical evaluation if you experience any of the following after a Can Opener attempt: persistent neck pain lasting more than five minutes after the pressure is released, any numbness or tingling radiating into the arms, shoulders, or fingers (indicating potential nerve compression), restricted range of motion when turning or tilting the head, headache originating from the base of the skull, dizziness or visual disturbance, or any grinding or clicking sensation in the neck during movement. These symptoms can indicate disc herniation, ligament damage, or nerve impingement that requires professional diagnosis. Do not attempt to train through cervical spine symptoms."

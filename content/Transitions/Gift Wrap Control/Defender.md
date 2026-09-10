@@ -64,7 +64,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your arm is being threaded across your throat but has not yet crossed the centerline—what is your best response?",
+      "name": "Your arm is being threaded but has not crossed your throat yet: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosively straighten the arm before it crosses your throat. The fold requires a bent elbow—a straight arm cannot be wrapped across the throat. This straightening carries risk of armbar exposure, but it denies the wrap. Simultaneously bridge to create space and disrupt the attacker's elbow pin that creates the folding leverage."
@@ -80,7 +80,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The wrap is fully locked with the attacker's head past your far shoulder—what is your escape priority?",
+      "name": "Gift Wrap locked with their head past your far shoulder: what is your escape priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once fully locked, stop fighting the arm grip and focus entirely on hip movement and base disruption. Bridge toward the attacker's posting leg to attack their base structure. Use any space created to shrimp and insert a knee between your bodies. The goal shifts from preventing the wrap to escaping the position entirely—recovering half guard or turtle."
@@ -88,7 +88,7 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How does your far arm position in Kuzure Kesa Gatame bottom determine your vulnerability to the Gift Wrap?",
+      "name": "How does your far arm position under kesa gatame decide your Gift Wrap vulnerability?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your far arm is relaxed at your side or extended toward the mat, the attacker has free access to your wrist for the wrap initiation. If your far arm frames on the attacker's hip, it blocks their reaching path. If your elbow is bent tight with hand near your chin, they cannot easily grip and thread. Arm positioning is the single biggest factor in Gift Wrap vulnerability."

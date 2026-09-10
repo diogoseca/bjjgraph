@@ -271,7 +271,7 @@
         }
       },
       {
-        "question": "Your opponent strips your ankle grip and immediately drives their knee forward to initiate a knee slice—what is your recovery sequence?",
+        "question": "They strip your ankle grip and drive a knee slice—what is your recovery sequence?",
         "answer": "Immediately establish a frame on their advancing knee with your near-side arm to arrest the knee slice. Simultaneously hip escape away from the slicing direction to create the angle for hook recovery. Your priority is getting your inside leg back underneath their near leg before their knee reaches the mat. If the knee slice is too advanced, transition your frame to their shoulder and switch to butterfly hook recovery or technical standup rather than forcing RDLR reinsertion from a severely compromised angle.",
         "answer_line": "Frame the knee, escape away",
         "distractors": {
@@ -299,7 +299,7 @@
         }
       },
       {
-        "question": "How do active frames differ from passive frames during recovery, and why does this distinction matter?",
+        "question": "How do active frames differ from passive frames in RDLR recovery, and why does it matter?",
         "answer": "Active frames generate real distance by driving through locked elbows and shoulder engagement, creating space for hip escape execution. Passive frames merely resist collapse without producing movement. During recovery, passive frames are insufficient because the opponent already has forward momentum—you need frames that push them back while you simultaneously shrimp away. The combination of pushing frame and retreating hips creates double the distance compared to either action alone.",
         "answer_line": "Active frames push, passive resist",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "Your opponent has your RDLR leg controlled at the knee and is driving forward—how do you adjust your recovery approach?",
+        "question": "They control your RDLR leg at the knee and drive forward—how do you adjust your recovery?",
         "answer": "When your RDLR leg is controlled, do not fight to force the hook on the blocked side. Instead, use your free leg to either push their controlling hand away at the wrist or immediately transition to an alternative recovery path. Viable options include switching to opposite-side RDLR by threading through their other leg, sitting up to butterfly hooks using the hip escape momentum, or using their forward pressure to load a technical standup. The key principle is that recovery must flow around obstacles rather than crash through them.",
         "answer_line": "Flow around, don't force it",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "Your opponent begins a strong hip escape during your pass attempt—should you follow their movement or cut the angle?",
+        "question": "Passing when your opponent hip escapes hard: follow their movement or cut the angle?",
         "answer": "Cut the angle rather than following their movement. Chasing their hip escape means you are always behind their movement, circling without consolidating position. Instead, drive your shoulder pressure diagonally across their centerline toward the direction they are escaping. This collapses the space they are trying to create and prevents the angle formation needed for hook reinsertion. Think of it as driving through them rather than around them—your pressure should meet them where they are going, not where they were.",
         "answer_line": "Cut the angle, don't chase",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "How do you identify whether the bottom player is attempting RDLR recovery versus transitioning to a completely different guard?",
+        "question": "Which cue shows the bottom player is recovering RDLR rather than switching to another guard?",
         "answer": "RDLR recovery is characterized by the inside leg threading motion underneath your near leg, hip escape away from you to create hook reinsertion angle, and their outside hand reaching for your near-side pants. If instead you see them sitting up with both legs pulling in (butterfly transition), posting on a far hip (seated guard), or extending both legs to push you away (open guard reset), they are transitioning to a different guard. The distinction matters because each requires different counter-passing responses—RDLR recovery demands near-leg control while guard transitions may require different pressure angles.",
         "answer_line": "Inside leg threads under your leg",
         "distractors": {

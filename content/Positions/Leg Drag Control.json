@@ -88,7 +88,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts bridging aggressively while you have leg drag control—what adjustment do you make?",
+        "question": "They bridge hard while you hold leg drag control — what adjustment do you make?",
         "answer": "When the opponent bridges, drive your chest pressure lower into their hip while posting your free hand wide on the mat for base. The bridge creates momentary space, so immediately follow their movement and use it to advance to mount or slide to side control. Do not fight the bridge statically—flow with it and use the momentum to consolidate.",
         "answer_line": "Flow with bridge, advance up",
         "distractors": {
@@ -530,7 +530,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts advancing toward your back while you're in leg drag bottom—what immediate adjustment do you make?",
+        "question": "Under leg drag, they start advancing toward your back — what do you do immediately?",
         "answer": "Immediately fight for an underhook on the side they're advancing toward and drive your shoulder toward them, not away. This counters their back take angle. Simultaneously, use your free leg to create a frame against their hip or post on the mat to generate space. Never turn your back to them—stay chest-to-chest as much as possible while you work to free your leg.",
         "answer_line": "Fight underhook, face them",
         "distractors": {
@@ -600,7 +600,7 @@
         }
       },
       {
-        "question": "Your opponent shifts their weight to consolidate to side control—how do you anticipate and exploit this moment?",
+        "question": "Under leg drag, how do you exploit the moment they shift weight toward side control?",
         "answer": "The transition from leg drag to side control is when they must release or adjust their leg control. This is your window. As they shift weight, immediately extract your trapped leg by pulling your knee to your chest. Time your hip escape to their weight shift. If you can get a knee inside before they settle, you can recover half guard or establish a knee shield.",
         "answer_line": "Extract your knee as they shift",
         "distractors": {
@@ -628,7 +628,7 @@
         }
       },
       {
-        "question": "Your partial escape attempt fails and they re-secure leg drag control—how do you recover your defensive position?",
+        "question": "Your escape fails and they re-secure leg drag — how do you recover defensively?",
         "answer": "Immediately re-establish your primary frames at shoulder and hip before they can capitalize on your movement. Return to a flat position on your back rather than staying on your side. Assess where your failed escape left you—if they advanced, address the new threat first. Do not immediately attempt another escape; reset your breathing and frames, then look for the next opportunity when they adjust.",
         "answer_line": "Reset frames, go flat, reassess",
         "distractors": {
@@ -895,7 +895,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines Leg Drag Control and distinguishes it from other guard-passing positions?",
+      "question": "What structure defines leg drag control compared to other passing positions?",
       "answer": "Leg Drag Control is defined by the bottom player's leg being dragged across their own midline so it crosses in front of the passer's hips. This crossed-leg position converts the bottom player's own limb into a barrier that pins their hips to one side and blocks re-guarding. Unlike stack or over-under passes that go around or through the guard, the leg drag redirects the leg laterally, forcing the bottom player onto their side and pre-loading back exposure. The signature is this diagonal, cross-body relationship between the dragged leg and the passer's hipline.",
       "distractors": {
         "plausible": [
@@ -923,7 +923,7 @@
       "answer_line": "Crossed leg locks the pelvis"
     },
     {
-      "question": "How is weight distributed in Leg Drag Control, and why is a diagonal angle emphasized over straight-on pressure?",
+      "question": "How is weight distributed in leg drag control, and why diagonal instead of straight-on pressure?",
       "answer": "Pressure runs cross-body along a diagonal line from the top player's chest into the bottom player's near hip, following the same angle the dragged leg creates. Driving straight down or straight forward lets the bottom player face the top player and build effective frames, whereas diagonal pressure keeps them turned onto their side and breaks their framing structure. The weight stays forward-biased through the upper body while the hips remain mobile, because the position is transitional and never a resting pin. This angular, mobile pressure is what preserves the back-exposure threat that dominates the position.",
       "answer_line": "Diagonal pressure, chest to hip",
       "distractors": {
@@ -965,7 +965,7 @@
       }
     },
     {
-      "question": "How does Leg Drag Control differ from a knee shield or half guard configuration despite both involving a trapped leg?",
+      "question": "How does leg drag control differ from half guard or knee shield, since both trap a leg?",
       "answer": "In half guard and knee shield the bottom player's leg or knee frames outward against the top player, actively creating space and blocking hip connection. In Leg Drag Control the leg is pulled the opposite way, across the bottom player's own body, so it can no longer frame and instead pins their hips. This inversion is the defining distinction: the same limb goes from a defensive tool to a liability. A knee shield re-entering the space is in fact the marker that pure leg drag control has been lost and the position has reverted toward half guard dynamics.",
       "answer_line": "Leg pulled in, not framing out",
       "distractors": {
@@ -979,7 +979,7 @@
       }
     },
     {
-      "question": "What role does upper-body control play in completing the Leg Drag Control system alongside the crossed leg?",
+      "question": "What does upper-body control add to leg drag control alongside the crossed leg?",
       "answer": "Controlling the bottom player's far shoulder, head, or a crossface prevents them from rotating back to face the top player or sitting up to rebuild guard. The crossed leg handles the hips while the upper-body control handles rotation, and the position only holds when both work together as a system. Losing the shoulder or head connection lets the bottom player turn in and neutralize the leg drag even if the leg stays trapped. This two-part control, lower body plus upper body, is what stops the bottom player from squaring back up and re-establishing frames.",
       "answer_line": "Shoulder/head grip stops rotation",
       "distractors": {
@@ -993,7 +993,7 @@
       }
     },
     {
-      "question": "Which adjacent positions does Leg Drag Control most naturally connect to, and what determines which one it resolves into?",
+      "question": "Which positions does leg drag control lead to, and what decides which one you get?",
       "answer": "The position sits at a crossroads leading to back control, mount, side control, north-south, turtle, or a reverted half guard, and the bottom player's reaction dictates the outcome. Turning away opens the back take, staying flat invites mount or side control, sitting up exposes the arm for crucifix or north-south, and rolling defensively leads toward turtle. If the bottom player reinserts a leg or knee shield, the position collapses back toward half guard. This branching set of exits is precisely why the leg drag is treated as a dilemma-generating hub rather than an endpoint.",
       "answer_line": "Branches to back, mount, or turtle",
       "distractors": {

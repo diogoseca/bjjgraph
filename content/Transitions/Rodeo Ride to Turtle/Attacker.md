@@ -68,7 +68,7 @@ description: "Learn to execute the Rodeo Ride to Turtle transition as the attack
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why would you deliberately transition from Rodeo Ride to standard turtle top rather than continuing to attack from Rodeo Ride?",
+      "name": "Why deliberately move from Rodeo Ride to standard turtle top instead of attacking from Rodeo Ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rodeo Ride excels at dynamic, explosive attacks but becomes less effective when the bottom player defends those specific attacks well or when the asymmetric control starts degrading. Standard turtle top provides a more methodical platform for the conventional seatbelt-to-hooks back take sequence, systematic front headlock entries, and measured submission setups. The transition preserves dominant position when staying in Rodeo Ride would mean diminishing returns or risking position loss through continued forcing of defended attacks."
@@ -84,7 +84,7 @@ description: "Learn to execute the Rodeo Ride to Turtle transition as the attack
     },
     {
       "@type": "Question",
-      "name": "Your opponent suddenly tenses and you feel them coiling to explode as you begin the transition. What should you do?",
+      "name": "They tense and coil to explode as you start the Rodeo Ride to turtle transition: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the transition attempt and re-establish full Rodeo Ride control immediately. An opponent who is coiled and ready to explode will capitalize on any grip change or weight shift during your transition. Wait for them to expend their stored energy through a defensive attempt, then initiate the transition during the recovery moment when they are depleted and less reactive. Timing the transition during low-energy windows is critical for success."
@@ -100,7 +100,7 @@ description: "Learn to execute the Rodeo Ride to Turtle transition as the attack
     },
     {
       "@type": "Question",
-      "name": "How does the spiral walk variant differ from the controlled seatbelt reset variant, and when would you choose each?",
+      "name": "How do the spiral walk and controlled seatbelt reset differ, and when do you choose each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The spiral walk maintains existing Rodeo Ride grips while walking the hips in an arc to reposition behind the opponent, only changing grips at the final position. The controlled seatbelt reset replaces grips to seatbelt first while still at the perpendicular angle, then repositions with seatbelt already established. Choose the spiral walk when the opponent is actively hand-fighting and any grip release would trigger escape attempts. Choose the controlled reset when the opponent is relatively passive and the grip change can happen safely before repositioning."
@@ -108,7 +108,7 @@ description: "Learn to execute the Rodeo Ride to Turtle transition as the attack
     },
     {
       "@type": "Question",
-      "name": "The opponent begins a granby roll halfway through your transition. Should you disengage and reset, or follow the roll?",
+      "name": "They granby roll midway through your Rodeo Ride to turtle transition: disengage or follow the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll while maintaining your anchor grip and chest contact. The granby roll during your transition actually assists your repositioning because the opponent's rotation moves them further under your body. Stay connected and use their momentum to accelerate your own movement behind them. Disengaging would waste your transitional progress and allow them to recover guard. The key is keeping your grip tight through the rotation and immediately establishing seatbelt control when the roll completes."

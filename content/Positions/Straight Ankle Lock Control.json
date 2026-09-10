@@ -77,7 +77,7 @@
         }
       },
       {
-        "question": "Your opponent begins tightening their leg triangle around your trapped leg - what immediate adjustment do you make?",
+        "question": "They begin tightening a leg triangle on your trapped leg — what adjustment do you make?",
         "answer": "Immediately use your free leg to kick or push down on their bottom leg while simultaneously rotating your hip away from their control. You must prevent the leg triangle from completing because once full leg control is established, escape becomes exponentially harder. Address leg control as equal priority to grip fighting, never allowing them to consolidate position.",
         "answer_line": "Block their leg, rotate hip",
         "distractors": {
@@ -91,7 +91,7 @@
         }
       },
       {
-        "question": "Why should you keep your trapped knee bent rather than letting your leg straighten during escape attempts?",
+        "question": "Why keep the trapped knee bent instead of letting the leg straighten while escaping?",
         "answer": "Full leg extension eliminates your ability to use hip rotation for escape while maximizing the attacker's submission leverage, dramatically increasing injury risk. Keeping the knee bent and pulled toward your chest maintains structural integrity that limits submission pressure on the ankle joint while preserving the mobility needed for technical escapes and hip rotation.",
         "answer_line": "Keeps hip rotation available",
         "distractors": {
@@ -133,7 +133,7 @@
         }
       },
       {
-        "question": "The attacker commits heavily to a submission attempt and temporarily sacrifices their leg positioning - what opportunity does this create?",
+        "question": "The attacker over-commits to the finish and loses leg position — what does that open for you?",
         "answer": "When the attacker over-commits to the finish, they often sacrifice upper body positioning and leg control to maximize breaking pressure. This creates a window to pass to top control by circling around their guard or to establish frames and distance that facilitate standing escape. Their focused commitment to finishing opens counter-attack and escape opportunities that disappear once they recompose.",
         "answer_line": "Pass guard or stand and escape",
         "distractors": {
@@ -147,7 +147,7 @@
         }
       },
       {
-        "question": "What is the optimal time window for escape before the attacker typically advances to a more dangerous position?",
+        "question": "How long is the escape window before the attacker advances to a more dangerous position?",
         "answer": "The optimal escape window is 5-12 seconds from when ankle control is established. Beyond this timeframe, the attacker has had sufficient time to consolidate grips, complete leg triangle control, and begin transitioning to more dominant entanglements. Immediate aggressive escape sequences dramatically improve success probability compared to passive waiting.",
         "answer_line": "5 to 12 seconds",
         "distractors": {
@@ -487,7 +487,7 @@
     "overview": "From the attacking bottom perspective, straight ankle lock control represents a calculated trade of superior positioning for immediate submission threat and transitional opportunities into more advanced leg entanglement systems. The practitioner on bottom has intentionally entered this position to exploit their opponent's leg vulnerability, accepting temporary positional sacrifice in exchange for offensive potential.\n\nThe fundamental geometry of the position places the attacker perpendicular to the defender, with the defender's ankle secured across the attacker's hip line. The attacker's legs wrap around the defender's trapped leg to prevent hip rotation and escape, while their hands establish grips on the ankle and foot that enable both control and submission finishing mechanics. This configuration creates a mechanical advantage where the attacker can generate significant pressure on the ankle joint through relatively small body movements.\n\nStrategic decision-making in this position revolves around accurately reading the defender's reactions and choosing the appropriate response. Defenders typically attempt one of several escape sequences: rotating their hip toward or away from the attacker, extracting their trapped foot by pulling the knee to their chest, pushing the attacker's upper body away to create distance, or attempting to come up and pass the attacker's guard. Each defensive choice opens specific offensive opportunities that the prepared attacker can exploit through practiced transition sequences.\n\nThe energy dynamics favor quick decisive action from the bottom attacker. Every second spent in this position without advancing toward submission or improved control represents energy expenditure without positional improvement. The defender's defensive frames and escape attempts gradually accumulate advantage, making it progressively more difficult to maintain control and finish the submission. This temporal pressure requires the attacker to develop efficient finishing mechanics and smooth transition pathways that capitalize on brief windows of opportunity.\n\nModern approach to straight ankle lock control from bottom emphasizes system integration rather than isolated submission attempts. Advanced practitioners use the position as a hub from which multiple attacking sequences branch based on the defender's choices. The initial ankle lock threat forces defensive reactions that open pathways to inside ashi garami, outside ashi garami, 50-50 guard, or kneebar control. This systematic approach transforms a relatively low-control position into a powerful offensive platform where the attacker maintains initiative throughout the engagement.\n\nThe technical execution requires precise coordination of grips, leg positioning, and hip movement. The attacking legs must actively prevent the defender from rotating their hip while remaining flexible enough to transition fluidly when the defender attempts escape. The hands must maintain firm ankle control without telegraphing submission attempts, allowing the attacker to threaten finishes while remaining ready to transition based on defensive reactions. This balance of control and mobility distinguishes effective straight ankle lock control from ineffective attempts that allow easy escape.",
     "flashcards": [
       {
-        "question": "What is the proper sequence for establishing control before attempting to finish the straight ankle lock?",
+        "question": "What is the proper control sequence before finishing the straight ankle lock?",
         "answer": "First establish perpendicular hip positioning relative to defender's body, then wrap your legs securely around their trapped leg to prevent hip rotation, verify ankle grip security with forearm positioned against the Achilles tendon and opposite hand cupping the heel, and only then initiate breaking mechanics. Position before submission is the fundamental principle - attempting to finish without these control elements results in easy escape.",
         "answer_line": "Position, wrap, grip, then break",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "Your opponent rotates their hip away from you attempting to extract their knee - what counter-transition do you execute?",
+        "question": "They rotate their hip away to extract the knee — what counter-transition do you take?",
         "answer": "Their hip rotation away opens a pathway to Inside Ashi-Garami. Follow their rotation by threading your inside leg through to establish the leg triangle, transitioning your control to secure inside position with your shin across their far hip. Their defensive movement actually facilitates your advancement to a more dominant entanglement where heel hooks become available.",
         "answer_line": "Follow into Inside Ashi-Garami",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "The defender straightens their leg completely attempting to pull their foot free - what opportunity does this create?",
+        "question": "The defender fully straightens the leg to pull the foot free — what does that open for you?",
         "answer": "Full leg extension is a critical defensive error that dramatically increases your finishing leverage on the straight ankle lock and also opens immediate kneebar opportunities. The straight leg creates a direct line of force for ankle pressure while the extended knee becomes vulnerable to kneebar attack. This defensive mistake should trigger immediate commitment to finishing.",
         "answer_line": "Finish ankle lock or kneebar",
         "distractors": {
@@ -585,7 +585,7 @@
         }
       },
       {
-        "question": "The defender establishes frames on your upper body and begins creating distance - how do you recover control?",
+        "question": "The defender frames on your upper body and builds distance — how do you recover control?",
         "answer": "Immediately tighten your leg wrap to maintain connection while using your free arm to break their frames or control their hip. If distance becomes significant, transition to Single Leg X-Guard to maintain leg engagement while rebuilding your attack angle. Never allow frames to accumulate unchallenged, as distance compounds and control becomes progressively more difficult to re-establish.",
         "answer_line": "Tighten wrap, break their frames",
         "distractors": {
@@ -898,7 +898,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What is the defining spatial configuration that makes a position straight ankle lock control rather than a generic leg tangle?",
+      "question": "What spatial configuration makes it straight ankle lock control rather than a leg tangle?",
       "answer": "One player sits or lies roughly perpendicular to the other, with the trapped foot pulled tight across their hip line and the near leg wrapped over the entangled thigh. The perpendicular angle is what converts a loose leg grab into a controlling position, because it lets the hip act as the fulcrum against which the ankle is levered. The trapped leg is isolated so its owner cannot simply retract it, while the entangling legs sit between the two bodies to police the distance. Without this cross-body angle and the foot pinned to the hip, the configuration is just a passing leg-grab with no submission structure.",
       "answer_line": "Perpendicular angle, foot pinned",
       "distractors": {
@@ -940,7 +940,7 @@
       }
     },
     {
-      "question": "How does the trapped leg's knee angle change the danger level for both players in this configuration?",
+      "question": "How does the trapped leg's knee angle change the danger for both players here?",
       "answer": "A bent knee keeps the leg short, preserves the trapped player's ability to rotate the hip, and shortens the lever arm that ankle pressure travels along, all of which reduce joint stress. A fully straightened leg lengthens that lever, removes the rotational escape, and lines the ankle up for maximal hyperextension, dramatically increasing the finishing leverage. Because of this, the knee angle is a shared fulcrum both players fight over: keeping it bent versus forcing it straight is effectively the whole leverage battle. The same straightening that maximizes ankle pressure also exposes the knee line, which is why the configuration sits adjacent to kneebar territory.",
       "answer_line": "Bent knee protects, straight risks",
       "distractors": {
@@ -982,7 +982,7 @@
       }
     },
     {
-      "question": "Why is straight ankle lock control frequently described as simultaneously offensive and vulnerable for the leverage-holder?",
+      "question": "Why is straight ankle lock control both offensive and vulnerable for the leverage-holder?",
       "answer": "The player with the ankle threatens an immediate, genuinely dangerous submission and controls one of the opponent's primary mobility tools, which is the offensive side. Yet to hold that leverage they surrender superior positioning and expose their own posture and legs to counter-entanglement, so the same commitment that generates the finish also invites reversal. This dual character is why the position resolves into so many branches: a symmetrical 50-50 exchange, an advance to a deeper entanglement, or a counter that lands the roles reversed. The vulnerability is intrinsic to the trade the position represents, not a mistake in how it is held.",
       "answer_line": "Threat trades away good position",
       "distractors": {
@@ -996,7 +996,7 @@
       }
     },
     {
-      "question": "What defines the boundary condition where straight ankle lock control breaks down into an adjacent position like 50-50?",
+      "question": "What boundary condition collapses straight ankle lock control into 50-50?",
       "answer": "The position holds only while one foot stays isolated against one hip; the moment the trapped player mirrors the entanglement by capturing the opponent's near leg, the asymmetry that defined single-ankle control collapses into a symmetrical configuration. In 50-50 both players hold an equivalent ankle and an equivalent threat, so the leverage advantage that characterized straight ankle control neutralizes. Similarly, if the isolated foot slides free of the hip line the position degrades toward open guard or a scramble. These boundary conditions show the position is fundamentally about maintained asymmetry over a single isolated ankle, and it becomes something else the instant that asymmetry is lost.",
       "answer_line": "Losing single-ankle asymmetry",
       "distractors": {

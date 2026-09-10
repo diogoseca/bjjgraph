@@ -82,7 +82,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the Kimura locked but their weight is shifted backward rather than driving forward - should you attempt the rolling escape?",
+      "name": "They have the kimura locked but their weight is back, not forward; should you roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, do not attempt the roll: with their weight shifted backward the opponent has the base to follow your rotation and maintain the grip throughout. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand."
@@ -106,7 +106,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
     },
     {
       "@type": "Question",
-      "name": "Your roll attempt stalls halfway through because your opponent widens their base - what is your immediate response?",
+      "name": "Your rolling kimura escape stalls halfway as they widen their base; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt to force the remaining rotation or try a second roll, as this creates maximum shoulder vulnerability at a compromised angle. Instead, immediately redirect into an explosive hip escape laterally, using whatever angle change the partial roll created. The partial rotation may have shifted the Kimura angle enough to make hip escape viable where it previously was not. Frame against their head or shoulder with your free arm and shrimp away aggressively."

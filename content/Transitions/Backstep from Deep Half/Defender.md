@@ -64,7 +64,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     },
     {
       "@type": "Question",
-      "name": "If you recognize the backstep too late and your opponent has already stepped over, what is your best defensive option?",
+      "name": "You spot the deep half backstep too late and they've stepped over: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the step has already cleared your body, immediately turtle by pulling your knees to your chest and getting to all fours before they can establish hooks. Turtle is a significantly better defensive position than being flat on your back with an opponent landing on your back. From turtle, you have established defensive sequences for preventing hook insertion and recovering guard. Do not remain flat as this guarantees full back control."
@@ -72,7 +72,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How does your underhook grip management change when you suspect a backstep rather than a forward pass attempt?",
+      "name": "In deep half, how does your underhook change when you expect a backstep, not a forward pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you suspect a backstep, your underhook should grip tighter and pull the trapped leg closer to your chest rather than using it as a sweep lever. This increased tension makes it harder for the top player to rotate freely because their trapped leg acts as an anchor keeping them connected to your front-facing position. Additionally, use your free hand to monitor their far hip rather than preparing sweep grips, as the hip contact provides early warning of rotational movement."
@@ -80,7 +80,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What positioning adjustment makes you most resistant to backstep attempts while maintaining deep half guard?",
+      "name": "What positioning makes your deep half most resistant to the backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your hips angled toward the top player rather than perpendicular to them makes you most resistant to backsteps. When your hips face the top player, any backstep rotation forces them to travel a longer arc to reach your back, giving you more time to follow. Additionally, maintaining your free hand as a frame on their far hip rather than reaching for sweep grips provides both early warning and physical resistance to rotational movement."
@@ -88,7 +88,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand and begins shifting weight for what appears to be a backstep - should you follow the rotation or bridge to sweep?",
+      "name": "They post and shift weight for a deep half backstep: do you follow the rotation or bridge to sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The answer depends on timing. If you detect the weight shift early before the free leg lifts, bridge into the compromised base to attempt the sweep, as their weight commitment to the posted hand creates vulnerability. If the free leg has already begun lifting, following the rotation with your hips is safer because a late bridge may provide momentum that helps complete the backstep. The bridge is higher reward but requires earlier recognition, while following the rotation is the safer default response."

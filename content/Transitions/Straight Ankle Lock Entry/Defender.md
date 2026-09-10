@@ -56,7 +56,7 @@ description: "How to defend against Straight Ankle Lock Entry in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can recognize and defend the Straight Ankle Lock Entry from grasshopper guard?",
+      "name": "What is the earliest point you can recognize and defend the ankle lock entry from grasshopper?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when the attacker's hips elevate higher than their normal grasshopper position and their outside leg begins shooting across your hip line. This outside leg crossing is the first physical action of the entry sequence and provides the widest defensive window. A back step at this moment denies the entire entry before any grip or leg frame is established, making it the highest-percentage defensive response."
@@ -64,7 +64,7 @@ description: "How to defend against Straight Ankle Lock Entry in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is a stack pass particularly effective against the ankle lock entry, and when should you avoid using it?",
+      "name": "Why does the stack pass beat the ankle lock entry, and when should you avoid using it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stack pass works because it directly attacks the fundamental requirement of the entry - hip elevation. Driving your weight forward collapses the attacker's inverted base, eliminating the elevated hip position they need to frame your legs and capture your ankle. However, you should avoid the stack pass if the attacker has already secured a partial grip on your ankle, because your forward drive can tighten their existing control and accelerate the submission rather than preventing it."
@@ -72,7 +72,7 @@ description: "How to defend against Straight Ankle Lock Entry in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your ankle grip has been captured but the figure-four is not yet closed - what is your defensive priority and why?",
+      "name": "They have your ankle but the figure-four is not closed: what is your priority and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority is simultaneously stripping the ankle grip and preventing the figure-four from closing, using a two-on-one grip break on their near hand while your free leg pushes down on their bottom leg. The grip alone cannot hold you if the figure-four fails to close, and the figure-four alone cannot hold you if the grip is stripped. But both together create complete control. You must address both threats at once because the attacker is working to close the figure-four in the same moment you are stripping the grip."
@@ -88,7 +88,7 @@ description: "How to defend against Straight Ankle Lock Entry in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What base width and weight distribution should you maintain when facing a grasshopper guard player who favors ankle lock entries?",
+      "name": "What stance width and weight distribution should you use against a grasshopper ankle lock player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a medium-width staggered stance with approximately 60% of your weight on your rear foot rather than your lead foot. This distribution allows you to retract your lead foot rapidly when the entry begins without losing balance. Too wide a stance makes you slow to adjust, while too narrow makes you vulnerable to elevation sweeps. The slight rear-weighting ensures your lead foot is never so committed that it becomes a stationary target for the ankle capture."

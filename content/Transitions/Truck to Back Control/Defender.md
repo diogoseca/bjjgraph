@@ -72,7 +72,7 @@ description: "Defend against the Truck to Back Control transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases boot pressure and begins threading a hook inside your thigh - what is your immediate response?",
+      "name": "They release boot pressure and thread a hook inside your thigh—what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble."
@@ -80,7 +80,7 @@ description: "Defend against the Truck to Back Control transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Why is preventing the alignment shift from perpendicular to parallel behind your back the most important early defensive action?",
+      "name": "Why is stopping the perpendicular-to-parallel shift your key early defense from the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular-to-parallel alignment shift is the prerequisite for hook insertion. From a perpendicular angle, the opponent cannot effectively thread hooks between your thighs because the geometry is wrong. By framing against their chest and preventing this shift, you force them to remain in truck position where their hook insertion pathways are blocked. This early defense is more energy-efficient than fighting individual hooks after the alignment shift has already occurred."

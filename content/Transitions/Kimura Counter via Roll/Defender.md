@@ -56,7 +56,7 @@ description: "Defend against the Kimura Counter via Roll. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt the Kimura Counter via Roll?",
+      "name": "From the Kimura trap on top, what are the earliest cues they are about to roll you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The four primary cues are: their Kimura grip pressure shifting from upward toward submission to lateral across their body, their outside foot planting flat on the mat as a bridging post, their hips loading and shifting toward you in preparation for explosive rotation, and their free hand moving from framing to reaching for your collar or head. Seeing any two of these simultaneously indicates an imminent roll attempt and should trigger immediate defensive positioning."
@@ -72,7 +72,7 @@ description: "Defend against the Kimura Counter via Roll. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the roll but you feel their legs starting to swing around your waist - what is your immediate response?",
+      "name": "Countering their Kimura roll, you feel their legs swinging around your waist — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep your far leg over their swinging legs before they can lock ankles behind your back. Simultaneously, drive your near knee across their hip line to block the leg closure. If you cannot prevent the ankle lock, posture up explosively the instant their ankles cross, establishing hands on their hips before they can break your posture. The first two seconds after guard closure determine whether you can posture and begin opening or get broken down."

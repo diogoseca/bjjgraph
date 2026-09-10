@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Why must the choking arm be threaded to maximum depth before initiating the rotation from Kesa Gatame?",
+        "question": "Why must the choking arm be fully threaded before you rotate from kesa gatame to north-south?",
         "answer": "If the arm is not deep enough before rotation begins, the rotational movement causes the arm to slide out from under the opponent's neck as your body pivots. You arrive in North-South without sufficient arm depth to compress the far-side carotid, and the choke will not finish regardless of how much sprawl pressure you apply. Re-threading from North-South is much harder than getting depth from Kesa Gatame where head control is already established.",
         "safety_critical": false,
         "answer_line": "Arm slides out mid-rotation",
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "Your opponent defends the Americana by pinching their elbow tight to their ribs - how does this create an opening for the North-South Choke?",
+        "question": "How does your opponent tucking their elbow to defend the americana open the north-south choke?",
         "answer": "When the opponent tucks their elbow to defend the Americana, they pull their arm away from blocking your choking arm's path under their neck. Their defensive posture also tends to flatten them onto their back with minimal framing, which is the ideal position for threading the choking arm deeper. The tight-elbow defense that stops the Americana is exactly the posture that enables the choke, creating a true dilemma where defending one attack opens the other.",
         "safety_critical": false,
         "answer_line": "Elbow tuck clears choke path",
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "The choke feels close but your opponent is surviving your sprawl pressure - what micro-adjustment should you try?",
+        "question": "The north-south choke is close but they survive your sprawl—what micro-adjustment should you try?",
         "answer": "Walk your hips slightly toward the choking-arm side to change the compression angle on the carotid arteries. This small lateral shift often closes the gap between almost-finishing and a clean tap. You can also try pulling your choking elbow tighter toward your own hip to increase the arm's compression while maintaining sprawl weight. Another adjustment is driving your shoulder forward and slightly downward, aiming to press the bony point of your shoulder directly into the carotid groove on the neck.",
         "safety_critical": false,
         "answer_line": "Walk hips toward choking arm",
@@ -419,7 +419,7 @@
         }
       },
       {
-        "question": "In competition, when should you commit to the North-South Choke versus staying in Kesa Gatame to keep scoring?",
+        "question": "In competition, when do you commit to the north-south choke instead of holding kesa gatame?",
         "answer": "Commit to the choke only when your arm is threaded past the centerline of the throat and the opponent is flat with their near arm controlled, because from there the rotation is high-percentage and ends the match outright. If your arm is shallow, the opponent is actively turning into you, or you are already ahead late on points, stay in Kesa Gatame and keep accumulating pressure and arm-attack threats instead of gambling the rotation, which can open a guard recovery or scramble. Treat the choke as a match-ender you take only when the entry is genuinely there.",
         "safety_critical": false,
         "answer_line": "Commit only with deep arm, flat opp",
@@ -573,7 +573,7 @@
         }
       },
       {
-        "question": "Why is defending during the rotation more effective than defending after the attacker reaches North-South?",
+        "question": "Why is defending the north-south choke during the rotation better than after they reach north-south?",
         "answer": "During the rotation, the attacker is between positions with compromised base and divided attention between maintaining arm depth and completing the pivot. Their weight is shifting and they cannot simultaneously apply maximum choking pressure while moving. Once they arrive in North-South and sprawl their hips, they have full bodyweight driving the choke with stable base, and all their attention is on finishing. The transition phase is where the attacker is weakest and your frames and guard recovery attempts have the highest success rate.",
         "safety_critical": false,
         "answer_line": "Attacker weak mid-rotation",

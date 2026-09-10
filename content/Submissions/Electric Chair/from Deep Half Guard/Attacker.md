@@ -92,7 +92,7 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and base out with their free hand during your Electric Chair attempt - what adjustment prevents escape?",
+      "name": "They posture and base a hand during your Electric Chair — how do you stop the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent attempts to posture and base, immediately use your free hand to control their posting arm by grabbing their wrist or sleeve and pulling it across their body. Simultaneously increase your lockdown squeeze and accelerate your inversion to remove their base. If you cannot control the posting arm, transition to a whip-up motion using your underhook to pull their weight forward and break their posture. The key is disrupting their ability to establish a stable base before they can complete the posture recovery."
@@ -100,7 +100,7 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if a training partner taps to Electric Chair but you suspect they may have sustained a minor injury?",
+      "name": "Your partner taps to the Electric Chair and may be hurt — how do you release?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately cease all pressure and follow the complete release protocol: release lockdown first, control their leg during release to prevent sudden movement, gradually lower leg to neutral position, and maintain communication. After release, give partner extended time to assess their knee and hip before continuing. Ask if they need to take a break or if any area requires attention. Never pressure partner to continue training if they express discomfort. Document the incident if injury occurred and adjust training intensity for future sessions. Partner safety and long-term health always take priority over training continuity."
@@ -108,7 +108,7 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "At what point during the Electric Chair does the opponent reach the 'point of no escape' where the tap becomes inevitable?",
+      "name": "When does the Electric Chair reach the point of no escape for your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when you have established full inversion with maximum hip extension and rotational torque while maintaining tight lockdown control. At this stage, opponent's trapped leg is hyperextended, their hip is being torqued by your spinal rotation, and they have no remaining leverage to extract their leg or counter the pressure. The combination of extension and rotation creates a mechanical lock where any defensive movement actually increases pressure. Once this configuration is achieved with proper angle, the opponent cannot escape without tapping or risking injury."
@@ -116,7 +116,7 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if your opponent begins successfully extracting their trapped leg during the finish?",
+      "name": "Your opponent is pulling their trapped leg out of the Electric Chair — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If opponent begins extracting their leg, immediately tighten your lockdown by pulling your feet closer to your hip and squeezing your knees together harder. Accelerate your hip extension to maintain pressure on the trapped leg before they can complete extraction. Use your underhook arm to pull their upper body toward you, which transfers their weight onto the trapped leg and makes extraction harder. If extraction continues despite these adjustments, follow their leg movement by continuing your inversion while maintaining lockdown contact - their backward movement often opens the Old School sweep as a high-percentage backup option."

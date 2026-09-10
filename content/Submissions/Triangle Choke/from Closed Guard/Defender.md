@@ -58,7 +58,7 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is early recognition and prevention more effective than late-stage escape when defending the triangle from closed guard?",
+      "name": "Why is preventing a closed guard triangle more effective than escaping one that is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the attacker achieves all three structural elements - perpendicular angle, ankle locked behind the knee, and fully broken posture - the triangle creates bilateral compression of both carotid arteries that produces unconsciousness within 5-10 seconds. At this stage, even technically correct escape attempts may not succeed before the blood choke takes effect. Prevention through posture maintenance, tight elbows, and immediate response to wrist control prevents the attacker from ever establishing these three elements, keeping the defender in a position where their escape percentage remains high."
@@ -66,7 +66,7 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What is the correct direction to turn your body when caught in a locked triangle, and why does turning the wrong way make the situation worse?",
+      "name": "Caught in a locked triangle, which way should you turn, and why is the other way worse?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn toward the choking leg - the leg whose knee is pressed against the side of your neck. Turning this direction compresses the space between your shoulder and the attacker's thigh, reducing the pressure the knee can apply to your neck. Turning away from the choking leg exposes the vulnerable back of your neck to the choking knee and actually increases the bilateral compression. Additionally, turning away creates the exact rotation the attacker needs to transition to omoplata on your trapped arm, adding a second submission threat."
@@ -74,7 +74,7 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How does the 'two arms in or two arms out' principle guide your defensive positioning against triangle setups from closed guard?",
+      "name": "How does the 'two arms in or two arms out' rule guide your defense against triangle setups?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke requires asymmetric arm position - one arm trapped inside and one outside - to create the shoulder wedge that produces choking pressure. If both your arms are inside the opponent's guard (elbows tight to body, hands on their hips), they cannot isolate one arm for the triangle. Similarly, if you can get both arms outside during a triangle attempt, the choke loses its shoulder wedge and becomes ineffective. The critical error is allowing one arm to drift inside while the other stays out, which is exactly the configuration the attacker needs. Maintaining disciplined arm position in closed guard eliminates the triangle threat before it begins."
@@ -82,7 +82,7 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "When caught in a triangle, why is it dangerous to simply try to pull your trapped arm out, and what submission does this expose you to?",
+      "name": "Caught in a triangle, why is yanking your trapped arm free dangerous, and what does it expose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the trapped arm straight back while the triangle is locked feeds directly into an armbar. The attacker simply pivots their legs over your face while your arm is already extended from the extraction attempt, creating a fully locked armbar position. The arm extraction movement also temporarily increases space in the triangle, allowing the attacker to adjust their angle or deepen the lock. Instead of pulling the arm out directly, you must first address the triangle structure by turning toward the choking leg or stacking to change the angle, then extract the arm from a position where the armbar transition is blocked by your body positioning."
@@ -90,7 +90,7 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What are the physical signs that indicate you are running out of time to escape a locked triangle before losing consciousness?",
+      "name": "What physical signs mean you must tap now rather than keep escaping a locked triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Physical warning signs include: vision narrowing or darkening at the edges (tunnel vision), a feeling of pressure building in your head and face, hearing becoming muffled or distant, difficulty thinking clearly or processing defensive options, involuntary relaxation of your muscles despite wanting to resist, and a warm or tingling sensation in your face and ears from blood pooling. If you experience any of these signs, you must tap immediately rather than continuing escape attempts, as unconsciousness can follow within seconds. In training, there is no tactical benefit to pushing past these warning signs - tap, reset, and drill the defense from an earlier stage."

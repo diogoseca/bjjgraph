@@ -76,7 +76,7 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to move your feet simultaneously with the arm drag motion rather than pulling first and stepping second?",
+      "name": "Why move your feet at the same time as the arm drag pull, not after it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Moving your feet simultaneously ensures you capitalize on the brief window of structural disruption created by the arm drag. If you pull the arm first and then move your feet, the opponent has time to recover their base, turn into you, or re-establish defensive frames. The simultaneous movement compounds the positional advantage because the opponent cannot track two changes at once: their arm being redirected and your body appearing behind their shoulder line. This timing coordination is the single most common differentiator between successful and failed arm drag attempts."
@@ -84,7 +84,7 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     },
     {
       "@type": "Question",
-      "name": "What is the most dangerous counter to watch for when executing standing arm drags and how do you prevent it?",
+      "name": "What is the most dangerous counter during a standing arm drag, and how do you prevent it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine choke is the most dangerous counter when executing standing arm drags. Opponents can secure it when your head rises above their shoulder level during the technique, exposing your chin to their arm. Prevention requires keeping your head level with or below their shoulder throughout the drag, positioning your forehead near their shoulder blade as you circle behind them. Your head should track behind their shoulder line at all times, making it structurally impossible for them to access your chin for the guillotine grip."
@@ -92,7 +92,7 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully whizzers over your arm during an arm drag attempt and squares their hips - what do you do?",
+      "name": "Your arm drag is stuffed by a whizzer and they square their hips. What now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent establishes a whizzer, abandon the direct back take rather than fighting through it. The whizzer blocks the back take path but creates openings elsewhere because it commits one of their arms. Effective responses include converting to an inside trip using their whizzer as a control point, pulling guard while maintaining arm connection, ducking under to their opposite side, or attacking their posted far arm. The key principle is that the whizzer fixes one of their arms, so flow to attacks that exploit the arm they can no longer use for defense."
@@ -100,7 +100,7 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     },
     {
       "@type": "Question",
-      "name": "Describe the proper path and direction of the arm drag motion and why pulling straight back toward yourself is ineffective?",
+      "name": "What path should the arm drag pull follow, and why is a straight pull back ineffective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The proper arm drag path is circular and crosses the opponent's centerline, pulling their wrist toward their opposite hip pocket so their arm passes their opposite shoulder. This creates maximum structural disruption by redirecting their arm away from where it can provide support or defensive frames, generating a rotational force. Pulling straight back toward your own body is ineffective because the opponent can resist along the same linear axis by pulling back or stepping forward. The across-the-body circular motion creates a mechanical disadvantage they cannot resist with simple linear resistance while simultaneously opening the angle for your body to move behind their exposed shoulder line."
@@ -108,7 +108,7 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     },
     {
       "@type": "Question",
-      "name": "You are standing and your opponent has their arms tight to their body with elbows retracted and a wide, rooted base - how do you create the opening for an arm drag?",
+      "name": "How do you create an arm drag opening against a rooted opponent with elbows tight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a defensively compact opponent, you must create the opening before attempting the arm drag because the technique requires their arm to be extended or posted. Use setup movements that force a reaction: snap their head down so they post their hands to recover posture, push into their chest so they frame or post to maintain balance, fake a level change so they reach to sprawl or defend, or use collar ties and push-pull rhythms to disrupt their compact defensive posture. The arm drag exploits their recovery reaction, not their static position, so your job is to create movement that forces them to extend an arm."

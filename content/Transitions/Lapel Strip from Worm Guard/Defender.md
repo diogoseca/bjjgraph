@@ -56,7 +56,7 @@ description: "Defend against the Lapel Strip from Worm Guard. Guide to maintaini
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a lapel strip rather than a standard pass?",
+      "name": "What early cue shows the top player will attempt a lapel strip instead of passing your Worm Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the top player establishing a wider-than-normal stance and dropping their hips back, which signals they are building a defensive base before committing hands to grip fighting rather than initiating a passing sequence. This postural adjustment occurs before they reach for your grip, giving you time to preemptively reinforce your lapel hold and prepare sweep threats."
@@ -64,7 +64,7 @@ description: "Defend against the Lapel Strip from Worm Guard. Guide to maintaini
     },
     {
       "@type": "Question",
-      "name": "How do you maintain lapel tension when your opponent is actively stripping your grip with a two-on-one break?",
+      "name": "How do you keep lapel tension when they attack your Worm Guard grip with a two-on-one break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reinforce with your second hand on the lapel tail to create a grip advantage. Simultaneously curl your wrist inward and pull the lapel deeper around your shin to increase the structural reinforcement. Use your leg to trap the lapel material against your body, making it mechanically harder to extract even if they break your hand grip through superior grip fighting."
@@ -72,7 +72,7 @@ description: "Defend against the Lapel Strip from Worm Guard. Guide to maintaini
     },
     {
       "@type": "Question",
-      "name": "When should you abandon worm guard retention and transition to an alternative guard during a strip attempt?",
+      "name": "When should you abandon worm guard retention and build another guard during a lapel strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when you feel significant slack in the lapel that you cannot recover by tightening, when the top player has already cleared the lapel from under their leg and is holding it away from you, or when your grip endurance is failing and continued resistance will leave you without any guard structure at all. The transition must happen while you still have at least one useful grip to build the next guard from."
@@ -80,7 +80,7 @@ description: "Defend against the Lapel Strip from Worm Guard. Guide to maintaini
     },
     {
       "@type": "Question",
-      "name": "Your opponent breaks your lapel grip but has not yet cleared the material from under their leg - what is your best response?",
+      "name": "They broke your grip but haven't cleared the lapel from under their leg — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately reach for the dangling lapel material and re-grip it before the top player can pull their leg free or tuck the material away. This re-feed window is typically less than two seconds. If you can re-grip and re-tension the lapel, the strip resets completely and the top player must restart the entire sequence, which is demoralizing and energy-consuming for them."

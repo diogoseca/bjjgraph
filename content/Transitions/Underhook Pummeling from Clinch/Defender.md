@@ -64,7 +64,7 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully pummel-wins one underhook and is beginning to drive their head to that side—what is your immediate priority?",
+      "name": "They win an underhook and start driving their head in: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is counter-pummeling on that same side before they consolidate with head position and hip drive. The window between the underhook being threaded and full consolidation is approximately one to two seconds. Use your overhook on that side to create downward pressure while swimming your arm underneath theirs to strip the underhook. If you miss the window, transition to managing the over-under position rather than fighting a fully consolidated underhook."
@@ -80,7 +80,7 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
     },
     {
       "@type": "Question",
-      "name": "When is it more advantageous to capitalize into a body lock rather than simply blocking the pummel attempt?",
+      "name": "When is a body lock better than simply blocking their pummel attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Capitalizing into a body lock is most advantageous when the opponent's pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away during the swim and their head drops momentarily. This window occurs during aggressive pummel attempts where the opponent commits significant body movement. If their pummel is subtle and controlled, blocking and counter-pummeling is safer because the body lock attempt may fail and could compromise your existing dominant position."
@@ -88,7 +88,7 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
     },
     {
       "@type": "Question",
-      "name": "What stance adjustment prevents the opponent from creating the angle they need for effective pummeling?",
+      "name": "What stance adjustment denies your opponent the angle they need to pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a slightly staggered stance with your lead foot positioned slightly inside their lead foot, keeping your hips square to their centerline. This positioning closes the inside lane they need for the swim motion and forces them to pummel from a wider angle, which is slower and easier to detect. Additionally, slight forward pressure through your chest and shoulders reduces the space between bodies, making the swimming arc more difficult to complete regardless of the angle attempted."

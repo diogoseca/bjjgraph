@@ -74,7 +74,7 @@ description: "Learn to execute the Deep Half to X-Guard transition with precise 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped leg backward while maintaining crossface pressure - how do you initiate the X-Guard transition?",
+      "name": "They pull the trapped leg back while crossfacing — how do you start the X-guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the crossface pressure to your advantage by timing the transition with their pull. As they pull backward, their crossface becomes less effective because their weight shifts away from you. Thread your inside hook behind their knee as the leg moves backward, using their extraction momentum to help seat the hook deeply. Transfer your near hand to their ankle simultaneously to prevent full extraction. The pull-back actually makes the inside hook easier to thread because their leg is moving toward your hook entry angle."
@@ -90,7 +90,7 @@ description: "Learn to execute the Deep Half to X-Guard transition with precise 
     },
     {
       "@type": "Question",
-      "name": "You have threaded your inside hook but your opponent sprawls before you can establish the outside leg - what adjustment do you make?",
+      "name": "Your inside hook is in but they sprawl before your outside leg lands — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If only the inside hook is set and the opponent sprawls, evaluate the distance. If they are still within reach, immediately elevate with just the inside hook to off-balance them while racing to place your outside foot on their far hip. If they have created too much distance for the outside leg, convert to Single Leg X-Guard by bringing your outside leg to the same-side hip and hooking with both legs on one side. The inside hook gives you enough control to prevent full disengagement while you reconfigure."
@@ -106,7 +106,7 @@ description: "Learn to execute the Deep Half to X-Guard transition with precise 
     },
     {
       "@type": "Question",
-      "name": "The top player drives their knee forward to prevent your inside hook from threading - what chain attack becomes available?",
+      "name": "The top player drives their knee in to block your inside hook — what attack opens up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drives their knee forward to block the inside hook, they shift their weight toward you, which is the exact trigger for deep half sweeps. Abandon the X-Guard attempt and immediately attack with the waiter sweep, using their forward weight commitment against them. Alternatively, if their knee drive creates space on the far side, enter the old school sweep. The opponent faces a dilemma: resist the X-Guard transition by driving forward and expose themselves to deep half sweeps, or pull back and allow the X-Guard entry."
@@ -114,7 +114,7 @@ description: "Learn to execute the Deep Half to X-Guard transition with precise 
     },
     {
       "@type": "Question",
-      "name": "What hip angle relative to the opponent creates optimal sweeping leverage in the completed X-Guard position?",
+      "name": "What hip angle to the opponent gives optimal sweeping leverage in completed X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body should be perpendicular to the opponent's trapped leg, forming a T-shape where your shoulders point approximately 90 degrees away from the direction their leg faces. This perpendicular angle maximizes sweeping leverage because your legs create forces that act at right angles to the opponent's base, which is the most mechanically efficient direction for off-balancing. A parallel angle reduces sweep power significantly because your forces align with their base direction rather than cutting across it."

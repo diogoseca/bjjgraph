@@ -72,7 +72,7 @@ description: "Complete defensive guide for retaining Double Sleeve Guard against
     },
     {
       "@type": "Question",
-      "name": "Your opponent creates a strong lateral angle after breaking one grip — what is your defensive priority?",
+      "name": "They break one sleeve grip and create a strong angle: what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to follow their angle with your hips by hip escaping in the same direction they moved. This keeps your legs between you and the passer rather than allowing them to pass around your leg barrier. Simultaneously, use your remaining sleeve grip to pull them back toward center and attempt to re-square your hips to face them. If you cannot re-square, transition to a half guard or knee shield position on the side they are passing toward."

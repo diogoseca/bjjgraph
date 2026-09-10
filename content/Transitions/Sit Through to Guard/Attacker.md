@@ -84,7 +84,7 @@ description: "How to execute Sit Through to Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains heavy chest pressure on your upper back without committing forward - how do you create the opening?",
+      "name": "Turtle: they sit heavy on your upper back without committing forward - how do you open it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use feints and movement to draw them forward. Push back into them slightly then suddenly release, or threaten a granby roll to make them commit weight forward to prevent it. You can also shift your weight toward one side, inviting them to follow, then execute the sit through to the opposite side when they commit. The goal is to convert their neutral pressure into directional commitment you can exploit."
@@ -100,7 +100,7 @@ description: "How to execute Sit Through to Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your sit through is being consistently countered by opponent following and taking your back - what adjustment should you make?",
+      "name": "Your sit through from turtle keeps getting followed for the back: what do you change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The counter indicates your framing arm is insufficient or your timing is off. First, ensure you establish a strong frame before initiating. Second, verify you're only attempting when opponent's weight commits forward. Third, consider chaining techniques: if they successfully follow, immediately transition to a second sit through in the opposite direction or chain into a granby roll using their forward momentum against them. The combination of better framing and chained escapes makes following much harder."
@@ -108,7 +108,7 @@ description: "How to execute Sit Through to Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should establish closed guard versus half guard after completing the sit through?",
+      "name": "After the sit through from turtle, what decides closed guard versus half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on where your threading leg ends up relative to opponent's body. If your leg clears completely past their hips and you can get your second leg around them, close your guard. If opponent's leg gets caught between yours during the rotation, immediately lock half guard rather than fighting for the full close. Also consider your preferred game: if you are stronger from half guard, intentionally target that position by controlling their leg during the rotation."

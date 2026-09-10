@@ -82,7 +82,7 @@ description: "Complete attacker guide for Break Overhook Guard. Learn systematic
     },
     {
       "@type": "Question",
-      "name": "Your opponent has an extremely deep overhook with their hand locked behind your shoulder blade - which break variant should you prioritize and why?",
+      "name": "Breaking a very deep overhook locked behind your shoulder blade: which break variant, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the posture-first pressure break or the two-on-one peel. A deep overhook makes the standard elbow circle extremely difficult because there is no gap to circulate through. The posture-first approach uses maximum hip extension to stretch their arm toward full extension, reducing their mechanical advantage and creating the space needed. If posture alone is insufficient, the two-on-one peel uses both hands to generate enough leverage to peel a deeply locked overhook off your shoulder."
@@ -98,7 +98,7 @@ description: "Complete attacker guide for Break Overhook Guard. Learn systematic
     },
     {
       "@type": "Question",
-      "name": "You begin the elbow circulation and feel your opponent shoot their leg over your shoulder - what is happening and how do you respond?",
+      "name": "Mid elbow-circle, they shoot a leg over your shoulder - what's happening and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player is attempting a triangle choke by capitalizing on the space created as your arm begins to clear the overhook. Immediately tuck your clearing elbow tight to your ribs to deny the leg from locking across your neck. Drive your posture backward, pulling your head away from the closing triangle. If the leg gets across, stack forward immediately using the posture you established during the break. Do not continue the break attempt until the triangle threat is neutralized."

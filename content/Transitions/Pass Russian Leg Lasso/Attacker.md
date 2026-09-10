@@ -96,7 +96,7 @@ description: "Complete guide to passing the Russian Leg Lasso guard in BJJ. Syst
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-establishes their collar grip immediately after you break it - how do you adjust your approach?",
+      "name": "They re-grip your collar right after you break it in Russian leg lasso: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than engaging in an endless grip-breaking cycle, consider transitioning to a toreando-style pass that works around the collar control, or time your grip break with a simultaneous forward drive so the guard player cannot re-grip before you have committed to the pass. You can also switch to controlling their collar-grip hand with your own grip to prevent re-establishment while you address other control points."
@@ -104,7 +104,7 @@ description: "Complete guide to passing the Russian Leg Lasso guard in BJJ. Syst
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical principle that makes the lasso dangerous, and how does your passing strategy address it?",
+      "name": "What makes the Russian leg lasso mechanically dangerous, and how does your posture address it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lasso functions as a pulley system where the guard player's leg threaded through your arm creates a fulcrum for generating rotational force. Your passing strategy addresses this by maintaining upright posture with hips back, which minimizes the fulcrum's effectiveness, and by breaking the supporting grips that allow the guard player to amplify this rotational force through collar and sleeve control."
@@ -112,7 +112,7 @@ description: "Complete guide to passing the Russian Leg Lasso guard in BJJ. Syst
     },
     {
       "@type": "Question",
-      "name": "You feel the guard player beginning to initiate a sweep as you break their sleeve grip - what is your immediate response?",
+      "name": "They start a sweep as you break their sleeve grip in Russian leg lasso: what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the grip break and prioritize base recovery by sprawling your hips back and widening your stance. Once stable, resume the grip-breaking sequence. Attempting to complete the grip break while being swept results in losing position entirely. The guard player's sweep timing is often designed to exploit the exact moment of grip break when the passer's hands are occupied."

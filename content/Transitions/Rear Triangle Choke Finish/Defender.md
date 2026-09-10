@@ -56,7 +56,7 @@ description: "Learn to survive and escape the Rear Triangle Choke Finish. Covers
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first action you should take when you recognize the opponent is initiating the choke finish?",
+      "name": "First action when you recognize they are finishing the rear triangle choke on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin toward your chest and turn your face toward the non-choking leg side to protect your carotid arteries from full compression. Simultaneously establish a grip on the opponent's choking leg ankle or behind their knee with your free hand to prevent them from optimizing their angle. These two actions combined buy the critical seconds needed to mount a meaningful escape attempt."
@@ -72,7 +72,7 @@ description: "Learn to survive and escape the Rear Triangle Choke Finish. Covers
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins walking their hips toward your trapped arm side - what does this signal and how should you respond?",
+      "name": "They walk their hips toward your trapped arm side: what does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This signals they are optimizing the cutting angle to convert from a compression hold to an efficient blood choke targeting both carotid arteries. You have a narrow window to respond. Use your free hand to grip their choking leg ankle and pull it toward the non-choking side to disrupt their angle. Simultaneously attempt to rotate your body in the opposite direction of their hip walk to reduce the diagonal pressure vector."
@@ -88,7 +88,7 @@ description: "Learn to survive and escape the Rear Triangle Choke Finish. Covers
     },
     {
       "@type": "Question",
-      "name": "The opponent releases some pressure to adjust their position - how do you capitalize on this adjustment window?",
+      "name": "They release pressure to adjust the rear triangle: how do you capitalize on that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This adjustment window is your primary escape opportunity. Immediately work arm extraction by pulling your trapped elbow tight against your ribs and threading your forearm across your centerline. Simultaneously shrimp your hips away to create distance. If the triangle loosens significantly, attempt to rotate your entire body toward the non-choking leg side. Execute your prepared escape sequence without hesitation—advanced attackers minimize adjustment windows to fractions of a second."

@@ -82,7 +82,7 @@ description: "How to execute the Ankle Pick takedown in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What is the proper hand position for gripping the ankle, and why is this grip superior to other options?",
+      "name": "How should you grip the ankle for the ankle pick, and why is that grip better than others?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The proper grip is a heel cup where your hand wraps around the back of the heel with fingers curling around the Achilles tendon area and thumb pointing toward the toes. This grip is superior because it provides maximum control over the foot's movement and the opponent cannot simply pull their foot backward or rotate it free. Gripping the top of the foot or the toes allows easy extraction, while the heel cup locks the entire foot structure and prevents any escape direction."
@@ -106,7 +106,7 @@ description: "How to execute the Ankle Pick takedown in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that your opponent's weight is properly loaded on their lead leg for an ankle pick opportunity?",
+      "name": "What signs show your opponent's weight is loaded on their lead leg for an ankle pick?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing occurs when their lead knee is slightly bent indicating weight bearing, their heel is firmly planted on the mat rather than raised, their upper body posture shows slight forward lean from your collar tie pressure, and they are not actively moving their feet. Additionally, if you can feel tension in their collar tie resistance rather than them backing away, this indicates forward weight distribution. The moment right after they complete a forward step is often ideal timing."
@@ -114,7 +114,7 @@ description: "How to execute the Ankle Pick takedown in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining the collar tie throughout the level change considered essential for ankle pick success?",
+      "name": "Why must you keep the collar tie throughout the level change for the ankle pick?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level maintaining the distance needed for ankle access, it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective."

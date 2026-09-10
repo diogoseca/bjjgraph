@@ -82,7 +82,7 @@ description: "Execute the Matrix to Back Control counter from top position. Step
     },
     {
       "@type": "Question",
-      "name": "Why is following the rotation more effective than resisting it when the Matrix entry is fully committed?",
+      "name": "Why follow the rotation instead of resisting once their Matrix entry is fully committed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the Matrix rotation has sufficient momentum, resisting directly often fails because the rotational force is designed to overcome static resistance. Following the rotation uses the opponent's own momentum to deliver you to their back, converting their offensive energy into your positional advantage. Resistance keeps you in front of them, while following places you behind them. The opponent's commitment to the roll means their back is necessarily exposed during the inversion phase."
@@ -98,7 +98,7 @@ description: "Execute the Matrix to Back Control counter from top position. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts a Matrix roll but you hesitate between sprawling and following - what is the consequence?",
+      "name": "You hesitate between sprawling and following their Matrix roll: what is the consequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hesitation is the worst possible outcome because you end up with neither a strong defensive base nor a committed follow-through. Your weight is uncommitted and your position is transitional, making you vulnerable to the Matrix completing successfully, to being off-balanced if the opponent aborts and attacks, or to ending up in an awkward scramble where neither player has positional advantage. The decision must be immediate and fully committed."
@@ -106,7 +106,7 @@ description: "Execute the Matrix to Back Control counter from top position. Step
     },
     {
       "@type": "Question",
-      "name": "How do you maintain chest-to-back contact during a fast Matrix rotation without being pulled over the opponent?",
+      "name": "How do you keep chest-to-back contact in a fast Matrix rotation without being pulled over?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lead with your hips rather than your head and shoulders during the follow. Your center of gravity stays controlled through core engagement while your chest drives forward into their back. Keep your arms ready to post if you begin to go over. The key is controlled forward pressure rather than diving or lunging. Your hip connection provides the anchor that prevents you from being pulled over while your chest maintains the contact that prevents separation."

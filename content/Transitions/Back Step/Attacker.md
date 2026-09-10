@@ -98,7 +98,7 @@ description: "How to execute Back Step in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between the back step timing and the opponent's leg entanglement progression, and when should you abort the technique?",
+      "name": "From outside ashi, when should you back step and when must you abort it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk."
@@ -106,7 +106,7 @@ description: "How to execute Back Step in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your back step execution when the opponent transitions from outside ashi to inside ashi during your passing attempt?",
+      "name": "How do you adjust your back step if they switch from outside ashi to inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step."

@@ -56,7 +56,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What tactile cue tells you the bottom player is about to attempt the hip escape rather than a Granby roll?",
+      "name": "What tactile cue signals a hip escape rather than a Granby roll from Chill Dog bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip escape is preceded by the bottom player posting strongly on their inside arm and loading weight onto their hands, preparing for a lateral drive. In contrast, a Granby roll is preceded by tucking the inside shoulder and loading weight onto the upper back and shoulder. The arm posting sensation through your chest contact is distinct - during hip escape setup you feel them pushing outward and laterally, while during Granby setup you feel them collapsing inward and beginning to rotate."
@@ -64,7 +64,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully threaded their inside leg between yours but has not yet turned to face you - what is your best counter?",
+      "name": "They thread the inside leg but have not turned to face you: what is your best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical window for back control. Their leg is committed to the thread, which means they have limited ability to retreat back to full Chill Dog. Immediately drive your near-side hook inside their thigh above the threading leg and reach over-under for the seatbelt grip. Their half-completed escape has given you a partially turned back that is easier to control than a fully tucked Chill Dog. Do not try to extract your leg from the thread - instead accept the half guard leg position and focus on establishing upper body back control."
@@ -72,7 +72,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control when the bottom player creates small hip movements to test your reactions?",
+      "name": "How do you hold Chill Dog top when they make small probing hip movements?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Small probing movements are designed to map your pressure and find weaknesses before committing to the full escape. Respond with proportional adjustments rather than large reactions. If they shift slightly left, shift your weight slightly left to follow. Do not overreact by sprawling or driving hard - this reveals your reaction patterns and creates the opening they are probing for. Maintain steady chest pressure and hip connection while making micro-adjustments to stay centered on their movement."
@@ -80,7 +80,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
     },
     {
       "@type": "Question",
-      "name": "What is the fundamental difference between countering a hip escape to half guard versus countering a Granby roll?",
+      "name": "How does countering a hip escape to half guard differ from countering a Granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A hip escape moves laterally and requires you to follow sideways while preventing the leg thread - your counter is lateral pursuit and hip control. A Granby roll moves rotationally forward and requires you to either drive weight forward to prevent the roll or follow the roll to maintain back exposure. The hip escape counter emphasizes staying connected laterally, while the Granby counter emphasizes vertical pressure or rotational following. Misidentifying the escape type leads to applying the wrong counter at the worst possible moment."
@@ -88,7 +88,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
     },
     {
       "@type": "Question",
-      "name": "When should you choose to follow the escape for back control versus shutting it down to maintain Chill Dog top?",
+      "name": "When do you follow the escape for the back instead of shutting it down to keep Chill Dog?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow for back control when the escape has already created significant lateral space and the bottom player is beginning to rotate - at this point shutting it down requires more energy than capitalizing on the movement. Shut it down when you detect the escape early in the setup phase and can prevent the hip escape with a simple pressure adjustment. The decision point is whether they have already created the space: if space exists, follow and attack the back; if no space yet, prevent the space from being created."

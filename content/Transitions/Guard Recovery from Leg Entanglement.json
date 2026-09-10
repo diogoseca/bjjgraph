@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent has inside ashi garami with a C-grip on your heel — what is your first action before attempting any extraction?",
+        "question": "They have inside ashi with a C-grip on your heel — what do you do before any extraction?",
         "answer": "Strip the C-grip on your heel immediately using both hands. Grab your own foot and pull it toward your buttock while peeling their fingers off the heel bone. Do not attempt any leg extraction or hip escape until the heel grip is completely broken, because any extraction movement with the heel exposed creates ideal finishing angles for ankle locks and heel hooks. Only after the heel is secured against your own body should you begin the extraction sequence.",
         "answer_line": "Strip the heel grip first",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Your opponent strips your hip frame and begins advancing from basic ashi to saddle during your recovery attempt — how do you respond?",
+        "question": "They strip your hip frame and advance from ashi toward the saddle — how do you respond?",
         "answer": "Stop the extraction sequence immediately and address the positional advancement as the new priority. The saddle is a significantly more dominant entanglement with multiple submission pathways, so preventing its establishment takes precedence over continuing your recovery. Re-establish your hip frame by fighting their advancing leg, use your hands to block their far leg from crossing over your trapped leg, and hip escape to create the angle needed to prevent the saddle configuration from completing.",
         "answer_line": "Stop extraction, block saddle",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail when stripping the opponent's inside hook from across your hip?",
+        "question": "What is the key mechanical detail when stripping their inside hook off your hip?",
         "answer": "The strip must be coordinated with a hip escape in the direction away from the hook. Using hands alone to push the hook away is insufficient because the opponent can simply re-pummel with hip pressure. By hip escaping simultaneously, you add your entire body's lateral force to the hand strip, creating a directional mismatch the opponent cannot easily counter. Push their inside leg toward the mat with both hands while hip escaping in the opposite direction to create maximum separation force.",
         "answer_line": "Strip hook while hip escaping",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "After successfully extracting your leg, your opponent immediately shoots to re-entangle your freed leg — how do you prevent re-entry?",
+        "question": "After extracting your leg, they shoot to re-entangle it — how do you block re-entry?",
         "answer": "Insert your knee between you and the opponent immediately upon extraction, establishing half guard before they can secure any grip on your freed leg. If they have already grabbed the leg, sprawl your hips back to create distance while framing on their head or shoulder. Guard recovery is not complete when the leg comes free — it is complete when you have established a defensive guard structure that blocks re-entry. The knee shield or half guard hook creates this barrier.",
         "answer_line": "Insert knee, build half guard",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "Your opponent aggressively re-pummels their inside hook every time you strip it — what alternative approach should you take?",
+        "question": "They re-pummel the inside hook each time you strip it — what alternative approach works?",
         "answer": "Switch from direct hook stripping to an angle-based approach. Instead of fighting the hook head-on, hip escape deeply to change your angle relative to the opponent, which weakens their hook's effectiveness even without fully stripping it. From the new angle, the inside hook loses its purchase across your hip because your hip is no longer square to their control. Alternatively, transition to inversion recovery to completely change the dynamic — the opponent's re-pummeling pattern is calibrated for your current angle, and inversion disrupts this pattern entirely.",
         "answer_line": "Change angle or invert",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "How should you manage energy during an extended guard recovery attempt against an opponent who keeps re-establishing control?",
+        "question": "How do you manage energy in a long recovery against repeated leg entanglement control?",
         "answer": "Use intervals of intense effort followed by positional maintenance rather than continuous maximum exertion. Make explosive extraction attempts during moments when the opponent adjusts grips or transitions between entanglement variants, then rest in protected defensive positions between attempts. Keep your heel hidden and maintain minimal frames during rest phases to prevent submission threats while conserving energy. The opponent maintaining the entanglement also costs them energy — if you are efficient in your defensive posture, they may fatigue faster as they work to advance position and finish submissions.",
         "answer_line": "Burst effort, rest defensively",
         "distractors": {
@@ -475,7 +475,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent strips your C-grip on their heel and tucks their foot against their buttock — what is your immediate response?",
+        "question": "They strip your C-grip and hide their heel against their buttock — what is your response?",
         "answer": "Immediately re-attack the heel by reaching around or under their leg to re-establish the grip. If the heel is fully hidden, switch your offensive priority to the knee line — drive your inside leg deeper across their hip to strengthen positional control while you work to re-expose the heel. You can also threaten a toe hold or kneebar on the exposed portion of the leg, which forces them to address the new submission threat and often re-exposes the heel in their defensive reaction.",
         "answer_line": "Re-attack heel or knee line",
         "distractors": {
@@ -489,7 +489,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from successfully establishing a hip frame on your body during their recovery attempt?",
+        "question": "From the leg entanglement, how do you stop them establishing a hip frame on you?",
         "answer": "Strip their framing foot from your hip by pushing it away with your hand or trapping it against your body with an overhook grip. If they successfully establish the frame, collapse the distance by driving your hips forward while controlling the framing leg — this neutralizes the pushing force. You can also change your angle relative to the frame by circling to the side, which makes their straight-line push ineffective. The goal is to deny them any point of leverage to create distance.",
         "answer_line": "Strip their framing foot",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "When should you attempt to advance from general leg entanglement to Inside Ashi-Garami during the opponent's recovery attempt?",
+        "question": "When should you advance from leg entanglement to inside ashi during their recovery?",
         "answer": "Advance when the opponent commits both hands to stripping your hooks, leaving their heel momentarily undefended. Their extraction sequence creates predictable windows — specifically when they push your inside leg away, their attention shifts to that hook and their heel protection weakens. This is the optimal moment to re-secure heel control while simultaneously driving your inside leg deeper across their hip. Advancement during their escape is higher percentage than against a static, fully-defended opponent because their defensive resources are divided.",
         "answer_line": "When both hands strip a hook",
         "distractors": {

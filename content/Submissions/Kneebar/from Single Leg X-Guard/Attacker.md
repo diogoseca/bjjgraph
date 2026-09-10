@@ -70,7 +70,7 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
+      "name": "Why apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal safe zone between no pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery."
@@ -86,7 +86,7 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
     },
     {
       "@type": "Question",
-      "name": "What anatomical structures does the kneebar from SLX primarily attack, and what is the mechanism of injury?",
+      "name": "Which structures does the kneebar from SLX attack, and what is the injury mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the fulcrum point (your hip or lower abdomen) just above the patella while controlling the heel, then extending your hips to create a lever that forces the knee beyond its natural range of extension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under rotational or compressive forces if the heel is not properly controlled during application."
@@ -94,7 +94,7 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting up to strip your heel control — what immediate adjustment secures the kneebar position?",
+      "name": "Your opponent sits up to strip your heel control in the SLX kneebar: what secures the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase the push pressure with your free leg against their chest or shoulder to drive them back down, while simultaneously tightening your heel grip and scooting your hips further away from their body to increase the lever arm distance. If they continue rising despite the leg frame, squeeze your figure-four leg triangle tighter to prevent leg extraction and angle your body more perpendicular. The combination of upper body frame pressure and tightened hip angle creates a structure they cannot posture through. If they achieve full upright posture despite these adjustments, transition to guard passing rather than forcing a compromised finish."
@@ -102,7 +102,7 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain tight heel control throughout the kneebar, and what happens if the heel rotates during application?",
+      "name": "Why keep the heel tightly controlled in the kneebar, and what happens if it rotates?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tight heel control is essential because any space between the heel and your chest allows the bottom player to extract their foot and escape the submission entirely. More critically, if the heel rotates or turns during pressure application, it adds dangerous rotational torque to the knee joint, exponentially increasing injury risk. This rotation can cause ACL tears in addition to the primary PCL and collateral ligament damage from hyperextension. The heel must be locked tightly to your chest with toes pointing straight away from you, controlled rigidly by both arms in a prayer grip to prevent any rotation."
@@ -110,7 +110,7 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
     },
     {
       "@type": "Question",
-      "name": "What is the proper power source for kneebar finishing pressure, and why does technique matter more than strength?",
+      "name": "What should power the kneebar finish, and why does that beat relying on strength?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The proper power source is hip extension through engaging the glutes and thrusting hips upward toward the ceiling, not arching the back or pulling with arm strength. Hip extension creates efficient, controlled pressure against the knee joint while protecting your own lower back from injury. The glutes are among the strongest muscles in the body, generating far more force than arms or spinal erectors. Attempting to finish with back arching generates minimal submission pressure, risks lumbar strain, and signals poor technique. The motion should feel like a controlled hip thrust with engaged core, driving hips up while pulling the heel down to your chest."

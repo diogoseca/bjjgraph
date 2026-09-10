@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment is required when transitioning from Kuzure Kesa Gatame control to the arm triangle configuration?",
+      "name": "What grip change converts Kuzure Kesa Gatame control into the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After driving the trapped arm up against the opponent's neck, release your scarf hold arm control and thread your choking arm over their repositioned arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip. Maintain chest pressure on the trapped arm throughout to prevent extraction during the switch."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins retracting their trapped arm as you start the grip transition - what adjustment prevents the escape?",
+      "name": "They retract the trapped arm as you start the Kuzure Kesa grip switch — what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel the arm beginning to slide out, immediately drive your chest weight down onto the arm to re-pin it against their neck before continuing the grip transition. If the arm has already moved too far, abandon the arm triangle attempt and return to standard Kuzure Kesa Gatame control by recapturing the arm between your armpit and chest. Forcing a compromised grip transition creates a loose configuration that wastes energy and sacrifices positional control."
@@ -108,7 +108,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     },
     {
       "@type": "Question",
-      "name": "What body angle creates maximum finishing pressure once the arm triangle is locked from Kuzure Kesa Gatame?",
+      "name": "What body angle gives maximum finishing pressure on the arm triangle from Kuzure Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm blade compresses the other side. Without the perpendicular angle, the choke becomes a neck crank."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no return?",
+      "name": "What shows the Kuzure Kesa arm triangle is locked and they're near the point of no return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand, cannot bridge effectively, and cannot turn their head away from the choking pressure, they have passed the point where escape becomes extremely unlikely."

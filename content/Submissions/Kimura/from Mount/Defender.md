@@ -58,7 +58,7 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Kimura from mount is being set up, and why is early defense critical?",
+      "name": "Under mount, what is the earliest cue a Kimura is being set up, and why act early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker grab your wrist with their same-side hand while in mount and begin isolating it away from your body. Early defense is critical because the Kimura becomes progressively harder to defend at each stage: wrist control is the easiest to fight, the figure-four grip is harder, the perpendicular angle is very difficult, and once the circular rotation begins, only the tap is safe. Each 1-2 seconds of delayed response eliminates defensive options exponentially."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "How do you integrate Kimura defense with mount escape mechanics rather than treating them as separate problems?",
+      "name": "Under mount, how do you combine Kimura defense with mount escape instead of separating them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective approach uses one hand for grip defense (gripping belt, pants, or clasping hands to prevent rotation) while simultaneously using hip movement to disrupt the attacker's perpendicular angle. When the attacker shifts their weight to establish the Kimura angle, their base becomes compromised on the opposite side, creating a bridge-and-roll opportunity. Similarly, the attacker's commitment to the figure-four grip means they cannot post their hands to prevent a well-timed hip escape. By combining grip stalling with active positional escape, you address both the submission and the mount simultaneously."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "Your attacker has the figure-four grip locked and is beginning to shift to the perpendicular angle - what is your defensive sequence?",
+      "name": "Under mount, they lock the figure-four and shift to the perpendicular angle—what is your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip your own belt or pants with your trapped hand to prevent rotation. With your free hand, frame against their far hip to prevent them from completing the perpendicular angle shift. Begin hip escaping away from the trapped arm to collapse their angle and insert your knee. If they have already established the angle, switch to timing a bridge toward the trapped arm side when their base is weakest (during the weight shift). Throughout, keep your trapped arm bent and elbow tight to your ribs. If all defensive options fail and the rotation begins, tap before injury occurs."

@@ -50,7 +50,7 @@ description: "Learn to defend against the Back Door Escape from Half Guard as th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest visual and tactile cues that indicate a back door escape attempt is about to begin?",
+      "name": "What earliest cues tell you your half guard bottom opponent is starting a back door escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the opponent ceasing their underhook fight and redirecting hip escape movement away from you rather than toward you, a noticeable relaxation in their framing pressure against your chest as they prepare to redirect energy, and small adjustments to their leg position preparing to release the half guard trap. The tactile cue of hip pressure shifting direction away from your body is the most reliable early indicator and should trigger immediate defensive response."
@@ -66,7 +66,7 @@ description: "Learn to defend against the Back Door Escape from Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "Your opponent completes the back door escape to turtle before you can establish back control - what are your immediate priorities?",
+      "name": "They reach turtle via the back door escape before you get back control—what are your priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish chest pressure on their upper back while working for seatbelt grip. Do not reach around wildly. Methodically establish the over-under harness by threading your choking arm over their shoulder while your other arm goes under their armpit. Keep your hips connected to their hips to prevent sit-throughs and technical standups. Time is critical because their first action will be to initiate a turtle escape, so establishing at least one hook and seatbelt within three seconds is essential for converting to full back control."
@@ -74,7 +74,7 @@ description: "Learn to defend against the Back Door Escape from Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "How does your weight distribution as the half guard top player affect the opponent's ability to execute the back door escape?",
+      "name": "How does your weight distribution on half guard top affect their back door escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward-distributed weight through your chest and crossface makes the initial hip escape nearly impossible, effectively preventing the escape before it develops. Weight distributed too far back on your heels or hips creates the space between your chest and their body that the escape requires for the turning motion. However, extremely forward weight commitment can be exploited by the opponent using your momentum to accelerate their turn. The optimal distribution is heavy forward pressure with lateral mobility, keeping approximately seventy percent of weight through your upper body connection."

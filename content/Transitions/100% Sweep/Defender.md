@@ -72,7 +72,7 @@ description: "How to defend against the 100% Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your arm is trapped and you feel the hip drive beginning - what is your last-resort defensive response?",
+      "name": "Your arm is trapped and the 100% Sweep hip drive has started—what is your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sweep is already in deep execution, your last-resort defense is posting your free hand wide on the mat to the side opposite the sweep direction while simultaneously driving your weight over that posting arm. This creates a structural brace that can arrest the rolling momentum even mid-sweep. However, you must immediately recognize that this posting arm is now vulnerable to kimura attack, so as soon as the sweep momentum is stopped, you need to extract the trapped arm and retract the posting hand back to your body before the opponent can transition to the submission. This is a temporary emergency measure, not a sustainable defensive position."

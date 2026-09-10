@@ -82,7 +82,7 @@ description: "How to execute Triangle Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the correct angle to create relative to your opponent's body before throwing your leg over their shoulder?",
+      "name": "What angle to their body should you create before throwing your leg over their shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Approximately 45 degrees, with your shoulders rotated off the mat toward the side of the trapped arm. This angle allows your hip to rotate naturally while maintaining control of their posture and trapped arm. Insufficient angle prevents proper leg positioning while excessive angle gives the opponent escape opportunities."
@@ -106,7 +106,7 @@ description: "How to execute Triangle Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "If your opponent circles away from the triangle as you create your angle, what are three effective responses?",
+      "name": "They circle away as you create your triangle angle: what three responses work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, follow their circular movement by continuing to adjust your angle further in the same direction, using their momentum against them. Second, use their turning motion to transition to a back take as they expose their back. Third, switch to an opposite-side triangle setup or omoplata by redirecting to the side they're giving you. The key is recognizing their defensive movement early and adapting rather than forcing the original attack."

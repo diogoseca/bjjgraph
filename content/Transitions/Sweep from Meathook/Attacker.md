@@ -90,7 +90,7 @@ description: "Learn to execute the Sweep from Meathook in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base by posting their free arm far to the side as you begin loading the sweep. What should you do?",
+      "name": "Meathook bottom: they post their free arm wide as you load the sweep—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the sweep attempt and transition to a submission attack. The wide arm post that prevents the sweep simultaneously opens their neck for gogoplata and creates space for triangle entry. Their defensive choice against the sweep has made them vulnerable to submissions. Flow to the attack that their defense opens rather than forcing a sweep against improved base."
@@ -114,7 +114,7 @@ description: "Learn to execute the Sweep from Meathook in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively to prevent your hip elevation. How do you convert this defensive reaction?",
+      "name": "Meathook bottom: they drive forward to stop your hip elevation—how do you convert that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward driving pressure from the opponent feeds directly into gogoplata. Their forward momentum carries their neck deeper into the shin hook's choking angle. Rather than fighting against their pressure to execute the sweep, redirect the shin from tricep to throat and establish gogoplata control. The harder they drive forward to prevent the sweep, the deeper they enter the choke. This is the core dilemma of the Meathook attack system."

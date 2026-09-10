@@ -70,7 +70,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical safety consideration when applying the rolling armbar, and why must you never spike the submission?",
+      "name": "Rolling armbar: why must you never spike it, and how slowly should you apply the extension?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical safety consideration is applying slow, controlled extension over 3-5 seconds minimum because the rolling motion already creates significant torque and surprise on the elbow joint. Spiking or jerking the submission can cause immediate elbow dislocation, ligament rupture, or complete joint capsule failure requiring surgical reconstruction. The dynamic nature of the roll means the opponent often doesn't realize they're in danger until the submission is locked, making controlled application essential to allow time for the tap."
@@ -78,7 +78,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why must you tuck your chin and roll over your shoulder rather than your neck, and what injury can result from improper rolling mechanics?",
+      "name": "Rolling armbar: why roll over your shoulder not your neck, and what injury can result?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling over your neck instead of your shoulder can cause severe cervical spine injury, neck strain, or even vertebral damage. The proper mechanics involve tucking your chin to your chest, looking toward your hip, and driving your shoulder to the mat first. The roll should travel diagonally across your back from shoulder to opposite hip. Rolling over your neck not only risks serious injury but also causes loss of control, allowing the opponent to escape or counter-attack effectively."
@@ -86,7 +86,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What anatomical structure does the rolling armbar attack, and what are the warning signs that indicate the breaking point is approaching?",
+      "name": "Which joint does the rolling armbar attack, and what signs show the breaking point is near?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rolling armbar attacks the elbow joint, specifically hyperextending it by applying force against the natural bending direction. The primary structures at risk are the ulnar collateral ligament (UCL), lateral collateral ligament (LCL), and the joint capsule itself. Warning signs approaching the breaking point include visible straightening of the arm past neutral, the opponent's increasing resistance followed by sudden relaxation, verbal or physical tap attempts, and any popping or cracking sensations. The submission should be released immediately at the first sign of any of these indicators."
@@ -94,7 +94,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the key differences in arm control between a rolling armbar and a traditional armbar from mount?",
+      "name": "How does arm control in the rolling armbar differ from a traditional armbar from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rolling armbar requires more dynamic and continuous arm control throughout a rotational sequence, whereas the mount armbar is applied from a stable, established position. In the rolling variation, you must maintain two-handed grip throughout the entire roll while your body rotates through space, requiring the arm to be pulled tight across your chest and centerline. The mount armbar allows you to establish position first, then apply control. The rolling armbar also requires anticipating the opponent's defensive reactions during the roll itself, making grip strength and arm connection absolutely critical from the initial setup through the finish."
@@ -102,7 +102,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent stacks you during the rolling attempt, and what alternative submissions become available?",
+      "name": "Your opponent stacks you mid-roll in the rolling armbar — how do you respond and what else opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If stacked during the roll, you have several options: First, use your free leg to push off their hip or shoulder to generate additional rotational momentum and complete the roll despite the stack. Second, if the stack is too heavy, abort the roll and immediately transition to triangle choke, as the stacked position often leaves their neck and arm perfectly positioned. Third, you can use their stacking pressure against them by pulling them over you and using their momentum to facilitate the roll. The key is never fighting directly against a heavy stack but rather redirecting energy or transitioning to attacks the stack position enables."
@@ -110,7 +110,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is creating a 45-degree angle essential before initiating the roll, and what happens if you attempt the technique straight on?",
+      "name": "Why create a 45-degree angle before the rolling armbar roll, and what happens if you go straight on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 45-degree angle off center is critical because it creates the proper rotational axis for the rolling mechanics and prevents you from rolling directly backwards over your neck. This angle allows your shoulder to contact the mat first and provides the geometric pathway for your body to rotate smoothly while maintaining arm control. Attempting the roll straight on without this angle results in rolling over your neck (dangerous), getting stuck mid-roll without completing the rotation, or losing arm control as the improper angle creates slack in your grip. The angle also helps break the opponent's base and prevents them from simply posting out and stopping the roll."

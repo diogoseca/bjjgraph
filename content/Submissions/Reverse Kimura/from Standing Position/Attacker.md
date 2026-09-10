@@ -70,7 +70,7 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum application time for Reverse Kimura in training and why is this submission particularly dangerous?",
+      "name": "What is the minimum application time for the Reverse Kimura in training, and why is it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Minimum 4-6 seconds with progressive pressure and constant communication. The Reverse Kimura is particularly dangerous because the reversed grip angle can cause the submission to complete more suddenly than standard Kimura, potentially injuring the opponent before they can tap. The internal rotation of the shoulder happens rapidly once the joint reaches its limit, creating high injury risk if applied too quickly. Always stop well before the finish point in training."
@@ -78,7 +78,7 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How does the grip configuration differ between standard Kimura and Reverse Kimura, and what mechanical advantage does this provide?",
+      "name": "How does the Reverse Kimura grip differ from a standard Kimura, and what advantage does it give?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In standard Kimura, your grabbing hand reaches behind the opponent's arm to grip your wrist, creating a figure-four with your forearm behind their arm. In Reverse Kimura, your grabbing hand reaches in front of their arm to grip your wrist, creating the figure-four with your forearm in front of their arm. This reverse configuration often provides tighter control in dynamic situations, different leverage angles, and better control during scrambles. The reverse grip naturally drives internal rotation when you pull toward your body, making it mechanically efficient from standing and front headlock positions."
@@ -86,7 +86,7 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the mandatory tap signals for standing Reverse Kimura submissions and why is verbal communication especially important?",
+      "name": "Which tap signals apply to the standing Reverse Kimura, and why does verbal tapping matter most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "All standard tap signals apply: verbal tap, physical hand tap, foot tap, or any distress signal. Verbal tap is especially important for standing submissions because the opponent may have limited ability to physically tap while maintaining balance and defending. Additionally, standing submissions can progress to dangerous falls if not controlled, so clear communication allows both practitioners to safely manage the descent or release. Never restrict your partner's ability to verbally tap by covering their mouth or applying pressure that prevents speech."
@@ -94,7 +94,7 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning into the Reverse Kimura lock to relieve shoulder pressure while you have the grip secured from front headlock - what immediate adjustment prevents their escape?",
+      "name": "Your opponent turns into your Reverse Kimura from front headlock: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent turns into the lock, this is your best opportunity for a back take rather than forcing the finish. Maintain your reverse Kimura grip and follow their rotation, using the grip as a steering mechanism. As they turn, their back becomes exposed - step over with your near leg and begin inserting hooks while keeping the grip. If they stop turning mid-rotation, they are now in an even worse position with their shoulder compromised and their back partially exposed. The critical error would be trying to resist their turn and force the finish from the original angle, which often results in losing the grip entirely. Flow with their movement and convert their defensive rotation into positional advancement to back control."
@@ -102,7 +102,7 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "You have the Reverse Kimura grip locked from standing and feel your opponent's shoulder reach the point where their arm can no longer move freely - what determines whether the submission is past the point of no escape?",
+      "name": "What determines that a standing Reverse Kimura has passed the defender's point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape for the Reverse Kimura occurs when three conditions converge: the reverse figure-four grip is fully locked with deep wrist-on-wrist connection, the shoulder has been rotated past approximately 70-80 degrees of internal rotation where muscular resistance alone cannot overcome the mechanical advantage, and your body position prevents the defender from turning into or away from the lock. At this point, the only options for the defender are to tap or sustain injury. In training, you should never reach this point - stop at 45-60 degrees and wait for the tap. The defender's flexibility and grip strength may extend this window slightly in competition, but once all three conditions are met, the submission is mechanically inevitable."

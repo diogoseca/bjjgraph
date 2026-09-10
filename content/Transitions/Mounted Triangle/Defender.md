@@ -56,7 +56,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your highest-percentage defensive window against the Mounted Triangle and what should you do during it?",
+      "name": "What is your best defensive window against the mounted triangle, and what do you do in it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage window is during the arm isolation phase before the attacker's leg swings over your head. When you feel them gripping your wrist and pulling your arm across your centerline, immediately retract your elbow to your hip, turn your body toward the attacker, and grip your own collar or lapel to anchor the arm. Preventing the head-and-arm isolation entirely is far easier than escaping a locked triangle."
@@ -64,7 +64,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the triangle but you still have your free arm available - where do you place it and why?",
+      "name": "The mounted triangle is locked but your free arm is loose — where do you place it and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Place your free arm as a frame against the attacker's hip bone on the side you plan to hip escape toward. This creates a structural barrier that prevents them from settling their weight and generates the lateral space you need for hip escaping. Never push upward on their legs, as this fights their strongest leverage angle and wastes energy. The hip frame converts your arm strength into directional movement rather than a static battle against the triangle."
@@ -72,7 +72,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is bridging straight upward ineffective against the Mounted Triangle and what direction should you bridge instead?",
+      "name": "Why is bridging straight up useless against the mounted triangle, and which direction works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging straight up is ineffective because the attacker's triangle leg configuration still provides lateral base stability, and the figure-four lock around your neck absorbs upward force through the squeeze. Instead, bridge at a 45-degree angle toward the choking leg side where the attacker's base is weakest—that leg is committed to the triangle rather than posted for stability. This direction attacks their structural vulnerability and can displace their balance enough to create escape space."
@@ -80,7 +80,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your trapped arm is being pulled toward an armbar as the attacker transitions from triangle - how do you protect it?",
+      "name": "They shift from mounted triangle toward an armbar on your trapped arm — how do you protect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately bend your trapped arm sharply and grip your own opposite bicep or wrist with your free hand to create a two-on-one defensive structure. Turn your body toward the attacker to prevent the hip rotation they need for the armbar angle. Their transition from triangle to armbar requires them to release some triangle pressure—use that moment to hip escape toward them and try to get your elbow back to your hip. The transition window is your escape opportunity."
@@ -96,7 +96,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "The attacker is cutting angle by walking their hips perpendicular to your body - what does this mean for your defense timing?",
+      "name": "They walk their hips perpendicular to cut the triangle angle — what does that mean for your timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The angle cut is the finishing mechanic that converts a locked triangle into a tight choke—once perpendicular, the choke becomes extremely difficult to survive. This means your defensive urgency increases dramatically. Before they achieve full angle, you still have options: frame on their hip to prevent the walk, bridge to disrupt their base during the movement, or turn into them to collapse the angle. Once the angle is fully cut with their hips perpendicular and head control established, your survival window narrows to seconds."

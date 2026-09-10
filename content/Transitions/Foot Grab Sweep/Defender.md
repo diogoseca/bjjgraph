@@ -56,7 +56,7 @@ description: "How to defend against the Foot Grab Sweep in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a foot grab sweep is being set up, and why does early recognition matter?",
+      "name": "What is the earliest cue a foot grab sweep is coming, and why does catching it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's free hand dropping below your knee line while they maintain an upper body grip with the other hand. This two-grip coordination (high and low) is the signature setup for the foot grab sweep. Early recognition matters because the defensive window shrinks dramatically once both grips are secured. Defending during the reach phase (before the foot grip) has a much higher success rate than defending after both grips are locked in and the hip drive has begun."
@@ -64,7 +64,7 @@ description: "How to defend against the Foot Grab Sweep in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Why is a staggered stance more effective than a square stance when defending against foot grab sweeps?",
+      "name": "Why does a staggered stance beat a square stance against foot grab sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A staggered stance creates unequal distances to each foot, making it impossible for the sweeper to threaten both feet simultaneously. The lead foot is closer but carries less weight, so grabbing it has reduced sweeping effect. The rear foot is out of range entirely. A square stance presents both feet at equal distance with equal weight distribution, giving the sweeper their choice of target. The staggered stance also naturally biases your weight rearward, which makes you harder to pull forward into the sweep's rotational arc."
@@ -72,7 +72,7 @@ description: "How to defend against the Foot Grab Sweep in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your right foot and your left sleeve - what should you address first and why?",
+      "name": "They grip your right foot and left sleeve: which grip do you address first, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the left sleeve grip first. The upper body grip is the anchor that generates the off-balancing pull needed to make the foot grab effective. Without that anchor, the foot grip alone lacks the mechanical advantage to complete the sweep. By breaking the sleeve grip, you remove the opposing force that creates the scissoring effect. Once the sleeve grip is broken, you can retract your foot freely or simply load weight onto it to neutralize the remaining control. Trying to free the foot first while the sleeve grip remains intact often results in the opponent simply adjusting and re-gripping the foot."
@@ -88,7 +88,7 @@ description: "How to defend against the Foot Grab Sweep in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if the foot grab sweep is already in full motion and you feel yourself being elevated?",
+      "name": "The foot grab sweep is already elevating you: what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the sweep is in full motion with hip elevation and rotational force, attempting to resist the sweep directly usually fails and can result in awkward landings. Instead, post your far hand on the mat in the direction you are falling, use that post to base out and prevent your shoulders from hitting the mat. Immediately work to establish a strong base from the posted hand, scramble your hips forward, and try to end up in a neutral position rather than flat on your back. If you cannot prevent the sweep, focus on landing in a way that allows immediate guard recovery rather than ending up in a consolidated side control."

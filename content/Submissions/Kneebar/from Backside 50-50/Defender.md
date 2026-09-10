@@ -52,7 +52,7 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately when kneebar finishing pressure begins rather than attempting a late escape?",
+      "name": "Why must you tap as kneebar finishing pressure begins instead of trying a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage occurs in less than one second. Unlike chokes where unconsciousness provides gradual warning, knee hyperextension produces structural failure with almost no buffer zone between safe pressure and injury. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk by loading the ACL in addition to the PCL. A controlled tap preserves all ligaments; a late escape attempt risks 6-12 months of surgical recovery and potential permanent instability."
@@ -60,7 +60,7 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from standard Backside 50-50 control to a kneebar attack?",
+      "name": "What is the earliest cue your opponent is switching from Backside 50-50 control to a kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker secure a two-handed grip on your heel or ankle area while their chest-to-back pressure begins to release. This combination signals they are preparing to pivot perpendicular for the kneebar rather than maintaining standard Backside 50-50 control or attacking a heel hook. Your immediate response must be to sit up or turn to face them in the 1-2 second transition window before the perpendicular angle is established. Acting in this window gives you the highest probability of disrupting the attack entirely."
@@ -76,7 +76,7 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has achieved the perpendicular angle but has not locked the figure-four leg triangle - what specific actions should you take?",
+      "name": "They have the perpendicular angle but no figure-four leg triangle yet: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab your own knee or shin with BOTH hands using a gable grip for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin sitting up by driving your hips forward and lifting your chest. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook behind their shoulder. This combined defense of grip protection and posture recovery attacks two elements the attacker needs simultaneously. Every second of delay in this window makes the leg triangle lock more likely."
@@ -84,7 +84,7 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
+      "name": "Why is explosive rotational escape the most dangerous error once kneebar pressure is applied?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it cannot safely absorb. The knee moves primarily in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12+ months of rehabilitation, and may result in permanent joint instability. A clean tap preserves all ligaments intact."

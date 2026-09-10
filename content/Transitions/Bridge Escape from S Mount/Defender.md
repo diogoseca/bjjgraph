@@ -64,7 +64,7 @@ description: "Maintain S Mount control against bridge escapes in BJJ. Counter-te
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the bottom player plant their feet for a bridge?",
+      "name": "You feel the bottom player plant their feet to bridge from S mount - how do you adjust weight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately lower your center of gravity by driving your hips tighter into their shoulder and leaning your upper body slightly forward. Increase the downward pressure through your hip-to-shoulder connection point. Widen your posted leg for additional base if possible. The goal is to make your weight as heavy and low as possible over the connection point before the bridge generates maximum force, absorbing the upward drive before it can displace you."
@@ -72,7 +72,7 @@ description: "Maintain S Mount control against bridge escapes in BJJ. Counter-te
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively and creates significant upward displacement - what is the highest-percentage transition to capitalize?",
+      "name": "They bridge explosively and displace you upward from S mount - best transition to capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bridge loosens their collar grip or exposes the trapped arm at all, immediately attack the armbar by pulling their wrist toward your chest and leaning back while squeezing your knees. The bridge momentum often extends their arm for you. If the arm stays protected but you are being displaced, transition laterally to re-establish S Mount from a different angle rather than fighting directly against the bridge force. Use their energy against them."

@@ -50,7 +50,7 @@ description: "Defend against the Kesa Gatame to Side Control transition in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important tactile cue that the Kesa Gatame to Side Control transition is beginning?",
+      "name": "What tactile cue tells you they are switching from Kesa Gatame to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is the loosening or repositioning of the far arm around your head. When the top player begins sliding their arm from behind your head toward your face to establish crossface, this is the definitive signal that the transition is initiating. This grip change is the first action in the sequence and provides the earliest warning, giving you maximum time to prepare and execute your defensive response."
@@ -58,7 +58,7 @@ description: "Defend against the Kesa Gatame to Side Control transition in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window more valuable for escape than either the established scarf hold or established side control?",
+      "name": "Why escape during the Kesa-to-side-control switch rather than from either settled position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the top player temporarily lacks the full mechanical advantage of either position. Their grips are in flux, their hip pressure is shifting, and their base is compromised by the rotation. In established scarf hold or side control, all control points work together as an integrated system. During transition, these control points are being disassembled and reassembled, creating gaps that do not exist in either settled position. This makes defensive actions significantly more likely to succeed."
@@ -66,7 +66,7 @@ description: "Defend against the Kesa Gatame to Side Control transition in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the transition but you fail to recover guard - what should your immediate priority be?",
+      "name": "They complete the Kesa to side control switch and you fail to recover guard — what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately switch to side control defensive mechanics: establish forearm frames against the crossface and hip, protect your neck from choke threats, and begin working systematic side control escape sequences. Do not continue attempting scarf hold escapes or try to force the top player back into scarf hold. Accept the positional change and adapt your defensive strategy to the new position's specific requirements and available escape pathways."
@@ -74,7 +74,7 @@ description: "Defend against the Kesa Gatame to Side Control transition in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How do you chain defensive actions during the brief transition window for maximum escape probability?",
+      "name": "How do you chain your defenses during the brief Kesa-to-side-control transition window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Start with the highest-percentage action first: bridge explosively as the head control loosens. If the bridge is absorbed, immediately flow to knee insertion during the hip rotation phase. If the knee is blocked, immediately frame against the shoulder and hip escape to create enough space for guard recovery. Each action should flow into the next without resetting, taking no more than 2-3 seconds total. The key is pre-planning this sequence so reactions are automatic rather than deliberative."

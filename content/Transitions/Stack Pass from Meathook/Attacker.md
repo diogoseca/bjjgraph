@@ -74,7 +74,7 @@ description: "Execute the Stack Pass from Meathook as the top player. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical safety measure before initiating the forward drive in the Stack Pass from Meathook?",
+      "name": "What is the key safety step before driving forward in the stack pass from meathook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tucking the chin firmly against the chest and turning the head away from the opponent's hooking leg. This protects the throat from gogoplata entry as the forward drive brings you directly into the path of the opponent's shin. Failing to tuck the chin before driving forward is the most dangerous error because it positions the throat into immediate choke range."
@@ -90,7 +90,7 @@ description: "Execute the Stack Pass from Meathook as the top player. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins adjusting their shin toward your throat as you initiate the stack. How do you respond?",
+      "name": "Their shin creeps toward your throat as you stack from meathook: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop the forward drive and assess whether you can redirect laterally or need to abort entirely. If the shin is approaching the throat, retreat to posture recovery rather than forcing through. The gogoplata threat escalates with every inch of forward progress past the critical point where the shin can contact the neck."
@@ -106,7 +106,7 @@ description: "Execute the Stack Pass from Meathook as the top player. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Why is rotational arm extraction more effective than straight pulling against the Meathook shin hook?",
+      "name": "Why beat the meathook shin hook with rotational arm extraction instead of pulling straight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin hook's strongest resistance is along the straight-line pulling axis. Rotational extraction spirals the arm through the hook, changing the angle of contact and exploiting gaps in the shin's grip mechanics. This reduces the force required for extraction significantly and prevents the shoulder strain that comes from sustained straight-line pulling against the hook's resistance."

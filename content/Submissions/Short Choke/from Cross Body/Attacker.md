@@ -116,7 +116,7 @@ description: "Master attacking the Short Choke from Cross Body Ride. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your approach if the opponent is actively fighting your choking hand with two-on-one grip control?",
+      "name": "Your opponent fights your choking hand two-on-one from cross body ride: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid engaging in a direct hand-versus-hand grip battle that stalls the attack. Instead, use incremental forearm walking to advance your choking arm in small movements between their defensive adjustments. Alternatively, threaten a different attack such as a crucifix entry or back take to force them to redirect their hands defensively, then immediately return to the choking arm thread during their grip transition. Patience and positional threats are more effective than forcing through established grips."

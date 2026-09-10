@@ -104,7 +104,7 @@ description: "How to execute Double Leg Setup in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between a successful penetration step and one that leaves you vulnerable to defense?",
+      "name": "What separates a sound penetration step from one that leaves you open to defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A successful penetration step places your lead foot deep between opponent's legs with knee pointing at their centerline, positions your head tight to their hip rather than floating in front, maintains low hip position while keeping back straight and strong, and creates continuous forward pressure that prevents them from creating space. Failed penetration typically shows insufficient depth (foot too far outside), head position too high or too far from their body, hips elevated rather than driven forward, and loss of forward momentum that allows opponent to establish sprawl or guillotine positions."

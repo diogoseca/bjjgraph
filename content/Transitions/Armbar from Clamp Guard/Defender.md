@@ -64,7 +64,7 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "Your arm is trapped in the clamp and you feel the attacker's hip angle change — what immediate action prevents the armbar entry?",
+      "name": "Arm trapped in clamp guard and their hip angle changes — what stops the armbar entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your posture upward by extending your spine and pressing your hips back while simultaneously fighting to break or loosen the wrist grip on your trapped hand. Use your free hand to push against the attacker's far knee or hip to create distance. The goal is to deny the three conditions the attacker needs: broken posture, wrist control, and hip angle. If you can restore even one of these defensive elements, the armbar entry becomes significantly harder to execute. Prioritize posture first because it physically prevents the leg from crossing over your head."
@@ -72,7 +72,7 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "During the leg swing transition, what specific timing window gives you the best chance to extract your arm?",
+      "name": "Defending clamp guard armbar: when in the leg swing is your best window to pull the arm out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal extraction window is the fraction of a second when the attacker's clamping leg must loosen to allow their outside leg to swing over your head. The clamp cannot maintain full bilateral pressure during the swing because one leg is in motion. This momentary reduction in clamping force — typically lasting less than one second — is when your retraction has the highest chance of success. Combine the retraction with an explosive posture drive to maximize the force pulling your arm free. If you miss this window, the knees will pinch together and the next escape opportunity requires significantly more effort."
@@ -80,7 +80,7 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "What posture adjustments reduce the likelihood of the armbar being successfully initiated from clamp guard?",
+      "name": "What posture adjustments make the clamp guard armbar harder to initiate on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain maximum spine extension with your head up and chest forward, keeping your center of gravity over your knees rather than shifted toward the attacker. Press your hips back and down to lower your center of gravity and increase base stability. Keep your chin elevated so the attacker's leg cannot clear over your head — a tucked chin paradoxically makes the leg swing easier because it reduces your head's profile. Use your free arm to post on the mat outside the attacker's hip, creating a structural frame that resists both the posture break and potential sweep attempts."
@@ -88,7 +88,7 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "If the attacker has already swung their leg over your head, what defensive priorities determine whether you escape or get submitted?",
+      "name": "Clamp guard armbar: their leg is already over your head — what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three priorities in order: First, bend your trapped elbow immediately and pull your fist toward your own shoulder to prevent arm extension — a bent arm cannot be hyperextended regardless of the attacker's hip position. Second, grip the leg across your face with your free hand and push it toward the attacker's body to prevent them from dropping their hips back for the finish. Third, drive your weight forward into a stacking position to compromise their perpendicular hip alignment. Address all three before attempting a full escape. If the attacker achieves full extension with hips tight and knees pinched despite your defense, tap rather than risk elbow injury."

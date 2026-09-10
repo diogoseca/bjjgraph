@@ -92,7 +92,7 @@ description: "Complete attacking guide for the Baseball Bat Choke from Knee on B
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pushing your knee with both hands — what adjustment creates the choke opportunity?",
+      "name": "They push your knee with both hands from knee on belly — how do you get the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to pushing your knee, their collar is completely undefended. Maintain knee pressure through your core while using your near hand to thread deep into the far-side collar with a palm-up grip. Their two-hand push means they cannot contest the grip insertion. Once the first grip is deep, secure the second grip quickly before they realize the collar is compromised. Their own defensive reaction to the knee has created the exact opening you need."

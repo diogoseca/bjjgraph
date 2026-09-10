@@ -56,7 +56,7 @@ description: "Learn to prevent the turtle turn escape from side control top. Com
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What early indicator signals that the bottom player is about to attempt a turtle turn from side control?",
+      "name": "What early cue tells you the bottom player is about to turn to turtle from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicator is the establishment of a forearm frame against your hip or shoulder. This frame is the prerequisite for every turn because it creates the separation needed to rotate. When you feel the bottom player's near-side arm pressing into your hip crease or driving against your shoulder, immediately increase your crossface pressure and hip connection to prevent the turn from developing. The explosive bridge that follows the frame is the second signal, but responding at that point gives you less time to counter effectively."
@@ -72,7 +72,7 @@ description: "Learn to prevent the turtle turn escape from side control top. Com
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control continuity when transitioning from side control top to turtle top as the opponent turns?",
+      "name": "How do you keep control continuity from side control top to turtle top as they turn?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain chest-to-back contact throughout the rotation by moving your upper body with the bottom player as they turn. As they rotate, your crossface hand transitions into a seatbelt position by sliding over their shoulder. Your near-side control hand slides from hip control to an underhook position around their waist. The critical principle is never having a moment of disconnection. Your weight should transfer seamlessly from side control chest pressure to turtle top chest pressure without any gap."

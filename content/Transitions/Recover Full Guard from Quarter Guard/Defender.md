@@ -56,7 +56,7 @@ description: "Learn to prevent guard recovery when passing quarter guard. Unders
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is about to attempt guard recovery from quarter guard?",
+      "name": "Earliest cues that the bottom player is about to recover guard from quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are frame establishment with forearm pressing against your chest or shoulder, hip tensing indicating preparation for shrimp movement, and the bottom player beginning to turn onto their side. These preparatory movements occur one to two seconds before the actual hip escape and knee insertion. Recognizing these pre-indicators allows you to increase pressure and block the recovery before it generates meaningful space, which is far easier than countering a recovery already in progress."
@@ -64,7 +64,7 @@ description: "Learn to prevent guard recovery when passing quarter guard. Unders
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure when the bottom player successfully creates space with a hip escape?",
+      "name": "The bottom player hip escapes and makes space from quarter guard: how do you adjust pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player creates space, immediately drive your hips forward to close the gap while simultaneously increasing crossface pressure to prevent their knee from entering the space. Do not chase their hips—instead advance your own position forward past where their hips were, turning their escape into your passing progression. If the space is too large to close with pressure alone, use your hand to control their inside knee and prevent reinsertion while you continue advancing."
@@ -72,7 +72,7 @@ description: "Learn to prevent guard recovery when passing quarter guard. Unders
     },
     {
       "@type": "Question",
-      "name": "When should you choose to backstep versus drive forward in response to the bottom player's recovery attempt?",
+      "name": "Quarter guard top: when do you backstep versus drive forward against their guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward when the bottom player's recovery is early-stage and their knee has not yet entered the space between you—your pressure can collapse the space before their knee inserts. Backstep when the bottom player has successfully inserted their knee and is beginning to establish half guard entanglement—at this point, driving forward plays into their recovering guard structure, while backstepping takes a completely different angle that bypasses their reinserted knee. The decision point is whether their knee has crossed the centerline between your bodies."

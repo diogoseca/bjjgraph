@@ -56,7 +56,7 @@ description: "Master maintaining the standing rear clinch against escape attempt
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile cues that indicate the opponent is beginning an escape from your standing rear clinch?",
+      "name": "What are the earliest tactile cues that your opponent is escaping your standing rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are changes in the opponent's grip fighting intensity on your clasped hands, sudden lowering of their center of gravity through knee bend, and lateral hip shifting that disrupts your chest-to-back alignment. These cues typically precede the actual escape attempt by one to two seconds, giving you a window to tighten your grip, increase forward pressure, and prepare to match their movement direction. The hip shift is the most reliable indicator because it signals the beginning of angle creation that precedes all rotation-based escapes."
@@ -64,7 +64,7 @@ description: "Master maintaining the standing rear clinch against escape attempt
     },
     {
       "@type": "Question",
-      "name": "When should you transition from defending the standing clinch to dragging the opponent to ground back control?",
+      "name": "When should you drag the standing rear clinch down to ground back control instead of holding it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to ground back control when the opponent's hand fighting has created repeated partial grip breaks that you are increasingly struggling to re-lock, when their hip angle creation is consistently disrupting your chest-to-back alignment, or when they demonstrate that they have a timing advantage on your grip transitions. The key decision point is whether the standing clinch is becoming a net negative: if maintaining it requires more energy than transitioning to ground back control, the transition should happen immediately rather than risking a complete position loss."
@@ -72,7 +72,7 @@ description: "Master maintaining the standing rear clinch against escape attempt
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from executing a hip throw when they begin loading their hips below yours?",
+      "name": "They start loading their hips below yours for a throw — how do you stop it from rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward and downward into the opponent's lower back to prevent them from getting their hips below yours, which is the prerequisite for any hip throw. Step to the same side they are rotating toward to maintain your position behind them. Pull their upper body backward using your grip to break their forward lean. If they have already partially loaded the throw, release one arm from the grip to post on their hip and block the rotation while maintaining the other arm's control. The critical detail is that a hip throw requires the thrower's hips to be lower than yours, so maintaining low hip position with forward pressure eliminates the mechanical possibility."
@@ -80,7 +80,7 @@ description: "Master maintaining the standing rear clinch against escape attempt
     },
     {
       "@type": "Question",
-      "name": "What is the correct response when the opponent uses a direction-change feint during their lateral escape?",
+      "name": "How should you respond when they feint a direction change during their lateral clinch escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid overcommitting to matching the first direction. Keep your weight centered and take smaller matching steps rather than large lunging steps that create momentum in one direction. When you feel the opponent change direction, use the split-second of their directional change to tighten your grip and increase chest-to-back pressure, because the direction change also momentarily disrupts their escape mechanics. The opponent is most vulnerable during the directional transition, so using that window to re-consolidate control is more effective than trying to match every direction change perfectly."

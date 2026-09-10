@@ -72,7 +72,7 @@ description: "Prevent the turn-in escape from twister side control. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from establishing the near-side underhook during their rotation?",
+      "name": "How do you stop the bottom player getting the near-side underhook as they turn in?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control the near arm actively by maintaining a cross-body grip on the wrist or bicep, or by driving your own underhook deep to occupy the space the bottom player needs for their underhook insertion. When you feel the near arm beginning to swim underneath, immediately drive your shoulder forward and down to close the gap. The underhook is the anchor for the bottom player's facing position, so preventing it significantly reduces the turn-in's effectiveness."
@@ -80,7 +80,7 @@ description: "Prevent the turn-in escape from twister side control. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "Your leg hook is being systematically loosened despite your efforts to maintain it - what is your response priority?",
+      "name": "Your twister side control leg hook is being loosened—what should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the leg hook is being loosened and you cannot re-establish it through active squeezing, immediately shift your tactical focus from maintaining twister side control to advancing to mount. The moment the leg comes free is actually your best window for the step-over, because the bottom player is focused on leg extraction rather than knee shield insertion. Drive your weight forward and step over during this transitional moment to convert the escape attempt into mount advancement."

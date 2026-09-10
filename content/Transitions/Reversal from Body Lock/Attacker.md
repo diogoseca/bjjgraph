@@ -90,7 +90,7 @@ description: "Execute the Reversal from Body Lock to escape standing body lock c
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their body lock and drives heavy forward hip pressure as you attempt the grip break - how do you adjust?",
+      "name": "They tighten the body lock and drive forward as you attempt the grip break—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent counters with increased pressure and grip tightening, abandon the standing grip break and switch to the controlled guard pull variant. Accept the forward drive but control your descent by hooking one of their legs with your inside leg as you sit. Close the half guard entanglement during the descent itself rather than after landing. This converts their aggressive forward pressure into your guard recovery momentum. The key is recognizing within one to two seconds that the standing grip break is not working and making the tactical switch before their pressure overwhelms your base entirely."
@@ -114,7 +114,7 @@ description: "Execute the Reversal from Body Lock to escape standing body lock c
     },
     {
       "@type": "Question",
-      "name": "In which direction should your hips rotate during the transition from standing to half guard, and what determines this direction?",
+      "name": "Which way should your hips rotate going from standing body lock to half guard, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should rotate toward the opponent, turning to face them rather than turning away. The direction is determined by which arm you have wrist control on - you rotate toward the controlled arm side. Turning to face the opponent allows you to insert your knee between their legs from the front and establish half guard with the proper orientation for underhook battles and sweeps. Turning away would expose your back and potentially give the opponent an even better angle for back control. The rotation must be coordinated with the knee insertion so that as your hips face the opponent, your inside leg is already threading between their legs."

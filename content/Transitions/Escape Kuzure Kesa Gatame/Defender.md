@@ -56,7 +56,7 @@ description: "Learn to maintain Kuzure Kesa Gatame against frame-and-hip escape 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you should address the opponent's frame attempt from Kuzure Kesa Gatame?",
+      "name": "When is the earliest you should kill their frame attempt from Kuzure Kesa Gatame top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the frame the moment you feel the opponent's forearm contacting your hip bone, before they establish the structural angle and load their skeletal alignment. Once the frame is fully positioned with proper angle and the opponent's body weight loaded behind it, collapsing it requires significantly more effort and may require releasing chest pressure. Early intervention prevents the frame from ever becoming effective."
@@ -72,7 +72,7 @@ description: "Learn to maintain Kuzure Kesa Gatame against frame-and-hip escape 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong hip frame and completed two successful hip escapes - what is your best option?",
+      "name": "They have a strong hip frame and two hip escapes done: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this point, resettling the original scarf hold configuration requires significant effort against established frames and created space. The better option is to convert the situation by transitioning to mount by stepping over using the space the opponent created, or circling toward north-south to maintain top control from a different angle. Fighting to return to the exact same position the opponent is systematically dismantling is typically lower percentage than advancing to a different dominant position."

@@ -72,7 +72,7 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you maintain your balance when the omoplata player attempts to redirect your stacking momentum laterally?",
+      "name": "How do you keep balance when the omoplata player redirects your stacking momentum sideways?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your free hand posted on the mat with your arm creating a wide base perpendicular to the redirection direction. Lower your center of gravity by bending your knees rather than leaning forward at the waist. Keep your head positioned directly above your base rather than reaching toward the opponent. If you feel yourself being pulled to one side, immediately post your free hand on that side and drive your weight in the opposite direction to counter the sweep attempt."
@@ -88,7 +88,7 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you effectively strip the opponent's belt grip to neutralize their primary steering control during the stack?",
+      "name": "How do you strip their belt grip to remove their steering control during the omoplata stack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to perform a two-on-one grip break by peeling their fingers from the belt while simultaneously driving your hip away from their grip direction. Timing is critical—strip the grip in the first seconds of the stack before they establish their full defensive framework. Once the grip is broken, immediately re-commit to your forward drive before they can re-establish it. If a full grip break is not possible, push your hip into their gripping hand to reduce the mechanical leverage they can generate, converting their steering grip into a less effective contact point."
@@ -96,7 +96,7 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What escape chain should you prepare when your initial stack encounters a fully established stack defense?",
+      "name": "What escape chain do you use when your omoplata stack meets a full stack defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Have three escape options queued in order of priority based on what the opponent gives you. First, if their leg control loosens during the hip angle adjustment, immediately attempt arm extraction by circling your trapped elbow toward your hip and pulling free. Second, if they maintain tight leg control but overcommit to the lateral redirection, transition to a forward roll by tucking your shoulder and rolling through their control. Third, if both of those windows are closed, use the momentum of their lateral pull to cartwheel over their body, landing in a neutral position. The key is reading which option is available within one to two seconds rather than stubbornly committing to the stack."

@@ -98,7 +98,7 @@ description: "Learn to consolidate from Technical Mount to full Mount in BJJ. St
     },
     {
       "@type": "Question",
-      "name": "What happens if you lift your posted leg through the air rather than sliding it along the mat during retraction?",
+      "name": "Why must the posted leg slide along the mat rather than lift during retraction to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lifting the leg eliminates your tripod base entirely for a brief moment, creating a period where your weight is supported only by the inside knee and your upper body. During this airborne phase, your balance is severely compromised and the opponent can bridge you off with minimal effort, or hip escape freely since your downward pressure is reduced to a single contact point. Sliding maintains ground contact throughout, preserving your ability to post and adjust if the opponent reacts during the transition."
@@ -114,7 +114,7 @@ description: "Learn to consolidate from Technical Mount to full Mount in BJJ. St
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make when transitioning from arm isolation grips to mount control grips?",
+      "name": "Which grips do you swap to as you consolidate from Technical Mount armbar grips into mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the wrist and elbow grips used for armbar setup and immediately transition to mount-appropriate controls. The priority grip is the crossface—thread your arm under their head and drive your shoulder into their jaw. The secondary grip depends on context: collar grip for gi choke threats, underhook on the far side for control, or posting hand for base. The grip transition should happen before the leg moves, not simultaneously, so that you never have a moment without dominant upper body control during the consolidation."

@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent follows your sit and begins inserting hooks for back control - what adjustment do you make?",
+        "question": "Sitting out of the buggy choke, they start inserting hooks: what adjustment do you make?",
         "answer": "Accelerate your hip escape away from opponent while prioritizing facing them over protecting your back. Turn aggressively toward opponent, insert knee shield, and accept that brief back exposure is preferable to allowing hook establishment. Speed and commitment defeat the back take attempt.",
         "answer_line": "Accelerate escape, face opponent",
         "distractors": {
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "Your opponent has shallow buggy choke grips and is attempting to deepen them - do you sit immediately or fight grips first?",
+        "question": "Their buggy choke grips are still shallow: sit to half guard now or fight grips first?",
         "answer": "Sit immediately. Shallow grips mean the choke lacks finishing power, and the sitting motion itself mechanically disrupts grip depth through structural change. Fighting grips from static turtle gives the opponent time to consolidate pressure and deepen the grip. The window during shallow grip establishment is your highest-percentage escape opportunity.",
         "answer_line": "Sit immediately, don't fight grips",
         "distractors": {
@@ -505,7 +505,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt the Sit to Half Guard escape?",
+        "question": "Buggy choke top: what earliest cue shows they are about to sit to half guard?",
         "answer": "The earliest cue is opponent planting their near hand firmly on the mat beside their hip with fingers pointing toward their feet. This posting hand establishes the pivot point for the entire sitting motion. When you detect this hand placement combined with a lateral hip shift, the sit is imminent and you must respond within one to two seconds.",
         "answer_line": "Hand posts beside hip, fingers back",
         "distractors": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "question": "Your opponent has begun the sitting motion and their hip is already dropping - should you try to prevent the sit or follow to take the back?",
+        "question": "Their hip is already dropping out of your buggy choke: block the sit or take the back?",
         "answer": "Follow to take the back. Once the hip drop has begun with momentum, attempting to prevent the sit requires excessive force and often results in losing both the choke and positional control. Instead, maintain your seatbelt grip, follow their hip movement, and immediately insert hooks while their back is exposed during the transition. The sitting motion guarantees back exposure—capitalize on it.",
         "answer_line": "Follow hip, insert hooks now",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Why is maintaining the collar grip critical even when the buggy choke is no longer finishable during the sit?",
+        "question": "Why keep the collar grip once the buggy choke is unfinishable during their sit?",
         "answer": "The collar grip serves dual purpose beyond the choke: it controls opponent's upper body rotation and provides the foundation for converting to seatbelt or crossface control during transition. Releasing the collar grip gives opponent complete freedom to rotate, insert knee shield, and establish underhook—all of which make your position dramatically worse. Grip retention maintains connection even as the attack evolves.",
         "answer_line": "Controls rotation, aids seatbelt",
         "distractors": {
@@ -547,7 +547,7 @@
         }
       },
       {
-        "question": "Your opponent completes the sit and begins inserting their knee shield - what is your immediate priority?",
+        "question": "They complete the sit and start inserting a knee shield: what is your first priority?",
         "answer": "Drive your hips forward aggressively to eliminate the space needed for the knee shield. Pin their inside knee with your hip pressure before the shin can cross your torso. Simultaneously, establish crossface control with your free hand to prevent them from creating the angle needed for effective Half Guard. If the knee shield is fully established, you must accept Half Guard top and begin your passing sequence.",
         "answer_line": "Drive hips forward, pin knee",
         "distractors": {

@@ -92,7 +92,7 @@ description: "How to execute the Kneebar from Backside 50-50 in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending heel hooks by keeping their knee rotated outward. How does this create a kneebar opportunity?",
+      "name": "They defend heel hooks with the knee rotated outward; how does that open the kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponents rotate their knee outward to defend heel hooks, they typically straighten their leg to prevent you from accessing the heel. This leg extension is exactly the configuration needed for kneebar entry. The defense against one attack creates vulnerability to another - this is the fundamental dilemma that makes leg lock systems effective. Recognizing this pattern and transitioning immediately is the hallmark of systematic leg lock play."

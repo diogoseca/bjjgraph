@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "Your opponent is defending heel hooks by keeping their knee rotated outward. How does this create a kneebar opportunity?",
+        "question": "They defend heel hooks with the knee rotated outward; how does that open the kneebar?",
         "answer": "When opponents rotate their knee outward to defend heel hooks, they typically straighten their leg to prevent you from accessing the heel. This leg extension is exactly the configuration needed for kneebar entry. The defense against one attack creates vulnerability to another - this is the fundamental dilemma that makes leg lock systems effective. Recognizing this pattern and transitioning immediately is the hallmark of systematic leg lock play.",
         "answer_line": "Rotation straightens the leg for you",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your opponent bends their knee sharply and begins rotating their hip. What does this tell you about your next attack?",
+        "question": "They bend the knee sharply and rotate their hip; what should you attack next?",
         "answer": "A bent knee with hip rotation means the kneebar is no longer viable, but the bend exposes their heel for a heel hook and their foot for a toe hold. Immediately assess which target is more accessible: if the heel is exposed, transition to inside heel hook by securing the heel and applying rotational pressure. If the foot is more available, switch to toe hold. This forced transition is why the kneebar works best as part of a leg lock system rather than an isolated attack.",
         "answer_line": "Switch to heel hook or toe hold",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "How do you distinguish between safe positional control pressure and dangerous finishing pressure during a kneebar?",
+        "question": "How do you tell positional kneebar pressure from dangerous finishing pressure?",
         "answer": "Safe positional pressure feels like tightness and compression around your leg without genuine extension against the knee joint. Dangerous finishing pressure is characterized by a distinct stretching sensation at the knee as the attacker drives their hips forward while your ankle is anchored. If your knee remains bent, the pressure is positional. If you feel your knee being forcefully straightened with increasing extension, that is finishing pressure requiring immediate tap if you cannot re-bend.",
         "answer_line": "A true stretch at the knee = danger",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "Your opponent has established a deep leg triangle and fulcrum position. What is your last-resort defensive option?",
+        "question": "They have a deep leg triangle and fulcrum on your kneebar; what is your last resort?",
         "answer": "Roll your body toward the attacker to align your leg with their extension force, eliminating the hyperextension angle. This is a last resort because it concedes position and may lead to a belly-down kneebar if the attacker follows. However, it immediately neutralizes finishing pressure and creates a scramble opportunity. Commit fully to the roll - half-hearted rolls leave you stuck in the worst possible finishing angle. After rolling, immediately work to face the attacker and recover guard.",
         "answer_line": "Roll toward the attacker fully",
         "distractors": {
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "What recognition cues should trigger your defensive response before the kneebar is fully established?",
+        "question": "What cues should trigger your defense before the kneebar is fully established?",
         "answer": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
         "answer_line": "Chest pressure releases, hip pinned",
         "distractors": {

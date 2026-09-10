@@ -264,7 +264,7 @@
         }
       },
       {
-        "question": "Why is Kouchi Gari particularly effective as part of combination attacks rather than as an isolated technique?",
+        "question": "Why is Kouchi Gari more effective in combination than as an isolated attack?",
         "answer": "Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When an opponent defends one way, they expose themselves to the follow-up. This makes Kouchi Gari an excellent opening move in a combination, even when the initial throw does not land cleanly.",
         "answer_line": "Their defense sets up follow-ups",
         "distractors": {
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "You have a collar tie and wrist control, and your opponent shifts their weight onto their right foot while looking to circle left—what is your optimal timing window?",
+        "question": "They load their right foot while starting to circle left — when do you fire Kouchi Gari?",
         "answer": "This is the ideal moment to attack with Kouchi Gari on the right leg. The opponent's weight is loaded on the target leg (making it harder to lift or retract), and their intention to circle left means their balance is transitioning. Pull diagonally with your collar tie toward their right rear corner while reaping the right ankle. Their circular movement actually assists the off-balance because they have already committed to shifting weight in a direction that complements your kuzushi.",
         "answer_line": "Attack loaded right leg now",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "What grip configuration is required before you can attempt Kouchi Gari, and what happens if you attack without proper grips?",
+        "question": "What grips do you need for Kouchi Gari, and what happens if you attack without them?",
         "answer": "You need at minimum a controlling grip on the opponent's upper body (collar grip, collar tie, or neck control) plus a secondary grip on their arm or wrist to generate the push-pull kuzushi. Attempting Kouchi Gari without these grips means you cannot generate the diagonal off-balance, and the reap alone has almost zero finishing power. The opponent will simply step back or hop over the attack, and you may lose your base during the attempt, exposing yourself to counter throws.",
         "answer_line": "Collar/neck grip + arm control",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "Your opponent defends Kouchi Gari by widening their stance and sinking their hips—what does this tell you about their vulnerability?",
+        "question": "They defend Kouchi Gari by widening their stance and sinking their hips — what opens up?",
         "answer": "A wide, low stance neutralizes Kouchi Gari but creates vulnerability to techniques that exploit the wide base. Uchi Mata becomes highly available because the wide stance gives you space to enter between their legs. Knee taps and snap downs also become viable because the lowered posture exposes the head and makes them reactive to level changes. Rather than forcing Kouchi Gari, recognize this as a positional cue to switch to a complementary attack that punishes their defensive posture.",
         "answer_line": "Wide base opens Uchi Mata, knee taps",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "If the Kouchi Gari lands but you end up standing over a grounded opponent instead of in side control, what went wrong?",
+        "question": "Your Kouchi Gari lands but you're left standing over them instead of in side control — why?",
         "answer": "You failed to follow through with forward momentum after the reap. The correct finishing mechanic requires continuous forward drive with your hips and chest while maintaining grip contact throughout the fall. Your body should follow the opponent to the mat, landing with your chest across their torso. The error usually stems from releasing grips at the moment of the throw or leaning backward during the reap instead of driving forward through the technique.",
         "answer_line": "Drive forward, follow to the mat",
         "distractors": {
@@ -488,7 +488,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest cue that your opponent is setting up Kouchi Gari, and why is early recognition critical?",
+        "question": "What is the earliest cue of a Kouchi Gari setup, and why does spotting it early matter?",
         "answer": "The earliest cue is a change in their grip angle combined with a diagonal pull on your collar or neck toward your rear corner. This kuzushi phase precedes the actual reap by roughly half a second. Early recognition is critical because once the base leg steps in and the reap initiates, defensive options drop dramatically—the technique's execution window is extremely short and the off-balance is already established.",
         "answer_line": "Grip angle shift + diagonal pull",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "Your opponent attempts Kouchi Gari and you successfully step your targeted leg back—what counter opportunity does this create?",
+        "question": "You step your targeted leg back from Kouchi Gari — what counter does that open?",
         "answer": "When you successfully retract the targeted leg, the opponent is left committed forward with their base leg deep and their reaping leg extended behind them. They are momentarily on one leg with forward momentum. This creates an excellent window for Osoto Gari on their base leg, a snap down to front headlock using their forward lean, or simply re-engaging grips from a now superior angle while they recover their stance.",
         "answer_line": "Osoto Gari on their base leg",
         "distractors": {
@@ -544,7 +544,7 @@
         }
       },
       {
-        "question": "What makes counter Kouchi Gari on the attacker's base leg an effective but high-risk defensive option?",
+        "question": "Why is countering Kouchi Gari on the attacker's base leg effective but high-risk?",
         "answer": "It is effective because the attacker has committed their weight forward onto their base leg and their reaping leg is occupied, meaning their base leg is loaded and stationary—the ideal condition for Kouchi Gari. It is high-risk because the timing must be precise: too early and you lack the commitment to read, too late and the original throw lands first. Mistiming can result in both practitioners falling uncontrolled with neither having positional advantage on landing.",
         "answer_line": "Base leg is loaded and stationary",
         "distractors": {

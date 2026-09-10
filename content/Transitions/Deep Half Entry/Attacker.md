@@ -82,7 +82,7 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why is proper head position critical during deep half entry, and where should your head be positioned?",
+      "name": "During deep half entry, where should your head be and why is that position critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proper head position is critical because it prevents the opponent from applying shoulder pressure that could flatten you out and shut down the entry. Your head should be positioned below the line of the opponent's hips, with your face looking toward their far hip rather than up at their chest. This low head position removes the angle they need to apply downward pressure and allows you to complete the rotation underneath their center of gravity."
@@ -90,7 +90,7 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat and begins to limp leg backward out of your underhook - how do you adjust?",
+      "name": "Your opponent posts and limp legs out of your deep half underhook — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately follow the retreating leg by scooting your hips forward to maintain connection. If you can re-secure the underhook, pull the leg tight and continue with the entry. If the leg is fully extracted, do not remain flat on your back. Transition to single leg X guard by hooking their remaining leg with your feet, or sit up aggressively to pursue a single leg takedown on the retreating leg. The key is recognizing the counter within the first second and transitioning rather than fighting to save a lost position."

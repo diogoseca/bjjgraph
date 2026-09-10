@@ -76,7 +76,7 @@ description: "Learn to execute the cross collar choke from closed guard with dee
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific anatomical structures does the cross collar choke from closed guard target, and how does proper hand placement affect which structures are compressed?",
+      "name": "Which structures does the cross collar choke target, and how does hand placement change that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cross collar choke targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to induce unconsciousness. Proper hand placement positions the bony edge of each forearm directly over a carotid artery, creating bilateral compression through the scissoring action of crossed forearms. If hands are placed too centrally, the pressure shifts to the trachea, creating a painful but less effective air choke that is easier to endure and defend. The thumb-in and palm-up grip orientations align the forearm bones optimally against the arterial targets."
@@ -84,7 +84,7 @@ description: "Learn to execute the cross collar choke from closed guard with dee
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up after you establish your first collar grip but before you thread the second hand. What adjustment prevents the escape?",
+      "name": "They posture up after your first collar grip in closed guard - what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase heel pressure into the opponent's lower back while pulling your knees toward your chest to counteract their upward posture movement. Simultaneously, use your free hand to re-engage a collar drag behind their head or grab the back of their collar to maintain broken posture. If they continue driving upward despite this, switch the free hand to an overhook or wrist control on their posting arm, which both prevents full posture recovery and sets up a transition to hip bump sweep if the choke opportunity closes completely."
@@ -92,7 +92,7 @@ description: "Learn to execute the cross collar choke from closed guard with dee
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the cross collar choke is properly positioned on the carotid arteries rather than the trachea?",
+      "name": "From closed guard, what tells you the cross collar choke is on the carotids, not the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly positioned blood choke produces a sensation of pressure on the sides of the neck without significant pain or choking on the windpipe. The recipient will feel lightheadedness and visual narrowing within 5-8 seconds rather than the gagging and coughing associated with tracheal pressure. For the attacker, the forearms should feel resistance against the muscular sides of the neck rather than compressing the softer front of the throat. If the opponent coughs or makes gagging sounds, reposition your grips more laterally to shift pressure from the trachea to the arteries."
@@ -100,7 +100,7 @@ description: "Learn to execute the cross collar choke from closed guard with dee
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to break posture completely before attempting the second collar grip, and what happens when this step is skipped?",
+      "name": "Why break posture fully before the second collar grip, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breaking posture eliminates the opponent's ability to use their arm length and leverage advantage to strip grips or create distance. When posture is fully broken, the opponent's hands are trapped close to your body and their base is compromised, giving you a clear window to thread the second grip without interference. Skipping posture breaking means the opponent can extend their arms, push off your chest or hips, and easily strip the first collar grip with two free hands while sitting upright. This is the single most common reason the technique fails at intermediate levels."
@@ -116,7 +116,7 @@ description: "Learn to execute the cross collar choke from closed guard with dee
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly to block the choke. What grip adjustments improve finishing effectiveness against this defense?",
+      "name": "They tuck the chin against your closed guard collar choke - what grip adjustment finishes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your hips further to one side to change the vector of forearm pressure, creating a diagonal line that bypasses the chin tuck by compressing the artery from a lateral angle rather than straight on. You can also walk your first grip deeper by incrementally regripping while maintaining leg pressure, forcing the forearm beneath their chin through progressive depth rather than brute force. Another option is to use your free hand to frame against their jaw, creating a small window to slide the second grip beneath the chin before they can re-tuck."

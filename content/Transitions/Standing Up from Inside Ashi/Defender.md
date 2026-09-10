@@ -56,7 +56,7 @@ description: "Defend against the standup from Inside Ashi-Garami. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt standing from Inside Ashi-Garami?",
+      "name": "From bottom inside ashi, what is the earliest cue that your opponent is about to stand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the release of one hand from your heel. When the bottom ashi player removes one hand from your trapped leg to post behind their hip, they are preparing to initiate the standup sequence. This grip change is the most reliable predictor because maintaining two hands on the heel is incompatible with the posting base required for standing. Recognizing this moment gives you maximum reaction time to counter before they establish structural base."
@@ -64,7 +64,7 @@ description: "Defend against the standup from Inside Ashi-Garami. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already posted one hand and begun elevating their hips—what is your best counter option?",
+      "name": "Your opponent posted a hand and is elevating their hips out of inside ashi. Best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack their posted arm by grabbing the wrist or sleeve and pulling it toward you to collapse their base structure. Simultaneously drive your free leg's knee toward their chest to push their hips back to the mat. If you cannot reach the posting arm, hook your free leg behind their far hip and use a scissoring motion to sweep them during the elevation phase when their balance is most compromised and their base is narrowest."
@@ -88,7 +88,7 @@ description: "Defend against the standup from Inside Ashi-Garami. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully reaches standing while maintaining heel control on your trapped leg—what is your immediate priority?",
+      "name": "They stand from inside ashi still controlling your heel. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish connection points on their legs with your hands and free foot to prevent them from stepping away and creating space for a standing ankle lock finish. Use your free leg to hook behind their near knee, disrupting their standing base while pulling your trapped leg toward your body to reduce the extension angle on your ankle. If you cannot break the grip, sit up and grab their opposite leg to threaten a sweep, forcing them to address their balance rather than finishing the submission."

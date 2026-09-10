@@ -58,7 +58,7 @@ description: "How to defend against Armbar from Back with Legs in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can recognize an armbar from back with legs is being attempted?",
+      "name": "What is the earliest cue that they are attacking an armbar from back with legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition cue is when the attacker removes their top hook while simultaneously grabbing your wrist with two hands and beginning to pull it across your body. The hook removal is the telltale sign that differentiates an armbar attempt from continued choke hunting, because the attacker needs that leg free to swing over your face. If you feel the top hook disengage and wrist pressure increase at the same time, you must immediately switch to armbar defense protocols rather than continuing standard back escape sequences."

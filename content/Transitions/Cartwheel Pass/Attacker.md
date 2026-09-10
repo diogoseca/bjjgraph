@@ -92,7 +92,7 @@ description: "How to execute Cartwheel Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins tracking your movement and rotating their inversion to follow - how should you respond?",
+      "name": "Passing grasshopper guard, they rotate their inversion to track your cartwheel: response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the cartwheel attempt and immediately circle back to your original side. Use their rotation against them by attacking the now-exposed opposite angle, as their commitment to following you has created an opening elsewhere."

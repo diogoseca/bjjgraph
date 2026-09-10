@@ -56,7 +56,7 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up Tani Otoshi, and how should you respond?",
+      "name": "What is the earliest cue that Tani Otoshi is coming, and how should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the lateral angle step - when your opponent takes a distinct step approximately 45 degrees to your side while maintaining or tightening their grip pressure. This step positions them for the blocking leg and creates the rotational angle. Your immediate response should be to circle in the same direction they stepped, denying them the angle advantage. Simultaneously, work to break their dominant grip (especially the collar grip) since the throw requires strong upper body pulling connection to generate rotational force."
@@ -72,7 +72,7 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already begun dropping and their blocking leg is contacting your shin - what is your best defensive option at this late stage?",
+      "name": "Their Tani Otoshi block is already on your shin as they drop. What is your best late defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage with the block already in contact, your best option is to immediately post your free hand (the hand not being controlled by their grips) on the mat on the opposite side of the throw direction. This arrests the rotational momentum and prevents the full fall. Simultaneously, bend the blocked knee aggressively to try to step over or around the blocking leg. If you can arrest the rotation even partially, you can scramble to a position where the attacker is seated and you are partially standing, then work to extract your leg and establish top position."
@@ -80,7 +80,7 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How does the defense against Tani Otoshi differ from defending a traditional forward throw like Seoi Nage?",
+      "name": "How does defending Tani Otoshi differ from defending a forward throw like Seoi Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against forward throws like Seoi Nage, the primary defense is to circle toward the throwing direction, drive your hips into the opponent, or hop over their hip entry. Against Tani Otoshi, you must circle away from the throw direction since the attack is lateral and low rather than rotational and high. Sprawling is more effective against Tani Otoshi because the attacker is dropping their base rather than loading you onto their hips. Additionally, the blocking leg is low (shin/knee level) rather than at hip level, so the defensive movement emphasizes stepping over or away rather than driving forward into the thrower."

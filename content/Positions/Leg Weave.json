@@ -324,7 +324,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins bridging explosively while you're in leg weave - what adjustment prevents them from creating space?",
+        "question": "They bridge explosively while you hold leg weave — what adjustment denies them space?",
         "answer": "Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space.",
         "answer_line": "Settle weight before they bridge",
         "distractors": {
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "Your opponent partially escapes and gets their knee shield halfway established - how do you recover full leg weave control?",
+        "question": "They get their knee shield halfway in — how do you recover full leg weave control?",
         "answer": "Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave.",
         "answer_line": "Collapse shield, angle shoulder in",
         "distractors": {
@@ -756,7 +756,7 @@
     ],
     "flashcards": [
       {
-        "question": "The top player drives heavy crossface and you feel yourself getting flattened - what immediate frame adjustment do you make?",
+        "question": "Under a heavy crossface in leg weave bottom, what frame adjustment stops the flattening?",
         "answer": "Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement.",
         "answer_line": "Forearm wedge, turn head away",
         "distractors": {
@@ -826,7 +826,7 @@
         }
       },
       {
-        "question": "Your opponent partially clears your hook but hasn't completed the pass yet - what movement creates an opportunity to recover?",
+        "question": "In leg weave bottom, they partially clear your hook but haven't passed — what do you do?",
         "answer": "This is actually an opportunity window. As they clear your hook, their base often becomes momentarily less stable. Use this moment to explosively hip escape and turn toward them for a dogfight position, or dive deep under them for deep half if they're moving forward. The key is recognizing this transition moment and committing fully to one escape direction rather than trying to recover the lost hook position.",
         "answer_line": "Explosive hip escape, commit",
         "distractors": {
@@ -854,7 +854,7 @@
         }
       },
       {
-        "question": "The top player has settled their weight and you've been stuck in leg weave for extended time - how do you restart your defensive activity?",
+        "question": "Stuck under a settled leg weave for a long time — how do you restart your defensive activity?",
         "answer": "First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation.",
         "answer_line": "Micro-adjust, test their reactions",
         "distractors": {
@@ -891,7 +891,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the leg weave and distinguishes it from a standard half guard exchange?",
+      "question": "What structural configuration defines leg weave versus a standard half guard exchange?",
       "answer": "Leg weave is a half-guard passing control in which the top player threads their knee-side leg between the bottom player's legs so the weaved shin or knee crosses the bottom player's hip line or thigh. This threading pins the bottom player's lower leg and neutralizes their ability to reinsert knee shield, butterfly hooks, or framing legs. Unlike a neutral half guard where both players retain balanced leg connection, the weave creates an asymmetric leg tangle that mechanically favors the passer. The position is fundamentally transitional, existing as a control checkpoint between guard engagement and a completed pass rather than a settled resting state.",
       "answer_line": "Knee threads past bottom's hip line",
       "distractors": {
@@ -905,7 +905,7 @@
       }
     },
     {
-      "question": "Why is the depth of the weaved leg the single most important variable governing who controls the position?",
+      "question": "Why is weaved-leg depth the most important variable for who controls leg weave?",
       "answer": "The weave only disrupts the bottom player's defensive structure once the top player's knee penetrates past the bottom player's hip line, so depth determines whether the leg functions as a control point or a liability. A deep weave pins the bottom leg and denies knee shield reinsertion, locking the asymmetric advantage in the passer's favor. A shallow weave leaves room for the bottom player to recover hooks, frame the knee, or attack the exposed leg. Because depth is the fulcrum of the exchange, both players fight over it constantly: the passer drives to deepen and the bottom player pumps hips to shallow it out.",
       "answer_line": "Depth decides who holds control",
       "distractors": {
@@ -919,7 +919,7 @@
       }
     },
     {
-      "question": "How is weight and pressure distributed across the three contact points that hold the leg weave together?",
+      "question": "How is weight distributed across the three contact points holding leg weave together?",
       "answer": "Control rests on three points working together: the weaved leg anchoring the bottom leg, the supporting outside leg providing base, and upper-body connection through chest, shoulder, and grips. Effective pressure comes from skeletal structure and low hips rather than muscular pushing, letting body weight settle through the chest into the bottom player's torso. Committing too much weight onto the weaved leg alone collapses the base and invites sweeps, so the load stays distributed between leg, base, and hands. This structural distribution is what lets the top player rest heavy while the bottom player carries the weight and works to escape.",
       "answer_line": "Split weight: leg, base, chest",
       "distractors": {
@@ -947,7 +947,7 @@
       }
     },
     {
-      "question": "Which frames and connections are the contested currency that decides whether the position stays locked or breaks down?",
+      "question": "Which frames and connections decide whether leg weave stays locked or breaks down?",
       "answer": "The exchange turns on competing frames: the bottom player fights for a forearm on the neck or shoulder plus a hand on the hip to prevent flattening and rotation, while the top player fights for crossface or underhook to erase those frames. The near-side underhook is especially pivotal because whoever wins it controls the upper-body connection and the angle of pressure. The bottom player's far-side half-guard hook is the remaining leg connection that prevents an immediate pass, so it is defended and attacked with equal intensity. Control of the position is essentially the aggregate result of these simultaneous frame and hook battles.",
       "answer_line": "Underhook battle decides control",
       "distractors": {
@@ -961,7 +961,7 @@
       }
     },
     {
-      "question": "Why does the leg weave create a passing dilemma rather than a single line of attack, and how does that shape both players' decisions?",
+      "question": "Why does leg weave create a passing dilemma, and how does that shape both players' choices?",
       "answer": "Because the weave pins the bottom leg while freeing the top player's outside leg and grips, it opens several passing directions at once: knee slice to the near side, leg drag if the bottom player turns, and smash or over-under if they flatten. Defending one threat necessarily opens another, so the bottom player cannot commit fully to a single defense without conceding an alternate lane. This forces the position to remain dynamic, with the passer chaining threats to prevent the bottom player from settling into any one defensive posture. The shared dynamic is that stalling favors the passer, so both players are pushed toward continuous reaction and counter.",
       "answer_line": "Pinned leg opens several pass lanes",
       "distractors": {
@@ -975,7 +975,7 @@
       }
     },
     {
-      "question": "How does the leg weave relate to and transition into its adjacent positions on both sides of the exchange?",
+      "question": "How does leg weave connect to and transition into its adjacent positions on both sides?",
       "answer": "Leg weave sits downstream of half guard, where it typically develops as the top player threads through during a passing sequence, and upstream of side control, which is the passer's primary completion target. If the bottom player reframes and pumps hips they can recover knee shield half guard, while diving under forward pressure leads to deep half guard and coming up on the elbow leads to a dogfight. It shares its pressure-passing logic with headquarters position and can flow into leg drag control when the bottom player turns. Understanding it as a branching hub rather than an endpoint is what lets both players anticipate where the exchange resolves.",
       "answer_line": "Bridges half guard to side control",
       "distractors": {
@@ -989,7 +989,7 @@
       }
     },
     {
-      "question": "What makes the leg weave an inherently unstable, time-limited position for both players rather than a place to settle?",
+      "question": "What makes leg weave unstable and time-limited rather than a place to settle?",
       "answer": "The asymmetric leg tangle and constant frame battle mean the configuration is always resolving toward a pass or an escape rather than holding statically. The passer burns position if they stall because the bottom player uses any settling to reframe and recover, while the bottom player's retention and energy drain rapidly under sustained pressure. Micro-adjustments in hips, frames, and weight are continuous on both sides, so neither player can afford to freeze. This transitional nature is a defining feature: the leg weave is a passing checkpoint measured in seconds, not a controlling position meant to be maintained.",
       "answer_line": "Always resolving, never settled",
       "distractors": {

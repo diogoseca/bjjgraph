@@ -68,7 +68,7 @@ description: "How to survive and escape the Rear Naked Choke from Gift Wrap. Lea
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the choking arm has already cleared your chin but the figure-four is not yet locked?",
+      "name": "Their choking arm cleared your chin but the figure-four isn't locked — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a narrow but critical window. Use your free hand to grip the choking forearm and pull it toward the crook-of-elbow side to prevent full seating. Simultaneously turn your chin aggressively toward the elbow crook to relieve carotid pressure. Attempt to strip one hook with your legs while turning your hips to face the attacker. If you can prevent the support hand from locking behind your head, the choke cannot achieve full bilateral compression."

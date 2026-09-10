@@ -254,7 +254,7 @@
         }
       },
       {
-        "question": "Why must you secure the second sleeve grip before threading the second leg, and what happens if you reverse this sequence?",
+        "question": "Why grip the second sleeve before threading the second leg for the Russian leg lasso?",
         "answer": "The second sleeve grip holds the opponent's arm in position and creates a guide track for your shin to travel across. Without it, the opponent simply retracts their arm the moment they feel your leg moving toward it, since there is nothing anchoring the arm in the threading path. If you attempt to thread first without the sleeve grip, your shin has to chase a moving target. This delays the threading enough that the opponent can also address the first lasso, potentially collapsing both controls simultaneously and leaving you in open guard with no control.",
         "answer_line": "Sleeve grip first, anchors the arm",
         "distractors": {
@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines whether the first lasso maintains tension during the transition?",
+        "question": "What detail keeps the first lasso under tension during the Russian leg lasso transition?",
         "answer": "The first sleeve grip must maintain continuous pulling pressure toward your chest throughout the entire threading sequence. When you release the collar grip to capture the second sleeve, the first lasso temporarily loses its secondary stabilizer. The first sleeve grip becomes the sole anchor keeping that lasso functional. If your pulling pressure drops even momentarily during the collar-to-sleeve hand transfer, the opponent can create slack and extract the first arm. Maintaining this tension requires conscious effort because your attention naturally shifts to the new threading task.",
         "answer_line": "Keep first sleeve tension constant",
         "distractors": {
@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "Your opponent posts their free hand on the mat as you begin threading. How does this affect your approach?",
+        "question": "They post their free hand on the mat as you thread the second lasso: how does that change things?",
         "answer": "A posted hand is an ideal threading opportunity because the arm is extended, weight-bearing, and cannot be quickly retracted without the opponent losing base and potentially being swept. Capture the sleeve grip on the posted arm, then thread your leg through while their arm remains fixed in position by their own weight. The key advantage is that withdrawing a posted arm requires them to shift their weight first, giving you more time to complete the thread than if the arm were free-floating.",
         "answer_line": "Posted arm is fixed - thread now",
         "distractors": {
@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "What are your immediate options if the opponent strips the first sleeve grip during the moment you release the collar?",
+        "question": "They strip your first sleeve grip as you release the collar: what are your options?",
         "answer": "The collar-to-sleeve transfer is the highest vulnerability window. If the first sleeve breaks during this moment, immediately abandon the threading attempt and focus on guard retention. Use both legs to create distance and frames rather than trying to regrip while in a compromised position. Recover to open guard by establishing foot-on-hip distance control, then rebuild grips systematically from a stable position. Continuing the thread with a broken first lasso leaves you with one uncommitted leg and no anchor, which is a pass invitation.",
         "answer_line": "Abandon thread, retain guard",
         "distractors": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward with heavy pressure when they feel you initiating the second thread. What should your response be?",
+        "question": "They drive heavy pressure as you start the second thread: what is your response?",
         "answer": "Forward pressure is a double-edged response from the opponent. While it can flatten your hips and impede threading, it also brings their arms closer and loads their weight forward over your guard. Use the first lasso to redirect their forward momentum into a sweep - a sickle sweep or omoplata entry becomes high-percentage when they commit weight forward. If the sweep threat forces them to retract their weight, the pressure releases and their arms re-extend to recover base, reopening the threading window. The key is not to fight the pressure directly but to use it as fuel for an attack.",
         "answer_line": "Redirect pressure into a sweep",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "The opponent successfully retracts their free arm after you captured the sleeve but before you threaded. What chain attack should you pursue?",
+        "question": "They retract the free arm after you grip the sleeve but before threading: what attack follows?",
         "answer": "When the arm retracts, you still hold the second sleeve grip even though you cannot thread. Use this grip to immediately threaten a collar drag or arm drag that pulls the opponent forward and off-balance. Their retraction motion shifts their weight backward, so a forward-pulling attack catches them in transition. If the drag generates enough forward momentum, the opponent must post with that same arm to recover base, which re-extends it into threading range. Alternatively, release the second sleeve, recover your collar grip, and use the first lasso to set up a sickle sweep while their base is disrupted from the retraction effort.",
         "answer_line": "Chain into a collar or arm drag",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "How do you determine which direction to angle your hips when your opponent's stance is asymmetric during single lasso?",
+        "question": "With their stance asymmetric in single lasso, how do you choose which way to angle your hips?",
         "answer": "Angle your hips toward the side where the opponent's free arm is most exposed, which is typically the side where they have less base or where their arm is reaching. If their free arm is on the same side as their lead leg in a staggered stance, that arm is closer and easier to reach by angling toward it. If they have shifted their weight away from the lasso side, their free arm often compensates by reaching across their body for balance, creating a threading angle from the opposite direction. Read their weight distribution and arm position together to determine the shortest threading path.",
         "answer_line": "Angle toward their exposed arm",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is about to attempt the transition to Russian Leg Lasso?",
+        "question": "What is the earliest cue that they are transitioning to Russian leg lasso?",
         "answer": "The earliest cue is the bottom player's non-lasso hand releasing the collar grip and reaching toward your free arm's wrist or sleeve. This collar grip release is the prerequisite for the transition because they need that hand to capture the second sleeve. The collar release typically occurs 1-2 seconds before the actual threading attempt, providing a critical defensive window. Secondary cues include hip rotation toward the threading side and the free leg curling inward to prepare for the threading motion.",
         "answer_line": "Collar hand reaches for your arm",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Why is maintaining forward pressure more effective than creating distance when defending against the threading attempt?",
+        "question": "Defending the second lasso thread: why is forward pressure better than creating distance?",
         "answer": "Forward pressure flattens the opponent's hips, which eliminates the 30-45 degree hip angle they need to thread the second leg efficiently across your arm. With flat hips, the threading leg must travel a longer, more awkward arc to reach your arm, giving you significantly more time to retract. Additionally, forward pressure keeps you connected, which limits the bottom player's ability to readjust angles. Distance, conversely, extends your trapped arm deeper into the first lasso while giving the opponent freedom to reangle their hips for optimal threading.",
         "answer_line": "Press forward to flatten their hips",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent has captured the second sleeve grip but has not yet threaded the leg. What is your priority action?",
+        "question": "They have the second sleeve grip but haven't threaded the leg yet. What is your priority?",
         "answer": "Immediately strip the second sleeve grip before the leg threads through. This is a narrow window - once the grip is captured but the leg has not crossed your arm, a technical grip break (peeling fingers, stripping the thumb, redirecting the wrist) can prevent the entire transition. Simultaneously retract your arm toward your body to increase the distance the threading leg must travel. If you cannot break the grip within 1-2 seconds, shift priority to stripping the first sleeve grip instead, which collapses the entire lasso foundation regardless of the second thread's progress.",
         "answer_line": "Strip the second grip immediately",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "The bottom player feints a triangle from single lasso, causing you to post your free hand. How should you handle this?",
+        "question": "They feint a triangle from single lasso to draw your free hand out. How do you handle it?",
         "answer": "Recognize that triangle feints from lasso are a common bait designed specifically to draw out your free arm for the second sleeve capture. When you feel the instinct to post or reach in response to a triangle threat, check whether the bottom player's non-lasso hand is still on your collar or has released to grab your free sleeve. If their hand is reaching for your sleeve, the triangle was a feint and you should retract your arm immediately rather than posting. Develop the discipline to verify the threat before committing your free arm to a defensive post.",
         "answer_line": "Check hand before you post",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Both lassos are now established - the transition succeeded. What is your immediate priority and approach?",
+        "question": "Both lassos are set. What is your immediate priority for freeing an arm?",
         "answer": "Your immediate priority is extracting one arm before the opponent initiates bilateral sweep attacks. Focus on the more recently threaded (second) lasso because it has had less time to settle into a deep position and the sleeve grip may be less secure than the first. Use your core and leg positioning to maintain base while working the extraction - lean your weight toward the weaker lasso side to create slack in that system. Do not attempt to clear both lassos simultaneously. Freeing even one arm converts the position back to single lasso where your defensive and passing options are significantly better.",
         "answer_line": "Extract one arm, target the newer",
         "distractors": {

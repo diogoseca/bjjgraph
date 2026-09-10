@@ -90,7 +90,7 @@ description: "Master the Rubber Guard to Closed Guard transition from the bottom
     },
     {
       "@type": "Question",
-      "name": "What is the correct path for the elevated leg during the transition from high position to ankle lock?",
+      "name": "Going from high rubber guard to closed guard, what path should the elevated leg take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg must slide down the opponent's back in constant contact, maintaining calf and shin pressure against their torso throughout the entire movement. The leg should never lift away from or float off the opponent's body, as any gap creates an opportunity for posture recovery. The path is a smooth downward arc from the upper back or shoulder area to the lower back and waist, where the foot immediately hooks with the opposite foot to cross ankles."
@@ -114,7 +114,7 @@ description: "Master the Rubber Guard to Closed Guard transition from the bottom
     },
     {
       "@type": "Question",
-      "name": "In which direction should you pull your opponent during the leg transition to prevent posture recovery?",
+      "name": "During the rubber guard to closed guard leg switch, which way do you pull to deny posture?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull diagonally downward and toward your chest, not straight down toward the mat. The diagonal pull combines forward breaking pressure with downward spinal compression, which is mechanically the most difficult direction for the top player to resist. Pulling straight down allows the opponent to use their spinal erectors to posture, while the diagonal vector loads their anterior chain and pulls their weight forward over their knees."

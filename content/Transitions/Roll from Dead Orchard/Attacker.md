@@ -112,7 +112,7 @@ description: "Execute the Roll from Dead Orchard escape in BJJ. Step-by-step gui
     },
     {
       "@type": "Question",
-      "name": "Your roll succeeds but the opponent follows and reaches for your hips as you land in turtle - what is your immediate response?",
+      "name": "You roll from Dead Orchard into turtle and they reach for your hips — what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck elbows tight to knees and begin active movement rather than settling into static turtle. The opponent reaching for your hips means they have not yet secured upper body control or hooks. Prioritize a granby roll, sit-through, or technical standup before they can establish seatbelt control. The window between landing in turtle and the opponent re-establishing dominant grips is approximately 2-3 seconds, and you must use that window to initiate the next escape in the chain."

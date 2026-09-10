@@ -58,7 +58,7 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that an Estima Lock finish is being initiated from the control position?",
+      "name": "What are the earliest cues that an Estima Lock finish is starting on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the attacker tightening their figure-four grip with increased pressure on your heel as a fixed point, their forearm blade pressing more firmly across the top of your foot, increased hip drive against your calf establishing the finishing fulcrum, and attempts to control or pin your free leg. The grip tightening and hip pressure increase typically precede the actual dorsiflexion finishing motion by 2-3 seconds, providing a critical defensive window."

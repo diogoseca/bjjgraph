@@ -84,7 +84,7 @@ description: "How to execute Finish Buggy Choke in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts sitting to guard while you attempt the finish - what is your immediate response?",
+      "name": "They start sitting to guard as you finish the buggy choke — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hook their near leg immediately with your leg and follow their sitting motion to convert to back control. Maintain your collar grip throughout the transition. Their hip exposure during the sit creates the perfect opportunity to insert hooks. This reactive transition is often higher percentage than forcing a contested choke."

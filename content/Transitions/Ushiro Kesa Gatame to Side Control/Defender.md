@@ -56,7 +56,7 @@ description: "Master defending against the Ushiro Kesa Gatame to Side Control tr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most vulnerable phase of the Ushiro Kesa Gatame to Side Control transition for the top player?",
+      "name": "Which phase of the reverse kesa to side control transition is most vulnerable for the top player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The midpoint of the rotation when the top player's legs are in transition between reverse kesa and side control base positions. At this point, their base is at its narrowest, their grip is transitioning from arm trap to crossface, and their hip line has a momentary gap. This window typically lasts only one to two seconds, making recognition and immediate action essential."
@@ -64,7 +64,7 @@ description: "Master defending against the Ushiro Kesa Gatame to Side Control tr
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins loosening their arm trap and you feel their weight shift forward — what should you do immediately?",
+      "name": "Their arm trap loosens and their weight shifts forward in reverse kesa: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This signals the transition is about to begin. Immediately prepare to insert your near knee by bringing it toward your chest, ready to drive it across the opponent's hip line when the rotation gap appears. Simultaneously prepare a frame with your free arm to block the incoming crossface. Acting on these early cues gives you the timing advantage over waiting for the rotation to progress further."

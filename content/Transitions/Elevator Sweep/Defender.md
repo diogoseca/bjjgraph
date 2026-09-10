@@ -56,7 +56,7 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three interconnected elements that make the elevator sweep effective, and why must you deny at least one?",
+      "name": "Which three interconnected elements make the elevator sweep work, and why deny one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three elements are deep butterfly hooks providing vertical lift, an overhook or underhook controlling upper body rotation, and tight head position preventing the defender from posting. You must deny at least one because the sweep's power comes from the coordinated interaction of all three. Without hooks, there is no lift. Without the overhook, there is no rotational control. Without head position, the defender can post and base. Removing any single element dramatically reduces the sweep's effectiveness and creates openings for passing."
@@ -64,7 +64,7 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to intervene defensively against the elevator sweep, and why is early intervention critical?",
+      "name": "When should you intervene against the elevator sweep, and why is early defense critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is during the grip-fighting and setup phase, before opponent establishes the overhook and head position simultaneously. Early intervention is critical because the elevator sweep follows a sequential setup - hooks, then overhook, then head position, then angle, then lift. Each completed step makes defense exponentially harder. Contesting the overhook during initial grip fighting requires minimal energy, while resisting a fully loaded sweep with all elements established may be physically impossible regardless of strength differential."
@@ -72,7 +72,7 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the overhook and is driving their head into your chest - what is your immediate defensive priority?",
+      "name": "They have the overhook and are driving their head into your chest — immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to create space between their head and your chest using frames while simultaneously working to strip the overhook. Frame with your forearm against their jaw or shoulder on the overhook side to push their head away, then circle your trapped arm free by pulling your elbow tight to your hip. Without the head connection, you can extend and post if the sweep is attempted. If the overhook is too deep to strip quickly, sprawl your hips back aggressively to flatten their posture before the lift begins, accepting the overhook but denying the elevation angle."
@@ -88,7 +88,7 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining a wide, staggered base critical when defending the elevator sweep, and how should your feet be positioned?",
+      "name": "Why is a wide staggered base critical against the elevator sweep, and how do you set your feet?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A wide, staggered base creates structural resistance against the angular sweep direction because the elevator sweep attacks the corner of your base. With feet wide, the tipping point is further from your center of mass, requiring more force to sweep you. The stagger means one foot is slightly forward, providing the ability to post in the sweep direction and creating asymmetric resistance that is harder for the synchronized hook lift to overcome. Feet should be approximately shoulder-width apart with one foot 6-8 inches ahead, knees actively driving outward to resist hook elevation."

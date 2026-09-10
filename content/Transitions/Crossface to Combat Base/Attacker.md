@@ -74,7 +74,7 @@ description: "How to execute Crossface to Combat Base in BJJ. Attacking perspect
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary purpose of transitioning to combat base rather than passing directly from half guard?",
+      "name": "Why transition to combat base instead of passing directly from half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Combat base provides a stable passing platform with maximum options for attacking. Rather than committing to a single pass from half guard, combat base allows you to read opponent's defensive response and choose from multiple passing pathways including toreando, knee slice, long step, and pressure passes. This methodical approach reduces risk and increases overall passing success by maintaining positional stability throughout."
@@ -114,7 +114,7 @@ description: "How to execute Crossface to Combat Base in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far arm on your bicep as you begin extracting your leg - how do you adjust?",
+      "name": "They post their far arm on your bicep as you extract your leg. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Swim your underhook arm over their framing arm to strip the post, or grab their wrist with your free hand and pull it across their body while maintaining crossface pressure. The key is to keep constant forward shoulder pressure so their frame lacks structural integrity. If they post high on your head instead, drive your forehead into their chest and use the angle change to collapse the frame before continuing extraction."

@@ -90,7 +90,7 @@ description: "Defend the Americana shoulder lock from High Mount. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel rotational pressure beginning on your shoulder from a locked Americana - what is your immediate priority?",
+      "name": "A locked Americana in high mount starts rotating your shoulder — what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to assess whether you can turn your body toward the attacked arm to reduce the rotational range. If turning provides relief, continue working to create frames and escape. If you cannot turn or the rotational pressure is already near your end range, tap immediately without hesitation. A locked Americana from high mount with the paint stroke in progress is one of the hardest submissions to escape—the attacker's body weight, the figure-four mechanical advantage, and the pinned elbow fulcrum create a system that amplifies force beyond what your shoulder can resist. Tapping is the correct decision."

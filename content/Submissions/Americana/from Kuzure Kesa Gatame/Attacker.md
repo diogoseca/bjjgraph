@@ -84,7 +84,7 @@ description: "Learn to finish the Americana from Kuzure Kesa Gatame with step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts straightening their trapped arm during your figure-four threading attempt - what immediate adjustment do you make?",
+      "name": "They straighten the trapped arm as you thread the figure-four — what is your adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the americana and immediately transition to the armbar. Their straightened arm is the exact setup for an armbar finish. Maintain your wrist grip, pivot your hips over their extended arm, and apply downward pressure on the elbow joint. The arm extension that defeats the americana creates a higher-percentage armbar opportunity. This americana-to-armbar chain is the fundamental attacking dilemma from this position."
@@ -100,7 +100,7 @@ description: "Learn to finish the Americana from Kuzure Kesa Gatame with step-by
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Americana from Kuzure Kesa Gatame in training?",
+      "name": "What are the key safety points when drilling the Americana from Kuzure Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply the paint progressively over three to five seconds minimum, never jerk or spike the rotation. Use no more than 10-20% pressure in drilling. Monitor for all tap signals including verbal taps, hand or foot taps on any surface, and distress vocalizations. Release immediately upon any signal by stopping all rotational pressure first, then carefully returning the arm to neutral. Never repeatedly attack the same shoulder in a single session, and never train this technique with partners who have existing shoulder injuries without medical clearance."
@@ -116,7 +116,7 @@ description: "Learn to finish the Americana from Kuzure Kesa Gatame with step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own belt with the trapped hand to prevent you from painting the arm - how do you break this defensive grip?",
+      "name": "They grab their belt to stop your Kuzure Kesa Gatame Americana — how do you break the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the grip directly with arm strength, use your hip pressure and figure-four leverage to walk their elbow progressively away from their body. As the distance between their hand and belt increases, the grip becomes mechanically unsustainable and breaks under positional pressure. Alternatively, switch your attack angle to the kimura by reversing your grip direction, which exploits their fixed grip commitment by attacking the shoulder from the opposite rotation."

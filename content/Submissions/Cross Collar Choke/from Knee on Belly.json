@@ -313,7 +313,7 @@
         }
       },
       {
-        "question": "What indicates you have achieved sufficient grip depth for an effective blood choke versus a trachea crush?",
+        "question": "From knee on belly, what shows your grip is deep enough for a blood choke, not a trachea crush?",
         "answer": "Sufficient depth means your knuckles contact the side of the opponent's neck at jaw level through the collar fabric, and the collar wraps around the lateral neck covering the carotid artery. If your knuckles are pressing against the front of the throat or your grip is at chest level, the grip is too shallow and will produce trachea pressure. You should feel the collar fabric making a clean path from your grip around the side of the neck—the collar itself becomes the choking surface, not your fist.",
         "safety_critical": true,
         "answer_line": "Knuckles reach jaw level",
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Why must you maintain KOB pressure throughout the grip acquisition sequence rather than dropping to finish position early?",
+        "question": "Why keep knee-on-belly pressure through grip acquisition instead of dropping to finish early?",
         "answer": "KOB pressure serves a dual purpose: it creates diaphragm compression that forces the opponent to use their hands for breathing relief rather than collar defense, and it pins them flat to prevent the hip movement needed for guard recovery. If you drop early with only one grip secured, the opponent regains full mobility and can sit up, bridge, or shrimp to strip the grip and escape. The knee pressure is what makes the collar accessible—removing it prematurely eliminates your primary advantage.",
         "safety_critical": false,
         "answer_line": "Occupies hands, pins them flat",
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent begins sitting up into you as you insert the second grip—what adjustment prevents them from closing the distance?",
+        "question": "They start sitting up as you insert the second grip from knee on belly—what adjustment?",
         "answer": "Use your established first collar grip to push their head and shoulders back to the mat by straightening your gripping arm and driving your elbow toward the mat. Simultaneously spike your KOB pressure by driving your hips forward and down. If they succeed in partially sitting up, you can use the collar grip to redirect their momentum back down. Only if they fully close the distance and threaten guard recovery should you abandon the choke and work to re-pass.",
         "safety_critical": false,
         "answer_line": "Push head back, spike KOB",
@@ -403,7 +403,7 @@
         }
       },
       {
-        "question": "In competition, how do you adjust your cross collar choke timing when the opponent is grip-fighting aggressively?",
+        "question": "From knee on belly, how do you time the cross collar choke against aggressive grip fighting?",
         "answer": "Against aggressive grip fighters, establish the first collar grip during a transition moment—during the guard pass or side control consolidation—before they can organize their grip defense from KOB. Pre-loading one grip means you only need one insertion from KOB, halving the defensive window. If direct grip insertion is consistently blocked, use KOB attack feints (armbar or baseball bat choke setups) to occupy their hands before committing to the collar grip. Chain attacks force them to choose which threat to address.",
         "safety_critical": false,
         "answer_line": "Preload grip during transition",
@@ -596,7 +596,7 @@
         }
       },
       {
-        "question": "Your opponent has secured the first collar grip and is increasing knee pressure—what is your immediate response?",
+        "question": "They have the first collar grip and knee pressure is rising—what is your immediate response?",
         "answer": "Commit both hands to a two-on-one grip strip on the established collar grip immediately. Grab their gripping wrist and sleeve with both hands and peel their fingers from the collar while simultaneously turning your body slightly to the side to create an angle. The knee pressure increase is designed to pull your hands to the knee—resist this instinct and address the grip first. You can tolerate knee pressure temporarily, but you cannot tolerate both collar grips being established.",
         "safety_critical": false,
         "answer_line": "Two-on-one strip that grip now",

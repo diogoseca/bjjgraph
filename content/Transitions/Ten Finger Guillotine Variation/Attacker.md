@@ -74,7 +74,7 @@ description: "Master the attacking mechanics of the Ten Finger Guillotine Variat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for switching from a standard guillotine grip to the ten finger configuration?",
+      "name": "When is the best moment to switch from a standard guillotine grip to the ten finger grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best window occurs when the opponent is momentarily focused on defending the existing choke rather than improving position. Transition during a squeeze attempt that draws their hand-fighting attention upward, or immediately after they exhaust energy on a failed posture attempt. The grip change should be completed in under one second to minimize vulnerability during the transition."
@@ -90,7 +90,7 @@ description: "Master the attacking mechanics of the Ten Finger Guillotine Variat
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail of the ten finger interlace that determines finishing success?",
+      "name": "Which mechanical detail of the ten finger interlace most determines whether you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth of the finger interlace is paramount. Fingers should mesh together past the second knuckle, creating a solid structural cage rather than a superficial fingertip connection. Shallow interlace allows the grip to slip under pressure, while deep interlace creates a lock that actually strengthens under load. The grip should be compact and tight against the throat before any squeezing begins."

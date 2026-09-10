@@ -257,7 +257,7 @@
         }
       },
       {
-        "question": "Your opponent bridges explosively toward their head as you begin the transition - how do you respond?",
+        "question": "They bridge explosively toward their head as you rotate from ushiro kesa to north-south?",
         "answer": "Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement.",
         "answer_line": "Ride the bridge to accelerate",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent inserts a frame during the midpoint but you are already past fifty percent of the rotation - should you continue or retreat?",
+        "question": "They frame past the midpoint of your ushiro kesa to north-south rotation: continue or retreat?",
         "answer": "Continue through to north-south rather than retreating. Past the midpoint, retreating to reverse kesa requires fighting back through the same vulnerable zone you just crossed, and you would be moving against the frame rather than past it. Drive your shoulder into the frame to collapse it as you complete the rotation. Your forward momentum and the remaining rotational arc will carry you past the frame into north-south where you can use full perpendicular chest pressure to flatten it. Only retreat if the frame is so strong that forward progress has completely stalled.",
         "answer_line": "Continue, drive through the frame",
         "distractors": {
@@ -496,7 +496,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is initiating the Ushiro Kesa Gatame to North-South transition?",
+        "question": "What is the earliest cue that they are rotating from ushiro kesa gatame to north-south on you?",
         "answer": "The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window.",
         "answer_line": "Chest pressure shifts to sternum",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?",
+        "question": "Your bridge was absorbed and they are past the midpoint toward north-south: what now?",
         "answer": "Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed.",
         "answer_line": "Frame up and hip escape",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "How should your hip escape direction differ when defending this transition versus escaping established north-south?",
+        "question": "How should hip escape direction differ mid-rotation versus from established north-south?",
         "answer": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment.",
         "answer_line": "Escape perpendicular to the arc",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "The top player has completed the rotation and is settling into north-south - what is your last-resort defensive priority?",
+        "question": "They have settled into north-south from ushiro kesa: what is your last-resort defensive priority?",
         "answer": "Immediately get your forearms perpendicular to the top player's chest to create skeletal frames before their weight fully consolidates. Your elbows must stay tight to your ribs for structural integrity. Even partial frames are valuable because they prevent full chest-to-chest compression and preserve breathing space. Simultaneously begin small hip escapes to incrementally create distance. The goal shifts from preventing the transition to establishing the minimum defensive structure needed to begin a north-south escape sequence. Acting within the first two to three seconds of their arrival is critical before underhooks lock in.",
         "answer_line": "Frame forearms, elbows tight",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "How do you decide between bridging early versus waiting for the grip exchange window to insert a knee?",
+        "question": "How do you choose between bridging early and waiting for the grip exchange to insert a knee?",
         "answer": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery.",
         "answer_line": "Bridge early if shift is tentative",
         "distractors": {

@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Before you commit to the frame escape, what entry conditions must exist for it to have a realistic chance of working?",
+        "question": "What entry conditions must exist for the frame escape from kuzure kesa gatame to work?",
         "answer": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force.",
         "answer_line": "Free frame arm, trapped arm at 90°",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent begins sliding their knee across your belly during your hip escape - what is the immediate priority?",
+        "question": "They slide a knee across your belly during your hip escape from kesa: what is the priority?",
         "answer": "Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa Gatame. Restart the escape attempt once the mount threat is neutralized.",
         "answer_line": "Block the knee, stop mount first",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your opponent shuts down lateral hip escape by driving straight through your frame - what do you chain into?",
+        "question": "They kill your lateral hip escape from kesa by driving through the frame: what do you chain into?",
         "answer": "When forward pressure kills the shrimping path, switch threats rather than fighting the jam. Transition immediately to a bridge-and-roll, using their committed forward weight against their base, or initiate a Granby roll, inverting underneath toward turtle or open guard since the inversion does not require the lateral space they just denied. The frame escape and these alternatives form a two-threat system where defending one opens the other.",
         "answer_line": "Bridge-roll or Granby invert",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "Your opponent successfully hip escapes and begins threading their knee between your bodies - how do you respond?",
+        "question": "They hip escape from kesa and thread a knee between you: how do you respond?",
         "answer": "You have two options depending on how much space exists. If the knee has not yet crossed your centerline, drive your hip back into the space and use your hand to push their knee down and away. If the knee is already establishing a shield, immediately transition to mount by sliding your knee across their belly before the half guard is fully secured, converting their escape into your positional advancement.",
         "answer_line": "Push knee down or slide to mount",
         "distractors": {

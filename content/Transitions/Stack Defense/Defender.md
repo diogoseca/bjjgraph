@@ -56,7 +56,7 @@ description: "How to maintain and complete your stack pass against an opponent's
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong frames on your hips during your stack pass. What are your options to overcome these frames?",
+      "name": "They frame strongly on your hips during your stack pass—how do you beat the frames?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have several options: swim one arm inside their frame and collapse it by driving your elbow past their wrist, then chest-pressure through the gap; use a two-on-one grip to strip one of their framing hands and pin it to the mat or their body; or redirect your angle by stepping to one side to make their straight-ahead frames structurally ineffective. The swim-through is highest percentage when their frames are on your hips, while redirection works better when frames are on your shoulders. Avoid simply pushing harder into established frames as this wastes energy."
@@ -64,7 +64,7 @@ description: "How to maintain and complete your stack pass against an opponent's
     },
     {
       "@type": "Question",
-      "name": "Your opponent hip escapes to the right during your stack pass, creating a 45-degree angle. How do you convert this into a successful pass?",
+      "name": "They hip escape right to a 45-degree angle during your stack pass—how do you finish the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their rightward hip escape opens a passing lane to your left. Immediately redirect from the stack to a knee cut pass by sliding your left knee across their right thigh, using the angle they created as your passing path rather than fighting against it. Control their right hip with your left hand and their far collar or shoulder with your right hand to prevent them from following your movement. Alternatively, if their legs are accessible, transition to a leg drag by pinning both legs to your right side and passing to their left, using their own hip escape angle against them."
@@ -72,7 +72,7 @@ description: "How to maintain and complete your stack pass against an opponent's
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to secure ankle or pant grips during a stack pass to prevent the opponent's stack defense?",
+      "name": "When is the best moment to secure ankle or pant grips during a stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is after you have initially driven forward and broken their guard open but before they have established frames on your body. In this transitional window, their hands are typically still adjusting from guard grips to defensive frames, giving you a brief opportunity to control their ankles or pants without being framed away. If you wait until after frames are established, reaching for ankles means releasing pressure and allowing their defense to consolidate. Securing leg control early eliminates the hip escape foundation of their entire defensive sequence."
@@ -80,7 +80,7 @@ description: "How to maintain and complete your stack pass against an opponent's
     },
     {
       "@type": "Question",
-      "name": "How do you recognize whether an opponent will attempt a granby roll versus a standard hip escape during stack defense?",
+      "name": "How do you tell a granby roll from a standard hip escape during their stack defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A granby roll is signaled by the opponent tucking their chin to one side, posting one hand behind their own shoulder on the mat, and beginning to shift weight onto their upper back and shoulder rather than their hips. Their eyes will look toward the direction of the intended roll. In contrast, a standard hip escape shows the opponent pushing off with their feet, turning their hips laterally, and maintaining frames with both hands against your body. Recognizing the granby setup allows you to counter by driving your weight forward and down through their chest, pinning their shoulders to the mat and preventing the inversion."

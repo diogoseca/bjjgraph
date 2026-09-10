@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "What grip must you maintain throughout the backstep to prevent the bottom player from following your movement?",
+        "question": "Backstepping from K-guard top, which grip stops the bottom player from following you?",
         "answer": "Upper body control through crossface, collar grip, or underhook is essential throughout the entire backstep. This grip anchors the bottom player's torso stationary while your lower body changes position. Without this anchor, the bottom player hip escapes in the direction of your backstep, maintaining their guard structure despite the directional change. The far hip control serves as a secondary anchor that blocks their primary escape route.",
         "answer_line": "Crossface, collar, or underhook",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "Your opponent catches Single Leg X-Guard during your backstep attempt - what is the correct response?",
+        "question": "Your opponent catches single leg X during your backstep from K-guard: what is the correct response?",
         "answer": "Immediately post your free hand on the mat and address the SLX hooks before they consolidate. Drive your hip forward to compress their hook structure and prevent elevation. You can attempt a backstep from SLX or transition to a standard SLX passing sequence such as a knee slide or hip switch. The key is not to panic and pull away, which gives them the distance needed to complete the sweep.",
         "answer_line": "Post hand, drive hip into hooks",
         "distractors": {
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "Your backstep stalls because the bottom player re-loads strong inverted hook tension - what do you chain into?",
+        "question": "Your K-guard backstep stalls against strong re-loaded inverted hooks: what do you chain into?",
         "answer": "Use the re-hook commitment against them. As they pull the trapped leg back across the centerline, their tension is now directed forward-laterally, which opens a forward-pressure pass. Feint to reset the backstep, then immediately switch to a knee slice or smash pass in the direction they just over-committed. Alternatively, redirect the extraction arc into a leg drag by catching their far leg across your body. The backstep and forward passes form a two-way dilemma that exhausts their retention.",
         "answer_line": "Chain into a forward smash pass",
         "distractors": {

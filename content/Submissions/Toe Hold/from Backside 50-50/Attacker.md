@@ -84,7 +84,7 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends your heel hook by curling their toes and hiding their heel. What opportunity does this create?",
+      "name": "From backside 50-50 they curl the toes and hide the heel: what does this open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent curls their foot to hide the heel, the ball of the foot and toes become exposed and accessible for a toe hold grip. This is the primary chain attack sequence from backside 50-50: threaten the heel hook first, then transition to the toe hold when they defend. Their defensive posture actually positions the foot perfectly for your figure-four grip placement on the ball of the foot."
@@ -108,7 +108,7 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "You have the figure-four grip locked but the opponent is actively straightening their trapped leg. What adjustment do you make?",
+      "name": "From backside 50-50 they straighten the leg against your figure-four: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straight leg eliminates the rotational angle needed for the toe hold. Use your entangled legs to squeeze and re-bend the opponent's knee by clamping your thighs together. If you cannot re-bend the leg, abandon the toe hold and immediately switch to a straight ankle lock or kneebar, both of which work better against an extended leg. Do not force the toe hold on a straight leg as it wastes energy and allows the opponent to strip your grip."

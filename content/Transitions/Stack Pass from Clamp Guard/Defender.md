@@ -50,7 +50,7 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a stack pass rather than arm extraction?",
+      "name": "What is the earliest cue they will stack pass rather than extract the arm from clamp guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's free hand moving to grip your far hip or thigh rather than working to create leverage against their trapped arm. This hip grip signals stack pass intent because arm extraction requires working against the clamp itself, not controlling your hip position. Additionally, the opponent begins dropping their head to one side and shifting their weight from upright posture to forward-leaning with toes engaged for driving force. Recognizing this shift gives you the critical seconds needed to pre-frame and prepare triangle or defensive responses before the drive begins."
@@ -58,7 +58,7 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "At what specific moment during the stack pass attempt does the triangle counter have the highest success probability?",
+      "name": "When during their stack pass from clamp guard is your triangle counter most likely to work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle counter has the highest success rate during the first two seconds of the opponent's forward drive, specifically when their head enters your leg territory but before their chest contacts your thighs and establishes compression. At this moment, you still have full hip mobility to angle for the triangle, the opponent's head is in the ideal position for your leg to pass over their neck, and their committed forward momentum prevents them from retreating. Once stack compression is established and your hips are folded past your shoulders, triangle entry becomes physically impossible due to complete loss of hip mobility and leg freedom."
@@ -66,7 +66,7 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established partial stack compression but has not begun the lateral walk — what should you prioritize?",
+      "name": "Stack pass has partial compression but no lateral walk yet: what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize creating a strong frame against the shoulder closest to the side the opponent needs to walk toward, blocking their lateral movement path. Simultaneously, fight to get one hip off the mat by turning slightly to one side, which partially decompresses your spine and recovers some leg mobility. If you can re-establish even partial hip angle before they begin the lateral walk, you can potentially reguard to clamp by reseating the shin on their bicep, or transition to closed guard by wrapping your legs around their torso while their weight is committed forward."
@@ -74,7 +74,7 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How should you protect your spine during a deeply committed stack pass attempt that you cannot prevent?",
+      "name": "In a deep stack you can't stop, how do you protect your spine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury."

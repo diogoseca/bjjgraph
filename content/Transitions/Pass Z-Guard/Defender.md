@@ -80,7 +80,7 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your knee shield is partially collapsed and the passer has crossface control—what is your best course of action?",
+      "name": "Bottom Z-guard: knee shield half collapsed and they have the crossface. What is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the shield partially collapsed and crossface established, continued Z-Guard retention has low probability of success. Your best option is an immediate deep half guard transition by diving underneath the passer's weight before they can fully consolidate the pass. Use whatever remaining frame you have to create the angle for entry, and use the passer's forward pressure to facilitate your movement underneath them. This is a committed transition—half-measures will result in being passed."

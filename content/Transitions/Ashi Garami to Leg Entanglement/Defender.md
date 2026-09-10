@@ -56,7 +56,7 @@ description: "Defend against the transition to leg entanglement when your oppone
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that distinguishes a counter-entanglement attempt from a standard leg extraction escape?",
+      "name": "What earliest cue separates a counter-entanglement attempt from a standard leg extraction escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction of the opponent's hip movement is the earliest distinguishing cue. During standard leg extraction, the opponent drives their hips backward to create distance and pull their trapped leg free. During counter-entanglement, the opponent drives their hips forward toward you to close distance and bring their free leg within threading range. This directional difference is detectable before the actual leg threading begins, providing a critical early warning window."
@@ -64,7 +64,7 @@ description: "Defend against the transition to leg entanglement when your oppone
     },
     {
       "@type": "Question",
-      "name": "Why does advancing to Inside Ashi or deeper positions make counter-entanglement significantly harder for the opponent?",
+      "name": "Why does advancing to Inside Ashi or deeper make their counter-entanglement much harder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside Ashi and deeper positions like Cross Ashi and Saddle require your legs to be configured with superior inside space control, which means your knees are pinched inward and your hooks are threaded deeply behind the opponent's knee. This configuration physically narrows the gap between your legs and body that the opponent needs to thread their free leg through. Additionally, deeper positions expose the opponent's heel more directly, making the time investment of attempting a counter-thread increasingly dangerous as they risk submission during the attempt."
@@ -72,7 +72,7 @@ description: "Defend against the transition to leg entanglement when your oppone
     },
     {
       "@type": "Question",
-      "name": "If the counter-entanglement succeeds and you arrive in 50-50, what determines whether you or the opponent holds advantage in the resulting exchange?",
+      "name": "If their counter-entanglement lands you both in 50-50, what decides who holds the advantage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside space control determines the advantage in the resulting 50-50 exchange. The practitioner whose knee is positioned between both hips on the entangled side can advance to Inside Ashi and then Saddle, while the other is stuck in neutral or must fight uphill for position. As the original Ashi Garami holder, you should have a head start on inside space because your hooks were already threaded from the inside. Maintain this advantage by keeping your inside knee driving toward the centerline throughout the transition rather than abandoning it to address the counter-thread."

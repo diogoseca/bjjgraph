@@ -74,7 +74,7 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary frame placement for initiating the elbow escape and why is this position chosen over framing on the chest?",
+      "name": "Where do you frame to start the mount elbow escape, and why not on their chest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability."
@@ -98,7 +98,7 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent blocks your knee insertion by driving their hip into your frame and re-centering - how do you adjust?",
+      "name": "They block your knee insertion by driving their hip into your frame — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery."

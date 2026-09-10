@@ -56,7 +56,7 @@ description: "How to defend against Triangle to Back in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from triangle to back take rather than continuing the choke?",
+      "name": "What is the earliest cue that they are going to your back rather than finishing the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's hips begin rotating perpendicular to your spine rather than maintaining the standard triangle choking angle. Simultaneously, you will feel the choking pressure decrease as they redirect their leg from squeezing your neck to steering your rotation. The grip change from your head to your far shoulder confirms the transition. Recognizing the hip rotation is critical because it occurs before the grip change and gives you maximum time to initiate defensive action."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle to Back in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released the triangle and has one hook in but no seat belt grip yet. What is your defensive priority?",
+      "name": "They release the triangle and get one hook but no seat belt yet: what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the seat belt grip from being established while simultaneously working to clear the single hook. With only one hook and no upper body control, the opponent's back position is unstable. Clamp your elbows to your ribs to block the underhook entry, then use hip movement to face toward the hook side and begin extracting the hook using standard back escape hip movements. The single hook without seat belt is the weakest phase of their back control and offers the highest probability escape window."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle to Back in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How should your defensive approach differ when caught in a triangle to back versus a standard back take from turtle?",
+      "name": "Caught in a triangle-to-back, how should your defense differ from a turtle back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the triangle to back, your primary advantage is that you can disrupt the transition before back control is established by turning back into the opponent and re-engaging the triangle defense position. In a standard turtle back take, the opponent already has back exposure and is working to insert hooks. The triangle to back defender should focus on preventing the transition from completing rather than accepting back control and working escapes. Specifically, the turn-in defense is available during triangle to back because the opponent must release their triangle to complete the take, creating a control gap that does not exist in a standard back take from turtle."

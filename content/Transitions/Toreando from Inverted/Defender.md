@@ -56,7 +56,7 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a toreando pass is being set up against your inverted guard?",
+      "name": "What are the earliest cues a toreando is being set up against your inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent gripping both of your pant legs or ankles simultaneously while shifting to a wider lateral stance. You will feel bilateral pressure on your lower legs as they secure grips, and notice their weight shifting to one side preparing for directional movement. The key distinguisher from a stack pass is the lateral stance adjustment — stack passes show forward weight shift while toreando setups show lateral positioning. React to bilateral grip establishment immediately by engaging hip rotation and attempting to strip at least one grip."
@@ -64,7 +64,7 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your legs are being redirected to one side during a toreando attempt — what is your most critical immediate response?",
+      "name": "Your legs are being redirected to one side in a toreando — most critical immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your most critical response is aggressive hip rotation to follow the passer's direction, keeping your hips oriented toward them rather than allowing your legs to be pushed past your centerline. Use your shoulder-to-mat contact as a pivot point and rotate your entire lower body to track the passer's movement. Simultaneously fight to maintain or re-establish at least one grip on their sleeve, collar, or pant leg. Speed of hip rotation is more important than grip fighting in this immediate moment."
@@ -72,7 +72,7 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to attempt a berimbolo counter during a toreando, and when should you focus on guard retention instead?",
+      "name": "When should you berimbolo against a toreando, and when should you just retain guard instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempt a berimbolo counter only when the passer over-commits their weight forward during the lateral movement and you have a secure grip on their far hip or belt. The berimbolo requires the opponent's center of gravity to be forward and within reaching distance for the rotation. If the passer maintains a low, wide base with weight back during the toreando, the berimbolo will fail — focus instead on hip rotation to track their movement and retain your guard. Attempting a berimbolo against a well-based toreando exposes you to being flattened with your back turned."
@@ -88,7 +88,7 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "After successfully defending the toreando and retaining inverted guard, what follow-up actions should you prioritize?",
+      "name": "You defended the toreando and kept inverted guard — what should you prioritize next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After defending the toreando, immediately transition to a more offensive inverted guard position rather than simply resettling. The passer has committed their grips and weight to the failed toreando, creating a brief window where their base is compromised. Enter a berimbolo sequence if their weight remains forward, transition to single leg X-guard if they step back to reset, or use the momentum of their failed lateral movement to enter a rolling back take. Remaining in static inverted guard after defending the toreando allows the passer to re-establish their stance and attempt again with adjusted timing."

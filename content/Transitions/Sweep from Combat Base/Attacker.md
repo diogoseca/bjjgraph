@@ -98,7 +98,7 @@ description: "Master offensive sweeps against Combat Base in BJJ. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "What tactile feedback through your hook tells you the opponent's weight is properly loaded for the sweep?",
+      "name": "What feel through your butterfly hook says their weight is loaded for the combat base sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should feel significant downward pressure on your instep from the opponent's thigh weight. When the opponent's weight is properly loaded, your foot will feel like it is bearing a meaningful portion of their body weight, similar to the feeling of a loaded butterfly hook before a standard butterfly sweep. If the instep feels light, the opponent's weight is still centered or back, and the elevation will fail. Continue pulling with upper body grips until you feel the load transfer before lifting."
@@ -106,7 +106,7 @@ description: "Master offensive sweeps against Combat Base in BJJ. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "What are the minimum grip requirements for a successful sweep, and what happens if grips are stripped mid-attempt?",
+      "name": "What are the minimum grips for the combat base sweep, and what if they are stripped mid-attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At minimum you need one controlling upper body grip (collar, sleeve, or underhook) and the butterfly hook. The upper body grip serves two functions: loading the opponent's weight onto the hook through pulling, and preventing the opponent from posting their hand to stop the sweep. If your grip is stripped mid-attempt, abort the sweep immediately and re-establish guard engagement rather than continuing without upper body control, which typically results in the opponent passing over the exposed hook."
@@ -114,7 +114,7 @@ description: "Master offensive sweeps against Combat Base in BJJ. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively to smash through your sweep attempt - what is your response?",
+      "name": "They drive forward to smash through your combat base sweep: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward momentum against them rather than trying to maintain your original sweep position. Convert to a collar drag or pendulum-style sweep by redirecting their forward drive over your head or across your body. Their aggressive forward pressure actually aids these redirecting sweeps because the momentum is already moving in the direction you want. Alternatively, frame against their shoulder, retain guard, and use the forward pressure to enter De La Riva or shin-to-shin position for an alternative attack."

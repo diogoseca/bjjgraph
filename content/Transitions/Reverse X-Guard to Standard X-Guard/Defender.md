@@ -72,7 +72,7 @@ description: "How to defend against Reverse X-Guard to Standard X-Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips and you feel the primary hook loosening - what is your immediate response?",
+      "name": "You feel the primary reverse X hook loosen as they rotate their hips. What is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep your controlled leg at an angle, driving your hips away from the bottom player while stripping their sleeve grip with your free hand. The angular backstep is critical because straight backward movement loads their remaining hook. As you extract your leg, transition directly to Headquarters Position by driving your knee to the mat and establishing control over their now-freed leg before they can recover guard."
@@ -88,7 +88,7 @@ description: "How to defend against Reverse X-Guard to Standard X-Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What is the risk of attempting a backstep too early before the hooks have actually begun transitioning?",
+      "name": "What is the risk of backstepping reverse X-guard before their hooks begin transitioning?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you backstep while the bottom player still has fully engaged Reverse X-Guard hooks, their strong hook configuration can redirect your backward movement into a sweep. The primary hook behind your knee combined with their hip elevation creates a powerful fulcrum, and your backstep momentum can be used against you. Wait for the definitive loosening of the primary hook before committing to the extraction."

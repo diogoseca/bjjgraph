@@ -264,7 +264,7 @@
         }
       },
       {
-        "question": "Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?",
+        "question": "They retract their posting arm as you feed the lapel for squid guard—how do you keep guard?",
         "answer": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control.",
         "answer_line": "Hold collar; convert to spider guard",
         "distractors": {
@@ -514,7 +514,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?",
+        "question": "Which cue shows squid guard entry rather than worm guard?",
         "answer": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers.",
         "answer_line": "Lapel feeds up under your tricep",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "Your arm is already wrapped but the bottom player has not yet angled their hips—what defensive window exists?",
+        "question": "Your arm is wrapped but they haven't angled their hips yet—what defensive window is open?",
         "answer": "This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder.",
         "answer_line": "Backstep before hips angle",
         "distractors": {

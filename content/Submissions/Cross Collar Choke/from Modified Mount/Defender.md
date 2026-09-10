@@ -58,7 +58,7 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a Cross Collar Choke is being set up from Modified Mount?",
+      "name": "What are the earliest cues that a cross collar choke is coming from modified mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker feeding one hand palm-up into your far-side collar while their weight shifts forward toward your head. You will feel the collar fabric beginning to tighten around the back of your neck, and the attacker's chest drops heavier onto your face as they lean in for grip depth. Additionally, the attacker's across-body knee pressure may increase as they anchor their base before committing hands to collar work. Recognizing these cues before the first grip reaches past the collarbone is the critical defensive window."
@@ -82,7 +82,7 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
     },
     {
       "@type": "Question",
-      "name": "How does the Modified Mount structure affect your escape options compared to defending the same choke from standard mount?",
+      "name": "How do modified mount escapes differ from escaping the same choke under standard mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Modified Mount's posted leg creates a directional bias in escape options. Bridge-and-roll escapes that work against standard mount are neutralized by the posted leg base, but the asymmetric weight distribution creates a gap on the posted leg side that can be exploited with hip escapes. The across-body knee concentrates pressure on one side, leaving the posted leg side relatively lighter. Your best escape direction is always toward the posted leg, using frames on the attacker's hip to create space for hip escape into half guard or closed guard on that side."

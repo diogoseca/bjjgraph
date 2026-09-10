@@ -88,7 +88,7 @@ description: "Master executing the inverted lasso guard pass from top. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Why does driving straight forward pressure into the inverted opponent's hips fail as a passing strategy?",
+      "name": "Why does driving straight forward into an inverted lasso player's hips fail to pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure into elevated hips adds momentum to the opponent's overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point, and your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. The harder you drive forward, the more energy you provide for the sweep. Instead, pressure should be angled toward the shoulders and upper chest while keeping your hips back, which flattens the inversion without feeding the rotational mechanics."
@@ -96,7 +96,7 @@ description: "Master executing the inverted lasso guard pass from top. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins berimbolo rotation by threading their free leg behind your back. What immediate counter should you employ?",
+      "name": "They thread the free leg behind your back to berimbolo from inverted lasso: what is your counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Control their far hip with your free hand while cartwheeling over their rotating body, using their berimbolo momentum to establish a passing position on the far side. Fighting against the rotation allows the back take to complete because you are resisting established angular momentum. Matching the rotation neutralizes their geometric advantage while converting their energy into your passing trajectory."
@@ -112,7 +112,7 @@ description: "Master executing the inverted lasso guard pass from top. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How should you address the free non-lasso leg before attempting any pass, and why is it the highest priority?",
+      "name": "Passing inverted lasso, how do you handle the free non-lasso leg and why is it top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure the free leg by gripping behind the knee or pinning it to the mat with your hip. This leg is the opponent's primary offensive tool: it serves as the steering mechanism for overhead sweeps by directing where your body falls, and it threads behind your back to initiate berimbolo sequences for back takes. Without free leg control, every passing technique becomes a gamble because the opponent retains their two most dangerous attacks. Controlling the free leg first reduces the position from a multi-threat dilemma to a single-connection problem that can be systematically dismantled."
@@ -120,7 +120,7 @@ description: "Master executing the inverted lasso guard pass from top. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What grip must you break first to create slack in the lasso structure, and why does the sequence matter?",
+      "name": "Passing inverted lasso, which grip do you break first for slack, and why does the order matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sleeve grip must be weakened first because it completes the lever system that gives the lasso its mechanical advantage. The lasso hook alone without sleeve control cannot generate effective sweep force, as the bottom player needs both the pushing force from the hook and the pulling force from the grip to create the rotational couple. Breaking the sleeve grip first reduces the overall structural tension in the system, making the subsequent arm extraction dramatically easier. Attempting to extract the arm while the sleeve grip remains tight causes the lasso to tighten under force."

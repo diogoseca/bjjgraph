@@ -64,7 +64,7 @@ description: "Complete guide to defending the Knee Cut from Headquarters in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the knee cut and you have no knee shield in place—what is your best defensive action?",
+      "name": "They start the knee cut and you have no knee shield—what is your best defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame on the passer's hip on the cutting side with your near hand to physically block the knee's advance while simultaneously hip escaping away from the cutting direction to create distance. If there is enough space, insert your knee between your bodies to establish a late knee shield. If the knee is already too close, secure the underhook on the cutting side and sit up to threaten a sweep that exploits the passer's forward commitment."

@@ -80,7 +80,7 @@ description: "Execute the New York entry from Rubber Guard with precise overhook
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped arm back toward their hip as you start releasing your shin grip to thread the overhook. How do you respond?",
+      "name": "Entering New York, they pull the trapped arm to their hip as you release the shin — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not chase the retracting arm with a slow overhook attempt. Instead, immediately re-secure your shin grip to prevent complete escape and use the shin pressure to pull the opponent forward again, resetting their arm position. If the arm is already partially free, pivot to a triangle threat by shooting your leg over their shoulder, as the retracting arm is now inside your guard frame in the perfect position for triangle entry. The opponent's arm retraction actually creates the angle needed for the triangle."
@@ -88,7 +88,7 @@ description: "Execute the New York entry from Rubber Guard with precise overhook
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip engagement that must occur before you release the shin grip to begin threading?",
+      "name": "Entering New York from rubber guard: what hip engagement is required before releasing the shin grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must actively engage your hip flexors and pull your knee toward your chest to create independent shin pressure that holds the shin across the opponent's back without hand assistance. This muscular engagement replaces the structural support of the grip and maintains the posture-breaking pressure during the threading phase. Test this by loosening your grip slightly before fully releasing. If the shin slides at all, increase hip flexor engagement before proceeding. Without this step, the shin falls immediately upon hand release."
@@ -112,7 +112,7 @@ description: "Execute the New York entry from Rubber Guard with precise overhook
     },
     {
       "@type": "Question",
-      "name": "During the threading phase, the opponent drives forward aggressively to stack you. How do you use this to your advantage?",
+      "name": "Threading the New York overhook, they drive forward to stack you — how do you use that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept their forward drive rather than fighting it. Their forward momentum brings their arm deeper into your threading range and makes the overhook easier to catch because their weight is already loaded forward. Time your swimming motion to coincide with their drive, letting their pressure accelerate the overhook depth. Simultaneously angle your hips to the side to prevent being stacked flat. The key insight is that forward pressure from the opponent actually assists the New York entry if you time it correctly instead of panicking."
@@ -120,7 +120,7 @@ description: "Execute the New York entry from Rubber Guard with precise overhook
     },
     {
       "@type": "Question",
-      "name": "Where exactly should your shin-gripping hand be positioned after establishing the overhook, and why does position matter?",
+      "name": "After securing the New York overhook, where should the shin-gripping hand be and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip the shin near the ankle, positioning your hand between the ankle bone and the lower calf. This low grip position maximizes the lever arm for pulling pressure across the opponent's back. A higher grip near the knee provides less leverage because the control point is closer to the fulcrum at the hip, making it easier for the opponent to strip the grip or peel the leg off their back. The ankle grip also provides better tactile feedback for monitoring shin position."

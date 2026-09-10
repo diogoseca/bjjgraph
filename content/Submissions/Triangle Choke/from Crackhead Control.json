@@ -276,7 +276,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the triangle is properly locked and the opponent is approaching the breaking point?",
+        "question": "Crackhead control triangle: what indicates it is locked and they are nearing the breaking point?",
         "answer": "Key indicators include the opponent's face changing color through reddening or flushing, decreased resistance in their escape attempts, involuntary reaching or flailing movements, and progressive weakening of posture recovery efforts. The attacker should also feel the squeeze tightening as the opponent's trapped shoulder drives deeper into their own neck. If these signs are absent after 5-7 seconds, the angle or lock likely needs adjustment.",
         "safety_critical": false,
         "answer_line": "Face flushes, resistance fades",
@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "What control must be established before transitioning from Crackhead Control to the triangle attempt?",
+        "question": "What control must you establish before transitioning from Crackhead Control to the triangle?",
         "answer": "Before initiating the triangle transition, you must have broken posture with the opponent's forehead near your chest, secure head control with at least one hand cupping the back of the head, the far arm isolated across your centerline, and your shin firmly pressed across the opponent's face. The arm isolation is the most critical prerequisite because attempting the triangle with both arms inside gives the opponent strong framing and posture recovery options.",
         "safety_critical": false,
         "answer_line": "Isolate far arm across centerline",
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "At what point during the triangle from Crackhead Control is the opponent past the point of no escape?",
+        "question": "When is your opponent past the point of no escape in the triangle from Crackhead Control?",
         "answer": "The point of no return occurs when the triangle is locked with proper angle and the opponent's trapped arm is fully across the centerline. Once the angle is cut to approximately 30 degrees toward the trapped arm side and the lock is tight, defensive options become extremely limited. Before the lock closes, the opponent has multiple defensive windows. After the lock but before the angle, stacking remains viable. Once both conditions are met, only explosive posture recovery offers realistic escape.",
         "safety_critical": false,
         "answer_line": "Locked triangle + angle cut",
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "How should you adjust your grips during the finishing sequence of the triangle from Crackhead Control?",
+        "question": "How should your grips change during the finish of the triangle from Crackhead Control?",
         "answer": "During the finish, transition from the head control grip used during setup to pulling the opponent's head down with both hands clasped behind their neck. If the opponent's posture resistance is strong, switch one hand to underhook their far thigh to block stacking defense. For maximum compression, overhook the choking leg's shin with both hands and pull it deeper across the neck. Grip priority shifts from positional control during setup to compression assistance during the finish.",
         "safety_critical": false,
         "answer_line": "Clasp hands behind head, pull",
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What are the primary safety concerns when applying the triangle choke from Crackhead Control in training?",
+        "question": "What are the main safety concerns when drilling the triangle from Crackhead Control?",
         "answer": "The primary safety concern is the rapid onset of blood choke effects, with unconsciousness possible within 8-12 seconds of proper application. Apply pressure progressively over 3-5 seconds minimum to give your partner adequate time to recognize the choke and tap. Never jerk or spike the squeeze. Monitor your partner's responsiveness throughout and release immediately upon any tap signal. The transition from uncomfortable pressure to unconsciousness can be rapid once the angle and lock are properly set.",
         "safety_critical": true,
         "answer_line": "Apply pressure slow, 3-5 sec",
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "Your opponent begins stacking you after the triangle is locked - what adjustment prevents them from escaping?",
+        "question": "Crackhead control triangle: they stack you after the lock. What adjustment stops the escape?",
         "answer": "When the opponent stacks forward, underhook their far thigh with your hand to block forward drive, or scoot your hips away from their pressure to maintain the perpendicular choking angle. The stack can actually tighten the choke if you maintain angle, since the forward pressure drives their shoulder deeper into their own carotid. If they stack successfully despite your adjustments, transition to armbar on the trapped arm rather than exhausting yourself fighting the compressed position.",
         "safety_critical": false,
         "answer_line": "Underhook thigh, keep angle",
@@ -396,7 +396,7 @@
         }
       },
       {
-        "question": "How does the triangle setup from Crackhead Control differ from a standard closed guard triangle and why is this advantageous?",
+        "question": "How does the Crackhead Control triangle differ from a closed guard triangle, and why is that better?",
         "answer": "From standard closed guard, the triangle requires breaking posture, climbing hips high, isolating an arm, and shooting a leg over the shoulder, with each step offering a defensive window. From Crackhead Control, the posture is already broken, the leg is already at neck height via the shin across the face, and arm isolation is often already established. This dramatically shortens the transition distance, reducing defensive opportunities from four distinct windows to essentially one critical moment when the shin transitions from face control to neck choke.",
         "safety_critical": false,
         "answer_line": "Setup already done, fast entry",

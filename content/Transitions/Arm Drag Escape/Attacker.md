@@ -98,7 +98,7 @@ description: "How to execute Arm Drag Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back hard when they feel you establishing the two-on-one grip. How do you adjust?",
+      "name": "They sprawl hard as you set the two-on-one for the arm drag escape. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls back, they reduce the forward pressure that makes the arm drag effective, but they also reduce their ability to finish front headlock submissions. Abandon the arm drag and switch to a technical standup or granby roll escape, both of which work better against a sprawled opponent. The arm drag threat served its purpose by forcing them to change their positioning—now exploit the new position with the appropriate alternative escape. This is why having multiple front headlock escapes is essential."

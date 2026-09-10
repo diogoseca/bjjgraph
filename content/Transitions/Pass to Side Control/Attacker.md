@@ -90,7 +90,7 @@ description: "How to execute Pass to Side Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hip escaping as soon as you start extracting your inside leg - what adjustment prevents guard recovery?",
+      "name": "Passing 50-50, they hip escape as you extract your inside leg. What adjustment stops guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing."
@@ -98,7 +98,7 @@ description: "How to execute Pass to Side Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Why is sequential leg extraction (inside first, then outside) critical rather than extracting both simultaneously?",
+      "name": "Passing 50-50, why extract the inside leg first rather than pulling both legs out at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point."

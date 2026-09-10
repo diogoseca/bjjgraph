@@ -58,7 +58,7 @@ description: "How to defend the belly down armbar from Kuzure Kesa Gatame. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that your opponent is transitioning from Kuzure Kesa Gatame to a belly down armbar attempt?",
+      "name": "How do you recognize a belly down armbar coming from kuzure kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cues are sequential: first, the attacker shifts their grip from the armpit trap to grabbing your wrist or forearm with both hands. Next, they post their far-side foot near your head and begin rising. Finally, their leg begins to swing over your head in an arc. The earliest cue—the grip switch—is the critical moment for defense because it represents the point where your defensive options are still numerous and effective."
@@ -74,7 +74,7 @@ description: "How to defend the belly down armbar from Kuzure Kesa Gatame. Recog
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available at each phase of the belly down armbar transition from Kuzure Kesa Gatame?",
+      "name": "What defenses are available at each phase of the belly down armbar from kuzure kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the early phase during grip transition, retract your trapped arm by bending the elbow sharply when armpit pressure decreases. In the mid phase during the step-over, turn aggressively into the attacker to prevent belly down establishment. In the late phase after belly down is reached, clasp hands in a Gable grip and work the hitchhiker escape by rotating your thumb toward the floor and spinning your body to follow. Each phase offers progressively fewer options, making early recognition and response essential."
@@ -90,7 +90,7 @@ description: "How to defend the belly down armbar from Kuzure Kesa Gatame. Recog
     },
     {
       "@type": "Question",
-      "name": "After partially defending the rotation and preventing full belly down establishment, how do you complete your escape to a safe position?",
+      "name": "You stopped their rotation short of belly down — how do you complete your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you turned into the attacker and prevented the full belly down, immediately pull your trapped arm tight to your body and work to recover guard by inserting your knees between your bodies. If you disrupted the rotation but the attacker still has wrist control, continue turning toward them while tucking your chin and curling into a defensive ball to prevent them from re-establishing scarf hold. From this scramble, prioritize guard recovery over standing up, as the attacker may still transition to a modified armbar if given space."

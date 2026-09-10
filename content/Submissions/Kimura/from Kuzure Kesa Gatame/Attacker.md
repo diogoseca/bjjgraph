@@ -94,7 +94,7 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa G
     },
     {
       "@type": "Question",
-      "name": "At what point during the rotation does the Kimura become dangerous where the opponent can no longer safely resist?",
+      "name": "In the Kimura from Kuzure Kesa Gatame, at what point can your opponent no longer safely resist?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, internal rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point."
@@ -102,7 +102,7 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa G
     },
     {
       "@type": "Question",
-      "name": "How does the finishing direction from Kuzure Kesa Gatame differ from a Kimura applied from closed guard bottom?",
+      "name": "How does the Kimura finishing direction from Kuzure Kesa Gatame differ from closed guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From Kuzure Kesa Gatame, the rotation drives the opponent's wrist toward the mat behind their back with gravity assistance, and the finish relies on body rotation rather than arm pulling. From closed guard bottom, the Kimura rotates the wrist upward toward the ceiling against gravity, requiring more grip strength and hip elevation to generate sufficient torque. The Kuzure Kesa Gatame version is mechanically more efficient because gravity aids the finishing direction."

@@ -74,7 +74,7 @@ description: "How to execute Triangle to Omoplata in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary defensive reaction from the triangle that creates the opportunity for the omoplata transition?",
+      "name": "Which defensive reaction to your triangle opens the omoplata transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent posturing up, stacking, or driving forward to relieve triangle choke pressure. This defensive movement elevates their posture and creates the space needed to swing the leg over their back. The forward pressure that relieves triangle compression naturally feeds into the omoplata setup because the opponent's weight shift forward extends their trapped arm and exposes the shoulder to rotational attack. This is why the transition should be reactive rather than forced."
@@ -82,7 +82,7 @@ description: "How to execute Triangle to Omoplata in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stacking you hard by driving their weight forward—what is the optimal moment to initiate the transition?",
+      "name": "As they stack and drive forward, when do you initiate the triangle-to-omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate the transition at the peak of their forward drive, when their posture is most elevated and their weight is committed forward. At this moment, they cannot quickly reverse direction to prevent the leg swing, and their forward momentum assists the omoplata entry. Releasing the triangle too early—before they fully commit—allows them to retract the arm. Releasing too late—after they have settled into a stacking base—means insufficient space exists for the leg to clear their back."

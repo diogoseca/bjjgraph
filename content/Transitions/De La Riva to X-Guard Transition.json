@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat as you begin inserting the bottom X-Guard hook - how do you adjust?",
+        "question": "Entering X-guard from DLR, they post a hand as you insert the bottom hook. How do you adjust?",
         "answer": "A hand post indicates they are feeling off-balanced and trying to stabilize. This is actually a positive signal because it means one hand is no longer available for grip fighting or blocking your hooks. Accelerate the hook insertion and use your underhook to pull them forward into the post, increasing their dependence on it. Once both hooks are configured, the hand post provides almost no defensive value against elevation sweeps.",
         "answer_line": "Accelerate hooks, pull onto post",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent successfully defends the initial X-Guard sweep by posting both hands on the mat - what chain attacks become available?",
+        "question": "They defend your X-guard sweep by posting both hands. What chain attacks open up?",
         "answer": "A double hand post means both arms are occupied with balance recovery and neither is available for grip fighting or guard passing. This opens several chain attacks: transition to Single Leg X by releasing the top hook and concentrating both hooks on the near leg for a different sweeping angle, enter Ashi Garami by threading your bottom hook deeper and rotating toward leg entanglement, or use the technical stand-up to single leg by removing your hooks and climbing to a standing clinch while they are still recovering balance. Any post-based defense commits their arms, opening leg-based attacks.",
         "answer_line": "Attack legs, hands are occupied",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "During the hook transition phase, your opponent begins rapidly circling away from your hooking side - how do you adapt?",
+        "question": "Mid DLR to X-guard transition they circle rapidly away from your hooking side. How do you adapt?",
         "answer": "Rapid circling indicates the opponent has recognized the transition and is trying to create an angle where your hooks lose their mechanical advantage. If they circle toward your head, follow with your hips and consider transitioning to Reverse De La Riva Guard where their momentum feeds your control. If they circle away from your head, accelerate the bottom hook insertion since their lateral movement often opens the space needed for threading. In both cases, maintain the underhook connection as your primary tether and use their circular movement as energy for your own repositioning rather than fighting against it.",
         "answer_line": "Follow hips, keep underhook tether",
         "distractors": {
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "Why is the bottom X-Guard hook insertion the most critical moment to defend rather than the DLR hook release?",
+        "question": "Defending DLR to X-guard, why is the bottom hook insertion more critical than the DLR release?",
         "answer": "The bottom X-Guard hook (behind your knee) is the load-bearing structure of the entire X-Guard position. It creates the elevation fulcrum that powers all sweeps. Without it, the top hook across the hips has no leverage. If you allow the bottom hook to seat deeply but prevent the top hook, the bottom player can still transition to Single Leg X. But if you prevent the bottom hook, the entire transition fails regardless of other factors.",
         "answer_line": "Bottom hook is the fulcrum",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your opponent has secured an underhook and their free leg is beginning to thread under your stance - what is your immediate response?",
+        "question": "They have an underhook and are threading a leg under your stance. What is your immediate response?",
         "answer": "Immediately strip the underhook by swimming your arm inside and peeling their grip while simultaneously dropping your hips low and driving your weight onto the threading leg to block its path. If you can only do one thing, block the leg insertion by narrowing your stance and driving your knee toward the mat on the threatened side. The underhook without hooks is recoverable; hooks without underhook still leads to X-Guard.",
         "answer_line": "Block the leg, strip underhook",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "How does your defensive strategy change if the transition is already 80% complete with both hooks partially configured?",
+        "question": "How does your defense change once the X-guard transition is nearly complete with both hooks in?",
         "answer": "At 80% completion, proactive prevention is no longer viable. Switch to damage control: immediately lower your center of gravity, widen your base as much as possible, and fight for crossface or collar tie control to prevent the final hip positioning adjustment. If they achieve full elevation, accept the sweep is likely and focus on landing in the best possible position (half guard top or scramble) rather than fighting a lost battle from X-Guard top where you'll expend energy and still get swept.",
         "answer_line": "Widen base, fight for crossface",
         "distractors": {

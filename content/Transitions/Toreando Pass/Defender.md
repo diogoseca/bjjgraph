@@ -70,7 +70,7 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped both your knees and begins stepping left - what is the correct hip response?",
+      "name": "They grip both your knees and step left for a toreando — what should your hips do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately rotate your hips to face left, matching the direction of the passer's movement. Your belly button must track toward their chest at all times. Use a combination of hip escape toward the passing side and shoulder walk to maintain alignment. Simultaneously, fight to strip at least one grip — if you can free one knee while tracking their movement, the pass fails because they lose the bilateral control needed for effective leg redirection. If both grips remain, continue tracking with your hips while looking for an opportunity to insert a De La Riva or Reverse De La Riva hook on their lead leg."
@@ -78,7 +78,7 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "When is inversion the appropriate defensive choice against the Toreando, and when should it be avoided?",
+      "name": "When should you invert against the toreando, and when should you avoid it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inversion via granby roll is appropriate when the passer has partially completed the pass — your legs have been redirected to one side and their hips are approaching your hip line, but they have not yet established chest-to-chest pressure. The granby creates distance and allows you to re-face the passer from a guard position. Inversion should be avoided when the passer has already established upper body connection or crossface, because inverting under pressure exposes your back and allows them to take back control. It should also be avoided if you lack the flexibility or timing to complete the roll cleanly, as a stalled inversion leaves you in the worst possible position."
@@ -94,7 +94,7 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your guard has been passed and the opponent is settling into side control after a Toreando — what is the last-resort recovery before they consolidate?",
+      "name": "Your guard was toreando-passed and they are settling into side control — last-resort recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the brief window between the pass completion and full side control consolidation, your best recovery option is to insert your near-side knee between your bodies to establish a knee shield or half guard. Frame against their shoulder with your near-side forearm to create just enough space for the knee insertion. If the knee shield is blocked, immediately hip escape away and attempt to get your far foot on their hip as a secondary frame. The critical principle is to never accept the flat-on-back pinned position — any partial guard recovery (even quarter guard with just a foot hooked) gives you significantly better escape odds than allowing full side control consolidation with crossface and hip control established."

@@ -98,7 +98,7 @@ description: "How to execute Seat Belt Control Back in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts rolling through before you can lock your seat belt grip - what adjustment do you make?",
+      "name": "They roll before you lock the seat belt from mounted crucifix; what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you will arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll."

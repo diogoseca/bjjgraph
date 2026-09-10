@@ -96,7 +96,7 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat to prevent falling during your sweep attempt. How do you adjust?",
+      "name": "Sweeping from standing guard bottom, they post a hand on the mat—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts, you have several options. First, you can redirect the sweep angle laterally to go around their post by changing the direction of your hip push. Second, you can attack the posted arm directly by releasing one grip and controlling their posting wrist, removing their base support. Third, you can use their compromised posture to transition to a collar drag or arm drag, since the posting hand means they cannot defend upper body attacks. The post is a temporary solution that creates its own vulnerabilities."
@@ -120,7 +120,7 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
     },
     {
       "@type": "Question",
-      "name": "Your sweep attempt fails and the opponent immediately begins a toreando pass. What is your recovery sequence?",
+      "name": "Your sweep from standing guard fails and they start a toreando pass—what is your recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately recover both feet to the opponent's hips to re-establish distance control and prevent them from completing the pass. Use any remaining sleeve or collar grip to slow their lateral passing momentum while your feet reset. If feet-on-hips recovery is not possible, insert a knee shield or transition to De La Riva Guard on their lead passing leg. The priority is guard retention over re-attempting the sweep, as a failed sweep that transitions to a successful guard position is far better than a failed sweep that leads to getting passed."

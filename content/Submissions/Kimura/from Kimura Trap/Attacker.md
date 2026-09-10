@@ -84,7 +84,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that your opponent's shoulder is approaching the mechanical limit during the Kimura finish?",
+      "name": "What signs show their shoulder is nearing its limit during the Kimura finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Primary indicators include involuntary facial grimacing, verbal distress signals, the opponent's body beginning to rotate involuntarily toward the direction of pressure, and visible strain in the shoulder musculature. The trapped arm begins to move more freely as soft tissue resistance decreases near the structural limit. You must release before reaching actual failure—the tap should come well before the breaking point, and you must apply pressure slowly enough to allow it."
@@ -92,7 +92,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "What control must be established before transitioning from Kimura Trap position to the active finishing sequence?",
+      "name": "What must be controlled before moving from the Kimura Trap into the finishing sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before attempting the finish, verify a deep figure-four grip near the opponent's elbow, an intact half guard or lockdown entanglement holding their base, your hips off the mat with your near elbow posted so your chest turns toward them, and their defensive grips broken or significantly weakened. Attempting the finish without all four results in a low-percentage attempt that wastes energy and often lets them flatten you and pass."
@@ -100,7 +100,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "At what point during the Kimura finish does the opponent lose the ability to effectively defend through muscular resistance alone?",
+      "name": "When can the opponent no longer defend the Kimura Trap finish by muscle alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical threshold occurs when the opponent's hand is driven past the plane of their own back with the elbow pinned close to their torso. Once the wrist crosses behind the hip line while you hold the angle from your side and the leg entanglement still denies them their base, the mechanical disadvantage becomes too severe for muscular defence alone. Before that point, grip defence and posturing away remain viable for them."
@@ -108,7 +108,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up and create space during your Kimura finish attempt—what adjustment prevents escape?",
+      "name": "They posture up and make space during your Kimura Trap finish: what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow them up rather than trying to hold them down — you have no weight to pin with. Come higher onto your near elbow and shoulder as they posture, keep the figure four pulled tight to your own chest, and use the lockdown or half guard to break their base so their posture costs them their balance. If they genuinely clear the space, abandon the immediate finish and re-consolidate the trap; never release the grip to chase their posture."
@@ -116,7 +116,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip during the finishing sequence if your opponent's arm is slippery from sweat?",
+      "name": "How do you adjust the Kimura grip when their arm is slippery with sweat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from a standard wrist-on-wrist grip to a deeper figure-four where your hand wraps around your own forearm rather than just gripping the wrist, creating a larger contact surface that resists slipping. Additionally, squeeze your elbows together to create compression that locks the configuration in place regardless of friction. In no-gi, the monkey grip with thumbless configuration on the opponent's wrist provides the most secure connection."

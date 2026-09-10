@@ -56,7 +56,7 @@ description: "Master defensive strategies against Cross Body to Back Control. Le
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the Cross Body to Back Control transition is being initiated?",
+      "name": "What is the earliest cue that a cross body ride is turning into a back take on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's arm threading under your armpit to establish the seatbelt grip. This is the first required step before they can safely rotate behind you. If you feel this threading motion, immediately clamp your elbow tight to your rib to deny the underhook entry. Secondary cues include feeling the perpendicular pressure shift to a diagonal angle and sensing their hips beginning to walk behind you."

@@ -64,7 +64,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your leg straight backward a poor defensive choice once the attacker has partial control?",
+      "name": "Why is pulling your leg straight back a poor defense once they have partial control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight backward extends your leg along the attacker's centerline, which is precisely the alignment they need for the hyperextension finish. You are essentially straightening your own leg into their kneebar position. Instead, rotating your hip toward the attacker collapses the extension angle by bringing your knee offline from their hip crease, making the finish mechanically impossible even with partial leg contact maintained."
@@ -72,7 +72,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What is your last-resort defensive option when the attacker has consolidated the kneebar position with knees pinched?",
+      "name": "What is your last-resort defense once the kneebar is consolidated with knees pinched?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The last-resort defense is aggressively bending your knee and pulling your heel toward your buttock while fighting their grip on your ankle. A deeply bent knee cannot be hyperextended regardless of how much hip pressure they apply. This is energy-intensive because you are fighting their pulling force and hip bridge simultaneously, but it prevents the finish and buys time to work the leg free or wait for a grip adjustment that creates an extraction opportunity."
@@ -80,7 +80,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How should your stance and weight distribution change when you recognize your opponent is playing grasshopper guard?",
+      "name": "How should your stance and weight change when you see them playing grasshopper guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base slightly and keep your lead leg light rather than heavily weighted. Avoid committing full bodyweight forward onto either leg. Maintain enough distance that their inverted legs cannot immediately thread behind your knee without first closing the gap. Your posture should remain upright with hips back - bending at the waist brings you closer to their entanglement range and compromises your ability to step back quickly."
@@ -88,7 +88,7 @@ description: "How to defend against Kneebar from Grasshopper in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rolling to follow your step-back - how do you prevent them from catching you during the pursuit?",
+      "name": "They roll to follow your step-back out of grasshopper guard; how do you avoid being caught?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they roll to follow your retreat, circle laterally rather than continuing straight backward. Their rolling motion commits them to a linear path, and lateral movement forces them to reorient mid-roll, which breaks their momentum and leg connection. As you circle, look for an opportunity to drive forward onto their exposed back or side as their roll fails to track you, converting their offensive pursuit into your passing opportunity."

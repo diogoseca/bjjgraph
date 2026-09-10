@@ -82,7 +82,7 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm grip but has not yet stepped over to the finishing angle - what escape options remain?",
+      "name": "Head-and-arm locked from high mount but they haven't stepped over — what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees, which prevents them from establishing the perpendicular finishing angle. Simultaneously frame against their hips with your free arm to prevent them from stepping over. If you can face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge explosively toward the trapped-arm side during their step-over attempt to recover guard."

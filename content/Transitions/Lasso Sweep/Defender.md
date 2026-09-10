@@ -80,7 +80,7 @@ description: "Master defending the Lasso Sweep in BJJ. Learn recognition cues, b
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the collar grip and begins extending the lasso leg upward—what immediate action prevents the sweep?",
+      "name": "They have the collar grip and are extending the lasso leg. What stops the sweep now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your free hand on the mat on the lasso side while simultaneously stepping your free-side leg backward to widen your base. Break the collar grip by stripping it with your trapped hand or turning your body to reduce the pulling angle. If the sweep has already loaded significantly, step over the lasso leg entirely to remove the mechanical advantage rather than trying to resist the rotational force directly."

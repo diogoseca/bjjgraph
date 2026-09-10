@@ -74,7 +74,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why should you insert the bottom hook first rather than the top hook when consolidating back control from seat belt?",
+      "name": "Why insert the bottom hook before the top hook when consolidating back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom hook should be inserted first because it has a natural entry angle from the mat-side position and immediately anchors hip control that prevents the defender's primary escape—sliding their hips to the mat and turning away. The bottom hook also provides a stable base from which to insert the top hook, whereas inserting the top hook first leaves the bottom side uncontrolled where the defender can most easily create separation by dropping their hips to the mat."
@@ -82,7 +82,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
     },
     {
       "@type": "Question",
-      "name": "Your defender clamps their knees together tightly when you attempt to thread your first hook—what is your response?",
+      "name": "They clamp their knees as you thread your first hook from seat belt; what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the hook against the clamp. Instead, use your top knee as a prying lever by placing it on top of the defender's upper thigh and driving downward pressure to separate their legs. Alternatively, threaten the rear naked choke by sliding your choking arm toward their neck—when their hands move to defend the choke, their legs typically loosen, creating the hook insertion window. The key is making them solve a problem with their hands that forces their legs to relax."
@@ -90,7 +90,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail for ensuring an inserted hook is not immediately cleared?",
+      "name": "What mechanical detail most ensures an inserted hook isn't immediately cleared?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hook depth is the most critical detail. The heel must pass the midline of the defender's thigh with the instep pressing firmly against the inner thigh muscle. A deep hook requires the defender to create significant space and use both hands to clear, which compromises their neck defense. Shallow hooks near the knee can be cleared with simple knee-together motion and minimal effort. After insertion, apply constant inward calf pressure to maintain depth and resist clearing attempts."
@@ -98,7 +98,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
     },
     {
       "@type": "Question",
-      "name": "During hook insertion, your defender explosively bridges and turns their hips—how do you prevent losing the position entirely?",
+      "name": "They bridge and turn explosively during hook insertion; how do you avoid losing the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the hook attempt and prioritize seat belt grip maintenance. Drive your chest forward following their movement, drop your weight low toward their hips, and tighten the seat belt grip to prevent any further rotation. Do not chase the hook during explosive movement—this creates space that accelerates the escape. Re-stabilize the seat belt control position completely, wait for the defender to settle, then reattempt hook insertion during the post-escape stillness window."
@@ -114,7 +114,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
     },
     {
       "@type": "Question",
-      "name": "How does the defender's body position change the hook insertion strategy—what do you do differently against a turtled versus a flat defender?",
+      "name": "How does hook insertion differ against a turtled defender versus a flat one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a turtled defender (knees under them, weight on hands and knees), use the top-hook-first variation by swinging your leg over their hip since the bottom hook entry is blocked by the mat and their tucked legs. Against a flat defender (lying on their side or stomach), use the standard bottom-hook-first approach since the bottom leg has natural access between their thighs from the mat-side angle. Against a defender on their side, adjust by inserting the hook on the exposed side first."

@@ -82,7 +82,7 @@ description: "How to execute the Arm Drag Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What is the primary indicator that you should transition to back control instead of completing the sweep?",
+      "name": "What tells you to take the back instead of finishing the arm drag sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicator is when your opponent posts with their free arm to prevent the sweep. This posting action, while defensive against the sweep, creates space on their back-exposed side and signals that they are committed to preventing the sweep rather than defending their back. When you see the post, immediately abandon the sweep and swim your inside arm around their waist to establish the first hook for back control. Secondary indicators include their hips turning away, upper body rotating to expose the back, or weight shifting heavily onto the posted arm."
@@ -90,7 +90,7 @@ description: "How to execute the Arm Drag Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a strong upright posture with both hands controlling your hips from inside closed guard. How do you create the conditions for the arm drag sweep?",
+      "name": "They posture upright with both hands on your hips. How do you set up the arm drag sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent has strong posture with hands on your hips, you must first break that structure before the arm drag becomes viable. Use your legs to pull them forward with heel pressure into their lower back while simultaneously pulling one arm off your hip using a two-on-one grip break. Once one hand is freed, immediately secure wrist control and begin threatening the hip bump sweep, which forces them to post a hand forward. That posting hand becomes your arm drag target. The key is creating a preceding threat that generates the forward weight commitment the arm drag requires."
@@ -98,7 +98,7 @@ description: "How to execute the Arm Drag Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What specific grip configuration gives you maximum control during the arm drag, and why does each hand serve a different function?",
+      "name": "In the arm drag, what does each hand do and where does it grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The same-side hand (right hand on their right wrist) controls direction and prevents the arm from returning to a posting position. It pulls laterally across their centerline. The opposite hand (left hand on their tricep, lat, or shoulder) provides the pushing force that drives the arm deep past their hip and prevents them from pulling the elbow back. These two grips create a push-pull mechanism: the wrist hand redirects while the upper arm hand generates depth. Without the secondary grip, the opponent can simply retract their elbow and recover. Without the primary grip, you cannot control the direction of the drag."
@@ -114,7 +114,7 @@ description: "How to execute the Arm Drag Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What role do your legs play in the arm drag sweep, and how does this differ from a pure arm drag to back take?",
+      "name": "How do your legs contribute to the arm drag sweep versus a pure arm drag to the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the arm drag sweep, your legs provide the primary sweeping force (60-70% of total power), working in coordination with the arm drag. Depending on guard type: closed guard legs scissor, butterfly hooks elevate, seated guard legs block and sweep. This active leg engagement is what differentiates a sweep from a back take. In a pure arm drag to back take, the legs primarily maintain guard structure and help you come up, but they do not generate sweeping force. The sweep requires greater hip and leg activation to actually off-balance and topple the opponent, while the back take focuses more on climbing and establishing position behind them."

@@ -80,7 +80,7 @@ description: "Execute the Bridge Escape from Ushiro Kesa Gatame with proper timi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal bridge direction when escaping reverse scarf hold, and why does it differ from standard side control escapes?",
+      "name": "Which bridge direction escapes reverse scarf hold, and why does it differ from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal bridge direction is at a 45-degree angle toward the top player's back and head. This differs from standard side control escapes because in reverse scarf hold, the top player faces your legs rather than your head, creating a fundamentally different base configuration. Their posting ability is weakest toward their own back due to the reverse orientation, making this the most effective disruption angle. Bridging straight up is ineffective because the reverse scarf position is structurally designed to resist vertical force through the wide leg base."
@@ -88,7 +88,7 @@ description: "Execute the Bridge Escape from Ushiro Kesa Gatame with proper timi
     },
     {
       "@type": "Question",
-      "name": "Your opponent reaches for a kimura grip while maintaining reverse scarf hold—how does this affect your bridge escape timing?",
+      "name": "They reach for a kimura from reverse scarf hold - how does that change your bridge timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kimura attempt creates an ideal bridge timing window because the top player must release their far-side control to establish the figure-four grip, temporarily compromising their base width and weight distribution. You should bridge immediately when you feel them commit both hands to the kimura grip, as their posting ability drops dramatically. However, you must protect the targeted arm first—if the kimura is already locked, address the submission defense before attempting any bridge escape. The bridge timing exploits the moment between grip initiation and submission completion."
@@ -96,7 +96,7 @@ description: "Execute the Bridge Escape from Ushiro Kesa Gatame with proper timi
     },
     {
       "@type": "Question",
-      "name": "You bridge explosively but your opponent absorbs it by widening their base—what is your immediate follow-up?",
+      "name": "Your bridge is absorbed by them widening their base in reverse scarf - immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to a hip escape in the direction opposite your bridge. When the opponent widens their base to absorb the bridge, they create gaps between their body and yours that a hip escape can exploit. The key is not pausing after the failed bridge—chain directly into the shrimp while the opponent is still adjusting to your bridge direction. This bridge-to-hip-escape chain is the foundation of the reverse scarf hold escape dilemma system, where each method sets up the conditions for the other."

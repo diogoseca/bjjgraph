@@ -362,7 +362,8 @@
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
-            "description": "Must end with question mark"
+            "description": "Must end with question mark. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer.",
+            "maxLength": 100
           },
           "answer": {
             "type": "string",

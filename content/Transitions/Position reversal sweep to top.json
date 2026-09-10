@@ -245,7 +245,7 @@
         }
       },
       {
-        "question": "Your opponent drops their hips and widens their base when you attempt elevation—what adjustment should you make?",
+        "question": "Bottom 50-50: they drop their hips and widen their base against your elevation. What adjustment?",
         "answer": "When opponent drops hips low, the reversal sweep becomes low percentage. Switch strategies to either leg extraction escape to standing or transition to Single Leg X-Guard by using their low base against them. Their heavy hips position actually facilitates Single Leg X entry because their weight is committed downward.",
         "answer_line": "Switch to Single Leg X-Guard",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "Your opponent threatens a heel hook while you are mid-elevation—should you continue the sweep or abort?",
+        "question": "Bottom 50-50: they threaten a heel hook mid-elevation of your reversal sweep. Continue or abort?",
         "answer": "Abort the sweep immediately and prioritize heel defense. Finishing the rotation under active heel hook tension risks catastrophic knee injury as the rotational force compounds the heel hook torque. Strip their heel grip with two-on-one hand fighting, rotate your knee inward to relieve pressure, and only reattempt the sweep once your heel is safe. No positional gain is worth a knee injury.",
         "answer_line": "Abort and defend the heel",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?",
+        "question": "Defending in 50-50, what is the earliest cue that they are setting up the reversal sweep?",
         "answer": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success.",
         "answer_line": "Opponent fights for inside leg",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent has established inside position and created hip angle—what is your defensive priority sequence?",
+        "question": "Top 50-50: they have inside position and hip angle. What is your defensive priority sequence?",
         "answer": "First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors.",
         "answer_line": "Deny elevation first",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent begins elevating their hips while you are reaching for their heel—should you complete the heel attack or address the sweep?",
+        "question": "Top 50-50: they start elevating as you reach for their heel. Finish the heel or defend the sweep?",
         "answer": "Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position.",
         "answer_line": "Abandon heel attack, block sweep",
         "distractors": {

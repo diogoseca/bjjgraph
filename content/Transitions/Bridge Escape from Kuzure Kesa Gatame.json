@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your bridge creates six inches of space but the opponent immediately drives forward to resettle - what went wrong?",
+        "question": "Your bridge makes space but they drive forward and resettle - what went wrong?",
         "answer": "The most likely error is failing to rotate the hips immediately after the bridge peaked. Creating space without changing the angle allows the opponent to simply drive forward into the same chest-to-chest position. The hip rotation must begin before the bridge starts descending, changing the geometry so the opponent cannot simply reapply the same pressure vector. Additionally, the frame arm may not have been properly positioned to block the forward drive.",
         "answer_line": "Hips didn't rotate in time",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "What is the critical difference between a bridge escape from Kuzure Kesa Gatame versus a bridge escape from standard mount?",
+        "question": "How does a bridge escape from kuzure kesa gatame differ from a bridge escape from mount?",
         "answer": "From mount, the upa seeks a complete reversal by trapping the arm and leg on one side and rolling the opponent over. From Kuzure Kesa Gatame, the bridge primarily creates space for half guard recovery rather than a full reversal. The scarf hold configuration makes complete reversal difficult because the opponent's body alignment is alongside you rather than directly on top. The bridge direction, hip rotation mechanics, and follow-up actions are all fundamentally different.",
         "answer_line": "Creates space, not full reversal",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your first bridge attempt fails and the opponent tightens their control - what sequence do you follow next?",
+        "question": "Your first bridge from kuzure kesa gatame fails and they tighten - what sequence follows?",
         "answer": "Never repeat the same failed bridge pattern. After a failed bridge, immediately transition to an alternative escape: use the frame arm to hip escape laterally while the opponent is recovering their base, attempt a turtle transition by turning belly-down during any remaining space, or create a frame sequence to build incremental space for a shrimp escape. The bridge may have created micro-advantages in positioning even though it did not succeed fully, so capitalize on any angular change it produced rather than resetting to square one.",
         "answer_line": "Switch to a new escape option",
         "distractors": {
@@ -472,7 +472,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest indicator that your opponent is preparing a bridge escape from Kuzure Kesa Gatame?",
+        "question": "What is the earliest sign your opponent is setting up a bridge escape from kuzure kesa gatame?",
         "answer": "The earliest indicator is foot repositioning - the bottom player drawing their heels close to their buttocks and planting feet flat on the mat. This is the mechanical prerequisite for any effective bridge and typically occurs before core tensing or breathing changes. Monitoring foot position through peripheral awareness or feeling the mat vibration through your own base allows preemptive counter-adjustment.",
         "answer_line": "Heels drawing close, feet flat",
         "distractors": {
@@ -500,7 +500,7 @@
         }
       },
       {
-        "question": "Your opponent bridges powerfully toward your head side and creates significant space - how do you convert this into a mount transition?",
+        "question": "They bridge hard toward your head side and make space - how do you convert it to mount?",
         "answer": "Ride the bridge momentum rather than fighting it. As the opponent's hips rise and your chest lifts, immediately step your far knee over to the opposite side of their body, using the space they created for your mount transition. Drive your hips down into their midsection as you complete the step-over and establish low mount with grapevines before they can react to the position change.",
         "answer_line": "Step far knee over, drive hips down",
         "distractors": {

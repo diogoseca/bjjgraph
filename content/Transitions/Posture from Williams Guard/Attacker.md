@@ -90,7 +90,7 @@ description: "Complete guide to executing posture recovery from Williams Guard. 
     },
     {
       "@type": "Question",
-      "name": "Why must arm extraction use circular rather than linear movement, and what specific direction should the elbow rotate?",
+      "name": "Escaping Williams Guard: why circular arm extraction, and which way should the elbow rotate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Linear pulling works directly against the figure-four grip's mechanical advantage, increasing pressure on the shoulder joint rather than reducing it. Circular movement changes the angle of force application, gradually disengaging the grip structure by working around its strength rather than against it. The elbow should rotate inward toward your own centerline, as this direction opposes the figure-four's rotational control and reduces the shoulder lock angle. The rotation must be small and controlled—large circles telegraph your intent and allow the opponent to adjust their grip."
@@ -106,7 +106,7 @@ description: "Complete guide to executing posture recovery from Williams Guard. 
     },
     {
       "@type": "Question",
-      "name": "What grips should you establish with your free hand during posture recovery and which grips are dangerous?",
+      "name": "Escaping Williams Guard, what should your free hand grip, and which grips are dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free hand should prioritize positional support near your own centerline during extraction phases, then transition to head control or hip control once posture is partially recovered. Never post your free hand on the mat near the opponent's hip—this creates immediate vulnerability to triangle setup and provides a sweep fulcrum. Once posture is achieved, establish bilateral grip control on the opponent's biceps or hips to prevent Williams Guard re-establishment and begin closed guard passing work."

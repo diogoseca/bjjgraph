@@ -58,7 +58,7 @@ description: "How to defend against Restore Back Control in BJJ. Continue escape
     },
     {
       "@type": "Question",
-      "name": "What should your immediate priority be when you feel the attacker's chest pressing deeper into your back during your escape?",
+      "name": "Escaping the back, you feel their chest pressing deeper into you—what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Create hip distance immediately. The attacker is prioritizing chest connection because it is their primary anchor for restoration. Drive your hips away from them by scooting forward or bridging to create space. Once chest connection is broken, their hooks and grips become much less effective. Do not stop to fight their grips—address the chest pressure first."
@@ -74,7 +74,7 @@ description: "How to defend against Restore Back Control in BJJ. Continue escape
     },
     {
       "@type": "Question",
-      "name": "You have cleared both hooks but the attacker still has a strong seat belt grip—what escape sequence should you follow?",
+      "name": "You cleared both hooks but they keep a strong seat belt—what escape sequence follows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With both hooks cleared, your legs are free to move but the seat belt maintains upper body connection. First, scoot your hips forward and away to stretch out the chest-to-back connection, making the seat belt the only remaining control point. Then use two-on-one grip fighting on the choking arm to break or weaken the seat belt. As the grip loosens, immediately turn toward the underhook side to face the opponent. The key is creating maximum hip distance before committing to the turn, because the seat belt without hooks lacks the lower body control to follow your rotation effectively."

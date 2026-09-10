@@ -70,7 +70,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must training application of kneebarring techniques occur over minimum 5-7 seconds with progressive pressure buildup?",
+      "name": "Why must kneebars be applied over at least 5-7 seconds with progressive pressure in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive application allows training partners adequate time to recognize submission danger and tap before ligament or cartilage damage occurs. Knee joint injuries happen extremely rapidly—ACL tears can occur in milliseconds under sudden force. The 5-7 second guideline ensures pressure builds gradually from zero to tap threshold, giving partners continuous opportunity to tap at any discomfort level. This training methodology prevents catastrophic injuries while allowing practitioners to develop proper mechanical understanding. Competition application occurs faster, but only after extensive slow practice establishes correct technique patterns and safety awareness."
@@ -78,7 +78,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the three primary tap signals every practitioner must recognize, and what is the correct response protocol?",
+      "name": "What are the three primary tap signals, and what is the correct response protocol?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary tap signals are: (1) Verbal tap—any vocalization of 'tap,' 'stop,' or distress sounds; (2) Physical hand tap—rapid repeated tapping on partner's body or mat surface; (3) Physical foot tap—repeated tapping with foot on mat or partner. Correct response protocol requires IMMEDIATE cessation of all pressure application upon detecting ANY tap signal, followed by controlled release while maintaining contact (not explosive separation that could cause additional injury), returning the joint to neutral position, and verbally checking partner's condition before continuing training. Delayed release or continuing pressure after tap represents dangerous behavior justifying immediate training exclusion."
@@ -86,7 +86,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What anatomical structure serves as the fulcrum point for knee hyperextension in the kneebar, and where should it be positioned on your body?",
+      "name": "In the kneebar, what part of their leg is the fulcrum, and where should it sit on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back of the opponent's knee (popliteal fossa/knee crease) serves as the primary fulcrum point for creating hyperextension leverage. This structure should be positioned directly against your lower abdomen or pubic bone region—not your chest, ribs, or upper abdomen. This positioning creates optimal leverage geometry where your hip extension generates maximum force application to the knee joint. Positioning too high (chest area) reduces leverage significantly, while positioning too low (below hips) creates weak angles where opponent can escape. The lower abdomen/pubic bone placement represents the mechanical sweet spot balancing control, leverage, and finishing power."
@@ -94,7 +94,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why does top position kneebarring require different risk-assessment thinking compared to bottom position leg attacks?",
+      "name": "Why does kneebarring from top carry a different risk calculation than leg attacks from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Top position kneebarring involves abandoning dominant positional advantage (side control, mount, knee on belly) to pursue submission, creating inherent risk-reward calculation not present in bottom attacks. From bottom positions, failed leg attacks typically return you to neutral or guard positions—minimal position loss. From top, failed kneebar attempts can result in losing dominant control, scrambles favoring opponent, or complete position reversals. Therefore, top kneebarring should only be pursued when: (1) opponent's defensive positioning clearly exposes their leg; (2) your leg control is definitive before transition; (3) positional dominance has not produced other finishing opportunities; or (4) match circumstances (time, score) justify higher-risk submission attempts. Advanced practitioners develop systematic decision frameworks evaluating these factors before committing to top leg attacks."
@@ -102,7 +102,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the primary defensive response opponents use against the kneebar, and what three-directional force system breaks this defense?",
+      "name": "Opponent bends their knee to defend the kneebar: what three forces break that defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary defensive response is maximally bending the knee (bringing heel toward buttocks) to reduce hyperextension vulnerability. Breaking this defense requires simultaneous application of three directional forces: (1) Arm strength pulling the ankle/foot toward your shoulder (straightening force); (2) Knee squeeze and forward hip pressure driving into the back of their knee (preventing re-bending); (3) Torso curl forward bringing your upper body toward your knees (increasing fulcrum pressure). These three forces create opposing tensions that progressively overcome the opponent's ability to maintain bent knee position. Attempting to finish against maximally bent knee without addressing this defense wastes energy and allows opponent to maintain effective defense indefinitely."
@@ -110,7 +110,7 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "At what point during the kneebar entry sequence is the opponent most likely to successfully extract their leg, and how do you prevent this escape?",
+      "name": "When is the opponent most likely to pull their leg out of a top kneebar, and how do you stop it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The step-over transition phase represents maximum vulnerability for leg extraction—during the 1-2 seconds when you're moving your leg over opponent's body, your control momentarily decreases and opponent can pull their leg free if your initial grip was insufficient. Prevention requires establishing definitive two-on-one leg control (hugging opponent's leg tightly to your chest with strong grips) BEFORE initiating step-over movement. Your chest must remain connected to their thigh throughout the entire rotation, eliminating any space for leg withdrawal. If you feel opponent beginning to extract their leg during step-over, immediately abort the technique and return to your original top position rather than stubbornly pursuing a low-probability submission. Positional maintenance always takes priority over failed submission attempts."

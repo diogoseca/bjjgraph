@@ -56,7 +56,7 @@ description: "Complete guide to defending the Honey Hole to Saddle transition. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that tells you the attacker is beginning a Honey Hole to Saddle transition?",
+      "name": "What is the earliest tactile cue that they are switching from Honey Hole to Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift or momentary decrease in hip pressure against your trapped leg. Before any visible leg adjustment, the attacker must redirect their weight to begin the reconfiguration. This pressure change is detectable through your trapped thigh before you can see or feel the leg adjustments. Train yourself to react to this pressure shift as the primary trigger for defensive action."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Honey Hole to Saddle transition. L
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins lifting their outside leg to adjust its angle across your hip - what defensive action gives you the highest success probability?",
+      "name": "They lift their outside leg to adjust across your hip: your highest-percentage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your free leg's foot into the space vacated by their outside leg, framing your foot or shin against their hip to prevent them from replanting the outside leg in its new position. This frame blocks the critical outside leg adjustment that distinguishes Saddle from Honey Hole. While maintaining this frame, begin working hip rotation to create extraction angles. The frame buys time for the rotational escape."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Honey Hole to Saddle transition. L
     },
     {
       "@type": "Question",
-      "name": "How should you manage your energy when the attacker makes multiple transition attempts that you successfully defend?",
+      "name": "How do you manage energy while defending repeated Honey Hole to Saddle attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Each successful defense costs defensive energy through framing, rotation, and grip fighting. Recognize that the attacker is also expending energy on reconfiguration attempts. Use the rest periods between attempts to work incremental escape progress rather than fully resting. Small hip movements and grip adjustments between defensive efforts accumulate toward eventual escape. The defender who uses inter-attempt rest productively will outlast the attacker who must repeatedly restart their transition sequence."

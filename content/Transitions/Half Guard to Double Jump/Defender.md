@@ -64,7 +64,7 @@ description: "How to defend against the Transition to Double Jump from Half Guar
     },
     {
       "@type": "Question",
-      "name": "Why is sitting to butterfly guard considered the most reliable defense against the Double Jump attempt?",
+      "name": "Why is sitting to butterfly guard the most reliable defense against the Double Jump?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting to butterfly guard removes the positional context entirely by changing the orientation from turtle to seated guard. This mechanically prevents bilateral hook insertion because your hips are no longer in the turtle position that exposes the thigh space needed for hooks. It also establishes your own offensive hooks that create sweep threats, forcing the opponent to address your attacks instead."
@@ -72,7 +72,7 @@ description: "How to defend against the Transition to Double Jump from Half Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established one hook inside your thigh during the transition. What is your defensive priority?",
+      "name": "They get one hook inside your thigh during the transition—what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the second hook from being inserted, as a single hook is manageable but bilateral hooks create the full Double Jump dilemma. Address the single hook by sitting to butterfly guard, which mechanically displaces the hook through hip repositioning, or squeeze your knees together forcefully to deny space for the second hook. Do not try to strip the established hook while leaving space for the second one."

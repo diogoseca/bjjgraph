@@ -56,7 +56,7 @@ description: "Learn to defend the X-Guard Technical Stand Up. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a technical stand up from X-Guard?",
+      "name": "What earliest cue warns that your opponent is about to technical stand up from X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in hand positioning where one hand releases from ankle or pant control and begins reaching behind their hip to establish a posting base on the mat. This is often preceded by a strong elevation push through their hooks to create momentary space. Recognizing this hand release gives you approximately one second to initiate your defensive response before the posting hand reaches the mat and the stand-up sequence becomes much harder to stop."
@@ -72,7 +72,7 @@ description: "Learn to defend the X-Guard Technical Stand Up. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully posted and begun driving to standing - what is your best remaining defensive option?",
+      "name": "They have posted and are driving to standing from X-guard — your best remaining defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to controlling the situation on your terms rather than fighting a losing battle against the completed stand-up. Grab their collar or head with your free hand and sit to guard, establishing grips before they fully stand. This converts the situation from a failed defense into an open guard exchange where you retain engagement and connection. If you have pant grips, pull their lead leg forward to off-balance them during the transition. The worst option is to remain passive and allow them to reach full standing with your leg controlled."

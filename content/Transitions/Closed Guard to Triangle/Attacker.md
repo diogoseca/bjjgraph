@@ -76,7 +76,7 @@ description: "How to execute Closed Guard to Triangle in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for throwing your leg over the opponent's shoulder during the triangle entry?",
+      "name": "When is the optimal moment to throw your leg over the shoulder for the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window is immediately after you have confirmed arm isolation across the centerline and completed your hip escape to create the angle. The leg throw must happen while your collar or head grip is still actively pulling the opponent's posture down—if you wait too long, they may recover posture, and if you throw too early before the angle is established, the triangle will be loose. The moment the opponent's shoulder dips forward under your grip pressure is the highest-percentage window."
@@ -84,7 +84,7 @@ description: "How to execute Closed Guard to Triangle in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat as you begin opening your guard—how do you adjust your triangle entry?",
+      "name": "They post a free hand as you open guard for the triangle: how do you adjust your entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts a hand on the mat, they create an additional base point that makes the arm isolation harder but also exposes that posting arm. Use your foot on their hip to bump them laterally toward the posting arm, collapsing their base. Alternatively, switch your target to the posting arm—push it across their centerline with your grip hand while using the foot on hip to create the angle. The posting hand is committed to the mat, making it easier to redirect across their body for the triangle entry."
@@ -100,7 +100,7 @@ description: "How to execute Closed Guard to Triangle in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What are the entry requirements that must exist before you commit to opening your guard for the triangle?",
+      "name": "What must be in place before you open your closed guard for the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before opening the guard, you must have confirmed: broken posture with the opponent's head and shoulders pulled forward, secure grip on at least one sleeve or wrist with that arm controllable across centerline, your hips are already beginning to shift for the angle rather than remaining square, and the opponent's free arm is not positioned to create an immediate base or counter. Opening the guard without these conditions typically results in the opponent recovering posture and either defending or passing."

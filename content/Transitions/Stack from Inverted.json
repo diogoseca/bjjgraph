@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "In which direction should you angle your stacking pressure, and why is straight-forward driving suboptimal?",
+        "question": "Which way should you angle stacking pressure, and why is driving straight forward worse?",
         "answer": "Angle your stacking pressure slightly to one side rather than driving straight forward. Straight-forward stacking allows the opponent to maintain a symmetrical defensive structure where they can recover guard in either direction when pressure releases. Angling to one side creates a clear passing lane, forces the opponent's legs to one side of your body, and facilitates the transition to half guard top rather than returning to a neutral confrontation where they can re-establish inverted guard.",
         "answer_line": "Angle to one side, not straight",
         "distractors": {
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Your opponent hooks your lead leg with their foot during the stack attempt. What is the correct response?",
+        "question": "They hook your lead leg during the stack attempt: what's the correct response?",
         "answer": "Immediately disengage the hooked leg by stepping it back to clear the hook, then re-establish your base with feet positioned outside the opponent's hip line where hooks cannot reach. Do not continue driving forward with a hooked leg, as this allows the opponent to transition into single leg X-guard or ashi garami positions that expose you to leg attacks. Reset your stance and re-engage the stack with improved leg positioning that prevents hook entries.",
         "answer_line": "Step back, clear the hook",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "If the opponent successfully defends the stack and recovers inverted guard, what follow-up sequence should you pursue?",
+        "question": "They defend your stack and recover inverted guard: what follow-up do you pursue?",
         "answer": "After a defended stack, immediately transition to an alternative passing approach rather than re-attempting the same technique. Effective follow-ups include backstep passing to attack from a different angle, transitioning to headquarters position to control the bottom leg, or initiating a toreando pass while the opponent is still recovering from the stack defense. The stack attempt often disrupts the opponent's grip structure even when unsuccessful, creating windows for these alternative passes that were not available before.",
         "answer_line": "Switch pass, backstep or HQ",
         "distractors": {
@@ -469,7 +469,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest physical cues that indicate a stack attempt is being initiated from top position?",
+        "question": "What are the earliest cues that they're starting a stack against your inverted guard?",
         "answer": "The earliest cues are the opponent gripping your pants at the waistband or hip level, lowering their center of gravity by bending at the knees and hips, and shifting their weight forward with chest angling toward your body. You may also feel increased downward pressure on your elevated legs and notice them breaking or ignoring your offensive grips in favor of hip control. Recognizing these cues before the stack engages allows you to establish preventive frames.",
         "answer_line": "Hip grip, low base, chest angle",
         "distractors": {
@@ -483,7 +483,7 @@
         }
       },
       {
-        "question": "Why is it critical to maintain weight on your shoulder blades rather than your neck during stack defense?",
+        "question": "Why keep the load on your shoulder blades, not your neck, during stack defense?",
         "answer": "Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back.",
         "answer_line": "Spine safety plus room to rotate",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "Your frames have been stripped and the opponent is driving you into a full stack. What is your highest percentage escape?",
+        "question": "Your frames are stripped and they're driving a full stack: highest percentage escape?",
         "answer": "When fully stacked with frames compromised, your highest percentage escape is the lateral granby roll to the side where the opponent has less grip control. Commit fully to the roll by driving through your posting shoulder and using whatever hip mobility remains to initiate rotation. Even a partial roll disrupts the stacking angle and may create enough space to re-establish frames or recover to a sustainable guard position before the pass completes.",
         "answer_line": "Lateral granby roll",
         "distractors": {
@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "How should you use your legs differently when defending a stack versus playing offensive inverted guard?",
+        "question": "How do your legs work differently defending a stack versus attacking from inverted guard?",
         "answer": "During offensive inverted guard, your legs extend toward the opponent to create hooks, manage distance, and facilitate rotation for berimbolo entries. When defending a stack, your legs shift to a primarily framing role with feet pressing firmly against the opponent's hips, shoulders, or biceps to create structural barriers that prevent compression. This transition from offensive hooks to defensive frames should happen immediately upon recognizing the stack attempt, prioritizing survival over maintaining attack position.",
         "answer_line": "Frame feet, don't hook",
         "distractors": {

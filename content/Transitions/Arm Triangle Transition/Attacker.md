@@ -74,7 +74,7 @@ description: "How to execute Arm Triangle Transition in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific defensive reaction from your opponent triggers the Arm Triangle Transition from bottom Hindulotine?",
+      "name": "From bottom Hindulotine, what defensive reaction signals the arm triangle transition is on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is the opponent creating a near-side defensive frame by pushing their forearm or hand against your chest or shoulder to relieve guillotine pressure. This frame positions their arm across their own centerline and against their neck, creating exactly the head-and-arm configuration needed for the arm triangle. Without this frame, the transition lacks the structural element that makes the choke possible."
@@ -90,7 +90,7 @@ description: "How to execute Arm Triangle Transition in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to retract their framing arm as you begin the grip change—what is your immediate response?",
+      "name": "They retract the framing arm as you start the grip change to arm triangle; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the arm triangle transition and return to the Hindulotine guillotine attack. The opponent retracting their frame removes the defensive barrier that was preventing the guillotine finish. Their arm retraction actually reopens the original submission. This creates the core dilemma: framing defends the guillotine but opens the arm triangle, while removing the frame defends the arm triangle but reopens the guillotine."
@@ -98,7 +98,7 @@ description: "How to execute Arm Triangle Transition in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What grip configuration is used for the arm triangle and where exactly should your forearm be positioned?",
+      "name": "For the arm triangle from Hindulotine, what grip do you use and where does your forearm sit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a figure-four grip (palm-to-bicep) or gable grip (palm-to-palm) with your choking arm threaded deep under the opponent's neck. The blade of your forearm must contact the far-side carotid artery, with your hand extending well past the centerline of their neck. The opponent's own trapped arm compresses the near-side carotid. Both arteries must be compressed simultaneously for a blood choke rather than a neck crank."
@@ -106,7 +106,7 @@ description: "How to execute Arm Triangle Transition in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing relationship between releasing the guillotine grip and securing the arm triangle?",
+      "name": "How do you time releasing the guillotine against securing the arm triangle from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must trap the opponent's framing arm securely against their neck using your non-choking arm before releasing the guillotine. Test the trap by feeling resistance when they attempt to retract. Only then release the guillotine and thread the choking arm under their neck. Any gap between releasing one grip and establishing the other allows the opponent to extract their arm and posture up, losing both attacks."
@@ -114,7 +114,7 @@ description: "How to execute Arm Triangle Transition in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively to flatten you while you have the arm triangle grip locked from bottom—how do you use this energy?",
+      "name": "With the arm triangle locked from bottom, they drive forward to flatten you; how do you use it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their forward drive loads your butterfly hooks perfectly. Pull them forward with the arm triangle grip while inserting deep hooks inside their thighs. Use their momentum combined with your hook elevation to execute the butterfly sweep. The arm triangle grip provides superior upper body control during the sweep compared to standard butterfly sweep grips. Their aggression becomes the energy source for reaching side control."

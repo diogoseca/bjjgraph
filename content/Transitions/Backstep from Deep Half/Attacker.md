@@ -112,7 +112,7 @@ description: "Learn to execute the backstep from deep half guard as the top play
     },
     {
       "@type": "Question",
-      "name": "What grip must be maintained throughout the backstep to prevent the bottom player from following your rotation?",
+      "name": "Backstepping from deep half top, which grip stops the bottom player from following your rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react."

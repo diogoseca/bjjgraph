@@ -58,7 +58,7 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize a Japanese Necktie is being set up?",
+      "name": "What is the single most important defensive action against a Japanese Necktie setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important defensive action is extracting your trapped arm before the attacker locks their grip configuration. The Japanese Necktie's unique mechanical advantage comes from using your own shoulder as part of the choking mechanism through the arm trap. Removing the trapped arm eliminates this advantage entirely and converts the position to a standard front headlock, which has well-established defensive sequences. Push on the attacker's overhook elbow with your free hand while aggressively pulling your trapped arm toward your own head to create space for extraction. This must happen before the attacker completes their perpendicular rotation and locks their hands."
@@ -66,7 +66,7 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your head straight back an ineffective defense against the Japanese Necktie, unlike some other front headlock chokes?",
+      "name": "Why is pulling your head straight back ineffective against the Japanese Necktie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the head straight back extends your neck, which actually makes the choke tighter by creating more space for the attacker's arm to sink deeper under your chin and increasing the distance between your chin and chest. In a standard guillotine, head extraction can work because the choking pressure comes from the attacker's arms alone. In the Japanese Necktie, the pressure comes from your own trapped shoulder on one side and the attacker's shoulder on the other side, so extending your neck doesn't address either compression point. Instead, keep your chin locked to your chest and focus all defensive energy on extracting the trapped arm, which is the structural element that makes this choke uniquely dangerous."
@@ -74,7 +74,7 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "At what point during the Japanese Necktie setup does the defense become extremely low percentage, and what should you do if you reach that point?",
+      "name": "When does Japanese Necktie defense become too low percentage, and what should you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defense becomes extremely low percentage once all three conditions are met: the arm trap is fully consolidated with your shoulder pressed against your neck, the attacker has achieved the perpendicular body angle, and their grip configuration is locked. Once these elements converge and the attacker begins hip extension, the choke will compress both carotid arteries simultaneously and unconsciousness follows within seconds. If you reach this point, you must tap immediately rather than attempting a last-second escape. Fighting through a fully locked Japanese Necktie risks losing consciousness before you can tap, which is dangerous for both training partners. Recognition of this point of no return is a critical safety skill."
@@ -82,7 +82,7 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "How does turning into the attacker help defend the Japanese Necktie, and when is this tactic dangerous?",
+      "name": "How does turning into the attacker defend the Japanese Necktie, and when is it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker disrupts the perpendicular angle required for the Japanese Necktie's choking mechanics. By rotating to face them, you eliminate the angle that positions their shoulder against the far side of your neck and can potentially pull them into your closed guard where the submission cannot be finished. However, this tactic is dangerous if the choke is already partially locked or the grip configuration is secured, because turning loads your body weight into the attacker's shoulder pressure and can actually accelerate the choke rather than relieve it. The turning defense is only effective during the early setup phase before grips are locked and the attacker's shoulder is fully positioned against your neck."
@@ -90,7 +90,7 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "What defensive hand fighting priorities should you maintain when caught in the early stages of a Japanese Necktie attempt?",
+      "name": "Caught early in a Japanese Necktie, what are your free hand's defensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free hand (the one not being trapped) must work aggressively on two priorities in this order: first, strip the attacker's overhook by pushing on their elbow or forearm to create space for your trapped arm to extract. Second, if the overhook cannot be broken immediately, use your free hand to block the attacker's far hip from stepping over your back, which denies the perpendicular rotation angle they need. Never use your free hand to push on their head or chest, as this doesn't address either critical element of the choke. If both arms are controlled, immediately attempt to stand or sit through to guard before the position consolidates further. The hand fighting window is extremely narrow - you have approximately 2-3 seconds of effective hand fighting before the attacker can lock their grip configuration."

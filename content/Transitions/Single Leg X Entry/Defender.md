@@ -56,7 +56,7 @@ description: "How to defend against Single Leg X Entry in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important grip for the attacker that you must deny or strip to prevent the entry?",
+      "name": "Which attacker grip must you strip to stop the Single Leg X entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ankle or lower leg grip is the foundational control that enables the entire Single Leg X Entry sequence. Without this grip, the attacker cannot prevent you from stepping back, cannot anchor their inside hook, and cannot generate the pulling angle needed for the entry. Strip this grip immediately upon feeling it — use your free hand to peel their fingers while simultaneously backstopping your leg. Every second the grip remains is time they use to build the next link in their entry chain."
@@ -64,7 +64,7 @@ description: "How to defend against Single Leg X Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your ankle and is threading their inside leg — what is the optimal timing window for defense?",
+      "name": "They have your ankle and are threading the inside leg: when is your window to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is between ankle grip and inside hook completion. Once both are established, defensive difficulty increases dramatically. In this window, you should simultaneously strip the ankle grip with your hand while backstopping or circling the targeted leg away from their threading direction. This two-action defense attacks both their primary control point and their hook insertion at the same time, maximizing your chance of derailing the entry before it locks in."
@@ -80,7 +80,7 @@ description: "How to defend against Single Leg X Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established Single Leg X with deep hooks and ankle grip — what is your best remaining option?",
+      "name": "They have Single Leg X locked with deep hooks and ankle grip: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the position is fully established, your best option is to immediately address the bottom hook (behind your knee) by pressing your trapped knee toward the mat and angling it inward to create space for extraction. Simultaneously establish upper body control through collar tie or cross-face to prevent them from elevating their hips and completing sweeps. If you can neutralize the bottom hook, the remaining control becomes manageable. Avoid simply standing tall and hoping to step free, as this gives them maximum sweeping leverage. Lowering your base and working systematically is essential."
@@ -88,7 +88,7 @@ description: "How to defend against Single Leg X Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should your stance change when you recognize an opponent is playing seated guard and threatening leg entries?",
+      "name": "How should your standing stance change against a seated guard threatening leg entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your stance beyond shoulder width with knees bent and weight distributed evenly between both feet. Keep your hips low rather than standing fully upright, reducing the leverage available if they do obtain grips. Position your feet at angles rather than parallel, making it harder for them to line up a clean ankle grip on either side. Actively manage distance so their feet cannot reach your hips, and keep your hands low to intercept any reaching grips toward your ankles before they connect."

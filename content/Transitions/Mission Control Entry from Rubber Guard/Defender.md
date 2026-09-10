@@ -72,7 +72,7 @@ description: "Defend and counter the Mission Control entry from Rubber Guard. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun threading their arm under their leg but the shin grip is not yet secured - what is your optimal defensive action?",
+      "name": "They are threading the arm but have no shin grip yet: what is your best defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the ideal moment for arm extraction because the bottom player's threading arm is occupied and cannot assist in maintaining arm isolation. Execute a circular arm pull toward your hip while simultaneously driving your free hand frame against their opposite hip to create separation. The bottom player cannot adjust the elevated leg (their arm is partially under it) and cannot use the threading hand to prevent your extraction. This two-second window is the highest-percentage escape opportunity."

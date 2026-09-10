@@ -64,7 +64,7 @@ description: "How to defend against Finish Buggy Choke in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has both grips locked and is beginning to drive their shoulder toward the mat - what is your priority?",
+      "name": "They have both grips and are driving their shoulder to the mat — your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, grip fighting alone will not save you. Your priority is immediate body movement to disrupt the finishing angle. Sit to guard by driving your near hip to the mat and rotating to face them, accepting half guard position. The perpendicular angle elimination immediately reduces choking pressure even if grips remain. Tap if you cannot create movement before pressure peaks."
@@ -88,7 +88,7 @@ description: "How to defend against Finish Buggy Choke in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How does sitting to guard address the choking mechanics even if the opponent maintains their collar grip?",
+      "name": "How does sitting to guard beat the buggy choke even if they keep the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting to guard eliminates the perpendicular body angle that creates the choking geometry. In half guard, the attacker's body is no longer positioned to drive their radius bone into your carotid with shoulder-to-mat pressure. The grip may remain, but without perpendicular angle and body weight mechanics, it becomes a loose collar grip rather than a functional choke. You can then address grip removal from a more defensible position."

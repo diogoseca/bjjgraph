@@ -86,7 +86,7 @@ description: "Learn to execute the belly down armbar finish from mounted triangl
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together to prevent arm extension once you are belly down - how do you break this grip?",
+      "name": "They clasp their hands once you are belly down from mounted triangle — how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wedge your forearm between their interlocked hands while maintaining constant hip pressure on the elbow. Push your forearm through the gap and peel their hands apart. Alternatively, apply slow progressive pressure through the locked grip by lifting your hips while controlling the wrist. The sustained pressure on the elbow typically forces grip separation within several seconds as the defender must release to tap before the joint is compromised."
@@ -110,7 +110,7 @@ description: "Learn to execute the belly down armbar finish from mounted triangl
     },
     {
       "@type": "Question",
-      "name": "What makes the mounted triangle variant superior to other belly down armbar setups in terms of arm control?",
+      "name": "Why does the mounted triangle give better arm control than other belly down armbar setups?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The mounted triangle locks the defender's upper arm between the attacker's legs throughout the rotation, preventing the most common belly down armbar defense of retracting the elbow. In standard belly down armbars from mount or side control, there is typically a gap in upper arm control during the rotation where the defender can pull the arm free. The triangle leg configuration eliminates this gap by maintaining continuous compression on the shoulder and upper arm throughout the entire transition."

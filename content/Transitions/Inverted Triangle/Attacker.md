@@ -112,7 +112,7 @@ description: "How to execute the Inverted Triangle in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the inverted triangle will finish?",
+      "name": "What mechanical detail most determines whether the inverted triangle finishes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip angle after completing the inversion is the most critical detail. You must angle your hips 30-45 degrees off the opponent's centerline with your choking leg's knee pointing toward their trapped shoulder. A flat, parallel body position creates weak choking pressure that opponents can defend indefinitely."

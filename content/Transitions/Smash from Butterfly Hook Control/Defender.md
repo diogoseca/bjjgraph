@@ -64,7 +64,7 @@ description: "Defend against the Butterfly Smash in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent's smash is halfway complete with one hook partially collapsed - what is your best recovery option?",
+      "name": "The smash is halfway in with one hook collapsed. Your best recovery option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If their weight is committed forward and you can get your shoulder underneath their hip, transition to deep half guard where you have strong sweeping mechanics and a positional advantage. If you cannot get underneath in time, immediately insert your top knee as a shield between your hip and their driving knee to establish knee shield half guard. The worst option is trying to forcibly re-insert the collapsed hook against committed smash pressure—this rarely succeeds and wastes energy better spent on positional transitions."

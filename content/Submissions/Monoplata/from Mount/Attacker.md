@@ -70,7 +70,7 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply pressure on a monoplata during training, and why is this critical?",
+      "name": "How slowly must you apply monoplata pressure from mount in training, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must apply pressure over a minimum of 5-7 seconds during training because the shoulder joint is highly susceptible to rotator cuff tears and dislocations. Slow application gives your training partner adequate time to recognize the submission and tap safely before injury occurs. The shoulder complex involves multiple tendons and ligaments that can tear catastrophically with fast application."
@@ -86,7 +86,7 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are the key control points you must establish before attempting to thread your leg for the monoplata?",
+      "name": "Which controls must be set before threading your leg for the monoplata from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before threading your leg, you must: (1) Secure the isolated arm tightly against your body to prevent it from escaping, (2) Control opponent's far arm or head to prevent them from grabbing your threading leg, (3) Maintain mount control with sufficient weight distribution to prevent bridging escapes, and (4) Ensure proper hip positioning to allow smooth leg threading without losing balance. Without these controls, the technique will fail."
@@ -94,7 +94,7 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your training partner doesn't tap after several seconds of applied pressure?",
+      "name": "What do you do if your partner doesn't tap after several seconds of monoplata pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your partner doesn't tap after 5-7 seconds of gradual pressure, immediately stop and release the submission. Your partner may not understand the position or may be unfamiliar with the shoulder lock mechanics. Communicate verbally, explain what you were attempting, and ask if they felt pressure. NEVER increase the speed or intensity hoping to force a tap. In training, education and safety always take priority over finishing the submission."
@@ -110,7 +110,7 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's far arm or head essential before threading your leg, and what happens if you skip this step?",
+      "name": "Why control the far arm or head before threading the monoplata leg, and what if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the far arm or head is essential because it eliminates opponent's primary defensive option: grabbing your threading leg. If you skip this control, opponent can easily grab your ankle or knee as you swing your leg over, preventing the figure-four lock from forming. This defensive grab not only stops the submission but can also lead to you losing mount position entirely as you're caught mid-transition with poor base."

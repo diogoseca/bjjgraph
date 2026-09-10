@@ -80,7 +80,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent postures up and pulls their arms back to break your double sleeve grips - when exactly should you initiate the foot transition to spider guard?",
+      "name": "They posture and pull their arms back off your double sleeve grips: when do you enter spider?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate the transition immediately after your pulling counterforce extends their arms back toward you. As they pull back, match their pull with your own tension, and as their momentum reverses and arms extend forward, their biceps become accessible. The optimal window is during this arm extension phase before they can retract again. Never attempt the transition while their arms are pulled tight to their body, as you cannot reach the biceps with your feet."
@@ -88,7 +88,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "What grip position and depth is required on the sleeves before attempting the transition to spider guard?",
+      "name": "What sleeve grip and depth do you need before moving your feet to spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grips must be established at or near the cuffs using a four-finger pistol grip with knuckles touching the inside of the sleeve opening. This deep cuff grip provides maximum leverage for both pulling tension during the transition and maintaining connection while feet reposition. Shallow grips on the mid-forearm provide insufficient control and are easily stripped during the vulnerable moment when your feet are between hips and biceps."
@@ -104,7 +104,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "You begin transitioning your first foot to the bicep but your opponent immediately drives forward into your guard - how do you recover?",
+      "name": "They drive forward as your first foot leaves the hip for the bicep: how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return your transitioning foot to the opponent's hip to reestablish the distance management frame. Do not attempt to force the spider guard entry against forward pressure, as you lack the structural integrity of full spider guard to resist being smashed. Once the hip frame is reestablished, use push-pull dynamics to break their forward momentum and create distance. Wait for another arm extension opportunity before reattempting the transition."
@@ -112,7 +112,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain constant pulling tension on both sleeves throughout the entire foot transition?",
+      "name": "Why keep constant pull on both sleeves throughout the foot transition to spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant pulling tension serves two critical functions during the transition. First, it prevents the opponent from retracting their arms away from your feet, keeping the biceps accessible as placement targets throughout the movement. Second, it prevents them from stripping your grips during the vulnerable moment when your feet are in transit between hips and biceps. Without this tension, the opponent gains a free window to either break grips or close distance."
@@ -120,7 +120,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "What direction of force should your feet apply once both are placed on the opponent's biceps in spider guard?",
+      "name": "With both feet on their biceps in spider guard, what direction should your feet push?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your feet should push diagonally outward and away from your body, creating extension that stretches the opponent's arms wide and breaks their posture forward. The pushing force vector should angle slightly outward from centerline rather than straight forward, which widens the opponent's arm position and compromises their ability to retract or posture up. Coordinate this pushing force with constant pulling tension on the sleeves for maximum postural disruption."

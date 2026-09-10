@@ -76,7 +76,7 @@ description: "Learn to attack with the High Elbow Guillotine from Guillotine Con
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the High Elbow Guillotine specifically target and how does the elbow position affect compression?",
+      "name": "What does the High Elbow Guillotine target, and how does elbow height affect compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The High Elbow Guillotine targets both carotid arteries simultaneously. The blade of the wrist or forearm compresses the near-side carotid directly, while the elevated elbow closes the far-side carotid by pressing it against the attacker's chest and shoulder. This bilateral compression produces a blood choke that causes unconsciousness within seconds when fully applied, as opposed to a tracheal crush that primarily causes pain."
@@ -92,7 +92,7 @@ description: "Learn to attack with the High Elbow Guillotine from Guillotine Con
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts hand fighting your choking wrist during the grip transition—what adjustment prevents the strip?",
+      "name": "They hand fight your choking wrist during the grip transition — how do you stop the strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pin your elbows tight to your ribs and keep the choking forearm connected to your chest wall, eliminating the space needed for effective hand fighting. Rotate your body slightly toward the choking side to increase downward pressure on their grip hand. If they momentarily break your clasp, re-grip immediately at the wrist rather than trying to re-establish the full palm-to-palm configuration, then complete the elbow elevation before they can re-engage their hand fight."
@@ -100,7 +100,7 @@ description: "Learn to attack with the High Elbow Guillotine from Guillotine Con
     },
     {
       "@type": "Question",
-      "name": "What are the critical indicators that the choke is properly set and the opponent is approaching the point of no escape?",
+      "name": "Which signs show the high elbow choke is set and escape is nearly impossible?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's hand fighting becoming weaker or less coordinated, a visible color change in the face (reddening or darkening), the opponent's breathing becoming labored or producing gurgling sounds, and the cessation of active escape attempts replaced by static tension. The point of no escape occurs when the elbow reaches full ceiling height with zero gap between forearm and neck—at this point even releasing one hand from the grip maintains enough compression to produce unconsciousness."

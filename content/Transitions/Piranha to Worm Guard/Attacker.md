@@ -96,7 +96,7 @@ description: "Master the Piranha to Worm Guard transition as the attacking guard
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the worm wrap will hold under pressure?",
+      "name": "Piranha to worm guard: which mechanical detail decides whether the worm wrap holds under pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth of the lapel feed under the opponent's thigh is the single most important mechanical factor. A shallow feed that barely passes under the leg creates a loose wrap that the opponent can extract by simply straightening their leg. The lapel must travel the complete path from outside to deep inside under the thigh, emerging with enough material to wrap tightly around your shin. The wrap should compress against the opponent's thigh when you apply tension, creating a mechanical lock that binds their leg to your lower body."
@@ -104,7 +104,7 @@ description: "Master the Piranha to Worm Guard transition as the attacking guard
     },
     {
       "@type": "Question",
-      "name": "Why does the transition commonly fail when attempting it from flat hips, and what adjustment prevents this?",
+      "name": "Why does the Piranha to worm guard transition fail from flat hips, and what adjustment fixes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Flat hips create two compounding problems: first, the distance from your shin to the opponent's lead thigh is maximized, making the lapel path longer and harder to complete in one motion. Second, the DLR hook angle is weak from flat hips, providing poor leg control and no guide rail for the lapel. The correction is to angle your hips sharply toward the opponent's lead leg before starting the transition, which shortens the lapel path, strengthens the DLR hook angle, and positions your shin as a natural catch point for the re-routed material."
@@ -120,7 +120,7 @@ description: "Master the Piranha to Worm Guard transition as the attacking guard
     },
     {
       "@type": "Question",
-      "name": "What is the primary direction of force during the lapel feed, and how does this differ from Piranha Guard's pulling direction?",
+      "name": "How does force direction in the worm guard lapel feed differ from Piranha guard's pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In Piranha Guard, the pulling force is primarily downward through your legs toward your hips, breaking the opponent's posture forward. During the worm guard transition, the force direction shifts to lateral and rotational—you pull the lapel around the opponent's thigh in a circular path, wrapping it from outside to inside. Once the worm wrap is established, the pulling direction becomes perpendicular to the opponent's leg, creating the off-balancing leverage that makes worm guard sweeps effective. This directional shift is why the transition can feel awkward initially."

@@ -74,7 +74,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary anatomical landmark you should aim for when threading your choking arm under the opponent's chin?",
+      "name": "Threading your choking arm under their chin, what anatomical landmark do you aim for?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should aim your wrist bone—the bony prominence on the thumb side—directly against the opponent's trachea, not the soft forearm. Placing this hard point on the throat, rather than the soft, muscular part of your forearm, creates focused pressure on the most vulnerable part of the neck and prevents them from creating space by tucking their chin. Properly positioned, the wrist bone acts as a hard point of pressure that is extremely difficult to defend against."
@@ -82,7 +82,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why is stepping to a 45-degree angle critical for the guillotine setup, and what happens if you remain square to your opponent?",
+      "name": "Why step to 45 degrees for the guillotine, and what happens if you stay square?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping 45 degrees toward your choking-arm side maximizes your leverage while removing your centerline from the opponent's driving path. The angle aligns your body structure to multiply choking power and makes it geometrically impossible for them to drive into you effectively. If you remain square, they can drive straight into you, stack you, or simply posture up, because their legs and hips generate forward pressure that overcomes your upper body strength while you have minimal leverage."
@@ -90,7 +90,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the three most common grip configurations for the guillotine setup, and when might you choose each one?",
+      "name": "What are the three common guillotine grips, and when would you choose each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three common grips are the gable grip (palm-to-palm), the S-grip, and interlaced fingers, chosen by arm length, neck size, and context. The gable grip is the most secure and powerful for most practitioners, providing maximum pressure with the least technical demand. The S-grip (four fingers of one hand curled around the other wrist) suits medium-length arms and allows quick adjustments. Interlaced fingers require the longest arms but provide the deepest penetration, excellent when you have exceptional arm length relative to the opponent's neck size. Choice depends on your arm length, the opponent's neck thickness, and gi vs. no-gi context."
@@ -98,7 +98,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "If your opponent successfully tucks their chin before you can get your arm deep, what are your best options to still secure an effective guillotine?",
+      "name": "They tuck their chin before your arm gets deep: how do you still secure an effective guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a tucked chin, switch attacks: high elbow guillotine, arm-in guillotine, anaconda or darce, or strip the chin up and re-thread. Specifically: (1) raise your choking elbow into a high elbow guillotine, changing the pressure angle to go over the chin rather than under it; (2) transition to an arm-in guillotine if you can trap their defensive arm inside your grip; (3) switch to an anaconda or darce, where the tucked chin actually helps by creating pressure; or (4) use your free hand to physically strip their chin up while maintaining control, then re-establish the deep position. The key is recognizing early that the traditional setup is compromised and adapting rather than forcing a low-percentage position."
@@ -114,7 +114,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "From a front headlock position, what are the key indicators that tell you the timing is optimal to transition to a guillotine setup?",
+      "name": "From front headlock, what indicators tell you the timing is right to go for the guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack when their posture is broken with head below hips, their frames are absent, and they are in motion trying to improve position. The full checklist: (1) opponent's head lower than their hips with broken posture; (2) their near arm not framing strongly against your body; (3) a transitional moment such as standing, advancing, or recovering position; (4) enough control that they cannot immediately explode into posture; (5) clear access to thread your arm under the chin without obstruction; and (6) a base stable enough that switching grips will not get you driven backward. The optimal moment is usually when they are moving to improve position, not when they are statically defending."

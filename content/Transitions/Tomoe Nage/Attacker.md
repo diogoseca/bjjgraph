@@ -74,7 +74,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to drop straight backward rather than sitting down gradually when executing Tomoe Nage?",
+      "name": "Why must you drop straight back rather than sit down gradually for Tomoe Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dropping straight backward generates the momentum and proper angle needed to lift the opponent's entire body weight over yours. Sitting down gradually reduces the lifting force, provides the opponent time to sprawl defensively, and creates an improper angle that leaves you on your back without guard control. The sudden drop also helps break the opponent's balance forward, which is essential for the throw's success. The physics of the technique require your center of mass to drop below the opponent's rapidly to create the lever action needed for elevation."
@@ -82,7 +82,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "What is the optimal foot placement point during Tomoe Nage, and why does placing it on the thigh fail?",
+      "name": "Where should your foot be placed for Tomoe Nage, and why does thigh placement fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal placement is on the opponent's hip bone or lower abdomen, avoiding the groin area. This placement creates the strongest lever arm for lifting their body weight while maintaining control over their center of mass. Placing the foot too low on the thigh provides insufficient leverage because the fulcrum sits below their center of gravity, meaning your leg extension pushes their legs rather than elevating their entire body. The hip placement also allows you to direct the opponent's flight path more accurately, whereas thigh placement lets them easily withdraw their hips backward to sprawl."
@@ -90,7 +90,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully sprawls backward as you initiate the drop - what is your immediate recovery sequence?",
+      "name": "They sprawl back as you drop for Tomoe Nage: what is your immediate recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to seated guard variations rather than remaining flat on your back. Options include pulling to butterfly guard using your existing grips to maintain connection, establishing shin-to-shin guard, or entering De La Riva guard depending on the opponent's leg positioning. Maintain at least one grip, preferably the collar, to prevent them from disengaging completely. The key is recognizing the failed attempt early and not committing further to a throw that cannot succeed. Never stay flat on your back without grip control or active leg frames against a standing opponent."
@@ -106,7 +106,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "In what competitive scenarios is Tomoe Nage strategically advantageous compared to a standard seated guard pull?",
+      "name": "When is Tomoe Nage strategically better than a standard seated guard pull in competition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tomoe Nage is advantageous when you want to score takedown points while establishing guard in rulesets like IBJJF where successful throws score but guard pulls do not. It works well against opponents who pressure forward aggressively, as their momentum enhances the throw. Against opponents with strong sprawl defense who neutralize conventional takedowns, the sacrifice timing is harder to defend. In formats where guard pulling is penalized, Tomoe Nage scores positively while still achieving a guard position. It also provides the option to follow through to mount, which a seated guard pull cannot offer."
@@ -114,7 +114,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "What is the precise timing window for extending your leg during the throw, and what happens if you extend too early or too late?",
+      "name": "When exactly do you extend your leg in Tomoe Nage, and what if you are early or late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The extension should occur the instant your back contacts the mat and the opponent's weight is committed forward over your centerline, loading onto your foot. Extending too early, before their weight shifts forward, allows them to step back or sprawl because your foot pushes into empty space without resistance to redirect. Extending too late means you absorb their falling weight without redirecting it, resulting in them landing heavily on top of you in a smash position rather than being elevated over your body. The correct timing feels like catching their forward momentum at peak commitment and redirecting it upward through the arc."

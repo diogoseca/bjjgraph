@@ -74,7 +74,7 @@ description: "Learn to execute the hip escape from side control consolidation. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the hip escape against a fully consolidated side control?",
+      "name": "What is the best timing window to start a hip escape against consolidated side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window occurs when the opponent adjusts their position - reaching for new grips, shifting from crossface to underhook control, preparing to advance to mount or knee on belly, or during their exhalation when chest pressure naturally lightens. These transitional moments reduce their effective weight distribution and create brief windows where the bridge-and-shrimp sequence has the highest probability of creating sufficient space for knee insertion. Attempting the escape against fully settled, static pressure has the lowest success rate."
@@ -90,7 +90,7 @@ description: "Learn to execute the hip escape from side control consolidation. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases crossface pressure the moment they feel you begin to create a frame - how do you proceed?",
+      "name": "They spike the crossface the moment you build a frame in side control; how do you proceed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not abandon the frame. Maintain the structural forearm wedge and ride out the increased pressure using controlled breathing. Their pressure increase is reactive and will stabilize within seconds. During this time, focus on turning slightly more onto your side and positioning your feet for the bridge. Once their pressure normalizes, execute the bridge-and-shrimp in rapid succession before they can react with another pressure increase. The key insight is that their counter-pressure is unsustainable at maximum intensity, and the escape window opens as they settle back to baseline."
@@ -106,7 +106,7 @@ description: "Learn to execute the hip escape from side control consolidation. S
     },
     {
       "@type": "Question",
-      "name": "Your first shrimp creates some space but the opponent follows your hips before you can insert your knee - what is the correct response?",
+      "name": "Your shrimp makes space but they follow your hips before your knee enters; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chain a second shrimp without pausing. The first shrimp moved you several inches away, and even though the opponent followed, they cannot settle their full weight while in motion. The second shrimp catches them mid-adjustment and creates additional displacement. Insert the knee during or immediately after the second shrimp. If two shrimps are still insufficient, execute a third while maintaining your frame. The key is continuous movement - stopping between shrimps allows the opponent to re-settle their pressure completely."

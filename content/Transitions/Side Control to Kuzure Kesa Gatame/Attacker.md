@@ -74,7 +74,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What single element must be secured before shifting your hips toward the opponent's head, and why is its order non-negotiable?",
+      "name": "What must be secured before shifting your hips toward their head, and why is that order fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-arm trap must be fully clamped under your armpit before any hip movement begins. The order is non-negotiable because shifting your hips first creates space and momentarily changes your pressure distribution, and an unsecured arm gives the opponent the freedom to swim it free and frame into that space for guard recovery. With the arm already isolated, the hip shift simply consolidates a control you already own, whereas shifting first turns the transition into a race the opponent can win by extracting their arm."
@@ -82,7 +82,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "How does Kuzure Kesa Gatame differ from classical Kesa Gatame in what it controls, and how does that change the entry from side control?",
+      "name": "How does Kuzure Kesa Gatame differ from classical Kesa Gatame, and how does the entry change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Classical Kesa Gatame anchors on a deep head wrap, threading your arm under the opponent's neck so their head is locked against your ribs. Kuzure Kesa Gatame instead trades the head wrap for an isolated arm clamped across your torso. This changes the entry: rather than deepening a crossface into a head wrap before rotating, you scoop and clamp the near arm under your armpit before shifting your hips. The arm, not the head, becomes the anchor, which makes this entry more reliable against opponents who pin their chin to deny the head wrap or against larger opponents where head-and-arm control is hard to secure."
@@ -90,7 +90,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Why must the trapped arm be controlled at both the shoulder and the wrist, rather than at just one point?",
+      "name": "Why control the trapped arm at both shoulder and wrist rather than at one point only?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling only the wrist lets the opponent rotate their shoulder and thread the arm free during a hip escape, while controlling only the shoulder lets them extend the arm into a pushing frame. Clamping the upper arm under your armpit (shoulder control) and reinforcing with a grip on the wrist or forearm creates a closed kinetic chain that denies both escape paths simultaneously. This two-point control is also what sets the immediate angle for an armbar or americana, so it serves both retention and offense at once."
@@ -98,7 +98,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Your americana attempt from standard side control fails because the opponent retracts their arm to defend - how do you convert this into the transition?",
+      "name": "Your americana fails as they retract the arm — how do you convert that into Kuzure Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defensive retraction is the capture window. As the opponent pulls their arm back toward their body to defend the shoulder lock, follow the arm and scoop it up under your armpit, clamping the upper arm against your ribs before they can re-pin it to their torso. With the arm now isolated, reinforce at the wrist, then shift your hips toward their head into the modified scarf hold. The failed submission becomes the entry, turning their defensive reaction into the exact arm movement you needed to establish the position."
@@ -106,7 +106,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "What is the correct direction and angle of hip pressure once the modified scarf hold is established, and why does it matter more than simply being heavy?",
+      "name": "Once the modified scarf hold is set, which way should hip pressure angle, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip pressure should be directed at roughly a 45-degree angle toward the opponent's far hip, not straight down into the mat. Angular pressure pins their torso so they cannot turn into you or away from you, whereas straight-down weight only resists them sinking and still allows rotation. Driving your hip through their body toward their far hip bone is far more controlling than merely being heavy, because it actively defeats the two directions of escape rotation rather than passively resisting downward movement."
@@ -114,7 +114,7 @@ description: "How to execute the transition from side control to Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins bridging hard toward your posted leg just after you complete the hip shift - what is your response?",
+      "name": "They bridge hard into your posted leg right after your hip shift — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your far posted leg further and drop your hips lower toward the mat, increasing base width and lowering your center of gravity while driving your chest pressure forward so the bridge force passes across your wide base. If the bridge is overwhelming and threatens to roll you, abandon the scarf hold and rotate your hips back to square standard side control, where your base is symmetric and bridge-resistant. It is always better to retreat to stable side control than to be swept from a compromised modified scarf hold."

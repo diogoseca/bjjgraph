@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Triangle from Clamp Guard. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the guard player's shin starting to slide from your bicep toward your shoulder — what immediate action prevents the triangle?",
+      "name": "You feel their shin sliding from your bicep toward your shoulder: what stops the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Posture up immediately by straightening your spine and driving your hips backward while tucking your chin to close the gap between your neck and shoulder. Simultaneously drive your trapped shoulder forward into the guard player's hip to physically block the leg's path. If possible, grab the moving leg with your free hand and push it back down. Speed is critical here — you have less than one second before the leg clears the shoulder if you do not react to the sliding cue."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Triangle from Clamp Guard. Re
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is transitioning from clamp retention to triangle entry?",
+      "name": "What are the earliest cues that the clamp guard player is switching to a triangle entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three earliest cues are: first, the guard player's hips begin rotating underneath you with increased angular movement rather than maintaining static clamp pressure; second, their free hand shifts to a firm grip behind your head or neck rather than general posture control; third, you feel the clamping leg lighten on your bicep as it prepares to shoot rather than pressing down with sustained static control. Any one of these cues should trigger immediate posture recovery."
@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Triangle from Clamp Guard. Re
     },
     {
       "@type": "Question",
-      "name": "The triangle is partially locked but the guard player has not yet adjusted their angle — what is your escape priority sequence?",
+      "name": "The triangle is partly locked but they haven't cut the angle: what is your escape priority order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, establish posture by driving your spine upright and keeping your head elevated — this is the single most important defensive action because the choke cannot finish without your head being pulled forward. Second, square your hips to the opponent to prevent them from achieving the 30-45 degree angle needed for choking geometry. Third, work to extract the trapped arm by pushing it toward the opponent's hip while maintaining posture. Fourth, if extraction fails, work to pass to the opposite side while opening the lock. Address each priority in order — skipping posture to fight the arm is the most common fatal error."

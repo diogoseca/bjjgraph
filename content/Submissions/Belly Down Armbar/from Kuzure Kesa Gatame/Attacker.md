@@ -76,7 +76,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the belly down armbar finish primarily attack and how does the prone position change the force application?",
+      "name": "What does the belly down armbar attack, and how does the prone position change the force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The belly down armbar attacks the elbow joint by hyperextending it beyond its natural range, specifically stressing the ulnar collateral ligament and the joint capsule. The prone position changes force application dramatically because hip extension drives the fulcrum forward against the back of the elbow while gravity assists the extension. Unlike a supine armbar where the attacker lifts their hips upward against gravity, the belly down position uses bodyweight and hip drive in the same direction as gravity, generating substantially more breaking force with less effort."
@@ -84,7 +84,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that sufficient breaking pressure is being applied to the elbow during the belly down finish?",
+      "name": "How do you know enough breaking pressure is on the elbow in the belly down finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sufficient pressure indicators include feeling the opponent's arm reaching full extension with no remaining bend at the elbow, sensing the resistance transition from muscular tension to structural resistance of the ligaments, and the opponent showing clear distress signals such as tapping, vocalizing, or tensing their entire body. In training, you should never push to these structural limits. Apply pressure progressively until you feel the arm straighten and then hold position, allowing the opponent time to tap before any ligament engagement occurs."
@@ -92,7 +92,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
     },
     {
       "@type": "Question",
-      "name": "What grip control must be established before initiating the rotation from Kuzure Kesa Gatame to belly down position?",
+      "name": "What grip must be set before rotating from kuzure kesa gatame to belly down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must establish secure two-on-one wrist control before any rotation begins. Both hands grip the opponent's wrist or distal forearm with the near hand establishing contact first while the armpit trap still maintains pressure, then the far hand joins to complete the grip. This overlapping control ensures the arm is never free during the transition. The grip should be positioned so that the opponent's thumb faces upward, pre-aligning the elbow for hyperextension in the finished position."
@@ -100,7 +100,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
     },
     {
       "@type": "Question",
-      "name": "At what stage of the belly down armbar transition does the technique become nearly impossible to defend?",
+      "name": "At what stage does the belly down armbar from kuzure kesa gatame become undefendable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when the attacker's leg has cleared the opponent's head and the attacker begins dropping to belly down position with knees squeezing around the upper arm. At this stage, the defender can no longer turn into the attacker, the arm is fully isolated from the body, and the mechanical advantage of the prone position makes clasped-hand defense the only remaining option. Once the attacker's hips settle behind the elbow with knees pinched tight, even the clasped-hand defense becomes a temporary delay rather than an escape."
@@ -108,7 +108,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
     },
     {
       "@type": "Question",
-      "name": "What is the most common mechanical error when applying the finishing pressure in belly down position?",
+      "name": "What is the most common mechanical error when finishing the belly down armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is using arm strength to pull the wrist upward rather than driving the hips forward into the mat. Pulling with the arms creates insufficient pressure because the biceps and shoulders fatigue quickly against the opponent's defensive grip strength. The correct mechanic uses hip extension as the primary force generator, driving the pelvis forward and down while the arms simply maintain wrist position. This engages the entire posterior chain and bodyweight, producing dramatically more force than arm pulling alone."
@@ -116,7 +116,7 @@ description: "How to attack with the belly down armbar from Kuzure Kesa Gatame. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip during the transition from scarf hold armpit control to the belly down wrist control?",
+      "name": "How do you switch from the scarf hold armpit trap to wrist control for the belly down armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transition must overlap, never creating a gap. Start by sliding your near-side hand from the armpit trap down to the opponent's wrist while your armpit still clamps their upper arm. Once the near hand secures the wrist, add your far hand to create a two-on-one grip. Only then do you release the armpit pressure to begin the rotation. Throughout the step-over, maintain wrist control by pulling the arm tight against your torso. After landing belly down, reposition both hands to optimize the thumb-up alignment for the finishing extension."

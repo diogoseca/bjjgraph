@@ -112,7 +112,7 @@ description: "How to execute Sprawl Defense in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your sprawl defense against an opponent who chains multiple takedown attempts rapidly?",
+      "name": "How do you adjust your sprawl defense against rapid chained takedown attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against chain wrestling, maintain an active stance after the first sprawl rather than fully committing weight forward. Keep hands ready at chest level, weight on balls of feet, and hips mobile. After the first sprawl, quickly recover to ready position while maintaining hand control on opponent's head or collar. This allows you to sprawl repeatedly without being caught off-balance. Additionally, work to establish dominant grips like front headlock between attempts to shut down their offense entirely rather than defending reactively."

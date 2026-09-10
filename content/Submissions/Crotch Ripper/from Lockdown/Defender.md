@@ -58,7 +58,7 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you first recognize a Crotch Ripper setup from lockdown bottom?",
+      "name": "What is your first defensive action when you recognize a Crotch Ripper setup from lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important defensive action is driving forward with heavy crossface and shoulder pressure to prevent the attacker from rotating onto their side. The Crotch Ripper requires approximately 45-90 degrees of body rotation to generate effective compression. By flattening the attacker onto their back, you eliminate the mechanical angle necessary for the submission regardless of lockdown tightness or knee positioning. This should be your immediate first response before addressing any other element of the attack."
@@ -74,7 +74,7 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the Crotch Ripper angle established and their knee is on your groin - you push the knee away but they immediately reposition it. What is wrong with your defensive approach?",
+      "name": "Crotch Ripper defense: you push their knee off but they replace it — what are you missing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pushing the knee away treats the symptom rather than the cause. The attacker can continuously reposition their knee because they still have the underhook maintaining the body angle. The correct approach is to strip the underhook first, which collapses the entire angle structure. Without the underhook, the attacker falls flat onto their back and the knee loses the mechanical advantage needed for compression. Address the underhook, and the knee problem solves itself."
@@ -82,7 +82,7 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "How does defending the Crotch Ripper interact with the Electric Chair sweep threat from the same lockdown position?",
+      "name": "How does defending the Crotch Ripper interact with the Electric Chair sweep threat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Crotch Ripper and Electric Chair form a dilemma system. When you drive forward to flatten the attacker and kill the Crotch Ripper angle, you load weight onto them that facilitates the Electric Chair sweep. When you sprawl backward to escape knee pressure, you create the distance the attacker needs for Electric Chair entry. The solution is to address the underhook rather than adjusting your weight distribution, because removing the underhook neutralizes both threats simultaneously without playing into either side of the dilemma."
@@ -90,7 +90,7 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "What are the earliest tactile and visual cues that a Crotch Ripper attempt is beginning from lockdown bottom?",
+      "name": "What are the earliest cues that your opponent is starting a Crotch Ripper from lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker begin rotating their body toward the underhook side while you are in their lockdown. This rotation from flat on their back to their side is the prerequisite for all Crotch Ripper mechanics. The second cue is their free leg beginning to move across your midline toward your groin area, which signals knee placement is imminent. The third cue is a deepening of their underhook grip combined with lockdown extension, creating the dual-control structure. Recognizing the rotation early and immediately driving forward to flatten them provides the largest defensive window."

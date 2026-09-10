@@ -114,7 +114,7 @@ description: "How to execute the Bridge and Roll escape from mount in BJJ. Compl
     },
     {
       "@type": "Question",
-      "name": "How does timing affect the success rate of the bridge and roll, and when is the optimal moment to execute?",
+      "name": "How does timing affect the bridge and roll, and when is the best moment to explode?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing is critical because bridging against a well-based, stationary opponent is significantly more difficult than attacking during their movement. The optimal moments to execute are when the opponent shifts their weight forward (making their base narrow), reaches for a submission attack (committing one or both arms), or adjusts their position (creating momentary base instability). These moments create windows where their base is compromised and they cannot immediately counter your bridge. Attempting the escape when they are perfectly balanced and settled in mount has a much lower success rate, especially against experienced opponents. Advanced practitioners develop the sensitivity to feel these weight shifts and timing windows, allowing them to explode precisely when the opponent is most vulnerable to the reversal."

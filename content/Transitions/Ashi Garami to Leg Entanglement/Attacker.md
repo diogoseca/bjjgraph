@@ -74,7 +74,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to time the counter-entanglement during the opponent's advancement attempt rather than during static control?",
+      "name": "Why counter-entangle during their advancement attempt rather than during static Ashi Garami control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During advancement attempts, the opponent shifts their free leg and adjusts their hooking configuration, creating momentary gaps in their leg management. Their focus is on improving their own position rather than monitoring their far leg's vulnerability. This transitional moment provides the widest threading window for your free leg. During static control, the opponent's legs are optimally configured for both controlling your leg and protecting their own, making counter-entanglement significantly harder to achieve."
@@ -82,7 +82,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
     },
     {
       "@type": "Question",
-      "name": "What is the role of the grip on the opponent's entangling foot during the counter-entanglement entry?",
+      "name": "What does gripping your opponent's entangling foot do during the counter-entanglement entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip on the opponent's entangling foot serves two critical functions simultaneously. First, it freezes their entanglement at its current level by preventing them from re-pummeling or advancing their hooks deeper while you thread your counter-entry. Second, it anchors their lower body in place so your free leg has a stable target to thread against rather than chasing a moving hip. Releasing this grip to use both hands for base is one of the most common errors because it allows the opponent to advance freely during your entry."
@@ -98,7 +98,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
     },
     {
       "@type": "Question",
-      "name": "Why does maintaining elevated base throughout the threading sequence matter for the resulting bilateral exchange?",
+      "name": "Why does keeping an elevated base while threading matter for the resulting bilateral entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top player's gravitational advantage is the primary differentiator in the resulting bilateral entanglement. Maintaining elevated posture on a knee or in squat position means you can drive weight downward onto the opponent's midsection, flattening their upper body and limiting their angle creation. If you go flat during the threading, the exchange becomes symmetrical and you lose the one advantage that made entering the exchange strategically sound. Your ability to drive weight down while the opponent must generate force upward determines who controls inside space."
@@ -106,7 +106,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
     },
     {
       "@type": "Question",
-      "name": "How does inside space control after establishing counter-entanglement determine who wins the bilateral exchange?",
+      "name": "After the counter-entanglement, how does inside space control decide the bilateral exchange?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside space control, meaning your knee is positioned between your hip and the opponent's hip on the entangled side, determines positional hierarchy in any leg entanglement. The practitioner with inside space can advance to dominant variants like Saddle or Cross Ashi, while the practitioner without inside space is limited to neutral or inferior positions. Immediately fighting for this space upon arrival is critical because the first few seconds after establishing bilateral entanglement are when both practitioners' hooking configurations are still settling and malleable."
@@ -114,7 +114,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
     },
     {
       "@type": "Question",
-      "name": "Your opponent is holding Outside Ashi on your right leg and begins pumping their inside hook deeper to advance to Inside Ashi. How do you exploit this window?",
+      "name": "They hold Outside Ashi on your right leg and pump the inside hook deeper—how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As they pump their inside hook deeper, their far leg (outside leg) must temporarily disengage or loosen to allow the re-pummel. This creates a threading window for your free left leg to step over their far hip and establish your own hook behind their knee. Simultaneously, grip their right foot with your left hand to freeze their advancement mid-transition. The key is acting during their pummel motion, not after they have completed it, because once Inside Ashi is fully established their leg configuration closes the threading gap."

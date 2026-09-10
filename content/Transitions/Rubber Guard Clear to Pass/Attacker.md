@@ -96,7 +96,7 @@ description: "How to execute Rubber Guard Clear to Pass in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How should you extract your trapped arm once leg control is addressed - straight back or circular motion?",
+      "name": "Escaping rubber guard, do you extract the trapped arm straight back or circularly, and how?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use circular motion toward your body keeping the elbow tight to your ribs. Pulling straight back is the natural instinct but triggers triangle entries because it creates the arm-and-head configuration triangles require. Circular extraction keeps your arm close to your body and prevents the space needed for leg lockup around your head."

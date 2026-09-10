@@ -52,7 +52,7 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why does your own guillotine grip become dangerous when your opponent passes to side control, and what is the biomechanical mechanism that creates the Von Flue choke?",
+      "name": "Why does your guillotine grip endanger you once they pass, and how does the Von Flue work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you hold a guillotine from bottom side control, your forearm crosses your own neck and compresses one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside. Together, these two pressure points create a bilateral blood choke—your grip provides half the mechanism while their shoulder provides the other half. From inside your guard, the guillotine attacks their neck. But once they pass to side control, the same grip geometry now attacks your own neck because their shoulder can drive into the exposed side while your arm handles the other side. The positional change transforms your offensive weapon into a self-inflicted vulnerability."
@@ -60,7 +60,7 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "At what specific moment during a guard pass should you release your guillotine grip to avoid Von Flue danger, and what are the consequences of releasing too late?",
+      "name": "When exactly should you release your guillotine during their pass, and what if you release too late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should release the guillotine grip the moment your opponent's hips clear your legs and they begin establishing side control—when their chest starts dropping perpendicular to your torso and your guard retention has failed. Releasing too late means their shoulder is already positioned on your neck with their weight committed, and the choke may already be partially locked. At that point, simply releasing the grip may not be enough because the shoulder pressure has already compressed one carotid, and you now need to actively escape the side control pressure as well. The earlier you release, the more time and energy you have for defensive framing before they can set up the Von Flue."
@@ -68,7 +68,7 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "You are holding a guillotine and feel your opponent beginning to pass your guard. Your guillotine feels tight and you believe you might still finish. How do you evaluate whether to hold or release?",
+      "name": "Your guillotine feels tight as they start passing — how do you decide whether to hold or release?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate based on three factors: 1) Are their hips still inside your guard or have they cleared to the side? If inside, the guillotine is still viable. If cleared, release immediately. 2) Is their head being pulled down into the choke, or are they posturing up and driving past you? If they're sinking, hold. If they're passing, release. 3) Can you feel their shoulder making contact with your neck? If yes, the Von Flue is already being set up and you must release immediately regardless of how tight your grip feels. The critical insight is that a tight guillotine grip from bottom side control hurts you, not them—the tighter you squeeze, the more you compress your own carotid against your forearm."
@@ -76,7 +76,7 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What is the correct body positioning after releasing a guillotine to defend the Von Flue, and why should you turn toward rather than away from your opponent?",
+      "name": "After releasing the guillotine, how should you position, and why turn toward rather than away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After releasing the guillotine, immediately establish forearm frames against their chest and shoulder, keep your elbows tight to your body, and turn your body toward the opponent rather than away. Turning toward them reduces the angle their shoulder can create against your neck and allows you to use your legs against their hips to push them away or re-establish guard. Turning away is dangerous because it exposes your back for potential back takes and can actually press your neck deeper into their shoulder, worsening the choke. The toward-turn also puts you in the correct position for standard side control escapes including hip escapes and guard recovery sequences."
@@ -84,7 +84,7 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "You feel shoulder pressure on your neck while holding a guillotine from bottom and you realize the Von Flue is partially locked. What is the emergency escape sequence?",
+      "name": "You feel shoulder pressure and the Von Flue is partly locked — what is the emergency escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately."

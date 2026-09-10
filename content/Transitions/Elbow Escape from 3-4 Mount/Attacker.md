@@ -96,7 +96,7 @@ description: "Execute the Elbow Escape from 3-4 Mount with proper hip mechanics,
     },
     {
       "@type": "Question",
-      "name": "Your frames are established but the top player is driving heavy chest pressure forward, preventing your bridge from lifting them. How do you adjust?",
+      "name": "Frames are set but their chest pressure stops your bridge in 3-4 mount: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the double shrimp chain variant, using multiple small hip escapes rather than relying on a full bridge to disrupt base. Each micro-shrimp creates incremental space that you preserve with frame adjustment before the next movement. Against very heavy forward pressure, the bridge angle may need to be more lateral than upward, focusing on rotating the top player's weight rather than lifting it. You can also create the initial disruption by pushing the mounted knee with your elbow frame to redirect their weight before shrimping."
@@ -112,7 +112,7 @@ description: "Execute the Elbow Escape from 3-4 Mount with proper hip mechanics,
     },
     {
       "@type": "Question",
-      "name": "You successfully create space and insert your knee, but the top player immediately begins to extract their leg. What is your response?",
+      "name": "You insert your knee but they start extracting the leg: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately close both legs around the trapped leg, hooking your outside foot behind their knee or calf to establish half guard entanglement before they can extract. Simultaneously continue shrimping to create more distance while turning to face them and fighting for the underhook. If they are already partially extracting, clamp down with both legs tightly on whatever portion of their leg remains between yours and use the lockdown position if necessary to prevent complete extraction."
@@ -120,7 +120,7 @@ description: "Execute the Elbow Escape from 3-4 Mount with proper hip mechanics,
     },
     {
       "@type": "Question",
-      "name": "The top player switches their mounted knee to the opposite side mid-escape, reversing the 3-4 configuration. What do you do?",
+      "name": "They switch their mounted knee to the other side mid-escape: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately reassess weight distribution and redirect your escape toward the new posted leg side. The moment of transition between configurations is actually a high-percentage escape window because the top player's weight is unstable during the switch. Use the brief instability to accelerate your hip escape in the new direction before they can re-settle. Your frames must also switch to address the new mounted knee position, repositioning your near-side elbow against the newly mounted knee."

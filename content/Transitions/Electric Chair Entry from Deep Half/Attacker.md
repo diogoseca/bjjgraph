@@ -88,7 +88,7 @@ description: "Execute the Electric Chair entry from Deep Half Guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What entry requirements must exist before you can begin the Electric Chair transition from deep half?",
+      "name": "Which entry requirements must be in place before the Electric Chair entry from deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four conditions must be met: your deep underhook must be secure with the far leg pulled tight to your chest, your head must be positioned below the opponent's hip line to prevent effective crossface, the opponent's near leg must be accessible between your legs without obstruction, and your hips must be mobile enough to extend once the lockdown is established. Missing any of these conditions means you should address the deficiency before attempting the entry."

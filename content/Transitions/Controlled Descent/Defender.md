@@ -64,7 +64,7 @@ description: "How to counter your opponent's Controlled Descent in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins their Controlled Descent with a strong hip turn to their left - what immediate adjustment should you make?",
+      "name": "They start the Controlled Descent with a hip turn to their left — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle to your right (their left side, matching their hip turn direction) while driving your chest pressure forward and down. By following the same direction as their hip turn, you prevent them from creating the angle needed for clean turtle establishment. Simultaneously deepen your hooks on the turning side to maintain hip control through the rotation, and use your harness grip to pull their shoulders toward you rather than allowing them to post."
@@ -72,7 +72,7 @@ description: "How to counter your opponent's Controlled Descent in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is following the descent preferable to resisting it when your opponent commits to Controlled Descent?",
+      "name": "Why follow your opponent's Controlled Descent instead of resisting it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Resisting a committed descent creates a tug-of-war that wastes your energy and typically fails because gravity assists your opponent's downward motion. By following the descent, you convert your standing control into grounded control without interruption, often achieving deeper hooks and better harness position during the transition chaos. The ground provides you with more stable base for attacking, and your opponent's descent mechanics require their attention, creating windows to improve your control points."
@@ -80,7 +80,7 @@ description: "How to counter your opponent's Controlled Descent in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "What is the optimal weight distribution during your opponent's descent to prevent them from achieving turtle?",
+      "name": "What weight distribution during their descent stops them from reaching turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive approximately 70-80% of your weight forward through your chest into their upper back and shoulders during the descent. This forward pressure vector flattens their landing angle, making it much harder for them to post on their hands and establish turtle. Keep your hips close to theirs and your hooks active to prevent their hip turn from creating separation. The combination of forward chest pressure and active hook control during descent typically results in a flat or near-flat landing rather than clean turtle."
@@ -88,7 +88,7 @@ description: "How to counter your opponent's Controlled Descent in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully reaches turtle after their Controlled Descent - what are your immediate priorities?",
+      "name": "They reach turtle after the Controlled Descent — what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately secure your seatbelt grip tighter and work to insert or deepen hooks before they begin escape sequences. Your first priority is preventing them from creating motion - settle your weight on their upper back and drive chest pressure forward at a 45-degree angle to collapse their turtle structure. Address the underhook battle quickly to prevent them from building frames. You have a 3-5 second window before a skilled opponent begins their turtle escape chain, so consolidation speed is critical."

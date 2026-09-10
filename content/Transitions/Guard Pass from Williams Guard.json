@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips to transition toward omoplata during your extraction attempt—what is your immediate response?",
+        "question": "They rotate their hips toward an omoplata as you extract your arm — what's your response?",
         "answer": "Immediately drive forward and posture up simultaneously to prevent the hip rotation from completing. Use your free hand to push their rotating knee off your shoulder while circling your trapped arm in the direction opposite to their rotation. The omoplata requires full hip rotation and leg positioning over your shoulder—disrupting either element prevents completion. If partially caught, aggressive stacking that drives their hips over their shoulders reduces the omoplata angle below submission threshold and may create a passing opportunity through the stack.",
         "answer_line": "Posture up, push knee off",
         "distractors": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "How does hip angle affect your vulnerability to shoulder lock submission and sweep during extraction?",
+        "question": "In Williams guard, how does your hip angle affect shoulder lock and sweep risk?",
         "answer": "Squared hips facing directly into the bottom player optimize their shoulder lock angle by aligning your shoulder joint with their grip's maximum mechanical advantage, creating both peak submission danger and maximum sweep leverage. Angled hips reduce shoulder lock effectiveness by changing the rotational axis of the joint relative to their grip structure. The angle also limits the bottom player's sweep mechanics by removing the lateral leverage they need for omoplata and technical sweep execution. Continuous angle changes during extraction disrupt their timing and prevent them from settling into any optimized attacking position.",
         "answer_line": "Angle hips off center line",
         "distractors": {
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "If the bottom player successfully re-closes their guard during your pass attempt, creating closed guard, is this outcome acceptable?",
+        "question": "They re-close guard during your Williams guard pass — is closed guard top acceptable?",
         "answer": "Yes—transitioning from Williams Guard Top to Closed Guard Top is a significant positional improvement. In Williams Guard, your arm is trapped with active shoulder lock submission threat, severely limiting your mobility and creating constant danger. In Closed Guard Top, your arms are free, no submission is immediately threatening, and you can work standard guard opening and passing sequences from a much safer position. While the pass to side control was not completed, eliminating the shoulder lock threat and recovering arm freedom represents meaningful positional advancement that should be accepted rather than fought.",
         "answer_line": "Yes, closed guard is safer",
         "distractors": {
@@ -395,7 +395,7 @@
         }
       },
       {
-        "question": "Your opponent defends every ground-based extraction attempt with strong grip retention—what variant should you employ?",
+        "question": "They defend every ground extraction from Williams guard with strong grips — which variant now?",
         "answer": "Transition to the standing extraction variant. Standing fundamentally changes the force angles on the shoulder lock by introducing gravity and posture as extraction tools. The figure-four grip loses significant mechanical advantage when you are standing because the bottom player cannot maintain the same rotational force from their back against a standing opponent. Standing also gives you access to toreando and leg drag passes that are unavailable from kneeling position. The tradeoff is that standing may open the bottom player's transition to open guard retention systems, so the pass must be executed immediately after standing extraction before they can re-establish guard hooks.",
         "answer_line": "Standing extraction variant",
         "distractors": {
@@ -519,7 +519,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the top player is attempting a technical circular extraction rather than a linear pull?",
+        "question": "What cue shows they're extracting the arm with circular rotation, not a linear pull?",
         "answer": "Small circular rotations of the elbow rather than straight backward pulling. The circular motion pattern is distinct—you feel a rotational twisting against your figure-four grip rather than a direct pulling force. Linear pulls are easy to resist by tightening the grip, but circular rotation requires you to adjust hip angle to counter the changing force direction. Recognizing this pattern early allows you to begin counter-adjustments before the extraction builds momentum.",
         "answer_line": "Small circular elbow rotation",
         "distractors": {
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "Why is closing guard (transitioning to closed guard) an acceptable defensive outcome even though it means losing Williams Guard?",
+        "question": "Why is closing guard an acceptable outcome even though you lose Williams guard?",
         "answer": "Closed Guard Top for the passer is a significantly worse outcome than Side Control Top. In closed guard, the passer has no immediate passing pressure, faces sweep and submission threats from your closed guard bottom, and must restart the entire passing sequence from a disadvantaged position. Meanwhile, you retain offensive options from closed guard bottom including all standard sweeps and submissions. The positional hierarchy makes this a net positive trade—you lose the shoulder lock control but deny the pass to side control while maintaining an offensively advantageous guard position.",
         "answer_line": "Yes, denies pass, keeps offense",
         "distractors": {

@@ -74,7 +74,7 @@ description: "Learn to execute the New York Control to Invisible Collar transiti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the shin slide from New York Control to Invisible Collar?",
+      "name": "When is the best timing to start the shin slide from New York Control to Invisible Collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window occurs when the opponent is actively defending a submission threat from New York Control, such as a triangle or gogoplata setup. Their defensive attention is diverted from leg positioning, and their defensive movement often creates the angle needed for the shin to clear the shoulder. Attempting the transition when the opponent is passively defending with good posture provides the worst timing because they can immediately react to the leg repositioning."

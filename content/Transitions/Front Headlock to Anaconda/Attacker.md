@@ -74,7 +74,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct direction to roll when executing the anaconda choke, and why is this direction critical for the technique's success?",
+      "name": "Which direction do you roll for the anaconda from front headlock, and why is it critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective."
@@ -82,7 +82,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Why is trapping the opponent's near arm essential for the anaconda choke, and what happens if this arm remains free during the execution?",
+      "name": "Why must you trap their near arm for the anaconda, and what happens if it stays free?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Trapping the near arm is essential because it serves multiple critical functions: prevents the opponent from posting during the roll (which would stop the technique entirely), creates additional pressure against their own neck (their trapped arm becomes part of the choking mechanism), and eliminates their primary defensive tool. If the arm remains free, the opponent can post as you attempt to roll, preventing completion of the technique and often allowing them to establish top position or escape the front headlock entirely. The trapped arm is what makes it an 'anaconda' rather than just a rolling choke."
@@ -90,7 +90,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Describe the optimal figure-four grip configuration for the anaconda and explain how grip depth affects choking effectiveness?",
+      "name": "For the anaconda figure-four, how deep should you thread, and how does depth affect the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal figure-four involves threading the choking arm deeply across the neck (elbow passing the far shoulder), then reaching the non-choking arm underneath their body to grip your own wrist, bicep, or establish palm-to-palm Gable grip. Grip depth is critical—shallow threading creates a weak angle that opponent can defend by tucking chin or turning. Deep threading positions the choking forearm directly across the carotid artery and creates maximum leverage when squeezing elbows together. The figure-four should feel tight and enclosed before initiating the roll, with no gaps or loose connections."
@@ -98,7 +98,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the key biomechanical principles that make the anaconda choke effective, and how does the rolling motion enhance these principles?",
+      "name": "What makes the anaconda work mechanically, and how does the roll enhance those principles?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed."
@@ -106,7 +106,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How would you recognize the optimal moment to transition from front headlock to anaconda versus choosing an alternative attack like Darce or back take?",
+      "name": "When do you pick the anaconda from front headlock over a Darce or back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal anaconda opportunity is recognized when: (1) Opponent's posture is broken forward and down, (2) Their near arm is positioned away from their body or can be easily scooped, (3) You have clear space to thread arm deeply without obstruction, (4) Opponent is relatively static in turtle or posted position rather than actively moving. Choose Darce instead when opponent's near arm is tight to their body but their far arm is exposed. Choose back take when opponent is mobile and turning, or when their hips are elevated. The decision comes from reading their defensive structure—anaconda works best against a compact turtle with accessible near arm, while other attacks are better for different defensive configurations. Advanced practitioners develop an instinctive feel for which attack matches the opponent's current vulnerability."
@@ -114,7 +114,7 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What safety considerations must be observed when practicing the anaconda choke, and what are the immediate steps if your partner shows signs of distress?",
+      "name": "What safety rules apply to the anaconda, and what do you do if your partner is in distress?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies."

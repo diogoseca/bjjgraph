@@ -64,7 +64,7 @@ description: "How to defend against the Sickle Sweep from De La Riva Guard in BJ
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the collar grip more important than addressing the De La Riva hook when defending the Sickle Sweep?",
+      "name": "When defending the Sickle Sweep, why strip the collar grip before the De La Riva hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar grip serves as the multiplying factor that makes the sweep finish. Without it, even a perfect sickle motion can be defended by posting your hands on the mat. The collar grip prevents posting, adds directional pull force to the sweep, and controls your posture. Stripping the hook alone still leaves you vulnerable to being swept if the collar grip pull breaks your posture forward, whereas stripping the collar grip gives you immediate posting ability regardless of the hook's position."
@@ -72,7 +72,7 @@ description: "How to defend against the Sickle Sweep from De La Riva Guard in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already loaded the sickle motion and you feel yourself beginning to fall - what is your emergency response?",
+      "name": "The sickle is loaded and you're falling — what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your hand firmly on the mat on the side you are being swept toward and lower your center of gravity as much as possible. Accept that the sweep may partially succeed but focus on preventing the complete topple that gives them mount. From the posted hand position, immediately look to transition your defense into an offensive scramble - you can pull guard, shoot for a single leg from the kneeling position, or use the post to backstep and establish side control before they complete the transition to top."
@@ -88,7 +88,7 @@ description: "How to defend against the Sickle Sweep from De La Riva Guard in BJ
     },
     {
       "@type": "Question",
-      "name": "What base configuration provides the strongest defense against the diagonal sweeping angle of the Sickle Sweep?",
+      "name": "Which base setup best resists the diagonal sweeping angle of the Sickle Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A wide, staggered stance with your far leg positioned back and laterally to the side provides maximum resistance to the diagonal sweep. This creates a triangular base where the widest dimension is aligned against the sweep's primary force vector. Your hooked leg should have a slight bend with your weight distributed toward your far leg rather than centered or forward. This configuration forces the guard player to overcome a much wider base structure and gives you more time to recognize and react to the sweep attempt."

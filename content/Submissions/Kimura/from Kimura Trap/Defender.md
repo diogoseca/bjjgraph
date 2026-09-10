@@ -52,7 +52,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate a Kimura finish is being initiated from Kimura Trap?",
+      "name": "What are the earliest cues that a Kimura finish is starting from the Kimura Trap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the bottom player hip-escaping onto their near side, their near elbow posting so their chest turns toward you, the lockdown or half guard tightening on your leg, and their grip beginning to rotate your wrist down behind your back. Recognising these early gives you a critical window where clasping your hands and driving forward to flatten them are still viable."
@@ -76,7 +76,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your hands are clasped but the attacker is systematically peeling your grip apart—what is your next defensive option?",
+      "name": "Your clasped grip is being peeled apart: what is your next defensive option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before your grip is fully broken, transition to your next defensive layer. Bridge explosively toward the Kimura side to disrupt the attacker's angle while simultaneously attempting to straighten your trapped arm to slip through the figure-four. If the arm straightens, immediately pull it to your chest and begin guard recovery through knee shield insertion. If the bridge fails to create separation, tuck the elbow tight to your ribs and use body rotation to face the attacker."
@@ -92,7 +92,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why should you roll toward the attacker rather than away when the Kimura figure-four is locked from north-south?",
+      "name": "Why roll toward the attacker rather than away when their north-south figure-four is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling toward the attacker (into the Kimura) follows the direction of rotational force, which reduces the angle of stress on your shoulder joint. Rolling away from the attacker moves your body in the same direction they are applying rotational pressure, which compounds the torque and accelerates the submission. By rolling into them, you effectively take away their leverage angle and may force them to release the grip to maintain position. Additionally, rolling toward the attacker can expose their back, creating a reversal opportunity. This is counterintuitive for many practitioners who instinctively try to move away from danger, but the biomechanics of the Kimura make rolling toward the attacker the safer and more effective defensive option."

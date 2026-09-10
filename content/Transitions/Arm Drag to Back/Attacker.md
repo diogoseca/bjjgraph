@@ -114,7 +114,7 @@ description: "How to execute Arm Drag to Back in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that differentiates a successful diagonal drag from a failed straight-back pull?",
+      "name": "What makes a diagonal arm drag work where a straight-back pull fails?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diagonal drag pulls the opponent's arm toward your opposite hip, crossing their centerline and turning their shoulders. This shoulder rotation is the critical mechanical detail because it eliminates their ability to post on the dragged side and structurally prevents them from facing you. A straight-back pull does not cross the centerline and becomes a pure strength contest where the opponent can resist by simply pulling back. The diagonal vector uses their own skeletal alignment against them, making the technique effective regardless of size difference."

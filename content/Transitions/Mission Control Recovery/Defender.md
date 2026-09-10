@@ -72,7 +72,7 @@ description: "How to defend against Mission Control Recovery in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent's shin slides off your throat and they begin reaching for their own shin to lock Mission Control - what is your highest-percentage response?",
+      "name": "Your throat is clear and they reach for their own shin: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips back while turning your trapped shoulder inward to strip the overhook in one motion. The bottom player's attention is divided between securing the leg and maintaining the overhook, creating a brief moment where the overhook is weakest. Combining posture recovery with overhook stripping exploits both vulnerabilities simultaneously during the transition."
@@ -80,7 +80,7 @@ description: "How to defend against Mission Control Recovery in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What distinguishes an effective forward pressure defense from one that gets redirected into omoplata?",
+      "name": "What makes your forward pressure defense work instead of feeding their omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Effective forward pressure is preceded by controlling or pinning the overhook arm against the bottom player's body, removing their ability to redirect your momentum. Ineffective forward pressure ignores the overhook, allowing the bottom player to angle their hips and use your own driving force to rotate you into omoplata. The overhook arm must be addressed before committing weight forward."

@@ -84,7 +84,7 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What are the three primary injury risks from improperly applied calf slicers and why is progressive application critical?",
+      "name": "What are the three main calf slicer injury risks, and why is progressive application critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary risks are calf muscle tear, posterior knee ligament (PCL) damage, and compartment syndrome from extreme compression. Specifically: (1) tear or rupture of the gastrocnemius/soleus from excessive compression force, (2) posterior knee ligament damage, particularly to the PCL, from hyperflexion under load, and (3) compartment syndrome from extreme muscle compression causing swelling within the fascial compartment. Progressive application over 5-7 seconds is critical because muscle and nerve tissue need time to signal distress to the brain; sudden, explosive application can cause tissue damage before pain signals register, meaning the opponent taps after injury has already occurred rather than before. Slow application allows the pain response to build proportionally with the mechanical stress, ensuring the tap occurs before the tissue failure threshold is reached."
@@ -92,7 +92,7 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How does the truck position's hip twist contribute to the effectiveness of the calf slicer submission?",
+      "name": "How does the truck position's hip twist make the calf slicer effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The truck's hip twist stops the opponent extending their hips or rotating the knee outward, locking the leg at the ideal compression angle. With their hips twisted, back facing you, and legs trapped, they cannot generate the hip extension power needed to straighten the leg and relieve the compression, and they cannot rotate the knee outward — a primary defensive mechanism against calf compression. The twisted position also breaks their base: they can't post hands effectively to create space or generate escape momentum. The position locks the leg in the optimal angle for compression while removing their ability to use strength or flexibility to defend, which is why establishing full truck control before attempting the submission is non-negotiable."
@@ -100,7 +100,7 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Why should you transition rather than increase pressure if a properly applied calf slicer doesn't produce a tap within 7-8 seconds?",
+      "name": "Why transition instead of adding pressure if a correct calf slicer gets no tap in 7-8 seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If a correct calf slicer gets no tap within 7-8 seconds, adding pressure only raises injury risk, so transition to another attack instead. No tap by then indicates one of three situations: (1) the opponent has exceptional pain tolerance and will not tap until injury occurs, (2) their anatomical structure or conditioning makes them resistant to this compression angle, or (3) subtle positional details are preventing full compression despite feeling correct. In all three cases, increasing pressure raises injury risk without increasing submission probability. Transitioning to alternative attacks (Twister, Banana Split, back control) maintains offensive momentum while respecting safety boundaries. This matters especially with compression submissions because tissue damage can occur even when pain signals are suppressed by adrenaline or pain tolerance — the 7-8 second rule ensures you're using technique and position rather than forcing injury."
@@ -116,7 +116,7 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How do you transition from a defended calf slicer to the Twister, and why is this combination particularly effective?",
+      "name": "How do you go from a defended calf slicer to the Twister, and why is that combination effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they straighten the leg to defend, release the calf compression and rotate your hips higher up their back into Twister control. As the leg straightens, slide your bottom hook higher toward their hip and rotate your chest toward their head, then reach over and control their far-side head/neck with a deep grip, pulling it toward you while your top leg maintains hip control — classic Twister control position. The combination is particularly effective because: (1) their leg-straightening defense actually helps you advance position by removing the leg obstacle between you and their head, (2) they spend energy and focus defending the lower body, leaving the upper body vulnerable, (3) the transition happens in their defensive moment, when they feel they're escaping and aren't mentally prepared for a new attack, and (4) both submissions emerge from truck position, creating a legitimate dilemma where defending one opens the other."

@@ -96,7 +96,7 @@ description: "How to execute Standing Guard Pass with Distance Creation in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Why must both hands be committed to the lapel extraction rather than keeping one hand on sleeve control?",
+      "name": "Passing Ringworm Guard, why commit both hands to the lapel extraction instead of keeping a sleeve?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly secured Ringworm Guard lapel wrap generates significant friction and mechanical advantage that one hand alone cannot overcome. The two-handed approach uses one hand to control the lapel tail near the opponent's grip, preventing re-securing, while the second hand provides the peeling force underneath the wrap. Single-handed attempts typically result in incomplete extraction where the opponent can immediately re-tighten the configuration."
@@ -112,7 +112,7 @@ description: "How to execute Standing Guard Pass with Distance Creation in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "You have cleared the lapel but your opponent immediately shoots their feet to your hips - what should you do?",
+      "name": "You clear the Ringworm lapel and they shoot both feet to your hips. What should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip both pant legs at the knees and push them down and to one side for a toreando pass. Feet-on-hips guard is significantly weaker than Ringworm Guard, so this is a net positive exchange. Do not allow them time to establish collar or sleeve grips that would create a more structured open guard. The window between lapel clearance and new grip establishment is the highest-percentage moment for the pass."

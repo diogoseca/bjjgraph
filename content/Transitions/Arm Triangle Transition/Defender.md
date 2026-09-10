@@ -64,7 +64,7 @@ description: "How to defend against Arm Triangle Transition in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your arm has been trapped against your neck and the attacker is reconfiguring to arm triangle grip—what is your defensive priority?",
+      "name": "They trapped your arm and are locking the arm triangle from bottom; what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority shifts entirely to preventing the sweep. The arm triangle cannot generate sufficient finishing pressure from bottom position—the attacker absolutely must reach side control to complete the choke. Base wide with your free hand posted on the mat, sprawl your hips back to kill the butterfly hook angle, and drive your weight forward through your chest. Even with the arm triangle grip locked, you are safe as long as you maintain top position. Focus all energy on base and balance rather than arm extraction."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Triangle Transition in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "The attacker has the arm triangle locked and begins loading butterfly hooks for the sweep—describe your base defense in detail?",
+      "name": "They have the arm triangle locked and load butterfly hooks; how do you base to stop the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your knees to at least shoulder-width apart and post your free hand on the mat at a 45-degree angle on the side the attacker will attempt to sweep you toward. Sprawl your hips back and down to flatten your center of gravity and remove the elevation angle the butterfly hooks need. Drive your weight forward through your chest into the attacker's grip to make yourself heavy on their hooks. If they attempt to elevate on one side, shift your weight toward that side and drive your posted hand deeper into the mat. The combination of wide base, low hips, and posted hand creates a tripod structure that resists the butterfly sweep from any angle."

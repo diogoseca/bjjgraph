@@ -142,7 +142,7 @@
         }
       },
       {
-        "question": "Your opponent begins turning away while you have the buggy choke trap established - what is your option?",
+        "question": "Your opponent turns away while you have the buggy choke trap set — what is your option?",
         "answer": "Use their rotation to follow to back control. As they turn to relieve the choking pressure, hook the near leg and ride the turn, converting the choke attempt into a back take. Maintaining the arm trap as you follow keeps the threat alive even as the position changes.",
         "answer_line": "Follow rotation to back control",
         "distractors": {
@@ -170,7 +170,7 @@
         }
       },
       {
-        "question": "Your opponent extends their far arm to base and prevent the finish - what opportunity does this create?",
+        "question": "Your opponent extends their far arm to base against your buggy choke — what does this open?",
         "answer": "The extended arm creates a direct pathway to the crucifix position. Trap the extended arm with your legs while maintaining upper-body control. The crucifix offers superior control and multiple submission options compared to forcing the choke against an actively defending opponent.",
         "answer_line": "Trap it, transition to crucifix",
         "distractors": {
@@ -589,7 +589,7 @@
         }
       },
       {
-        "question": "Your opponent begins trapping your near arm across their neck - what is your immediate defensive priority?",
+        "question": "Defending the buggy choke, they trap your near arm across their neck — what is your first priority?",
         "answer": "Rip the trapped near arm straight back toward your hip to extract it before they can swing a leg over your shoulder. Simultaneously drive your head and shoulders up to maintain posture and create distance. Arm extraction during this early window is the highest-percentage defense before the figure locks.",
         "answer_line": "Rip arm back, posture up",
         "distractors": {
@@ -961,7 +961,7 @@
       }
     },
     {
-      "question": "Why is the timing window between trapping the arm and connecting the legs so decisive for both players?",
+      "question": "Why is the window between the arm trap and the legs connecting decisive in the buggy choke?",
       "answer": "Until the legs connect over the shoulder, the trapped arm can still be ripped free and the whole structure collapses back toward neutral. Once the figure locks, the arm is sealed against the neck and extraction percentages drop sharply for the compressed player. This one-to-two-second window is simultaneously the last escape opportunity and the moment the position becomes a genuine finishing structure. The entire character of the position hinges on whether the figure closes before the arm retracts.",
       "answer_line": "Legs lock before arm retracts",
       "distractors": {

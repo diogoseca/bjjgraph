@@ -288,7 +288,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the minimum time you should take when applying finishing pressure in the banana split during training?",
+        "question": "What is the minimum time to take applying banana split pressure in training?",
         "answer": "A minimum of 5-7 seconds with slow, progressive pressure application. The banana split targets muscle groups that can tear rapidly if pressure is applied too quickly. Unlike joint locks where you feel structural limits, compression submissions like the banana split create intense muscular pain that requires gradual application to allow safe tapping. Never spike or jerk the pressure.",
         "safety_critical": true,
         "answer_line": "5-7 seconds of gradual pressure",
@@ -318,7 +318,7 @@
         "answer_line": "Hip adductors and groin muscles"
       },
       {
-        "question": "Why is staying connected to the opponent's hips essential for successful banana split execution from the truck?",
+        "question": "Why must you stay glued to their hips for the banana split from the truck?",
         "answer": "Staying glued to the opponent's hips and lower back prevents them from rolling, granbying, or squaring out of the truck to escape the position. Without that hip connection, they can simply turn out, negate your leg splitting mechanics, and recover guard. The hip control keeps your platform stable so the twister hook and far-leg pull can work in opposition to create the splitting force that produces the submission.",
         "safety_critical": false,
         "answer_line": "Prevents opponent rolling out",
@@ -393,7 +393,7 @@
         }
       },
       {
-        "question": "Your opponent begins walking their hips toward you to reduce the splitting angle - what adjustment maintains finishing pressure?",
+        "question": "They walk their hips toward you to close the split angle — how do you keep finishing pressure?",
         "answer": "Scoot your hips away while extending your twister-hook leg to maintain the spread as they walk their hips toward you. Pull their far leg more aggressively toward you while staying tight to their hips to prevent them from squaring up further. If they successfully close the angle significantly, transition to the calf slicer or back take before the position deteriorates rather than fighting a losing positional battle.",
         "safety_critical": false,
         "distractors": {
@@ -408,7 +408,7 @@
         "answer_line": "Scoot away, pull far leg in"
       },
       {
-        "question": "What physical indicators suggest you are approaching the submission breaking point and must slow down?",
+        "question": "Which physical signs show your banana split is nearing the break and you must slow down?",
         "answer": "Facial straining, grunting, involuntary inner-thigh twitching, and sudden relaxation after strong resistance signal the breaking point. Sharp breathing changes and the opponent twisting or contorting their body to relieve pressure are further warnings. Recognize these signs and pause or slow pressure application to give adequate time for tapping before the breaking point is reached. These signals demand immediate attention.",
         "safety_critical": true,
         "distractors": {
@@ -423,7 +423,7 @@
         "answer_line": "Straining, twitching, sudden calm"
       },
       {
-        "question": "How should you adjust your grip if the opponent's far leg becomes sweaty or slippery during execution?",
+        "question": "How do you adjust your grip if their far leg gets slippery during the banana split?",
         "answer": "Switch from the ankle to deeper grips behind the knee or lower thigh, or hook their far leg with your own leg. These control points offer more surface area and friction, and a leg hook creates a mechanical lock that does not depend on friction at all. The key is having redundant control mechanisms so losing one grip does not result in losing the position entirely.",
         "safety_critical": false,
         "distractors": {
@@ -438,7 +438,7 @@
         "answer_line": "Grip deeper or hook the leg"
       },
       {
-        "question": "What distinguishes the banana split's pressure mechanism from traditional joint locks like the armbar?",
+        "question": "How does the banana split's pressure mechanism differ from a joint lock like the armbar?",
         "answer": "The banana split attacks muscular flexibility and compression rather than joint articulation. Traditional joint locks like the armbar hyperextend a joint past its natural range of motion, attacking ligaments and the joint capsule with a clear structural limit that both attacker and defender can feel approaching. The banana split overstretches muscle groups (adductors, groin, hip flexors) that have no clear structural limit - they simply tear when exceeded. This makes the banana split more dangerous because there is no obvious stopping point before injury occurs, requiring the attacker to rely on progressive application and partner communication.",
         "safety_critical": true,
         "answer_line": "Muscle stretch, no clear limit",
@@ -453,7 +453,7 @@
         }
       },
       {
-        "question": "In competition, what strategic advantage does threatening the banana split create even if you do not finish?",
+        "question": "In competition, what does threatening the banana split from the truck open up even unfinished?",
         "answer": "Threatening the banana split forces the opponent into a defensive dilemma that opens other truck attacks. When they fight to free the trapped leg, they expose the back take and the twister. When they roll or square to escape the truck, they feed the calf slicer or surrender position. The banana split threat also causes psychological pressure that can lead to panic-based mistakes and energy expenditure. Using it as a positional threat rather than always hunting the finish creates a more complete attacking system from the truck.",
         "safety_critical": false,
         "answer_line": "Opens back take and twister",
@@ -580,7 +580,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive priority when you recognize the banana split being set up?",
+        "question": "What is your top defensive priority when you recognize a banana split setup?",
         "answer": "Deny far leg isolation. The banana split requires opposing forces on both legs to function. If the attacker cannot control your far leg, they cannot create the split regardless of how deep their twister hook is on your near leg. Post your far leg wide and heavy immediately when you recognize the threat, making it impossible for them to grip or hook your far ankle or knee.",
         "safety_critical": false,
         "answer_line": "Deny far leg isolation",
@@ -595,7 +595,7 @@
         }
       },
       {
-        "question": "Why is it critical to tap early when caught in a banana split rather than fighting through the pressure?",
+        "question": "Why must you tap early in a banana split instead of fighting the pressure?",
         "answer": "The banana split targets muscle groups (hip adductors and groin) that have no clear structural stopping point before tissue damage occurs. Unlike a joint lock where you can feel the ligament reaching its limit and have a brief window to tap, the adductors simply tear when overstretched with no warning sensation. The transition from severe discomfort to actual muscle tear can happen in less than a second, making early tapping essential for long-term training health.",
         "safety_critical": true,
         "answer_line": "Muscles tear with no warning",
@@ -610,7 +610,7 @@
         }
       },
       {
-        "question": "Your opponent has established the split from the truck and you feel increasing groin pressure - should you attempt the forward roll escape?",
+        "question": "The split is on and groin pressure is rising — should you try the forward roll escape?",
         "answer": "Only attempt the forward roll if you have enough mobility remaining in your legs to execute it without rolling directly against the splitting force. If the split is deeply loaded, the rolling motion can actually increase tearing force on the groin momentarily during the escape. If groin pressure is already significant, the safest option is to tap immediately and reset rather than risk a muscle tear attempting a late escape. Save the forward roll for situations where the split is partially loaded but not yet at dangerous pressure levels.",
         "safety_critical": true,
         "answer_line": "Only if your legs still move",
@@ -640,7 +640,7 @@
         }
       },
       {
-        "question": "What is the correct sequence for escaping the banana split when the twister hook is the primary control?",
+        "question": "What is the correct escape order for the banana split when the twister hook is the main control?",
         "answer": "First, address the twister hook by prying their hooking foot off your shin using your free hand or knee pressure. Second, once the hook loosens, pull your knee toward your chest to extract the near leg. Third, immediately post your freed leg wide to prevent re-engagement and square your hips back into the attacker. Fourth, clear any remaining far leg grips by posting that leg wide and heavy. The twister hook is the foundation of the entire attack and must be stripped first for any escape to succeed.",
         "safety_critical": false,
         "answer_line": "Strip hook, then extract leg",

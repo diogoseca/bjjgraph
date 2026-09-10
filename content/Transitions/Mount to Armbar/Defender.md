@@ -88,7 +88,7 @@ description: "How to defend against Mount to Armbar in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your arm is isolated and the attacker is mid-pivot - what is the optimal sequence of defensive actions?",
+      "name": "Your arm is isolated and the attacker is mid-pivot for the armbar: what sequence do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, bend your trapped elbow aggressively and rotate your forearm so your thumb points toward the ceiling, creating the strongest anatomical position against extension. Second, use your free hand to grip the attacker's leg that is about to cross your face and push it toward their body. Third, bridge your hips upward and toward the attacker's head while simultaneously turning your body toward the trapped arm side. This three-action combination addresses the arm extension, leg control, and positional angle simultaneously."

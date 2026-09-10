@@ -108,7 +108,7 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the opponent clasps their hands together to defend the finish?",
+      "name": "Spider guard omoplata: they clasp their hands to defend — what grip adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, wedge your free hand between their clasped hands and apply a prying grip break by pushing one wrist while pulling the other. If this fails, attack the top hand with a wrist lock by bending it toward the pinky side while maintaining omoplata hip pressure. Alternatively, maintain the omoplata pressure while transitioning to sweep them forward by shifting your weight and using the trapped arm as a lever, which often breaks the grip as they need their hands to post during the sweep."
@@ -116,7 +116,7 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements that must be established before applying finishing pressure?",
+      "name": "Which controls must be set before applying finishing pressure to the spider guard omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three control elements must be established: First, your legs must be tightly squeezing around the trapped upper arm with knees compressed together. Second, your hips must be positioned close to the opponent's trapped shoulder for maximum rotational leverage. Third, you must have control over the opponent's far hip to prevent the forward roll escape. Without all three elements, the finish either lacks sufficient force to achieve the tap or allows an escape route."

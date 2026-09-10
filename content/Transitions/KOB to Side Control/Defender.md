@@ -72,7 +72,7 @@ description: "Master defending the KOB to Side Control transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "Why is inserting a knee shield more effective than pushing with extended arms during this transition?",
+      "name": "Defending the knee-on-belly to side control switch, why is a knee shield better than extended arms?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A knee shield uses your strongest body structure — the skeletal frame of your leg — to create a structural barrier that the opponent cannot simply pressure through. Extended arms are weaker, expose you to kimura and americana attacks, and create only vertical force against a horizontal settling motion. The knee shield simultaneously creates distance, blocks chest contact, and provides a foundation for further guard recovery. It addresses the mechanical problem of the transition directly."
@@ -88,7 +88,7 @@ description: "Master defending the KOB to Side Control transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "How does defending the KOB to side control transition differ from escaping an established side control?",
+      "name": "How does defending the knee-on-belly to side control switch differ from escaping side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defending during the transition exploits a temporary vulnerability window where the opponent's pressure is in flux and not yet consolidated. The total pinning force is lower during the transition than in established side control, making frame insertion and hip escapes more achievable. In established side control, the opponent has settled their full weight, secured crossface control, and blocked your hips — requiring more energy and more complex escape sequences. The transition defense is proactive and opportunistic, while side control escape is reactive and grinding."

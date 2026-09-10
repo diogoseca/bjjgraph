@@ -114,7 +114,7 @@ description: "How to execute Single Leg to Back Take in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Where should your hips be positioned relative to the opponent's hips once you have secured back control?",
+      "name": "After the back take off the single leg, where should your hips be relative to theirs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should be low and close to the opponent's hips, not elevated high on their upper back. This low hip position makes it difficult for them to sit back on you or roll backwards. Your weight should be distributed along their entire spine with your hips slightly behind theirs, creating a stable base that resists their defensive movements in any direction."

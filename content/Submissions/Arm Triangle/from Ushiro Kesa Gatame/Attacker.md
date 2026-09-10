@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their far arm pinned tightly against their own body while you hold Ushiro Kesa Gatame — how do you create the arm triangle opportunity?",
+      "name": "In Ushiro Kesa Gatame their far arm stays pinned to their body—how do you open the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the tucked arm with Americana or Kimura threats to force the opponent to extend or reposition it. When they react to defend the shoulder lock by straightening or moving the arm, that movement creates the opening to clamp the arm under your armpit and drive it across their neck. The key is using the submission cycle — threatening one attack to create the opening for another — rather than trying to force the arm across through strength alone."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "The opponent bridges explosively during your grip transition from Ushiro Kesa Gatame pin to arm triangle — what is your immediate response?",
+      "name": "They bridge hard as you switch from the Ushiro Kesa Gatame pin to the arm triangle—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your far-side hand on the mat and widen your base to absorb the bridge force. Keep your chest heavy on their trapped arm to prevent arm extraction during the bridge. Do not abandon the submission attempt unless you are being swept. Once the bridge subsides and the opponent's hips return to the mat, immediately continue threading your arm behind their neck and lock the grip. The bridge window is temporary — if you maintain position through it, the opponent has wasted energy while you retain the setup."
@@ -108,7 +108,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "What body angle creates maximum finishing pressure once the arm triangle is locked from Ushiro Kesa Gatame?",
+      "name": "What body angle gives maximum finishing pressure on the arm triangle from Ushiro Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own near-side carotid while your forearm blade compresses the far-side carotid from behind the neck. Any deviation from perpendicular reduces the shoulder-on-carotid compression."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "You have the arm triangle locked and are squeezing but the opponent is not tapping — what is likely wrong with your finishing mechanics?",
+      "name": "The arm triangle is locked but they won't tap—what is likely wrong with your finishing mechanics?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common issue is insufficient walking to the perpendicular angle, meaning your body is still partially in the Ushiro Kesa Gatame configuration rather than fully perpendicular. The second possibility is that your head is too high, creating a gap on the far side that allows the opponent to relieve pressure by turning their head. The third cause is squeezing with arms instead of using chest expansion and hip pressure. Check your angle first, drop your head to the mat, then focus on expanding your chest rather than clenching your arms harder."

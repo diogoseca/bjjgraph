@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "Why does committing your weight forward during twister setups create vulnerability to the Roll to Guard?",
+        "question": "Why does forward weight commitment in twister setups expose you to the roll to guard from truck?",
         "answer": "Forward weight commitment is the primary timing window the bottom player reads to initiate the roll. When your weight shifts forward, you cannot sprawl back to prevent rotation, and your momentum actually assists their forward rolling motion. The bottom player uses your attacking pressure as the catalyst for their escape, converting your offensive energy into their escape momentum.",
         "answer_line": "Can't sprawl back, adds momentum",
         "distractors": {

@@ -74,7 +74,7 @@ description: "Execute the collar sleeve to De La Riva guard transition. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals you should transition from collar sleeve guard to De La Riva guard?",
+      "name": "What triggers the switch from collar sleeve guard to De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent standing up or committing weight to their lead leg from your collar sleeve guard. When the opponent stands, the collar pull loses effectiveness because the distance increases and their posture straightens. De La Riva guard exploits standing posture through the hook's leverage on the knee and hip, making it the superior guard choice against upright opponents. Without this standing trigger, staying in collar sleeve guard is usually more effective."
@@ -98,7 +98,7 @@ description: "Execute the collar sleeve to De La Riva guard transition. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the correct grip conversion sequence and why should you never release both grips simultaneously?",
+      "name": "In the collar sleeve to DLR switch, what's the grip order, and why never drop both grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Convert the sleeve grip to ankle control first while maintaining the collar grip throughout. Only after the ankle grip is secured and the hook is set with tension should you evaluate whether to maintain or convert the collar grip. Releasing both grips simultaneously creates a control vacuum where the opponent has complete freedom to pass, smash, or disengage. Even a half-second gap with no grips allows an experienced passer to initiate a sequence that is extremely difficult to recover from."

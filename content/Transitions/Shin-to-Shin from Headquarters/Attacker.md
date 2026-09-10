@@ -114,7 +114,7 @@ description: "Master the Shin-to-Shin entry from Headquarters bottom. Learn timi
     },
     {
       "@type": "Question",
-      "name": "Your opponent backsteps their posting leg away when they feel your shin approaching — what does this create?",
+      "name": "From bottom headquarters, they backstep the posting leg away from your shin — what does that create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep actually creates significant opportunity despite denying the shin-to-shin connection. When they remove the posting leg, they compromise their triangulated headquarters base and create space on that side. This space allows you to recover guard positioning — either establishing a De La Riva hook on their remaining lead leg, sitting up into seated guard, or using the momentary space to hip escape and recover full open guard. Their avoidance of shin-to-shin essentially resets the position, which benefits the bottom player who was in a disadvantageous headquarters situation."

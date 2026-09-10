@@ -70,7 +70,7 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply pressure during Crotch Ripper submission in training?",
+      "name": "In training, what is the minimum time to apply pressure for the Crotch Ripper?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "4-6 seconds minimum of progressive pressure application. This allows your training partner sufficient time to recognize the submission, feel the pressure building, and tap safely before any muscular damage occurs. Unlike joint locks which have mechanical stop points, compression submissions can cause muscle tears if applied too quickly, making controlled application essential for training safety."
@@ -78,7 +78,7 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Crotch Ripper specifically target, and why is this different from joint locks?",
+      "name": "What does the Crotch Ripper target, and why does that differ from a joint lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Crotch Ripper targets the hip flexor muscles (particularly the iliopsoas), the adductor muscle group (adductor longus, brevis, and magnus), and the soft tissue where the inner thigh meets the hip. Unlike joint locks that attack ligaments and joint capsules at specific mechanical limits, the Crotch Ripper creates muscular compression without a clear mechanical endpoint. This means the submission relies on pain compliance from muscle tissue being compressed, which can be damaged without obvious warning signs beyond increasing pain."
@@ -86,7 +86,7 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and drive forward while you have the Crotch Ripper partially locked - what adjustment prevents escape?",
+      "name": "They posture up and drive forward with the Crotch Ripper partly locked—what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent drives forward attempting to flatten you, immediately strengthen your underhook grip and use the lockdown to extend their trapped leg backward, off-balancing them in the opposite direction of their drive. This creates a counter-force that disrupts their forward momentum. If they successfully flatten you despite this adjustment, the position becomes compromised and you should transition to Electric Chair sweep rather than forcing the Crotch Ripper from a flattened angle."
@@ -102,7 +102,7 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What are the key control requirements that must be established before attempting the Crotch Ripper finish?",
+      "name": "What controls must be established before finishing the Crotch Ripper from lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three controls must be established before finishing: first, a secure lockdown figure-four with your legs that prevents opponent from extracting their trapped leg; second, a deep underhook on the same side that allows you to turn onto your side and creates the necessary angle; third, your body must be rotated 45-90 degrees onto your side rather than flat on your back. Without all three controls established, the compression mechanics cannot generate sufficient pressure for the submission."

@@ -56,7 +56,7 @@ description: "Defend and counter the Backstep from Leg Knot in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a backstep rather than continuing to attack leg locks?",
+      "name": "In leg knot, what is the earliest cue they're backstepping rather than still attacking your legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in grip strategy from leg control to upper body control. When the opponent releases heel grips or ankle control and reaches for your collar, far hip, or establishes a crossface, they are transitioning from submission hunting to passing. Additionally, you will feel their hips begin to rotate away from the entangled side, changing the pressure vector on your trapped legs."
@@ -64,7 +64,7 @@ description: "Defend and counter the Backstep from Leg Knot in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has extracted one leg and is mid-backstep - is it better to fight for re-entanglement or insert your knee for half guard?",
+      "name": "They've freed one leg mid-backstep from leg knot: re-entangle or insert your knee for half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, inserting your knee for half guard is the higher-percentage option. Once the leg has cleared your hooks, re-entanglement requires catching a moving target while the opponent has forward momentum. The knee insertion works with their forward motion rather than against it, and half guard provides a stable defensive position with known escape and sweep sequences. Fighting for re-entanglement at this stage typically results in a failed attempt that delays your guard recovery."

@@ -56,7 +56,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is initiating the Cross Ashi to 50-50 transition?",
+      "name": "Defending in cross ashi, what is the earliest cue the attacker is switching to 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a sudden reduction in pressure from the attacker's outside leg crossing over your trapped shin. Before any visible movement occurs, you will feel the outside cross lighten as the attacker begins lifting or sliding their leg off your shin to initiate the uncrossing. This pressure change precedes the hip scoot and mirror threading by one to two seconds, providing the maximum reaction window for your defensive response."
@@ -64,7 +64,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's outside cross release from your shin but their heel grip remains strong - what is your optimal defensive sequence?",
+      "name": "Their outside cross releases but the heel grip stays strong. Optimal defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your knee toward your opposite hip while attacking the heel grip with two-on-one hand fighting. The knee retraction must begin simultaneously with the grip attack because the window is only one to three seconds. Target the attacker's thumb-side grip first as it is structurally weaker. If the heel grip does not break within two seconds, shift to framing on the attacker's hips to prevent the 50-50 completion rather than continuing to fight a strong grip while the window closes."
@@ -72,7 +72,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
     },
     {
       "@type": "Question",
-      "name": "The attacker successfully completes the transition to 50-50 with top position - what is your immediate defensive priority?",
+      "name": "The attacker completes 50-50 with top position. What is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is fighting for inside position with your legs while simultaneously protecting your heel from submission attacks. Rotate your knee inward to hide the heel and use your hands to prevent the attacker from securing a finishing grip. Fight to match their inside leg control by pressing your shin inside their leg structure. If you achieve inside position parity within the first five seconds, the 50-50 becomes neutral rather than advantageous for the attacker."
@@ -80,7 +80,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the attacker transitioning to 50-50 versus transitioning to saddle, and why does this distinction matter?",
+      "name": "How do you tell a 50-50 entry from a saddle entry, and why does the distinction matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinction is the direction of the attacker's hip movement and leg threading. For 50-50, the attacker scoots laterally and threads their leg to the mirror side, creating a symmetric entanglement. For saddle, the attacker crosses deeper and triangles their legs on the same side, creating a tighter control structure. This matters because saddle transition requires a different defensive response, specifically preventing the deep cross rather than the mirror threading. If you mistake a saddle entry for a 50-50 transition, your defensive timing will be wrong."
@@ -88,7 +88,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
     },
     {
       "@type": "Question",
-      "name": "Your bridge during the transition displaces the attacker's balance but does not create full separation - what follow-up action completes the escape?",
+      "name": "Your bridge displaces them but does not separate. What follow-up completes the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the momentary displacement to immediately hip escape away from the attacker while simultaneously stripping their heel grip with your near-side hand. The bridge created temporary imbalance but the attacker will recover within one to two seconds. Your hip escape must create enough distance that your knee can fully retract past their inside hook. If full extraction is not possible, use the space to establish a knee shield frame that prevents the attacker from re-establishing either cross ashi or 50-50 configuration."

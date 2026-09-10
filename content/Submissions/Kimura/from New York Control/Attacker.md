@@ -84,7 +84,7 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
     },
     {
       "@type": "Question",
-      "name": "Why does the overhook in New York Control make the Kimura setup more efficient than from standard closed guard?",
+      "name": "Why does the overhook in New York Control make the Kimura setup easier than from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The deep overhook has already isolated the opponent's arm and threaded control under their armpit, eliminating the most difficult phase of traditional Kimura setups. In standard closed guard, you must first break posture, then fight to control one arm against an opponent using both hands defensively. From New York Control, the arm is already compromised and the opponent cannot post or create distance, so the grip conversion from overhook to figure-four is the only step required rather than a full arm isolation sequence."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
     },
     {
       "@type": "Question",
-      "name": "What indicates you have reached the point of no escape when finishing the Kimura from New York Control?",
+      "name": "Finishing the Kimura from New York Control, what shows your opponent is past the point of escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when the figure-four grip is fully locked, the hip escape has created a forty-five degree angle, and the opponent's defensive grip connections have been broken. Once their wrist begins rotating past the plane of their back with their elbow lifted away from their body, the mechanical advantage is sufficient that muscular defense alone cannot prevent the finish. At this stage, you must apply pressure slowly and progressively to allow time for the tap."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their arm when you attempt the grip conversion - what adjustment prevents escape?",
+      "name": "New York Control: they straighten the arm as you convert grips—what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain firm wrist control with your free hand and use your legs to curl their straightened arm back toward a bent position by pulling your knee across their back. If the arm remains straight despite your efforts, immediately transition to an armbar attempt by swinging your leg over their face while keeping wrist control. The straightened arm is actually a gift for the armbar, making this counter a tactical error by the defender that opens a higher-percentage submission."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
     },
     {
       "@type": "Question",
-      "name": "What are the critical safety considerations when applying the Kimura from New York Control in training?",
+      "name": "What are the safety considerations when applying the Kimura from New York Control in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply rotational pressure slowly over three to five seconds minimum, never jerking or spiking the submission. The shoulder joint can suffer catastrophic damage including rotator cuff tears and dislocations with minimal warning, as the pain threshold often arrives very close to the injury threshold. Always ensure your partner has at least one hand free to tap, watch for verbal distress signals, and release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral position before releasing the figure-four grip entirely."

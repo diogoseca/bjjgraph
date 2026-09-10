@@ -58,7 +58,7 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is preventing the figure-four leg lock more important than fighting the head and shoulder controls?",
+      "name": "Why is stopping the figure-four more important than fighting the head and shoulder controls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four leg lock is the foundation of the entire Twister submission because it anchors the opponent's hips in place, creating the fixed point against which upper body rotation generates spinal compression. Without the hip anchor, the attacker's upper body rotation simply turns the entire body rather than creating opposed forces on the spine. Head and shoulder controls can be re-fought multiple times, but once the figure-four is locked and the hip anchor is established, the attacker has a permanent platform from which to work the finish. Addressing the legs first removes the mechanical basis for the submission entirely."
@@ -66,7 +66,7 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your attacker has locked the figure-four but has not yet established head control - what is your best defensive sequence?",
+      "name": "They locked the figure-four but have no head control — what is your best defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the figure-four locked but head control absent, immediately tuck both arms tight to your body to deny access to your far wrist and shoulder. Simultaneously, work to break the figure-four by straightening your body explosively and pushing the hooking leg away with both hands. If the figure-four loosens, immediately extract your trapped leg and turn to face the attacker to recover half guard. If the figure-four holds despite your efforts, maintain arm tuck discipline and force the attacker to hand fight, buying time while you continue working leg extraction. The worst option is reaching away from your body, which exposes your far arm to the cross-body pull."
@@ -74,7 +74,7 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why should you turn into the attacker rather than away when defending the Twister from Russian Cowboy?",
+      "name": "Why turn into the attacker rather than away when defending the twister from Russian cowboy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the attacker creates the exact rotational separation between hips and shoulders that the Twister requires. Your roll assists the attacker by generating the twisting force they need against your spine. Turning into the attacker does the opposite: it aligns your shoulders and hips in the same direction, denying the opposed rotational angle, and brings your chest toward them which can lead to half guard recovery. Additionally, turning in disrupts the attacker's chest-to-back contact and may prevent the free leg from threading across your body for the figure-four completion."

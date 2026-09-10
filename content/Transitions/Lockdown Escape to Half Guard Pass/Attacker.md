@@ -92,7 +92,7 @@ description: "How to execute Lockdown Escape to Half Guard Pass in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts extending their hips aggressively for Electric Chair pressure—what immediate adjustment do you make?",
+      "name": "They extend their hips for Electric Chair pressure: what's your immediate adjustment on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest weight forward harder onto their torso while simultaneously posting your free leg wider for increased base. Use your free hand to push their far hip flat to the mat, reducing their extension leverage. Forward pressure directly counters their hip extension and limits the submission threat while you continue working the escape sequence."

@@ -50,7 +50,7 @@ description: "Counter the frame escape from twister side control with pressure m
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is initiating a frame escape from twister side control?",
+      "name": "Holding twister side control, what are the earliest cues they're starting a frame escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the bottom player's hands moving from defensive positions toward your shoulder or hip, a subtle shift in their hip angle as they prepare to shrimp, and changes in their breathing pattern indicating imminent exertion. Their near-side forearm will begin to angle against your shoulder, and you may feel a slight reduction in their resistance to your leg entanglement as they redirect energy to upper body framing."

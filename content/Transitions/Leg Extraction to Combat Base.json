@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Your opponent begins extending the lockdown aggressively while you prepare to extract - what adjustment do you make?",
+        "question": "Your opponent aggressively extends the lockdown as you prepare to extract — what adjustment?",
         "answer": "Do not attempt extraction while they actively extend. Their grip strength is maximum during extension. Instead, drive your weight forward through your chest into their upper body, compressing their space and reducing the effectiveness of their extension. Wait for them to relax the lockdown to reset their attack, then time your extraction during that brief window of reduced tension.",
         "answer_line": "Drive weight forward, wait to relax",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "Your first extraction attempt fails and opponent re-tightens lockdown - what is your recovery strategy?",
+        "question": "Your first lockdown leg extraction fails and they re-tighten — what is your recovery strategy?",
         "answer": "Return to establishing heavy crossface pressure and wait for another timing opportunity rather than immediately attempting again. Re-assess whether your angle or approach needs adjustment. Consider switching to a variant extraction method like the backstep or hip switch if the opponent has adapted to your initial approach. Multiple failed rapid attempts waste energy and may open you to sweeps.",
         "answer_line": "Reset crossface, wait for window",
         "distractors": {
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "Your opponent shrimps away and begins sliding underneath your hips during your extraction attempt - what is happening and how do you respond?",
+        "question": "They shrimp and slide under your hips during lockdown extraction — what is it and your response?",
         "answer": "The opponent is transitioning to deep half guard by using the space created during your extraction to get underneath your center of gravity. Immediately stop the extraction and address this threat by driving your hips down and forward to prevent them from completing the deep half entry. Establish a whizzer or crossface to flatten them. If they complete the entry, you must switch to deep half guard top defense rather than continuing extraction.",
         "answer_line": "Deep half entry - drive hips down",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent has established crossface and begins driving their hips forward - what is your best offensive response?",
+        "question": "In lockdown, your opponent crossfaces and drives their hips forward — best offensive response?",
         "answer": "Their forward drive creates the ideal setup for the whip-up sweep. Extend the lockdown aggressively to load their weight forward, then use that momentum by explosively coming to your elbow on the underhook side and driving into them. Their forward commitment makes it extremely difficult to base back against the whip-up. If you have the underhook, this becomes a high-percentage sweep opportunity directly created by their extraction attempt.",
         "answer_line": "Load lockdown, then whip-up sweep",
         "distractors": {
@@ -589,7 +589,7 @@
         }
       },
       {
-        "question": "Your opponent's extraction attempt fails and they return to neutral lockdown position - how do you capitalize?",
+        "question": "Their lockdown extraction fails and they return to neutral — how do you capitalize from bottom?",
         "answer": "A failed extraction attempt means they expended energy and likely loosened their upper body control momentarily. Immediately re-tighten your lockdown with maximum tension, aggressively fight for the underhook if you do not already have it, and begin setting up your next sweep attack. Their failed attempt creates a psychological window where they are reassessing their approach—this is the optimal time to launch an offensive sequence while their focus is on what went wrong.",
         "answer_line": "Re-tighten, fight for underhook",
         "distractors": {

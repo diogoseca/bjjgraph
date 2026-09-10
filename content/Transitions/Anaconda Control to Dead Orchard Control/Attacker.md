@@ -74,7 +74,7 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What conditions should exist before you decide to transition to dead orchard rather than finishing the anaconda directly?",
+      "name": "When should you switch from finishing the anaconda to taking dead orchard control instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to dead orchard when the opponent demonstrates solid neck defense that prevents immediate choking pressure from reaching critical levels, when their free arm is actively creating frames that reduce your finishing angle, or when their base remains strong enough that a roll-through attempt would likely fail. The key indicator is feeling that your squeeze is compressing against strong defensive structure rather than producing the blood choke symptoms that signal an imminent finish."
@@ -82,7 +82,7 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
     },
     {
       "@type": "Question",
-      "name": "Your grip feels secure but the opponent is actively scooting their hips away during the transition. How do you maintain control?",
+      "name": "Your grip is secure but they scoot their hips away mid-transition: how do you keep control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip movement by walking your own hips in the same direction, maintaining your perpendicular angle throughout. Use your chest pressure as the anchor point that prevents them from fully retreating. Your upper body stays heavy on their shoulder while your lower body tracks their movement. If they create more than 6 inches of distance, pause the deepening sequence and re-establish tight anaconda control before continuing the dead orchard transition."
@@ -98,7 +98,7 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
     },
     {
       "@type": "Question",
-      "name": "The opponent posts their free hand against your shoulder to create a frame. How do you adjust your approach?",
+      "name": "They post a free hand on your shoulder to frame: how do you adjust the dead orchard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your shoulder pressure through their frame rather than trying to move around it. Your body weight behind the shoulder drive exceeds what their single arm can resist when applied correctly. Simultaneously, use your free arm to attack their framing arm at the elbow, stripping it toward their hip. Once the frame collapses under combined shoulder pressure and arm stripping, immediately advance the grip depth while they are recovering defensive structure."
@@ -106,7 +106,7 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the best foundation for transitioning from anaconda to dead orchard depth?",
+      "name": "Which grip best supports walking anaconda control deeper into dead orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gable grip with palms pressed flat, fingers interlocked, provides the strongest structure for the deepening walk because it distributes tension across both hands equally and resists the opponent's attempt to create space. During the transition, keep wrists straight and forearms parallel to maintain structural integrity. The S-grip is acceptable but provides slightly less depth control during the walking phase because it allows more play between the hands."

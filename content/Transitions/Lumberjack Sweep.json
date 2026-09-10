@@ -264,7 +264,7 @@
         }
       },
       {
-        "question": "How should you respond if your opponent establishes a strong crossface while you're attempting the lumberjack sweep?",
+        "question": "How do you respond if they get a strong crossface during your lumberjack sweep attempt?",
         "answer": "Immediately abandon the sweep attempt and transition to deep half guard or electric chair position. Use your underhook to swim deeper rather than fighting the crossface directly, as the crossface negates the sweeping leverage. Once in deep half, you can reset and attack with different techniques that work against the crossface pressure.",
         "answer_line": "Abandon sweep, go deep half",
         "distractors": {
@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "What is the purpose of controlling the opponent's near side wrist or belt during the lumberjack sweep execution?",
+        "question": "Why control their near-side wrist or belt during the lumberjack sweep?",
         "answer": "Controlling their near side prevents them from posting that hand on the mat to block the sweep. If they can post their hand, they create a third point of contact with the ground, significantly strengthening their base and making the sweep extremely difficult to complete. Stripping or controlling this arm is essential for high-percentage sweep completion.",
         "answer_line": "Stops them posting to block",
         "distractors": {
@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "How does the lumberjack sweep integrate into a comprehensive half guard system, and what techniques should it chain with?",
+        "question": "Which half guard attacks should the lumberjack sweep chain with in a complete system?",
         "answer": "The lumberjack sweep functions as a primary sweeping option from half guard bottom that works particularly well against forward pressure. It chains naturally with deep half guard entries (when opponent defends with crossface), kimura attacks (when opponent posts their arm), electric chair submissions (when opponent sprawls back), and old school sweeps (when opponent shifts weight to defend lumberjack). Advanced players use the threat of the lumberjack sweep to create openings for these other techniques, developing a complete system where all options feed into each other based on opponent's defensive reactions.",
         "answer_line": "Kimura, e-chair, old school sweep",
         "distractors": {
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat to block your lumberjack sweep - what are your immediate options?",
+        "question": "They post a hand on the mat to block your lumberjack sweep: what are your options?",
         "answer": "You have three primary responses: First, use your free hand to aggressively strip their posting arm while maintaining sweeping pressure with your underhook. Second, transition to a kimura attack on the posted arm, as the post creates an excellent angle for the shoulder lock grip. Third, if they overextend their post, switch to a waiter sweep by elevating their far leg with your free arm while continuing the rotational momentum. The key is recognizing which option is available based on their exact posting position and weight distribution.",
         "answer_line": "Strip post, kimura, or waiter sweep",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "What specific hip movement is required during the lumberjack sweep, and in which direction should force be applied?",
+        "question": "What hip movement and force direction drive the lumberjack sweep?",
         "answer": "The hip movement involves an explosive extension upward and toward the underhook side in a diagonal trajectory. Your hips drive up to elevate opponent's trapped leg off the mat while simultaneously rotating toward the underhook side. The force direction is not straight up but at approximately a 45-degree angle toward where your underhook is established. This diagonal force vector is what creates the rotational momentum that rolls the opponent over your body.",
         "answer_line": "Explosive 45° diagonal drive",
         "distractors": {
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "If the lumberjack sweep is blocked but you maintain your underhook, which chain attacks become available?",
+        "question": "Your lumberjack sweep is blocked but you keep the underhook: which chain attacks open up?",
         "answer": "With the underhook maintained after a blocked sweep, several chain attacks open up: Transition to deep half guard by ducking your head under and swimming deeper when opponent posts to defend. Attack the kimura on their posting arm by releasing your underhook to secure the figure-four grip. Move to electric chair position if opponent sprawls back by threading your leg over their trapped leg. Come up to dogfight position using the underhook to elevate and work to single leg or back take. The underhook serves as the anchor point that enables all these transitions.",
         "answer_line": "Deep half, kimura, or dogfight",
         "distractors": {
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "Why is sprawling your hips back more effective than driving forward when the sweep is already in motion?",
+        "question": "Why sprawl your hips back rather than drive forward once the lumberjack sweep is in motion?",
         "answer": "Driving forward adds your own momentum to the rotational force the bottom player is generating, effectively helping them complete the sweep. Sprawling back removes your weight from above their hips, eliminates the forward pressure they are redirecting, and widens your base to resist rotation. The sweep requires your weight committed forward over their hips to work, so pulling away neutralizes the core mechanic.",
         "answer_line": "Removes weight from the sweep",
         "distractors": {
@@ -550,7 +550,7 @@
         }
       },
       {
-        "question": "You feel the bottom player's underhook lifting your armpit and their hips driving upward beneath you - what is your immediate defensive sequence?",
+        "question": "Their underhook lifts your armpit and their hips drive up: what is your defensive sequence?",
         "answer": "First, post your near hand on the mat to create a third base point that resists rotation. Second, sprawl your hips back hard to pull your weight away from their underhook side. Third, apply whizzer pressure with your far arm to crush down on their underhook. Fourth, if you can stabilize, drive crossface to flatten them. If the sweep continues despite these defenses, extract your trapped leg during the scramble and work to complete the pass rather than getting swept to bottom.",
         "answer_line": "Post, sprawl, whizzer, crossface",
         "distractors": {
@@ -564,7 +564,7 @@
         }
       },
       {
-        "question": "What makes the posted hand vulnerable during lumberjack sweep defense, and how should you protect it?",
+        "question": "Why is your posted hand vulnerable during lumberjack sweep defense, and how do you protect it?",
         "answer": "When you post your hand on the mat to block the sweep, the bottom player can release their sweep attempt and transition to a kimura attack on the posted arm, since the posting position exposes the shoulder joint. Protect against this by keeping your elbow slightly bent rather than locked straight, maintaining awareness of their free hand movement, and being prepared to retract the posted arm if you feel them shifting grip toward a shoulder lock. If they commit to the kimura, circle your hand toward their head and use your base to defend.",
         "answer_line": "Kimura risk; keep elbow bent",
         "distractors": {
@@ -578,7 +578,7 @@
         }
       },
       {
-        "question": "How does the defender's crossface pressure mechanically prevent the lumberjack sweep from succeeding?",
+        "question": "How does crossface pressure mechanically stop the lumberjack sweep?",
         "answer": "The crossface drives the bottom player's head and shoulders flat to the mat, preventing them from turning onto their side to create the 45-degree angle essential for sweep leverage. Without this angle, their hips cannot position beneath your center of gravity, and the underhook cannot generate the diagonal lifting force needed for rotation. The crossface also creates discomfort that forces the bottom player to address the pressure rather than continuing the sweep setup, buying time to establish complete top control.",
         "answer_line": "Flattens them, kills the angle",
         "distractors": {

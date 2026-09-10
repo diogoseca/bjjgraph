@@ -62,7 +62,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-percentage moment to transition from Rubber Guard to triangle during the opponent's escape attempt?",
+      "name": "When is the highest-percentage moment to hit the triangle as they escape your rubber guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage moment is when the opponent begins the circular arm extraction motion. At this point, their arm is withdrawing from your chest trap and naturally creating the one-arm-in, one-arm-out configuration that the triangle requires. Shooting your hips up and locking legs around their head and the extracting arm catches them in transition before they can complete the withdrawal and tuck their elbow to their ribs."
@@ -70,7 +70,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on your far hip and begins the frame establishment phase - how do you counter this specifically?",
+      "name": "They post a free hand on your far hip to frame out of rubber guard; how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the posted hand as an anchor point to pull yourself deeper into the Rubber Guard configuration. Grip their posting wrist with your free hand and pull it across your body while simultaneously elevating your hips to increase leg pressure. Their frame hand is now trapped, removing their primary escape tool. Alternatively, use this as an opportunity to advance to New York position by using their frame as leverage to deepen your arm isolation."
@@ -78,7 +78,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is it important to actively fight grips rather than relying solely on leg strength to maintain Rubber Guard?",
+      "name": "In rubber guard, why fight grips rather than rely on leg strength alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leg muscles fatigue rapidly when asked to maintain static pressure against a systematically escaping opponent. The Rubber Guard configuration is structurally maintained by the hand gripping the shin or foot combined with leg positioning - the grip is the keystone. Without active grip retention, the opponent can incrementally reduce leg pressure through frame creation until the configuration collapses. Active grip fighting keeps the structural lock intact while distributing effort between arms and legs."
@@ -86,7 +86,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully extracts their arm but has not yet recovered full posture - what is your best immediate response?",
+      "name": "They free their arm from your rubber guard but haven't postured; what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to either triangle entry if their head is still low enough to lock legs around, or re-close your guard by locking ankles behind their back to prevent the pass. If you choose the triangle, shoot your hips up aggressively before they posture. If you choose closed guard, immediately re-break their posture and look to re-enter Rubber Guard. The worst response is doing nothing - the window between arm extraction and posture recovery is narrow and you must act decisively."
@@ -94,7 +94,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you use hip rotation to prevent the opponent from angling their shoulders away from your trapped arm side?",
+      "name": "How do you use hip rotation to stop them angling their shoulders away in rubber guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent angles their shoulders away to reduce your leg pressure, rotate your hips in the same direction to track their movement and maintain the perpendicular relationship between your shin and their back. Use your shoulder and upper back as the pivot point, keeping your leg configuration locked while adjusting the angle. This tracking movement prevents them from creating the lateral space needed for pressure redirection and keeps your arm isolation mechanically sound regardless of their angle changes."

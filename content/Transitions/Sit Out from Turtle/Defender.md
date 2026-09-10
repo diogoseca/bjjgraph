@@ -64,7 +64,7 @@ description: "How to defend and counter the sit out from turtle in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully initiates a sit out and is halfway through the rotation - what is your best response at this point?",
+      "name": "Turtle top: they are halfway through a sit out rotation - what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the rotation is past the halfway point, trying to stop it is usually counterproductive and creates scramble situations. Instead, follow the rotation by maintaining chest connection and circling with their movement to stay behind them. Keep your hips close to theirs and your harness control tight. If you can stay behind them as the rotation completes, you maintain the advantageous position. Alternatively, if chest connection is lost, immediately drive forward to flatten them before they can establish guard frames."
@@ -72,7 +72,7 @@ description: "How to defend and counter the sit out from turtle in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "How does your weight distribution on turtle top affect the sit out threat, and what is the optimal balance?",
+      "name": "Turtle top: how does your weight distribution affect the sit out, and what is optimal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward-heavy weight distribution on opponent's shoulders is the primary condition that enables the sit out, as it removes pressure from the hips where the rotation originates. Too far back with weight on their hips prevents the sit out but makes you vulnerable to granby rolls and forward rolling escapes. The optimal balance places approximately 60% of pressure through your chest onto their upper back while maintaining connected hip pressure through your hips being low and tight to their body. This centered distribution prevents both forward escapes and rolling escapes simultaneously."
@@ -80,7 +80,7 @@ description: "How to defend and counter the sit out from turtle in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "What is the most effective proactive strategy to eliminate the sit out as a viable escape option entirely?",
+      "name": "Turtle top: what proactive control removes the sit out as an escape option entirely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establishing full back control with at least one hook inserted and seatbelt grip secured mechanically prevents the sit out because the hook blocks the leg threading motion and the seatbelt prevents the posting hand from establishing freely. Without both the post and the thread, the sit out is impossible. Therefore, prioritizing rapid hook insertion and harness establishment from turtle top eliminates the sit out along with most other turtle escapes, transitioning the engagement from a defensive battle to an offensive back attack sequence."

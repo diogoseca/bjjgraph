@@ -56,7 +56,7 @@ description: "Learn to defend the backstep to reverse half guard from back contr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest cue that your opponent is converting to a backstep rather than fighting to re-insert their hook?",
+      "name": "What earliest cue shows they're backstepping rather than fighting to re-insert the hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the lateral weight shift combined with their free leg moving in a circular arc over your body rather than driving back toward the inside of your thigh for hook re-insertion. You will also feel their grip transitioning from seatbelt to crossface or collar control. When these cues appear together, the backstep is imminent and you must react immediately."
@@ -72,7 +72,7 @@ description: "Learn to defend the backstep to reverse half guard from back contr
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the backstep and is settling weight in reverse half guard - what is your immediate priority?",
+      "name": "They complete the backstep and settle in reverse half guard top—what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the crossface from behind and working to turn your shoulders to face the opponent. Frame against their hip and shoulder to create the space needed for rotation. If you cannot rotate immediately, keep your legs active to prevent deep leg entanglement and work to insert a knee shield as a preliminary defensive structure before fully recovering standard half guard."

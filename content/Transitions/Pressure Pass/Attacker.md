@@ -90,7 +90,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong frames on your hips and begins extending their legs - how do you adjust?",
+      "name": "Pressure passing: they frame on your hips and extend their legs. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your hips beneath their frames so the frames ride up over your shoulders rather than blocking your advancement. Drive your chest forward over the top of their frames to collapse the structure, and use your grips to pin their knees down. If they fully commit to pushing, switch to a knee slice pass to exploit the angle they've created by extending."
@@ -98,7 +98,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is crossface control important during pressure passing, and which direction should you pass relative to the crossface?",
+      "name": "Why does crossface control matter in pressure passing, and which side should you pass to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crossface control is important because it prevents the opponent from turning into you, establishing underhooks, or recovering half guard. You should pass toward the same side as your crossface (if crossfacing to their right, pass to your right) to use the crossface pressure to drive them flat and prevent defensive rotation."
@@ -106,7 +106,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning into you and getting an underhook for deep half guard entry - what is the critical timing window to stop this?",
+      "name": "Pressure passing: what is the timing window to stop their deep half underhook entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical timing window is before they complete the turn to their side and thread their head under your armpit. As soon as you feel the turn initiating, drive your crossface harder to flatten them back, sprawl your hips away from their underhook side, and establish a whizzer on their underhooking arm. Once they fully establish deep half with head underneath, stopping it becomes significantly more difficult."

@@ -108,7 +108,7 @@ description: "How to execute Knee Slice from Half in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What direction of force should your knee apply during the slice, and how does this differ from simply pressing down?",
+      "name": "In the knee slice, what force direction should your knee apply instead of pressing down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The force should be diagonal - driving your knee toward their far hip at approximately 45 degrees while simultaneously applying downward hip pressure. This differs from pressing straight down because pure downward force gets blocked by their thigh and creates a stalemate. The diagonal vector cuts across the grain of their leg, separating their knees apart while your hip weight prevents them from simply rotating to follow your movement. Think of it as slicing across, not pressing through."

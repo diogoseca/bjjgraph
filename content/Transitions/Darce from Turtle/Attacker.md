@@ -68,7 +68,7 @@ description: "How to execute Darce from Turtle in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical difference between the Darce choke and a guillotine choke from turtle position?",
+      "name": "From turtle, what is the key mechanical difference between a darce and a guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce choke uses opponent's own trapped shoulder to compress one carotid artery while your forearm compresses the other, creating a figure-four style blood choke. The guillotine compresses the front of the neck with your forearm while your hip or chest provides the counter-pressure. The Darce is always a blood choke targeting both carotid arteries, while the guillotine can be either a blood choke or airway restriction depending on forearm placement relative to the trachea."
@@ -84,7 +84,7 @@ description: "How to execute Darce from Turtle in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What should you do if opponent successfully pulls their far-side arm free during your Darce setup from turtle?",
+      "name": "Attacking a darce from turtle, they pull the far arm free. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the Darce attempt and transition to an alternative attack from the front headlock series, such as a guillotine choke, anaconda choke, or arm-in guillotine. You can also use the front headlock control to take their back if they are turning into you. Never waste energy fighting for a Darce when the far arm has escaped - the technique structurally requires the trapped arm to compress the second carotid artery."

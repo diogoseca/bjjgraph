@@ -52,7 +52,7 @@ description: "Complete defense guide for the Kimura from Kesa Gatame covering re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the Kimura from Kesa Gatame is being set up before the grip is established?",
+      "name": "How do you recognize a Kesa Gatame Kimura setup before the grip is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cues are: increased chest and shoulder pressure on your face as the opponent redistributes weight, loosening of the headlock arm as they prepare to release it, and their other hand tightening on your near wrist or forearm. The opponent's body may also rotate slightly to face your arm rather than maintaining standard Kesa Gatame angle. Recognizing these cues gives you the critical window to establish defensive grips before the figure-four is locked."
@@ -76,7 +76,7 @@ description: "Complete defense guide for the Kimura from Kesa Gatame covering re
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the opponent more effective than turning away when defending the Kimura rotation?",
+      "name": "Why is turning into them better than turning away when defending the Kesa Gatame Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the opponent reduces the available rotational range for the shoulder lock by changing the angle between your torso and arm. When you turn toward them, your body follows the direction of the forced rotation, effectively reducing the relative rotation at the shoulder joint. Turning away actually increases the rotational stress on the shoulder because your body moves opposite to the forced direction. Additionally, turning in disrupts the opponent's perpendicular angle and can create scramble opportunities."

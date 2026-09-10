@@ -82,7 +82,7 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the North-South Choke from Ushiro Kesa Gatame target, and how does bilateral compression differ from a windpipe choke?",
+      "name": "What does this choke target, and how does bilateral compression differ from a windpipe choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke targets both carotid arteries on the lateral sides of the neck, creating bilateral arterial compression that restricts blood flow to the brain. The bicep compresses one carotid while the shoulder and chest compress the opposite carotid. This differs fundamentally from a windpipe choke (tracheal compression), which restricts airflow and is both slower and more painful. Proper blood choke positioning avoids the trachea entirely, producing rapid unconsciousness in 4-8 seconds once locked without significant pain."
@@ -98,7 +98,7 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     },
     {
       "@type": "Question",
-      "name": "What is the correct head positioning when finishing the choke, and what happens if you fail to drop your head?",
+      "name": "Where should your head go when finishing this choke, and what happens if you fail to drop it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The head should drop to the mat on the side opposite the choking arm, with your ear close to the floor. This structural positioning drives your shoulder blade downward into the far-side carotid, completing the bilateral compression. Without the head drop, the shoulder remains elevated and cannot generate sufficient downward pressure on the far-side carotid. The result is one-sided compression that most trained opponents can endure, making the choke ineffective despite having the arm correctly threaded."
@@ -106,7 +106,7 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly, preventing you from threading your arm deep enough for the choke - what adjustments do you make?",
+      "name": "Their tight chin tuck stops you threading deep from ushiro kesa gatame—what adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use your free hand to apply steady pressure to their forehead, tilting their head backward to expose the neck. If that fails, apply cross-face pressure with your forearm across their jaw line to create the angle needed. You can also temporarily increase chest pressure by driving your hip weight forward, which compresses their torso and often reflexively causes them to lift their chin slightly. Never force your arm against a locked chin, as this creates a jaw crank rather than a choke and wastes energy."
@@ -114,7 +114,7 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a correctly locked blood choke and an ineffective squeeze, and what are the indicators that the choke is working?",
+      "name": "How do you tell a locked blood choke from an ineffective squeeze, and what shows it is working?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A correctly locked choke produces specific physical indicators: the opponent's face changes color (reddening from venous congestion), their resistance becomes progressively weaker over 4-8 seconds, and they may exhibit involuntary twitching or body tension changes. The attacker should feel their bicep and shoulder sinking into the soft tissue on both sides of the neck without significant bone contact. If you feel your forearm pressing against the chin, jaw, or trachea, the position needs adjustment. An ineffective squeeze produces pain but no progressive weakening."
@@ -122,7 +122,7 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if your training partner goes limp or stops responding during application of this choke?",
+      "name": "What should you do if your partner goes limp or stops responding during this choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release ALL pressure immediately and place them on their side in recovery position. Check for consciousness by calling their name and gently shaking their shoulder. If unconscious, they will typically regain consciousness within 10-20 seconds once pressure is released. Monitor their breathing and keep them on their side. If they do not regain consciousness within 20-30 seconds, or show signs of seizure, call for medical assistance immediately. Never leave an unconscious training partner unattended. After recovery, have them sit out for the remainder of the round."

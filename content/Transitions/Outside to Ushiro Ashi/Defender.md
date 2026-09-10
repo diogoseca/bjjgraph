@@ -50,7 +50,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You begin inverting from Outside Ashi-Garami and feel the attacker's hips following your rotation - what does this indicate and how should you respond?",
+      "name": "You invert from outside ashi and feel their hips follow: what does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates the attacker is executing the Outside to Ushiro Ashi transition rather than allowing your escape. Their hip follow means they intend to maintain leg entanglement through your inversion. You must immediately decide whether to accelerate your rotation to reach turtle before they consolidate, or reverse your escape strategy and establish frames to prevent their follow. Continuing at the same speed typically results in the attacker establishing Ushiro Ashi-Garami control."
@@ -58,7 +58,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "What foot position must you maintain throughout the entire inversion sequence and why is it critical?",
+      "name": "What foot position must you hold through the whole inversion from outside ashi, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain dorsiflexion with your foot flexed and toes pulled toward your shin throughout the entire rotation sequence. This position protects the heel by pulling it tight against your lower leg, making it extremely difficult for the attacker to establish the grip needed for a heel hook finish. The changing angles during rotation can momentarily expose the heel even with good foot position, but relaxing the foot at any point creates finishing windows that skilled attackers exploit immediately."
@@ -66,7 +66,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "The attacker's inside leg hook feels deep on your thigh during the transition - what should you prioritize?",
+      "name": "Their inside hook feels deep on your thigh during the Ushiro transition: what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A deep inside leg hook is the attacker's primary anchor and the foundation of their figure-four control. Prioritize using your hands to peel their inside leg off your thigh before it sets in the Ushiro configuration. Target their shin or ankle with both hands and push it away from your thigh while continuing rotation. If you cannot break this hook, accept that Ushiro Ashi-Garami will likely be established and shift your focus to defensive options from that position rather than forcing a low-percentage extraction."
@@ -74,7 +74,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "When is accepting turtle position the correct defensive choice rather than continuing to fight the leg entanglement?",
+      "name": "When is accepting turtle better than continuing to fight the leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept turtle when the attacker has successfully followed your inversion and established a tight Ushiro configuration, when their inside leg hook is too deep to remove through hand fighting, when you have been defending for several seconds without making escape progress, or when your energy reserves are depleting from sustained defensive effort. Turtle provides a positional reset with back defense rather than continued exposure to heel hook danger in a deteriorating leg entanglement."
@@ -82,7 +82,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "How can you tell early enough whether the attacker will successfully follow your inversion or lose the entanglement?",
+      "name": "How do you tell early whether they can follow your inversion or will lose the entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators that the attacker will follow include: their hips immediately rotating in your direction as you begin inverting, their inside leg maintaining constant hook pressure on your thigh throughout your movement, their grips adjusting proactively to the new angle rather than holding static, and no loosening in the figure-four configuration as you rotate. Conversely, if you feel the triangle loosening, their hips staying stationary, or their grips not adjusting, they likely cannot follow effectively and your inversion should succeed in clearing the entanglement."

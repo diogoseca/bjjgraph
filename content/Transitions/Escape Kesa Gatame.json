@@ -270,7 +270,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why are standard side control shrimping escapes ineffective against scarf hold and what movement pattern replaces them?",
+        "question": "Why does shrimping fail against kesa gatame, and what movement replaces it?",
         "answer": "The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest.",
         "answer_line": "Bridge and turn, not shrimp",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Why is the bottom leg hook on the opponent's near leg critical before attempting any escape from scarf hold?",
+        "question": "Why hook their near leg before escaping kesa gatame bottom?",
         "answer": "The leg hook serves dual purpose. First, it prevents the opponent from transitioning to mount during escape attempts, which would result in a significantly worse position. Second, it provides a control point to disrupt their base during the bridge phase by controlling their nearest support structure. Without this hook, escape attempts frequently result in mount rather than freedom.",
         "answer_line": "Blocks mount, kills their base",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Your bridge-and-roll attempt is defended because the opponent widens their base - what do you do next?",
+        "question": "Your bridge and roll fails because they widen their base: what do you do next?",
         "answer": "Immediately transition to the ghost escape variant. When the opponent widens base and drops hips to counter the bridge, they create space behind their body. Turn into the opponent and come to your knees behind them, using the backdoor escape pathway. The key is flowing immediately from the failed bridge into the next technique rather than resetting and losing the positional disruption you created.",
         "answer_line": "Flow straight into ghost escape",
         "distractors": {
@@ -368,7 +368,7 @@
         }
       },
       {
-        "question": "What are the primary recognition cues that indicate a timing window for escape from scarf hold bottom?",
+        "question": "What cues signal a timing window to escape from kesa gatame bottom?",
         "answer": "The primary cues are tactile rather than visual: feeling the opponent's weight shift forward when attacking submissions or transitioning positions, sensing loosened head control when they adjust grips, detecting base narrowing when they reach for attacks. The most reliable window occurs when the opponent releases head control to attack your far arm, as this momentarily frees your head mobility for escape mechanics.",
         "answer_line": "Feel weight shift, head loosen",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "Your opponent hooks your near leg and reaches for your far arm - what escape are they setting up and how do you counter it?",
+        "question": "They hook your near leg and reach for your far arm: what escape is coming and how do you stop it?",
         "answer": "They are setting up the bridge-and-roll escape, which requires eliminating your posting ability and controlling your base before bridging at 45 degrees toward your trapped arm side. Counter by immediately widening your base with back leg extension, driving hip pressure deeper into their ribs, and either extracting your far arm from their grip or switching to mount transition since their bridge attempt creates the space necessary for stepping over.",
         "answer_line": "Widen base, deepen hips, free arm",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "How do you counter the ghost escape when the bottom player attempts to turn into your back and come to their knees?",
+        "question": "How do you counter the ghost escape as they turn into your back to come up?",
         "answer": "The ghost escape exploits forward weight commitment, so the counter begins with recognizing the setup cues. When you feel them turning toward your back, immediately shift weight backward and sit your hips down, removing the space they need to complete the turn. Re-establish head control and pull them back to their side. If they partially complete the turn, switch to attacking their turtle position rather than forcing scarf hold from an awkward angle.",
         "answer_line": "Sit hips back, re-control head",
         "distractors": {

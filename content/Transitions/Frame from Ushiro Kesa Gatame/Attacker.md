@@ -80,7 +80,7 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary structural advantage of using forearm frames rather than pushing with extended arms from reverse scarf hold bottom?",
+      "name": "From reverse scarf hold bottom, why frame with the forearm instead of an extended-arm push?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forearm frames use skeletal structure (the ulna bone pressed against the opponent's hip or shoulder) to create a mechanical barrier that does not fatigue, while pushing with extended arms relies on muscular effort that depletes rapidly under the top player's full body weight. Additionally, extended arms expose the pushing limb to americana and armbar attacks, whereas a forearm frame with the elbow tight to the body is submission-safe and can be maintained indefinitely without significant energy expenditure."
@@ -88,7 +88,7 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases chest pressure when you establish your frame - how should you adjust rather than abandoning the technique?",
+      "name": "They add chest pressure as you frame in reverse scarf hold — how do you adjust without quitting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the increased pressure directly through your frame. Instead, maintain the frame at its current position and wait for the opponent to shift weight for a submission attempt or positional adjustment, then execute the hip escape during that timing window. If they maintain constant heavy pressure without shifting, redirect the frame angle to push laterally against their shoulder rather than their hip, or switch to a bridge escape attempt to create a dilemma that forces them to address a different threat."
@@ -96,7 +96,7 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "Why must chained hip escapes be used rather than a single large movement, and how many increments are typically needed?",
+      "name": "Why chain hip escapes here instead of one big move, and how many increments are needed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A single large hip escape is easily followed by the opponent who simply shifts their weight to close the distance in one reaction. Chaining two to three smaller hip escapes with frame readjustments between each increment creates cumulative space that the opponent cannot recover because each increment is protected by the active frame before the next movement begins. The frame acts as a ratchet mechanism, preserving each increment of progress until approximately six inches of total space allows knee insertion."
@@ -104,7 +104,7 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "What is the optimal bridge angle used in combination with framing from reverse scarf hold, and how does it differ from a reversal bridge?",
+      "name": "What bridge angle pairs with framing from reverse scarf hold, and how is it not a reversal bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bridge used with frame escapes is a controlled pressure-relief bridge directed at 45 degrees toward the opponent's posting leg, designed to momentarily shift their weight distribution rather than roll them over. Unlike a reversal bridge that seeks maximum height and displacement, this bridge is moderate in intensity and serves only to create the initial space increment that the frame will preserve during the subsequent hip escape. Excessive bridge power can actually compromise frame positioning."
@@ -112,7 +112,7 @@ description: "Step-by-step guide to executing the frame escape from Ushiro Kesa 
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions toward north-south as you begin creating space with frames - what is your immediate response?",
+      "name": "They move toward north-south as your frames make space — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the opponent moves toward north-south, their weight necessarily shifts off your chest, which is actually an opportunity. Immediately follow their movement with your hips by turning to face them and insert your knees between your bodies as they rotate. The transition moment between reverse scarf hold and north-south is often easier to escape than either settled position, so act immediately when you feel the directional weight shift rather than waiting for them to consolidate the new position."

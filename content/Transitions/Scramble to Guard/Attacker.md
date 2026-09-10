@@ -90,7 +90,7 @@ description: "How to execute Scramble to Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip movement direction during the scramble and what happens if you turn the wrong way?",
+      "name": "Which way must your hips turn escaping twister control, and what if you turn the wrong way?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should turn your hips into your opponent to align them with your shoulders, reducing spinal rotation. Turning away from your opponent exposes your back and allows them to follow your movement directly into traditional back control with hooks, which though more escapable than Twister Control, gives them a dominant position. The correct rotation direction is determined by which way reduces the twist between your shoulder line and hip line."
@@ -98,7 +98,7 @@ description: "How to execute Scramble to Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a death grip on your trapped leg and you cannot extract it after two attempts. What adjustments do you make?",
+      "name": "They keep a death grip on your trapped leg after two failed extractions: what do you change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop attempting full explosive escapes and switch to persistent, incremental hand-fighting to strip their leg hooks. Push on their knee and ankle with small, constant movements rather than large bursts. Simultaneously, use your free leg to pry and create wedges against their entanglement. Wait for or create a micro-window when their grip fatigue allows partial extraction, then immediately commit to the full scramble. Repeated failed explosive attempts deplete your energy and allow them to recalibrate."
@@ -106,7 +106,7 @@ description: "How to execute Scramble to Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent catches a guillotine grip as you turn into them during the scramble. How do you respond?",
+      "name": "They catch a guillotine as you turn in during the twister control scramble: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize the guillotine defense before continuing guard recovery. Tuck your chin firmly to your chest and use both hands to fight the choking grip, stripping their wrist control and working to get your head to the safe side, which is the same side as their choking arm. Only continue the guard recovery sequence after the guillotine threat is neutralized. Attempting to power through the scramble while a guillotine is locked risks going unconscious."
@@ -114,7 +114,7 @@ description: "How to execute Scramble to Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What specific grip or frame must you establish immediately after reducing spinal rotation and beginning to face your opponent?",
+      "name": "After reducing spinal rotation and facing them, what frame or grip must you establish first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a forearm frame against their chest or collarbone with your primary arm, and get your near-side knee between your bodies as a secondary frame. The forearm prevents them from driving chest-to-chest to flatten you, while the knee creates the structural space necessary for hip escape movements. Without these frames, the opponent will immediately close distance and either re-establish Twister Control or advance to side control before you can complete guard recovery."

@@ -98,7 +98,7 @@ description: "How to execute Double Leg Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the most effective counter to a guillotine attempt during the double leg finish, and why does it work?",
+      "name": "What best counters a guillotine during your double leg finish, and why does it work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective counter is to keep your head positioned on the side away from the choking arm while accelerating the finish to complete the takedown before the choke can be secured. This works because guillotine leverage requires time to establish - if you land the opponent on their back quickly, the choke loses effectiveness due to position change. Additionally, maintaining proper head position on the non-choking side prevents them from getting optimal angle for the submission. Some practitioners also circle toward the choking arm side while driving, which reduces the leverage angle of the choke."
@@ -106,7 +106,7 @@ description: "How to execute Double Leg Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Explain the timing and mechanics of the transition from double leg finish to establishing side control position?",
+      "name": "What is the timing and mechanics of going from double leg finish to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition should be one continuous motion without pause. As the opponent's back touches the mat, immediately release the leg grip and transition to side control specific grips - typically crossface with near arm and far hip control with other arm. Your legs should step wide during the landing to prevent guard closure, and your weight should distribute across their chest and hips simultaneously. The key is not pausing in a neutral position between takedown and control establishment, as any hesitation allows opponent to insert frames, begin escape sequences, or establish guard. Advanced practitioners time the grip change to occur during the final portion of the falling motion, so position-specific controls are already being established as the opponent lands."
@@ -114,7 +114,7 @@ description: "How to execute Double Leg Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "When would you choose a drive-through finish over a lift-and-dump finish, and what mechanical principles make the drive-through effective against certain opponents?",
+      "name": "When do you choose a drive-through finish over a lift-and-dump, and why does it work there?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The drive-through finish is preferred against larger or heavier opponents who are difficult to lift, when opponent has sprawled and achieved high base making lifting mechanically disadvantaged, or in no-gi situations where sweat might compromise grip security during lifting motion. The drive-through is mechanically effective because it uses forward momentum and continuous pressure rather than requiring significant vertical lifting force. By running your feet forward explosively while maintaining low shoulder position and tight connection, you generate overwhelming forward pressure that forces opponent backward. This method is less dependent on strength differential and more on timing, positioning, and explosiveness. The drive-through also maintains better defensive structure against guillotine attempts because you stay lower throughout the motion."

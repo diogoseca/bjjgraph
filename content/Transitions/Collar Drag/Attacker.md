@@ -76,7 +76,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why must you control the opposite arm when executing a collar drag, and what happens if you neglect it?",
+      "name": "In a standing collar drag, why control the far arm, and what happens if you don't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the opposite arm prevents opponent from posting that hand on your body or the mat, which would allow them to maintain their base and prevent rotation. Without arm control, opponent can extend their free arm as a post, creating a triangular base structure that resists the rotational force of the drag. The arm control also creates opposing vectors—one grip pulls them toward you while the other pushes away, creating torque that rotates their upper body. Additionally, controlling both points limits their ability to grip fight or attack you during the technique execution."
@@ -84,7 +84,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent circles away from your collar drag direction instead of allowing the rotation—what are your options?",
+      "name": "Standing collar drag: they circle away instead of rotating, so what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent circles away, you have three high-percentage options: First, immediately switch direction and collar drag to the opposite side, using their defensive momentum against them. Second, use their backward/circular movement to snap them down into front headlock position, as their circling creates forward vulnerability. Third, fake completing the original drag while actually transitioning to arm drag, duck-under, or single leg on the side they are circling toward. The key principle is that their defensive movement always opens something else—never fight against their reaction, redirect to attack what they have exposed."
@@ -92,7 +92,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between pulling with your arms versus pulling with your hips during a collar drag?",
+      "name": "In the collar drag, what's the difference between pulling with your arms and your hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling with arms alone generates minimal force and is easily defended because arm strength is limited compared to the opponent's entire body structure. Pulling with hips means initiating the movement with hip rotation and core engagement, where your arms act as connection points but the power comes from your center mass rotating. This generates significantly more force, is harder to defend, and allows you to maintain the technique even against larger, stronger opponents. The visual cue is that hip-driven collar drags show the athlete's entire body rotating, while arm-only drags show just the upper body pulling with feet remaining static."

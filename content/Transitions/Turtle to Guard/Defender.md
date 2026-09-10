@@ -56,7 +56,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt a turtle to guard rotation?",
+      "name": "What is the earliest cue that the turtle bottom player is starting a rotation to guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a subtle lateral hip shift where the bottom player pushes their hips away from your primary weight. This creates a small gap that precedes any rotational movement. You may feel this as a slight decrease in pressure contact on one side of your chest. This hip shift is mechanically necessary before rotation can occur, so recognizing it gives you the maximum time window to counter by matching their shift with your own weight adjustment or by driving forward to collapse their base before the rotation can develop."
@@ -64,7 +64,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins an explosive rotation and you cannot prevent it - how do you convert this into back control rather than losing position?",
+      "name": "They rotate explosively out of turtle and you can't stop it: how do you still take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stay connected with your chest to their back throughout their rotation rather than trying to stop it. As they turn, your body follows their movement, keeping the seatbelt grip tight. Their rotation actually helps you insert your near-side hook because as they open their hips to face you, space appears for your foot to thread inside their thigh. Drive your hips forward into their back as they turn, using the rotational momentum to land with at least one hook already in place. The key is abandoning the idea of preventing the turn and instead using their movement as your back control entry sequence."
@@ -72,7 +72,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to sprawl and flatten versus following rotation for a back take when the bottom player initiates escape?",
+      "name": "On turtle top, what decides between sprawling to flatten and following their rotation to the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on your current grip and hook status. If you have strong seat belt control with at least one hook secured, follow the rotation because you can convert it to full back control. If you have upper body grips but no hooks, sprawl and flatten because you lack the leg control to follow effectively and need to reset. If the bottom player's escape is in its earliest phase with just a hip shift, sprawl to prevent it entirely. If they have already committed to full explosive rotation and created significant space, following is the better option because the sprawl will not catch them in time."
@@ -80,7 +80,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The bottom player is hand fighting aggressively and has stripped your seat belt grip - what is your immediate priority?",
+      "name": "On turtle top, they strip your seatbelt while hand fighting: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is re-establishing upper body control before they can rotate. Drop your weight heavily through your chest onto their upper back to compensate for lost grip control. Use your freed hands to either re-establish the seat belt from a different angle, secure double underhooks by driving your arms under their armpits, or transition to a front headlock by circling toward their head. Do not attempt to insert hooks while your upper body control is compromised, as the bottom player will use the distraction to rotate. Chest pressure buys you time while you work to re-establish dominant grips."
@@ -88,7 +88,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make when the bottom player attempts a sit-through to half guard rather than a full rotation to closed guard?",
+      "name": "On turtle top, how do you adjust when they sit through to half guard instead of rotating fully?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel the bottom player sitting their hip to the mat rather than rotating fully, immediately shift your weight to the side they are sitting toward and drive your near-side knee across their hip line to prevent them from threading their leg between you. If their sit-through has already progressed, follow by walking your hips around their body toward their head, transitioning to a front headlock or maintaining top quarter position rather than allowing them to settle into half guard with an underhook. The sit-through is faster than a full rotation but travels less distance, so your window for counter-action is shorter but you need to cover less ground to maintain control."

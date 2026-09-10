@@ -243,7 +243,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the shin slide from New York Control to Invisible Collar?",
+        "question": "When is the best timing to start the shin slide from New York Control to Invisible Collar?",
         "answer": "The optimal window occurs when the opponent is actively defending a submission threat from New York Control, such as a triangle or gogoplata setup. Their defensive attention is diverted from leg positioning, and their defensive movement often creates the angle needed for the shin to clear the shoulder. Attempting the transition when the opponent is passively defending with good posture provides the worst timing because they can immediately react to the leg repositioning.",
         "answer_line": "While defending a submission",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your first transition attempt is blocked and you return to New York Control - what adjustment makes the second attempt more likely to succeed?",
+        "question": "Your first New York to Invisible Collar attempt is blocked — what adjustment helps the second try?",
         "answer": "Change the setup by threatening a different submission before the second attempt. If the first attempt used a gogoplata feint, use a triangle or omoplata threat for the second. The opponent has now seen the transition once and will be watching for the same setup. Alternatively, attempt the hip switch variant, which uses a different mechanical pathway that the opponent may not recognize as the same transition. Never repeat the identical setup sequence after a failed attempt.",
         "answer_line": "Change setup, don't repeat",
         "distractors": {
@@ -472,7 +472,7 @@
         }
       },
       {
-        "question": "How do you distinguish between a committed gogoplata attempt and a feint designed to set up the invisible collar transition?",
+        "question": "Defending New York bottom: how do you tell a real gogoplata from an invisible collar feint?",
         "answer": "A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head.",
         "answer_line": "Hip direction: up vs lateral",
         "distractors": {
@@ -486,7 +486,7 @@
         }
       },
       {
-        "question": "If the invisible collar is successfully established, what immediate defensive posture should you adopt?",
+        "question": "They lock the invisible collar on you — what defensive posture do you adopt immediately?",
         "answer": "Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal.",
         "answer_line": "Tuck chin, strip shin, escape",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Your opponent has attempted this transition twice and returned to New York both times - how should you exploit their persistence?",
+        "question": "They've tried the invisible collar transition twice and reset — how do you exploit that persistence?",
         "answer": "Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide.",
         "answer_line": "Bait it, then counter timing",
         "distractors": {

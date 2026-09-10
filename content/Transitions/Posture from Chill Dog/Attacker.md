@@ -82,7 +82,7 @@ description: "Execute posture recovery from Chill Dog top position. Systematic u
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains an airtight Chill Dog frame with both elbows locked to their knees — how do you create an opening for the underhook?",
+      "name": "Chill Dog top: their elbows are locked to their knees. How do you open a path for the underhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use short, sharp hip drives through your chest pressure to create micro-gaps in the defensive shell rather than sustained pulling. Each hip drive forces the bottom player to absorb impact, and their frame will momentarily loosen during the absorption phase. Time your underhook threading to coincide with these micro-gaps. Alternatively, fake a front headlock attack by shifting toward their head, which often causes them to adjust their frame and open the near-side hip momentarily."
@@ -98,7 +98,7 @@ description: "Execute posture recovery from Chill Dog top position. Systematic u
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player beginning to rotate underneath you during the lift — what is happening and how should you respond?",
+      "name": "Chill Dog top: you feel them rotating underneath during your lift. What is it, and your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player is using your lifting momentum to initiate a barrel roll for a back take. This is the highest-risk counter to the posture transition. Immediately drop your weight by driving your hips down and re-establishing heavy chest pressure rather than fighting the rotation from a compromised position. Trying to continue the lift while they rotate underneath creates a scramble that favors the bottom player. Reset to chest pressure, re-establish your controls, and wait for a cleaner opportunity."
@@ -106,7 +106,7 @@ description: "Execute posture recovery from Chill Dog top position. Systematic u
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should attempt the posture transition versus continuing to pursue back control from Chill Dog top?",
+      "name": "From Chill Dog top, what decides between the posture transition and chasing back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posture transition is the right choice when traditional turtle attacks have stalled against tight Chill Dog defense, when match time is limited and you need to create positional progress, or when your guard passing game is significantly stronger than your turtle attacking game. Continue pursuing back control when the defensive frame shows signs of breaking, when you have established hooks or near-hook positions, or when you have superior turtle attack systems. The posture transition is always a secondary option to back control."
@@ -114,7 +114,7 @@ description: "Execute posture recovery from Chill Dog top position. Systematic u
     },
     {
       "@type": "Question",
-      "name": "What is the most common reason practitioners fail at the final step of establishing posture in the resulting guard?",
+      "name": "Posture from Chill Dog: what most often causes failure at the final guard-posture step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is treating the guard recovery as the end of the technique rather than the beginning of a new positional battle. Practitioners relax momentarily when they feel the legs close around their waist, and the bottom player uses that fraction of a second to establish collar ties or overhook control and break posture. The posture establishment must be explosive and immediate — hips back, spine straight, hands on hips — within the first two seconds of guard recovery. This requires conditioning the response as a reflexive continuation of the lift, not a separate action."

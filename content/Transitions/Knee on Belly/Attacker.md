@@ -84,7 +84,7 @@ description: "How to execute Knee on Belly in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes against your knee with both hands - what submission opportunity does this create?",
+      "name": "They push your knee with both hands from knee on belly—what submission does this open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating."
@@ -92,7 +92,7 @@ description: "How to execute Knee on Belly in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "How should your weight distribution differ between leaning forward and sitting down through the knee?",
+      "name": "In knee on belly, how should weight be distributed instead of leaning forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso."

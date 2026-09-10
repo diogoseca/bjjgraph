@@ -64,7 +64,7 @@ description: "Defend the body lock takedown from clinch with systematic grip den
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the body lock and begins loading their hips for the drive - what is your highest-percentage defensive response?",
+      "name": "They secure the body lock and load their hips to drive: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop your hips by bending your knees deeply, lowering your center of gravity to make driving significantly harder. Simultaneously establish an overhook on one side and use your free hand to frame against the opponent's hip on the driving side. Sprawl your hips back if they begin the drive and circle toward the overhook side to break their driving angle. If the drive progresses despite your defense, transition to hooking their near leg with your inside leg to ensure you land in half guard rather than side control. The layered response of lower hips, frame, sprawl, and leg hook provides multiple defensive checkpoints."
@@ -80,7 +80,7 @@ description: "Defend the body lock takedown from clinch with systematic grip den
     },
     {
       "@type": "Question",
-      "name": "If you cannot prevent the takedown from completing, what should your priority be during the descent to the mat?",
+      "name": "If the body lock takedown is unstoppable, what is your priority on the way down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your primary goal during an inevitable takedown is controlling the landing position to avoid ending in side control. As you feel yourself going down, immediately hook the attacker's near leg with your inside leg to establish half guard, which gives you a guard position rather than a passed position. Turn your body to face the attacker during the fall rather than landing flat on your back, and establish at least one underhook before you hit the mat. Arriving on your side with a half guard hook and an underhook gives you immediate offensive options from half guard bottom, which is dramatically better than surviving side control."

@@ -68,7 +68,7 @@ description: "How to execute Headquarters Pass in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary control point that must be maintained throughout the entire headquarters pass sequence?",
+      "name": "Which control point must be maintained throughout the whole headquarters passing sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning."
@@ -84,7 +84,7 @@ description: "How to execute Headquarters Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent establishes a strong underhook while you are in headquarters position?",
+      "name": "From headquarters, they get a strong underhook. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent secures a strong underhook, you should immediately circle your hips away from the underhook direction to prevent them from coming up or creating sweeping angles. Maintain your crossface pressure while either establishing a whizzer on their underhooking arm or transitioning to a different passing angle such as backstep or long step. Never allow them to use the underhook to sit up or square their hips to you."
@@ -108,7 +108,7 @@ description: "How to execute Headquarters Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How does weight distribution change throughout the headquarters pass sequence and why is this important?",
+      "name": "How should your weight distribution change through the headquarters pass, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight distribution should remain primarily forward throughout the sequence, with your chest pressure on the opponent's torso. During leg extraction, there may be a momentary shift, but you must immediately return pressure forward as you transition to side control. This constant forward pressure prevents the opponent from sitting up, creating space, or establishing defensive frames. If you shift your weight backward or upward during any phase, you give the opponent the space they need to recover guard or initiate defensive tactics."

@@ -90,7 +90,7 @@ description: "How to execute Ashi Garami Escape in BJJ. Systematic leg extractio
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a heel hook grip while you are mid-escape and have already cleared their bottom leg - what do you do?",
+      "name": "Escaping ashi garami: bottom leg cleared but they get a heel hook grip — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must immediately stop all extraction movement and address the heel control with both hands using a two-on-one grip break. Even though you have cleared the bottom leg, continuing the escape with heel control secured creates catastrophic injury risk because any rotational movement of your body while the heel is controlled applies torque directly to the knee ligaments. Break the grip completely by peeling at the thumbs, then reassess whether the bottom leg has been recomposed before continuing the clearing sequence."
@@ -114,7 +114,7 @@ description: "How to execute Ashi Garami Escape in BJJ. Systematic leg extractio
     },
     {
       "@type": "Question",
-      "name": "You are escaping from outside ashi garami and your opponent backsteps to transition to saddle position - how do you adjust your escape approach?",
+      "name": "Escaping outside ashi: they backstep toward the saddle — how do you adjust your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must immediately abandon the standard ashi garami escape sequence and address the saddle position as the higher-priority threat. Saddle provides far superior heel exposure and finishing mechanics than outside ashi. Focus on preventing the position from fully establishing by controlling opponent's backstep leg and denying inside space through hip positioning. Address the new triangled leg configuration and defend the heel hook angle before returning to any extraction attempt. The urgency level escalates significantly because saddle has much higher finishing percentage than standard outside ashi."

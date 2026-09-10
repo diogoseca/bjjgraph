@@ -64,7 +64,7 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
     },
     {
       "@type": "Question",
-      "name": "When should you strategically release the dead orchard grip and transition to side control instead of fighting to maintain it?",
+      "name": "When should you release the dead orchard grip and take side control instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release when you feel your grip depth has moved past the point of submission viability, specifically when your hand position has slipped back toward the near shoulder rather than past the far shoulder. Also release when the bottom player has created significant hip angle that you cannot close within two to three hip adjustments. The decision calculus is simple: side control top is a dominant position worth 3 points, while fighting for a compromised dead orchard risks the bottom player escaping entirely to open guard where you have zero advantage."
@@ -72,7 +72,7 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the multi-shrimp chain from building cumulative distance against your dead orchard control?",
+      "name": "How do you stop the multi-shrimp chain from building distance against dead orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Match each shrimp with your own hip adjustment in the same direction, maintaining the compression angle throughout the chain. The key is anticipating the chain rather than reacting to individual shrimps. When you feel the first rapid shrimp, immediately begin walking your hips in the same direction with equivalent urgency. Your hip adjustments should be slightly ahead of their shrimps rather than trailing behind. If you fall behind the chain by even one shrimp, the cumulative distance becomes difficult to recover."
@@ -80,7 +80,7 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts a granby roll and you successfully stuff it - what should your immediate follow-up be?",
+      "name": "You stuff their granby roll from dead orchard: what is your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase the dead orchard pressure by driving your shoulder harder into their trapped shoulder and walking your choking arm grip deeper. The failed granby attempt has expended significant energy and likely left the bottom player slightly disoriented from the attempted inversion. This is the optimal moment to attempt the anaconda finish, as their defensive resources are temporarily depleted. Do not simply maintain the current pressure level - actively advance toward the submission during this recovery window."
@@ -88,7 +88,7 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
     },
     {
       "@type": "Question",
-      "name": "How does the aggressive escape create different counter-opportunities compared to the standard frame-and-shrimp escape?",
+      "name": "How do their aggressive escapes create different counters than frame-and-shrimp escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The aggressive escape extends the bottom player's body and commits them to large movements that create vulnerability windows not present in the incremental escape. During a committed granby roll, the bottom player temporarily abandons their defensive frame to generate rotation, and a successful stuff leaves them in a worse position than before. During the multi-shrimp chain, their energy expenditure is dramatically higher, creating fatigue opportunities. The trade-off is that these openings are brief and require quick recognition, whereas the incremental escape provides fewer openings but also fewer counter-attack opportunities."

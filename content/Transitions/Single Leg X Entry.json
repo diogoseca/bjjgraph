@@ -288,7 +288,7 @@
         }
       },
       {
-        "question": "What are the three primary offensive pathways available after successfully entering Single Leg X position?",
+        "question": "What are the three main offensive pathways from Single Leg X?",
         "answer": "From Single Leg X you can sweep to top position, transition to deeper leg entanglements, or attack submissions on the captured leg. Sweeps use the off-balancing structure you've created, typically sending the opponent forward and over their captured leg. Transitions lead to more complex entanglements such as Ashi Garami, Outside Ashi Garami, X-Guard, or Deep Half Guard depending on how the opponent reacts. Direct submission attacks include kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats.",
         "distractors": {
           "plausible": [
@@ -302,7 +302,7 @@
         "answer_line": "Sweep, entangle, or submit"
       },
       {
-        "question": "Why is angling your body toward the captured leg important rather than staying square to your opponent?",
+        "question": "In Single Leg X, why angle toward the captured leg instead of staying square?",
         "answer": "Angling toward the captured leg creates oblique off-balancing pressure that pulls opponent diagonally forward rather than straight down. This diagonal pull is much harder to defend because it attacks their base at an angle where they have less structural stability. When you stay square, any pressure you generate is directly into their stance where they are strongest. The angle, typically around 45 degrees, also facilitates smoother transitions to connected positions and creates more difficult recovery problems for the opponent.",
         "answer_line": "Angle 45° toward captured leg",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls forward with heavy chest pressure as you attempt the entry - what is the optimal response?",
+        "question": "They sprawl with heavy chest pressure as you enter Single Leg X: what is the optimal response?",
         "answer": "When opponent sprawls forward with pressure, do not fight against the force. Instead, use their momentum by retracting your outside leg from the hip frame and swimming it deeper underneath their hips to transition toward X-Guard or Deep Half Guard. Their forward commitment actually assists this transition because their weight is already moving in a direction that favors your positional change. Maintain ankle grip throughout and redirect their energy into the new position rather than absorbing it.",
         "answer_line": "Swim leg under to X-Guard",
         "distractors": {
@@ -490,7 +490,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important grip for the attacker that you must deny or strip to prevent the entry?",
+        "question": "Which attacker grip must you strip to stop the Single Leg X entry?",
         "answer": "The ankle or lower leg grip is the foundational control that enables the entire Single Leg X Entry sequence. Without this grip, the attacker cannot prevent you from stepping back, cannot anchor their inside hook, and cannot generate the pulling angle needed for the entry. Strip this grip immediately upon feeling it — use your free hand to peel their fingers while simultaneously backstopping your leg. Every second the grip remains is time they use to build the next link in their entry chain.",
         "answer_line": "Strip the ankle grip",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "Your opponent has gripped your ankle and is threading their inside leg — what is the optimal timing window for defense?",
+        "question": "They have your ankle and are threading the inside leg: when is your window to defend?",
         "answer": "The critical window is between ankle grip and inside hook completion. Once both are established, defensive difficulty increases dramatically. In this window, you should simultaneously strip the ankle grip with your hand while backstopping or circling the targeted leg away from their threading direction. This two-action defense attacks both their primary control point and their hook insertion at the same time, maximizing your chance of derailing the entry before it locks in.",
         "answer_line": "Strip grip, circle the leg",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "Your opponent has fully established Single Leg X with deep hooks and ankle grip — what is your best remaining option?",
+        "question": "They have Single Leg X locked with deep hooks and ankle grip: what is your best option?",
         "answer": "Once the position is fully established, your best option is to immediately address the bottom hook (behind your knee) by pressing your trapped knee toward the mat and angling it inward to create space for extraction. Simultaneously establish upper body control through collar tie or cross-face to prevent them from elevating their hips and completing sweeps. If you can neutralize the bottom hook, the remaining control becomes manageable. Avoid simply standing tall and hoping to step free, as this gives them maximum sweeping leverage. Lowering your base and working systematically is essential.",
         "answer_line": "Press knee down, collar tie",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "How should your stance change when you recognize an opponent is playing seated guard and threatening leg entries?",
+        "question": "How should your standing stance change against a seated guard threatening leg entries?",
         "answer": "Widen your stance beyond shoulder width with knees bent and weight distributed evenly between both feet. Keep your hips low rather than standing fully upright, reducing the leverage available if they do obtain grips. Position your feet at angles rather than parallel, making it harder for them to line up a clean ankle grip on either side. Actively manage distance so their feet cannot reach your hips, and keep your hands low to intercept any reaching grips toward your ankles before they connect.",
         "answer_line": "Wide stance, hips low, feet angled",
         "distractors": {

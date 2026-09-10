@@ -72,7 +72,7 @@ description: "Defend the Overhook Pass to Side Control in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your free arm frame is being stripped repeatedly by the passer - what alternative defensive strategy should you employ?",
+      "name": "The passer keeps stripping your free-arm frame: what alternative defense should you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If frames are being consistently stripped, transition to leg-based defense by inserting a knee shield between your bodies or hooking the passer's far leg with your inside foot to disrupt their base. Alternatively, use the moment when they strip your frame to initiate a hip escape in the opposite direction, converting their grip-breaking effort into your defensive movement. If both arm and leg defenses are failing, focus on timing a bridge reversal during the hip-walking phase when their base is narrowest."
@@ -88,7 +88,7 @@ description: "Defend the Overhook Pass to Side Control in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive approach if you have already been flattened and the passer is beginning to walk their hips?",
+      "name": "You are already flattened and the passer is walking their hips: how do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once flattened with the passer walking their hips, shift from prevention to damage control. Attempt an explosive bridge directly into the overhook side to disrupt their arc, then immediately hip escape in the opposite direction during the recoil. If that fails, focus on retaining half guard by using your legs to entangle their near leg before they clear completely. As a last resort, time your defensive effort for the grip transition moment when they release the overhook to establish crossface, using that brief gap to insert frames or create enough space for minimal guard recovery."

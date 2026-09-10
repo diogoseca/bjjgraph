@@ -64,7 +64,7 @@ description: "How to defend against Leg Recovery to De La Riva in BJJ. Maintain 
     },
     {
       "@type": "Question",
-      "name": "Why is hip-level weight distribution more effective than chest-level pressure at preventing leg extraction?",
+      "name": "Holding leg drag control, why does hip-level weight stop leg extraction better than chest pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip-level weight pins their pelvis to the mat, which directly prevents the hip escape that creates the angle needed for extraction. Chest-level pressure may feel heavy but leaves their hips mobile—they can shrimp away and create the arc path for their trapped leg. The extraction requires hip movement first, so controlling their hips addresses the root cause rather than a symptom."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Recovery to De La Riva in BJJ. Maintain 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially freed their leg but the DLR hook is not yet established—what is the highest-percentage response?",
+      "name": "They partly freed the leg from your leg drag but no DLR hook yet — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-drag their leg by gripping the ankle or knee and pulling it back across their body before the hook lands behind your knee. This window between extraction and hook insertion is typically under one second, so you must react instantly. If you are too slow for the re-drag, accelerate to side control consolidation rather than fighting a half-established DLR guard."

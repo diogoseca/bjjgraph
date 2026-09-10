@@ -56,7 +56,7 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel your opponent's whizzer deepening and crossface pressure increasing - what is the earliest defensive response that prevents the pass sequence from progressing?",
+      "name": "Their whizzer deepens and crossface builds: your earliest defense against the Old School Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately deepen your underhook by driving your elbow tighter to your ribs and gripping higher on their back. Simultaneously pump the lockdown to create space and pull their head down with your control arm to break the crossface angle. The goal is to prevent flattening before it starts - once you are flat, the defensive task becomes dramatically harder. If the crossface is already winning, begin positioning for deep half entry as a contingency."
@@ -72,7 +72,7 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your lockdown is being systematically broken through angular pressure and you cannot maintain it - what is your best contingency transition?",
+      "name": "Your lockdown is being broken by angular pressure and cannot hold: best contingency transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to deep half guard by diving your head underneath the opponent's hips before the lockdown fully breaks. This requires releasing the head control and using that arm to underhook their far leg while simultaneously threading your body underneath them. The deep half entry must happen while you still have some lockdown tension remaining to control their movement during the transition. If deep half is not available, insert a knee shield immediately upon lockdown release to establish distance before they can drive through."
@@ -88,7 +88,7 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "What three signals indicate you should abandon Old School position and transition to an alternative guard?",
+      "name": "Which three signals say to abandon Old School bottom and switch to another guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when: 1) Your body has been flattened onto your back and you cannot recover side angle despite lockdown pumping, meaning your sweep leverage is eliminated; 2) Your underhook has been fully neutralized by the whizzer and you cannot re-establish it within two attempts, removing your primary offensive pathway; 3) The lockdown tension has degraded below the threshold needed to control the opponent's leg movement, meaning extraction is imminent. Any one of these signals warrants immediate transition to deep half, knee shield, or closed guard recovery."

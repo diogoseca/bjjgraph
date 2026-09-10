@@ -56,7 +56,7 @@ description: "Defend and counter the Buggy Choke to North-South transition in BJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary recognition cue that your opponent is transitioning from buggy choke to north-south?",
+      "name": "What is the main cue that they are switching from buggy choke to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is the sudden release or significant decrease of choking pressure on your neck combined with the feeling of the attacker's hands shifting from collar or neck grips to shoulder control. This grip change signals that the attacker has abandoned the submission and is converting to positional advancement. You may also feel their hips begin moving laterally around your head rather than staying heavy on your near hip."
@@ -72,7 +72,7 @@ description: "Defend and counter the Buggy Choke to North-South transition in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released the buggy choke grips and their hips are beginning to walk around your head — what is your highest-percentage defensive response?",
+      "name": "They release the buggy choke grips and walk their hips around your head: best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest-percentage response is to immediately sit to half guard or turn to face the attacker before they complete the perpendicular alignment. Sitting to guard works because the grip release reduces the downward force preventing your hip movement, and your momentum toward sitting can be faster than their hip walk. If sitting is blocked, turn your body toward the attacker to prevent perpendicular alignment — they cannot establish north-south if you face them directly."

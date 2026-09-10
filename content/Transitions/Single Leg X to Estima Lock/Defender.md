@@ -50,7 +50,7 @@ description: "How to defend the Estima Lock entry from Single Leg X-Guard in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important recognition cue that the Estima Lock is being entered from Single Leg X-Guard?",
+      "name": "Top player: what cue shows the Estima lock is being entered from single leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Feeling the bottom player cup your heel and pull your foot tight to their chest or shoulder. This is the moment the ambient Single Leg X foot control is being converted into a dedicated grip, and it is the alarm to react immediately - before the calf clamp and figure-four consolidate, the entry is still beatable."

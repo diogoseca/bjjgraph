@@ -72,7 +72,7 @@ description: "How to prevent Reverse De La Riva Recovery in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a strong hip escape during your pass attempt—should you follow their movement or cut the angle?",
+      "name": "Passing when your opponent hip escapes hard: follow their movement or cut the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Cut the angle rather than following their movement. Chasing their hip escape means you are always behind their movement, circling without consolidating position. Instead, drive your shoulder pressure diagonally across their centerline toward the direction they are escaping. This collapses the space they are trying to create and prevents the angle formation needed for hook reinsertion. Think of it as driving through them rather than around them—your pressure should meet them where they are going, not where they were."
@@ -80,7 +80,7 @@ description: "How to prevent Reverse De La Riva Recovery in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How do you identify whether the bottom player is attempting RDLR recovery versus transitioning to a completely different guard?",
+      "name": "Which cue shows the bottom player is recovering RDLR rather than switching to another guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "RDLR recovery is characterized by the inside leg threading motion underneath your near leg, hip escape away from you to create hook reinsertion angle, and their outside hand reaching for your near-side pants. If instead you see them sitting up with both legs pulling in (butterfly transition), posting on a far hip (seated guard), or extending both legs to push you away (open guard reset), they are transitioning to a different guard. The distinction matters because each requires different counter-passing responses—RDLR recovery demands near-leg control while guard transitions may require different pressure angles."

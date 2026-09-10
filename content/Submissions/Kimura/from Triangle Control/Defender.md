@@ -68,7 +68,7 @@ description: "Defend the arm attack while addressing the retained triangle entan
     },
     {
       "@type": "Question",
-      "name": "What should you do if Kimura from Triangle Control is secured and safe defense is no longer available?",
+      "name": "Once the Kimura from triangle control is locked and no safe defense remains, what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when safe defense is no longer available; do not wait for pain or try to force through a secured joint lock."

@@ -104,7 +104,7 @@ description: "Master the attacker perspective for the kneebar to 50-50 transitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their leg as you release kneebar grips to thread into 50-50 - how do you recover?",
+      "name": "They start extracting the leg as you release grips to thread 50-50; how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If extraction begins during grip transition, immediately re-secure whatever grip remains rather than continuing the 50-50 threading. Use the arm nearest their heel to maintain control while your legs try to re-establish kneebar entanglement. If their leg is already partially free, transition to a straight ankle lock on the exposed ankle or follow their retreating leg to chase into 50-50 from a different entry angle rather than forcing the original path."

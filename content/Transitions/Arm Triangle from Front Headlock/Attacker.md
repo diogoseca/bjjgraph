@@ -76,7 +76,7 @@ description: "How to execute Arm Triangle from Front Headlock in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends your guillotine attempt by tucking their chin and turning their head away - how does this create the arm triangle opportunity?",
+      "name": "From front headlock, how does their chin tuck and head turn open the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their chin and turns their head to defend the guillotine, they rotate their body slightly and bring their near arm closer to their own neck as part of the defensive posture. This chin tuck and head turn actually positions their arm in the exact alignment needed for the arm triangle. Their defensive rotation also partially exposes the head-and-arm line that was unavailable during the guillotine attempt. You capitalize by immediately guiding their near arm tight against their neck and threading into the arm triangle configuration."
@@ -100,7 +100,7 @@ description: "How to execute Arm Triangle from Front Headlock in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "You have locked the arm triangle grip but the opponent posts their far hand on the mat to prevent you from walking to side control - what adjustment do you make?",
+      "name": "With the arm triangle locked, they post their far hand to stop your walk; what do you change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to collapse their posting arm by pushing it toward their body or blocking at the elbow. Alternatively, swim your free arm under their posting arm to remove the base. If the post is too strong to collapse, switch your lateral walk direction momentarily to off-balance them before resuming. You can also drive your chest weight forward to flatten them face-down, which removes the post entirely. The key is addressing the post immediately rather than trying to force the walk against a strong frame."
@@ -108,7 +108,7 @@ description: "How to execute Arm Triangle from Front Headlock in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical error that causes the arm triangle to fail during the grip transition from front headlock?",
+      "name": "What is the most common error when regripping from front headlock into the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing chest pressure on the opponent's upper back while reconfiguring from front headlock grip to arm triangle grip. This momentary pressure release allows the opponent to posture up, extract their head, or create distance. The grip change must happen while maintaining constant body weight on their upper back. Your chest should never leave their body during the transition. Practice the arm slide as a smooth reconfiguration rather than a lift-and-regrip motion to eliminate this gap."

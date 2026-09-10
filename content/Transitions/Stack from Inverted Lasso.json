@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "How does the stack mechanically create slack in the lasso hook, and why is this necessary before arm extraction?",
+        "question": "How does stacking create slack in the lasso, and why is that needed before arm extraction?",
         "answer": "The lasso hook works by threading the bottom player's leg through your arm with tension maintained by hip elevation and sleeve grip. When you stack the bottom player by folding their knees toward their face, this shortens the distance between their hip and shoulder, which reduces the circumference of the loop their leg makes around your arm. This slack is necessary because the lasso's mechanical strength comes from structural tension — once slack exists, your arm can be withdrawn through the loosened loop without fighting the full resistance of the taut hook.",
         "answer_line": "Folds knees, shortens the loop",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical difference between executing the stack from standing versus kneeling?",
+        "question": "What is the mechanical trade-off between stacking from standing versus kneeling?",
         "answer": "Standing stack provides more gravitational advantage and compressive force because your full body weight drives downward through the opponent without being partially supported by your own knees. However, standing sacrifices lateral base stability and recovery options if the stack fails or the opponent initiates a sweep. Kneeling stack offers better lateral stability through the posted knee and greater ability to absorb sweep attempts, but generates less compression. Choose standing when you have clear timing and angle, kneeling when the situation is uncertain.",
         "answer_line": "Standing: more power, less stable",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "After extracting your arm from the lasso, what immediate actions prevent the opponent from recovering guard?",
+        "question": "Right after freeing your arm from the lasso, what stops their guard recovery?",
         "answer": "Immediately establish crossface or underhook control with the freed arm to prevent the opponent from turning into you and reestablishing grips. Maintain hip pressure throughout to keep them compressed while you work to clear the remaining leg entanglement. The critical window is the 1-2 seconds after extraction before they can recover — if you hesitate or lose pressure, they will re-grip your sleeve and potentially re-establish the lasso or transition to another guard system.",
         "answer_line": "Crossface or underhook, right away",
         "distractors": {
@@ -477,7 +477,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first physical cue that indicates your opponent is initiating a stack pass rather than another passing approach?",
+        "question": "What first cue tells you they're stacking rather than using another pass?",
         "answer": "The first cue is the directional shift of their pressure from lateral or grip-focused to direct forward compression toward your midsection. You will feel their weight dropping and driving toward you rather than circling, fighting grips, or stepping around. Their shoulder begins lowering toward your chest, and their hands typically move to secure hip or pants grips to anchor your lower body before driving forward. This forward commitment pattern is distinct from cartwheel passes or arm extraction attempts.",
         "answer_line": "Forward compression, hip/pants grip",
         "distractors": {
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "How can you use the opponent's stacking pressure to generate a counter-sweep rather than just defending?",
+        "question": "How do you turn their stacking pressure into a counter-sweep from inverted lasso?",
         "answer": "The opponent's forward weight commitment during the stack creates an inherent balance vulnerability — their center of gravity moves ahead of their base. By extending the lasso hook while pulling strongly with the sleeve grip at the moment of maximum forward commitment, you convert their linear forward force into rotational momentum that carries them over your body. The key is timing: execute when their hips are above their shoulders and their weight is past the tipping point, not before or after this critical moment.",
         "answer_line": "Extend hook, yank sleeve at peak",
         "distractors": {

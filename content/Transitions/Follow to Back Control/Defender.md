@@ -56,7 +56,7 @@ description: "How to defend against Follow to Back Control in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from leg attack to back take?",
+      "name": "What is the earliest cue that they are switching from leg attack to taking your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the figure-four leg configuration release combined with a forward push off your trapped leg. The attacker actively pushes away from your leg to generate momentum toward your upper body. This release of leg pressure is the signal to immediately accelerate your rotation or prepare defensive frames."
@@ -64,7 +64,7 @@ description: "How to defend against Follow to Back Control in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released their legs and is following your rotation—should you try to re-engage the leg entanglement or continue to turtle?",
+      "name": "They released their legs and are following your rotation — re-engage legs or keep turtling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In most cases, continue to turtle. Once the attacker has released and committed their hips to following, attempting to re-engage legs requires reversing your momentum entirely, which is slower than their forward drive. Complete your rotation to consolidated turtle where you have established defensive options. Only reverse direction if you detect the release very early and the attacker hesitates before committing to the follow."

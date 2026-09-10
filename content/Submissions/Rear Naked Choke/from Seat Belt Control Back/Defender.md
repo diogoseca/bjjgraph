@@ -58,7 +58,7 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What tactile and visual cues indicate the Rear Naked Choke attempt is beginning from seat belt control?",
+      "name": "Defending seat belt back control: what cues signal the RNC attempt is starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is the attacker's over-arm hand releasing the seat belt grip connection — you will feel the hand separation at your chest or lat. Simultaneously, the attacker's chest pressure typically increases as they commit weight forward for stability during the transition. The under-arm may shift to pin your near-side defending hand. You may also feel the attacker's head move to one side as they position for the choking angle. Recognizing these cues early — particularly the hand release — gives you the critical 1-2 second window to establish defensive grips before the forearm reaches your neck."
@@ -82,7 +82,7 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent's forearm has partially slipped under your chin — what is the emergency defense protocol?",
+      "name": "Their forearm has partly slipped under your chin from seat belt; what is your emergency defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately two-on-one the choking wrist and pull it down and across your body toward your far hip with maximum urgency. Simultaneously re-tuck your chin as hard as possible, trying to slip the jawline back over the forearm to re-establish the chin barrier. Turn your head toward the bicep of the choking arm rather than away from it — this closes the remaining space. If these actions do not dislodge the forearm within 2-3 seconds and you feel the attacker establishing the figure-four behind your head, tap immediately. This is not a position where continued resistance is safe."
@@ -90,7 +90,7 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What is the correct priority sequence when escaping seat belt back control under an active choke threat?",
+      "name": "What is the correct priority order for escaping seat belt back control under an active choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Priority 1: Protect the neck — chin tucked, hands defending collar line, never leave the neck exposed. Priority 2: Control the choking arm — two-on-one the threatening wrist to prevent advancement toward the neck. Priority 3: Break or weaken the seat belt grip connection — one hand fights the wrist while hip movement disrupts the grip structure. Priority 4: Clear hooks — once the grip is weakened and neck is defended, use hip escapes to remove at least the bottom hook. Priority 5: Turn and face — with hooks cleared and grips broken, rotate to face the attacker and recover guard. Never advance to a lower priority while a higher priority is unresolved."

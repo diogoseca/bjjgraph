@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Your opponent has cupped your heel and is beginning to apply rotational pressure — what immediate sequence do you execute?",
+        "question": "They cup your heel and start rotating — what do you do immediately?",
         "answer": "Immediately strip their heel grip with both hands using an explosive two-on-one break on their weaker hand. As you strip, simultaneously begin rotating your hips into the direction of the heel hook. Push off your free foot on their hip and pull your trapped knee to your chest. If the grip strip fails, tap immediately before rotational pressure reaches your knee ligaments — do not attempt a second strip under active pressure.",
         "answer_line": "Strip grip and rotate together",
         "distractors": {
@@ -368,7 +368,7 @@
         }
       },
       {
-        "question": "Your initial rotational escape attempt is blocked because the opponent followed your rotation — what follow-up escape do you chain into?",
+        "question": "Your rotational heel hook escape is followed — what escape do you chain into next?",
         "answer": "Immediately chain into the inversion escape by rolling toward the opponent's legs in the opposite direction of your initial rotation. This perpendicular angle change is harder for the opponent to follow than a continued rotation in the same plane. If the inversion is also blocked, attempt the standing extraction by posting your free foot and driving upward. These chains must flow without pause between attempts.",
         "answer_line": "Invert opposite direction",
         "distractors": {
@@ -382,7 +382,7 @@
         }
       },
       {
-        "question": "During your escape rotation, your opponent releases the heel and switches to a kneebar attack on your extending leg — how do you adjust?",
+        "question": "They drop the heel hook and switch to a kneebar on your extending leg — how do you adjust?",
         "answer": "Immediately bend your knee sharply and pull it to your chest to prevent full leg extension, which is what the kneebar requires. Rotate your body to face the opponent and use your free leg to push their hips away. If the kneebar grip is established on your straight leg before you can bend it, apply boot defense by plantar-flexing your foot and begin kneebar-specific escape protocols.",
         "answer_line": "Bend knee, pull to chest",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "When should you abandon the heel hook attempt and transition to a kneebar during the opponent's escape?",
+        "question": "When should you abandon the heel hook and switch to a kneebar during their escape?",
         "answer": "Transition to kneebar when the opponent's rotational escape has loosened the triangle enough that their leg begins extending during extraction — specifically when their knee straightens past 90 degrees and moves away from their chest. At this point, heel hook access is compromised but the extended leg is perfectly positioned for kneebar control. The transition must be immediate; hesitation allows them to complete extraction.",
         "answer_line": "Knee extends past 90 degrees",
         "distractors": {
@@ -580,7 +580,7 @@
         }
       },
       {
-        "question": "How do you maintain hip pressure when your opponent posts their free foot on your hip to create escape space?",
+        "question": "They post their free foot on your hip to escape the heel hook — how do you keep hip pressure?",
         "answer": "Hook their free foot with your near-side hand and redirect it away from your hip, or use your elbow to knock the foot off your hip while maintaining your triangle with your legs. If you cannot remove the foot, drive your hips forward harder to overcome the pushing force they generate through the post. The critical principle is never allowing their free foot to stay posted long enough to generate sustained rotational force.",
         "answer_line": "Hook or knock off their foot",
         "distractors": {

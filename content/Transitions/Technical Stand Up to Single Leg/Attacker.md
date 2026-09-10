@@ -90,7 +90,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls hard and you cannot complete the single leg - what are your immediate chain options?",
+      "name": "They sprawl hard and your single leg stalls. What are your immediate chain options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chain immediately rather than stalling in a sprawled position. Primary options: switch to ankle pick by releasing upper grip and securing the ankle while driving shoulder into their knee; thread your legs into Single Leg X-Guard by dropping hips underneath their sprawled leg; convert to double leg if second leg is accessible; or pull butterfly guard to reset with offensive initiative. The key is maintaining forward pressure and attacking initiative rather than allowing them to consolidate the sprawl into a front headlock."
@@ -98,7 +98,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What structural elements make the technical standup safe against forward driving pressure from the top player?",
+      "name": "Which structural elements keep the technical standup safe against the top player's forward drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing."
@@ -114,7 +114,7 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
+      "name": "When should you abandon the technical standup and use a position-specific escape instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control."

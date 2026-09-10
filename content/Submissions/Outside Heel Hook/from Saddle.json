@@ -291,7 +291,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the outside heel hook primarily attack and how does this differ from the inside heel hook?",
+        "question": "Which structures does the outside heel hook attack, and how does the inside version differ?",
         "answer": "The outside heel hook primarily targets the lateral collateral ligament (LCL), lateral meniscus, and applies stress to the ACL from a lateral vector. The inside heel hook instead targets the medial collateral ligament (MCL) and medial meniscus with medial rotation. Both can damage the ACL but through different mechanical pathways. The outside variant attacks by rotating the heel laterally, creating stress on the outer knee structures rather than the inner structures targeted by the inside heel hook.",
         "safety_critical": true,
         "answer_line": "LCL + lateral meniscus (outer)",
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "Your opponent has their knee rotated inward to hide the heel from your inside heel hook—how do you transition to the outside heel hook?",
+        "question": "Their knee is rotated in, killing the inside heel hook; how do you switch to the outside?",
         "answer": "Maintain hip pressure and leg configuration stability while shifting your bottom hand to cup the heel from the lateral side, positioning your wrist against the back of the heel with fingers wrapping outward. Then thread your top arm under the Achilles to establish a figure-four set at an angle that generates lateral rotational torque. The key is that their defensive knee rotation, which closes the inside path, simultaneously opens the lateral heel for your outside attack. Do not release hip pressure during this transition.",
         "safety_critical": false,
         "answer_line": "Cup heel outward, keep hip pressure",
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "What grip configuration distinguishes the outside heel hook from the inside heel hook in the finishing position?",
+        "question": "What grip difference distinguishes the outside from the inside heel hook at the finish?",
         "answer": "The outside heel hook uses a figure-four grip angled to produce lateral (outward) rotation on the heel, with the wrist bone positioned against the posterior-lateral aspect of the heel and fingers wrapping toward the outside of the foot. The inside heel hook figure-four is angled to produce medial (inward) rotation with the grip oriented to pull the heel toward the attacker's centerline. The arm threading under the Achilles tendon serves the same structural purpose in both variants but at different rotational angles.",
         "safety_critical": false,
         "answer_line": "Wrist drives lateral rotation",
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "You have the outside heel hook grip locked but your opponent starts rotating their body in the direction of your rotation to relieve knee stress—what adjustment do you make?",
+        "question": "In the saddle, they rotate with your outside heel hook to relieve knee stress: what adjustment?",
         "answer": "Ride the rotation with your own body while maintaining hip pressure. If they rotate sufficiently, their movement actually re-exposes the medial side of the heel, allowing you to switch back to the inside heel hook direction. Use their rotational momentum to accelerate your grip transition to the inside attack. This inside-outside switching based on their defensive rotation is the core dilemma that makes the saddle position so dominant for heel hook attacks.",
         "safety_critical": false,
         "answer_line": "Ride rotation, switch to inside",
@@ -396,7 +396,7 @@
         }
       },
       {
-        "question": "Your opponent commits both hands to strip your heel cup before you establish the figure-four—how do you respond?",
+        "question": "They commit both hands to strip your heel cup before your figure-four; how do you respond?",
         "answer": "Use your free hand to fight for grip retention on the heel cup while recognizing that their two-handed grip fight has removed their ability to post with their free leg. Tighten your leg configuration to capitalize on their compromised base. If they successfully strip the heel cup, immediately re-engage hip pressure and reset to positional control rather than desperately chasing the grip. You can reattempt the heel cup from a stronger angle once you re-establish structural control.",
         "safety_critical": false,
         "answer_line": "Tighten legs, exploit broken base",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "Why is it important to generate rotational force through your torso rather than isolating wrist movement?",
+        "question": "Why generate heel hook rotation through your torso rather than isolating the wrist?",
         "answer": "Torso-generated rotation uses your entire upper body as a coordinated lever system, producing significantly more rotational force than isolated wrist movement while reducing strain on your own smaller joints. Wrist-isolated rotation risks wrist injury to the attacker and produces insufficient torque against a resistant opponent's knee joint. The figure-four grip should transmit force from your core and shoulder rotation through the connected arm structure to the opponent's heel, not generate force at the point of contact.",
         "safety_critical": false,
         "answer_line": "More torque, less strain on wrist",
@@ -426,7 +426,7 @@
         }
       },
       {
-        "question": "In competition, how do you adjust your outside heel hook approach when facing an opponent with strong leg lock defense?",
+        "question": "In competition, how do you adapt your saddle heel hook attack against a strong leg locker?",
         "answer": "Against experienced leg lock defenders, prioritize establishing unassailable positional control in the saddle before showing any submission intention. Build the complete control hierarchy—perpendicular alignment, hip pressure, inside position, free leg control—and let the opponent exhaust their defensive energy. Use the inside-outside heel hook dilemma to force defensive decisions, then exploit the inevitable opening created by their commitment to defending one direction. Patient positional dominance produces higher finish rates than aggressive submission hunting against skilled defenders.",
         "safety_critical": false,
         "answer_line": "Build control first, hunt sub later",
@@ -579,7 +579,7 @@
         }
       },
       {
-        "question": "What defensive options are available against the outside heel hook from saddle at different stages of the attack?",
+        "question": "What defenses are available at each stage of an outside heel hook from the saddle?",
         "answer": "Before the grip is established: rotate your knee outward to hide the lateral heel and fight the attacker's hand positioning. During grip transition: use two-on-one grip fighting to strip the heel cup before the figure-four connects. After figure-four is locked: counter-rotate your body to reduce rotational stress while working grip breaks. Once rotation is actively loading the knee: tap immediately, as escape is no longer safely possible at this stage.",
         "safety_critical": true,
         "answer_line": "Grip fight early, tap once loaded",
@@ -594,7 +594,7 @@
         }
       },
       {
-        "question": "Why is it dangerous to explosively pull your leg away when the attacker has heel control in the outside heel hook?",
+        "question": "Why is explosively yanking your leg out dangerous once they have heel control?",
         "answer": "Explosive leg retraction creates kinetic energy that adds to the rotational force already being applied to your knee by the attacker's grip. Instead of helping you escape, the pulling motion accelerates the very mechanics that cause ligament damage. The correct response is to move your body toward the attacker to reduce extension and rotational stress, then systematically address their grips before attempting any leg movement.",
         "safety_critical": true,
         "answer_line": "Move toward attacker, don't pull",

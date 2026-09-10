@@ -114,7 +114,7 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should attempt a backstep versus a direct lapel strip against worm guard?",
+      "name": "Against worm guard, what decides between a backstep and a direct lapel strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep is the better choice when the bottom player's grip fighting effectively defends direct lapel stripping attempts—when they have strong hand control and can re-feed the lapel as fast as you strip it. The direct lapel strip is preferable when you can isolate their grips and methodically break the lapel connection without exposing your back. The backstep carries more risk of back exposure but bypasses strong grip fighters entirely by changing the passing angle."

@@ -64,7 +64,7 @@ description: "Master preventing the ankle lock escape to standing. Complete guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent breaks your ankle grip but has not yet stood up - what is your highest percentage recovery?",
+      "name": "They break your ankle grip but haven't stood yet: what's your highest-percentage recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-grip the ankle before they create distance, targeting their heel with your cupping hand while your forearm re-establishes Achilles contact. Simultaneously close your legs tighter to prevent the standing drive that follows grip breaks. If re-gripping fails, transition immediately to hooking their far leg with your inside foot to establish inside ashi garami before they disengage completely. The worst option is allowing them to stand without any remaining leg engagement."

@@ -58,7 +58,7 @@ description: "Learn to defend the arm triangle from Kuzure Kesa Gatame. Recogniz
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from standard Kuzure Kesa Gatame control to an arm triangle?",
+      "name": "How do you recognize Kuzure Kesa Gatame control turning into an arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling the attacker use shoulder pressure to deliberately drive your trapped arm upward toward your own neck rather than simply maintaining the standard scarf hold arm isolation. This is followed by the attacker releasing their arm control and threading their arm over your trapped arm and behind your neck. You may also feel their hips begin to disengage from the scarf hold position as they prepare to walk to the finishing angle."
@@ -74,7 +74,7 @@ description: "Learn to defend the arm triangle from Kuzure Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "What arm positioning prevents the attacker from converting Kuzure Kesa Gatame control into an arm triangle?",
+      "name": "What arm positioning stops Kuzure Kesa Gatame control becoming an arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Actively work to keep your trapped arm low against your body with your elbow tight to your ribs and internal shoulder rotation. The critical mistake is allowing the arm to be driven upward until your forearm crosses your own throat line, which creates the trapped-arm position the attacker needs. Fight every inch of upward arm movement. If you feel the arm sliding up, prioritize elbow retraction and hip escape over other defensive actions."
@@ -82,7 +82,7 @@ description: "Learn to defend the arm triangle from Kuzure Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
+      "name": "Head-and-arm locked from Kuzure Kesa Gatame, angle not yet walked — what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish the choke. Alternatively, bridge powerfully toward the trapped-arm side and pull them into your closed guard to disrupt the angle."
@@ -90,7 +90,7 @@ description: "Learn to defend the arm triangle from Kuzure Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "What are the most common defensive errors that allow the arm triangle transition from Kuzure Kesa Gatame?",
+      "name": "What defensive errors let the attacker get the arm triangle from Kuzure Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is passively allowing the trapped arm to be walked upward against your own neck without resistance, which directly creates the choking configuration. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend by not recognizing the setup cues during the arm repositioning phase, when defense is still achievable."

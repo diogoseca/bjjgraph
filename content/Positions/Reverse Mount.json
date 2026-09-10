@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "How should you distribute your weight to maintain control in reverse mount despite the backward orientation?",
+        "question": "How do you distribute weight to control reverse mount despite the backward orientation?",
         "answer": "Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control.",
         "answer_line": "Sink hip weight onto sternum",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "When does reverse mount naturally occur during rolling, and how should you respond upon recognizing it?",
+        "question": "When does reverse mount arise in rolling, and how should you respond on recognizing it?",
         "answer": "Reverse mount typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Upon recognition, immediately assess whether back control (inserting hooks from the reverse position) or standard mount (180-degree rotation) is the better option based on opponent's body position and defensive posture.",
         "answer_line": "Assess back take vs mount",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "Your opponent turns to their side attempting a hip escape from reverse mount - how do you capitalize?",
+        "question": "In reverse mount, they turn to their side to hip escape—how do you capitalize?",
         "answer": "Their turn exposes their back, creating an excellent opportunity for back take. Insert your first hook on the side they're turning toward, establish seat belt control, and follow with your second hook to secure full back control. This is often a higher-percentage transition than forcing them flat for standard mount.",
         "answer_line": "Insert hook, take the back",
         "distractors": {
@@ -703,7 +703,7 @@
         }
       },
       {
-        "question": "Your opponent is attempting to flatten you completely while in reverse mount - what counter movement should you use?",
+        "question": "Under reverse mount, they're flattening you out—what counter movement do you use?",
         "answer": "Use continuous hip movement and shoulder rolls to prevent flattening. Keep one shoulder off the mat at all times, create angles with your hips, and work to turn into your opponent. Frame against their hips or knees when possible. Never stop moving - constant defensive motion prevents them from settling their weight and establishing complete control.",
         "answer_line": "Keep one shoulder off the mat",
         "distractors": {
@@ -745,7 +745,7 @@
         }
       },
       {
-        "question": "Your opponent shifts their weight forward to attack your neck with a rear naked choke - how do you use this against them?",
+        "question": "Under reverse mount, they lean forward for a rear naked choke—how do you exploit that?",
         "answer": "Their forward weight shift creates an opportunity for explosive bridge and turn. As they commit forward, bridge explosively toward their posted hands, using their own momentum against them. This can create space to turn into them or escape to deep half guard. Their commitment to the attack compromises their base.",
         "answer_line": "Bridge toward their posted hands",
         "distractors": {
@@ -759,7 +759,7 @@
         }
       },
       {
-        "question": "Why should you keep your elbows tight to your ribs rather than extending your arms when defending from reverse mount bottom?",
+        "question": "Why keep elbows tight to your ribs rather than extending your arms under reverse mount?",
         "answer": "Extended arms are vulnerable to kimura attacks, arm triangles, and wrist control that leads to back control. Keeping elbows tight to ribs creates a compact defensive shell that protects your arms while keeping hands available for neck defense. The compact posture also makes it harder for the opponent to isolate and attack individual limbs.",
         "answer_line": "Extended arms invite kimura",
         "distractors": {
@@ -833,7 +833,7 @@
       }
     },
     {
-      "question": "Why does reverse mount function as a transitional position rather than a stable destination for either player?",
+      "question": "Why is reverse mount transitional rather than a stable position for either player?",
       "answer": "The backward orientation removes the head-and-arm control that anchors standard mount, so the top player has no upper-body attachment to arrest the opponent's movement and must rely purely on hip weight and base. This makes the configuration inherently unstable and time-sensitive, favoring whichever player acts first. For the top player it is a launch point to standard mount or back control, and for the bottom player it is a brief window to escape before hooks are inserted, which is why holding it statically only raises escape probability for the bottom.",
       "answer_line": "No head control makes it unstable",
       "distractors": {
@@ -847,7 +847,7 @@
       }
     },
     {
-      "question": "Where must the mounted player's weight be concentrated for reverse mount to control at all, given the reversed facing?",
+      "question": "Where must the top player's weight concentrate for reverse mount to control at all?",
       "answer": "Because there is no chest-to-chest or head connection to distribute load in this orientation, the hips become the sole heavy control point, and weight must sink through the buttocks and lower back directly onto the sternum or upper abdomen rather than being carried in the legs or posted arms. That single downward pressure point is what pins the ribcage and denies the bottom player the space to bridge or turn. Any weight that stays in the base instead of the hips leaves the position hollow and easy to reverse, which is why reverse mount lives or dies on hip weight alone.",
       "answer_line": "All weight through the hips",
       "distractors": {
@@ -889,7 +889,7 @@
       }
     },
     {
-      "question": "Why does a hip-escape turn from the bottom simultaneously open the top player's back take in reverse mount?",
+      "question": "Why does a hip-escape turn from reverse mount bottom open the top player's back take?",
       "answer": "The top player is already oriented toward the opponent's lower body and hips, so when the bottom player turns to a side to hip-escape, that same rotation exposes their back to the player who is best positioned to attack it. The movement the bottom player instinctively uses to create space is therefore the exact one that opens the line for hook insertion and seat-belt control, converting reverse mount into back control. This shared dynamic is why the position rewards recognition on both sides: the bottom's escape and the top's advancement are the same rotation, so timing and priority alone decide who wins it.",
       "answer_line": "Their escape turn exposes the back",
       "distractors": {

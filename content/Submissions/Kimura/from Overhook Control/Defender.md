@@ -58,7 +58,7 @@ description: "Defend against the Kimura from overhook control. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a Kimura from Overhook Control is being set up before the grip transition occurs?",
+      "name": "How do you recognize a Kimura from overhook control before the grip transition happens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the attacker's free hand beginning to slide along your trapped arm toward your wrist while they simultaneously increase head pressure and shoulder weight. You will also feel the grip behind your back loosen or shift as they prepare to release it for the figure-four switch. Their hips will begin repositioning to create a perpendicular angle to your shoulder. These combined cues occur 1-2 seconds before the actual grip switch."

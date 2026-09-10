@@ -92,7 +92,7 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward and collapses your frames as you attempt to shrimp—what adjustment do you make?",
+      "name": "Your frames collapse as they drive forward during your leg drag escape — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When frames collapse, do not continue the shrimp escape attempt. Instead, immediately turn into your opponent and fight aggressively for an underhook on the side they're driving. Accept transitioning to half guard rather than losing the position entirely. The frame collapse indicates the escape window has closed."

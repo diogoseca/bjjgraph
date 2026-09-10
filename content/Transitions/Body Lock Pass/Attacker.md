@@ -74,7 +74,7 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical element to establish before attempting to flatten the opponent in the body lock pass?",
+      "name": "What must you establish before trying to flatten them in the body lock pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A completely tight body lock with zero space between your chest and the opponent's chest. Without this connection, the opponent can insert frames between your bodies and prevent flattening, which is the foundation for the entire passing sequence. The connection must be so tight that they cannot get their hands or elbows between your torsos."
@@ -82,7 +82,7 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong knee shield before you can secure the body lock - how do you address this?",
+      "name": "They get a strong knee shield before you secure the body lock: how do you address it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must address the knee shield before attempting the body lock, because chest-to-chest contact is impossible with a knee between you. Use crossface pressure and hip-to-hip connection to walk past the knee shield first, or smash the knee shield flat by driving your weight into it and pinching your elbow inside their knee. Only once the knee shield is cleared or bypassed should you commit to clasping the body lock."
@@ -98,7 +98,7 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Where should your head be positioned during the body lock pass, and what happens if you move it to look at your trapped leg?",
+      "name": "Where is your head during the body lock pass, and what happens if you look at your trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your head should be driven to the mat on the opposite side from your trapped leg, with your forehead or temple on the mat creating crossface pressure. If you lift your head to look at your trapped leg, you remove the crossface effect, allowing the opponent to turn into you, create frames, or initiate an underhook battle. The pass should be executed by feel, not by sight. Your head position is non-negotiable."
@@ -114,7 +114,7 @@ description: "How to execute Body Lock Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent locks down your trapped leg during the pass attempt - what is the correct response sequence?",
+      "name": "They lock down your trapped leg during the body lock pass: what is the correct response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, stop trying to extract your leg and commit to flattening the opponent with maximum chest pressure and head control. A flattened opponent generates significantly less force through the lockdown. Once they are flat, control their far knee with one hand to prevent them from re-engaging the lockdown, then methodically work your trapped leg free through small hip adjustments. Attempting to rip the leg free before flattening wastes energy and creates space they can exploit."

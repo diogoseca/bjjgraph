@@ -56,7 +56,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting Lockdown Recovery from bottom Modified Mount?",
+      "name": "What's the earliest cue they're going for Lockdown Recovery from bottom modified mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player turning their hips toward your posted leg side. Before they can thread any legs around your posted leg, they must first create an angle by rotating their hips in that direction. This hip rotation precedes the leg threading by a full beat, giving you a window to react. You will feel their hip turning under your across-body knee before their legs move. Secondary cues include their far-side hand framing on your hip and their near-side arm staying tight rather than reaching upward."
@@ -64,7 +64,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid pulling your trapped leg straight backward once the Lockdown figure-four is established?",
+      "name": "Why not pull your trapped leg straight back once the lockdown figure-four is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Lockdown figure-four is mechanically designed to resist backward linear force - pulling straight back actually tightens the bottom player's grip because their legs extend with yours, maintaining the lock. Additionally, backward extraction extends your leg into the exact position needed for an Electric Chair setup, giving the bottom player their primary submission opportunity. Instead, use circular motion to extract: rotate your knee inward toward their centerline while driving hip pressure downward. This angle changes the force vector to one the Lockdown configuration is weakest against."
@@ -72,7 +72,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has hooked your ankle with their bottom leg but has not yet completed the figure-four - what is your optimal response?",
+      "name": "They hooked your ankle but haven't finished the figure-four: what's your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical intervention window. Immediately drive your posted knee forward into their hip crease while simultaneously increasing crossface or shoulder pressure to flatten them. The forward knee drive crushes the space they need to wrap their top leg over to complete the triangle. If the hook is deep, use a windshield-wiper motion circling your foot outward and backward to strip their instep hook. The key is acting before the top leg wraps over - once both legs are triangled, extraction difficulty increases dramatically."
@@ -80,7 +80,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your Modified Mount posting distance to prevent Lockdown Recovery while maintaining stability?",
+      "name": "How should you set posting distance in modified mount to deny Lockdown Recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg should be close enough to your body that the bottom player cannot fit both their legs through the gap between your posted leg and their torso, but far enough out to provide meaningful stability against bridge-and-roll attempts. A good reference is posting with your knee roughly at hip width, foot angled outward at approximately 45 degrees. If your opponent has long legs, you may need to post slightly closer. Continuously adjust based on their reach attempts - if they are getting close to threading, tighten the distance."
@@ -88,7 +88,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "When the bottom player commits to the Lockdown entry, what submission opportunity opens for you as the top player?",
+      "name": "When the bottom player commits to the lockdown entry, what submission opens for you on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player commits their hips and legs to the Lockdown capture, their near-side arm defense often loosens because their focus and physical energy shift to the leg threading motion. This creates an armbar opportunity from Modified Mount - their near-side arm may extend slightly or lose the tight defensive position against their body. You can immediately attack by controlling their wrist and swinging your posted leg over their head for the armbar. The irony is that their escape attempt exposes them to the very submission that Modified Mount naturally facilitates."

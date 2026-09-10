@@ -56,7 +56,7 @@ description: "Defend the Sweep from Meathook in BJJ. Learn base recovery, weight
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why does the Meathook sweep specifically target the trapped arm side rather than any other direction?",
+      "name": "Why does the Meathook sweep target the trapped arm side specifically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped arm cannot post or create base on that side due to the shin hook isolation. This removes half the opponent's defensive structure in one specific direction. Any other sweep direction allows the free arm to post and resist. The sweep exploits the precise structural gap that Meathook creates, making directional awareness the most critical element of sweep defense."
@@ -64,7 +64,7 @@ description: "Defend the Sweep from Meathook in BJJ. Learn base recovery, weight
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player's hips beginning to elevate while in Meathook top. What immediate base adjustment prevents the sweep?",
+      "name": "Meathook top: their hips start to elevate—what base adjustment stops the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free arm wide toward the trapped arm side immediately, creating a tripod base structure. Simultaneously shift your weight toward the non-trapped arm side to counterbalance the directional force. These two adjustments together create structural resistance to the sweep. However, recognize that the wide post opens submission angles, so you must begin working on arm extraction or posture recovery immediately."
@@ -80,7 +80,7 @@ description: "Defend the Sweep from Meathook in BJJ. Learn base recovery, weight
     },
     {
       "@type": "Question",
-      "name": "What defensive approach addresses both the sweep threat and the submission threats from Meathook simultaneously?",
+      "name": "From Meathook top, what single defense answers both the sweep and the submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive posture recovery addresses all threats because it removes the Meathook control structure entirely. By breaking posture free and extracting the trapped arm, you eliminate the foundation of both sweeps and submissions. No other single defensive action resolves both threat categories. This is why posture recovery should be the primary objective, with base adjustment serving as interim protection while working toward full escape."

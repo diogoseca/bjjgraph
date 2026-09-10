@@ -68,7 +68,7 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a knee slice pass is about to be initiated from half guard top?",
+      "name": "From half guard bottom, what is the earliest cue that a knee slice is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer establishing a collar grip or crossface with their lead hand while their trailing hand reaches for your far hip or pant leg. This dual grip setup is the prerequisite for the slice and should trigger immediate defensive framing. Additionally, watch for their head positioning to the far side and their knee beginning to angle diagonally across your thigh."
@@ -84,7 +84,7 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun the knee slice and their knee is halfway across your thigh. What are your best options at this point?",
+      "name": "Their knee slice is halfway across your thigh: what are your best options now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the halfway point, your best options are a deep half guard entry by ducking under their hips as they drive forward, or an aggressive underhook on the trapped-leg side combined with a hip escape to create enough angle to re-insert your knee. A direct knee shield is likely too late at this stage. If neither option is available, prepare to turn to turtle as a last resort to avoid conceding side control, then immediately work to stand or reguard from turtle."
@@ -100,7 +100,7 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What is the danger of attempting an underhook recovery when the passer has already established crossface control?",
+      "name": "Why is reaching for the underhook risky once the passer has the crossface locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer has an established crossface, reaching for the underhook exposes your arm to kimura attacks because the crossface pins your shoulder and limits your ability to withdraw the reaching arm. The passer can catch the reaching arm with their far hand while maintaining crossface with the near arm, isolating your shoulder in a vulnerable position. You must first address the crossface by framing against it or pummeling your head free before committing to the underhook battle."
@@ -108,7 +108,7 @@ description: "How to defend and counter the Knee Slice Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the passer from re-establishing the knee slice after you successfully recover your knee shield?",
+      "name": "After recovering your knee shield, how do you stop them re-establishing the knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After recovering knee shield, immediately establish offensive grips that keep the passer reactive: collar grip to threaten collar drags, sleeve grip to prevent them re-establishing their own grips, and use the knee shield to create distance for angle creation. Threatening sweeps from the knee shield position forces the passer to defend rather than re-setup. A purely defensive knee shield without offensive threat will eventually be passed as the passer methodically works to smash or circumvent it."

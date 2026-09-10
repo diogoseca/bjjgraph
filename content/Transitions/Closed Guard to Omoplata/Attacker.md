@@ -74,7 +74,7 @@ description: "How to execute Closed Guard to Omoplata in BJJ. Attacking perspect
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal hip angle needed before threading your leg over opponent's shoulder for omoplata entry?",
+      "name": "What hip angle do you need before threading your leg over for the omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Approximately 45 degrees perpendicular to opponent's torso. Your hips should be angled so that your body forms an 'L' shape with the opponent's body. This angle allows proper leg threading while maintaining arm control and base breaking capability. Without this angle, the leg cannot be effectively positioned over the shoulder."
@@ -90,7 +90,7 @@ description: "How to execute Closed Guard to Omoplata in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent begins rolling forward to escape the omoplata shoulder pressure?",
+      "name": "They roll forward to escape your omoplata: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their forward roll momentum and transition to back control by releasing the omoplata lock and securing seat belt grip as they expose their back. Alternatively, you can use their roll to complete a sweep to mount position by maintaining hip control and riding their momentum. The key is to never fight against their roll direction but rather use it to advance your position. This is why omoplata is considered a high-percentage position even if the submission doesn't finish."
@@ -106,7 +106,7 @@ description: "How to execute Closed Guard to Omoplata in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Describe the relationship between omoplata and triangle attacks in terms of creating offensive dilemmas?",
+      "name": "How do omoplata and triangle attacks combine to create a dilemma?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Omoplata and triangle create complementary attacks where defense against one naturally sets up the other. When opponent defends triangle by tucking their arm and hiding it close to their body, they create the perfect arm position for omoplata entry. Conversely, when they defend omoplata by withdrawing their arm, they expose their neck for triangle entry. This dual threat forces opponents into positional dilemmas where any defensive choice leads to another attack, exemplifying high-level guard strategy."

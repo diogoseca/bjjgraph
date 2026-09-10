@@ -64,7 +64,7 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window the optimal moment for defensive action rather than after armbar control?",
+      "name": "Why defend during the S-mount to armbar transition rather than after the lock is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition from S Mount to armbar control, the attacker must shift weight backward and change body position. This creates a brief moment of reduced stability where pressure on your shoulder decreases and their leg positions are adjusting. Once all five armbar control points are locked in, escape becomes exponentially more difficult because every defensive avenue is simultaneously blocked."
@@ -72,7 +72,7 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a two-on-one grip and begins leaning back - what escape sequence gives the best chance?",
+      "name": "They have two-on-one on your arm and lean back from S-mount—what escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, reinforce your collar grip to prevent arm extension. Second, bridge explosively toward the attacker's legs to disrupt their base during the fall-back. Third, hip escape in the same direction to create lateral space. Fourth, use your free hand to push their leg off your head. Fifth, extract your arm and immediately recover to half guard. This sequence must execute as one fluid motion during the transition window."

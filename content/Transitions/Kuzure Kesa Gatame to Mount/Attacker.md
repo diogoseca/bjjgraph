@@ -88,7 +88,7 @@ description: "Learn to execute the Modified Kesa Gatame to Mount transition. Ste
     },
     {
       "@type": "Question",
-      "name": "Why is blocking the opponent's far knee the most critical preparatory step before initiating the leg swing?",
+      "name": "Why block their far knee before swinging your leg for the Kuzure Kesa Gatame to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far knee is the opponent's primary defensive weapon against mount entry. The moment they feel your weight shift during the leg swing, their instinct is to insert the far knee between your bodies as a shield. By using your near hip or thigh to preemptively block this insertion path before initiating the swing, you remove their highest-percentage counter before the vulnerability window even opens. Skipping this step is the single most common reason this transition fails."
@@ -96,7 +96,7 @@ description: "Learn to execute the Modified Kesa Gatame to Mount transition. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes hard against your chest as you prepare to transition—how do you capitalize on this reaction?",
+      "name": "They push hard on your chest as you set up the mount transition — how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their extended arms pushing against your chest are committed to vertical force rather than positional hip defense. This creates two opportunities: immediately initiate the leg swing while their arms are occupied and cannot block the incoming leg at hip level, or attack the extended arms with an americana to punish the push and force retraction, creating an even cleaner transition window on the next attempt."
@@ -120,7 +120,7 @@ description: "Learn to execute the Modified Kesa Gatame to Mount transition. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively as your leg swings over their body—what is your immediate response?",
+      "name": "They bridge explosively as your leg swings over toward mount — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand on the mat on the far side to absorb the bridge force while keeping your crossface anchor. Wait for the bridge to collapse rather than fighting through it. If the bridge is strong enough to truly threaten your balance, settle back to Kuzure Kesa Gatame rather than landing in a compromised mount that can be immediately reversed. A controlled abort preserves your dominant position better than a scrambled mount entry."

@@ -76,7 +76,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Rear Naked Choke target and why is proper forearm placement critical?",
+      "name": "What does the rear naked choke target, and why is forearm placement critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The RNC targets both carotid arteries on the lateral sides of the neck, which supply oxygenated blood to the brain. Proper forearm placement positions the bicep on one carotid and the forearm on the other, with the crook of the elbow centered on the trachea. This bilateral compression causes rapid cerebral ischemia leading to unconsciousness in 4-10 seconds. Incorrect placement on the windpipe creates an airway choke that is painful but much slower to produce unconsciousness, causes unnecessary tracheal injury, and gives the opponent significantly more time to mount a defense or escape."
@@ -84,7 +84,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the choke is properly positioned on the arteries rather than the windpipe?",
+      "name": "What tells you the choke is on the arteries rather than the windpipe?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the choke is properly positioned on the carotid arteries, the opponent's face will flush red or purple quickly, they may go limp relatively fast, and the pressure feels like a squeeze around the sides of the neck rather than a crushing force on the front. If the opponent is coughing, gagging, or making choking sounds, the forearm is likely on the trachea rather than the arteries. The correction is to adjust by centering the elbow crook on the trachea so the fleshy forearm and bicep contact the lateral neck where the carotids run."
@@ -100,7 +100,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively during your choke entry—what adjustment prevents them from defending successfully?",
+      "name": "From rodeo ride, they tuck the chin during your entry — what adjustment beats it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the knuckles or blade of your choking hand to work over the chin line, applying consistent downward pressure on the jaw to create the entry pathway. You can also attack over the nose with your forearm, which is uncomfortable enough that most opponents will reflexively adjust their chin position. If the chin tuck is extremely deep, consider transitioning to a short choke (palm-to-palm grip over the chin) which can still generate sufficient pressure to finish, or switch to an arm attack since their hands are occupied protecting the neck rather than defending against arm isolation."
@@ -108,7 +108,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What is the biomechanical difference between finishing with arm squeeze versus chest expansion, and why does it matter?",
+      "name": "In the RNC, why does chest expansion beat arm squeezing mechanically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Arm squeezing relies on the relatively small muscles of the forearms and biceps, which fatigue rapidly under sustained isometric contraction. Chest expansion uses the much larger muscles of the back and chest to drive your torso into the opponent's back while the arms maintain structural grip position. This produces greater sustained force with less energy expenditure. Practically, arm-squeeze finishes tend to burn out within 10-15 seconds if the opponent survives the initial attempt, while chest expansion finishes can be maintained indefinitely because the larger muscle groups resist fatigue far longer."
@@ -116,7 +116,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip position if the opponent begins to roll laterally during the choke attempt?",
+      "name": "RNC from Rodeo Ride: how do you adjust your hips if they start rolling laterally?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll by keeping your chest glued to the opponent's back and adjusting your leg position to stay on top throughout the rotation. Shift your hips in the direction of the roll to maintain the angle of pressure. If the opponent rolls toward your posted leg, use that leg to post and prevent being rolled over. If they roll away from your posted leg, follow and end up in a potentially improved back control position. The critical error is allowing chest separation during the roll, which breaks the choke. Maintain the grip and connection above all else during positional changes."

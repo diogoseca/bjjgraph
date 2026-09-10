@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls their hips back hard when they feel you establishing the two-on-one grip. How do you adjust?",
+        "question": "They sprawl hard as you set the two-on-one for the arm drag escape. How do you adjust?",
         "answer": "When the opponent sprawls back, they reduce the forward pressure that makes the arm drag effective, but they also reduce their ability to finish front headlock submissions. Abandon the arm drag and switch to a technical standup or granby roll escape, both of which work better against a sprawled opponent. The arm drag threat served its purpose by forcing them to change their positioning—now exploit the new position with the appropriate alternative escape. This is why having multiple front headlock escapes is essential.",
         "answer_line": "Switch to standup or granby roll",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "After clearing your head, what immediate actions prevent the opponent from re-establishing control or taking your back?",
+        "question": "After clearing your head, what stops them re-taking control or your back?",
         "answer": "The instant your head clears, drive your inside knee into the opponent's hip or chest as a primary frame while executing a sharp hip switch to face them. This knee frame creates an immediate physical barrier. Then establish your outside foot on their far hip for a double-leg frame structure. These frames must be in place within one to two seconds of the head clearing. Without immediate frames, the opponent will either re-acquire head control by reaching back for your neck or spin behind you to take back control. The escape is not complete until guard frames are established.",
         "answer_line": "Knee frame then outside foot frame",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "When should you choose the arm drag escape versus a granby roll or technical standup from front headlock?",
+        "question": "When do you pick the arm drag escape over a granby roll or technical standup?",
         "answer": "Choose the arm drag when the opponent's weight is committed forward with pressure into your upper back—this provides the leverage conditions the drag needs. Choose a technical standup when the opponent's control is loose and you have space to post and stand. Choose a granby roll when the opponent is overcommitting to one side or when you need a fast, explosive escape from a tight position. The arm drag works best as a calculated technical escape against forward pressure, while the other options suit different opponent weight distributions and urgency levels.",
         "answer_line": "Forward pressure favors arm drag",
         "distractors": {
@@ -521,7 +521,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that an arm drag escape is being attempted from front headlock bottom?",
+        "question": "What is the earliest cue of an arm drag escape from front headlock top?",
         "answer": "The earliest cue is feeling increased hand activity on your choking arm, specifically the bottom player's near hand working toward your wrist and their far hand reaching for your tricep or upper arm area. This two-on-one grip acquisition is the necessary precursor to the drag—without these grips, the escape cannot function. Recognizing this hand work before both grips are secured gives you the maximum time window to implement defensive adjustments.",
         "answer_line": "Hands seeking wrist and tricep grips",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "Why is sprawling your hips back an effective defense but also potentially dangerous against the arm drag?",
+        "question": "Why is sprawling both effective and risky against the arm drag escape?",
         "answer": "Sprawling back removes the forward weight commitment that the arm drag requires for leverage, effectively denying the escape's primary power source. However, sprawling also reduces your own forward pressure on the bottom player's upper back, which can open opportunities for alternative escapes like technical standup or granby roll. The sprawl solves the arm drag problem but may create a different problem, which is why combining the sprawl with an immediate offensive transition like guillotine or back take attempt is more effective than sprawling alone.",
         "answer_line": "Sprawling denies drag, opens escapes",
         "distractors": {
@@ -563,7 +563,7 @@
         }
       },
       {
-        "question": "How should you adjust your choking arm position if you feel the bottom player repeatedly targeting it for two-on-one control?",
+        "question": "How do you reposition your choking arm if they keep hunting it for two-on-one?",
         "answer": "Reposition your choking arm by either climbing it higher around their head so the wrist is less accessible, or by switching to a different grip configuration entirely such as a chin strap or collar tie where the arm geometry makes two-on-one acquisition more difficult. You can also intermittently release and re-acquire head control from different angles to prevent them from settling into a consistent grip fighting pattern. The key is denying them the predictable arm position they need to build their two-on-one.",
         "answer_line": "Climb arm higher or change grips",
         "distractors": {
@@ -577,7 +577,7 @@
         }
       },
       {
-        "question": "What offensive transition best punishes a committed arm drag attempt while also advancing your position?",
+        "question": "Which offensive transition best punishes a committed arm drag escape attempt?",
         "answer": "The back take spin is the highest-reward offensive counter. When the bottom player commits to the lateral arm drag and their body weight shifts to one side, release your head control and circle behind them in the direction opposite their drag. Their lateral commitment makes it extremely difficult for them to turn and face you, and their hands are occupied with your arm rather than defending the back take. This converts their escape attempt directly into your best attacking position and creates a strong deterrent against future arm drag attempts.",
         "answer_line": "Release head, spin behind for back",
         "distractors": {

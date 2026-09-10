@@ -88,7 +88,7 @@ description: "Complete guide to executing the elbow escape from back control. Le
     },
     {
       "@type": "Question",
-      "name": "Where exactly should your elbow frame be positioned for maximum leverage against the opponent's top hook?",
+      "name": "Where exactly should your elbow frame sit for leverage against their top hook on the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow should be placed directly against the back of the opponent's knee or shin where the hook crosses your hip line. This positioning creates the shortest lever arm and maximum mechanical advantage for pushing the hook away during the hip escape. Placing the frame higher on the thigh reduces leverage and allows the opponent to easily readjust hook depth."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the elbow escape from back control. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent locks a body triangle instead of standard hooks - how does this change your escape approach?",
+      "name": "They lock a body triangle instead of hooks: how does your back escape change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a body triangle, the standard hook-clearing elbow escape cannot proceed until the triangle lock is broken. You must first turn toward the side of the locking ankle, then work to push the top foot past the bottom knee to separate the triangle configuration. Only after breaking the body triangle can you proceed with the standard elbow escape sequence against the now-free legs."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the elbow escape from back control. Le
     },
     {
       "@type": "Question",
-      "name": "What grip configuration should you maintain on the opponent's choking arm throughout the hip escape phase?",
+      "name": "Which grip do you keep on their choking arm through the hip escape from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a two-on-one grip with one hand controlling the opponent's wrist and the other controlling their forearm or elbow crease. This configuration prevents them from advancing the choking arm past your chin while allowing you to redirect their arm downward and away from your neck. The grip should remain intact until your body rotation eliminates the mechanical possibility of the choke."

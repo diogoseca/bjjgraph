@@ -56,7 +56,7 @@ description: "How to defend against Explosive Forward Roll in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt an Explosive Forward Roll?",
+      "name": "From standing back control, what is the earliest cue they're setting up an explosive forward roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the opponent establishes two-on-one wrist control on your choking arm or underhook arm. This grip change is necessary before they can safely initiate the roll, and it typically happens 1-2 seconds before the forward bend. Recognizing and disrupting this grip establishment prevents the roll before it begins."
@@ -72,7 +72,7 @@ description: "How to defend against Explosive Forward Roll in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already initiated the roll and you are being carried over - what is the optimal response?",
+      "name": "They've committed the forward roll and you're being carried over: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ride the roll rather than resisting it. Maintain your harness grip and chest connection through the motion. As you land, immediately post one hand on the mat and drive your hips forward toward mount position. The key is to transition from back control to mount during the scramble rather than trying to maintain back control through an already-committed roll."
@@ -88,7 +88,7 @@ description: "How to defend against Explosive Forward Roll in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What hand fighting strategy should you use when you feel the opponent reaching for two-on-one wrist control?",
+      "name": "Keeping back control, how do you hand fight as they reach for two-on-one wrist control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately circle your threatened wrist out of their grip attempt by rotating your hand and pulling your elbow toward your hip. If they establish partial control, use your free hand to peel their fingers or push their controlling hand away. Keep your choking arm elbow tight to your body rather than extended, which makes it harder for them to isolate and control your wrist for the roll setup."

@@ -56,7 +56,7 @@ description: "Master defensive strategies against the armbar from reverse mount.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when you feel the attacker grip your wrist from reverse mount?",
+      "name": "Under reverse mount, you feel them grip your wrist — what is your first defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clasp your hands together or grab your own wrist with your free hand, creating an interlocked defense that prevents arm extension. This must happen within the first half-second of feeling the grip, before the attacker can begin their pivot. The clasped hands buy critical time even if they cannot prevent the armbar entirely, creating opportunities for follow-up escape movements like bridging or turning."
@@ -72,7 +72,7 @@ description: "Master defensive strategies against the armbar from reverse mount.
     },
     {
       "@type": "Question",
-      "name": "What are the key tactile cues that indicate an armbar attempt from reverse mount rather than a mount conversion or back take?",
+      "name": "Under reverse mount, which tactile cues signal an armbar rather than a mount switch or back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary distinguishing cues are: a grip on your wrist or forearm with pulling pressure toward the attacker's hip, a lateral weight shift to one side of your chest rather than rotational movement toward your head, and the sensation of one leg lifting off your ribs while the other maintains pressure. Mount conversions involve rotational weight movement toward your head, while back takes involve the attacker sliding off laterally. The armbar specifically involves wrist control plus perpendicular pivot, which creates a distinctly different pressure pattern."
@@ -88,7 +88,7 @@ description: "Master defensive strategies against the armbar from reverse mount.
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid extending your arms to push against the attacker when defending from reverse mount bottom?",
+      "name": "Why should you not extend your arms to push when defending under reverse mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extended arms are precisely what the attacker is targeting for the armbar. Pushing against their body places your arms in the exact position needed for isolation, making their job significantly easier. The pushing force you generate is insufficient to move the attacker off your torso but provides them with perfectly positioned limbs to attack. Instead, keep elbows clamped tight to your ribs and use hip and core movements for defense, saving arm movements for direct grip defense and clasping."

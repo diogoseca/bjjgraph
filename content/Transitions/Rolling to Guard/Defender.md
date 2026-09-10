@@ -64,7 +64,7 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already initiated the roll and is halfway through the rotation - what is your highest-percentage response?",
+      "name": "They are halfway through rolling from turtle to guard; what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll by keeping your chest attached to their back and circling in the same direction as their rotation. Do not resist or pull backward, as this creates separation that guarantees they complete the roll into guard. Instead, use their rolling momentum to advance your own position - insert the near-side hook during the rotation and secure seatbelt control. When they complete the roll, you should arrive in back control rather than being separated. The key is maintaining physical connection throughout the transition rather than fighting against the rotation's direction."
@@ -72,7 +72,7 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between a genuine roll attempt and a feint designed to open alternative escapes?",
+      "name": "From turtle top, how do you tell a committed roll attempt from a feint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine roll attempt shows committed shoulder loading where the bottom player's weight transfers onto one shoulder with chin tucked and hips beginning to elevate. A feint typically shows the initial frame creation and shoulder movement but without the full weight commitment to the rolling shoulder. Watch for hip elevation - if their hips begin driving upward with real force, the roll is committed. If the hip movement is minimal or reverses direction, they are likely setting up a sit-through, technical standup, or directional change. Respond to feints by maintaining centered pressure rather than over-committing to one counter direction."

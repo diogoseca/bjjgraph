@@ -545,7 +545,7 @@
         }
       },
       {
-        "question": "Your opponent starts driving forward with heavy crossface pressure - what immediate adjustments do you make?",
+        "question": "They drive forward with a heavy crossface on your leg hook — what do you adjust?",
         "answer": "First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go.",
         "answer_line": "Frame crossface, enter deep half",
         "distractors": {
@@ -924,7 +924,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Leg Hook position and separates it from a standard half guard?",
+      "question": "What structure defines the Leg Hook position versus a standard half guard?",
       "answer": "One player's leg is threaded as an active hook around the opponent's leg rather than passively wrapped, creating a dynamic entanglement instead of a static clamp. The hooking leg maintains constant tension against the trapped limb, controlling that leg's base and hip mobility as a mechanical lever. This live connection is what makes the position transitional: it invites continuous adjustment and off-balancing rather than the stationary knee-line battle of classic half guard. Because the hook can steer weight, it bridges half guard into deep half, X-guard, and leg-entanglement systems that a passive wrap cannot access.",
       "answer_line": "Active threaded hook, not a wrap",
       "distractors": {
@@ -938,7 +938,7 @@
       }
     },
     {
-      "question": "Why is the hooked leg described as a mechanical lever rather than merely a restraint in this position?",
+      "question": "Why is the hooked leg a mechanical lever rather than just a restraint?",
       "answer": "The hook does more than hold a limb still; it transmits force through the opponent's trapped leg into their base, letting whoever controls the hook redirect weight and disrupt posture. By elevating, angling, or extending the hook, that player alters the opponent's center of gravity and steers where their weight must travel. This leverage is the engine behind both sweeps from the entangling side and steering the pass from the disentangling side. A restraint only prevents movement, but a lever actively creates the off-balance that generates transitions for either player.",
       "answer_line": "It redirects opponent's weight",
       "distractors": {
@@ -952,7 +952,7 @@
       }
     },
     {
-      "question": "How does the interplay between upper-body frames and the leg hook create the position's central dilemma for both players?",
+      "question": "How do upper-body frames and the leg hook combine to create the position's dilemma?",
       "answer": "The position is only stable when leg control and upper-body control operate as one unified system rather than in isolation. Whoever holds the hook must pair it with a frame, underhook, or crossface, because the hook alone controls only the lower body and leaves the torso free to escape or advance. This coupling forces both players into a two-front problem: committing pressure or attention to one half of the body opens the other half. The central dilemma is that neither player can fully win the legs and the torso at once, so every adjustment on one axis concedes something on the other.",
       "answer_line": "Winning legs concedes the torso",
       "distractors": {
@@ -980,7 +980,7 @@
       }
     },
     {
-      "question": "How is hip angle and mobility the shared currency that governs control for both players in the Leg Hook?",
+      "question": "Why is hip angle and mobility the shared currency of control in the Leg Hook?",
       "answer": "Both players fight to keep their own hips mobile and angled while flattening or immobilizing the opponent's hips. The player working from underneath stays on their side with an active hip line to preserve sweep and transition options, while the player on top drives to flatten those hips and kill the angle. Whoever loses hip mobility loses the ability to generate off-balancing or defensive movement, collapsing their options. Because the hook connects the hips through the trapped leg, every hip adjustment by one player directly loads or unloads the other's structure.",
       "answer_line": "Stay mobile, flatten opponent's hips",
       "distractors": {
@@ -994,7 +994,7 @@
       }
     },
     {
-      "question": "How does the Leg Hook relate to and feed into adjacent leg-entanglement positions like deep half, X-guard, and single leg X?",
+      "question": "How does the Leg Hook feed into deep half, X-guard, and single leg X?",
       "answer": "The Leg Hook sits as a hub within the half guard family, sharing the core mechanic of controlling one of the opponent's legs but with a more dynamic hook than a static wrap. When the opponent drives forward, the entangling player can duck under into deep half using that committed momentum; when the opponent stands or steps back, the same connection converts to X-guard or single leg X to attack the newly weighted standing leg. These aren't separate positions so much as reachable states from the same hook, chosen by how the opponent distributes weight. This connectivity is precisely why the position is valued as a launching point rather than a destination.",
       "answer_line": "Hub state branching by weight shift",
       "distractors": {
@@ -1008,7 +1008,7 @@
       }
     },
     {
-      "question": "What role does the free (non-hooking) leg play in shaping the dynamics of the Leg Hook for whoever holds it?",
+      "question": "What role does the free leg play for whoever holds the leg hook?",
       "answer": "The free leg is a second active lever that determines whether the entanglement can escalate or must merely hold. It can post to create barriers, insert a butterfly hook as a secondary elevation point, push against the opponent's hip to manage distance, or prepare a transition to another guard. Left passive, it wastes a control surface and lets the opponent pressure or step through unopposed. Because the primary hook is already committed to one leg, the free leg is what converts static control into the off-balancing or re-guarding threat that keeps the position live.",
       "answer_line": "Second lever: post, hook, push",
       "distractors": {
@@ -1022,7 +1022,7 @@
       }
     },
     {
-      "question": "Why does the Leg Hook carry higher scramble and reversal risk than a settled pin or a locked half guard?",
+      "question": "Why does the Leg Hook carry more scramble risk than a pin or locked half guard?",
       "answer": "The dynamic hook keeps the shared leg connection in constant motion, so the position never reaches the mechanical stability of a fully secured pin. Both players are actively steering weight through the entanglement, meaning any committed shift by one creates momentum the other can redirect, which is fertile ground for sweeps, reversals, and scrambles. A locked half guard or a pin removes this leverage by killing movement, but the leg hook trades that safety for the mobility that enables its transitions. The same active tension that makes it offensively versatile is what makes it inherently unstable for whoever fails to control the tempo.",
       "answer_line": "Motion never settles like a pin",
       "distractors": {

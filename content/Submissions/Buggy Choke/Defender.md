@@ -76,7 +76,7 @@ description: "Defend the Buggy Choke while passing half guard: keep your head up
     },
     {
       "@type": "Question",
-      "name": "Why is squaring up and driving harder into the pressure a mistake when caught in a forming Buggy Choke?",
+      "name": "Why is driving harder into the pressure a mistake against a forming buggy choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving forward feeds your head and shoulder deeper into the closing loop and tightens the carotid compression; instead you must extract the trapped arm and posture out, because the choke uses your own forward pressure against you."

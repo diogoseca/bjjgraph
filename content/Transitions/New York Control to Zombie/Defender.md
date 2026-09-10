@@ -64,7 +64,7 @@ description: "How to defend against New York Control to Zombie in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their overhook voluntarily as you begin extracting - what does this signal and how should you respond?",
+      "name": "Escaping New York, they release the overhook voluntarily — what does it signal and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A voluntary overhook release signals the bottom player is abandoning New York to transition to Zombie rather than fighting to maintain it. This is your cue that they are about to drop their leg for lockdown. Respond by immediately controlling their top knee with your free hand to prevent leg repositioning while driving forward with crossface pressure. Do not interpret their release as surrender - it is the beginning of their next attack."
@@ -72,7 +72,7 @@ description: "How to defend against New York Control to Zombie in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player's leg dropping from your shoulder during extraction - what is the correct defensive priority?",
+      "name": "Escaping New York, you feel their leg drop off your shoulder — what's your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the lockdown from forming by controlling their dropping leg. Push their top knee toward the mat with your free hand while simultaneously driving your trapped leg straight and posting your base wide. If you can prevent the leg from hooking behind your calf, the lockdown cannot establish. This is a brief window - once their foot hooks your calf and their legs triangle, the lockdown is set and you must switch to top pressure defense instead."
@@ -80,7 +80,7 @@ description: "How to defend against New York Control to Zombie in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "The lockdown has already established despite your defense - what is the correct order of defensive priorities from Zombie top?",
+      "name": "The lockdown is set and you're in Zombie top — what order of defensive priorities is correct?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, establish crossface or heavy shoulder pressure to prevent them from turning to their side - a flat Zombie has minimal offensive power. Second, deny the underhook by keeping your shoulder forward and elbow tight, using whizzer if they begin threading their arm. Third, maintain wide base with your free leg posted to resist lockdown stretches and sweep attempts. Only after controlling their upper body and base should you begin working to systematically extract your trapped leg through posture and pressure."

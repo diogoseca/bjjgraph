@@ -56,7 +56,7 @@ description: "How to defend against Outside Ashi Entry in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an opponent is attempting an outside ashi entry rather than a traditional single or double leg takedown?",
+      "name": "What earliest cue tells you it is an outside ashi entry, not a single or double leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiating cue is head position relative to your lead leg. In a traditional single or double leg, the attacker's head drives to the inside of your leg or against your hip. In an outside ashi entry, the attacker's head tracks to the outside of your lead leg while their arms target your ankle or lower shin rather than your knee or thigh. This outside head position combined with low grip placement on the leg signals ashi entry intent. Additionally, the attacker's body begins rotating perpendicular rather than driving forward linearly, which is mechanically distinct from a standard shot."
@@ -64,7 +64,7 @@ description: "How to defend against Outside Ashi Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is the sprawl timing window narrower against an outside ashi entry compared to a standard double leg shot?",
+      "name": "Why is the sprawl window tighter against an outside ashi entry than a double leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a double leg, the attacker must drive forward through your hips, giving a relatively long window to sprawl. Against an outside ashi entry, the attacker only needs to reach your ankle (not penetrate to your hips) before beginning their rotational drop. This means the level change distance is shorter, the grip target is lower and further from your defensive hands, and the rotation can begin almost immediately after the grip is secured. Your sprawl must be initiated at the very first sign of level change rather than waiting for the shot to develop, because by the time you feel their shoulder against your hip (the traditional sprawl trigger), the ashi entry is already past the point of sprawl effectiveness."
@@ -72,7 +72,7 @@ description: "How to defend against Outside Ashi Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a grip on your ankle and begun their rotation but has not yet dropped their hip to the mat - what is your optimal defensive response?",
+      "name": "They have your ankle and are rotating but their hip is not down yet: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the optimal window for the step-over defense. Circle your lead foot over the attacker's head and shoulder in the direction of their rotation, stepping behind their body. The rotation itself creates space between their head and your leg that allows the foot to clear. Simultaneously, push down on their far shoulder with your free hand to flatten their rotation angle and slow the entry. If the step-over is clean, you end up behind the attacker with potential for back control. If it is partially blocked, you at minimum disrupt the rotation angle enough to prevent the figure-four from locking."
@@ -80,7 +80,7 @@ description: "How to defend against Outside Ashi Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "When is attacking the front headlock or guillotine a better defensive choice than sprawling against the outside ashi entry?",
+      "name": "When is a front headlock or guillotine better than sprawling against an outside ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The front headlock or guillotine counter is optimal when the attacker's head passes close to your centerline during the level change, particularly if their head positioning is imprecise or they telegraph the entry. It is also the better choice when you have already established a collar tie or neck grip before the entry begins, giving you a head start on the choke threat. However, this counter is risky if the attacker keeps strict outside head position, because reaching for a headlock on a head that is already past your hip line compromises your posture without creating a real submission threat. The decision point is whether you can reach their chin or neck before their rotation carries their head past your hip."
@@ -88,7 +88,7 @@ description: "How to defend against Outside Ashi Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established the outside ashi figure-four on your leg - what are your immediate defensive priorities in order?",
+      "name": "Your opponent locks outside ashi on your leg: what are your defensive priorities, in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First priority is heel protection: tuck your heel inward by internally rotating your hip so your toes point toward your own body, preventing the attacker from accessing heel hook grips. Second priority is elevation: fight to stand or at minimum maintain an elevated posture on your free knee rather than dropping to their level, because height advantage limits their leverage and creates extraction angles. Third priority is framing: establish hand frames on their hips and chest to prevent them from closing distance and improving their finishing angle. Fourth priority is systematic extraction: use internal hip rotation combined with frame pressure to collapse their triangle and thread your leg free. Do not attempt to yank the leg straight out, as this tightens the entanglement."

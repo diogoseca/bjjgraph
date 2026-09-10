@@ -82,7 +82,7 @@ description: "How to execute Switch to Triangle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully pulls their arm free from your armbar attempt - what is the optimal timing window for initiating the triangle switch?",
+      "name": "They pull their arm free from your armbar—what is the timing window for the triangle switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window is the 1-2 second period immediately after they retract their arm but before they re-establish posture and base. During this window, their arm is moving backward (creating the one-arm-in configuration), their weight is shifting (compromising base), and their attention is focused on the arm they just freed rather than the new threat developing at their neck. You must already have your hip angle partially established from the armbar attempt, and your overhook or head control must be in place before they fully withdraw. Waiting even slightly too long allows them to reconnect their defensive structure."

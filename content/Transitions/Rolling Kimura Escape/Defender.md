@@ -56,7 +56,7 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt a rolling Kimura escape?",
+      "name": "What are the earliest cues your opponent is about to roll out of your kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: opponent tucks their chin sharply to their chest (protecting neck for the roll), places their free hand flat on the mat near their trapped shoulder (creating a push-off point), stops actively resisting the Kimura direction and begins shifting weight forward, and their breathing changes to a sharp preparatory exhale. These cues typically appear 1-2 seconds before the roll initiates, giving you a narrow but actionable window to adjust your base and prevent the escape."
@@ -72,7 +72,7 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the roll and your Kimura grip begins slipping - what is the correct decision sequence?",
+      "name": "They roll and your kimura grip starts slipping; what is the correct decision sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, attempt to maintain the grip by tightening your figure-four and staying connected to their body as they rotate. If the grip continues slipping despite your efforts, immediately redirect your energy toward positional control rather than fighting a losing grip battle. Drive your chest into their back and work to insert hooks for back control, or collapse your weight over their centerline to establish mount. The key principle is recognizing the transition point from submission hunting to position hunting within the first half-second of grip failure."
@@ -80,7 +80,7 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your Kimura finishing mechanics to prevent the rolling escape from being viable?",
+      "name": "How should you finish the kimura so the rolling escape is never viable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply finishing pressure through proper arm mechanics and hip positioning rather than driving your entire body weight forward. Keep your base wide with hips low, which removes the forward momentum that the rolling escape exploits. Finish by rotating their wrist toward their spine using your figure-four grip mechanics while your body remains balanced, not by driving forward. This denies the opponent the forward weight commitment they need to power the roll and forces them to rely on less effective conventional escape methods."
@@ -88,7 +88,7 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent completes the roll and breaks your Kimura grip, but you maintained chest contact throughout - what position should you be in?",
+      "name": "You keep chest contact through their kimura roll and lose the grip; where should you be?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you maintained chest-to-back contact throughout the roll, you should be directly behind your opponent in a back control position. Immediately insert your hooks inside their thighs and transition your arms from the broken Kimura grip to a seatbelt configuration (one arm over their shoulder, one under their armpit). The opponent expected to land in open guard facing you, but your connection through the roll means they land with you attached to their back. This is the highest-value counter to the rolling escape and why following rather than resisting is the superior strategy."

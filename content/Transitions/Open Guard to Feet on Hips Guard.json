@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your right ankle as you attempt to place your foot on their hip—how do you adjust?",
+        "question": "They grab your right ankle as you place that foot on their hip: how do you adjust?",
         "answer": "Immediately place your free left foot on their left hip to create a single-side frame that arrests their forward movement. Use the pushing power of the established left foot to create enough distance and time to circle your right ankle free from their grip by rotating your foot outward and pulling sharply. Once freed, place your right foot on their right hip to complete the bilateral frame. If the ankle grip persists, use your left foot frame to transition to a single-leg X or De La Riva configuration on the left side instead.",
         "answer_line": "Frame other foot, free ankle",
         "distractors": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "What grip combination provides the strongest immediate offensive threat after establishing feet on hips?",
+        "question": "Which grip pair gives the strongest immediate attack once feet on hips is set?",
         "answer": "A cross-collar grip (right hand to opponent's left collar or vice versa) combined with a same-side sleeve grip provides the strongest immediate threat. The collar grip threatens chokes and controls posture, while the sleeve grip prevents one hand from grabbing your ankle and creates pulling tension for sweeps. This combination enables immediate scissor sweep and pendulum sweep threats because you can pull the opponent's upper body forward and down while pushing with your feet, creating the rotational off-balancing required for these high-percentage sweeps.",
         "answer_line": "Cross collar plus sleeve grip",
         "distractors": {
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "The opponent drives forward with heavy pressure attempting to collapse your newly established frames—what is your response?",
+        "question": "They drive forward to collapse your new feet-on-hips frames: what is your response?",
         "answer": "Use their forward momentum against them by simultaneously extending your legs fully while pulling their upper body forward and down with your grips. This loads their weight entirely onto your feet and creates the setup for scissor sweep or pendulum sweep. If the pressure is too strong for your frames to hold, absorb their forward drive by bending your knees slightly, then redirect their momentum to one side by extending one leg more than the other, creating an angle for De La Riva entry or closed guard recovery. Never try to match their pressure with pure leg strength—redirect the force instead.",
         "answer_line": "Extend legs, pull them down",
         "distractors": {
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that differentiates an effective feet-on-hips frame from an easily defeated one?",
+        "question": "What separates an effective feet-on-hips frame from one that gets defeated?",
         "answer": "Active pushing tension through the legs with maintained hip elevation is the critical differentiator. An effective frame has constant moderate extension force driving through the feet into the opponent's hips, not just passive foot placement. This tension means the opponent cannot simply walk forward—they must overcome continuous resistance. Combined with hip elevation, this creates a structural arch from your shoulders through your hips to your feet that channels your entire body's skeletal strength into the frame, rather than relying on muscular leg extension alone.",
         "answer_line": "Active leg tension, hips up",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "If the opponent successfully strips both feet off their hips and begins a knee cut pass, what chain of recovery options do you have?",
+        "question": "They strip both feet and start a knee cut: what recovery chain do you work through?",
         "answer": "First priority is to establish a knee shield by inserting your inside knee across their hip line to prevent the knee cut from completing. If the knee cut is already past your knee line, hip escape away from the passing direction and work to recover half guard by capturing their passing leg between yours. From half guard, re-establish frames on their shoulder and hip to create space for knee shield recovery. If recovery to half guard fails, frame on their crossface and hip to prevent side control consolidation and begin the side control escape sequence. The key is recognizing that each fallback position has its own recovery path—do not panic, but systematically work through the defensive hierarchy.",
         "answer_line": "Knee shield, then half guard",
         "distractors": {
@@ -466,7 +466,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is initiating the transition to feet on hips?",
+        "question": "What is the earliest cue the bottom player is going to feet on hips?",
         "answer": "The earliest cue is the bottom player's hip elevation—their lower back arches off the mat and their core engages to lift their hips upward. This hip elevation is the prerequisite mechanical movement that must occur before their feet can reach your hips with structural power. Recognizing this hip elevation gives you a half-second advantage to initiate your defensive response before their feet arrive at your hips, which is sufficient time to grab ankles, drive forward, or change levels.",
         "answer_line": "Their hips arch off the mat",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "The bottom player has just placed their feet on your hips but has not yet established any grips—what is the optimal response window?",
+        "question": "Their feet just landed on your hips with no grips yet: how do you use that window?",
         "answer": "This half-second window between foot placement and grip establishment is your best opportunity for an aggressive response. The frames are structurally incomplete because the bottom player cannot coordinate push-pull forces without grips—their feet push but nothing pulls. Drive forward explosively with your weight low and inside their feet to collapse the unsupported frames, or immediately grab both ankles and redirect their legs to one side for a toreando pass. This window closes the moment they secure a sleeve or collar grip, so immediate action is essential.",
         "answer_line": "Drive forward before grips land",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "How should you modify your defensive approach when the bottom player has already established one collar grip before initiating the transition?",
+        "question": "How does an existing collar grip change your defense against feet on hips?",
         "answer": "A pre-existing collar grip means the bottom player can immediately coordinate push-pull forces once feet land. Strip the collar grip first before addressing the foot placement—use a two-on-one grip break on their collar hand while stepping back to deny hip access. If the collar grip cannot be broken quickly, accept that aggressive forward pressure is too dangerous (the collar grip enables sweep setups) and instead focus on lateral movement and ankle control to prevent bilateral frame establishment. Address the grip problem before the feet problem because the grip is what makes the feet dangerous.",
         "answer_line": "Break the collar grip first",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "What defensive adjustment prevents the bottom player from tracking your lateral movement with hip walking?",
+        "question": "What stops the bottom player from tracking your lateral movement by hip walking?",
         "answer": "Move faster than they can hip-walk by taking large lateral steps rather than small shuffles, and change direction unpredictably rather than circling in one direction continuously. Pair your lateral movement with downward pressure on their near-side knee or ankle to pin their hip mobility on one side. If you can control one ankle while circling, they can only track you with one foot, which creates the asymmetric frame you need for a passing angle. The key is combining lateral movement with grip control—movement alone is matched by their hip walking, but movement plus an anchor point on their legs creates genuine angle advantage.",
         "answer_line": "Big steps plus ankle control",
         "distractors": {

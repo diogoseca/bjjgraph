@@ -56,7 +56,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is initiating a step over rather than a back step or leg drag?",
+      "name": "What is the earliest cue the top player is stepping over rather than back stepping or leg dragging?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the top player shifting weight onto one posting leg while their opposite foot begins lifting off the mat, combined with their hips driving forward and downward rather than stepping laterally or backward. A back step involves the top player moving away from you, and a leg drag redirects laterally - the step over is uniquely identified by the forward-and-over commitment through the center line. Additionally, you will often feel their hand pinning your near-side leg, which specifically sets up the step over rather than the other passing options."
@@ -64,7 +64,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your hips are still elevated and you detect the step-over initiation - should you attempt the leg entanglement or the hip elevation defense?",
+      "name": "Hips still elevated as they step over: entangle the leg or use the hip elevation defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With elevated hips, the leg entanglement into ashi garami is the higher-percentage and higher-reward option. Your elevated hip position means your legs are already in the optimal mechanical position to thread around the stepping leg before it clears your body. The hip elevation defense is a secondary option that merely resets to neutral, whereas the ashi garami entry converts their pass attempt into your offensive attack. Only default to the elevation defense if your legs are too fatigued or poorly positioned to execute the entanglement threading motion."
@@ -72,7 +72,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "The step over is already past the point of prevention and the passer's lead foot has landed on your far side - what is your immediate priority?",
+      "name": "Their lead foot lands on your far side in the step over: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is inserting your top knee across the passer's hip or hooking their trailing leg before it clears your body to establish half guard. The window between the lead leg landing and the trailing leg clearing is your last opportunity to prevent full mount. Drive your knee aggressively into their hip crease and clamp down with your legs to trap their trailing leg. If this fails and both legs clear, transition immediately to mount escape frames rather than continuing to fight for guard - accept the position change and begin the mount escape hierarchy."
@@ -80,7 +80,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How does maintaining bilateral leg engagement prevent the step over, and what does bilateral engagement look like in practice?",
+      "name": "How does keeping both legs active stop the step over, and what does that look like in practice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bilateral leg engagement means both legs maintain active defensive or offensive function simultaneously, denying the passer the asymmetric window where one leg is free to step over. In practice, this means when your right leg extends for a kneebar or ankle lock entry, your left leg maintains an active hook behind the passer's knee or frames against their hip. You cycle between configurations where both legs contribute rather than fully committing one leg while the other goes passive. This forces the passer to deal with two active threats simultaneously, making the step over too risky because your defensive leg can intercept during the stepping motion."
@@ -88,7 +88,7 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "You successfully catch the stepping leg in inside ashi garami - what are your immediate offensive priorities?",
+      "name": "You catch their stepping leg in inside ashi garami: what are your offensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately close the triangle around their thigh by crossing your ankles or locking your legs in the ashi garami configuration to prevent the top player from simply retracting the leg. Control their foot by cupping the heel or gripping the ankle to prevent them from rotating out of the entanglement. From inside ashi garami, your primary attacks are the inside heel hook and the kneebar - begin by controlling their hip movement with your legs while isolating the foot for the heel hook entry. The psychological advantage is significant because the passer has just committed forward into your entanglement, and their momentum works against their ability to retreat."

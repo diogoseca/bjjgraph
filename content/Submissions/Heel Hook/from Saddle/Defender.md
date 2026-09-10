@@ -58,7 +58,7 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first action you should take when you feel the attacker beginning to transition from positional grips to heel hook grips?",
+      "name": "What is your first action when they switch from positional grips to heel hook grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately hide your heel by pressing it tightly against your own hip while rotating your knee inward toward your centerline. Simultaneously, reach down with both hands to protect your foot and ankle, creating a physical barrier between the attacker's hands and your heel. This buys critical seconds to initiate your escape sequence before the finishing configuration can be established."
@@ -66,7 +66,7 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to attempt a standing escape while your leg is still trapped in the saddle entanglement?",
+      "name": "Why is standing to escape dangerous while your leg is still trapped in the saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing with a trapped leg provides the attacker with elevation they can use to increase mechanical advantage on the heel hook. Your body weight now works against you as gravity pulls your center of mass upward while your heel remains controlled at a lower level, creating additional torsional force on the knee. The standing position also eliminates your ability to frame effectively with your free leg and makes heel hiding nearly impossible."
@@ -82,7 +82,7 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
     },
     {
       "@type": "Question",
-      "name": "What makes counter-entangling to 50-50 guard the most favorable defensive outcome against a heel hook from saddle?",
+      "name": "Why is counter-entangling to 50-50 the best defensive outcome against a saddle heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter-entangling to 50-50 guard converts the asymmetric advantage of the saddle—where the attacker has overwhelming positional dominance—into a symmetrical entanglement where both practitioners have equal control and vulnerability. In 50-50, neither player has inside position, the knee line is neutralized for both, and both heel hooks are equally available or equally defended. This dramatically reduces the attacker's finishing probability from approximately 50% to parity."
@@ -90,7 +90,7 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
     },
     {
       "@type": "Question",
-      "name": "After successfully escaping a heel hook attempt but remaining in a leg entanglement, what should your immediate priorities be?",
+      "name": "You escaped the heel hook but are still entangled — what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priorities in order are: verify your heel is hidden and not exposed to re-attack, assess which entanglement you are now in and whether it is more or less dangerous than the previous saddle, begin working toward full leg extraction if possible or at minimum maintain a symmetrical entanglement like 50-50, and control your breathing and energy to prepare for continued defense. Do not relax because the immediate heel hook threat has passed—the attacker will immediately work to re-establish saddle control."

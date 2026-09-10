@@ -84,7 +84,7 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the triangle is properly locked and the opponent is approaching the breaking point?",
+      "name": "Crackhead control triangle: what indicates it is locked and they are nearing the breaking point?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's face changing color through reddening or flushing, decreased resistance in their escape attempts, involuntary reaching or flailing movements, and progressive weakening of posture recovery efforts. The attacker should also feel the squeeze tightening as the opponent's trapped shoulder drives deeper into their own neck. If these signs are absent after 5-7 seconds, the angle or lock likely needs adjustment."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
     },
     {
       "@type": "Question",
-      "name": "What control must be established before transitioning from Crackhead Control to the triangle attempt?",
+      "name": "What control must you establish before transitioning from Crackhead Control to the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before initiating the triangle transition, you must have broken posture with the opponent's forehead near your chest, secure head control with at least one hand cupping the back of the head, the far arm isolated across your centerline, and your shin firmly pressed across the opponent's face. The arm isolation is the most critical prerequisite because attempting the triangle with both arms inside gives the opponent strong framing and posture recovery options."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
     },
     {
       "@type": "Question",
-      "name": "At what point during the triangle from Crackhead Control is the opponent past the point of no escape?",
+      "name": "When is your opponent past the point of no escape in the triangle from Crackhead Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return occurs when the triangle is locked with proper angle and the opponent's trapped arm is fully across the centerline. Once the angle is cut to approximately 30 degrees toward the trapped arm side and the lock is tight, defensive options become extremely limited. Before the lock closes, the opponent has multiple defensive windows. After the lock but before the angle, stacking remains viable. Once both conditions are met, only explosive posture recovery offers realistic escape."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grips during the finishing sequence of the triangle from Crackhead Control?",
+      "name": "How should your grips change during the finish of the triangle from Crackhead Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the finish, transition from the head control grip used during setup to pulling the opponent's head down with both hands clasped behind their neck. If the opponent's posture resistance is strong, switch one hand to underhook their far thigh to block stacking defense. For maximum compression, overhook the choking leg's shin with both hands and pull it deeper across the neck. Grip priority shifts from positional control during setup to compression assistance during the finish."

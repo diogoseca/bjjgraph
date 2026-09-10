@@ -64,7 +64,7 @@ description: "Defend against Escape from Kesa Gatame in BJJ. Learn to maintain k
     },
     {
       "@type": "Question",
-      "name": "Your opponent hooks your near leg and reaches for your far arm - what escape are they setting up and how do you counter it?",
+      "name": "They hook your near leg and reach for your far arm: what escape is coming and how do you stop it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "They are setting up the bridge-and-roll escape, which requires eliminating your posting ability and controlling your base before bridging at 45 degrees toward your trapped arm side. Counter by immediately widening your base with back leg extension, driving hip pressure deeper into their ribs, and either extracting your far arm from their grip or switching to mount transition since their bridge attempt creates the space necessary for stepping over."
@@ -80,7 +80,7 @@ description: "Defend against Escape from Kesa Gatame in BJJ. Learn to maintain k
     },
     {
       "@type": "Question",
-      "name": "How do you counter the ghost escape when the bottom player attempts to turn into your back and come to their knees?",
+      "name": "How do you counter the ghost escape as they turn into your back to come up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ghost escape exploits forward weight commitment, so the counter begins with recognizing the setup cues. When you feel them turning toward your back, immediately shift weight backward and sit your hips down, removing the space they need to complete the turn. Re-establish head control and pull them back to their side. If they partially complete the turn, switch to attacking their turtle position rather than forcing scarf hold from an awkward angle."

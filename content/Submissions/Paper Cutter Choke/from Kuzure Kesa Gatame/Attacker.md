@@ -76,7 +76,7 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the paper cutter choke target and how does the kuzure kesa-gatame angle optimize compression?",
+      "name": "What does the paper cutter choke compress, and how does kuzure kesa-gatame aid the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The paper cutter choke targets bilateral compression of the carotid arteries. The forearm blade compresses the near-side carotid while the lapel pulled tight behind the neck compresses the far-side carotid. The kuzure kesa-gatame angle is optimal because your body is already positioned toward the opponent's head, creating a natural perpendicular cutting angle across the neck without requiring repositioning."
@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively to block your forearm from sliding across the neck - what adjustment completes the choke?",
+      "name": "They tuck their chin to block your forearm; what adjustment completes the paper cutter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to crossface or post on their forehead to create space for the forearm insertion. A tucked chin only delays the choke because the compression comes from both sides of the neck simultaneously. If the lapel is fed deep enough behind the neck, even a tucked chin cannot prevent bilateral carotid compression when you apply shoulder drive and rotation to finish."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the paper cutter choke from kuzure
     },
     {
       "@type": "Question",
-      "name": "What is the breaking point indicator that tells you the choke is fully locked and the opponent must tap or lose consciousness?",
+      "name": "Which indicators show the paper cutter choke is fully locked and must force a tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is fully locked when the forearm blade is seated flush against the near-side neck with no gap, and the lapel behind the neck has zero slack. You will feel the opponent's pulse against your forearm weaken or disappear. Their defensive hand fighting becomes weaker and less coordinated. From full lock, unconsciousness can occur within 8-10 seconds of sustained bilateral compression."

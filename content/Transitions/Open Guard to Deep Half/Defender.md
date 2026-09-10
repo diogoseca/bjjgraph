@@ -56,7 +56,7 @@ description: "How to defend against Open Guard to Deep Half in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the open guard to deep half entry?",
+      "name": "What is the earliest cue your opponent is entering deep half from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the combination of a strong hip escape creating a 45-degree angle with their hips and simultaneous gripping of your pants at the knee or ankle. This setup precedes the dive by one to two seconds and is your best intervention window. If you wait until their head begins dropping below your hip line, the entry is already significantly progressed and harder to prevent."
@@ -72,7 +72,7 @@ description: "How to defend against Open Guard to Deep Half in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially completed the entry but has not yet secured the deep underhook — what is the optimal response?",
+      "name": "They are partway into deep half but lack the underhook: what is your optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical window to prevent deep half from being established. Immediately drive crossface pressure into their face and jaw to flatten their upper body against the mat. Simultaneously drop your near knee toward the mat to block further threading and widen your base with your free leg. Focus on preventing the deep underhook from being secured — without it, the position has no offensive foundation and you can begin passing from half guard top."

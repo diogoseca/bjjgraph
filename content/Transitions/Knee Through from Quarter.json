@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "What conditions must exist in the quarter guard position before the knee through becomes a viable option?",
+        "question": "What conditions must be present in quarter guard before the knee through is viable?",
         "answer": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability.",
         "answer_line": "Angle, control, degraded leg, base",
         "distractors": {
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that distinguishes a successful knee drive from a failed one?",
+        "question": "What mechanical detail most separates a successful knee drive from a failed one in quarter guard?",
         "answer": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames.",
         "answer_line": "Flat trajectory, not lifting over",
         "distractors": {
@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand against your hip and begins hip escaping during your knee drive—how do you adjust?",
+        "question": "They post on your hip and hip escape during your knee drive from quarter guard—how do you adjust?",
         "answer": "When the opponent frames against your hip during the drive, immediately redirect your crossface pressure diagonally toward their far shoulder to counteract their hip escape direction. Use your free hand to strip or pin their posting arm against their body, eliminating the frame. If their hip escape has already created significant space, you may need to follow their hips and re-establish quarter guard pressure rather than forcing the knee through against an active escape. The key decision is whether the drive can complete before their escape creates enough space for guard recovery.",
         "answer_line": "Angle crossface to far shoulder",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your knee drive stalls mid-way because the opponent catches your ankle with a last-second hook—what do you do?",
+        "question": "Your knee drive stalls because they catch your ankle with a last-second hook—what do you do?",
         "answer": "When caught mid-drive by an ankle hook, do not retreat backward as this returns you to a weaker quarter guard. Instead, increase your crossface pressure to pin them flat while using your free hand to strip the hook from your ankle by pushing their foot off. If the hook is too deep to strip, use a circling motion with your trapped foot to break the hook while maintaining forward pressure. If neither option works within three seconds, accept the position and return to degrading their defensive structure before attempting the drive again.",
         "answer_line": "Pin flat, strip or circle the hook",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "How do you chain the knee through with attacks if the bottom player begins defending before you fully consolidate mount?",
+        "question": "They defend before you consolidate mount off the knee through—how do you chain your attacks?",
         "answer": "If the opponent immediately initiates escape attempts as you clear the leg, skip the consolidation phase and flow directly into attacks that capitalize on their defensive movement. If they bridge, ride the bridge and threaten americana on the arm they extend for the upa. If they turn to their side, immediately transition to technical mount and threaten the back take. If they push against your chest with frames, attack the extended arms with armbar entries. The key insight is that defensive reactions during mount establishment are predictable and each one has a corresponding high-percentage attack.",
         "answer_line": "Skip settling; attack their reaction",
         "distractors": {
@@ -489,7 +489,7 @@
         }
       },
       {
-        "question": "When defending the knee through, what determines whether you should fight for knee shield re-insertion versus committing to a full hip escape?",
+        "question": "Defending the knee through, what decides between re-inserting the knee shield and hip escaping?",
         "answer": "The decision depends on the space available between the opponent's hip and your body. If there is sufficient space to insert your knee—typically when the opponent has not yet committed their full weight forward—re-inserting the knee shield is more energy efficient and maintains better defensive structure. If the opponent has closed that space with heavy chest-to-chest pressure, the knee cannot physically fit between your bodies and hip escape becomes the only viable option. You must assess this within one second of recognizing the drive attempt.",
         "answer_line": "Available hip-to-body space",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "How do you use the opponent's forward commitment during the knee drive to create counter-offensive opportunities?",
+        "question": "How do you use the passer's forward commitment in the knee drive to counter-attack?",
         "answer": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability.",
         "answer_line": "Sweep the narrowed base mid-drive",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "Your opponent has started the knee drive and your knee shield has been cleared—what are your remaining defensive options in priority order?",
+        "question": "Your knee shield is cleared as the knee drive starts—what are your defenses in priority order?",
         "answer": "Priority order when the knee shield is cleared: First, explosive hip escape away from the passing direction to create space for leg re-engagement before the knee fully crosses your centerline. Second, frame against the passing knee with both hands using skeletal structure to physically block further advancement while continuing to hip escape. Third, if the knee is nearly past, immediately transition to mount defense fundamentals—establish elbow-knee connection frames and prepare for bridge or elbow escape from mount rather than fighting a lost battle for quarter guard retention.",
         "answer_line": "Hip escape away, make space",
         "distractors": {
@@ -531,7 +531,7 @@
         }
       },
       {
-        "question": "What role does the underhook play in defending the knee through, and when should you abandon it for other defensive priorities?",
+        "question": "What does the underhook do against the knee through, and when should you abandon it?",
         "answer": "The underhook serves as both defensive anchor preventing the crossface from flattening you completely and offensive counter-threat forcing the passer to allocate resources to sweep defense. You should maintain the underhook as long as it provides either defensive or offensive value. Abandon the underhook only when maintaining it actively prevents a more critical defensive action—specifically when you need both hands to frame against an imminent knee drive that will achieve mount in the next one to two seconds. In that emergency scenario, survival takes priority over maintaining offensive threats.",
         "answer_line": "Keep it unless mount is imminent",
         "distractors": {

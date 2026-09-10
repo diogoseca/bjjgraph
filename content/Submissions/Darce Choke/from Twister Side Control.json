@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "What defensive response from the bottom player creates the primary entry window for this Darce variant?",
+        "question": "Which defensive reaction from Twister side control opens this Darce entry?",
         "answer": "The turn-in response, where the bottom player rotates toward the top player to relieve spinal torque and create defensive frames. This rotation displaces the near arm away from the neck, opens the gap between the neck and shoulder needed for arm threading, and brings the chin away from the chest. This natural defensive movement against the Twister threat is precisely what creates the Darce opportunity, forming the core dilemma of the position.",
         "safety_critical": false,
         "answer_line": "Bottom player turns in",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin tightly and fights your threading hand with both arms - what adjustment prevents this defense from succeeding?",
+        "question": "They tuck the chin and hand-fight your Darce thread — what adjustment beats it?",
         "answer": "Control the blocking wrist with your free hand and peel it away from the neck, or increase shoulder pressure to force the chin upward before re-attempting the thread. If hand fighting persists, use your body weight to drive the near shoulder deeper into the mat, which structurally forces the chin up regardless of muscular resistance. You can also feint the Twister to force them to redirect defensive attention away from the Darce entry.",
         "safety_critical": false,
         "answer_line": "Peel wrist, add shoulder pressure",
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "What indicates you have reached the point of no escape when finishing the Darce from Twister Side Control?",
+        "question": "Finishing the Darce from Twister side control, what marks the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four grip is locked with the threading arm deep past the chin, hips have walked perpendicular to create tight choke geometry, and chest pressure is driving the trapped shoulder into the neck. At this stage, the bilateral carotid compression is structurally locked and even strong defensive bridging cannot create enough space to relieve the pressure. The defender's only option is to tap.",
         "safety_critical": false,
         "answer_line": "Figure-four locked, hips walked in",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if the initial figure-four connection feels loose or has slack?",
+        "question": "Your Darce figure-four from Twister side control feels loose — what do you adjust?",
         "answer": "Walk your hips further toward the opponent's head to increase the perpendicular angle and mechanically tighten the grip. Ensure your threading arm is deep enough that your hand reaches the far-side bicep rather than stopping at the forearm. Pull your elbows tighter together before applying finishing pressure. If slack persists, you may need to re-thread the arm deeper rather than attempting to compensate with squeezing force on an improperly set grip.",
         "safety_critical": false,
         "answer_line": "Walk hips up, thread to far bicep",
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "What are the critical safety protocols when applying the Darce Choke from Twister Side Control in training?",
+        "question": "What are the safety protocols for drilling the Darce from Twister side control?",
         "answer": "Apply finishing pressure progressively over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the choke. Monitor for all tap signals including verbal, hand tap, foot tap, and loss of resistance indicating unconsciousness. Release immediately upon any tap signal by unclasping hands, removing shoulder pressure first, then slowly extracting the choking arm. If unconsciousness occurs, keep the airway clear and seek medical evaluation. Never apply full pressure during drilling.",
         "safety_critical": true,
         "answer_line": "Release instantly on any tap signal",
@@ -576,7 +576,7 @@
         }
       },
       {
-        "question": "The attacker has threaded the arm under your chin but has not yet connected the figure-four grip - what defensive options remain?",
+        "question": "The Darce arm is under your chin but the grip isn't locked — what defenses remain?",
         "answer": "At this intermediate stage, pummel your trapped arm by rotating the shoulder and swimming the elbow through to create space between the forearm and your neck. Use your free hand to push against the threading arm's bicep to prevent it from reaching the far side. If neither succeeds, turning away to expose your back is a last resort that denies the choke finish at the cost of positional concession. Act immediately, as the window closes rapidly once the arm is threaded.",
         "safety_critical": false,
         "answer_line": "Pummel elbow, block the bicep",
@@ -591,7 +591,7 @@
         }
       },
       {
-        "question": "How should you prioritize defensive concerns when facing both Darce and Twister threats simultaneously from Twister Side Control?",
+        "question": "Under Twister side control, how do you prioritize defending the Darce and the Twister?",
         "answer": "Address the most immediate threat first. If the attacker is actively threading the choking arm, defend the neck with chin tuck and elbow clamp before worrying about spinal rotation. If the attacker is pursuing the Twister, protect the spine first. The key insight is that defending the Darce (keeping shoulders square) and defending the Twister (preventing spinal rotation) require different body positions, so you must correctly identify which threat is active and respond accordingly rather than trying to defend both simultaneously.",
         "safety_critical": false,
         "answer_line": "Defend whichever threat is active",

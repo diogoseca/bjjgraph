@@ -72,7 +72,7 @@ description: "Defend against the arm drag from clinch with early recognition, pu
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes a partial arm drag and has cleared one shoulder - what is your best recovery option?",
+      "name": "They partially arm drag you and clear one shoulder. What is your best recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately turn your body toward them by pivoting on your lead foot and driving your hip toward them aggressively. This re-squaring must happen before they establish chest-to-back connection. Use your free arm to frame on their shoulder or bicep as you turn. If they already have chest contact on your back, drop your hips and pull guard rather than fighting a standing scramble from a compromised position where they have dominant angles."

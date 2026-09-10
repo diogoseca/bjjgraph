@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "Your opponent pulls their arm back forcefully as you begin threading - what immediate adjustment do you make?",
+        "question": "They yank that arm back as you start threading for the lasso: what do you do immediately?",
         "answer": "Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted.",
         "answer_line": "Thread the now-extended arm",
         "distractors": {
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "The opponent strips the lasso side and frees their arm before you establish control - what do you chain into?",
+        "question": "They free the lasso arm before you establish control: what do you chain into?",
         "answer": "Flow immediately to an adjacent guard rather than chasing the lost lasso. If their freed arm retracts, switch your threading foot into a foot-on-bicep spider guard hook on that same arm. If they stand or step back, drop the foot to a De La Riva hook on their lead leg. If they drive forward to capitalize on the lost grip, recover double sleeve guard with both grips and feet on hips, then re-time the thread on whichever arm extends next. Cycling through the double-sleeve, spider, lasso, and De La Riva options keeps you attacking without committing to a position the opponent has already solved.",
         "answer_line": "Flow to spider, DLR, or reset",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "The bottom player's shin is halfway through the threading motion and you cannot prevent it - what should you do?",
+        "question": "Their shin is halfway through the lasso thread and you can't stop it: what now?",
         "answer": "Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments.",
         "answer_line": "Rotate arm in, pull elbow to hip",
         "distractors": {

@@ -270,7 +270,7 @@
         }
       },
       {
-        "question": "The attacker begins transitioning to inside ashi-garami mid-escape - what does this tell you and how do you adjust?",
+        "question": "They switch to inside ashi as you frame from ankle lock: what does it mean and how do you adjust?",
         "answer": "This signals the attacker read your framing attempt and chose positional advancement over finishing the ankle lock. Immediately abandon the framing sequence and address the inside ashi position with appropriate defense for that entanglement. Continuing to frame is counterproductive once the position changes fundamentally.",
         "answer_line": "Abandon frames, defend inside ashi",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "Your free leg is being controlled by the attacker's leg wrap - how do you generate pushing force for the escape?",
+        "question": "Your free leg is wrapped in straight ankle lock: how do you generate pushing force to escape?",
         "answer": "If the free leg is partially controlled, focus on arm frames first to create initial separation. Use hip rotation to free the leg incrementally. Even partial free leg movement against their inside knee can destabilize their wrap. If the free leg is fully trapped, rely entirely on arm frames combined with aggressive hip rotation to create enough space for leg extraction.",
         "answer_line": "Arm frames first, then hips",
         "distractors": {
@@ -446,7 +446,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the critical time window for countering Frame and Distance Creation before it becomes effective?",
+        "question": "What is the critical window to counter frame and distance creation from straight ankle lock?",
         "answer": "The critical window is the first 2-3 seconds after the opponent begins establishing frames on your upper body. Before they achieve full arm extension with skeletal alignment, their frames can be cleared relatively easily by swimming inside. Once structural alignment is established with two contact points, the distance becomes exponentially harder to close.",
         "answer_line": "First 2-3 seconds, swim inside",
         "distractors": {
@@ -460,7 +460,7 @@
         }
       },
       {
-        "question": "Your opponent establishes strong frames and creates significant distance - should you continue fighting for the ankle lock or transition?",
+        "question": "They frame and make real distance from your ankle lock: keep fighting for it or transition?",
         "answer": "Transition immediately to inside ashi-garami or another superior leg entanglement. Once frames create significant distance, the ankle lock becomes mechanically compromised because your breaking leverage depends on proximity. Stubbornly holding a weakened ankle lock wastes energy and allows the opponent to complete their escape. Use their framing commitment as an opportunity to advance position.",
         "answer_line": "Transition to inside ashi-garami",
         "distractors": {
@@ -502,7 +502,7 @@
         }
       },
       {
-        "question": "Your opponent pushes frames with both arms while their free leg drives into your hip - how do you address this multi-directional pressure?",
+        "question": "They push both arm frames while their free leg drives your hip: how do you handle both?",
         "answer": "Prioritize addressing the leg push first by tightening your leg wrap and blocking their free leg from gaining leverage on your hip. The leg push amplifies the arm frames, so neutralizing it reduces overall pressure significantly. Once the leg push is controlled, swim inside the arm frames to close distance. Attempting to address only the arm frames while the leg continues pushing leads to accumulated distance and eventual escape.",
         "answer_line": "Neutralize the leg push first",
         "distractors": {

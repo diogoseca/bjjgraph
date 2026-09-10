@@ -76,7 +76,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining chest pressure on the trapped leg crucial throughout the entire leg drag sequence?",
+      "name": "Why is chest pressure on the trapped leg crucial throughout the leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest pressure pins the trapped leg 'dead', preventing the opponent from pulling it back to their centerline to recover guard. It also serves several other critical functions: it lets the passer use body weight rather than arm strength for control (making the pass more efficient), and it keeps the passer's base low and stable, making sweeps difficult. Without consistent chest pressure, the leg drag becomes merely a temporary leg grip that can be easily escaped."
@@ -92,7 +92,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "How does the leg drag differ from other guard passes in terms of weight distribution and body positioning?",
+      "name": "How does leg drag weight distribution and positioning differ from other guard passes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg drag uses angular, diagonal chest pressure across the trapped leg while the hips stay mobile to circle around it. Unlike stack passes or pressure passes where weight is directed straight down through the opponent's center mass, the passer's chest pressure is diagonal rather than directly vertical, and the hips must remain capable of circling rather than being posted in a static position. This creates a dynamic pass where the passer constantly moves around an axis (the trapped leg) rather than driving through a fixed point. The body positioning is lower and tighter to the opponent compared to long-step or toreando passes, but more mobile than smash or knee slice variations."

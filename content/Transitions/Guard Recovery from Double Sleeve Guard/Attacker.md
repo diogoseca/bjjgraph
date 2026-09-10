@@ -74,7 +74,7 @@ description: "Learn to recover closed guard from double sleeve guard as the bott
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical time window for guard recovery after sleeve grip failure in double sleeve guard?",
+      "name": "After losing your sleeve grips in double sleeve guard, how long do you have to recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is approximately two to three seconds from the moment sleeve grips are compromised. After this window, the opponent has sufficient time to advance past the bottom player's leg barriers and establish a dominant passing position. Recovery must begin at the instant of grip failure rather than after the opponent has already advanced, as retraction speed decreases exponentially once the passer controls the legs."
@@ -82,7 +82,7 @@ description: "Learn to recover closed guard from double sleeve guard as the bott
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid attempting to re-fight for broken sleeve grips when the opponent is advancing forward?",
+      "name": "Why not re-fight for broken sleeve grips while your opponent advances forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-fighting for sleeve grips against a forward-advancing opponent wastes the critical recovery window on a low-percentage action. Reaching for sleeves extends your arms away from your defensive frame structure, creating openings for the passer to collapse distance and pin your shoulders. Additionally, the opponent's forward momentum makes their sleeves moving targets that are extremely difficult to secure under pressure. Closing guard first and then fighting for grips from closed guard is far more efficient."
@@ -106,7 +106,7 @@ description: "Learn to recover closed guard from double sleeve guard as the bott
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining at least one point of leg contact with the opponent essential throughout the recovery transition?",
+      "name": "Why keep at least one leg touching your opponent throughout guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continuous leg contact prevents the opponent from freely disengaging and resetting at a distance where they can choose their passing angle without resistance. If both legs lose contact simultaneously during the transition from extended to retracted position, the passer can step laterally, redirect around the legs, or drive directly through the gap. Maintaining at least one shin, foot, or knee touching the opponent ensures you retain some ability to track their movement and redirect your recovery to match their passing direction."
@@ -114,7 +114,7 @@ description: "Learn to recover closed guard from double sleeve guard as the bott
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your hip to block your hip escape during recovery—how do you adjust the guard closure mechanics?",
+      "name": "They post a hand on your hip to block your hip escape during recovery—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts on your hip to block the lateral hip escape, you must redirect force rather than fight through it. Use a two-on-one grip on their posting arm to peel it off your hip, which simultaneously removes their block and pulls their weight forward. Alternatively, hip escape in the opposite direction from your initial attempt, using the opponent's committed post as a pivot point. Their hand placement commits their weight to one side, making the reverse-direction hip escape more effective because they cannot adjust quickly enough to block both directions."

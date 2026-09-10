@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?",
+        "question": "Your opponent elevates your trapped leg with their butterfly hook—what adjustment do you make?",
         "answer": "Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle.",
         "answer_line": "Widen base, drive into hook side",
         "distractors": {
@@ -421,7 +421,7 @@
         }
       },
       {
-        "question": "Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?",
+        "question": "You cannot flatten their active K-guard hooks—what systematic approach do you take?",
         "answer": "Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters.",
         "answer_line": "Win grips, then angle to flatten",
         "distractors": {
@@ -449,7 +449,7 @@
         }
       },
       {
-        "question": "Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?",
+        "question": "Your opponent starts recovering full guard as you pass K-guard—how do you prevent it?",
         "answer": "Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles.",
         "answer_line": "Stop pass, drive knee back down",
         "distractors": {
@@ -878,7 +878,7 @@
         }
       },
       {
-        "question": "Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?",
+        "question": "They control your inside arm and flatten your K-guard hooks—how do you recover?",
         "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened.",
         "answer_line": "Recover inside arm, increase angle",
         "distractors": {
@@ -994,7 +994,7 @@
       }
     },
     {
-      "question": "How does the push-pull coordination between upper-body frames and lower-body hooks amplify off-balancing?",
+      "question": "How does the push-pull between K-guard frames and hooks amplify off-balancing?",
       "answer": "K-Guard links a pushing action from the upper-body frames with a simultaneous pulling action from the hooks, so force is applied to the opponent along two vectors at once. When the frame pushes the chest or shoulder one way while the inverted hook pulls the trapped leg the opposite way, the opponent's base is twisted rather than simply loaded, multiplying the off-balancing effect. Disconnecting these two systems leaves gaps that allow passing or re-basing, so the mechanics depend on synchronization. This coordinated push-pull is why a well-timed K-Guard can move a heavier opponent with relatively little muscular effort.",
       "answer_line": "Frame pushes, hook pulls opposite",
       "distractors": {
@@ -1022,7 +1022,7 @@
       }
     },
     {
-      "question": "Why does K-Guard tend to funnel the exchange toward leg-entanglement positions like X-Guard and Single Leg X?",
+      "question": "Why does K-guard funnel the exchange toward X-guard and single leg X?",
       "answer": "Because the butterfly hook already sits under the opponent's free leg and the inverted hook controls the trapped leg, the position is one leg-line adjustment away from full entanglements. When the top player steps back or extracts the trapped leg, that motion feeds the bottom player's hips directly underneath, which is the exact entry geometry for X-Guard and Single Leg X. Conversely, if forward pressure collapses the space, the same hook connection routes into deep half guard. K-Guard therefore behaves as a transitional hub whose hook structure naturally continues into the neighboring leg-lock and elevation positions rather than standing alone.",
       "answer_line": "Hook already unders the free leg",
       "distractors": {

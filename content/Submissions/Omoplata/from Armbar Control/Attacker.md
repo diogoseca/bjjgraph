@@ -100,7 +100,7 @@ description: "Learn to attack the omoplata from armbar control position. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins forward rolling as you sit up for the omoplata — what is your immediate response?",
+      "name": "Your opponent rolls forward as you sit up for the omoplata from armbar control—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip their far hip or belt with your inside hand to block the roll before it gains momentum. If they have already initiated rotation, follow them through the roll by maintaining your leg position around their shoulder and scooting your hips to match their movement. As they complete the roll, you can often end up in a mounted omoplata or transition to a sweep, converting their escape attempt into a positional advantage rather than losing the submission entirely."

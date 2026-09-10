@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "You complete the roll and come up on top. How do you decide between back control, crucifix, and the top kimura?",
+        "question": "After rolling kimura to top, how do you choose between back control, crucifix, and top kimura?",
         "answer": "Read what the opponent gave you on the way up. An exposed back with their arm out of the picture means drive to back control and insert hooks for the highest-value finish. A reachable free arm means trap it between your legs for the crucifix and both-arm control. A still-dominant grip with their arm pinned behind their back means settle into top kimura trap and finish the shoulder. The opening dictates the choice, so decide before you roll and confirm on the way up.",
         "answer_line": "Read what the opponent gave",
         "distractors": {
@@ -559,7 +559,7 @@
         }
       },
       {
-        "question": "Your opponent has locked the kimura grip from the bottom but has not rolled yet. What is your best defense?",
+        "question": "They lock a kimura grip from bottom but haven't rolled; what is your best defense?",
         "answer": "Widen your base and post your far hand and far leg to deny the rotational axis, while keeping your weight off the trapped-arm side so you do not feed the roll. Keep the threatened elbow tight and avoid driving forward. Without a diagonal axis to roll across, the attacker cannot generate the sweep, but stay alert to the far ankle, because a wide base invites the Old School sweep as the next branch.",
         "answer_line": "Widen base, post far limbs",
         "distractors": {
@@ -601,7 +601,7 @@
         }
       },
       {
-        "question": "Why should shoulder safety take priority over keeping the position when defending the Rolling Kimura?",
+        "question": "Defending the rolling kimura, why does shoulder safety outrank keeping the position?",
         "answer": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange.",
         "answer_line": "Shoulder heals slow; position fast",
         "distractors": {

@@ -56,7 +56,7 @@ description: "How to defend against Position reversal sweep to top in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?",
+      "name": "Defending in 50-50, what is the earliest cue that they are setting up the reversal sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success."
@@ -72,7 +72,7 @@ description: "How to defend against Position reversal sweep to top in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established inside position and created hip angle—what is your defensive priority sequence?",
+      "name": "Top 50-50: they have inside position and hip angle. What is your defensive priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors."
@@ -88,7 +88,7 @@ description: "How to defend against Position reversal sweep to top in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins elevating their hips while you are reaching for their heel—should you complete the heel attack or address the sweep?",
+      "name": "Top 50-50: they start elevating as you reach for their heel. Finish the heel or defend the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position."

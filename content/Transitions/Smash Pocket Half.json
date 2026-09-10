@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?",
+        "question": "Smashing pocket half, they scoot their hips under you for deep half. How do you respond?",
         "answer": "Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath your center of gravity. If you feel their hips shifting under you, abandon the smash temporarily and address the deep half threat by maintaining your hips above their centerline. Once you have prevented the entry, re-establish chest pressure and restart the smash sequence from the chest connection step.",
         "answer_line": "Sprawl back, drive knee down",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "What grip does the opponent need to maintain for their pocket structure, and how does this inform your stripping strategy?",
+        "question": "Where does their pocket half underhook grip, and how should that shape your stripping?",
         "answer": "The bottom player needs their underhook hand gripping your far lat, armpit, or belt line behind your back. This deep grip gives them rotational control and sweeping power. When stripping, target their wrist or forearm rather than trying to peel their hand off your back. Push their elbow toward their body to shorten the lever arm of the underhook, reducing its effectiveness before fully removing it.",
         "answer_line": "Push elbow in, shorten lever",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "Your smash stalls because the bottom player defends the flattening - what attacks can you chain to instead?",
+        "question": "Your smash on pocket half stalls against their defense. What attacks can you chain to?",
         "answer": "When the smash stalls, use the bottom player's defensive reactions as entries. If they turn hard into their underhook to defend, attack the Darce Choke or back-step toward their back as their shoulder exposes. If they extend their free arm to frame against you, attack a Kimura on that arm. If they give up the underhook battle to scoot underneath for deep half, switch to a back-step or sprawl-and-spin to stay on top. The smash is one prong of a dilemma - threatening it forces commitments that open these secondary attacks.",
         "answer_line": "Darce, Kimura, or back-step",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "What are the critical differences between the Smash Pocket Half and a general smash pass from standard half guard?",
+        "question": "How does the Smash Pocket Half differ from a standard smash pass on half guard?",
         "answer": "The Smash Pocket Half specifically addresses the pocket half guard's unique threats: the deep underhook and the hip frame creating the pocket space. A standard smash pass assumes the bottom player lacks a deep underhook and focuses primarily on flattening and leg extraction. The Smash Pocket Half adds the preliminary steps of collapsing the pocket space and neutralizing the underhook before the flattening can occur, making it a more specialized and sequential technique.",
         "answer_line": "Neutralize pocket before flatten",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "After successfully smashing to Flattened Half Guard, what follow-up error most commonly allows the opponent to recover pocket position?",
+        "question": "After smashing to flattened half guard, what error most often lets them rebuild the pocket?",
         "answer": "The most common error is immediately attempting to extract the trapped leg and complete the pass without first consolidating the flattened position. When you rush to pass, you must shift your weight, which creates momentary space the opponent can use to re-establish their hip frame and swim the underhook back in. Instead, spend several seconds settling into the flattened half guard, ensuring shoulders are pinned flat, underhook is neutralized, and crossface is dominant before beginning any pass attempt.",
         "answer_line": "Consolidate before passing",
         "distractors": {
@@ -497,7 +497,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a smash attempt is beginning, and why is early detection critical?",
+        "question": "What is the earliest cue a smash is starting in pocket half, and why detect it early?",
         "answer": "The earliest cue is the top player dramatically increasing their chest weight onto your torso while simultaneously driving their head toward your jaw on the crossface side. Early detection is critical because the smash is a progressive compression technique - each step makes the next step easier for the attacker and harder for you to counter. If you recognize and respond during the first step, you have multiple effective defensive options. By the third or fourth step, your options are severely limited and escape becomes significantly more difficult.",
         "answer_line": "Chest weight spikes suddenly",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "What defensive option should you choose if your underhook has been partially stripped but you still have hip frame intact?",
+        "question": "Pocket half: underhook partly stripped but hip frame intact. Which defense do you choose?",
         "answer": "With a partially stripped underhook but intact hip frame, your best option is to immediately transition to Knee Shield Half Guard. Use the remaining pocket space from your hip frame to insert your knee between your bodies and establish a shin frame across the opponent's chest or hip. This transitions you from a compromised pocket position to a defensive guard with strong distance management. Attempting to re-establish the deep underhook against a dominant crossface is typically a losing battle that wastes energy better spent on guard transitions.",
         "answer_line": "Transition to knee shield",
         "distractors": {

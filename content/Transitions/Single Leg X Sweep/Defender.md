@@ -64,7 +64,7 @@ description: "How to defend against Single Leg X Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established Single Leg X and begins pulling your upper body forward - what is your immediate priority?",
+      "name": "They have Single Leg X and start pulling your upper body forward: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to strip or break their upper body grip before they can combine the pull with leg extension. Use your free hand to peel their sleeve grip or break the collar tie, then re-establish your posture by driving your hips back and lowering your base. If the grip cannot be broken quickly, post your far hand on the mat for stability while lowering your center of gravity to resist the combined pull-and-extend mechanics of the sweep."
@@ -80,7 +80,7 @@ description: "How to defend against Single Leg X Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What base adjustments should you make when you feel the sweep beginning to succeed despite your initial defense?",
+      "name": "Single leg X sweep is succeeding despite your defense: how do you adjust your base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sweep is gaining momentum, immediately widen your base by stepping your free leg as far as possible in the direction opposite the sweep, post your near hand firmly on the mat for structural support, and lower your hips as much as possible to reduce the leverage advantage. If these measures are insufficient, consider tactically sitting to guard rather than being swept completely, which allows you to recover guard position on your terms rather than conceding the full sweep and top position."
@@ -88,7 +88,7 @@ description: "How to defend against Single Leg X Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What are the key visual and tactile cues that distinguish a Single Leg X Sweep from a transition to leg lock?",
+      "name": "Which cues tell you a single leg X sweep is instead becoming a leg lock entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A sweep attempt is characterized by strong upward elevation through the bottom hook, rotational force through the sweeper's shoulders, and their upper body pulling you forward and to the side. In contrast, a leg lock transition shows the opponent's hips rotating away from you rather than driving upward, their hands releasing upper body grips to control your ankle or heel, and their body dropping lower rather than elevating. Recognizing this distinction early allows you to choose the appropriate defense: base and posture for sweeps versus leg extraction and defensive boot for leg attacks."

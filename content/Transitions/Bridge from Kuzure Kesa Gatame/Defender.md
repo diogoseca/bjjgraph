@@ -50,7 +50,7 @@ description: "Defend against bridge escapes from Kuzure Kesa Gatame top. Learn r
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing to bridge from Kuzure Kesa Gatame bottom?",
+      "name": "What are the earliest cues that they are loading a bridge from under your kuzure kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for foot repositioning as the primary cue. When your opponent plants both feet flat near their hips, they are loading their posterior chain for a bridge. Additional cues include their free arm moving to frame on your hip establishing directional intent, a deep preparatory breath indicating imminent exertion, and head turning to one side establishing the rotational angle. Recognizing these preparatory movements gives you time to adjust weight and posting before the bridge launches."
@@ -66,7 +66,7 @@ description: "Defend against bridge escapes from Kuzure Kesa Gatame top. Learn r
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively and you feel your base being compromised - what is your best response?",
+      "name": "Their explosive bridge compromises your kuzure kesa gatame base: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bridge is strong enough to threaten reversal, immediately transition to mount by walking your knees over their hips as the bridge creates space. Use their upward momentum to slide into mount rather than fighting to maintain a broken Kuzure Kesa Gatame position. This converts a potential escape into a positional advancement. If the bridge direction takes you forward rather than laterally, transition to north-south to maintain top control."
@@ -74,7 +74,7 @@ description: "Defend against bridge escapes from Kuzure Kesa Gatame top. Learn r
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to use your opponent's bridge attempt to advance position rather than simply maintaining Kuzure Kesa Gatame?",
+      "name": "When should you use their bridge to advance rather than hold kuzure kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance position when the bridge creates sufficient space between your bodies that re-settling Kuzure Kesa Gatame would require a full positional reset. If their hips elevate significantly or they create rotation, the path to mount or north-south is often shorter than fighting back to the original pin. The general rule is: if you can slide your knee over their hip during the bridge, take mount; if they turn into you creating forward space, take north-south."

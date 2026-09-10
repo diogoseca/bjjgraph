@@ -72,7 +72,7 @@ description: "Defend the Modified Kesa Gatame to Mount transition. Learn recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?",
+      "name": "Your opponent swings their leg over toward mount — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert a knee shield immediately by driving your far knee across the top player's hip line during the swing. The step-over momentarily reduces downward pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer phase, not after the top player has already landed."

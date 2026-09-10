@@ -80,7 +80,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is circular knee motion more effective than linear pulling when breaking the lockdown figure-four?",
+      "name": "Why is circular knee motion better than linear pulling for breaking the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lockdown figure-four is structurally designed to resist linear backward force - pulling straight back actually tightens the ankle cross and strengthens the bottom player's grip. Circular inward motion exploits a biomechanical weakness: the figure-four triangle is vulnerable to rotational disruption at the ankle crossing point. By circling the knee inward toward the opponent's centerline, the trapped leg passes through the weakest axis of the lockdown triangle, requiring significantly less force to break free."
@@ -88,7 +88,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the Z-Lock transition, and how do you create one if the opponent maintains constant lockdown pressure?",
+      "name": "When should you start the Z-Lock transition, and how do you create that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window occurs when lockdown tension momentarily decreases - after a failed sweep attempt, during grip adjustment, or when the opponent shifts from offense to defense. To create a window artificially, threaten an upper body submission or pass that forces them to address a problem above their waist, which reflexively loosens their leg grip. Heavy crossface pressure that makes breathing difficult also causes the opponent to prioritize escaping the pressure over maintaining maximum lockdown tension."
@@ -96,7 +96,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent has extremely tight lockdown and you cannot break the figure-four despite good upper body pressure - what alternative approaches exist?",
+      "name": "Their lockdown won't break despite good pressure: what alternatives do you have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the lockdown cannot be broken directly, several alternatives exist: (1) continue heavy crossface pressure until the opponent fatigues and loosens grip, (2) attempt a back step pass that works with the lockdown rather than against it, (3) use the underhook-assisted variant by turning the opponent slightly away to change the angle of the figure-four, or (4) feint the Z-Lock transition repeatedly to tire their legs before committing to the actual attempt. Patience is essential - forcing through a tight lockdown leads to sweeps."
@@ -104,7 +104,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
     },
     {
       "@type": "Question",
-      "name": "Where exactly should the knee be positioned when establishing the Z-Lock, and what happens if it is placed too high or too low?",
+      "name": "Where exactly does your knee go for the Z-Lock, and what if it's too high or too low?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee must be positioned directly across the opponent's hip crease, with the shin creating a diagonal line across the lower abdomen. Too high (on the ribs) creates discomfort but fails to control hip movement, allowing shrimping escapes and lockdown re-establishment below the knee. Too low (on the thigh) does not create sufficient lateral pressure and the opponent can elevate the knee with a butterfly hook motion. The hip crease is the precise location where the Z-Lock blocks all hip-based escape patterns."
@@ -112,7 +112,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
     },
     {
       "@type": "Question",
-      "name": "During the knee transition, your opponent secures an underhook and begins coming up to dogfight - what should your immediate response be?",
+      "name": "They get an underhook and start rising to dogfight during your knee transition: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the Z-Lock attempt immediately and address the underhook threat. Drive a hard crossface to force them back down, or establish a whizzer on the underhook arm to prevent them from completing the rise to dogfight. If they achieve full dogfight, you may need to concede to the scramble and fight for your own underhook. The critical lesson is that the Z-Lock transition must never compromise upper body control - if the opponent gets underneath you during the transition, reset to heavy pressure and try again."

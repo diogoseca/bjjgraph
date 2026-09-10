@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "What control must be established before initiating the arm triangle grip transition from Kesa Gatame?",
+        "question": "What must be established in Kesa Gatame before switching grips to the arm triangle?",
         "answer": "Before initiating the grip switch, you must have a fully consolidated Kesa Gatame with three verified checkpoints: your head-wrapping arm is deep around the opponent's head pulling it toward your hip, their near arm is pinned tightly under your armpit with your elbow squeezing against your ribs, and your chest weight is settled heavily on their upper body so they cannot bridge or create frames. The near arm must be loaded against their own neck by your chest pressure before you release any part of the scarf hold grip.",
         "safety_critical": false,
         "answer_line": "Consolidate Kesa: head, arm, weight",
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging explosively as you begin the grip transition - what adjustment prevents losing position?",
+        "question": "They bridge explosively as you start the Kesa Gatame grip switch — how do you keep position?",
         "answer": "Immediately pause the grip transition and re-consolidate your Kesa Gatame. Widen your posted leg for base and drive your chest weight down onto their face and upper body to ride out the bridge. Do not attempt to complete the grip switch while under an active bridge as this is when your control is most vulnerable. Wait for the bridge to exhaust, re-pin the near arm against their neck with your chest, then resume the transition when the opponent settles. Patience during the bridge prevents position loss.",
         "safety_critical": false,
         "answer_line": "Pause, base out, ride the bridge",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "What are the most common finishing errors that reduce the arm triangle from a blood choke to a neck crank?",
+        "question": "Which finishing errors turn the arm triangle from Kesa Gatame into a neck crank?",
         "answer": "The three most common errors that produce a neck crank instead of a clean blood choke are: failing to walk to perpendicular angle so the shoulder does not align with the carotid, squeezing with arm strength instead of chest compression which applies force to the wrong vectors, and keeping your head high instead of sealing it to the mat on the far side which leaves gaps that prevent the bilateral compression needed for a blood choke. A proper arm triangle should feel effortless through body mechanics.",
         "safety_critical": false,
         "answer_line": "Wrong angle, arm squeeze, high head",
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip if the opponent's neck is thicker and the standard figure-four feels loose?",
+        "question": "Their neck is thick and the figure-four feels loose — what grip do you use instead?",
         "answer": "Switch from the standard figure-four grip to a deeper gable grip with palms pressed together behind the opponent's head. The gable grip provides a tighter configuration that compensates for thicker necks by reducing slack. You can also walk further toward the opponent's head to increase the compression angle, and focus on expanding your chest rather than squeezing your arms. For very thick necks, ensuring the arm is driven as high as possible against the neck before locking the grip creates a shorter choking distance.",
         "safety_critical": false,
         "answer_line": "Deeper gable grip, palms together",
@@ -415,7 +415,7 @@
         }
       },
       {
-        "question": "In competition, your opponent is defending by tucking their chin and gripping their own collar - how do you complete the finish?",
+        "question": "They tuck the chin and grip their own collar under your arm triangle — how do you finish?",
         "answer": "The chin tuck and collar grip buy time but do not neutralize a properly locked arm triangle. Walk further toward their head to increase the compression angle beyond what their chin defense can offset. Use your free hand to strip their collar grip by attacking the weakest finger. Increase chest expansion pressure gradually rather than trying to muscle through the defense. The chin and collar defense is a stalling mechanism that fails as the compression angle tightens. Stay patient and let progressive pressure do the work rather than explosive squeezing.",
         "safety_critical": false,
         "answer_line": "Walk deeper, break grip, patient",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from extracting their trapped arm during the grip transition from Kesa Gatame?",
+        "question": "How do you stop the arm escaping during the Kesa Gatame to arm triangle grip switch?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their near arm against their own neck so they cannot pull it free. The arm must be loaded against the neck by your chest weight before you release the Kesa Gatame head wrap. During the transition, your forearm threading over their arm and behind their neck mechanically prevents extraction. If you feel the arm starting to slide out during the switch, immediately abandon the arm triangle and re-establish your Kesa Gatame scarf hold grip.",
         "safety_critical": false,
         "answer_line": "Chest weight pins arm to neck",
@@ -608,7 +608,7 @@
         }
       },
       {
-        "question": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options remain?",
+        "question": "Head-and-arm locked from Kesa Gatame, angle not yet walked — what escapes remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to eliminate the finishing angle.",
         "safety_critical": false,
         "answer_line": "Turn in, frame hips, get up",

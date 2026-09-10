@@ -82,7 +82,7 @@ description: "Master the Kimura setup from Shoulder of Justice top position. Ste
     },
     {
       "@type": "Question",
-      "name": "Why must shoulder pressure be maintained throughout the grip establishment rather than momentarily released?",
+      "name": "Why keep shoulder of justice pressure on while establishing the Kimura grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing shoulder pressure removes the stimulus that caused the arm to extend in the first place. The moment pressure lifts, the opponent's near arm retracts to their ribs, closing the threading window. Additionally, pressure release allows the opponent to begin shrimping or turning, which disrupts your base and positioning. The shoulder pressure serves dual purposes: maintaining positional control and sustaining the defensive reaction that exposes the arm."
@@ -90,7 +90,7 @@ description: "Master the Kimura setup from Shoulder of Justice top position. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent extends their near arm to push your shoulder but immediately starts pulling it back—how do you respond?",
+      "name": "They extend the near arm then immediately pull it back — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must commit to the threading immediately upon seeing the initial extension, not wait for a sustained push. Thread your arm as fast as possible while the extension still exists, even if it is partial. A partial thread can still be converted to a Kimura grip if you drive your body weight forward to pin their arm in the extended position. Speed of recognition and commitment in the first half-second determines success."
@@ -98,7 +98,7 @@ description: "Master the Kimura setup from Shoulder of Justice top position. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that differentiates a successful grip from one the opponent can break?",
+      "name": "What detail separates an unbreakable shoulder of justice Kimura grip from one they can strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip depth near the elbow versus near the wrist is the critical differentiator. A deep grip with the figure-four locked near the opponent's elbow creates maximum leverage and prevents arm straightening, which is the primary grip-breaking mechanism. A shallow grip near the wrist allows the opponent to straighten their arm and use bicep strength to pull free. The threading arm must pass completely under the tricep before locking the figure-four."
@@ -114,7 +114,7 @@ description: "Master the Kimura setup from Shoulder of Justice top position. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent's near arm is completely pinned tight to their ribs despite maximum pressure—what is your best response?",
+      "name": "Their near arm stays pinned to their ribs despite your pressure — what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the Kimura setup against a disciplined arm defense. Instead, capitalize on their commitment to arm protection by transitioning to mount advancement, as their arm tightness means they are not framing or creating escape space. Alternatively, briefly shift your pressure angle to create uncertainty, then snap back to the original line—this pressure variation can provoke a momentary arm extension that creates the threading window."

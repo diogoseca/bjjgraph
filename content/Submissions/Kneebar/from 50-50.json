@@ -313,7 +313,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the minimum time you should take to apply finishing pressure on a kneebar during training, and why?",
+        "question": "How slowly should you apply finishing pressure on a kneebar in training, and why?",
         "answer": "Minimum 5-7 seconds of progressive pressure during training. This slow application allows your training partner ample time to recognize the danger and tap safely. Explosive or fast applications can cause severe knee ligament damage before the person can react, potentially causing ACL/MCL tears that require surgery and 9-12 months recovery. Competition speed and training speed are different—partner safety always takes priority in the training room.",
         "safety_critical": true,
         "answer_line": "Build pressure over 5-7 seconds",
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "What anatomical structures are targeted by the kneebar and what type of damage occurs when the submission is completed?",
+        "question": "What structures does the kneebar target, and what damage occurs when it is completed?",
         "answer": "The kneebar targets the knee joint through hyperextension, primarily stressing the posterior structures. The ACL (anterior cruciate ligament) and PCL (posterior cruciate ligament) resist this hyperextension and are at greatest risk of rupture. The MCL and LCL (medial and lateral collateral ligaments) provide secondary stability and can tear under rotational stress. The meniscus can also be damaged. When the submission is fully applied, the knee is forced to bend backward beyond its natural range, causing ligament tearing, cartilage damage, or complete joint destruction.",
         "safety_critical": true,
         "answer_line": "ACL/PCL via hyperextension",
@@ -373,7 +373,7 @@
         }
       },
       {
-        "question": "Why is controlling opponent's foot in your armpit essential for the kneebar, and what happens if you lose this control?",
+        "question": "In the 50-50 kneebar, why clamp their foot in your armpit, and what if you lose it?",
         "answer": "Controlling the foot in your armpit prevents opponent from rotating their knee and escaping the leg entanglement. The foot control acts as an anchor—when their foot is secured with toes pointing to your back, they cannot turn their knee inward or outward to relieve pressure. If you lose foot control, opponent can immediately rotate their leg, escape the position entirely, and potentially reverse to attack your exposed leg. The armpit grip should be treated like a seatbelt—clamped tight with elbow and forearm glued to your ribs throughout the entire submission sequence.",
         "safety_critical": false,
         "answer_line": "Stops foot rotation, locks leg",
@@ -388,7 +388,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up and sit toward you during your kneebar attempt - what adjustment prevents this escape?",
+        "question": "During your 50-50 kneebar, they posture up and sit toward you: what adjustment stops this escape?",
         "answer": "Immediately use your grip hand (not controlling the foot) to push down on their hip, belt, or far leg to drive them back flat. If they are already partially upright, you can also drive your top leg (the one over their thigh) downward forcefully while simultaneously pulling their foot deeper into your armpit. This creates a leverage point that forces them back down. If they fully establish seated posture facing you, the kneebar is likely lost—transition immediately to a heel hook (if legal) by rotating their exposed heel toward you, or reset the position entirely.",
         "safety_critical": false,
         "answer_line": "Push their hip flat, deepen foot",
@@ -403,7 +403,7 @@
         }
       },
       {
-        "question": "What is the primary defensive danger you face when attempting a kneebar from 50-50, and how should you address it?",
+        "question": "What counter-attack risk do you face attacking a kneebar from 50-50, and how do you address it?",
         "answer": "The primary danger is opponent counter-attacking your exposed leg with their own kneebar or heel hook (in rule sets where heel hooks are legal). The 50-50 position is symmetrical—both legs are entangled and potentially vulnerable. To address this: (1) Keep your heel hidden by turning it away from opponent; (2) Monitor their hand position on your foot constantly; (3) Establish your controls faster than they establish theirs; (4) If they gain control on your foot, immediately decide whether to finish quickly (competition) or release and defend (training). Never become so focused on your attack that you ignore counter-attacks to your own leg.",
         "safety_critical": true,
         "answer_line": "Counter heel hook on your leg",
@@ -418,7 +418,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip on the opponent's foot when they begin rotating their knee inward to relieve pressure?",
+        "question": "In the 50-50 kneebar, they rotate the knee inward to relieve pressure: how do you adjust your grip?",
         "answer": "When opponent rotates their knee inward, immediately clamp your elbow tighter against your ribs and pull their foot deeper into your armpit. Simultaneously, rotate your entire body slightly to follow their knee rotation—your hip must stay across their knee joint line regardless of which direction they turn. If their inward rotation continues, this actually exposes their heel for a heel hook transition. Convert your armpit grip to a heel hook grip by releasing the foot, shooting your hand behind their Achilles, and establishing figure-four control. Their defensive movement becomes your offensive opportunity.",
         "safety_critical": false,
         "answer_line": "Clamp tighter, follow rotation",
@@ -433,7 +433,7 @@
         }
       },
       {
-        "question": "What should you do in training if you have applied proper kneebar technique with correct hip position and foot control for 5 seconds and opponent has not tapped?",
+        "question": "Your kneebar is technically correct but your training partner hasn't tapped in 5 seconds: what now?",
         "answer": "Release the submission and reset the position. In training, if proper technique with progressive pressure does not produce a tap within 5 seconds, continuing to apply force risks injuring a stubborn partner or indicates a technical error in your execution. This is not competition where you might finish through resistance—training priorities are skill development and partner safety. Release, discuss with your partner whether they felt pressure, and either adjust your technique or acknowledge they successfully defended. Never 'teach someone a lesson' by forcing through their stubbornness in training.",
         "safety_critical": true,
         "answer_line": "Release and reset the position",
@@ -448,7 +448,7 @@
         }
       },
       {
-        "question": "How do you prevent opponent from sitting up and establishing upper body control while you attack the kneebar?",
+        "question": "How do you stop your opponent sitting up and getting upper body control during your 50-50 kneebar?",
         "answer": "Establish grip control on opponent's belt, pants at the hip, or their far leg immediately after securing foot control. This grip prevents them from sitting up and facing you. Keep constant forward pressure to maintain them flat on their back with compromised posture. If they do manage to sit up and face you, they can establish cross-face control, grip fight effectively, or escape the leg entanglement entirely. Your free hand (not controlling the foot) should always be controlling their upper body or hips—never just posting on the mat. Positional control comes before submission attempts.",
         "safety_critical": false,
         "answer_line": "Grip belt or far leg, pin flat",
@@ -463,7 +463,7 @@
         }
       },
       {
-        "question": "In competition, what indicators tell you to commit fully to the finish versus transition to another attack?",
+        "question": "In competition, which signs tell you to commit to the 50-50 kneebar finish rather than transition?",
         "answer": "Commit fully to the finish when: (1) your hip is perfectly positioned across their knee joint with zero space; (2) their foot is locked deep in your armpit with no rotation; (3) your leg entanglement is tight with their thigh completely immobilized; (4) their upper body is flat and they cannot sit up to face you; (5) your own leg is safe from counter-attack. Transition to another attack when: they successfully rotate their knee away from danger, they sit up and establish upper body control, you feel your foot control slipping, or they begin establishing control on your leg. The kneebar-to-heel-hook chain is particularly effective—their kneebar defense often exposes their heel.",
         "safety_critical": false,
         "answer_line": "Every control tight, no space",
@@ -478,7 +478,7 @@
         }
       },
       {
-        "question": "What are the three most critical ligaments at risk when a kneebar is applied, and what are the typical recovery times if they are torn?",
+        "question": "Which knee structures are most at risk in a kneebar, and what are typical recovery times if torn?",
         "answer": "The three most critical ligaments at risk are: (1) MCL (Medial Collateral Ligament) and LCL (Lateral Collateral Ligament) which provide side-to-side stability, recovery 6-12 months with surgery; (2) ACL (Anterior Cruciate Ligament) and PCL (Posterior Cruciate Ligament) which prevent front-to-back movement, recovery 9-12 months with reconstructive surgery; (3) The meniscus (while not a ligament, it's commonly damaged), recovery 3-6 months. These injuries are severe and career-impacting, which is why controlled application and immediate release upon tap are non-negotiable.",
         "safety_critical": true,
         "answer_line": "MCL/LCL, ACL/PCL and meniscus",
@@ -610,7 +610,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is setting up a kneebar from 50-50, and what should your immediate response be?",
+        "question": "What is the earliest cue your opponent is setting up a 50-50 kneebar, and how should you respond?",
         "answer": "The earliest cue is your opponent reaching for your foot and beginning to pull it toward their armpit. Your immediate response must be to retract your foot by pulling your heel toward your buttock while rotating your knee inward. This prevents them from establishing the primary anchor point (foot in armpit) that the entire kneebar depends on. Every second of delay after this cue makes escape progressively more difficult.",
         "safety_critical": false,
         "answer_line": "Retract foot, bend knee in",
@@ -670,7 +670,7 @@
         }
       },
       {
-        "question": "Your opponent has captured your foot in their armpit but has not yet positioned their hip across your knee - what is the optimal defensive action at this stage?",
+        "question": "They have your foot in their armpit but their hip is not yet across your knee: what do you do now?",
         "answer": "At this stage, immediately sit up aggressively and face your opponent while simultaneously fighting to retract your foot from their armpit using both hands. Sitting up changes the angle of your leg relative to their body, preventing them from achieving the perpendicular alignment needed for the kneebar. Establish upper body grips (cross-face, collar, or underhook) as you sit up to maintain the face-to-face engagement. This is your last high-percentage window before the submission becomes dangerous—once their hip crosses your knee joint, sitting up becomes much more difficult.",
         "safety_critical": false,
         "answer_line": "Sit up, face them, retract foot",

@@ -66,7 +66,7 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "Why should you rotate with the toe hold pressure rather than against it, and what does this accomplish biomechanically?",
+      "name": "Why rotate with 50-50 toe hold pressure instead of against it, and what does that achieve?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotating with the pressure reduces the relative rotation between your foot and your lower leg, which is the mechanism that damages lateral ankle ligaments. When you resist the rotation, your body stays fixed while your foot rotates, creating maximum torque on the talocrural joint. By rotating your entire body in the same direction as the applied force, you reduce the differential rotation to near zero, buying time to escape or counter. This is biomechanically identical to the principle of 'going with the throw' in judo—absorbing force rather than opposing it reduces damage and creates escape opportunities."
@@ -74,7 +74,7 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "When defending the toe hold in 50-50, how do you decide between grip fighting defense and counter-attacking with your own submission?",
+      "name": "Defending a 50-50 toe hold: how do you choose between grip fighting and counter-attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on two factors: (1) how far along the opponent's toe hold progression is, and (2) the relative quality of your access to their legs. If the opponent is still in early grip establishment phase, grip fighting is highest percentage because you can deny the submission entirely. If the figure-four is already locked and you have solid access to their foot, counter-attacking creates a mutual threat that often forces a release. However, if their toe hold is locked and your access to their legs is poor, you must prioritize rotation escape and tapping rather than gambling on a counter-attack you may not finish in time."
@@ -90,7 +90,7 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "In training, at what point should you tap to a toe hold from 50-50, and why is early tapping important for long-term training health?",
+      "name": "When should you tap to a toe hold in training, and why does early tapping protect you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap at the first sensation of uncomfortable pressure on your ankle joint—well before you feel sharp pain or hear any popping sounds. In training, there is no benefit to enduring ankle pressure because ankle ligaments do not strengthen from being stretched near their failure point; they only accumulate micro-damage that weakens them over time. Unlike muscle soreness that builds strength, repeated ligament stress leads to chronic laxity, instability, and eventual catastrophic failure. Tapping early preserves your ankle health for decades of training. The correct training approach is to work on preventing the position and escaping early, then resetting—not toughening through the finish."

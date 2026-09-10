@@ -74,7 +74,7 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical prerequisite that must be established before you attempt to thread your leg over the opponent's shoulder?",
+      "name": "What must you establish before threading your leg over their shoulder for the crucifix from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must have firm control of both of the opponent's arms before threading the leg. The near-side arm is controlled with your hand grip, and the far-side arm must be caught by swimming under the armpit. Attempting the leg thread without bilateral arm control allows the opponent to retract their far arm and turn into you, collapsing the entire attack. The arm control is the foundation that makes the leg thread viable."
@@ -82,7 +82,7 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat while you have their near arm controlled from turtle top - how do you capitalize on this?",
+      "name": "Turtle top with their near arm controlled: they post the far hand. How do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted far hand is your entry signal for the crucifix. While maintaining your near-arm grip and chest pressure, immediately swim your free arm under their far armpit to catch the posted wrist or forearm. Pull their arm across their body toward you. The act of posting extends their arm away from their body, creating the exact opening you need. Speed is essential here because the post is temporary - they will retract the arm once they feel it being controlled."
@@ -98,7 +98,7 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "You have the crucifix partially established but the opponent begins pulling their trapped arm free - should you fight to maintain the crucifix or transition?",
+      "name": "Crucifix partly set and their trapped arm is slipping: fight to keep it or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to an alternative position rather than fighting for a compromised crucifix. If the arm is slipping free, the mechanical advantage of the position is already lost. Switch to standard back control with hooks, or if the opponent has turned significantly, take front headlock position. Fighting to re-trap an escaping arm wastes energy and often results in losing the position entirely. The crucifix works because of complete arm isolation - partial control is not sufficient."
@@ -106,7 +106,7 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What is the correct shin placement when threading the leg over the opponent's shoulder, and why does this matter?",
+      "name": "Where must your shin sit when threading the leg for the crucifix from turtle, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin must press against the back of the opponent's shoulder blade, not over their head or neck. Shoulder placement creates a mechanical lock where the leg acts as a lever pinning the arm against the opponent's own body. Head placement is unstable because the opponent can duck their head and the arm slides free. The shoulder is a fixed bony landmark that provides consistent leverage regardless of the opponent's head movement."

@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent drives their chest down and increases pressure as you begin to shrimp—how do you adjust?",
+        "question": "They drive chest pressure down as you shrimp from ushiro kesa gatame: how do you adjust?",
         "answer": "Maintain the frame rigidly and pause the shrimping sequence to absorb their pressure. Once they commit their weight forward and low, execute a quick bridge feint to disrupt their settled weight, then immediately resume shrimping while their weight is momentarily displaced. This bridge-to-shrimp combination exploits the opponent's forward commitment—the bridge moves them up, and the shrimp moves you out during the return. Alternatively, switch to the full bridge escape if their weight shifts high enough.",
         "answer_line": "Pause, bridge feint, resume",
         "distractors": {
@@ -360,7 +360,7 @@
         }
       },
       {
-        "question": "You have inserted the knee shield but the opponent is driving heavy pressure against it—what is the immediate follow-up?",
+        "question": "After inserting the knee shield under heavy pressure, what is your immediate follow-up?",
         "answer": "Once the knee shield is established, shift your frame from the opponent's hip to controlling their far arm or cross-facing hand to prevent them from applying submissions or flattening you past the knee shield. Continue shrimping to widen the space between your bodies while your legs work to capture their near leg for full half guard. The knee shield is not the endpoint—it is the transition point from escape mode to guard recovery mode. Use it as a platform for establishing the underhook.",
         "answer_line": "Control their arm, keep shrimping",
         "distractors": {
@@ -478,7 +478,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest indicator that the bottom player is initiating a hip escape rather than a bridge?",
+        "question": "What earliest cue shows the bottom player is hip escaping rather than bridging?",
         "answer": "The key differentiator is the hip turn—the bottom player rotating onto their far hip indicates a shrimping escape, while planting both feet symmetrically indicates a bridge. The hip escape also shows the free arm positioning as a lateral frame against your hip rather than a push-off point under your shoulder. Recognizing this distinction within the first second allows you to apply the correct defensive response: forward pressure for hip escapes versus sprawling for bridges.",
         "answer_line": "They rotate onto far hip",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "Your opponent successfully inserts a knee shield during their escape—what is the best immediate response?",
+        "question": "They insert a knee shield against your ushiro kesa gatame: what is your best response?",
         "answer": "Once the knee shield is in, do not try to remove it by pulling the leg out, as this creates more space. Instead, drive shoulder pressure against the knee shield to flatten it, then transition to a half guard passing strategy such as the knee slice or smash pass. Alternatively, if the shield is not deeply set, you can backstep to re-establish a different control position. The key recognition is that Ushiro Kesa Gatame is lost once the knee enters—switching to half guard top mentality is essential.",
         "answer_line": "Flatten shield, pass half guard",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "When is the optimal moment to transition from pin defense to mount advancement during the escape attempt?",
+        "question": "When should you leave the pin to advance to mount during their escape attempt?",
         "answer": "The optimal moment is when the bottom player has created lateral space through two or three shrimps but has not yet raised their near knee to block. Their hips are angled away from you and moving in one direction, creating a clear pathway for your far leg to step over. This window typically exists for one to two seconds between the space creation and the knee insertion. Committing too early means insufficient space for the step-over; committing too late means the knee shield blocks the transition.",
         "answer_line": "After 2-3 shrimps, before knee up",
         "distractors": {

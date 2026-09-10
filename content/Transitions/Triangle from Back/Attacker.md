@@ -88,7 +88,7 @@ description: "How to execute Triangle from Back in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from your opponent creates the optimal window to initiate the triangle entry?",
+      "name": "Which defensive reaction opens the window to start the triangle from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the opponent commits both hands to a two-on-one grip on your choking arm, pulling it below their chin to defend the rear naked choke. This two-handed commitment creates an undefended gap above the shoulder on the choking side and removes their ability to block the incoming leg. Without this commitment, the opponent can use their free hand to intercept the leg thread."

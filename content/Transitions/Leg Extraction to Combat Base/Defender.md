@@ -64,7 +64,7 @@ description: "How to defend against Leg Extraction to Combat Base in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established crossface and begins driving their hips forward - what is your best offensive response?",
+      "name": "In lockdown, your opponent crossfaces and drives their hips forward — best offensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their forward drive creates the ideal setup for the whip-up sweep. Extend the lockdown aggressively to load their weight forward, then use that momentum by explosively coming to your elbow on the underhook side and driving into them. Their forward commitment makes it extremely difficult to base back against the whip-up. If you have the underhook, this becomes a high-percentage sweep opportunity directly created by their extraction attempt."
@@ -96,7 +96,7 @@ description: "How to defend against Leg Extraction to Combat Base in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent's extraction attempt fails and they return to neutral lockdown position - how do you capitalize?",
+      "name": "Their lockdown extraction fails and they return to neutral — how do you capitalize from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A failed extraction attempt means they expended energy and likely loosened their upper body control momentarily. Immediately re-tighten your lockdown with maximum tension, aggressively fight for the underhook if you do not already have it, and begin setting up your next sweep attack. Their failed attempt creates a psychological window where they are reassessing their approach—this is the optimal time to launch an offensive sequence while their focus is on what went wrong."

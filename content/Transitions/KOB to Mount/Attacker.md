@@ -104,7 +104,7 @@ description: "Learn to execute the Knee on Belly to Mount transition. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes hard against your knee as you prepare to transition to mount—how do you capitalize on this reaction?",
+      "name": "They push hard on your knee as you set up KOB to mount — how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their extended arms pushing against your knee are committed to vertical force rather than positional defense. This creates two opportunities: immediately initiate the step-over while their arms are occupied and unable to block the incoming leg, or attack the extended arms with a far-side armbar to punish the push and force them to retract, creating an even better transition window on the next attempt."
@@ -112,7 +112,7 @@ description: "Learn to execute the Knee on Belly to Mount transition. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?",
+      "name": "What mechanical error in the KOB to mount step-over lets them recover half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is swinging the leg too slowly or hesitantly, giving the bottom player time to insert a knee shield between your legs before mount is established. This slow swing creates an extended window where the opponent can thread their knee across your body and establish half guard. The correction is committing fully to the step-over with speed and clearing any knee insertion attempts with your swinging leg."

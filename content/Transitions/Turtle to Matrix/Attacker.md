@@ -90,7 +90,7 @@ description: "How to execute the Transition to Matrix entry from turtle top in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains an extremely tight turtle with elbows welded to knees and no gap for entry. How do you create the space needed?",
+      "name": "Their turtle is tight with elbows on knees: how do you create space for a Matrix entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use directional pressure changes to force defensive reactions that open gaps. Push heavy forward pressure toward their head to force them to post hands wider, then immediately redirect laterally. Use crossface pressure to rotate their shoulders, which naturally separates the near-side elbow from the knee. Feint a front headlock approach by circling toward their head, forcing them to tuck their chin and adjust posture, which often opens the far-side gap. The gap is created through pressure manipulation, not by forcing through a closed structure."
@@ -98,7 +98,7 @@ description: "How to execute the Transition to Matrix entry from turtle top in B
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that determines whether the arm threading provides sufficient control?",
+      "name": "In the Matrix entry, what tells you your threaded arm is deep enough to control them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical detail is the depth of insertion measured by whether your shoulder presses against the opponent's ribs. If only your hand or forearm reaches past the armpit, the anchor is too shallow and the opponent can easily rotate against it. When your shoulder contacts their ribs, the entire weight of your upper body can resist their rotation attempts. The shoulder-to-rib contact creates a structural block rather than a grip-dependent control, which is far more reliable under pressure."
@@ -114,7 +114,7 @@ description: "How to execute the Transition to Matrix entry from turtle top in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning into you aggressively as you thread your arm under their armpit. Should you abandon the Matrix entry?",
+      "name": "They turn into you as you thread your arm for the Matrix: should you abandon the entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Not necessarily. If your arm is already deeply threaded with shoulder-to-rib contact, maintain the anchor and follow their turn. Their rotation often brings you into front headlock or darce control position, which are strong attacking positions. Only abandon if the arm is shallow and losing connection. The decision depends on threading depth: deep arm means follow and transition to a new attack; shallow arm means disengage and re-establish turtle top control before the opponent completes their escape."

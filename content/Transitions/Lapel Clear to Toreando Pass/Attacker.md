@@ -98,7 +98,7 @@ description: "How to execute Lapel Clear to Toreando Pass in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins re-gripping the lapel as you clear it—what adjustment prevents them from re-establishing control?",
+      "name": "They re-grip the lapel as you clear it — what adjustment stops them re-establishing control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pause the clearing motion and re-establish control of their gripping hand before continuing. The hand control must be maintained throughout the entire clearing sequence. If they keep fighting for the re-grip, use your secondary hand to trap their wrist to their body while your primary hand completes the clear."

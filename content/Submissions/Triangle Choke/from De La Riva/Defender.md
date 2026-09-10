@@ -58,7 +58,7 @@ description: "How to defend against Triangle from De La Riva in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest defensive window against Triangle from De La Riva and why is it the most important?",
+      "name": "What is the earliest window to defend the triangle from De La Riva, and why does it matter most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest window is during the De La Riva guard phase before the leg swim begins, when you feel the collar grip pulling your posture down and the sleeve grip pushing your arm across. This window is most important because maintaining posture at this stage completely prevents the triangle entry. Once the leg clears your shoulder, defensive difficulty increases exponentially. Immediate posture recovery and grip fighting at this stage eliminates the threat entirely."

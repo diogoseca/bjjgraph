@@ -90,7 +90,7 @@ description: "How to execute the Rolling Guard Pull in BJJ. Complete attacking g
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the roll completes smoothly or stalls?",
+      "name": "In the rolling guard pull, what mechanical detail decides whether the roll completes or stalls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip drop must be explosive and committed rather than gradual. A slow descent allows the opponent time to react, sprawl, or disengage. The hips must drop below the opponent's center of gravity rapidly while the forward momentum from the preceding step carries the body into rotation. The transition from forward step to hip drop to roll should be one continuous accelerating motion with no pause between phases. A common diagnostic: if you can feel yourself sitting before rolling, the hip drop was too slow."

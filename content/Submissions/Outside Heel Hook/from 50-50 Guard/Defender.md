@@ -66,7 +66,7 @@ description: "Defend the outside heel hook from 50-50 guard. Recognition cues, h
     },
     {
       "@type": "Question",
-      "name": "What is the safest response when you feel rotational pressure on your knee from a locked outside heel hook?",
+      "name": "What is the safest response when you feel rotation on your knee from a locked outside heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using verbal tap, hand tap on the partner or mat, or foot tap with your free leg. Heel hooks damage knee ligaments before pain signals reach the brain, meaning structural damage can occur before you feel it. There is no safe way to resist a locked heel hook with rotational pressure already applied. A slightly early tap prevents months of rehabilitation from a torn ACL or MCL."
@@ -90,7 +90,7 @@ description: "Defend the outside heel hook from 50-50 guard. Recognition cues, h
     },
     {
       "@type": "Question",
-      "name": "How do you decide between fighting for position reversal versus extracting to standing from 50-50 bottom?",
+      "name": "From 50-50 bottom, how do you choose between fighting for a reversal and extracting to stand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess inside position control within the first three to five seconds. If you have inside position parity or can quickly recover it, fight for reversal using sweep mechanics and counter-attacks. If the attacker has clear inside control advantage that you cannot match, immediately shift strategy to leg extraction and standing. Fighting for reversal without inside position wastes energy, increases submission risk, and extends your time in a disadvantageous configuration."

@@ -84,7 +84,7 @@ description: "How to execute Jailbreak to Turtle in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure and commits weight forward - what adjustment enables the escape?",
+      "name": "They drive a heavy crossface with weight forward: what adjustment lets your jailbreak escape work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This forward weight commitment is actually the optimal trigger for the escape. Rather than fighting the pressure with frames, use their momentum against them by tightening your underhook, tucking your chin, and explosively rolling through their committed weight. Their forward pressure becomes the energy source that enables the inversion when properly redirected."

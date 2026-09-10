@@ -56,7 +56,7 @@ description: "Defend against the Re-pull Half Guard from Dogfight. Learn to capi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt a re-pull to half guard?",
+      "name": "Earliest cue that the bottom player is about to re-pull half guard from dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the decrease in forward driving pressure through their underhook combined with their outside hand posting behind their hip on the mat. This posting hand is the setup for a controlled descent and appears before the knee shield insertion or any downward movement. Recognizing this cue gives you the maximum time to react with forward pressure before the re-pull mechanics are initiated. Secondary cues include their head dropping below your head level and their body weight shifting rearward."
@@ -72,7 +72,7 @@ description: "Defend against the Re-pull Half Guard from Dogfight. Learn to capi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins re-pulling to half guard but successfully inserts their knee shield before you can close the gap. What is your response?",
+      "name": "They re-pull half guard and insert the knee shield before you close the gap: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately apply shoulder pressure into the knee shield while maintaining crossface control to prevent them from angling to their side. From this position, begin working to strip the knee shield by swimming your arm inside their shin frame and pushing their knee toward the mat. Alternatively, use a knee slice angle to bypass the shield by stepping your trapped leg over and cutting your knee through the gap between their knee shield and their bottom leg. Do not back away from the shield—maintain constant forward pressure while systematically dismantling it."

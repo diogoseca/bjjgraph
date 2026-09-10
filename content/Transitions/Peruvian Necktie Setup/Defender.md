@@ -72,7 +72,7 @@ description: "How to defend against Peruvian Necktie Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is lateral movement more effective than pulling straight backward when defending the Peruvian Necktie?",
+      "name": "Defending the Peruvian necktie, why is lateral movement better than pulling straight backward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Peruvian Necktie's choking force operates along the axis between attacker's chest and your neck, meaning pulling backward drives you directly into the choking pressure and actually tightens the configuration. Lateral movement disrupts the alignment the attacker needs by changing the angle of force application. Turning into the attacker can collapse their leg threading angle and create scramble opportunities, while turning away creates space to extract your arm. Both lateral directions are superior to backward movement because they address the choke's geometry rather than fighting against it."
@@ -96,7 +96,7 @@ description: "How to defend against Peruvian Necktie Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a Peruvian Necktie setup and a standard front headlock attack early enough to apply the correct defense?",
+      "name": "How do you spot a Peruvian necktie setup versus a standard front headlock early enough to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key tell is the overhook transition. In standard front headlock attacks like guillotines, the attacker maintains a gable grip or chin strap control with both hands on your head and neck. For the Peruvian Necktie, you will feel one arm release from the gable grip and begin threading deep under your armpit for the overhook. This is the critical differentiating moment. Additionally, the attacker's body angle shifts as they begin positioning to drop to their hip, moving from directly behind or above you to a more perpendicular alignment. Recognizing these two cues - overhook attempt and angle shift - tells you the Peruvian Necktie is coming and you need to prioritize arm extraction over standard front headlock escapes."

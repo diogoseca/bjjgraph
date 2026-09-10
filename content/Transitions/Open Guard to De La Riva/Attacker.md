@@ -120,7 +120,7 @@ description: "Learn the Open Guard to De La Riva transition as the bottom player
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your ankle grip while your hook is only partially threaded - what is your immediate response?",
+      "name": "Your DLR ankle grip is stripped with the hook half-threaded: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract the hook and reset to open guard rather than trying to maintain a compromised position. A hook without the anchoring ankle grip provides no meaningful control and leaves your leg extended and vulnerable to pinning and passing. Re-establish the ankle grip from open guard and reattempt the entry with proper sequencing."

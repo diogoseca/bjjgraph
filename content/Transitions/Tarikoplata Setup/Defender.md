@@ -72,7 +72,7 @@ description: "How to defend against Tarikoplata Setup in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The attacker has secured both the over-shoulder leg position and the wrist grip with rotation—what should you do?",
+      "name": "Tarikoplata is fully locked with leg over your shoulder and wrist rotation on—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. Once the Tarikoplata reaches full establishment with both omoplata leg positioning and wrist rotation engaged, the compound loading creates dual-vector stress on the shoulder that damages tissue faster than single-joint submissions. The rotator cuff and labrum can fail before you perceive sufficient pain to signal injury. Fighting from this position risks permanent shoulder damage. All effective Tarikoplata defense must occur before wrist control is established."
@@ -88,7 +88,7 @@ description: "How to defend against Tarikoplata Setup in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your training partner catches you in a deep Tarikoplata but applies the wrist rotation explosively rather than progressively—what injury risks exist?",
+      "name": "What injury risks arise when a deep Tarikoplata's wrist rotation is applied explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive Tarikoplata application creates severe injury risk because the compound loading—omoplata hip extension plus wrist rotation—attacks the shoulder from two vectors simultaneously. The rotator cuff tendons, glenohumeral labrum, and shoulder capsule ligaments can tear before the brain processes pain signals sufficient to trigger a tap response. Potential injuries include rotator cuff tears, labral detachment, shoulder subluxation or dislocation, and wrist ligament sprains. This is why controlled application is a safety requirement and why tapping early against the Tarikoplata is essential."

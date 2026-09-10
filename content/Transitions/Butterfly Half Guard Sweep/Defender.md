@@ -56,7 +56,7 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up the butterfly half guard sweep?",
+      "name": "What is the earliest cue your opponent is setting up the butterfly half guard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their hip angle adjustment to approximately 45 degrees relative to your centerline combined with aggressive underhook fighting on the butterfly side. This angling creates the diagonal sweep trajectory before any elevation begins. Recognizing this early allows you to initiate defensive measures like whizzering the underhook or sprawling hips back before the opponent can load your weight over the hook."
@@ -64,7 +64,7 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
     },
     {
       "@type": "Question",
-      "name": "Why does posting your hand on the mat create vulnerability even though it prevents the immediate sweep?",
+      "name": "Why does posting your hand create vulnerability even though it stops the immediate sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While the hand post creates an emergency base that stops the butterfly sweep in one direction, it commits your weight to one side and occupies one of your arms. This creates openings for the opponent to switch to the 100% sweep or old school sweep, which specifically target the side you are now unable to defend because your arm is posted. The hand post is a short-term emergency fix that creates a different long-term problem requiring immediate follow-up action."
@@ -72,7 +72,7 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the sweep with a coordinated hook drive and underhook pull - what is your immediate response?",
+      "name": "They start the sweep with a coordinated hook drive and underhook pull: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back hard while posting your far hand wide on the mat for emergency base. Simultaneously drive your shoulder into their chest to break their seated posture and collapse their structure. Do not try to resist the elevation force directly by staying rigid. If the sweep is already past the tipping point, go with the motion and immediately work to establish guard recovery rather than fighting a lost position from a compromised angle."
@@ -80,7 +80,7 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
     },
     {
       "@type": "Question",
-      "name": "How should you manage weight distribution when your opponent has an established butterfly half guard with active hook?",
+      "name": "How do you distribute weight against an established butterfly half guard with an active hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips low and heavy with weight distributed diagonally away from the butterfly hook side. Your near hip should be pressed into their body while your far leg provides a wide base post. Avoid committing your center of gravity forward over the butterfly hook, as this is exactly the loading condition the opponent needs for the sweep. Think of your weight distribution as a tripod with two points of contact through your body and one through your posted free leg."

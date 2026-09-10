@@ -84,7 +84,7 @@ description: "How to execute Lapel Grip Break and Posture Recovery in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins loading for a sweep as you commit both hands to grip breaking - how do you adjust?",
+      "name": "They load for a sweep while both your hands are grip breaking in Ringworm Guard — what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the grip break attempt and address the sweep by widening your base and posting with one hand. The sweep is a more immediate threat than the grip. Once you neutralize the sweep attempt, reset and begin the grip break sequence again. It is better to restart than to get swept while tunnel-visioning on the grip."

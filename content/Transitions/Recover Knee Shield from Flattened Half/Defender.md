@@ -56,7 +56,7 @@ description: "Learn to prevent knee shield recovery from flattened half guard as
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that signals your opponent is about to attempt knee shield recovery?",
+      "name": "Earliest tactile cue that they are about to recover knee shield from flattened half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is typically the opponent fighting to establish or strengthen their underhook on your far side. You will feel increased hand activity and arm movement under your armpit as they try to swim their arm through. This underhook attempt precedes the hip escape sequence and is the clearest early warning that a systematic recovery is beginning rather than a random panic movement."
@@ -64,7 +64,7 @@ description: "Learn to prevent knee shield recovery from flattened half guard as
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure distribution when you feel the bottom player beginning to hip escape?",
+      "name": "You feel the bottom player start to hip escape: how do you adjust your pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately follow their hip movement with your own hips, driving forward to close any space they create. Shift your weight diagonally toward their trapped leg side, the direction they are escaping toward. Simultaneously increase crossface pressure to limit their head and shoulder mobility. The critical principle is being proactive rather than reactive: follow their hips in real-time rather than waiting for them to create space and then trying to reclaim it."
@@ -80,7 +80,7 @@ description: "Learn to prevent knee shield recovery from flattened half guard as
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps recovering their knee shield despite your pressure - what systematic adjustment breaks the cycle?",
+      "name": "They keep recovering knee shield despite your pressure: what systematic fix breaks the cycle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the root cause rather than fighting each individual recovery. If they keep recovering, you are likely allowing too much underhook control or creating space during your own grip adjustments. Establish a whizzer or arm control on their underhook side to eliminate the structural foundation of their recovery. Without the underhook, their hip escapes lack the support needed to generate meaningful space. Combine this with hip-to-hip pressure driving directly into their recovering knee to collapse the shield before it establishes."

@@ -62,7 +62,7 @@ description: "How to defend against Head Extraction to Posture in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important structural element to protect when the opponent begins their extraction sequence?",
+      "name": "Holding the gogoplata: which structural element must you protect as they start extracting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The foot-behind-head configuration is the structural foundation of gogoplata control. Without the foot locked behind their head, the shin cannot maintain its position across the throat regardless of squeeze pressure. Prioritize keeping this foot deep using both hands and re-pulling it whenever looseness occurs."

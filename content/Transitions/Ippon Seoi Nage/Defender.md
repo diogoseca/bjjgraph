@@ -56,7 +56,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical timing window for the most effective defensive response against Ippon Seoi Nage?",
+      "name": "What is the critical timing window for defending Ippon Seoi Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is during the attacker's entry step, after they step across your centerline but before they complete hip insertion and begin loading. At this moment, their back is turning toward you and their base is temporarily compromised from the stepping motion. Posting on their hip or sprawling your hips back during this phase has maximum effectiveness. Once they achieve hip contact below your center of gravity, defensive options decrease dramatically."
@@ -64,7 +64,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
     },
     {
       "@type": "Question",
-      "name": "Why is posting your hand on the attacker's hip more effective than pulling your arm backward to defend the throw?",
+      "name": "Why is posting on the attacker's hip better than pulling your arm back to defend Ippon Seoi Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Posting on the attacker's hip directly addresses the throw's core mechanical requirement, which is getting their hips below yours. Your posted hand creates a structural block that prevents their hip insertion regardless of their pulling power. Pulling your arm backward addresses only the grip connection, which a skilled attacker can overcome with grip strength. Additionally, pulling backward often creates the exact forward-leaning posture the attacker wants, while hip posting keeps your own base stable and centered."
@@ -72,7 +72,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has been attacking Kouchi Gari repeatedly and suddenly steps their lead foot deeply across your centerline. What is happening and how do you respond?",
+      "name": "After repeated Kouchi Gari they step deep across your centerline: what's coming and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a classic combination attack where Kouchi Gari feints create forward momentum and a stepping rhythm that the attacker exploits for the Seoi Nage entry. The deep cross-step is the entry motion for the throw. Immediately post your near hand on their hip to block insertion and simultaneously sprawl your hips backward. Because the Kouchi Gari attacks have been pushing your weight forward, you are already in the off-balanced position the attacker needs. Recognizing this combination pattern early in the sequence allows you to deny the kuzushi by not over-committing to defending the foot sweeps."
@@ -80,7 +80,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to attempt circling behind the attacker versus sprawling backward, and what determines this choice?",
+      "name": "When should you circle behind the seoi nage attacker instead of sprawling back, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle behind the attacker when you recognize the entry early enough that they have not yet completed hip contact, and when their rotation creates an opening on their back side. This is higher reward but requires better timing and speed. Sprawl backward when the entry is more advanced and the attacker's hips are already approaching yours, because the sprawl mechanically denies the loading phase even when timing is tight. Choose circling when you have early recognition and lateral mobility. Choose sprawling when the throw development is more advanced and you need a reliable emergency response."
@@ -88,7 +88,7 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
     },
     {
       "@type": "Question",
-      "name": "What preceding attacks or grip patterns should alert you that an Ippon Seoi Nage attempt is likely coming?",
+      "name": "What grip patterns and preceding attacks warn you an Ippon Seoi Nage is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key warning patterns include the opponent establishing a strong same-side sleeve grip paired with a high lapel or collar grip, which is the classical Seoi Nage grip configuration. Preceding foot sweep attacks like Kouchi Gari, Ouchi Gari, or Deashi Harai that push your weight forward are common setups. A sudden increase in forward pulling pressure through the grips, especially combined with their weight dropping and lead foot advancing, indicates imminent entry. In no-gi, a two-on-one wrist control or arm drag grip combined with level change is the equivalent warning sign."

@@ -96,7 +96,7 @@ description: "Complete guide to executing the Honey Hole to Saddle transition. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating toward you just as you lift your outside leg to adjust its angle - how do you respond?",
+      "name": "They rotate toward you as you lift your outside leg for the Saddle: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately replant your outside leg across their hip and drive your hips forward to re-establish Honey Hole pressure. Do not try to complete the Saddle transition during active rotation. Follow their rotation by adjusting your angle while maintaining the inside leg triangle, and wait for them to settle before reattempting the reconfiguration. Trying to force the transition during rotation creates a scramble that favors the defender."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Honey Hole to Saddle transition. L
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail when tightening the inside leg triangle during this transition?",
+      "name": "Tightening the inside leg triangle for the Saddle: what mechanical detail matters most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ankle must be pulled deep behind the opponent's thigh, not floating loosely behind their knee. The difference between a locked triangle and a loose one is measured in inches at the ankle position. Pull your heel toward your own glute while squeezing your knees together, creating a clamp that eliminates the rotational slack defenders exploit. This tightening must happen before the outside leg adjustment."

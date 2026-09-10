@@ -50,7 +50,7 @@ description: "How to defend against Leg Drag Counter to Half Guard in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt the half guard counter?",
+      "name": "Earliest cue that the bottom player is starting the leg drag counter to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the bottom player establishes a frame against your shoulder or bicep with their near-side elbow. This frame is the prerequisite for their hip escape—without it, they cannot generate the space needed for leg extraction. Collapsing this frame immediately shuts down the escape before it begins."
@@ -66,7 +66,7 @@ description: "How to defend against Leg Drag Counter to Half Guard in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your grip on the dragged leg is slipping and the bottom player is beginning to extract their knee—what is your best response?",
+      "name": "Your leg drag grip is slipping as they extract their knee. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the leg drag and drive laterally into side control consolidation. Trying to re-secure a failing grip wastes time and energy while the bottom player completes their escape. By releasing the leg and establishing crossface and hip control for side control, you trade the leg drag for a consolidated dominant position before they can lock half guard."
@@ -82,7 +82,7 @@ description: "How to defend against Leg Drag Counter to Half Guard in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between your shoulder control and the bottom player's ability to execute this counter?",
+      "name": "How does your shoulder control affect their ability to hit the half guard counter from leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your shoulder or head control prevents the bottom player from generating frames, which are the essential first step of their escape sequence. Without frames, they cannot create the hip separation needed for leg extraction. Maintaining constant shoulder pressure or crossface makes the counter nearly impossible to initiate. If you lose shoulder control, the escape becomes available regardless of how tight your leg grip is."

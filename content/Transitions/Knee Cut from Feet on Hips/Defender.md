@@ -64,7 +64,7 @@ description: "Complete defensive guide against the knee cut pass from feet on hi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has broken one foot off their hip and is stepping their knee through—what is your highest-percentage defense?",
+      "name": "They broke a foot off your hip and are stepping the knee through—highest-percentage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest-percentage defense at this stage is inserting a De La Riva hook on the cutting leg as it steps forward. Thread your near-side foot behind their knee before the knee crosses your thigh line, simultaneously gripping their far-side sleeve or ankle to prevent them from clearing the hook. This converts their forward stepping motion into vulnerability by entangling their base leg. If the DLR hook is not available due to angle, hip escape laterally and insert a knee shield to catch half guard with frames rather than being flattened."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the knee cut pass from feet on hi
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to a different guard often more effective than trying to re-establish feet on hips after a frame is broken?",
+      "name": "After a feet-on-hips frame is broken, why switch guards instead of re-establishing the frame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-establishing the same frame requires fighting against the passer's established grip and forward momentum, which means you are working against their prepared position rather than creating a new defensive problem. Transitioning to De La Riva, closed guard, or knee shield changes the defensive dynamic entirely, forcing the passer to abandon their current passing sequence and address a new guard structure they may not have a prepared response for. Guard transitions also capitalize on the passer's forward commitment during the knee cut, using their momentum against them rather than directly opposing it."

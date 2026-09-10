@@ -74,7 +74,7 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins applying heavy crossface pressure as you establish deep half - how do you use this to your advantage for the sweep?",
+      "name": "They crossface heavily as you set deep half — how do you use that pressure for the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heavy crossface pressure means the opponent is committing their weight forward, which is exactly what loads the Deep Half Sweep. Rather than fighting the crossface, maintain your underhook and use their forward pressure as fuel for your hip elevation. Their weight commitment forward means they have less ability to sprawl back when you drive your hips up. Time your elevation for the moment their pressure peaks."
@@ -82,7 +82,7 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What is the critical foot positioning adjustment that must happen before attempting the hip elevation?",
+      "name": "What foot adjustment must happen before the hip elevation of the deep half sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must walk your feet in small steps toward the opponent's head to create an acute angle between your body and theirs. This angle redirects your hip elevation force from straight upward to forward-and-over, making the sweep dramatically more effective. Without this angle adjustment, the opponent can simply post their hands or sprawl to resist a straight upward elevation. Three to four small steps typically create sufficient angle."
@@ -98,7 +98,7 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back when they feel your elevation attempt - what is your immediate chain attack?",
+      "name": "They sprawl their hips back against your deep half elevation — what is your chain attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls back, immediately transition to either the rolling variation by continuing underneath them toward the far side to take the back, or switch to X-Guard or Single Leg X-Guard by hooking their retreating legs with your feet. The sprawl removes their weight from your shoulders but creates space underneath that you can exploit by following their retreating legs with leg hooks rather than trying to force the original sweep path."
@@ -114,7 +114,7 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How does the direction of force differ between the Deep Half Sweep and the Waiter Sweep from the same position?",
+      "name": "How does the force direction of the deep half sweep differ from the waiter sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Deep Half Sweep generates force through hip elevation directed forward and over the opponent, using the shoulder wedge as a fulcrum. The force vector is primarily upward then forward. The Waiter Sweep generates force by elevating the opponent's far leg with the free hand while using hip movement to off-balance them laterally. The Waiter Sweep force is more rotational while the Deep Half Sweep is more linear and direct."

@@ -74,7 +74,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical grip to maintain throughout the entire Technical Mount to S Mount rotation?",
+      "name": "Which grip must never be lost during the Technical Mount to S Mount rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wrist grip on the isolated arm is the non-negotiable priority throughout the entire rotation. Without wrist control, the opponent will immediately retract their arm during any weight shift, eliminating the purpose of the transition entirely. The wrist grip should be maintained from initial Technical Mount arm isolation through S Mount establishment and into the armbar finish. If you must sacrifice one point of control during the rotation, sacrifice balance or secondary grips—never the wrist."
@@ -90,7 +90,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
     },
     {
       "@type": "Question",
-      "name": "What specific body angle should you achieve at the completion of the transition, and how do you verify it?",
+      "name": "Which body angle should you finish this S Mount transition in, and how do you verify it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body should be fully perpendicular to the opponent's torso—a 90-degree angle between your spine and theirs. You know you have achieved the correct angle when both legs are in the S-shape configuration with one over the head and foot planted and one across the chest, your belly button faces the wall rather than the ceiling, and your hips are sealed against their shoulder with the isolated arm extended across your centerline. If you can see the opponent's face directly, you have not rotated enough."
@@ -98,7 +98,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the Technical Mount to S Mount transition and return to your starting position?",
+      "name": "When should you abandon the S Mount rotation and return to Technical Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the transition immediately if you lose wrist control during the rotation, if the opponent successfully bends their arm past 90 degrees during the weight shift, or if a powerful bridge displaces your base before you complete the perpendicular alignment. The key principle is that a secure Technical Mount with arm control is better than an unstable mid-rotation position. Never stay in a half-committed transitional state—either complete the rotation or return to Technical Mount decisively."
@@ -106,7 +106,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
     },
     {
       "@type": "Question",
-      "name": "What role does the inside leg play during the transition, and what happens if you fail to reposition it?",
+      "name": "What must the inside leg do in this S Mount transition, and what if you fail to reposition it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg must transition from its hooked position underneath the opponent to crossing over their torso at chest level, creating the lower barrier of the S Mount S-shape. If you fail to reposition this leg, you end up in a compromised position that resembles S Mount but lacks the structural control the crossing leg provides. Without the torso-crossing leg, the opponent can hip escape freely underneath you, your base becomes one-dimensional, and the armbar finishing mechanics are severely compromised because you lack the lower leg barrier that traps their body."
@@ -114,7 +114,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames against your hip with their free arm as you begin rotating—what does this tell you and how do you respond?",
+      "name": "They frame on your hip as you rotate to S Mount. What does that tell you and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip frame tells you the opponent is prioritizing preventing the rotation over protecting their free arm. This creates an offensive opportunity rather than a genuine barrier. Respond by either swimming your arm under their framing arm to establish gift wrap control, or simply driving through the frame using rotational momentum and body weight. The frame is structurally weak against rotational force because it can only push in one direction. Their free arm commitment to the frame also means they cannot use it for other defensive purposes."

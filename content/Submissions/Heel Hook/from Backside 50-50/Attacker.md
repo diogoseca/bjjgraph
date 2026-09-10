@@ -84,7 +84,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     },
     {
       "@type": "Question",
-      "name": "Your opponent is driving heavy chest pressure and you cannot find an opening for the heel hook. What should you prioritize?",
+      "name": "Under heavy chest pressure with no heel hook opening from backside 50-50, what is the priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize defensive frame maintenance and positional survival over forcing the heel hook. A settled top player with full chest pressure has both awareness and mechanical advantage to defend any heel hook attempt from bottom. Forcing the attack against a stable opponent only opens you to back control counter without meaningful submission threat. Maintain your frames, stay on your side to preserve hip mobility, and wait for the opponent to create the opening through their own movement. The heel hook from bottom is fundamentally a reactive counter-attack, not a proactive strategy."
@@ -92,7 +92,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the best mechanical advantage for finishing the heel hook from this position?",
+      "name": "What grip gives the best finishing mechanics for the heel hook from backside 50-50 bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A figure-four grip with the heel trapped deep in the crook of your elbow provides the strongest finishing mechanics. Your wrist-to-wrist connection creates a unified structure that transfers rotational force from your body through your arms to the heel. The deep elbow pocket prevents heel slippage during the finish. Your chest should contact the top of your opponent's foot to seal the position. The grip must be tight enough to prevent extraction but the finishing force comes from your posterior chain and hip rotation, not from squeezing harder with your arms."
@@ -100,7 +100,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     },
     {
       "@type": "Question",
-      "name": "You secure the heel but your opponent immediately starts walking their hips up your body toward back control. How do you respond?",
+      "name": "You have the heel but they walk their hips up toward back control—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the heel immediately and address the back control threat. Back control is a significantly worse position than backside 50-50 bottom, and no heel hook attempt is worth conceding four points and a dominant submission position. Return your hands to frames against their hips and chest, tuck your chin, keep elbows tight, and work to re-establish your defensive posture. The heel hook opportunity is gone once they have committed to the back take. You will find another opportunity only if you maintain a viable bottom position."
@@ -116,7 +116,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     },
     {
       "@type": "Question",
-      "name": "Your opponent boots their heel aggressively when you reach for it. What alternative attack is available?",
+      "name": "Your opponent boots their heel as you reach for it—what alternative attack is available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to a toe hold by redirecting your grip to the opponent's forefoot and toes. The booting defense that hides the heel from heel hook attack actually extends the forefoot and makes it more accessible for toe hold grip acquisition. The toe hold attacks the ankle joint through rotational force rather than the knee, requiring a completely different defensive response. This creates a dilemma where defending the heel hook opens the toe hold and vice versa. If neither foot attack is available, abandon and return to frames rather than chasing a defended position."

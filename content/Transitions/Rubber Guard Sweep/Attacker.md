@@ -74,7 +74,7 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What body position change in your opponent signals the optimal timing window for initiating the Rubber Guard Sweep?",
+      "name": "What change in your opponent signals the timing window for the rubber guard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the opponent shifts their weight backward or upward to recover posture. You feel their hips rising and their head pulling away from your chest through the rubber guard control. This backward momentum provides the energy you redirect into the sweep. Attempting the sweep against a settled, forward-pressuring opponent is significantly less effective because there is no existing momentum to exploit."
@@ -82,7 +82,7 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
     },
     {
       "@type": "Question",
-      "name": "Why must the hip bridge be directed at a 45-degree angle rather than straight upward during this sweep?",
+      "name": "Why must the bridge in the rubber guard sweep go at 45 degrees rather than straight up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 45-degree angle exploits the specific base weakness created by the rubber guard arm trap. The trapped arm prevents the opponent from posting on that side, so bridging toward the trapped-arm side forces them to rely on a base that does not exist. A straight upward bridge allows them to use their free hand to post and resist, negating the structural advantage that rubber guard provides."
@@ -90,7 +90,7 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully extracts their trapped arm during your sweep attempt - what is your immediate tactical response?",
+      "name": "They extract the trapped arm during your rubber guard sweep; what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to a triangle setup. The arm extraction creates the exact space needed for your leg to swing across their shoulder line and lock behind their head. The sweep attempt disguised the triangle entry, and the opponent's arm extraction motion actually facilitates the submission setup by creating the gap between their arm and neck that the triangle requires."
@@ -106,7 +106,7 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from inserting a knee and recovering half guard during the sweep-to-mount transition?",
+      "name": "How do you stop a knee insertion to half guard during the rubber guard sweep to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the rubber guard leg across the opponent's back throughout the sweep until past the tipping point, then immediately drive your hips forward as you arrive on top. Keep your chest connected to their body during the entire transition with zero gap between sweep completion and mount establishment. The seamless connection eliminates the space creation needed for knee insertion or frame building."

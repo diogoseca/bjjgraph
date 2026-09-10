@@ -100,7 +100,7 @@ description: "How to execute Single Leg X Entry in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What are the three primary offensive pathways available after successfully entering Single Leg X position?",
+      "name": "What are the three main offensive pathways from Single Leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From Single Leg X you can sweep to top position, transition to deeper leg entanglements, or attack submissions on the captured leg. Sweeps use the off-balancing structure you've created, typically sending the opponent forward and over their captured leg. Transitions lead to more complex entanglements such as Ashi Garami, Outside Ashi Garami, X-Guard, or Deep Half Guard depending on how the opponent reacts. Direct submission attacks include kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats."
@@ -108,7 +108,7 @@ description: "How to execute Single Leg X Entry in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why is angling your body toward the captured leg important rather than staying square to your opponent?",
+      "name": "In Single Leg X, why angle toward the captured leg instead of staying square?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angling toward the captured leg creates oblique off-balancing pressure that pulls opponent diagonally forward rather than straight down. This diagonal pull is much harder to defend because it attacks their base at an angle where they have less structural stability. When you stay square, any pressure you generate is directly into their stance where they are strongest. The angle, typically around 45 degrees, also facilitates smoother transitions to connected positions and creates more difficult recovery problems for the opponent."

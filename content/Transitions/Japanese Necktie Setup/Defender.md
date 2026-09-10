@@ -56,7 +56,7 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Japanese Necktie is being set up rather than a standard front headlock hold?",
+      "name": "What is the earliest cue that a front headlock is becoming a Japanese necktie setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker releasing their standard front headlock grip and beginning to thread one arm deeper under your neck from the side rather than maintaining the controlling wraparound grip. In standard front headlock, both arms work together for control. When one arm starts reaching under your neck independently with the elbow pointing down, the attacker is transitioning from positional control to submission setup. This change in grip purpose is the critical early warning sign."
@@ -64,7 +64,7 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is defending the far arm capture more important than fighting the choking arm once threading has begun?",
+      "name": "Once threading starts, why defend the far arm rather than fight the choking arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the arm is partially threaded, fighting it requires reaching across your body, which exposes your far arm and compromises your base. The far arm is your primary posting tool for blocking the roll—without it, the attacker can complete the roll freely regardless of choking arm depth. Keeping your far hand free to post on the mat is the single most important defensive priority because it physically prevents the roll that the entire technique depends on. A blocked roll means a failed Japanese Necktie."
@@ -72,7 +72,7 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your attacker has threaded their arm and is beginning to step their far leg over your back - what is your last-resort defensive response?",
+      "name": "They've threaded the arm and are stepping the far leg over your back — last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is an explosive sit-through toward the side opposite the attacker's stepping leg. Drive your hips hard through the space underneath and turn to face them. This disrupts the rolling path and may extract your head from the threading arm during the directional change. If the sit-through fails, immediately tuck your chin as hard as possible, grab the choking arm with both hands, and attempt to walk your body laterally to break the rolling angle before the choke locks in fully."
@@ -96,7 +96,7 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustments should you make when you recognize a Japanese Necktie attempt from a standing bent-over position versus turtle?",
+      "name": "How does defending the Japanese necktie differ from standing bent-over versus from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From standing bent-over, your primary advantage is the ability to stand up and posture explosively, which eliminates the setup entirely since the attacker cannot roll you from standing posture. Drive your legs straight, lift your head (briefly accepting shallow arm contact to gain posture), and circle away. From turtle, standing up is harder because you start on hands and knees with the attacker's weight on your back. In turtle, focus on lateral hip movement and posting rather than standing, using the mat for base that standing position doesn't require."

@@ -82,7 +82,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Why is kuzushi particularly critical for Uchi Mata, and in which direction must the opponent be off-balanced?",
+      "name": "Why is kuzushi so critical for Uchi Mata, and in which direction must you break their balance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Kuzushi is critical because the technique requires the opponent's weight to be loaded onto their supporting leg before you sweep it. The ideal off-balancing direction is forward and slightly toward the throwing side (if throwing right, forward-left from the opponent's perspective). This positions their weight primarily on their right leg, the target leg, while reducing their ability to post with the left. Without proper kuzushi, the opponent maintains base and can easily defend by sprawling, posting wide, or simply resisting the rotation. The forward pull also breaks their posture, making it harder for them to counter-throw."
@@ -90,7 +90,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your opponent consistently sprawls their hips back the moment you step in for Uchi Mata - what is your chain attack sequence?",
+      "name": "They sprawl their hips back as you step in for Uchi Mata — what is your chain attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls, their hips move backward but their upper body stays connected to your grips, creating a bent-at-the-waist posture. Your first option is to immediately switch to Kouchi Gari targeting their now load-bearing lead leg. Second, snap them down to a front headlock position and attack from there. Third, if they over-commit the sprawl and their weight shifts backward, switch to Osoto Gari driving them in the direction they're already moving. Fourth, shoot for a double leg or single leg since their hips are now farther back but accessible. The key is recognizing that their defensive reaction creates new openings rather than abandoning the attack cycle."
@@ -106,7 +106,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What grip configurations work for Uchi Mata in gi versus no-gi, and how does each affect the throw mechanics?",
+      "name": "Which grips suit Uchi Mata in gi versus no-gi, and how does each change the mechanics?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, the traditional setup uses a right hand on opponent's left collar and left hand on their right sleeve, providing maximum control for kuzushi. A high-collar grip variation places the right hand on the back of the collar for stronger rotational pull. In no-gi, the over-under clinch (one overhook, one underhook) is the primary configuration, requiring tighter body contact to compensate for the lack of fabric grips. A collar tie with underhook also works well in no-gi, using head control to generate the forward pull that replaces the collar grip. Each configuration affects the angle and force of your pulling action during kuzushi, with no-gi variants generally requiring closer body proximity and more hip involvement."
@@ -114,7 +114,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What direction must the sweeping force travel during Uchi Mata, and what happens if the force vector is incorrect?",
+      "name": "Which way must the Uchi Mata sweeping force travel, and what fails if the vector is wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweeping force must travel upward and backward relative to your body in a pendulum arc. Your inner thigh contacts the opponent's inner thigh and drives it upward toward the ceiling while your upper body pulls them forward and down over your hip fulcrum. If the force vector is too horizontal, sweeping sideways rather than upward, the opponent can step over your leg and you lose rotational power. If the force is too vertical, lifting straight up without rotational component, you lack the momentum to complete the throw and just bump their leg. The correct vector combines upward sweep from the leg with forward-rotational pull from the arms, creating a spiral force that takes the opponent over your hip."

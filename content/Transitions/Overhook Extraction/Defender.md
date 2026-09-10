@@ -64,7 +64,7 @@ description: "How to defend against Overhook Extraction in BJJ. Maintain New Yor
     },
     {
       "@type": "Question",
-      "name": "How do the overhook and shin control work together as a defensive system, and what happens when one fails?",
+      "name": "How do the overhook and shin control work together in New York, and what if one fails?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook traps the arm while the shin control breaks posture and provides leverage that keeps the overhook effective. They form a closed kinetic chain where each element reinforces the other. When shin control fails, the opponent can recover posture, which removes the downward leverage that keeps the arm trapped in the overhook. When the overhook fails, the opponent's arm is free to post and frame, making shin control alone insufficient to maintain New York."
@@ -80,7 +80,7 @@ description: "How to defend against Overhook Extraction in BJJ. Maintain New Yor
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins grip-fighting your shin-controlling hand - what is the correct defensive priority?",
+      "name": "They grip-fight your shin-controlling hand in New York: what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reinforce the shin grip immediately by adjusting your hand position and pulling your shin tighter across their back. Simultaneously deepen the overhook to compensate for any momentary looseness. If they strip the shin grip despite your defense, use the freed leg to immediately transition to triangle or closed guard rather than trying to re-establish New York from a compromised position. The shin grip is the structural foundation - once it is fully compromised, New York cannot be maintained."

@@ -74,7 +74,7 @@ description: "How to defend the Loop Choke from Half Guard Bottom in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Why is coming up for the underhook particularly dangerous when the attacker has a deep collar grip in half guard?",
+      "name": "Why is coming up for the underhook dangerous when they already have a deep collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Coming up for the underhook extends your neck forward and lifts your chin away from your chest, creating the exact space under the jaw that the attacker needs to thread the collar. Your forward motion drives your neck into the collar loop, and the momentum of coming up makes it difficult to retract once the collar slides under your chin. Essentially, the underhook attempt becomes the trigger mechanism for the choke—the attacker waits for this specific movement before threading. You must check for and address the collar grip before initiating any underhook attempt, or modify your guard game to use techniques that do not require extending the neck."
@@ -90,7 +90,7 @@ description: "How to defend the Loop Choke from Half Guard Bottom in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "What defensive body positioning best prevents the Loop Choke from being initiated in Half Guard Bottom?",
+      "name": "What body positioning best prevents the loop choke from being started on you in half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal defensive position combines a strongly tucked chin pressed toward your chest, your near-side hand actively protecting the collar opening on the side the attacker will target, elbows tight to your ribs, and constant lateral hip movement to prevent the attacker from settling crossface pressure. Use a knee shield or butterfly hook to maintain distance and prevent the attacker from collapsing their chest weight onto you, which facilitates collar access. Before any offensive movement from half guard bottom, verify the attacker's grip situation—if they have a deep collar grip, address it with grip stripping before initiating underhooks or sweeps."

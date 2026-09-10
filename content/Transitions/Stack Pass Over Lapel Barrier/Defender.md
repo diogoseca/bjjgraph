@@ -64,7 +64,7 @@ description: "How to defend against Stack Pass Over Lapel Barrier in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your lapel grip is secure but you feel the passer's shoulder driving heavily into your thighs—what immediate actions prevent the pass?",
+      "name": "Your lapel grip holds but their shoulder drives into your thighs—what stops the stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish a bent-arm frame on the passer's driving shoulder with your free hand while simultaneously rotating your hips to 45 degrees away from the pressure. Use the lapel grip to pull laterally rather than trying to push the passer backward—pulling them off their center line disrupts the straight-line compression that makes the stack effective. If the frame holds, use the created space to reposition your hips and re-establish lapel guard distance. If the frame is being overwhelmed, immediately transition to closed guard or spider guard before compression completes."
@@ -72,7 +72,7 @@ description: "How to defend against Stack Pass Over Lapel Barrier in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "When should you abandon your lapel configuration and transition to a different guard system during stack defense?",
+      "name": "When should you abandon lapel guard for another guard while defending the stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when your frames are barely holding and the compression is progressively building despite your resistance—specifically when your knees are past 90 degrees toward your chest and your hip angle is shrinking. At this point, the lapel configuration has lost its mechanical advantage because the distance and hip mobility it requires no longer exist. Releasing the lapel grip to establish bicep controls for spider guard, wrapping a leg for lasso guard, or locking closed guard all provide better defensive structures against committed stack pressure than a compromised lapel guard."
@@ -88,7 +88,7 @@ description: "How to defend against Stack Pass Over Lapel Barrier in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "What recognition cues tell you a stack pass attempt is beginning rather than a standard pressure pass?",
+      "name": "What cues tell you a stack pass is starting rather than a standard pressure pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stack is distinguished from standard pressure passing by the passer lowering their shoulder directly into your thighs or hip area rather than driving chest-to-chest. You feel progressive compression pushing your knees toward your face rather than lateral passing pressure. The passer walks their feet forward behind them rather than stepping around your guard. Their collar grip deepens and pulls your upper body toward them while their far-side pants grip anchors your hip. These combined cues indicate committed stack pressure rather than the lateral movement of toreando or the angular drive of knee slice."

@@ -56,7 +56,7 @@ description: "Defend and counter the Complete Leg Weave Pass in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the passer's chest weight increasing while their hip pressure decreases - what does this signal and how should you respond?",
+      "name": "Under a leg weave, their chest gets heavy and hips light: what does that mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This weight transfer signals the passer is building their upper body anchor and preparing to extract their weaved leg. This is your best counter-attack window because their hips are momentarily lighter. Respond immediately by either diving for deep half guard entry underneath their elevated hips, or explosively hip escaping to re-insert your knee shield. Waiting even two seconds allows them to complete the weight transfer and begin extraction, after which your success rate drops significantly."
@@ -72,7 +72,7 @@ description: "Defend and counter the Complete Leg Weave Pass in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "The passer has cleared one hook but hasn't established side control yet - what is your best defensive option in this narrow window?",
+      "name": "The passer cleared one hook but hasn't got side control: your best option in that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the final defensive window and requires immediate action. Your best option is to turn toward the passer and fight for an underhook before they establish perpendicular alignment. As they transition from extraction to consolidation, there is a brief moment where their crossface is adjusting and their hips are not yet settled. Use this window to come up on your inside elbow, secure the underhook, and fight to your knees for a dogfight scramble. If you remain flat on your back during this window, side control is inevitable."
@@ -88,7 +88,7 @@ description: "Defend and counter the Complete Leg Weave Pass in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your bridge is repeatedly absorbed by the passer without disrupting their extraction - how do you adjust your defensive strategy?",
+      "name": "The passer absorbs every bridge during the leg weave pass: how do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If bridges are being absorbed, the passer has likely established a wide, stable base and low center of gravity. Bridging against this base wastes energy. Switch to frame-based defense: establish forearm frames against their shoulder and hip, then use hip escapes in the direction away from their crossface pressure. Alternatively, if their base is wide laterally, attack the underhook side since their wide posting leg creates space on that side. The key insight is recognizing when explosive defense is being absorbed and transitioning to technical frame-based defense that exploits specific gaps in their base."

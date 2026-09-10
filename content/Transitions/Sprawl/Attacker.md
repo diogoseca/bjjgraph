@@ -84,7 +84,7 @@ description: "How to execute Sprawl in BJJ. Attacking perspective with setup, ex
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a double leg and you sprawl, but they switch to grabbing your left leg for a single leg - how do you adjust?",
+      "name": "You sprawl on a double but they switch to your left leg for a single: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your right (free) leg out wide to establish a strong base and prevent being swept or elevated. Drive the hip of your trapped left leg down toward the mat to create heavy downward pressure that makes it difficult for them to lift. Establish either a crossface by driving your forearm across their face or secure a whizzer grip on their attacking arm. Circle aggressively to your right (away from the trapped leg) while hopping on your free foot. From here, transition to dedicated single leg defense sequences including limp leg escapes or switch to front headlock control."
@@ -92,7 +92,7 @@ description: "How to execute Sprawl in BJJ. Attacking perspective with setup, ex
     },
     {
       "@type": "Question",
-      "name": "What are the main positional transitions available after stuffing a takedown with a successful sprawl?",
+      "name": "What positional transitions are available after stuffing a takedown with a sprawl?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After successfully sprawling and breaking the opponent's shot, the primary transitions are: front headlock control which opens guillotines, darce chokes, anaconda chokes, and back take opportunities; direct guillotine by securing the neck during the sprawl itself; mat return by driving the opponent flat to the mat to expose their back or advance to side control; passing to side control or knee on belly if the opponent turtles; and standing back up if the opponent disengages to reset to standing grappling."

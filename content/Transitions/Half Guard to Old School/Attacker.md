@@ -92,7 +92,7 @@ description: "How to execute the Transition to Old School from half guard bottom
     },
     {
       "@type": "Question",
-      "name": "What are the three controls that define complete Old School position and in what order should they be established?",
+      "name": "Which three controls define complete Old School, and in what order do you establish them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three controls are: 1) Lockdown figure-four on the trapped leg for base disruption and anchoring, 2) Deep underhook on the near side with elbow tight to ribs and hand gripping high on opponent's back for sweep leverage, 3) Head control with far arm wrapping behind opponent's neck and pulling their posture down. The order is critical because lockdown enables underhook entry, and underhook must be secure before reaching for head control to avoid exposing the arm to attacks."
@@ -108,7 +108,7 @@ description: "How to execute the Transition to Old School from half guard bottom
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure to flatten you before you secure the underhook - what is your response sequence?",
+      "name": "They crossface to flatten you before you secure the Old School underhook — your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, frame against the crossface shoulder with your far arm to prevent being completely flattened. Simultaneously, increase lockdown extension to maintain hip angle and create space to stay on your side. If the crossface is overwhelming, accept the temporary setback by recovering to Knee Shield Half Guard for distance management, then re-establish lockdown when the pressure lightens. Never fight for the underhook while flat on your back, as this guarantees failure and accelerates the top player's pass."

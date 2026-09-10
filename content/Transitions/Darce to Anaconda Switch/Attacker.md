@@ -104,7 +104,7 @@ description: "Master the attacking mechanics of the Darce to Anaconda Switch. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped arm as you release the Darce grip to switch - how do you respond?",
+      "name": "As you release the darce grip to switch, they start extracting the arm. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the switch and secure front headlock control using a crossface or snap-down with your free hand. Do not chase the arm extraction while in the middle of a grip transition, as this creates a scramble you are likely to lose. Once front headlock control is re-established with their head controlled, reassess whether to re-enter the Darce, attempt the Anaconda from a fresh entry, or pursue a different front headlock attack like a guillotine or go-behind to back control."
@@ -112,7 +112,7 @@ description: "Master the attacking mechanics of the Darce to Anaconda Switch. Le
     },
     {
       "@type": "Question",
-      "name": "How does the arm threading path differ between the Darce and Anaconda configurations during this switch?",
+      "name": "How does the arm threading path differ between the darce and anaconda in this switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce arm threads under the opponent's armpit from behind, crosses the back of the neck, and the hand locks on the far side near the opposite shoulder. The Anaconda arm threads under the opponent's near-side arm from the front, circles around the front and side of the neck, and the hand locks on the far side. The key difference is the direction of approach to the neck: Darce attacks from behind the neck while Anaconda attacks from the front. During the switch, the arm must withdraw from the behind-neck path and re-enter along the front-neck path."

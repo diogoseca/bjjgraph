@@ -56,7 +56,7 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing a half guard recovery from leg drag bottom?",
+      "name": "What are the earliest cues they're setting up half guard recovery from under your leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first sign is the bottom player posting their far-side hand on your shoulder or collar to create an upper body frame. This is followed by their free leg shin being placed across your hip as a lower body frame. Together, these two frames form the prerequisite structure for the recovery. If you see the shoulder post, the shin frame is coming next - strip the arm frame immediately before the structure is complete."
@@ -64,7 +64,7 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully inserts a partial knee shield but has not yet secured the underhook - what is your immediate response?",
+      "name": "They insert a partial knee shield but have no underhook yet—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical window where the recovery is incomplete and vulnerable. Immediately drive your shoulder into their knee shield to collapse it before the underhook arrives. Simultaneously establish or re-establish your crossface to prevent them from turning into you. The knee shield without underhook support can be collapsed with committed shoulder pressure - once the underhook connects, the recovery becomes far more difficult to reverse."
@@ -80,7 +80,7 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps threatening the recovery and you cannot advance - should you stay patient or force advancement?",
+      "name": "They keep threatening recovery and you can't advance—stay patient or force it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Patience is correct only if you are actively degrading their recovery structure each cycle. Strip their frames, control their far arm, and deny their hip loading. Each failed recovery costs them energy. However, if they rebuild frames faster than you strip them, you need to change strategy - backstep to threaten the back take, which forces them to defend a different threat and abandons their recovery sequence. Creating offensive dilemmas prevents them from committing fully to recovery."

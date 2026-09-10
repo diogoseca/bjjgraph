@@ -56,7 +56,7 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that tells you the bottom player is beginning to escape their Z-Lock configuration?",
+      "name": "What earliest tactile cue tells you the bottom player is escaping the Z-Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a decrease in butterfly hook elevation pressure on your free leg. The butterfly hook is typically the first control released during the escape because the bottom player needs that leg repositioned first. You may also feel a subtle shift in their hip angle as they prepare to shrimp, and increased forearm frame pressure on your shoulder as they establish defensive insurance. Recognizing these early cues gives you a one to two second window to react before the escape progresses to the point of no return."
@@ -64,7 +64,7 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
     },
     {
       "@type": "Question",
-      "name": "The bottom player has successfully released their butterfly hook but still has lockdown on your leg—what is your optimal response?",
+      "name": "They release the butterfly hook but keep lockdown on your leg: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical transition window. Drive your free knee forward immediately through the space where the butterfly hook was, aiming to slice across their hip before they can establish a knee shield or close standard half guard. Simultaneously increase crossface pressure to prevent them from shrimping away. The lockdown will slow but not stop your knee advancement. If you can get your knee past their hip line before they release the lockdown, you achieve a dominant passing position regardless of what they do with their lockdown leg afterward."
@@ -72,7 +72,7 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your strategy if the bottom player successfully recovers standard Half Guard with an underhook?",
+      "name": "They recover standard half guard with an underhook: how should you adjust your strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the escape succeeds and they establish standard half guard with underhook, do not waste energy trying to force them back into Z-Lock. Instead, immediately pivot to your standard half guard passing game. Contest the underhook with a whizzer or crossface, establish heavy hip pressure on their trapped leg, and begin your primary passing sequence (knee slice, smash pass, or backstep). The bottom player has changed the game—recognize the new position and apply the correct strategy rather than lamenting the lost Z-Lock control."
@@ -80,7 +80,7 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
     },
     {
       "@type": "Question",
-      "name": "Why is methodical advancement more effective than explosive reactions when the bottom player begins escaping?",
+      "name": "Why is methodical advancement better than explosive reaction when they escape the Z-Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive reactions during positional transitions often cause the top player to lose base, overcommit weight, and create the exact scramble opportunities the bottom player needs. A methodical advance maintains constant pressure, preserves your base against sweep counters, and systematically closes the transition window the bottom player is trying to exploit. The bottom player is already in a vulnerable state during reconfiguration—you do not need to take risks when controlled pressure advancement achieves the same result with far less danger of reversal."

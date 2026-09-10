@@ -68,7 +68,7 @@ description: "How to execute the Overhook Sweep from closed guard in BJJ. Step-b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is creating a 45-degree angle the single most critical mechanical detail before attempting the overhook sweep?",
+      "name": "Why is the 45-degree angle the key detail before the overhook sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Creating a 45-degree angle allows you to sweep perpendicular to the opponent's base rather than trying to lift them straight up against gravity. When you sweep at an angle, you only need to overcome one posting point instead of two. Without the angle, you are fighting their entire body weight distributed across both knees, which requires significantly more force and gives them multiple recovery options."
@@ -76,7 +76,7 @@ description: "How to execute the Overhook Sweep from closed guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their right hand on the mat to maintain base while you have them in closed guard - how do you capitalize on this?",
+      "name": "They post their right hand on the mat inside your closed guard: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted right hand creates an immediate overhook opportunity. Thread your left arm over their right tricep and lock it tight against your body. Simultaneously, secure collar or head control with your right hand to prevent posture recovery. Their posted arm is now trapped and their base is compromised on that side. Shift your hips to create the angle, then execute the sweep toward the trapped arm side where their base is weakest."
@@ -84,7 +84,7 @@ description: "How to execute the Overhook Sweep from closed guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "What should you do if your opponent successfully yanks their trapped arm free during the sweep attempt?",
+      "name": "They rip the trapped arm free mid overhook sweep: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Never simply release and reset - their defensive reaction creates new attacking opportunities. Immediately transition to a hip bump sweep toward the same side since their posture is already broken. Alternatively, capitalize on their pulling motion by switching to a kimura grip on the arm they just freed, as the pulling momentum exposes their wrist. You can also shoot your overhook-side leg over their shoulder for a triangle since the posture break is already established."
@@ -92,7 +92,7 @@ description: "How to execute the Overhook Sweep from closed guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "What is the optimal moment to uncross your ankles and open your guard during the overhook sweep sequence?",
+      "name": "When should you open your closed guard during the overhook sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Open your guard only after three conditions are met: the overhook is secured with zero space between their arm and your torso, the opposite-side control grip is established on collar or head, and your hips have already shifted to create the 45-degree angle. Opening guard before all three conditions are met telegraphs the sweep and allows the opponent to adjust their base. The guard opening and sweep execution should happen as one continuous motion."

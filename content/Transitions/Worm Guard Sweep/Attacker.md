@@ -90,7 +90,7 @@ description: "Execute the Worm Guard Sweep in BJJ. Complete offensive guide cove
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that separates successful worm guard sweeps from failed attempts?",
+      "name": "What mechanical detail separates successful worm guard sweeps from failed ones?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining constant lapel tension throughout the entire sweep arc is the single most critical mechanical detail. The moment tension is lost, the lapel stops functioning as a rigid lever and becomes a loose fabric that provides no mechanical advantage. The opponent's trapped leg immediately regains freedom of movement and can step to recover base. Tension must be maintained from setup through mount consolidation."

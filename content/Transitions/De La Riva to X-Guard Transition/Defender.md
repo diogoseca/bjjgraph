@@ -64,7 +64,7 @@ description: "How to defend against De La Riva to X-Guard Transition in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Why is the bottom X-Guard hook insertion the most critical moment to defend rather than the DLR hook release?",
+      "name": "Defending DLR to X-guard, why is the bottom hook insertion more critical than the DLR release?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom X-Guard hook (behind your knee) is the load-bearing structure of the entire X-Guard position. It creates the elevation fulcrum that powers all sweeps. Without it, the top hook across the hips has no leverage. If you allow the bottom hook to seat deeply but prevent the top hook, the bottom player can still transition to Single Leg X. But if you prevent the bottom hook, the entire transition fails regardless of other factors."
@@ -72,7 +72,7 @@ description: "How to defend against De La Riva to X-Guard Transition in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured an underhook and their free leg is beginning to thread under your stance - what is your immediate response?",
+      "name": "They have an underhook and are threading a leg under your stance. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the underhook by swimming your arm inside and peeling their grip while simultaneously dropping your hips low and driving your weight onto the threading leg to block its path. If you can only do one thing, block the leg insertion by narrowing your stance and driving your knee toward the mat on the threatened side. The underhook without hooks is recoverable; hooks without underhook still leads to X-Guard."
@@ -88,7 +88,7 @@ description: "How to defend against De La Riva to X-Guard Transition in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy change if the transition is already 80% complete with both hooks partially configured?",
+      "name": "How does your defense change once the X-guard transition is nearly complete with both hooks in?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At 80% completion, proactive prevention is no longer viable. Switch to damage control: immediately lower your center of gravity, widen your base as much as possible, and fight for crossface or collar tie control to prevent the final hip positioning adjustment. If they achieve full elevation, accept the sweep is likely and focus on landing in the best possible position (half guard top or scramble) rather than fighting a lost battle from X-Guard top where you'll expend energy and still get swept."

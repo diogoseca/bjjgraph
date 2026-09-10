@@ -80,7 +80,7 @@ description: "Master the frame and escape technique from mounted triangle bottom
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when caught in mounted triangle before beginning any escape movement?",
+      "name": "Caught in mounted triangle, what is your first defensive priority before any escape movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish chin tuck by driving chin toward chest and turning head toward the trapped arm side to reduce the triangle choking angle. Simultaneously bend the trapped arm tight to your body and secure a grip on your own collar or the opponent's leg to prevent arm isolation for armbar. These two actions address both primary submission threats—triangle choke and armbar—simultaneously before any escape movement begins."
@@ -96,7 +96,7 @@ description: "Master the frame and escape technique from mounted triangle bottom
     },
     {
       "@type": "Question",
-      "name": "Your opponent squeezes the triangle harder when they feel your frames being established—how do you respond?",
+      "name": "They squeeze the mounted triangle harder as your frames set: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your frames in position without abandoning the escape sequence. The opponent's sustained maximum squeeze is metabolically expensive and will fatigue their legs over time. Continue holding structural frames while breathing deliberately through your nose, then reinitiate the hip escape sequence when you feel the squeeze pressure momentarily decrease. Patience and frame maintenance outlast muscular effort."
@@ -120,7 +120,7 @@ description: "Master the frame and escape technique from mounted triangle bottom
     },
     {
       "@type": "Question",
-      "name": "You have created space with frames but cannot insert your knee shield because the opponent blocks it—what alternative do you pursue?",
+      "name": "Frames made space but they block your knee shield from mounted triangle: what do you pursue?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If knee shield insertion is blocked, continue hip escaping to create additional distance while maintaining frame pressure. Thread a butterfly hook with your inside foot against their inner thigh as an alternative structural barrier. If neither knee shield nor butterfly hook is available, continue chaining hip escapes to create enough total space to recover closed guard by inserting both legs inside their hips before they can re-collapse the distance."

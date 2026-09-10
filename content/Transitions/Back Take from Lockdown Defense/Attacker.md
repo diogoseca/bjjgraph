@@ -114,7 +114,7 @@ description: "How to execute Back Take from Lockdown Defense in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges hard during your backstep, nearly reversing you - what went wrong and how do you fix it?",
+      "name": "They nearly reverse you by bridging during your backstep from Electric Chair: what went wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You likely initiated the backstep before the opponent fully committed to their extension, meaning they retained enough hip power and base to bridge. The fix is patience: wait for maximum hip extension before starting. If mid-backstep, drop your weight low, widen your base with the free leg, and ride the bridge before continuing."

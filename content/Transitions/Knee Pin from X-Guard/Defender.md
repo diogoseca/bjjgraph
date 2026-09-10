@@ -72,7 +72,7 @@ description: "Defend the Knee Pin from X-Guard as the bottom player. Recognition
     },
     {
       "@type": "Question",
-      "name": "The top player has pinned your knee but has not yet extracted their leg - what sweep opportunity exists?",
+      "name": "They pinned your knee but have not extracted their leg—what sweep is available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's forward weight commitment into the pin creates vulnerability to hip bump sweeps and upper body pull sweeps. Because their hands are occupied with the pin and anchor, they have reduced ability to post defensively. Timing an explosive hip elevation or directional pull during this extraction phase can sweep them forward into half guard bottom."
@@ -88,7 +88,7 @@ description: "Defend the Knee Pin from X-Guard as the bottom player. Recognition
     },
     {
       "@type": "Question",
-      "name": "What position should you transition to if the knee pin partially succeeds and your inside hook cannot be recovered?",
+      "name": "Knee pin partly succeeds and your inside hook is gone—what guard do you transition to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Single Leg X-Guard is the highest-percentage transition because it requires only the outside leg frame and ankle control, which remain intact when the inside hook is compromised. Alternatively, Butterfly Guard offers a reset position if you can withdraw both legs and reconfigure hooks before the opponent consolidates their pass. The key is initiating the transition early rather than clinging to a collapsing X-Guard structure."

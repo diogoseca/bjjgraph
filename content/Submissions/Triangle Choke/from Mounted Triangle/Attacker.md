@@ -76,7 +76,7 @@ description: "Learn to finish the triangle choke from mounted triangle. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the mounted triangle choke target and how does the trapped arm contribute to the choking mechanism?",
+      "name": "In the mounted triangle, what does it choke and how does the trapped arm create pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The mounted triangle targets both carotid arteries to create bilateral blood flow restriction to the brain. The choking leg compresses one carotid directly while the defender's own trapped shoulder is wedged against the opposite carotid by the triangle structure. The trapped arm is not incidental — it functions as a compression wedge that the attacker uses to close the gap on the far-side carotid. Without proper arm positioning across the centerline, the choke becomes a one-sided squeeze that the defender can survive."
@@ -84,7 +84,7 @@ description: "Learn to finish the triangle choke from mounted triangle. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively and you cannot get the choke to bite — what adjustment or transition should you make?",
+      "name": "Your opponent tucks their chin hard in the mounted triangle: what adjustment or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A strong chin tuck blocks direct carotid access but typically exposes the trapped arm. First, attempt to peel the chin by pulling the head laterally with your free hand toward the trapped arm side, which can slip the choking leg deeper under the jaw. If the chin tuck holds after one or two attempts, immediately transition to armbar by controlling the trapped arm at the wrist and pivoting your hips. The chin tuck defense often straightens or exposes the arm. Forcing the choke against a solid chin tuck wastes energy and gives the defender time to build escapes."

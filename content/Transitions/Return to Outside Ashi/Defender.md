@@ -66,7 +66,7 @@ description: "How to defend against Return to Outside Ashi in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun driving your knee line back and you feel your hips rotating toward them - what should you do?",
+      "name": "In ushiro ashi-garami top, they drive your knee line back and rotate your hips—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your free leg strongly against their hip or the mat to create a structural barrier preventing further hip reversal. Simultaneously increase your inversion effort by turning your shoulders and hips away. If the post is failing and they continue the reversal, transition your defense to counter-rotating into 50-50 by threading your free leg through their legs during the repositioning moment."

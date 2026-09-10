@@ -74,7 +74,7 @@ description: "Execute the pressure pass from Shin-to-Shin Guard with systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is progressive pressure application more effective than explosive forward drive against shin-to-shin guard?",
+      "name": "Against shin-to-shin, why is progressive pressure better than an explosive forward drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive pressure prevents the guard player from timing counter-entries that exploit forward momentum. Explosive drives create predictable weight commitment that skilled practitioners convert into Single Leg X entries, butterfly sweeps, or technical stand-ups. Controlled, incremental loading maintains the ability to retract or redirect weight at any point, denying the guard player the momentum they need for effective counters while still generating sufficient force to collapse the shin connection over time."
@@ -90,7 +90,7 @@ description: "Execute the pressure pass from Shin-to-Shin Guard with systematic 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins elevating their hips during your pressure application—what does this indicate and how should you respond?",
+      "name": "Passing shin-to-shin, they elevate their hips. What does that mean and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip elevation during pressure indicates the guard player is building entry mechanics for Single Leg X-Guard by using your committed forward weight as the elevation platform. Immediately reduce forward drive, widen your lateral base, and drop your hips to lower your center of gravity. Control their far hip with your hand to prevent the elevation from completing. Only resume pressure once their hips have returned to the mat and you have confirmed they are not set up for a second elevation attempt."
@@ -106,7 +106,7 @@ description: "Execute the pressure pass from Shin-to-Shin Guard with systematic 
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a shin connection that can be pressured through versus one that requires movement-based clearing?",
+      "name": "How do you tell a shin-to-shin connection you can pressure through from one you must clear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A pressurable shin connection shows signs of passivity: the guard player's shin angle is less than fully perpendicular, their hip drive is minimal or absent, and their upper body grips are not actively controlling distance. A connection requiring movement-based clearing is characterized by strong perpendicular angle with active upward pressure, mobile hips constantly adjusting angle, and dominant upper body grips enabling immediate sweep threats. Attempting to pressure through an active, well-structured connection risks feeding directly into the guard player's strongest counter-entries."

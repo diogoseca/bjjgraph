@@ -64,7 +64,7 @@ description: "How to defend against Gift Wrap Arm Recovery in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent chains three rapid hip escapes in the same direction - how do you maintain Gift Wrap control?",
+      "name": "They chain three fast hip escapes one way: how do you keep the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow each hip escape immediately by scooting your hips in the same direction to maintain chest-to-back connection and zero distance. Do not let space accumulate across multiple shrimps. Use your hooks to track their hip movement and maintain alignment. If they are successfully chaining escapes, consider switching your strategy to attacking the neck during one of their shrimps, exploiting the moment their free hand is occupied with movement rather than defense."
@@ -80,7 +80,7 @@ description: "How to defend against Gift Wrap Arm Recovery in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How do you counter the direction change recovery variant where your opponent suddenly reverses their shrimp direction?",
+      "name": "How do you counter their sudden shrimp direction reversal while holding the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction change variant exploits your momentum as you follow their initial hip escape direction. Counter this by maintaining centered weight distribution rather than over-committing to following one direction. Keep your hips heavy and centered behind their hips rather than chasing laterally. When you feel the sudden reversal, use your hooks as anchors to prevent their rotation and immediately re-establish forward chest pressure to flatten them before they can exploit the new angle."
@@ -88,7 +88,7 @@ description: "How to defend against Gift Wrap Arm Recovery in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What is the correct response when your opponent bridges explosively to create space for arm recovery?",
+      "name": "How do you respond when they bridge explosively to recover the arm from the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When your opponent bridges, absorb the upward energy by driving your hips forward into their lower back rather than posting with your hands. Use your hooks to anchor your lower body position and ride the bridge. As they return from the bridge apex, immediately tighten the Gift Wrap control and drive them back to the mat. The moment after a bridge fails is when the bottom player is most vulnerable because their explosive energy is spent and they have briefly lost their side positioning."

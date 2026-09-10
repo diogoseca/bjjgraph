@@ -96,7 +96,7 @@ description: "Learn to execute the Bridge from Reverse Mount escape in BJJ. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully rides your first bridge attempt and resettles in reverse mount—what should you do next?",
+      "name": "They ride your first bridge and resettle in reverse mount: what do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately execute a second bridge in the opposite direction to exploit their weight redistribution from countering the first bridge. Their base will be adjusted to defend the original direction, making them vulnerable to the opposite angle. If the double bridge fails, switch to an entirely different escape method such as a hip escape or frame-based technique to prevent becoming predictable."

@@ -52,7 +52,7 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when you recognize the banana split being set up?",
+      "name": "What is your top defensive priority when you recognize a banana split setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deny far leg isolation. The banana split requires opposing forces on both legs to function. If the attacker cannot control your far leg, they cannot create the split regardless of how deep their twister hook is on your near leg. Post your far leg wide and heavy immediately when you recognize the threat, making it impossible for them to grip or hook your far ankle or knee."
@@ -60,7 +60,7 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to tap early when caught in a banana split rather than fighting through the pressure?",
+      "name": "Why must you tap early in a banana split instead of fighting the pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The banana split targets muscle groups (hip adductors and groin) that have no clear structural stopping point before tissue damage occurs. Unlike a joint lock where you can feel the ligament reaching its limit and have a brief window to tap, the adductors simply tear when overstretched with no warning sensation. The transition from severe discomfort to actual muscle tear can happen in less than a second, making early tapping essential for long-term training health."
@@ -68,7 +68,7 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the split from the truck and you feel increasing groin pressure - should you attempt the forward roll escape?",
+      "name": "The split is on and groin pressure is rising — should you try the forward roll escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Only attempt the forward roll if you have enough mobility remaining in your legs to execute it without rolling directly against the splitting force. If the split is deeply loaded, the rolling motion can actually increase tearing force on the groin momentarily during the escape. If groin pressure is already significant, the safest option is to tap immediately and reset rather than risk a muscle tear attempting a late escape. Save the forward roll for situations where the split is partially loaded but not yet at dangerous pressure levels."
@@ -84,7 +84,7 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the correct sequence for escaping the banana split when the twister hook is the primary control?",
+      "name": "What is the correct escape order for the banana split when the twister hook is the main control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, address the twister hook by prying their hooking foot off your shin using your free hand or knee pressure. Second, once the hook loosens, pull your knee toward your chest to extract the near leg. Third, immediately post your freed leg wide to prevent re-engagement and square your hips back into the attacker. Fourth, clear any remaining far leg grips by posting that leg wide and heavy. The twister hook is the foundation of the entire attack and must be stripped first for any escape to succeed."

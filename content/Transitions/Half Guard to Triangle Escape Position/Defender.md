@@ -72,7 +72,7 @@ description: "How to prevent the triangle escape position transition in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent has recovered partial posture and is beginning to stack your weight - what adjustment maintains your finishing threat?",
+      "name": "They recover posture and start stacking you — how do you keep the triangle finish alive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your hips further laterally to maintain the perpendicular choking alignment despite the changed pressure angle. Use your hands on the back of their head to re-pull them down while simultaneously walking your shoulders away to create more distance for hip elevation. If the stack is deep, consider transitioning to an armbar or omoplata rather than fighting a losing battle against the stacking pressure."

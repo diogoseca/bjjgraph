@@ -56,7 +56,7 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is switching your choking arm more effective than fighting the opponent's two-on-one grip directly?",
+      "name": "Attacking the back: why switch your choking arm instead of fighting their two-on-one directly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize."
@@ -64,7 +64,7 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "What positional adjustments should you make when you recognize your opponent has initiated systematic hand fighting?",
+      "name": "Holding the back: how do you adjust once they start systematic hand fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten chest-to-back connection to eliminate escape space, squeeze hooks or body triangle to increase compression and drain grip endurance, and ensure your control arm maintains strong harness position. Adjust your angle so your choking arm side is higher, making it harder for them to strip your arm downward. Consider transitioning to gift wrap if their hand fighting is consistently defeating your direct choke attempts."
@@ -80,7 +80,7 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "Your choking arm has been stripped to a shallow position but opponent has not fully cleared it - what is your response?",
+      "name": "Holding the back: your choking arm is stripped shallow but not cleared. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your elbow tight against their ribcage and re-pummel underneath their gripping hands to regain deeper neck access. Use a swimming motion with your forearm to slide under their wrist control rather than pulling directly against their grip. Simultaneously tighten your control arm harness to limit their ability to adjust body position during the re-pummel sequence. This approach recovers attacking position without the risks of a full arm switch."
@@ -88,7 +88,7 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "When should you transition from choke hunting to positional maintenance against strong hand fighters?",
+      "name": "Holding the back: when do you switch from choke hunting to positional maintenance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to positional maintenance when repeated choke attempts are being consistently defeated and your arms are fatiguing. Focus on maintaining hooks, chest pressure, and basic harness control while using body compression to drain opponent's grip endurance over time. A patient approach preserves your energy advantage and allows you to re-attack when their defensive grips weaken from sustained isometric effort against your body weight and squeeze pressure."

@@ -88,7 +88,7 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent is hiding their heel effectively by rotating their knee inward in cross ashi - how does this defensive reaction create the optimal window for the 50-50 transition?",
+      "name": "Cross Ashi: why does your opponent hiding the heel open the ideal window to switch to 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent rotates their knee inward to hide the heel, their defensive focus and physical effort are directed toward preventing the heel hook finish rather than monitoring the overall entanglement structure. This single-threat focus creates a cognitive and physical window where they are less likely to recognize and react to the leg repositioning. Additionally, their inward knee rotation actually assists the transition mechanically because it reduces their ability to extend and kick their leg free during the uncrossing moment."
@@ -104,7 +104,7 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
     },
     {
       "@type": "Question",
-      "name": "During the transition, your opponent explosively sits up and begins framing on your hips - how do you adjust your execution?",
+      "name": "Mid-switch to 50-50 your opponent sits up and frames on your hips. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the opponent's upward momentum to your advantage by pulling their heel toward your chest while accelerating through the 50-50 threading. Their sit-up creates space between your bodies that actually makes the mirror leg positioning easier to complete. The key adjustment is pulling the heel tighter rather than pushing them back down, which redirects their sit-up energy into assisting your transition rather than creating separation. Once the 50-50 is established, their elevated posture is neutralized by driving your hips downward."
@@ -112,7 +112,7 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip movement that differentiates a successful transition from one that stalls midway?",
+      "name": "Which hip movement separates a successful Cross Ashi to 50-50 switch from one that stalls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lateral hip scoot is the critical differentiator. Your hips must slide laterally to change from the cross ashi perpendicular alignment to the 50-50 mirror alignment. Practitioners who stall mid-transition typically try to rotate their hips rather than slide them, which creates torque against the opponent's leg that they can feel and resist. The lateral slide maintains your inside hook contact while smoothly repositioning into the mirror angle. Think of it as shifting your body sideways rather than turning."
@@ -120,7 +120,7 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
     },
     {
       "@type": "Question",
-      "name": "You complete the transition to 50-50 but your opponent immediately begins fighting for inside position - what is your priority in the first three seconds?",
+      "name": "You reach 50-50 and they fight for inside position. Priority in the first three seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your absolute priority is establishing downward hip pressure before addressing inside position. Drive your pelvis into the opponent's lower abdomen to flatten them and prevent them from sitting up to contest inside control from an equal base. Once hip pressure pins them flat, inside position fighting becomes much easier because you have gravity and weight assisting your leg positioning. Trying to win inside position without establishing top pressure first creates a scramble where the opponent has equal chances of gaining dominant inside control."

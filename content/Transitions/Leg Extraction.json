@@ -263,7 +263,7 @@
         }
       },
       {
-        "question": "Your opponent begins tightening their grip as you establish frames—should you continue the extraction or pause?",
+        "question": "Escaping Estima lock control, they tighten as you frame — continue extracting or pause?",
         "answer": "Pause the extraction attempt when the opponent tightens significantly. Forcing through increased pressure can cause injury and rarely succeeds. Instead, maintain your frames, re-establish strong counter-rotation, and wait for the next opportunity when they adjust position or their grip fatigues. Patience is critical in leg lock defense.",
         "answer_line": "Pause and hold your frames",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "What are the two common scenarios where Technical Standup Extraction is preferable to guard recovery?",
+        "question": "In Estima lock defense, when is technical standup extraction preferable to guard recovery?",
         "answer": "Technical Standup is preferable when: (1) opponent's hip pressure is not severe enough to prevent posting strongly with your far hand, and (2) you have sufficient angle to rise without exposing your back. This variant allows complete disengagement and standing reset rather than accepting a guard position where leg attacks may continue.",
         "answer_line": "Strong post + safe angle to rise",
         "distractors": {
@@ -480,7 +480,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the sequential stages of Leg Extraction that you should learn to recognize as the Estima Lock holder?",
+        "question": "Holding the Estima lock, what are the stages of their leg extraction in order?",
         "answer": "The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence.",
         "answer_line": "Rotate, frame, escape, retract, out",
         "distractors": {

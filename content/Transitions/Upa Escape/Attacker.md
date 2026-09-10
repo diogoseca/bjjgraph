@@ -98,7 +98,7 @@ description: "How to execute the Upa Escape from bottom mount in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent consistently posts their free hand wide every time you attempt the upa — how do you adjust your strategy?",
+      "name": "They post their free hand wide every time you upa from bottom mount: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Time your upa only when their posting hand is committed to grips or submissions, and use fake upas to one side to draw the post before switching. Against habitual posters this becomes a multi-layered approach: first, escape exclusively in moments when the posting hand cannot post because it is occupied. Second, commit obviously to one side to draw their base shift, then switch explosively to the opposite side before they re-adjust. Third, use the upa threat to set up the elbow escape — as they widen their base to post, their knees lift and create space for knee insertion on the opposite side. Fourth, the gift wrap variation catches their posting arm as they reach across. The key insight is that at advanced levels the upa's greatest value is often as a threat that opens other escapes, not necessarily as the primary finishing technique."
@@ -106,7 +106,7 @@ description: "How to execute the Upa Escape from bottom mount in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What biomechanical principles make the upa effective for smaller practitioners against significantly larger opponents?",
+      "name": "What biomechanics make the upa work for a smaller person against a much larger opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The upa lets smaller grapplers succeed because explosive hip extension tips the opponent over a compromised base rather than lifting their full weight. The glutes and hamstrings are among the strongest muscle groups relative to size, generating disproportionate force during hip extension, and the explosive bridge converts stored elastic energy into a sudden force spike that exceeds sustained pushing. Same-side trapping creates structural compromise in the opponent's base — you exploit a geometric weakness instead of winning a strength contest. The rotational 45-degree bridge angle means you never lift their full mass vertically; angular momentum tips them past their balance point. Finally, the technique is timing-dependent: the opponent's own forward reach creates the window, making their weight work against their base stability."
@@ -114,7 +114,7 @@ description: "How to execute the Upa Escape from bottom mount in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "How does the upa integrate into a comprehensive mount defense system alongside elbow escape and hip escape?",
+      "name": "How does the upa fit with elbow escape and hip escape as a mount escape system?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three escapes form an interlocking trilemma that makes mount defense progressively harder to shut down. Upa succeeds when opponent's weight is forward on hands, which is precisely when elbow escape is hardest because their knees are tight. Elbow escape succeeds when opponent sits back in high mount where their knees rise, which is exactly when upa lacks effectiveness due to rearward weight. Hip escape exploits lateral base weakness created when the opponent defends both other escapes. Defending upa by posting wide opens elbow escape space; sitting back to prevent elbow escape enables upa; maintaining tight low mount to prevent both opens hip escape angles. Advanced practitioners chain these continuously, reading reactions and switching between escapes without fully committing until optimal timing appears."

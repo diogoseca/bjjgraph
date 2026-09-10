@@ -68,7 +68,7 @@ description: "Step-by-step guide to transitioning from Kesa Gatame to Kuzure Kes
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you maintain near-arm control throughout the entire transition from Kesa Gatame to Kuzure Kesa Gatame?",
+      "name": "Why keep near-arm control throughout the whole Kesa Gatame to Kuzure Kesa Gatame transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped near arm is the bottom player's primary framing tool. If released during the transition, they can immediately post on your chest or hip to create space, insert a knee shield to recover half guard, or push your chest away to prevent the Modified Scarf Hold from consolidating. The near arm must remain squeezed under your armpit from start to finish because the transition creates a vulnerable moment during the weight shift."
@@ -76,7 +76,7 @@ description: "Step-by-step guide to transitioning from Kesa Gatame to Kuzure Kes
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts turning their back toward you during the hip walk phase - should you abort or continue?",
+      "name": "They turn their back toward you during the hip walk to Kuzure Kesa Gatame — abort or continue?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continue and accelerate the transition. When the opponent turns their back toward you, they are actually helping you establish chest-to-chest contact because their turn brings their torso under your descending chest. Drop your weight immediately onto their sternum and complete the Modified Scarf Hold. Their turn-in is only dangerous in static Kesa Gatame; during this transition it works in your favor because you are already moving your chest over their body."
@@ -84,7 +84,7 @@ description: "Step-by-step guide to transitioning from Kesa Gatame to Kuzure Kes
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that separates a successful transition from a failed one?",
+      "name": "What mechanical detail decides success in the Kesa Gatame to Kuzure Kesa Gatame transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continuous pressure with zero gaps during the weight transfer. The transition fails when there is any moment of reduced pressure that allows the bottom player to insert frames, bridge, or initiate hip escapes. Your chest must maintain contact and downward force at every millimeter of the hip walk forward. Think of it as pouring your weight from your hips onto your chest rather than lifting and resettling."

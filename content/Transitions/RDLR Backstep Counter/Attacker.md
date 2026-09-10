@@ -106,7 +106,7 @@ description: "Master the RDLR Backstep Counter from the attacker perspective. St
     },
     {
       "@type": "Question",
-      "name": "The bottom player begins rotating their shoulders toward the mat as you backstep—what does this indicate and how do you respond?",
+      "name": "Their shoulders rotate toward the mat as you backstep RDLR — what is it and how do you answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shoulder rotation toward the mat indicates a berimbolo or crab ride entry attempt. The bottom player is using your backstep momentum to facilitate their inversion underneath you. Immediately drive your chest forward and down toward their hips to eliminate the space they need for the inversion. Use your cross-face grip to turn their head away from the rotation direction. If they are already partially inverted, switch to a body lock around their torso to pin them flat and eliminate rotational capacity entirely."

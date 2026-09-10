@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your opponent's hip angle suddenly changes as they shift weight to their left hip - what does this signal?",
+        "question": "Passing Crackhead Control, they shift onto one hip—what does that signal?",
         "answer": "Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established.",
         "answer_line": "Signals omoplata or triangle",
         "distractors": {
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "What should you do immediately if your opponent establishes double underhooks from Crackhead Control?",
+        "question": "Top in Crackhead Control, what do you do if they establish double underhooks?",
         "answer": "If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass.",
         "answer_line": "Stack and pass immediately",
         "distractors": {
@@ -807,7 +807,7 @@
         }
       },
       {
-        "question": "Your opponent achieves double underhooks while you're hunting a submission - what's your immediate response?",
+        "question": "Hunting a submission from Crackhead Control, they get double underhooks—what do you do?",
         "answer": "Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks.",
         "answer_line": "Abandon attack, standup or guard",
         "distractors": {
@@ -881,7 +881,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines Crackhead Control and distinguishes it from other rubber guard positions?",
+      "question": "What structure defines Crackhead Control versus other rubber guard positions?",
       "answer": "Crackhead Control is defined by an exceptionally deep overhook on the opponent's arm combined with a leg draped across the opponent's upper back or neck, breaking their posture forward. The overhook must penetrate past the opponent's shoulder blade so the arm is genuinely hooked rather than merely controlled. This deep-overhook-plus-leg pairing creates an asymmetric trap that isolates one of the opponent's arms while pulling their spine into flexion. It is this depth and the accepted back exposure that separate it from tighter, safer rubber guard configurations like Mission Control.",
       "answer_line": "Deep overhook plus leg across back",
       "distractors": {
@@ -895,7 +895,7 @@
       }
     },
     {
-      "question": "How does the interaction between the deep overhook and the leg across the back function as a single lever system?",
+      "question": "In Crackhead Control, how do the deep overhook and the leg across the back work as one lever?",
       "answer": "The overhook anchors the opponent's trapped arm while the leg pressing across their upper back drives their posture forward and down. Because both control points act on the same shoulder girdle, any attempt to posture upward feeds tension back into the trapped arm rather than relieving it. The knee actively pulling toward the bottom player's chest tightens this loop, so the two contact points reinforce each other instead of working independently. This coupling is why posture recovery from the position cannot be achieved through a single explosive movement.",
       "answer_line": "Overhook and leg lock together",
       "distractors": {
@@ -965,7 +965,7 @@
       }
     },
     {
-      "question": "What connects the position's multiple submission threats into a continuous chain rather than isolated attacks?",
+      "question": "In Crackhead Control, what links the submission threats into a continuous chain?",
       "answer": "The deep overhook acts as a constant anchor point that remains secured while the legs reconfigure between triangle, omoplata, and gogoplata setups. Because control is never fully released to switch attacks, a successful defense of one submission typically feeds directly into the entry angle for the next. Hip angle adjustments alone shift which threat is live without rebuilding the position from scratch. This submission-chain connectivity is a core dynamic of the configuration and is why defending a single attack rarely produces genuine safety.",
       "answer_line": "Overhook anchors a chain of subs",
       "distractors": {
@@ -979,7 +979,7 @@
       }
     },
     {
-      "question": "How does Crackhead Control differ from the Mission Control and New York positions it commonly transitions from?",
+      "question": "How does Crackhead Control differ from Mission Control and New York?",
       "answer": "Mission Control and New York are the more conservative rubber guard anchors that prioritize a stable posture break with less committed hip rotation and shallower overhook engagement. Crackhead Control emerges from these when the overhook is driven deeper and the hips rotate further, trading their relative safety for submission density and accepting back exposure. The adjacent positions can therefore be recovered to as a safer fallback when exposure becomes dangerous, whereas Crackhead is the higher-risk terminal expression of the same overhook family. The distinction is one of overhook depth and committed exposure rather than a different control mechanism.",
       "answer_line": "Deeper overhook, more risk-reward",
       "distractors": {

@@ -72,7 +72,7 @@ description: "How to defend against Inside Ashi-Garami to Cross Ashi in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the transition and you feel their outside leg release from behind your knee - what are your immediate priorities in order?",
+      "name": "You feel their outside leg release during the Cross Ashi switch. What are your priorities in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, aggressively retract your trapped leg by driving your knee toward your chest while keeping your heel tight to your hip. Second, simultaneously frame on the attacker's hip with your free leg to create separation and prevent them from following your retraction. Third, engage in hand fighting to strip their heel grip if they still have control. The combination of leg retraction, hip framing, and grip fighting during this window gives you the best chance of complete extraction."

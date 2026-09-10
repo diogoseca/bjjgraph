@@ -58,7 +58,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is early recognition and prevention far more important than escape technique when facing the Brabo Choke?",
+      "name": "Why does preventing the Brabo matter more than escaping it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Brabo Choke has a very narrow window between partial application and full finishing pressure. Once the attacker completes the bicep grip and establishes perpendicular angle, escape probability drops below 15%. However, before the arm is fully threaded, simple defensive actions like keeping elbows tight, hand fighting the threading wrist, or posturing up are highly effective. The asymmetry between prevention difficulty (easy) and escape difficulty (extremely hard) means investing all defensive energy into early recognition and denial of the arm threading is far more efficient than developing late-stage escape techniques."
@@ -66,7 +66,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "What is the correct direction to circle when defending a Brabo Choke, and what happens if you circle the wrong way?",
+      "name": "Which way do you circle to defend the Brabo, and what happens if you circle the wrong way?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must circle AWAY from the choking arm side - meaning toward the side where your head has more freedom and the arm loop is looser. This direction opens the choke circuit by pulling your neck out of the tightening loop. Circling toward the choking arm (the opposite direction) feeds your neck deeper into the arm threading and improves the attacker's perpendicular angle, dramatically tightening the choke. This directional error is one of the most common defensive mistakes and often results in accelerating your own submission. A useful mental cue is to circle toward your free arm, away from your trapped arm."
@@ -74,7 +74,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "Why should you tap early when caught in a Brabo Choke rather than waiting to feel significant discomfort?",
+      "name": "Why should you tap early in a Brabo choke instead of waiting for discomfort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Brabo Choke is a blood choke that compresses the carotid arteries, cutting blood supply to the brain. Unlike joint locks which produce sharp pain as a warning signal, blood chokes can cause unconsciousness within 5-10 seconds of full compression without significant pain preceding it. You may feel only moderate pressure or slight dizziness before losing consciousness entirely. Tapping early - as soon as you recognize the grip is locked and your escape has failed - is the only safe approach. Training partners and competitors who wait for pain before tapping frequently go unconscious, which carries neurological risks with repeated occurrences."
@@ -82,7 +82,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their arm but has not yet secured the bicep grip - what specific defensive actions give you the best chance of escaping?",
+      "name": "Their Brabo arm is threaded but the bicep grip isn't locked — what gives you the best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your critical window. First, immediately posture up by driving off your knees and extending your spine while pushing against their hips - this breaks the bent-forward angle they need. Second, use your free hand to control their threading wrist and prevent it from reaching their bicep. Third, simultaneously circle away from the choking arm to open the arm loop. The combination of posture recovery, wrist control, and directional movement addresses all three mechanical requirements of the choke simultaneously. If any one succeeds, the choke becomes unfinishable from this position."
@@ -90,7 +90,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "How does your trapped arm position affect the Brabo Choke, and what should you do with it during defense?",
+      "name": "How does your trapped arm affect the Brabo, and what should you do with it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your trapped arm is being used as part of the choking mechanism - the attacker's forearm presses your own shoulder into your far-side carotid artery. Pulling your trapped arm away from the attacker actually worsens the choke because it tightens the loop. Instead, swim your trapped arm toward the attacker's body and try to extract it by circling it forward and underneath their control. If you can free the trapped arm, the choke loses its primary compression surface and becomes significantly less effective. The arm extraction combined with circling away from the choke side is the highest-percentage late-stage escape."

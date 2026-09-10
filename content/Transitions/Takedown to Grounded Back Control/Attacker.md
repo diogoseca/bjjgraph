@@ -90,7 +90,7 @@ description: "How to execute Takedown to Grounded Back Control in BJJ. Attacking
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and drops their weight to resist your mat return - how do you adjust?",
+      "name": "They widen their base and drop weight against your mat return. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from a direct pull-down to a trip-based entry. Step your lead foot behind their near heel while driving laterally across their center of gravity. Their wide stance actually becomes a liability against trip mechanics because their feet are too far apart to quickly adjust. The lateral trip converts their defensive base widening into a vulnerability by removing their posting ability on one side."
@@ -98,7 +98,7 @@ description: "How to execute Takedown to Grounded Back Control in BJJ. Attacking
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that determines whether you land in dominant back control or a scramble?",
+      "name": "What mechanical detail decides whether the mat return ends in back control or a scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining unbroken chest-to-back connection throughout the entire descent. Any separation, even momentary, gives the opponent space to turn, insert a frame, or recover guard. Your sternum must stay pressed against their spine from initiation through landing. This connection is the single mechanical variable that most strongly predicts whether the transition ends in back control or a scramble."

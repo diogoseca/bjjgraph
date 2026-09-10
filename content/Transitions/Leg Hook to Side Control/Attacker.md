@@ -74,7 +74,7 @@ description: "Complete attacking guide for the Leg Hook to Side Control pass. Le
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What indicators signal the optimal moment to initiate the leg extraction for passing to side control?",
+      "name": "From leg hook top, what signals the right moment to extract your leg and pass to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the bottom player's defensive frames collapse, their shoulders flatten to the mat, they stop actively fighting the crossface, or they commit to a single escape direction that you can anticipate. Their leg clamp loosening or their far hip becoming controllable are additional indicators. Attempting extraction against active defense, strong frames, and mobile hips typically fails and risks sweep counters."
@@ -98,7 +98,7 @@ description: "Complete attacking guide for the Leg Hook to Side Control pass. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their leg clamp as you begin the windshield wiper extraction - how do you adjust?",
+      "name": "They tighten their leg clamp as you start the windshield wiper extraction — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the hip switch extraction variant which changes the angle of force against their clamp. A tight clamp resists direct lateral windshield wiper motion but is vulnerable to the rotational angle change created by a hip switch. If the hip switch also fails, escalate to a backstep which bypasses the entanglement entirely by changing passing direction. Increase crossface pressure simultaneously, as splitting their attention between holding your leg and surviving upper body pressure often loosens the clamp."

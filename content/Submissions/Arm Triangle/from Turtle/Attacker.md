@@ -76,7 +76,7 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the arm triangle from turtle attack, and how does the opponent's own body contribute to the choke?",
+      "name": "What does the turtle arm triangle attack, and how does your opponent's own arm add pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm triangle attacks both carotid arteries simultaneously. Your choking forearm compresses one carotid while the opponent's own trapped shoulder compresses the opposite carotid. The opponent's arm acts as a wedge between your arm and their neck, transmitting your squeezing pressure into the far-side artery. This bilateral compression cuts blood flow to the brain, causing unconsciousness in 6-8 seconds once fully locked."
@@ -84,7 +84,7 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
     },
     {
       "@type": "Question",
-      "name": "Why is it necessary to transition the opponent off their turtle base before applying the finishing squeeze?",
+      "name": "Why must you break your opponent off their turtle base before applying the finishing squeeze?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The four-point turtle base distributes the opponent's weight across their hands and knees, creating structural resistance that prevents full carotid occlusion. The base allows the opponent to resist the squeeze by posting and maintaining skeletal alignment. Transitioning them to their side or back eliminates this structural support, allowing your shoulder pressure and body weight to drive directly into the choke configuration and close both arteries effectively."
@@ -92,7 +92,7 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard when you begin threading the choking arm - what adjustments prevent the stall?",
+      "name": "Your opponent tucks their chin as you thread the choking arm from turtle—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply cross-face pressure with your free hand to create an angle that lifts their chin. Drive your forearm across the jaw line rather than trying to go under a tightly tucked chin. If the chin remains tucked, use your chest weight to flatten them slightly, which opens space under the chin as their posture changes. You can also switch to a darce or anaconda grip where chin tuck is less effective, then return to the arm triangle once they adjust their defense."
@@ -100,7 +100,7 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
     },
     {
       "@type": "Question",
-      "name": "What is the correct finishing pressure mechanism, and why should you avoid squeezing primarily with your arms?",
+      "name": "What generates the finishing pressure, and why should you not squeeze mainly with your arms?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct finishing pressure comes from walking your hips toward the opponent's head while driving your shoulder forward and down through the trapped arm. This uses your skeletal structure and body weight to generate compression rather than muscular effort from your biceps and forearms. Arm squeezing alone causes rapid fatigue and rarely generates enough compression to finish against a resistant opponent. Structural pressure is sustainable and produces significantly more force through leverage."
@@ -116,7 +116,7 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
     },
     {
       "@type": "Question",
-      "name": "How should you release the arm triangle after your partner taps, and what is the recovery protocol if they lose consciousness?",
+      "name": "How do you release the arm triangle on the tap, and what if your partner goes unconscious?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon any tap signal, immediately release the squeeze by opening your elbows and removing shoulder pressure. Disengage from their head and shoulders completely, giving them space to breathe and recover for 30-60 seconds. If the partner loses consciousness, immediately release the choke, place them on their side in the recovery position, elevate their legs slightly, and monitor breathing continuously. They should regain consciousness within 10-20 seconds. If they do not regain consciousness within 20 seconds, seek medical attention immediately."

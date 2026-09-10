@@ -76,7 +76,7 @@ description: "How to execute Lasso Guard Pass in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical advantage of stepping outside the lasso leg rather than trying to pass on the inside?",
+      "name": "Why is stepping outside the lasso leg mechanically better than passing inside it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping outside the lasso leg creates an angle that reduces the hook's leverage and effectiveness. The lasso works by creating a strong connection between the opponent's leg and your arm in a straight line. When you step outside, you change this angle dramatically, making it much easier to rotate your shoulder and extract your arm. Additionally, this outside position puts you closer to completing the pass and makes it harder for the opponent to follow you with their hips."
@@ -84,7 +84,7 @@ description: "How to execute Lasso Guard Pass in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your passing strategy if the opponent transitions from lasso to spider guard during your pass attempt?",
+      "name": "They switch from lasso to spider guard mid-pass: how do you adjust your passing strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent transitions to spider guard, immediately adjust your grip strategy to control both sleeves rather than focusing solely on one. Recognize that spider guard requires different passing approaches, typically involving either breaking the grips and using pressure passing, or controlling both sleeves and using a knee cut or stack pass. The key is to not commit to the lasso passing sequence when the guard structure has fundamentally changed. Maintain your upright posture and wide base to prevent sweeps during this transition."
@@ -92,7 +92,7 @@ description: "How to execute Lasso Guard Pass in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the most dangerous sweep threats when attempting to pass lasso guard, and how do you prevent them?",
+      "name": "What are the main sweep threats when passing lasso guard, and how do you prevent them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary sweep threats are the opponent using their free leg to hook your far leg while off-balancing you with the lasso, or sitting up and using the lasso to control your posture while sweeping with their free leg. Prevent these by maintaining a wide base with your far leg posted back and outside, keeping upright posture with your hips back, and controlling the sleeve to limit their ability to extend and create angles. Never allow your weight to shift too far forward or your base to become narrow."

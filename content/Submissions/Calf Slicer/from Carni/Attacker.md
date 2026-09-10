@@ -84,7 +84,7 @@ description: "Learn to attack with the calf slicer from Carni. Step-by-step comp
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts hiding their heel by bending their knee deeply inside the Carni entanglement - what does this create for you?",
+      "name": "In Carni, they bend the knee deeply to hide the heel — what does that give you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their heel defense creates the exact knee angle required for the calf slicer entry. The bent knee positions their calf muscle directly over the space where your shin will thread behind the knee crease. You should immediately begin threading your shin while maintaining inside leg control. This is the primary recognition trigger for transitioning from heel hook to calf slicer within the Carni dilemma system."
@@ -116,7 +116,7 @@ description: "Learn to attack with the calf slicer from Carni. Step-by-step comp
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip when the opponent begins to straighten their leg against the calf slicer?",
+      "name": "They straighten the leg against your calf slicer from Carni — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent begins straightening, immediately tighten your foot control by pulling their toes harder against your chest and deepening the figure-four lock with your legs. If they successfully straighten past the point where the calf slicer is viable, release the calf slicer setup and immediately transition back to heel hook grips since their extended leg now exposes the heel perfectly. This switch should be instantaneous since the Carni entanglement remains intact throughout."

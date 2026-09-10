@@ -351,7 +351,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts bridging explosively toward your posted leg - what adjustment do you make to maintain position?",
+        "question": "They bridge explosively toward your posted leg in kesa gatame: how do you adjust?",
         "answer": "Immediately widen your posted leg and shift your hips lower, driving your weight down through your chest into their torso. If the bridge is strong, be ready to transition to mount by stepping over as they turn into you, converting their escape attempt into positional advancement. The key is staying heavy on their upper body while maintaining wide base with your posted leg.",
         "answer_line": "Widen leg, sink hips, drive down",
         "distractors": {
@@ -802,7 +802,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent is applying crushing chest pressure and you're struggling to breathe - what's your immediate priority?",
+        "question": "Crushed under kesa gatame and struggling to breathe, what is your immediate priority?",
         "answer": "Turn your head away from the pressure to create a small pocket of breathing space, and use your free arm to frame against their shoulder or face to create distance between their chest and your face. Do not panic or waste energy fighting the pressure directly. Establish controlled breathing through your nose if possible, and accept some discomfort while working methodically toward escape. Panic breathing and explosive struggling will exhaust you rapidly.",
         "answer_line": "Turn head, frame, breathe calm",
         "distractors": {
@@ -844,7 +844,7 @@
         }
       },
       {
-        "question": "Your opponent's back is exposed because they're sitting heavily - how do you exploit this vulnerability?",
+        "question": "Under kesa gatame they sit back heavily and expose their back: how do you exploit it?",
         "answer": "When opponent sits back heavily, immediately turn into them rather than away. Use your free arm to reach around their back while turning your hips to face them. Your goal is to get chest-to-chest facing them, which allows you to either take their back directly or transition to turtle and then attack their back from there. This is the highest-percentage escape unique to Kesa Gatame because their perpendicular positioning inherently exposes their back.",
         "answer_line": "Turn in, get chest-to-chest",
         "distractors": {
@@ -900,7 +900,7 @@
         }
       },
       {
-        "question": "You partially escape and get space but opponent is re-engaging - how do you complete the guard recovery?",
+        "question": "You create space escaping kesa gatame but they re-engage: how do you finish the recovery?",
         "answer": "Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape.",
         "answer_line": "Commit fully, don't stop halfway",
         "distractors": {
@@ -1016,7 +1016,7 @@
       }
     },
     {
-      "question": "How does Kesa Gatame relate to its adjacent variations such as Ushiro Kesa Gatame and Kuzure Kesa Gatame?",
+      "question": "How does kesa gatame relate to ushiro kesa gatame and kuzure kesa gatame?",
       "answer": "Kesa Gatame sits within a family of judo-derived scarf holds that share the perpendicular head-and-near-arm control but differ in facing direction and arm configuration. Ushiro Kesa Gatame faces the opposite direction toward the opponent's hips, trading the standard version's back exposure for a different vulnerability profile, while Kuzure Kesa Gatame ('broken' scarf hold) modifies the arm control and weight distribution for a more stable base. All variants preserve the defining perpendicular angle and upper-body trap but rebalance the control-versus-exposure trade-off. Understanding the family means recognizing that a player flows between these based on which vulnerability the opponent is currently attacking.",
       "answer_line": "Same angle, different facing/grip",
       "distractors": {

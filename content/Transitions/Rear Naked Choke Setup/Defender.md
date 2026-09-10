@@ -56,7 +56,7 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive grip when your opponent initiates the RNC setup sequence?",
+      "name": "Most important defensive grip when they begin the RNC setup on your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two-on-one control on the choking arm is the most important defensive grip. One hand grips the attacker's wrist while the other controls their forearm or tricep, pulling the entire arm down toward your chest. This grip prevents the choking arm from reaching your neck at all, stalling the entire setup sequence at its earliest and most defensible phase. A single grip on the wrist alone is insufficient because the attacker can strip it with their free hand."
@@ -64,7 +64,7 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your top grip on their choking arm and begins sliding it toward your chin—what is your immediate response?",
+      "name": "They strip your top grip and slide the choking arm toward your chin: immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase your chin tuck by driving your chin hard into your chest while simultaneously raising your shoulder on the choking side to create a physical wall. Use your remaining grip on their wrist to pull the arm down and away from your neck. With your freed hand, re-establish the two-on-one by gripping their forearm above your existing wrist grip. Do not attempt an escape at this moment—focus entirely on re-establishing hand control before the arm gets beneath your chin."
@@ -72,7 +72,7 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why should you turn toward the underhook side rather than the overhook side when attempting to escape during the RNC setup?",
+      "name": "Escaping the RNC setup, why turn toward the underhook side rather than the overhook side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the underhook side disrupts the attacker's structural alignment because it compresses the space on the choking side where they need room for arm insertion. It also positions your shoulder as a barrier against the choking arm and creates the optimal angle for hip escape to turtle. Turning toward the overhook side opens the neck on the choking side, plays into the attacker's angle change, and makes arm insertion significantly easier."
@@ -80,7 +80,7 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "The attacker has their arm beneath your chin but has not locked the figure-four—what can you still do?",
+      "name": "Their arm is under your chin but the figure-four is not locked: what can you still do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage defensive window. Target the non-choking hand before it reaches behind your head to complete the figure-four. Grab their wrist and pull it forward over your shoulder, preventing the lock. Simultaneously work to pull the choking arm wrist down and forward to reduce the depth of their forearm across your neck. You can also attempt an explosive bridge and rotation toward the choking arm side to dislodge the partially set arm during the transition. Without the figure-four completed, the choke lacks full mechanical advantage."

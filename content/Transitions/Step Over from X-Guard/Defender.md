@@ -72,7 +72,7 @@ description: "Defend and counter the Step Over pass from X-Guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "When should you transition from X-Guard to Single Leg X instead of trying to maintain your current position?",
+      "name": "When should you switch from X-Guard to Single Leg X instead of holding the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to Single Leg X when your inside hook behind the knee has become too shallow to re-seat despite hip elevation attempts, but your outside leg still has foot-on-hip contact. Rather than fighting for a compromised X-Guard, SLX maintains leg control through a different configuration that requires the top player to restart their passing approach entirely."

@@ -82,7 +82,7 @@ description: "How to execute the transition from Kesa Gatame to Ushiro Kesa Gata
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong frames established against your face in standard Kesa Gatame. How does this create an opportunity for the transition?",
+      "name": "They frame hard on your face in Kesa Gatame — how does that help your switch to Ushiro Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frames against your face in standard Kesa Gatame become completely irrelevant once you rotate to Ushiro Kesa Gatame because your face moves away from their frames. Their defensive energy is invested in a direction that no longer applies. Initiate the rotation while they are actively pushing your face, as their commitment to this defense means they are not protecting their far arm or preparing for the directional change. Their frames essentially become wasted effort the moment you begin the pivot."
@@ -106,7 +106,7 @@ description: "How to execute the transition from Kesa Gatame to Ushiro Kesa Gata
     },
     {
       "@type": "Question",
-      "name": "Why is arm isolation during the rotation more effective than attempting it after settling into Ushiro Kesa Gatame?",
+      "name": "Why isolate the far arm during the rotation to Ushiro Kesa Gatame instead of after settling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Ushiro Kesa Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change."

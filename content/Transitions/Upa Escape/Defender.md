@@ -56,7 +56,7 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up an upa escape from bottom mount?",
+      "name": "What are the earliest cues that the bottom player is setting up an upa from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues appear in sequence: first, the opponent cups their hand behind your tricep or elbow crease and begins pulling your arm across their chest, which is the arm trap initiation. Second, they hook their foot over your ankle on the same side, completing the structural setup. Third, they turn their head toward the escape direction and walk their feet close to their buttocks for bridge power. The arm trap is the first and most reliable indicator — the moment you feel your tricep being cupped, you should immediately begin defensive countermeasures by withdrawing the arm or stepping your same-side leg wide to prevent the foot trap."
@@ -64,7 +64,7 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining three base points more important than simply being heavy on top when defending the upa?",
+      "name": "Why do three base points matter more than being heavy on top when defending the upa?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight alone does not prevent the upa because the escape exploits structural weakness, not weight insufficiency. A 100kg person can be rolled by a 70kg person if both arm and leg are trapped on the same side, because the rotational bridge eliminates the geometric ability to resist force in that direction regardless of mass. Three base points — typically two knees and one posting hand — create a triangular support structure that provides resistance to force from any direction. Even enormous weight concentrated above two trapped limbs on one side cannot resist angular momentum when there is no structural element to absorb it. The defense is about geometry and base, not about mass."
@@ -72,7 +72,7 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you use your opponent's upa attempt as a trigger for offensive transition rather than purely defensive reaction?",
+      "name": "How do you turn their upa attempt into your own offense from mount top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits to the bridge, their arms are occupied with the trap, their hips are extended upward, and their core is fully engaged in the bridging motion — they have no defensive resources available. If you successfully post and absorb the bridge, immediately transition to a submission or positional advancement while they are recovering from the failed explosive effort. Their trapped arm is extended and vulnerable to americana or kimura. Their energy is depleted from the failed bridge. Most effectively, if the bridge is strong enough to begin rolling you, switch hips and flow into back control rather than fighting the reversal, converting their escape into the worst possible outcome for them."
@@ -80,7 +80,7 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What adjustments should you make to your mount maintenance when facing an opponent who chains upa attempts with elbow escape and hip escape?",
+      "name": "How do you maintain mount against someone chaining upa with elbow and hip escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a combination escape game, you cannot commit to defending one escape without opening another. The solution is dynamic base management: when they threaten upa by trapping your arm, step your same-side leg wide and shift weight slightly back — this kills the upa but may open elbow escape space. As they switch to elbow escape by hip escaping laterally, follow their hips and slide your knee up into their armpit area, which closes the elbow escape but shifts your weight forward where upa becomes available again. The key is recognizing the escape chain and staying one adjustment ahead. Grapevines can temporarily slow the cycling by eliminating their bridging power, giving you time to establish dominant grips and launch submissions before they build escape momentum."

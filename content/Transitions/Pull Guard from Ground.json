@@ -253,7 +253,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent sprawls hard and drives their hips back as you initiate the guard pull from ground - how do you adjust your technique?",
+        "question": "They sprawl and drive their hips back as you pull guard from the ground. How do you adjust?",
         "answer": "Maintain collar grip tension and abandon the closed guard attempt. Instead, insert butterfly hooks or establish shin-to-shin contact as intermediate control. Use their sprawling momentum to set up a collar drag that pulls them past you, or transition to seated guard with feet on hips. The key adjustment is recognizing the sprawl early and redirecting to a guard variation that works with their retreating hips rather than forcing closed guard against backward pressure.",
         "answer_line": "Switch to butterfly hooks",
         "distractors": {
@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "You establish collar and sleeve grips but your opponent posts their free hand firmly on your hip to create distance - what is your response?",
+        "question": "You have collar and sleeve, but they post a hand on your hip for distance. Response?",
         "answer": "Attack the posting arm with a two-on-one grip break, pulling their wrist across your body to eliminate the frame while maintaining your collar grip connection. Alternatively, angle your body 45 degrees toward the side opposite their post, bypassing the frame laterally. If neither works immediately, use your feet on their hips to create a momentary push that disrupts their posting structure, then immediately shoot your legs around their waist during the brief moment their frame is compromised.",
         "answer_line": "Break the post with two-on-one",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "Your guard pull attempt results in your legs landing on only one side of your opponent's hip - how do you recover to closed guard?",
+        "question": "Your guard pull leaves both legs on one side of their hip. How do you recover closed guard?",
         "answer": "Immediately hip escape toward the side where your legs are positioned to create the angle needed to swing your far leg across their body. Maintain collar grip tension to prevent them from posturing away during the adjustment. Use your near leg as a hook on their hip to maintain connection while your far leg swings around to complete the wrap. If they begin to pass toward the open side, abandon closed guard recovery and transition to half guard or De La Riva hook on the near leg to retain guard engagement.",
         "answer_line": "Hip escape, swing far leg across",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent begins circling laterally as you initiate the guard pull from seated position - how do you track their movement?",
+        "question": "They circle laterally as you pull guard from seated. How do you track their movement?",
         "answer": "Pivot on your seated hip in the direction of their circle while maintaining grip tension through your collar connection. Use your sleeve grip to steer their upper body back toward your centerline as your hips rotate to follow. Plant your outside hand briefly for base during the pivot if needed. If they circle faster than you can track, use the collar grip to execute a collar drag in their circling direction, converting their lateral momentum into a forward pull that creates the guard closure opportunity from a different angle.",
         "answer_line": "Pivot hips, steer with sleeve grip",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What are the two most common failure points that prevent closing the guard during a ground-based pull?",
+        "question": "What are the two most common failure points when closing guard on a ground-based pull?",
         "answer": "First, insufficient hip elevation where the practitioner's hips remain too low to wrap legs above the opponent's hip bones. This results from relying solely on arm pulling without engaging the hip bridge, leaving the legs scraping ineffectively below the opponent's waist. Second, delayed ankle lock timing where the practitioner wraps legs but fails to immediately cross ankles, allowing the opponent a two-to-three second window to posture and begin opening the guard before it fully closes. Both failures stem from treating the technique as sequential steps rather than one explosive coordinated motion.",
         "answer_line": "Low hips and late ankle lock",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your collar and pushes you flat on your back as you attempt the pull - what adjustment prevents this?",
+        "question": "They grab your collar and push you flat as you pull. What adjustment prevents this?",
         "answer": "Frame against their pushing arm with your free hand on their wrist or elbow to create structural resistance against being flattened. Simultaneously angle your body 30-45 degrees off-center so their push drives past your shoulder rather than directly through your centerline. If already partially flattened, immediately place feet on their hips to establish distance control frames, strip their collar grip with a two-on-one break, and re-attempt the pull from the feet-on-hips position where you have superior leverage for managing distance and generating the pull.",
         "answer_line": "Frame the arm, angle off-center",
         "distractors": {
@@ -449,7 +449,7 @@
         }
       },
       {
-        "question": "How should you respond when opponent sprawls forward with heavy pressure immediately after you pull guard?",
+        "question": "They sprawl forward with heavy pressure right after you pull guard. How do you respond?",
         "answer": "Rather than fighting the pressure directly, use it to your advantage by creating angles and establishing underhooks or deep positions. As they sprawl forward, rotate your hips to the side to prevent being flattened, and look for entries to butterfly hooks, deep half guard, or X-guard positions. The forward pressure can be redirected into sweep opportunities since their weight is already committed forward. You can also use the pressure to establish lockdown or deep half positions that nullify their passing pressure and create offensive opportunities. The key is accepting the pressure and using it rather than trying to push it away, which typically fails against heavier opponents.",
         "answer_line": "Rotate hips, redirect the pressure",
         "distractors": {
@@ -477,7 +477,7 @@
         }
       },
       {
-        "question": "Your opponent is circling away and refusing to engage grips — what is the optimal timing window to initiate the guard pull?",
+        "question": "They circle away and refuse grips: when is the best moment to initiate the guard pull?",
         "answer": "The optimal window occurs during one of three moments: when the opponent steps forward to re-engage after circling, when they reach to establish their own grip creating a brief commitment, or when their weight shifts onto their lead foot during a direction change. In each case, their momentum is momentarily fixed, making it difficult to disengage quickly. Secure your grips during this commitment window and immediately sit, using their forward or lateral momentum to assist your pull. Attempting to pull while they are actively moving backward or circling away results in failed connection and wasted energy.",
         "answer_line": "Pull when they step in to grip",
         "distractors": {
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "If your initial guard pull is blocked and you land with no guard established, what is the chain attack sequence?",
+        "question": "Your guard pull is blocked and you land with no guard. What is the chain sequence?",
         "answer": "If you land without established guard, your immediate priority is to prevent the pass rather than chase your original guard. First, get feet on hips to create distance and establish a temporary frame. From this open guard recovery, you have several options: shoot for a single leg if they stand tall over you, invert to establish De La Riva or reverse De La Riva hooks, or scoot your hips back and sit up to re-engage from seated guard. The worst option is lying flat and trying to re-close guard against a standing opponent. Accept the failed pull and transition to your strongest open guard system rather than fighting to recover closed guard from a compromised position.",
         "answer_line": "Feet on hips, recover open guard",
         "distractors": {
@@ -647,7 +647,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting to pull guard from a ground position?",
+        "question": "Earliest cue that your opponent is pulling guard from a seated or ground position?",
         "answer": "The earliest cue is the establishment of a deep collar grip with visible tension loading through their arm toward your neck or upper back. This grip precedes all other guard pull mechanics and signals intent to pull. Secondary early cues include their hips shifting forward with knees opening wider than normal seated posture, and their free hand reaching for your sleeve or wrist to establish the secondary connection. Reacting at the collar grip stage gives you maximum time to implement defensive responses before the explosive pull phase begins.",
         "answer_line": "Deep collar grip loading tension",
         "distractors": {
@@ -661,7 +661,7 @@
         }
       },
       {
-        "question": "Your opponent has established strong collar grip and is loading their hips for the pull - what is the highest-priority defensive action?",
+        "question": "They have a strong collar grip and are loading their hips to pull. Top defensive priority?",
         "answer": "The highest priority is simultaneously breaking the collar grip and sprawling your hips back in one coordinated motion. Use a two-on-one grip break where both hands strip their collar grip while your hips drive backward to create distance. If you cannot break the grip immediately, the sprawl alone buys time by moving your hips beyond their leg wrapping range. Do not attempt to pass or advance while they have loaded pulling tension, as forward movement will accelerate the guard pull rather than counter it.",
         "answer_line": "Strip grip and sprawl hips back",
         "distractors": {
@@ -675,7 +675,7 @@
         }
       },
       {
-        "question": "What base adjustment prevents being pulled into closed guard when opponent initiates from seated position?",
+        "question": "Which base adjustment keeps you from being pulled into closed guard by a seated opponent?",
         "answer": "Lower your center of gravity by bending your knees deeper and widening your stance beyond shoulder width. Shift your weight distribution toward your heels rather than your toes, which counters forward pulling force. Keep your hips back with a slight posterior tilt that makes it structurally difficult to be pulled forward. Position your feet in a staggered stance with one foot slightly behind to provide braking force against the pull. This athletic base allows you to absorb pulling pressure through your legs and core rather than being pulled off-balance.",
         "answer_line": "Lower base, weight toward heels",
         "distractors": {
@@ -689,7 +689,7 @@
         }
       },
       {
-        "question": "Your opponent successfully gets their legs around your waist but has not locked ankles yet - what is the optimal defensive window?",
+        "question": "Their legs are around your waist but ankles aren't locked. What is your defensive window?",
         "answer": "This is your critical two-to-three second window before guard consolidation. Immediately drive both hands to their hips and push your body upright while arching your back to create maximum distance between your torso and theirs. Simultaneously work one hand under their top leg and push the knee toward the mat to prevent ankle lock. If you can posture up and push one leg down before they cross ankles, you convert a potential closed guard into an open guard where you have passing options. Speed is essential as this window closes once ankles lock.",
         "answer_line": "Push hips, arch up before lock",
         "distractors": {
@@ -703,7 +703,7 @@
         }
       },
       {
-        "question": "How does your hand positioning change when you recognize a ground guard pull versus a standard standing guard pull?",
+        "question": "How should your hand placement differ against a ground guard pull versus a standing one?",
         "answer": "Against a ground guard pull, your hands should prioritize hip-level frames rather than the chest-level posture control used against standing pulls. Place both hands on opponent's hips or inner thighs to create a structural barrier at the exact level where their legs will attempt to wrap. This frame placement intercepts the leg wrap at its origin point rather than fighting it after legs are already around your body. Against standing pulls, hands typically control posture at collar and elbow level since the threat comes from being pulled downward. The different threat vectors require different frame heights and angles.",
         "answer_line": "Frame the hips, not the collar",
         "distractors": {
@@ -731,7 +731,7 @@
         }
       },
       {
-        "question": "Your opponent secures collar and sleeve grips and begins sitting — how do you decide between disengaging versus driving forward?",
+        "question": "They get collar and sleeve and start sitting: disengage or drive forward, and how do you decide?",
         "answer": "The decision depends on grip depth and your distance. If their grips are shallow and you can strip them with a quick two-on-one break, disengage immediately by stepping back and breaking grips to reset standing. If their grips are deep and locked — particularly a deep collar grip pulling your posture — disengaging becomes dangerous because they will pull you off balance as you retreat. In this case, commit forward by driving your chest into them while keeping your hips low, using their pulling force to accelerate your passing entry. The wrong choice is hesitating between the two options, which gives them time to establish guard while you are neither passing nor disengaging.",
         "answer_line": "Strip shallow grips; drive deep ones",
         "distractors": {
@@ -759,7 +759,7 @@
         }
       },
       {
-        "question": "Your opponent pulls guard and you drive forward, but they manage to close their guard around your waist — what went wrong and what do you do now?",
+        "question": "They pulled guard and closed it as you drove forward. What went wrong and what now?",
         "answer": "The likely error was driving forward without controlling their legs first, or arriving too late after their guard had already organized. Once closed guard is established, you must shift to a systematic guard opening approach: establish upright posture by driving your hips forward and chest up, place both hands on their hips or biceps to create distance, and begin working a standing or kneeling guard break. Do not try to force a pass with ankles still locked. The key lesson is that the forward drive must include immediate leg control — gripping pants at the knees or cupping behind the knees — to prevent the ankles from locking during your approach.",
         "answer_line": "Control legs first, then guard-break",
         "distractors": {

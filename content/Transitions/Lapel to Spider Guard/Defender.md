@@ -64,7 +64,7 @@ description: "How to defend against Lapel to Spider Transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their lapel grip and you feel them tighten their sleeve grips on your cuffs—what should your immediate response be?",
+      "name": "They drop the lapel and tighten both sleeve grips on your cuffs: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip at least one sleeve grip immediately using a two-on-one break while simultaneously driving forward pressure with your hips. The sleeve grip tightening is the setup for spider guard, so disrupting it before their feet relocate to your biceps prevents the transition. If you cannot strip the grip, keep your elbows tight and crowd their hips to deny extension space."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel to Spider Transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "You failed to prevent spider guard establishment—the opponent has both feet on your biceps with sleeve grips. What is your adjusted defensive strategy?",
+      "name": "They set spider guard with both feet on your biceps and sleeve grips: what is your strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the hooks with arm strength. Step backward to reduce the effectiveness of their foot pressure, then systematically strip one sleeve grip using proper two-on-one or thumb-strip mechanics. Once one grip breaks, immediately control their pants at the knee on the freed side and initiate a passing sequence before they can re-establish the grip. The key is posture and patience rather than muscular effort."

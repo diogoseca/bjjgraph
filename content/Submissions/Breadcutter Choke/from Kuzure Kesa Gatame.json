@@ -274,7 +274,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Breadcutter Choke primarily attack and how does the forearm position target them?",
+        "question": "What does the breadcutter choke compress, and how does forearm position target it?",
         "answer": "The Breadcutter Choke primarily attacks both carotid arteries by positioning the blade (radius bone edge) of the forearm diagonally across the lateral neck. The collar material behind the neck acts as a fulcrum while the forearm drives into the carotid arteries from the front. This bilateral compression restricts blood flow to the brain, producing unconsciousness within seconds when properly applied.",
         "safety_critical": false,
         "answer_line": "Forearm blade on both carotids",
@@ -394,7 +394,7 @@
         }
       },
       {
-        "question": "How does the Breadcutter Choke integrate with americana and kimura threats from Kuzure Kesa Gatame to create a submission chain?",
+        "question": "From kuzure kesa gatame, how do americana and kimura threats chain into the breadcutter?",
         "answer": "The arm isolation in Kuzure Kesa Gatame creates a natural dilemma: the opponent must use their free hand to either defend their trapped arm from americana and kimura attacks or protect their collar from the breadcutter. Threatening the americana first forces the free hand to defend the arm, clearing a path to the collar. If they leave the arm to protect the collar, finish the americana. This creates a lose-lose scenario where defending one attack opens the other.",
         "safety_critical": false,
         "answer_line": "Threaten arm lock, free the collar",
@@ -590,7 +590,7 @@
         }
       },
       {
-        "question": "Why is turning toward the attacker sometimes more effective than turning away when defending this choke?",
+        "question": "Defending the breadcutter from kesa gatame, why can turning toward the attacker beat turning away?",
         "answer": "Turning toward the attacker changes the angle at which the forearm contacts your neck, potentially shifting it from the carotid arteries to a less effective position across the jaw or chin. It also closes the distance between your bodies, reducing the sprawling range the attacker needs to generate finishing pressure. Additionally, turning in creates the opportunity to thread your knee across and recover guard, addressing both the choke and the positional disadvantage simultaneously.",
         "safety_critical": false,
         "answer_line": "Shifts angle off the carotid",

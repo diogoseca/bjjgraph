@@ -96,7 +96,7 @@ description: "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent rotates their knee inward to hide the heel from Inside Ashi - how does this signal transition timing?",
+      "name": "In inside ashi, they rotate the knee inward to hide the heel. What does this mean for Cross Ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent rotates their knee inward, they're defending Inside Ashi heel exposure but simultaneously creating vulnerability from a perpendicular angle. Their rotation positions their heel to be better accessed from Cross Ashi configuration. This defensive movement is actually a trigger indicating optimal timing for the transition rather than a reason to abandon the attack."
@@ -112,7 +112,7 @@ description: "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins retracting their leg as you initiate the transition - what is your immediate response?",
+      "name": "They retract the leg as you start the switch to Cross Ashi. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase heel grip tension while returning to stable Inside Ashi configuration. Do not continue the transition with compromised control. Once stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset position fully before reattempting with better timing or choosing alternative attack."

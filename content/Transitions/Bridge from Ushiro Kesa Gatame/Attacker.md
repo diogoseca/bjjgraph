@@ -106,7 +106,7 @@ description: "Learn to execute the bridge escape from Ushiro Kesa Gatame. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your bridge partially succeeds but the opponent maintains chest contact—what is your immediate follow-up?",
+      "name": "Your bridge from ushiro kesa gatame bottom only partly works and they keep chest contact: what next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A partial bridge that does not fully displace the opponent still creates valuable space. Immediately convert to a hip escape on the same side you were bridging toward, using the space created to begin extracting your trapped shoulder. The partial bridge has disrupted their weight distribution even if it did not fully succeed, making the follow-up hip escape significantly more effective than it would be without the preceding bridge attempt."

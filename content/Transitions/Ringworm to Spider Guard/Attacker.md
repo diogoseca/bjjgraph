@@ -114,7 +114,7 @@ description: "Execute the Ringworm to Spider Guard transition. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "The opponent drives forward with pressure just as you release the lapel - what is your immediate response?",
+      "name": "They drive forward just as you release the lapel for Spider Guard: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your already-established spider hook on one side to push them back while framing with your free hand against their shoulder or chest. If the forward pressure is too strong, convert it into a sweep opportunity by extending under them or use a butterfly hook with your free leg to redirect their momentum overhead. The key is using their forward energy against them rather than trying to stop it directly."

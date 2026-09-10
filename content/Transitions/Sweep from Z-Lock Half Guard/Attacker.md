@@ -104,7 +104,7 @@ description: "Complete guide to executing the Sweep from Z-Lock Half Guard. Step
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether this sweep generates sufficient force?",
+      "name": "What mechanical detail most determines whether the Z-lock half guard sweep generates force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip angle is the most critical mechanical factor. The sweeper must maintain their hips turned to the side rather than flat on the mat. This angled position loads both the butterfly hook and lockdown leg with mechanical advantage, creating leverage that multiplies the force output. A flat-back position reduces both legs to pushing from a structurally weak angle where they cannot generate the rotational torque needed to overcome the opponent's base resistance."

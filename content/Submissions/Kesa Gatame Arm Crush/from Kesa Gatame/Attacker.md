@@ -76,7 +76,7 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the Kesa Gatame Arm Crush primarily attack, and what creates the hyperextension force?",
+      "name": "What does the Kesa Gatame Arm Crush attack, and what creates the hyperextension force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm crush primarily attacks the elbow joint, specifically hyperextending it against its natural range of motion. The force is created by using the attacker's hip bone as a rigid fulcrum point placed behind the elbow while pulling the wrist toward the chest and driving the hips forward. This creates opposing forces on either side of the elbow joint, generating compression and hyperextension that stresses the ligaments, joint capsule, and surrounding soft tissue."
@@ -84,7 +84,7 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the opponent's elbow is properly positioned against your hip for maximum crushing pressure?",
+      "name": "How do you know your opponent's elbow is correctly placed on your hip for the arm crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should feel bone-on-bone contact between the back of the opponent's elbow (the olecranon process) and your hip bone (iliac crest). The arm should be completely straight with zero bend remaining, and the wrist should be pulled tight against your chest with no slack in the arm. When you begin driving your hips forward, you should feel immediate resistance from the elbow joint rather than the arm sliding or bending. If the arm compresses into soft tissue, the fulcrum is misplaced and needs adjustment."
@@ -108,7 +108,7 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their wrist to slip the elbow off your hip during the crush - what grip adjustment prevents this escape?",
+      "name": "They rotate the wrist to slip the elbow off your hip — what grip adjustment stops this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pronate their hand so the palm faces the ceiling by rotating your grip on their wrist, which locks the elbow in the most vulnerable hyperextension plane and prevents them from turning the joint to relieve pressure. Simultaneously squeeze your elbows tighter together to clamp the arm against your torso, eliminating the rotational freedom they need. If they continue fighting the grip, add a figure-four control around their forearm for maximum wrist immobilization before reapplying the hip drive."
@@ -116,7 +116,7 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that allows opponents to survive the arm crush despite apparently correct positioning?",
+      "name": "What common finishing error lets opponents survive the Kesa Gatame Arm Crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is leaving slack in the arm—a slight bend at the elbow or space between the arm and the attacker's torso absorbs all the crushing pressure without stressing the joint. Practitioners often feel they have the arm positioned correctly but fail to eliminate the final few degrees of bend before applying hip drive. The fix is to pull the wrist firmly into the chest while pressing the shoulder away with armpit pressure until the arm is completely rigid against your body, then confirm bone-on-bone contact at the elbow before driving the hips."

@@ -84,7 +84,7 @@ description: "How to execute Inside Ashi Entry in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent begins to counter-entangle your free leg during your inside ashi entry?",
+      "name": "They start counter-entangling your free leg during your inside ashi entry: your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must immediately prioritize clearing your trapped leg and establishing defensive frames, even if it means temporarily releasing your attack. Never ignore counter leg attacks in favor of your own offensive attempts. Pull your free leg back, use your outside leg to block their advancement, and if necessary, accept a neutral 50-50 position rather than allowing them to secure a dominant entanglement on your leg."
@@ -108,7 +108,7 @@ description: "How to execute Inside Ashi Entry in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Why is inside ashi considered one of the safer leg entanglements to enter compared to positions like saddle or outside ashi?",
+      "name": "Why is inside ashi safer to enter than saddle or outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside ashi maintains better defensive integrity because your free leg remains relatively safe and available for defensive use, your hips are mobile and not committed to a specific lock, and you can quickly transition to defensive positions if needed. Unlike saddle where you're fully committed with legs crossed, or outside ashi where counter-entanglements are easier, inside ashi allows you to maintain offensive pressure while preserving escape routes."

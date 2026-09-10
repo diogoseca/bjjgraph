@@ -74,7 +74,7 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent reaches inside your guard to push on your chest — what is the optimal response to begin the diamond transition?",
+      "name": "They reach inside your closed guard to push your chest — how do you start the diamond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the ideal entry window. Immediately swim your same-side arm over their reaching arm in a circular motion, wrapping over the bicep and pulling your elbow tight to your ribs to establish the overhook. Their forward reach brings their arm deep into your guard, making the overhook naturally deeper than if you had to hunt for a retracted arm. Increase heel pressure simultaneously to prevent them from pulling back before you secure the grip."
@@ -90,7 +90,7 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
     },
     {
       "@type": "Question",
-      "name": "You have established the overhook but your opponent is actively fighting your head control attempt by keeping their head high — how do you complete the diamond?",
+      "name": "You have the overhook but they keep their head high — how do you complete the diamond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase your heel pressure into their lower back to drive their hips forward while simultaneously pulling the overhook tighter to drag their shoulder down. This combined lower and upper body pressure forces their head down without needing to reach further. Alternatively, use a cross-collar grip on the far lapel instead of behind-the-neck head control, as the collar grip provides a mechanical advantage for pulling the head down without requiring your hand to reach behind their neck. The collar grip is harder for them to defend while you already control their arm."
@@ -98,7 +98,7 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
     },
     {
       "@type": "Question",
-      "name": "Where exactly should your overhook arm be positioned relative to your opponent's arm for maximum control?",
+      "name": "Where should your overhook arm sit on their arm for maximum diamond guard control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your overhook should wrap over the opponent's arm with your elbow past their tricep, pulled tight against your own ribs. The depth indicator is whether your forearm has cleared their tricep entirely — if your elbow is still above their bicep, the overhook is too shallow and will be stripped. Pull their trapped arm across your centerline toward your opposite hip to eliminate slack. The tighter the overhook sits against your ribs, the more it relies on skeletal structure rather than grip strength to maintain."
@@ -106,7 +106,7 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins standing up as you initiate the overhook — what adjustment prevents losing the position?",
+      "name": "They start standing as you begin the overhook — what adjustment saves the diamond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you already have the overhook secured, maintain it and immediately increase your leg squeeze while pulling your heels sharply into their lower back to prevent them from standing fully. Use the overhook to rotate their shoulder downward, making their standing attempt structurally compromised on one side. If they manage to stand despite this, transition to a lasso guard or collar-sleeve configuration that preserves the overhook arm trap. If the overhook is not yet secured, abandon the attempt, re-close your guard tightly, and break their posture back down before reattempting."

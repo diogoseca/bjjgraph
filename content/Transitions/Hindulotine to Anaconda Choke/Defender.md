@@ -56,7 +56,7 @@ description: "How to defend against Hindulotine to Anaconda Choke in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from Hindulotine to Anaconda?",
+      "name": "What is the earliest cue that they are switching from Hindulotine to anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker's forearm begin sliding deeper under your armpit rather than maintaining the standard guillotine squeeze across your throat. This subtle directional change in arm pressure indicates they are threading for the anaconda configuration. You may also feel a brief loosening of the guillotine grip as they reposition their hand for the figure-four lock."
@@ -72,7 +72,7 @@ description: "How to defend against Hindulotine to Anaconda Choke in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the anaconda figure-four but has not yet started the hip walk - what is your best defensive action?",
+      "name": "They lock the anaconda figure-four but have not hip walked yet — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to attack the figure-four grip at the point where the attacker's hand grabs their bicep. Pull on their choking wrist to create space between your neck and their forearm. Simultaneously move your hips away from them to reduce compression and prevent the hip walk from tightening the strangle. Keep your chin tucked to your free-side shoulder to protect the carotid arteries while you fight the grip."
@@ -88,7 +88,7 @@ description: "How to defend against Hindulotine to Anaconda Choke in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How should you modify your defensive frames against the Hindulotine to avoid giving the anaconda entry?",
+      "name": "How do you frame against the Hindulotine without giving up the anaconda entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Instead of posting your hand or elbow away from your body to create space against the guillotine, keep your defensive frames tight with elbows pinched to your ribs. Use your forearms and wrists to create smaller frames that relieve guillotine pressure without opening the space under your armpit needed for the anaconda. Alternatively, frame on the attacker's hip rather than against their chest, as this creates distance without exposing the armpit path."

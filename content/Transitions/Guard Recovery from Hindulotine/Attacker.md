@@ -74,7 +74,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes guard recovery from Hindulotine more complex than recovery from a standard guillotine control position?",
+      "name": "Why is guard recovery from Hindulotine harder than from standard guillotine control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Hindulotine's rotational choking mechanics leave your hips angled with your body partially turned away from the opponent, creating an exposed back side that does not exist in standard guillotine control. This angular displacement requires an additional hip realignment step before guard recomposition can begin, and the exposed side must be protected with a knee shield immediately upon grip release to prevent back takes or side control advancement."
@@ -82,7 +82,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "Why should you convert the Hindulotine grip to an overhook rather than fully releasing during guard recovery?",
+      "name": "Why convert the Hindulotine grip to an overhook instead of releasing it during recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Converting to an overhook maintains upper body connection and prevents the opponent from freely posturing or disengaging during the critical hip realignment phase. The overhook controls the opponent's near arm, preventing them from posting on that side to circle to your exposed back, while giving you a control handle to manage distance during the transition. Full release gives the opponent complete freedom to choose their response timing and angle."
@@ -98,7 +98,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins circling to your back side as you release the Hindulotine - what is your emergency response?",
+      "name": "They circle toward your exposed back as you release the Hindulotine—what's your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a knee shield on the exposed side while maintaining your overhook grip to prevent them from completing the circle past your shoulder line. If they have already begun passing, turtle defensively and work to recover guard from turtle rather than attempting to square up while they are behind your hip line. The overhook becomes critical here as it anchors their upper body to yours, preventing full separation and back take completion."
@@ -106,7 +106,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "When should you abandon Hindulotine guard recovery and instead transition to an offensive choke chain like Darce or Anaconda?",
+      "name": "When should you abandon Hindulotine guard recovery for a Darce or Anaconda instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to Darce or Anaconda when the opponent's head and arm positioning during their extraction creates the necessary grip pathway, and your arms still have sufficient grip strength for an offensive submission. Specifically, if the opponent drives their head past your centerline during extraction and their near arm is trapped below your chest line, the Darce or Anaconda grip may be available. If your forearms are exhausted from the Hindulotine attempt, commit to guard recovery instead."
@@ -114,7 +114,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "What direction should your hip rotation move during the realignment phase, and what happens if you rotate the wrong way?",
+      "name": "Which way should your hips rotate during Hindulotine realignment, and what if you rotate wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should rotate toward the opponent to square up and face them directly, using the far foot to drive the hip escape motion. If you rotate the wrong way - away from the opponent - you expose your back further and create an even larger angular gap for them to circle through. The rotation must bring your belly button to face the opponent, which closes the exposed side and creates a symmetrical guard structure. The near-side knee shield acts as a pivot point for this rotation."

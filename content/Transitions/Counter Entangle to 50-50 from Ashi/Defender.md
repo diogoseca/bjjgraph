@@ -72,7 +72,7 @@ description: "Learn to defend and prevent the counter entangle to 50-50 from ash
     },
     {
       "@type": "Question",
-      "name": "If the counter entangle succeeds and 50-50 is established, what is your immediate defensive priority?",
+      "name": "They complete the counter entangle to 50-50 — what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight for inside position with your near leg before the opponent settles their grips. Inside position in 50-50 determines the submission hierarchy—whoever has inside position controls who attacks and who defends. Secondary priority is heel protection through knee rotation inward. Do not attempt to immediately escape 50-50 before establishing defensive positioning, as panicked extraction attempts often expose your heel to immediate attack."

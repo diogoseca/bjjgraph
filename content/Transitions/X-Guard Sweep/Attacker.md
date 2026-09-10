@@ -92,7 +92,7 @@ description: "How to execute X-Guard Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What body angle relative to your opponent creates optimal mechanical advantage for the X-Guard Sweep?",
+      "name": "Which body angle to your opponent gives the best leverage for the X-Guard Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Approximately 45 degrees from the opponent's centerline. This angle maximizes leverage by creating the longest possible lever arm between your hips (fulcrum point) and the opponent's center of gravity. Being directly underneath reduces your mechanical advantage and makes the sweep require more strength. The angled position also makes it easier to generate rotational force in addition to upward elevation."

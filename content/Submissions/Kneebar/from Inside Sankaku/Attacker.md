@@ -70,7 +70,7 @@ description: "Learn to attack the kneebar from Inside Sankaku. Step-by-step exec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel against their hip while you hold Inside Sankaku - what is your next attacking option?",
+      "name": "Your opponent hides their heel in Inside Sankaku: what is your next attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to the kneebar by releasing heel hook grips and securing their ankle under your armpit. Shift your hips to align behind their knee joint, squeeze your knees around their thigh, and apply progressive hip extension. The kneebar becomes available precisely because their heel-hiding defense commits their leg to a position that exposes the knee to hyperextension from a different attack angle."
@@ -86,7 +86,7 @@ description: "Learn to attack the kneebar from Inside Sankaku. Step-by-step exec
     },
     {
       "@type": "Question",
-      "name": "You have the ankle trapped but your opponent begins straightening their leg to escape - what adjustment prevents extraction?",
+      "name": "You have the ankle trapped from Inside Sankaku and they straighten the leg: what stops extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase knee squeeze pressure around the thigh above the knee joint to create a tighter upper anchor. Simultaneously drive your hips forward to follow the leg extension, maintaining hip-to-knee contact. Clamp your armpit tighter against the ankle and pull the foot toward your chest. The combination of increased thigh pressure and forward hip drive counters the straightening escape by maintaining the hyperextension angle despite their extension effort."
@@ -102,7 +102,7 @@ description: "Learn to attack the kneebar from Inside Sankaku. Step-by-step exec
     },
     {
       "@type": "Question",
-      "name": "Your opponent rotates to go belly-down during your kneebar attempt - how do you adjust to maintain the finish?",
+      "name": "Your opponent turns belly-down during your kneebar from Inside Sankaku: how do you keep the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation by adjusting your hip angle to stay positioned behind the knee joint. As they turn, the knee orientation changes but the hyperextension principle remains identical. A full belly-down commitment often strengthens your kneebar because their body weight now works against their own knee joint. Maintain ankle control throughout and continue the extension with hips adjusted to match the new angle created by their rotation."

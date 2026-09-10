@@ -74,7 +74,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why should you release the lapel grip completely rather than maintaining a partial thread during Squid Guard recovery?",
+      "name": "Why fully release the lapel grip instead of keeping a partial thread when recovering?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A partial lapel thread restricts the threading leg's mobility during the critical withdrawal and repositioning phase. The half-threaded lapel creates friction and resistance as the leg tries to clear the opponent's body, slowing the recovery movement. Additionally, the partial grip gives the passer a handle—they can grab the threaded lapel section and use it to redirect your leg into a passing sequence like a leg drag. Clean release ensures maximum leg mobility and removes any handles the passer could exploit."
@@ -82,7 +82,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "What makes Squid Guard recovery to closed guard more challenging than recovery from other open guard positions?",
+      "name": "Why is Squid Guard to closed guard harder than recovery from other open guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Squid Guard positions the legs asymmetrically—one threading through or around the opponent's posture and one framing on their hip or bicep. Both legs must be withdrawn from their specialized positions and repositioned symmetrically for closed guard closure. This double repositioning takes more time and coordination than recovering from symmetric guards like double sleeve or spider guard, where both legs are in similar positions and can retract together. The additional time creates a wider vulnerability window during the transition."
@@ -90,7 +90,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "How does the opponent's lapel grip strip affect the timing and urgency of guard recovery from Squid Guard?",
+      "name": "How does their lapel grip strip affect the timing and urgency of your guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lapel grip strip is the primary failure trigger for Squid Guard because the lapel thread is the foundation of the entire guard configuration. Once the lapel is stripped, the threading leg loses its primary purpose and the guard's asymmetric control structure collapses. Recovery must begin immediately at the moment of the strip—within two to three seconds—because the threading leg becomes a liability rather than an asset when it has no lapel connection. The strip creates both the necessity and the urgency for immediate guard transition."
@@ -98,7 +98,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "When should you abandon closed guard recovery from Squid Guard and accept an alternative guard position instead?",
+      "name": "When should you abandon closed guard recovery from Squid Guard for another guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon closed guard recovery when the opponent has already advanced significantly—either standing up completely or driving past one of your legs into a half-passing position. If the opponent stands, transition to feet-on-hips open guard with grips rather than attempting closed guard from the ground. If they advance past one leg, accept half guard by trapping their near leg and establish knee shield defense. Forcing closed guard when the positioning does not support it wastes time and creates worse openings than accepting an alternative guard."
@@ -106,7 +106,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "What role does upper body grip retention play during the transition from Squid Guard to closed guard?",
+      "name": "What role do upper body grips play in the transition from Squid Guard to closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upper body grips—collar and sleeve control—serve as the bridge that maintains continuous opponent connection during the leg repositioning phase. When the lapel is released and the legs are withdrawing from their Squid Guard positions, the upper body grips are the only remaining connection preventing the opponent from freely disengaging or advancing. Without these grips, the opponent can posture up, stand, or drive forward during the moment when no leg controls distance. The grips also provide the pulling force needed to keep the opponent within guard closure range during the transition."

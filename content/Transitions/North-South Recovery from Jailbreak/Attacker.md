@@ -82,7 +82,7 @@ description: "Execute the North-South Recovery from Jailbreak in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical requirement during the circular walk from Jailbreak to North-South?",
+      "name": "Walking from Jailbreak to north-south, what is the key mechanical requirement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical requirement is maintaining continuous chest-to-chest pressure throughout the entire transition arc. Any gap in pressure creates an opportunity for the bottom player to retract their legs, create frames, or hip escape to recover guard. Your chest must remain heavy on their upper body as your feet walk around. Think of your chest as a fixed pivot point that stays pinned to their torso while your lower body rotates around it in small controlled increments."
@@ -114,7 +114,7 @@ description: "Execute the North-South Recovery from Jailbreak in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "How does the direction of force application change during this transition compared to standard pressure passing?",
+      "name": "In North-South Recovery from Jailbreak, how does force direction differ from pressure passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During standard pressure passing from Jailbreak, force is applied forward through the bottom player's center line to drive past leg barriers. During the North-South Recovery, the force vector rotates from forward to downward as you transition from parallel to perpendicular alignment. The chest pressure shifts from driving into their chest horizontally to compressing their rib cage vertically. The bottom player's leg frames were configured to resist forward pressure and become irrelevant against the perpendicular downward force."

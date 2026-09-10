@@ -887,7 +887,7 @@
   },
   "flashcards_family": [
     {
-      "question": "Why does the closed guard invert the usual on-top/underneath advantage, giving the bottom player the offensive initiative?",
+      "question": "Why does closed guard hand the offensive initiative to the bottom player in every variant?",
       "answer": "The crossed ankles tether the opponent's hips, forcing them to solve a defensive opening problem before any offense is possible. The closed kinetic chain denies the top player the ability to disengage, stand freely, or generate the distance required to pass. Meanwhile the bottom player retains free use of both arms and full hip mobility to break posture, create angles, and threaten sweeps and submissions. This structural trap is what makes the position offensive from underneath across every variant, whether standard, high guard, or rubber guard.",
       "distractors": {
         "plausible": [
@@ -901,7 +901,7 @@
       "answer_line": "Ankles lock hips, bottom stays free"
     },
     {
-      "question": "What single top-player attribute most determines whether the bottom player's attacks succeed in any closed guard variant?",
+      "question": "Which single top-player attribute most determines whether closed guard attacks succeed?",
       "answer": "Posture is the master variable: whether the top player keeps their spine stacked with head over hips and chest elevated, or gets pulled forward and folded down. Broken posture is the prerequisite for nearly every high-percentage attack, since triangles, armbars, collar chokes, and guillotines all require the opponent's head and shoulders dragged toward the mat. When posture is intact, the bottom player can only threaten low-percentage or off-balancing options, and the top player can begin systematic opening. This is why every closed guard variant is fundamentally a fight over the opponent's posture before it is a fight over grips or legs.",
       "answer_line": "Broken posture opens submissions",
       "distractors": {
@@ -915,7 +915,7 @@
       }
     },
     {
-      "question": "How does the bottom player use the interplay of angle and leg pressure to generate offense rather than lying flat and square?",
+      "question": "How do angle and leg pressure combine to create closed guard offense instead of lying flat?",
       "answer": "The bottom player shifts their hips off the centerline to a 30-to-45-degree angle while the crossed legs actively pull and pinch. Staying flat and square lets the opponent settle heavy, centered weight and defend from a stable base, whereas the angle exposes the opponent's compromised side, misaligns their base for sweeps, and opens submission entries that a square position hides. The crossed legs simultaneously act as an active tool, pulling the opponent forward with the heels while the knees pinch to restrict their hips and breathing. Combining angular hip movement with dynamic leg pressure is the universal engine of closed guard offense, not the static lock itself.",
       "distractors": {
         "plausible": [
@@ -929,7 +929,7 @@
       "answer_line": "Angle hips, pull-pinch with legs"
     },
     {
-      "question": "What is the systematic progression a top player must follow to escape and pass any closed guard, and why can steps not be skipped?",
+      "question": "What order must the top player follow to pass closed guard, and why can no step be skipped?",
       "answer": "The sequence is posture first, then grip control, then opening the ankles, and only then passing. Each stage is a prerequisite for the next: without posture the opponent breaks you down before you can fight grips, and without controlled grips and space you cannot safely unlock the legs. Attempting to pass while the ankles are still crossed simply feeds an arm or lets the guard re-close, exposing you to counters for no positional gain. Rushing collapses the whole progression, which is why patient, ordered escape beats athletic force in every variant.",
       "answer_line": "Posture, grips, open ankles, pass",
       "distractors": {
@@ -943,7 +943,7 @@
       }
     },
     {
-      "question": "Why is threatening multiple attacks simultaneously more effective from closed guard than committing hard to a single technique?",
+      "question": "Why threaten several closed guard attacks at once instead of committing hard to one technique?",
       "answer": "The closed guard's control lets the bottom player hold several threats live at once, so the goal is to create dilemmas where defending one attack necessarily opens another. A defensive reaction to a sweep exposes a submission, and posturing away from a choke feeds a sweep, forcing the opponent to constantly choose which threat to concede. A single committed attack, by contrast, is predictable and lets an experienced opponent load their defense and counter. Chaining reactions rather than forcing one finish is the shared offensive logic across standard, overhook, and rubber guard variants.",
       "answer_line": "Chain threats, create dilemmas",
       "distractors": {
@@ -957,7 +957,7 @@
       }
     },
     {
-      "question": "How does maintaining hip connection function as a defensive barrier for the bottom player independent of any attacking goal?",
+      "question": "How does hip connection defend the bottom player's closed guard apart from any attacking goal?",
       "answer": "Keeping the hips glued to the opponent's hips eliminates the very space the passer needs to establish posture, isolate a leg, or angle off to the side. As long as that connection holds, the opponent's passing sequences cannot begin, so guard retention and offense share the same mechanical foundation. If the bottom player lets space open, the opponent can flatten them, stack, or start working the legs apart even before the guard is opened. This is why active hip connection, rather than merely crossing the ankles, is the universal retention principle underlying every closed guard variant.",
       "answer_line": "Keep hips glued, deny pass space",
       "distractors": {
@@ -971,7 +971,7 @@
       }
     },
     {
-      "question": "Why does passivity favor the bottom player, making constant activity essential for the top player in closed guard?",
+      "question": "Why does a stalled closed guard favor the bottom player, forcing the top player to stay active?",
       "answer": "When the position stalls, the bottom player retains all their offensive tools while the top player only expends energy defending, so time itself works against the passer. A static top player gives the bottom player uninterrupted opportunity to build grips, shift to angles, and load attacks with no reactions to exploit. Continuous movement toward opening, even slow progress, denies that setup time and forces reactions that create passing opportunities. This asymmetry, that doing nothing helps the guard player, holds across all variants and is why the top player must stay active rather than wait.",
       "answer_line": "Stay active, time favors bottom",
       "distractors": {
@@ -1001,7 +1001,7 @@
       "answer_line": "Ankles crossed, locked behind back"
     },
     {
-      "question": "Why does the closed guard invert the usual relationship between being on top and holding positional advantage?",
+      "question": "Why does being on top in closed guard not carry the usual positional advantage?",
       "answer": "The locked legs trap the top player inside a control loop, neutralizing the gravity and pressure that normally favor being on top. The bottom player uses the leg lock to break posture and threaten sweeps and submissions, while the top player is confined to defending and working toward opening the legs before any offense is possible. This makes the bottom role offensive and the top role defensive despite the vertical relationship. The dynamic reflects BJJ's core principle that leverage and control points, not position alone, determine advantage.",
       "distractors": {
         "plausible": [
@@ -1071,7 +1071,7 @@
       }
     },
     {
-      "question": "What is the strategic significance of opening the closed guard, and why does it change the position's character?",
+      "question": "What does opening the closed guard change about the position for each player?",
       "answer": "Opening the guard means unlocking the crossed ankles, which converts the position from a fixed closed circuit into the mobile, unhooked dynamics of open guard. For the top player this is the mandatory first step toward passing, since no legitimate pass exists while the legs remain locked. For the bottom player it is often a loss of the strongest control loop, though skilled players will transition to open guard variations rather than surrender control entirely. The moment of opening is the pivotal transition where control can swing dramatically toward either player depending on who is prepared for the ensuing scramble.",
       "answer_line": "Opening ankles shifts to open guard",
       "distractors": {

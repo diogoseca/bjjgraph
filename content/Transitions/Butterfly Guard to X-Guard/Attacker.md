@@ -90,7 +90,7 @@ description: "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their right leg forward after your butterfly elevation attempt - describe the exact hip slide direction and body angle you need?",
+      "name": "They post their right leg after your butterfly elevation: what hip slide direction and body angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should slide your hips toward the right side, positioning your body perpendicular to their right leg in a T-shape. Your left shoulder (inside shoulder) should point toward their posted right foot as you slide underneath. This perpendicular angle allows your legs to properly create the X configuration with maximum leverage. Sliding straight backward or at the wrong angle results in hooks that lack the proper leverage to control and sweep effectively."
@@ -106,7 +106,7 @@ description: "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the two opposing forces your legs create once X-Guard is fully established and why do they matter?",
+      "name": "Once X-Guard is set, what two opposing forces do your legs create, and why do they matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside leg across the hip pushes away from you while the inside leg behind the knee pulls toward you. These opposing forces create powerful off-balancing that destabilizes the opponent by splitting their base in two directions simultaneously. The push-pull dynamic is what makes X-Guard such an effective sweeping position because the opponent cannot counter both forces at once. Proper hook placement with active tension in both directions is critical for maintaining this mechanical advantage."
@@ -114,7 +114,7 @@ description: "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping their targeted leg backward mid-transition before your X-Guard hooks are locked - what is your immediate response?",
+      "name": "They step the targeted leg back before your X-Guard hooks lock: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Scoot your hips forward aggressively following their retreating leg while maintaining contact with your remaining butterfly hook and upper body grips. If they fully clear the leg, immediately switch to the opposite leg as your new target since their weight has shifted in that direction. If you cannot capture either leg, recover to seated guard or shin-to-shin position using your grips to prevent them from establishing a passing position. Never stay flat on your back chasing a failed entry."

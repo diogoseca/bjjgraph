@@ -84,7 +84,7 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What physical and tactile cues indicate the Kimura is approaching the breaking point from this position?",
+      "name": "What cues show the Kimura from flattened half guard is nearing the shoulder's limit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You will feel a progressive increase in resistance as the shoulder approaches its end range, followed by a distinct hardening where the rotation meets bony and ligamentous limits. The opponent's body may involuntarily stiffen or arch. Their breathing pattern changes — often becoming rapid or held. You may feel micro-tremors in their arm as the muscles resist the rotation under load. These cues signal you should hold steady pressure and wait for the tap rather than increasing force, as the joint is at its structural limit."
@@ -100,7 +100,7 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "At what point during the Kimura from flattened half guard does the submission become effectively inescapable?",
+      "name": "When does the Kimura from flattened half guard become effectively inescapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The submission reaches the point of no escape once the figure-four grip is fully locked with elbows tight, the captured elbow is pinned to the opponent's ribcage by your chest weight, and the initial rotation has begun painting their hand toward the mat. At this stage, the mechanical advantage of the lever system combined with the restricted mobility of the flattened position means the opponent cannot generate enough force to reverse the rotation or extract their arm. Their only remaining option is to tap before the shoulder reaches its structural limit."
@@ -108,7 +108,7 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps both hands together to defend the Kimura grip — what is the correct sequence to break this defense?",
+      "name": "They clasp both hands to block your Kimura from flattened half guard — how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, maintain your figure-four grip and chest pressure without releasing anything. Drive their clasped hands toward the mat using your hip weight rather than pulling with your arms. If the clasp holds, wedge your knee against the outside of their captured elbow to create a lever that separates their grip. You can also attack the weakest point of their clasp by peeling the bottom hand's fingers while maintaining downward pressure. If the grip remains unbreakable, use the stalling opportunity to advance your passing position past the half guard while they are occupied with hand defense."

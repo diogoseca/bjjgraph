@@ -56,7 +56,7 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is initiating the transition to feet on hips?",
+      "name": "What is the earliest cue the bottom player is going to feet on hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's hip elevation—their lower back arches off the mat and their core engages to lift their hips upward. This hip elevation is the prerequisite mechanical movement that must occur before their feet can reach your hips with structural power. Recognizing this hip elevation gives you a half-second advantage to initiate your defensive response before their feet arrive at your hips, which is sufficient time to grab ankles, drive forward, or change levels."
@@ -72,7 +72,7 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "The bottom player has just placed their feet on your hips but has not yet established any grips—what is the optimal response window?",
+      "name": "Their feet just landed on your hips with no grips yet: how do you use that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This half-second window between foot placement and grip establishment is your best opportunity for an aggressive response. The frames are structurally incomplete because the bottom player cannot coordinate push-pull forces without grips—their feet push but nothing pulls. Drive forward explosively with your weight low and inside their feet to collapse the unsupported frames, or immediately grab both ankles and redirect their legs to one side for a toreando pass. This window closes the moment they secure a sleeve or collar grip, so immediate action is essential."
@@ -80,7 +80,7 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How should you modify your defensive approach when the bottom player has already established one collar grip before initiating the transition?",
+      "name": "How does an existing collar grip change your defense against feet on hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A pre-existing collar grip means the bottom player can immediately coordinate push-pull forces once feet land. Strip the collar grip first before addressing the foot placement—use a two-on-one grip break on their collar hand while stepping back to deny hip access. If the collar grip cannot be broken quickly, accept that aggressive forward pressure is too dangerous (the collar grip enables sweep setups) and instead focus on lateral movement and ankle control to prevent bilateral frame establishment. Address the grip problem before the feet problem because the grip is what makes the feet dangerous."
@@ -88,7 +88,7 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustment prevents the bottom player from tracking your lateral movement with hip walking?",
+      "name": "What stops the bottom player from tracking your lateral movement by hip walking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Move faster than they can hip-walk by taking large lateral steps rather than small shuffles, and change direction unpredictably rather than circling in one direction continuously. Pair your lateral movement with downward pressure on their near-side knee or ankle to pin their hip mobility on one side. If you can control one ankle while circling, they can only track you with one foot, which creates the asymmetric frame you need for a passing angle. The key is combining lateral movement with grip control—movement alone is matched by their hip walking, but movement plus an anchor point on their legs creates genuine angle advantage."

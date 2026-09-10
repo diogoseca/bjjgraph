@@ -74,7 +74,7 @@ description: "How to execute the Kimura Trap to Ushiro Kesa Gatame transition in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific defensive reaction from the opponent signals that the Reverse Scarf Hold transition is the optimal choice from Kimura Trap Top?",
+      "name": "From Kimura Trap top, what defensive reaction signals it is time to go to Ushiro Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent committing to an elbow-tucked defense where they pin their elbow to their ribs and keep their arm tight to their body to prevent the Kimura finish. This defensive posture, while effective against the submission, creates the ideal conditions for the positional transition because the opponent is focused on arm protection rather than frame creation or guard recovery. Testing the Kimura with a brief rotational pull confirms this defensive commitment."
@@ -90,7 +90,7 @@ description: "How to execute the Kimura Trap to Ushiro Kesa Gatame transition in
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far arm as a frame against your neck halfway through the rotation - how do you adjust?",
+      "name": "Rotating to Ushiro Kesa Gatame, they frame their far arm on your neck halfway — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your shoulder into their frame to collapse it while continuing the rotation if possible. If the frame is too strong to collapse, you have two options: abandon the Reverse Scarf Hold and use their framing commitment to advance to mount by stepping over their body, or return to Kimura Trap Top and threaten the submission again to force them to retract the frame. Never stall against a strong frame in the mid-rotation position."

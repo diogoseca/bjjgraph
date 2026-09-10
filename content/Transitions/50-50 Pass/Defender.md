@@ -56,7 +56,7 @@ description: "How to defend against 50-50 Pass in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first recognition cue that your opponent is initiating a 50-50 pass rather than attacking a submission?",
+      "name": "What first tells you they are passing from 50-50 rather than attacking a submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is shoulder pressure driving forward into your chest combined with a crossface. Submission attackers typically sit back or angle their hips for heel exposure, while passers drive their weight forward and up to establish control over your upper body. The crossface specifically indicates passing intent because it prevents you from sitting up, which is unnecessary for leg lock attacks."
@@ -64,7 +64,7 @@ description: "How to defend against 50-50 Pass in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has freed their bottom leg and is about to step over - what is the critical timing window for re-entanglement?",
+      "name": "They freed their bottom leg and are about to step over—when is your re-entanglement window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The window exists between bottom leg extraction and the moment the top leg clears your hip line. This is typically a half-second to one-second gap. Thread your freed leg back between their legs during this window, targeting the space between their thighs. If the top leg has already crossed your hip, the window has closed and you must transition to half guard retention or framing instead."
@@ -88,7 +88,7 @@ description: "How to defend against 50-50 Pass in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent uses a pumping motion to progressively extract their leg - how do you counter this specific passing strategy?",
+      "name": "They pump to progressively extract their leg in the 50-50 pass—how do you counter that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Match their rhythm by following each pump with your own hip scoot toward them, never allowing the gap to widen. Additionally, use their forward pressure phase (when they drive back into you) as your window to secure deeper entanglement and grip their heel. The pumping motion temporarily lightens their hip pressure on the return phase, which is your best moment to sit up and break their upper body control."

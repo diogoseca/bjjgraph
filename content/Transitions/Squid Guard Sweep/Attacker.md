@@ -88,7 +88,7 @@ description: "Execute the Squid Guard Sweep with precision. Step-by-step guide c
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and lowers their hips when they feel your sweep setup — how do you adjust your attack?",
+      "name": "They widen their base and lower their hips against your squid guard sweep—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch your attack target from the sweep to a back take via inversion or berimbolo entry. Their wide base and lowered hips — while effective against the lateral sweep — creates exactly the exposure needed for you to invert underneath them and access their back. The defensive posture that defeats the sweep opens the back take, and the defensive posture that protects the back opens the sweep. This dilemma is the foundation of the Squid Guard system."
@@ -104,7 +104,7 @@ description: "Execute the Squid Guard Sweep with precision. Step-by-step guide c
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your sleeve grip and begins posting their free hand to resist the sweep — what immediate adjustment do you make?",
+      "name": "They strip your sleeve grip and post the free hand against the squid sweep—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Target the posting arm with your now-free hand by controlling the wrist or elbow to remove the post. If you can strip their post even momentarily, the already-loaded sweep completes immediately since their base collapses without the post. If stripping the post fails, redirect your attack to the posting arm itself — the extended arm is vulnerable to armbar, omoplata, or triangle entries that force them to retract it, reopening the sweep opportunity."

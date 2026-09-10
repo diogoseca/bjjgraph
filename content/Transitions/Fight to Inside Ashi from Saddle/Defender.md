@@ -56,7 +56,7 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating a systematic fight to Inside Ashi rather than a random escape attempt?",
+      "name": "What is the earliest cue that they are running a systematic fight to Inside Ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is deliberate, controlled movement rather than panicked struggles. Watch for the opponent rotating their knee inward while simultaneously reaching for their own foot to protect the heel, followed by their free leg posting firmly on your hip with structural intent rather than pushing randomly. These sequential movements indicate a trained escape protocol rather than instinctive resistance, requiring a systematic defensive response."
@@ -64,7 +64,7 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
     },
     {
       "@type": "Question",
-      "name": "When should you abandon Saddle maintenance and commit to finishing the submission during the opponent's escape attempt?",
+      "name": "When should you abandon Saddle maintenance and commit to the finish during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the submission when the opponent's escape movement momentarily exposes their heel, but only if you can maintain your figure-four leg configuration during the attack. If attacking requires loosening your positional control, the risk-reward is poor because a failed submission attempt from a compromised Saddle accelerates their degradation. The ideal moment is when they pummel their knee and briefly straighten their leg, temporarily exposing the heel."
@@ -72,7 +72,7 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent's free leg framing from generating enough force to clear your hip pressure?",
+      "name": "How do you stop their free-leg frame from clearing your hip pressure in Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your top leg or free hand to address their framing leg before it establishes a strong structural post on your hip. Pin their free leg against your body, hook behind their knee with your arm, or use your top leg to cross-control their free leg. If the frame is already established, drive your hips forward into their trapped leg to counteract the pushing force rather than trying to remove the frame directly."
@@ -80,7 +80,7 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially degraded your Saddle and you feel your figure-four loosening - what is your recovery sequence?",
+      "name": "Your Saddle figure-four is loosening as they degrade it — what is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-engage your outside leg hook behind their knee and drive your inside leg deeper across their hip. Increase hip pressure into their trapped leg to re-establish perpendicular alignment. Only after these structural elements are restored should you address grips on their heel or ankle. If the degradation is too advanced and re-entry to Saddle is unlikely, consider transitioning to an immediate submission attempt from the compromised position or strategically disengaging to top position."

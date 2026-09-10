@@ -56,7 +56,7 @@ description: "Counter the leg weave escape from top position. Maintain passing p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the bottom player is about to attempt the escape?",
+      "name": "Holding the leg weave, what is the earliest cue that bottom is starting their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point."
@@ -64,7 +64,7 @@ description: "Counter the leg weave escape from top position. Maintain passing p
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the bottom player bridging underneath you?",
+      "name": "Holding the leg weave, how do you adjust your weight when they bridge underneath you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge."
@@ -80,7 +80,7 @@ description: "Counter the leg weave escape from top position. Maintain passing p
     },
     {
       "@type": "Question",
-      "name": "When is it better to abandon the leg weave and transition to a different pass rather than fighting to maintain position?",
+      "name": "When should you abandon the leg weave and switch to another pass instead of holding it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative."

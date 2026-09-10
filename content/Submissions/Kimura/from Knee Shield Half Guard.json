@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat while you have knee shield established—what is your immediate sequence?",
+        "question": "They post a hand while you hold knee shield half guard: what is your Kimura sequence?",
         "answer": "Immediately capture the posting wrist with your near hand using a C-grip, pulling it toward your hip to break their base. Thread your far arm under their tricep and establish the figure-four grip while maintaining your knee shield throughout. Only begin creating the finishing angle with hip escapes after the figure-four is fully locked and your elbows are tight to your body.",
         "safety_critical": false,
         "answer_line": "Trap wrist, figure-four, then angle",
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "What indicates you have reached the point where you should stop applying rotational pressure in training?",
+        "question": "When should you stop applying Kimura rotation in training?",
         "answer": "Stop immediately upon any tap signal—verbal, hand tap, or foot tap. In training, also monitor for the shoulder approaching maximum internal rotation (visible resistance in the joint), visible discomfort or tension in the trapped arm, and any verbal distress. Shoulder locks cause gradual damage before acute pain, so apply pressure slowly enough that your partner has adequate time to recognize danger and tap before structural damage occurs.",
         "safety_critical": true,
         "answer_line": "Any tap — verbal, hand, or foot",
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together in a gable grip to defend the rotation—how do you break through?",
+        "question": "They clasp a gable grip to defend your knee shield Kimura: how do you break through?",
         "answer": "Drive the captured elbow toward the mat to stretch the gable grip at its weakest point while maintaining your perpendicular angle. Walk your figure-four grip toward the opponent's fingers where grip strength is lowest. You can also use your knee shield to push and off-balance them, disrupting their grip connection. If the grip will not break, transition to using the kimura control as a sweep handle rather than forcing the finish.",
         "safety_critical": false,
         "answer_line": "Drive elbow down, walk to fingers",
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "Your opponent begins rolling toward the kimura to relieve shoulder pressure—what adjustment prevents escape?",
+        "question": "They roll toward your knee shield Kimura to relieve pressure: what adjustment stops the escape?",
         "answer": "Follow their roll by maintaining tight elbow-to-ribcage control and adjusting your hips to stay perpendicular to their body as they rotate. Do not fight the roll—use it. Their forward roll frequently exposes the back, creating an opportunity to transition to back control while maintaining the kimura grip. Keep your bottom leg hook active to control their rotation speed and prevent them from completing a full escape roll.",
         "safety_critical": false,
         "answer_line": "Follow the roll and take the back",

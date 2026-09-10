@@ -101,7 +101,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary advantage of maintaining 3-4 Mount over traditional mount with both legs crossed?",
+        "question": "What is the main advantage of 3-4 Mount over traditional mount with both legs crossed?",
         "answer": "The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount.",
         "answer_line": "Base stability + fast transitions",
         "distractors": {
@@ -185,7 +185,7 @@
         }
       },
       {
-        "question": "How do you manage energy expenditure when maintaining 3-4 Mount against an actively resisting opponent?",
+        "question": "How do you conserve energy holding 3-4 Mount against an actively resisting opponent?",
         "answer": "Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position.",
         "answer_line": "Use structure, not muscle",
         "distractors": {
@@ -199,7 +199,7 @@
         }
       },
       {
-        "question": "Your opponent partially escapes and gets one knee inside, threatening half guard. How do you recover full mount control?",
+        "question": "They get one knee inside from 3-4 Mount, threatening half guard — how do you recover control?",
         "answer": "Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration.",
         "answer_line": "Clear knee with underhook pressure",
         "distractors": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "question": "Your opponent has heavy chest pressure in 3-4 Mount. How do you create space for escape without exhausting yourself?",
+        "question": "Under heavy chest pressure in 3-4 Mount, how do you make space without exhausting yourself?",
         "answer": "Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space.",
         "answer_line": "Bridge heavy side, shrimp light",
         "distractors": {
@@ -599,7 +599,7 @@
         }
       },
       {
-        "question": "Your opponent begins setting up an Americana from 3-4 Mount. What is your immediate defensive response?",
+        "question": "They start setting up an Americana from 3-4 Mount — what is your immediate defense?",
         "answer": "Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness.",
         "answer_line": "Straighten arm, pull elbow in",
         "distractors": {
@@ -967,7 +967,7 @@
       }
     },
     {
-      "question": "Why is the mounted-side knee driving into the ribs so central to how this position controls the bottom player?",
+      "question": "Why is the mounted-side knee driving into the ribs central to 3-4 Mount's control?",
       "answer": "The mounted knee acts as a wedge that eliminates the inside space the bottom player needs to insert an elbow and begin a shrimp or elbow escape. By pinning tight to the ribs or armpit, it closes off the most common recovery channel on the heavier side and pins the opponent's hips to the mat. This concentrated pressure is also what makes the mounted side feel heavier and harder to escape toward. When that knee drifts away and space opens, the primary control mechanism of the whole position degrades, which is why maintaining or attacking that connection defines the exchange for both players.",
       "answer_line": "Wedge blocks elbow insertion",
       "distractors": {
@@ -981,7 +981,7 @@
       }
     },
     {
-      "question": "How does the heavy-side/light-side gradient govern the shared bridge-and-escape logic of the position?",
+      "question": "How does the heavy side versus light side gradient govern escapes in 3-4 Mount?",
       "answer": "Because the mounted side is loaded and the posted side is offloaded, the position presents a fixed pressure gradient that dictates how both players fight over it. Force applied toward the heavy, mounted side meets a solid base and is largely absorbed, so a bridge directed there disrupts the top player's balance without opening a clean exit. The light, posted side is where the base is thin and escape angles actually live, so movement toward it meets less resistance. Both players read the same gradient in opposite directions: the top player keeps weight biased toward the heavy side to preserve control, while the bottom player disrupts the base then travels toward the light side.",
       "answer_line": "Bridge heavy, escape to light side",
       "distractors": {

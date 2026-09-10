@@ -76,7 +76,7 @@ description: "How to execute Single Leg Takedown in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why should your head be positioned on the outside of the captured leg rather than between the opponent's legs?",
+      "name": "On a single leg, why keep your head outside the captured leg rather than between their legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Outside head position protects your neck from guillotine chokes, provides better mechanical leverage for driving and controlling opponent's hip, and makes it more difficult for them to square their hips to you for defensive purposes. Inside head position exposes the neck and gives opponent better defensive options."
@@ -108,7 +108,7 @@ description: "How to execute Single Leg Takedown in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "How should you modify your single leg approach against an opponent who consistently sprawls effectively?",
+      "name": "How do you modify your single leg against an opponent who sprawls effectively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against effective sprawlers, use better setups to create reactions before shooting, ensure deeper penetration on the initial entry, and be ready to immediately chain to alternative techniques like duck-under or go-behind when sprawl is initiated. You can also use low single variations that avoid the sprawl zone, or fake the single leg to set up upper body attacks."

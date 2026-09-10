@@ -90,7 +90,7 @@ description: "Execute the High Mount to S Mount transition to isolate the arm an
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively as your leg is halfway over their head — what is your immediate response?",
+      "name": "They bridge hard as your leg is halfway over their head for S mount — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand wide on the mat toward their head for base and drive your hips downward into their chest to counter the upward bridge force. If the bridge is powerful enough to compromise your balance, abort the S Mount entry entirely by returning your leg to the high mount position. Re-establish stable high mount control with both knees down before attempting the transition again. Never try to complete the swing while off-balance."
@@ -114,7 +114,7 @@ description: "Execute the High Mount to S Mount transition to isolate the arm an
     },
     {
       "@type": "Question",
-      "name": "Your opponent retracts their arm and grips their own collar before you can complete the S Mount entry — what options do you have?",
+      "name": "They retract the arm and grip their own collar before your S mount entry — what options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the S Mount entry against a retracted arm. Return to high mount and use offensive threats to re-expose the arm: attack the collar for a cross collar choke to force them to defend with their hands, pin the opposite wrist and threaten americana to force a defensive shift, or use a gift wrap to trap one arm and isolate the other. Each offensive action forces a reaction that may re-expose the target arm for another S Mount attempt."

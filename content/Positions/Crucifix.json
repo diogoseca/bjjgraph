@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent begins shrimping their hips away from you while in crucifix—what adjustment do you make?",
+        "question": "In crucifix, your opponent shrimps their hips away from you—what adjustment do you make?",
         "answer": "Immediately follow with your hips, maintaining perpendicular alignment to their body. Increase the squeeze on the leg triangle trapping their arm and use your free hand to control their hip or pull them back toward you. If they continue creating space, transition your weight forward and consider securing a submission while they're focused on escaping, or transition to back control or mount position if the crucifix becomes untenable.",
         "answer_line": "Follow hips, stay perpendicular",
         "distractors": {
@@ -832,7 +832,7 @@
         }
       },
       {
-        "question": "Your opponent begins applying a rear naked choke while you're in crucifix—what is your immediate response?",
+        "question": "Trapped in crucifix as they apply a rear naked choke—what is your immediate response?",
         "answer": "Immediately use your free hand to establish two-on-one defense against the choking arm, pulling it away from your neck. Simultaneously tuck your chin hard and raise your shoulder on the choking side to create barriers. If the choke is shallow, you may be able to strip the grip. If deep, fight the hands while beginning to turn toward the choking arm—this takes pressure off the neck and may create escape angles. Do not abandon choke defense to work escapes—survive first.",
         "answer_line": "Two-on-one grip, tuck chin",
         "distractors": {
@@ -860,7 +860,7 @@
         }
       },
       {
-        "question": "If you partially free your trapped arm but the opponent recaptures it, what adjustment should you make?",
+        "question": "In crucifix, they recapture your partially freed arm—what should you change next attempt?",
         "answer": "If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles.",
         "answer_line": "Free arm and move together",
         "distractors": {
@@ -911,7 +911,7 @@
       }
     },
     {
-      "question": "Why does controlling both arms through two separate mechanisms make the crucifix so mechanically dominant?",
+      "question": "Why does isolating both arms through separate mechanisms make the crucifix so dominant?",
       "answer": "Bilateral arm isolation produces a complete collapse of the trapped player's defensive architecture because the arms are the primary tools for framing, hand-fighting, and protecting the neck. By committing the legs to one arm and the hands to the other, the controlling player denies both defensive weapons simultaneously rather than trading control of one for freedom of the other. This creates an extreme asymmetric advantage: the top player retains offensive freedom while the bottom player cannot create frames, defend chokes, or generate escape momentum. The position embodies the principle of weapons denial, which is why escape rates drop sharply once both arms are genuinely isolated.",
       "answer_line": "Denies both arms as weapons",
       "distractors": {
@@ -953,7 +953,7 @@
       }
     },
     {
-      "question": "What shared dynamic explains why the crucifix is so difficult for the bottom player to escape once consolidated?",
+      "question": "Why is a consolidated crucifix so difficult for the bottom player to escape?",
       "answer": "With both arms isolated, the bottom player loses the ability to create the frames and posts that every escape depends on, so movement alone cannot generate meaningful space. Any attempt to bridge, shrimp, or roll must overcome the controlling player's hip pressure and perpendicular angle without the aid of the arms, which drastically reduces leverage. The trapped player also faces a hierarchy of simultaneous threats—chokes and arm attacks—forcing defensive attention to split. This combination of eliminated framing, compromised leverage, and layered threats is why the escape window narrows rapidly and why early recognition, before full consolidation, matters so much.",
       "answer_line": "No frames, no leverage left",
       "distractors": {

@@ -86,7 +86,7 @@ description: "Complete attacking guide for the outside heel hook from outside as
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hiding their heel behind their opposite knee - what adjustments prevent this defense from succeeding?",
+      "name": "They hide the heel behind their far knee; what adjustments beat this from outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your outside hand to peel their defensive foot away from the knee, or angle your hips further toward their trapped leg to create a line of access around their boot defense. If the boot is fully locked, consider transitioning to a straight ankle lock which does not require heel access, or use your far-side hand to control their defensive leg at the knee to prevent the tuck. You can also elevate your hips to change the angle and expose the heel from underneath their defense."
@@ -110,7 +110,7 @@ description: "Complete attacking guide for the outside heel hook from outside as
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent's foot is sweaty and your initial heel cup is slipping?",
+      "name": "Their foot is sweaty and your heel cup slips; how do you adjust the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from a standard heel cup to a butterfly grip where both hands interlace fingers around the heel, providing stronger friction and a closed-loop grip that is harder to slip. You can also pull the heel tighter to your chest to use your torso as additional friction surface. Wipe your hands on your shorts if possible before re-gripping. Avoid gripping harder with just your fingers as this accelerates fatigue without improving security. The chest-to-foot finishing variation is specifically designed for slippery conditions."

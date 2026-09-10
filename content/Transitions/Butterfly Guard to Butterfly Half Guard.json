@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep underhook on their right side with strong hooks - which hook should you target first and why?",
+        "question": "Your opponent has a deep right underhook and strong hooks: which hook do you clear first, and why?",
         "answer": "Target the left hook first, opposite to their dominant right underhook. Their right underhook gives them superior structural control on that side, making hook re-insertion easier and creating back take threats if you shift weight there. The left side, without the underhook support, has weaker retention capability. Clearing the weaker hook first gives you a stable half guard position from which you can then address the stronger underhook side.",
         "answer_line": "Left hook, away from underhook",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "You clear one hook successfully but the opponent immediately starts working to re-insert it - what are your first three actions?",
+        "question": "You clear one hook and they fight to re-insert it: what are your first three actions?",
         "answer": "First, post your freed leg wide to create a stable base that prevents being swept during the recovery scramble. Second, drive your crossface shoulder deeper to turn their head further away from the cleared side, breaking their ability to follow your hip with their leg. Third, drop your hip weight heavy on the cleared side to physically block the re-insertion path with your body mass. These three actions must happen within the first two to three seconds of clearing the hook, before the opponent can reorganize their structure.",
         "answer_line": "Post wide, crossface, hip heavy",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "How should you adjust your approach when the opponent has a collar-and-sleeve grip configuration instead of underhooks?",
+        "question": "Passing butterfly, how do you adapt when they use collar-and-sleeve grips instead of underhooks?",
         "answer": "Collar-and-sleeve grips give the opponent distance-based control rather than close-range power. Strip the sleeve grip first because it controls your posting hand and limits your ability to base during the transition. Once the sleeve grip is broken, close the distance aggressively with chest pressure to nullify the collar grip's effectiveness at range. The hook clearing mechanics remain the same, but the preparation phase requires additional grip fighting to remove the distance management tools before you can establish the chest contact needed for the transition.",
         "answer_line": "Strip the sleeve grip first",
         "distractors": {
@@ -483,7 +483,7 @@
         }
       },
       {
-        "question": "Your opponent successfully clears one hook and is settling into butterfly half guard top - what is your immediate priority?",
+        "question": "They clear one hook and settle into butterfly half guard top: what is your priority?",
         "answer": "Your immediate priority is to either re-insert the cleared hook within the first three to five seconds before they establish control, or transition proactively to a related guard system like deep half guard or lockdown. Do not remain passively in butterfly half guard hoping to re-insert later. If the opponent has established crossface and wide base, re-insertion becomes very difficult, so transitioning to deep half by diving under their hips or locking down the trapped leg is often the higher-percentage response.",
         "answer_line": "Re-insert hook or go deep half",
         "distractors": {

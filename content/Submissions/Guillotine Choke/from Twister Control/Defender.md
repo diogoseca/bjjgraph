@@ -52,7 +52,7 @@ description: "Defend against the guillotine choke from Twister Control. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What visual and tactile cues indicate the attacker is transitioning from Twister Control to a guillotine?",
+      "name": "What cues show the attacker switching from Twister Control to a guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues are the release of the attacker's Twister grip on your head or arm, the feeling of their forearm threading under your chin, and a shift in chest pressure from your back toward your neck and shoulders. A turn-in escape that feels unexpectedly easy often indicates the attacker is encouraging the turn to access your neck for the guillotine."

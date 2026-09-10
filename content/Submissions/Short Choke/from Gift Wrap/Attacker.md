@@ -76,7 +76,7 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the Gift Wrap arm trap the critical differentiator for this choke compared to standard back control short choke entries?",
+      "name": "Why is the arm trap the key difference between Gift Wrap and standard back short choke entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Gift Wrap arm trap removes one of the defender's arms from neck defense entirely, reducing their grip fighting capability by half. In standard back control, the defender has two hands to block forearm insertion, strip grips, and protect the neck. With the Gift Wrap, only one hand is available for all defensive tasks simultaneously, making the forearm threading significantly easier and the finishing percentage substantially higher."
@@ -92,7 +92,7 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard and you cannot thread the forearm under the jaw - what adjustment do you make?",
+      "name": "Your opponent tucks their chin so you can't thread the forearm from Gift Wrap: what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the crown of your head or your forehead to wedge against the back of their skull, creating a prying angle that lifts their chin enough to slide the forearm underneath. Alternatively, apply cross-face pressure with the non-choking hand to force their chin to elevate. A third option is to attack the free arm with a kimura or armbar threat, forcing them to move their hand from chin protection to arm defense, which then opens the neck."
@@ -100,7 +100,7 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
     },
     {
       "@type": "Question",
-      "name": "What are the immediate indicators that the choke is correctly positioned on the carotid arteries rather than the trachea?",
+      "name": "Which signs show the Gift Wrap choke is on the carotids rather than the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When correctly positioned on the carotid arteries, the defender will feel pressure on the sides of the neck without significant breathing obstruction. The defender's face may flush or redden quickly, and they may feel lightheaded or experience visual changes. If the defender is coughing, gagging, or experiencing breathing difficulty, the forearm is likely across the trachea and should be adjusted laterally to target the carotid line instead."
@@ -108,7 +108,7 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
     },
     {
       "@type": "Question",
-      "name": "What is the role of shoulder pressure in completing the finish, and why is arm squeeze alone insufficient?",
+      "name": "What does shoulder pressure add to the Gift Wrap short choke that arm squeeze alone cannot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder drives into the occipital bone at the back of the opponent's head, pushing the head forward and down into the choking forearm. This creates a vise effect between the forearm on the anterior neck and the shoulder on the posterior head. Arm squeeze alone typically only compresses one carotid effectively. The shoulder pressure completes the bilateral compression by forcing the neck into the forearm with body weight rather than relying on isometric arm contraction, which fatigues quickly."
@@ -116,7 +116,7 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
     },
     {
       "@type": "Question",
-      "name": "Your partner is not responding to verbal commands after you release the choke - what is the correct emergency protocol?",
+      "name": "Your partner is unresponsive after you release the choke: what is the emergency protocol?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your partner is unconscious, immediately place them in the recovery position on their side. Elevate their legs to promote blood flow to the brain. Monitor their airway to ensure they are breathing. Most people regain consciousness within five to fifteen seconds once the choke is released. If they are not conscious within fifteen seconds, have someone call emergency medical services. Do not shake them or pour water on their face. Stay calm and continue monitoring until they regain full consciousness."

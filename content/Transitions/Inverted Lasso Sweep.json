@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if the opponent actively fights your sleeve control during setup?",
+        "question": "In the inverted lasso sweep setup, how do you adjust when they fight your sleeve grip?",
         "answer": "If the opponent actively fights the sleeve grip, first reinforce it with a temporary two-on-one grip to break their resistance, then re-establish single-hand control. If the grip breaks entirely, you must either immediately re-grip before they extract the lassoed arm or transition to an alternative attack that does not require the sleeve connection, such as a triangle entry using the lasso hook to control their posture. Never attempt the sweep without the sleeve grip secured, as the pulling connection is essential for generating the rotational force that powers the overhead trajectory.",
         "answer_line": "Two-on-one, then re-grip single",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent successfully defends the overhead sweep by sitting their weight backward. How do you adjust your attack?",
+        "question": "They defend your overhead sweep by sitting their weight back: how do you adjust your attack?",
         "answer": "When the opponent sits weight back to defend the overhead sweep, immediately transition to a berimbolo entry by threading the free leg behind their back and initiating hip rotation toward their back. Their retreated weight posture makes berimbolo rotation significantly easier because their center of gravity has already shifted backward, reducing their ability to drive forward to prevent the rotation. This creates the fundamental inverted lasso dilemma: defending the sweep enables berimbolo, defending berimbolo enables the sweep. Reading this weight shift and switching attacks within one second is the key skill.",
         "answer_line": "Switch to berimbolo entry",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "If the sweep is partially completed but the opponent begins recovering guard before you establish mount, what chain attack follows?",
+        "question": "The sweep is partial and they start recovering guard before you mount: what do you take instead?",
         "answer": "If the opponent is partially swept but begins recovering before you establish mount, immediately transition to knee on belly or side control rather than fighting for full mount from a compromised angle. From knee on belly you maintain the positional advantage gained from the partial sweep while threatening submissions and further advancement. Alternatively, if the opponent turtles during their recovery attempt, follow with a back take by securing seat belt grip and inserting hooks. Never abandon the positional gain by resetting to neutral when partial completion still offers advancement opportunities.",
         "answer_line": "Take knee-on-belly, not mount",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "What defensive strategy addresses both the sweep and berimbolo threats from inverted lasso guard simultaneously?",
+        "question": "What single defense addresses both the sweep and the berimbolo from inverted lasso guard?",
         "answer": "The key strategy is controlling the opponent's free leg while maintaining neutral weight distribution. The free leg is the mechanism that differentiates sweep setup from berimbolo entry: posting on the hip for overhead sweep direction versus threading behind the back for berimbolo rotation. By controlling this leg with your hand or pinning it with your hip, you eliminate both offensive pathways simultaneously. Combined with systematic arm extraction work on the lasso, this addresses the fundamental attacking dilemma without exposing yourself to either attack vector.",
         "answer_line": "Control the opponent's free leg",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "Your opponent has fully established inverted lasso and begins the sweep motion. What is your highest-percentage defensive response at this point?",
+        "question": "They've set inverted lasso and the sweep motion has started: what's your best defense now?",
         "answer": "When the sweep motion has already started with established angle and momentum, direct resistance against the rotational force is low-percentage and energy-intensive. Your best response is to follow the sweep direction with a cartwheel or counter-rotation, converting their sweep momentum into your passing opportunity. By matching their rotational direction rather than fighting against it, you neutralize the angle advantage while potentially establishing a passing position. This requires committing fully to the counter-movement rather than half-resisting, which typically results in being swept anyway while wasting energy.",
         "answer_line": "Follow rotation, counter-roll",
         "distractors": {

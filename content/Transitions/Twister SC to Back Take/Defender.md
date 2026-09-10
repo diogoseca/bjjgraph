@@ -56,7 +56,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is abandoning the twister attack in favor of a back take?",
+      "name": "What is the earliest cue your opponent is leaving the twister to take your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in pressure direction from lateral shoulder drive pushing you toward the mat to a forward circling motion wrapping around your body. Additionally, the opponent's grip begins transitioning from twister-specific chin strap or spinal control positions toward the seatbelt configuration with an arm threading over your far shoulder. Recognizing this shift early provides the maximum defensive window before back exposure becomes established."
@@ -64,7 +64,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
     },
     {
       "@type": "Question",
-      "name": "Why is framing against the attacker's shoulder more effective than pushing their hip during back take defense?",
+      "name": "Defending the back take, why frame on their shoulder rather than push their hip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder frame directly addresses the attacker's primary control mechanism for the back take: the chest-to-back connection and seatbelt grip. By framing the shoulder, you prevent the attacker from squaring their chest behind your back, which is the prerequisite for effective hook insertion. Hip frames only address lower body positioning and can be bypassed by the attacker using upper body control to drag you back. The shoulder frame simultaneously creates distance and prevents the rotational movement the attacker needs."
@@ -72,7 +72,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established one hook but not yet secured the seatbelt grip - what is your priority defensive action?",
+      "name": "They have one hook but no seatbelt yet — what is your priority defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority is preventing the seatbelt grip establishment, not removing the single hook. A single hook without a seatbelt provides minimal control, and the attacker will struggle to insert the second hook or maintain position without upper body dominance. Keep your elbows tight to your body, use your hands to strip or block any arm threading over your shoulder, and maintain your facing position toward the attacker. Once the seatbelt is denied, address the single hook through hip escape and leg extraction."
@@ -80,7 +80,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
     },
     {
       "@type": "Question",
-      "name": "What defensive body position minimizes back exposure during the transition from Twister Side Control?",
+      "name": "What body position minimizes back exposure as they leave Twister side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal defensive position keeps your shoulders and chest angled toward the attacker's hips rather than turned away. Your elbows should be tight against your body to prevent arm threading for the seatbelt. Your near knee should be driven toward your chest to create a frame barrier against the attacker's forward pressure. Your hips should be as flat as possible rather than elevated, as hip elevation from the twister entanglement creates the space behind your body where hooks need to be inserted."
@@ -88,7 +88,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
     },
     {
       "@type": "Question",
-      "name": "When should you accept turtle position rather than continue fighting the back take from Twister Side Control bottom?",
+      "name": "From Twister side control bottom, when should you accept turtle instead of fighting the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept turtle when the attacker has established one hook and the seatbelt grip but has not yet secured the second hook. At this point, turning to turtle removes the lateral angle that the twister position created and puts you in a familiar defensive position with established escape protocols. Turtle against a single hook and seatbelt is significantly more defensible than continuing to fight from the compromised twister bottom where your spine is partially rotated and your defensive options are limited by the unfamiliar positioning."

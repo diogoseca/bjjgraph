@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Ashi Entry from Leg Entanglem
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is attempting to transition from general leg entanglement to Inside Ashi-Garami?",
+      "name": "What are the earliest cues that they are transitioning to inside ashi garami on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker's inside leg beginning to move laterally toward your hip rather than maintaining its current position, increased grip pressure on your foot or ankle indicating they are anchoring your leg, and the attacker threatening a submission that seems designed to redirect your defensive attention. Additionally, their hips scooting closer to your foot signals they are working to get below your knee line. Recognizing these cues within the first one to two seconds of the attempt is critical for successful prevention."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Ashi Entry from Leg Entanglem
     },
     {
       "@type": "Question",
-      "name": "When should you prioritize clearing the inside leg versus extracting your heel during defense against the ashi entry?",
+      "name": "Defending the ashi entry: when do you clear the inside leg versus protect your heel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize clearing the inside leg when the attacker is in the early threading phase and has not yet established the outside hook behind your knee. At this stage, preventing the inside leg from crossing your hip collapses the entire entry attempt. Switch to heel extraction priority only after both legs are established and the attacker has achieved structural Inside Ashi-Garami, at which point preventing the inside leg is no longer possible and your immediate concern becomes denying the heel grip that enables submissions."
@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Ashi Entry from Leg Entanglem
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their inside leg across your hip but has not yet secured the outside hook - what is your best defensive response?",
+      "name": "Their inside leg is across your hip but the outside hook is not set — best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the most critical defensive window. Frame against the inside leg with your near hand pushing at their ankle or shin while simultaneously hip escaping laterally to create the angle needed to slide their leg off your hip. Use your free leg to pummel against their outside leg, preventing them from establishing the hook behind your knee. If you can clear the inside leg before the outside hook lands, the entry fails completely. Time is critical here because the outside hook typically follows within two to three seconds."
@@ -88,7 +88,7 @@ description: "Complete defensive guide against the Ashi Entry from Leg Entanglem
     },
     {
       "@type": "Question",
-      "name": "What are the consequences of allowing the ashi entry to complete versus accepting a scramble to Half Guard?",
+      "name": "What are the consequences of letting the ashi entry finish versus scrambling to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Allowing the ashi entry to complete puts you in Inside Ashi-Garami where you face immediate submission threats including straight ankle locks, heel hooks, and kneebars with the attacker holding structural positional advantage. Escaping from established Inside Ashi-Garami requires significant energy and technical skill with a meaningful risk of being submitted during the escape. Accepting a scramble to Half Guard, while surrendering some positional standing, puts you in a well-understood position with established defensive frameworks, clear offensive pathways through sweeps and back takes, and no immediate submission danger. The positional trade is almost always favorable."

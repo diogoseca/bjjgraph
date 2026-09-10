@@ -104,7 +104,7 @@ description: "Learn to defend the Old School Sweep as the top player in BJJ half
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pumping the lockdown aggressively while you are establishing your defense - how do you adjust?",
+      "name": "Your opponent pumps the lockdown hard while you defend on top — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Feel for the rhythm of the pumping and time your sprawl to counter each extension attempt. When you sense the legs beginning to extend, immediately sprawl your hips slightly back while maintaining chest-to-chest connection. Between pumping attempts, work small ankle manipulations and hip pressure changes to loosen the lockdown. Never match their explosive energy with your own as this burns energy and creates the timing gaps they need."

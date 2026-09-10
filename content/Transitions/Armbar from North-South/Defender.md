@@ -72,7 +72,7 @@ description: "How to defend against Armbar from North-South in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your arm has been isolated and the attacker is mid-rotation—what is your immediate defensive priority?",
+      "name": "Your arm is isolated from north-south and they are mid-rotation — immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately bend the attacked arm as hard as possible and rotate your thumb toward the ceiling to strengthen the elbow joint structure. Simultaneously bridge your hips toward the attacker to disrupt their rotation and try to insert your near-side knee between your bodies. The bent arm buys time and the knee insertion can convert the situation to half guard."

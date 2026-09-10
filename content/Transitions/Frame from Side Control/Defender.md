@@ -64,7 +64,7 @@ description: "Master defending against the bottom player's framing attempts from
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a solid hip frame that you cannot collapse with direct pressure. What is your best alternative response?",
+      "name": "Their hip frame is solid and won't collapse under your pressure — best alternative response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting a structurally sound frame directly, swim your underhook arm past the frame and re-establish chest contact from a new angle that the frame does not address. Alternatively, use the space the frame creates to advance to mount by stepping your near leg over their hip line. A structurally locked frame with proper skeletal alignment will outlast muscular collapse attempts, so changing the engagement angle or advancing position is more energy-efficient than direct confrontation."

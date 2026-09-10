@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "Your opponent has their chin tucked tightly with both hands defending the choking arm - what adjustment allows you to complete the choke?",
+        "question": "Chin tucked and both hands on your choking arm: how do you finish the Short Choke from harness?",
         "answer": "Use your under-arm to momentarily trap one defensive hand by pulling it toward their hip, creating a brief window. Then thread your forearm above their chin defense, targeting the jaw line to wedge the chin up. The sleeve anchor means you do not need full arm penetration behind the chin like an RNC. The short choke compresses the carotids even with the chin partially tucked because the forearm angle and sleeve leverage are different from a traditional strangle.",
         "safety_critical": false,
         "answer_line": "Trap hand, thread to jaw line",
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip when the opponent keeps stripping your choking forearm before you reach the sleeve?",
+        "question": "They keep stripping your choking forearm before it reaches the sleeve: how do you adjust the grip?",
         "answer": "Switch to an incremental approach by using your under-arm to create a two-on-one on their primary defensive wrist, pulling it toward their hip. Then advance the choking forearm a few inches at a time rather than threading it across in one motion. If they consistently strip with both hands, feint the choke to draw their hands high, then switch to an armbar setup on the exposed arm. Return to the choke when their defensive hands reposition to address the armbar threat.",
         "safety_critical": false,
         "answer_line": "Two-on-one, inch forearm in",
@@ -383,7 +383,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up and create space between their back and your chest - what adjustment prevents the escape?",
+        "question": "They posture up and make space off your chest: how do you adjust the harness Short Choke?",
         "answer": "Drive your hips forward and increase downward pressure through your hooks to prevent them from sitting upright. Simultaneously tighten the seatbelt grip and pull them back into your chest. If they have already created significant space, abort the choke attempt and focus on re-establishing tight chest-to-back connection before trying again. Attempting to finish the choke with space between bodies reduces effectiveness dramatically and risks losing the position entirely.",
         "safety_critical": false,
         "answer_line": "Hips forward, tighten seatbelt",
@@ -398,7 +398,7 @@
         }
       },
       {
-        "question": "In competition, what strategic factors affect when to attempt the Short Choke versus other back attacks?",
+        "question": "When should you pick the Short Choke over other back attacks in competition?",
         "answer": "The Short Choke is most effective when the opponent commits to RNC defense with both hands high and chin tucked, as the sleeve grip bypasses this specific defense. Attempt it when their defensive hands are occupied fighting your choking arm rather than maintaining positional frames. In competition the gi often becomes sweaty, so confirm the sleeve opening is accessible and dry enough for a secure grip. If you are ahead on points, prioritize maintaining back control points rather than risking the position on a speculative choke attempt.",
         "safety_critical": false,
         "answer_line": "Attack when hands fight the arm",
@@ -526,7 +526,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that the Short Choke from Harness is being set up versus a standard RNC attempt?",
+        "question": "How do you tell a Short Choke setup from harness apart from a standard RNC attempt?",
         "answer": "The key difference is the opponent's hand trajectory after the forearm crosses the neck. In an RNC setup, the choking arm threads behind your head toward the opposite shoulder to complete the figure-four lock. In the Short Choke, the choking hand moves toward the opponent's own opposite sleeve opening rather than behind your head. Watch for the opponent adjusting their gi sleeve position or moving their choking hand toward their own forearm. The defensive window closes once the hand enters the sleeve.",
         "safety_critical": false,
         "answer_line": "Hand goes to own sleeve, not head",

@@ -80,7 +80,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the head circle escape against diamond guard's head control?",
+      "name": "When is the best moment to start the head circle escape against diamond guard head control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the guard player adjusts their head control grip or momentarily releases pressure to transition toward a submission entry. At this moment, the head control is at its shallowest depth and the grip is least secure. You can also create your own timing by threatening to posture with hip drive, which forces the guard player to tighten their head control pull — the moment of maximum pull creates a predictable direction you can circle against."
@@ -88,7 +88,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you can safely begin standing to open the closed guard in diamond guard?",
+      "name": "What must be true before you stand to open the closed guard against diamond guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both diamond controls must be degraded: head control must be broken so you have upright posture, and the overhook must be stripped or reduced to a shallow grip that cannot generate significant pulling force. Your hips must be in contact with the guard player's hips to prevent sweep attempts during the stand-up. If either control remains deep, standing will accelerate the guard player's submission threats rather than advancing your pass."
@@ -96,7 +96,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
     },
     {
       "@type": "Question",
-      "name": "Why is the circular arm extraction more effective than pulling straight backward to strip the overhook?",
+      "name": "Why beat the diamond guard overhook with circular arm extraction instead of pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diamond frame is structurally designed to resist linear pulling — the overhook wraps over the arm and the closed guard legs anchor the structure. Straight backward pulling fights the grip at its strongest angle. Circular extraction rotates the trapped arm along the axis of the overhook grip, peeling the hook off incrementally rather than trying to overcome its full holding strength. The corkscrew motion breaks contact at the weakest points of the grip first, requiring significantly less force to complete the extraction."
@@ -104,7 +104,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
     },
     {
       "@type": "Question",
-      "name": "You begin the posture recovery phase and feel the guard player's hips rise and their grip shift — what is happening and how do you respond?",
+      "name": "Recovering posture in diamond guard, their hips rise and grip shifts. What is it and your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guard player is loading a hip bump sweep, which exploits the weight shift that occurs during posture recovery. Immediately drive your hips forward and down, pinning their hips flat to the mat. Plant one or both hands on their hips to block the sit-up motion that powers the sweep. Do not continue the posture recovery until their hips are flat and their sweep attempt is neutralized. The hip bump requires upward hip momentum and a seated posture to generate force — denying both kills the sweep."
@@ -112,7 +112,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the most stable foundation during the initial posture recovery phase?",
+      "name": "Passing diamond guard: which grip best anchors your posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands planted firmly on the guard player's hip bones provide the best foundation. This grip creates a rigid structure between your arms and their hips that prevents them from following your posture recovery with hip movement, blocks hip bump sweep attempts by controlling their hip elevation, and gives you a reference point for maintaining heavy hip pressure. Avoid gripping the gi or their arms during this phase, as those grips invite grip fighting that delays posture recovery and opens submission opportunities."
@@ -120,7 +120,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
     },
     {
       "@type": "Question",
-      "name": "In which direction should the primary force vector travel during the posture recovery phase, and why?",
+      "name": "Recovering posture in diamond guard: which direction should your force go, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary force vector should travel forward and slightly downward through your hips into the guard player's hips. This forward hip drive maintains the heavy hip contact that prevents sweeps while allowing your spine to straighten progressively. The common error is directing force upward and backward, which lifts your hips off theirs and creates exactly the weight shift the guard player needs for hip bump sweeps. Think of driving your belt buckle toward the mat between their legs rather than sitting up and away."

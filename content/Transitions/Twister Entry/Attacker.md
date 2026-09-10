@@ -82,7 +82,7 @@ description: "How to execute Twister in BJJ. Attacking perspective with setup, e
     },
     {
       "@type": "Question",
-      "name": "Your opponent clamps their knees together as you attempt to thread the initial hook — how do you create the opening?",
+      "name": "Twister entry: they clamp their knees shut against your first hook — how do you open the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use upper body threats to force a defensive reaction that opens the legs. Threaten a back take by driving your seatbelt deeper and walking toward their hips, which forces them to base out with a knee. Alternatively, use your free hand to pry their top knee upward while simultaneously driving your hip forward to wedge into the gap. Cross-face pressure into their jaw can reflexively cause hip shifting. The principle is creating a dilemma — defending the leg entry means exposing something else, and you attack whichever opening they give you."
@@ -106,7 +106,7 @@ description: "How to execute Twister in BJJ. Attacking perspective with setup, e
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a shallow hook from a deep hook, and why does depth matter for figure-four completion?",
+      "name": "Twister entry: how does a deep hook differ from a shallow one, and why does depth matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A shallow hook only crosses the opponent's near-side thigh, with the instep barely past their leg. A deep hook drives the shin across the opponent's centerline so the heel emerges past their far-side hip. Depth matters because the figure-four requires your top leg to meet your bottom hook on the far side of the opponent's body. A shallow hook does not provide enough reach for the figure-four lock, and the opponent can easily clear it by straightening their leg. Deep penetration requires committing your hips forward during insertion, not just extending your foot."

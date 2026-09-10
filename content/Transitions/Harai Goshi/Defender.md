@@ -70,7 +70,7 @@ description: "How to defend against Harai Goshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has achieved full hip contact and begun the sweeping action - what are your remaining defensive options at this late stage?",
+      "name": "They have full hip contact and are sweeping for Harai Goshi. What defenses remain this late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your options are limited but not zero. First, you can attempt to hop over the sweeping leg by lifting your threatened leg and stepping over their sweep - this requires excellent timing and balance but can completely nullify the throw. Second, you can commit to a sacrifice counter-throw like Tani Otoshi by sitting backward into the attacker while controlling their upper body, using their committed rotation against them. Third, you can pull guard by wrapping your legs around their waist before they complete the rotation, denying takedown points and transitioning to your ground game. The worst option is to fight the throw with upper body strength alone, as the biomechanical advantage is entirely with the attacker at this point."
@@ -78,7 +78,7 @@ description: "How to defend against Harai Goshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How should your stance differ when you anticipate a Harai Goshi attempt compared to your normal standing fighting posture?",
+      "name": "How should your stance change when you expect a Harai Goshi versus your normal posture?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When anticipating Harai Goshi, you should lower your center of gravity by increasing knee bend approximately 10-15 degrees beyond your normal stance, making it harder for the attacker to get their hips below yours. Widen your base slightly to increase lateral stability against the rotational force. Shift your weight slightly more to your rear foot to resist forward pulling, but not so much that you become vulnerable to foot sweeps. Your lead hand should be more active in blocking the collar grip path rather than seeking offensive grips. Keep your elbows closer to your body to prevent the attacker from using arm levers to amplify their pull. The key difference is a more defensive, lower posture that prioritizes base maintenance over offensive grip acquisition."
@@ -86,7 +86,7 @@ description: "How to defend against Harai Goshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your training partner attempts Harai Goshi and you successfully step your leg backward to avoid the sweep, but they maintain their grips - what should you do next?",
+      "name": "You step back to avoid their Harai Goshi sweep but they keep grips. What do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You are in a momentary advantage because the attacker is off-balance from the failed throw with their weight committed forward and their sweeping leg out of position. Immediately capitalize by establishing your own dominant grip configuration before they can recover their stance. Attack with Osoto Gari or Kouchi Gari targeting their posted leg while they are still retracting their sweeping leg and re-establishing base. Alternatively, use a snap-down to collapse their already-compromised forward posture into a front headlock position. The critical principle is to attack immediately during their recovery window rather than simply resetting to neutral, as the failed throw creates a 1-2 second vulnerability that diminishes rapidly as they regain their stance."

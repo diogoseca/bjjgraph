@@ -92,7 +92,7 @@ description: "How to execute Front Headlock to Back Take in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing for releasing the front headlock grip and transitioning to seat belt control?",
+      "name": "When should you release the front headlock grip and switch to seatbelt for the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The front headlock grip should be released only after both hooks are securely established and your chest is connected to the opponent's back. The transition from headlock to seat belt must be one continuous motion with no pause, as any gap in control creates an opportunity for the opponent to establish defensive hand fighting. The release and establishment of new grips should be simultaneous: as your arms release the headlock, they immediately move into seat belt configuration. Releasing too early allows escape, while delaying the seat belt establishment gives the opponent time to establish defensive frames."

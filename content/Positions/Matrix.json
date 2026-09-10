@@ -147,7 +147,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating but you've successfully blocked the initial movement—what's your immediate next action?",
+        "question": "You've blocked their initial Matrix rotation — what is your immediate next action?",
         "answer": "Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset.",
         "answer_line": "Attack immediately, don't sit",
         "distractors": {
@@ -520,7 +520,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the essential grip connection points you must establish before initiating the Matrix rotation?",
+        "question": "Which grip connections must you establish before initiating the Matrix rotation?",
         "answer": "You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past.",
         "answer_line": "Belt, pants, or leg-hook grip",
         "distractors": {
@@ -978,7 +978,7 @@
       }
     },
     {
-      "question": "How does the Matrix differ mechanically from adjacent rotational movements like the berimbolo or granby roll?",
+      "question": "How does the Matrix differ mechanically from the berimbolo and the granby roll?",
       "answer": "All three share inversion and rotational spatial awareness, but the Matrix specifically targets a turtled or scrambling opponent from above-or-beside to arrive at back control, using the opponent's own base as the pivot. The berimbolo typically inverts out of an open guard to spin under a standing or top player, while the granby roll is primarily a defensive shoulder roll used to recover guard or escape rather than to take the back. The Matrix's defining feature is that it converts a neutral-or-defensive turtle configuration into back access through committed rotation, whereas the granby redirects the same rolling mechanic toward escape. That is also why the granby appears in the Matrix as the fallback when the rotation is stuffed.",
       "answer_line": "Matrix takes back from turtle",
       "distractors": {
@@ -992,7 +992,7 @@
       }
     },
     {
-      "question": "Why does the Matrix create a dilemma for the top player regardless of whether they defend the initial rotation?",
+      "question": "Why does the Matrix create a dilemma for the top player however they defend the roll?",
       "answer": "The rotation forces the top player into base and weight adjustments that inherently trade off against their other objectives. Widening the base and distributing weight laterally to resist the roll slows passing progression and can leave a limb or the neck momentarily exposed. Committing weight forward to flatten the roll instead invites secondary options like granby recoveries or guard pulls. Because the position couples the defender's stability to the attacker's momentum, any single-purpose response opens a counter, which is why the Matrix functions as a system-level threat rather than an isolated move.",
       "answer_line": "Any single response opens a counter",
       "distractors": {

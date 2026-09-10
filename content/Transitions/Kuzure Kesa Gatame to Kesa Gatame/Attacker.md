@@ -80,7 +80,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the minimum control points you must maintain throughout the transition from Kuzure Kesa Gatame to Kesa Gatame?",
+      "name": "Which control points must you keep throughout Kuzure Kesa Gatame to Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must maintain at least two control points at all times: the head wrap (arm threaded around their neck) and the near arm trap (their upper arm clamped against your ribs). These two anchors persist through the entire hip rotation and prevent the bottom player from exploiting the transitional movement. Releasing both simultaneously, even briefly, creates the space that allows guard recovery or escape."
@@ -88,7 +88,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong frames against your shoulder during Kuzure Kesa Gatame - should you force the transition to Kesa Gatame?",
+      "name": "They frame hard on your shoulder in Kuzure Kesa Gatame — force the Kesa Gatame switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, forcing the transition against established frames compounds the space creation problem. First address the frames by swimming your arm inside their frame, using shoulder pressure to collapse the frame, or threatening a submission to force them to abandon the frame defensively. Only initiate the hip rotation once you have broken or bypassed their frames and re-established clean chest pressure with arm control."
@@ -96,7 +96,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical moment of vulnerability during this transition, and how do you minimize risk?",
+      "name": "When are you most vulnerable in the Kuzure Kesa to Kesa Gatame switch, and how do you reduce risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most vulnerable moment is during the hip rotation phase when your weight transfers from chest pressure to seated position. During this window, there is a brief reduction in downward pressure that allows the bottom player to insert a knee or bridge. Minimize this by making the rotation smooth and continuous rather than stopping midway, sitting your weight down immediately upon completing the rotation, and maintaining tight head wrap and arm trap throughout as your constant anchors."
@@ -104,7 +104,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's far knee beginning to insert between your bodies during the hip rotation - what do you do?",
+      "name": "Their far knee starts entering during your hip rotation to Kesa Gatame — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "React immediately before the knee establishes a full shield. Drive your hips forward and down to flatten their knee back while squeezing your thighs together to block the insertion path. If the knee is already too established to push back, abort the kesa gatame transition and either return to modified scarf hold by reversing the rotation, or redirect the movement into knee on belly on the far side, converting the failed transition into a different positional advancement."
@@ -112,7 +112,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
     },
     {
       "@type": "Question",
-      "name": "Why is the arm-first threading approach preferred over rotating hips first and then securing the head?",
+      "name": "Why thread the arm before rotating your hips into Kesa Gatame instead of after?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Threading the arm around the head before hip rotation ensures continuous upper body control throughout the transition. If you rotate hips first, there is a window where you have neither chest pressure (from modified scarf) nor head wrap (from kesa gatame), leaving only the arm trap as a single control point. A single control point is insufficient against a skilled opponent. By threading the arm first while chest pressure is still applied, you create overlapping control that persists through the rotation."
@@ -120,7 +120,7 @@ description: "Master the Kuzure Kesa Gatame to Kesa Gatame transition. Complete 
     },
     {
       "@type": "Question",
-      "name": "How does this transition change the submission threats available to you compared to staying in Kuzure Kesa Gatame?",
+      "name": "How do your submission options change moving from Kuzure Kesa Gatame to Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Kuzure Kesa Gatame provides submissions primarily through direct chest pressure and arm isolation with the arms in front of your body. Kesa Gatame opens different submission pathways: the americana becomes higher percentage because the perpendicular angle provides superior leverage on the trapped arm, the armbar from kesa gatame uses the head wrap as a fulcrum, and the arm crush using your legs becomes available. The trade-off is that kesa gatame sacrifices the chest-pressure-based chokes available from modified scarf hold."

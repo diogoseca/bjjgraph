@@ -52,7 +52,7 @@ description: "Defend the belly down armbar finish from Mission Control. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate a belly down armbar is being set up from Mission Control?",
+      "name": "What are the earliest cues of a belly down armbar setup from mission control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is the attacker releasing head control and reaching for your wrist or forearm with both hands - this grip transition is the setup for arm isolation. The second cue is feeling the attacker's hips scoot laterally toward your trapped arm side, creating the angle for the leg swing. The third is the high guard leg pressure shifting off your shoulder as they prepare to swing it over your face. Recognizing the first cue gives you the largest defensive window."

@@ -92,7 +92,7 @@ description: "How to execute the Loop Choke from Closed Guard in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up while you have the deep collar grip established but have not yet opened your guard - what adjustment prevents escape?",
+      "name": "They start to posture up while you hold the deep collar grip in closed guard: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your legs to pull their hips forward while driving your heels into their lower back, collapsing their posture back down. Simultaneously, use the head control hand to pull their head toward your chest. If they generate significant upward force, use that momentum to initiate the loop choke sequence by opening your guard and turning into the choke as they rise. Their upward posturing can actually help deepen the collar grip as the collar slides further around the neck during the positional change."
@@ -100,7 +100,7 @@ description: "How to execute the Loop Choke from Closed Guard in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Why is the turning motion essential to finishing the Loop Choke rather than simply pulling the collar grip?",
+      "name": "Why is the turning motion essential to finish the loop choke, rather than just pulling the collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The turning motion is what wraps the collar around the opponent's neck in a loop configuration. Without rotation, the collar grip creates linear pressure on only one side of the neck rather than the circumferential bilateral compression needed for an effective blood choke. The turn converts a single-point collar grip into a 270-degree wrap around the neck that compresses both carotid arteries simultaneously. Additionally, the self-tightening nature of the loop means that the opponent's own resistance against the turn increases the choking pressure."
@@ -108,7 +108,7 @@ description: "How to execute the Loop Choke from Closed Guard in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What should you do if the loop choke does not produce a tap within 6 seconds of applying full finishing pressure?",
+      "name": "No tap after 6 seconds of full loop choke pressure from closed guard: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the choke has not produced a tap within 6 seconds, the setup is likely incorrect - most commonly the collar grip is too shallow, creating an air choke rather than a blood choke. You should release the pressure and either reset the grip to achieve proper depth or transition to a different attack. Continuing to force a poorly positioned choke is both ineffective and dangerous, as prolonged air choke pressure risks tracheal damage without achieving submission. A properly positioned blood choke produces a tap within 3-5 seconds."
@@ -116,7 +116,7 @@ description: "How to execute the Loop Choke from Closed Guard in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What grip depth indicators confirm the collar is properly positioned before initiating the turning motion?",
+      "name": "What grip depth indicators confirm the collar is set before you turn into the loop choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators of proper grip depth include: all four fingers have passed the trachea and are positioned against the side or back of the neck, the thumb presses against the lateral side of the neck creating a C-shape around the neck's vascular structures, the collar material has no slack between your hand and the opponent's neck, and when you apply light tension you can feel the collar tightening around the sides of the neck rather than across the front of the throat. If you feel the collar pressing on the adam's apple or windpipe, the grip is too shallow and must be deepened before turning."

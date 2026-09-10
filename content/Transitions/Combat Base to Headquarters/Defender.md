@@ -56,7 +56,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is transitioning from Combat Base to Headquarters?",
+      "name": "What's the earliest cue that the top player is moving from combat base to headquarters?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer establishing a pants grip at your knee level with the hand on their posted-knee side, combined with their opposite hand moving to strip your frames or grips. This grip change precedes the physical knee drive by one to two seconds, providing a critical reaction window. Secondary cues include the posted knee shifting inward and forward from its neutral position and a noticeable weight shift onto the posted knee."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving their knee toward the mat to pin your leg—what is your highest-priority defensive action?",
+      "name": "They drive their knee down to pin your leg for headquarters: your top defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is inserting a knee shield across the passer's torso before their knee passes your thigh line. The knee shield provides a structural barrier that the passer cannot simply power through, buying time for grip establishment and additional defensive layers. If the knee shield window has already passed, the secondary priority is inserting a butterfly hook under their thigh to create elevation and sweep opportunities during their compromised weight transfer phase."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy change depending on whether the passer controls your near or far leg?",
+      "name": "How does your defense change if the passer pins your near leg versus your far leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer controls your near leg (the leg closest to their posted knee), the knee shield is your primary defense since the short distance allows quick frame insertion. When they control your far leg, De La Riva hooks and foot-on-hip frames become more effective because the crossing angle required for the far leg pin creates more time and space for defensive structure establishment. The far leg pin is also inherently weaker for the passer since their body mechanics are less aligned, making your defensive reactions more likely to succeed."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
     },
     {
       "@type": "Question",
-      "name": "Why is it significantly harder to escape headquarters once it is established compared to preventing the entry?",
+      "name": "Why is escaping established headquarters much harder than preventing the entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once headquarters is established, the passer has a stable triangulated base, sustained downward pressure on your pinned leg through hip weight and skeletal alignment, and upper body control that limits your framing ability. Escaping requires overcoming all three control layers simultaneously, which demands far more energy than establishing a single preventive frame before the entry. The passer also has multiple passing options that punish escape attempts, creating a dilemma where defensive movement opens passing lanes."
@@ -88,7 +88,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
     },
     {
       "@type": "Question",
-      "name": "What counter-offensive opportunities exist during the passer's transition from Combat Base to Headquarters?",
+      "name": "What counters open up during the passer's combat base to headquarters transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer's weight transfer phase creates a narrow window where their base is compromised—weight is shifting forward, the posting leg has not yet been repositioned, and their grips are transitioning between positions. During this window, butterfly hook elevations have the highest success rate for sweeps. Additionally, the passer's forward commitment can be exploited for arm drag entries to back takes or kimura grip attacks on the arm controlling your leg, especially when their opposite hand releases upper body control to clear your frames."

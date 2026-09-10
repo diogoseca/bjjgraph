@@ -72,7 +72,7 @@ description: "Defend the Toreando pass from Double Sleeve Guard. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has controlled both your legs at the knees and begins the lateral swing—what is your best defensive option?",
+      "name": "They control both knees and begin the lateral swing — your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape aggressively in the opposite direction of the lateral swing while framing on the opponent's shoulder or bicep with both hands. Your hip movement must outpace their lateral circling to keep your legs between your body and theirs. Simultaneously work to free at least one leg by kicking through their grip or hooking their arm with your foot. If you can free one leg and insert it as a knee shield, you recover to half guard and prevent the complete pass."

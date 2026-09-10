@@ -56,7 +56,7 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that indicate a stack attempt is being initiated from top position?",
+      "name": "What are the earliest cues that they're starting a stack against your inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent gripping your pants at the waistband or hip level, lowering their center of gravity by bending at the knees and hips, and shifting their weight forward with chest angling toward your body. You may also feel increased downward pressure on your elevated legs and notice them breaking or ignoring your offensive grips in favor of hip control. Recognizing these cues before the stack engages allows you to establish preventive frames."
@@ -64,7 +64,7 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain weight on your shoulder blades rather than your neck during stack defense?",
+      "name": "Why keep the load on your shoulder blades, not your neck, during stack defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back."
@@ -72,7 +72,7 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your frames have been stripped and the opponent is driving you into a full stack. What is your highest percentage escape?",
+      "name": "Your frames are stripped and they're driving a full stack: highest percentage escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When fully stacked with frames compromised, your highest percentage escape is the lateral granby roll to the side where the opponent has less grip control. Commit fully to the roll by driving through your posting shoulder and using whatever hip mobility remains to initiate rotation. Even a partial roll disrupts the stacking angle and may create enough space to re-establish frames or recover to a sustainable guard position before the pass completes."
@@ -80,7 +80,7 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you use your legs differently when defending a stack versus playing offensive inverted guard?",
+      "name": "How do your legs work differently defending a stack versus attacking from inverted guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During offensive inverted guard, your legs extend toward the opponent to create hooks, manage distance, and facilitate rotation for berimbolo entries. When defending a stack, your legs shift to a primarily framing role with feet pressing firmly against the opponent's hips, shoulders, or biceps to create structural barriers that prevent compression. This transition from offensive hooks to defensive frames should happen immediately upon recognizing the stack attempt, prioritizing survival over maintaining attack position."

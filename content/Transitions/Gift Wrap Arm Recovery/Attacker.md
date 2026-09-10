@@ -98,7 +98,7 @@ description: "How to execute Gift Wrap Arm Recovery in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent attacks the rear naked choke the moment you begin arm recovery - what is your response?",
+      "name": "They attack the rear naked choke as you start Gift Wrap arm recovery: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the arm recovery attempt and bring your free hand directly to choke defense, using both hands if necessary. The rear naked choke is a more immediate threat than the arm trap. Once the choke threat passes and the opponent's choking arm is controlled, you can re-attempt the arm recovery from the same defensive position."

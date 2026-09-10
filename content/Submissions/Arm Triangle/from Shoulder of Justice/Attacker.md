@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Shoulder of 
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from the opponent creates the arm triangle opportunity from Shoulder of Justice?",
+      "name": "Which defensive reaction to Shoulder of Justice opens the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is the opponent bringing their far arm across their own face and neck to shield against the intense jaw pressure of Shoulder of Justice. Their forearm or hand pushes against your shoulder or crosses their own throat line to relieve the pressure. This arm crossing their own neck positions their shoulder against their carotid, creating the head-and-arm configuration. Rather than fighting this reaction, you capitalize on it as the setup for the arm triangle."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Shoulder of 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to retract their far arm during the grip switch - what adjustment prevents escape?",
+      "name": "They retract the far arm during your Shoulder of Justice grip switch — what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase chest pressure immediately by driving your weight down onto their retracting arm before it clears. If you cannot pin it, abandon the arm triangle attempt and immediately re-establish Shoulder of Justice jaw pressure with your shoulder back in their chin. Do not chase a half-locked arm triangle. The retraction removes their own defense against the jaw pressure, so returning to Shoulder of Justice restarts the dilemma cycle and the reaction will reappear."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Shoulder of 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
+      "name": "With the arm triangle locked from Shoulder of Justice, what shows escape is no longer possible?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body. Their face may begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively to disrupt your angle, they have passed the point of no escape and the finish is imminent."

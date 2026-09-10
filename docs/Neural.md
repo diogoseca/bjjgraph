@@ -59,16 +59,12 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 
 ### Landing
 
-`renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
-**film → one multiple-choice question (three options) → your options → More**. The timed card has
-no header or footer and prints no name or side. Its top-right corner holds the card-layer
-✕ and, under it, the deck's `done/total` as quiet grey text (v1.175.0, owner: "very very
-discreet") — no glyph, no pill, nothing to press.
+`renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray:
+**film → one three-option question → your options → More**. The timed card has no header,
+footer, name or side. Top-right: card-layer ✕, then noninteractive grey `done/total` text.
 
-The capture star sits immediately after the graph's role/seat label, using the existing seat
-vocabulary for positions, transitions and submissions. A quiet outline opens the list picker;
-a filled gold star means the technique belongs to at least one list. Closing the question card
-does not hide this control. Lists continue to save whole techniques across their two seats.
+The star beside each graph seat label opens the list picker: outline if unsaved, gold if listed.
+It remains after card dismissal. Lists save whole techniques across both seats.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
@@ -585,12 +581,11 @@ rightmost tab paged twice and landed two tabs away — "passing through the midd
 landing on it". The clamp was never involved. The touch path was always one step, because a drag
 has an explicit end.
 
-**Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
-results before any section exists, so a match inside a folded group is never hidden; that query
-branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
-the top, built from the same three-rung indent as every other group. Systems use topic branches
-with counts and indented system leaves, matching position families. Topic folds start collapsed,
-remain independent, and survive detail/back navigation and section folds within the session.
+**Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
+filter to `rep` to avoid duplicates. Lists sit first and use the
+shared three-rung indent. Systems have counted topic branches and indented leaves, like position
+families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
+section folds for the session.
 
 **A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
 (`concepts.json`, `systems.json`) carries the card and the ids it lights; the body rides the

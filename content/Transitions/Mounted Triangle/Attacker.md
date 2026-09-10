@@ -100,7 +100,7 @@ description: "How to execute Mounted Triangle in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "The opponent is defending by keeping both elbows tight to their body - how do you create the arm isolation needed?",
+      "name": "They keep both elbows tight to their body — how do you isolate an arm for the mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack with collar chokes or cross-face pressure to force them to use their hands defensively. When they reach up to defend their neck, immediately capture the extended arm. Alternatively, use americana or kimura setups to force arm extension. The key principle is creating dilemmas—threaten something they must defend with their arms, then capitalize on the reaching motion."

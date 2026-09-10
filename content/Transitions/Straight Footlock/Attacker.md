@@ -74,7 +74,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary power source for finishing the Straight Footlock, and what role do the arms play?",
+      "name": "What powers the straight footlock finish, and what job do the arms have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip extension backward is the primary power source, engaging the entire posterior chain including glutes and hamstrings. The arms serve exclusively to compress and secure the foot in position, creating the rigid fulcrum point against the Achilles tendon. Arms do not generate finishing force. Pulling with the arms is the most common beginner error and wastes energy without producing sufficient pressure to overcome calf muscle resistance."
@@ -82,7 +82,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your forearm is seated behind the Achilles but the defender begins externally rotating their hip during your extension - what immediate adjustment do you make?",
+      "name": "Forearm is behind the Achilles and they externally rotate the hip: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pinch your knees together more aggressively to block the rotation before it progresses. If rotation has already begun, you have two options: follow the rotation and transition to Outside Ashi-Garami where the rotation actually helps your advancement, or switch to belly-down finish which pins the defender and eliminates their rotation ability entirely. Never fight the rotation with grip strength alone as it wastes energy without addressing the root mechanical problem."
@@ -90,7 +90,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What specific anatomical contact point must your forearm make for the finish to be mechanically sound?",
+      "name": "Which part of your forearm must contact the Achilles for a mechanically sound footlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The blade of your forearm, specifically the bony ridge on the thumb side where the radius bone is closest to the skin surface, must be positioned directly behind the Achilles tendon. This creates a hard, unyielding fulcrum that maximizes pressure transfer during hip extension. If the bicep or wrist contacts the Achilles instead, the soft tissue compresses without generating sufficient focused pressure, making the finish ineffective regardless of how much force you apply."
@@ -98,7 +98,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Why must you verify leg control before committing to the hip extension, and what specific check do you perform?",
+      "name": "Why check leg control before hip extension in the footlock, and what check do you perform?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leg control prevents the defender's hip rotation, which is the primary escape mechanism that instantly relieves all dorsiflexion pressure. Before extending, verify that your knees are pinched together creating a vice around the defender's thigh, your legs are wrapped securely in figure-four or dual shin configuration, and the defender cannot rotate when you apply light test pressure. Extending without this verification means any hip rotation during the finish immediately nullifies your effort."
@@ -106,7 +106,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "You have been extending for 5 seconds and the defender's boot defense is preventing the finish - should you continue or transition?",
+      "name": "Five seconds of extension and their boot defense holds: keep finishing or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately. If the finish is not producing progressive pressure within 5-8 seconds, the defender has successfully neutralized your attack and continuing wastes energy while their defensive frames strengthen. The boot defense specifically exposes the knee to kneebar attack, so redirect control above the knee joint. Alternatively, if their boot defense involves hip rotation, follow the rotation into Inside or Outside Ashi-Garami for heel hook threats that bypass the ankle defense entirely."
@@ -114,7 +114,7 @@ description: "How to execute Straight Footlock in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for committing to the Straight Footlock finish after establishing Straight Ankle Lock Control?",
+      "name": "After establishing straight ankle lock control, what is the best window to commit to the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is within the first 8-15 seconds of establishing control. During this period, grips are freshest, leg control is tightest, and the defender has not yet accumulated sufficient defensive frames or grip breaks to neutralize the attack. Beyond this window, the energy dynamic shifts toward the defender as their escape sequences progressively loosen control. Quick decisive action, either finishing or transitioning, is essential."

@@ -58,7 +58,7 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the North-South Choke is being set up from Ushiro Kesa Gatame?",
+      "name": "What is the earliest cue that a north-south choke is coming from ushiro kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker's near arm beginning to slide from its position controlling your arm toward the space beneath your neck. This arm movement often coincides with the attacker adjusting their far hand to control your far arm, signaling a shift from positional control to submission setup. You may also feel a subtle shift in the attacker's hip position as they prepare for the transition to north-south alignment."
@@ -90,7 +90,7 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
     },
     {
       "@type": "Question",
-      "name": "Your bridge attempt during the attacker's hip transition fails and the choke is now partially locked - what is your next defensive priority?",
+      "name": "Your bridge fails and the choke is partially locked—what is your next defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bridge fails and the arm is partially threaded, immediately shift to grip fighting. Target the attacker's choking hand or wrist with both hands and attempt to pull it free before they establish the locking grip. Simultaneously hip escape to create angle that reduces the depth of the arm beneath your neck. If you cannot strip the grip within 2-3 seconds and you feel bilateral pressure building on both sides of your neck, tap immediately rather than continuing to fight a deteriorating position."
@@ -98,7 +98,7 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
     },
     {
       "@type": "Question",
-      "name": "What proactive body positioning should you maintain while in Ushiro Kesa Gatame bottom to make the North-South Choke entry more difficult before the attack even begins?",
+      "name": "From ushiro kesa gatame bottom, what positioning proactively denies the north-south choke entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid staying flat on your back, as this gives the attacker maximum access to your neck. Turn slightly onto your side toward the attacker to reduce the angle available for arm threading. Keep your chin tucked habitually as a default defensive posture, not only when you sense the choke setup. Maintain your near arm in a tight defensive position with the elbow against your ribs and hand near your opposite shoulder. Use your far arm to frame against the attacker's hip to prevent them from settling their full weight and consolidating control. This proactive positioning forces the attacker to solve multiple defensive problems before they can even begin the choke sequence."

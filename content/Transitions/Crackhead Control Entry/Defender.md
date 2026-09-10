@@ -56,7 +56,7 @@ description: "Defend against Crackhead Control Entry from Rubber Guard top. Lear
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a Crackhead Control Entry is being attempted from Rubber Guard?",
+      "name": "From rubber guard, what are the earliest cues of a Crackhead Control entry attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: the bottom player's free hand moving toward your trapped wrist or forearm rather than maintaining head control; a subtle hip angle shift beneath you as they rotate toward your trapped arm side to create the mechanical pathway; and a temporary reduction in head-pulling pressure as they redirect energy toward the grip transfer sequence. These cues precede the actual entry by one to two seconds, providing the critical defensive window."
@@ -64,7 +64,7 @@ description: "Defend against Crackhead Control Entry from Rubber Guard top. Lear
     },
     {
       "@type": "Question",
-      "name": "Why is circular arm extraction more effective than pulling the arm straight back against the cross-body pull?",
+      "name": "Why beat the cross-body arm pull with circular extraction instead of pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight back fights directly against the cross-body pull's leverage, creating a tug-of-war where the bottom player has superior mechanical advantage through their leg pressure and body weight. Circular extraction—rotating the elbow outward and downward—changes the angle of force, bypassing the direct resistance line and exploiting the gap in the bottom player's grip configuration where their fingers are weakest. This requires substantially less strength and is mechanically sound."
@@ -72,7 +72,7 @@ description: "Defend against Crackhead Control Entry from Rubber Guard top. Lear
     },
     {
       "@type": "Question",
-      "name": "Your arm has been partially pulled across your centerline but the leg has not yet repositioned—what is your best remaining defensive option?",
+      "name": "Your arm is pulled across your centerline but their leg has not repositioned yet. Best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately commit to explosive posture recovery combined with driving your shoulder into the bottom player's chest before the leg repositions to lock the configuration. Use your free hand to post on the mat and push your body upward while simultaneously circling the trapped elbow back toward your body. If the arm cannot be fully extracted, transition to stacking defense to compress the bottom player and relieve the leg pressure before they complete the structural lock."
@@ -88,7 +88,7 @@ description: "Defend against Crackhead Control Entry from Rubber Guard top. Lear
     },
     {
       "@type": "Question",
-      "name": "What energy management considerations apply when defending against repeated Crackhead Control Entry attempts?",
+      "name": "How should you manage energy against repeated Crackhead Control entry attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Crackhead Control Entry creates urgency that can cause the defender to waste energy on ineffective explosive movements. Prioritize one decisive defensive action per attempt rather than multiple half-committed responses. If the first defense fails to fully prevent the entry, immediately transition to defending the established Crackhead Control position rather than continuing to fight the completed entry. Accepting a partially advanced position and defending from there conserves more energy than exhausting yourself fighting a locked position."

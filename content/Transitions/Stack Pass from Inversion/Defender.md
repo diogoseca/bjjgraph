@@ -66,7 +66,7 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured control of both legs and begins driving forward - what is your defensive sequence?",
+      "name": "They control both your legs and drive forward: what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, frame both hands against their shoulders to slow the forward drive and buy time. Second, attempt to pummel at least one leg free by circling your foot outside their grip. If leg recovery fails, immediately initiate a Granby roll in the direction of their dominant pressure before compression removes your mobility. Do not waste energy fighting the stack statically - either recover legs or roll. Decisive early action prevents being trapped in the worst phase of the stack."
@@ -82,7 +82,7 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you convert a failed stack defense into the best available position rather than being passed to side control?",
+      "name": "Your stack defense fails: how do you avoid conceding side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the stack is nearly complete and you cannot prevent the pass, focus on controlling the direction of the pass by using your arms to steer their body to one side while initiating a hip escape in the opposite direction. As they clear your legs, immediately shoot your nearest knee across their hip line to recover half guard rather than conceding full side control. Even partial guard recovery from a failed stack defense gives you a fighting position with sweep and submission options."

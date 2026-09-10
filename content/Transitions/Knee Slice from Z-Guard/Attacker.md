@@ -74,7 +74,7 @@ description: "Complete attacker guide for the Knee Slice from Z-Guard. Learn shi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has a strong Z-Guard with their knee shield high on your shoulder—what must you accomplish before initiating the knee slice?",
+      "name": "Their Z-guard shield is high on your shoulder: what must you do before the knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must collapse the knee shield from shoulder height to at least chest or hip level before the slice can work. This requires establishing crossface or collar control first to pin their upper body, then applying progressive hip and chest pressure at an angle into the shield. Attempting the slice against a fully elevated Z-Guard shield will fail because the elevated knee mechanically blocks the slicing trajectory. The preparation phase is non-negotiable for consistent success."
@@ -90,7 +90,7 @@ description: "Complete attacker guide for the Knee Slice from Z-Guard. Learn shi
     },
     {
       "@type": "Question",
-      "name": "You begin the knee slice and your opponent immediately dives underneath for deep half guard—how do you respond?",
+      "name": "You start the knee slice from Z-guard and they dive for deep half: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back and drive shoulder pressure into their far shoulder to arrest the deep half entry before it completes. If you catch it early enough, the sprawl will deny them the space to get their head underneath your hips. If they complete the entry, transition to deep half guard passing rather than trying to retreat to Z-Guard top. Prevention is always preferable—maintaining heavy hip pressure throughout the slice denies the space they need for the deep half dive."
@@ -106,7 +106,7 @@ description: "Complete attacker guide for the Knee Slice from Z-Guard. Learn shi
     },
     {
       "@type": "Question",
-      "name": "Your crossface is established but the opponent keeps re-inserting their knee shield each time you attempt to slice—what adjustment do you make?",
+      "name": "Crossface is set but they keep re-inserting the knee shield against your knee slice—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The re-insertion indicates insufficient control of the shield leg itself. Add a direct grip on their knee or shin with your free hand to physically prevent the re-insertion while maintaining the crossface with the other arm. Alternatively, switch to pinning their shield leg with your own knee pressure on their inner thigh before releasing the crossface grip. The key insight is that crossface alone controls the upper body but not the shield leg—you need both controlled simultaneously."

@@ -82,7 +82,7 @@ description: "Defend and escape the Inside Sankaku heel hook finish with early r
     },
     {
       "@type": "Question",
-      "name": "Your opponent momentarily releases hip pressure to adjust their grip - what escape opportunity does this create?",
+      "name": "They briefly release hip pressure to regrip: what escape does this open from Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loss of hip pressure creates your primary escape window because the hip-to-hip connection is what prevents you from creating extraction distance. Immediately pump your hips backward using your free leg as a pushing frame against their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while maintaining heel protection with your near hand on your ankle. You must move quickly because the opponent will recognize the gap and re-engage hip pressure within one to two seconds."
@@ -90,7 +90,7 @@ description: "Defend and escape the Inside Sankaku heel hook finish with early r
     },
     {
       "@type": "Question",
-      "name": "Why is attempting to pass the knee line by turning into the opponent the worst defensive mistake from Inside Sankaku?",
+      "name": "Why is turning into your opponent to pass the knee line the worst Inside Sankaku mistake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the opponent to pass the knee line is catastrophic because it brings your second leg into the entanglement, transitioning you directly into the Saddle position where both legs are trapped. The Saddle provides the opponent with even greater control, eliminates most of your remaining escape options, and often exposes your heel more completely than the original Inside Sankaku. This mistake essentially helps the opponent advance to a stronger position while you burn energy on a movement that worsens your situation. All escape movement should be directed away from the opponent to create distance."

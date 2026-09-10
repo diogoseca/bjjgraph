@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "At what point during Shoulder of Justice pressure does the kimura opportunity typically present itself?",
+        "question": "During Shoulder of Justice pressure, when does the kimura opportunity usually appear?",
         "answer": "The kimura opportunity presents when the opponent extends their near arm to push away your shoulder from their jaw. This arm extension is an instinctive pain-relief response to the intense pressure on their temporomandibular joint. The window is narrow—typically 1-2 seconds before they realize the exposure and retract. Maintaining heavy, consistent jaw pressure increases the probability and frequency of this reaction.",
         "safety_critical": false,
         "answer_line": "When they reach to push you off",
@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "Why must the kimura be applied with slow progressive pressure rather than explosive rotational force?",
+        "question": "Why must the kimura be applied with slow progressive pressure rather than explosive rotation?",
         "answer": "The shoulder joint can sustain catastrophic, career-ending damage (dislocation, rotator cuff tear, labrum tear) before the opponent experiences sufficient pain to recognize the need to tap. The pain signal often lags behind the structural damage, especially under adrenaline. Slow progressive pressure gives your training partner time to feel the submission developing and tap before injury occurs. Explosive application treats training partners as disposable and violates the fundamental trust that makes martial arts practice possible.",
         "safety_critical": true,
         "answer_line": "Pain lags behind joint damage",
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "Your opponent begins to bridge and roll toward you during the kimura attempt—how do you maintain the submission?",
+        "question": "Shoulder of Justice kimura: they bridge and roll toward you—how do you keep the submission?",
         "answer": "Follow the roll while maintaining the figure-four grip throughout the rotation. The kimura grip remains mechanically effective regardless of which side you end up on after the roll. Do not resist the roll by bracing—this often results in losing the grip. Instead, roll with them, let the momentum complete, and finish the kimura from the new top position. If you end up in their guard after the roll, the kimura grip still provides a strong finishing and sweeping platform.",
         "safety_critical": false,
         "answer_line": "Roll with them, keep the grip",
@@ -462,7 +462,7 @@
         }
       },
       {
-        "question": "What physical indicators tell you the opponent's shoulder is approaching its breaking point during the kimura rotation?",
+        "question": "What signs show their shoulder is nearing its breaking point during the kimura rotation?",
         "answer": "Several indicators signal you are approaching the shoulder's structural limit: the opponent's body begins involuntarily lifting or arching as their torso tries to follow the arm rotation to relieve joint stress, their breathing becomes rapid and audible, you feel a progressive increase in resistance followed by a sudden softening as the rotator cuff muscles fatigue and the joint capsule stretches, and the forearm approaches or passes perpendicular to the mat surface. At any of these signs, slow your application further and give the opponent additional time to recognize the submission and tap. Never push through these warning signs in training.",
         "safety_critical": true,
         "answer_line": "Body arches, breathing spikes",
@@ -477,7 +477,7 @@
         }
       },
       {
-        "question": "How should you adjust your kimura finishing strategy in a competition context where points and advantages matter?",
+        "question": "How should you adjust your kimura finishing strategy in competition, where points matter?",
         "answer": "In competition, the kimura grip itself is a powerful positional control tool beyond just the submission. If the opponent defends the finish effectively, use the grip to score advantages by threatening the rotation repeatedly, or transition the kimura grip into a back take by rolling them to their stomach for 4 points. If the opponent is stalling against the submission, transition to belly-down to increase urgency and force a tap or a scramble that creates scoring opportunities. Never abandon a secured kimura grip in competition—it controls the opponent even when the finish is temporarily unavailable, and referees award advantages for sustained near-submission threats.",
         "safety_critical": false,
         "answer_line": "Grip controls even without tap",
@@ -643,7 +643,7 @@
         }
       },
       {
-        "question": "What should you do if the attacker has fully locked the kimura grip and begun applying rotational pressure?",
+        "question": "The attacker has the kimura locked and is rotating—what should you do as the defender?",
         "answer": "Tap immediately if you feel your shoulder reaching its rotational limit. The kimura can cause catastrophic shoulder damage before pain becomes severe enough to process. If you still have defensive options, clasp your free hand onto the trapped wrist, turn your entire body toward the attacker to reduce the rotation angle, and bridge to disrupt their base. Never try to tough out a locked kimura that is being rotated—the injury risk is too severe and the escape probability at this stage is extremely low.",
         "safety_critical": true,
         "answer_line": "Tap before shoulder limit",

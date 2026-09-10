@@ -74,7 +74,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the two critical grip positions required before executing an effective snap down to front headlock?",
+      "name": "Which two grips must you have before snapping down to a front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two critical grips are: (1) Primary head/neck control with hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the leverage to direct their descent and maintain control throughout the transition."
@@ -82,7 +82,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "Why is it essential to drive your hips forward during the snap down rather than simply pulling with your arms?",
+      "name": "In the snap down, why drive your hips forward instead of just pulling with your arms?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip drive is essential because arm strength alone generates insufficient force to overcome an opponent's structural base and postural resistance. By driving hips forward while pulling downward, you engage larger muscle groups including lats, core, and hips, creating significantly more power. Forward hip drive also positions your body weight over the opponent as they descend, establishing the dominant angle necessary for front headlock control and preventing posture recovery."
@@ -90,7 +90,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls and drives forward as you initiate the snap down - what is the correct response?",
+      "name": "Your opponent sprawls and drives forward as you start the snap down: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent sprawls and drives forward, redirect to alternative techniques rather than forcing the snap. Use their forward drive to change levels and attack their legs with single or double leg takedowns since they have committed their weight forward. Alternatively, execute an arm drag to access their back, or redirect to guillotine if their head is exposed during the sprawl. The key is recognizing the failed snap early and immediately transitioning rather than continuing against their momentum."
@@ -98,7 +98,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "How should the direction of force during the snap differ from a straight downward pull, and why is this critical?",
+      "name": "Why snap down and across your centerline rather than straight down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The snap should be executed downward AND across your centerline rather than straight down. Pulling straight down allows opponent to maintain structural integrity by posting hands directly beneath their shoulders. By directing force down and across your body, you break their structural alignment, making it impossible to post effectively while creating the angle necessary for front headlock control. This diagonal force vector collapses their base and prevents defensive posturing."
@@ -106,7 +106,7 @@ description: "How to execute Snap Down to Front Headlock in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "What immediate submission opportunities become available upon successfully establishing front headlock control?",
+      "name": "Which submissions open up immediately once you establish front headlock control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Front headlock control immediately opens the guillotine, anaconda, and darce chokes, plus various neck cranks, depending on the opponent's reactions. The guillotine uses your existing head control to secure the choking grip, the anaconda transitions your grip to trap their arm against their neck, and the darce threads under the far arm with the opposite-side grip configuration. The specific submission selected depends on the opponent's defensive reactions, their body positioning, and which grips were established during the snap down."

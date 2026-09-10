@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Transition to Quarter Guard. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is initiating the Transition to Quarter Guard?",
+      "name": "Half guard bottom: earliest cues that the top player is transitioning to quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are heavy crossface establishment with their shoulder driving into your far cheek, active stripping of your underhook through whizzer or shoulder pressure, and incremental forward hip pressure that compresses your half guard space. These preparatory actions occur before any actual leg extraction begins and represent the optimal defensive window—responding to these early cues allows you to disrupt the transition before it gains momentum."

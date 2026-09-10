@@ -56,7 +56,7 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the guard recovery escape from crab ride bottom?",
+      "name": "What is the earliest cue that the bottom player is starting a guard recovery from crab ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their same-side hand reaching toward your hooking foot or ankle. This precedes all other escape movements because the bottom player must address the hook before rotating. Secondary cues include lateral hip shifting and aggressive chin tucking. By recognizing the hand movement toward your hook, you can increase hook depth and chest pressure before the escape sequence gains momentum."
@@ -64,7 +64,7 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hook when you feel stripping pressure on your ankle from the bottom player?",
+      "name": "How do you adjust your crab ride hook when they apply stripping pressure to your ankle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hooking foot deeper by curling your heel toward the far side of their hip and pressing your shin more firmly against the inside of their thigh. Do not simply resist the pull with foot strength alone. Simultaneously increase your chest pressure to limit their ability to generate stripping force. If the hook is being stripped from the inside, rotate your foot so the pressure direction changes, forcing them to adjust their grip and buy time for you to re-establish depth."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
     },
     {
       "@type": "Question",
-      "name": "When during the escape attempt is the optimal time to transition from crab ride to full back control?",
+      "name": "During their crab ride escape, when is the best moment to take full back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal transition window is the moment when the bottom player has partially rotated their hips but has not yet established any leg barrier or guard frame between your bodies. Their rotation creates exactly the hip angle needed for your second hook to enter, and their focus on completing the turn means they are momentarily not defending hook insertion. Commit to the back take by inserting the second hook and establishing seatbelt during this two-to-three second window."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment prevents the bottom player from completing their hip rotation during the escape?",
+      "name": "Escaping crab ride bottom: which grip stops your opponent completing their hip rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish an overhook on their far arm combined with a collar or head control on the near side. This grip configuration creates a rotational anchor that prevents their shoulders from turning toward you. When they attempt to rotate, your overhook on the far side acts as a brake on their turning motion. Additionally, driving your chest weight toward their far shoulder rather than straight down makes their rotation mechanically much more difficult because they must lift your weight as they turn."

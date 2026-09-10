@@ -98,7 +98,7 @@ description: "Complete guide to executing the bridge escape from Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Your bridge creates six inches of space but the opponent immediately drives forward to resettle - what went wrong?",
+      "name": "Your bridge makes space but they drive forward and resettle - what went wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most likely error is failing to rotate the hips immediately after the bridge peaked. Creating space without changing the angle allows the opponent to simply drive forward into the same chest-to-chest position. The hip rotation must begin before the bridge starts descending, changing the geometry so the opponent cannot simply reapply the same pressure vector. Additionally, the frame arm may not have been properly positioned to block the forward drive."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the bridge escape from Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between a bridge escape from Kuzure Kesa Gatame versus a bridge escape from standard mount?",
+      "name": "How does a bridge escape from kuzure kesa gatame differ from a bridge escape from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From mount, the upa seeks a complete reversal by trapping the arm and leg on one side and rolling the opponent over. From Kuzure Kesa Gatame, the bridge primarily creates space for half guard recovery rather than a full reversal. The scarf hold configuration makes complete reversal difficult because the opponent's body alignment is alongside you rather than directly on top. The bridge direction, hip rotation mechanics, and follow-up actions are all fundamentally different."

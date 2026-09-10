@@ -56,7 +56,7 @@ description: "How to defend against Russian Tie to Back Take in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three control points of the Russian Tie, and which one should you prioritize disrupting as the defender?",
+      "name": "What are the Russian tie's three control points, and which should the defender break first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three control points are: (1) wrist grip on your lead hand, (2) tricep grip above your elbow, and (3) head pressure (forehead) on the outside of your bicep. The wrist grip is typically the highest-priority target for disruption because it is the primary control that prevents you from straightening your arm and recovering posture. Breaking the wrist grip with your free hand using a two-on-one peel immediately weakens the other two control points since the attacker loses the ability to pull your arm across your centerline."
@@ -64,7 +64,7 @@ description: "How to defend against Russian Tie to Back Take in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your controlled arm straight back one of the worst defensive reactions against the Russian Tie?",
+      "name": "Why is yanking your arm straight back one of the worst answers to a Russian tie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight back feeds directly into the attacker's chain attack system because the backward pull creates forward momentum they can use for single leg and ankle pick entries on your near leg. Additionally, pulling back does not break the 2-on-1 grip effectively since the backward motion actually tightens their tricep grip. The attacker has trained specifically to capitalize on this reaction. Instead, you should attack the grip with your free hand, turn your body toward them, or swim your arm forward and up to clear the control."
@@ -72,7 +72,7 @@ description: "How to defend against Russian Tie to Back Take in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a Russian Tie and begun circling - their hip is approaching yours. What is your last effective defensive window?",
+      "name": "They have the Russian tie and are circling—when does your last defensive window close?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your last effective defensive window is before the attacker's hip clears your near hip. Once their hip passes yours, they achieve the perpendicular angle from which the back take becomes biomechanically inevitable and your rotation toward them is blocked by their body position. Before the hip clearing point, you can still turn aggressively into them with an underhook or body lock, strip the wrist grip to reset, or sit to guard as a last resort. After the hip clears, your only realistic option is to manage the back take by defending the seat belt establishment."
@@ -88,7 +88,7 @@ description: "How to defend against Russian Tie to Back Take in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How should you train your defensive reaction time against the Russian Tie to ensure early recognition?",
+      "name": "How should you train reaction time to recognize a Russian tie early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Train with progressive resistance drills where your partner establishes the Russian Tie at increasing speeds while you practice immediate recognition and response. Start with static grip establishment where you identify the three control points (wrist, tricep, head pressure), then progress to slow-motion circling where you practice the turn-in timing. The key metric is reducing your recognition-to-reaction time to under 2 seconds. Film training sessions to identify whether you are reacting to the grip establishment or waiting until the circling phase before defending, and correct any delayed reactions."

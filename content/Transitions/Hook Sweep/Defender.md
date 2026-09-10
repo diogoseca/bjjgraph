@@ -64,7 +64,7 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Why is it more effective to address butterfly hooks through hip positioning rather than trying to remove them with your hands?",
+      "name": "Why deal with butterfly hooks using hip positioning instead of your hands?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Addressing hooks through hip positioning preserves your posture and keeps your hands available for posting and grip fighting, whereas reaching down to grab feet breaks your posture, removes your defensive posting ability, and rarely succeeds against properly flexed hooks that grip the inner thigh securely. By pushing your knees together you compress the space available for hooks, and by sprawling your hips back you move beyond the effective range of the hooks entirely. Both approaches solve the hook problem without compromising your defensive structure or creating submission vulnerabilities."
@@ -72,7 +72,7 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "At what point during the hook sweep sequence does defensive intervention become significantly less effective?",
+      "name": "At what point in the hook sweep does defending become much less effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defensive intervention becomes dramatically less effective once the attacker has achieved all three setup elements simultaneously: the 45-degree angle, deep hook placement, and strong upper body grips with forward pull. Once the coordinated lift-and-pull begins from this fully loaded position, the defender's realistic options narrow to posting, which itself carries submission risk. The critical window for effective defense is during the setup phase when the attacker is establishing angle, deepening hooks, and fighting for grips. Intervening during any of these setup actions is far more energy-efficient and has a much higher success rate than attempting to resist a fully committed sweep."

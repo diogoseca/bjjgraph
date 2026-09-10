@@ -68,7 +68,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage that the berimbolo creates over traditional sweeping mechanics?",
+      "name": "What mechanical advantage does the berimbolo have over traditional sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The berimbolo creates a rotational angle of attack that positions you underneath and behind the opponent, bypassing conventional passing defenses. Unlike traditional sweeps that attempt to off-balance the opponent laterally or forward, the berimbolo uses inversion to access the back from an angle that is extremely difficult to defend once the rotation is initiated. This three-dimensional movement exploits the opponent's natural inability to maintain base while someone rotates underneath their center of gravity."
@@ -76,7 +76,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining the De La Riva hook throughout the entire rotation critical to successful berimbolo execution?",
+      "name": "Why must the De La Riva hook be kept throughout the whole berimbolo rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The De La Riva hook serves as the primary steering and control mechanism during the rotation. It off-balances the opponent forward and prevents them from stepping away or squaring their hips to re-establish base. Without maintaining hook pressure throughout the spin, the opponent can easily disengage, counter-rotate, or step over the inverting practitioner. The hook essentially locks the opponent's near leg in place while the practitioner rotates around it, creating the mechanical advantage necessary for the back-take."
@@ -84,7 +84,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How should a practitioner respond if their opponent successfully grabs their inverting leg and anchors them to the mat during the berimbolo attempt?",
+      "name": "They grab your inverting leg and pin it to the mat mid-berimbolo: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The practitioner should use the pressure and grip on their leg as a spring mechanism to return to De La Riva guard position immediately. Rather than fighting against the anchor, accept the failed berimbolo and immediately transition to alternative attacks such as the waiter sweep from deep De La Riva position, or switch to Reverse De La Riva guard. The key is not to remain static in the partially inverted position, which is vulnerable to passing. Alternatively, if hip control is strong, the practitioner can transition to deep half guard and work from there."
@@ -92,7 +92,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the most common timing error when executing the berimbolo, and how does it compromise the technique?",
+      "name": "What is the most common berimbolo timing error, and how does it compromise the technique?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common timing error is rotating too slowly or hesitating mid-movement. This gives the opponent time to recognize the attack and implement defensive counters such as grabbing the inverting legs, posting against the rotation, or counter-rotating to prevent back exposure. The berimbolo must be executed with explosive, continuous momentum in one smooth motion. Hesitation transforms the technique from a dynamic, difficult-to-defend movement into a predictable, easily countered position that leaves the practitioner vulnerable."
@@ -100,7 +100,7 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why must seatbelt control be established immediately upon completing the rotation, and what happens if this step is delayed?",
+      "name": "Why must seatbelt control be taken the instant the berimbolo rotation ends?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Seatbelt control must be secured the instant you emerge behind the opponent, before they can organize their defense of back control. This brief window exists because the opponent is still reacting to the rotation. Delayed grip establishment allows the opponent to turn into you, escape to turtle position, or initiate a scramble before you secure dominant positioning. The berimbolo rotation and seatbelt grip should be trained as one continuous movement — the hands should be reaching for upper body control the instant the chest reaches the opponent's back, not as a separate subsequent step."

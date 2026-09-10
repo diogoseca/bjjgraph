@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin tightly and you cannot thread your forearm under — what adjustment creates the opening?",
+        "question": "Standing back control: they tuck the chin hard, how do you create the opening for the RNC?",
         "answer": "Thread the forearm along the jawline rather than fighting to go under the chin directly. Apply pressure to the mandible which forces the chin upward and creates the gap. Alternatively, use the knuckle of your index finger as a wedge along the jaw line to create space. You can also threaten a level change or takedown to force their hands away from their neck, then thread when the chin lifts reactively during the balance adjustment.",
         "safety_critical": false,
         "answer_line": "Press mandible, not chin",
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "What are the key differences between finishing the choke standing versus following the opponent to the ground?",
+        "question": "How does finishing the RNC standing differ from following your opponent to the ground?",
         "answer": "Standing finishes rely on dynamic balance management and exploiting brief defensive windows while the opponent's hands are occupied with balance. Ground finishes provide stability through mat friction and hooks, allowing a more patient squeeze. The standing position gives less time but more defensive overload opportunities. Most high-level finishes occur during the transition — the descent splits the opponent's attention between fall protection and choke defense, creating the best window to complete the lock.",
         "safety_critical": false,
         "answer_line": "Best window is the descent",
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "What indicators tell you the choke is properly positioned on the carotid arteries rather than the trachea?",
+        "question": "What tells you the standing RNC is on the carotids rather than the trachea?",
         "answer": "A properly positioned blood choke produces steady bilateral pressure without significant pain complaints from the training partner. The opponent will feel lightheaded and their vision may narrow before feeling unable to breathe. If the opponent reports sharp pain in the throat, coughs, or gags, the forearm is likely on the trachea. The elbow should be centered on the sternum with the forearm blade sitting in the soft tissue lateral to the windpipe on the choking side.",
         "safety_critical": true,
         "answer_line": "Lightheaded, no throat pain",
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "Your opponent starts to turn their shoulders explosively while you have the harness but no choke locked — how do you respond?",
+        "question": "Standing back control with harness but no choke: how do you answer an explosive shoulder turn?",
         "answer": "Follow the rotation by circling with the opponent while maintaining chest-to-back connection and harness grip. Do not fight their momentum head-on. If they complete a partial turn and you lose back angle, transition to a front headlock or arm triangle setup rather than forcing back control against their rotation. If they only turn slightly, use the momentum to take them down and establish grounded back control where their rotation options are limited by the mat.",
         "safety_critical": false,
         "answer_line": "Follow rotation, keep connection",
@@ -404,7 +404,7 @@
         }
       },
       {
-        "question": "What is the correct squeezing mechanic that produces efficient compression without rapid arm fatigue?",
+        "question": "What squeezing mechanic gives efficient RNC compression without rapid arm fatigue?",
         "answer": "The squeeze comes from expanding your chest and squeezing your elbows toward each other using your back muscles, not from pulling with your biceps. Your arms maintain the structural shape of the figure-four while your torso provides the compressive force. Think of making your chest bigger rather than pulling your arms tighter. This uses larger, more fatigue-resistant muscle groups and produces a structural compression that the opponent cannot simply muscle out of.",
         "safety_critical": false,
         "answer_line": "Expand chest, not pull arms",
@@ -434,7 +434,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip sequence when the opponent peels your choking hand off their bicep before the figure-four is fully locked?",
+        "question": "Standing RNC: they peel your hand off their bicep before the figure-four locks, what grip now?",
         "answer": "If they strip the hand-to-bicep connection, immediately switch to a short choke by grabbing your own forearm or wrist instead of the bicep, maintaining forearm pressure across the neck. Alternatively, use a gable grip behind the head for a modified finish. The key is to never release the forearm from the neck position while transitioning grips — the blade stays on the arteries while only the locking configuration changes. Releasing the forearm to re-attempt the bicep grip resets the entire attack and gives the defender time to rebuild their shell.",
         "safety_critical": false,
         "answer_line": "Switch to short choke grip",
@@ -449,7 +449,7 @@
         }
       },
       {
-        "question": "In competition, when should you commit to finishing the choke standing versus deliberately taking your opponent down first?",
+        "question": "In competition, when do you finish the standing RNC versus taking them down first?",
         "answer": "Commit to the standing finish when you have the figure-four locked or nearly locked and the opponent's defensive hands are already defeated. Take them down first when you have strong harness control but cannot clear the defending hands, or when the opponent's base is compromised and a controlled descent will tighten your existing grips. The worst competition decision is attempting a standing finish with an unlocked choke against an opponent with active hand defense — this burns time and energy. Use the takedown as a submission setup rather than treating standing and ground finishes as separate strategies.",
         "safety_critical": false,
         "answer_line": "Commit when figure-four is set",
@@ -607,7 +607,7 @@
         }
       },
       {
-        "question": "Why is controlling your descent to the ground often a better defensive strategy than fighting to stay standing?",
+        "question": "Defending standing back control: why is a controlled descent better than fighting to stay up?",
         "answer": "Dropping to turtle or guard on your own terms changes the angle of the choke attack, provides the mat as an additional defensive surface, and opens escape sequences unavailable while standing. Fighting to stay standing while the choke is being set up divides your attention between balance and neck defense, making both worse. A controlled descent also prevents the attacker from slamming or forcefully taking you down, which could compound the danger of a partially locked choke.",
         "safety_critical": false,
         "answer_line": "Drop to turtle or guard",
@@ -637,7 +637,7 @@
         }
       },
       {
-        "question": "How does the standing variant change your defensive urgency compared to ground-based rear naked choke defense?",
+        "question": "How does the standing RNC change your defensive urgency compared to on the ground?",
         "answer": "The standing variant increases urgency because you face simultaneous threats — the choke itself, loss of balance, and the risk of falling while the choke is partially locked. Unlike ground defense where you can use the mat for leverage and frames, standing defense relies almost entirely on grip fighting and hip movement. However, the standing position also creates opportunity: the inherent instability means the attacker's control is less secure, and explosive direction changes can create separation impossible when the attacker has hooks and mat pressure.",
         "safety_critical": false,
         "answer_line": "Balance risk raises urgency",
@@ -652,7 +652,7 @@
         }
       },
       {
-        "question": "Your attacker has threaded the choking arm deep and is reaching for their bicep to lock the figure-four — what is your last window of defense?",
+        "question": "Standing RNC: their arm is deep and reaching for the bicep, what is your last defensive window?",
         "answer": "This is the final critical window before the choke becomes structurally locked. Use both hands to attack the wrist of the choking arm, pulling it away from the bicep connection point. Simultaneously shrug your near shoulder up into the crook of the choking arm elbow to create space and reduce arterial compression. If you cannot prevent the hand-to-bicep connection within 1-2 seconds, immediately initiate a controlled drop while continuing to fight the grip — the angle change during descent may create enough slack to prevent the full lock.",
         "safety_critical": true,
         "answer_line": "Attack wrist, shrug shoulder up",
@@ -667,7 +667,7 @@
         }
       },
       {
-        "question": "What is the correct direction to strip the choking arm once it has threaded under your chin but the figure-four is not yet locked?",
+        "question": "Which direction do you strip the choking arm once it is under your chin but not yet locked?",
         "answer": "Strip the choking arm upward toward your chin and over the top of your head, or peel it laterally away from the side of your neck using two-on-one control. Never pull the forearm downward toward your chest, as this motion drags the blade of the forearm across the carotid arteries and can actually deepen the choke. The stripping direction must move the forearm away from the arterial targets, not across them. Think of peeling the arm off like removing a scarf over your head rather than pulling it down around your neck.",
         "safety_critical": false,
         "answer_line": "Strip up and over your head",
@@ -682,7 +682,7 @@
         }
       },
       {
-        "question": "How should you recognize the difference between a blood choke that requires an immediate tap and a discomforting but survivable jaw or neck crank?",
+        "question": "How do you tell a blood choke needing an immediate tap from a jaw or neck crank?",
         "answer": "A properly applied blood choke produces a sensation of lightheadedness, visual narrowing or tunnel vision, and a feeling of fading consciousness without necessarily causing sharp pain. A jaw crank or neck crank produces localized pain in the jaw, teeth, or cervical spine without the lightheadedness. However, in training you should tap to both — a crank can cause injury and a choke can render you unconscious within seconds. The distinction matters for defensive positioning: against a blood choke, immediate grip stripping is paramount; against a crank, adjusting head angle can relieve pressure while you work the escape.",
         "safety_critical": true,
         "answer_line": "Lightheaded vs localized pain",

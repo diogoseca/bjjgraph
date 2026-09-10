@@ -108,7 +108,7 @@ description: "How to execute Dogfight Position in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent whizzers hard and threatens a darce choke as you come up—what adjustment prevents this?",
+      "name": "Rising to dogfight, they whizzer hard and threaten a darce: what adjustment stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your head position extremely tight against their shoulder and posture up into the whizzer pressure rather than allowing your posture to break. Circle toward their whizzer side rather than away, which neutralizes their leverage angle for the darce. If the threat becomes serious, be prepared to limp arm out of the whizzer and reset to frames."

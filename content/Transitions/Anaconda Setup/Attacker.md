@@ -74,7 +74,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the key difference between threading your arm for an anaconda choke versus a Darce choke from the front headlock position?",
+      "name": "How does arm threading differ between the anaconda and the darce from front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The anaconda choke threads from the near side under the opponent's neck, wrapping around to trap their near arm against their own neck. The Darce choke threads from the far side, going over the opponent's trapped arm before diving under their neck. The arm threading direction is essentially opposite between the two techniques, though both end in similar grip configurations."
@@ -82,7 +82,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to break the opponent's near-side posting arm before attempting to thread your choking arm?",
+      "name": "Why break their near-side post before threading your choking arm for the anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breaking the posting arm eliminates the opponent's ability to base out and creates a moment of instability where their weight shifts to their far arm. This brief window prevents them from sitting back to guard or turning into you during the vulnerable arm-threading phase. Without breaking this base first, the opponent maintains enough stability to defend the setup easily."
@@ -90,7 +90,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent begins rolling through toward your choking arm side during the setup?",
+      "name": "They roll through toward your choking-arm side during the anaconda setup: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should follow the roll while maintaining your anaconda grip, allowing your body to move with them. As they roll, you can either take their back as they expose it, or end up in a mounted position with the anaconda still locked. The key is not to resist the roll but to flow with it while keeping your grip configuration intact. Many successful anaconda finishes come from mounted position after the opponent rolls through."
@@ -98,7 +98,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What specific anatomical landmark should you aim for when threading your choking arm to ensure proper depth?",
+      "name": "What landmark should your threading hand reach to ensure proper anaconda depth?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should aim to reach their far shoulder blade with your fingertips, or at minimum, drive your hand past their far shoulder. This ensures your arm is threaded deeply enough to trap their arm effectively against their own neck and create the necessary compression for a successful choke. Shallow threading is one of the most common errors that leads to failed setups."
@@ -106,7 +106,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Explain the relationship between hip height and control during the anaconda setup, and why this matters for preventing common escapes?",
+      "name": "How does hip height affect control in the anaconda setup and prevent common escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your hips lower than your opponent's throughout the setup maintains top pressure and prevents rolls and leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable."
@@ -114,7 +114,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "When should you consider switching from an anaconda setup to a Darce setup, and what is the primary indicator that triggers this decision?",
+      "name": "What indicator tells you to abandon the anaconda setup and switch to a darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the Darce when the opponent tucks their near arm tight to their body, making it impossible to trap for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes."

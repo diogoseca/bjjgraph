@@ -56,7 +56,7 @@ description: "Defend against the Kuzure Kesa Gatame to Kesa Gatame transition. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from Kuzure Kesa Gatame to Kesa Gatame?",
+      "name": "What is the earliest cue your opponent is switching from Kuzure Kesa Gatame to Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent threading their arm around the back of your neck while still maintaining chest pressure. This arm movement precedes the hip rotation and is the attacker's first committed step toward kesa gatame. The secondary cue is a subtle weight shift toward your head-side as they prepare to rotate. Recognizing the arm thread gives you the maximum response window before the transition progresses to the hip rotation phase."

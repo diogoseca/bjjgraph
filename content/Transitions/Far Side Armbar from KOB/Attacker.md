@@ -82,7 +82,7 @@ description: "Master the attacking mechanics of the far side armbar from knee on
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you can successfully attempt the far side armbar from knee on belly?",
+      "name": "What conditions must exist before attempting the far side armbar from knee on belly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You need established knee on belly with your knee on the solar plexus and a stable base, a collar or upper body grip with your near hand to prevent turning, the opponent's far arm extended or accessible rather than tucked tight, and sufficient balance to release your far hand and reach across without losing the position. If the opponent is already turned significantly to their side, the far arm angle makes this attack very difficult to execute."
@@ -114,7 +114,7 @@ description: "Master the attacking mechanics of the far side armbar from knee on
     },
     {
       "@type": "Question",
-      "name": "In which direction should you apply force when finishing the armbar after transitioning from knee on belly?",
+      "name": "Finishing the far side armbar from KOB, in which directions do you apply force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the finishing position, force is applied in two coordinated vectors: hips drive upward against the back of the elbow while both hands pull the wrist downward toward your sternum. These opposing forces create the hyperextension leverage across the elbow joint. During the initial wrist capture, pull the far arm toward your body and across the opponent's centerline to begin isolation. During the leg swing, rotational momentum carries you perpendicular to the opponent's body."

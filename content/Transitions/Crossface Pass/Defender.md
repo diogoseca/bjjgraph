@@ -72,7 +72,7 @@ description: "How to defend against the Crossface Pass in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established crossface with shoulder pressure and you are nearly flat - what is your priority sequence?",
+      "name": "Flattened under an established crossface in half guard, what is your defensive priority order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When fully flattened under crossface pressure, your priority sequence is: first protect your far arm from being controlled by keeping it tight to your body or actively framing against the passer's hip, second fight to get back on your side through small hip escapes rather than explosive movements, third attempt to insert knee shield or butterfly hook to create distance, and fourth if those fail transition to lockdown on the trapped leg to prevent extraction and create sweep threats. Do not waste energy on explosive bridge attempts against an established crossface."

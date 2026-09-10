@@ -74,7 +74,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the fundamental difference in leg orientation between Inside Ashi-Garami and open guard that makes this recovery challenging?",
+      "name": "What leg-orientation difference between inside ashi-garami and open guard makes this recovery hard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In Inside Ashi-Garami, both legs wrap around a single leg of the opponent with your hips angled toward their lower body. In open guard, your legs create barriers across the opponent's torso with your hips facing their centerline. The recovery requires transitioning from wrapping one leg to spanning across the torso, plus a significant hip rotation from leg-facing to torso-facing orientation. This reorientation under pressure is the core difficulty."
@@ -82,7 +82,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "Why should you release legs sequentially rather than simultaneously during Inside Ashi-Garami guard recovery?",
+      "name": "Why release your legs sequentially rather than together when recovering guard from inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Simultaneous release creates a gap where no legs control the opponent, allowing them to immediately advance to top position without any barrier. Sequential release ensures continuous leg contact—the first leg released immediately becomes a foot-on-hip barrier while the second leg is still in the entanglement, maintaining distance management throughout the transition and preventing the opponent from freely closing the gap."
@@ -90,7 +90,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping over your inside leg to counter-entangle during your guard recovery—what is your immediate response?",
+      "name": "They step over your inside leg to counter-entangle during your recovery—what's your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the guard recovery and address the counter-entanglement first. If their foot crosses over your inside leg, immediately clear your heel from any hooking danger by pulling your foot to your buttock and rotating your knee inward. Then work to extract your leg from the counter-entanglement before resuming the guard recovery sequence. Continuing the guard recovery while being counter-entangled results in a worse positional outcome than pausing to address the immediate threat."
@@ -106,7 +106,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "When should you choose butterfly guard versus De La Riva guard as your recovery target from Inside Ashi-Garami?",
+      "name": "When do you pick butterfly guard over De La Riva as your recovery target from inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Choose butterfly guard when the opponent stays at close range on their knees during the disengagement, as your legs are already in proximity for hook insertion under their thighs. Choose De La Riva guard when the opponent stands during extraction, as the standing position creates the foot-on-hip distance and leg angle needed for De La Riva hook placement. The opponent's posture during the transition determines which guard variation is mechanically available."
@@ -114,7 +114,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to initiate guard recovery rather than continuing to pursue submissions from Inside Ashi-Garami?",
+      "name": "When should you start recovering guard instead of hunting submissions from inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate guard recovery when two or more of these indicators are present: the opponent has cleared their heel from your grip configuration, they have broken your figure-four or C-grip on their heel, they have begun stepping over your inside leg, or you have exhausted grip strength from extended grip fighting. The ideal timing is to begin recovery during the opponent's extraction movement, using their momentum and directional movement to assist your leg repositioning rather than fighting against their escape direction."

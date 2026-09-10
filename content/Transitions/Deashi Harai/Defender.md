@@ -56,7 +56,7 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is breaking the sleeve grip more important than breaking the collar grip when defending against Deashi Harai?",
+      "name": "Defending Deashi Harai, why break the sleeve grip before the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sleeve grip controls the rotational force that prevents you from posting or recovering balance once the sweep connects. Without the sleeve grip, the opponent cannot drive your arm across your body or prevent you from using that arm for balance recovery. While the collar grip provides the lifting action, a sweep with only a collar grip gives you a free arm to post, step through, or push away. Removing the sleeve grip eliminates the coordinated three-point attack that makes the technique effective."
@@ -64,7 +64,7 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent has attempted Deashi Harai and you successfully retracted your lead leg—what should you expect next and how do you prepare?",
+      "name": "You retracted your lead leg against Deashi Harai. What comes next and how do you prepare?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Expect an immediate follow-up attack on your now heavily-weighted rear leg, most likely Kosoto Gari or Kouchi Gari. When you retract your lead leg, all your weight shifts to the rear foot, creating the exact weight-commitment condition your opponent needs for a different sweep. Prepare by immediately redistributing your weight back to center, stepping your retracted foot down quickly to re-establish a balanced base, and maintaining your grip control to limit their ability to redirect their kuzushi. Anticipating the combination is more important than celebrating your successful defense."
@@ -72,7 +72,7 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "At what point in the Deashi Harai sequence is counter-attacking most viable, and what makes this timing window effective?",
+      "name": "When is countering Deashi Harai most viable, and why is that timing window effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal counter-attack window is the instant the opponent lifts their sweeping foot from the mat to initiate the arc toward your ankle. At this moment, they are standing on a single support leg with their weight committed to the sweep direction, making them highly vulnerable to forward pressure. A well-timed Ouchi Gari or forward drive into their support leg exploits their compromised base. This window is narrow—too early and they haven't committed, too late and the sweep has already connected. Reading the angular positioning and grip tightening that precede the sweep helps you anticipate this moment."
@@ -80,7 +80,7 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "How does stance width affect your vulnerability to Deashi Harai, and what is the optimal defensive stance?",
+      "name": "How does stance width affect Deashi Harai vulnerability, and what stance is optimal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A stance that is too narrow makes you unstable and easy to off-balance with grip manipulation, while a stance that is too wide creates long, committed weight transfers between steps that give the opponent large timing windows. The optimal defensive stance is approximately shoulder-width with a slight stagger, knees bent to lower center of gravity, and weight distributed 50/50 between both feet on the balls of your feet. This allows rapid weight redistribution without committing fully to either leg. Crucially, avoid locking into any single stance configuration—keep your feet alive with subtle adjustments."
@@ -88,7 +88,7 @@ description: "How to defend against Deashi Harai in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "What is the difference between defending Deashi Harai in gi versus no-gi, and how should your defensive priorities shift?",
+      "name": "How does defending Deashi Harai differ in gi versus no-gi, and how do your priorities shift?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, the opponent has persistent sleeve and collar grips that allow sustained kuzushi control, meaning the threat is ongoing as long as grips are maintained. Your primary defense is grip fighting to deny the controlling configuration. In no-gi, the opponent relies on collar ties, wrist control, and overhooks that are more transient and easier to break but require closer distance. No-gi Deashi Harai typically comes from clinch range with less warning. Your defensive priorities shift from grip breaking (gi) to distance management and head position (no-gi), since the collar tie is the primary control mechanism that replaces the gi collar grip."

@@ -56,7 +56,7 @@ description: "Defend your inverted lasso guard against passing attempts. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary recognition cue that the top player is initiating a stack pass rather than arm extraction?",
+      "name": "What cue tells you the top player is stacking rather than extracting the arm from inverted lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is the direction of their pressure: stack passing drives shoulder and chest pressure toward your upper chest and shoulders to flatten the inversion, while arm extraction involves circular arm movement and grip fighting without significant forward compression. Additionally, the stack passer typically steps their lead foot forward near your hip to create a driving platform, whereas the arm extractor maintains their base position and works the grip sequence without committing forward weight. Recognizing this directional difference within one second determines whether you should prepare a sweep counter or a grip retention defense."
@@ -88,7 +88,7 @@ description: "Defend your inverted lasso guard against passing attempts. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your berimbolo rotation with a cartwheel counter-pass. What is your best response?",
+      "name": "They cartwheel-counter your berimbolo from inverted lasso: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent counter-cartwheels, recognize that they are matching your rotational direction and will arrive on the far side. Your best response is to disengage the lasso hook and immediately invert again to face the new angle, establishing a De La Riva hook or new lasso on the arriving leg before they consolidate a passing position. Alternatively, if you can detect the cartwheel early enough, stall your berimbolo rotation and reverse direction to catch them mid-cartwheel with an off-balance sweep. The worst response is continuing the berimbolo rotation into their counter, which delivers you directly into their passing path."

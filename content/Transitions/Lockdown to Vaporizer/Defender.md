@@ -56,7 +56,7 @@ description: "Complete guide to defending the Transition to Vaporizer in BJJ. Le
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when you feel the opponent beginning the Transition to Vaporizer?",
+      "name": "As the top player, what's your top priority when they start the Vaporizer transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The single most important priority is denying the underhook. Without a deep underhook, the opponent cannot generate effective whip-up leverage because they lack the upper body control needed to translate hip drive into positional advancement. The lockdown alone is uncomfortable but manageable; it is the combination of lockdown plus underhook that creates the Vaporizer's offensive power. Immediately establish a whizzer, crossface, or shoulder pressure to prevent underhook penetration before addressing the lockdown or hip drive."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Transition to Vaporizer in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the underhook and is beginning the whip-up - what is your emergency defensive response?",
+      "name": "They have the underhook and are starting the whip-up: what's your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the underhook is established and the whip-up is in motion, immediately widen your base by sprawling your free leg far to the side and dropping your hips toward the mat. Drive your shoulder and chest weight heavily into the opponent to counter their upward hip force. Simultaneously, work to strip the underhook by swimming your arm over theirs or driving your elbow down into their body. If the whip-up continues progressing, prepare to transition to dogfight rather than being swept flat, as you can still fight for position from dogfight."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the Transition to Vaporizer in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the opponent attempting the Vaporizer transition versus the Electric Chair?",
+      "name": "How do you tell a Vaporizer attempt from an Electric Chair entry off the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Vaporizer transition is characterized by the opponent coming up to their side with a whip-up motion while maintaining the lockdown intact, using the underhook to pull themselves tight against you. The Electric Chair, by contrast, involves the opponent releasing the lockdown triangle and stepping their outside leg over your trapped leg to create the leg-splitting configuration. Recognizing which attack is coming allows you to prioritize the correct defense: weight distribution and base for the Vaporizer whip-up, or leg positioning defense for the Electric Chair entry."

@@ -56,7 +56,7 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the 50-50 to outside ashi transition?",
+      "name": "What is the earliest cue that they are entering outside ashi from 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is your opponent releasing or loosening their inside leg control. In normal 50-50, both practitioners maintain tight inside control. When your opponent deliberately relaxes their triangle configuration, it signals the first mechanical step of extraction. This cue precedes the hip rotation by one to two seconds, giving you the maximum defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hip has already started rotating internally - is it too late to tighten inside control?",
+      "name": "Their hip is already rotating toward outside ashi—is tightening inside control still worth it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the hip rotation has begun, tightening inside control becomes low-percentage because you are fighting against the circular extraction momentum. At this phase, switch your defensive strategy from prevention to either counter-offense (racing to your own outside ashi) or disruption (driving forward to stack). Attempting inside control at this stage wastes energy and typically fails against a committed transition."
@@ -72,7 +72,7 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the opponent's heel grip an effective defensive strategy even if it doesn't stop the extraction?",
+      "name": "Why strip their heel grip even if it does not stop the extraction to outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Without heel control on your leg, the opponent's transition to outside ashi loses most of its offensive purpose. Even if they complete the positional change, they arrive in outside ashi without the grip needed to immediately threaten heel hook. This forces them to re-establish grips from the new position, giving you time to work escapes or counter-entanglements. The heel grip is the bridge between positional control and submission threat."
@@ -80,7 +80,7 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "When is racing to your own outside ashi the correct defensive choice versus trying to prevent the extraction?",
+      "name": "When should you race to your own outside ashi instead of preventing their extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Race to counter-transition when you recognize that inside control prevention has failed (opponent's hip rotation is underway) but their leg has not yet fully cleared the entanglement. This mid-phase window is when both practitioners are in transition and the position is maximally fluid. If you wait until their figure-4 is established, counter-transitioning becomes far more difficult because they have structural control."

@@ -74,7 +74,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most vulnerable phase of the Backside 50-50 Entry and how do you minimize risk during it?",
+      "name": "In the Backside 50-50 entry from ashi, which phase is most vulnerable and how do you minimize risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most vulnerable phase is when you remove your inside leg from across the opponent's hip to begin threading it behind them. During this moment, your control is reduced to only the outside leg hook and heel grip. Minimize risk by moving through this phase decisively without pausing, maintaining maximum tension on the outside leg hook, and ensuring your hips are already driving forward before the inside leg releases. The transition from removal to rotation should be one continuous motion."
@@ -82,7 +82,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully hides their heel as you establish Backside 50-50 - what offensive options remain?",
+      "name": "Backside 50-50 top: your opponent hides the heel well, so what offensive options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent hides their heel effectively from Backside 50-50 Top, shift focus to back control advancement. Walk your hips up their body using chest pressure to progress toward seat belt control and hooks. Their commitment to heel defense necessarily compromises their back defense. Alternatively, their heel-hiding posture may expose the toe hold or straight ankle lock angle. The position's power lies in this dual-threat system where defending one attack opens another."
@@ -114,7 +114,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
     },
     {
       "@type": "Question",
-      "name": "What conditions in Inside Ashi-Garami signal that the Backside 50-50 Entry is the right choice over direct submission attempts?",
+      "name": "What signs from inside ashi say to enter Backside 50-50 instead of finishing the heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The entry is optimal when the opponent is successfully defending their heel by rotating their knee inward or controlling your wrist to prevent grip establishment, when they have strong frames preventing advancement to Saddle or Honey Hole, or when they are focused on upper body defense rather than leg extraction. If the opponent is passively allowing heel exposure, finish the submission directly rather than transitioning. The entry solves the problem of good heel defense, not passive opponents."

@@ -84,7 +84,7 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own belt to prevent the figure-four grip from being established - what adjustment completes the submission?",
+      "name": "Overhook control: they grab their own belt to block the figure-four—what completes the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wedge your fingers under their wrist and use your forearm as a fulcrum to peel their grip away from their belt. Apply downward pressure on their elbow with your chest while levering their wrist upward. If the grip is too strong to break, transition to a two-on-one arm drag and take the back instead, then attack the Kimura from back control where their defensive grips are less effective. Never stall fighting one grip—chain to another attack."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What is the critical moment during the overhook-to-Kimura transition that determines success or failure?",
+      "name": "What is the critical moment in the overhook-to-Kimura transition that decides success or failure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip switch—the instant when you release your overhook grip behind their back and reach to capture their wrist—is the highest-risk moment. During this brief window, the opponent has maximum escape opportunity because your armpit seal is maintained only by shoulder pressure, not hand grip. Success requires pre-positioning your free hand near their wrist before initiating the switch, executing the transition in under one second, and maintaining heavy shoulder and head pressure throughout to compensate for the momentary grip change."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "How does hip positioning determine the mechanical advantage when finishing the Kimura from overhook control?",
+      "name": "How does hip position create mechanical advantage when finishing the Kimura from overhook control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips must be close to their trapped shoulder and positioned perpendicular to their body to maximize rotational torque. If your hips are too far away, you lose leverage and must rely on arm strength. If your hips are parallel to theirs instead of perpendicular, the rotational angle is reduced. Sprawling your hips away from their body while keeping them close to the shoulder creates the ideal angle where your bodyweight and hip rotation drive the figure-four through the finishing arc."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their body toward you during the finishing sequence - how do you adjust to maintain the submission?",
+      "name": "Overhook control Kimura: they rotate toward you mid-finish—how do you keep the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation by stepping over their body or adjusting your hip angle to maintain perpendicular positioning relative to their shoulder. Their rotation toward you actually creates a back-take opportunity if they over-commit. If they rotate enough to face you, shift to a top-side Kimura finish by stepping your far leg over their head and sitting back. The key principle is maintaining the angle between your body and their shoulder regardless of how their torso moves."

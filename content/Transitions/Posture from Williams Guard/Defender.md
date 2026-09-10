@@ -56,7 +56,7 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting systematic posture recovery rather than simply resisting the shoulder lock?",
+      "name": "Holding Williams Guard: earliest cue they are posturing systematically, not just resisting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most reliable cue is small circular elbow movements rather than static resistance or linear pulling. Linear pulling indicates untrained escape attempts, while circular movement signals a systematic extraction sequence that will progress through defined phases. Additional confirming cues include widening their knee base, repositioning their free arm toward centerline, and controlled breathing—all indicating a practiced approach that must be countered proactively before it gains momentum."
@@ -64,7 +64,7 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
     },
     {
       "@type": "Question",
-      "name": "Why is the opponent's backward weight shift the optimal moment for hip bump sweep, and how do you time it correctly?",
+      "name": "In Williams Guard, why is their backward weight shift ideal for the hip bump, and how time it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the backward weight shift, the opponent has deliberately reduced their forward base resistance and committed their center of gravity posteriorly. A hip bump sweep directed forward at this moment encounters minimal resistance because their weight is already moving in the opposite direction. Time the sweep by feeling for the pressure reduction on your hips—when their chest lifts away and hip pressure decreases, they have committed to the backward shift and your bridge will meet their weakest defensive angle."
@@ -72,7 +72,7 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy if the opponent achieves partial arm extraction but has not yet recovered posture?",
+      "name": "Williams Guard: they partially extract the arm but have no posture yet. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Partial extraction without posture recovery represents a transitional moment where the opponent is between defensive phases. Immediately attempt to re-isolate the arm by swimming your grip back to figure-four position before they can complete extraction. If re-isolation fails, transition your strategy from Williams Guard maintenance to active closed guard attacks—pull them into broken posture using legs and collar control, establishing traditional closed guard offense where your sweep and submission chains remain viable even without the shoulder lock."
@@ -80,7 +80,7 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
     },
     {
       "@type": "Question",
-      "name": "What offensive transitions become available when your opponent attempts to posture from Williams Guard?",
+      "name": "What attacks open up for you when your opponent tries to posture out of your Williams Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Multiple offensive transitions open during posture attempts. The space created during arm extraction enables omoplata entry by swinging your leg over the exposed shoulder. Their backward weight shift opens hip bump sweeps and flower sweeps. If they post their free arm for base, triangle and kimura entries become available. If they stand, the angle change may enable back take entries or leg entanglements. Each phase of their escape corresponds to specific offensive windows—the skilled defender converts escape attempts into attacking opportunities."

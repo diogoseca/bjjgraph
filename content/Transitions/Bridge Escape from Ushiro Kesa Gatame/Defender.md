@@ -56,7 +56,7 @@ description: "Learn to defend against the Bridge Escape from Ushiro Kesa Gatame.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing a bridge escape from reverse scarf hold bottom?",
+      "name": "What are the earliest cues your opponent is preparing a bridge escape from reverse scarf hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is foot repositioning—feeling or seeing the opponent walk their feet flat onto the mat with heels close to their hips. This shifts them from a passive flat-on-back position to a bridge-ready stance. Secondary cues include establishment of a far-side frame against your hip or shoulder, a deep controlled breath indicating imminent exertion, and subtle core tensing that you can feel through your chest contact. Recognizing these early allows preemptive base adjustment before the explosive bridge initiates."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Bridge Escape from Ushiro Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "How does attacking the near-side arm preemptively reduce the effectiveness of bridge escape attempts?",
+      "name": "How does attacking the near-side arm preemptively blunt their bridge escape attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attacking the near-side arm with kimura or americana forces the opponent to prioritize arm defense over escape preparation. They must pull their arm back to defensive position, use their far-side hand to defend the submission rather than establishing frames, and abandon foot repositioning to address the immediate threat. This resets their escape preparation timeline and drains energy on defense rather than offense. However, you must maintain base during the submission attempt—committing both hands to the attack without adjusting your base creates a window where a desperate bridge may succeed."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Bridge Escape from Ushiro Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes a powerful bridge that lifts your hips significantly—should you fight to maintain reverse scarf hold or transition?",
+      "name": "Their bridge lifts your hips significantly - fight to keep reverse scarf hold, or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition rather than fight. When a bridge generates enough force to significantly displace your hips, attempting to resettle reverse scarf hold creates an energy-intensive scramble with uncertain results. Instead, use the opponent's upward momentum to step your far leg over their body into mount position, converting their escape energy into your positional advancement. This tactical awareness—recognizing when to maintain versus when to transition—separates effective reverse scarf hold players from those who waste energy fighting losing battles to maintain a specific configuration."
@@ -88,7 +88,7 @@ description: "Learn to defend against the Bridge Escape from Ushiro Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "What is the most common error defenders make when responding to a bridge escape attempt from reverse scarf hold?",
+      "name": "What is the most common defensive error against bridge escapes from reverse scarf hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is maintaining a narrow base that makes directional bridges highly effective. Many practitioners settle into reverse scarf hold with their legs close together or both knees tightly positioned, which provides excellent pressure but poor resistance against angled bridges. When the opponent bridges at a 45-degree angle toward the defender's back, a narrow base cannot absorb the directional force, leading to displacement and space creation. The correction is maintaining a wide, sprawled base with legs extended at angles, sacrificing some compression for significantly improved bridge resistance."

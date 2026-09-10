@@ -56,7 +56,7 @@ description: "Learn to defend the Rubber Guard Sweep from top position. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Rubber Guard Sweep attempt is imminent from the top position?",
+      "name": "From rubber guard top, what is the earliest cue that a sweep attempt is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's hip loading, felt as their lower back lifting slightly off the mat creating space for the explosive bridge. This often accompanies a subtle body angle change where their torso shifts toward a 45-degree line aimed at your trapped-arm side. Recognizing this pre-sweep positioning gives you the maximum reaction window to post, drive hips forward, or begin arm extraction."
@@ -72,7 +72,7 @@ description: "Learn to defend the Rubber Guard Sweep from top position. Recognit
     },
     {
       "@type": "Question",
-      "name": "How do you maintain defensive awareness for both the sweep and submission threats simultaneously from rubber guard top?",
+      "name": "From rubber guard top, how do you stay ready for both the sweep and the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a compromise position with moderate forward pressure and one hand ready to post for sweep defense while keeping your trapped arm tight and chin tucked for submission defense. Avoid overcommitting to either threat since staying too heavy forward feeds omoplatas while pulling back feeds the sweep. Read which attack the bottom player is setting up through their grip changes and hip positioning, then adjust your defensive priority accordingly."
@@ -80,7 +80,7 @@ description: "Learn to defend the Rubber Guard Sweep from top position. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your free hand is posted to resist the sweep but the bottom player immediately switches to a triangle attempt - how do you respond?",
+      "name": "Your posted hand stops the sweep but they switch to a triangle; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract the posted hand and tuck it tight to your body while driving your hips forward with strong base. The triangle requires space between your shoulder and their leg to lock. Removing your posting hand and driving forward eliminates the triangle entry angle while your forward pressure simultaneously re-establishes sweep defense. This rapid oscillation between sweep and submission defense is the core defensive skill required in rubber guard top."

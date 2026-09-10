@@ -84,7 +84,7 @@ description: "Learn to execute the Rear Naked Choke from Harness. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong two-on-one grip on your choking arm wrist preventing any advancement - what grip-breaking strategy do you employ?",
+      "name": "From harness, they have two-on-one on your choking wrist — how do you break the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to peel their top grip starting with the pinky finger and peeling outward. Alternatively, swim your underhook hand over their defending forearm to strip their grip from above. A third option is the push-pull method where you push their defending elbow away with your free hand while simultaneously pulling the choking arm forward. If grip fighting stalls, threaten an armbar on their extended defending arm to create a choke-versus-armbar dilemma that forces them to release."
@@ -100,7 +100,7 @@ description: "Learn to execute the Rear Naked Choke from Harness. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly to their chest and you cannot slide the forearm under - how do you clear this barrier?",
+      "name": "From harness, their tight chin tuck blocks your forearm — how do you clear it safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary methods exist. First, use your free hand to cup the forehead and gently tilt the head backward to create space under the chin. Second, walk the choking forearm across the face from ear to chin, using the jawline as a ramp to slide underneath. Third, apply the choke over the chin - the jawbone acts as a painful lever that pressures the opponent into lifting their chin voluntarily. Avoid cranking the neck sideways, which risks cervical spine injury."
@@ -116,7 +116,7 @@ description: "Learn to execute the Rear Naked Choke from Harness. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "You have the choking arm under the chin but cannot lock the figure-four because the opponent is blocking your support hand - what finishing alternative exists?",
+      "name": "Arm is under the chin but they block your support hand — what finishing alternative works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply the short choke variation by using your free hand to push the back of the opponent's head forward into the choking forearm rather than locking a figure-four. Alternatively, use a palm-to-palm grip with the choking arm under the chin and both hands clasped together, squeezing by pulling toward your chest while expanding. Both alternatives sacrifice mechanical efficiency but can produce a tap when the standard figure-four is unavailable due to active hand defense."

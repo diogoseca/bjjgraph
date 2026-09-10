@@ -64,7 +64,7 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong frames on your hips and begins creating space—how do you maintain Estima Lock control?",
+      "name": "They frame on your hips and make space. How do you keep Estima Lock control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip movement by adjusting your own body position to maintain hip-to-calf contact, which is the fulcrum for the lock's mechanical advantage. Increase rotational pressure gradually rather than trying to out-muscle their frames. If significant space has been created despite your adjustments, consider transitioning to a guard pass rather than forcing the submission from a compromised position."
@@ -72,7 +72,7 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the Estima Lock and transition to a guard pass instead of continuing to fight for the submission?",
+      "name": "When should you abandon the Estima Lock and pass instead of fighting for the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when the opponent has successfully disrupted your grip configuration, created significant space through hip movement, and their free leg is actively preventing you from re-establishing control. Continuing to force a submission from a compromised position wastes energy and allows the opponent to complete their escape to open guard. Transitioning to a pass while you still have positional proximity preserves offensive momentum and scoring opportunity."
@@ -80,7 +80,7 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their foot free after partially breaking your grip—what is the correct response to prevent complete extraction?",
+      "name": "They partially break your grip and start pulling the foot free. How do you stop full extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-address the foot control immediately by clearing any defensive frames with your legs or free hand, closing the space gap by driving your hips forward toward their trapped leg, and re-establishing the figure-four grip before they can complete extraction. The key is recognizing partial extraction early and committing to either re-securing the grip or transitioning to a guard pass before the foot is completely free."
@@ -88,7 +88,7 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
     },
     {
       "@type": "Question",
-      "name": "How does releasing one hand to control the opponent's free leg typically compromise your Estima Lock position?",
+      "name": "How does releasing one hand to control their free leg compromise your Estima Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing one hand breaks the figure-four grip structure, which is the mechanical foundation of the Estima Lock's rotational pressure. A single-handed grip cannot generate sufficient torque to maintain a real submission threat, and the opponent can immediately exploit the weakened grip to extract their foot. The free leg should be managed through your body positioning and your own legs rather than sacrificing the hand control that makes the lock effective."

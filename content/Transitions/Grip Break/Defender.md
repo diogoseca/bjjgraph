@@ -56,7 +56,7 @@ description: "How to defend against Grip Break in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is maintaining multiple connection points the most important defensive principle against grip breaks?",
+      "name": "Why are multiple connection points your best defense against grip breaks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Multiple connection points create redundancy in your control structure so that losing any single grip does not eliminate your tactical advantage. If you have both a collar grip and a pant grip, your opponent must successfully break both to gain free movement. This forces them to commit more time and energy to grip fighting while you maintain at least partial control throughout the exchange. It also gives you options for which grip to sacrifice and which to defend."
@@ -64,7 +64,7 @@ description: "How to defend against Grip Break in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "When your opponent establishes a strong two-on-one on your gripping hand, what is the optimal defensive response?",
+      "name": "Your opponent gets a strong two-on-one on your gripping hand. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting a losing battle against their two-on-one mechanical advantage, switch to an alternative grip before the break completes. Release the contested grip voluntarily while your other hand establishes a new connection point - a different collar depth, a cross-grip, or a pant grip. This preserves your energy, maintains control continuity, and often catches the opponent off-guard since they prepared for the break but not for your immediate re-engagement at a different control point."
@@ -88,7 +88,7 @@ description: "How to defend against Grip Break in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just broken your primary collar grip - what should your immediate recovery sequence look like?",
+      "name": "Your opponent just broke your collar grip in open guard. What is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Within the first second after the break, your freed hand should already be reaching for a new control point rather than pausing. Immediately seek either a re-grip at a different collar depth, a cross-collar grip, or a same-side sleeve grip to maintain some connection. Simultaneously, your other hand should tighten whatever secondary grip it already holds to prevent total loss of control. If no secondary grip exists, use the freed hand to frame against their shoulder or bicep while you re-establish grips, preventing them from capitalizing on the momentary freedom with positional advancement."

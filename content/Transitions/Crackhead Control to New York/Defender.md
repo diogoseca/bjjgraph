@@ -56,7 +56,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single highest percentage moment to attempt escape during the Crackhead Control to New York transition?",
+      "name": "Crackhead to New York: what is the highest-percentage moment for the top player to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment the bottom player releases their shin grip to begin leg repositioning. During this brief window of one to two seconds, their controlling leg has no anchored grip maintaining its position, their core engagement is redirected toward facilitating the movement, and their attention is divided between multiple tasks. This creates the maximum vulnerability in their guard structure that you can exploit with explosive posture recovery or forward pressure."
@@ -64,7 +64,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sliding their controlling leg from your neck toward your shoulder blades - should you drive forward or pull back?",
+      "name": "Their leg slides from your neck toward your shoulder blades: drive forward or pull back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward, because forward pressure compresses the space their leg needs to reposition and disrupts the slide. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position."
@@ -72,7 +72,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player's free leg tighten its hook on your hip during the transition - what does this signal and how should you respond?",
+      "name": "Their free leg hook tightens on your hip mid-transition. What does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The increased free leg pressure signals that the bottom player is compensating for the instability created by their primary leg repositioning. This confirms the transition is actively occurring. Respond by addressing the free leg hook first - use your same-side hand to strip or block the hook while simultaneously driving your weight forward. Removing this safety mechanism forces the bottom player to abort the transition or risk losing hip control entirely, which can lead to a complete guard collapse."
@@ -80,7 +80,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How does your defensive approach change if you recognize the transition late and the New York shin grip has already been re-established?",
+      "name": "How does your defense change if the New York shin grip is already re-established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once New York is consolidated, shift from disrupting a transition to a systematic escape of the fully established position. The transitional window has closed, so widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape is significantly harder and more time-consuming than intervention during the transition itself, which is why early recognition is critical."
@@ -88,7 +88,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Why is contesting the shin re-grip with your free hand a viable late-stage defense despite the risk to your base?",
+      "name": "Why is contesting the shin re-grip worth the base risk as a late defense to New York?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Denying the shin grip removes the keystone of New York, so the leg cannot hold across your shoulder blades and slides off. Without that grip completing the control structure, gravity and your posture recovery efforts gradually strip the leg, because the shin grip is what transforms a loose leg position into a stable control platform. Even though reaching to contest temporarily compromises your base, preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied."

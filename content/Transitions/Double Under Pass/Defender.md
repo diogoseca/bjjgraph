@@ -56,7 +56,7 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive window when facing the double under pass, and why does timing matter so critically?",
+      "name": "What is the key defensive window against the double under pass, and why is timing critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important defensive window is during the transition between the passer's first underhook and their consolidation of the second underhook with clasped hands. At this moment, they have committed their body forward but have not yet established the bilateral control that makes escape extremely difficult. Once both underhooks are deep with hands locked and chest pressure settled, defensive success rates drop dramatically because the passer has neutralized your hip movement and leg frames simultaneously."
@@ -64,7 +64,7 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established both underhooks and is beginning to step laterally—what is your highest-percentage defensive response at this stage?",
+      "name": "They have both underhooks and start stepping laterally: your best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your near-side knee across their hip line as they step, hip escaping simultaneously to create the angle needed for the knee to penetrate. This recovers half guard or knee shield position, which creates a barrier they cannot simply walk through. The timing is critical—as they lift their hips slightly to take lateral steps, a small window opens where your knee can slide between your bodies. Combine this with pushing their head to the far side to weaken their pressure on your escaping hip."
@@ -72,7 +72,7 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is pushing the passer's head to the side more effective than pushing it away or down when defending double under pressure?",
+      "name": "Why push the passer's head sideways rather than away or down against double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pushing the head laterally breaks the passer's alignment and weight distribution asymmetry, making it impossible for them to apply even chest pressure across your torso. When their head is displaced to one side, their weight shifts to that side, creating space on the opposite side where you can hip escape and insert defensive barriers. Pushing down or away does not break their alignment and they can power through it because their chest pressure drives along the same vector as your push."
@@ -80,7 +80,7 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What framing configuration gives you the best defensive structure against double under pressure without exposing your arms to submissions?",
+      "name": "Which framing structure defends double under pressure without exposing your arms to submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position your forearms across the passer's biceps with elbows tight to your ribs, creating a structural frame that uses your skeletal alignment rather than muscular effort. Your hands should grip their gi at the biceps or control their wrists. This bent-arm configuration is collapse-resistant because the force transfers through your bones to the mat rather than requiring you to push against their body weight. Extended arms expose you to americana and kimura attacks, while this compact frame protects your joints while still creating space."
@@ -88,7 +88,7 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How do you decide between attempting to lock closed guard versus hip escaping to half guard when the passer is establishing double under control?",
+      "name": "How do you choose between closed guard and hip escaping to half as they set double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The deciding factor is the depth of their underhooks and whether their hands are clasped. If you can still wrap your legs high on their back with ankles crossing before they lock their grip, closing guard is the better option because it completely neutralizes the pass and returns you to an offensive position. If their underhooks are already deep with hands clasped, attempting closed guard will result in a loose, ineffective guard they can stack through. In that case, hip escape to half guard is higher percentage because it requires less space and works even against deep underhook control."

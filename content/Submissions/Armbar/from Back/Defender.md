@@ -74,7 +74,7 @@ description: "How to defend against Armbar from Back in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "Your arm has been isolated and the attacker's leg is already over your head - what is your emergency escape protocol?",
+      "name": "Armbar from back: arm isolated and their leg is over your head — what is your escape protocol?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, maximize your elbow bend by pulling your fist toward your own chest with everything you have. Second, immediately turn your shoulders toward the trapped arm side and drive forward to stack the attacker's hips. Third, if you can create enough angle, thread your elbow toward the attacker's hip to begin extracting the arm between their legs. Fourth, if stacking fails, bridge explosively toward the trapped arm side to attempt an inversion. Throughout all of this, never let the arm straighten. If you feel the arm approaching full extension, tap immediately rather than risk injury."
@@ -90,7 +90,7 @@ description: "How to defend against Armbar from Back in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "When defending the armbar from back, when should you tap rather than continue fighting the submission?",
+      "name": "Defending the armbar from back, when should you tap instead of fighting the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap immediately when you feel your arm approaching full extension and you cannot maintain the bend despite maximum effort, when the attacker's hips begin to rise and you feel increasing pressure on your elbow joint, or when you are in a compromised position where continued resistance would require your arm to straighten. In training, tap early and tap often. The elbow joint has no gradual failure point - it goes from resistance to catastrophic injury very quickly. There is no shame in tapping to a well-executed armbar, but there is significant consequence in refusing to tap and suffering a preventable injury."

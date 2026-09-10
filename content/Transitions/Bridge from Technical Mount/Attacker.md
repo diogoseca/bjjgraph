@@ -90,7 +90,7 @@ description: "Complete guide to executing the bridge escape from technical mount
     },
     {
       "@type": "Question",
-      "name": "Your opponent has heavy settled pressure with no weight shifts occurring—should you attempt the bridge immediately?",
+      "name": "They are settled heavy in technical mount with no weight shifts: should you bridge now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No—maintain defensive frames and wait for the opponent to initiate movement, because bridging against settled weight wastes energy. Any submission attempt, grip change, or position adjustment will create a weight shift, and patience preserves energy for the moment when bridging effectiveness is highest. Bridging fully settled heavy pressure produces minimal displacement at maximum energy cost—forced bridges against settled weight are the most common energy-wasting mistake from this position. Keep protecting your arms while you wait."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the bridge escape from technical mount
     },
     {
       "@type": "Question",
-      "name": "If your bridge creates space but the opponent blocks your knee insertion for guard recovery, what is your immediate follow-up?",
+      "name": "Your bridge makes space but they block your knee insertion under technical mount: what follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt a secondary hip escape in the same direction, or turn toward turtle rather than staying flat on your back. Turtle from technical mount is a significant positional improvement, so it serves as a legitimate emergency recovery. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the bridge escape from technical mount
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the armbar swing-over just as you bridge—how do you capitalize on their commitment?",
+      "name": "They start the armbar swing-over as you bridge from technical mount bottom: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their armbar swing-over commitment moves their weight dramatically forward and off your hips, creating the largest displacement window available. Use this momentum to bridge explosively and follow immediately with a hip escape toward the side they are swinging away from. Their commitment to the armbar means they cannot simultaneously maintain mount pressure. If the arm is already caught, redirect the bridge into a stacking defense by following their rotation and coming to your knees."

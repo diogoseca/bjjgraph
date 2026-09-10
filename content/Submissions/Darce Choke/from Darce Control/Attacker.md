@@ -76,7 +76,7 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Darce Choke primarily target and how does the arm-in configuration create compression?",
+      "name": "What does the Darce choke target, and how does the arm-in position create compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce Choke targets both carotid arteries simultaneously through bilateral compression. The choking arm's forearm blade presses against the near-side carotid, while opponent's own trapped shoulder is driven into the far-side carotid by the figure-four grip and shoulder pressure. The arm-in configuration is essential because the opponent's trapped arm acts as a spacer that wedges their shoulder into the far-side artery—without the trapped arm, the choke loses half its compression mechanism."
@@ -84,7 +84,7 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped arm free while you are setting up the finish—what adjustment prevents the escape?",
+      "name": "They start pulling their trapped arm free as you set the Darce finish—what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pinch your elbows tighter together and increase chest-to-back connection to eliminate the space needed for extraction. Drive your shoulder pressure deeper into the side of their head to flatten them and reduce their mechanical ability to pull. If the arm is partially extracted, quickly transition to an anaconda grip by re-threading your arm over instead of under, or switch to a standard arm triangle if you can capture their arm on the other side of their neck."
@@ -92,7 +92,7 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
     },
     {
       "@type": "Question",
-      "name": "Why is the hip drop the critical mechanical action in the Darce finish, and what happens if you skip it?",
+      "name": "Why is the hip drop critical to the Darce finish, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip drop converts the choke from an arm-strength squeeze into a structural compression using your entire body weight. When your hip contacts the mat on the choking side, your body becomes a wedge that drives the choking structure closed through gravitational force and skeletal alignment rather than muscular effort. Without the hip drop, you rely solely on arm strength, which fatigues within 15-20 seconds and produces insufficient pressure against opponents with strong necks and good chin-tuck defense."
@@ -100,7 +100,7 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Darce Choke, and how fast does unconsciousness occur?",
+      "name": "What are the safety concerns with the Darce choke, and how fast does unconsciousness occur?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce Choke compresses both carotid arteries simultaneously, which can cause unconsciousness in as little as 4-6 seconds once the choke is fully locked. Apply pressure progressively over 3-5 seconds to allow tap recognition. Never jerk or spike the choke. Watch for all tap signals including verbal, hand tap, foot tap, and body going limp. Release immediately upon any signal by unclamping hands first, then removing shoulder pressure. If a training partner loses consciousness, place them in recovery position and monitor breathing."
@@ -116,7 +116,7 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard and the choke stalls—what adjustments can you make to complete the finish?",
+      "name": "Your opponent tucks their chin hard and the Darce stalls — how do you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A committed chin tuck blocks forearm penetration to the carotid arteries. First, verify your grip depth—if shallow, re-swim the arm deeper before re-attempting. If depth is correct, increase shoulder pressure perpendicular to their spine to force the head to turn, which opens the neck. Walk your hips further around toward their head to change the compression angle. If the chin tuck holds, transition to positional advancement (mount or north-south) rather than forcing a stalled choke, then re-attack from the improved position."

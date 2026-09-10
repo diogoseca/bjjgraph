@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "What is the correct anatomical target for choke from crucifix, and what is the dangerous incorrect target?",
+        "question": "What is the correct target for the choke from crucifix, and the dangerous wrong target?",
         "answer": "The correct target is bilateral compression of the carotid arteries on both sides of the neck using a V-shaped arm position - bicep on one carotid, forearm blade on the other. The dangerous incorrect target is crushing the trachea (windpipe) with flat forearm pressure. Trachea crushing causes unnecessary pain, potential serious injury to the throat, and is actually less effective for achieving the tap. Proper technique should restrict blood flow to the brain (opponent cannot think clearly) rather than air flow (opponent feels pain and panic).",
         "safety_critical": true,
         "answer_line": "Carotids, not the windpipe",
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "Your opponent begins attempting to roll forward while you have the crucifix locked - how do you adjust your grip and body position to finish the choke?",
+        "question": "Your opponent rolls forward while you hold the crucifix - how do you adjust to finish the choke?",
         "answer": "When the opponent attempts to roll forward, immediately widen your base by extending your legs further from your body and dropping your hips to the mat. This creates a heavy anchor that prevents them from completing the roll. Keep your chest pressure heavy on their upper back while maintaining the leg traps. If they commit hard to the roll and begin to turn, you can follow the roll and transition to mounted crucifix, which provides even better choking angles. Throughout this adjustment, never release your choking grip - the choke often finishes precisely as they run out of rolling momentum.",
         "safety_critical": false,
         "answer_line": "Widen base, drop hips, stay heavy",
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "What indicates that the choke is positioned correctly on the carotid arteries rather than crushing the windpipe?",
+        "question": "What tells you the crucifix choke is on the carotids rather than crushing the windpipe?",
         "answer": "The key indicators are: (1) Your opponent can still breathe but becomes visibly disoriented or their resistance weakens rapidly, (2) Your forearm blade is angled across their neck in a V-shape rather than flat against their throat, (3) Your bicep is pressing against one side of the neck while your forearm presses the other side, (4) Your opponent is not gasping or making choking sounds - blood chokes are silent. If your opponent is coughing, gagging, or their face is turning red rather than pale, you are crushing the trachea and need to adjust your angle immediately.",
         "safety_critical": true,
         "answer_line": "Disoriented, quiet, no gagging",
@@ -406,7 +406,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if your initial choking arm insertion is blocked by the opponent's chin tuck?",
+        "question": "Their chin tuck blocks your choking arm in the crucifix - what grip adjustment works?",
         "answer": "When facing a strong chin tuck, you have several options: First, try switching to a short choke variation where you grip your own lapel or their far collar and pull across without needing to get under the chin. Second, use your free hand to apply pressure to their forehead or jaw to force the chin up, then quickly slide your choking arm into position. Third, flatten them further onto their back where the chin tuck becomes mechanically weaker. Fourth, patiently wait with forearm pressure against their jaw - the discomfort eventually forces them to move their chin, creating your opening. Never try to force under a locked chin with explosive movement.",
         "safety_critical": false,
         "answer_line": "Switch to short choke variation",
@@ -436,7 +436,7 @@
         }
       },
       {
-        "question": "What finishing strategy should you employ in competition when your opponent is experienced at defending crucifix chokes?",
+        "question": "How do you finish the crucifix choke in competition against a skilled crucifix defender?",
         "answer": "Against experienced defenders, employ a multi-threat approach: Begin attacking the choke to force their defensive focus upward, then immediately switch to threatening the armbar on their trapped arm when they commit fully to neck defense. This creates a dilemma - defending the choke exposes the arm, defending the arm exposes the neck. Additionally, vary your choke entries unpredictably between RNC grip, short choke, and arm-in variations. Finally, use continuous hip pressure and positional adjustments to drain their energy - a fatigued opponent makes defensive errors. The finish often comes after the third or fourth transition in the chain.",
         "safety_critical": false,
         "answer_line": "Threaten armbar as choke bait",
@@ -451,7 +451,7 @@
         }
       },
       {
-        "question": "If you notice your training partner has gone unconscious but you only realized after 1-2 seconds, what is the correct response protocol?",
+        "question": "Your partner went unconscious in the crucifix choke and you noticed late - what is the protocol?",
         "answer": "Immediately release all pressure and carefully position your partner on their side in the recovery position with their airway clear. Do not shake them or slap them - unconsciousness from blood chokes typically resolves within 10-20 seconds naturally as blood flow returns to the brain. Stay with them and monitor their breathing. If they do not regain consciousness within 20-30 seconds, signal for help immediately. When they wake up, keep them lying down and monitor for confusion, headache, or nausea. Do not allow them to immediately return to training - they should rest and be checked. Report the incident to your instructor regardless of outcome.",
         "safety_critical": true,
         "answer_line": "Release, recovery position, monitor",
@@ -622,7 +622,7 @@
         }
       },
       {
-        "question": "What should you do if you feel the choke beginning to take effect with dimming vision or lightheadedness?",
+        "question": "You feel the crucifix choke dimming your vision - what should you do?",
         "answer": "If you feel the choke taking effect - indicated by dimming vision, tunnel vision, warmth spreading through your face, or lightheadedness - you must tap immediately. Do not attempt to tough it out or wait for an escape opportunity. Blood chokes can produce unconsciousness within 4-8 seconds of full bilateral carotid compression. The window between feeling the effects and losing consciousness is extremely narrow and unreliable. Tap using whatever method is available: verbal tap, foot tap on mat, or any vocalization. Continuing to resist at this point risks unconsciousness and potential injury. In training, there is zero shame in tapping to a properly applied choke from crucifix.",
         "safety_critical": true,
         "answer_line": "Tap immediately",

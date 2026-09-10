@@ -56,7 +56,7 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is switching from Darce to Anaconda configuration?",
+      "name": "What is the earliest cue that your opponent is switching from darce to anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the figure-four or gable grip release on the far side of your neck while chest pressure remains constant or even increases. This indicates the attacker is about to withdraw their choking arm to re-thread it along a different path. The grip release precedes the arm withdrawal by a fraction of a second, giving you the earliest possible warning that the transition is beginning. Secondary cues include the attacker's free hand moving to control your head and the choking arm beginning to pull back from behind your neck."
@@ -72,7 +72,7 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "You feel the choking pressure reduce but shoulder weight increase during the transition - what should you do immediately?",
+      "name": "During that switch you feel choke pressure drop but shoulder weight rise. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The increased shoulder weight indicates the attacker is compensating for the grip release with body pressure. Immediately use your free hand to push against their hip or shoulder to create enough space for a hip escape. The shoulder weight increase is predictable and means the attacker has committed their weight forward, making them vulnerable to being rolled if you can establish an underhook or create enough hip angle. Do not wait for the choking pressure to return in a new form - act during the pressure differential when the choke is absent but the weight is present."
@@ -88,7 +88,7 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "What is the biggest mistake defenders make when they successfully prevent the Anaconda grip from locking?",
+      "name": "After successfully blocking the anaconda grip, what mistake do defenders most often make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The biggest mistake is relaxing after preventing the grip and allowing the attacker to settle back into Darce control or attempt the switch again. Successfully blocking the Anaconda threading only buys time - it does not resolve the underlying front headlock control problem. After preventing the grip, immediately work to escape the entire position through arm extraction, posture recovery, or guard pull. If you remain in front headlock control, the attacker will simply reset and attempt the switch or another attack from the same dominant position."

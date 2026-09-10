@@ -84,7 +84,7 @@ description: "Defend against the Breadcutter Choke from Kuzure Kesa Gatame with 
     },
     {
       "@type": "Question",
-      "name": "Why is turning toward the attacker sometimes more effective than turning away when defending this choke?",
+      "name": "Defending the breadcutter from kesa gatame, why can turning toward the attacker beat turning away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the attacker changes the angle at which the forearm contacts your neck, potentially shifting it from the carotid arteries to a less effective position across the jaw or chin. It also closes the distance between your bodies, reducing the sprawling range the attacker needs to generate finishing pressure. Additionally, turning in creates the opportunity to thread your knee across and recover guard, addressing both the choke and the positional disadvantage simultaneously."

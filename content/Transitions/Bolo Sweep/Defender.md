@@ -64,7 +64,7 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the upper body grip typically more important than removing the De La Riva hook when defending the Bolo?",
+      "name": "Defending the Bolo, why strip the upper body grip before removing the DLR hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar or sleeve grip provides the forward pulling force that initiates the rotation and displaces your weight onto the hooked leg. Without this grip, the attacker cannot pull your shoulders down and forward to create the angular displacement needed for inversion entry. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the combined forward-and-lateral force required for the Bolo's rotational mechanics. Stripping the upper body grip neutralizes the Bolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can redirect into Kiss of the Dragon or other inversion entries."
@@ -72,7 +72,7 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins their Bolo rotation and is approximately halfway through the spin underneath you - what is your highest percentage response?",
+      "name": "They are halfway through their Bolo spin under you: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination collapses the space the attacker needs to complete the rotation and keeps your chest facing their body to prevent back exposure. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect. The combination of both movements simultaneously is what makes this defense effective. Upon successfully stopping the rotation, immediately transition to a passing sequence rather than resetting to neutral."
@@ -80,7 +80,7 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should your defensive response change when facing a Kiss of the Dragon combination versus a standard Bolo?",
+      "name": "How does your defense change against Kiss of the Dragon versus a standard Bolo?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kiss of the Dragon attacks from the opposite direction - the attacker releases the DLR hook and spins through to the far side rather than rotating around the hooked leg. Against the standard Bolo, sitting your hips back denies forward weight loading and is an effective early defense. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through underneath you. The correct defense against Kiss of the Dragon is to drive forward with pressure and close distance to prevent the spin-through, and to protect the far side of your back since the attack vector is reversed. Recognizing which direction the attacker is rotating determines your entire defensive approach."

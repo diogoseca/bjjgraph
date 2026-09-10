@@ -100,7 +100,7 @@ description: "How to execute Sumi Gaeshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls and widens their base as you begin to create the entry angle. How do you adjust?",
+      "name": "They sprawl and widen their base as you build the Sumi Gaeshi angle: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls in reaction to your angle creation, the Sumi Gaeshi entry is compromised because their hips are now distant and their weight is back. Transition to a single leg X-guard entry by threading your inside leg between theirs, or switch to an ankle pick on the near leg since their weight distribution has shifted backward. You can also use the sprawl reaction to pull guard to butterfly and reset the attack from seated position."

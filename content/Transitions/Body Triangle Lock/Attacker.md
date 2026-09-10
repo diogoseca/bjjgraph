@@ -92,7 +92,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning toward you as you release your hook to thread the body triangle - how do you respond?",
+      "name": "They turn into you as you release your hook to thread the body triangle: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your Gift Wrap arm control to pull their trapped shoulder back toward you, preventing the turn. If they successfully turn despite this, abandon the body triangle attempt and follow them to technical mount while maintaining the Gift Wrap. Do not force the triangle against a turning opponent as you will lose position."
@@ -108,7 +108,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Where should the body triangle be positioned on your opponent's body for maximum effectiveness and safety?",
+      "name": "Where on their torso should the body triangle sit for best effect and safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position the body triangle across the lower ribcage and upper abdomen area, below the floating ribs. This provides maximum hip control while avoiding injury risk to the floating ribs. Squeezing across the floating ribs can cause fractures and should be avoided in training."

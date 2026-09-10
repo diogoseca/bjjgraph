@@ -56,7 +56,7 @@ description: "Master defending against the Whizzer from Deep Half Guard. Learn t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical cue that tells you the top player is establishing a whizzer on your underhook?",
+      "name": "What is the first cue that the top player is whizzering your deep half underhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is feeling the top player's arm threading over the top of your underhooking bicep with clamping pressure pulling downward. You will feel their forearm or upper arm pressing against the outside of your bicep or shoulder, and their elbow beginning to close against their own ribs. This is distinct from normal crossface pressure because it targets your arm specifically rather than your head. Recognizing this within the first second gives you the maximum window to counter."
@@ -64,7 +64,7 @@ description: "Master defending against the Whizzer from Deep Half Guard. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked a tight whizzer and is beginning to sprawl - what is your immediate priority?",
+      "name": "They lock a tight whizzer and start to sprawl on your deep half: immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is maintaining hip elevation. Bridge your hips toward the ceiling using your bottom leg and core strength. If your hips reach the mat, the positional battle is lost regardless of your other actions. Secondary priority is assessing whether you can establish lockdown before they straighten their trapped leg, which would transition the battle to the electric chair system. If neither hip elevation nor lockdown is achievable within 2-3 seconds, begin transitioning to an alternative guard."
@@ -88,7 +88,7 @@ description: "Master defending against the Whizzer from Deep Half Guard. Learn t
     },
     {
       "@type": "Question",
-      "name": "What sweep becomes available when the top player overcommits their weight forward through the whizzer?",
+      "name": "Which sweep opens up when the top player overcommits forward through the whizzer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the top player drives too aggressively forward through the whizzer without maintaining wide lateral base, the homer simpson sweep or a bridge-based reversal becomes available. Their overcommitted weight creates forward momentum that you can redirect by bridging and rolling underneath them. The whizzer itself helps this reversal because the opponent's arm is committed to the overhook and cannot post to prevent the roll. However, this only works when their free leg base is narrow, so you must feel for their weight distribution before committing to the bridge."

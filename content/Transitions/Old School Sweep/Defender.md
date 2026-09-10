@@ -78,7 +78,7 @@ description: "Complete guide to defending the Old School Sweep from half guard t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has deep underhook and head control with tight lockdown - what is your highest-priority defensive action?",
+      "name": "They have deep underhook, head control and tight lockdown: your top-priority defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt."
@@ -102,7 +102,7 @@ description: "Complete guide to defending the Old School Sweep from half guard t
     },
     {
       "@type": "Question",
-      "name": "What are the first three warning signs that indicate your opponent is setting up the Old School Sweep from bottom?",
+      "name": "What are the first three warning signs they are setting up the Old School Sweep on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, you feel the lockdown tighten on your trapped leg with active extension tension. Second, the opponent begins fighting aggressively for an underhook on one side while turning onto their side. Third, their free arm reaches for your head, attempting to wrap around and pull your posture down. Recognizing this sequence early allows you to intervene at the underhook stage before all three controls are established, which is far easier than defending a fully loaded sweep."

@@ -84,7 +84,7 @@ description: "Learn to attack the Kimura from Twister Side Control with expert f
     },
     {
       "@type": "Question",
-      "name": "What makes the roll-through defense ineffective against the Kimura from Twister Side Control compared to traditional side control?",
+      "name": "Why does the roll-through defense fail against a Kimura from twister side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg entanglement characteristic of Twister Side Control restricts the bottom player's hip rotation, which is the foundation of the roll-through defense. In traditional side control, the defender can bridge and roll over the Kimura-side shoulder to relieve pressure and potentially reverse. From Twister Side Control, the leg hook pins the near hip and prevents the coordinated hip movement needed to execute this escape. This mechanical restriction is the primary advantage of attacking the Kimura from this position."
@@ -92,7 +92,7 @@ description: "Learn to attack the Kimura from Twister Side Control with expert f
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own shorts to prevent arm rotation during the Kimura finish - what are your options?",
+      "name": "They grab their own shorts against your Kimura from twister side control. What are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have several options when the defender grips their shorts or leg. First, attempt to pry their grip open one finger at a time while maintaining figure-four pressure. Second, use a pulsing motion with your figure-four to fatigue their grip over time. Third, transition to a straight armbar by extending their arm and swinging your leg over their head while keeping wrist control. Fourth, maintain the Kimura position and threaten other submissions to force them to release the grip defensively. The leg entanglement keeps them pinned during any of these transitions."
@@ -108,7 +108,7 @@ description: "Learn to attack the Kimura from Twister Side Control with expert f
     },
     {
       "@type": "Question",
-      "name": "How should you coordinate wrist rotation and elbow lift when finishing the Kimura from this position?",
+      "name": "Finishing this Kimura, how do you coordinate wrist rotation with elbow lift?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wrist and elbow must move simultaneously as a coordinated pair. Rotate the wrist toward the defender's lower back using your gripping hand while lifting the elbow away from the mat using your forearm as a lever within the figure-four structure. Pure wrist rotation without elbow lift creates insufficient shoulder torque, while pure elbow lift without wrist rotation creates a crank rather than a proper Kimura. The combined vector produces the diagonal force line that attacks the shoulder joint at its weakest angle."
@@ -116,7 +116,7 @@ description: "Learn to attack the Kimura from Twister Side Control with expert f
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Kimura from Twister Side Control in training?",
+      "name": "What are the key safety considerations for drilling the Kimura from twister side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply rotation slowly over 3-5 seconds minimum, never jerking or spiking. The lateral angle from Twister Side Control generates significant torque with minimal effort, making sudden application particularly dangerous. Ensure your partner has at least one free hand or foot available to tap. Listen for verbal taps or distress sounds, as the bottom position may restrict physical tapping. Release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral, then releasing the grip. Never test a partner's pain tolerance after they tap."

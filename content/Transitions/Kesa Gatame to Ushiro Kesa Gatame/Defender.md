@@ -64,7 +64,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Ushir
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun rotating and is at the midpoint of the transition. What is your best defensive option?",
+      "name": "They are midway through rotating you to Ushiro Kesa Gatame — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority."
@@ -80,7 +80,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Ushir
     },
     {
       "@type": "Question",
-      "name": "How does the defensive strategy differ depending on whether you catch the transition early versus late?",
+      "name": "Defending the switch to Ushiro Kesa Gatame, how does catching it early differ from catching it late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Ushiro Kesa Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires."
@@ -88,7 +88,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Ushir
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully completes the transition and has your far arm trapped. What is your immediate priority?",
+      "name": "They complete Ushiro Kesa Gatame with your far arm trapped — what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to prevent submission attacks on the trapped arm by keeping your elbow bent and close to your body, grabbing your own wrist with your free hand if possible. Simultaneously, begin working hip escapes to create space for guard recovery. Do not attempt to forcefully extract the trapped arm against the top player's body weight, as this wastes energy and risks shoulder injury. Instead, use systematic shrimping to gradually relieve the pressure and create extraction opportunities."

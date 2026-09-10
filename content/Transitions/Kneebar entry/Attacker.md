@@ -92,7 +92,7 @@ description: "How to execute Kneebar entry in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins bending their knee and pulling back as you initiate the entry - how do you respond?",
+      "name": "They bend the knee and pull back as you enter the kneebar; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain tight ankle grip and follow their leg movement with your hips, staying connected. If they successfully retract, their heel often becomes exposed as they bend the knee - immediately transition back to heel hook attack before they can re-establish defense."

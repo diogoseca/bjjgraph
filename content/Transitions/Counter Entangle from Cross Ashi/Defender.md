@@ -50,7 +50,7 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a counter-entangle from Cross Ashi bottom?",
+      "name": "What is the earliest cue that they are attempting a counter-entangle from Cross Ashi bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their free leg moving inward toward the space between your legs rather than framing outward on your hips. This subtle directional change precedes the actual threading by one to two seconds and provides the critical early warning needed to tighten control or initiate a counter-response. Secondary cues include hip rotation toward square alignment and increased framing pressure on your knees or ankles."
@@ -58,7 +58,7 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully inserted their hook but has not completed the 50-50 triangle yet—what is your optimal response?",
+      "name": "Their hook is in but the 50-50 triangle isn't finished — what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two strong options depending on depth of insertion. If the hook is shallow, strip it by pushing their foot back out while tightening your cross. If the hook is deep and stripping seems unlikely, immediately transition to Honey Hole by reconfiguring your legs around their inserted leg. The critical error is passively allowing the triangle to complete while attempting neither stripping nor advancement. Every second the hook stays in without a response increases the probability of completed 50-50."
@@ -74,7 +74,7 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to Honey Hole often the best response to a partially successful counter-entangle attempt?",
+      "name": "Why is moving to Honey Hole often the best answer to a partial counter-entangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent's threading disrupts the cross ashi configuration, it simultaneously creates openings for Honey Hole entry because the leg movement changes the entanglement geometry. Rather than fighting to restore a configuration that has been compromised, capitalizing on the disruption to advance to a more dominant position converts the opponent's escape attempt into a worse outcome for them. Honey Hole provides stronger control and higher submission percentage than cross ashi."
@@ -82,7 +82,7 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make to your outside leg cross during grip changes to prevent creating threading windows?",
+      "name": "How should you manage your outside leg cross during grip changes to deny threading windows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During grip changes, maintain your outside leg cross as a constant baseline by keeping your calf or shin pressed firmly against the opponent's trapped leg. Adjust your hands independently of your legs—never loosen leg control to facilitate hand repositioning. If you need to shift your body position for a better grip angle, drive your hips forward first to increase compression before making the hand adjustment. This prevents the momentary gap that opponents need for the threading motion."

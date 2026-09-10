@@ -267,7 +267,7 @@
         }
       },
       {
-        "question": "Why is blocking the opponent's far knee the most critical preparatory step before initiating the leg swing?",
+        "question": "Why block their far knee before swinging your leg for the Kuzure Kesa Gatame to mount?",
         "answer": "The far knee is the opponent's primary defensive weapon against mount entry. The moment they feel your weight shift during the leg swing, their instinct is to insert the far knee between your bodies as a shield. By using your near hip or thigh to preemptively block this insertion path before initiating the swing, you remove their highest-percentage counter before the vulnerability window even opens. Skipping this step is the single most common reason this transition fails.",
         "answer_line": "Block far knee before swinging",
         "distractors": {
@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "Your opponent pushes hard against your chest as you prepare to transition—how do you capitalize on this reaction?",
+        "question": "They push hard on your chest as you set up the mount transition — how do you exploit it?",
         "answer": "Their extended arms pushing against your chest are committed to vertical force rather than positional hip defense. This creates two opportunities: immediately initiate the leg swing while their arms are occupied and cannot block the incoming leg at hip level, or attack the extended arms with an americana to punish the push and force retraction, creating an even cleaner transition window on the next attempt.",
         "answer_line": "Swing leg while arms occupied",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "Your opponent bridges explosively as your leg swings over their body—what is your immediate response?",
+        "question": "They bridge explosively as your leg swings over toward mount — what is your response?",
         "answer": "Post your free hand on the mat on the far side to absorb the bridge force while keeping your crossface anchor. Wait for the bridge to collapse rather than fighting through it. If the bridge is strong enough to truly threaten your balance, settle back to Kuzure Kesa Gatame rather than landing in a compromised mount that can be immediately reversed. A controlled abort preserves your dominant position better than a scrambled mount entry.",
         "answer_line": "Post hand, absorb, or abort",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?",
+        "question": "Which mechanical error in the Kuzure Kesa to mount transition lets them recover half guard?",
         "answer": "The most common failure is swinging the leg too slowly or in too wide an arc, giving the bottom player sufficient time to insert a knee shield between your bodies. The extended swing creates a window where the opponent can thread their knee across your hip line before mount is established. The correction is committing fully to the step-over with speed in a tight arc close to the opponent's body, and clearing any knee insertion with your swinging leg.",
         "answer_line": "Swinging too slow or too wide",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?",
+        "question": "Your opponent swings their leg over toward mount — what is your best defense?",
         "answer": "Insert a knee shield immediately by driving your far knee across the top player's hip line during the swing. The step-over momentarily reduces downward pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer phase, not after the top player has already landed.",
         "answer_line": "Drive knee shield during swing",
         "distractors": {

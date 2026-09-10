@@ -96,7 +96,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting through toward your blocking leg side during chair sit - how do you respond?",
+      "name": "In chair sit on turtle, they sit through toward your blocking leg: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your seatbelt grip and follow their rotation rather than fighting it. As they sit through, thread your blocking leg through to transition to truck position, which offers twister, calf slicer, and continued back take opportunities. The key is never releasing your upper body connection during their movement. This exemplifies the principle of using the opponent's defensive reactions to flow into alternative attacks rather than forcing a single pathway to back control."

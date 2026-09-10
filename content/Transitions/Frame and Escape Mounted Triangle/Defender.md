@@ -56,7 +56,7 @@ description: "Counter the frame and escape from mounted triangle. Techniques for
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is beginning the systematic frame and escape sequence rather than random defensive movement?",
+      "name": "Earliest cues the bottom player is starting a systematic mounted triangle escape, not flailing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the free arm moving purposefully with forearm contact to your hip rather than flailing defensively, aggressive chin tuck with deliberate head turning toward their trapped arm, and hips beginning systematic lateral shrimping rather than explosive upward bridging. These patterned, sequential movements indicate a trained escape sequence. Recognizing them within the first movement allows you to counter before the frames establish structural leverage."
@@ -64,7 +64,7 @@ description: "Counter the frame and escape from mounted triangle. Techniques for
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong frame against your hip and begun chaining hip escapes—what is your immediate response priority?",
+      "name": "They frame your hip and chain hip escapes from your mounted triangle: immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull their head toward you with your free hand while driving your hips down and forward to pin their lateral hip movement. Adjust your triangle angle to compress against the frame rather than fighting it directly with leg squeeze alone. If the frame is already creating significant space, transition to armbar on the extended framing arm—their arm extension for the frame creates the exact exposure needed for the armbar attack."

@@ -64,7 +64,7 @@ description: "How to defend against Whip-up Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why is sitting back on your heels an effective defense against the whip-up but a dangerous position overall?",
+      "name": "Why does sitting on your heels stop the whip-up but still leave you in danger?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting back removes the forward weight that the whip-up needs to exploit, making the sweep mechanically impossible because there is no momentum to redirect upward. However, sitting back creates the exact conditions needed for the Old School sweep and Electric Chair submission, both of which require the opponent's weight to shift backward. The lockdown system is built on this dilemma, so sitting back only works if you are simultaneously prepared to defend the counter-attacks it opens."
@@ -72,7 +72,7 @@ description: "How to defend against Whip-up Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun the whip-up and reached their elbow with the underhook secured - what is your best defensive option at this point?",
+      "name": "They reach their elbow in the whip-up with the underhook secured: best defensive option now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, post your free hand far to the threatened side and sprawl your hips away to create a tripod base that prevents the sweep from completing to full reversal. Accept that you will likely end up in a dogfight scramble rather than preventing the elevation entirely. In dogfight, immediately fight for your own underhook and work to re-establish top control or circle to a dominant angle. Trying to flatten them back down at this point usually fails and wastes energy."
@@ -88,7 +88,7 @@ description: "How to defend against Whip-up Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "What weight distribution pattern best prevents the whip-up while still allowing you to work toward passing?",
+      "name": "What weight distribution prevents the whip-up while still letting you work toward passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Distribute weight forward through your chest and shoulder pressure onto their upper torso for control, but keep your hips relatively low and back with your center of gravity centered over your knees rather than loaded forward past them. Your free leg posts wide at approximately 45 degrees for lateral stability. This creates enough pressure to flatten the bottom player and restrict their hip mobility without committing the forward momentum that the whip-up exploits. Small adjustments allow you to shift between pressure and extraction work."

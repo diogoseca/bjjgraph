@@ -56,7 +56,7 @@ description: "How to maintain armbar control and prevent escape in BJJ. Counter 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands in a gable grip and begins turning toward you - what is your highest priority response?",
+      "name": "Caught in an armbar: they gable grip and start turning in — what is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is breaking the gable grip before the rotation develops momentum. Isolate their bottom wrist with both of your hands and peel it away while simultaneously squeezing your knees together and elevating your hips to maintain extension pressure. If you cannot break the grip within two to three seconds, transition your top leg over their head for a triangle entry, as their forward rotation facilitates this transition."
@@ -88,7 +88,7 @@ description: "How to maintain armbar control and prevent escape in BJJ. Counter 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully stacks your hips and is extracting their arm - what is your best remaining option?",
+      "name": "Caught in an armbar: they stack your hips and are pulling the arm out — best remaining option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When stacked with arm being extracted, immediately swing your leg from across their face over their head and lock a triangle. Their stacking posture places their head and one arm inside your legs, which is the exact triangle configuration. If the triangle angle is not available, release the arm, recover closed guard by locking your ankles behind their back, and use the stacking momentum to break their posture for a new attack sequence. Do not waste energy fighting for an armbar that has been structurally compromised."

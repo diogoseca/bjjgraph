@@ -114,7 +114,7 @@ description: "Master executing the Shin-to-Shin Sweep in BJJ. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent sits their hips back and widens their base when they feel the sweep threat — what does this open up?",
+      "name": "From shin-to-shin, they sit their hips back and widen their base — what does that open for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A withdrawn, widened base creates the ideal spacing and angle for single leg X-guard entry. Their retreating hips open the space beneath their base for your free leg to thread through, and their widened stance isolates the connected leg for single leg X control. The sweep threat forces them into a position that directly feeds your secondary attack. This is the fundamental dilemma of shin-to-shin offense — defend the sweep and give up single leg X, or maintain narrow base and risk being swept."

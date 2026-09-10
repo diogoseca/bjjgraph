@@ -50,7 +50,7 @@ description: "Learn to counter the Roll Defense from Anaconda as the attacker wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you identify that your opponent is preparing a roll defense before you initiate your roll-through?",
+      "name": "How do you spot that they are preparing a roll defense before you start your anaconda roll-through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's free hand moving toward the mat or toward your hip for posting, their base widening as they spread their knees and sprawl their legs, and their hips beginning to drive in the anticipated counter-direction. You may also feel their body becoming heavier and more anchored to the ground. Recognizing these signals allows you to either control the posting hand first or adjust your approach to overwhelm the prepared defense."
@@ -58,7 +58,7 @@ description: "Learn to counter the Roll Defense from Anaconda as the attacker wi
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's free hand considered the highest-percentage counter to the roll defense?",
+      "name": "Why is controlling their free hand the highest-percentage counter to the anaconda roll defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posting hand is the cornerstone of the roll defense. Without it, the opponent must rely entirely on hip direction and base width to resist the roll, which are significantly less effective without the structural anchor the hand provides. By trapping the wrist or pinning the free hand, you eliminate approximately 60-70% of the defense's effectiveness. This makes the roll-through nearly unstoppable even against opponents who have strong hip defense, because the hand post provides the critical structural resistance."
@@ -66,7 +66,7 @@ description: "Learn to counter the Roll Defense from Anaconda as the attacker wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the roll successfully and you remain in anaconda control - what should your immediate follow-up strategy be?",
+      "name": "They defend your roll but you keep anaconda control: what is your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not immediately attempt a second roll in the same direction, as the opponent's defense is now primed for it. Instead, maintain tight anaconda control and choose from three options: first, transition to dead orchard control for an alternative finishing angle; second, attempt the roll in the opposite direction after a brief feint; third, apply stationary squeeze pressure to force the opponent to address the choke, potentially opening up their posting defense for a subsequent roll attempt. The key is maintaining offensive pressure without becoming predictable."

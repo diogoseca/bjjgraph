@@ -195,6 +195,8 @@ Clip shape: `{id, title, by, start?, end?, vertical, channel, duration, verified
 
 ## Flashcards Guidelines
 
+For **positions, submissions, and transitions**, every authored question must be **100 characters or fewer**, including spaces and punctuation, on every role and shared tier. Ask one clear question in plain BJJ language; preserve the mechanic, perspective, and safety conditions. Keep explanations in the answer. The JSON schemas enforce the limit. Use `python3 scripts/rewrite_questions.py --check` to audit the corpus, or `--apply` for a resumable, question-only AI sweep that preserves answers and choices.
+
 The `flashcards` array (5-20 Q&A pairs) should be tailored to each content type's nature:
 
 **Authoring vs aggregation (hub/leaf):** flashcards are authored at the **leaf/role** level — `top`/`bottom` for positions, `attacker`/`defender` for transitions/submissions, or the flat root for principles/systems. **Hub pages aggregate** their children's cards at build time (`regenerate_graph.py` dedupes top+bottom; family hubs dedupe all variants); role/specific pages show only their own. Author cards on the leaves — never on a family hub.

@@ -82,7 +82,7 @@ description: "How to execute Triangle Clear to Side in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Why must you turn toward the triangle leg side rather than away from it when attempting Triangle Clear to Side?",
+      "name": "Why turn toward the triangle leg side, not away, when clearing a body triangle to the side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the triangle leg side reduces the effective squeezing angle by shortening the distance the top leg travels across your torso, which decreases compression on your ribcage. It also positions your clearing hand closer to the locked ankle and begins the hip rotation needed for the lateral escape. Turning away from the triangle side increases the squeeze angle, makes the lock tighter, and moves your hand further from the lock mechanism."
@@ -90,7 +90,7 @@ description: "How to execute Triangle Clear to Side in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts attacking a rear naked choke aggressively as you begin to clear the triangle - how do you manage both threats simultaneously?",
+      "name": "They attack an RNC as you start clearing the body triangle — how do you handle both threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize neck defense by reinforcing your chin tuck and bringing your defending hand back to block the choking arm. The triangle escape is secondary to surviving the choke. Once you have defended the immediate choke threat, wait for a natural pause in their attack rhythm before re-committing your hand to the ankle. Use your shoulder shrug to block the choking arm pathway, which can protect your neck without requiring a full hand commitment."
@@ -106,7 +106,7 @@ description: "How to execute Triangle Clear to Side in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "You successfully break the triangle lock but opponent immediately tries to re-establish it - what must you do in the first two seconds after the lock breaks?",
+      "name": "You break the body triangle and they try to re-lock — what must you do in the first seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment the lock breaks, you must immediately rotate your hips toward the mat and insert your elbow or forearm as a frame between your body and their legs. This frame physically prevents the re-locking of the triangle. Continue rotating without pausing to rest. The critical error is hesitating after the break, which gives the opponent time to re-thread the foot behind the knee. Treat the lock break as a trigger for continuous lateral movement, not a rest point."
@@ -114,7 +114,7 @@ description: "How to execute Triangle Clear to Side in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What grip configuration on the locked ankle provides the most effective mechanical advantage for clearing the triangle?",
+      "name": "Which grip on the locked ankle best clears their body triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Cup the opponent's ankle with your palm wrapping around the Achilles tendon area and push the foot outward and downward, peeling it away from behind the knee. If a grip alone is insufficient, use your forearm as a wedge by inserting it between their calf and the back of their knee, then lever the foot out using your forearm as a fulcrum. This forearm wedge technique provides significantly more force than hand grip alone and works even against very tight locks."

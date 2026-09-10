@@ -72,7 +72,7 @@ description: "Learn to prevent and counter the Double Sleeve to Lasso guard tran
     },
     {
       "@type": "Question",
-      "name": "The bottom player's shin is halfway through the threading motion and you cannot prevent it - what should you do?",
+      "name": "Their shin is halfway through the lasso thread and you can't stop it: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments."

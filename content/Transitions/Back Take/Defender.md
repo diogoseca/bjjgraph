@@ -64,7 +64,7 @@ description: "How to defend against Back Take in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's hip pressure suddenly lighten on your lower back - what does this signal and how should you respond?",
+      "name": "Their hip pressure on your lower back suddenly lightens: what does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lightening hip pressure signals the attacker is shifting weight forward to their chest in preparation for rotation. This is your highest-percentage defensive window because their base is temporarily compromised during the weight transfer. Respond with an explosive directional change - either sit through toward them, execute a standup if their grips are loose, or granby roll if their weight is committed forward. The key is recognizing this weight shift as the trigger for your defensive action rather than waiting for the rotation to begin."
@@ -80,7 +80,7 @@ description: "How to defend against Back Take in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "The attacker has already inserted one hook during the rotation - what is your immediate defensive priority?",
+      "name": "The attacker has one hook in during the rotation: what's your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the second hook rather than stripping the first. A single hook is manageable and leaves significant escape options, but two hooks establishes back control with dramatically reduced escape probability. Use your same-side hand to block the path of the second foot while simultaneously turning your hips toward the hook side. If you can prevent the second hook, you maintain viable escape routes through sit-through, granby roll, or hip escape to half guard."

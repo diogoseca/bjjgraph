@@ -64,7 +64,7 @@ description: "Master defending sweeps from Combat Base in BJJ. Learn to recogniz
     },
     {
       "@type": "Question",
-      "name": "Why is sitting back with weight on your heels an incomplete defensive strategy against combat base sweeps?",
+      "name": "Why is sitting back on your heels an incomplete defense against combat base sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While sitting back removes the forward weight that the hook sweep requires, it creates three new problems: it gives the guard player space to establish their preferred open guard, it eliminates your forward passing pressure that keeps them defensive, and it exposes your planted foot to ankle pick attacks that work specifically when weight is loaded backward. Complete defense requires dynamic weight management that adjusts to the specific sweep variant being attempted, not a static weight-back posture."
@@ -80,7 +80,7 @@ description: "Master defending sweeps from Combat Base in BJJ. Learn to recogniz
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep butterfly hook under your posted knee and is pulling your collar forward - what is your priority sequence?",
+      "name": "They have a deep hook under your posted knee and pull your collar: what is your priority order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, post your far hand wide to prevent the immediate sweep from succeeding. Second, strip the collar grip with your near hand using a circular wrist motion to remove the pulling force loading your weight. Third, address the hook by stepping your posted knee back or driving it forward to dislodge the instep from your thigh. Finally, re-establish combat base with proper distance and hand positioning before resuming your passing game. The order matters because posting stops the immediate threat, grip stripping removes the sustained loading force, and hook removal prevents the guard player from immediately re-attempting."

@@ -96,7 +96,7 @@ description: "Learn to execute the Rolling Escape from Anaconda as the trapped p
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy chest pressure making it difficult to initiate the roll - how do you generate enough momentum?",
+      "name": "Heavy chest pressure in anaconda control — how do you generate momentum for the rolling escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the opponent's forward pressure against them by converting their downward energy into rotational force. Post your free hand firmly on the mat and push explosively while simultaneously driving your hips in the rolling direction. The opponent's own chest pressure provides the fulcrum point - as you roll away from their drive, their committed weight cannot instantly redirect to follow. You can also walk your hips further laterally to load more potential energy before the explosive roll."
@@ -104,7 +104,7 @@ description: "Learn to execute the Rolling Escape from Anaconda as the trapped p
     },
     {
       "@type": "Question",
-      "name": "What body position must be maintained throughout the entire rolling motion to prevent the choke from tightening?",
+      "name": "What body position must you hold all through the anaconda rolling escape to stop the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The chin must remain tightly tucked toward your free-side shoulder throughout the entire roll, with your upper back rounded into a ball-like shape. This chin tuck minimizes the choking surface area and prevents the carotid arteries from being exposed during the rotation. If the chin lifts at any point during the roll, the grip can tighten and the choke may finish before the escape completes. Think of maintaining a permanent double-chin posture with your ear trying to touch your shoulder."
@@ -112,7 +112,7 @@ description: "Learn to execute the Rolling Escape from Anaconda as the trapped p
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether the anaconda is still escapable through rolling versus when you should tap?",
+      "name": "In an anaconda, how do you judge whether rolling is still viable versus time to tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Test the grip tightness by attempting to insert your free hand between your neck and the opponent's choking forearm. If you can create even a small gap with your fingers, the rolling escape remains viable. If you feel tunnel vision beginning, hear ringing in your ears, or cannot create any space whatsoever between your neck and the forearm, the choke is too deep and you must tap immediately. The five-second rule applies: if focused grip fighting creates no space within five seconds, the position is likely too deep."
@@ -120,7 +120,7 @@ description: "Learn to execute the Rolling Escape from Anaconda as the trapped p
     },
     {
       "@type": "Question",
-      "name": "What is the critical action you must perform during peak rolling momentum that determines escape success?",
+      "name": "During peak rolling momentum out of the anaconda, what must you do with the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped arm must be actively extracted during peak rotational momentum by bending the elbow and retracting it toward your hip. The rolling motion creates a brief window of slack in the choking loop as the compression angle changes, and this window is the only viable moment for arm extraction. Simply rolling without actively pulling the arm free results in landing with the arm still trapped. The extraction motion should be a sharp elbow bend and retraction, not an extension or straightening of the arm."

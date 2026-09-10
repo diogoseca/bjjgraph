@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "Your opponent begins framing on your hip as you start the rotational slide - what adjustment prevents the escape?",
+        "question": "They frame on your hip as you start the rotational slide from kuzure kesa gatame—what do you do?",
         "answer": "Use your free hand to strip the hip frame by pushing their elbow toward their hip, collapsing the structural integrity of the frame. If the frame is too established to strip, pause the choke entry and attack the framing arm with a kimura or americana, which forces them to retract the arm. Once the frame is cleared, resume the rotational slide with the choking arm already threaded. Never try to power through an established hip frame as it wastes energy and creates scramble opportunities.",
         "safety_critical": false,
         "answer_line": "Strip elbow toward their hip",
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Why does the hip sprawl create the finishing compression, and what happens if you keep your hips close?",
+        "question": "Why does the hip sprawl finish the north-south choke, and what happens if your hips stay close?",
         "answer": "The hip sprawl creates a fulcrum effect where the body acts as a lever. As the hips move away, the shoulder is driven deeper into the carotid pocket, and the arm wrap tightens against the far-side carotid. With hips close, there is insufficient leverage to generate meaningful compression - the choke feels tight from the attacker's perspective but lacks the mechanical advantage needed for arterial restriction. The sprawl converts body weight into directed choking pressure rather than relying on muscular arm squeeze.",
         "safety_critical": false,
         "answer_line": "Sprawl hips to form a lever",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "Your opponent manages to extract their near arm during the transition - how do you adjust your attack?",
+        "question": "Your opponent frees their near arm during the north-south choke transition—how do you adapt?",
         "answer": "If the near arm comes free during the transition, immediately assess whether the choking arm is already threaded deep enough to continue. If the arm is deep, continue the slide and use your free hand to control their now-mobile near arm by pinning it. If the thread is shallow, abandon the choke attempt and attack the free near arm with an americana or kimura from Kuzure Kesa Gatame. The newly extracted arm is momentarily extended and vulnerable, making it an ideal counter-attack target that also re-establishes control.",
         "safety_critical": false,
         "answer_line": "Assess thread depth, then adapt",
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "In competition, what grip adjustments maximize finishing rate when the opponent is actively defending?",
+        "question": "In competition, what grip adjustments help you finish the north-south choke against active defense?",
         "answer": "In competition with a resisting opponent, grip the choking arm's own wrist with the free hand to create a closed loop that prevents the arm from being pulled out during defensive movement. Alternatively, clasp both hands together in a gable grip under the neck for maximum stability. If the opponent tucks their chin aggressively, adjust the shoulder angle by walking your knees slightly past their head to change the compression vector. Small positional adjustments are more effective than simply squeezing harder against active defense.",
         "safety_critical": false,
         "answer_line": "Grip own wrist to seal the loop",
@@ -576,7 +576,7 @@
         }
       },
       {
-        "question": "Your opponent is sliding toward your head and you feel their arm threading under your neck - what is your immediate response?",
+        "question": "They slide toward your head and thread an arm under your neck from kuzure kesa gatame—what now?",
         "answer": "Immediately frame on their hip with your free arm, driving your forearm into their hip bone at a 45-degree angle to physically block the rotational slide. Simultaneously, use your near hand to fight the threading arm by pushing their elbow away from your neck or gripping their wrist to prevent deeper penetration. Begin shrimping your hips away from them to create distance. If the arm is already past your centerline and the frame is not holding, transition immediately to turning toward the choking arm to collapse the shoulder angle before it seats in the carotid pocket.",
         "safety_critical": false,
         "answer_line": "Frame hip, fight arm, shrimp out",

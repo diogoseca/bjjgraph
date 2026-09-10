@@ -58,7 +58,7 @@ description: "How to defend against Leg Drag to Crucifix in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your rotation instead of resisting your turn-in from leg drag - what does this indicate?",
+      "name": "Your opponent follows your turn-in from leg drag instead of resisting. What does that mean?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates they are setting up the crucifix transition rather than maintaining standard leg drag control. In normal leg drag top play, the passer resists your turn-in to maintain their passing angle. When they follow your rotation and shift perpendicular to your body, they are positioning to capture your arm and step over for the crucifix. Immediately abort the turn-in, retract your arms, and either stay flat or turn the opposite direction."
@@ -74,7 +74,7 @@ description: "How to defend against Leg Drag to Crucifix in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What is the correct defensive response if the attacker has captured your far arm but has not yet stepped their leg over?",
+      "name": "They captured your far arm but haven't stepped over yet. Correct defense against the crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical last-chance window. Immediately perform a strong hip escape away from the attacker while simultaneously pulling your captured elbow toward your ribcage using a circular motion rather than a straight pull. The hip escape creates distance that may break the grip or prevent the step-over. If the arm remains captured, address the leg step-over by keeping your near elbow tight and your body angled to block their leg from crossing over your torso."
@@ -82,7 +82,7 @@ description: "How to defend against Leg Drag to Crucifix in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you modify your turn-in defense from leg drag when you know your opponent has a strong crucifix game?",
+      "name": "How do you change your turn-in defense from leg drag against a strong crucifix player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a known crucifix player, bias your defensive choices away from the turn-in entirely. Prioritize staying flat and working leg extraction, or turning away to accept back exposure which is more escapable than crucifix. If you must turn in, do so incrementally with elbows glued to your ribs, checking after each micro-rotation whether the attacker is following. Use closed fists rather than open hands for any necessary posting, and keep your far arm across your own chest rather than reaching toward the mat."

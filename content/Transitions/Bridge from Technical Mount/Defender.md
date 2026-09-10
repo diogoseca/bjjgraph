@@ -58,7 +58,7 @@ description: "Guide to maintaining technical mount against bridge escape attempt
     },
     {
       "@type": "Question",
-      "name": "When your opponent bridges successfully and begins turning, should you fight to maintain technical mount or transition to another position?",
+      "name": "They bridge and start turning under your technical mount: hold the position or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to back control. Fighting to maintain technical mount against meaningful displacement wastes energy and often fails. The opponent's turning motion during the bridge directly exposes their back—follow the rotation, release the armbar grip, and establish seat belt control with hooks. Back control is a strictly superior position to technical mount, so the bridge actually creates an advancement opportunity rather than a genuine escape threat when you recognize it correctly."
@@ -74,7 +74,7 @@ description: "Guide to maintaining technical mount against bridge escape attempt
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes a powerful bridge that shifts your weight significantly—what is the optimal response sequence?",
+      "name": "A powerful bridge shifts your weight in technical mount: what is the optimal response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, assess whether you can maintain arm control. If yes, ride the bridge by flowing with the motion and resettle once the bridge energy dissipates. If the displacement is too great to resettle comfortably, immediately follow their turning motion into back control—release the armbar threat, establish seat belt grip, and insert hooks. Never fight to return to technical mount against momentum when back control is available. The key principle is that bridge displacement should trigger an advancement decision, not a recovery struggle."

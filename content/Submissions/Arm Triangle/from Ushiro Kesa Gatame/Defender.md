@@ -66,7 +66,7 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "What is the safest response when the arm triangle from Ushiro Kesa Gatame is fully locked and sealed?",
+      "name": "The arm triangle from Ushiro Kesa Gatame is fully sealed on you—what is the safest response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are restricted, or verbally say 'tap' loudly and repeatedly. Do not attempt extended escape sequences once the choke is fully sealed with the attacker's hip dropped and head low. Arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal physical warning. Tapping early preserves your safety and allows you to continue training."
@@ -74,7 +74,7 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "What far-arm positioning prevents the attacker from converting Ushiro Kesa Gatame into an arm triangle?",
+      "name": "What far-arm position stops the attacker turning Ushiro Kesa Gatame into an arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your far arm either pinned tight against your own body with your elbow clamped to your ribs, or actively fight to extract it downward toward your hip from the attacker's armpit clamp. The critical mistake is allowing your arm to be driven across your own neck where your shoulder compresses your carotid. If the attacker has your arm under their armpit, work small incremental extractions rather than explosive pulls that may be absorbed by the clamp. Your arm position relative to your neck is the single most important factor in preventing this submission."
@@ -82,7 +82,7 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm grip but has not yet walked to the perpendicular finishing angle — what escape options remain?",
+      "name": "In Ushiro Kesa Gatame the grip is locked but not yet perpendicular—what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get your knees underneath you. Simultaneously frame against their hips with your free arm to prevent them from completing the walk-around to the perpendicular angle. If you can get to your knees facing the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and pull them into your closed guard to disrupt the finishing angle and eliminate the chest-to-chest compression."
@@ -90,7 +90,7 @@ description: "Learn to defend the Arm Triangle from Ushiro Kesa Gatame. Recogniz
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker more effective than turning away when caught in the arm triangle from Ushiro Kesa Gatame?",
+      "name": "Caught in the arm triangle from Ushiro Kesa Gatame, why turn into the attacker rather than away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker flattens the choke angle by bringing your body parallel to theirs, which prevents the perpendicular chest compression that drives the finish. It also relieves the shoulder-on-carotid pressure by changing the angle at which your shoulder contacts your neck. Turning away does the opposite — it gives the attacker the perpendicular angle they are seeking, drives your own shoulder deeper into your carotid through the rotational force, and accelerates the blood choke. The biomechanics of the arm triangle require a specific angle to function, and turning in denies that angle."

@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "What is the critical moment during the Americana setup from Kesa Gatame that creates the highest escape risk?",
+        "question": "During the Americana from Kesa Gatame, which moment creates the highest escape risk?",
         "answer": "The highest escape risk occurs when you release head control to thread your arm under the opponent's trapped arm for the figure-four grip. During this transition, the opponent's head is momentarily free, creating a window where they can bridge, turn, or attempt to recover guard. Managing this window requires pinning the wrist firmly first and maintaining heavy chest pressure throughout the grip transition to compensate for the lost head control.",
         "safety_critical": false,
         "answer_line": "Releasing head control for grip",
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their trapped arm as you attempt to secure the figure-four—what adjustment do you make?",
+        "question": "In Kesa Gatame they straighten the trapped arm before your figure-four — what do you do?",
         "answer": "If the opponent straightens their arm before the figure-four is complete, abandon the Americana attempt and transition to an armbar or straight armlock on the extended arm. The extended arm is more vulnerable to armbar attacks than to the Americana. Alternatively, use your chest weight to drive their extended arm back to a bent position by pressing down on their elbow. Never try to force the figure-four onto a fully straightened arm, as this wastes energy and creates space for escapes.",
         "safety_critical": false,
         "answer_line": "Transition to armbar attack",
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "What are the warning signs that you are applying the Americana too fast and risk injuring your training partner?",
+        "question": "Which signs warn that you're applying the Americana too fast and risking your partner's shoulder?",
         "answer": "Warning signs include sudden popping or clicking sounds from the shoulder, partner's facial expression showing acute distress before they can articulate a tap, partner's entire body tensing rigidly, or the forearm moving toward the mat faster than the partner can process and respond. Always apply the Americana with slow progressive pressure that gives the opponent time to recognize the submission and tap. Pause briefly when you feel initial resistance at the shoulder's end range—this is the injury threshold where damage occurs if force continues without a tap.",
         "safety_critical": true,
         "answer_line": "Popping sound or rigid tensing",
@@ -437,7 +437,7 @@
         }
       },
       {
-        "question": "How does the Americana from Kesa Gatame differ mechanically from the Americana from standard side control?",
+        "question": "Mechanically, how does the Kesa Gatame Americana differ from the side control version?",
         "answer": "From Kesa Gatame, the arm is already trapped under your armpit, eliminating the initial arm isolation step required from standard side control. The perpendicular body angle creates a different leverage angle for the figure-four where your body weight drives more directly into the finishing motion. However, Kesa Gatame requires releasing head control for the figure-four, while standard side control allows maintaining crossface throughout. The scarf hold version also generates stronger natural chest pressure on the opponent's diaphragm, reducing their explosive defensive capacity during the finishing sequence.",
         "safety_critical": false,
         "answer_line": "Arm pre-trapped, head control lost",
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "Why is it critical to prevent the figure-four grip from being completed rather than trying to escape after it is locked?",
+        "question": "Why prevent the Americana figure-four from locking rather than escaping after it's locked?",
         "answer": "Once the figure-four grip is fully secured with proper elbow positioning, the two-on-one grip system combined with the attacker's body weight creates forces that are extremely difficult to overcome through strength alone. Before the grip is complete, you only need to address one control point—the wrist pin—and you have full arm mobility plus bridging power available. After completion, you must simultaneously break the figure-four and create a positional escape, which requires far more energy and has a significantly lower success rate.",
         "safety_critical": false,
         "answer_line": "One control point, full mobility",
@@ -586,7 +586,7 @@
         }
       },
       {
-        "question": "How does the momentary release of head control during the Americana setup create an escape opportunity?",
+        "question": "How does losing head control during the Kesa Gatame Americana setup open an escape?",
         "answer": "When the opponent releases head control to thread the figure-four, your head becomes free to turn and your neck is no longer pinned. This creates a two to three second window where you can bridge toward the opponent and turn into them, potentially recovering guard or reaching turtle. Recognize this window through tactile sensation—the pressure on your head releases suddenly as their arm moves. Time your most explosive escape attempt to coincide with this moment of reduced positional control.",
         "safety_critical": false,
         "answer_line": "Bridge and turn during 2-3 sec",
@@ -601,7 +601,7 @@
         }
       },
       {
-        "question": "Your opponent has fully secured the figure-four and begins painting your arm toward the mat—what is your last resort defense?",
+        "question": "The figure-four is locked and they're painting your arm down — what is your last-resort defense?",
         "answer": "If the figure-four is fully locked and the painting motion has begun toward end range, tap immediately rather than risking injury to the shoulder. The glenohumeral joint can suffer permanent damage from forced lateral rotation beyond its natural range, including rotator cuff tears and shoulder dislocation that require months of recovery or surgery. In training, no submission is worth a catastrophic shoulder injury—tap early, recognize where your defense failed, and focus on earlier intervention in future attempts.",
         "safety_critical": true,
         "answer_line": "Tap immediately, don't resist",
@@ -616,7 +616,7 @@
         }
       },
       {
-        "question": "What defensive arm position should you maintain with the trapped arm to minimize both Americana and armbar vulnerability?",
+        "question": "How should you hold the trapped arm to limit both Americana and armbar risk in Kesa Gatame?",
         "answer": "Keep the trapped arm bent at approximately ninety degrees with your elbow tight against your ribs and slight internal rotation at the shoulder. This position prevents the Americana because the arm cannot be painted toward the mat without first being repositioned, and prevents the armbar because the arm is not extended. If you fully extend to prevent the Americana, you expose yourself to armbar. If you collapse the arm completely against your body, you create the bent position the Americana needs. The ninety-degree defensive position splits the difference between both threats.",
         "safety_critical": false,
         "answer_line": "Elbow tight to ribs, 90° bend",

@@ -58,7 +58,7 @@ description: "Defensive guide for surviving and escaping the rear naked choke fr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when you recognize a rear naked choke attempt from mounted crucifix?",
+      "name": "You recognize an RNC attempt from mounted crucifix — what is your first defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin tightly to your chest and elevate both shoulders toward your ears, creating a physical barrier around your neck. This must happen before the choking arm reaches your chin. Even with trapped arms, the chin tuck and shoulder shrug prevent the forearm from reaching the carotid arteries. This buys critical time to work on arm extraction and escape attempts while the opponent must solve your chin defense before completing the choke."
@@ -66,7 +66,7 @@ description: "Defensive guide for surviving and escaping the rear naked choke fr
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to tap early when the RNC figure-four grip locks from mounted crucifix in training?",
+      "name": "Why tap as soon as the figure-four locks from mounted crucifix in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four lock completes behind your head with the choking arm deep across both carotids, the blood choke finishes in approximately 4-10 seconds. From mounted crucifix, you have no hands available to fight the grip. Unconsciousness from bilateral carotid compression occurs suddenly without gradual warning - you feel fine one moment and are unconscious the next. In training, tapping at grip completion rather than full squeeze prevents the risk of being caught by this rapid onset."
@@ -90,7 +90,7 @@ description: "Defensive guide for surviving and escaping the rear naked choke fr
     },
     {
       "@type": "Question",
-      "name": "When defending the choke, should you turn your head toward or away from the choking arm side, and why?",
+      "name": "Defending the RNC, do you turn your head toward or away from the choking arm, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn toward the choking arm side. Turning away exposes the far side of your neck, creating exactly the opening the attacker needs to slide their forearm beneath your chin. Turning toward the choking arm brings your chin across to protect the near-side carotid artery and reduces the available space for the forearm to enter. This counter-intuitive direction is critical because many defenders instinctively turn away from the threat, which accelerates the choke setup rather than preventing it."

@@ -72,7 +72,7 @@ description: "Prevent the Matrix escape and capitalize on your opponent's stalle
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the escape and you successfully insert one hook—what is your immediate priority?",
+      "name": "You insert one hook as they escape Matrix: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish seatbelt or harness upper body control before pursuing the second hook. A single hook without upper body control is easily stripped by the opponent extending their leg or continuing their roll. The seatbelt locks their torso relative to yours, preventing the rotation and movement they need to clear the hook. With seatbelt established, the second hook insertion becomes significantly easier because the opponent's movement options are constrained by your upper body connection."
@@ -80,7 +80,7 @@ description: "Prevent the Matrix escape and capitalize on your opponent's stalle
     },
     {
       "@type": "Question",
-      "name": "Why is forward pressure more effective than attempting immediate submissions during the escape transition?",
+      "name": "Why beat their Matrix escape with forward pressure instead of an immediate submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the escape transition, the opponent is moving dynamically and their body position changes rapidly—this makes submission grips unreliable and easy to shake loose. Forward pressure, by contrast, accomplishes the critical objective of denying them the space and time needed to complete their recovery. A failed submission attempt during the transition often results in losing all contact with the opponent as they use the space created by your grip change to complete their escape. Secure position first through pressure and control, then attack submissions from the established dominant position."

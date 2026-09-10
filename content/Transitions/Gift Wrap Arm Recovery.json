@@ -279,7 +279,7 @@
         }
       },
       {
-        "question": "Your opponent attacks the rear naked choke the moment you begin arm recovery - what is your response?",
+        "question": "They attack the rear naked choke as you start Gift Wrap arm recovery: what do you do?",
         "answer": "Immediately abandon the arm recovery attempt and bring your free hand directly to choke defense, using both hands if necessary. The rear naked choke is a more immediate threat than the arm trap. Once the choke threat passes and the opponent's choking arm is controlled, you can re-attempt the arm recovery from the same defensive position.",
         "answer_line": "Abandon recovery, defend choke",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "Your opponent has flattened you onto your back while maintaining the Gift Wrap - what is your immediate priority?",
+        "question": "Flattened on your back in the Gift Wrap, what is your priority before arm recovery?",
         "answer": "Your immediate priority is regaining side position through an explosive bridge before attempting arm recovery. Hip escape mechanics are impossible from a flat position because your hips are pinned. Bridge to create space and turn to your side, then immediately begin the standard arm recovery sequence. The bridge-assisted recovery variant is specifically designed for this scenario.",
         "answer_line": "Bridge explosively, turn to side",
         "distractors": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "How does the roll-through recovery variant differ from the standard technique, and when should you use it?",
+        "question": "How does the roll-through Gift Wrap recovery differ from the standard one, and when do you use it?",
         "answer": "The roll-through variant uses the opponent's own forward pressure as the energy source for the escape. Instead of shrimping away, you roll through toward turtle position, extracting the arm during the rotational momentum. Use it when the opponent is driving significant forward pressure through the Gift Wrap, making standard hip escape ineffective. The momentum redirection converts their pressure into your escape energy.",
         "answer_line": "Roll through into turtle position",
         "distractors": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "Your opponent starts reaching for your free arm while maintaining the Gift Wrap - what does this signal and how do you respond?",
+        "question": "From Gift Wrap bottom, they reach for your free arm: what does this signal and how do you respond?",
         "answer": "This signals a crucifix transition attempt, which would trap both arms and create an even worse position. Immediately retract your free arm tight to your body with elbow against your ribs. Prioritize protecting the free arm over continuing the recovery attempt. If necessary, abandon the arm recovery entirely and focus on preventing the crucifix by keeping the free elbow glued to your torso while maintaining neck defense.",
         "answer_line": "Crucifix setup, retract free arm",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "Your opponent chains three rapid hip escapes in the same direction - how do you maintain Gift Wrap control?",
+        "question": "They chain three fast hip escapes one way: how do you keep the Gift Wrap?",
         "answer": "Follow each hip escape immediately by scooting your hips in the same direction to maintain chest-to-back connection and zero distance. Do not let space accumulate across multiple shrimps. Use your hooks to track their hip movement and maintain alignment. If they are successfully chaining escapes, consider switching your strategy to attacking the neck during one of their shrimps, exploiting the moment their free hand is occupied with movement rather than defense.",
         "answer_line": "Scoot hips, maintain zero distance",
         "distractors": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "question": "How do you counter the direction change recovery variant where your opponent suddenly reverses their shrimp direction?",
+        "question": "How do you counter their sudden shrimp direction reversal while holding the Gift Wrap?",
         "answer": "The direction change variant exploits your momentum as you follow their initial hip escape direction. Counter this by maintaining centered weight distribution rather than over-committing to following one direction. Keep your hips heavy and centered behind their hips rather than chasing laterally. When you feel the sudden reversal, use your hooks as anchors to prevent their rotation and immediately re-establish forward chest pressure to flatten them before they can exploit the new angle.",
         "answer_line": "Stay centered, don't over-chase",
         "distractors": {
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "What is the correct response when your opponent bridges explosively to create space for arm recovery?",
+        "question": "How do you respond when they bridge explosively to recover the arm from the Gift Wrap?",
         "answer": "When your opponent bridges, absorb the upward energy by driving your hips forward into their lower back rather than posting with your hands. Use your hooks to anchor your lower body position and ride the bridge. As they return from the bridge apex, immediately tighten the Gift Wrap control and drive them back to the mat. The moment after a bridge fails is when the bottom player is most vulnerable because their explosive energy is spent and they have briefly lost their side positioning.",
         "answer_line": "Drive hips in, ride the bridge",
         "distractors": {

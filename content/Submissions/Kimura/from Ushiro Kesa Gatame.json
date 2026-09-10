@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "What sensation tells you the shoulder is reaching its breaking point, and what must you do at that moment?",
+        "question": "Rotating the arm in this Kimura, what sensation signals the shoulder's limit, and what then?",
         "answer": "As you rotate the forearm toward the mat you will feel the opponent's elbow and shoulder hit a hard stop where the joint stops yielding and the arm refuses to rotate any further—this is the anatomical limit of internal rotation, and tissue damage begins immediately past it. At that instant apply no additional force: hold steady pressure, watch and feel for the tap, and release the moment it comes. Crossing that limit explosively is what causes rotator cuff tears and dislocations.",
         "safety_critical": true,
         "answer_line": "Hard stop, hold and wait for tap",
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the opponent is about to bridge and roll to escape the Kimura attempt?",
+        "question": "Attacking the Kimura from ushiro kesa gatame, what signs show they are about to bridge and roll?",
         "answer": "Watch for the opponent planting both feet flat on the mat, loading their hips by pressing down through their heels, and shifting weight toward the Kimura side. They may also push your hip with their free hand to create a pivot point. Counter by widening your base immediately, driving your hips lower against their ribs, and maintaining the armpit clamp. Ride any bridge by staying connected rather than tensing against it.",
         "safety_critical": false,
         "answer_line": "Feet planted, hips loading",
@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "In a competition scramble, how do you decide between forcing the Kimura finish and using it to advance position?",
+        "question": "In a scramble, how do you choose between forcing the Kimura finish and advancing position?",
         "answer": "If the figure-four and elbow-hip fulcrum are locked and the opponent cannot rotate out, commit to the finish with steady hip-driven pressure. If they defend by gripping their belt or straightening the arm and the clock is not against you, use the Kimura grip as a steering wheel: walk to north-south or take the back, keeping the threat alive while you upgrade position rather than burning energy on a stalled finish. The locked grip means a defensive reaction in any direction feeds your next attack.",
         "safety_critical": false,
         "answer_line": "Finish if locked, else advance",

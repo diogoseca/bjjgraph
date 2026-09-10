@@ -56,7 +56,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt the transition to Russian Leg Lasso?",
+      "name": "What is the earliest cue that they are transitioning to Russian leg lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's non-lasso hand releasing the collar grip and reaching toward your free arm's wrist or sleeve. This collar grip release is the prerequisite for the transition because they need that hand to capture the second sleeve. The collar release typically occurs 1-2 seconds before the actual threading attempt, providing a critical defensive window. Secondary cues include hip rotation toward the threading side and the free leg curling inward to prepare for the threading motion."
@@ -64,7 +64,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining forward pressure more effective than creating distance when defending against the threading attempt?",
+      "name": "Defending the second lasso thread: why is forward pressure better than creating distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure flattens the opponent's hips, which eliminates the 30-45 degree hip angle they need to thread the second leg efficiently across your arm. With flat hips, the threading leg must travel a longer, more awkward arc to reach your arm, giving you significantly more time to retract. Additionally, forward pressure keeps you connected, which limits the bottom player's ability to readjust angles. Distance, conversely, extends your trapped arm deeper into the first lasso while giving the opponent freedom to reangle their hips for optimal threading."
@@ -72,7 +72,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has captured the second sleeve grip but has not yet threaded the leg. What is your priority action?",
+      "name": "They have the second sleeve grip but haven't threaded the leg yet. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the second sleeve grip before the leg threads through. This is a narrow window - once the grip is captured but the leg has not crossed your arm, a technical grip break (peeling fingers, stripping the thumb, redirecting the wrist) can prevent the entire transition. Simultaneously retract your arm toward your body to increase the distance the threading leg must travel. If you cannot break the grip within 1-2 seconds, shift priority to stripping the first sleeve grip instead, which collapses the entire lasso foundation regardless of the second thread's progress."
@@ -80,7 +80,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The bottom player feints a triangle from single lasso, causing you to post your free hand. How should you handle this?",
+      "name": "They feint a triangle from single lasso to draw your free hand out. How do you handle it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that triangle feints from lasso are a common bait designed specifically to draw out your free arm for the second sleeve capture. When you feel the instinct to post or reach in response to a triangle threat, check whether the bottom player's non-lasso hand is still on your collar or has released to grab your free sleeve. If their hand is reaching for your sleeve, the triangle was a feint and you should retract your arm immediately rather than posting. Develop the discipline to verify the threat before committing your free arm to a defensive post."
@@ -88,7 +88,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Both lassos are now established - the transition succeeded. What is your immediate priority and approach?",
+      "name": "Both lassos are set. What is your immediate priority for freeing an arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is extracting one arm before the opponent initiates bilateral sweep attacks. Focus on the more recently threaded (second) lasso because it has had less time to settle into a deep position and the sleeve grip may be less secure than the first. Use your core and leg positioning to maintain base while working the extraction - lean your weight toward the weaker lasso side to create slack in that system. Do not attempt to clear both lassos simultaneously. Freeing even one arm converts the position back to single lasso where your defensive and passing options are significantly better."

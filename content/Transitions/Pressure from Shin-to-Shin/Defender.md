@@ -50,7 +50,7 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary advantage the defender has when facing a pressure-based approach to shin-to-shin passing?",
+      "name": "Defending shin-to-shin, what is your main advantage against a pressure-based passer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defender's primary advantage is that committed forward pressure from the top player creates the exact conditions needed for counter-entries. Forward weight commitment provides the elevation platform for Single Leg X-Guard entries and the downward momentum for butterfly sweep conversions. The more pressure the attacker applies, the more powerful the defender's counter-entries become—provided the defender recognizes the timing window and initiates the transition before the shin structure collapses."
@@ -66,7 +66,7 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
     },
     {
       "@type": "Question",
-      "name": "Your shin angle is collapsing under heavy pressure and you cannot re-establish the perpendicular connection—what should you do?",
+      "name": "Your shin angle is collapsing and you can't regain the perpendicular connection. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the shin-to-shin position and transition to an alternative guard rather than fighting a losing structural battle. Your best options in order of priority: thread to Single Leg X if you can get underneath, insert butterfly hook if their weight is dropping, hip escape to recover knee shield half guard, or retreat to seated guard with feet-on-hips distance management. The critical error is continuing to fight for a collapsed position while the attacker advances through the opening."
@@ -74,7 +74,7 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
     },
     {
       "@type": "Question",
-      "name": "Why is hip elevation timing more important than hip elevation power when countering the pressure pass?",
+      "name": "Countering the pressure pass from shin-to-shin, why is hip elevation timing over power?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing determines whether the attacker's weight assists your elevation or works against it. Elevating when the attacker's weight is fully committed forward provides their momentum as a platform—your hips rise easily because their drive creates the upward reaction force. Elevating at the wrong time, either too early when they can retract or too late when the shin is already collapsed, requires significantly more muscular effort to achieve the same result. Precise timing converts the attacker's own force into your counter-entry power."
@@ -82,7 +82,7 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
     },
     {
       "@type": "Question",
-      "name": "What grip should you prioritize maintaining throughout the defensive sequence against pressure passing?",
+      "name": "Which grip should you prioritize defending shin-to-shin against a pressure pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the same-side ankle or pants grip on the leg connected to your shin. This grip prevents the attacker from retracting their leg during counter-entry attempts and provides the anchor point needed for Single Leg X-Guard establishment. Without this grip, successful hip elevation still fails because the attacker can simply withdraw the targeted leg. Secondary priority is a collar or sleeve grip for distance management and off-balancing during the transition."

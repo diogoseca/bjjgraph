@@ -56,7 +56,7 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a sweep rather than a standard escape from ushiro ashi-garami bottom?",
+      "name": "From ushiro ashi-garami top, what is the earliest cue they are sweeping rather than escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent reaching to control your far-side posting hand. Standard escapes focus on leg clearing and turtle rotation, where the hands work to control your inside knee. When the opponent's hand targets your posting arm instead, they are establishing the primary sweep prerequisite. This distinction appears 1-2 seconds before the actual sweep initiation, providing a critical early warning window for defensive response."
@@ -64,7 +64,7 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to saddle an effective counter to the sweep attempt, and what mechanical principle makes this work?",
+      "name": "Why does stepping to saddle counter the ushiro ashi-garami sweep, and what makes it work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transitioning to saddle works because the opponent's sweep rotation actually assists your outside leg step-through. The rotational movement they generate to sweep you creates space for your leg to clear into the saddle configuration. Additionally, their commitment to sweeping means their hands are occupied with your posting arm rather than blocking your leg transition. The saddle converts their offensive movement into a positional upgrade for you, making their sweep attempt counterproductive."
@@ -72,7 +72,7 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution during heel hook finishing attempts to prevent sweep vulnerability without reducing finishing effectiveness?",
+      "name": "Finishing a heel hook from ushiro ashi-garami, how do you distribute weight to avoid being swept?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Distribute weight primarily through the figure-four entanglement and your posted leg rather than driving shoulders forward past your hip line. This keeps your center of gravity behind the tipping point while still allowing downward finishing pressure through the entangled legs. Use your inside leg control on their thigh to generate heel hook finishing leverage rather than forward body weight, maintaining base stability and finishing pressure simultaneously."
@@ -80,7 +80,7 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "Your opponent has controlled your posting hand and you feel their hips beginning to drive into you—what is the optimal response at this late stage?",
+      "name": "They control your posting hand and drive their hips in—what is your best late-stage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, the sweep is likely to succeed if you try to simply resist. Your best option is to immediately step your outside leg through to transition to saddle before the sweep gains full momentum. If the saddle transition is not available, use your trapped posting hand to frame on the mat by bending the elbow and posting on the forearm instead of the full hand—this partial post may be sufficient to stall the sweep and create time for full hand recovery."

@@ -68,7 +68,7 @@ description: "Defend and escape the kneebar from inside ashi-garami with early r
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available at different stages of the kneebar attempt from inside ashi-garami?",
+      "name": "What kneebar defenses are available at each stage of the attack from inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the early transition phase when the attacker is shifting grips and beginning to pivot, boot extraction is the highest-percentage defense with low risk. During the mid-transition when hips are moving but not fully engaged, knee retraction combined with active bending denies the extension. Once hips are partially over the knee, inward knee rotation can misalign the hyperextension angle but risks exposing the heel. Once the kneebar is fully locked with hips engaged, legs clamped, and extension beginning, the only safe response is to tap immediately."
@@ -76,7 +76,7 @@ description: "Defend and escape the kneebar from inside ashi-garami with early r
     },
     {
       "@type": "Question",
-      "name": "When is the point of no return where you should tap rather than continue attempting to escape the kneebar?",
+      "name": "At what point in a kneebar must you tap instead of continuing to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return is reached when three conditions are met simultaneously: the attacker's hip crease is seated directly over your knee joint, their legs are clamped around your thigh preventing knee retraction, and your foot is pinned against their chest with no looseness in the grip. Once the attacker begins hip extension from this locked position, the hyperextension force on your knee increases exponentially and ligament damage can occur within fractions of a second. Tap at the first sensation of pressure on the knee joint when fully locked rather than testing the limits."

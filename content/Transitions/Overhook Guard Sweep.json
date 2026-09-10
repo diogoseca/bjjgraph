@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "How does the planted foot position affect sweep effectiveness and what happens if it is placed incorrectly?",
+        "question": "How does planted foot position affect the overhook guard sweep, and what if it is misplaced?",
         "answer": "The planted foot must be flat on the mat near the opponent's hip on the overhook side, positioned close enough to generate direct upward and lateral force into their body. If the foot is too far from the opponent's hip, the driving force dissipates before reaching their center of gravity, producing a weak push that fails to off-balance. If the foot is too close or underneath your own hips, you lose the mechanical range needed for an explosive bridge. The foot acts as the primary engine of the sweep, and its position relative to the opponent's hip determines the angle and magnitude of the driving force.",
         "answer_line": "Flat, near their hip, same side",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "How should you adjust your base when you recognize the bottom player is creating an angle toward the overhook side?",
+        "question": "How do you adjust your base when the bottom player angles toward the overhook side?",
         "answer": "Widen your base by posting your free-side knee outward and dropping your hips lower toward the mat. Shift your weight slightly away from the overhook side to counterbalance the angle the bottom player is creating. Drive your shoulder pressure forward into the overhook to flatten the bottom player and eliminate the space they need for the angle. The combination of wide base, low hips, and forward pressure makes the sweep direction mechanically very difficult.",
         "answer_line": "Widen base, hips low, pressure in",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "Your posting hand is controlled and the sweep is already in motion - what is your best recovery option?",
+        "question": "Your posting hand is controlled and the overhook sweep is underway: best recovery option?",
         "answer": "If the sweep has passed the tipping point and both arms are controlled, tuck your chin, round your back, and work to establish half guard by inserting your bottom knee shield as you roll. Do not fight the sweep at this stage as it wastes energy and often results in a worse position than mount. Instead, accept the reversal but focus on recovering half guard during the transition, which gives you a much better defensive position than flat mount bottom.",
         "answer_line": "Roll through, recover half guard",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "How do you recognize the difference between a committed sweep attempt and a feint designed to set up a submission?",
+        "question": "How do you tell a committed overhook guard sweep from a feint setting up a submission?",
         "answer": "A committed sweep attempt involves the bottom player opening their guard and planting a foot on the mat for driving force, combined with a strong lateral pull on the overhook. A feint typically maintains closed guard or only partially opens it, and the overhook pull direction changes quickly. Watch the bottom player's hips and feet rather than their upper body: if their foot plants firmly near your hip and their hips commit to the angle, the sweep is real. If their guard stays closed or their hips remain centered, they are likely baiting you to post so they can transition to triangle or armbar off your extended arm.",
         "answer_line": "Watch hips and feet, not arms",
         "distractors": {

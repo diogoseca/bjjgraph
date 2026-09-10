@@ -80,7 +80,7 @@ description: "Learn to pass Reverse Half Guard as the attacker. Step-by-step leg
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the pass versus pursuing a back take from reverse half guard top?",
+      "name": "From reverse half top, what tells you to pass rather than take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate the pass when the bottom player flattens defensively and faces away from you, as this indicates they are prioritizing back defense over guard recovery. If the bottom player turns their shoulders toward you to face you, abandon the pass and pursue the back take instead. The bottom player's defensive choice dictates your technique selection—never force a pass against a turning opponent or a back take against a flattened one."
@@ -112,7 +112,7 @@ description: "Learn to pass Reverse Half Guard as the attacker. Step-by-step leg
     },
     {
       "@type": "Question",
-      "name": "What grip or control is most essential for preventing the bottom player's guard recovery during the pass?",
+      "name": "Passing reverse half, which control is most essential to stop their guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Far hip control with your near hand is the most essential control for preventing guard recovery. The bottom player's primary defensive mechanism is shrimping their hips away to create space for knee insertion and guard recovery. Blocking the far hip eliminates this option entirely. Without far hip control, even perfect chest pressure and crossface cannot prevent a determined shrimp escape, because the bottom player's hip movement generates from below your chest contact point."

@@ -7151,3 +7151,16 @@ Existing picker, reading-card and share journeys now target the graph control.
 
 Arrival fixtures also wait for the visible hand-off before interaction and accept a capstone
 hand already dealt during its start action. The wheel journey uses the same settled arrival.
+
+
+## v1.182.2 — Shorter authored flashcard questions
+
+All position, submission, and transition question schemas now cap questions at 100 characters, including spaces and punctuation, across every role and shared tier. Opus rewrote 10,115 overlong questions in 1,435 source JSON files; the complete target corpus contains 22,213 questions. Answers, answer lines, distractors, safety flags, card order, and all other source fields were preserved. A semantic review of the 173 longest originals and the 60-question trial led to 22 further wording repairs.
+
+`scripts/rewrite_questions.py` reads the cap from the schemas, sends bounded tool-free batches, validates response keys and text locally, prevents duplicate questions within a deck, checks for concurrent source edits, saves atomic checkpoints, and retries temporary API errors. Its `--check` mode audits every role without inference. The rejected display-clamping change was removed. Rewording retains the existing app behavior of assigning a new question-hash progress identity.
+
+Validation: all 1,511 target JSON files pass their full schemas; the source diff contains only question changes; all 21,761 emitted app cards fit the limit; graph integrity passes. The schema/inference/corpus regression gate is `tests/question_rewrite.test.mjs`. Generated pages, graph flashcards, and app chunks were refreshed from the JSON source.
+
+Final unit run: 258 passed, 0 failed. All three category page regenerations completed without skipped source files.
+
+Release validation: full Quartz build and payload gate passed. Integration preserves concurrent dev UI releases; the Explore documentation was condensed to satisfy the existing budget.

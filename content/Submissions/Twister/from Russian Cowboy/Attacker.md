@@ -76,7 +76,7 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Twister primarily attack, and how do the opposed forces create the submission mechanism?",
+      "name": "What does the twister primarily attack, and how do the opposed forces create the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Twister primarily attacks the thoracic spine and secondarily the cervical spine through opposed rotational forces. The figure-four leg lock anchors the opponent's hips facing one direction while the arm controls rotate the shoulders and head in the opposite direction. This creates a corkscrew compression across the thoracic vertebrae, compressing the intervertebral discs and stretching the spinal ligaments. The thoracic spine has limited rotational range compared to the cervical spine, so the distributed torque across multiple vertebral segments creates submission pressure before any single structure reaches failure. The chest acts as the fulcrum point where the opposing forces converge."
@@ -84,7 +84,7 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between finishing the Twister from Russian Cowboy versus from an established Truck position?",
+      "name": "What is the key mechanical difference between the twister finish from Russian cowboy and truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From Russian Cowboy, you must first convert the single asymmetric hook into a figure-four leg lock, which creates a vulnerable transition window where the opponent can defend. The Truck position already has the figure-four established, so you skip this conversion step and can proceed directly to upper body control and rotation. The Russian Cowboy pathway requires maintaining chest-to-back contact during the leg threading to prevent the opponent from exploiting the transition, while from Truck the position is already stabilized for the finish sequence."
@@ -92,7 +92,7 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rolling forward as you attempt to thread your free leg for the figure-four - how do you adjust?",
+      "name": "They roll forward as you thread your free leg for the figure-four — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward rolling momentum to your advantage by following the roll with your chest while simultaneously threading your free leg across their body during the movement. Their roll actually creates the space needed for your leg to cross over. Maintain your seatbelt grip throughout and ride the roll into an established leg entanglement position. The key is staying connected through chest pressure and grip rather than trying to stop their roll, effectively converting their escape attempt into your figure-four completion."
@@ -108,7 +108,7 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why must finishing pressure be applied over a minimum of five to seven seconds, and what are the consequences of faster application?",
+      "name": "Why must twister finishing pressure take five to seven seconds, and what happens if it is faster?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Twister targets the spine through opposed rotational forces, and the spine can be catastrophically injured by sudden torque. Fast application can cause herniated discs, vertebral fractures, ligament damage, or permanent neurological injury before the training partner has time to recognize the danger and tap. Progressive pressure over five to seven seconds allows the partner to feel the submission developing, assess their flexibility limits, and tap safely before the danger threshold. The spine lacks the protective mechanisms that joints like the elbow have, making gradual application an absolute safety requirement."
@@ -116,7 +116,7 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own leg to block the figure-four completion - what grip-breaking strategy do you use?",
+      "name": "They grab their own leg to block your figure-four — how do you break that grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use two-on-one control on their gripping wrist, placing both your hands on their wrist or forearm and peeling their grip away from their leg using your combined arm strength against their single grip. If their grip is too strong to break directly, switch your attack angle by attempting to thread your leg from the opposite direction or transition to an alternative submission such as rear naked choke setup or crucifix entry from the existing Russian Cowboy control. Never sacrifice your back control position to fight exclusively for the grip break."

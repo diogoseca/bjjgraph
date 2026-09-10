@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag to Back Take in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released the leg drag grip and their arm is sliding under your armpit - what is your immediate response?",
+      "name": "They released the leg drag and their arm is sliding under your armpit. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pummel your elbow inside to prevent the underhook component of the seatbelt from establishing. Simultaneously turn your shoulders toward the opponent and fight to face them. Denying the seatbelt is critical because without upper body control, the opponent cannot maintain back connection even if they insert a hook."

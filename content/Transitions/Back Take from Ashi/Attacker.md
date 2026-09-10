@@ -98,7 +98,7 @@ description: "How to execute Back Take from Ashi in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending your heel hook by keeping their knee rotated away but maintains a low, compact posture without sitting up - what should you do?",
+      "name": "From inside ashi they defend the heel hook staying low and compact: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails."

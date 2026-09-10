@@ -84,7 +84,7 @@ description: "Complete guide to executing the Transition to Quarter Guard from H
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that determines whether the knee wedge technique succeeds or fails?",
+      "name": "What mechanical detail decides whether the knee wedge into quarter guard works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee must drive forward and slightly outward against the inside of the opponent's thigh to create progressive separation in their leg entanglement. Driving straight forward without the outward angle allows their legs to maintain grip strength. The outward wedge creates a prying action that mechanically weakens their leg control regardless of squeeze strength. The angle of the wedge should be approximately thirty degrees outward from the forward direction."
@@ -92,7 +92,7 @@ description: "Complete guide to executing the Transition to Quarter Guard from H
     },
     {
       "@type": "Question",
-      "name": "How should weight be distributed during the Transition to Quarter Guard to balance pressure and base?",
+      "name": "How should you distribute weight during the transition to quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Approximately seventy percent of weight should drive forward through your chest and shoulder into the opponent's upper body, creating the pressure that degrades their defensive structure. The remaining thirty percent stays on your base leg and posting hand to resist sweep attempts during the transitional movement. This ratio provides enough pressure to prevent defensive recovery while maintaining sufficient base to avoid being swept during the advancement."
@@ -108,7 +108,7 @@ description: "Complete guide to executing the Transition to Quarter Guard from H
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to transition immediately to a passing sequence once quarter guard is established rather than consolidating?",
+      "name": "Why must you pass immediately once quarter guard is established instead of consolidating?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Quarter guard is inherently unstable—the bottom player retains enough leg contact to recover knee shield, fight for underhook, or enter deep half within five to ten seconds. Pausing allows them to rebuild defensive structures that you just spent energy destroying. The momentum and pressure advantage from the transition should carry directly into pass completion while their defense is still compromised and disorganized."

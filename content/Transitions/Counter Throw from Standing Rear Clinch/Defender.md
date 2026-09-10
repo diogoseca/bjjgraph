@@ -56,7 +56,7 @@ description: "Defend against counter throws from standing rear clinch in BJJ. Le
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a counter throw is being initiated from standing rear clinch?",
+      "name": "What is the earliest cue that they are starting a counter throw from your standing rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player dropping their level by bending their knees deeply. This level change is the mechanical prerequisite for every throw variant and occurs before any rotation or directional commitment. When you feel the opponent's hips dropping below your hip line while your weight is on their back, a throw is likely being set up. This is your window for prevention through sitting your own hips back."
@@ -72,7 +72,7 @@ description: "Defend against counter throws from standing rear clinch in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "If you cannot prevent the throw and will be taken to the ground, what should your defensive priority be during the fall?",
+      "name": "If the counter throw is unavoidable, what is your defensive priority during the fall?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority during an unavoidable throw is maintaining chest-to-back connection with hooks and seatbelt intact throughout the fall. Accept the takedown but ensure you land in ground-based back control rather than losing all positional advantage. Keep your chin tucked and your hooks driving inward, and maintain your seatbelt grip through impact. Landing in back control on the ground is still a highly dominant position that preserves most of your advantage despite being thrown."
@@ -80,7 +80,7 @@ description: "Defend against counter throws from standing rear clinch in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates what appears to be a counter throw but then immediately switches to a standing switch escape in the opposite direction - how do you respond?",
+      "name": "They fake the counter throw then switch the opposite way from your rear clinch. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a common combination where the throw fake draws your weight backward and creates the opening for the switch. If you recognize the switch after committing to the throw defense, immediately reverse your hip direction and re-drive forward pressure to prevent the switch completion. The key is not over-committing to any single defense direction. Maintain your base wide enough that you can redirect your pressure in either direction without losing balance. Use your chest connection as the constant rather than your hip angle, which should remain adaptable."

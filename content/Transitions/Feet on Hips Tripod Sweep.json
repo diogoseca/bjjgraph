@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "Your tripod sweep attempt fails and your opponent does not fall - what is the most likely mechanical error?",
+        "question": "Your tripod sweep fails and they stay standing: what is the likely mechanical error?",
         "answer": "The most common mechanical failure is poor timing of the three-point attack. If the hip push, ankle hook, and hand grip do not engage simultaneously, the opponent has time to adjust their base between each force application. Typically the push arrives before the ankle controls are fully set, giving the opponent a free leg to step backward and recover. The fix is ensuring all three forces fire at the same instant rather than sequentially.",
         "answer_line": "Push arrives before ankle hook sets",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your opponent feels your foot sliding toward their ankle and immediately backsteps that leg - how do you adjust?",
+        "question": "They backstep the leg you were hooking for the tripod sweep: how do you adjust?",
         "answer": "Immediately transition to the sickle sweep by redirecting your attack direction laterally instead of backward. The backstep loads the opponent's weight onto their remaining standing leg, which is now perfectly positioned for the sickle sweep cut. Use your remaining hip foot and grips to sweep them in the lateral direction rather than fighting to re-establish the failed tripod configuration. This is exactly why the tripod-sickle combination is so effective—each sweep sets up the other.",
         "answer_line": "Redirect laterally into sickle",
         "distractors": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "The sweep is blocked but you maintain your feet-on-hips position - what attacks do you chain into next?",
+        "question": "Your tripod sweep is blocked but you keep feet on hips: what do you chain into?",
         "answer": "Immediately threaten the sickle sweep since the opponent has likely widened their base to resist the backward topple, making them vulnerable to a lateral cut. If they drop their base entirely, transition to a collar drag to snap them forward or enter tomoe nage using their newly lowered posture. If they reach forward aggressively to control your legs, use their forward momentum for a lumberjack sweep or balloon sweep. The key is maintaining constant offensive pressure and never allowing them to settle into a stable defensive position.",
         "answer_line": "Chain sickle, collar drag, tomoe",
         "distractors": {
@@ -495,7 +495,7 @@
         }
       },
       {
-        "question": "Your opponent has established the hook behind your ankle but has not yet gripped your far ankle - what should you do?",
+        "question": "They've hooked behind your ankle but haven't gripped your far ankle yet: what do you do?",
         "answer": "Immediately backstep the hooked ankle by pulling it straight back and stepping away from the hook before the hand grip completes the three-point control system. Without the far ankle grip, the sweep cannot generate the multi-directional force needed to topple you. Simultaneously drive your weight forward through your hips and maintain pants grips on their knees to make backward sweeping mechanically more difficult.",
         "answer_line": "Backstep hooked ankle immediately",
         "distractors": {
@@ -523,7 +523,7 @@
         }
       },
       {
-        "question": "How do you defend against the tripod and sickle sweep combination when both are threatened from the same position?",
+        "question": "Standing, how do you defend the tripod and sickle sweep threats at the same time?",
         "answer": "The key is maintaining a centered, balanced base that resists both backward and lateral sweeping forces simultaneously rather than overcommitting to defend one direction. Keep your weight evenly distributed between both feet rather than favoring one side. When defending the tripod by backstepping, do so at a diagonal angle that does not load your weight entirely onto the remaining stance leg where a sickle sweep would catch you. Active pants grips at the knees prevent both sweep configurations from establishing their necessary foot positions.",
         "answer_line": "Stay centered, backstep diagonal",
         "distractors": {

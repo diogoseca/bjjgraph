@@ -72,7 +72,7 @@ description: "Complete guide to defending the Inversion from Headquarters as the
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully begins inverting underneath you - what is your best immediate response?",
+      "name": "The bottom player starts inverting under your headquarters position: what's your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the inversion by circling toward their back rather than trying to hold your static position. As they roll, their back becomes temporarily exposed. Step over or around their inverting body and establish control on the far side, converting the situation into a leg drag or backstep passing position. The worst response is to freeze or pull away, as this gives them time and space to complete the inversion and establish their target guard with full grips."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Inversion from Headquarters as the
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments prevent the bottom player from establishing the DLR hook after a partial inversion?",
+      "name": "What grips stop the bottom player from getting the DLR hook after a partial inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control their hooking leg by gripping the ankle or pant at knee level and pushing it across their centerline as they emerge from the inversion. This prevents the leg from wrapping behind your knee to create the DLR hook. Simultaneously, step your lead leg back and away from their hooking range. If you maintain control of their hooking leg throughout the inversion attempt, they cannot establish DLR regardless of how clean their rolling mechanics are."

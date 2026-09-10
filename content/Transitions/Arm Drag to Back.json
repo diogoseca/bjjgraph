@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical detail that differentiates a successful diagonal drag from a failed straight-back pull?",
+        "question": "What makes a diagonal arm drag work where a straight-back pull fails?",
         "answer": "The diagonal drag pulls the opponent's arm toward your opposite hip, crossing their centerline and turning their shoulders. This shoulder rotation is the critical mechanical detail because it eliminates their ability to post on the dragged side and structurally prevents them from facing you. A straight-back pull does not cross the centerline and becomes a pure strength contest where the opponent can resist by simply pulling back. The diagonal vector uses their own skeletal alignment against them, making the technique effective regardless of size difference.",
         "answer_line": "Crosses centerline, turns shoulder",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent defends the arm drag by immediately sitting back to create distance - what is your chain attack?",
+        "question": "They sit back to create distance against your arm drag. What is your chain attack?",
         "answer": "When they sit back, they pull away from your butterfly hooks and create distance, but their retreat exposes several opportunities. If you maintain wrist control, follow their retreat by extending your hooks into a single leg X or X-guard entry since their backward weight shift loads perfectly onto your hooks. If they clear your hooks entirely, use the maintained wrist grip to pull yourself to a front headlock position as they sit, threatening guillotine or snap-down. Their seated retreat also opens up collar drag or ankle pick variations from the seated position.",
         "answer_line": "Extend hooks, enter X-guard",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "How do butterfly hooks specifically assist the arm drag compared to executing from a seated guard without hooks?",
+        "question": "How do butterfly hooks aid the arm drag compared to seated guard without hooks?",
         "answer": "The butterfly hooks provide elevation capability that momentarily unweights the opponent during the drag, reducing the force needed to turn their shoulders and compromising their ability to post. This elevation creates a brief window where the opponent is partially airborne and has no ground contact to resist your rotational pull. From seated guard without hooks, you rely entirely on upper body pulling force and hip escape, which requires more energy and gives the opponent the ability to resist through ground-based posting. The hooks also assist propulsion during the circling phase by walking behind the opponent's body.",
         "answer_line": "Hooks elevate, unweight opponent",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Why should you turn into the attacker rather than away from them when defending a partially completed arm drag?",
+        "question": "Defending a partial arm drag, why turn into the attacker instead of away?",
         "answer": "Turning away from the attacker exposes more of your back and accelerates their circular path to back control, essentially completing their rotation for them. Turning into the attacker forces them back to a front-facing position where their angular advantage is neutralized. Your crossface and forward drive can collapse their guard structure and create a scramble that favors you since their hooks are disengaged during the rotation attempt. Additionally, turning in keeps you facing the attacker so you can see and defend any subsequent attacks.",
         "answer_line": "Turn into them, face them",
         "distractors": {

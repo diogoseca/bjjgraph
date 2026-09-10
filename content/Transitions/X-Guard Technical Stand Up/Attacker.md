@@ -82,7 +82,7 @@ description: "Learn to execute the X-Guard Technical Stand Up with step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What grip must you maintain throughout the entire stand-up sequence to prevent guard recovery by the opponent?",
+      "name": "Which grip must you keep through the whole X-Guard technical stand up to deny guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must maintain control of the opponent's trapped leg at the ankle or lower pant throughout the entire stand-up. This grip prevents the opponent from simply stepping away as you stand, ensures you arrive on your feet with immediate offensive pressure, and denies them the ability to re-establish distance or pull guard. Releasing this grip prematurely converts a controlled stand-up into a neutral scramble where your advantage disappears."
@@ -98,7 +98,7 @@ description: "Learn to execute the X-Guard Technical Stand Up with step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that separates a successful stand-up from a failed attempt?",
+      "name": "What mechanical detail separates a successful X-Guard technical stand up from a failed one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip drive forward and under the shoulders is the decisive mechanical element. The posting hand creates a pivot point, but the actual stand-up power comes from driving your hips forward in an arc until they are directly under your shoulders. Many practitioners fail because they try to lift themselves vertically with arm strength rather than driving hips horizontally forward. The correct motion resembles a pendulum where your hips travel forward while your upper body rises naturally."
@@ -106,7 +106,7 @@ description: "Learn to execute the X-Guard Technical Stand Up with step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What are the two most common failure points during the X-Guard Technical Stand Up and how are they corrected?",
+      "name": "What are the two common failure points in the X-Guard technical stand up, and their fixes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two most common failures occur at the posting phase and the hook release phase. At the posting phase, practitioners post too far behind their body or use the wrong hand, creating a weak structural base that collapses under opponent pressure. The correction is posting close to the hip with compact arm structure. At the hook release phase, practitioners release their inside hook too early, allowing the opponent to step free before the bottom player reaches standing. The correction is maintaining hook contact until both feet are planted."

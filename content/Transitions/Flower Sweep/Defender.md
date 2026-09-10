@@ -56,7 +56,7 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point in the Flower Sweep sequence where you can intervene defensively, and what action should you take?",
+      "name": "What is the earliest point to defend the Flower Sweep, and what do you do there?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest intervention point is during grip establishment, specifically when the opponent reaches for your same-side sleeve. Actively fight this grip by circling your wrist, pulling your elbow back, or using your free hand to strip their grip before it solidifies. Without the sleeve grip, the opponent cannot prevent you from posting, which eliminates the sweep's primary finishing mechanism. This is far more effective than any defense attempted after grips, angles, and hooks are established."
@@ -64,7 +64,7 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already inserted their butterfly hook and you feel the sweep beginning - what is your best emergency response?",
+      "name": "Their butterfly hook is in and the Flower Sweep is starting — best emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your hand on the mat on the sweeping side with a bent elbow (never locked straight) while simultaneously driving your opposite hip downward and widening your base. This tripod position absorbs the rotational force. However, immediately begin planning your next action because the posted arm is now vulnerable - either strip their sleeve grip with your posted hand to free it, or transition to standing. Do not remain in the posted position longer than necessary, as experienced guard players will immediately redirect to attacking the posted arm."
@@ -72,7 +72,7 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Why is standing up often the safest long-term defensive strategy against persistent Flower Sweep attempts?",
+      "name": "Why is standing up the safest long-term answer to repeated Flower Sweep attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing removes you entirely from the sweeping plane that the Flower Sweep operates in. The sweep requires your knees on the mat and your hips within hooking range to generate the rotational leverage. When you stand, the bottom player's hook loses its mechanical advantage, their angle becomes irrelevant, and their grips must change entirely. Standing also opens guard breaking and passing opportunities that put the bottom player on defense. The key is standing with proper technique - hands controlling their legs, straight posture, and stepping back to break the ankle lock rather than standing straight up inside their guard."
@@ -80,7 +80,7 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a Flower Sweep setup and a Pendulum Sweep setup from the defender's perspective?",
+      "name": "As the defender, how do you tell a Flower Sweep setup from a Pendulum Sweep setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinction is the leg positioning and direction of force. In the Flower Sweep, the opponent inserts a butterfly hook against the inside of your thigh and sweeps you diagonally over their shoulder using a circular motion. In the Pendulum Sweep, the opponent swings their outside leg wide in a large pendulum arc and sweeps you laterally, often combined with an underhook. The grip configurations differ as well - Flower Sweep prioritizes same-side sleeve control, while Pendulum Sweep often uses collar and underhook. Recognizing which leg is being activated and the direction of the initial off-balancing tells you which defense to employ."
@@ -88,7 +88,7 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent chains a Hip Bump Sweep attempt directly into a Flower Sweep - how should you adjust your defense?",
+      "name": "They chain a Hip Bump Sweep into a Flower Sweep — how do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Hip Bump to Flower Sweep chain exploits the fact that your defensive reaction to the Hip Bump (posting your hand back) creates the exact conditions the Flower Sweep needs. When you recognize the Hip Bump, resist it by driving forward with your chest rather than posting your hand behind you. If you must post, immediately retract your hand once the Hip Bump threat passes. The critical awareness is that the Hip Bump may be a feint designed to draw your hand post - if you can defend the Hip Bump without posting (by maintaining forward hip pressure), the Flower Sweep follow-up loses its primary advantage."

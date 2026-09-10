@@ -82,7 +82,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "Your opponent is aggressively grip fighting your hands in standard 50-50. Is this a good or bad time to initiate the rotation?",
+      "name": "In 50-50 they are hard hand fighting—is this a good time to start the Backside 50-50 rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is an excellent time to initiate the rotation. When your opponent is focused on hand fighting, their hips are typically static because their attention and physical effort are directed toward their upper body. Their reduced hip mobility creates the ideal window for the hip walking arc. Secure one anchor grip during the exchange, then begin the rotation while they are still processing the grip battle."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that must happen simultaneously with the final step of the rotation?",
+      "name": "What must happen simultaneously with the final step of the Backside 50-50 rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back pressure must be established simultaneously with the completion of the rotational arc. There cannot be a gap between arriving behind the opponent and establishing forward driving pressure. Even a one-second delay allows an experienced opponent to turn and re-face you, negating the transition. The final hip step and the chest pressure drive forward should be one continuous motion."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "You begin the rotation but feel your entanglement loosening around the opponent's trapped leg. What should you do?",
+      "name": "Mid-rotation to Backside 50-50 your entanglement loosens on their trapped leg—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pause the hip walk and consciously squeeze your legs tighter around the opponent's trapped leg before continuing. The rotation naturally creates momentary loosening because your hip angle changes relative to the entanglement. Counter this by actively tightening your triangle leg configuration at each step. If the loosening is severe, stop entirely, re-consolidate the entanglement from standard 50-50, and attempt again with more deliberate tension maintenance."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "Why should the hip walk use small incremental steps rather than one explosive jump behind the opponent?",
+      "name": "Why hip walk to Backside 50-50 in small steps instead of one explosive jump behind them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Small steps maintain constant entanglement tension and pressure throughout the rotation, preventing gaps that allow extraction. Large jumps telegraph intent, giving opponents time to counter with hip escape or matching rotation. Incremental movement is also harder for the opponent to detect, so they often do not realize you are circling behind them until the transition is nearly complete. The three-to-five-second smooth arc is tactically superior to a one-second explosive repositioning."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins matching your rotation by spinning in the same direction. How do you address this counter?",
+      "name": "They match your rotation by spinning the same way toward Backside 50-50—how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two immediate options. First, reverse your rotation direction to catch them spinning the wrong way, which often works because their momentum carries them further into the counter even after you change direction. Second, increase downward hip pressure to pin their hips and prevent the matching spin. If neither works and they successfully re-face you, you return to standard 50-50 with no positional loss. Reset and create a new timing window by threatening a heel hook, then reattempt when they commit to defending the submission."

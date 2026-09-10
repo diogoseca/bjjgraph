@@ -64,7 +64,7 @@ description: "How to defend against the Aoki Lock in BJJ. Recognition cues, esca
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving their hips forward into your shoulder - which direction should you roll to escape?",
+      "name": "They drive hips into your shoulder in the Aoki Lock. Which way do you roll to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Roll toward your trapped arm, following the path of least resistance and using the attacker's forward momentum to assist your escape. Rolling away from the trapped arm dramatically increases shoulder torque and injury risk. The roll toward your trapped arm reduces pressure on the joint and often disrupts the attacker's position enough to create extraction opportunities."

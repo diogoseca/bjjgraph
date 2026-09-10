@@ -68,7 +68,7 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical principle that makes the butterfly sweep effective against larger opponents?",
+      "name": "What mechanical principle makes the butterfly sweep work against larger opponents?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The butterfly sweep uses leverage and rotational momentum rather than pure strength. By establishing a fulcrum with the posted base hand and using the butterfly hook to break opponent's base while pulling them across your centerline, you create a wheel-like rotation that multiplies force. The technique redirects opponent's weight and uses their own mass against them, making size difference less relevant. Proper execution requires coordination of multiple components (hook elevation, upper body pull, hip rotation) occurring simultaneously to generate circular momentum that opponent cannot resist with base alone."
@@ -100,7 +100,7 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the difference between a successful butterfly sweep and an incomplete sweep that ends in scramble?",
+      "name": "What separates a completed butterfly sweep from one that ends in a scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A successful sweep features complete position reversal where you establish mount or side control with opponent's back on the mat. This requires: proper posture breaking before initiation; coordinated execution of all sweep components; sufficient rotational momentum to fully invert opponent; immediate extraction of hooks as opponent inverts; aggressive forward drive to establish top position; and instant consolidation with crossface and underhook control. An incomplete sweep typically results from: inadequate posture breaking leaving opponent's base intact; poor coordination causing weak momentum; early hook extraction preventing full inversion; lack of follow-through allowing opponent to turtle; or telegraphing the sweep allowing opponent to prepare defenses. The key distinction is intention and execution - you must commit fully to the sweep and drive through completely rather than hoping opponent will fall over."
@@ -108,7 +108,7 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "When opponent sprawls backward away from your butterfly hooks, what immediate transition options are available?",
+      "name": "They sprawl back away from your butterfly hooks: what transition options open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent sprawls backward, they remove weight from your hooks but expose opportunities for guard transitions. Primary option is Deep Half Guard by following their backward motion and sliding one leg deep under their body. Alternatively, transition to Single Leg X-Guard by adjusting your hooks to control one leg. You can also pursue Technical Standup to standing position, maintaining grip control as you rise. Another option is transitioning to Shin-to-Shin or De La Riva guard if opponent stays on their knees. The critical element is maintaining grip control and immediately following opponent's movement rather than trying to pull them back onto your hooks. Train these transitions as direct sequences from failed butterfly sweep attempts."

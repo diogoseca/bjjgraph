@@ -74,7 +74,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical difference between pulling the trapped leg upward versus driving the knee toward the mat during extraction?",
+      "name": "Pocket half pass: why drive the trapped knee to the mat instead of pulling the leg upward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling upward lifts your hips off the opponent's body, creating space underneath that they exploit for deep half guard entry or guard recovery. Driving the knee toward the mat maintains your center of gravity low, keeps pressure on the opponent, and uses rotational mechanics rather than lifting mechanics to free the leg. The downward-outward trajectory is biomechanically stronger and gives the defender less to react to."
@@ -82,7 +82,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins scooting their hips under you for deep half guard as you start the extraction - what is your immediate response?",
+      "name": "Pocket half pass: they scoot their hips under you for deep half as you extract. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the extraction and sprawl your hips backward while driving your trapped knee hard into the mat. This prevents them from getting underneath your center of gravity. Simultaneously increase your underhook pulling pressure to keep their far shoulder elevated. Address the deep half entry first by re-establishing flattening pressure before resuming any extraction attempt."
@@ -90,7 +90,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "Why must the underhook pressure be maintained throughout the entire extraction phase rather than released for additional base support?",
+      "name": "Pocket half pass: why keep the underhook through extraction instead of releasing it for base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook is your primary upper body control mechanism. Releasing it even momentarily allows the bottom player to recover their own underhook, create rotational angle, and initiate sweeps or guard recovery sequences. Without the underhook pulling their shoulder up, the bottom player can flatten their back and generate the hip power needed for bridges and sweeps. Your base during extraction comes from your free leg posting position, not from your arms."
@@ -106,7 +106,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "How do you adjust the extraction technique when the bottom player maintains tight ankle-level grips on your trapped leg?",
+      "name": "Pocket half pass: how do you adjust extraction against tight ankle grips on your trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the windshield wiper extraction variant where you rotate your trapped foot outward in a circular motion while keeping the knee pinned to the mat. Small pulsing hip rotations progressively break the ankle grip more effectively than one large pulling motion. Simultaneously increase your chest pressure to reduce the bottom player's ability to maintain grip strength. The circular motion attacks the grip from changing angles, making it significantly harder to hold than resisting a straight pull."
@@ -114,7 +114,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the pass, and what signals indicate the defender is most vulnerable?",
+      "name": "When should you start the Pocket half pass, and what signals show the defender is vulnerable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the defender's primary defensive reactions have been exhausted - immediately after a failed bridge attempt, after you successfully strip their knee shield, or when they pause after an unsuccessful frame. Physical cues include their arms relaxing against your pressure, their hips settling flat on the mat, or their trapped leg grip loosening. Do not initiate extraction during their active defensive cycle; wait for the recovery pause between efforts."

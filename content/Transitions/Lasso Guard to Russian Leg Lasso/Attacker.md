@@ -82,7 +82,7 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
     },
     {
       "@type": "Question",
-      "name": "Why must you secure the second sleeve grip before threading the second leg, and what happens if you reverse this sequence?",
+      "name": "Why grip the second sleeve before threading the second leg for the Russian leg lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The second sleeve grip holds the opponent's arm in position and creates a guide track for your shin to travel across. Without it, the opponent simply retracts their arm the moment they feel your leg moving toward it, since there is nothing anchoring the arm in the threading path. If you attempt to thread first without the sleeve grip, your shin has to chase a moving target. This delays the threading enough that the opponent can also address the first lasso, potentially collapsing both controls simultaneously and leaving you in open guard with no control."
@@ -90,7 +90,7 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the first lasso maintains tension during the transition?",
+      "name": "What detail keeps the first lasso under tension during the Russian leg lasso transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first sleeve grip must maintain continuous pulling pressure toward your chest throughout the entire threading sequence. When you release the collar grip to capture the second sleeve, the first lasso temporarily loses its secondary stabilizer. The first sleeve grip becomes the sole anchor keeping that lasso functional. If your pulling pressure drops even momentarily during the collar-to-sleeve hand transfer, the opponent can create slack and extract the first arm. Maintaining this tension requires conscious effort because your attention naturally shifts to the new threading task."
@@ -98,7 +98,7 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat as you begin threading. How does this affect your approach?",
+      "name": "They post their free hand on the mat as you thread the second lasso: how does that change things?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A posted hand is an ideal threading opportunity because the arm is extended, weight-bearing, and cannot be quickly retracted without the opponent losing base and potentially being swept. Capture the sleeve grip on the posted arm, then thread your leg through while their arm remains fixed in position by their own weight. The key advantage is that withdrawing a posted arm requires them to shift their weight first, giving you more time to complete the thread than if the arm were free-floating."
@@ -106,7 +106,7 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
     },
     {
       "@type": "Question",
-      "name": "What are your immediate options if the opponent strips the first sleeve grip during the moment you release the collar?",
+      "name": "They strip your first sleeve grip as you release the collar: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar-to-sleeve transfer is the highest vulnerability window. If the first sleeve breaks during this moment, immediately abandon the threading attempt and focus on guard retention. Use both legs to create distance and frames rather than trying to regrip while in a compromised position. Recover to open guard by establishing foot-on-hip distance control, then rebuild grips systematically from a stable position. Continuing the thread with a broken first lasso leaves you with one uncommitted leg and no anchor, which is a pass invitation."

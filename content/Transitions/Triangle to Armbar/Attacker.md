@@ -114,7 +114,7 @@ description: "How to execute Triangle to Armbar in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their elbow glued tight to their body, preventing arm isolation. What options do you have?",
+      "name": "They glue the elbow to their body, blocking arm isolation for the armbar: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent clamps their elbow tight, return to triangle choke pressure to force them to use that arm defensively. You can also attack the opposite arm if it reaches inside the triangle during their defensive adjustment. A third option is to use a gift wrap grip by reaching under their armpit and controlling their far wrist, which forces the near arm to separate from the body. The key principle is that static elbow defense cannot be maintained indefinitely against active triangle pressure."

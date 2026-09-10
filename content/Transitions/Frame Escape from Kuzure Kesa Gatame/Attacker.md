@@ -82,7 +82,7 @@ description: "Step-by-step guide to executing the frame escape from Kuzure Kesa 
     },
     {
       "@type": "Question",
-      "name": "Before you commit to the frame escape, what entry conditions must exist for it to have a realistic chance of working?",
+      "name": "What entry conditions must exist for the frame escape from kuzure kesa gatame to work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force."

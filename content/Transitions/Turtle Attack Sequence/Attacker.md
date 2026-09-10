@@ -90,7 +90,7 @@ description: "How to attack from Turtle top in BJJ. Systematic back take entries
     },
     {
       "@type": "Question",
-      "name": "Your opponent aggressively strips your seat belt overhook with two-on-one grip fighting - how do you adapt?",
+      "name": "They strip your seat belt overhook with a two-on-one from turtle top. How do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defender strips your overhook through two-on-one grip fighting, immediately assess whether to re-establish the seat belt from the opposite side or transition to front headlock position. The hand fighting required to strip the overhook often lifts the defender's head and creates space above their shoulders, exposing the neck for front headlock entries. Circle toward their head while maintaining chest pressure and underhook control, sliding into front headlock or snap-down position where their hand fighting now works against them by leaving the neck exposed."
@@ -106,7 +106,7 @@ description: "How to attack from Turtle top in BJJ. Systematic back take entries
     },
     {
       "@type": "Question",
-      "name": "What is the optimal chest pressure angle for preventing both standup and granby roll escapes simultaneously?",
+      "name": "From turtle top, what chest pressure angle stops both the standup and the granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal pressure angle is forward and downward at approximately 45 degrees, driving your sternum into the defender's upper back between the shoulder blades. This angle collapses the turtle structure by pushing their chest toward the mat, making standup impossible because they cannot extend their hips against the downward component. The forward component prevents granby rolls because the defender needs space above their shoulders to initiate the inversion. Pressure that is purely downward allows standup, while pressure that is purely forward allows granby rolls underneath."
@@ -114,7 +114,7 @@ description: "How to attack from Turtle top in BJJ. Systematic back take entries
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks into an extremely tight defensive turtle with elbows glued to knees - what is your attack strategy?",
+      "name": "They turtle up tight with elbows glued to knees. What is your attack strategy from the top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a tight defensive shell, use progressive flattening or angle change rather than forcing grips through the shell. Apply cross-face with one hand while controlling the far hip with the other, then drive the defender's face to the mat to break the four-point base into a flattened position. Once flat, the shell loses structural integrity and you can work underhooks from the side. Alternatively, circle to the head position to attack front headlock, as the tight elbow position that protects against back takes simultaneously prevents the defender from defending head and neck attacks."

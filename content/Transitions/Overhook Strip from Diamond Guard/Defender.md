@@ -56,7 +56,7 @@ description: "Defend your diamond guard overhook against stripping attempts in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is initiating an overhook strip from diamond guard?",
+      "name": "What is the earliest cue that the top player is starting an overhook strip in diamond guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the top player's free hand reaching across to grip your overhooking wrist or forearm. This establishes the control point needed for every stripping variant — without wrist control, circular extraction and two-on-one peels cannot be executed effectively. When you detect this reaching motion, immediately control their free hand with your opposite grip to deny the wrist control, or deepen your overhook and increase head control to re-break posture before they can establish the mechanical foundation for the strip."
@@ -64,7 +64,7 @@ description: "Defend your diamond guard overhook against stripping attempts in B
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining both diamond controls simultaneously more effective than reinforcing either one alone when defending the strip?",
+      "name": "Why is keeping both overhook and head control better than reinforcing just one against the strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diamond frame's defensive strength comes from mutual reinforcement between the overhook and head control. Head control maintains broken posture, which keeps the overhook deep because the top player cannot generate the postural separation needed for extraction. The overhook prevents arm posting, which makes the head control pull more effective because the top player has fewer structures to resist with. Reinforcing one while neglecting the other reduces the protected grip's effectiveness by roughly half, making it vulnerable to systematic stripping that would fail against the complete frame."
@@ -72,7 +72,7 @@ description: "Defend your diamond guard overhook against stripping attempts in B
     },
     {
       "@type": "Question",
-      "name": "Your overhook is being stripped and you feel the top player's elbow beginning to clear — when exactly should you attempt the triangle entry?",
+      "name": "Defending an overhook strip, when exactly should you shoot the triangle entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal triangle timing is when the elbow has cleared past the midpoint of the circular extraction but before the arm is fully free. At this moment, maximum space exists between the top player's arm and their torso for your leg to pass over. Attempting too early — before sufficient space exists — results in your leg being blocked. Attempting too late — after the arm is fully cleared and repositioned — means the gap has closed and the top player's shoulder is already pressing against your chest. The window lasts approximately two seconds, requiring pre-positioned hips angled toward the overhook side."
@@ -80,7 +80,7 @@ description: "Defend your diamond guard overhook against stripping attempts in B
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive response when the top player uses a posture-first extension approach rather than a direct grip strip?",
+      "name": "How do you defend when they use a posture-first extension instead of a direct overhook strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the posture-first approach, increase heel pressure into the top player's lower back and squeeze your knees together on their ribs to resist the postural extension with your entire lower body. Simultaneously deepen the overhook by pulling your elbow tighter to your hip. If their hip drive is strong enough to create significant separation, transition immediately to a hip bump sweep by releasing head control and sitting up into their elevated posture. The posture-first approach requires them to shift weight backward to extend, which creates the exact weight distribution vulnerability that hip bump sweeps exploit."

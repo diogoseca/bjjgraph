@@ -86,7 +86,7 @@ description: "Learn to execute the Twister from Twister Control with step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins aggressively hand fighting to prevent your chin strap — what adjustment prevents escape?",
+      "name": "They hand fight hard against your chin strap in twister control — what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First isolate and pin the far-side wrist against their body using your chest pressure and free hand before reattempting the chin strap. If they continue defending with both hands, use your body weight to flatten their defensive arm between your bodies. The key is removing their primary defensive tool before threading, not fighting through active hand defense which risks losing leg control as your attention shifts upward."

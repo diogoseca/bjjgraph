@@ -80,7 +80,7 @@ description: "Master the posture defense escape from rear triangle bottom positi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first priority when caught in a rear triangle and why does it take precedence over posture recovery?",
+      "name": "Caught in a rear triangle, what is your first priority and why does it precede posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chin protection takes absolute first priority. Tuck your chin tightly to your chest and turn your face toward the non-choking leg side. This must happen before any posture recovery because an unprotected neck under full triangle compression can lead to unconsciousness within seconds, whereas broken posture without neck exposure gives you time to work systematic escape sequences."
@@ -96,7 +96,7 @@ description: "Master the posture defense escape from rear triangle bottom positi
     },
     {
       "@type": "Question",
-      "name": "Your opponent angles their hips aggressively toward your trapped arm during your posture attempt—how do you adjust?",
+      "name": "In a rear triangle, they angle hips toward your trapped arm as you posture — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not posture directly backward, as this drives your neck deeper into the optimized choking angle. Instead, angle your posture recovery toward the non-choking leg side, directing your shoulder drive away from the opponent's hip orientation. This changes the force vector so your posture movement reduces rather than increases the carotid pressure, and creates a rotational component that can further disrupt the triangle alignment."
@@ -112,7 +112,7 @@ description: "Master the posture defense escape from rear triangle bottom positi
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent starting to trap your free arm with their hands during your posture defense—what is your immediate response?",
+      "name": "In a rear triangle, they start trapping your free arm with their hands — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your free arm to your body, keeping the elbow tight to your ribs on its own side. Never reach across your centerline where both arms become vulnerable. If the opponent secures your free arm, they transition to crucifix where you have zero defensive options. Sacrifice the ankle grip temporarily if needed—losing the grip is recoverable, but losing your free arm is catastrophic."

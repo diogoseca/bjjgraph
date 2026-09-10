@@ -247,7 +247,7 @@
         "answer_line": "Gift Wrap + ankle behind knee"
       },
       {
-        "question": "Your opponent begins turning toward you as you release your hook to thread the body triangle - how do you respond?",
+        "question": "They turn into you as you release your hook to thread the body triangle: how do you respond?",
         "answer": "Use your Gift Wrap arm control to pull their trapped shoulder back toward you, preventing the turn. If they successfully turn despite this, abandon the body triangle attempt and follow them to technical mount while maintaining the Gift Wrap. Do not force the triangle against a turning opponent as you will lose position.",
         "answer_line": "Pull shoulder back with Gift Wrap",
         "distractors": {
@@ -275,7 +275,7 @@
         "answer_line": "When opponent settles, not escaping"
       },
       {
-        "question": "Where should the body triangle be positioned on your opponent's body for maximum effectiveness and safety?",
+        "question": "Where on their torso should the body triangle sit for best effect and safety?",
         "answer": "Position the body triangle across the lower ribcage and upper abdomen area, below the floating ribs. This provides maximum hip control while avoiding injury risk to the floating ribs. Squeezing across the floating ribs can cause fractures and should be avoided in training.",
         "answer_line": "Below the floating ribs",
         "distractors": {
@@ -289,7 +289,7 @@
         }
       },
       {
-        "question": "Your opponent commits their free hand to blocking your leg thread - what opportunity does this create?",
+        "question": "They commit their free hand to blocking your leg thread: what opportunity does that create?",
         "answer": "When opponent uses their only free arm to defend the leg thread, they remove protection from their neck. This creates an immediate opportunity to attack the rear naked choke or other neck submissions. The Gift Wrap already traps one arm, so committing the remaining arm to leg defense leaves them completely vulnerable to chokes.",
         "answer_line": "Attack the choke, neck exposed",
         "distractors": {
@@ -459,7 +459,7 @@
         }
       },
       {
-        "question": "Your opponent begins threading their leg across your stomach while maintaining Gift Wrap - should you use your free hand to block the leg or protect your neck?",
+        "question": "They thread a leg across your stomach while holding Gift Wrap: block the leg or protect your neck?",
         "answer": "Protect your neck first unless your chin is already deeply tucked and your shoulder is raised to provide structural neck protection. Losing to a rear naked choke is worse than conceding the body triangle. Only commit the free hand to leg defense when the neck is structurally defended, as the attacker will immediately attack the throat if they see it exposed.",
         "answer_line": "Protect neck first",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "What trade-off do you face when turning into the attacker as a defense against the body triangle thread?",
+        "question": "What trade-off comes with turning into the attacker to stop the body triangle thread?",
         "answer": "Turning into the attacker prevents the body triangle thread by closing the cross-body path, but the turn may lead to a transition to technical mount or mounted position where the attacker maintains the Gift Wrap arm control. While these positions offer different escape options, they are still dangerous. The turn is worthwhile because body triangle plus Gift Wrap is harder to escape than mount plus Gift Wrap.",
         "answer_line": "Blocks thread but risks mount",
         "distractors": {

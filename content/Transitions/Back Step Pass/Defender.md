@@ -80,7 +80,7 @@ description: "How to defend against Back Step Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What makes the Back Step Pass particularly dangerous compared to other passing techniques against grasshopper guard?",
+      "name": "Why is the back step especially dangerous against grasshopper guard compared to other passes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back step specifically targets grasshopper guard's primary weakness: the reliance on maintaining continuous leg contact with the passer. By extracting backward at an angle rather than driving through the guard, the passer avoids feeding into your sweeping and entanglement mechanics while simultaneously opening a direct path to side control."
@@ -88,7 +88,7 @@ description: "How to defend against Back Step Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grasshopper guard structure if you know your opponent frequently uses the back step?",
+      "name": "How do you adjust your grasshopper guard against an opponent who back steps often?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain deeper hooks with your legs wrapped further behind the passer's knees rather than shallow shin-on-shin contact. Keep your secondary leg ready to immediately redirect to the base leg if the primary hook is stripped. Accelerate your attack timeline from grasshopper—commit to sweeps or leg entries faster to force the passer to defend rather than initiate their back step."

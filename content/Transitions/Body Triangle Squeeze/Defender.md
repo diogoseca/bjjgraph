@@ -56,7 +56,7 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest indicators that your opponent is transitioning from body triangle control to active squeeze finishing?",
+      "name": "What are the earliest signs they are shifting from body triangle control to a finishing squeeze?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You will feel their legs tightening progressively with increasing pressure beyond normal control levels, their hips driving forward into your lower back with greater force, and their upper body shifting from active choke hunting to stabilizing grips. Your breathing will become noticeably more restricted as they commit their posterior chain to the compression effort."
@@ -72,7 +72,7 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "What body positioning minimizes the effectiveness of the squeeze and creates the best opportunity for escape?",
+      "name": "What body positioning blunts the body triangle squeeze and best sets up your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn your torso toward the triangle leg side to reduce the squeezing angle and the surface area being compressed. Tuck your elbows against your ribs to create structural support that absorbs some pressure. Keep your chin tucked and one hand defending your neck throughout the repositioning. This angled position reduces compression effectiveness while creating the angle needed to begin attacking the locked foot."
@@ -80,7 +80,7 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "Your opponent combines the squeeze with a rear naked choke attempt - how do you prioritize your defense?",
+      "name": "They add an RNC to the body triangle squeeze: what do you defend first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is the more immediately dangerous threat and must be prioritized over squeeze defense. Bring both hands to defend your neck, accepting increased squeeze pressure temporarily. Once you have secured your neck defense and denied the choke entry, resume working on the squeeze by turning toward the triangle leg. The squeeze takes time to finish, giving you a window to address the choke first before returning to body escape."
@@ -88,7 +88,7 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "After partially clearing the body triangle, how do you prevent your opponent from re-establishing the lock?",
+      "name": "After partly clearing the body triangle, how do you stop them re-locking it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately insert your elbow or forearm between your body and their legs to prevent the foot from re-locking behind their knee. Continue turning into your opponent while maintaining this frame, occupying the space you created. Move directly into your chosen escape sequence without pausing to rest, as any hesitation allows them to re-engage the figure-four configuration and reset the position."
@@ -96,7 +96,7 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "When the squeeze attacker begins pulsing pressure rather than constant compression, how should you adjust your defensive approach?",
+      "name": "The body triangle squeeze comes in pulses: how do you time your escape work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulsing pressure indicates the attacker is managing their energy for a sustained squeeze campaign. Use the brief lower-pressure intervals to take recovery breaths and make incremental progress on your escape. Do not wait for a complete release of pressure, as it will not come. Time your escape movements to the lower-pressure moments between pulses, particularly targeting the locked foot behind the opponent's knee when their leg muscles briefly relax during the pressure release phase."

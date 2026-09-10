@@ -299,7 +299,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the rear naked choke target, and how does it produce unconsciousness?",
+        "question": "Which structures does the rear naked choke compress, and how does that cause unconsciousness?",
         "answer": "The rear naked choke targets both carotid arteries on the lateral sides of the neck, compressing them simultaneously to restrict blood flow to the brain. The forearm blade compresses one carotid while the bicep of the supporting arm compresses the other. This bilateral vascular compression creates rapid cerebral hypoxia, which can produce unconsciousness in as few as four to six seconds when the choke is fully locked with proper forearm placement and sealed figure-four configuration.",
         "safety_critical": false,
         "answer_line": "Compresses both carotid arteries",
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent has a strong two-on-one grip on your choking arm with both hands wrapped around your wrist — what systematic approach breaks this defense?",
+        "question": "They have two-on-one on your choking wrist from back control — how do you break it?",
         "answer": "Use your free hand to target the weakest link in their grip chain, typically the fingers of the top hand. Peel individual fingers to break the grip, then immediately pummel the freed choking arm toward the neck before they can re-establish the defense. Alternatively, use a wrist rotation combined with elbow drive to power through a weakened grip. If the two-on-one persists, switch to attacking their defending arms with a gift wrap or transition to armbar from back, forcing them to release the wrist defense to address the new threat.",
         "safety_critical": false,
         "answer_line": "Peel top-hand fingers, pummel in",
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "During the choking arm insertion, your opponent tucks their chin tightly to their chest — how do you create space to thread the arm underneath?",
+        "question": "They tuck their chin as you insert the choking arm — how do you make space underneath?",
         "answer": "Push their forehead back with your supporting palm to tilt the head and open a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap, or shift your hips to one side so the angle change opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck.",
         "safety_critical": false,
         "distractors": {
@@ -374,7 +374,7 @@
         "answer_line": "Apply slow, release at any tap"
       },
       {
-        "question": "How should you release the rear naked choke after your partner taps, and what monitoring is required?",
+        "question": "After your partner taps to the rear naked choke, how do you release and monitor them?",
         "answer": "Upon receiving any tap signal, immediately release the choking arm and remove all pressure from the neck. Release hooks or body triangle to free your partner's body. Gently guide them to a side-lying recovery position rather than letting them collapse face-down. Monitor their consciousness and breathing for at least thirty seconds. If they lost consciousness, keep them lying on their side, do not allow them to stand, and wait until they are fully alert and oriented before allowing any further activity. If consciousness does not return within fifteen seconds, seek immediate medical assistance.",
         "safety_critical": true,
         "answer_line": "Release, side-lying, monitor 30s",
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "Your opponent begins sliding their hips downward toward your feet during the choke attempt — what adjustment prevents this escape?",
+        "question": "From back control, they slide their hips down toward your feet — what adjustment stops it?",
         "answer": "Press your heels inward against their inner thighs and drive your hips forward into their lower back to close the gap they are creating. If using a body triangle, squeeze it to prevent the downward slide. Simultaneously, increase chest-to-back pressure by driving your weight forward over their shoulders rather than allowing them to flatten you backward. If the slide has progressed significantly, re-establish hooks at a higher position on their torso before continuing, as finishing from a compromised position is less likely than resecuring control first.",
         "safety_critical": false,
         "distractors": {
@@ -419,7 +419,7 @@
         }
       },
       {
-        "question": "You have the choking arm across the neck but cannot reach your bicep to secure the figure-four lock — what alternative finishing grip can you use?",
+        "question": "Choking arm is across the neck but you can't reach your bicep — what alternative grip finishes?",
         "answer": "Switch to a palm-to-palm gable grip behind the opponent's neck, clasping both hands together with the choking arm still across the throat. This provides bilateral pressure using the forearm on one side and the wrist or forearm of the supporting arm on the other side. While mechanically less efficient than the full figure-four, it can still produce a finish, especially when combined with strong chest expansion. Another option is to grab your own wrist with the supporting hand, creating a reinforced grip that approximates the figure-four pressure. In competition, committing to either alternative is preferable to repeatedly reaching for the bicep and losing the arm position entirely.",
         "safety_critical": false,
         "answer_line": "Palm-to-palm gable grip",
@@ -434,7 +434,7 @@
         }
       },
       {
-        "question": "What is the difference between generating finishing pressure through chest expansion versus bicep flexion, and why does it matter?",
+        "question": "Why finish the rear naked choke with chest expansion rather than bicep flexion?",
         "answer": "Chest expansion drives the torso into the opponent's back with the large back and chest muscles, giving far more sustainable pressure than bicep squeezing. It works by pulling your elbows toward your ribs and creating a slight backward arch, while bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast, whereas the larger muscle groups fatigue much more slowly. Chest expansion also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
         "safety_critical": false,
         "distractors": {
@@ -593,7 +593,7 @@
         }
       },
       {
-        "question": "The attacker has threaded their arm across your neck but has not yet locked the figure-four — what defensive action has the highest success rate at this stage?",
+        "question": "Their arm is across your neck but the figure-four isn't locked — your best defense now?",
         "answer": "Immediately grab the attacking wrist with both hands and pull it downward away from your neck while simultaneously tucking your chin tightly to your chest. The goal is to strip the arm back below your chin line before the figure-four can be completed. Use your entire body to assist by shrugging your shoulder up on the choking arm side and turning slightly toward the arm to reduce the effective depth across your neck. This window is brief, typically two to three seconds, so commit fully to the strip attempt rather than splitting effort between arm defense and escape.",
         "safety_critical": false,
         "answer_line": "Two-hand strip, tuck chin hard",
@@ -608,7 +608,7 @@
         }
       },
       {
-        "question": "What is the correct sequence of defensive priorities when caught in back control with an active choke threat?",
+        "question": "Caught in back control under a choke threat, what order should your defensive priorities follow?",
         "answer": "The correct sequence is strictly hierarchical. First, protect the neck through chin tuck and two-on-one wrist control on the choking arm, preventing the arm from crossing or deepening. Second, fight the attacker's grip adjustments to prevent them from breaking your defensive control. Third, once neck defense is stable, strip the seatbelt grip with one hand while maintaining wrist control with the other. Fourth, remove hooks starting with the bottom hook using hip escape and leg manipulation. Fifth, create angle and turn toward the attacker to recover guard. Skipping any step, especially attempting escape before securing neck defense, dramatically increases submission risk.",
         "safety_critical": false,
         "answer_line": "Neck first, then grips, then escape",
@@ -623,7 +623,7 @@
         }
       },
       {
-        "question": "You have defended the initial choke attempt but the attacker still has full back control with both hooks — what escape sequence should you initiate?",
+        "question": "Choke defended but they still have back control with both hooks — what escape sequence?",
         "answer": "With the immediate choke threat neutralized, maintain one hand controlling the attacker's choking arm wrist while using the other hand to begin addressing the bottom hook. Push the bottom hook foot down and outward with your hand while simultaneously hip escaping toward the mat on that side. Once the bottom hook is cleared, continue the hip escape motion to create angle, then drive your inside shoulder toward the attacker's chest and rotate to face them. Establish closed guard by wrapping your legs around their waist as you complete the turn. Throughout this sequence, never fully abandon the choking arm wrist control until you have turned far enough that the neck is no longer accessible.",
         "safety_critical": false,
         "answer_line": "Clear bottom hook, escape, turn in",

@@ -78,7 +78,7 @@ description: "Complete attacking guide for the Kimura from Ushiro Kesa Gatame co
     },
     {
       "@type": "Question",
-      "name": "What sensation tells you the shoulder is reaching its breaking point, and what must you do at that moment?",
+      "name": "Rotating the arm in this Kimura, what sensation signals the shoulder's limit, and what then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As you rotate the forearm toward the mat you will feel the opponent's elbow and shoulder hit a hard stop where the joint stops yielding and the arm refuses to rotate any further—this is the anatomical limit of internal rotation, and tissue damage begins immediately past it. At that instant apply no additional force: hold steady pressure, watch and feel for the tap, and release the moment it comes. Crossing that limit explosively is what causes rotator cuff tears and dislocations."

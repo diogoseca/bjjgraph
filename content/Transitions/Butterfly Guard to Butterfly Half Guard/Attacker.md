@@ -90,7 +90,7 @@ description: "Master the top player's technique for clearing butterfly hooks to 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep underhook on their right side with strong hooks - which hook should you target first and why?",
+      "name": "Your opponent has a deep right underhook and strong hooks: which hook do you clear first, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Target the left hook first, opposite to their dominant right underhook. Their right underhook gives them superior structural control on that side, making hook re-insertion easier and creating back take threats if you shift weight there. The left side, without the underhook support, has weaker retention capability. Clearing the weaker hook first gives you a stable half guard position from which you can then address the stronger underhook side."
@@ -114,7 +114,7 @@ description: "Master the top player's technique for clearing butterfly hooks to 
     },
     {
       "@type": "Question",
-      "name": "You clear one hook successfully but the opponent immediately starts working to re-insert it - what are your first three actions?",
+      "name": "You clear one hook and they fight to re-insert it: what are your first three actions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, post your freed leg wide to create a stable base that prevents being swept during the recovery scramble. Second, drive your crossface shoulder deeper to turn their head further away from the cleared side, breaking their ability to follow your hip with their leg. Third, drop your hip weight heavy on the cleared side to physically block the re-insertion path with your body mass. These three actions must happen within the first two to three seconds of clearing the hook, before the opponent can reorganize their structure."

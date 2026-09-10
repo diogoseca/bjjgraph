@@ -64,7 +64,7 @@ description: "Master defending against the New York Control Escape. Maintain rub
     },
     {
       "@type": "Question",
-      "name": "How should you adjust when you feel the opponent's shoulder beginning to rotate forward under your overhook?",
+      "name": "Holding New York, their trapped shoulder starts rotating forward under your overhook — adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your controlling arm deeper under their armpit while pulling your elbow toward your own hip to increase overhook depth. Simultaneously increase active leg pressure by pulling your knee more aggressively toward their far shoulder. If the rotation continues despite deepening, begin transitioning your leg toward their neck for a triangle setup, converting their extraction movement into submission vulnerability. The shoulder rotation is the critical extraction mechanic and stopping it early is far easier than countering a completed extraction."
@@ -80,7 +80,7 @@ description: "Master defending against the New York Control Escape. Maintain rub
     },
     {
       "@type": "Question",
-      "name": "Your overhook is failing and you cannot prevent arm extraction - what transition preserves offensive pressure?",
+      "name": "Your New York overhook is failing and the arm is coming out — what transition keeps you attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to Mission Control or Crackhead Control by bringing your leg to their head and controlling posture with your shin before they can clear the leg wrap. Alternatively, if their arm is partially free, shoot for a triangle by threading your leg around their neck and freed arm. The key is recognizing overhook failure early enough to transition proactively rather than clinging to a lost grip. Any rubber guard control that maintains leg engagement preserves your offensive framework better than attempting to re-establish a compromised overhook."

@@ -76,7 +76,7 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's sleeve on the same side as the De La Riva hook essential for sweep success?",
+      "name": "In the De La Riva sweep, why control the sleeve on the same side as your hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance."
@@ -84,7 +84,7 @@ description: "How to execute De La Riva Sweep in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent steps back with their hooked leg to defend the De La Riva Sweep?",
+      "name": "They step the hooked leg back to defend your De La Riva sweep. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their backward step by extending your body forward and switching to X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Forcing the original sweep against this counter is ineffective and wastes energy; the step back actually feeds their leg into these follow-up entries, so attacking pressure is maintained by flowing rather than resisting."

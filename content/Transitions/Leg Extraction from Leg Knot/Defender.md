@@ -56,7 +56,7 @@ description: "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest sign that your opponent is attempting leg extraction rather than continuing to hunt submissions?",
+      "name": "In the leg knot, what is the earliest sign your opponent is extracting rather than attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest sign is a change in grip focus from your foot or heel to your upper body. When the opponent releases ankle and heel control and instead establishes crossface, collar tie, or far hip grips, they are preparing to extract rather than submit. Additionally, increased forward pressure through their chest and a relaxation of their trapped leg tension indicate limp leg extraction mechanics are beginning."
@@ -64,7 +64,7 @@ description: "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your re-hooking attempts keep failing because the opponent's forward pressure flattens your hips — how do you address this?",
+      "name": "Your re-hooks fail because their forward pressure flattens your hips in the leg knot — fix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free leg to frame against the opponent's hips, creating a structural barrier that resists the forward flattening pressure. If already partially flat, perform a strong hip escape to restore your side positioning before attempting re-hooks. You can also use your hands on the opponent's hips to push them back enough to create re-hooking space. The fundamental issue is hip mobility — restore it through framing and hip escaping before attempting any re-entanglement."
@@ -72,7 +72,7 @@ description: "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "The opponent's leg has cleared your ankle hooks but is still at knee level — should you fight for re-entanglement or begin guard recovery?",
+      "name": "Their leg cleared your ankle hooks but is still at knee level — re-entangle or recover guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the knee level, you still have a meaningful window for re-entanglement or counter-entanglement. Attempt to triangle their partially extracted leg by crossing your legs around their knee to initiate 50-50 entry. This is the optimal transition point because the leg is exposed enough to target but not yet cleared. If the triangle attempt fails and the knee also clears, immediately commit to guard recovery rather than chasing a lost position."

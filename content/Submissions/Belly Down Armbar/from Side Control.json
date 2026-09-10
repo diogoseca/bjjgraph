@@ -383,7 +383,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together when you attempt to isolate the arm from side control - what is your response?",
+        "question": "Your opponent clasps their hands as you try to isolate the arm from side control—your response?",
         "answer": "Attack the grip connection directly using a kimura grip to pry the hands apart, drive your knee into the gap between their clasped hands as a wedge, or switch your attack to the other arm which is now less defended because both hands are committed to the clasp. You can also threaten a different submission like an americana to force them to release the clasp defensively.",
         "safety_critical": false,
         "answer_line": "Kimura grip or knee wedge",
@@ -413,7 +413,7 @@
         }
       },
       {
-        "question": "What happens if you leave your knees apart instead of squeezing them tightly during the belly down finish?",
+        "question": "What happens if your knees stay apart instead of squeezing during the belly down finish?",
         "answer": "The opponent can extract their elbow from between your legs, completely escaping the submission. Without the knee vice around the upper arm, there is nothing preventing the opponent from pulling the arm laterally to free the elbow. This is one of the most common finishing errors and results in losing both the submission and often the positional advantage as the opponent scrambles to guard recovery.",
         "safety_critical": false,
         "answer_line": "Elbow slips free, they escape",
@@ -428,7 +428,7 @@
         }
       },
       {
-        "question": "Your two-on-one grip is slipping toward the opponent's hand as you settle belly down - what grip adjustment secures the finish?",
+        "question": "Your two-on-one grip slides toward their hand as you settle belly down—how do you adjust it?",
         "answer": "Walk both hands back up the forearm toward the wrist joint so your grip sits just above the wrist crease, not on the slippery hand or fingers. Switch to a palm-to-palm or thumbless monkey grip and clamp the wrist flat against your sternum, keeping your elbows pinched to your ribs so the opponent cannot peel a single finger. Controlling closer to the wrist shortens their lever and removes the rotational slack they need to spin the elbow free.",
         "safety_critical": false,
         "answer_line": "Walk grip up to the wrist",
@@ -458,7 +458,7 @@
         }
       },
       {
-        "question": "During competition, what strategic advantage does the belly down armbar from side control provide over standard armbar entries?",
+        "question": "What strategic advantage does the side control belly down armbar have over standard entries?",
         "answer": "The side control starting position means you maintain your 3-point pass advantage even if the armbar attempt fails, as you can return to side control rather than risking a guard recovery. The belly down finish has a significantly higher completion rate than supine armbars because it eliminates stacking and hitchhiker defenses. Additionally, opponents focused on defending standard side control attacks like americana and kimura often expose the arm configurations that create belly down armbar entries.",
         "safety_critical": false,
         "answer_line": "Keeps side control if it fails",
@@ -628,7 +628,7 @@
         }
       },
       {
-        "question": "What defensive posture should you maintain in side control bottom to prevent the arm isolation that starts this attack?",
+        "question": "What bottom side control posture prevents the arm isolation that starts this armbar?",
         "answer": "Keep both elbows pinched tight to your body with hands clasped together, gripping your own wrist, or holding your collar and belt. This connected defensive structure forces the attacker to break a grip connection before isolating an arm, giving you time to recognize the threat and defend. Extended or loose arms are the primary vulnerability that enables this submission.",
         "safety_critical": false,
         "answer_line": "Elbows pinned, hands clasped",

@@ -106,7 +106,7 @@ description: "Execute the Bull Pass from Collar Sleeve Guard. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent consistently hip escapes to follow your lateral movement and recovers guard - how do you adjust?",
+      "name": "They hip escape with your lateral movement and recover guard against the bull pass: how to adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the bull pass as a feint by initiating the lateral movement in one direction to draw their hip escape, then immediately reverse direction with a knee slice through the center. Their hip escape in the wrong direction creates a clear passing lane for the knee slice. This combination turns their successful defense of the bull pass into vulnerability for a complementary technique."

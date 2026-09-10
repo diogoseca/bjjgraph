@@ -68,7 +68,7 @@ description: "Learn to defend and escape the arm-in guillotine from front headlo
     },
     {
       "@type": "Question",
-      "name": "What is your highest-priority defensive action when caught in an arm-in guillotine from front headlock?",
+      "name": "Caught in an arm-in guillotine from front headlock, what is your highest-priority defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest priority is immediately tucking your chin toward the trapped arm side while simultaneously attempting to extract the trapped arm through body rotation. Chin tuck buys time by reducing carotid compression surface area, while arm extraction restores your full defensive capability. If extraction fails within the first 2-3 seconds, transition to posturing with your free arm or driving forward to stack the attacker before the choke fully locks."
@@ -76,7 +76,7 @@ description: "Learn to defend and escape the arm-in guillotine from front headlo
     },
     {
       "@type": "Question",
-      "name": "Your arm is trapped inside the guillotine and you feel increasing pressure—what is your immediate response?",
+      "name": "Your arm is trapped in the guillotine from front headlock and pressure builds—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin hard toward the trapped arm shoulder to reduce compression surface. Simultaneously post your free hand on the opponent's hip and drive upward to create posture while turning your entire body toward the trapped arm side. This rotational movement creates an angle where the trapped arm can begin sliding free along your neck. If posturing fails, commit to driving forward to stack the attacker and relieve the choking angle. Do not waste time on half-measures—choose your escape path and commit fully."

@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent strips your choking grip during the sit-up but you still have the seatbelt - what is your best option?",
+        "question": "They strip your choking grip during the sit-up but you keep the seatbelt: best option?",
         "answer": "Abandon the choke attempt and commit fully to the back take. With the seatbelt intact you still have sufficient upper body control to follow their movement and insert hooks. The choking grip is not required for the back take; the seatbelt alone anchors the transition. Prioritize hook insertion over re-establishing the choke during the dynamic sitting phase.",
         "answer_line": "Abandon choke, commit to hooks",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "If your first hook is in but opponent grabs your foot with both hands to strip it, what chain attack opens up?",
+        "question": "One hook in and they grab your foot with both hands: what chain attack opens up?",
         "answer": "When opponent dedicates both hands to stripping your hook, their neck becomes completely undefended. Immediately re-engage the choking grip since their hand fighting on your foot means zero neck protection. Alternatively, use the distraction to switch to a gift wrap on whichever arm is reaching lowest, trapping it and completing the back take with arm control instead of hooks.",
         "answer_line": "Neck undefended - re-attack choke",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "What is the first thing you should do if the attacker successfully inserts their near-side hook during your escape?",
+        "question": "They insert their near-side hook during your escape: what do you do first?",
         "answer": "Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry.",
         "answer_line": "Clamp thighs, trap the hook",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "Why is stripping the harness grip during the sit-up more effective than stripping it after hooks are established?",
+        "question": "Why strip the harness grip during the sit-up rather than after hooks are in?",
         "answer": "During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective.",
         "answer_line": "Grip weaker during mid-transition",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent has one hook in and is reaching for the second - what defensive option gives you the best positional outcome?",
+        "question": "They have one hook in and reach for the second: which defense gives the best position?",
         "answer": "Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving.",
         "answer_line": "Trap hook, rotate to half guard",
         "distractors": {

@@ -76,7 +76,7 @@ description: "Learn to attack with the Breadcutter Choke from Kuzure Kesa Gatame
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Breadcutter Choke primarily attack and how does the forearm position target them?",
+      "name": "What does the breadcutter choke compress, and how does forearm position target it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Breadcutter Choke primarily attacks both carotid arteries by positioning the blade (radius bone edge) of the forearm diagonally across the lateral neck. The collar material behind the neck acts as a fulcrum while the forearm drives into the carotid arteries from the front. This bilateral compression restricts blood flow to the brain, producing unconsciousness within seconds when properly applied."

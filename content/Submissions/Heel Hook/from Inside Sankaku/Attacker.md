@@ -90,7 +90,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pumping their hips backward to create extraction distance - what adjustment prevents their escape?",
+      "name": "They pump their hips back for extraction space — what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips forward following their movement while using your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing extraction of the trapped leg. The key is anticipating the backward movement and matching it with forward hip pressure so the gap never opens enough for extraction. Your legs must stay tight in the figure-four throughout this adjustment."
@@ -98,7 +98,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What are the four sequential control layers that must be established before committing to the heel hook finish?",
+      "name": "Which four control layers must be established, in order, before finishing the heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The four layers in order are entanglement structure, hip connection, knee line dominance, and heel exposure. Specifically: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps."
@@ -106,7 +106,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What indicates you have reached the point of no escape when finishing the heel hook from Inside Sankaku?",
+      "name": "What shows escape is no longer possible when finishing the heel hook from Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No escape remains when the blade grip is locked on the Achilles, the foot is clamped in your armpit, and torso rotation has begun. All three conditions must be met simultaneously: the blade grip has two-on-one reinforcement, the elbows are tight to your body with the foot clamped in the armpit, and your torso has started its rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training."
@@ -114,7 +114,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Why must rotational force be applied slowly and progressively rather than explosively when finishing this submission?",
+      "name": "Why must the heel hook rotation be applied slowly and progressively rather than explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Knee ligaments give almost no proprioceptive warning before failure, so slow pressure lets the opponent tap before damage occurs. The opponent often cannot feel the danger building until the ligament is already tearing, and explosive application can rupture the ACL in milliseconds - far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss."
@@ -122,7 +122,7 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully hides their heel against their own hip using the boot defense - what submission chain do you employ?",
+      "name": "They hide the heel on their hip with the boot defense — which submission chain do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain hip pressure while transferring your grip to attack the exposed forefoot with a toe hold. Keep hip pressure and inside leg elevation working to fatigue the boot defense as you transition, because the heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats."

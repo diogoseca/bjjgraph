@@ -76,7 +76,7 @@ description: "How to execute Ringworm Sweep to Back Control in BJJ. Attacking pe
     },
     {
       "@type": "Question",
-      "name": "Your opponent is in a low, heavy combat base with hips glued to the mat - should you attempt the sweep?",
+      "name": "They hold a low, heavy combat base with hips on the mat: should you try the Ringworm sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No - the sweep fails against a low, heavy base, so first force the opponent to elevate using triangle setups or collar drags. The sweep requires an elevated center of gravity to generate sufficient rotational momentum; when the opponent stays low and heavy, the leverage from the hip drive and lapel pull is insufficient to topple them. Use those secondary attacks to force them to raise their base, then capitalize on the weight shift to execute the sweep."

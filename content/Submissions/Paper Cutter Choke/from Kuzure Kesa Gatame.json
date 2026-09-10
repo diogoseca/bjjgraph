@@ -272,7 +272,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the paper cutter choke target and how does the kuzure kesa-gatame angle optimize compression?",
+        "question": "What does the paper cutter choke compress, and how does kuzure kesa-gatame aid the angle?",
         "answer": "The paper cutter choke targets bilateral compression of the carotid arteries. The forearm blade compresses the near-side carotid while the lapel pulled tight behind the neck compresses the far-side carotid. The kuzure kesa-gatame angle is optimal because your body is already positioned toward the opponent's head, creating a natural perpendicular cutting angle across the neck without requiring repositioning.",
         "safety_critical": false,
         "answer_line": "Bilateral carotid compression",
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin aggressively to block your forearm from sliding across the neck - what adjustment completes the choke?",
+        "question": "They tuck their chin to block your forearm; what adjustment completes the paper cutter?",
         "answer": "Use your free hand to crossface or post on their forehead to create space for the forearm insertion. A tucked chin only delays the choke because the compression comes from both sides of the neck simultaneously. If the lapel is fed deep enough behind the neck, even a tucked chin cannot prevent bilateral carotid compression when you apply shoulder drive and rotation to finish.",
         "safety_critical": false,
         "answer_line": "Crossface to open forearm gap",
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "What is the breaking point indicator that tells you the choke is fully locked and the opponent must tap or lose consciousness?",
+        "question": "Which indicators show the paper cutter choke is fully locked and must force a tap?",
         "answer": "The choke is fully locked when the forearm blade is seated flush against the near-side neck with no gap, and the lapel behind the neck has zero slack. You will feel the opponent's pulse against your forearm weaken or disappear. Their defensive hand fighting becomes weaker and less coordinated. From full lock, unconsciousness can occur within 8-10 seconds of sustained bilateral compression.",
         "safety_critical": true,
         "answer_line": "Forearm flush, lapel fully taut",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "Your opponent begins grip-fighting your lapel hand - how does this create an alternative submission opportunity?",
+        "question": "They grip fight your lapel hand; which other submission does this open from kesa-gatame?",
         "answer": "When the opponent commits their free hand to fighting your lapel grip, they cannot simultaneously frame against your body for positional escapes. Their defensive focus on the choke opens direct arm attack opportunities on the trapped arm, particularly the americana. Transition to the arm attack when they commit to choke defense, then return to the choke when they address the arm, creating a systematic submission dilemma.",
         "safety_critical": false,
         "answer_line": "Americana while they fight lapel",
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if the initial lapel feed is blocked by the opponent's far-side hand?",
+        "question": "Their far hand blocks your lapel feed; what grip adjustments complete the paper cutter?",
         "answer": "If the opponent blocks your initial feed with their far hand, use your free hand to strip their grip first or re-route the lapel feed from underneath their blocking arm. Alternatively, use their hand commitment against them by transitioning to wrist control that isolates their second arm, removing all defensive tools before re-attempting the lapel feed. Their blocking hand is now committed and cannot frame for escape.",
         "safety_critical": false,
         "answer_line": "Strip blocking hand, re-feed lapel",

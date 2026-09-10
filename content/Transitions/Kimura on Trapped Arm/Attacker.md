@@ -92,7 +92,7 @@ description: "How to execute Kimura on Trapped Arm in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped arm as you transition to Kimura grip - how do you adjust?",
+      "name": "Gift wrap Kimura: they straighten the trapped arm as you grip—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm straightens before you secure the Kimura, immediately switch to an armbar attack on the now-extended limb. The extended arm presents a better armbar opportunity than Kimura. Alternatively, abandon the submission attempt and quickly re-establish Gift Wrap control to trap the arm again before reattempting. The key is recognizing the straightening early and committing to the alternative rather than fighting a losing grip battle."

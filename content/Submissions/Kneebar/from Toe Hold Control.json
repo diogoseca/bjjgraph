@@ -293,7 +293,7 @@
         }
       },
       {
-        "question": "What specific defensive reaction from your opponent signals that the kneebar transition is available?",
+        "question": "Which defensive reaction to your toe hold signals that the kneebar is available?",
         "answer": "The kneebar becomes available when your opponent straightens their leg to relieve toe hold ankle rotation, rotates their knee inward to limit rotational torque on the ankle, or pushes away to create distance from the toe hold grip. All three reactions expose the posterior knee to hyperextension by either straightening the leg line or creating space for hip repositioning against the popliteal fossa.",
         "safety_critical": false,
         "answer_line": "Leg straightens or knee rotates in",
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "What defensive options are available when you recognize the kneebar transition from toe hold control?",
+        "question": "What are your best defenses once you recognise the kneebar transition from toe hold control?",
         "answer": "Four primary defenses exist: immediate knee curl to deny hyperextension, grip fighting on the attacker's hands during the transition window before they establish a closed hold, hip escape combined with free leg framing to extract the trapped leg, and rolling toward the trapped leg to disrupt hip placement. The most effective approach combines knee curl with grip fighting during the transition, as this addresses both the immediate threat and the attacker's ability to establish control.",
         "safety_critical": false,
         "answer_line": "Curl knee and fight grips",

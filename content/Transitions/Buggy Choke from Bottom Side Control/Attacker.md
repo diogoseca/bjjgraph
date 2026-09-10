@@ -76,7 +76,7 @@ description: "How to set the Buggy Choke from under side control. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Why does the buggy choke from bottom side control work despite being launched from a losing position?",
+      "name": "Why does the buggy choke work from bottom side control despite the losing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It weaponizes the top player's own pressure. When they drive forward to flatten you, they feed their neck into your near-arm frame. Your trapped near arm becomes the choking limb once you clamp a leg over their shoulder and lock the figure. The harder they pressure forward, the more they feed the strangle, turning the dominant pin into the setup for their own submission."
@@ -92,7 +92,7 @@ description: "How to set the Buggy Choke from under side control. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Your leg is over the shoulder but the top player extends their far arm to base and refuses to be turned into - what is your option?",
+      "name": "Your leg is over their shoulder but they extend the far arm to base and won't turn: what option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the extended far arm to branch to a crucifix by trapping that arm with your legs while keeping the upper-body control, or keep the buggy figure and turn your hips harder to re-thread the strangle line into their carotid. The extended far arm is a defensive base, but it also presents a limb you can attack instead of forcing a stalled finish."

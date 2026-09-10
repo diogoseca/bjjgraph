@@ -90,7 +90,7 @@ description: "Complete guide to executing the Z-Guard Pass from top position. Sy
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a deep underhook on the far side while you are attempting the pass - how do you respond?",
+      "name": "Passing Z-Guard, your opponent gets a deep far-side underhook—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a whizzer or overhook on the underhook arm to prevent them from using it to create angle for sweeps or back takes. Drive heavy crossface pressure to flatten their shoulders back to the mat, which weakens their underhook leverage. If the underhook is too deep to overhook effectively, abandon the direct pressure pass and switch to a backstep approach, using their committed angle against them by circling toward their back rather than fighting the underhook head-on."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Z-Guard Pass from top position. Sy
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player beginning to dive underneath you for a deep half guard entry - what is your immediate response?",
+      "name": "Passing Z-Guard, you feel them diving under you for deep half—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawl your hips back immediately to prevent them from getting their head and shoulders underneath your center of gravity. Simultaneously drive heavy shoulder pressure into their near shoulder to pin them flat and prevent them from completing the turn needed for deep half entry. If they get partial penetration, backstep to face their hips directly, which kills the deep half angle. The key is reacting at the first sign of the dive rather than waiting until they have established the position."

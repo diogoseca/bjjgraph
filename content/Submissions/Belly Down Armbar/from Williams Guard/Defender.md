@@ -68,7 +68,7 @@ description: "Defend the belly down armbar from Williams Guard. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Why is early intervention during the hip angle phase more effective than defending the completed belly down position?",
+      "name": "Why defend during the hip angle phase rather than after the belly down position is complete?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the hip angle phase, the attacker has not yet established the armbar mechanics—they are still in a modified Williams Guard position. Disrupting the angle through forward pressure or arm extraction at this stage returns you to a standard guard passing scenario. Once the belly down position is complete, the attacker has full mechanical advantage with body weight, knee squeeze, and hip extension all working together, leaving virtually no leverage available for escape."

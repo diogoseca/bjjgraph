@@ -76,7 +76,7 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the minimum application speed and pressure progression requirements for the Mir Lock in training environments?",
+      "name": "How slowly must the Mir Lock be applied in training, and with what pressure progression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Mir Lock must be applied over a minimum of 5-7 seconds with progressive pressure in training environments. The pressure should start light and gradually increase while constantly monitoring for tap signals. This slow application allows the training partner to recognize the submission and tap before any structural damage occurs to the shoulder joint. Competition application may be faster, but training must always prioritize safety over speed."
@@ -92,7 +92,7 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "What specific injuries can result from improper Mir Lock application, and what are their typical recovery timeframes?",
+      "name": "Which shoulder injuries can a badly applied Mir Lock cause, and what are their recovery times?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Improper Mir Lock application can cause multiple severe shoulder injuries: rotator cuff tears (CRITICAL severity, 3-6 months recovery, often requiring surgery), shoulder dislocations both anterior and posterior (High severity, 6-12 weeks with physical therapy), labral tears to the glenoid labrum (High severity, 4-8 months often requiring surgery), biceps tendon ruptures (Medium severity, 8-12 weeks), and shoulder capsule damage (High severity, 3-6 months with potential chronic instability). These injuries emphasize why controlled application and immediate tap response are absolutely essential."
@@ -100,7 +100,7 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "How should you respond if an opponent attempts to defend the Mir Lock by grabbing their own gi or belt?",
+      "name": "How do you respond when your opponent grabs their own gi or belt to defend the Mir Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent grabs their own gi or belt to create a defensive frame, you should break the grip by driving your weight through their elbow while using your free hand to peel their defensive grip open. Once the grip is broken, immediately re-establish your figure-four control before they can re-grip. The key is to use your body weight and positioning to make maintaining their grip mechanically exhausting, rather than engaging in a pure strength battle. If the grip proves too strong, consider transitioning to alternative attacks from the same position."

@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "Your opponent begins pulling their knee toward their chest to hide the heel - what adjustment creates a finishing opportunity?",
+        "question": "They pull their knee to their chest to hide the heel—what adjustment creates a finish?",
         "answer": "When the defender retracts their knee, transition immediately to a straight ankle lock or toe hold, both of which become available when the knee is flexed. The bent knee actually improves ankle lock mechanics by providing a fulcrum point. Alternatively, use a two-on-one wrist grip break to pry their hands off your wrist, then re-expose the heel by extending their leg using your leg entanglement. Never chase a fully hidden heel with the heel hook grip.",
         "safety_critical": false,
         "answer_line": "Switch to ankle lock/toe hold",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "What grip adjustment prevents the defender from spinning their heel free during your finishing attempt?",
+        "question": "From Cross Ashi, what grip stops the defender spinning their heel free during the finish?",
         "answer": "Pin the opponent's toes and forefoot firmly against your chest using your forearms, creating a fixed reference point that prevents foot rotation. Your wrist bone should sit across the Achilles tendon as a fulcrum while your other hand locks the figure-four. When the defender attempts to rotate their foot, your forearm contact on their toes prevents the spin. Keep your elbows squeezed tight so there is no gap for the foot to rotate through.",
         "safety_critical": false,
         "answer_line": "Pin toes to chest, wrist fulcrum",
@@ -410,7 +410,7 @@
         }
       },
       {
-        "question": "In competition, how should you adjust your finishing strategy when the opponent is actively boot-defending?",
+        "question": "In competition, how do you adjust the Cross Ashi finish against persistent boot defense?",
         "answer": "Against persistent boot defense, implement a submission chain rather than forcing the heel hook. Threaten the heel hook to force the boot, then immediately transition to a straight ankle lock or toe hold that capitalizes on their flexed knee position. When they straighten to defend the ankle lock, re-attack the heel hook. This chain creates an unsolvable dilemma where defending one submission exposes the other. Maintain cross ashi integrity throughout transitions.",
         "safety_critical": false,
         "answer_line": "Chain heel hook into ankle lock",
@@ -425,7 +425,7 @@
         }
       },
       {
-        "question": "Your opponent starts sitting up and pushing frames while you have initial heel contact but not a locked grip - what prevents their escape?",
+        "question": "They sit up and frame while you have heel contact but no locked grip—what stops the escape?",
         "answer": "Drive your inside hook deeper behind their hip to pull them back down while simultaneously pulling their heel tighter toward your chest. Their upward movement paradoxically often exposes the heel more clearly as they shift their weight. Use their posting arm as a timing cue: when they commit weight to the post, they have less hand fighting capacity, creating a window to consolidate your figure-four grip. Then their sit-up posture actually aids your rotational mechanics.",
         "safety_critical": false,
         "answer_line": "Deepen hook, pull heel tighter",
@@ -633,7 +633,7 @@
         }
       },
       {
-        "question": "Why is explosive spinning particularly dangerous when defending the heel hook from Cross Ashi-Garami?",
+        "question": "Why is explosive spinning dangerous when defending the heel hook from Cross Ashi-Garami?",
         "answer": "Explosive spinning feeds rotational force directly into the heel hook mechanism. The heel hook finishes through rotation of the heel and ankle, and your uncontrolled spinning motion creates exactly the rotational force the attacker needs to damage your knee ligaments. The attacker can simply follow and amplify your own momentum. Only attempt rotational escapes when the cross configuration is clearly compromised and the escape path is open.",
         "safety_critical": true,
         "answer_line": "Spinning feeds the rotation",

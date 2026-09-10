@@ -84,7 +84,7 @@ description: "Learn to attack the Americana shoulder lock from North-South. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their arm as you attempt to secure the figure-four grip - what adjustment do you make?",
+      "name": "They straighten the arm as you secure the figure-four in North-South — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to an armbar attack by hooking their straightened wrist and rotating your body to attack the now-extended elbow joint. The straight arm from North-South provides excellent armbar leverage because your chest is already positioned near their elbow. This makes the straightened arm defense a losing proposition for the defender, which discourages it and makes future Americana attempts more effective as a chain threat."
@@ -116,7 +116,7 @@ description: "Learn to attack the Americana shoulder lock from North-South. Step
     },
     {
       "@type": "Question",
-      "name": "Your chest pressure feels solid but you cannot reach the defender's wrist to complete the figure-four - what is wrong?",
+      "name": "Your chest pressure is solid but you can't reach their wrist in North-South — what is wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body is likely positioned too far toward the defender's hips rather than forward over their shoulders. Adjust by walking your base forward so your chest covers their shoulder area more directly. This brings your arms within reach of their wrist while simultaneously increasing the pressure on their elbow. The grip should be accessible without reaching or stretching. If you need to reach, reposition your body rather than sacrificing pressure."

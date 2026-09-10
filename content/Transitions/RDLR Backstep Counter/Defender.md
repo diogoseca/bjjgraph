@@ -72,7 +72,7 @@ description: "Defend against the RDLR Backstep Counter in BJJ. Learn recognition
     },
     {
       "@type": "Question",
-      "name": "The backstep has partially cleared your hook but Headquarters is not yet established—what is your best response?",
+      "name": "The backstep half-clears your RDLR hook before Headquarters — what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical transitional window where you must commit to one of two strategies: either aggressively re-hook by following with hip rotation and ankle grip pulling to re-establish RDLR, or transition to an alternative guard by inserting feet on hips for X-Guard or Single Leg X before the top player can consolidate. The worst option is hesitating between the two—partial commitment to either strategy results in neither succeeding. Assess the top player's upper body control and remaining balance to determine which option has higher probability of success."
@@ -88,7 +88,7 @@ description: "Defend against the RDLR Backstep Counter in BJJ. Learn recognition
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy if the top player combines the backstep with a body lock?",
+      "name": "How do you adjust your RDLR defense when they combine the backstep with a body lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The body lock eliminates your inversion option by pinning your torso and removing rotational freedom. When you recognize the body lock grip forming, abandon berimbolo-based defenses entirely and focus on preventing the backstep from clearing your hook through aggressive ankle grip fighting and hip rotation. If the hook is cleared despite your resistance, frame against their arms to create space for hip escape rather than attempting to invert. Your best option becomes transitioning to half guard retention by inserting a knee shield as they settle into Headquarters."

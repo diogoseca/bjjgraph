@@ -80,7 +80,7 @@ description: "Defend against the Double Sleeve Sweep in BJJ. Recognition cues, c
     },
     {
       "@type": "Question",
-      "name": "Your opponent redirects to the opposite sweep direction after your initial post - what adjustment do you make?",
+      "name": "You post, and they redirect the sweep to the other side: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transfer your post to the new sweep side while simultaneously attempting to break the sleeve grip on that side using wrist rotation. Use hip rotation to face the new direction of force. The key insight is that the redirect requires the bottom player to reload the sweep mechanics, which takes a fraction of a second. Use this window to break a grip or drive forward before the new sweep direction can fully develop its rotational force."

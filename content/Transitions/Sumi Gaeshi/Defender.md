@@ -56,7 +56,7 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Sumi Gaeshi attempt is developing, and what should your immediate response be?",
+      "name": "What is the earliest cue of a Sumi Gaeshi, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent stepping laterally to create an off-angle while maintaining strong forward-pulling grips on your upper body. Your immediate response should be to circle in the same direction they are stepping to deny the angle, while simultaneously stripping or weakening their dominant pulling grip. Reacting at this stage gives you the widest range of defensive options and requires the least energy to neutralize the attack."
@@ -72,7 +72,7 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already placed their foot on your hip and is beginning to drop backward. What is your best option at this point?",
+      "name": "Their foot is on your hip and they are dropping back for Sumi Gaeshi: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, pure resistance is unlikely to work. Your best option is to drive your hips sharply back and down while turning your body perpendicular to the throwing direction, which changes the angle of the arc and prevents the circular completion. If the throw is past the tipping point, transition to damage control by securing a grip on their collar or arm during the throw, tucking your chin to protect your landing, and immediately closing your guard as you land to prevent them from following through to mount."
@@ -80,7 +80,7 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How do you convert a partially successful Sumi Gaeshi into a guard recovery rather than allowing mount?",
+      "name": "How do you turn a partly successful Sumi Gaeshi against you into guard recovery, not mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical moment is during the airborne phase and landing. Maintain at least one grip on the thrower throughout the throw so you have a control point when you land. As you hit the mat, immediately hip escape to create enough angle to insert your legs between you and the thrower. Lock your ankles behind their back before they can posture up and drive past your legs. If full closed guard is not possible, establish butterfly hooks or half guard immediately. The key is that your legs must be active the moment you land rather than landing flat and waiting."
@@ -88,7 +88,7 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "What grip fighting strategy reduces the probability of a successful Sumi Gaeshi before the throw is even attempted?",
+      "name": "What grip fighting best reduces the chance of a Sumi Gaeshi before it is attempted?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deny the cross-collar grip and the deep underhook, which are the two highest-control grip configurations for Sumi Gaeshi. Fight the collar grip with same-side hand strip using two-on-one breaks if necessary. Against underhooks, use overhooks or whizzers to prevent deep penetration under your arms. Keep your elbows tight to your body to deny space for grip establishment. Proactively control one of their sleeves or wrists, which eliminates half of their gripping options and forces them to work with a weaker single-grip configuration that provides insufficient control for the throw."

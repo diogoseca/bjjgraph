@@ -56,7 +56,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single earliest recognition cue that your opponent is about to attempt the Backside 50-50 transition?",
+      "name": "What is the earliest cue that they are attempting the Backside 50-50 transition on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a lateral shift in their hip pressure. In standard 50-50 top, pressure is directed straight down through your centerline. When they begin the rotation, pressure shifts to one side as their hips start the walking arc. This lateral shift happens before any visible rotation and is the earliest tactile signal that the transition is being initiated. Responding to this cue gives you maximum time to counter."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "Why is matching the opponent's rotation direction more effective than trying to hold your position statically?",
+      "name": "Why is matching their rotation better than statically holding position against Backside 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Static resistance against a rotational force is mechanically inefficient because the opponent can incrementally overcome your resistance with each small hip step. Matching their rotation by turning your body in the same direction keeps your chest oriented toward them, which is the one thing that prevents the Backside angle from forming. You do not need to out-rotate them, you only need to maintain facing orientation. This requires far less energy than trying to pin them in place."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a heel grip and you feel them begin the rotation. You cannot break the grip quickly. What alternative defense do you use?",
+      "name": "They have a heel grip and start rotating, and you cannot break the grip—what defense do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the grip break fails, immediately bridge explosively toward the side they are rotating from. Their mid-rotation base is compromised because their weight is shifting laterally rather than driving straight down. The bridge exploits this compromised base to either sweep them or at minimum disrupt their arc enough to buy time for a secondary defense. Alternatively, attack their heel as a counter-submission since their focus on rotation reduces their heel defense awareness."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
     },
     {
       "@type": "Question",
-      "name": "At what point during the transition should you abandon prevention and switch to Backside 50-50 Bottom defense?",
+      "name": "When should you stop preventing the rotation and switch to Backside 50-50 bottom defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent's chest has passed perpendicular to your back and they have begun establishing forward pressure, the rotation is past the point of efficient prevention. Continuing to fight the transition at this point wastes energy that you will desperately need for Backside 50-50 Bottom defense. Immediately shift to back exposure management, heel protection, and active hip movement to prevent complete flattening. Accept the positional loss and focus on the next phase of defense."

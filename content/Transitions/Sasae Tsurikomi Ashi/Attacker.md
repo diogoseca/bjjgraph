@@ -106,7 +106,7 @@ description: "How to execute Sasae Tsurikomi Ashi in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "If your opponent consistently steps over your blocking foot, what technical adjustments should you make?",
+      "name": "If your opponent keeps stepping over your Sasae block, what should you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, ensure you are creating proper kuzushi before placing the foot - if they can step over, they are not truly off-balance. Second, place the block lower, closer to the floor. Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like a hip throw when they lift their leg high."

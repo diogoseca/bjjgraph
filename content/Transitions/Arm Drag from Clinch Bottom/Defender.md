@@ -56,7 +56,7 @@ description: "Complete guide to defending the arm drag from clinch. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can recognize and defend the arm drag, and what specific action should you take?",
+      "name": "What is the earliest point to defend the clinch arm drag, and what action do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when you feel the opponent's second hand join their first on the same arm, establishing a two-on-one grip. The immediate action is to circle the controlled arm in the direction of your thumb to break the grip before any pulling force is applied. This is the cheapest and most effective defense because it addresses the arm drag at its initiation before any momentum develops. If you wait until the pull begins, defensive options become progressively more difficult and energy-intensive."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the arm drag from clinch. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already cleared your centerline with the arm drag but has not yet established chest-to-back contact. What is your best defensive option?",
+      "name": "They cleared your centerline but lack chest-to-back contact. What is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately execute a hard hip re-square by pivoting your entire body to face the opponent. Step your far foot backward and rotate your hips aggressively toward them while simultaneously reaching back with your near arm to frame against their shoulder or head. This re-squaring must be explosive and complete, not a gradual turn, because you have only a fraction of a second before they close the chest-to-back gap. If the re-square fails and they contact your back, immediately sit to the ground and begin back defense rather than fighting standing back control where their takedown options multiply."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the arm drag from clinch. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is turning toward the opponent the correct defensive response rather than turning away when the drag is initiated?",
+      "name": "Why do you turn toward your opponent rather than away when the arm drag starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the opponent re-squares your hips relative to their position, which is the fundamental requirement for preventing the back take. Turning away feels instinctive because you want to pull your arm free, but it actually accelerates the back exposure by rotating your spine toward the opponent's chest. When you turn toward them, you face them directly and can re-engage grip fighting from a squared position. When you turn away, you present your entire back and the opponent simply follows your rotation with chest-to-back pressure. The directional rule is absolute: always rotate toward the threat, not away from it."

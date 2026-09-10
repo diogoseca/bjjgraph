@@ -258,7 +258,7 @@
         }
       },
       {
-        "question": "Your opponent maintains heavy chest pressure on your upper back without committing forward - how do you create the opening?",
+        "question": "Turtle: they sit heavy on your upper back without committing forward - how do you open it?",
         "answer": "Use feints and movement to draw them forward. Push back into them slightly then suddenly release, or threaten a granby roll to make them commit weight forward to prevent it. You can also shift your weight toward one side, inviting them to follow, then execute the sit through to the opposite side when they commit. The goal is to convert their neutral pressure into directional commitment you can exploit.",
         "answer_line": "Feint to draw forward commitment",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Your sit through is being consistently countered by opponent following and taking your back - what adjustment should you make?",
+        "question": "Your sit through from turtle keeps getting followed for the back: what do you change?",
         "answer": "The counter indicates your framing arm is insufficient or your timing is off. First, ensure you establish a strong frame before initiating. Second, verify you're only attempting when opponent's weight commits forward. Third, consider chaining techniques: if they successfully follow, immediately transition to a second sit through in the opposite direction or chain into a granby roll using their forward momentum against them. The combination of better framing and chained escapes makes following much harder.",
         "answer_line": "Better frame, then chain escapes",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What determines whether you should establish closed guard versus half guard after completing the sit through?",
+        "question": "After the sit through from turtle, what decides closed guard versus half guard?",
         "answer": "The decision depends on where your threading leg ends up relative to opponent's body. If your leg clears completely past their hips and you can get your second leg around them, close your guard. If opponent's leg gets caught between yours during the rotation, immediately lock half guard rather than fighting for the full close. Also consider your preferred game: if you are stronger from half guard, intentionally target that position by controlling their leg during the rotation.",
         "answer_line": "Where the threading leg lands",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent secures a far-side underhook while you are in turtle - can you still execute the sit through?",
+        "question": "They get a far-side underhook on your turtle: can you still hit the sit through?",
         "answer": "The far-side underhook significantly compromises the sit through because it prevents the framing arm from creating separation. You must first clear the underhook by pummeling for inside position with your far arm, or abandon the sit through in favor of techniques that work with the underhook in place, such as the granby roll which uses opponent's forward pressure against them. Forcing the sit through against an established underhook almost always results in back control being taken.",
         "answer_line": "Clear underhook first, or granby",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "What follow-up attacks should you immediately threaten after establishing guard from the sit through?",
+        "question": "What should you threaten immediately after recovering guard from the sit through?",
         "answer": "From closed guard, immediately threaten collar grip setups or wrist control to prevent opponent from posturing. The hip bump sweep is excellent because opponent is often still moving forward from chasing your sit through. From half guard, underhook and threaten the sweep or dogfight immediately before opponent can establish crossface and flatten you. The key is attacking within two to three seconds of guard establishment while opponent is still adjusting to the new position.",
         "answer_line": "Attack fast before they resettle",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "Your opponent has already begun threading their leg mid-sit-through - what is the highest percentage response?",
+        "question": "Turtle top: they are already threading the leg on a sit through - best response?",
         "answer": "Follow their rotation by maintaining chest-to-back contact and circling with them rather than trying to stuff the leg back. As they rotate, you have a window to insert your near-side hook before they can fully face you and establish guard. Keep your hips glued to theirs throughout the movement and use the seatbelt grip to maintain upper body control. If executed correctly, their sit through actually assists your back take as their rotation creates hook entry opportunities.",
         "answer_line": "Follow rotation, insert hook",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution to deny the sit through without overcommitting forward?",
+        "question": "Turtle top: how do you distribute weight to deny the sit through without overcommitting?",
         "answer": "Direct your pressure downward at approximately 45 degrees through your chest into their upper back, rather than driving horizontally forward. Keep your hips relatively heavy and positioned over their hips rather than stacking onto their shoulders. Maintain a mobile base by keeping your knees slightly wider than shoulder width. This distribution prevents the lateral movement needed for the sit through while keeping you balanced enough to follow any direction change without being redirected by their escape attempt.",
         "answer_line": "45° pressure down, hips heavy",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "Your opponent feints a sit through to one side then executes it to the opposite side - how do you defend the misdirection?",
+        "question": "Turtle top: they feint a sit through one way then go the other - how do you defend?",
         "answer": "The key is responding to the feint with body positioning rather than committing to a specific counter. When you feel the initial lateral shift, maintain center position and follow with your hips rather than lunging to block. Keep your chest centered on their spine and let your hips stay heavy and neutral. When the real sit through comes to the opposite side, you are still in position to follow. If you overcommit to the feint side by driving laterally, you create the exact space they need on the opposite side for the real escape.",
         "answer_line": "Stay centered, follow with hips",
         "distractors": {

@@ -64,7 +64,7 @@ description: "Essential defensive guide for preventing the 3-4 Mount to S Mount 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has isolated your arm and begins rotating their hips—what immediate action should you take?",
+      "name": "In 3-4 Mount they isolate your arm and start rotating their hips—what is your immediate action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame your far arm against the attacker's near hip to physically block the perpendicular rotation. Your forearm should create a structural barrier that prevents them from completing the turn. Simultaneously, begin loading a bridge toward the mounted side so you are ready to explode when their posted leg lifts. The frame buys time; the loaded bridge creates the escape opportunity. Do not attempt both simultaneously—frame first, then bridge when the leg moves."

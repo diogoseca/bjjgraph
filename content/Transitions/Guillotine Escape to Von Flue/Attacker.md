@@ -82,7 +82,7 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight guillotine from closed guard and you cannot open their legs—what must you address first?",
+      "name": "Tight guillotine from their closed guard, you cannot open the legs: what must you address first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must open their closed guard before the lateral pass is possible. Drive your knee into their tailbone, posture up while maintaining a firm chin tuck to protect the airway, and use standard guard-opening techniques with hand positioning on their hips. The Von Flue is only available once you can pass the guard, so guard opening is the essential prerequisite step."
@@ -98,7 +98,7 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the guillotine grip as you begin establishing side control—what is your immediate response?",
+      "name": "They release the guillotine as you establish side control: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the Von Flue attempt and consolidate standard side control with crossface and hip control. Their grip release means you have successfully escaped the guillotine and achieved a dominant position. Establish heavy crossface pressure, block their far hip, and begin working standard side control submissions and transitions."
@@ -114,7 +114,7 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from recovering guard once you establish side control with Von Flue shoulder pressure?",
+      "name": "After taking side control with Von Flue pressure, how do you stop them recovering guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips sprawled back and heavy with your weight driving downward through your shoulder using gravity and skeletal alignment. Use your nearside arm to block their far hip, preventing any knee insertion for guard recovery. Your body should create a complete seal against their torso with zero space for their legs to work between your bodies."

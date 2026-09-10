@@ -92,7 +92,7 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What specific defensive posture from the opponent signals you should redirect from Kimura to Americana?",
+      "name": "Which defensive reaction from your opponent signals to redirect from Kimura to Americana?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is feeling the opponent pull their elbow tight against their ribcage and actively drive their hand toward the mat or their own hip. You will feel their arm become heavy and resistant to upward Kimura pressure. Their forearm will angle downward rather than remaining neutral or angling upward. This committed Kimura defense positions their arm perfectly for the Americana redirect because their elbow is already near the mat and their wrist is already low."

@@ -56,7 +56,7 @@ description: "Defend against the bridge-and-roll reversal from scarf hold top in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three setup elements that must connect for the bridge reversal to succeed, and which should you prioritize disrupting?",
+      "name": "Which of the three elements of the kesa gatame bridge reversal should you disrupt first, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three elements are: arm trap on your head-wrapping arm, leg hook on your near leg, and explosive bridge at 45 degrees. Prioritize preventing the arm trap because it is the most critical element. Without the arm trapped, the bottom player cannot prevent you from posting during the bridge, making the reversal mechanically impossible regardless of bridge power or leg hook position. Keeping your head-wrapping arm mobile and tight is your highest defensive priority."
@@ -64,7 +64,7 @@ description: "Defend against the bridge-and-roll reversal from scarf hold top in
     },
     {
       "@type": "Question",
-      "name": "Your bottom opponent lifts their hips for the bridge while you are in scarf hold - should you resist the bridge or transition to a counter?",
+      "name": "They bridge under your kesa gatame: resist the bridge or transition to a counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the clearance you need. Resisting through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more efficient than absorbing repeated explosive bridge attempts."

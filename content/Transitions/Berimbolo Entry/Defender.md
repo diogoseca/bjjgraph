@@ -62,7 +62,7 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a berimbolo entry is being set up, and why is early detection critical?",
+      "name": "What is the earliest cue that a berimbolo is being set up, and why does spotting it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker establishing a strong far hip grip while simultaneously increasing tension on the De La Riva hook to load your weight forward. Early detection is critical because the berimbolo becomes exponentially harder to defend once the rotation has started. Before the inversion, you can strip grips, sit your hips back, or backstep to remove the hook. Once the attacker is spinning underneath you, your defensive options narrow to counter-rotation and smash pressure, both of which are lower percentage than pre-inversion prevention."
@@ -70,7 +70,7 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the far hip grip typically more important than removing the De La Riva hook when defending berimbolo?",
+      "name": "Defending berimbolo, why strip the far hip grip before removing the De La Riva hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far hip grip provides the pulling force that drives the inversion. Without it, the attacker cannot pull themselves underneath your center of gravity to initiate the rotation. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the diagonal pulling trajectory needed for the berimbolo spin. Stripping the hip grip neutralizes the berimbolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can be converted into Kiss of the Dragon or other inversion attacks."
@@ -78,7 +78,7 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins their berimbolo rotation and is approximately halfway through the spin - what is your highest percentage defensive response at this point?",
+      "name": "Their berimbolo is halfway through the spin: what is your highest-percentage defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination accomplishes two things: the forward hip drive collapses the space the attacker needs to complete the rotation and flattens their inversion trajectory, while the counter-rotation keeps your chest facing their body and prevents back exposure. The key is to commit to both movements simultaneously rather than choosing one. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect."
@@ -86,7 +86,7 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How does the defender's response differ when facing a Kiss of the Dragon variation versus a traditional berimbolo?",
+      "name": "How does defending a Kiss of the Dragon differ from defending a standard berimbolo?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kiss of the Dragon requires a fundamentally different defensive response because the attacker releases the De La Riva hook and spins through to the far side rather than rotating around the hooked leg. Against traditional berimbolo, the defender can backstep or sit back to neutralize the hook-based rotation. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through. The correct defense against Kiss of the Dragon is to drive forward with pressure, close the distance to prevent the spin-through, and use your hands to control the attacker's hips during their forward roll. You must also protect the far side of your back since the attack vector is reversed compared to standard berimbolo."

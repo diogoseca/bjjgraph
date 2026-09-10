@@ -90,7 +90,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the opponent successfully sprawls heavily as you initiate the level change?",
+      "name": "They sprawl heavily as you level change for an outside ashi entry: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your grip on their leg and follow their backward movement rather than fighting against it. Use their sprawling momentum to facilitate your rotation by moving with them. If they sprawl with significant elevation, consider transitioning to a single leg finish instead of forcing the ashi entry. The key is to never release the leg while they're sprawling - their backward movement can actually assist your rotation if you move with it rather than against it."
@@ -106,7 +106,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What should be your immediate priority if the opponent steps over with their free leg during your entry?",
+      "name": "They step over with their free leg during your outside ashi entry: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the outside ashi entry as the technique is no longer viable once they successfully step over. Your options include switching to inside ashi entry (if the positioning allows), transitioning to guard pull or guard recovery, or attempting single leg X-guard entry if they've created vertical distance. Forcing the outside entry after they've stepped over typically results in giving up top position or being passed. Recognition and abandonment of failed entries is a crucial skill in leg lock systems."
@@ -114,7 +114,7 @@ description: "How to execute Outside Ashi Entry in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Describe the optimal leg configuration in the final outside ashi position and explain the function of each leg?",
+      "name": "In finished outside ashi, where does each of your legs go and what does each do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your inside leg crosses over their hip or lower back to anchor it, while your outside leg hooks over their trapped leg at the knee to control and elevate it. The inside leg's knee and shin create a barrier that prevents them from rotating away or creating distance, essentially anchoring their hip. The outside leg hooks at the knee or upper shin with the foot actively pulling their knee toward you, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks."

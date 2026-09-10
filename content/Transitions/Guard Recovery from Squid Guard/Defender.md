@@ -50,7 +50,7 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is redirecting the threading leg more effective than simply trying to push it away during Squid Guard recovery prevention?",
+      "name": "Why is redirecting their threading leg better than just pushing it away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Redirecting the threading leg to one side disrupts the symmetric leg positioning needed for closed guard closure and simultaneously creates a passing lane. Simply pushing the leg away only delays the withdrawal temporarily—the bottom player will attempt again with the same leg on the same path. Redirection forces the leg past the centerline to one side, meaning the bottom player must first pummel the leg back to center before attempting guard closure, which takes significantly more time and effort than simply re-extending a pushed leg."
@@ -58,7 +58,7 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What makes the Squid Guard structure particularly vulnerable to passing once the lapel grip is stripped?",
+      "name": "Why is Squid Guard so vulnerable to passing once the lapel grip is stripped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Squid Guard structure depends on the lapel thread creating a connection point that anchors the guard configuration. Without the lapel, the threading leg has no purpose in its current position and must be withdrawn—but this withdrawal repositions the leg from an offensive position to a transitional position with no defensive value until it reaches center. This mandatory repositioning creates a predictable window where the bottom player's legs are disorganized and in transit, making them vulnerable to redirection and passing. Other guard styles can maintain defensive function when a grip is stripped, but Squid Guard's reliance on the lapel makes the strip catastrophic."
@@ -74,7 +74,7 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the difference between a genuine guard recovery attempt and a feint to re-establish Squid Guard?",
+      "name": "How do you tell a real guard recovery from a feint to re-establish Squid Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine guard recovery involves the bottom player releasing the lapel completely and withdrawing the threading leg by bending the knee toward their body. A feint to re-establish Squid Guard keeps the gripping hand near the lapel and the threading leg extended or only slightly withdrawn while the bottom player looks to re-feed the lapel. Watch the bottom player's gripping hand—if it releases the lapel and moves to collar or sleeve control, they are committing to recovery and you should advance immediately. If the hand stays near the lapel or reaches back toward it, they are attempting to re-thread, and you should focus on grip prevention and lapel denial rather than aggressive passing."
@@ -82,7 +82,7 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully closes their guard during the recovery—what should your immediate priority be?",
+      "name": "They close their guard during the recovery — what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the guard closes, your window for passing through the recovery transition has ended and you must shift to closed guard top defensive priorities. Immediately establish strong posture by sitting your hips back, straightening your spine, and placing hands on their hips to create distance. Prevent them from breaking your posture in the first five seconds—the bottom player will try to capitalize on the chaos of the transition to immediately pull you down and attack. Your posture establishment in the first moments of the recovered guard determines whether you face an organized closed guard attack or can begin working toward systematic guard opening from a stable base."

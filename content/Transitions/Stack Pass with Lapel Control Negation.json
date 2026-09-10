@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary mechanical principle that makes the stack pass effective against Ringworm Guard's lapel wrap?",
+        "question": "Why does stacking work against the Ringworm Guard lapel wrap?",
         "answer": "Stacking the opponent folds their body so that the distance between the lapel wrap point on your leg and the opponent's gripping hand shortens dramatically. This shortening creates slack in the lapel configuration because the wrap was taut when the opponent was extended. The compression reduces the wrap's mechanical advantage, making the grip easier to break and the leg easier to extract. Without the stack, the lapel remains taut and nearly impossible to strip against a committed grip.",
         "answer_line": "Stack creates lapel slack",
         "distractors": {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "question": "Your opponent hip escapes during the stack attempt and re-tensions the lapel wrap. How do you adjust?",
+        "question": "They hip escape and re-tension the lapel during your stack: how do you adjust?",
         "answer": "Follow their hip escape by redirecting your driving angle to match their new centerline position. Do not continue driving in the original direction, as this creates a sweeping angle the opponent can exploit. If they have created significant space and the lapel is fully re-tensioned, it is better to disengage from the stack attempt entirely and reset to a standing extraction or switch to a different passing approach like the Long Step Around Ringworm rather than forcing a compromised stack.",
         "answer_line": "Redirect angle, follow hips",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent re-grips the lapel within a second of you stripping it. What are you doing wrong and how do you fix it?",
+        "question": "They re-grip the lapel instantly after you strip it: what's the fix?",
         "answer": "The most common cause is treating the grip strip and leg extraction as two separate actions with a pause between them. They must be drilled as one continuous motion where the leg is already pulling backward the instant the lapel comes free. Additionally, you should stuff the freed lapel tail under the opponent's body or behind their back immediately after stripping to make it physically unreachable. If re-gripping persists, consider controlling their grip-fighting wrist for 1-2 seconds after the strip to buy time for extraction.",
         "answer_line": "Strip and pull leg as one",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "Your opponent frames against your shoulder to prevent the stack from compressing. How do you defeat this frame?",
+        "question": "They frame on your shoulder against the stack: how do you defeat that frame?",
         "answer": "Swim your head underneath their framing arm so that their straight-arm frame collapses into a bent position as your body passes below the contact point. A bent arm cannot generate the same pushing force as a straight arm. Alternatively, use your free hand to control their framing wrist and pin it to their own body before resuming the forward drive. Do not try to power through a locked-out straight-arm frame as this wastes energy and gives the opponent time to set up counters.",
         "answer_line": "Swim head under their frame",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "If the stack pass fails and you cannot strip the lapel, what are your best alternative passing options from this position?",
+        "question": "Your stack fails and the lapel won't strip: what passing options remain?",
         "answer": "The most direct alternatives are the Smash Pass Counter, which uses lateral pressure instead of stacking compression, and the Lapel Grip Break and Posture Recovery, which resets to a neutral passing position. You can also disengage to standing and attempt a Long Step Around Ringworm or Backstep Around Worm Guard. The key is recognizing early when the stack is not achieving sufficient compression and transitioning before exhausting yourself against a failed technique.",
         "answer_line": "Smash pass or reset posture",
         "distractors": {
@@ -384,7 +384,7 @@
         }
       },
       {
-        "question": "How does the stack pass differ when applied against Ringworm Guard versus a standard closed guard stack pass?",
+        "question": "How does stacking Ringworm Guard differ from a standard closed guard stack pass?",
         "answer": "Against Ringworm Guard, the primary objective is creating lapel slack through compression rather than simply folding the opponent for the pass itself. The grip strip and leg extraction add two additional steps that do not exist in a standard stack pass. The driving angle must account for the lapel geometry, and the transition to side control must be faster because the opponent can re-establish the lapel guard if given time. Standard stack passes focus on hip control and shoulder walk; this variant prioritizes lapel neutralization as the core mechanic.",
         "answer_line": "Adds lapel strip and extraction",
         "distractors": {
@@ -398,7 +398,7 @@
         }
       },
       {
-        "question": "Your opponent begins loading for a sweep as you settle into Ringworm Guard top - should you initiate the stack immediately or wait?",
+        "question": "They start loading for a sweep from Ringworm Guard: stack now or wait?",
         "answer": "Initiate the stack as they load. Their sweeping momentum is the ideal trigger because their weight commitment to one side creates a brief window where they cannot hip escape or re-angle effectively. Redirecting their forward energy into the stack uses their own force against them. Waiting allows them to complete the sweep setup and gives them the initiative. The key distinction is reacting to their loading motion, not pre-emptively stacking when they are settled and balanced in a neutral guard configuration.",
         "answer_line": "Initiate the stack immediately",
         "distractors": {
@@ -412,7 +412,7 @@
         }
       },
       {
-        "question": "After extracting your leg from the lapel wrap, what is the single most important action to prevent guard re-composition?",
+        "question": "After freeing your leg from the lapel wrap, what most prevents guard recovery?",
         "answer": "Controlling the opponent's far hip with your near hand is the single most critical action. Without this hip block, the opponent will turn into you and insert a knee shield or recover half guard within seconds, regardless of how cleanly you stripped the lapel. The hip control must be established before or simultaneously with the leg clearing motion, and it must be maintained continuously until you have settled crossface in side control. Every other action during the pass completion is secondary to this hip block.",
         "answer_line": "Control the far hip first",
         "distractors": {
@@ -545,7 +545,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting the stack pass against your Ringworm Guard?",
+        "question": "What is the earliest cue that they're stacking your Ringworm Guard?",
         "answer": "The earliest cue is when the opponent drops their shoulder into your thigh on the trapped-leg side and begins driving their hips forward. This shoulder contact combined with forward hip drive is the hallmark setup for the stack. You may also notice them securing a pants grip at your far knee or hip, which signals they are establishing control for the stacking sequence. The moment you feel your hips beginning to lift off the mat involuntarily, the stack is already progressing and you need to respond immediately.",
         "answer_line": "Shoulder drops, hips drive in",
         "distractors": {
@@ -573,7 +573,7 @@
         }
       },
       {
-        "question": "Your opponent has achieved significant compression and you can feel the lapel losing tension. What is your best defensive option at this point?",
+        "question": "They've compressed you and your lapel tension is fading: what's your best option?",
         "answer": "At this stage, your best option shifts from retention to counter-offense or guard transition. Attempt an immediate sweep using the remaining lapel tension combined with the opponent's forward weight commitment. If a sweep is not available, transition to an inverted guard position or switch your lapel configuration to a different guard variant before the grip is stripped. Pure retention at this compression level is unlikely to succeed because the geometric advantage has shifted to the passer.",
         "answer_line": "Sweep off remaining tension",
         "distractors": {

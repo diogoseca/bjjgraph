@@ -90,7 +90,7 @@ description: "How to execute Gift Wrap in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps both arms tight to their body from mount bottom—how do you create the Gift Wrap entry?",
+      "name": "They keep both arms tight from mount bottom: how do you create the Gift Wrap entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use submission feints to force defensive arm extension. Attack an Ezekiel choke, collar choke, or americana—any threat that forces them to use their arms defensively. As they push on your attacking arm or extend to create frames, immediately abandon the submission attempt and attack the exposed arm for the Gift Wrap entry. Their defensive reaction creates the arm isolation you need."
@@ -106,7 +106,7 @@ description: "How to execute Gift Wrap in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your threading arm is in position but opponent is grip-fighting your wrist control—what adjustment do you make?",
+      "name": "Your threading arm is set but they grip-fight your wrist control in mount: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side—this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens opportunity: if they release your wrist to defend neck, complete the wrap immediately; if they continue grip fighting, attack the neck."

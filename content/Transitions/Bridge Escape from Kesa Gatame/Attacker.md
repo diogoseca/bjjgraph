@@ -98,7 +98,7 @@ description: "Execute the bridge escape from Kesa Gatame to recover half guard. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base after feeling your feet plant—how do you adjust your escape strategy?",
+      "name": "They widen their base as you plant your feet in kesa gatame - how do you adjust your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent widens their base preemptively, the bridge escape becomes significantly less effective because their spread legs can absorb lateral force. Immediately chain to a ghost escape or back take attempt instead, as their widened base opens their back for turning escapes. You can also feint the bridge to draw the base-widening response, then immediately chain to the ghost escape while their attention is directed at defending the bridge direction."

@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent frames their far arm against your hip, blocking perpendicular alignment—what do you do?",
+        "question": "Entering S Mount, they frame their far arm on your hip and block the rotation—what do you do?",
         "answer": "Strip the frame by driving your shoulder into their forearm to collapse it, or pin their wrist to the mat with your free hand before continuing the rotation. If the frame is too strong to strip, consider switching to a Technical Mount transition in the opposite direction, which attacks around the frame rather than through it. Never force perpendicular alignment against a strong frame—it wastes energy and often results in losing position.",
         "answer_line": "Strip the frame or switch mount",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "What is the most critical biomechanical connection that must be maintained throughout the entire transition?",
+        "question": "Which biomechanical connection must be held throughout the 3-4 Mount to S Mount transition?",
         "answer": "The hip-to-shoulder connection—your near hip must remain in constant contact with the opponent's shoulder from the moment you begin rotating until you fully establish S Mount. Any gap between your hip and their shoulder during the transition creates space for the opponent to retract their arm, bridge, or hip escape. This connection is the foundation of both positional control and arm isolation throughout the movement.",
         "answer_line": "Keep hip glued to their shoulder",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "If the opponent successfully defends your S Mount entry and you remain in 3-4 Mount, what is the correct follow-up strategy?",
+        "question": "Your S Mount entry is defended and you stay in 3-4 Mount—what is the correct follow-up?",
         "answer": "Return to consolidating 3-4 Mount pressure and re-establish your offensive threats. Do not immediately reattempt the same transition—the opponent is now anticipating it. Instead, attack a different submission (Americana, Ezekiel, collar choke) to occupy their defensive attention, then look for the next arm exposure opportunity. Patience and threat variation are essential—the best S Mount entries come from chain attacks, not repeated single attempts.",
         "answer_line": "Reset pressure, attack new threat",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "Your opponent has isolated your arm and begins rotating their hips—what immediate action should you take?",
+        "question": "In 3-4 Mount they isolate your arm and start rotating their hips—what is your immediate action?",
         "answer": "Frame your far arm against the attacker's near hip to physically block the perpendicular rotation. Your forearm should create a structural barrier that prevents them from completing the turn. Simultaneously, begin loading a bridge toward the mounted side so you are ready to explode when their posted leg lifts. The frame buys time; the loaded bridge creates the escape opportunity. Do not attempt both simultaneously—frame first, then bridge when the leg moves.",
         "answer_line": "Frame hip, then load a bridge",
         "distractors": {

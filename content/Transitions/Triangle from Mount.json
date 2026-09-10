@@ -256,7 +256,7 @@
         }
       },
       {
-        "question": "Your opponent is defending mount by keeping both elbows glued to their ribs. How do you create the arm isolation needed for the triangle entry?",
+        "question": "They keep both elbows glued to their ribs under mount: how do you isolate an arm for the triangle?",
         "answer": "Attack with Americana or Ezekiel choke setups that force them to move their arms defensively. When they push against your chest to stop the Americana, one arm naturally extends outside while the other remains trapped. Alternatively, use cross-face pressure to force their head to turn, which typically opens one arm for isolation. The triangle entry comes from their defensive reaction to another attack, not from directly trying to separate their arms.",
         "answer_line": "Attack Americana to open arm",
         "distractors": {
@@ -284,7 +284,7 @@
         }
       },
       {
-        "question": "You have locked the triangle from mount but the opponent is not tapping. What is the most likely mechanical error?",
+        "question": "Your mounted triangle is locked but they aren't tapping: what is the likely mechanical error?",
         "answer": "The most likely error is squeezing straight-on without adjusting your hip angle. A triangle locked with hips parallel to the opponent compresses the trachea (an airway choke that is painful but survivable) rather than the carotid arteries (a blood choke that causes unconsciousness). Rotate your hips 30-45 degrees perpendicular to the opponent so your inner thighs compress across both carotid arteries. Also ensure you are pulling the opponent's head down to eliminate defensive space.",
         "answer_line": "Hips squared on, crushing windpipe",
         "distractors": {
@@ -298,7 +298,7 @@
         }
       },
       {
-        "question": "During the leg swing, your opponent bridges hard and you feel your base destabilizing. What should you do?",
+        "question": "They bridge hard during your leg swing and your base is going: what should you do?",
         "answer": "Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to re-anchor. If the bridge is too powerful to maintain position, abandon the triangle attempt immediately and resettle into 3-4 Mount or side control. Forcing a compromised triangle entry against an active bridge is the most common way to lose mount entirely. It is always better to retain mount and restart the setup than to lose position chasing a half-locked triangle.",
         "answer_line": "Post hand, re-anchor knee",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "What are the primary chain attacks available if the opponent successfully defends the triangle lock from mount?",
+        "question": "Which chain attacks open up if they defend the triangle lock from mount?",
         "answer": "If the opponent defends the triangle by posturing or extracting the trapped arm, the three main chain attacks are: (1) armbar on the arm they extended to defend, since reaching up exposes the elbow; (2) back take if they turn away from the triangle side, exposing their back; (3) Americana or wrist lock on the isolated arm if they keep it trapped but prevent the leg from closing. The triangle attempt forces reactions that open these secondary attacks.",
         "answer_line": "Armbar, back take, or Americana",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "How does the direction of force differ between a triangle applied from closed guard versus a triangle applied from mount?",
+        "question": "How does the direction of force differ between a closed guard triangle and a mounted triangle?",
         "answer": "From closed guard, the attacker pulls the opponent's head down into the triangle using hip elevation and hamstring squeeze against gravity—the opponent can use posture and stacking to resist. From mount, gravity works in the attacker's favor: body weight drives the opponent flat while the triangle compresses laterally. The mounted attacker does not need to fight gravity to maintain head control, making the mounted triangle significantly harder to defend through posture alone. The primary defensive options shift from stacking and posture to frame creation and rolling escapes.",
         "answer_line": "Gravity aids attacker in mount",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "What grip should you maintain on the trapped arm during the leg transition, and when can you release it?",
+        "question": "What grip holds the trapped arm during the mounted leg transition, and when can you release it?",
         "answer": "Maintain wrist or sleeve control with your opposite-side hand throughout the leg transition. Pin the wrist to the opponent's chest or to the mat beside their head to prevent them from withdrawing the arm during the transition window. Only release the grip after the triangle is fully locked—ankle hooked behind the opposite knee with knees squeezed together. At that point, the arm is mechanically trapped by the triangle structure and the grip can be redirected to head control for finishing.",
         "answer_line": "Pin wrist until triangle locks",
         "distractors": {
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your swinging leg with both hands to prevent the triangle from locking. How do you exploit this defensive reaction?",
+        "question": "They grab your swinging leg with both hands to stop the mounted triangle: how do you exploit that?",
         "answer": "When the opponent reaches up with both hands to grab your leg, they have removed both arms from their defensive frame against your upper body and exposed both elbows. Immediately switch your attack to an armbar on whichever arm is most extended—typically the far arm that reached highest. The act of reaching for your leg while mounted creates the exact arm extension and postural compromise that makes armbar entries from mount high-percentage. This is a core chain-attack principle: the triangle threat creates armbar openings.",
         "answer_line": "Attack armbar on extended arm",
         "distractors": {
@@ -487,7 +487,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest point at which you can defend the Triangle from Mount, and why is early defense critical?",
+        "question": "When is the earliest point to defend the mounted triangle, and why does early defense matter?",
         "answer": "The earliest and most effective defensive point is during the arm isolation phase, before the attacker establishes the arm-in/arm-out configuration. At this stage, you can prevent the triangle entirely by keeping both elbows tight to your ribs, using two-on-one grip fighting to strip wrist control, and maintaining symmetrical arm positioning. Early defense is critical because each subsequent phase—leg swing, triangle lock, angle adjustment—becomes progressively harder to defend. Once the triangle is fully locked from mount, your escape percentage drops dramatically compared to preventing the setup.",
         "answer_line": "Defend during arm isolation",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "Your opponent has pinned your right wrist to your chest and is beginning to shift weight forward. What should you do immediately?",
+        "question": "They pin your right wrist to your chest and shift weight forward in mount: what do you do at once?",
         "answer": "Immediately use your free left hand to grip your right wrist or the attacker's controlling hand and execute a two-on-one grip break, pulling your right arm free while turning your body slightly toward the right side. Simultaneously tighten both elbows to your ribs to deny the arm-in/arm-out separation. If you cannot break the grip, bridge explosively toward the attacker's posted leg side—the forward weight shift that precedes the leg swing compromises their base. Do not wait for the leg to start moving; the wrist pin plus forward weight shift is the final warning before the triangle attempt commits.",
         "answer_line": "Two-on-one grip break, elbows in",
         "distractors": {
@@ -515,7 +515,7 @@
         }
       },
       {
-        "question": "You are caught in a partially locked mounted triangle with one arm trapped. What are your immediate defensive priorities in order?",
+        "question": "Caught in a partly locked mounted triangle with one arm trapped: what are your priorities in order?",
         "answer": "Priority one: bend your trapped arm aggressively and grip your own collar, wrist, or the attacker's thigh to prevent arm extension into armbar. Priority two: tuck your chin toward your chest and turn your head toward the trapped arm side to reduce the choking angle available to the attacker. Priority three: frame your free arm against the attacker's hip to prevent them from fully settling their weight and consolidating the position. Priority four: begin systematic hip escapes toward the side of the attacker's top leg, working to create enough space to insert your knee and begin guard recovery. These priorities address the three simultaneous threats—triangle choke, armbar, and positional consolidation—in order of immediacy.",
         "answer_line": "Grip trapped arm, tuck chin",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "How should you time a bridge escape attempt when caught under a mounted triangle, and what direction should you bridge?",
+        "question": "When and in which direction should you bridge to escape a mounted triangle?",
         "answer": "Time the bridge when the attacker commits weight to a finishing adjustment—either when they reach to pull your head down for the choke, when they adjust their hip angle for better compression, or when they shift grips between control and finishing positions. These moments redistribute their weight and temporarily reduce their base stability. Bridge at a 45-degree angle toward the side of the attacker's bottom leg (the leg that forms the base of the triangle lock), as this is where their structural support is weakest. A vertical bridge is ineffective against mounted triangle because the attacker's leg configuration naturally absorbs upward force.",
         "answer_line": "Bridge toward the bottom leg",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "Your opponent transitions from mounted triangle to armbar on your trapped arm. How do you adjust your defense mid-transition?",
+        "question": "They switch from mounted triangle to armbar on your trapped arm: how do you adjust mid-transition?",
         "answer": "The armbar transition requires the attacker to pivot their hips and release some triangle compression, creating a brief defensive window. Immediately bend your trapped arm as hard as possible, pulling your elbow toward your hip and gripping your own wrist with your free hand to create a two-on-one defense. As the attacker pivots for the armbar, their hip movement often creates space—use this to turn your body toward them and begin working your elbow toward the mat on their far side. The hip pivot that enables their armbar simultaneously reduces their mount control, making guard recovery through hip escape more viable than when the triangle was fully locked.",
         "answer_line": "Bend arm, two-on-one, turn in",
         "distractors": {

@@ -114,7 +114,7 @@ description: "Learn to execute the stand up from combat base in BJJ. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong collar grip and begins pulling your head down as you initiate the stand up—what do you do?",
+      "name": "Standing up from combat base, they grip your collar and pull your head down. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must break the collar grip before committing to the stand up. A collar grip during the transition allows the opponent to pull you forward and off-balance as your base shifts, leading to guard closure or front headlock positions. Use a two-on-one grip break by grabbing their gripping wrist with both hands and peeling it off with a circular motion toward your chest. Once freed, immediately re-establish your pant grip and resume the stand-up sequence before they can re-grip."

@@ -98,7 +98,7 @@ description: "How to execute 50-50 Entry from Standing in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "What is the correct configuration of your outside leg in the 50-50 position and why is this positioning critical?",
+      "name": "How should your outside leg be configured in 50-50, and why is that placement critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your outside leg should thread inside your opponent's thigh with your shin across their hip and your foot placed on or behind their far hip. This leg acts as a critical frame that prevents your opponent from passing around to your outside. Without this barrier properly positioned, they can easily circle to side control or disengage from the position entirely. This is the primary defensive structure of the position."

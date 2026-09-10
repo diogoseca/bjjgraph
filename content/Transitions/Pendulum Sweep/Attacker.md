@@ -76,7 +76,7 @@ description: "How to execute Pendulum Sweep in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is it important to create a 45-90 degree angle with your hips before executing the pendulum motion?",
+      "name": "For the pendulum sweep, why angle your hips 45-90 degrees before starting the pendulum motion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Creating the proper angle with your hips is essential because it positions your body perpendicular to the opponent's centerline, which maximizes the leverage and rotational force of the sweep. Without this angle, you would be trying to sweep from directly underneath the opponent where they have the strongest base. The angle also allows the pendulum leg to swing in a proper arc that generates maximum momentum. Additionally, this angle makes it mechanically easier to pull the opponent over your body rather than trying to push them straight up, which would require fighting against gravity instead of using it to your advantage."
@@ -84,7 +84,7 @@ description: "How to execute Pendulum Sweep in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What should you do if the opponent pulls their sleeve free just as you're initiating the pendulum motion?",
+      "name": "Pendulum sweep: they rip their sleeve free as you start the pendulum motion. What should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent pulls their sleeve free and posts on the mat, you should immediately abandon the pendulum sweep and attack the posted arm. The best options are to transition to a Kimura grip on the posted arm, which gives you a powerful submission and sweeping opportunity, or to switch to a different sweep that capitalizes on their new position. The key is to maintain your attacking initiative and not simply accept the defensive position. You can also consider transitioning to Triangle Choke if the posting creates the right angle and spacing for that attack."
@@ -100,7 +100,7 @@ description: "How to execute Pendulum Sweep in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between executing a Pendulum Sweep in gi versus no-gi, and how do you adapt the technique?",
+      "name": "How does the pendulum sweep differ between gi and no-gi, and how do you adapt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, you can rely on strong collar and sleeve grips that provide superior control and won't slip even under heavy pressure. In no-gi, you must replace these with body locks, overhooks, or wrist controls that require tighter engagement and more precise timing because they're less secure. The core mechanics of the pendulum motion remain the same, but in no-gi you need to maintain closer contact with the opponent and may need to execute the sweep more explosively since your grips are less reliable. You also need to anticipate that the opponent may be able to pull their arms free more easily, so having immediate follow-up options ready is even more critical in no-gi situations."

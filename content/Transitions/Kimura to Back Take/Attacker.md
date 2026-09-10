@@ -76,7 +76,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What is the primary defensive reaction you are seeking to elicit from the opponent when applying Kimura pressure?",
+      "name": "Kimura to back take: what defensive reaction are you trying to draw with Kimura pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You want the opponent to roll toward their trapped arm to relieve the shoulder pressure of the Kimura lock. This defensive rolling motion naturally exposes their back and creates the pathway for establishing back control. The submission threat creates a predictable defensive response that becomes the entry point for positional advancement. Understanding this action-reaction relationship is fundamental to using submissions as position-advancing tools rather than merely finish attempts."
@@ -84,7 +84,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "In what sequence should hooks be established during the Kimura to back take transition, and why does this order matter?",
+      "name": "Kimura to back take: in what order do you insert the hooks, and why does that order matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom hook must always be established first, followed by the top hook. The bottom hook provides foundational control that prevents the opponent from escaping toward that side and creates a secure base from which to work. It also prevents them from turning back into you. Only after the bottom hook is deep and secure should you insert the top hook. Attempting to establish the top hook first leaves a major escape route open and makes it much easier for the opponent to defend or escape the position."
@@ -92,7 +92,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "How do you prevent losing control during the grip transition from Kimura configuration to seat belt harness?",
+      "name": "Kimura to back take: how do you switch from Kimura grip to seatbelt without losing control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is never releasing the Kimura grip until the replacement control is already partially established. Both hooks must be fully secured first, providing lower body control. Then, slide your top arm across for the seat belt while your bottom Kimura arm remains locked. Only when the seat belt arm is in position and applying pressure do you release the Kimura configuration completely. Think of it as overlapping control systems where you always have at least one form of strong control active."
@@ -100,7 +100,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make if your opponent posts aggressively and prevents the rolling motion necessary for the back take?",
+      "name": "Kimura to back take: they post hard and block the roll—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the Kimura finish harder to break their base, or switch attacks — arm triangle, north-south Kimura, or a direct turtle back take. Threatening the finish more aggressively uses submission pressure to compromise the structural base they are posting on. If that fails, transition to alternative attacks such as the arm triangle or north-south Kimura for different angles, and if they remain turtled, attack the turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks."

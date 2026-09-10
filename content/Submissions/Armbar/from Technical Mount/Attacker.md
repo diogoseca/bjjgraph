@@ -76,7 +76,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Armbar from Technical Mount primarily attack, and what specific forces cause the tap?",
+      "name": "What does the armbar from technical mount attack, and what forces produce the tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armbar targets the elbow joint through controlled hyperextension. The hips drive upward against the posterior aspect of the elbow (the olecranon process of the ulna) while the wrist is anchored to the chest, creating a lever that forces the joint beyond its natural range of extension. The primary structures at risk are the ulnar collateral ligament, the radial collateral ligament, and the annular ligament. Secondary stress affects the shoulder girdle when the defender resists by internally rotating the arm. The breaking mechanism is a first-class lever where the hip fulcrum generates force against a single joint."
@@ -84,7 +84,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that you have reached the breaking point and must control your application speed?",
+      "name": "From technical mount, what indicates the armbar is at the breaking point and you must slow down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's arm reaching near-full extension with visible muscle trembling as they resist, the defender's body beginning to lift off the mat as they follow the pressure, any audible popping or clicking from the elbow joint, sudden loss of resistance indicating potential ligament failure, and the defender's verbal or physical expressions of pain. The elbow reaches its breaking point within 2-3 degrees of full extension under load. As the attacker, you must apply pressure slowly enough to recognize these signs and allow adequate tap time before injury occurs."
@@ -92,7 +92,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent's free hand is pushing against your hip as you prepare to swing over from Technical Mount — what must you address before committing to the armbar entry?",
+      "name": "Their free hand frames your hip before your technical mount swing-over — what must you fix first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before committing to the swing-over, you must neutralize the free hand framing against your hip. Pin their posting hand to their chest with your knee pressure, attack it with a gift wrap by swimming your hand under their framing arm to grab their far shoulder, or trap it under your leg as you adjust position. Additionally, confirm you have continuous two-on-one control of the target arm with wrist and elbow grips secured, the arm fully extended with no ability to bend the elbow, hips positioned close to their shoulder for optimal swing-over angle, and your posted leg tight against the side of their head. Attempting the swing-over while their free hand is actively framing creates high failure probability and risks losing the position entirely."
@@ -100,7 +100,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "You complete the swing-over and begin sitting back, but your opponent is actively resisting — what specific indicators confirm the armbar is now mechanically inescapable?",
+      "name": "After the technical mount swing-over, what indicators confirm the armbar is now inescapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armbar becomes mechanically inescapable when the arm is fully extended across your hips with the thumb pointing toward the ceiling, both your knees are pinched tightly together around the upper arm controlling rotation, your hips are positioned directly beneath the elbow joint as the fulcrum, and your leg over the opponent's head prevents them from sitting up or stacking. Once your hips begin driving upward from this configuration, the mechanical advantage is overwhelming — no amount of bicep strength can overcome the leverage of the entire hip structure against a single joint. Specific indicators include the arm becoming rigid and trembling with resistance, the opponent's body beginning to lift as they follow the pressure, and any further hip elevation forcing the joint past its natural range."
@@ -108,7 +108,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "You have the armbar nearly locked from Technical Mount but your opponent slowly extracts their arm between your thighs — what finishing error allowed this escape?",
+      "name": "They slowly slide the arm out of your technical mount armbar — what finishing error allowed it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary finishing error is allowing the knees to separate during the finishing sequence. When the attacker focuses entirely on hip elevation and wrist pulling without actively maintaining the knee clamp, a gap develops between the thighs that the defender exploits to slide the arm free. This commonly happens when the attacker becomes fixated on generating maximum hip pressure and neglects the containment function of the legs. The correction is to treat the knees as a vise that must remain closed throughout the entire finishing sequence — actively squeeze the knees together while simultaneously elevating hips, and consider pinching the arm with the thighs above the elbow to prevent any sliding movement."
@@ -116,7 +116,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their wrist to change the submission angle during the finish — how should you adjust your grip?",
+      "name": "They rotate the wrist during the technical mount armbar finish — how do you adjust your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent rotates their arm so the thumb points sideways or downward, the hyperextension angle shifts and submission effectiveness drops significantly. Counter by adjusting your hip angle to match their rotation while squeezing knees tighter to restrict further rotation. Pull their wrist firmly to your chest to force the thumb-up orientation back into position. You can also slightly cross your ankles over their torso for additional rotational control. If they fully rotate despite your adjustments, consider transitioning to a belly-down armbar by following their rotation and pinning them prone with the arm controlled behind their body."

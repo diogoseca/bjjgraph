@@ -56,7 +56,7 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest cue that the opponent is setting up the ghost escape to guard rather than a standard hip escape?",
+      "name": "As top player, what earliest cue shows a ghost escape to guard rather than a hip escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent establishing a forearm frame against your hip rather than against your shoulder or neck. Traditional hip escapes use shoulder frames to create space to shrimp toward you, while the ghost escape to guard uses the hip frame to prevent you from following the turn away from you. The frame placement tells you which direction the escape will go."

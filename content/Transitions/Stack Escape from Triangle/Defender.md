@@ -50,7 +50,7 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a stack escape from your triangle?",
+      "name": "What is the earliest cue that they are starting a stack escape from your triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips."
@@ -58,7 +58,7 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the triangle and transition to omoplata instead of continuing to fight the stack?",
+      "name": "When should you leave the triangle for the omoplata instead of fighting the stack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck."
@@ -74,7 +74,7 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established grips on both your hips and is beginning to stand—what is your priority defensive action?",
+      "name": "They grip both your hips and start to stand out of your triangle—what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle."

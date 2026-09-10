@@ -100,7 +100,7 @@ description: "How to execute Turtle to Back Take in BJJ. Attacking perspective c
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail for maintaining control when the opponent attempts to stand up from turtle?",
+      "name": "What is the key detail for keeping control when they try to stand up from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical detail is maintaining your seatbelt grip while shifting your weight to hang below their center of gravity rather than staying on top. As they rise, transition from chest pressure on their back to hanging your bodyweight from the seatbelt below their shoulders. Your hooks or leg positioning should drag on their hips to prevent full extension. This hanging weight position makes it mechanically difficult for them to complete the standup and allows you to drag them back to the mat while maintaining all control points."

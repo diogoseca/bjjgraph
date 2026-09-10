@@ -74,7 +74,7 @@ description: "Execute Counter Entangle from Cross Ashi-Garami bottom. Threading 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical timing cue that signals the right moment to initiate the counter-entangle from Cross Ashi bottom?",
+      "name": "What timing cue signals the moment to start the counter-entangle from Cross Ashi bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary timing cue is feeling the opponent's outside leg cross loosen during a grip adjustment, positional transition, or submission setup change. This loosening creates the physical gap needed to thread your free leg. Secondary cues include the opponent reaching with both hands toward your heel (momentarily reducing leg control focus) or shifting their hips to reposition for a different angle. Initiating against tight control wastes energy and invites the opponent to advance to Honey Hole."
@@ -82,7 +82,7 @@ description: "Execute Counter Entangle from Cross Ashi-Garami bottom. Threading 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins transitioning from Cross Ashi toward Saddle while you are mid-thread—what should you do?",
+      "name": "They start moving from Cross Ashi toward Saddle while you are mid-thread — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you detect the Saddle transition early enough (their far-side leg starting to hook over your hip), retract your threading leg immediately and address the Honey Hole/Saddle entry as the priority threat. Saddle is significantly worse than Cross Ashi for you. If your hook is already deep and close to completing the triangle, commit to finishing the 50-50 lock quickly, as the Saddle transition may actually facilitate your triangle completion by changing the opponent's leg configuration."

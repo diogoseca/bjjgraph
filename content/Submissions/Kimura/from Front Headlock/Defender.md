@@ -58,7 +58,7 @@ description: "Defend against the Kimura from front headlock in BJJ. Recognize gr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that your opponent is transitioning from a choke threat to a Kimura attack from front headlock?",
+      "name": "How do you recognize their front headlock choke threat becoming a Kimura attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling their far-side hand release from your shoulder or head and reach toward your near arm. You may also notice a subtle shift in their chest pressure as they adjust body weight to free a hand. Additionally, if your neck suddenly feels less threatened despite no defensive action on your part, it likely means they have redirected their attack to your arm. Developing sensitivity to these grip changes through drilling allows you to begin your defense before the figure-four is locked."
@@ -74,7 +74,7 @@ description: "Defend against the Kimura from front headlock in BJJ. Recognize gr
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the Kimura figure-four grip is already locked from front headlock?",
+      "name": "The front headlock Kimura figure-four is already locked on you — what defenses remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four is locked, your primary defense is clasping your hands together using a gable grip or grabbing your own thigh to prevent rotation. Simultaneously, turn your body toward the opponent to reduce the effective lever arm on your shoulder. You can also try driving forward and sitting through to reverse position, though this carries risk if timed poorly. If none of these options work and rotation begins, roll toward the Kimura side to temporarily relieve pressure while working to extract the arm. Tap immediately if these layered defenses fail."

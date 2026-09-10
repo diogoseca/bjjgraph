@@ -92,7 +92,7 @@ description: "Learn to execute the North-South Choke from Shoulder of Justice. S
     },
     {
       "@type": "Question",
-      "name": "What makes entering the North-South Choke from Shoulder of Justice different from entering from standard north-south position?",
+      "name": "How does entering the north-south choke from Shoulder of Justice differ from standard north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Shoulder of Justice entry provides three significant advantages. First, the opponent's head is already turned away by sustained jaw pressure, creating a clear path for the threading arm. Second, the near arm is typically trapped or controlled, preventing frame insertion. Third, the opponent's defensive structure is already compromised by the relentless pressure, reducing their reaction time and available defensive options during the grip transition."

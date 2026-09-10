@@ -72,7 +72,7 @@ description: "Defend against standing up from combat base in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "The opponent has successfully stood up and broken all your grips - what is your immediate defensive priority?",
+      "name": "They stood from combat base and broke all your grips. What is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to establish feet-on-hips connection to manage distance and prevent the opponent from controlling your legs for a passing sequence. Bring both feet to their hips or thighs to create a frame that keeps them at arm's length. From this position, work to re-establish collar or sleeve grips while using your feet to control their forward movement. This buys time to transition into an organized distance guard like De La Riva, collar-sleeve, or spider guard rather than being passed from a flat, gripless position."
@@ -80,7 +80,7 @@ description: "Defend against standing up from combat base in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your collar grip is strong but the opponent is powering through the stand-up anyway - should you maintain the grip or abandon it?",
+      "name": "Your collar grip holds but they power up from combat base anyway: keep the grip or let it go?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the grip and use it to transition rather than abandoning it. As the opponent stands, convert the collar grip into a guard pull entry by pulling your hips toward them while inserting a foot on their hip or threading a De La Riva hook. The collar grip becomes the anchor for your new guard establishment rather than purely a pulling tool. Abandoning a strong grip leaves you without connection in a worse position. The grip's value shifts from preventing the stand to facilitating your guard transition."

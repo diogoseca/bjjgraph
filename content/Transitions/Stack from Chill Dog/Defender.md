@@ -56,7 +56,7 @@ description: "Learn to defend the Stack from Chill Dog as the bottom player. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a stack is being initiated rather than standard turtle top pressure?",
+      "name": "Which early cues distinguish a stack from ordinary turtle top pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent walking their feet forward behind you and a progressive shift of weight onto your hands and wrists. Standard turtle top pressure is relatively static, but stacking pressure involves incrementally increasing forward loading that you can feel through your wrist and hand contact with the mat. If your hands start bearing noticeably more weight than your knees, a stack is being built. Recognizing this early gives you the widest window for escape."
@@ -72,7 +72,7 @@ description: "Learn to defend the Stack from Chill Dog as the bottom player. Rec
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's chest pressure increasing on your upper back and your hands are bearing more weight - which escape do you choose and why?",
+      "name": "Chest pressure builds on your upper back and your hands load: which escape and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent's weight is heavily forward, the Granby roll is the highest-percentage escape because their forward commitment provides momentum for your inversion. Their base is weakest backward, so rolling under them exploits the direction they cannot easily recover. However, if you feel space on one side where the opponent's pressure is lighter, a sit-through to that side may be faster and more direct. The choice depends on which direction the opponent's weight is least supported."

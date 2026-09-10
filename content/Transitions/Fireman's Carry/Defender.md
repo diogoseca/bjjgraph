@@ -72,7 +72,7 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent in the clinch suddenly drops level and pulls your right arm across their body - what is your immediate response?",
+      "name": "They drop level and pull your right arm across their body in the clinch — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate response should be a simultaneous two-part action: First, explosively strip or circle your right arm out of their grip by rotating your arm outward and pulling back before they can secure full control. Second, drop your hips and widen your base by bending your knees and stepping your feet apart to eliminate the height differential they need. If the arm strip fails and they maintain control, immediately establish a whizzer with your left arm over their right shoulder while driving your hips backward and down. The critical principle is addressing both the arm control and the level change simultaneously rather than dealing with one at a time."
@@ -88,7 +88,7 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "What defensive option becomes available if the attacker commits deeply to the penetration step and exposes their back?",
+      "name": "If they penetrate deeply on the Fireman's Carry and expose their back, what counter opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker commits deeply to the penetration step and their head drops below your hip level, a hip switch to take their back becomes available. As they drive forward and down, circle your hips toward the side their head is pointing, stepping around behind them. This movement exploits their deep forward commitment, which makes it difficult for them to recover their hips and square back up to you. The counter requires timing your hip switch to coincide with their deepest penetration moment, and you must immediately establish a seatbelt grip or body lock from behind to secure the position before they can stand and reset."

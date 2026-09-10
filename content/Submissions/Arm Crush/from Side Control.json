@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "If you hear popping or grinding sounds from the opponent's shoulder during application, what should you do immediately?",
+        "question": "You hear popping in their shoulder during the Arm Crush — what do you do immediately?",
         "answer": "Release all pressure immediately - both the crushing compression and any rotational torque. These sounds indicate that structural damage is occurring to the shoulder joint, likely involving the rotator cuff, labrum, or joint capsule. Continuing pressure after these sounds can cause severe, potentially career-ending injuries. Stop training, check on your partner verbally, and allow them to assess their shoulder mobility before continuing.",
         "safety_critical": true,
         "answer_line": "Release all pressure immediately",
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "What anatomical structures does the Arm Crush attack and why is this combination particularly effective?",
+        "question": "Which structures does the Arm Crush attack, and why is that combination so effective?",
         "answer": "The Arm Crush primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint capsule, and the labrum. The effectiveness comes from attacking these structures through two vectors simultaneously - vertical compression crushing the joint surfaces together and rotational torque stressing the rotator cuff tendons. This multi-directional stress overwhelms the joint's structural integrity faster than single-vector attacks like a standard Americana.",
         "safety_critical": false,
         "answer_line": "Rotator cuff + labrum, dual vector",
@@ -404,7 +404,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip if the opponent begins to straighten their trapped arm during the Arm Crush?",
+        "question": "How do you adjust your grip if they straighten the trapped arm during the Arm Crush?",
         "answer": "If they straighten their arm, transition your figure-four grip from controlling their elbow to controlling their wrist - this converts the Arm Crush into an Americana. Slide your far hand from under their elbow to their wrist while your near hand maintains the figure-four connection. Once controlling the wrist, rotate their forearm toward their head while keeping chest pressure. Their straightening actually makes the Americana higher percentage than if they'd kept the elbow bent.",
         "safety_critical": false,
         "answer_line": "Slide grip to wrist, Americana",
@@ -589,7 +589,7 @@
         }
       },
       {
-        "question": "Why is tapping immediately the correct response when the Arm Crush is fully locked and pressure is building?",
+        "question": "Why tap immediately once the Arm Crush is locked and pressure is building?",
         "answer": "The Arm Crush combines two injury mechanisms simultaneously - crushing compression and rotational torque on the shoulder. Unlike single-vector submissions where you might have seconds to work an escape, the dual-force application of the Arm Crush can cause rotator cuff tears, labrum damage, or shoulder dislocation within 1-2 seconds of maximum pressure. The shoulder joint has very limited structural tolerance for combined compression and rotation, and the damage threshold arrives much faster than with standard Americanas or Kimuras. Protecting your long-term shoulder health takes absolute priority over any competitive outcome.",
         "safety_critical": true,
         "answer_line": "Damage happens in 1-2 seconds",
@@ -634,7 +634,7 @@
         }
       },
       {
-        "question": "Your training partner applies the Arm Crush too quickly and you feel a sharp pain in your shoulder before you can tap - what should happen next?",
+        "question": "Your partner spikes an Arm Crush and your shoulder hurts sharply — what should happen next?",
         "answer": "Both partners should stop immediately. The injured person should remain still and avoid moving the shoulder through its range of motion until the initial pain subsides. Do not attempt to test the shoulder by rotating it forcefully. Apply ice if available. If pain persists, there is any clicking or grinding sensation, or range of motion is limited, seek medical evaluation before returning to training. The training partner should be reminded that the Arm Crush must always be applied with slow, progressive pressure in training regardless of circumstance. Report the incident to your instructor.",
         "safety_critical": true,
         "answer_line": "Stop, rest it, ice, get it checked",

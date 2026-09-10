@@ -84,7 +84,7 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's foot resistance decrease during the Estima Lock but they have not tapped—what indicators suggest the breaking point is near?",
+      "name": "Their foot resistance drops in your Estima Lock with no tap — what signs mean a break is near?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Decreasing resistance often indicates ligament fatigue or the beginning of partial tearing rather than voluntary relaxation. Key indicators include the foot becoming progressively more compliant to dorsiflexion pressure, subtle popping or crepitus sensations transmitted through your grip, and the opponent's body language shifting from active technical defense to distress signals. At this point, slow application speed dramatically and verbally check with your training partner. In competition, maintain controlled pressure without jerking to allow adequate tap opportunity."
@@ -92,7 +92,7 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     },
     {
       "@type": "Question",
-      "name": "What control elements must be established before transitioning from heel hook threat to Estima Lock grip?",
+      "name": "From Saddle, what must be set before switching from heel hook threat to Estima Lock grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before transitioning, you need a secure Saddle leg entanglement with perpendicular body alignment, active hip pressure preventing opponent rotation, inside position maintained by your leg configuration, and the opponent's heel-hiding defense that exposes the dorsal foot surface. Additionally, clear any frames the opponent has on your hips, as free hands during the grip transition window can allow them to strip your control before the Estima Lock is secured. Continuous ankle control with your non-gripping hand bridges the gap between submissions."
@@ -100,7 +100,7 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     },
     {
       "@type": "Question",
-      "name": "At what point during the Estima Lock execution does escape become nearly impossible for the defender?",
+      "name": "During the Estima Lock from Saddle, when does escape become nearly impossible?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Escape becomes extremely difficult once the foot is fully seated in the armpit with the elbow closed tight against the ribs, locking the foot with zero rotational freedom. Before this point, the defender can still pull the foot free or rotate to relieve pressure. After the armpit trap is sealed, the attacker's entire upper body acts as a unified lever against the foot while the Saddle entanglement prevents the defender from generating the hip movement needed to extract it. The combination of upper body lock and lower body entanglement creates a closed system with no accessible escape vectors."
@@ -108,7 +108,7 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     },
     {
       "@type": "Question",
-      "name": "Your Estima Lock attempts from Saddle keep failing because opponents pull their foot free during the grip transition—what adjustment corrects this?",
+      "name": "They pull the foot free during your Estima grip switch from Saddle — how do you fix this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common cause is releasing too much of the Saddle leg entanglement while reaching for the foot, creating slack that enables extraction. Keep your legs actively engaged in the entanglement throughout the entire transition. Use your non-gripping hand to maintain ankle or shin control first, then slide toward the foot progressively. The grip change should be incremental, maintaining contact with some part of the leg at all times rather than releasing everything to grab the foot in one explosive motion. Treat the transition as a hand walk, not a release and re-grab."
@@ -116,7 +116,7 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their foot inside the armpit trap to reduce dorsiflexion pressure—what grip adjustment prevents this?",
+      "name": "They rotate the foot inside your armpit trap — what grip adjustment stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten the elbow against your ribs to eliminate any rotational space within the armpit trap, engaging your lat and pectoral muscles to compress the gap. Use your free hand to control the opponent's toes or the ball of the foot, preventing them from spinning the foot inside your grip. You can also adjust your body angle slightly to realign dorsiflexion pressure with the opponent's new foot orientation. The priority is maintaining the armpit seal—if the foot can rotate freely inside the trap, finishing pressure dissipates regardless of how much force you apply."

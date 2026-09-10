@@ -50,7 +50,7 @@ description: "How to defend against Estima Lock to Ashi Garami in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary defensive window during the Estima Lock to Ashi Garami transition and why does it exist?",
+      "name": "Defending Estima Lock to ashi garami, where is the main escape window and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary defensive window occurs during the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami. This window exists because the attacker must transition between two distinct control systems—the inverted foot grip and the leg triangle entanglement—and there is a brief period where neither system is fully secured. During this gap, the defender's leg is held only by partial control, making extraction significantly more achievable than from either consolidated position."
@@ -58,7 +58,7 @@ description: "How to defend against Estima Lock to Ashi Garami in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent's inside leg begins threading between your legs—what is the most effective immediate response?",
+      "name": "Estima Lock defense: their inside leg starts threading between your legs. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull your trapped knee aggressively toward your chest while simultaneously using your free leg to push against the attacker's far hip. The knee retraction prevents the inside leg from hooking deep behind your knee, which is the critical connection point for the ashi garami triangle. If you can deny this deep hook, the entire entanglement collapses and you can extract your leg to recover guard. Timing is critical—every second of delay allows the thread to deepen."
@@ -74,7 +74,7 @@ description: "How to defend against Estima Lock to Ashi Garami in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What heel protection positioning should you maintain if the attacker successfully establishes ashi garami despite your defense?",
+      "name": "If they establish ashi garami anyway, how should you position your foot to protect the heel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If ashi garami is established, immediately turn your foot inward with toes pointed toward your own body to hide the heel from exposure. Keep your knee bent rather than extended to limit the attacker's rotational leverage. Use your free leg to push on the attacker's controlling legs and begin systematic leg extraction by addressing their inside hook first. Hiding the heel buys critical time to work escape sequences without facing immediate submission threat."

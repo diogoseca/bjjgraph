@@ -72,7 +72,7 @@ description: "Complete defensive guide against sweeps from Standing Guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already hooked behind both ankles and begun the sickle sweep motion. What is your emergency response?",
+      "name": "They hooked both your ankles and started the sickle sweep—what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sweep is already in motion and your ankles are trapped, immediately post your hand on the mat on the side you are falling toward to prevent completing the fall. Use the posted hand to stabilize while extracting one foot from the hook with a circular stepping motion. If the post is successful, use the momentary stability to either pull your feet free and re-establish base or transition into a forward drive to stack the opponent and initiate a pass from the compromised position. The post buys critical time but is not a permanent solution, so you must act quickly to either recover standing base or convert to a passing opportunity."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against sweeps from Standing Guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "How should your grip strategy change when you recognize the opponent is primarily hunting for sweeps rather than playing retention guard?",
+      "name": "Passing standing guard, you see they are hunting sweeps—how should your grip strategy change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a sweep-hunting opponent, prioritize controlling their legs and hips with downward pressure rather than seeking upper body grips for passing. Grab their pants at the thighs or control their shins with cupping grips to prevent them from placing feet on your hips effectively. Keep your hands low rather than reaching for collar grips, as high hands leave your lower body unprotected. Additionally, increase your base width and slow your passing pace, forcing the sweep hunter to create their own opportunities rather than capitalizing on your aggressive passing movement."

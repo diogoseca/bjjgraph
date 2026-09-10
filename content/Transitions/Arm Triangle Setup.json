@@ -255,7 +255,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their near-side elbow tight against their body—how do you create the opening for the arm triangle?",
+        "question": "From north-south, they tuck the near elbow tight; how do you open the arm triangle?",
         "answer": "Use your knee or hip to bump their elbow outward, creating separation between the arm and their torso. Alternatively, threaten a kimura attack on the same arm, which forces them to straighten or extend it defensively. Once the arm moves away from their body, immediately secure the underhook and drive it across their centerline before they can retract it.",
         "answer_line": "Bump elbow out or threaten kimura",
         "distractors": {
@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "What is the most critical hip movement during the transition from North-South to the arm triangle finishing position?",
+        "question": "What is the key hip movement transitioning from north-south into the arm triangle finish?",
         "answer": "The hip walk must be performed in small, incremental steps while maintaining constant chest contact with the opponent. Walking the hips too quickly or jumping to side control creates a gap between your torso and theirs, allowing guard recovery or arm extraction. Each step should transfer weight progressively to the choking-side shoulder while keeping the hips low and sprawled.",
         "answer_line": "Small steps, keep chest contact",
         "distractors": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "Why does the arm triangle finish require a side control angle rather than the perpendicular North-South angle?",
+        "question": "Why does the arm triangle finish need a side control angle instead of north-south?",
         "answer": "The side control angle positions your shoulder directly into the opponent's jaw and neck, creating the downward compression needed for the choke. In North-South, the angle of pressure is across the chest rather than into the neck, which pins but does not create bilateral carotid compression. The side angle also allows you to drop your ear to the mat and use your body weight as the primary squeezing force through the shoulder.",
         "answer_line": "Shoulder drives into jaw for choke",
         "distractors": {
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "How does the Arm Triangle Setup integrate with other North-South attacks to create a submission chain?",
+        "question": "How does the north-south arm triangle setup chain with the kimura and north-south choke?",
         "answer": "The arm triangle setup creates a forcing function when combined with the kimura and North-South choke. If the opponent defends the kimura by straightening their arm, it opens the arm triangle. If they tuck their arm to prevent the arm triangle, the North-South choke becomes available as the neck is exposed. Defending the North-South choke by turning creates the arm isolation needed for the arm triangle. Each defense opens a different attack, creating a dilemma-based submission chain.",
         "answer_line": "Each defense opens a new attack",
         "distractors": {
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "What specific chest pressure angle is required during the arm thread to avoid creating exploitable space?",
+        "question": "During the arm thread from north-south, what chest angle prevents giving up space?",
         "answer": "Your chest must remain angled slightly toward the arm-threading side rather than centered directly over the opponent's sternum. This diagonal pressure pins their near-side shoulder to the mat while your weight shifts naturally in the direction of the thread. If you center your weight or angle away from the threading side, you create a gap on the near side that the opponent exploits with a bridge or frame. The pressure vector should follow the path of the arm thread itself.",
         "answer_line": "Angle chest toward threading side",
         "distractors": {
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "The arm triangle setup stalls because the opponent defends every entry from North-South—what chain attack sequence do you use?",
+        "question": "They defend every arm triangle entry from north-south; what chain of attacks do you use?",
         "answer": "Threaten the North-South choke first by controlling the far arm and sliding your near arm toward their neck. When they defend the choke by turning their head and bringing their arms up, switch immediately to the kimura on the exposed near-side arm. As they defend the kimura by straightening and retracting the arm toward their body, use that arm retraction momentum to drive the arm across their neck and enter the arm triangle setup. The key is never pausing between threats—each failed attack should flow directly into the next without resettling into static North-South control.",
         "answer_line": "Chain: NS choke, kimura, triangle",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Why is it critical to avoid turning away from the attacker when you feel the arm triangle developing?",
+        "question": "Caught in a developing arm triangle from north-south, why must you not turn away from the attacker?",
         "answer": "Turning away from the attacker rotates your trapped arm deeper into your own neck, increasing the compression on your carotid artery. It also assists the attacker's hip walk by moving in the same direction they need to transition to side control. The instinct to turn away feels like escape but mechanically accelerates the choke. Instead, bridge and turn toward the attacker to create space on the near side and disrupt the arm-across-neck configuration.",
         "answer_line": "Turn toward attacker, not away",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "Your arm is already across your neck and the attacker is locking the grip—what is your highest-percentage defensive option?",
+        "question": "Your arm is across your neck and they are locking the grip; what is your best defense?",
         "answer": "At this late stage, your best option is inserting your near-side knee between your bodies during the hip walk phase to recover half guard. The half guard hook prevents the attacker from achieving the side control angle needed for maximum compression and creates enough positional disruption to work toward arm extraction. Fighting the grip directly at this stage has a very low success rate because the attacker has mechanical advantage through their locked hands and chest pressure.",
         "answer_line": "Insert knee, recover half guard",
         "distractors": {
@@ -569,7 +569,7 @@
         }
       },
       {
-        "question": "During which phase of the arm triangle setup is the attacker's base most vulnerable to a defensive bridge?",
+        "question": "During which phase of the north-south arm triangle setup is the attacker's base weakest to a bridge?",
         "answer": "The attacker's base is most vulnerable during the hip walk phase when they are transitioning from perpendicular North-South alignment toward a lateral side control angle. During this movement their weight distribution shifts progressively to one side, their knees are in motion rather than planted, and they cannot post effectively because both hands are committed to the grip. A well-timed bridge during mid-walk catches them between positions where they have neither North-South stability nor side control stability.",
         "answer_line": "Mid hip-walk, weight shifting",
         "distractors": {

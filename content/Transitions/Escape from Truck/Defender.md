@@ -64,7 +64,7 @@ description: "Prevent Escape from Truck attempts as the defender. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your control when you feel the bottom player beginning to fight your boot on their hip?",
+      "name": "Truck top: the bottom player starts fighting your boot on their hip. How do you adjust control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase boot pressure by driving your foot deeper into their hip and adding forward chest pressure to flatten them and restrict their hand fighting range. If they continue fighting the boot despite increased pressure, consider immediately transitioning to a submission attack like the calf slicer or twister to punish the hand fighting, or begin transitioning to back control to capitalize on their defensive focus."
@@ -80,7 +80,7 @@ description: "Prevent Escape from Truck attempts as the defender. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped leg from the entanglement - what should you prioritize?",
+      "name": "Truck top: they begin extracting the trapped leg. What should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize maintaining the leg entanglement by squeezing your controlling leg tighter and adjusting your hook position to close the space they created. If extraction seems inevitable, immediately transition to a calf slicer attack using their partially extended leg as leverage, or abandon leg control entirely and transition to back control by establishing hooks and seatbelt grip before they achieve full guard recovery."

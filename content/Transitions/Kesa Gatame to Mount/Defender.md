@@ -56,7 +56,7 @@ description: "Learn to defend and counter the Kesa Gatame to Mount transition in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing to transition from scarf hold to mount?",
+      "name": "What are the earliest cues that they are going from scarf hold to mount on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues include your opponent releasing or loosening their head control grip, their near-side hand walking down toward your hip or belt area, forward weight shift through their hips, and reduced arm pressure on your trapped arm. You may also feel their chest pressure redistribute as they begin rotating their body to align for the step-over. Any combination of these signals indicates an imminent mount transition attempt."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter the Kesa Gatame to Mount transition in
     },
     {
       "@type": "Question",
-      "name": "Why is the bridge counter most effective at the exact moment your opponent lifts their leg for the step-over?",
+      "name": "Why is bridging most effective exactly when they lift their leg for the Kesa-to-mount step-over?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the step-over, your opponent has only one leg posted on the mat, dramatically reducing their base stability in the direction of the stepping leg. Their weight is momentarily committed to the transition and they have released head control. This creates a narrow but high-percentage window where a well-timed bridge toward their stepping side encounters minimal resistance because they cannot post with the airborne leg and their grips have been modified for the transition rather than base retention."
@@ -80,7 +80,7 @@ description: "Learn to defend and counter the Kesa Gatame to Mount transition in
     },
     {
       "@type": "Question",
-      "name": "Your opponent pins your far hip while threatening an americana—how do you defend both threats simultaneously?",
+      "name": "They pin your far hip from Kesa Gatame while threatening an americana — how do you defend both?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the americana defense first by straightening your trapped arm and anchoring your hand to your thigh or belt. Then use your free arm to frame against their shoulder rather than their hip grip, creating space to turn toward them. The hip pin prevents shrimping but does not prevent bridging, so use short explosive bridges to disrupt their balance while maintaining the americana defense. The goal is to force them to choose between completing the submission and completing the mount transition."

@@ -56,7 +56,7 @@ description: "Defend against Counter Roll from Matrix attempts. Learn recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What distinguishes a counter roll attempt from a completely failed Matrix where the bottom player simply accepts turtle position?",
+      "name": "How do you tell a counter roll attempt from a failed Matrix where they just take turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A counter roll is identified by the bottom player's legs actively changing trajectory from a back-seeking arc to a downward path targeting your legs, combined with maintained or redirected momentum. A fully failed Matrix shows the bottom player's momentum dying completely with no redirectional movement, and they settle into turtle with flat hips and retracted legs. The counter roll maintains continuous motion and active leg pursuit while the failed Matrix shows a clear stop in all movement."
@@ -72,7 +72,7 @@ description: "Defend against Counter Roll from Matrix attempts. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent's legs are beginning to wrap around your thigh mid-counter roll—what is your immediate response?",
+      "name": "Their legs start wrapping your thigh mid-counter roll — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep the targeted leg away from the wrapping attempt while driving crossface pressure with your upper body to prevent the bottom player from following your leg. If the legs have partially engaged, hip switch explosively to extract your leg before the entanglement tightens and locks around your thigh. Time is critical—once both of the opponent's legs close around your thigh with full clamping pressure, extraction becomes significantly more difficult and you are committed to a half guard passing situation."
@@ -80,7 +80,7 @@ description: "Defend against Counter Roll from Matrix attempts. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your positioning when facing an opponent known for counter roll proficiency from the Matrix?",
+      "name": "How do you adjust against an opponent skilled at the counter roll from Matrix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a wider base with legs positioned further from the opponent's reach throughout the entire Matrix defense exchange. Position your near leg slightly further back than standard positioning to increase the distance the opponent's legs must travel during their redirect. Keep constant mobility in your legs rather than planting them statically, and immediately transition to offensive passing after blocking the Matrix to deny the timing window needed for the counter roll setup and execution."

@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together to prevent arm extension once you are belly down - how do you break this grip?",
+        "question": "They clasp their hands once you are belly down from mounted triangle — how do you break it?",
         "answer": "Wedge your forearm between their interlocked hands while maintaining constant hip pressure on the elbow. Push your forearm through the gap and peel their hands apart. Alternatively, apply slow progressive pressure through the locked grip by lifting your hips while controlling the wrist. The sustained pressure on the elbow typically forces grip separation within several seconds as the defender must release to tap before the joint is compromised.",
         "safety_critical": false,
         "answer_line": "Wedge forearm in, drive hip down",
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "What makes the mounted triangle variant superior to other belly down armbar setups in terms of arm control?",
+        "question": "Why does the mounted triangle give better arm control than other belly down armbar setups?",
         "answer": "The mounted triangle locks the defender's upper arm between the attacker's legs throughout the rotation, preventing the most common belly down armbar defense of retracting the elbow. In standard belly down armbars from mount or side control, there is typically a gap in upper arm control during the rotation where the defender can pull the arm free. The triangle leg configuration eliminates this gap by maintaining continuous compression on the shoulder and upper arm throughout the entire transition.",
         "safety_critical": false,
         "answer_line": "No gap in upper arm control",
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Your opponent begins bridging explosively as you initiate the rotation - what adjustment prevents losing position?",
+        "question": "Your opponent bridges hard as you start the belly down armbar rotation—how do you adjust?",
         "answer": "Post your free hand on the mat on the side you are rotating toward to create a base that absorbs the bridge momentum. Keep your knees clamped tight on the upper arm so the bridge does not separate you from the arm. If the bridge is powerful enough to compromise the rotation, abort immediately and re-establish mounted triangle rather than forcing a sloppy transition that loses both the submission and the position.",
         "safety_critical": false,
         "answer_line": "Post hand, clamp knees, or abort",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "What tap signals must you monitor during the belly down armbar finish and what is the correct release sequence?",
+        "question": "Which tap signals must you watch for in the belly down armbar, and in what order do you release?",
         "answer": "Monitor for verbal taps, physical hand taps on your body or the mat, foot taps on the mat, and any distress vocalizations including screaming or grunting. Upon recognizing any tap signal, immediately lower the wrist to release extension pressure first, then release knee squeeze on the upper arm, then disengage completely. Never wait for a second tap or confirmation. If uncertain whether a signal occurred, release immediately as the position can always be re-established.",
         "safety_critical": true,
         "answer_line": "Any tap: drop wrist, then knees",
@@ -495,7 +495,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a belly down armbar transition is being initiated from mounted triangle?",
+        "question": "What is the earliest cue that a belly down armbar is starting from mounted triangle?",
         "answer": "The earliest cue is when the attacker shifts from controlling your head or posture to gripping your wrist with both hands while maintaining the mounted triangle. This two-handed wrist control is the essential prerequisite for the belly down transition and should trigger immediate defensive action before any rotation begins.",
         "safety_critical": false,
         "answer_line": "Both hands grip your wrist",
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "Why is it critical to tap early once the attacker reaches full belly-down position with proper hip placement?",
+        "question": "Why tap early once the attacker is fully belly down with hips set on your elbow?",
         "answer": "The belly-down position creates enormous mechanical advantage over the elbow joint. The attacker's full body weight drives through the hips into the elbow while the wrist is lifted, generating hyperextension force that can damage the ulnar collateral ligament and joint capsule faster than most practitioners can process the pain and signal a tap. Resisting once the position is fully established risks serious and potentially permanent elbow injury.",
         "safety_critical": true,
         "answer_line": "Injury outruns your reaction time",
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "What defensive options are available during the rotation phase before the attacker reaches belly-down position?",
+        "question": "What defenses remain during the rotation, before the attacker reaches belly down?",
         "answer": "Three primary options exist during rotation: first, aggressively retract the elbow by bending the arm and pulling it tight to the ribcage; second, bridge explosively into the direction of the rotation to disrupt the attacker's base and prevent completion; third, turn your body into the attacker and follow their rotational momentum to prevent them from reaching prone position and scramble to recover guard. All three become ineffective once belly-down is established.",
         "safety_critical": false,
         "answer_line": "Retract elbow, bridge, or turn in",

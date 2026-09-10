@@ -64,7 +64,7 @@ description: "How to defend against Buggy Choke to Side Control in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their collar grip and you feel their arm moving toward your jaw for a crossface—what should your immediate response be?",
+      "name": "They drop the collar grip and reach for a crossface on your jaw: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately frame against their incoming shoulder with your near-side forearm to prevent the crossface from establishing deep. Simultaneously drive your inside knee across their hip line to insert a knee shield before they can settle perpendicular. The crossface is the primary mechanism that prevents guard recovery from side control, so blocking it early is critical. If you allow the crossface to establish, your ability to turn and face the opponent drops dramatically."
@@ -88,7 +88,7 @@ description: "How to defend against Buggy Choke to Side Control in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the underhook on your far hip but hasn't completed the crossface yet—what is your best defensive option?",
+      "name": "They have the far-hip underhook but no crossface yet: what is your best defensive option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame aggressively against their crossface shoulder to prevent it from driving past your chin while simultaneously working to insert your near-side knee across their hip line for knee shield half guard. With the underhook established, full turtle recovery is unlikely, so your goal shifts to minimizing positional damage by recovering half guard rather than remaining in turtle. The knee shield insertion combined with crossface prevention gives you the best defensive structure to work from once they settle into their passing position."

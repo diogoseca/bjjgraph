@@ -76,7 +76,7 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the inside heel hook primarily attack and why is this submission uniquely dangerous?",
+      "name": "What does the inside heel hook attack, and why is it uniquely dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside heel hook targets the medial collateral ligament (MCL), anterior cruciate ligament (ACL), and meniscus of the knee joint through rotational force transmitted via the heel. The submission is uniquely dangerous because these knee structures have extremely poor proprioceptive feedback for rotational stress—the defender literally cannot feel the submission tightening progressively the way they can with an armbar or choke. Multiple ligaments can fail simultaneously in under one second once the breaking threshold is reached, often requiring surgical reconstruction and 9-12 months of recovery."
@@ -84,7 +84,7 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the breaking point is approaching during application of the inside heel hook?",
+      "name": "What signs show the breaking point is near while applying an inside heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicators are: the heel begins rotating past its natural range of motion relative to the knee axis, connective tissue tension increases dramatically through your grip creating a sense of structural resistance, and the opponent's body begins involuntarily twisting to follow the rotation direction. Critically, the defender may NOT perceive these indicators clearly due to the knee's poor rotational proprioception. The attacker bears primary responsibility for controlled application—you must apply slowly and watch for ANY tap signal because your partner may not feel the danger until damage has already begun."
@@ -92,7 +92,7 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What four control elements must be established before attempting the heel hook finish and why is the sequence important?",
+      "name": "What four controls precede the heel hook finish from Honey Hole, and why is order critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The four elements in order are: (1) secure inside leg triangle with proper figure-four around opponent's thigh, (2) establish hip-to-hip connection with perpendicular body alignment, (3) control the knee line to prevent defensive rotation past the barrier, and (4) clear opponent's defensive grips and frames. The sequence matters because each element builds on the previous one—without the triangle, hip pressure is unstable; without hip pressure, knee line control is ineffective; without knee line control, grip clearing exposes you to counter-entanglement. Skipping any element dramatically reduces finish probability and increases escape risk."
@@ -116,7 +116,7 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent's heel is sweaty and slipping during the finishing sequence?",
+      "name": "How do you adjust your grip when their heel is sweaty and slipping during the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In sweaty conditions, shift from cupping the smooth heel bone to gripping the Achilles tendon directly with a C-grip, hooking your fingers around the tendon itself which provides more texture and friction. Alternatively, use a palm-to-palm Gable grip around the ankle and heel for maximum surface contact. The key is maintaining wrist blade contact with the Achilles as the primary control point while using your armpit as a backstop to prevent the foot from sliding out. Wiping your hands on your shorts between grip attempts also helps, but never sacrifice positional control to dry your hands."

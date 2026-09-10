@@ -76,7 +76,7 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific anatomical structures does the Inside Sankaku heel hook attack and why is this submission considered so dangerous?",
+      "name": "What does the inside heel hook from Inside Sankaku attack, and why is it so dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside heel hook primarily attacks the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) of the knee through rotational force applied via the heel. It also threatens the meniscus through combined rotational compression. This submission is exceptionally dangerous because these ligaments provide virtually no pain feedback before catastrophic failure - unlike joint locks that produce progressive pain, the knee can transition from feeling minimal pressure to suffering a complete ligament tear in less than one second."
@@ -84,7 +84,7 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
     },
     {
       "@type": "Question",
-      "name": "Your opponent is actively hiding their heel against their hip - what indicators tell you the heel is about to become exposed?",
+      "name": "They are hiding their heel against their hip: what signs show it is about to open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the opponent's hip flexor fatiguing, indicated by their knee starting to drift away from their body and small involuntary straightening movements in the trapped leg. Their grip on their own ankle will weaken as forearm muscles fatigue, visible as finger repositioning or loosening. When they shift their free leg to push off or attempt an escape, the torso rotation often temporarily opens the heel. Steady hip pressure accelerates all these indicators by increasing the energy cost of maintaining the hidden position."
@@ -100,7 +100,7 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
     },
     {
       "@type": "Question",
-      "name": "At what point during the finishing sequence does the opponent pass the point of no escape where tapping becomes their only option?",
+      "name": "From Inside Sankaku, at what point can your opponent only tap safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when you have secured the two-on-one grip with your wrist blade against the Achilles tendon, the foot is trapped in your armpit, and you have begun rotational pressure. Once the rotational force is being transmitted through the heel to the knee ligaments, the opponent cannot safely extract their leg without risking ligament damage from the movement itself. Before this point, they can still fight grips, hide the heel, or clear the knee line. After it, their only safe option is to tap immediately."
@@ -108,7 +108,7 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
     },
     {
       "@type": "Question",
-      "name": "You have established the blade grip but your opponent is actively pulling your hands away with a two-on-one defense - how do you adjust your grip strategy?",
+      "name": "You have the blade grip but they pull your hands off two-on-one: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip their defensive grips one hand at a time using your free hand while maintaining wrist blade contact with the Achilles. If their two-on-one is too strong to strip directly, transition to the belly-down finish position by rolling away from them while maintaining your heel grip - the belly-down position makes their two-on-one grip fighting mechanically disadvantaged because they must fight against gravity. Alternatively, use the false grip approach on their toes first to strip their heel-hiding posture, then transition to the true heel grip once their defense is disrupted."
@@ -116,7 +116,7 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that leads to failed submissions from Inside Sankaku and how do you correct it?",
+      "name": "What is the most common Inside Sankaku finishing error, and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is using arm strength to generate rotational force rather than engaging the entire torso and hips. Athletes who arm-crank the heel hook fatigue quickly, generate insufficient force against a defending opponent, and create openings for grip stripping because their arms are working independently rather than as part of a unified structural frame. The correction is to keep elbows pinched tightly against the ribs, secure the foot in the armpit, and rotate the entire torso as one unit. The arms become structural connectors while the core and hips provide the rotational power."

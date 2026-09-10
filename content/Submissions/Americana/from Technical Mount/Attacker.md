@@ -76,7 +76,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the Americana from Technical Mount primarily attack, and what type of force creates the tap?",
+      "name": "What does the Americana from technical mount attack, and what force produces the tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Americana primarily attacks the glenohumeral (shoulder) joint by forcing external rotation and abduction beyond the joint's natural range of motion. The figure-four grip creates a lever system that torques the rotator cuff complex—specifically the supraspinatus, infraspinatus, and teres minor—while the pinned wrist serves as the fixed fulcrum. Secondary stress affects the shoulder capsule and AC joint. The tap results from progressive rotational pressure on these structures, not compression or choking force."
@@ -84,7 +84,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What physical indicators tell you the shoulder joint is approaching its breaking point during the Americana application?",
+      "name": "What signs show the shoulder is nearing its limit during the Americana?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's body stiffens noticeably as the rotation approaches end range. Their far shoulder lifts off the mat as the body attempts to follow the rotation to reduce stress. You feel increasing resistance in the figure-four as the joint reaches its structural limit. The opponent may vocalize distress, grimace, or their breathing becomes rapid and shallow. Any of these signals indicate you are near the breaking point and must control speed carefully, allowing ample time for the tap before injury occurs."
@@ -100,7 +100,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
     },
     {
       "@type": "Question",
-      "name": "At what point during the Americana from Technical Mount does the submission become effectively inescapable for the defender?",
+      "name": "When does the Americana from technical mount become effectively inescapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four is fully tightened with elbows squeezed to centerline and the paint-brush rotation has moved the elbow past approximately 45 degrees toward the head, the mechanical advantage overwhelms most defensive strength. The combination of pinned wrist, locked figure-four, and hip weight creates a lever system that the defender cannot overcome with muscular effort. Before this point, the defender can potentially break the wrist pin, fight the grip, or bridge to create space. After it, the only option is to tap."
@@ -108,7 +108,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that allows opponents to escape the Americana from Technical Mount?",
+      "name": "What finishing error most often lets opponents escape the Americana from technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lifting the hips off the opponent's shoulder to generate rotational force. When the attacker raises their body, they remove the gravitational pressure that keeps the wrist pinned to the mat and the shoulder immobilized. This creates immediate space for the opponent to bridge, rotate their shoulder off the mat, or retract the arm. The correction is to keep hips heavy on the opponent's shoulder throughout and generate all rotational force through forearm leverage and elbow mechanics within the figure-four structure."
@@ -116,7 +116,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent begins rotating their wrist during the Americana application to create slack?",
+      "name": "How do you adjust when they rotate their wrist to create slack in your Americana?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the wrist rotation with your gripping hand, maintaining thumb positioning around the wrist bone. Do not fight the rotation directly—instead, tighten the figure-four by squeezing elbows inward to eliminate the slack their rotation creates. If they supinate the hand (palm up), adjust your wrist grip to maintain control of the forearm rotation. Simultaneously increase hip pressure on their shoulder to reduce the space available for wrist manipulation. A tighter figure-four compensates for minor wrist adjustments."

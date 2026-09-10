@@ -72,7 +72,7 @@ description: "How to defend against Stack Pass in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has you fully stacked with your knees near your ears - what is your best remaining defensive option?",
+      "name": "You're fully stacked with knees near your ears: what's your best remaining option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At full stack depth, your best option is a dynamic escape through Granby roll or inversion rather than fighting the pressure statically. Turn to one side and use the momentum of your elevated hips to roll through, aiming to recover guard on the opposite side or transition to turtle. You can also attempt to walk your shoulders backward on the mat to gradually reduce the stack angle. Threatening a guillotine or triangle during the roll can slow the passer's follow-through and create the space needed to complete the inversion."

@@ -72,7 +72,7 @@ description: "Learn to defend the Leg Hook to Side Control pass from bottom. Mas
     },
     {
       "@type": "Question",
-      "name": "Your knee shield insertion attempt is blocked and the top player's leg is clearing - what is your fallback?",
+      "name": "Your knee shield fails and their leg is clearing from leg hook — what is your fallback?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to survival frames for side control: near-side forearm frame against the top player's neck or shoulder, far-side arm protecting against crossface deepening, inside elbow tight to your body to prevent arm isolation. The goal shifts from preventing the pass to establishing the best possible defensive structure within side control so that escape sequences can begin immediately. A well-framed side control bottom is recoverable; a pinned flat side control bottom is not."

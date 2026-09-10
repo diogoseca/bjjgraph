@@ -70,7 +70,7 @@ description: "How to defend against the Armbar from Back Transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your attacker secures your wrist and begins swinging their leg over your shoulder - what is your best defensive option at this point?",
+      "name": "Defending back control: they grab your wrist and swing a leg over your shoulder — best option now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, your best option is to turn explosively into the attacker while the leg swing creates structural instability in their back control. The act of swinging the leg requires them to shift their weight and momentarily reduce chest-to-back pressure. Rotate your shoulders toward them aggressively to disrupt the perpendicular angle they need. If the turn fails, immediately drop to turtle to change the transition dynamics."
@@ -94,7 +94,7 @@ description: "How to defend against the Armbar from Back Transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending this standing armbar transition versus a grounded armbar from back control?",
+      "name": "How does defending a standing armbar from the back differ from defending a grounded one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standing transition provides a unique defensive advantage: the attacker must manage balance and momentum during a standing-to-ground movement, which creates structural instability you can exploit. In the grounded version, the attacker has a stable base throughout. Use the standing instability by timing defensive turns or drops to the exact moment the attacker commits to the rotation, when their control is weakest. However, the standing version also carries higher injury risk due to the momentum of the descent."

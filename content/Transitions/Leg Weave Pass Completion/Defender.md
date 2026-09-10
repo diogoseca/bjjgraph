@@ -72,7 +72,7 @@ description: "Master defending against the Leg Weave Pass Completion in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your frames are being stripped and the passer's hips are already halfway through the passing lane - what is your last resort defensive option?",
+      "name": "Frames stripped and their hips halfway through: what's your last-resort leg weave defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the pass is nearly complete, your best option is to immediately turn into the passer and establish an underhook while driving your hips underneath theirs. Even if this does not fully prevent the pass, it can disrupt the consolidation enough to create a scramble or establish a frame-based defensive position before full side control is achieved. The alternative of accepting flat side control passively is always worse than an imperfect but committed defensive movement at this stage."

@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "Your opponent has seatbelt control and is driving forward - should you attempt Peterson Roll or a different escape?",
+        "question": "They have seatbelt control and drive forward on your turtle: Peterson roll or another escape?",
         "answer": "With seatbelt control established, the Peterson Roll becomes riskier because opponent can follow the roll and end up in back mount. Better options include hand fighting to break the seatbelt grip first, or executing a sit-through to the choking arm side. Only attempt Peterson Roll against seatbelt control if you can isolate and trap their arm during the capture phase, converting their control grip into your reversal grip.",
         "answer_line": "Break seatbelt or sit-through",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "You attempt the Peterson Roll but get stuck halfway through the rotation - what went wrong and how do you recover?",
+        "question": "Your Peterson roll stalls halfway through the rotation: what went wrong and how do you recover?",
         "answer": "Getting stuck mid-roll typically results from insufficient explosive commitment, attempting without adequate forward pressure from the opponent, or losing wrist control during rotation. To recover, do not try to complete the stalled roll. Instead, immediately abandon the attempt and use the inverted position to either granby roll the rest of the way through to guard recovery, or post and scramble back to turtle. Staying stuck mid-roll exposes your back and neck to attacks.",
         "answer_line": "Abandon roll, granby or scramble",
         "distractors": {

@@ -84,7 +84,7 @@ description: "Learn to finish the High Elbow Guillotine from Front Headlock with
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively to defend—how does the high elbow position address this compared to a standard guillotine?",
+      "name": "They tuck their chin hard — how does the high elbow answer this, unlike a standard guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elevated elbow attacks from above the chin tuck rather than against it. In a standard guillotine, the forearm must push through the chin to reach the neck, which the chin tuck effectively blocks. With the high elbow, the forearm blade is already positioned above the jawline, so the choking pressure comes from a steep downward angle that bypasses the chin entirely. The Hindulotine hip angle further assists by creating rotational torque that works around the tuck."
@@ -116,7 +116,7 @@ description: "Learn to finish the High Elbow Guillotine from Front Headlock with
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up during the elbow elevation transition—what adjustment prevents escape?",
+      "name": "They posture up during your elbow elevation — what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten your legs immediately to pull their hips back toward you, breaking their posture base. Simultaneously, accelerate the elbow elevation because the high elbow position actually becomes tighter as the opponent extends upward—their posture attempt drives their neck into the elevated forearm blade. Pull your elbow toward your opposite hip while your legs pull their hips forward, creating opposing forces that prevent the posture recovery."

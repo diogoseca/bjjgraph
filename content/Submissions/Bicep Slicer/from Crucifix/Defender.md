@@ -58,7 +58,7 @@ description: "How to defend against Bicep Slicer in BJJ. Recognition, escape pat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize a bicep slicer is being set up?",
+      "name": "What is the single most important defense once you recognize a bicep slicer being set up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straighten the trapped arm immediately by driving toward full elbow extension. This is the highest-percentage defense because it removes the fulcrum mechanism entirely—the bicep slicer requires a bent arm to create compression against the shin. If you can extend the elbow before the attacker secures tight wrist control, the submission becomes mechanically impossible. Every second of delay allows the attacker to deepen wrist control and close the angle, making extension progressively more difficult."
@@ -74,7 +74,7 @@ description: "How to defend against Bicep Slicer in BJJ. Recognition, escape pat
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their shin partially behind your elbow but has not secured your wrist yet—what is your best defensive sequence?",
+      "name": "Their shin is behind your elbow but your wrist is still free—what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten the arm while the wrist is still free, as this is the optimal escape window. Simultaneously, use your free hand to push the shin away from behind the elbow to displace the fulcrum. These two actions together—arm extension and shin displacement—create maximum defensive effect. Once the arm is straight, immediately begin working to escape the underlying dominant position through hip escapes or bridging, because the attacker will attempt to re-establish the submission setup if you remain in the same position."
@@ -82,7 +82,7 @@ description: "How to defend against Bicep Slicer in BJJ. Recognition, escape pat
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a bicep slicer setup and an armbar setup from the crucifix or mount positions?",
+      "name": "How do you tell a bicep slicer setup from an armbar setup from crucifix or mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the direction of the attacking leg. In an armbar, the attacker swings their leg over your head and face to control your upper body while extending your arm. In a bicep slicer, the attacker threads their shin behind your elbow joint while keeping your arm bent, positioning the shin perpendicular to your forearm. The tactile cue is unmistakable: a bony shin surface pressing against the back of your elbow combined with the attacker pulling your wrist toward their chest signals bicep slicer. An armbar creates pressure along the top of the arm with hip elevation."

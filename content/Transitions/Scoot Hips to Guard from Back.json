@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "Your opponent begins tightening their hooks as you start scooting downward - what adjustment do you make?",
+        "question": "They tighten their hooks as you begin scooting down to escape the back: what do you adjust?",
         "answer": "Switch to alternating the scooting direction with small lateral hip movements to create angles the opponent cannot track with simple hook tightening. Combine the scoot with hand fighting on their seatbelt to create multiple problems simultaneously, forcing them to choose between maintaining hooks and defending grip strips.",
         "answer_line": "Alternate scoot, angle off hips",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "What immediate actions must you take after completing the turn to prevent being passed to side control?",
+        "question": "After turning in from back control, what must you do at once to avoid being passed?",
         "answer": "Insert your inside knee between the opponent's legs to establish half guard within the first one to two seconds of completing the turn. Simultaneously establish a forearm frame on their shoulder and position your body on your side rather than flat on your back. Failure to immediately establish defensive structure allows the opponent to pass directly to side control or mount.",
         "answer_line": "Wedge inside knee to half guard",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "When should you prioritize attacking the neck versus maintaining hook position during a scoot attempt?",
+        "question": "When should you attack the neck instead of holding your hooks during their scoot escape?",
         "answer": "Attack the neck when your hooks are still secure and the opponent shifts their hands away from neck defense to initiate the scooting motion. This forces them to choose between continuing the escape with an undefended neck or aborting to re-establish neck defense. Never sacrifice hook position to chase the neck, as losing hooks during a choke attempt typically results in complete position loss.",
         "answer_line": "Attack neck when hooks stay secure",
         "distractors": {

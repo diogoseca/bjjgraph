@@ -56,7 +56,7 @@ description: "Defend against Technical Mount to Mount consolidation in BJJ. Lear
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary visual cue that the top player is transitioning from technical mount to standard mount?",
+      "name": "Which cue shows the top player is switching from technical mount to standard mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is the release of arm isolation grips—when the top player lets go of your wrist or elbow and transitions to crossface or collar control, they are abandoning the armbar pursuit and preparing to consolidate. This grip change typically precedes the leg movement by one to two seconds, giving you advance warning. The posted leg then begins sliding backward along the mat rather than maintaining its perpendicular position, confirming the consolidation is underway."
@@ -72,7 +72,7 @@ description: "Defend against Technical Mount to Mount consolidation in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "What defensive structure should you maintain before the transition begins to capitalize on the escape window?",
+      "name": "Which defensive structure should you hold before that transition starts to use the escape window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before the transition begins, you should have forearm frames established against the opponent's hips or lower chest with elbows bent and tight to your body. Your hips should be slightly angled rather than perfectly flat, with your escape-side leg coiled and ready to drive a hip escape. Your arms must be protected with elbows close to your ribs—never extended. This pre-positioned defensive structure allows you to react within the one-to-two second transition window rather than needing to build your escape from scratch when the cue appears."
@@ -88,7 +88,7 @@ description: "Defend against Technical Mount to Mount consolidation in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the top player aborts the transition mid-way and returns to technical mount?",
+      "name": "They abort the switch to mount and return to technical mount. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the top player aborts and re-posts their leg, immediately reset your defensive structure—re-establish forearm frames, return to your pre-escape positioning, and prepare for the next attempt. Do not continue your escape movement once the technical mount is re-established, as you will be moving into the tripod base rather than exploiting a transition gap. Stay patient and conserve energy for the next consolidation attempt, which will likely come soon since the top player clearly wanted to leave technical mount. Use the interim to improve your frame positioning for the next window."

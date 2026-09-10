@@ -50,7 +50,7 @@ description: "Defend against the Frame and Shrimp escape from Knee on Belly. Top
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt the Frame and Shrimp escape?",
+      "name": "From knee on belly top, what are the earliest cues they're setting up Frame and Shrimp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the bottom player placing their forearm against your knee while their other hand reaches for your hip or belt — this dual frame structure is the prerequisite for the escape. Additionally, watch for them rotating to their side and planting both feet flat on the mat. These movements signal the bridge-and-shrimp sequence is imminent. Responding before the shrimp begins is significantly more effective than reacting after displacement has already occurred."
@@ -58,7 +58,7 @@ description: "Defend against the Frame and Shrimp escape from Knee on Belly. Top
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially escaped with their hips displaced but has not yet inserted their knee — what is your best response?",
+      "name": "Their hips escaped under your knee on belly but no knee is in yet — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical decision window for transitioning to mount. The space the bottom player created with their shrimp is the same space you can use to step your free leg across and establish mount. Act immediately by swinging your posted foot over their body and settling your hips before they can close the distance with their knee insertion. If mount is not available due to angle or timing, hop your knee to their new torso position to re-establish KOB."

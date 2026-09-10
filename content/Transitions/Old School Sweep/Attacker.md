@@ -98,7 +98,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
     },
     {
       "@type": "Question",
-      "name": "What happens if you attempt the Old School Sweep while flat on your back instead of positioned on your side?",
+      "name": "What happens if you attempt the Old School Sweep flat on your back instead of on your side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Being flat on your back eliminates the geometric advantage needed for the sweep. Without the side angle, your shoulder cannot position under the opponent's center of gravity to create a fulcrum, your underhook loses its rotational leverage because the pulling angle becomes suboptimal, and your hip drive cannot generate upward force effectively. The flat position also makes you vulnerable to smash passing because the opponent can drive crossface pressure to maintain the flattened posture."

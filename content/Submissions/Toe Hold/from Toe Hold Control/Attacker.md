@@ -92,7 +92,7 @@ description: "Learn to execute the toe hold from Toe Hold Control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to sit up and post on their elbows during your finishing attempt—what adjustment prevents the escape?",
+      "name": "Toe hold control: they sit up and post on their elbows. What adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase forward chest pressure on their lower leg to drive them back down before they achieve full upright posture. Simultaneously adjust your hip position to reinforce knee line control. If they continue to gain posture despite increased pressure, transition to saddle entry by crossing your legs over their trapped leg, converting their sit-up momentum into a deeper entanglement. Do not fight to maintain a deteriorating toe hold position against a successful postural recovery."
@@ -116,7 +116,7 @@ description: "Learn to execute the toe hold from Toe Hold Control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the opponent begins successfully fighting your figure-four configuration?",
+      "name": "Toe hold control: they start beating your figure-four. What grip adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent gets two-on-one control of your top hand, immediately tighten elbow pressure against your body to resist the strip. If the figure-four begins to break, switch to a gable grip variation which provides stronger initial grip strength and is faster to re-establish. If both grip configurations fail, do not chase the grip—release and transition to outside ashi-garami or another leg entanglement position where you can re-establish control from a fresh angle rather than fighting a deteriorating grip battle."

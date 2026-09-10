@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent straightens their trapped leg during your heel hook attempt—what adjustment prevents their escape?",
+        "question": "Your opponent straightens their trapped leg in your Ashi Garami heel hook—what prevents escape?",
         "answer": "When the opponent straightens their leg, pinch your knees together more tightly around their thigh to maintain the knee line and prevent force dissipation. Use the straightening motion as an opportunity to thread your inside leg deeper toward Inside Ashi by sliding your hook past their hip before they complete the defense. If the straightening successfully neutralizes the finish, transition immediately to the improved hierarchical position rather than forcing a low-percentage completion from outside Ashi.",
         "safety_critical": false,
         "answer_line": "Pinch knees, thread to Inside Ashi",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "question": "How can you use the heel hook threat from outside Ashi to advance to a superior position in the hierarchy?",
+        "question": "How can the heel hook threat from outside Ashi advance you up the position hierarchy?",
         "answer": "When threatening the heel hook, the opponent must address the attack through straightening, grip stripping, or rotation. Each defensive response creates specific openings for hierarchy advancement: straightening the leg allows deeper inside leg threading for Inside Ashi entry; grip stripping requires hand commitment that opens Cross Ashi transitions; rolling to relieve pressure exposes the back for Saddle advancement. Reading the defensive choice and flowing to the appropriate advancement pathway makes the threat itself more valuable than the finish at this hierarchy level.",
         "safety_critical": false,
         "answer_line": "Their defense picks your next entry",
@@ -442,7 +442,7 @@
         }
       },
       {
-        "question": "What common finishing error occurs when the attacker grips the foot incorrectly during the heel hook?",
+        "question": "What common gripping error on the foot causes the heel hook finish to fail?",
         "answer": "A common error is gripping the forefoot or toes instead of securing the heel bone itself in the crook of the wrist. When gripping too low on the foot, the opponent can extract their foot by simply pointing their toes, and the rotational force applies primarily to the ankle joint rather than transmitting effectively through the tibia into the knee ligaments. The calcaneus must be the primary contact point to ensure the closed kinetic chain transmits rotation into the ACL, MCL, and LCL.",
         "safety_critical": false,
         "answer_line": "Gripping forefoot, not the heel",

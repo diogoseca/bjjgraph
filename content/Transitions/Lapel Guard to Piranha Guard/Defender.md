@@ -56,7 +56,7 @@ description: "How to defend and counter the Transition to Piranha Guard in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt the Transition to Piranha Guard?",
+      "name": "What is the earliest cue your opponent is transitioning from Lapel Guard to Piranha Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player opening their knees to create the threading channel between their legs. This happens before the grip transfer begins and signals that the bottom player is preparing the path for the collar feed. Recognizing this knee separation gives you an additional 1-2 seconds of reaction time compared to waiting until you feel the grip transfer on the collar."
@@ -88,7 +88,7 @@ description: "How to defend and counter the Transition to Piranha Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between the DLR hook and the threading attempt that you must account for defensively?",
+      "name": "How does the DLR hook support the Piranha Guard thread, and what must your defense address?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The De La Riva hook serves as the bottom player's secondary anchor that maintains distance control and prevents you from advancing while they execute the grip transfer and threading. If you focus only on the collar without addressing the DLR hook, the bottom player retains enough control to retry the thread or transition to alternative attacks. Effective defense requires contesting both the threading attempt and the secondary anchor — clearing one without addressing the other leaves you vulnerable to the remaining control point."

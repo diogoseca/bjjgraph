@@ -76,7 +76,7 @@ description: "How to execute Guard Pull in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their weight heavily on their lead leg and leans forward slightly - how do you exploit this for a guard pull?",
+      "name": "They post heavily on their lead leg and lean forward — how do you exploit this to pull guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their forward weight commitment creates the ideal timing window. Grip their collar and sleeve, then sharply pull them further forward while simultaneously sitting back and to the side. Their forward lean means they cannot retract their hips fast enough to sprawl or step back. Use the momentum of their forward weight to pull them directly into your closed guard or De La Riva hook. The key is pulling in the same direction their weight is already moving rather than fighting against their base."
@@ -108,7 +108,7 @@ description: "How to execute Guard Pull in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "How does the direction of force differ between pulling to closed guard versus pulling to De La Riva guard?",
+      "name": "How does the pulling force differ between pulling to closed guard and to De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For closed guard, the force is primarily downward and toward you, pulling the opponent's torso forward and down so you can wrap your legs around their waist at close range. For De La Riva, the force is more lateral and at an angle, pulling the opponent's upper body to one side while your bottom leg hooks behind their lead knee from the outside. The DLR pull requires you to sit slightly to the side rather than directly back, creating the angular displacement needed to insert the DLR hook effectively during the transition."

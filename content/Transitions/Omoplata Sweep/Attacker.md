@@ -106,7 +106,7 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins backing away as you establish the omoplata position. What grip and leg adjustments prevent their escape?",
+      "name": "They back away as you establish the omoplata: which grip and leg adjustments stop the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately deepen your right leg hook around their hip to anchor them and prevent backward movement. Pull their trapped sleeve toward your hip to shorten the distance and load their weight forward. If you have a collar grip with your free hand, pull it aggressively to break their posture and prevent the retreat. If they manage partial distance, follow their hips with yours by scooting forward rather than reaching with your arms. The right leg hook is the primary retention tool here because it creates a closed circuit around their hip that they cannot simply back out of."
@@ -114,7 +114,7 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the sweep relative to the opponent's defensive reaction?",
+      "name": "When is the optimal moment to fire the omoplata sweep relative to their defensive reaction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when the opponent's weight has shifted forward past their base but before they have completed their defensive movement and re-established stability. This window typically opens 0.5-1 second after they begin reacting to the omoplata pressure. If you sweep too early, before they commit their weight, they can simply sit back. If you sweep too late, after they have completed their forward roll or re-established base, you miss the momentum. The sweep should coincide with the apex of their forward weight shift, when their center of gravity is most displaced from their base of support."

@@ -84,7 +84,7 @@ description: "How to execute Grip Break in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Why must you immediately establish your own grips or create distance after breaking an opponent's grip?",
+      "name": "Why must you re-grip or create distance right after breaking your opponent's grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breaking a grip creates only a momentary window of advantage that lasts 1-2 seconds. If you don't capitalize on this window by establishing your own superior grips or creating distance with frames, your opponent will simply re-establish their grips and you've wasted energy without gaining any tactical advantage. The follow-up action is what transforms a grip break from a defensive reaction into an offensive opportunity."
@@ -100,7 +100,7 @@ description: "How to execute Grip Break in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep cross-collar grip and is starting to pull your posture down - what is the optimal timing to initiate the break?",
+      "name": "From open guard bottom, when should you break a deep cross-collar grip pulling you down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is immediately, before the grip consolidates into full posture control. As soon as you feel the collar grip tighten and pressure begin on your neck, bring both hands to their gripping wrist and push their hand down toward your belt line while simultaneously extending your spine and framing with your legs. Waiting even 2-3 seconds allows them to establish head control and compound the grip with their other hand, making the break exponentially harder."
@@ -108,7 +108,7 @@ description: "How to execute Grip Break in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches from a sleeve grip to a collar grip the instant you begin your two-on-one break - how do you adjust?",
+      "name": "Your opponent switches sleeve to collar as you start a two-on-one break. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect your two-on-one to address the new collar grip since collar grips are almost always higher priority than sleeve grips due to posture and choke threats. Use the hand closest to their switching hand to intercept and control their wrist before the collar grip consolidates. The key is tracking their hand during the switch rather than completing the now-irrelevant sleeve break. This read-and-react ability separates intermediate from advanced grip fighters."

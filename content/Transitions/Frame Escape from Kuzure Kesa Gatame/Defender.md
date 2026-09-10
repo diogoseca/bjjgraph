@@ -64,7 +64,7 @@ description: "Learn to prevent and counter the frame escape from Kuzure Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully hip escapes and begins threading their knee between your bodies - how do you respond?",
+      "name": "They hip escape from kesa and thread a knee between you: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two options depending on how much space exists. If the knee has not yet crossed your centerline, drive your hip back into the space and use your hand to push their knee down and away. If the knee is already establishing a shield, immediately transition to mount by sliding your knee across their belly before the half guard is fully secured, converting their escape into your positional advancement."

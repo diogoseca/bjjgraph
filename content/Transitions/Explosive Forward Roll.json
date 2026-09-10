@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "Your opponent starts pulling you backward aggressively while tightening the seatbelt - do you fight the pull or initiate the roll?",
+        "question": "In standing back control bottom, they pull you back and tighten the seatbelt: fight it or roll?",
         "answer": "Initiate the roll immediately. The backward pull provides the ideal timing window because you can redirect their pulling momentum forward and downward. Fighting the pull directly is a losing battle against a consolidated back control position. Use their energy to power the escape by bending forward explosively the moment you feel the backward acceleration.",
         "answer_line": "Initiate roll immediately",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "You secure wrist control but your opponent posts their free hand wide - how does this change your execution?",
+        "question": "You have wrist control but they post their free hand wide: how does that change the forward roll?",
         "answer": "Roll toward the side opposite their posted hand. The posted hand creates a strong base on one side but leaves the other side vulnerable. By rolling away from the post, you negate their ability to use it as a brake. Additionally, their posted hand means one arm is not controlling you, reducing their harness integrity and making the roll more likely to succeed.",
         "answer_line": "Roll away from the post",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "What specific hip movement generates the force needed to complete the roll against a heavier opponent?",
+        "question": "What hip movement powers the explosive forward roll against a heavier opponent?",
         "answer": "The critical hip movement is a forward and downward drive where you shoot your hips toward the mat while bending at the waist. This is not a shoulder-led movement but a hip-initiated power transfer. Think of it as a wrestling level change combined with a forward dive. The hips must lead the motion, creating a pendulum effect that uses your lower body mass to generate rotational force sufficient to carry both you and the opponent through the roll.",
         "answer_line": "Hips drive forward and down",
         "distractors": {
@@ -494,7 +494,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt an Explosive Forward Roll?",
+        "question": "From standing back control, what is the earliest cue they're setting up an explosive forward roll?",
         "answer": "The earliest cue is when the opponent establishes two-on-one wrist control on your choking arm or underhook arm. This grip change is necessary before they can safely initiate the roll, and it typically happens 1-2 seconds before the forward bend. Recognizing and disrupting this grip establishment prevents the roll before it begins.",
         "answer_line": "Two-on-one wrist grip forms",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "Your opponent has already initiated the roll and you are being carried over - what is the optimal response?",
+        "question": "They've committed the forward roll and you're being carried over: what is your best response?",
         "answer": "Ride the roll rather than resisting it. Maintain your harness grip and chest connection through the motion. As you land, immediately post one hand on the mat and drive your hips forward toward mount position. The key is to transition from back control to mount during the scramble rather than trying to maintain back control through an already-committed roll.",
         "answer_line": "Ride it, then drive to mount",
         "distractors": {
@@ -550,7 +550,7 @@
         }
       },
       {
-        "question": "What hand fighting strategy should you use when you feel the opponent reaching for two-on-one wrist control?",
+        "question": "Keeping back control, how do you hand fight as they reach for two-on-one wrist control?",
         "answer": "Immediately circle your threatened wrist out of their grip attempt by rotating your hand and pulling your elbow toward your hip. If they establish partial control, use your free hand to peel their fingers or push their controlling hand away. Keep your choking arm elbow tight to your body rather than extended, which makes it harder for them to isolate and control your wrist for the roll setup.",
         "answer_line": "Circle wrist, elbow to hip",
         "distractors": {

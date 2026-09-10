@@ -88,7 +88,7 @@ description: "Complete guide to defending against the New York pass from rubber 
     },
     {
       "@type": "Question",
-      "name": "If the opponent partially recovers posture but their arm remains trapped, what is your immediate priority?",
+      "name": "In New York bottom, they partly recover posture but their arm stays trapped — what's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to re-establish the shin across their back to collapse their recovered posture. Re-grip your shin with maximum depth near the ankle and pull aggressively with your hip flexors to drag their shoulders back down. Simultaneously, test whether the partial posture has created an opening for offensive transitions—sometimes partial posture recovery creates better angles for omoplata or Carni entries than fully broken posture does."

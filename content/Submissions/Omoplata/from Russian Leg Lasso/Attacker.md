@@ -108,7 +108,7 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
     },
     {
       "@type": "Question",
-      "name": "You have sat up and secured hip control but the opponent begins turning into you to relieve pressure - what finishing error likely caused this?",
+      "name": "You sat up with hip control but they turn into you — which finishing error caused it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips are likely too far from the opponent's shoulder, creating insufficient leverage for the rotational finish. When the fulcrum point between your body and their shoulder is too distant, the opponent can turn their torso to face you, which alleviates the internal rotation force on the shoulder. Correct this by walking your hips closer to directly behind their trapped shoulder until your hip bone presses against the back of their shoulder, creating a tight and inescapable fulcrum for the finish."
@@ -116,7 +116,7 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
     },
     {
       "@type": "Question",
-      "name": "How should your grip placement and body position change as you transition from lasso configuration to the omoplata finish?",
+      "name": "How should grips and body position change from Russian leg lasso into the omoplata finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the lasso phase, your hands hold collar grip (non-lasso side) and sleeve grip (lasso side). As you begin the hip pivot, the collar grip pulls posture down then releases once you commit to the transition. The sleeve grip is maintained throughout and only releases once your leg is fully across their back and knees are pinched. Upon sitting up, both hands immediately transition to far hip control, gripping belt or pants. During the finish, your near hand may cup under their elbow to isolate the joint while the far hand maintains hip control."

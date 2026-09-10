@@ -56,7 +56,7 @@ description: "Defend and counter the Electric Chair entry from Deep Half Guard. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the Electric Chair entry from deep half?",
+      "name": "Earliest cue that your opponent is entering the Electric Chair from deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's outside leg moving over your near shin in a threading motion. In standard deep half, their legs stay below and behind your trapped leg. The moment a leg crosses over the top of your shin, it signals lockdown threading. This happens before the figure-four is completed, giving you a critical window to retract your leg and prevent the lockdown from being established."
@@ -72,7 +72,7 @@ description: "Defend and counter the Electric Chair entry from Deep Half Guard. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established the Electric Chair position with lockdown, underhook, and ankle control - what is your best escape strategy?",
+      "name": "They have the full Electric Chair with lockdown, underhook and ankle — best escape strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the full Electric Chair established, prioritize breaking the weakest link in the chain. Address the ankle grip first by stripping their hand off your far ankle using your free hand. Without ankle control, the splitting pressure is significantly reduced. Next, apply the limp leg concept to your trapped leg and begin driving forward to flatten them. Finally, work to break the lockdown triangle methodically. If the submission pressure becomes dangerous before you can escape, tap rather than risk knee or groin injury."
@@ -80,7 +80,7 @@ description: "Defend and counter the Electric Chair entry from Deep Half Guard. 
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from transitioning to a Truck position if you successfully defend the Electric Chair?",
+      "name": "After defending the Electric Chair, how do you stop their transition to the Truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When defending the Electric Chair, be aware that the opponent may abandon the split and instead use the lockdown control to roll you into the Truck position by inserting a hook between your legs. To prevent this, keep your trapped leg knee tight to the mat and avoid letting the opponent roll underneath you. If they begin the roll, immediately sprawl your hips and use your free leg to post wide, preventing the rotation that leads to Truck entry."

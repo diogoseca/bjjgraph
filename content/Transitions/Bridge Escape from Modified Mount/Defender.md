@@ -56,7 +56,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom practitioner is preparing a bridge escape from Modified Mount?",
+      "name": "What is the earliest cue the bottom player is preparing a bridge escape from modified mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom practitioner repositioning their feet flat on the mat near their hips to create a bridge platform. This foot movement typically precedes the actual bridge by several seconds and provides the clearest warning signal. Combined with subtle hip shifting toward your posted leg side and frame placement on your hips, these preparatory movements create a recognizable pattern that allows preemptive defensive action."
@@ -64,7 +64,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
     },
     {
       "@type": "Question",
-      "name": "The bottom practitioner bridges explosively toward your posted leg - what is your immediate base adjustment?",
+      "name": "They bridge explosively toward your posted leg - what is your immediate base adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your posted foot firmly into the mat while simultaneously widening your base and increasing downward pressure through the across-body knee. Your posted leg should act as a structural brace absorbing the lateral force of the bridge. Drop your center of gravity lower by sinking your hips and lean slightly toward the posted leg side to counterbalance the bridge force. The across-body knee maintains primary control throughout."
@@ -72,7 +72,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
     },
     {
       "@type": "Question",
-      "name": "Why is Modified Mount particularly vulnerable to directional bridge escapes compared to standard mount?",
+      "name": "Why is modified mount more vulnerable to directional bridges than standard mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Modified Mount creates an asymmetric weight distribution where the posted leg side carries significantly less controlling pressure than the across-body knee side. This asymmetry means that a bridge directed toward the posted leg faces less resistance than a bridge against standard mount's even weight distribution. The posted leg also extends the top player's base outward, creating space that can be exploited for leg capture during the bridge's peak displacement."
@@ -80,7 +80,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom practitioner framing on your hips before bridging - how do you preempt the escape?",
+      "name": "You feel them framing on your hips before bridging in modified mount - how do you preempt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your weight forward and drive heavy crossface pressure to pin their head and prevent the hip rotation needed for directional bridging. Simultaneously swim your hips lower to crush their frames and reduce the space between your body and theirs. If the frames are strong, threaten the armbar on the near-side arm to force them to retract the framing hand for arm defense, disrupting their escape preparation entirely."
@@ -88,7 +88,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
     },
     {
       "@type": "Question",
-      "name": "What positional transition should you threaten to discourage repeated bridge escape attempts from Modified Mount?",
+      "name": "What should you threaten from modified mount to discourage repeated bridge escape attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Threaten the armbar on the near-side arm, as Modified Mount naturally positions your body for armbar entry mechanics. When the bottom player begins bridge preparation, reaching for their wrist or controlling their elbow creates a submission dilemma that forces them to choose between defending the armbar and executing the bridge. This submission threat makes bridge attempts costly and discourages repeated attempts, allowing you to maintain the mounted position with less defensive effort."

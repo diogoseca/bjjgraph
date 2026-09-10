@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together to defend the arm isolation - what grip-breaking strategy do you use?",
+        "question": "Armbar from standing back control: they clasp their hands — how do you break the grip?",
         "answer": "Attack the weakest point of their grip by peeling the top hand's fingers, starting with the pinky side. Alternatively, use a two-on-one configuration on their wrist to create a lever advantage. If direct grip breaking fails, insert your hand between their clasped hands to wedge them apart, or threaten a wristlock on the gripped configuration to force them to release voluntarily.",
         "answer_line": "Peel top hand's pinky-side fingers",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "Your attacker secures your wrist and begins swinging their leg over your shoulder - what is your best defensive option at this point?",
+        "question": "Defending back control: they grab your wrist and swing a leg over your shoulder — best option now?",
         "answer": "At this stage, your best option is to turn explosively into the attacker while the leg swing creates structural instability in their back control. The act of swinging the leg requires them to shift their weight and momentarily reduce chest-to-back pressure. Rotate your shoulders toward them aggressively to disrupt the perpendicular angle they need. If the turn fails, immediately drop to turtle to change the transition dynamics.",
         "answer_line": "Turn into attacker during leg swing",
         "distractors": {
@@ -564,7 +564,7 @@
         }
       },
       {
-        "question": "What is the critical difference between defending this standing armbar transition versus a grounded armbar from back control?",
+        "question": "How does defending a standing armbar from the back differ from defending a grounded one?",
         "answer": "The standing transition provides a unique defensive advantage: the attacker must manage balance and momentum during a standing-to-ground movement, which creates structural instability you can exploit. In the grounded version, the attacker has a stable base throughout. Use the standing instability by timing defensive turns or drops to the exact moment the attacker commits to the rotation, when their control is weakest. However, the standing version also carries higher injury risk due to the momentum of the descent.",
         "answer_line": "Exploit his unstable standing base",
         "distractors": {

@@ -72,7 +72,7 @@ description: "Defend against the Z-Guard sweep from top position. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What is your best defensive option if the sweep has already been initiated and you feel yourself tipping?",
+      "name": "Passing Z-guard, the sweep has started and you are tipping—what is your best defensive option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your hand immediately on the mat in the direction you are falling. This creates a new base point that catches your weight before you complete the rotation. However, this is a last-resort defense because the posting arm can be controlled or attacked. After posting, immediately work to re-center your base over the bottom player's body and strip their underhook to prevent a follow-up attempt."

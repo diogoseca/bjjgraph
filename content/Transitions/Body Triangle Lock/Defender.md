@@ -58,7 +58,7 @@ description: "How to defend against Body Triangle Lock in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their leg across your stomach while maintaining Gift Wrap - should you use your free hand to block the leg or protect your neck?",
+      "name": "They thread a leg across your stomach while holding Gift Wrap: block the leg or protect your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect your neck first unless your chin is already deeply tucked and your shoulder is raised to provide structural neck protection. Losing to a rear naked choke is worse than conceding the body triangle. Only commit the free hand to leg defense when the neck is structurally defended, as the attacker will immediately attack the throat if they see it exposed."
@@ -82,7 +82,7 @@ description: "How to defend against Body Triangle Lock in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What trade-off do you face when turning into the attacker as a defense against the body triangle thread?",
+      "name": "What trade-off comes with turning into the attacker to stop the body triangle thread?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker prevents the body triangle thread by closing the cross-body path, but the turn may lead to a transition to technical mount or mounted position where the attacker maintains the Gift Wrap arm control. While these positions offer different escape options, they are still dangerous. The turn is worthwhile because body triangle plus Gift Wrap is harder to escape than mount plus Gift Wrap."

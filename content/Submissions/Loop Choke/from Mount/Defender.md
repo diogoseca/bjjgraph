@@ -74,7 +74,7 @@ description: "How to defend against Loop Choke from Mount in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the lapel grip more effective than stripping the deep collar grip as a defensive strategy?",
+      "name": "Why strip the lapel grip rather than the deep collar grip when defending the loop choke in mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lapel grip is more accessible and requires less force to strip because it is typically a shallower grip on the near-side of your body where you have better hand positioning. The deep collar grip is buried behind your neck where you have poor mechanical leverage to remove it, and attempting to strip it requires extending your arms into vulnerable positions. More importantly, the loop choke requires both grips working in opposition to function - removing either grip breaks the mechanism, so targeting the easier grip achieves the same result with less risk. Stripping the lapel grip also keeps your arms closer to defensive position rather than reaching behind your own head."
@@ -90,7 +90,7 @@ description: "How to defend against Loop Choke from Mount in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "How does the attacker's weight shift during the loop choke setup create escape opportunities for the defender?",
+      "name": "Which weight shift during the mounted loop choke setup gives you the best escape window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker must shift their weight in predictable ways during the setup: they lean forward and to one side when feeding the deep collar grip, momentarily compromising their base. When they reach for the second lapel grip, one posting hand leaves the mat entirely. During the finish, they commit their chest weight forward toward your head. Each of these weight shifts creates a brief window where their mount base is compromised. The most exploitable moment is when they reach for the secondary grip, because both hands are occupied with collar work rather than posting for balance, making this the optimal time for an explosive bridge escape."

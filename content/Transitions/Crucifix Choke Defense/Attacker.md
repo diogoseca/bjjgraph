@@ -90,7 +90,7 @@ description: "Execute choke defense from crucifix bottom. Step-by-step grip figh
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts applying a rear naked choke from crucifix—what is your immediate physical response?",
+      "name": "Trapped in crucifix bottom as they start the RNC, what is your immediate physical response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck chin aggressively toward chest and raise the shoulder on the choking side to create structural barriers. With the free hand, reach for the opponent's choking wrist to establish grip control. Do not attempt any escape movement at this stage—all attention and energy go to preventing the choke from closing. Controlled breathing is essential to avoid panic-induced energy depletion that makes sustained defense impossible."

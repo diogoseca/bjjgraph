@@ -56,7 +56,7 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to establish DLR from open guard?",
+      "name": "What is the earliest cue your opponent is entering De La Riva from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is your opponent reaching for your near ankle or pant leg on the hooking side while simultaneously angling their hips to create a perpendicular relationship to your stance. This grip attempt precedes the hook thread and represents the ideal intervention point where a simple grip strip or backstep denies the entire entry sequence."
@@ -88,7 +88,7 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your ankle but has not yet threaded the hook - what is your optimal response?",
+      "name": "They have your ankle but have not threaded the DLR hook: what is your optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the ankle grip using a two-on-one break or by circling your foot and pulling your leg back sharply. This is the highest-value intervention point because the ankle grip is the prerequisite for the hook entry. Without it, the opponent cannot anchor their threading attempt. After stripping, immediately advance passing pressure before they re-grip."

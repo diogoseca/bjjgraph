@@ -96,7 +96,7 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a collar grip and starts pulling your head down as you initiate the stack - how do you respond?",
+      "name": "They pull your head down by the collar as you start the stack: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, do not continue driving forward with a compromised head position, as this feeds directly into a guillotine. Strip the collar grip immediately using a two-on-one grip break by grabbing their wrist with both hands and pushing toward their thumb while rotating away. Once freed, re-establish your passing grips and tuck your chin to the side before resuming forward pressure. If the grip is too deep, posture up fully to break their pulling angle before stripping, then re-initiate the stack with proper head placement on the passing side."

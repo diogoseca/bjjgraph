@@ -299,7 +299,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the minimum time period you should take to apply full pressure in the loop choke from mount during training?",
+        "question": "How long should you take to reach full pressure on the loop choke from mount in training?",
         "answer": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk. The choke should tighten gradually, allowing your partner to feel the progression and tap at any point.",
         "safety_critical": true,
         "answer_line": "3-5 seconds, build gradually",
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "Your opponent begins posturing up and creating frames while you have the deep collar grip established - what adjustment prevents escape?",
+        "question": "They posture up and frame while you hold the deep collar grip in mount: what stops the escape?",
         "answer": "When they posture up or create frames, immediately lower your chest toward their head and drive your weight through the collar grip. Use your hips to pin their shoulders back to the mat rather than allowing them to create vertical space. The frames they create can actually help tighten the choke if you drive forward into them while maintaining your diagonal pulling vectors. If they successfully create significant space, consider transitioning to a mounted triangle or armbar on the framing arm rather than losing the position entirely.",
         "safety_critical": false,
         "answer_line": "Lower chest, drive weight forward",
@@ -419,7 +419,7 @@
         }
       },
       {
-        "question": "What are the key indicators that tell you the choke is properly positioned before applying finishing pressure?",
+        "question": "What indicators tell you the loop choke from mount is set before you apply finishing pressure?",
         "answer": "Key indicators of proper positioning include: your deep collar grip reaches past the trachea with four fingers behind the neck and thumb against the side of the neck, your elbow is high and pointing toward their opposite shoulder, your lapel grip creates tension across their neck toward your opposite hip, your weight is distributed forward with chest pressure on their upper body, and your opponent's near arm is controlled or trapped. Additionally, when you begin light pressure, you should feel the collar tightening around the sides of their neck rather than across the front of the throat.",
         "safety_critical": false,
         "answer_line": "Deep grip, elbow high, arm trapped",
@@ -449,7 +449,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if your opponent turns their chin strongly toward your deep collar grip side?",
+        "question": "They turn their chin toward your deep collar grip in mount: what grip adjustment do you make?",
         "answer": "When they turn their chin toward your deep grip, it can actually help create a tighter choke if you adjust properly. Drive your choking elbow higher over their face, using their chin turn to deepen the collar penetration. Simultaneously, pull your lapel grip more aggressively across their neck in the opposite direction to maintain the diagonal vector. If they turn significantly, consider following their movement into technical mount where the angle naturally supports the loop configuration. Their defensive turning motion can become the mechanism that tightens the choke if you maintain proper grip depth.",
         "safety_critical": false,
         "answer_line": "Drive elbow higher, follow the turn",
@@ -464,7 +464,7 @@
         }
       },
       {
-        "question": "In competition, what finishing strategies maximize your completion rate with the loop choke from mount?",
+        "question": "In competition, what finishing strategy raises your loop choke completion rate from mount?",
         "answer": "Competition finishing strategies include: establish grips incrementally while your opponent focuses on preventing mount escapes rather than collar defense, use other attacks (Americana, armbar) to create reactions that expose the collar, time your finish attempt when opponent is exhausted from defensive bridging, apply finishing pressure during their attempted escapes when their focus is divided, and commit fully once both grips are established rather than gradually tightening. Additionally, maintain your base throughout to prevent losing position if the choke fails, allowing you to maintain mount and attack again.",
         "safety_critical": false,
         "answer_line": "Time finish off other attacks",
@@ -624,7 +624,7 @@
         }
       },
       {
-        "question": "Why is stripping the lapel grip more effective than stripping the deep collar grip as a defensive strategy?",
+        "question": "Why strip the lapel grip rather than the deep collar grip when defending the loop choke in mount?",
         "answer": "The lapel grip is more accessible and requires less force to strip because it is typically a shallower grip on the near-side of your body where you have better hand positioning. The deep collar grip is buried behind your neck where you have poor mechanical leverage to remove it, and attempting to strip it requires extending your arms into vulnerable positions. More importantly, the loop choke requires both grips working in opposition to function - removing either grip breaks the mechanism, so targeting the easier grip achieves the same result with less risk. Stripping the lapel grip also keeps your arms closer to defensive position rather than reaching behind your own head.",
         "safety_critical": false,
         "answer_line": "Lapel grip is easier to strip",
@@ -654,7 +654,7 @@
         }
       },
       {
-        "question": "How does the attacker's weight shift during the loop choke setup create escape opportunities for the defender?",
+        "question": "Which weight shift during the mounted loop choke setup gives you the best escape window?",
         "answer": "The attacker must shift their weight in predictable ways during the setup: they lean forward and to one side when feeding the deep collar grip, momentarily compromising their base. When they reach for the second lapel grip, one posting hand leaves the mat entirely. During the finish, they commit their chest weight forward toward your head. Each of these weight shifts creates a brief window where their mount base is compromised. The most exploitable moment is when they reach for the secondary grip, because both hands are occupied with collar work rather than posting for balance, making this the optimal time for an explosive bridge escape.",
         "safety_critical": false,
         "answer_line": "Bridge when they reach second grip",

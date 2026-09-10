@@ -64,7 +64,7 @@ description: "Counter the Boot Defense from Toe Hold as the attacking grappler. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent's boot is solid and you cannot complete the toe hold—what is your highest-percentage transition?",
+      "name": "Their boot defense stops your toe hold: what is your highest-percentage transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage transition is to kneebar, because the boot defense straightens the opponent's leg—the exact extension needed for kneebar application. Reposition your hips perpendicular to their leg, shift control from their foot to above their knee, and apply downward pressure. This converts their defensive adaptation into your offensive advantage by exploiting the mechanical consequence of the boot structure."

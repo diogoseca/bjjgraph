@@ -56,7 +56,7 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to transition from double sleeve to spider guard?",
+      "name": "What is the earliest cue that they're transitioning from double sleeve to spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is increased pulling tension on both sleeves combined with the bottom player's hips rising higher off the mat. Before the feet actually move, the opponent needs to load their grip tension to maintain control during the transition. This pre-loading phase gives you a one-to-two second warning window to act preemptively by stripping grips, retracting your arms, or initiating forward pressure before the feet begin their journey to your biceps."
@@ -64,7 +64,7 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to prevent the spider guard transition rather than simply dealing with spider guard after it is established?",
+      "name": "Why prevent the spider guard entry rather than just pass spider guard once it's set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Spider guard is substantially more dangerous than double sleeve guard because the bicep hooks create a favorable strength asymmetry where the bottom player's legs work against your arms. Spider guard enables immediate sweep threats through technical sweeps, triangle entries from arm isolation, and omoplata attacks that are not available from basic double sleeve control. The energy cost of passing spider guard is significantly higher than double sleeve guard, making prevention far more efficient than cure."
@@ -72,7 +72,7 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has placed one foot on your bicep but the second foot is still on your hip - what should you do in this critical moment?",
+      "name": "They have one foot on your bicep, the other still on your hip: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the most important intervention window. Address the foot that already reached your bicep by either stripping the same-side sleeve grip with a two-on-one break or stepping that arm back while keeping your elbow tight to your body to dislodge the foot. Simultaneously maintain forward pressure against the remaining hip frame. Do not allow the second foot to reach your other bicep, as once both hooks are established the defensive challenge increases dramatically and you will need to reset entirely."
@@ -88,7 +88,7 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "After successfully preventing the spider guard transition, what should your immediate next action be?",
+      "name": "You stopped the spider guard transition: what is your immediate next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately capitalize on the prevented transition by establishing your own passing grips. The bottom player expended energy and focus on the failed transition, creating a window where their grip tension may momentarily relax and their guard structure is not fully settled. Strip at least one sleeve grip and establish a controlling grip on their pants at the knee or ankle. Begin your passing sequence before they can regroup and attempt the transition again or redirect to an alternative guard evolution."

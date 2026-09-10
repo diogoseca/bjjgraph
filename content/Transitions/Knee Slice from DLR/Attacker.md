@@ -88,7 +88,7 @@ description: "Learn to execute the Knee Slice from De La Riva Guard as the passe
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-establishes their DLR hook every time you strip it - how do you adjust your passing approach?",
+      "name": "They re-establish the DLR hook every time you strip it: how do you adjust your passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chain multiple passing threats rather than repeatedly attempting the same grip strip to knee slice sequence. Use the grip fight to set up a toreando or backstep pass, which forces them to choose between defending the alternative pass or maintaining the DLR hook. The passing chain creates dilemmas that a single repeated technique cannot."
@@ -112,7 +112,7 @@ description: "Learn to execute the Knee Slice from De La Riva Guard as the passe
     },
     {
       "@type": "Question",
-      "name": "As you begin the knee slice, your opponent starts inverting for a berimbolo - what is your immediate response?",
+      "name": "As you start the knee slice, they invert for a berimbolo: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop forward movement and drive your hips into their hips to prevent the inversion from developing. Use your crossface grip to pin their shoulders to the mat and kill the rotation. If they have already begun rotating underneath you, backstep away from the direction of their rotation and circle to the opposite side to nullify the berimbolo entry angle."

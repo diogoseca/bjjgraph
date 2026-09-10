@@ -56,7 +56,7 @@ description: "Complete guide to defending the Inside Ashi to Outside Ashi transi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from inside ashi to outside ashi?",
+      "name": "What is the earliest cue that your opponent is switching from inside ashi to outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker's hips begin to rotate away from the inside angle toward the outside of your trapped leg. This hip rotation precedes the actual leg switch and signals the directional change in their body alignment. You may also notice reduced pressure from their inside leg across your hip as it begins to withdraw. Reacting to the hip rotation rather than waiting for the leg switch gives you the maximum time to execute your defensive response."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "Why is the transition vulnerability window your best escape opportunity rather than defending the established outside ashi?",
+      "name": "Why is the inside-to-outside ashi switch a better escape window than defending locked outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker's figure-four triangle is temporarily loosened as they reconfigure their legs. This brief looseness creates the only moment where the structural integrity of the entanglement is compromised. Once outside ashi is fully established with a tight triangle, the escape requires overcoming complete positional control. The transition window may last less than one second, but it represents a significantly higher probability of successful escape than fighting a fully locked position."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the transition but you cannot extract your leg during the vulnerability window—what should your next defensive priority be?",
+      "name": "You miss the escape window during their switch to outside ashi. What is your next priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you cannot escape during the transition window, immediately prioritize hiding your heel by rotating your knee inward and tucking your foot toward your body. The outside ashi configuration provides direct access to outside heel hooks, which are the primary danger. By protecting the heel first, you buy time to work a systematic escape from the established outside ashi position. Additionally, establish frames with your free leg and hands to prevent the attacker from closing distance for finishing mechanics."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "How does defending the Inside Ashi to Outside Ashi transition differ from defending a direct outside ashi entry?",
+      "name": "How does defending the inside-to-outside ashi switch differ from defending a direct outside entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key difference is the vulnerability window. A direct outside ashi entry typically occurs from a scramble or guard pass where the attacker establishes control in one motion. The transition from inside to outside ashi requires the attacker to disassemble one configuration before establishing another, creating a brief gap in control. Your defensive strategy should specifically exploit this gap, which does not exist in direct entries. The transition also telegraphs the direction change through recognizable hip rotation cues."

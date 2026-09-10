@@ -68,7 +68,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the Tripod Sweep most effective when your opponent's weight is forward rather than back on their heels?",
+      "name": "Why does the tripod sweep work best when their weight is forward, not back on their heels?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent's weight is forward, they are already off-balance in the direction of the sweep. The tripod structure and ankle attack remove their ability to post and catch themselves, making the sweep mechanically sound. When their weight is back, they have no forward momentum to exploit and can simply step back or sit down to defend, making the sweep biomechanically impossible to complete with the required force vectors."
@@ -76,7 +76,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of attacking the opponent's ankle/posting leg rather than their other leg during the sweep execution?",
+      "name": "Why attack their posting leg rather than the other leg during the tripod sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posting leg is the leg your opponent uses to catch themselves when off-balanced forward. By controlling and removing this leg while simultaneously pushing their upper body backward with your grips and spider hook, you eliminate their ability to recover balance. Attacking the wrong leg (non-posting leg) allows them to simply step with the attacked leg while maintaining base with the posting leg, completely defeating the sweep's mechanical advantage."
@@ -84,7 +84,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "How does the tripod structure create a more effective sweep than simply pulling the opponent forward with both spider hooks?",
+      "name": "Why is the tripod structure better than just pulling with both spider hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The tripod structure creates angular leverage by positioning your body perpendicular to the opponent while maintaining three-point stability (two points on mat, one spider hook on opponent). This angle allows you to generate rotational force rather than just linear pulling force. The tripod base also elevates your hips off the mat, creating space to attack the ankle and generating upward force with the active spider hook that makes the opponent top-heavy and unable to recover balance by posting."
@@ -92,7 +92,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "What should you immediately transition to if your opponent sits their weight back defensively when you establish the tripod base?",
+      "name": "If they sit their weight back as you build the tripod base, what do you switch to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sits back, immediately abandon the Tripod Sweep and transition to alternative attacks that capitalize on their defensive posture: triangle choke setup (they've brought their posture down), omoplata (attack the extended arm), or Sickle Sweep (hook behind their far knee and sweep them backward using their own defensive weight distribution). Never waste energy attempting a sweep that has lost its mechanical advantage."
@@ -108,7 +108,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "How does the Tripod Sweep fit into a comprehensive spider guard attack system, and what other techniques should it be chained with?",
+      "name": "How does the tripod sweep chain with the rest of your spider guard attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Tripod Sweep functions as a primary distance-management attack in spider guard that creates reactions you can exploit. It chains naturally with: triangle setup (when opponent sits back to defend), omoplata (when they post second hand), Sickle Sweep (when they base wide and sit back), and overhead sweeps (when they post both hands forward). The tripod structure itself can transition to technical standup for takedown scenarios. Advanced practitioners use Tripod Sweep as the centerpiece of a decision tree where every defensive reaction opens another high-percentage attack, creating the dilemma-based guard system that characterizes modern competition BJJ."

@@ -68,7 +68,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to establish upper body control before attempting to free your trapped leg in half guard?",
+      "name": "Why establish upper body control before freeing your trapped leg in half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upper body control prevents the bottom player from creating frames, recovering full guard, or using hip mobility to execute sweeps. Without controlling their upper body first, any attempt to free your leg will likely fail because they can simply follow your movement with their hips and legs. The pass is won with chest pressure and head control, not by forcefully yanking your leg free. Proper upper body dominance limits their mobility and creates the foundation for successful leg extraction."
@@ -76,7 +76,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What are the primary dangers of allowing your opponent to maintain an underhook during the half guard pass?",
+      "name": "What are the main dangers of letting them keep the underhook while you pass half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook lets the bottom player come up to their side, which is the foundation for sweeps, back takes, and even submissions from half guard. With an underhook they can drive into you, come up behind you to take your back, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. It also prevents you from flattening them with shoulder pressure, letting them maintain better defensive structure. This is why experienced passers treat the opponent's underhook as a critical threat that must be addressed immediately."
@@ -84,7 +84,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How should you adapt your passing strategy when facing lockdown half guard versus traditional half guard?",
+      "name": "How does passing lockdown half guard differ from passing traditional half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lockdown requires breaking or bypassing the crossed-leg lock itself, while traditional half guard allows more direct pressure passing. Because the opponent's legs are crossed into a mechanical lock, simple leg extraction is blocked: focus on breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transition to positions that nullify its effectiveness, such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely."
@@ -92,7 +92,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What mechanical principle allows successful leg extraction while maintaining forward pressure during the half guard pass?",
+      "name": "What mechanical principle frees the trapped leg while keeping forward pressure in half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key mechanical principle is creating space through hip angle and pressure direction rather than pulling your leg backward. By driving your chest and shoulders forward and downward onto opponent's upper body while simultaneously keeping your hips low, you create compression that limits their ability to follow your leg movement. Your trapped leg then extracts by sliding the knee up and back (pulling heel to buttocks) while your hips continue pressing forward. This creates opposing forces - your upper body going forward, your trapped leg coming backward - that split their defensive structure. The forward pressure pins their upper body while the leg extraction happens below."

@@ -64,7 +64,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is the perpendicular bridge toward your posting leg the most dangerous phase of this escape for the top player?",
+      "name": "Holding kesa-gatame, why is their bridge toward your posting leg the most dangerous phase?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular bridge attacks the structural weakness of your base—your posting leg is the primary stability point, and a bridge directed at it creates maximum base disruption with minimum energy. This angular bridge forces a genuine forward weight shift that mechanically loosens the armpit clamp regardless of how strongly you squeeze. The straight-up bridge is far less dangerous because it doesn't attack your base structure and you simply settle back down."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges hard and you feel your armpit clamp loosening—should you fight to maintain Kuzure Kesa Gatame or transition?",
+      "name": "Your kesa-gatame clamp is loosening from their bridge: hold the position or transition, and to what?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bridge has already disrupted your base and the clamp is loosening, fighting to maintain the exact position is often lower-percentage than transitioning. Your best options are: immediately transition to armbar by extending the partially freed arm, or rotate to North-South to deny the guard recovery angle entirely. Stubbornly fighting to maintain a compromised Kuzure Kesa Gatame often results in losing both the arm control and the passing position when the opponent completes the escape sequence."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a genuine arm recovery attempt and a setup for a different escape like the Granby Roll?",
+      "name": "From kesa-gatame top, how do you tell a genuine arm recovery attempt from a Granby roll setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine arm recovery attempt features internal shoulder rotation, feet planted flat for bridge power, and a free arm frame against your hip—the entire sequence targets the trapped arm as the primary objective. A Granby Roll setup instead shows the opponent turning their face away from you, loading their shoulders to invert, and their free arm reaching across or behind their body rather than framing against your hip. The bridge direction differs too—arm recovery bridges toward your posting leg, while Granby Roll setups bridge toward open space to create inversion room."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make to your hip pressure when you recognize the arm recovery is being attempted?",
+      "name": "Holding kesa-gatame, how do you adjust hip pressure once you read the arm recovery attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hip pressure more aggressively at a 45-degree angle toward their far hip rather than straight down into their ribs. This angular pressure makes their perpendicular bridge less effective because it must overcome both your weight and the redirecting force vector. Simultaneously increase the clamp by contracting your lat to pin their upper arm and dropping your chest weight lower onto the trapped arm. The combination of directional hip pressure and reinforced arm clamp eliminates the momentary weight shift that the bridge is designed to create."

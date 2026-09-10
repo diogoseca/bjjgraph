@@ -64,7 +64,7 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "Your attacker has secured wrist control and begins pivoting their hips - what are your immediate three defensive actions?",
+      "name": "They have wrist control and start pivoting for the armbar: your three defensive actions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, bend your trapped elbow as hard as possible and pull it tight against your ribcage to resist arm extension. Second, use your free hand to either clasp your trapped wrist for reinforcement or block the attacker's incoming leg from crossing over your face. Third, turn your body toward the trapped arm side to collapse the perpendicular angle the attacker needs. These three actions address arm isolation, leg control, and hip angle simultaneously."
@@ -72,7 +72,7 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "Why is turning toward the trapped arm side preferable to turning away when defending this transition?",
+      "name": "Defending this armbar, why turn toward the trapped arm side rather than away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the trapped arm side shortens the distance between your elbow and your body, making it harder for the attacker to isolate and extend the arm. It also disrupts the perpendicular hip angle the attacker needs by collapsing the space between your bodies. Turning away would extend the trapped arm and create more space for the attacker's legs to establish control, essentially assisting their transition mechanics rather than disrupting them."
@@ -80,7 +80,7 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive priorities when the attacker alternates between choke and armbar threats?",
+      "name": "How do you set defensive priorities when they alternate choke and armbar threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a layered defense that addresses both threats simultaneously rather than committing fully to either one. Keep your chin tucked and one hand protecting your neck while using your trapped arm position and free hand to prevent arm isolation. The key is to avoid overcommitting to choke defense (which exposes the arm) or arm defense (which exposes the neck). Read the attacker's hip angle and grip changes to determine which threat is currently primary and weight your defense accordingly."
@@ -88,7 +88,7 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
     },
     {
       "@type": "Question",
-      "name": "After the attacker has completed the transition and you are in armbar control, what is your highest-priority defensive action?",
+      "name": "They have completed the armbar control on you: highest-priority defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately rotate your trapped arm so the thumb points toward the ceiling and bend the elbow as deeply as possible, pulling your wrist toward your shoulder using your free hand for assistance. Simultaneously begin turning your body toward the trapped arm side and look to control the attacker's leg across your face with your free hand. The arm bend prevents the finish, the thumb rotation strengthens the elbow structure, and the body turn begins creating the angle needed for escape sequences like the hitchhiker."

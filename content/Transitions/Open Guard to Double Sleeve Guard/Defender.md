@@ -64,7 +64,7 @@ description: "How to defend the Transition to Double Sleeve Guard in BJJ. Grip p
     },
     {
       "@type": "Question",
-      "name": "What mechanical principle makes wrist rotation more effective than straight pulling for breaking cuff grips?",
+      "name": "Why does wrist rotation break cuff grips better than pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Cuff grips with four fingers inside the sleeve opening are strongest against linear pulling forces because the grip wraps around the cylindrical wrist. Wrist rotation toward the opponent's thumb attacks the weakest axis of their grip, where only the thumb opposes the breaking force. Combined with hip movement and stepping, the rotational break uses your entire body against their isolated grip strength rather than matching forearm against forearm."
@@ -72,7 +72,7 @@ description: "How to defend the Transition to Double Sleeve Guard in BJJ. Grip p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has one sleeve grip and is using diagonal force to set up the second grip. What is your immediate priority?",
+      "name": "They have one sleeve and are pulling you diagonally for the second: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the postural break rather than fighting the grip directly. Widen your base, sit your hips back, and engage your core to resist the diagonal pull. Post your free hand on the mat briefly if needed to maintain balance. Once your posture is stabilized, address the grip using wrist rotation while the opponent's diagonal force strategy has been neutralized. Fighting the grip while your posture is compromised leads to worse positions."

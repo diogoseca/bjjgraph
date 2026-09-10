@@ -64,7 +64,7 @@ description: "How to defend against Leg Drag to Technical Mount in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your attacker has already inserted their knee behind your back but has not yet posted their front leg—what is your best defensive option?",
+      "name": "Their knee is behind your back but the front leg isn't posted yet — your best defence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, recovering guard is extremely difficult. Your best option is to turn away decisively and force a back take scramble. As you turn, immediately fight for underhooks and work to get to your knees in turtle position. From turtle, you can fight for underhooks and create scramble opportunities. This is preferable to lying still and allowing them to post the front leg and settle into technical mount with full submission access."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag to Technical Mount in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is extending your arms to push the attacker away a critical defensive error during this transition?",
+      "name": "Why is extending your arms to push during the technical mount transition a critical error?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any arm extension during this transition is immediately exploitable. The attacker is already positioned to slide into technical mount, and an extended arm becomes isolated the moment the knee settles behind your back. The arm triangle and armbar are the primary submissions from technical mount, and both require an extended or isolated arm. Frame with bent elbows and forearm structures instead, generating space through hip movement rather than arm pushing."

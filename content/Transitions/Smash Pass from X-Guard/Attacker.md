@@ -74,7 +74,7 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must the center of gravity drop below the bottom player's hook line before committing to the forward drive?",
+      "name": "Smash passing X-guard, why drop your center of gravity below their hook line first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The X-Guard's sweeping power comes from the bottom player's ability to elevate through their hooks. When the top player's center of gravity is above the hook line, the bottom player can use their legs as levers to lift and sweep. By dropping the center of gravity below this line, the hooks lose their mechanical advantage because they can no longer generate the upward force needed for elevation sweeps, converting the position from a dynamic guard exchange into a static pressure scenario favoring the top player."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
     },
     {
       "@type": "Question",
-      "name": "What is the most critical upper body control to establish before committing weight to the smash pass?",
+      "name": "Which upper body control matters most before committing weight to the smash pass on X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface is the most critical upper body control because it prevents the bottom player from turning their head and shoulders to create sweeping angles. Without crossface control, the bottom player can redirect the top player's committed weight into sweeps by re-angling their body. The crossface also creates psychological discomfort that forces the bottom player to address head control rather than focusing on maintaining their hooks, splitting their defensive attention."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
     },
     {
       "@type": "Question",
-      "name": "Why is progressive pressure application more effective than an explosive forward drive for the smash pass?",
+      "name": "Smash passing X-guard, why is progressive pressure better than an explosive forward drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive pressure allows the top player to maintain balance and react to the bottom player's defensive adjustments throughout the pass. An explosive forward drive creates momentum that the bottom player can redirect into sweeps, similar to how a judoka uses an opponent's forward momentum for throws. Progressive pressure also prevents the top player from overcommitting past the point of balance recovery, maintaining the ability to abort and reset if the pass is well-defended."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
     },
     {
       "@type": "Question",
-      "name": "The bottom player releases their hooks and attempts to recover butterfly guard during your smash pass. What should you do?",
+      "name": "Smash passing X-guard, they drop hooks to recover butterfly. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately accelerate your forward pressure through the gap created by the released hooks, driving directly to side control before any new guard structure can form. Released hooks represent the optimal passing window because the bottom player has voluntarily abandoned their primary control mechanism. Following their hip movement with continuous forward pressure prevents the space creation needed to establish butterfly hooks, and maintaining crossface throughout ensures they cannot re-angle for guard recovery."

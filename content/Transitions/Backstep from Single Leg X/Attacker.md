@@ -88,7 +88,7 @@ description: "Complete guide to executing the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hip hook is stripped but they immediately grab your same-side sleeve as you begin the rotation - how do you adjust?",
+      "name": "Backstepping from single leg X, they grab your same-side sleeve as you rotate: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sleeve grip is established just as you begin rotating, you must make a split-second decision. If the grip is loose, power through the rotation using your momentum to break the grip as you turn. If the grip is strong, abort the backstep immediately by returning your weight to the posted leg and strip the grip before re-attempting. Continuing a backstep against a strong sleeve grip will result in being pulled off balance mid-rotation, which is the worst possible outcome."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "In which direction should the free leg step during the backstep, and why does the stepping radius matter?",
+      "name": "In the single leg X backstep, where should the free leg step and why does the arc size matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The free leg should step in a wide arc behind the bottom player's far hip, landing on the opposite side of their body. The stepping radius matters enormously because a wider arc creates a more complete hip rotation, which is what mechanically clears the trapped leg from the inside hook. A narrow step produces insufficient rotation and leaves the trapped leg still caught in the entanglement. Always err on the side of stepping wider rather than shorter."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "You complete the rotation and clear the hooks but the bottom player immediately inserts their knee before you can establish crossface - what went wrong and how do you prevent it?",
+      "name": "You clear the SLX hooks but they insert a knee before your crossface: what went wrong and the fix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gap between hook clearance and side control establishment was too long. The backstep rotation and the side control consolidation must be treated as one continuous movement, not two separate actions. Prevent this by dropping your weight and driving the crossface the instant your rotation clears the hooks. Your chest should land on their torso within one second of the hooks clearing. Practice connecting the landing directly to the crossface establishment as a single integrated motion."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has very tight inside hook tension around your ankle that resists rotational clearance - what adjustments enable the backstep to succeed?",
+      "name": "Their inside hook is extremely tight on your ankle: what adjustments let the SLX backstep work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the inside hook is exceptionally tight, drive your trapped knee forward toward the bottom player's chest to change the angle of the hook and reduce its grip strength. You can also use your hand to peel their inside leg off your ankle momentarily before rotating. Another approach is the backstep to knee slide variant where you initiate the backstep for the angle change but finish by driving your knee through the remaining hook rather than relying purely on rotational clearance."

@@ -78,7 +78,7 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins framing on your hip as you start the rotational slide - what adjustment prevents the escape?",
+      "name": "They frame on your hip as you start the rotational slide from kuzure kesa gatame—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to strip the hip frame by pushing their elbow toward their hip, collapsing the structural integrity of the frame. If the frame is too established to strip, pause the choke entry and attack the framing arm with a kimura or americana, which forces them to retract the arm. Once the frame is cleared, resume the rotational slide with the choking arm already threaded. Never try to power through an established hip frame as it wastes energy and creates scramble opportunities."
@@ -94,7 +94,7 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
     },
     {
       "@type": "Question",
-      "name": "Why does the hip sprawl create the finishing compression, and what happens if you keep your hips close?",
+      "name": "Why does the hip sprawl finish the north-south choke, and what happens if your hips stay close?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip sprawl creates a fulcrum effect where the body acts as a lever. As the hips move away, the shoulder is driven deeper into the carotid pocket, and the arm wrap tightens against the far-side carotid. With hips close, there is insufficient leverage to generate meaningful compression - the choke feels tight from the attacker's perspective but lacks the mechanical advantage needed for arterial restriction. The sprawl converts body weight into directed choking pressure rather than relying on muscular arm squeeze."
@@ -110,7 +110,7 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
     },
     {
       "@type": "Question",
-      "name": "Your opponent manages to extract their near arm during the transition - how do you adjust your attack?",
+      "name": "Your opponent frees their near arm during the north-south choke transition—how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the near arm comes free during the transition, immediately assess whether the choking arm is already threaded deep enough to continue. If the arm is deep, continue the slide and use your free hand to control their now-mobile near arm by pinning it. If the thread is shallow, abandon the choke attempt and attack the free near arm with an americana or kimura from Kuzure Kesa Gatame. The newly extracted arm is momentarily extended and vulnerable, making it an ideal counter-attack target that also re-establishes control."

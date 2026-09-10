@@ -84,7 +84,7 @@ description: "Learn to attack with the neck crank from Twister Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What physical indicators suggest the opponent is approaching their breaking point during the neck crank?",
+      "name": "What signs show your opponent nearing their breaking point in a twister-control neck crank?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include sudden cessation of defensive movement as the opponent freezes, audible grunting or changes in breathing pattern, the opponent's body beginning to move with the rotation rather than resisting it, and visible tension in the neck muscles transitioning from active resistance to passive acceptance. Any of these signals means you should stop increasing force and allow time for the tap rather than pushing further."
@@ -100,7 +100,7 @@ description: "Learn to attack with the neck crank from Twister Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively to prevent the chin strap grip—what adjustment do you make?",
+      "name": "They tuck their chin to block the chin strap in twister control—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the crossface variation by driving the forearm bone across the jaw line above the tucked chin, or transition to the behind-the-head pull by cupping the back of the skull with interlocked fingers. The chin tuck defense specifically blocks the chin strap but creates vulnerability to attacks from different angles. The crossface works over the jaw regardless of chin position, while the behind-the-head pull attacks cervical flexion rather than rotation."

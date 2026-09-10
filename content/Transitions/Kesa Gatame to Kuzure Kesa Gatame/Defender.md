@@ -56,7 +56,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Kuzur
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to transition from Kesa Gatame to Kuzure Kesa Gatame?",
+      "name": "What is the earliest cue that they are switching from Kesa Gatame to Kuzure Kesa Gatame on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their posted far leg begin walking forward in small steps while their seated hip weight starts shifting onto their chest against your torso. You will also feel the head wrap around your neck begin to loosen slightly as their body angle changes from perpendicular to diagonal. These subtle pressure changes occur before any visible positional shift and provide the maximum time window for defensive action."
@@ -64,7 +64,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Kuzur
     },
     {
       "@type": "Question",
-      "name": "Why is the transition moment more favorable for escape than either the starting Kesa Gatame or the ending Modified Scarf Hold?",
+      "name": "Why is the Kesa to Kuzure Kesa transition better for escape than either settled position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the top player is between two stable positions, meaning their base is temporarily compromised. Their weight is shifting from the seated hip-based stability of Kesa Gatame to the chest-based compression of Modified Scarf Hold, and at the midpoint they have neither the seated base nor the settled chest weight. This instability makes bridging more effective and creates brief moments where arm control loosens as the top player adjusts grips."
@@ -72,7 +72,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Kuzur
     },
     {
       "@type": "Question",
-      "name": "If the transition completes successfully and you are now under Modified Scarf Hold, what is your immediate defensive priority?",
+      "name": "They complete Kuzure Kesa Gatame on you — what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately protect your breathing by turning your head to the side and tucking your chin to create an airway pocket. Then establish a frame with your free arm against their hip and shoulder to prevent them from settling deeper. Do not waste energy attempting Kesa Gatame escapes. Switch to Modified Scarf Hold escape protocols: focus on frame creation, hip escape sequences, and turtle transitions rather than bridge-and-turn back attacks."
@@ -80,7 +80,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Kuzur
     },
     {
       "@type": "Question",
-      "name": "Your opponent's armpit squeeze on your trapped arm momentarily loosens during the weight shift - how do you exploit this?",
+      "name": "Their armpit squeeze on your trapped arm loosens during the weight shift — how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The instant you feel the armpit pressure decrease, bend your trapped arm sharply and rotate your elbow toward your own hip to extract it from under their armpit. Do not push straight out as this re-engages their squeeze. Pull the arm in a circular motion toward your centerline. Once the arm is free, immediately insert your elbow as a frame against their hip and begin shrimping to create space for guard recovery before they can re-trap the arm under Modified Scarf Hold chest pressure."

@@ -114,7 +114,7 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Describe the optimal timing window for executing Ouchi Gari and how to recognize it during live grappling?",
+      "name": "When is the best moment to hit Ouchi Gari, and how do you recognize it live?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing for Ouchi Gari occurs when opponent either: (1) steps forward with their lead leg, momentarily committing weight to it before establishing base, (2) stands with weight distributed evenly between both legs without active movement, making them vulnerable to the off-balancing, or (3) responds to your grip fighting by pulling back slightly, loading their weight onto their heels. You recognize these moments through feeling their weight distribution through your grips and observing their foot positioning. Advanced practitioners can create the timing by using feints and grip fighting to provoke the desired response. The key is attacking during weight transfer or static positioning—not when opponent is actively moving away or laterally circling."

@@ -84,7 +84,7 @@ description: "Learn to attack with the belly down armbar finish from armbar cont
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together as you begin rotating to belly-down - what adjustment prevents the defense from succeeding?",
+      "name": "They clasp their hands as you rotate belly-down — how do you beat that defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Complete the rotation to prone position even with their hands clasped, because the belly-down body weight creates far more grip-breaking force than the supine position. Once prone, wedge your forearm between their clasped hands and lever them apart, or attack the top hand by peeling individual fingers. The gravity-assisted pressure of the prone position makes hand clasping a temporary delay rather than a permanent defense."

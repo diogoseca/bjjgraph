@@ -108,7 +108,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your choking foot and begins to strip it from behind their head - what are your options?",
+      "name": "They grab your choking foot to strip the gogoplata: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they grab your foot with their far arm, that arm is now extended and vulnerable - release the Gogoplata and attack the armbar on that arm. If they use their near arm, transition to omoplata as their shoulder is already compromised from the original Mission Control position. Never fight to maintain a Gogoplata that's being actively stripped - the transitions available are often higher percentage than forcing the original attack."

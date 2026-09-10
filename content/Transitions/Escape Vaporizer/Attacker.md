@@ -80,7 +80,7 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What signals indicate that your Vaporizer position has become unproductive and a transition to open guard is warranted?",
+      "name": "What signals that your Vaporizer has stalled and you should transition to open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent consistently neutralizing your whip-up motion through base widening, their establishment of a strong whizzer that prevents your underhook from generating leverage, repeated failed sweep attempts, and the opponent beginning to systematically work on clearing your lockdown. Energy expenditure exceeding offensive output is the clearest signal—if you are working harder to maintain the position than the opponent is working to escape it, the position has become counterproductive and a tactical reset to open guard offers better returns."
@@ -96,7 +96,7 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving forward pressure just as you start loosening the lockdown—what is the correct response?",
+      "name": "They drive forward as you start loosening the lockdown: what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the escape attempt and re-tighten the lockdown figure-four. Forward momentum from the opponent makes the transition extremely dangerous because they will drive through any incomplete frame before it can be established. Wait for their pressure to settle before attempting the release again. If you cannot re-establish the full lockdown, transition to knee shield half guard as a defensive fallback rather than trying to complete the open guard transition under heavy forward pressure."
@@ -112,7 +112,7 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "How does the Escape Vaporizer differ mechanically from simply having your lockdown cleared by the opponent?",
+      "name": "How does escaping the Vaporizer yourself differ mechanically from having your lockdown cleared?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you initiate the escape, you control the timing and sequence of the lockdown release, allowing you to coordinate frames, grips, and distance creation proactively. When the opponent clears your lockdown, they dictate the timing and typically do so while simultaneously advancing their passing position. The key difference is initiative—a proactive release lets you establish defensive structures before the lockdown opens, while a forced clearing leaves you reacting to passing pressure without preparation."
@@ -120,7 +120,7 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the lockdown release relative to the opponent's movement cycle?",
+      "name": "When in your opponent's movement cycle should you release the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate the release when the opponent's weight is settled and they are between defensive adjustments—specifically when they have just completed a base widening or weight shift and are momentarily static. Avoid releasing during any of their active movements or when they are generating forward drive. The ideal window occurs during a pause in their defensive sequence when their muscular tension is slightly reduced and reaction time is marginally slower."

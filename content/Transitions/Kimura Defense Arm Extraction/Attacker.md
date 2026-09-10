@@ -88,7 +88,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep Kimura grip with their elbows locked tight to their body - what extraction variant should you use?",
+      "name": "They hold a deep Kimura grip with elbows locked tight — which arm extraction variant do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the hip switch extraction. By changing your hip angle relative to the Kimura grip, you create a new pressure vector that the tight elbow position cannot resist. Turn your hips away from the trapped arm side while maintaining chest pressure. This angular change compromises the grip structure at a different plane than the standard straight arm drive, forcing the holder to adjust or lose the grip."
@@ -96,7 +96,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
     },
     {
       "@type": "Question",
-      "name": "What secondary control must you prevent the bottom player from establishing during your extraction attempt?",
+      "name": "Extracting your arm from the Kimura trap, which secondary control must you deny them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lockdown is the most dangerous secondary control. When the bottom player adds lockdown to the Kimura grip, they create a compound trap that dramatically reduces extraction success rates. The lockdown eliminates your hip mobility, which is essential for the weight transfer and angle creation needed during extraction. Always prioritize preventing lockdown establishment before committing to arm extraction mechanics."
@@ -104,7 +104,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
     },
     {
       "@type": "Question",
-      "name": "You successfully extract your arm but the opponent immediately starts building guard structure - what is your immediate response?",
+      "name": "You extract your arm and they start rebuilding guard — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive immediately into crossface with the recovered arm and establish heavy top pressure in half guard. Do not rest or pause after the extraction. The opponent's guard structure is weakest in the two to three seconds immediately following Kimura grip loss because they have been focused on maintaining the grip rather than establishing guard frames. Exploit this window aggressively by initiating your preferred passing sequence."

@@ -108,7 +108,7 @@ description: "How to execute Counter-entangle to 50-50 Guard in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sprawling their hips back as you initiate the threading motion - how do you adjust?",
+      "name": "They sprawl their hips back as you thread for 50-50 from Leg Knot bottom. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their sprawl as a lever point by hip escaping away from them while continuing the threading motion. The additional space their sprawl creates can actually help complete the thread from a different angle. If the sprawl completely blocks the thread, abandon the 50-50 and transition to Single Leg X-Guard recovery using the space created."

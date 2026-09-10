@@ -58,7 +58,7 @@ description: "Defend against the Americana from Technical Mount in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel the attacker grab your wrist in Technical Mount?",
+      "name": "What is your most important action when they grab your wrist in technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight the wrist pin by pulling the elbow tight to your ribs and turning the wrist inward toward your body. Do not wait to see if they establish the figure-four—every fraction of a second the wrist remains pinned makes escape harder. Simultaneously begin bridging toward the posted leg side to disrupt their base. The wrist pin is the foundation of the entire Americana; preventing it stops the submission at its earliest and most defensible stage."

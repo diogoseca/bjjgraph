@@ -56,7 +56,7 @@ description: "Defend and counter the Ushiro Kesa Gatame to North-South transitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the Ushiro Kesa Gatame to North-South transition?",
+      "name": "What is the earliest cue that they are rotating from ushiro kesa gatame to north-south on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window."
@@ -72,7 +72,7 @@ description: "Defend and counter the Ushiro Kesa Gatame to North-South transitio
     },
     {
       "@type": "Question",
-      "name": "Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?",
+      "name": "Your bridge was absorbed and they are past the midpoint toward north-south: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed."
@@ -80,7 +80,7 @@ description: "Defend and counter the Ushiro Kesa Gatame to North-South transitio
     },
     {
       "@type": "Question",
-      "name": "How should your hip escape direction differ when defending this transition versus escaping established north-south?",
+      "name": "How should hip escape direction differ mid-rotation versus from established north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment."
@@ -88,7 +88,7 @@ description: "Defend and counter the Ushiro Kesa Gatame to North-South transitio
     },
     {
       "@type": "Question",
-      "name": "The top player has completed the rotation and is settling into north-south - what is your last-resort defensive priority?",
+      "name": "They have settled into north-south from ushiro kesa: what is your last-resort defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately get your forearms perpendicular to the top player's chest to create skeletal frames before their weight fully consolidates. Your elbows must stay tight to your ribs for structural integrity. Even partial frames are valuable because they prevent full chest-to-chest compression and preserve breathing space. Simultaneously begin small hip escapes to incrementally create distance. The goal shifts from preventing the transition to establishing the minimum defensive structure needed to begin a north-south escape sequence. Acting within the first two to three seconds of their arrival is critical before underhooks lock in."
@@ -96,7 +96,7 @@ description: "Defend and counter the Ushiro Kesa Gatame to North-South transitio
     },
     {
       "@type": "Question",
-      "name": "How do you decide between bridging early versus waiting for the grip exchange window to insert a knee?",
+      "name": "How do you choose between bridging early and waiting for the grip exchange to insert a knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery."

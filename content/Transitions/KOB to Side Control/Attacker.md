@@ -114,7 +114,7 @@ description: "Master executing the KOB to Side Control consolidation. Learn grip
     },
     {
       "@type": "Question",
-      "name": "When is it strategically advantageous to return to side control rather than advancing to mount from KOB?",
+      "name": "When is returning to side control better than advancing to mount from knee on belly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Returning to side control is advantageous when the opponent's defensive activity makes KOB maintenance energy-expensive, when you want to access side control submission chains like americana and kimura that are unavailable from KOB, when you need to reset your attacking posture after a failed submission attempt, or when the opponent is actively threatening to reverse you from KOB through strong framing. Side control offers superior stability and sustainability compared to KOB."

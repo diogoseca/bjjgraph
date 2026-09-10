@@ -74,7 +74,7 @@ description: "Complete attacking guide for the Dogfight Sweep. Step-by-step exec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical grip that makes the Dogfight Sweep mechanically inevitable when combined with underhook pressure?",
+      "name": "Which grip makes the dogfight sweep mechanically inevitable alongside underhook pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip behind the opponent's far knee or thigh is the critical element. This grip removes the opponent's primary posting base—their far leg—which is the only structure preventing them from being toppled by the underhook drive. Without this post, the opponent has no way to resist the diagonal force being applied through the underhook and head pressure. The grip should cup behind the knee for maximum control over the leg's position."
@@ -90,7 +90,7 @@ description: "Complete attacking guide for the Dogfight Sweep. Step-by-step exec
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far leg wide and actively retracts it when you reach for the grip—how do you adjust?",
+      "name": "They post the far leg wide and retract it when you reach for the grip: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent retracts their far leg to deny the grip, their hips must turn away from you, exposing their back. This is the primary chain attack opportunity. Immediately abandon the far leg grip attempt and transition to a back take by deepening your underhook, driving your chest into their turning back, and working for seatbelt control. The sweep threat creates the back take opportunity, and vice versa—this dilemma is what makes the Dogfight system so effective."
@@ -106,7 +106,7 @@ description: "Complete attacking guide for the Dogfight Sweep. Step-by-step exec
     },
     {
       "@type": "Question",
-      "name": "Your Dogfight Sweep attempt stalls because the opponent applies a heavy whizzer—what is your immediate chain attack?",
+      "name": "Your dogfight sweep stalls against a heavy whizzer: what is your chain attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A heavy whizzer means the opponent is committing significant energy and weight to controlling your underhook arm. This creates two immediate chain opportunities: first, duck under the whizzer pressure and enter deep half guard where the whizzer becomes a structural disadvantage for the opponent; second, use the whizzer pressure against them by redirecting to a forward drive sweep that exploits their committed weight. Never fight a strong whizzer head-on—redirect the force into your next technique."

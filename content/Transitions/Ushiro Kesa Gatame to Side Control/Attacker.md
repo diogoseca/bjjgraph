@@ -74,7 +74,7 @@ description: "Master the Ushiro Kesa Gatame to Side Control transition from the 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What body part serves as the primary pivot point during the rotation from reverse kesa to side control?",
+      "name": "What body part is the pivot point rotating from reverse kesa to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your chest serves as the pivot point. The rotation occurs around the contact point where your chest presses into the opponent's upper torso. Your weight should remain on this contact point throughout the entire movement, never lifting off the opponent. The chest acts as an anchor that maintains pressure while your legs walk around to the new orientation."
@@ -90,7 +90,7 @@ description: "Master the Ushiro Kesa Gatame to Side Control transition from the 
     },
     {
       "@type": "Question",
-      "name": "Your opponent inserts their near knee during the midpoint of the rotation — what is your immediate response?",
+      "name": "They insert their near knee midway through your reverse kesa to side control rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hip forward to smash the knee back down before it establishes a half guard frame. If their knee is already through and wedged in position, do not force the side control transition. Instead, immediately switch to a knee slice passing sequence from the newly formed half guard top position, using your established upper body control to complete the pass."
@@ -114,7 +114,7 @@ description: "Master the Ushiro Kesa Gatame to Side Control transition from the 
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges hard just as you begin walking your far leg toward their head — how do you adjust?",
+      "name": "They bridge hard as you walk your far leg toward their head from reverse kesa: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ride the bridge by staying connected through your chest pivot point rather than lifting away. Immediately widen your base by extending your far leg further and posting your near foot. Drop your hips lower to increase weight on their torso. If the bridge is powerful enough to compromise your rotation, abandon the transition attempt and re-settle into stable reverse kesa-gatame rather than forcing completion against active resistance."

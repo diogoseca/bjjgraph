@@ -72,7 +72,7 @@ description: "How to defend against Gift Wrap in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Your arm is fully wrapped and locked high across your chest—what is your immediate defensive priority?",
+      "name": "Your arm is fully wrapped high across your chest in mount: what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift from arm recovery to positional escape. Once the wrap is locked with the arm high, the mechanical advantage prevents muscular extraction. Use your free arm to frame on the attacker's hip, begin hip escaping toward the trapped arm side, and work to insert your knee for half guard recovery. Accept the arm trap temporarily and focus on preventing further positional advancement while working toward guard recovery."
@@ -80,7 +80,7 @@ description: "How to defend against Gift Wrap in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "When during the Gift Wrap sequence is the attacker's control at its weakest and most vulnerable to disruption?",
+      "name": "When is the Gift Wrap sequence weakest and most open to disruption from mount bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transfer moment—when the attacker releases their initial wrist control hand to let the threading arm take over the grip—represents the weakest link in the sequence. For a brief instant, neither hand has a secure locked grip on your wrist. Time an explosive arm retraction or bridge to this exact moment. Reading the grip transfer requires drilling against the technique repeatedly to develop the timing sensitivity."
@@ -88,7 +88,7 @@ description: "How to defend against Gift Wrap in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "How should you use your free arm when your opponent has partially established the Gift Wrap and is threatening your neck?",
+      "name": "With the Gift Wrap partly set and your neck threatened, how do you use your free arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free arm must prioritize neck defense above all other tasks. Tuck your chin and use your free hand to create a defensive frame against the attacker's choking arm, gripping their wrist or forearm to prevent it from sliding under your chin. Do not use the free arm to attempt arm recovery when neck threats are active—losing the neck battle ends the match immediately, while the arm trap alone does not. Once the choke threat is neutralized, you can briefly redirect the free hand to assist positional escape."

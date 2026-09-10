@@ -100,7 +100,7 @@ description: "How to execute Leg Extraction to Guard in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a shallow entanglement suitable for extraction from a deep entanglement requiring alternative escape?",
+      "name": "In ushiro ashi-garami, what marks an entanglement as shallow enough to extract from?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shallow entanglement is characterized by the opponent's inside leg having minimal control below your knee, their upper body not pinning your hips, and no established heel grip. Deep entanglement features tight inside leg control on your thigh, consolidated upper body position, and active heel exposure. Deep entanglement requires accepting turtle or other alternatives rather than forcing extraction."

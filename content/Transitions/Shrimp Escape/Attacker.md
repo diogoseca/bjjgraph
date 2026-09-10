@@ -76,7 +76,7 @@ description: "How to execute Shrimp Escape in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of the small bridge before executing the shrimp, and what happens if you skip this step?",
+      "name": "Why bridge before shrimping from bottom side control, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The micro-bridge unweights your hips by momentarily lifting them off the mat, which creates the mobility necessary for the hip escape movement. When your hips are weighted and pressed into the mat by opponent's pressure, they cannot move laterally or rotationally. The bridge transfers your weight momentarily to your shoulders and feet, freeing your hips to execute the shrimping motion. Without the bridge, your shrimp will be weak and ineffective because your hips remain pinned to the mat."
@@ -84,7 +84,7 @@ description: "How to execute Shrimp Escape in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is angular shrimping more effective than shrimping in a straight line directly away from your opponent?",
+      "name": "Why shrimp at an angle rather than straight back from bottom side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angular shrimping creates a vector that is harder for opponent to follow and generates more functional space for guard recovery. When you shrimp straight back, opponent can simply walk forward on their knees to maintain pressure. However, when you shrimp at an angle (typically 45 degrees), opponent must adjust their entire body position to follow, which takes more time and effort. Additionally, angular movement allows you to create space specifically where you need it—between your hip and opponent's chest—while potentially using the mat boundary to your advantage."
@@ -108,7 +108,7 @@ description: "How to execute Shrimp Escape in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives their shoulder into your face while maintaining heavy hip pressure—how do you adjust your frame positioning?",
+      "name": "Under a heavy crossface and hip pressure, how do you adjust your frames to shrimp out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent applies heavy crossface pressure, your primary frame must address the shoulder pressure first. Place your far-side forearm across their neck or chin, creating a wedge that prevents them from driving further into your face. Your near-side arm should frame against their hip to maintain hip separation. If the crossface is too heavy to frame against directly, turn your head away from the pressure and use your far arm to post against their shoulder while focusing your escape angle away from the crossface direction. The key is accepting you cannot fight the pressure directly—instead, redirect your escape vector."

@@ -82,7 +82,7 @@ description: "Execute the Matrix to Side Control transition as the top player. T
     },
     {
       "@type": "Question",
-      "name": "Why must crossface control be established before attempting to flatten the opponent during this transition?",
+      "name": "In Matrix to side control, why establish the crossface before flattening your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crossface control eliminates the opponent's ability to turn their head toward you, which is the prerequisite for re-entering the Matrix rotation. Without the crossface, the opponent retains rotational freedom and can use any forward pressure you apply as leverage for a secondary back take attempt. The crossface also creates uncomfortable pressure that forces defensive reactions, occupying the opponent's attention while you advance the consolidation."
@@ -90,7 +90,7 @@ description: "Execute the Matrix to Side Control transition as the top player. T
     },
     {
       "@type": "Question",
-      "name": "Your opponent's Matrix rotation is blocked but they still maintain a strong belt grip with one hand—how do you proceed?",
+      "name": "You blocked their Matrix rotation but they keep a belt grip: how do you pass to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the belt grip before committing to the side control consolidation. That remaining grip provides a connection point the opponent can use to re-initiate rotation or pull you off balance during your passing attempt. Use your free hand to execute a sharp grip break while maintaining chest pressure to prevent them from using the momentary grip-fighting exchange to create space or reset their position for another Matrix entry."
@@ -98,7 +98,7 @@ description: "Execute the Matrix to Side Control transition as the top player. T
     },
     {
       "@type": "Question",
-      "name": "What direction of force should your chest pressure travel during the flattening phase of this transition?",
+      "name": "Passing to side control after a blocked Matrix, which way should your chest pressure drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive chest pressure diagonally across the opponent's body, perpendicular to their spine, combining lateral force with downward weight. This diagonal vector rolls them from their side onto their back while simultaneously eliminating the space between your bodies. Driving straight down is less effective because it compresses without flattening, and driving purely laterally allows them to use your momentum to create distance."
@@ -106,7 +106,7 @@ description: "Execute the Matrix to Side Control transition as the top player. T
     },
     {
       "@type": "Question",
-      "name": "The opponent attempts to re-enter their Matrix rotation as you begin consolidating—what is your immediate response?",
+      "name": "They re-enter the Matrix rotation as you consolidate side control: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return to your wide defensive base and re-block the rotation rather than trying to force through the consolidation. A secondary Matrix attempt against a narrow, passing-focused base is far more likely to succeed than the initial attempt against your prepared defense. Once the secondary rotation is fully neutralized, restart the consolidation sequence from the grip-stripping phase. Patience here prevents giving up back control."

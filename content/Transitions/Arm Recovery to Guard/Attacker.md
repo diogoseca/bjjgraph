@@ -104,7 +104,7 @@ description: "How to execute Arm Recovery to Guard in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent shifts their weight forward to set up an Americana on your trapped arm—how does this create your extraction window?",
+      "name": "In kesa-gatame bottom, how does their forward shift for an Americana open your arm extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forward weight shift to grip for the Americana lightens the hip pressure on your ribs and loosens the armpit clamp as their focus and weight moves toward your arm rather than maintaining the pin. This is the optimal moment to bridge perpendicular to their base and extract the elbow during the momentary pressure reduction. Their offensive commitment creates the defensive opening."
@@ -120,7 +120,7 @@ description: "How to execute Arm Recovery to Guard in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "You extract your arm successfully but the opponent immediately drives forward to re-pass—what must you do in the next two seconds?",
+      "name": "Right after extracting your arm, they drive forward to re-pass; what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately insert your near-side knee across their torso as a shield while completing your hip escape. If they drive hard, use the knee shield to redirect their pressure while your far leg circles behind them to close guard. Establishing any guard—even Half Guard—is the priority. If you hesitate after extraction without inserting the knee shield, they will re-establish side control grips on your now-free arm and return you to the same trapped position."

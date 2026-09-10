@@ -80,7 +80,7 @@ description: "Complete guide to escaping kneebar control maintenance in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "Your push frame against the attacker's hip fails and they pin your free leg - what is your immediate priority?",
+      "name": "Your hip frame fails and they pin your free leg in the kneebar; what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately refocus on maximizing knee bend on the trapped leg and begin working to free your pinned leg through hip escaping and circular ankle movement. With both legs controlled, your defensive options narrow to upper body frames and explosive bridging. Use your hands to grab your own shin and reinforce the knee bend. If possible, hook their controlling arm with your free hand to begin disrupting their grip. Avoid panicking into a flat, extended position - maintain defensive composure and work incrementally to recover your free leg before attempting the next escape."

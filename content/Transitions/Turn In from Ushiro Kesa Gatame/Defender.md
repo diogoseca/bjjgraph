@@ -58,7 +58,7 @@ description: "Learn to prevent and counter the Turn In escape from Ushiro Kesa G
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to mount often better than fighting to maintain reverse kesa when the turn-in is partially successful?",
+      "name": "Why transition to mount instead of fighting to keep reverse kesa when their turn-in is half done?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the bottom player has created rotational space and begun turning, re-flattening them requires fighting against their momentum and the space they have already created. The energy cost is high and success is uncertain. Transitioning to mount capitalizes on the space the bottom player created by using it for your own leg to step over. This converts their escape attempt into a worse positional outcome, which also discourages future turn-in attempts."

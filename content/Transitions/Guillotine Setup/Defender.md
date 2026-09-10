@@ -56,7 +56,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from front headlock control to a guillotine setup?",
+      "name": "What is the earliest cue that their front headlock is becoming a guillotine setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the pressure on your neck shift from the back to the front—specifically, when the attacker releases their standard front headlock grip on the back of your neck and begins repositioning their arm under your chin. You will also feel their far-shoulder control hand release as they prepare to clasp both hands together. This transitional moment is your best defensive window because the attacker has temporarily loosened their overall control to reconfigure for the guillotine."
@@ -64,7 +64,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward into the attacker sometimes the correct defensive choice, even though it feels counterintuitive?",
+      "name": "Defending a guillotine setup, why is driving forward into the attacker sometimes correct?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving forward disrupts the attacker's base and angle during their most vulnerable transitional moment—when they are stepping laterally to create the 45-degree angle necessary for the guillotine. Forward pressure collapses their structure, prevents them from completing the angle change, and can reverse the positional dynamic entirely. The counterintuitive nature of this defense is precisely why it works: most practitioners pull away, which extends the neck and tightens the choke. Driving forward compresses the space and makes it difficult for the attacker to generate the upward lifting force required for the choke."
@@ -72,7 +72,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked a gable grip and stepped to an angle but has not yet pulled guard—what is your best defensive option at this stage?",
+      "name": "They have a gable grip and an angle but haven't pulled guard yet—your best defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, your best option is two-on-one grip fighting on the choking arm combined with aggressive circling away from the choking side. Use both hands to control the attacker's choking wrist and peel it away from your throat while simultaneously circling your body away from their angle. Your chin must remain tucked throughout. If you cannot break the grip, your secondary option is to posture up explosively while hand fighting, using the moment before they pull guard as your last opportunity to create enough space to extract your head."
@@ -80,7 +80,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy change if the attacker attempts a standing guillotine finish versus pulling guard?",
+      "name": "How does your guillotine defense differ against a standing finish versus a guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a standing finish, the attacker relies on dropping their weight and arching backward for choking pressure, so your defense involves driving forward to prevent them from creating downward leverage while hand fighting the grip. Staying connected hip-to-hip neutralizes the standing finish. Against a guard pull, the attacker will use their legs to control your posture and create a second compression point. Your defense shifts to preventing the guard closure—sprawl your hips back and keep your posture tall to deny them the leg control that makes the bottom guillotine dangerous. The key distinction is forward pressure for standing and postural extension for guard pull."
@@ -88,7 +88,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustments should you make if you recognize the attacker is threading an arm-in guillotine rather than a standard guillotine?",
+      "name": "How do you adjust when you recognize an arm-in guillotine instead of a standard one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm-in guillotine traps your near arm inside the choking loop along with your neck, which changes the choking mechanics and makes certain standard defenses less effective. Your key adjustment is to pull your trapped arm out before the grip consolidates—swim your elbow down and back to extract it from the loop. If extraction fails, turn your body toward the trapped arm side (the opposite direction from standard guillotine defense) because the arm-in variation finishes best when you are squared up or turned away. Additionally, the trapped arm actually provides a small buffer against the choke, so you have slightly more time to work your defense compared to a standard guillotine."

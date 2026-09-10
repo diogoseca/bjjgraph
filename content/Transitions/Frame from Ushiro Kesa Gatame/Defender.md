@@ -50,7 +50,7 @@ description: "Learn to prevent and counter the frame escape from Ushiro Kesa Gat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent establishes a forearm frame against your hip from reverse scarf hold bottom - what is your immediate response?",
+      "name": "They frame your hip from reverse scarf hold bottom — what's your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your weight lower and drive your hip pressure directly through the frame before it achieves full skeletal alignment. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is already solidly established with proper elbow-to-body positioning, transition to attacking the framing arm or near-side arm rather than trying to collapse a well-structured frame through pressure alone, which wastes energy."
@@ -58,7 +58,7 @@ description: "Learn to prevent and counter the frame escape from Ushiro Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully completes two hip escape increments and begins inserting their knee between your bodies - how do you respond?",
+      "name": "They finish two hip escapes and start inserting a knee under your reverse scarf hold — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two options depending on how far the knee has penetrated. If the knee has not yet crossed your centerline, immediately drive your hip back into the created space and use your hand to push their knee down and away, re-establishing chest contact. If the knee is already establishing a shield across your torso, immediately transition to north-south or step over to mount before the half guard is fully secured, converting their escape progress into your positional advancement rather than fighting a losing battle to maintain reverse scarf hold."
@@ -66,7 +66,7 @@ description: "Learn to prevent and counter the frame escape from Ushiro Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "When should you transition away from reverse scarf hold rather than continuing to fight the frame escape?",
+      "name": "When should you leave reverse scarf hold instead of fighting their frame escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when the cumulative space from chained hip escapes makes re-closing distance energy-expensive, meaning you would need to expend significant effort to drive through established frames and recover chest-to-chest contact. The decision point is whether you can collapse the frame and close the gap faster than the bottom player can insert their knee. If the answer is uncertain, transition to north-south or mount immediately. Fighting to maintain a deteriorating reverse scarf hold wastes energy that could fuel a successful transition to a fresh dominant position."
@@ -74,7 +74,7 @@ description: "Learn to prevent and counter the frame escape from Ushiro Kesa Gat
     },
     {
       "@type": "Question",
-      "name": "How does attacking the near-side arm preemptively reduce the effectiveness of frame escape attempts from reverse scarf hold bottom?",
+      "name": "How does preemptively attacking the near arm degrade their frame escape from reverse scarf hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attacking the near-side arm with americana or kimura forces the bottom player to prioritize arm defense over frame maintenance. They must pull their near arm back to defensive position, potentially use their far-side arm to defend the submission rather than maintaining their frame, and abandon hip escape positioning to address the immediate threat. This completely resets their escape progress and drains energy on defense. However, maintain your base during the submission attempt, as committing both hands to the attack without base adjustment creates a window where a desperate bridge may succeed."

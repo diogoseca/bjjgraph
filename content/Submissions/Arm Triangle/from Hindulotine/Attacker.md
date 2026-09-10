@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the opponent's defense creates the arm triangle opportunity from Hindulotine?",
+      "name": "What defensive reaction from Hindulotine signals the arm triangle is available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is the opponent creating a near-side arm frame across their own neck to relieve guillotine pressure. You will feel their forearm or hand pushing against your choking arm or their own neck. This frame positions their arm exactly where it needs to be for the arm triangle. The moment you feel this defensive frame, begin the transition rather than fighting to maintain the guillotine."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment is required when transitioning from Hindulotine grip to arm triangle configuration?",
+      "name": "What grip change takes you from the Hindulotine to the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the guillotine grip only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for a tighter configuration."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to frame against your Hindulotine grip with their near arm - what adjustment capitalizes on this reaction?",
+      "name": "They frame with the near arm against your Hindulotine grip — how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
+      "name": "With the arm triangle locked from Hindulotine, what shows they're past the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape."

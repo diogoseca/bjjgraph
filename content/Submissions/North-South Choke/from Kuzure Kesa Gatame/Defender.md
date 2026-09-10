@@ -90,7 +90,7 @@ description: "Complete defensive guide against the North-South Choke from Kuzure
     },
     {
       "@type": "Question",
-      "name": "Your opponent is sliding toward your head and you feel their arm threading under your neck - what is your immediate response?",
+      "name": "They slide toward your head and thread an arm under your neck from kuzure kesa gatame—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately frame on their hip with your free arm, driving your forearm into their hip bone at a 45-degree angle to physically block the rotational slide. Simultaneously, use your near hand to fight the threading arm by pushing their elbow away from your neck or gripping their wrist to prevent deeper penetration. Begin shrimping your hips away from them to create distance. If the arm is already past your centerline and the frame is not holding, transition immediately to turning toward the choking arm to collapse the shoulder angle before it seats in the carotid pocket."

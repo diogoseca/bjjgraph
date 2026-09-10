@@ -56,7 +56,7 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the passer is about to attempt a hook clearing sequence?",
+      "name": "What is the earliest cue that the passer is about to start a hook clearing sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer establishing a crossface or collar grip on one side while breaking your grip on that same side. This asymmetric grip advantage is the prerequisite for the clearing attempt. Before they shift weight or drive their knee, the grip establishment tells you which side they will target. Immediately fight the grip and threaten a sweep on that side to disrupt their setup before it develops."
@@ -64,7 +64,7 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "Why is timing your sweep to coincide with the passer's weight shift more effective than sweeping at a random moment?",
+      "name": "Why is sweeping on the passer's weight shift better than sweeping at a random moment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer shifts weight to clear a hook, they have committed their center of gravity to one side. This commitment means they cannot effectively resist a sweep in the same direction because they would need to reverse their weight distribution mid-motion. A sweep timed with their shift requires far less force to execute because you are redirecting existing momentum rather than creating momentum against a balanced opponent. This is the fundamental principle of using the opponent's force against them."
@@ -72,7 +72,7 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "Your left butterfly hook has been partially cleared but the passer has not yet consolidated. What is your immediate recovery sequence?",
+      "name": "Your left hook is partly cleared but they haven't consolidated: what is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame on the passer's shoulder or bicep with your left arm to create separation space. Simultaneously shrimp your hips backward to increase the distance between your foot and the passer's cleared position. Slide your left foot back under their thigh to re-engage the hook while your frame prevents them from following your hip movement with pressure. Once the hook is re-inserted, immediately re-establish your upper body grips and return to active butterfly guard posture."
@@ -80,7 +80,7 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "How does maintaining active hook pressure differ from simply having your feet positioned under the opponent's thighs?",
+      "name": "How does active butterfly hook pressure differ from just placing your feet under their thighs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Active hook pressure means your feet are driving upward with constant muscular engagement through hip extension, creating a loaded-spring effect that resists any downward force the passer applies. Passive hooks are simply positioned under the thighs with no upward drive, making them easily compressed and cleared by the passer's knee drive. Active hooks force the passer to overcome your lifting force before they can clear, buying you time to react and counter. The difference is between a hook that fights to stay engaged and one that simply occupies space."

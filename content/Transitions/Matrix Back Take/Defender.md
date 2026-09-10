@@ -56,7 +56,7 @@ description: "How to defend against the Matrix Back Take in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a matrix back take is being attempted rather than a standard back take?",
+      "name": "What is the earliest cue that they are attacking a matrix back take rather than a standard one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker circling toward your far side while threading an arm deep under your near-side armpit, rather than working to establish a direct seatbelt grip from behind. A standard back take involves the attacker staying centered behind you and working hooks in from a direct angle, while the matrix involves angular movement where the attacker shifts perpendicular to your torso. Feeling the arm thread deeply with the attacker's shoulder pressing into your ribs is the definitive signal."
@@ -72,7 +72,7 @@ description: "How to defend against the Matrix Back Take in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The attacker has already threaded their arm and stepped their leg through, but has not begun the hip slide yet. What is your best defensive option?",
+      "name": "They threaded arm and leg but have not started the hip slide: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is an aggressive turn into the attacker before the hip slide begins. Rotate your torso forcefully toward the attacker's body, which eliminates the back-take angle and forces a front-facing exchange. The attacker's threaded arm and stepped leg become liabilities in a face-to-face position rather than assets for a back take. You must commit to this turn fully and quickly, as any hesitation gives the attacker time to initiate the slide."
@@ -80,7 +80,7 @@ description: "How to defend against the Matrix Back Take in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How does defending the matrix back take differ from defending a traditional seat belt back take from turtle?",
+      "name": "How does defending the matrix back take differ from defending a seatbelt back take from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Traditional back take defense focuses on grip fighting to prevent the seatbelt from being established and hook prevention through hip positioning. Matrix defense focuses on denying physical space for arm and leg insertion and reacting to angular movement patterns. Against a traditional back take you fight grips; against the matrix you close gaps in your structure and respond with whole-body movement like sitting back, turning in, or granby rolling. The timing window is also different, as the matrix has a clear point of no return during the hip slide that does not exist in standard entries."
@@ -88,7 +88,7 @@ description: "How to defend against the Matrix Back Take in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your granby roll defense against the matrix entry was followed by the attacker, and they now have partial truck position. What should you do?",
+      "name": "They followed your granby roll and have partial truck: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the leg entanglement by working to extract your trapped leg before the attacker can fully consolidate truck position. Use your free leg to push against their hip and create separation while using your arms to fight for upper body freedom. If full truck is established, shift to truck-specific escapes: keep your hips mobile, prevent them from securing the lock, and work toward rolling to a position where you can disentangle your legs. The priority shifts from matrix defense to leg entanglement defense."

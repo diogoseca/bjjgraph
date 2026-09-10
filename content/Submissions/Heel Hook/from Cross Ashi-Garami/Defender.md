@@ -90,7 +90,7 @@ description: "Defend the heel hook from Cross Ashi-Garami with recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is explosive spinning particularly dangerous when defending the heel hook from Cross Ashi-Garami?",
+      "name": "Why is explosive spinning dangerous when defending the heel hook from Cross Ashi-Garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive spinning feeds rotational force directly into the heel hook mechanism. The heel hook finishes through rotation of the heel and ankle, and your uncontrolled spinning motion creates exactly the rotational force the attacker needs to damage your knee ligaments. The attacker can simply follow and amplify your own momentum. Only attempt rotational escapes when the cross configuration is clearly compromised and the escape path is open."

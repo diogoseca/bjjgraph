@@ -64,7 +64,7 @@ description: "How to defend against the Inversion Escape from Honey Hole in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free foot and begins loading for an explosive inversion - what is your immediate response?",
+      "name": "They post the free foot and load for an explosive inversion from honey hole: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two immediate options depending on whether you have heel grip. If you have heel grip, tighten it and apply controlled breaking pressure - they cannot safely invert. If you do not have heel grip, drive your hips forward aggressively while simultaneously reaching for either their heel (if accessible) or their free leg (to eliminate their drive source). Do not remain static. Every fraction of a second you hesitate allows their posted leg to generate more rotational force."
@@ -72,7 +72,7 @@ description: "How to defend against the Inversion Escape from Honey Hole in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between an opponent preparing for inversion versus preparing for hip escape from Honey Hole?",
+      "name": "From honey hole, how do you tell an inversion setup from a hip escape setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inversion preparation features the free foot posting outside their hip with toes angled outward, grip changes to your pants at the knees, and loading onto one shoulder. Hip escape preparation features the free foot pushing against your hip or body, hands fighting your heel grip directly, and hip movement away from you rather than rotational loading. The direction of their initial force is the key tell - inversion rotates toward the trapped leg while hip escape drives linearly away from your control."
@@ -80,7 +80,7 @@ description: "How to defend against the Inversion Escape from Honey Hole in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inverting and their trapped leg momentarily straightens during the rotation - what opportunity does this create?",
+      "name": "Their trapped leg straightens as they invert out of honey hole: what does that open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The straightened leg during inversion creates an immediate kneebar opportunity. As they rotate, their knee extends past the normal curled defensive position, and you can secure above-knee control with your legs while applying hyperextension pressure with your hips. Their own rotational momentum drives their leg into the extension. This is a high-percentage counter because the opponent cannot simultaneously complete their inversion and defend the kneebar - they must choose one or the other."
@@ -88,7 +88,7 @@ description: "How to defend against the Inversion Escape from Honey Hole in BJJ.
     },
     {
       "@type": "Question",
-      "name": "After successfully preventing an inversion attempt, what adjustments should you make to prevent a second attempt?",
+      "name": "After stopping one inversion attempt from honey hole, what should you adjust to prevent a second?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten your inside leg triangle by pulling your ankle deeper behind their thigh, eliminating any slack created during their escape attempt. Re-settle your hip pressure with increased downward force. Most critically, secure the heel grip if you have not already - the failed first attempt means they will chain into a second escape immediately. Control their free leg with your hand or by hooking their ankle to remove the posting ability that powers future inversion attempts. Do not relax after stopping the first attempt."

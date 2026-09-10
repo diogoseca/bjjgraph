@@ -74,7 +74,7 @@ description: "Defend and escape the rear naked choke from back control. Recognit
     },
     {
       "@type": "Question",
-      "name": "The attacker has threaded their arm across your neck but has not yet locked the figure-four — what defensive action has the highest success rate at this stage?",
+      "name": "Their arm is across your neck but the figure-four isn't locked — your best defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab the attacking wrist with both hands and pull it downward away from your neck while simultaneously tucking your chin tightly to your chest. The goal is to strip the arm back below your chin line before the figure-four can be completed. Use your entire body to assist by shrugging your shoulder up on the choking arm side and turning slightly toward the arm to reduce the effective depth across your neck. This window is brief, typically two to three seconds, so commit fully to the strip attempt rather than splitting effort between arm defense and escape."
@@ -82,7 +82,7 @@ description: "Defend and escape the rear naked choke from back control. Recognit
     },
     {
       "@type": "Question",
-      "name": "What is the correct sequence of defensive priorities when caught in back control with an active choke threat?",
+      "name": "Caught in back control under a choke threat, what order should your defensive priorities follow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct sequence is strictly hierarchical. First, protect the neck through chin tuck and two-on-one wrist control on the choking arm, preventing the arm from crossing or deepening. Second, fight the attacker's grip adjustments to prevent them from breaking your defensive control. Third, once neck defense is stable, strip the seatbelt grip with one hand while maintaining wrist control with the other. Fourth, remove hooks starting with the bottom hook using hip escape and leg manipulation. Fifth, create angle and turn toward the attacker to recover guard. Skipping any step, especially attempting escape before securing neck defense, dramatically increases submission risk."
@@ -90,7 +90,7 @@ description: "Defend and escape the rear naked choke from back control. Recognit
     },
     {
       "@type": "Question",
-      "name": "You have defended the initial choke attempt but the attacker still has full back control with both hooks — what escape sequence should you initiate?",
+      "name": "Choke defended but they still have back control with both hooks — what escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the immediate choke threat neutralized, maintain one hand controlling the attacker's choking arm wrist while using the other hand to begin addressing the bottom hook. Push the bottom hook foot down and outward with your hand while simultaneously hip escaping toward the mat on that side. Once the bottom hook is cleared, continue the hip escape motion to create angle, then drive your inside shoulder toward the attacker's chest and rotate to face them. Establish closed guard by wrapping your legs around their waist as you complete the turn. Throughout this sequence, never fully abandon the choking arm wrist control until you have turned far enough that the neck is no longer accessible."

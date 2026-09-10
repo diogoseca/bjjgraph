@@ -64,7 +64,7 @@ description: "Defend the guard pull from clinch in BJJ. Recognition cues, sprawl
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting for a guard pull and you have an underhook — what is your highest-percentage counter?",
+      "name": "They sit for a guard pull while you have an underhook — what's your best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward immediately with your underhook side, pushing your chest into their shoulder while circling to the underhook side. This forward pressure combined with lateral angle prevents them from achieving a square guard closure. Your goal is to arrive at their hip before they can lock their ankles, allowing you to establish a passing position from knee slide or headquarters. The underhook gives you inside position that makes their guard pull significantly harder to complete cleanly."
@@ -72,7 +72,7 @@ description: "Defend the guard pull from clinch in BJJ. Recognition cues, sprawl
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your stance when you recognize a guard pull attempt to avoid ending up in closed guard?",
+      "name": "How do you adjust your stance against a guard pull to avoid ending up in closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately lower your hips and widen your base while driving your hands to their hips or biceps to create distance and prevent being pulled forward. Do not follow them down by bending at the waist, as this feeds directly into closed guard with broken posture. If they complete the sit, immediately establish combat base with one knee up and one knee down rather than dropping both knees between their legs, preserving your mobility options for standing guard break."
@@ -88,7 +88,7 @@ description: "Defend the guard pull from clinch in BJJ. Recognition cues, sprawl
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully closes guard after pulling — what is your immediate priority in the first five seconds?",
+      "name": "They close guard on you after pulling — what is your priority in the first five seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is establishing strong defensive posture before they can break you down and begin attacking. Place both hands on their hips, straighten your spine, and drive your chest up while keeping your head elevated above your hips. Do not reach for grips or attempt to pass yet — first establish the structural posture that prevents triangles, armbars, and cross collar chokes. Once posture is secured, begin systematic grip fighting to work toward guard opening sequences."

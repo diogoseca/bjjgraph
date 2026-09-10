@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "Your opponent has tight harness control and is attempting rear naked choke - how do you time the Controlled Descent?",
+        "question": "When do you time the Controlled Descent against a rear naked choke from standing back control?",
         "answer": "Execute the descent when opponent is reaching for the choke (transitioning their grip from harness to choking position) rather than when they have consolidated the choke grip. This timing exploits the moment when their control is loosest - one hand is moving from control to attack, creating a window where the descent disrupts their submission attempt.",
         "answer_line": "As they reach for the choke",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving you forward aggressively from standing back control - should you resist or initiate Controlled Descent?",
+        "question": "They drive you forward from standing back control — resist or start Controlled Descent?",
         "answer": "Initiate Controlled Descent immediately rather than resisting a forward drive you cannot win. When your opponent commits their weight forward, you can redirect that momentum into your descent and use it to create separation during the transition. Resisting a committed forward drive while in standing back exposure typically results in being thrown or slammed, which is far worse than a controlled transition to turtle.",
         "answer_line": "Initiate the descent immediately",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "Your opponent has one hook in and harness control but their second hook is not yet established - is this the right time for Controlled Descent?",
+        "question": "With one hook and harness but no second hook, is it time for Controlled Descent?",
         "answer": "This is actually a strong moment to consider standing escapes rather than Controlled Descent. With only one hook and harness, you still have meaningful standing escape options like turning into your opponent or executing an explosive hip turn. Controlled Descent should be reserved for when both hooks and harness are consolidated, or when the opponent's control is tight enough that standing escapes have low probability. Descending prematurely wastes the opportunity to escape back exposure entirely.",
         "answer_line": "No, escape standing instead",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent begins their Controlled Descent with a strong hip turn to their left - what immediate adjustment should you make?",
+        "question": "They start the Controlled Descent with a hip turn to their left — how do you adjust?",
         "answer": "Circle to your right (their left side, matching their hip turn direction) while driving your chest pressure forward and down. By following the same direction as their hip turn, you prevent them from creating the angle needed for clean turtle establishment. Simultaneously deepen your hooks on the turning side to maintain hip control through the rotation, and use your harness grip to pull their shoulders toward you rather than allowing them to post.",
         "answer_line": "Circle with the turn, press down",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "Why is following the descent preferable to resisting it when your opponent commits to Controlled Descent?",
+        "question": "Why follow your opponent's Controlled Descent instead of resisting it?",
         "answer": "Resisting a committed descent creates a tug-of-war that wastes your energy and typically fails because gravity assists your opponent's downward motion. By following the descent, you convert your standing control into grounded control without interruption, often achieving deeper hooks and better harness position during the transition chaos. The ground provides you with more stable base for attacking, and your opponent's descent mechanics require their attention, creating windows to improve your control points.",
         "answer_line": "Follow it to keep control",
         "distractors": {
@@ -548,7 +548,7 @@
         }
       },
       {
-        "question": "What is the optimal weight distribution during your opponent's descent to prevent them from achieving turtle?",
+        "question": "What weight distribution during their descent stops them from reaching turtle?",
         "answer": "Drive approximately 70-80% of your weight forward through your chest into their upper back and shoulders during the descent. This forward pressure vector flattens their landing angle, making it much harder for them to post on their hands and establish turtle. Keep your hips close to theirs and your hooks active to prevent their hip turn from creating separation. The combination of forward chest pressure and active hook control during descent typically results in a flat or near-flat landing rather than clean turtle.",
         "answer_line": "70-80% forward into upper back",
         "distractors": {
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "Your opponent successfully reaches turtle after their Controlled Descent - what are your immediate priorities?",
+        "question": "They reach turtle after the Controlled Descent — what are your immediate priorities?",
         "answer": "Immediately secure your seatbelt grip tighter and work to insert or deepen hooks before they begin escape sequences. Your first priority is preventing them from creating motion - settle your weight on their upper back and drive chest pressure forward at a 45-degree angle to collapse their turtle structure. Address the underhook battle quickly to prevent them from building frames. You have a 3-5 second window before a skilled opponent begins their turtle escape chain, so consolidation speed is critical.",
         "answer_line": "Tighten seatbelt, deepen hooks fast",
         "distractors": {

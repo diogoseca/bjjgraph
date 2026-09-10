@@ -82,7 +82,7 @@ description: "Complete guide to executing the systematic frame-and-hip escape fr
     },
     {
       "@type": "Question",
-      "name": "Why is incremental hip escape more effective than a single explosive movement from Kuzure Kesa Gatame?",
+      "name": "Why beat Kuzure Kesa Gatame with several small hip escapes instead of one explosive one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A single explosive movement is easily countered because the opponent can adjust during the gap between initiation and completion. Multiple smaller hip escapes compound space incrementally, and the frame prevents the opponent from closing the space between cycles. Three to four small shrimps create more total separation than one large movement while expending less energy and maintaining frame contact throughout. The cumulative effect overwhelms the top player's ability to adjust."

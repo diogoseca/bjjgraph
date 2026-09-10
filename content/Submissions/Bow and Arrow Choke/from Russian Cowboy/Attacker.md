@@ -78,7 +78,7 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts hand fighting your collar grip before you have full depth—what adjustment prevents them from stripping it?",
+      "name": "From Russian Cowboy, they hand fight your collar before you get depth — how do you keep the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, tighten your seatbelt control with your underhook arm to limit their hand mobility. If they grab your wrist, use a circular motion to break their grip by rotating your hand toward their thumb—the weakest point of any grip. If they succeed in partially stripping the collar, do not fight for the same grip. Instead, release and reattempt from the opposite side, or transition to an RNC threat to force their hands up to their neck, reopening the collar. The grip fight should never become static—keep cycling between threats."
@@ -86,7 +86,7 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the choke is properly set as a blood choke rather than a windpipe crush or jaw crank?",
+      "name": "From Russian Cowboy, what shows this is a blood choke, not a windpipe crush or jaw crank?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly set blood choke shows these indicators: the collar grip sits behind the neck at the seam rather than on the front lapel, the forearm crosses diagonally across both sides of the neck without pressing directly on the Adam's apple, and the opponent's face reddens noticeably within seconds. If the opponent is coughing or their jaw is being forced sideways, the grip is too shallow or misaligned. The stretch should feel smooth and progressive, with the opponent's resistance fading steadily rather than them fighting through pain."
@@ -94,7 +94,7 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
     },
     {
       "@type": "Question",
-      "name": "How does the Russian Cowboy hook function differently from a standard back mount hook during the Bow and Arrow finish?",
+      "name": "How does the Russian Cowboy hook differ from a standard back hook in the bow and arrow finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In standard back mount, the hook primarily prevents the opponent from escaping laterally and provides positional retention. In Russian Cowboy, the single hook serves as the fixed anchor point of the bow—it pins the opponent's hip in place while the collar grip stretches their upper body in the opposite direction. The hook's rotational control prevents the opponent from turning into the attacker during the extension phase, which is the primary escape from traditional Bow and Arrow setups. This pre-established anchor reduces the technical steps needed to reach the finishing position."
@@ -110,7 +110,7 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly and grabs the collar material with both hands to create slack—how do you overcome this defense?",
+      "name": "They tuck the chin and grab the collar with both hands for slack — how do you beat this defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase the overall stretch by extending your hooking leg further and pulling the pant grip more aggressively toward your hip. The additional body extension forces the opponent to choose between holding the collar slack and preventing the stretch—they cannot do both. Simultaneously, angle your gripping forearm higher behind the ear to bypass the jaw entirely. If they maintain both defenses, use your free hand to peel their bottom hand off the collar by attacking the pinky-side fingers. The combination of increased stretch and targeted grip breaking defeats the chin tuck defense."

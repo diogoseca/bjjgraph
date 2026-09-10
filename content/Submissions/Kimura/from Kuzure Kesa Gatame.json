@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "At what point during the rotation does the Kimura become dangerous where the opponent can no longer safely resist?",
+        "question": "In the Kimura from Kuzure Kesa Gatame, at what point can your opponent no longer safely resist?",
         "answer": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, internal rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point.",
         "safety_critical": true,
         "answer_line": "Wrist passes behind their back",
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "How does the finishing direction from Kuzure Kesa Gatame differ from a Kimura applied from closed guard bottom?",
+        "question": "How does the Kimura finishing direction from Kuzure Kesa Gatame differ from closed guard bottom?",
         "answer": "From Kuzure Kesa Gatame, the rotation drives the opponent's wrist toward the mat behind their back with gravity assistance, and the finish relies on body rotation rather than arm pulling. From closed guard bottom, the Kimura rotates the wrist upward toward the ceiling against gravity, requiring more grip strength and hip elevation to generate sufficient torque. The Kuzure Kesa Gatame version is mechanically more efficient because gravity aids the finishing direction.",
         "safety_critical": false,
         "answer_line": "Gravity drives wrist down, not up",
@@ -419,7 +419,7 @@
         }
       },
       {
-        "question": "How do you chain the Kimura attempt with an armbar when the opponent straightens their arm defensively?",
+        "question": "From Kuzure Kesa Gatame, how do you chain the Kimura to an armbar when they straighten the arm?",
         "answer": "When the opponent extends their arm to prevent the figure-four grip from connecting, immediately control the straightened arm at the wrist with your near hand. Swing your far leg over their head while maintaining wrist control, then sit back into the armbar position. The key is recognizing the arm extension as an opportunity rather than a setback—their defensive reaction to the Kimura creates the mechanical setup the armbar requires.",
         "safety_critical": false,
         "answer_line": "Control wrist, swing leg over head",

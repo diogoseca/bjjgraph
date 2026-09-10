@@ -56,7 +56,7 @@ description: "Learn to prevent collar sleeve guard establishment from top positi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when facing a bottom player attempting to establish collar sleeve guard?",
+      "name": "Passing open guard, what is your top priority against a collar sleeve guard being built?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Denying the cross-collar grip is the single most important priority because without it, collar sleeve guard cannot function as an attacking system. The collar grip provides posture control and rotational leverage that powers all subsequent attacks. The sleeve grip alone without collar control is easily managed and does not create the off-balancing forces that make collar sleeve dangerous. All defensive resources should prioritize collar grip prevention and stripping."
@@ -64,7 +64,7 @@ description: "Learn to prevent collar sleeve guard establishment from top positi
     },
     {
       "@type": "Question",
-      "name": "Why is early grip stripping more effective than late grip stripping against collar sleeve establishment?",
+      "name": "Why strip the collar grip early rather than late against collar sleeve guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early grip stripping targets a partially seated collar grip that lacks full leverage, making two-on-one breaks highly reliable with minimal energy expenditure. Late grip stripping must overcome a deep, set collar grip where the bottom player's fingers are fully engaged and their arm is positioned for maximum retention strength. Additionally, late stripping gives the bottom player time to capture the sleeve, meaning you must break two grips instead of one. The energy cost and difficulty increase exponentially with each second the grip remains."
@@ -72,7 +72,7 @@ description: "Learn to prevent collar sleeve guard establishment from top positi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the collar grip and is reaching for your sleeve - what is your immediate response?",
+      "name": "They have your collar and are reaching for your sleeve: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Retract the arm they are reaching for by pulling your elbow tight to your ribs and turning your wrist inward, making the sleeve fabric harder to capture. Simultaneously use your free hand to begin a two-on-one break on the collar grip while driving your hips backward to create distance that reduces the collar grip's effectiveness. The combination of sleeve denial and collar strip forces the bottom player to restart their grip sequence from zero rather than completing the collar sleeve structure."

@@ -70,7 +70,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum safe application time for a Kimura shoulder lock during training, and why is this critical?",
+      "name": "What is the minimum safe Kimura application time in training, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum safe application time is 3-5 seconds of progressive, smooth pressure. This is critical because shoulder joints have multiple structures (rotator cuff, labrum, capsule, ligaments) that can be catastrophically damaged by sudden force. Gradual pressure allows your training partner to recognize the danger and tap before injury occurs, whereas explosive application can cause permanent damage before they can signal submission. In training, safety always supersedes finishing the submission quickly."
@@ -78,7 +78,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Why must you create a 90-degree angle to your opponent before applying rotational pressure in the Kimura from guard?",
+      "name": "Why create a 90-degree angle before applying rotational pressure in the Kimura from guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular angle is essential because it prevents opponent from simply rolling forward through the submission to escape. When you remain square to them, they can follow the direction of pressure and spin out safely. The 90-degree angle creates a mechanical disadvantage for their escape while maximizing your leverage for applying rotational pressure to the shoulder joint. Additionally, this angle allows you to use your entire body and leg positioning to prevent their movement while keeping their elbow fixed to your centerline."
@@ -94,7 +94,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Explain why the elbow must remain pinned to your centerline during Kimura application, and what happens if it drifts away?",
+      "name": "Why must the elbow stay pinned to your centerline in the Kimura, and what if it drifts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow pinned to your centerline serves as the fixed fulcrum point for creating rotational leverage on the shoulder joint. When the elbow is stable against your chest, rotating their wrist creates pure shoulder rotation pressure with maximum mechanical advantage. If the elbow drifts away from your body, opponent can straighten their arm, distributing pressure along the entire arm length rather than concentrating it at the shoulder. This eliminates your leverage and allows easy escape. The stationary elbow is what transforms wrist rotation into effective shoulder lock pressure."
@@ -102,7 +102,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "When opponent grabs their own gi or belt to prevent the figure-four grip, what are three effective tactical responses?",
+      "name": "They grip their own gi or belt to block the figure-four — what are three tactical responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponents grip their own gi to defend the Kimura, attack with sweeps, switch to other submissions, or create angles that break the grip. First, recognize that their defensive grip significantly weakens their base and posture, making sweeps highly effective — execute hip bump sweep, scissor sweep, or other guard sweeps. Second, transition to alternative submissions that capitalize on their compromised structure, such as triangle choke or omoplata, while maintaining wrist control. Third, use your body weight and positioning to methodically break their defensive grip by creating angles that make holding their own gi mechanically disadvantageous. The key principle is that forcing the finish against strong defense is lower percentage than transitioning to attacks that their defense actually facilitates."
@@ -110,7 +110,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What are the primary anatomical structures at risk during Kimura application, and what are typical recovery times if damaged?",
+      "name": "Which structures does the Kimura endanger, and what are typical recovery times if damaged?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kimura mainly risks the rotator cuff, shoulder capsule and labrum, and posterior dislocation, with recoveries of 3 to 12+ months. Rotator cuff tears (supraspinatus, infraspinatus, teres minor) require 3-6 months recovery and potentially surgery; capsule and labrum damage requires 4-8 months including possible surgical repair; posterior shoulder dislocation is catastrophic, requiring 6-12 months with surgery; and in extreme cases a spiral fracture of the humerus requires 6-12+ months with surgical fixation. These extended recovery times emphasize why controlled, progressive application is absolutely mandatory in training environments. Competition intensity is never appropriate during drilling or regular sparring."

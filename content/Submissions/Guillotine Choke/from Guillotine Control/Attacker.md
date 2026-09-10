@@ -76,7 +76,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the guillotine choke primarily attack and how does forearm placement determine the type of choke?",
+      "name": "What does the guillotine attack, and how does forearm placement set blood versus air choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine primarily targets the carotid arteries on both sides of the neck for a blood choke, and secondarily the trachea for an airway choke. Forearm placement determines which mechanism dominates: when the blade of the forearm crosses the front of the throat with the wrist bone centered, both carotids and the trachea are compressed. A slightly higher placement with the forearm angled upward emphasizes blood choke mechanics, while direct frontal pressure creates more tracheal compression. The high-elbow variation specifically targets the carotids by attacking behind the chin."
@@ -84,7 +84,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin firmly against your forearm—what grip adjustment converts a stalled choke into a finish?",
+      "name": "Your opponent tucks their chin against your forearm—what grip change finishes the guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to the high-elbow guillotine by driving your choking elbow toward the ceiling while maintaining wrist connection behind the opponent's head. This changes the angle of attack from front-of-throat to behind-and-above the chin, bypassing the chin tuck entirely. The elevated elbow creates a sharper angle that compresses the carotid arteries even with the chin tucked because the pressure now comes from above the jawline rather than through it."
@@ -92,7 +92,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
     },
     {
       "@type": "Question",
-      "name": "What are the critical safety considerations when applying the guillotine choke and at what point must you release regardless of competition context?",
+      "name": "When applying the guillotine, at what point must you release regardless of context?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine choke must always be applied with slow, progressive pressure over 3-5 seconds minimum—never snapped or jerked. Release immediately upon any tap signal (verbal, hand tap, foot tap) or any sign of distress including loss of resistance, color change, gurgling sounds, or sudden limpness. In training, release at the first tap without exception. Even in competition, release the moment the referee intervenes. Tracheal damage from forceful application can cause permanent injury, and continued pressure after unconsciousness risks brain damage."
@@ -108,7 +108,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
     },
     {
       "@type": "Question",
-      "name": "What body positioning from top creates the strongest finishing platform and why does hip sprawl matter?",
+      "name": "What top body position best finishes the guillotine, and why does the hip sprawl matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From top, the strongest finishing platform combines hip sprawl with forward weight distribution through the chest and shoulders onto the opponent's upper back. Sprawling the hips backward drops your center of gravity and prevents the opponent from closing guard, which would neutralize your top position advantage. The sprawl also amplifies downward pressure on the opponent's head and neck through gravity loading. Drive your hip on the choking side slightly forward and angle your body toward that side to create maximum compression through the choking structure."
@@ -116,7 +116,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving forward aggressively from inside your guillotine bottom control—what adjustment prevents being stacked and passed?",
+      "name": "Your opponent drives forward into your bottom guillotine—what stops you being stacked and passed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Convert their forward drive into a hip bump sweep, extending your hips upward and rolling them over to mount while keeping the guillotine grip. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it."

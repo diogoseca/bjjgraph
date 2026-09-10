@@ -56,7 +56,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition cues, defensiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first defensive priority when you feel a shin sliding across your throat from Mission Control?",
+      "name": "A shin slides across your throat from mission control: what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn your chin immediately toward the crook of the choking leg's knee to reduce direct tracheal compression. This single action buys critical seconds by shifting pressure from the windpipe to the less vulnerable chin and jaw area. Only after establishing this breathing space should you commit to a full escape sequence - whether that is foot stripping, posture recovery, or emergency rolling."
@@ -72,7 +72,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent is threading their foot behind your head from Mission Control but has not yet secured it - what should you do?",
+      "name": "They are threading the foot behind your head but have not secured it: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the highest percentage defense window. Immediately drive your posture upward and backward using your base hand while your other hand fights the grip controlling your head. If you can prevent the foot from completing its arc behind your head, the Gogoplata cannot be established. Alternatively, strip the foot with your free hand before it locks behind your skull. Every second you delay during this threading phase makes the subsequent defense exponentially harder."
@@ -80,7 +80,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a fully locked Gogoplata and you cannot breathe - what is your emergency escape option?",
+      "name": "The gogoplata is locked and you cannot breathe: what is your emergency escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute an emergency tuck and roll, accepting the positional concession to mount or back exposure. Tuck your chin as much as possible, commit to rolling toward the choking leg side, and use your arms to post through the roll. This explosive movement breaks both the shin angle and foot position simultaneously. You will likely end up in mount bottom or give up back exposure, but both are survivable positions with established escape methodologies, unlike a locked Gogoplata where unconsciousness is imminent."

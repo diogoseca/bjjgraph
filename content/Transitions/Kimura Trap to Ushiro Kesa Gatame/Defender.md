@@ -56,7 +56,7 @@ description: "How to defend and counter the Kimura Trap to Ushiro Kesa Gatame tr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile cues that the Reverse Scarf Hold transition has begun from Kimura Trap?",
+      "name": "What are the earliest tactile cues that they are going from Kimura Trap to Ushiro Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker's feet beginning to move in small walking steps in an arc around your head, combined with a pressure shift from their hips to their chest on your torso. You will also feel the Kimura grip angle changing from a lateral orientation to a diagonal one as the attacker's body begins to rotate. The most reliable early indicator is the weight shift to chest, which the attacker must perform to free their hips for rotation."
@@ -72,7 +72,7 @@ description: "How to defend and counter the Kimura Trap to Ushiro Kesa Gatame tr
     },
     {
       "@type": "Question",
-      "name": "What is the risk-reward calculation of releasing your Kimura arm defense to create frames during the transition?",
+      "name": "What is the risk-reward of dropping your Kimura arm defense to frame during their rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing the Kimura defense during mid-rotation is moderately risky but potentially high-reward. The risk is that the attacker recognizes the arm extension and immediately re-engages the Kimura finish with improved leverage from their new angle. The reward is that a well-timed frame can completely block the rotation and create guard recovery opportunities. The optimal strategy is to release Kimura defense only when the attacker is clearly committed to the positional transition and their focus has shifted from the submission to the rotation."
@@ -80,7 +80,7 @@ description: "How to defend and counter the Kimura Trap to Ushiro Kesa Gatame tr
     },
     {
       "@type": "Question",
-      "name": "Your frame was insufficient and the attacker has completed the rotation to Reverse Scarf Hold - what is your immediate priority?",
+      "name": "Your frame failed and they have settled Ushiro Kesa Gatame — what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-establish near-arm defense by tucking your elbow tight to your ribs with your hand near your opposite shoulder, as the trapped arm in Reverse Scarf Hold is highly vulnerable to americana and kimura attacks. Then focus on breath control under the chest compression to prevent panic. Only after these survival priorities are addressed should you begin working on escape sequences using far-side frames and hip rotation to create space for guard recovery."

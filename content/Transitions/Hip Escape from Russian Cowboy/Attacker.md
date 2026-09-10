@@ -80,7 +80,7 @@ description: "Complete guide to executing the hip escape from Russian Cowboy bot
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must the hip escape be directed toward the opponent's free leg side rather than away from the hook?",
+      "name": "In the Russian Cowboy escape, why hip escape toward their free leg rather than away from the hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escaping away from the hook gives the opponent rotational momentum to thread their second leg into truck position, which is a significant positional deterioration. Moving toward the free leg side prevents this advancement because it moves your body in the opposite direction from where the second hook would need to enter. Additionally, this direction creates the correct angle for half guard recovery by positioning your hips to trap the opponent's previously hooking leg between your knees."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the hip escape from Russian Cowboy bot
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins tightening their seatbelt grip as you start to frame - how do you adjust your escape timing?",
+      "name": "They tighten the seatbelt as you frame in Russian Cowboy; how do you adjust your escape timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the current escape timing and return to full survival defense. Maintain your frame passively without committing to the hip escape while the opponent is actively tightening control. Wait for their next grip adjustment or positional shift, which will create a momentary loosening of control. The escape window typically appears when the opponent transitions between grip configurations, adjusts their hook depth, or shifts weight to set up a submission attempt. Patience is essential as forcing the escape against a tightening grip wastes energy and risks worse position."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the hip escape from Russian Cowboy bot
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the hook extraction succeeds or fails?",
+      "name": "In the Russian Cowboy escape, what detail decides whether the hook extraction works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ankle control grip on the hooking foot is the decisive mechanical detail. Without actively controlling and guiding the opponent's hooking foot during the hip escape, the hook will simply travel with your body during the shrimp, maintaining the same relative position and rendering the escape ineffective. The near-side hand must cup the opponent's heel and push it toward your far hip before and during the hip escape, creating a divergent force between your hips moving laterally and their foot being directed in the opposite direction."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the hip escape from Russian Cowboy bot
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent threading their second hook during your hip escape attempt - what is your immediate response?",
+      "name": "You feel them threading the second hook during your Russian Cowboy hip escape; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately reverse your hip direction and squeeze your knees together to create a physical barrier against the second hook insertion. Prioritize blocking the truck entry over completing the escape to half guard, because truck position is significantly worse than Russian Cowboy. If you can prevent the second hook, return to your frames and reset the escape attempt. If the truck is fully established, abandon the hip escape protocol entirely and switch to truck-specific defensive techniques such as the truck escape sequence."

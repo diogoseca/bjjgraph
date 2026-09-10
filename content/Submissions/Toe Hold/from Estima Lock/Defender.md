@@ -92,7 +92,7 @@ description: "Defend the toe hold from Estima Lock in BJJ. Recognition cues, esc
     },
     {
       "@type": "Question",
-      "name": "At what point does the toe hold from Estima Lock become impossible to escape, and what is the correct decision?",
+      "name": "When does this toe hold become inescapable, and what is the right decision then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Escape becomes effectively impossible once the figure-four is fully consolidated and rotational pressure has begun—the attacker's cupping hand is seated on your forefoot, their other arm is threaded behind your Achilles, and their hips are tight to your calf eliminating retraction slack. Past this point, continuing to fight only burns the one to two seconds you have before the small foot joints fail. The correct decision is to tap immediately; preserving the ankle and midfoot for long-term training always outweighs escaping a single position."

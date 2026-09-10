@@ -96,7 +96,7 @@ description: "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has blocked your lateral hip escapes and is threatening a back take—how does this scenario make the roll escape more viable?",
+      "name": "They block your hip escapes and threaten a back take: why does that help the roll escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the rider blocks lateral hip movement and begins transitioning toward back control, they typically shift their weight from perpendicular chest pressure to a more diagonal or rear-oriented position to insert hooks. This weight shift creates the exact rotational instability that the roll escape requires. The rider's commitment to the back take means their weight is moving in one direction, making it impossible for them to simultaneously resist a roll that exploits their transitional movement. The blocked hip escape actually sets up the roll by channeling the rider into a vulnerable weight distribution."
@@ -104,7 +104,7 @@ description: "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that distinguishes a successful roll from one that stalls mid-rotation?",
+      "name": "In the cross body ride roll escape, what detail separates a successful roll from one that stalls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip drive generates the primary rotational force, not upper body movement. Practitioners who try to roll using their shoulders and upper back as the engine produce insufficient momentum and stall at the halfway point. The correct mechanic is a powerful hip thrust in the roll direction with the near shoulder dropping to create the rotational axis. The hips drive over and the upper body follows. This hip-first sequencing generates enough force to carry the body through the full rotation even against significant rider weight."
@@ -112,7 +112,7 @@ description: "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your first roll attempt is blocked and you feel the rider adjusting to prevent a second attempt in the same direction—what is your immediate response?",
+      "name": "Your roll is blocked and the rider adjusts to that side: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt a second roll in the same direction. The rider's adjustment to block that direction creates an opening in the opposite direction, either for a hip escape or a roll in the reverse direction. The rider cannot simultaneously defend both rotational directions and lateral movement. Use the information from the failed attempt to redirect immediately: if they loaded weight to block your right-side roll, hip escape left or attempt a left-side roll. Chain escapes that force the rider into a defensive reaction loop rather than allowing them to settle and consolidate after stopping one attempt."

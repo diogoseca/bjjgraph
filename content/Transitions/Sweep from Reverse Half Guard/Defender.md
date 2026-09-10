@@ -72,7 +72,7 @@ description: "Master defending the Sweep from Reverse Half Guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their leg clamp and you feel their hips beginning to rotate—what is your immediate response?",
+      "name": "In reverse half guard bottom, their leg clamp tightens and their hips rotate—your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your hand wide on the sweep-side and sit your hips back to remove forward pressure. This two-part response addresses both the rotational force with a structural base and the energy source by withdrawing the forward drive. Do not attempt to resist through upper body stiffness. Additionally, begin working to extract your trapped leg from the entanglement to permanently remove the sweep threat."

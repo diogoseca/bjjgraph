@@ -74,7 +74,7 @@ description: "Learn to execute the Mount to Knee on Belly transition. Master wei
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most vulnerable moment during the Mount to Knee on Belly transition and how do you minimize the risk?",
+      "name": "When are you most vulnerable moving from mount to knee on belly, and how do you reduce the risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most vulnerable moment occurs when you lift your transitioning knee off the mat, as your base is reduced to a single posted foot and your grip pressure. During this phase, the bottom player can exploit the reduced hip control to hip escape, catch your leg for half guard recovery, or bridge to create separation. Minimize this vulnerability by maintaining strong forward pressure through loaded grips, timing the lift when the opponent's hands are committed elsewhere, and executing the movement with committed speed rather than tentative incremental adjustments."
@@ -82,7 +82,7 @@ description: "Learn to execute the Mount to Knee on Belly transition. Master wei
     },
     {
       "@type": "Question",
-      "name": "When should you choose to transition from mount to knee on belly rather than attacking directly from mount?",
+      "name": "When should you take knee on belly instead of continuing to attack from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to KOB when the mounted opponent has established effective defensive frames that neutralize your submission entries, when you need to change offensive angles to bypass their defensive patterns, or when your mount attacks have stalled and the opponent is defending without significant energy expenditure. KOB creates entirely different defensive requirements and forces them to adapt to concentrated diaphragm pressure and enhanced mobility threats, breaking the defensive rhythm they established against mount."
@@ -98,7 +98,7 @@ description: "Learn to execute the Mount to Knee on Belly transition. Master wei
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong forearm frames on your hips during mount - how does this affect your transition to KOB?",
+      "name": "Your mounted opponent frames hard on your hips: how does that affect your knee on belly entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strong hip frames actually create an opportunity for the KOB transition because the opponent's hands are committed to managing distance rather than available for catching your leg or recovering guard. Their frames are designed to resist mount pressure but become less effective against the lateral weight shift of a KOB entry. Time your transition when their frames are fully committed to resisting your forward pressure, as they cannot simultaneously push your hips and intercept your transitioning knee."

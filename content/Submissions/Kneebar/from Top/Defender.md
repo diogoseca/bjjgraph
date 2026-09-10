@@ -52,7 +52,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when caught in a kneebar from top, and why does it neutralize the submission's primary mechanism?",
+      "name": "Caught in a kneebar, what single defensive action best kills the submission's mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maximally bending the attacked knee (curling heel toward buttocks) is the single most important defensive action because the kneebar requires a straightened or near-straightened leg to generate hyperextension force. The submission mechanism works by using a fulcrum at the knee crease combined with hip extension to push the knee joint past its natural range of motion. When the knee is maximally bent, the attacker's hip extension simply pushes against the hamstring's resistance without creating hyperextension angles. This bent-knee position eliminates the leveraged geometry the kneebar depends on, buying critical time for additional escape mechanics including leg extraction and positional recovery."
@@ -60,7 +60,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "During which phase of the kneebar from top entry is the defender's escape success rate highest, and what specific defensive action should be taken?",
+      "name": "During which phase of the top kneebar entry is escape easiest, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The step-over transition phase (the 1-2 seconds when the attacker is stepping their leg over the defender's torso) represents the highest-percentage defensive window because the attacker's base is compromised and their control is divided between maintaining leg grips and executing the rotation. The optimal defensive action during this window is sitting up explosively and driving weight forward onto the attacker, which collapses their perpendicular alignment and prevents them from completing the position. If the sit-up is timed correctly, the attacker falls back to a compromised position and the defender can recover guard or scramble to top. This early intervention is far more effective than defending the established kneebar position."
@@ -68,7 +68,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that a kneebar has reached the point of no return where tapping becomes the only safe option?",
+      "name": "What indicators mean a kneebar has reached the point where tapping is the only safe option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar has reached the point of no return when three conditions exist simultaneously: (1) your leg is straightened or nearly straightened despite your best bending efforts—the attacker has broken your primary defense; (2) the attacker's fulcrum is positioned precisely at your knee crease with tight leg squeeze preventing any extraction; (3) the attacker's hips are beginning to extend with your ankle controlled against their shoulder. When all three conditions are present, further resistance risks catastrophic ligament damage as the hyperextension force will exceed tissue tolerance within seconds. Tapping immediately is the only safe response. Attempting heroic escapes from this position in training risks ACL and meniscus injuries that require months of recovery."
@@ -76,7 +76,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "Your opponent has your leg controlled in kneebar position but you are maintaining a strong knee bend—what additional escape actions should you take while defending?",
+      "name": "Defending a kneebar with a strong knee bend: what else should you do to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While maintaining the knee bend as your foundation defense, simultaneously work three additional escape actions: (1) Push on the attacker's top hip or knee with your free leg to create separation between their thighs and your trapped leg—this loosens their squeeze and creates extraction space. (2) Rotate your trapped knee inward (toward the attacker's body) while pulling your leg toward yourself—internal rotation makes the leg harder to control and assists extraction. (3) Use your hands to grip your own shin, ankle, or foot to reinforce the bent-knee position while the attacker applies straightening force. These combined actions degrade the attacker's control over time and create incremental escape progress while the bent knee prevents the finish."
@@ -84,7 +84,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "Why is rolling toward the kneebar sometimes a viable escape strategy, and what risks does this approach carry?",
+      "name": "Why can rolling toward the kneebar work as an escape, and what risk does it carry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling toward the kneebar (in the direction the attacker is applying force) can relieve hyperextension pressure by reducing the angle between your leg and the attacker's body. This rolling motion can also create momentary loosening of the attacker's leg squeeze as your body rotates, potentially allowing leg extraction. However, this strategy carries significant risks: if the attacker follows your roll and maintains alignment, you may end up in a worse position with less space to defend. Additionally, rolling may expose your heel for heel hook access if the ruleset permits, converting a defendable kneebar into a more dangerous heel hook situation. Use rolling defense only when static defense is failing and extraction attempts are blocked."

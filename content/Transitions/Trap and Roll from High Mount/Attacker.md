@@ -114,7 +114,7 @@ description: "Execute the Trap and Roll escape from High Mount Bottom. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How does the Trap and Roll from High Mount differ mechanically from the standard version from regular mount?",
+      "name": "How does trap and roll from high mount differ mechanically from the regular mount version?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From high mount, the top player's knees are positioned near the armpits rather than at hip level, which eliminates the bottom player's primary bridge leverage. In standard mount, substantial hip extension force is available because the weight sits on the hips. In high mount, weight sits on the upper chest, requiring the bottom player to wait for weight shifts rather than bridging from static positions. The timing window is narrower, the technique becomes reactive rather than proactive, and the realistic success outcome is half guard recovery rather than a full reversal."

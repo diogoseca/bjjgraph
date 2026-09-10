@@ -74,7 +74,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important prerequisite before attempting leg extraction from an entanglement?",
+      "name": "What must you establish before extracting your leg from an entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establishing upper body control through a collar tie, wrist grip, or underhook is the most critical prerequisite. Without an upper body anchor, your extraction attempt has no fixed point to drive from, and the bottom player can freely re-angle their hips, re-pummel hooks, and threaten sweeps throughout your pass attempt. The upper body connection also provides an early warning system for sweep attempts and limits the opponent's offensive options during the extraction."
@@ -82,7 +82,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent has inside ashi garami with feet crossed behind your knee—which hook do you strip first and why?",
+      "name": "They have inside ashi with feet crossed behind your knee — which foot do you strip first, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the bottom foot in the ankle cross first because it is the load-bearing control that keeps your heel exposed to submission finishing. The crossed feet configuration means the bottom foot creates the structural foundation of the figure-four lock. Peeling the bottom foot free collapses the entire crossed ankle structure simultaneously and denies heel hook access. Stripping the top foot first actually makes the bottom foot's control tighter and more dangerous, as the structure can readjust around a single anchor point."
@@ -90,7 +90,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
     },
     {
       "@type": "Question",
-      "name": "During extraction your heel accidentally crosses your opponent's centerline—what is the immediate danger and correct response?",
+      "name": "Your heel crosses their centerline during extraction — what's the danger and correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When your heel crosses the opponent's centerline, you have exposed yourself to an inside heel hook attack, which can be finished in fractions of a second. The immediate response is to stop all pass attempts and tuck your heel by pulling your knee to your chest while simultaneously rotating your foot away from their grip hand. Do not continue the pass—address the heel exposure completely before proceeding, even if it means allowing hooks to be re-established. A momentary position reset is vastly preferable to a blown knee ligament."
@@ -98,7 +98,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
     },
     {
       "@type": "Question",
-      "name": "What timing cue indicates the optimal moment to accelerate through the final drive-through phase of the pass?",
+      "name": "What cue tells you to accelerate the final drive-through of the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is immediately after clearing the last significant hook, when the bottom player's hips are momentarily disconnected from your legs. You will feel a distinct lightness in your trapped leg as the final hook releases its tension. In this window the bottom player must re-pummel or transition to a new configuration, creating a brief gap in their control structure lasting one to two seconds. Hesitating allows re-engagement, so you must drive through explosively the moment you feel that release of tension."
@@ -106,7 +106,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions from outside ashi to 50-50 during your extraction attempt—should you continue passing or reset your approach?",
+      "name": "They hit 50-50 during your extraction — continue passing or reset your approach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent reaches true 50-50 during your extraction, you should typically reset your approach rather than forcing the pass through bilateral entanglement. The 50-50 position gives them equal leg attack potential and your extraction attempt from 50-50 carries higher counter-sweep risk due to the bilateral control structure. Address the 50-50 position specifically by fighting for inside position or establishing a 50-50 specific passing sequence. However, if your upper body grips remain strong and their 50-50 is loose, an aggressive drive-through can succeed because your upper body advantage compensates for the leg control parity."

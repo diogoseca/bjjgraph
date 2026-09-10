@@ -256,7 +256,7 @@
         }
       },
       {
-        "question": "Your opponent is defending your heel hook by keeping their knee rotated away but maintains a low, compact posture without sitting up - what should you do?",
+        "question": "From inside ashi they defend the heel hook staying low and compact: what should you do?",
         "answer": "Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails.",
         "answer_line": "Keep threatening leg attacks",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls hard as you begin the transition and pushes your upper body away - what is the optimal recovery?",
+        "question": "They sprawl and push your upper body away as you start the back take from ashi: how do you recover?",
         "answer": "Immediately return to leg entanglement by re-establishing inside ashi control. The opponent's sprawl often paradoxically re-exposes their leg for submission attacks because their hips extend away from you while their leg remains within reach. Re-grip the heel and re-establish your inside leg across their hip. This defensive reaction from them is actually a reset to a favorable position for you - they burned energy sprawling and now must restart their heel defense while you still control their leg. The sprawl counter is medium effectiveness precisely because it solves the immediate back take but often worsens the leg lock defense.",
         "answer_line": "Re-establish leg entanglement",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "What determines whether you should finish via the standard back take, the crab ride variant, or the chair sit variant?",
+        "question": "From ashi, what decides between the standard back take, crab ride, and chair sit variants?",
         "answer": "The standard back take works when the opponent sits up or reaches forward from a grounded position, providing a clean circling path to their back. The crab ride variant is optimal when the opponent is on all fours or has turtled, since you can maintain shin-across-hip control as a lever while circling behind them without fully releasing leg entanglement. The chair sit variant works best when the opponent drives heavy forward pressure to remove your leg control, since their momentum carries them past you and you can sit directly to their hip on the weak side. Read the opponent's body position and weight distribution to select the highest-percentage variant.",
         "answer_line": "Match variant to their posture",
         "distractors": {

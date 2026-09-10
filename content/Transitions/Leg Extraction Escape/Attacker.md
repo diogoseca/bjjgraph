@@ -84,7 +84,7 @@ description: "How to execute Leg Extraction Escape in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
+      "name": "Caught in gogoplata, their hips drop to the mat — what opportunity does that create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This creates a window to stack forward with pressure, driving weight into them while working to extract your head as the submission loosens. The compromised angle means less threat during your extraction attempt."

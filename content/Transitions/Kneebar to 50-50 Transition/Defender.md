@@ -64,7 +64,7 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their legs for 50-50 entry - what immediate action gives you the best chance of preventing the transition?",
+      "name": "They begin threading legs for 50-50; what immediate action best prevents the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage prevention is posting your near hand firmly on their hip to block their inside leg from passing across your hip line. This physical barrier prevents the first threading step that establishes 50-50. Simultaneously hip escape away from their threading direction to increase the distance their legs must travel. If both actions execute within the first second of their threading attempt, prevention success rate is significantly higher than later interventions."
@@ -72,7 +72,7 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is the grip transition moment the most critical window for escaping the kneebar to 50-50 transition?",
+      "name": "Why is the grip transition the best window to escape the kneebar-to-50-50 sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transition moment is critical because the attacker must release their kneebar finishing grips to reposition arms for 50-50 control. During this 1-2 second window, the attacker has minimal arm control over your leg while their legs are only partially threaded into the new configuration. This represents the lowest total control point in the entire transition sequence, making leg extraction through hip escape most likely to succeed."
@@ -80,7 +80,7 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "You failed to prevent the 50-50 entry and your opponent is settling into top position - what is your first priority?",
+      "name": "They completed the 50-50 entry and are settling on top; what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your absolute first priority is fighting for inside position with your inside leg before the attacker can settle hip pressure. Inside position control determines who has submission priority in 50-50. Simultaneously hide your heel by rotating your knee inward to prevent immediate heel hook attacks. Do not waste energy on escape attempts until you have addressed these two defensive priorities, as escaping without inside position control or heel protection dramatically increases submission risk."
@@ -88,7 +88,7 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their kneebar grips but you feel their legs beginning to wrap around yours - how do you create distance?",
+      "name": "They release kneebar grips and their legs start wrapping yours; how do you create distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute an immediate hip escape in the direction away from their wrapping legs while simultaneously using both hands to push against their hip or thigh. The hip escape must be explosive and directional, not just a general shrimp. Target creating enough distance that their threading legs cannot complete the 50-50 triangle. If you cannot fully escape, use the created distance to insert a knee shield between your bodies, which prevents them from settling top pressure even if the 50-50 entanglement forms."

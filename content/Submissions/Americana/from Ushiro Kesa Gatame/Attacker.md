@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Americana shoulder lock from U
     },
     {
       "@type": "Question",
-      "name": "At what point during the Americana application does escape become nearly impossible for the defender?",
+      "name": "When does escape become nearly impossible during the Americana from ushiro kesa gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four grip is fully locked with all slack removed and the wrist is pinned firmly to the mat, escape becomes extremely difficult. The critical control point is the combination of chest pressure pinning the shoulder, the figure-four eliminating independent arm movement, and the wrist pinned to the mat preventing any shoulder rotation. Before the figure-four is completed, the defender has multiple viable escape windows to exploit."

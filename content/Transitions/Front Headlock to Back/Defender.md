@@ -56,7 +56,7 @@ description: "How to defend against Front Headlock to Back Take in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when you recognize the front headlock to back take is being attempted?",
+      "name": "Defending the front headlock back take, what is your single most important priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preventing the first hook from being inserted. Once the attacker establishes even one hook, your defensive task becomes dramatically more difficult because that hook acts as an anchor point that controls one side of your hips and prevents you from circling away. Before any hooks are in, you have multiple escape options (stand-up, sit-back, circling). After one hook, your options narrow significantly and the attacker's probability of completing the back take increases substantially. Every defensive action should focus on denying the angle the attacker needs for hook insertion."
@@ -64,7 +64,7 @@ description: "How to defend against Front Headlock to Back Take in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's chest pressure shifting to your left side and their hips angling behind yours - what immediate defensive action do you take?",
+      "name": "Their chest shifts to your left and their hips angle behind yours; what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pivot your body to the left to face the attacker, matching their circular movement. Your knees should turn in the direction of their movement while your hands post and rotate your upper body to keep your chest pointed toward them. Simultaneously, reach your left hand to control their right hip, pushing it away to slow their progression behind you. This denies the angle they need for hook insertion. If they continue pressing, time an explosive stand-up during the next moment their weight shifts, or transition to a sit-back to guard if their circling has temporarily lightened their downward pressure."
@@ -72,7 +72,7 @@ description: "How to defend against Front Headlock to Back Take in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is sitting back to guard more effective as a defense when done early versus late in the transition?",
+      "name": "Defending the front headlock back take, why is sitting back to guard better early than late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early in the transition, the attacker has no hooks established and their weight is still primarily distributed forward over your upper back. Your sit-back catches them off-balance, pulling them into your guard where their headlock becomes a disadvantage rather than an advantage. Late in the transition, the attacker has already established one or both hooks, meaning your sit-back actually assists them by pulling their hooked legs deeper into back control position. Additionally, the late sit-back gives them time to adjust their grip from headlock to seat belt during your movement. The window for an effective sit-back closes the moment the attacker's first foot begins hooking your inner thigh."
@@ -80,7 +80,7 @@ description: "How to defend against Front Headlock to Back Take in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy if the attacker is using a spiral ride grip rather than a standard front headlock?",
+      "name": "Defending the back take, how do you adjust if they use a spiral ride instead of a headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The spiral ride grip gives the attacker additional control over your far arm, making it harder to post and circle. Your defensive priority shifts to clearing the spiral ride arm first by pulling your trapped arm free or swimming it underneath their grip. Without the spiral ride cleared, stand-up attempts are likely to fail because the attacker can flatten you by driving on your far shoulder. Focus on arm extraction combined with a simultaneous hip switch toward the attacker. Once the spiral ride is cleared, resume standard defensive options. If you cannot clear it, an aggressive sit-back to guard becomes the highest-percentage option because it removes the leverage the spiral ride provides."

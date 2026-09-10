@@ -116,7 +116,7 @@ description: "Learn to execute the belly down armbar finish from mounted crucifi
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment should you make if the opponent clasps their hands together to defend the extension?",
+      "name": "What grip break beats clasped hands in the belly down armbar from mounted crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From belly down, grip break by peeling toward the pinky-finger side of their clasped hands while simultaneously driving your hips upward. The hip extension force applied through your pelvic fulcrum far exceeds their grip strength, especially when directed against the weakest axis of their clasp. Alternatively, maintain position and apply slow, progressive pressure—their grip will fatigue before your hip drive does. Avoid jerking or explosive breaks, which risk sudden uncontrolled hyperextension once the grip fails."

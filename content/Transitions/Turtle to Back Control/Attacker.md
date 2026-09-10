@@ -74,7 +74,7 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?",
+      "name": "Why must the seatbelt be set before inserting hooks on the turtle to back transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, the opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes from turtle."
@@ -106,7 +106,7 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes a granby roll toward your grip during the transition. What is your optimal response?",
+      "name": "They granby roll toward your grip during your back take. What is your optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rolling motion while maintaining your seatbelt grip, allowing yourself to roll with them rather than resisting their rotation. As you complete the rotation together, you often end up in truck position or can continue the roll to complete the back take from a new angle. The key is maintaining connection through your grips and staying heavy on their back throughout the movement. If your hip control with your knee was properly positioned, this roll should not have been possible in the first place."
@@ -114,7 +114,7 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What weight distribution principle makes the difference between successful and unsuccessful turtle breakdown?",
+      "name": "What weight distribution principle decides whether your turtle breakdown works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your weight must be distributed forward and downward through your chest onto their upper back, not sitting back on their hips or buttocks. The pressure point is between their shoulder blades with your sternum, creating a collapsing force on their postural structure. This forward weight distribution breaks their turtle frame and prevents explosive forward or upward movement. Sitting too far back allows them to maintain their base and creates space for escapes. The angle of pressure should be approximately 45 degrees forward and down, combining horizontal and vertical force vectors."

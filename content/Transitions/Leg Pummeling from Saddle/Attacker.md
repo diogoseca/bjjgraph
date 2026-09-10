@@ -104,7 +104,7 @@ description: "Complete guide to executing leg pummeling escapes from saddle posi
     },
     {
       "@type": "Question",
-      "name": "Why does targeting the opponent's inside controlling leg first produce better results than targeting the outside leg?",
+      "name": "Escaping the saddle, why pummel against their inside controlling leg rather than the outside leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside controlling leg—the one positioned across your hip—is the keystone of the saddle structure. It provides the perpendicular alignment and inside position that make saddle dominant. Disrupting this leg collapses the entire control framework, because without inside position across the hip, the opponent cannot maintain the rotational control needed for heel hook finishing mechanics. The outside leg merely reinforces what the inside leg establishes, so removing it alone leaves the fundamental control intact."
@@ -120,7 +120,7 @@ description: "Complete guide to executing leg pummeling escapes from saddle posi
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy hip pressure when they feel your pummeling attempt—how do you adjust your approach?",
+      "name": "They drive heavy hip pressure when they feel your pummel from the saddle — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the forward drive against them by timing your hip escape to coincide with their pressure commitment. As they drive forward, angle off laterally using the momentum to create space on the opposite side from their drive. Their committed weight makes it harder for them to adjust direction quickly. If they consistently shut down pummeling through pressure, switch to a boot scoot escape or forward roll that uses their forward pressure as the escape mechanism rather than fighting against it."

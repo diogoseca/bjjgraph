@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent has sunk their choking arm deep past your chin but has not locked the choke - what is your immediate response?",
+        "question": "Back bottom: their choking arm is deep past your chin but not locked. Your immediate response?",
         "answer": "Grip the choking wrist with both hands and pull it down toward your chest rather than trying to push it over your head. Tuck your chin tighter against their forearm to prevent the blade of their wrist from reaching your carotid arteries. Simultaneously shrug your shoulders upward to reduce neck space while working the elbow push defense to create separation.",
         "answer_line": "Pull wrist down, tuck, shrug up",
         "distractors": {
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "How do you integrate hand fighting with hip movement to create a combined escape rather than sequential phases?",
+        "question": "From back bottom, how do you combine hand fighting and hip escape into one action, not two phases?",
         "answer": "Begin hip escape movement simultaneously with the arm clearing motion rather than waiting for hands to fully clear the arm first. As you push their choking arm across your body with both hands, your hips escape in the opposite direction. This dual action forces the opponent to choose between re-establishing choking position or maintaining hip and hook control, creating a decision gap.",
         "answer_line": "Clear arm and hip escape together",
         "distractors": {
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Your hand fighting successfully neutralizes the choke but opponent maintains tight hooks and seatbelt - what chain attacks should you pursue?",
+        "question": "Back bottom: choke is neutralized but hooks and seatbelt stay tight. What do you chain to next?",
         "answer": "With the choke neutralized, shift focus to hook removal by trapping their bottom hook with your legs while maintaining one hand on their choking wrist. Use your free hand to frame on their top knee and begin hip escaping toward turtle. Alternatively, if their seatbelt loosens during the grip exchange, immediately turn into them for half guard recovery by threading your near leg between theirs during the rotation.",
         "answer_line": "Trap hook, frame knee, turn in",
         "distractors": {
@@ -503,7 +503,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why is switching your choking arm more effective than fighting the opponent's two-on-one grip directly?",
+        "question": "Attacking the back: why switch your choking arm instead of fighting their two-on-one directly?",
         "answer": "The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize.",
         "answer_line": "Forces regrip, opens fresh window",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "What positional adjustments should you make when you recognize your opponent has initiated systematic hand fighting?",
+        "question": "Holding the back: how do you adjust once they start systematic hand fighting?",
         "answer": "Tighten chest-to-back connection to eliminate escape space, squeeze hooks or body triangle to increase compression and drain grip endurance, and ensure your control arm maintains strong harness position. Adjust your angle so your choking arm side is higher, making it harder for them to strip your arm downward. Consider transitioning to gift wrap if their hand fighting is consistently defeating your direct choke attempts.",
         "answer_line": "Tighten and compress to drain grips",
         "distractors": {
@@ -545,7 +545,7 @@
         }
       },
       {
-        "question": "Your choking arm has been stripped to a shallow position but opponent has not fully cleared it - what is your response?",
+        "question": "Holding the back: your choking arm is stripped shallow but not cleared. What do you do?",
         "answer": "Drive your elbow tight against their ribcage and re-pummel underneath their gripping hands to regain deeper neck access. Use a swimming motion with your forearm to slide under their wrist control rather than pulling directly against their grip. Simultaneously tighten your control arm harness to limit their ability to adjust body position during the re-pummel sequence. This approach recovers attacking position without the risks of a full arm switch.",
         "answer_line": "Elbow tight, re-pummel under grips",
         "distractors": {
@@ -559,7 +559,7 @@
         }
       },
       {
-        "question": "When should you transition from choke hunting to positional maintenance against strong hand fighters?",
+        "question": "Holding the back: when do you switch from choke hunting to positional maintenance?",
         "answer": "Transition to positional maintenance when repeated choke attempts are being consistently defeated and your arms are fatiguing. Focus on maintaining hooks, chest pressure, and basic harness control while using body compression to drain opponent's grip endurance over time. A patient approach preserves your energy advantage and allows you to re-attack when their defensive grips weaken from sustained isometric effort against your body weight and squeeze pressure.",
         "answer_line": "When attempts fail and arms fatigue",
         "distractors": {

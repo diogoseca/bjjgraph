@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "Your opponent drives a knee slice the moment you create space with your hip escape—how do you respond?",
+        "question": "From pocket half guard, they knee slice the instant your hip escape makes space—what now?",
         "answer": "Prioritize the knee shield insertion above all other steps. Drive your knee directly across the opponent's slicing path to block their knee from crossing your thigh line. The knee shield is the single most important defensive element in the reguard—it stops the pass and simultaneously establishes the structural foundation of the recovered standard half guard. If the knee slice is already past your hip, abandon the reguard and focus on quarter guard recovery or closed guard retention instead.",
         "answer_line": "Insert knee shield immediately",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Why is the half guard leg entanglement the most critical element to maintain throughout the transition?",
+        "question": "Why is keeping the half guard leg entanglement critical throughout the pocket half reguard?",
         "answer": "The leg entanglement is the structural foundation that makes both pocket half guard and standard half guard exist. If the entanglement is lost during the transition between the two guard configurations, there is no guard to recover to—the opponent simply extracts their leg and completes the pass while you are between positions with neither established. The bottom leg must maintain its trapping role throughout regardless of what the top leg and upper body are doing during the reguard.",
         "answer_line": "It's the guard's structural base",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent maintains a strong underhook on your withdrawing arm, preventing frame establishment—what do you do?",
+        "question": "They keep a strong underhook on your withdrawing arm, denying your frame—what do you do?",
         "answer": "Switch to the underhook release variant: convert the failing underhook into an overhook or wrist control rather than fighting to free the arm for a frame. The overhook wraps over their arm and provides distance management through downward pressure on their shoulder while you work the knee shield insertion. This maintains continuous arm contact and avoids the dangerous gap where the opponent captures your arm in no-man's-land between underhook and frame positions.",
         "answer_line": "Convert underhook to overhook",
         "distractors": {
@@ -469,7 +469,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is abandoning pocket half guard for a reguard?",
+        "question": "What is the earliest cue that they are abandoning pocket half guard to reguard?",
         "answer": "The earliest cue is the underhook loosening or withdrawing from your far side. In pocket half guard, the deep underhook creates constant pulling pressure against your back or lat. When this pressure diminishes or the arm begins moving toward your shoulder or bicep, the bottom player is converting their grip from offensive underhook to defensive frame. This happens before the hip escape or knee shield attempt and represents your earliest and best intervention window.",
         "answer_line": "Underhook starts loosening",
         "distractors": {
@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "What is the best passing technique to time against the hip escape created during the reguard attempt?",
+        "question": "Which pass should you time against the hip escape of their pocket half guard reguard?",
         "answer": "The knee slice pass is the highest-percentage counter because the lateral space the bottom player creates with their hip escape opens a natural lane for your knee to drive across their thigh line. Their frame is oriented toward pushing your shoulder, not blocking a knee advancing at an angle below their elbow. Time the slice as the hip escape creates maximum lateral space, before the knee shield can be inserted to block the path. The key is reading the shrimp initiation and immediately driving the knee through rather than waiting.",
         "answer_line": "Knee slice through the lane",
         "distractors": {
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "When should you accept that the reguard has succeeded and transition to standard half guard top strategies?",
+        "question": "When should you accept their reguard and switch to standard half guard top strategy?",
         "answer": "Accept the reguard once the knee shield is fully inserted with the bottom player's shin across your midsection and their hip angle reestablished. At this point, continuing to fight the knee shield wastes energy and often generates scramble opportunities that benefit the bottom player. Instead, calmly transition to your preferred standard half guard passing approach while the bottom player is still consolidating their recovered position. The brief window after reguard completion, before the bottom player establishes offensive grips, is your best moment to begin the new passing sequence.",
         "answer_line": "Shin fully crosses your midline",
         "distractors": {

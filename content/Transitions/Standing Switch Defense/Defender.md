@@ -56,7 +56,7 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical mechanical prerequisite that must be established before reaching your switch hand back?",
+      "name": "Before reaching your switch hand back, what mechanical prerequisite must you establish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must drop your hips sharply below the controller's hip level before reaching back. This hip drop serves two essential purposes: it creates the pivot point around which your body will rotate 180 degrees, and it generates downward momentum that briefly disrupts the controller's forward pressure. Without this hip drop, reaching back simply exposes your arm to trapping without creating any rotational force. The hip drop should be sudden and explosive to minimize the controller's reaction window."
@@ -64,7 +64,7 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your initial switch attempt was stuffed by the controller driving their hips forward - what are your best follow-up options?",
+      "name": "Your switch is stuffed by their forward hip drive: what are your best follow-ups?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary follow-ups exist. First, chain immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure, converting their hip drive into an opening behind them. Second, attempt the switch to the opposite side while their weight is committed forward, exploiting the directional commitment of their defense. Third, drop level and shoot a single leg or double leg, using their forward weight distribution as vulnerability to a level-change takedown. The key principle is never pausing after a stuffed switch but immediately flowing to the next escape in the chain."
@@ -72,7 +72,7 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How do you identify the optimal moment to attempt the switch when the controller has a tight bodylock?",
+      "name": "Against a tight bodylock, how do you identify the best moment to attempt the switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window occurs during grip transitions when the controller shifts from one grip configuration to another, such as moving from bodylock to seatbelt or adjusting hand position after a re-grip. During these transitions, there is a brief moment of reduced structural control where the grip is not fully locked. Additionally, when the controller initiates their own movement such as attempting a mat return or changing angle, their weight shifts create momentary mechanical weakness. The switch should be timed to exploit these windows rather than attempted against a fully locked, stationary bodylock."
@@ -80,7 +80,7 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Why is it strategically important to alternate between switching directions rather than always attempting to the same side?",
+      "name": "Why alternate switch directions instead of always attacking the same side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender."

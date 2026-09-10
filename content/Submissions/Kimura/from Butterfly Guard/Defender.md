@@ -82,7 +82,7 @@ description: "Defend the Kimura from Butterfly Guard with early recognition, gri
     },
     {
       "@type": "Question",
-      "name": "Why is prevention more effective than escape once the Kimura figure-four is locked from Butterfly Guard?",
+      "name": "Why is prevention better than escape once the butterfly guard Kimura figure-four is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four is locked with active butterfly hooks, the attacker controls both the arm rotation and your base simultaneously. The hooks prevent you from posturing away or creating distance, while the figure-four provides mechanical advantage that makes the grip extremely difficult to break with strength alone. Prevention at the wrist control stage requires only retracting one arm, while escape from a locked grip requires breaking a reinforced two-on-one grip while managing hook pressure and maintaining your own base."

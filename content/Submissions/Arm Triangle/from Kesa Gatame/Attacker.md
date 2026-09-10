@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "What control must be established before initiating the arm triangle grip transition from Kesa Gatame?",
+      "name": "What must be established in Kesa Gatame before switching grips to the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before initiating the grip switch, you must have a fully consolidated Kesa Gatame with three verified checkpoints: your head-wrapping arm is deep around the opponent's head pulling it toward your hip, their near arm is pinned tightly under your armpit with your elbow squeezing against your ribs, and your chest weight is settled heavily on their upper body so they cannot bridge or create frames. The near arm must be loaded against their own neck by your chest pressure before you release any part of the scarf hold grip."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bridging explosively as you begin the grip transition - what adjustment prevents losing position?",
+      "name": "They bridge explosively as you start the Kesa Gatame grip switch — how do you keep position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pause the grip transition and re-consolidate your Kesa Gatame. Widen your posted leg for base and drive your chest weight down onto their face and upper body to ride out the bridge. Do not attempt to complete the grip switch while under an active bridge as this is when your control is most vulnerable. Wait for the bridge to exhaust, re-pin the near arm against their neck with your chest, then resume the transition when the opponent settles. Patience during the bridge prevents position loss."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame.
     },
     {
       "@type": "Question",
-      "name": "What are the most common finishing errors that reduce the arm triangle from a blood choke to a neck crank?",
+      "name": "Which finishing errors turn the arm triangle from Kesa Gatame into a neck crank?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three most common errors that produce a neck crank instead of a clean blood choke are: failing to walk to perpendicular angle so the shoulder does not align with the carotid, squeezing with arm strength instead of chest compression which applies force to the wrong vectors, and keeping your head high instead of sealing it to the mat on the far side which leaves gaps that prevent the bilateral compression needed for a blood choke. A proper arm triangle should feel effortless through body mechanics."

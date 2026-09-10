@@ -84,7 +84,7 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a two-on-one grip fight against your first collar grip - what adjustment prevents them from stripping it?",
+      "name": "Your opponent two-on-ones your first collar grip in 3-4 mount - what stops the strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to control their far-side wrist and pin it to the mat, removing half their grip-fighting capacity. Maintain the first collar grip as an anchor and threaten to step over for an armbar on the arm reaching up to strip your grip. This creates a dilemma: they either stop grip fighting to defend the arm attack, giving you the collar back, or they continue fighting your grip and expose the armbar. The grip-fight itself becomes a submission setup."
@@ -92,7 +92,7 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     },
     {
       "@type": "Question",
-      "name": "Why is the 3-4 mount configuration specifically advantageous for the cross collar choke compared to standard mount?",
+      "name": "Why is 3-4 mount better than standard mount for the cross collar choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 3-4 mount provides a posted leg that maintains base stability when both hands leave the mat to work collar grips. In standard mount, committing both hands to collar work eliminates all posting ability, making the attacker vulnerable to bridge and roll escapes. The posted leg in 3-4 mount acts as an anchor against the bridge direction, allowing the attacker to focus entirely on grip work while maintaining defensive base through the lower body structure."
@@ -100,7 +100,7 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     },
     {
       "@type": "Question",
-      "name": "You have both collar grips set deep but the opponent is bridging hard toward your posted leg - how do you maintain the choke?",
+      "name": "Both collar grips are deep but they bridge into your posted leg - how do you keep the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ride the bridge by shifting your weight in the same direction while maintaining collar tension. Use the momentum of their bridge to walk your hips higher on their chest, which actually improves your finishing angle. Keep your elbows tight and drive them toward the mat as the opponent settles from the bridge. The post-bridge moment when they return flat is the highest-percentage finishing window because they have expended energy and momentarily relaxed their defensive structure."
@@ -108,7 +108,7 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     },
     {
       "@type": "Question",
-      "name": "What indicates the choke is properly compressing the carotid arteries rather than crushing the trachea?",
+      "name": "In 3-4 mount, what shows the cross collar choke is on the carotids and not the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly applied blood choke causes the opponent's face to flush red or purple within seconds, their movements become sluggish, and they may not feel immediate sharp pain. An airway choke, by contrast, causes coughing, gagging, and immediate sharp pain in the throat. If the opponent is making choking or gagging sounds, the wrists are too centered on the trachea rather than positioned on the carotid triangles on either side of the neck. Adjust wrist angle laterally to correct."
@@ -116,7 +116,7 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     },
     {
       "@type": "Question",
-      "name": "Your first grip is set but you cannot get your second hand past your opponent's chin tuck - what adjustment do you make?",
+      "name": "From 3-4 mount your second hand cannot pass their chin tuck - what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your forehead or temple into the side of their jaw, using head pressure to rotate their chin away from the collar you are targeting. Simultaneously use your first grip to pull the collar across their neck, tightening the material and creating a crease that your second hand can follow into the collar. If chin tuck persists, drive your elbow into the gap between their chin and chest to wedge their jaw open before inserting the second grip along the exposed collar line."

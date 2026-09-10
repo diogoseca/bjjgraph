@@ -72,7 +72,7 @@ description: "How to defend against Triangle to Armbar in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the pivot and has both hands on your wrist. What is your defensive priority?",
+      "name": "They complete the pivot with both hands on your wrist for the armbar: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your immediate priority is preventing full arm extension by bending the elbow aggressively, rotating your thumb toward the ceiling, and clasping your hands together if possible. Simultaneously, use your hips and legs to drive forward into a stacking position to compress their finishing space. This buys time to work a hitchhiker escape by rotating the elbow across your body while turning to turtle, or to strip one of their hands from your wrist to begin systematic arm extraction."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle to Armbar in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What body position should you maintain to make the transition as difficult as possible for your opponent?",
+      "name": "What body position makes the triangle-to-armbar transition hardest for your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your weight driving forward with your head pressing into the opponent's chest or solar plexus. Your trapped arm's elbow should be pinned tightly to your ribs with your hand gripping your own collar or lapel. Your free hand should control the opponent's far hip or bicep to prevent their pivot. Your hips should stay heavy and square to the opponent rather than allowing them to angle off. This compressed forward position eliminates the space needed for the pivot and prevents the opponent from falling back into armbar position."

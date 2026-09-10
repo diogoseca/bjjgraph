@@ -84,7 +84,7 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts extending their leg to create distance from inside ashi-garami - how do you capitalize on this for the kneebar entry?",
+      "name": "They extend their leg from inside ashi-garami: how do you use that for the kneebar entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg extension is the ideal trigger for the kneebar transition. Immediately secure their foot against your chest with a clamp grip, then initiate the hip pivot toward the outside of their extended leg. Their extension has done half your work by straightening the knee and exposing the joint line. Pivot your hips over their knee while maintaining the foot control, establish your leg clamp around the thigh, and you are in finishing position. The key is recognizing this window immediately rather than continuing to fight for heel control."
@@ -92,7 +92,7 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements that must be established before initiating the kneebar finish from inside ashi-garami?",
+      "name": "Which controls must be locked before you start the kneebar finish from inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three checkpoints must be confirmed before applying finishing pressure. First, the opponent's foot must be securely locked against your chest with both arms creating a clamp that prevents extraction. Second, your hips must be positioned directly over the opponent's knee line with your hip crease sitting on the joint. Third, your legs must be tightly clamped around the opponent's thigh with ankles crossed to prevent knee retraction. Skipping any of these checkpoints dramatically reduces finishing percentage and increases escape probability."
@@ -100,7 +100,7 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
     },
     {
       "@type": "Question",
-      "name": "You have pivoted your hips over the knee but your opponent begins rotating their knee inward - what adjustment prevents escape?",
+      "name": "Your hips are over their knee but they rotate the knee inward: what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase your leg clamp pressure immediately to resist the rotation while using your hands to correct the foot back to a toes-up alignment. If rotation continues despite increased clamping, recognize this as a transition trigger rather than a problem to force through. The inward knee rotation exposes the heel for heel hook attacks, so flow to that submission rather than muscling the kneebar. Forcing a kneebar against strong knee rotation wastes energy and risks losing position, while transitioning maintains offensive pressure."
@@ -116,7 +116,7 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
     },
     {
       "@type": "Question",
-      "name": "Your grip on the opponent's foot starts slipping during the hip extension phase - how do you adjust without losing the submission?",
+      "name": "Your grip on their foot slips during hip extension: how do you adjust without losing the kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately cease hip extension and re-secure the foot before continuing. Pull your elbows tight to your body and re-clamp the foot against your sternum with both forearms creating a shelf underneath. If the foot has shifted, adjust the alignment back to toes-up before resuming pressure. Never increase hip extension speed to try to finish before the foot escapes - this creates dangerous uncontrolled force. If the foot cannot be re-secured, release the kneebar and return to inside ashi-garami to reset."

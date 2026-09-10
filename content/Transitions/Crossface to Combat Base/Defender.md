@@ -88,7 +88,7 @@ description: "How to defend against Crossface to Combat Base in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has crossface established and begins walking their free foot toward your head - what is happening and how do you respond?",
+      "name": "They have crossface and walk their free foot toward your head. What is this, and how do you answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "They are creating the extraction angle by shifting their body position to generate mechanical advantage for pulling their trapped leg free. Respond by immediately tightening your leg clamp, hip escaping toward them to close the angle they are creating, and using your far arm to frame on their bicep or shoulder to prevent them from driving forward. If possible, use the angle change to sneak your near-side knee in as a shield. The foot walk is the clearest signal that extraction is imminent."

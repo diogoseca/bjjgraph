@@ -82,7 +82,7 @@ description: "Execute the Ushiro Kesa Gatame to North-South transition. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively toward their head as you begin the transition - how do you respond?",
+      "name": "They bridge explosively toward their head as you rotate from ushiro kesa to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement."

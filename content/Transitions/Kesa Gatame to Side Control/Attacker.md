@@ -84,7 +84,7 @@ description: "Master the attacker's approach to transitioning from Kesa Gatame t
     },
     {
       "@type": "Question",
-      "name": "Why is it important to keep hips low during the rotation rather than lifting to create turning clearance?",
+      "name": "Rotating from Kesa Gatame to side control, why keep your hips low instead of lifting to turn?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lifting the hips creates space between your body and the opponent's torso that they immediately exploit by inserting a knee for half guard recovery or initiating hip escape sequences. The rotation should pivot around the chest connection point with hips sliding along the mat surface, maintaining constant pressure that denies the bottom player any space to work with during the transition."

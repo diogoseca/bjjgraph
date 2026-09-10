@@ -901,7 +901,7 @@
   },
   "flashcards_family": [
     {
-      "question": "What structural feature defines every Half Guard variation and distinguishes it from symmetric guards?",
+      "question": "What leg configuration defines every Half Guard variation, unlike symmetric guards?",
       "answer": "Half Guard's defining structure is asymmetry: exactly one of the top player's legs is trapped between both of the bottom player's legs. This one-leg-in, one-leg-out configuration contrasts with the both-legs-in or both-legs-out structure of closed or open guards. The single trapped leg becomes the shared anchor and fulcrum around which every variant operates, whether Deep Half, Knee Shield, Lockdown, or Z-Guard. Because control is concentrated on one limb rather than distributed across a symmetric frame, both players retain legitimate offense and defense simultaneously, which is why the position sits precisely at the boundary between guard retention and being passed. The asymmetry is what generates the unique leverage for sweeps and the unique passing vulnerabilities that no symmetric guard shares.",
       "distractors": {
         "plausible": [
@@ -943,7 +943,7 @@
       "answer_line": "Trapped leg anchors leverage"
     },
     {
-      "question": "Why is staying on the side rather than flat on the back a universal priority for the Half Guard bottom player?",
+      "question": "Why must the Half Guard bottom player stay on their side rather than flat on their back?",
       "answer": "Staying on the side preserves the hip mobility that every Half Guard offensive sequence depends on. From the side the bottom player can shrimp, create angles, and enter sweeps or back takes. When flattened onto the back, the hips lose their capacity to rotate and the trapped leg's fulcrum is neutralized, letting the top player establish chest-to-chest pressure and crossface that lead directly toward the pass. Being on the side also keeps the shoulders angled toward the opponent, which is the prerequisite for winning the underhook battle. This is why flattening is the top player's core objective and staying on the side is the bottom player's core defensive imperative across all variants.",
       "distractors": {
         "plausible": [
@@ -971,7 +971,7 @@
       }
     },
     {
-      "question": "What is the strategic role of creating simultaneous threats from the Half Guard bottom regardless of variation?",
+      "question": "Why should the Half Guard bottom player create simultaneous threats?",
       "answer": "The bottom player's power comes from an interconnected attack system in which threatening a sweep, a back take, and a guard recovery at once forces the top player into defensive reactions rather than methodical passing. When the top player defends one threat, they necessarily open another, producing cascading dilemmas that a single-technique defense cannot solve. This principle holds across every sub-variation because each one is a different vehicle for presenting the same layered dilemmas. A bottom player who only defends allows the top player to work the pass unhindered, so constant offensive pressure is what transforms Half Guard from a survival state into an attacking platform.",
       "answer_line": "Threaten sweep, back, and guard",
       "distractors": {
@@ -999,7 +999,7 @@
       }
     },
     {
-      "question": "Why must a competent Half Guard player flow between sub-variations rather than hold a single static structure?",
+      "question": "Why should a Half Guard player flow between sub-variations instead of holding one structure?",
       "answer": "Each Half Guard sub-variation answers a specific pressure or posture from the opponent, so a static structure lets the opponent adapt to one pattern and eventually solve it. Flowing from Knee Shield to Deep Half to Lockdown to Z-Guard based on the opponent's reactions keeps them perpetually reacting to new mechanical problems rather than methodically dismantling one. The transitions themselves also create off-balancing moments and openings that a fixed position cannot generate. This adaptability applies to both roles, since the top player must likewise recognize the current variation and immediately shift to the passing strategy that specific configuration demands.",
       "answer_line": "Flow between variations",
       "distractors": {
@@ -1113,7 +1113,7 @@
       }
     },
     {
-      "question": "How does Half Guard differ mechanically from adjacent positions like Closed Guard, Butterfly Guard, and Quarter Guard?",
+      "question": "How does Half Guard differ from Closed Guard, Butterfly Guard, and Quarter Guard?",
       "answer": "The distinction lies in how many legs are engaged and how deeply. In Closed Guard both of the bottom player's legs wrap the opponent's torso with the ankles locked, giving symmetric control of posture, whereas Half Guard engages only a single trapped leg. Butterfly Guard uses hooks on the insides of both thighs from a seated, more upright posture rather than trapping a leg between the knees. Quarter Guard is a further-degraded version of Half Guard where only the ankle remains trapped, marking the last sliver of entanglement before a full pass. Half Guard therefore sits mid-spectrum: more committed than an ankle trap, but less enclosing and symmetric than closed or butterfly guard.",
       "answer_line": "One leg trapped, not two",
       "distractors": {

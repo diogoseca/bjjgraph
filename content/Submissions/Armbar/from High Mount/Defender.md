@@ -90,7 +90,7 @@ description: "Defend and escape the Armbar from High Mount in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you manage defensive priorities when trapped between armbar and choke threats from high mount?",
+      "name": "Under high mount, how do you prioritize defense between the armbar and choke threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect the most immediate threat first. If the attacker has isolated your arm and begun rotating, arm defense takes priority—clasp hands and maintain the bent-arm position. If the attacker has collar grips threatening a choke, protect the neck with your hands near your collar. The critical principle is that you cannot defend everything simultaneously from high mount, so identify the active attack and address it specifically rather than trying to cover all threats with general positioning."

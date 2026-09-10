@@ -64,7 +64,7 @@ description: "Defend against butterfly hook clearing from bottom butterfly guard
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully clears one hook and is settling into butterfly half guard top - what is your immediate priority?",
+      "name": "They clear one hook and settle into butterfly half guard top: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to either re-insert the cleared hook within the first three to five seconds before they establish control, or transition proactively to a related guard system like deep half guard or lockdown. Do not remain passively in butterfly half guard hoping to re-insert later. If the opponent has established crossface and wide base, re-insertion becomes very difficult, so transitioning to deep half by diving under their hips or locking down the trapped leg is often the higher-percentage response."

@@ -100,7 +100,7 @@ description: "How to execute Reverse X-Guard Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent recognizes your entry and posts their hand on your hip to block threading. How do you respond?",
+      "name": "They post a hand on your hip to block your reverse X-guard threading. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack their posting hand with a two-on-one grip using both hands to strip and redirect the obstruction, creating the window for your leg to thread beneath their hips. Alternatively, use the posting hand as a pivot point - their commitment to blocking one pathway often opens another, such as a berimbolo entry on the opposite side or a direct back take via Kiss of the Dragon."
@@ -108,7 +108,7 @@ description: "How to execute Reverse X-Guard Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between where the crossing hook must land versus where it commonly ends up as an error?",
+      "name": "In the reverse X-guard entry, where must the crossing hook land versus the common error?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossing hook must travel completely past opponent's centerline to land on their far hip or behind their far thigh. The common error is threading too shallow and hooking the near hip instead. The far hip placement creates true mechanical control and prevents easy clearing, while the near hip placement provides minimal leverage and is easily defeated by a simple step."

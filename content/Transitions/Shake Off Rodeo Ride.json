@@ -303,7 +303,7 @@
         }
       },
       {
-        "question": "The rider sinks their hips very low and heavy on your back—why does this make the shake-off ineffective?",
+        "question": "The rider sinks their hips low and heavy on your back; why does the shake-off fail?",
         "answer": "When the rider fully settles with heavy low hip pressure, the force required to dislodge them exceeds what can be generated from the turtle base position without losing structural integrity. Their settled weight creates a lower center of gravity and wider pressure footprint that distributes force across your entire back rather than concentrating on a point that can be disrupted. Against heavy settled pressure, switch to the Escape from Rodeo Ride rotation which uses the rider's own weight against them, or the sit-back guard recovery which changes the positional relationship through backward hip movement.",
         "answer_line": "Too heavy and low to displace",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "How does the Shake Off fit into the broader Rodeo Ride escape hierarchy compared to rolling and rotation escapes?",
+        "question": "How does the Shake Off compare to the rolling and rotation escapes from Rodeo Ride?",
         "answer": "The Shake Off occupies the lowest-risk, lowest-reward position in the escape hierarchy. The Escape from Rodeo Ride rotation offers the highest reward (side control top) but requires the most grip fighting and setup time. The Roll from Rodeo Ride offers moderate reward (half guard) with moderate risk (back exposure during rotation). The Shake Off offers the lowest reward (clean turtle, still on bottom) but with the lowest commitment and risk—no back exposure during execution. The Shake Off is best used as a disruption tool that creates the conditions for higher-percentage follow-up escapes.",
         "answer_line": "Lowest risk, lowest reward tool",
         "distractors": {
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "The rider reaches across to grip your far lapel while maintaining hip pressure—does this create or close your shake-off window?",
+        "question": "The rider reaches across for your far lapel: does this open or close your shake-off window?",
         "answer": "This creates a shake-off window. When the rider reaches across for the far lapel, they must shift their weight and momentarily lighten their hip pressure on the side they are reaching from. Their reaching arm is also temporarily unavailable for base recovery during your explosion. Time the hip pop to coincide with the moment their hand closes on the lapel—they are maximally committed to the grip and minimally able to adjust their base. Direct the shake-off toward the side the rider is reaching from, where their base is weakest due to the weight shift.",
         "answer_line": "Opens window; exploit reach side",
         "distractors": {
@@ -401,7 +401,7 @@
         }
       },
       {
-        "question": "What are the key conditions that must exist before you should attempt the Shake Off rather than another escape?",
+        "question": "What conditions must exist before choosing the Shake Off over another Rodeo Ride escape?",
         "answer": "The Shake Off requires five conditions: your turtle base must be structurally intact with knees under hips, at least one arm must be free for posting, the rider must not have hooks inserted, your chin must be protected, and the rider's weight must be in transition rather than fully settled. If hooks are already in, you are defending back control rather than Rodeo Ride and the shake-off is no longer applicable. If both arms are controlled, grip fight first. If the rider's weight is fully settled with no transitions, wait for them to initiate an attack that creates the lightness you need, or switch to a rotation-based escape that uses their committed weight against them.",
         "answer_line": "Intact base, free arm, no hooks yet",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Why can the bottom practitioner's hip elevation during the shake-off actually benefit you as the rider?",
+        "question": "As the rider, why can their hip elevation during the shake-off actually help you?",
         "answer": "The hip pop creates space between the bottom practitioner's body and the mat—the same space needed for hook insertion. When their hips elevate, there is a brief window where you can thread your near-side foot inside their thigh to establish the first hook for back control. Their escape attempt actually opens the pathway to the most dominant position in grappling. The key is recognizing this opportunity in real-time rather than fighting to prevent the elevation, converting their escape energy into your advancement.",
         "answer_line": "Opens space to insert a hook",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "How should you adjust your pressure distribution when you anticipate a shake-off to prevent it from succeeding?",
+        "question": "As the rider, how do you adjust pressure when you anticipate a shake-off?",
         "answer": "Sink your hips lower and heavier onto the bottom practitioner's lower back and hip area rather than riding on their upper back and shoulders. Lower hip positioning creates a lower center of gravity that is harder to displace through vertical force. Additionally, widen your base by adjusting your posted leg to provide better lateral stability against the angular displacement the shake-off generates. Increase the downward component of your chest pressure during the quiet preparatory phase to load weight before the explosion occurs.",
         "answer_line": "Sink hips low onto their hips",
         "distractors": {

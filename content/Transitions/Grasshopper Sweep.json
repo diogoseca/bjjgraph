@@ -262,7 +262,7 @@
         }
       },
       {
-        "question": "Your opponent widens their base and sits their hips back when you establish Grasshopper Guard - how do you adjust?",
+        "question": "Your opponent widens their base and sits back against grasshopper guard. How do you adjust?",
         "answer": "When an opponent adopts this wide, hips-back defensive posture, the Grasshopper Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps.",
         "answer_line": "Attack Inside Ashi entry",
         "distractors": {
@@ -276,7 +276,7 @@
         }
       },
       {
-        "question": "What is the most critical body positioning detail for maintaining a stable platform during the sweep?",
+        "question": "What body positioning detail keeps your platform stable during the grasshopper sweep?",
         "answer": "Weight must be distributed evenly across both shoulder blades throughout the entire sweep. Rolling onto one shoulder destroys the stable platform needed for symmetric hip drive and typically causes the sweep to fail laterally rather than generating the vertical force required to elevate the opponent.",
         "answer_line": "Weight even on both shoulders",
         "distractors": {
@@ -304,7 +304,7 @@
         }
       },
       {
-        "question": "What direction of force should the hip drive generate, and why is this different from most BJJ sweeps?",
+        "question": "What force direction does the grasshopper sweep's hip drive need, unlike most sweeps?",
         "answer": "The hip drive should generate force directly upward toward the ceiling, which differs from most BJJ sweeps that work on lateral off-balancing. This vertical force vector lifts the opponent off their base entirely rather than tipping them sideways, which is why the technique requires significant core strength but produces a dramatic position change directly to mount.",
         "answer_line": "Straight up, not lateral tip",
         "distractors": {
@@ -461,7 +461,7 @@
     ],
     "flashcards": [
       {
-        "question": "What three elements must the bottom player establish before the Grasshopper Sweep becomes high percentage?",
+        "question": "Which three elements must your opponent establish to make the grasshopper sweep work?",
         "answer": "The bottom player needs deep leg hooks behind both knees, grips on your ankles for pulling leverage, and sufficient hip elevation on a stable shoulder base. Denying any one of these three elements dramatically reduces the sweep's success probability, so your defense should focus on disrupting whichever element is most accessible.",
         "answer_line": "Deep hooks + ankle grips + hips up",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "How should you adjust your base management specifically when facing Grasshopper Guard compared to other open guards?",
+        "question": "How should your base differ against grasshopper guard compared to other open guards?",
         "answer": "Against Grasshopper Guard, your base should be wider and lower than typical open guard passing posture, with hips sitting back rather than positioned over the bottom player. This directly counters the vertical elevation vector of the sweep. Standard passing posture with weight forward and hips engaged creates exactly the conditions the sweep needs to succeed.",
         "answer_line": "Wider, lower, hips sitting back",
         "distractors": {

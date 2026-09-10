@@ -56,7 +56,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that your opponent is initiating a guillotine counter, and what should your immediate response be?",
+      "name": "Holding a guillotine, what is the earliest cue they are countering, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent tucking their chin tightly and driving their head toward the non-choking side while their same-side hand reaches for your choking wrist. Your immediate response should be to elevate your choking elbow toward the ceiling and close your guard higher on their back before they can establish forward pressure. This transitions you to a high elbow guillotine variation that is more resistant to the standard counter mechanics. Reacting at this early stage is far more effective than waiting for the forward pressure to develop."
@@ -64,7 +64,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "When should you release the guillotine and transition to guard recovery instead of fighting for the finish?",
+      "name": "Holding a guillotine, when should you release it and switch to guard recovery instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should release when three conditions are met simultaneously: the opponent has established strong hand control on your choking wrist preventing adjustment, their forward pressure has flattened your posture eliminating your arching leverage, and they have begun circling to the safe side. At this point the choke is structurally compromised beyond recovery. Releasing allows you to use both hands for framing and guard retention before the opponent completes the pass to side control. Holding longer only wastes energy and guarantees a worse final position."
@@ -72,7 +72,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "How does the hip bump sweep integrate with guillotine defense when the opponent drives heavy forward pressure?",
+      "name": "Holding a guillotine, how do you use a hip bump sweep when they drive heavy forward pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's committed forward pressure creates ideal conditions for a hip bump sweep because their weight is already driving over your center of gravity. As they drive forward, bridge your hips upward on the non-choking side while maintaining whatever grip remains on the neck. Their forward momentum carries them over and you follow to mount. This works because the opponent cannot simultaneously drive heavy forward pressure for the guillotine counter and maintain a low defensive base against sweeps. The sweep converts their offensive momentum into your positional advantage."
@@ -88,7 +88,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "Your opponent's head begins circling away from the choking arm — should you transition to an anaconda or darce, and what determines which one?",
+      "name": "Their head circles away from your choking arm: anaconda or darce, and what decides it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction of your opponent's rotation and their arm position determine the optimal transition. If they circle their body away while keeping their near arm posted on the mat and exposed between your bodies, thread your choking arm deeper and secure a darce grip by connecting your hands around their neck and far arm. If they tuck their near arm tight and drive their shoulder into you while circling, the anaconda is more accessible — release the guillotine, shoot your choking arm under their neck and through the far armpit, and lock your grip. The key distinction is near arm position: darce when exposed, anaconda when you can thread under the neck. Both transitions must happen before the opponent completes the circular escape."
@@ -96,7 +96,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "How does adjusting your guard height on the opponent's back affect your ability to maintain the guillotine during a counter attempt?",
+      "name": "Holding a guillotine, how does guard height on their back affect keeping the choke as they counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Guard height directly controls the opponent's posture and your choking leverage. Closed guard locked high on the opponent's upper back near the shoulder blades maximizes your ability to break their posture downward and prevents them from driving forward effectively, as their hips cannot generate power when their upper body is pulled down. Conversely, guard locked low around the opponent's waist provides minimal posture control and allows them to posture up and drive forward easily. When you feel the counter initiate, immediately climb your guard higher by unlocking your ankles, repositioning your legs, and re-locking as high as possible. This single adjustment can nullify the forward pressure that makes the guillotine counter effective."

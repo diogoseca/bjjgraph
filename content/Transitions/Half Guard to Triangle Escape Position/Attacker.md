@@ -74,7 +74,7 @@ description: "Master the defensive transition into triangle escape position from
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical action you should take when you feel the triangle closing around your neck during a half guard pass?",
+      "name": "Half guard pass: what is your first action when you feel the triangle closing on your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pin your trapped arm's elbow tightly against your ribs with your hand near your chest. This is the first priority because it prevents two critical problems: the opponent isolating the arm for an armbar transition, and the trapped arm acting as a fulcrum that increases choking pressure against your own neck. Arm protection must happen before posture recovery."
@@ -82,7 +82,7 @@ description: "Master the defensive transition into triangle escape position from
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to drive forward into the triangle rather than pulling backward to create distance?",
+      "name": "Why drive forward into the triangle instead of pulling back to create distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling backward creates extension in the opponent's legs, which is exactly how the triangle generates maximum choking pressure. The triangle works by constricting the carotids through leg extension against the trapped arm and neck. Driving forward compresses the triangle structure by stacking the opponent's weight onto their shoulders, reducing their ability to extend their hips and generate finishing pressure."
@@ -90,7 +90,7 @@ description: "Master the defensive transition into triangle escape position from
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins scooting their hips to the side to optimize their choking angle - how do you counter this adjustment?",
+      "name": "They scoot their hips out to improve the triangle angle — how do you counter that adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Press down firmly on their hip or inner thigh with your free hand to resist the lateral movement while simultaneously stepping in the same direction they are moving. You must match their angle change to prevent them from achieving the perpendicular position that maximizes triangle effectiveness. Maintain forward stacking pressure throughout this adjustment rather than stopping to address the angle change in isolation."
@@ -106,7 +106,7 @@ description: "Master the defensive transition into triangle escape position from
     },
     {
       "@type": "Question",
-      "name": "During the transition, your opponent releases the triangle momentarily to readjust their figure-four lock - what opportunity does this create?",
+      "name": "They briefly release the triangle to fix the figure-four — what opportunity does that create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This brief loosening creates a critical window for accelerating the transition. Drive your posture upward explosively while the pressure is reduced, and begin circling toward your trapped arm side. The momentary loosening also makes it possible to improve your trapped arm position by driving the elbow even tighter to your ribs. Recognize these adjustment moments and exploit them immediately rather than waiting for the opponent to re-establish full pressure."

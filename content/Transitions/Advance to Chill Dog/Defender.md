@@ -56,7 +56,7 @@ description: "How to defend against Advance to Chill Dog in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is beginning the Advance to Chill Dog transition?",
+      "name": "What is the earliest cue that they are beginning the Advance to Chill Dog transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the hip rotation toward the overhook side. Before the bottom player releases their shin grip or begins threading, their hips must rotate to create the angle for the leg to travel. You will feel this as a shift in their weight distribution and a change in the direction of pressure from their legs. This rotation precedes the actual leg movement by one to two seconds, giving you a critical early warning window."
@@ -72,7 +72,7 @@ description: "How to defend against Advance to Chill Dog in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their shin grip to guide their foot around your neck - what defensive opportunity does this create?",
+      "name": "They release the shin grip to guide their foot around your neck: what escape window opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin grip release temporarily reduces their control system from three anchor points to two - just the overhook and their leg position. This is the highest-percentage escape window because their leg is momentarily unsupported and their guiding hand is occupied. Use this window to either explosively recover posture by driving hips back, or begin corkscrew arm extraction on the trapped arm. The window lasts approximately one to two seconds before they re-establish grip on their shin in the Chill Dog configuration."
@@ -80,7 +80,7 @@ description: "How to defend against Advance to Chill Dog in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The Chill Dog is partially established with the shin across the side of your neck but not locked - what is your priority?",
+      "name": "Their shin is across your neck but the Chill Dog isn't locked: what's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the lock from being secured. Use your free hand to grip their ankle or foot and push it back off your neck before they can re-grip their shin. Simultaneously turn your head toward the threading leg side, using your jaw and shoulder to create a wedge that blocks the shin from settling deeper. If you cannot dislodge the shin, begin stacking by driving your weight forward and up to flatten their hips, which removes the hip elevation needed to maintain the position."
@@ -96,7 +96,7 @@ description: "How to defend against Advance to Chill Dog in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "You have successfully stalled the Advance to Chill Dog and returned to New York Top - what should your defensive priorities be now?",
+      "name": "You stalled the Chill Dog and are back in New York Top: what are your defensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After successfully defending the Chill Dog advancement, immediately resume your systematic New York Top escape sequence: widen your base to prevent sweeps, begin grip fighting on the opponent's shin-controlling hand, and work toward posture recovery through combined hip and chest extension. Do not remain static celebrating the successful defense - the bottom player will attempt the transition again or switch to an alternative attack pathway like Invisible Collar or Zombie. Use the momentum of your successful defense to advance your escape before they can re-establish their offensive rhythm."

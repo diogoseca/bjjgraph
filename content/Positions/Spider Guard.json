@@ -351,7 +351,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent establishes Spider Guard with both feet on your biceps and strong sleeve grips - what is your first priority before attempting to pass?",
+        "question": "Against Spider Guard with both feet on your biceps and sleeve grips, what is your first priority?",
         "answer": "Your first priority must be systematically breaking the sleeve grips before attempting any passing sequence. With grips intact, any forward movement plays into the Spider Guard player's strength by loading their sweeping mechanisms. Use the thumb strip or two-hands-on-one break while maintaining upright posture. Only after breaking at least one grip should you initiate passing sequences.",
         "answer_line": "Break the sleeve grips first",
         "distractors": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "How do you recognize when the bottom player is transitioning from Spider Guard to Lasso Guard, and what should you do immediately?",
+        "question": "What signals a switch from Spider Guard to lasso, and how should you react immediately?",
         "answer": "The transition signal is when one foot begins threading under your arm toward your shoulder rather than pushing against your bicep. You must act immediately during this transition window before the lasso is secured deeply. Either strip the sleeve grip on that side and step back, or circle toward the lasso side and begin a backstep passing sequence before the lasso is fully established.",
         "answer_line": "Foot threading under your arm",
         "distractors": {
@@ -407,7 +407,7 @@
         }
       },
       {
-        "question": "After successfully breaking your opponent's grips, what must you do immediately to prevent guard re-establishment?",
+        "question": "After breaking the Spider Guard grips, what must you do at once to stop them re-establishing?",
         "answer": "Immediately control the opponent's pants at the knees or ankles and drive forward pressure to flatten their guard structure before they can re-establish grips. Simply breaking grips and pausing allows immediate Spider Guard recovery. The moment grips break, you must establish your own dominant grips and begin your passing sequence to capitalize on the positional advantage you've created.",
         "answer_line": "Control pants, drive forward",
         "distractors": {
@@ -421,7 +421,7 @@
         }
       },
       {
-        "question": "Your opponent has single-side Spider Guard with their other hand on your collar - what passing opportunity does this create?",
+        "question": "They have single-side Spider Guard plus a collar grip - what passing opportunity does this open?",
         "answer": "Single-side Spider Guard with collar grip creates an opening for knee slice or long step passing sequences on the uncontrolled side. The collar grip controls posture but doesn't control the passing lane on the side without the bicep hook. Address the collar grip with posture or strip it, then immediately attack with knee slice, cutting toward the side that has no Spider Guard hook defending it.",
         "answer_line": "Knee slice the open side",
         "distractors": {
@@ -435,7 +435,7 @@
         }
       },
       {
-        "question": "When the bottom player releases foot pressure to attack with a triangle or omoplata entry, how should you respond?",
+        "question": "When a Spider Guard player drops foot pressure to enter a triangle or omoplata, how do you pass?",
         "answer": "The moment they release foot pressure for a submission entry, you have a window to either stack pass by driving your weight forward and stacking them on their shoulders, or execute a leg drag pass by controlling the attacking leg and dragging it across their body. Their commitment to the submission attempt temporarily removes their distance control, creating a passing opportunity if you recognize it immediately.",
         "answer_line": "Stack pass or leg drag now",
         "distractors": {
@@ -887,7 +887,7 @@
         }
       },
       {
-        "question": "When the opponent stands tall and tries to posture up to break your grips, what attacking opportunity does this create?",
+        "question": "From Spider Guard, what opens up when your opponent stands tall to break your grips?",
         "answer": "Standing tall with extended arms creates ideal conditions for triangle and omoplata entries. When they posture up, their arms become isolated and easier to manipulate. Pull one arm across your centerline using foot and grip pressure while the other arm is pushed away. This arm isolation combined with their extended posture creates the opening to throw your leg over their shoulder for triangle setup or pivot your hips for omoplata entry.",
         "answer_line": "Attack triangle or omoplata",
         "distractors": {
@@ -901,7 +901,7 @@
         }
       },
       {
-        "question": "Your opponent begins circling to their left to pass your guard - how should you adjust your Spider Guard structure?",
+        "question": "Your opponent circles to their left to pass your Spider Guard - how do you adjust?",
         "answer": "As they circle left, you must follow with your hips, maintaining perpendicular orientation to their body. Increase pressure with your right foot on their left bicep while your left foot can transition to de la riva hook on their left leg. Maintain your right sleeve grip strongly while the left grip can transition to collar or belt. The key is never letting them gain an angle without your hips following to maintain the guard structure.",
         "answer_line": "Follow hips, load right foot",
         "distractors": {
@@ -961,7 +961,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What is the defining configuration that makes a position Spider Guard rather than another open guard?",
+      "question": "What configuration defines Spider Guard rather than another open guard?",
       "answer": "Spider Guard is defined by the bottom player gripping both of the opponent's sleeves while bracing the soles of the feet against the opponent's biceps or the crook of the elbows. The extended legs act as struts that transmit pushing force through the arms, while the deep sleeve grips anchor the levers. This sleeve-plus-bicep-brace combination is the signature: remove either the grips or the foot placement and it ceases to be Spider Guard. It is fundamentally gi-dependent because the sleeve cuffs provide the anchoring friction that no-gi cannot replicate.",
       "answer_line": "Sleeve grips plus bicep braces",
       "distractors": {
@@ -975,7 +975,7 @@
       }
     },
     {
-      "question": "Why is Spider Guard built on a leg-against-arm leverage relationship, and what does that mean for both players?",
+      "question": "Why is Spider Guard built on legs against arms, and what does that mean for both players?",
       "answer": "The core mechanic pits the bottom player's leg muscles against the top player's arm muscles, a deliberate strength asymmetry. Legs are far stronger than arms, so the bottom player can hold distance and disrupt posture with relatively little effort while the top player fatigues quickly if they resist arm-to-leg. For the bottom player this means control is cheap to sustain; for the top player it means fighting the feet directly with the arms is a losing energy exchange, forcing them toward grip breaks and footwork instead. This asymmetry is why Spider Guard is favored by smaller practitioners against larger opponents.",
       "answer_line": "Strong legs versus weak arms",
       "distractors": {
@@ -989,7 +989,7 @@
       }
     },
     {
-      "question": "Where should the sleeve grips sit for the position to function, and why does grip depth matter to both sides?",
+      "question": "Where should Spider Guard sleeve grips sit, and why does grip depth matter to both players?",
       "answer": "The grips are established deep at the sleeve cuff, ideally with control extending toward or above the opponent's elbow, using a four-finger-in pistol grip. Depth lengthens the effective lever arm, giving the bottom player more torque to redirect and off-balance the arm with less strength. Shallow grips at the wrist collapse the lever and become easy to strip. For the top player, the depth of these grips is precisely why stripping them, rather than fighting through them, is the required entry to any pass.",
       "answer_line": "Deep grips lengthen the lever",
       "distractors": {
@@ -1045,7 +1045,7 @@
       }
     },
     {
-      "question": "What is the central dilemma Spider Guard imposes on the top player, and why does it define the position's effectiveness?",
+      "question": "What posture dilemma does Spider Guard impose on the top player?",
       "answer": "Spider Guard forces the top player into a lose-lose choice between two responses. If they stay tall and upright to preserve posture, their extended arms become isolated and vulnerable to triangles, omoplatas, and off-balancing sweeps. If they lower their posture and drive forward to pass, they load the bottom player's leg springs and feed directly into sweeps like the balloon or scissor. Because every option the top player has feeds a counter, the position's effectiveness comes from this constant dilemma rather than from any single attack.",
       "answer_line": "Both postures feed a counter",
       "distractors": {

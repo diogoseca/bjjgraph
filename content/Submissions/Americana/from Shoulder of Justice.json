@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "Your opponent starts to bridge and roll toward you during the paint motion — what adjustment prevents escape?",
+        "question": "In Shoulder of Justice they bridge and roll during the paint — what prevents the escape?",
         "answer": "Post your far knee wider to stabilize your base against the bridge force and drop your hips heavier onto their near hip line. Do not fight the bridge directly — ride it while maintaining your figure-four grip and elbow pin. As the opponent returns to the mat after the bridge exhausts, immediately resume the paint motion with added pressure. If they continue rolling, follow to north-south while keeping the figure-four locked, as the grip translates well to the north-south angle.",
         "safety_critical": false,
         "answer_line": "Post wide, ride the bridge",
@@ -396,7 +396,7 @@
         }
       },
       {
-        "question": "The opponent grabs their own belt to prevent you from painting their hand down — how do you break this defensive grip?",
+        "question": "They grip their belt to block the paint in Shoulder of Justice — how do you break that grip?",
         "answer": "Three options in order of preference: First, slide your figure-four grip further down toward their fingers to attack the weakest part of their grip — finger strength fails faster than wrist strength. Second, use sharp hip bumps to jar their grip loose while maintaining your own figure-four. Third, if the grip persists for more than 3 seconds, abandon the americana and immediately switch to a kimura by reversing the rotational direction, as their grip on their own belt actually assists the kimura finish.",
         "safety_critical": false,
         "answer_line": "Slide grip to attack fingers",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "How should you adjust your figure-four grip if the opponent begins to straighten their arm during the finish?",
+        "question": "In Shoulder of Justice, how do you adjust the figure-four if they straighten the arm?",
         "answer": "If the arm starts straightening, you are losing the americana angle. Immediately tighten your figure-four by squeezing your elbows together and pulling your grip hand closer to your chest to re-bend the elbow. If the arm continues straightening despite this, transition to a kimura grip by maintaining wrist control and switching to an overhand grip on the wrist while your other hand controls the elbow — the straight arm position actually makes the kimura easier to establish. Do not waste energy fighting to re-bend a nearly straight arm.",
         "safety_critical": false,
         "answer_line": "Tighten figure-four, re-bend",
@@ -426,7 +426,7 @@
         }
       },
       {
-        "question": "What are the key safety considerations when applying the Americana from Shoulder of Justice in training?",
+        "question": "What are the key safety points when drilling the Americana from Shoulder of Justice?",
         "answer": "Apply the paint motion with slow progressive pressure over 3-5 seconds minimum — never jerk or spike. Use only 10-20% pressure in drilling. Always ensure your partner has a free hand available to tap. Stop immediately at any vocalization or sign of discomfort without waiting for a formal tap. Never repeatedly submit the same shoulder in one session. Be especially careful with partners who have existing shoulder injuries and only train with their explicit permission and medical clearance.",
         "safety_critical": true,
         "answer_line": "Slow pressure, 10-20% force",
@@ -614,7 +614,7 @@
         }
       },
       {
-        "question": "What defensive options are available once the figure-four grip is locked but the paint has not started?",
+        "question": "The figure-four is locked but the paint hasn't started — what defenses do you have?",
         "answer": "Your best option is to immediately grip your own wrist, belt, or lapel with your near hand to create a secondary barrier against the paint motion. Simultaneously attempt to bridge toward the trapped arm side to disrupt the opponent's base and reduce the effective paint angle. If you can time a shrimp during the opponent's weight adjustment before they pin the elbow, you may create enough space to begin guard recovery. The key is acting immediately — every second of delay reduces your success probability as the opponent consolidates the grip and pins the elbow.",
         "safety_critical": false,
         "answer_line": "Grip own wrist, bridge trapped side",
@@ -644,7 +644,7 @@
         }
       },
       {
-        "question": "What is the single most important defensive principle against the Americana from Shoulder of Justice?",
+        "question": "What is the single most important defensive principle against the Shoulder of Justice Americana?",
         "answer": "Keep your near arm tight to your body at all times despite the intense jaw pressure. The entire americana attack depends on you extending your near arm — the shoulder pressure exists specifically to provoke this reaction. By gripping your own collar, belt, or opposite wrist and keeping your elbow pinned to your ribs, you deny the opponent the arm extension they need. Accept the jaw discomfort as temporary and focus on systematic escape timing rather than reactive arm extension that plays directly into the opponent's attack plan.",
         "safety_critical": false,
         "answer_line": "Keep near arm tight to body",

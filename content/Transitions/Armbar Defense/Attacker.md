@@ -74,7 +74,7 @@ description: "How to execute Armbar Defense in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you rotate your shoulder toward opponent's head during armbar defense rather than pulling straight back?",
+      "name": "Defending an armbar, why rotate your shoulder toward their head instead of pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force."
@@ -90,7 +90,7 @@ description: "How to execute Armbar Defense in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if opponent begins transitioning to triangle choke as you rotate toward them during armbar defense?",
+      "name": "They switch toward a triangle as you rotate in during armbar defense; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain upright posture by keeping your head elevated and posting your free hand on the opponent's hip to create a strong base. Continue the stacking pressure while being aware of the triangle threat. Keep your trapped arm's elbow tight to prevent them from locking the triangle, and work to extract the arm while defending the choke. If necessary, stand up to completely remove both submission threats by eliminating the angle."
@@ -114,7 +114,7 @@ description: "How to execute Armbar Defense in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent breaks your gable grip and begins to extend your arm - what immediate adjustment saves the position?",
+      "name": "They break your grip and start extending your arm; what adjustment saves the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately rotate your thumb toward the ceiling (hitchhiker position) while bending at the elbow and continuing to turn your body toward opponent's head. This thumb-up orientation creates the strongest anatomical position for resisting hyperextension. Simultaneously drive your hips forward to maintain stacking pressure. If space allows, reach your free hand to grip your trapped wrist and re-establish a defensive frame while continuing the rotational escape."

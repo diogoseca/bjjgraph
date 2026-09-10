@@ -108,7 +108,7 @@ description: "Learn to attack with the heel hook from Cross Ashi-Garami. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their knee toward their chest to hide the heel - what adjustment creates a finishing opportunity?",
+      "name": "They pull their knee to their chest to hide the heel—what adjustment creates a finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defender retracts their knee, transition immediately to a straight ankle lock or toe hold, both of which become available when the knee is flexed. The bent knee actually improves ankle lock mechanics by providing a fulcrum point. Alternatively, use a two-on-one wrist grip break to pry their hands off your wrist, then re-expose the heel by extending their leg using your leg entanglement. Never chase a fully hidden heel with the heel hook grip."
@@ -116,7 +116,7 @@ description: "Learn to attack with the heel hook from Cross Ashi-Garami. Step-by
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment prevents the defender from spinning their heel free during your finishing attempt?",
+      "name": "From Cross Ashi, what grip stops the defender spinning their heel free during the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pin the opponent's toes and forefoot firmly against your chest using your forearms, creating a fixed reference point that prevents foot rotation. Your wrist bone should sit across the Achilles tendon as a fulcrum while your other hand locks the figure-four. When the defender attempts to rotate their foot, your forearm contact on their toes prevents the spin. Keep your elbows squeezed tight so there is no gap for the foot to rotate through."

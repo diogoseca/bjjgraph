@@ -56,7 +56,7 @@ description: "How to defend against Grasshopper Sweep in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What three elements must the bottom player establish before the Grasshopper Sweep becomes high percentage?",
+      "name": "Which three elements must your opponent establish to make the grasshopper sweep work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player needs deep leg hooks behind both knees, grips on your ankles for pulling leverage, and sufficient hip elevation on a stable shoulder base. Denying any one of these three elements dramatically reduces the sweep's success probability, so your defense should focus on disrupting whichever element is most accessible."
@@ -88,7 +88,7 @@ description: "How to defend against Grasshopper Sweep in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base management specifically when facing Grasshopper Guard compared to other open guards?",
+      "name": "How should your base differ against grasshopper guard compared to other open guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against Grasshopper Guard, your base should be wider and lower than typical open guard passing posture, with hips sitting back rather than positioned over the bottom player. This directly counters the vertical elevation vector of the sweep. Standard passing posture with weight forward and hips engaged creates exactly the conditions the sweep needs to succeed."

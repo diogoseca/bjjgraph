@@ -64,7 +64,7 @@ description: "Learn to defend against Darce Control maintenance in BJJ. Systemat
     },
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action to prioritize when caught in darce control maintenance?",
+      "name": "Caught in darce control, what defensive action should you prioritize first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extracting the trapped arm is the highest priority because the arm-in configuration is the fundamental mechanism that makes the darce choke effective. Without the arm trapped between your body and the choking arm, the choke cannot generate sufficient compression on the carotid arteries. Every other defensive action is secondary to arm extraction. Use your free hand to grip the trapped wrist and pull it toward your centerline while turning into the opponent."
@@ -72,7 +72,7 @@ description: "Learn to defend against Darce Control maintenance in BJJ. Systemat
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that your opponent has shifted from attempting an immediate darce finish to a maintenance strategy?",
+      "name": "How do you tell your opponent has switched from a darce finish to darce maintenance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shift to maintenance is characterized by the opponent settling their body weight structurally rather than squeezing explosively, walking their hips to optimize their angle and base, and making small positional adjustments rather than committing to a single finishing direction. Their pressure becomes steady and rhythmic rather than the intense burst of an immediate choke attempt. Recognizing this shift is important because it means you have slightly more time to organize your defense but also that the opponent is building toward a stronger finishing position."
@@ -80,7 +80,7 @@ description: "Learn to defend against Darce Control maintenance in BJJ. Systemat
     },
     {
       "@type": "Question",
-      "name": "Your opponent is maintaining darce control and you cannot extract your trapped arm - what alternative escape should you attempt?",
+      "name": "Stuck in darce control and can't extract your trapped arm: what escape should you try?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If arm extraction fails, execute a granby roll or sit-through to change your body angle relative to the choke. Wait for the opponent to shift their weight forward during a grip adjustment, then drive your hips under their body and rotate to recover half guard or closed guard. The key is timing the roll to when their base is least stable. If rolling is also blocked, frame against their hip with your free hand and walk your hips away to change the engagement angle enough to neutralize the choke pressure."

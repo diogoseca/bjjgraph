@@ -80,7 +80,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the top hook maintained as an anchor point during the transition while the bottom hook is released first?",
+      "name": "Going X-guard to ashi garami, why keep the top hook as anchor and release the bottom hook first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top hook positioned above the knee provides superior leverage and control over opponent's leg while you reconfigure your bottom leg. If you release the top hook first, opponent can easily pull their leg free or step over you. The top hook's position above the knee joint gives you mechanical advantage to control their leg's movement while your bottom leg transitions from hip hook to inside position. This sequential release ensures continuous control throughout the transition."
@@ -96,7 +96,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How does the inside leg position prevent opponent's primary escape mechanism, and why must it cross their centerline?",
+      "name": "In Ashi Garami, how does the inside leg block their escape, and why must it cross centerline?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg crossed over opponent's centerline and wedged against their far hip prevents them from rotating away toward their trapped leg side, which is the highest-percentage escape from Ashi positions. If the inside leg is shallow and doesn't cross centerline, opponent can simply turn their hips and torso away, using rotation to extract their leg from entanglement. Deep inside position creates a physical barrier that blocks this rotation, forcing them to defend through different, lower-percentage methods. The deeper the inside position, the more rotational control you possess."
@@ -104,7 +104,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Why must heel control be established simultaneously with leg positioning rather than sequentially afterward?",
+      "name": "Why establish heel control at the same time as your leg position, not after?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Delaying heel control creates a window where opponent can establish their own defensive grips on their trapped leg, making it extremely difficult to break their controls and secure the heel. Once opponent's hands are on their own leg with good positioning, they can defend indefinitely by fighting hand battles. Simultaneous establishment of heel control and leg configuration overwhelms opponent's ability to defend both aspects at once, ensuring you secure the critical control points before they can mount defensive responses. This timing principle is fundamental to all leg entanglement entries."
@@ -120,7 +120,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between hip-to-hip connection distance and control effectiveness in Ashi positions?",
+      "name": "In Ashi positions, how does hip-to-hip distance affect your control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip-to-hip connection distance is inversely proportional to control effectiveness and submission threat in all Ashi variations. Every inch of space between your hip and opponent's hip exponentially increases their ability to create frames, withdraw their leg, or establish defensive positioning. Tight hip connection maximizes your leverage over their leg while minimizing their ability to generate escape movements. This principle is so fundamental that maintaining hip-to-hip pressure should be treated as the primary control mechanism, even above leg configuration adjustments."

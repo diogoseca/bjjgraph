@@ -74,7 +74,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the circular elbow extraction against the diamond guard overhook?",
+      "name": "When is the best moment to start the circular elbow extraction against a diamond guard overhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best timing occurs when the guard player transitions between attacks or adjusts their grip depth. During these moments, overhook tension decreases as the guard player redirects energy. You can also create timing by threatening posture recovery with hip drive, which forces the guard player to tighten their pull — the predictable tightening direction provides the axis to circulate against. Attempting the extraction when the overhook is under maximum static tension requires significantly more force and carries higher failure probability."
@@ -82,7 +82,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
     },
     {
       "@type": "Question",
-      "name": "Why does the overhook strip focus on removing the overhook rather than head control first, and when should this order be reversed?",
+      "name": "Why strip the overhook before head control in diamond guard, and when is that order reversed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook is prioritized because it provides the guard player's direct submission pathways — triangles and omoplatas require arm isolation that the overhook facilitates. Removing head control first leaves the overhook active, which still enables these high-percentage attacks. However, when head control is so dominant that it prevents any postural recovery needed for the circular extraction, the head circle escape must come first. The decision depends on which control is currently more limiting to your movement and postural ability at that specific moment."
@@ -90,7 +90,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their overhook as you begin the circular extraction — how do you adjust your approach?",
+      "name": "They tighten the overhook as you start the circular extraction: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase forward hip drive to create maximum separation between your shoulder and their chest, stretching their arm toward full extension. A tightened overhook becomes mechanically weaker when stretched because the guard player loses the elbow-to-hip anchor that provides their maximum leverage. If hip drive alone is insufficient, switch to the two-on-one wrist peel variant, using both hands on the overhooking arm to generate enough leverage against the deeply locked grip. The tightening is an energy investment by the guard player that creates fatigue over time."
@@ -106,7 +106,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
     },
     {
       "@type": "Question",
-      "name": "What grip configuration on the overhooking wrist provides the most effective control for the circular extraction?",
+      "name": "What wrist grip on the overhooking arm best controls the circular extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, grip the sleeve at the wrist seam with four fingers inside the cuff and thumb outside, creating a fixed point that allows precise directional pressure. In no-gi, use a C-grip cupping the wrist with the thumb on the inside and fingers wrapping around the outside of the forearm. The wrist grip must be firm enough to prevent the guard player from re-sinking but not so rigid that it restricts your own rotational motion. The grip serves as a guide rail for the peeling motion rather than a pure pulling anchor."
@@ -114,7 +114,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
     },
     {
       "@type": "Question",
-      "name": "You feel the guard player's hips rising during the stripping sequence — what is happening and what is your immediate response?",
+      "name": "Their hips rise during your overhook strip: what are they doing and how do you answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guard player is loading a hip bump sweep, which requires hip elevation and forward momentum to reverse you. Immediately abandon the extraction attempt and drive both hands to their hip bones, flattening their hips to the mat with downward pressure. Simultaneously drive your own hips forward and heavy to pin their lower body. Do not resume the overhook strip until their hips are flat, their sweep momentum is killed, and your forward pressure is re-established. The hip bump requires a specific weight shift that you must deny before it develops."

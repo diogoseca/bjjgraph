@@ -82,7 +82,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
     },
     {
       "@type": "Question",
-      "name": "Your opponent shifts their weight to your right side and establishes a grip on your right hip - which direction should you stand?",
+      "name": "They load weight on your right side and grip your right hip: which way do you stand from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stand to your left side, away from where their weight and grip are concentrated. Post your left hand at 45 degrees and drive your left leg forward. Standing into their weight and grip means fighting against their strongest control and the direction where they can most easily drive you back down. Standing away from their committed side exploits the gap in their control and forces them to reposition before they can counter, buying you the time needed to complete the stand and create distance."
@@ -98,7 +98,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
     },
     {
       "@type": "Question",
-      "name": "You attempt to stand but your opponent locks a seatbelt grip before you can fully rise - what is the correct response sequence?",
+      "name": "They lock a seatbelt before you finish standing from turtle: what is your correct response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the stand-up and return to a tight turtle base. Address the top choking hand first by grabbing their wrist with both hands and using hip rotation to create angle for the grip strip. Once the choking hand is cleared, work on the underhook hand using elbow pressure and hip movement. Only reinitiate the stand-up after both grips are broken and your elbows are re-secured tight to your ribs. Attempting to power through seatbelt control dramatically increases the probability of giving up full back control with hooks, which is a far worse outcome than remaining in turtle."
@@ -114,7 +114,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving heavy forward pressure as you post your hand - how do you adjust without abandoning the escape attempt?",
+      "name": "They drive heavy forward pressure as you post to stand from turtle: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Absorb the forward pressure by locking your posted arm rigid and sinking your hips slightly to lower your center of gravity. Drive your lead leg forward with even more explosive force to counteract their forward momentum with your upward momentum. If the pressure is too great to overcome directly, redirect by switching your posting side: collapse the blocked side, rotate your hips, and explosively post and drive from the opposite side. This directional change uses their committed forward pressure against them since they cannot instantly redirect their weight. The key is committing fully to the redirect rather than half-attempting both directions."

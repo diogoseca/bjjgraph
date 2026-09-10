@@ -56,7 +56,7 @@ description: "Defend against the Kimura from Diamond Guard in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from diamond guard control to a Kimura attack?",
+      "name": "Defending diamond guard: what is the earliest cue they are switching to a Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the release of head control from behind your neck. In a standard diamond guard, the bottom player maintains both an overhook and head control simultaneously. When the head control hand releases and moves down toward your trapped arm rather than back to your neck, this signals the Kimura grip transition has begun. You have approximately one to two seconds from this release to react before the figure-four locks. Secondary cues include feeling a new grip on your wrist and the bottom player beginning to create an angle by hip escaping."

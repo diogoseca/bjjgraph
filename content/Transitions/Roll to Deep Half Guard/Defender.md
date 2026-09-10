@@ -50,7 +50,7 @@ description: "How to defend against Roll to Deep Half Guard in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is preparing to roll to deep half guard?",
+      "name": "What are the earliest cues that the bottom player is setting up a roll to deep half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are frame creation with the near-side arm against your hip or thigh (creating space rather than fighting grips), the far-side arm reaching toward your near leg rather than defending the choke, and hip loading with a shift toward your near leg side. These setup movements precede the explosive roll by 1-2 seconds and represent your best intervention window."

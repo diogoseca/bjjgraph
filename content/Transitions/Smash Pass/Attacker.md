@@ -68,7 +68,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is shoulder pressure directed at the opponent's face and chest more effective than pressure on their hips during the smash pass?",
+      "name": "In the smash pass, why is shoulder pressure on their face and chest better than on their hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shoulder pressure on the face and chest is more effective because the opponent has weaker structural frames in their upper body compared to their hips and legs. When you pressure their hips, they can use their strong leg muscles and hip structure to maintain frames and create space. Upper body pressure compromises their breathing, turns their head away, and makes it biomechanically difficult to maintain defensive structures. Additionally, crossface pressure on the head controls their entire spine, limiting their mobility far more than hip pressure would."
@@ -76,7 +76,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the most common mistake beginners make when attempting to extract their trapped leg during the smash pass?",
+      "name": "What mistake do beginners make extracting the trapped leg during the smash pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common mistake is trying to explosively rip or yank the trapped leg out using force and speed. This causes the opponent's grip to reflexively tighten and wastes significant energy. The correct approach is to extract the leg slowly and methodically while the opponent is flattened and their retention is compromised by your control positions. Small backward steps with steady pressure, while maintaining crossface and inside leg control, is far more effective than violent extraction attempts."
@@ -84,7 +84,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent successfully establishes a deep half guard position while you are attempting the smash pass?",
+      "name": "Smash passing half guard, they hit deep half. How should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should immediately stop attempting the smash pass and address the deep half guard position first. Trying to force the smash pass from deep half is low percentage and energy inefficient. Instead, you need to deal with the deep half guard specifically - this might involve swimming your leg under to clear their entanglement, establishing a whizzer control, or transitioning to a completely different passing strategy. Never ignore a positional change that fundamentally alters your control structure."
@@ -100,7 +100,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts a strong frame on your shoulder as you attempt to drive crossface pressure - how do you adjust?",
+      "name": "Smash passing half guard, they frame your shoulder against the crossface. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts a strong frame on your shoulder, do not try to power through it directly, as that plays into their strongest structural support. Instead, redirect your pressure angle by walking your hips higher toward their head, which changes the angle of force and makes their straight-arm frame less effective. You can also use your free hand to strip the frame at the wrist or elbow, or momentarily shift your weight to collapse the frame before immediately re-establishing crossface. Another option is to switch to an underhook smash variation, which attacks from under their arm rather than through the frame."
@@ -108,7 +108,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between the smash pass approach and dynamic passing approaches to half guard?",
+      "name": "How does the smash pass differ from dynamic passing against half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The smash pass emphasizes patient pressure application, heavy shoulder control, and systematic flattening of the opponent's structure. It relies on making the opponent progressively more uncomfortable until their retention fails. Dynamic passing, by contrast, uses speed, angle changes, and explosive movements to circumvent the opponent's guards rather than crushing through them. Smash passing is more energy efficient over time and works well against flexible opponents or strong guard players, while dynamic passing is faster but requires more cardiovascular capacity and works better against opponents who rely on pressure resistance rather than mobility."

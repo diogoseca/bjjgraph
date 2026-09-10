@@ -84,7 +84,7 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why is Kosoto Gake considered a higher percentage throw for BJJ practitioners compared to explosive throws?",
+      "name": "Why is Kosoto Gake higher percentage for BJJ than explosive throws?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Kosoto Gake requires less explosive power, flexibility, and athletic ability than dynamic throws like Uchi Mata or Harai Goshi. It relies primarily on timing, positioning, and coordination rather than strength or speed. The close-distance requirement and direct transition to top control also make it more suited to the BJJ context where controlling position is prioritized. Additionally, the technique is safer to attempt because you maintain close contact and can defend counters more easily."
@@ -92,7 +92,7 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make if your opponent consistently defends Kosoto Gake by stepping their rear leg backward?",
+      "name": "They keep defending Kosoto Gake by stepping the rear leg back; what do you switch to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chain to Kosoto Gari (targeting their front leg instead) or Osoto Gari (larger outer reap) to attack the leg they've stepped onto. This creates a takedown system where defending one attack opens vulnerability to another. You can also use feints of Kosoto Gake to create backward movement, then switch to techniques that exploit their motion like ankle picks or rear trips."
@@ -100,7 +100,7 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical reason why pulling opponent's upper body backward is essential to completing the throw?",
+      "name": "Mechanically, why must you pull their upper body backward to finish Kosoto Gake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the upper body backward shifts opponent's center of gravity behind their base of support (their feet), creating rotational momentum around the horizontal axis. The leg reap removes their supporting structure at the same moment their weight is moving backward, eliminating their ability to recover balance. Without the upper body pull, the leg reap alone only creates annoyance rather than actual off-balancing. The combination creates a force couple that rotates opponent efficiently to the ground."

@@ -90,7 +90,7 @@ description: "How to execute Basic Butterfly Sweep in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their right hand on the mat when you attempt to sweep them to your left - what are your best responses?",
+      "name": "They post a hand as you butterfly sweep them that direction: what are your best responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent posts their hand, you have several high-percentage options: First, immediately switch to sweeping the opposite direction since posting on one side creates compromised base on the other. Second, attack the posted arm with a kimura lock since it is extended and bearing weight, making it vulnerable to grip capture. Third, transition to single leg X-guard by diving your shoulder under the posted arm and controlling their far leg. The critical principle is recognizing the post instantly and flowing to your counter rather than forcing the original sweep direction."
@@ -106,7 +106,7 @@ description: "How to execute Basic Butterfly Sweep in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What are the most effective grip combinations for the basic butterfly sweep and when should you choose each?",
+      "name": "Which grip combinations work best for the basic butterfly sweep, and when do you choose each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective grip combinations are: collar and sleeve grips which provide maximum upper body control and prevent posting on the sleeve side; double underhooks which are extremely powerful for pulling opponent forward and preventing base, particularly effective in no-gi; and overhook/underhook combination which creates asymmetrical control ideal for directional sweeping. Each grip accomplishes two objectives: breaking opponent's posture to commit weight forward, and preventing them from posting hands to defend. Choose collar-sleeve in gi when distance exists, double underhooks when you can close distance, and overhook-underhook when opponent commits an underhook first."

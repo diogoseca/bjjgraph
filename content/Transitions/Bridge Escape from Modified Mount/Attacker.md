@@ -74,7 +74,7 @@ description: "Execute the bridge escape from Modified Mount with precise directi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical directional consideration when executing the bridge escape from Modified Mount?",
+      "name": "What is the key directional consideration for the bridge escape from modified mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bridge must be directed specifically toward the posted leg side where the top player's structural weakness exists. The posted leg extends the base outward, creating stability against bridges from the opposite direction but vulnerability to force directed into and past the posted foot. Bridging toward the across-body knee drives into the strongest control point and wastes energy without creating displacement."
@@ -82,7 +82,7 @@ description: "Execute the bridge escape from Modified Mount with precise directi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their right leg posted and left knee across your body - which direction do you bridge and why?",
+      "name": "Their right leg is posted and left knee across you - which way do you bridge and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge to your left, toward their right posted leg. The posted right leg creates a directional vulnerability on that side because their base is extended and their ability to absorb lateral force is compromised by the extended foot position. Their left across-body knee represents their strongest control point with concentrated downward pressure, making it the wrong direction for escape."
@@ -98,7 +98,7 @@ description: "Execute the bridge escape from Modified Mount with precise directi
     },
     {
       "@type": "Question",
-      "name": "You begin bridging but the top player immediately reaches for your near-side arm to set up an armbar - how do you adjust?",
+      "name": "You start bridging and they reach for your near arm for an armbar - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the bridge and prioritize arm defense by retracting your near-side elbow tight against your hip and clasping your hands together to create a two-arm defensive structure. The armbar threat from Modified Mount is severe and takes priority over completing the escape. Once the arm is secured, reassess and look for the next escape window when the top player abandons the armbar attempt and resets their grips."

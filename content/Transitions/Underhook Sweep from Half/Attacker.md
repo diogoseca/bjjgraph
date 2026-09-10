@@ -84,7 +84,7 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent whizzers hard over your underhook arm and starts driving you flat - what adjustments should you make?",
+      "name": "They whizzer hard and start flattening you in half guard bottom: what adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When caught in a strong whizzer that is flattening you, you should not fight the whizzer with strength. Instead, redirect to techniques where the whizzer becomes a liability: transition to the Old School Sweep by posting on your free hand and extending the trapped leg outward, enter deep half guard by sliding your head under their hips where the whizzer loses leverage, or use the whizzer pressure itself to climb up their back for a back take by maintaining your underhook and inserting your bottom hook as they overcommit to the overhook."

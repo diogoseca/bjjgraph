@@ -56,7 +56,7 @@ description: "Learn to defend against the push knee reguard escape from Knee on 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt the push knee reguard escape?",
+      "name": "Earliest cue that they are starting the push-knee reguard from under knee on belly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their hands contact your knee, specifically fingers curling around the inside of your kneecap or gripping behind the knee joint. Before the push develops full force, you will also notice them turning their body to face your knee side. Recognizing these early signals gives you time to preemptively transition to mount or increase forward pressure before the escape sequence develops momentum."
@@ -64,7 +64,7 @@ description: "Learn to defend against the push knee reguard escape from Knee on 
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to mount often better than fighting to maintain knee on belly when the opponent pushes?",
+      "name": "Why go to mount instead of fighting to keep knee on belly when they push your knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting the push directly creates a strength contest where the outcome depends on physical attributes rather than technique. The push creates space between your knee and their torso — space that you can exploit by sliding your knee across to mount rather than trying to re-close the gap. Mount is a more stable dominant position that removes the push-escape option entirely, converting their escape attempt into a positional advancement that scores additional points."
@@ -80,7 +80,7 @@ description: "Learn to defend against the push knee reguard escape from Knee on 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully pushes your knee off their torso — what should your immediate priority be?",
+      "name": "They push your knee off their torso from knee on belly — what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to mount by sliding your knee across their torso before they can insert a knee shield between your bodies. If mount is not available due to their knee shield, drop to side control to maintain top pressure and consolidate. The worst response is trying to re-establish knee on belly from the same angle, as the opponent has already demonstrated they can escape from that configuration. Either advance to mount or consolidate to side control."

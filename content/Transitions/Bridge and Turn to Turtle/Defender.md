@@ -72,7 +72,7 @@ description: "How to defend against Bridge and Turn to Turtle from North-South t
     },
     {
       "@type": "Question",
-      "name": "The opponent's bridge succeeds and they are mid-turn—should you try to re-establish North-South or follow to back control?",
+      "name": "Their bridge from north-south bottom is mid-turn: re-establish north-south or follow to the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow to back control immediately. Once the turn is committed and succeeding, fighting to re-establish North-South is low-percentage and wastes the window to secure a superior position. As they rotate to all fours, secure seatbelt grip and insert your near-side hook before they can tighten their turtle shell. Back control with hooks is worth 4 points and offers higher submission probability than North-South, making the opponent's escape attempt backfire."
@@ -88,7 +88,7 @@ description: "How to defend against Bridge and Turn to Turtle from North-South t
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a successful follow-to-back-control from a failed one when the opponent turns to turtle?",
+      "name": "What separates a successful follow to back control from a failed one when they turn to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical factor is speed of upper body control establishment. Successful follows involve immediately securing seatbelt grip as the opponent rotates, maintaining chest-to-back contact throughout the transition, and inserting the near-side hook before the opponent can tuck their elbows to knees in a defensive shell. Failed follows typically involve a gap in chest contact during the transition, allowing the opponent to establish a tight turtle that resists hook insertion. The seatbelt must be established during the rotation, not after the opponent reaches all fours."

@@ -86,7 +86,7 @@ description: "Complete guide to finishing the Rear Naked Choke from Crucifix. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent aggressively tucks their chin as you thread the choking arm—what adjustments do you make?",
+      "name": "From crucifix, they tuck the chin as you thread the choking arm — what two adjustments work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use the non-choking hand to push the chin up from the opposite side or pry under it with your wrist blade along the jawline as a wedge. If the chin remains locked, apply the choke over the chin—from crucifix with both arms trapped, the jaw pressure creates extreme discomfort that often forces the opponent to lift their chin voluntarily, creating space for the forearm to slide underneath into a clean blood choke position."

@@ -92,7 +92,7 @@ description: "How to execute Lapel Elevator Sweep in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand wide to prevent the sweep—what submission opportunity does this create?",
+      "name": "They post their hand wide to stop the Lapel Elevator Sweep — what submission opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their posted arm becomes vulnerable to omoplata. As they post to defend the sweep, rotate your hips under their posting arm and thread your leg over their shoulder. The defensive post becomes the setup for shoulder lock control—this is a classic lapel guard dilemma where defending the sweep opens the submission."

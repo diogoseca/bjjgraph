@@ -82,7 +82,7 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent has bottom ashi garami kneebar control and begins pulling your leg toward extension—what is your immediate defensive priority?",
+      "name": "They start extending your leg from bottom ashi kneebar control: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is engaging your quadriceps to maintain knee bend while simultaneously rotating your hips toward the attacker. Do not try to pull your leg out first—focus on denying the hyperextension angle by changing the direction of force. Plant your free foot and begin creating forward pressure to reduce their ability to bridge their hips into the finish."
@@ -98,7 +98,7 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "In which direction should you drive your extension force against a kneebar, and why does a straight backward pull on the leg fail?",
+      "name": "Which way should you drive extension against a kneebar, and why does a straight pull fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive the knee toward full extension while simultaneously rotating your hips toward the attacker, so the force runs at an angle that misaligns their fulcrum rather than straight back. A pure backward pull pits your single trapped leg against their two-arm grip plus hip bridge in a straight line they are built to win. Angling the force shortens their lever and lets your posted free leg and hips contribute whole-body power instead of isolated quad strength."
@@ -106,7 +106,7 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if the opponent switches from kneebar to a heel hook during your leg extension attempt?",
+      "name": "They switch from kneebar to heel hook as you extend your leg: how do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent transitions to a heel hook, immediately change your defensive priorities from leg extension to foot and ankle control. Bring your heel toward your buttock and turn your toes toward the attacker's chest to hide the heel. The straighten leg defense specifically counters knee hyperextension—it does not protect against rotational forces on the knee and ankle that heel hooks create. Recognize the switch quickly and apply the appropriate heel hook defense."
@@ -114,7 +114,7 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your straightening attempt stalls and the attacker re-breaks your knee back to a bent position — what chain of options keeps you in the fight?",
+      "name": "Your leg-straightening stalls and they re-bend your knee: what chain of options keeps you alive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not keep grinding the same failed extension. Use the brief grip shift during their re-break to insert a hip escape and create a new angle, then re-attempt extension along that fresh line. If their grip migrates toward your foot, switch to defending the ankle and heel by pointing your toes and hiding the heel. If they fully reset control, abandon the knee battle entirely and hunt a reversal or 50-50 entry rather than burning energy on a losing position."

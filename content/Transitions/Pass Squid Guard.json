@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "How should your base and weight distribution differ when facing Squid Guard compared to standard open guards?",
+        "question": "How should your base and weight differ against squid guard versus standard open guards?",
         "answer": "Against Squid Guard, you need a significantly wider stance with lower hips and bent knees to resist the constant directional pull of the lapel tension. Standard open guard passing often uses a more mobile, upright stance, but the lapel creates persistent off-balancing force that will topple a narrow base. Distribute weight across both legs rather than favoring the passing side, and be prepared to counterbalance by shifting weight opposite to the direction of lapel pull.",
         "answer_line": "Wide low base, weight both legs",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "Your opponent transitions from Squid Guard to standard De La Riva during your pass attempt - how do you adapt?",
+        "question": "They switch from squid guard to standard De La Riva mid-pass: how do you adapt?",
         "answer": "Recognize the transition immediately as an opportunity rather than a setback. The guard player has voluntarily abandoned their strongest control mechanism, the lapel entanglement. Switch to your standard De La Riva passing approach, which is a far simpler problem than Squid Guard passing. Common options include knee slice, backstep, or leg drag. The fact that they felt compelled to transition indicates your passing pressure was effective.",
         "answer_line": "Switch to standard DLR passing",
         "distractors": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "In which direction must you pull the lapel to strip it, and why does direction matter more than strength?",
+        "question": "Which direction do you pull to strip the squid guard lapel, and why does direction beat strength?",
         "answer": "Pull the fabric in the exact reverse of its wrap direction, tracing the wrap backward out of the entanglement. Pulling in any other direction tightens or pivots the wrap against your leg, so even maximal grip strength fails to free it. Identifying the wrap direction first lets a controlled, low-effort pull peel the lapel away cleanly, which is why systematic clearing consistently outperforms explosive yanking and saves the energy you need to complete the pass.",
         "answer_line": "Pull reverse of wrap direction",
         "distractors": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "After clearing the lapel, your knee slice stalls against a strong frame - what chain attack keeps you progressing?",
+        "question": "Lapel cleared but your knee slice stalls on a frame: what chain attack keeps you progressing?",
         "answer": "Do not force the original direction. Switch your angle and feed their framing arm across their body to enter a leg drag, or step over into a backstep pass toward their hip. Because the lapel is cleared you now have full mobility, so flow between knee slice, leg drag, and backstep based on which frame they commit to. Keep your free hand pinning their near hip throughout the switch so they cannot re-insert a hook or re-feed the lapel during the transition.",
         "answer_line": "Chain to leg drag or backstep",
         "distractors": {
@@ -520,7 +520,7 @@
     ],
     "flashcards": [
       {
-        "question": "When is the optimal moment to initiate a back take attempt against a passer clearing your Squid Guard?",
+        "question": "From squid guard, when is the best moment to attack the back as they clear your lapel?",
         "answer": "The optimal moment is when the passer commits a hand to the lapel strip and leans their weight forward or to one side. This commitment narrows their base and removes one hand from defensive positioning, creating the postural compromise needed for a successful inversion. Attempting the back take before this commitment means the passer has full defensive capacity to sprawl and stuff your rotation.",
         "answer_line": "When they commit weight to strip",
         "distractors": {
@@ -548,7 +548,7 @@
         }
       },
       {
-        "question": "How does the threading hook function differently when the lapel is intact versus when it has been stripped?",
+        "question": "How does your squid guard threading hook function differently once the lapel is stripped?",
         "answer": "With the lapel intact, the threading hook works in combination with the fabric tension to create compound control that restricts the passer's mobility from multiple angles simultaneously. Without the lapel, the threading hook alone provides only single-directional control similar to a standard De La Riva hook. This reduced control means the passer can address the hook with standard leg pummeling techniques. You must compensate by increasing hook activity and establishing stronger upper body grips.",
         "answer_line": "Increase hook activity, add grips",
         "distractors": {
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "What visual cue tells you the passer is about to commit to a directional pass after clearing your lapel?",
+        "question": "What cue shows the passer is committing to a directional pass after clearing your squid lapel?",
         "answer": "Watch for the passer's hips to lower and shift to one side while their chest angle changes from perpendicular to angled toward their chosen passing direction. Their hands will transition from grip fighting or lapel stripping to controlling your legs or hips for directional passing. This weight shift and hand transition is the critical window where you must either re-establish guard control or commit to a counter-attack, because once they begin the directional pass, defensive options narrow rapidly.",
         "answer_line": "Hips drop, hands shift to legs",
         "distractors": {

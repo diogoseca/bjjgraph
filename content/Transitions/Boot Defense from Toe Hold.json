@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "Your opponent's figure-four grip is locked—which hand should you target first with two-on-one control?",
+        "question": "Their toe hold figure-four is locked: which hand do you attack first with two-on-one?",
         "answer": "Target the top hand of the figure-four configuration first, as removing the top hand collapses the entire grip structure. Push this hand toward the bottom hand to break the figure-four chain. The top hand provides the rotational force while the bottom hand serves as the anchor, so removing the force-generating hand immediately reduces submission threat and opens the path for leg extraction.",
         "answer_line": "Attack the top hand first",
         "distractors": {
@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "Why is circular leg extraction superior to pulling straight back when escaping after the boot defense?",
+        "question": "After the boot defense, why extract the leg circularly instead of pulling straight back?",
         "answer": "Circular extraction uses hip rotation to guide the knee in a spiral path that exploits natural gaps in the opponent's grip configuration rather than fighting their grip strength at its strongest angle. Linear pulling creates additional stress on the ankle and simply reinforces the opponent's control line. The circular motion generates angular momentum that assists the escape while minimizing joint stress.",
         "answer_line": "Rotate hips, spiral knee out",
         "distractors": {
@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "You deploy the boot but feel your opponent shifting their hips to a perpendicular angle—what is happening and how do you respond?",
+        "question": "You boot the toe hold and feel their hips turn perpendicular: what is coming, and what do you do?",
         "answer": "The opponent is transitioning from the toe hold to a kneebar attack, exploiting the straightened leg that the boot creates. Immediately bend your knee and pull it toward your chest to prevent the extension they need for kneebar completion. This requires abandoning the rigid boot structure in favor of the bent-knee defense, recognizing that the submission threat has fundamentally changed.",
         "answer_line": "Bend knee, pull to chest",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "At what point during the toe hold sequence should the boot defense be deployed for maximum effectiveness?",
+        "question": "When in the toe hold sequence should you deploy the boot defense?",
         "answer": "Deploy the boot immediately upon recognizing the opponent's hands configuring around your foot in the toe hold grip pattern, before any rotational pressure begins. The boot is most effective as a preemptive defense during grip establishment rather than a reactive response to applied rotation. Every second of delay reduces effectiveness because rotational force progressively compromises ankle structural integrity.",
         "answer_line": "Deploy the instant grip forms",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your boot defense is holding but your opponent maintains the toe hold grip—how long should you continue before considering a tap?",
+        "question": "Your boot is holding but they keep the toe hold: how long before you tap?",
         "answer": "The boot provides a limited defensive window of approximately three to five seconds of effective protection. If grip fighting is not progressing toward breaking the figure-four within this window and the opponent is maintaining or increasing pressure, tapping is the safe choice. Career longevity is more valuable than any single training round—ankle injuries from sustained toe hold pressure can be career-ending and require months of rehabilitation.",
         "answer_line": "Tap by 3-5 seconds if stuck",
         "distractors": {
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "Your opponent loosens the toe hold to switch to a straight ankle lock—what does this transition window offer you?",
+        "question": "They loosen the toe hold to switch to a straight ankle lock: what does that window offer?",
         "answer": "The grip transition is the best escape window you will get because the closed chain is momentarily open and rotational pressure drops to near zero. Accelerate circular leg extraction immediately, driving the knee toward your chest before the new ankle lock grip establishes its own closed chain. Hesitating lets them settle into a fresh controlling grip; exploiting the loosening converts their adjustment into your escape.",
         "answer_line": "Extract now, before new grip sets",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "Your opponent's boot is solid and you cannot complete the toe hold—what is your highest-percentage transition?",
+        "question": "Their boot defense stops your toe hold: what is your highest-percentage transition?",
         "answer": "The highest-percentage transition is to kneebar, because the boot defense straightens the opponent's leg—the exact extension needed for kneebar application. Reposition your hips perpendicular to their leg, shift control from their foot to above their knee, and apply downward pressure. This converts their defensive adaptation into your offensive advantage by exploiting the mechanical consequence of the boot structure.",
         "answer_line": "Transition to kneebar",
         "distractors": {

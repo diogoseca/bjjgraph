@@ -62,7 +62,7 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point in the triangle setup sequence where you can identify and disrupt the attack?",
+      "name": "What is the earliest cue letting you identify and disrupt a triangle setup from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when the opponent establishes the dual grip combination of collar control and sleeve or wrist grip that signals the setup initiation. The collar grip enables posture breaking and the sleeve grip enables arm isolation — together they represent the necessary grip foundation. Stripping either grip before posture is broken prevents the entire downstream sequence. The defensive action is to immediately address the more dangerous grip first (usually the collar grip using a two-on-one break) before the opponent can use it to pull your head down."
@@ -78,7 +78,7 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pulled your right arm across their centerline and you feel their hips beginning to shift — what is the correct defensive sequence?",
+      "name": "They pull your right arm across and their hips start shifting: what is your defensive order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your right elbow back toward your own right hip using your lat and shoulder retraction while simultaneously posting your left hand on their left hip to pin it to the mat and prevent the angle-creating hip escape. Posture up by sitting your weight back onto your heels and straightening your spine. If the arm is already too far across to retract easily, circle your entire body toward the right to follow their hip movement and collapse the angle. The priority order is: retract arm, block hip movement, recover posture. Addressing all three simultaneously is ideal but arm retraction and hip control are most time-sensitive."
@@ -86,7 +86,7 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How does defending the triangle setup interact with defending other closed guard attacks like hip bump sweep and omoplata?",
+      "name": "How does triangle defense interact with defending hip bump sweeps and omoplatas?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle defense creates a connected defensive problem because the reactions that defend one attack can expose another. Posturing hard to prevent the triangle opens you to hip bump sweeps since your weight moves backward. Pulling your arm back aggressively can give the opponent an omoplata angle if they redirect to overhook control. Stacking forward to crush the triangle attempt exposes you to pendulum sweeps. The solution is balanced defensive posture — hands on hips, elbows tight, head up, base wide — that addresses the immediate triangle threat without overcorrecting into positions vulnerable to alternative attacks. Awareness of the interconnected attack tree is essential."
@@ -94,7 +94,7 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What specific body sensations or pressure changes should you monitor to recognize the transition from normal closed guard control to triangle setup initiation?",
+      "name": "What sensations tell you closed guard control has turned into a triangle setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Monitor for three key sensory changes: first, increasing downward pull on your head and shoulders that signals posture-breaking intent through collar and guard tension. Second, lateral pulling force on one arm that feels different from normal grip fighting — the pull direction is across the opponent's body rather than toward them, indicating arm isolation rather than standard guard control. Third, a rotational shift in the pressure on your hips from below, where you feel one of the opponent's hips dropping away as they begin the hip escape for angle creation. This hip shift is often the most reliable cue because it represents the committed transition from guard control to triangle-specific mechanics."
@@ -102,7 +102,7 @@ description: "How to defend against Triangle Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "When the opponent's leg is already over your shoulder but the triangle is not yet locked, what determines whether you should stack forward or posture backward?",
+      "name": "Their leg is over your shoulder but unlocked: what decides stacking forward or posturing back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on where their hips are relative to yours and whether they have established head control. If their hips are still relatively flat on the mat and they are reaching for your head with their hands, posturing backward is more effective because it creates vertical distance before they can establish the downward pull needed to close the triangle. If they have already gripped behind your head or established shin pressure pulling you forward, stacking forward is the better option because fighting backward against their leg and arm control is a losing battle — instead, using their pulling force to drive your weight over them compresses their body and prevents them from locking the ankle behind their knee. The key diagnostic is: can you lift your head freely? If yes, posture back. If their control prevents head elevation, stack forward."

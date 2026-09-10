@@ -82,7 +82,7 @@ description: "Complete attacker guide for the knee slice pass from deep half gua
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains an extremely tight underhook on your far leg that you cannot break - what alternative approach should you consider?",
+      "name": "Passing deep half, their underhook on your far leg won't break: what pass should you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the deep underhook is unbreakable through standard grip fighting and pressure, switch to a backstep pass rather than forcing the knee slice. The backstep works with the opponent's underhook grip rather than against it, stepping your trapped leg back and around to pass in the opposite direction. Continuing to force the knee slice against an unbreakable underhook wastes energy and creates sweep opportunities."
@@ -98,7 +98,7 @@ description: "Complete attacker guide for the knee slice pass from deep half gua
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent beginning to elevate their hips as you start the knee slice - how do you adjust?",
+      "name": "In deep half top, they start elevating their hips as you begin the knee slice: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase forward and downward pressure through your crossface and chest to kill their elevation. Drop your hips lower and widen your posted leg base. If the elevation is significant, abort the knee slice attempt temporarily, focus on flattening them completely, and only reattempt once their hips are back on the mat and their elevation threat is neutralized."

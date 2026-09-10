@@ -56,7 +56,7 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the attacker's free leg beginning to move toward your far hip while their seatbelt tightens - what is your immediate response?",
+      "name": "Their free leg moves to your far hip as the seatbelt tightens—what's your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your far hand on the attacker's incoming knee to block the threading path while keeping your near hand protecting your neck against the seatbelt squeeze. The combined seatbelt tightening and free leg movement indicates a choke-baited insertion attempt. By blocking with the far hand, you deny the leg access while maintaining neck defense. If the choke threat intensifies, clamp your thighs together as a secondary barrier while keeping the far hand blocking for as long as possible."
@@ -64,7 +64,7 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
     },
     {
       "@type": "Question",
-      "name": "What are the three most important tactile cues that indicate a second hook insertion attempt is imminent?",
+      "name": "What three tactile cues warn that a second hook insertion is coming in Russian Cowboy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, the attacker's free leg transitions from a posted position on the mat to resting against your body with knee pressure toward your far hip. Second, the seatbelt grip tightens or the choking hand advances toward your neck, signaling a diversion designed to occupy your hands. Third, the attacker's hip angle shifts as they create space between their pelvis and your back to allow the leg to swing across. Recognizing any one of these cues should trigger immediate defensive preparation."
@@ -72,7 +72,7 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
     },
     {
       "@type": "Question",
-      "name": "The attacker threatens a choke to distract from the hook insertion - how do you prioritize your defense?",
+      "name": "They threaten a choke to mask the second hook—how do you prioritize your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defend the choke with your near hand using chin tuck and two-on-one grip fighting only if the choke is already deep. If the choke is still in the setup phase, maintain your far hand on the threading path to block the hook while your near hand addresses the developing choke. The key insight is that a blocked hook keeps you in Russian Cowboy where escape is possible, while allowing the second hook in exchange for temporarily better neck position puts you in full back control where the choke will come eventually anyway."
@@ -88,7 +88,7 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
     },
     {
       "@type": "Question",
-      "name": "You successfully block the threading leg with your hand but the attacker maintains tight seatbelt - what is your next move?",
+      "name": "You block the threading leg but their seatbelt stays tight—what's your next move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not settle for simply holding the blocked position, as the attacker will adjust and reattempt. Use the successful block as a springboard for escape by immediately driving your blocking hand into their knee to push it away while executing a hip escape toward the side you are facing. The goal is to convert the defensive success into an active escape before the attacker can reset for another attempt. If you cannot create enough separation for a full escape, at minimum use the moment to improve your hip position and build a frame that makes subsequent insertion attempts more difficult."

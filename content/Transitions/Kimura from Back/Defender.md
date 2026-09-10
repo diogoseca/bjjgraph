@@ -56,7 +56,7 @@ description: "How to defend against Kimura from Back in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you feel the attacker reaching for your trapped arm wrist?",
+      "name": "You feel them reaching for your trapped wrist for a Kimura from the back — what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to strip or block the attacker's C-grip on your wrist before they can thread their other arm to complete the figure-four. The window for prevention is small but far easier than escaping a fully locked kimura. Simultaneously pull your trapped arm tight to your body to reduce the attacker's access to the wrist."

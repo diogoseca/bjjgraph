@@ -70,7 +70,7 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has dragged your leg across your centerline and is beginning to settle chest pressure - what is your priority sequence?",
+      "name": "They dragged your leg across and are settling chest pressure. What is your priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The priority sequence is: (1) Establish a forearm frame on their near shoulder to prevent them from fully settling their chest weight on your trapped leg; (2) Hip escape away from them to create space between your body and their chest; (3) Use the space created to bend your trapped knee and drive it back toward your own chest, pulling the leg back toward centerline; (4) If full leg recovery fails, immediately insert your free knee as a shield between your body and their chest to recover half guard. The critical principle is that you must create space through framing and hip movement before attempting leg recovery - trying to pull the leg back without first disrupting their pressure will fail against any competent passer."
@@ -78,7 +78,7 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why is inserting a knee shield a strong defensive recovery against a deep leg drag, and how do you execute it?",
+      "name": "Why is a knee shield a strong recovery against a deep leg drag, and how do you execute it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Knee shield recovery works because it creates a structural barrier between the passer's chest and your torso that they cannot simply pressure through. Even though you have conceded the drag position, the knee shield prevents side control consolidation and gives you a strong defensive platform from half guard. To execute it, hip escape slightly to create a gap between your body and the passer's advancing chest, then drive your inside knee upward into the space, positioning your shin across their chest or abdomen. Immediately clamp your legs on their near leg to establish half guard. From this position, you have legitimate sweep threats and can systematically work to re-guard."
@@ -94,7 +94,7 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense when you recognize the passer is transitioning from leg drag to back take?",
+      "name": "How do you adjust when the leg drag passer is switching to a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer begins transitioning to back take (you feel them reaching for your far shoulder to establish seat belt rather than settling into side control), you must immediately stop any defensive turning that exposes your back and instead turn toward them aggressively. Use your inside elbow to block their underhook attempt while simultaneously hip escaping to create space for guard re-insertion. If they have partially established the seat belt, prioritize getting your back to the mat rather than trying to face them, as a flat-back position prevents hook insertion. The worst response is continuing to turn away, which gives them exactly the back exposure they are seeking."

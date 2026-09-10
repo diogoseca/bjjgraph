@@ -116,7 +116,7 @@ description: "Attack the Kimura from High Mount with precise figure-four grip me
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment should you make if the defender begins to rotate their forearm during the Kimura finish?",
+      "name": "They rotate their forearm during your high mount Kimura finish: what grip adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the defender rotates their forearm inward (pronation), tighten your figure-four by pulling your gripping hand closer to your chest and increasing elbow squeeze to prevent further rotation. If they rotate outward toward Americana position, consider switching to the Americana finish by redirecting pressure toward the mat instead of behind their back. The key adjustment is maintaining wrist control throughout any rotation and redirecting your finishing angle to match their arm position rather than fighting against their movement."

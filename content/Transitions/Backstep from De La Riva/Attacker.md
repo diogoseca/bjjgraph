@@ -82,7 +82,7 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
     },
     {
       "@type": "Question",
-      "name": "Why is full commitment critical when executing the backstep, and what happens with a half-committed attempt?",
+      "name": "Backstepping from De La Riva, why must you fully commit, and what does a half-step cause?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Full commitment is critical because a half-committed backstep creates the worst possible outcome: your back is partially exposed to the guard player while the DLR hook remains engaged. This gives the opponent back take opportunities without the passer gaining any positional advantage. The step must be large enough and the rotation complete enough to fully disengage the hook geometry before the guard player can exploit the rotational exposure."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your backstep rotation by chasing with their hips and re-establishing the DLR hook. How do you adjust?",
+      "name": "Your opponent chases your backstep and re-hooks De La Riva: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent successfully follows the rotation, you have several options. First, increase the speed and arc of your backstep to outpace their hip adjustment on the next attempt. Second, tighten your grip control on their far leg to physically limit their hip mobility during the rotation. Third, if they consistently follow, use the backstep as a feint to draw their hip commitment in one direction, then immediately switch to a toreando or leg drag pass in the opposite direction to exploit their momentum."

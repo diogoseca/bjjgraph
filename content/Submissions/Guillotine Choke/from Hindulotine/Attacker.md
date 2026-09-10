@@ -76,7 +76,7 @@ description: "Learn to execute the guillotine choke from Hindulotine position. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Hindulotine guillotine primarily attack, and how does the rotational angle change the pressure vector compared to a standard guillotine?",
+      "name": "What does the Hindulotine attack, and how does its rotation change the pressure vector?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Hindulotine targets both carotid arteries through bilateral compression via a diagonal pressure vector created by the perpendicular hip angle. Unlike a standard guillotine that pulls linearly toward the attacker's chest, the rotational torque compresses the carotid arteries from a lateral-diagonal angle, which is harder to defend because chin tucking does not effectively block the rotational force. Secondary pressure on the windpipe occurs but the primary mechanism is blood choke."
@@ -108,7 +108,7 @@ description: "Learn to execute the guillotine choke from Hindulotine position. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard against the choking arm while you have the Hindulotine angle established. What grip adjustment increases finishing pressure without releasing control?",
+      "name": "With the Hindulotine angle set, they tuck their chin—what grip change adds finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your choking arm incrementally higher on their neck by making small adjustments while maintaining constant pressure. Simultaneously deepen the hip angle to increase rotational torque, which works around the chin tuck from a lateral vector rather than fighting through it directly. Pull your choking elbow toward your opposite hip to change the angle of forearm pressure. The rotational component of the Hindulotine is specifically designed to defeat chin tuck defense."

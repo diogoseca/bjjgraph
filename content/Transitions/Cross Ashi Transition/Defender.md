@@ -72,7 +72,7 @@ description: "How to defend against Cross Ashi Transition in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins tightening their heel grip before initiating the leg switch - what does this signal and how should you respond?",
+      "name": "Your attacker tightens their heel grip before the leg switch. What does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip tightening signals the attacker is about to begin the transition and is securing their submission control as insurance before loosening leg position. Respond by immediately engaging aggressive hand fighting to strip or weaken their heel grip before the leg switch begins. If you can compromise their grip before the transition starts, the escape window becomes significantly larger when their legs reconfigure."
@@ -88,7 +88,7 @@ description: "How to defend against Cross Ashi Transition in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your escape attempt fails and the attacker completes the Cross Ashi configuration - what is your immediate priority?",
+      "name": "Your escape fails and they complete Cross Ashi. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift to Cross Ashi-Garami defensive positioning: keep your trapped knee bent with heel toward your hip, sit up to create frames on the attacker's body, and begin aggressive hand fighting to prevent them from locking a heel hook grip. Do not continue attempting the same escape that just failed. Instead, settle into proper defensive structure and look for the next escape opportunity when the attacker adjusts their position or attempts a submission."

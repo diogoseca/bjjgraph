@@ -74,7 +74,7 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "What is the correct arm position to maintain when you suspect or detect a spinning armbar attempt, and why does extending the arm increase injury risk?",
+      "name": "How should you hold your arm against a spinning armbar, and why is extending it risky?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your elbow bent at 90 degrees or less and pinned tightly against your ribcage with your forearm across your body. An extended arm during a spinning armbar creates two dangers: it provides the attacker with the isolation and leverage they need to complete the submission, and it places the elbow joint in a position where rotational forces during the spin can cause lateral ligament damage even before the finishing extension is applied. The bent arm position makes the spin significantly less effective because the attacker cannot generate the lever arm needed for the finish. Additionally, a bent arm allows you to use your entire body weight to resist rather than relying solely on bicep and grip strength against the attacker's two-handed control."
@@ -82,7 +82,7 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "When the attacker has landed in armbar position after completing the spin, what stacking defense mechanics neutralize the finishing pressure?",
+      "name": "After they land the spinning armbar, what stacking mechanics kill the finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward by stepping your far leg up and pressing your shoulder into the attacker's thigh or hip area while keeping your trapped arm bent. The goal is to flatten their hips to the mat, which removes the hip elevation they need to generate extension pressure on your elbow. Walk your body around toward their head in small steps while maintaining forward pressure, which progressively worsens their armbar angle. Clasp your hands together in a gable grip to prevent arm extension while you work the stack. The key mechanical principle is that an armbar cannot finish if the attacker's hips are flat on the mat - all finishing pressure comes from hip elevation against the arm, so eliminating that elevation neutralizes the submission even if they maintain arm control."
@@ -90,7 +90,7 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "What tap protocol should you follow when caught in a spinning armbar that you cannot escape, and why is early tapping particularly important for this submission?",
+      "name": "What tap protocol applies in an inescapable spinning armbar, and why tap early here?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using any available method - verbal tap, hand tap on opponent or mat, or foot tap on mat - as soon as you feel extension pressure approaching your elbow's range of motion limit. Early tapping is especially critical for the spinning armbar because the rotational momentum from the spin can cause the attacker to apply finishing pressure faster than they intend, and the dynamic nature of the technique makes fine pressure control more difficult than in static armbars. Do not wait until you feel pain to tap, as the elbow joint can sustain ligament damage before pain signals fully register. If you cannot physically tap due to arm position, use a loud verbal tap immediately. The spinning armbar's injury potential is amplified by the momentum involved, making the margin between a controlled tap and an injury significantly smaller than with conventional armbars."

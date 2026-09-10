@@ -84,7 +84,7 @@ description: "How to execute Mission Control Recovery in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hand-fighting your foot behind their head - how do you decide between continuing gogoplata and initiating recovery?",
+      "name": "They hand-fight your gogoplata foot: how do you decide to finish or recover Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape."
@@ -92,7 +92,7 @@ description: "How to execute Mission Control Recovery in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip positioning requirement during the transition from gogoplata to Mission Control?",
+      "name": "What hip positioning is critical while transitioning from gogoplata back to Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling."
@@ -100,7 +100,7 @@ description: "How to execute Mission Control Recovery in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively as you withdraw your shin - what immediate adjustment should you make?",
+      "name": "They drive forward as you withdraw your shin from the gogoplata: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle."

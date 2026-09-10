@@ -56,7 +56,7 @@ description: "How to defend and prevent the side control to Kuzure Kesa Gatame t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive asset to protect against the Kuzure Kesa Gatame transition, and why?",
+      "name": "Which defensive asset matters most against the Kuzure Kesa Gatame transition, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near arm is the single most important asset, because the arm trap, not a head wrap, is the anchor of the modified scarf hold. The near arm serves triple duty: it provides the frame against the opponent's hip that can disrupt the shift, it must stay free to prevent the armpit clamp that anchors the position, and its loss immediately creates submission vulnerability to armbar, americana, and kimura. Once it is trapped under the opponent's armpit, both your primary frame and your primary escape tool are eliminated at once, and every other escape becomes dramatically harder."
@@ -64,7 +64,7 @@ description: "How to defend and prevent the side control to Kuzure Kesa Gatame t
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that distinguishes a Kuzure Kesa Gatame attempt from a mount or north-south attempt?",
+      "name": "What earliest cue separates a Kuzure Kesa Gatame attempt from mount or north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest specific cue is feeling the top player scoop your near arm upward toward their armpit rather than merely controlling it at the wrist or elbow. This upward arm capture does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips shift from a square perpendicular pin to an angled pressure beside your shoulder while their near knee slides toward your head, which differs from the hip elevation of a mount attempt or the circling movement of a north-south transition."
@@ -80,7 +80,7 @@ description: "How to defend and prevent the side control to Kuzure Kesa Gatame t
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the opponent considered a high-reward defensive option from an established modified scarf hold, and what is the trade-off?",
+      "name": "Why is turning into them high-reward from a modified scarf hold, and what is the trade-off?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any scarf hold positions the top player perpendicular with their back facing your legs, a geometric vulnerability that standard side control does not have. Turning into the opponent and coming chest-to-chest lets you reach around their back and begin establishing back control, going from a bad defensive spot directly toward the most dominant offensive position. The trade-off is significant: if the opponent reads the turn-in, they can step over into mount as you rotate, so a failed turn-in can leave you worse off than the scarf hold you started in."
