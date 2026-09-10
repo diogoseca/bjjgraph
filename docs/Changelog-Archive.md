@@ -7174,3 +7174,20 @@ only live graph nodes and checking the emitted coverage metadata. The existing c
 remains intact; malformed masks and missing node references fail explicitly. This gate also runs
 immediately after payload generation in content validation, before the preview build. Regression
 tests compare its corpus count with the app and exercise sparse ordinals and invalid memberships.
+
+
+## v1.182.4 — Keep browser deployment checks reachable and complete
+
+The technique-tap and pair-role journeys now require their chosen graph coordinate to reach
+the canvas or graph wrapper, excluding nodes obscured by the flashcard. Both previously chose
+Leg Drag to Knee on Belly behind the question card and graded the unchanged Side Control state.
+The role journey also verifies the category actually reached by its real mouse movement.
+The navigation fixture explicitly selects a transition because its assertions require an origin
+position; submissions are now playable states themselves.
+
+Preview run 34422191635 completed 229 of 250 serial browser tests before the 12-minute step
+timeout. Preview and production now allow 20 minutes for the complete curated suite, retaining
+the single worker, every assertion, and zero retries.
+
+Validation: complete local Quartz build and payload budget passed; all 250 curated browser
+journeys passed in 11.7 minutes, including both repaired pointer journeys.

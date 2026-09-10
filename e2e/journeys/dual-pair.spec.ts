@@ -819,7 +819,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
           const a: any = (window as any).__neural
           const scale = a.W / a.cam.vw
           for (const n of a.nodes) {
-            if (n.ty !== ty || n.pi < 0 || n.z <= 0) continue
+            if (n.ty !== ty || n.pi < 0 || n.z <= 0 || !a.rsAllowsIdx(n.idx)) continue
             if (n.idx === a.focusIdx || n.idx === a.nodes[a.focusIdx].pi) continue
             const P = (m: any) => ({
               sx: (m.x - a.cam.cx) * scale + a.W / 2,
@@ -828,8 +828,13 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
             const A = P(n)
             const B = P(a.nodes[n.pi])
             const pick = half === "upper" ? (A.sy < B.sy ? A : B) : A.sy < B.sy ? B : A
-            if (pick.sx > 120 && pick.sx < a.W - 320 && pick.sy > 90 && pick.sy < a.H - 330)
+            if (pick.sx > 120 && pick.sx < a.W - 320 && pick.sy > 90 && pick.sy < a.H - 330) {
+              // A graph coordinate can sit behind the flashcard. Only point at
+              // an exposed orb; the card's height follows its authored question.
+              const hit = document.elementFromPoint(pick.sx, pick.sy)
+              if (hit !== a.canvas && hit !== a.wrapRef.current) continue
               return { sx: pick.sx, sy: pick.sy, t: n.t }
+            }
           }
           return null
         },
@@ -839,6 +844,10 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
       await page.mouse.move(t!.sx - 40, t!.sy - 40)
       await page.mouse.move(t!.sx, t!.sy)
       await j.advance(120)
+      expect(await page.evaluate(() => {
+        const a: any = (window as any).__neural
+        return a._hover && a.nodes[a._hover.idx].ty
+      }), "the pointer reached the selected category").toBe(ty)
       const L = await page.evaluate(() => (window as any).__neural._lastPairLabel)
       expect(L, `${ty}/${half}: the group drew`).toBeTruthy()
       seen[ty + "/" + half] = { sub: L.sub, above: L.above, main: L.main, qual: L.qual, node: t!.t }

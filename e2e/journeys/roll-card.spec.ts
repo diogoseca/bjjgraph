@@ -725,7 +725,7 @@ for (const height of [900, 720]) {
  * the technique's origin position (the engine's states are positions), staged and paused. Play
  * ran the exchange (retired with the transport in v1.134.0 — the staged card itself is the go).
  */
-test("@curated tapping a technique navigates to it — URL, focus and a standard staged card", async ({
+test("@curated tapping a transition navigates to it — URL, focus and a standard staged card", async ({
   page,
 }) => {
   const j = journey(page)
@@ -740,11 +740,18 @@ test("@curated tapping a technique navigates to it — URL, focus and a standard
     const a: any = (window as any).__neural
     const scale = a.W / a.cam.vw
     for (const n of a.nodes) {
-      if (n.ty === "positions") continue
+      // This journey asserts staging at an origin position. Submissions are
+      // playable states themselves, so they cannot be this fixture's subject.
+      if (n.ty !== "transitions" || !a.rsAllowsIdx(n.idx)) continue
       const sx = (n.x - a.cam.cx) * scale + a.W / 2
       const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
-      if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340)
+      if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340) {
+        // The flashcard can cover a node inside these viewport bounds. A real
+        // graph tap must reach the canvas, not a question or answer above it.
+        const hit = document.elementFromPoint(sx, sy)
+        if (hit !== a.canvas && hit !== a.wrapRef.current) continue
         return { sx, sy, t: n.t, ty: n.ty, idx: n.idx }
+      }
     }
     return null
   })

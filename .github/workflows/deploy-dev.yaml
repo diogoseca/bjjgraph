@@ -218,7 +218,9 @@ jobs:
 
       # Fast representative gate. The complete suite runs sharded before merges to main.
       - name: Curated journey gate (Playwright E2E)
-        timeout-minutes: 12
+        # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
+        # Keep every test and the single worker; allow the full suite to finish.
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)

@@ -252,7 +252,7 @@ lists files needing fixes · `regenerate:json` the costly Claude pass (600s inte
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (12-min
+**Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (20-min
 ceiling) · `test:units` pure node --test · `e2e:share` (:8129) · `e2e:replay` (:8151) ·
 `e2e:gen` generated suite (:8127) · `e2e:quarantine` known-red · `e2e:observe` watchable CDP ·
 `e2e:headed`. `pree2e` and both `test*` scripts run `scripts/check_no_raw_random.sh` first.
