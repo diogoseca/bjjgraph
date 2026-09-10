@@ -714,3 +714,66 @@ for (const viewport of [
     await expect(page.locator(".ng-learning-nav")).toBeVisible();
   });
 }
+
+// Unlike the arrival cases above, these start with a live hand and authored film. The DSL's
+// empty dossier default cannot prove that selecting a reference tears down existing videos.
+for (const category of ["Principles", "Systems", "Learning"] as const) {
+  test(`clicking ${category} retires the current node and its surfaces @curated`, async ({ page }) => {
+    const errors = watchErrors(page);
+    const j = journey(page);
+    await j.boot("/");
+    await page.evaluate(() => {
+      const w = window as any;
+      w.NG_CONTENT ||= {}; w.NG_CONTENT.decks ||= {};
+      w.NG_CONTENT.decks["Half Guard|Top"] = {
+        clips: [{ id: "aQ2vFXXBn-o", title: "Half guard demonstration" }],
+      };
+    });
+    await j.land("Half Guard Top");
+    await expect(page.locator("[data-land-film]")).toBeVisible();
+    await expect(page.locator("[data-landcard]")).toBeVisible();
+    expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBeGreaterThan(0);
+    await page.locator(".ng-logo").click();
+    await page.locator("[data-view='explore']").click();
+    const header = page.locator(`[data-explore-section="${category}"]`);
+    await expect(header).toBeVisible();
+    if (await header.getAttribute("aria-expanded") !== "true") await header.click();
+    if (category === "Systems") {
+      const group = page.locator("[data-system-category]").first();
+      await expect(group).toBeVisible();
+      if (await group.getAttribute("aria-expanded") !== "true") await group.click();
+    }
+    const kind = category === "Systems" ? "system" : "concept";
+    const row = page.locator(`[data-${kind}-row]`).first();
+    const id = await row.getAttribute(`data-${kind}-row`);
+    expect(id).toBeTruthy();
+    await row.scrollIntoViewIfNeeded();
+    await j.clickByMouse(`[data-${kind}-row="${id}"]`);
+    await expect(page.locator(`[data-${kind}-detail="${id}"]`)).toBeVisible();
+    expect(new URL(page.url()).pathname).toBe("/" + id);
+    expect((await litIds(page))!.length).toBeGreaterThan(0);
+    const assertIdle = async () => {
+      expect(await page.evaluate(() => {
+        const a = (window as any).__neural;
+        return { current: a.currentPos ?? null, focus: a.focusIdx, staged: a._staged ?? null,
+          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl,
+          more: !!a._landMoreEl, pulse: !!a.pulse, decision: !!a._decision, played: !!a._played };
+      })).toEqual({ current: null, focus: -1, staged: null, options: 0, land: false,
+        film: false, more: false, pulse: false, decision: false, played: false });
+      await expect(page.locator("[data-landcard], [data-land-film]")).toHaveCount(0);
+      expect(new URL(page.url()).pathname).toBe("/" + id);
+    };
+    await assertIdle();
+    await page.locator(".ng-logo").click(); // closing the reading pane must not resume the old roll
+    await j.advance(12000);
+    await assertIdle();
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.stageRollAt(a.nodes.findIndex((n: any) => n.id === "Positions/Mount"));
+    });
+    await j.advance(600);
+    expect(await page.evaluate(() => (window as any).__neural.currentPos)).toBeGreaterThanOrEqual(0);
+    await expect(page.locator("[data-landcard]")).toBeVisible();
+    expect(errors).toEqual([]);
+  });
+}

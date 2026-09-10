@@ -7212,3 +7212,23 @@ failures came from copied, stale Quartz artifacts (the snapshot probe's GET inst
 and the generated Systems page). Rebuilding the scripts and affected page from current source
 made both targeted rechecks pass. First-hand payload measured 1,595,840 raw / 378,215 gzip bytes,
 within the existing budgets. No budget or production-source changes were needed for these checks.
+
+## v1.182.6 — Reference selections retire the current node
+
+System and concept clicks already pushed their own URL and highlighted their members, but only
+paused the existing roll through the pane. Its current node, choices, landing card and film stayed
+alive behind the selection. `_leaveRollForReference` now clears that roll before either open path
+claims its page: replay, timers, engagement, staged seat, landing surfaces and pause ownership all
+end together. The old URL seed is invalidated so an unfinished intro cannot restore it. Played
+history uses the existing archive seam; choosing a playable node still starts a fresh roll.
+
+`concepts-surface.spec.ts` starts with a real hand and a supplied video, clicks each of Principles,
+Systems and Learning with the mouse, checks the page URL and highlighted set, then closes the pane
+and advances time to prove the old node and its surfaces stay gone. Removing the two cleanup calls
+made all three cases fail with the previous current node, landing card, film, decision and 21
+choices still present. The five focused selection/arrival cases pass with the fix restored.
+
+Validation: 260 unit tests passed. The curated run passed 251/253; its two static-site failures
+came from the reused build (old GET snapshot probe and missing system HTML). A full `npm run build`
+passed, then both failures and all five focused selection/arrival cases passed together (7/7).
+The fresh first-hand payload was 379,366 bytes gzip against the 387,400-byte ceiling.

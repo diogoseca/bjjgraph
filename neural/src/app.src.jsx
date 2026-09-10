@@ -3209,6 +3209,7 @@ class Component extends DCLogic {
   }
   openConcept(id) {
     const c = this._conceptsById ? this._conceptsById[id] : null; if (!c) return;
+    this._leaveRollForReference();
     // Explore owns the highlight, and any pane/tab transition runs clearFocus — so the transition
     // goes FIRST and the selection is claimed after it (openSystem, same two lines, same reason).
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
@@ -7311,6 +7312,7 @@ class Component extends DCLogic {
   }
   openSystem(id) {
     const s = this._systemsById ? this._systemsById[id] : null; if (!s) return;
+    this._leaveRollForReference();
     // Explore is the tab that owns the highlight. Any pane/tab transition runs clearFocus, so the
     // transition goes FIRST and the selection is claimed after it (a row click skips this).
     if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
@@ -7324,6 +7326,28 @@ class Component extends DCLogic {
     this.showExplorerList();
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
+
+  // Reference pages own a highlighted set, never a current seat. Pausing the pane alone
+  // leaves the old hand, staged arrival and late content callbacks alive behind that set.
+  // Use the same teardown for clicks and URL arrivals, before claiming the new selection.
+  _leaveRollForReference() {
+    this._refPage = true;
+    this._urlSeeded = false; this._urlSeedIdx = -1; this._urlSeedRole = null;
+    this.stopReplay("reference");
+    this._clearPauseLatches();
+    this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
+    this._closeRoll();
+    this._endArrival();
+    this._beltTest = null; this._staged = null; this._stagedCamFree = false;
+    this._played = false; this._roam = true; this.endZoom = false;
+    this.currentPos = null; this.focusIdx = -1; this.activeMove = null; this.pulse = null;
+    this.trail = []; this.ripples = [];
+    this._session = null; this._sessionNodes = null; this._inSession = false;
+    this._lastActor = null; this._currentDeckKey = null;
+    this._combo = 0; this._landPending = false; this._updateComboChip();
+    this.hideCenter(); this.setEvent("", "", "muted");
+    this.setPaused(true);
+  }
 
   // ══════════════════════════════════════════════════════════════════════════════════════
   // SHAREABLE LISTS — the gym-WhatsApp loop
