@@ -7142,15 +7142,15 @@ class Component extends DCLogic {
     // and NONE of them is a graph node — which is why they had no route in. concepts.json is
     // their index and their readable bodies ride the per-node dossier chunk space, so the same
     // `_ngc()` cache serves both. See _ensureConcepts / renderConceptDetail.
-    // Only graph categories carry shapes. Reference libraries reserve the same empty slot
-    // so labels align without borrowing the circle that identifies a position.
+    // Graph shapes are quiet keys beside the chevrons, not leading navigation icons.
+    // Every section label shares the 12px left edge with Your lists; only children indent.
     const sectionGlyph = (ty) => {
       const shape = {
         positions: '<circle cx="10" cy="10" r="7.7"/>',
         transitions: '<path d="M10 1.9 L18.1 10 L10 18.1 L1.9 10 Z"/>',
         submissions: '<path d="M10 2.6 L17.6 16.6 L2.4 16.6 Z"/>',
       }[ty];
-      return '<span aria-hidden="true" style="display:flex;align-items:center;justify-content:center;width:16px;height:16px;flex:none;">' + (shape ? '<svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round" focusable="false">' + shape + '</svg>' : '') + '</span>';
+      return '<span aria-hidden="true" style="display:flex;align-items:center;justify-content:center;width:14px;height:14px;flex:none;margin-left:auto;">' + (shape ? '<svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="#8b97b0" stroke-width="1.5" stroke-linejoin="round" focusable="false">' + shape + '</svg>' : '') + '</span>';
     };
     const renderConcepts = (cat, label) => {
       const all = (this.concepts || []).filter((c) => c.cat === cat);
@@ -7158,13 +7158,13 @@ class Component extends DCLogic {
       // re-renders Explore when it lands. Absent (or 404) -> no section yet, never a stub list.
       if (!all.length) { this._ensureConcepts(); return; }
       const open = this._exploreSectionOpen(label);
-      const hdr = mk(sectionGlyph() + '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
       for (const c of all) {
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 46, () => this.openConcept(c.id));
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
         row.style.paddingRight = "12px";
         row.setAttribute("data-concept-row", c.id);
         row.setAttribute("data-concept-cat", c.cat);
@@ -7180,12 +7180,12 @@ class Component extends DCLogic {
       // it here, at the first read; _onSystems re-renders Explore when it lands.
       if (!all.length) { this._ensureSystems(); return; }   // absent (or 404) -> no section yet
       const open = this._exploreSectionOpen("Systems");
-      const hdr = mk(sectionGlyph() + '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection("Systems"));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection("Systems"));
       hdr.setAttribute("data-explore-section", "Systems");
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
       if (!open) return;
-      // Topics are family branches, with the same session-local folds and 46 → 62px
+      // Topics are family branches, with the same session-local folds and 22 → 38px
       // indentation as the position tree. Multiple branches can remain open together.
       const topics = new Map();
       for (const s of all) {
@@ -7199,7 +7199,7 @@ class Component extends DCLogic {
         branch.setAttribute("data-system-branch", type);
         const children = document.createElement("div");
         children.setAttribute("data-system-children", type);
-        const row = mk("", 46, () => {
+        const row = mk("", 22, () => {
           if (this._exp.f.has(fk)) this._exp.f.delete(fk); else this._exp.f.add(fk);
           renderBranch(); // Keep the branch button mounted so keyboard focus survives toggles.
         });
@@ -7213,7 +7213,7 @@ class Component extends DCLogic {
           children.replaceChildren();
           if (!expanded) return;
           for (const s of [...systems].sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))) {
-            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 62, () => this.openSystem(s.id));
+            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
             leaf.style.paddingRight = "12px";
             leaf.setAttribute("data-system-row", s.id);
             leaf.style.pointerEvents = "auto";
@@ -7231,7 +7231,7 @@ class Component extends DCLogic {
       const famNames = Object.keys(fams).sort((a, b) => a.localeCompare(b));
       const count = famNames.reduce((a, f) => a + fams[f].length, 0);
       const gOpen = this._exploreSectionOpen(label);
-      const hdr = mk(sectionGlyph(key) + '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(gOpen) + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span>' + sectionGlyph(key) + '<span style="color:#5d6883;font-size:11px;">' + this._caretHTML(gOpen) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", gOpen ? "true" : "false");
       list.appendChild(hdr);
@@ -7240,15 +7240,15 @@ class Component extends DCLogic {
         const nodes = fams[fam], col = this.hex(nodes[0].col);
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
-          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(fOpen) + '</span>', 30, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
+          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(fOpen) + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
           // THE CATEGORY SHAPE RIDES EVERY TECHNIQUE ROW (v1.103.6). These leaf rows carried no
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.nodeQual(n) + '</span>' : "") + '</span>', 46, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.nodeQual(n) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
           const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 30, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
         }
       }
     };
@@ -8461,7 +8461,7 @@ class Component extends DCLogic {
       empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 6px 22px;";
       empty.textContent = this._sharedIncoming
         ? "Save the shared class above to keep it — or tap + to start your own."
-        : "No lists yet — tap + to start one.";
+        : "Organize techniques into classes or training lists.";
       sec.appendChild(empty);
       list.appendChild(sec);
       return;

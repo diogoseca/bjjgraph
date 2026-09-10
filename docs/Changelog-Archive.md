@@ -7191,3 +7191,24 @@ the single worker, every assertion, and zero retries.
 
 Validation: complete local Quartz build and payload budget passed; all 250 curated browser
 journeys passed in 11.7 minutes, including both repaired pointer journeys.
+
+
+## v1.182.5 — Align Explore categories and custom lists
+
+All six Explore category labels now share the left edge of Your lists. Positions, Transitions,
+and Submissions keep their graph shapes as smaller, muted keys beside the right-hand chevrons;
+the reference categories no longer reserve empty leading icon slots. Expanded rows use the
+existing 22px / 38px indentation, and the lists empty state explains that users can organize
+techniques into classes or training lists. The creation control and disclosure behavior remain
+unchanged. The existing list-creation journey now expects the new explanatory copy.
+
+Validation: app bundle built successfully. An isolated browser probe of the actual rendering
+methods checked all seven heading positions, three trailing shapes, aligned chevrons, overflow,
+and mouse / keyboard disclosure at 320px, 390px, and 1440px. This probe is not a permanent
+regression gate.
+
+Pre-commit browser validation: 248 of 250 curated journeys passed in the full run. The two
+failures came from copied, stale Quartz artifacts (the snapshot probe's GET instead of HEAD,
+and the generated Systems page). Rebuilding the scripts and affected page from current source
+made both targeted rechecks pass. First-hand payload measured 1,595,840 raw / 378,215 gzip bytes,
+within the existing budgets. No budget or production-source changes were needed for these checks.

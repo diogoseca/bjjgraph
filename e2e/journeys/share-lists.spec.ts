@@ -992,8 +992,8 @@ test("the + beside Your lists creates a class list — the one deliberate creati
   ).not.toContainText(/share a class/i);
   await expect(
     page.locator("[data-lists-empty]"),
-    "the empty line points at the +",
-  ).toContainText("tap + to start one");
+    "the empty line explains what custom lists are for",
+  ).toContainText("Organize techniques into classes or training lists.");
 
   const plus = page.locator("[data-lists-new]");
   await expect(plus).toHaveAttribute("aria-label", "New list");
