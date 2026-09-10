@@ -83,7 +83,7 @@ jobs:
           node-version: "22"
 
       - name: Install Python dependencies
-        run: pip install jsonschema
+        run: pip install jsonschema jinja2
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
@@ -139,6 +139,9 @@ jobs:
       # where a provisioned checkout reports 94 / 0. Reproduce by deleting the directory.
       - name: Emit the neural payload (input to the unit suites and the MC gate)
         run: python3 scripts/regenerate_neural_data.py
+
+      - name: Systems and concepts payload contract
+        run: python3 scripts/check_systems_payload.py
 
       # Pure-unit suites (node --test, no browser, no build, ~4s): the share-link wire codec, the
       # neural deck-hydration contract, and the FLOW selfcheck. Separate from the Playwright

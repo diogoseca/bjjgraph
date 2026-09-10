@@ -33,6 +33,49 @@ function app(frame = "gi") {
   return a;
 }
 
+test("concept payload gate counts the same highlights as the app across every encoding", () => {
+  const a = app();
+  const expected = a.concepts.reduce((n, c) => n + c.nodes.length, 0);
+  const output = execFileSync("python3", ["-c", `
+import json, sys
+sys.path.insert(0, 'scripts')
+from check_systems_payload import check_concept_membership
+from pathlib import Path
+root = Path('source/quartz/static/neural')
+wire = json.loads((root / 'graph-data.json').read_text())
+concepts = json.loads((root / 'concepts.json').read_text())
+errors, total = check_concept_membership(concepts, {n['id']: n for n in wire['nodes']})
+assert not errors, errors
+print(total)
+`], { cwd: new URL("..", import.meta.url), encoding: "utf8" });
+  assert.equal(Number(output.trim()), expected);
+  assert(expected > 690, "must exercise actual concept highlights");
+});
+
+test("concept payload gate rejects dead memberships and inflated coverage metadata", () => {
+  execFileSync("python3", ["-c", `
+import sys
+sys.path.insert(0, 'scripts')
+from check_systems_payload import check_concept_membership
+# Sparse permanent ordinals deliberately differ from array indexes.
+graph = {'A': {'o': 0}, 'B': {'o': 5}, 'C': {'o': 9}}
+def check(concepts, count):
+    return check_concept_membership({'concepts': concepts, '_meta': {'nodes': count}}, graph)
+assert check([{'allNodes': True}, {'nodeMask': '220'}, {'nodes': ['A']}], 6) == ([], 6)
+for encoded in ('', '-1', 'xyz', 1, None):
+    errors, total = check([{'nodeMask': encoded}], 0)
+    assert errors and total == 0, (encoded, errors, total)
+errors, total = check([{'nodeMask': '222'}], 3)
+assert any('ordinals absent' in e for e in errors) and total == 2
+errors, total = check([{'nodes': ['A', 'gone']}], 2)
+assert any('nodes absent' in e for e in errors) and total == 1
+errors, total = check([{'nodes': ['A', 'A']}], 2)
+assert any('_meta.nodes' in e for e in errors) and total == 1
+assert check([{'nodes': []}], 100)[0]
+assert check([{'nodeMask': '0'}], 0) == ([], 0)
+`], { cwd: new URL("..", import.meta.url), encoding: "utf8" });
+});
+
 test("principle coverage includes both roles, every category, and respects the ruleset", () => {
   for (const frame of ["gi", "nogi"]) {
     const a = app(frame),

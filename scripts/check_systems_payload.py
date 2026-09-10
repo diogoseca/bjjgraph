@@ -39,6 +39,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -311,6 +312,43 @@ def check(payload: dict, node_ids: set[str], expected_ids: set[str]) -> list[str
     return errors
 
 
+def check_concept_membership(payload: dict, nodes_by_id: dict) -> tuple[list[str], int]:
+    """Count live highlights using the same ordinal-based membership as _onConcepts.
+
+    Count decoded members, not metadata or raw mask bits: retired/unknown ordinals
+    cannot light a graph node and must not inflate the coverage floor.
+    """
+    errors, total = [], 0
+    live_ordinals = {n["o"] for n in nodes_by_id.values()
+                     if type(n.get("o")) is int and n["o"] >= 0}
+    live_mask = sum(1 << ordinal for ordinal in live_ordinals)
+    for concept in payload.get("concepts") or []:
+        cid = concept.get("id", "<no id>")
+        if concept.get("allNodes"):
+            total += len(live_ordinals)
+        elif "nodeMask" in concept:
+            encoded = concept["nodeMask"]
+            if not isinstance(encoded, str) or not re.fullmatch(r"[0-9a-fA-F]+", encoded):
+                errors.append(f"{cid}: nodeMask must be a nonempty hexadecimal string")
+                continue
+            mask = int(encoded, 16)
+            if mask & ~live_mask:
+                errors.append(f"{cid}: nodeMask references ordinals absent from graph-data.json")
+            total += (mask & live_mask).bit_count()
+        else:
+            members = concept.get("nodes")
+            if not isinstance(members, list) or any(not isinstance(n, str) for n in members):
+                errors.append(f"{cid}: nodes must be an array of graph ids")
+                continue
+            unknown = set(members) - nodes_by_id.keys()
+            if unknown:
+                errors.append(f"{cid}: nodes absent from graph-data.json: {sorted(unknown)}")
+            total += len(set(members) & nodes_by_id.keys())
+    if (payload.get("_meta") or {}).get("nodes") != total:
+        errors.append(f"concepts: _meta.nodes disagrees with decoded membership ({total})")
+    return errors, total
+
+
 def main() -> None:
     for path in (PAYLOAD, GRAPH_DATA):
         if not path.exists():
@@ -363,7 +401,8 @@ def main() -> None:
         try:
             cdoc = json.loads(CONCEPTS.read_text())
             cmeta = cdoc.get("_meta") or {}
-            clit = sum(len(c.get("nodes") or []) for c in cdoc.get("concepts") or [])
+            membership_errors, clit = check_concept_membership(cdoc, nodes_by_id)
+            errors.extend(membership_errors)
             cunres = sum(len(c.get("unresolved") or []) for c in cdoc.get("concepts") or [])
         except json.JSONDecodeError:
             pass  # already reported above

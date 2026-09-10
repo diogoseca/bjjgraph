@@ -7164,3 +7164,13 @@ Validation: all 1,511 target JSON files pass their full schemas; the source diff
 Final unit run: 258 passed, 0 failed. All three category page regenerations completed without skipped source files.
 
 Release validation: full Quartz build and payload gate passed. Integration preserves concurrent dev UI releases; the Explore documentation was condensed to satisfy the existing budget.
+
+
+## v1.182.3 — Repair validation dependencies and compact concept payload checks
+
+Content validation installs Jinja2 for the system affiliate rendering unit suite. The systems
+payload gate now decodes universal concept membership and permanent-ordinal masks, counting
+only live graph nodes and checking the emitted coverage metadata. The existing coverage floor
+remains intact; malformed masks and missing node references fail explicitly. This gate also runs
+immediately after payload generation in content validation, before the preview build. Regression
+tests compare its corpus count with the app and exercise sparse ordinals and invalid memberships.
