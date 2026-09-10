@@ -579,14 +579,16 @@ test.describe("Challenges UI @curated", () => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
 
-    const opener = page.locator(".ng-logo");
+    const opener = page.getByRole("button", { name: "Menu — open learning panel" });
     await expect(opener).toBeVisible();
+    await expect(opener.getByText("Menu", { exact: true })).toBeVisible();
     const openerBox = await opener.boundingBox();
     expect(openerBox?.width).toBeGreaterThanOrEqual(44);
     expect(openerBox?.height).toBeGreaterThanOrEqual(44);
-    await opener.click();
+    await j.clickByMouse(".ng-logo", "the mobile Menu button");
     await expect(page.locator(".ng-explorer")).toBeVisible();
-    await page.locator(".ng-explorer-close").click();
+    await j.clickByMouse(".ng-explorer-close", "the panel close button");
+    await expect(page.locator(".ng-explorer")).toBeHidden();
 
     await j.land("Mount Top");
 
