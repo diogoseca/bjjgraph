@@ -55,9 +55,9 @@ For iterative work, edit JSON sources in `content/`, run a targeted regenerate s
 | `npm run regenerate:graph` | **Umbrella**: `graph-base` (graph.json) → `graph-layout` → `ordinals` → `graph-strength`. Running only `graph-base` strips `strength` from every node |
 | `npm run regenerate:ordinals` | Mint the append-only share-link ordinal lockfile (`node_ordinals.json`) |
 | `npm run validate:ordinals` | Hard gate: no ordinal renumbered, reused or deleted — share links encode them |
-| `npm run regenerate` | The full chain, in order (see CLAUDE.md §4) |
+| `npm run regenerate` | The full chain, including the Neural app bundle and data (see CLAUDE.md §4) |
 | `npm run build` | Build the static site (~10 min, ~5700 files) |
-| `npm run regenerate:build` | Regenerate + build (full workflow) |
+| `npm run regenerate:build` | Regenerate content and graph, rebuild the interactive app and its data, then build the site |
 | `npm run serve` | Serve `source/public` on port 8080 (no rebuild) |
 | `npm run dev` | `build` then `serve` |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities (intermittent use; not part of `regenerate`) |
@@ -78,6 +78,8 @@ BJJGraph uses a **JSON-first** content system:
 3. **Test** build with `npm run dev`
 
 Never edit `.md` files in `content/` directly — they are generated from the `.json` source files.
+
+For the complete workflow in one command, run `pnpm regenerate:build` (or `npm run regenerate:build`). It includes the Claude content-repair pass, graph regeneration, the Neural app bundle and data, and the static-site build. “Neural” is the project's interactive app: the graph explorer, study tools, and roll simulator. The content-repair pass can modify source JSON and uses Claude; this is a full regeneration rather than an incremental refresh.
 
 ### Documentation
 

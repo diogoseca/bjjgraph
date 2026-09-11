@@ -232,7 +232,7 @@ ruleset mask or is named in `tests/artifacts/ruleset_surfaces.json` with a reaso
 **The corpus census.** Corpus sizes are hard-coded across specs as tripwires, on purpose. `tests/corpus_census.test.mjs` computes every one of them from the wire (~0.5s, no browser) and fails naming EVERY stale literal at once with `file:line` and `old -> new`; `npm run census:update` rewrites them. Mark a new literal with a trailing `// census:<key>` comment — the line must carry exactly one number outside strings, or the scan refuses it rather than guessing. **This runs in `test:units`, so it fires on a push to dev** — which is the whole point: a push to dev runs no Playwright, so before the census a content change met its stale e2e literals one at a time, a deploy later. That happened twice (v1.155.2, v1.158.1).
 
 **Regenerate** — `regenerate` runs the full chain: `issues → json → explode → migrate:ruleset →
-validate:graph (gate) → md → hubs → votes → graph → explorer`. Individually: `regenerate:issues`
+validate:graph (gate) → md → hubs → votes → graph → explorer → neural`. Individually: `regenerate:issues`
 lists files needing fixes · `regenerate:json` the costly Claude pass (600s interval; `:fast` for 0)
 · `regenerate:explode` expands connections · `migrate:ruleset` folds content to `{gi,nogi}` ·
 `regenerate:md` markdown from JSON · `regenerate:hubs` category hubs · `regenerate:votes` ·
