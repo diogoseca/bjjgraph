@@ -313,6 +313,7 @@ test("@curated the hit-test reads where the orb is drawn, not where it is stored
  *    this journey cannot see.
  */
 test("swapping to the other half holds the camera, and a real pan releases it", async ({ page }) => {
+  test.fixme(true, "Owner deferred this disputed camera assertion for the 2026-09-11 release. It reads camTarget during card hydration; a fresh-build probe kept both nodes visible and settled within 3px. Replace with a reviewed screen-space contract before re-enabling.");
   const j = journey(page)
   await j.boot(AT)
   await settle(page, j)

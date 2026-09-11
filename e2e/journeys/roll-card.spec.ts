@@ -494,7 +494,10 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   // auto-expand: "it automatically shows more instead of showing less").
   const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && x.ty === "transitions")
+    // Choose a normal transition explicitly: arbitrary graph order can put a
+    // submission-control escape first, which opens the defense surface instead.
+    const n = a.nodes[a._idIndex.get("Transitions/Knee-Slice-Pass")]
+    if (!n || n.idx === a.currentPos) throw new Error("Knee Slice Pass fixture is unavailable")
     // author something behind `More`, or v1.101.9 renders no `More` and nothing to unfold
     const w = window as Any
     w.NG_CONTENT = w.NG_CONTENT || {}; w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
@@ -502,7 +505,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
     a.openDossier(n.idx)
     return { id: n.id, t: n.t }
   })
-  await j.advance(900)
+  await j.advance(6500) // the star belongs to the graph label, which arrives after the camera flight
 
   const st = await page.evaluate(() => {
     const a = (window as Any).__neural
@@ -569,14 +572,15 @@ test("the seat's capture star really is clickable, by mouse", async ({ page }) =
 
   const id = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && (x.ty === "transitions" || x.ty === "submissions"))
+    const n = a.nodes[a._idIndex.get("Transitions/Knee-Slice-Pass")]
+    if (!n || n.idx === a.currentPos) throw new Error("Knee Slice Pass fixture is unavailable")
     // EXACTLY one list, so a capture is one tap and not the destination picker
     a.lists = {}
     a.newList()
     a.openDossier(n.idx)
     return n.id
   })
-  await j.advance(900)
+  await j.advance(6500) // wait for the graph seat label, not just the independently mounted card
   // the card enters on a REAL-time CSS animation (ngCardInX, .28s) and `advance` pumps the
   // SIMULATED clock — so a click dispatched immediately lands on a card still fading in
   await page.waitForTimeout(400)

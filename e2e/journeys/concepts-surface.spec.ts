@@ -101,7 +101,8 @@ const payload = () => {
     ).ordinals;
     const graph = JSON.parse(
       readFileSync(
-        resolve(__dirname, "../../source/quartz/static/neural/graph-data.json"),
+        // CI shards receive the built site, including its matching graph payload.
+        resolve(__dirname, "../../source/public/static/neural/graph-data.json"),
         "utf8",
       ),
     );
@@ -394,7 +395,10 @@ test("Explore lists every authored principle, and opening one opens content — 
   // navigate to it") — the retired reading sheet is dead code (CLAUDE.md 6.8), so this asserts
   // where the app actually stands, normalised through the app's own `siteIdOf` because a pair
   // partner carries a different id from the hub the payload names (6.6).
-  const nodeRow = page.locator("[data-concept-node]").first();
+  // Exercise an ordinary position. The first arbitrary technique can now be a
+  // submission-control escape, whose navigation deliberately enters that submission state.
+  const nodeRow = page.locator('[data-concept-node^="Positions/"]').first();
+  await expect(nodeRow, "the principle lists a playable position").toHaveCount(1);
   const clickedId = await nodeRow.getAttribute("data-concept-node");
   await nodeRow.click();
   const landed = await page.evaluate((id: string) => {
@@ -561,7 +565,9 @@ test("arriving on a principle's own page opens it and starts NOTHING @curated", 
   // ── THE OTHER HALF OF THE RULE, and it is what keeps the first half from being "the app is
   //    broken": a POSITION, TRANSITION or SUBMISSION is what starts a roll, and the concept's own
   //    member list is full of them. Clicking one begins the roll the arrival refused to begin.
-  const nodeRow = page.locator("[data-concept-node]").first();
+  // A position starts a staged roll; a submission escape may enter a live defense.
+  const nodeRow = page.locator('[data-concept-node^="Positions/"]').first();
+  await expect(nodeRow, "the principle lists a playable position").toHaveCount(1);
   const clickedId = await nodeRow.getAttribute("data-concept-node");
   await nodeRow.click();
   await j.advance(600);

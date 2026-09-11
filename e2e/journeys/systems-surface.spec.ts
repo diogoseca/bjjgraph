@@ -494,10 +494,14 @@ test("the highlight dies with the view that lit it", async ({ page }) => {
     await litIds(page),
     "closing the pane leaves no lit graph the user can no longer see a selection for",
   ).toBeNull();
-  expect(
-    await page.evaluate(() => !!(window as any).__neural.paused),
-    "and the pane law still holds — the roll it stopped resumes",
-  ).toBe(false);
+  // v1.182.6: selecting a reference retires the roll. Closing its pane must
+  // leave an idle board; it cannot resume a node the reader has left.
+  // Mutation checked: omitting openSystem's _leaveRollForReference fails here.
+  await j.advance(1200);
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return { paused: !!a.paused, current: a.currentPos ?? null, options: a.optionIdxs.length };
+  })).toEqual({ paused: true, current: null, options: 0 });
 
   // reopening lands on the list, not on a detail view whose highlight has already gone
   await page.locator(".ng-logo").click();

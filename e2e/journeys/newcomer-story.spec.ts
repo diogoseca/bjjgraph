@@ -38,7 +38,12 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   await expect(page.locator("[data-land-id]")).toHaveCount(0);
   await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(0);
   const idText = (await page.locator("[data-landcard] [data-land-corner] [data-land-count]").textContent()) || "";
-  expect(idText, "nothing proven yet: the count starts at zero").toMatch(/^0\/\d+$/);
+  // Since v1.181.0 the visible counter is the card's page number, not mastery.
+  expect(idText, "the deck opens on its first card").toMatch(/^1\/\d+$/);
+  await expect(page.locator("[data-landcard] [data-land-count]"),
+    "nothing answered yet").toHaveAttribute("aria-label", /; 0 answered this visit$/);
+  await expect(page.locator("[data-landcard] [data-land-count]"),
+    "nothing proven yet").toHaveAttribute("data-land-count", /^0\/\d+$/);
   await expect(page.locator("[data-land-q]"), "one question").toHaveCount(1);
 
   // ── 3. answering right raises the odds and buys clock ──
@@ -121,7 +126,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   const elsewhere = await page.evaluate(() => {
     const a = (window as any).__neural;
     for (const n of a.nodes) {
-      if (n.ty !== "positions" || n.idx === a.currentPos) continue;
+      // Retired control-position aliases redirect into submissions (v1.176.0);
+      // this part of the story is about roaming to a normal, available position.
+      if (n.ty !== "positions" || n.idx === a.currentPos || !a.rsAllows(n)) continue;
       if (a.adj[n.idx].some((k: number) => a.nodes[k].ty !== "positions"))
         return n.idx;
     }

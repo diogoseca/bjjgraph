@@ -158,6 +158,7 @@ test("a returning player's opening draw is uniform over the playable pool", asyn
     a.startRoll();
     const pool = a._posIdx.slice();
     const mismatch: string[] = [];
+    const wrongSeats: string[] = [];
     let nameable = 0;
     const NAMES = [
       "Closed Guard Top",
@@ -174,13 +175,18 @@ test("a returning player's opening draw is uniform over the playable pool", asyn
       const u = (i + 0.5) / N;
       a._firstRollDone = false;
       a.rig("start-pos", [u]);
+      // Exercise both seats deterministically. The uniform draw selects a SITE;
+      // startRoll then resolves it to the player's top/bottom member (v1.176.0).
+      const role = i % 2 === 0 ? "top" : "bottom";
+      a.rig("role", [role === "top" ? 0 : 0.75]);
       a.startRoll();
       const got = a.currentPos;
       const want = pool[(u * pool.length) | 0]; // the historical uniform mapping, verbatim
-      if (got !== want)
+      if (a.siteIdOf(a.nodes[got].id) !== a.nodes[want].id)
         mismatch.push(
           `u=${u.toFixed(4)} got ${a.nodes[got].t} want ${a.nodes[want].t}`,
         );
+      if (a.nodes[got].role !== role) wrongSeats.push(a.nodes[got].id);
       if (NAMES.indexOf(a.nodes[got].t) >= 0) nameable++;
     }
     return {
@@ -188,6 +194,7 @@ test("a returning player's opening draw is uniform over the playable pool", asyn
       poolSize: pool.length,
       mismatch: mismatch.slice(0, 5),
       mismatches: mismatch.length,
+      wrongSeats,
       nameableShare: nameable / N,
     };
   });
@@ -200,6 +207,8 @@ test("a returning player's opening draw is uniform over the playable pool", asyn
     same.mismatches,
     `a returning player's draw must map u -> position exactly as it always did: ${JSON.stringify(same.mismatch)}`,
   ).toBe(0);
+  // Mutation checked: removing startRoll's top/bottom remap fails this assertion.
+  expect(same.wrongSeats, "the chosen site seats the player on the requested side").toEqual([]);
   expect(same.nameableShare, "and therefore stays uniform over the playable pool").toBeCloseTo(
     UNIFORM,
     2,
