@@ -4,264 +4,404 @@
   "tags": [
     "bjj",
     "principle",
-    "fundamental"
+    "fundamental",
+    "frames",
+    "guard-retention",
+    "inside-position",
+    "escapes"
   ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Elbow-Knee Connection organizes the elbows and knees around the torso to protect inside space. Defenders preserve or rebuild that barrier; attackers separate it to pass, pin, isolate limbs, and enter submissions.",
-  "overview": "The space between an elbow and its nearby knee is a common route to controlling the torso. Keeping those limbs coordinated can prevent a passer from reaching the hips and shoulders together, while reconnecting them helps a pinned player recover a useful frame or guard. Connection does not mean gluing the elbow to the knee throughout a roll: grips, posts, and attacks require deliberate openings. The question is whether the opening is protected by another useful structure. The player seeking control tries to separate the elbow and knee and occupy the gap before it closes. This relationship appears in guard retention, pin escapes, turtle exchanges, and the isolation that precedes many submissions.",
+  "summary": "Elbow-Knee Connection is the coordinated relationship between an elbow and its nearby knee that seals the inside space beside the torso; defenders keep or rebuild it to retain guard and escape, while attackers separate it to pass, pin, and isolate limbs.",
+  "overview": "Almost every top-position objective in jiu-jitsu can be restated as a sentence about this relationship. A passer wants one of the bottom player's elbows separated from its nearby knee so that a chest, hip, or shoulder can occupy the gap; a guard player wants the inside line short enough that the passer never arrives chest to chest. Pressure passing, knee-slice passing, and body-lock passing differ in the grip and the route, but each spends its first beat prying that barrier apart, and each pin that follows is held by staying inside it.\n\nThe word \"connection\" misleads beginners, who read it as a posture and clamp the joints together for a whole round. That costs the mobility frames are made of. The working reading is relational: an elbow and a knee are connected when the space beside the torso is short and defended, whether or not they touch. Grips, posts, underhooks, and submission entries all require deliberate openings, so the question is never whether the barrier opened — it is whether something else is paying for the opening while it is open: a cross-face frame, a hook, a shoulder turned to the mat, a leg across the hip.\n\nRecovery has an order, and the order is where most retention fails. The elbow comes home before the knee, because a knee reinserted under a pinned arm only buries the arm deeper, and because the hip escape is what creates the lane the knee travels through. On the attacking side the mirror rule is that a gap must be occupied, not reached into: an arm extended into the space with no weight behind it is the limb that gets isolated — which is exactly why elbow separation is the opening move of most armbar, kimura, and arm-triangle entries as well as most passes.",
   "key_principles": [
-    "Protect the space between your elbows, knees, and torso",
-    "Rebuild connection before trying to recover a large amount of space",
-    "Open the barrier deliberately for grips or posts and replace its support",
-    "Attack the gap with stable control rather than an unsupported reach",
-    "Coordinate hip movement with the returning elbow or knee",
-    "Treat connection as a changing relationship rather than a fixed pose"
+    "An elbow and its near-side knee define one inside gap; whoever occupies that gap controls the torso beside it",
+    "Connection is a relationship, not a pose — judge it by whether the inside line is short and defended, not by whether the joints touch",
+    "Recover in order: the elbow and upper-body frame come home before the knee, or the knee simply pins the arm",
+    "The hips move first and the limbs follow — the knee returns through a lane the hip escape opened, never through pressure",
+    "Every deliberate opening (grip, post, underhook, submission entry) must be paid for with a named replacement structure",
+    "Attack a gap by occupying it with weight and structure; an unsupported reach into the gap is the limb that gets isolated",
+    "A gap you cannot close should be pointed away — turn the exposed side toward the mat or back toward your own legs",
+    "Limb isolation begins as elbow separation, so defending the elbow-knee line defends the submission a beat earlier than the grip fight does"
   ],
   "component_skills": [
     {
-      "skill_name": "Recognize the gap",
-      "description": "Identify where a separated elbow and knee expose the hip or shoulder to control."
+      "skill_name": "Reading the inside line",
+      "description": "Identify, in a live exchange, which elbow-knee pair is separated and whether the opponent has already occupied that gap with weight or is still only reaching toward it."
     },
     {
-      "skill_name": "Recover inside space",
-      "description": "Bring a knee or elbow into a useful barrier while moving the hips out of pressure."
+      "skill_name": "Elbow recovery under pin",
+      "description": "Return a trapped or extended elbow to the ribs against a settled pin using bridge, shoulder rotation, and hand fighting, before any attempt to bring the leg back."
     },
     {
-      "skill_name": "Coordinate frames",
-      "description": "Link the upper-body frame and lower-body barrier so one does not leave the other exposed."
+      "skill_name": "Creating the knee lane",
+      "description": "Coordinate a hip escape with the returning knee so the leg enters space that already exists, rather than trying to drive a shin through the opponent's pressure."
     },
     {
-      "skill_name": "Separate the barrier",
-      "description": "Use grips and angle changes to move the elbow and knee apart while keeping balance."
+      "skill_name": "Replacement framing",
+      "description": "When a grip, underhook, or attack forces the barrier open, install a substitute structure — cross-face frame, shin, hook, or shoulder to the mat — that covers the gap while it is open."
     },
     {
-      "skill_name": "Replace lost connections",
-      "description": "Use another frame or hook when an attack temporarily opens the elbow-knee space."
+      "skill_name": "Separating the barrier",
+      "description": "As the top player, combine grips, angle change, and staggered pressure to pry an elbow away from its knee without surrendering balance or your own inside position."
+    },
+    {
+      "skill_name": "Occupying the gap",
+      "description": "Fill a created gap with a shoulder, hip, or thigh carrying real weight before advancing grips, so the defender cannot simply reconnect behind the reaching limb."
+    },
+    {
+      "skill_name": "Directing unclosable exposure",
+      "description": "When the barrier cannot be rebuilt, choose where the open side points — into the mat, into turtle, or toward your own legs — trading a small concession for denied entries."
     }
   ],
   "principle_relationships": [
     {
-      "principle_name": "Inside Position",
-      "relationship_type": "Complementary",
-      "description": "Inside Position supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+      "principle_name": "Frames",
+      "relationship_type": "Prerequisite",
+      "description": "A frame is the unit the barrier is built from; without a structured elbow and a shin able to bear load, there is nothing for the elbow and knee to connect into."
     },
     {
-      "principle_name": "Frames",
+      "principle_name": "Alignment",
+      "relationship_type": "Prerequisite",
+      "description": "The connection only holds while the spine, hips, and shoulders are stacked usefully — flattened or twisted out of alignment, the elbow and knee cannot reach each other regardless of intent."
+    },
+    {
+      "principle_name": "Inside Position",
       "relationship_type": "Complementary",
-      "description": "Frames supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+      "description": "Inside position decides who owns the gap once the elbow and knee separate; the connection is the defensive expression of the same contest for the inside line."
     },
     {
       "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
-      "description": "Hip Escape Mechanics supports the mechanics described in Elbow-Knee Connection; apply both when assessing each player’s control and recovery options."
+      "description": "The hip escape opens the lane the knee travels through, which is why a shrimp with no returning knee only rebuilds distance and a knee with no shrimp jams against pressure."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Complementary",
+      "description": "Pin escapes are, structurally, a sequence of reconnections: elbow home, hip out, knee in — the connection supplies the ordering that the escape supplies the technique for."
+    },
+    {
+      "principle_name": "Guard Passing",
+      "relationship_type": "Extension",
+      "description": "Passing systems are organized around the attacking half of this principle — separate one elbow from its knee, occupy the gap with weight, then settle into the pin behind it."
+    },
+    {
+      "principle_name": "Limb Isolation",
+      "relationship_type": "Extension",
+      "description": "Arm attacks begin where the connection ends: an elbow separated from its knee and unsupported by a replacement frame is the first condition for armbar, kimura, and arm-triangle entries."
     }
   ],
   "application_contexts": [
     {
-      "context": "Guard retention",
-      "how_applied": "Keep knees and elbows coordinated while tracking the passer around the hips."
+      "context": "Closed Guard",
+      "how_applied": "Keep both elbows inside the frame of the torso so the opponent's posture breaks cannot open a lane to the armpit; opening an elbow for a grip means the other elbow and both knees carry the load."
     },
     {
-      "context": "Guard passing",
-      "how_applied": "Separate the knee from its upper-body frame and occupy the gap with control."
+      "context": "Half Guard",
+      "how_applied": "The bottom player's inside elbow and top knee are the pair under contest — losing that line concedes the underhook and the flattening that precedes the pass."
     },
     {
-      "context": "Mount escapes",
-      "how_applied": "Recover an elbow inside, move the hips, and bring a knee into the opening."
+      "context": "Knee Shield Half Guard",
+      "how_applied": "The shield is the connection made visible: shin across the hip, elbow stacked above it, so the passer cannot reach the hips and shoulders in the same motion."
     },
     {
-      "context": "Side-control escapes",
-      "how_applied": "Frame at the upper body while creating a route for the near knee to return."
+      "context": "Open Guard",
+      "how_applied": "Between grip exchanges, retention is measured by how quickly a knee recovers to the same side as its elbow as the passer circles toward the hip."
     },
     {
-      "context": "Turtle and submissions",
-      "how_applied": "Protect exposed gaps and deny limb isolation; attackers occupy them before advancing."
+      "context": "Headquarters Position",
+      "how_applied": "The top player works to wedge the inside knee between the defender's elbow and knee, converting a neutral shin-to-shin contest into an occupied gap."
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "The bottom player frames at the neck and hip to recover the near elbow first, then hip escapes to create the lane the near knee returns through."
+    },
+    {
+      "context": "Mount",
+      "how_applied": "The bottom player's elbows must beat the knees to the inside — with both elbows outside, the hip escape only feeds the grapevine or the arm to an armbar."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Both elbow-knee pairs are stretched apart at once; recovering either elbow to the ribs is what restores the ability to turn in and rebuild a guard."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "The near elbow must reach the shin before the hips move, or the knee drive simply follows the escape and settles deeper."
+    },
+    {
+      "context": "Front Headlock",
+      "how_applied": "With the head and one arm controlled, the defender's remaining task is reconnecting the free elbow to its knee so the hips can come back under and deny the choke's finishing angle."
     }
   ],
   "decision_framework": [
     {
       "step_number": 1,
-      "decision_point": "What is the immediate objective?",
-      "action": "Protect the space between your elbows, knees, and torso"
+      "decision_point": "Which elbow-knee pair is the opponent working?",
+      "action": "Name the threatened side explicitly — the near elbow in a pin, the shield side in half guard, the reaching arm in turtle — and defend that pair rather than tidying both."
     },
     {
       "step_number": 2,
-      "decision_point": "Which support is useful?",
-      "action": "Rebuild connection before trying to recover a large amount of space"
+      "decision_point": "Is the gap merely open, or already occupied?",
+      "action": "If the opponent is still reaching, close the line immediately; if their weight is already inside, stop trying to close it and start moving your hips out from under it."
     },
     {
       "step_number": 3,
-      "decision_point": "What can the opponent recover?",
-      "action": "Open the barrier deliberately for grips or posts and replace its support"
+      "decision_point": "Did you open the barrier, or did they?",
+      "action": "If you opened it for a grip or an attack, confirm the replacement structure is in place; if they opened it, abandon the grip that cost you the line and rebuild."
     },
     {
       "step_number": 4,
-      "decision_point": "Can you act without losing structure?",
-      "action": "Attack the gap with stable control rather than an unsupported reach"
+      "decision_point": "Which comes home first, elbow or knee?",
+      "action": "Recover the elbow and its upper-body frame first; reinserting a knee under a pinned arm traps the arm and builds a half guard you cannot attack from."
     },
     {
       "step_number": 5,
-      "decision_point": "How did the opponent respond?",
-      "action": "Coordinate hip movement with the returning elbow or knee"
+      "decision_point": "Is there a lane for the knee to return through?",
+      "action": "Hip escape, bridge, or change your angle to create the space first, then insert the shin into space that already exists instead of driving it against pressure."
     },
     {
       "step_number": 6,
-      "decision_point": "Is the next action controlled?",
-      "action": "Treat connection as a changing relationship rather than a fixed pose"
+      "decision_point": "If the gap cannot be closed, where should it point?",
+      "action": "Turn the exposed side toward the mat or toward your own legs — concede the lesser position deliberately rather than leaving an open line to the back or the arm."
+    },
+    {
+      "step_number": 7,
+      "decision_point": "As the top player, is the gap occupied or just reached into?",
+      "action": "Fill it with shoulder, hip, or thigh weight and only then advance grips; an arm in the gap without weight behind it is the limb the defender attacks."
     }
   ],
   "common_errors": [
     {
-      "error": "Keeping everything clenched",
-      "consequence": "You lose the mobility needed to build useful frames.",
-      "correction": "Connect with purpose and move when the opening is protected."
+      "error": "Clamping elbows to knees for the whole round",
+      "consequence": "Frames go rigid and short, grips and posts become unavailable, and every guard turns into a single defensive shell the opponent can pressure at leisure.",
+      "correction": "Treat the connection as a line to keep short, not joints to glue; open it on purpose and replace it on purpose."
     },
     {
-      "error": "Moving the hips without frames",
-      "consequence": "The opponent follows and closes the opening.",
-      "correction": "Establish an upper-body barrier before recovering the knee."
+      "error": "Recovering the knee before the elbow",
+      "consequence": "The arm stays pinned under the opponent's chest and the resulting half guard has no offense — the pass is delayed, not stopped.",
+      "correction": "Fight the elbow back to the ribs first, then hip escape, then bring the knee in behind it."
     },
     {
-      "error": "Reaching the elbow away",
-      "consequence": "The torso becomes exposed to a pin or arm isolation.",
-      "correction": "Replace the barrier before committing the reach."
+      "error": "Hip escaping with no upper-body frame",
+      "consequence": "The opponent's chest simply follows the hips and closes the space you just created, usually arriving heavier than before.",
+      "correction": "Build the cross-face or hip frame that holds them off, then move — the frame buys the time the escape spends."
     },
     {
-      "error": "Pushing the knee through pressure",
-      "consequence": "Effort rises without creating a route.",
-      "correction": "Change the angle and move the hips first."
+      "error": "Reaching into the gap as the passer",
+      "consequence": "An unsupported arm inside the space is the classic underhook, kimura, or sweep gift, and the defender reconnects behind it.",
+      "correction": "Occupy the gap with shoulder or thigh weight first; grips follow weight, not the other way around."
     },
     {
-      "error": "Passing the legs but ignoring the elbow",
-      "consequence": "The defender can reconnect and recover guard.",
-      "correction": "Control the gap between hip and shoulder before settling."
+      "error": "Passing the legs while ignoring the far elbow",
+      "consequence": "The defender reconnects on the far side and recovers guard or turns in, so the pass never scores despite clearing the legs.",
+      "correction": "Control the line between their far hip and far shoulder before settling your weight into the pin."
+    },
+    {
+      "error": "Defending only the near-side barrier",
+      "consequence": "The far elbow floats away unnoticed, opening the back take, the arm triangle, or the crucifix from a position that felt safe.",
+      "correction": "Audit both pairs every time the position settles — ask where the far elbow is before you congratulate yourself on the near one."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Gap recognition",
-      "description": "Pause during guard passing and point out each exposed elbow-knee gap.",
-      "focus": "Awareness"
+      "approach_name": "Inside-line pause drill",
+      "description": "Roll positionally and freeze on a coach's call; both players name aloud which elbow-knee pair is separated and who currently owns that gap before restarting from the frozen position.",
+      "focus": "Recognition under live conditions"
     },
     {
-      "approach_name": "Retention rounds",
-      "description": "A passer tries to reach the torso while the guard player keeps useful barriers.",
+      "approach_name": "One-gap retention rounds",
+      "description": "The passer may only work one declared side for the whole round; the guard player wins by keeping that elbow and knee connected or reconnecting them within three seconds of any separation.",
       "focus": "Guard retention"
     },
     {
-      "approach_name": "Escape checkpoints",
-      "description": "Recover an inside elbow and then a knee from a cooperative pin.",
-      "focus": "Sequential recovery"
+      "approach_name": "Elbow-then-knee escape ladder",
+      "description": "From a settled pin, the bottom player must show the recovered elbow to the coach before any leg movement is allowed, then hip escape, then insert the knee — the sequence resets if the order breaks.",
+      "focus": "Recovery ordering"
     },
     {
-      "approach_name": "Separation rounds",
-      "description": "Begin with connected frames; the top player creates and occupies one gap.",
+      "approach_name": "Occupy, don't reach",
+      "description": "Passing rounds where the top player may not establish a new grip until a shoulder, hip, or thigh is already bearing weight inside the gap they created.",
       "focus": "Passing control"
+    },
+    {
+      "approach_name": "Replacement tax",
+      "description": "Any time either player opens the barrier for a grip, underhook, or submission entry, they call out the structure paying for it; an opening with no named replacement ends the exchange.",
+      "focus": "Deliberate openings"
     }
   ],
   "developmental_metrics": [
     {
       "level": "Beginner",
       "observable_behaviors": [
-        "Names the relevant supports in a paused exchange",
-        "Demonstrates the principle with a cooperative partner",
-        "Recognizes when control is lost and resets"
+        "Names which elbow and which knee are separated when a partner pauses mid-pass",
+        "Returns the trapped elbow to the ribs before trying to reinsert the knee in a cooperative side control escape",
+        "Keeps both elbows inside the frame of the torso while holding closed guard",
+        "Recognizes when the passer's weight has already entered the gap and stops trying to close it"
       ]
     },
     {
       "level": "Intermediate",
       "observable_behaviors": [
-        "Uses the principle against light resistance",
-        "Explains both the attacking and defensive application",
-        "Recovers the relevant structure after one disruption"
+        "Retains half guard against a light-resistance knee slice by shortening the elbow-knee line ahead of the passer's shoulder",
+        "Installs a cross-face frame or underhook when a grip forces the barrier open",
+        "As the passer, separates the elbow from its knee before advancing grips rather than after",
+        "Explains the principle from both the retaining and the passing role"
       ]
     },
     {
       "level": "Advanced",
       "observable_behaviors": [
-        "Maintains the principle through changing positions",
-        "Adapts when the opponent blocks the first route",
-        "Combines the principle with timing and angle changes"
+        "Rebuilds the barrier under real pressure by hip escaping first and inserting the knee into the lane that created",
+        "Concedes an unclosable gap deliberately, turning the exposed side toward the mat instead of leaving a line to the back",
+        "Reads an opponent's arm-isolation entry as elbow separation and defends a beat before the grip is finished",
+        "Occupies created gaps with weight and structure rather than an extended arm"
       ]
     },
     {
       "level": "Expert",
       "observable_behaviors": [
-        "Diagnoses subtle failures under varied resistance",
-        "Chooses when to release or replace a connection",
-        "Teaches the principle using examples from multiple roles"
+        "Sells a specific connection to bait a predictable pass route or arm attack, then punishes the committed entry",
+        "Diagnoses a training partner's retention failure as an ordering error rather than a missing technique",
+        "Keeps the inside line short through scrambles, turtle exchanges, and leg entanglement transitions where the pairs reshuffle",
+        "Teaches the principle from both roles, naming the replacement structure required for each deliberate opening"
       ]
     }
   ],
   "related_content": [
     {
-      "name": "Mount",
+      "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+      "relationship": "The clearest structural example of the principle — shin and elbow stacked on one side to deny the chest-to-chest connection."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "The inside elbow versus the passer's knee is the exchange that decides whether the underhook and the flattening arrive."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+      "relationship": "Escape here is the canonical elbow-then-hip-then-knee reconnection sequence."
     },
     {
-      "name": "Knee Shield Half Guard",
+      "name": "Mount",
       "content_type": "Position",
-      "relationship": "Apply Elbow-Knee Connection when establishing this control and when defending or recovering from it."
+      "relationship": "The bottom player's elbows must reach the inside before the knees, or the escape feeds the arm to an attack."
     },
     {
-      "name": "Inside Position",
-      "content_type": "Principle",
-      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+      "name": "North-South",
+      "content_type": "Position",
+      "relationship": "Both elbow-knee pairs are stretched at once, so recovering either elbow is what restores the ability to turn in."
+    },
+    {
+      "name": "Knee on Belly",
+      "content_type": "Position",
+      "relationship": "The near elbow must meet the shin before the hips move, or the knee drive follows the escape."
+    },
+    {
+      "name": "Headquarters Position",
+      "content_type": "Position",
+      "relationship": "The top player's inside knee is the wedge that converts a neutral leg contest into an occupied gap."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Elbows inside the torso frame are what keep posture breaks from opening a lane to the armpit."
+    },
+    {
+      "name": "Body Lock Pass",
+      "content_type": "Transition",
+      "relationship": "Works by removing the elbow-knee barrier entirely and closing the gap with a locked torso before the knees can return."
+    },
+    {
+      "name": "Back Step Pass",
+      "content_type": "Transition",
+      "relationship": "Changes the angle so the defender's elbow and knee are separated by rotation rather than by pressure."
+    },
+    {
+      "name": "Armbar from Mount",
+      "content_type": "Submission",
+      "relationship": "Requires an elbow separated from its knee with no replacement frame — the connection is the first defensive layer against it."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+      "relationship": "Supplies the structural unit the barrier is built from."
+    },
+    {
+      "name": "Inside Position",
+      "content_type": "Principle",
+      "relationship": "Describes the same contest from the attacking side: who occupies the gap once it opens."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Complementary framework for applying Elbow-Knee Connection across roles."
+      "relationship": "Creates the lane the knee returns through, which is why the two are trained as one movement."
     }
   ],
   "flashcards": [
     {
-      "question": "How does Elbow-Knee Connection apply in guard retention?",
-      "answer": "Keep knees and elbows coordinated while tracking the passer around the hips. Assess both players and maintain controlled movement as the exchange changes."
+      "question": "What is the Elbow-Knee Connection?",
+      "answer": "It is the coordinated relationship between an elbow and its nearby knee that seals the inside space beside the torso. Defenders keep or rebuild it to retain guard and escape; attackers separate it to pass, pin, and isolate limbs."
     },
     {
-      "question": "How does Elbow-Knee Connection apply in guard passing?",
-      "answer": "Separate the knee from its upper-body frame and occupy the gap with control. Assess both players and maintain controlled movement as the exchange changes."
+      "question": "Does connection mean the elbow and knee must physically touch?",
+      "answer": "No. Connection is relational, not postural: the pair is connected whenever the space beside the torso is short and defended. Clamping the joints together for a whole round costs the mobility your frames depend on."
     },
     {
-      "question": "How does Elbow-Knee Connection apply in mount escapes?",
-      "answer": "Recover an elbow inside, move the hips, and bring a knee into the opening. Assess both players and maintain controlled movement as the exchange changes."
+      "question": "When recovering from a pin, which comes home first — the elbow or the knee?",
+      "answer": "The elbow, always. A knee reinserted under a pinned arm buries the arm deeper and produces a half guard with no offense. Elbow to the ribs, then hip escape, then the knee travels through the lane the escape opened."
     },
     {
-      "question": "How does Elbow-Knee Connection apply in side-control escapes?",
-      "answer": "Frame at the upper body while creating a route for the near knee to return. Assess both players and maintain controlled movement as the exchange changes."
+      "question": "What must accompany any deliberate opening of the barrier?",
+      "answer": "A named replacement structure — a cross-face frame, a hook, a shin across the hip, or a shoulder turned to the mat. Grips, posts, underhooks and submission entries all require openings; the opening is only safe while something else is paying for it."
     },
     {
-      "question": "How does Elbow-Knee Connection apply in turtle and submissions?",
-      "answer": "Protect exposed gaps and deny limb isolation; attackers occupy them before advancing. Assess both players and maintain controlled movement as the exchange changes."
+      "question": "As the top player, why is reaching into a gap worse than occupying it?",
+      "answer": "An arm extended into the space with no weight behind it is unsupported, so it becomes the limb the defender underhooks, kimuras, or sweeps, and they reconnect behind it. Fill the gap with shoulder, hip, or thigh weight first, then advance grips."
     },
     {
-      "question": "What is Elbow-Knee Connection?",
-      "answer": "Elbow-Knee Connection organizes the elbows and knees around the torso to protect inside space. Defenders preserve or rebuild that barrier; attackers separate it to pass, pin, isolate limbs, and enter submissions."
+      "question": "How does this principle explain the first beat of most guard passes?",
+      "answer": "Pressure, knee-slice, and body-lock passing differ in grip and route, but each begins by prying one elbow away from its nearby knee and then occupying that gap; the pin that follows is held by staying inside the separated line."
+    },
+    {
+      "question": "What is the connection between elbow separation and submissions?",
+      "answer": "Limb isolation begins as elbow separation — an elbow away from its knee with no replacement frame is the entry condition for armbars, kimuras, and arm triangles. Defending the line defends the submission a beat before the grip fight starts."
+    },
+    {
+      "question": "Why does shrimping without an upper-body frame fail?",
+      "answer": "The opponent's chest follows the hips and closes the space you just created, usually arriving heavier. The frame holds them off long enough for the hips to travel, so the frame comes before the movement, not after it."
+    },
+    {
+      "question": "What should you do when a gap cannot be closed at all?",
+      "answer": "Point it somewhere harmless — turn the exposed side toward the mat, into turtle, or back toward your own legs. Choosing the concession denies the back take and the arm entry that an open, unmanaged line invites."
+    },
+    {
+      "question": "Why audit the far elbow and not just the threatened side?",
+      "answer": "Defending only the near pair lets the far elbow float away unnoticed, which opens the back take, the arm triangle, and the crucifix from a position that feels safe. Check where the far elbow is every time the position settles."
+    },
+    {
+      "question": "How can you tell a retention failure is an ordering error rather than a missing technique?",
+      "answer": "If the player has the frames and the hip escape but still gets flattened, look at sequence: a knee sent back before the elbow, or a shrimp fired before a frame exists. The pieces are present and simply arriving in the wrong order."
     }
   ],
   "graph_applicability": {
     "scope": "specific",
-    "rationale": "Highlights exchanges that preserve, rebuild, or separate the elbow-knee barrier, including the opponent’s passing, pinning, and limb-isolation opportunities.",
+    "rationale": "Applies to exchanges that preserve, rebuild, or separate the elbow-knee barrier — guard retention and recovery, pin escapes, passing entries that occupy the inside gap, and the limb isolation that follows a separated elbow.",
     "terms": [
       "elbow",
       "knee shield",
       "guard retention",
       "guard recovery",
-      "shrimp"
+      "half guard recovery",
+      "shrimp",
+      "hip escape",
+      "elbow escape",
+      "knee slice",
+      "body lock pass",
+      "underhook",
+      "frame"
     ],
     "families": []
   }

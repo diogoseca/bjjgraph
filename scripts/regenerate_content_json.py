@@ -11,7 +11,7 @@ Features:
 - Domain-specific prompts (RETENTION/EXECUTION/FINISHING)
 - Reference list building for wikilink validation
 - Stub creation for missing transitions
-- Uses Opus 4.6 for all Claude calls
+- Uses the default Claude model and effort from models.env (with environment overrides)
 
 Usage:
     python3 scripts/regenerate_content_json.py --file "content/Positions/Mount.json"

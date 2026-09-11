@@ -25278,6 +25278,42 @@
           "vote_count": 30
         }
       }
+    },
+    "Americana from Triangle Control": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Armbar from Triangle Control": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        }
+      }
+    },
+    "Kimura from Triangle Control": {
+      "community": {
+        "gi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        },
+        "nogi": {
+          "success_rate": 50.0,
+          "vote_count": 30
+        }
+      }
     }
   }
 }

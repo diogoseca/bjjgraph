@@ -47,7 +47,9 @@ For iterative work, edit JSON sources in `content/`, run a targeted regenerate s
 | `npm run validate:json` | Validate JSON sources against `templates/` schemas |
 | `npm run validate:graph` | Validate graph integrity (referential consistency, probability sums) |
 | `npm run regenerate:issues` | List content files that need fixes |
-| `npm run regenerate:json` | Fill TODOs / fix validation errors in JSON via Claude API |
+| `npm run regenerate:json` | Fill TODOs / fix validation errors in JSON via Claude CLI |
+| `npm run models:show` | Show the effective Claude models and reasoning effort |
+| `npm run validate:models` | Check model configuration and detect hardcoded model IDs |
 | `npm run regenerate:explode` | Expand graph connections (derive opponent transitions, etc.) |
 | `npm run regenerate:md` | Regenerate markdown from JSON via Jinja2 templates |
 | `npm run regenerate:hubs` | Generate category hub pages (`Positions.md`, `Transitions.md`, …) |
@@ -80,6 +82,26 @@ BJJGraph uses a **JSON-first** content system:
 Never edit `.md` files in `content/` directly — they are generated from the `.json` source files.
 
 For the complete workflow in one command, run `pnpm regenerate:build` (or `npm run regenerate:build`). It includes the Claude content-repair pass, graph regeneration, the Neural app bundle and data, and the static-site build. “Neural” is the project's interactive app: the graph explorer, study tools, and roll simulator. The content-repair pass can modify source JSON and uses Claude; this is a full regeneration rather than an incremental refresh.
+
+### Content generation model
+
+JSON regeneration uses the Claude CLI. Change `BJJ_CLAUDE_MODEL` in
+[`models.env`](models.env) to switch the default model for subsequent runs,
+including content regeneration and proofreading. That file also configures
+`BJJ_CLAUDE_MODEL_DEEP`, `BJJ_CLAUDE_MODEL_FAST`, and `BJJ_CLAUDE_EFFORT`.
+
+Check the effective settings with `npm run models:show`. For a one-off override:
+
+```bash
+BJJ_CLAUDE_MODEL=your-claude-model-id npm run regenerate:json
+```
+
+Replace `your-claude-model-id` with a model ID available to your Claude CLI.
+Exported environment variables take precedence over `models.env`; the model
+resolver does not load `.env` or `source/.env`. Run `npm run validate:models`
+to check configuration syntax and detect hardcoded IDs; this does not call
+Claude or verify model availability. Markdown and graph generation are local
+transformations and do not use an LLM.
 
 ### Documentation
 

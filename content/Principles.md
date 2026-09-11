@@ -437,7 +437,7 @@ Understand air choke mechanics in BJJ. Learn tracheal compression principles, wi
 
 ### [[Principles/Alignment|Alignment]]
 
-Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent’s across positions, transitions, and submissions.
+Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent's across positions, transitions, and submissions.
 
 ### [[Principles/Base|Base]]
 
