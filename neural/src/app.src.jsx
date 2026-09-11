@@ -15280,9 +15280,13 @@ class Component extends DCLogic {
     // picks — and everything below hydrates on demand through the "Loading this state's cards…"
     // path that already serves every cold deck in the app. Today's payload is unchanged to the
     // byte, because ten is what the hand used to be.
+    const prefetchPos = this.currentPos;
     setTimeout(() => {
+      // A reference click can retire the roll before this macrotask runs. Keep the
+      // landing's deck key and discard work for a seat (or app) that has been left.
+      if (this.__ngDestroyed || this.currentPos !== prefetchPos) return;
       this.hydrateDecks(
-        [this.deckKeyFor(this.nodes[this.currentPos]).key].concat(
+        [hkey].concat(
           opts.slice(0, NG_PREFETCH_CAP).map((o) => (o.node ? this.deckKeyFor(o.node).key : null)).filter(Boolean),
         ),
       );

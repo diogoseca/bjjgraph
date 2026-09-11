@@ -227,9 +227,44 @@ const litIds = (page: Page): Promise<string[] | null> =>
 
 const watchErrors = (page: Page) => {
   const errors: string[] = [];
-  page.on("pageerror", (e) => errors.push(e.message));
+  page.on("pageerror", (e) => errors.push(e.stack || e.message));
   return errors;
 };
+
+test("opening a reference before the landing prefetch runs leaves the roll retired @curated", async ({ page }) => {
+  const errors = watchErrors(page);
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await awaitConcepts(page);
+  const id = of("Principle")[0].id;
+  const state = await page.evaluate((id) => {
+    const a = (window as any).__neural;
+    const pending: (() => void)[] = [];
+    const nativeTimeout = window.setTimeout;
+    // Hold zero-delay work for one navigation: the browser may dispatch the next
+    // reference click before the landing's deferred neighbourhood prefetch.
+    window.setTimeout = ((fn: TimerHandler, delay?: number, ...args: any[]) => {
+      if (typeof fn === "function" && delay === 0) {
+        pending.push(() => fn(...args));
+        return 0;
+      }
+      return nativeTimeout(fn, delay, ...args);
+    }) as typeof window.setTimeout;
+    try {
+      a.stageRollAt(a.currentPos);
+      a.openConcept(id);
+    } finally {
+      window.setTimeout = nativeTimeout;
+    }
+    for (const callback of pending) callback();
+    return { deferred: pending.length, current: a.currentPos, paused: a.paused, options: a.optionIdxs.length };
+  }, id);
+  expect(state.deferred, "the landing actually scheduled deferred work").toBeGreaterThan(0);
+  expect(state).toMatchObject({ current: null, paused: true, options: 0 });
+  await expect(page.locator(`[data-concept-detail="${id}"]`)).toBeVisible();
+  expect(errors, "late landing work must not throw on the reference page").toEqual([]);
+});
 
 /** Open the pane on Explore the way a reader does, then expand ONE section (every Explore
  *  section defaults collapsed since v1.99.3 — explore-sections.spec.ts owns that contract). */
