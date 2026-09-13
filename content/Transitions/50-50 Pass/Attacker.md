@@ -305,9 +305,11 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 58% |
-| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 27% |
-| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 12% |
+| Failure | [[Positions/Half Guard]] | 18% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>

@@ -18,24 +18,40 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 58,
-        "nogi": 58
+        "gi": 45,
+        "nogi": 30
       },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
       "probability": {
-        "gi": 27,
-        "nogi": 27
+        "gi": 21,
+        "nogi": 30
       },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 12,
+        "nogi": 12
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": {
+        "gi": 14,
+        "nogi": 18
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": {
+        "gi": 8,
+        "nogi": 10
       },
       "result": "counter"
     }

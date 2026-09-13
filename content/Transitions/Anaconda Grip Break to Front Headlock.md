@@ -160,9 +160,10 @@ Successfully breaking the anaconda grip deposits you in front headlock bottom po
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Front Headlock]] | 55% |
-| Failure | [[Positions/Anaconda Control]] | 30% |
+| Success | [[Positions/Front Headlock]] | 45% |
+| Failure | [[Positions/Anaconda Control]] | 32% |
 | Counter | [[Positions/Darce Control]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 8% |
 
 
 </section>

@@ -333,9 +333,11 @@ The 100% Sweep is an advanced closed guard technique that reverses position from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 50% |
-| Failure | [[Positions/Closed Guard]] | 35% |
-| Counter | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 38% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 13% |
+| Success | [[Positions/Side Control]] | 12% |
+| Failure | [[Positions/Open Guard]] | 12% |
 
 
 </section>

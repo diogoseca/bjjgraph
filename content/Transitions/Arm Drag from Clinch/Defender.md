@@ -194,7 +194,7 @@ description: "Defend against the arm drag from clinch with early recognition, pu
 
 Defending the arm drag from clinch requires recognizing the setup before the drag initiates and understanding why the technique succeeds. The arm drag exploits extended arms and forward weight commitment, so defensive strategy centers on maintaining compact arm positioning, active pummeling, and immediate response when you feel two hands controlling one of your arms. The defender must develop the ability to turn failed defense into counter-offense, using the attacker's commitment to the drag as an opportunity for snap downs, counter-drags, or shooting underneath their reaching arms. Effective defense starts well before the drag attempt through disciplined hand fighting that denies the two-on-one grip configuration from forming.
 
-**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
